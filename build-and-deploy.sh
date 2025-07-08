@@ -1,4 +1,6 @@
 set -x
+export NODE_OPTIONS=--max_old_space_size=40000
+# $env:NODE_OPTIONS = "--max_old_space_size=40000"
 function git_pull() {
     git reset --hard
     git checkout -B master origin/master

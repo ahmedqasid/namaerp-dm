@@ -10,8 +10,8 @@ import {transliterate} from 'transliteration'
 import fullTextSearchPlugin from "./full-text-search/index.js";
 
 export default defineUserConfig({
-  title: 'Nama ERP Docs',
-  description: 'Nama ERP Documentation',
+  title: 'Nama ERP Data Model',
+  description: 'Nama ERP Data Model',
   head: [
     ['link', { rel: 'shortcut icon', type: 'image/png', href: '/namasoft.png' }]
   ],
@@ -21,14 +21,13 @@ export default defineUserConfig({
     contributors: false,
     sidebarDepth: 0,
     logo: '/hero.svg',
-    repo: 'ahmedqasid/namaerp-docs',
+    repo: 'ahmedqasid/namaerp-dm',
     docsDir: 'docs',
     docsBranch: 'master',
     editLink:true,
     editLinkText: 'Edit On github',
   }),
   plugins: [
-    // slimsearchPlugin({indexContent: true, indexOptions: {}})
     fullTextSearchPlugin(),
     markdownContainerPlugin({
       type: 'rtl',
@@ -40,8 +39,8 @@ export default defineUserConfig({
       before: ()=> `<div dir="ltr" class="ltr-block">`,
       after: () => `</div>`
     })
-    , sitemapPlugin({hostname: "https://docs.namasoft.com/"}),
-    seoPlugin({hostname: "https://docs.namasoft.com/"})
+    , sitemapPlugin({hostname: "https://dm.namasoft.com/"}),
+    seoPlugin({hostname: "https://dm.namasoft.com/"})
   ],
   bundler: viteBundler(),
   markdown: {

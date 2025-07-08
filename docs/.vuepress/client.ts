@@ -9,6 +9,9 @@ import GlobalConfigOption from "./components/GlobalConfigOption.vue";
 import LinkToNewRecord from "./components/LinkToNewRecord.vue";
 import SupplyChainOption from "./components/SupplyChainOption.vue";
 import CopyIcon from "./components/CopyIcon.vue";
+import FilterableContent from "./components/FilterableContent.vue";
+import FilterContainer from "./components/FilterContainer.vue";
+import ContentFilter from "./components/ContentFilter.vue";
 
 export default defineClientConfig({
     enhance({app, router, siteData}) {
@@ -24,12 +27,6 @@ export default defineClientConfig({
         app.component('LinkToNewRecord', LinkToNewRecord)
         app.component('SupplyChainOption', SupplyChainOption)
         app.component('CopyIcon', CopyIcon)
-        router.afterEach((to) => {
-            // console.log(to.meta._pageChunk.data.frontmatter.lang)
-            if(typeof window === 'undefined')
-                return;
-            // const isRtl = to.path.startsWith('/ar/') || to.meta._pageChunk?.data?.frontmatter?.lang === 'ar'
-            // document.documentElement.setAttribute('dir', isRtl ? 'rtl' : 'ltr')
-        })
+        app.component('ContentFilter', ContentFilter)
     }
 })

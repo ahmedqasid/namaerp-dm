@@ -1,0 +1,13 @@
+# Real Estate - Sales
+  - [PostHandoverCost](/entities/realestate-sales/PostHandoverCost.md)
+  - [RECancelContractReq](/entities/realestate-sales/RECancelContractReq.md)
+  - [REEStateHandover](/entities/realestate-sales/REEStateHandover.md)
+  - [REInitialSalesContract](/entities/realestate-sales/REInitialSalesContract.md)
+  - [REOpeningSales](/entities/realestate-sales/REOpeningSales.md)
+  - [REReturnPaymentDoc](/entities/realestate-sales/REReturnPaymentDoc.md)
+  - [RESalesDoc](/entities/realestate-sales/RESalesDoc.md)
+  - [RESalesOffer](/entities/realestate-sales/RESalesOffer.md)
+  - [RESalesPaymentMethod](/entities/realestate-sales/RESalesPaymentMethod.md)
+  - [RESalesPriceList](/entities/realestate-sales/RESalesPriceList.md)
+  - [RETempReservation](/entities/realestate-sales/RETempReservation.md)
+  - [REWaiverDoc](/entities/realestate-sales/REWaiverDoc.md)

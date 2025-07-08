@@ -1,0 +1,12 @@
+# Human Resources - Gulf Health Insurance
+  - [EmpHealthInsurDelete](/entities/humanresource-gulf-health-insurance/EmpHealthInsurDelete.md)
+  - [EmpHealthInsurDeleteReq](/entities/humanresource-gulf-health-insurance/EmpHealthInsurDeleteReq.md)
+  - [EmployeeHealthInsurance](/entities/humanresource-gulf-health-insurance/EmployeeHealthInsurance.md)
+  - [EmployeeHealthInsuranceReq](/entities/humanresource-gulf-health-insurance/EmployeeHealthInsuranceReq.md)
+  - [HealthInsuranceClaimDoc](/entities/humanresource-gulf-health-insurance/HealthInsuranceClaimDoc.md)
+  - [HealthInsuranceClaimRequest](/entities/humanresource-gulf-health-insurance/HealthInsuranceClaimRequest.md)
+  - [HealthInsuranceCredence](/entities/humanresource-gulf-health-insurance/HealthInsuranceCredence.md)
+  - [HealthInsuranceOffer](/entities/humanresource-gulf-health-insurance/HealthInsuranceOffer.md)
+  - [HealthInsuranceOfferRequest](/entities/humanresource-gulf-health-insurance/HealthInsuranceOfferRequest.md)
+  - [HealthInsuranceUpgrade](/entities/humanresource-gulf-health-insurance/HealthInsuranceUpgrade.md)
+  - [HealthInsuranceUpgradeReq](/entities/humanresource-gulf-health-insurance/HealthInsuranceUpgradeReq.md)
