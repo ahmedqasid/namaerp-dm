@@ -39,8 +39,8 @@ export default defineUserConfig({
       before: ()=> `<div dir="ltr" class="ltr-block">`,
       after: () => `</div>`
     })
-    , sitemapPlugin({hostname: "https://dm.namasoft.com/"}),
-    seoPlugin({hostname: "https://dm.namasoft.com/"})
+    // , sitemapPlugin({hostname: "https://dm.namasoft.com/"}),
+    // seoPlugin({hostname: "https://dm.namasoft.com/"})
   ],
   bundler: viteBundler(),
   markdown: {
