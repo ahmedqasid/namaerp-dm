@@ -17,7 +17,7 @@ export default defineUserConfig({
   ],
   theme: defaultTheme({
     sidebar: SIDEBAR_CONFIG,
-    navbar: ['/', '/guide/','/examples/'],
+    navbar: ['/entities/'],
     contributors: false,
     sidebarDepth: 0,
     logo: '/hero.svg',
@@ -39,8 +39,8 @@ export default defineUserConfig({
       before: ()=> `<div dir="ltr" class="ltr-block">`,
       after: () => `</div>`
     })
-    // , sitemapPlugin({hostname: "https://dm.namasoft.com/"}),
-    // seoPlugin({hostname: "https://dm.namasoft.com/"})
+    , sitemapPlugin({hostname: "https://dm.namasoft.com/"}),
+    seoPlugin({hostname: "https://dm.namasoft.com/"})
   ],
   shouldPrefetch: false,
   shouldPreload: false,

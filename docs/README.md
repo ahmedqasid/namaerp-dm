@@ -69,6 +69,7 @@ heroImage: hero.svg
     - [Manufacturing MRP](/entities/manufacturing-mrp/)
     - [Maintenance Contracting](/entities/mc/)
     - [Point Of Sale](/entities/namapos/)
+    - [POS App Tables](/entities/pos-app/)
     - [Real Estate](/entities/realestate/)
     - [Real Estate - Agricultural Investment](/entities/realestate-agri-investmnent/)
     - [Real Estate - Rent](/entities/realestate-rent/)

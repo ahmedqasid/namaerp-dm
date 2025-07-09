@@ -4,6 +4,7 @@
   "folderTitles": {
     "/": "Home",
     "/entities": "Entities",
+    "/entities/pos-app": "POS App Tables",
     "/entities/system-tables": "System Tables",
     "/entities/financial": "Financial",
     "/entities/supply-chain": "Supply Chain",
