@@ -42,6 +42,8 @@ export default defineUserConfig({
     // , sitemapPlugin({hostname: "https://dm.namasoft.com/"}),
     // seoPlugin({hostname: "https://dm.namasoft.com/"})
   ],
+  shouldPrefetch: false,
+  shouldPreload: false,
   bundler: viteBundler(),
   markdown: {
     slugify: (str) => {
