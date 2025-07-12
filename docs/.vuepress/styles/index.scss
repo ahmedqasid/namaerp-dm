@@ -16,12 +16,18 @@
 
 .row {
   display: table-row;
+  width: 100%;
 }
 
 .cell {
   display: table-cell;
   padding: 8px;
   border: 1px solid #ccc;
+}
+
+.nama-table {
+  display: table;
+  width: 100%;
 }
 
 .header-row {

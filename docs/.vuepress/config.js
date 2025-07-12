@@ -1,7 +1,7 @@
 import {defaultTheme} from '@vuepress/theme-default'
 import {defineUserConfig} from 'vuepress'
 import {viteBundler} from '@vuepress/bundler-vite'
-import {SIDEBAR_CONFIG} from "./sidebar.js";
+// import {SIDEBAR_CONFIG} from "./sidebar.js";
 
 import {markdownContainerPlugin} from "@vuepress/plugin-markdown-container";
 import {sitemapPlugin} from "@vuepress/plugin-sitemap";
@@ -16,10 +16,10 @@ export default defineUserConfig({
     ['link', { rel: 'shortcut icon', type: 'image/png', href: '/namasoft.png' }]
   ],
   theme: defaultTheme({
-    sidebar: SIDEBAR_CONFIG,
-    navbar: ['/entities/'],
+    // sidebar: SIDEBAR_CONFIG,
+    navbar: ['/modules/'],
     contributors: false,
-    sidebarDepth: 0,
+    // sidebarDepth: 0,
     logo: '/hero.svg',
     repo: 'ahmedqasid/namaerp-dm',
     docsDir: 'docs',
