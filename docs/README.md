@@ -95,3 +95,7 @@ heroImage: hero.svg
     - [Supply Chain - Weight Scales](/modules/supplychain-weight-scale/)
     - [System Tables](/modules/system-tables/)
     - [Travel and Tourism](/modules/travel/)
+
+<ClientOnly>
+    <RedirectFromHash />
+</ClientOnly>
