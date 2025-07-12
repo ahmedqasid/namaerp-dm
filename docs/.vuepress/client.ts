@@ -9,9 +9,8 @@ import GlobalConfigOption from "./components/GlobalConfigOption.vue";
 import LinkToNewRecord from "./components/LinkToNewRecord.vue";
 import SupplyChainOption from "./components/SupplyChainOption.vue";
 import CopyIcon from "./components/CopyIcon.vue";
-import FilterableContent from "./components/FilterableContent.vue";
-import FilterContainer from "./components/FilterContainer.vue";
 import ContentFilter from "./components/ContentFilter.vue";
+import RedirectFromHash from "./components/RedirectFromHash.vue";
 
 export default defineClientConfig({
     enhance({app, router, siteData}) {
@@ -28,5 +27,6 @@ export default defineClientConfig({
         app.component('SupplyChainOption', SupplyChainOption)
         app.component('CopyIcon', CopyIcon)
         app.component('ContentFilter', ContentFilter)
+        app.component('RedirectFromHash', RedirectFromHash)
     }
 })
