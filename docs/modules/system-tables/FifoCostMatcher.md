@@ -58,7 +58,7 @@
 <div class="cell" data-label="Type"></div>
 <div class="cell" data-label="Foreign Table">
 
- [FifoCostTransLine](/modules/system-tables/FifoCostTransLine.md) 
+ [FifoCostTransLine](/modules/system-tables/FifoCostTrans.md#details) 
 </div>
 </div>
 
@@ -97,7 +97,7 @@
 <div class="cell" data-label="Type"></div>
 <div class="cell" data-label="Foreign Table">
 
- [FifoCostTransLine](/modules/system-tables/FifoCostTransLine.md) 
+ [FifoCostTransLine](/modules/system-tables/FifoCostTrans.md#details) 
 </div>
 </div>
 
