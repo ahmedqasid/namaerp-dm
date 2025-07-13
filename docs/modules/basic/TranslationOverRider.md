@@ -390,8 +390,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -778,8 +778,8 @@
 </div><div class="row searchable" id="replacments.id">
 <div class="cell" data-label="Property">replacments.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -787,8 +787,8 @@
 <div class="row searchable" id="replacments.lineNumber">
 <div class="cell" data-label="Property">replacments.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -869,8 +869,8 @@
 <div class="row searchable" id="translations.id">
 <div class="cell" data-label="Property">translations.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -887,8 +887,8 @@
 <div class="row searchable" id="translations.lineNumber">
 <div class="cell" data-label="Property">translations.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>

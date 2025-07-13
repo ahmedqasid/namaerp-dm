@@ -1,4 +1,6 @@
 # POS.PosRequiredFields (Table Name: PosRequiredFields)
+**Arabic:** الحقول المطلوبه لنقاط البيع -  الحقول المطلوبه لنقاط البيع
+**English:** Pos Required Fields -  Pos Required Fields
 
 <ContentFilter/>
 
@@ -148,8 +150,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -245,8 +247,8 @@
 </div><div class="row searchable" id="details.customer">
 <div class="cell" data-label="Property">details.customer</div>
 <div class="cell" data-label="Column">customer_id</div>
-<div class="cell" data-label="Arabic">العميل</div>
-<div class="cell" data-label="English">Customer</div>
+<div class="cell" data-label="Arabic">العلاقه مع العميل | العميل</div>
+<div class="cell" data-label="English">Relation With Customer | Customer</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -257,8 +259,8 @@
 <div class="row searchable" id="details.docCategory">
 <div class="cell" data-label="Property">details.docCategory</div>
 <div class="cell" data-label="Column">docCategory_id</div>
-<div class="cell" data-label="Arabic"> تصنيف سجل</div>
-<div class="cell" data-label="English"> Record Category</div>
+<div class="cell" data-label="Arabic">العلاقه مع تصنيف السجل | تصنيف السجل</div>
+<div class="cell" data-label="English">Relation With Document Category | Document Category</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -287,8 +289,8 @@
 <div class="row searchable" id="details.id">
 <div class="cell" data-label="Property">details.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -296,8 +298,8 @@
 <div class="row searchable" id="details.invoiceClassification">
 <div class="cell" data-label="Property">details.invoiceClassification</div>
 <div class="cell" data-label="Column">invoiceClassification_id</div>
-<div class="cell" data-label="Arabic">تصنيف الفاتورة</div>
-<div class="cell" data-label="English">Invoice Classification</div>
+<div class="cell" data-label="Arabic">العلاقه مع تصنيف الفاتورة | تصنيف الفاتورة</div>
+<div class="cell" data-label="English">Relation With Invoice classification | Invoice classification</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -308,8 +310,8 @@
 <div class="row searchable" id="details.lineNumber">
 <div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -317,8 +319,8 @@
 <div class="row searchable" id="details.locator">
 <div class="cell" data-label="Property">details.locator</div>
 <div class="cell" data-label="Column">locator_id</div>
-<div class="cell" data-label="Arabic">الموقع</div>
-<div class="cell" data-label="English">Locator</div>
+<div class="cell" data-label="Arabic">العلاقه مع الموقع | الموقع</div>
+<div class="cell" data-label="English">Relation With Locator | Locator</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -329,8 +331,8 @@
 <div class="row searchable" id="details.posFieldType">
 <div class="cell" data-label="Property">details.posFieldType</div>
 <div class="cell" data-label="Column">posFieldType</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">نوع الحقل</div>
+<div class="cell" data-label="English">Field Type</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
@@ -338,8 +340,8 @@
 <div class="row searchable" id="details.relationWithClassification">
 <div class="cell" data-label="Property">details.relationWithClassification</div>
 <div class="cell" data-label="Column">relationWithClassification</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">العلاقه مع تصنيف الفاتورة | العلاقه</div>
+<div class="cell" data-label="English">Relation With Invoice classification | Relation</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
@@ -347,8 +349,8 @@
 <div class="row searchable" id="details.relationWithCustomer">
 <div class="cell" data-label="Property">details.relationWithCustomer</div>
 <div class="cell" data-label="Column">relationWithCustomer</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">العلاقه مع العميل | العلاقه</div>
+<div class="cell" data-label="English">Relation With Customer | Relation</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
@@ -356,8 +358,8 @@
 <div class="row searchable" id="details.relationWithDocCategory">
 <div class="cell" data-label="Property">details.relationWithDocCategory</div>
 <div class="cell" data-label="Column">relationWithDocCategory</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">العلاقه مع تصنيف السجل | العلاقه</div>
+<div class="cell" data-label="English">Relation With Document Category | Relation</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
@@ -365,8 +367,8 @@
 <div class="row searchable" id="details.relationWithLocator">
 <div class="cell" data-label="Property">details.relationWithLocator</div>
 <div class="cell" data-label="Column">relationWithLocator</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">العلاقه مع الموقع | العلاقه</div>
+<div class="cell" data-label="English">Relation With Locator | Relation</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
@@ -374,8 +376,8 @@
 <div class="row searchable" id="details.relationWithSalesMan">
 <div class="cell" data-label="Property">details.relationWithSalesMan</div>
 <div class="cell" data-label="Column">relationWithSalesMan</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">العلاقه مع مندوب المبيعات | العلاقه</div>
+<div class="cell" data-label="English">Relation With Sales Man | Relation</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
@@ -383,8 +385,8 @@
 <div class="row searchable" id="details.relationWithWarehouse">
 <div class="cell" data-label="Property">details.relationWithWarehouse</div>
 <div class="cell" data-label="Column">relationWithWarehouse</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">العلاقه مع المخزن | العلاقه</div>
+<div class="cell" data-label="English">Relation With Warehouse | Relation</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
@@ -404,8 +406,8 @@
 <div class="row searchable" id="details.salesMan">
 <div class="cell" data-label="Property">details.salesMan</div>
 <div class="cell" data-label="Column">salesMan_id</div>
-<div class="cell" data-label="Arabic">مندوب المبيعات</div>
-<div class="cell" data-label="English">Salesman</div>
+<div class="cell" data-label="Arabic">العلاقه مع مندوب المبيعات | مندوب المبيعات</div>
+<div class="cell" data-label="English">Relation With Sales Man | Sales Man</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -416,8 +418,8 @@
 <div class="row searchable" id="details.warehouse">
 <div class="cell" data-label="Property">details.warehouse</div>
 <div class="cell" data-label="Column">warehouse_id</div>
-<div class="cell" data-label="Arabic">المخزن</div>
-<div class="cell" data-label="English">Warehouse</div>
+<div class="cell" data-label="Arabic">العلاقه مع المخزن | المخزن</div>
+<div class="cell" data-label="English">Relation With Warehouse | Warehouse</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

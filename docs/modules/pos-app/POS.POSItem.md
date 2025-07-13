@@ -1,4 +1,6 @@
 # POS.POSItem (Table Name: POSItem)
+**Arabic:** صنف - أصناف
+**English:** Item - Items
 
 <ContentFilter/>
 
@@ -22,8 +24,8 @@
 </div><div class="row searchable" id="altCode">
 <div class="cell" data-label="Property">altCode</div>
 <div class="cell" data-label="Column">altCode</div>
-<div class="cell" data-label="Arabic">الكود الإنجليزي</div>
-<div class="cell" data-label="English">English Code</div>
+<div class="cell" data-label="Arabic">الكود البديل</div>
+<div class="cell" data-label="English">Alternate Code</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
@@ -328,8 +330,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -589,7 +591,7 @@
 <div class="row searchable" id="taxPlan">
 <div class="cell" data-label="Property">taxPlan</div>
 <div class="cell" data-label="Column">taxPlan_id</div>
-<div class="cell" data-label="Arabic"> سياسة الضريبة</div>
+<div class="cell" data-label="Arabic">الضريبة</div>
 <div class="cell" data-label="English"> Tax Plan</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
@@ -635,8 +637,8 @@
 <div class="row searchable" id="customerCodes.id">
 <div class="cell" data-label="Property">customerCodes.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -644,8 +646,8 @@
 <div class="row searchable" id="customerCodes.lineNumber">
 <div class="cell" data-label="Property">customerCodes.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -690,8 +692,8 @@
 <div class="row searchable" id="details.id">
 <div class="cell" data-label="Property">details.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -699,8 +701,8 @@
 <div class="row searchable" id="details.lineNumber">
 <div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -769,8 +771,8 @@
 <div class="row searchable" id="manfCodes.id">
 <div class="cell" data-label="Property">manfCodes.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -778,8 +780,8 @@
 <div class="row searchable" id="manfCodes.lineNumber">
 <div class="cell" data-label="Property">manfCodes.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -854,8 +856,8 @@
 <div class="row searchable" id="revisions.id">
 <div class="cell" data-label="Property">revisions.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -863,8 +865,8 @@
 <div class="row searchable" id="revisions.lineNumber">
 <div class="cell" data-label="Property">revisions.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -972,8 +974,8 @@
 <div class="row searchable" id="sizesAndColors.id">
 <div class="cell" data-label="Property">sizesAndColors.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -981,8 +983,8 @@
 <div class="row searchable" id="sizesAndColors.lineNumber">
 <div class="cell" data-label="Property">sizesAndColors.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -1072,8 +1074,8 @@
 <div class="row searchable" id="units.id">
 <div class="cell" data-label="Property">units.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -1081,8 +1083,8 @@
 <div class="row searchable" id="units.lineNumber">
 <div class="cell" data-label="Property">units.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>

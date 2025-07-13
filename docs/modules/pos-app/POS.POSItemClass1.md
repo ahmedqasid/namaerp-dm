@@ -1,4 +1,6 @@
 # POS.POSItemClass1 (Table Name: POSItemClass1)
+**Arabic:** تصنيف صنف 1 - تصنيفات صنف 1
+**English:** Item class 1 - Item classes 1
 
 <ContentFilter/>
 
@@ -152,8 +154,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>

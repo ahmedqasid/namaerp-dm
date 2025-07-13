@@ -1,4 +1,6 @@
 # POS.POSSalesOffers (Table Name: POSSalesOffers)
+**Arabic:** عرض - العروض
+**English:** Sales Offer - Sales Offers
 
 <ContentFilter/>
 
@@ -187,8 +189,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -446,8 +448,8 @@
 <div class="row searchable" id="coupons.id">
 <div class="cell" data-label="Property">coupons.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -491,8 +493,8 @@
 <div class="row searchable" id="coupons.lineNumber">
 <div class="cell" data-label="Property">coupons.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -768,8 +770,8 @@
 <div class="row searchable" id="details.discountDefaultValue">
 <div class="cell" data-label="Property">details.discountDefaultValue</div>
 <div class="cell" data-label="Column">discountDefaultValue</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">التخفيض | االافتراضي</div>
+<div class="cell" data-label="English">Discount | Default</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
@@ -777,8 +779,8 @@
 <div class="row searchable" id="details.discountLocation">
 <div class="cell" data-label="Property">details.discountLocation</div>
 <div class="cell" data-label="Column">discountLocation</div>
-<div class="cell" data-label="Arabic">الخصم | في</div>
-<div class="cell" data-label="English">Discount | In</div>
+<div class="cell" data-label="Arabic">التخفيض | في</div>
+<div class="cell" data-label="English">Discount | Location</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
@@ -786,8 +788,8 @@
 <div class="row searchable" id="details.discountMaxValue">
 <div class="cell" data-label="Property">details.discountMaxValue</div>
 <div class="cell" data-label="Column">discountMaxValue</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">التخفيض | الحد الأقصى</div>
+<div class="cell" data-label="English">Discount | Max. Value</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
@@ -795,8 +797,8 @@
 <div class="row searchable" id="details.discountMinValue">
 <div class="cell" data-label="Property">details.discountMinValue</div>
 <div class="cell" data-label="Column">discountMinValue</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">التخفيض | الحد الأدنى</div>
+<div class="cell" data-label="English">Discount | Min. Value</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
@@ -840,8 +842,8 @@
 <div class="row searchable" id="details.id">
 <div class="cell" data-label="Property">details.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -1101,8 +1103,8 @@
 <div class="row searchable" id="details.lineNumber">
 <div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -1867,8 +1869,8 @@
 <div class="row searchable" id="freeItems.id">
 <div class="cell" data-label="Property">freeItems.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -2125,8 +2127,8 @@
 <div class="row searchable" id="freeItems.lineNumber">
 <div class="cell" data-label="Property">freeItems.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -2441,8 +2443,8 @@
 <div class="row searchable" id="invDiscountLines.id">
 <div class="cell" data-label="Property">invDiscountLines.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -2489,8 +2491,8 @@
 <div class="row searchable" id="invDiscountLines.lineNumber">
 <div class="cell" data-label="Property">invDiscountLines.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -2928,8 +2930,8 @@
 <div class="row searchable" id="invOffersLines.id">
 <div class="cell" data-label="Property">invOffersLines.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -2976,8 +2978,8 @@
 <div class="row searchable" id="invOffersLines.lineNumber">
 <div class="cell" data-label="Property">invOffersLines.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -3319,8 +3321,8 @@
 <div class="row searchable" id="itemsCountOffers.id">
 <div class="cell" data-label="Property">itemsCountOffers.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -3499,8 +3501,8 @@
 <div class="row searchable" id="itemsCountOffers.lineNumber">
 <div class="cell" data-label="Property">itemsCountOffers.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>

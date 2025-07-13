@@ -1,4 +1,6 @@
 # POS.POSSalesPriceClassifier5 (Table Name: POSSalesPriceClassifier5)
+**Arabic:** محدد سعر مبيعات 5 -  محدد سعر مبيعات 5
+**English:** Sales Price Classifier 5 -  Sales Price Classifier 5
 
 <ContentFilter/>
 
@@ -143,8 +145,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>

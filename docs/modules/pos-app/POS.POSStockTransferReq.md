@@ -1,4 +1,6 @@
 # POS.POSStockTransferReq (Table Name: POSStockTransferReq)
+**Arabic:** طلب تحويل مخزني نقاط البيع -  طلب تحويل مخزني نقاط البيع
+**English:** POS Stock Transfer Request -  POS Stock Transfer Request
 
 <ContentFilter/>
 
@@ -598,8 +600,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -1039,8 +1041,8 @@
 <div class="row searchable" id="warehouse">
 <div class="cell" data-label="Property">warehouse</div>
 <div class="cell" data-label="Column">warehouse_id</div>
-<div class="cell" data-label="Arabic">المخزن</div>
-<div class="cell" data-label="English">Warehouse</div>
+<div class="cell" data-label="Arabic">من مخزن</div>
+<div class="cell" data-label="English">From Warehouse</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -1454,8 +1456,8 @@
 <div class="row searchable" id="details.id">
 <div class="cell" data-label="Property">details.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -1592,8 +1594,8 @@
 <div class="row searchable" id="details.lineNumber">
 <div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>

@@ -283,6 +283,15 @@
 
 </div>
 
+<div class="row searchable" id="contractType">
+<div class="cell" data-label="Property">contractType</div>
+<div class="cell" data-label="Column">contractType</div>
+<div class="cell" data-label="Arabic">نوع بند العقد</div>
+<div class="cell" data-label="English">Service Contract Type</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="createTransactionId">
 <div class="cell" data-label="Property">createTransactionId</div>
 <div class="cell" data-label="Column">createTransactionId</div>
@@ -625,8 +634,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -829,6 +838,15 @@
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="programType">
+<div class="cell" data-label="Property">programType</div>
+<div class="cell" data-label="Column">programType</div>
+<div class="cell" data-label="Arabic">نوع البرنامج</div>
+<div class="cell" data-label="English">Program Type</div>
+<div class="cell" data-label="Type">Enum</div>
 
 </div>
 

@@ -1,5 +1,5 @@
 # Real Estate - Agricultural Investment
-  - [AggregatedInvestmentDocROIProof](/modules/realestate-agri-investmnent/AggregatedInvestmentDocROIProof.md)
+  - [AgrInvestmentContractCategory](/modules/realestate-agri-investmnent/AgrInvestmentContractCategory.md)
   - [AgrInvestContrProfitClaim](/modules/realestate-agri-investmnent/AgrInvestContrProfitClaim.md)
   - [AgrInvestmentContract](/modules/realestate-agri-investmnent/AgrInvestmentContract.md)
-  - [AgrInvestmentContractCategory](/modules/realestate-agri-investmnent/AgrInvestmentContractCategory.md)
+  - [AggregatedInvestmentDocROIProof](/modules/realestate-agri-investmnent/AggregatedInvestmentDocROIProof.md)

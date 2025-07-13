@@ -6,7 +6,7 @@
 
 
 <div class='searchable'>
-<a href='#copyToEcommerceItemLines'>copyToEcommerceItemLines (MagCopyToEcommerceItemLine) </a> , <a href='#documentGenerationInfoLines'>documentGenerationInfoLines (EcommerceDocumentGenerationInfo) </a> , <a href='#ecommerceEventActionsLines'>ecommerceEventActionsLines (EcommerceEventActionsLine) </a> , <a href='#ecommerceWarehouseLines'>ecommerceWarehouseLines (EcommerceWarehouseLine) </a> , <a href='#paymentMethods'>paymentMethods (MAGSitePaymentMethodsLine) </a> , <a href='#shippingItems'>shippingItems (MAGSiteShippingItemLine) </a> , <a href='#updateItemFor'>updateItemFor (MAGSiteItemUpdateCriteria) </a> , <a href='#updateOrderStatusTo'>updateOrderStatusTo (MagentoOrderUpdateStatus) </a> , <a href='#updateQtyFor'>updateQtyFor (MAGSiteQtyUpdateCriteria) </a>
+<a href='#copyToEcommerceItemLines'>copyToEcommerceItemLines (MagCopyToEcommerceItemLine) </a> , <a href='#documentGenerationInfoLines'>documentGenerationInfoLines (EcommerceDocumentGenerationInfo) </a> , <a href='#ecommerceEventActionsLines'>ecommerceEventActionsLines (EcommerceEventActionsLine) </a> , <a href='#ecommerceWarehouseLines'>ecommerceWarehouseLines (EcommerceWarehouseLine) </a> , <a href='#graphQLLines'>graphQLLines (EcommerceGraphQLLine) </a> , <a href='#paymentMethods'>paymentMethods (MAGSitePaymentMethodsLine) </a> , <a href='#shippingItems'>shippingItems (MAGSiteShippingItemLine) </a> , <a href='#updateItemFor'>updateItemFor (MAGSiteItemUpdateCriteria) </a> , <a href='#updateOrderStatusTo'>updateOrderStatusTo (MagentoOrderUpdateStatus) </a> , <a href='#updateQtyFor'>updateQtyFor (MAGSiteQtyUpdateCriteria) </a>
 </div>
 
 <div class='searchable'>
@@ -564,6 +564,15 @@
 
 </div>
 
+<div class="row searchable" id="ecommerceGeneratedAppAccessToken">
+<div class="cell" data-label="Property">ecommerceGeneratedAppAccessToken</div>
+<div class="cell" data-label="Column">ecommerceGeneratedAppAccessToken</div>
+<div class="cell" data-label="Arabic">Ecommerce Generated Application Access Token</div>
+<div class="cell" data-label="English">Ecommerce Generated Application Access Token</div>
+<div class="cell" data-label="Type">Password</div>
+
+</div>
+
 <div class="row searchable" id="ecommerceItemIdPath">
 <div class="cell" data-label="Property">ecommerceItemIdPath</div>
 <div class="cell" data-label="Column">ecommerceItemIdPath</div>
@@ -732,8 +741,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -1983,6 +1992,15 @@
 
 </div>
 
+<div class="row searchable" id="useGraphQL">
+<div class="cell" data-label="Property">useGraphQL</div>
+<div class="cell" data-label="Column">useGraphQL</div>
+<div class="cell" data-label="Arabic">Use GraphQL Api</div>
+<div class="cell" data-label="English">Use GraphQL Api</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="useQtyCalcQuery">
 <div class="cell" data-label="Property">useQtyCalcQuery</div>
 <div class="cell" data-label="Column">useQtyCalcQuery</div>
@@ -2125,8 +2143,8 @@
 <div class="row searchable" id="copyToEcommerceItemLines.id">
 <div class="cell" data-label="Property">copyToEcommerceItemLines.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -2134,8 +2152,8 @@
 <div class="row searchable" id="copyToEcommerceItemLines.lineNumber">
 <div class="cell" data-label="Property">copyToEcommerceItemLines.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -2336,8 +2354,8 @@
 <div class="row searchable" id="documentGenerationInfoLines.id">
 <div class="cell" data-label="Property">documentGenerationInfoLines.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -2345,8 +2363,8 @@
 <div class="row searchable" id="documentGenerationInfoLines.lineNumber">
 <div class="cell" data-label="Property">documentGenerationInfoLines.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -2379,8 +2397,8 @@
 <div class="row searchable" id="ecommerceEventActionsLines.id">
 <div class="cell" data-label="Property">ecommerceEventActionsLines.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -2388,8 +2406,8 @@
 <div class="row searchable" id="ecommerceEventActionsLines.lineNumber">
 <div class="cell" data-label="Property">ecommerceEventActionsLines.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -2458,8 +2476,8 @@
 <div class="row searchable" id="ecommerceWarehouseLines.id">
 <div class="cell" data-label="Property">ecommerceWarehouseLines.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -2467,8 +2485,8 @@
 <div class="row searchable" id="ecommerceWarehouseLines.lineNumber">
 <div class="cell" data-label="Property">ecommerceWarehouseLines.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -2483,6 +2501,67 @@
 
  [Warehouse](/modules/supplychain/Warehouse.md) 
 </div>
+</div>
+
+
+</div>
+</div>
+
+<div id='graphQLLines' title='graphQLLines' class='searchable'>
+
+## graphQLLines (Graph QL Lines - Graph QL Lines)
+**Table Name:** EcommerceGraphQLLine, **Join Column:** mAGMagentoSite_id
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="graphQLLines.ecommerceGraphEntityOperation">
+<div class="cell" data-label="Property">graphQLLines.ecommerceGraphEntityOperation</div>
+<div class="cell" data-label="Column">ecommerceGraphEntityOperation</div>
+<div class="cell" data-label="Arabic">نوع العملية</div>
+<div class="cell" data-label="English">Operation Type</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="graphQLLines.graphQuery">
+<div class="cell" data-label="Property">graphQLLines.graphQuery</div>
+<div class="cell" data-label="Column">graphQuery</div>
+<div class="cell" data-label="Arabic">Graph Query</div>
+<div class="cell" data-label="English">Graph Query</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="graphQLLines.id">
+<div class="cell" data-label="Property">graphQLLines.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="graphQLLines.lineNumber">
+<div class="cell" data-label="Property">graphQLLines.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="graphQLLines.variablesFieldsMapASJson">
+<div class="cell" data-label="Property">graphQLLines.variablesFieldsMapASJson</div>
+<div class="cell" data-label="Column">variablesFieldsMapASJson</div>
+<div class="cell" data-label="Arabic">Variables Fields Map As JSON (Root Entity order/item)</div>
+<div class="cell" data-label="English">Variables Fields Map As JSON (Root Entity order/item)</div>
+<div class="cell" data-label="Type">BigText</div>
+
 </div>
 
 
@@ -2540,8 +2619,8 @@
 <div class="row searchable" id="paymentMethods.id">
 <div class="cell" data-label="Property">paymentMethods.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -2549,8 +2628,8 @@
 <div class="row searchable" id="paymentMethods.lineNumber">
 <div class="cell" data-label="Property">paymentMethods.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -2631,8 +2710,8 @@
 <div class="row searchable" id="shippingItems.id">
 <div class="cell" data-label="Property">shippingItems.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -2652,8 +2731,8 @@
 <div class="row searchable" id="shippingItems.lineNumber">
 <div class="cell" data-label="Property">shippingItems.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -2746,8 +2825,8 @@
 <div class="row searchable" id="updateItemFor.id">
 <div class="cell" data-label="Property">updateItemFor.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -2887,8 +2966,8 @@
 <div class="row searchable" id="updateItemFor.lineNumber">
 <div class="cell" data-label="Property">updateItemFor.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -2960,8 +3039,8 @@
 <div class="row searchable" id="updateOrderStatusTo.id">
 <div class="cell" data-label="Property">updateOrderStatusTo.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -2969,8 +3048,8 @@
 <div class="row searchable" id="updateOrderStatusTo.lineNumber">
 <div class="cell" data-label="Property">updateOrderStatusTo.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -3162,8 +3241,8 @@
 <div class="row searchable" id="updateQtyFor.id">
 <div class="cell" data-label="Property">updateQtyFor.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -3327,8 +3406,8 @@
 <div class="row searchable" id="updateQtyFor.lineNumber">
 <div class="cell" data-label="Property">updateQtyFor.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>

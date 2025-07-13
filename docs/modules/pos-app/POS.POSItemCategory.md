@@ -1,4 +1,6 @@
 # POS.POSItemCategory (Table Name: POSItemCategory)
+**Arabic:** فئة صنف - فئات أصناف
+**English:** Item Category - Item Categories
 
 <ContentFilter/>
 
@@ -161,8 +163,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -224,8 +226,8 @@
 <div class="row searchable" id="section">
 <div class="cell" data-label="Property">section</div>
 <div class="cell" data-label="Column">section_id</div>
-<div class="cell" data-label="Arabic">قسم الصنف</div>
-<div class="cell" data-label="English">Item Section</div>
+<div class="cell" data-label="Arabic">قسم الفئة</div>
+<div class="cell" data-label="English">Category Section</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

@@ -1,4 +1,6 @@
 # POS.POSGenericReferenceOverrider (Table Name: POSGenericReferenceOverrider)
+**Arabic:** أعدادات الحقول و الشاشات -  أعدادات الحقول و الشاشات
+**English:** Fields and Entities Settings -  Fields and Entities Settings
 
 <ContentFilter/>
 
@@ -148,8 +150,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -275,8 +277,8 @@
 <div class="row searchable" id="extraCodes.id">
 <div class="cell" data-label="Property">extraCodes.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -284,8 +286,8 @@
 <div class="row searchable" id="extraCodes.lineNumber">
 <div class="cell" data-label="Property">extraCodes.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -348,8 +350,8 @@
 <div class="row searchable" id="fieldFormats.id">
 <div class="cell" data-label="Property">fieldFormats.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -366,8 +368,8 @@
 <div class="row searchable" id="fieldFormats.lineNumber">
 <div class="cell" data-label="Property">fieldFormats.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>

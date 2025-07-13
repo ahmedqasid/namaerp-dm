@@ -1,4 +1,6 @@
 # POS.POSSalesPriceList (Table Name: POSSalesPriceList)
+**Arabic:** قائمة أسعار - قوائم أسعار المبيعات
+**English:** Price List - Price Lists
 
 <ContentFilter/>
 
@@ -178,8 +180,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -461,8 +463,8 @@
 <div class="row searchable" id="details.id">
 <div class="cell" data-label="Property">details.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -590,8 +592,8 @@
 <div class="row searchable" id="details.lineNumber">
 <div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -779,8 +781,8 @@
 <div class="row searchable" id="details.qty.uom">
 <div class="cell" data-label="Property">details.qty.uom</div>
 <div class="cell" data-label="Column">qUom_id</div>
-<div class="cell" data-label="Arabic">الوحدة</div>
-<div class="cell" data-label="English">Unit</div>
+<div class="cell" data-label="Arabic">الكمية | وحدة</div>
+<div class="cell" data-label="English">Quantity | Unit</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -791,8 +793,8 @@
 <div class="row searchable" id="details.qty.value">
 <div class="cell" data-label="Property">details.qty.value</div>
 <div class="cell" data-label="Column">qValue</div>
-<div class="cell" data-label="Arabic">الكمية</div>
-<div class="cell" data-label="English">Quantity</div>
+<div class="cell" data-label="Arabic">الكمية | اقل قيمة</div>
+<div class="cell" data-label="English">Quantity | Min Value</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>

@@ -1,4 +1,6 @@
 # POS.POSItemQtyUpdateConfig (Table Name: POSItemQtyUpdateConfig)
+**Arabic:** إعدادات تحديث كميات الماكينة - ملفات إعدادات تحديث كميات الماكينة
+**English:** POS Item Quantity Update Configuration - POS Item Quantity Update Configurations
 
 <ContentFilter/>
 
@@ -251,8 +253,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>

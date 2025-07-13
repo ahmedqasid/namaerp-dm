@@ -1,4 +1,6 @@
 # POS.POSInternalMessage (Table Name: POSInternalMessage)
+**Arabic:** رسالة نقاط بيع داخليه - رسائل نقاط البيع الداخليه
+**English:** POS Internal Message - POS Internal Messages
 
 <ContentFilter/>
 
@@ -143,8 +145,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>

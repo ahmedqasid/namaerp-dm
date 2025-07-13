@@ -900,8 +900,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -1284,6 +1284,33 @@
 
 </div>
 
+<div class="row searchable" id="totalFinalValue">
+<div class="cell" data-label="Property">totalFinalValue</div>
+<div class="cell" data-label="Column">totalFinalValue</div>
+<div class="cell" data-label="Arabic">اجمالي القيمة النهائية</div>
+<div class="cell" data-label="English">Total Final Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="totalIssuedValue">
+<div class="cell" data-label="Property">totalIssuedValue</div>
+<div class="cell" data-label="Column">totalIssuedValue</div>
+<div class="cell" data-label="Arabic">إجمالي ما تم صرفه</div>
+<div class="cell" data-label="English">Total Issued Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="totalRemainingValue">
+<div class="cell" data-label="Property">totalRemainingValue</div>
+<div class="cell" data-label="Column">totalRemainingValue</div>
+<div class="cell" data-label="Arabic">إجمالي المتبقي من الرواتب</div>
+<div class="cell" data-label="English">Total Remaining Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="updateCapability">
 <div class="cell" data-label="Property">updateCapability</div>
 <div class="cell" data-label="Column">updateCapability_id</div>
@@ -1516,8 +1543,8 @@
 <div class="row searchable" id="details.id">
 <div class="cell" data-label="Property">details.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -1546,8 +1573,8 @@
 <div class="row searchable" id="details.lineNumber">
 <div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>

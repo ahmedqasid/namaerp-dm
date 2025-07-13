@@ -1,4 +1,5 @@
 # POS.POSLocation (Table Name: POSLocation)
+**Arabic:** موقع - مواقع
 
 <ContentFilter/>
 
@@ -143,8 +144,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>

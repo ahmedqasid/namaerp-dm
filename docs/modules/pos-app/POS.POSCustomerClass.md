@@ -1,4 +1,6 @@
 # POS.POSCustomerClass (Table Name: POSCustomerClass)
+**Arabic:** فئة عملاء - فئات العملاء
+**English:** Customers' Class - Customers' Classes
 
 <ContentFilter/>
 
@@ -143,8 +145,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>

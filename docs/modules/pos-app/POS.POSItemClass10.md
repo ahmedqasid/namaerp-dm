@@ -1,4 +1,6 @@
 # POS.POSItemClass10 (Table Name: POSItemClass10)
+**Arabic:** تصنيف صنف 10 - تصنيفات صنف 10
+**English:** Item class 10 - Item classes 10
 
 <ContentFilter/>
 
@@ -152,8 +154,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -293,8 +295,8 @@
 <div class="row searchable" id="parent">
 <div class="cell" data-label="Property">parent</div>
 <div class="cell" data-label="Column">parent_id</div>
-<div class="cell" data-label="Arabic">المجموعة الأعلي</div>
-<div class="cell" data-label="English">Parent</div>
+<div class="cell" data-label="Arabic">تصنيف صنف 9</div>
+<div class="cell" data-label="English">Item Class 9</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

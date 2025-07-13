@@ -1,4 +1,6 @@
 # POS.POSReturnReason (Table Name: POSReturnReason)
+**Arabic:** سبب الإرجاع - أسباب الإرجاع
+**English:** Nama POS Return Reason - Nama POS Return Reasons
 
 <ContentFilter/>
 
@@ -143,8 +145,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>

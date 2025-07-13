@@ -1,4 +1,6 @@
 # POS.POSSecurity (Table Name: POSSecurity)
+**Arabic:** صلاحيات نقاط البيع
+**English:** POS Security Profile - POS Security Profiles
 
 <ContentFilter/>
 
@@ -742,8 +744,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -920,8 +922,8 @@
 <div class="row searchable" id="capabilities.id">
 <div class="cell" data-label="Property">capabilities.id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
@@ -929,8 +931,8 @@
 <div class="row searchable" id="capabilities.lineNumber">
 <div class="cell" data-label="Property">capabilities.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic">رقم السطر</div>
-<div class="cell" data-label="English">Line Number</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>

@@ -1,4 +1,6 @@
 # POS.POSCurrency (Table Name: POSCurrency)
+**Arabic:** عملة - عملات
+**English:** Currencies
 
 <ContentFilter/>
 
@@ -17,8 +19,8 @@
 </div><div class="row searchable" id="altCode">
 <div class="cell" data-label="Property">altCode</div>
 <div class="cell" data-label="Column">altCode</div>
-<div class="cell" data-label="Arabic">الكود الإنجليزي</div>
-<div class="cell" data-label="English">English Code</div>
+<div class="cell" data-label="Arabic">الرمز الإنجليزي</div>
+<div class="cell" data-label="English">Arabic Symbol</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
@@ -26,8 +28,8 @@
 <div class="row searchable" id="code">
 <div class="cell" data-label="Property">code</div>
 <div class="cell" data-label="Column">code</div>
-<div class="cell" data-label="Arabic">الكود</div>
-<div class="cell" data-label="English">Code</div>
+<div class="cell" data-label="Arabic">الرمز العربي</div>
+<div class="cell" data-label="English">English Symbol</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
@@ -62,8 +64,8 @@
 <div class="row searchable" id="defaultCurrency">
 <div class="cell" data-label="Property">defaultCurrency</div>
 <div class="cell" data-label="Column">defaultCurrency</div>
-<div class="cell" data-label="Arabic">العملة الافتراضية</div>
-<div class="cell" data-label="English">Default currency</div>
+<div class="cell" data-label="Arabic">عملة إفتراضية</div>
+<div class="cell" data-label="English">Default Currency</div>
 <div class="cell" data-label="Type">Boolean</div>
 
 </div>
@@ -197,8 +199,8 @@
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic">المعرف</div>
-<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
 </div>
