@@ -17,7 +17,7 @@ export default defineUserConfig({
   ],
   theme: defaultTheme({
     // sidebar: SIDEBAR_CONFIG,
-    navbar: ['/modules/'],
+    navbar: ['/modules/', {text: 'Namasoft.com', link: "https://namasoft.com"}, {text: 'Documentation', link: "https://docs.namasoft.com"}],
     contributors: false,
     // sidebarDepth: 0,
     logo: '/hero.svg',
