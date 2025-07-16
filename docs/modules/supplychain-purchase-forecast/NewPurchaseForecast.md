@@ -588,6 +588,96 @@
 
 </div>
 
+<div class="row searchable" id="netSales1FromDate">
+<div class="cell" data-label="Property">netSales1FromDate</div>
+<div class="cell" data-label="Column">netSales1FromDate</div>
+<div class="cell" data-label="Arabic">صافي مبيعات 1|من تاريخ</div>
+<div class="cell" data-label="English">Net Sales 1|From Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="netSales1ToDate">
+<div class="cell" data-label="Property">netSales1ToDate</div>
+<div class="cell" data-label="Column">netSales1ToDate</div>
+<div class="cell" data-label="Arabic">صافي مبيعات 1|إلى تاريخ</div>
+<div class="cell" data-label="English">Net Sales 1|To Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="netSales2FromDate">
+<div class="cell" data-label="Property">netSales2FromDate</div>
+<div class="cell" data-label="Column">netSales2FromDate</div>
+<div class="cell" data-label="Arabic">صافي مبيعات 2|من تاريخ</div>
+<div class="cell" data-label="English">Net Sales 2|From Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="netSales2ToDate">
+<div class="cell" data-label="Property">netSales2ToDate</div>
+<div class="cell" data-label="Column">netSales2ToDate</div>
+<div class="cell" data-label="Arabic">صافي مبيعات 2|إلى تاريخ</div>
+<div class="cell" data-label="English">Net Sales 2|To Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="netSales3FromDate">
+<div class="cell" data-label="Property">netSales3FromDate</div>
+<div class="cell" data-label="Column">netSales3FromDate</div>
+<div class="cell" data-label="Arabic">صافي مبيعات 3|من تاريخ</div>
+<div class="cell" data-label="English">Net Sales 3|From Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="netSales3ToDate">
+<div class="cell" data-label="Property">netSales3ToDate</div>
+<div class="cell" data-label="Column">netSales3ToDate</div>
+<div class="cell" data-label="Arabic">صافي مبيعات 3|إلى تاريخ</div>
+<div class="cell" data-label="English">Net Sales 3|To Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="netSales4FromDate">
+<div class="cell" data-label="Property">netSales4FromDate</div>
+<div class="cell" data-label="Column">netSales4FromDate</div>
+<div class="cell" data-label="Arabic">صافي مبيعات 4|من تاريخ</div>
+<div class="cell" data-label="English">Net Sales 4|From Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="netSales4ToDate">
+<div class="cell" data-label="Property">netSales4ToDate</div>
+<div class="cell" data-label="Column">netSales4ToDate</div>
+<div class="cell" data-label="Arabic">صافي مبيعات 4|إلى تاريخ</div>
+<div class="cell" data-label="English">Net Sales 4|To Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="netSales5FromDate">
+<div class="cell" data-label="Property">netSales5FromDate</div>
+<div class="cell" data-label="Column">netSales5FromDate</div>
+<div class="cell" data-label="Arabic">صافي مبيعات 5|من تاريخ</div>
+<div class="cell" data-label="English">Net Sales 5|From Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="netSales5ToDate">
+<div class="cell" data-label="Property">netSales5ToDate</div>
+<div class="cell" data-label="Column">netSales5ToDate</div>
+<div class="cell" data-label="Arabic">صافي مبيعات 5|إلى تاريخ</div>
+<div class="cell" data-label="English">Net Sales 5|To Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
 <div class="row searchable" id="openShift">
 <div class="cell" data-label="Property">openShift</div>
 <div class="cell" data-label="Column">openShift_id</div>
@@ -1237,11 +1327,101 @@
 
 </div>
 
+<div class="row searchable" id="details.quantity11">
+<div class="cell" data-label="Property">details.quantity11</div>
+<div class="cell" data-label="Column">quantity11</div>
+<div class="cell" data-label="Arabic">الكمية 11</div>
+<div class="cell" data-label="English">Quantity 11</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.quantity12">
+<div class="cell" data-label="Property">details.quantity12</div>
+<div class="cell" data-label="Column">quantity12</div>
+<div class="cell" data-label="Arabic">الكمية 12</div>
+<div class="cell" data-label="English">Quantity 12</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.quantity13">
+<div class="cell" data-label="Property">details.quantity13</div>
+<div class="cell" data-label="Column">quantity13</div>
+<div class="cell" data-label="Arabic">الكمية 13</div>
+<div class="cell" data-label="English">Quantity 13</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.quantity14">
+<div class="cell" data-label="Property">details.quantity14</div>
+<div class="cell" data-label="Column">quantity14</div>
+<div class="cell" data-label="Arabic">الكمية 14</div>
+<div class="cell" data-label="English">Quantity 14</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.quantity15">
+<div class="cell" data-label="Property">details.quantity15</div>
+<div class="cell" data-label="Column">quantity15</div>
+<div class="cell" data-label="Arabic">الكمية 15</div>
+<div class="cell" data-label="English">Quantity 15</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.quantity16">
+<div class="cell" data-label="Property">details.quantity16</div>
+<div class="cell" data-label="Column">quantity16</div>
+<div class="cell" data-label="Arabic">الكمية 16</div>
+<div class="cell" data-label="English">Quantity 16</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.quantity17">
+<div class="cell" data-label="Property">details.quantity17</div>
+<div class="cell" data-label="Column">quantity17</div>
+<div class="cell" data-label="Arabic">الكمية 17</div>
+<div class="cell" data-label="English">Quantity 17</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.quantity18">
+<div class="cell" data-label="Property">details.quantity18</div>
+<div class="cell" data-label="Column">quantity18</div>
+<div class="cell" data-label="Arabic">الكمية 18</div>
+<div class="cell" data-label="English">Quantity 18</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.quantity19">
+<div class="cell" data-label="Property">details.quantity19</div>
+<div class="cell" data-label="Column">quantity19</div>
+<div class="cell" data-label="Arabic">الكمية 19</div>
+<div class="cell" data-label="English">Quantity 19</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="details.quantity2">
 <div class="cell" data-label="Property">details.quantity2</div>
 <div class="cell" data-label="Column">quantity2</div>
 <div class="cell" data-label="Arabic">الكمية 2</div>
 <div class="cell" data-label="English">Quantity 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.quantity20">
+<div class="cell" data-label="Property">details.quantity20</div>
+<div class="cell" data-label="Column">quantity20</div>
+<div class="cell" data-label="Arabic">الكمية 20</div>
+<div class="cell" data-label="English">Quantity 20</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>

@@ -25,6 +25,15 @@
 
 </div>
 
+<div class="row searchable" id="allowAccessToAI">
+<div class="cell" data-label="Property">allowAccessToAI</div>
+<div class="cell" data-label="Column">allowAccessToAI</div>
+<div class="cell" data-label="Arabic">Allow Access To AI Capabilities</div>
+<div class="cell" data-label="English">Allow Access To AI Capabilities</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="allowPreventedRecordsInInsert">
 <div class="cell" data-label="Property">allowPreventedRecordsInInsert</div>
 <div class="cell" data-label="Column">allowPreventedRecordsInInsert</div>

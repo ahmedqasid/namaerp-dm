@@ -1,11 +1,11 @@
 # Supply Chain - Letters Of Credit
   - [LCAction](/modules/supplychain-lc/LCAction.md)
   - [LCCostDoc](/modules/supplychain-lc/LCCostDoc.md)
-  - [LcExpenseDocument](/modules/supplychain-lc/LcExpenseDocument.md)
   - [LCOpeningDoc](/modules/supplychain-lc/LCOpeningDoc.md)
   - [LCOpeningRequest](/modules/supplychain-lc/LCOpeningRequest.md)
   - [LCProformaInvoice](/modules/supplychain-lc/LCProformaInvoice.md)
   - [LCShipment](/modules/supplychain-lc/LCShipment.md)
   - [LCShipmentProformaInvoice](/modules/supplychain-lc/LCShipmentProformaInvoice.md)
+  - [LcExpenseDocument](/modules/supplychain-lc/LcExpenseDocument.md)
   - [LetterOfCredit](/modules/supplychain-lc/LetterOfCredit.md)
   - [LetterOfCreditRequest](/modules/supplychain-lc/LetterOfCreditRequest.md)

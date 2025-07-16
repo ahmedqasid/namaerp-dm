@@ -214,6 +214,15 @@
 
 </div>
 
+<div class="row searchable" id="chequesCount">
+<div class="cell" data-label="Property">chequesCount</div>
+<div class="cell" data-label="Column">chequesCount</div>
+<div class="cell" data-label="Arabic">عدد الشيكات</div>
+<div class="cell" data-label="English">Cheques Count</div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
 <div class="row searchable" id="code">
 <div class="cell" data-label="Property">code</div>
 <div class="cell" data-label="Column">code</div>

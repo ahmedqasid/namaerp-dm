@@ -6,7 +6,7 @@
 
 
 <div class='searchable'>
-<a href='#queryParameters'>queryParameters (AIToolDefinitionParam) </a> , <a href='#systemTools'>systemTools (AIToolDefinitionSystemTools) </a>
+<a href='#accessControl'>accessControl (AIToolDefinitionSecurity) </a> , <a href='#entityFlowParameters'>entityFlowParameters (AIToolDefinitionEntityFlowParam) </a> , <a href='#queryParameters'>queryParameters (AIToolDefinitionQueryParam) </a> , <a href='#systemTools'>systemTools (AIToolDefinitionSystemTools) </a>
 </div>
 
 <div class='searchable'>
@@ -318,6 +318,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="entityFlow">
+<div class="cell" data-label="Property">entityFlow</div>
+<div class="cell" data-label="Column">entityFlow_id</div>
+<div class="cell" data-label="Arabic">المسار</div>
+<div class="cell" data-label="English">Entity Flow</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [EntityFlow](/modules/basic/EntityFlow.md) 
+</div>
+</div>
+
 <div class="row searchable" id="entitySystemEntryId">
 <div class="cell" data-label="Property">entitySystemEntryId</div>
 <div class="cell" data-label="Column">entitySystemEntry_id</div>
@@ -333,6 +345,15 @@
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
 <div class="cell" data-label="Type">EntityType</div>
+
+</div>
+
+<div class="row searchable" id="entityTypeStrategy">
+<div class="cell" data-label="Property">entityTypeStrategy</div>
+<div class="cell" data-label="Column">entityTypeStrategy</div>
+<div class="cell" data-label="Arabic">Entity Type Strategy</div>
+<div class="cell" data-label="English">Entity Type Strategy</div>
+<div class="cell" data-label="Type">Enum</div>
 
 </div>
 
@@ -684,6 +705,27 @@
 </div>
 </div>
 
+<div class="row searchable" id="runEntityFlowOnEntityTypeList">
+<div class="cell" data-label="Property">runEntityFlowOnEntityTypeList</div>
+<div class="cell" data-label="Column">runEntityFlowOnEntityTypeList_id</div>
+<div class="cell" data-label="Arabic">Run Entity Flow On Entity Type List</div>
+<div class="cell" data-label="English">Run Entity Flow On Entity Type List</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [EntityTypeList](/modules/basic/EntityTypeList.md) 
+</div>
+</div>
+
+<div class="row searchable" id="runEntityFlowOnType">
+<div class="cell" data-label="Property">runEntityFlowOnType</div>
+<div class="cell" data-label="Column">runEntityFlowOnType</div>
+<div class="cell" data-label="Arabic">Run Entity Flow On Type</div>
+<div class="cell" data-label="English">Run Entity Flow On Type</div>
+<div class="cell" data-label="Type">EntityType</div>
+
+</div>
+
 <div class="row searchable" id="sector">
 <div class="cell" data-label="Property">sector</div>
 <div class="cell" data-label="Column">sector_id</div>
@@ -717,7 +759,7 @@
 <div class="row searchable" id="toolName">
 <div class="cell" data-label="Property">toolName</div>
 <div class="cell" data-label="Column">toolName</div>
-<div class="cell" data-label="Arabic">اسم الأداة (يجب ألا يتكرر)</div>
+<div class="cell" data-label="Arabic">Tool Name (Must Be Unique)</div>
 <div class="cell" data-label="English">Tool Name (Must Be Unique)</div>
 <div class="cell" data-label="Type">Text</div>
 
@@ -726,7 +768,7 @@
 <div class="row searchable" id="toolType">
 <div class="cell" data-label="Property">toolType</div>
 <div class="cell" data-label="Column">toolType</div>
-<div class="cell" data-label="Arabic">نوع الأداة</div>
+<div class="cell" data-label="Arabic">Tool Type</div>
 <div class="cell" data-label="English">Tool Type</div>
 <div class="cell" data-label="Type">Enum</div>
 
@@ -799,10 +841,141 @@
 </div>
 </div>
 
+<div id='accessControl' title='accessControl' class='searchable'>
+
+## accessControl (الصلاحيات (التحكم في الوصول) - Security (Access Control))
+**Table Name:** AIToolDefinitionSecurity, **Join Column:** aIToolDefinition_id
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="accessControl.allowDisallow">
+<div class="cell" data-label="Property">accessControl.allowDisallow</div>
+<div class="cell" data-label="Column">allowDisallow</div>
+<div class="cell" data-label="Arabic">سماح - منع</div>
+<div class="cell" data-label="English">Allow - Disallow</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="accessControl.applicableFor">
+<div class="cell" data-label="Property">accessControl.applicableFor</div>
+<div class="cell gen-ref-column" data-label="Column">applicableForActualCode,  applicableForCode,  applicableForEntityType,  applicableForId</div>
+<div class="cell" data-label="Arabic">مطبق على</div>
+<div class="cell" data-label="English">Applicable For</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="accessControl.id">
+<div class="cell" data-label="Property">accessControl.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="accessControl.lineNumber">
+<div class="cell" data-label="Property">accessControl.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='entityFlowParameters' title='entityFlowParameters' class='searchable'>
+
+## entityFlowParameters (Entity Flow Parameters - Entity Flow Parameters)
+**Table Name:** AIToolDefinitionEntityFlowParam, **Join Column:** aIToolDefinition_id
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="entityFlowParameters.fieldType">
+<div class="cell" data-label="Property">entityFlowParameters.fieldType</div>
+<div class="cell" data-label="Column">fieldType</div>
+<div class="cell" data-label="Arabic">نوع الحقل</div>
+<div class="cell" data-label="English">Field Type</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="entityFlowParameters.id">
+<div class="cell" data-label="Property">entityFlowParameters.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="entityFlowParameters.lineNumber">
+<div class="cell" data-label="Property">entityFlowParameters.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="entityFlowParameters.paramDescription">
+<div class="cell" data-label="Property">entityFlowParameters.paramDescription</div>
+<div class="cell" data-label="Column">paramDescription</div>
+<div class="cell" data-label="Arabic">Parameter Description</div>
+<div class="cell" data-label="English">Parameter Description</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="entityFlowParameters.paramId">
+<div class="cell" data-label="Property">entityFlowParameters.paramId</div>
+<div class="cell" data-label="Column">paramId</div>
+<div class="cell" data-label="Arabic">المعرف</div>
+<div class="cell" data-label="English">Parameter Id</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="entityFlowParameters.required">
+<div class="cell" data-label="Property">entityFlowParameters.required</div>
+<div class="cell" data-label="Column">required</div>
+<div class="cell" data-label="Arabic">إجبارى</div>
+<div class="cell" data-label="English">Required</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="entityFlowParameters.supportedReferenceType">
+<div class="cell" data-label="Property">entityFlowParameters.supportedReferenceType</div>
+<div class="cell" data-label="Column">supportedReferenceType</div>
+<div class="cell" data-label="Arabic">Supported Reference Type</div>
+<div class="cell" data-label="English">Supported Reference Type</div>
+<div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
+
+</div>
+</div>
+
 <div id='queryParameters' title='queryParameters' class='searchable'>
 
-## queryParameters (مدخلات الاستعلام - َQuery Tools Configuration)
-**Table Name:** AIToolDefinitionParam, **Join Column:** aIToolDefinition_id
+## queryParameters (َQuery Parameters - َQuery Parameters)
+**Table Name:** AIToolDefinitionQueryParam, **Join Column:** aIToolDefinition_id
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -841,7 +1014,7 @@
 <div class="row searchable" id="queryParameters.paramDescription">
 <div class="cell" data-label="Property">queryParameters.paramDescription</div>
 <div class="cell" data-label="Column">paramDescription</div>
-<div class="cell" data-label="Arabic">وصف المدخل</div>
+<div class="cell" data-label="Arabic">Parameter Description</div>
 <div class="cell" data-label="English">Parameter Description</div>
 <div class="cell" data-label="Type">BigText</div>
 
@@ -865,13 +1038,22 @@
 
 </div>
 
+<div class="row searchable" id="queryParameters.supportedReferenceType">
+<div class="cell" data-label="Property">queryParameters.supportedReferenceType</div>
+<div class="cell" data-label="Column">supportedReferenceType</div>
+<div class="cell" data-label="Arabic">Supported Reference Type</div>
+<div class="cell" data-label="English">Supported Reference Type</div>
+<div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
 
 </div>
 </div>
 
 <div id='systemTools' title='systemTools' class='searchable'>
 
-## systemTools (أدوات نظامية - System Tools Configuration)
+## systemTools (System Tools Configuration - System Tools Configuration)
 **Table Name:** AIToolDefinitionSystemTools, **Join Column:** aIToolDefinition_id
 <div class="nama-table">
 <div class="row header-row">

@@ -17,8 +17,8 @@
 </div><div class="row searchable" id="contentType">
 <div class="cell" data-label="Property">contentType</div>
 <div class="cell" data-label="Column">contentType</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">نوع المحتوي</div>
+<div class="cell" data-label="English">Content Type</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>

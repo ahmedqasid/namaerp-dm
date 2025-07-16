@@ -6,7 +6,7 @@
 
 
 <div class='searchable'>
-<a href='#documentEmbeddingLines'>documentEmbeddingLines (DocumentEmbeddingLine) </a>
+<a href='#embeddingLines'>embeddingLines (AIRecordEmbeddingConfigLine) </a>
 </div>
 
 <div class='searchable'>
@@ -745,10 +745,10 @@
 </div>
 </div>
 
-<div id='documentEmbeddingLines' title='documentEmbeddingLines' class='searchable'>
+<div id='embeddingLines' title='embeddingLines' class='searchable'>
 
-## documentEmbeddingLines (الترميز بالسطر - Document Embedding Line)
-**Table Name:** DocumentEmbeddingLine, **Join Column:** aIRecordEmbeddingConfig_id
+## embeddingLines (Embedding Lines - Embedding Lines)
+**Table Name:** AIRecordEmbeddingConfigLine, **Join Column:** aIRecordEmbeddingConfig_id
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -757,8 +757,8 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="documentEmbeddingLines.extraEmbeddedFields">
-<div class="cell" data-label="Property">documentEmbeddingLines.extraEmbeddedFields</div>
+</div><div class="row searchable" id="embeddingLines.extraEmbeddedFields">
+<div class="cell" data-label="Property">embeddingLines.extraEmbeddedFields</div>
 <div class="cell" data-label="Column">extraEmbeddedFields</div>
 <div class="cell" data-label="Arabic">Extra Fields For Embedding</div>
 <div class="cell" data-label="English">Extra Fields For Embedding</div>
@@ -766,8 +766,8 @@
 
 </div>
 
-<div class="row searchable" id="documentEmbeddingLines.id">
-<div class="cell" data-label="Property">documentEmbeddingLines.id</div>
+<div class="row searchable" id="embeddingLines.id">
+<div class="cell" data-label="Property">embeddingLines.id</div>
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -775,8 +775,8 @@
 
 </div>
 
-<div class="row searchable" id="documentEmbeddingLines.lineNumber">
-<div class="cell" data-label="Property">documentEmbeddingLines.lineNumber</div>
+<div class="row searchable" id="embeddingLines.lineNumber">
+<div class="cell" data-label="Property">embeddingLines.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -784,8 +784,8 @@
 
 </div>
 
-<div class="row searchable" id="documentEmbeddingLines.masterEntityType">
-<div class="cell" data-label="Property">documentEmbeddingLines.masterEntityType</div>
+<div class="row searchable" id="embeddingLines.masterEntityType">
+<div class="cell" data-label="Property">embeddingLines.masterEntityType</div>
 <div class="cell" data-label="Column">masterEntityType</div>
 <div class="cell" data-label="Arabic">Master File Entity Type</div>
 <div class="cell" data-label="English">Master File Entity Type</div>

@@ -839,8 +839,8 @@
 <div class="row searchable" id="details.contentType">
 <div class="cell" data-label="Property">details.contentType</div>
 <div class="cell" data-label="Column">contentType</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">نوع المحتوي</div>
+<div class="cell" data-label="English">Content Type</div>
 <div class="cell" data-label="Type">Enum</div>
 
 </div>
@@ -957,8 +957,8 @@
 <div class="row searchable" id="errorMsgsHelp.contentType">
 <div class="cell" data-label="Property">errorMsgsHelp.contentType</div>
 <div class="cell" data-label="Column">contentType</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">نوع المحتوي</div>
+<div class="cell" data-label="English">Content Type</div>
 <div class="cell" data-label="Type">Enum</div>
 
 </div>

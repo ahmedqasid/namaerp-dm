@@ -1,7 +1,7 @@
 # Supply Chain - Purchases
   - [ConsolidatedPurchaseReq](/modules/supplychain-purchases/ConsolidatedPurchaseReq.md)
-  - [DiscountsReCalcDocument](/modules/supplychain-purchases/DiscountsReCalcDocument.md)
   - [DiscountUpdate](/modules/supplychain-purchases/DiscountUpdate.md)
+  - [DiscountsReCalcDocument](/modules/supplychain-purchases/DiscountsReCalcDocument.md)
   - [FinishedProductPricing](/modules/supplychain-purchases/FinishedProductPricing.md)
   - [ItemRequest](/modules/supplychain-purchases/ItemRequest.md)
   - [OfferApplyRules](/modules/supplychain-purchases/OfferApplyRules.md)

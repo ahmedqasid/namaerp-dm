@@ -40,5 +40,5 @@
   - [UOM](/modules/supplychain/UOM.md)
   - [UOMConversions](/modules/supplychain/UOMConversions.md)
   - [UOMGroup](/modules/supplychain/UOMGroup.md)
-  - [Warehouse](/modules/supplychain/Warehouse.md)
   - [WareLocationClass](/modules/supplychain/WareLocationClass.md)
+  - [Warehouse](/modules/supplychain/Warehouse.md)

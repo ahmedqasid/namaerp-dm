@@ -794,6 +794,15 @@
 
 </div>
 
+<div class="row searchable" id="settings.allowAccessToAI">
+<div class="cell" data-label="Property">settings.allowAccessToAI</div>
+<div class="cell" data-label="Column">allowAccessToAI</div>
+<div class="cell" data-label="Arabic">Allow Access To AI Capabilities</div>
+<div class="cell" data-label="English">Allow Access To AI Capabilities</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="settings.allowEditFrozenCostAccounts">
 <div class="cell" data-label="Property">settings.allowEditFrozenCostAccounts</div>
 <div class="cell" data-label="Column">allowEditFrozenCostAccounts</div>

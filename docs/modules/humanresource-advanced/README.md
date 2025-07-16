@@ -21,7 +21,7 @@
   - [HOViolationItem](/modules/humanresource-advanced/HOViolationItem.md)
   - [HOViolationList](/modules/humanresource-advanced/HOViolationList.md)
   - [MealDeliveryPlan](/modules/humanresource-advanced/MealDeliveryPlan.md)
-  - [MealsDetails](/modules/humanresource-advanced/MealsDetails.md)
   - [MealType](/modules/humanresource-advanced/MealType.md)
+  - [MealsDetails](/modules/humanresource-advanced/MealsDetails.md)
   - [PickupPlan](/modules/humanresource-advanced/PickupPlan.md)
   - [RelocateReason](/modules/humanresource-advanced/RelocateReason.md)
