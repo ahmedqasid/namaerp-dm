@@ -248,6 +248,15 @@
 
 </div>
 
+<div class="row searchable" id="registerUUID">
+<div class="cell" data-label="Property">registerUUID</div>
+<div class="cell" data-label="Column">registerUUID</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
 <div class="row searchable" id="selected">
 <div class="cell" data-label="Property">selected</div>
 <div class="cell" data-label="Column">selected</div>

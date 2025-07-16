@@ -1209,6 +1209,15 @@
 
 </div>
 
+<div class="row searchable" id="doNotAffectRemaining">
+<div class="cell" data-label="Property">doNotAffectRemaining</div>
+<div class="cell" data-label="Column">doNotAffectRemaining</div>
+<div class="cell" data-label="Arabic">عدم التأثير على المتبقي</div>
+<div class="cell" data-label="English">Do Not Affect Remaining</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="doNotCollectInExConditions">
 <div class="cell" data-label="Property">doNotCollectInExConditions</div>
 <div class="cell" data-label="Column">doNotCollectInExConditions</div>

@@ -98,6 +98,15 @@
 
 </div>
 
+<div class="row searchable" id="registerId">
+<div class="cell" data-label="Property">registerId</div>
+<div class="cell" data-label="Column">registerId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
 <div class="row searchable" id="shiftCode">
 <div class="cell" data-label="Property">shiftCode</div>
 <div class="cell" data-label="Column">shiftCode</div>
