@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDBusInfoUpdater
+</div>
+
 **Arabic:** تحديث بيانات سيارة مدرسية
 **English:** InfoUpdater - InfoUpdaters
 
@@ -874,7 +880,13 @@
 <div id='infoUpdaters' title='infoUpdaters' class='searchable'>
 
 ## infoUpdaters ( - )
+
+<div class='tableName'>
+
 **Table Name:** EDBusInfoUpdaterLine, **Join Column:** eDBusInfoUpdater_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

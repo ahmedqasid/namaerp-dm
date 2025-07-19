@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPAProcedure
+</div>
+
 **Arabic:** الاجراء - الاجراءات
 **English:** Procedure - Procedures
 

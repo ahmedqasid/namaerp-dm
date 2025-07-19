@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSAccommodationExit
+</div>
+
 **Arabic:** خروج مريض - خروج المرضى
 **English:** Accommodation Exit - Accommodation Exits
 

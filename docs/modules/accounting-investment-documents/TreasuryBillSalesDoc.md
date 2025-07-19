@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TreasuryBillSalesDoc
+</div>
+
 **Arabic:** بيع إذن خزانة - بيع أذونات الخزانة
 **English:** Treasury Bill Sales Document - Treasury Bill Sales Documents
 

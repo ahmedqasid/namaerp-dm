@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InsuranceCompanyApproval
+</div>
+
 **Arabic:** موافقة شركة تأمين - موافقة شركات التأمين
 **English:** Insurance Company Approval - Insurance Company Approvals
 
@@ -898,7 +904,13 @@
 <div id='insuranceAttendantLines' title='insuranceAttendantLines' class='searchable'>
 
 ## insuranceAttendantLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** InsuranceCompApprovalAttendantLine, **Join Column:** insuranceCompanyApproval_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1193,7 +1205,13 @@
 <div id='insuranceBloodLines' title='insuranceBloodLines' class='searchable'>
 
 ## insuranceBloodLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** InsuranceCompApprovalBloodLine, **Join Column:** insuranceCompanyApproval_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1497,7 +1515,13 @@
 <div id='insuranceCheckLines' title='insuranceCheckLines' class='searchable'>
 
 ## insuranceCheckLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** InsuranceCompApprovalCheckLine, **Join Column:** insuranceCompanyApproval_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1813,7 +1837,13 @@
 <div id='insuranceLabTestLines' title='insuranceLabTestLines' class='searchable'>
 
 ## insuranceLabTestLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** InsuranceCompApprovalLabTestLine, **Join Column:** insuranceCompanyApproval_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2117,7 +2147,13 @@
 <div id='insurancePharmacyLines' title='insurancePharmacyLines' class='searchable'>
 
 ## insurancePharmacyLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** InsuranceCompApprovalPharmacyLine, **Join Column:** insuranceCompanyApproval_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2421,7 +2457,13 @@
 <div id='insurancePhyLines' title='insurancePhyLines' class='searchable'>
 
 ## insurancePhyLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** InsuranceCompApprovalPhyLine, **Join Column:** insuranceCompanyApproval_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2725,7 +2767,13 @@
 <div id='insuranceRadiologyLines' title='insuranceRadiologyLines' class='searchable'>
 
 ## insuranceRadiologyLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** InsuranceCompApprovalRadiologyLine, **Join Column:** insuranceCompanyApproval_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3029,7 +3077,13 @@
 <div id='insuranceServiceLines' title='insuranceServiceLines' class='searchable'>
 
 ## insuranceServiceLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** InsuranceCompApprovalServiceLine, **Join Column:** insuranceCompanyApproval_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3345,7 +3399,13 @@
 <div id='insuranceSupervisionLines' title='insuranceSupervisionLines' class='searchable'>
 
 ## insuranceSupervisionLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** InsuranceCompApprovalSupervisionLine, **Join Column:** insuranceCompanyApproval_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3661,7 +3721,13 @@
 <div id='insuranceSupplyLines' title='insuranceSupplyLines' class='searchable'>
 
 ## insuranceSupplyLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** InsuranceCompApprovalSupplyLine, **Join Column:** insuranceCompanyApproval_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3965,7 +4031,13 @@
 <div id='insuranceSurgerLines' title='insuranceSurgerLines' class='searchable'>
 
 ## insuranceSurgerLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** InsuranceCompApprovalSurgeryLine, **Join Column:** insuranceCompanyApproval_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4476,7 +4548,13 @@
 <div id='isuranceAccommLines' title='isuranceAccommLines' class='searchable'>
 
 ## isuranceAccommLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** InsuranceCompApprovalAccommLine, **Join Column:** insuranceCompanyApproval_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

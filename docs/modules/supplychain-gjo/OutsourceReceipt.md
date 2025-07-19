@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # OutsourceReceipt
+</div>
+
 **Arabic:** استلام تصنيع خارجي
 **English:** Outsource Receipt - Outsource Receipts
 
@@ -1297,7 +1303,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** OutsourceReceiptLine, **Join Column:** outsourceReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

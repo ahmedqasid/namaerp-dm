@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMWorkPlan
+</div>
+
 **Arabic:** خطة عمل - خُطَط عمل
 **English:** Work Plan - Work Plans
 
@@ -1039,7 +1045,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CRMWorkPlanLine, **Join Column:** cRMWorkPlan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

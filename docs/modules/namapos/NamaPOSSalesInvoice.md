@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSSalesInvoice
+</div>
+
 **Arabic:** فاتورة مبيعات نقاط البيع - فواتير مبيعات نقاط البيع
 **English:** POS Sales Invoice - POS Sales Invoices
 
@@ -2596,7 +2602,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSSalesInvoiceLine, **Join Column:** namaPOSSalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4634,7 +4646,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSSalesExternalPaymentLine, **Join Column:** namaPOSSalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4794,7 +4812,13 @@
 <div id='payments' title='payments' class='searchable'>
 
 ## payments (تفاصيل الدفع - Payments)
+
+<div class='tableName'>
+
 **Table Name:** POSSalesInvPaymentLine, **Join Column:** namaPOSSalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5122,7 +5146,13 @@
 <div id='removedLines' title='removedLines' class='searchable'>
 
 ## removedLines (السيارات المحذوفه - Removed Cars)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSSalesInvoiceRemovedLine, **Join Column:** namaPOSSalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnSrvWorkPlan
+</div>
+
 **Arabic:** خطة عمل خدمة صيانة - خطط عمل خدمة صيانة
 **English:** Maintenance Service Work Plan - Maintenance Service Work Plans
 
@@ -1753,7 +1759,13 @@
 <div id='srvServices' title='srvServices' class='searchable'>
 
 ## srvServices (خدمات صيانة - Maintenance Services)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvWorkPlanLine, **Join Column:** mnSrvWorkPlan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

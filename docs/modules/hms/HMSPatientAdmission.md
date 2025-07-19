@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSPatientAdmission
+</div>
+
 **Arabic:** إستمارة دخول مريض - إستمارات دخول مرضى
 **English:** Patient Admission - Patient Admissions
 
@@ -2632,7 +2638,13 @@
 <div id='labTestDetails' title='labTestDetails' class='searchable'>
 
 ## labTestDetails (تفاصيل التحليل - Lab Test Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSAdmissionLabTestLine, **Join Column:** hMSPatientAdmission_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3146,7 +3158,13 @@
 <div id='relativesInfo' title='relativesInfo' class='searchable'>
 
 ## relativesInfo (بيانات الأقارب - Relatives Information)
+
+<div class='tableName'>
+
 **Table Name:** HMSAdmissionRelativeLine, **Join Column:** hMSPatientAdmission_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3216,7 +3234,13 @@
 <div id='services' title='services' class='searchable'>
 
 ## services (الخدمات - Services)
+
+<div class='tableName'>
+
 **Table Name:** HMSPatientAdmissionService, **Join Column:** hMSPatientAdmission_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3286,7 +3310,13 @@
 <div id='surgeryPackageDetails' title='surgeryPackageDetails' class='searchable'>
 
 ## surgeryPackageDetails (بنود الإتفاق - Surgery Package Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSAdmissionPackageLine, **Join Column:** hMSPatientAdmission_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOBuildingType
+</div>
+
 **Arabic:** نوع مبني - أنواع مباني
 **English:** BuildingType - Buildings Types
 

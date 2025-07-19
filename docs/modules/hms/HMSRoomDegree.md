@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSRoomDegree
+</div>
+
 **Arabic:** درجة الغرفة - درجات الغرفة
 **English:** Room Degree - Room Degrees
 

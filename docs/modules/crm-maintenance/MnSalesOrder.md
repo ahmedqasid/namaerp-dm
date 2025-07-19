@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnSalesOrder
+</div>
+
 **Arabic:** أمر بيع صيانة - أوامر بيع صيانة
 **English:** Maintenance Sales Order - Maintenance Sales Orders
 
@@ -2977,7 +2983,13 @@
 <div id='contractTerms' title='contractTerms' class='searchable'>
 
 ## contractTerms (بنود العقد - Contract Terms)
+
+<div class='tableName'>
+
 **Table Name:** MnSalesOrderTermLine, **Join Column:** mnSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3098,7 +3110,13 @@
 <div id='machines' title='machines' class='searchable'>
 
 ## machines (ألآت - Machines)
+
+<div class='tableName'>
+
 **Table Name:** MnSalesOrderMachine, **Join Column:** mnSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3972,7 +3990,13 @@
 <div id='services' title='services' class='searchable'>
 
 ## services (الخدمات - Services)
+
+<div class='tableName'>
+
 **Table Name:** MnSalesOrderService, **Join Column:** mnSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4699,7 +4723,13 @@
 <div id='spareParts' title='spareParts' class='searchable'>
 
 ## spareParts (قطع الغيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnSalesOrderSpareLine, **Join Column:** mnSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5636,7 +5666,13 @@
 <div id='visits' title='visits' class='searchable'>
 
 ## visits (الزيارات - Visits)
+
+<div class='tableName'>
+
 **Table Name:** MnSalesOrderVisitSchedule, **Join Column:** mnSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

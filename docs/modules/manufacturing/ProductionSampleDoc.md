@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ProductionSampleDoc
+</div>
+
 **Arabic:** سند سحب عينة -  سند سحب عينة
 **English:** Production Sample Document -  Production Sample Document
 
@@ -964,7 +970,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ProductionSampleLine, **Join Column:** productionSampleDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

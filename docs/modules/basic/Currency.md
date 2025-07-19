@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Currency
+</div>
+
 **Arabic:** عملة - عملات
 **English:** Currencies
 

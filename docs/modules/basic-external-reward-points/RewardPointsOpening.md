@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RewardPointsOpening
+</div>
+
 **Arabic:** سند إفتتاحي نقاط ولاء - سندات إفتتاحية نقاط ولاء
 **English:** Reward Points Opening - Reward Points Openings
 
@@ -913,7 +919,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RewardPointsOpeningLine, **Join Column:** rewardPointsOpening_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

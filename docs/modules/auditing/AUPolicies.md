@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUPolicies
+</div>
+
 **Arabic:** سياسة او إيضاح - السياسات والإيضاحات
 **English:** Policy and clarification - Policies and clarifications
 
@@ -778,7 +784,13 @@
 <div id='policiess' title='policiess' class='searchable'>
 
 ## policiess (السياسات والإيضاحات - Policies and clarifications)
+
+<div class='tableName'>
+
 **Table Name:** AUPoliciesLine, **Join Column:** aUPolicies_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

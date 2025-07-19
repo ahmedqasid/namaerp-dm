@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JobOffer
+</div>
+
 **Arabic:** عرض وظيفي - عروض وظيفية
 **English:** Job Offer - Job Offers
 
@@ -1702,7 +1708,13 @@
 <div id='elementLines' title='elementLines' class='searchable'>
 
 ## elementLines (مفردات الراتب - Element Lines)
+
+<div class='tableName'>
+
 **Table Name:** OfferElementLine, **Join Column:** jobOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1823,7 +1835,13 @@
 <div id='offerVacationLines' title='offerVacationLines' class='searchable'>
 
 ## offerVacationLines (سطور الاجازة - Vacation lines)
+
+<div class='tableName'>
+
 **Table Name:** OfferVacationLine, **Join Column:** jobOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

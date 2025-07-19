@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TermSheet
+</div>
+
 **Arabic:** كراسة الشروط -  كراسة الشروط
 **English:** Term Sheet -  Term Sheet
 
@@ -943,7 +949,13 @@
 <div id='conditions' title='conditions' class='searchable'>
 
 ## conditions (الشروط - Conditions)
+
+<div class='tableName'>
+
 **Table Name:** TermSheetConditionLine, **Join Column:** termSheet_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1202,7 +1214,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** TermSheetLine, **Join Column:** termSheet_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

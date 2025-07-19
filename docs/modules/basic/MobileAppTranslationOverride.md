@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MobileAppTranslationOverride
+</div>
+
 **Arabic:** ترجمة حقول تطبيق المحمول
 **English:** Mobile App Translation Override - Mobile App Translation Overrides
 
@@ -757,7 +763,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MobileAppTranslationOverrideLine, **Join Column:** mobileAppTranslationOverride_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

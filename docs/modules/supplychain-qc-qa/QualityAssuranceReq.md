@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # QualityAssuranceReq
+</div>
+
 **Arabic:** طلب تأكيد جودة - طلبات تأكيد جودة
 **English:** Quality assurance Request - Quality assurance Requests
 
@@ -1255,7 +1261,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** QualityAssuranceReqLine, **Join Column:** qualityAssuranceReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

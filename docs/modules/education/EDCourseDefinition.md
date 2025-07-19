@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDCourseDefinition
+</div>
+
 **Arabic:** تعريف دورة - تعريف دورات
 **English:** Course Definition - Courses Definition
 

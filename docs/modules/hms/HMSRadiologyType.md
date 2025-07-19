@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSRadiologyType
+</div>
+
 **Arabic:** نوع أشعة - أنواع الأشعة
 **English:** Radiology Type - Radiology Types
 
@@ -1126,7 +1132,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSRadiologyTypeSuppliesLine, **Join Column:** hMSRadiologyType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2489,7 +2501,13 @@
 <div id='radPriceLines' title='radPriceLines' class='searchable'>
 
 ## radPriceLines (أسعار نوع الأشعة في القوائم - Radiology Price in Lists)
+
+<div class='tableName'>
+
 **Table Name:** HMSRadiologyTypePriceLine, **Join Column:** hMSRadiologyType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2805,7 +2823,13 @@
 <div id='serviceLines' title='serviceLines' class='searchable'>
 
 ## serviceLines (تفاصيل الخدمات الطبية - Medical Service Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSRadiologyTypeServiceLine, **Join Column:** hMSRadiologyType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

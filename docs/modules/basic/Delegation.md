@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Delegation
+</div>
+
 **Arabic:** تفويض - تفويضات
 
 <ContentFilter/>

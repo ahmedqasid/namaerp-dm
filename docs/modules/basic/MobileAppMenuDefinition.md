@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MobileAppMenuDefinition
+</div>
+
 **Arabic:** تعريف قائمة التطبيق - تعريفات قائمة التطبيق
 **English:** Mobile App Menu Definition - Mobile App Menu Definitions
 
@@ -757,7 +763,13 @@
 <div id='groups' title='groups' class='searchable'>
 
 ## groups (المجموعات - Groups)
+
+<div class='tableName'>
+
 **Table Name:** MobileAppMenuGroup, **Join Column:** mobileAppMenuDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -827,7 +839,13 @@
 <div id='targetItems' title='targetItems' class='searchable'>
 
 ## targetItems (الوصلات المستهدفة - Target Items)
+
+<div class='tableName'>
+
 **Table Name:** MobileAppMenuGroupItem, **Join Column:** mobileAppMenuDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

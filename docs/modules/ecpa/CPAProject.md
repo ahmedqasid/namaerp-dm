@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPAProject
+</div>
+
 **Arabic:** مشروع إداري - مشاريع إدارية
 **English:** Managed Project - Managed Projects
 
@@ -1516,7 +1522,13 @@
 <div id='autoInvLines' title='autoInvLines' class='searchable'>
 
 ## autoInvLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CPAProjectAutoInvLine, **Join Column:** cPAProject_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1640,7 +1652,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CPADiscipMilestoneLine, **Join Column:** cPAProject_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1893,7 +1911,13 @@
 <div id='disciplines' title='disciplines' class='searchable'>
 
 ## disciplines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CPAProjDisciplineLine, **Join Column:** cPAProject_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2137,7 +2161,13 @@
 <div id='milestones' title='milestones' class='searchable'>
 
 ## milestones (المراحل - Milestones)
+
+<div class='tableName'>
+
 **Table Name:** CPAProjMilestoneLine, **Join Column:** cPAProject_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2408,7 +2438,13 @@
 <div id='teamworkLines' title='teamworkLines' class='searchable'>
 
 ## teamworkLines (فريق العمل - Team Work)
+
+<div class='tableName'>
+
 **Table Name:** CPATeamworkLine, **Join Column:** cPAProject_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

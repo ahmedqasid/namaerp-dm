@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSRadiologyCategory
+</div>
+
 **Arabic:** تصنيف أشعة - تصنيفات أشعة
 **English:** Radiology Category - Radiology Categories
 

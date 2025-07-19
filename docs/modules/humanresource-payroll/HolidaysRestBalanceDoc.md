@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HolidaysRestBalanceDoc
+</div>
+
 **Arabic:** بدل أرصده راحات أسبوعية و عطلات رسمية - سندات بدل أرصده راحات أسبوعية و عطلات رسمية
 **English:** Holidays And Rest Days Balance Compensation Document - Holidays And Rest Days Balance Compensation Documents
 
@@ -1240,7 +1246,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HolidaysRestBalanceDocLine, **Join Column:** holidaysRestBalanceDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

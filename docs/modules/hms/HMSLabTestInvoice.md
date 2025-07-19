@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSLabTestInvoice
+</div>
+
 **Arabic:** فاتورة تحليل طبي - فواتير التحاليل الطبية
 **English:** Laboratory Test Invoice - Laboratory Test Invoices
 
@@ -2020,7 +2026,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSLabTestSuppliesLine, **Join Column:** hMSLabTestInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3395,7 +3407,13 @@
 <div id='labTestLines' title='labTestLines' class='searchable'>
 
 ## labTestLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSLabTestInvoiceLine, **Join Column:** hMSLabTestInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4017,7 +4035,13 @@
 <div id='overheadItems' title='overheadItems' class='searchable'>
 
 ## overheadItems (بنود تكلفة طبية غير مباشرة - Overhead Items)
+
+<div class='tableName'>
+
 **Table Name:** HMSLabTestOverheadItem, **Join Column:** hMSLabTestInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4099,7 +4123,13 @@
 <div id='serviceLines' title='serviceLines' class='searchable'>
 
 ## serviceLines (تفاصيل الخدمات الطبية - Medical Service Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSLabTestServiceInvLine, **Join Column:** hMSLabTestInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

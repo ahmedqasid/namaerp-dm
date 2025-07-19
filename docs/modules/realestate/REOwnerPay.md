@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REOwnerPay
+</div>
+
 **Arabic:** طلب صرف للمالك - طلبات صرف مالك
 **English:** Pay Request For Owner - Pays Request For Owners
 
@@ -928,7 +934,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** OwnerPayDetailLine, **Join Column:** rEOwnerPay_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

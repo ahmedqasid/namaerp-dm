@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ProductionOrderRequest
+</div>
+
 **Arabic:** طلب أمر إنتاج
 **English:** Production Order Request - Production Order Requests
 
@@ -1231,7 +1237,13 @@
 <div id='coProducts' title='coProducts' class='searchable'>
 
 ## coProducts (المنتجات الثانوية - Co Products)
+
+<div class='tableName'>
+
 **Table Name:** OrderReqCoProdLine, **Join Column:** productionOrderRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1838,7 +1850,13 @@
 <div id='components' title='components' class='searchable'>
 
 ## components (المكونات - Components)
+
+<div class='tableName'>
+
 **Table Name:** OrderReqCompLine, **Join Column:** productionOrderRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2553,7 +2571,13 @@
 <div id='molds' title='molds' class='searchable'>
 
 ## molds (القوالب - Molds)
+
+<div class='tableName'>
+
 **Table Name:** OrderReqMoldLine, **Join Column:** productionOrderRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2653,7 +2677,13 @@
 <div id='resources' title='resources' class='searchable'>
 
 ## resources ( موارد التشغيل -  Resources)
+
+<div class='tableName'>
+
 **Table Name:** OrderReqResourceLine, **Join Column:** productionOrderRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2813,7 +2843,13 @@
 <div id='routings' title='routings' class='searchable'>
 
 ## routings (عمليات التشغيل - Routings)
+
+<div class='tableName'>
+
 **Table Name:** OrderReqRoutingLine, **Join Column:** productionOrderRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

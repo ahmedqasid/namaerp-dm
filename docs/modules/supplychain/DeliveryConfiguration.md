@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DeliveryConfiguration
+</div>
+
 **Arabic:** ملف إعدادات التوصيل - ملفات إعدادات التوصيل
 **English:** Delivery Configuration File - Delivery Configuration Files
 
@@ -760,7 +766,13 @@
 <div id='affectedQtyLines' title='affectedQtyLines' class='searchable'>
 
 ## affectedQtyLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** AffectedQtyLine, **Join Column:** deliveryConfiguration_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -899,7 +911,13 @@
 <div id='relations' title='relations' class='searchable'>
 
 ## relations (العلاقات - Relations)
+
+<div class='tableName'>
+
 **Table Name:** DeliveryQuantityRelation, **Join Column:** deliveryConfiguration_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

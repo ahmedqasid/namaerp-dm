@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ProductReturn
+</div>
+
 **Arabic:** إرتجاع منتج
 **English:** Product Return
 
@@ -1759,7 +1765,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ProductReturnLine, **Join Column:** productReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

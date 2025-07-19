@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CustomersReqsShortageDoc
+</div>
+
 **Arabic:** مستند نواقص طلبات العملاء - مستندات نواقص طلبات العملاء
 **English:** Customers Requests Shortage Document - Customers Requests Shortage Documents
 
@@ -2467,7 +2473,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CustomersReqShortageLine, **Join Column:** customersReqsShortageDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

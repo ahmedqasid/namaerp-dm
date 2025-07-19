@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.PosPaymentTerminal (Table Name: PosPaymentTerminal)
+</div>
+
 **Arabic:** Payment Terminal - Payment Terminals
 **English:** Payment Terminal - Payment Terminals
 

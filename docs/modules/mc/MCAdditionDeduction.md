@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MCAdditionDeduction
+</div>
+
 **Arabic:** بند الاضافات والاستقطاعات - بنود الاضافات والاستقطاعات
 **English:** MC Addition Deduction - MC Addition Deductions
 

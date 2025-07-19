@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Car
+</div>
+
 **Arabic:** سيارة - سيارات
 **English:** cars
 
@@ -1738,7 +1744,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** CarCustodianLine, **Join Column:** car_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

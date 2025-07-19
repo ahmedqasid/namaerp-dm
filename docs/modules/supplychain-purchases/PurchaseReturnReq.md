@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PurchaseReturnReq
+</div>
+
 **Arabic:** طلب مردودات مشتريات - طلبات مردودات مشتريات
 **English:** Purchase Return Request - Purchase Return Requests
 
@@ -2452,7 +2458,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseReturnReqLine, **Join Column:** purchaseReturnReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

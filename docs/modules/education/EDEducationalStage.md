@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDEducationalStage
+</div>
+
 **Arabic:** مرحلة تعليمية - المراحل التعليمية
 **English:** Educational Stage - Educational Stages
 
@@ -799,7 +805,13 @@
 <div id='educationalStages' title='educationalStages' class='searchable'>
 
 ## educationalStages ( - )
+
+<div class='tableName'>
+
 **Table Name:** EDEducationalStageLine, **Join Column:** eDEducationalStage_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

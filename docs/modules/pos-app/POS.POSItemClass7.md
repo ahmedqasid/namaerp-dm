@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSItemClass7 (Table Name: POSItemClass7)
+</div>
+
 **Arabic:** تصنيف صنف 7 - تصنيفات صنف 7
 **English:** Item class 7 - Item classes 7
 

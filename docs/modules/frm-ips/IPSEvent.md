@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSEvent
+</div>
+
 **Arabic:** IPS Event - IPS Events
 **English:** IPS Event - IPS Events
 

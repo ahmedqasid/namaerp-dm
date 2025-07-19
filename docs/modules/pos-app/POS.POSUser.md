@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSUser (Table Name: POSUser)
+</div>
+
 **Arabic:** مستخدم - المستخدمين
 
 <ContentFilter/>

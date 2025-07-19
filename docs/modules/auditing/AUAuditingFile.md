@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUAuditingFile
+</div>
+
 **Arabic:** ملف مراجعة - ملفات المراجعة
 **English:** Auditing File - Auditing Files
 
@@ -1294,7 +1300,13 @@
 <div id='events' title='events' class='searchable'>
 
 ## events ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUImpEventsAndDatesLine, **Join Column:** aUAuditingFile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1373,7 +1385,13 @@
 <div id='files' title='files' class='searchable'>
 
 ## files ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUAuditingFileLine, **Join Column:** aUAuditingFile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1446,7 +1464,13 @@
 <div id='shareholders' title='shareholders' class='searchable'>
 
 ## shareholders (اصحاب حقوق الملكية - Shareholders)
+
+<div class='tableName'>
+
 **Table Name:** AUShareholdersLine, **Join Column:** aUAuditingFile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1498,7 +1522,13 @@
 <div id='specialists' title='specialists' class='searchable'>
 
 ## specialists ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUAssistedBySpecialistsLine, **Join Column:** aUAuditingFile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

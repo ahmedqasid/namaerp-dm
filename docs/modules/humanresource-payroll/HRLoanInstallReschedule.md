@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRLoanInstallReschedule
+</div>
+
 **Arabic:** سند إعاده جدوله اقساط سلفه - سندات إعاده جدوله اقساط سلفه
 **English:** Loan Installment Reschedule - Loan Installment Reschedules
 
@@ -1033,7 +1039,13 @@
 <div id='toScheduleLines' title='toScheduleLines' class='searchable'>
 
 ## toScheduleLines (الاقساط المعاد جدولتها - To Schedule Lines)
+
+<div class='tableName'>
+
 **Table Name:** HRToScheduleLine, **Join Column:** hRLoanInstallReschedule_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1103,7 +1115,13 @@
 <div id='toScheduleOverLines' title='toScheduleOverLines' class='searchable'>
 
 ## toScheduleOverLines (الاقساط الموزع عليها - To Schedule Over Lines)
+
+<div class='tableName'>
+
 **Table Name:** HRToRescheduleOverLine, **Join Column:** hRLoanInstallReschedule_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

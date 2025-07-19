@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SITrafficLetterReq
+</div>
+
 **Arabic:** طلب خطاب مرور صنف فرعي - طلبات خطاب مرور صنف فرعي
 **English:** Sub Item Traffic Letter Request - Sub Item Traffic Letter Request Documents
 
@@ -2593,7 +2599,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SITrafficLetterReqLine, **Join Column:** sITrafficLetterReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

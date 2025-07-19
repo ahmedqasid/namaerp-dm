@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NaMaPosItemsToSend
+</div>
+
 **Arabic:** الأصناف المرسلة لنقاط البيع -  الأصناف المرسلة لنقاط البيع
 **English:** Pos Items To Send -  Pos Items To Send
 
@@ -757,7 +763,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** NaMaPosItemsToSendLine, **Join Column:** naMaPosItemsToSend_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

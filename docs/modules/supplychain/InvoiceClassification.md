@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InvoiceClassification
+</div>
+
 **Arabic:** تصنيف الفواتير
 **English:** InvoiceClassification
 

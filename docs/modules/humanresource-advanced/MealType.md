@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MealType
+</div>
+
 **Arabic:** نوع وجبة - أنواع الوجبات
 **English:** Meal Type - Meal Types
 

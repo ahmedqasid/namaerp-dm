@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RARentalRequest
+</div>
+
 **Arabic:** طلب حجز تأجيرى - طلبات حجز تأجيرى
 **English:** Rental Asset Request - Rental Asset Requests
 
@@ -2572,7 +2578,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RARentalReqLine, **Join Column:** rARentalRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4523,7 +4535,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** RARentalReqExternalPayLine, **Join Column:** rARentalRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4674,7 +4692,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** RARentalReqPaymentLine, **Join Column:** rARentalRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4984,7 +5008,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** RARentalReqScheduleLine, **Join Column:** rARentalRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5249,7 +5279,13 @@
 <div id='termsLines' title='termsLines' class='searchable'>
 
 ## termsLines (بنود البيع - Sales Terms)
+
+<div class='tableName'>
+
 **Table Name:** RARentalReqStandardTermsLine, **Join Column:** rARentalRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

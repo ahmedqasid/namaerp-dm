@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LeavePermissionReq
+</div>
+
 **Arabic:** طلب إذن انصراف - طلبات إذون انصراف
 **English:** Leave Permission Request - Leave Permissions Requests
 

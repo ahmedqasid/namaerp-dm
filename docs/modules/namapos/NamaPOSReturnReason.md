@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSReturnReason
+</div>
+
 **Arabic:** سبب الإرجاع - أسباب الإرجاع
 **English:** Nama POS Return Reason - Nama POS Return Reasons
 

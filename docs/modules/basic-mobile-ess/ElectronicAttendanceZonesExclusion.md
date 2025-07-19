@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ElectronicAttendanceZonesExclusion
+</div>
+
 **Arabic:** استثناء من مناطق الحضور و الانصراف
 **English:** Electronic Attendance Zones Exclusion
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ElecAttendanceZonesExclusionLine, **Join Column:** electronicAttendanceZonesExclusion_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

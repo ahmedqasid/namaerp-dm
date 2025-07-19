@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # WizardFile
+</div>
+
 **Arabic:** Wizard File - Wizard Files
 **English:** Wizard File - Wizard Files
 
@@ -757,7 +763,13 @@
 <div id='accounts' title='accounts' class='searchable'>
 
 ## accounts (الحسابات - Accounts)
+
+<div class='tableName'>
+
 **Table Name:** WizardAccountsLine, **Join Column:** wizardFile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

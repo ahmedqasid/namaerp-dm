@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggrEmpProvisionsRecalc
+</div>
+
 **Arabic:** سند إعادة احتساب مخصصات موظف مجمع - سندات إعادة احتساب مخصصات موظف مجمع
 **English:** Employee Provisions Recalculation Aggregated Document - Employee Provisions Recalculation Aggregated Documents
 
@@ -1258,7 +1264,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggrEmpProvisionsRecalcLine, **Join Column:** aggrEmpProvisionsRecalc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

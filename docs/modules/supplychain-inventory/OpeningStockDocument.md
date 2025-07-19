@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # OpeningStockDocument
+</div>
+
 **Arabic:** سند افتتاح مخزني -  سند افتتاح مخزني
 **English:** Opening Stock Document -  Opening Stock Document
 
@@ -1297,7 +1303,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** OpeningStockLine, **Join Column:** openingStockDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

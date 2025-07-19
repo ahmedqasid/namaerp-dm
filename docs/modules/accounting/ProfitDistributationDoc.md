@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ProfitDistributationDoc
+</div>
+
 **Arabic:** مستند توزيع أرباح - مستندات توزيع ارباح
 **English:** Profits Distribution Doc - Profits Distribution Docs
 
@@ -1075,7 +1081,13 @@
 <div id='mangmentShareLines' title='mangmentShareLines' class='searchable'>
 
 ## mangmentShareLines (نسب الإداره - Management Shares)
+
+<div class='tableName'>
+
 **Table Name:** ProfitDistroMangLine, **Join Column:** profitDistributationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1184,7 +1196,13 @@
 <div id='profitDistribLines' title='profitDistribLines' class='searchable'>
 
 ## profitDistribLines (نسب الشركاء - Partners Profit)
+
+<div class='tableName'>
+
 **Table Name:** ProfitDistroLine, **Join Column:** profitDistributationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

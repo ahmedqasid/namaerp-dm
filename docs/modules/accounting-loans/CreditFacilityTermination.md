@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CreditFacilityTermination
+</div>
+
 **Arabic:** مستند انهاء تسهيل ائتمانى - مستندات إنهاء تسهيلات ائتمانية
 **English:** Credit Facility Termination - Credits Facilities Terminations
 

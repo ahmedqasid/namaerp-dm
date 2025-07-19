@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDContractor
+</div>
+
 **Arabic:** المتعهد - المتعهدين
 **English:** Education Contractor - Education Contractors
 

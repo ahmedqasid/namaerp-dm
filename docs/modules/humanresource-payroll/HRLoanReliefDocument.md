@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRLoanReliefDocument
+</div>
+
 **Arabic:** سند أعفاء سلفة - سندات أعفاء السلف
 **English:** Loan Relief Document - Loan Relief Documents
 
@@ -949,7 +955,13 @@
 <div id='installmentsLines' title='installmentsLines' class='searchable'>
 
 ## installmentsLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HRLoanReliefLine, **Join Column:** hRLoanReliefDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

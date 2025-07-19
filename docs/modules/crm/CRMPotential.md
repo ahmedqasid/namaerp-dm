@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMPotential
+</div>
+
 **Arabic:** فرصة - فرص
 **English:** CRM Potential -  CRM Potential
 
@@ -1204,7 +1210,13 @@
 <div id='assignedTo' title='assignedTo' class='searchable'>
 
 ## assignedTo (مسند إلي - Assigned To)
+
+<div class='tableName'>
+
 **Table Name:** CRMPotentialEmpLine, **Join Column:** cRMPotential_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1493,7 +1505,13 @@
 <div id='contacts' title='contacts' class='searchable'>
 
 ## contacts (جهات الاتصال - Contacts)
+
+<div class='tableName'>
+
 **Table Name:** CRMPotentialContactInfo, **Join Column:** cRMPotential_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1641,7 +1659,13 @@
 <div id='products' title='products' class='searchable'>
 
 ## products (المنتجات - Products)
+
+<div class='tableName'>
+
 **Table Name:** CRMPotentialProducts, **Join Column:** cRMPotential_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

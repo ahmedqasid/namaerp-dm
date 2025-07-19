@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AURiskMatrix
+</div>
+
 **Arabic:** مصفوفة مخاطر - مصفوفة المخاطر
 **English:** Risk Matrix
 
@@ -868,7 +874,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AURiskMatrixLine, **Join Column:** aURiskMatrix_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1040,7 +1052,13 @@
 <div id='summaryLines' title='summaryLines' class='searchable'>
 
 ## summaryLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** AURiskMatrixSummaryLine, **Join Column:** aURiskMatrix_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

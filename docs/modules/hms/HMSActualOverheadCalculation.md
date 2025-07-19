@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSActualOverheadCalculation
+</div>
+
 **Arabic:** سند حساب التكلفة الطبية الغير مباشرة الفعلية - سندات حساب التكلفة الطبية الغير مباشرة الفعلية
 **English:** Actual Overhead Calculation - Actual Overhead Calculations
 
@@ -964,7 +970,13 @@
 <div id='actualOverheads' title='actualOverheads' class='searchable'>
 
 ## actualOverheads (التكاليف الغير مباشرة الفعلية - Actual Overheads)
+
+<div class='tableName'>
+
 **Table Name:** HMSActualOverheadCalculationLine, **Join Column:** hMSActualOverheadCalculation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1121,7 +1133,13 @@
 <div id='invoices' title='invoices' class='searchable'>
 
 ## invoices (الفواتير - Invoices)
+
+<div class='tableName'>
+
 **Table Name:** HMSActualOverheadCalculationInvoiceLine, **Join Column:** hMSActualOverheadCalculation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1164,7 +1182,13 @@
 <div id='overheadItems' title='overheadItems' class='searchable'>
 
 ## overheadItems (بنود تكلفة طبية غير مباشرة - Overhead Items)
+
+<div class='tableName'>
+
 **Table Name:** HMSActualOverheadCalculationItemLine, **Join Column:** hMSActualOverheadCalculation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

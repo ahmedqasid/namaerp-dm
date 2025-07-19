@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MobileAppFieldsSearcherContext
+</div>
+
 **Arabic:** معايير إضافية لفلتر حقول تطبيق المحمول
 **English:** Mobile App Fields Extra Filter - Mobile App Fields Extra Filters
 
@@ -757,7 +763,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MobileAppFieldsSearcherContextLine, **Join Column:** mobileAppFieldsSearcherContext_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

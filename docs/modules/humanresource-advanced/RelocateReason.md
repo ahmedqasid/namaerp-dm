@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RelocateReason
+</div>
+
 **Arabic:** سبب نقل - أسباب نقل
 **English:** Relocate Reason - Relocate Reasons
 

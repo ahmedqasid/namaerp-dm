@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # GlassJobOrderStatusUpdate
+</div>
+
 **Arabic:** تغيير حالة أمر شغل - تغيير حالة أوامر الشغل
 **English:** Glass Job Order Status Update - Glass Job Orders Status Update
 
@@ -1066,7 +1072,13 @@
 <div id='batchInfo' title='batchInfo' class='searchable'>
 
 ## batchInfo (معلومات الشحنة - Batch Information)
+
+<div class='tableName'>
+
 **Table Name:** JobOrderUpdateBatchInfo, **Join Column:** glassJobOrderStatusUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1247,7 +1259,13 @@
 <div id='operations' title='operations' class='searchable'>
 
 ## operations (العمليات - Operations)
+
+<div class='tableName'>
+
 **Table Name:** JobOrderUpdateOperationLine, **Join Column:** glassJobOrderStatusUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

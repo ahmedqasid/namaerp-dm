@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSWarehouse (Table Name: POSWarehouse)
+</div>
+
 **Arabic:** مخزن - مخازن
 
 <ContentFilter/>

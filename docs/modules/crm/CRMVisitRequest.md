@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMVisitRequest
+</div>
+
 **Arabic:** طلب زيارة - طلبات زيارة
 **English:** Visit Request - Visit Requests
 
@@ -1519,7 +1525,13 @@
 <div id='employees' title='employees' class='searchable'>
 
 ## employees (الموظفين - Employees)
+
+<div class='tableName'>
+
 **Table Name:** CRMVisitReqEmployee, **Join Column:** cRMVisitRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1808,7 +1820,13 @@
 <div id='remakLines' title='remakLines' class='searchable'>
 
 ## remakLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CRMVisitReqRemarksLine, **Join Column:** cRMVisitRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

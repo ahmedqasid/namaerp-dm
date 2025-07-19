@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MenuDefinition
+</div>
+
 **Arabic:** تعريف قائمة - تعريف قوائم
 **English:** Menu Definition - Menu Definitions
 
@@ -757,7 +763,13 @@
 <div id='groups' title='groups' class='searchable'>
 
 ## groups (المجموعات - Groups)
+
+<div class='tableName'>
+
 **Table Name:** MenuGroup, **Join Column:** menuDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -881,7 +893,13 @@
 <div id='items' title='items' class='searchable'>
 
 ## items (الوصلات - Items)
+
+<div class='tableName'>
+
 **Table Name:** MenuItem, **Join Column:** menuDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CSHReceiptVoucher
+</div>
+
 **Arabic:** سند قبض كاشير - سندات قبض كاشير
 **English:** Cashier Receipt Voucher - Cashier Receipt Vouchers
 

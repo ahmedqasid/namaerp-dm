@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SafeDeposite
+</div>
+
 **Arabic:** خزينة - خزن
 **English:** Safe Deposit - Safe Deposits
 
@@ -1111,7 +1117,13 @@
 <div id='additionalInformation' title='additionalInformation' class='searchable'>
 
 ## additionalInformation (معلومات إضافية - Additional Information)
+
+<div class='tableName'>
+
 **Table Name:** SafeDepositAdditionInformationLine, **Join Column:** safeDeposite_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

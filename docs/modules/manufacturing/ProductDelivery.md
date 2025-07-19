@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ProductDelivery
+</div>
+
 **Arabic:** تسليم منتج
 **English:** Product Delivery
 
@@ -1621,7 +1627,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ProductDeliveryLine, **Join Column:** productDelivery_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOBed
+</div>
+
 **Arabic:** سرير إسكان - أسرّة إسكان
 **English:** HO Bed - HO Beds
 

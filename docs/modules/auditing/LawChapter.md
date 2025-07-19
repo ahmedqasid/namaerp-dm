@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LawChapter
+</div>
+
 **Arabic:** فصل قانون - فصول القانون
 **English:** Law Chapter - Law Chapters
 

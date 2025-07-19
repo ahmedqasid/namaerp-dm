@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # OfferOnItemsCountSysLine
+</div>
+
 
 <ContentFilter/>
 

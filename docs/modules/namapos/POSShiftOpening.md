@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POSShiftOpening
+</div>
+
 **Arabic:** فتح ورديه -  فتح ورديه
 **English:** POS Shift Opening -  POS Shift Opening
 
@@ -970,7 +976,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSShiftOpenLine, **Join Column:** pOSShiftOpening_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1115,7 +1127,13 @@
 <div id='takenElementsPerShiftLines' title='takenElementsPerShiftLines' class='searchable'>
 
 ## takenElementsPerShiftLines (العناصر المجرودة مع كل وردية - Taken Elements Per Shift Lines)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSShiftOpenShiftTakenElementLine, **Join Column:** pOSShiftOpening_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

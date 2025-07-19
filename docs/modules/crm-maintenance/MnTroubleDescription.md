@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnTroubleDescription
+</div>
+
 **Arabic:** وصف مشكلة صيانة - وصف مشاكل صيانة
 **English:** Maintenance Trouble Description - Maintenance Trouble Descriptions
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BLCReq
+</div>
+
 **Arabic:** طلب اعتماد بنكى - طلبات اعتمادات بنكية
 **English:** Bank LC Request - Bank LCs Request
 

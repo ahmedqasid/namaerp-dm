@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AccountsChart
+</div>
+
 **Arabic:** شجرة حسابات
 **English:** Accounts Chart - Accounts Charts
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDMainLevel
+</div>
+
 **Arabic:** المستوى الرئيسي - المستويات الرئيسية
 **English:** Main Level - Main Levels
 

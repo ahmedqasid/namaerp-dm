@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSMailRetentionReason
+</div>
+
 **Arabic:** سبب تحقق البريد - أسباب تحقق البريد
 **English:** Mail Retention Reason - Mail Retention Reasons
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PaymentTerminal
+</div>
+
 **Arabic:** Payment Terminal - Payment Terminals
 **English:** Payment Terminal - Payment Terminals
 

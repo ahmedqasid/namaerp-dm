@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSDiscountCoupon (Table Name: POSDiscountCoupon)
+</div>
+
 **Arabic:** قسيمة خصومات -  قسيمة خصومات
 **English:** Discount Coupon -  Discount Coupon
 
@@ -310,7 +316,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSDiscountCouponLine, **Join Column:** coupon_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

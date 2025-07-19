@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAMovementOutDoc
+</div>
+
 **Arabic:** سند خروج أصول - سندات خروج أصول
 **English:** Fixed Asset Out Document - Fixed Asset Out Documents
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FAMovementOutLine, **Join Column:** fAMovementOutDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

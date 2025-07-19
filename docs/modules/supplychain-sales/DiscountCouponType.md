@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DiscountCouponType
+</div>
+
 **Arabic:** نوع قسيمة خصومات -  نوع قسيمة خصومات
 **English:** DiscountCoupon Type -  DiscountCoupon Type
 

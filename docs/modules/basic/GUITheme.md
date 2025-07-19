@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # GUITheme
+</div>
+
 **Arabic:** New GUI Theme - New GUI Themes
 **English:** New GUI Theme - New GUI Themes
 

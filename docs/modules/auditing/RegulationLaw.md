@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RegulationLaw
+</div>
+
 **Arabic:** لائحة قانون - لاوائح قوانين
 **English:** Regulation Law - Regulation Laws
 

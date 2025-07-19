@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EmployementInformation
+</div>
+
 **Arabic:** بيان توظيف -  بيان توظيف
 **English:** Employement Information -  Employement Information
 
@@ -1285,7 +1291,13 @@
 <div id='elementLines' title='elementLines' class='searchable'>
 
 ## elementLines (مفردات الراتب - Element Lines)
+
+<div class='tableName'>
+
 **Table Name:** EmployementInfoComponentLine, **Join Column:** employementInformation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1418,7 +1430,13 @@
 <div id='offerVacationLines' title='offerVacationLines' class='searchable'>
 
 ## offerVacationLines (سطور الاجازة - Vacation lines)
+
+<div class='tableName'>
+
 **Table Name:** EmployementInfoVacationLine, **Join Column:** employementInformation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

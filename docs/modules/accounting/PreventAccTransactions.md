@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PreventAccTransactions
+</div>
+
 **Arabic:** منع الحركات على حسابات او ذممم
 **English:** Prevent Transactions On Accounts Or Subsidiaries
 
@@ -757,7 +763,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PrevAccTransactionsLine, **Join Column:** preventAccTransactions_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

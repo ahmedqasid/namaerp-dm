@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPAProjExpenseDoc
+</div>
+
 **Arabic:**  سند مصروف -  سندات مصروف
 **English:**  Project Expense Document -  Project Expense Documents
 
@@ -973,7 +979,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CPAProjExpenseLine, **Join Column:** cPAProjExpenseDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

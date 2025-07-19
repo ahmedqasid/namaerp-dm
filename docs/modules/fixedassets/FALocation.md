@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FALocation
+</div>
+
 **Arabic:** موقع أصول - مواقع أصول
 **English:** Asset Location - Asset Locations
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalaryComponent
+</div>
+
 **Arabic:** مفرد راتب - مفردات رواتب
 **English:** Salary Component - Salary Components
 
@@ -1789,7 +1795,13 @@
 <div id='creditAccountLines' title='creditAccountLines' class='searchable'>
 
 ## creditAccountLines (الحسابات - Credit Accounts)
+
+<div class='tableName'>
+
 **Table Name:** SalaryCompCrAccLine, **Join Column:** salaryComponent_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2366,7 +2378,13 @@
 <div id='debitAccountLines' title='debitAccountLines' class='searchable'>
 
 ## debitAccountLines (الحسابات - Debit Accounts)
+
+<div class='tableName'>
+
 **Table Name:** SalaryCompDrAccLine, **Join Column:** salaryComponent_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2943,7 +2961,13 @@
 <div id='formulaCalcLines' title='formulaCalcLines' class='searchable'>
 
 ## formulaCalcLines (جدول احتساب المعادلة - Formula Calculation Lines)
+
+<div class='tableName'>
+
 **Table Name:** SalaryCompFormulaCalcLine, **Join Column:** salaryComponent_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3217,7 +3241,13 @@
 <div id='issuancesLines' title='issuancesLines' class='searchable'>
 
 ## issuancesLines (الصرفيات - Issuances Lines)
+
+<div class='tableName'>
+
 **Table Name:** SalaryComponentIssuanceLine, **Join Column:** salaryComponent_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

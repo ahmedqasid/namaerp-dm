@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LoanInstallmentPayment
+</div>
+
 **Arabic:** سداد أقساط القرض -  سداد أقساط القرض
 **English:** Loan Installment Payment - Loan Installment Payments
 
@@ -1156,7 +1162,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** LoanPaymentLine, **Join Column:** loanInstallmentPayment_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1304,7 +1316,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** InterestPaymentLine, **Join Column:** loanInstallmentPayment_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

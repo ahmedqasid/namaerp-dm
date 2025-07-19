@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PFQuantitySource
+</div>
+
 **Arabic:** مصدر الكميات - مصادر الكميات
 **English:** Quantity Source - Quantity Sources
 
@@ -748,7 +754,13 @@
 <div id='quantitySourceLines' title='quantitySourceLines' class='searchable'>
 
 ## quantitySourceLines (مصادر الكميات - Quantity Sources)
+
+<div class='tableName'>
+
 **Table Name:** PFQuantitySourceLine, **Join Column:** pFQuantitySource_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

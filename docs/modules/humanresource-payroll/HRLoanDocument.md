@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRLoanDocument
+</div>
+
 **Arabic:** سند سلفة - سندات السلف
 **English:** Loan Document - Loan Documents
 
@@ -1231,7 +1237,13 @@
 <div id='installmentsLines' title='installmentsLines' class='searchable'>
 
 ## installmentsLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HRLoanDocLine, **Join Column:** hRLoanDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

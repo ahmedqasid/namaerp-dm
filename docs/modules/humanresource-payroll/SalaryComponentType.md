@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalaryComponentType
+</div>
+
 **Arabic:** نوع المفرد - أنواع المفردات
 **English:** Salary Component Type - Salary Component Types
 
@@ -952,7 +958,13 @@
 <div id='issuancesLines' title='issuancesLines' class='searchable'>
 
 ## issuancesLines (الصرفيات - Issuances Lines)
+
+<div class='tableName'>
+
 **Table Name:** SalaryCompTypeIssuanceLine, **Join Column:** salaryComponentType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1007,7 +1019,13 @@
 <div id='relatedCalculationFormulas' title='relatedCalculationFormulas' class='searchable'>
 
 ## relatedCalculationFormulas (معادلات حساب المفرد المرتبطه بنوع المفرد - Component Type Related Calculation Formulas)
+
+<div class='tableName'>
+
 **Table Name:** SalaryCompTypeFormulaLine, **Join Column:** salaryComponentType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

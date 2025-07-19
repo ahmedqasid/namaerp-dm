@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # VacationRequest
+</div>
+
 **Arabic:** طلب أجازة - طلبات الأجازة
 **English:** Vacation Request - Vacation Requests
 

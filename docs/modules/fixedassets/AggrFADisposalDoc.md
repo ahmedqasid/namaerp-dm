@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggrFADisposalDoc
+</div>
+
 **Arabic:** سند تخلص مجمع - سندات تخلص مجمعة
 **English:** Aggregated Fixed Asset Disposal Document - Aggregated Fixed Asset Disposal Documents
 
@@ -883,7 +889,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** AggrFADisposalLine, **Join Column:** aggrFADisposalDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

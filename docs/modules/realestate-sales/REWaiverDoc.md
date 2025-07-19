@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REWaiverDoc
+</div>
+
 **Arabic:** سند تنازل عن ملكية - سندات تنازل عن ملكية
 **English:** Waiver Document - Waiver Documents
 
@@ -1777,7 +1783,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** REWaiverDocInstallmentLine, **Join Column:** rEWaiverDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2480,7 +2492,13 @@
 <div id='installmentInfoLines' title='installmentInfoLines' class='searchable'>
 
 ## installmentInfoLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** REWaiverDocInstallmentInfoLine, **Join Column:** rEWaiverDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2829,7 +2847,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** REWaiverDocTermCondsLine, **Join Column:** rEWaiverDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2881,7 +2905,13 @@
 <div id='otherFeesLines' title='otherFeesLines' class='searchable'>
 
 ## otherFeesLines (رسوم أخري - Other Fees Lines)
+
+<div class='tableName'>
+
 **Table Name:** REWaiverFeesLine, **Join Column:** rEWaiverDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3044,7 +3074,13 @@
 <div id='termLines' title='termLines' class='searchable'>
 
 ## termLines (الينود القياسيه - Standard Terms)
+
+<div class='tableName'>
+
 **Table Name:** REWaiverDocStandardTermLine, **Join Column:** rEWaiverDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAPurchaseRequest
+</div>
+
 **Arabic:** طلب  شراء أصل - طلبات  شراء أصول
 **English:** Fixed Asset Purchase  Request - Fixed Asset Purchase Requests
 
@@ -1549,7 +1555,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FAPurchOrderReqLine, **Join Column:** fAPurchaseRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

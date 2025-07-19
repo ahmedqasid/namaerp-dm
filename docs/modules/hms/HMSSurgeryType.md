@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSSurgeryType
+</div>
+
 **Arabic:** نوع عملية جراحية - أنواع العمليات الجراحية
 **English:** Surgery Type - Surgery Types
 
@@ -1186,7 +1192,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSSurgeryTypeSuppliesLine, **Join Column:** hMSSurgeryType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2549,7 +2561,13 @@
 <div id='serviceLines' title='serviceLines' class='searchable'>
 
 ## serviceLines (تفاصيل الخدمات الطبية - Medical Service Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSSurgeryTypeServiceLine, **Join Column:** hMSSurgeryType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3312,7 +3330,13 @@
 <div id='surgeryPriceLines' title='surgeryPriceLines' class='searchable'>
 
 ## surgeryPriceLines (أسعار نوع العملية في القوائم - Surgery Price in Lists)
+
+<div class='tableName'>
+
 **Table Name:** HMSSurgeryTypePriceLine, **Join Column:** hMSSurgeryType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

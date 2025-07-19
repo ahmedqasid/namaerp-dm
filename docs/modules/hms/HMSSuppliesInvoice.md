@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSSuppliesInvoice
+</div>
+
 **Arabic:** فاتورة مستلزمات طبية - فواتير مستلزمات طبية
 **English:** Medical Supplies Invoice - Medical Supplies Invoices
 
@@ -2311,7 +2317,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSSuppliesInvoiceLine, **Join Column:** hMSSuppliesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3704,7 +3716,13 @@
 <div id='overheadItems' title='overheadItems' class='searchable'>
 
 ## overheadItems (بنود تكلفة طبية غير مباشرة - Overhead Items)
+
+<div class='tableName'>
+
 **Table Name:** HMSSuppliesInvoiceOverheadItem, **Join Column:** hMSSuppliesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

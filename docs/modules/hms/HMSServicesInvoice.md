@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSServicesInvoice
+</div>
+
 **Arabic:** فاتورة خدمات طبية - فواتير خدمات طبية
 **English:** Services Invoice - Services Invoices
 
@@ -2020,7 +2026,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSServiceSuppliesLine, **Join Column:** hMSServicesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3383,7 +3395,13 @@
 <div id='overheadItems' title='overheadItems' class='searchable'>
 
 ## overheadItems (بنود تكلفة طبية غير مباشرة - Overhead Items)
+
+<div class='tableName'>
+
 **Table Name:** HMSServiceInvoiceOverheadItem, **Join Column:** hMSServicesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3465,7 +3483,13 @@
 <div id='servicesLines' title='servicesLines' class='searchable'>
 
 ## servicesLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSServicesInvoiceLine, **Join Column:** hMSServicesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

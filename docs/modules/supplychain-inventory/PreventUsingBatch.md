@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PreventUsingBatch
+</div>
+
 **Arabic:** منع إستخدام الشحنة -  منع إستخدام الشحنة
 **English:** Prevent Using Batch -  Prevent Using Batch
 
@@ -766,7 +772,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PreventUsingBatchLine, **Join Column:** preventUsingBatch_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

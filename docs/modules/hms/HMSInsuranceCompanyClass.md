@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSInsuranceCompanyClass
+</div>
+
 **Arabic:** فئة شركة تأمين طبى - فئات شركات تأمين طبى
 **English:** Medical Insurance Company Class - Medical Insurance Companies Classes
 

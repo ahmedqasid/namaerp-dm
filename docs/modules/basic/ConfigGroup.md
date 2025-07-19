@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ConfigGroup
+</div>
+
 **Arabic:** قائمة إعدادات - قوائم إعدادات
 **English:** Configuration Group - Configuration Groups
 
@@ -748,7 +754,13 @@
 <div id='preventedEntities' title='preventedEntities' class='searchable'>
 
 ## preventedEntities (الشاشات الغير مستعملة - Unused Entities)
+
+<div class='tableName'>
+
 **Table Name:** ConfigGroup_preventedEntities, **Join Column:** ConfigGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -800,7 +812,13 @@
 <div id='preventedFeatures' title='preventedFeatures' class='searchable'>
 
 ## preventedFeatures (المميزات الغير مستعملة - Unused Features)
+
+<div class='tableName'>
+
 **Table Name:** ConfigGroup_preventedFeatures, **Join Column:** ConfigGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractorMaterialIssue
+</div>
+
 **Arabic:** صرف خامات مقاول باطن
 **English:** Contractor Material Issue - Contractor Material Issues
 
@@ -2506,7 +2512,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ContractorIssueLine, **Join Column:** contractorMaterialIssue_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

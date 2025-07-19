@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # WeightScalePreparationDoc
+</div>
+
 **Arabic:** سند تحضير - الميزان - سندات تحضير - الميزان
 **English:** Weight Scale Preparation Document - Weight Scale Preparation Documents
 
@@ -1465,7 +1471,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** WeightScalePreparationDocLine, **Join Column:** weightScalePreparationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

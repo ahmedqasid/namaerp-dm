@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MCTender
+</div>
+
 **Arabic:** مناقصة مقاولات صيانة - مناقصات مقاولات صيانة
 **English:** MC Tender - MC Tenders
 
@@ -964,7 +970,13 @@
 <div id='cancelledEquipments' title='cancelledEquipments' class='searchable'>
 
 ## cancelledEquipments (بنود المعدات المحذوفة - Cancelled Equipments)
+
+<div class='tableName'>
+
 **Table Name:** MCTenderCancelledEquipment, **Join Column:** mCTender_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1130,7 +1142,13 @@
 <div id='cancelledLabors' title='cancelledLabors' class='searchable'>
 
 ## cancelledLabors (بنود العمالة المحذوفة - Cancelled Labors)
+
+<div class='tableName'>
+
 **Table Name:** MCTenderCancelledLaborLine, **Join Column:** mCTender_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1344,7 +1362,13 @@
 <div id='cancelledOperations' title='cancelledOperations' class='searchable'>
 
 ## cancelledOperations (بنود التشغيل والصيانة المحذوفة - Cancelled Operations)
+
+<div class='tableName'>
+
 **Table Name:** MCTenderCancelledOperation, **Join Column:** mCTender_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1528,7 +1552,13 @@
 <div id='consumedItemLines' title='consumedItemLines' class='searchable'>
 
 ## consumedItemLines (المواد المستهلكة - Consumed Item Lines)
+
+<div class='tableName'>
+
 **Table Name:** MCTenderConsumedItemLine, **Join Column:** mCTender_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1643,7 +1673,13 @@
 <div id='editedOperationLines' title='editedOperationLines' class='searchable'>
 
 ## editedOperationLines (تعديل بنود التشغيل والصيانة - Edited Operation Lines)
+
+<div class='tableName'>
+
 **Table Name:** MCEditTenderOperationLine, **Join Column:** mCTender_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1827,7 +1863,13 @@
 <div id='equipmentLines' title='equipmentLines' class='searchable'>
 
 ## equipmentLines (سطور بنود المعدات - Equipment Lines)
+
+<div class='tableName'>
+
 **Table Name:** MCTenderEquipmentLine, **Join Column:** mCTender_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1993,7 +2035,13 @@
 <div id='laborLines' title='laborLines' class='searchable'>
 
 ## laborLines (بنود العمالة - Labor Lines)
+
+<div class='tableName'>
+
 **Table Name:** MCTenderLaborLine, **Join Column:** mCTender_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2207,7 +2255,13 @@
 <div id='operationLines' title='operationLines' class='searchable'>
 
 ## operationLines (بنود التشغيل والصيانة - Operation Lines)
+
+<div class='tableName'>
+
 **Table Name:** MCTenderOperationLine, **Join Column:** mCTender_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2391,7 +2445,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** MCTenderTermLine, **Join Column:** mCTender_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

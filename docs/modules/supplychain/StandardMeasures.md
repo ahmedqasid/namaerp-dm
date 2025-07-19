@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # StandardMeasures
+</div>
+
 **Arabic:** أبعاد قياسية - الأبعاد القياسية
 **English:** Standard Measures
 
@@ -757,7 +763,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** StandardMeasuresLine, **Join Column:** standardMeasures_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

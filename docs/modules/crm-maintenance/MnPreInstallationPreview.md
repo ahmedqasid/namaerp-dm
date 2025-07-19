@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnPreInstallationPreview
+</div>
+
 **Arabic:** معاينة قبل التركيب - معاينات قبل التركيب
 **English:** Pre-Installation Preview - Pre-Installation Previews
 
@@ -1726,7 +1732,13 @@
 <div id='discussionLines' title='discussionLines' class='searchable'>
 
 ## discussionLines (المناقشات - Discussions)
+
+<div class='tableName'>
+
 **Table Name:** MnPreviewDiscussionLine, **Join Column:** mnPreInstallationPreview_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1778,7 +1790,13 @@
 <div id='maintenanceGroups' title='maintenanceGroups' class='searchable'>
 
 ## maintenanceGroups (مجموعات الصيانة - Maintenance Groups)
+
+<div class='tableName'>
+
 **Table Name:** MnPreIntallPreviewGroupLine, **Join Column:** mnPreInstallationPreview_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

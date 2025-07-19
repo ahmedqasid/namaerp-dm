@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # GenericReferenceOverrider
+</div>
+
 **Arabic:** أعدادات الحقول و الشاشات -  أعدادات الحقول و الشاشات
 **English:** Fields and Entities Settings -  Fields and Entities Settings
 
@@ -916,7 +922,13 @@
 <div id='addDiscussionTo' title='addDiscussionTo' class='searchable'>
 
 ## addDiscussionTo (إضافة النقاش إلي - Add Discussion To)
+
+<div class='tableName'>
+
 **Table Name:** AddDiscussionTo, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1019,7 +1031,13 @@
 <div id='addRelatedDocumentsTo' title='addRelatedDocumentsTo' class='searchable'>
 
 ## addRelatedDocumentsTo (إضافة المستندات المرتبطة إلى - Add Related Documents To)
+
+<div class='tableName'>
+
 **Table Name:** AddRelatedDocumentsTo, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1122,7 +1140,13 @@
 <div id='allowUsageOfPreventedRecords' title='allowUsageOfPreventedRecords' class='searchable'>
 
 ## allowUsageOfPreventedRecords (السماح باستعمال السجلات الممنوعة من الاستعمال - Allow Usage Of Prevented Records)
+
+<div class='tableName'>
+
 **Table Name:** AllowUsageOfPreventedRecords, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1207,7 +1231,13 @@
 <div id='auditFields' title='auditFields' class='searchable'>
 
 ## auditFields (Audit Fields - Audit Fields)
+
+<div class='tableName'>
+
 **Table Name:** DetailedAuditFields, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1301,7 +1331,13 @@
 <div id='autoCodingLines' title='autoCodingLines' class='searchable'>
 
 ## autoCodingLines (التكويد الالي للملفات - Files Auto Coding)
+
+<div class='tableName'>
+
 **Table Name:** GenRefAutoCodingLine, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1572,7 +1608,13 @@
 <div id='descriptors' title='descriptors' class='searchable'>
 
 ## descriptors (Descriptors - Descriptors)
+
+<div class='tableName'>
+
 **Table Name:** ReferenceDescriptorLine, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1675,7 +1717,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (القيم المسموح بها للمراجع - Allowed Values For Generic References)
+
+<div class='tableName'>
+
 **Table Name:** GenRefOverriderLine, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1835,7 +1883,13 @@
 <div id='dimensionsConsistency' title='dimensionsConsistency' class='searchable'>
 
 ## dimensionsConsistency (تجاهل تناسق المحددات لحقول - Ignore Dimensions Consistency for Fields)
+
+<div class='tableName'>
+
 **Table Name:** IgnoreDimensionsConsistency, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1974,7 +2028,13 @@
 <div id='disabledFields' title='disabledFields' class='searchable'>
 
 ## disabledFields (Disabled Fields - Disabled Fields)
+
+<div class='tableName'>
+
 **Table Name:** DisabledFieldsLines, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2059,7 +2119,13 @@
 <div id='displayMasks' title='displayMasks' class='searchable'>
 
 ## displayMasks (Display Masks - Display Masks)
+
+<div class='tableName'>
+
 **Table Name:** FieldDisplayMask, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2162,7 +2228,13 @@
 <div id='emailSendToTypes' title='emailSendToTypes' class='searchable'>
 
 ## emailSendToTypes (أنواع المراجع في نافذة ارسال بريد الكترونى - Email Send To Types)
+
+<div class='tableName'>
+
 **Table Name:** EmailSendToTypes, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2280,7 +2352,13 @@
 <div id='entityIcons' title='entityIcons' class='searchable'>
 
 ## entityIcons (Entity Icons - Entity Icons)
+
+<div class='tableName'>
+
 **Table Name:** EntityIconLine, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2362,7 +2440,13 @@
 <div id='enumIcons' title='enumIcons' class='searchable'>
 
 ## enumIcons (Enum Icons - Enum Icons)
+
+<div class='tableName'>
+
 **Table Name:** EnumConstantIconLine, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2453,7 +2537,13 @@
 <div id='errorMessageLoggingConfigs' title='errorMessageLoggingConfigs' class='searchable'>
 
 ## errorMessageLoggingConfigs (Error Message Logging Configurations - Error Message Logging Configurations)
+
+<div class='tableName'>
+
 **Table Name:** ErrorMesageLoggingConfig, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2538,7 +2628,13 @@
 <div id='extraCodes' title='extraCodes' class='searchable'>
 
 ## extraCodes (Extra Codes - Extra Codes)
+
+<div class='tableName'>
+
 **Table Name:** ExtraCode, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2632,7 +2728,13 @@
 <div id='extraFilter' title='extraFilter' class='searchable'>
 
 ## extraFilter (Extra Filter - Extra Filter)
+
+<div class='tableName'>
+
 **Table Name:** FieldExtraFilter, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2738,7 +2840,13 @@
 <div id='extraReferenceSearchFields' title='extraReferenceSearchFields' class='searchable'>
 
 ## extraReferenceSearchFields (حقول البحث الإضافية عند البحث عن مرجع - Extra Reference Search Fields)
+
+<div class='tableName'>
+
 **Table Name:** ExtraReferenceSearchFields, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2841,7 +2949,13 @@
 <div id='fieldAllowedValues' title='fieldAllowedValues' class='searchable'>
 
 ## fieldAllowedValues (القيم المسموح بها للحقول - Field Allowed Values)
+
+<div class='tableName'>
+
 **Table Name:** FieldAllowedValues, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3025,7 +3139,13 @@
 <div id='fieldFormats' title='fieldFormats' class='searchable'>
 
 ## fieldFormats (Field Formats - Field Formats)
+
+<div class='tableName'>
+
 **Table Name:** FieldFormatLine, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3284,7 +3404,13 @@
 <div id='fieldIcons' title='fieldIcons' class='searchable'>
 
 ## fieldIcons (Field Icons - Field Icons)
+
+<div class='tableName'>
+
 **Table Name:** FieldIconLine, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3387,7 +3513,13 @@
 <div id='fieldStyles' title='fieldStyles' class='searchable'>
 
 ## fieldStyles (Field Styles - Field Styles)
+
+<div class='tableName'>
+
 **Table Name:** FieldStyleLine, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3544,7 +3676,13 @@
 <div id='importIntegratorLines' title='importIntegratorLines' class='searchable'>
 
 ## importIntegratorLines (Import Integrators - Import Integrators)
+
+<div class='tableName'>
+
 **Table Name:** ImportIntegratorLine, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3746,7 +3884,13 @@
 <div id='integratorConfig' title='integratorConfig' class='searchable'>
 
 ## integratorConfig (Integrator Config - Integrator Config)
+
+<div class='tableName'>
+
 **Table Name:** IntegratorConfig, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3960,7 +4104,13 @@
 <div id='invoiceRetrieverLines' title='invoiceRetrieverLines' class='searchable'>
 
 ## invoiceRetrieverLines (Invoice Retriever Lines - Invoice Retriever Lines)
+
+<div class='tableName'>
+
 **Table Name:** InvoiceRetrieverLine, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4063,7 +4213,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines (Clear On Duplicate - Clear On Duplicate)
+
+<div class='tableName'>
+
 **Table Name:** DuplicatedFieldsLines, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4148,7 +4304,13 @@
 <div id='maxFieldsLengthInDB' title='maxFieldsLengthInDB' class='searchable'>
 
 ## maxFieldsLengthInDB (Max Fields Length In DB - Max Fields Length In DB)
+
+<div class='tableName'>
+
 **Table Name:** MaxFieldLengthInDB, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4242,7 +4404,13 @@
 <div id='maxLinesCounts' title='maxLinesCounts' class='searchable'>
 
 ## maxLinesCounts (أقصى عدد لسطور السندات والملفات - Max Lines Counts For Documents And Files)
+
+<div class='tableName'>
+
 **Table Name:** MaxLineCount, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4336,7 +4504,13 @@
 <div id='maxPOSFieldsLengthInDB' title='maxPOSFieldsLengthInDB' class='searchable'>
 
 ## maxPOSFieldsLengthInDB (Max POS Fields Length In DB - Max POS Fields Length In DB)
+
+<div class='tableName'>
+
 **Table Name:** MaxPOSFieldLengthInDB, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4427,7 +4601,13 @@
 <div id='notColorFields' title='notColorFields' class='searchable'>
 
 ## notColorFields (ليست حقول ألوان - Not Color Fields)
+
+<div class='tableName'>
+
 **Table Name:** NotColorField, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4512,7 +4692,13 @@
 <div id='openCreateFields' title='openCreateFields' class='searchable'>
 
 ## openCreateFields (الحقول التي يتم فتح الإنشاء عند ادخال كود غير موجود - Fields that open Edit Screen when code not found)
+
+<div class='tableName'>
+
 **Table Name:** OpenCreateFields, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4606,7 +4792,13 @@
 <div id='openInPopups' title='openInPopups' class='searchable'>
 
 ## openInPopups (Open Reference In Popup - Open Reference In Popup)
+
+<div class='tableName'>
+
 **Table Name:** OpenInPopup, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4691,7 +4883,13 @@
 <div id='publicEntitiesLines' title='publicEntitiesLines' class='searchable'>
 
 ## publicEntitiesLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** PublicEntitiesLine, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4767,7 +4965,13 @@
 <div id='queryBasedScreenField' title='queryBasedScreenField' class='searchable'>
 
 ## queryBasedScreenField (استعلامات الحقول المحسوبة - calculated Fields Queries)
+
+<div class='tableName'>
+
 **Table Name:** QueryBasedScreenField, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5032,7 +5236,13 @@
 <div id='richTextFields' title='richTextFields' class='searchable'>
 
 ## richTextFields (Rich Text Fields - Rich Text Fields)
+
+<div class='tableName'>
+
 **Table Name:** RichTextFieldsLines, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5117,7 +5327,13 @@
 <div id='searchInNameInFindByCode' title='searchInNameInFindByCode' class='searchable'>
 
 ## searchInNameInFindByCode (البحث في الأسم العربى والانجليزى عند كتابة كود ملف - Search In Name In Find By Code)
+
+<div class='tableName'>
+
 **Table Name:** SearchInNameInFindByCode, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5202,7 +5418,13 @@
 <div id='signatures' title='signatures' class='searchable'>
 
 ## signatures (Signatures - Signatures)
+
+<div class='tableName'>
+
 **Table Name:** SignatureFields, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5335,7 +5557,13 @@
 <div id='styleOverriderLines' title='styleOverriderLines' class='searchable'>
 
 ## styleOverriderLines (Style Overrider Details - Style Overrider Details)
+
+<div class='tableName'>
+
 **Table Name:** GenRefRowStyleOverriderLine, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5429,7 +5657,13 @@
 <div id='textToLinkFields' title='textToLinkFields' class='searchable'>
 
 ## textToLinkFields (الحقول النصية المحوله الي روابط - Text To Link Fields)
+
+<div class='tableName'>
+
 **Table Name:** TextToLinkFieldsLine, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5523,7 +5757,13 @@
 <div id='useScannerInFields' title='useScannerInFields' class='searchable'>
 
 ## useScannerInFields (Use Scanner In Fields - Use Scanner In Fields)
+
+<div class='tableName'>
+
 **Table Name:** UseScannerInField, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

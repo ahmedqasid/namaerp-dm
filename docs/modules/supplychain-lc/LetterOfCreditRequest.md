@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LetterOfCreditRequest
+</div>
+
 **Arabic:** طلب إعتماد مستندي - طلبات إعتمادات مستندية
 **English:** Letter Of Credit Request - Letters Of Credit Requests
 

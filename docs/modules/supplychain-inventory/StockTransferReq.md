@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # StockTransferReq
+</div>
+
 **Arabic:** طلب تحويل مخزني - طلبات تحويل مخزني
 **English:** Stock Transfer Request - Stock Transfer Requests
 
@@ -1471,7 +1477,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** StockTransferReqLine, **Join Column:** stockTransferReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

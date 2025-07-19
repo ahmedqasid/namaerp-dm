@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.PosRequiredFields (Table Name: PosRequiredFields)
+</div>
+
 **Arabic:** الحقول المطلوبه لنقاط البيع -  الحقول المطلوبه لنقاط البيع
 **English:** Pos Required Fields -  Pos Required Fields
 
@@ -235,7 +241,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PosRequiredFieldsLine, **Join Column:** reqFields_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

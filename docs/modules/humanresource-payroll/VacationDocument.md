@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # VacationDocument
+</div>
+
 **Arabic:** سند أجازة - سندات أجازة
 **English:** Vacation Document - Vacation Documents
 

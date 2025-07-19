@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSInsuranceCompany
+</div>
+
 **Arabic:** شركة تأمين طبى - شركات التأمين الطبى
 **English:** Medical Insurance Company - Medical Insurance Companies
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPAProjectStageExtension
+</div>
+
 **Arabic:** تمديد مرحلة مشروع
 **English:** Project Stage Extension - Project Stage Extensions
 
@@ -934,7 +940,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CPAProjectStageExtensionLine, **Join Column:** cPAProjectStageExtension_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

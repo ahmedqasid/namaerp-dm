@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.PosTableEntry (Table Name: PosTableEntry)
+</div>
+
 
 <ContentFilter/>
 

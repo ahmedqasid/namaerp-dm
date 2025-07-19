@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TimeAttendance
+</div>
+
 **Arabic:** حضور / إنصراف - الحضور / الإنصراف
 **English:** Time Attendance
 
@@ -988,7 +994,13 @@
 <div id='attendanceLines' title='attendanceLines' class='searchable'>
 
 ## attendanceLines (الحضور / الإنصراف - Attendance)
+
+<div class='tableName'>
+
 **Table Name:** TimeAttendanceLine, **Join Column:** timeAttendance_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

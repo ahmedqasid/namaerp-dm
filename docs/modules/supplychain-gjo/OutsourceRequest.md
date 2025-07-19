@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # OutsourceRequest
+</div>
+
 **Arabic:** طلب تصنيع خارجي - طلبات تصنيع خارجي
 **English:** Outsource Request - Outsource Requests
 
@@ -1300,7 +1306,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** OutsourceRequestLine, **Join Column:** outsourceRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

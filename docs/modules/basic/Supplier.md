@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Supplier
+</div>
+
 **Arabic:** مورد - الموردين
 
 <ContentFilter/>
@@ -2424,7 +2430,13 @@
 <div id='contacts' title='contacts' class='searchable'>
 
 ## contacts (جهات الاتصال - Contacts)
+
+<div class='tableName'>
+
 **Table Name:** SupplierContactInfo, **Join Column:** supplier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2596,7 +2608,13 @@
 <div id='extraInfo' title='extraInfo' class='searchable'>
 
 ## extraInfo (معلومات إضافية - Extra Info)
+
+<div class='tableName'>
+
 **Table Name:** SupplierExtraInfo, **Join Column:** supplier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

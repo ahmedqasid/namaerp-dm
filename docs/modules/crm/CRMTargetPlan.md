@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMTargetPlan
+</div>
+
 **Arabic:** هدف تشغيل - اهداف تشغيل
 **English:** Operation goal - Operation goals
 
@@ -793,7 +799,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CRMTargetPlanLine, **Join Column:** cRMTargetPlan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

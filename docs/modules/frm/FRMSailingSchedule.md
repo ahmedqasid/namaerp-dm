@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMSailingSchedule
+</div>
+
 **Arabic:** جدول إبحار - جداول الإبحار
 **English:** Sailing Schedule - Sailing Schedules
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMSailingScheduleLine, **Join Column:** fRMSailingSchedule_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

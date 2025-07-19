@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAAdditionDeduction
+</div>
+
 **Arabic:** سند الإضافة و الإستبعاد - سندات الإضافة و الإستبعاد
 **English:** Asset addition deduction - Asset addition deductions
 

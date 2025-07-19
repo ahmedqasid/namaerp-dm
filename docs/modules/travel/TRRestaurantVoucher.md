@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TRRestaurantVoucher
+</div>
+
 **Arabic:** قسيمة مطعم - قسائم مطاعم
 **English:** Restaurant Voucher - Restaurant Vouchers
 

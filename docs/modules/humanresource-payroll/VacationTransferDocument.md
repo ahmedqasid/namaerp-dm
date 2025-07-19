@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # VacationTransferDocument
+</div>
+
 **Arabic:** سند ترحيل أجازات - سندات ترحيل أجازات
 **English:** Vacation Transfer Document - Vacations Transfer Documents
 
@@ -898,7 +904,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** VacationTransferLine, **Join Column:** vacationTransferDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -944,7 +956,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** VacationDetTransferLine, **Join Column:** vacationTransferDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

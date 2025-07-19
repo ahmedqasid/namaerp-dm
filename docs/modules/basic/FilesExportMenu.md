@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FilesExportMenu
+</div>
+
 **Arabic:** قائمة تصدير / استيراد ملفات - قوائم تصدير / استيراد ملفات
 **English:** Files Export / Import Menu - Files Export / Import  Menus
 
@@ -1180,7 +1186,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ExportedFilesLine, **Join Column:** filesExportMenu_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1256,7 +1268,13 @@
 <div id='fields' title='fields' class='searchable'>
 
 ## fields (الحقول - Fields)
+
+<div class='tableName'>
+
 **Table Name:** FileExportMenuFieldLine, **Join Column:** filesExportMenu_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1335,7 +1353,13 @@
 <div id='importedFilesLines' title='importedFilesLines' class='searchable'>
 
 ## importedFilesLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** ImportedFilesLine, **Join Column:** filesExportMenu_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

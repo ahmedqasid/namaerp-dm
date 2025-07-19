@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # QualityAssuranceDoc
+</div>
+
 **Arabic:** سند تاكيد الجودة - سندات تاكيد الجودة
 **English:** Quality Assurance document - Quality Assurance Documents
 
@@ -1285,7 +1291,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** QualityAssuranceLine, **Join Column:** qualityAssuranceDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

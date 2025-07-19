@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUTrialBalance
+</div>
+
 **Arabic:** ميزان مراجعة - موازين مراجعة
 **English:** Trial Balance - Trial Balances
 
@@ -1024,7 +1030,13 @@
 <div id='TBalanceLines' title='TBalanceLines' class='searchable'>
 
 ## TBalanceLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUTrialBalanceLine, **Join Column:** aUTrialBalance_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

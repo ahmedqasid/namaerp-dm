@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EstimatedAudienceCost
+</div>
+
 **Arabic:** تكلفة جمهور المشاركين التقديرية - تكاليف جمهور المشاركين التقديرية
 **English:** Estimated Audience Cost - Estimated Audience Costs
 
@@ -931,7 +937,13 @@
 <div id='categoriesLines' title='categoriesLines' class='searchable'>
 
 ## categoriesLines (فئات الحضور - Attendants Categories Lines)
+
+<div class='tableName'>
+
 **Table Name:** EstimatedAudienceCategLine, **Join Column:** estimatedAudienceCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1103,7 +1115,13 @@
 <div id='suppliesLines' title='suppliesLines' class='searchable'>
 
 ## suppliesLines (مستلزمات الحضور - Attendants Supplies Lines)
+
+<div class='tableName'>
+
 **Table Name:** EstimatedAudienceSuppliesLine, **Join Column:** estimatedAudienceCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

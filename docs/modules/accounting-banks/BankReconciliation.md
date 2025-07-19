@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BankReconciliation
+</div>
+
 **Arabic:** مذكرة تسوية بنكية - مذكرات التسويات البنكية
 **English:** Bank Reconciliation - Bank Reconciliations
 
@@ -1111,7 +1117,13 @@
 <div id='subsidiaryLines' title='subsidiaryLines' class='searchable'>
 
 ## subsidiaryLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** BRCBankLine, **Join Column:** bankReconciliation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1400,7 +1412,13 @@
 <div id='systemLines' title='systemLines' class='searchable'>
 
 ## systemLines (حركات النظام - System Lines)
+
+<div class='tableName'>
+
 **Table Name:** BRCSystemLine, **Join Column:** bankReconciliation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1698,7 +1716,13 @@
 <div id='unmatchedSubsidiaryLines' title='unmatchedSubsidiaryLines' class='searchable'>
 
 ## unmatchedSubsidiaryLines (حركات الذمة المعلقة - Unmatched Subsidiary Lines)
+
+<div class='tableName'>
+
 **Table Name:** BRCUnMatchedBankLine, **Join Column:** bankReconciliation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1996,7 +2020,13 @@
 <div id='unmatchedSystemLines' title='unmatchedSystemLines' class='searchable'>
 
 ## unmatchedSystemLines (حركات النظام المعلقة - Unmatched System Lines)
+
+<div class='tableName'>
+
 **Table Name:** BRCUnMatchedSystemLine, **Join Column:** bankReconciliation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPosItemAdditionalItems
+</div>
+
 **Arabic:** الأصناف الإضافية للصنف في نقاط البيع -  الأصناف الإضافية للصنف في نقاط البيع
 **English:** POS Item Additional Items -  POS Item Additional Items
 
@@ -910,7 +916,13 @@
 <div id='additionalItems1' title='additionalItems1' class='searchable'>
 
 ## additionalItems1 (الأصناف الإضافية 1 - Additional Items 1)
+
+<div class='tableName'>
+
 **Table Name:** NamaAdditionalItems1, **Join Column:** namaPosItemAdditionalItems_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -974,7 +986,13 @@
 <div id='additionalItems10' title='additionalItems10' class='searchable'>
 
 ## additionalItems10 (الأصناف الإضافية 10 - Additional Items 10)
+
+<div class='tableName'>
+
 **Table Name:** NamaAdditionalItems10, **Join Column:** namaPosItemAdditionalItems_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1038,7 +1056,13 @@
 <div id='additionalItems2' title='additionalItems2' class='searchable'>
 
 ## additionalItems2 (الأصناف الإضافية 2 - Additional Items 2)
+
+<div class='tableName'>
+
 **Table Name:** NamaAdditionalItems2, **Join Column:** namaPosItemAdditionalItems_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1102,7 +1126,13 @@
 <div id='additionalItems3' title='additionalItems3' class='searchable'>
 
 ## additionalItems3 (الأصناف الإضافية 3 - Additional Items 3)
+
+<div class='tableName'>
+
 **Table Name:** NamaAdditionalItems3, **Join Column:** namaPosItemAdditionalItems_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1166,7 +1196,13 @@
 <div id='additionalItems4' title='additionalItems4' class='searchable'>
 
 ## additionalItems4 (الأصناف الإضافية 4 - Additional Items 4)
+
+<div class='tableName'>
+
 **Table Name:** NamaAdditionalItems4, **Join Column:** namaPosItemAdditionalItems_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1230,7 +1266,13 @@
 <div id='additionalItems5' title='additionalItems5' class='searchable'>
 
 ## additionalItems5 (الأصناف الإضافية 5 - Additional Items 5)
+
+<div class='tableName'>
+
 **Table Name:** NamaAdditionalItems5, **Join Column:** namaPosItemAdditionalItems_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1294,7 +1336,13 @@
 <div id='additionalItems6' title='additionalItems6' class='searchable'>
 
 ## additionalItems6 (الأصناف الإضافية 6 - Additional Items 6)
+
+<div class='tableName'>
+
 **Table Name:** NamaAdditionalItems6, **Join Column:** namaPosItemAdditionalItems_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1358,7 +1406,13 @@
 <div id='additionalItems7' title='additionalItems7' class='searchable'>
 
 ## additionalItems7 (الأصناف الإضافية 7 - Additional Items 7)
+
+<div class='tableName'>
+
 **Table Name:** NamaAdditionalItems7, **Join Column:** namaPosItemAdditionalItems_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1422,7 +1476,13 @@
 <div id='additionalItems8' title='additionalItems8' class='searchable'>
 
 ## additionalItems8 (الأصناف الإضافية 8 - Additional Items 8)
+
+<div class='tableName'>
+
 **Table Name:** NamaAdditionalItems8, **Join Column:** namaPosItemAdditionalItems_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1486,7 +1546,13 @@
 <div id='additionalItems9' title='additionalItems9' class='searchable'>
 
 ## additionalItems9 (الأصناف الإضافية 9 - Additional Items 9)
+
+<div class='tableName'>
+
 **Table Name:** NamaAdditionalItems9, **Join Column:** namaPosItemAdditionalItems_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1550,7 +1616,13 @@
 <div id='additionalItemsSettings' title='additionalItemsSettings' class='searchable'>
 
 ## additionalItemsSettings (إعدادات الأصناف الإضافية - Additional Items Settings)
+
+<div class='tableName'>
+
 **Table Name:** NamaPosAdditionalItemsLine, **Join Column:** namaPosItemAdditionalItems_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

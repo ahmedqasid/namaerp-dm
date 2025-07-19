@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRTest
+</div>
+
 **Arabic:** إختبار - إختبارات
 **English:** HR Test - HR Tests
 
@@ -823,7 +829,13 @@
 <div id='relatedSkills' title='relatedSkills' class='searchable'>
 
 ## relatedSkills (المهارات المختبرة - Related Skills)
+
+<div class='tableName'>
+
 **Table Name:** TestRelatedSkillLine, **Join Column:** hRTest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

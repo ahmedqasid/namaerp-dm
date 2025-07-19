@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSItemClass4 (Table Name: POSItemClass4)
+</div>
+
 **Arabic:** تصنيف صنف 4 - تصنيفات صنف 4
 **English:** Item class 4 - Item classes 4
 

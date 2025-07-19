@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InitialReceipt
+</div>
+
 **Arabic:** إستلام مبدئي -  إستلام مبدئي
 **English:** Initial Receipt -  Initial Receipt
 
@@ -1276,7 +1282,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** InitialReceiptLine, **Join Column:** initialReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2168,7 +2180,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** InitialReceiptStandTermsLine, **Join Column:** initialReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

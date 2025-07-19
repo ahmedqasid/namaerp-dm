@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InvItemOpiningRequest
+</div>
+
 **Arabic:** طلب فتح صنف - طلب فتح أصناف
 **English:** Item Opening Request - Item Opening Requests
 
@@ -1996,7 +2002,13 @@
 <div id='customerCodes' title='customerCodes' class='searchable'>
 
 ## customerCodes (أكواد العملاء - Customer Codes)
+
+<div class='tableName'>
+
 **Table Name:** ReqCustomerItemCode, **Join Column:** invItemOpiningRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2219,7 +2231,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ReqItemDimensionsDetail, **Join Column:** invItemOpiningRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2865,7 +2883,13 @@
 <div id='keywordLines' title='keywordLines' class='searchable'>
 
 ## keywordLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** ReqItemKeywordLine, **Join Column:** invItemOpiningRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2959,7 +2983,13 @@
 <div id='manfCodes' title='manfCodes' class='searchable'>
 
 ## manfCodes (أكواد الموردين - Supplier Codes)
+
+<div class='tableName'>
+
 **Table Name:** ReqManufacturerItemCode, **Join Column:** invItemOpiningRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3191,7 +3221,13 @@
 <div id='primConversionLines' title='primConversionLines' class='searchable'>
 
 ## primConversionLines ( التحويلات -  Conversions)
+
+<div class='tableName'>
+
 **Table Name:** ReqPrimaryConversionLine, **Join Column:** invItemOpiningRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3330,7 +3366,13 @@
 <div id='primaryUnits' title='primaryUnits' class='searchable'>
 
 ## primaryUnits ( الوحدات -  Units)
+
+<div class='tableName'>
+
 **Table Name:** ReqPrimaryItemUOMLine, **Join Column:** invItemOpiningRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3532,7 +3574,13 @@
 <div id='revisions' title='revisions' class='searchable'>
 
 ## revisions (إصدارات - Revisions)
+
+<div class='tableName'>
+
 **Table Name:** RequestItemRevision, **Join Column:** invItemOpiningRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3773,7 +3821,13 @@
 <div id='secondConversionLines' title='secondConversionLines' class='searchable'>
 
 ## secondConversionLines ( التحويلات -  Conversions)
+
+<div class='tableName'>
+
 **Table Name:** ReqSecondaryConversionLine, **Join Column:** invItemOpiningRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3912,7 +3966,13 @@
 <div id='secondaryUnits' title='secondaryUnits' class='searchable'>
 
 ## secondaryUnits ( الوحدات -  Units)
+
+<div class='tableName'>
+
 **Table Name:** ReqSecondaryItemUOMLine, **Join Column:** invItemOpiningRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4114,7 +4174,13 @@
 <div id='sizesAndColors' title='sizesAndColors' class='searchable'>
 
 ## sizesAndColors (مقاسات و ألوان - Sizes and Colors)
+
+<div class='tableName'>
+
 **Table Name:** ReqSizesAndColors, **Join Column:** invItemOpiningRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REOpeningRentContract
+</div>
+
 **Arabic:** عقد ايجار افتتاحي - عقود ايجار افتتاحية
 **English:** Opening rent contract - Opening rent contracts
 
@@ -1822,7 +1828,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** REOpeningRentContractLine, **Join Column:** rEOpeningRentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2546,7 +2558,13 @@
 <div id='discounts' title='discounts' class='searchable'>
 
 ## discounts (الخصومات - Discounts)
+
+<div class='tableName'>
+
 **Table Name:** REOpenRentContractDiscountsLine, **Join Column:** rEOpeningRentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2598,7 +2616,13 @@
 <div id='expenses' title='expenses' class='searchable'>
 
 ## expenses (مصروفات - Expense)
+
+<div class='tableName'>
+
 **Table Name:** REOpenRentContractExpensesLine, **Join Column:** rEOpeningRentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2734,7 +2758,13 @@
 <div id='increases' title='increases' class='searchable'>
 
 ## increases (الزيادة السنوية - Yearly Increases)
+
+<div class='tableName'>
+
 **Table Name:** REOpenRentContractIncreasesLine, **Join Column:** rEOpeningRentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2795,7 +2825,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** REOpeningRentContractTermConds, **Join Column:** rEOpeningRentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2847,7 +2883,13 @@
 <div id='otherFeesLines' title='otherFeesLines' class='searchable'>
 
 ## otherFeesLines (رسوم أخري - Other Fees Lines)
+
+<div class='tableName'>
+
 **Table Name:** REOpenRentContractFeesLine, **Join Column:** rEOpeningRentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3010,7 +3052,13 @@
 <div id='termLines' title='termLines' class='searchable'>
 
 ## termLines (الينود القياسيه - Standard Terms)
+
+<div class='tableName'>
+
 **Table Name:** REOpenRentStandardTermLine, **Join Column:** rEOpeningRentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3293,7 +3341,13 @@
 <div id='yearlyPeriodTypes' title='yearlyPeriodTypes' class='searchable'>
 
 ## yearlyPeriodTypes (أنواع الايجارات سنوياً - Yearly Rent Types)
+
+<div class='tableName'>
+
 **Table Name:** REOpenRentYearlyContractPaymentLine, **Join Column:** rEOpeningRentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

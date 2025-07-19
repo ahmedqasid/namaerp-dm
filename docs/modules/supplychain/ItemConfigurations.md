@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ItemConfigurations
+</div>
+
 **Arabic:** إعدادات صنف - إعدادات أصناف
 **English:** Item Configurations
 

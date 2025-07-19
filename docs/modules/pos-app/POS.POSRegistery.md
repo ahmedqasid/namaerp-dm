@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSRegistery (Table Name: POSRegistery)
+</div>
+
 **Arabic:** ماكينة - ماكينات
 **English:** Register - Registers
 
@@ -982,7 +988,13 @@
 <div id='contacts' title='contacts' class='searchable'>
 
 ## contacts (جهات الاتصال - Contacts)
+
+<div class='tableName'>
+
 **Table Name:** POSRegistery_POSRegisterContactInfoLine, **Join Column:** POSRegistery_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1016,7 +1028,13 @@
 <div id='currencies' title='currencies' class='searchable'>
 
 ## currencies (العملات - Currencies)
+
+<div class='tableName'>
+
 **Table Name:** POSRegisteryCurrecyLine, **Join Column:** register_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1074,7 +1092,13 @@
 <div id='docsCodingParams' title='docsCodingParams' class='searchable'>
 
 ## docsCodingParams (تكويد مستندات نقاط البيع - Documents Coding Params)
+
+<div class='tableName'>
+
 **Table Name:** POSRegisteryCodingParam, **Join Column:** register_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1156,7 +1180,13 @@
 <div id='favouriteDocs' title='favouriteDocs' class='searchable'>
 
 ## favouriteDocs (المستندات المفضله - Favourite Documents)
+
+<div class='tableName'>
+
 **Table Name:** POSRegisteryFavouriteDocLine, **Join Column:** register_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1241,7 +1271,13 @@
 <div id='favouriteLines' title='favouriteLines' class='searchable'>
 
 ## favouriteLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** POSRegisteryFavouriteLine, **Join Column:** register_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1353,7 +1389,13 @@
 <div id='fixedFavouriteLines' title='fixedFavouriteLines' class='searchable'>
 
 ## fixedFavouriteLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** POSRegistery_POSRegisteryFixedFavouriteLine, **Join Column:** POSRegistery_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1387,7 +1429,13 @@
 <div id='paymentMethods' title='paymentMethods' class='searchable'>
 
 ## paymentMethods (طرق الدفع - Payment Methods)
+
+<div class='tableName'>
+
 **Table Name:** POSRegisteryMethodLine, **Join Column:** register_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1454,7 +1502,13 @@
 <div id='tableLines' title='tableLines' class='searchable'>
 
 ## tableLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** POSHallTableLine, **Join Column:** register_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1524,7 +1578,13 @@
 <div id='takenElementsPerShiftLines' title='takenElementsPerShiftLines' class='searchable'>
 
 ## takenElementsPerShiftLines (العناصر المجرودة مع كل وردية - Taken Elements Per Shift Lines)
+
+<div class='tableName'>
+
 **Table Name:** POSTakenElementsPerShiftLine, **Join Column:** register_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUCycle
+</div>
+
 **Arabic:** دورة - دورات
 **English:** Cycle - Cycles
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LoadingCancellationDoc
+</div>
+
 **Arabic:** سند إلغاء تحميل - سندات إلغاء تحميل
 **English:** Loading Cancellation Document - Loading Cancellation Documents
 
@@ -2410,7 +2416,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** LoadingCancellationLine, **Join Column:** loadingCancellationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

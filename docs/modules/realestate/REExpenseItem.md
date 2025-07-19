@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REExpenseItem
+</div>
+
 **Arabic:** بند مصروف استثمار عقاري - بنود مصروفات استثمار عقاري
 **English:** RE Expense Item - RE Expense Items
 

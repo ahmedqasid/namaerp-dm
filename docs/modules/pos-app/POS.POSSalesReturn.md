@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSSalesReturn (Table Name: POSSalesReturn)
+</div>
+
 **Arabic:** مردود نقاط البيع - مردودات نقاط البيع
 **English:** POS Sales Return - POS Sales Returns
 
@@ -1138,7 +1144,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSSalesReturnLine, **Join Column:** invoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1931,7 +1943,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** POSReturnPaymentLine, **Join Column:** invoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

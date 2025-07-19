@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LGTOpeningDoc
+</div>
+
 **Arabic:** مستند افتتاحي خطاب ضمان - مستندات افتتاحي خطاب ضمان
 **English:** LGT Opening Doc
 
@@ -943,7 +949,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (خطابات الضمان - LGT Opening Docs)
+
+<div class='tableName'>
+
 **Table Name:** LGTOpeningDocLine, **Join Column:** lGTOpeningDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

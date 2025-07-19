@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSSalesPriceClassifier1 (Table Name: POSSalesPriceClassifier1)
+</div>
+
 **Arabic:** محدد سعر مبيعات 1 -  محدد سعر مبيعات 1
 **English:** Sales Price Classifier 1 -  Sales Price Classifier 1
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSItemBarcodeParser
+</div>
+
 **Arabic:** مواصفات باركود أصناف نقاط البيع -  مواصفات باركود أصناف نقاط البيع
 **English:** POS Item Barcode Parser -  POS Item Barcode Parser
 
@@ -973,7 +979,13 @@
 <div id='parts1' title='parts1' class='searchable'>
 
 ## parts1 ( اجزاء العرض -  Parts)
+
+<div class='tableName'>
+
 **Table Name:** ItemBarcodePart1, **Join Column:** namaPOSItemBarcodeParser_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1061,7 +1073,13 @@
 <div id='parts2' title='parts2' class='searchable'>
 
 ## parts2 ( اجزاء العرض -  Parts)
+
+<div class='tableName'>
+
 **Table Name:** ItemBarcodePart2, **Join Column:** namaPOSItemBarcodeParser_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1149,7 +1167,13 @@
 <div id='parts3' title='parts3' class='searchable'>
 
 ## parts3 ( اجزاء العرض -  Parts)
+
+<div class='tableName'>
+
 **Table Name:** ItemBarcodePart3, **Join Column:** namaPOSItemBarcodeParser_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1237,7 +1261,13 @@
 <div id='parts4' title='parts4' class='searchable'>
 
 ## parts4 ( اجزاء العرض -  Parts)
+
+<div class='tableName'>
+
 **Table Name:** ItemBarcodePart4, **Join Column:** namaPOSItemBarcodeParser_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1325,7 +1355,13 @@
 <div id='parts5' title='parts5' class='searchable'>
 
 ## parts5 ( اجزاء العرض -  Parts)
+
+<div class='tableName'>
+
 **Table Name:** ItemBarcodePart5, **Join Column:** namaPOSItemBarcodeParser_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

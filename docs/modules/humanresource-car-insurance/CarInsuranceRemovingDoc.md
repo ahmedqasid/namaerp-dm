@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CarInsuranceRemovingDoc
+</div>
+
 **Arabic:** سند حذف سيارات من التأمين - سندات حذف سيارات من التأمين
 **English:** Car Insurance Removing Document - Car Insurance Removing Documents
 
@@ -1150,7 +1156,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CarInsuranceRemovingDocLine, **Join Column:** carInsuranceRemovingDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1499,7 +1511,13 @@
 <div id='installmentDetails' title='installmentDetails' class='searchable'>
 
 ## installmentDetails (تفاصيل القسط - Installment Details)
+
+<div class='tableName'>
+
 **Table Name:** RemovingDocInstallmentLine, **Join Column:** carInsuranceRemovingDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

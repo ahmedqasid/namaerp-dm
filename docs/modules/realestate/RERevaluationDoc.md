@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RERevaluationDoc
+</div>
+
 **Arabic:** سند إعادة تقييم عقارات - سندات إعادة تقييم عقارات
 **English:** Estate Revaluation Document - Estate Revaluation Documents
 
@@ -949,7 +955,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RERevaluationDocLine, **Join Column:** rERevaluationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1019,7 +1031,13 @@
 <div id='profitsDistribution' title='profitsDistribution' class='searchable'>
 
 ## profitsDistribution (توزيع الأرباح - Profits Distribution)
+
+<div class='tableName'>
+
 **Table Name:** RERevaluationProfitLine, **Join Column:** rERevaluationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

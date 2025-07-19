@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REEstateOpeningCost
+</div>
+
 **Arabic:** سند افتتاحي تكلفة عقار - سندات افتتاحي تكلفة عقار
 **English:** RE Estate Opening Cost - RE Estate Opening Costs
 
@@ -883,7 +889,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** REEstateOpeningCostLine, **Join Column:** rEEstateOpeningCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

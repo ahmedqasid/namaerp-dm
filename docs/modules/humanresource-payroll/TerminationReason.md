@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TerminationReason
+</div>
+
 **Arabic:** سبب نهاية الخدمة - أسباب نهاية الخدمة
 **English:** Termination Reason - Termination Reasons
 
@@ -775,7 +781,13 @@
 <div id='monthsSections' title='monthsSections' class='searchable'>
 
 ## monthsSections (شرائح استحقاق شهور بدل نهاية الخدمة - Termination Allownce Dues Months Sections)
+
+<div class='tableName'>
+
 **Table Name:** TermAllowanceMonthRuleLine, **Join Column:** terminationReason_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -899,7 +911,13 @@
 <div id='terminationSections' title='terminationSections' class='searchable'>
 
 ## terminationSections (شرائح نسبة استحقاق نهاية الخدمة - Termination Dues Sections)
+
+<div class='tableName'>
+
 **Table Name:** TerminationReasonLine, **Join Column:** terminationReason_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

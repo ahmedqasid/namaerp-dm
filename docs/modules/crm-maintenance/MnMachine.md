@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnMachine
+</div>
+
 **Arabic:** الة - الاّت
 **English:** Machine - Machines
 
@@ -1453,7 +1459,13 @@
 <div id='dependentMachines' title='dependentMachines' class='searchable'>
 
 ## dependentMachines (الآلات التابعة - Dependent Machines)
+
+<div class='tableName'>
+
 **Table Name:** DependentMachineLine, **Join Column:** mnMachine_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1643,7 +1655,13 @@
 <div id='dysfunctionWarranties' title='dysfunctionWarranties' class='searchable'>
 
 ## dysfunctionWarranties (ضمانات الأعطال - Dysfunction Warranties)
+
+<div class='tableName'>
+
 **Table Name:** MnMachineDysfunctionWarrantyLine, **Join Column:** mnMachine_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1746,7 +1764,13 @@
 <div id='tasks' title='tasks' class='searchable'>
 
 ## tasks (المهام - Tasks)
+
+<div class='tableName'>
+
 **Table Name:** MnMachineTaskLine, **Join Column:** mnMachine_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

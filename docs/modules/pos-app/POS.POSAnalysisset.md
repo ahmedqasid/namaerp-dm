@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSAnalysisset (Table Name: POSAnalysisset)
+</div>
+
 **Arabic:** مجموعة تحليلية - مجموعات تحليلية
 **English:** Analysis Set - Analysis Sets
 

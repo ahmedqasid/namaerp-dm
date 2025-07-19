@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ErrorMessage
+</div>
+
 **Arabic:** رسالة خطأ - رسائل خطأ
 **English:** Error Message - Error Messages
 

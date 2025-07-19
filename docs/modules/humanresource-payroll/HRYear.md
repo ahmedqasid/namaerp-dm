@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRYear
+</div>
+
 **Arabic:** سنة رواتب - سنوات الرواتب
 **English:** HR Year - HR Years
 
@@ -778,7 +784,13 @@
 <div id='periods' title='periods' class='searchable'>
 
 ## periods (فترة الإستلام و الدفع - Receiving and Pay period)
+
+<div class='tableName'>
+
 **Table Name:** HRYearPeriodLine, **Join Column:** hRYear_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

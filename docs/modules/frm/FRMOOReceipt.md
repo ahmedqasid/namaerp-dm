@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMOOReceipt
+</div>
+
 **Arabic:** مستند استلام أمر تشغيل - مستندات استلام أوامر تشغيل
 **English:** FRM Operation Order Receipt - FRM Operation Order Receipts
 
@@ -991,7 +997,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMOOReceiptLine, **Join Column:** fRMOOReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1172,7 +1184,13 @@
 <div id='dimensionsLines' title='dimensionsLines' class='searchable'>
 
 ## dimensionsLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** FRMOOReceiptDimensionsLine, **Join Column:** fRMOOReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRInsurancePolicy
+</div>
+
 **Arabic:** سياسة التأمينات الاجتماعية - سياسات التأمينات الاجتماعية
 **English:** Social Insurance Policy - Social Insurance Policies
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HRInsurancePolicyLine, **Join Column:** hRInsurancePolicy_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

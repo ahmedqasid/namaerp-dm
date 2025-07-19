@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggrAssemblyDocument
+</div>
+
 **Arabic:** سند تعبئة متعدد - سندات تعبئة متعددة
 **English:** Aggregated Packaging Document - Aggregated Packaging Documents
 
@@ -1300,7 +1306,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggrAssemblyDocumentLine, **Join Column:** aggrAssemblyDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2396,7 +2408,13 @@
 <div id='farzas' title='farzas' class='searchable'>
 
 ## farzas (الفرزات - Farza)
+
+<div class='tableName'>
+
 **Table Name:** AggrAssemblyDocFarza, **Join Column:** aggrAssemblyDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3306,7 +3324,13 @@
 <div id='fixedCosts' title='fixedCosts' class='searchable'>
 
 ## fixedCosts (التكاليف المثبتة - Fixed Costs)
+
+<div class='tableName'>
+
 **Table Name:** AggrAssemblyDocFixedCosts, **Join Column:** aggrAssemblyDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3487,7 +3511,13 @@
 <div id='halek' title='halek' class='searchable'>
 
 ## halek (الهالك - Stale)
+
+<div class='tableName'>
+
 **Table Name:** AggrAssemblyDocHalek, **Join Column:** aggrAssemblyDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4379,7 +4409,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** AggrAssemblyDocAddCostLine, **Join Column:** aggrAssemblyDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4878,7 +4914,13 @@
 <div id='materials' title='materials' class='searchable'>
 
 ## materials (قطع غيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** AggrAssemblyDocMaterial, **Join Column:** aggrAssemblyDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5782,7 +5824,13 @@
 <div id='previousDayLines' title='previousDayLines' class='searchable'>
 
 ## previousDayLines (السطور من السند السابق - Lines from Previous Day Document)
+
+<div class='tableName'>
+
 **Table Name:** PDAggrAssemblyDocumentLine, **Join Column:** aggrAssemblyDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ItemSizeColorCollection
+</div>
+
 **Arabic:**  مصفوفة ألوان ومقاسات و إصدارات - مصفوفات ألوان و مقاسات و إصدارات
 **English:**  Size Color Revision Collection - Size Color Revision Collections
 
@@ -748,7 +754,13 @@
 <div id='colorLines' title='colorLines' class='searchable'>
 
 ## colorLines (الألوان - Colors Lines)
+
+<div class='tableName'>
+
 **Table Name:** ItemCollectionColorLine, **Join Column:** itemSizeColorCollection_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -794,7 +806,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SizeColorCollectionLine, **Join Column:** itemSizeColorCollection_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -861,7 +879,13 @@
 <div id='revisions' title='revisions' class='searchable'>
 
 ## revisions (إصدارات - Revisions)
+
+<div class='tableName'>
+
 **Table Name:** ItemCollectionRevisionLine, **Join Column:** itemSizeColorCollection_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -907,7 +931,13 @@
 <div id='sizeLines' title='sizeLines' class='searchable'>
 
 ## sizeLines (المقاسات - Size Lines)
+
+<div class='tableName'>
+
 **Table Name:** ItemCollectionSizeLine, **Join Column:** itemSizeColorCollection_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

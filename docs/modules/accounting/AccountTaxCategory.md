@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AccountTaxCategory
+</div>
+
 **Arabic:** تصنيف حساب ضريبي - تصنيف الحسابات الضريبي
 **English:** Account Tax Category - Accounts Tax Category
 

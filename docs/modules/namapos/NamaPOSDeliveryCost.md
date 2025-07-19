@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSDeliveryCost
+</div>
+
 **Arabic:** تكاليف خدمة توصيل نقاط البيع -  تكاليف خدمة توصيل نقاط البيع
 **English:** POS Delivery Cost -  POS Delivery Cost
 
@@ -778,7 +784,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSDeliveryCostLine, **Join Column:** namaPOSDeliveryCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

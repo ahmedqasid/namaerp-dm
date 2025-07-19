@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SISalesOrderCancel
+</div>
+
 **Arabic:** إلغاء أمر بيع صنف فرعي - مستندات إلغاء أمر بيع صنف فرعي
 **English:** Sub Item Sales OrderCancel - Sub Item Sales OrderCancel Documents
 
@@ -2593,7 +2599,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SISalesOrderCancelLine, **Join Column:** sISalesOrderCancel_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

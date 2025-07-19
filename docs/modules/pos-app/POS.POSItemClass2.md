@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSItemClass2 (Table Name: POSItemClass2)
+</div>
+
 **Arabic:** تصنيف صنف 2 - تصنيفات صنف 2
 **English:** Item class 2 - Item classes 2
 

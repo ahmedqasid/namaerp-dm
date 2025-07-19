@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSGenericReference
+</div>
+
 **Arabic:** المرجع العام لنقاط البيع -  المرجع العام لنقاط البيع
 **English:** POS Generic Reference -  POS Generic Reference
 

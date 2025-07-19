@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDBus
+</div>
+
 **Arabic:** وسيلة نقل - وسائل النقل
 **English:** Bus
 

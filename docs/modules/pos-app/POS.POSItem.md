@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSItem (Table Name: POSItem)
+</div>
+
 **Arabic:** صنف - أصناف
 **English:** Item - Items
 
@@ -616,7 +622,13 @@
 <div id='customerCodes' title='customerCodes' class='searchable'>
 
 ## customerCodes (أكواد العملاء - Customer Codes)
+
+<div class='tableName'>
+
 **Table Name:** POSCustomerItemCode, **Join Column:** posItem
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -671,7 +683,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSItemDimsDetail, **Join Column:** posItem
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -750,7 +768,13 @@
 <div id='manfCodes' title='manfCodes' class='searchable'>
 
 ## manfCodes (أكواد الموردين - Supplier Codes)
+
+<div class='tableName'>
+
 **Table Name:** POSManufacturerItemCode, **Join Column:** posItem
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -805,7 +829,13 @@
 <div id='revisions' title='revisions' class='searchable'>
 
 ## revisions (إصدارات - Revisions)
+
+<div class='tableName'>
+
 **Table Name:** POSItemRevision, **Join Column:** posItem
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -926,7 +956,13 @@
 <div id='sizesAndColors' title='sizesAndColors' class='searchable'>
 
 ## sizesAndColors (مقاسات و ألوان - Sizes and Colors)
+
+<div class='tableName'>
+
 **Table Name:** POSSizesAndColors, **Join Column:** posItem
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1044,7 +1080,13 @@
 <div id='units' title='units' class='searchable'>
 
 ## units ( - )
+
+<div class='tableName'>
+
 **Table Name:** POSItemUnit, **Join Column:** posItem
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

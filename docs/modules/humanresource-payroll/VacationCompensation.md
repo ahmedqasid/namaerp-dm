@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # VacationCompensation
+</div>
+
 **Arabic:** سند صرف بدل أجازة - سندات صرف بدل أجازة
 **English:** Vacation  Compensation - Vacation Compensation
 

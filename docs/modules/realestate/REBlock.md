@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REBlock
+</div>
+
 **Arabic:** بلوك - بلوكات
 **English:** Block - Blocks
 
@@ -2197,7 +2203,13 @@
 <div id='ownerDetails' title='ownerDetails' class='searchable'>
 
 ## ownerDetails (تفاصيل الملاك - Owner Details)
+
+<div class='tableName'>
+
 **Table Name:** REBlockOwnerGroupLine, **Join Column:** rEBlock_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

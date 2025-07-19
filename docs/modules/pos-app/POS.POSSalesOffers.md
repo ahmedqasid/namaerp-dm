@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSSalesOffers (Table Name: POSSalesOffers)
+</div>
+
 **Arabic:** عرض - العروض
 **English:** Sales Offer - Sales Offers
 
@@ -301,7 +307,13 @@
 <div id='coupons' title='coupons' class='searchable'>
 
 ## coupons ( قسيمة خصومات - Coupons)
+
+<div class='tableName'>
+
 **Table Name:** POSOfferCouponLine, **Join Column:** salesOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -554,7 +566,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSItemDiscountLine, **Join Column:** salesOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1419,7 +1437,13 @@
 <div id='freeItems' title='freeItems' class='searchable'>
 
 ## freeItems (الأصناف المجانية - Free Items)
+
+<div class='tableName'>
+
 **Table Name:** POSFreeItemLine, **Join Column:** salesOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2341,7 +2365,13 @@
 <div id='invDiscountLines' title='invDiscountLines' class='searchable'>
 
 ## invDiscountLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** POSInvoiceDiscountLine, **Join Column:** salesOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2675,7 +2705,13 @@
 <div id='invOffersLines' title='invOffersLines' class='searchable'>
 
 ## invOffersLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** POSInvoiceFreeItemLine, **Join Column:** salesOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3153,7 +3189,13 @@
 <div id='itemsCountOffers' title='itemsCountOffers' class='searchable'>
 
 ## itemsCountOffers ( - )
+
+<div class='tableName'>
+
 **Table Name:** POSOfferOnItemsCountLine, **Join Column:** salesOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

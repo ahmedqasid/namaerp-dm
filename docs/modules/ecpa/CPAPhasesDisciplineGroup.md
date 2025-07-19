@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPAPhasesDisciplineGroup
+</div>
+
 **Arabic:** مجموعة المراحل والتخصصات - مجموعات المراحل والتخصصات
 **English:** CPA Phases Discipline Group - CPA Phases Discipline Groups
 
@@ -748,7 +754,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** CPAPhasesDiscipsGroupLine, **Join Column:** cPAPhasesDisciplineGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

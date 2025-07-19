@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUDetailedProcedure
+</div>
+
 **Arabic:** إجراء التفصيلية - إجراءات التفصيلية
 **English:** Detailed Procedure - Detailed Procedures
 
@@ -856,7 +862,13 @@
 <div id='p3DetailedProcedures' title='p3DetailedProcedures' class='searchable'>
 
 ## p3DetailedProcedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP3DetailedLine, **Join Column:** aUDetailedProcedure_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

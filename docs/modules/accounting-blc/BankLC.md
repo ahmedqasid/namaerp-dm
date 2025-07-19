@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BankLC
+</div>
+
 **Arabic:** اعتماد بنكى - اعتمادات بنكية
 **English:** Bank LC - Bank LCs
 

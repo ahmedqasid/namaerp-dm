@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUAccount
+</div>
+
 **Arabic:** حساب مراجعة - حسابات مراجعة
 **English:** Auditing Account - Auditing Accounts
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RemarkType2
+</div>
+
 **Arabic:** نوع ملاحظة 2 - أنواع الملاحظات 2
 **English:** Remark Type 2 - Remark Types 2
 

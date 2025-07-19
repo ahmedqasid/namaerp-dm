@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HREmpAdventRegisteration
+</div>
+
 **Arabic:** تسجيل قدوم موظف -  تسجيل قدوم موظف
 **English:** Employee Advent Registeration -  Employee Advent Registeration
 
@@ -886,7 +892,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HREmpAdventRegistLine, **Join Column:** hREmpAdventRegisteration_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

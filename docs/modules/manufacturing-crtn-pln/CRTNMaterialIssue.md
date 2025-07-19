@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRTNMaterialIssue
+</div>
+
 **Arabic:** صرف خامات كرتون
 **English:** Carton Material Issue - Carton Material Issues
 
@@ -1444,7 +1450,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CRTNMaterialIssueLine, **Join Column:** cRTNMaterialIssue_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

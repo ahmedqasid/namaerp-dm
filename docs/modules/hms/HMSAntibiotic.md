@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSAntibiotic
+</div>
+
 **Arabic:** مضاد حيوى - مضادات حيوية
 **English:** Antibiotic - Antibiotics
 

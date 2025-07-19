@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FreightLine
+</div>
+
 **Arabic:** خط ملاحي - خطوط ملاحية
 **English:** Freight Line - Freight Lines
 

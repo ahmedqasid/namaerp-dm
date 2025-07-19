@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # WeightScaleConfig
+</div>
+
 **Arabic:** إعدادات الميزان -  إعدادات الميزان
 **English:** Weight Scale Configuration -  Weight Scale Configuration
 
@@ -1093,7 +1099,13 @@
 <div id='parts1' title='parts1' class='searchable'>
 
 ## parts1 ( اجزاء العرض -  Parts)
+
+<div class='tableName'>
+
 **Table Name:** WeightScaleBarcodePart1, **Join Column:** weightScaleConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1181,7 +1193,13 @@
 <div id='parts2' title='parts2' class='searchable'>
 
 ## parts2 ( اجزاء العرض -  Parts)
+
+<div class='tableName'>
+
 **Table Name:** WeightScaleBarcodePart2, **Join Column:** weightScaleConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1269,7 +1287,13 @@
 <div id='parts3' title='parts3' class='searchable'>
 
 ## parts3 ( اجزاء العرض -  Parts)
+
+<div class='tableName'>
+
 **Table Name:** WeightScaleBarcodePart3, **Join Column:** weightScaleConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1357,7 +1381,13 @@
 <div id='parts4' title='parts4' class='searchable'>
 
 ## parts4 ( اجزاء العرض -  Parts)
+
+<div class='tableName'>
+
 **Table Name:** WeightScaleBarcodePart4, **Join Column:** weightScaleConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1445,7 +1475,13 @@
 <div id='parts5' title='parts5' class='searchable'>
 
 ## parts5 ( اجزاء العرض -  Parts)
+
+<div class='tableName'>
+
 **Table Name:** WeightScaleBarcodePart5, **Join Column:** weightScaleConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1533,7 +1569,13 @@
 <div id='stockIssueReqLinesOrderMethods' title='stockIssueReqLinesOrderMethods' class='searchable'>
 
 ## stockIssueReqLinesOrderMethods (طرق ترتيب سطور طلبات الصرف - Stock Issue Request Lines Order Methods)
+
+<div class='tableName'>
+
 **Table Name:** WeightScaleStockIssueReqLinesOrderMethodLine, **Join Column:** weightScaleConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

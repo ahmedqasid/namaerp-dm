@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BankAdjustment
+</div>
+
 **Arabic:** تسوية بنكية -  تسوية بنكية
 **English:** Bank Adjustment -  Bank Adjustment
 
@@ -1027,7 +1033,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** BankAdjustmentLine, **Join Column:** bankAdjustment_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

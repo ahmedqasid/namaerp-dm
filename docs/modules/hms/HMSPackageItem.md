@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSPackageItem
+</div>
+
 **Arabic:** بند اتفاق عملية - بنود اتفاقات عمليات
 **English:** Packages Items Deal - Packages Items Deals
 

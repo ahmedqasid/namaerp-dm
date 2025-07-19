@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LGTReceipt
+</div>
+
 **Arabic:** استلام  خطاب ضمان - استلام  خطابات الضمان
 **English:** LGT Receipt - LGTs Receipt
 

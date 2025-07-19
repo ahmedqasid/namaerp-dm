@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalaryGenerationRange
+</div>
+
 **Arabic:** مجال اصدار الرواتب
 **English:** Salary Generation Range
 
@@ -1108,7 +1114,13 @@
 <div id='limitToEmployees' title='limitToEmployees' class='searchable'>
 
 ## limitToEmployees (قصر الإصدار على الموظفين التاليين - Limit To Employees)
+
+<div class='tableName'>
+
 **Table Name:** SalaryGenerationRangeLine, **Join Column:** salaryGenerationRange_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

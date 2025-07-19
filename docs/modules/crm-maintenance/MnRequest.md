@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnRequest
+</div>
+
 **Arabic:** طلب أمر صيانة - طلبات أوامر صيانة
 **English:** Maintenance Order Request - Maintenance Order Requests
 
@@ -3652,7 +3658,13 @@
 <div id='additionalSpareParts' title='additionalSpareParts' class='searchable'>
 
 ## additionalSpareParts (قطع الغيار الإضافية - Additional Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnRequestAdditionalSparePartLine, **Join Column:** mnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4562,7 +4574,13 @@
 <div id='dysfunctions' title='dysfunctions' class='searchable'>
 
 ## dysfunctions ( الأعطال -  Dysfunctions)
+
+<div class='tableName'>
+
 **Table Name:** MnRequestDysfunctionLine, **Join Column:** mnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4842,7 +4860,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** MnRequestExternalPaymentLine, **Join Column:** mnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4948,7 +4972,13 @@
 <div id='machines' title='machines' class='searchable'>
 
 ## machines (ألآت - Machines)
+
+<div class='tableName'>
+
 **Table Name:** MnRequestMachineLine, **Join Column:** mnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5801,7 +5831,13 @@
 <div id='maintenanceGroups' title='maintenanceGroups' class='searchable'>
 
 ## maintenanceGroups (مجموعات الصيانة - Maintenance Groups)
+
+<div class='tableName'>
+
 **Table Name:** MnRequestGroupLine, **Join Column:** mnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5937,7 +5973,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** MnRequestPaymentLine, **Join Column:** mnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -6247,7 +6289,13 @@
 <div id='returnedSpareParts' title='returnedSpareParts' class='searchable'>
 
 ## returnedSpareParts (قطع الغيار المرتجعة - Returned Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnRequestRetSparePartLine, **Join Column:** mnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -7157,7 +7205,13 @@
 <div id='services' title='services' class='searchable'>
 
 ## services (الخدمات - Services)
+
+<div class='tableName'>
+
 **Table Name:** MnRequestServiceLine, **Join Column:** mnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -7857,7 +7911,13 @@
 <div id='spareParts' title='spareParts' class='searchable'>
 
 ## spareParts (قطع الغيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnRequestSparePartLine, **Join Column:** mnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -8767,7 +8827,13 @@
 <div id='statusChange' title='statusChange' class='searchable'>
 
 ## statusChange (تغير الحالات - Status Change)
+
+<div class='tableName'>
+
 **Table Name:** MnRequestStatusChangeLine, **Join Column:** mnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -8999,7 +9065,13 @@
 <div id='technicians' title='technicians' class='searchable'>
 
 ## technicians (الفنين - Technicians)
+
+<div class='tableName'>
+
 **Table Name:** MnRequestTechnicianLine, **Join Column:** mnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -9144,7 +9216,13 @@
 <div id='termsLines' title='termsLines' class='searchable'>
 
 ## termsLines (بنود البيع - Sales Terms)
+
+<div class='tableName'>
+
 **Table Name:** MnRequestStandardTermsLine, **Join Column:** mnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -9280,7 +9358,13 @@
 <div id='tools' title='tools' class='searchable'>
 
 ## tools (العِدد - Tools)
+
+<div class='tableName'>
+
 **Table Name:** MnRequestToolLine, **Join Column:** mnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

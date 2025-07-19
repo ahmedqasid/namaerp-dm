@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSItemCategory (Table Name: POSItemCategory)
+</div>
+
 **Arabic:** فئة صنف - فئات أصناف
 **English:** Item Category - Item Categories
 

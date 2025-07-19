@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUTestDef
+</div>
+
 **Arabic:** تعريف اختبار - تعريف اختبارات
 **English:** Test Definition - Test Definitions
 
@@ -865,7 +871,13 @@
 <div id='RWLDLines' title='RWLDLines' class='searchable'>
 
 ## RWLDLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** AURelativeWeightsListDefLine, **Join Column:** aUTestDef_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -911,7 +923,13 @@
 <div id='indepDLines' title='indepDLines' class='searchable'>
 
 ## indepDLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUIndependencyDefLine, **Join Column:** aUTestDef_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -963,7 +981,13 @@
 <div id='inputsLines' title='inputsLines' class='searchable'>
 
 ## inputsLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUAnalysisDefInput, **Join Column:** aUTestDef_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1009,7 +1033,13 @@
 <div id='p0Procedures' title='p0Procedures' class='searchable'>
 
 ## p0Procedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP0DefLine, **Join Column:** aUTestDef_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1070,7 +1100,13 @@
 <div id='p1Procedures' title='p1Procedures' class='searchable'>
 
 ## p1Procedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP1DefLine, **Join Column:** aUTestDef_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1122,7 +1158,13 @@
 <div id='p2BasicProcedures' title='p2BasicProcedures' class='searchable'>
 
 ## p2BasicProcedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP2BasicDefLine, **Join Column:** aUTestDef_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1255,7 +1297,13 @@
 <div id='p2CharProcedures' title='p2CharProcedures' class='searchable'>
 
 ## p2CharProcedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP2CharacterizationDefLine, **Join Column:** aUTestDef_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1418,7 +1466,13 @@
 <div id='p2ControlProcedures' title='p2ControlProcedures' class='searchable'>
 
 ## p2ControlProcedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP2ControlDefLine, **Join Column:** aUTestDef_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1569,7 +1623,13 @@
 <div id='p3AnalyticalProcedures' title='p3AnalyticalProcedures' class='searchable'>
 
 ## p3AnalyticalProcedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP3AnalyticalDefLine, **Join Column:** aUTestDef_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1657,7 +1717,13 @@
 <div id='p3DetailedProcedures' title='p3DetailedProcedures' class='searchable'>
 
 ## p3DetailedProcedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP3DetailedDefLine, **Join Column:** aUTestDef_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1727,7 +1793,13 @@
 <div id='p4Procedures' title='p4Procedures' class='searchable'>
 
 ## p4Procedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP4DefLine, **Join Column:** aUTestDef_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1779,7 +1851,13 @@
 <div id='p5CheckProcedures' title='p5CheckProcedures' class='searchable'>
 
 ## p5CheckProcedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureCheckDefLine, **Join Column:** aUTestDef_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1831,7 +1909,13 @@
 <div id='p6ReportsProcedures' title='p6ReportsProcedures' class='searchable'>
 
 ## p6ReportsProcedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureReportsDefLine, **Join Column:** aUTestDef_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1883,7 +1967,13 @@
 <div id='resultsLines' title='resultsLines' class='searchable'>
 
 ## resultsLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUAnalysisDefResult, **Join Column:** aUTestDef_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

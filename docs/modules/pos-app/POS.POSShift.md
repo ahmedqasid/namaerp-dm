@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSShift (Table Name: POSShift)
+</div>
+
 **Arabic:** فتح ورديه -  فتح ورديه
 **English:** POS Shift Opening -  POS Shift Opening
 
@@ -331,7 +337,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSShiftLine, **Join Column:** shift_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InvestmentDocClaiming
+</div>
+
 **Arabic:** مستند استحقاق سند استثمار - مستندات استحقاق سندات استثمار
 **English:** Investment Doc Claiming Document - Investment Doc Claiming Documents
 

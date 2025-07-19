@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AccountCategory
+</div>
+
 **Arabic:** تصنيف حساب - تصنيف حسابات
 **English:** Account Category - Account Categories
 

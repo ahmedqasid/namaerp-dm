@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RecordImportDoc
+</div>
+
 **Arabic:** مستند استيراد سجلات - مستندات استيراد سجلات
 **English:** Record Import Document - Record Import Documents
 
@@ -910,7 +916,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** RecordImportDocLine, **Join Column:** recordImportDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

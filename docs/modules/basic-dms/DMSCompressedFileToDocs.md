@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DMSCompressedFileToDocs
+</div>
+
 **Arabic:** ملف مضغوط إلى مستندات أرشيفية -  ملف مضغوط إلى مستندات أرشيفية
 **English:** Compressed File To DMS Document - Compressed File To DMS Documents
 
@@ -856,7 +862,13 @@
 <div id='documents' title='documents' class='searchable'>
 
 ## documents (المستندات - documents)
+
+<div class='tableName'>
+
 **Table Name:** DMSCompressedFileToDocsLine, **Join Column:** dMSCompressedFileToDocs_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

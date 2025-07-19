@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TRRestaurant
+</div>
+
 **Arabic:** مطعم - مطاعم
 **English:** Restaurant - Restaurants
 
@@ -1489,7 +1495,13 @@
 <div id='contacts' title='contacts' class='searchable'>
 
 ## contacts (جهات الاتصال - Contacts)
+
+<div class='tableName'>
+
 **Table Name:** TRRestaurantContactInfoLine, **Join Column:** tRRestaurant_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

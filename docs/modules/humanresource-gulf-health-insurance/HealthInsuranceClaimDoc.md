@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HealthInsuranceClaimDoc
+</div>
+
 **Arabic:** سند تعويض طبي - سندات تعويض طبي
 **English:** Health Insurance Claim Document - Health Insurance Claim Documents
 
@@ -1006,7 +1012,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HealthInsuranceClaimDocLine, **Join Column:** healthInsuranceClaimDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

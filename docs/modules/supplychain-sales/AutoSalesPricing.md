@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AutoSalesPricing
+</div>
+
 **Arabic:** ملف تسعير مبيعات آلي - ملفات تسعير مبيعات آلية
 **English:** Auto Sales Pricing - Auto Sales Pricing Documents
 
@@ -805,7 +811,13 @@
 <div id='conditions' title='conditions' class='searchable'>
 
 ## conditions (الشروط - Conditions)
+
+<div class='tableName'>
+
 **Table Name:** AutoSalePricingCondition, **Join Column:** autoSalesPricing_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

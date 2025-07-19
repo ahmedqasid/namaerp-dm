@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRExperience
+</div>
+
 **Arabic:** خبرة - الخبرات
 **English:** Experience - Experiences
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HRExperienceLine, **Join Column:** hRExperience_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

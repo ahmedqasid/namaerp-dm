@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSRadiologyReq
+</div>
+
 **Arabic:** طلب عمل أشعة - طلبات عمل أشعة
 **English:** Radiology Request - Radiology Requests
 

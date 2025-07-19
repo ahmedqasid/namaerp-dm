@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MiscContractingInvoice
+</div>
+
 **Arabic:** فاتورة شراء مستلزمات مقاولات - فواتير شراء مستلزمات مقاولات
 **English:** Misc Contracting Invoice - Misc Contracting Invoices
 
@@ -1687,7 +1693,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MiscContractingInvLine, **Join Column:** miscContractingInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2852,7 +2864,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** MiscCIExternalPaymentLine, **Join Column:** miscContractingInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2958,7 +2976,13 @@
 <div id='purchaseTermsLines' title='purchaseTermsLines' class='searchable'>
 
 ## purchaseTermsLines (بنود الشراء - Purchase Terms Lines)
+
+<div class='tableName'>
+
 **Table Name:** ContrPurchaseInvTermsLine, **Join Column:** miscContractingInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3241,7 +3265,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** MiscContInvScheduledPayLine, **Join Column:** miscContractingInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

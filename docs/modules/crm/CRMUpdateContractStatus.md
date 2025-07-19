@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMUpdateContractStatus
+</div>
+
 **Arabic:** تغيير حالة عقد خدمة - تغيير حالات عقود خدمة
 **English:** CRM Update Contract Status - CRM Updates Contracts Statuses
 

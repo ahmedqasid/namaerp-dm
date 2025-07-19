@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RERentContract
+</div>
+
 **Arabic:** عقد إيجار - عقود إيجار
 **English:** Rent Contract - Rent Contracts
 
@@ -1813,7 +1819,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RERentInstalmentLine, **Join Column:** rERentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2528,7 +2540,13 @@
 <div id='discounts' title='discounts' class='searchable'>
 
 ## discounts (الخصومات - Discounts)
+
+<div class='tableName'>
+
 **Table Name:** RERentContractDiscountsLine, **Join Column:** rERentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2580,7 +2598,13 @@
 <div id='expenses' title='expenses' class='searchable'>
 
 ## expenses (مصروفات - Expense)
+
+<div class='tableName'>
+
 **Table Name:** RERentContractExpensesLine, **Join Column:** rERentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2716,7 +2740,13 @@
 <div id='increases' title='increases' class='searchable'>
 
 ## increases (الزيادة السنوية - Yearly Increases)
+
+<div class='tableName'>
+
 **Table Name:** RERentContractIncreasesLine, **Join Column:** rERentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2777,7 +2807,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** RERentContractTermsCond, **Join Column:** rERentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2829,7 +2865,13 @@
 <div id='otherFeesLines' title='otherFeesLines' class='searchable'>
 
 ## otherFeesLines (رسوم أخري - Other Fees Lines)
+
+<div class='tableName'>
+
 **Table Name:** RERentContractFeesLine, **Join Column:** rERentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2992,7 +3034,13 @@
 <div id='termLines' title='termLines' class='searchable'>
 
 ## termLines (الينود القياسيه - Standard Terms)
+
+<div class='tableName'>
+
 **Table Name:** RERentContStandardTermLine, **Join Column:** rERentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3275,7 +3323,13 @@
 <div id='yearlyPeriodTypes' title='yearlyPeriodTypes' class='searchable'>
 
 ## yearlyPeriodTypes (أنواع الايجارات سنوياً - Yearly Rent Types)
+
+<div class='tableName'>
+
 **Table Name:** RERentYearlyContractPaymentLine, **Join Column:** rERentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

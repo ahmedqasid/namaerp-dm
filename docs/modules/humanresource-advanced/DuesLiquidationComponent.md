@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DuesLiquidationComponent
+</div>
+
 **Arabic:** مكون التصفية - مكونات التصفية
 **English:** Liquidation Component - LiquidationComponents
 
@@ -937,7 +943,13 @@
 <div id='components' title='components' class='searchable'>
 
 ## components (المكونات - Components)
+
+<div class='tableName'>
+
 **Table Name:** DuesLiquidComponentLine, **Join Column:** duesLiquidationComponent_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -995,7 +1007,13 @@
 <div id='effectLines' title='effectLines' class='searchable'>
 
 ## effectLines (سطور التأثير المحاسبي - Accounting Effect Lines)
+
+<div class='tableName'>
+
 **Table Name:** DuesLiquidationComponentEffectLine, **Join Column:** duesLiquidationComponent_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1137,7 +1155,13 @@
 <div id='formulas' title='formulas' class='searchable'>
 
 ## formulas (المعادلات - Formulas)
+
+<div class='tableName'>
+
 **Table Name:** DuesLiquidationCompFormula, **Join Column:** duesLiquidationComponent_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

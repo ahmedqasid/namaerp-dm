@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # WorkCenter
+</div>
+
 **Arabic:** صالة إنتاج
 **English:** Work Center - Work Centers
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** WorkCenterLine, **Join Column:** workCenter_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

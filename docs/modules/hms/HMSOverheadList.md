@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSOverheadList
+</div>
+
 **Arabic:** قائمة تكاليف طبية غير مباشرة - قوائم تكاليف طبية غير مباشرة
 **English:** Medical Overhead List - Medical Overhead Lists
 
@@ -877,7 +883,13 @@
 <div id='overheadListAccommDetails' title='overheadListAccommDetails' class='searchable'>
 
 ## overheadListAccommDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSOverheadListAccommLine, **Join Column:** hMSOverheadList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1175,7 +1187,13 @@
 <div id='overheadListAttendantDetails' title='overheadListAttendantDetails' class='searchable'>
 
 ## overheadListAttendantDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSOverheadListAttendantLine, **Join Column:** hMSOverheadList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1473,7 +1491,13 @@
 <div id='overheadListBloodDetails' title='overheadListBloodDetails' class='searchable'>
 
 ## overheadListBloodDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSOverheadListBloodLine, **Join Column:** hMSOverheadList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1759,7 +1783,13 @@
 <div id='overheadListCheckDetails' title='overheadListCheckDetails' class='searchable'>
 
 ## overheadListCheckDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSOverheadListCheckLine, **Join Column:** hMSOverheadList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2078,7 +2108,13 @@
 <div id='overheadListLabTestDetails' title='overheadListLabTestDetails' class='searchable'>
 
 ## overheadListLabTestDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSOverheadListLabTestLine, **Join Column:** hMSOverheadList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2385,7 +2421,13 @@
 <div id='overheadListPharmacyDetails' title='overheadListPharmacyDetails' class='searchable'>
 
 ## overheadListPharmacyDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSOverheadListPharmacyLine, **Join Column:** hMSOverheadList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2671,7 +2713,13 @@
 <div id='overheadListPhyDetails' title='overheadListPhyDetails' class='searchable'>
 
 ## overheadListPhyDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSOverheadListPhyLine, **Join Column:** hMSOverheadList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2978,7 +3026,13 @@
 <div id='overheadListRadiologyDetails' title='overheadListRadiologyDetails' class='searchable'>
 
 ## overheadListRadiologyDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSOverheadListRadiologyLine, **Join Column:** hMSOverheadList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3285,7 +3339,13 @@
 <div id='overheadListServiceDetails' title='overheadListServiceDetails' class='searchable'>
 
 ## overheadListServiceDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSOverheadListServiceLine, **Join Column:** hMSOverheadList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3604,7 +3664,13 @@
 <div id='overheadListSupervisionDetails' title='overheadListSupervisionDetails' class='searchable'>
 
 ## overheadListSupervisionDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSOverheadListSupervisionLine, **Join Column:** hMSOverheadList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3923,7 +3989,13 @@
 <div id='overheadListSupplyDetails' title='overheadListSupplyDetails' class='searchable'>
 
 ## overheadListSupplyDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSOverheadListSupplyLine, **Join Column:** hMSOverheadList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4209,7 +4281,13 @@
 <div id='overheadListSurgeryDetails' title='overheadListSurgeryDetails' class='searchable'>
 
 ## overheadListSurgeryDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSOverheadListSurgeryLine, **Join Column:** hMSOverheadList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

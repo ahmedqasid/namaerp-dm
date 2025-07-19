@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # UOMConversions
+</div>
+
 **Arabic:** تحويل وحدات
 **English:** Unit Conversions
 
@@ -802,7 +808,13 @@
 <div id='conversions' title='conversions' class='searchable'>
 
 ## conversions (التحويلات - Conversions)
+
+<div class='tableName'>
+
 **Table Name:** UOMConversionLine, **Join Column:** uOMConversions_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

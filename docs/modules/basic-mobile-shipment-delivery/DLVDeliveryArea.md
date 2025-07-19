@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DLVDeliveryArea
+</div>
+
 **Arabic:** منطقة توصيل شحنات - مناطق توصيل شحنات
 **English:** Shipment Delivery Area - Shipment Delivery Areas
 

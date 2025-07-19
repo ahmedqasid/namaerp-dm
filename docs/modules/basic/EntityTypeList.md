@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EntityTypeList
+</div>
+
 **Arabic:** قائمة أنواع - قوائم أنواع
 **English:** EntityType List - EntityType Lists
 

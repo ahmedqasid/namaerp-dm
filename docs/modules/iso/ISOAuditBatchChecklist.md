@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ISOAuditBatchChecklist
+</div>
+
 **Arabic:** ISO Audit Batch Record Checklist - ISO Audit Batch Record Checklists
 **English:** ISO Audit Batch Record Checklist - ISO Audit Batch Record Checklists
 
@@ -1156,7 +1162,13 @@
 <div id='responses' title='responses' class='searchable'>
 
 ## responses (الاجابات - Responses)
+
+<div class='tableName'>
+
 **Table Name:** ISOAuditBatchChecklistLine, **Join Column:** iSOAuditBatchChecklist_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

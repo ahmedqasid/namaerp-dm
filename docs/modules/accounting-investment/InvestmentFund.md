@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InvestmentFund
+</div>
+
 **Arabic:** صندوق استثماري - صناديق استثمارية
 **English:** Investment Fund - Investment Funds
 
@@ -1078,7 +1084,13 @@
 <div id='investmentProjects' title='investmentProjects' class='searchable'>
 
 ## investmentProjects (المشاريع الاستثمارية - Investment Projects)
+
+<div class='tableName'>
+
 **Table Name:** InvestmentFundLine, **Join Column:** investmentFund_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

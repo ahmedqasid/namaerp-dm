@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MealsDetails
+</div>
+
 **Arabic:** تفاصيل الوجبات
 **English:** Meals Details
 
@@ -1069,7 +1075,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MealDetailLine, **Join Column:** mealsDetails_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

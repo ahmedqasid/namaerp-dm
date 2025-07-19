@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FADeliveryReceiptDoc
+</div>
+
 **Arabic:** سند استلام وتسليم عهد - سندات استلام وتسليم عهد
 **English:** Custodies Delivery Receipt Document - Custodies Delivery Receipt Documents
 
@@ -940,7 +946,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FADeliveryReceiptLine, **Join Column:** fADeliveryReceiptDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

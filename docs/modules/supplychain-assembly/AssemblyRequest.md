@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AssemblyRequest
+</div>
+
 **Arabic:** طلب تجميع - طلبات التجميع
 **English:** Assembly Request - Assembly Requests
 
@@ -1735,7 +1741,13 @@
 <div id='assemblyProcessLines' title='assemblyProcessLines' class='searchable'>
 
 ## assemblyProcessLines (عمليات التجميع - Assembly Process Lines)
+
+<div class='tableName'>
+
 **Table Name:** AssemblyReqProcessLine, **Join Column:** assemblyRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1790,7 +1802,13 @@
 <div id='coProds' title='coProds' class='searchable'>
 
 ## coProds (الأصناف الموردة - Receipt Items)
+
+<div class='tableName'>
+
 **Table Name:** AssemblyReqCoProdLine, **Join Column:** assemblyRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2838,7 +2856,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (الأصناف المسحوبة - Issued Items)
+
+<div class='tableName'>
+
 **Table Name:** AssemblyRequestLine, **Join Column:** assemblyRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3898,7 +3922,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** AssemblyReqAddCostLine, **Join Column:** assemblyRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TaxAuthoritySubmissionDoc
+</div>
+
 **Arabic:** إرسال مستندات الي مصلحة الضرائب - مستندات إرسال مستندات الي مصلحة الضرائب
 **English:** Tax Authority Submission Document - Tax Authority Submission Documents
 
@@ -1222,7 +1228,13 @@
 <div id='toSubmitLines' title='toSubmitLines' class='searchable'>
 
 ## toSubmitLines (ارسال المستندات - Send Documents)
+
+<div class='tableName'>
+
 **Table Name:** TaxAuthoritySubmissionLine, **Join Column:** taxAuthoritySubmissionDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

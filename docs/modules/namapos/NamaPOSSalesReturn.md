@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSSalesReturn
+</div>
+
 **Arabic:** مردود نقاط البيع - مردودات نقاط البيع
 **English:** POS Sales Return - POS Sales Returns
 
@@ -2617,7 +2623,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSSalesReturnLine, **Join Column:** namaPOSSalesReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4676,7 +4688,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSReturnExternalPaymentLine, **Join Column:** namaPOSSalesReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4836,7 +4854,13 @@
 <div id='payments' title='payments' class='searchable'>
 
 ## payments (تفاصيل الدفع - Payments)
+
+<div class='tableName'>
+
 **Table Name:** POSSalesReturnPaymentLine, **Join Column:** namaPOSSalesReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

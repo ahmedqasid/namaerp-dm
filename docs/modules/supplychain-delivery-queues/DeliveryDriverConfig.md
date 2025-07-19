@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DeliveryDriverConfig
+</div>
+
 **Arabic:** ملف إعدادات السائقين - ملفات إعدادات السائقين
 **English:** Delivery Driver Configuration File - Delivery Driver Configuration Files
 
@@ -832,7 +838,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DeliveryDriverConfigLine, **Join Column:** deliveryDriverConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

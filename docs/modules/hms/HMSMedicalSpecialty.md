@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSMedicalSpecialty
+</div>
+
 **Arabic:** تخصص طبي - التخصصات الطبية
 **English:** Medical Specialty - Medical Specialties
 

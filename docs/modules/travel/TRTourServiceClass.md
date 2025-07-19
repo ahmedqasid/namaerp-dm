@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TRTourServiceClass
+</div>
+
 **Arabic:** تصنيف خدمة سياحية - تصنيفات خدمات سياحية
 **English:** Tour Service Class - Tour Service Classes
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JOTransportBetwenWarehouse
+</div>
+
 **Arabic:** مستند التنقل بين المستودعات زجاج جديد - مستندات التنقل بين المستودعات زجاج جديد
 **English:** New Glass Transport Between Warehouse - New Glass Transports Between Warehouses
 
@@ -4855,7 +4861,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** JOTransportWarehouseLine, **Join Column:** jOTransportBetwenWarehouse_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

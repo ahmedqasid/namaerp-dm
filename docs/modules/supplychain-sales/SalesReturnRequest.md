@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalesReturnRequest
+</div>
+
 **Arabic:** طلب مردودات مبيعات - طلبات مردودات مبيعات
 **English:** Sales Return Request - Sales Return Requests
 
@@ -2428,7 +2434,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SalesReqReturnLine, **Join Column:** salesReturnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4433,7 +4445,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SalRetReqExternalPayLine, **Join Column:** salesReturnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4584,7 +4602,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SalesReqReturnPaymentLine, **Join Column:** salesReturnRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

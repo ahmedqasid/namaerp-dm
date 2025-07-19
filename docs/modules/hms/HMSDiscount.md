@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSDiscount
+</div>
+
 **Arabic:** خصم طبى - خصومات طبية
 **English:** Medical Discount - Medical Discounts
 
@@ -877,7 +883,13 @@
 <div id='accomodationDiscountLines' title='accomodationDiscountLines' class='searchable'>
 
 ## accomodationDiscountLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSDiscountAccomodationLine, **Join Column:** hMSDiscount_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1181,7 +1193,13 @@
 <div id='attendantDiscountLines' title='attendantDiscountLines' class='searchable'>
 
 ## attendantDiscountLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSDiscountAttendantLine, **Join Column:** hMSDiscount_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1485,7 +1503,13 @@
 <div id='bloodDiscountLines' title='bloodDiscountLines' class='searchable'>
 
 ## bloodDiscountLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSDiscountBloodLine, **Join Column:** hMSDiscount_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1777,7 +1801,13 @@
 <div id='labTestDiscountLines' title='labTestDiscountLines' class='searchable'>
 
 ## labTestDiscountLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSDiscountLabTestLine, **Join Column:** hMSDiscount_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2090,7 +2120,13 @@
 <div id='patientCheckDiscountLines' title='patientCheckDiscountLines' class='searchable'>
 
 ## patientCheckDiscountLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSDiscountCheckLine, **Join Column:** hMSDiscount_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2415,7 +2451,13 @@
 <div id='pharmacyDiscountLines' title='pharmacyDiscountLines' class='searchable'>
 
 ## pharmacyDiscountLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSDiscountPharmacyLine, **Join Column:** hMSDiscount_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2707,7 +2749,13 @@
 <div id='phyDiscountLines' title='phyDiscountLines' class='searchable'>
 
 ## phyDiscountLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSDiscountPhyLine, **Join Column:** hMSDiscount_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3020,7 +3068,13 @@
 <div id='radiologyDiscountLines' title='radiologyDiscountLines' class='searchable'>
 
 ## radiologyDiscountLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSDiscountRadiologyLine, **Join Column:** hMSDiscount_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3333,7 +3387,13 @@
 <div id='serviceDiscountLines' title='serviceDiscountLines' class='searchable'>
 
 ## serviceDiscountLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSDiscountServiceLine, **Join Column:** hMSDiscount_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3658,7 +3718,13 @@
 <div id='supervisionDiscountLines' title='supervisionDiscountLines' class='searchable'>
 
 ## supervisionDiscountLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSDiscountSupervisionLine, **Join Column:** hMSDiscount_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3983,7 +4049,13 @@
 <div id='supplyDiscountLines' title='supplyDiscountLines' class='searchable'>
 
 ## supplyDiscountLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSDiscountSuppliesLine, **Join Column:** hMSDiscount_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4275,7 +4347,13 @@
 <div id='surgeryDiscountLines' title='surgeryDiscountLines' class='searchable'>
 
 ## surgeryDiscountLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSDiscountSurgeryLine, **Join Column:** hMSDiscount_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

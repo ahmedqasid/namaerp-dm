@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MobileAppDashboard
+</div>
+
 **Arabic:** لوحة تطبيق الموبايل - لوحات تطبيق الموبايل
 **English:** Mobile Application Dashboard - Mobile Application Dashboards
 
@@ -748,7 +754,13 @@
 <div id='charts' title='charts' class='searchable'>
 
 ## charts (العناصر - Charts)
+
+<div class='tableName'>
+
 **Table Name:** MobileAppDashboardLine, **Join Column:** mobileAppDashboard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

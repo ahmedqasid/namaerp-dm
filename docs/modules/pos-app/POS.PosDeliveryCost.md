@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.PosDeliveryCost (Table Name: PosDeliveryCost)
+</div>
+
 **Arabic:** تكاليف خدمة توصيل نقاط البيع -  تكاليف خدمة توصيل نقاط البيع
 **English:** POS Delivery Cost -  POS Delivery Cost
 
@@ -253,7 +259,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PosDeliveryCostLine, **Join Column:** posDeliveryCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

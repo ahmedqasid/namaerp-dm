@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPATimeSheetApproval
+</div>
+
 **Arabic:** موافقة على تنفيذ مهمة - الموافقات على المهام
 **English:** TimeSheet Approval - TimeSheets Approval
 
@@ -943,7 +949,13 @@
 <div id='apprTimeSRCLineIDRef' title='apprTimeSRCLineIDRef' class='searchable'>
 
 ## apprTimeSRCLineIDRef ( - )
+
+<div class='tableName'>
+
 **Table Name:** TimeApprSRCLineIDRef, **Join Column:** cPATimeSheetApproval_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -995,7 +1007,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CPATimeSheetApprLine, **Join Column:** cPATimeSheetApproval_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

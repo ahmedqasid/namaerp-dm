@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnVisitStatus
+</div>
+
 **Arabic:** حالة الزيارة - حالات الزيارة
 **English:** Visit Status - Visit Statuses
 

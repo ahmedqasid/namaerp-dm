@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JournalEntry
+</div>
+
 **Arabic:** سند قيد - سندات قيد
 **English:** Journal Entry - Journal Entries
 
@@ -1024,7 +1030,13 @@
 <div id='costLines' title='costLines' class='searchable'>
 
 ## costLines (توزيع التكلفة - Cost Allocation)
+
+<div class='tableName'>
+
 **Table Name:** JournalEntryCostLine, **Join Column:** journalEntry_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1250,7 +1262,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** JournalEntryLine, **Join Column:** journalEntry_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSFreeItemGroup (Table Name: POSFreeItemGroup)
+</div>
+
 **Arabic:** مجموعة مجانية - مجموعات مجانية
 **English:** Free Group - Free Groups
 
@@ -262,7 +268,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSFreeGroupLine, **Join Column:** itemGroup
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSMailItemManifest
+</div>
+
 **Arabic:** مستند تجميع مواد - مستندات تجميع مواد
 **English:** IPS MailItem Manifest - IPS Mail Item Manifests
 
@@ -1033,7 +1039,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** IPSMailItemManifestLine, **Join Column:** iPSMailItemManifest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

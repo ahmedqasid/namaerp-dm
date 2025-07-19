@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BankLoanChangingDoc
+</div>
+
 **Arabic:** تعديل قرض -  تعديل قرض
 **English:** Bank Loan Changing Document - Bank Loan Changing Documents
 

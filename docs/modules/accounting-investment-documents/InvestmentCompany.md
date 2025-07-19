@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InvestmentCompany
+</div>
+
 **Arabic:** شركة استثمار - شركات استثمار
 **English:** Investment Company - Investment Companies
 

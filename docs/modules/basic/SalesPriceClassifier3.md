@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalesPriceClassifier3
+</div>
+
 **Arabic:** محدد سعر مبيعات 3 -  محدد سعر مبيعات 3
 **English:** Sales Price Classifier 3 -  Sales Price Classifier 3
 
@@ -769,7 +775,13 @@
 <div id='classifierSpecifications' title='classifierSpecifications' class='searchable'>
 
 ## classifierSpecifications (مواصفات المحدد - Classifier Specifications)
+
+<div class='tableName'>
+
 **Table Name:** SalesPriceSpecification3Line, **Join Column:** salesPriceClassifier3_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -992,7 +1004,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** SalesPriceClassifier3Line, **Join Column:** salesPriceClassifier3_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

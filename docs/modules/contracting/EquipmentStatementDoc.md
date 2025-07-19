@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EquipmentStatementDoc
+</div>
+
 **Arabic:** مستند بيان معدات - مستندات بيان معدات
 **English:** Equipment Statement Document - Equipment Statement Documents
 
@@ -946,7 +952,13 @@
 <div id='costLines' title='costLines' class='searchable'>
 
 ## costLines (توزيع التكلفة - Cost Allocation)
+
+<div class='tableName'>
+
 **Table Name:** EquipmentStatementDocCostLine, **Join Column:** equipmentStatementDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1145,7 +1157,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** EquipmentStatementDocLine, **Join Column:** equipmentStatementDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

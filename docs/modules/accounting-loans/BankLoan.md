@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BankLoan
+</div>
+
 **Arabic:** قرض بنكي - قروض بنكية
 **English:** Bank Loan - Bank Loans
 
@@ -1426,7 +1432,13 @@
 <div id='installments' title='installments' class='searchable'>
 
 ## installments (الاقساط - Installments)
+
+<div class='tableName'>
+
 **Table Name:** BankLoanInstallmentLine, **Join Column:** bankLoan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1547,7 +1559,13 @@
 <div id='interests' title='interests' class='searchable'>
 
 ## interests (الفوائد - Interests)
+
+<div class='tableName'>
+
 **Table Name:** BankLoanInterestLine, **Join Column:** bankLoan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

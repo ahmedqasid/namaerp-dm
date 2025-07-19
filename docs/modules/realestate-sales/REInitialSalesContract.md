@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REInitialSalesContract
+</div>
+
 **Arabic:** عقد بيع مبدئي - عقود بيع مبدئية
 **English:** Initial sales contract - Initial sales contracts
 
@@ -2095,7 +2101,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** REinitialSalesContractLine, **Join Column:** rEInitialSalesContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2798,7 +2810,13 @@
 <div id='installmentInfoLines' title='installmentInfoLines' class='searchable'>
 
 ## installmentInfoLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** REInitialSalesConInstInfoLine, **Join Column:** rEInitialSalesContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3147,7 +3165,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** REinitialSalesContrDocTermsConds, **Join Column:** rEInitialSalesContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3199,7 +3223,13 @@
 <div id='termLines' title='termLines' class='searchable'>
 
 ## termLines (الينود القياسيه - Standard Terms)
+
+<div class='tableName'>
+
 **Table Name:** REInitSalesStandardTermLine, **Join Column:** rEInitialSalesContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSCancelReservation
+</div>
+
 **Arabic:** سند إلغاء حجز اوردر نقاط بيع -  سند إلغاء حجز اوردر نقاط بيع
 **English:** POS Cancel Reservation -  POS Cancel Reservation
 
@@ -2629,7 +2635,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSCancelReservationLine, **Join Column:** namaPOSCancelReservation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4655,7 +4667,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSCancelResExternalPayLine, **Join Column:** namaPOSCancelReservation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4815,7 +4833,13 @@
 <div id='payments' title='payments' class='searchable'>
 
 ## payments (تفاصيل الدفع - Payments)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSCancelReservationPayLine, **Join Column:** namaPOSCancelReservation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

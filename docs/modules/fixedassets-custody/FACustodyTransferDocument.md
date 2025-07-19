@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FACustodyTransferDocument
+</div>
+
 **Arabic:** نقل عهدة - نقل العهد
 **English:** Custody transfer document - Custody transfer documents
 
@@ -916,7 +922,13 @@
 <div id='fromLines' title='fromLines' class='searchable'>
 
 ## fromLines (من - From)
+
+<div class='tableName'>
+
 **Table Name:** FACustodyTransferFromLine, **Join Column:** fACustodyTransferDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -980,7 +992,13 @@
 <div id='toLines' title='toLines' class='searchable'>
 
 ## toLines (إلي - To)
+
+<div class='tableName'>
+
 **Table Name:** FACustodyTransferToLine, **Join Column:** fACustodyTransferDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSHall
+</div>
+
 **Arabic:** صالة نقاط البيع -  صالة نقاط البيع
 **English:** POS Hall -  POS Hall
 

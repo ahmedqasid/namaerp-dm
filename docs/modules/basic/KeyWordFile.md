@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # KeyWordFile
+</div>
+
 **Arabic:** ملف كلمة مفتاحية - ملفات كلمة مفتاحية
 **English:** Key Word File - Key Word Files
 
@@ -748,7 +754,13 @@
 <div id='allowedValues' title='allowedValues' class='searchable'>
 
 ## allowedValues (القيم المسموح بها - Allowed Values)
+
+<div class='tableName'>
+
 **Table Name:** KeyWordFileLine, **Join Column:** keyWordFile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

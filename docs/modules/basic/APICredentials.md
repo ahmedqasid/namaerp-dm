@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # APICredentials
+</div>
+
 **Arabic:** API Credentials
 **English:** API Credentials
 
@@ -814,7 +820,13 @@
 <div id='allowedOperations' title='allowedOperations' class='searchable'>
 
 ## allowedOperations (العمليات المسموح بها - Allowed Operations)
+
+<div class='tableName'>
+
 **Table Name:** APICredentialsLine, **Join Column:** aPICredentials_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CreditFacilityIssuance
+</div>
+
 **Arabic:** إصدار تسهيل ائتمانى - سندات إصدار تسهيلات ائتمانية
 **English:** Credit Facility Issuance - Credit Facilities Issuance
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FinishingWorksCheckList
+</div>
+
 **Arabic:** Finishing Works CheckList
 **English:** Finishing Works CheckList
 
@@ -964,7 +970,13 @@
 <div id='civilWorkLines' title='civilWorkLines' class='searchable'>
 
 ## civilWorkLines (Civil Works - Civil Works)
+
+<div class='tableName'>
+
 **Table Name:** FinishingCivilWorkLine, **Join Column:** finishingWorksCheckList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1052,7 +1064,13 @@
 <div id='finishingWorkLines' title='finishingWorkLines' class='searchable'>
 
 ## finishingWorkLines (Finishing Works - Finishing Works)
+
+<div class='tableName'>
+
 **Table Name:** FinishingWorkLine, **Join Column:** finishingWorksCheckList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

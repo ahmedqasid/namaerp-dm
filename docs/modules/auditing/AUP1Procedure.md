@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUP1Procedure
+</div>
+
 **Arabic:** إجراء مرحلة التخطيط - إجراءات  مرحلة التخطيط
 **English:** Planing Procedure - Planing Procedures
 
@@ -856,7 +862,13 @@
 <div id='p1Procedures' title='p1Procedures' class='searchable'>
 
 ## p1Procedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP1Line, **Join Column:** aUP1Procedure_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

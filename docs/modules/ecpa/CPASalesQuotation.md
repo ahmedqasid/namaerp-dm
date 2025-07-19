@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPASalesQuotation
+</div>
+
 **Arabic:** عرض أسعار مشروع - عروض أسعار مشاريع
 **English:** CPA Projects Sales Quotation - CPA Projects Sales Quotations
 
@@ -1972,7 +1978,13 @@
 <div id='costsLines' title='costsLines' class='searchable'>
 
 ## costsLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CPAQuotationExpenseLine, **Join Column:** cPASalesQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2045,7 +2057,13 @@
 <div id='executers' title='executers' class='searchable'>
 
 ## executers (المنفذين - Executers)
+
+<div class='tableName'>
+
 **Table Name:** CPAQuotationTaskLine, **Join Column:** cPASalesQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2283,7 +2301,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** CPAQuotationLine, **Join Column:** cPASalesQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2347,7 +2371,13 @@
 <div id='remarksLines' title='remarksLines' class='searchable'>
 
 ## remarksLines (ملاحظات - Remarks Lines)
+
+<div class='tableName'>
+
 **Table Name:** CPASalesQuRemarksLine, **Join Column:** cPASalesQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2399,7 +2429,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** CPASalesQuotSchedulPayLine, **Join Column:** cPASalesQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

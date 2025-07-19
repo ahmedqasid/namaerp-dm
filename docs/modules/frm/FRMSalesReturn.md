@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMSalesReturn
+</div>
+
 **Arabic:** مردود مبيعات خدمة - مردودات مبيعات خدمات
 **English:** FRM Sales Return - FRM Sales Returns
 
@@ -1534,7 +1540,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMSalesReturnLine, **Join Column:** fRMSalesReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2393,7 +2405,13 @@
 <div id='einvoiceDetails' title='einvoiceDetails' class='searchable'>
 
 ## einvoiceDetails (بنود الفاتورة الإلكترونية - E Invoice Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMEInvoiceSalesReturnLine, **Join Column:** fRMSalesReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3252,7 +3270,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** FRMSalesReturnExternalPayment, **Join Column:** fRMSalesReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3403,7 +3427,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** FRMSalesReturnPaymentLine, **Join Column:** fRMSalesReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

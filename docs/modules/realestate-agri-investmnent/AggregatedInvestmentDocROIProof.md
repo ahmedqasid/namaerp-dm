@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggregatedInvestmentDocROIProof
+</div>
+
 **Arabic:** مستند إثبات عائد سندات استثمار مجمع - مستندات إثبات عائد سندات استثمار مجمع
 **English:** Aggregated Investment Document ROI Proof - Aggregated Investment Document ROI Proofs
 
@@ -892,7 +898,13 @@
 <div id='roiProofLines' title='roiProofLines' class='searchable'>
 
 ## roiProofLines (سطور إثبات عائد سندات الاستثمار - Investment Document ROI Proof Lines)
+
+<div class='tableName'>
+
 **Table Name:** InvestmentDocROIProofLines, **Join Column:** aggregatedInvestmentDocROIProof_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

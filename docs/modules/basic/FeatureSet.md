@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FeatureSet
+</div>
+
 **Arabic:** مجموعة مميزات - مجموعات مميزات
 **English:** Feature Set - Feature Sets
 
@@ -748,7 +754,13 @@
 <div id='availableEntities' title='availableEntities' class='searchable'>
 
 ## availableEntities (الشاشات المتاحة - Available Entities)
+
+<div class='tableName'>
+
 **Table Name:** FeatureSet_availableEntities, **Join Column:** FeatureSet_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -800,7 +812,13 @@
 <div id='availableFeatures' title='availableFeatures' class='searchable'>
 
 ## availableFeatures (المميزات المتاحة - Available Features)
+
+<div class='tableName'>
+
 **Table Name:** FeatureSet_availableFeatures, **Join Column:** FeatureSet_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

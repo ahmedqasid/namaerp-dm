@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # OrderDamage
+</div>
+
 **Arabic:** سند تلفيات
 **English:** Order Damage
 
@@ -928,7 +934,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** OrderDamageLine, **Join Column:** orderDamage_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

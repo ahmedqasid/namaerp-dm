@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SIAllocation
+</div>
+
 **Arabic:** تخصيص صنف فرعي - مستندات تخصيص صنف فرعي
 **English:** Sub Item Allocation - Sub Item Allocation Documents
 
@@ -2593,7 +2599,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SIAllocationLine, **Join Column:** sIAllocation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

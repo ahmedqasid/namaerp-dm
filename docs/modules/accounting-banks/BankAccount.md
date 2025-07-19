@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BankAccount
+</div>
+
 **Arabic:** حساب بنكي - حسابات بنكية
 **English:** Bank Account - Bank Accounts
 
@@ -1420,7 +1426,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** BankAccountLine, **Join Column:** bankAccount_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

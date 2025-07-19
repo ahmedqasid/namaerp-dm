@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # UOMGroup
+</div>
+
 **Arabic:** مجموعة وحدات - مجموعات وحدات
 **English:** UOM Unit Group - UOM Unit Groups
 
@@ -844,7 +850,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التحويلات - Conversions)
+
+<div class='tableName'>
+
 **Table Name:** GroupConversionLine, **Join Column:** uOMGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -983,7 +995,13 @@
 <div id='groupLines' title='groupLines' class='searchable'>
 
 ## groupLines (الوحدات - UOMs)
+
+<div class='tableName'>
+
 **Table Name:** UOMGroupLine, **Join Column:** uOMGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

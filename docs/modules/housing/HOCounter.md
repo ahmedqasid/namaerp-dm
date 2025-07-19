@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOCounter
+</div>
+
 **Arabic:** عداد - عدادات
 **English:** Counter - Counters
 

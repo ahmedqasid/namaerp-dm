@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AttendanceMachineConfig
+</div>
+
 **Arabic:** إعدادات ماكينة الحضور
 **English:** Attendance Machine Config - Attendance Machine Configs
 
@@ -880,7 +886,13 @@
 <div id='mappingLines' title='mappingLines' class='searchable'>
 
 ## mappingLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** AttendanceMachineConfigMappingLine, **Join Column:** attendanceMachineConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

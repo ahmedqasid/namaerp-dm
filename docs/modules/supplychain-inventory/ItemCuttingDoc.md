@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ItemCuttingDoc
+</div>
+
 **Arabic:** سند قص أصناف - سندات قص أصناف
 **English:** Item Cutting Doc - Item Cutting Docs
 
@@ -1432,7 +1438,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ItemCuttingDocLine, **Join Column:** itemCuttingDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

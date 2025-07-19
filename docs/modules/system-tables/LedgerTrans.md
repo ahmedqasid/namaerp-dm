@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LedgerTrans
+</div>
+
 **Arabic:** قيود النظام
 **English:** Ledger Transaction
 
@@ -328,7 +334,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** LedgerTransLine, **Join Column:** ledgerTrans_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

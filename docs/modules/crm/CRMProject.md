@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMProject
+</div>
+
 **Arabic:** CRM مشروع - مشاريع CRM
 **English:** CRM Project - CRM Projects
 
@@ -835,7 +841,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CRMProjPreparingTrainingLine, **Join Column:** cRMProject_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1007,7 +1019,13 @@
 <div id='remarkLines' title='remarkLines' class='searchable'>
 
 ## remarkLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CRMProjPreparationRemark, **Join Column:** cRMProject_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvCOperationClassification
+</div>
+
 **Arabic:** تصنيف خدمة -  تصنيف خدمة
 **English:** Standard Operation Classification -  Standard Operation Classification
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InvItem
+</div>
+
 **Arabic:** صنف - أصناف
 **English:** Item - Items
 
@@ -2533,7 +2539,13 @@
 <div id='codes' title='codes' class='searchable'>
 
 ## codes ( - )
+
+<div class='tableName'>
+
 **Table Name:** InvItemCode, **Join Column:** item_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2849,7 +2861,13 @@
 <div id='customerCodes' title='customerCodes' class='searchable'>
 
 ## customerCodes (أكواد العملاء - Customer Codes)
+
+<div class='tableName'>
+
 **Table Name:** CustomerItemCode, **Join Column:** invItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3072,7 +3090,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ItemDimensionsDetail, **Join Column:** invItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3727,7 +3751,13 @@
 <div id='itemPriceLines' title='itemPriceLines' class='searchable'>
 
 ## itemPriceLines (أسعار الصنف في القوائم - Item Price in Lists)
+
+<div class='tableName'>
+
 **Table Name:** ItemPriceLine, **Join Column:** invItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4469,7 +4499,13 @@
 <div id='keywordLines' title='keywordLines' class='searchable'>
 
 ## keywordLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** ItemKeywordLine, **Join Column:** invItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4563,7 +4599,13 @@
 <div id='manfCodes' title='manfCodes' class='searchable'>
 
 ## manfCodes (أكواد الموردين - Supplier Codes)
+
+<div class='tableName'>
+
 **Table Name:** ManufacturerItemCode, **Join Column:** invItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4795,7 +4837,13 @@
 <div id='primConversionLines' title='primConversionLines' class='searchable'>
 
 ## primConversionLines ( التحويلات -  Conversions)
+
+<div class='tableName'>
+
 **Table Name:** PrimaryConversionLine, **Join Column:** invItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4934,7 +4982,13 @@
 <div id='primaryUnits' title='primaryUnits' class='searchable'>
 
 ## primaryUnits ( الوحدات -  Units)
+
+<div class='tableName'>
+
 **Table Name:** PrimaryItemUOMLine, **Join Column:** invItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5136,7 +5190,13 @@
 <div id='quantities' title='quantities' class='searchable'>
 
 ## quantities (الكميات - Quantities)
+
+<div class='tableName'>
+
 **Table Name:** ItemDimensionsQty, **Join Column:** item_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5566,7 +5626,13 @@
 <div id='revisions' title='revisions' class='searchable'>
 
 ## revisions (إصدارات - Revisions)
+
+<div class='tableName'>
+
 **Table Name:** ItemRevision, **Join Column:** invItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5825,7 +5891,13 @@
 <div id='secondConversionLines' title='secondConversionLines' class='searchable'>
 
 ## secondConversionLines ( التحويلات -  Conversions)
+
+<div class='tableName'>
+
 **Table Name:** SecondaryConversionLine, **Join Column:** invItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5964,7 +6036,13 @@
 <div id='secondaryUnits' title='secondaryUnits' class='searchable'>
 
 ## secondaryUnits ( الوحدات -  Units)
+
+<div class='tableName'>
+
 **Table Name:** SecondaryItemUOMLine, **Join Column:** invItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -6166,7 +6244,13 @@
 <div id='sizesAndColors' title='sizesAndColors' class='searchable'>
 
 ## sizesAndColors (مقاسات و ألوان - Sizes and Colors)
+
+<div class='tableName'>
+
 **Table Name:** SizesAndColors, **Join Column:** invItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMLocation
+</div>
+
 **Arabic:** موقع شحن - مواقع شحن
 **English:** FRM Location - FRM Locations
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # GUIPostActions
+</div>
+
 **Arabic:** GUI Post Actions
 **English:** GUI Post Actions
 
@@ -775,7 +781,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** GUIPostActionsLine, **Join Column:** gUIPostActions_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1223,7 +1235,13 @@
 <div id='quickCreator' title='quickCreator' class='searchable'>
 
 ## quickCreator (Quick Creator - Quick Creator)
+
+<div class='tableName'>
+
 **Table Name:** QuickCreatorLine, **Join Column:** gUIPostActions_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1653,7 +1671,13 @@
 <div id='suggestionProviders' title='suggestionProviders' class='searchable'>
 
 ## suggestionProviders (Suggestion Providers - Suggestion Providers)
+
+<div class='tableName'>
+
 **Table Name:** SuggestionProviderLine, **Join Column:** gUIPostActions_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

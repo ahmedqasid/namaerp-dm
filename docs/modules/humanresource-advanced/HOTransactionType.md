@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOTransactionType
+</div>
+
 **Arabic:** نوع معاملة - أنواع معاملات
 **English:** Transaction Type - Transactions Types
 

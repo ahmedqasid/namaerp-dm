@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSItemConfig (Table Name: POSItemConfig)
+</div>
+
 **Arabic:** إعدادات صنف - إعدادات أصناف
 **English:** Item Configurations
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FACustodyDeliveryDoc
+</div>
+
 **Arabic:** تسليم عهدة
 **English:** Custody Delivery Document - Custody Delivery Documents
 
@@ -928,7 +934,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FACustodyDeliveryLine, **Join Column:** fACustodyDeliveryDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -992,7 +1004,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** FACustodyDeliveryEmpLine, **Join Column:** fACustodyDeliveryDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

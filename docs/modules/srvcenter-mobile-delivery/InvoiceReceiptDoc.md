@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InvoiceReceiptDoc
+</div>
+
 **Arabic:** مستند استلام الفاتورة - مستندات استلام الفاتورة
 **English:** Invoice Receipt Document - Invoice Receipt Documents
 
@@ -2626,7 +2632,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** InvoiceReceiptDocLine, **Join Column:** invoiceReceiptDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4604,7 +4616,13 @@
 <div id='mismatchedLines' title='mismatchedLines' class='searchable'>
 
 ## mismatchedLines (الكميات الغير متطابقة - Mismatched Quantities Lines)
+
+<div class='tableName'>
+
 **Table Name:** MismatchedInvReceiptDocQtysLine, **Join Column:** invoiceReceiptDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

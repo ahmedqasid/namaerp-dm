@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DataSource
+</div>
+
 **Arabic:** مصدر بيانات - مصادر بيانات
 **English:** Data Source - Data Sources
 
@@ -856,7 +862,13 @@
 <div id='fields' title='fields' class='searchable'>
 
 ## fields (الحقول - Fields)
+
+<div class='tableName'>
+
 **Table Name:** DataSourceFieldLine, **Join Column:** dataSource_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1310,7 +1322,13 @@
 <div id='parameters' title='parameters' class='searchable'>
 
 ## parameters (المدخلات - Parameters)
+
+<div class='tableName'>
+
 **Table Name:** DataSourceParameterLine, **Join Column:** dataSource_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1980,7 +1998,13 @@
 <div id='securityConstraints' title='securityConstraints' class='searchable'>
 
 ## securityConstraints (Security Constraints - Security Constraints)
+
+<div class='tableName'>
+
 **Table Name:** DataSourceSecurityConstraints, **Join Column:** dataSource_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2104,7 +2128,13 @@
 <div id='sortFields' title='sortFields' class='searchable'>
 
 ## sortFields (حقول الترتيب - Sort Fields)
+
+<div class='tableName'>
+
 **Table Name:** DataSourceSortFieldLine, **Join Column:** dataSource_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2567,7 +2597,13 @@
 <div id='unionTables' title='unionTables' class='searchable'>
 
 ## unionTables (Union Tables - Union Tables)
+
+<div class='tableName'>
+
 **Table Name:** DataSourceUnionTablesLine, **Join Column:** dataSource_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2610,7 +2646,13 @@
 <div id='userAliases' title='userAliases' class='searchable'>
 
 ## userAliases (User Aliases - User Aliases)
+
+<div class='tableName'>
+
 **Table Name:** DataSourceUserAliasesLine, **Join Column:** dataSource_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2680,7 +2722,13 @@
 <div id='whereLines' title='whereLines' class='searchable'>
 
 ## whereLines (Where Lines - Where Lines)
+
+<div class='tableName'>
+
 **Table Name:** DataSourceWhereLine, **Join Column:** dataSource_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

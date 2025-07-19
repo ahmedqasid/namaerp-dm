@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSPharmacyInvoice
+</div>
+
 **Arabic:** فاتورة صيدلية - فواتير الصيدلية
 **English:** Pharmacy Invoice - Pharmacy Invoices
 
@@ -2311,7 +2317,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSPharmacyInvoiceLine, **Join Column:** hMSPharmacyInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3704,7 +3716,13 @@
 <div id='overheadItems' title='overheadItems' class='searchable'>
 
 ## overheadItems (بنود تكلفة طبية غير مباشرة - Overhead Items)
+
+<div class='tableName'>
+
 **Table Name:** HMSPharmacyInvoiceOverheadItem, **Join Column:** hMSPharmacyInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

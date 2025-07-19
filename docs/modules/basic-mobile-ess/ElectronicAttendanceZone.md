@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ElectronicAttendanceZone
+</div>
+
 **Arabic:** منطقة حضور إلكتروني - مناطق حضور إلكتروني
 **English:** Electronic Attendance Zone
 

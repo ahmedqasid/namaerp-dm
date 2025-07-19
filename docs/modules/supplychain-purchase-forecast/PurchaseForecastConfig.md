@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PurchaseForecastConfig
+</div>
+
 **Arabic:** إعدادات توقعات المشتريات
 **English:** Purchase Forecast Configuration - Purchase Forecast Configurations
 

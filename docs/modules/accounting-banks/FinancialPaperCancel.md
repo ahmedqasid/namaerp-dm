@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FinancialPaperCancel
+</div>
+
 **Arabic:** إلغاء ورقة تجارية -  إلغاء ورقة تجارية
 **English:** Commercial Paper Cancel -  Commercial Paper Cancel
 
@@ -937,7 +943,13 @@
 <div id='installmentLines' title='installmentLines' class='searchable'>
 
 ## installmentLines (الأقساط - Installment Lines)
+
+<div class='tableName'>
+
 **Table Name:** FPCancelInstallmentLine, **Join Column:** financialPaperCancel_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1154,7 +1166,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** FinancialPaperCancelLine, **Join Column:** financialPaperCancel_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

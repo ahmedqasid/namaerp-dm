@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PackagingMethodFile
+</div>
+
 **Arabic:** ملف طريقة تعبئة - ملفات طريقة تعبئة
 **English:** Packaging Method File - Packaging Method Files
 
@@ -757,7 +763,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PackagingMethodLine, **Join Column:** packagingMethodFile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

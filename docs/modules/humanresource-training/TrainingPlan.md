@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TrainingPlan
+</div>
+
 **Arabic:** خطة تدريب - خطط التدريب
 **English:** Training Plan - Training Plans
 
@@ -808,7 +814,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** TrainingPlanCourseLine, **Join Column:** trainingPlan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -929,7 +941,13 @@
 <div id='skillLines' title='skillLines' class='searchable'>
 
 ## skillLines (المهارات - Skills)
+
+<div class='tableName'>
+
 **Table Name:** TrainingPlanSkillLine, **Join Column:** trainingPlan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAPropertiesDocument
+</div>
+
 **Arabic:** خصائص أصل ثابت - خصائص الأصول الثابتة
 **English:** Fixed Asset Properties - Fixed Assets Properties
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMComplaintType
+</div>
+
 **Arabic:** نوع شكوى - أنواع شكوى
 **English:** Complaint Type - Complaint Types
 

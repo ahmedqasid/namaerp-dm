@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AgrInvestmentContract
+</div>
+
 **Arabic:** عقد استثمار زراعي - عقود استثمار زراعي
 **English:** Agricultural Investment Contract - Agricultural Investment Contracts
 
@@ -985,7 +991,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AgrInvestmentContractLine, **Join Column:** agrInvestmentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1697,7 +1709,13 @@
 <div id='installmentInfoLines' title='installmentInfoLines' class='searchable'>
 
 ## installmentInfoLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** AgrInvestmentContrInstInfoLine, **Join Column:** agrInvestmentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSChangePatientPricePlan
+</div>
+
 **Arabic:** تغيير خطة أسعار مريض - تغيير خطط أسعار المرضى
 **English:** Change Patient Price Plan - Change Patients Price Plans
 
@@ -946,7 +952,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSChangePricePlanLine, **Join Column:** hMSChangePatientPricePlan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

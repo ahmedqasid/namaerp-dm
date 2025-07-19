@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvCVisitType
+</div>
+
 **Arabic:** نوع الزيارة - أنواع الزيارة
 **English:** Visit Type (Debit then Credit) - Visit Type
 

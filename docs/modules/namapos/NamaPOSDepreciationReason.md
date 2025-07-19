@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSDepreciationReason
+</div>
+
 **Arabic:** سبب الهالك - أسباب الهالك
 **English:** POS Depreciation Reason - POS Depreciation Reasons
 
@@ -748,7 +754,13 @@
 <div id='discountLines' title='discountLines' class='searchable'>
 
 ## discountLines ( الخصومات -  Discounts)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSDepreciationReasonDiscLine, **Join Column:** namaPOSDepreciationReason_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

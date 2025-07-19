@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CalculationFormula
+</div>
+
 **Arabic:** صيغة حسابية - صيغ حسابية
 **English:** Calculation Formula - Calculation Formulas
 

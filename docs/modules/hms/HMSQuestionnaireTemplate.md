@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSQuestionnaireTemplate
+</div>
+
 **Arabic:** قالب اسئلة حالة صحية - قوالب اسئلة حالة صحية
 **English:** Health Status Questionnaire Template - Health Status Questionnaire Templates
 
@@ -748,7 +754,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSQuestionnaireTemplateLine, **Join Column:** hMSQuestionnaireTemplate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

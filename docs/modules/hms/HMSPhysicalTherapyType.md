@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSPhysicalTherapyType
+</div>
+
 **Arabic:** نوع العلاج الطبيعى - أنواع العلاج الطبيعى
 **English:** Physical Therapy Type - Physical Therapy Types
 
@@ -1126,7 +1132,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSPhysicalTypeSuppliesLine, **Join Column:** hMSPhysicalTherapyType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2489,7 +2501,13 @@
 <div id='phyPriceLines' title='phyPriceLines' class='searchable'>
 
 ## phyPriceLines (أسعار نوع العلاج الطبيعى في القوائم - Physical Price in Lists)
+
+<div class='tableName'>
+
 **Table Name:** HMSPhysicalTypePriceLine, **Join Column:** hMSPhysicalTherapyType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2805,7 +2823,13 @@
 <div id='serviceLines' title='serviceLines' class='searchable'>
 
 ## serviceLines (تفاصيل الخدمات الطبية - Medical Service Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSPhysicalTypeServiceLine, **Join Column:** hMSPhysicalTherapyType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CourseEvaluation
+</div>
+
 **Arabic:** تقييم دورة تدريبية
 **English:** Course Evaluation - Courses Evaluation
 
@@ -949,7 +955,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CourseEvaluationLine, **Join Column:** courseEvaluation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

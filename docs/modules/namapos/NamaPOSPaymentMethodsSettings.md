@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSPaymentMethodsSettings
+</div>
+
 **Arabic:** إعدادات طرق دفع نقاط البيع -  إعدادات طرق دفع نقاط البيع
 **English:** Nama POS Payment Methods Settings -  Nama POS Payment Methods Settings
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSPaymentMethodsSettingsLine, **Join Column:** namaPOSPaymentMethodsSettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

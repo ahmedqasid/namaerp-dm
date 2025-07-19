@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ModifySupplierInfoReq
+</div>
+
 **Arabic:** طلب تعديل بيانات المورد - طلبات تعديل بيانات الموردين
 **English:** Modify Supplier Info Request - Modify Supplier Info Requests
 
@@ -2473,7 +2479,13 @@
 <div id='contacts' title='contacts' class='searchable'>
 
 ## contacts (جهات الاتصال - Contacts)
+
+<div class='tableName'>
+
 **Table Name:** ModifySupplierContactInfo, **Join Column:** modifySupplierInfoReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

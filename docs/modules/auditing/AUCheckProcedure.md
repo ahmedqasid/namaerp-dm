@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUCheckProcedure
+</div>
+
 **Arabic:** إجراء فحص ما قبل الإصدار - إجراءات فحص ما قبل الإصدار
 **English:** Check Procedure - Check Procedures
 
@@ -856,7 +862,13 @@
 <div id='checkProcedures' title='checkProcedures' class='searchable'>
 
 ## checkProcedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureCheckLine, **Join Column:** aUCheckProcedure_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

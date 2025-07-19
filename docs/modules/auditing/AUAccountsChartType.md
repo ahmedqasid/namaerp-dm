@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUAccountsChartType
+</div>
+
 **Arabic:** نوع شجرة حسابات مراجعة - أنواع شجرة حسابات مراجعة
 **English:** Auditing Accounts Chart Type - Auditing Accounts Chart Types
 

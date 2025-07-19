@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LGTChanging
+</div>
+
 **Arabic:** تعديل خطاب ضمان - تعديل خطابات الضمان
 **English:** LGT Changing - LGTs Changing
 

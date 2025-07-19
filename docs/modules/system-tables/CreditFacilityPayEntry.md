@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CreditFacilityPayEntry
+</div>
+
 **Arabic:** الجدول النظامى لسداد التسهيل الائتمانى
 **English:** Credit Facility Payment Entry
 

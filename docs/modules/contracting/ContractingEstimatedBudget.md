@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractingEstimatedBudget
+</div>
+
 **Arabic:** موازنة مقاولات تقديرية - موازنات المقاولات التقديرية
 **English:** Contracting Estimated Budget - Contracting Estimated Budgets
 
@@ -1627,7 +1633,13 @@
 <div id='conditions' title='conditions' class='searchable'>
 
 ## conditions (الشروط - Conditions)
+
+<div class='tableName'>
+
 **Table Name:** ContrEstimatBudgetCondLine, **Join Column:** contractingEstimatedBudget_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1886,7 +1898,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** ContrEstimatdBudgetTermLine, **Join Column:** contractingEstimatedBudget_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

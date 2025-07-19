@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JOOutSourceManufactureIssue
+</div>
+
 **Arabic:** مستند صرف تصنيع خارجي زجاج جديد - مستندات صرف تصنيع خارجي زجاج جديد
 **English:** New Glass Outsource Manufacture Issue - New Glass Outsource Manufacture Issues
 
@@ -4843,7 +4849,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** JOOutSourceManufIssueLine, **Join Column:** jOOutSourceManufactureIssue_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -8903,7 +8915,13 @@
 <div id='joOperations' title='joOperations' class='searchable'>
 
 ## joOperations (تشغيلات - JOOperations)
+
+<div class='tableName'>
+
 **Table Name:** JOOutSourceManufIssueOpLine, **Join Column:** jOOutSourceManufactureIssue_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -8958,7 +8976,13 @@
 <div id='salesOrderLines' title='salesOrderLines' class='searchable'>
 
 ## salesOrderLines (أوامر البيع - Sales Order lines)
+
+<div class='tableName'>
+
 **Table Name:** JOOutSourceManfOrderLine, **Join Column:** jOOutSourceManufactureIssue_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnItinerary
+</div>
+
 **Arabic:** خط سير صيانة - خطوط سير صيانة
 **English:** Maintenance Itinerary - Maintenance Itineraries
 
@@ -802,7 +808,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MnItineraryLine, **Join Column:** mnItinerary_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

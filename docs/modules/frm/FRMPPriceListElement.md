@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMPPriceListElement
+</div>
+
 **Arabic:** عنصر قوائم أسعار شراء - عناصر قوائم أسعار شراء
 **English:** Purchase Price Lists Element - Purchase Price Lists Elements
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MultiEmpVacation
+</div>
+
 **Arabic:** سند أجازة مجمع لأكثر من موظف - سندات أجازة مجمعة لأكثر من موظف
 **English:** Multi Employee Vacation - Multi Employee Vacations
 
@@ -988,7 +994,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** MultiEmpVacationLine, **Join Column:** multiEmpVacation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

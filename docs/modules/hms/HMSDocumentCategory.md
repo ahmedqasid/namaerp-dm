@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSDocumentCategory
+</div>
+
 **Arabic:** تصنيف طبى - تصنيفات طبية
 **English:** Medical Document Category - Medical Document Categorys
 

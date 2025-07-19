@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PosConfigRequestAuthorizationLine
+</div>
+
 
 <ContentFilter/>
 

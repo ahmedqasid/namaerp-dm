@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSSurgeryApproval
+</div>
+
 **Arabic:** سند موافقة على إجراء عملية جراحية - سندات موافقة على إجراء عمليات جراحية
 **English:** Surgery Approval - Surgery Approvals
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractingJobOrder
+</div>
+
 **Arabic:** أمر شغل مقاولات - ملفات أمر شغل مقاولات
 **English:** Contracting Job Order - Contracting Job Orders
 
@@ -1435,7 +1441,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** ContractingJobOrderLine, **Join Column:** contractingJobOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnClassification5
+</div>
+
 **Arabic:** تصنيف آلة5 - تصنيفات آلة5
 **English:** Machine Classification5 - Machine Classifications5
 

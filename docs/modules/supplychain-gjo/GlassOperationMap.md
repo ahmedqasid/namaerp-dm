@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # GlassOperationMap
+</div>
+
 **Arabic:** عمليات تشغيل زجاج
 **English:** Operations -  Operations
 
@@ -1003,7 +1009,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** GlassOperationMapLine, **Join Column:** glassOperationMap_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1061,7 +1073,13 @@
 <div id='relatedOperations' title='relatedOperations' class='searchable'>
 
 ## relatedOperations (العمليات المتعلقة - Related Operations)
+
+<div class='tableName'>
+
 **Table Name:** GlassOperationRelation, **Join Column:** glassOperationMap_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

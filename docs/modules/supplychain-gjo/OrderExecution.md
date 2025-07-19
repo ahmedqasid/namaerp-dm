@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # OrderExecution
+</div>
+
 **Arabic:** تنفيذ تشغيلة
 **English:** Service Execution - Service Executions
 
@@ -1399,7 +1405,13 @@
 <div id='batchInfo' title='batchInfo' class='searchable'>
 
 ## batchInfo (معلومات الشحنة - Batch Information)
+
+<div class='tableName'>
+
 **Table Name:** OrderExecutionBatchInfo, **Join Column:** orderExecution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1580,7 +1592,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** OrderExecutionLine, **Join Column:** orderExecution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2202,7 +2220,13 @@
 <div id='orderMaterialLines' title='orderMaterialLines' class='searchable'>
 
 ## orderMaterialLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** OrderExecutionMaterial, **Join Column:** orderExecution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2443,7 +2467,13 @@
 <div id='resLines' title='resLines' class='searchable'>
 
 ## resLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** OrderExecutionResLine, **Join Column:** orderExecution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

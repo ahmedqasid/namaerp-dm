@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOEmpSocialInsuranceRemove
+</div>
+
 **Arabic:** سند حذف موظفين من التأمينات الإجتماعية - سندات حذف موظفين من التأمينات الإجتماعية
 **English:** Employee Social Insurance Remove - Employees Social Insurance Remove
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SocialInsuranceRemoveLine, **Join Column:** hOEmpSocialInsuranceRemove_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

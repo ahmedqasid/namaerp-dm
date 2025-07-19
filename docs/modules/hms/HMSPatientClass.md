@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSPatientClass
+</div>
+
 **Arabic:** فئة مريض - فئات المرضي
 **English:** Patient Classification - Patient Classifications
 

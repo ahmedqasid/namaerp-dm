@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSSurgeryClassification
+</div>
+
 **Arabic:** تصنيف عملية جراحية - تصنيفات عمليات جراحية
 **English:** Surgery Classification - Surgery Classifications
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalesPoints
+</div>
+
 **Arabic:** نقط المبيعات - نقاط المبيعات
 **English:** Sales Points
 
@@ -979,7 +985,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SalesPointLine, **Join Column:** salesPoints_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMLocationClass
+</div>
+
 **Arabic:** فئة موقع شحن - فئات مواقع شحن
 **English:** FRM Location Class - FRM Location Classes
 

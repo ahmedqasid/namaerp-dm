@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ShoppingMobAppConfig
+</div>
+
 **Arabic:** ملف إعدادات تطبيق التسوق - ملفات إعدادات تطبيق التسوق
 **English:** Shopping Mobile Application Configuration - Shopping Mobile Application Configurations
 
@@ -898,7 +904,13 @@
 <div id='banners' title='banners' class='searchable'>
 
 ## banners (Banners - Banners)
+
+<div class='tableName'>
+
 **Table Name:** ShoppingMobAppBanner, **Join Column:** shoppingMobAppConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -974,7 +986,13 @@
 <div id='newArrivals' title='newArrivals' class='searchable'>
 
 ## newArrivals (New Arrivals - New Arrivals)
+
+<div class='tableName'>
+
 **Table Name:** ShoppingMobAppNewArrival, **Join Column:** shoppingMobAppConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1050,7 +1068,13 @@
 <div id='sliderImages' title='sliderImages' class='searchable'>
 
 ## sliderImages (Slider Images - Slider Images)
+
+<div class='tableName'>
+
 **Table Name:** ShoppingMobAppSlider, **Join Column:** shoppingMobAppConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

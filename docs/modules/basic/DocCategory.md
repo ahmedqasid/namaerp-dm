@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DocCategory
+</div>
+
 **Arabic:** تصنيف سجل -  تصنيف سجل
 **English:** Record Category - Document Categories
 

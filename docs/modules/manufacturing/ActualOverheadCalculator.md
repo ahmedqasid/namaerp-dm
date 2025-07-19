@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ActualOverheadCalculator
+</div>
+
 **Arabic:** طريقة حساب فعلي للمصاريف الغير مباشرة - طرق الحساب الفعلي للمصاريف الغير مباشرة
 **English:** Actual Overhead Calculator - Actual Overhead Calculators
 
@@ -778,7 +784,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ActualOverheadCalculatorLine, **Join Column:** actualOverheadCalculator_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

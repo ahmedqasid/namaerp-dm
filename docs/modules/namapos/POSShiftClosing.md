@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POSShiftClosing
+</div>
+
 **Arabic:** غلق وردية -  غلق وردية
 **English:** POS Shift Closing -  POS Shift Closing
 
@@ -1015,7 +1021,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSShiftCloseLine, **Join Column:** pOSShiftClosing_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1160,7 +1172,13 @@
 <div id='takenElementsPerShiftLines' title='takenElementsPerShiftLines' class='searchable'>
 
 ## takenElementsPerShiftLines (العناصر المجرودة مع كل وردية - Taken Elements Per Shift Lines)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSShiftCloseShiftTakenElement, **Join Column:** pOSShiftClosing_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SIPurchaseOrder
+</div>
+
 **Arabic:** أمر شراء صنف فرعى - أوامر شراء صنف فرعى
 **English:** Sub Item Purchase Order - Sub Item Purchase Orders
 
@@ -2434,7 +2440,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SIPurchaseOrderLine, **Join Column:** sIPurchaseOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4343,7 +4355,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SIPurchaseOrderExternalPayLine, **Join Column:** sIPurchaseOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4494,7 +4512,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SIPurchaseOrderPaymentLine, **Join Column:** sIPurchaseOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4804,7 +4828,13 @@
 <div id='purchaseTermsLines' title='purchaseTermsLines' class='searchable'>
 
 ## purchaseTermsLines (بنود الشراء - Purchase Terms Lines)
+
+<div class='tableName'>
+
 **Table Name:** SIPurchasOStandardTermsLine, **Join Column:** sIPurchaseOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5123,7 +5153,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** SIPurchaseOrderPaySchedule, **Join Column:** sIPurchaseOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

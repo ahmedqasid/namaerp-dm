@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REReservationDoc
+</div>
+
 **Arabic:** مستند حجز استثمار عقاري - مستندات حجز استثمار عقاري
 **English:** RE Reservation document - RE Reservation documents
 
@@ -1585,7 +1591,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** REReservationLine, **Join Column:** rEReservationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2288,7 +2300,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** REReserveDocTermsCond, **Join Column:** rEReservationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

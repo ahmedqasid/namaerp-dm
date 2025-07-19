@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMMarketingPlan
+</div>
+
 **Arabic:** خطة تسويق - خطط تسويق
 **English:** MarketingPlan document - MarketingPlan documents
 
@@ -811,7 +817,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CRMMarketingPlanLine, **Join Column:** cRMMarketingPlan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TooltipDefinition
+</div>
+
 **Arabic:** تعريف مساعدة سريعة - تعريفات مساعدة سريعة
 **English:** Tooltip Definition - Tooltip Definitions
 

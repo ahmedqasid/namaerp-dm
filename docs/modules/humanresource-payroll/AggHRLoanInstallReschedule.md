@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggHRLoanInstallReschedule
+</div>
+
 **Arabic:** سند إعادة جدولة أقساط سلفة مجمع - سندات إعادة جدولة أقساط سلفة مجمعة
 **English:** Aggregated Loan Installment Reschedule - Aggregated Loan Installment Reschedules
 
@@ -886,7 +892,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** AggLoanInstallRescheduleLine, **Join Column:** aggHRLoanInstallReschedule_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

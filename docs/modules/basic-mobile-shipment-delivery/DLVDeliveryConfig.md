@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DLVDeliveryConfig
+</div>
+
 **Arabic:** إعدادات توصيل شحنات
 **English:** Shipment Delivery Config - Shipment Delivery Configs
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DLVDeliveryConfigLine, **Join Column:** dLVDeliveryConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnMaintenanceOrderStatus
+</div>
+
 **Arabic:** حالة أوامر الصيانة - حالات أوامر الصيانة
 **English:** Maintenance Order Status - Maintenance Order Statuses
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMFollowUp
+</div>
+
 **Arabic:** سند متابعة - سندات متابعة
 **English:** Follow Up Document - Follow Up Documents
 

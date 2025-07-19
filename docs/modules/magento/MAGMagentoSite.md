@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MAGMagentoSite
+</div>
+
 **Arabic:** Magento Site - Magento Sites
 **English:** Magento Site - Magento Sites
 
@@ -2122,7 +2128,13 @@
 <div id='copyToEcommerceItemLines' title='copyToEcommerceItemLines' class='searchable'>
 
 ## copyToEcommerceItemLines (نسخ حقول المنتج من النظام الي المتجر الالكتروني - Copy Fields Value From The System To Ecommerce Site)
+
+<div class='tableName'>
+
 **Table Name:** MagCopyToEcommerceItemLine, **Join Column:** mAGMagentoSite_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2192,7 +2204,13 @@
 <div id='documentGenerationInfoLines' title='documentGenerationInfoLines' class='searchable'>
 
 ## documentGenerationInfoLines (سطور إنشاء مستندات بناءا على تطابق من الأمر - Generate Document Based On Order Criteria Lines)
+
+<div class='tableName'>
+
 **Table Name:** EcommerceDocumentGenerationInfo, **Join Column:** mAGMagentoSite_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2376,7 +2394,13 @@
 <div id='ecommerceEventActionsLines' title='ecommerceEventActionsLines' class='searchable'>
 
 ## ecommerceEventActionsLines (Ecommerce Event Actions Line - Ecommerce Event Actions Line)
+
+<div class='tableName'>
+
 **Table Name:** EcommerceEventActionsLine, **Join Column:** mAGMagentoSite_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2455,7 +2479,13 @@
 <div id='ecommerceWarehouseLines' title='ecommerceWarehouseLines' class='searchable'>
 
 ## ecommerceWarehouseLines (ربط معرفات المخازن الإلكترونية بنما - Link Ecommerce Warehouses By Nama)
+
+<div class='tableName'>
+
 **Table Name:** EcommerceWarehouseLine, **Join Column:** mAGMagentoSite_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2510,7 +2540,13 @@
 <div id='graphQLLines' title='graphQLLines' class='searchable'>
 
 ## graphQLLines (Graph QL Lines - Graph QL Lines)
+
+<div class='tableName'>
+
 **Table Name:** EcommerceGraphQLLine, **Join Column:** mAGMagentoSite_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2571,7 +2607,13 @@
 <div id='paymentMethods' title='paymentMethods' class='searchable'>
 
 ## paymentMethods (طرق الدفع - Payment Methods)
+
+<div class='tableName'>
+
 **Table Name:** MAGSitePaymentMethodsLine, **Join Column:** mAGMagentoSite_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2689,7 +2731,13 @@
 <div id='shippingItems' title='shippingItems' class='searchable'>
 
 ## shippingItems (أصناف خدمة الشحن - Shipping Service Items)
+
+<div class='tableName'>
+
 **Table Name:** MAGSiteShippingItemLine, **Join Column:** mAGMagentoSite_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2753,7 +2801,13 @@
 <div id='updateItemFor' title='updateItemFor' class='searchable'>
 
 ## updateItemFor ( - )
+
+<div class='tableName'>
+
 **Table Name:** MAGSiteItemUpdateCriteria, **Join Column:** mAGMagentoSite_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2979,7 +3033,13 @@
 <div id='updateOrderStatusTo' title='updateOrderStatusTo' class='searchable'>
 
 ## updateOrderStatusTo (تحديث حالة طلب ماجنتو إلي - Update Magento Order Status To)
+
+<div class='tableName'>
+
 **Table Name:** MagentoOrderUpdateStatus, **Join Column:** mAGMagentoSite_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3070,7 +3130,13 @@
 <div id='updateQtyFor' title='updateQtyFor' class='searchable'>
 
 ## updateQtyFor ( - )
+
+<div class='tableName'>
+
 **Table Name:** MAGSiteQtyUpdateCriteria, **Join Column:** mAGMagentoSite_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

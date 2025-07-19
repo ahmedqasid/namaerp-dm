@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JOrderExpense
+</div>
+
 **Arabic:** مصاريف على أمر شغل
 **English:** Order Expense
 
@@ -979,7 +985,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** JOrderExpenseLine, **Join Column:** jOrderExpense_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

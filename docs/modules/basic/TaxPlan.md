@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TaxPlan
+</div>
+
 **Arabic:** سياسة الضريبة - السياسات الضريبية
 **English:** Tax Plan - Tax Plans
 
@@ -1567,7 +1573,13 @@
 <div id='legalEntityTaxes' title='legalEntityTaxes' class='searchable'>
 
 ## legalEntityTaxes (السياسة الضريبية - Legal Entity Taxes)
+
+<div class='tableName'>
+
 **Table Name:** LegalEntityTax, **Join Column:** taxPlan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

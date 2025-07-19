@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SISalesOrder
+</div>
+
 **Arabic:** أمر بيع صنف فرعي - مستندات أمر بيع صنف فرعي
 **English:** Sub Item Sales Order - Sub Item Sales Order Documents
 
@@ -2740,7 +2746,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SISalesOrderLine, **Join Column:** sISalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4943,7 +4955,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SISalesOrdExtPaymentLine, **Join Column:** sISalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5094,7 +5112,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SISalesOrderPaymentLine, **Join Column:** sISalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5521,7 +5545,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** SISalesOrdScheduledPayLine, **Join Column:** sISalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5786,7 +5816,13 @@
 <div id='termsLines' title='termsLines' class='searchable'>
 
 ## termsLines (بنود البيع - Sales Terms)
+
+<div class='tableName'>
+
 **Table Name:** SISalesOStandardTermsLine, **Join Column:** sISalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

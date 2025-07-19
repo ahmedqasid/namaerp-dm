@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LegalEntityParentLine
+</div>
+
 
 <ContentFilter/>
 

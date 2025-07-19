@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractingCostExecution
+</div>
+
 **Arabic:** حصر تكاليف مقاولات
 **English:** Contracting Cost Execution
 
@@ -952,7 +958,13 @@
 <div id='costDocs' title='costDocs' class='searchable'>
 
 ## costDocs (سندات التكلفة اليدوية - Manually Cost Documents)
+
+<div class='tableName'>
+
 **Table Name:** ContCostDocExecutionLine, **Join Column:** contractingCostExecution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1085,7 +1097,13 @@
 <div id='executions' title='executions' class='searchable'>
 
 ## executions (التنفيذات - Executions)
+
+<div class='tableName'>
+
 **Table Name:** ContractingCostExecutionLine, **Join Column:** contractingCostExecution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

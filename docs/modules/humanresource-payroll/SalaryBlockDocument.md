@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalaryBlockDocument
+</div>
+
 **Arabic:** حجب راتب موظف -  حجب راتب موظف
 **English:** Salary Block -  Salary Block
 

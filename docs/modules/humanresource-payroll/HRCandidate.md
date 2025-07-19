@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRCandidate
+</div>
+
 **Arabic:** متقدم للعمل - المتقدمين للعمل
 **English:** Candidate - Candidates
 
@@ -1174,7 +1180,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CandidateVacanciesLine, **Join Column:** hRCandidate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1241,7 +1253,13 @@
 <div id='elementLines' title='elementLines' class='searchable'>
 
 ## elementLines (مفردات الراتب - Element Lines)
+
+<div class='tableName'>
+
 **Table Name:** CandidateElementLine, **Join Column:** hRCandidate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1362,7 +1380,13 @@
 <div id='experienceLines' title='experienceLines' class='searchable'>
 
 ## experienceLines (الخبرات - Experiences)
+
+<div class='tableName'>
+
 **Table Name:** CandidateExperienceLine, **Join Column:** hRCandidate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1738,7 +1762,13 @@
 <div id='qualifications' title='qualifications' class='searchable'>
 
 ## qualifications (المؤهلات - Qualifications)
+
+<div class='tableName'>
+
 **Table Name:** HRQualificationLine, **Join Column:** hRCandidate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

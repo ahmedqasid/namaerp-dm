@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMTicketExecution
+</div>
+
 **Arabic:** تنفيذ طلب دعم -  تنفيذ طلب دعم
 **English:** Ticket Execution -  Ticket Execution
 
@@ -1054,7 +1060,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CRMTicketExecutionLine, **Join Column:** cRMTicketExecution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

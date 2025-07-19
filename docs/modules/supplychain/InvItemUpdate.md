@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InvItemUpdate
+</div>
+
 **Arabic:** تحديث بيانات صنف - تحديث بيانات أصناف
 **English:** Item Update - Items Update
 
@@ -913,7 +919,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ItemUpdateDimensionsDetail, **Join Column:** invItemUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

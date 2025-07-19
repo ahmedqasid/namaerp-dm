@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ReportStyle
+</div>
+
 **Arabic:** Report Style - Report Styles
 **English:** Report Style - Report Styles
 

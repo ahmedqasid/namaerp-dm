@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # GlassOrderList
+</div>
+
 **Arabic:** تشغيلة يوم - تشغيلة اليوم
 **English:** Day Order - Day Orders
 
@@ -907,7 +913,13 @@
 <div id='branches' title='branches' class='searchable'>
 
 ## branches (الفروع - Branches)
+
+<div class='tableName'>
+
 **Table Name:** OrderListBranchData, **Join Column:** glassOrderList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -980,7 +992,13 @@
 <div id='orders' title='orders' class='searchable'>
 
 ## orders (الأوامر - Orders)
+
+<div class='tableName'>
+
 **Table Name:** OrderListLine, **Join Column:** glassOrderList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PurchasePriceComparing
+</div>
+
 **Arabic:** مقارنة أسعار مشتريات - مقارنات أسعار مشتريات
 **English:** Purchase Price Comparing - Purchase Price Comparings
 
@@ -2440,7 +2446,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PurchasePriceComparingLine, **Join Column:** purchasePriceComparing_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EmpWorkPlace
+</div>
+
 **Arabic:** مكان عمل - اماكن عمل
 **English:** Employee Work Place - Employee Work Places
 

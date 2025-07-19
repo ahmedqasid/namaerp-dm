@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRHolidays
+</div>
+
 **Arabic:** عطلة رسمية - عطلات رسمية
 **English:** HR Holidays
 
@@ -814,7 +820,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HolidayLine, **Join Column:** hRHolidays_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

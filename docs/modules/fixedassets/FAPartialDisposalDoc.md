@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAPartialDisposalDoc
+</div>
+
 **Arabic:** سند تخلص جزئي من أصل - سندات تخلص جزئي من أصل
 **English:** Fixed Asset Partial Disposal Document - Fixed Asset Partial Disposal Documents
 
@@ -1018,7 +1024,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FAPartialDisposalDocLine, **Join Column:** fAPartialDisposalDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PricingRange
+</div>
+
 **Arabic:** مدى تطبيق الأسعار
 **English:** Pricing Range - Pricing Ranges
 
@@ -748,7 +754,13 @@
 <div id='excludedInvoices' title='excludedInvoices' class='searchable'>
 
 ## excludedInvoices (الفواتير المستثناة - Excluded Invoices)
+
+<div class='tableName'>
+
 **Table Name:** PricingRangeExcludedInvoiceLine, **Join Column:** pricingRange_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -923,7 +935,13 @@
 <div id='excludedItems' title='excludedItems' class='searchable'>
 
 ## excludedItems (الأصناف المستثناة - Excluded Items)
+
+<div class='tableName'>
+
 **Table Name:** PricingRangeExcludedItemLine, **Join Column:** pricingRange_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1308,7 +1326,13 @@
 <div id='includedInvoices' title='includedInvoices' class='searchable'>
 
 ## includedInvoices (الفواتير المشمولة - Included Invoices)
+
+<div class='tableName'>
+
 **Table Name:** PricingRangeIncludedInvoiceLine, **Join Column:** pricingRange_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1483,7 +1507,13 @@
 <div id='includedItems' title='includedItems' class='searchable'>
 
 ## includedItems (الأصناف المشمولة - Included Items)
+
+<div class='tableName'>
+
 **Table Name:** PricingRangeIncludedItemLine, **Join Column:** pricingRange_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

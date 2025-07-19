@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRPeriod
+</div>
+
 **Arabic:** فترة رواتب - فترات الرواتب
 **English:** HR Period - HR Periods
 

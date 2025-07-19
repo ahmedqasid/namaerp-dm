@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAComponentType
+</div>
+
 **Arabic:** نوع مكون أصل - أنواع مكون أصل
 **English:** Fixed Asset Component Type - Fixed Asset Component Types
 
@@ -772,7 +778,13 @@
 <div id='maintenanceTypes' title='maintenanceTypes' class='searchable'>
 
 ## maintenanceTypes (أنواع الصيانة - Maintenance Types)
+
+<div class='tableName'>
+
 **Table Name:** FAComponentMaintenanceTypeLine, **Join Column:** fAComponentType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

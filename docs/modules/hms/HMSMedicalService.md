@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSMedicalService
+</div>
+
 **Arabic:** الخدمة الطبية - الخدمات الطبية
 **English:** Medical Service - Medical Services
 
@@ -1528,7 +1534,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSMedServiceSuppliesLine, **Join Column:** hMSMedicalService_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2891,7 +2903,13 @@
 <div id='servicePriceLines' title='servicePriceLines' class='searchable'>
 
 ## servicePriceLines (أسعار نوع الخدمة في القوائم - Service Price in Lists)
+
+<div class='tableName'>
+
 **Table Name:** HMSMedicalServicePriceLine, **Join Column:** hMSMedicalService_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

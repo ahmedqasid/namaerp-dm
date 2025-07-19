@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSSavingSettings (Table Name: POSSavingSettings)
+</div>
+
 **Arabic:** إعدادات الحفظ في نقاط البيع
 **English:** POS Saving Settings
 
@@ -235,7 +241,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** POSSavingSettingsLine, **Join Column:** settings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSPricingRangeExcludedInvoiceLine (Table Name: POSPricingRangeExcludedInvoiceLine)
+</div>
+
 
 <ContentFilter/>
 

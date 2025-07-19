@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PaymentLinksCreationDoc
+</div>
+
 **Arabic:** سند إنشاء روابط دفع - مستندات إنشاء روابط دفع
 **English:** Payment Links Creation Document - Payment Links Creation Documents
 
@@ -1012,7 +1018,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PaymentLinksCreationDocDetailedLine, **Join Column:** paymentLinksCreationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1091,7 +1103,13 @@
 <div id='linksLines' title='linksLines' class='searchable'>
 
 ## linksLines (سطور روابط الدفع - Payment Links Lines)
+
+<div class='tableName'>
+
 **Table Name:** PaymentLinksCreationDocLinkLine, **Join Column:** paymentLinksCreationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

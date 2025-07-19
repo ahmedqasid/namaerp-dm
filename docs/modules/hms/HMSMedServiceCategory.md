@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSMedServiceCategory
+</div>
+
 **Arabic:** تصنيف خدمات طبية - تصنيفات الخدمات الطبية
 **English:** Medical Service Category - Medical Service Categories
 

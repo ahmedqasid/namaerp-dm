@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSItemSection (Table Name: POSItemSection)
+</div>
+
 **Arabic:** قسم صنف - أقسام أصناف
 **English:** Item Section - Item Sections
 

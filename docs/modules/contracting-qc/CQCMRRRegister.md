@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CQCMRRRegister
+</div>
+
 **Arabic:** MRR Register - MRR Registers
 **English:** MRR Register - MRR Registers
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CQCMRRRegisterLine, **Join Column:** cQCMRRRegister_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

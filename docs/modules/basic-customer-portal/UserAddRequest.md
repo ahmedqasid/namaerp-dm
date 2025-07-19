@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # UserAddRequest
+</div>
+
 **Arabic:** طلب إضافة مستخدم - طلبات إضافة مستخدم
 **English:** User Add Request - User Add Requests
 

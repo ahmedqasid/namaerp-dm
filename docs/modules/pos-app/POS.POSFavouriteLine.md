@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSFavouriteLine (Table Name: POSFavouriteLine)
+</div>
+
 
 <ContentFilter/>
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DeliveryQueue
+</div>
+
 **Arabic:** طابور تسليم - طوابير تسليم
 **English:** Delivery Queue - Delivery Queues
 

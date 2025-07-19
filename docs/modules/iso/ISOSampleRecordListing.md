@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ISOSampleRecordListing
+</div>
+
 **Arabic:** ISO Sample Record Listing - ISO Sample Record Listings
 **English:** ISO Sample Record Listing - ISO Sample Record Listings
 
@@ -934,7 +940,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** ISOSampleRecordLine, **Join Column:** iSOSampleRecordListing_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

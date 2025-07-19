@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPATimeSheetRequest
+</div>
+
 **Arabic:** طلب تنفيذ مهام - طلبات تنفيذ مهام
 **English:** Time Sheet Request - Time Sheet Requests
 
@@ -1090,7 +1096,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CPATimeSheetRequestLine, **Join Column:** cPATimeSheetRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

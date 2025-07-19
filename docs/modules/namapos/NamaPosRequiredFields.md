@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPosRequiredFields
+</div>
+
 **Arabic:** الحقول المطلوبه لنقاط البيع -  الحقول المطلوبه لنقاط البيع
 **English:** Pos Required Fields -  Pos Required Fields
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** NamaPosRequiredFieldsLine, **Join Column:** namaPosRequiredFields_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RentalAssetClassification
+</div>
+
 **Arabic:** تصنيف أصل تأجيري - تصنيفات أصول تأجيرية
 **English:** Rental Asset Classification - Rental Asset Classifications
 
@@ -784,7 +790,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RentalAssetClassLine, **Join Column:** rentalAssetClassification_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

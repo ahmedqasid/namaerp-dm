@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSItemQtyUpdateConfig
+</div>
+
 **Arabic:** إعدادات تحديث كميات الماكينة - ملفات إعدادات تحديث كميات الماكينة
 **English:** POS Item Quantity Update Configuration - POS Item Quantity Update Configurations
 
@@ -868,7 +874,13 @@
 <div id='allowedOverDraftItemsLines' title='allowedOverDraftItemsLines' class='searchable'>
 
 ## allowedOverDraftItemsLines (الأصناف المسموح بالسحب على المكشوف منها - Allowed Over Draft Items)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSItemQtyUpdateAllowedOverDraftItemsLine, **Join Column:** namaPOSItemQtyUpdateConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1406,7 +1418,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSItemQtyUpdateConfigLine, **Join Column:** namaPOSItemQtyUpdateConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

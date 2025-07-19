@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ElecAttendanceAllowedZone
+</div>
+
 **Arabic:** مستند تحديد مناطق الحضور الإلكتروني - مستندات تحديد مناطق الحضور الإلكتروني
 **English:** Electronic Attendance Allowed Zone Document - Electronic Attendance Allowed Zone Documents
 
@@ -883,7 +889,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ElectronicAttendAllowedZoneLine, **Join Column:** elecAttendanceAllowedZone_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

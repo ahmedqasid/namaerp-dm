@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FSSettingsFile
+</div>
+
 **Arabic:** إعدادات قائمة مالية - إعدادات القوائم المالية
 **English:** FS Settings File - FS Settings Files
 
@@ -940,7 +946,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** FSSettingsFileLine, **Join Column:** fSSettingsFile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

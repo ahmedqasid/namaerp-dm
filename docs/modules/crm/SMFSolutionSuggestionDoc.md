@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SMFSolutionSuggestionDoc
+</div>
+
 **Arabic:** مستند اقتراح حل - مستندات اقتراح حل
 **English:** SMF Solution Suggestion Document - SMF Solution Suggestion Documents
 
@@ -1372,7 +1378,13 @@
 <div id='solutionProposers' title='solutionProposers' class='searchable'>
 
 ## solutionProposers (أسماء مقترحي الحل - Solution Proposers)
+
+<div class='tableName'>
+
 **Table Name:** SMFSolutionSuggestionLine, **Join Column:** sMFSolutionSuggestionDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

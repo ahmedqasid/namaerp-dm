@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDStageType
+</div>
+
 **Arabic:** نوع مرحلة - أنواع المراحل
 **English:** Stage Type - Stage Types
 

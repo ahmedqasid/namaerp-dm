@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ThirdParty
+</div>
+
 **Arabic:** جهة ذات صلة - جهات ذو صلة
 **English:** Third Party - Third Parties
 

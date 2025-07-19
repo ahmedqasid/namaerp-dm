@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SMFProblemDeclarationDoc
+</div>
+
 **Arabic:** مستند التصريح بمشكلة - مستندات التصريح بمشكلة
 **English:** SMF Problem Declaration Document - SMF Problem Declaration Documents
 
@@ -1432,7 +1438,13 @@
 <div id='problemRecommendedMeasures' title='problemRecommendedMeasures' class='searchable'>
 
 ## problemRecommendedMeasures (الإجراءات الموصى بها لحل المشكلة - Problem Recommended Measures)
+
+<div class='tableName'>
+
 **Table Name:** SMFProblemDeclarationLine, **Join Column:** sMFProblemDeclarationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

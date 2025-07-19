@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Partner
+</div>
+
 **Arabic:** شريك - الشركاء
 
 <ContentFilter/>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FinancialCommitment
+</div>
+
 **Arabic:** إلتزام مالى - إلتزامات مالية
 **English:** Financial Commitment - Financial Commitments
 
@@ -1018,7 +1024,13 @@
 <div id='installments' title='installments' class='searchable'>
 
 ## installments (الاقساط - Installments)
+
+<div class='tableName'>
+
 **Table Name:** FinancialCommitmentInstallmentLine, **Join Column:** financialCommitment_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

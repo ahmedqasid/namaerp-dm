@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUP4Procedure
+</div>
+
 **Arabic:** إجراء مرحلة الإستكمال - إجراءات  مرحلة الإستكمال
 **English:** Completion Procedure - Completion Procedures
 
@@ -856,7 +862,13 @@
 <div id='p4Procedures' title='p4Procedures' class='searchable'>
 
 ## p4Procedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP4Line, **Join Column:** aUP4Procedure_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

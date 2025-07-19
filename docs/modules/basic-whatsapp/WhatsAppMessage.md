@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # WhatsAppMessage
+</div>
+
 **Arabic:** WhatsApp Message - WhatsApp Messages
 **English:** WhatsApp  Message - WhatsApp  Messages
 
@@ -880,7 +886,13 @@
 <div id='parameters' title='parameters' class='searchable'>
 
 ## parameters (المدخلات - Parameters)
+
+<div class='tableName'>
+
 **Table Name:** TemplateMessageParameterLine, **Join Column:** whatsAppMessage_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # WeightScalePrepGenerator
+</div>
+
 **Arabic:** سند إنشاء سندات تحضير الميزان - سندات إنشاء سندات تحضير الميزان
 **English:** Weight Scale Preparation Documents Generator - Weight Scale Preparation Documents Generators
 
@@ -976,7 +982,13 @@
 <div id='docsToPrepare' title='docsToPrepare' class='searchable'>
 
 ## docsToPrepare (المستندات التي سيتم تجهيزها - Documents To Prepare)
+
+<div class='tableName'>
+
 **Table Name:** WeightScalePrepGeneratorLine, **Join Column:** weightScalePrepGenerator_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1037,7 +1049,13 @@
 <div id='generatedDocs' title='generatedDocs' class='searchable'>
 
 ## generatedDocs (المستندات المنشأة - Generated Docs)
+
+<div class='tableName'>
+
 **Table Name:** WeightScalePrepGeneratorDocsLine, **Join Column:** weightScalePrepGenerator_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

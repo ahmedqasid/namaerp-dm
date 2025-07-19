@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSPaymentMethod (Table Name: POSPaymentMethod)
+</div>
+
 **Arabic:** طريقة دفع - طرق الدفع
 **English:** Payment Method - Payment Methods
 

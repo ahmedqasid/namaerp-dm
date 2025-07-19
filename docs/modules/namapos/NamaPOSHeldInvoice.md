@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSHeldInvoice
+</div>
+
 **Arabic:** فاتورة معلقة - الفواتير المعلقة
 **English:** Held Invoice - Held Invoices
 
@@ -2593,7 +2599,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSHeldInvoiceLine, **Join Column:** namaPOSHeldInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4631,7 +4643,13 @@
 <div id='removedLines' title='removedLines' class='searchable'>
 
 ## removedLines (السيارات المحذوفه - Removed Cars)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSHeldInvoiceRemovedLine, **Join Column:** namaPOSHeldInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

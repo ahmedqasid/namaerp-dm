@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUCharaterizationProcedure
+</div>
+
 **Arabic:** إجراء التوصيف - إجراءات التوصيف
 **English:** Characterization Procedure - Characterization Procedures
 
@@ -916,7 +922,13 @@
 <div id='p2CharProcedures' title='p2CharProcedures' class='searchable'>
 
 ## p2CharProcedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP2CharacterizationLine, **Join Column:** aUCharaterizationProcedure_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

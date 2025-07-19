@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvCRawMaterialIssueRequest
+</div>
+
 **Arabic:** طلب صرف قطع غيار - طلبات صرف قطع غيار
 **English:** Spare Parts Issue Request - Spare Parts Issue Requests
 
@@ -2455,7 +2461,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SrvCRawMaterialIssueReqLine, **Join Column:** srvCRawMaterialIssueRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

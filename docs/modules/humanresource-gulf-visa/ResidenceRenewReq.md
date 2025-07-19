@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ResidenceRenewReq
+</div>
+
 **Arabic:** طلب تجديد إقامة - طلبات تجديد إقامة
 **English:** Residence Renew Request - Residence Renew Requests
 

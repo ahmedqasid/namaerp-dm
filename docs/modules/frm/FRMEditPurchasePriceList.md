@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMEditPurchasePriceList
+</div>
+
 **Arabic:** تعديل قائمة أسعار مشتريات خدمة - تعديل قوائم أسعار مشتريات خدمة
 **English:** Edit Purchase Price List - Edit Purchase Price Lists
 
@@ -967,7 +973,13 @@
 <div id='editPPLDetails' title='editPPLDetails' class='searchable'>
 
 ## editPPLDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** FRMEditPPriceListLine, **Join Column:** fRMEditPurchasePriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

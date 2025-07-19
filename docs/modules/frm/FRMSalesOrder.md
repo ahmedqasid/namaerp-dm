@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMSalesOrder
+</div>
+
 **Arabic:** أمر بيع خدمة - أوامر بيع خدمات
 **English:** FRM Sales Order - FRM Sales Orders
 
@@ -1534,7 +1540,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMSalesOrderLine, **Join Column:** fRMSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2393,7 +2405,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** FRMSalesOrdExternalPayment, **Join Column:** fRMSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2544,7 +2562,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** FRMSalesOrderPaymentLine, **Join Column:** fRMSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

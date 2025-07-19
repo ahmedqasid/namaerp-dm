@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ScreenModifier
+</div>
+
 **Arabic:** تعديل شاشة - تعديل الشاشات
 **English:** Screen Modifier - Screen Modifiers
 
@@ -1186,7 +1192,13 @@
 <div id='actionLines' title='actionLines' class='searchable'>
 
 ## actionLines (صلاحيات الإجراءات - Action Authorities)
+
+<div class='tableName'>
+
 **Table Name:** ScreenActionLine, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1637,7 +1649,13 @@
 <div id='addedGrids' title='addedGrids' class='searchable'>
 
 ## addedGrids (إضافة مجموعة سطور - Add Grids)
+
+<div class='tableName'>
+
 **Table Name:** ScreenGridAdder, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1779,7 +1797,13 @@
 <div id='addedGroups' title='addedGroups' class='searchable'>
 
 ## addedGroups (إضافة مجموعة - Add Groups)
+
+<div class='tableName'>
+
 **Table Name:** ScreenGroupAdder, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1912,7 +1936,13 @@
 <div id='compositeLines' title='compositeLines' class='searchable'>
 
 ## compositeLines (المعادلات - Formulas)
+
+<div class='tableName'>
+
 **Table Name:** CompositeFieldLine, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2333,7 +2363,13 @@
 <div id='criteriaFields' title='criteriaFields' class='searchable'>
 
 ## criteriaFields ( - )
+
+<div class='tableName'>
+
 **Table Name:** CriteriaFieldModifier, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2385,7 +2421,13 @@
 <div id='displayColumns' title='displayColumns' class='searchable'>
 
 ## displayColumns ( - )
+
+<div class='tableName'>
+
 **Table Name:** DisplayColumnModifier, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2500,7 +2542,13 @@
 <div id='embeddedEditLines' title='embeddedEditLines' class='searchable'>
 
 ## embeddedEditLines (تعديل السجلات المدمج - Embedded Records Editor)
+
+<div class='tableName'>
+
 **Table Name:** ScreenLayoutEmbeddedEditLine, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2681,7 +2729,13 @@
 <div id='fillFieldsFromColumn' title='fillFieldsFromColumn' class='searchable'>
 
 ## fillFieldsFromColumn (ملء حقول من عمود - Fill Fields From Column)
+
+<div class='tableName'>
+
 **Table Name:** ScreenFillFields, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2763,7 +2817,13 @@
 <div id='modifiedGrids' title='modifiedGrids' class='searchable'>
 
 ## modifiedGrids (تعديل حقول السطور - Modified Grid Fields)
+
+<div class='tableName'>
+
 **Table Name:** ScreenGridModifier, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2905,7 +2965,13 @@
 <div id='modifiedGroups' title='modifiedGroups' class='searchable'>
 
 ## modifiedGroups (تعديل حقول المجموعات - Modified Group Fields)
+
+<div class='tableName'>
+
 **Table Name:** ScreenGroupModifier, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3038,7 +3104,13 @@
 <div id='pageBlocks' title='pageBlocks' class='searchable'>
 
 ## pageBlocks ( - )
+
+<div class='tableName'>
+
 **Table Name:** ScreenBlockModifier, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3162,7 +3234,13 @@
 <div id='pageDashBoards' title='pageDashBoards' class='searchable'>
 
 ## pageDashBoards ( - )
+
+<div class='tableName'>
+
 **Table Name:** PageDashBoardLine, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3514,7 +3592,13 @@
 <div id='pageLines' title='pageLines' class='searchable'>
 
 ## pageLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** AddPageLine, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3602,7 +3686,13 @@
 <div id='pageReports' title='pageReports' class='searchable'>
 
 ## pageReports ( - )
+
+<div class='tableName'>
+
 **Table Name:** PageReportLine, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3963,7 +4053,13 @@
 <div id='removedActions' title='removedActions' class='searchable'>
 
 ## removedActions (الاجراءات المحذوفة - Removed Actions)
+
+<div class='tableName'>
+
 **Table Name:** ScreenActionRemover, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4015,7 +4111,13 @@
 <div id='removedFields' title='removedFields' class='searchable'>
 
 ## removedFields (الحقول المحذوفة - Removed Fields)
+
+<div class='tableName'>
+
 **Table Name:** ScreenFieldRemover, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4067,7 +4169,13 @@
 <div id='removedPages' title='removedPages' class='searchable'>
 
 ## removedPages (الصفحات المحذوفة - Removed Pages)
+
+<div class='tableName'>
+
 **Table Name:** ScreenPageRemover, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4110,7 +4218,13 @@
 <div id='searchCriteriaFields' title='searchCriteriaFields' class='searchable'>
 
 ## searchCriteriaFields ( - )
+
+<div class='tableName'>
+
 **Table Name:** ScreenSearchCriteriaFields, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4162,7 +4276,13 @@
 <div id='searchDisplayColumns' title='searchDisplayColumns' class='searchable'>
 
 ## searchDisplayColumns ( - )
+
+<div class='tableName'>
+
 **Table Name:** ScreenSearchDisplayColumns, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4277,7 +4397,13 @@
 <div id='searchForFields' title='searchForFields' class='searchable'>
 
 ## searchForFields (حقول البحث (تستعمل لحقل البحث عن) - Criteria Fields (Used For Search For ))
+
+<div class='tableName'>
+
 **Table Name:** ScreenSearchForFields, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4329,7 +4455,13 @@
 <div id='searchSortFields' title='searchSortFields' class='searchable'>
 
 ## searchSortFields ( - )
+
+<div class='tableName'>
+
 **Table Name:** ScreenSearchSortFields, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4381,7 +4513,13 @@
 <div id='searcherTemplateColumns' title='searcherTemplateColumns' class='searchable'>
 
 ## searcherTemplateColumns (الاعمدة المحسوبة لقائمة البحث - Searcher Template Columns)
+
+<div class='tableName'>
+
 **Table Name:** SearcherTemplateModifier, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4523,7 +4661,13 @@
 <div id='sortFields' title='sortFields' class='searchable'>
 
 ## sortFields (حقول الترتيب - Sort Fields)
+
+<div class='tableName'>
+
 **Table Name:** SortColumnModifier, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4575,7 +4719,13 @@
 <div id='templateColumns' title='templateColumns' class='searchable'>
 
 ## templateColumns (الاعمدة المحسوبة - Template Columns)
+
+<div class='tableName'>
+
 **Table Name:** TemplateColumnModifier, **Join Column:** screenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

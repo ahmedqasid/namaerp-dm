@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REExemptionDoc
+</div>
+
 **Arabic:** سند إعفاء إيجار - سندات إعفاء إيجار
 **English:** Exemption Document - Exemption Documents
 
@@ -1423,7 +1429,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** REExemptionDocLine, **Join Column:** rEExemptionDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

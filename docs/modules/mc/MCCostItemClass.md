@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MCCostItemClass
+</div>
+
 **Arabic:** نوع بند التكاليف - أنواع بند التكاليف
 **English:** MC Cost Item Class - MC Cost Item Classs
 

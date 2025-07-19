@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSBloodBankInvoice
+</div>
+
 **Arabic:** فاتورة بنك الدم - فواتير بنوك الدم
 **English:** Blood Bank Invoice - Blood Bank Invoices
 
@@ -2323,7 +2329,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSBloodBankInvoiceLine, **Join Column:** hMSBloodBankInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3716,7 +3728,13 @@
 <div id='overheadItems' title='overheadItems' class='searchable'>
 
 ## overheadItems (بنود تكلفة طبية غير مباشرة - Overhead Items)
+
+<div class='tableName'>
+
 **Table Name:** HMSBloodBankInvoiceOverheadItem, **Join Column:** hMSBloodBankInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3798,7 +3816,13 @@
 <div id='serviceLines' title='serviceLines' class='searchable'>
 
 ## serviceLines (تفاصيل الخدمات الطبية - Medical Service Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSBloodBankServiceInvLine, **Join Column:** hMSBloodBankInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

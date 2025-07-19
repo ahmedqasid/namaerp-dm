@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDGuardian
+</div>
+
 **Arabic:** ولى أمر - أولياء الامور
 **English:** Guardian - Guardians
 
@@ -1471,7 +1477,13 @@
 <div id='guardians' title='guardians' class='searchable'>
 
 ## guardians ( - )
+
+<div class='tableName'>
+
 **Table Name:** EDGuardianLine, **Join Column:** eDGuardian_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

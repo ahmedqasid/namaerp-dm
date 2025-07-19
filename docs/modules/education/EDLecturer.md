@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDLecturer
+</div>
+
 **Arabic:** المحاضر - المحاضرين
 **English:** Lecturer - Lecturers
 

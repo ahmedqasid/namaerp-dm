@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PostSalesOfferConfig
+</div>
+
 **Arabic:** إعدادات عروض ما بعد البيع -  إعدادات عروض ما بعد البيع
 **English:** Post Sales Offer Configuration - Post Sales Offer Configurations
 
@@ -784,7 +790,13 @@
 <div id='applicableInvoicesLines' title='applicableInvoicesLines' class='searchable'>
 
 ## applicableInvoicesLines (يطبق على - Applicable Invoices)
+
+<div class='tableName'>
+
 **Table Name:** PostSalesOfferConfigApplicableInvsLine, **Join Column:** postSalesOfferConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -827,7 +839,13 @@
 <div id='excludedInvoices' title='excludedInvoices' class='searchable'>
 
 ## excludedInvoices (الفواتير المستثناة - Excluded Invoices)
+
+<div class='tableName'>
+
 **Table Name:** PostSalesOfferConfigExcludedInvsLine, **Join Column:** postSalesOfferConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

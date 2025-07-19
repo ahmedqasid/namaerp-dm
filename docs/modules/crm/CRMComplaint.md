@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMComplaint
+</div>
+
 **Arabic:** شكوي - إقتراح -  شكوي - إقتراح
 **English:** Complaint - Suggestion -  Complaint - Suggestion
 
@@ -1600,7 +1606,13 @@
 <div id='followUpLines' title='followUpLines' class='searchable'>
 
 ## followUpLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CRMComplainFollowUpLine, **Join Column:** cRMComplaint_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1664,7 +1676,13 @@
 <div id='problemLines' title='problemLines' class='searchable'>
 
 ## problemLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CRMComplainCommonProblemLine, **Join Column:** cRMComplaint_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

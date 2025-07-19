@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DeliveryCancellationDoc
+</div>
+
 **Arabic:** سند إلغاء توصيل - سندات إلغاء توصيل
 **English:** Delivery Cancellation Document - Delivery Cancellation Documents
 
@@ -2428,7 +2434,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DeliveryCancellationLine, **Join Column:** deliveryCancellationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

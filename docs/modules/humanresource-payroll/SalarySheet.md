@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalarySheet
+</div>
+
 **Arabic:** سجل الرواتب - سجـلات الرواتب
 **English:** Salary Sheet - Salary Sheets
 
@@ -1510,7 +1516,13 @@
 <div id='salarySheetLines' title='salarySheetLines' class='searchable'>
 
 ## salarySheetLines (السجلات -  Salary Sheet Lines)
+
+<div class='tableName'>
+
 **Table Name:** SalarySheetLine, **Join Column:** salarySheet_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

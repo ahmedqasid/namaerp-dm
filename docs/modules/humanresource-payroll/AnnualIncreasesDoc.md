@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AnnualIncreasesDoc
+</div>
+
 **Arabic:** مستند الزياده السنوية - مستندات الزياده السنوية
 **English:** Annual Increases Document - Annual Increases Documents
 
@@ -1294,7 +1300,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AnnualIncreasesLine, **Join Column:** annualIncreasesDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1370,7 +1382,13 @@
 <div id='employeeLines' title='employeeLines' class='searchable'>
 
 ## employeeLines (سطور الموظفين - Employees Lines)
+
+<div class='tableName'>
+
 **Table Name:** AnnualIncreaseEmployeeLine, **Join Column:** annualIncreasesDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1812,7 +1830,13 @@
 <div id='exceptions' title='exceptions' class='searchable'>
 
 ## exceptions (الإستثناءات - Exceptions)
+
+<div class='tableName'>
+
 **Table Name:** AnnualIncreaseExceptionLine, **Join Column:** annualIncreasesDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

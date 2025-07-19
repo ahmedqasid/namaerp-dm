@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalesPriceList
+</div>
+
 **Arabic:** قائمة أسعار - قوائم أسعار المبيعات
 **English:** Price List - Price Lists
 
@@ -1789,7 +1795,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SalesPriceListLine, **Join Column:** salesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

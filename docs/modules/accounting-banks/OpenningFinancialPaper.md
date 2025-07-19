@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # OpenningFinancialPaper
+</div>
+
 **Arabic:** إفتتاح ورقة تجارية -  إفتتاح ورقة تجارية
 **English:** Openning Commercial Paper -  Openning Commercial Paper
 
@@ -937,7 +943,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** OpenningFinancialPaperLine, **Join Column:** openningFinancialPaper_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

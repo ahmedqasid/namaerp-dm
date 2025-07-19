@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.PosMinCharge (Table Name: PosMinCharge)
+</div>
+
 **Arabic:** إعدادات الحد الأدنى للطلب في نقاط البيع -  إعدادات الحد الأدنى للطلب في نقاط البيع
 **English:** Pos Minimum Charge Settings -  Pos Minimum Charge Settings
 
@@ -253,7 +259,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PosMinChargeLine, **Join Column:** minCharge_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

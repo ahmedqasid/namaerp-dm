@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RECancelContractReq
+</div>
+
 **Arabic:** طلب فسخ تعاقد - طلبات فسخ تعاقد
 **English:** Cancel Contract Request - Cancel Contract Requests
 

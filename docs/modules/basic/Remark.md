@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Remark
+</div>
+
 **Arabic:** ملاحظة - الملاحظات
 
 <ContentFilter/>
@@ -2136,7 +2142,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RemarkLine, **Join Column:** remark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3265,7 +3277,13 @@
 <div id='details10' title='details10' class='searchable'>
 
 ## details10 ( - )
+
+<div class='tableName'>
+
 **Table Name:** RemarkLine10, **Join Column:** remark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4394,7 +4412,13 @@
 <div id='details2' title='details2' class='searchable'>
 
 ## details2 ( - )
+
+<div class='tableName'>
+
 **Table Name:** RemarkLine2, **Join Column:** remark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5523,7 +5547,13 @@
 <div id='details3' title='details3' class='searchable'>
 
 ## details3 ( - )
+
+<div class='tableName'>
+
 **Table Name:** RemarkLine3, **Join Column:** remark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -6652,7 +6682,13 @@
 <div id='details4' title='details4' class='searchable'>
 
 ## details4 ( - )
+
+<div class='tableName'>
+
 **Table Name:** RemarkLine4, **Join Column:** remark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -7781,7 +7817,13 @@
 <div id='details5' title='details5' class='searchable'>
 
 ## details5 ( - )
+
+<div class='tableName'>
+
 **Table Name:** RemarkLine5, **Join Column:** remark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -8910,7 +8952,13 @@
 <div id='details6' title='details6' class='searchable'>
 
 ## details6 ( - )
+
+<div class='tableName'>
+
 **Table Name:** RemarkLine6, **Join Column:** remark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -10039,7 +10087,13 @@
 <div id='details7' title='details7' class='searchable'>
 
 ## details7 ( - )
+
+<div class='tableName'>
+
 **Table Name:** RemarkLine7, **Join Column:** remark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -11168,7 +11222,13 @@
 <div id='details8' title='details8' class='searchable'>
 
 ## details8 ( - )
+
+<div class='tableName'>
+
 **Table Name:** RemarkLine8, **Join Column:** remark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -12297,7 +12357,13 @@
 <div id='details9' title='details9' class='searchable'>
 
 ## details9 ( - )
+
+<div class='tableName'>
+
 **Table Name:** RemarkLine9, **Join Column:** remark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JOOperationsExecution
+</div>
+
 **Arabic:** تنفيذ تشغيلات زجاج جديد - تنفيذات تشغيلات زجاج جديد
 **English:** New Glass Operations Execution - New Glass Operations Executions
 
@@ -931,7 +937,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** JOOperationsExecutionLine, **Join Column:** jOOperationsExecution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

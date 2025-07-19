@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMOODelivery
+</div>
+
 **Arabic:** مستند تسليم أمر تشغيل - مستندات تسليم أوامر تشغيل
 **English:** FRM Operation Order Delivery - FRM Operation Order Deliveries
 
@@ -946,7 +952,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMOODeliveryLine, **Join Column:** fRMOODelivery_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

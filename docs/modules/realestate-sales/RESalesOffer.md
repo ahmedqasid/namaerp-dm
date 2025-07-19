@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RESalesOffer
+</div>
+
 **Arabic:** عرض سعر بيع - عروض أسعار بيع
 **English:** RE Sales offer - RE Sales offers
 
@@ -1732,7 +1738,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RESalesOfferLine, **Join Column:** rESalesOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2435,7 +2447,13 @@
 <div id='installmentInfoLines' title='installmentInfoLines' class='searchable'>
 
 ## installmentInfoLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** RESalesOfferInsInfoLine, **Join Column:** rESalesOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2784,7 +2802,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** RESalesOfferTermsConditions, **Join Column:** rESalesOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2836,7 +2860,13 @@
 <div id='termLines' title='termLines' class='searchable'>
 
 ## termLines (الينود القياسيه - Standard Terms)
+
+<div class='tableName'>
+
 **Table Name:** RESalesOffStandardTermLine, **Join Column:** rESalesOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

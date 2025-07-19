@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPAProjectSubType
+</div>
+
 **Arabic:** نوع مشروع فرعى - أنواع المشاريع الفرعية
 **English:** Projects Sub Types
 

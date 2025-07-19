@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DepartmentSection
+</div>
+
 **Arabic:**  القسم الوظيفي - الأقسام الوظيفية
 **English:**  Department Section - Department Sections
 

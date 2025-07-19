@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LetterOfCredit
+</div>
+
 **Arabic:** الإعتماد المستندي - الإعتمادات المستندية
 **English:** Letter Of Credit - Letter Of Credits
 
@@ -1435,7 +1441,13 @@
 <div id='shipments' title='shipments' class='searchable'>
 
 ## shipments (الشحنــات - Shipments)
+
+<div class='tableName'>
+
 **Table Name:** LCShipmentLine, **Join Column:** letterOfCredit_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

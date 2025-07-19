@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DashBoardWidget
+</div>
+
 **Arabic:** عنصر اللوحة - عناصر اللوحة
 **English:** DashBoard Widget - DashBoard Widgets
 
@@ -1216,7 +1222,13 @@
 <div id='cardMenus' title='cardMenus' class='searchable'>
 
 ## cardMenus (قائمة بطاقات - Cards Menu)
+
+<div class='tableName'>
+
 **Table Name:** DashboardWidgetCardMenu, **Join Column:** dashBoardWidget_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1367,7 +1379,13 @@
 <div id='extraTempoColumns' title='extraTempoColumns' class='searchable'>
 
 ## extraTempoColumns (Extra Tempo Columns - Extra Tempo Columns)
+
+<div class='tableName'>
+
 **Table Name:** DashboardWidgetFieldTempo, **Join Column:** dashBoardWidget_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1419,7 +1437,13 @@
 <div id='inputs' title='inputs' class='searchable'>
 
 ## inputs (المدخلات - Inputs)
+
+<div class='tableName'>
+
 **Table Name:** DashboardWidgetInput, **Join Column:** dashBoardWidget_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1561,7 +1585,13 @@
 <div id='params' title='params' class='searchable'>
 
 ## params (Parameters - Parameters)
+
+<div class='tableName'>
+
 **Table Name:** WidgetParameterLine, **Join Column:** dashBoardWidget_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

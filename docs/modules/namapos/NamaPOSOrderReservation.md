@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSOrderReservation
+</div>
+
 **Arabic:** سند حجز اوردر نقاط بيع -  سند حجز اوردر نقاط بيع
 **English:** POS Order Reservation -  POS Order Reservation
 
@@ -2590,7 +2596,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSReservationLine, **Join Column:** namaPOSOrderReservation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4616,7 +4628,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSReservationExternalPayLine, **Join Column:** namaPOSOrderReservation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4776,7 +4794,13 @@
 <div id='payments' title='payments' class='searchable'>
 
 ## payments (تفاصيل الدفع - Payments)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSReservationPaymentLine, **Join Column:** namaPOSOrderReservation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

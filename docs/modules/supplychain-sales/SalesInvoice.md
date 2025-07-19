@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalesInvoice
+</div>
+
 **Arabic:** فاتورة مبيعات - فواتير مبيعات
 **English:** Sales Invoice - Sales Invoices
 
@@ -2485,7 +2491,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SalesInvoiceLine, **Join Column:** salesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4445,7 +4457,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SalesExternalPaymentLine, **Join Column:** salesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4596,7 +4614,13 @@
 <div id='generatedDocs' title='generatedDocs' class='searchable'>
 
 ## generatedDocs (المستندات المنشأة - Generated Docs)
+
+<div class='tableName'>
+
 **Table Name:** SInvGeneratedDocsLine, **Join Column:** salesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4639,7 +4663,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SalesPaymentLine, **Join Column:** salesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4949,7 +4979,13 @@
 <div id='pickLines' title='pickLines' class='searchable'>
 
 ## pickLines (السحب - Pick Lines)
+
+<div class='tableName'>
+
 **Table Name:** PickListLine, **Join Column:** salesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5481,7 +5517,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** SalesInvScheduledPayLine, **Join Column:** salesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5746,7 +5788,13 @@
 <div id='stockDocs' title='stockDocs' class='searchable'>
 
 ## stockDocs (السندات المخزنية - Stock Documents)
+
+<div class='tableName'>
+
 **Table Name:** SalesInvoiceIssue, **Join Column:** salesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5864,7 +5912,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** SalesInvoiceStandTermsLine, **Join Column:** salesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPAProjectInvoice
+</div>
+
 **Arabic:** فاتورة المشروع - فواتير المشروع
 **English:** Project Invoice - Project Invoices
 
@@ -1108,7 +1114,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CPAProjInvoiceLine, **Join Column:** cPAProjectInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1664,7 +1676,13 @@
 <div id='executions' title='executions' class='searchable'>
 
 ## executions (التنفيذات - Executions)
+
+<div class='tableName'>
+
 **Table Name:** CPAProjectInvoiceExecutionLine, **Join Column:** cPAProjectInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1803,7 +1821,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** CPAProjInvExternalPayment, **Join Column:** cPAProjectInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1918,7 +1942,13 @@
 <div id='invSrcLinesIdRef' title='invSrcLinesIdRef' class='searchable'>
 
 ## invSrcLinesIdRef ( - )
+
+<div class='tableName'>
+
 **Table Name:** InvApprTimeSRCLineIDRef, **Join Column:** cPAProjectInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

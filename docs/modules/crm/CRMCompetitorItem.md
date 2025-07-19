@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMCompetitorItem
+</div>
+
 **Arabic:** صنف شركة منافسة - أصناف شركة منافسة
 **English:** Competitor Company Item - Competitors Companies Items
 
@@ -769,7 +775,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (الأصناف المقابلة للصنف المنافس - Items corresponding to competitor Item)
+
+<div class='tableName'>
+
 **Table Name:** CRMCompetitorItemLine, **Join Column:** cRMCompetitorItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

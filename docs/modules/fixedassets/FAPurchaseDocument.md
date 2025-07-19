@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAPurchaseDocument
+</div>
+
 **Arabic:** سند شراء أصل ثابت - شراء أصول
 **English:** Fixed Asset Purchase Document - Fixed Asset Purchase Documents
 
@@ -1708,7 +1714,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FAPurchaseLine, **Join Column:** fAPurchaseDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2837,7 +2849,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** FAPurchasExternalPaymentLine, **Join Column:** fAPurchaseDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2943,7 +2961,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** FAPurchaseScheduledPayLine, **Join Column:** fAPurchaseDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

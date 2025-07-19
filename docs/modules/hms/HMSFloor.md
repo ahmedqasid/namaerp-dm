@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSFloor
+</div>
+
 **Arabic:** طابق مستشفى - طوابق مستشفى
 **English:** HMS Floor - HMS Floors
 

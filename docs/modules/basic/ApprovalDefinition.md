@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ApprovalDefinition
+</div>
+
 **Arabic:** تعريف موافقه - تعريف موافقات
 **English:** Approval Definition - Approval Definitions
 
@@ -1294,7 +1300,13 @@
 <div id='criticalFields' title='criticalFields' class='searchable'>
 
 ## criticalFields (عندما تتغير الحقول الاتية - Critical Fields)
+
+<div class='tableName'>
+
 **Table Name:** ApprovalCriticalField, **Join Column:** approvalDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1337,7 +1349,13 @@
 <div id='inputs' title='inputs' class='searchable'>
 
 ## inputs (المدخلات - Inputs)
+
+<div class='tableName'>
+
 **Table Name:** ApprovalDefinition_inputs, **Join Column:** ApprovalDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1416,7 +1434,13 @@
 <div id='rules' title='rules' class='searchable'>
 
 ## rules (القواعد الواجب توافرها - Rules)
+
+<div class='tableName'>
+
 **Table Name:** ApprovalDefinition_rules, **Join Column:** ApprovalDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1459,7 +1483,13 @@
 <div id='selectors' title='selectors' class='searchable'>
 
 ## selectors ( - )
+
+<div class='tableName'>
+
 **Table Name:** ApprovalDefinition_selectors, **Join Column:** ApprovalDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1532,7 +1562,13 @@
 <div id='stepRespnsible' title='stepRespnsible' class='searchable'>
 
 ## stepRespnsible (المسئولين بمعايير - Steps Responsible)
+
+<div class='tableName'>
+
 **Table Name:** AppDefStepResponsible, **Join Column:** ApprovalDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1659,7 +1695,13 @@
 <div id='steps' title='steps' class='searchable'>
 
 ## steps (الخطوات - Steps)
+
+<div class='tableName'>
+
 **Table Name:** ApprovalDefinition_steps, **Join Column:** ApprovalDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

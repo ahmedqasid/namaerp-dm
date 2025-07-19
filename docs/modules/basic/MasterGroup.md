@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MasterGroup
+</div>
+
 **Arabic:** مجموعة - مجموعات
 **English:** Group - Groups
 
@@ -1459,7 +1465,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MasterGroupEncodingLine, **Join Column:** masterGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSLegalEntity (Table Name: POSLegalEntity)
+</div>
+
 **Arabic:** شركة - شركات
 **English:** Legal Entity - Legal Entities
 

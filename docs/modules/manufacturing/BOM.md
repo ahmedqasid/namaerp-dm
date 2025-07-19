@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BOM
+</div>
+
 **Arabic:** مكونات منتج -  مكونات منتج
 **English:**  BOM
 
@@ -1006,7 +1012,13 @@
 <div id='coProducts' title='coProducts' class='searchable'>
 
 ## coProducts (المنتجات الثانوية - Co Products)
+
+<div class='tableName'>
+
 **Table Name:** BOMCoProductLine, **Join Column:** bOM_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1613,7 +1625,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** BOMMaterialLine, **Join Column:** bOM_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

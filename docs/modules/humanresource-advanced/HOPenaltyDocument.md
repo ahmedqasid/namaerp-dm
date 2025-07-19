@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOPenaltyDocument
+</div>
+
 **Arabic:** سند مخالفة - سندات مخالفات
 **English:** Penalty Document - Penalty Documents
 
@@ -928,7 +934,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PenaltyDocumentLine, **Join Column:** hOPenaltyDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

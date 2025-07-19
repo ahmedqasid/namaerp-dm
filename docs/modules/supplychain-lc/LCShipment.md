@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LCShipment
+</div>
+
 **Arabic:** شحنة - الشحنات
 **English:** Shipment - Shipments
 
@@ -940,7 +946,13 @@
 <div id='shipmentLines' title='shipmentLines' class='searchable'>
 
 ## shipmentLines (الشحنات - Shipment Lines)
+
+<div class='tableName'>
+
 **Table Name:** ShipmentLine, **Join Column:** lCShipment_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

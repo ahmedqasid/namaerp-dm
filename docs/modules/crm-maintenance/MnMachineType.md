@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnMachineType
+</div>
+
 **Arabic:** نوع آلة - أنواع ألآت
 **English:** Machine Type - Machine Types
 
@@ -856,7 +862,13 @@
 <div id='spareParts' title='spareParts' class='searchable'>
 
 ## spareParts (قطع الغيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnMachineTypeSparePartsLine, **Join Column:** mnMachineType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CriteriaBasedValidator
+</div>
+
 **Arabic:** تحقق بناءا على معايير -  تحقق بناءا على معايير
 **English:** Criteria Based Validator - Criteria Based Validators
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PerformanceIndicator
+</div>
+
 **Arabic:** مؤشر الأداء - مؤشرات الأداء
 **English:** Performance Indicator - Performance Indicators
 
@@ -931,7 +937,13 @@
 <div id='types' title='types' class='searchable'>
 
 ## types ( - )
+
+<div class='tableName'>
+
 **Table Name:** PerformanceIndicatorLine, **Join Column:** performanceIndicator_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

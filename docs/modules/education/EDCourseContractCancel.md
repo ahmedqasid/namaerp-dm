@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDCourseContractCancel
+</div>
+
 **Arabic:** إلغاء عقد دورة تدريبية - إلغاء عقود دورات تدريبية
 **English:** Course Contract Cancel - Courses Contracts Cancel
 
@@ -1327,7 +1333,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** EDCourseCancellingLine, **Join Column:** eDCourseContractCancel_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2147,7 +2159,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** EDCourseCancelPaymentLine, **Join Column:** eDCourseContractCancel_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2457,7 +2475,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** EDCourCancelScheduledPayLine, **Join Column:** eDCourseContractCancel_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

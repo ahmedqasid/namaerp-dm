@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggFiringRequest
+</div>
+
 **Arabic:** طلب إنهاء خدمة مجمعة - طلبات إنهاء خدمة مجمعة
 **English:** Aggregated Firing Request - Aggregated Firing Requests
 
@@ -952,7 +958,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggFiringRequestLine, **Join Column:** aggFiringRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

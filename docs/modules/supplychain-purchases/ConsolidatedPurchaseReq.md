@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ConsolidatedPurchaseReq
+</div>
+
 **Arabic:** طلب شراء مجمع - طلبات الشراء المجمعة
 **English:** Consolidated Purchase Request - Consolidated Purchase Requests
 
@@ -2632,7 +2638,13 @@
 <div id='conRequests' title='conRequests' class='searchable'>
 
 ## conRequests ( - )
+
+<div class='tableName'>
+
 **Table Name:** ConRequests, **Join Column:** consolidatedPurchaseReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2723,7 +2735,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ConReqPurchaseLine, **Join Column:** consolidatedPurchaseReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4413,7 +4431,13 @@
 <div id='requestsLines' title='requestsLines' class='searchable'>
 
 ## requestsLines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** ConReqLine, **Join Column:** consolidatedPurchaseReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5929,7 +5953,13 @@
 <div id='supplierLines' title='supplierLines' class='searchable'>
 
 ## supplierLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** ConReqSupplierLine, **Join Column:** consolidatedPurchaseReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

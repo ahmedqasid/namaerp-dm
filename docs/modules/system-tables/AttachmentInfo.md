@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AttachmentInfo
+</div>
+
 **Arabic:** كل المرفقات بالنظام
 **English:** All Attachments In System
 

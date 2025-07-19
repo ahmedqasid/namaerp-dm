@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSLabTestType
+</div>
+
 **Arabic:** نوع تحليل طبي - أنواع التحاليل الطبية
 **English:** Laboratory Test Type - Laboratory Test Types
 
@@ -1126,7 +1132,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSLabTestTypeSuppliesLine, **Join Column:** hMSLabTestType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2489,7 +2501,13 @@
 <div id='labPriceLines' title='labPriceLines' class='searchable'>
 
 ## labPriceLines (أسعار نوع التحليل في القوائم - Lab Price in Lists)
+
+<div class='tableName'>
+
 **Table Name:** HMSLabTestTypePriceLine, **Join Column:** hMSLabTestType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2805,7 +2823,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSLabTestTypeLine, **Join Column:** hMSLabTestType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2938,7 +2962,13 @@
 <div id='serviceLines' title='serviceLines' class='searchable'>
 
 ## serviceLines (تفاصيل الخدمات الطبية - Medical Service Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSLabTestTypeServiceLine, **Join Column:** hMSLabTestType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

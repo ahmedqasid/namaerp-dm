@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ExecutiveBudgetItemRequest
+</div>
+
 **Arabic:** طلب شراء خامات من الموازنة التنفيذية - طلبات شراء خامات من الموازنة التنفيذية
 **English:** Executive Budget Item Request - Executive Budget Item Requests
 
@@ -2458,7 +2464,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ExecutiveBudgetItemReqLine, **Join Column:** executiveBudgetItemRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4136,7 +4148,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** ExecBudgetItemReqSchedPayLine, **Join Column:** executiveBudgetItemRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

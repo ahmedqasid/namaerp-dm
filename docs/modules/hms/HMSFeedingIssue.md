@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSFeedingIssue
+</div>
+
 **Arabic:** صرف تغذية - صرف تغذيات
 **English:** Feeding Issue - Feeding Issues
 
@@ -1330,7 +1336,13 @@
 <div id='admissionLines' title='admissionLines' class='searchable'>
 
 ## admissionLines (تفاصيل إستمارة الدخول - Patient Admission Lines)
+
+<div class='tableName'>
+
 **Table Name:** HMSFeedingIssueAdmissionLine, **Join Column:** hMSFeedingIssue_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1472,7 +1484,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSFeedingIssueLine, **Join Column:** hMSFeedingIssue_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

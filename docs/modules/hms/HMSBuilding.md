@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSBuilding
+</div>
+
 **Arabic:** مبنى مستشفى - مبانى مستشفى
 **English:** HMS Building - HMS Buildings
 

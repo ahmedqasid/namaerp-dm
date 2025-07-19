@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POSServiceChargeSettings
+</div>
+
 **Arabic:** إعدادات الخدمة السياحية في نقاط البيع -  إعدادات الخدمة السياحية في نقاط البيع
 **English:** POS Service Charge Settings -  POS Service Charge Settings
 
@@ -778,7 +784,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSServiceChargeLine, **Join Column:** pOSServiceChargeSettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

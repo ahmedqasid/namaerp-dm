@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractingPhasesGroup
+</div>
+
 **Arabic:** مجموعة مراحل
 **English:** Phases Group - Phases Groups
 
@@ -748,7 +754,13 @@
 <div id='phases' title='phases' class='searchable'>
 
 ## phases (المراحل - Phases or Cycles)
+
+<div class='tableName'>
+
 **Table Name:** PhaseGroupLine, **Join Column:** contractingPhasesGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

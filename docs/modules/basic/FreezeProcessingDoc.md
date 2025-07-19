@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FreezeProcessingDoc
+</div>
+
 **Arabic:** Freeze Processing Document - Freeze Processing Documents
 **English:** Freeze Processing Document - Freeze Processing Documents
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUIndependency
+</div>
+
 **Arabic:** نموذج الإستقلالية - نماذج الإستقلالية
 **English:** Independency Model - Independency Models
 
@@ -868,7 +874,13 @@
 <div id='inds' title='inds' class='searchable'>
 
 ## inds ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUIndependencyLine, **Join Column:** aUIndependency_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

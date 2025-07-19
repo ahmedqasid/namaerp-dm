@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSDeliveryRequest
+</div>
+
 **Arabic:** طلب توصيل - طلبات توصيل
 **English:** IPS Delivery Request - IPS Delivery Requests
 
@@ -1570,7 +1576,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** IPSDeliveryRequestLine, **Join Column:** iPSDeliveryRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2435,7 +2447,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** IPSRequestExternalPaymentLine, **Join Column:** iPSDeliveryRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2586,7 +2604,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** IPSDeliveryRequestPaymentLine, **Join Column:** iPSDeliveryRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

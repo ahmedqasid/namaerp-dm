@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractTemplate
+</div>
+
 **Arabic:** نموذج عقد مقاولات - نماذج عقود مقاولات
 **English:** Contract Template - Contract Templates
 
@@ -775,7 +781,13 @@
 <div id='conditions' title='conditions' class='searchable'>
 
 ## conditions (الشروط - Conditions)
+
+<div class='tableName'>
+
 **Table Name:** ContractTemplateConditionLine, **Join Column:** contractTemplate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1034,7 +1046,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** ContractTemplateTermLine, **Join Column:** contractTemplate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

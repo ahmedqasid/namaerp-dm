@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRLoanDisableDocument
+</div>
+
 **Arabic:** سند تعطيل سلفة - سندات تعطيل السلف
 **English:** Loan Disable Document - Loan Disable Documents
 

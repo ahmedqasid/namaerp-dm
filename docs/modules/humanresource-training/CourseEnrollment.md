@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CourseEnrollment
+</div>
+
 **Arabic:** تسجيل المتدربين بدورة
 **English:** Course Enrollment
 
@@ -1057,7 +1063,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CourseEnrollmentLine, **Join Column:** courseEnrollment_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

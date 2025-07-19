@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMCommodity
+</div>
+
 **Arabic:** سلعة - السلع
 **English:** Commodity - Commodities
 

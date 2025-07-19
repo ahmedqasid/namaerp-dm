@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FPReceiptRequest
+</div>
+
 **Arabic:** طلب استلام أوراق تجارية - طلبات استلام أوراق تجارية
 **English:** Commercial Papers Receipt Request - Commercial Papers Receipt Requests
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FPReceiptRequestLine, **Join Column:** fPReceiptRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

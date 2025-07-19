@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # UpdateSeasonsDoc
+</div>
+
 **Arabic:** مستند تحديث المواسم - مستندات تحديث المواسم
 **English:** Update Seasons Document - Update Seasons Documents
 
@@ -916,7 +922,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** UpdateSeasonsDocLine, **Join Column:** updateSeasonsDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

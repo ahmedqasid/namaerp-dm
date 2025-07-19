@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JOCustomerDelivery
+</div>
+
 **Arabic:** تسليم عميل زجاج جديد - تسليمات عميل زجاج جديد
 **English:** New Glass Customer Delivery - New Glass Customer Deliveries
 
@@ -4831,7 +4837,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** JOCustomerDeliveryLine, **Join Column:** jOCustomerDelivery_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSProcedureType
+</div>
+
 **Arabic:** نوع الإجراء - أنواع الاجراءات
 **English:** Procedure Type - Procedure Types
 

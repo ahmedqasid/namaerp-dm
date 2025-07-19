@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ProjContractExecution
+</div>
+
 **Arabic:** حصر كميات مشروع -  حصر كميات مشروع
 **English:** Project Contract Execution -  Project Contract Execution
 
@@ -943,7 +949,13 @@
 <div id='executions' title='executions' class='searchable'>
 
 ## executions (التنفيذات - Executions)
+
+<div class='tableName'>
+
 **Table Name:** ProjContrExecutionLine, **Join Column:** projContractExecution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

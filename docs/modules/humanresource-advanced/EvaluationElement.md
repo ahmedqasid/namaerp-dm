@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EvaluationElement
+</div>
+
 **Arabic:** عنصر تقييم - عناصر التقييم
 **English:** Evaluation Element - Evaluation Elements
 
@@ -967,7 +973,13 @@
 <div id='evaluationRanges' title='evaluationRanges' class='searchable'>
 
 ## evaluationRanges (الشرائح - Ranges)
+
+<div class='tableName'>
+
 **Table Name:** EvaluationElementRanges, **Join Column:** evaluationElement_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

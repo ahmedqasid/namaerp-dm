@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Warehouse
+</div>
+
 **Arabic:** مخزن - مخازن
 
 <ContentFilter/>
@@ -1323,7 +1329,13 @@
 <div id='additionalInformation' title='additionalInformation' class='searchable'>
 
 ## additionalInformation (معلومات إضافية - Additional Information)
+
+<div class='tableName'>
+
 **Table Name:** WarehouseAdditionInformationLine, **Join Column:** warehouse_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1501,7 +1513,13 @@
 <div id='locators' title='locators' class='searchable'>
 
 ## locators (المواقع المخزنية - Locators)
+
+<div class='tableName'>
+
 **Table Name:** WareLocator, **Join Column:** warehouse_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

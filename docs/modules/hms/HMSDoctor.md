@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSDoctor
+</div>
+
 **Arabic:** طبيب - الأطباء
 **English:** Doctor - Doctors
 

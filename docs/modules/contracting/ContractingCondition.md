@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractingCondition
+</div>
+
 **Arabic:** شرط قياسي - شروط قياسية
 **English:** Contracting Condition -  Contracting Condition
 
@@ -1861,7 +1867,13 @@
 <div id='customEquationLines' title='customEquationLines' class='searchable'>
 
 ## customEquationLines (تفاصيل المعادلة المخصصة - Custom Equation Lines)
+
+<div class='tableName'>
+
 **Table Name:** ContractingConditionCustomEquationLine, **Join Column:** contractingCondition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

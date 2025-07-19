@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPAProjExpenseReq
+</div>
+
 **Arabic:**  طلب مصروف -  طلبات مصروف
 **English:**  Project Expense Request -  Project Expense Requests
 
@@ -991,7 +997,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CPAReqExpenseLine, **Join Column:** cPAProjExpenseReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MultiValueReportParameter
+</div>
+
 **Arabic:** قيم متعددة لمدخل تقرير - قيم متعددة لمدخلات تقارير
 **English:** Multi Value Report Parameter - Multi Value Report Parameters
 
@@ -748,7 +754,13 @@
 <div id='values' title='values' class='searchable'>
 
 ## values ( - )
+
+<div class='tableName'>
+
 **Table Name:** MultiValueReportParameterLine, **Join Column:** multiValueReportParameter_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DLVDeliveryPlan
+</div>
+
 **Arabic:** خطة توصيل شحنات - خطط توصيل شحنات
 **English:** Shipment Delivery Plan - Shipment Delivery Plans
 
@@ -988,7 +994,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DLVDeliveryPlanLine, **Join Column:** dLVDeliveryPlan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

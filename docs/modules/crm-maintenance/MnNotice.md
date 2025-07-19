@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnNotice
+</div>
+
 **Arabic:** بلاغ صيانة - بلاغات صيانة
 **English:** Maintenance Notice - Maintenance Notices
 
@@ -3709,7 +3715,13 @@
 <div id='dysfunctions' title='dysfunctions' class='searchable'>
 
 ## dysfunctions ( الأعطال -  Dysfunctions)
+
+<div class='tableName'>
+
 **Table Name:** MnNoticeDysfunction, **Join Column:** mnNotice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3989,7 +4001,13 @@
 <div id='machines' title='machines' class='searchable'>
 
 ## machines (ألآت - Machines)
+
+<div class='tableName'>
+
 **Table Name:** MnNoticeMachine, **Join Column:** mnNotice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4842,7 +4860,13 @@
 <div id='services' title='services' class='searchable'>
 
 ## services (الخدمات - Services)
+
+<div class='tableName'>
+
 **Table Name:** MnNoticeService, **Join Column:** mnNotice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5560,7 +5584,13 @@
 <div id='spareParts' title='spareParts' class='searchable'>
 
 ## spareParts (قطع الغيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnNoticeSparePart, **Join Column:** mnNotice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -6470,7 +6500,13 @@
 <div id='statusChange' title='statusChange' class='searchable'>
 
 ## statusChange (تغير الحالات - Status Change)
+
+<div class='tableName'>
+
 **Table Name:** MnNoticeStatusChangeLine, **Join Column:** mnNotice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

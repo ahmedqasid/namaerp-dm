@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POSStockReceiptOtherLine
+</div>
+
 
 <ContentFilter/>
 

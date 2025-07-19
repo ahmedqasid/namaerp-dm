@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FPTransfer
+</div>
+
 **Arabic:** نقل ورقه مالية - نقل أوراق مالية
 **English:** FP Transfer - FP Transfers
 
@@ -1003,7 +1009,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** FPTransferLine, **Join Column:** fPTransfer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

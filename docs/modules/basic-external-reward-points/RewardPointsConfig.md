@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RewardPointsConfig
+</div>
+
 **Arabic:** إعدادات نقاط المكافأة - ملفات إعدادات نقاط المكافأة
 **English:** Reward Points Configuration - Reward Points Configuration Files
 
@@ -1045,7 +1051,13 @@
 <div id='branchesInfo' title='branchesInfo' class='searchable'>
 
 ## branchesInfo ( - )
+
+<div class='tableName'>
+
 **Table Name:** RewardPointsConfigLine, **Join Column:** rewardPointsConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

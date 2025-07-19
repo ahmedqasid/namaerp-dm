@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MFGMoldDisposal
+</div>
+
 **Arabic:** تخريد قالب تصنيع - تخريد قوالب تصنيع
 **English:** Manufacturing Mold Disposal - Manufacturing Molds Disposals
 
@@ -883,7 +889,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MFGMoldDisposalLine, **Join Column:** mFGMoldDisposal_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

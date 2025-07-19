@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DiscountUpdate
+</div>
+
 **Arabic:** تعديل الخصومات
 **English:** Discount Update - Discount Updates
 
@@ -1180,7 +1186,13 @@
 <div id='discountSysLines' title='discountSysLines' class='searchable'>
 
 ## discountSysLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** DiscountUpdateSysLine, **Join Column:** discountUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1226,7 +1238,13 @@
 <div id='invoices' title='invoices' class='searchable'>
 
 ## invoices (الفواتير - Invoices)
+
+<div class='tableName'>
+
 **Table Name:** DiscountUpdateLine, **Join Column:** discountUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

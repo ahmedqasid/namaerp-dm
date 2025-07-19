@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CreditFacility
+</div>
+
 **Arabic:** تسهيل ائتمانى - تسهيلات ائتمانية
 **English:** Credit Facility - Credit Facilities
 

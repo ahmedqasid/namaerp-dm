@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSPaymentToRegistery (Table Name: POSPaymentToRegistery)
+</div>
+
 **Arabic:** مصروف نقاط البيع - مصروفات نقاط البيع
 **English:** POS Payment - POS Payments
 

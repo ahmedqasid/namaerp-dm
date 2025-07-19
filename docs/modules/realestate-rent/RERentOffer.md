@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RERentOffer
+</div>
+
 **Arabic:** عرض سعر ايجار - عروض أسعار ايجار
 **English:** Rent offer - Rent offers
 
@@ -1831,7 +1837,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RERentOfferLine, **Join Column:** rERentOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2534,7 +2546,13 @@
 <div id='discounts' title='discounts' class='searchable'>
 
 ## discounts (الخصومات - Discounts)
+
+<div class='tableName'>
+
 **Table Name:** RERentOfferDiscountsLine, **Join Column:** rERentOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2586,7 +2604,13 @@
 <div id='expenses' title='expenses' class='searchable'>
 
 ## expenses (مصروفات - Expense)
+
+<div class='tableName'>
+
 **Table Name:** RERentOfferExpensesLine, **Join Column:** rERentOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2722,7 +2746,13 @@
 <div id='increases' title='increases' class='searchable'>
 
 ## increases (الزيادة السنوية - Yearly Increases)
+
+<div class='tableName'>
+
 **Table Name:** RERentOfferIncreasesLine, **Join Column:** rERentOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2783,7 +2813,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** RERentOfferTermsCond, **Join Column:** rERentOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2835,7 +2871,13 @@
 <div id='termLines' title='termLines' class='searchable'>
 
 ## termLines (الينود القياسيه - Standard Terms)
+
+<div class='tableName'>
+
 **Table Name:** RERentOffStandardTermLine, **Join Column:** rERentOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3118,7 +3160,13 @@
 <div id='yearlyPeriodTypes' title='yearlyPeriodTypes' class='searchable'>
 
 ## yearlyPeriodTypes (أنواع الايجارات سنوياً - Yearly Rent Types)
+
+<div class='tableName'>
+
 **Table Name:** RERentOfferYearlyContractPayment, **Join Column:** rERentOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # QualityCheckList
+</div>
+
 **Arabic:** قائمة تحقق جودة - قوائم تحقق جودة
 **English:** Quality Check List - Quality Check Lists
 
@@ -775,7 +781,13 @@
 <div id='checks' title='checks' class='searchable'>
 
 ## checks (البنود - Items)
+
+<div class='tableName'>
+
 **Table Name:** QualityCheckListLine, **Join Column:** qualityCheckList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

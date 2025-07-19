@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSSalesPriceList (Table Name: POSSalesPriceList)
+</div>
+
 **Arabic:** قائمة أسعار - قوائم أسعار المبيعات
 **English:** Price List - Price Lists
 
@@ -283,7 +289,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSSalesPriceListLine, **Join Column:** priceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TreasuryBillPurchaseDoc
+</div>
+
 **Arabic:** شراء إذن خزانة - شراء أذونات الخزانة
 **English:** Treasury Bill Purchase Document - Treasury Bill Purchase Documents
 

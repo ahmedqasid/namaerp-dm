@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # StockReceipt
+</div>
+
 **Arabic:** توريد مخزني - توريدات مخزنيه
 **English:** Stock Receipt - Stock Receipts
 
@@ -1312,7 +1318,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** StockReceiptLine, **Join Column:** stockReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

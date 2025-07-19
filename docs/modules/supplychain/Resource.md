@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Resource
+</div>
+
 **Arabic:** مورد تشغيل - موارد التشغيل
 
 <ContentFilter/>
@@ -1236,7 +1242,13 @@
 <div id='activities' title='activities' class='searchable'>
 
 ## activities (الأنشطة - Activities)
+
+<div class='tableName'>
+
 **Table Name:** ResourceActivityLine, **Join Column:** resource_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1309,7 +1321,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SCResourceLine, **Join Column:** resource_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DiggingBackFilingCheckList
+</div>
+
 **Arabic:** Digging And BackFiling CheckList
 **English:** Digging And BackFiling CheckList
 
@@ -985,7 +991,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DiggingBackFilingCheckListLine, **Join Column:** diggingBackFilingCheckList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

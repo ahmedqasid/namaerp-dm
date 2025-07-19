@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CustomReportMenu
+</div>
+
 **Arabic:** قائمة تقارير مخصصة - قوائم تقارير مخصصة
 **English:** Custom Report Menu - Custom Report Menus
 
@@ -925,7 +931,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** CustomRepLine, **Join Column:** customReportMenu_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

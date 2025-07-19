@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ProjectContractUpdate
+</div>
+
 **Arabic:** تعديل عقد مشروع - سندات تعديل عقود مشاريع
 **English:** Project Contract Update - Project Contract Updates
 
@@ -1003,7 +1009,13 @@
 <div id='conditions' title='conditions' class='searchable'>
 
 ## conditions (الشروط - Conditions)
+
+<div class='tableName'>
+
 **Table Name:** ProjectContractUpdateConditionLine, **Join Column:** projectContractUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1262,7 +1274,13 @@
 <div id='conditionsBeforeEdit' title='conditionsBeforeEdit' class='searchable'>
 
 ## conditionsBeforeEdit (الشروط قبل التعديل - Conditions Before Edit)
+
+<div class='tableName'>
+
 **Table Name:** ProjectContractUpdateBeforeConditionLine, **Join Column:** projectContractUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1521,7 +1539,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** ProjectContractUpdateTermLine, **Join Column:** projectContractUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2767,7 +2791,13 @@
 <div id='termsBeforeEdit' title='termsBeforeEdit' class='searchable'>
 
 ## termsBeforeEdit (البنود قبل التعديل - Terms Before Edit)
+
+<div class='tableName'>
+
 **Table Name:** ProjectContractUpdateBeforeTermLine, **Join Column:** projectContractUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

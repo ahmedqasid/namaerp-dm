@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # VacationBalanceRange
+</div>
+
 **Arabic:** ملف أرصدة الأجازات (بناءا على الخبرات) - ملفات أرصدة الأجازات (بناءا على الخبرات)
 **English:** Vacation Balance Range File - Vacation Balacne Range Files
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** VacationBalanceRangeLine, **Join Column:** vacationBalanceRange_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

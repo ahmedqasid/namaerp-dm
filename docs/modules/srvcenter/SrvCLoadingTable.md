@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvCLoadingTable
+</div>
+
 **Arabic:** جدول تحميل - جداول التحميل
 **English:** Loading Table
 

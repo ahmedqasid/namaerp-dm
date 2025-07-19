@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOCustodyReceiptDoc
+</div>
+
 **Arabic:** سند استلام عهدة بضائع بالفروع - سندات استلام عهدة بضائع بالفروع
 **English:** Custody Receipt Document - Custody Receipt Documents
 

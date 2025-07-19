@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FALCProformaInvoice
+</div>
+
 **Arabic:** فاتوره اعتماد مبدئية - فواتير اعتماد مبدئية
 **English:** Fixed Asset ProformaInvoice - Fixed Assets ProformaInvoice
 
@@ -1708,7 +1714,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FALcInvoiceLine, **Join Column:** fALCProformaInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

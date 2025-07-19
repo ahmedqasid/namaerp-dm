@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LcExpenseDocument
+</div>
+
 **Arabic:** سند مصروفات - سندات مصروفات
 **English:** Expense Document - Expense Documents
 
@@ -1156,7 +1162,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** LcExpenseLine, **Join Column:** lcExpenseDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1655,7 +1667,13 @@
 <div id='manualLines' title='manualLines' class='searchable'>
 
 ## manualLines (التوزيع اليدوي - Manual Lines)
+
+<div class='tableName'>
+
 **Table Name:** ManualLcExpenseLine, **Join Column:** lcExpenseDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2370,7 +2388,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** LcExpensePaymentScheduleLine, **Join Column:** lcExpenseDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2635,7 +2659,13 @@
 <div id='shipmentAndLCLines' title='shipmentAndLCLines' class='searchable'>
 
 ## shipmentAndLCLines (الإعتمادات والشحنات - Letter of Credits and Shipments)
+
+<div class='tableName'>
+
 **Table Name:** LcExpenseShipmentLine, **Join Column:** lcExpenseDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2693,7 +2723,13 @@
 <div id='sysLines' title='sysLines' class='searchable'>
 
 ## sysLines (التوزيع - System Lines)
+
+<div class='tableName'>
+
 **Table Name:** SystemLcExpenseLine, **Join Column:** lcExpenseDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

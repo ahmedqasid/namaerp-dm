@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMVisit
+</div>
+
 **Arabic:** الزيارة - الزيارات
 **English:** Visit - Visits
 
@@ -1519,7 +1525,13 @@
 <div id='customerRemarksLines' title='customerRemarksLines' class='searchable'>
 
 ## customerRemarksLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CRMVisitCustomerRemarksLine, **Join Column:** cRMVisit_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2012,7 +2024,13 @@
 <div id='employees' title='employees' class='searchable'>
 
 ## employees (الموظفين - Employees)
+
+<div class='tableName'>
+
 **Table Name:** CRMVisitEmployee, **Join Column:** cRMVisit_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2301,7 +2319,13 @@
 <div id='remakLines' title='remakLines' class='searchable'>
 
 ## remakLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** RemarksLine, **Join Column:** cRMVisit_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2794,7 +2818,13 @@
 <div id='supervisorRemarksLines' title='supervisorRemarksLines' class='searchable'>
 
 ## supervisorRemarksLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CRMVisitSupervisorRemarksLine, **Join Column:** cRMVisit_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3287,7 +3317,13 @@
 <div id='technicianRemarksLines' title='technicianRemarksLines' class='searchable'>
 
 ## technicianRemarksLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CRMVisitTechnicianRemarksLine, **Join Column:** cRMVisit_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PaymentFromPosSettings
+</div>
+
 **Arabic:** إعدادات دفع من خلال نقاط البيع -  إعدادات دفع من خلال نقاط البيع
 **English:** Payment From Pos Settings -  Payment From Pos Settings
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PaymentFromPosLine, **Join Column:** paymentFromPosSettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

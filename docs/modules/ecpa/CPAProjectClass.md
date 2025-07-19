@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPAProjectClass
+</div>
+
 **Arabic:** تصنيف المشروع - تصنيفات المشاريع
 **English:** CPA Project Class - CPA Project Classs
 

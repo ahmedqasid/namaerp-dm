@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SysIndicatorApproval
+</div>
+
 **Arabic:** موافقة على مؤشر أداء نظامى - موافقات على مؤشر أداء نظامى
 **English:** System Indicator Approval - System Indicator Approvals
 
@@ -1039,7 +1045,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SysIndicatorApprovalLine, **Join Column:** sysIndicatorApproval_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

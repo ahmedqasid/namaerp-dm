@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FieldFiltering
+</div>
+
 **Arabic:** فلترة الحقول -  فلترة الحقول
 **English:** Field Filtering -  Field Filtering
 
@@ -757,7 +763,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FieldFilteringLine, **Join Column:** fieldFiltering_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSTaxPlan (Table Name: POSTaxPlan)
+</div>
+
 **Arabic:** سياسة الضريبة - السياسات الضريبية
 **English:** Tax Plan - Tax Plans
 
@@ -244,7 +250,13 @@
 <div id='taxes' title='taxes' class='searchable'>
 
 ## taxes (الضرائب - Taxes)
+
+<div class='tableName'>
+
 **Table Name:** POSLegalEntityTax, **Join Column:** posTax
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

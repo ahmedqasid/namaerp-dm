@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PriceVotingFile
+</div>
+
 **Arabic:** ملف التصويت على الأسعار - ملفات التصويت على الأسعار
 **English:** Price Voting File - Price Voting Files
 
@@ -1036,7 +1042,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PriceVotingLine, **Join Column:** priceVotingFile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1355,7 +1367,13 @@
 <div id='voters' title='voters' class='searchable'>
 
 ## voters (المصوتون - Voters)
+
+<div class='tableName'>
+
 **Table Name:** PriceVotingVoterLine, **Join Column:** priceVotingFile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

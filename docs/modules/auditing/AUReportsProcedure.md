@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUReportsProcedure
+</div>
+
 **Arabic:** إجراء اصدار التقارير - إجراءات اصدار التقارير
 **English:** Reports Procedure - Reports Procedures
 
@@ -856,7 +862,13 @@
 <div id='reportsProcedures' title='reportsProcedures' class='searchable'>
 
 ## reportsProcedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureReportsLine, **Join Column:** aUReportsProcedure_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

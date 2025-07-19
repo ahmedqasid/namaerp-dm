@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSVendor (Table Name: POSVendor)
+</div>
+
 **Arabic:** مورد - الموردين
 
 <ContentFilter/>

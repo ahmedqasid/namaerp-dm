@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalaryUnBlockDocument
+</div>
+
 **Arabic:** إلغاء حجب راتب -  إلغاء حجب راتب
 **English:** Salary UnBlock -  Salary UnBlock
 

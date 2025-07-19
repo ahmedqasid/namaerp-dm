@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSRadiologyInvoice
+</div>
+
 **Arabic:** فاتورة أشعة - فواتير الأشعة
 **English:** Radiology Invoice - Radiology Invoices
 
@@ -2032,7 +2038,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSRadiologySuppliesLine, **Join Column:** hMSRadiologyInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3407,7 +3419,13 @@
 <div id='overheadItems' title='overheadItems' class='searchable'>
 
 ## overheadItems (بنود تكلفة طبية غير مباشرة - Overhead Items)
+
+<div class='tableName'>
+
 **Table Name:** HMSRadiologyInvoiceOverheadItem, **Join Column:** hMSRadiologyInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3489,7 +3507,13 @@
 <div id='radiologyLines' title='radiologyLines' class='searchable'>
 
 ## radiologyLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSRadiologyInvoiceLine, **Join Column:** hMSRadiologyInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4111,7 +4135,13 @@
 <div id='serviceLines' title='serviceLines' class='searchable'>
 
 ## serviceLines (تفاصيل الخدمات الطبية - Medical Service Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSRadiologyServiceInvLine, **Join Column:** hMSRadiologyInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

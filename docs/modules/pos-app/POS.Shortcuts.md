@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.Shortcuts (Table Name: Shortcuts)
+</div>
+
 **Arabic:** اختصارات نقطة البيع -  اختصارات نقطة البيع
 **English:** Nama POS Shortcuts -  Nama POS Shortcuts
 
@@ -235,7 +241,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ShortcutLine, **Join Column:** shortcuts_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

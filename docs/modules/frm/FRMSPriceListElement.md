@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMSPriceListElement
+</div>
+
 **Arabic:** عنصر قوائم أسعار بيع - عناصر قوائم أسعار بيع
 **English:** Sales Price Lists Element - Sales Price Lists Elements
 

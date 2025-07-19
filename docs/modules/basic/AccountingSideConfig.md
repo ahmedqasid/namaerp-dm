@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AccountingSideConfig
+</div>
+
 **Arabic:** جانب محاسبي -  جانب محاسبي
 **English:** Accounting Side Config -  Accounting Side Config
 

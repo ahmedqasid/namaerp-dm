@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AIRecordEmbeddingConfig
+</div>
+
 **Arabic:** AI Record Embedding Config - AI Record Embeddings Config
 **English:** AI Record Embedding Config - AI Record Embeddings Config
 
@@ -748,7 +754,13 @@
 <div id='embeddingLines' title='embeddingLines' class='searchable'>
 
 ## embeddingLines (Embedding Lines - Embedding Lines)
+
+<div class='tableName'>
+
 **Table Name:** AIRecordEmbeddingConfigLine, **Join Column:** aIRecordEmbeddingConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

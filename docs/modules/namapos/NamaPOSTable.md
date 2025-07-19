@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSTable
+</div>
+
 **Arabic:** طاولة نقاط البيع -  طاولة نقاط البيع
 **English:** Table -  Table
 

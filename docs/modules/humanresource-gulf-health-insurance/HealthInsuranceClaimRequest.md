@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HealthInsuranceClaimRequest
+</div>
+
 **Arabic:** مطالبة تعويض  طبي - مطالبات تعويض طبي
 **English:** Health Insurance Claim Request - Health Insurance Claim Requests
 
@@ -979,7 +985,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HealthInsuranceClaimReqLine, **Join Column:** healthInsuranceClaimRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

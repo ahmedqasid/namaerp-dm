@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ConfigEntry
+</div>
+
 **Arabic:** إعدادات النظام - الإعدادات
 **English:** System Settings - Configurations Entries
 

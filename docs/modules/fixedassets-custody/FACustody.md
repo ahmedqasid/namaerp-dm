@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FACustody
+</div>
+
 **Arabic:** عهدة - عهد
 **English:** Custody - Custodys
 
@@ -919,7 +925,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** CustodyCustodianLine, **Join Column:** fACustody_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

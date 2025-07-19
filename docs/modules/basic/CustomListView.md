@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CustomListView
+</div>
+
 **Arabic:** عرض قائمة مخصصة - عرض قوائم مخصصة
 **English:** Custom List View - Custom Lists View
 
@@ -853,7 +859,13 @@
 <div id='addedTo' title='addedTo' class='searchable'>
 
 ## addedTo (إضافة كبلوك إلى - Added As a Block To)
+
+<div class='tableName'>
+
 **Table Name:** CLVBlockAdderLine, **Join Column:** customListView_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1106,7 +1118,13 @@
 <div id='criteriaFields' title='criteriaFields' class='searchable'>
 
 ## criteriaFields ( - )
+
+<div class='tableName'>
+
 **Table Name:** CLVCriteriaFieldLine, **Join Column:** customListView_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1158,7 +1176,13 @@
 <div id='displayColumns' title='displayColumns' class='searchable'>
 
 ## displayColumns ( - )
+
+<div class='tableName'>
+
 **Table Name:** CLVDisplayColumnLine, **Join Column:** customListView_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1273,7 +1297,13 @@
 <div id='sortFields' title='sortFields' class='searchable'>
 
 ## sortFields (حقول الترتيب - Sort Fields)
+
+<div class='tableName'>
+
 **Table Name:** CLVSortColumnLine, **Join Column:** customListView_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1325,7 +1355,13 @@
 <div id='templateColumns' title='templateColumns' class='searchable'>
 
 ## templateColumns (الاعمدة المحسوبة - Template Columns)
+
+<div class='tableName'>
+
 **Table Name:** CLVTemplateColumnLine, **Join Column:** customListView_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

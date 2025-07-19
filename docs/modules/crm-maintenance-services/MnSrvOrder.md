@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnSrvOrder
+</div>
+
 **Arabic:** أمر خدمة صيانة - أوامر خدمة صيانة
 **English:** Maintenance Service Order - Maintenance Service Orders
 
@@ -3640,7 +3646,13 @@
 <div id='additionalSpareParts' title='additionalSpareParts' class='searchable'>
 
 ## additionalSpareParts (قطع الغيار الإضافية - Additional Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvOrderAdditionalSparePart, **Join Column:** mnSrvOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4550,7 +4562,13 @@
 <div id='dysfunctions' title='dysfunctions' class='searchable'>
 
 ## dysfunctions ( الأعطال -  Dysfunctions)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvOrderDysFunction, **Join Column:** mnSrvOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4761,7 +4779,13 @@
 <div id='maintenanceGroups' title='maintenanceGroups' class='searchable'>
 
 ## maintenanceGroups (مجموعات الصيانة - Maintenance Groups)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvOrderGroup, **Join Column:** mnSrvOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4897,7 +4921,13 @@
 <div id='returnedSpareParts' title='returnedSpareParts' class='searchable'>
 
 ## returnedSpareParts (قطع الغيار المرتجعة - Returned Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvOrderRetSparePart, **Join Column:** mnSrvOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5807,7 +5837,13 @@
 <div id='spareParts' title='spareParts' class='searchable'>
 
 ## spareParts (قطع الغيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvOrderSparePart, **Join Column:** mnSrvOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -6717,7 +6753,13 @@
 <div id='srvServices' title='srvServices' class='searchable'>
 
 ## srvServices (خدمات صيانة - Maintenance Services)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvOrderLine, **Join Column:** mnSrvOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -7558,7 +7600,13 @@
 <div id='statusChange' title='statusChange' class='searchable'>
 
 ## statusChange (تغير الحالات - Status Change)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvOrderStatusChangeLine, **Join Column:** mnSrvOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -7790,7 +7838,13 @@
 <div id='technicians' title='technicians' class='searchable'>
 
 ## technicians (الفنين - Technicians)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvOrderTechnician, **Join Column:** mnSrvOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -7935,7 +7989,13 @@
 <div id='termsLines' title='termsLines' class='searchable'>
 
 ## termsLines (بنود البيع - Sales Terms)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvOrderStandTermsLine, **Join Column:** mnSrvOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -8071,7 +8131,13 @@
 <div id='tools' title='tools' class='searchable'>
 
 ## tools (العِدد - Tools)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvOrderTool, **Join Column:** mnSrvOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MachineRentInvoice
+</div>
+
 **Arabic:** فاتورة تشغيل معدات - فواتير تشغيل معدات
 **English:** Machine Rent Invoice - Machine Rent Invoices
 
@@ -1447,7 +1453,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MachineRentInvLine, **Join Column:** machineRentInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2675,7 +2687,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** MiscRentExternalPaymentLine, **Join Column:** machineRentInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2781,7 +2799,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** MiscPurchaseInvPaymentLine, **Join Column:** machineRentInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3091,7 +3115,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** MiscRentScheduledPayLine, **Join Column:** machineRentInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

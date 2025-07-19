@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AttendanceShift
+</div>
+
 **Arabic:** ملف الدوام - ملفات الدوام
 **English:** Shift - Shifts
 
@@ -1339,7 +1345,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AttendanceShiftLine, **Join Column:** attendanceShift_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1430,7 +1442,13 @@
 <div id='groupDetails' title='groupDetails' class='searchable'>
 
 ## groupDetails (تفاصيل خطة مجموعة عمالة - Group Details)
+
+<div class='tableName'>
+
 **Table Name:** AttendanceShiftGroupLine, **Join Column:** attendanceShift_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1557,7 +1575,13 @@
 <div id='rotationDetails' title='rotationDetails' class='searchable'>
 
 ## rotationDetails (تفاصيل التدويير - Rotatation Details)
+
+<div class='tableName'>
+
 **Table Name:** AttendanceShiftRotateLine, **Join Column:** attendanceShift_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

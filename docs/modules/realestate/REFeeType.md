@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REFeeType
+</div>
+
 **Arabic:** نوع رسم استثمار عقاري - أنواع رسوم استثمار عقاري
 **English:** Real Estate Fee Type - Real Estate Fee Types
 

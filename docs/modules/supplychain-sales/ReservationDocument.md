@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ReservationDocument
+</div>
+
 **Arabic:** سند حجز - سندات الحجوزات
 **English:** Reservation Document - Reservation Documents
 
@@ -2452,7 +2458,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ReservationLine, **Join Column:** reservationDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

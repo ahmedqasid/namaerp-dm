@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EInvoiceNotificationReceiver
+</div>
+
 **Arabic:** E Invoice Notification Receiver - E Invoice Notification Receivers
 **English:** E Invoice Notification Receiver - E Invoice Notification Receivers
 

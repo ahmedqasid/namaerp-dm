@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRSkill
+</div>
+
 **Arabic:** المهارة - المهارات
 **English:** Skill - Skills
 

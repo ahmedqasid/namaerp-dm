@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DatesOverrider
+</div>
+
 **Arabic:** تغيير التواريخ -  تغيير التواريخ
 **English:** Dates Overrider -  Dates Overrider
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DatesOverriderLine, **Join Column:** datesOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

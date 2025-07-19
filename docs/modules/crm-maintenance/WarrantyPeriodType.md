@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # WarrantyPeriodType
+</div>
+
 **Arabic:** نوع فترة الضمان - أنواع فترة الضمان
 **English:** Warranty Period Type - Warranty Period Types
 

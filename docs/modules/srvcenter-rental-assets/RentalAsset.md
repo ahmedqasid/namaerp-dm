@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RentalAsset
+</div>
+
 **Arabic:** أصل تأجيرى - أصول تأجيرية
 **English:** Rental Asset - Rental Assets
 
@@ -877,7 +883,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RentalAssetLine, **Join Column:** rentalAsset_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1043,7 +1055,13 @@
 <div id='workingHours' title='workingHours' class='searchable'>
 
 ## workingHours (ساعات العمل - Working Hours)
+
+<div class='tableName'>
+
 **Table Name:** RentalAssetWorkingHours, **Join Column:** rentalAsset_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

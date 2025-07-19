@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ElectronicReceiptVoucher
+</div>
+
 **Arabic:** سند قبض إلكتروني - سندات قبض إلكترونية
 **English:** Electronic Receipt Voucher - Electronic Receipt Vouchers
 
@@ -1192,7 +1198,13 @@
 <div id='installmentLines' title='installmentLines' class='searchable'>
 
 ## installmentLines (الأقساط - Installment Lines)
+
+<div class='tableName'>
+
 **Table Name:** ElectronicRVInstallmentLines, **Join Column:** electronicReceiptVoucher_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1409,7 +1421,13 @@
 <div id='invoices' title='invoices' class='searchable'>
 
 ## invoices (الفواتير - Invoices)
+
+<div class='tableName'>
+
 **Table Name:** ElectronicRVInvoiceLine, **Join Column:** electronicReceiptVoucher_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

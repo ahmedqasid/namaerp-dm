@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Department
+</div>
+
 **Arabic:** إدارة - إدارات
 
 <ContentFilter/>
@@ -1491,7 +1497,13 @@
 <div id='parents' title='parents' class='searchable'>
 
 ## parents (المحددات الأعلي - Parents)
+
+<div class='tableName'>
+
 **Table Name:** Department_Department, **Join Column:** Department_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1525,7 +1537,13 @@
 <div id='subDimensions' title='subDimensions' class='searchable'>
 
 ## subDimensions (المحددات الفرعية - Sub Dimensions)
+
+<div class='tableName'>
+
 **Table Name:** CompositeDepartmentLine, **Join Column:** owner_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

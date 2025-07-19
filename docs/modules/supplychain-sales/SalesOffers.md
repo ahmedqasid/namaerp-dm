@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalesOffers
+</div>
+
 **Arabic:** عرض - العروض
 **English:** Sales Offer - Sales Offers
 
@@ -1372,7 +1378,13 @@
 <div id='coupons' title='coupons' class='searchable'>
 
 ## coupons ( قسيمة خصومات - Coupons)
+
+<div class='tableName'>
+
 **Table Name:** OfferCouponLine, **Join Column:** salesOffers_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1613,7 +1625,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ItemDiscountLine, **Join Column:** salesOffers_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2433,7 +2451,13 @@
 <div id='freeItems' title='freeItems' class='searchable'>
 
 ## freeItems (الأصناف المجانية - Free Items)
+
+<div class='tableName'>
+
 **Table Name:** FreeItemLine, **Join Column:** salesOffers_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3598,7 +3622,13 @@
 <div id='invDiscountLines' title='invDiscountLines' class='searchable'>
 
 ## invDiscountLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** InvoiceDiscountLine, **Join Column:** salesOffers_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3899,7 +3929,13 @@
 <div id='invOffersLines' title='invOffersLines' class='searchable'>
 
 ## invOffersLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** InvoiceFreeItemLine, **Join Column:** salesOffers_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4401,7 +4437,13 @@
 <div id='itemsCountOffers' title='itemsCountOffers' class='searchable'>
 
 ## itemsCountOffers ( - )
+
+<div class='tableName'>
+
 **Table Name:** OfferOnItemsCountLine, **Join Column:** salesOffers_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

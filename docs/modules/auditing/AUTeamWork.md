@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUTeamWork
+</div>
+
 **Arabic:** فريق عمل - اختبارات تخصيص فريق العمل
 **English:** Team Work - Team Works
 
@@ -868,7 +874,13 @@
 <div id='team' title='team' class='searchable'>
 
 ## team ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUTeamWorkLine, **Join Column:** aUTeamWork_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

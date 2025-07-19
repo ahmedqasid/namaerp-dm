@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AssemblyAltMaterial
+</div>
+
 **Arabic:** خامات التجميع البديلة
 **English:** Assembly Alternative Material - Assembly Alternative Materials
 
@@ -895,7 +901,13 @@
 <div id='grid1' title='grid1' class='searchable'>
 
 ## grid1 ( - )
+
+<div class='tableName'>
+
 **Table Name:** AssemblyAltMaterialGrid1, **Join Column:** assemblyAltMaterial_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1076,7 +1088,13 @@
 <div id='grid2' title='grid2' class='searchable'>
 
 ## grid2 ( - )
+
+<div class='tableName'>
+
 **Table Name:** AssemblyAltMaterialGrid2, **Join Column:** assemblyAltMaterial_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1257,7 +1275,13 @@
 <div id='grid3' title='grid3' class='searchable'>
 
 ## grid3 ( - )
+
+<div class='tableName'>
+
 **Table Name:** AssemblyAltMaterialGrid3, **Join Column:** assemblyAltMaterial_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1438,7 +1462,13 @@
 <div id='grid4' title='grid4' class='searchable'>
 
 ## grid4 ( - )
+
+<div class='tableName'>
+
 **Table Name:** AssemblyAltMaterialGrid4, **Join Column:** assemblyAltMaterial_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1619,7 +1649,13 @@
 <div id='grid5' title='grid5' class='searchable'>
 
 ## grid5 ( - )
+
+<div class='tableName'>
+
 **Table Name:** AssemblyAltMaterialGrid5, **Join Column:** assemblyAltMaterial_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

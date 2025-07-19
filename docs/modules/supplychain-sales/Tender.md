@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Tender
+</div>
+
 **Arabic:** مناقصة - المناقصات
 
 <ContentFilter/>
@@ -2427,7 +2433,13 @@
 <div id='conditions' title='conditions' class='searchable'>
 
 ## conditions (الشروط - Conditions)
+
+<div class='tableName'>
+
 **Table Name:** TenderConditionLine, **Join Column:** tender_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2482,7 +2494,13 @@
 <div id='deliveryLines' title='deliveryLines' class='searchable'>
 
 ## deliveryLines (التسليـــم - Delivery Lines)
+
+<div class='tableName'>
+
 **Table Name:** TenderDeliveryLine, **Join Column:** tender_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3395,7 +3413,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (الأصناف والخدمات - Items)
+
+<div class='tableName'>
+
 **Table Name:** TenderLine, **Join Column:** tender_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5355,7 +5379,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** TenderPaymentLine, **Join Column:** tender_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

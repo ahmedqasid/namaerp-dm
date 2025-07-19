@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CustomerClass2
+</div>
+
 **Arabic:** فئة عميل 2 - فئات العملاء 2
 **English:** Customers' Class 2 - Customers' Classes 2
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SISalesInvoice
+</div>
+
 **Arabic:** فاتورة مبيعات صنف فرعى - فواتير مبيعات صنف فرعى
 **English:** Sub Item Sales Invoice - Sub Item Sales Invoices
 
@@ -2713,7 +2719,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SISalesInvoiceLine, **Join Column:** sISalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4934,7 +4946,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SISalesInvExternalPayLine, **Join Column:** sISalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5085,7 +5103,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SISalesInvoicePaymentLine, **Join Column:** sISalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5395,7 +5419,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** SISalesInvScheduledPayLine, **Join Column:** sISalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5660,7 +5690,13 @@
 <div id='stockDocs' title='stockDocs' class='searchable'>
 
 ## stockDocs (السندات المخزنية - Stock Documents)
+
+<div class='tableName'>
+
 **Table Name:** SISalesInvoiceIssue, **Join Column:** sISalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5778,7 +5814,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** SISalesInvStandTermsLine, **Join Column:** sISalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

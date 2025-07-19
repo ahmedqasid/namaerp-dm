@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SCExtraDocCreationRule
+</div>
+
 **Arabic:** قاعدة إنشاء مستندات  مخزنية - قواعد إنشاء مستندات  مخزنية
 **English:** SC Creation Rule - SC Creation Rules
 
@@ -832,7 +838,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ExtraDocCreationRuleLine, **Join Column:** sCExtraDocCreationRule_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

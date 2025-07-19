@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MRPDocument
+</div>
+
 **Arabic:** سند تخطيط -  سند تخطيط
 **English:** planning raw materials Document -  planning raw materials Document
 
@@ -973,7 +979,13 @@
 <div id='analysis' title='analysis' class='searchable'>
 
 ## analysis (التحليل - Analysis)
+
+<div class='tableName'>
+
 **Table Name:** MRPRequirementsAnalysis, **Join Column:** mRPDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1334,7 +1346,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** MRPDocumentLine, **Join Column:** mRPDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1395,7 +1413,13 @@
 <div id='plannedProductionLines' title='plannedProductionLines' class='searchable'>
 
 ## plannedProductionLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** MRPPlProductionLine, **Join Column:** mRPDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1609,7 +1633,13 @@
 <div id='plannedPurchaseLines' title='plannedPurchaseLines' class='searchable'>
 
 ## plannedPurchaseLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** MRPPlPurchasesLine, **Join Column:** mRPDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1823,7 +1853,13 @@
 <div id='requiredLines' title='requiredLines' class='searchable'>
 
 ## requiredLines (الاحتياجات - Required Lines)
+
+<div class='tableName'>
+
 **Table Name:** MRPRequiredLine, **Join Column:** mRPDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

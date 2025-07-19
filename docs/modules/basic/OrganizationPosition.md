@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # OrganizationPosition
+</div>
+
 **Arabic:** درجة وظيفية - درجات وظيفية
 **English:** Organizational Position - Organization Positions
 
@@ -862,7 +868,13 @@
 <div id='responsibilities' title='responsibilities' class='searchable'>
 
 ## responsibilities ( مسئوليات -  Responsibilities)
+
+<div class='tableName'>
+
 **Table Name:** OPResponsibilityLine, **Join Column:** organizationPosition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -917,7 +929,13 @@
 <div id='skills' title='skills' class='searchable'>
 
 ## skills (المهارات - Skills)
+
+<div class='tableName'>
+
 **Table Name:** OrgPostionSkillLine, **Join Column:** organizationPosition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

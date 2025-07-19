@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POSSecurityProfile
+</div>
+
 **Arabic:** صلاحيات نقاط البيع
 **English:** POS Security Profile - POS Security Profiles
 
@@ -1414,7 +1420,13 @@
 <div id='capabilities' title='capabilities' class='searchable'>
 
 ## capabilities (الصلاحيات - Capabilities)
+
+<div class='tableName'>
+
 **Table Name:** POSSecurityProfileLine, **Join Column:** pOSSecurityProfile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

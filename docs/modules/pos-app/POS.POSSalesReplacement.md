@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSSalesReplacement (Table Name: POSSalesReplacement)
+</div>
+
 **Arabic:** إستبدال مبيعات نقاط البيع
 **English:** POS Sales Replacement
 
@@ -1144,7 +1150,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSSalesRepalcementLine, **Join Column:** invoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1946,7 +1958,13 @@
 <div id='returnPaymentLines' title='returnPaymentLines' class='searchable'>
 
 ## returnPaymentLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** POSReplacementReturnPaymentLine, **Join Column:** invoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2121,7 +2139,13 @@
 <div id='salesPaymentLines' title='salesPaymentLines' class='searchable'>
 
 ## salesPaymentLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** POSReplacementSalesPaymentLine, **Join Column:** invoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

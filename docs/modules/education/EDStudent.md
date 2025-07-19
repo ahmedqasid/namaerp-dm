@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDStudent
+</div>
+
 **Arabic:** طالب - الطلاب
 **English:** Student - Students
 

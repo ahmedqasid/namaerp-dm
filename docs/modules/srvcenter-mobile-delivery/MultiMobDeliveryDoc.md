@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MultiMobDeliveryDoc
+</div>
+
 **Arabic:** مستند حركة مجمع - مستندات حركة مجمعة
 **English:** Multi Mobile Delivery Document - Multi Mobile Delivery Documents
 
@@ -910,7 +916,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MultiMobDeliveryDocLine, **Join Column:** multiMobDeliveryDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

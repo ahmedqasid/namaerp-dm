@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ManualMeasures
+</div>
+
 **Arabic:** قيم المؤشرات اليدوية -  قيم المؤشرات اليدوية
 **English:** Manual Measure - Manual Measures
 
@@ -1378,7 +1384,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ManualMeasureLine, **Join Column:** manualMeasures_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

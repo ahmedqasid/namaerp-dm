@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnSrvNotice
+</div>
+
 **Arabic:** بلاغ خدمة صيانة - بلاغات خدمة صيانة
 **English:** Maintenance Service Notice - Maintenance Service Notices
 
@@ -3667,7 +3673,13 @@
 <div id='dysfunctions' title='dysfunctions' class='searchable'>
 
 ## dysfunctions ( الأعطال -  Dysfunctions)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvNoticeDysFunctionLine, **Join Column:** mnSrvNotice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3878,7 +3890,13 @@
 <div id='spareParts' title='spareParts' class='searchable'>
 
 ## spareParts (قطع الغيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvNoticeSpareParts, **Join Column:** mnSrvNotice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4788,7 +4806,13 @@
 <div id='srvServices' title='srvServices' class='searchable'>
 
 ## srvServices (خدمات صيانة - Maintenance Services)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvNoticeLine, **Join Column:** mnSrvNotice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5629,7 +5653,13 @@
 <div id='statusChange' title='statusChange' class='searchable'>
 
 ## statusChange (تغير الحالات - Status Change)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvNoticeStatusChangeLine, **Join Column:** mnSrvNotice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

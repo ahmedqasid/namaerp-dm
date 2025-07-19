@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRTNSlottingType
+</div>
+
 **Arabic:** نوع التفتيح - أنواع التفتيح
 **English:** CRTN Slotting Type - CRTN Slotting Types
 

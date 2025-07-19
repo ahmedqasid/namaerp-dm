@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SecurityCapability
+</div>
+
 **Arabic:** نوع الصلاحيات - الصلاحيات
 **English:** Capability Types - Security Capability Types
 

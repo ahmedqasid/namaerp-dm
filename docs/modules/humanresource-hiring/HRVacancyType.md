@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRVacancyType
+</div>
+
 **Arabic:** نوع فرصة عمل
 **English:** Vacancy Type - Vacancy Types
 
@@ -790,7 +796,13 @@
 <div id='skills' title='skills' class='searchable'>
 
 ## skills (المهارات - Skills)
+
+<div class='tableName'>
+
 **Table Name:** VacancyTypeSkillLine, **Join Column:** hRVacancyType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -854,7 +866,13 @@
 <div id='tests' title='tests' class='searchable'>
 
 ## tests (الإختبارات - Tests)
+
+<div class='tableName'>
+
 **Table Name:** VacancyTypeTestLine, **Join Column:** hRVacancyType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

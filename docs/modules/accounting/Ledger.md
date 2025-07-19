@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Ledger
+</div>
+
 **Arabic:** دفتر حسابات - دفاتر حسابات
 
 <ContentFilter/>

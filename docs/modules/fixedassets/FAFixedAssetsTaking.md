@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAFixedAssetsTaking
+</div>
+
 **Arabic:** مستند جرد أصول - مستندات جرد أصول
 **English:** FixedAssets Taking Document - FixedAssets Taking Documents
 
@@ -1096,7 +1102,13 @@
 <div id='actualLines' title='actualLines' class='searchable'>
 
 ## actualLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** FATakingActualLine, **Join Column:** fAFixedAssetsTaking_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1262,7 +1274,13 @@
 <div id='extraCustodiesLines' title='extraCustodiesLines' class='searchable'>
 
 ## extraCustodiesLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** ExtraCustodyLine, **Join Column:** fAFixedAssetsTaking_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1329,7 +1347,13 @@
 <div id='extraLines' title='extraLines' class='searchable'>
 
 ## extraLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** FATakingExtraLine, **Join Column:** fAFixedAssetsTaking_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1465,7 +1489,13 @@
 <div id='shortageCustodiesLines' title='shortageCustodiesLines' class='searchable'>
 
 ## shortageCustodiesLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** ShortageCustodyLine, **Join Column:** fAFixedAssetsTaking_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1532,7 +1562,13 @@
 <div id='shortageLines' title='shortageLines' class='searchable'>
 
 ## shortageLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** FATakingShortageLine, **Join Column:** fAFixedAssetsTaking_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

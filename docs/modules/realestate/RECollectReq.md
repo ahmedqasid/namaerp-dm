@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RECollectReq
+</div>
+
 **Arabic:** طلب تحصيل - طلبات تحصيل
 **English:** Collect Request - Collect Requests
 
@@ -1423,7 +1429,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RECollectReqLine, **Join Column:** rECollectReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

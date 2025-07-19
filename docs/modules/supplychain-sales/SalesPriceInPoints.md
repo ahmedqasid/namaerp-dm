@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalesPriceInPoints
+</div>
+
 **Arabic:** قوائم الأسعار بالنقاط - قائمة أسعار بالنقاط
 **English:** Price List In Points
 
@@ -778,7 +784,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SalesPriceInPointsLine, **Join Column:** salesPriceInPoints_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

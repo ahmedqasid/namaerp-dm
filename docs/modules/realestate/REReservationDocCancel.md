@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REReservationDocCancel
+</div>
+
 **Arabic:** سند إلغاء حجز استثمار عقاري - سندات إلغاء حجز استثمار عقاري
 **English:** RE Reservation Document Cancel - RE Reservation Documents Cancel
 
@@ -1585,7 +1591,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** REReservationDocCancelLine, **Join Column:** rEReservationDocCancel_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2288,7 +2300,13 @@
 <div id='installmentInfoLines' title='installmentInfoLines' class='searchable'>
 
 ## installmentInfoLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** REReservationDocCancelInfoLine, **Join Column:** rEReservationDocCancel_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2637,7 +2655,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** REReserveDocCancelTermsCond, **Join Column:** rEReservationDocCancel_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

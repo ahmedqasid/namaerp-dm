@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FinancialBudget
+</div>
+
 **Arabic:** موازنه مالية - موازنة مالية
 **English:** Financial Budget
 
@@ -904,7 +910,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FBudgetLine, **Join Column:** financialBudget_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JOOutSourcManufacturReceipt
+</div>
+
 **Arabic:** مستند إستلام تصنيع خارجي زجاج جديد - مستندات إستلام تصنيع خارجي زجاج جديد
 **English:** New Glass Outsource Manufacture Receipt - New Glass Outsource Manufacture Receipts
 
@@ -4822,7 +4828,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** JOOutSourceManufReceiptLine, **Join Column:** jOOutSourcManufacturReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -8864,7 +8876,13 @@
 <div id='joOperations' title='joOperations' class='searchable'>
 
 ## joOperations (تشغيلات - JOOperations)
+
+<div class='tableName'>
+
 **Table Name:** JOOutSourceManufRecOpLine, **Join Column:** jOOutSourcManufacturReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

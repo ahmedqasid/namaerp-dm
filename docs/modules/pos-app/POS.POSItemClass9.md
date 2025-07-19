@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSItemClass9 (Table Name: POSItemClass9)
+</div>
+
 **Arabic:** تصنيف صنف 9 - تصنيفات صنف 9
 **English:** Item class 9 - Item classes 9
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AdditionalCost
+</div>
+
 **Arabic:** بند مصروف - بنود مصروفات
 **English:** Expense item - Expense items
 
@@ -982,7 +988,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** AdditionalCostDetail, **Join Column:** additionalCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

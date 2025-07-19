@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # QueueServiceConfig
+</div>
+
 **Arabic:** إعدادات طوابير الخدمة - ملفات إعدادات طوابير الخدمة
 **English:** Queue Service Configurations - Queue Service Configurations Files
 
@@ -787,7 +793,13 @@
 <div id='autoTicketingLines' title='autoTicketingLines' class='searchable'>
 
 ## autoTicketingLines (سطور التذاكر اّلياَ - Automatic Ticketing Lines)
+
+<div class='tableName'>
+
 **Table Name:** QueueServiceConfigAutoTicketingLine, **Join Column:** queueServiceConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -893,7 +905,13 @@
 <div id='branchBanners' title='branchBanners' class='searchable'>
 
 ## branchBanners (إعلانات - Banners)
+
+<div class='tableName'>
+
 **Table Name:** QueueServiceBannerLine, **Join Column:** queueServiceConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -957,7 +975,13 @@
 <div id='queueProviders' title='queueProviders' class='searchable'>
 
 ## queueProviders (مقدمين الخدمة - Queue Providers)
+
+<div class='tableName'>
+
 **Table Name:** QueueServiceProviderLine, **Join Column:** queueServiceConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1039,7 +1063,13 @@
 <div id='queues' title='queues' class='searchable'>
 
 ## queues (الطوابير - Queues)
+
+<div class='tableName'>
+
 **Table Name:** QueueServiceLine, **Join Column:** queueServiceConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

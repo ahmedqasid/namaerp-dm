@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMAnalysis
+</div>
+
 **Arabic:** تحليل
 **English:** Analysis
 
@@ -1036,7 +1042,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CRMAnlAssignedEmployees, **Join Column:** cRMAnalysis_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1082,7 +1094,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** CRMAnlPreparationLine, **Join Column:** cRMAnalysis_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1227,7 +1245,13 @@
 <div id='remarkLines' title='remarkLines' class='searchable'>
 
 ## remarkLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CRMAnlPreparationRemark, **Join Column:** cRMAnalysis_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

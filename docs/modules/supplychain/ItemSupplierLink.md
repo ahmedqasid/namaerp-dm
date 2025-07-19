@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ItemSupplierLink
+</div>
+
 **Arabic:** ربط صنف بمورد - ربط الأصناف بالموردين
 **English:** Item Supplier Link - Item Supplier Links
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ItemSupplierLinkLine, **Join Column:** itemSupplierLink_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

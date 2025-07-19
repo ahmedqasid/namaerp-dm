@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LGTIssue
+</div>
+
 **Arabic:** إصدار خطاب ضمان - إصدار خطابات ضمان
 **English:** LGT Issue - LGTs Issue
 

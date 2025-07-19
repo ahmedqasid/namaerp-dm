@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AutoSalesPricingSetting
+</div>
+
 **Arabic:** إعدادات تسعير مبيعات آلي - إعدادات تسعيرات مبيعات آلية
 **English:** Auto Sales Pricing Setting - Auto Sales Pricing Settings
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPADiscipline
+</div>
+
 **Arabic:** تخصص - التخصصات
 **English:** CPA Discipline - CPA Disciplines
 

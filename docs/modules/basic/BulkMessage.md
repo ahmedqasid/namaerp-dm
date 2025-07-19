@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BulkMessage
+</div>
+
 **Arabic:** رسالة مجمعة - رسائل مجمعة
 **English:** Bulk message - Bulk Messages
 
@@ -946,7 +952,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** BulkMessageLine, **Join Column:** bulkMessage_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

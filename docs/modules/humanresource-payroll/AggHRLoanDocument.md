@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggHRLoanDocument
+</div>
+
 **Arabic:** سند سلفة مجمعة - سندات السلف المجمعة
 **English:** Aggregated Loan Document - Aggregated Loan Documents
 
@@ -1102,7 +1108,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggHRLoanDocumentLine, **Join Column:** aggHRLoanDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

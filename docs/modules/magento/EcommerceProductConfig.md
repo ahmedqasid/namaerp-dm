@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EcommerceProductConfig
+</div>
+
 **Arabic:** إعدادات منتج بالمتجر الالكتروني - ملفات إعدادات منتج بالمتجر الالكتروني
 **English:** Ecommerce Product Configuration - Ecommerce Product Configurations
 
@@ -820,7 +826,13 @@
 <div id='categoryLines' title='categoryLines' class='searchable'>
 
 ## categoryLines (Category Lines - Category Lines)
+
+<div class='tableName'>
+
 **Table Name:** EcommerceProductConfigCategoryLine, **Join Column:** ecommerceProductConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -863,7 +875,13 @@
 <div id='customAttributesLines' title='customAttributesLines' class='searchable'>
 
 ## customAttributesLines (Product Custom Attributes Lines - Product Custom Attributes Lines)
+
+<div class='tableName'>
+
 **Table Name:** EcommerceProductConfigCustomAttributesLine, **Join Column:** ecommerceProductConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -915,7 +933,13 @@
 <div id='galleryLines' title='galleryLines' class='searchable'>
 
 ## galleryLines (سطور العرض بالمتجر الالكتروني - Gallery Lines)
+
+<div class='tableName'>
+
 **Table Name:** EcommerceProductConfigGalleryLine, **Join Column:** ecommerceProductConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -988,7 +1012,13 @@
 <div id='productAttributesLines' title='productAttributesLines' class='searchable'>
 
 ## productAttributesLines (Product Attributes Lines - Product Attributes Lines)
+
+<div class='tableName'>
+
 **Table Name:** EcommerceProductConfigAttributesLine, **Join Column:** ecommerceProductConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

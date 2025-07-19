@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FreeItemGroup
+</div>
+
 **Arabic:** مجموعة مجانية - مجموعات مجانية
 **English:** Free Group - Free Groups
 
@@ -775,7 +781,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FreeGroupLine, **Join Column:** freeItemGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

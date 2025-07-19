@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUP0Procedure
+</div>
+
 **Arabic:** إجراء  مرحلة التمهيد للتخطيط - إجراءات  مرحلة التمهيد للتخطيط
 **English:** Boot Planing Procedure - Boot Planing Procedures
 
@@ -883,7 +889,13 @@
 <div id='p0Procedures' title='p0Procedures' class='searchable'>
 
 ## p0Procedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP0Line, **Join Column:** aUP0Procedure_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

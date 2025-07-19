@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SecurityProfileTransfer
+</div>
+
 **Arabic:** صلاحيات إضافية مؤقته -  صلاحيات إضافية مؤقته
 **English:** Security Profile Transfer -  Security Profile Transfer
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SecurityProfileTransferLine, **Join Column:** securityProfileTransfer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

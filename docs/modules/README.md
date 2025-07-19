@@ -1,4 +1,5 @@
 # Modules
+  - [Search](/modules/full-search.md)
   - [Accounting](/modules/accounting/)
     - [AccDistribution](/modules/accounting/AccDistribution.md)
     - [Account](/modules/accounting/Account.md)

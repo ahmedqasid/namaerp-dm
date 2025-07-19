@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # StartStockTaking
+</div>
+
 **Arabic:** بداية جرد مخزني - بدء جرد مخزني
 **English:** Start Stock Taking
 
@@ -967,7 +973,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** StartStockTakingLine, **Join Column:** startStockTaking_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

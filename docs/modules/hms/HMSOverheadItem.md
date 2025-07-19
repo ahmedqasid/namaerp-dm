@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSOverheadItem
+</div>
+
 **Arabic:** بند تكاليف طبية غير مباشرة - بنود تكاليف طبية غير مباشرة
 **English:** Medical Overhead Item - Medical Overhead Items
 
@@ -796,7 +802,13 @@
 <div id='actualValueCalcMethodLines' title='actualValueCalcMethodLines' class='searchable'>
 
 ## actualValueCalcMethodLines (طريقة حساب القيمة الفعلية - Actual Value Calculation Method Lines)
+
+<div class='tableName'>
+
 **Table Name:** HMSActualValueCalcMethodLine, **Join Column:** hMSOverheadItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -941,7 +953,13 @@
 <div id='actualValueDistributionLines' title='actualValueDistributionLines' class='searchable'>
 
 ## actualValueDistributionLines (توزيع القيمة الفعلية على أنواع الفواتير - Actual Value Distribution Lines)
+
+<div class='tableName'>
+
 **Table Name:** HMSActualValueDistributionLine, **Join Column:** hMSOverheadItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

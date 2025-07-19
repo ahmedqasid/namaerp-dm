@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvCInspectionDoc
+</div>
+
 **Arabic:** سند فحص و استلام - سندات فحص و استلام
 **English:** Product Inspection Document - Product Inspection Doccuments
 
@@ -1696,7 +1702,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SrvCInspectionDocLine, **Join Column:** srvCInspectionDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

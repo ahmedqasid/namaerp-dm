@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAClassification5
+</div>
+
 **Arabic:** تصنيف أصل ثابت 5 - تصنيفات أصل ثابت 5
 **English:** Fixed Asset Classification5 - Fixed Asset Classifications5
 

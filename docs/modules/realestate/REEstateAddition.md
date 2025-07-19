@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REEstateAddition
+</div>
+
 **Arabic:** سند تعلية عقار - سندات تعلية عقار
 **English:** RE Estate Addition - RE Estate Additions
 
@@ -886,7 +892,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** REEstateAdditionLine, **Join Column:** rEEstateAddition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

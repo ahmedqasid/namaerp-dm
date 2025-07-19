@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LawArticle
+</div>
+
 **Arabic:** مادة قانون - مواد القانون
 **English:** Law Article - Law Articles
 

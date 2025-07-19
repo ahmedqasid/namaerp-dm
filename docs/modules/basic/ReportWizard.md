@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ReportWizard
+</div>
+
 **Arabic:** أداة إنشاء تقرير - أداة إنشاء تقارير
 **English:** Report Wizard - Report Wizards
 
@@ -2422,7 +2428,13 @@
 <div id='conditionalStyleLines1' title='conditionalStyleLines1' class='searchable'>
 
 ## conditionalStyleLines1 (جدول التنسيق الشرطي 1 - Conditional Style 1 Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardConditionalStyleLine1, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2486,7 +2498,13 @@
 <div id='conditionalStyleLines2' title='conditionalStyleLines2' class='searchable'>
 
 ## conditionalStyleLines2 (جدول التنسيق الشرطي 2 - Conditional Style 2 Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardConditionalStyleLine2, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2550,7 +2568,13 @@
 <div id='conditionalStyleLines3' title='conditionalStyleLines3' class='searchable'>
 
 ## conditionalStyleLines3 (جدول التنسيق الشرطي 3 - Conditional Style 3 Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardConditionalStyleLine3, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2614,7 +2638,13 @@
 <div id='conditionalStyleLines4' title='conditionalStyleLines4' class='searchable'>
 
 ## conditionalStyleLines4 (جدول التنسيق الشرطي 4 - Conditional Style 4 Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardConditionalStyleLine4, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2678,7 +2708,13 @@
 <div id='conditionalStyleLines5' title='conditionalStyleLines5' class='searchable'>
 
 ## conditionalStyleLines5 (جدول التنسيق الشرطي 5 - Conditional Style 5 Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardConditionalStyleLine5, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2742,7 +2778,13 @@
 <div id='crosstabColumns' title='crosstabColumns' class='searchable'>
 
 ## crosstabColumns (الأعمدة - Columns)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardCrosstabColumnFieldLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3187,7 +3229,13 @@
 <div id='crosstabMeasures' title='crosstabMeasures' class='searchable'>
 
 ## crosstabMeasures (المعادلات - Measures)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardCrosstabMeasureLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3641,7 +3689,13 @@
 <div id='crosstabRows' title='crosstabRows' class='searchable'>
 
 ## crosstabRows (الصفوف - Rows)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardCrosstabRowFieldLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4086,7 +4140,13 @@
 <div id='dataSource1FilterLines' title='dataSource1FilterLines' class='searchable'>
 
 ## dataSource1FilterLines (سطور الفلترة لمصدر البيانات 1 - Data Source 1 Filter Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardDataSource1FilterLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4165,7 +4225,13 @@
 <div id='dataSource1LinkingLines' title='dataSource1LinkingLines' class='searchable'>
 
 ## dataSource1LinkingLines (سطور الربط مع التقرير لمصدر البيانات 1 - Data Source 1 Linking Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardDataSource1LinkingLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4244,7 +4310,13 @@
 <div id='dataSource2FilterLines' title='dataSource2FilterLines' class='searchable'>
 
 ## dataSource2FilterLines (سطور الفلترة لمصدر البيانات 2 - Data Source 2 Filter Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardDataSource2FilterLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4323,7 +4395,13 @@
 <div id='dataSource2LinkingLines' title='dataSource2LinkingLines' class='searchable'>
 
 ## dataSource2LinkingLines (سطور الربط مع التقرير لمصدر البيانات 2 - Data Source 2 Linking Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardDataSource2LinkingLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4402,7 +4480,13 @@
 <div id='dataSource3FilterLines' title='dataSource3FilterLines' class='searchable'>
 
 ## dataSource3FilterLines (سطور الفلترة لمصدر البيانات 3 - Data Source 3 Filter Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardDataSource3FilterLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4481,7 +4565,13 @@
 <div id='dataSource3LinkingLines' title='dataSource3LinkingLines' class='searchable'>
 
 ## dataSource3LinkingLines (سطور الربط مع التقرير لمصدر البيانات 3 - Data Source 3 Linking Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardDataSource3LinkingLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4560,7 +4650,13 @@
 <div id='dataSource4FilterLines' title='dataSource4FilterLines' class='searchable'>
 
 ## dataSource4FilterLines (سطور الفلترة لمصدر البيانات 4 - Data Source 4 Filter Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardDataSource4FilterLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4639,7 +4735,13 @@
 <div id='dataSource4LinkingLines' title='dataSource4LinkingLines' class='searchable'>
 
 ## dataSource4LinkingLines (سطور الربط مع التقرير لمصدر البيانات 4 - Data Source 4 Linking Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardDataSource4LinkingLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4718,7 +4820,13 @@
 <div id='dataSource5FilterLines' title='dataSource5FilterLines' class='searchable'>
 
 ## dataSource5FilterLines (سطور الفلترة لمصدر البيانات 5 - Data Source 5 Filter Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardDataSource5FilterLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4797,7 +4905,13 @@
 <div id='dataSource5LinkingLines' title='dataSource5LinkingLines' class='searchable'>
 
 ## dataSource5LinkingLines (سطور الربط مع التقرير لمصدر البيانات 5 - Data Source 5 Linking Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardDataSource5LinkingLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4876,7 +4990,13 @@
 <div id='fields' title='fields' class='searchable'>
 
 ## fields (الحقول - Fields)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardFieldLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5339,7 +5459,13 @@
 <div id='group1FooterCustomExpressionLines' title='group1FooterCustomExpressionLines' class='searchable'>
 
 ## group1FooterCustomExpressionLines (Group 1 Footer Custom Expression Lines - Group 1 Footer Custom Expression Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardGroup1FooterCustomExpressionLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5802,7 +5928,13 @@
 <div id='group1HeaderCustomExpressionLines' title='group1HeaderCustomExpressionLines' class='searchable'>
 
 ## group1HeaderCustomExpressionLines (Group 1 Header Custom Expression Lines - Group 1 Header Custom Expression Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardGroup1HeaderCustomExpressionLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -6265,7 +6397,13 @@
 <div id='group1Lines' title='group1Lines' class='searchable'>
 
 ## group1Lines (سطور المجموعة 1 - Group 1 Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardGroup1Line, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -6728,7 +6866,13 @@
 <div id='group2FooterCustomExpressionLines' title='group2FooterCustomExpressionLines' class='searchable'>
 
 ## group2FooterCustomExpressionLines (Group 2 Footer Custom Expression Lines - Group 2 Footer Custom Expression Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardGroup2FooterCustomExpressionLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -7191,7 +7335,13 @@
 <div id='group2HeaderCustomExpressionLines' title='group2HeaderCustomExpressionLines' class='searchable'>
 
 ## group2HeaderCustomExpressionLines (Group 2 Header Custom Expression Lines - Group 2 Header Custom Expression Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardGroup2HeaderCustomExpressionLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -7654,7 +7804,13 @@
 <div id='group2Lines' title='group2Lines' class='searchable'>
 
 ## group2Lines (سطور المجموعة 2 - Group 2 Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardGroup2Line, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -8117,7 +8273,13 @@
 <div id='group3FooterCustomExpressionLines' title='group3FooterCustomExpressionLines' class='searchable'>
 
 ## group3FooterCustomExpressionLines (Group 3 Footer Custom Expression Lines - Group 3 Footer Custom Expression Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardGroup3FooterCustomExpressionLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -8580,7 +8742,13 @@
 <div id='group3HeaderCustomExpressionLines' title='group3HeaderCustomExpressionLines' class='searchable'>
 
 ## group3HeaderCustomExpressionLines (Group 3 Header Custom Expression Lines - Group 3 Header Custom Expression Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardGroup3HeaderCustomExpressionLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -9043,7 +9211,13 @@
 <div id='group3Lines' title='group3Lines' class='searchable'>
 
 ## group3Lines (سطور المجموعة 3 - Group 3 Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardGroup3Line, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -9506,7 +9680,13 @@
 <div id='group4FooterCustomExpressionLines' title='group4FooterCustomExpressionLines' class='searchable'>
 
 ## group4FooterCustomExpressionLines (Group 4 Footer Custom Expression Lines - Group 4 Footer Custom Expression Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardGroup4FooterCustomExpressionLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -9969,7 +10149,13 @@
 <div id='group4HeaderCustomExpressionLines' title='group4HeaderCustomExpressionLines' class='searchable'>
 
 ## group4HeaderCustomExpressionLines (Group 4 Header Custom Expression Lines - Group 4 Header Custom Expression Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardGroup4HeaderCustomExpressionLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -10432,7 +10618,13 @@
 <div id='group4Lines' title='group4Lines' class='searchable'>
 
 ## group4Lines (سطور المجموعة 4 - Group 4 Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardGroup4Line, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -10895,7 +11087,13 @@
 <div id='group5FooterCustomExpressionLines' title='group5FooterCustomExpressionLines' class='searchable'>
 
 ## group5FooterCustomExpressionLines (Group 5 Footer Custom Expression Lines - Group 5 Footer Custom Expression Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardGroup5FooterCustomExpressionLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -11358,7 +11556,13 @@
 <div id='group5HeaderCustomExpressionLines' title='group5HeaderCustomExpressionLines' class='searchable'>
 
 ## group5HeaderCustomExpressionLines (Group 5 Header Custom Expression Lines - Group 5 Header Custom Expression Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardGroup5HeaderCustomExpressionLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -11821,7 +12025,13 @@
 <div id='group5Lines' title='group5Lines' class='searchable'>
 
 ## group5Lines (سطور المجموعة 5 - Group 5 Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardGroup5Line, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -12284,7 +12494,13 @@
 <div id='headerComponents' title='headerComponents' class='searchable'>
 
 ## headerComponents (Header Components - Header Components)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardComponent, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -12483,7 +12699,13 @@
 <div id='includeTablesByParameters' title='includeTablesByParameters' class='searchable'>
 
 ## includeTablesByParameters (تضمين الجداول بشرط من خلال مدخلات - Include Tables By Parameters)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardIncludeTablesByParameters, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -12634,7 +12856,13 @@
 <div id='jasperSortFieldsLines' title='jasperSortFieldsLines' class='searchable'>
 
 ## jasperSortFieldsLines (Jasper Sort Fields Lines - Jasper Sort Fields Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardJasperSortFieldsLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -12704,7 +12932,13 @@
 <div id='jasperVariables' title='jasperVariables' class='searchable'>
 
 ## jasperVariables (Jasper Variables - Jasper Variables)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardJasperVariablesLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -12801,7 +13035,13 @@
 <div id='parameters' title='parameters' class='searchable'>
 
 ## parameters (المدخلات - Parameters)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardParameterLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -13471,7 +13711,13 @@
 <div id='printWhenExpressionLines' title='printWhenExpressionLines' class='searchable'>
 
 ## printWhenExpressionLines (Print When Expression - Print When Expression)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardPrintWhenExpressionLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -13532,7 +13778,13 @@
 <div id='securityConstraints' title='securityConstraints' class='searchable'>
 
 ## securityConstraints (Security Constraints - Security Constraints)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardSecurityConstraints, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -13656,7 +13908,13 @@
 <div id='sortFields' title='sortFields' class='searchable'>
 
 ## sortFields (حقول الترتيب - Sort Fields)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardSortFieldLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -14119,7 +14377,13 @@
 <div id='unionTables' title='unionTables' class='searchable'>
 
 ## unionTables (Union Tables - Union Tables)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardEntityTypes, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -14162,7 +14426,13 @@
 <div id='userAliases' title='userAliases' class='searchable'>
 
 ## userAliases (User Aliases - User Aliases)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardUserAliasesLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -14232,7 +14502,13 @@
 <div id='whereLines' title='whereLines' class='searchable'>
 
 ## whereLines (Where Lines - Where Lines)
+
+<div class='tableName'>
+
 **Table Name:** ReportWizardWhereLine, **Join Column:** reportWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

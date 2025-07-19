@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # OnlinePaymentConfig
+</div>
+
 **Arabic:** Online Payment Configuration - Online Payment Configuration Files
 **English:** Online Payment Configuration - Online Payment Configuration Files
 
@@ -1153,7 +1159,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** OnlinePaymentConfigLine, **Join Column:** onlinePaymentConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1370,7 +1382,13 @@
 <div id='fieldsMapLines' title='fieldsMapLines' class='searchable'>
 
 ## fieldsMapLines (قوالب قيم الحقول - Fields Map Lines)
+
+<div class='tableName'>
+
 **Table Name:** OnlinePaymentConfigFieldsMap, **Join Column:** onlinePaymentConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1422,7 +1440,13 @@
 <div id='holidays' title='holidays' class='searchable'>
 
 ## holidays (العٌطلات الرسمية - Holidays)
+
+<div class='tableName'>
+
 **Table Name:** OnlinePaymentConfigHolidaysLine, **Join Column:** onlinePaymentConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1474,7 +1498,13 @@
 <div id='paymentLinksCreationDocSubsidiarySourceLines' title='paymentLinksCreationDocSubsidiarySourceLines' class='searchable'>
 
 ## paymentLinksCreationDocSubsidiarySourceLines (مصدر الذمة بسند إنشاء روابط دفع - Payment Links Creation Document Subsidiary Source Lines)
+
+<div class='tableName'>
+
 **Table Name:** PaymentLinksCreationDocSubsidiarySourceLine, **Join Column:** onlinePaymentConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

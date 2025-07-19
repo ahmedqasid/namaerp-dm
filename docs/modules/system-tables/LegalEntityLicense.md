@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LegalEntityLicense
+</div>
+
 
 <ContentFilter/>
 

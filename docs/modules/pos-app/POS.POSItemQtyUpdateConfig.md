@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSItemQtyUpdateConfig (Table Name: POSItemQtyUpdateConfig)
+</div>
+
 **Arabic:** إعدادات تحديث كميات الماكينة - ملفات إعدادات تحديث كميات الماكينة
 **English:** POS Item Quantity Update Configuration - POS Item Quantity Update Configurations
 

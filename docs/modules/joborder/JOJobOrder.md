@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JOJobOrder
+</div>
+
 **Arabic:** أمر شغل زجاج جديد - أوامر شغل زجاج جديد
 **English:** New Glass Job Order - New Glass Job Orders
 
@@ -994,7 +1000,13 @@
 <div id='damageDocLines' title='damageDocLines' class='searchable'>
 
 ## damageDocLines (مستندات تالفة - Damage Docs)
+
+<div class='tableName'>
+
 **Table Name:** JOJobOrderDamageDocLine, **Join Column:** jOJobOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1040,7 +1052,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** JOJobOrderLine, **Join Column:** jOJobOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4077,7 +4095,13 @@
 <div id='salesOrderLines' title='salesOrderLines' class='searchable'>
 
 ## salesOrderLines (أوامر البيع - Sales Order lines)
+
+<div class='tableName'>
+
 **Table Name:** JOJobOrderSalesOrderLine, **Join Column:** jOJobOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

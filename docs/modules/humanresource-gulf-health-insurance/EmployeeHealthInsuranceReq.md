@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EmployeeHealthInsuranceReq
+</div>
+
 **Arabic:** طلب إضافة موظف للتأمين - طلبات إضافة موظف للتأمين
 **English:** Employee Health Insurance Request - Employee Health Insurance Requests
 
@@ -1042,7 +1048,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** EmpHealthInsuranceReqLine, **Join Column:** employeeHealthInsuranceReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

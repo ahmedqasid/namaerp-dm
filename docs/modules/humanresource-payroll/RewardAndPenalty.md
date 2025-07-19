@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RewardAndPenalty
+</div>
+
 **Arabic:** نوع مكافأة / جزاء - أنواع مكافأت / جزاءات
 **English:** Reward / Penalty - Rewards / Penalties
 
@@ -1453,7 +1459,13 @@
 <div id='components' title='components' class='searchable'>
 
 ## components (أنواع المفردات - Component Types)
+
+<div class='tableName'>
+
 **Table Name:** RewardPenaltyComponent, **Join Column:** rewardAndPenalty_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1628,7 +1640,13 @@
 <div id='creditAccountLines' title='creditAccountLines' class='searchable'>
 
 ## creditAccountLines (الحسابات - Credit Accounts)
+
+<div class='tableName'>
+
 **Table Name:** RewardPenaltyCRAccLine, **Join Column:** rewardAndPenalty_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2205,7 +2223,13 @@
 <div id='debitAccountLines' title='debitAccountLines' class='searchable'>
 
 ## debitAccountLines (الحسابات - Debit Accounts)
+
+<div class='tableName'>
+
 **Table Name:** RewardPenaltyDrAccLine, **Join Column:** rewardAndPenalty_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

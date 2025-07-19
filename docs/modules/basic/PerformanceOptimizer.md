@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PerformanceOptimizer
+</div>
+
 **Arabic:** إعدادات لتحسين الأداء
 **English:** Performance Optimizer - Performance Optimizers
 
@@ -757,7 +763,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PerformanceOptimizerLine, **Join Column:** performanceOptimizer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

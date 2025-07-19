@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ChargeItem
+</div>
+
 **Arabic:** صنف شحن إلكترونى - أصناف شحن إلكترونى
 **English:** Charge Item - Charge Items
 
@@ -1108,7 +1114,13 @@
 <div id='priceList' title='priceList' class='searchable'>
 
 ## priceList ( - )
+
+<div class='tableName'>
+
 **Table Name:** ChargeItemPrice, **Join Column:** chargeItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RegulationCirculars
+</div>
+
 **Arabic:** تعميم لائحة - تعاميم لائحة
 **English:** Regulation Circulation - Regulation Circulars
 

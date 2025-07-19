@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REFineDocType
+</div>
+
 **Arabic:** تصنيف الغرامة - تصنيف الغرامات
 **English:** Fine doc type - Fine doc types
 

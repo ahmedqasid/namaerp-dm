@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BusinessRequestStatus
+</div>
+
 **Arabic:** Business Request Status
 **English:** Business Request Status
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggregatedVacationStartingDoc
+</div>
+
 **Arabic:** سند مباشرة عمل أجازة مجمعة - سندات مباشرة عمل أجازة مجمعة
 **English:** Aggregated Vacation work Starting document - Aggregated Vacation work Starting documents
 
@@ -973,7 +979,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggrVacationStartDocLine, **Join Column:** aggregatedVacationStartingDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

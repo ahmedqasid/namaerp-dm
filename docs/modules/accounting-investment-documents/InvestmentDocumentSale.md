@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InvestmentDocumentSale
+</div>
+
 **Arabic:** مستند بيع وثيقة - سندات بيع وثائق
 **English:** Investment Document Sale - Investment Document Sales
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ProcessingDoc
+</div>
+
 **Arabic:** سند معالجة - سندات المعالجة
 **English:** Processing Document - Processing Documents
 
@@ -1297,7 +1303,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PDRawMaterialsLine, **Join Column:** processingDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2189,7 +2201,13 @@
 <div id='directLaborLines' title='directLaborLines' class='searchable'>
 
 ## directLaborLines (سطور العمالة المباشرة - Direct Labor Lines)
+
+<div class='tableName'>
+
 **Table Name:** PDDirectLaborLine, **Join Column:** processingDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2370,7 +2388,13 @@
 <div id='generatedDocLines' title='generatedDocLines' class='searchable'>
 
 ## generatedDocLines ( المستندات المنشأه -  Generated Documents)
+
+<div class='tableName'>
+
 **Table Name:** PDGeneratedDocLine, **Join Column:** processingDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2422,7 +2446,13 @@
 <div id='indirectCosts' title='indirectCosts' class='searchable'>
 
 ## indirectCosts (التكاليف الغير مباشرة - Indirect Costs)
+
+<div class='tableName'>
+
 **Table Name:** PDIndirectCostsLine, **Join Column:** processingDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2552,7 +2582,13 @@
 <div id='indirectMaterials' title='indirectMaterials' class='searchable'>
 
 ## indirectMaterials (المواد الخام المساعدة - Indirect Materials)
+
+<div class='tableName'>
+
 **Table Name:** PDIndirectMaterialsLine, **Join Column:** processingDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3462,7 +3498,13 @@
 <div id='outputsMaterials' title='outputsMaterials' class='searchable'>
 
 ## outputsMaterials (المخرجات - Outputs Materials)
+
+<div class='tableName'>
+
 **Table Name:** PDOutputsMaterialsLine, **Join Column:** processingDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

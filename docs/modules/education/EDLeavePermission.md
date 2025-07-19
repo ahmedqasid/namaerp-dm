@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDLeavePermission
+</div>
+
 **Arabic:** إذن انصراف دراسي - أذونات الانصراف الدراسية
 **English:** Education Leave Permission - Education Leave Permissions
 

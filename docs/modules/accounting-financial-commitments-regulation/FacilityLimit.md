@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FacilityLimit
+</div>
+
 **Arabic:** حد التسهيلات - حدود التسهيلات
 **English:** Facility Limit - Facility Limits
 
@@ -757,7 +763,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FacilityLimitLine, **Join Column:** facilityLimit_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

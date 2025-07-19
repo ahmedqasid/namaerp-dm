@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSBloodBankReturn
+</div>
+
 **Arabic:** مردودات بنوك الدم
 **English:** Blood Bank Return - Blood Bank Returns
 
@@ -2323,7 +2329,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSBloodBankReturnLine, **Join Column:** hMSBloodBankReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

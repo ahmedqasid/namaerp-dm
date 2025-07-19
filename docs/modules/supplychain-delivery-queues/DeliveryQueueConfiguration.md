@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DeliveryQueueConfiguration
+</div>
+
 **Arabic:** ملف إعدادات طابور التسليم - ملفات إعدادات طوابير التسليم
 **English:** Delivery Queue Configuration - Delivery Queue Configuration Files
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DeliveryQueueConfigLine, **Join Column:** deliveryQueueConfiguration_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

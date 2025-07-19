@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSStockTakingDetails
+</div>
+
 **Arabic:** لجنة جرد نقط بيع - لجان جرد نقط بيع
 **English:** Point of Sale StockTaking Details Document - Point of Sale StockTaking Details Documents
 
@@ -1300,7 +1306,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSStockTakingLine, **Join Column:** namaPOSStockTakingDetails_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

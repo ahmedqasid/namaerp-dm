@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # StockReceiptCancellation
+</div>
+
 **Arabic:** سند إلغاء توريد - سندات إلغاء توريد
 **English:** Stock Receipt Cancellation - Stock Receipt Cancellations
 
@@ -1276,7 +1282,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** StockReceiptCancelLine, **Join Column:** stockReceiptCancellation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

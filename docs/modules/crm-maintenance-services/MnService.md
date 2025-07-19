@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnService
+</div>
+
 **Arabic:** خدمة صيانة - خدمات صيانة
 **English:** Maintenance Service - Maintenance Services
 
@@ -808,7 +814,13 @@
 <div id='tasks' title='tasks' class='searchable'>
 
 ## tasks (المهام - Tasks)
+
+<div class='tableName'>
+
 **Table Name:** MnServiceTaskLine, **Join Column:** mnService_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

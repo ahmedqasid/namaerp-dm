@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DashBoardWidgetWizard
+</div>
+
 **Arabic:** أداة إنشاء عنصر لوحة
 **English:** Dashboard Widget Wizard
 
@@ -796,7 +802,13 @@
 <div id='fields' title='fields' class='searchable'>
 
 ## fields (الحقول - Fields)
+
+<div class='tableName'>
+
 **Table Name:** DashBoardWidgetWizardFieldLine, **Join Column:** dashBoardWidgetWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1241,7 +1253,13 @@
 <div id='parameters' title='parameters' class='searchable'>
 
 ## parameters (المدخلات - Parameters)
+
+<div class='tableName'>
+
 **Table Name:** DashBoardWidgetWizardParameterLine, **Join Column:** dashBoardWidgetWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1911,7 +1929,13 @@
 <div id='securityConstraints' title='securityConstraints' class='searchable'>
 
 ## securityConstraints (Security Constraints - Security Constraints)
+
+<div class='tableName'>
+
 **Table Name:** DashBoardWidgetWizardSecurityConstraints, **Join Column:** dashBoardWidgetWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2035,7 +2059,13 @@
 <div id='sortFields' title='sortFields' class='searchable'>
 
 ## sortFields (حقول الترتيب - Sort Fields)
+
+<div class='tableName'>
+
 **Table Name:** DashBoardWidgetWizardSortFieldLine, **Join Column:** dashBoardWidgetWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2498,7 +2528,13 @@
 <div id='unionTables' title='unionTables' class='searchable'>
 
 ## unionTables (Union Tables - Union Tables)
+
+<div class='tableName'>
+
 **Table Name:** DashBoardWidgetWizardUnionTablesLine, **Join Column:** dashBoardWidgetWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2541,7 +2577,13 @@
 <div id='userAliases' title='userAliases' class='searchable'>
 
 ## userAliases (User Aliases - User Aliases)
+
+<div class='tableName'>
+
 **Table Name:** DashBoardWidgetWizardUserAliasesLine, **Join Column:** dashBoardWidgetWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2611,7 +2653,13 @@
 <div id='whereLines' title='whereLines' class='searchable'>
 
 ## whereLines (Where Lines - Where Lines)
+
+<div class='tableName'>
+
 **Table Name:** DashBoardWidgetWizardWhereLine, **Join Column:** dashBoardWidgetWizard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

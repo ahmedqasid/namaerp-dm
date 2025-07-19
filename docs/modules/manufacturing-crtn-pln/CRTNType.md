@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRTNType
+</div>
+
 **Arabic:** نوع الكرتونه - أنواع الكرتونه
 **English:** CRTN Type - CRTN Types
 

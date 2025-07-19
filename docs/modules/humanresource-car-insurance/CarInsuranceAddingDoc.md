@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CarInsuranceAddingDoc
+</div>
+
 **Arabic:** سند إضافة تأمين سيارات - سندات إضافة تأمين سيارات
 **English:** Car Insurance Adding Document - Car Insurance Adding Documents
 
@@ -1150,7 +1156,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CarInsuranceAddingDocLine, **Join Column:** carInsuranceAddingDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1481,7 +1493,13 @@
 <div id='installmentDetails' title='installmentDetails' class='searchable'>
 
 ## installmentDetails (تفاصيل القسط - Installment Details)
+
+<div class='tableName'>
+
 **Table Name:** AddingDocInstallmentLine, **Join Column:** carInsuranceAddingDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

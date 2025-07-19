@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RawMaterialReturn
+</div>
+
 **Arabic:** إرتجاع مواد خام - إرتجاع المواد الخام
 **English:** Raw Materials Return
 
@@ -1477,7 +1483,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MaterialReturnLine, **Join Column:** rawMaterialReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

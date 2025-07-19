@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPATaskType
+</div>
+
 **Arabic:** نوع المهمة - أنواع المهام
 **English:** Task Type - Task Types
 

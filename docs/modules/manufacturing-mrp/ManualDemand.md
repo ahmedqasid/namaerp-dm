@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ManualDemand
+</div>
+
 **Arabic:** سند طلب يدوي -  سند طلب يدوي
 **English:** Manual Demand -  Manual Demand
 
@@ -904,7 +910,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ManualDemandLine, **Join Column:** manualDemand_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

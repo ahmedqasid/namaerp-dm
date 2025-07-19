@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSHall (Table Name: POSHall)
+</div>
+
 **Arabic:** صالة نقاط البيع -  صالة نقاط البيع
 **English:** POS Hall -  POS Hall
 

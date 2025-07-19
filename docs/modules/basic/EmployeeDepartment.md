@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EmployeeDepartment
+</div>
+
 **Arabic:** إدارة موظف - إدارات موظفين
 **English:** Employee Department - Employee Departments
 

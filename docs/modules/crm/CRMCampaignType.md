@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMCampaignType
+</div>
+
 **Arabic:** نوع حملة - أنواع الحملات
 **English:** Campaign Type - Campaign Types
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REInvestorExit
+</div>
+
 **Arabic:** سند خروج مستثمرين - سندات خروج مستثمرين
 **English:** RE Investor Exit - RE Investor Exits
 
@@ -886,7 +892,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** REInvestorExitLine, **Join Column:** rEInvestorExit_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

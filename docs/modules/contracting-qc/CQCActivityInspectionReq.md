@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CQCActivityInspectionReq
+</div>
+
 **Arabic:** Activity Inspection Request - Activity Inspection Requests
 **English:** Activity Inspection Request - Activity Inspection Requests
 

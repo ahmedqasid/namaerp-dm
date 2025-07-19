@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MaterialClassification
+</div>
+
 **Arabic:** تصنيف الخامة - تصنيف الخامات
 **English:** Material Classification - Material Classifications
 

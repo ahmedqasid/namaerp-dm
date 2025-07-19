@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Responsibility
+</div>
+
 **Arabic:**  مسئولية - مسئوليات
 **English:**  Responsibility - Responsibilities
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ReceiptBook
+</div>
+
 **Arabic:** دفتر إيصالات - دفاتر إيصالات
 **English:** Receipt Book - Receipt Books
 

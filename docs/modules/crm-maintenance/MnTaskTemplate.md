@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnTaskTemplate
+</div>
+
 **Arabic:** قالب مهام - قوالب مهام
 **English:** Maintenance Task Template - Maintenance Task Templates
 
@@ -769,7 +775,13 @@
 <div id='tasks' title='tasks' class='searchable'>
 
 ## tasks (المهام - Tasks)
+
+<div class='tableName'>
+
 **Table Name:** MnTaskTemplateLine, **Join Column:** mnTaskTemplate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

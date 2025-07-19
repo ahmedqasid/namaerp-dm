@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContrTermCategory
+</div>
+
 **Arabic:** تصنيف بند مقاولة -  تصنيف بند مقاولة
 **English:** Term Category -  Term Category
 

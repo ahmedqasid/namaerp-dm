@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSTranslationOverrider (Table Name: POSTranslationOverrider)
+</div>
+
 **Arabic:** تغيير ترجمة - تغيير الترجمات
 **English:** Translation OverRider - Translations OverRider
 
@@ -253,7 +259,13 @@
 <div id='replacments' title='replacments' class='searchable'>
 
 ## replacments ( - )
+
+<div class='tableName'>
+
 **Table Name:** POSReplacementLine, **Join Column:** posTranslation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -317,7 +329,13 @@
 <div id='translations' title='translations' class='searchable'>
 
 ## translations ( - )
+
+<div class='tableName'>
+
 **Table Name:** POSTranslationLine, **Join Column:** posTranslation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSRadiologyResult
+</div>
+
 **Arabic:** نتيجة أشعة - نتائج الأشعة
 **English:** Radiology Result - Radiology Results
 

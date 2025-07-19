@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AURelativeWeightsList
+</div>
+
 **Arabic:** نموذج مصفوفة المخاطر وحجم العينة - نماذج مصفوفة المخاطر وحجم العينة
 **English:** Sample Size Determination List - Sample Size Determination Lists
 
@@ -865,7 +871,13 @@
 <div id='weights' title='weights' class='searchable'>
 
 ## weights ( - )
+
+<div class='tableName'>
+
 **Table Name:** AURelativeWeightsListLine, **Join Column:** aURelativeWeightsList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

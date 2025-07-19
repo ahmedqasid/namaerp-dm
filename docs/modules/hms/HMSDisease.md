@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSDisease
+</div>
+
 **Arabic:** مرض - الأمراض
 **English:** Disease - Diseases
 

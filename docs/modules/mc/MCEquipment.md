@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MCEquipment
+</div>
+
 **Arabic:** معدات - المعدات
 **English:** MC Equipment - MC Equipments
 

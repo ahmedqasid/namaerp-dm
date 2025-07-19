@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RegulationChapter
+</div>
+
 **Arabic:** فصل لائحة - فصول اللاوائح
 **English:** Regulation Chapter - Regulation Chapters
 

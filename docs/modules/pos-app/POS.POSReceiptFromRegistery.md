@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSReceiptFromRegistery (Table Name: POSReceiptFromRegistery)
+</div>
+
 **Arabic:** مقبوض نقاط البيع - مقبوضات نقاط البيع
 **English:** POS Receipt - POS Receipts
 

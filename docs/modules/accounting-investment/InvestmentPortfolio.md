@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InvestmentPortfolio
+</div>
+
 **Arabic:** محفظة اسثمارية - محافظ استثمارية
 **English:** Investment Portfolio - Investment Portfolios
 

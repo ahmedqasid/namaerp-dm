@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSInventory (Table Name: POSInventory)
+</div>
+
 **Arabic:** جرد - مستندات جرد
 **English:** POS Cash Drawer
 
@@ -322,7 +328,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSInventoryLine, **Join Column:** inventory_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

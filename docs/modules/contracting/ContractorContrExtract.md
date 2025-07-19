@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractorContrExtract
+</div>
+
 **Arabic:** مستخلص مقاول باطن - مستخلصات مقاول باطن
 **English:** Contractor Contract Extract -  Contractor Contract Extract
 
@@ -1693,7 +1699,13 @@
 <div id='additionalInfo' title='additionalInfo' class='searchable'>
 
 ## additionalInfo (بيانات أصافية - Additional Info)
+
+<div class='tableName'>
+
 **Table Name:** ContractorExtractInfoLine, **Join Column:** contractorContrExtract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1979,7 +1991,13 @@
 <div id='conditions' title='conditions' class='searchable'>
 
 ## conditions (الشروط - Conditions)
+
+<div class='tableName'>
+
 **Table Name:** ContractorExtractCondLine, **Join Column:** contractorContrExtract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2265,7 +2283,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ContractorContrExtractLine, **Join Column:** contractorContrExtract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3694,7 +3718,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** ContrExtractExternalPayLine, **Join Column:** contractorContrExtract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3845,7 +3875,13 @@
 <div id='phaseTermLines' title='phaseTermLines' class='searchable'>
 
 ## phaseTermLines (بنود المراحل - Term Phase Lines)
+
+<div class='tableName'>
+
 **Table Name:** ContractorContrExtractPhaseTermLine, **Join Column:** contractorContrExtract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5979,7 +6015,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** ContrExtractSchedulPayLine, **Join Column:** contractorContrExtract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

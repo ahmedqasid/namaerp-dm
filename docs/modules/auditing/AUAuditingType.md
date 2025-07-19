@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUAuditingType
+</div>
+
 **Arabic:** عملية - العمليات
 **English:** Auditing Operation - Auditing Operations
 
@@ -748,7 +754,13 @@
 <div id='phases' title='phases' class='searchable'>
 
 ## phases (المراحل - Phases or Cycles)
+
+<div class='tableName'>
+
 **Table Name:** AUAuditingTypeLine, **Join Column:** aUAuditingType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPInvestmentStart
+</div>
+
 **Arabic:** فتح استثمار - فتح الاستثمارات
 **English:** Investment Start - Investments Start
 

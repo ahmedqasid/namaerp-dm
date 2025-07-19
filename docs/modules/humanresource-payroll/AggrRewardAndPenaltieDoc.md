@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggrRewardAndPenaltieDoc
+</div>
+
 **Arabic:** سند مكافأه - جزاء مجمع -  سند مكافأه - جزاء مجمع
 **English:** Aggregated Reward And Penaltie Document -  Aggregated Reward And Penaltie Document
 
@@ -1390,7 +1396,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggrRewardPenaltieLine, **Join Column:** aggrRewardAndPenaltieDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

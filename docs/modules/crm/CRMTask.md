@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMTask
+</div>
+
 **Arabic:** مهمة خدمة عملاء - مهام خدمة عملاء
 **English:** CRM Task - CRM Tasks
 
@@ -1084,7 +1090,13 @@
 <div id='detailedTasks' title='detailedTasks' class='searchable'>
 
 ## detailedTasks (مهام تفصيلية - Detailed Tasks)
+
+<div class='tableName'>
+
 **Table Name:** CRMDetailedTasksLine, **Join Column:** cRMTask_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1394,7 +1406,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CRMTaskLine, **Join Column:** cRMTask_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

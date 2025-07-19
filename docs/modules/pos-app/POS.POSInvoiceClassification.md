@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSInvoiceClassification (Table Name: POSInvoiceClassification)
+</div>
+
 **Arabic:** تصنيف الفواتير
 **English:** InvoiceClassification
 

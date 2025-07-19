@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EndTrainingCourse
+</div>
+
 **Arabic:** إنهاء دورة تدريبية
 **English:** End Training Course - End Training Courses
 
@@ -949,7 +955,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** EndCourseSkillDevelopment, **Join Column:** endTrainingCourse_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RECollectDoc
+</div>
+
 **Arabic:** سند تحصيل - سندات تحصيل
 **English:** Collect Document - Collect Documents
 
@@ -1423,7 +1429,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RECollectDocLine, **Join Column:** rECollectDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

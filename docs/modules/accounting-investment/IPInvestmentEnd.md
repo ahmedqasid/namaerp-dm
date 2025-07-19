@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPInvestmentEnd
+</div>
+
 **Arabic:** إنهاء استثمار - إنهاء الاستثمارات
 **English:** Investment End - Investments End
 

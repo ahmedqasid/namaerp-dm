@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AttendanceIndicatorWaiver
+</div>
+
 **Arabic:** إعفاء من مؤشرات الحضور - إعفاءات من مؤشرات الحضور
 **English:** Attendance Indicator Waiver - Attendance Indicator Waivers
 
@@ -976,7 +982,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AttendanceIndicatorWaiverLine, **Join Column:** attendanceIndicatorWaiver_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

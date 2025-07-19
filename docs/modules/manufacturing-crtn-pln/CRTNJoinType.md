@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRTNJoinType
+</div>
+
 **Arabic:** نوع التقفيل - أنواع التقفيل
 **English:** CRTN Join Type - CRTN Join Types
 

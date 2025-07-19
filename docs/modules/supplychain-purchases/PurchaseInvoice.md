@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PurchaseInvoice
+</div>
+
 **Arabic:** فاتورة مشتريات - فواتير المشتريات
 **English:** Purchase Invoice - Purchase Invoices
 
@@ -2455,7 +2461,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseInvoiceLine, **Join Column:** purchaseInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4229,7 +4241,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseExternalPaymentLine, **Join Column:** purchaseInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4380,7 +4398,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseInvScheduledPayLine, **Join Column:** purchaseInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4645,7 +4669,13 @@
 <div id='stockDocs' title='stockDocs' class='searchable'>
 
 ## stockDocs (السندات المخزنية - Stock Documents)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseInvoiceReceipt, **Join Column:** purchaseInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4763,7 +4793,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseInvoiceStandardTermsLine, **Join Column:** purchaseInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # OpeningVacationBalanceDoc
+</div>
+
 **Arabic:** سند إدخال رصيد أجازة إفتتاحية - سندات إدخال رصيد أجازة إفتتاحية
 **English:** Opening Vacation Balance Document - Opening Vacation Balance Documents
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** OpeningVacationBalanceLine, **Join Column:** openingVacationBalanceDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

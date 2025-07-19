@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MCContractualJob
+</div>
+
 **Arabic:** وظيفة تعاقدية - وظائف تعاقدية
 **English:** MC Contractual Job
 
@@ -1102,7 +1108,13 @@
 <div id='responsibilities' title='responsibilities' class='searchable'>
 
 ## responsibilities ( مسئوليات -  Responsibilities)
+
+<div class='tableName'>
+
 **Table Name:** MCJobResponsibilityLine, **Join Column:** mCContractualJob_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1145,7 +1157,13 @@
 <div id='skills' title='skills' class='searchable'>
 
 ## skills (المهارات - Skills)
+
+<div class='tableName'>
+
 **Table Name:** MCJobSkillLine, **Join Column:** mCContractualJob_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

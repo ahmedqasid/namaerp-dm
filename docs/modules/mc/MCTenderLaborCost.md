@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MCTenderLaborCost
+</div>
+
 **Arabic:** تكاليف وظيفة تعاقدية - تكاليف وظائف تعاقدية
 **English:** MC Tender Labor Cost - MC Tender Labor Costs
 
@@ -760,7 +766,13 @@
 <div id='laborCostLines' title='laborCostLines' class='searchable'>
 
 ## laborCostLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** MCTenderLaborCostLine, **Join Column:** mCTenderLaborCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

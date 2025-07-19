@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractingDirectCost
+</div>
+
 **Arabic:** بند تكلفة مقاولات - بنود تكاليف مقاولات
 **English:** Contracting Direct Cost - Contracting Direct Costs
 

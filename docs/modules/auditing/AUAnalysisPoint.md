@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUAnalysisPoint
+</div>
+
 **Arabic:** نقاط نماذج المراجعة التحليلية
 **English:** Analytical Model Point - Analytical Model Points
 

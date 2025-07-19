@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MagentoItemLinker
+</div>
+
 **Arabic:** ملف ربط الأصناف بموقع ماجنتو - ملفات ربط الأصناف بموقع ماجنتو
 **English:** Magento Item Linker - Magento Item Linkers
 
@@ -760,7 +766,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MagentoItemLinkerLine, **Join Column:** magentoItemLinker_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

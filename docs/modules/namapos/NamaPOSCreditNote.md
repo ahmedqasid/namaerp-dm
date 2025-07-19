@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSCreditNote
+</div>
+
 **Arabic:** إشعار دائن نقاط البيع
 **English:** POS Credit Note - POS Credit Notes
 
@@ -799,7 +805,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (تفاصيل مبلغ الإشعار - Amount Details)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSCreditNoteLine, **Join Column:** namaPOSCreditNote_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

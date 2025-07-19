@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnSrvInvoice
+</div>
+
 **Arabic:** فاتورة خدمة صيانة - فواتير خدمة الصيانة
 **English:** Maintenance Service Invoice - Maintenance Service Invoices
 
@@ -3655,7 +3661,13 @@
 <div id='dysfunctions' title='dysfunctions' class='searchable'>
 
 ## dysfunctions ( الأعطال -  Dysfunctions)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvInvoiceDysFunction, **Join Column:** mnSrvInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3866,7 +3878,13 @@
 <div id='maintenanceGroups' title='maintenanceGroups' class='searchable'>
 
 ## maintenanceGroups (مجموعات الصيانة - Maintenance Groups)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvInvoiceGroup, **Join Column:** mnSrvInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4002,7 +4020,13 @@
 <div id='orders' title='orders' class='searchable'>
 
 ## orders (الأوامر - Orders)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvInvoiceOrders, **Join Column:** mnSrvInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4048,7 +4072,13 @@
 <div id='returnedSpareParts' title='returnedSpareParts' class='searchable'>
 
 ## returnedSpareParts (قطع الغيار المرتجعة - Returned Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvInvoiceRetSpareLine, **Join Column:** mnSrvInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4958,7 +4988,13 @@
 <div id='spareParts' title='spareParts' class='searchable'>
 
 ## spareParts (قطع الغيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvInvoiceSparePart, **Join Column:** mnSrvInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5868,7 +5904,13 @@
 <div id='srvServices' title='srvServices' class='searchable'>
 
 ## srvServices (خدمات صيانة - Maintenance Services)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvInvoiceLine, **Join Column:** mnSrvInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -6709,7 +6751,13 @@
 <div id='technicians' title='technicians' class='searchable'>
 
 ## technicians (الفنين - Technicians)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvInvoiceTechnician, **Join Column:** mnSrvInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -6854,7 +6902,13 @@
 <div id='tools' title='tools' class='searchable'>
 
 ## tools (العِدد - Tools)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvInvoiceTool, **Join Column:** mnSrvInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSAttendantInvoice
+</div>
+
 **Arabic:** فاتورة مرافق - فواتير المرافقين
 **English:** Attendant Invoice - Attendant Invoices
 
@@ -2065,7 +2071,13 @@
 <div id='overheadItems' title='overheadItems' class='searchable'>
 
 ## overheadItems (بنود تكلفة طبية غير مباشرة - Overhead Items)
+
+<div class='tableName'>
+
 **Table Name:** HMSAttendantInvoiceOverheadItem, **Join Column:** hMSAttendantInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JOSalesQuotationReq
+</div>
+
 **Arabic:** طلب عرض أسعار زجاج - طلبات عرض أسعار زجاج
 **English:** Glass Sales Quotation Req - Glass Sales Quotation Reqs
 
@@ -4822,7 +4828,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** JOSalesQuotationReqLine, **Join Column:** jOSalesQuotationReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -8864,7 +8876,13 @@
 <div id='joMeasures' title='joMeasures' class='searchable'>
 
 ## joMeasures (الأبعاد - Measures)
+
+<div class='tableName'>
+
 **Table Name:** JOSQuotationReqMeasureLine, **Join Column:** jOSalesQuotationReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

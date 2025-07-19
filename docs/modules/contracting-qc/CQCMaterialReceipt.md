@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CQCMaterialReceipt
+</div>
+
 **Arabic:** Material Receipt - Material Receipts
 **English:** Material Receipt - Material Receipts
 
@@ -928,7 +934,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CQCMaterialReceiptLine, **Join Column:** cQCMaterialReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

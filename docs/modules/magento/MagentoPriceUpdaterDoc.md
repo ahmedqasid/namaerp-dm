@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MagentoPriceUpdaterDoc
+</div>
+
 **Arabic:** مستند تحديث أسعار ماجنتو - مستندات تحديث أسعار ماجنتو
 **English:** Magento Price Updater Doc - Magento Price Updater Docs
 
@@ -2467,7 +2473,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MagentoPriceUpdaterLine, **Join Column:** magentoPriceUpdaterDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

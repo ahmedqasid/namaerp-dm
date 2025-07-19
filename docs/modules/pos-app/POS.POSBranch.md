@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSBranch (Table Name: POSBranch)
+</div>
+
 **Arabic:** فرع - فروع
 **English:** Branches
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvCWorkCenter
+</div>
+
 **Arabic:** مركز خدمة
 **English:** Service Center Work Center - Service Center Work Centers
 
@@ -823,7 +829,13 @@
 <div id='resources' title='resources' class='searchable'>
 
 ## resources ( موارد التشغيل -  Resources)
+
+<div class='tableName'>
+
 **Table Name:** SrvCWorkCenterResLine, **Join Column:** srvCWorkCenter_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

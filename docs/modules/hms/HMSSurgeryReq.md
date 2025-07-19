@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSSurgeryReq
+</div>
+
 **Arabic:** طلب عملية جراحية - طلبات العمليات الجراحية
 **English:** Surgery Request - Surgeries Requests
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggregatedProductionOrder
+</div>
+
 **Arabic:** سند أوامر الإنتاج المجمعة - سندات أوامر الإنتاج المجمعة
 **English:** Aggregated Production Order - Aggregated Production Orders
 
@@ -1096,7 +1102,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggProductionOrderLine, **Join Column:** aggregatedProductionOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

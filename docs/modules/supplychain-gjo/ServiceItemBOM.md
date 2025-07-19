@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ServiceItemBOM
+</div>
+
 **Arabic:** تفاصيل التشغيل
 **English:** Service Item BOM - Service Item BOMs
 
@@ -817,7 +823,13 @@
 <div id='materials' title='materials' class='searchable'>
 
 ## materials (قطع غيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** ServiceItemMaterial, **Join Column:** serviceItemBOM_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -905,7 +917,13 @@
 <div id='resources' title='resources' class='searchable'>
 
 ## resources ( موارد التشغيل -  Resources)
+
+<div class='tableName'>
+
 **Table Name:** ResourceLine, **Join Column:** serviceItemBOM_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

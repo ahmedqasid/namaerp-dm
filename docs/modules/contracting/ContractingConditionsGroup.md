@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractingConditionsGroup
+</div>
+
 **Arabic:** مجموعة الشروط القياسية
 **English:** Standard Conditions Group
 
@@ -748,7 +754,13 @@
 <div id='conditions' title='conditions' class='searchable'>
 
 ## conditions (الشروط - Conditions)
+
+<div class='tableName'>
+
 **Table Name:** ContractingConditionsGroupLine, **Join Column:** contractingConditionsGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

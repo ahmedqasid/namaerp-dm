@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDAttendance
+</div>
+
 **Arabic:** الحضور / الإنصراف الدراسي
 **English:** Education Attendance - Education Attendances
 
@@ -886,7 +892,13 @@
 <div id='attendances' title='attendances' class='searchable'>
 
 ## attendances ( - )
+
+<div class='tableName'>
+
 **Table Name:** EDAttendanceLine, **Join Column:** eDAttendance_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

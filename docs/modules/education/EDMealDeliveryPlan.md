@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDMealDeliveryPlan
+</div>
+
 **Arabic:** خطة توصيل الوجبات المدرسية - خطط توصيل الوجبات المدرسية
 **English:** Education Meals Delivery Plan - Education Meals Delivery Plans
 
@@ -964,7 +970,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** EDMealDeliveryLine, **Join Column:** eDMealDeliveryPlan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

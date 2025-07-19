@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ComponentCalcFormula
+</div>
+
 **Arabic:**  معادلة حساب المفرد - معادلات حساب المفرد
 **English:**  Component Calculation Formula - Component Calc Formulas
 
@@ -1174,7 +1180,13 @@
 <div id='calculationLines' title='calculationLines' class='searchable'>
 
 ## calculationLines (الشرائح - Calculation Lines)
+
+<div class='tableName'>
+
 **Table Name:** CompCalculationLine, **Join Column:** componentCalcFormula_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1553,7 +1565,13 @@
 <div id='compositeLines' title='compositeLines' class='searchable'>
 
 ## compositeLines (المعادلات - Formulas)
+
+<div class='tableName'>
+
 **Table Name:** CompCalcCompositeLine, **Join Column:** componentCalcFormula_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1626,7 +1644,13 @@
 <div id='taxRanges' title='taxRanges' class='searchable'>
 
 ## taxRanges (شرائح الضرائب - Tax Ranges)
+
+<div class='tableName'>
+
 **Table Name:** HRTaxRange, **Join Column:** componentCalcFormula_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOFamilyVisitVisaRequest
+</div>
+
 **Arabic:** طلب زيارة عائليه - طلبات زيارة عائليه
 **English:** Family Visit Visa Request - Family Visit Visa Requests
 
@@ -1072,7 +1078,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HOFamilyVisitVisaRequestLine, **Join Column:** hOFamilyVisitVisaRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

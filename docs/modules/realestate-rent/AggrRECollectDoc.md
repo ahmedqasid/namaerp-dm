@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggrRECollectDoc
+</div>
+
 **Arabic:** سند تحصيل مجمع - سندات تحصيل مجمعة
 **English:** Aggregated Collect Document - Aggregated Collect Documents
 
@@ -1591,7 +1597,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggrRECollectDocLine, **Join Column:** aggrRECollectDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

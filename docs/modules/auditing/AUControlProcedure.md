@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUControlProcedure
+</div>
+
 **Arabic:** إجراء الرقابة - إجراءات الرقابة
 **English:** Control Procedure - Control Procedures
 
@@ -880,7 +886,13 @@
 <div id='p2ControlProcedures' title='p2ControlProcedures' class='searchable'>
 
 ## p2ControlProcedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP2ControlLine, **Join Column:** aUControlProcedure_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

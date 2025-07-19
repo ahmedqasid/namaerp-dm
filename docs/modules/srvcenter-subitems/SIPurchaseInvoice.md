@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SIPurchaseInvoice
+</div>
+
 **Arabic:** فاتورة شراء صنف فرعى - فواتير شراء صنف فرعى
 **English:** Sub Item Purchase Invoice - Sub Item Purchase Invoices
 
@@ -2446,7 +2452,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SIPurchaseInvoiceLine, **Join Column:** sIPurchaseInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4481,7 +4493,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SIPurchaseInvExternalPay, **Join Column:** sIPurchaseInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4632,7 +4650,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** SIPurchaseInvPaySchedule, **Join Column:** sIPurchaseInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4897,7 +4921,13 @@
 <div id='stockDocs' title='stockDocs' class='searchable'>
 
 ## stockDocs (السندات المخزنية - Stock Documents)
+
+<div class='tableName'>
+
 **Table Name:** SIPurchaseInvoiceReceipt, **Join Column:** sIPurchaseInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

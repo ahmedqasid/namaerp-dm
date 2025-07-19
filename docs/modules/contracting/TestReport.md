@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TestReport
+</div>
+
 **Arabic:** Test Report - Test Reports
 **English:** Test Report - Test Reports
 
@@ -1183,7 +1189,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** TestReportEquipmentLine, **Join Column:** testReport_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

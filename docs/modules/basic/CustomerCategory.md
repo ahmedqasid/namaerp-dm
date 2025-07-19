@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CustomerCategory
+</div>
+
 **Arabic:** تصنيف عميل -  تصنيف عميل
 **English:** Customer Category -  Customer Category
 

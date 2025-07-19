@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ElectronicAttendance
+</div>
+
 **Arabic:** حضور إلكتروني - مستندات حضور إلكتروني
 **English:** Electronic Attendance - Electronic Attendance Documents
 

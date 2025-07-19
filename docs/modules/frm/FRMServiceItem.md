@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMServiceItem
+</div>
+
 **Arabic:** بند خدمة - بنود الخدمة
 **English:** Service Item - Service Items
 

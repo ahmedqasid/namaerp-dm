@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SISalesQuotationReq
+</div>
+
 **Arabic:** طلب عرض أسعار صنف فرعي - طلبات عروض أسعار صنف فرعي
 **English:** Sub Item Sales Quotation Request - Sub Item Sales Quotation Requests
 
@@ -2593,7 +2599,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SISalesQuotationReqLine, **Join Column:** sISalesQuotationReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

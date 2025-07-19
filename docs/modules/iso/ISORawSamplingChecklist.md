@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ISORawSamplingChecklist
+</div>
+
 **Arabic:** ISO Raw Sampling Checklist - ISO Raw Sampling Checklists
 **English:** ISO Raw Sampling Checklist - ISO Raw Sampling Checklists
 
@@ -1156,7 +1162,13 @@
 <div id='responses' title='responses' class='searchable'>
 
 ## responses (الاجابات - Responses)
+
+<div class='tableName'>
+
 **Table Name:** ISORawSamplingChecklistLine, **Join Column:** iSORawSamplingChecklist_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

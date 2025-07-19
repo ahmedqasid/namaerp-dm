@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HealthInsuranceCredence
+</div>
+
 **Arabic:** سند تعميد شركة تأمين - سندات إعتماد شركة تأمين
 **English:** Health Insurance Credence - Health Insurance Credences
 
@@ -1417,7 +1423,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HealthInsurCredenceLine, **Join Column:** healthInsuranceCredence_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

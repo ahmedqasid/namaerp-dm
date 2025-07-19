@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TRRestaurantClass
+</div>
+
 **Arabic:** تصنيف مطعم - تصنيفات مطاعم
 **English:** Restaurant Class - Restaurant Classes
 

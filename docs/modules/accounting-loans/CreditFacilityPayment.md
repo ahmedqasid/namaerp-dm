@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CreditFacilityPayment
+</div>
+
 **Arabic:** مستند سداد تسهيل ائتمانى - مستندات سداد تسهيلات ائتمانية
 **English:** Credit Facility Payment - Credits Facilities Payments
 
@@ -1054,7 +1060,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CreditFacilityPaymentLine, **Join Column:** creditFacilityPayment_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

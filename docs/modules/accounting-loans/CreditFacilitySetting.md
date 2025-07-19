@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CreditFacilitySetting
+</div>
+
 **Arabic:** إعدادات التسهيلات الائتمانية
 **English:** Credit Facility Setting - Credit Facility Settings
 
@@ -913,7 +919,13 @@
 <div id='suppliersCreditLimits' title='suppliersCreditLimits' class='searchable'>
 
 ## suppliersCreditLimits (الحدود الائتمانية للموردين - Suppliers Credit Limits)
+
+<div class='tableName'>
+
 **Table Name:** CreditFacilitySuppliersLimitLine, **Join Column:** creditFacilitySetting_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

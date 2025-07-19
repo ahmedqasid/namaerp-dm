@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ItemRelations
+</div>
+
 **Arabic:** علاقات أصناف - علاقات الأصناف
 **English:** Item Relations
 
@@ -844,7 +850,13 @@
 <div id='relationDetails' title='relationDetails' class='searchable'>
 
 ## relationDetails (علاقات الأصناف - Items Relations' Details)
+
+<div class='tableName'>
+
 **Table Name:** ItemRelationLine, **Join Column:** itemRelations_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

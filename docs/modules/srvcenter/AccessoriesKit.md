@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AccessoriesKit
+</div>
+
 **Arabic:** مجموعة ملحقات - مجموعات الملحقات
 **English:** Accessories Kit - Accessories Kits
 

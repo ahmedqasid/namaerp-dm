@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PurchaseQuotation
+</div>
+
 **Arabic:** عرض أسعار مشتريات - عروض أسعار مشتريات
 **English:** Purchase Quotation - Purchase Quotations
 
@@ -2563,7 +2569,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseQuotationLine, **Join Column:** purchaseQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4292,7 +4304,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseQuotSchedPayLine, **Join Column:** purchaseQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4557,7 +4575,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseQuotationStandTerms, **Join Column:** purchaseQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

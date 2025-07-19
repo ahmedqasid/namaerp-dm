@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AssemblyBOM
+</div>
+
 **Arabic:** طريقة تجميع أصناف - طرق تجميع أصناف
 **English:** Assembly BOM - Assemblies
 
@@ -1024,7 +1030,13 @@
 <div id='alternativeAssemblyBomLines' title='alternativeAssemblyBomLines' class='searchable'>
 
 ## alternativeAssemblyBomLines (طرق التجميع البديلة - Alternative Assembly Bom Lines)
+
+<div class='tableName'>
+
 **Table Name:** AlternativeAssemblyBomLine, **Join Column:** assemblyBOM_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1088,7 +1100,13 @@
 <div id='assemblyBomRemarks' title='assemblyBomRemarks' class='searchable'>
 
 ## assemblyBomRemarks (ملاحظات طريقة التجميع - Assembly BOM Remarks)
+
+<div class='tableName'>
+
 **Table Name:** AssemblyBomRemark, **Join Column:** assemblyBOM_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1311,7 +1329,13 @@
 <div id='coProds' title='coProds' class='searchable'>
 
 ## coProds (أصناف أخرى - Coproducts)
+
+<div class='tableName'>
+
 **Table Name:** AssemblyBomCoProdLine, **Join Column:** assemblyBOM_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2287,7 +2311,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AssemblyBOMLine, **Join Column:** assemblyBOM_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

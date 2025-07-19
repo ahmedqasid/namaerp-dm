@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EmpHealthInsurDeleteReq
+</div>
+
 **Arabic:** طلب حذف تأمين موظف - طلبات حذف تأمين موظف
 **English:** Employee Health Insurance Delete Request - Employee Health Insurance Delete Requests
 
@@ -1042,7 +1048,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** EmpHealthInsurDeleteReqLine, **Join Column:** empHealthInsurDeleteReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

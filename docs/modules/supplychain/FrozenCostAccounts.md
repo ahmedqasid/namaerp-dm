@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FrozenCostAccounts
+</div>
+
 **Arabic:** إيقاف تأثير التكاليف على الحسابات - إيقافات تأثير التكاليف على الحسابات
 **English:** Freeze Of Cost Effects On Accounts - Freezes Of Cost Effects On Accounts
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LedgerReviseDoc
+</div>
+
 **Arabic:** سند مراجعة حسابات - سندات مراجعة حسابات
 **English:** Ledger Revise Document - Ledger Revise Documents
 
@@ -916,7 +922,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** LedgerReviseDocLine, **Join Column:** ledgerReviseDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

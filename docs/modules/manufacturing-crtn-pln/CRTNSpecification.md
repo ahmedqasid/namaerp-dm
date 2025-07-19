@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRTNSpecification
+</div>
+
 **Arabic:** مواصفات الكرتونة -  مواصفات الكرتونة
 **English:** CRTN Specification
 
@@ -1174,7 +1180,13 @@
 <div id='firstProductionStage' title='firstProductionStage' class='searchable'>
 
 ## firstProductionStage (مرحلة الإنتاج الأولى - First Production Stage)
+
+<div class='tableName'>
+
 **Table Name:** CRTNSpecificationFirstProductionStage, **Join Column:** cRTNSpecification_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1427,7 +1439,13 @@
 <div id='routings' title='routings' class='searchable'>
 
 ## routings (عمليات التشغيل - Routings)
+
+<div class='tableName'>
+
 **Table Name:** CRTNSpecificationRouting, **Join Column:** cRTNSpecification_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1482,7 +1500,13 @@
 <div id='secondProductionStage' title='secondProductionStage' class='searchable'>
 
 ## secondProductionStage (مرحلة الإنتاج الثانية - Second Production Stage)
+
+<div class='tableName'>
+
 **Table Name:** CRTNSpecificationSecondProductionStage, **Join Column:** cRTNSpecification_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1726,7 +1750,13 @@
 <div id='thirdProductionStage' title='thirdProductionStage' class='searchable'>
 
 ## thirdProductionStage (مرحلة الإنتاج الثالثة - Third Production Stage)
+
+<div class='tableName'>
+
 **Table Name:** CRTNSpecificationThirdProductionStage, **Join Column:** cRTNSpecification_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

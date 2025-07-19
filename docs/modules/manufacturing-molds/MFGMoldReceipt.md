@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MFGMoldReceipt
+</div>
+
 **Arabic:** توريد قالب تصنيع - توريد قوالب تصنيع
 **English:** Manufacturing Mold Receipt - Manufacturing Mold Receipts
 
@@ -883,7 +889,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MFGMoldReceiptLine, **Join Column:** mFGMoldReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

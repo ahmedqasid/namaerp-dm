@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ManufacturerCertificate
+</div>
+
 **Arabic:** شهادات مُصنع - شهادات مُصنعون
 **English:** Manufacturer Certificate - Manufacturer Certificates
 
@@ -760,7 +766,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ManufacturerDetailLine, **Join Column:** manufacturerCertificate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TaxPayerConfiguration
+</div>
+
 **Arabic:** إعدادات مصلحة الضرائب - ملفات إعدادات مصلحة الضرائب
 **English:** Electronic Tax Authority Configuration - Electronic Tax Authority Configuration Files
 
@@ -1567,7 +1573,13 @@
 <div id='configs' title='configs' class='searchable'>
 
 ## configs (الإعدادات - Configurations)
+
+<div class='tableName'>
+
 **Table Name:** EInvoiceConfigLine, **Join Column:** taxPayerConfiguration_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1751,7 +1763,13 @@
 <div id='discountConfigs' title='discountConfigs' class='searchable'>
 
 ## discountConfigs (إعدادات الخصومات - Discount Configs)
+
+<div class='tableName'>
+
 **Table Name:** EInvoiceDiscountConfigLine, **Join Column:** taxPayerConfiguration_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1821,7 +1839,13 @@
 <div id='posTerminals' title='posTerminals' class='searchable'>
 
 ## posTerminals (نقاط البيع - POS Terminals - POS Terminals)
+
+<div class='tableName'>
+
 **Table Name:** TaxConfigurationPOSTerminalLine, **Join Column:** taxPayerConfiguration_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1930,7 +1954,13 @@
 <div id='serviceFeesAndChargesToCustomerConfigs' title='serviceFeesAndChargesToCustomerConfigs' class='searchable'>
 
 ## serviceFeesAndChargesToCustomerConfigs (معاملة رسوم الخدمة و ما يتحمله العميل - Service Fees And What Is Charged To Customer)
+
+<div class='tableName'>
+
 **Table Name:** ServiceFeesAndChargesToCustomerConfig, **Join Column:** taxPayerConfiguration_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2075,7 +2105,13 @@
 <div id='taxCodesSource' title='taxCodesSource' class='searchable'>
 
 ## taxCodesSource (مصادر أكواد الضرائب - Tax Codes Sources)
+
+<div class='tableName'>
+
 **Table Name:** TaxConfigurationCodeSource, **Join Column:** taxPayerConfiguration_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

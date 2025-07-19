@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REMaintenanceExpenseRequest
+</div>
+
 **Arabic:** طلب مصروف صيانة - طلبات مصروف صيانة
 **English:** RE Maintenance Expense Request - RE Maintenance Expense Requests
 
@@ -1066,7 +1072,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** REMaintenanceReqLine, **Join Column:** rEMaintenanceExpenseRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

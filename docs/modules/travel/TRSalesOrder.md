@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TRSalesOrder
+</div>
+
 **Arabic:** أمر بيع خدمات سياحية - أوامر بيع خدمات سياحية
 **English:** Travel Service Sales Order - Travel Service Sales Orders
 
@@ -1486,7 +1492,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** TRSalesOrderLine, **Join Column:** tRSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2420,7 +2432,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** TRSalesOrderExternalPayLine, **Join Column:** tRSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2526,7 +2544,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** TRSalesOrderSchedulePayLine, **Join Column:** tRSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2758,7 +2782,13 @@
 <div id='termLines' title='termLines' class='searchable'>
 
 ## termLines (الينود القياسيه - Standard Terms)
+
+<div class='tableName'>
+
 **Table Name:** TRSalesOrderStandardTermLine, **Join Column:** tRSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SIFinalDeliveryCancel
+</div>
+
 **Arabic:** إلغاء تسليم صنف فرعي نهائي - مستندات إلغاء تسليم صنف فرعي نهائي
 **English:** Sub Item Final Delivery Cancel - Sub Item Final Delivery Cancel Documents
 
@@ -2593,7 +2599,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SIFinalDeliveryCancelLine, **Join Column:** sIFinalDeliveryCancel_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

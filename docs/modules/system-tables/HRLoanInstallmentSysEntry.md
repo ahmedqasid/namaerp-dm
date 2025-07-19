@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRLoanInstallmentSysEntry
+</div>
+
 
 <ContentFilter/>
 
@@ -179,7 +185,13 @@
 <div id='installmentPayments' title='installmentPayments' class='searchable'>
 
 ## installmentPayments (سندات سداد الدفعات - Installment Payments)
+
+<div class='tableName'>
+
 **Table Name:** HRInstallmentPaymentSysEntry, **Join Column:** hRLoanInstallmentSysEntry_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

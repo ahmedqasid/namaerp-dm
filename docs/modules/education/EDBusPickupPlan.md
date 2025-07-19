@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDBusPickupPlan
+</div>
+
 **Arabic:** خط سير سيارة مدرسية - خطوط سير سيارات مدرسية
 **English:** PickupPlan - PickupPlans
 
@@ -925,7 +931,13 @@
 <div id='pickupPlans' title='pickupPlans' class='searchable'>
 
 ## pickupPlans ( - )
+
+<div class='tableName'>
+
 **Table Name:** EDBusPickupPlanLine, **Join Column:** eDBusPickupPlan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

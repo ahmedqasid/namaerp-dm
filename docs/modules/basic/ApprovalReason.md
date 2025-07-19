@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ApprovalReason
+</div>
+
 **Arabic:** سبب الموافقة - اسباب الموافقة
 **English:** Approval Reason - Approval Reasons
 

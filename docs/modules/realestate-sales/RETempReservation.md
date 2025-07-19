@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RETempReservation
+</div>
+
 **Arabic:** حجز مؤقت - حجوز مؤقتة
 **English:** Temporary Reservation - Temporary Reservations
 

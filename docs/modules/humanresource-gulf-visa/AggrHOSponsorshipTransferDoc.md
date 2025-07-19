@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggrHOSponsorshipTransferDoc
+</div>
+
 **Arabic:** طلب نقل كفالة مجمع - طلبات نقل كفالة مجمع
 **English:** Aggregated Sponsorship Transfer Document - Aggregated Sponsorship Transfer Documents
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggrHOSponsorshipTransferDocLine, **Join Column:** aggrHOSponsorshipTransferDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

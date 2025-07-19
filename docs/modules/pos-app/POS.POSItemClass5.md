@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSItemClass5 (Table Name: POSItemClass5)
+</div>
+
 **Arabic:** تصنيف صنف 5 - تصنيفات صنف 5
 **English:** Item class 5 - Item classes 5
 

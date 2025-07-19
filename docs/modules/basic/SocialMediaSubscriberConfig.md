@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SocialMediaSubscriberConfig
+</div>
+
 **Arabic:** إعدادات اشتراكات وسائل التواصل
 **English:** Social Media Subscriber Configuration - Social Media Subscriber Configurations
 

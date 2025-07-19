@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnMachineCategory
+</div>
+
 **Arabic:** تصنيف آلة - تصنيفات آلة
 **English:** Maintenance Machine Category - Maintenance Machine Categories
 

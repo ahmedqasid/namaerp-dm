@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSSurgeryPackage
+</div>
+
 **Arabic:** اتفاق عملية - اتفاقات عمليات
 **English:** Surgery Package Deal - Surgery Package Deals
 
@@ -784,7 +790,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSSurgeryPackageLine, **Join Column:** hMSSurgeryPackage_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

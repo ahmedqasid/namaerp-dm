@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Activity
+</div>
+
 **Arabic:** نشاط - أنشطة
 **English:** Activities
 

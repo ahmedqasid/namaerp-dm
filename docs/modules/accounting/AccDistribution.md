@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AccDistribution
+</div>
+
 **Arabic:** توزيع حسابات - توزيعات حسابات
 **English:** Account Distribution - Account Distributions
 
@@ -1486,7 +1492,13 @@
 <div id='accountDistributions' title='accountDistributions' class='searchable'>
 
 ## accountDistributions (نسب الحسابات - Account Distributions)
+
+<div class='tableName'>
+
 **Table Name:** AccountDistributionLine, **Join Column:** accDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1550,7 +1562,13 @@
 <div id='analysisSetDistributions' title='analysisSetDistributions' class='searchable'>
 
 ## analysisSetDistributions (نسب المجموعات التحليلية - Analysis Set Distributions)
+
+<div class='tableName'>
+
 **Table Name:** AnalysisSetDistribution, **Join Column:** accDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1614,7 +1632,13 @@
 <div id='branchDistributions' title='branchDistributions' class='searchable'>
 
 ## branchDistributions (نسب الفروع - Branch Distributions)
+
+<div class='tableName'>
+
 **Table Name:** BranchDistribution, **Join Column:** accDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1678,7 +1702,13 @@
 <div id='criteriaBasedDistributions' title='criteriaBasedDistributions' class='searchable'>
 
 ## criteriaBasedDistributions (التوزيعات و معاييرها - Criteria Based Distributions)
+
+<div class='tableName'>
+
 **Table Name:** CriteriaBasedDistrib, **Join Column:** accDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1850,7 +1880,13 @@
 <div id='departmentDistributions' title='departmentDistributions' class='searchable'>
 
 ## departmentDistributions (نسب الأقسام - Department Distributions)
+
+<div class='tableName'>
+
 **Table Name:** DepartmentDistribution, **Join Column:** accDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1914,7 +1950,13 @@
 <div id='entityDimensionDistributions' title='entityDimensionDistributions' class='searchable'>
 
 ## entityDimensionDistributions (توزيع السجل - Entity Dimension Distributions)
+
+<div class='tableName'>
+
 **Table Name:** EntityDimensionDistribution, **Join Column:** accDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1975,7 +2017,13 @@
 <div id='ref1Distributions' title='ref1Distributions' class='searchable'>
 
 ## ref1Distributions (توزيع مرجع 1 - Ref 1 Distributions)
+
+<div class='tableName'>
+
 **Table Name:** Ref2Distribution, **Join Column:** accDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2036,7 +2084,13 @@
 <div id='ref2Distributions' title='ref2Distributions' class='searchable'>
 
 ## ref2Distributions (توزيع مرجع 2 - Ref 2 Distributions)
+
+<div class='tableName'>
+
 **Table Name:** Ref1Distribution, **Join Column:** accDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2097,7 +2151,13 @@
 <div id='ref3Distributions' title='ref3Distributions' class='searchable'>
 
 ## ref3Distributions (توزيع مرجع 3 - Ref 3 Distributions)
+
+<div class='tableName'>
+
 **Table Name:** Ref3Distribution, **Join Column:** accDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2158,7 +2218,13 @@
 <div id='sectorDistributions' title='sectorDistributions' class='searchable'>
 
 ## sectorDistributions (نسب القطاعات - Sector Distributions)
+
+<div class='tableName'>
+
 **Table Name:** SectorDistribution, **Join Column:** accDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2222,7 +2288,13 @@
 <div id='subsidiaryDistributions' title='subsidiaryDistributions' class='searchable'>
 
 ## subsidiaryDistributions (توزيع الذمة - Subsidiary Distributions)
+
+<div class='tableName'>
+
 **Table Name:** SubsidiaryDistribution, **Join Column:** accDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

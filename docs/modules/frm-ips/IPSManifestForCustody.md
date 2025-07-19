@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSManifestForCustody
+</div>
+
 **Arabic:** منافيست للجمرك - منافيست للجمارك
 **English:** IPS Manifest For Custody - IPS Manifest For Custodies
 
@@ -1033,7 +1039,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** IPSManifestForCustodyLine, **Join Column:** iPSManifestForCustody_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

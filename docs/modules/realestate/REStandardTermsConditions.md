@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REStandardTermsConditions
+</div>
+
 **Arabic:** بنود تعاقد قياسيه - بنود التعاقد القياسيه
 **English:** RE Standard Terms And Conditions
 
@@ -757,7 +763,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** REStandardTermLine, **Join Column:** rEStandardTermsConditions_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

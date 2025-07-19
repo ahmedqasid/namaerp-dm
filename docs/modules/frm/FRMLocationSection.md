@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMLocationSection
+</div>
+
 **Arabic:** قسم موقع شحن - أقسام موقع شحن
 **English:** FRM Location Section - FRM Location Sections
 

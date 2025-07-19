@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LimitSalesQty
+</div>
+
 **Arabic:** تحديد كميات الصنف للعميل
 **English:** Limit Sales Qty
 
@@ -1015,7 +1021,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** LimitSalesQtyLine, **Join Column:** limitSalesQty_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1355,7 +1367,13 @@
 <div id='multipliedByQties' title='multipliedByQties' class='searchable'>
 
 ## multipliedByQties (المضاعفات - Multiplied By Quantities)
+
+<div class='tableName'>
+
 **Table Name:** LimitSalesMultiplyByQtyLine, **Join Column:** limitSalesQty_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

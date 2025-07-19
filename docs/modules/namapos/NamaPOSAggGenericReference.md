@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSAggGenericReference
+</div>
+
 **Arabic:** المرجع العام المجمع لنقاط البيع - المراجع العامة المجمعة لنقاط البيع
 **English:** POS Aggregated Generic Reference - POS Aggregated Generic References
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSGenericReferenceLine, **Join Column:** namaPOSAggGenericReference_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

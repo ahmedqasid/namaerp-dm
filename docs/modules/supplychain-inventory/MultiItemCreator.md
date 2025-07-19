@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MultiItemCreator
+</div>
+
 **Arabic:** أصناف متعددة
 **English:** Multiple Item Creator - Multiple Item Creators
 
@@ -2032,7 +2038,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** MultiItemCreatorLine, **Join Column:** multiItemCreator_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

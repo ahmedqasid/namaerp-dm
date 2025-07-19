@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # GlassJobOrderReq
+</div>
+
 **Arabic:** طلب أمر شغل زجاج - طلبات أوامر شغل زجاج
 **English:** Glass Job Order Request - Glass Job Order Requests
 
@@ -2716,7 +2722,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** GlassOrderLineReq, **Join Column:** glassJobOrderReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4724,7 +4736,13 @@
 <div id='installationLines' title='installationLines' class='searchable'>
 
 ## installationLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** JOInstallationLineReq, **Join Column:** glassJobOrderReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4770,7 +4788,13 @@
 <div id='jobBomLines' title='jobBomLines' class='searchable'>
 
 ## jobBomLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** GlassBomLineReq, **Join Column:** glassJobOrderReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -6796,7 +6820,13 @@
 <div id='offerCostStudyLines' title='offerCostStudyLines' class='searchable'>
 
 ## offerCostStudyLines (دراسات تكلفة العرض - Offer Cost Study Lines)
+
+<div class='tableName'>
+
 **Table Name:** OfferCostStudyLine, **Join Column:** glassJobOrderReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -7022,7 +7052,13 @@
 <div id='operations' title='operations' class='searchable'>
 
 ## operations (العمليات - Operations)
+
+<div class='tableName'>
+
 **Table Name:** GlassOperationLineReq, **Join Column:** glassJobOrderReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

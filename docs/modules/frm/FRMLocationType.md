@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMLocationType
+</div>
+
 **Arabic:** نوع موقع شحن - أنواع مواقع شحن
 **English:** FRM Location Type - FRM Location Types
 

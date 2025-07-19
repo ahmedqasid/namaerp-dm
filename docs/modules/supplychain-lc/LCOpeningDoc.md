@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LCOpeningDoc
+</div>
+
 **Arabic:** فتح إعتماد - فتح الإعتمادات
 **English:** Letter Of Credit Opening - Letters Of Credit Opening
 

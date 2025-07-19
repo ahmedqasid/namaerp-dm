@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PartialAssemblyBOM
+</div>
+
 **Arabic:** طريقة تجميع جزئية - طرق تجميع جزئية
 **English:** Partial Assembly BOM - Partial Assembly BOMs
 
@@ -880,7 +886,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PartialAssemblyBOMLine, **Join Column:** partialAssemblyBOM_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContrEmployeeEquipInvoice
+</div>
+
 **Arabic:** فاتورة صرف عمالة ومعدات - فواتير صرف عمالة ومعدات
 **English:** Contracting Employee And Equipment Issue Invoice - Contracting Employee And Equipment Issue Invoices
 
@@ -1720,7 +1726,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ContrEmployeeEquipmentLine, **Join Column:** contrEmployeeEquipInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2912,7 +2924,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** ContEmpEquipExternalPayLine, **Join Column:** contrEmployeeEquipInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3018,7 +3036,13 @@
 <div id='purchaseTermsLines' title='purchaseTermsLines' class='searchable'>
 
 ## purchaseTermsLines (بنود الشراء - Purchase Terms Lines)
+
+<div class='tableName'>
+
 **Table Name:** ContrEmpEquipTermsLine, **Join Column:** contrEmployeeEquipInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3301,7 +3325,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** ContEmpEquipSchedulePayLine, **Join Column:** contrEmployeeEquipInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

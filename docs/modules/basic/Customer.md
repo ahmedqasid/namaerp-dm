@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Customer
+</div>
+
 **Arabic:** عميل - العملاء
 
 <ContentFilter/>
@@ -2361,7 +2367,13 @@
 <div id='contacts' title='contacts' class='searchable'>
 
 ## contacts (جهات الاتصال - Contacts)
+
+<div class='tableName'>
+
 **Table Name:** CustomerContactInfo, **Join Column:** customer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2746,7 +2758,13 @@
 <div id='creditLimits' title='creditLimits' class='searchable'>
 
 ## creditLimits (حدود الأئتمان - Credit limits)
+
+<div class='tableName'>
+
 **Table Name:** CreditLimits, **Join Column:** customer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2906,7 +2924,13 @@
 <div id='keywordLines' title='keywordLines' class='searchable'>
 
 ## keywordLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CustomerKeywordLine, **Join Column:** customer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

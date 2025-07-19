@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JODamageDoc
+</div>
+
 **Arabic:** مستند تالف زجاج جديد - مستندات تالفة زجاج جديد
 **English:** New Glass Damage Document - New Glass Damage Documents
 
@@ -4831,7 +4837,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** JODamageDocLine, **Join Column:** jODamageDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

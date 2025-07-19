@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAMaintenanceRecord
+</div>
+
 **Arabic:** سجل صيانة - سجلات الصيانة
 **English:** Maintenance Record - Maintenance Records
 
@@ -1171,7 +1177,13 @@
 <div id='checkListItems' title='checkListItems' class='searchable'>
 
 ## checkListItems (نقاط الفحص - checkList Items)
+
+<div class='tableName'>
+
 **Table Name:** FAMaintenanceRCheckListItem, **Join Column:** fAMaintenanceRecord_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

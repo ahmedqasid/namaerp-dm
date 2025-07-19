@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # OrderCloseVoucher
+</div>
+
 **Arabic:** إغلاق أمر إنتاج
 **English:** Order Close
 
@@ -1030,7 +1036,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** OrderCloseLine, **Join Column:** orderCloseVoucher_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

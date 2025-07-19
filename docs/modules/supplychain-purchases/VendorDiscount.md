@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # VendorDiscount
+</div>
+
 **Arabic:** خصومات مورد - خصومات موردين
 **English:** Vendor Discount - Vendor Discounts
 
@@ -808,7 +814,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DiscountLine, **Join Column:** vendorDiscount_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

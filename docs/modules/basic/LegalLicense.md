@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LegalLicense
+</div>
+
 **Arabic:** ترخيص شركة - تراخيص شركة
 **English:** Legal Entity License - Legal Entity Licenses
 

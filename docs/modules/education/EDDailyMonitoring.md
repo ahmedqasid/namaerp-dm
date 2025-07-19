@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDDailyMonitoring
+</div>
+
 **Arabic:** متابعة يومية - المتابعة اليومية
 **English:**  Daily Monitoring - Daily Monitoring
 
@@ -886,7 +892,13 @@
 <div id='monitors' title='monitors' class='searchable'>
 
 ## monitors ( - )
+
+<div class='tableName'>
+
 **Table Name:** EDDailyMonitoringLine, **Join Column:** eDDailyMonitoring_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

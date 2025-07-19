@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ItemClass1
+</div>
+
 **Arabic:** تصنيف صنف 1 - تصنيفات صنف 1
 **English:** Item class 1 - Item classes 1
 
@@ -925,7 +931,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** ItemClass1Line, **Join Column:** itemClass1_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1184,7 +1196,13 @@
 <div id='relations' title='relations' class='searchable'>
 
 ## relations (العلاقات - Relations)
+
+<div class='tableName'>
+
 **Table Name:** ItemClass1Range, **Join Column:** itemClass1_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

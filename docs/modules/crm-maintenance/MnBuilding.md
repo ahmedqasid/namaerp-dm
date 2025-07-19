@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnBuilding
+</div>
+
 **Arabic:** مبنى صيانة - مباني صيانة
 **English:** Maintenance Building - Maintenance Buildings
 

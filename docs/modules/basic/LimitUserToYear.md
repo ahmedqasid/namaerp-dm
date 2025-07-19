@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LimitUserToYear
+</div>
+
 **Arabic:** قصر المستخدم على سنة مالية - قصر المستخدم على سنوات مالية
 **English:** Limit User To Year - Limit User To Years
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** LimitUserToYearLine, **Join Column:** limitUserToYear_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

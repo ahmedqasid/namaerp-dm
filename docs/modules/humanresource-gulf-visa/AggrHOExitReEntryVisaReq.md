@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggrHOExitReEntryVisaReq
+</div>
+
 **Arabic:** طلب تأشيرة خروج وعودة مجمع - طلبات تأشيرة خروج وعودة مجمعة
 **English:** Aggregated Exit ReEntry Visa Request - Aggregated Exit ReEntry Visa Requests
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggrHOExitReEntryVisaReqLine, **Join Column:** aggrHOExitReEntryVisaReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

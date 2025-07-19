@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggregatedProductionOrderClosing
+</div>
+
 **Arabic:** سند إغلاق أوامر إنتاج مجمع - سندات إغلاق أوامر إنتاج مجمع
 **English:** Aggregated Production Order Closing - Aggregated Production Orders Closing
 
@@ -940,7 +946,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** AggregatedProdOrderClosingLine, **Join Column:** aggregatedProductionOrderClosing_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

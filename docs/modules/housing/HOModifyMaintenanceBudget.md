@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOModifyMaintenanceBudget
+</div>
+
 **Arabic:** سند تعديل موازنة صيانة - سندات تعديل موازنات صيانة
 **English:** Modify Maintenance Budget - Modify Maintenance Budgets
 

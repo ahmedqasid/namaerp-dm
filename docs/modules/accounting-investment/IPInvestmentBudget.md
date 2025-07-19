@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPInvestmentBudget
+</div>
+
 **Arabic:** موازنه مشاريع استثمارية - موازانات المشاريع الاستثمارية
 **English:** Investment Budget - Investments Budget
 
@@ -898,7 +904,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** IPInvestmentBudgetLine, **Join Column:** iPInvestmentBudget_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

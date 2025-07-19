@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TRTourService
+</div>
+
 **Arabic:** خدمة سياحية - خدمات سياحية
 **English:** Tour Service - Tour Services
 

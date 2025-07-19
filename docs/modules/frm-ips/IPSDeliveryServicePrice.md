@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSDeliveryServicePrice
+</div>
+
 **Arabic:** ملف أسعار خدمة توصيل - ملفات أسعار خدمة توصيل
 **English:** IPS Delivery Service Price - IPS Delivery Service Prices
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** IPSDeliveryServicePriceLine, **Join Column:** iPSDeliveryServicePrice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

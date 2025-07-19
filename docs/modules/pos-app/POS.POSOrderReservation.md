@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSOrderReservation (Table Name: POSOrderReservation)
+</div>
+
 **Arabic:** سند حجز اوردر نقاط بيع -  سند حجز اوردر نقاط بيع
 **English:** POS Order Reservation -  POS Order Reservation
 
@@ -1096,7 +1102,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSOrderReservationLine, **Join Column:** reservation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1868,7 +1880,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** POSReservationPaymentLine, **Join Column:** reservation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2043,7 +2061,13 @@
 <div id='tableLines' title='tableLines' class='searchable'>
 
 ## tableLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** POSReservationTableLine, **Join Column:** invoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

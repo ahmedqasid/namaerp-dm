@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FPPartialPayment
+</div>
+
 **Arabic:** سند سداد جزئي - سندات سداد جزئي
 **English:** Commercial Papers Partial Payment - Commercial Papers Partial Payments
 
@@ -937,7 +943,13 @@
 <div id='installmentLines' title='installmentLines' class='searchable'>
 
 ## installmentLines (الأقساط - Installment Lines)
+
+<div class='tableName'>
+
 **Table Name:** FPPartialPaymentInstallmentLine, **Join Column:** fPPartialPayment_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1154,7 +1166,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** FPPartialPaymentLine, **Join Column:** fPPartialPayment_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

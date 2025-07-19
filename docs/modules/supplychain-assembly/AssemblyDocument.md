@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AssemblyDocument
+</div>
+
 **Arabic:** سند تجميع - مستندات التجميع
 **English:** Assembly Document - Assembly Documents
 
@@ -1813,7 +1819,13 @@
 <div id='assemblyProcessLines' title='assemblyProcessLines' class='searchable'>
 
 ## assemblyProcessLines (عمليات التجميع - Assembly Process Lines)
+
+<div class='tableName'>
+
 **Table Name:** AssemblyDocProcessLine, **Join Column:** assemblyDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1868,7 +1880,13 @@
 <div id='coProds' title='coProds' class='searchable'>
 
 ## coProds (الأصناف الموردة - Receipt Items)
+
+<div class='tableName'>
+
 **Table Name:** AssemblyDocCoProdLine, **Join Column:** assemblyDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2916,7 +2934,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (الأصناف المسحوبة - Issued Items)
+
+<div class='tableName'>
+
 **Table Name:** AssemblyDocumentLine, **Join Column:** assemblyDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3997,7 +4021,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** AssemblyDocAddCostLine, **Join Column:** assemblyDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4505,7 +4535,13 @@
 <div id='stockDocs' title='stockDocs' class='searchable'>
 
 ## stockDocs (السندات المخزنية - Stock Documents)
+
+<div class='tableName'>
+
 **Table Name:** AssemblyStockDocLine, **Join Column:** assemblyDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

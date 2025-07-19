@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMOffers
+</div>
+
 **Arabic:** CRM عرض - CRM عروض
 **English:** Offer - Offers
 
@@ -1045,7 +1051,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CRMOfferAssignedEmployees, **Join Column:** cRMOffers_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1091,7 +1103,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** CRMOffersPrepTrainingdetail, **Join Column:** cRMOffers_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1236,7 +1254,13 @@
 <div id='remarkLines' title='remarkLines' class='searchable'>
 
 ## remarkLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CRMOfferPreparationRemark, **Join Column:** cRMOffers_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

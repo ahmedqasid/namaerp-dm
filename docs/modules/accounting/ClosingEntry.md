@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ClosingEntry
+</div>
+
 **Arabic:** قيد ختامي - القيود الختامية
 **English:** Closing Entry - Closing Entries
 
@@ -949,7 +955,13 @@
 <div id='docs' title='docs' class='searchable'>
 
 ## docs (المستندات - Documents)
+
+<div class='tableName'>
+
 **Table Name:** ClosingEntryDocLine, **Join Column:** closingEntry_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1004,7 +1016,13 @@
 <div id='postedProfitDocs' title='postedProfitDocs' class='searchable'>
 
 ## postedProfitDocs (قيود الأرباح المرحلة - Posted Profit Docs)
+
+<div class='tableName'>
+
 **Table Name:** ClosingEntryPostedLine, **Join Column:** closingEntry_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InterCompanyTransfer
+</div>
+
 **Arabic:** جارى تحويل شركات
 **English:** Inter Company Transfer - Inter Company Transfers
 
@@ -997,7 +1003,13 @@
 <div id='generatedJournalsLines' title='generatedJournalsLines' class='searchable'>
 
 ## generatedJournalsLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** InterCompanyTransGenJournals, **Join Column:** interCompanyTransfer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1064,7 +1076,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** InterCompanyTransferLine, **Join Column:** interCompanyTransfer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

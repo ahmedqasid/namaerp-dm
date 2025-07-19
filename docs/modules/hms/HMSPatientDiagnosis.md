@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSPatientDiagnosis
+</div>
+
 **Arabic:** سند تشخيص مريض - سندات تشخيص المرضى
 **English:** Patient Diagnosis
 

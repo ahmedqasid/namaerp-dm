@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSBloodBank
+</div>
+
 **Arabic:** بنك دم - بنوك الدم
 **English:** Blood Bank - Blood Banks
 

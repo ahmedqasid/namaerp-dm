@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # WareLocationClass
+</div>
+
 **Arabic:** تصنيف الموقع المخزني - تصنيفات الموقع المخزني
 **English:** Ware location class - Ware location classes
 

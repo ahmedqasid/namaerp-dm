@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EntityFlow
+</div>
+
 **Arabic:** مسار الكيان -  مسار الكيان
 **English:** Entity Flow -  Entity Flow
 
@@ -1054,7 +1060,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** EntityActionLine, **Join Column:** entityFlow_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1463,7 +1475,13 @@
 <div id='runInSites' title='runInSites' class='searchable'>
 
 ## runInSites (تشغيل في - Run In Sites)
+
+<div class='tableName'>
+
 **Table Name:** EntityFlowSiteLine, **Join Column:** entityFlow_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

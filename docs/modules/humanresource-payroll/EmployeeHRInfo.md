@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EmployeeHRInfo
+</div>
+
 **Arabic:** معلومات شئون الموظفين -  معلومات شئون الموظفين
 **English:** Employee HR Information -  Employee HR Information
 
@@ -883,7 +889,13 @@
 <div id='hr.assignedVacations' title='hr.assignedVacations' class='searchable'>
 
 ## hr.assignedVacations ( - )
+
+<div class='tableName'>
+
 **Table Name:** EmployeeVacationLine, **Join Column:** hREmployeeInfo_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -977,7 +989,13 @@
 <div id='hr.employeeComponents' title='hr.employeeComponents' class='searchable'>
 
 ## hr.employeeComponents ( - )
+
+<div class='tableName'>
+
 **Table Name:** EmployeeComponentLine, **Join Column:** hREmployeeInfo_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

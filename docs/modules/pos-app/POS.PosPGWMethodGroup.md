@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.PosPGWMethodGroup (Table Name: PosPGWMethodGroup)
+</div>
+
 **Arabic:** Payment Gateway Method Group - Payment Gateway Method Groups
 **English:** Payment Gateway Method Group - Payment Gateway Method Groups
 
@@ -235,7 +241,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PosMethodGroupLine, **Join Column:** methodGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

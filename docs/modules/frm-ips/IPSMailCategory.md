@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSMailCategory
+</div>
+
 **Arabic:** تصنيف البريد - تصنيفات البريد
 **English:** Mail Category - Mail Categories
 

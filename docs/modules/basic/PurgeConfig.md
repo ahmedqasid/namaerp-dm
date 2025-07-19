@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PurgeConfig
+</div>
+
 **Arabic:** Purge Configuration - Purge Configurations
 **English:** Purge Configuration - Purge Configurations
 
@@ -937,7 +943,13 @@
 <div id='documentsToDelete' title='documentsToDelete' class='searchable'>
 
 ## documentsToDelete ( - )
+
+<div class='tableName'>
+
 **Table Name:** PurgeConfigDeleteLine, **Join Column:** purgeConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -989,7 +1001,13 @@
 <div id='purgedDocuments' title='purgedDocuments' class='searchable'>
 
 ## purgedDocuments (المستندات المحذوفة - Purged Documents)
+
+<div class='tableName'>
+
 **Table Name:** PurgeConfigLine, **Join Column:** purgeConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

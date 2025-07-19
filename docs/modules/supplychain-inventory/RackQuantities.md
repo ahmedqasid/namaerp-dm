@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RackQuantities
+</div>
+
 **Arabic:** كميات بالارفف
 **English:** Rack Quantities - Rack Quantitiess
 
@@ -772,7 +778,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RackQuantitiesLine, **Join Column:** rackQuantities_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

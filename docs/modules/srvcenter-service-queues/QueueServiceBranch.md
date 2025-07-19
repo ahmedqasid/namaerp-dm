@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # QueueServiceBranch
+</div>
+
 **Arabic:** فرع خدمة طوابير - فروع خدمة طوابير
 **English:** Queue Service Branch - Queue Service Branch Files
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ItemClass8
+</div>
+
 **Arabic:** تصنيف صنف 8 - تصنيفات صنف 8
 **English:** Item class 8 - Item classes 8
 
@@ -1009,7 +1015,13 @@
 <div id='relations' title='relations' class='searchable'>
 
 ## relations (العلاقات - Relations)
+
+<div class='tableName'>
+
 **Table Name:** ItemClass8Range, **Join Column:** itemClass8_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

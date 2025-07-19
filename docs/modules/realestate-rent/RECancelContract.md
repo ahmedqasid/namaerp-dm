@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RECancelContract
+</div>
+
 **Arabic:** انهاء عقد ايجار - انهاء عقود ايجار
 **English:** Cancel Contract - Cancel Contracts
 
@@ -1957,7 +1963,13 @@
 <div id='expenses' title='expenses' class='searchable'>
 
 ## expenses (مصروفات - Expense)
+
+<div class='tableName'>
+
 **Table Name:** RECancelContrPaymentLine, **Join Column:** rECancelContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2678,7 +2690,13 @@
 <div id='termLines' title='termLines' class='searchable'>
 
 ## termLines (الينود القياسيه - Standard Terms)
+
+<div class='tableName'>
+
 **Table Name:** RECancelConStandardTermLine, **Join Column:** rECancelContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSMailItemTransfer
+</div>
+
 **Arabic:** سند تحويل بين المكاتب - سندات تحويل بين المكاتب
 **English:** IPS Mail Item Transfer - IPS Mail Item Transfers
 
@@ -1033,7 +1039,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** IPSMailItemTransferLine, **Join Column:** iPSMailItemTransfer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

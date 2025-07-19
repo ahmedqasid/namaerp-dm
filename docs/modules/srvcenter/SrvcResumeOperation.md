@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvcResumeOperation
+</div>
+
 **Arabic:** إستكمال خدمة
 **English:** Resuming Operation
 
@@ -922,7 +928,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SrvcResumeOperationLine, **Join Column:** srvcResumeOperation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

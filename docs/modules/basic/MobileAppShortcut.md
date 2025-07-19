@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MobileAppShortcut
+</div>
+
 **Arabic:** تعريف اختصارات التطبيق - تعريفات اختصارات التطبيق
 **English:** Mobile App Shortcut - Mobile App Shortcuts
 
@@ -748,7 +754,13 @@
 <div id='targetItems' title='targetItems' class='searchable'>
 
 ## targetItems (الوصلات المستهدفة - Target Items)
+
+<div class='tableName'>
+
 **Table Name:** MobileAppShortcutItem, **Join Column:** mobileAppShortcut_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

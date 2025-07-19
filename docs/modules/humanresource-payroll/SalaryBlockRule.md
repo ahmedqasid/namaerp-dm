@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalaryBlockRule
+</div>
+
 **Arabic:** قاعدة حجب مرتب - قواعد حجب المرتب
 **English:** Salary Block Rule - Salary Block Rules
 
@@ -790,7 +796,13 @@
 <div id='rules' title='rules' class='searchable'>
 
 ## rules (قواعد الحجب - Block Rules)
+
+<div class='tableName'>
+
 **Table Name:** SalaryBlockRuleLine, **Join Column:** salaryBlockRule_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

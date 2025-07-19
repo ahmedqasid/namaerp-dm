@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RELand
+</div>
+
 **Arabic:** قطعة أرض - اراضي استثمار عقاري
 **English:** RE Land - RE Lands
 
@@ -2134,7 +2140,13 @@
 <div id='ownerDetails' title='ownerDetails' class='searchable'>
 
 ## ownerDetails (تفاصيل الملاك - Owner Details)
+
+<div class='tableName'>
+
 **Table Name:** RELandOwnerGroupLine, **Join Column:** rELand_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

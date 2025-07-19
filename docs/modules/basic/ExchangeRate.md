@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ExchangeRate
+</div>
+
 **Arabic:** سعر صرف - أسعار صرف
 **English:** Exchange Rate - Exchange Rates
 
@@ -892,7 +898,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** ExchangeRateLine, **Join Column:** exchangeRate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

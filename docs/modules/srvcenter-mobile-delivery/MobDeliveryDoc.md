@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MobDeliveryDoc
+</div>
+
 **Arabic:** مستند الحركة - مستندات الحركة
 **English:** Mobile Delivery Document - Mobile Delivery Documents
 
@@ -919,7 +925,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MobDeliveryDocLine, **Join Column:** mobDeliveryDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1418,7 +1430,13 @@
 <div id='timeCheckLines' title='timeCheckLines' class='searchable'>
 
 ## timeCheckLines (متابعة خروج ورجوع المندوب - Courier Check In And Out)
+
+<div class='tableName'>
+
 **Table Name:** MobDeliveryTimeCheckLine, **Join Column:** mobDeliveryDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

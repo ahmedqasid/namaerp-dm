@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DailyEngineeringDoings
+</div>
+
 **Arabic:** مستند الأعمال الهندسية اليومية - مستندات الأعمال الهندسية اليومية
 **English:** Daily Engineering Doing
 
@@ -907,7 +913,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DailyEngineeringDoingsLine, **Join Column:** dailyEngineeringDoings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FixedAsset
+</div>
+
 **Arabic:** أصل ثابت - الأصول الثابتة
 **English:** Fixed Asset - Fixed Assets
 
@@ -1903,7 +1909,13 @@
 <div id='assetComponents' title='assetComponents' class='searchable'>
 
 ## assetComponents (مكونات الأصل - Asset Components)
+
+<div class='tableName'>
+
 **Table Name:** FixedAssetComponentLine, **Join Column:** fixedAsset_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2168,7 +2180,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** FACustodianLine, **Join Column:** fixedAsset_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2250,7 +2268,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** FAContrTermLine, **Join Column:** fixedAsset_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

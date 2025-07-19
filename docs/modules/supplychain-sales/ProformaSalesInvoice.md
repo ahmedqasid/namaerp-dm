@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ProformaSalesInvoice
+</div>
+
 **Arabic:** فاتورة بيع مبدئية - فواتير بيع مبدئية
 **English:** Proforma Sales Invoice - Proforma Sales Invoices
 
@@ -2911,7 +2917,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ProformaSalesInvoiceLine, **Join Column:** proformaSalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4880,7 +4892,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** ProformaSalExternalPayLine, **Join Column:** proformaSalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5031,7 +5049,13 @@
 <div id='packingList' title='packingList' class='searchable'>
 
 ## packingList (قائمة التعبئة - Packing List)
+
+<div class='tableName'>
+
 **Table Name:** ProformaPackingListLine, **Join Column:** proformaSalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5392,7 +5416,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** ProformaSInvPaymentLine, **Join Column:** proformaSalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5702,7 +5732,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** ProformaSInvSchedPayLine, **Join Column:** proformaSalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5967,7 +6003,13 @@
 <div id='termsLines' title='termsLines' class='searchable'>
 
 ## termsLines (بنود البيع - Sales Terms)
+
+<div class='tableName'>
+
 **Table Name:** ProformaSInvStandTermLine, **Join Column:** proformaSalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

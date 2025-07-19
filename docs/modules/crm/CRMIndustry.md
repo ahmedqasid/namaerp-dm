@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMIndustry
+</div>
+
 **Arabic:** مجال خيط البيع - مجالات خيط البيع
 **English:** CRM Industry -  CRM Industry
 

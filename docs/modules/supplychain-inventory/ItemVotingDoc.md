@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ItemVotingDoc
+</div>
+
 **Arabic:** مستند تصويت على الأصناف - مستندات تصويت على الأصناف
 **English:** Item Voting Doc - Item Voting Docs
 
@@ -922,7 +928,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ItemVotingDocLine, **Join Column:** itemVotingDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

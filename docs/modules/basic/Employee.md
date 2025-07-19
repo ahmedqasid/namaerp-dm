@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Employee
+</div>
+
 **Arabic:** موظف - موظفين
 **English:** Employeess
 
@@ -3097,7 +3103,13 @@
 <div id='attendants' title='attendants' class='searchable'>
 
 ## attendants ( المرافقين -  Attendants)
+
+<div class='tableName'>
+
 **Table Name:** AttendantLine, **Join Column:** employee_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3506,7 +3518,13 @@
 <div id='qualifications' title='qualifications' class='searchable'>
 
 ## qualifications (المؤهلات - Qualifications)
+
+<div class='tableName'>
+
 **Table Name:** QualificationLine, **Join Column:** employee_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3747,7 +3765,13 @@
 <div id='responsibilities' title='responsibilities' class='searchable'>
 
 ## responsibilities ( مسئوليات -  Responsibilities)
+
+<div class='tableName'>
+
 **Table Name:** ResponsibilityLine, **Join Column:** employee_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

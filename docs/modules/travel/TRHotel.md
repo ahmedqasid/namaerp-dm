@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TRHotel
+</div>
+
 **Arabic:** فندق - فنادق
 **English:** Hotel - Hotels
 
@@ -1582,7 +1588,13 @@
 <div id='contacts' title='contacts' class='searchable'>
 
 ## contacts (جهات الاتصال - Contacts)
+
+<div class='tableName'>
+
 **Table Name:** TRHotelContactInfoLine, **Join Column:** tRHotel_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

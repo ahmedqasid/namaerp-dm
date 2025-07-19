@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PartyEvaluationElement
+</div>
+
 **Arabic:** عنصر تقييم جهة - عناصر تقييم جهة
 **English:** Party Evaluation Element - Party Evaluation Elements
 
@@ -766,7 +772,13 @@
 <div id='evaluationRanges' title='evaluationRanges' class='searchable'>
 
 ## evaluationRanges (الشرائح - Ranges)
+
+<div class='tableName'>
+
 **Table Name:** EvaluationEleRangePartyLine, **Join Column:** partyEvaluationElement_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

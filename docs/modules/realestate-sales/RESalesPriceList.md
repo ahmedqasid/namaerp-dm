@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RESalesPriceList
+</div>
+
 **Arabic:** قائمة أسعار استثمار عقاري - قوائم أسعار استثمار عقاري
 **English:** Sales Price List - Sales Price Lists
 
@@ -877,7 +883,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** RESalesPriceListLine, **Join Column:** rESalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

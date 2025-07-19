@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EvacuationApprovalSettings
+</div>
+
 **Arabic:** إعدادات الموافقة على سند إخلاء طرف -  إعدادات الموافقة على سند إخلاء طرف
 **English:** Evacuation Approval Settings -  Evacuation Approval Settings
 
@@ -760,7 +766,13 @@
 <div id='steps' title='steps' class='searchable'>
 
 ## steps (الخطوات - Steps)
+
+<div class='tableName'>
+
 **Table Name:** EvacuationApprovalStepLine, **Join Column:** evacuationApprovalSettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

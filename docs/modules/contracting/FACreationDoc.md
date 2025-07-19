@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FACreationDoc
+</div>
+
 **Arabic:** سند إنشاء أصول - سندات إنشاء أصول
 **English:** Fixed Asset Creation Document - Fixed Asset Creation Documents
 
@@ -886,7 +892,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FACreationDocLine, **Join Column:** fACreationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

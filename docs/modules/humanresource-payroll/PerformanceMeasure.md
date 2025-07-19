@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PerformanceMeasure
+</div>
+
 **Arabic:** قيمة مؤشر أداء - قيم مؤشرات الأداء
 **English:** Performance Measure - Performance Measures
 
@@ -1294,7 +1300,13 @@
 <div id='calculatedDetails' title='calculatedDetails' class='searchable'>
 
 ## calculatedDetails (المؤشرات المحسوبة - Calculated Details)
+
+<div class='tableName'>
+
 **Table Name:** CalculatedIndicatorLine, **Join Column:** performanceMeasure_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2072,7 +2084,13 @@
 <div id='manualDetails' title='manualDetails' class='searchable'>
 
 ## manualDetails (المؤشرات اليدوية - Manual Details)
+
+<div class='tableName'>
+
 **Table Name:** ManualIndicatorLine, **Join Column:** performanceMeasure_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2850,7 +2868,13 @@
 <div id='systemDetails' title='systemDetails' class='searchable'>
 
 ## systemDetails (المؤشرات الآلية - System Details)
+
+<div class='tableName'>
+
 **Table Name:** SystemIndicatorLine, **Join Column:** performanceMeasure_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

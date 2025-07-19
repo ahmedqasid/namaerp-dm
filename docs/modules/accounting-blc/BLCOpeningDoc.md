@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BLCOpeningDoc
+</div>
+
 **Arabic:** فتح اعتماد بنكى - فتح اعتمادات بنكية
 **English:** Bank LC Opening - Bank LC Opening Documents
 

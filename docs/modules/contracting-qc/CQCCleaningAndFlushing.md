@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CQCCleaningAndFlushing
+</div>
+
 **Arabic:** Cleaning And Flushing - Cleaning And Flushings
 **English:** Cleaning And Flushing - Cleaning And Flushings
 
@@ -961,7 +967,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CQCCleaningAndFlushingLine, **Join Column:** cQCCleaningAndFlushing_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractorContractUpdate
+</div>
+
 **Arabic:** تعديل عقد مقاول باطن - سندات تعديل عقود مقاولين باطن
 **English:** Contractor Contract Update - Contractor Contract Update Documents
 
@@ -1027,7 +1033,13 @@
 <div id='conditions' title='conditions' class='searchable'>
 
 ## conditions (الشروط - Conditions)
+
+<div class='tableName'>
+
 **Table Name:** ContractorContractUpdateConditionLine, **Join Column:** contractorContractUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1286,7 +1298,13 @@
 <div id='conditionsBeforeEdit' title='conditionsBeforeEdit' class='searchable'>
 
 ## conditionsBeforeEdit (الشروط قبل التعديل - Conditions Before Edit)
+
+<div class='tableName'>
+
 **Table Name:** ContractorContractUpdateBeforeConditionLine, **Join Column:** contractorContractUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1545,7 +1563,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** ContractorContractUpdateTermLine, **Join Column:** contractorContractUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2800,7 +2824,13 @@
 <div id='termsBeforeEdit' title='termsBeforeEdit' class='searchable'>
 
 ## termsBeforeEdit (البنود قبل التعديل - Terms Before Edit)
+
+<div class='tableName'>
+
 **Table Name:** ContractorContractUpdateBeforeTermLine, **Join Column:** contractorContractUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

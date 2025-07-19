@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LedgerTransReq
+</div>
+
 **Arabic:** Ledger Trans Req
 **English:** Ledger Trans Req
 

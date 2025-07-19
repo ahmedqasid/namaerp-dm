@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSPhyTherapyCategory
+</div>
+
 **Arabic:** تصنيف علاج طبيعى - تصنيفات علاج طبيعى
 **English:** Physical Therapy Category - Physical Therapy Categories
 

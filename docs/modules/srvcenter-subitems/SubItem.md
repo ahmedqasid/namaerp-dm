@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SubItem
+</div>
+
 **Arabic:** صنف فرعى - أصناف فرعية
 
 <ContentFilter/>
@@ -2028,7 +2034,13 @@
 <div id='attachmentLines' title='attachmentLines' class='searchable'>
 
 ## attachmentLines (سطور المرفقات - Attachment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SubItemAttachmentLine, **Join Column:** subItem_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

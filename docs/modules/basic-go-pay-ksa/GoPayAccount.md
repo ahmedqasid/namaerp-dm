@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # GoPayAccount
+</div>
+
 **Arabic:** حساب GoPay - حسابات GoPay
 **English:** GoPay Account - GoPay Accounts
 

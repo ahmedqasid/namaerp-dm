@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAMaintenanceCheckList
+</div>
+
 **Arabic:** بنود الصيانة - اختبارات الصيانة
 **English:** Maintenance CheckList - Maintenance CheckLists
 
@@ -748,7 +754,13 @@
 <div id='questions' title='questions' class='searchable'>
 
 ## questions (الاسئله - Questions)
+
+<div class='tableName'>
+
 **Table Name:** FAMaintenanceCheckListItem, **Join Column:** fAMaintenanceCheckList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSTable (Table Name: POSTable)
+</div>
+
 **Arabic:** طاولة نقاط البيع -  طاولة نقاط البيع
 **English:** Table -  Table
 

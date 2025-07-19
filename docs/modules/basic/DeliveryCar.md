@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DeliveryCar
+</div>
+
 **Arabic:** سيارة توصيل - سيارات التوصيل
 **English:** Delivery Car - Delivery Cars
 
@@ -1096,7 +1102,13 @@
 <div id='ordersLocations' title='ordersLocations' class='searchable'>
 
 ## ordersLocations (مواقع التخزين فى السيارة - Order Location In Car)
+
+<div class='tableName'>
+
 **Table Name:** DeliveryCarLocationLine, **Join Column:** deliveryCar_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

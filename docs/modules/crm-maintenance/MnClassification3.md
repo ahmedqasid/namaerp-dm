@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnClassification3
+</div>
+
 **Arabic:** تصنيف آلة3 - تصنيفات آلة3
 **English:** Machine Classification3 - Machine Classifications3
 

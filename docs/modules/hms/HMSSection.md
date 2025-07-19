@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSSection
+</div>
+
 **Arabic:** قسم طبى - الأقسام الطبية
 **English:** Hospital Section - Hospital Sections
 

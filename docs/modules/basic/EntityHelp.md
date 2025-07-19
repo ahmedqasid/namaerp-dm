@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EntityHelp
+</div>
+
 **Arabic:** ملف مساعدة - ملفات مساعدة
 **English:** Entity Help - Entities Help
 
@@ -757,7 +763,13 @@
 <div id='applicableFor' title='applicableFor' class='searchable'>
 
 ## applicableFor (مطبق على - Applicable For)
+
+<div class='tableName'>
+
 **Table Name:** EntityHelpApplicableLine, **Join Column:** entityHelp_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -809,7 +821,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** EntityHelpLine, **Join Column:** entityHelp_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -927,7 +945,13 @@
 <div id='errorMsgsHelp' title='errorMsgsHelp' class='searchable'>
 
 ## errorMsgsHelp (مساعدات رسائل الخطأ - Error Messages Help)
+
+<div class='tableName'>
+
 **Table Name:** ErrorMsgHelpLine, **Join Column:** entityHelp_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ExchangeRateUpdate
+</div>
+
 **Arabic:** سند تغيير سعر صرف - سندات تغيير أسعار صرف
 **English:** Exchange Rate Update - Exchange Rate Updates
 
@@ -1069,7 +1075,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** ExchangeRateUpdateResult, **Join Column:** exchangeRateUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1436,7 +1448,13 @@
 <div id='updateRange' title='updateRange' class='searchable'>
 
 ## updateRange ( - )
+
+<div class='tableName'>
+
 **Table Name:** ExchangeRateUpdateLine, **Join Column:** exchangeRateUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

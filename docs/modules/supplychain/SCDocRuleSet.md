@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SCDocRuleSet
+</div>
+
 **Arabic:** قائمة قواعد - قائمة القواعد
 **English:** Doc Generation Rule Set - Doc Generation Rule Sets
 

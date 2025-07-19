@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TRTourProgram
+</div>
+
 **Arabic:** برنامج سياحي - برامج سياحية
 **English:** Tour Program - Tour Programs
 
@@ -910,7 +916,13 @@
 <div id='accommodationDetails' title='accommodationDetails' class='searchable'>
 
 ## accommodationDetails (تفاصيل الإقامة - Accommodation Details)
+
+<div class='tableName'>
+
 **Table Name:** TRTourProgramAccommodationLine, **Join Column:** tRTourProgram_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1280,7 +1292,13 @@
 <div id='flights' title='flights' class='searchable'>
 
 ## flights (الرحلات الجوية - Flights)
+
+<div class='tableName'>
+
 **Table Name:** TRTourProgramFlightLine, **Join Column:** tRTourProgram_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1578,7 +1596,13 @@
 <div id='services' title='services' class='searchable'>
 
 ## services (الخدمات - Services)
+
+<div class='tableName'>
+
 **Table Name:** TRTourProgramServiceLine, **Join Column:** tRTourProgram_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

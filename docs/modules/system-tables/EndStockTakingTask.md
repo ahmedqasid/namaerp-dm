@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EndStockTakingTask
+</div>
+
 **Arabic:** End Stock Taking Tasks
 **English:** End Stock Taking Tasks
 

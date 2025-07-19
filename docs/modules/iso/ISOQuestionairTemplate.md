@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ISOQuestionairTemplate
+</div>
+
 **Arabic:** ISO Questionair Template - ISO Questionair Templates
 **English:** ISO Questionair Template - ISO Questionair Templates
 
@@ -766,7 +772,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ISOQuestionairTemplateLine, **Join Column:** iSOQuestionairTemplate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

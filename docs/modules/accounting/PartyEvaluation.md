@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PartyEvaluation
+</div>
+
 **Arabic:** تقييم جهة - تقييم جهات
 **English:** Party Evaluation - Party Evaluations
 
@@ -904,7 +910,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PartyEvaluationLine, **Join Column:** partyEvaluation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

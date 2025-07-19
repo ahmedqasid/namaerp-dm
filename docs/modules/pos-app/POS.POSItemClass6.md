@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSItemClass6 (Table Name: POSItemClass6)
+</div>
+
 **Arabic:** تصنيف صنف 6 - تصنيفات صنف 6
 **English:** Item class 6 - Item classes 6
 

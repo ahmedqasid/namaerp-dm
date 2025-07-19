@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSSupervisionInvoice
+</div>
+
 **Arabic:** فاتورة إشراف طبي - فواتير الإشراف الطبي
 **English:** Supervision Invoice - Supervision Invoices
 
@@ -1960,7 +1966,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSSupervisionInvoiceLine, **Join Column:** hMSSupervisionInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3002,7 +3014,13 @@
 <div id='overheadItems' title='overheadItems' class='searchable'>
 
 ## overheadItems (بنود تكلفة طبية غير مباشرة - Overhead Items)
+
+<div class='tableName'>
+
 **Table Name:** HMSSupervisionInvoiceOverheadItem, **Join Column:** hMSSupervisionInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

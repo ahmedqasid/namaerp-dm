@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # OrderStatusQtyTrackConfig
+</div>
+
 **Arabic:** إعدادات  مصدر متابعة الكميات - ملفات إعدادات مصدر متابعة الكميات
 **English:** Quantity Tracking Source Config File - Quantity Tracking Source Config Files
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** OrderStatusQtyTrackConfigLine, **Join Column:** orderStatusQtyTrackConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

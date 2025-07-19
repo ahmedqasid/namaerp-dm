@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ItemSection
+</div>
+
 **Arabic:** قسم صنف - أقسام أصناف
 **English:** Item Section - Item Sections
 
@@ -1651,7 +1657,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ItemSectionEncodingLine, **Join Column:** itemSection_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1850,7 +1862,13 @@
 <div id='relations' title='relations' class='searchable'>
 
 ## relations (العلاقات - Relations)
+
+<div class='tableName'>
+
 **Table Name:** ItemSectionRange, **Join Column:** itemSection_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

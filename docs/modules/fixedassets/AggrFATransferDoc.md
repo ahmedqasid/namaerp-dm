@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggrFATransferDoc
+</div>
+
 **Arabic:** سند نقل أصل مجمع - سندات نقل أصل مجمعة
 **English:** Aggregated Fixed Asset Transfer Document - Aggregated Fixed Asset Transfer Documents
 
@@ -934,7 +940,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** AggrFATransferLine, **Join Column:** aggrFATransferDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

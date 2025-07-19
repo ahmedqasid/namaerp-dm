@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EvaluationElementsGroup
+</div>
+
 **Arabic:** مجموعة نقاط تقييم -  مجموعة نقاط تقييم
 **English:** Evaluation Elements Group -  Evaluation Elements Group
 
@@ -757,7 +763,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** EvaluationEleGroupLine, **Join Column:** evaluationElementsGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

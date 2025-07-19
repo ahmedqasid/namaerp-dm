@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REMultiRentContract
+</div>
+
 **Arabic:** سند عقود مجمعة - سندات عقود مجمعة
 **English:** Multi rent contract doc - Multi rent contract docs
 
@@ -1366,7 +1372,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** REMultiRentContrLine, **Join Column:** rEMultiRentContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

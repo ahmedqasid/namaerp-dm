@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RecallCampaign
+</div>
+
 **Arabic:** حملة إستدعاء - حملات الإستدعاء
 **English:** Recall Campaign - Recall Campaigns
 
@@ -844,7 +850,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RecallCampaignLine, **Join Column:** recallCampaign_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -917,7 +929,13 @@
 <div id='materials' title='materials' class='searchable'>
 
 ## materials (قطع غيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** RecallCampaignMaterialLine, **Join Column:** recallCampaign_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1758,7 +1776,13 @@
 <div id='tasks' title='tasks' class='searchable'>
 
 ## tasks (المهام - Tasks)
+
+<div class='tableName'>
+
 **Table Name:** RecallCampaignTasksLine, **Join Column:** recallCampaign_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

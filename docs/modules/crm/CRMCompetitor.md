@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMCompetitor
+</div>
+
 **Arabic:** شركة منافسة - شركات منافسة
 **English:** Competitor Company - Competitors Companies
 

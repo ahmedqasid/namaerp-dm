@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MobileEntityTitleModifier
+</div>
+
 **Arabic:** طريقة عرض بيانات المستند فى التطبيق - طرق عرض بيانات المستند فى التطبيق
 **English:** Mobile Entity Title Modifier - Mobile Entity Title Modifiers
 
@@ -757,7 +763,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MobileEntityTitleModifierLine, **Join Column:** mobileEntityTitleModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

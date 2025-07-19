@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ConsolidatedRVRequest
+</div>
+
 **Arabic:** طلب قبض مجمع - طلبات قبض مجمعه
 **English:** Consolidate Receipt Voucher Request - Consolidate Receipt Voucher Requests
 
@@ -1189,7 +1195,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ConsolidatedRVRequestLine, **Join Column:** consolidatedRVRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

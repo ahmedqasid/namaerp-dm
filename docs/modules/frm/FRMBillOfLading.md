@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMBillOfLading
+</div>
+
 **Arabic:** بوليصة شحن - بوالص شحن
 **English:** Bill of Lading - Bills of Lading
 
@@ -1156,7 +1162,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMBillOfLadingLine, **Join Column:** fRMBillOfLading_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

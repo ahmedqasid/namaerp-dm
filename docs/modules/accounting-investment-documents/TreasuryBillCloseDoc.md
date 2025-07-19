@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TreasuryBillCloseDoc
+</div>
+
 **Arabic:** إقفال إذن خزانة - إقفال أذونات الخزانة
 **English:** Treasury Bill Close Document - Treasury Bill Close Documents
 

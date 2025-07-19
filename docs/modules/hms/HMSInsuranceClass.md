@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSInsuranceClass
+</div>
+
 **Arabic:** فئة تأمين - فئات التأمين
 **English:** Insurance Classification - Insurance Classifications
 

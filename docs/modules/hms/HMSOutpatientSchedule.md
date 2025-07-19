@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSOutpatientSchedule
+</div>
+
 **Arabic:** موعد عيادة خارجية - مواعيد عيادات خارجية
 **English:** Outpatient Schedule - Outpatient Schedules
 
@@ -802,7 +808,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSOutpatientScheduleLine, **Join Column:** hMSOutpatientSchedule_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

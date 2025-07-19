@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EmployeeProvisionsOpening
+</div>
+
 **Arabic:** سند إفتتاحي مخصصات موظف - سندات إفتتاحي مخصصات موظف
 **English:** Employee Provisions Opening Document - Employee Provisions Opening Documents
 
@@ -937,7 +943,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** EmployeeProvisionsOpenLine, **Join Column:** employeeProvisionsOpening_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

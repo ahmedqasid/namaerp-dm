@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUFSA
+</div>
+
 **Arabic:** FSA - FSAs
 **English:** Financial Statement Area - Financial Statements Area
 
@@ -880,7 +886,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AUFSALine, **Join Column:** aUFSA_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUCustomerAccMapping
+</div>
+
 **Arabic:** مطابقة حسابات عميل - مطابقة حسابات العملاء
 **English:** Customer Account Mapping - Customer Accounts Mapping
 
@@ -880,7 +886,13 @@
 <div id='customerAccLines' title='customerAccLines' class='searchable'>
 
 ## customerAccLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUCustomerAccMappingLine, **Join Column:** aUCustomerAccMapping_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

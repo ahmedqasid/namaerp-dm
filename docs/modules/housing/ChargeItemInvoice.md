@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ChargeItemInvoice
+</div>
+
 **Arabic:** فاتورة شحن إلكترونى - فواتير شحن الكترونى
 **English:** Charge Item Invoice - Charge Item Invoices
 
@@ -1402,7 +1408,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ChargeItemInvoiceLine, **Join Column:** chargeItemInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2111,7 +2123,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** ChargeItemInvoicePaymentLine, **Join Column:** chargeItemInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2421,7 +2439,13 @@
 <div id='responseLines' title='responseLines' class='searchable'>
 
 ## responseLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** ChargeInvoiceResponse, **Join Column:** chargeItemInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnMachineOwnerTransferDoc
+</div>
+
 **Arabic:** سند نقل ملكية آلة - سندات نقل ملكية آلة
 **English:** Machine Ownership Transfer Document - Machine Ownership Transfer Documents
 

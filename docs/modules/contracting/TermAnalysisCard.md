@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TermAnalysisCard
+</div>
+
 **Arabic:** كارت التحليل -  كارت التحليل
 **English:** Term Analysis Card -  Term Analysis Card
 
@@ -949,7 +955,13 @@
 <div id='analysisLines' title='analysisLines' class='searchable'>
 
 ## analysisLines (بنود التحليل - Analysis Terms)
+
+<div class='tableName'>
+
 **Table Name:** AnalysisLines, **Join Column:** termAnalysisCard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1709,7 +1721,13 @@
 <div id='contractors' title='contractors' class='searchable'>
 
 ## contractors (مقاول باطن - Contractors)
+
+<div class='tableName'>
+
 **Table Name:** AnalysisContractorLine, **Join Column:** termAnalysisCard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2469,7 +2487,13 @@
 <div id='items' title='items' class='searchable'>
 
 ## items (مواد خام - Materials)
+
+<div class='tableName'>
+
 **Table Name:** AnalysisItemLine, **Join Column:** termAnalysisCard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3229,7 +3253,13 @@
 <div id='otherExpenses' title='otherExpenses' class='searchable'>
 
 ## otherExpenses (مصروفات أخري - Other Expenses)
+
+<div class='tableName'>
+
 **Table Name:** AnalysisExpenseLine, **Join Column:** termAnalysisCard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3989,7 +4019,13 @@
 <div id='workers' title='workers' class='searchable'>
 
 ## workers (عمالة - Workers)
+
+<div class='tableName'>
+
 **Table Name:** AnalysisWorkerLine, **Join Column:** termAnalysisCard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

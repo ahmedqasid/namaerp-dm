@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSRewardPointConfig (Table Name: POSRewardPointConfig)
+</div>
+
 **Arabic:** إعدادات نقاط المكافأة - ملفات إعدادات نقاط المكافأة
 **English:** Reward Points Configuration - Reward Points Configuration Files
 

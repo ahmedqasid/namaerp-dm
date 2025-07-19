@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DeliveryNumber
+</div>
+
 **Arabic:** مخالصة - المخالصات
 **English:** Delivery Number - Delivery Numbers
 

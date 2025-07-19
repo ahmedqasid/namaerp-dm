@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPosMobileUISettings
+</div>
+
 **Arabic:** إعدادات واجهة نقاط البيع للموبايل -  إعدادات واجهة نقاط البيع للموبايل
 **English:** Pos Mobile UI Settings -  Pos Mobile UI Settings
 
@@ -811,7 +817,13 @@
 <div id='headerFields' title='headerFields' class='searchable'>
 
 ## headerFields (حقول الهيدر - Header Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSMobileHeaderFieldLine, **Join Column:** namaPosMobileUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -872,7 +884,13 @@
 <div id='lineFields' title='lineFields' class='searchable'>
 
 ## lineFields (حقول التفاصيل - Line Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSMobileGridFieldLine, **Join Column:** namaPosMobileUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

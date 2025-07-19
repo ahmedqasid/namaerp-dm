@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FinishedProductPricing
+</div>
+
 **Arabic:** تسعير منتج نهائى - تسعير منتجات نهائية
 **English:** Finished Product Pricing - Finished Product Pricings
 
@@ -2476,7 +2482,13 @@
 <div id='coProducts' title='coProducts' class='searchable'>
 
 ## coProducts (المنتجات الثانوية - Co Products)
+
+<div class='tableName'>
+
 **Table Name:** FinishedProductPricingCoProLine, **Join Column:** finishedProductPricing_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3308,7 +3320,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FinishedProductPricingLine, **Join Column:** finishedProductPricing_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5232,7 +5250,13 @@
 <div id='products' title='products' class='searchable'>
 
 ## products (المنتجات - Products)
+
+<div class='tableName'>
+
 **Table Name:** FinishedProductPricingProLine, **Join Column:** finishedProductPricing_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

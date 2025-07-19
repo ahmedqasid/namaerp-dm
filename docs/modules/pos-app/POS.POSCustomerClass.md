@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSCustomerClass (Table Name: POSCustomerClass)
+</div>
+
 **Arabic:** فئة عملاء - فئات العملاء
 **English:** Customers' Class - Customers' Classes
 

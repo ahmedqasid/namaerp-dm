@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractingBudgetExecution
+</div>
+
 **Arabic:** حصر كميات موازنة - مستندات حصر كميات موازنة
 **English:** Contracting Budget Execution Document - Contracting Budget Execution Documents
 
@@ -1342,7 +1348,13 @@
 <div id='executions' title='executions' class='searchable'>
 
 ## executions (التنفيذات - Executions)
+
+<div class='tableName'>
+
 **Table Name:** ContrBudgetExecutionLine, **Join Column:** contractingBudgetExecution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

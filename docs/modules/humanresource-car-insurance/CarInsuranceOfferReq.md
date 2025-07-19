@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CarInsuranceOfferReq
+</div>
+
 **Arabic:** طلب عرض تأمين سيارات - طلبات عرض تأمين سيارات
 **English:** Car Insurance Offer Request - Car Insurance Offer Requests
 
@@ -1093,7 +1099,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CarInsuranceOfferReqLine, **Join Column:** carInsuranceOfferReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

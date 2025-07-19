@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvCKiloMetrage
+</div>
+
 **Arabic:** سجل قراءة العداد - سجلات قراءة العدادت
 **English:** Kilo Metrage - Kilo Metrages
 
@@ -883,7 +889,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** SrvCKiloMetrageLine, **Join Column:** srvCKiloMetrage_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

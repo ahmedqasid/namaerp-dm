@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSFeedingType
+</div>
+
 **Arabic:** نوع تغذية - أنواع التغذية
 **English:** Feeding Type - Feeding Types
 
@@ -817,7 +823,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSFeedingTypeLine, **Join Column:** hMSFeedingType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

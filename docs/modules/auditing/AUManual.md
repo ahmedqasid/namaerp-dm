@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUManual
+</div>
+
 **Arabic:** دليل مراجعة - دليل المراجعة
 **English:** Manual - Manuals
 
@@ -748,7 +754,13 @@
 <div id='steps' title='steps' class='searchable'>
 
 ## steps (الخطوات - Steps)
+
+<div class='tableName'>
+
 **Table Name:** AUManualLine, **Join Column:** aUManual_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

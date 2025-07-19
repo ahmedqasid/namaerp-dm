@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JOSalesQuotation
+</div>
+
 **Arabic:** عرض أسعار زجاج - عروض أسعار زجاج
 **English:** Glass Sales Quotation - Glass Sales Quotations3
 
@@ -4831,7 +4837,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** JOSalesQuotationLine, **Join Column:** jOSalesQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -8873,7 +8885,13 @@
 <div id='joMeasures' title='joMeasures' class='searchable'>
 
 ## joMeasures (الأبعاد - Measures)
+
+<div class='tableName'>
+
 **Table Name:** JOSalesQuotationMeasureLine, **Join Column:** jOSalesQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -9063,7 +9081,13 @@
 <div id='joOperations' title='joOperations' class='searchable'>
 
 ## joOperations (تشغيلات - JOOperations)
+
+<div class='tableName'>
+
 **Table Name:** JOOperationSQuotationLine, **Join Column:** jOSalesQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -9499,7 +9523,13 @@
 <div id='productCosts' title='productCosts' class='searchable'>
 
 ## productCosts (تكاليف المنتج - Product Costs)
+
+<div class='tableName'>
+
 **Table Name:** JOSaleQuotationProdCostLine, **Join Column:** jOSalesQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -9935,7 +9965,13 @@
 <div id='termRemarkLines' title='termRemarkLines' class='searchable'>
 
 ## termRemarkLines (وصف البنود - Term Remark Lines)
+
+<div class='tableName'>
+
 **Table Name:** JOSaleQuotationTermRemarks, **Join Column:** jOSalesQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

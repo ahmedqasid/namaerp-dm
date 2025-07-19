@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SupplierClass
+</div>
+
 **Arabic:** فئة موردين - فئات الموردين
 **English:** Suppliers' Class - Suppliers' Classes
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSRoomClassification
+</div>
+
 **Arabic:** تصنيف غرفة - تصنيفات الغرف
 **English:** Room Classification - Room Classifications
 
@@ -799,7 +805,13 @@
 <div id='roomClassPriceLines' title='roomClassPriceLines' class='searchable'>
 
 ## roomClassPriceLines (أسعار نوع تصنيف الغرفة في القوائم - Room Class Price in Lists)
+
+<div class='tableName'>
+
 **Table Name:** HMSRoomClassPriceLine, **Join Column:** hMSRoomClassification_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

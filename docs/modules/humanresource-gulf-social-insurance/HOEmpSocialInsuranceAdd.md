@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOEmpSocialInsuranceAdd
+</div>
+
 **Arabic:** سند إضافة موظفين للتأمينات الإجتماعية - سندات إضافة موظفين للتأمينات الإجتماعية
 **English:** Employee Social Insurance Add - Employees Social Insurance Add
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SocialInsuranceAddLine, **Join Column:** hOEmpSocialInsuranceAdd_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

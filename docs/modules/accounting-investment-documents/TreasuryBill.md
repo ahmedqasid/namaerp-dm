@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TreasuryBill
+</div>
+
 **Arabic:** إذن خزانة - أذون خزانة
 **English:** Treasury Bill - Treasury Bills
 

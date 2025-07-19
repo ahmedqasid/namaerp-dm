@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # VacationChangingDocument
+</div>
+
 **Arabic:** سند تعديل رصيد أجازة - سندات تعديل رصيد أجازة
 **English:** Vacation Changing Document - Vacation Changing Documents
 
@@ -1264,7 +1270,13 @@
 <div id='vacationLines' title='vacationLines' class='searchable'>
 
 ## vacationLines (الأجازات - Vcations)
+
+<div class='tableName'>
+
 **Table Name:** AssignedVacationLine, **Join Column:** vacationChangingDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSLabTestCategory
+</div>
+
 **Arabic:** تصنيف تحليل طبى - تصنيفات تحاليل طبية
 **English:** Laboratory Test Category - Laboratory Test Categories
 

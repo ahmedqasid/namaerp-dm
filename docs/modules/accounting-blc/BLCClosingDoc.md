@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BLCClosingDoc
+</div>
+
 **Arabic:** إنهاء اعتماد بنكى - إنهاء اعتمادات بنكية
 **English:** Bank LC Closing - Bank LC Closing Documents
 

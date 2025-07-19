@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractorContractFine
+</div>
+
 **Arabic:** سند غرامة عقد مقاول باطن - سندات غرامة عقد مقاول باطن
 **English:** Contractor Contract Fine - Contractor Contract Fines
 
@@ -1108,7 +1114,13 @@
 <div id='fineLines' title='fineLines' class='searchable'>
 
 ## fineLines (تفاصيل الغرامة - Fine Lines)
+
+<div class='tableName'>
+
 **Table Name:** ContractorContrFineLine, **Join Column:** contractorContractFine_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

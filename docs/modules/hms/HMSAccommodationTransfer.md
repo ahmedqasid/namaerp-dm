@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSAccommodationTransfer
+</div>
+
 **Arabic:** نقل تسكين مريض - نقل تسكين المرضى
 **English:** AccommodationTransfer - Accommodation Transfers
 

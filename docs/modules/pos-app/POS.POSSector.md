@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSSector (Table Name: POSSector)
+</div>
+
 **Arabic:** قطاع - قطاعات
 
 <ContentFilter/>

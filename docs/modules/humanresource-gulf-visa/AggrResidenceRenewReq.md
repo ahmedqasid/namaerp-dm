@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggrResidenceRenewReq
+</div>
+
 **Arabic:** طلب تجديد إقامة مجمع - طلبات تجديد إقامة مجمعة
 **English:** Aggregated Residence Renew Requests
 
@@ -961,7 +967,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggrResidenceRenewReqLine, **Join Column:** aggrResidenceRenewReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

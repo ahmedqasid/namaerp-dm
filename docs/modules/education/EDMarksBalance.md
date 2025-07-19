@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDMarksBalance
+</div>
+
 **Arabic:** رصيد درجات - رصيد الدرجات
 **English:** Marks Balance - Marks Balances
 
@@ -946,7 +952,13 @@
 <div id='balances' title='balances' class='searchable'>
 
 ## balances ( - )
+
+<div class='tableName'>
+
 **Table Name:** EDMarksBalanceLine, **Join Column:** eDMarksBalance_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ModifyCustomerInfoReq
+</div>
+
 **Arabic:** طلب تعديل بيانات العميل - طلبات تعديل بيانات العملاء
 **English:** Modify Customer Info Request - Modify Customer Info Requests
 
@@ -2320,7 +2326,13 @@
 <div id='contacts' title='contacts' class='searchable'>
 
 ## contacts (جهات الاتصال - Contacts)
+
+<div class='tableName'>
+
 **Table Name:** ModifyCustomerContactInfo, **Join Column:** modifyCustomerInfoReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2705,7 +2717,13 @@
 <div id='creditLimits' title='creditLimits' class='searchable'>
 
 ## creditLimits (حدود الأئتمان - Credit limits)
+
+<div class='tableName'>
+
 **Table Name:** ModifyCustomerInfoCreditLimits, **Join Column:** modifyCustomerInfoReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUAnalysis
+</div>
+
 **Arabic:** نموذج المراجعة التحليلية - نماذج المراجعة التحليلية
 **English:** Analytical Model - Analytical Models
 
@@ -877,7 +883,13 @@
 <div id='inputs' title='inputs' class='searchable'>
 
 ## inputs (المدخلات - Inputs)
+
+<div class='tableName'>
+
 **Table Name:** AUAnalysisInput, **Join Column:** aUAnalysis_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -959,7 +971,13 @@
 <div id='results' title='results' class='searchable'>
 
 ## results (النتائج - Results)
+
+<div class='tableName'>
+
 **Table Name:** AUAnalysisResult, **Join Column:** aUAnalysis_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

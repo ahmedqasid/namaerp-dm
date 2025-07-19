@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSSurgeryReservation
+</div>
+
 **Arabic:** حجز عملية جراحية - حجوزات العمليات الجراحية
 **English:** Surgery Reservation - Surgery Reservations
 

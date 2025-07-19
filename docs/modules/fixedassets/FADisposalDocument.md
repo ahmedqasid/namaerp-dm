@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FADisposalDocument
+</div>
+
 **Arabic:** تخلص من الأصل
 **English:** Fixed assets disposal document - Fixed assets disposal documents
 
@@ -1042,7 +1048,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FADisposalDocumentLine, **Join Column:** fADisposalDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SIPurchaseReturn
+</div>
+
 **Arabic:** مردود مشتريات صنف فرعى - مردودات مشتريات صنف فرعى
 **English:** SubItem Purchase Return -  SubItem Purchase Return
 
@@ -2431,7 +2437,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SIPurchaseReturnLine, **Join Column:** sIPurchaseReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4382,7 +4394,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SIPurchaseRetExePaymentLine, **Join Column:** sIPurchaseReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4533,7 +4551,13 @@
 <div id='stockDocs' title='stockDocs' class='searchable'>
 
 ## stockDocs (السندات المخزنية - Stock Documents)
+
+<div class='tableName'>
+
 **Table Name:** SIPurchaseReturnIssue, **Join Column:** sIPurchaseReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FALetterOfCredit
+</div>
+
 **Arabic:** اعتماد أصول - اعتمادات اصول
 **English:** Fixed asset Letter of Credit - Fixed asset Letter of Credits
 

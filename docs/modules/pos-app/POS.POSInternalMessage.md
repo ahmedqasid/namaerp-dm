@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSInternalMessage (Table Name: POSInternalMessage)
+</div>
+
 **Arabic:** رسالة نقاط بيع داخليه - رسائل نقاط البيع الداخليه
 **English:** POS Internal Message - POS Internal Messages
 

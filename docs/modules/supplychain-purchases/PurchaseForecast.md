@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PurchaseForecast
+</div>
+
 **Arabic:** موازنة المشتريات
 **English:** Purchase Forecast - Purchase Forecasts
 
@@ -2464,7 +2470,13 @@
 <div id='aggregatedLines' title='aggregatedLines' class='searchable'>
 
 ## aggregatedLines (إجمالي - Aggregated)
+
+<div class='tableName'>
+
 **Table Name:** AggregatedPForecastLine, **Join Column:** purchaseForecast_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4526,7 +4538,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseForecastLine, **Join Column:** purchaseForecast_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

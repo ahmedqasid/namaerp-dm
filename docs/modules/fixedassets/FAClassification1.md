@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAClassification1
+</div>
+
 **Arabic:** تصنيف أصل ثابت 1 - تصنيفات أصل ثابت 1
 **English:** Fixed Asset Classification1 - Fixed Asset Classifications1
 

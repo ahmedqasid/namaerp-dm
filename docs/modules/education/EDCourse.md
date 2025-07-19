@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDCourse
+</div>
+
 **Arabic:** مادة دراسية - المواد الدراسية
 **English:** Course - Courses
 
@@ -1294,7 +1300,13 @@
 <div id='courses' title='courses' class='searchable'>
 
 ## courses ( - )
+
+<div class='tableName'>
+
 **Table Name:** EDCourseLine, **Join Column:** eDCourse_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

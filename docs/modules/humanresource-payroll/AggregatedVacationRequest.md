@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggregatedVacationRequest
+</div>
+
 **Arabic:** طلب أجازة مجمع - طلبات أجازة مجمعة
 **English:** Aggregated Vacation Request - Aggregated Vacation Requests
 
@@ -1186,7 +1192,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggregatedVacationReqLine, **Join Column:** aggregatedVacationRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

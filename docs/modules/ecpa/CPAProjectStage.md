@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPAProjectStage
+</div>
+
 **Arabic:** مرحلة مشروع - مراحل مشروع
 **English:** Project Stage - Project Stages
 
@@ -1147,7 +1153,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CPAProjectStageLine, **Join Column:** cPAProjectStage_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1274,7 +1286,13 @@
 <div id='fixedAssetCosts' title='fixedAssetCosts' class='searchable'>
 
 ## fixedAssetCosts (تكاليف الأصول الثابتة - Fixed Asset Costs)
+
+<div class='tableName'>
+
 **Table Name:** CPAProjectStageFixedAssetLine, **Join Column:** cPAProjectStage_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1347,7 +1365,13 @@
 <div id='otherCosts' title='otherCosts' class='searchable'>
 
 ## otherCosts (التكاليف الأخري - Other Costs)
+
+<div class='tableName'>
+
 **Table Name:** CPAProjectStagePaymentVoucher, **Join Column:** cPAProjectStage_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1426,7 +1450,13 @@
 <div id='projectIncomes' title='projectIncomes' class='searchable'>
 
 ## projectIncomes (إيرادات المشروع - Project Incomes)
+
+<div class='tableName'>
+
 **Table Name:** CPAProjectStageSalesInvoiceLine, **Join Column:** cPAProjectStage_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1499,7 +1529,13 @@
 <div id='projectStatusChangeLines' title='projectStatusChangeLines' class='searchable'>
 
 ## projectStatusChangeLines (تفاصيل تغيير حالة المشروع - Project Status Change Lines)
+
+<div class='tableName'>
+
 **Table Name:** CPAProjectStatusChangeLine, **Join Column:** cPAProjectStage_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1578,7 +1614,13 @@
 <div id='statusChangeLines' title='statusChangeLines' class='searchable'>
 
 ## statusChangeLines (تفاصيل تغيير حالة المراحل - Stage Change Status Lines)
+
+<div class='tableName'>
+
 **Table Name:** CPAProjectStageStatusChangeLine, **Join Column:** cPAProjectStage_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1669,7 +1711,13 @@
 <div id='stockSuppliersCosts' title='stockSuppliersCosts' class='searchable'>
 
 ## stockSuppliersCosts (تكاليف المستلزمات المخزنية - Stock Suppliers Costs)
+
+<div class='tableName'>
+
 **Table Name:** CPAProjectStageStockIssueOneLine, **Join Column:** cPAProjectStage_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1751,7 +1799,13 @@
 <div id='transportationCosts' title='transportationCosts' class='searchable'>
 
 ## transportationCosts (تكاليف المناولة - Transportation Costs)
+
+<div class='tableName'>
+
 **Table Name:** CPAProjectStageMiscPurchaseInvoiceLine, **Join Column:** cPAProjectStage_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1833,7 +1887,13 @@
 <div id='workersCosts' title='workersCosts' class='searchable'>
 
 ## workersCosts (تكاليف اليد العاملة - Workers Costs)
+
+<div class='tableName'>
+
 **Table Name:** CPAProjectStageEmployeeCostLine, **Join Column:** cPAProjectStage_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

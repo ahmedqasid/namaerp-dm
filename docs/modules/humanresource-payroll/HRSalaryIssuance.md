@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRSalaryIssuance
+</div>
+
 **Arabic:** صرفية راتب - صرفيات رواتب
 **English:** Salary Issuance - Salary Issuances
 

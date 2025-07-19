@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CostOutTrans
+</div>
+
 **Arabic:** قيد تكاليف الصرف
 **English:**  Cost Transaction
 
@@ -430,7 +436,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CostOutTransLine, **Join Column:** costOutTrans_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

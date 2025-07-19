@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LCOpeningRequest
+</div>
+
 **Arabic:** طلب فتح إعتماد - طلبات فتح إعتماد
 **English:** LC Opening Request - LC Opening Requests
 

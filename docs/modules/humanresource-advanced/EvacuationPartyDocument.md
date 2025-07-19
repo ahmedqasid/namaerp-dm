@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EvacuationPartyDocument
+</div>
+
 **Arabic:** سند إخلاء طرف - سندات إخلاء طرف
 **English:** Evacuation Party Document - Evacuation Party Documents
 

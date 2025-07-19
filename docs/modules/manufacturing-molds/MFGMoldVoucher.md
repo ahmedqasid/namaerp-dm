@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MFGMoldVoucher
+</div>
+
 **Arabic:** استهلاك قالب تصنيع - استهلاك قوالب تصنيع
 **English:** Manufacturing Mold Voucher - Manufacturing Molds Vouchers
 
@@ -1222,7 +1228,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MFGMoldVoucherLine, **Join Column:** mFGMoldVoucher_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

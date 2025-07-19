@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RERentInstallmentLedger
+</div>
+
 **Arabic:** قيد إثبات استحقاق قسط إيجار - قيود إثبات استحقاق قسط إيجار
 **English:** Rent Installment Ledger - Rent Installment Ledgers
 
@@ -2005,7 +2011,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RERentInstalmentLedgerLine, **Join Column:** rERentInstallmentLedger_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2726,7 +2738,13 @@
 <div id='termLines' title='termLines' class='searchable'>
 
 ## termLines (الينود القياسيه - Standard Terms)
+
+<div class='tableName'>
+
 **Table Name:** RERentInstStandardTermLine, **Join Column:** rERentInstallmentLedger_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

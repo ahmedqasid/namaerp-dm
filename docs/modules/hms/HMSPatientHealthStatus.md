@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSPatientHealthStatus
+</div>
+
 **Arabic:** الحالة الصحية للمريض - الحالات الصحية للمرضى
 **English:** Patient Health Status
 
@@ -946,7 +952,13 @@
 <div id='responses' title='responses' class='searchable'>
 
 ## responses (الاجابات - Responses)
+
+<div class='tableName'>
+
 **Table Name:** HMSQuestionnaireResponseLine, **Join Column:** hMSPatientHealthStatus_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSPatientCheckInvoice
+</div>
+
 **Arabic:** فاتورة كشف - فواتير الكشوفات
 **English:** Check Invoice - Checks Invoices
 
@@ -2038,7 +2044,13 @@
 <div id='medicines' title='medicines' class='searchable'>
 
 ## medicines (الأدوية - Medicines)
+
+<div class='tableName'>
+
 **Table Name:** HMSPatientMedicineLine, **Join Column:** hMSPatientCheckInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2282,7 +2294,13 @@
 <div id='overheadItems' title='overheadItems' class='searchable'>
 
 ## overheadItems (بنود تكلفة طبية غير مباشرة - Overhead Items)
+
+<div class='tableName'>
+
 **Table Name:** HMSPatientCheckInvoiceOverheadItem, **Join Column:** hMSPatientCheckInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

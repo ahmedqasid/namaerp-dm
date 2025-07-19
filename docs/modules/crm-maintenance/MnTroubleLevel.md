@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnTroubleLevel
+</div>
+
 **Arabic:** مستوى مشكلة صيانة - مستوىات مشاكل صيانة
 **English:** Maintenance Trouble Level - Maintenance Trouble Levels
 

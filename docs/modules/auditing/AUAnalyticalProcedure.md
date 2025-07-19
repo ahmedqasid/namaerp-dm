@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUAnalyticalProcedure
+</div>
+
 **Arabic:** إجراء التحليلية - إجراءات التحليلية
 **English:** Analytical Procedure - Analytical Procedures
 
@@ -856,7 +862,13 @@
 <div id='p3AnalyticalProcedures' title='p3AnalyticalProcedures' class='searchable'>
 
 ## p3AnalyticalProcedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP3AnalyticalLine, **Join Column:** aUAnalyticalProcedure_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

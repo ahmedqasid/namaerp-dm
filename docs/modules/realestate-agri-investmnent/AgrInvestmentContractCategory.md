@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AgrInvestmentContractCategory
+</div>
+
 **Arabic:** تصنيف عقد استثمار زراعي - تصنيفات عقود استثمار زراعي
 **English:** Agricultural Investment Contract Category - Agricultural Investment Contract Categories
 

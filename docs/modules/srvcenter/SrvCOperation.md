@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvCOperation
+</div>
+
 **Arabic:** خدمة - خدمات
 **English:** Service Center Operation - Service Center Operations
 
@@ -883,7 +889,13 @@
 <div id='modelPrices' title='modelPrices' class='searchable'>
 
 ## modelPrices (أسعار الخدمة لكل الموديلات - price for all models)
+
+<div class='tableName'>
+
 **Table Name:** SrvCModelPricesLine, **Join Column:** srvCOperation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -977,7 +989,13 @@
 <div id='tasks' title='tasks' class='searchable'>
 
 ## tasks (المهام - Tasks)
+
+<div class='tableName'>
+
 **Table Name:** SrvCOperationLine, **Join Column:** srvCOperation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

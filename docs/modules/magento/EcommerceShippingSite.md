@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EcommerceShippingSite
+</div>
+
 **Arabic:** موقع شحن الكتروني - مواقع شحن الكتروني
 **English:** Ecommerce Shipping Site
 
@@ -802,7 +808,13 @@
 <div id='statusToRunEntityFlows' title='statusToRunEntityFlows' class='searchable'>
 
 ## statusToRunEntityFlows (حالات لتشغيل مسار كيان - Status To Run Entity Flow)
+
+<div class='tableName'>
+
 **Table Name:** ESiteStatusToRunEntityFlow, **Join Column:** ecommerceShippingSite_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

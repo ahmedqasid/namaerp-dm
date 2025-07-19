@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AccountChartType
+</div>
+
 **Arabic:** نوع شجرة حسابات - أنواع شجرة حسابات
 **English:** Account ChartType - Account Chart Types
 

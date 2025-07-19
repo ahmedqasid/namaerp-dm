@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JOSalesInvoice
+</div>
+
 **Arabic:** فاتورة مبيعات زجاج جديد - فواتير مبيعات زجاج جديد
 **English:** New Glass Sales Invoice - New Glass Sales Invoices
 
@@ -4903,7 +4909,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** JOSalesInvoiceLine, **Join Column:** jOSalesInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

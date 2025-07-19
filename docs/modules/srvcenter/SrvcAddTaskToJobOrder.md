@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvcAddTaskToJobOrder
+</div>
+
 **Arabic:** إضافة مهام الي أمر الشغل - إضافة مهام إلي أوامر الشغل
 **English:** ?Add Task To Job Order - Add Tasks To Job Orders
 
@@ -1645,7 +1651,13 @@
 <div id='tasks' title='tasks' class='searchable'>
 
 ## tasks (المهام - Tasks)
+
+<div class='tableName'>
+
 **Table Name:** SrvcAddTaskLine, **Join Column:** srvcAddTaskToJobOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

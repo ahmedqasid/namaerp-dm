@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ProjectContract
+</div>
+
 **Arabic:** عقد مشروع - عقود مشروع
 **English:** Project Contract -  Project Contract
 
@@ -1675,7 +1681,13 @@
 <div id='additionalInfo' title='additionalInfo' class='searchable'>
 
 ## additionalInfo (بيانات أصافية - Additional Info)
+
+<div class='tableName'>
+
 **Table Name:** ProjectContractInfoLine, **Join Column:** projectContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1961,7 +1973,13 @@
 <div id='conditions' title='conditions' class='searchable'>
 
 ## conditions (الشروط - Conditions)
+
+<div class='tableName'>
+
 **Table Name:** ProjContractConditionLine, **Join Column:** projectContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2220,7 +2238,13 @@
 <div id='employees' title='employees' class='searchable'>
 
 ## employees (الموظفين - Employees)
+
+<div class='tableName'>
+
 **Table Name:** ProjContractEmpLine, **Join Column:** projectContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2293,7 +2317,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** ProjContrScheduledPayLine, **Join Column:** projectContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2711,7 +2741,13 @@
 <div id='tasks' title='tasks' class='searchable'>
 
 ## tasks (المهام - Tasks)
+
+<div class='tableName'>
+
 **Table Name:** ProjContractTaskLine, **Join Column:** projectContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2787,7 +2823,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** ProjContractTermLine, **Join Column:** projectContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

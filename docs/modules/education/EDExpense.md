@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDExpense
+</div>
+
 **Arabic:** مصاريف دراسية - المصروفات الدراسية
 **English:** Expense - Expenses
 
@@ -748,7 +754,13 @@
 <div id='expenses' title='expenses' class='searchable'>
 
 ## expenses (مصروفات - Expense)
+
+<div class='tableName'>
+
 **Table Name:** EDExpenseLine, **Join Column:** eDExpense_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

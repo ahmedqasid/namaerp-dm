@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MCRawMaterialIssue
+</div>
+
 **Arabic:** صرف مواد خام مقاولات صيانة
 **English:** Raw Material Issue
 
@@ -1444,7 +1450,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MCMaterialIssueLine, **Join Column:** mCRawMaterialIssue_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

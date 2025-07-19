@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSCustomer (Table Name: POSCustomer)
+</div>
+
 **Arabic:** عميل - العملاء
 
 <ContentFilter/>

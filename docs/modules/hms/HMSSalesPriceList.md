@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSSalesPriceList
+</div>
+
 **Arabic:** قائمة أسعار طبية - قوائم أسعار طبية
 **English:** Medical Sales Price List - Medical Sales Price Lists
 
@@ -877,7 +883,13 @@
 <div id='priceListAccommDetails' title='priceListAccommDetails' class='searchable'>
 
 ## priceListAccommDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSSPriceListAccommLine, **Join Column:** hMSSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1172,7 +1184,13 @@
 <div id='priceListAttendantDetails' title='priceListAttendantDetails' class='searchable'>
 
 ## priceListAttendantDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSSPriceListAttendantLine, **Join Column:** hMSSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1467,7 +1485,13 @@
 <div id='priceListBloodDetails' title='priceListBloodDetails' class='searchable'>
 
 ## priceListBloodDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSSalesPriceListBloodLine, **Join Column:** hMSSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1771,7 +1795,13 @@
 <div id='priceListCheckDetails' title='priceListCheckDetails' class='searchable'>
 
 ## priceListCheckDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSSPriceListCheckLine, **Join Column:** hMSSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2087,7 +2117,13 @@
 <div id='priceListLabTestDetails' title='priceListLabTestDetails' class='searchable'>
 
 ## priceListLabTestDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSSPriceListLabTestLine, **Join Column:** hMSSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2391,7 +2427,13 @@
 <div id='priceListPharmacyDetails' title='priceListPharmacyDetails' class='searchable'>
 
 ## priceListPharmacyDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSSPriceListPharmacyLine, **Join Column:** hMSSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2695,7 +2737,13 @@
 <div id='priceListPhyDetails' title='priceListPhyDetails' class='searchable'>
 
 ## priceListPhyDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSSPriceListPhyLine, **Join Column:** hMSSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2999,7 +3047,13 @@
 <div id='priceListRadiologyDetails' title='priceListRadiologyDetails' class='searchable'>
 
 ## priceListRadiologyDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSSPriceListRadiologyLine, **Join Column:** hMSSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3303,7 +3357,13 @@
 <div id='priceListServiceDetails' title='priceListServiceDetails' class='searchable'>
 
 ## priceListServiceDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSSPriceListServiceLine, **Join Column:** hMSSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3619,7 +3679,13 @@
 <div id='priceListSupervisionDetails' title='priceListSupervisionDetails' class='searchable'>
 
 ## priceListSupervisionDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSSPriceListSupervisionLine, **Join Column:** hMSSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3935,7 +4001,13 @@
 <div id='priceListSupplyDetails' title='priceListSupplyDetails' class='searchable'>
 
 ## priceListSupplyDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSSPriceListSuppliesLine, **Join Column:** hMSSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4239,7 +4311,13 @@
 <div id='priceListSurgeryDetails' title='priceListSurgeryDetails' class='searchable'>
 
 ## priceListSurgeryDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSSPriceListSurgeryLine, **Join Column:** hMSSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

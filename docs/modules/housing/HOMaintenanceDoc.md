@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOMaintenanceDoc
+</div>
+
 **Arabic:** مستند صيانة - مستندات صيانة
 **English:** Maintenance Document - Maintenance Documents
 
@@ -997,7 +1003,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HOMaintenanceDocLine, **Join Column:** hOMaintenanceDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

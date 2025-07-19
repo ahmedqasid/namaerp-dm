@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSMedicalDevice
+</div>
+
 **Arabic:** جهاز تحليل - أجهزة تحاليل
 **English:** Medical Device - Medical Devices
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSMedicalDeviceLine, **Join Column:** hMSMedicalDevice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

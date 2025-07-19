@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractingPurchaseRequest
+</div>
+
 **Arabic:** طلب شراء مقاولات - طلبات شراء مقاولات
 **English:** Contracting Purchase Request - Contracting Purchase Requests
 
@@ -2455,7 +2461,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ContractingPurchaseRequestLine, **Join Column:** contractingPurchaseRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4388,7 +4400,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** ContractingPurchaseRequestPayLine, **Join Column:** contractingPurchaseRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SubsidiaryClass
+</div>
+
 **Arabic:** فئة ذمة - فئات ذمة
 **English:** Subsidiary Class - Subsidiary Classes
 

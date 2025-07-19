@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContrWorkArea
+</div>
+
 **Arabic:** منطقة عمل مقاولات - مناطق عمل مقاولات
 **English:** Work Area -  Work Area
 

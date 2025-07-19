@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDClassRoom
+</div>
+
 **Arabic:** فصل - الفصول
 **English:** Class Room - Class Rooms
 
@@ -760,7 +766,13 @@
 <div id='classRooms' title='classRooms' class='searchable'>
 
 ## classRooms ( - )
+
+<div class='tableName'>
+
 **Table Name:** EDClassRoomLine, **Join Column:** eDClassRoom_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

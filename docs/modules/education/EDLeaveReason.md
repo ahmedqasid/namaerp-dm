@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDLeaveReason
+</div>
+
 **Arabic:**  سبب الإنصراف - اسباب المغادرة
 **English:** Education leave Reason - Education Leave Reasons
 

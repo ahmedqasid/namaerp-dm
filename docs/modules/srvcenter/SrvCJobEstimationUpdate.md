@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvCJobEstimationUpdate
+</div>
+
 **Arabic:** تعديل مقايسة - تعديل مقايسات
 **English:** Estimation Update - Estimations Update
 
@@ -1654,7 +1660,13 @@
 <div id='materials' title='materials' class='searchable'>
 
 ## materials (قطع غيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** SrvEstimationUpdateMatLine, **Join Column:** srvCJobEstimationUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2495,7 +2507,13 @@
 <div id='operations' title='operations' class='searchable'>
 
 ## operations (العمليات - Operations)
+
+<div class='tableName'>
+
 **Table Name:** SrvEstimationUpdateTaLine, **Join Column:** srvCJobEstimationUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3195,7 +3213,13 @@
 <div id='resources' title='resources' class='searchable'>
 
 ## resources ( موارد التشغيل -  Resources)
+
+<div class='tableName'>
+
 **Table Name:** SrvEstimationUpdateResLine, **Join Column:** srvCJobEstimationUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

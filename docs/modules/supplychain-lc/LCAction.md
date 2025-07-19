@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LCAction
+</div>
+
 **Arabic:** إجراء - الإجراءت
 **English:** LC Action - LC Actions
 

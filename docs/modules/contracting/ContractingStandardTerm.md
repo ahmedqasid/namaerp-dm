@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractingStandardTerm
+</div>
+
 **Arabic:** بند قياسي - بنود قياسية
 **English:** Standard Term -  Standard Term
 
@@ -2032,7 +2038,13 @@
 <div id='standardConditions' title='standardConditions' class='searchable'>
 
 ## standardConditions ( - )
+
+<div class='tableName'>
+
 **Table Name:** StandardTermCondLine, **Join Column:** contractingStandardTerm_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2153,7 +2165,13 @@
 <div id='standardItems' title='standardItems' class='searchable'>
 
 ## standardItems ( - )
+
+<div class='tableName'>
+
 **Table Name:** StandardTermItemLine, **Join Column:** contractingStandardTerm_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

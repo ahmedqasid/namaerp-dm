@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LeaveReason
+</div>
+
 **Arabic:** نوع سبب - أنواع أسباب
 **English:** Leave Reason - Leave Reasons
 

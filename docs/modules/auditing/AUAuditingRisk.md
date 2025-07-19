@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUAuditingRisk
+</div>
+
 **Arabic:** خطر - المخاطر
 **English:** Risk - Risks
 
@@ -883,7 +889,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AUAuditingRiskLine, **Join Column:** aUAuditingRisk_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

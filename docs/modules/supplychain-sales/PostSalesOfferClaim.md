@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PostSalesOfferClaim
+</div>
+
 **Arabic:** مطالبة عرض ما بعد البيع - مطالبات عروض ما بعد البيع
 **English:** Post Sales Offer Claim - Post Sales Offer Claims
 
@@ -985,7 +991,13 @@
 <div id='invoices' title='invoices' class='searchable'>
 
 ## invoices (الفواتير - Invoices)
+
+<div class='tableName'>
+
 **Table Name:** PostSalesOfferClaimInvoicesLine, **Join Column:** postSalesOfferClaim_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1166,7 +1178,13 @@
 <div id='items' title='items' class='searchable'>
 
 ## items (الوصلات - Items)
+
+<div class='tableName'>
+
 **Table Name:** PostSalesOfferClaimLine, **Join Column:** postSalesOfferClaim_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

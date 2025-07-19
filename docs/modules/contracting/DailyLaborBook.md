@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DailyLaborBook
+</div>
+
 **Arabic:** مستند السركى - مستندات السركى
 **English:** Daily Labor Book - Daily Labor Books
 
@@ -1066,7 +1072,13 @@
 <div id='costLines' title='costLines' class='searchable'>
 
 ## costLines (توزيع التكلفة - Cost Allocation)
+
+<div class='tableName'>
+
 **Table Name:** DailyLaborCostLine, **Join Column:** dailyLaborBook_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1265,7 +1277,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DailyLaborBookLine, **Join Column:** dailyLaborBook_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1668,7 +1686,13 @@
 <div id='fineLines' title='fineLines' class='searchable'>
 
 ## fineLines (تفاصيل الغرامة - Fine Lines)
+
+<div class='tableName'>
+
 **Table Name:** DailyLaborFineLine, **Join Column:** dailyLaborBook_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

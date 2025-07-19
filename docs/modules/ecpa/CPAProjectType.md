@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPAProjectType
+</div>
+
 **Arabic:** نوع المشروع - أنواع المشاريع
 **English:** Project Type - Projects Types
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMFAQ
+</div>
+
 **Arabic:** سؤال شائع - أسئلة شائعة
 **English:** CRM FAQ
 

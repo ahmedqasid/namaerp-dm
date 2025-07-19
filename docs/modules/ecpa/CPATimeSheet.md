@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPATimeSheet
+</div>
+
 **Arabic:**  تنفيذ مهام
 **English:**  Tasks Executing
 
@@ -1090,7 +1096,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CPATimeSheetLine, **Join Column:** cPATimeSheet_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

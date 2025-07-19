@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSDeliveryServiceItem
+</div>
+
 **Arabic:** بند خدمة توصيل - بنود خدمات توصيل
 **English:** Delivery Service Item - Delivery Service Items
 

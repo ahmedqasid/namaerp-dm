@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSSurgeryInvoice
+</div>
+
 **Arabic:** فاتورة عملية جراحية - فواتير العمليات الجراحية
 **English:** Surgery Invoice - Surgeries Invoices
 
@@ -2080,7 +2086,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSSurgerySuppliesLine, **Join Column:** hMSSurgeryInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3464,7 +3476,13 @@
 <div id='overheadItems' title='overheadItems' class='searchable'>
 
 ## overheadItems (بنود تكلفة طبية غير مباشرة - Overhead Items)
+
+<div class='tableName'>
+
 **Table Name:** HMSSurgeryInvoiceOverheadItem, **Join Column:** hMSSurgeryInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3546,7 +3564,13 @@
 <div id='serviceLines' title='serviceLines' class='searchable'>
 
 ## serviceLines (تفاصيل الخدمات الطبية - Medical Service Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSSurgeryServiceInvLine, **Join Column:** hMSSurgeryInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4321,7 +4345,13 @@
 <div id='surgeryLines' title='surgeryLines' class='searchable'>
 
 ## surgeryLines (تفاصيل العمليات الجراحية - Surgery Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSSurgeryInvoiceLine, **Join Column:** hMSSurgeryInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

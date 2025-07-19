@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DetailedRemark
+</div>
+
 **Arabic:** ملحوظة مفصلة - ملحوظات مفصلة
 **English:** Detailed Remark - Detailed Remarks
 
@@ -2137,7 +2143,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DetailedRemarkLine, **Join Column:** detailedRemark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3266,7 +3278,13 @@
 <div id='details10' title='details10' class='searchable'>
 
 ## details10 ( - )
+
+<div class='tableName'>
+
 **Table Name:** DetailedRemarkLine10, **Join Column:** detailedRemark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4395,7 +4413,13 @@
 <div id='details2' title='details2' class='searchable'>
 
 ## details2 ( - )
+
+<div class='tableName'>
+
 **Table Name:** DetailedRemarkLine2, **Join Column:** detailedRemark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5524,7 +5548,13 @@
 <div id='details3' title='details3' class='searchable'>
 
 ## details3 ( - )
+
+<div class='tableName'>
+
 **Table Name:** DetailedRemarkLine3, **Join Column:** detailedRemark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -6653,7 +6683,13 @@
 <div id='details4' title='details4' class='searchable'>
 
 ## details4 ( - )
+
+<div class='tableName'>
+
 **Table Name:** DetailedRemarkLine4, **Join Column:** detailedRemark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -7782,7 +7818,13 @@
 <div id='details5' title='details5' class='searchable'>
 
 ## details5 ( - )
+
+<div class='tableName'>
+
 **Table Name:** DetailedRemarkLine5, **Join Column:** detailedRemark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -8911,7 +8953,13 @@
 <div id='details6' title='details6' class='searchable'>
 
 ## details6 ( - )
+
+<div class='tableName'>
+
 **Table Name:** DetailedRemarkLine6, **Join Column:** detailedRemark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -10040,7 +10088,13 @@
 <div id='details7' title='details7' class='searchable'>
 
 ## details7 ( - )
+
+<div class='tableName'>
+
 **Table Name:** DetailedRemarkLine7, **Join Column:** detailedRemark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -11169,7 +11223,13 @@
 <div id='details8' title='details8' class='searchable'>
 
 ## details8 ( - )
+
+<div class='tableName'>
+
 **Table Name:** DetailedRemarkLine8, **Join Column:** detailedRemark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -12298,7 +12358,13 @@
 <div id='details9' title='details9' class='searchable'>
 
 ## details9 ( - )
+
+<div class='tableName'>
+
 **Table Name:** DetailedRemarkLine9, **Join Column:** detailedRemark_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

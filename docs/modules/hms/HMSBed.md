@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSBed
+</div>
+
 **Arabic:** سرير - الأسرة
 **English:** Bed - Beds
 

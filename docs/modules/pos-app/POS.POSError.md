@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSError (Table Name: POSError)
+</div>
+
 
 <ContentFilter/>
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CSHCloseShift
+</div>
+
 **Arabic:** سند غلق وردية - سندات غلق وردية
 **English:** Close Shift - Close Shifts
 
@@ -928,7 +934,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CSHCloseShiftLine, **Join Column:** cSHCloseShift_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

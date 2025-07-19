@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MCContractualJobDep
+</div>
+
 **Arabic:** قسم وظيفة تعاقدية - اقسام الوظائف التعاقدية
 **English:** MC Contractual Job Dep - MC Contractual Job Deps
 

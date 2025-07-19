@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggregatedVacationCompensation
+</div>
+
 **Arabic:** صرف بدل أجازة مجمع - سندات صرف بدل أجازة مجمعة
 **English:** Aggregated Vacation Compensation - Aggregated Vacation Compensations
 
@@ -1270,7 +1276,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggregatedVacationCompensationLine, **Join Column:** aggregatedVacationCompensation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

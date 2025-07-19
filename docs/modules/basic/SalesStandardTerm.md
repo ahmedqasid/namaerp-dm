@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalesStandardTerm
+</div>
+
 **Arabic:** بند بيع قياسي - بنود بيع قياسية
 **English:** Sales Standard Term - Sales Standard Terms
 

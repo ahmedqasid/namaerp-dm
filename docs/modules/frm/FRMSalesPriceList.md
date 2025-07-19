@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMSalesPriceList
+</div>
+
 **Arabic:** قائمة أسعار مبيعات خدمات - قوائم أسعار مبيعات خدمات
 **English:** Service Sales Price List - Service Sales Price Lists
 
@@ -1069,7 +1075,13 @@
 <div id='customClearanceDetails' title='customClearanceDetails' class='searchable'>
 
 ## customClearanceDetails (سطور التخليص الجمركى - Custom Clearance Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMSPLCustomClearanceLine, **Join Column:** fRMSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1445,7 +1457,13 @@
 <div id='gensetDetails' title='gensetDetails' class='searchable'>
 
 ## gensetDetails (سطور المولدات - Genset Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMSPLGensetLine, **Join Column:** fRMSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1821,7 +1839,13 @@
 <div id='oceanFreightDetails' title='oceanFreightDetails' class='searchable'>
 
 ## oceanFreightDetails (سطور الشحن البحرى - Ocean Freight Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMSPLOceanFreightLine, **Join Column:** fRMSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2215,7 +2239,13 @@
 <div id='othersDetails' title='othersDetails' class='searchable'>
 
 ## othersDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** FRMSPLOthersLine, **Join Column:** fRMSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2591,7 +2621,13 @@
 <div id='truckingDetails' title='truckingDetails' class='searchable'>
 
 ## truckingDetails (سطور الشاحنات - Trucking Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMSPLTruckingLine, **Join Column:** fRMSalesPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

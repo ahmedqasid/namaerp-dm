@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SMFInitialOperationDoc
+</div>
+
 **Arabic:** مستند العمليات المبدئية - مستندات العمليات المبدئية
 **English:** SMF Initial Operation Document - SMF Initial Operation Documents
 

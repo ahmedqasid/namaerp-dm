@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FifoCostTrans
+</div>
+
 **Arabic:** قيد تكاليف فيفو
 **English:** Fifo Cost Trans
 
@@ -268,7 +274,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FifoCostTransLine, **Join Column:** fifoCostTrans_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

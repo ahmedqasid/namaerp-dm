@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EmployeeProvisionsRecalc
+</div>
+
 **Arabic:** سند إعادة احتساب مخصصات موظف - سندات إعادة احتساب مخصصات موظف
 **English:** Employee Provisions Recalculation Document - Employee Provisions Recalculation Documents
 
@@ -961,7 +967,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** EmployeeProvisionsLine, **Join Column:** employeeProvisionsRecalc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

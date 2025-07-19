@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnClassification2
+</div>
+
 **Arabic:** تصنيف آلة2 - تصنيفات آلة2
 **English:** Machine Classification2 - Machine Classifications2
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BudgetScenario
+</div>
+
 **Arabic:** سيناريو موازنة -  سيناريو موازنة
 **English:** Budget Scenario -  Budget Scenario
 
@@ -925,7 +931,13 @@
 <div id='actualsSrc' title='actualsSrc' class='searchable'>
 
 ## actualsSrc (المصادر - Actual Sources)
+
+<div class='tableName'>
+
 **Table Name:** BudgetActualSrcLine, **Join Column:** budgetScenario_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

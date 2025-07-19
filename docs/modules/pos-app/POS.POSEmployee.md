@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSEmployee (Table Name: POSEmployee)
+</div>
+
 **Arabic:** موظف - موظفين
 **English:** Employeess
 

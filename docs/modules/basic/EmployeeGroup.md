@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EmployeeGroup
+</div>
+
 **Arabic:** مجموعة موظفين - مجموعات موظفين
 **English:** Employee Group - Employee Groups
 
@@ -748,7 +754,13 @@
 <div id='employees' title='employees' class='searchable'>
 
 ## employees (الموظفين - Employees)
+
+<div class='tableName'>
+
 **Table Name:** EmployeeGroupLine, **Join Column:** employeeGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

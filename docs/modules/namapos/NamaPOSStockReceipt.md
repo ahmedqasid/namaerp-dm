@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSStockReceipt
+</div>
+
 **Arabic:** توريد نقاط البيع -  توريد نقاط البيع
 **English:** POS Stock Receipt -  POS Stock Receipt
 
@@ -2461,7 +2467,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** NamaPosReceiptLine, **Join Column:** namaPOSStockReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

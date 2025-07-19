@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TaxEInvoice
+</div>
+
 **Arabic:** الفاتورة الإكترونية المستقبلة - الفواتير الإلكترونية المستقبلة
 **English:** Tax Electronic Invoice - Tax Electronic Invoices
 
@@ -1579,7 +1585,13 @@
 <div id='signatureLines' title='signatureLines' class='searchable'>
 
 ## signatureLines (التوقيعات - Signature Lines)
+
+<div class='tableName'>
+
 **Table Name:** TaxEInvoiceSignatureLine, **Join Column:** taxEInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1631,7 +1643,13 @@
 <div id='taxEInvoiceItemLines' title='taxEInvoiceItemLines' class='searchable'>
 
 ## taxEInvoiceItemLines (سطور العناصر - )
+
+<div class='tableName'>
+
 **Table Name:** TaxEInvoiceItemLine, **Join Column:** taxEInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalesManUpdateDocument
+</div>
+
 **Arabic:** سند تحديث مندوب المبيعات - سندات تحديث مندوب المبيعات
 **English:** Sales Man Update Document - Sales Man Update Documents
 
@@ -1144,7 +1150,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SalesManUpdateDocumentLine, **Join Column:** salesManUpdateDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

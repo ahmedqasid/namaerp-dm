@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FinancialCommitmentCategory
+</div>
+
 **Arabic:** فئة إلتزام مالى - فئات إلتزامات مالية
 **English:** Financial Commitment Category - Financial Commitments Categories
 
@@ -808,7 +814,13 @@
 <div id='relatedTo' title='relatedTo' class='searchable'>
 
 ## relatedTo (يرتبط بـ - Related To)
+
+<div class='tableName'>
+
 **Table Name:** FinancialCommitmentCategoryLine, **Join Column:** financialCommitmentCategory_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

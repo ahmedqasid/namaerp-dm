@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DashBoardGroup
+</div>
+
 **Arabic:** مجموعة  لوحات - مجموعات لوحات
 **English:** Dash Board Group - Dash Boards Groups
 
@@ -766,7 +772,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DashBoardGroupLine, **Join Column:** dashBoardGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

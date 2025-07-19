@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContrEmployeeEquipmentCost
+</div>
+
 **Arabic:** توزيع تكاليف الموظفين والمعدات على المشاريع - مستندات توزيع تكاليف الموظفين والمعدات على المشاريع
 **English:** Employee And Equipment Project Cost Distribution - Employee And Equipment Project Cost Distribution Documents
 
@@ -1522,7 +1528,13 @@
 <div id='costLines' title='costLines' class='searchable'>
 
 ## costLines (توزيع التكلفة - Cost Allocation)
+
+<div class='tableName'>
+
 **Table Name:** ContEmpEquipTermCostLine, **Join Column:** contrEmployeeEquipmentCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1691,7 +1703,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ContEmpEquipmentCostDocLine, **Join Column:** contrEmployeeEquipmentCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

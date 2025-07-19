@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REReturnPaymentDoc
+</div>
+
 **Arabic:** سند سداد عائد - سندات سداد عائد
 **English:** RE Return Payment Document - RE Return Payment Documents
 
@@ -952,7 +958,13 @@
 <div id='installmentLines' title='installmentLines' class='searchable'>
 
 ## installmentLines (الأقساط - Installment Lines)
+
+<div class='tableName'>
+
 **Table Name:** REReturnPaymentDocInstallmentLine, **Join Column:** rEReturnPaymentDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1079,7 +1091,13 @@
 <div id='returnLines' title='returnLines' class='searchable'>
 
 ## returnLines (العوائد - Return Lines)
+
+<div class='tableName'>
+
 **Table Name:** REReturnDiscountInstallmentLine, **Join Column:** rEReturnPaymentDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

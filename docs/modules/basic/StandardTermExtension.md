@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # StandardTermExtension
+</div>
+
 **Arabic:** تمديد فترة عمل البند - سندات تمديد فترة عمل البند
 **English:** Standard Term Extension - Standard Term Extension Documents
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** StandardTermExtensionLine, **Join Column:** standardTermExtension_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

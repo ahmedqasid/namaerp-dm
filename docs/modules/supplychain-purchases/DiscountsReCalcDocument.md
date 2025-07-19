@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DiscountsReCalcDocument
+</div>
+
 **Arabic:** أعادة حساب الخصومات - إعادة حساب الخصومات
 **English:** Discounts Recalculation - Discounts Recalculations
 
@@ -1021,7 +1027,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DiscountRecalcLine, **Join Column:** discountsReCalcDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

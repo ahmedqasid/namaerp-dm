@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSLabTestRequest
+</div>
+
 **Arabic:** طلب تحليل - طلبات تحاليل
 **English:** Lab Test Request - Lab Test Requests
 
@@ -1072,7 +1078,13 @@
 <div id='labTestDetails' title='labTestDetails' class='searchable'>
 
 ## labTestDetails (تفاصيل التحليل - Lab Test Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSLabTestRequestLine, **Join Column:** hMSLabTestRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

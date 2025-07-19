@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LoanIssue
+</div>
+
 **Arabic:** سند إصدار قرض -  سند إصدار قرض
 **English:** Loan Issue -  Loan Issue
 

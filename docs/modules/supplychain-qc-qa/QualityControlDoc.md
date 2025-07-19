@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # QualityControlDoc
+</div>
+
 **Arabic:** مستند فحص جودة - سندات فحص الجودة
 **English:** Quality Control
 
@@ -1450,7 +1456,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** QualityControlLine, **Join Column:** qualityControlDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

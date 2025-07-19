@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPosUISettings
+</div>
+
 **Arabic:**  إعدادات واجهة نقاط البيع الجديده
 **English:**  Pos UI Settings
 
@@ -1633,7 +1639,13 @@
 <div id='cancelReservationGridFields' title='cancelReservationGridFields' class='searchable'>
 
 ## cancelReservationGridFields ( حقول جدول المبيعات -  Sales Grid Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSCancelReservationGridLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1676,7 +1688,13 @@
 <div id='cancelReservationMainFields' title='cancelReservationMainFields' class='searchable'>
 
 ## cancelReservationMainFields ( حقول الصفحة الرئيسيه -  Main Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSCancelReservationMainLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1719,7 +1737,13 @@
 <div id='cancelReservationOtherFields' title='cancelReservationOtherFields' class='searchable'>
 
 ## cancelReservationOtherFields ( حقول الشاشة الفرعيه -  Other Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSCancelReservationOtherLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1762,7 +1786,13 @@
 <div id='customerDisplayWindowFooterFields' title='customerDisplayWindowFooterFields' class='searchable'>
 
 ## customerDisplayWindowFooterFields (حقول ذيل نافذة العميل - Customer Display Window Footer Fields)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSCustomerDisplayWindowFooterField, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1814,7 +1844,13 @@
 <div id='customerDisplayWindowHeaderFields' title='customerDisplayWindowHeaderFields' class='searchable'>
 
 ## customerDisplayWindowHeaderFields (حقول رأس نافذة العميل - Customer Display Window Header Fields)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSCustomerDisplayWindowHeaderField, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1866,7 +1902,13 @@
 <div id='customerDisplayWindowTableColumns' title='customerDisplayWindowTableColumns' class='searchable'>
 
 ## customerDisplayWindowTableColumns (سطور نافذة العميل - Customer Display Window Table Columns)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSCustomerDisplayWindowTableColumn, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1918,7 +1960,13 @@
 <div id='customerFields' title='customerFields' class='searchable'>
 
 ## customerFields (حقول شاشة العميل - Customer Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSCustomerFieldLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1970,7 +2018,13 @@
 <div id='mainPageFields' title='mainPageFields' class='searchable'>
 
 ## mainPageFields (حقول الصفحة الرئيسيه - Main Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSRegisterMainPageLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2013,7 +2067,13 @@
 <div id='orderReservationGridFields' title='orderReservationGridFields' class='searchable'>
 
 ## orderReservationGridFields ( حقول جدول المبيعات -  Sales Grid Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSOrderReservationGridLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2056,7 +2116,13 @@
 <div id='orderReservationMainFields' title='orderReservationMainFields' class='searchable'>
 
 ## orderReservationMainFields ( حقول الصفحة الرئيسيه -  Main Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSOrderReservationMainLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2099,7 +2165,13 @@
 <div id='orderReservationOtherFields' title='orderReservationOtherFields' class='searchable'>
 
 ## orderReservationOtherFields ( حقول الشاشة الفرعيه -  Other Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSOrderReservationOtherLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2142,7 +2214,13 @@
 <div id='otherPageFields' title='otherPageFields' class='searchable'>
 
 ## otherPageFields (حقول الشاشة الفرعيه - Other Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSRegisterOtherPageLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2185,7 +2263,13 @@
 <div id='posFavProcedures' title='posFavProcedures' class='searchable'>
 
 ## posFavProcedures (الإجراءات المفضلة - POS Favourite Procedures)
+
+<div class='tableName'>
+
 **Table Name:** POSFavProcedureLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2228,7 +2312,13 @@
 <div id='receiptGridFields' title='receiptGridFields' class='searchable'>
 
 ## receiptGridFields ( حقول جدول المبيعات -  Sales Grid Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSStockReceiptGridLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2271,7 +2361,13 @@
 <div id='receiptMainFields' title='receiptMainFields' class='searchable'>
 
 ## receiptMainFields ( حقول الصفحة الرئيسيه -  Main Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSStockReceiptMainLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2314,7 +2410,13 @@
 <div id='receiptOtherFields' title='receiptOtherFields' class='searchable'>
 
 ## receiptOtherFields ( حقول الشاشة الفرعيه -  Other Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSStockReceiptOtherLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2357,7 +2459,13 @@
 <div id='replacementGridFields' title='replacementGridFields' class='searchable'>
 
 ## replacementGridFields ( حقول جدول المبيعات -  Sales Grid Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSReplacementGridLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2400,7 +2508,13 @@
 <div id='replacementMainFields' title='replacementMainFields' class='searchable'>
 
 ## replacementMainFields ( حقول الصفحة الرئيسيه -  Main Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSReplacementMainLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2443,7 +2557,13 @@
 <div id='replacementOtherFields' title='replacementOtherFields' class='searchable'>
 
 ## replacementOtherFields ( حقول الشاشة الفرعيه -  Other Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSReplacementOtherLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2486,7 +2606,13 @@
 <div id='returnGridFields' title='returnGridFields' class='searchable'>
 
 ## returnGridFields ( حقول جدول المبيعات -  Sales Grid Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSReturnGridLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2529,7 +2655,13 @@
 <div id='returnMainFields' title='returnMainFields' class='searchable'>
 
 ## returnMainFields ( حقول الصفحة الرئيسيه -  Main Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSReturnMainLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2572,7 +2704,13 @@
 <div id='returnOtherFields' title='returnOtherFields' class='searchable'>
 
 ## returnOtherFields ( حقول الشاشة الفرعيه -  Other Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSReturnOtherLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2615,7 +2753,13 @@
 <div id='salesGridFields' title='salesGridFields' class='searchable'>
 
 ## salesGridFields (حقول جدول المبيعات - Sales Grid Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSRegisterGridFieldLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2658,7 +2802,13 @@
 <div id='scrapDocGridFields' title='scrapDocGridFields' class='searchable'>
 
 ## scrapDocGridFields ( حقول جدول المبيعات -  Sales Grid Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSScrapDocGridLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2701,7 +2851,13 @@
 <div id='scrapDocMainFields' title='scrapDocMainFields' class='searchable'>
 
 ## scrapDocMainFields ( حقول الصفحة الرئيسيه -  Main Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSScrapDocMainLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2744,7 +2900,13 @@
 <div id='scrapDocOtherFields' title='scrapDocOtherFields' class='searchable'>
 
 ## scrapDocOtherFields ( حقول الشاشة الفرعيه -  Other Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSScrapDocOtherLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2787,7 +2949,13 @@
 <div id='searchDialogueColumns' title='searchDialogueColumns' class='searchable'>
 
 ## searchDialogueColumns (أعمدة ال Search Dialogue - Search Dialogue Columns)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSUISettingsPOSDialogueColumn, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2839,7 +3007,13 @@
 <div id='searchDialogueConfigLines' title='searchDialogueConfigLines' class='searchable'>
 
 ## searchDialogueConfigLines (سطور إعدادات ال Search Dialogue - Search Dialogue Configuration Lines)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSUISettingsSearchDialogConfigLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2918,7 +3092,13 @@
 <div id='searchDialogueFilters' title='searchDialogueFilters' class='searchable'>
 
 ## searchDialogueFilters (Search Dialogue Filter Fields - Search Dialogue Filter Fields)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSUISettingsPOSDialogueFilter, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2970,7 +3150,13 @@
 <div id='shortfallsDocGridFields' title='shortfallsDocGridFields' class='searchable'>
 
 ## shortfallsDocGridFields ( حقول جدول المبيعات -  Sales Grid Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSShortfallsDocGridLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3013,7 +3199,13 @@
 <div id='shortfallsDocMainFields' title='shortfallsDocMainFields' class='searchable'>
 
 ## shortfallsDocMainFields ( حقول الصفحة الرئيسيه -  Main Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSShortfallsDocMainLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3056,7 +3248,13 @@
 <div id='shortfallsDocOtherFields' title='shortfallsDocOtherFields' class='searchable'>
 
 ## shortfallsDocOtherFields ( حقول الشاشة الفرعيه -  Other Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSShortfallsDocOtherLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3099,7 +3297,13 @@
 <div id='takingGridFields' title='takingGridFields' class='searchable'>
 
 ## takingGridFields ( حقول جدول المبيعات -  Sales Grid Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSTakingGridLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3142,7 +3346,13 @@
 <div id='takingMainFields' title='takingMainFields' class='searchable'>
 
 ## takingMainFields ( حقول الصفحة الرئيسيه -  Main Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSTakingMainLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3185,7 +3395,13 @@
 <div id='takingOtherFields' title='takingOtherFields' class='searchable'>
 
 ## takingOtherFields ( حقول الشاشة الفرعيه -  Other Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSTakingOtherLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3228,7 +3444,13 @@
 <div id='transferGridFields' title='transferGridFields' class='searchable'>
 
 ## transferGridFields ( حقول جدول المبيعات -  Sales Grid Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSTransferGridLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3271,7 +3493,13 @@
 <div id='transferMainFields' title='transferMainFields' class='searchable'>
 
 ## transferMainFields ( حقول الصفحة الرئيسيه -  Main Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSTransferMainLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3314,7 +3542,13 @@
 <div id='transferOtherFields' title='transferOtherFields' class='searchable'>
 
 ## transferOtherFields ( حقول الشاشة الفرعيه -  Other Page Fields)
+
+<div class='tableName'>
+
 **Table Name:** POSTransferOtherLine, **Join Column:** namaPosUISettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

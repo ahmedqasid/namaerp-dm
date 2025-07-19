@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PurchaseDocumentUpdate
+</div>
+
 **Arabic:** تعديل سندات شراء -  تعديل سندات شراء
 **English:** Purchase Document Update -  Purchase Document Update
 
@@ -2449,7 +2455,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseDocumentUpdateLine, **Join Column:** purchaseDocumentUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4097,7 +4109,13 @@
 <div id='documentsToUpdate' title='documentsToUpdate' class='searchable'>
 
 ## documentsToUpdate (المستندات المطلوب تعديلها - Documents To Update)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseDocumentsToUpdateLine, **Join Column:** purchaseDocumentUpdate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSItemBrand (Table Name: POSItemBrand)
+</div>
+
 **Arabic:** ماركة صنف - ماركات أصناف
 **English:** Item Brand - Item Brands
 

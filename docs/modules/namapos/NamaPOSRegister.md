@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSRegister
+</div>
+
 **Arabic:** ماكينة - ماكينات
 **English:** Register - Registers
 
@@ -2005,7 +2011,13 @@
 <div id='booksAndTerms' title='booksAndTerms' class='searchable'>
 
 ## booksAndTerms (الدفاتر والتوجيهات - Books And Terms)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSRegisterBookAndTermLine, **Join Column:** namaPOSRegister_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2081,7 +2093,13 @@
 <div id='contacts' title='contacts' class='searchable'>
 
 ## contacts (جهات الاتصال - Contacts)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSRegisterContactInfoLine, **Join Column:** namaPOSRegister_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2127,7 +2145,13 @@
 <div id='currencies' title='currencies' class='searchable'>
 
 ## currencies (العملات - Currencies)
+
+<div class='tableName'>
+
 **Table Name:** NamaRegisterCurrencyLine, **Join Column:** namaPOSRegister_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2182,7 +2206,13 @@
 <div id='docsCodingParams' title='docsCodingParams' class='searchable'>
 
 ## docsCodingParams (تكويد مستندات نقاط البيع - Documents Coding Params)
+
+<div class='tableName'>
+
 **Table Name:** POSRegisterDocsCodingParam, **Join Column:** namaPOSRegister_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2252,7 +2282,13 @@
 <div id='favouriteDocs' title='favouriteDocs' class='searchable'>
 
 ## favouriteDocs (المستندات المفضله - Favourite Documents)
+
+<div class='tableName'>
+
 **Table Name:** POSFavouriteDocLine, **Join Column:** namaPOSRegister_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2334,7 +2370,13 @@
 <div id='favouriteItems' title='favouriteItems' class='searchable'>
 
 ## favouriteItems (الأصناف المفضلة - Favourite Items)
+
+<div class='tableName'>
+
 **Table Name:** POSFavouriteItemLine, **Join Column:** namaPOSRegister_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2425,7 +2467,13 @@
 <div id='fixedFavouriteItems' title='fixedFavouriteItems' class='searchable'>
 
 ## fixedFavouriteItems (الأصناف المفضلة الثابتة - Fixed Favourite Items)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSFixedFavouriteItemsLine, **Join Column:** namaPOSRegister_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2468,7 +2516,13 @@
 <div id='paymentMethods' title='paymentMethods' class='searchable'>
 
 ## paymentMethods (طرق الدفع - Payment Methods)
+
+<div class='tableName'>
+
 **Table Name:** NamaRegisterMethodLine, **Join Column:** namaPOSRegister_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2568,7 +2622,13 @@
 <div id='paymentTerms' title='paymentTerms' class='searchable'>
 
 ## paymentTerms (توجيهات المصروفات - Payment Terms)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSPayTermLine, **Join Column:** namaPOSRegister_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2635,7 +2695,13 @@
 <div id='receiptTerms' title='receiptTerms' class='searchable'>
 
 ## receiptTerms (توجيهات المقبوضات - Receipt Terms)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSReceiptTermLine, **Join Column:** namaPOSRegister_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2693,7 +2759,13 @@
 <div id='returnTerms' title='returnTerms' class='searchable'>
 
 ## returnTerms (توجيهات المردودات - Sales Return Terms)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSReturnTermLine, **Join Column:** namaPOSRegister_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2769,7 +2841,13 @@
 <div id='salesTerms' title='salesTerms' class='searchable'>
 
 ## salesTerms (توجيهات المبيعات - Sales Terms)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSSalesInvTermLine, **Join Column:** namaPOSRegister_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2845,7 +2923,13 @@
 <div id='tables' title='tables' class='searchable'>
 
 ## tables (الطاولات - Tables)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSTableLine, **Join Column:** namaPOSRegister_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2912,7 +2996,13 @@
 <div id='takenElementsPerShift' title='takenElementsPerShift' class='searchable'>
 
 ## takenElementsPerShift (العناصر المجرودة مع كل وردية - Taken Elements Per Shift)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSRegisterShiftTakenElement, **Join Column:** namaPOSRegister_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

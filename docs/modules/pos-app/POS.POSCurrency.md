@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSCurrency (Table Name: POSCurrency)
+</div>
+
 **Arabic:** عملة - عملات
 **English:** Currencies
 

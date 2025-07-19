@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MeasurementsRequest
+</div>
+
 **Arabic:** طلب رفع مقاسات -  طلب رفع مقاسات
 **English:** Measurements Request -  Measurements Request
 
@@ -1165,7 +1171,13 @@
 <div id='measureLine' title='measureLine' class='searchable'>
 
 ## measureLine ( - )
+
+<div class='tableName'>
+
 **Table Name:** MeasurementsRequestLine, **Join Column:** measurementsRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggTreasuryBillProofDoc
+</div>
+
 **Arabic:** إثبات عائد أذون خزانة مجمع - إثباتات عوائد أذون خزانة مجمعة
 **English:** Aggregate Treasury Bill Proof Document - Aggregate Treasury Bill Proof Documents
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggTreasuryBillProofDocLine, **Join Column:** aggTreasuryBillProofDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

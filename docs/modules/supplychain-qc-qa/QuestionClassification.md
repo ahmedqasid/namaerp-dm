@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # QuestionClassification
+</div>
+
 **Arabic:** تصنيف سؤال -  تصنيف سؤال
 **English:**  QuestionClassification
 

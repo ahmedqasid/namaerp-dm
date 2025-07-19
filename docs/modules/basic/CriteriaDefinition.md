@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CriteriaDefinition
+</div>
+
 **Arabic:** تعريف معايير -  تعريف معايير
 **English:** Criteria Definition - Criteria Definitions
 
@@ -802,7 +808,13 @@
 <div id='criteria.expressions' title='criteria.expressions' class='searchable'>
 
 ## criteria.expressions ( - )
+
+<div class='tableName'>
+
 **Table Name:** CriteriaDefinition_expressions, **Join Column:** CriteriaDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

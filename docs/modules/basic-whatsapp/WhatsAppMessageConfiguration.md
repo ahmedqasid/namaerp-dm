@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # WhatsAppMessageConfiguration
+</div>
+
 **Arabic:** WhatsApp Message Configuration - WhatsApp Message Configurations
 **English:** WhatsApp Message Configuration - WhatsApp Message Configurations
 

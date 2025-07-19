@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # GoPayConfiguration
+</div>
+
 **Arabic:** إعدادات GoPay
 **English:** GoPay Configuration - GoPay Configurations
 
@@ -850,7 +856,13 @@
 <div id='accountCreationConfig' title='accountCreationConfig' class='searchable'>
 
 ## accountCreationConfig (إعدادات إنشاء حساب - Account Creation Config)
+
+<div class='tableName'>
+
 **Table Name:** GoPayAccountCreationConfig, **Join Column:** goPayConfiguration_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -923,7 +935,13 @@
 <div id='goPayActivities' title='goPayActivities' class='searchable'>
 
 ## goPayActivities (أنشطة GoPay - GoPay Activities)
+
+<div class='tableName'>
+
 **Table Name:** GoPayActivityLine, **Join Column:** goPayConfiguration_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

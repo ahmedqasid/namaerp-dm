@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSDeliveryAndReceiptArea
+</div>
+
 **Arabic:** مكان تسليم واستلام - أماكن تسليم واستلام
 **English:** Delivery And Receipt Area - Delivery And Receipt Areas
 

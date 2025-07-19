@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SIFinalDelivery
+</div>
+
 **Arabic:** تسليم صنف فرعي نهائي - مستندات تسليم صنف فرعي نهائي
 **English:** Sub Item Final Delivery - Sub Item Final Delivery Documents
 
@@ -2593,7 +2599,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SIFinalDeliveryLine, **Join Column:** sIFinalDelivery_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

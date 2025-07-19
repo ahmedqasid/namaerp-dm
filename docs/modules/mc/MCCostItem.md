@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MCCostItem
+</div>
+
 **Arabic:** بند التكاليف - بنود التكاليف
 **English:** MC Cost Item - MC Cost Items
 

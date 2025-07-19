@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDRank
+</div>
+
 **Arabic:** صف - الصفوف
 **English:** Rank - Ranks
 
@@ -781,7 +787,13 @@
 <div id='ranks' title='ranks' class='searchable'>
 
 ## ranks ( - )
+
+<div class='tableName'>
+
 **Table Name:** EDRankLine, **Join Column:** eDRank_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

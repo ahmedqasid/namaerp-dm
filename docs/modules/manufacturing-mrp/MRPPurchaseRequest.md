@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MRPPurchaseRequest
+</div>
+
 **Arabic:** أمر شراء تخطيط
 **English:** MRP Purchase Request - MRP Purchase Requests
 
@@ -910,7 +916,13 @@
 <div id='detailLines' title='detailLines' class='searchable'>
 
 ## detailLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** MRPDetailLine, **Join Column:** mRPPurchaseRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1343,7 +1355,13 @@
 <div id='purchaseLines' title='purchaseLines' class='searchable'>
 
 ## purchaseLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** MRPPurchaseLine, **Join Column:** mRPPurchaseRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggrFAPropertiesDocument
+</div>
+
 **Arabic:** سند خصائص أصل مجمع - سندات خصائص أصل مجمعة
 **English:** Aggregated Fixed Asset Properties Document - Aggregated Fixed Asset Properties Documents
 
@@ -874,7 +880,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** AggrFAPropertiesLine, **Join Column:** aggrFAPropertiesDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

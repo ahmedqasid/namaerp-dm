@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSRoom
+</div>
+
 **Arabic:** غرفة مستشفى - غرف مستشفى
 **English:** HMS Room - HMS Rooms
 

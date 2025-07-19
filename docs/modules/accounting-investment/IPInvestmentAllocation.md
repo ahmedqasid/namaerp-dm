@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPInvestmentAllocation
+</div>
+
 **Arabic:** تخصيص استثمار - تخصيص الاستثمارات
 **English:** Investment Allocation - Investment Allocations
 

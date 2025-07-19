@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REPurchaseContract
+</div>
+
 **Arabic:** عقد شراء عقار - عقود شراء عقار
 **English:** Estate Purchase Contract - Estate Purchase Contracts
 
@@ -1741,7 +1747,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** REPurchaseContractLine, **Join Column:** rEPurchaseContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2444,7 +2456,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** REPurchaseContrExternalPayLine, **Join Column:** rEPurchaseContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2595,7 +2613,13 @@
 <div id='installmentInfoLines' title='installmentInfoLines' class='searchable'>
 
 ## installmentInfoLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** REPurchaseInstInfoLine, **Join Column:** rEPurchaseContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

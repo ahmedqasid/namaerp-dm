@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # StockIssue
+</div>
+
 **Arabic:** صرف مخزني - سندات صرف مخزني
 **English:** Stock Issue - Stock Issues
 
@@ -1459,7 +1465,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** StockIssueLine, **Join Column:** stockIssue_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

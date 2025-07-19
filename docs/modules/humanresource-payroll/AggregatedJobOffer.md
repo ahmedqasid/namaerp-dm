@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggregatedJobOffer
+</div>
+
 **Arabic:** عرض وظيفي مجمع -  عرض وظيفي مجمع
 **English:** Aggregated Job Offer -  Aggregated Job Offer
 
@@ -1657,7 +1663,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggregatedOfferLine, **Join Column:** aggregatedJobOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1730,7 +1742,13 @@
 <div id='elementLines' title='elementLines' class='searchable'>
 
 ## elementLines (مفردات الراتب - Element Lines)
+
+<div class='tableName'>
+
 **Table Name:** AggOfferElementLine, **Join Column:** aggregatedJobOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1851,7 +1869,13 @@
 <div id='offerVacationLines' title='offerVacationLines' class='searchable'>
 
 ## offerVacationLines (سطور الاجازة - Vacation lines)
+
+<div class='tableName'>
+
 **Table Name:** AggrOfferVacationLine, **Join Column:** aggregatedJobOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

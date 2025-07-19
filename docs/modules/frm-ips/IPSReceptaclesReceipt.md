@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSReceptaclesReceipt
+</div>
+
 **Arabic:** استلام الكيس - استلام الاكياس
 **English:** IPS Receptacles Receipt - IPS Receptacles Receipts
 
@@ -970,7 +976,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** IPSReceptaclesReceiptLine, **Join Column:** iPSReceptaclesReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

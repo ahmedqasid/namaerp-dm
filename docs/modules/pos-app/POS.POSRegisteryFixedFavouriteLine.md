@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSRegisteryFixedFavouriteLine (Table Name: POSRegisteryFixedFavouriteLine)
+</div>
+
 
 <ContentFilter/>
 

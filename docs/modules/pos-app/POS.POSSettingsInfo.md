@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSSettingsInfo (Table Name: POSSettingsInfo)
+</div>
+
 
 <ContentFilter/>
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CustodyType
+</div>
+
 **Arabic:**  نوع العهدة
 **English:**  Custody Type
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ISOOperationSamplingRoom
+</div>
+
 **Arabic:** ISO Operation Sampling Room - ISO Operation Sampling Rooms
 **English:** ISO Operation Sampling Room - ISO Operation Sampling Rooms
 
@@ -961,7 +967,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** ISOOpSamplingRoomLine, **Join Column:** iSOOperationSamplingRoom_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

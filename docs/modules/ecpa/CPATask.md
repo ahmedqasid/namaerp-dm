@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPATask
+</div>
+
 **Arabic:** مهمة مشروع - مهام مشروع
 **English:** Task - Tasks
 
@@ -991,7 +997,13 @@
 <div id='executers' title='executers' class='searchable'>
 
 ## executers (المنفذين - Executers)
+
+<div class='tableName'>
+
 **Table Name:** CPATaskLine, **Join Column:** cPATask_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

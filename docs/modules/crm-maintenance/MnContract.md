@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnContract
+</div>
+
 **Arabic:** عقد صيانة - عقود الصيانة
 **English:** Maintenance Contract - Maintenance Contracts
 
@@ -3019,7 +3025,13 @@
 <div id='contractTerms' title='contractTerms' class='searchable'>
 
 ## contractTerms (بنود العقد - Contract Terms)
+
+<div class='tableName'>
+
 **Table Name:** MnContractTermLine, **Join Column:** mnContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3140,7 +3152,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** MnContractExternalPaymentLine, **Join Column:** mnContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3246,7 +3264,13 @@
 <div id='machines' title='machines' class='searchable'>
 
 ## machines (ألآت - Machines)
+
+<div class='tableName'>
+
 **Table Name:** MnContractMachine, **Join Column:** mnContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4099,7 +4123,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** MnContractScheduledPayLine, **Join Column:** mnContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4364,7 +4394,13 @@
 <div id='services' title='services' class='searchable'>
 
 ## services (الخدمات - Services)
+
+<div class='tableName'>
+
 **Table Name:** MnContractService, **Join Column:** mnContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5082,7 +5118,13 @@
 <div id='spareParts' title='spareParts' class='searchable'>
 
 ## spareParts (قطع الغيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnContractSpareLine, **Join Column:** mnContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -6010,7 +6052,13 @@
 <div id='visits' title='visits' class='searchable'>
 
 ## visits (الزيارات - Visits)
+
+<div class='tableName'>
+
 **Table Name:** MNContractVisitSchedule, **Join Column:** mnContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

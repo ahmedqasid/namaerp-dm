@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PFSalesSourceConfig
+</div>
+
 **Arabic:** إعدادات مصدر المبيعات - إعدادات مصدر صافي المبيعات
 **English:** Sales Source Configuration
 
@@ -784,7 +790,13 @@
 <div id='dataFilters' title='dataFilters' class='searchable'>
 
 ## dataFilters (فلاتر البيانات - Data Filters)
+
+<div class='tableName'>
+
 **Table Name:** PFSalesSourceConfigFiltersLine, **Join Column:** pFSalesSourceConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1061,7 +1073,13 @@
 <div id='salesSources' title='salesSources' class='searchable'>
 
 ## salesSources (مصادر المبيعات - Sales Source)
+
+<div class='tableName'>
+
 **Table Name:** PFSalesSourceConfigLine, **Join Column:** pFSalesSourceConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

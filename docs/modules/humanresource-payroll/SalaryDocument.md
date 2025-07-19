@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalaryDocument
+</div>
+
 **Arabic:** سند الراتب - سندات الرواتب
 **English:** Salary Document - Salary Documents
 
@@ -1249,7 +1255,13 @@
 <div id='paidInstallments' title='paidInstallments' class='searchable'>
 
 ## paidInstallments (الأقساط المدفوعة - Paid Installments)
+
+<div class='tableName'>
+
 **Table Name:** PaidInstallmentLine, **Join Column:** salaryDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1433,7 +1445,13 @@
 <div id='rewardAndPenaltieLines' title='rewardAndPenaltieLines' class='searchable'>
 
 ## rewardAndPenaltieLines (المكافأت / الجزاءات - Rewards / Penalties)
+
+<div class='tableName'>
+
 **Table Name:** RewardPenaltyLine, **Join Column:** salaryDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1656,7 +1674,13 @@
 <div id='salaryDocumentLines' title='salaryDocumentLines' class='searchable'>
 
 ## salaryDocumentLines (المفردات - salary Document Lines)
+
+<div class='tableName'>
+
 **Table Name:** SalaryDocumentLine, **Join Column:** salaryDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

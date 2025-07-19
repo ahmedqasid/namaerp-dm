@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TaxDiscountEffectsConfig
+</div>
+
 **Arabic:** إعدادات تأثير الخصومات و الضرائب
 **English:** Tax and Discounts Effects Configuration - Tax and Discounts Effects Configurations
 
@@ -874,7 +880,13 @@
 <div id='effect10BasisLines' title='effect10BasisLines' class='searchable'>
 
 ## effect10BasisLines (سطور وعاء التأثير 10 - Effect 10 Basis Lines)
+
+<div class='tableName'>
+
 **Table Name:** TaxDiscountEffectsConfig10Line, **Join Column:** taxDiscountEffectsConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -935,7 +947,13 @@
 <div id='effect11BasisLines' title='effect11BasisLines' class='searchable'>
 
 ## effect11BasisLines (سطور وعاء التأثير 11 - Effect 11 Basis Lines)
+
+<div class='tableName'>
+
 **Table Name:** TaxDiscountEffectsConfig11Line, **Join Column:** taxDiscountEffectsConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -996,7 +1014,13 @@
 <div id='effect12BasisLines' title='effect12BasisLines' class='searchable'>
 
 ## effect12BasisLines (سطور وعاء التأثير 12 - Effect 12 Basis Lines)
+
+<div class='tableName'>
+
 **Table Name:** TaxDiscountEffectsConfig12Line, **Join Column:** taxDiscountEffectsConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1057,7 +1081,13 @@
 <div id='effect13BasisLines' title='effect13BasisLines' class='searchable'>
 
 ## effect13BasisLines (سطور وعاء التأثير 13 - Effect 13 Basis Lines)
+
+<div class='tableName'>
+
 **Table Name:** TaxDiscountEffectsConfig13Line, **Join Column:** taxDiscountEffectsConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1118,7 +1148,13 @@
 <div id='effect1BasisLines' title='effect1BasisLines' class='searchable'>
 
 ## effect1BasisLines (سطور وعاء التأثير 1 - Effect 1 Basis Lines)
+
+<div class='tableName'>
+
 **Table Name:** TaxDiscountEffectsConfig1Line, **Join Column:** taxDiscountEffectsConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1179,7 +1215,13 @@
 <div id='effect2BasisLines' title='effect2BasisLines' class='searchable'>
 
 ## effect2BasisLines (سطور وعاء التأثير 2 - Effect 2 Basis Lines)
+
+<div class='tableName'>
+
 **Table Name:** TaxDiscountEffectsConfig2Line, **Join Column:** taxDiscountEffectsConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1240,7 +1282,13 @@
 <div id='effect3BasisLines' title='effect3BasisLines' class='searchable'>
 
 ## effect3BasisLines (سطور وعاء التأثير 3 - Effect 3 Basis Lines)
+
+<div class='tableName'>
+
 **Table Name:** TaxDiscountEffectsConfig3Line, **Join Column:** taxDiscountEffectsConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1301,7 +1349,13 @@
 <div id='effect4BasisLines' title='effect4BasisLines' class='searchable'>
 
 ## effect4BasisLines (سطور وعاء التأثير 4 - Effect 4 Basis Lines)
+
+<div class='tableName'>
+
 **Table Name:** TaxDiscountEffectsConfig4Line, **Join Column:** taxDiscountEffectsConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1362,7 +1416,13 @@
 <div id='effect5BasisLines' title='effect5BasisLines' class='searchable'>
 
 ## effect5BasisLines (سطور وعاء التأثير 5 - Effect 5 Basis Lines)
+
+<div class='tableName'>
+
 **Table Name:** TaxDiscountEffectsConfig5Line, **Join Column:** taxDiscountEffectsConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1423,7 +1483,13 @@
 <div id='effect6BasisLines' title='effect6BasisLines' class='searchable'>
 
 ## effect6BasisLines (سطور وعاء التأثير 6 - Effect 6 Basis Lines)
+
+<div class='tableName'>
+
 **Table Name:** TaxDiscountEffectsConfig6Line, **Join Column:** taxDiscountEffectsConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1484,7 +1550,13 @@
 <div id='effect7BasisLines' title='effect7BasisLines' class='searchable'>
 
 ## effect7BasisLines (سطور وعاء التأثير 7 - Effect 7 Basis Lines)
+
+<div class='tableName'>
+
 **Table Name:** TaxDiscountEffectsConfig7Line, **Join Column:** taxDiscountEffectsConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1545,7 +1617,13 @@
 <div id='effect8BasisLines' title='effect8BasisLines' class='searchable'>
 
 ## effect8BasisLines (سطور وعاء التأثير 8 - Effect 8 Basis Lines)
+
+<div class='tableName'>
+
 **Table Name:** TaxDiscountEffectsConfig8Line, **Join Column:** taxDiscountEffectsConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1606,7 +1684,13 @@
 <div id='effect9BasisLines' title='effect9BasisLines' class='searchable'>
 
 ## effect9BasisLines (سطور وعاء التأثير 9 - Effect 9 Basis Lines)
+
+<div class='tableName'>
+
 **Table Name:** TaxDiscountEffectsConfig9Line, **Join Column:** taxDiscountEffectsConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1667,7 +1751,13 @@
 <div id='effectsOrder' title='effectsOrder' class='searchable'>
 
 ## effectsOrder (ترتيب التأثيرات - Effects Order)
+
+<div class='tableName'>
+
 **Table Name:** TaxDiscountEffectsOrderLine, **Join Column:** taxDiscountEffectsConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

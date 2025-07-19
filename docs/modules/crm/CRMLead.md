@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMLead
+</div>
+
 **Arabic:** خيط بيع -  خيط بيع
 **English:** CRM Lead -  CRM Lead
 
@@ -1330,7 +1336,13 @@
 <div id='assignedTo' title='assignedTo' class='searchable'>
 
 ## assignedTo (مسند إلي - Assigned To)
+
+<div class='tableName'>
+
 **Table Name:** CRMLeadEmpLine, **Join Column:** cRMLead_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1619,7 +1631,13 @@
 <div id='contacts' title='contacts' class='searchable'>
 
 ## contacts (جهات الاتصال - Contacts)
+
+<div class='tableName'>
+
 **Table Name:** CRMLeadContactInfo, **Join Column:** cRMLead_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1767,7 +1785,13 @@
 <div id='products' title='products' class='searchable'>
 
 ## products (المنتجات - Products)
+
+<div class='tableName'>
+
 **Table Name:** CRMLeadProducts, **Join Column:** cRMLead_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

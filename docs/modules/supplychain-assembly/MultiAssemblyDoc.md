@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MultiAssemblyDoc
+</div>
+
 **Arabic:** سند تجميع متعدد - سندات تجميع متعدده
 **English:** Multi Assembly Docuemnt - Multi Assembly Documents
 
@@ -919,7 +925,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MultiAssemblyLine, **Join Column:** multiAssemblyDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1433,7 +1445,13 @@
 <div id='finalMaterials' title='finalMaterials' class='searchable'>
 
 ## finalMaterials (الخامات النهائية - Final Materials)
+
+<div class='tableName'>
+
 **Table Name:** MultiAssemblyFinalMaterialLine, **Join Column:** multiAssemblyDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2493,7 +2511,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** MultiAssemblyAddCostLine, **Join Column:** multiAssemblyDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3004,7 +3028,13 @@
 <div id='mainItems' title='mainItems' class='searchable'>
 
 ## mainItems (الأصناف الرئيسية - Main Items)
+
+<div class='tableName'>
+
 **Table Name:** MultiAssemblyMainItemLine, **Join Column:** multiAssemblyDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

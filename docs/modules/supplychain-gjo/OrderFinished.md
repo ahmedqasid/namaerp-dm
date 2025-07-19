@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # OrderFinished
+</div>
+
 **Arabic:** إنهاء وتسليم لصالة التسليم
 **English:** Order Finished
 
@@ -907,7 +913,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** OrderFinishedLine, **Join Column:** orderFinished_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

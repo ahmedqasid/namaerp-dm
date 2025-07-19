@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LawCirculars
+</div>
+
 **Arabic:** تعميم قانون - تعاميم قانون
 **English:** Law Circulation - Law Circulars
 

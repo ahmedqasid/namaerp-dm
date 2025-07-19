@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SCCopierExtraFields
+</div>
+
 **Arabic:** الحقول الإضافية لإنشاء المستندات -  الحقول الإضافية لإنشاء المستندات
 **English:** Copier Extra Fields -  Copier Extra Fields
 
@@ -766,7 +772,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SCCopierExtraFieldsLine, **Join Column:** sCCopierExtraFields_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

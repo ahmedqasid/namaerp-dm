@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSItemClass8 (Table Name: POSItemClass8)
+</div>
+
 **Arabic:** تصنيف صنف 8 - تصنيفات صنف 8
 **English:** Item class 8 - Item classes 8
 

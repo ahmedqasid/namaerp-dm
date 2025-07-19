@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnDysfunction
+</div>
+
 **Arabic:** عطل - الأعطال
 **English:** Dysfunction - Dysfunctions
 
@@ -838,7 +844,13 @@
 <div id='proposedSolutions' title='proposedSolutions' class='searchable'>
 
 ## proposedSolutions (الحلول المقترحة - Proposed Solutions)
+
+<div class='tableName'>
+
 **Table Name:** MnDysfunctionProposedSolutionLine, **Join Column:** mnDysfunction_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -935,7 +947,13 @@
 <div id='spareParts' title='spareParts' class='searchable'>
 
 ## spareParts (قطع الغيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnDysfunctionLine, **Join Column:** mnDysfunction_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

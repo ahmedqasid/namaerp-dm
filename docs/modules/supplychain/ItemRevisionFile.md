@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ItemRevisionFile
+</div>
+
 **Arabic:** اصدار صنف - اصدارات الأصناف
 **English:** Item Revision File - Item Revision Files
 
@@ -1012,7 +1018,13 @@
 <div id='colorLines' title='colorLines' class='searchable'>
 
 ## colorLines (الألوان - Colors Lines)
+
+<div class='tableName'>
+
 **Table Name:** ItemRevisionFileColor, **Join Column:** itemRevisionFile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1076,7 +1088,13 @@
 <div id='sizeLines' title='sizeLines' class='searchable'>
 
 ## sizeLines (المقاسات - Size Lines)
+
+<div class='tableName'>
+
 **Table Name:** ItemRevisionFileSize, **Join Column:** itemRevisionFile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

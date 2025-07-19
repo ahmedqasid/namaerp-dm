@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSOutpatientReservation
+</div>
+
 **Arabic:** حجز العيادة الخارجية - حجوزات العيادات الخارجة
 **English:** Outpatient Reservation - Outpatient Reservations
 

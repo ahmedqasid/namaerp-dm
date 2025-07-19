@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MCWorkerType
+</div>
+
 **Arabic:** نوع عمالة - أنواع العمالة
 **English:** MC Worker Type - MC Worker Types
 

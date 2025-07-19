@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUMateriality
+</div>
+
 **Arabic:** نموذج الأهمية النسبية - نماذج الأهمية النسبية
 **English:** Materiality Model - Materiality Models
 
@@ -880,7 +886,13 @@
 <div id='materialitys' title='materialitys' class='searchable'>
 
 ## materialitys ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUMaterialityLine, **Join Column:** aUMateriality_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

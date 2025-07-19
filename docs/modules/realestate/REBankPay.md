@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REBankPay
+</div>
+
 **Arabic:** طلب صرف للبنك - طلبات صرف بنك
 **English:** Pay Request For Bank - Pays Request For Banks
 
@@ -946,7 +952,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** BankPayDetailLine, **Join Column:** rEBankPay_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

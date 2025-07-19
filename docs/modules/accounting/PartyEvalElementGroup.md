@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PartyEvalElementGroup
+</div>
+
 **Arabic:** مجموعة نقاط تقييم جهة - مجموعات نقاط تقييم جهة
 **English:** Party Evaluation Elements Group - Party Evaluation Elements Groups
 
@@ -757,7 +763,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PartyEvaluationEleGroupLine, **Join Column:** partyEvalElementGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TRHotelClass
+</div>
+
 **Arabic:** تصنيف فندق - تصنيفات الفنادق
 **English:** Hotel Class - Hotel Classes
 

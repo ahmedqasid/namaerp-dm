@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PartialSalaryPayment
+</div>
+
 **Arabic:** ملف صرف راتب جزئي - ملفات صرف راتب جزئي
 **English:** Partial Salary Payment - Partial Salary Payments
 
@@ -748,7 +754,13 @@
 <div id='components' title='components' class='searchable'>
 
 ## components (المكونات - Components)
+
+<div class='tableName'>
+
 **Table Name:** PartialSalaryComponentLine, **Join Column:** partialSalaryPayment_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

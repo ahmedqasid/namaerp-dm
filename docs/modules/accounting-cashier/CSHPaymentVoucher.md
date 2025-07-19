@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CSHPaymentVoucher
+</div>
+
 **Arabic:** سند صرف كاشير - سندات صرف كاشير
 **English:** Cashier Payment Voucher - Cashier Payment Vouchers
 

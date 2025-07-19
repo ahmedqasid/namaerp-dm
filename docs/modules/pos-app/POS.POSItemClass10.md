@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSItemClass10 (Table Name: POSItemClass10)
+</div>
+
 **Arabic:** تصنيف صنف 10 - تصنيفات صنف 10
 **English:** Item class 10 - Item classes 10
 

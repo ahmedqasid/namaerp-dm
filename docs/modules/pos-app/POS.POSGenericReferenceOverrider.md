@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSGenericReferenceOverrider (Table Name: POSGenericReferenceOverrider)
+</div>
+
 **Arabic:** أعدادات الحقول و الشاشات -  أعدادات الحقول و الشاشات
 **English:** Fields and Entities Settings -  Fields and Entities Settings
 
@@ -235,7 +241,13 @@
 <div id='extraCodes' title='extraCodes' class='searchable'>
 
 ## extraCodes (Extra Codes - Extra Codes)
+
+<div class='tableName'>
+
 **Table Name:** POSExtraCodeLine, **Join Column:** genRefOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -299,7 +311,13 @@
 <div id='fieldFormats' title='fieldFormats' class='searchable'>
 
 ## fieldFormats (Field Formats - Field Formats)
+
+<div class='tableName'>
+
 **Table Name:** POSFieldFormatLine, **Join Column:** genRefOverrider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

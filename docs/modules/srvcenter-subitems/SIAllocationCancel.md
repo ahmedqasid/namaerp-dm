@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SIAllocationCancel
+</div>
+
 **Arabic:** إلغاء تخصيص صنف فرعي - مستندات إلغاء تخصيص صنف فرعي
 **English:** Sub Item Allocation Cancel - Sub Item Allocation Cancel Document
 
@@ -2593,7 +2599,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SIAllocationCancelLine, **Join Column:** sIAllocationCancel_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

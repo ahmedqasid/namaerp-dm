@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DLVDriverCarAreaAssignment
+</div>
+
 **Arabic:** مستند تسكين سائق و سيارة توصيل على منطقة توصيل - مستندات تسكين سائق وسيارة توصيل على منطقة توصيل
 **English:** DLV Driver Car Area Assignments
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DLVDriverCarAreaAssignmentLine, **Join Column:** dLVDriverCarAreaAssignment_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

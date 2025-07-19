@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDSchoolTrip
+</div>
+
 **Arabic:** رحلة مدرسية - الرحلات المدرسية
 **English:** SchoolTrips
 
@@ -910,7 +916,13 @@
 <div id='emps' title='emps' class='searchable'>
 
 ## emps ( - )
+
+<div class='tableName'>
+
 **Table Name:** EDSchoolTripsEmpLine, **Join Column:** eDSchoolTrip_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -956,7 +968,13 @@
 <div id='students' title='students' class='searchable'>
 
 ## students ( - )
+
+<div class='tableName'>
+
 **Table Name:** EDSchoolTripsStudentLine, **Join Column:** eDSchoolTrip_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

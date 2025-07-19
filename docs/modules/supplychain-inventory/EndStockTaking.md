@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EndStockTaking
+</div>
+
 **Arabic:** نهاية الجرد - إنهاء جرد مخزني
 **English:** End Stock Taking
 
@@ -1027,7 +1033,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** EndStockTakingLine, **Join Column:** endStockTaking_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

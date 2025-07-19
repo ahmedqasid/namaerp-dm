@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSExtraFilter (Table Name: POSExtraFilter)
+</div>
+
 
 <ContentFilter/>
 
@@ -233,7 +239,13 @@
 <div id='extraFilters' title='extraFilters' class='searchable'>
 
 ## extraFilters (Extra Filters - Extra Filters)
+
+<div class='tableName'>
+
 **Table Name:** POSExtraFilterLine, **Join Column:** posExtraFilter_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

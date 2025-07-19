@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSMailCondition
+</div>
+
 **Arabic:** حالة البريد - حالات البريد
 **English:** Mail Condition - Mail Conditions
 

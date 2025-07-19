@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FinancialCommitmentPayDoc
+</div>
+
 **Arabic:** مستند دفع إلتزام مالى - مستندات دفع إلتزامات مالية
 **English:** Financial Commitment Payment Document - Financial Commitment Payment Documents
 
@@ -895,7 +901,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** FinancialCommitmentPayDocLine, **Join Column:** financialCommitmentPayDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

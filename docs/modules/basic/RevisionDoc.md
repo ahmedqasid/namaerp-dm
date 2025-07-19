@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RevisionDoc
+</div>
+
 **Arabic:** مستند مراجعه - مستندات مراجعه
 **English:** Revision Document - Revision Documents
 
@@ -883,7 +889,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RevisionDocLine, **Join Column:** revisionDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

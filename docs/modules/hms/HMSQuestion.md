@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSQuestion
+</div>
+
 **Arabic:** سؤال حالة صحية - اسئلة حالة صحية
 **English:** Health Status Question - Health Status Questions
 

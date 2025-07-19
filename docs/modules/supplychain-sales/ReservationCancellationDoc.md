@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ReservationCancellationDoc
+</div>
+
 **Arabic:** سند إلغاء حجز - سندات إلغاء حجز
 **English:** Reservation Cancellation Document - Reservation Cancellation Documents
 
@@ -2410,7 +2416,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ReservationCancelLine, **Join Column:** reservationCancellationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

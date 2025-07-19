@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TenderCondition
+</div>
+
 **Arabic:** شرط مناقصة - شروط المناقصات
 **English:** Tender Conditions
 

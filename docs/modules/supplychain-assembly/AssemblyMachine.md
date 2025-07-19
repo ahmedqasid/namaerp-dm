@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AssemblyMachine
+</div>
+
 **Arabic:** ماكينة تجميع - ماكينات التجميع
 **English:** Assembly Machine - Assembly Machines
 
@@ -820,7 +826,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MachineRawMaterialsLine, **Join Column:** assemblyMachine_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1712,7 +1724,13 @@
 <div id='indirectCosts' title='indirectCosts' class='searchable'>
 
 ## indirectCosts (التكاليف الغير مباشرة - Indirect Costs)
+
+<div class='tableName'>
+
 **Table Name:** MachineIndirectCosts, **Join Column:** assemblyMachine_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1797,7 +1815,13 @@
 <div id='indirectMaterials' title='indirectMaterials' class='searchable'>
 
 ## indirectMaterials (المواد الخام المساعدة - Indirect Materials)
+
+<div class='tableName'>
+
 **Table Name:** MachineIndirectMaterials, **Join Column:** assemblyMachine_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2698,7 +2722,13 @@
 <div id='outputsMaterials' title='outputsMaterials' class='searchable'>
 
 ## outputsMaterials (المخرجات - Outputs Materials)
+
+<div class='tableName'>
+
 **Table Name:** MachineOutputsMaterialsLine, **Join Column:** assemblyMachine_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

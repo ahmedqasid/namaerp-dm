@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDMealType
+</div>
+
 **Arabic:** نوع وجبة مدرسية - أنواع الوجبات المدرسية
 
 <ContentFilter/>

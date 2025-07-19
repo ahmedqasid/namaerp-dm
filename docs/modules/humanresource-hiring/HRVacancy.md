@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRVacancy
+</div>
+
 **Arabic:** فرصة عمل - فرص عمل
 **English:** Vacancy - Vacancies
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ConsolidatedPVRequest
+</div>
+
 **Arabic:** طلب صرف مجمع - طلبات صرف مجمعه
 **English:** Consolidated PV Request - Consolidated PV Requests
 
@@ -1189,7 +1195,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ConsolidatedPVRequestLine, **Join Column:** consolidatedPVRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

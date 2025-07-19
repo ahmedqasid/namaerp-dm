@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # VacationType
+</div>
+
 **Arabic:** نوع الأجازة - أنواع الأجازات
 **English:** Vacation Type - Vacation Types
 
@@ -1396,7 +1402,13 @@
 <div id='deductionPercentageLines' title='deductionPercentageLines' class='searchable'>
 
 ## deductionPercentageLines (استقطاع نسبة من المفردات - Deduction Percentage Lines)
+
+<div class='tableName'>
+
 **Table Name:** VacationTypeDeductionPercentageLine, **Join Column:** vacationType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1487,7 +1499,13 @@
 <div id='discardComponents' title='discardComponents' class='searchable'>
 
 ## discardComponents (المفردات الواجب تجاهلها مع الاجازه بدون مرتب - Discard Components)
+
+<div class='tableName'>
+
 **Table Name:** VacationTypeComponentLine, **Join Column:** vacationType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1542,7 +1560,13 @@
 <div id='periodOfVacationReq' title='periodOfVacationReq' class='searchable'>
 
 ## periodOfVacationReq ( - )
+
+<div class='tableName'>
+
 **Table Name:** VacationTypePeriodVacaReqLine, **Join Column:** vacationType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REOwner
+</div>
+
 **Arabic:** مالك - مشتري - ملاك - مشترين
 **English:** Owner - Owners
 
@@ -1672,7 +1678,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** REOwnerLines, **Join Column:** rEOwner_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

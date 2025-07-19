@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnSalesQuotation
+</div>
+
 **Arabic:** عرض أسعار صيانة - عروض أسعار صيانة
 **English:** Maintenance Sales Quotation - Maintenance Sales Quotations
 
@@ -2977,7 +2983,13 @@
 <div id='contractTerms' title='contractTerms' class='searchable'>
 
 ## contractTerms (بنود العقد - Contract Terms)
+
+<div class='tableName'>
+
 **Table Name:** MnSalesQuotationTermLine, **Join Column:** mnSalesQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3098,7 +3110,13 @@
 <div id='machines' title='machines' class='searchable'>
 
 ## machines (ألآت - Machines)
+
+<div class='tableName'>
+
 **Table Name:** MnSalesQuotationMachine, **Join Column:** mnSalesQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3960,7 +3978,13 @@
 <div id='services' title='services' class='searchable'>
 
 ## services (الخدمات - Services)
+
+<div class='tableName'>
+
 **Table Name:** MnSalesQuotationService, **Join Column:** mnSalesQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4687,7 +4711,13 @@
 <div id='spareParts' title='spareParts' class='searchable'>
 
 ## spareParts (قطع الغيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnSalesQuotationSpareLine, **Join Column:** mnSalesQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5624,7 +5654,13 @@
 <div id='visits' title='visits' class='searchable'>
 
 ## visits (الزيارات - Visits)
+
+<div class='tableName'>
+
 **Table Name:** MnSalesQuotationVisitSchedule, **Join Column:** mnSalesQuotation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

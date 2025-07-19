@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSStockTransferReq (Table Name: POSStockTransferReq)
+</div>
+
 **Arabic:** طلب تحويل مخزني نقاط البيع -  طلب تحويل مخزني نقاط البيع
 **English:** POS Stock Transfer Request -  POS Stock Transfer Request
 
@@ -1066,7 +1072,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSStockTransferReqLine, **Join Column:** request_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

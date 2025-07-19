@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CarInsurancePolicy
+</div>
+
 **Arabic:** بوليصة تأمين سيارات - بوليصات تأمين السيارات
 **English:** Cars Insurance Policy - Cars Insurance Policies
 
@@ -1096,7 +1102,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CarInsurancePolicyLine, **Join Column:** carInsurancePolicy_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1427,7 +1439,13 @@
 <div id='installmentDetails' title='installmentDetails' class='searchable'>
 
 ## installmentDetails (تفاصيل القسط - Installment Details)
+
+<div class='tableName'>
+
 **Table Name:** CarInsPolicyInstallLine, **Join Column:** carInsurancePolicy_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

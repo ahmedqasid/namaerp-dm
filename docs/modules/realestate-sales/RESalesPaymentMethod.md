@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RESalesPaymentMethod
+</div>
+
 **Arabic:** نموذج دفع بيع عقار - نماذج دفع استثمار عقاري
 **English:** RE Sales Payment Method - RE Sales Payment Methods
 
@@ -1339,7 +1345,13 @@
 <div id='installmentInfoLines' title='installmentInfoLines' class='searchable'>
 
 ## installmentInfoLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** RESalesPaymentMethodLine, **Join Column:** rESalesPaymentMethod_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSExtraFilter
+</div>
+
 **Arabic:** Filters إضافية لنقطة البيع -  Filters إضافية لنقطة البيع
 **English:** Nama POS Extra Filters -  Nama POS Extra Filters
 
@@ -748,7 +754,13 @@
 <div id='extraFilters' title='extraFilters' class='searchable'>
 
 ## extraFilters (Extra Filters - Extra Filters)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSExtraFilterLine, **Join Column:** namaPOSExtraFilter_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMShippingType
+</div>
+
 **Arabic:** نوع شحن - أنواع شحن
 **English:** Shipping Type - Shipping Types
 

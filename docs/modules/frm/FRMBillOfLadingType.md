@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMBillOfLadingType
+</div>
+
 **Arabic:** نوع بوليصة شحن - أنواع بوالص شحن
 **English:** Bill of Lading Type - Bills of Lading Types
 

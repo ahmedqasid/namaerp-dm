@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # UpdateEmployeeInfo
+</div>
+
 **Arabic:** تحديث بيانات الموظف - تحديث بيانات الموظفين
 **English:** Update Employee Info - Update Employee Infos
 
@@ -2395,7 +2401,13 @@
 <div id='attendants' title='attendants' class='searchable'>
 
 ## attendants ( المرافقين -  Attendants)
+
+<div class='tableName'>
+
 **Table Name:** UpdatedAttendantLine, **Join Column:** updateEmployeeInfo_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2597,7 +2609,13 @@
 <div id='qualifications' title='qualifications' class='searchable'>
 
 ## qualifications (المؤهلات - Qualifications)
+
+<div class='tableName'>
+
 **Table Name:** UpdatedQualificationLine, **Join Column:** updateEmployeeInfo_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2667,7 +2685,13 @@
 <div id='toInfo.elementLines' title='toInfo.elementLines' class='searchable'>
 
 ## toInfo.elementLines (مفردات الراتب - Element Lines)
+
+<div class='tableName'>
+
 **Table Name:** OfferElementUpdateLine, **Join Column:** employeeInfoVO_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2797,7 +2821,13 @@
 <div id='toInfo.vacationLines' title='toInfo.vacationLines' class='searchable'>
 
 ## toInfo.vacationLines (الأجازات - Vcations)
+
+<div class='tableName'>
+
 **Table Name:** OfferVacationUpdateLine, **Join Column:** employeeInfoVO_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

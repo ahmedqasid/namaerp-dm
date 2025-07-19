@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MCMainContract
+</div>
+
 **Arabic:** عقد - العقود
 **English:** Contract - Contracts
 
@@ -1147,7 +1153,13 @@
 <div id='cancelledEquipments' title='cancelledEquipments' class='searchable'>
 
 ## cancelledEquipments (بنود المعدات المحذوفة - Cancelled Equipments)
+
+<div class='tableName'>
+
 **Table Name:** MCMainCTRCancelledEquipment, **Join Column:** mCMainContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1313,7 +1325,13 @@
 <div id='cancelledLabors' title='cancelledLabors' class='searchable'>
 
 ## cancelledLabors (بنود العمالة المحذوفة - Cancelled Labors)
+
+<div class='tableName'>
+
 **Table Name:** MCMainContractCancelledLabor, **Join Column:** mCMainContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1527,7 +1545,13 @@
 <div id='cancelledOperations' title='cancelledOperations' class='searchable'>
 
 ## cancelledOperations (بنود التشغيل والصيانة المحذوفة - Cancelled Operations)
+
+<div class='tableName'>
+
 **Table Name:** MCMainCTRCancelledOperation, **Join Column:** mCMainContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1711,7 +1735,13 @@
 <div id='consumedItemLines' title='consumedItemLines' class='searchable'>
 
 ## consumedItemLines (المواد المستهلكة - Consumed Item Lines)
+
+<div class='tableName'>
+
 **Table Name:** MCMainContractConsumedItem, **Join Column:** mCMainContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1826,7 +1856,13 @@
 <div id='editedOperationLines' title='editedOperationLines' class='searchable'>
 
 ## editedOperationLines (تعديل بنود التشغيل والصيانة - Edited Operation Lines)
+
+<div class='tableName'>
+
 **Table Name:** MCMainContractEditOperation, **Join Column:** mCMainContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2010,7 +2046,13 @@
 <div id='equipmentLines' title='equipmentLines' class='searchable'>
 
 ## equipmentLines (سطور بنود المعدات - Equipment Lines)
+
+<div class='tableName'>
+
 **Table Name:** MCMainContractEquipmentLine, **Join Column:** mCMainContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2176,7 +2218,13 @@
 <div id='itemsLines' title='itemsLines' class='searchable'>
 
 ## itemsLines (بنود العقد - Items Lines)
+
+<div class='tableName'>
+
 **Table Name:** MCMainContractItemsLine, **Join Column:** mCMainContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2219,7 +2267,13 @@
 <div id='laborLines' title='laborLines' class='searchable'>
 
 ## laborLines (بنود العمالة - Labor Lines)
+
+<div class='tableName'>
+
 **Table Name:** MCMainContractLaborLine, **Join Column:** mCMainContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2433,7 +2487,13 @@
 <div id='operationLines' title='operationLines' class='searchable'>
 
 ## operationLines (بنود التشغيل والصيانة - Operation Lines)
+
+<div class='tableName'>
+
 **Table Name:** MCMainContractOperationLine, **Join Column:** mCMainContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2617,7 +2677,13 @@
 <div id='worksLines' title='worksLines' class='searchable'>
 
 ## worksLines (اعمال العقد - Works Lines)
+
+<div class='tableName'>
+
 **Table Name:** MCMainContractWorksLine, **Join Column:** mCMainContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

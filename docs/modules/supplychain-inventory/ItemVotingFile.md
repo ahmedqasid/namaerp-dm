@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ItemVotingFile
+</div>
+
 **Arabic:** ملف تصويت على الأصناف - ملفات تصويت على الأصناف
 **English:** Item Voting File - Item Voting Files
 
@@ -847,7 +853,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ItemVotingFileLine, **Join Column:** itemVotingFile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1493,7 +1505,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** ItemVotingDocsLine, **Join Column:** itemVotingFile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1539,7 +1557,13 @@
 <div id='voters' title='voters' class='searchable'>
 
 ## voters (المصوتون - Voters)
+
+<div class='tableName'>
+
 **Table Name:** ItemVotingVoterLine, **Join Column:** itemVotingFile_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

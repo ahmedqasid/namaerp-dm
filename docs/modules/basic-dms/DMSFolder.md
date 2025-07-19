@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DMSFolder
+</div>
+
 **Arabic:** مجلد - مجلدات
 **English:** DMS Folder - DMS Folders
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAMovementInDoc
+</div>
+
 **Arabic:** سند رجوع أصول - سندات رجوع أصول
 **English:** Fixed Asset Return Document - Fixed Asset Return Documents
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FAMovementInLine, **Join Column:** fAMovementInDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

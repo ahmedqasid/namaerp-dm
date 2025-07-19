@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalesReplacementReq
+</div>
+
 **Arabic:** طلب استبدال مبيعات - طلبات استبدال مبيعات
 **English:** Sales Replacement Request - Sales Replacement Requests
 
@@ -2431,7 +2437,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SalesReplacementReqLine, **Join Column:** salesReplacementReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4373,7 +4385,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SalesReplacementReqExtPayment, **Join Column:** salesReplacementReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4524,7 +4542,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SalesReplacementReqPayment, **Join Column:** salesReplacementReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4834,7 +4858,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** SalesReplacementReqSchedulPay, **Join Column:** salesReplacementReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5099,7 +5129,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** SalesReplacementReqStandTerms, **Join Column:** salesReplacementReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

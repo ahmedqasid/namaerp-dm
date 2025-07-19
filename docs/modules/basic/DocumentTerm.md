@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DocumentTerm
+</div>
+
 **Arabic:** توجيه مستند - توجيه المستندات
 **English:** Document Term - Document Terms
 
@@ -1153,7 +1159,13 @@
 <div id='allowedBooks' title='allowedBooks' class='searchable'>
 
 ## allowedBooks (الدفاتر المسموح بها - Allowed Books)
+
+<div class='tableName'>
+
 **Table Name:** AllowedBook, **Join Column:** documentTerm_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

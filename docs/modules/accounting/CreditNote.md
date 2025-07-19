@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CreditNote
+</div>
+
 **Arabic:** إشعار دائن - إشعارات دائن
 
 <ContentFilter/>
@@ -1197,7 +1203,13 @@
 <div id='invoices' title='invoices' class='searchable'>
 
 ## invoices (الفواتير - Invoices)
+
+<div class='tableName'>
+
 **Table Name:** CNInvoiceLine, **Join Column:** creditNote_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

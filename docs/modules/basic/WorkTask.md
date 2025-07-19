@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # WorkTask
+</div>
+
 **Arabic:** مهمة عمل - مهام عمل
 **English:** Work Task - Work Tasks
 
@@ -1210,7 +1216,13 @@
 <div id='executers' title='executers' class='searchable'>
 
 ## executers (المنفذين - Executers)
+
+<div class='tableName'>
+
 **Table Name:** WorkTaskLine, **Join Column:** workTask_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

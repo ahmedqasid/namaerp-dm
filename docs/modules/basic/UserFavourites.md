@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # UserFavourites
+</div>
+
 **Arabic:** مفضلة مستخدم - مفضلات مستخدمين
 **English:** User Favourites - Users Favourites
 
@@ -769,7 +775,13 @@
 <div id='applyTo' title='applyTo' class='searchable'>
 
 ## applyTo (تطبق علي - Apply To)
+
+<div class='tableName'>
+
 **Table Name:** UserFavouritesApplyTo, **Join Column:** userFavourites_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -812,7 +824,13 @@
 <div id='favouriteItems' title='favouriteItems' class='searchable'>
 
 ## favouriteItems (العناصر المفضلة - Favourite Items)
+
+<div class='tableName'>
+
 **Table Name:** UserFavouritesLine, **Join Column:** userFavourites_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -921,7 +939,13 @@
 <div id='groupsLines' title='groupsLines' class='searchable'>
 
 ## groupsLines (المجموعات - Groups Lines)
+
+<div class='tableName'>
+
 **Table Name:** UserFavouritesGroupsLine, **Join Column:** userFavourites_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

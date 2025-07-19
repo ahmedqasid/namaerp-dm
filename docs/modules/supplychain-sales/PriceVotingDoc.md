@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PriceVotingDoc
+</div>
+
 **Arabic:** مستند التصويت على الأسعار - مستندات التصويت على الأسعار
 **English:** Price Voting Document - Price Voting Documents
 
@@ -1138,7 +1144,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PriceVotingDocLine, **Join Column:** priceVotingDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

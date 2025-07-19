@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # UserTimedQuery
+</div>
+
 **Arabic:** استعلام دوري - استعلامات دورية
 **English:** User Timed Query - User Timed Queries
 

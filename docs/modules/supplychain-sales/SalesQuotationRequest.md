@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalesQuotationRequest
+</div>
+
 **Arabic:** طلب عرض أسعار - طلبات عرض أسعار
 **English:** Request For Sales Quotation - Requests For Sales Quotation
 
@@ -2704,7 +2710,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SalesQuotaionReqLine, **Join Column:** salesQuotationRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4772,7 +4784,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** SalesQuotReqScheduledPayLine, **Join Column:** salesQuotationRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

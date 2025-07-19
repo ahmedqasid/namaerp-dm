@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DMSDocMovement
+</div>
+
 **Arabic:** حركة المستند - حركات المستدات
 **English:** Document Movement - Documents Movements
 
@@ -985,7 +991,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DocMovementLine, **Join Column:** dMSDocMovement_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

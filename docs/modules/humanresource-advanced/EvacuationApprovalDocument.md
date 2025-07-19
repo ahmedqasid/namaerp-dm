@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EvacuationApprovalDocument
+</div>
+
 **Arabic:** الموافقة على إخلاء طرف -  الموافقة على إخلاء طرف
 **English:** Evacuation Approval Document -  Evacuation Approval Document
 

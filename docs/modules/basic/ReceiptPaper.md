@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ReceiptPaper
+</div>
+
 **Arabic:** إيصال - إيصالات
 **English:** Receipt Paper - Receipt Papers
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RawMaterialIssueReq
+</div>
+
 **Arabic:** طلب صرف مواد خام - طلبات صرف مواد خام
 **English:** Raw material issue request
 
@@ -1633,7 +1639,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MaterialIssueReqLine, **Join Column:** rawMaterialIssueReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LoanInterestsCalculation
+</div>
+
 **Arabic:** سند احتساب فوائد القرض -  سند احتساب فوائد القرض
 **English:** Loan Interests Calculation -  Loan Interests Calculation
 
@@ -994,7 +1000,13 @@
 <div id='interests' title='interests' class='searchable'>
 
 ## interests (الفوائد - Interests)
+
+<div class='tableName'>
+
 **Table Name:** LoanInterestCalcLine, **Join Column:** loanInterestsCalculation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

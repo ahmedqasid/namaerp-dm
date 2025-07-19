@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnMaintenanceGroup
+</div>
+
 **Arabic:** مجموعة صيانة - مجموعات صيانة
 **English:** Maintenance Group - Maintenance Groups
 
@@ -748,7 +754,13 @@
 <div id='technicians' title='technicians' class='searchable'>
 
 ## technicians (الفنين - Technicians)
+
+<div class='tableName'>
+
 **Table Name:** MnMaintenanceGroupLine, **Join Column:** mnMaintenanceGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

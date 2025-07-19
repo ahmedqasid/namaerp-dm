@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RewardPointCalculatorConfig
+</div>
+
 **Arabic:** نقاط المكافأة للعملاء - ملفات نقاط المكافأة للعملاء
 **English:** Customer Reward Point Calculator - Customer Reward Point Calculator Files
 
@@ -1126,7 +1132,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RewardPointCalcConfigLine, **Join Column:** rewardPointCalculatorConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

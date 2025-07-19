@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RecordImportConfig
+</div>
+
 **Arabic:** إعدادات استيراد سجلات
 **English:** Record Import Configuration - Record Import Configurations
 
@@ -1468,7 +1474,13 @@
 <div id='detail1Fields' title='detail1Fields' class='searchable'>
 
 ## detail1Fields (حقول سطور 1 - Details 1 Fields)
+
+<div class='tableName'>
+
 **Table Name:** RecordImportConfigDetail1Field, **Join Column:** recordImportConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1628,7 +1640,13 @@
 <div id='detail2Fields' title='detail2Fields' class='searchable'>
 
 ## detail2Fields (حقول سطور 2 - Details 2 Fields)
+
+<div class='tableName'>
+
 **Table Name:** RecordImportConfigDetail2Field, **Join Column:** recordImportConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1788,7 +1806,13 @@
 <div id='detail3Fields' title='detail3Fields' class='searchable'>
 
 ## detail3Fields (حقول سطور 3 - Details 3 Fields)
+
+<div class='tableName'>
+
 **Table Name:** RecordImportConfigDetail3Field, **Join Column:** recordImportConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1948,7 +1972,13 @@
 <div id='detail4Fields' title='detail4Fields' class='searchable'>
 
 ## detail4Fields (حقول سطور 4 - Details 4 Fields)
+
+<div class='tableName'>
+
 **Table Name:** RecordImportConfigDetail4Field, **Join Column:** recordImportConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2108,7 +2138,13 @@
 <div id='detail5Fields' title='detail5Fields' class='searchable'>
 
 ## detail5Fields (حقول سطور 5 - Details 5 Fields)
+
+<div class='tableName'>
+
 **Table Name:** RecordImportConfigDetail5Field, **Join Column:** recordImportConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2268,7 +2304,13 @@
 <div id='headerFields' title='headerFields' class='searchable'>
 
 ## headerFields (حقول الهيدر - Header Fields)
+
+<div class='tableName'>
+
 **Table Name:** RecordImportConfigHeaderField, **Join Column:** recordImportConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

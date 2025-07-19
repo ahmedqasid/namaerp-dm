@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DefaultValuesTemplate
+</div>
+
 **Arabic:** قالب قيم افتراضية - قوالب قيم افتراضية
 **English:** Default Values Template - Default Values Templates
 

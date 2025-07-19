@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUBasicProcedure
+</div>
+
 **Arabic:** إجراء الأساسية - إجراءات الأساسية
 **English:** Basic Procedure - Basic Procedures
 
@@ -916,7 +922,13 @@
 <div id='p2BasicProcedures' title='p2BasicProcedures' class='searchable'>
 
 ## p2BasicProcedures ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUProcedureP2BasicLine, **Join Column:** aUBasicProcedure_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAInitialReceipt
+</div>
+
 **Arabic:** سند استلام أصل مبدئي - سندات استلام أصول مبدئية
 **English:** Fixed Asset Initial Receipt - Fixed Asset Initial Receipts
 
@@ -1582,7 +1588,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FAInitialReceiptLine, **Join Column:** fAInitialReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2360,7 +2372,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** FAInitialReceiptExternalPaymentLine, **Join Column:** fAInitialReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2466,7 +2484,13 @@
 <div id='faInitialTermsLines' title='faInitialTermsLines' class='searchable'>
 
 ## faInitialTermsLines (بنود الشراء - Fixed Asset Initial Terms Lines)
+
+<div class='tableName'>
+
 **Table Name:** FAInitialReceiptStandardTermsLine, **Join Column:** fAInitialReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2749,7 +2773,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** FAInitialReceiptScheduledPayLine, **Join Column:** fAInitialReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalesReturn
+</div>
+
 **Arabic:** مردودات مبيعات
 **English:** Sales Return - Sales Returns
 
@@ -2419,7 +2425,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SalesReturnLine, **Join Column:** salesReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4424,7 +4436,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SalesReturnExternalPaymentLine, **Join Column:** salesReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4575,7 +4593,13 @@
 <div id='generatedDocs' title='generatedDocs' class='searchable'>
 
 ## generatedDocs (المستندات المنشأة - Generated Docs)
+
+<div class='tableName'>
+
 **Table Name:** SRetGeneratedDocsLine, **Join Column:** salesReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4618,7 +4642,13 @@
 <div id='installmentLines' title='installmentLines' class='searchable'>
 
 ## installmentLines (الأقساط - Installment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SalesReturnInstalSchedLine, **Join Column:** salesReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4760,7 +4790,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** SalesReturnPaymentLine, **Join Column:** salesReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5070,7 +5106,13 @@
 <div id='stockDocs' title='stockDocs' class='searchable'>
 
 ## stockDocs (السندات المخزنية - Stock Documents)
+
+<div class='tableName'>
+
 **Table Name:** SalesReturnReceipt, **Join Column:** salesReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.PosDefaultsTemplate (Table Name: PosDefaultsTemplate)
+</div>
+
 **Arabic:** قالب قيم افتراضيه لنقاط البيع -  قالب قيم افتراضيه لنقاط البيع
 **English:** Pos Defaults Template -  Pos Defaults Template
 
@@ -235,7 +241,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PosDefaultsTemplateLine, **Join Column:** defaultsTemplate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

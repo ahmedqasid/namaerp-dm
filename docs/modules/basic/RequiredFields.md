@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RequiredFields
+</div>
+
 **Arabic:** الحقول المطلوبة -  الحقول المطلوبة
 **English:** Required Fields -  Required Fields
 
@@ -757,7 +763,13 @@
 <div id='criteriaBasedLines' title='criteriaBasedLines' class='searchable'>
 
 ## criteriaBasedLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CriteriaBasedReqFieldsLine, **Join Column:** requiredFields_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -851,7 +863,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RequiredFieldsLine, **Join Column:** requiredFields_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -915,7 +933,13 @@
 <div id='ignoreRequiredWhen' title='ignoreRequiredWhen' class='searchable'>
 
 ## ignoreRequiredWhen (تجاهل الحقول المطلوبة عندما - Ignore Required Fields When)
+
+<div class='tableName'>
+
 **Table Name:** RequiredFieldsIgnoreWhen, **Join Column:** requiredFields_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

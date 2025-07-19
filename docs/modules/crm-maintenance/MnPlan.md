@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnPlan
+</div>
+
 **Arabic:** خطة صيانة خدمة عملاء - خطط صيانة خدمة عملاء
 **English:** CRM Maintenance Plan - CRM Maintenance Plans
 
@@ -892,7 +898,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MnPlanLine, **Join Column:** mnPlan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1058,7 +1070,13 @@
 <div id='mnNoticesDetails' title='mnNoticesDetails' class='searchable'>
 
 ## mnNoticesDetails (تفاصيل بلاغات الصيانة - Maintenance NoticesDetails)
+
+<div class='tableName'>
+
 **Table Name:** MnPlanNoticeLine, **Join Column:** mnPlan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

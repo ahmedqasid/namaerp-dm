@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMCampaign
+</div>
+
 **Arabic:** حملة - الحملات
 **English:** CRM Campaign - CRM Campaigns
 
@@ -976,7 +982,13 @@
 <div id='assignedTo' title='assignedTo' class='searchable'>
 
 ## assignedTo (مسند إلي - Assigned To)
+
+<div class='tableName'>
+
 **Table Name:** CampaignEmployeeLine, **Join Column:** cRMCampaign_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1265,7 +1277,13 @@
 <div id='productdetails' title='productdetails' class='searchable'>
 
 ## productdetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** ProductLines, **Join Column:** cRMCampaign_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

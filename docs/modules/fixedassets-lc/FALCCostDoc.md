@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FALCCostDoc
+</div>
+
 **Arabic:** سند تكليف اعتماد أصل - سندات تكاليف اعتمادات أصول
 **English:** Fixed Asset Letter of Credit cost - Fixed Asset Letter of Credit costs
 
@@ -1669,7 +1675,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FALCCostLine, **Join Column:** fALCCostDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

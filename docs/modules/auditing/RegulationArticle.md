@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RegulationArticle
+</div>
+
 **Arabic:** مادة لائحة - مواد اللاوائح
 **English:** Regulation Article - Regulation Articles
 

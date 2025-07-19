@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Law
+</div>
+
 **Arabic:** القانون - القوانين
 
 <ContentFilter/>

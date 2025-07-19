@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSAccommodation
+</div>
+
 **Arabic:** تسكين مريض - تسكين المرضى
 **English:** Accommodation - Accommodations
 

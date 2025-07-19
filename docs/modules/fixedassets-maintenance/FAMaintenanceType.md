@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAMaintenanceType
+</div>
+
 **Arabic:** نوع الصيانة - أنواع صيانة الأصول
 **English:** Maintenance Type - Maintenance Types
 

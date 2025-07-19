@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRTNLoadingType
+</div>
+
 **Arabic:** نوع التحميل - أنواع التحميل
 **English:** CRTN Loading Type - CRTN Loading Types
 

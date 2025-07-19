@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # StockAgesTrans
+</div>
+
 
 <ContentFilter/>
 
@@ -44,7 +50,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** StockAgesTransLine, **Join Column:** stockAgesTrans_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

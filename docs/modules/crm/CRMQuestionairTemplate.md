@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMQuestionairTemplate
+</div>
+
 **Arabic:** قالب استبيان - قوالب استبيانات
 **English:** Questionair Template - Questionair Templates
 
@@ -835,7 +841,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** CRMQuestionairTemplateLine, **Join Column:** cRMQuestionairTemplate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

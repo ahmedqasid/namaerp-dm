@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DebitNote
+</div>
+
 **Arabic:** إشعار مدين - إشعارات مدين
 
 <ContentFilter/>
@@ -1197,7 +1203,13 @@
 <div id='invoices' title='invoices' class='searchable'>
 
 ## invoices (الفواتير - Invoices)
+
+<div class='tableName'>
+
 **Table Name:** DNInvoiceLine, **Join Column:** debitNote_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

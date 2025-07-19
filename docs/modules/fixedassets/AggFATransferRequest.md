@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggFATransferRequest
+</div>
+
 **Arabic:** طلب نقل أصل مجمع - طلبات نقل أصول مجمع
 **English:** Aggregated Fixed Asset Transfer Request - Aggregated Fixed Assets Transfer Requests
 
@@ -934,7 +940,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** AggFATransferRequestLine, **Join Column:** aggFATransferRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

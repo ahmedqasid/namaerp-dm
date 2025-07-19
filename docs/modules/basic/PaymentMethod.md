@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PaymentMethod
+</div>
+
 **Arabic:** طريقة دفع - طرق الدفع
 **English:** Payment Method - Payment Methods
 
@@ -1459,7 +1465,13 @@
 <div id='feeRanges' title='feeRanges' class='searchable'>
 
 ## feeRanges (شرائح الرسوم - Fee Ranges)
+
+<div class='tableName'>
+
 **Table Name:** PaymentMethodFee, **Join Column:** paymentMethod_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

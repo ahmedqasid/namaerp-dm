@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Subsidiary5
+</div>
+
 **Arabic:** ذمة 5
 **English:** Subsidiary 5
 
@@ -2905,7 +2911,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** Subsidiary5Line, **Join Column:** subsidiary5_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4034,7 +4046,13 @@
 <div id='details2' title='details2' class='searchable'>
 
 ## details2 ( - )
+
+<div class='tableName'>
+
 **Table Name:** Subsidiary5Line2, **Join Column:** subsidiary5_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5163,7 +5181,13 @@
 <div id='details3' title='details3' class='searchable'>
 
 ## details3 ( - )
+
+<div class='tableName'>
+
 **Table Name:** Subsidiary5Line3, **Join Column:** subsidiary5_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -6292,7 +6316,13 @@
 <div id='details4' title='details4' class='searchable'>
 
 ## details4 ( - )
+
+<div class='tableName'>
+
 **Table Name:** Subsidiary5Line4, **Join Column:** subsidiary5_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

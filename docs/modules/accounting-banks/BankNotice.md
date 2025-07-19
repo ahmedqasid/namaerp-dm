@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BankNotice
+</div>
+
 **Arabic:** إشعار بنكي - الإشعارات البنكية
 **English:** Bank Notice - Bank Notices
 
@@ -946,7 +952,13 @@
 <div id='installmentLines' title='installmentLines' class='searchable'>
 
 ## installmentLines (الأقساط - Installment Lines)
+
+<div class='tableName'>
+
 **Table Name:** BankNoticeInstallmetLine, **Join Column:** bankNotice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1163,7 +1175,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** BankNoticeLine, **Join Column:** bankNotice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

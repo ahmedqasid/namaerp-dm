@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REFineDoc
+</div>
+
 **Arabic:** سند غرامة - سندات غرامة
 **English:** Real state fine Doc
 
@@ -1429,7 +1435,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FineInstallmentLine, **Join Column:** rEFineDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

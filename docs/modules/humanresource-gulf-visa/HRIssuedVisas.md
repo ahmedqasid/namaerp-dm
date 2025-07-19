@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRIssuedVisas
+</div>
+
 **Arabic:** تأشيرات صادرة -  تأشيرات صادرة
 **English:**  HRIssuedVisas
 
@@ -775,7 +781,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HRIssuedVisasLine, **Join Column:** hRIssuedVisas_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SubItemStatusConfigurations
+</div>
+
 **Arabic:** إعدادت حالة الصنف الفرعي - ملفات إعدادت حالة الصنف الفرعي
 **English:** SubItem Status Configurations - SubItem Status Configurations Files
 
@@ -796,7 +802,13 @@
 <div id='statusMovements' title='statusMovements' class='searchable'>
 
 ## statusMovements (سطور حركات حالة الصنف الفرعي - SubItem Status Movements)
+
+<div class='tableName'>
+
 **Table Name:** SubItemStatusMovementLine, **Join Column:** subItemStatusConfigurations_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -929,7 +941,13 @@
 <div id='statusUpdaterLines' title='statusUpdaterLines' class='searchable'>
 
 ## statusUpdaterLines (سطور تحديث حالة الصنف الفرعي - SubItem Updaters)
+
+<div class='tableName'>
+
 **Table Name:** SubItemStatusUpdaterLine, **Join Column:** subItemStatusConfigurations_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1065,7 +1083,13 @@
 <div id='subItemFiltersLines' title='subItemFiltersLines' class='searchable'>
 
 ## subItemFiltersLines (فلاتر الأصناف الفرعية في المستندات - Filters For SubItems In Documents)
+
+<div class='tableName'>
+
 **Table Name:** SubItemFilterLine, **Join Column:** subItemStatusConfigurations_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1189,7 +1213,13 @@
 <div id='subItemGroups' title='subItemGroups' class='searchable'>
 
 ## subItemGroups (مجموعات الصنف الفرعي - SubItem Groups)
+
+<div class='tableName'>
+
 **Table Name:** CreatedSubItemGroupLine, **Join Column:** subItemStatusConfigurations_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

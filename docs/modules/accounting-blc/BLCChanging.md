@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BLCChanging
+</div>
+
 **Arabic:** تعديل اعتماد بنكى - تعديل اعتمادات بنكية
 **English:** Bank LC Changing - Bank LC Changing Documents
 

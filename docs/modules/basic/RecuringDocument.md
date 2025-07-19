@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RecuringDocument
+</div>
+
 **Arabic:** ملف مستندات دورية - ملفات مستندات دورية
 **English:** Recuring Document - Recuring Documents
 
@@ -757,7 +763,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RecuringDocumentLine, **Join Column:** recuringDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

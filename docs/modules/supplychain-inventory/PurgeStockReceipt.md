@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PurgeStockReceipt
+</div>
+
 **Arabic:** Purge Stock Receipt - Purge Stock Receipts
 **English:** Purge Stock Receipt - Purge Stock Receipts
 
@@ -1276,7 +1282,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PurgeStockReceiptLine, **Join Column:** purgeStockReceipt_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

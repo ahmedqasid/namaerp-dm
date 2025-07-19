@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MenuModifier
+</div>
+
 **Arabic:** تعديل قائمة - تعديل قوائم
 **English:** Menu Update - Menus Update
 
@@ -931,7 +937,13 @@
 <div id='deletedGroups' title='deletedGroups' class='searchable'>
 
 ## deletedGroups (المجموعات المحذوفة - Deleted Groups)
+
+<div class='tableName'>
+
 **Table Name:** DeletedMenuGroup, **Join Column:** menuModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -992,7 +1004,13 @@
 <div id='deletedItems' title='deletedItems' class='searchable'>
 
 ## deletedItems (الوصلات المحذوفة - Deleted Items)
+
+<div class='tableName'>
+
 **Table Name:** DeletedMenuItem, **Join Column:** menuModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1062,7 +1080,13 @@
 <div id='updatedGroups' title='updatedGroups' class='searchable'>
 
 ## updatedGroups (المجموعات المضافة/ المعدلة - Added / Modified Groups)
+
+<div class='tableName'>
+
 **Table Name:** UpdatedMenuGroup, **Join Column:** menuModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1204,7 +1228,13 @@
 <div id='updatedItems' title='updatedItems' class='searchable'>
 
 ## updatedItems (الوصلات المضافة/ المعدلة - Added / modified Items)
+
+<div class='tableName'>
+
 **Table Name:** UpdatedMenuItem, **Join Column:** menuModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

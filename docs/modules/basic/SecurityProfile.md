@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SecurityProfile
+</div>
+
 **Arabic:** ملف الصلاحيات - ملفات الصلاحيات
 **English:** Security Profile - Security Profiles
 

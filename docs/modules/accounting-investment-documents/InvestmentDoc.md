@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InvestmentDoc
+</div>
+
 **Arabic:** سند استثمار - سندات استثمار
 **English:** Investment Document - Investment Documents
 

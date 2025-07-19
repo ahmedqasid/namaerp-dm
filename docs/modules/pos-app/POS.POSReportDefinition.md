@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSReportDefinition (Table Name: POSReportDefinition)
+</div>
+
 **Arabic:** تعريف تقرير - تعريف تقارير
 **English:** Report Definition - Report Definitions
 
@@ -352,7 +358,13 @@
 <div id='relatedForms' title='relatedForms' class='searchable'>
 
 ## relatedForms (النماذج المرتبطة - Related Forms)
+
+<div class='tableName'>
+
 **Table Name:** POSReportDefinitionLine, **Join Column:** mainReport_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -407,7 +419,13 @@
 <div id='resources' title='resources' class='searchable'>
 
 ## resources (الملفات الإضافية - Resources)
+
+<div class='tableName'>
+
 **Table Name:** POSReportResource, **Join Column:** mainReport_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -489,7 +507,13 @@
 <div id='subreports' title='subreports' class='searchable'>
 
 ## subreports (التقارير الفرعية - Subreports)
+
+<div class='tableName'>
+
 **Table Name:** POSSubReport, **Join Column:** mainReport_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

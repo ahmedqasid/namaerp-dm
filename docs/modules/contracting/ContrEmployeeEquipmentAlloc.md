@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContrEmployeeEquipmentAlloc
+</div>
+
 **Arabic:** تسكين موظفين ومعدات على مشروع - مستندات تسكين موظفين ومعدات على مشروع
 **English:** Employee And Equipments Project Allocation - Employee And Equipments Project Allocation Documents
 
@@ -967,7 +973,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ContrEmployeeEquipAllocLine, **Join Column:** contrEmployeeEquipmentAlloc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

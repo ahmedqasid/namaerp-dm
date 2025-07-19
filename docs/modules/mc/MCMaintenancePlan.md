@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MCMaintenancePlan
+</div>
+
 **Arabic:** خطة صيانة - خطط صيانة
 **English:** MC Maintenance Plan - MC Maintenance Plans
 
@@ -748,7 +754,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MCMaintenancePlanLine, **Join Column:** mCMaintenancePlan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

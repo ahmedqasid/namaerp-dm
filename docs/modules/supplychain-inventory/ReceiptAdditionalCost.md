@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ReceiptAdditionalCost
+</div>
+
 **Arabic:** تكاليف إستلام إضافية -  تكاليف إستلام إضافية
 **English:** Receipt Additional Cost -  Receipt Additional Cost
 
@@ -1066,7 +1072,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** RAddCostExternalPaymentLine, **Join Column:** receiptAdditionalCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1172,7 +1184,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** ReceiptAdditionalCostLine, **Join Column:** receiptAdditionalCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1683,7 +1701,13 @@
 <div id='manualLines' title='manualLines' class='searchable'>
 
 ## manualLines (التوزيع اليدوي - Manual Lines)
+
+<div class='tableName'>
+
 **Table Name:** ManualAddCostLine, **Join Column:** receiptAdditionalCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2383,7 +2407,13 @@
 <div id='multipleDocLines' title='multipleDocLines' class='searchable'>
 
 ## multipleDocLines (السندات المكلفة - Costed Documents)
+
+<div class='tableName'>
+
 **Table Name:** ReceiptAddCostDocLine, **Join Column:** receiptAdditionalCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2555,7 +2585,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** RAddCostScheduledPayLine, **Join Column:** receiptAdditionalCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2697,7 +2733,13 @@
 <div id='sysLines' title='sysLines' class='searchable'>
 
 ## sysLines (التوزيع - System Lines)
+
+<div class='tableName'>
+
 **Table Name:** SystemAddCostLine, **Join Column:** receiptAdditionalCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

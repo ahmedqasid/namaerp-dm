@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NotificationDefinition
+</div>
+
 **Arabic:** تعريف تنبيهات - تعريفات تنبيهات
 **English:** Notification Definition - Notification Definitions
 

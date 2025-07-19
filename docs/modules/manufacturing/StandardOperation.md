@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # StandardOperation
+</div>
+
 **Arabic:** عملية قياسية - العمليات القياسية
 **English:** Standard Operation - Standard Operations
 
@@ -871,7 +877,13 @@
 <div id='molds' title='molds' class='searchable'>
 
 ## molds (القوالب - Molds)
+
+<div class='tableName'>
+
 **Table Name:** StandardOperationMoldLine, **Join Column:** standardOperation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -971,7 +983,13 @@
 <div id='resources' title='resources' class='searchable'>
 
 ## resources ( موارد التشغيل -  Resources)
+
+<div class='tableName'>
+
 **Table Name:** OperationResourceLine, **Join Column:** standardOperation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

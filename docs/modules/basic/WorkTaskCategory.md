@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # WorkTaskCategory
+</div>
+
 **Arabic:** تصنيف مهمة عمل -  تصنيف مهمة عمل
 **English:** Work Task Category -  Work Task Category
 

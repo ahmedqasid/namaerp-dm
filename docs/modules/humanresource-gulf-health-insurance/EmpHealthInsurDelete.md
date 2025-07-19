@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EmpHealthInsurDelete
+</div>
+
 **Arabic:** سند حذف تأمين موظف - سندات حذف تأمين موظف
 **English:** Employee Health Insurance Delete
 
@@ -1051,7 +1057,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** EmpHealthInsuranceDeleteLine, **Join Column:** empHealthInsurDelete_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

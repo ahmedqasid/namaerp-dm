@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PurchaseElement
+</div>
+
 **Arabic:** بند شراء -  بند شراء
 **English:** Purchase Element -  Purchase Element
 

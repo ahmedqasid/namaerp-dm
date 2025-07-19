@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSShortfallsDoc
+</div>
+
 **Arabic:** مستند النواقص - مستندات النواقص
 **English:** Shortfalls Document - Shortfalls Documents
 
@@ -2554,7 +2560,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSShortfallsDocLine, **Join Column:** namaPOSShortfallsDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4592,7 +4604,13 @@
 <div id='removedLines' title='removedLines' class='searchable'>
 
 ## removedLines (السيارات المحذوفه - Removed Cars)
+
+<div class='tableName'>
+
 **Table Name:** NamaPOSShortfallsDocRemovedLine, **Join Column:** namaPOSShortfallsDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

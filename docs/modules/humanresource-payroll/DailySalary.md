@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DailySalary
+</div>
+
 **Arabic:** أجر يومى - الأجور اليومية
 **English:** Daily Salary - Daily Salarys
 
@@ -1279,7 +1285,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DailySalaryLine, **Join Column:** dailySalary_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

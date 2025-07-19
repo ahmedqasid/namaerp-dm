@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PurchaseOrder
+</div>
+
 **Arabic:** أمر شراء - أوامر الشراء
 **English:** Purchase Order - Purchase Orders
 
@@ -2551,7 +2557,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseOrderLine, **Join Column:** purchaseOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4244,7 +4256,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** PurchOrdExternalPaymentLine, **Join Column:** purchaseOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4395,7 +4413,13 @@
 <div id='purchaseTermsLines' title='purchaseTermsLines' class='searchable'>
 
 ## purchaseTermsLines (بنود الشراء - Purchase Terms Lines)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseOStandardTermsLine, **Join Column:** purchaseOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4714,7 +4738,13 @@
 <div id='receiptsLines' title='receiptsLines' class='searchable'>
 
 ## receiptsLines (جدول الاستلامات - Receipts Lines)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseOrderReceiptsLine, **Join Column:** purchaseOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -6425,7 +6455,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** PurchaseOrderScheduledPayLine, **Join Column:** purchaseOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

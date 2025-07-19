@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FiscalYear
+</div>
+
 **Arabic:** سنة مالية - سنوات مالية
 **English:** Fiscal Year - Fiscal Years
 
@@ -805,7 +811,13 @@
 <div id='ignoreClosedPeriodsIn' title='ignoreClosedPeriodsIn' class='searchable'>
 
 ## ignoreClosedPeriodsIn (تجاهل الفترات المغلقة في - Ignore Closed Periods In)
+
+<div class='tableName'>
+
 **Table Name:** FiscalYearIgnoredPeriods, **Join Column:** fiscalYear_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -941,7 +953,13 @@
 <div id='periods' title='periods' class='searchable'>
 
 ## periods (فترة الإستلام و الدفع - Receiving and Pay period)
+
+<div class='tableName'>
+
 **Table Name:** FiscalYearPeriod, **Join Column:** fiscalYear_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

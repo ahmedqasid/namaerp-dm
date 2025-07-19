@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggrUpdateEmpInfo
+</div>
+
 **Arabic:** سند تحديث بيانات موظف مجمع - سندات تحديث بيانات موظفين مجمع
 **English:** Aggregated Update Employee Info - Aggregated Update Employee Infos
 
@@ -964,7 +970,13 @@
 <div id='elementLines' title='elementLines' class='searchable'>
 
 ## elementLines (مفردات الراتب - Element Lines)
+
+<div class='tableName'>
+
 **Table Name:** AggrOfferElementUpdateLine, **Join Column:** aggrUpdateEmpInfo_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1106,7 +1118,13 @@
 <div id='employeeInfo' title='employeeInfo' class='searchable'>
 
 ## employeeInfo (معلومات الموظف - Employee Info)
+
+<div class='tableName'>
+
 **Table Name:** AggrUpdateEmpInfoLine, **Join Column:** aggrUpdateEmpInfo_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1809,7 +1827,13 @@
 <div id='vacationLines' title='vacationLines' class='searchable'>
 
 ## vacationLines (الأجازات - Vcations)
+
+<div class='tableName'>
+
 **Table Name:** AggrOfferVacationUpdateLine, **Join Column:** aggrUpdateEmpInfo_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

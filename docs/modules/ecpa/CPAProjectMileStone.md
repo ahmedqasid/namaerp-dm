@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPAProjectMileStone
+</div>
+
 **Arabic:** مرحلة -  المراحل
 **English:** Project Milestone -  Milestones
 

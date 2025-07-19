@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PickRules
+</div>
+
 **Arabic:** قواعد السحب -  قواعد السحب
 **English:** Pick Rules -  Pick Rules
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CQCPreConcreteInspection
+</div>
+
 **Arabic:** Pre-Concrete Inspection - Pre-Concrete Inspections
 **English:** Pre-Concrete Inspection - Pre-Concrete Inspections
 
@@ -961,7 +967,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CQCPreConcreteInspectionLine, **Join Column:** cQCPreConcreteInspection_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

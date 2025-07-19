@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalesForecast
+</div>
+
 **Arabic:** موازنة المبيعات -  موازنة المبيعات
 **English:** Sales Forecast -  Sales Forecast
 
@@ -2452,7 +2458,13 @@
 <div id='aggregatedLines' title='aggregatedLines' class='searchable'>
 
 ## aggregatedLines (إجمالي - Aggregated)
+
+<div class='tableName'>
+
 **Table Name:** AggregatedSForecastLine, **Join Column:** salesForecast_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4817,7 +4829,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SalesForecastLine, **Join Column:** salesForecast_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

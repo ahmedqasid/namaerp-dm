@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggregatedProductDelivery
+</div>
+
 **Arabic:** تسليم منتج مجمع
 **English:** Aggregated Product Delivery
 
@@ -910,7 +916,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggregatedProductDeliveryLine, **Join Column:** aggregatedProductDelivery_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

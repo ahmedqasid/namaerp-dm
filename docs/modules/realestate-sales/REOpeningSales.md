@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REOpeningSales
+</div>
+
 **Arabic:** عقد بيع افتتاحي - عقود بيع افتتاحية
 **English:** Opening sales doc - Opening sales docs
 
@@ -1741,7 +1747,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** REOpeningSalesLines, **Join Column:** rEOpeningSales_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2453,7 +2465,13 @@
 <div id='installmentInfoLines' title='installmentInfoLines' class='searchable'>
 
 ## installmentInfoLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** REOpeningSalesInstInfoLine, **Join Column:** rEOpeningSales_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2802,7 +2820,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** REOpeningSalesTermsConditions, **Join Column:** rEOpeningSales_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2854,7 +2878,13 @@
 <div id='otherFeesLines' title='otherFeesLines' class='searchable'>
 
 ## otherFeesLines (رسوم أخري - Other Fees Lines)
+
+<div class='tableName'>
+
 **Table Name:** REOpeningSalesFeesLine, **Join Column:** rEOpeningSales_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3017,7 +3047,13 @@
 <div id='termLines' title='termLines' class='searchable'>
 
 ## termLines (الينود القياسيه - Standard Terms)
+
+<div class='tableName'>
+
 **Table Name:** REOpenSalesStandardTermLine, **Join Column:** rEOpeningSales_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

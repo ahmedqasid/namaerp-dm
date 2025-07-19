@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HealthInsuranceOfferRequest
+</div>
+
 **Arabic:** طلب عروض تأمين - طلبات عروض تأمين
 **English:** Health Insurance Offer Request - Health Insurance Offers Requests
 
@@ -1186,7 +1192,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HealthInsOffReqLine, **Join Column:** healthInsuranceOfferRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvCGatePass
+</div>
+
 **Arabic:** تصريح عبور البوابة - تصاريح عبور البوابة
 **English:** Service Center Gate Pass
 
@@ -1633,7 +1639,13 @@
 <div id='multiGates' title='multiGates' class='searchable'>
 
 ## multiGates (تصريح خروج متعدد - Multiple Gates Pass)
+
+<div class='tableName'>
+
 **Table Name:** SrvCGatePassLine, **Join Column:** srvCGatePass_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

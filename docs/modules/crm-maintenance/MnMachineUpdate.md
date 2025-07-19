@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnMachineUpdate
+</div>
+
 **Arabic:** تحديث بيانات الألة - مستندات تحديث بيانات الألة
 **English:** Machine Update Document - Machine Update Documents
 

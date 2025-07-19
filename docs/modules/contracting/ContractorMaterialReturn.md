@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractorMaterialReturn
+</div>
+
 **Arabic:** مردود خامات مقاول باطن
 **English:** Contractor Material Return - Contractor Material Returns
 
@@ -2494,7 +2500,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ContractorReturnLine, **Join Column:** contractorMaterialReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

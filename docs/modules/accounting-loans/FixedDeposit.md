@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FixedDeposit
+</div>
+
 **Arabic:** وديعة بنكية - ودائع بنكية
 **English:** Fixed Deposit - Fixed Deposits
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InterestPaymentDocument
+</div>
+
 **Arabic:** سند إصدار أرباح - إصدار أرباح
 **English:** Interest Payment Document - Interest Payment
 
@@ -955,7 +961,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** InterestLine, **Join Column:** interestPaymentDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

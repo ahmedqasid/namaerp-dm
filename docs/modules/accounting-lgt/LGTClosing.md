@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LGTClosing
+</div>
+
 **Arabic:** إنهاء خطاب ضمان - إنهاء خطابات الضمان
 **English:** LGT Closing - LGTs Closing
 

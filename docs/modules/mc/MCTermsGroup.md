@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MCTermsGroup
+</div>
+
 **Arabic:** مجموعة بنود - مجموعات البنود
 **English:** MC Terms Group - MC Terms Groups
 
@@ -748,7 +754,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** MCTermsGroupLine, **Join Column:** mCTermsGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

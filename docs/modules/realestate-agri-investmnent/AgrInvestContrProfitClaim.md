@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AgrInvestContrProfitClaim
+</div>
+
 **Arabic:** مستند استحقاق أرباح عقد استثمار زراعي - مستندات استحقاقات أرباح عقد استثمارات زراعية
 **English:** Agricultural Investment Contract Profit Claim - Agricultural Investment Contract Profit Claims
 
@@ -934,7 +940,13 @@
 <div id='paidInstallments' title='paidInstallments' class='searchable'>
 
 ## paidInstallments (الأقساط المدفوعة - Paid Installments)
+
+<div class='tableName'>
+
 **Table Name:** AgrInvestContrProfitClaimInstalmentLine, **Join Column:** agrInvestContrProfitClaim_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1637,7 +1649,13 @@
 <div id='profits' title='profits' class='searchable'>
 
 ## profits (الأرباح - Profits)
+
+<div class='tableName'>
+
 **Table Name:** AgrInvestContrProfitClaimLine, **Join Column:** agrInvestContrProfitClaim_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

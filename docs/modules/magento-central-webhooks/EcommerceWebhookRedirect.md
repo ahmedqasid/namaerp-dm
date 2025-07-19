@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EcommerceWebhookRedirect
+</div>
+
 **Arabic:** Ecommerce Webhook Redirect - Ecommerce Webhook Redirect Files
 **English:** Ecommerce Webhook Redirect - Ecommerce Webhook Redirect Files
 

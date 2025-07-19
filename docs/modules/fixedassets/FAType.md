@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAType
+</div>
+
 **Arabic:** نوع أصل - أنواع أصول
 **English:** Fixed Asset Type - Fixed Asset Types
 
@@ -1264,7 +1270,13 @@
 <div id='componentsTypes' title='componentsTypes' class='searchable'>
 
 ## componentsTypes (أنواع المكونات - Components Types)
+
+<div class='tableName'>
+
 **Table Name:** FATypeComponentLine, **Join Column:** fAType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

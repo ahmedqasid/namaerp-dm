@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MCMaintenanceType
+</div>
+
 **Arabic:** نوع صيانة مقاولات - أنواع صيانة مقاولات
 **English:** MC Maintenance Type - MC Maintenance Types
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Account
+</div>
+
 **Arabic:** حساب - الحسابات
 **English:** Detail Accounts
 

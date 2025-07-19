@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HijriTable
+</div>
+
 **Arabic:** جدول هجري
 **English:** Hijri Table - Hijri Tables
 
@@ -778,7 +784,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HijriTableLine, **Join Column:** hijriTable_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ApprovalCase
+</div>
+
 **Arabic:** Approval Case
 **English:** Approval Case
 
@@ -316,7 +322,13 @@
 <div id='nextCandidates' title='nextCandidates' class='searchable'>
 
 ## nextCandidates (المطلوب منهم الموافقة - Next Candidates)
+
+<div class='tableName'>
+
 **Table Name:** AppCaseCandidates, **Join Column:** ApprovalCase_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -464,7 +476,13 @@
 <div id='steps' title='steps' class='searchable'>
 
 ## steps (الخطوات - Steps)
+
+<div class='tableName'>
+
 **Table Name:** AppCaseSteps, **Join Column:** ApprovalCase_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRTNCorrugatingFactor
+</div>
+
 **Arabic:** معامل التضليع - معاملات التضليع
 **English:** CRTN Corrugating Factor - CRTN Corrugating Factors
 

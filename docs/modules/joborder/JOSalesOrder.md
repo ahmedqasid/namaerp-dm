@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JOSalesOrder
+</div>
+
 **Arabic:** أمر بيع زجاج جديد - أوامر بيع زجاج جديد
 **English:** New Glass Sales Order - New Glass Sales Orders
 
@@ -4864,7 +4870,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** JOSalesOrderLine, **Join Column:** jOSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -8906,7 +8918,13 @@
 <div id='joMeasures' title='joMeasures' class='searchable'>
 
 ## joMeasures (الأبعاد - Measures)
+
+<div class='tableName'>
+
 **Table Name:** JOSalesOrderMeasureLine, **Join Column:** jOSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -9096,7 +9114,13 @@
 <div id='joOperations' title='joOperations' class='searchable'>
 
 ## joOperations (تشغيلات - JOOperations)
+
+<div class='tableName'>
+
 **Table Name:** JOOperationLine, **Join Column:** jOSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -9532,7 +9556,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** JOSalesOrderPaymentLine, **Join Column:** jOSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -9842,7 +9872,13 @@
 <div id='productCosts' title='productCosts' class='searchable'>
 
 ## productCosts (تكاليف المنتج - Product Costs)
+
+<div class='tableName'>
+
 **Table Name:** JOSalesOrderProductCostLine, **Join Column:** jOSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

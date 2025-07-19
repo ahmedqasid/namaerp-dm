@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FSIssueLinkConfig
+</div>
+
 **Arabic:** إعدادات رابط اصدار قائمة مالية
 **English:** Issuing Financial Statement Link Configuration - Issuing Financial Statement Link Configurations
 
@@ -760,7 +766,13 @@
 <div id='sources' title='sources' class='searchable'>
 
 ## sources (المصادر - Sources)
+
+<div class='tableName'>
+
 **Table Name:** FSIssueLinkConfigParamLine, **Join Column:** fSIssueLinkConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

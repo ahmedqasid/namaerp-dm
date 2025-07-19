@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MobileAppScreenModifier
+</div>
+
 **Arabic:** تعديل شاشة التطبيق - تعديل شاشات التطبيق
 **English:** Mobile App Screen Modifier - Mobile App Screen Modifiers
 
@@ -766,7 +772,13 @@
 <div id='detailsLines' title='detailsLines' class='searchable'>
 
 ## detailsLines (حقول السطور - Detail Fields Lines)
+
+<div class='tableName'>
+
 **Table Name:** MobileAppScreenModifierDetailsLine, **Join Column:** mobileAppScreenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -809,7 +821,13 @@
 <div id='gridCardLines' title='gridCardLines' class='searchable'>
 
 ## gridCardLines (حقول جريد السطور - Grid Card Lines)
+
+<div class='tableName'>
+
 **Table Name:** MobileAppScreenModifierGridCardLine, **Join Column:** mobileAppScreenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -861,7 +879,13 @@
 <div id='headerLines' title='headerLines' class='searchable'>
 
 ## headerLines (حقول الهيدر - Header Fields Lines)
+
+<div class='tableName'>
+
 **Table Name:** MobileAppScreenModifierHeaderLine, **Join Column:** mobileAppScreenModifier_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

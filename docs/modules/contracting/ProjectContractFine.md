@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ProjectContractFine
+</div>
+
 **Arabic:** سند غرامة عقد مشروع - سندات غرامة عقد مشروع
 **English:** Project Contract Fine - Project Contract Fines
 
@@ -1084,7 +1090,13 @@
 <div id='fineLines' title='fineLines' class='searchable'>
 
 ## fineLines (تفاصيل الغرامة - Fine Lines)
+
+<div class='tableName'>
+
 **Table Name:** ProjContractFineLine, **Join Column:** projectContractFine_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

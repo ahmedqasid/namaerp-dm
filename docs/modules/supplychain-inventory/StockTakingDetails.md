@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # StockTakingDetails
+</div>
+
 **Arabic:** لجنة جرد مخزني - لجان الجرد المخزني
 **English:** Stock Taking
 
@@ -1288,7 +1294,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** StockTakingLine, **Join Column:** stockTakingDetails_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2246,7 +2258,13 @@
 <div id='detailsElecLines' title='detailsElecLines' class='searchable'>
 
 ## detailsElecLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** StockTakingDetailsElecLine, **Join Column:** stockTakingDetails_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

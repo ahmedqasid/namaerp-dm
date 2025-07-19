@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSItemClass3 (Table Name: POSItemClass3)
+</div>
+
 **Arabic:** تصنيف صنف 3 - تصنيفات صنف 3
 **English:** Item class 3 - Item classes 3
 

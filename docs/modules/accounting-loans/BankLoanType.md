@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BankLoanType
+</div>
+
 **Arabic:** نوع القرض - أنواع القروض
 **English:** Bank Loan Type - Bank Loan Types
 

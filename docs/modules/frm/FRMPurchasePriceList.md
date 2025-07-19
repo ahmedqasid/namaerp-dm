@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMPurchasePriceList
+</div>
+
 **Arabic:** قائمة أسعار شراء خدمات - قوائم أسعار شراء خدمات
 **English:** Service Purchase Price List - Service Purchase Price Lists
 
@@ -847,7 +853,13 @@
 <div id='courierDetails' title='courierDetails' class='searchable'>
 
 ## courierDetails (سطور البريد السريع - Courier Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMPPLCourierLine, **Join Column:** fRMPurchasePriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1244,7 +1256,13 @@
 <div id='customClearanceDetails' title='customClearanceDetails' class='searchable'>
 
 ## customClearanceDetails (سطور التخليص الجمركى - Custom Clearance Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMPPLCustomClearanceLine, **Join Column:** fRMPurchasePriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1641,7 +1659,13 @@
 <div id='gensetDetails' title='gensetDetails' class='searchable'>
 
 ## gensetDetails (سطور المولدات - Genset Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMPPLGensetLine, **Join Column:** fRMPurchasePriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2038,7 +2062,13 @@
 <div id='oceanFreightDetails' title='oceanFreightDetails' class='searchable'>
 
 ## oceanFreightDetails (سطور الشحن البحرى - Ocean Freight Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMPPLOceanFreightLine, **Join Column:** fRMPurchasePriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2453,7 +2483,13 @@
 <div id='othersDetails' title='othersDetails' class='searchable'>
 
 ## othersDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** FRMPPLOthersLine, **Join Column:** fRMPurchasePriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2850,7 +2886,13 @@
 <div id='truckingDetails' title='truckingDetails' class='searchable'>
 
 ## truckingDetails (سطور الشاحنات - Trucking Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMPPLTruckingLine, **Join Column:** fRMPurchasePriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

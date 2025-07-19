@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CurrencyDiffJournal
+</div>
+
 **Arabic:** سند قيد فرق عملة - سندات قيد فرق عملة
 **English:** Currency Diff Journal - Currency Diff Journals
 
@@ -955,7 +961,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** CurrencyDiffJournalLine, **Join Column:** currencyDiffJournal_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

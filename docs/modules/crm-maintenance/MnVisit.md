@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnVisit
+</div>
+
 **Arabic:** زيارة صيانة - زيارات الصيانة
 **English:** Maintenance Visit - Maintenance Visits
 
@@ -1978,7 +1984,13 @@
 <div id='additionalSpareParts' title='additionalSpareParts' class='searchable'>
 
 ## additionalSpareParts (قطع الغيار الإضافية - Additional Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnVisitAdditionalSparePart, **Join Column:** mnVisit_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2888,7 +2900,13 @@
 <div id='discussionLines' title='discussionLines' class='searchable'>
 
 ## discussionLines (المناقشات - Discussions)
+
+<div class='tableName'>
+
 **Table Name:** MnVisitPreviewDiscussionLine, **Join Column:** mnVisit_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2940,7 +2958,13 @@
 <div id='maintenanceGroups' title='maintenanceGroups' class='searchable'>
 
 ## maintenanceGroups (مجموعات الصيانة - Maintenance Groups)
+
+<div class='tableName'>
+
 **Table Name:** MnVisitMaintenanceGroupLine, **Join Column:** mnVisit_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3076,7 +3100,13 @@
 <div id='orders' title='orders' class='searchable'>
 
 ## orders (الأوامر - Orders)
+
+<div class='tableName'>
+
 **Table Name:** MnVisitOrders, **Join Column:** mnVisit_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

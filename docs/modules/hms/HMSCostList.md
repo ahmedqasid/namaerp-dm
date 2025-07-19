@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSCostList
+</div>
+
 **Arabic:** قائمة تكاليف طبية - قوائم تكاليف طبية
 **English:** Medical Cost List - Medical Cost Lists
 
@@ -877,7 +883,13 @@
 <div id='costListAccommDetails' title='costListAccommDetails' class='searchable'>
 
 ## costListAccommDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSCostListAccommLine, **Join Column:** hMSCostList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1217,7 +1229,13 @@
 <div id='costListAttendantDetails' title='costListAttendantDetails' class='searchable'>
 
 ## costListAttendantDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSCostListAttendantLine, **Join Column:** hMSCostList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1557,7 +1575,13 @@
 <div id='costListBloodDetails' title='costListBloodDetails' class='searchable'>
 
 ## costListBloodDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSCostListBloodLine, **Join Column:** hMSCostList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1885,7 +1909,13 @@
 <div id='costListCheckDetails' title='costListCheckDetails' class='searchable'>
 
 ## costListCheckDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSCostListCheckLine, **Join Column:** hMSCostList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2246,7 +2276,13 @@
 <div id='costListLabTestDetails' title='costListLabTestDetails' class='searchable'>
 
 ## costListLabTestDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSCostListLabTestLine, **Join Column:** hMSCostList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2595,7 +2631,13 @@
 <div id='costListPharmacyDetails' title='costListPharmacyDetails' class='searchable'>
 
 ## costListPharmacyDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSCostListPharmacyLine, **Join Column:** hMSCostList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2923,7 +2965,13 @@
 <div id='costListPhyDetails' title='costListPhyDetails' class='searchable'>
 
 ## costListPhyDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSCostListPhyLine, **Join Column:** hMSCostList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3272,7 +3320,13 @@
 <div id='costListRadiologDetails' title='costListRadiologDetails' class='searchable'>
 
 ## costListRadiologDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSCostListRadiologyLine, **Join Column:** hMSCostList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3621,7 +3675,13 @@
 <div id='costListServiceDetails' title='costListServiceDetails' class='searchable'>
 
 ## costListServiceDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSCostListServiceLine, **Join Column:** hMSCostList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3982,7 +4042,13 @@
 <div id='costListSupervisionDetails' title='costListSupervisionDetails' class='searchable'>
 
 ## costListSupervisionDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSCostListSupervisionLine, **Join Column:** hMSCostList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4343,7 +4409,13 @@
 <div id='costListSupplyDetails' title='costListSupplyDetails' class='searchable'>
 
 ## costListSupplyDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSCostListSupplyLine, **Join Column:** hMSCostList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4671,7 +4743,13 @@
 <div id='costListSurgeryDetails' title='costListSurgeryDetails' class='searchable'>
 
 ## costListSurgeryDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSCostListSurgeryLine, **Join Column:** hMSCostList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRTNMaterialPlanning
+</div>
+
 **Arabic:** تخطيط خامات الكرتون - خطط خامات الكرتون
 **English:** CRTN Material Planning - CRTN Materials Planning
 
@@ -934,7 +940,13 @@
 <div id='documents' title='documents' class='searchable'>
 
 ## documents (المستندات - documents)
+
+<div class='tableName'>
+
 **Table Name:** CRTNMaterialPlanningLine, **Join Column:** cRTNMaterialPlanning_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1010,7 +1022,13 @@
 <div id='items' title='items' class='searchable'>
 
 ## items (الوصلات - Items)
+
+<div class='tableName'>
+
 **Table Name:** CRTNMaterialPlanningItemLine, **Join Column:** cRTNMaterialPlanning_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1473,7 +1491,13 @@
 <div id='materials' title='materials' class='searchable'>
 
 ## materials (قطع غيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** CRTNMaterialPlanningMaterialLine, **Join Column:** cRTNMaterialPlanning_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

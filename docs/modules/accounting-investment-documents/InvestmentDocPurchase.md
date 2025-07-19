@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InvestmentDocPurchase
+</div>
+
 **Arabic:** مستند شراء سند استثمار - مستندات شراء سندات استثمار
 **English:** Investment Doc Purchase Document - Investment Doc Purchase Documents
 

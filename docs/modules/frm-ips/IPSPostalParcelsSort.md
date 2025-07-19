@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSPostalParcelsSort
+</div>
+
 **Arabic:** فرز الطرد توصيل / تخزين - فرز الطرود توصيل / تخزين
 **English:** IPS Postal Parcels Sort - IPS Postal Parcels Sorts
 
@@ -1144,7 +1150,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** IPSPostalParcelsSortLine, **Join Column:** iPSPostalParcelsSort_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1685,7 +1697,13 @@
 <div id='receptacleMissingMailItems' title='receptacleMissingMailItems' class='searchable'>
 
 ## receptacleMissingMailItems (المواد المفقودة من الكيس - Receptacle Missing Mail Items)
+
+<div class='tableName'>
+
 **Table Name:** IPSPostalParcelsSortMissingItems, **Join Column:** iPSPostalParcelsSort_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

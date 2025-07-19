@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TRTourGuide
+</div>
+
 **Arabic:** مرشد سياحي - مرشدين سياحيين
 **English:** Tour Guide - Tour Guides
 
@@ -1501,7 +1507,13 @@
 <div id='contacts' title='contacts' class='searchable'>
 
 ## contacts (جهات الاتصال - Contacts)
+
+<div class='tableName'>
+
 **Table Name:** TRTourGuideContactInfoLine, **Join Column:** tRTourGuide_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

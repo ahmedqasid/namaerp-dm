@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FormDoc6
+</div>
+
 **Arabic:** نموذج 6
 **English:** Form Document 6
 
@@ -2299,7 +2305,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line1, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3428,7 +3440,13 @@
 <div id='details10' title='details10' class='searchable'>
 
 ## details10 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line10, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4557,7 +4575,13 @@
 <div id='details11' title='details11' class='searchable'>
 
 ## details11 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line11, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5686,7 +5710,13 @@
 <div id='details12' title='details12' class='searchable'>
 
 ## details12 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line12, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -6815,7 +6845,13 @@
 <div id='details13' title='details13' class='searchable'>
 
 ## details13 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line13, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -7944,7 +7980,13 @@
 <div id='details14' title='details14' class='searchable'>
 
 ## details14 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line14, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -9073,7 +9115,13 @@
 <div id='details15' title='details15' class='searchable'>
 
 ## details15 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line15, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -10202,7 +10250,13 @@
 <div id='details16' title='details16' class='searchable'>
 
 ## details16 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line16, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -11331,7 +11385,13 @@
 <div id='details17' title='details17' class='searchable'>
 
 ## details17 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line17, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -12460,7 +12520,13 @@
 <div id='details18' title='details18' class='searchable'>
 
 ## details18 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line18, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -13589,7 +13655,13 @@
 <div id='details19' title='details19' class='searchable'>
 
 ## details19 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line19, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -14718,7 +14790,13 @@
 <div id='details2' title='details2' class='searchable'>
 
 ## details2 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line2, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -15847,7 +15925,13 @@
 <div id='details20' title='details20' class='searchable'>
 
 ## details20 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line20, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -16976,7 +17060,13 @@
 <div id='details3' title='details3' class='searchable'>
 
 ## details3 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line3, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -18105,7 +18195,13 @@
 <div id='details4' title='details4' class='searchable'>
 
 ## details4 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line4, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -19234,7 +19330,13 @@
 <div id='details5' title='details5' class='searchable'>
 
 ## details5 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line5, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -20363,7 +20465,13 @@
 <div id='details6' title='details6' class='searchable'>
 
 ## details6 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line6, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -21492,7 +21600,13 @@
 <div id='details7' title='details7' class='searchable'>
 
 ## details7 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line7, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -22621,7 +22735,13 @@
 <div id='details8' title='details8' class='searchable'>
 
 ## details8 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line8, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -23750,7 +23870,13 @@
 <div id='details9' title='details9' class='searchable'>
 
 ## details9 ( - )
+
+<div class='tableName'>
+
 **Table Name:** FormDoc6Line9, **Join Column:** formDoc6_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

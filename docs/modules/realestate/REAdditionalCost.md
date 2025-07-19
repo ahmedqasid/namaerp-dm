@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REAdditionalCost
+</div>
+
 **Arabic:** بند تكلفة استثمار عقاري - بنود تكلفة استثمار عقاري
 **English:** RE Additional Cost - RE Additional Costs
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAPreventAssetsDeprec
+</div>
+
 **Arabic:** مستند منع اهلاك اصول - مستندات منع اهلاك اصول
 **English:** Prevent Assets Depreciation Document - Prevent Assets Depreciation Documents
 
@@ -898,7 +904,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FAPreventAssetsDeprecLine, **Join Column:** fAPreventAssetsDeprec_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

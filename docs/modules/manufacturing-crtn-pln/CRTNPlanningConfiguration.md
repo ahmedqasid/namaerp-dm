@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRTNPlanningConfiguration
+</div>
+
 **Arabic:** إعدادات تخطيط الكرتون
 **English:** CRTN Planning Configuration - CRTN Planning Configurations
 

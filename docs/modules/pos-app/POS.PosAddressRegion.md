@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.PosAddressRegion (Table Name: PosAddressRegion)
+</div>
+
 **Arabic:** منطقه - مناطق
 **English:** Address Region - Address Regions
 

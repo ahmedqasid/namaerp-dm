@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvCInspectionPoint
+</div>
+
 **Arabic:** نقطة فحص - نقاط فحص
 **English:** Inspection Point - Inspection Points
 

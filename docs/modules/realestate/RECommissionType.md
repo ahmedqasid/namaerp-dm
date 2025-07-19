@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RECommissionType
+</div>
+
 **Arabic:** نوع عمولة استثمار عقاري - أنواع عمولات استثمار عقاري
 **English:** Real Estate Commission Type - Real Estate Commission Types
 

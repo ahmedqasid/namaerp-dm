@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PaymentVoucher
+</div>
+
 **Arabic:** سند صرف - سندات صرف
 **English:** Payment Voucher - Payment Vouchers
 
@@ -1246,7 +1252,13 @@
 <div id='costLines' title='costLines' class='searchable'>
 
 ## costLines (توزيع التكلفة - Cost Allocation)
+
+<div class='tableName'>
+
 **Table Name:** PaymentVoucherCostLine, **Join Column:** paymentVoucher_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1472,7 +1484,13 @@
 <div id='fblines' title='fblines' class='searchable'>
 
 ## fblines ( - )
+
+<div class='tableName'>
+
 **Table Name:** PaymentFPDetailLine, **Join Column:** paymentVoucher_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1758,7 +1776,13 @@
 <div id='installmentLines' title='installmentLines' class='searchable'>
 
 ## installmentLines (الأقساط - Installment Lines)
+
+<div class='tableName'>
+
 **Table Name:** PVInstallmentLine, **Join Column:** paymentVoucher_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1975,7 +1999,13 @@
 <div id='invoices' title='invoices' class='searchable'>
 
 ## invoices (الفواتير - Invoices)
+
+<div class='tableName'>
+
 **Table Name:** PVInvoiceLine, **Join Column:** paymentVoucher_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2168,7 +2198,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** PaymentDetailLine, **Join Column:** paymentVoucher_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2694,7 +2730,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** PaymentVoucherPaymentLine, **Join Column:** paymentVoucher_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

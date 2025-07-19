@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSPatient
+</div>
+
 **Arabic:** مريض - المرضى
 **English:** Patient - Patients
 
@@ -1756,7 +1762,13 @@
 <div id='patientHistoryDetails' title='patientHistoryDetails' class='searchable'>
 
 ## patientHistoryDetails ( - )
+
+<div class='tableName'>
+
 **Table Name:** HMSPatientHistoryLine, **Join Column:** hMSPatient_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

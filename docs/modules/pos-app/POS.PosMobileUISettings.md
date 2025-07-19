@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.PosMobileUISettings (Table Name: PosMobileUISettings)
+</div>
+
 **Arabic:** إعدادات واجهة نقاط البيع للموبايل -  إعدادات واجهة نقاط البيع للموبايل
 **English:** Pos Mobile UI Settings -  Pos Mobile UI Settings
 
@@ -298,7 +304,13 @@
 <div id='mobileGridFields' title='mobileGridFields' class='searchable'>
 
 ## mobileGridFields ( - )
+
+<div class='tableName'>
+
 **Table Name:** POSMobileUIGridLine, **Join Column:** posSettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -353,7 +365,13 @@
 <div id='mobileMainFields' title='mobileMainFields' class='searchable'>
 
 ## mobileMainFields ( - )
+
+<div class='tableName'>
+
 **Table Name:** POSMobileUIMainLine, **Join Column:** posSettings_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

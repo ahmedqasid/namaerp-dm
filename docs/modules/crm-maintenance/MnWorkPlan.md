@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnWorkPlan
+</div>
+
 **Arabic:** خطة عمل صيانة - خطط عمل صيانة
 **English:** Maintenance Work Plan - Maintenance Work Plans
 
@@ -1753,7 +1759,13 @@
 <div id='machines' title='machines' class='searchable'>
 
 ## machines (ألآت - Machines)
+
+<div class='tableName'>
+
 **Table Name:** MnWorkPlanMachineLine, **Join Column:** mnWorkPlan_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

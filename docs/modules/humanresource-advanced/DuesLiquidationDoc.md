@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DuesLiquidationDoc
+</div>
+
 **Arabic:** مستند تصفية مستحقات - مستندات تصفية مستحقات
 **English:** Dues Liquidation Document
 
@@ -2680,7 +2686,13 @@
 <div id='components' title='components' class='searchable'>
 
 ## components (المكونات - Components)
+
+<div class='tableName'>
+
 **Table Name:** DuesLiquidationCompLine, **Join Column:** duesLiquidationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2789,7 +2801,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DuesLiquidationLine, **Join Column:** duesLiquidationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2907,7 +2925,13 @@
 <div id='paidInstallments' title='paidInstallments' class='searchable'>
 
 ## paidInstallments (الأقساط المدفوعة - Paid Installments)
+
+<div class='tableName'>
+
 **Table Name:** DuesLiquidationPaidInstallment, **Join Column:** duesLiquidationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3091,7 +3115,13 @@
 <div id='salaryDocLines' title='salaryDocLines' class='searchable'>
 
 ## salaryDocLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** LiquidationSalaryDocLine, **Join Column:** duesLiquidationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3203,7 +3233,13 @@
 <div id='terminationComponents' title='terminationComponents' class='searchable'>
 
 ## terminationComponents (مكونات تصفية نهاية الخدمة - Termination Liquidation Components)
+
+<div class='tableName'>
+
 **Table Name:** DuesLiquidationCompTermLine, **Join Column:** duesLiquidationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3312,7 +3348,13 @@
 <div id='terminationDetails' title='terminationDetails' class='searchable'>
 
 ## terminationDetails (تفاصيل تصفية نهاية الخدمة - Termination Liquidation Details)
+
+<div class='tableName'>
+
 **Table Name:** DuesLiquidationTermLine, **Join Column:** duesLiquidationDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

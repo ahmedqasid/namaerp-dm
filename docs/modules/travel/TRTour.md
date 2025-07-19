@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TRTour
+</div>
+
 **Arabic:** رحلة سياحية - رحلات سياحية
 **English:** Tour - Tours
 
@@ -1126,7 +1132,13 @@
 <div id='accommodationDetails' title='accommodationDetails' class='searchable'>
 
 ## accommodationDetails (تفاصيل الإقامة - Accommodation Details)
+
+<div class='tableName'>
+
 **Table Name:** TRTourAccommodationLine, **Join Column:** tRTour_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1526,7 +1538,13 @@
 <div id='flights' title='flights' class='searchable'>
 
 ## flights (الرحلات الجوية - Flights)
+
+<div class='tableName'>
+
 **Table Name:** TRTourFlightLine, **Join Column:** tRTour_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1845,7 +1863,13 @@
 <div id='services' title='services' class='searchable'>
 
 ## services (الخدمات - Services)
+
+<div class='tableName'>
+
 **Table Name:** TRTourServiceLine, **Join Column:** tRTour_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

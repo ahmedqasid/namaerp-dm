@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PostponedBankPortfolio
+</div>
+
 **Arabic:** حافظة بنكية مؤجلة - الحوافظ البنكية المؤجلة
 **English:** Postponed Bank Portfolio - Postponed Bank Portfolios
 
@@ -937,7 +943,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** PostponedBankPortfolioLine, **Join Column:** postponedBankPortfolio_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRTNCorrugatingType
+</div>
+
 **Arabic:** نوع التضليع - أنواع التضليع
 **English:** CRTN Corrugating Types
 

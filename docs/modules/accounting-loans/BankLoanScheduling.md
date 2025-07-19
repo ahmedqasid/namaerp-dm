@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BankLoanScheduling
+</div>
+
 **Arabic:** جدولة قرض بنكي - جدولة قروض بنكية
 **English:** Bank Loan Scheduling - Bank Loans Scheduling
 
@@ -1480,7 +1486,13 @@
 <div id='installments' title='installments' class='searchable'>
 
 ## installments (الاقساط - Installments)
+
+<div class='tableName'>
+
 **Table Name:** BankLoanSchedulingInstallment, **Join Column:** bankLoanScheduling_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1601,7 +1613,13 @@
 <div id='interests' title='interests' class='searchable'>
 
 ## interests (الفوائد - Interests)
+
+<div class='tableName'>
+
 **Table Name:** BankLoanSchedulingInterest, **Join Column:** bankLoanScheduling_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

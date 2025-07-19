@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvCTask
+</div>
+
 **Arabic:** المهمه - المهمات
 **English:** Service Center Task - Service Center Tasks
 
@@ -919,7 +925,13 @@
 <div id='materials' title='materials' class='searchable'>
 
 ## materials (قطع غيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** SrvCTaskMaterialLine, **Join Column:** srvCTask_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1298,7 +1310,13 @@
 <div id='products' title='products' class='searchable'>
 
 ## products (المنتجات - Products)
+
+<div class='tableName'>
+
 **Table Name:** SrvCTaskProductLine, **Join Column:** srvCTask_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1635,7 +1653,13 @@
 <div id='recurrenceRates' title='recurrenceRates' class='searchable'>
 
 ## recurrenceRates (سطور معدلات التكرار - Recurrence Rates)
+
+<div class='tableName'>
+
 **Table Name:** SrvCTaskRecurrenceRate, **Join Column:** srvCTask_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1714,7 +1738,13 @@
 <div id='resources' title='resources' class='searchable'>
 
 ## resources ( موارد التشغيل -  Resources)
+
+<div class='tableName'>
+
 **Table Name:** SrvCTaskResourceLine, **Join Column:** srvCTask_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

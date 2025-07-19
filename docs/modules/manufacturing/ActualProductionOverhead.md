@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ActualProductionOverhead
+</div>
+
 **Arabic:** تكاليف الإنتاج الغير مباشرة الفعلية
 **English:** Actual Production Overhead - Actual Production Overheads
 
@@ -976,7 +982,13 @@
 <div id='actualOverheads' title='actualOverheads' class='searchable'>
 
 ## actualOverheads (التكاليف الغير مباشرة الفعلية - Actual Overheads)
+
+<div class='tableName'>
+
 **Table Name:** ActualOverheadLine, **Join Column:** actualProductionOverhead_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1142,7 +1154,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ActualProductionOverheadLine, **Join Column:** actualProductionOverhead_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

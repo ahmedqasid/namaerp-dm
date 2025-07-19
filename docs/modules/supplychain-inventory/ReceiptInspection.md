@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ReceiptInspection
+</div>
+
 **Arabic:** فحص توريد مخزني - فحوص توريد مخزني
 **English:** Stock Receipt Inspection - Stock Receipt Inspections
 
@@ -2434,7 +2440,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ReceiptInspectionLine, **Join Column:** receiptInspection_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

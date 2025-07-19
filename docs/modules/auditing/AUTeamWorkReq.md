@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUTeamWorkReq
+</div>
+
 **Arabic:** طلب إنشاء فريق عمل - طلبات إنشاء فريق عمل
 **English:** TeamWork Request - TeamWork Requests
 
@@ -934,7 +940,13 @@
 <div id='teamReq' title='teamReq' class='searchable'>
 
 ## teamReq ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUTeamWorkReqLine, **Join Column:** aUTeamWorkReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FinancialPaperAgioReturn
+</div>
+
 **Arabic:** سند رد إجيو -  سند رد إجيو
 **English:** Commercial Paper Agio Return -  Commercial Paper Agio Return
 
@@ -937,7 +943,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** FPAgioReturnLine, **Join Column:** financialPaperAgioReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

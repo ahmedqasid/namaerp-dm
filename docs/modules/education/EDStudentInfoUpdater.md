@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDStudentInfoUpdater
+</div>
+
 **Arabic:** تحديث بيانات الطالب - تحديثات بيانات الطالب
 **English:** Update Student Information - Updates Student Information
 

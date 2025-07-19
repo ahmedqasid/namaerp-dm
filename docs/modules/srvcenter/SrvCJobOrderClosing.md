@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvCJobOrderClosing
+</div>
+
 **Arabic:** إغلاق أمر شغل
 **English:** Job Order Closing
 
@@ -1099,7 +1105,13 @@
 <div id='materials' title='materials' class='searchable'>
 
 ## materials (قطع غيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** SrvCJOrderCloseMaterialLine, **Join Column:** srvCJobOrderClosing_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1940,7 +1952,13 @@
 <div id='operations' title='operations' class='searchable'>
 
 ## operations (العمليات - Operations)
+
+<div class='tableName'>
+
 **Table Name:** SrvCJOrderCloseOperationLine, **Join Column:** srvCJobOrderClosing_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

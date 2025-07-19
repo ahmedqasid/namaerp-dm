@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HealthInsuranceUpgrade
+</div>
+
 **Arabic:** سند ترقية تأمين - سندات ترقية تأمين
 **English:** Health Insurance Upgrade - Health Insurance Upgrades
 
@@ -1060,7 +1066,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HealthInsurUpgradeLine, **Join Column:** healthInsuranceUpgrade_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

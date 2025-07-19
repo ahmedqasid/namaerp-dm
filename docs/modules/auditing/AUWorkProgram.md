@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUWorkProgram
+</div>
+
 **Arabic:** برنامج عمل - برامج العمل
 **English:** Work Program - Work Programs
 
@@ -1033,7 +1039,13 @@
 <div id='basicLines' title='basicLines' class='searchable'>
 
 ## basicLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUWorkProgramBasicLine, **Join Column:** aUWorkProgram_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1166,7 +1178,13 @@
 <div id='controlLines' title='controlLines' class='searchable'>
 
 ## controlLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUWorkProgramControlLine, **Join Column:** aUWorkProgram_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1317,7 +1335,13 @@
 <div id='leadSheetLines' title='leadSheetLines' class='searchable'>
 
 ## leadSheetLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** AUWorkProgramLeadSheetLine, **Join Column:** aUWorkProgram_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

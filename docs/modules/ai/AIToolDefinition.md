@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AIToolDefinition
+</div>
+
 **Arabic:** AI Tool Definition
 **English:** AI Tool Definition - AI Tool Definitions
 
@@ -844,7 +850,13 @@
 <div id='accessControl' title='accessControl' class='searchable'>
 
 ## accessControl (الصلاحيات (التحكم في الوصول) - Security (Access Control))
+
+<div class='tableName'>
+
 **Table Name:** AIToolDefinitionSecurity, **Join Column:** aIToolDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -896,7 +908,13 @@
 <div id='entityFlowParameters' title='entityFlowParameters' class='searchable'>
 
 ## entityFlowParameters (Entity Flow Parameters - Entity Flow Parameters)
+
+<div class='tableName'>
+
 **Table Name:** AIToolDefinitionEntityFlowParam, **Join Column:** aIToolDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -975,7 +993,13 @@
 <div id='queryParameters' title='queryParameters' class='searchable'>
 
 ## queryParameters (َQuery Parameters - َQuery Parameters)
+
+<div class='tableName'>
+
 **Table Name:** AIToolDefinitionQueryParam, **Join Column:** aIToolDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1054,7 +1078,13 @@
 <div id='systemTools' title='systemTools' class='searchable'>
 
 ## systemTools (System Tools Configuration - System Tools Configuration)
+
+<div class='tableName'>
+
 **Table Name:** AIToolDefinitionSystemTools, **Join Column:** aIToolDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

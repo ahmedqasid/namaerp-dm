@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # UpdateCustomerInfo
+</div>
+
 **Arabic:** تحديث بيانات عميل - تحديث بيانات عملاء
 **English:** Update Customer Information
 

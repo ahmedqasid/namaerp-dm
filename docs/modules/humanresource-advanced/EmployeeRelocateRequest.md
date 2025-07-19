@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EmployeeRelocateRequest
+</div>
+
 **Arabic:** طلب نقل موظف - طلبات نقل موظفين
 **English:** Employee Relocate Request - Employee Relocate Requests
 

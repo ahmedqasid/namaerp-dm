@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PostSalesOffer
+</div>
+
 **Arabic:** عرض ما بعد البيع - عروض ما بعد البيع
 **English:** Post Sales Offer - Post Sales Offers
 
@@ -838,7 +844,13 @@
 <div id='candidateCustomers' title='candidateCustomers' class='searchable'>
 
 ## candidateCustomers (العملاء المرشحين - Candidate Customers)
+
+<div class='tableName'>
+
 **Table Name:** PostSalesOfferCandidatesLine, **Join Column:** postSalesOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -881,7 +893,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PostSalesOfferLine, **Join Column:** postSalesOffer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

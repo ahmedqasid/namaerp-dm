@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOPaymentRequest
+</div>
+
 **Arabic:** طلب سداد مدفوعات - طلبات سداد مدفوعات
 **English:** HO Payment Request - HO Payment Requests
 
@@ -1000,7 +1006,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HOPaymentRequestLine, **Join Column:** hOPaymentRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

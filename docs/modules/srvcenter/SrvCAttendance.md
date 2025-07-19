@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvCAttendance
+</div>
+
 **Arabic:** حضور / انصراف مركز الخدمة
 **English:** Service Center Attendance - Service Center Attendances
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SrvCAttendanceLine, **Join Column:** srvCAttendance_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSRegisterContactInfoLine (Table Name: POSRegisterContactInfoLine)
+</div>
+
 
 <ContentFilter/>
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PostHandoverCost
+</div>
+
 **Arabic:** تكلفة ما بعد التسليم - تكاليف ما بعد التسليم
 **English:** Post Handover Cost - Post Handover Costs
 
@@ -1045,7 +1051,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PostHandoverCostLine, **Join Column:** postHandoverCost_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

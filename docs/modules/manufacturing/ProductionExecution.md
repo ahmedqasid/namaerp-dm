@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ProductionExecution
+</div>
+
 **Arabic:** تنفيذ إنتاج
 **English:** Production Execution - Production Executions
 
@@ -1216,7 +1222,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ProdExecutionLine, **Join Column:** productionExecution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

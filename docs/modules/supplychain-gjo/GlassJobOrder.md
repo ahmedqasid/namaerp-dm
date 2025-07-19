@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # GlassJobOrder
+</div>
+
 **Arabic:** أمر شغل زجاج -  أمر شغل زجاج
 **English:** Glass Job Order - Glass Job Orders
 
@@ -2725,7 +2731,13 @@
 <div id='batchInfo' title='batchInfo' class='searchable'>
 
 ## batchInfo (معلومات الشحنة - Batch Information)
+
+<div class='tableName'>
+
 **Table Name:** JobOrderBatchInfo, **Join Column:** glassJobOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2906,7 +2918,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** GlassOrderLine, **Join Column:** glassJobOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4914,7 +4932,13 @@
 <div id='installationLines' title='installationLines' class='searchable'>
 
 ## installationLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** JOInstallationLine, **Join Column:** glassJobOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4960,7 +4984,13 @@
 <div id='jobBomLines' title='jobBomLines' class='searchable'>
 
 ## jobBomLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** GlassBomLine, **Join Column:** glassJobOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -7004,7 +7034,13 @@
 <div id='operations' title='operations' class='searchable'>
 
 ## operations (العمليات - Operations)
+
+<div class='tableName'>
+
 **Table Name:** GlassOperationLine, **Join Column:** glassJobOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSMailSubclass
+</div>
+
 **Arabic:** نوع البريد - أنواع البريد
 **English:** Mail Subclass - Mail Subclasses
 

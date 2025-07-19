@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSPharmacy
+</div>
+
 **Arabic:** صيدلية - الصيدليات
 **English:** Pharmacy - Pharmacies
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MobileAppErrorLog
+</div>
+
 **Arabic:** Mobile App Error Log
 **English:** Mobile App Error Log
 

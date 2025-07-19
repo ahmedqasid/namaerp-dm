@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TaskSchedule
+</div>
+
 **Arabic:** مهمة مجدولة - مهام مجدولة
 **English:** Task Schedule - Task Schedules
 
@@ -2524,7 +2530,13 @@
 <div id='params' title='params' class='searchable'>
 
 ## params (Parameters - Parameters)
+
+<div class='tableName'>
+
 **Table Name:** TaskScheduleReportParams, **Join Column:** taskSchedule_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3809,7 +3821,13 @@
 <div id='runInSites' title='runInSites' class='searchable'>
 
 ## runInSites (تشغيل في - Run In Sites)
+
+<div class='tableName'>
+
 **Table Name:** ScheduleSite, **Join Column:** taskSchedule_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3855,7 +3873,13 @@
 <div id='targetLines' title='targetLines' class='searchable'>
 
 ## targetLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** TaskScheduleTargetLine, **Join Column:** taskSchedule_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ReportDefinition
+</div>
+
 **Arabic:** تعريف تقرير - تعريف تقارير
 **English:** Report Definition - Report Definitions
 
@@ -1456,7 +1462,13 @@
 <div id='basedOnLines' title='basedOnLines' class='searchable'>
 
 ## basedOnLines (مبنى على حسب المستخدم الحالى - Based On Lines Filtered By Current User)
+
+<div class='tableName'>
+
 **Table Name:** ReportDefinitionBasedOnLine, **Join Column:** reportDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1580,7 +1592,13 @@
 <div id='parametersOverride' title='parametersOverride' class='searchable'>
 
 ## parametersOverride (تعديل المدخلات - Parameters Override)
+
+<div class='tableName'>
+
 **Table Name:** RepParamOverride, **Join Column:** reportDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1704,7 +1722,13 @@
 <div id='relatedForms' title='relatedForms' class='searchable'>
 
 ## relatedForms (النماذج المرتبطة - Related Forms)
+
+<div class='tableName'>
+
 **Table Name:** ReportRelatedForms, **Join Column:** reportDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1750,7 +1774,13 @@
 <div id='reportGroups' title='reportGroups' class='searchable'>
 
 ## reportGroups ( مجموعات تقارير -  Report Groups)
+
+<div class='tableName'>
+
 **Table Name:** ReportDefinitionGroupLine, **Join Column:** reportDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1796,7 +1826,13 @@
 <div id='resources' title='resources' class='searchable'>
 
 ## resources (الملفات الإضافية - Resources)
+
+<div class='tableName'>
+
 **Table Name:** ReportResource, **Join Column:** reportDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1869,7 +1905,13 @@
 <div id='securityLines' title='securityLines' class='searchable'>
 
 ## securityLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** ReportSecurityLine, **Join Column:** reportDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1921,7 +1963,13 @@
 <div id='subreports' title='subreports' class='searchable'>
 
 ## subreports (التقارير الفرعية - Subreports)
+
+<div class='tableName'>
+
 **Table Name:** SubReport, **Join Column:** reportDefinition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InvestmentDocumentFund
+</div>
+
 **Arabic:** صندوق استثمار وثيقة - صناديق استثمار وثائق
 **English:** Investment Document Fund - Investment Document Funds
 

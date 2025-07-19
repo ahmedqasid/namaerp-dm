@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSParcelStatus
+</div>
+
 **Arabic:** حالة الطرد - حالات الطرود
 **English:** Parcel Status - Parcels Status
 

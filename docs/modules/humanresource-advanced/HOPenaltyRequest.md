@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOPenaltyRequest
+</div>
+
 **Arabic:** طلب مخالفة - طلبات مخالفات
 **English:** Penalty Request - Penalty Requests
 
@@ -907,7 +913,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PenaltyRequestLine, **Join Column:** hOPenaltyRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

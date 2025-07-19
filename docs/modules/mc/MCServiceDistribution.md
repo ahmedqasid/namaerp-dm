@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MCServiceDistribution
+</div>
+
 **Arabic:** توزيع الخدمات على بنود المناقصه - توزيعات الخدمات على بنود المناقصه
 **English:** MC Services Distribution On Tender Terms
 
@@ -943,7 +949,13 @@
 <div id='consumedLines' title='consumedLines' class='searchable'>
 
 ## consumedLines (بنود المواد المستهلكه - Consumed Terms)
+
+<div class='tableName'>
+
 **Table Name:** MCServiceConsumedLine, **Join Column:** mCServiceDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1085,7 +1097,13 @@
 <div id='equipmentLines' title='equipmentLines' class='searchable'>
 
 ## equipmentLines (سطور بنود المعدات - Equipment Lines)
+
+<div class='tableName'>
+
 **Table Name:** MCServiceEquipmentLine, **Join Column:** mCServiceDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1227,7 +1245,13 @@
 <div id='laborLines' title='laborLines' class='searchable'>
 
 ## laborLines (بنود العمالة - Labor Lines)
+
+<div class='tableName'>
+
 **Table Name:** MCServiceLaborLine, **Join Column:** mCServiceDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1372,7 +1396,13 @@
 <div id='operationLines' title='operationLines' class='searchable'>
 
 ## operationLines (بنود التشغيل والصيانة - Operation Lines)
+
+<div class='tableName'>
+
 **Table Name:** MCServiceOperationLine, **Join Column:** mCServiceDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1505,7 +1535,13 @@
 <div id='servicesList' title='servicesList' class='searchable'>
 
 ## servicesList (سطور الخدمات الاساسيه - Services List)
+
+<div class='tableName'>
+
 **Table Name:** MCServicesLine, **Join Column:** mCServiceDistribution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

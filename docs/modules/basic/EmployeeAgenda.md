@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EmployeeAgenda
+</div>
+
 **Arabic:** أجندة موظف -  أجندة موظف
 **English:** Employee Agenda -  Employee Agenda
 
@@ -2149,7 +2155,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** EmployeeAgendaLine, **Join Column:** employeeAgenda_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

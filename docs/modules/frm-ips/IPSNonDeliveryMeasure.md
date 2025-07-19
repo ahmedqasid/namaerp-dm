@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSNonDeliveryMeasure
+</div>
+
 **Arabic:** إجراء عدم التسليم - إجراءات عدم التسليم
 **English:** IPS Non Delivery Measure - IPS Non Delivery Measures
 

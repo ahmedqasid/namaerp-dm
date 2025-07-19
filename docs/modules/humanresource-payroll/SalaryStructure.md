@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalaryStructure
+</div>
+
 **Arabic:** هيكل راتب - هيكل الرواتب
 **English:** Salary Structure - Salary Structures
 
@@ -775,7 +781,13 @@
 <div id='elementLines' title='elementLines' class='searchable'>
 
 ## elementLines (مفردات الراتب - Element Lines)
+
+<div class='tableName'>
+
 **Table Name:** SalaryElementLine, **Join Column:** salaryStructure_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

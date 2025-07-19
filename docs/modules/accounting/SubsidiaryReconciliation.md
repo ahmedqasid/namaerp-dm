@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SubsidiaryReconciliation
+</div>
+
 **Arabic:** تسوية مع ذمة -  تسوية مع ذمة
 **English:** Subsidiary Reconciliation -  Subsidiary Reconciliation
 
@@ -1027,7 +1033,13 @@
 <div id='subsidiaryLines' title='subsidiaryLines' class='searchable'>
 
 ## subsidiaryLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** SRCSubsidiaryLine, **Join Column:** subsidiaryReconciliation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1316,7 +1328,13 @@
 <div id='systemLines' title='systemLines' class='searchable'>
 
 ## systemLines (حركات النظام - System Lines)
+
+<div class='tableName'>
+
 **Table Name:** SRCSystemLine, **Join Column:** subsidiaryReconciliation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1614,7 +1632,13 @@
 <div id='unmatchedSubsidiaryLines' title='unmatchedSubsidiaryLines' class='searchable'>
 
 ## unmatchedSubsidiaryLines (حركات الذمة المعلقة - Unmatched Subsidiary Lines)
+
+<div class='tableName'>
+
 **Table Name:** SRCUnMatchedSubsidiaryLine, **Join Column:** subsidiaryReconciliation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1921,7 +1945,13 @@
 <div id='unmatchedSystemLines' title='unmatchedSystemLines' class='searchable'>
 
 ## unmatchedSystemLines (حركات النظام المعلقة - Unmatched System Lines)
+
+<div class='tableName'>
+
 **Table Name:** SRCUnMatchedSystemLine, **Join Column:** subsidiaryReconciliation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

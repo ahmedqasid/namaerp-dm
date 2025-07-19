@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FADepreciation
+</div>
+
 **Arabic:** سند إهلاك - سندات الإهلاك
 **English:** Depreciation Document - Depreciation Documents
 
@@ -1192,7 +1198,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FADepreciationLine, **Join Column:** fADepreciation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

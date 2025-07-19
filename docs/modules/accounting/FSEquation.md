@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FSEquation
+</div>
+
 **Arabic:** معادلة - معادلات
 **English:** FS Equation - FS Equations
 

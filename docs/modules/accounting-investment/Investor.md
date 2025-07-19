@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # Investor
+</div>
+
 **Arabic:** مستثمر - المستثمرين
 
 <ContentFilter/>

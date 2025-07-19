@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JOOperation
+</div>
+
 **Arabic:** تشغيلة - التشغيلات
 
 <ContentFilter/>
@@ -942,7 +948,13 @@
 <div id='thicknesses' title='thicknesses' class='searchable'>
 
 ## thicknesses (سماكات - Thicknesses)
+
+<div class='tableName'>
+
 **Table Name:** ThicknessLine, **Join Column:** jOOperation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

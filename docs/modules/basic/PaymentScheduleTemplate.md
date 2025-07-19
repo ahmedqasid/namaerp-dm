@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PaymentScheduleTemplate
+</div>
+
 **Arabic:** نموذج جدولة الدفعات - نماذج جدولة الدفعات
 **English:** Payment Schedule Template - Payment Schedule Templates
 
@@ -1138,7 +1144,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ScheduleTemplateLine, **Join Column:** paymentScheduleTemplate_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

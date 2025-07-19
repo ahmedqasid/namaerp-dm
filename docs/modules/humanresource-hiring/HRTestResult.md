@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRTestResult
+</div>
+
 **Arabic:** نتائج الإختبار - نتائج الإختبارات
 **English:** Test Result - Test Results
 
@@ -790,7 +796,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** TestResultLine, **Join Column:** hRTestResult_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

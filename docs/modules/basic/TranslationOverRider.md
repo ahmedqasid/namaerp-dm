@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TranslationOverRider
+</div>
+
 **Arabic:** تغيير ترجمة - تغيير الترجمات
 **English:** Translation OverRider - Translations OverRider
 
@@ -766,7 +772,13 @@
 <div id='replacments' title='replacments' class='searchable'>
 
 ## replacments ( - )
+
+<div class='tableName'>
+
 **Table Name:** ReplacementLine, **Join Column:** translationOverRider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -818,7 +830,13 @@
 <div id='translations' title='translations' class='searchable'>
 
 ## translations ( - )
+
+<div class='tableName'>
+
 **Table Name:** TranslationLine, **Join Column:** translationOverRider_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

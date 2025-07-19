@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ItemAssortment
+</div>
+
 **Arabic:** تشكيلة ألوان ومقاسات - تشكيلات ألوان ومقاسات
 **English:** Item Assortment - Item Assortments
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ItemAssortmentLine, **Join Column:** itemAssortment_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

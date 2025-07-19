@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ItemSize
+</div>
+
 **Arabic:** مقاس صنف -  مقاس صنف
 **English:** Item Size - Item Sizes
 

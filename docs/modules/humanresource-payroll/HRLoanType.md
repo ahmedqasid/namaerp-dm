@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HRLoanType
+</div>
+
 **Arabic:** نوع السلفة - أنواع السلف
 **English:** Loan Type - Loan Types
 
@@ -877,7 +883,13 @@
 <div id='conditionsMatchedInLoanDoc' title='conditionsMatchedInLoanDoc' class='searchable'>
 
 ## conditionsMatchedInLoanDoc (الشروط الواجب توافرها في سند السلفه - Conditions Should Matched In Loan Document)
+
+<div class='tableName'>
+
 **Table Name:** HRLoanConditionsLine, **Join Column:** hRLoanType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1154,7 +1166,13 @@
 <div id='salaryComponents' title='salaryComponents' class='searchable'>
 
 ## salaryComponents (مفردات الراتب - Salary Components)
+
+<div class='tableName'>
+
 **Table Name:** HRLoanSalaryComponentLine, **Join Column:** hRLoanType_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

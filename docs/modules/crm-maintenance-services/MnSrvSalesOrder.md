@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnSrvSalesOrder
+</div>
+
 **Arabic:** أمر بيع خدمة صيانة - أوامر بيع خدمة صيانة
 **English:** Maintenance Service Sales Order - Maintenance Service Sales Orders
 
@@ -2977,7 +2983,13 @@
 <div id='contractTerms' title='contractTerms' class='searchable'>
 
 ## contractTerms (بنود العقد - Contract Terms)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvSalesOrderTermLine, **Join Column:** mnSrvSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3098,7 +3110,13 @@
 <div id='spareParts' title='spareParts' class='searchable'>
 
 ## spareParts (قطع الغيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvSalesOrderSpareLine, **Join Column:** mnSrvSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4035,7 +4053,13 @@
 <div id='srvServices' title='srvServices' class='searchable'>
 
 ## srvServices (خدمات صيانة - Maintenance Services)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvSalesOrderLine, **Join Column:** mnSrvSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4897,7 +4921,13 @@
 <div id='visits' title='visits' class='searchable'>
 
 ## visits (الزيارات - Visits)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvSalesOrderVisitSchedule, **Join Column:** mnSrvSalesOrder_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FinancialCommitmentReschedule
+</div>
+
 **Arabic:** مستند إعادة جدولة إلتزام مالى - مستندات إعادة جدولة إلتزامات مالية
 **English:** Financial Commitment Reschedule - Financial Commitment Reschedules
 
@@ -913,7 +919,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FinancialCommitmentRescheduleLine, **Join Column:** financialCommitmentReschedule_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1046,7 +1058,13 @@
 <div id='detailsBeforeEdit' title='detailsBeforeEdit' class='searchable'>
 
 ## detailsBeforeEdit (التفاصيل قبل التعديل - Details Before Edit)
+
+<div class='tableName'>
+
 **Table Name:** FinancialCommitmentRescheduleBeforeEditLine, **Join Column:** financialCommitmentReschedule_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.PosCancelReservation (Table Name: PosCancelReservation)
+</div>
+
 **Arabic:** سند إلغاء حجز اوردر نقاط بيع -  سند إلغاء حجز اوردر نقاط بيع
 **English:** POS Cancel Reservation -  POS Cancel Reservation
 
@@ -1114,7 +1120,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PosCancelReservationLine, **Join Column:** cancelReservation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1886,7 +1898,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** POSCancelReservationPayLine, **Join Column:** cancelReservation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2061,7 +2079,13 @@
 <div id='tableLines' title='tableLines' class='searchable'>
 
 ## tableLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** PosCancelReservTableLine, **Join Column:** invoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

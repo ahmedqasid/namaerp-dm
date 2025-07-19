@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOPaidValuePerPeriod
+</div>
+
 **Arabic:** مدفوعات عن فترة -  مدفوعات عن فترة
 **English:** Paid value Per Period -  Paid value Per Period
 
@@ -769,7 +775,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HOPaidValuePerPeriodLine, **Join Column:** hOPaidValuePerPeriod_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

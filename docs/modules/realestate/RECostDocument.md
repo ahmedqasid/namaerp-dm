@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RECostDocument
+</div>
+
 **Arabic:** سند تكلفة استثمار عقاري - سندات تكلفة استثمار عقاري
 **English:** RE Cost Document - RE Cost Documents
 
@@ -1645,7 +1651,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RECostDocumentLine, **Join Column:** rECostDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2567,7 +2579,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** RECostDocExternalPaymentLine, **Join Column:** rECostDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2673,7 +2691,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** RECostDocScheduledPayLine, **Join Column:** rECostDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

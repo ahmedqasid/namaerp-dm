@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DocumentCancelDocument
+</div>
+
 **Arabic:** مستند إلغاء مستند - مستندات إلغاء مستندات
 **English:** Document Cancel Document - Document Cancel Documents
 
@@ -988,7 +994,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** DocumentCancelDocumentLine, **Join Column:** documentCancelDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

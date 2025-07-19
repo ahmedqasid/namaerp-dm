@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MnSrvOrderExecution
+</div>
+
 **Arabic:** تنفيذ أمر خدمة صيانة - تنفيذ أوامر خدمة صيانة
 **English:** Maintenance Service Order Execution - Maintenance Service Order Executions
 
@@ -2482,7 +2488,13 @@
 <div id='spareParts' title='spareParts' class='searchable'>
 
 ## spareParts (قطع الغيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvOrderExecutionSpareParts, **Join Column:** mnSrvOrderExecution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3392,7 +3404,13 @@
 <div id='tasks' title='tasks' class='searchable'>
 
 ## tasks (المهام - Tasks)
+
+<div class='tableName'>
+
 **Table Name:** MnSrvOrderExecutionTaskLine, **Join Column:** mnSrvOrderExecution_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOBuilding
+</div>
+
 **Arabic:** مبني إسكان - مباني إسكان
 **English:** HO Building - HO Buildings
 

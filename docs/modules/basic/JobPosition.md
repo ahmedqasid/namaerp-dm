@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JobPosition
+</div>
+
 **Arabic:**  الموقع الوظيفي - المواقع الوظيفية
 **English:**  Job Position - Job Positions
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRTNPattern
+</div>
+
 **Arabic:** نمط الكرتونة - أنماط الكرتونة
 **English:** CRTN Pattern - CRTN Patterns
 

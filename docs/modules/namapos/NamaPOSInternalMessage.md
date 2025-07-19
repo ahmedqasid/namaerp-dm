@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # NamaPOSInternalMessage
+</div>
+
 **Arabic:** رسالة نقاط بيع داخليه - رسائل نقاط البيع الداخليه
 **English:** POS Internal Message - POS Internal Messages
 

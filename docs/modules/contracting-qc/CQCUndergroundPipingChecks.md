@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CQCUndergroundPipingChecks
+</div>
+
 **Arabic:** Underground Piping Check List - Underground Piping Check Lists
 **English:** Underground Piping Check List - Underground Piping Check Lists
 
@@ -946,7 +952,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CQCUndergroundPipingLine, **Join Column:** cQCUndergroundPipingChecks_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

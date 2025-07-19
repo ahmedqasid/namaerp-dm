@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EcommerceCategoryConfig
+</div>
+
 **Arabic:** Ecommerce Category Config - Ecommerce Category Config Files
 **English:** Ecommerce Category Configuration - Ecommerce Category Configuration Files
 
@@ -760,7 +766,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** EcommerceCategoryConfigLine, **Join Column:** ecommerceCategoryConfig_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

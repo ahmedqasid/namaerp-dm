@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMServiceContract
+</div>
+
 **Arabic:** عقد خدمة -  عقد خدمة
 **English:** CRM Service Contract -  CRM Service Contract
 
@@ -1798,7 +1804,13 @@
 <div id='additionLines' title='additionLines' class='searchable'>
 
 ## additionLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CRMAdditionsLine, **Join Column:** cRMServiceContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1928,7 +1940,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** ServiceContractLine, **Join Column:** cRMServiceContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2850,7 +2868,13 @@
 <div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
 
 ## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** CRMServiceExPaymentLine, **Join Column:** cRMServiceContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2956,7 +2980,13 @@
 <div id='freezingLines' title='freezingLines' class='searchable'>
 
 ## freezingLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** CRMFreezingLine, **Join Column:** cRMServiceContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3017,7 +3047,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** fixingContractLine, **Join Column:** cRMServiceContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

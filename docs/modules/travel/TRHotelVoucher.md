@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # TRHotelVoucher
+</div>
+
 **Arabic:** قسيمة فندق - قسائم فنادق
 **English:** Hotel Voucher - Hotel Vouchers
 

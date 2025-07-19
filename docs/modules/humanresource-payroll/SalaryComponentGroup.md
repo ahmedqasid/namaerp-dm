@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SalaryComponentGroup
+</div>
+
 **Arabic:** مجموعة مفردات راتب - مجموعات مفردات راتب
 **English:** Salary Component Group - Salary Component Groups
 
@@ -748,7 +754,13 @@
 <div id='componentTypes' title='componentTypes' class='searchable'>
 
 ## componentTypes (أنواع المفردات - Component Types)
+
+<div class='tableName'>
+
 **Table Name:** SalaryComponentGroupLine, **Join Column:** salaryComponentGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

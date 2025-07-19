@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FRMOOTransfer
+</div>
+
 **Arabic:** مستند نقل أمر تشغيل - مستندات نقل أوامر تشغيل
 **English:** FRM Operation Order Transfer - FRM Operation Order Transfers
 
@@ -1012,7 +1018,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** FRMOOTransferLine, **Join Column:** fRMOOTransfer_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

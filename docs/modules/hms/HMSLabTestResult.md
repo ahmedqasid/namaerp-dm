@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSLabTestResult
+</div>
+
 **Arabic:** نتيجة تحليل طبي - نتائج التحاليل الطبية
 **English:** Laboratory Test Result - Laboratory Test Results
 
@@ -1414,7 +1420,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSLabTestResultLine, **Join Column:** hMSLabTestResult_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

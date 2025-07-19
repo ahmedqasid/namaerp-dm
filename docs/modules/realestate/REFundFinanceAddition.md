@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REFundFinanceAddition
+</div>
+
 **Arabic:** سند إضافة تمويل إلى صندوق الاستثمار - سندات إضافة تمويل إلى صندوق الاستثمار
 **English:** RE Investment Fund Finance Addition - RE Investment Fund Finance Additions
 
@@ -925,7 +931,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** REFundFinanceAdditionLine, **Join Column:** rEFundFinanceAddition_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

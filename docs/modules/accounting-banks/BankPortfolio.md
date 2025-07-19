@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BankPortfolio
+</div>
+
 **Arabic:** حافظة بنكية - الحوافظ البنكية
 **English:** Bank Portfolio - Bank Portfolios
 
@@ -937,7 +943,13 @@
 <div id='installmentLines' title='installmentLines' class='searchable'>
 
 ## installmentLines (الأقساط - Installment Lines)
+
+<div class='tableName'>
+
 **Table Name:** BankPortfolioInstallmentLine, **Join Column:** bankPortfolio_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1154,7 +1166,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** BankPortfolioLine, **Join Column:** bankPortfolio_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

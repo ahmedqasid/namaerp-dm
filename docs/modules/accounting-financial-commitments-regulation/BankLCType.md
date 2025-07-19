@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # BankLCType
+</div>
+
 **Arabic:** نوع الاعتماد البنكى - أنواع الاعتماد البنكى
 **English:** Bank Letter Of Credit Type - Bank Letter Of Credit Types
 

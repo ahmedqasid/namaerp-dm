@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CarActionRequest
+</div>
+
 **Arabic:** طلب إجراء سيارة - طلبات إجراء سيارة
 **English:** Car Action Request - Car Action Requests
 
@@ -1033,7 +1039,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CarActionRequestLine, **Join Column:** carActionRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

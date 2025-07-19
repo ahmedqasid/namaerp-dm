@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CarInsuranceOfferDoc
+</div>
+
 **Arabic:** سند عرض تأمين سيارات - سندات عرض تأمين سيارات
 **English:** Car Insurance Offer Document - Car Insurance Offer Documents
 
@@ -1129,7 +1135,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CarInsuranceOfferDocLine, **Join Column:** carInsuranceOfferDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1316,7 +1328,13 @@
 <div id='installmentDetails' title='installmentDetails' class='searchable'>
 
 ## installmentDetails (تفاصيل القسط - Installment Details)
+
+<div class='tableName'>
+
 **Table Name:** OfferDocInstallmentLine, **Join Column:** carInsuranceOfferDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EDCourseContract
+</div>
+
 **Arabic:** عقد دورة تدريبية - عقود دورات تدريبية
 **English:** Course Contract - Course Contracts
 
@@ -1447,7 +1453,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** EDCourseContractStudentLine, **Join Column:** eDCourseContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2267,7 +2279,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (طرق الدفع - PaymentMethods)
+
+<div class='tableName'>
+
 **Table Name:** EDCourseContractPaymentLine, **Join Column:** eDCourseContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2577,7 +2595,13 @@
 <div id='scheduleLines' title='scheduleLines' class='searchable'>
 
 ## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
 **Table Name:** EDCourseScheduledPayLine, **Join Column:** eDCourseContract_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

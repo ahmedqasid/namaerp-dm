@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CQCITP
+</div>
+
 **Arabic:** ITP - ITPs
 **English:** ITP - ITPs
 
@@ -874,7 +880,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CQCITPLine, **Join Column:** cQCITP_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.PosDocCategory (Table Name: PosDocCategory)
+</div>
+
 **Arabic:** تصنيف سجل -  تصنيف سجل
 **English:** Record Category - Document Categories
 

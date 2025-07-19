@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # VacationPlanDocument
+</div>
+
 **Arabic:** مستند خطة أجازة - مستندات خطط أجازات
 **English:** Vacation Plan Document - Vacation Plan Documents
 
@@ -886,7 +892,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** VacationPlanLine, **Join Column:** vacationPlanDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

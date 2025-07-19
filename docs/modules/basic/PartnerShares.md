@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PartnerShares
+</div>
+
 **Arabic:** أسهم الشركاء
 **English:** Partner shares
 
@@ -766,7 +772,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines (الأسهم - Shares)
+
+<div class='tableName'>
+
 **Table Name:** PartnerSharesLine, **Join Column:** partnerShares_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -836,7 +848,13 @@
 <div id='mangLines' title='mangLines' class='searchable'>
 
 ## mangLines (نسبة الإداره من الربح - Management Share from Profit)
+
+<div class='tableName'>
+
 **Table Name:** PartnerSharesManagmentLine, **Join Column:** partnerShares_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

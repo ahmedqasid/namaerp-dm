@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FALcExpenseDocument
+</div>
+
 **Arabic:** مصروف اعتماد أصل - مصاريف اعتمادات اصول
 **English:** Fixed Asset Expense Document - Fixed Asset Expense Documents
 
@@ -1006,7 +1012,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** FALcExpenseLine, **Join Column:** fALcExpenseDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1337,7 +1349,13 @@
 <div id='manualLines' title='manualLines' class='searchable'>
 
 ## manualLines (التوزيع اليدوي - Manual Lines)
+
+<div class='tableName'>
+
 **Table Name:** FAManualLcExpenseLine, **Join Column:** fALcExpenseDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1674,7 +1692,13 @@
 <div id='sysLines' title='sysLines' class='searchable'>
 
 ## sysLines (التوزيع - System Lines)
+
+<div class='tableName'>
+
 **Table Name:** FASystemLcExpenseLine, **Join Column:** fALcExpenseDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

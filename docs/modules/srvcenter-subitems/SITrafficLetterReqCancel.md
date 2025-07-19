@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SITrafficLetterReqCancel
+</div>
+
 **Arabic:** إلغاء طلب خطاب مرور صنف فرعي - مستندات إلغاء طلب خطاب مرور صنف فرعي
 **English:** Sub Item Traffic Letter Request Cancel - Sub Item Traffic Letter Request Cancel Documents
 
@@ -2593,7 +2599,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SITrafficLettReqCancelLine, **Join Column:** sITrafficLetterReqCancel_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

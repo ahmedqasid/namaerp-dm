@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ApplicationForm
+</div>
+
 **Arabic:** نموذج طلب - نماذج طلبات
 **English:** Application Form - Application Forms
 
@@ -967,7 +973,13 @@
 <div id='conters' title='conters' class='searchable'>
 
 ## conters (الكونتر - Conters)
+
+<div class='tableName'>
+
 **Table Name:** ConterLine, **Join Column:** applicationForm_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1103,7 +1115,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RequestsDetailsLine, **Join Column:** applicationForm_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1164,7 +1182,13 @@
 <div id='stairs' title='stairs' class='searchable'>
 
 ## stairs (الدرج - Stairs)
+
+<div class='tableName'>
+
 **Table Name:** StairsLine, **Join Column:** applicationForm_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1264,7 +1288,13 @@
 <div id='waterjets' title='waterjets' class='searchable'>
 
 ## waterjets (وترجت - Waterjet)
+
+<div class='tableName'>
+
 **Table Name:** WaterJetLine, **Join Column:** applicationForm_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1355,7 +1385,13 @@
 <div id='zones' title='zones' class='searchable'>
 
 ## zones (المناطق - Zones)
+
+<div class='tableName'>
+
 **Table Name:** ZoneLine, **Join Column:** applicationForm_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

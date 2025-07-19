@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRMQuestionair
+</div>
+
 **Arabic:** استبيان - استبيانات
 **English:** Questionair - Questionairs
 
@@ -1150,7 +1156,13 @@
 <div id='responses' title='responses' class='searchable'>
 
 ## responses (الاجابات - Responses)
+
+<div class='tableName'>
+
 **Table Name:** CRMQuestionairResponse, **Join Column:** cRMQuestionair_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

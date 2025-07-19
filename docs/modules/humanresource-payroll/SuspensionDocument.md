@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SuspensionDocument
+</div>
+
 **Arabic:** إيقاف عن العمل -  إيقاف عن العمل
 **English:** Suspension Document -  Suspension Document
 

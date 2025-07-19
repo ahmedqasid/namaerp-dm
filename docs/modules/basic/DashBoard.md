@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DashBoard
+</div>
+
 **Arabic:** لوحة - لوحات
 
 <ContentFilter/>
@@ -960,7 +966,13 @@
 <div id='charts' title='charts' class='searchable'>
 
 ## charts (العناصر - Charts)
+
+<div class='tableName'>
+
 **Table Name:** DashBoardLine, **Join Column:** dashBoard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1069,7 +1081,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DashBoardDBGroupLine, **Join Column:** dashBoard_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

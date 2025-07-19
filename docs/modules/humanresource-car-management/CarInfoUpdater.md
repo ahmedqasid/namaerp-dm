@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CarInfoUpdater
+</div>
+
 **Arabic:** تحديث بيانات سيارة -  تحديث بيانات سيارة
 **English:** Car Info Updater -  Car Info Updater
 
@@ -886,7 +892,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CarInfoUpdaterLine, **Join Column:** carInfoUpdater_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

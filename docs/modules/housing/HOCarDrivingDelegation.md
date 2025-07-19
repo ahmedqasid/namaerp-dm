@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HOCarDrivingDelegation
+</div>
+
 **Arabic:** خطاب تفويض قيادة سيارة - خطابات تفويض قيادة سيارة
 **English:** Delegation For Car Driving - Delegations For Car Driving
 

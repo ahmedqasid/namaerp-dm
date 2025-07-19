@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSTransferReceptacles
+</div>
+
 **Arabic:** مستند إرسال الاكياس جدول الطريق - مستندات إرسال الاكياس جدول الطريق
 **English:** IPS Transfer Receptacles - IPS Transfer Receptacless
 
@@ -967,7 +973,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** IPSTransferReceptaclesLine, **Join Column:** iPSTransferReceptacles_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

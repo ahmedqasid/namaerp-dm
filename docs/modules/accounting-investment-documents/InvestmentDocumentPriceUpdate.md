@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # InvestmentDocumentPriceUpdate
+</div>
+
 **Arabic:** تغيير سعر الوثيقة - تغيير أسعار الوثائق
 **English:** Investment Document Price Update - Investment Document Price Updates
 

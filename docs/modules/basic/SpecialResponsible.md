@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SpecialResponsible
+</div>
+
 **Arabic:** مسئول مخصص - مسئولين مخصصين
 **English:** Special Responsible - Special Responsibles
 

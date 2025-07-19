@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ItemClass7
+</div>
+
 **Arabic:** تصنيف صنف 7 - تصنيفات صنف 7
 **English:** Item class 7 - Item classes 7
 
@@ -997,7 +1003,13 @@
 <div id='relations' title='relations' class='searchable'>
 
 ## relations (العلاقات - Relations)
+
+<div class='tableName'>
+
 **Table Name:** ItemClass7Range, **Join Column:** itemClass7_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

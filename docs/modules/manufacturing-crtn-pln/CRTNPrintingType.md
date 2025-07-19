@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CRTNPrintingType
+</div>
+
 **Arabic:** نوع الطباعة - أنواع الطباعة
 **English:** Printing Type - Printing Types
 

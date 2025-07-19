@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractingPriceList
+</div>
+
 **Arabic:** قائمة أسعار المقاولات - قوائم أسعار المقاولات
 **English:** Contracting Price list - Contracting Price lists
 
@@ -874,7 +880,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** ContractingPriceListLine, **Join Column:** contractingPriceList_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

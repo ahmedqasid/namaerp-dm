@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.PosPoleDisplaySpecs (Table Name: PosPoleDisplaySpecs)
+</div>
+
 **Arabic:** خصائص ال Pole Display لنقاط البيع -  خصائص ال Pole Display لنقاط البيع
 **English:** Pos Pole Display Specs -  Pos Pole Display Specs
 

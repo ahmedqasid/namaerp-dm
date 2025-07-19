@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # LoanDepositStatusEntry
+</div>
+
 **Arabic:** حركات حالة الوديعة أو القرض
 **English:** Loan Deposit Status Entries
 

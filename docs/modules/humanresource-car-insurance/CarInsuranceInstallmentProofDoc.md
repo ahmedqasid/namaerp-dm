@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CarInsuranceInstallmentProofDoc
+</div>
+
 **Arabic:** قيد إثبات استحقاق قسط تأمين السيارة - قيود إثبات استحقاق قسط تأمين السيارة
 **English:** Car Insurance Installment Proof Document - Car Insurance Installment Proof Documents
 
@@ -979,7 +985,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CarInsuranceInstallmentProofLine, **Join Column:** carInsuranceInstallmentProofDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

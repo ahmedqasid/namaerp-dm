@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AttendantsCategory
+</div>
+
 **Arabic:** فئة الحضور - فئات الحضور
 **English:** Attendants Category - Attendants Categories
 

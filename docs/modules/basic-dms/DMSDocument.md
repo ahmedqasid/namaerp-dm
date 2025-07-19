@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # DMSDocument
+</div>
+
 **Arabic:** مستند أرشيفي - مستندات أرشيفية
 **English:** DMS Document - DMS Documents
 
@@ -1567,7 +1573,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** DmsDocumentLine, **Join Column:** dMSDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1694,7 +1706,13 @@
 <div id='ownerList' title='ownerList' class='searchable'>
 
 ## ownerList ( - )
+
+<div class='tableName'>
+
 **Table Name:** DMSDocumentOwnerLine, **Join Column:** dMSDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

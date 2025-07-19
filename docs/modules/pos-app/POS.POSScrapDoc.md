@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSScrapDoc (Table Name: POSScrapDoc)
+</div>
+
 **Arabic:** مستند الهوالك - مستندات الهوالك
 **English:** Scrap Document - Scrap Documents
 
@@ -1078,7 +1084,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSScrapDocLine, **Join Column:** scrap_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1868,7 +1880,13 @@
 <div id='removedLines' title='removedLines' class='searchable'>
 
 ## removedLines (السيارات المحذوفه - Removed Cars)
+
+<div class='tableName'>
+
 **Table Name:** POSScrapDocRemovedLine, **Join Column:** scrap_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

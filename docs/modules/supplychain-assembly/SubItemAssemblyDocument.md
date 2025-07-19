@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SubItemAssemblyDocument
+</div>
+
 **Arabic:** سند تجميع صنف فرعي - سندات تجميع صنف فرعي
 **English:** Sub Item Assembly Document - Sub Item Assembly Documents
 
@@ -1627,7 +1633,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** SIAssemblyDocumentLine, **Join Column:** subItemAssemblyDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

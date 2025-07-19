@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # FAClassification3
+</div>
+
 **Arabic:** تصنيف أصل ثابت 3 - تصنيفات أصل ثابت 3
 **English:** Fixed Asset Classification3 - Fixed Asset Classifications3
 

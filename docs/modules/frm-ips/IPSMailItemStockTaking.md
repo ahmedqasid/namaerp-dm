@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSMailItemStockTaking
+</div>
+
 **Arabic:** سند تفريغ المخزن للجرد وإعادة التخزين - سندات تفريغ المخازن للجرد وإعادة التخزين
 **English:** IPS Mail Item Stock Taking - IPS Mail Item Stock Takings
 
@@ -1033,7 +1039,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** IPSMailItemStockTakingLine, **Join Column:** iPSMailItemStockTaking_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

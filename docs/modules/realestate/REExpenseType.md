@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REExpenseType
+</div>
+
 **Arabic:** نوع المصروف - أنواع المصروفات
 **English:** Expense Type - Expenses Types
 

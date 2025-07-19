@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AccountsBag
+</div>
+
 **Arabic:** حقيبة حسابات - حقائب حسابات
 **English:** Accounts Bag - Accounts Bags
 
@@ -1114,7 +1120,13 @@
 <div id='currencyAccountLines' title='currencyAccountLines' class='searchable'>
 
 ## currencyAccountLines (الحسابات حسب العملة - Currency Account Lines)
+
+<div class='tableName'>
+
 **Table Name:** AccountsBagCurrencyLine, **Join Column:** accountsBag_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1181,7 +1193,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AccountsBagLine, **Join Column:** accountsBag_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

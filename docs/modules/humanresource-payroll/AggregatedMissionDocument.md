@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AggregatedMissionDocument
+</div>
+
 **Arabic:** سند مأموريه مجمع - سندات مأموريه مجمعة
 **English:** Aggregated Mission Document - Aggregated Mission Documents
 
@@ -994,7 +1000,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** AggregatedMissionDocumentLine, **Join Column:** aggregatedMissionDocument_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

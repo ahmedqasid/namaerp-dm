@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSLocation (Table Name: POSLocation)
+</div>
+
 **Arabic:** موقع - مواقع
 
 <ContentFilter/>

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # JobOrderPartialDelivery
+</div>
+
 **Arabic:** تسليم جزئي لأمر الشغل - تسليم جزئي لأوامر الشغل
 **English:** Job Order Partial Delivery - Job Orders Partial Delivery
 
@@ -943,7 +949,13 @@
 <div id='jobBomLines' title='jobBomLines' class='searchable'>
 
 ## jobBomLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** PartialDeliveryBomLine, **Join Column:** jobOrderPartialDelivery_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

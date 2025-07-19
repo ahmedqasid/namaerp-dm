@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CPAProjectExpenseItem
+</div>
+
 **Arabic:**  بند مصروف مشروع -  بنود مصروفات مشروع
 **English:**  Project Expense Items -  Project Expense Item
 

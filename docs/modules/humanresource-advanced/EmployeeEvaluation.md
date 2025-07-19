@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # EmployeeEvaluation
+</div>
+
 **Arabic:** تقييم موظف - تقييم موظفين
 **English:** Employee Evaluation - Employee Evaluations
 
@@ -1051,7 +1057,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** EmployeeEvaluationLine, **Join Column:** employeeEvaluation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1322,7 +1334,13 @@
 <div id='recommendations' title='recommendations' class='searchable'>
 
 ## recommendations (التوصيات - recommendations)
+
+<div class='tableName'>
+
 **Table Name:** RecommendationLine, **Join Column:** employeeEvaluation_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

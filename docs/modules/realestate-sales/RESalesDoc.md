@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # RESalesDoc
+</div>
+
 **Arabic:** عقد بيع - عقود بيع
 **English:** Sales Contract - Sales Contracts
 
@@ -1750,7 +1756,13 @@
 <div id='commissions' title='commissions' class='searchable'>
 
 ## commissions (العمولات - Commissions)
+
+<div class='tableName'>
+
 **Table Name:** RESalesDocCommissionLine, **Join Column:** rESalesDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1850,7 +1862,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** RESalesLine, **Join Column:** rESalesDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2553,7 +2571,13 @@
 <div id='feesInfoLines' title='feesInfoLines' class='searchable'>
 
 ## feesInfoLines (بيانات الإنشاء المتعدد للرسوم - Fees Info Lines)
+
+<div class='tableName'>
+
 **Table Name:** RESalesDocFeesInfoLine, **Join Column:** rESalesDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2878,7 +2902,13 @@
 <div id='installmentInfoLines' title='installmentInfoLines' class='searchable'>
 
 ## installmentInfoLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** RESalesDocInstInfoLine, **Join Column:** rESalesDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3227,7 +3257,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** RESalesDocTermsConditions, **Join Column:** rESalesDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3279,7 +3315,13 @@
 <div id='otherFeesLines' title='otherFeesLines' class='searchable'>
 
 ## otherFeesLines (رسوم أخري - Other Fees Lines)
+
+<div class='tableName'>
+
 **Table Name:** RESalesDocFeesLine, **Join Column:** rESalesDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3442,7 +3484,13 @@
 <div id='termLines' title='termLines' class='searchable'>
 
 ## termLines (الينود القياسيه - Standard Terms)
+
+<div class='tableName'>
+
 **Table Name:** RESalesDocStandardTermLine, **Join Column:** rESalesDoc_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

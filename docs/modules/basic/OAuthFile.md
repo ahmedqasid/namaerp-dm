@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # OAuthFile
+</div>
+
 **Arabic:** OAuth File - OAuth Files
 **English:** OAuth File - OAuth Files
 

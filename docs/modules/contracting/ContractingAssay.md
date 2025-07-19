@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractingAssay
+</div>
+
 **Arabic:** مقايسة مقاولات -  مقايسة مقاولات
 **English:** Contracting Assay -  Contracting Assay
 
@@ -1288,7 +1294,13 @@
 <div id='conditions' title='conditions' class='searchable'>
 
 ## conditions (الشروط - Conditions)
+
+<div class='tableName'>
+
 **Table Name:** ContrAssayConditionLine, **Join Column:** contractingAssay_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1682,7 +1694,13 @@
 <div id='tasks' title='tasks' class='searchable'>
 
 ## tasks (المهام - Tasks)
+
+<div class='tableName'>
+
 **Table Name:** ContrAssayTaskLine, **Join Column:** contractingAssay_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1758,7 +1776,13 @@
 <div id='terms' title='terms' class='searchable'>
 
 ## terms (البنود - Terms)
+
+<div class='tableName'>
+
 **Table Name:** ContrAssayLine, **Join Column:** contractingAssay_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

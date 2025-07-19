@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POSPaymentToRegister
+</div>
+
 **Arabic:** مصروف نقاط البيع - مصروفات نقاط البيع
 **English:** POS Payment - POS Payments
 

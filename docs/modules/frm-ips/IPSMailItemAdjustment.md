@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # IPSMailItemAdjustment
+</div>
+
 **Arabic:** سند تسوية شحنة - سندات تسوية شحنات
 **English:** IPS Mail Item Adjustment - IPS Mail Item Adjustments
 
@@ -1033,7 +1039,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** IPSMailItemAdjustmentLine, **Join Column:** iPSMailItemAdjustment_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

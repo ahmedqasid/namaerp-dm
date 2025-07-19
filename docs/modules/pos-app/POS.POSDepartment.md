@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSDepartment (Table Name: POSDepartment)
+</div>
+
 **Arabic:** إدارة - إدارات
 
 <ContentFilter/>

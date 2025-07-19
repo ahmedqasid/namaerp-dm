@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # SrvCServiceRequest
+</div>
+
 **Arabic:** طلب خدمة - طلبات خدمة
 **English:** Service Request - Service Requests
 
@@ -1690,7 +1696,13 @@
 <div id='materials' title='materials' class='searchable'>
 
 ## materials (قطع غيار - Spare Parts)
+
+<div class='tableName'>
+
 **Table Name:** SerRequestMaterialLine, **Join Column:** srvCServiceRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2333,7 +2345,13 @@
 <div id='resources' title='resources' class='searchable'>
 
 ## resources ( موارد التشغيل -  Resources)
+
+<div class='tableName'>
+
 **Table Name:** SerRequestResourceLine, **Join Column:** srvCServiceRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2427,7 +2445,13 @@
 <div id='tasks' title='tasks' class='searchable'>
 
 ## tasks (المهام - Tasks)
+
+<div class='tableName'>
+
 **Table Name:** SerReqTaskLine, **Join Column:** srvCServiceRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

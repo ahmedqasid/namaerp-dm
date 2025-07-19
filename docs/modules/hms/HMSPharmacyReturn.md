@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSPharmacyReturn
+</div>
+
 **Arabic:** مردودات صيدليات
 **English:** Pharmacy Return - Pharmacy Returns
 
@@ -2311,7 +2317,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSPharmacyReturnLine, **Join Column:** hMSPharmacyReturn_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

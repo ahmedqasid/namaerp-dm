@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # MobileAppAction
+</div>
+
 **Arabic:** Mobile Application Action - Mobile Application Actions
 **English:** Mobile Application Action - Mobile Application Actions
 
@@ -2200,7 +2206,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** MobileAppActionLine, **Join Column:** mobileAppAction_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -3329,7 +3341,13 @@
 <div id='details2' title='details2' class='searchable'>
 
 ## details2 ( - )
+
+<div class='tableName'>
+
 **Table Name:** MobileAppActionLine2, **Join Column:** mobileAppAction_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -4458,7 +4476,13 @@
 <div id='details3' title='details3' class='searchable'>
 
 ## details3 ( - )
+
+<div class='tableName'>
+
 **Table Name:** MobileAppActionLine3, **Join Column:** mobileAppAction_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -5587,7 +5611,13 @@
 <div id='details4' title='details4' class='searchable'>
 
 ## details4 ( - )
+
+<div class='tableName'>
+
 **Table Name:** MobileAppActionLine4, **Join Column:** mobileAppAction_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

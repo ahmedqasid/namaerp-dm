@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # CarInsuranceRemovingReq
+</div>
+
 **Arabic:** طلب حذف سيارات من التأمين - طلبات حذف سيارات من التأمين
 **English:** Car Insurance Removing Request - Car Insurance Removing Requests
 
@@ -1093,7 +1099,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** CarInsuranceRemovingReqLine, **Join Column:** carInsuranceRemovingReq_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

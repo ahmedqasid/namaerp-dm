@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # REUnitGroup
+</div>
+
 **Arabic:** وحدة مجمعة - وحدات مجمعة
 **English:** RE Unit group - RE Unit groups
 
@@ -2053,7 +2059,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** REUnitGroupUnitLine, **Join Column:** rEUnitGroup_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

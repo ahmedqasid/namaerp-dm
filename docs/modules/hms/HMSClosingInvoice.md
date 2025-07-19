@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # HMSClosingInvoice
+</div>
+
 **Arabic:** فاتورة مريض ختامية - فواتير مرضى ختامية
 **English:** Closing Patient Invoice - Closing Patients Invoices
 
@@ -1063,7 +1069,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** HMSClosingInvoiceLine, **Join Column:** hMSClosingInvoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

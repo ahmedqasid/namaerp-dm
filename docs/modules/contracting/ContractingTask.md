@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ContractingTask
+</div>
+
 **Arabic:** مهمة مقاولات - مهام مقاولات
 **English:** Contracting Task - Contracting Tasks
 

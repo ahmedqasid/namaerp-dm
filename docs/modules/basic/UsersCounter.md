@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # UsersCounter
+</div>
+
 **Arabic:** عداد مستخدمين - عدادات مستخدمين
 **English:** Users Counter - Users Counters
 

@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # ModifyContractorInfoReq
+</div>
+
 **Arabic:** طلب تعديل بيانات المقاول - طلبات تعديل بيانات المقاولين
 **English:** Modify Contractor Info Request - Modify Contractor Info Requests
 

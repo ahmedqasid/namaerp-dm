@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # POS.POSSalesInvoice (Table Name: POSSalesInvoice)
+</div>
+
 **Arabic:** فاتورة مبيعات نقاط البيع - فواتير مبيعات نقاط البيع
 **English:** POS Sales Invoice - POS Sales Invoices
 
@@ -1114,7 +1120,13 @@
 <div id='coupons' title='coupons' class='searchable'>
 
 ## coupons ( قسيمة خصومات - Coupons)
+
+<div class='tableName'>
+
 **Table Name:** POSSalesInvoiceCouponLine, **Join Column:** invoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1178,7 +1190,13 @@
 <div id='creditNotes' title='creditNotes' class='searchable'>
 
 ## creditNotes (وصل مردود - Credit Notes)
+
+<div class='tableName'>
+
 **Table Name:** POSSalesInvoiceCreditNoteLine, **Join Column:** invoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1242,7 +1260,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** POSSalesInvoiceLine, **Join Column:** invoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2023,7 +2047,13 @@
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
 **Table Name:** POSSalesPaymentLine, **Join Column:** invoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2198,7 +2228,13 @@
 <div id='removedLines' title='removedLines' class='searchable'>
 
 ## removedLines (السيارات المحذوفه - Removed Cars)
+
+<div class='tableName'>
+
 **Table Name:** POSSalesInvoiceRemovedLine, **Join Column:** invoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -2979,7 +3015,13 @@
 <div id='tableLines' title='tableLines' class='searchable'>
 
 ## tableLines ( - )
+
+<div class='tableName'>
+
 **Table Name:** POSInvoiceTableLine, **Join Column:** invoice_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

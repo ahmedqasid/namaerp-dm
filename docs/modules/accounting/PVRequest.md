@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # PVRequest
+</div>
+
 **Arabic:** طلب صرف -  طلب صرف
 **English:** Payment Request -  Payment Request
 
@@ -1111,7 +1117,13 @@
 <div id='costLines' title='costLines' class='searchable'>
 
 ## costLines (توزيع التكلفة - Cost Allocation)
+
+<div class='tableName'>
+
 **Table Name:** PVRequestCostLine, **Join Column:** pVRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
@@ -1337,7 +1349,13 @@
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
+
+<div class='tableName'>
+
 **Table Name:** PVRequestLine, **Join Column:** pVRequest_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>

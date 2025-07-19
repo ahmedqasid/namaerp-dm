@@ -1,4 +1,10 @@
+
+<div class='tableName'>
+
+
 # AUAdjustments
+</div>
+
 **Arabic:** تسويه - التسويات
 **English:** Adjustment - Adjustments
 
@@ -922,7 +928,13 @@
 <div id='lines' title='lines' class='searchable'>
 
 ## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
 **Table Name:** AUAdjustmentsLine, **Join Column:** aUAdjustments_id
+
+</div>
+
 <div class="nama-table">
 <div class="row header-row">
 <div class="cell">Property</div>
