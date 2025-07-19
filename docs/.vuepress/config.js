@@ -17,7 +17,10 @@ export default defineUserConfig({
   ],
   theme: defaultTheme({
     // sidebar: SIDEBAR_CONFIG,
-    navbar: ['/modules/', {text: 'Namasoft.com', link: "https://namasoft.com"}, {text: 'Documentation', link: "https://docs.namasoft.com"}],
+    navbar: ['/modules/', "/modules/full-search.md", {text: 'Namasoft.com', link: "https://namasoft.com"}, {
+      text: 'Documentation',
+      link: "https://docs.namasoft.com"
+    }],
     contributors: false,
     // sidebarDepth: 0,
     logo: '/hero.svg',
@@ -28,7 +31,11 @@ export default defineUserConfig({
     editLinkText: 'Edit On github',
   }),
   plugins: [
-    fullTextSearchPlugin(),
+    fullTextSearchPlugin({
+      searchIndexClassNames: ['tableName'],
+      searchIndexTitles: {"tableName": "Table Names", "default": "All Content"},
+      defaultSearchIndex: "tableName", defaultSelectedIndex: "tableName"
+    }),
     markdownContainerPlugin({
       type: 'rtl',
       before: ()=> `<div dir="rtl" class="rtl-block">`,
