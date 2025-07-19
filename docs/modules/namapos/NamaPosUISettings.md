@@ -1509,6 +1509,24 @@
 
 </div>
 
+<div class="row searchable" id="totalsPaneColor">
+<div class="cell" data-label="Property">totalsPaneColor</div>
+<div class="cell" data-label="Column">totalsPaneColor</div>
+<div class="cell" data-label="Arabic">لون الإجماليات</div>
+<div class="cell" data-label="English">Totals Pane Color</div>
+<div class="cell" data-label="Type">Color</div>
+
+</div>
+
+<div class="row searchable" id="totalsPaneFontColor">
+<div class="cell" data-label="Property">totalsPaneFontColor</div>
+<div class="cell" data-label="Column">totalsPaneFontColor</div>
+<div class="cell" data-label="Arabic">لون خط الإجماليات</div>
+<div class="cell" data-label="English">Totals Pane Font Color</div>
+<div class="cell" data-label="Type">Color</div>
+
+</div>
+
 <div class="row searchable" id="transferUiInfo.colsCountPerRow">
 <div class="cell" data-label="Property">transferUiInfo.colsCountPerRow</div>
 <div class="cell" data-label="Column">trColsCountPerRow</div>

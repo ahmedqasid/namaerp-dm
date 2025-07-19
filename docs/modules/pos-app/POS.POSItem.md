@@ -1089,6 +1089,15 @@
 
 </div>
 
+<div class="row searchable" id="units.maxPrice">
+<div class="cell" data-label="Property">units.maxPrice</div>
+<div class="cell" data-label="Column">maxPrice</div>
+<div class="cell" data-label="Arabic">اقصي سعر</div>
+<div class="cell" data-label="English">Max Price</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="units.minPrice">
 <div class="cell" data-label="Property">units.minPrice</div>
 <div class="cell" data-label="Column">minPrice</div>

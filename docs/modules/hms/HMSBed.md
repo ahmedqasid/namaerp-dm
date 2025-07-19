@@ -16,7 +16,16 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="analysisSet">
+</div><div class="row searchable" id="alwaysAvailable">
+<div class="cell" data-label="Property">alwaysAvailable</div>
+<div class="cell" data-label="Column">alwaysAvailable</div>
+<div class="cell" data-label="Arabic">متاحة دائماً</div>
+<div class="cell" data-label="English">Always Available</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="analysisSet">
 <div class="cell" data-label="Property">analysisSet</div>
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic">المجموعة التحليلية</div>
