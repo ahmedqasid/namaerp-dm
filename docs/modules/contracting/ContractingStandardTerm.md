@@ -117,6 +117,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="contractingTaxExtractTerm">
+<div class="cell" data-label="Property">contractingTaxExtractTerm</div>
+<div class="cell" data-label="Column">contractingTaxExtractTerm_id</div>
+<div class="cell" data-label="Arabic">بند مستخلص ضريبي</div>
+<div class="cell" data-label="English">Contracting Tax Extract Term</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ContractingTaxExtractTerm](/modules/contracting/ContractingTaxExtractTerm.md) 
+</div>
+</div>
+
 <div class="row searchable" id="contractingUOM">
 <div class="cell" data-label="Property">contractingUOM</div>
 <div class="cell" data-label="Column">contractingUOM_id</div>

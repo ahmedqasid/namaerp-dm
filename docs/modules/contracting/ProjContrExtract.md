@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#additionalInfo'>additionalInfo (ProjectExtractInfoLine) </a> , <a href='#conditions'>conditions (ProjExtractCondLine) </a> , <a href='#details'>details (ProjContrExtractLine) </a> , <a href='#externalPaymentLines'>externalPaymentLines (ProjContrExtractExternalPayLine) </a> , <a href='#phaseTermLines'>phaseTermLines (ProjContrExtractPhaseTermLine) </a> , <a href='#scheduleLines'>scheduleLines (ProjExtractScheduledPayLine) </a>
+<a href='#additionalInfo'>additionalInfo (ProjectExtractInfoLine) </a> , <a href='#conditions'>conditions (ProjExtractCondLine) </a> , <a href='#details'>details (ProjContrExtractLine) </a> , <a href='#externalPaymentLines'>externalPaymentLines (ProjContrExtractExternalPayLine) </a> , <a href='#phaseTermLines'>phaseTermLines (ProjContrExtractPhaseTermLine) </a> , <a href='#scheduleLines'>scheduleLines (ProjExtractScheduledPayLine) </a> , <a href='#taxingDetails'>taxingDetails (ProjContrExtractTaxDetailLine) </a>
 </div>
 
 <div class='searchable'>
@@ -1449,6 +1449,42 @@
 
 </div>
 
+<div class="row searchable" id="taxAuthoritySysFields.submissionUUID">
+<div class="cell" data-label="Property">taxAuthoritySysFields.submissionUUID</div>
+<div class="cell" data-label="Column">submissionUUID</div>
+<div class="cell" data-label="Arabic">معرف مرحلة الارسال</div>
+<div class="cell" data-label="English">Submission ID</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="taxAuthoritySysFields.taxAuthEntityStatusType">
+<div class="cell" data-label="Property">taxAuthoritySysFields.taxAuthEntityStatusType</div>
+<div class="cell" data-label="Column">taxAuthEntityStatusType</div>
+<div class="cell" data-label="Arabic">حالة المستند بالنسبة لمصلحة الضرائب</div>
+<div class="cell" data-label="English">Tax Authority Document Type</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="taxAuthoritySysFields.taxAuthUUID">
+<div class="cell" data-label="Property">taxAuthoritySysFields.taxAuthUUID</div>
+<div class="cell" data-label="Column">taxAuthUUID</div>
+<div class="cell" data-label="Arabic">معرف المستند داخل مصلحة الضرائب</div>
+<div class="cell" data-label="English">Tax Authority Document View ID</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="taxAuthoritySysFields.temporaryId">
+<div class="cell" data-label="Property">taxAuthoritySysFields.temporaryId</div>
+<div class="cell" data-label="Column">temporaryId</div>
+<div class="cell" data-label="Arabic">معرف لمطالعة المستند بدون تسجيل دخول</div>
+<div class="cell" data-label="English">Tax Authority Not Registered Person Document View ID</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="taxPlan">
 <div class="cell" data-label="Property">taxPlan</div>
 <div class="cell" data-label="Column">taxPlan_id</div>
@@ -2395,6 +2431,18 @@
 <div class="cell" data-label="English">Quantity | Contracted</div>
 <div class="cell" data-label="Type">Decimal</div>
 
+</div>
+
+<div class="row searchable" id="details.contractingTaxExtractTerm">
+<div class="cell" data-label="Property">details.contractingTaxExtractTerm</div>
+<div class="cell" data-label="Column">contractingTaxExtractTerm_id</div>
+<div class="cell" data-label="Arabic">بند مستخلص ضريبي</div>
+<div class="cell" data-label="English">Contracting Tax Extract Term</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ContractingTaxExtractTerm](/modules/contracting/ContractingTaxExtractTerm.md) 
+</div>
 </div>
 
 <div class="row searchable" id="details.contractingUOM">
@@ -6384,6 +6432,649 @@
 <div class="cell" data-label="Arabic">نـــــص 2</div>
 <div class="cell" data-label="English">Text 2</div>
 <div class="cell" data-label="Type">Text</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='taxingDetails' title='taxingDetails' class='searchable'>
+
+## taxingDetails (التفاصيل الضريبية - Taxing Details)
+
+<div class='tableName'>
+
+**Table Name:** ProjContrExtractTaxDetailLine, **Join Column:** projContrExtract_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="taxingDetails.contractingTaxExtractTerm">
+<div class="cell" data-label="Property">taxingDetails.contractingTaxExtractTerm</div>
+<div class="cell" data-label="Column">contractingTaxExtractTerm_id</div>
+<div class="cell" data-label="Arabic">بند مستخلص ضريبي</div>
+<div class="cell" data-label="English">Contracting Tax Extract Term</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ContractingTaxExtractTerm](/modules/contracting/ContractingTaxExtractTerm.md) 
+</div>
+</div>
+
+<div class="row searchable" id="taxingDetails.genericDimensions.analysisSet">
+<div class="cell" data-label="Property">taxingDetails.genericDimensions.analysisSet</div>
+<div class="cell" data-label="Column">analysisSet_id</div>
+<div class="cell" data-label="Arabic">المجموعة التحليلية</div>
+<div class="cell" data-label="English">Analysis set</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [AnalysisSet](/modules/basic/AnalysisSet.md) 
+</div>
+</div>
+
+<div class="row searchable" id="taxingDetails.genericDimensions.branch">
+<div class="cell" data-label="Property">taxingDetails.genericDimensions.branch</div>
+<div class="cell" data-label="Column">branch_id</div>
+<div class="cell" data-label="Arabic">الفرع</div>
+<div class="cell" data-label="English">Branch</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Branch](/modules/basic/Branch.md) 
+</div>
+</div>
+
+<div class="row searchable" id="taxingDetails.genericDimensions.department">
+<div class="cell" data-label="Property">taxingDetails.genericDimensions.department</div>
+<div class="cell" data-label="Column">department_id</div>
+<div class="cell" data-label="Arabic">الإدارة</div>
+<div class="cell" data-label="English">Department</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Department](/modules/basic/Department.md) 
+</div>
+</div>
+
+<div class="row searchable" id="taxingDetails.genericDimensions.legalEntity">
+<div class="cell" data-label="Property">taxingDetails.genericDimensions.legalEntity</div>
+<div class="cell" data-label="Column">legalEntity_id</div>
+<div class="cell" data-label="Arabic">الشركة</div>
+<div class="cell" data-label="English">Legal Entity</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LegalEntity](/modules/basic/LegalEntity.md) 
+</div>
+</div>
+
+<div class="row searchable" id="taxingDetails.genericDimensions.sector">
+<div class="cell" data-label="Property">taxingDetails.genericDimensions.sector</div>
+<div class="cell" data-label="Column">sector_id</div>
+<div class="cell" data-label="Arabic">القطاع</div>
+<div class="cell" data-label="English">Sector</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Sector](/modules/basic/Sector.md) 
+</div>
+</div>
+
+<div class="row searchable" id="taxingDetails.id">
+<div class="cell" data-label="Property">taxingDetails.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.lineNumber">
+<div class="cell" data-label="Property">taxingDetails.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.custom">
+<div class="cell" data-label="Property">taxingDetails.price.custom</div>
+<div class="cell" data-label="Column">custom</div>
+<div class="cell" data-label="Arabic">مخصص</div>
+<div class="cell" data-label="English">Custom</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount1.afterValue">
+<div class="cell" data-label="Property">taxingDetails.price.discount1.afterValue</div>
+<div class="cell" data-label="Column">dis1AfterValue</div>
+<div class="cell" data-label="Arabic">خصم 1 | صافي</div>
+<div class="cell" data-label="English">Discount 1 | After value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount1.maxNormalPercent">
+<div class="cell" data-label="Property">taxingDetails.price.discount1.maxNormalPercent</div>
+<div class="cell" data-label="Column">dis1MaxNormalPercent</div>
+<div class="cell" data-label="Arabic">خصم 1 | النسبة العادية</div>
+<div class="cell" data-label="English">Discount 1 | Normal Percent</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount1.percentage">
+<div class="cell" data-label="Property">taxingDetails.price.discount1.percentage</div>
+<div class="cell" data-label="Column">dis1Percentage</div>
+<div class="cell" data-label="Arabic">خصم 1 | %</div>
+<div class="cell" data-label="English">Discount 1 | %</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount1.value">
+<div class="cell" data-label="Property">taxingDetails.price.discount1.value</div>
+<div class="cell" data-label="Column">dis1Value</div>
+<div class="cell" data-label="Arabic">خصم 1 | قيمة</div>
+<div class="cell" data-label="English">Discount 1 | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount2.afterValue">
+<div class="cell" data-label="Property">taxingDetails.price.discount2.afterValue</div>
+<div class="cell" data-label="Column">dis2AfterValue</div>
+<div class="cell" data-label="Arabic">خصم 2 | صافي</div>
+<div class="cell" data-label="English">Discount 2 | After value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount2.maxNormalPercent">
+<div class="cell" data-label="Property">taxingDetails.price.discount2.maxNormalPercent</div>
+<div class="cell" data-label="Column">dis2MaxNormalPercent</div>
+<div class="cell" data-label="Arabic">خصم 2 | النسبة العادية</div>
+<div class="cell" data-label="English">Discount 2 | Normal Percent</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount2.percentage">
+<div class="cell" data-label="Property">taxingDetails.price.discount2.percentage</div>
+<div class="cell" data-label="Column">dis2Percentage</div>
+<div class="cell" data-label="Arabic">خصم 2 | %</div>
+<div class="cell" data-label="English">Discount 2 | %</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount2.value">
+<div class="cell" data-label="Property">taxingDetails.price.discount2.value</div>
+<div class="cell" data-label="Column">dis2Value</div>
+<div class="cell" data-label="Arabic">خصم 2 | قيمة</div>
+<div class="cell" data-label="English">Discount 2 | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount3.afterValue">
+<div class="cell" data-label="Property">taxingDetails.price.discount3.afterValue</div>
+<div class="cell" data-label="Column">dis3AfterValue</div>
+<div class="cell" data-label="Arabic">خصم 3 | صافي</div>
+<div class="cell" data-label="English">Discount 3 | After value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount3.maxNormalPercent">
+<div class="cell" data-label="Property">taxingDetails.price.discount3.maxNormalPercent</div>
+<div class="cell" data-label="Column">dis3MaxNormalPercent</div>
+<div class="cell" data-label="Arabic">خصم 3 | النسبة العادية</div>
+<div class="cell" data-label="English">Discount 3 | Normal Percent</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount3.percentage">
+<div class="cell" data-label="Property">taxingDetails.price.discount3.percentage</div>
+<div class="cell" data-label="Column">dis3Percentage</div>
+<div class="cell" data-label="Arabic">خصم 3 | %</div>
+<div class="cell" data-label="English">Discount 3 | %</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount3.value">
+<div class="cell" data-label="Property">taxingDetails.price.discount3.value</div>
+<div class="cell" data-label="Column">dis3Value</div>
+<div class="cell" data-label="Arabic">خصم 3 | قيمة</div>
+<div class="cell" data-label="English">Discount 3 | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount4.afterValue">
+<div class="cell" data-label="Property">taxingDetails.price.discount4.afterValue</div>
+<div class="cell" data-label="Column">dis4AfterValue</div>
+<div class="cell" data-label="Arabic">خصم 4 | صافي</div>
+<div class="cell" data-label="English">Discount 4 | After value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount4.maxNormalPercent">
+<div class="cell" data-label="Property">taxingDetails.price.discount4.maxNormalPercent</div>
+<div class="cell" data-label="Column">dis4MaxNormalPercent</div>
+<div class="cell" data-label="Arabic">خصم 4 | النسبة العادية</div>
+<div class="cell" data-label="English">Discount 4 | Normal Percent</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount4.percentage">
+<div class="cell" data-label="Property">taxingDetails.price.discount4.percentage</div>
+<div class="cell" data-label="Column">dis4Percentage</div>
+<div class="cell" data-label="Arabic">خصم 4 | %</div>
+<div class="cell" data-label="English">Discount 4 | %</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount4.value">
+<div class="cell" data-label="Property">taxingDetails.price.discount4.value</div>
+<div class="cell" data-label="Column">dis4Value</div>
+<div class="cell" data-label="Arabic">خصم 4 | قيمة</div>
+<div class="cell" data-label="English">Discount 4 | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount5.afterValue">
+<div class="cell" data-label="Property">taxingDetails.price.discount5.afterValue</div>
+<div class="cell" data-label="Column">dis5AfterValue</div>
+<div class="cell" data-label="Arabic">خصم 5 | صافي</div>
+<div class="cell" data-label="English">Discount 5 | After value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount5.maxNormalPercent">
+<div class="cell" data-label="Property">taxingDetails.price.discount5.maxNormalPercent</div>
+<div class="cell" data-label="Column">dis5MaxNormalPercent</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount5.percentage">
+<div class="cell" data-label="Property">taxingDetails.price.discount5.percentage</div>
+<div class="cell" data-label="Column">dis5Percentage</div>
+<div class="cell" data-label="Arabic">خصم 5 | %</div>
+<div class="cell" data-label="English">Discount 5 | %</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount5.value">
+<div class="cell" data-label="Property">taxingDetails.price.discount5.value</div>
+<div class="cell" data-label="Column">dis5Value</div>
+<div class="cell" data-label="Arabic">خصم 5 | قيمة</div>
+<div class="cell" data-label="English">Discount 5 | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount6.afterValue">
+<div class="cell" data-label="Property">taxingDetails.price.discount6.afterValue</div>
+<div class="cell" data-label="Column">dis6AfterValue</div>
+<div class="cell" data-label="Arabic">خصم 6 | صافي</div>
+<div class="cell" data-label="English">Discount 6 | After value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount6.maxNormalPercent">
+<div class="cell" data-label="Property">taxingDetails.price.discount6.maxNormalPercent</div>
+<div class="cell" data-label="Column">dis6MaxNormalPercent</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount6.percentage">
+<div class="cell" data-label="Property">taxingDetails.price.discount6.percentage</div>
+<div class="cell" data-label="Column">dis6Percentage</div>
+<div class="cell" data-label="Arabic">خصم 6 | %</div>
+<div class="cell" data-label="English">Discount 6 | %</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount6.value">
+<div class="cell" data-label="Property">taxingDetails.price.discount6.value</div>
+<div class="cell" data-label="Column">dis6Value</div>
+<div class="cell" data-label="Arabic">خصم 6 | قيمة</div>
+<div class="cell" data-label="English">Discount 6 | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount7.afterValue">
+<div class="cell" data-label="Property">taxingDetails.price.discount7.afterValue</div>
+<div class="cell" data-label="Column">dis7AfterValue</div>
+<div class="cell" data-label="Arabic">خصم 7 | صافي</div>
+<div class="cell" data-label="English">Discount 7 | After value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount7.maxNormalPercent">
+<div class="cell" data-label="Property">taxingDetails.price.discount7.maxNormalPercent</div>
+<div class="cell" data-label="Column">dis7MaxNormalPercent</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount7.percentage">
+<div class="cell" data-label="Property">taxingDetails.price.discount7.percentage</div>
+<div class="cell" data-label="Column">dis7Percentage</div>
+<div class="cell" data-label="Arabic">خصم 7 | %</div>
+<div class="cell" data-label="English">Discount 7 | %</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount7.value">
+<div class="cell" data-label="Property">taxingDetails.price.discount7.value</div>
+<div class="cell" data-label="Column">dis7Value</div>
+<div class="cell" data-label="Arabic">خصم 7 | قيمة</div>
+<div class="cell" data-label="English">Discount 7 | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount8.afterValue">
+<div class="cell" data-label="Property">taxingDetails.price.discount8.afterValue</div>
+<div class="cell" data-label="Column">dis8AfterValue</div>
+<div class="cell" data-label="Arabic">خصم 8 | صافي</div>
+<div class="cell" data-label="English">Discount 8 | After value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount8.maxNormalPercent">
+<div class="cell" data-label="Property">taxingDetails.price.discount8.maxNormalPercent</div>
+<div class="cell" data-label="Column">dis8MaxNormalPercent</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount8.percentage">
+<div class="cell" data-label="Property">taxingDetails.price.discount8.percentage</div>
+<div class="cell" data-label="Column">dis8Percentage</div>
+<div class="cell" data-label="Arabic">خصم 8 | %</div>
+<div class="cell" data-label="English">Discount 8 | %</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.discount8.value">
+<div class="cell" data-label="Property">taxingDetails.price.discount8.value</div>
+<div class="cell" data-label="Column">dis8Value</div>
+<div class="cell" data-label="Arabic">خصم 8 | قيمة</div>
+<div class="cell" data-label="English">Discount 8 | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.headerDicount.afterValue">
+<div class="cell" data-label="Property">taxingDetails.price.headerDicount.afterValue</div>
+<div class="cell" data-label="Column">hdrAfterValue</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.headerDicount.maxNormalPercent">
+<div class="cell" data-label="Property">taxingDetails.price.headerDicount.maxNormalPercent</div>
+<div class="cell" data-label="Column">hdrMaxNormalPercent</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.headerDicount.percentage">
+<div class="cell" data-label="Property">taxingDetails.price.headerDicount.percentage</div>
+<div class="cell" data-label="Column">hdrPercentage</div>
+<div class="cell" data-label="Arabic">النسبة</div>
+<div class="cell" data-label="English">Percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.headerDicount.value">
+<div class="cell" data-label="Property">taxingDetails.price.headerDicount.value</div>
+<div class="cell" data-label="Column">hdrValue</div>
+<div class="cell" data-label="Arabic">القيمة</div>
+<div class="cell" data-label="English">Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.netValue">
+<div class="cell" data-label="Property">taxingDetails.price.netValue</div>
+<div class="cell" data-label="Column">netValue</div>
+<div class="cell" data-label="Arabic">الصافي</div>
+<div class="cell" data-label="English">Net value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.price">
+<div class="cell" data-label="Property">taxingDetails.price.price</div>
+<div class="cell" data-label="Column">price</div>
+<div class="cell" data-label="Arabic">الأسعار | السعر الكلي</div>
+<div class="cell" data-label="English">Prices | total price</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax1.afterValue">
+<div class="cell" data-label="Property">taxingDetails.price.tax1.afterValue</div>
+<div class="cell" data-label="Column">tax1AfterValue</div>
+<div class="cell" data-label="Arabic">ضريبة مبيعات | الصافي</div>
+<div class="cell" data-label="English">Tax | After Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax1.maxNormalPercent">
+<div class="cell" data-label="Property">taxingDetails.price.tax1.maxNormalPercent</div>
+<div class="cell" data-label="Column">tax1MaxNormalPercent</div>
+<div class="cell" data-label="Arabic">ضريبة مبيعات | %</div>
+<div class="cell" data-label="English">Item Tax | %</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax1.percentage">
+<div class="cell" data-label="Property">taxingDetails.price.tax1.percentage</div>
+<div class="cell" data-label="Column">tax1Percentage</div>
+<div class="cell" data-label="Arabic">قيمة إضافية 1</div>
+<div class="cell" data-label="English">Tax 1</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax1.value">
+<div class="cell" data-label="Property">taxingDetails.price.tax1.value</div>
+<div class="cell" data-label="Column">tax1Value</div>
+<div class="cell" data-label="Arabic">ضريبة مبيعات | القيمة</div>
+<div class="cell" data-label="English">Tax value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax2.afterValue">
+<div class="cell" data-label="Property">taxingDetails.price.tax2.afterValue</div>
+<div class="cell" data-label="Column">tax2AfterValue</div>
+<div class="cell" data-label="Arabic">ضريبة مبيعات 2 | الصافي</div>
+<div class="cell" data-label="English">Tax 2 | After Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax2.maxNormalPercent">
+<div class="cell" data-label="Property">taxingDetails.price.tax2.maxNormalPercent</div>
+<div class="cell" data-label="Column">tax2MaxNormalPercent</div>
+<div class="cell" data-label="Arabic">ضريبة مبيعات 2 | %</div>
+<div class="cell" data-label="English">Tax 2 | %</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax2.percentage">
+<div class="cell" data-label="Property">taxingDetails.price.tax2.percentage</div>
+<div class="cell" data-label="Column">tax2Percentage</div>
+<div class="cell" data-label="Arabic">قيمة إضافية 2</div>
+<div class="cell" data-label="English">Tax 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax2.value">
+<div class="cell" data-label="Property">taxingDetails.price.tax2.value</div>
+<div class="cell" data-label="Column">tax2Value</div>
+<div class="cell" data-label="Arabic">ضريبة مبيعات 2 | القيمة</div>
+<div class="cell" data-label="English">Tax 2 | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax3.afterValue">
+<div class="cell" data-label="Property">taxingDetails.price.tax3.afterValue</div>
+<div class="cell" data-label="Column">tax3AfterValue</div>
+<div class="cell" data-label="Arabic">ضريبة 3 | الصافي</div>
+<div class="cell" data-label="English">Tax 3 | After Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax3.maxNormalPercent">
+<div class="cell" data-label="Property">taxingDetails.price.tax3.maxNormalPercent</div>
+<div class="cell" data-label="Column">tax3MaxNormalPercent</div>
+<div class="cell" data-label="Arabic">ضريبة 3 | %</div>
+<div class="cell" data-label="English">Tax 3 | %</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax3.percentage">
+<div class="cell" data-label="Property">taxingDetails.price.tax3.percentage</div>
+<div class="cell" data-label="Column">tax3Percentage</div>
+<div class="cell" data-label="Arabic">النسبة</div>
+<div class="cell" data-label="English">Percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax3.value">
+<div class="cell" data-label="Property">taxingDetails.price.tax3.value</div>
+<div class="cell" data-label="Column">tax3Value</div>
+<div class="cell" data-label="Arabic">ضريبة 3 | القيمة</div>
+<div class="cell" data-label="English">Tax 3 | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax4.afterValue">
+<div class="cell" data-label="Property">taxingDetails.price.tax4.afterValue</div>
+<div class="cell" data-label="Column">tax4AfterValue</div>
+<div class="cell" data-label="Arabic">ضريبة 4 | الصافي</div>
+<div class="cell" data-label="English">Tax 4 | After Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax4.maxNormalPercent">
+<div class="cell" data-label="Property">taxingDetails.price.tax4.maxNormalPercent</div>
+<div class="cell" data-label="Column">tax4MaxNormalPercent</div>
+<div class="cell" data-label="Arabic">ضريبة 4 | %</div>
+<div class="cell" data-label="English">Tax 4 | %</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax4.percentage">
+<div class="cell" data-label="Property">taxingDetails.price.tax4.percentage</div>
+<div class="cell" data-label="Column">tax4Percentage</div>
+<div class="cell" data-label="Arabic">النسبة</div>
+<div class="cell" data-label="English">Percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.tax4.value">
+<div class="cell" data-label="Property">taxingDetails.price.tax4.value</div>
+<div class="cell" data-label="Column">tax4Value</div>
+<div class="cell" data-label="Arabic">ضريبة 4 | القيمة</div>
+<div class="cell" data-label="English">Tax 4 | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.totalCashShare">
+<div class="cell" data-label="Property">taxingDetails.price.totalCashShare</div>
+<div class="cell" data-label="Column">totalCashShare</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.totalPaymentMethodShare">
+<div class="cell" data-label="Property">taxingDetails.price.totalPaymentMethodShare</div>
+<div class="cell" data-label="Column">totalPaymentMethodShare</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.price.unitPrice">
+<div class="cell" data-label="Property">taxingDetails.price.unitPrice</div>
+<div class="cell" data-label="Column">unitPrice</div>
+<div class="cell" data-label="Arabic">سعر الوحدة</div>
+<div class="cell" data-label="English">Prices | Unit price</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxingDetails.quantity">
+<div class="cell" data-label="Property">taxingDetails.quantity</div>
+<div class="cell" data-label="Column">quantity</div>
+<div class="cell" data-label="Arabic">الكمية</div>
+<div class="cell" data-label="English">Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 

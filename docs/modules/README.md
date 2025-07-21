@@ -441,6 +441,7 @@
     - [ContractingPurchaseRequest](/modules/contracting/ContractingPurchaseRequest.md)
     - [ContractingStandardTerm](/modules/contracting/ContractingStandardTerm.md)
     - [ContractingTask](/modules/contracting/ContractingTask.md)
+    - [ContractingTaxExtractTerm](/modules/contracting/ContractingTaxExtractTerm.md)
     - [ContractingUOM](/modules/contracting/ContractingUOM.md)
     - [Contractor](/modules/contracting/Contractor.md)
     - [ContractorAdvancePayment](/modules/contracting/ContractorAdvancePayment.md)

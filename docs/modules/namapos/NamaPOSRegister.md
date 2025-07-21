@@ -1521,6 +1521,15 @@
 
 </div>
 
+<div class="row searchable" id="subRegisterForCaptainOrder">
+<div class="cell" data-label="Property">subRegisterForCaptainOrder</div>
+<div class="cell" data-label="Column">subRegisterForCaptainOrder</div>
+<div class="cell" data-label="Arabic">ماكينة فرعية لكابتن أوردر</div>
+<div class="cell" data-label="English">Subordinate Register For Captain Order</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="subsidiaryAccounts.account1">
 <div class="cell" data-label="Property">subsidiaryAccounts.account1</div>
 <div class="cell" data-label="Column">account1_id</div>
