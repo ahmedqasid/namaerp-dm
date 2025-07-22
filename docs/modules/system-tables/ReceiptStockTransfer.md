@@ -2,17 +2,17 @@
 <div class='tableName'>
 
 
-# StockTransfer
+# ReceiptStockTransfer
 </div>
 
-**Arabic:** سند تحويل مخزني - تحويلات مخزنية
-**English:** Stock Transfer - Stock Transfer Documents
+**Arabic:** استلام تحويل مخزني - استلام تحويلات مخزنية
+**English:** Receipt Stock Transfer - Receipt Stock Transfers
 
 <ContentFilter/>
 
 
 <div class='searchable'>
-<a href='#details'>details (StockTransferLine) </a>
+<a href='#details'>details (ReceiptStockTransferLine) </a>
 </div>
 
 <div class='searchable'>
@@ -708,15 +708,15 @@
 
 </div>
 
-<div class="row searchable" id="issueTransfer">
-<div class="cell" data-label="Property">issueTransfer</div>
-<div class="cell" data-label="Column">issueTransfer_id</div>
-<div class="cell" data-label="Arabic">مستند صرف التحويل المخزني</div>
-<div class="cell" data-label="English">Issue Transfer</div>
+<div class="row searchable" id="issueStockTransfer">
+<div class="cell" data-label="Property">issueStockTransfer</div>
+<div class="cell" data-label="Column">issueStockTransfer_id</div>
+<div class="cell" data-label="Arabic">صرف تحويل مخزني</div>
+<div class="cell" data-label="English">Issue Stock Transfer</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [StockTransfer](/modules/supplychain-inventory/StockTransfer.md) 
+ [IssueStockTransfer](/modules/system-tables/IssueStockTransfer.md) 
 </div>
 </div>
 
@@ -1503,8 +1503,8 @@
 <div class="row searchable" id="warehouse">
 <div class="cell" data-label="Property">warehouse</div>
 <div class="cell" data-label="Column">warehouse_id</div>
-<div class="cell" data-label="Arabic">من مخزن</div>
-<div class="cell" data-label="English">From Warehouse</div>
+<div class="cell" data-label="Arabic">المخزن</div>
+<div class="cell" data-label="English">Warehouse</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -1522,7 +1522,7 @@
 
 <div class='tableName'>
 
-**Table Name:** StockTransferLine, **Join Column:** stockTransfer_id
+**Table Name:** ReceiptStockTransferLine, **Join Column:** receiptStockTransfer_id
 
 </div>
 
@@ -1705,8 +1705,8 @@
 <div class="row searchable" id="details.genericDimensions.department">
 <div class="cell" data-label="Property">details.genericDimensions.department</div>
 <div class="cell" data-label="Column">department_id</div>
-<div class="cell" data-label="Arabic">من قسم</div>
-<div class="cell" data-label="English">From Department</div>
+<div class="cell" data-label="Arabic">الإدارة</div>
+<div class="cell" data-label="English">Department</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -2224,8 +2224,8 @@
 <div class="row searchable" id="details.specificDimensions.locator">
 <div class="cell" data-label="Property">details.specificDimensions.locator</div>
 <div class="cell" data-label="Column">locator_id</div>
-<div class="cell" data-label="Arabic">موقع | من</div>
-<div class="cell" data-label="English">Locator | From</div>
+<div class="cell" data-label="Arabic">الموقع</div>
+<div class="cell" data-label="English">Locator</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -2383,8 +2383,8 @@
 <div class="row searchable" id="details.toDimensions.department">
 <div class="cell" data-label="Property">details.toDimensions.department</div>
 <div class="cell" data-label="Column">toDimensionsDepartment_id</div>
-<div class="cell" data-label="Arabic">إلى قسم</div>
-<div class="cell" data-label="English">To Department</div>
+<div class="cell" data-label="Arabic">إلى إدارة</div>
+<div class="cell" data-label="English">to Department</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -2554,8 +2554,8 @@
 <div class="row searchable" id="details.toLocator">
 <div class="cell" data-label="Property">details.toLocator</div>
 <div class="cell" data-label="Column">toLocator_id</div>
-<div class="cell" data-label="Arabic">موقع | إلى</div>
-<div class="cell" data-label="English">Locator | To</div>
+<div class="cell" data-label="Arabic">إلي موقع</div>
+<div class="cell" data-label="English">To Locator</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
