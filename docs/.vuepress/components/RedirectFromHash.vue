@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <p>Redirecting...</p>
-  </div>
+
 </template>
 
 <script lang="ts" setup>
