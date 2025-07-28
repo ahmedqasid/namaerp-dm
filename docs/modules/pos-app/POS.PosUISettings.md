@@ -1087,6 +1087,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="cancelReservationGridFields.widthSize">
+<div class="cell" data-label="Property">cancelReservationGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -1148,6 +1157,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="cancelReservationMainFields.widthSize">
+<div class="cell" data-label="Property">cancelReservationMainFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -1207,6 +1225,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="cancelReservationOtherFields.widthSize">
+<div class="cell" data-label="Property">cancelReservationOtherFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 
@@ -1279,6 +1306,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="customerDisplayWindowFooterFields.widthSize">
+<div class="cell" data-label="Property">customerDisplayWindowFooterFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -1347,6 +1383,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="customerDisplayWindowHeaderFields.widthSize">
+<div class="cell" data-label="Property">customerDisplayWindowHeaderFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 
@@ -1419,6 +1464,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="customerDisplayWindowTableColumns.widthSize">
+<div class="cell" data-label="Property">customerDisplayWindowTableColumns.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -1489,6 +1543,15 @@
 
 </div>
 
+<div class="row searchable" id="customerFields.widthSize">
+<div class="cell" data-label="Property">customerFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -1548,6 +1611,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="mainPageFields.widthSize">
+<div class="cell" data-label="Property">mainPageFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 
@@ -1611,6 +1683,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="orderReservationGridFields.widthSize">
+<div class="cell" data-label="Property">orderReservationGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -1670,6 +1751,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="orderReservationMainFields.widthSize">
+<div class="cell" data-label="Property">orderReservationMainFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 
@@ -1733,6 +1823,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="orderReservationOtherFields.widthSize">
+<div class="cell" data-label="Property">orderReservationOtherFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -1792,6 +1891,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="otherPageFields.widthSize">
+<div class="cell" data-label="Property">otherPageFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 
@@ -1895,6 +2003,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="replacementGridFields.widthSize">
+<div class="cell" data-label="Property">replacementGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -1954,6 +2071,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="replacementMainFields.widthSize">
+<div class="cell" data-label="Property">replacementMainFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 
@@ -2017,6 +2143,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="replacementOtherFields.widthSize">
+<div class="cell" data-label="Property">replacementOtherFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -2076,6 +2211,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="returnGridFields.widthSize">
+<div class="cell" data-label="Property">returnGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 
@@ -2139,6 +2283,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="returnMainFields.widthSize">
+<div class="cell" data-label="Property">returnMainFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -2198,6 +2351,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="returnOtherFields.widthSize">
+<div class="cell" data-label="Property">returnOtherFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 
@@ -2261,6 +2423,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="salesGridFields.widthSize">
+<div class="cell" data-label="Property">salesGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -2320,6 +2491,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="scrapDocGridFields.widthSize">
+<div class="cell" data-label="Property">scrapDocGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 
@@ -2383,6 +2563,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="scrapDocMainFields.widthSize">
+<div class="cell" data-label="Property">scrapDocMainFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -2442,6 +2631,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="scrapDocOtherFields.widthSize">
+<div class="cell" data-label="Property">scrapDocOtherFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 
@@ -2706,6 +2904,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="shortfallsDocGridFields.widthSize">
+<div class="cell" data-label="Property">shortfallsDocGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -2765,6 +2972,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="shortfallsDocMainFields.widthSize">
+<div class="cell" data-label="Property">shortfallsDocMainFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 
@@ -2828,6 +3044,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="shortfallsDocOtherFields.widthSize">
+<div class="cell" data-label="Property">shortfallsDocOtherFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -2887,6 +3112,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="stockReceiptGridFields.widthSize">
+<div class="cell" data-label="Property">stockReceiptGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 
@@ -2950,6 +3184,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="stockReceiptMainFields.widthSize">
+<div class="cell" data-label="Property">stockReceiptMainFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -3009,6 +3252,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="stockReceiptOtherFields.widthSize">
+<div class="cell" data-label="Property">stockReceiptOtherFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 
@@ -3072,6 +3324,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="takingGridFields.widthSize">
+<div class="cell" data-label="Property">takingGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -3131,6 +3392,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="takingMainFields.widthSize">
+<div class="cell" data-label="Property">takingMainFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 
@@ -3194,6 +3464,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="takingOtherFields.widthSize">
+<div class="cell" data-label="Property">takingOtherFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -3253,6 +3532,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="transferGridFields.widthSize">
+<div class="cell" data-label="Property">transferGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 
@@ -3316,6 +3604,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="transferMainFields.widthSize">
+<div class="cell" data-label="Property">transferMainFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
@@ -3375,6 +3672,15 @@
 
  [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
 </div>
+</div>
+
+<div class="row searchable" id="transferOtherFields.widthSize">
+<div class="cell" data-label="Property">transferOtherFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 

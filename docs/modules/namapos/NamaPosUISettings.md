@@ -1681,6 +1681,15 @@
 
 </div>
 
+<div class="row searchable" id="cancelReservationGridFields.widthSize">
+<div class="cell" data-label="Property">cancelReservationGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 
 </div>
 </div>
@@ -1953,6 +1962,15 @@
 
 </div>
 
+<div class="row searchable" id="customerDisplayWindowTableColumns.widthSize">
+<div class="cell" data-label="Property">customerDisplayWindowTableColumns.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 
 </div>
 </div>
@@ -2106,6 +2124,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="orderReservationGridFields.widthSize">
+<div class="cell" data-label="Property">orderReservationGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Enum</div>
 
 </div>
 
@@ -2354,6 +2381,15 @@
 
 </div>
 
+<div class="row searchable" id="receiptGridFields.widthSize">
+<div class="cell" data-label="Property">receiptGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 
 </div>
 </div>
@@ -2498,6 +2534,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="replacementGridFields.widthSize">
+<div class="cell" data-label="Property">replacementGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Enum</div>
 
 </div>
 
@@ -2648,6 +2693,15 @@
 
 </div>
 
+<div class="row searchable" id="returnGridFields.widthSize">
+<div class="cell" data-label="Property">returnGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 
 </div>
 </div>
@@ -2795,6 +2849,15 @@
 
 </div>
 
+<div class="row searchable" id="salesGridFields.widthSize">
+<div class="cell" data-label="Property">salesGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 
 </div>
 </div>
@@ -2841,6 +2904,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="scrapDocGridFields.widthSize">
+<div class="cell" data-label="Property">scrapDocGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Enum</div>
 
 </div>
 
@@ -3192,6 +3264,15 @@
 
 </div>
 
+<div class="row searchable" id="shortfallsDocGridFields.widthSize">
+<div class="cell" data-label="Property">shortfallsDocGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 
 </div>
 </div>
@@ -3339,6 +3420,15 @@
 
 </div>
 
+<div class="row searchable" id="takingGridFields.widthSize">
+<div class="cell" data-label="Property">takingGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 
 </div>
 </div>
@@ -3483,6 +3573,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="transferGridFields.widthSize">
+<div class="cell" data-label="Property">transferGridFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Enum</div>
 
 </div>
 

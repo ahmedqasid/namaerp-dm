@@ -716,7 +716,7 @@
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [IssueStockTransfer](/modules/system-tables/IssueStockTransfer.md) 
+ [IssueStockTransfer](/modules/supplychain-inventory/IssueStockTransfer.md) 
 </div>
 </div>
 

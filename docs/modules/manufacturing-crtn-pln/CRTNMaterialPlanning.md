@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#documents'>documents (CRTNMaterialPlanningLine) </a> , <a href='#items'>items (CRTNMaterialPlanningItemLine) </a> , <a href='#materials'>materials (CRTNMaterialPlanningMaterialLine) </a>
+<a href='#availableMaterials'>availableMaterials (CRTNMaterialPlanningAvailableMaterial) </a> , <a href='#documents'>documents (CRTNMaterialPlanningLine) </a> , <a href='#items'>items (CRTNMaterialPlanningItemLine) </a> , <a href='#materials'>materials (CRTNMaterialPlanningMaterialLine) </a>
 </div>
 
 <div class='searchable'>
@@ -930,6 +930,181 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='availableMaterials' title='availableMaterials' class='searchable'>
+
+## availableMaterials (الخامات المتاحة - Available Materials)
+
+<div class='tableName'>
+
+**Table Name:** CRTNMaterialPlanningAvailableMaterial, **Join Column:** cRTNMaterialPlanning_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="availableMaterials.availableQty">
+<div class="cell" data-label="Property">availableMaterials.availableQty</div>
+<div class="cell" data-label="Column">availableQty</div>
+<div class="cell" data-label="Arabic">الكمية المتاحة</div>
+<div class="cell" data-label="English">Available Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="availableMaterials.id">
+<div class="cell" data-label="Property">availableMaterials.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="availableMaterials.item">
+<div class="cell" data-label="Property">availableMaterials.item</div>
+<div class="cell" data-label="Column">item_id</div>
+<div class="cell" data-label="Arabic">الصنف</div>
+<div class="cell" data-label="English">Item</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InvItem](/modules/supplychain/InvItem.md) 
+</div>
+</div>
+
+<div class="row searchable" id="availableMaterials.itemClass1">
+<div class="cell" data-label="Property">availableMaterials.itemClass1</div>
+<div class="cell" data-label="Column">itemClass1_id</div>
+<div class="cell" data-label="Arabic">تصنيف 1</div>
+<div class="cell" data-label="English">Class 1</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemClass1](/modules/supplychain/ItemClass1.md) 
+</div>
+</div>
+
+<div class="row searchable" id="availableMaterials.itemClass2">
+<div class="cell" data-label="Property">availableMaterials.itemClass2</div>
+<div class="cell" data-label="Column">itemClass2_id</div>
+<div class="cell" data-label="Arabic">تصنيف 2</div>
+<div class="cell" data-label="English">Class 2</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemClass2](/modules/supplychain/ItemClass2.md) 
+</div>
+</div>
+
+<div class="row searchable" id="availableMaterials.lineNumber">
+<div class="cell" data-label="Property">availableMaterials.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="availableMaterials.requiredQuantityInLayer1">
+<div class="cell" data-label="Property">availableMaterials.requiredQuantityInLayer1</div>
+<div class="cell" data-label="Column">requiredQuantityInLayer1</div>
+<div class="cell" data-label="Arabic">الكمية المطلوبة في الطبقة 1</div>
+<div class="cell" data-label="English">Required Quantity In Layer 1</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="availableMaterials.requiredQuantityInLayer2">
+<div class="cell" data-label="Property">availableMaterials.requiredQuantityInLayer2</div>
+<div class="cell" data-label="Column">requiredQuantityInLayer2</div>
+<div class="cell" data-label="Arabic">الكمية المطلوبة في الطبقة 2</div>
+<div class="cell" data-label="English">Required Quantity In Layer 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="availableMaterials.requiredQuantityInLayer3">
+<div class="cell" data-label="Property">availableMaterials.requiredQuantityInLayer3</div>
+<div class="cell" data-label="Column">requiredQuantityInLayer3</div>
+<div class="cell" data-label="Arabic">الكمية المطلوبة في الطبقة 3</div>
+<div class="cell" data-label="English">Required Quantity In Layer 3</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="availableMaterials.requiredQuantityInLayer4">
+<div class="cell" data-label="Property">availableMaterials.requiredQuantityInLayer4</div>
+<div class="cell" data-label="Column">requiredQuantityInLayer4</div>
+<div class="cell" data-label="Arabic">الكمية المطلوبة في الطبقة 4</div>
+<div class="cell" data-label="English">Required Quantity In Layer 4</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="availableMaterials.requiredQuantityInLayer5">
+<div class="cell" data-label="Property">availableMaterials.requiredQuantityInLayer5</div>
+<div class="cell" data-label="Column">requiredQuantityInLayer5</div>
+<div class="cell" data-label="Arabic">الكمية المطلوبة في الطبقة 5</div>
+<div class="cell" data-label="English">Required Quantity In Layer 5</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="availableMaterials.requiredQuantityInLayer6">
+<div class="cell" data-label="Property">availableMaterials.requiredQuantityInLayer6</div>
+<div class="cell" data-label="Column">requiredQuantityInLayer6</div>
+<div class="cell" data-label="Arabic">الكمية المطلوبة في الطبقة6</div>
+<div class="cell" data-label="English">Required Quantity In Layer 6</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="availableMaterials.requiredQuantityInLayer7">
+<div class="cell" data-label="Property">availableMaterials.requiredQuantityInLayer7</div>
+<div class="cell" data-label="Column">requiredQuantityInLayer7</div>
+<div class="cell" data-label="Arabic">الكمية المطلوبة في الطبقة 7</div>
+<div class="cell" data-label="English">Required Quantity In Layer 7</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="availableMaterials.rollWidth">
+<div class="cell" data-label="Property">availableMaterials.rollWidth</div>
+<div class="cell" data-label="Column">rollWidth</div>
+<div class="cell" data-label="Arabic">عرض البكرة</div>
+<div class="cell" data-label="English">Roll Width</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="availableMaterials.totalRequiredQuantity">
+<div class="cell" data-label="Property">availableMaterials.totalRequiredQuantity</div>
+<div class="cell" data-label="Column">totalRequiredQuantity</div>
+<div class="cell" data-label="Arabic">إجمالي الكميات المطلوبة</div>
+<div class="cell" data-label="English">Total Required Quantities</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="availableMaterials.unavailableQty">
+<div class="cell" data-label="Property">availableMaterials.unavailableQty</div>
+<div class="cell" data-label="Column">unavailableQty</div>
+<div class="cell" data-label="Arabic">الكمية الغير متاحة</div>
+<div class="cell" data-label="English">Unavailable Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 

@@ -171,6 +171,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="currencyRate">
+<div class="cell" data-label="Property">currencyRate</div>
+<div class="cell" data-label="Column">currencyRate</div>
+<div class="cell" data-label="Arabic">المعدل</div>
+<div class="cell" data-label="English">Currency Rate</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="currentApprovalCase">
 <div class="cell" data-label="Property">currentApprovalCase</div>
 <div class="cell" data-label="Column">currentApprovalCase_id</div>

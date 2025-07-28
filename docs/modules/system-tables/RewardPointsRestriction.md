@@ -2,13 +2,18 @@
 <div class='tableName'>
 
 
-# PurchaseForecastConfig
+# RewardPointsRestriction
 </div>
 
-**Arabic:** إعدادات توقعات المشتريات
-**English:** Purchase Forecast Configuration - Purchase Forecast Configurations
+**Arabic:** منع احتساب أو صرف نقاط الولاء
+**English:** Reward Points Restriction - Reward Points Restrictions
 
 <ContentFilter/>
+
+
+<div class='searchable'>
+<a href='#details'>details (RewardPointsRestrictionLine) </a>
+</div>
 
 <div class='searchable'>
 
@@ -88,213 +93,6 @@
 <div class="cell" data-label="Arabic">تم الحفظ مسبقا</div>
 <div class="cell" data-label="English">Commited Before</div>
 <div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="considerActivePerc">
-<div class="cell" data-label="Property">considerActivePerc</div>
-<div class="cell" data-label="Column">considerActivePerc</div>
-<div class="cell" data-label="Arabic">إعتبار النسبة الفعالة</div>
-<div class="cell" data-label="English">Consider Active Percentage</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="considerAnalysisSet">
-<div class="cell" data-label="Property">considerAnalysisSet</div>
-<div class="cell" data-label="Column">considerAnalysisSet</div>
-<div class="cell" data-label="Arabic">اعتبار المجموعة التحليلية</div>
-<div class="cell" data-label="English">Consider Analysis Set</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="considerBox">
-<div class="cell" data-label="Property">considerBox</div>
-<div class="cell" data-label="Column">considerBox</div>
-<div class="cell" data-label="Arabic">اعتبار الصندوق</div>
-<div class="cell" data-label="English">Consider Box</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="considerBranch">
-<div class="cell" data-label="Property">considerBranch</div>
-<div class="cell" data-label="Column">considerBranch</div>
-<div class="cell" data-label="Arabic">اعتبار الفرع</div>
-<div class="cell" data-label="English">Consider Branch</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="considerColor">
-<div class="cell" data-label="Property">considerColor</div>
-<div class="cell" data-label="Column">considerColor</div>
-<div class="cell" data-label="Arabic">اعتبار اللون</div>
-<div class="cell" data-label="English">Consider Color</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="considerDepartment">
-<div class="cell" data-label="Property">considerDepartment</div>
-<div class="cell" data-label="Column">considerDepartment</div>
-<div class="cell" data-label="Arabic">اعتبار الإدارة</div>
-<div class="cell" data-label="English">Consider Department</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="considerInactivePerc">
-<div class="cell" data-label="Property">considerInactivePerc</div>
-<div class="cell" data-label="Column">considerInactivePerc</div>
-<div class="cell" data-label="Arabic">إعتبار النسبة الغير فعالة</div>
-<div class="cell" data-label="English">Consider Inactive Percentage</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="considerLegalEntity">
-<div class="cell" data-label="Property">considerLegalEntity</div>
-<div class="cell" data-label="Column">considerLegalEntity</div>
-<div class="cell" data-label="Arabic">اعتبار الشركة</div>
-<div class="cell" data-label="English">ConsiderLegalEntity</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="considerLotId">
-<div class="cell" data-label="Property">considerLotId</div>
-<div class="cell" data-label="Column">considerLotId</div>
-<div class="cell" data-label="Arabic">اعتبار الشحنة</div>
-<div class="cell" data-label="English">Consider Lot</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="considerRevisionId">
-<div class="cell" data-label="Property">considerRevisionId</div>
-<div class="cell" data-label="Column">considerRevisionId</div>
-<div class="cell" data-label="Arabic">اعتبار الإصدار</div>
-<div class="cell" data-label="English">Consider Revision</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="considerSector">
-<div class="cell" data-label="Property">considerSector</div>
-<div class="cell" data-label="Column">considerSector</div>
-<div class="cell" data-label="Arabic">اعتبار القطاع</div>
-<div class="cell" data-label="English">Consider Sector</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="considerSize">
-<div class="cell" data-label="Property">considerSize</div>
-<div class="cell" data-label="Column">considerSize</div>
-<div class="cell" data-label="Arabic">اعتبار المقاس</div>
-<div class="cell" data-label="English">Consider Size</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="considerSubItem">
-<div class="cell" data-label="Property">considerSubItem</div>
-<div class="cell" data-label="Column">considerSubItem</div>
-<div class="cell" data-label="Arabic">اعتبار الصنف الفرعي</div>
-<div class="cell" data-label="English">Consider SubItem</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="coverage10CalcFormula">
-<div class="cell" data-label="Property">coverage10CalcFormula</div>
-<div class="cell" data-label="Column">coverage10CalcFormula</div>
-<div class="cell" data-label="Arabic">معادلة حساب تغطية 10</div>
-<div class="cell" data-label="English">Coverage 10 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="coverage1CalcFormula">
-<div class="cell" data-label="Property">coverage1CalcFormula</div>
-<div class="cell" data-label="Column">coverage1CalcFormula</div>
-<div class="cell" data-label="Arabic">معادلة حساب تغطية 1</div>
-<div class="cell" data-label="English">Coverage 1 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="coverage2CalcFormula">
-<div class="cell" data-label="Property">coverage2CalcFormula</div>
-<div class="cell" data-label="Column">coverage2CalcFormula</div>
-<div class="cell" data-label="Arabic">معادلة حساب تغطية 2</div>
-<div class="cell" data-label="English">Coverage 2 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="coverage3CalcFormula">
-<div class="cell" data-label="Property">coverage3CalcFormula</div>
-<div class="cell" data-label="Column">coverage3CalcFormula</div>
-<div class="cell" data-label="Arabic">معادلة حساب تغطية 3</div>
-<div class="cell" data-label="English">Coverage 3 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="coverage4CalcFormula">
-<div class="cell" data-label="Property">coverage4CalcFormula</div>
-<div class="cell" data-label="Column">coverage4CalcFormula</div>
-<div class="cell" data-label="Arabic">معادلة حساب تغطية 4</div>
-<div class="cell" data-label="English">Coverage 4 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="coverage5CalcFormula">
-<div class="cell" data-label="Property">coverage5CalcFormula</div>
-<div class="cell" data-label="Column">coverage5CalcFormula</div>
-<div class="cell" data-label="Arabic">معادلة حساب تغطية 5</div>
-<div class="cell" data-label="English">Coverage 5 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="coverage6CalcFormula">
-<div class="cell" data-label="Property">coverage6CalcFormula</div>
-<div class="cell" data-label="Column">coverage6CalcFormula</div>
-<div class="cell" data-label="Arabic">معادلة حساب تغطية 6</div>
-<div class="cell" data-label="English">Coverage 6 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="coverage7CalcFormula">
-<div class="cell" data-label="Property">coverage7CalcFormula</div>
-<div class="cell" data-label="Column">coverage7CalcFormula</div>
-<div class="cell" data-label="Arabic">معادلة حساب تغطية 7</div>
-<div class="cell" data-label="English">Coverage 7 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="coverage8CalcFormula">
-<div class="cell" data-label="Property">coverage8CalcFormula</div>
-<div class="cell" data-label="Column">coverage8CalcFormula</div>
-<div class="cell" data-label="Arabic">معادلة حساب تغطية 8</div>
-<div class="cell" data-label="English">Coverage 8 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="coverage9CalcFormula">
-<div class="cell" data-label="Property">coverage9CalcFormula</div>
-<div class="cell" data-label="Column">coverage9CalcFormula</div>
-<div class="cell" data-label="Arabic">معادلة حساب تغطية 9</div>
-<div class="cell" data-label="English">Coverage 9 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
 
 </div>
 
@@ -547,15 +345,6 @@
 
 </div>
 
-<div class="row searchable" id="forecastedPurchaseQuantityBasedOnCoverageFormula">
-<div class="cell" data-label="Property">forecastedPurchaseQuantityBasedOnCoverageFormula</div>
-<div class="cell" data-label="Column">forecastedPurchaseQuantityBasedOnCoverageFormula</div>
-<div class="cell" data-label="Arabic">معادلة حساب الكمية المتوقعة للشراء حسب التغطية</div>
-<div class="cell" data-label="English">Forecasted Purchase Quantity Based On Coverage Formula</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
 <div class="row searchable" id="generatedByLine">
 <div class="cell" data-label="Property">generatedByLine</div>
 <div class="cell" data-label="Column">generatedByLine</div>
@@ -754,66 +543,6 @@
 
 </div>
 
-<div class="row searchable" id="netSales1Configuration">
-<div class="cell" data-label="Property">netSales1Configuration</div>
-<div class="cell" data-label="Column">netSales1Configuration_id</div>
-<div class="cell" data-label="Arabic">إعدادات صافي المبيعات 1</div>
-<div class="cell" data-label="English">Net Sales 1 Configuration</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFSalesSourceConfig](/modules/supplychain-sales/PFSalesSourceConfig.md) 
-</div>
-</div>
-
-<div class="row searchable" id="netSales2Configuration">
-<div class="cell" data-label="Property">netSales2Configuration</div>
-<div class="cell" data-label="Column">netSales2Configuration_id</div>
-<div class="cell" data-label="Arabic">إعدادات صافي المبيعات 2</div>
-<div class="cell" data-label="English">Net Sales 2 Configuration</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFSalesSourceConfig](/modules/supplychain-sales/PFSalesSourceConfig.md) 
-</div>
-</div>
-
-<div class="row searchable" id="netSales3Configuration">
-<div class="cell" data-label="Property">netSales3Configuration</div>
-<div class="cell" data-label="Column">netSales3Configuration_id</div>
-<div class="cell" data-label="Arabic">إعدادات صافي المبيعات 3</div>
-<div class="cell" data-label="English">Net Sales 3 Configuration</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFSalesSourceConfig](/modules/supplychain-sales/PFSalesSourceConfig.md) 
-</div>
-</div>
-
-<div class="row searchable" id="netSales4Configuration">
-<div class="cell" data-label="Property">netSales4Configuration</div>
-<div class="cell" data-label="Column">netSales4Configuration_id</div>
-<div class="cell" data-label="Arabic">إعدادات صافي المبيعات 4</div>
-<div class="cell" data-label="English">Net Sales 4 Configuration</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFSalesSourceConfig](/modules/supplychain-sales/PFSalesSourceConfig.md) 
-</div>
-</div>
-
-<div class="row searchable" id="netSales5Configuration">
-<div class="cell" data-label="Property">netSales5Configuration</div>
-<div class="cell" data-label="Column">netSales5Configuration_id</div>
-<div class="cell" data-label="Arabic">إعدادات صافي المبيعات 5</div>
-<div class="cell" data-label="English">Net Sales 5 Configuration</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFSalesSourceConfig](/modules/supplychain-sales/PFSalesSourceConfig.md) 
-</div>
-</div>
-
 <div class="row searchable" id="parentCode">
 <div class="cell" data-label="Property">parentCode</div>
 <div class="cell" data-label="Column">parentCode</div>
@@ -839,246 +568,6 @@
 <div class="cell" data-label="English">Print Count</div>
 <div class="cell" data-label="Type">Integer</div>
 
-</div>
-
-<div class="row searchable" id="quantity10Source">
-<div class="cell" data-label="Property">quantity10Source</div>
-<div class="cell" data-label="Column">quantity10Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 10</div>
-<div class="cell" data-label="English">Quantity 10 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity11Source">
-<div class="cell" data-label="Property">quantity11Source</div>
-<div class="cell" data-label="Column">quantity11Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 11</div>
-<div class="cell" data-label="English">Quantity 11 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity12Source">
-<div class="cell" data-label="Property">quantity12Source</div>
-<div class="cell" data-label="Column">quantity12Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 12</div>
-<div class="cell" data-label="English">Quantity 12 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity13Source">
-<div class="cell" data-label="Property">quantity13Source</div>
-<div class="cell" data-label="Column">quantity13Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 13</div>
-<div class="cell" data-label="English">Quantity 13 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity14Source">
-<div class="cell" data-label="Property">quantity14Source</div>
-<div class="cell" data-label="Column">quantity14Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 14</div>
-<div class="cell" data-label="English">Quantity 14 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity15Source">
-<div class="cell" data-label="Property">quantity15Source</div>
-<div class="cell" data-label="Column">quantity15Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 15</div>
-<div class="cell" data-label="English">Quantity 15 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity16Source">
-<div class="cell" data-label="Property">quantity16Source</div>
-<div class="cell" data-label="Column">quantity16Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 16</div>
-<div class="cell" data-label="English">Quantity 16 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity17Source">
-<div class="cell" data-label="Property">quantity17Source</div>
-<div class="cell" data-label="Column">quantity17Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 17</div>
-<div class="cell" data-label="English">Quantity 17 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity18Source">
-<div class="cell" data-label="Property">quantity18Source</div>
-<div class="cell" data-label="Column">quantity18Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 18</div>
-<div class="cell" data-label="English">Quantity 18 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity19Source">
-<div class="cell" data-label="Property">quantity19Source</div>
-<div class="cell" data-label="Column">quantity19Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 19</div>
-<div class="cell" data-label="English">Quantity 19 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity1Source">
-<div class="cell" data-label="Property">quantity1Source</div>
-<div class="cell" data-label="Column">quantity1Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 1</div>
-<div class="cell" data-label="English">Quantity 1 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity20Source">
-<div class="cell" data-label="Property">quantity20Source</div>
-<div class="cell" data-label="Column">quantity20Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 20</div>
-<div class="cell" data-label="English">Quantity 20 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity2Source">
-<div class="cell" data-label="Property">quantity2Source</div>
-<div class="cell" data-label="Column">quantity2Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 2</div>
-<div class="cell" data-label="English">Quantity 2 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity3Source">
-<div class="cell" data-label="Property">quantity3Source</div>
-<div class="cell" data-label="Column">quantity3Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 3</div>
-<div class="cell" data-label="English">Quantity 3 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity4Source">
-<div class="cell" data-label="Property">quantity4Source</div>
-<div class="cell" data-label="Column">quantity4Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 4</div>
-<div class="cell" data-label="English">Quantity 4 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity5Source">
-<div class="cell" data-label="Property">quantity5Source</div>
-<div class="cell" data-label="Column">quantity5Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 5</div>
-<div class="cell" data-label="English">Quantity 5 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity6Source">
-<div class="cell" data-label="Property">quantity6Source</div>
-<div class="cell" data-label="Column">quantity6Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 6</div>
-<div class="cell" data-label="English">Quantity 6 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity7Source">
-<div class="cell" data-label="Property">quantity7Source</div>
-<div class="cell" data-label="Column">quantity7Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 7</div>
-<div class="cell" data-label="English">Quantity 7 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity8Source">
-<div class="cell" data-label="Property">quantity8Source</div>
-<div class="cell" data-label="Column">quantity8Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 8</div>
-<div class="cell" data-label="English">Quantity 8 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
-</div>
-
-<div class="row searchable" id="quantity9Source">
-<div class="cell" data-label="Property">quantity9Source</div>
-<div class="cell" data-label="Column">quantity9Source_id</div>
-<div class="cell" data-label="Arabic">مصدر الكميات 9</div>
-<div class="cell" data-label="English">Quantity 9 Source</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [PFQuantitySource](/modules/supplychain-inventory/PFQuantitySource.md) 
-</div>
 </div>
 
 <div class="row searchable" id="ref1">
@@ -1165,6 +654,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="rewardPointsConfig">
+<div class="cell" data-label="Property">rewardPointsConfig</div>
+<div class="cell" data-label="Column">rewardPointsConfig_id</div>
+<div class="cell" data-label="Arabic"> إعدادات نقاط المكافأة</div>
+<div class="cell" data-label="English">Reward Points Configuration</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [RewardPointsConfig](/modules/basic-external-reward-points/RewardPointsConfig.md) 
+</div>
+</div>
+
 <div class="row searchable" id="sector">
 <div class="cell" data-label="Property">sector</div>
 <div class="cell" data-label="Column">sector_id</div>
@@ -1183,15 +684,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="suggestedOrderBasedOnCoverageFormula">
-<div class="cell" data-label="Property">suggestedOrderBasedOnCoverageFormula</div>
-<div class="cell" data-label="Column">suggestedOrderBasedOnCoverageFormula</div>
-<div class="cell" data-label="Arabic">معادلة حساب الطلب المقترح حسب التغطية</div>
-<div class="cell" data-label="English">Suggested Order Based on Coverage Formula</div>
-<div class="cell" data-label="Type">Text</div>
 
 </div>
 
@@ -1264,6 +756,103 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='details' title='details' class='searchable'>
+
+## details (التفاصيل - Details)
+
+<div class='tableName'>
+
+**Table Name:** RewardPointsRestrictionLine, **Join Column:** rewardPointsRestriction_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="details.fromDate">
+<div class="cell" data-label="Property">details.fromDate</div>
+<div class="cell" data-label="Column">fromDate</div>
+<div class="cell" data-label="Arabic">من تاريخ</div>
+<div class="cell" data-label="English">From Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.id">
+<div class="cell" data-label="Property">details.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="details.lineNumber">
+<div class="cell" data-label="Property">details.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="details.preventGranting">
+<div class="cell" data-label="Property">details.preventGranting</div>
+<div class="cell" data-label="Column">preventGranting</div>
+<div class="cell" data-label="Arabic">منع احتساب النقاط</div>
+<div class="cell" data-label="English">Prevent Granting</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="details.preventRedeem">
+<div class="cell" data-label="Property">details.preventRedeem</div>
+<div class="cell" data-label="Column">preventRedeem</div>
+<div class="cell" data-label="Arabic">منع صرف النقاط</div>
+<div class="cell" data-label="English">Prevent Redeem</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="details.reference">
+<div class="cell" data-label="Property">details.reference</div>
+<div class="cell gen-ref-column" data-label="Column">referenceActualCode,  referenceCode,  referenceEntityType,  referenceId</div>
+<div class="cell" data-label="Arabic">مرجع</div>
+<div class="cell" data-label="English">Reference</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.rewardPointsConfig">
+<div class="cell" data-label="Property">details.rewardPointsConfig</div>
+<div class="cell" data-label="Column">rewardPointsConfig_id</div>
+<div class="cell" data-label="Arabic"> إعدادات نقاط المكافأة</div>
+<div class="cell" data-label="English">Reward Points Configuration</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [RewardPointsConfig](/modules/basic-external-reward-points/RewardPointsConfig.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.toDate">
+<div class="cell" data-label="Property">details.toDate</div>
+<div class="cell" data-label="Column">toDate</div>
+<div class="cell" data-label="Arabic">إلى تاريخ</div>
+<div class="cell" data-label="English">To Date</div>
+<div class="cell" data-label="Type">Date</div>
 
 </div>
 

@@ -549,6 +549,15 @@
 
 </div>
 
+<div class="row searchable" id="minimumSpecifiedCoverageForReorderInMonths">
+<div class="cell" data-label="Property">minimumSpecifiedCoverageForReorderInMonths</div>
+<div class="cell" data-label="Column">minimumSpecifiedCoverageForReorderInMonths</div>
+<div class="cell" data-label="Arabic">الحد ألادنى للتغطية المحددة لإعادة الطلب بالأشهر</div>
+<div class="cell" data-label="English">Minimum Specified Coverage For Reorder In Months</div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
 <div class="row searchable" id="n1">
 <div class="cell" data-label="Property">n1</div>
 <div class="cell" data-label="Column">n1</div>
@@ -816,6 +825,15 @@
 <div class="cell" data-label="Arabic">ملاحظات</div>
 <div class="cell" data-label="English">Description</div>
 <div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="requiredCoverageInMonths">
+<div class="cell" data-label="Property">requiredCoverageInMonths</div>
+<div class="cell" data-label="Column">requiredCoverageInMonths</div>
+<div class="cell" data-label="Arabic">التغطية المطلوبة بالأشهر</div>
+<div class="cell" data-label="English">Required Coverage In Months</div>
+<div class="cell" data-label="Type">Integer</div>
 
 </div>
 
@@ -1145,6 +1163,24 @@
 
  [Sector](/modules/basic/Sector.md) 
 </div>
+</div>
+
+<div class="row searchable" id="details.forecastedPurchaseQuantityBasedOnAdjustedCoverage">
+<div class="cell" data-label="Property">details.forecastedPurchaseQuantityBasedOnAdjustedCoverage</div>
+<div class="cell" data-label="Column">forecastedPurchaseQuantityBasedOnAdjustedCoverage</div>
+<div class="cell" data-label="Arabic">الكمية المتوقعة للشراء حسب التغطية(المعدلة)</div>
+<div class="cell" data-label="English">Forecasted Purchase Quantity Based On Coverage (Adjusted)</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.forecastedPurchaseQuantityBasedOnCoverage">
+<div class="cell" data-label="Property">details.forecastedPurchaseQuantityBasedOnCoverage</div>
+<div class="cell" data-label="Column">forecastedPurchaseQuantityBasedOnCoverage</div>
+<div class="cell" data-label="Arabic">الكمية المتوقعة للشراء حسب التغطية</div>
+<div class="cell" data-label="English">Forecasted Purchase Quantity Based On Coverage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
 </div>
 
 <div class="row searchable" id="details.highestSalesPeriod">
@@ -1715,6 +1751,15 @@
 
  [Warehouse](/modules/supplychain/Warehouse.md) 
 </div>
+</div>
+
+<div class="row searchable" id="details.suggestedOrderBasedOnCoverage">
+<div class="cell" data-label="Property">details.suggestedOrderBasedOnCoverage</div>
+<div class="cell" data-label="Column">suggestedOrderBasedOnCoverage</div>
+<div class="cell" data-label="Arabic">الطلب المقترح حسب التغطية</div>
+<div class="cell" data-label="English">Suggested Order Based on Coverage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
 </div>
 
 <div class="row searchable" id="details.text1">

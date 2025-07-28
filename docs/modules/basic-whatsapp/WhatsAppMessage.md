@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#parameters'>parameters (TemplateMessageParameterLine) </a>
+<a href='#extraData'>extraData (WhatsAppMessageExtraDataLine) </a> , <a href='#parameters'>parameters (TemplateMessageParameterLine) </a>
 </div>
 
 <div class='searchable'>
@@ -876,6 +876,64 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='extraData' title='extraData' class='searchable'>
+
+## extraData (Extra Data (Morasalaty) - Extra Data (Morasalaty))
+
+<div class='tableName'>
+
+**Table Name:** WhatsAppMessageExtraDataLine, **Join Column:** whatsAppMessage_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="extraData.id">
+<div class="cell" data-label="Property">extraData.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="extraData.lineNumber">
+<div class="cell" data-label="Property">extraData.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="extraData.parameterName">
+<div class="cell" data-label="Property">extraData.parameterName</div>
+<div class="cell" data-label="Column">parameterName</div>
+<div class="cell" data-label="Arabic">Key</div>
+<div class="cell" data-label="English">Key</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="extraData.parameterTemplate">
+<div class="cell" data-label="Property">extraData.parameterTemplate</div>
+<div class="cell" data-label="Column">ParameterTemplate</div>
+<div class="cell" data-label="Arabic">Value</div>
+<div class="cell" data-label="English">Value</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 

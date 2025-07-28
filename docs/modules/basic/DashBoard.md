@@ -896,6 +896,15 @@
 
 </div>
 
+<div class="row searchable" id="totalDashboardRowsCount">
+<div class="cell" data-label="Property">totalDashboardRowsCount</div>
+<div class="cell" data-label="Column">totalDashboardRowsCount</div>
+<div class="cell" data-label="Arabic">عدد جميع الصفوف في اللوحة</div>
+<div class="cell" data-label="English">Total Dashboard Rows Count</div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
 <div class="row searchable" id="updateCapability">
 <div class="cell" data-label="Property">updateCapability</div>
 <div class="cell" data-label="Column">updateCapability_id</div>

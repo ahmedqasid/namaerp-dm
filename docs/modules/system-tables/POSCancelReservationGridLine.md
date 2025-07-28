@@ -38,6 +38,15 @@
 
 </div>
 
+<div class="row searchable" id="widthSize">
+<div class="cell" data-label="Property">widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 
 </div>
 </div>
