@@ -1606,6 +1606,24 @@
 
 </div>
 
+<div class="row searchable" id="actionLines.showButtonInEditScreenToolbar">
+<div class="cell" data-label="Property">actionLines.showButtonInEditScreenToolbar</div>
+<div class="cell" data-label="Column">showButtonInEditScreenToolbar</div>
+<div class="cell" data-label="Arabic">عرض في شريط الأدوات لشاشة التحرير</div>
+<div class="cell" data-label="English">Show In Edit Screen Toolbar</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="actionLines.showButtonInListScreenToolbar">
+<div class="cell" data-label="Property">actionLines.showButtonInListScreenToolbar</div>
+<div class="cell" data-label="Column">showButtonInListScreenToolbar</div>
+<div class="cell" data-label="Arabic">عرض في شريط الأدوات لشاشة القائمة</div>
+<div class="cell" data-label="English">Show In List Screen Toolbar</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="actionLines.showInMoreMenuEditScreen">
 <div class="cell" data-label="Property">actionLines.showInMoreMenuEditScreen</div>
 <div class="cell" data-label="Column">showInMoreMenuEditScreen</div>

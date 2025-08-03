@@ -336,6 +336,24 @@
 
 </div>
 
+<div class="row searchable" id="finalStaticHavingCondition">
+<div class="cell" data-label="Property">finalStaticHavingCondition</div>
+<div class="cell" data-label="Column">finalStaticHavingCondition</div>
+<div class="cell" data-label="Arabic">Final Static Having Condition</div>
+<div class="cell" data-label="English">Final Static Having Condition</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="finalStaticWhereCondition">
+<div class="cell" data-label="Property">finalStaticWhereCondition</div>
+<div class="cell" data-label="Column">finalStaticWhereCondition</div>
+<div class="cell" data-label="Arabic">Final Static Where Condition</div>
+<div class="cell" data-label="English">Final Static Where Condition</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
 <div class="row searchable" id="firstAuthor">
 <div class="cell" data-label="Property">firstAuthor</div>
 <div class="cell" data-label="Column">firstAuthor_id</div>
@@ -701,6 +719,24 @@
 <div class="cell" data-label="Column">sqlQuery</div>
 <div class="cell" data-label="Arabic">SQL Query</div>
 <div class="cell" data-label="English">SQL Query</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="staticHavingCondition">
+<div class="cell" data-label="Property">staticHavingCondition</div>
+<div class="cell" data-label="Column">staticHavingCondition</div>
+<div class="cell" data-label="Arabic">Static Having Condition</div>
+<div class="cell" data-label="English">Static Having Condition</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="staticWhereCondition">
+<div class="cell" data-label="Property">staticWhereCondition</div>
+<div class="cell" data-label="Column">staticWhereCondition</div>
+<div class="cell" data-label="Arabic">Static Where Condition</div>
+<div class="cell" data-label="English">Static Where Condition</div>
 <div class="cell" data-label="Type">BigText</div>
 
 </div>

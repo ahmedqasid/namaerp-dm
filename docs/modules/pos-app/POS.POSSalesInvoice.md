@@ -504,6 +504,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="fromCallCenter">
+<div class="cell" data-label="Property">fromCallCenter</div>
+<div class="cell" data-label="Column">fromCallCenter</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="fromCaptainOrder">
 <div class="cell" data-label="Property">fromCaptainOrder</div>
 <div class="cell" data-label="Column">fromCaptainOrder</div>
@@ -747,6 +756,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="orderRegisterId">
+<div class="cell" data-label="Property">orderRegisterId</div>
+<div class="cell" data-label="Column">orderRegisterId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
 
 </div>
 

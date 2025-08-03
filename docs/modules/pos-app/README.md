@@ -48,6 +48,7 @@
   - [POS.POSItemSection (Table Name: POSItemSection)](/modules/pos-app/POS.POSItemSection.md)
   - [POS.POSLegalEntity (Table Name: POSLegalEntity)](/modules/pos-app/POS.POSLegalEntity.md)
   - [POS.POSLocation (Table Name: POSLocation)](/modules/pos-app/POS.POSLocation.md)
+  - [POS.POSOnlineOrderToDeleteEntry (Table Name: POSOnlineOrderToDeleteEntry)](/modules/pos-app/POS.POSOnlineOrderToDeleteEntry.md)
   - [POS.POSOrderReservation (Table Name: POSOrderReservation)](/modules/pos-app/POS.POSOrderReservation.md)
   - [POS.POSPaymentMethod (Table Name: POSPaymentMethod)](/modules/pos-app/POS.POSPaymentMethod.md)
   - [POS.POSPaymentMethodsSettings (Table Name: POSPaymentMethodsSettings)](/modules/pos-app/POS.POSPaymentMethodsSettings.md)

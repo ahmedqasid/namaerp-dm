@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#availableMaterials'>availableMaterials (CRTNMaterialPlanningAvailableMaterial) </a> , <a href='#documents'>documents (CRTNMaterialPlanningLine) </a> , <a href='#items'>items (CRTNMaterialPlanningItemLine) </a> , <a href='#materials'>materials (CRTNMaterialPlanningMaterialLine) </a>
+<a href='#availableMaterials'>availableMaterials (CRTNMaterialPlanningAvailableMaterial) </a> , <a href='#documents'>documents (CRTNMaterialPlanningLine) </a> , <a href='#items'>items (CRTNMaterialPlanningItemLine) </a> , <a href='#materials'>materials (CRTNMaterialPlanningMaterialLine) </a> , <a href='#materialsTotals'>materialsTotals (CRTNMaterialPlanningMaterialsTotals) </a>
 </div>
 
 <div class='searchable'>
@@ -2659,6 +2659,100 @@
 <div class="cell" data-label="Arabic">كود الضمان</div>
 <div class="cell" data-label="English">Warranty Code</div>
 <div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='materialsTotals' title='materialsTotals' class='searchable'>
+
+## materialsTotals (إجماليات الخامات - Materials Totals)
+
+<div class='tableName'>
+
+**Table Name:** CRTNMaterialPlanningMaterialsTotals, **Join Column:** cRTNMaterialPlanning_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="materialsTotals.box">
+<div class="cell" data-label="Property">materialsTotals.box</div>
+<div class="cell" data-label="Column">box</div>
+<div class="cell" data-label="Arabic">صندوق</div>
+<div class="cell" data-label="English">Box</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="materialsTotals.id">
+<div class="cell" data-label="Property">materialsTotals.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="materialsTotals.itemClass1">
+<div class="cell" data-label="Property">materialsTotals.itemClass1</div>
+<div class="cell" data-label="Column">itemClass1_id</div>
+<div class="cell" data-label="Arabic">تصنيف 1</div>
+<div class="cell" data-label="English">Class 1</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemClass1](/modules/supplychain/ItemClass1.md) 
+</div>
+</div>
+
+<div class="row searchable" id="materialsTotals.itemClass2">
+<div class="cell" data-label="Property">materialsTotals.itemClass2</div>
+<div class="cell" data-label="Column">itemClass2_id</div>
+<div class="cell" data-label="Arabic">تصنيف 2</div>
+<div class="cell" data-label="English">Class 2</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemClass2](/modules/supplychain/ItemClass2.md) 
+</div>
+</div>
+
+<div class="row searchable" id="materialsTotals.lineNumber">
+<div class="cell" data-label="Property">materialsTotals.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="materialsTotals.quantity.uom">
+<div class="cell" data-label="Property">materialsTotals.quantity.uom</div>
+<div class="cell" data-label="Column">quantityUom_id</div>
+<div class="cell" data-label="Arabic">الكمية | الوحدة</div>
+<div class="cell" data-label="English">Quantity | Uom</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [UOM](/modules/supplychain/UOM.md) 
+</div>
+</div>
+
+<div class="row searchable" id="materialsTotals.quantity.value">
+<div class="cell" data-label="Property">materialsTotals.quantity.value</div>
+<div class="cell" data-label="Column">quantityValue</div>
+<div class="cell" data-label="Arabic">الكمية  | القيمة</div>
+<div class="cell" data-label="English">Quantity | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 

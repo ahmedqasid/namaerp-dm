@@ -150,6 +150,15 @@
 
 </div>
 
+<div class="row searchable" id="callCenterMode">
+<div class="cell" data-label="Property">callCenterMode</div>
+<div class="cell" data-label="Column">callCenterMode</div>
+<div class="cell" data-label="Arabic">وضع خدمة العملاء</div>
+<div class="cell" data-label="English">Call Center Mode</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="code">
 <div class="cell" data-label="Property">code</div>
 <div class="cell" data-label="Column">code</div>
@@ -1271,6 +1280,15 @@
 <div class="cell" data-label="Column">reSendPOSDataToNama</div>
 <div class="cell" data-label="Arabic">إعادة إرسال بيانات نقاط البيع الي نما</div>
 <div class="cell" data-label="English">Resend POS Data To Nama</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="readOnlineOrdersFromCallCenter">
+<div class="cell" data-label="Property">readOnlineOrdersFromCallCenter</div>
+<div class="cell" data-label="Column">readOnlineOrdersFromCallCenter</div>
+<div class="cell" data-label="Arabic">قراءة الطلبات من مركز خدمة العملاء</div>
+<div class="cell" data-label="English">Read Orders From Call Center</div>
 <div class="cell" data-label="Type">Boolean</div>
 
 </div>
