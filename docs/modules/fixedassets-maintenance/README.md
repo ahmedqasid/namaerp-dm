@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Fixed Assets Maintenance
   - [FACheckListItem](/modules/fixedassets-maintenance/FACheckListItem.md)
   - [FAMaintenanceCheckList](/modules/fixedassets-maintenance/FAMaintenanceCheckList.md)
@@ -5,3 +7,5 @@
   - [FAMaintenanceRecord](/modules/fixedassets-maintenance/FAMaintenanceRecord.md)
   - [FAMaintenanceRecordRequest](/modules/fixedassets-maintenance/FAMaintenanceRecordRequest.md)
   - [FAMaintenanceType](/modules/fixedassets-maintenance/FAMaintenanceType.md)
+
+</div>

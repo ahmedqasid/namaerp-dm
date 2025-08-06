@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Supply Chain - Sales
   - [AutoSalesPricing](/modules/supplychain-sales/AutoSalesPricing.md)
   - [AutoSalesPricingSetting](/modules/supplychain-sales/AutoSalesPricingSetting.md)
@@ -42,3 +44,5 @@
   - [Tender](/modules/supplychain-sales/Tender.md)
   - [TenderCondition](/modules/supplychain-sales/TenderCondition.md)
   - [UpdateSeasonsDoc](/modules/supplychain-sales/UpdateSeasonsDoc.md)
+
+</div>

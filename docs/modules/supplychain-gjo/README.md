@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Supply Chain - Glass Job Orders (Deprecated)
   - [GlassJobOrder](/modules/supplychain-gjo/GlassJobOrder.md)
   - [GlassJobOrderReq](/modules/supplychain-gjo/GlassJobOrderReq.md)
@@ -14,3 +16,5 @@
   - [OutsourceReceipt](/modules/supplychain-gjo/OutsourceReceipt.md)
   - [OutsourceRequest](/modules/supplychain-gjo/OutsourceRequest.md)
   - [ServiceItemBOM](/modules/supplychain-gjo/ServiceItemBOM.md)
+
+</div>

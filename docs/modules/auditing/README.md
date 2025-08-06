@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Auditing
   - [AUAccount](/modules/auditing/AUAccount.md)
   - [AUAccountsChartType](/modules/auditing/AUAccountsChartType.md)
@@ -42,3 +44,5 @@
   - [RegulationChapter](/modules/auditing/RegulationChapter.md)
   - [RegulationCirculars](/modules/auditing/RegulationCirculars.md)
   - [RegulationLaw](/modules/auditing/RegulationLaw.md)
+
+</div>

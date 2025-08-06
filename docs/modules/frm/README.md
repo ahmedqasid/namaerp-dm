@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Freight Management System
   - [FRMBillOfLading](/modules/frm/FRMBillOfLading.md)
   - [FRMBillOfLadingType](/modules/frm/FRMBillOfLadingType.md)
@@ -32,3 +34,5 @@
   - [FRMUOM](/modules/frm/FRMUOM.md)
   - [FreightLine](/modules/frm/FreightLine.md)
   - [ShippingPort](/modules/frm/ShippingPort.md)
+
+</div>

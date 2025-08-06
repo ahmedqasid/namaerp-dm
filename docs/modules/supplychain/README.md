@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Supply Chain
   - [Activity](/modules/supplychain/Activity.md)
   - [CalculationFormula](/modules/supplychain/CalculationFormula.md)
@@ -42,3 +44,5 @@
   - [UOMGroup](/modules/supplychain/UOMGroup.md)
   - [WareLocationClass](/modules/supplychain/WareLocationClass.md)
   - [Warehouse](/modules/supplychain/Warehouse.md)
+
+</div>

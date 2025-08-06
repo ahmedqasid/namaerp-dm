@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Modules
   - [Search](/modules/full-search.md)
   - [Accounting](/modules/accounting/)
@@ -1641,6 +1643,8 @@
     - [WeightScalePreparationDoc](/modules/supplychain-weight-scale/WeightScalePreparationDoc.md)
   - [System Tables](/modules/system-tables/)
     - [ACCSideConfigSysLine](/modules/system-tables/ACCSideConfigSysLine.md)
+    - [AIChatMessage](/modules/system-tables/AIChatMessage.md)
+    - [AIChatSession](/modules/system-tables/AIChatSession.md)
     - [AIEmbeddingFile](/modules/system-tables/AIEmbeddingFile.md)
     - [AUFilePhaseLine](/modules/system-tables/AUFilePhaseLine.md)
     - [ActionsHistory](/modules/system-tables/ActionsHistory.md)
@@ -1997,3 +2001,5 @@
     - [TRTourProgram](/modules/travel/TRTourProgram.md)
     - [TRTourService](/modules/travel/TRTourService.md)
     - [TRTourServiceClass](/modules/travel/TRTourServiceClass.md)
+
+</div>

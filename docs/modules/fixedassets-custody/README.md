@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Custody Management
   - [CustodyType](/modules/fixedassets-custody/CustodyType.md)
   - [FACustody](/modules/fixedassets-custody/FACustody.md)
@@ -6,3 +8,5 @@
   - [FACustodyPurchaseDocument](/modules/fixedassets-custody/FACustodyPurchaseDocument.md)
   - [FACustodyTransferDocument](/modules/fixedassets-custody/FACustodyTransferDocument.md)
   - [FADeliveryReceiptDoc](/modules/fixedassets-custody/FADeliveryReceiptDoc.md)
+
+</div>

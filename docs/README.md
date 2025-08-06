@@ -2,6 +2,10 @@
 home: true
 heroImage: hero.svg
 ---
+
+<div class="ignore-in-full-text-search">
+
+
   - [Modules](/modules/)
     - [Accounting](/modules/accounting/)
     - [Banks and Commercial Papers](/modules/accounting-banks/)
@@ -102,3 +106,5 @@ heroImage: hero.svg
 <ClientOnly>
     <RedirectFromHash />
 </ClientOnly>
+
+</div>

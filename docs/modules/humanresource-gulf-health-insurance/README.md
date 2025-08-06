@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Human Resources - Gulf Health Insurance
   - [EmpHealthInsurDelete](/modules/humanresource-gulf-health-insurance/EmpHealthInsurDelete.md)
   - [EmpHealthInsurDeleteReq](/modules/humanresource-gulf-health-insurance/EmpHealthInsurDeleteReq.md)
@@ -10,3 +12,5 @@
   - [HealthInsuranceOfferRequest](/modules/humanresource-gulf-health-insurance/HealthInsuranceOfferRequest.md)
   - [HealthInsuranceUpgrade](/modules/humanresource-gulf-health-insurance/HealthInsuranceUpgrade.md)
   - [HealthInsuranceUpgradeReq](/modules/humanresource-gulf-health-insurance/HealthInsuranceUpgradeReq.md)
+
+</div>

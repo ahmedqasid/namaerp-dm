@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Human Resources - Car Insurance
   - [CarInsuranceAddingDoc](/modules/humanresource-car-insurance/CarInsuranceAddingDoc.md)
   - [CarInsuranceAddingReq](/modules/humanresource-car-insurance/CarInsuranceAddingReq.md)
@@ -7,3 +9,5 @@
   - [CarInsurancePolicy](/modules/humanresource-car-insurance/CarInsurancePolicy.md)
   - [CarInsuranceRemovingDoc](/modules/humanresource-car-insurance/CarInsuranceRemovingDoc.md)
   - [CarInsuranceRemovingReq](/modules/humanresource-car-insurance/CarInsuranceRemovingReq.md)
+
+</div>

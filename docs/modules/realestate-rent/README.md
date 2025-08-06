@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Real Estate - Rent
   - [AggrRECollectDoc](/modules/realestate-rent/AggrRECollectDoc.md)
   - [RECancelContract](/modules/realestate-rent/RECancelContract.md)
@@ -8,3 +10,5 @@
   - [RERentInstallmentLedger](/modules/realestate-rent/RERentInstallmentLedger.md)
   - [RERentOffer](/modules/realestate-rent/RERentOffer.md)
   - [RERentOfferCancel](/modules/realestate-rent/RERentOfferCancel.md)
+
+</div>

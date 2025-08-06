@@ -1,5 +1,7 @@
 {
   "ACCSideConfigSysLine" : "system-tables/ACCSideConfigSysLine.md",
+  "AIChatMessage" : "system-tables/AIChatMessage.md",
+  "AIChatSession" : "system-tables/AIChatSession.md",
   "AIEmbeddingFile" : "system-tables/AIEmbeddingFile.md",
   "AIRecordEmbeddingConfig" : "ai/AIRecordEmbeddingConfig.md",
   "AIToolDefinition" : "ai/AIToolDefinition.md",

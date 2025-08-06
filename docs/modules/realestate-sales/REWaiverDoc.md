@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#details'>details (REWaiverDocInstallmentLine) </a> , <a href='#installmentInfoLines'>installmentInfoLines (REWaiverDocInstallmentInfoLine) </a> , <a href='#lines'>lines (REWaiverDocTermCondsLine) </a> , <a href='#otherFeesLines'>otherFeesLines (REWaiverFeesLine) </a> , <a href='#termLines'>termLines (REWaiverDocStandardTermLine) </a>
+<a href='#commissions'>commissions (REWaiverDocCommissionLine) </a> , <a href='#details'>details (REWaiverDocInstallmentLine) </a> , <a href='#installmentInfoLines'>installmentInfoLines (REWaiverDocInstallmentInfoLine) </a> , <a href='#lines'>lines (REWaiverDocTermCondsLine) </a> , <a href='#otherFeesLines'>otherFeesLines (REWaiverFeesLine) </a> , <a href='#termLines'>termLines (REWaiverDocStandardTermLine) </a>
 </div>
 
 <div class='searchable'>
@@ -1773,6 +1773,112 @@
 <div class="cell" data-label="Arabic">تم التنازل عنها</div>
 <div class="cell" data-label="English">Waivered</div>
 <div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='commissions' title='commissions' class='searchable'>
+
+## commissions (العمولات - Commissions)
+
+<div class='tableName'>
+
+**Table Name:** REWaiverDocCommissionLine, **Join Column:** rEWaiverDoc_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="commissions.commissionRecipient">
+<div class="cell" data-label="Property">commissions.commissionRecipient</div>
+<div class="cell gen-ref-column" data-label="Column">commissionRecipientActualCode,  commissionRecipientCode,  commissionRecipientEntityType,  commissionRecipientId</div>
+<div class="cell" data-label="Arabic">مستحق العمولة</div>
+<div class="cell" data-label="English">Commission Recipient</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="commissions.commissionRecipientName">
+<div class="cell" data-label="Property">commissions.commissionRecipientName</div>
+<div class="cell" data-label="Column">commissionRecipientName</div>
+<div class="cell" data-label="Arabic">اسم مستحق العمولة</div>
+<div class="cell" data-label="English">Commission Recipient Name</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="commissions.commissionType">
+<div class="cell" data-label="Property">commissions.commissionType</div>
+<div class="cell" data-label="Column">commissionType_id</div>
+<div class="cell" data-label="Arabic">نوع العمولة</div>
+<div class="cell" data-label="English">Commission Type</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [RECommissionType](/modules/realestate/RECommissionType.md) 
+</div>
+</div>
+
+<div class="row searchable" id="commissions.id">
+<div class="cell" data-label="Property">commissions.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="commissions.lineNumber">
+<div class="cell" data-label="Property">commissions.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="commissions.percentage">
+<div class="cell" data-label="Property">commissions.percentage</div>
+<div class="cell" data-label="Column">percentage</div>
+<div class="cell" data-label="Arabic">النسبة</div>
+<div class="cell" data-label="English">Percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="commissions.ref1">
+<div class="cell" data-label="Property">commissions.ref1</div>
+<div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
+<div class="cell" data-label="Arabic">مرجع 1</div>
+<div class="cell" data-label="English">Reference 1</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="commissions.ref2">
+<div class="cell" data-label="Property">commissions.ref2</div>
+<div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
+<div class="cell" data-label="Arabic">مرجع 2</div>
+<div class="cell" data-label="English">Reference 2</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="commissions.value">
+<div class="cell" data-label="Property">commissions.value</div>
+<div class="cell" data-label="Column">value</div>
+<div class="cell" data-label="Arabic">القيمة</div>
+<div class="cell" data-label="English">Value</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 

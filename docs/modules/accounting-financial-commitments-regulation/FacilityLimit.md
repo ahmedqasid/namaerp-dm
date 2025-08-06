@@ -153,6 +153,15 @@
 
 </div>
 
+<div class="row searchable" id="date10">
+<div class="cell" data-label="Property">date10</div>
+<div class="cell" data-label="Column">date10</div>
+<div class="cell" data-label="Arabic">تاريخ 10</div>
+<div class="cell" data-label="English">Date10</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
 <div class="row searchable" id="date2">
 <div class="cell" data-label="Property">date2</div>
 <div class="cell" data-label="Column">date2</div>
@@ -189,6 +198,42 @@
 
 </div>
 
+<div class="row searchable" id="date6">
+<div class="cell" data-label="Property">date6</div>
+<div class="cell" data-label="Column">date6</div>
+<div class="cell" data-label="Arabic">تاريخ 6</div>
+<div class="cell" data-label="English">Date6</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="date7">
+<div class="cell" data-label="Property">date7</div>
+<div class="cell" data-label="Column">date7</div>
+<div class="cell" data-label="Arabic">تاريخ 7</div>
+<div class="cell" data-label="English">Date7</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="date8">
+<div class="cell" data-label="Property">date8</div>
+<div class="cell" data-label="Column">date8</div>
+<div class="cell" data-label="Arabic">تاريخ 8</div>
+<div class="cell" data-label="English">Date8</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="date9">
+<div class="cell" data-label="Property">date9</div>
+<div class="cell" data-label="Column">date9</div>
+<div class="cell" data-label="Arabic">تاريخ 9</div>
+<div class="cell" data-label="English">Date9</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
 <div class="row searchable" id="department">
 <div class="cell" data-label="Property">department</div>
 <div class="cell" data-label="Column">department_id</div>
@@ -215,6 +260,15 @@
 <div class="cell" data-label="Column">description1</div>
 <div class="cell" data-label="Arabic">الوصف 1</div>
 <div class="cell" data-label="English">description1</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="description10">
+<div class="cell" data-label="Property">description10</div>
+<div class="cell" data-label="Column">description10</div>
+<div class="cell" data-label="Arabic">الوصف 10</div>
+<div class="cell" data-label="English">description 10</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
@@ -251,6 +305,42 @@
 <div class="cell" data-label="Column">description5</div>
 <div class="cell" data-label="Arabic">الوصف 5</div>
 <div class="cell" data-label="English">description5</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="description6">
+<div class="cell" data-label="Property">description6</div>
+<div class="cell" data-label="Column">description6</div>
+<div class="cell" data-label="Arabic">الوصف 6</div>
+<div class="cell" data-label="English">description 6</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="description7">
+<div class="cell" data-label="Property">description7</div>
+<div class="cell" data-label="Column">description7</div>
+<div class="cell" data-label="Arabic">الوصف 7</div>
+<div class="cell" data-label="English">description 7</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="description8">
+<div class="cell" data-label="Property">description8</div>
+<div class="cell" data-label="Column">description8</div>
+<div class="cell" data-label="Arabic">الوصف 8</div>
+<div class="cell" data-label="English">description 8</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="description9">
+<div class="cell" data-label="Property">description9</div>
+<div class="cell" data-label="Column">description9</div>
+<div class="cell" data-label="Arabic">الوصف 9</div>
+<div class="cell" data-label="English">description 9</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
@@ -489,6 +579,15 @@
 
 </div>
 
+<div class="row searchable" id="n10">
+<div class="cell" data-label="Property">n10</div>
+<div class="cell" data-label="Column">n10</div>
+<div class="cell" data-label="Arabic">رقم 10</div>
+<div class="cell" data-label="English">Number 10</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="n2">
 <div class="cell" data-label="Property">n2</div>
 <div class="cell" data-label="Column">n2</div>
@@ -521,6 +620,42 @@
 <div class="cell" data-label="Column">n5</div>
 <div class="cell" data-label="Arabic">رقم 5</div>
 <div class="cell" data-label="English">Number 5</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="n6">
+<div class="cell" data-label="Property">n6</div>
+<div class="cell" data-label="Column">n6</div>
+<div class="cell" data-label="Arabic">رقم 6</div>
+<div class="cell" data-label="English">Number 6</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="n7">
+<div class="cell" data-label="Property">n7</div>
+<div class="cell" data-label="Column">n7</div>
+<div class="cell" data-label="Arabic">رقم 7</div>
+<div class="cell" data-label="English">Number 7</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="n8">
+<div class="cell" data-label="Property">n8</div>
+<div class="cell" data-label="Column">n8</div>
+<div class="cell" data-label="Arabic">رقم 8</div>
+<div class="cell" data-label="English">Number 8</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="n9">
+<div class="cell" data-label="Property">n9</div>
+<div class="cell" data-label="Column">n9</div>
+<div class="cell" data-label="Arabic">رقم 9</div>
+<div class="cell" data-label="English">Number 9</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
@@ -579,6 +714,15 @@
 
 </div>
 
+<div class="row searchable" id="ref10">
+<div class="cell" data-label="Property">ref10</div>
+<div class="cell gen-ref-column" data-label="Column">ref10ActualCode,  ref10Code,  ref10EntityType,  ref10Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
 <div class="row searchable" id="ref2">
 <div class="cell" data-label="Property">ref2</div>
 <div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
@@ -611,6 +755,42 @@
 <div class="cell gen-ref-column" data-label="Column">ref5ActualCode,  ref5Code,  ref5EntityType,  ref5Id</div>
 <div class="cell" data-label="Arabic">مرجع 5</div>
 <div class="cell" data-label="English">Reference 5</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="ref6">
+<div class="cell" data-label="Property">ref6</div>
+<div class="cell gen-ref-column" data-label="Column">ref6ActualCode,  ref6Code,  ref6EntityType,  ref6Id</div>
+<div class="cell" data-label="Arabic">مرجع 6</div>
+<div class="cell" data-label="English">Reference 6</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="ref7">
+<div class="cell" data-label="Property">ref7</div>
+<div class="cell gen-ref-column" data-label="Column">ref7ActualCode,  ref7Code,  ref7EntityType,  ref7Id</div>
+<div class="cell" data-label="Arabic">مرجع 7</div>
+<div class="cell" data-label="English">Reference 7</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="ref8">
+<div class="cell" data-label="Property">ref8</div>
+<div class="cell gen-ref-column" data-label="Column">ref8ActualCode,  ref8Code,  ref8EntityType,  ref8Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="ref9">
+<div class="cell" data-label="Property">ref9</div>
+<div class="cell gen-ref-column" data-label="Column">ref9ActualCode,  ref9Code,  ref9EntityType,  ref9Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Genericreference</div>
 
 </div>
@@ -817,6 +997,186 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.date1">
+<div class="cell" data-label="Property">details.date1</div>
+<div class="cell" data-label="Column">date1</div>
+<div class="cell" data-label="Arabic">تـــاريخ 1</div>
+<div class="cell" data-label="English">Date 1</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.date10">
+<div class="cell" data-label="Property">details.date10</div>
+<div class="cell" data-label="Column">date10</div>
+<div class="cell" data-label="Arabic">تاريخ 10</div>
+<div class="cell" data-label="English">Date10</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.date2">
+<div class="cell" data-label="Property">details.date2</div>
+<div class="cell" data-label="Column">date2</div>
+<div class="cell" data-label="Arabic">تـــاريخ 2</div>
+<div class="cell" data-label="English">Date 2</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.date3">
+<div class="cell" data-label="Property">details.date3</div>
+<div class="cell" data-label="Column">date3</div>
+<div class="cell" data-label="Arabic">تاريخ 3</div>
+<div class="cell" data-label="English">Date3</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.date4">
+<div class="cell" data-label="Property">details.date4</div>
+<div class="cell" data-label="Column">date4</div>
+<div class="cell" data-label="Arabic">تاريخ 4</div>
+<div class="cell" data-label="English">Date4</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.date5">
+<div class="cell" data-label="Property">details.date5</div>
+<div class="cell" data-label="Column">date5</div>
+<div class="cell" data-label="Arabic">تاريخ 5</div>
+<div class="cell" data-label="English">Date5</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.date6">
+<div class="cell" data-label="Property">details.date6</div>
+<div class="cell" data-label="Column">date6</div>
+<div class="cell" data-label="Arabic">تاريخ 6</div>
+<div class="cell" data-label="English">Date6</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.date7">
+<div class="cell" data-label="Property">details.date7</div>
+<div class="cell" data-label="Column">date7</div>
+<div class="cell" data-label="Arabic">تاريخ 7</div>
+<div class="cell" data-label="English">Date7</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.date8">
+<div class="cell" data-label="Property">details.date8</div>
+<div class="cell" data-label="Column">date8</div>
+<div class="cell" data-label="Arabic">تاريخ 8</div>
+<div class="cell" data-label="English">Date8</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.date9">
+<div class="cell" data-label="Property">details.date9</div>
+<div class="cell" data-label="Column">date9</div>
+<div class="cell" data-label="Arabic">تاريخ 9</div>
+<div class="cell" data-label="English">Date9</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.description1">
+<div class="cell" data-label="Property">details.description1</div>
+<div class="cell" data-label="Column">description1</div>
+<div class="cell" data-label="Arabic">الوصف 1</div>
+<div class="cell" data-label="English">description1</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.description10">
+<div class="cell" data-label="Property">details.description10</div>
+<div class="cell" data-label="Column">description10</div>
+<div class="cell" data-label="Arabic">الوصف 10</div>
+<div class="cell" data-label="English">description 10</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.description2">
+<div class="cell" data-label="Property">details.description2</div>
+<div class="cell" data-label="Column">description2</div>
+<div class="cell" data-label="Arabic">الوصف 2</div>
+<div class="cell" data-label="English">description2</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.description3">
+<div class="cell" data-label="Property">details.description3</div>
+<div class="cell" data-label="Column">description3</div>
+<div class="cell" data-label="Arabic">الوصف 3</div>
+<div class="cell" data-label="English">description3</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.description4">
+<div class="cell" data-label="Property">details.description4</div>
+<div class="cell" data-label="Column">description4</div>
+<div class="cell" data-label="Arabic">الوصف 4</div>
+<div class="cell" data-label="English">description4</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.description5">
+<div class="cell" data-label="Property">details.description5</div>
+<div class="cell" data-label="Column">description5</div>
+<div class="cell" data-label="Arabic">الوصف 5</div>
+<div class="cell" data-label="English">description5</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.description6">
+<div class="cell" data-label="Property">details.description6</div>
+<div class="cell" data-label="Column">description6</div>
+<div class="cell" data-label="Arabic">الوصف 6</div>
+<div class="cell" data-label="English">description 6</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.description7">
+<div class="cell" data-label="Property">details.description7</div>
+<div class="cell" data-label="Column">description7</div>
+<div class="cell" data-label="Arabic">الوصف 7</div>
+<div class="cell" data-label="English">description 7</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.description8">
+<div class="cell" data-label="Property">details.description8</div>
+<div class="cell" data-label="Column">description8</div>
+<div class="cell" data-label="Arabic">الوصف 8</div>
+<div class="cell" data-label="English">description 8</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.description9">
+<div class="cell" data-label="Property">details.description9</div>
+<div class="cell" data-label="Column">description9</div>
+<div class="cell" data-label="Arabic">الوصف 9</div>
+<div class="cell" data-label="English">description 9</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="details.dimensions.analysisSet">
 <div class="cell" data-label="Property">details.dimensions.analysisSet</div>
 <div class="cell" data-label="Column">dimensionsAnalysisSet_id</div>
@@ -952,11 +1312,191 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.n1">
+<div class="cell" data-label="Property">details.n1</div>
+<div class="cell" data-label="Column">n1</div>
+<div class="cell" data-label="Arabic">رقم 1</div>
+<div class="cell" data-label="English">Number 1</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.n10">
+<div class="cell" data-label="Property">details.n10</div>
+<div class="cell" data-label="Column">n10</div>
+<div class="cell" data-label="Arabic">رقم 10</div>
+<div class="cell" data-label="English">Number 10</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.n2">
+<div class="cell" data-label="Property">details.n2</div>
+<div class="cell" data-label="Column">n2</div>
+<div class="cell" data-label="Arabic">رقم 2</div>
+<div class="cell" data-label="English">Number 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.n3">
+<div class="cell" data-label="Property">details.n3</div>
+<div class="cell" data-label="Column">n3</div>
+<div class="cell" data-label="Arabic">رقم 3</div>
+<div class="cell" data-label="English">Number 3</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.n4">
+<div class="cell" data-label="Property">details.n4</div>
+<div class="cell" data-label="Column">n4</div>
+<div class="cell" data-label="Arabic">رقم 4</div>
+<div class="cell" data-label="English">Number 4</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.n5">
+<div class="cell" data-label="Property">details.n5</div>
+<div class="cell" data-label="Column">n5</div>
+<div class="cell" data-label="Arabic">رقم 5</div>
+<div class="cell" data-label="English">Number 5</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.n6">
+<div class="cell" data-label="Property">details.n6</div>
+<div class="cell" data-label="Column">n6</div>
+<div class="cell" data-label="Arabic">رقم 6</div>
+<div class="cell" data-label="English">Number 6</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.n7">
+<div class="cell" data-label="Property">details.n7</div>
+<div class="cell" data-label="Column">n7</div>
+<div class="cell" data-label="Arabic">رقم 7</div>
+<div class="cell" data-label="English">Number 7</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.n8">
+<div class="cell" data-label="Property">details.n8</div>
+<div class="cell" data-label="Column">n8</div>
+<div class="cell" data-label="Arabic">رقم 8</div>
+<div class="cell" data-label="English">Number 8</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.n9">
+<div class="cell" data-label="Property">details.n9</div>
+<div class="cell" data-label="Column">n9</div>
+<div class="cell" data-label="Arabic">رقم 9</div>
+<div class="cell" data-label="English">Number 9</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="details.projContract">
 <div class="cell" data-label="Property">details.projContract</div>
 <div class="cell gen-ref-column" data-label="Column">projContractActualCode,  projContractCode,  projContractEntityType,  projContractId</div>
 <div class="cell" data-label="Arabic">عقد المشروع</div>
 <div class="cell" data-label="English">Project Contract</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.ref1">
+<div class="cell" data-label="Property">details.ref1</div>
+<div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
+<div class="cell" data-label="Arabic">مرجع 1</div>
+<div class="cell" data-label="English">Reference 1</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.ref10">
+<div class="cell" data-label="Property">details.ref10</div>
+<div class="cell gen-ref-column" data-label="Column">ref10ActualCode,  ref10Code,  ref10EntityType,  ref10Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.ref2">
+<div class="cell" data-label="Property">details.ref2</div>
+<div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
+<div class="cell" data-label="Arabic">مرجع 2</div>
+<div class="cell" data-label="English">Reference 2</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.ref3">
+<div class="cell" data-label="Property">details.ref3</div>
+<div class="cell gen-ref-column" data-label="Column">ref3ActualCode,  ref3Code,  ref3EntityType,  ref3Id</div>
+<div class="cell" data-label="Arabic">مرجع 3</div>
+<div class="cell" data-label="English">Reference 3</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.ref4">
+<div class="cell" data-label="Property">details.ref4</div>
+<div class="cell gen-ref-column" data-label="Column">ref4ActualCode,  ref4Code,  ref4EntityType,  ref4Id</div>
+<div class="cell" data-label="Arabic">مرجع 4</div>
+<div class="cell" data-label="English">Reference 4</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.ref5">
+<div class="cell" data-label="Property">details.ref5</div>
+<div class="cell gen-ref-column" data-label="Column">ref5ActualCode,  ref5Code,  ref5EntityType,  ref5Id</div>
+<div class="cell" data-label="Arabic">مرجع 5</div>
+<div class="cell" data-label="English">Reference 5</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.ref6">
+<div class="cell" data-label="Property">details.ref6</div>
+<div class="cell gen-ref-column" data-label="Column">ref6ActualCode,  ref6Code,  ref6EntityType,  ref6Id</div>
+<div class="cell" data-label="Arabic">مرجع 6</div>
+<div class="cell" data-label="English">Reference 6</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.ref7">
+<div class="cell" data-label="Property">details.ref7</div>
+<div class="cell gen-ref-column" data-label="Column">ref7ActualCode,  ref7Code,  ref7EntityType,  ref7Id</div>
+<div class="cell" data-label="Arabic">مرجع 7</div>
+<div class="cell" data-label="English">Reference 7</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.ref8">
+<div class="cell" data-label="Property">details.ref8</div>
+<div class="cell gen-ref-column" data-label="Column">ref8ActualCode,  ref8Code,  ref8EntityType,  ref8Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.ref9">
+<div class="cell" data-label="Property">details.ref9</div>
+<div class="cell gen-ref-column" data-label="Column">ref9ActualCode,  ref9Code,  ref9EntityType,  ref9Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Genericreference</div>
 
 </div>

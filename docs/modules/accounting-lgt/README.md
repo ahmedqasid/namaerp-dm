@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Letters of Guarantee
   - [LGTChanging](/modules/accounting-lgt/LGTChanging.md)
   - [LGTClosing](/modules/accounting-lgt/LGTClosing.md)
@@ -7,3 +9,5 @@
   - [LGTReceipt](/modules/accounting-lgt/LGTReceipt.md)
   - [LGTReq](/modules/accounting-lgt/LGTReq.md)
   - [LetterOfGuarantee](/modules/accounting-lgt/LetterOfGuarantee.md)
+
+</div>

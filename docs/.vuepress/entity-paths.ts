@@ -1,5 +1,7 @@
 export const entityPathsMap: Record<string, string> = {
   "ACCSideConfigSysLine" : "system-tables/ACCSideConfigSysLine.html",
+  "AIChatMessage" : "system-tables/AIChatMessage.html",
+  "AIChatSession" : "system-tables/AIChatSession.html",
   "AIEmbeddingFile" : "system-tables/AIEmbeddingFile.html",
   "AIRecordEmbeddingConfig" : "ai/AIRecordEmbeddingConfig.html",
   "AIRecordEmbeddingConfigLine" : "ai/AIRecordEmbeddingConfig.html#embeddingLines",
@@ -3485,6 +3487,7 @@ export const entityPathsMap: Record<string, string> = {
   "RECancelContrPaymentLine" : "realestate-rent/RECancelContract.html#expenses",
   "RECancelConStandardTermLine" : "realestate-rent/RECancelContract.html#termLines",
   "RECancelContractReq" : "realestate-sales/RECancelContractReq.html",
+  "RECancelContractCommissionLine" : "realestate-sales/RECancelContractReq.html#commissions",
   "RECollectDoc" : "realestate/RECollectDoc.html",
   "RECollectDocLine" : "realestate/RECollectDoc.html#details",
   "RECollectReq" : "realestate/RECollectReq.html",
@@ -3627,6 +3630,7 @@ export const entityPathsMap: Record<string, string> = {
   "REUnitGroupUnitLine" : "realestate/REUnitGroup.html#lines",
   "REUnitModel" : "realestate/REUnitModel.html",
   "REWaiverDoc" : "realestate-sales/REWaiverDoc.html",
+  "REWaiverDocCommissionLine" : "realestate-sales/REWaiverDoc.html#commissions",
   "REWaiverDocInstallmentLine" : "realestate-sales/REWaiverDoc.html#details",
   "REWaiverDocInstallmentInfoLine" : "realestate-sales/REWaiverDoc.html#installmentInfoLines",
   "REWaiverDocTermCondsLine" : "realestate-sales/REWaiverDoc.html#lines",

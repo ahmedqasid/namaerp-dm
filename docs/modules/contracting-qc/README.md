@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Contracting QC
   - [CQCActivityInspectionReq](/modules/contracting-qc/CQCActivityInspectionReq.md)
   - [CQCCleaningAndFlushing](/modules/contracting-qc/CQCCleaningAndFlushing.md)
@@ -9,3 +11,5 @@
   - [CQCPostConcreteInspection](/modules/contracting-qc/CQCPostConcreteInspection.md)
   - [CQCPreConcreteInspection](/modules/contracting-qc/CQCPreConcreteInspection.md)
   - [CQCUndergroundPipingChecks](/modules/contracting-qc/CQCUndergroundPipingChecks.md)
+
+</div>

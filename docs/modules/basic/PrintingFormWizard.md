@@ -669,6 +669,15 @@
 
 </div>
 
+<div class="row searchable" id="finalStaticDeclareStatements">
+<div class="cell" data-label="Property">finalStaticDeclareStatements</div>
+<div class="cell" data-label="Column">finalStaticDeclareStatements</div>
+<div class="cell" data-label="Arabic">Final Static Declare Statements</div>
+<div class="cell" data-label="English">Final Static Declare Statements</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
 <div class="row searchable" id="finalStaticHavingCondition">
 <div class="cell" data-label="Property">finalStaticHavingCondition</div>
 <div class="cell" data-label="Column">finalStaticHavingCondition</div>
@@ -1811,6 +1820,15 @@
 <div class="cell" data-label="Column">sqlQuery</div>
 <div class="cell" data-label="Arabic">SQL Query</div>
 <div class="cell" data-label="English">SQL Query</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="staticDeclareStatements">
+<div class="cell" data-label="Property">staticDeclareStatements</div>
+<div class="cell" data-label="Column">staticDeclareStatements</div>
+<div class="cell" data-label="Arabic">Static Declare Statements</div>
+<div class="cell" data-label="English">Static Declare Statements</div>
 <div class="cell" data-label="Type">BigText</div>
 
 </div>

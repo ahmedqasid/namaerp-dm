@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Human Resources - Payroll
   - [AggFiringDocument](/modules/humanresource-payroll/AggFiringDocument.md)
   - [AggFiringRequest](/modules/humanresource-payroll/AggFiringRequest.md)
@@ -77,3 +79,5 @@
   - [WorkPlaceUpdate](/modules/humanresource-payroll/WorkPlaceUpdate.md)
   - [WorkStartingDocument](/modules/humanresource-payroll/WorkStartingDocument.md)
   - [WorkStartingRequest](/modules/humanresource-payroll/WorkStartingRequest.md)
+
+</div>

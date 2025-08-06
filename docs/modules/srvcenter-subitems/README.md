@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Service Center - Sub Items
   - [SIAllocation](/modules/srvcenter-subitems/SIAllocation.md)
   - [SIAllocationCancel](/modules/srvcenter-subitems/SIAllocationCancel.md)
@@ -20,3 +22,5 @@
   - [SITrafficLetterReqCancel](/modules/srvcenter-subitems/SITrafficLetterReqCancel.md)
   - [SubItem](/modules/srvcenter-subitems/SubItem.md)
   - [SubItemStatusConfigurations](/modules/srvcenter-subitems/SubItemStatusConfigurations.md)
+
+</div>

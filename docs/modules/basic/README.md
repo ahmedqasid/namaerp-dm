@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Basic
   - [APICredentials](/modules/basic/APICredentials.md)
   - [AccountingCalendar](/modules/basic/AccountingCalendar.md)
@@ -152,3 +154,5 @@
   - [WizardFile](/modules/basic/WizardFile.md)
   - [WorkTask](/modules/basic/WorkTask.md)
   - [WorkTaskCategory](/modules/basic/WorkTaskCategory.md)
+
+</div>

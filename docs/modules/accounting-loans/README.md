@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Bank Loans
   - [BankLoan](/modules/accounting-loans/BankLoan.md)
   - [BankLoanChangingDoc](/modules/accounting-loans/BankLoanChangingDoc.md)
@@ -16,3 +18,5 @@
   - [LoanInstallmentPayment](/modules/accounting-loans/LoanInstallmentPayment.md)
   - [LoanInterestsCalculation](/modules/accounting-loans/LoanInterestsCalculation.md)
   - [LoanIssue](/modules/accounting-loans/LoanIssue.md)
+
+</div>

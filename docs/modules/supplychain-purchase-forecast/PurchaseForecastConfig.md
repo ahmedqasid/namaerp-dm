@@ -213,7 +213,7 @@
 <div class="cell" data-label="Column">coverage10CalcFormula</div>
 <div class="cell" data-label="Arabic">معادلة حساب تغطية 10</div>
 <div class="cell" data-label="English">Coverage 10 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -222,7 +222,7 @@
 <div class="cell" data-label="Column">coverage1CalcFormula</div>
 <div class="cell" data-label="Arabic">معادلة حساب تغطية 1</div>
 <div class="cell" data-label="English">Coverage 1 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -231,7 +231,7 @@
 <div class="cell" data-label="Column">coverage2CalcFormula</div>
 <div class="cell" data-label="Arabic">معادلة حساب تغطية 2</div>
 <div class="cell" data-label="English">Coverage 2 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -240,7 +240,7 @@
 <div class="cell" data-label="Column">coverage3CalcFormula</div>
 <div class="cell" data-label="Arabic">معادلة حساب تغطية 3</div>
 <div class="cell" data-label="English">Coverage 3 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -249,7 +249,7 @@
 <div class="cell" data-label="Column">coverage4CalcFormula</div>
 <div class="cell" data-label="Arabic">معادلة حساب تغطية 4</div>
 <div class="cell" data-label="English">Coverage 4 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -258,7 +258,7 @@
 <div class="cell" data-label="Column">coverage5CalcFormula</div>
 <div class="cell" data-label="Arabic">معادلة حساب تغطية 5</div>
 <div class="cell" data-label="English">Coverage 5 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -267,7 +267,7 @@
 <div class="cell" data-label="Column">coverage6CalcFormula</div>
 <div class="cell" data-label="Arabic">معادلة حساب تغطية 6</div>
 <div class="cell" data-label="English">Coverage 6 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -276,7 +276,7 @@
 <div class="cell" data-label="Column">coverage7CalcFormula</div>
 <div class="cell" data-label="Arabic">معادلة حساب تغطية 7</div>
 <div class="cell" data-label="English">Coverage 7 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -285,7 +285,7 @@
 <div class="cell" data-label="Column">coverage8CalcFormula</div>
 <div class="cell" data-label="Arabic">معادلة حساب تغطية 8</div>
 <div class="cell" data-label="English">Coverage 8 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -294,7 +294,7 @@
 <div class="cell" data-label="Column">coverage9CalcFormula</div>
 <div class="cell" data-label="Arabic">معادلة حساب تغطية 9</div>
 <div class="cell" data-label="English">Coverage 9 Calculation Formula</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -552,7 +552,7 @@
 <div class="cell" data-label="Column">forecastedPurchaseQuantityBasedOnCoverageFormula</div>
 <div class="cell" data-label="Arabic">معادلة حساب الكمية المتوقعة للشراء حسب التغطية</div>
 <div class="cell" data-label="English">Forecasted Purchase Quantity Based On Coverage Formula</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -1191,7 +1191,7 @@
 <div class="cell" data-label="Column">suggestedOrderBasedOnCoverageFormula</div>
 <div class="cell" data-label="Arabic">معادلة حساب الطلب المقترح حسب التغطية</div>
 <div class="cell" data-label="English">Suggested Order Based on Coverage Formula</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 

@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Accounting
   - [AccDistribution](/modules/accounting/AccDistribution.md)
   - [Account](/modules/accounting/Account.md)
@@ -39,3 +41,5 @@
   - [ReceiptOrder](/modules/accounting/ReceiptOrder.md)
   - [ReceiptVoucher](/modules/accounting/ReceiptVoucher.md)
   - [SubsidiaryReconciliation](/modules/accounting/SubsidiaryReconciliation.md)
+
+</div>

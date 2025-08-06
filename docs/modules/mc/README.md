@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Maintenance Contracting
   - [MCAdditionDeduction](/modules/mc/MCAdditionDeduction.md)
   - [MCContractPhase](/modules/mc/MCContractPhase.md)
@@ -24,3 +26,5 @@
   - [MCUOM](/modules/mc/MCUOM.md)
   - [MCWorkArea](/modules/mc/MCWorkArea.md)
   - [MCWorkerType](/modules/mc/MCWorkerType.md)
+
+</div>

@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Human Resources - Gulf Visas
   - [AggrHOExitReEntryVisaReq](/modules/humanresource-gulf-visa/AggrHOExitReEntryVisaReq.md)
   - [AggrHOSponsorshipTransferDoc](/modules/humanresource-gulf-visa/AggrHOSponsorshipTransferDoc.md)
@@ -13,3 +15,5 @@
   - [HRVisaHandling](/modules/humanresource-gulf-visa/HRVisaHandling.md)
   - [HRVisasDelegation](/modules/humanresource-gulf-visa/HRVisasDelegation.md)
   - [ResidenceRenewReq](/modules/humanresource-gulf-visa/ResidenceRenewReq.md)
+
+</div>

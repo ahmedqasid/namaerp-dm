@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Fixed Assets
   - [AggFATransferRequest](/modules/fixedassets/AggFATransferRequest.md)
   - [AggrAdditionDeduction](/modules/fixedassets/AggrAdditionDeduction.md)
@@ -32,3 +34,5 @@
   - [FATransferRequest](/modules/fixedassets/FATransferRequest.md)
   - [FAType](/modules/fixedassets/FAType.md)
   - [FixedAsset](/modules/fixedassets/FixedAsset.md)
+
+</div>

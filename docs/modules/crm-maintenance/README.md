@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # CRM - Maintenance
   - [MnBuilding](/modules/crm-maintenance/MnBuilding.md)
   - [MnClassification1](/modules/crm-maintenance/MnClassification1.md)
@@ -36,3 +38,5 @@
   - [MnVisitStatus](/modules/crm-maintenance/MnVisitStatus.md)
   - [MnWorkPlan](/modules/crm-maintenance/MnWorkPlan.md)
   - [WarrantyPeriodType](/modules/crm-maintenance/WarrantyPeriodType.md)
+
+</div>

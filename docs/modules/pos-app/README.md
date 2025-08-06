@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # POS App Tables
   - [POS.ItemLine (Table Name: ItemLine)](/modules/pos-app/POS.ItemLine.md)
   - [POS.POSActionHistory (Table Name: POSActionHistory)](/modules/pos-app/POS.POSActionHistory.md)
@@ -112,3 +114,5 @@
   - [POS.PosTempDocument (Table Name: PosTempDocument)](/modules/pos-app/POS.PosTempDocument.md)
   - [POS.PosUISettings (Table Name: PosUISettings)](/modules/pos-app/POS.PosUISettings.md)
   - [POS.Shortcuts (Table Name: Shortcuts)](/modules/pos-app/POS.Shortcuts.md)
+
+</div>

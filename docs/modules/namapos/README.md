@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Point Of Sale
   - [NaMaPosItemsToSend](/modules/namapos/NaMaPosItemsToSend.md)
   - [NamaPOSAggGenericReference](/modules/namapos/NamaPOSAggGenericReference.md)
@@ -42,3 +44,5 @@
   - [POSShiftOpening](/modules/namapos/POSShiftOpening.md)
   - [PaymentFromPosSettings](/modules/namapos/PaymentFromPosSettings.md)
   - [PosMinChargeSettings](/modules/namapos/PosMinChargeSettings.md)
+
+</div>

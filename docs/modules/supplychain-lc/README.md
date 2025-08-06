@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Supply Chain - Letters Of Credit
   - [LCAction](/modules/supplychain-lc/LCAction.md)
   - [LCCostDoc](/modules/supplychain-lc/LCCostDoc.md)
@@ -9,3 +11,5 @@
   - [LcExpenseDocument](/modules/supplychain-lc/LcExpenseDocument.md)
   - [LetterOfCredit](/modules/supplychain-lc/LetterOfCredit.md)
   - [LetterOfCreditRequest](/modules/supplychain-lc/LetterOfCreditRequest.md)
+
+</div>

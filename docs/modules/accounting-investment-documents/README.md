@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Investment Documents
   - [AggTreasuryBillProofDoc](/modules/accounting-investment-documents/AggTreasuryBillProofDoc.md)
   - [InvestmentCompany](/modules/accounting-investment-documents/InvestmentCompany.md)
@@ -14,3 +16,5 @@
   - [TreasuryBillCloseDoc](/modules/accounting-investment-documents/TreasuryBillCloseDoc.md)
   - [TreasuryBillPurchaseDoc](/modules/accounting-investment-documents/TreasuryBillPurchaseDoc.md)
   - [TreasuryBillSalesDoc](/modules/accounting-investment-documents/TreasuryBillSalesDoc.md)
+
+</div>

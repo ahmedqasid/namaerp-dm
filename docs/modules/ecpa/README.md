@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Time Managenet
   - [CPADiscipline](/modules/ecpa/CPADiscipline.md)
   - [CPAPhasesDisciplineGroup](/modules/ecpa/CPAPhasesDisciplineGroup.md)
@@ -22,3 +24,5 @@
   - [CPATimeSheet](/modules/ecpa/CPATimeSheet.md)
   - [CPATimeSheetApproval](/modules/ecpa/CPATimeSheetApproval.md)
   - [CPATimeSheetRequest](/modules/ecpa/CPATimeSheetRequest.md)
+
+</div>

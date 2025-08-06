@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Real Estate
   - [REAdditionalCost](/modules/realestate/REAdditionalCost.md)
   - [REBankPay](/modules/realestate/REBankPay.md)
@@ -36,3 +38,5 @@
   - [REStandardTermsConditions](/modules/realestate/REStandardTermsConditions.md)
   - [REUnitGroup](/modules/realestate/REUnitGroup.md)
   - [REUnitModel](/modules/realestate/REUnitModel.md)
+
+</div>

@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Manufacturing
   - [ActualOverheadCalculator](/modules/manufacturing/ActualOverheadCalculator.md)
   - [ActualProductionOverhead](/modules/manufacturing/ActualProductionOverhead.md)
@@ -23,3 +25,5 @@
   - [ScrapReceipt](/modules/manufacturing/ScrapReceipt.md)
   - [StandardOperation](/modules/manufacturing/StandardOperation.md)
   - [WorkCenter](/modules/manufacturing/WorkCenter.md)
+
+</div>

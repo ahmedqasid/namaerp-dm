@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Travel and Tourism
   - [TRCity](/modules/travel/TRCity.md)
   - [TRCountry](/modules/travel/TRCountry.md)
@@ -18,3 +20,5 @@
   - [TRTourProgram](/modules/travel/TRTourProgram.md)
   - [TRTourService](/modules/travel/TRTourService.md)
   - [TRTourServiceClass](/modules/travel/TRTourServiceClass.md)
+
+</div>

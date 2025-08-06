@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # CRM - Maintenance Services
   - [MnService](/modules/crm-maintenance-services/MnService.md)
   - [MnSrvContract](/modules/crm-maintenance-services/MnSrvContract.md)
@@ -9,3 +11,5 @@
   - [MnSrvSalesOrder](/modules/crm-maintenance-services/MnSrvSalesOrder.md)
   - [MnSrvSalesQuotation](/modules/crm-maintenance-services/MnSrvSalesQuotation.md)
   - [MnSrvWorkPlan](/modules/crm-maintenance-services/MnSrvWorkPlan.md)
+
+</div>

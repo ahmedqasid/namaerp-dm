@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Housing
   - [AttendantsCategory](/modules/housing/AttendantsCategory.md)
   - [ChargeItem](/modules/housing/ChargeItem.md)
@@ -33,3 +35,5 @@
   - [HOShipmentReceiving](/modules/housing/HOShipmentReceiving.md)
   - [HOShipmentSending](/modules/housing/HOShipmentSending.md)
   - [HOShippingCost](/modules/housing/HOShippingCost.md)
+
+</div>

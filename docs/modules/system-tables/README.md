@@ -1,5 +1,9 @@
+<div class="ignore-in-full-text-search">
+
 # System Tables
   - [ACCSideConfigSysLine](/modules/system-tables/ACCSideConfigSysLine.md)
+  - [AIChatMessage](/modules/system-tables/AIChatMessage.md)
+  - [AIChatSession](/modules/system-tables/AIChatSession.md)
   - [AIEmbeddingFile](/modules/system-tables/AIEmbeddingFile.md)
   - [AUFilePhaseLine](/modules/system-tables/AUFilePhaseLine.md)
   - [ActionsHistory](/modules/system-tables/ActionsHistory.md)
@@ -336,3 +340,5 @@
   - [WathqCallInfo](/modules/system-tables/WathqCallInfo.md)
   - [WhatsAppMessageEntry](/modules/system-tables/WhatsAppMessageEntry.md)
   - [WhatsAppMessageLog](/modules/system-tables/WhatsAppMessageLog.md)
+
+</div>

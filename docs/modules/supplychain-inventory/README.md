@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Supply Chain - Inventory
   - [CostRevaluation](/modules/supplychain-inventory/CostRevaluation.md)
   - [EndStockTaking](/modules/supplychain-inventory/EndStockTaking.md)
@@ -25,3 +27,5 @@
   - [StockTakingDetails](/modules/supplychain-inventory/StockTakingDetails.md)
   - [StockTransfer](/modules/supplychain-inventory/StockTransfer.md)
   - [StockTransferReq](/modules/supplychain-inventory/StockTransferReq.md)
+
+</div>

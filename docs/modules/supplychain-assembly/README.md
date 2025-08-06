@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Supply Chain - Assembly
   - [AggrAssemblyDocument](/modules/supplychain-assembly/AggrAssemblyDocument.md)
   - [AssemblyAltMaterial](/modules/supplychain-assembly/AssemblyAltMaterial.md)
@@ -12,3 +14,5 @@
   - [PartialAssemblyBOM](/modules/supplychain-assembly/PartialAssemblyBOM.md)
   - [ProcessingDoc](/modules/supplychain-assembly/ProcessingDoc.md)
   - [SubItemAssemblyDocument](/modules/supplychain-assembly/SubItemAssemblyDocument.md)
+
+</div>

@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # CRM
   - [CRMAgent](/modules/crm/CRMAgent.md)
   - [CRMAnalysis](/modules/crm/CRMAnalysis.md)
@@ -38,3 +40,5 @@
   - [SMFInitialOperationDoc](/modules/crm/SMFInitialOperationDoc.md)
   - [SMFProblemDeclarationDoc](/modules/crm/SMFProblemDeclarationDoc.md)
   - [SMFSolutionSuggestionDoc](/modules/crm/SMFSolutionSuggestionDoc.md)
+
+</div>

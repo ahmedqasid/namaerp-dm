@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Hospital Management System
   - [HMSAccommodation](/modules/hms/HMSAccommodation.md)
   - [HMSAccommodationExit](/modules/hms/HMSAccommodationExit.md)
@@ -81,3 +83,5 @@
   - [HMSTestTube](/modules/hms/HMSTestTube.md)
   - [HMSTestTubeColor](/modules/hms/HMSTestTubeColor.md)
   - [InsuranceCompanyApproval](/modules/hms/InsuranceCompanyApproval.md)
+
+</div>

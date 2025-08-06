@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Manufacturing Cartoon Planning
   - [CRTNCorrugatingFactor](/modules/manufacturing-crtn-pln/CRTNCorrugatingFactor.md)
   - [CRTNCorrugatingType](/modules/manufacturing-crtn-pln/CRTNCorrugatingType.md)
@@ -13,3 +15,5 @@
   - [CRTNSlottingType](/modules/manufacturing-crtn-pln/CRTNSlottingType.md)
   - [CRTNSpecification](/modules/manufacturing-crtn-pln/CRTNSpecification.md)
   - [CRTNType](/modules/manufacturing-crtn-pln/CRTNType.md)
+
+</div>

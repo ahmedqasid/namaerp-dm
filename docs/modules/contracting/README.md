@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Contracting
   - [AppFormElement](/modules/contracting/AppFormElement.md)
   - [ApplicationForm](/modules/contracting/ApplicationForm.md)
@@ -65,3 +67,5 @@
   - [TermAnalysisCard](/modules/contracting/TermAnalysisCard.md)
   - [TermSheet](/modules/contracting/TermSheet.md)
   - [TestReport](/modules/contracting/TestReport.md)
+
+</div>

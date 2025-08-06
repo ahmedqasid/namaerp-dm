@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Supply Chain - Purchases
   - [ConsolidatedPurchaseReq](/modules/supplychain-purchases/ConsolidatedPurchaseReq.md)
   - [DiscountUpdate](/modules/supplychain-purchases/DiscountUpdate.md)
@@ -17,3 +19,5 @@
   - [PurchaseReturn](/modules/supplychain-purchases/PurchaseReturn.md)
   - [PurchaseReturnReq](/modules/supplychain-purchases/PurchaseReturnReq.md)
   - [VendorDiscount](/modules/supplychain-purchases/VendorDiscount.md)
+
+</div>

@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Banks and Commercial Papers
   - [Bank](/modules/accounting-banks/Bank.md)
   - [BankAccount](/modules/accounting-banks/BankAccount.md)
@@ -18,3 +20,5 @@
   - [OpenningFinancialPaper](/modules/accounting-banks/OpenningFinancialPaper.md)
   - [PostponedBankPortfolio](/modules/accounting-banks/PostponedBankPortfolio.md)
   - [PostponedPortfolioReturn](/modules/accounting-banks/PostponedPortfolioReturn.md)
+
+</div>

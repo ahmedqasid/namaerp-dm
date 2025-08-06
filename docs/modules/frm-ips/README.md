@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Internation Postal Services - IPS
   - [IPSDeliveryAndReceiptArea](/modules/frm-ips/IPSDeliveryAndReceiptArea.md)
   - [IPSDeliveryInvoice](/modules/frm-ips/IPSDeliveryInvoice.md)
@@ -22,3 +24,5 @@
   - [IPSPostalParcelsSort](/modules/frm-ips/IPSPostalParcelsSort.md)
   - [IPSReceptaclesReceipt](/modules/frm-ips/IPSReceptaclesReceipt.md)
   - [IPSTransferReceptacles](/modules/frm-ips/IPSTransferReceptacles.md)
+
+</div>

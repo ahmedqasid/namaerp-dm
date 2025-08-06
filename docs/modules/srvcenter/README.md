@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Service Center
   - [AccessoriesKit](/modules/srvcenter/AccessoriesKit.md)
   - [RecallCampaign](/modules/srvcenter/RecallCampaign.md)
@@ -34,3 +36,5 @@
   - [SrvcPendingOperation](/modules/srvcenter/SrvcPendingOperation.md)
   - [SrvcRawMaterialReturn](/modules/srvcenter/SrvcRawMaterialReturn.md)
   - [SrvcResumeOperation](/modules/srvcenter/SrvcResumeOperation.md)
+
+</div>

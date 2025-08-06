@@ -20,7 +20,16 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="automaticTooltip">
+</div><div class="row searchable" id="automaticInMobileApp">
+<div class="cell" data-label="Property">automaticInMobileApp</div>
+<div class="cell" data-label="Column">automaticInMobileApp</div>
+<div class="cell" data-label="Arabic">تعمل تلقائيا في تطبيق الهاتف</div>
+<div class="cell" data-label="English">Automatic In MobileApp</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="automaticTooltip">
 <div class="cell" data-label="Property">automaticTooltip</div>
 <div class="cell" data-label="Column">automaticTooltip</div>
 <div class="cell" data-label="Arabic">عرض المساعدة السريعة اليا مع تغيير قيمة الحقل</div>

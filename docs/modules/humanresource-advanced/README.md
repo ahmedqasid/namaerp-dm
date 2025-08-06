@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Human Resources - Advanced
   - [AggrDuesLiquidationDoc](/modules/humanresource-advanced/AggrDuesLiquidationDoc.md)
   - [AggrEmpProvisionsRecalc](/modules/humanresource-advanced/AggrEmpProvisionsRecalc.md)
@@ -25,3 +27,5 @@
   - [MealsDetails](/modules/humanresource-advanced/MealsDetails.md)
   - [PickupPlan](/modules/humanresource-advanced/PickupPlan.md)
   - [RelocateReason](/modules/humanresource-advanced/RelocateReason.md)
+
+</div>

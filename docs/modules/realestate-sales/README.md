@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Real Estate - Sales
   - [PostHandoverCost](/modules/realestate-sales/PostHandoverCost.md)
   - [RECancelContractReq](/modules/realestate-sales/RECancelContractReq.md)
@@ -11,3 +13,5 @@
   - [RESalesPriceList](/modules/realestate-sales/RESalesPriceList.md)
   - [RETempReservation](/modules/realestate-sales/RETempReservation.md)
   - [REWaiverDoc](/modules/realestate-sales/REWaiverDoc.md)
+
+</div>

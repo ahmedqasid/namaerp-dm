@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Supply Chain -  Quality Control and Assurance
   - [QualityAssuranceDoc](/modules/supplychain-qc-qa/QualityAssuranceDoc.md)
   - [QualityAssuranceReq](/modules/supplychain-qc-qa/QualityAssuranceReq.md)
@@ -5,3 +7,5 @@
   - [QualityControlDoc](/modules/supplychain-qc-qa/QualityControlDoc.md)
   - [QualityControlReq](/modules/supplychain-qc-qa/QualityControlReq.md)
   - [QuestionClassification](/modules/supplychain-qc-qa/QuestionClassification.md)
+
+</div>

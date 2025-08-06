@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Financial Commitments Regulation
   - [BankLCType](/modules/accounting-financial-commitments-regulation/BankLCType.md)
   - [FacilityLimit](/modules/accounting-financial-commitments-regulation/FacilityLimit.md)
@@ -5,3 +7,5 @@
   - [FinancialCommitmentCategory](/modules/accounting-financial-commitments-regulation/FinancialCommitmentCategory.md)
   - [FinancialCommitmentPayDoc](/modules/accounting-financial-commitments-regulation/FinancialCommitmentPayDoc.md)
   - [FinancialCommitmentReschedule](/modules/accounting-financial-commitments-regulation/FinancialCommitmentReschedule.md)
+
+</div>

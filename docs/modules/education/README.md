@@ -1,3 +1,5 @@
+<div class="ignore-in-full-text-search">
+
 # Schools Management System (Education)
   - [EDAttendance](/modules/education/EDAttendance.md)
   - [EDBus](/modules/education/EDBus.md)
@@ -28,3 +30,5 @@
   - [EDStudent](/modules/education/EDStudent.md)
   - [EDStudentInfoUpdater](/modules/education/EDStudentInfoUpdater.md)
   - [EDSubLevel](/modules/education/EDSubLevel.md)
+
+</div>
