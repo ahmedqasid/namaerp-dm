@@ -1015,6 +1015,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="lines.legalEntity">
+<div class="cell" data-label="Property">lines.legalEntity</div>
+<div class="cell" data-label="Column">legalEntity_id</div>
+<div class="cell" data-label="Arabic">الشركة</div>
+<div class="cell" data-label="English">Legal Entity</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LegalEntity](/modules/basic/LegalEntity.md) 
+</div>
+</div>
+
 <div class="row searchable" id="lines.lineNumber">
 <div class="cell" data-label="Property">lines.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>

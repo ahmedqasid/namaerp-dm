@@ -40,6 +40,24 @@
 
 </div>
 
+<div class="row searchable" id="allowPDFPrintOnlyForForms">
+<div class="cell" data-label="Property">allowPDFPrintOnlyForForms</div>
+<div class="cell" data-label="Column">allowPDFPrintOnlyForForms</div>
+<div class="cell" data-label="Arabic">السماح بطباعة PDF فقط لنماذج الشاشة</div>
+<div class="cell" data-label="English">Allow PDF Print Only For Forms</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="allowPDFPrintOnlyForReports">
+<div class="cell" data-label="Property">allowPDFPrintOnlyForReports</div>
+<div class="cell" data-label="Column">allowPDFPrintOnlyForReports</div>
+<div class="cell" data-label="Arabic">السماح بطباعة PDF فقط للتقارير</div>
+<div class="cell" data-label="English">Allow PDF Print Only For Reports</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="allowPreventedRecordsInInsert">
 <div class="cell" data-label="Property">allowPreventedRecordsInInsert</div>
 <div class="cell" data-label="Column">allowPreventedRecordsInInsert</div>
@@ -54,15 +72,6 @@
 <div class="cell" data-label="Column">allowPreventedRecordsInUpdate</div>
 <div class="cell" data-label="Arabic">السماح باستعمال السجلات الممنوعة من الاستعمال في التعديل</div>
 <div class="cell" data-label="English">Allow Using Prevented Records In Update</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="allowPrintingPDFOnly">
-<div class="cell" data-label="Property">allowPrintingPDFOnly</div>
-<div class="cell" data-label="Column">allowPrintingPDFOnly</div>
-<div class="cell" data-label="Arabic">السماح بطباعة ال PDF فقط</div>
-<div class="cell" data-label="English">Allow Printing PDF Only</div>
 <div class="cell" data-label="Type">Boolean</div>
 
 </div>

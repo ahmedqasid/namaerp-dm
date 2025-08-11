@@ -3342,6 +3342,15 @@
 
 </div>
 
+<div class="row searchable" id="pageDashBoards.openByDefault">
+<div class="cell" data-label="Property">pageDashBoards.openByDefault</div>
+<div class="cell" data-label="Column">openByDefault</div>
+<div class="cell" data-label="Arabic">مفتوح افتراضيًا</div>
+<div class="cell" data-label="English">Open By Default</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="pageDashBoards.p1.overrideParamter">
 <div class="cell" data-label="Property">pageDashBoards.p1.overrideParamter</div>
 <div class="cell" data-label="Column">p1OverrideParamter</div>

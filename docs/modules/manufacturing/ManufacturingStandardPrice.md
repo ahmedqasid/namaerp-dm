@@ -2,17 +2,17 @@
 <div class='tableName'>
 
 
-# AttendancePlan
+# ManufacturingStandardPrice
 </div>
 
-**Arabic:** خطة الدوام - خطط الدوام
-**English:** Attendance Plan - Attendance Plans
+**Arabic:** سعر قياسي للتصنيع - أسعار قياسية للتصنيع
+**English:** Manufacturing Standard Price - Manufacturing Standard Prices
 
 <ContentFilter/>
 
 
 <div class='searchable'>
-<a href='#lines'>lines (AttendancePlanLine) </a>
+<a href='#details'>details (ManufacturingStandardPriceLine) </a>
 </div>
 
 <div class='searchable'>
@@ -339,354 +339,6 @@
 </div>
 </div>
 
-<div class="row searchable" id="empRange.formRef1">
-<div class="cell" data-label="Property">empRange.formRef1</div>
-<div class="cell gen-ref-column" data-label="Column">formRef1ActualCode,  formRef1Code,  formRef1EntityType,  formRef1Id</div>
-<div class="cell" data-label="Arabic">من مرجع 1</div>
-<div class="cell" data-label="English">From Reference 1</div>
-<div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
-<div class="row searchable" id="empRange.fromAnalysisSet">
-<div class="cell" data-label="Property">empRange.fromAnalysisSet</div>
-<div class="cell" data-label="Column">fromAnalysisSet_id</div>
-<div class="cell" data-label="Arabic">من مجموعه تحليليه</div>
-<div class="cell" data-label="English">From Analysis Set</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [AnalysisSet](/modules/basic/AnalysisSet.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.fromBranch">
-<div class="cell" data-label="Property">empRange.fromBranch</div>
-<div class="cell" data-label="Column">fromBranch_id</div>
-<div class="cell" data-label="Arabic">من فرع</div>
-<div class="cell" data-label="English">From Branch</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Branch](/modules/basic/Branch.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.fromDepartmentSection">
-<div class="cell" data-label="Property">empRange.fromDepartmentSection</div>
-<div class="cell" data-label="Column">fromDepartmentSection_id</div>
-<div class="cell" data-label="Arabic">من قسم وظيفي</div>
-<div class="cell" data-label="English">From Department Section</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [DepartmentSection](/modules/basic/DepartmentSection.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.fromDept">
-<div class="cell" data-label="Property">empRange.fromDept</div>
-<div class="cell" data-label="Column">fromDept_id</div>
-<div class="cell" data-label="Arabic"> من إدارة</div>
-<div class="cell" data-label="English"> From Department</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Department](/modules/basic/Department.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.fromDescription10">
-<div class="cell" data-label="Property">empRange.fromDescription10</div>
-<div class="cell" data-label="Column">fromDescription10</div>
-<div class="cell" data-label="Arabic">من وصف 10</div>
-<div class="cell" data-label="English">From Description 10</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="empRange.fromEmpWorkPlace">
-<div class="cell" data-label="Property">empRange.fromEmpWorkPlace</div>
-<div class="cell" data-label="Column">fromEmpWorkPlace_id</div>
-<div class="cell" data-label="Arabic">من مكان عمل</div>
-<div class="cell" data-label="English">From Employee WorkPlace</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [EmpWorkPlace](/modules/basic/EmpWorkPlace.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.fromEmployee">
-<div class="cell" data-label="Property">empRange.fromEmployee</div>
-<div class="cell" data-label="Column">fromEmployee_id</div>
-<div class="cell" data-label="Arabic">من موظف</div>
-<div class="cell" data-label="English">From Employee</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Employee](/modules/basic/Employee.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.fromEmployeeDepartment">
-<div class="cell" data-label="Property">empRange.fromEmployeeDepartment</div>
-<div class="cell" data-label="Column">fromEmployeeDepartment_id</div>
-<div class="cell" data-label="Arabic">من إدارة موظف</div>
-<div class="cell" data-label="English">From Employee Department</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [EmployeeDepartment](/modules/basic/EmployeeDepartment.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.fromGroup">
-<div class="cell" data-label="Property">empRange.fromGroup</div>
-<div class="cell" data-label="Column">fromGroup_id</div>
-<div class="cell" data-label="Arabic">من مجموعة</div>
-<div class="cell" data-label="English">From Group</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [MasterGroup](/modules/basic/MasterGroup.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.fromHealthInsuranceCompany">
-<div class="cell" data-label="Property">empRange.fromHealthInsuranceCompany</div>
-<div class="cell" data-label="Column">fromHealthInsuranceCompany_id</div>
-<div class="cell" data-label="Arabic">من شركة التأمين الطبى</div>
-<div class="cell" data-label="English">From Health Insurance Company</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ThirdParty](/modules/basic/ThirdParty.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.fromJobPosition">
-<div class="cell" data-label="Property">empRange.fromJobPosition</div>
-<div class="cell" data-label="Column">fromJobPosition_id</div>
-<div class="cell" data-label="Arabic">من وظيفة</div>
-<div class="cell" data-label="English">From Job Position</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [JobPosition](/modules/basic/JobPosition.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.fromNationality">
-<div class="cell" data-label="Property">empRange.fromNationality</div>
-<div class="cell" data-label="Column">fromNationality_id</div>
-<div class="cell" data-label="Arabic">من جنسية</div>
-<div class="cell" data-label="English">From Nationality</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Nationality](/modules/basic/Nationality.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.fromOrganizationPosition">
-<div class="cell" data-label="Property">empRange.fromOrganizationPosition</div>
-<div class="cell" data-label="Column">fromOrganizationPosition_id</div>
-<div class="cell" data-label="Arabic">من درجة وظيفية</div>
-<div class="cell" data-label="English">From Organization Position</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [OrganizationPosition](/modules/basic/OrganizationPosition.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.fromSector">
-<div class="cell" data-label="Property">empRange.fromSector</div>
-<div class="cell" data-label="Column">fromSector_id</div>
-<div class="cell" data-label="Arabic">من قطاع</div>
-<div class="cell" data-label="English">From Sector</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Sector](/modules/basic/Sector.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.toAnalysisSet">
-<div class="cell" data-label="Property">empRange.toAnalysisSet</div>
-<div class="cell" data-label="Column">toAnalysisSet_id</div>
-<div class="cell" data-label="Arabic">إلي مجموعه تحليليه</div>
-<div class="cell" data-label="English">To Snalysis Set</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [AnalysisSet](/modules/basic/AnalysisSet.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.toBranch">
-<div class="cell" data-label="Property">empRange.toBranch</div>
-<div class="cell" data-label="Column">toBranch_id</div>
-<div class="cell" data-label="Arabic">إلى فرع</div>
-<div class="cell" data-label="English">To Branch</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Branch](/modules/basic/Branch.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.toDepartmentSection">
-<div class="cell" data-label="Property">empRange.toDepartmentSection</div>
-<div class="cell" data-label="Column">toDepartmentSection_id</div>
-<div class="cell" data-label="Arabic">إلى قسم وظيفي</div>
-<div class="cell" data-label="English">To Department Section</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [DepartmentSection](/modules/basic/DepartmentSection.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.toDept">
-<div class="cell" data-label="Property">empRange.toDept</div>
-<div class="cell" data-label="Column">toDept_id</div>
-<div class="cell" data-label="Arabic">إلي اداره</div>
-<div class="cell" data-label="English">To Department</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Department](/modules/basic/Department.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.toDescription10">
-<div class="cell" data-label="Property">empRange.toDescription10</div>
-<div class="cell" data-label="Column">toDescription10</div>
-<div class="cell" data-label="Arabic">إلى وصف 10</div>
-<div class="cell" data-label="English">To Description 10</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="empRange.toEmpWorkPlace">
-<div class="cell" data-label="Property">empRange.toEmpWorkPlace</div>
-<div class="cell" data-label="Column">toEmpWorkPlace_id</div>
-<div class="cell" data-label="Arabic">الي مكان عمل</div>
-<div class="cell" data-label="English">To Employee WorkPlace</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [EmpWorkPlace](/modules/basic/EmpWorkPlace.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.toEmployee">
-<div class="cell" data-label="Property">empRange.toEmployee</div>
-<div class="cell" data-label="Column">toEmployee_id</div>
-<div class="cell" data-label="Arabic">الي موظف</div>
-<div class="cell" data-label="English">To Employee</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Employee](/modules/basic/Employee.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.toEmployeeDepartment">
-<div class="cell" data-label="Property">empRange.toEmployeeDepartment</div>
-<div class="cell" data-label="Column">toEmployeeDepartment_id</div>
-<div class="cell" data-label="Arabic">إلي إدارة موظف</div>
-<div class="cell" data-label="English">To Employee Department</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [EmployeeDepartment](/modules/basic/EmployeeDepartment.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.toGroup">
-<div class="cell" data-label="Property">empRange.toGroup</div>
-<div class="cell" data-label="Column">toGroup_id</div>
-<div class="cell" data-label="Arabic">إلي مجموعة</div>
-<div class="cell" data-label="English">To Group</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [MasterGroup](/modules/basic/MasterGroup.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.toHealthInsuranceCompany">
-<div class="cell" data-label="Property">empRange.toHealthInsuranceCompany</div>
-<div class="cell" data-label="Column">toHealthInsuranceCompany_id</div>
-<div class="cell" data-label="Arabic">إلى شركة التأمين الطبى</div>
-<div class="cell" data-label="English">To Health Insurance Company</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ThirdParty](/modules/basic/ThirdParty.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.toJobPosition">
-<div class="cell" data-label="Property">empRange.toJobPosition</div>
-<div class="cell" data-label="Column">toJobPosition_id</div>
-<div class="cell" data-label="Arabic">إلى وظيفة</div>
-<div class="cell" data-label="English">To Job Position</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [JobPosition](/modules/basic/JobPosition.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.toNationality">
-<div class="cell" data-label="Property">empRange.toNationality</div>
-<div class="cell" data-label="Column">toNationality_id</div>
-<div class="cell" data-label="Arabic">إلى جنسية</div>
-<div class="cell" data-label="English">To Nationality</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Nationality](/modules/basic/Nationality.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.toOrganizationPosition">
-<div class="cell" data-label="Property">empRange.toOrganizationPosition</div>
-<div class="cell" data-label="Column">toOrganizationPosition_id</div>
-<div class="cell" data-label="Arabic">إلى درجة وظيفية</div>
-<div class="cell" data-label="English">To Organization Position</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [OrganizationPosition](/modules/basic/OrganizationPosition.md) 
-</div>
-</div>
-
-<div class="row searchable" id="empRange.toRef1">
-<div class="cell" data-label="Property">empRange.toRef1</div>
-<div class="cell gen-ref-column" data-label="Column">toRef1ActualCode,  toRef1Code,  toRef1EntityType,  toRef1Id</div>
-<div class="cell" data-label="Arabic">إلى مرجع 1</div>
-<div class="cell" data-label="English">To Reference 1</div>
-<div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
-<div class="row searchable" id="empRange.toSector">
-<div class="cell" data-label="Property">empRange.toSector</div>
-<div class="cell" data-label="Column">toSector_id</div>
-<div class="cell" data-label="Arabic">إلي قطاع</div>
-<div class="cell" data-label="English">To Sector</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Sector](/modules/basic/Sector.md) 
-</div>
-</div>
-
 <div class="row searchable" id="entitySystemEntryId">
 <div class="cell" data-label="Property">entitySystemEntryId</div>
 <div class="cell" data-label="Column">entitySystemEntry_id</div>
@@ -819,15 +471,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="ignoreHolidays">
-<div class="cell" data-label="Property">ignoreHolidays</div>
-<div class="cell" data-label="Column">ignoreHolidays</div>
-<div class="cell" data-label="Arabic">تجاهل الأجازات الرسمية</div>
-<div class="cell" data-label="English">Ignore Holidays</div>
-<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
@@ -1261,13 +904,13 @@
 </div>
 </div>
 
-<div id='lines' title='lines' class='searchable'>
+<div id='details' title='details' class='searchable'>
 
-## lines ( التفاصيل -  Details)
+## details (التفاصيل - Details)
 
 <div class='tableName'>
 
-**Table Name:** AttendancePlanLine, **Join Column:** attendancePlan_id
+**Table Name:** ManufacturingStandardPriceLine, **Join Column:** manufacturingStandardPrice_id
 
 </div>
 
@@ -1279,17 +922,8 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="lines.addedShift">
-<div class="cell" data-label="Property">lines.addedShift</div>
-<div class="cell" data-label="Column">addedShift</div>
-<div class="cell" data-label="Arabic">دوام إضافي</div>
-<div class="cell" data-label="English">Added Shift</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="lines.commitedBefore">
-<div class="cell" data-label="Property">lines.commitedBefore</div>
+</div><div class="row searchable" id="details.commitedBefore">
+<div class="cell" data-label="Property">details.commitedBefore</div>
 <div class="cell" data-label="Column">commitedBefore</div>
 <div class="cell" data-label="Arabic">تم الحفظ مسبقا</div>
 <div class="cell" data-label="English">Commited Before</div>
@@ -1297,116 +931,62 @@
 
 </div>
 
-<div class="row searchable" id="lines.departmentSection">
-<div class="cell" data-label="Property">lines.departmentSection</div>
-<div class="cell" data-label="Column">departmentSection_id</div>
-<div class="cell" data-label="Arabic">القسم الوظيفي</div>
-<div class="cell" data-label="English">Department Section</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
+<div class="row searchable" id="details.date1">
+<div class="cell" data-label="Property">details.date1</div>
+<div class="cell" data-label="Column">date1</div>
+<div class="cell" data-label="Arabic">تـــاريخ 1</div>
+<div class="cell" data-label="English">Date 1</div>
+<div class="cell" data-label="Type">Date</div>
 
- [DepartmentSection](/modules/basic/DepartmentSection.md) 
-</div>
 </div>
 
-<div class="row searchable" id="lines.dimensions.analysisSet">
-<div class="cell" data-label="Property">lines.dimensions.analysisSet</div>
-<div class="cell" data-label="Column">analysisSet_id</div>
-<div class="cell" data-label="Arabic">المجموعة التحليلية</div>
-<div class="cell" data-label="English">Analysis set</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
+<div class="row searchable" id="details.date2">
+<div class="cell" data-label="Property">details.date2</div>
+<div class="cell" data-label="Column">date2</div>
+<div class="cell" data-label="Arabic">تـــاريخ 2</div>
+<div class="cell" data-label="English">Date 2</div>
+<div class="cell" data-label="Type">Date</div>
 
- [AnalysisSet](/modules/basic/AnalysisSet.md) 
-</div>
 </div>
 
-<div class="row searchable" id="lines.dimensions.branch">
-<div class="cell" data-label="Property">lines.dimensions.branch</div>
-<div class="cell" data-label="Column">branch_id</div>
-<div class="cell" data-label="Arabic">الفرع</div>
-<div class="cell" data-label="English">Branch</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
+<div class="row searchable" id="details.date3">
+<div class="cell" data-label="Property">details.date3</div>
+<div class="cell" data-label="Column">date3</div>
+<div class="cell" data-label="Arabic">تاريخ 3</div>
+<div class="cell" data-label="English">Date3</div>
+<div class="cell" data-label="Type">Date</div>
 
- [Branch](/modules/basic/Branch.md) 
-</div>
 </div>
 
-<div class="row searchable" id="lines.dimensions.department">
-<div class="cell" data-label="Property">lines.dimensions.department</div>
-<div class="cell" data-label="Column">department_id</div>
-<div class="cell" data-label="Arabic">الإدارة</div>
-<div class="cell" data-label="English">Department</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
+<div class="row searchable" id="details.description1">
+<div class="cell" data-label="Property">details.description1</div>
+<div class="cell" data-label="Column">description1</div>
+<div class="cell" data-label="Arabic">الوصف 1</div>
+<div class="cell" data-label="English">description1</div>
+<div class="cell" data-label="Type">Text</div>
 
- [Department](/modules/basic/Department.md) 
-</div>
 </div>
 
-<div class="row searchable" id="lines.dimensions.legalEntity">
-<div class="cell" data-label="Property">lines.dimensions.legalEntity</div>
-<div class="cell" data-label="Column">legalEntity_id</div>
-<div class="cell" data-label="Arabic">الشركة</div>
-<div class="cell" data-label="English">Legal Entity</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
+<div class="row searchable" id="details.description2">
+<div class="cell" data-label="Property">details.description2</div>
+<div class="cell" data-label="Column">description2</div>
+<div class="cell" data-label="Arabic">الوصف 2</div>
+<div class="cell" data-label="English">description2</div>
+<div class="cell" data-label="Type">Text</div>
 
- [LegalEntity](/modules/basic/LegalEntity.md) 
-</div>
 </div>
 
-<div class="row searchable" id="lines.dimensions.sector">
-<div class="cell" data-label="Property">lines.dimensions.sector</div>
-<div class="cell" data-label="Column">sector_id</div>
-<div class="cell" data-label="Arabic">القطاع</div>
-<div class="cell" data-label="English">Sector</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
+<div class="row searchable" id="details.description3">
+<div class="cell" data-label="Property">details.description3</div>
+<div class="cell" data-label="Column">description3</div>
+<div class="cell" data-label="Arabic">الوصف 3</div>
+<div class="cell" data-label="English">description3</div>
+<div class="cell" data-label="Type">Text</div>
 
- [Sector](/modules/basic/Sector.md) 
-</div>
 </div>
 
-<div class="row searchable" id="lines.employee">
-<div class="cell" data-label="Property">lines.employee</div>
-<div class="cell" data-label="Column">employee_id</div>
-<div class="cell" data-label="Arabic">الموظف</div>
-<div class="cell" data-label="English">Employee</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Employee](/modules/basic/Employee.md) 
-</div>
-</div>
-
-<div class="row searchable" id="lines.employeeDepartment">
-<div class="cell" data-label="Property">lines.employeeDepartment</div>
-<div class="cell" data-label="Column">employeeDepartment_id</div>
-<div class="cell" data-label="Arabic"> إدارة موظف</div>
-<div class="cell" data-label="English"> Employee Department</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [EmployeeDepartment](/modules/basic/EmployeeDepartment.md) 
-</div>
-</div>
-
-<div class="row searchable" id="lines.employeeGroup">
-<div class="cell" data-label="Property">lines.employeeGroup</div>
-<div class="cell" data-label="Column">employeeGroup_id</div>
-<div class="cell" data-label="Arabic">مجموعة موظفين</div>
-<div class="cell" data-label="English">Employee Group</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [EmployeeGroup](/modules/basic/EmployeeGroup.md) 
-</div>
-</div>
-
-<div class="row searchable" id="lines.fromDate">
-<div class="cell" data-label="Property">lines.fromDate</div>
+<div class="row searchable" id="details.fromDate">
+<div class="cell" data-label="Property">details.fromDate</div>
 <div class="cell" data-label="Column">fromDate</div>
 <div class="cell" data-label="Arabic">من تاريخ</div>
 <div class="cell" data-label="English">From Date</div>
@@ -1414,8 +994,8 @@
 
 </div>
 
-<div class="row searchable" id="lines.id">
-<div class="cell" data-label="Property">lines.id</div>
+<div class="row searchable" id="details.id">
+<div class="cell" data-label="Property">details.id</div>
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -1423,29 +1003,47 @@
 
 </div>
 
-<div class="row searchable" id="lines.ignoreHolidays">
-<div class="cell" data-label="Property">lines.ignoreHolidays</div>
-<div class="cell" data-label="Column">ignoreHolidays</div>
-<div class="cell" data-label="Arabic">تجاهل الأجازات الرسمية</div>
-<div class="cell" data-label="English">Ignore Holidays</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="lines.jobPosition">
-<div class="cell" data-label="Property">lines.jobPosition</div>
-<div class="cell" data-label="Column">jobPosition_id</div>
-<div class="cell" data-label="Arabic">الموقع الوظيفي</div>
-<div class="cell" data-label="English">Job Position</div>
+<div class="row searchable" id="details.item.item">
+<div class="cell" data-label="Property">details.item.item</div>
+<div class="cell" data-label="Column">itemItem_id</div>
+<div class="cell" data-label="Arabic"> الصنف</div>
+<div class="cell" data-label="English"> Item</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [JobPosition](/modules/basic/JobPosition.md) 
+ [InvItem](/modules/supplychain/InvItem.md) 
 </div>
 </div>
 
-<div class="row searchable" id="lines.lineNumber">
-<div class="cell" data-label="Property">lines.lineNumber</div>
+<div class="row searchable" id="details.item.itemCode">
+<div class="cell" data-label="Property">details.item.itemCode</div>
+<div class="cell" data-label="Column">itemItemCode</div>
+<div class="cell" data-label="Arabic"> الكود</div>
+<div class="cell" data-label="English"> Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.item.itemName1">
+<div class="cell" data-label="Property">details.item.itemName1</div>
+<div class="cell" data-label="Column">itemItemName1</div>
+<div class="cell" data-label="Arabic">اسم الصنف</div>
+<div class="cell" data-label="English">Item Name</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.item.itemName2">
+<div class="cell" data-label="Property">details.item.itemName2</div>
+<div class="cell" data-label="Column">itemItemName2</div>
+<div class="cell" data-label="Arabic">اسم الصنف الإنجليزي</div>
+<div class="cell" data-label="English">Item English Name</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.lineNumber">
+<div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -1453,17 +1051,35 @@
 
 </div>
 
-<div class="row searchable" id="lines.planId">
-<div class="cell" data-label="Property">lines.planId</div>
-<div class="cell" data-label="Column">planId</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="row searchable" id="details.n1">
+<div class="cell" data-label="Property">details.n1</div>
+<div class="cell" data-label="Column">n1</div>
+<div class="cell" data-label="Arabic">رقم 1</div>
+<div class="cell" data-label="English">Number 1</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 
-<div class="row searchable" id="lines.priority">
-<div class="cell" data-label="Property">lines.priority</div>
+<div class="row searchable" id="details.n2">
+<div class="cell" data-label="Property">details.n2</div>
+<div class="cell" data-label="Column">n2</div>
+<div class="cell" data-label="Arabic">رقم 2</div>
+<div class="cell" data-label="English">Number 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.n3">
+<div class="cell" data-label="Property">details.n3</div>
+<div class="cell" data-label="Column">n3</div>
+<div class="cell" data-label="Arabic">رقم 3</div>
+<div class="cell" data-label="English">Number 3</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.priority">
+<div class="cell" data-label="Property">details.priority</div>
 <div class="cell" data-label="Column">priority</div>
 <div class="cell" data-label="Arabic">الأولوية</div>
 <div class="cell" data-label="English">Priority</div>
@@ -1471,20 +1087,44 @@
 
 </div>
 
-<div class="row searchable" id="lines.shift">
-<div class="cell" data-label="Property">lines.shift</div>
-<div class="cell" data-label="Column">shift_id</div>
-<div class="cell" data-label="Arabic">الدوام</div>
-<div class="cell" data-label="English">Shift</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
+<div class="row searchable" id="details.ref1">
+<div class="cell" data-label="Property">details.ref1</div>
+<div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
+<div class="cell" data-label="Arabic">مرجع 1</div>
+<div class="cell" data-label="English">Reference 1</div>
+<div class="cell" data-label="Type">Genericreference</div>
 
- [AttendanceShift](/modules/humanresource-payroll/AttendanceShift.md) 
-</div>
 </div>
 
-<div class="row searchable" id="lines.toDate">
-<div class="cell" data-label="Property">lines.toDate</div>
+<div class="row searchable" id="details.ref2">
+<div class="cell" data-label="Property">details.ref2</div>
+<div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
+<div class="cell" data-label="Arabic">مرجع 2</div>
+<div class="cell" data-label="English">Reference 2</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.remarks">
+<div class="cell" data-label="Property">details.remarks</div>
+<div class="cell" data-label="Column">remarks</div>
+<div class="cell" data-label="Arabic"> ملاحظات</div>
+<div class="cell" data-label="English"> Description</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="details.standardPrice">
+<div class="cell" data-label="Property">details.standardPrice</div>
+<div class="cell" data-label="Column">standardPrice</div>
+<div class="cell" data-label="Arabic">السعر القياسي</div>
+<div class="cell" data-label="English">Standard Price</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.toDate">
+<div class="cell" data-label="Property">details.toDate</div>
 <div class="cell" data-label="Column">toDate</div>
 <div class="cell" data-label="Arabic">إلى تاريخ</div>
 <div class="cell" data-label="English">To Date</div>

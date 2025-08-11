@@ -1003,6 +1003,51 @@
 </div>
 </div>
 
+<div class="row searchable" id="lines.description1">
+<div class="cell" data-label="Property">lines.description1</div>
+<div class="cell" data-label="Column">description1</div>
+<div class="cell" data-label="Arabic">الوصف 1</div>
+<div class="cell" data-label="English">description1</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="lines.description2">
+<div class="cell" data-label="Property">lines.description2</div>
+<div class="cell" data-label="Column">description2</div>
+<div class="cell" data-label="Arabic">الوصف 2</div>
+<div class="cell" data-label="English">description2</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="lines.description3">
+<div class="cell" data-label="Property">lines.description3</div>
+<div class="cell" data-label="Column">description3</div>
+<div class="cell" data-label="Arabic">الوصف 3</div>
+<div class="cell" data-label="English">description3</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="lines.description4">
+<div class="cell" data-label="Property">lines.description4</div>
+<div class="cell" data-label="Column">description4</div>
+<div class="cell" data-label="Arabic">الوصف 4</div>
+<div class="cell" data-label="English">description4</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="lines.description5">
+<div class="cell" data-label="Property">lines.description5</div>
+<div class="cell" data-label="Column">description5</div>
+<div class="cell" data-label="Arabic">الوصف 5</div>
+<div class="cell" data-label="English">description5</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="lines.id">
 <div class="cell" data-label="Property">lines.id</div>
 <div class="cell" data-label="Column">id</div>
@@ -1018,6 +1063,51 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="lines.n1">
+<div class="cell" data-label="Property">lines.n1</div>
+<div class="cell" data-label="Column">n1</div>
+<div class="cell" data-label="Arabic">رقم 1</div>
+<div class="cell" data-label="English">Number 1</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="lines.n2">
+<div class="cell" data-label="Property">lines.n2</div>
+<div class="cell" data-label="Column">n2</div>
+<div class="cell" data-label="Arabic">رقم 2</div>
+<div class="cell" data-label="English">Number 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="lines.n3">
+<div class="cell" data-label="Property">lines.n3</div>
+<div class="cell" data-label="Column">n3</div>
+<div class="cell" data-label="Arabic">رقم 3</div>
+<div class="cell" data-label="English">Number 3</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="lines.n4">
+<div class="cell" data-label="Property">lines.n4</div>
+<div class="cell" data-label="Column">n4</div>
+<div class="cell" data-label="Arabic">رقم 4</div>
+<div class="cell" data-label="English">Number 4</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="lines.n5">
+<div class="cell" data-label="Property">lines.n5</div>
+<div class="cell" data-label="Column">n5</div>
+<div class="cell" data-label="Arabic">رقم 5</div>
+<div class="cell" data-label="English">Number 5</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 

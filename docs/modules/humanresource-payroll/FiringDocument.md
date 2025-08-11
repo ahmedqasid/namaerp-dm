@@ -439,6 +439,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="empStatusUpdateDelayed">
+<div class="cell" data-label="Property">empStatusUpdateDelayed</div>
+<div class="cell" data-label="Column">empStatusUpdateDelayed</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="employee">
 <div class="cell" data-label="Property">employee</div>
 <div class="cell" data-label="Column">employee_id</div>

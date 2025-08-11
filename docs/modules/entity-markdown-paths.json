@@ -1080,6 +1080,7 @@
   "ManualMeasures" : "humanresource-payroll/ManualMeasures.md",
   "ManuallyCodedTermsEntities" : "system-tables/ManuallyCodedTermsEntities.md",
   "ManufacturerCertificate" : "supplychain/ManufacturerCertificate.md",
+  "ManufacturingStandardPrice" : "manufacturing/ManufacturingStandardPrice.md",
   "MasterGroup" : "basic/MasterGroup.md",
   "MaterialClassification" : "supplychain/MaterialClassification.md",
   "MealDeliveryPlan" : "humanresource-advanced/MealDeliveryPlan.md",

@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#details'>details (OrderCloseLine) </a>
+<a href='#details'>details (OrderCloseLine) </a> , <a href='#materialDeviationLines'>materialDeviationLines (OrderCloseMaterialDeviationLine) </a> , <a href='#resourceDeviationLines'>resourceDeviationLines (OrderCloseResourceDeviationLine) </a>
 </div>
 
 <div class='searchable'>
@@ -46,6 +46,15 @@
 
  [ActualProductionOverhead](/modules/manufacturing/ActualProductionOverhead.md) 
 </div>
+</div>
+
+<div class="row searchable" id="actualProductCost">
+<div class="cell" data-label="Property">actualProductCost</div>
+<div class="cell" data-label="Column">actualProductCost</div>
+<div class="cell" data-label="Arabic">إجمالي تكلفة المنتج الفعلية</div>
+<div class="cell" data-label="English">Total Actual Product Cost</div>
+<div class="cell" data-label="Type">Decimal</div>
+
 </div>
 
 <div class="row searchable" id="analysisSet">
@@ -774,6 +783,15 @@
 
 </div>
 
+<div class="row searchable" id="productUnitStandardCost">
+<div class="cell" data-label="Property">productUnitStandardCost</div>
+<div class="cell" data-label="Column">productUnitStandardCost</div>
+<div class="cell" data-label="Arabic">تكلفة الوحدة القياسية</div>
+<div class="cell" data-label="English">Standard Unit Cost</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="productionOrder">
 <div class="cell" data-label="Property">productionOrder</div>
 <div class="cell" data-label="Column">productionOrder_id</div>
@@ -933,6 +951,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="standardCostDeviation">
+<div class="cell" data-label="Property">standardCostDeviation</div>
+<div class="cell" data-label="Column">standardCostDeviation</div>
+<div class="cell" data-label="Arabic">انحراف تكلفة الوحدة</div>
+<div class="cell" data-label="English">Unit Cost Deviation</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 
@@ -1162,6 +1189,15 @@
 
 </div>
 
+<div class="row searchable" id="details.indirectCostDeviation">
+<div class="cell" data-label="Property">details.indirectCostDeviation</div>
+<div class="cell" data-label="Column">indirectCostDeviation</div>
+<div class="cell" data-label="Arabic">انحراف التكلفة الغير مباشرة</div>
+<div class="cell" data-label="English">Indirect Cost Deviation</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="details.lineNumber">
 <div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
@@ -1266,6 +1302,284 @@
 <div class="cell" data-label="Column">value</div>
 <div class="cell" data-label="Arabic">التكلفة الغير مباشرة | قيمة</div>
 <div class="cell" data-label="English">Overhead | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='materialDeviationLines' title='materialDeviationLines' class='searchable'>
+
+## materialDeviationLines (انحرافات الخامات - Material Deviations)
+
+<div class='tableName'>
+
+**Table Name:** OrderCloseMaterialDeviationLine, **Join Column:** orderCloseVoucher_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="materialDeviationLines.actualQty">
+<div class="cell" data-label="Property">materialDeviationLines.actualQty</div>
+<div class="cell" data-label="Column">actualQty</div>
+<div class="cell" data-label="Arabic">الفعلي</div>
+<div class="cell" data-label="English">Actual Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="materialDeviationLines.actualQtyCostByStdPrice">
+<div class="cell" data-label="Property">materialDeviationLines.actualQtyCostByStdPrice</div>
+<div class="cell" data-label="Column">actualQtyCostByStdPrice</div>
+<div class="cell" data-label="Arabic">تكلفة الكمية الفعلية بالسعر القياسي</div>
+<div class="cell" data-label="English">Actual Qty Cost by Standard Price</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="materialDeviationLines.avgActualUnitCost">
+<div class="cell" data-label="Property">materialDeviationLines.avgActualUnitCost</div>
+<div class="cell" data-label="Column">avgActualUnitCost</div>
+<div class="cell" data-label="Arabic">متوسط تكلفة الوحدة الفعلي</div>
+<div class="cell" data-label="English">Average Actual Unit Cost</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="materialDeviationLines.costDeviation">
+<div class="cell" data-label="Property">materialDeviationLines.costDeviation</div>
+<div class="cell" data-label="Column">costDeviation</div>
+<div class="cell" data-label="Arabic">الانحراف في التكلفة</div>
+<div class="cell" data-label="English">Cost Deviation</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="materialDeviationLines.id">
+<div class="cell" data-label="Property">materialDeviationLines.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="materialDeviationLines.item">
+<div class="cell" data-label="Property">materialDeviationLines.item</div>
+<div class="cell" data-label="Column">item_id</div>
+<div class="cell" data-label="Arabic">الصنف</div>
+<div class="cell" data-label="English">Item</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InvItem](/modules/supplychain/InvItem.md) 
+</div>
+</div>
+
+<div class="row searchable" id="materialDeviationLines.lineNumber">
+<div class="cell" data-label="Property">materialDeviationLines.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="materialDeviationLines.quantityDeviation">
+<div class="cell" data-label="Property">materialDeviationLines.quantityDeviation</div>
+<div class="cell" data-label="Column">quantityDeviation</div>
+<div class="cell" data-label="Arabic">الانحراف في الكمية</div>
+<div class="cell" data-label="English">Quantity Deviation</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="materialDeviationLines.standardQty">
+<div class="cell" data-label="Property">materialDeviationLines.standardQty</div>
+<div class="cell" data-label="Column">standardQty</div>
+<div class="cell" data-label="Arabic">الكمية المعيارية</div>
+<div class="cell" data-label="English">Standard Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="materialDeviationLines.standardQtyCostByStdPrice">
+<div class="cell" data-label="Property">materialDeviationLines.standardQtyCostByStdPrice</div>
+<div class="cell" data-label="Column">standardQtyCostByStdPrice</div>
+<div class="cell" data-label="Arabic">تكلفة الكمية المعيارية بالسعر القياسي</div>
+<div class="cell" data-label="English">Standard Qty Cost by Standard Price</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="materialDeviationLines.standardUnitPrice">
+<div class="cell" data-label="Property">materialDeviationLines.standardUnitPrice</div>
+<div class="cell" data-label="Column">standardUnitPrice</div>
+<div class="cell" data-label="Arabic">سعر الوحدة القياسي</div>
+<div class="cell" data-label="English">Standard Unit Price</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="materialDeviationLines.totalActualCost">
+<div class="cell" data-label="Property">materialDeviationLines.totalActualCost</div>
+<div class="cell" data-label="Column">totalActualCost</div>
+<div class="cell" data-label="Arabic">إجمالي التكلفة الفعلية</div>
+<div class="cell" data-label="English">Total Actual Cost</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="materialDeviationLines.totalStandardCostAvgActual">
+<div class="cell" data-label="Property">materialDeviationLines.totalStandardCostAvgActual</div>
+<div class="cell" data-label="Column">totalStandardCostAvgActual</div>
+<div class="cell" data-label="Arabic">إجمالي التكلفة المعيارية بالمتوسط الفعلي</div>
+<div class="cell" data-label="English">Total Standard Cost By Actual Average</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='resourceDeviationLines' title='resourceDeviationLines' class='searchable'>
+
+## resourceDeviationLines (انحرافات الموارد - Resource Deviations)
+
+<div class='tableName'>
+
+**Table Name:** OrderCloseResourceDeviationLine, **Join Column:** orderCloseVoucher_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="resourceDeviationLines.activity">
+<div class="cell" data-label="Property">resourceDeviationLines.activity</div>
+<div class="cell" data-label="Column">activity_id</div>
+<div class="cell" data-label="Arabic">نشاط</div>
+<div class="cell" data-label="English">Activity</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Activity](/modules/supplychain/Activity.md) 
+</div>
+</div>
+
+<div class="row searchable" id="resourceDeviationLines.actualHours">
+<div class="cell" data-label="Property">resourceDeviationLines.actualHours</div>
+<div class="cell" data-label="Column">actualHours</div>
+<div class="cell" data-label="Arabic">ساعات التشغيل الفعلية</div>
+<div class="cell" data-label="English">Actual Working Hours</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="resourceDeviationLines.avgActualHourRate">
+<div class="cell" data-label="Property">resourceDeviationLines.avgActualHourRate</div>
+<div class="cell" data-label="Column">avgActualHourRate</div>
+<div class="cell" data-label="Arabic">متوسط سعر الساعة الفعلي</div>
+<div class="cell" data-label="English">Average Actual Hour Rate</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="resourceDeviationLines.costDeviation">
+<div class="cell" data-label="Property">resourceDeviationLines.costDeviation</div>
+<div class="cell" data-label="Column">costDeviation</div>
+<div class="cell" data-label="Arabic">الانحراف في التكلفة</div>
+<div class="cell" data-label="English">Cost Deviation</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="resourceDeviationLines.hoursDeviation">
+<div class="cell" data-label="Property">resourceDeviationLines.hoursDeviation</div>
+<div class="cell" data-label="Column">hoursDeviation</div>
+<div class="cell" data-label="Arabic">الانحراف في ساعات التشغيل</div>
+<div class="cell" data-label="English">Hours Deviation</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="resourceDeviationLines.id">
+<div class="cell" data-label="Property">resourceDeviationLines.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="resourceDeviationLines.lineNumber">
+<div class="cell" data-label="Property">resourceDeviationLines.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="resourceDeviationLines.resource">
+<div class="cell" data-label="Property">resourceDeviationLines.resource</div>
+<div class="cell" data-label="Column">resource_id</div>
+<div class="cell" data-label="Arabic"> مورد تشغيل</div>
+<div class="cell" data-label="English"> Resource</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Resource](/modules/supplychain/Resource.md) 
+</div>
+</div>
+
+<div class="row searchable" id="resourceDeviationLines.resourceStandardHours">
+<div class="cell" data-label="Property">resourceDeviationLines.resourceStandardHours</div>
+<div class="cell" data-label="Column">resourceStandardHours</div>
+<div class="cell" data-label="Arabic">ساعات التشغيل المعيارية</div>
+<div class="cell" data-label="English">Standard Working Hours</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="resourceDeviationLines.standardHourRate">
+<div class="cell" data-label="Property">resourceDeviationLines.standardHourRate</div>
+<div class="cell" data-label="Column">standardHourRate</div>
+<div class="cell" data-label="Arabic">سعر الساعة المعياري</div>
+<div class="cell" data-label="English">Standard Hour Rate</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="resourceDeviationLines.totalActualCost">
+<div class="cell" data-label="Property">resourceDeviationLines.totalActualCost</div>
+<div class="cell" data-label="Column">totalActualCost</div>
+<div class="cell" data-label="Arabic">إجمالي التكلفة الفعلية</div>
+<div class="cell" data-label="English">Total Actual Cost</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="resourceDeviationLines.totalStandardCost">
+<div class="cell" data-label="Property">resourceDeviationLines.totalStandardCost</div>
+<div class="cell" data-label="Column">totalStandardCost</div>
+<div class="cell" data-label="Arabic">إجمالي التكلفة المعيارية</div>
+<div class="cell" data-label="English">Total Standard Cost</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>

@@ -7,6 +7,7 @@
   - [AggregatedProductionOrder](/modules/manufacturing/AggregatedProductionOrder.md)
   - [AggregatedProductionOrderClosing](/modules/manufacturing/AggregatedProductionOrderClosing.md)
   - [BOM](/modules/manufacturing/BOM.md)
+  - [ManufacturingStandardPrice](/modules/manufacturing/ManufacturingStandardPrice.md)
   - [OrderCloseVoucher](/modules/manufacturing/OrderCloseVoucher.md)
   - [OverheadType](/modules/manufacturing/OverheadType.md)
   - [ProductDelivery](/modules/manufacturing/ProductDelivery.md)
