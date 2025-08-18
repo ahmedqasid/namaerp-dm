@@ -280,6 +280,7 @@ export const entityPathsMap: Record<string, string> = {
   "AttendanceMachineCronLog" : "system-tables/AttendanceMachineCronLog.html",
   "AttendancePlan" : "humanresource-payroll/AttendancePlan.html",
   "AttendancePlanLine" : "humanresource-payroll/AttendancePlan.html#lines",
+  "AttendancePlanWeekendLine" : "humanresource-payroll/AttendancePlan.html#weekendLines",
   "AttendanceShift" : "humanresource-payroll/AttendanceShift.html",
   "AttendanceShiftLine" : "humanresource-payroll/AttendanceShift.html#details",
   "AttendanceShiftGroupLine" : "humanresource-payroll/AttendanceShift.html#groupDetails",

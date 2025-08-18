@@ -547,15 +547,6 @@
 
 </div>
 
-<div class="row searchable" id="forecastedPurchaseQuantityBasedOnCoverageFormula">
-<div class="cell" data-label="Property">forecastedPurchaseQuantityBasedOnCoverageFormula</div>
-<div class="cell" data-label="Column">forecastedPurchaseQuantityBasedOnCoverageFormula</div>
-<div class="cell" data-label="Arabic">معادلة حساب الكمية المتوقعة للشراء حسب التغطية</div>
-<div class="cell" data-label="English">Forecasted Purchase Quantity Based On Coverage Formula</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
 <div class="row searchable" id="generatedByLine">
 <div class="cell" data-label="Property">generatedByLine</div>
 <div class="cell" data-label="Column">generatedByLine</div>

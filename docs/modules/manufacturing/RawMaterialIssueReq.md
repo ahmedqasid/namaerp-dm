@@ -846,6 +846,15 @@
 
 </div>
 
+<div class="row searchable" id="orderStatus">
+<div class="cell" data-label="Property">orderStatus</div>
+<div class="cell" data-label="Column">orderStatus</div>
+<div class="cell" data-label="Arabic">الحالة</div>
+<div class="cell" data-label="English">Order Status</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="parentCode">
 <div class="cell" data-label="Property">parentCode</div>
 <div class="cell" data-label="Column">parentCode</div>
@@ -1684,6 +1693,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.avgExecutionTime">
+<div class="cell" data-label="Property">details.avgExecutionTime</div>
+<div class="cell" data-label="Column">avgExecutionTime</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="details.b1">
 <div class="cell" data-label="Property">details.b1</div>
 <div class="cell" data-label="Column">b1</div>
@@ -1912,6 +1930,15 @@
 <div class="cell" data-label="Arabic">اسم الصنف الإنجليزي</div>
 <div class="cell" data-label="English">Item English Name</div>
 <div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.lineCode">
+<div class="cell" data-label="Property">details.lineCode</div>
+<div class="cell" data-label="Column">lineCode</div>
+<div class="cell" data-label="Arabic">كود السطر</div>
+<div class="cell" data-label="English">Line Code</div>
+<div class="cell" data-label="Type">Long</div>
 
 </div>
 
@@ -2464,6 +2491,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.status">
+<div class="cell" data-label="Property">details.status</div>
+<div class="cell" data-label="Column">status</div>
+<div class="cell" data-label="Arabic">الحالة</div>
+<div class="cell" data-label="English">Status</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="details.subsidiary">
 <div class="cell" data-label="Property">details.subsidiary</div>
 <div class="cell gen-ref-column" data-label="Column">subsidiaryActualCode,  subsidiaryCode,  subsidiaryEntityType,  subsidiaryId</div>
@@ -2587,6 +2623,27 @@
 <div class="cell" data-label="Arabic">كود الضمان</div>
 <div class="cell" data-label="English">Warranty Code</div>
 <div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="details.weightScalePreparationDoc">
+<div class="cell" data-label="Property">details.weightScalePreparationDoc</div>
+<div class="cell" data-label="Column">weightScalePreparationDoc_id</div>
+<div class="cell" data-label="Arabic"> سند تحضير - الميزان</div>
+<div class="cell" data-label="English"> Weight Scale Preparation Document</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [WeightScalePreparationDoc](/modules/supplychain-weight-scale/WeightScalePreparationDoc.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.weightScalePreparationDocLineNumber">
+<div class="cell" data-label="Property">details.weightScalePreparationDocLineNumber</div>
+<div class="cell" data-label="Column">weightScalePreparationDocLineNumber</div>
+<div class="cell" data-label="Arabic">رقم سطر سند تحضير-الميزان</div>
+<div class="cell" data-label="English">Weight Scale Preparation Document Line Number</div>
+<div class="cell" data-label="Type">Integer</div>
 
 </div>
 

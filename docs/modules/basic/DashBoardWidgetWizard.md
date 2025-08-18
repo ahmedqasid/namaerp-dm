@@ -432,6 +432,24 @@
 </div>
 </div>
 
+<div class="row searchable" id="htmlArabic">
+<div class="cell" data-label="Property">htmlArabic</div>
+<div class="cell" data-label="Column">htmlArabic</div>
+<div class="cell" data-label="Arabic">HTML Arabic</div>
+<div class="cell" data-label="English">HTML Arabic</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="htmlEnglish">
+<div class="cell" data-label="Property">htmlEnglish</div>
+<div class="cell" data-label="Column">htmlEnglish</div>
+<div class="cell" data-label="Arabic">HTML English</div>
+<div class="cell" data-label="English">HTML English</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
@@ -720,6 +738,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="selectQueryPartPrefix">
+<div class="cell" data-label="Property">selectQueryPartPrefix</div>
+<div class="cell" data-label="Column">selectQueryPartPrefix</div>
+<div class="cell" data-label="Arabic">Select Query Part Prefix</div>
+<div class="cell" data-label="English">Select Query Part Prefix</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -1119,6 +1146,15 @@
 <div class="cell" data-label="Column">namaId</div>
 <div class="cell" data-label="Arabic">Nama Id</div>
 <div class="cell" data-label="English">Nama Id</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="fields.paramName">
+<div class="cell" data-label="Property">fields.paramName</div>
+<div class="cell" data-label="Column">paramName</div>
+<div class="cell" data-label="Arabic">اسم المُدخل</div>
+<div class="cell" data-label="English">Parameter Name</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>

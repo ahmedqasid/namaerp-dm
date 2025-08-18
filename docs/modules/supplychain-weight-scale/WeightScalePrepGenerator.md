@@ -441,6 +441,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="forType">
+<div class="cell" data-label="Property">forType</div>
+<div class="cell" data-label="Column">forType</div>
+<div class="cell" data-label="Arabic">للنوع</div>
+<div class="cell" data-label="English">For Type</div>
+<div class="cell" data-label="Type">EntityType</div>
+
+</div>
+
 <div class="row searchable" id="fromDate">
 <div class="cell" data-label="Property">fromDate</div>
 <div class="cell" data-label="Column">fromDate</div>

@@ -1708,6 +1708,15 @@
 
 </div>
 
+<div class="row searchable" id="details.issueRequest">
+<div class="cell" data-label="Property">details.issueRequest</div>
+<div class="cell gen-ref-column" data-label="Column">issueRequestActualCode,  issueRequestCode,  issueRequestEntityType,  issueRequestId</div>
+<div class="cell" data-label="Arabic">طلب الصرف</div>
+<div class="cell" data-label="English">Issue Request</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
 <div class="row searchable" id="details.item.item">
 <div class="cell" data-label="Property">details.item.item</div>
 <div class="cell" data-label="Column">item_id</div>
@@ -2321,18 +2330,6 @@
 <div class="cell" data-label="English">Status</div>
 <div class="cell" data-label="Type">Enum</div>
 
-</div>
-
-<div class="row searchable" id="details.stockIssueReq">
-<div class="cell" data-label="Property">details.stockIssueReq</div>
-<div class="cell" data-label="Column">stockIssueReq_id</div>
-<div class="cell" data-label="Arabic">طلب صرف مخزني</div>
-<div class="cell" data-label="English">Stock Issue Request</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [StockIssueReq](/modules/supplychain-inventory/StockIssueReq.md) 
-</div>
 </div>
 
 <div class="row searchable" id="details.subsidiary">

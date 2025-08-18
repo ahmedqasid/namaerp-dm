@@ -1088,7 +1088,16 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="salesSources.entityList">
+</div><div class="row searchable" id="salesSources.effectType">
+<div class="cell" data-label="Property">salesSources.effectType</div>
+<div class="cell" data-label="Column">effectType</div>
+<div class="cell" data-label="Arabic">نوع التأثير</div>
+<div class="cell" data-label="English">Component Effect Type</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="salesSources.entityList">
 <div class="cell" data-label="Property">salesSources.entityList</div>
 <div class="cell" data-label="Column">entityList_id</div>
 <div class="cell" data-label="Arabic">قائمة الأنواع</div>

@@ -1513,6 +1513,51 @@
 
 </div>
 
+<div class="row searchable" id="details.date1">
+<div class="cell" data-label="Property">details.date1</div>
+<div class="cell" data-label="Column">date1</div>
+<div class="cell" data-label="Arabic">تـــاريخ 1</div>
+<div class="cell" data-label="English">Date 1</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.date2">
+<div class="cell" data-label="Property">details.date2</div>
+<div class="cell" data-label="Column">date2</div>
+<div class="cell" data-label="Arabic">تـــاريخ 2</div>
+<div class="cell" data-label="English">Date 2</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.date3">
+<div class="cell" data-label="Property">details.date3</div>
+<div class="cell" data-label="Column">date3</div>
+<div class="cell" data-label="Arabic">تاريخ 3</div>
+<div class="cell" data-label="English">Date3</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.date4">
+<div class="cell" data-label="Property">details.date4</div>
+<div class="cell" data-label="Column">date4</div>
+<div class="cell" data-label="Arabic">تاريخ 4</div>
+<div class="cell" data-label="English">Date4</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.date5">
+<div class="cell" data-label="Property">details.date5</div>
+<div class="cell" data-label="Column">date5</div>
+<div class="cell" data-label="Arabic">تاريخ 5</div>
+<div class="cell" data-label="English">Date5</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
 <div class="row searchable" id="details.dimensions.analysisSet">
 <div class="cell" data-label="Property">details.dimensions.analysisSet</div>
 <div class="cell" data-label="Column">analysisSet_id</div>
@@ -1571,24 +1616,6 @@
 
  [Sector](/modules/basic/Sector.md) 
 </div>
-</div>
-
-<div class="row searchable" id="details.forecastedPurchaseQuantityBasedOnAdjustedCoverage">
-<div class="cell" data-label="Property">details.forecastedPurchaseQuantityBasedOnAdjustedCoverage</div>
-<div class="cell" data-label="Column">forecastedPurchaseQuantityBasedOnAdjustedCoverage</div>
-<div class="cell" data-label="Arabic">الكمية المتوقعة للشراء حسب التغطية(المعدلة)</div>
-<div class="cell" data-label="English">Forecasted Purchase Quantity Based On Coverage (Adjusted)</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="details.forecastedPurchaseQuantityBasedOnCoverage">
-<div class="cell" data-label="Property">details.forecastedPurchaseQuantityBasedOnCoverage</div>
-<div class="cell" data-label="Column">forecastedPurchaseQuantityBasedOnCoverage</div>
-<div class="cell" data-label="Arabic">الكمية المتوقعة للشراء حسب التغطية</div>
-<div class="cell" data-label="English">Forecasted Purchase Quantity Based On Coverage</div>
-<div class="cell" data-label="Type">Decimal</div>
-
 </div>
 
 <div class="row searchable" id="details.highestSalesPeriod">
@@ -2035,6 +2062,15 @@
 
 </div>
 
+<div class="row searchable" id="details.selectedLine">
+<div class="cell" data-label="Property">details.selectedLine</div>
+<div class="cell" data-label="Column">selectedLine</div>
+<div class="cell" data-label="Arabic">اختيار</div>
+<div class="cell" data-label="English">Select</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="details.specificDimensions.activePerc">
 <div class="cell" data-label="Property">details.specificDimensions.activePerc</div>
 <div class="cell" data-label="Column">activePerc</div>
@@ -2159,6 +2195,15 @@
 
  [Warehouse](/modules/supplychain/Warehouse.md) 
 </div>
+</div>
+
+<div class="row searchable" id="details.suggestedOrderBasedOnAdjustedCoverage">
+<div class="cell" data-label="Property">details.suggestedOrderBasedOnAdjustedCoverage</div>
+<div class="cell" data-label="Column">suggestedOrderBasedOnAdjustedCoverage</div>
+<div class="cell" data-label="Arabic">الطلب المقترح حسب التغطية(المعدلة)</div>
+<div class="cell" data-label="English">Suggested Order Based on Coverage (Adjusted)</div>
+<div class="cell" data-label="Type">Decimal</div>
+
 </div>
 
 <div class="row searchable" id="details.suggestedOrderBasedOnCoverage">

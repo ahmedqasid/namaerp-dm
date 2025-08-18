@@ -669,6 +669,15 @@
 
 </div>
 
+<div class="row searchable" id="logSqlStatementsTakingMS">
+<div class="cell" data-label="Property">logSqlStatementsTakingMS</div>
+<div class="cell" data-label="Column">logSqlStatementsTakingMS</div>
+<div class="cell" data-label="Arabic">Warn About SQL Statements Taking more than (milliseconds)</div>
+<div class="cell" data-label="English">Warn About SQL Statements Taking more than (milliseconds)</div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
 <div class="row searchable" id="mainFile">
 <div class="cell" data-label="Property">mainFile</div>
 <div class="cell" data-label="Column">mainFile_id</div>

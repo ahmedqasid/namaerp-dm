@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#lines'>lines (AttendancePlanLine) </a>
+<a href='#lines'>lines (AttendancePlanLine) </a> , <a href='#weekendLines'>weekendLines (AttendancePlanWeekendLine) </a>
 </div>
 
 <div class='searchable'>
@@ -1489,6 +1489,139 @@
 <div class="cell" data-label="Arabic">إلى تاريخ</div>
 <div class="cell" data-label="English">To Date</div>
 <div class="cell" data-label="Type">Date</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='weekendLines' title='weekendLines' class='searchable'>
+
+## weekendLines (الراحات الأسبوعية - Weekends)
+
+<div class='tableName'>
+
+**Table Name:** AttendancePlanWeekendLine, **Join Column:** attendancePlan_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="weekendLines.departmentSection">
+<div class="cell" data-label="Property">weekendLines.departmentSection</div>
+<div class="cell" data-label="Column">departmentSection_id</div>
+<div class="cell" data-label="Arabic">القسم الوظيفي</div>
+<div class="cell" data-label="English">Department Section</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [DepartmentSection](/modules/basic/DepartmentSection.md) 
+</div>
+</div>
+
+<div class="row searchable" id="weekendLines.employee">
+<div class="cell" data-label="Property">weekendLines.employee</div>
+<div class="cell" data-label="Column">employee_id</div>
+<div class="cell" data-label="Arabic">الموظف</div>
+<div class="cell" data-label="English">Employee</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Employee](/modules/basic/Employee.md) 
+</div>
+</div>
+
+<div class="row searchable" id="weekendLines.employeeDepartment">
+<div class="cell" data-label="Property">weekendLines.employeeDepartment</div>
+<div class="cell" data-label="Column">employeeDepartment_id</div>
+<div class="cell" data-label="Arabic"> إدارة موظف</div>
+<div class="cell" data-label="English"> Employee Department</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [EmployeeDepartment](/modules/basic/EmployeeDepartment.md) 
+</div>
+</div>
+
+<div class="row searchable" id="weekendLines.fromDate">
+<div class="cell" data-label="Property">weekendLines.fromDate</div>
+<div class="cell" data-label="Column">fromDate</div>
+<div class="cell" data-label="Arabic">من تاريخ</div>
+<div class="cell" data-label="English">From Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="weekendLines.id">
+<div class="cell" data-label="Property">weekendLines.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="weekendLines.jobPosition">
+<div class="cell" data-label="Property">weekendLines.jobPosition</div>
+<div class="cell" data-label="Column">jobPosition_id</div>
+<div class="cell" data-label="Arabic">الموقع الوظيفي</div>
+<div class="cell" data-label="English">Job Position</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [JobPosition](/modules/basic/JobPosition.md) 
+</div>
+</div>
+
+<div class="row searchable" id="weekendLines.lineNumber">
+<div class="cell" data-label="Property">weekendLines.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="weekendLines.toDate">
+<div class="cell" data-label="Property">weekendLines.toDate</div>
+<div class="cell" data-label="Column">toDate</div>
+<div class="cell" data-label="Arabic">إلى تاريخ</div>
+<div class="cell" data-label="English">To Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="weekendLines.weekend1">
+<div class="cell" data-label="Property">weekendLines.weekend1</div>
+<div class="cell" data-label="Column">weekend1</div>
+<div class="cell" data-label="Arabic">راحة أسبوعية 1</div>
+<div class="cell" data-label="English">Weekend 1</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="weekendLines.weekend2">
+<div class="cell" data-label="Property">weekendLines.weekend2</div>
+<div class="cell" data-label="Column">weekend2</div>
+<div class="cell" data-label="Arabic">راحة أسبوعية 2</div>
+<div class="cell" data-label="English">Weekend 2</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="weekendLines.weekend3">
+<div class="cell" data-label="Property">weekendLines.weekend3</div>
+<div class="cell" data-label="Column">weekend3</div>
+<div class="cell" data-label="Arabic">راحة أسبوعية 3</div>
+<div class="cell" data-label="English">Weekend 3</div>
+<div class="cell" data-label="Type">Enum</div>
 
 </div>
 
