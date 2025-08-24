@@ -2035,6 +2035,15 @@
 
 </div>
 
+<div class="row searchable" id="details.ledgerInstallmentValueDate">
+<div class="cell" data-label="Property">details.ledgerInstallmentValueDate</div>
+<div class="cell" data-label="Column">ledgerInstallmentValueDate</div>
+<div class="cell" data-label="Arabic">التاريخ الفعلي لقيد الاستحقاق</div>
+<div class="cell" data-label="English">Ledger Installment Value Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
 <div class="row searchable" id="details.lineNumber">
 <div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>

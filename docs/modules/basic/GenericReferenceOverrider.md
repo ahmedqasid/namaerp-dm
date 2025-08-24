@@ -2367,11 +2367,11 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="entityIcons.colorCode">
-<div class="cell" data-label="Property">entityIcons.colorCode</div>
-<div class="cell" data-label="Column">colorCode</div>
-<div class="cell" data-label="Arabic">كود اللون</div>
-<div class="cell" data-label="English">Color Code</div>
+</div><div class="row searchable" id="entityIcons.darkColorCode">
+<div class="cell" data-label="Property">entityIcons.darkColorCode</div>
+<div class="cell" data-label="Column">darkColorCode</div>
+<div class="cell" data-label="Arabic">كود اللون في الوضع الداكن</div>
+<div class="cell" data-label="English">Dark Color Code</div>
 <div class="cell" data-label="Type">Color</div>
 
 </div>
@@ -2409,6 +2409,15 @@
 <div class="cell" data-label="Arabic">غير نشط</div>
 <div class="cell" data-label="English">Inactive</div>
 <div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="entityIcons.lightColorCode">
+<div class="cell" data-label="Property">entityIcons.lightColorCode</div>
+<div class="cell" data-label="Column">lightColorCode</div>
+<div class="cell" data-label="Arabic">كود اللون في الوضع النهاري</div>
+<div class="cell" data-label="English">Light Color Code</div>
+<div class="cell" data-label="Type">Color</div>
 
 </div>
 
@@ -2464,11 +2473,11 @@
 
 </div>
 
-<div class="row searchable" id="enumIcons.colorCode">
-<div class="cell" data-label="Property">enumIcons.colorCode</div>
-<div class="cell" data-label="Column">colorCode</div>
-<div class="cell" data-label="Arabic">كود اللون</div>
-<div class="cell" data-label="English">Color Code</div>
+<div class="row searchable" id="enumIcons.darkColorCode">
+<div class="cell" data-label="Property">enumIcons.darkColorCode</div>
+<div class="cell" data-label="Column">darkColorCode</div>
+<div class="cell" data-label="Arabic">كود اللون في الوضع الداكن</div>
+<div class="cell" data-label="English">Dark Color Code</div>
 <div class="cell" data-label="Type">Color</div>
 
 </div>
@@ -2506,6 +2515,15 @@
 <div class="cell" data-label="Arabic">غير نشط</div>
 <div class="cell" data-label="English">Inactive</div>
 <div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="enumIcons.lightColorCode">
+<div class="cell" data-label="Property">enumIcons.lightColorCode</div>
+<div class="cell" data-label="Column">lightColorCode</div>
+<div class="cell" data-label="Arabic">كود اللون في الوضع النهاري</div>
+<div class="cell" data-label="English">Light Color Code</div>
+<div class="cell" data-label="Type">Color</div>
 
 </div>
 
@@ -3419,11 +3437,11 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="fieldIcons.colorCode">
-<div class="cell" data-label="Property">fieldIcons.colorCode</div>
-<div class="cell" data-label="Column">colorCode</div>
-<div class="cell" data-label="Arabic">كود اللون</div>
-<div class="cell" data-label="English">Color Code</div>
+</div><div class="row searchable" id="fieldIcons.darkColorCode">
+<div class="cell" data-label="Property">fieldIcons.darkColorCode</div>
+<div class="cell" data-label="Column">darkColorCode</div>
+<div class="cell" data-label="Arabic">كود اللون في الوضع الداكن</div>
+<div class="cell" data-label="English">Dark Color Code</div>
 <div class="cell" data-label="Type">Color</div>
 
 </div>
@@ -3482,6 +3500,15 @@
 <div class="cell" data-label="Arabic">غير نشط</div>
 <div class="cell" data-label="English">Inactive</div>
 <div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="fieldIcons.lightColorCode">
+<div class="cell" data-label="Property">fieldIcons.lightColorCode</div>
+<div class="cell" data-label="Column">lightColorCode</div>
+<div class="cell" data-label="Arabic">كود اللون في الوضع النهاري</div>
+<div class="cell" data-label="English">Light Color Code</div>
+<div class="cell" data-label="Type">Color</div>
 
 </div>
 

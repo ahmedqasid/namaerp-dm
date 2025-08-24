@@ -1606,6 +1606,15 @@
 
 </div>
 
+<div class="row searchable" id="salarySheetLines.lastGenerationDateTime">
+<div class="cell" data-label="Property">salarySheetLines.lastGenerationDateTime</div>
+<div class="cell" data-label="Column">lastGenerationDateTime</div>
+<div class="cell" data-label="Arabic">تاريخ و وقت أخر إصدار</div>
+<div class="cell" data-label="English">Last Generation Date Time</div>
+<div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
 <div class="row searchable" id="salarySheetLines.lineNumber">
 <div class="cell" data-label="Property">salarySheetLines.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>

@@ -23,9 +23,9 @@
 </div><div class="row searchable" id="chatProvider">
 <div class="cell" data-label="Property">chatProvider</div>
 <div class="cell" data-label="Column">chatProvider</div>
-<div class="cell" data-label="Arabic">Chat Provider</div>
-<div class="cell" data-label="English">Chat Provider</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Text</div>
 
 </div>
 

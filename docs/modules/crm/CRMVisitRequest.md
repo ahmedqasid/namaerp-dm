@@ -1119,6 +1119,15 @@
 
 </div>
 
+<div class="row searchable" id="paymentStatus">
+<div class="cell" data-label="Property">paymentStatus</div>
+<div class="cell" data-label="Column">paymentStatus</div>
+<div class="cell" data-label="Arabic">حالة السداد</div>
+<div class="cell" data-label="English">Payment Status</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="phase">
 <div class="cell" data-label="Property">phase</div>
 <div class="cell" data-label="Column">phase</div>

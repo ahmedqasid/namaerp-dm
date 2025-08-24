@@ -27,7 +27,136 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="allowEditingHdrTaxInDetails">
+</div><div class="row searchable" id="address.address1">
+<div class="cell" data-label="Property">address.address1</div>
+<div class="cell" data-label="Column">addressAddress1</div>
+<div class="cell" data-label="Arabic">عنوان 1</div>
+<div class="cell" data-label="English">Address 1</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="address.address2">
+<div class="cell" data-label="Property">address.address2</div>
+<div class="cell" data-label="Column">addressAddress2</div>
+<div class="cell" data-label="Arabic">رقم المبني</div>
+<div class="cell" data-label="English">Building Number</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="address.area">
+<div class="cell" data-label="Property">address.area</div>
+<div class="cell" data-label="Column">addressArea</div>
+<div class="cell" data-label="Arabic">المنطقة</div>
+<div class="cell" data-label="English">Area</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="address.buildingNumber">
+<div class="cell" data-label="Property">address.buildingNumber</div>
+<div class="cell" data-label="Column">addressBuildingNumber</div>
+<div class="cell" data-label="Arabic">رقم المبني</div>
+<div class="cell" data-label="English">Building Number</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="address.city">
+<div class="cell" data-label="Property">address.city</div>
+<div class="cell" data-label="Column">addressCity</div>
+<div class="cell" data-label="Arabic">المدينة</div>
+<div class="cell" data-label="English">City</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="address.country">
+<div class="cell" data-label="Property">address.country</div>
+<div class="cell" data-label="Column">addressCountry</div>
+<div class="cell" data-label="Arabic">الدولة</div>
+<div class="cell" data-label="English">Country</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="address.countryCode">
+<div class="cell" data-label="Property">address.countryCode</div>
+<div class="cell" data-label="Column">addressCountryCode</div>
+<div class="cell" data-label="Arabic">كود الدولة</div>
+<div class="cell" data-label="English">Country Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="address.district">
+<div class="cell" data-label="Property">address.district</div>
+<div class="cell" data-label="Column">addressDistrict</div>
+<div class="cell" data-label="Arabic">الحي</div>
+<div class="cell" data-label="English">District</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="address.landPlotNumber">
+<div class="cell" data-label="Property">address.landPlotNumber</div>
+<div class="cell" data-label="Column">addressLandPlotNumber</div>
+<div class="cell" data-label="Arabic">رقم تعريفي للأرض</div>
+<div class="cell" data-label="English">Land Plot Number</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="address.mapLocation">
+<div class="cell" data-label="Property">address.mapLocation</div>
+<div class="cell" data-label="Column">addressMapLocation</div>
+<div class="cell" data-label="Arabic">الموقع على الخريطة</div>
+<div class="cell" data-label="English">Map Location</div>
+<div class="cell" data-label="Type">LatLng</div>
+
+</div>
+
+<div class="row searchable" id="address.postalCode">
+<div class="cell" data-label="Property">address.postalCode</div>
+<div class="cell" data-label="Column">addressPostalCode</div>
+<div class="cell" data-label="Arabic">الكود البريدي</div>
+<div class="cell" data-label="English">Postal Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="address.region">
+<div class="cell" data-label="Property">address.region</div>
+<div class="cell" data-label="Column">addressRegion_id</div>
+<div class="cell" data-label="Arabic">موقع جغرافي</div>
+<div class="cell" data-label="English">Address region</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [AddressRegion](/modules/basic/AddressRegion.md) 
+</div>
+</div>
+
+<div class="row searchable" id="address.state">
+<div class="cell" data-label="Property">address.state</div>
+<div class="cell" data-label="Column">addressState</div>
+<div class="cell" data-label="Arabic">المحافظة</div>
+<div class="cell" data-label="English">State</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="address.street">
+<div class="cell" data-label="Property">address.street</div>
+<div class="cell" data-label="Column">addressStreet</div>
+<div class="cell" data-label="Arabic"> شارع</div>
+<div class="cell" data-label="English"> Street</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="allowEditingHdrTaxInDetails">
 <div class="cell" data-label="Property">allowEditingHdrTaxInDetails</div>
 <div class="cell" data-label="Column">allowEditingHdrTaxInDetails</div>
 <div class="cell" data-label="Arabic">السماح بتعديل ضريبة الفاتورة في السطر</div>
@@ -1221,6 +1350,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="mnNoticeCategory">
+<div class="cell" data-label="Property">mnNoticeCategory</div>
+<div class="cell" data-label="Column">mnNoticeCategory_id</div>
+<div class="cell" data-label="Arabic">فئة بلاغ الصيانة</div>
+<div class="cell" data-label="English">Maintenance Notice Category</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [MnNoticeCategory](/modules/system-tables/MnNoticeCategory.md) 
+</div>
+</div>
+
 <div class="row searchable" id="modifiableTax">
 <div class="cell" data-label="Property">modifiableTax</div>
 <div class="cell" data-label="Column">modifiableTax</div>
@@ -1704,6 +1845,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentStatus">
+<div class="cell" data-label="Property">paymentStatus</div>
+<div class="cell" data-label="Column">paymentStatus</div>
+<div class="cell" data-label="Arabic">حالة السداد</div>
+<div class="cell" data-label="English">Payment Status</div>
+<div class="cell" data-label="Type">Enum</div>
 
 </div>
 
@@ -3288,6 +3438,15 @@
 
 </div>
 
+<div class="row searchable" id="status">
+<div class="cell" data-label="Property">status</div>
+<div class="cell" data-label="Column">status</div>
+<div class="cell" data-label="Arabic">الحالة</div>
+<div class="cell" data-label="English">Status</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="statusChangeRemark">
 <div class="cell" data-label="Property">statusChangeRemark</div>
 <div class="cell" data-label="Column">statusChangeRemark</div>
@@ -3561,6 +3720,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="visitDate">
+<div class="cell" data-label="Property">visitDate</div>
+<div class="cell" data-label="Column">visitDate</div>
+<div class="cell" data-label="Arabic">تاريخ الزيارة</div>
+<div class="cell" data-label="English">Visit date</div>
+<div class="cell" data-label="Type">Date</div>
 
 </div>
 

@@ -1104,6 +1104,24 @@
 
 </div>
 
+<div class="row searchable" id="spreadRevsWithItemSelection">
+<div class="cell" data-label="Property">spreadRevsWithItemSelection</div>
+<div class="cell" data-label="Column">spreadRevsWithItemSelection</div>
+<div class="cell" data-label="Arabic">فرد الإصدارات مع اختيار الصنف</div>
+<div class="cell" data-label="English">Spread Revisions With Item Selection</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="spreadSizesWithItemSelection">
+<div class="cell" data-label="Property">spreadSizesWithItemSelection</div>
+<div class="cell" data-label="Column">spreadSizesWithItemSelection</div>
+<div class="cell" data-label="Arabic">فرد المقاسات والألوان مع اختيار الصنف</div>
+<div class="cell" data-label="English">Spread Sizes And Colors With Item Selection</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="term">
 <div class="cell" data-label="Property">term</div>
 <div class="cell" data-label="Column">term_id</div>
