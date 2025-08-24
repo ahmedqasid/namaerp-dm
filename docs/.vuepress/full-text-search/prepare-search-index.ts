@@ -2,6 +2,8 @@ import type {App as VuepressApp, Page as VuepressPage} from "@vuepress/core";
 import type {PageContent, PageIndex, SearchIndices, SearchIndexConfig} from "./types";
 import {Parser} from "htmlparser2";
 import {normalizeArabic} from "./nama-specific-utils";
+import * as fs from "fs";
+import * as path from "path";
 
 const HMR_CODE = `
 if (import.meta.webpackHot) {
@@ -44,19 +46,37 @@ export async function prepareSearchIndex({
   // generate multiple search indices
   const searchIndices: SearchIndices = {};
   
-  // Always add a 'default' index and the configured indices (avoid duplicates)
-  const allIndices = ['default', ...searchConfig.searchIndexClassNames.filter(name => name !== 'default')];
+  // Collect all index names from both class names and path prefixes
+  const pathPrefixIndices = Object.keys(searchConfig.searchIndexPathPrefixes || {});
+  const allIndexNames = new Set(['default', ...searchConfig.searchIndexClassNames, ...pathPrefixIndices]);
+  
   // Initialize indices
-  for (const indexName of allIndices) {
+  for (const indexName of allIndexNames) {
     searchIndices[indexName] = [];
   }
 
   for (const page of app.pages) {
+    // Determine which indices this page belongs to based on path prefixes
+    const pagePathIndices = new Set<string>();
+    if (searchConfig.searchIndexPathPrefixes) {
+      for (const [indexName, prefixes] of Object.entries(searchConfig.searchIndexPathPrefixes)) {
+        const prefixArray = Array.isArray(prefixes) ? prefixes : [prefixes];
+        for (const prefix of prefixArray) {
+          if (page.path.startsWith(prefix)) {
+            pagePathIndices.add(indexName);
+            break;
+          }
+        }
+      }
+    }
+    
+    // Extract content with div class-based indices
     const pageIndices = extractPageContentsWithIndices(page, searchConfig.searchIndexClassNames);
     
     // Collect all contents for this page for the default index
     const allContents: PageContent[] = [];
     
+    // Process div class-based indices
     for (const [indexName, contents] of Object.entries(pageIndices)) {
       if (contents.length > 0) {
         // Add to specific index
@@ -74,6 +94,22 @@ export async function prepareSearchIndex({
       }
     }
     
+    // For path-based indices, add all page content if it matches
+    if (pagePathIndices.size > 0 && allContents.length > 0) {
+      for (const indexName of pagePathIndices) {
+        // Don't duplicate if already added via class name
+        const alreadyAdded = searchIndices[indexName].some(item => item.path === page.path);
+        if (!alreadyAdded) {
+          searchIndices[indexName].push({
+            path: page.path,
+            title: page.title,
+            pathLocale: page.pathLocale,
+            contents: allContents,
+          });
+        }
+      }
+    }
+    
     // Add all content to default index
     if (allContents.length > 0) {
       searchIndices['default'].push({
@@ -86,18 +122,41 @@ export async function prepareSearchIndex({
   }
 
   // Create titles mapping with defaults
-  const indexTitles = {
-    'default': 'All Content',
-    ...(searchConfig.searchIndexClassNames.filter(cn=>cn!=='default')).reduce((acc, className) => {
-      acc[className] = searchConfig.searchIndexTitles?.[className] || className;
-      return acc;
-    }, {} as { [key: string]: string })
+  const indexTitles: { [key: string]: string } = {
+    'default': 'All Content'
   };
+  
+  // Add titles for class-based indices
+  for (const className of searchConfig.searchIndexClassNames) {
+    if (className !== 'default') {
+      indexTitles[className] = searchConfig.searchIndexTitles?.[className] || className;
+    }
+  }
+  
+  // Add titles for path-based indices
+  for (const indexName of pathPrefixIndices) {
+    if (indexName !== 'default' && !indexTitles[indexName]) {
+      indexTitles[indexName] = searchConfig.searchIndexTitles?.[indexName] || indexName;
+    }
+  }
 
-  // search index file content
+  // Create a simplified index without content for the JS file
+  const simplifiedIndices: SearchIndices = {};
+  for (const [indexName, pages] of Object.entries(searchIndices)) {
+    simplifiedIndices[indexName] = pages.map(page => ({
+      ...page,
+      contents: page.contents.map(content => ({
+        header: content.header,
+        slug: content.slug,
+        content: '' // Remove content from JS file
+      }))
+    }));
+  }
+
+  // search index file content (without full content)
   let content = `
-export const searchIndices = ${JSON.stringify(searchIndices, null, 2)};
-export const searchIndexClassNames = ${JSON.stringify(['default', ...(searchConfig.searchIndexClassNames).filter(cn=>cn!==`default`)], null, 2)};
+export const searchIndices = ${JSON.stringify(simplifiedIndices, null, 2)};
+export const searchIndexClassNames = ${JSON.stringify(Array.from(allIndexNames), null, 2)};
 export const searchIndexTitles = ${JSON.stringify(indexTitles, null, 2)};
 export const defaultSearchIndex = ${JSON.stringify('default', null, 2)};
 export const defaultSelectedIndex = ${JSON.stringify(searchConfig.defaultSelectedIndex || 'default', null, 2)};
@@ -112,10 +171,17 @@ export const searchIndex = searchIndices['default'] || [];
     content += HMR_CODE;
   }
 
-  return app.writeTemp(
+  // Write the JS file
+  const jsFilePath = await app.writeTemp(
     "internal/vuepress-plugin-full-text-search2-search-index.js",
     content,
   );
+
+  // Write the full content to a JSON file
+  const jsonFilePath = jsFilePath.replace(/\.js$/, '.json');
+  fs.writeFileSync(jsonFilePath, JSON.stringify(searchIndices, null, 2), 'utf-8');
+
+  return jsFilePath;
 }
 
 /**
