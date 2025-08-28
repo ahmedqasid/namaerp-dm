@@ -456,6 +456,15 @@
 
 </div>
 
+<div class="row searchable" id="fullyPlanned">
+<div class="cell" data-label="Property">fullyPlanned</div>
+<div class="cell" data-label="Column">fullyPlanned</div>
+<div class="cell" data-label="Arabic">مخطط بالكامل</div>
+<div class="cell" data-label="English">Fully Planned</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="generatedByLine">
 <div class="cell" data-label="Property">generatedByLine</div>
 <div class="cell" data-label="Column">generatedByLine</div>
@@ -1323,6 +1332,15 @@
 
 </div>
 
+<div class="row searchable" id="usedInDocument">
+<div class="cell" data-label="Property">usedInDocument</div>
+<div class="cell gen-ref-column" data-label="Column">usedInDocumentActualCode,  usedInDocumentCode,  usedInDocumentEntityType,  usedInDocumentId</div>
+<div class="cell" data-label="Arabic">مستعمل في سند</div>
+<div class="cell" data-label="English">Used In Document</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
 <div class="row searchable" id="valueDate">
 <div class="cell" data-label="Property">valueDate</div>
 <div class="cell" data-label="Column">valueDate</div>
@@ -2175,6 +2193,15 @@
 <div class="cell gen-ref-column" data-label="Column">subsidiaryActualCode,  subsidiaryCode,  subsidiaryEntityType,  subsidiaryId</div>
 <div class="cell" data-label="Arabic">الذمة</div>
 <div class="cell" data-label="English">Subsidiary</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.usedInDocument">
+<div class="cell" data-label="Property">details.usedInDocument</div>
+<div class="cell gen-ref-column" data-label="Column">usedInDocumentActualCode,  usedInDocumentCode,  usedInDocumentEntityType,  usedInDocumentId</div>
+<div class="cell" data-label="Arabic">مستعمل في سند</div>
+<div class="cell" data-label="English">Used In Document</div>
 <div class="cell" data-label="Type">Genericreference</div>
 
 </div>

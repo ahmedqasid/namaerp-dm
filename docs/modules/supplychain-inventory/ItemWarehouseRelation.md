@@ -838,6 +838,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.color">
+<div class="cell" data-label="Property">details.color</div>
+<div class="cell" data-label="Column">color</div>
+<div class="cell" data-label="Arabic">اللون</div>
+<div class="cell" data-label="English">Color</div>
+<div class="cell" data-label="Type">Color</div>
+
+</div>
+
 <div class="row searchable" id="details.id">
 <div class="cell" data-label="Property">details.id</div>
 <div class="cell" data-label="Column">id</div>
@@ -1009,6 +1018,15 @@
 
 </div>
 
+<div class="row searchable" id="details.revisionId">
+<div class="cell" data-label="Property">details.revisionId</div>
+<div class="cell" data-label="Column">revisionId</div>
+<div class="cell" data-label="Arabic">الإصدار</div>
+<div class="cell" data-label="English">ID</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="details.section">
 <div class="cell" data-label="Property">details.section</div>
 <div class="cell" data-label="Column">section_id</div>
@@ -1019,6 +1037,15 @@
 
  [ItemSection](/modules/supplychain/ItemSection.md) 
 </div>
+</div>
+
+<div class="row searchable" id="details.size">
+<div class="cell" data-label="Property">details.size</div>
+<div class="cell" data-label="Column">size</div>
+<div class="cell" data-label="Arabic">المقاس</div>
+<div class="cell" data-label="English">Size</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 <div class="row searchable" id="details.warehouse">

@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#availableMaterials'>availableMaterials (CRTNMaterialPlanningAvailableMaterial) </a> , <a href='#documents'>documents (CRTNMaterialPlanningLine) </a> , <a href='#items'>items (CRTNMaterialPlanningItemLine) </a> , <a href='#materials'>materials (CRTNMaterialPlanningMaterialLine) </a> , <a href='#materialsTotals'>materialsTotals (CRTNMaterialPlanningMaterialsTotals) </a>
+<a href='#availableMaterials'>availableMaterials (CRTNMaterialPlanningAvailableMaterial) </a> , <a href='#companionOrders'>companionOrders (CRTNMaterialPlanningCompanionOrderLine) </a> , <a href='#documents'>documents (CRTNMaterialPlanningLine) </a> , <a href='#items'>items (CRTNMaterialPlanningItemLine) </a> , <a href='#materials'>materials (CRTNMaterialPlanningMaterialLine) </a> , <a href='#materialsTotals'>materialsTotals (CRTNMaterialPlanningMaterialsTotals) </a>
 </div>
 
 <div class='searchable'>
@@ -1112,6 +1112,391 @@
 </div>
 </div>
 
+<div id='companionOrders' title='companionOrders' class='searchable'>
+
+## companionOrders (الأوامر المصاحبة - Companion Orders)
+
+<div class='tableName'>
+
+**Table Name:** CRTNMaterialPlanningCompanionOrderLine, **Join Column:** cRTNMaterialPlanning_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="companionOrders.cartonSpecs">
+<div class="cell" data-label="Property">companionOrders.cartonSpecs</div>
+<div class="cell" data-label="Column">cartonSpecs_id</div>
+<div class="cell" data-label="Arabic">مواصفات الكرتونة</div>
+<div class="cell" data-label="English">Carton Specs</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CRTNSpecification](/modules/manufacturing-crtn-pln/CRTNSpecification.md) 
+</div>
+</div>
+
+<div class="row searchable" id="companionOrders.crtnOrder">
+<div class="cell" data-label="Property">companionOrders.crtnOrder</div>
+<div class="cell" data-label="Column">crtnOrder_id</div>
+<div class="cell" data-label="Arabic"> طلبية كرتون</div>
+<div class="cell" data-label="English"> Carton Order</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CRTNOrder](/modules/manufacturing-crtn-pln/CRTNOrder.md) 
+</div>
+</div>
+
+<div class="row searchable" id="companionOrders.flapValue">
+<div class="cell" data-label="Property">companionOrders.flapValue</div>
+<div class="cell" data-label="Column">flapValue</div>
+<div class="cell" data-label="Arabic">اللسان</div>
+<div class="cell" data-label="English">Flap Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.height">
+<div class="cell" data-label="Property">companionOrders.height</div>
+<div class="cell" data-label="Column">height</div>
+<div class="cell" data-label="Arabic">الأبعاد | الارتفاع</div>
+<div class="cell" data-label="English">Measures | Height</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.id">
+<div class="cell" data-label="Property">companionOrders.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.item">
+<div class="cell" data-label="Property">companionOrders.item</div>
+<div class="cell" data-label="Column">item_id</div>
+<div class="cell" data-label="Arabic">الصنف</div>
+<div class="cell" data-label="English">Item</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InvItem](/modules/supplychain/InvItem.md) 
+</div>
+</div>
+
+<div class="row searchable" id="companionOrders.length">
+<div class="cell" data-label="Property">companionOrders.length</div>
+<div class="cell" data-label="Column">length</div>
+<div class="cell" data-label="Arabic">الأبعاد | الطول</div>
+<div class="cell" data-label="English">Measures | Length</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.lineNumber">
+<div class="cell" data-label="Property">companionOrders.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.metricLength">
+<div class="cell" data-label="Property">companionOrders.metricLength</div>
+<div class="cell" data-label="Column">metricLength</div>
+<div class="cell" data-label="Arabic">الطول المتري</div>
+<div class="cell" data-label="English">Metric Length</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.numberOfOperations">
+<div class="cell" data-label="Property">companionOrders.numberOfOperations</div>
+<div class="cell" data-label="Column">numberOfOperations</div>
+<div class="cell" data-label="Arabic">عدد التشغيلات</div>
+<div class="cell" data-label="English">Number Of Operations</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.numberOfPieces">
+<div class="cell" data-label="Property">companionOrders.numberOfPieces</div>
+<div class="cell" data-label="Column">numberOfPieces</div>
+<div class="cell" data-label="Arabic">عدد القطع</div>
+<div class="cell" data-label="English">Number Of Pieces</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.numberOfStrikes">
+<div class="cell" data-label="Property">companionOrders.numberOfStrikes</div>
+<div class="cell" data-label="Column">numberOfStrikes</div>
+<div class="cell" data-label="Arabic">عدد الضربيات</div>
+<div class="cell" data-label="English">Number Of Strikes</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.operatingWidth">
+<div class="cell" data-label="Property">companionOrders.operatingWidth</div>
+<div class="cell" data-label="Column">operatingWidth</div>
+<div class="cell" data-label="Arabic">عرض التشغيل</div>
+<div class="cell" data-label="English">Operating Width</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.quantity.uom">
+<div class="cell" data-label="Property">companionOrders.quantity.uom</div>
+<div class="cell" data-label="Column">quantityUom_id</div>
+<div class="cell" data-label="Arabic">الكمية | الوحدة</div>
+<div class="cell" data-label="English">Quantity | Uom</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [UOM](/modules/supplychain/UOM.md) 
+</div>
+</div>
+
+<div class="row searchable" id="companionOrders.quantity.value">
+<div class="cell" data-label="Property">companionOrders.quantity.value</div>
+<div class="cell" data-label="Column">quantityValue</div>
+<div class="cell" data-label="Arabic">الكمية  | القيمة</div>
+<div class="cell" data-label="English">Quantity | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.rollWidth">
+<div class="cell" data-label="Property">companionOrders.rollWidth</div>
+<div class="cell" data-label="Column">rollWidth</div>
+<div class="cell" data-label="Arabic">عرض البكرة</div>
+<div class="cell" data-label="English">Roll Width</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.sheetLength">
+<div class="cell" data-label="Property">companionOrders.sheetLength</div>
+<div class="cell" data-label="Column">sheetLength</div>
+<div class="cell" data-label="Arabic">طول الشيت</div>
+<div class="cell" data-label="English">Sheet Length</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.sheetWidth">
+<div class="cell" data-label="Property">companionOrders.sheetWidth</div>
+<div class="cell" data-label="Column">sheetWidth</div>
+<div class="cell" data-label="Arabic">عرض الشيت</div>
+<div class="cell" data-label="English">Sheet Width</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.specificDimensions.activePerc">
+<div class="cell" data-label="Property">companionOrders.specificDimensions.activePerc</div>
+<div class="cell" data-label="Column">activePerc</div>
+<div class="cell" data-label="Arabic">النسبة الفعالة</div>
+<div class="cell" data-label="English">Active Percentage</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.specificDimensions.box">
+<div class="cell" data-label="Property">companionOrders.specificDimensions.box</div>
+<div class="cell" data-label="Column">box</div>
+<div class="cell" data-label="Arabic">صندوق</div>
+<div class="cell" data-label="English">Box</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.specificDimensions.color">
+<div class="cell" data-label="Property">companionOrders.specificDimensions.color</div>
+<div class="cell" data-label="Column">color</div>
+<div class="cell" data-label="Arabic">اللون</div>
+<div class="cell" data-label="English">Color</div>
+<div class="cell" data-label="Type">Color</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.specificDimensions.inactivePerc">
+<div class="cell" data-label="Property">companionOrders.specificDimensions.inactivePerc</div>
+<div class="cell" data-label="Column">inactivePerc</div>
+<div class="cell" data-label="Arabic">النسبة الغير فعالة</div>
+<div class="cell" data-label="English">Inactive Percentage</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.specificDimensions.locator">
+<div class="cell" data-label="Property">companionOrders.specificDimensions.locator</div>
+<div class="cell" data-label="Column">locator_id</div>
+<div class="cell" data-label="Arabic">الموقع</div>
+<div class="cell" data-label="English">Locator</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Locator](/modules/supplychain/Locator.md) 
+</div>
+</div>
+
+<div class="row searchable" id="companionOrders.specificDimensions.lotId">
+<div class="cell" data-label="Property">companionOrders.specificDimensions.lotId</div>
+<div class="cell" data-label="Column">lotId</div>
+<div class="cell" data-label="Arabic">رقم الشحنه</div>
+<div class="cell" data-label="English">Lot ID</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.specificDimensions.measures">
+<div class="cell" data-label="Property">companionOrders.specificDimensions.measures</div>
+<div class="cell" data-label="Column">measures</div>
+<div class="cell" data-label="Arabic">الأبعاد</div>
+<div class="cell" data-label="English">Measures</div>
+<div class="cell" data-label="Type">Measures</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.specificDimensions.revisionId">
+<div class="cell" data-label="Property">companionOrders.specificDimensions.revisionId</div>
+<div class="cell" data-label="Column">revisionId</div>
+<div class="cell" data-label="Arabic">الإصدار</div>
+<div class="cell" data-label="English">Revision ID</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.specificDimensions.secondSerial">
+<div class="cell" data-label="Property">companionOrders.specificDimensions.secondSerial</div>
+<div class="cell" data-label="Column">secondSerial</div>
+<div class="cell" data-label="Arabic">الرقم المسلسل الثاني</div>
+<div class="cell" data-label="English">Second Serial</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.specificDimensions.serialNumber">
+<div class="cell" data-label="Property">companionOrders.specificDimensions.serialNumber</div>
+<div class="cell" data-label="Column">serialNumber</div>
+<div class="cell" data-label="Arabic">الرقم المسلسل</div>
+<div class="cell" data-label="English">Serial number</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.specificDimensions.size">
+<div class="cell" data-label="Property">companionOrders.specificDimensions.size</div>
+<div class="cell" data-label="Column">size</div>
+<div class="cell" data-label="Arabic">المقاس</div>
+<div class="cell" data-label="English">Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.specificDimensions.subItem">
+<div class="cell" data-label="Property">companionOrders.specificDimensions.subItem</div>
+<div class="cell" data-label="Column">subItem_id</div>
+<div class="cell" data-label="Arabic"> صنف فرعى</div>
+<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [SubItem](/modules/srvcenter-subitems/SubItem.md) 
+</div>
+</div>
+
+<div class="row searchable" id="companionOrders.specificDimensions.warehouse">
+<div class="cell" data-label="Property">companionOrders.specificDimensions.warehouse</div>
+<div class="cell" data-label="Column">warehouse_id</div>
+<div class="cell" data-label="Arabic">المخزن</div>
+<div class="cell" data-label="English">Warehouse</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Warehouse](/modules/supplychain/Warehouse.md) 
+</div>
+</div>
+
+<div class="row searchable" id="companionOrders.totalPlannedQty">
+<div class="cell" data-label="Property">companionOrders.totalPlannedQty</div>
+<div class="cell" data-label="Column">totalPlannedQty</div>
+<div class="cell" data-label="Arabic">إجمالي الكمية المخططة</div>
+<div class="cell" data-label="English">Total Planned Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.totalPrice">
+<div class="cell" data-label="Property">companionOrders.totalPrice</div>
+<div class="cell" data-label="Column">totalPrice</div>
+<div class="cell" data-label="Arabic">إجمالي السعر</div>
+<div class="cell" data-label="English">  Total</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.totalRequestedQty">
+<div class="cell" data-label="Property">companionOrders.totalRequestedQty</div>
+<div class="cell" data-label="Column">totalRequestedQty</div>
+<div class="cell" data-label="Arabic">إجمالي الكمية المطلوبة</div>
+<div class="cell" data-label="English">Total Requested Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.totalWaste">
+<div class="cell" data-label="Property">companionOrders.totalWaste</div>
+<div class="cell" data-label="Column">totalWaste</div>
+<div class="cell" data-label="Arabic">Total Waste</div>
+<div class="cell" data-label="English">Total Waste</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.trim">
+<div class="cell" data-label="Property">companionOrders.trim</div>
+<div class="cell" data-label="Column">trim</div>
+<div class="cell" data-label="Arabic">التريم</div>
+<div class="cell" data-label="English">Trim</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.unitPrice">
+<div class="cell" data-label="Property">companionOrders.unitPrice</div>
+<div class="cell" data-label="Column">unitPrice</div>
+<div class="cell" data-label="Arabic">سعر الوحدة</div>
+<div class="cell" data-label="English">Unit Price</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="companionOrders.width">
+<div class="cell" data-label="Property">companionOrders.width</div>
+<div class="cell" data-label="Column">width</div>
+<div class="cell" data-label="Arabic">الأبعاد | العرض</div>
+<div class="cell" data-label="English">Measures | Width</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+
+</div>
+</div>
+
 <div id='documents' title='documents' class='searchable'>
 
 ## documents (المستندات - documents)
@@ -1362,15 +1747,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="items.masterRowId">
-<div class="cell" data-label="Property">items.masterRowId</div>
-<div class="cell" data-label="Column">masterRowId</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
 
 </div>
 

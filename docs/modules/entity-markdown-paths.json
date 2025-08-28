@@ -4,6 +4,7 @@
   "AIChatSession" : "system-tables/AIChatSession.md",
   "AIEmbeddingFile" : "system-tables/AIEmbeddingFile.md",
   "AIModelDefinition" : "system-tables/AIModelDefinition.md",
+  "AINamaDocsFile" : "system-tables/AINamaDocsFile.md",
   "AIRecordEmbeddingConfig" : "ai/AIRecordEmbeddingConfig.md",
   "AIToolDefinition" : "ai/AIToolDefinition.md",
   "APICredentials" : "basic/APICredentials.md",

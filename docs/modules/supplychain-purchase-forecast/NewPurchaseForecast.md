@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#details'>details (NewPurchaseForecastLine) </a>
+<a href='#brandFilters'>brandFilters (NewPurchaseForecastBrandFilterLine) </a> , <a href='#details'>details (NewPurchaseForecastLine) </a> , <a href='#itemFilters'>itemFilters (NewPurchaseForecastItemFilterLine) </a>
 </div>
 
 <div class='searchable'>
@@ -1423,6 +1423,73 @@
 </div>
 </div>
 
+<div id='brandFilters' title='brandFilters' class='searchable'>
+
+## brandFilters (فلاتر سطور الماركة - Brand Lines Filters)
+
+<div class='tableName'>
+
+**Table Name:** NewPurchaseForecastBrandFilterLine, **Join Column:** newPurchaseForecast_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="brandFilters.id">
+<div class="cell" data-label="Property">brandFilters.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="brandFilters.lineNumber">
+<div class="cell" data-label="Property">brandFilters.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="brandFilters.ref1">
+<div class="cell" data-label="Property">brandFilters.ref1</div>
+<div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
+<div class="cell" data-label="Arabic">مرجع 1</div>
+<div class="cell" data-label="English">Reference 1</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="brandFilters.ref2">
+<div class="cell" data-label="Property">brandFilters.ref2</div>
+<div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
+<div class="cell" data-label="Arabic">مرجع 2</div>
+<div class="cell" data-label="English">Reference 2</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="brandFilters.remarks">
+<div class="cell" data-label="Property">brandFilters.remarks</div>
+<div class="cell" data-label="Column">remarks</div>
+<div class="cell" data-label="Arabic">ملاحظات</div>
+<div class="cell" data-label="English">Description</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+
+</div>
+</div>
+
 <div id='details' title='details' class='searchable'>
 
 ## details (التفاصيل - Details)
@@ -2284,6 +2351,67 @@
 <div class="cell" data-label="Arabic">إجمالي الكميات</div>
 <div class="cell" data-label="English">Total Quantities</div>
 <div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='itemFilters' title='itemFilters' class='searchable'>
+
+## itemFilters (فلاتر الصنف - Item Filters)
+
+<div class='tableName'>
+
+**Table Name:** NewPurchaseForecastItemFilterLine, **Join Column:** newPurchaseForecast_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="itemFilters.defaultSupplier">
+<div class="cell" data-label="Property">itemFilters.defaultSupplier</div>
+<div class="cell" data-label="Column">defaultSupplier_id</div>
+<div class="cell" data-label="Arabic">المورد الافتراضي</div>
+<div class="cell" data-label="English">Default Supplier</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Supplier](/modules/basic/Supplier.md) 
+</div>
+</div>
+
+<div class="row searchable" id="itemFilters.id">
+<div class="cell" data-label="Property">itemFilters.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="itemFilters.lineNumber">
+<div class="cell" data-label="Property">itemFilters.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="itemFilters.ref1">
+<div class="cell" data-label="Property">itemFilters.ref1</div>
+<div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
+<div class="cell" data-label="Arabic">مرجع 1</div>
+<div class="cell" data-label="English">Reference 1</div>
+<div class="cell" data-label="Type">Genericreference</div>
 
 </div>
 

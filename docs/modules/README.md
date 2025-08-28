@@ -1648,6 +1648,7 @@
     - [AIChatSession](/modules/system-tables/AIChatSession.md)
     - [AIEmbeddingFile](/modules/system-tables/AIEmbeddingFile.md)
     - [AIModelDefinition](/modules/system-tables/AIModelDefinition.md)
+    - [AINamaDocsFile](/modules/system-tables/AINamaDocsFile.md)
     - [AUFilePhaseLine](/modules/system-tables/AUFilePhaseLine.md)
     - [ActionsHistory](/modules/system-tables/ActionsHistory.md)
     - [AdditionalCostLine](/modules/system-tables/AdditionalCostLine.md)

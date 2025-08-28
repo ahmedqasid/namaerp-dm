@@ -2,11 +2,11 @@
 <div class='tableName'>
 
 
-# CRTNPlanningConfiguration
+# AINamaDocsFile
 </div>
 
-**Arabic:** إعدادات تخطيط الكرتون
-**English:** CRTN Planning Configuration - CRTN Planning Configurations
+**Arabic:** AI Nama Docs Utility Manager
+**English:** AI Nama Docs Utility Manager
 
 <ContentFilter/>
 
@@ -88,15 +88,6 @@
 <div class="cell" data-label="Arabic">تم الحفظ مسبقا</div>
 <div class="cell" data-label="English">Commited Before</div>
 <div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="companionOrderSearchMaxTimeInSeconds">
-<div class="cell" data-label="Property">companionOrderSearchMaxTimeInSeconds</div>
-<div class="cell" data-label="Column">companionOrderSearchMaxTimeInSeconds</div>
-<div class="cell" data-label="Arabic">أقصى وقت بالثواني للبحث عن مصاحب</div>
-<div class="cell" data-label="English">Maximum Time In Seconds For Companion Order Search</div>
-<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 
@@ -277,6 +268,15 @@
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
 <div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="documentationContent">
+<div class="cell" data-label="Property">documentationContent</div>
+<div class="cell" data-label="Column">documentationContent</div>
+<div class="cell" data-label="Arabic">Documentation Content</div>
+<div class="cell" data-label="English">Documentation Content</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -484,60 +484,6 @@
 </div>
 </div>
 
-<div class="row searchable" id="maxDifferentLengthsPerSheet">
-<div class="cell" data-label="Property">maxDifferentLengthsPerSheet</div>
-<div class="cell" data-label="Column">maxDifferentLengthsPerSheet</div>
-<div class="cell" data-label="Arabic">أقصى عدد من الأطوال المختلفة للشيت الواحد</div>
-<div class="cell" data-label="English">Max Different Lengths Per Sheet</div>
-<div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="maxRollGroupSplitCount">
-<div class="cell" data-label="Property">maxRollGroupSplitCount</div>
-<div class="cell" data-label="Column">maxRollGroupSplitCount</div>
-<div class="cell" data-label="Arabic">Max Roll Group Split Count</div>
-<div class="cell" data-label="English">Max Roll Group Split Count</div>
-<div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="maxTimeInMinutes">
-<div class="cell" data-label="Property">maxTimeInMinutes</div>
-<div class="cell" data-label="Column">maxTimeInMinutes</div>
-<div class="cell" data-label="Arabic">أقصى وقت بالدقائق للبحث</div>
-<div class="cell" data-label="English">Maximum Search Time In Minutes</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="minRollCuts">
-<div class="cell" data-label="Property">minRollCuts</div>
-<div class="cell" data-label="Column">minRollCuts</div>
-<div class="cell" data-label="Arabic">أقل عدد قطعيات للرول</div>
-<div class="cell" data-label="English">Minimum Roll Cuts</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="minRollLength">
-<div class="cell" data-label="Property">minRollLength</div>
-<div class="cell" data-label="Column">minRollLength</div>
-<div class="cell" data-label="Arabic">أقل طول للرول</div>
-<div class="cell" data-label="English">Minimum Roll Length</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="minTrim">
-<div class="cell" data-label="Property">minTrim</div>
-<div class="cell" data-label="Column">minTrim</div>
-<div class="cell" data-label="Arabic">أقل تريم</div>
-<div class="cell" data-label="English">Minimum Trim</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
 <div class="row searchable" id="n1">
 <div class="cell" data-label="Property">n1</div>
 <div class="cell" data-label="Column">n1</div>
@@ -742,18 +688,6 @@
 
 </div>
 
-<div class="row searchable" id="trimCoProduct">
-<div class="cell" data-label="Property">trimCoProduct</div>
-<div class="cell" data-label="Column">trimCoProduct_id</div>
-<div class="cell" data-label="Arabic">الصنف الثانوي للتريم</div>
-<div class="cell" data-label="English">Trim Co-product Item</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [InvItem](/modules/supplychain/InvItem.md) 
-</div>
-</div>
-
 <div class="row searchable" id="updateCapability">
 <div class="cell" data-label="Property">updateCapability</div>
 <div class="cell" data-label="Column">updateCapability_id</div>
@@ -814,15 +748,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="workersCount">
-<div class="cell" data-label="Property">workersCount</div>
-<div class="cell" data-label="Column">workersCount</div>
-<div class="cell" data-label="Arabic">CPU Thread Workers Count</div>
-<div class="cell" data-label="English">CPU Thread Workers Count</div>
-<div class="cell" data-label="Type">Integer</div>
 
 </div>
 
