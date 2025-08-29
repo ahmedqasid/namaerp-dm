@@ -15,6 +15,10 @@ function checkForErrors() {
       exit 1
     fi
 }
+git add *
+git commit -m "new release"
+git push
+
 git_pull
 checkForErrors
 npm i
