@@ -2025,6 +2025,15 @@
 
 </div>
 
+<div class="row searchable" id="showCrossTabMeasuresHeaders">
+<div class="cell" data-label="Property">showCrossTabMeasuresHeaders</div>
+<div class="cell" data-label="Column">showCrossTabMeasuresHeaders</div>
+<div class="cell" data-label="Arabic">إظهار رؤوس المعادلات</div>
+<div class="cell" data-label="English">Show Cross Tab Measures Headers</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="showGroup1Header">
 <div class="cell" data-label="Property">showGroup1Header</div>
 <div class="cell" data-label="Column">showGroup1Header</div>

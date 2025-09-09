@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#dysfunctions'>dysfunctions (MnNoticeDysfunction) </a> , <a href='#machines'>machines (MnNoticeMachine) </a> , <a href='#services'>services (MnNoticeService) </a> , <a href='#spareParts'>spareParts (MnNoticeSparePart) </a> , <a href='#statusChange'>statusChange (MnNoticeStatusChangeLine) </a>
+<a href='#dysfunctions'>dysfunctions (MnNoticeDysfunction) </a> , <a href='#externalPaymentLines'>externalPaymentLines (MnNoticeExternalPaymentLine) </a> , <a href='#machines'>machines (MnNoticeMachine) </a> , <a href='#paymentLines'>paymentLines (MnNoticePaymentLine) </a> , <a href='#scheduleLines'>scheduleLines (MnNoticeScheduledPayLine) </a> , <a href='#services'>services (MnNoticeService) </a> , <a href='#spareParts'>spareParts (MnNoticeSparePart) </a> , <a href='#statusChange'>statusChange (MnNoticeStatusChangeLine) </a>
 </div>
 
 <div class='searchable'>
@@ -1358,7 +1358,7 @@
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [MnNoticeCategory](/modules/system-tables/MnNoticeCategory.md) 
+ [MnNoticeCategory](/modules/crm-maintenance/MnNoticeCategory.md) 
 </div>
 </div>
 
@@ -1855,6 +1855,18 @@
 <div class="cell" data-label="English">Payment Status</div>
 <div class="cell" data-label="Type">Enum</div>
 
+</div>
+
+<div class="row searchable" id="paymentTemplate">
+<div class="cell" data-label="Property">paymentTemplate</div>
+<div class="cell" data-label="Column">paymentTemplate_id</div>
+<div class="cell" data-label="Arabic">نموذج الدفع</div>
+<div class="cell" data-label="English">Payment Template</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [PaymentScheduleTemplate](/modules/basic/PaymentScheduleTemplate.md) 
+</div>
 </div>
 
 <div class="row searchable" id="plannedVisitDate">
@@ -4166,6 +4178,118 @@
 </div>
 </div>
 
+<div id='externalPaymentLines' title='externalPaymentLines' class='searchable'>
+
+## externalPaymentLines (السداد بسندات خارجية - External Payment Lines)
+
+<div class='tableName'>
+
+**Table Name:** MnNoticeExternalPaymentLine, **Join Column:** mnNotice_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="externalPaymentLines.b1">
+<div class="cell" data-label="Property">externalPaymentLines.b1</div>
+<div class="cell" data-label="Column">b1</div>
+<div class="cell" data-label="Arabic">Boolean 1</div>
+<div class="cell" data-label="English">Boolean 1</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="externalPaymentLines.b2">
+<div class="cell" data-label="Property">externalPaymentLines.b2</div>
+<div class="cell" data-label="Column">b2</div>
+<div class="cell" data-label="Arabic">Boolean 2</div>
+<div class="cell" data-label="English">Boolean 2</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="externalPaymentLines.date1">
+<div class="cell" data-label="Property">externalPaymentLines.date1</div>
+<div class="cell" data-label="Column">date1</div>
+<div class="cell" data-label="Arabic">تـــاريخ 1</div>
+<div class="cell" data-label="English">Date 1</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="externalPaymentLines.date2">
+<div class="cell" data-label="Property">externalPaymentLines.date2</div>
+<div class="cell" data-label="Column">date2</div>
+<div class="cell" data-label="Arabic">تـــاريخ 2</div>
+<div class="cell" data-label="English">Date 2</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="externalPaymentLines.doNotAffectRemaining">
+<div class="cell" data-label="Property">externalPaymentLines.doNotAffectRemaining</div>
+<div class="cell" data-label="Column">doNotAffectRemaining</div>
+<div class="cell" data-label="Arabic">عدم التأثير على المتبقي</div>
+<div class="cell" data-label="English">Do Not Affect Remaining</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="externalPaymentLines.id">
+<div class="cell" data-label="Property">externalPaymentLines.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="externalPaymentLines.lineNumber">
+<div class="cell" data-label="Property">externalPaymentLines.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="externalPaymentLines.paymentDate">
+<div class="cell" data-label="Property">externalPaymentLines.paymentDate</div>
+<div class="cell" data-label="Column">paymentDate</div>
+<div class="cell" data-label="Arabic">تاريخ الدفع</div>
+<div class="cell" data-label="English">Payment Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="externalPaymentLines.paymentDocument">
+<div class="cell" data-label="Property">externalPaymentLines.paymentDocument</div>
+<div class="cell gen-ref-column" data-label="Column">paymentDocumentActualCode,  paymentDocumentCode,  paymentDocumentEntityType,  paymentDocumentId</div>
+<div class="cell" data-label="Arabic">مستند الدفع</div>
+<div class="cell" data-label="English">Document</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="externalPaymentLines.paymentValue">
+<div class="cell" data-label="Property">externalPaymentLines.paymentValue</div>
+<div class="cell" data-label="Column">paymentValue</div>
+<div class="cell" data-label="Arabic">المبلغ</div>
+<div class="cell" data-label="English">Payment Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+
+</div>
+</div>
+
 <div id='machines' title='machines' class='searchable'>
 
 ## machines (ألآت - Machines)
@@ -5018,6 +5142,593 @@
 <div class="cell" data-label="Arabic">مدة الضمان | قيمة</div>
 <div class="cell" data-label="English">Warranty Period | Value</div>
 <div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='paymentLines' title='paymentLines' class='searchable'>
+
+## paymentLines (الســداد - Payment Lines)
+
+<div class='tableName'>
+
+**Table Name:** MnNoticePaymentLine, **Join Column:** mnNotice_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="paymentLines.afterFeesValue">
+<div class="cell" data-label="Property">paymentLines.afterFeesValue</div>
+<div class="cell" data-label="Column">afterFeesValue</div>
+<div class="cell" data-label="Arabic">المبلغ بعد الرسوم</div>
+<div class="cell" data-label="English">Value After Fees</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.authorizationNumber">
+<div class="cell" data-label="Property">paymentLines.authorizationNumber</div>
+<div class="cell" data-label="Column">authorizationNumber</div>
+<div class="cell" data-label="Arabic">رقم العملية</div>
+<div class="cell" data-label="English">Authorization Number</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.date1">
+<div class="cell" data-label="Property">paymentLines.date1</div>
+<div class="cell" data-label="Column">date1</div>
+<div class="cell" data-label="Arabic">تـــاريخ 1</div>
+<div class="cell" data-label="English">Date 1</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.date2">
+<div class="cell" data-label="Property">paymentLines.date2</div>
+<div class="cell" data-label="Column">date2</div>
+<div class="cell" data-label="Arabic">تـــاريخ 2</div>
+<div class="cell" data-label="English">Date 2</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.discountCoupon">
+<div class="cell" data-label="Property">paymentLines.discountCoupon</div>
+<div class="cell" data-label="Column">discountCoupon_id</div>
+<div class="cell" data-label="Arabic">قسيمة شراء</div>
+<div class="cell" data-label="English">Discount Coupon</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [DiscountCoupon](/modules/supplychain-sales/DiscountCoupon.md) 
+</div>
+</div>
+
+<div class="row searchable" id="paymentLines.doNotAffectRemaining">
+<div class="cell" data-label="Property">paymentLines.doNotAffectRemaining</div>
+<div class="cell" data-label="Column">doNotAffectRemaining</div>
+<div class="cell" data-label="Arabic">عدم التأثير على المتبقي</div>
+<div class="cell" data-label="English">Do Not Affect Remaining</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.feesTaxValue">
+<div class="cell" data-label="Property">paymentLines.feesTaxValue</div>
+<div class="cell" data-label="Column">feesTaxValue</div>
+<div class="cell" data-label="Arabic">قيمة ضريبة الرسوم</div>
+<div class="cell" data-label="English">Fees Tax Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.feesValue">
+<div class="cell" data-label="Property">paymentLines.feesValue</div>
+<div class="cell" data-label="Column">feesValue</div>
+<div class="cell" data-label="Arabic">قيمة الرسوم</div>
+<div class="cell" data-label="English">Fees Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.id">
+<div class="cell" data-label="Property">paymentLines.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.issuer">
+<div class="cell" data-label="Property">paymentLines.issuer</div>
+<div class="cell" data-label="Column">issuer</div>
+<div class="cell" data-label="Arabic">جهة الإصدار</div>
+<div class="cell" data-label="English">Issuer</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.lineNumber">
+<div class="cell" data-label="Property">paymentLines.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.n1">
+<div class="cell" data-label="Property">paymentLines.n1</div>
+<div class="cell" data-label="Column">n1</div>
+<div class="cell" data-label="Arabic">رقم 1</div>
+<div class="cell" data-label="English">Number 1</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.n2">
+<div class="cell" data-label="Property">paymentLines.n2</div>
+<div class="cell" data-label="Column">n2</div>
+<div class="cell" data-label="Arabic">رقم 2</div>
+<div class="cell" data-label="English">Number 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.paidCash">
+<div class="cell" data-label="Property">paymentLines.paidCash</div>
+<div class="cell" data-label="Column">paidCash</div>
+<div class="cell" data-label="Arabic">النقدية المدفوعة</div>
+<div class="cell" data-label="English">Paid Cash</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.paymentMethod">
+<div class="cell" data-label="Property">paymentLines.paymentMethod</div>
+<div class="cell" data-label="Column">paymentMethod_id</div>
+<div class="cell" data-label="Arabic">طريقة الدفع</div>
+<div class="cell" data-label="English"> Payment Method</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [PaymentMethod](/modules/basic/PaymentMethod.md) 
+</div>
+</div>
+
+<div class="row searchable" id="paymentLines.paymentTransactionType">
+<div class="cell" data-label="Property">paymentLines.paymentTransactionType</div>
+<div class="cell" data-label="Column">paymentTransactionType</div>
+<div class="cell" data-label="Arabic">نوع العملية</div>
+<div class="cell" data-label="English">Transaction Type</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.paymentValue">
+<div class="cell" data-label="Property">paymentLines.paymentValue</div>
+<div class="cell" data-label="Column">paymentValue</div>
+<div class="cell" data-label="Arabic">المبلغ</div>
+<div class="cell" data-label="English">Payment Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.pgwProperties.authCode">
+<div class="cell" data-label="Property">paymentLines.pgwProperties.authCode</div>
+<div class="cell" data-label="Column">authCode</div>
+<div class="cell" data-label="Arabic">Auth Code / Txn Id</div>
+<div class="cell" data-label="English">Auth Code / Txn Id</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.pgwProperties.cardType">
+<div class="cell" data-label="Property">paymentLines.pgwProperties.cardType</div>
+<div class="cell" data-label="Column">cardType</div>
+<div class="cell" data-label="Arabic">Card Type</div>
+<div class="cell" data-label="English">Card Type</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.pgwProperties.de55Response">
+<div class="cell" data-label="Property">paymentLines.pgwProperties.de55Response</div>
+<div class="cell" data-label="Column">de55Response</div>
+<div class="cell" data-label="Arabic">De55 Response</div>
+<div class="cell" data-label="English">De55 Response</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.pgwProperties.ecrRefNum">
+<div class="cell" data-label="Property">paymentLines.pgwProperties.ecrRefNum</div>
+<div class="cell" data-label="Column">ecrRefNum</div>
+<div class="cell" data-label="Arabic">ECR Ref Number / Local Reference Number</div>
+<div class="cell" data-label="English">ECR Ref Number / Local Reference Number</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.pgwProperties.maskedCardNumber">
+<div class="cell" data-label="Property">paymentLines.pgwProperties.maskedCardNumber</div>
+<div class="cell" data-label="Column">maskedCardNumber</div>
+<div class="cell" data-label="Arabic">Masked Card Number</div>
+<div class="cell" data-label="English">Masked Card Number</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.pgwProperties.merchantId">
+<div class="cell" data-label="Property">paymentLines.pgwProperties.merchantId</div>
+<div class="cell" data-label="Column">merchantId</div>
+<div class="cell" data-label="Arabic">Merchant Id</div>
+<div class="cell" data-label="English">Merchant Id</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.pgwProperties.paidFromTerminal">
+<div class="cell" data-label="Property">paymentLines.pgwProperties.paidFromTerminal</div>
+<div class="cell" data-label="Column">paidFromTerminal</div>
+<div class="cell" data-label="Arabic">مدفوعة بواسطة ال Terminal</div>
+<div class="cell" data-label="English">Paid From Terminal</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.pgwProperties.panNum">
+<div class="cell" data-label="Property">paymentLines.pgwProperties.panNum</div>
+<div class="cell" data-label="Column">panNum</div>
+<div class="cell" data-label="Arabic">PAN Number / ApprovalCode</div>
+<div class="cell" data-label="English">PAN Number / ApprovalCode</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.pgwProperties.respCode">
+<div class="cell" data-label="Property">paymentLines.pgwProperties.respCode</div>
+<div class="cell" data-label="Column">respCode</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.pgwProperties.schemeId">
+<div class="cell" data-label="Property">paymentLines.pgwProperties.schemeId</div>
+<div class="cell" data-label="Column">schemeId</div>
+<div class="cell" data-label="Arabic">Scheme Id / Card Scheme Name</div>
+<div class="cell" data-label="English">Scheme Id / Card Scheme Name</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.pgwProperties.stanNum">
+<div class="cell" data-label="Property">paymentLines.pgwProperties.stanNum</div>
+<div class="cell" data-label="Column">stanNum</div>
+<div class="cell" data-label="Arabic">STAN Number / rrNumber</div>
+<div class="cell" data-label="English">STAN Number / rrNumber</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.pgwProperties.terminalId">
+<div class="cell" data-label="Property">paymentLines.pgwProperties.terminalId</div>
+<div class="cell" data-label="Column">terminalId</div>
+<div class="cell" data-label="Arabic">Terminal Id / Device Serial No</div>
+<div class="cell" data-label="English">Terminal Id / Device Serial No</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.remainingCash">
+<div class="cell" data-label="Property">paymentLines.remainingCash</div>
+<div class="cell" data-label="Column">remainingCash</div>
+<div class="cell" data-label="Arabic">النقديه المتبقيه</div>
+<div class="cell" data-label="English">Remaining Cash</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.text1">
+<div class="cell" data-label="Property">paymentLines.text1</div>
+<div class="cell" data-label="Column">text1</div>
+<div class="cell" data-label="Arabic">نــــص 1</div>
+<div class="cell" data-label="English">Text 1</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentLines.text2">
+<div class="cell" data-label="Property">paymentLines.text2</div>
+<div class="cell" data-label="Column">text2</div>
+<div class="cell" data-label="Arabic">نـــــص 2</div>
+<div class="cell" data-label="English">Text 2</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='scheduleLines' title='scheduleLines' class='searchable'>
+
+## scheduleLines (الدفعات - Payments)
+
+<div class='tableName'>
+
+**Table Name:** MnNoticeScheduledPayLine, **Join Column:** mnNotice_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="scheduleLines.attachment">
+<div class="cell" data-label="Property">scheduleLines.attachment</div>
+<div class="cell" data-label="Column">attachment_id</div>
+<div class="cell" data-label="Arabic">مرفق</div>
+<div class="cell" data-label="English">Attachment</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="scheduleLines.attachment1">
+<div class="cell" data-label="Property">scheduleLines.attachment1</div>
+<div class="cell" data-label="Column">attachment1_id</div>
+<div class="cell" data-label="Arabic">مرفق 1</div>
+<div class="cell" data-label="English">Attachment 1</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="scheduleLines.b1">
+<div class="cell" data-label="Property">scheduleLines.b1</div>
+<div class="cell" data-label="Column">b1</div>
+<div class="cell" data-label="Arabic">Boolean 1</div>
+<div class="cell" data-label="English">Boolean 1</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.b2">
+<div class="cell" data-label="Property">scheduleLines.b2</div>
+<div class="cell" data-label="Column">b2</div>
+<div class="cell" data-label="Arabic">Boolean 2</div>
+<div class="cell" data-label="English">Boolean 2</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.b3">
+<div class="cell" data-label="Property">scheduleLines.b3</div>
+<div class="cell" data-label="Column">b3</div>
+<div class="cell" data-label="Arabic">Boolean 3</div>
+<div class="cell" data-label="English">Boolean 3</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.date1">
+<div class="cell" data-label="Property">scheduleLines.date1</div>
+<div class="cell" data-label="Column">date1</div>
+<div class="cell" data-label="Arabic">تـــاريخ 1</div>
+<div class="cell" data-label="English">Date 1</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.date2">
+<div class="cell" data-label="Property">scheduleLines.date2</div>
+<div class="cell" data-label="Column">date2</div>
+<div class="cell" data-label="Arabic">تـــاريخ 2</div>
+<div class="cell" data-label="English">Date 2</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.id">
+<div class="cell" data-label="Property">scheduleLines.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.installmentCode">
+<div class="cell" data-label="Property">scheduleLines.installmentCode</div>
+<div class="cell" data-label="Column">installmentCode</div>
+<div class="cell" data-label="Arabic">كود القسط</div>
+<div class="cell" data-label="English">Installment Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.installmentDescription">
+<div class="cell" data-label="Property">scheduleLines.installmentDescription</div>
+<div class="cell" data-label="Column">installmentDescription</div>
+<div class="cell" data-label="Arabic">وصف القسط</div>
+<div class="cell" data-label="English">Installment Description</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.installmentDoc">
+<div class="cell" data-label="Property">scheduleLines.installmentDoc</div>
+<div class="cell gen-ref-column" data-label="Column">installmentDocActualCode,  installmentDocCode,  installmentDocEntityType,  installmentDocId</div>
+<div class="cell" data-label="Arabic">مستند القسط</div>
+<div class="cell" data-label="English">Installment doc</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.lineNumber">
+<div class="cell" data-label="Property">scheduleLines.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.n1">
+<div class="cell" data-label="Property">scheduleLines.n1</div>
+<div class="cell" data-label="Column">n1</div>
+<div class="cell" data-label="Arabic">رقم 1</div>
+<div class="cell" data-label="English">Number 1</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.n2">
+<div class="cell" data-label="Property">scheduleLines.n2</div>
+<div class="cell" data-label="Column">n2</div>
+<div class="cell" data-label="Arabic">رقم 2</div>
+<div class="cell" data-label="English">Number 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.paid">
+<div class="cell" data-label="Property">scheduleLines.paid</div>
+<div class="cell" data-label="Column">paid</div>
+<div class="cell" data-label="Arabic">مُسددة</div>
+<div class="cell" data-label="English">Paid</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.paidValue">
+<div class="cell" data-label="Property">scheduleLines.paidValue</div>
+<div class="cell" data-label="Column">paidValue</div>
+<div class="cell" data-label="Arabic">القيمة المدفوعة</div>
+<div class="cell" data-label="English">Paid Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.paymentDate">
+<div class="cell" data-label="Property">scheduleLines.paymentDate</div>
+<div class="cell" data-label="Column">paymentDate</div>
+<div class="cell" data-label="Arabic">تاريخ الدفع</div>
+<div class="cell" data-label="English">Payment Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.paymentPercent">
+<div class="cell" data-label="Property">scheduleLines.paymentPercent</div>
+<div class="cell" data-label="Column">paymentPercent</div>
+<div class="cell" data-label="Arabic">نسبة الدفعة</div>
+<div class="cell" data-label="English">Payment Percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.paymentValue">
+<div class="cell" data-label="Property">scheduleLines.paymentValue</div>
+<div class="cell" data-label="Column">paymentValue</div>
+<div class="cell" data-label="Arabic">المبلغ</div>
+<div class="cell" data-label="English">Payment Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.ref1">
+<div class="cell" data-label="Property">scheduleLines.ref1</div>
+<div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
+<div class="cell" data-label="Arabic">مرجع 1</div>
+<div class="cell" data-label="English">Reference 1</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.ref2">
+<div class="cell" data-label="Property">scheduleLines.ref2</div>
+<div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
+<div class="cell" data-label="Arabic">مرجع 2</div>
+<div class="cell" data-label="English">Reference 2</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.remaining">
+<div class="cell" data-label="Property">scheduleLines.remaining</div>
+<div class="cell" data-label="Column">remaining</div>
+<div class="cell" data-label="Arabic">المتبقي</div>
+<div class="cell" data-label="English">Remaining</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.remarks">
+<div class="cell" data-label="Property">scheduleLines.remarks</div>
+<div class="cell" data-label="Column">remarks</div>
+<div class="cell" data-label="Arabic">ملاحظات</div>
+<div class="cell" data-label="English">Description</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.selected">
+<div class="cell" data-label="Property">scheduleLines.selected</div>
+<div class="cell" data-label="Column">selected</div>
+<div class="cell" data-label="Arabic">اختيار</div>
+<div class="cell" data-label="English">Selected</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.systemPaid">
+<div class="cell" data-label="Property">scheduleLines.systemPaid</div>
+<div class="cell" data-label="Column">systemPaid</div>
+<div class="cell" data-label="Arabic">المحصل نظاميا</div>
+<div class="cell" data-label="English">System paid</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.text1">
+<div class="cell" data-label="Property">scheduleLines.text1</div>
+<div class="cell" data-label="Column">text1</div>
+<div class="cell" data-label="Arabic">نــــص 1</div>
+<div class="cell" data-label="English">Text 1</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.text2">
+<div class="cell" data-label="Property">scheduleLines.text2</div>
+<div class="cell" data-label="Column">text2</div>
+<div class="cell" data-label="Arabic">نـــــص 2</div>
+<div class="cell" data-label="English">Text 2</div>
+<div class="cell" data-label="Type">Text</div>
 
 </div>
 

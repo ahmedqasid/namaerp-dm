@@ -2,17 +2,17 @@
 <div class='tableName'>
 
 
-# HRHolidays
+# OmnifulConfig
 </div>
 
-**Arabic:** عطلة رسمية - عطلات رسمية
-**English:** HR Holidays
+**Arabic:** Omniful Configuration - Omniful Configurations
+**English:** Omniful Configuration - Omniful Configurations
 
 <ContentFilter/>
 
 
 <div class='searchable'>
-<a href='#details'>details (HolidayLine) </a>
+<a href='#documentGenerationInfoLines'>documentGenerationInfoLines (OmnifulConfigDocGenerationInfoLine) </a>
 </div>
 
 <div class='searchable'>
@@ -306,18 +306,6 @@
 </div>
 </div>
 
-<div class="row searchable" id="empDepartment">
-<div class="cell" data-label="Property">empDepartment</div>
-<div class="cell" data-label="Column">empDepartment_id</div>
-<div class="cell" data-label="Arabic"> إدارة موظف</div>
-<div class="cell" data-label="English"> Employee Department</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [EmployeeDepartment](/modules/basic/EmployeeDepartment.md) 
-</div>
-</div>
-
 <div class="row searchable" id="entitySystemEntryId">
 <div class="cell" data-label="Property">entitySystemEntryId</div>
 <div class="cell" data-label="Column">entitySystemEntry_id</div>
@@ -423,16 +411,13 @@
 
 </div>
 
-<div class="row searchable" id="jobPosition">
-<div class="cell" data-label="Property">jobPosition</div>
-<div class="cell" data-label="Column">jobPosition_id</div>
-<div class="cell" data-label="Arabic">الموقع الوظيفي</div>
-<div class="cell" data-label="English">Job Position</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
+<div class="row searchable" id="lastAccessTokenJSON">
+<div class="cell" data-label="Property">lastAccessTokenJSON</div>
+<div class="cell" data-label="Column">lastAccessTokenJSON</div>
+<div class="cell" data-label="Arabic">Last Access Token JSON</div>
+<div class="cell" data-label="English">Last Access Token JSON</div>
+<div class="cell" data-label="Type">BigText</div>
 
- [JobPosition](/modules/basic/JobPosition.md) 
-</div>
 </div>
 
 <div class="row searchable" id="lastChangeVersion">
@@ -549,6 +534,18 @@
 
 </div>
 
+<div class="row searchable" id="namaAPIKey">
+<div class="cell" data-label="Property">namaAPIKey</div>
+<div class="cell" data-label="Column">namaAPIKey_id</div>
+<div class="cell" data-label="Arabic">Nama API Key</div>
+<div class="cell" data-label="English">Nama API Key</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [APICredentials](/modules/basic/APICredentials.md) 
+</div>
+</div>
+
 <div class="row searchable" id="name1">
 <div class="cell" data-label="Property">name1</div>
 <div class="cell" data-label="Column">name1</div>
@@ -567,16 +564,22 @@
 
 </div>
 
-<div class="row searchable" id="nationality">
-<div class="cell" data-label="Property">nationality</div>
-<div class="cell" data-label="Column">nationality_id</div>
-<div class="cell" data-label="Arabic">الجنسية</div>
-<div class="cell" data-label="English">Nationality</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
+<div class="row searchable" id="omnifulReferenceFieldForOrders">
+<div class="cell" data-label="Property">omnifulReferenceFieldForOrders</div>
+<div class="cell" data-label="Column">omnifulReferenceFieldForOrders</div>
+<div class="cell" data-label="Arabic">حقل مرجع أومنيفل في الطلبات</div>
+<div class="cell" data-label="English">Omniful Reference Field For Orders</div>
+<div class="cell" data-label="Type">FieldID</div>
 
- [Nationality](/modules/basic/Nationality.md) 
 </div>
+
+<div class="row searchable" id="omnifulReferenceFieldForStockReceipt">
+<div class="cell" data-label="Property">omnifulReferenceFieldForStockReceipt</div>
+<div class="cell" data-label="Column">omnifulReferenceFieldForStockReceipt</div>
+<div class="cell" data-label="Arabic">حقل مرجع أومنيفل في التوريد المخزني</div>
+<div class="cell" data-label="English">Omniful Reference Field For Stock Receipt</div>
+<div class="cell" data-label="Type">FieldID</div>
+
 </div>
 
 <div class="row searchable" id="parentCode">
@@ -585,6 +588,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="password">
+<div class="cell" data-label="Property">password</div>
+<div class="cell" data-label="Column">password</div>
+<div class="cell" data-label="Arabic">كلمة المرور</div>
+<div class="cell" data-label="English">Password</div>
+<div class="cell" data-label="Type">Password</div>
 
 </div>
 
@@ -603,15 +615,6 @@
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
 <div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="reCommitVacations">
-<div class="cell" data-label="Property">reCommitVacations</div>
-<div class="cell" data-label="Column">reCommitVacations</div>
-<div class="cell" data-label="Arabic">إعادة حفظ سندات الأجازه التى تقع فى التواريخ المضافة او المحذوفة</div>
-<div class="cell" data-label="English">Recommit Vacation Documents That Fall Within The Added Or Deleted Dates</div>
-<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
@@ -660,12 +663,12 @@
 
 </div>
 
-<div class="row searchable" id="religion">
-<div class="cell" data-label="Property">religion</div>
-<div class="cell" data-label="Column">religion</div>
-<div class="cell" data-label="Arabic">الديانة</div>
-<div class="cell" data-label="English">Religion</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="row searchable" id="refreshToken">
+<div class="cell" data-label="Property">refreshToken</div>
+<div class="cell" data-label="Column">refreshToken</div>
+<div class="cell" data-label="Arabic">Refresh Token</div>
+<div class="cell" data-label="English">Refresh Token</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -729,11 +732,56 @@
 
 </div>
 
+<div class="row searchable" id="sellerCode">
+<div class="cell" data-label="Property">sellerCode</div>
+<div class="cell" data-label="Column">sellerCode</div>
+<div class="cell" data-label="Arabic">اسم البائع</div>
+<div class="cell" data-label="English">Seller Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="systemGeneratedCodePrefix">
 <div class="cell" data-label="Property">systemGeneratedCodePrefix</div>
 <div class="cell" data-label="Column">systemGeneratedCodePrefix</div>
 <div class="cell" data-label="Arabic">System Generated Code Prefix</div>
 <div class="cell" data-label="English">System Generated Code Prefix</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="tenantAPILastAccessTokenJSON">
+<div class="cell" data-label="Property">tenantAPILastAccessTokenJSON</div>
+<div class="cell" data-label="Column">tenantAPILastAccessTokenJSON</div>
+<div class="cell" data-label="Arabic">Tenant API Last Access Token JSON</div>
+<div class="cell" data-label="English">Tenant API Last Access Token JSON</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="tenantAPIPassword">
+<div class="cell" data-label="Property">tenantAPIPassword</div>
+<div class="cell" data-label="Column">tenantAPIPassword</div>
+<div class="cell" data-label="Arabic">كلمة المرور</div>
+<div class="cell" data-label="English">Tenant API Password</div>
+<div class="cell" data-label="Type">Password</div>
+
+</div>
+
+<div class="row searchable" id="tenantAPIRefreshToken">
+<div class="cell" data-label="Property">tenantAPIRefreshToken</div>
+<div class="cell" data-label="Column">tenantAPIRefreshToken</div>
+<div class="cell" data-label="Arabic">Tenant API Refresh Token</div>
+<div class="cell" data-label="English">Tenant API Refresh Token</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="tenantUserName">
+<div class="cell" data-label="Property">tenantUserName</div>
+<div class="cell" data-label="Column">tenantUserName</div>
+<div class="cell" data-label="Arabic">المستخدم</div>
+<div class="cell" data-label="English">Tenant API Username</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
@@ -780,6 +828,15 @@
 
 </div>
 
+<div class="row searchable" id="userName">
+<div class="cell" data-label="Property">userName</div>
+<div class="cell" data-label="Column">userName</div>
+<div class="cell" data-label="Arabic">اسم المستخدم</div>
+<div class="cell" data-label="English">User Name</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="viewCapability">
 <div class="cell" data-label="Property">viewCapability</div>
 <div class="cell" data-label="Column">viewCapability_id</div>
@@ -801,29 +858,26 @@
 
 </div>
 
-<div class="row searchable" id="workPlace">
-<div class="cell" data-label="Property">workPlace</div>
-<div class="cell" data-label="Column">workPlace_id</div>
-<div class="cell" data-label="Arabic">مكان العمل</div>
-<div class="cell" data-label="English">Work Place</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
+<div class="row searchable" id="webhookSecretKey">
+<div class="cell" data-label="Property">webhookSecretKey</div>
+<div class="cell" data-label="Column">webhookSecretKey</div>
+<div class="cell" data-label="Arabic">Webhook Secret Key</div>
+<div class="cell" data-label="English">Webhook Secret Key</div>
+<div class="cell" data-label="Type">Password</div>
 
- [EmpWorkPlace](/modules/basic/EmpWorkPlace.md) 
+</div>
+
+
 </div>
 </div>
 
+<div id='documentGenerationInfoLines' title='documentGenerationInfoLines' class='searchable'>
 
-</div>
-</div>
-
-<div id='details' title='details' class='searchable'>
-
-## details (التفاصيل - Details)
+## documentGenerationInfoLines (سطور إنشاء مستندات بناءا على تطابق من الأمر - Generate Document Based On Order Criteria Lines)
 
 <div class='tableName'>
 
-**Table Name:** HolidayLine, **Join Column:** hRHolidays_id
+**Table Name:** OmnifulConfigDocGenerationInfoLine, **Join Column:** omnifulConfig_id
 
 </div>
 
@@ -835,8 +889,29 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="details.id">
-<div class="cell" data-label="Property">details.id</div>
+</div><div class="row searchable" id="documentGenerationInfoLines.applyWhenQuery">
+<div class="cell" data-label="Property">documentGenerationInfoLines.applyWhenQuery</div>
+<div class="cell" data-label="Column">applyWhenQuery</div>
+<div class="cell" data-label="Arabic">تطبيق عند التوافق مع الاستعلام</div>
+<div class="cell" data-label="English">Apply When Query</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="documentGenerationInfoLines.book">
+<div class="cell" data-label="Property">documentGenerationInfoLines.book</div>
+<div class="cell" data-label="Column">book_id</div>
+<div class="cell" data-label="Arabic">الدفتر</div>
+<div class="cell" data-label="English">Book</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [DocumentBook](/modules/basic/DocumentBook.md) 
+</div>
+</div>
+
+<div class="row searchable" id="documentGenerationInfoLines.id">
+<div class="cell" data-label="Property">documentGenerationInfoLines.id</div>
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -844,8 +919,8 @@
 
 </div>
 
-<div class="row searchable" id="details.lineNumber">
-<div class="cell" data-label="Property">details.lineNumber</div>
+<div class="row searchable" id="documentGenerationInfoLines.lineNumber">
+<div class="cell" data-label="Property">documentGenerationInfoLines.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -853,40 +928,25 @@
 
 </div>
 
-<div class="row searchable" id="details.name1">
-<div class="cell" data-label="Property">details.name1</div>
-<div class="cell" data-label="Column">name1</div>
-<div class="cell" data-label="Arabic">إسم العطلة عربي</div>
-<div class="cell" data-label="English">Holiday arabic name</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="row searchable" id="documentGenerationInfoLines.omnifulEntityType">
+<div class="cell" data-label="Property">documentGenerationInfoLines.omnifulEntityType</div>
+<div class="cell" data-label="Column">omnifulEntityType</div>
+<div class="cell" data-label="Arabic">entityType</div>
+<div class="cell" data-label="English">entityType</div>
+<div class="cell" data-label="Type">Enum</div>
 
 </div>
 
-<div class="row searchable" id="details.name2">
-<div class="cell" data-label="Property">details.name2</div>
-<div class="cell" data-label="Column">name2</div>
-<div class="cell" data-label="Arabic">إسم العطلة إنجليزي</div>
-<div class="cell" data-label="English">Holiday english name</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="row searchable" id="documentGenerationInfoLines.term">
+<div class="cell" data-label="Property">documentGenerationInfoLines.term</div>
+<div class="cell" data-label="Column">term_id</div>
+<div class="cell" data-label="Arabic">توجيه المستند</div>
+<div class="cell" data-label="English">Term</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
 
+ [DocumentTerm](/modules/basic/DocumentTerm.md) 
 </div>
-
-<div class="row searchable" id="details.vacationDate">
-<div class="cell" data-label="Property">details.vacationDate</div>
-<div class="cell" data-label="Column">vacationDate</div>
-<div class="cell" data-label="Arabic">تاريخ بداية العطلة</div>
-<div class="cell" data-label="English">Vacation Start Date</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
-<div class="row searchable" id="details.vacationEndDate">
-<div class="cell" data-label="Property">details.vacationEndDate</div>
-<div class="cell" data-label="Column">vacationEndDate</div>
-<div class="cell" data-label="Arabic">تاريخ نهاية العطلة</div>
-<div class="cell" data-label="English">Vacation End Date</div>
-<div class="cell" data-label="Type">Date</div>
-
 </div>
 
 

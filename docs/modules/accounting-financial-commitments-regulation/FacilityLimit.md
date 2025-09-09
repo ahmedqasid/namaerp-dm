@@ -988,8 +988,8 @@
 <div class="row searchable" id="details.blcType">
 <div class="cell" data-label="Property">details.blcType</div>
 <div class="cell" data-label="Column">blcType_id</div>
-<div class="cell" data-label="Arabic">الاعتماد البنكى |النوع</div>
-<div class="cell" data-label="English">Bank Letter Of Credit |type</div>
+<div class="cell" data-label="Arabic">الاعتماد البنكى</div>
+<div class="cell" data-label="English">Bank Letter Of Credit</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -1237,6 +1237,24 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.facilityLimit">
+<div class="cell" data-label="Property">details.facilityLimit</div>
+<div class="cell" data-label="Column">facilityLimit</div>
+<div class="cell" data-label="Arabic">حد التسهيلات</div>
+<div class="cell" data-label="English">Facility Limit</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.facilityType">
+<div class="cell" data-label="Property">details.facilityType</div>
+<div class="cell" data-label="Column">facilityType</div>
+<div class="cell" data-label="Arabic">نوع التسهيلات</div>
+<div class="cell" data-label="English">Facility Type</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="details.financePeriodFromDate">
 <div class="cell" data-label="Property">details.financePeriodFromDate</div>
 <div class="cell" data-label="Column">financePeriodFromDate</div>
@@ -1267,8 +1285,8 @@
 <div class="row searchable" id="details.guaranteeType">
 <div class="cell" data-label="Property">details.guaranteeType</div>
 <div class="cell" data-label="Column">guaranteeType</div>
-<div class="cell" data-label="Arabic">خطاب الضمان|النوع</div>
-<div class="cell" data-label="English">Letter Of Guarantee| type</div>
+<div class="cell" data-label="Arabic">خطاب الضمان</div>
+<div class="cell" data-label="English">Letter Of Guarantee</div>
 <div class="cell" data-label="Type">Enum</div>
 
 </div>
@@ -1303,8 +1321,8 @@
 <div class="row searchable" id="details.loanType">
 <div class="cell" data-label="Property">details.loanType</div>
 <div class="cell" data-label="Column">loanType_id</div>
-<div class="cell" data-label="Arabic">قرض بنكى |النوع</div>
-<div class="cell" data-label="English">Bank Loan |type</div>
+<div class="cell" data-label="Arabic">قرض بنكى</div>
+<div class="cell" data-label="English">Bank Loan</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

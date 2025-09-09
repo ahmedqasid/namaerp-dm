@@ -7,5 +7,6 @@
   - [MAGMagentoSite](/modules/magento/MAGMagentoSite.md)
   - [MagentoItemLinker](/modules/magento/MagentoItemLinker.md)
   - [MagentoPriceUpdaterDoc](/modules/magento/MagentoPriceUpdaterDoc.md)
+  - [OmnifulConfig](/modules/magento/OmnifulConfig.md)
 
 </div>

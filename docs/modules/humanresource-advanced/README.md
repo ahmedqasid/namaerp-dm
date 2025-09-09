@@ -6,6 +6,7 @@
   - [DuesLiquidationComponent](/modules/humanresource-advanced/DuesLiquidationComponent.md)
   - [DuesLiquidationDoc](/modules/humanresource-advanced/DuesLiquidationDoc.md)
   - [EmployeeEvaluation](/modules/humanresource-advanced/EmployeeEvaluation.md)
+  - [EmployeeEvaluationReq](/modules/humanresource-advanced/EmployeeEvaluationReq.md)
   - [EmployeeProvisionsOpening](/modules/humanresource-advanced/EmployeeProvisionsOpening.md)
   - [EmployeeProvisionsRecalc](/modules/humanresource-advanced/EmployeeProvisionsRecalc.md)
   - [EmployeeRelocate](/modules/humanresource-advanced/EmployeeRelocate.md)

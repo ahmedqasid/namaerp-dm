@@ -23,6 +23,7 @@
   - [MnMaintenanceOrderStatus](/modules/crm-maintenance/MnMaintenanceOrderStatus.md)
   - [MnMaintenanceService](/modules/crm-maintenance/MnMaintenanceService.md)
   - [MnNotice](/modules/crm-maintenance/MnNotice.md)
+  - [MnNoticeCategory](/modules/crm-maintenance/MnNoticeCategory.md)
   - [MnOrder](/modules/crm-maintenance/MnOrder.md)
   - [MnOrderExecution](/modules/crm-maintenance/MnOrderExecution.md)
   - [MnPlan](/modules/crm-maintenance/MnPlan.md)

@@ -822,8 +822,8 @@
 <div class="row searchable" id="lastAccessTokenJSON">
 <div class="cell" data-label="Property">lastAccessTokenJSON</div>
 <div class="cell" data-label="Column">lastAccessTokenJSON</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">Last Access Token JSON</div>
+<div class="cell" data-label="English">Last Access Token JSON</div>
 <div class="cell" data-label="Type">BigText</div>
 
 </div>

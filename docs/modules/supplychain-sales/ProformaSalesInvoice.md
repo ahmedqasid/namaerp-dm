@@ -261,6 +261,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="authorizedByCustomer">
+<div class="cell" data-label="Property">authorizedByCustomer</div>
+<div class="cell" data-label="Column">authorizedByCustomer</div>
+<div class="cell" data-label="Arabic">معتمد من العميل</div>
+<div class="cell" data-label="English">Authorized By Customer</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="billingAddress.address1">
 <div class="cell" data-label="Property">billingAddress.address1</div>
 <div class="cell" data-label="Column">blAddress1</div>

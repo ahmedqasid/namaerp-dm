@@ -91,6 +91,7 @@
   - [MobileAppShortcut](/modules/basic/MobileAppShortcut.md)
   - [MobileAppTranslationOverride](/modules/basic/MobileAppTranslationOverride.md)
   - [MobileEntityTitleModifier](/modules/basic/MobileEntityTitleModifier.md)
+  - [MobileQRIntegrator](/modules/basic/MobileQRIntegrator.md)
   - [MultiValueReportParameter](/modules/basic/MultiValueReportParameter.md)
   - [Nationality](/modules/basic/Nationality.md)
   - [NotificationDefinition](/modules/basic/NotificationDefinition.md)

@@ -2,17 +2,17 @@
 <div class='tableName'>
 
 
-# HRHolidays
+# KitchenNetConfiguration
 </div>
 
-**Arabic:** عطلة رسمية - عطلات رسمية
-**English:** HR Holidays
+**Arabic:** إعدادات تطبيق Kitchen Net
+**English:** Kitchen Net Configurations
 
 <ContentFilter/>
 
 
 <div class='searchable'>
-<a href='#details'>details (HolidayLine) </a>
+<a href='#appliances'>appliances (KitchenNetAppliance) </a> , <a href='#kitchenBeforeAndAfterList'>kitchenBeforeAndAfterList (KitchenNetBeforeAndAfter) </a> , <a href='#kitchenCategories'>kitchenCategories (KitchenNetCategory) </a> , <a href='#kitchenNetFAQS'>kitchenNetFAQS (KitchenNetFAQ) </a> , <a href='#kitchenOffers'>kitchenOffers (KitchenNetOffer) </a> , <a href='#refundPolicyRules'>refundPolicyRules (KitchenNetRefundPolicyLine) </a> , <a href='#trendingKitchens'>trendingKitchens (KitchenNetTrendingKitchen) </a>
 </div>
 
 <div class='searchable'>
@@ -27,7 +27,37 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="analysisSet">
+</div><div class="row searchable" id="aboutCompanyArticle">
+<div class="cell" data-label="Property">aboutCompanyArticle</div>
+<div class="cell" data-label="Column">aboutCompanyArticle</div>
+<div class="cell" data-label="Arabic">مقال عن الشركة</div>
+<div class="cell" data-label="English">About Company Article</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="aboutCompanyCDNURl">
+<div class="cell" data-label="Property">aboutCompanyCDNURl</div>
+<div class="cell" data-label="Column">aboutCompanyCDNURl</div>
+<div class="cell" data-label="Arabic">About Company CDN URL Video</div>
+<div class="cell" data-label="English">About Company CDN URL Video</div>
+<div class="cell" data-label="Type">Link</div>
+
+</div>
+
+<div class="row searchable" id="aboutCompanyVideo">
+<div class="cell" data-label="Property">aboutCompanyVideo</div>
+<div class="cell" data-label="Column">aboutCompanyVideo_id</div>
+<div class="cell" data-label="Arabic">فيديو عن شركة المطابخ</div>
+<div class="cell" data-label="English">About Kitchen Company Video</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="analysisSet">
 <div class="cell" data-label="Property">analysisSet</div>
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic">المجموعة التحليلية</div>
@@ -306,18 +336,6 @@
 </div>
 </div>
 
-<div class="row searchable" id="empDepartment">
-<div class="cell" data-label="Property">empDepartment</div>
-<div class="cell" data-label="Column">empDepartment_id</div>
-<div class="cell" data-label="Arabic"> إدارة موظف</div>
-<div class="cell" data-label="English"> Employee Department</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [EmployeeDepartment](/modules/basic/EmployeeDepartment.md) 
-</div>
-</div>
-
 <div class="row searchable" id="entitySystemEntryId">
 <div class="cell" data-label="Property">entitySystemEntryId</div>
 <div class="cell" data-label="Column">entitySystemEntry_id</div>
@@ -423,16 +441,31 @@
 
 </div>
 
-<div class="row searchable" id="jobPosition">
-<div class="cell" data-label="Property">jobPosition</div>
-<div class="cell" data-label="Column">jobPosition_id</div>
-<div class="cell" data-label="Arabic">الموقع الوظيفي</div>
-<div class="cell" data-label="English">Job Position</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
+<div class="row searchable" id="kitchenNetFacebookURL">
+<div class="cell" data-label="Property">kitchenNetFacebookURL</div>
+<div class="cell" data-label="Column">kitchenNetFacebookURL</div>
+<div class="cell" data-label="Arabic">رابط الفيسبوك</div>
+<div class="cell" data-label="English">Facebook URL</div>
+<div class="cell" data-label="Type">Link</div>
 
- [JobPosition](/modules/basic/JobPosition.md) 
 </div>
+
+<div class="row searchable" id="kitchenNetInstagramURL">
+<div class="cell" data-label="Property">kitchenNetInstagramURL</div>
+<div class="cell" data-label="Column">kitchenNetInstagramURL</div>
+<div class="cell" data-label="Arabic">رابط الإنستغرام</div>
+<div class="cell" data-label="English">Instagram URL</div>
+<div class="cell" data-label="Type">Link</div>
+
+</div>
+
+<div class="row searchable" id="kitchenNetTikTokURL">
+<div class="cell" data-label="Property">kitchenNetTikTokURL</div>
+<div class="cell" data-label="Column">kitchenNetTikTokURL</div>
+<div class="cell" data-label="Arabic">رابط التيك توك</div>
+<div class="cell" data-label="English">TikTok URL</div>
+<div class="cell" data-label="Type">Link</div>
+
 </div>
 
 <div class="row searchable" id="lastChangeVersion">
@@ -567,15 +600,15 @@
 
 </div>
 
-<div class="row searchable" id="nationality">
-<div class="cell" data-label="Property">nationality</div>
-<div class="cell" data-label="Column">nationality_id</div>
-<div class="cell" data-label="Arabic">الجنسية</div>
-<div class="cell" data-label="English">Nationality</div>
+<div class="row searchable" id="otpNotification">
+<div class="cell" data-label="Property">otpNotification</div>
+<div class="cell" data-label="Column">otpNotification_id</div>
+<div class="cell" data-label="Arabic">تنبية كود التحقق</div>
+<div class="cell" data-label="English">OTP Notification</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [Nationality](/modules/basic/Nationality.md) 
+ [NotificationDefinition](/modules/basic/NotificationDefinition.md) 
 </div>
 </div>
 
@@ -603,15 +636,6 @@
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
 <div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="reCommitVacations">
-<div class="cell" data-label="Property">reCommitVacations</div>
-<div class="cell" data-label="Column">reCommitVacations</div>
-<div class="cell" data-label="Arabic">إعادة حفظ سندات الأجازه التى تقع فى التواريخ المضافة او المحذوفة</div>
-<div class="cell" data-label="English">Recommit Vacation Documents That Fall Within The Added Or Deleted Dates</div>
-<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
@@ -657,15 +681,6 @@
 <div class="cell" data-label="Arabic">مرجع 5</div>
 <div class="cell" data-label="English">Reference 5</div>
 <div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
-<div class="row searchable" id="religion">
-<div class="cell" data-label="Property">religion</div>
-<div class="cell" data-label="Column">religion</div>
-<div class="cell" data-label="Arabic">الديانة</div>
-<div class="cell" data-label="English">Religion</div>
-<div class="cell" data-label="Type">Enum</div>
 
 </div>
 
@@ -726,6 +741,27 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="splashVideo">
+<div class="cell" data-label="Property">splashVideo</div>
+<div class="cell" data-label="Column">splashVideo_id</div>
+<div class="cell" data-label="Arabic">فيديو شاشة البداية لتطبيق المطابخ</div>
+<div class="cell" data-label="English">Kitchen App Splash Screen Video URL</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="splashVideoCDNURL">
+<div class="cell" data-label="Property">splashVideoCDNURL</div>
+<div class="cell" data-label="Column">splashVideoCDNURL</div>
+<div class="cell" data-label="Arabic">Splash Video CDN URL</div>
+<div class="cell" data-label="English">Splash Video CDN URL</div>
+<div class="cell" data-label="Type">Link</div>
 
 </div>
 
@@ -801,29 +837,17 @@
 
 </div>
 
-<div class="row searchable" id="workPlace">
-<div class="cell" data-label="Property">workPlace</div>
-<div class="cell" data-label="Column">workPlace_id</div>
-<div class="cell" data-label="Arabic">مكان العمل</div>
-<div class="cell" data-label="English">Work Place</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [EmpWorkPlace](/modules/basic/EmpWorkPlace.md) 
-</div>
-</div>
-
 
 </div>
 </div>
 
-<div id='details' title='details' class='searchable'>
+<div id='appliances' title='appliances' class='searchable'>
 
-## details (التفاصيل - Details)
+## appliances (الأجهزة - Appliances)
 
 <div class='tableName'>
 
-**Table Name:** HolidayLine, **Join Column:** hRHolidays_id
+**Table Name:** KitchenNetAppliance, **Join Column:** kitchenNetConfiguration_id
 
 </div>
 
@@ -835,8 +859,8 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="details.id">
-<div class="cell" data-label="Property">details.id</div>
+</div><div class="row searchable" id="appliances.id">
+<div class="cell" data-label="Property">appliances.id</div>
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -844,8 +868,20 @@
 
 </div>
 
-<div class="row searchable" id="details.lineNumber">
-<div class="cell" data-label="Property">details.lineNumber</div>
+<div class="row searchable" id="appliances.item">
+<div class="cell" data-label="Property">appliances.item</div>
+<div class="cell" data-label="Column">item_id</div>
+<div class="cell" data-label="Arabic">الصنف</div>
+<div class="cell" data-label="English">Item</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InvItem](/modules/supplychain/InvItem.md) 
+</div>
+</div>
+
+<div class="row searchable" id="appliances.lineNumber">
+<div class="cell" data-label="Property">appliances.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -853,39 +889,507 @@
 
 </div>
 
-<div class="row searchable" id="details.name1">
-<div class="cell" data-label="Property">details.name1</div>
-<div class="cell" data-label="Column">name1</div>
-<div class="cell" data-label="Arabic">إسم العطلة عربي</div>
-<div class="cell" data-label="English">Holiday arabic name</div>
+
+</div>
+</div>
+
+<div id='kitchenBeforeAndAfterList' title='kitchenBeforeAndAfterList' class='searchable'>
+
+## kitchenBeforeAndAfterList (قبل وبعد المطبخ - Kitchen Before and After)
+
+<div class='tableName'>
+
+**Table Name:** KitchenNetBeforeAndAfter, **Join Column:** kitchenNetConfiguration_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="kitchenBeforeAndAfterList.afterImage">
+<div class="cell" data-label="Property">kitchenBeforeAndAfterList.afterImage</div>
+<div class="cell" data-label="Column">afterImage_id</div>
+<div class="cell" data-label="Arabic">صورة بعد</div>
+<div class="cell" data-label="English">After Image</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="kitchenBeforeAndAfterList.afterImageUrl">
+<div class="cell" data-label="Property">kitchenBeforeAndAfterList.afterImageUrl</div>
+<div class="cell" data-label="Column">afterImageUrl</div>
+<div class="cell" data-label="Arabic">لينك صورة بعد</div>
+<div class="cell" data-label="English">After Image Url</div>
+<div class="cell" data-label="Type">Link</div>
+
+</div>
+
+<div class="row searchable" id="kitchenBeforeAndAfterList.beforeImage">
+<div class="cell" data-label="Property">kitchenBeforeAndAfterList.beforeImage</div>
+<div class="cell" data-label="Column">beforeImage_id</div>
+<div class="cell" data-label="Arabic">صورة قبل</div>
+<div class="cell" data-label="English">Before Image</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="kitchenBeforeAndAfterList.beforeImageUrl">
+<div class="cell" data-label="Property">kitchenBeforeAndAfterList.beforeImageUrl</div>
+<div class="cell" data-label="Column">beforeImageUrl</div>
+<div class="cell" data-label="Arabic">لينك صورة قبل</div>
+<div class="cell" data-label="English">Before Image Url</div>
+<div class="cell" data-label="Type">Link</div>
+
+</div>
+
+<div class="row searchable" id="kitchenBeforeAndAfterList.id">
+<div class="cell" data-label="Property">kitchenBeforeAndAfterList.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="kitchenBeforeAndAfterList.lineNumber">
+<div class="cell" data-label="Property">kitchenBeforeAndAfterList.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='kitchenCategories' title='kitchenCategories' class='searchable'>
+
+## kitchenCategories (فئات تطبيق المطابخ - Kitchen App Categories)
+
+<div class='tableName'>
+
+**Table Name:** KitchenNetCategory, **Join Column:** kitchenNetConfiguration_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="kitchenCategories.arTitle">
+<div class="cell" data-label="Property">kitchenCategories.arTitle</div>
+<div class="cell" data-label="Column">arTitle</div>
+<div class="cell" data-label="Arabic">العنوان العربى</div>
+<div class="cell" data-label="English">Arabic Title</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
 
-<div class="row searchable" id="details.name2">
-<div class="cell" data-label="Property">details.name2</div>
-<div class="cell" data-label="Column">name2</div>
-<div class="cell" data-label="Arabic">إسم العطلة إنجليزي</div>
-<div class="cell" data-label="English">Holiday english name</div>
+<div class="row searchable" id="kitchenCategories.enTitle">
+<div class="cell" data-label="Property">kitchenCategories.enTitle</div>
+<div class="cell" data-label="Column">enTitle</div>
+<div class="cell" data-label="Arabic">العنوان الإنجليزي</div>
+<div class="cell" data-label="English">English Title</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
 
-<div class="row searchable" id="details.vacationDate">
-<div class="cell" data-label="Property">details.vacationDate</div>
-<div class="cell" data-label="Column">vacationDate</div>
-<div class="cell" data-label="Arabic">تاريخ بداية العطلة</div>
-<div class="cell" data-label="English">Vacation Start Date</div>
+<div class="row searchable" id="kitchenCategories.id">
+<div class="cell" data-label="Property">kitchenCategories.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="kitchenCategories.imageItemSection">
+<div class="cell" data-label="Property">kitchenCategories.imageItemSection</div>
+<div class="cell" data-label="Column">imageItemSection_id</div>
+<div class="cell" data-label="Arabic">صورة قسم الصنف</div>
+<div class="cell" data-label="English">Image Item Section</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="kitchenCategories.imageUrl">
+<div class="cell" data-label="Property">kitchenCategories.imageUrl</div>
+<div class="cell" data-label="Column">imageUrl</div>
+<div class="cell" data-label="Arabic">لينك صورة قسم الصنف</div>
+<div class="cell" data-label="English">Image Url</div>
+<div class="cell" data-label="Type">Link</div>
+
+</div>
+
+<div class="row searchable" id="kitchenCategories.itemSection">
+<div class="cell" data-label="Property">kitchenCategories.itemSection</div>
+<div class="cell" data-label="Column">itemSection_id</div>
+<div class="cell" data-label="Arabic">قسم الصنف</div>
+<div class="cell" data-label="English"> Item Section</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemSection](/modules/supplychain/ItemSection.md) 
+</div>
+</div>
+
+<div class="row searchable" id="kitchenCategories.lineNumber">
+<div class="cell" data-label="Property">kitchenCategories.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='kitchenNetFAQS' title='kitchenNetFAQS' class='searchable'>
+
+## kitchenNetFAQS (الأسئلة الشائعة لتطبيق المطابخ - Kitchen Net FAQs)
+
+<div class='tableName'>
+
+**Table Name:** KitchenNetFAQ, **Join Column:** kitchenNetConfiguration_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="kitchenNetFAQS.content">
+<div class="cell" data-label="Property">kitchenNetFAQS.content</div>
+<div class="cell" data-label="Column">content</div>
+<div class="cell" data-label="Arabic">المحتوى</div>
+<div class="cell" data-label="English">Content</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="kitchenNetFAQS.id">
+<div class="cell" data-label="Property">kitchenNetFAQS.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="kitchenNetFAQS.lineNumber">
+<div class="cell" data-label="Property">kitchenNetFAQS.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="kitchenNetFAQS.title">
+<div class="cell" data-label="Property">kitchenNetFAQS.title</div>
+<div class="cell" data-label="Column">title</div>
+<div class="cell" data-label="Arabic">العنوان</div>
+<div class="cell" data-label="English">Title</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='kitchenOffers' title='kitchenOffers' class='searchable'>
+
+## kitchenOffers (عروض تطبيق المطابخ - Kitchen Offers)
+
+<div class='tableName'>
+
+**Table Name:** KitchenNetOffer, **Join Column:** kitchenNetConfiguration_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="kitchenOffers.arDescription">
+<div class="cell" data-label="Property">kitchenOffers.arDescription</div>
+<div class="cell" data-label="Column">arDescription</div>
+<div class="cell" data-label="Arabic">تفاصيل عربي</div>
+<div class="cell" data-label="English">Arabic Description</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="kitchenOffers.enDescription">
+<div class="cell" data-label="Property">kitchenOffers.enDescription</div>
+<div class="cell" data-label="Column">enDescription</div>
+<div class="cell" data-label="Arabic">تفاصيل انجليزى</div>
+<div class="cell" data-label="English">English Description</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="kitchenOffers.fromDate">
+<div class="cell" data-label="Property">kitchenOffers.fromDate</div>
+<div class="cell" data-label="Column">fromDate</div>
+<div class="cell" data-label="Arabic">من تاريخ</div>
+<div class="cell" data-label="English">From Date</div>
 <div class="cell" data-label="Type">Date</div>
 
 </div>
 
-<div class="row searchable" id="details.vacationEndDate">
-<div class="cell" data-label="Property">details.vacationEndDate</div>
-<div class="cell" data-label="Column">vacationEndDate</div>
-<div class="cell" data-label="Arabic">تاريخ نهاية العطلة</div>
-<div class="cell" data-label="English">Vacation End Date</div>
+<div class="row searchable" id="kitchenOffers.id">
+<div class="cell" data-label="Property">kitchenOffers.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="kitchenOffers.lineNumber">
+<div class="cell" data-label="Property">kitchenOffers.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="kitchenOffers.offerImage">
+<div class="cell" data-label="Property">kitchenOffers.offerImage</div>
+<div class="cell" data-label="Column">offerImage_id</div>
+<div class="cell" data-label="Arabic">صورة العرض</div>
+<div class="cell" data-label="English">Offer Image</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="kitchenOffers.offerImageUrl">
+<div class="cell" data-label="Property">kitchenOffers.offerImageUrl</div>
+<div class="cell" data-label="Column">offerImageUrl</div>
+<div class="cell" data-label="Arabic">لينك صورة العرض</div>
+<div class="cell" data-label="English">Offer Image Url</div>
+<div class="cell" data-label="Type">Link</div>
+
+</div>
+
+<div class="row searchable" id="kitchenOffers.toDate">
+<div class="cell" data-label="Property">kitchenOffers.toDate</div>
+<div class="cell" data-label="Column">toDate</div>
+<div class="cell" data-label="Arabic">إلى تاريخ</div>
+<div class="cell" data-label="English">To Date</div>
 <div class="cell" data-label="Type">Date</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='refundPolicyRules' title='refundPolicyRules' class='searchable'>
+
+## refundPolicyRules (قواعد سياسة الاسترجاع - Refund Policy Rules)
+
+<div class='tableName'>
+
+**Table Name:** KitchenNetRefundPolicyLine, **Join Column:** kitchenNetConfiguration_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="refundPolicyRules.arContent">
+<div class="cell" data-label="Property">refundPolicyRules.arContent</div>
+<div class="cell" data-label="Column">arContent</div>
+<div class="cell" data-label="Arabic">المحتوي العربي</div>
+<div class="cell" data-label="English">Arabic Content</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="refundPolicyRules.enContent">
+<div class="cell" data-label="Property">refundPolicyRules.enContent</div>
+<div class="cell" data-label="Column">enContent</div>
+<div class="cell" data-label="Arabic">المحتوي الإنجليزي</div>
+<div class="cell" data-label="English">English Content</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="refundPolicyRules.id">
+<div class="cell" data-label="Property">refundPolicyRules.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="refundPolicyRules.lineNumber">
+<div class="cell" data-label="Property">refundPolicyRules.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='trendingKitchens' title='trendingKitchens' class='searchable'>
+
+## trendingKitchens (المطابخ الرائجة - Trending Kitchens)
+
+<div class='tableName'>
+
+**Table Name:** KitchenNetTrendingKitchen, **Join Column:** kitchenNetConfiguration_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="trendingKitchens.arTrendingKitchenName">
+<div class="cell" data-label="Property">trendingKitchens.arTrendingKitchenName</div>
+<div class="cell" data-label="Column">arTrendingKitchenName</div>
+<div class="cell" data-label="Arabic">اسم المطبخ عربي</div>
+<div class="cell" data-label="English">Arabic Trending Kitchen Name</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="trendingKitchens.enTrendingKitchenName">
+<div class="cell" data-label="Property">trendingKitchens.enTrendingKitchenName</div>
+<div class="cell" data-label="Column">enTrendingKitchenName</div>
+<div class="cell" data-label="Arabic">اسم المطبخ انجليزي</div>
+<div class="cell" data-label="English">English Trending Kitchen Name</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="trendingKitchens.id">
+<div class="cell" data-label="Property">trendingKitchens.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="trendingKitchens.image1">
+<div class="cell" data-label="Property">trendingKitchens.image1</div>
+<div class="cell" data-label="Column">image1_id</div>
+<div class="cell" data-label="Arabic">الصورة 1</div>
+<div class="cell" data-label="English">Image 1</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="trendingKitchens.image2">
+<div class="cell" data-label="Property">trendingKitchens.image2</div>
+<div class="cell" data-label="Column">image2_id</div>
+<div class="cell" data-label="Arabic">الصورة 2</div>
+<div class="cell" data-label="English">Image 2</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="trendingKitchens.image3">
+<div class="cell" data-label="Property">trendingKitchens.image3</div>
+<div class="cell" data-label="Column">image3_id</div>
+<div class="cell" data-label="Arabic">الصورة 3</div>
+<div class="cell" data-label="English">Image 3</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="trendingKitchens.image4">
+<div class="cell" data-label="Property">trendingKitchens.image4</div>
+<div class="cell" data-label="Column">image4_id</div>
+<div class="cell" data-label="Arabic">الصورة 4</div>
+<div class="cell" data-label="English">Image 4</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="trendingKitchens.image5">
+<div class="cell" data-label="Property">trendingKitchens.image5</div>
+<div class="cell" data-label="Column">image5_id</div>
+<div class="cell" data-label="Arabic">الصورة 5</div>
+<div class="cell" data-label="English">Image 5</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="trendingKitchens.lineNumber">
+<div class="cell" data-label="Property">trendingKitchens.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
 
 </div>
 

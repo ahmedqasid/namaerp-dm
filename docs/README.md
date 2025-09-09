@@ -42,6 +42,7 @@ heroImage: hero.svg
     - [Contracting](/modules/contracting/)
     - [Contracting QC](/modules/contracting-qc/)
     - [CRM](/modules/crm/)
+    - [crm-kitchen-net](/modules/crm-kitchen-net/)
     - [CRM - Maintenance](/modules/crm-maintenance/)
     - [CRM - Maintenance Services](/modules/crm-maintenance-services/)
     - [Time Managenet](/modules/ecpa/)

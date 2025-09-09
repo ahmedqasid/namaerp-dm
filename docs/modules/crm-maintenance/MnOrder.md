@@ -945,6 +945,15 @@
 
 </div>
 
+<div class="row searchable" id="ledgerTransReqId">
+<div class="cell" data-label="Property">ledgerTransReqId</div>
+<div class="cell" data-label="Column">ledgerTransReqId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
 <div class="row searchable" id="legalEntity">
 <div class="cell" data-label="Property">legalEntity</div>
 <div class="cell" data-label="Column">legalEntity_id</div>
@@ -3255,6 +3264,15 @@
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
 <div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="subsidiary">
+<div class="cell" data-label="Property">subsidiary</div>
+<div class="cell gen-ref-column" data-label="Column">subsidiaryActualCode,  subsidiaryCode,  subsidiaryEntityType,  subsidiaryId</div>
+<div class="cell" data-label="Arabic">الذمة</div>
+<div class="cell" data-label="English">Subsidiary</div>
+<div class="cell" data-label="Type">Genericreference</div>
 
 </div>
 

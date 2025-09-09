@@ -17,6 +17,7 @@
   - [ProductionOrder](/modules/manufacturing/ProductionOrder.md)
   - [ProductionOrderRequest](/modules/manufacturing/ProductionOrderRequest.md)
   - [ProductionSampleDoc](/modules/manufacturing/ProductionSampleDoc.md)
+  - [RawMaterialChangeDoc](/modules/manufacturing/RawMaterialChangeDoc.md)
   - [RawMaterialIssue](/modules/manufacturing/RawMaterialIssue.md)
   - [RawMaterialIssueReq](/modules/manufacturing/RawMaterialIssueReq.md)
   - [RawMaterialReturn](/modules/manufacturing/RawMaterialReturn.md)

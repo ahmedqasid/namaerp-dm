@@ -988,8 +988,8 @@
 <div class="row searchable" id="details.guaranteeType">
 <div class="cell" data-label="Property">details.guaranteeType</div>
 <div class="cell" data-label="Column">guaranteeType</div>
-<div class="cell" data-label="Arabic">خطاب الضمان|النوع</div>
-<div class="cell" data-label="English">Letter Of Guarantee| type</div>
+<div class="cell" data-label="Arabic">خطاب الضمان</div>
+<div class="cell" data-label="English">Letter Of Guarantee</div>
 <div class="cell" data-label="Type">Enum</div>
 
 </div>

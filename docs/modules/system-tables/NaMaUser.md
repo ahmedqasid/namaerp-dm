@@ -1052,6 +1052,15 @@
 
 </div>
 
+<div class="row searchable" id="settings.excludeFrom2FA">
+<div class="cell" data-label="Property">settings.excludeFrom2FA</div>
+<div class="cell" data-label="Column">excludeFrom2FA</div>
+<div class="cell" data-label="Arabic">استثناء من المصادقة الثنائية</div>
+<div class="cell" data-label="English">Exclude From Two-Factor Authentication</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="settings.fcmDeviceTokens">
 <div class="cell" data-label="Property">settings.fcmDeviceTokens</div>
 <div class="cell" data-label="Column">fcmDeviceTokens</div>

@@ -2,17 +2,17 @@
 <div class='tableName'>
 
 
-# CourseEvaluation
+# EmployeeEvaluationReq
 </div>
 
-**Arabic:** تقييم دورة تدريبية
-**English:** Course Evaluation - Courses Evaluation
+**Arabic:** طلب تقييم موظف
+**English:** Employee Evaluation Request
 
 <ContentFilter/>
 
 
 <div class='searchable'>
-<a href='#details'>details (CourseEvaluationLine) </a>
+<a href='#details'>details (EmployeeEvaluationReqLine) </a> , <a href='#recommendations'>recommendations (EvaluationReqRecommendationLine) </a>
 </div>
 
 <div class='searchable'>
@@ -46,6 +46,66 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
+</div>
+
+<div class="row searchable" id="attachment1">
+<div class="cell" data-label="Property">attachment1</div>
+<div class="cell" data-label="Column">attachment1_id</div>
+<div class="cell" data-label="Arabic">مرفق 1</div>
+<div class="cell" data-label="English">Attachment 1</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="attachment2">
+<div class="cell" data-label="Property">attachment2</div>
+<div class="cell" data-label="Column">attachment2_id</div>
+<div class="cell" data-label="Arabic">مرفق 2</div>
+<div class="cell" data-label="English">Attachment 2</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="attachment3">
+<div class="cell" data-label="Property">attachment3</div>
+<div class="cell" data-label="Column">attachment3_id</div>
+<div class="cell" data-label="Arabic">مرفق 3</div>
+<div class="cell" data-label="English">Attachment 3</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="attachment4">
+<div class="cell" data-label="Property">attachment4</div>
+<div class="cell" data-label="Column">attachment4_id</div>
+<div class="cell" data-label="Arabic">مرفق 4</div>
+<div class="cell" data-label="English">Attachment 4</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="attachment5">
+<div class="cell" data-label="Property">attachment5</div>
+<div class="cell" data-label="Column">attachment5_id</div>
+<div class="cell" data-label="Arabic">مرفق 5</div>
+<div class="cell" data-label="English">Attachment 5</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
 </div>
 
 <div class="row searchable" id="book">
@@ -118,18 +178,6 @@
 <div class="cell" data-label="English">Commited Before</div>
 <div class="cell" data-label="Type">Boolean</div>
 
-</div>
-
-<div class="row searchable" id="course">
-<div class="cell" data-label="Property">course</div>
-<div class="cell" data-label="Column">course_id</div>
-<div class="cell" data-label="Arabic">الدورة التدريبية</div>
-<div class="cell" data-label="English">Course</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [TrainingCourse](/modules/humanresource-training/TrainingCourse.md) 
-</div>
 </div>
 
 <div class="row searchable" id="createTransactionId">
@@ -255,6 +303,15 @@
 
 </div>
 
+<div class="row searchable" id="description10">
+<div class="cell" data-label="Property">description10</div>
+<div class="cell" data-label="Column">description10</div>
+<div class="cell" data-label="Arabic">الوصف 10</div>
+<div class="cell" data-label="English">description 10</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="description2">
 <div class="cell" data-label="Property">description2</div>
 <div class="cell" data-label="Column">description2</div>
@@ -287,6 +344,42 @@
 <div class="cell" data-label="Column">description5</div>
 <div class="cell" data-label="Arabic">الوصف 5</div>
 <div class="cell" data-label="English">description5</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="description6">
+<div class="cell" data-label="Property">description6</div>
+<div class="cell" data-label="Column">description6</div>
+<div class="cell" data-label="Arabic">الوصف 6</div>
+<div class="cell" data-label="English">description 6</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="description7">
+<div class="cell" data-label="Property">description7</div>
+<div class="cell" data-label="Column">description7</div>
+<div class="cell" data-label="Arabic">الوصف 7</div>
+<div class="cell" data-label="English">description 7</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="description8">
+<div class="cell" data-label="Property">description8</div>
+<div class="cell" data-label="Column">description8</div>
+<div class="cell" data-label="Arabic">الوصف 8</div>
+<div class="cell" data-label="English">description 8</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="description9">
+<div class="cell" data-label="Property">description9</div>
+<div class="cell" data-label="Column">description9</div>
+<div class="cell" data-label="Arabic">الوصف 9</div>
+<div class="cell" data-label="English">description 9</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
@@ -363,6 +456,30 @@
 </div>
 </div>
 
+<div class="row searchable" id="employee">
+<div class="cell" data-label="Property">employee</div>
+<div class="cell" data-label="Column">employee_id</div>
+<div class="cell" data-label="Arabic">الموظف</div>
+<div class="cell" data-label="English">Employee</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Employee](/modules/basic/Employee.md) 
+</div>
+</div>
+
+<div class="row searchable" id="employeeDepartment">
+<div class="cell" data-label="Property">employeeDepartment</div>
+<div class="cell" data-label="Column">employeeDepartment_id</div>
+<div class="cell" data-label="Arabic"> إدارة موظف</div>
+<div class="cell" data-label="English"> Employee Department</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [EmployeeDepartment](/modules/basic/EmployeeDepartment.md) 
+</div>
+</div>
+
 <div class="row searchable" id="entitySystemEntryId">
 <div class="cell" data-label="Property">entitySystemEntryId</div>
 <div class="cell" data-label="Column">entitySystemEntry_id</div>
@@ -387,6 +504,15 @@
 <div class="cell" data-label="Arabic">نوع التقييم</div>
 <div class="cell" data-label="English">Evaluation Type</div>
 <div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="evaluator">
+<div class="cell" data-label="Property">evaluator</div>
+<div class="cell gen-ref-column" data-label="Column">evaluatorActualCode,  evaluatorCode,  evaluatorEntityType,  evaluatorId</div>
+<div class="cell" data-label="Arabic">المقيم</div>
+<div class="cell" data-label="English">Evaluator</div>
+<div class="cell" data-label="Type">Genericreference</div>
 
 </div>
 
@@ -498,6 +624,42 @@
 
 </div>
 
+<div class="row searchable" id="hrCalendar">
+<div class="cell" data-label="Property">hrCalendar</div>
+<div class="cell" data-label="Column">hrCalendar_id</div>
+<div class="cell" data-label="Arabic">تقويم الرواتب</div>
+<div class="cell" data-label="English">HR Calendar</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [HRCalendar](/modules/humanresource-payroll/HRCalendar.md) 
+</div>
+</div>
+
+<div class="row searchable" id="hrPeriod">
+<div class="cell" data-label="Property">hrPeriod</div>
+<div class="cell" data-label="Column">hrPeriod_id</div>
+<div class="cell" data-label="Arabic">فترة الرواتب</div>
+<div class="cell" data-label="English">HR Period</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [HRPeriod](/modules/humanresource-payroll/HRPeriod.md) 
+</div>
+</div>
+
+<div class="row searchable" id="hrYear">
+<div class="cell" data-label="Property">hrYear</div>
+<div class="cell" data-label="Column">hrYear_id</div>
+<div class="cell" data-label="Arabic">سنة الرواتب</div>
+<div class="cell" data-label="English">HR Year</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [HRYear](/modules/humanresource-payroll/HRYear.md) 
+</div>
+</div>
+
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
@@ -600,6 +762,15 @@
 
 </div>
 
+<div class="row searchable" id="n10">
+<div class="cell" data-label="Property">n10</div>
+<div class="cell" data-label="Column">n10</div>
+<div class="cell" data-label="Arabic">رقم 10</div>
+<div class="cell" data-label="English">Number 10</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="n2">
 <div class="cell" data-label="Property">n2</div>
 <div class="cell" data-label="Column">n2</div>
@@ -636,6 +807,42 @@
 
 </div>
 
+<div class="row searchable" id="n6">
+<div class="cell" data-label="Property">n6</div>
+<div class="cell" data-label="Column">n6</div>
+<div class="cell" data-label="Arabic">رقم 6</div>
+<div class="cell" data-label="English">Number 6</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="n7">
+<div class="cell" data-label="Property">n7</div>
+<div class="cell" data-label="Column">n7</div>
+<div class="cell" data-label="Arabic">رقم 7</div>
+<div class="cell" data-label="English">Number 7</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="n8">
+<div class="cell" data-label="Property">n8</div>
+<div class="cell" data-label="Column">n8</div>
+<div class="cell" data-label="Arabic">رقم 8</div>
+<div class="cell" data-label="English">Number 8</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="n9">
+<div class="cell" data-label="Property">n9</div>
+<div class="cell" data-label="Column">n9</div>
+<div class="cell" data-label="Arabic">رقم 9</div>
+<div class="cell" data-label="English">Number 9</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="openShift">
 <div class="cell" data-label="Property">openShift</div>
 <div class="cell" data-label="Column">openShift_id</div>
@@ -655,18 +862,6 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Text</div>
 
-</div>
-
-<div class="row searchable" id="plan">
-<div class="cell" data-label="Property">plan</div>
-<div class="cell" data-label="Column">plan_id</div>
-<div class="cell" data-label="Arabic">خطة التدريب</div>
-<div class="cell" data-label="English">Training Plan</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [TrainingPlan](/modules/humanresource-training/TrainingPlan.md) 
-</div>
 </div>
 
 <div class="row searchable" id="preventUsage">
@@ -855,24 +1050,21 @@
 
 </div>
 
-<div class="row searchable" id="trainee">
-<div class="cell" data-label="Property">trainee</div>
-<div class="cell" data-label="Column">trainee_id</div>
-<div class="cell" data-label="Arabic">المتدرب</div>
-<div class="cell" data-label="English">Trainee</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
+<div class="row searchable" id="totalPoints">
+<div class="cell" data-label="Property">totalPoints</div>
+<div class="cell" data-label="Column">totalPoints</div>
+<div class="cell" data-label="Arabic">إجمالى الدرجات</div>
+<div class="cell" data-label="English">Total Points</div>
+<div class="cell" data-label="Type">Decimal</div>
 
- [Employee](/modules/basic/Employee.md) 
-</div>
 </div>
 
-<div class="row searchable" id="trainer">
-<div class="cell" data-label="Property">trainer</div>
-<div class="cell gen-ref-column" data-label="Column">trainerActualCode,  trainerCode,  trainerEntityType,  trainerId</div>
-<div class="cell" data-label="Arabic">المدرب</div>
-<div class="cell" data-label="English">Trainer</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="row searchable" id="totalWeights">
+<div class="cell" data-label="Property">totalWeights</div>
+<div class="cell" data-label="Column">totalWeights</div>
+<div class="cell" data-label="Arabic">المجموع الكلى للدرجات</div>
+<div class="cell" data-label="English">Final Points</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 
@@ -958,7 +1150,7 @@
 
 <div class='tableName'>
 
-**Table Name:** CourseEvaluationLine, **Join Column:** courseEvaluation_id
+**Table Name:** EmployeeEvaluationReqLine, **Join Column:** employeeEvaluationReq_id
 
 </div>
 
@@ -1353,6 +1545,259 @@
 
 <div class="row searchable" id="details.text5">
 <div class="cell" data-label="Property">details.text5</div>
+<div class="cell" data-label="Column">text5</div>
+<div class="cell" data-label="Arabic">نص 5</div>
+<div class="cell" data-label="English">text5</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='recommendations' title='recommendations' class='searchable'>
+
+## recommendations (التوصيات - recommendations)
+
+<div class='tableName'>
+
+**Table Name:** EvaluationReqRecommendationLine, **Join Column:** employeeEvaluationReq_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="recommendations.date1">
+<div class="cell" data-label="Property">recommendations.date1</div>
+<div class="cell" data-label="Column">date1</div>
+<div class="cell" data-label="Arabic">تـــاريخ 1</div>
+<div class="cell" data-label="English">Date 1</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.date2">
+<div class="cell" data-label="Property">recommendations.date2</div>
+<div class="cell" data-label="Column">date2</div>
+<div class="cell" data-label="Arabic">تـــاريخ 2</div>
+<div class="cell" data-label="English">Date 2</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.date3">
+<div class="cell" data-label="Property">recommendations.date3</div>
+<div class="cell" data-label="Column">date3</div>
+<div class="cell" data-label="Arabic">تاريخ 3</div>
+<div class="cell" data-label="English">Date3</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.date4">
+<div class="cell" data-label="Property">recommendations.date4</div>
+<div class="cell" data-label="Column">date4</div>
+<div class="cell" data-label="Arabic">تاريخ 4</div>
+<div class="cell" data-label="English">Date4</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.date5">
+<div class="cell" data-label="Property">recommendations.date5</div>
+<div class="cell" data-label="Column">date5</div>
+<div class="cell" data-label="Arabic">تاريخ 5</div>
+<div class="cell" data-label="English">Date5</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.id">
+<div class="cell" data-label="Property">recommendations.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.jobPosition">
+<div class="cell" data-label="Property">recommendations.jobPosition</div>
+<div class="cell" data-label="Column">jobPosition_id</div>
+<div class="cell" data-label="Arabic">الموقع الوظيفي</div>
+<div class="cell" data-label="English">Job Position</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [JobPosition](/modules/basic/JobPosition.md) 
+</div>
+</div>
+
+<div class="row searchable" id="recommendations.lineNumber">
+<div class="cell" data-label="Property">recommendations.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.n1">
+<div class="cell" data-label="Property">recommendations.n1</div>
+<div class="cell" data-label="Column">n1</div>
+<div class="cell" data-label="Arabic">رقم 1</div>
+<div class="cell" data-label="English">Number 1</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.n2">
+<div class="cell" data-label="Property">recommendations.n2</div>
+<div class="cell" data-label="Column">n2</div>
+<div class="cell" data-label="Arabic">رقم 2</div>
+<div class="cell" data-label="English">Number 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.n3">
+<div class="cell" data-label="Property">recommendations.n3</div>
+<div class="cell" data-label="Column">n3</div>
+<div class="cell" data-label="Arabic">رقم 3</div>
+<div class="cell" data-label="English">Number 3</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.n4">
+<div class="cell" data-label="Property">recommendations.n4</div>
+<div class="cell" data-label="Column">n4</div>
+<div class="cell" data-label="Arabic">رقم 4</div>
+<div class="cell" data-label="English">Number 4</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.n5">
+<div class="cell" data-label="Property">recommendations.n5</div>
+<div class="cell" data-label="Column">n5</div>
+<div class="cell" data-label="Arabic">رقم 5</div>
+<div class="cell" data-label="English">Number 5</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.recommendations">
+<div class="cell" data-label="Property">recommendations.recommendations</div>
+<div class="cell" data-label="Column">recommendations</div>
+<div class="cell" data-label="Arabic">التوصيات</div>
+<div class="cell" data-label="English">recommendations</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.recommender">
+<div class="cell" data-label="Property">recommendations.recommender</div>
+<div class="cell" data-label="Column">recommender_id</div>
+<div class="cell" data-label="Arabic">الموصى</div>
+<div class="cell" data-label="English">recommender</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Employee](/modules/basic/Employee.md) 
+</div>
+</div>
+
+<div class="row searchable" id="recommendations.ref1">
+<div class="cell" data-label="Property">recommendations.ref1</div>
+<div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
+<div class="cell" data-label="Arabic">مرجع 1</div>
+<div class="cell" data-label="English">Reference 1</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.ref2">
+<div class="cell" data-label="Property">recommendations.ref2</div>
+<div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
+<div class="cell" data-label="Arabic">مرجع 2</div>
+<div class="cell" data-label="English">Reference 2</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.ref3">
+<div class="cell" data-label="Property">recommendations.ref3</div>
+<div class="cell gen-ref-column" data-label="Column">ref3ActualCode,  ref3Code,  ref3EntityType,  ref3Id</div>
+<div class="cell" data-label="Arabic">مرجع 3</div>
+<div class="cell" data-label="English">Reference 3</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.ref4">
+<div class="cell" data-label="Property">recommendations.ref4</div>
+<div class="cell gen-ref-column" data-label="Column">ref4ActualCode,  ref4Code,  ref4EntityType,  ref4Id</div>
+<div class="cell" data-label="Arabic">مرجع 4</div>
+<div class="cell" data-label="English">Reference 4</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.ref5">
+<div class="cell" data-label="Property">recommendations.ref5</div>
+<div class="cell gen-ref-column" data-label="Column">ref5ActualCode,  ref5Code,  ref5EntityType,  ref5Id</div>
+<div class="cell" data-label="Arabic">مرجع 5</div>
+<div class="cell" data-label="English">Reference 5</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.text1">
+<div class="cell" data-label="Property">recommendations.text1</div>
+<div class="cell" data-label="Column">text1</div>
+<div class="cell" data-label="Arabic">نــــص 1</div>
+<div class="cell" data-label="English">Text 1</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.text2">
+<div class="cell" data-label="Property">recommendations.text2</div>
+<div class="cell" data-label="Column">text2</div>
+<div class="cell" data-label="Arabic">نـــــص 2</div>
+<div class="cell" data-label="English">Text 2</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.text3">
+<div class="cell" data-label="Property">recommendations.text3</div>
+<div class="cell" data-label="Column">text3</div>
+<div class="cell" data-label="Arabic">نص 3</div>
+<div class="cell" data-label="English">text3</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.text4">
+<div class="cell" data-label="Property">recommendations.text4</div>
+<div class="cell" data-label="Column">text4</div>
+<div class="cell" data-label="Arabic">نص 4</div>
+<div class="cell" data-label="English">text4</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="recommendations.text5">
+<div class="cell" data-label="Property">recommendations.text5</div>
 <div class="cell" data-label="Column">text5</div>
 <div class="cell" data-label="Arabic">نص 5</div>
 <div class="cell" data-label="English">text5</div>

@@ -51,6 +51,15 @@
 <div class="row searchable" id="actualProductCost">
 <div class="cell" data-label="Property">actualProductCost</div>
 <div class="cell" data-label="Column">actualProductCost</div>
+<div class="cell" data-label="Arabic">تكلفة المنتج الفعلية</div>
+<div class="cell" data-label="English">Actual Product Cost</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="actualProductTotalCost">
+<div class="cell" data-label="Property">actualProductTotalCost</div>
+<div class="cell" data-label="Column">actualProductTotalCost</div>
 <div class="cell" data-label="Arabic">إجمالي تكلفة المنتج الفعلية</div>
 <div class="cell" data-label="English">Total Actual Product Cost</div>
 <div class="cell" data-label="Type">Decimal</div>
@@ -783,6 +792,15 @@
 
 </div>
 
+<div class="row searchable" id="productQtyDeviation">
+<div class="cell" data-label="Property">productQtyDeviation</div>
+<div class="cell" data-label="Column">productQtyDeviation</div>
+<div class="cell" data-label="Arabic">انحراف كمية المنتج</div>
+<div class="cell" data-label="English">Product Qty Deviation</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="productUnitStandardCost">
 <div class="cell" data-label="Property">productUnitStandardCost</div>
 <div class="cell" data-label="Column">productUnitStandardCost</div>
@@ -963,6 +981,15 @@
 
 </div>
 
+<div class="row searchable" id="standardProductTotalCost">
+<div class="cell" data-label="Property">standardProductTotalCost</div>
+<div class="cell" data-label="Column">standardProductTotalCost</div>
+<div class="cell" data-label="Arabic">إجمالي التكلفة القياسية</div>
+<div class="cell" data-label="English">Total Standard Product Cost</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="term">
 <div class="cell" data-label="Property">term</div>
 <div class="cell" data-label="Column">term_id</div>
@@ -981,6 +1008,24 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="totalProductCostDeviation">
+<div class="cell" data-label="Property">totalProductCostDeviation</div>
+<div class="cell" data-label="Column">totalProductCostDeviation</div>
+<div class="cell" data-label="Arabic">انحراف تكلفة المنتج القياسية</div>
+<div class="cell" data-label="English">Total Product Cost Deviation</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="totalProductStandardDeviation">
+<div class="cell" data-label="Property">totalProductStandardDeviation</div>
+<div class="cell" data-label="Column">totalProductStandardDeviation</div>
+<div class="cell" data-label="Arabic">إجمالي الإنحراف القياسي للمنتج</div>
+<div class="cell" data-label="English">Total Product Standard Deviation</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 

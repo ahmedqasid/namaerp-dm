@@ -937,6 +937,15 @@
 
 </div>
 
+<div class="row searchable" id="extraData.sendAs">
+<div class="cell" data-label="Property">extraData.sendAs</div>
+<div class="cell" data-label="Column">sendAs</div>
+<div class="cell" data-label="Arabic">Send As</div>
+<div class="cell" data-label="English">Send As</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 
 </div>
 </div>

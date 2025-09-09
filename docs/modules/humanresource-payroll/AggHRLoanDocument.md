@@ -1294,8 +1294,8 @@
 <div class="row searchable" id="details.loanType">
 <div class="cell" data-label="Property">details.loanType</div>
 <div class="cell" data-label="Column">loanType_id</div>
-<div class="cell" data-label="Arabic">قرض بنكى |النوع</div>
-<div class="cell" data-label="English">Bank Loan |type</div>
+<div class="cell" data-label="Arabic">قرض بنكى</div>
+<div class="cell" data-label="English">Bank Loan</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

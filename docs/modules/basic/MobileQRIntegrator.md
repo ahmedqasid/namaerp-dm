@@ -2,18 +2,13 @@
 <div class='tableName'>
 
 
-# HRHolidays
+# MobileQRIntegrator
 </div>
 
-**Arabic:** عطلة رسمية - عطلات رسمية
-**English:** HR Holidays
+**Arabic:** Mobile QR Integrator
+**English:** Mobile QR Integrator - Mobile QR Integrators
 
 <ContentFilter/>
-
-
-<div class='searchable'>
-<a href='#details'>details (HolidayLine) </a>
-</div>
 
 <div class='searchable'>
 
@@ -105,12 +100,30 @@
 
 </div>
 
+<div class="row searchable" id="createdEntityType">
+<div class="cell" data-label="Property">createdEntityType</div>
+<div class="cell" data-label="Column">createdEntityType</div>
+<div class="cell" data-label="Arabic">Created Entity Type</div>
+<div class="cell" data-label="English">Created Entity Type</div>
+<div class="cell" data-label="Type">EntityType</div>
+
+</div>
+
 <div class="row searchable" id="creationDate">
 <div class="cell" data-label="Property">creationDate</div>
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
 <div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
+<div class="row searchable" id="creationType">
+<div class="cell" data-label="Property">creationType</div>
+<div class="cell" data-label="Column">creationType</div>
+<div class="cell" data-label="Arabic">Entity Creation Type</div>
+<div class="cell" data-label="English">Entity Creation Type</div>
+<div class="cell" data-label="Type">Enum</div>
 
 </div>
 
@@ -306,15 +319,15 @@
 </div>
 </div>
 
-<div class="row searchable" id="empDepartment">
-<div class="cell" data-label="Property">empDepartment</div>
-<div class="cell" data-label="Column">empDepartment_id</div>
-<div class="cell" data-label="Arabic"> إدارة موظف</div>
-<div class="cell" data-label="English"> Employee Department</div>
+<div class="row searchable" id="entityFlow">
+<div class="cell" data-label="Property">entityFlow</div>
+<div class="cell" data-label="Column">entityFlow_id</div>
+<div class="cell" data-label="Arabic">المسار</div>
+<div class="cell" data-label="English">Entity Flow</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [EmployeeDepartment](/modules/basic/EmployeeDepartment.md) 
+ [EntityFlow](/modules/basic/EntityFlow.md) 
 </div>
 </div>
 
@@ -333,6 +346,15 @@
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
 <div class="cell" data-label="Type">EntityType</div>
+
+</div>
+
+<div class="row searchable" id="finderQuery">
+<div class="cell" data-label="Property">finderQuery</div>
+<div class="cell" data-label="Column">finderQuery</div>
+<div class="cell" data-label="Arabic">Finder Query(Retriever)</div>
+<div class="cell" data-label="English">Finder Query(Retriever)</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -421,18 +443,6 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
-</div>
-
-<div class="row searchable" id="jobPosition">
-<div class="cell" data-label="Property">jobPosition</div>
-<div class="cell" data-label="Column">jobPosition_id</div>
-<div class="cell" data-label="Arabic">الموقع الوظيفي</div>
-<div class="cell" data-label="English">Job Position</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [JobPosition](/modules/basic/JobPosition.md) 
-</div>
 </div>
 
 <div class="row searchable" id="lastChangeVersion">
@@ -567,18 +577,6 @@
 
 </div>
 
-<div class="row searchable" id="nationality">
-<div class="cell" data-label="Property">nationality</div>
-<div class="cell" data-label="Column">nationality_id</div>
-<div class="cell" data-label="Arabic">الجنسية</div>
-<div class="cell" data-label="English">Nationality</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Nationality](/modules/basic/Nationality.md) 
-</div>
-</div>
-
 <div class="row searchable" id="parentCode">
 <div class="cell" data-label="Property">parentCode</div>
 <div class="cell" data-label="Column">parentCode</div>
@@ -603,15 +601,6 @@
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
 <div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="reCommitVacations">
-<div class="cell" data-label="Property">reCommitVacations</div>
-<div class="cell" data-label="Column">reCommitVacations</div>
-<div class="cell" data-label="Arabic">إعادة حفظ سندات الأجازه التى تقع فى التواريخ المضافة او المحذوفة</div>
-<div class="cell" data-label="English">Recommit Vacation Documents That Fall Within The Added Or Deleted Dates</div>
-<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
@@ -657,15 +646,6 @@
 <div class="cell" data-label="Arabic">مرجع 5</div>
 <div class="cell" data-label="English">Reference 5</div>
 <div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
-<div class="row searchable" id="religion">
-<div class="cell" data-label="Property">religion</div>
-<div class="cell" data-label="Column">religion</div>
-<div class="cell" data-label="Arabic">الديانة</div>
-<div class="cell" data-label="English">Religion</div>
-<div class="cell" data-label="Type">Enum</div>
 
 </div>
 
@@ -726,6 +706,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="successTempo">
+<div class="cell" data-label="Property">successTempo</div>
+<div class="cell" data-label="Column">successTempo</div>
+<div class="cell" data-label="Arabic">Success Tempo</div>
+<div class="cell" data-label="English">Success Tempo</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -798,94 +787,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="workPlace">
-<div class="cell" data-label="Property">workPlace</div>
-<div class="cell" data-label="Column">workPlace_id</div>
-<div class="cell" data-label="Arabic">مكان العمل</div>
-<div class="cell" data-label="English">Work Place</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [EmpWorkPlace](/modules/basic/EmpWorkPlace.md) 
-</div>
-</div>
-
-
-</div>
-</div>
-
-<div id='details' title='details' class='searchable'>
-
-## details (التفاصيل - Details)
-
-<div class='tableName'>
-
-**Table Name:** HolidayLine, **Join Column:** hRHolidays_id
-
-</div>
-
-<div class="nama-table">
-<div class="row header-row">
-<div class="cell">Property</div>
-<div class="cell">Column</div>
-<div class="cell">Arabic</div>
-<div class="cell">English</div>
-<div class="cell">Type</div>
-<div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="details.id">
-<div class="cell" data-label="Property">details.id</div>
-<div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="details.lineNumber">
-<div class="cell" data-label="Property">details.lineNumber</div>
-<div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="details.name1">
-<div class="cell" data-label="Property">details.name1</div>
-<div class="cell" data-label="Column">name1</div>
-<div class="cell" data-label="Arabic">إسم العطلة عربي</div>
-<div class="cell" data-label="English">Holiday arabic name</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="details.name2">
-<div class="cell" data-label="Property">details.name2</div>
-<div class="cell" data-label="Column">name2</div>
-<div class="cell" data-label="Arabic">إسم العطلة إنجليزي</div>
-<div class="cell" data-label="English">Holiday english name</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="details.vacationDate">
-<div class="cell" data-label="Property">details.vacationDate</div>
-<div class="cell" data-label="Column">vacationDate</div>
-<div class="cell" data-label="Arabic">تاريخ بداية العطلة</div>
-<div class="cell" data-label="English">Vacation Start Date</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
-<div class="row searchable" id="details.vacationEndDate">
-<div class="cell" data-label="Property">details.vacationEndDate</div>
-<div class="cell" data-label="Column">vacationEndDate</div>
-<div class="cell" data-label="Arabic">تاريخ نهاية العطلة</div>
-<div class="cell" data-label="English">Vacation End Date</div>
-<div class="cell" data-label="Type">Date</div>
 
 </div>
 
