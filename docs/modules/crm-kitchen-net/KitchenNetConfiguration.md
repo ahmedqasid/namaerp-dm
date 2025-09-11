@@ -285,6 +285,66 @@
 
 </div>
 
+<div class="row searchable" id="dimensions.analysisSet">
+<div class="cell" data-label="Property">dimensions.analysisSet</div>
+<div class="cell" data-label="Column">dimensionsAnalysisSet_id</div>
+<div class="cell" data-label="Arabic">المجموعة التحليلية</div>
+<div class="cell" data-label="English">Analysis set</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [AnalysisSet](/modules/basic/AnalysisSet.md) 
+</div>
+</div>
+
+<div class="row searchable" id="dimensions.branch">
+<div class="cell" data-label="Property">dimensions.branch</div>
+<div class="cell" data-label="Column">dimensionsBranch_id</div>
+<div class="cell" data-label="Arabic">الفرع</div>
+<div class="cell" data-label="English">Branch</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Branch](/modules/basic/Branch.md) 
+</div>
+</div>
+
+<div class="row searchable" id="dimensions.department">
+<div class="cell" data-label="Property">dimensions.department</div>
+<div class="cell" data-label="Column">dimensionsDepartment_id</div>
+<div class="cell" data-label="Arabic">الإدارة</div>
+<div class="cell" data-label="English">Department</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Department](/modules/basic/Department.md) 
+</div>
+</div>
+
+<div class="row searchable" id="dimensions.legalEntity">
+<div class="cell" data-label="Property">dimensions.legalEntity</div>
+<div class="cell" data-label="Column">dimensionsLegalEntity_id</div>
+<div class="cell" data-label="Arabic">الشركة</div>
+<div class="cell" data-label="English">Legal Entity</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LegalEntity](/modules/basic/LegalEntity.md) 
+</div>
+</div>
+
+<div class="row searchable" id="dimensions.sector">
+<div class="cell" data-label="Property">dimensions.sector</div>
+<div class="cell" data-label="Column">dimensionsSector_id</div>
+<div class="cell" data-label="Arabic">القطاع</div>
+<div class="cell" data-label="English">Sector</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Sector](/modules/basic/Sector.md) 
+</div>
+</div>
+
 <div class="row searchable" id="docCategory">
 <div class="cell" data-label="Property">docCategory</div>
 <div class="cell" data-label="Column">docCategory_id</div>
@@ -628,6 +688,66 @@
 <div class="cell" data-label="English">Prevent Usage</div>
 <div class="cell" data-label="Type">Boolean</div>
 
+</div>
+
+<div class="row searchable" id="priceClassifier1">
+<div class="cell" data-label="Property">priceClassifier1</div>
+<div class="cell" data-label="Column">priceClassifier1_id</div>
+<div class="cell" data-label="Arabic">محدد سعر 1</div>
+<div class="cell" data-label="English">Price Classifier 1</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [SalesPriceClassifier1](/modules/basic/SalesPriceClassifier1.md) 
+</div>
+</div>
+
+<div class="row searchable" id="priceClassifier2">
+<div class="cell" data-label="Property">priceClassifier2</div>
+<div class="cell" data-label="Column">priceClassifier2_id</div>
+<div class="cell" data-label="Arabic">محدد سعر 2</div>
+<div class="cell" data-label="English">Price Classifier 2</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [SalesPriceClassifier2](/modules/basic/SalesPriceClassifier2.md) 
+</div>
+</div>
+
+<div class="row searchable" id="priceClassifier3">
+<div class="cell" data-label="Property">priceClassifier3</div>
+<div class="cell" data-label="Column">priceClassifier3_id</div>
+<div class="cell" data-label="Arabic">محدد سعر 3</div>
+<div class="cell" data-label="English">Price Classifier 3</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [SalesPriceClassifier3](/modules/basic/SalesPriceClassifier3.md) 
+</div>
+</div>
+
+<div class="row searchable" id="priceClassifier4">
+<div class="cell" data-label="Property">priceClassifier4</div>
+<div class="cell" data-label="Column">priceClassifier4_id</div>
+<div class="cell" data-label="Arabic">محدد سعر 4</div>
+<div class="cell" data-label="English">Price Classifier 4</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [SalesPriceClassifier4](/modules/basic/SalesPriceClassifier4.md) 
+</div>
+</div>
+
+<div class="row searchable" id="priceClassifier5">
+<div class="cell" data-label="Property">priceClassifier5</div>
+<div class="cell" data-label="Column">priceClassifier5_id</div>
+<div class="cell" data-label="Arabic">محدد سعر 5</div>
+<div class="cell" data-label="English">Price Classifier 5</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [SalesPriceClassifier5](/modules/basic/SalesPriceClassifier5.md) 
+</div>
 </div>
 
 <div class="row searchable" id="printCount">

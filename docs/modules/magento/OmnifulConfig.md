@@ -564,6 +564,15 @@
 
 </div>
 
+<div class="row searchable" id="omnifulReferenceFieldForIssueStockTransfer">
+<div class="cell" data-label="Property">omnifulReferenceFieldForIssueStockTransfer</div>
+<div class="cell" data-label="Column">omnifulReferenceFieldForIssueStockTransfer</div>
+<div class="cell" data-label="Arabic">حقل مرجع أومنيفل في صرف تحويل مخزني</div>
+<div class="cell" data-label="English">Omniful Reference Field For Issue Stock Transfer</div>
+<div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
 <div class="row searchable" id="omnifulReferenceFieldForOrders">
 <div class="cell" data-label="Property">omnifulReferenceFieldForOrders</div>
 <div class="cell" data-label="Column">omnifulReferenceFieldForOrders</div>
@@ -573,11 +582,11 @@
 
 </div>
 
-<div class="row searchable" id="omnifulReferenceFieldForStockReceipt">
-<div class="cell" data-label="Property">omnifulReferenceFieldForStockReceipt</div>
-<div class="cell" data-label="Column">omnifulReferenceFieldForStockReceipt</div>
-<div class="cell" data-label="Arabic">حقل مرجع أومنيفل في التوريد المخزني</div>
-<div class="cell" data-label="English">Omniful Reference Field For Stock Receipt</div>
+<div class="row searchable" id="omnifulReferenceFieldForReceiptStockTransfer">
+<div class="cell" data-label="Property">omnifulReferenceFieldForReceiptStockTransfer</div>
+<div class="cell" data-label="Column">omnifulReferenceFieldForReceiptStockTransfer</div>
+<div class="cell" data-label="Arabic">حقل مرجع أومنيفل في استلام تحويل مخزني</div>
+<div class="cell" data-label="English">Omniful Reference Field For Receipt Stock Transfer</div>
 <div class="cell" data-label="Type">FieldID</div>
 
 </div>
@@ -910,6 +919,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="documentGenerationInfoLines.entityType">
+<div class="cell" data-label="Property">documentGenerationInfoLines.entityType</div>
+<div class="cell" data-label="Column">entityType</div>
+<div class="cell" data-label="Arabic">النوع</div>
+<div class="cell" data-label="English">Entity Type</div>
+<div class="cell" data-label="Type">EntityType</div>
+
+</div>
+
 <div class="row searchable" id="documentGenerationInfoLines.id">
 <div class="cell" data-label="Property">documentGenerationInfoLines.id</div>
 <div class="cell" data-label="Column">id</div>
@@ -925,15 +943,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="documentGenerationInfoLines.omnifulEntityType">
-<div class="cell" data-label="Property">documentGenerationInfoLines.omnifulEntityType</div>
-<div class="cell" data-label="Column">omnifulEntityType</div>
-<div class="cell" data-label="Arabic">entityType</div>
-<div class="cell" data-label="English">entityType</div>
-<div class="cell" data-label="Type">Enum</div>
 
 </div>
 

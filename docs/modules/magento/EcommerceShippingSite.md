@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#statusToRunEntityFlows'>statusToRunEntityFlows (ESiteStatusToRunEntityFlow) </a>
+<a href='#salasaWebhooks'>salasaWebhooks (EcommerceShippingSiteSalasaWebhook) </a> , <a href='#statusToRunEntityFlows'>statusToRunEntityFlows (ESiteStatusToRunEntityFlow) </a>
 </div>
 
 <div class='searchable'>
@@ -543,6 +543,18 @@
 
 </div>
 
+<div class="row searchable" id="namaAPIKey">
+<div class="cell" data-label="Property">namaAPIKey</div>
+<div class="cell" data-label="Column">namaAPIKey_id</div>
+<div class="cell" data-label="Arabic">Nama API Key</div>
+<div class="cell" data-label="English">Nama API Key</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [APICredentials](/modules/basic/APICredentials.md) 
+</div>
+</div>
+
 <div class="row searchable" id="name1">
 <div class="cell" data-label="Property">name1</div>
 <div class="cell" data-label="Column">name1</div>
@@ -681,6 +693,24 @@
 </div>
 </div>
 
+<div class="row searchable" id="salasaApiAccessToken">
+<div class="cell" data-label="Property">salasaApiAccessToken</div>
+<div class="cell" data-label="Column">salasaApiAccessToken</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="salasaApiAccessTokenExpirationAt">
+<div class="cell" data-label="Property">salasaApiAccessTokenExpirationAt</div>
+<div class="cell" data-label="Column">salasaApiAccessTokenExpirationAt</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Long</div>
+
+</div>
+
 <div class="row searchable" id="sector">
 <div class="cell" data-label="Property">sector</div>
 <div class="cell" data-label="Column">sector_id</div>
@@ -717,6 +747,15 @@
 <div class="cell" data-label="Arabic">System Generated Code Prefix</div>
 <div class="cell" data-label="English">System Generated Code Prefix</div>
 <div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="type">
+<div class="cell" data-label="Property">type</div>
+<div class="cell" data-label="Column">type</div>
+<div class="cell" data-label="Arabic">النوع</div>
+<div class="cell" data-label="English">Type</div>
+<div class="cell" data-label="Type">Enum</div>
 
 </div>
 
@@ -805,6 +844,55 @@
 </div>
 </div>
 
+<div id='salasaWebhooks' title='salasaWebhooks' class='searchable'>
+
+## salasaWebhooks (Salasa Webhooks - Salasa Webhooks)
+
+<div class='tableName'>
+
+**Table Name:** EcommerceShippingSiteSalasaWebhook, **Join Column:** ecommerceShippingSite_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="salasaWebhooks.id">
+<div class="cell" data-label="Property">salasaWebhooks.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="salasaWebhooks.lineNumber">
+<div class="cell" data-label="Property">salasaWebhooks.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="salasaWebhooks.type">
+<div class="cell" data-label="Property">salasaWebhooks.type</div>
+<div class="cell" data-label="Column">type</div>
+<div class="cell" data-label="Arabic">النوع</div>
+<div class="cell" data-label="English">Type</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+
+</div>
+</div>
+
 <div id='statusToRunEntityFlows' title='statusToRunEntityFlows' class='searchable'>
 
 ## statusToRunEntityFlows (حالات لتشغيل مسار كيان - Status To Run Entity Flow)
@@ -823,7 +911,16 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="statusToRunEntityFlows.entityFlow">
+</div><div class="row searchable" id="statusToRunEntityFlows.changeDeliveryStatusTo">
+<div class="cell" data-label="Property">statusToRunEntityFlows.changeDeliveryStatusTo</div>
+<div class="cell" data-label="Column">changeDeliveryStatusTo</div>
+<div class="cell" data-label="Arabic">تغيير حالة التوصيل إلي</div>
+<div class="cell" data-label="English">Change Delivery Status To</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="statusToRunEntityFlows.entityFlow">
 <div class="cell" data-label="Property">statusToRunEntityFlows.entityFlow</div>
 <div class="cell" data-label="Column">entityFlow_id</div>
 <div class="cell" data-label="Arabic">المسار</div>

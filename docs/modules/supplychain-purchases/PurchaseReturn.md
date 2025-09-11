@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#details'>details (PurchaseReturnLine) </a> , <a href='#externalPaymentLines'>externalPaymentLines (PurchaseReturnExternalPaymentLine) </a> , <a href='#stockDocs'>stockDocs (PurchaseReturnIssue) </a>
+<a href='#details'>details (PurchaseReturnLine) </a> , <a href='#externalPaymentLines'>externalPaymentLines (PurchaseReturnExternalPaymentLine) </a> , <a href='#installmentLines'>installmentLines (PurchaseReturnInstalSchedLine) </a> , <a href='#stockDocs'>stockDocs (PurchaseReturnIssue) </a>
 </div>
 
 <div class='searchable'>
@@ -4289,6 +4289,154 @@
 <div class="cell" data-label="Arabic">المبلغ</div>
 <div class="cell" data-label="English">Payment Value</div>
 <div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='installmentLines' title='installmentLines' class='searchable'>
+
+## installmentLines (الأقساط - Installment Lines)
+
+<div class='tableName'>
+
+**Table Name:** PurchaseReturnInstalSchedLine, **Join Column:** purchaseReturn_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="installmentLines.date1">
+<div class="cell" data-label="Property">installmentLines.date1</div>
+<div class="cell" data-label="Column">date1</div>
+<div class="cell" data-label="Arabic">تـــاريخ 1</div>
+<div class="cell" data-label="English">Date 1</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="installmentLines.date2">
+<div class="cell" data-label="Property">installmentLines.date2</div>
+<div class="cell" data-label="Column">date2</div>
+<div class="cell" data-label="Arabic">تـــاريخ 2</div>
+<div class="cell" data-label="English">Date 2</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="installmentLines.dueDate">
+<div class="cell" data-label="Property">installmentLines.dueDate</div>
+<div class="cell" data-label="Column">dueDate</div>
+<div class="cell" data-label="Arabic">تاريخ الاستحقاق</div>
+<div class="cell" data-label="English">Due Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="installmentLines.id">
+<div class="cell" data-label="Property">installmentLines.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="installmentLines.installmentCode">
+<div class="cell" data-label="Property">installmentLines.installmentCode</div>
+<div class="cell" data-label="Column">installmentCode</div>
+<div class="cell" data-label="Arabic">كود القسط</div>
+<div class="cell" data-label="English">Installment Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="installmentLines.installmentDescription">
+<div class="cell" data-label="Property">installmentLines.installmentDescription</div>
+<div class="cell" data-label="Column">installmentDescription</div>
+<div class="cell" data-label="Arabic">وصف القسط</div>
+<div class="cell" data-label="English">Installment Description</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="installmentLines.installmentDoc">
+<div class="cell" data-label="Property">installmentLines.installmentDoc</div>
+<div class="cell gen-ref-column" data-label="Column">installmentDocActualCode,  installmentDocCode,  installmentDocEntityType,  installmentDocId</div>
+<div class="cell" data-label="Arabic">مستند القسط</div>
+<div class="cell" data-label="English">Installment doc</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="installmentLines.lineNumber">
+<div class="cell" data-label="Property">installmentLines.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="installmentLines.netValue">
+<div class="cell" data-label="Property">installmentLines.netValue</div>
+<div class="cell" data-label="Column">netValue</div>
+<div class="cell" data-label="Arabic">الصافي</div>
+<div class="cell" data-label="English">Net value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="installmentLines.paidValue">
+<div class="cell" data-label="Property">installmentLines.paidValue</div>
+<div class="cell" data-label="Column">paidValue</div>
+<div class="cell" data-label="Arabic">القيمة المدفوعة</div>
+<div class="cell" data-label="English">Paid Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="installmentLines.ref1">
+<div class="cell" data-label="Property">installmentLines.ref1</div>
+<div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
+<div class="cell" data-label="Arabic">مرجع 1</div>
+<div class="cell" data-label="English">Reference 1</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="installmentLines.ref2">
+<div class="cell" data-label="Property">installmentLines.ref2</div>
+<div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
+<div class="cell" data-label="Arabic">مرجع 2</div>
+<div class="cell" data-label="English">Reference 2</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="installmentLines.text1">
+<div class="cell" data-label="Property">installmentLines.text1</div>
+<div class="cell" data-label="Column">text1</div>
+<div class="cell" data-label="Arabic">نــــص 1</div>
+<div class="cell" data-label="English">Text 1</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="installmentLines.text2">
+<div class="cell" data-label="Property">installmentLines.text2</div>
+<div class="cell" data-label="Column">text2</div>
+<div class="cell" data-label="Arabic">نـــــص 2</div>
+<div class="cell" data-label="English">Text 2</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
