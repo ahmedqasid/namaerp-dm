@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#branchesInfo'>branchesInfo (RewardPointsConfigLine) </a>
+<a href='#applyOn'>applyOn (RewardPointsConfigApplyOnLine) </a> , <a href='#branchesInfo'>branchesInfo (RewardPointsConfigLine) </a>
 </div>
 
 <div class='searchable'>
@@ -1048,9 +1048,172 @@
 </div>
 </div>
 
+<div id='applyOn' title='applyOn' class='searchable'>
+
+## applyOn (قائمة المختارين - Selected Group)
+
+<div class='tableName'>
+
+**Table Name:** RewardPointsConfigApplyOnLine, **Join Column:** rewardPointsConfig_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="applyOn.applicability">
+<div class="cell" data-label="Property">applyOn.applicability</div>
+<div class="cell" data-label="Column">applicability</div>
+<div class="cell" data-label="Arabic">التطبيق</div>
+<div class="cell" data-label="English">Applicability</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="applyOn.applyWhenQuery">
+<div class="cell" data-label="Property">applyOn.applyWhenQuery</div>
+<div class="cell" data-label="Column">applyWhenQuery</div>
+<div class="cell" data-label="Arabic">تطبيق عند التوافق مع الاستعلام</div>
+<div class="cell" data-label="English">Apply When Query</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="applyOn.criteria">
+<div class="cell" data-label="Property">applyOn.criteria</div>
+<div class="cell" data-label="Column">criteria_id</div>
+<div class="cell" data-label="Arabic">المعايير</div>
+<div class="cell" data-label="English">Criteria</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CriteriaDefinition](/modules/basic/CriteriaDefinition.md) 
+</div>
+</div>
+
+<div class="row searchable" id="applyOn.dimensions.analysisSet">
+<div class="cell" data-label="Property">applyOn.dimensions.analysisSet</div>
+<div class="cell" data-label="Column">dimensionsAnalysisSet_id</div>
+<div class="cell" data-label="Arabic">المجموعة التحليلية</div>
+<div class="cell" data-label="English">Analysis set</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [AnalysisSet](/modules/basic/AnalysisSet.md) 
+</div>
+</div>
+
+<div class="row searchable" id="applyOn.dimensions.branch">
+<div class="cell" data-label="Property">applyOn.dimensions.branch</div>
+<div class="cell" data-label="Column">dimensionsBranch_id</div>
+<div class="cell" data-label="Arabic">الفرع</div>
+<div class="cell" data-label="English">Branch</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Branch](/modules/basic/Branch.md) 
+</div>
+</div>
+
+<div class="row searchable" id="applyOn.dimensions.department">
+<div class="cell" data-label="Property">applyOn.dimensions.department</div>
+<div class="cell" data-label="Column">dimensionsDepartment_id</div>
+<div class="cell" data-label="Arabic">الإدارة</div>
+<div class="cell" data-label="English">Department</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Department](/modules/basic/Department.md) 
+</div>
+</div>
+
+<div class="row searchable" id="applyOn.dimensions.legalEntity">
+<div class="cell" data-label="Property">applyOn.dimensions.legalEntity</div>
+<div class="cell" data-label="Column">dimensionsLegalEntity_id</div>
+<div class="cell" data-label="Arabic">الشركة</div>
+<div class="cell" data-label="English">Legal Entity</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LegalEntity](/modules/basic/LegalEntity.md) 
+</div>
+</div>
+
+<div class="row searchable" id="applyOn.dimensions.sector">
+<div class="cell" data-label="Property">applyOn.dimensions.sector</div>
+<div class="cell" data-label="Column">dimensionsSector_id</div>
+<div class="cell" data-label="Arabic">القطاع</div>
+<div class="cell" data-label="English">Sector</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Sector](/modules/basic/Sector.md) 
+</div>
+</div>
+
+<div class="row searchable" id="applyOn.documentBook">
+<div class="cell" data-label="Property">applyOn.documentBook</div>
+<div class="cell" data-label="Column">documentBook_id</div>
+<div class="cell" data-label="Arabic"> دفتر مستند</div>
+<div class="cell" data-label="English"> Document Book</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [DocumentBook](/modules/basic/DocumentBook.md) 
+</div>
+</div>
+
+<div class="row searchable" id="applyOn.documentTerm">
+<div class="cell" data-label="Property">applyOn.documentTerm</div>
+<div class="cell" data-label="Column">documentTerm_id</div>
+<div class="cell" data-label="Arabic"> توجيه مستند</div>
+<div class="cell" data-label="English"> Document Term</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [DocumentTerm](/modules/basic/DocumentTerm.md) 
+</div>
+</div>
+
+<div class="row searchable" id="applyOn.forType">
+<div class="cell" data-label="Property">applyOn.forType</div>
+<div class="cell" data-label="Column">forType</div>
+<div class="cell" data-label="Arabic">للنوع</div>
+<div class="cell" data-label="English">For Type</div>
+<div class="cell" data-label="Type">EntityType</div>
+
+</div>
+
+<div class="row searchable" id="applyOn.id">
+<div class="cell" data-label="Property">applyOn.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="applyOn.lineNumber">
+<div class="cell" data-label="Property">applyOn.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+
+</div>
+</div>
+
 <div id='branchesInfo' title='branchesInfo' class='searchable'>
 
-## branchesInfo ( - )
+## branchesInfo (Terminal and Branch ID Config - Terminal and Branch ID Config)
 
 <div class='tableName'>
 

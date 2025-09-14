@@ -3848,6 +3848,7 @@ export const entityPathsMap: Record<string, string> = {
   "RewardPointRedeemSysEntry" : "system-tables/RewardPointRedeemSysEntry.html",
   "RewardPointTransactionSysEntry" : "system-tables/RewardPointTransactionSysEntry.html",
   "RewardPointsConfig" : "basic-external-reward-points/RewardPointsConfig.html",
+  "RewardPointsConfigApplyOnLine" : "basic-external-reward-points/RewardPointsConfig.html#applyOn",
   "RewardPointsConfigLine" : "basic-external-reward-points/RewardPointsConfig.html#branchesInfo",
   "RewardPointsOpening" : "basic-external-reward-points/RewardPointsOpening.html",
   "RewardPointsOpeningLine" : "basic-external-reward-points/RewardPointsOpening.html#details",

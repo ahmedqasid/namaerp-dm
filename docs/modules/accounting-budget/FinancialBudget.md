@@ -1222,6 +1222,51 @@
 
 </div>
 
+<div class="row searchable" id="details.n1">
+<div class="cell" data-label="Property">details.n1</div>
+<div class="cell" data-label="Column">n1</div>
+<div class="cell" data-label="Arabic">رقم 1</div>
+<div class="cell" data-label="English">Number 1</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.n2">
+<div class="cell" data-label="Property">details.n2</div>
+<div class="cell" data-label="Column">n2</div>
+<div class="cell" data-label="Arabic">رقم 2</div>
+<div class="cell" data-label="English">Number 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.n3">
+<div class="cell" data-label="Property">details.n3</div>
+<div class="cell" data-label="Column">n3</div>
+<div class="cell" data-label="Arabic">رقم 3</div>
+<div class="cell" data-label="English">Number 3</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.n4">
+<div class="cell" data-label="Property">details.n4</div>
+<div class="cell" data-label="Column">n4</div>
+<div class="cell" data-label="Arabic">رقم 4</div>
+<div class="cell" data-label="English">Number 4</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.n5">
+<div class="cell" data-label="Property">details.n5</div>
+<div class="cell" data-label="Column">n5</div>
+<div class="cell" data-label="Arabic">رقم 5</div>
+<div class="cell" data-label="English">Number 5</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="details.ref1">
 <div class="cell" data-label="Property">details.ref1</div>
 <div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>

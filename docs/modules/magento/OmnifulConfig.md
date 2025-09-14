@@ -946,6 +946,15 @@
 
 </div>
 
+<div class="row searchable" id="documentGenerationInfoLines.saveDocWithErrorsAsDraft">
+<div class="cell" data-label="Property">documentGenerationInfoLines.saveDocWithErrorsAsDraft</div>
+<div class="cell" data-label="Column">saveDocWithErrorsAsDraft</div>
+<div class="cell" data-label="Arabic">حفظ المستندات التي بها اخطاء كمسودm</div>
+<div class="cell" data-label="English">Save Documents With Errors As Draft</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="documentGenerationInfoLines.term">
 <div class="cell" data-label="Property">documentGenerationInfoLines.term</div>
 <div class="cell" data-label="Column">term_id</div>
