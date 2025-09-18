@@ -105,6 +105,15 @@
 
 </div>
 
+<div class="row searchable" id="createdFrom">
+<div class="cell" data-label="Property">createdFrom</div>
+<div class="cell gen-ref-column" data-label="Column">createdFromActualCode,  createdFromCode,  createdFromEntityType,  createdFromId</div>
+<div class="cell" data-label="Arabic">منشأة من</div>
+<div class="cell" data-label="English">Created From</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
 <div class="row searchable" id="creationDate">
 <div class="cell" data-label="Property">creationDate</div>
 <div class="cell" data-label="Column">creationDate</div>
