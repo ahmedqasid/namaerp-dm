@@ -2,17 +2,17 @@
 <div class='tableName'>
 
 
-# ManufacturingStandardPrice
+# QuickFilterCriteria
 </div>
 
-**Arabic:** سعر قياسي للتصنيع - أسعار قياسية للتصنيع
-**English:** Manufacturing Standard Price - Manufacturing Standard Prices
+**Arabic:** معيار الفلترة السريعة - معايير الفلترة السريعة
+**English:** Quick Filter Criteria - Quick Filter Criterias
 
 <ContentFilter/>
 
 
 <div class='searchable'>
-<a href='#details'>details (ManufacturingStandardPriceLine) </a>
+<a href='#details'>details (QuickFilterCriteriaLine) </a>
 </div>
 
 <div class='searchable'>
@@ -48,18 +48,6 @@
 
 </div>
 
-<div class="row searchable" id="book">
-<div class="cell" data-label="Property">book</div>
-<div class="cell" data-label="Column">book_id</div>
-<div class="cell" data-label="Arabic">الدفتر</div>
-<div class="cell" data-label="English">Book</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [DocumentBook](/modules/basic/DocumentBook.md) 
-</div>
-</div>
-
 <div class="row searchable" id="branch">
 <div class="cell" data-label="Property">branch</div>
 <div class="cell" data-label="Column">branch_id</div>
@@ -79,18 +67,6 @@
 <div class="cell" data-label="English">Branch ID</div>
 <div class="cell" data-label="Type">ID</div>
 
-</div>
-
-<div class="row searchable" id="cancelledBy">
-<div class="cell" data-label="Property">cancelledBy</div>
-<div class="cell" data-label="Column">cancelledBy_id</div>
-<div class="cell" data-label="Arabic">ألغي بواسطة</div>
-<div class="cell" data-label="English">Cancelled By</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [DocumentCancelDocument](/modules/basic/DocumentCancelDocument.md) 
-</div>
 </div>
 
 <div class="row searchable" id="code">
@@ -279,15 +255,6 @@
 
 </div>
 
-<div class="row searchable" id="dimensionsHistoryXml">
-<div class="cell" data-label="Property">dimensionsHistoryXml</div>
-<div class="cell" data-label="Column">dimensionsHistoryXml</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
 <div class="row searchable" id="docCategory">
 <div class="cell" data-label="Property">docCategory</div>
 <div class="cell" data-label="Column">docCategory_id</div>
@@ -378,54 +345,12 @@
 
 </div>
 
-<div class="row searchable" id="fiscalPeriod">
-<div class="cell" data-label="Property">fiscalPeriod</div>
-<div class="cell" data-label="Column">fiscalPeriod_id</div>
-<div class="cell" data-label="Arabic">الفترة</div>
-<div class="cell" data-label="English">Fiscal Period</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
-</div>
-</div>
-
-<div class="row searchable" id="fiscalYear">
-<div class="cell" data-label="Property">fiscalYear</div>
-<div class="cell" data-label="Column">fiscalYear_id</div>
-<div class="cell" data-label="Arabic">السنة المالية</div>
-<div class="cell" data-label="English">Fiscal Year</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalYear](/modules/basic/FiscalYear.md) 
-</div>
-</div>
-
-<div class="row searchable" id="fromDate">
-<div class="cell" data-label="Property">fromDate</div>
-<div class="cell" data-label="Column">fromDate</div>
-<div class="cell" data-label="Arabic">من تاريخ</div>
-<div class="cell" data-label="English">From Date</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
-<div class="row searchable" id="fromDoc">
-<div class="cell" data-label="Property">fromDoc</div>
-<div class="cell gen-ref-column" data-label="Column">fromDoc_ActualCode,  fromDoc_Code,  fromDoc_type,  fromDoc_id</div>
-<div class="cell" data-label="Arabic">بناءا على</div>
-<div class="cell" data-label="English">From Document</div>
-<div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
-<div class="row searchable" id="fromDocsCount">
-<div class="cell" data-label="Property">fromDocsCount</div>
-<div class="cell" data-label="Column">fromDocsCount</div>
-<div class="cell" data-label="Arabic">عدد سندات بناء على</div>
-<div class="cell" data-label="English">From Docs Count</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="row searchable" id="forType">
+<div class="cell" data-label="Property">forType</div>
+<div class="cell" data-label="Column">forType</div>
+<div class="cell" data-label="Arabic">للنوع</div>
+<div class="cell" data-label="English">For Type</div>
+<div class="cell" data-label="Type">EntityType</div>
 
 </div>
 
@@ -465,6 +390,18 @@
 
 </div>
 
+<div class="row searchable" id="group">
+<div class="cell" data-label="Property">group</div>
+<div class="cell" data-label="Column">group_id</div>
+<div class="cell" data-label="Arabic">المجموعة</div>
+<div class="cell" data-label="English">Group</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [MasterGroup](/modules/basic/MasterGroup.md) 
+</div>
+</div>
+
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
@@ -480,15 +417,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="issueDate">
-<div class="cell" data-label="Property">issueDate</div>
-<div class="cell" data-label="Column">issueDate</div>
-<div class="cell" data-label="Arabic">تاريخ التحرير</div>
-<div class="cell" data-label="English">Issue Date</div>
-<div class="cell" data-label="Type">Date</div>
 
 </div>
 
@@ -549,13 +477,16 @@
 
 </div>
 
-<div class="row searchable" id="manualRef1">
-<div class="cell" data-label="Property">manualRef1</div>
-<div class="cell" data-label="Column">manualRef1</div>
-<div class="cell" data-label="Arabic">رقم المستند اليدوي</div>
-<div class="cell" data-label="English">Manual Ref1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="row searchable" id="mainFile">
+<div class="cell" data-label="Property">mainFile</div>
+<div class="cell" data-label="Column">mainFile_id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
 
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
 </div>
 
 <div class="row searchable" id="n1">
@@ -603,16 +534,22 @@
 
 </div>
 
-<div class="row searchable" id="openShift">
-<div class="cell" data-label="Property">openShift</div>
-<div class="cell" data-label="Column">openShift_id</div>
-<div class="cell" data-label="Arabic">فتح وردية</div>
-<div class="cell" data-label="English">Open Shift</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
+<div class="row searchable" id="name1">
+<div class="cell" data-label="Property">name1</div>
+<div class="cell" data-label="Column">name1</div>
+<div class="cell" data-label="Arabic">الاسم العربي</div>
+<div class="cell" data-label="English">Name1</div>
+<div class="cell" data-label="Type">Text</div>
 
- [CSHOpenShift](/modules/accounting-cashier/CSHOpenShift.md) 
 </div>
+
+<div class="row searchable" id="name2">
+<div class="cell" data-label="Property">name2</div>
+<div class="cell" data-label="Column">name2</div>
+<div class="cell" data-label="Arabic">الاسم الإنجليزي</div>
+<div class="cell" data-label="English">Name2</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 <div class="row searchable" id="parentCode">
@@ -633,15 +570,6 @@
 
 </div>
 
-<div class="row searchable" id="preventUseAsFromDoc">
-<div class="cell" data-label="Property">preventUseAsFromDoc</div>
-<div class="cell" data-label="Column">preventUseAsFromDoc</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
 <div class="row searchable" id="printCount">
 <div class="cell" data-label="Property">printCount</div>
 <div class="cell" data-label="Column">printCount</div>
@@ -649,36 +577,6 @@
 <div class="cell" data-label="English">Print Count</div>
 <div class="cell" data-label="Type">Integer</div>
 
-</div>
-
-<div class="row searchable" id="priority">
-<div class="cell" data-label="Property">priority</div>
-<div class="cell" data-label="Column">priority</div>
-<div class="cell" data-label="Arabic">الأولوية</div>
-<div class="cell" data-label="English">Priority</div>
-<div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="purged">
-<div class="cell" data-label="Property">purged</div>
-<div class="cell" data-label="Column">purged</div>
-<div class="cell" data-label="Arabic">Purged</div>
-<div class="cell" data-label="English">Purged</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="rbook">
-<div class="cell" data-label="Property">rbook</div>
-<div class="cell" data-label="Column">rbook_id</div>
-<div class="cell" data-label="Arabic">دفتر الايصالات</div>
-<div class="cell" data-label="English">Receipt Book</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ReceiptBook](/modules/basic/ReceiptBook.md) 
-</div>
 </div>
 
 <div class="row searchable" id="ref1">
@@ -765,18 +663,6 @@
 </div>
 </div>
 
-<div class="row searchable" id="rpaper">
-<div class="cell" data-label="Property">rpaper</div>
-<div class="cell" data-label="Column">rpaper_id</div>
-<div class="cell" data-label="Arabic">الايصال</div>
-<div class="cell" data-label="English">Receipt Paper</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ReceiptPaper](/modules/basic/ReceiptPaper.md) 
-</div>
-</div>
-
 <div class="row searchable" id="sector">
 <div class="cell" data-label="Property">sector</div>
 <div class="cell" data-label="Column">sector_id</div>
@@ -798,33 +684,12 @@
 
 </div>
 
-<div class="row searchable" id="term">
-<div class="cell" data-label="Property">term</div>
-<div class="cell" data-label="Column">term_id</div>
-<div class="cell" data-label="Arabic">توجيه المستند</div>
-<div class="cell" data-label="English">Term</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [DocumentTerm](/modules/basic/DocumentTerm.md) 
-</div>
-</div>
-
-<div class="row searchable" id="termConfigXml">
-<div class="cell" data-label="Property">termConfigXml</div>
-<div class="cell" data-label="Column">termConfigXml</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="toDate">
-<div class="cell" data-label="Property">toDate</div>
-<div class="cell" data-label="Column">toDate</div>
-<div class="cell" data-label="Arabic">إلى تاريخ</div>
-<div class="cell" data-label="English">To Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="row searchable" id="systemGeneratedCodePrefix">
+<div class="cell" data-label="Property">systemGeneratedCodePrefix</div>
+<div class="cell" data-label="Column">systemGeneratedCodePrefix</div>
+<div class="cell" data-label="Arabic">System Generated Code Prefix</div>
+<div class="cell" data-label="English">System Generated Code Prefix</div>
+<div class="cell" data-label="Type">Text</div>
 
 </div>
 
@@ -870,15 +735,6 @@
 
 </div>
 
-<div class="row searchable" id="valueDate">
-<div class="cell" data-label="Property">valueDate</div>
-<div class="cell" data-label="Column">valueDate</div>
-<div class="cell" data-label="Arabic">التاريخ الفعلي</div>
-<div class="cell" data-label="English">Value Date</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
 <div class="row searchable" id="viewCapability">
 <div class="cell" data-label="Property">viewCapability</div>
 <div class="cell" data-label="Column">viewCapability_id</div>
@@ -910,7 +766,7 @@
 
 <div class='tableName'>
 
-**Table Name:** ManufacturingStandardPriceLine, **Join Column:** manufacturingStandardPrice_id
+**Table Name:** QuickFilterCriteriaLine, **Join Column:** quickFilterCriteria_id
 
 </div>
 
@@ -922,75 +778,42 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="details.commitedBefore">
-<div class="cell" data-label="Property">details.commitedBefore</div>
-<div class="cell" data-label="Column">commitedBefore</div>
-<div class="cell" data-label="Arabic">تم الحفظ مسبقا</div>
-<div class="cell" data-label="English">Commited Before</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="details.date1">
-<div class="cell" data-label="Property">details.date1</div>
-<div class="cell" data-label="Column">date1</div>
-<div class="cell" data-label="Arabic">تـــاريخ 1</div>
-<div class="cell" data-label="English">Date 1</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
-<div class="row searchable" id="details.date2">
-<div class="cell" data-label="Property">details.date2</div>
-<div class="cell" data-label="Column">date2</div>
-<div class="cell" data-label="Arabic">تـــاريخ 2</div>
-<div class="cell" data-label="English">Date 2</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
-<div class="row searchable" id="details.date3">
-<div class="cell" data-label="Property">details.date3</div>
-<div class="cell" data-label="Column">date3</div>
-<div class="cell" data-label="Arabic">تاريخ 3</div>
-<div class="cell" data-label="English">Date3</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
-<div class="row searchable" id="details.description1">
-<div class="cell" data-label="Property">details.description1</div>
-<div class="cell" data-label="Column">description1</div>
-<div class="cell" data-label="Arabic">الوصف 1</div>
-<div class="cell" data-label="English">description1</div>
+</div><div class="row searchable" id="details.arTitle">
+<div class="cell" data-label="Property">details.arTitle</div>
+<div class="cell" data-label="Column">arTitle</div>
+<div class="cell" data-label="Arabic">العنوان العربى</div>
+<div class="cell" data-label="English">Arabic Title</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
 
-<div class="row searchable" id="details.description2">
-<div class="cell" data-label="Property">details.description2</div>
-<div class="cell" data-label="Column">description2</div>
-<div class="cell" data-label="Arabic">الوصف 2</div>
-<div class="cell" data-label="English">description2</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="row searchable" id="details.criteria">
+<div class="cell" data-label="Property">details.criteria</div>
+<div class="cell" data-label="Column">criteria_id</div>
+<div class="cell" data-label="Arabic">المعايير</div>
+<div class="cell" data-label="English">Criteria</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CriteriaDefinition](/modules/basic/CriteriaDefinition.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.dynamicCriteria">
+<div class="cell" data-label="Property">details.dynamicCriteria</div>
+<div class="cell" data-label="Column">dynamicCriteria</div>
+<div class="cell" data-label="Arabic">معايير نصية</div>
+<div class="cell" data-label="English">Dynamic Criteria</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
-<div class="row searchable" id="details.description3">
-<div class="cell" data-label="Property">details.description3</div>
-<div class="cell" data-label="Column">description3</div>
-<div class="cell" data-label="Arabic">الوصف 3</div>
-<div class="cell" data-label="English">description3</div>
+<div class="row searchable" id="details.enTitle">
+<div class="cell" data-label="Property">details.enTitle</div>
+<div class="cell" data-label="Column">enTitle</div>
+<div class="cell" data-label="Arabic">العنوان الإنجليزي</div>
+<div class="cell" data-label="English">English Title</div>
 <div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="details.fromDate">
-<div class="cell" data-label="Property">details.fromDate</div>
-<div class="cell" data-label="Column">fromDate</div>
-<div class="cell" data-label="Arabic">من تاريخ</div>
-<div class="cell" data-label="English">From Date</div>
-<div class="cell" data-label="Type">Date</div>
 
 </div>
 
@@ -1003,45 +826,6 @@
 
 </div>
 
-<div class="row searchable" id="details.item.item">
-<div class="cell" data-label="Property">details.item.item</div>
-<div class="cell" data-label="Column">itemItem_id</div>
-<div class="cell" data-label="Arabic"> الصنف</div>
-<div class="cell" data-label="English"> Item</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [InvItem](/modules/supplychain/InvItem.md) 
-</div>
-</div>
-
-<div class="row searchable" id="details.item.itemCode">
-<div class="cell" data-label="Property">details.item.itemCode</div>
-<div class="cell" data-label="Column">itemItemCode</div>
-<div class="cell" data-label="Arabic"> الكود</div>
-<div class="cell" data-label="English"> Code</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="details.item.itemName1">
-<div class="cell" data-label="Property">details.item.itemName1</div>
-<div class="cell" data-label="Column">itemItemName1</div>
-<div class="cell" data-label="Arabic">اسم الصنف</div>
-<div class="cell" data-label="English">Item Name</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="details.item.itemName2">
-<div class="cell" data-label="Property">details.item.itemName2</div>
-<div class="cell" data-label="Column">itemItemName2</div>
-<div class="cell" data-label="Arabic">اسم الصنف الإنجليزي</div>
-<div class="cell" data-label="English">Item English Name</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
 <div class="row searchable" id="details.lineNumber">
 <div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
@@ -1049,99 +833,6 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
-</div>
-
-<div class="row searchable" id="details.n1">
-<div class="cell" data-label="Property">details.n1</div>
-<div class="cell" data-label="Column">n1</div>
-<div class="cell" data-label="Arabic">رقم 1</div>
-<div class="cell" data-label="English">Number 1</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="details.n2">
-<div class="cell" data-label="Property">details.n2</div>
-<div class="cell" data-label="Column">n2</div>
-<div class="cell" data-label="Arabic">رقم 2</div>
-<div class="cell" data-label="English">Number 2</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="details.n3">
-<div class="cell" data-label="Property">details.n3</div>
-<div class="cell" data-label="Column">n3</div>
-<div class="cell" data-label="Arabic">رقم 3</div>
-<div class="cell" data-label="English">Number 3</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="details.priority">
-<div class="cell" data-label="Property">details.priority</div>
-<div class="cell" data-label="Column">priority</div>
-<div class="cell" data-label="Arabic">الأولوية</div>
-<div class="cell" data-label="English">Priority</div>
-<div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="details.ref1">
-<div class="cell" data-label="Property">details.ref1</div>
-<div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
-<div class="cell" data-label="Arabic">مرجع 1</div>
-<div class="cell" data-label="English">Reference 1</div>
-<div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
-<div class="row searchable" id="details.ref2">
-<div class="cell" data-label="Property">details.ref2</div>
-<div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
-<div class="cell" data-label="Arabic">مرجع 2</div>
-<div class="cell" data-label="English">Reference 2</div>
-<div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
-<div class="row searchable" id="details.remarks">
-<div class="cell" data-label="Property">details.remarks</div>
-<div class="cell" data-label="Column">remarks</div>
-<div class="cell" data-label="Arabic"> ملاحظات</div>
-<div class="cell" data-label="English"> Description</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="details.standardPrice">
-<div class="cell" data-label="Property">details.standardPrice</div>
-<div class="cell" data-label="Column">standardPrice</div>
-<div class="cell" data-label="Arabic">السعر القياسي</div>
-<div class="cell" data-label="English">Standard Price</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="details.toDate">
-<div class="cell" data-label="Property">details.toDate</div>
-<div class="cell" data-label="Column">toDate</div>
-<div class="cell" data-label="Arabic">إلى تاريخ</div>
-<div class="cell" data-label="English">To Date</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
-<div class="row searchable" id="details.uom">
-<div class="cell" data-label="Property">details.uom</div>
-<div class="cell" data-label="Column">uom_id</div>
-<div class="cell" data-label="Arabic">الوحدة</div>
-<div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [UOM](/modules/supplychain/UOM.md) 
-</div>
 </div>
 
 

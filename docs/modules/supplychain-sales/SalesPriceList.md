@@ -2206,6 +2206,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.lastUpdateDate">
+<div class="cell" data-label="Property">details.lastUpdateDate</div>
+<div class="cell" data-label="Column">lastUpdateDate</div>
+<div class="cell" data-label="Arabic">تاريخ اخر تحديث</div>
+<div class="cell" data-label="English">Last update Date</div>
+<div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
 <div class="row searchable" id="details.lineNumber">
 <div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>

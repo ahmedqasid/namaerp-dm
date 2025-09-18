@@ -6654,7 +6654,70 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="services.date1">
+</div><div class="row searchable" id="services.attachment1">
+<div class="cell" data-label="Property">services.attachment1</div>
+<div class="cell" data-label="Column">attachment1_id</div>
+<div class="cell" data-label="Arabic">مرفق 1</div>
+<div class="cell" data-label="English">Attachment 1</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="services.attachment2">
+<div class="cell" data-label="Property">services.attachment2</div>
+<div class="cell" data-label="Column">attachment2_id</div>
+<div class="cell" data-label="Arabic">مرفق 2</div>
+<div class="cell" data-label="English">Attachment 2</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="services.attachment3">
+<div class="cell" data-label="Property">services.attachment3</div>
+<div class="cell" data-label="Column">attachment3_id</div>
+<div class="cell" data-label="Arabic">مرفق 3</div>
+<div class="cell" data-label="English">Attachment 3</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="services.b1">
+<div class="cell" data-label="Property">services.b1</div>
+<div class="cell" data-label="Column">b1</div>
+<div class="cell" data-label="Arabic">Boolean 1</div>
+<div class="cell" data-label="English">Boolean 1</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="services.b2">
+<div class="cell" data-label="Property">services.b2</div>
+<div class="cell" data-label="Column">b2</div>
+<div class="cell" data-label="Arabic">Boolean 2</div>
+<div class="cell" data-label="English">Boolean 2</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="services.b3">
+<div class="cell" data-label="Property">services.b3</div>
+<div class="cell" data-label="Column">b3</div>
+<div class="cell" data-label="Arabic">Boolean 3</div>
+<div class="cell" data-label="English">Boolean 3</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="services.date1">
 <div class="cell" data-label="Property">services.date1</div>
 <div class="cell" data-label="Column">date1</div>
 <div class="cell" data-label="Arabic">تـــاريخ 1</div>
@@ -6756,6 +6819,18 @@
 <div class="cell" data-label="Foreign Table">
 
  [MnMachine](/modules/crm-maintenance/MnMachine.md) 
+</div>
+</div>
+
+<div class="row searchable" id="services.mnContract">
+<div class="cell" data-label="Property">services.mnContract</div>
+<div class="cell" data-label="Column">mnContract_id</div>
+<div class="cell" data-label="Arabic">عقد الصيانة</div>
+<div class="cell" data-label="English">Maintenance Contract</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [MnContract](/modules/crm-maintenance/MnContract.md) 
 </div>
 </div>
 
@@ -7317,6 +7392,33 @@
 
 </div>
 
+<div class="row searchable" id="services.ref1">
+<div class="cell" data-label="Property">services.ref1</div>
+<div class="cell" data-label="Column">ref1</div>
+<div class="cell" data-label="Arabic">مرجع 1</div>
+<div class="cell" data-label="English">Reference 1</div>
+<div class="cell" data-label="Type"></div>
+
+</div>
+
+<div class="row searchable" id="services.ref2">
+<div class="cell" data-label="Property">services.ref2</div>
+<div class="cell" data-label="Column">ref2</div>
+<div class="cell" data-label="Arabic">مرجع 2</div>
+<div class="cell" data-label="English">Reference 2</div>
+<div class="cell" data-label="Type"></div>
+
+</div>
+
+<div class="row searchable" id="services.ref3">
+<div class="cell" data-label="Property">services.ref3</div>
+<div class="cell" data-label="Column">ref3</div>
+<div class="cell" data-label="Arabic">مرجع 3</div>
+<div class="cell" data-label="English">Reference 3</div>
+<div class="cell" data-label="Type"></div>
+
+</div>
+
 <div class="row searchable" id="services.service">
 <div class="cell" data-label="Property">services.service</div>
 <div class="cell" data-label="Column">service_id</div>
@@ -7336,6 +7438,48 @@
 <div class="cell" data-label="English">Source Line Id</div>
 <div class="cell" data-label="Type">ID</div>
 
+</div>
+
+<div class="row searchable" id="services.warrantyContract">
+<div class="cell" data-label="Property">services.warrantyContract</div>
+<div class="cell" data-label="Column">warrantyContract_id</div>
+<div class="cell" data-label="Arabic">عقد الضمان</div>
+<div class="cell" data-label="English">Warranty Contract</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [MnContract](/modules/crm-maintenance/MnContract.md) 
+</div>
+</div>
+
+<div class="row searchable" id="services.warrantyPeriod.uom">
+<div class="cell" data-label="Property">services.warrantyPeriod.uom</div>
+<div class="cell" data-label="Column">warrantyPeriodUom</div>
+<div class="cell" data-label="Arabic">الوحدة</div>
+<div class="cell" data-label="English">Unit</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="services.warrantyPeriod.value">
+<div class="cell" data-label="Property">services.warrantyPeriod.value</div>
+<div class="cell" data-label="Column">warrantyPeriodValue</div>
+<div class="cell" data-label="Arabic">فترة الضمان</div>
+<div class="cell" data-label="English">Warranty Period</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="services.warrantyPeriodType">
+<div class="cell" data-label="Property">services.warrantyPeriodType</div>
+<div class="cell" data-label="Column">warrantyPeriodType_id</div>
+<div class="cell" data-label="Arabic">نوع فترة الضمان</div>
+<div class="cell" data-label="English">Warranty Period Type</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [WarrantyPeriodType](/modules/crm-maintenance/WarrantyPeriodType.md) 
+</div>
 </div>
 
 

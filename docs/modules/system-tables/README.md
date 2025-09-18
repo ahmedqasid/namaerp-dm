@@ -257,6 +257,7 @@
   - [QtyTrackingTotalEntry](/modules/system-tables/QtyTrackingTotalEntry.md)
   - [QtyTrackingTransactionEntry](/modules/system-tables/QtyTrackingTransactionEntry.md)
   - [QtyTrans](/modules/system-tables/QtyTrans.md)
+  - [QuickFilterCriteria](/modules/system-tables/QuickFilterCriteria.md)
   - [RARentalAssetEntry](/modules/system-tables/RARentalAssetEntry.md)
   - [REEstateCostEntry](/modules/system-tables/REEstateCostEntry.md)
   - [REInvestmentFundInvestor](/modules/system-tables/REInvestmentFundInvestor.md)

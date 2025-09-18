@@ -4147,6 +4147,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="itemPriceLines.lastUpdateDate">
+<div class="cell" data-label="Property">itemPriceLines.lastUpdateDate</div>
+<div class="cell" data-label="Column">lastUpdateDate</div>
+<div class="cell" data-label="Arabic">تاريخ اخر تحديث</div>
+<div class="cell" data-label="English">Last update Date</div>
+<div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
 <div class="row searchable" id="itemPriceLines.lineNumber">
 <div class="cell" data-label="Property">itemPriceLines.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>

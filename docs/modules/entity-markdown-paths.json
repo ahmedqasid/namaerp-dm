@@ -1508,6 +1508,7 @@
   "QuestionClassification" : "supplychain-qc-qa/QuestionClassification.md",
   "QueueServiceBranch" : "srvcenter-service-queues/QueueServiceBranch.md",
   "QueueServiceConfig" : "srvcenter-service-queues/QueueServiceConfig.md",
+  "QuickFilterCriteria" : "system-tables/QuickFilterCriteria.md",
   "RARentalAssetEntry" : "system-tables/RARentalAssetEntry.md",
   "RARentalInvoice" : "srvcenter-rental-assets/RARentalInvoice.md",
   "RARentalRequest" : "srvcenter-rental-assets/RARentalRequest.md",

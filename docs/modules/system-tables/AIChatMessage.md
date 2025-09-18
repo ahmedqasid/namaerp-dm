@@ -86,6 +86,15 @@
 
 </div>
 
+<div class="row searchable" id="userFeedback">
+<div class="cell" data-label="Property">userFeedback</div>
+<div class="cell" data-label="Column">userFeedback</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 
 </div>
 </div>
