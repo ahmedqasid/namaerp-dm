@@ -18,6 +18,7 @@
   - [SrvCOperation](/modules/srvcenter/SrvCOperation.md)
   - [SrvCOperationClassification](/modules/srvcenter/SrvCOperationClassification.md)
   - [SrvCProduct](/modules/srvcenter/SrvCProduct.md)
+  - [SrvCProductTaskOpeningDoc](/modules/srvcenter/SrvCProductTaskOpeningDoc.md)
   - [SrvCProductionExecution](/modules/srvcenter/SrvCProductionExecution.md)
   - [SrvCRawMaterialIssue](/modules/srvcenter/SrvCRawMaterialIssue.md)
   - [SrvCRawMaterialIssueRequest](/modules/srvcenter/SrvCRawMaterialIssueRequest.md)

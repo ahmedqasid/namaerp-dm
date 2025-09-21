@@ -4121,7 +4121,7 @@
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [QuickFilterCriteria](/modules/system-tables/QuickFilterCriteria.md) 
+ [QuickFilterCriteria](/modules/basic/QuickFilterCriteria.md) 
 </div>
 </div>
 

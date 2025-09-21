@@ -2,7 +2,7 @@
 <div class='tableName'>
 
 
-# SrvCProductLastService
+# SrvCProductLastServiceTrans
 </div>
 
 
@@ -20,7 +20,16 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="id">
+</div><div class="row searchable" id="creationDate">
+<div class="cell" data-label="Property">creationDate</div>
+<div class="cell" data-label="Column">creationDate</div>
+<div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
+<div class="cell" data-label="English">Creation Date</div>
+<div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
+<div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
@@ -117,6 +126,15 @@
 
  [SrvCTask](/modules/srvcenter/SrvCTask.md) 
 </div>
+</div>
+
+<div class="row searchable" id="valueDate">
+<div class="cell" data-label="Property">valueDate</div>
+<div class="cell" data-label="Column">valueDate</div>
+<div class="cell" data-label="Arabic">التاريخ الفعلي</div>
+<div class="cell" data-label="English">Value Date</div>
+<div class="cell" data-label="Type">Date</div>
+
 </div>
 
 

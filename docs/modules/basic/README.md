@@ -103,6 +103,7 @@
   - [PerformanceOptimizer](/modules/basic/PerformanceOptimizer.md)
   - [PrintingFormWizard](/modules/basic/PrintingFormWizard.md)
   - [PurgeConfig](/modules/basic/PurgeConfig.md)
+  - [QuickFilterCriteria](/modules/basic/QuickFilterCriteria.md)
   - [ReceiptBook](/modules/basic/ReceiptBook.md)
   - [ReceiptPaper](/modules/basic/ReceiptPaper.md)
   - [RecuringDocument](/modules/basic/RecuringDocument.md)
