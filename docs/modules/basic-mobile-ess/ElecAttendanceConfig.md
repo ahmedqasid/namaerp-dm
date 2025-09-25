@@ -2,17 +2,17 @@
 <div class='tableName'>
 
 
-# FADeliveryReceiptDoc
+# ElecAttendanceConfig
 </div>
 
-**Arabic:** سند استلام وتسليم عهد - سندات استلام وتسليم عهد
-**English:** Custodies Delivery Receipt Document - Custodies Delivery Receipt Documents
+**Arabic:** إعدادات الحضور الالكتروني
+**English:** ُElectronic Attendance Configuration
 
 <ContentFilter/>
 
 
 <div class='searchable'>
-<a href='#details'>details (FADeliveryReceiptLine) </a>
+<a href='#attendanceConfigLines'>attendanceConfigLines (ElecAttendanceConfigLine) </a>
 </div>
 
 <div class='searchable'>
@@ -46,18 +46,6 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
-</div>
-
-<div class="row searchable" id="attachment">
-<div class="cell" data-label="Property">attachment</div>
-<div class="cell" data-label="Column">attachment_id</div>
-<div class="cell" data-label="Arabic">مرفق</div>
-<div class="cell" data-label="English">Attachment</div>
-<div class="cell" data-label="Type">Binary</div>
-<div class="cell" data-label="Foreign Table">
-
- [LargeData](/modules/system-tables/LargeData.md) 
-</div>
 </div>
 
 <div class="row searchable" id="book">
@@ -169,27 +157,6 @@
 <div class="cell" data-label="English">Current Version</div>
 <div class="cell" data-label="Type">Integer</div>
 
-</div>
-
-<div class="row searchable" id="custodiesTotalCost.amount">
-<div class="cell" data-label="Property">custodiesTotalCost.amount</div>
-<div class="cell" data-label="Column">custodiesTotalCostAmount</div>
-<div class="cell" data-label="Arabic"> المبلغ</div>
-<div class="cell" data-label="English"> Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="custodiesTotalCost.currency">
-<div class="cell" data-label="Property">custodiesTotalCost.currency</div>
-<div class="cell" data-label="Column">custodiesTotalCostCurrency_id</div>
-<div class="cell" data-label="Arabic">العملة</div>
-<div class="cell" data-label="English">Currency</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Currency](/modules/basic/Currency.md) 
-</div>
 </div>
 
 <div class="row searchable" id="customViewName">
@@ -453,18 +420,6 @@
 
 </div>
 
-<div class="row searchable" id="fromEmployee">
-<div class="cell" data-label="Property">fromEmployee</div>
-<div class="cell" data-label="Column">fromEmployee_id</div>
-<div class="cell" data-label="Arabic">من موظف</div>
-<div class="cell" data-label="English">From Employee</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Employee](/modules/basic/Employee.md) 
-</div>
-</div>
-
 <div class="row searchable" id="generatedByLine">
 <div class="cell" data-label="Property">generatedByLine</div>
 <div class="cell" data-label="Column">generatedByLine</div>
@@ -552,15 +507,6 @@
 <div class="cell" data-label="Arabic">تاريخ اخر تحديث</div>
 <div class="cell" data-label="English">Last update Date</div>
 <div class="cell" data-label="Type">DateAndTime</div>
-
-</div>
-
-<div class="row searchable" id="ledgerTransReqId">
-<div class="cell" data-label="Property">ledgerTransReqId</div>
-<div class="cell" data-label="Column">ledgerTransReqId</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
 
 </div>
 
@@ -692,6 +638,15 @@
 <div class="cell" data-label="Column">printCount</div>
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="priority">
+<div class="cell" data-label="Property">priority</div>
+<div class="cell" data-label="Column">priority</div>
+<div class="cell" data-label="Arabic">الأولوية</div>
+<div class="cell" data-label="English">Priority</div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
@@ -855,18 +810,6 @@
 
 </div>
 
-<div class="row searchable" id="toEmployee">
-<div class="cell" data-label="Property">toEmployee</div>
-<div class="cell" data-label="Column">toEmployee_id</div>
-<div class="cell" data-label="Arabic">الي موظف</div>
-<div class="cell" data-label="English">To Employee</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Employee](/modules/basic/Employee.md) 
-</div>
-</div>
-
 <div class="row searchable" id="updateCapability">
 <div class="cell" data-label="Property">updateCapability</div>
 <div class="cell" data-label="Column">updateCapability_id</div>
@@ -943,13 +886,13 @@
 </div>
 </div>
 
-<div id='details' title='details' class='searchable'>
+<div id='attendanceConfigLines' title='attendanceConfigLines' class='searchable'>
 
-## details (التفاصيل - Details)
+## attendanceConfigLines (إعدادات الحضور - Attendance Configuration)
 
 <div class='tableName'>
 
-**Table Name:** FADeliveryReceiptLine, **Join Column:** fADeliveryReceiptDoc_id
+**Table Name:** ElecAttendanceConfigLine, **Join Column:** elecAttendanceConfig_id
 
 </div>
 
@@ -961,38 +904,23 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="details.custody">
-<div class="cell" data-label="Property">details.custody</div>
-<div class="cell gen-ref-column" data-label="Column">custodyActualCode,  custodyCode,  custodyEntityType,  custodyId</div>
-<div class="cell" data-label="Arabic"> عهدة</div>
-<div class="cell" data-label="English"> Custody</div>
-<div class="cell" data-label="Type">Genericreference</div>
+</div><div class="row searchable" id="attendanceConfigLines.departmentSection">
+<div class="cell" data-label="Property">attendanceConfigLines.departmentSection</div>
+<div class="cell" data-label="Column">departmentSection_id</div>
+<div class="cell" data-label="Arabic">القسم الوظيفي</div>
+<div class="cell" data-label="English">Department Section</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
 
+ [DepartmentSection](/modules/basic/DepartmentSection.md) 
+</div>
 </div>
 
-<div class="row searchable" id="details.custodyPer">
-<div class="cell" data-label="Property">details.custodyPer</div>
-<div class="cell" data-label="Column">custodyPer</div>
-<div class="cell" data-label="Arabic">نسبة</div>
-<div class="cell" data-label="English">Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="details.deliveredToAnother">
-<div class="cell" data-label="Property">details.deliveredToAnother</div>
-<div class="cell" data-label="Column">deliveredToAnother</div>
-<div class="cell" data-label="Arabic">تم التسليم إلى موظف</div>
-<div class="cell" data-label="English">Delivered To Another Employee</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="details.fromEmployee">
-<div class="cell" data-label="Property">details.fromEmployee</div>
-<div class="cell" data-label="Column">fromEmployee_id</div>
-<div class="cell" data-label="Arabic">من موظف</div>
-<div class="cell" data-label="English">From Employee</div>
+<div class="row searchable" id="attendanceConfigLines.employee">
+<div class="cell" data-label="Property">attendanceConfigLines.employee</div>
+<div class="cell" data-label="Column">employee_id</div>
+<div class="cell" data-label="Arabic">الموظف</div>
+<div class="cell" data-label="English">Employee</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -1000,8 +928,41 @@
 </div>
 </div>
 
-<div class="row searchable" id="details.id">
-<div class="cell" data-label="Property">details.id</div>
+<div class="row searchable" id="attendanceConfigLines.employeeDepartment">
+<div class="cell" data-label="Property">attendanceConfigLines.employeeDepartment</div>
+<div class="cell" data-label="Column">employeeDepartment_id</div>
+<div class="cell" data-label="Arabic"> إدارة موظف</div>
+<div class="cell" data-label="English"> Employee Department</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [EmployeeDepartment](/modules/basic/EmployeeDepartment.md) 
+</div>
+</div>
+
+<div class="row searchable" id="attendanceConfigLines.employeeGroup">
+<div class="cell" data-label="Property">attendanceConfigLines.employeeGroup</div>
+<div class="cell" data-label="Column">employeeGroup_id</div>
+<div class="cell" data-label="Arabic">مجموعة موظفين</div>
+<div class="cell" data-label="English">Employee Group</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [EmployeeGroup](/modules/basic/EmployeeGroup.md) 
+</div>
+</div>
+
+<div class="row searchable" id="attendanceConfigLines.hideDocumentsAfterCheckIn">
+<div class="cell" data-label="Property">attendanceConfigLines.hideDocumentsAfterCheckIn</div>
+<div class="cell" data-label="Column">hideDocumentsAfterCheckIn</div>
+<div class="cell" data-label="Arabic">إخفاء السندات بعد تسجيل الحضور (بدون تسجيل خروج)</div>
+<div class="cell" data-label="English">Hide Documents After Check In</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="attendanceConfigLines.id">
+<div class="cell" data-label="Property">attendanceConfigLines.id</div>
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -1009,8 +970,20 @@
 
 </div>
 
-<div class="row searchable" id="details.lineNumber">
-<div class="cell" data-label="Property">details.lineNumber</div>
+<div class="row searchable" id="attendanceConfigLines.jobPosition">
+<div class="cell" data-label="Property">attendanceConfigLines.jobPosition</div>
+<div class="cell" data-label="Column">jobPosition_id</div>
+<div class="cell" data-label="Arabic">الموقع الوظيفي</div>
+<div class="cell" data-label="English">Job Position</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [JobPosition](/modules/basic/JobPosition.md) 
+</div>
+</div>
+
+<div class="row searchable" id="attendanceConfigLines.lineNumber">
+<div class="cell" data-label="Property">attendanceConfigLines.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -1018,87 +991,21 @@
 
 </div>
 
-<div class="row searchable" id="details.n1">
-<div class="cell" data-label="Property">details.n1</div>
-<div class="cell" data-label="Column">n1</div>
-<div class="cell" data-label="Arabic">رقم 1</div>
-<div class="cell" data-label="English">Number 1</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="row searchable" id="attendanceConfigLines.numberOfHoursAllowedBeforePreventingCheckOut">
+<div class="cell" data-label="Property">attendanceConfigLines.numberOfHoursAllowedBeforePreventingCheckOut</div>
+<div class="cell" data-label="Column">numberOfHoursAllowedBeforePreventingCheckOut</div>
+<div class="cell" data-label="Arabic">عدد الساعات المسموح بها قبل منع تسجيل الانصراف من خلال التطبيق</div>
+<div class="cell" data-label="English">Number Of Hours Allowed Before Preventing CheckOut</div>
+<div class="cell" data-label="Type">Integer</div>
 
 </div>
 
-<div class="row searchable" id="details.n2">
-<div class="cell" data-label="Property">details.n2</div>
-<div class="cell" data-label="Column">n2</div>
-<div class="cell" data-label="Arabic">رقم 2</div>
-<div class="cell" data-label="English">Number 2</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="details.n3">
-<div class="cell" data-label="Property">details.n3</div>
-<div class="cell" data-label="Column">n3</div>
-<div class="cell" data-label="Arabic">رقم 3</div>
-<div class="cell" data-label="English">Number 3</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="details.ownerDoc">
-<div class="cell" data-label="Property">details.ownerDoc</div>
-<div class="cell gen-ref-column" data-label="Column">ownerDocActualCode,  ownerDocCode,  ownerDocEntityType,  ownerDocId</div>
-<div class="cell" data-label="Arabic">المستند</div>
-<div class="cell" data-label="English">Document</div>
-<div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
-<div class="row searchable" id="details.text1">
-<div class="cell" data-label="Property">details.text1</div>
-<div class="cell" data-label="Column">text1</div>
-<div class="cell" data-label="Arabic">نــــص 1</div>
-<div class="cell" data-label="English">Text 1</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="details.text2">
-<div class="cell" data-label="Property">details.text2</div>
-<div class="cell" data-label="Column">text2</div>
-<div class="cell" data-label="Arabic">نـــــص 2</div>
-<div class="cell" data-label="English">Text 2</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="details.text3">
-<div class="cell" data-label="Property">details.text3</div>
-<div class="cell" data-label="Column">text3</div>
-<div class="cell" data-label="Arabic">نص 3</div>
-<div class="cell" data-label="English">text3</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="details.toEmployee">
-<div class="cell" data-label="Property">details.toEmployee</div>
-<div class="cell" data-label="Column">toEmployee_id</div>
-<div class="cell" data-label="Arabic">الي موظف</div>
-<div class="cell" data-label="English">To Employee</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Employee](/modules/basic/Employee.md) 
-</div>
-</div>
-
-<div class="row searchable" id="details.valueDate">
-<div class="cell" data-label="Property">details.valueDate</div>
-<div class="cell" data-label="Column">valueDate</div>
-<div class="cell" data-label="Arabic">التاريخ الفعلي</div>
-<div class="cell" data-label="English">Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="row searchable" id="attendanceConfigLines.priority">
+<div class="cell" data-label="Property">attendanceConfigLines.priority</div>
+<div class="cell" data-label="Column">priority</div>
+<div class="cell" data-label="Arabic">الأولوية</div>
+<div class="cell" data-label="English">Priority</div>
+<div class="cell" data-label="Type">Integer</div>
 
 </div>
 

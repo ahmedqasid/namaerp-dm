@@ -1004,6 +1004,8 @@ export const entityPathsMap: Record<string, string> = {
   "EffectsUnitCostConfigLine" : "system-tables/EffectsUnitCostConfigLine.html",
   "ElecAttendanceAllowedZone" : "basic-mobile-ess/ElecAttendanceAllowedZone.html",
   "ElectronicAttendAllowedZoneLine" : "basic-mobile-ess/ElecAttendanceAllowedZone.html#details",
+  "ElecAttendanceConfig" : "basic-mobile-ess/ElecAttendanceConfig.html",
+  "ElecAttendanceConfigLine" : "basic-mobile-ess/ElecAttendanceConfig.html#attendanceConfigLines",
   "ElectronicAttendance" : "humanresource-payroll/ElectronicAttendance.html",
   "ElectronicAttendanceZone" : "basic-mobile-ess/ElectronicAttendanceZone.html",
   "ElectronicAttendanceZonesExclusion" : "basic-mobile-ess/ElectronicAttendanceZonesExclusion.html",

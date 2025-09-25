@@ -2261,6 +2261,15 @@
 
 </div>
 
+<div class="row searchable" id="lines.toDate">
+<div class="cell" data-label="Property">lines.toDate</div>
+<div class="cell" data-label="Column">toDate</div>
+<div class="cell" data-label="Arabic">إلى تاريخ</div>
+<div class="cell" data-label="English">To Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
 
 </div>
 </div>

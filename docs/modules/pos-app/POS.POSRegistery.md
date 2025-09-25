@@ -252,6 +252,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="description1">
+<div class="cell" data-label="Property">description1</div>
+<div class="cell" data-label="Column">description1</div>
+<div class="cell" data-label="Arabic">الوصف 1</div>
+<div class="cell" data-label="English">description1</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="doNotDisplayReturnedLinesWhenSelectingInv">
 <div class="cell" data-label="Property">doNotDisplayReturnedLinesWhenSelectingInv</div>
 <div class="cell" data-label="Column">doNotDisplayReturnedLinesWhenSelectingInv</div>

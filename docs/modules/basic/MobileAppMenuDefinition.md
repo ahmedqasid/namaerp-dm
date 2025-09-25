@@ -27,7 +27,16 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="analysisSet">
+</div><div class="row searchable" id="addToDefault">
+<div class="cell" data-label="Property">addToDefault</div>
+<div class="cell" data-label="Column">addToDefault</div>
+<div class="cell" data-label="Arabic">إضافة إلى القاىْمة الافتراضية</div>
+<div class="cell" data-label="English">Add To Default Menu</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="analysisSet">
 <div class="cell" data-label="Property">analysisSet</div>
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic">المجموعة التحليلية</div>
@@ -390,6 +399,18 @@
 <div class="cell" data-label="Foreign Table">
 
  [MasterGroup](/modules/basic/MasterGroup.md) 
+</div>
+</div>
+
+<div class="row searchable" id="homeShortcut">
+<div class="cell" data-label="Property">homeShortcut</div>
+<div class="cell" data-label="Column">homeShortcut_id</div>
+<div class="cell" data-label="Arabic">اختصارات الصفحة الرئيسة</div>
+<div class="cell" data-label="English">Home Shortcuts</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [MobileAppShortcut](/modules/basic/MobileAppShortcut.md) 
 </div>
 </div>
 

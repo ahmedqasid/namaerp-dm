@@ -488,7 +488,7 @@ export const SIDEBAR_CONFIG = {
       children: [ "/modules/accounting/", "/modules/accounting-banks/", "/modules/accounting-blc/", "/modules/accounting-budget/", "/modules/accounting-cashier/", "/modules/accounting-electronic-receipt/", "/modules/accounting-financial-commitments-regulation/", "/modules/accounting-investment/", "/modules/accounting-investment-documents/", "/modules/accounting-lgt/", "/modules/accounting-loans/", "/modules/ai/", "/modules/auditing/", "/modules/basic/", "/modules/basic-advanced-import/", "/modules/basic-customer-portal/", "/modules/basic-dms/", "/modules/basic-external-reward-points/", "/modules/basic-forms-1-2/", "/modules/basic-forms-3-4/", "/modules/basic-forms-5-6/", "/modules/basic-forms-7-8/", "/modules/basic-forms-9-10/", "/modules/basic-go-pay-ksa/", {
         text: "Mobile ESS",
         collapsible: true,
-        children: [ "/modules/basic-mobile-ess/ElecAttendanceAllowedZone.md", "/modules/basic-mobile-ess/ElectronicAttendanceZone.md", "/modules/basic-mobile-ess/ElectronicAttendanceZonesExclusion.md", "/modules/basic-mobile-ess/MobileAppDashboard.md", {
+        children: [ "/modules/basic-mobile-ess/ElecAttendanceAllowedZone.md", "/modules/basic-mobile-ess/ElecAttendanceConfig.md", "/modules/basic-mobile-ess/ElectronicAttendanceZone.md", "/modules/basic-mobile-ess/ElectronicAttendanceZonesExclusion.md", "/modules/basic-mobile-ess/MobileAppDashboard.md", {
           text: ".",
           "link" : "/modules/basic-mobile-ess/"
         } ]

@@ -711,6 +711,18 @@
 
 </div>
 
+<div class="row searchable" id="saveSalasaOrdersUsingMagentoSite">
+<div class="cell" data-label="Property">saveSalasaOrdersUsingMagentoSite</div>
+<div class="cell" data-label="Column">saveSalasaOrdersUsingMagentoSite_id</div>
+<div class="cell" data-label="Arabic">Save Salasa Orders Using Magento Site</div>
+<div class="cell" data-label="English">Save Salasa Orders Using Magento Site</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [MAGMagentoSite](/modules/magento/MAGMagentoSite.md) 
+</div>
+</div>
+
 <div class="row searchable" id="sector">
 <div class="cell" data-label="Property">sector</div>
 <div class="cell" data-label="Column">sector_id</div>

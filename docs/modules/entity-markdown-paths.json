@@ -480,6 +480,7 @@
   "EcommerceWebhookRedirect" : "magento-central-webhooks/EcommerceWebhookRedirect.md",
   "EffectsUnitCostConfigLine" : "system-tables/EffectsUnitCostConfigLine.md",
   "ElecAttendanceAllowedZone" : "basic-mobile-ess/ElecAttendanceAllowedZone.md",
+  "ElecAttendanceConfig" : "basic-mobile-ess/ElecAttendanceConfig.md",
   "ElectronicAttendance" : "humanresource-payroll/ElectronicAttendance.md",
   "ElectronicAttendanceZone" : "basic-mobile-ess/ElectronicAttendanceZone.md",
   "ElectronicAttendanceZonesExclusion" : "basic-mobile-ess/ElectronicAttendanceZonesExclusion.md",

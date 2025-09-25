@@ -582,11 +582,38 @@
 
 </div>
 
+<div class="row searchable" id="omnifulReferenceFieldForPurchaseOrder">
+<div class="cell" data-label="Property">omnifulReferenceFieldForPurchaseOrder</div>
+<div class="cell" data-label="Column">omnifulReferenceFieldForPurchaseOrder</div>
+<div class="cell" data-label="Arabic">حقل مرجع أومنيفل في أمر شراء</div>
+<div class="cell" data-label="English">Omniful Reference Field For Purchase Order</div>
+<div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
 <div class="row searchable" id="omnifulReferenceFieldForReceiptStockTransfer">
 <div class="cell" data-label="Property">omnifulReferenceFieldForReceiptStockTransfer</div>
 <div class="cell" data-label="Column">omnifulReferenceFieldForReceiptStockTransfer</div>
 <div class="cell" data-label="Arabic">حقل مرجع أومنيفل في استلام تحويل مخزني</div>
 <div class="cell" data-label="English">Omniful Reference Field For Receipt Stock Transfer</div>
+<div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
+<div class="row searchable" id="omnifulReferenceFieldForStockReceipt">
+<div class="cell" data-label="Property">omnifulReferenceFieldForStockReceipt</div>
+<div class="cell" data-label="Column">omnifulReferenceFieldForStockReceipt</div>
+<div class="cell" data-label="Arabic">حقل مرجع أومنيفل في التوريد المخزني</div>
+<div class="cell" data-label="English">Omniful Reference Field For Stock Receipt</div>
+<div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
+<div class="row searchable" id="omnifulReferenceFieldForStockTransferReq">
+<div class="cell" data-label="Property">omnifulReferenceFieldForStockTransferReq</div>
+<div class="cell" data-label="Column">omnifulReferenceFieldForStockTransferReq</div>
+<div class="cell" data-label="Arabic">حقل مرجع أومنيفل في طلب التحويل المخزني</div>
+<div class="cell" data-label="English">Omniful Reference Field For Stock Transfer Request</div>
 <div class="cell" data-label="Type">FieldID</div>
 
 </div>
