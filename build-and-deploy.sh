@@ -17,7 +17,9 @@ function checkForErrors() {
 }
 git add *
 git commit -m "new release"
+checkForErrors
 git push
+checkForErrors
 
 git_pull
 checkForErrors
