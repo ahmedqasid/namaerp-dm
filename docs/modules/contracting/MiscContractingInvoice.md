@@ -582,6 +582,147 @@
 
 </div>
 
+<div class="row searchable" id="info.arrivingPort">
+<div class="cell" data-label="Property">info.arrivingPort</div>
+<div class="cell" data-label="Column">infoArrivingPort</div>
+<div class="cell" data-label="Arabic">ميناء الوصول</div>
+<div class="cell" data-label="English">Arriving Port</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="info.arrivingPortRef">
+<div class="cell" data-label="Property">info.arrivingPortRef</div>
+<div class="cell" data-label="Column">infoArrivingPortRef_id</div>
+<div class="cell" data-label="Arabic">ميناء الوصول (مرجع)</div>
+<div class="cell" data-label="English">Arriving Port (Ref)</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ShippingPort](/modules/frm/ShippingPort.md) 
+</div>
+</div>
+
+<div class="row searchable" id="info.customsParty">
+<div class="cell" data-label="Property">info.customsParty</div>
+<div class="cell" data-label="Column">infoCustomsParty_id</div>
+<div class="cell" data-label="Arabic">شركة التخليص الجمركي</div>
+<div class="cell" data-label="English">Customs Party</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ThirdParty](/modules/basic/ThirdParty.md) 
+</div>
+</div>
+
+<div class="row searchable" id="info.expectedDeliveryDate">
+<div class="cell" data-label="Property">info.expectedDeliveryDate</div>
+<div class="cell" data-label="Column">infoExpectedDeliveryDate</div>
+<div class="cell" data-label="Arabic">تاريخ التسليم المتوقع</div>
+<div class="cell" data-label="English">Expected Delivery Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="info.expectedDeliveryPeriod.uom">
+<div class="cell" data-label="Property">info.expectedDeliveryPeriod.uom</div>
+<div class="cell" data-label="Column">infoExpectPeriodUom</div>
+<div class="cell" data-label="Arabic">الوحدة</div>
+<div class="cell" data-label="English">Unit</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="info.expectedDeliveryPeriod.value">
+<div class="cell" data-label="Property">info.expectedDeliveryPeriod.value</div>
+<div class="cell" data-label="Column">infoExpectPeriodValue</div>
+<div class="cell" data-label="Arabic">القيمة</div>
+<div class="cell" data-label="English">Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="info.expectedShippingDate">
+<div class="cell" data-label="Property">info.expectedShippingDate</div>
+<div class="cell" data-label="Column">infoExpectedShippingDate</div>
+<div class="cell" data-label="Arabic">تاريخ الشحن المتوقع</div>
+<div class="cell" data-label="English">Expected Shipping Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="info.incoterm">
+<div class="cell" data-label="Property">info.incoterm</div>
+<div class="cell" data-label="Column">Incoterm</div>
+<div class="cell" data-label="Arabic">سياسة الشحن - التسليم</div>
+<div class="cell" data-label="English">Incoterm</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="info.insuranceParty">
+<div class="cell" data-label="Property">info.insuranceParty</div>
+<div class="cell" data-label="Column">infoInsuranceParty_id</div>
+<div class="cell" data-label="Arabic">شركة التأمين</div>
+<div class="cell" data-label="English">Insurance Party</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ThirdParty](/modules/basic/ThirdParty.md) 
+</div>
+</div>
+
+<div class="row searchable" id="info.shippingParty">
+<div class="cell" data-label="Property">info.shippingParty</div>
+<div class="cell" data-label="Column">infoShippingParty_id</div>
+<div class="cell" data-label="Arabic">شركة الشحن</div>
+<div class="cell" data-label="English">Shipping Party</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ThirdParty](/modules/basic/ThirdParty.md) 
+</div>
+</div>
+
+<div class="row searchable" id="info.shippingPort">
+<div class="cell" data-label="Property">info.shippingPort</div>
+<div class="cell" data-label="Column">infoShippingPort</div>
+<div class="cell" data-label="Arabic">ميناء الشحن</div>
+<div class="cell" data-label="English">Shipping Port</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="info.shippingPortRef">
+<div class="cell" data-label="Property">info.shippingPortRef</div>
+<div class="cell" data-label="Column">infoShippingPortRef_id</div>
+<div class="cell" data-label="Arabic">ميناء الشحن (مرجع)</div>
+<div class="cell" data-label="English">Shipping Port (Ref)</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ShippingPort](/modules/frm/ShippingPort.md) 
+</div>
+</div>
+
+<div class="row searchable" id="info.shippingWay">
+<div class="cell" data-label="Property">info.shippingWay</div>
+<div class="cell" data-label="Column">infoShippingWay</div>
+<div class="cell" data-label="Arabic">طريقة الشحن</div>
+<div class="cell" data-label="English">Shipping Way</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="info.terms">
+<div class="cell" data-label="Property">info.terms</div>
+<div class="cell" data-label="Column">infoTerms</div>
+<div class="cell" data-label="Arabic">البنود</div>
+<div class="cell" data-label="English">Terms</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
 <div class="row searchable" id="isSalesNotPurchase">
 <div class="cell" data-label="Property">isSalesNotPurchase</div>
 <div class="cell" data-label="Column">isSalesNotPurchase</div>

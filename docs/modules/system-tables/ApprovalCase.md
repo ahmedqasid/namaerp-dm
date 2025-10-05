@@ -69,6 +69,24 @@
 </div>
 </div>
 
+<div class="row searchable" id="approvalRef1">
+<div class="cell" data-label="Property">approvalRef1</div>
+<div class="cell gen-ref-column" data-label="Column">approvalRef1ActualCode,  approvalRef1Code,  approvalRef1EntityType,  approvalRef1Id</div>
+<div class="cell" data-label="Arabic">مرجع 1 للموافقة</div>
+<div class="cell" data-label="English">Approval Reference 1</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="approvalRef2">
+<div class="cell" data-label="Property">approvalRef2</div>
+<div class="cell gen-ref-column" data-label="Column">approvalRef2ActualCode,  approvalRef2Code,  approvalRef2EntityType,  approvalRef2Id</div>
+<div class="cell" data-label="Arabic">مرجع 2 للموافقة</div>
+<div class="cell" data-label="English">Approval Reference 2</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
 <div class="row searchable" id="approvedElement">
 <div class="cell" data-label="Property">approvedElement</div>
 <div class="cell gen-ref-column" data-label="Column">approvedElementActualCode,  approvedElementCode,  approvedElementEntityType,  approvedElementId</div>

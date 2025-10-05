@@ -853,6 +853,15 @@
 
 </div>
 
+<div class="row searchable" id="ref10">
+<div class="cell" data-label="Property">ref10</div>
+<div class="cell gen-ref-column" data-label="Column">ref10ActualCode,  ref10Code,  ref10EntityType,  ref10Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
 <div class="row searchable" id="ref2">
 <div class="cell" data-label="Property">ref2</div>
 <div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
@@ -885,6 +894,42 @@
 <div class="cell gen-ref-column" data-label="Column">ref5ActualCode,  ref5Code,  ref5EntityType,  ref5Id</div>
 <div class="cell" data-label="Arabic">مرجع 5</div>
 <div class="cell" data-label="English">Reference 5</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="ref6">
+<div class="cell" data-label="Property">ref6</div>
+<div class="cell gen-ref-column" data-label="Column">ref6ActualCode,  ref6Code,  ref6EntityType,  ref6Id</div>
+<div class="cell" data-label="Arabic">مرجع 6</div>
+<div class="cell" data-label="English">Reference 6</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="ref7">
+<div class="cell" data-label="Property">ref7</div>
+<div class="cell gen-ref-column" data-label="Column">ref7ActualCode,  ref7Code,  ref7EntityType,  ref7Id</div>
+<div class="cell" data-label="Arabic">مرجع 7</div>
+<div class="cell" data-label="English">Reference 7</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="ref8">
+<div class="cell" data-label="Property">ref8</div>
+<div class="cell gen-ref-column" data-label="Column">ref8ActualCode,  ref8Code,  ref8EntityType,  ref8Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="ref9">
+<div class="cell" data-label="Property">ref9</div>
+<div class="cell gen-ref-column" data-label="Column">ref9ActualCode,  ref9Code,  ref9EntityType,  ref9Id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Genericreference</div>
 
 </div>

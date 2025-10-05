@@ -126,6 +126,24 @@
 
 </div>
 
+<div class="row searchable" id="approvalRef1Source">
+<div class="cell" data-label="Property">approvalRef1Source</div>
+<div class="cell" data-label="Column">approvalRef1Source</div>
+<div class="cell" data-label="Arabic">مصدر مرجع 1 للموافقة</div>
+<div class="cell" data-label="English">Approval Reference 1 Source</div>
+<div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
+<div class="row searchable" id="approvalRef2Source">
+<div class="cell" data-label="Property">approvalRef2Source</div>
+<div class="cell" data-label="Column">approvalRef2Source</div>
+<div class="cell" data-label="Arabic">مصدر مرجع 2 للموافقة</div>
+<div class="cell" data-label="English">Approval Reference 2 Source</div>
+<div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
 <div class="row searchable" id="approveLines">
 <div class="cell" data-label="Property">approveLines</div>
 <div class="cell" data-label="Column">approveLines</div>
