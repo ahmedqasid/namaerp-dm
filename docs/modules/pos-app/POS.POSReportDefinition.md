@@ -99,6 +99,15 @@
 
 </div>
 
+<div class="row searchable" id="formInvoiceClassificationId">
+<div class="cell" data-label="Property">formInvoiceClassificationId</div>
+<div class="cell" data-label="Column">formInvoiceClassificationId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
 <div class="row searchable" id="genericDims.analysisSet.code">
 <div class="cell" data-label="Property">genericDims.analysisSet.code</div>
 <div class="cell" data-label="Column">analysisSetCode</div>

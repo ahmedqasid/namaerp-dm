@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#contacts'>contacts (POSRegistery_POSRegisterContactInfoLine) </a> , <a href='#currencies'>currencies (POSRegisteryCurrecyLine) </a> , <a href='#docsCodingParams'>docsCodingParams (POSRegisteryCodingParam) </a> , <a href='#favouriteDocs'>favouriteDocs (POSRegisteryFavouriteDocLine) </a> , <a href='#favouriteLines'>favouriteLines (POSRegisteryFavouriteLine) </a> , <a href='#fixedFavouriteLines'>fixedFavouriteLines (POSRegistery_POSRegisteryFixedFavouriteLine) </a> , <a href='#paymentMethods'>paymentMethods (POSRegisteryMethodLine) </a> , <a href='#tableLines'>tableLines (POSHallTableLine) </a> , <a href='#takenElementsPerShiftLines'>takenElementsPerShiftLines (POSTakenElementsPerShiftLine) </a>
+<a href='#allowedUsers'>allowedUsers (POSRegistery_POSRegisteryUserLine) </a> , <a href='#contacts'>contacts (POSRegistery_POSRegisterContactInfoLine) </a> , <a href='#currencies'>currencies (POSRegisteryCurrecyLine) </a> , <a href='#docsCodingParams'>docsCodingParams (POSRegisteryCodingParam) </a> , <a href='#favouriteDocs'>favouriteDocs (POSRegisteryFavouriteDocLine) </a> , <a href='#favouriteLines'>favouriteLines (POSRegisteryFavouriteLine) </a> , <a href='#fixedFavouriteLines'>fixedFavouriteLines (POSRegistery_POSRegisteryFixedFavouriteLine) </a> , <a href='#paymentMethods'>paymentMethods (POSRegisteryMethodLine) </a> , <a href='#tableLines'>tableLines (POSHallTableLine) </a> , <a href='#takenElementsPerShiftLines'>takenElementsPerShiftLines (POSTakenElementsPerShiftLine) </a>
 </div>
 
 <div class='searchable'>
@@ -1011,6 +1011,46 @@
 <div class="row searchable" id="writeFailures">
 <div class="cell" data-label="Property">writeFailures</div>
 <div class="cell" data-label="Column">writeFailures</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='allowedUsers' title='allowedUsers' class='searchable'>
+
+## allowedUsers (المستخدمين المسموح لهم - Allowed Users)
+
+<div class='tableName'>
+
+**Table Name:** POSRegistery_POSRegisteryUserLine, **Join Column:** POSRegistery_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="allowedUsers.id">
+<div class="cell" data-label="Property">allowedUsers.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="allowedUsers.lineNumber">
+<div class="cell" data-label="Property">allowedUsers.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>

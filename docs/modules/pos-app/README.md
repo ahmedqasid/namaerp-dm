@@ -64,6 +64,7 @@
   - [POS.POSRegisterContactInfoLine (Table Name: POSRegisterContactInfoLine)](/modules/pos-app/POS.POSRegisterContactInfoLine.md)
   - [POS.POSRegistery (Table Name: POSRegistery)](/modules/pos-app/POS.POSRegistery.md)
   - [POS.POSRegisteryFixedFavouriteLine (Table Name: POSRegisteryFixedFavouriteLine)](/modules/pos-app/POS.POSRegisteryFixedFavouriteLine.md)
+  - [POS.POSRegisteryUserLine (Table Name: POSRegisteryUserLine)](/modules/pos-app/POS.POSRegisteryUserLine.md)
   - [POS.POSReportDefinition (Table Name: POSReportDefinition)](/modules/pos-app/POS.POSReportDefinition.md)
   - [POS.POSReturnReason (Table Name: POSReturnReason)](/modules/pos-app/POS.POSReturnReason.md)
   - [POS.POSRewardPointConfig (Table Name: POSRewardPointConfig)](/modules/pos-app/POS.POSRewardPointConfig.md)

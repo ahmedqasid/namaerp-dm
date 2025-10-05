@@ -1461,6 +1461,15 @@
 
 </div>
 
+<div class="row searchable" id="relatedParentServiceItemsQueryForQtyUpdate">
+<div class="cell" data-label="Property">relatedParentServiceItemsQueryForQtyUpdate</div>
+<div class="cell" data-label="Column">relatedParentServiceItemsQueryForQtyUpdate</div>
+<div class="cell" data-label="Arabic">Related Parent Service Items Query For Qty Update</div>
+<div class="cell" data-label="English">Related Parent Service Items Query For Qty Update</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
 <div class="row searchable" id="remarks">
 <div class="cell" data-label="Property">remarks</div>
 <div class="cell" data-label="Column">remark</div>

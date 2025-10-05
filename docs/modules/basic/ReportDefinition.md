@@ -600,6 +600,18 @@
 
 </div>
 
+<div class="row searchable" id="formInvoiceClassification">
+<div class="cell" data-label="Property">formInvoiceClassification</div>
+<div class="cell" data-label="Column">formInvoiceClassification_id</div>
+<div class="cell" data-label="Arabic">تصيف فاتورة (خاص بنقاط البيع)</div>
+<div class="cell" data-label="English">Invoice Classification (Related To POS)</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InvoiceClassification](/modules/supplychain/InvoiceClassification.md) 
+</div>
+</div>
+
 <div class="row searchable" id="formPage">
 <div class="cell" data-label="Property">formPage</div>
 <div class="cell" data-label="Column">formPage</div>

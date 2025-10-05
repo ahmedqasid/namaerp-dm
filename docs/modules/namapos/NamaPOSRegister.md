@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#booksAndTerms'>booksAndTerms (NamaPOSRegisterBookAndTermLine) </a> , <a href='#contacts'>contacts (NamaPOSRegisterContactInfoLine) </a> , <a href='#currencies'>currencies (NamaRegisterCurrencyLine) </a> , <a href='#docsCodingParams'>docsCodingParams (POSRegisterDocsCodingParam) </a> , <a href='#favouriteDocs'>favouriteDocs (POSFavouriteDocLine) </a> , <a href='#favouriteItems'>favouriteItems (POSFavouriteItemLine) </a> , <a href='#fixedFavouriteItems'>fixedFavouriteItems (NamaPOSFixedFavouriteItemsLine) </a> , <a href='#paymentMethods'>paymentMethods (NamaRegisterMethodLine) </a> , <a href='#paymentTerms'>paymentTerms (NamaPOSPayTermLine) </a> , <a href='#receiptTerms'>receiptTerms (NamaPOSReceiptTermLine) </a> , <a href='#returnTerms'>returnTerms (NamaPOSReturnTermLine) </a> , <a href='#salesTerms'>salesTerms (NamaPOSSalesInvTermLine) </a> , <a href='#tables'>tables (NamaPOSTableLine) </a> , <a href='#takenElementsPerShift'>takenElementsPerShift (NamaPOSRegisterShiftTakenElement) </a>
+<a href='#allowedUsers'>allowedUsers (NamaPOSRegisterUserLine) </a> , <a href='#booksAndTerms'>booksAndTerms (NamaPOSRegisterBookAndTermLine) </a> , <a href='#contacts'>contacts (NamaPOSRegisterContactInfoLine) </a> , <a href='#currencies'>currencies (NamaRegisterCurrencyLine) </a> , <a href='#docsCodingParams'>docsCodingParams (POSRegisterDocsCodingParam) </a> , <a href='#favouriteDocs'>favouriteDocs (POSFavouriteDocLine) </a> , <a href='#favouriteItems'>favouriteItems (POSFavouriteItemLine) </a> , <a href='#fixedFavouriteItems'>fixedFavouriteItems (NamaPOSFixedFavouriteItemsLine) </a> , <a href='#paymentMethods'>paymentMethods (NamaRegisterMethodLine) </a> , <a href='#paymentTerms'>paymentTerms (NamaPOSPayTermLine) </a> , <a href='#receiptTerms'>receiptTerms (NamaPOSReceiptTermLine) </a> , <a href='#returnTerms'>returnTerms (NamaPOSReturnTermLine) </a> , <a href='#salesTerms'>salesTerms (NamaPOSSalesInvTermLine) </a> , <a href='#tables'>tables (NamaPOSTableLine) </a> , <a href='#takenElementsPerShift'>takenElementsPerShift (NamaPOSRegisterShiftTakenElement) </a>
 </div>
 
 <div class='searchable'>
@@ -2029,6 +2029,58 @@
 <div class="cell" data-label="English">Work Shift Time</div>
 <div class="cell" data-label="Type">Time</div>
 
+</div>
+
+
+</div>
+</div>
+
+<div id='allowedUsers' title='allowedUsers' class='searchable'>
+
+## allowedUsers (المستخدمين المسموح لهم - Allowed Users)
+
+<div class='tableName'>
+
+**Table Name:** NamaPOSRegisterUserLine, **Join Column:** namaPOSRegister_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="allowedUsers.id">
+<div class="cell" data-label="Property">allowedUsers.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="allowedUsers.lineNumber">
+<div class="cell" data-label="Property">allowedUsers.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="allowedUsers.user">
+<div class="cell" data-label="Property">allowedUsers.user</div>
+<div class="cell" data-label="Column">user_id</div>
+<div class="cell" data-label="Arabic">المستخدم</div>
+<div class="cell" data-label="English">User</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [NaMaUser](/modules/system-tables/NaMaUser.md) 
+</div>
 </div>
 
 
