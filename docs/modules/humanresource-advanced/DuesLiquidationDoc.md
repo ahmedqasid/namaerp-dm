@@ -831,6 +831,18 @@
 
 </div>
 
+<div class="row searchable" id="firingDocument">
+<div class="cell" data-label="Property">firingDocument</div>
+<div class="cell" data-label="Column">firingDocument_id</div>
+<div class="cell" data-label="Arabic">سند إنهاء الخدمة</div>
+<div class="cell" data-label="English">Firing Document</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [FiringDocument](/modules/humanresource-payroll/FiringDocument.md) 
+</div>
+</div>
+
 <div class="row searchable" id="firstAuthor">
 <div class="cell" data-label="Property">firstAuthor</div>
 <div class="cell" data-label="Column">firstAuthor_id</div>

@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#details'>details (CRTNOrderLine) </a>
+<a href='#details'>details (CRTNOrderLine) </a> , <a href='#manufacturingDetails'>manufacturingDetails (CRTNOrderManufacturingLine) </a>
 </div>
 
 <div class='searchable'>
@@ -2197,8 +2197,90 @@
 
 </div>
 
-<div class="row searchable" id="details.usedInDocument">
-<div class="cell" data-label="Property">details.usedInDocument</div>
+
+</div>
+</div>
+
+<div id='manufacturingDetails' title='manufacturingDetails' class='searchable'>
+
+## manufacturingDetails (تفاصيل التصنيع - Manufacturing Details)
+
+<div class='tableName'>
+
+**Table Name:** CRTNOrderManufacturingLine, **Join Column:** cRTNOrder_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="manufacturingDetails.cartonSpecs">
+<div class="cell" data-label="Property">manufacturingDetails.cartonSpecs</div>
+<div class="cell" data-label="Column">cartonSpecs_id</div>
+<div class="cell" data-label="Arabic">مواصفات الكرتونة</div>
+<div class="cell" data-label="English">Carton Specs</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CRTNSpecification](/modules/manufacturing-crtn-pln/CRTNSpecification.md) 
+</div>
+</div>
+
+<div class="row searchable" id="manufacturingDetails.id">
+<div class="cell" data-label="Property">manufacturingDetails.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="manufacturingDetails.item">
+<div class="cell" data-label="Property">manufacturingDetails.item</div>
+<div class="cell" data-label="Column">item_id</div>
+<div class="cell" data-label="Arabic">الصنف</div>
+<div class="cell" data-label="English">Item</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InvItem](/modules/supplychain/InvItem.md) 
+</div>
+</div>
+
+<div class="row searchable" id="manufacturingDetails.lineNumber">
+<div class="cell" data-label="Property">manufacturingDetails.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="manufacturingDetails.orderDetailLineId">
+<div class="cell" data-label="Property">manufacturingDetails.orderDetailLineId</div>
+<div class="cell" data-label="Column">orderDetailLineId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="manufacturingDetails.quantity">
+<div class="cell" data-label="Property">manufacturingDetails.quantity</div>
+<div class="cell" data-label="Column">quantity</div>
+<div class="cell" data-label="Arabic">الكمية</div>
+<div class="cell" data-label="English">Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="manufacturingDetails.usedInDocument">
+<div class="cell" data-label="Property">manufacturingDetails.usedInDocument</div>
 <div class="cell gen-ref-column" data-label="Column">usedInDocumentActualCode,  usedInDocumentCode,  usedInDocumentEntityType,  usedInDocumentId</div>
 <div class="cell" data-label="Arabic">مستعمل في سند</div>
 <div class="cell" data-label="English">Used In Document</div>

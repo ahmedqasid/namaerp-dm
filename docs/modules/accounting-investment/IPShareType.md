@@ -2,11 +2,11 @@
 <div class='tableName'>
 
 
-# InvestmentPortfolio
+# IPShareType
 </div>
 
-**Arabic:** محفظة اسثمارية - محافظ استثمارية
-**English:** Investment Portfolio - Investment Portfolios
+**Arabic:** نوع السهم - أنواع الأسهم
+**English:** Share Type - Share Types
 
 <ContentFilter/>
 
@@ -202,6 +202,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="description">
+<div class="cell" data-label="Property">description</div>
+<div class="cell" data-label="Column">description</div>
+<div class="cell" data-label="Arabic">الوصف</div>
+<div class="cell" data-label="English">Description</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -404,18 +413,6 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
-</div>
-
-<div class="row searchable" id="investmentProject">
-<div class="cell" data-label="Property">investmentProject</div>
-<div class="cell" data-label="Column">investmentProject_id</div>
-<div class="cell" data-label="Arabic">المشروع الاستثماري</div>
-<div class="cell" data-label="English">Investment Project</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [InvestmentProject](/modules/accounting-investment/InvestmentProject.md) 
-</div>
 </div>
 
 <div class="row searchable" id="lastChangeVersion">

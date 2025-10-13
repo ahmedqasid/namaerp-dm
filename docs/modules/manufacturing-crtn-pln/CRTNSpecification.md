@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#firstProductionStage'>firstProductionStage (CRTNSpecificationFirstProductionStage) </a> , <a href='#routings'>routings (CRTNSpecificationRouting) </a> , <a href='#secondProductionStage'>secondProductionStage (CRTNSpecificationSecondProductionStage) </a> , <a href='#thirdProductionStage'>thirdProductionStage (CRTNSpecificationThirdProductionStage) </a>
+<a href='#childCartonLines'>childCartonLines (CRTNSpecificationChildCartonLine) </a> , <a href='#firstProductionStage'>firstProductionStage (CRTNSpecificationFirstProductionStage) </a> , <a href='#routings'>routings (CRTNSpecificationRouting) </a> , <a href='#secondProductionStage'>secondProductionStage (CRTNSpecificationSecondProductionStage) </a> , <a href='#thirdProductionStage'>thirdProductionStage (CRTNSpecificationThirdProductionStage) </a>
 </div>
 
 <div class='searchable'>
@@ -636,6 +636,27 @@
 </div>
 </div>
 
+<div class="row searchable" id="manufacturingParentSpecification">
+<div class="cell" data-label="Property">manufacturingParentSpecification</div>
+<div class="cell" data-label="Column">manufacturingParentSpecification_id</div>
+<div class="cell" data-label="Arabic">Manufacturing Parent Specification</div>
+<div class="cell" data-label="English">Manufacturing Parent Specification</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CRTNSpecification](/modules/manufacturing-crtn-pln/CRTNSpecification.md) 
+</div>
+</div>
+
+<div class="row searchable" id="manufacturingType">
+<div class="cell" data-label="Property">manufacturingType</div>
+<div class="cell" data-label="Column">manufacturingType</div>
+<div class="cell" data-label="Arabic">نوع التصنيع</div>
+<div class="cell" data-label="English">Manufacturing Type</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="multiplicationLength">
 <div class="cell" data-label="Property">multiplicationLength</div>
 <div class="cell" data-label="Column">multiplicationLength</div>
@@ -1170,6 +1191,58 @@
 <div class="cell" data-label="Arabic">الأبعاد | العرض</div>
 <div class="cell" data-label="English">Measures | Width</div>
 <div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='childCartonLines' title='childCartonLines' class='searchable'>
+
+## childCartonLines (الكراتين الفرعية - Child Carton Lines)
+
+<div class='tableName'>
+
+**Table Name:** CRTNSpecificationChildCartonLine, **Join Column:** cRTNSpecification_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="childCartonLines.cartonSpecs">
+<div class="cell" data-label="Property">childCartonLines.cartonSpecs</div>
+<div class="cell" data-label="Column">cartonSpecs_id</div>
+<div class="cell" data-label="Arabic">مواصفات الكرتونة</div>
+<div class="cell" data-label="English">Carton Specs</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CRTNSpecification](/modules/manufacturing-crtn-pln/CRTNSpecification.md) 
+</div>
+</div>
+
+<div class="row searchable" id="childCartonLines.id">
+<div class="cell" data-label="Property">childCartonLines.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="childCartonLines.lineNumber">
+<div class="cell" data-label="Property">childCartonLines.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
 
 </div>
 

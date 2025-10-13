@@ -2,13 +2,18 @@
 <div class='tableName'>
 
 
-# InvestmentCompany
+# IPInvestmentPortfolio
 </div>
 
-**Arabic:** شركة استثمار - شركات استثمار
-**English:** Investment Company - Investment Companies
+**Arabic:** محفظة استثمارية - محافظ استثمارية
+**English:** Investment Portfolio - Investment Portfolios
 
 <ContentFilter/>
+
+
+<div class='searchable'>
+<a href='#details'>details (IPInvestmentPortfolioLine) </a>
+</div>
 
 <div class='searchable'>
 
@@ -103,6 +108,30 @@
 </div>
 </div>
 
+<div class="row searchable" id="bank">
+<div class="cell" data-label="Property">bank</div>
+<div class="cell" data-label="Column">bank_id</div>
+<div class="cell" data-label="Arabic">البنك</div>
+<div class="cell" data-label="English">Bank</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Bank](/modules/accounting-banks/Bank.md) 
+</div>
+</div>
+
+<div class="row searchable" id="bankAccount">
+<div class="cell" data-label="Property">bankAccount</div>
+<div class="cell" data-label="Column">bankAccount_id</div>
+<div class="cell" data-label="Arabic">رقم حساب البنك</div>
+<div class="cell" data-label="English">Bank account</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [BankAccount](/modules/accounting-banks/BankAccount.md) 
+</div>
+</div>
+
 <div class="row searchable" id="branch">
 <div class="cell" data-label="Property">branch</div>
 <div class="cell" data-label="Column">branch_id</div>
@@ -148,24 +177,6 @@
 <div class="cell" data-label="Arabic">تم الحفظ مسبقا</div>
 <div class="cell" data-label="English">Commited Before</div>
 <div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="companyNumber">
-<div class="cell" data-label="Property">companyNumber</div>
-<div class="cell" data-label="Column">companyNumber</div>
-<div class="cell" data-label="Arabic">رقم الشركة</div>
-<div class="cell" data-label="English">Company Number</div>
-<div class="cell" data-label="Type">PhoneNumber</div>
-
-</div>
-
-<div class="row searchable" id="country">
-<div class="cell" data-label="Property">country</div>
-<div class="cell" data-label="Column">country</div>
-<div class="cell" data-label="Arabic">الدولة</div>
-<div class="cell" data-label="English">Country</div>
-<div class="cell" data-label="Type">Text</div>
 
 </div>
 
@@ -388,15 +399,6 @@
 </div>
 </div>
 
-<div class="row searchable" id="email">
-<div class="cell" data-label="Property">email</div>
-<div class="cell" data-label="Column">email</div>
-<div class="cell" data-label="Arabic">إيميل</div>
-<div class="cell" data-label="English">E-mail</div>
-<div class="cell" data-label="Type">Email</div>
-
-</div>
-
 <div class="row searchable" id="entitySystemEntryId">
 <div class="cell" data-label="Property">entitySystemEntryId</div>
 <div class="cell" data-label="Column">entitySystemEntry_id</div>
@@ -500,6 +502,18 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
+</div>
+
+<div class="row searchable" id="investmentCompany">
+<div class="cell" data-label="Property">investmentCompany</div>
+<div class="cell" data-label="Column">investmentCompany_id</div>
+<div class="cell" data-label="Arabic">شركة الاستثمار</div>
+<div class="cell" data-label="English">Investment Company</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InvestmentCompany](/modules/accounting-investment-documents/InvestmentCompany.md) 
+</div>
 </div>
 
 <div class="row searchable" id="investmentDocStatus">
@@ -643,30 +657,12 @@
 
 </div>
 
-<div class="row searchable" id="notTaxable">
-<div class="cell" data-label="Property">notTaxable</div>
-<div class="cell" data-label="Column">notTaxable</div>
-<div class="cell" data-label="Arabic">غير خاضع للضريبة</div>
-<div class="cell" data-label="English">Not Taxable</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
 <div class="row searchable" id="parentCode">
 <div class="cell" data-label="Property">parentCode</div>
 <div class="cell" data-label="Column">parentCode</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="phoneNumber">
-<div class="cell" data-label="Property">phoneNumber</div>
-<div class="cell" data-label="Column">phoneNumber</div>
-<div class="cell" data-label="Arabic">رقم الهاتف</div>
-<div class="cell" data-label="English">Phone Number</div>
-<div class="cell" data-label="Type">PhoneNumber</div>
 
 </div>
 
@@ -739,15 +735,6 @@
 <div class="cell" data-label="Arabic">ملاحظات</div>
 <div class="cell" data-label="English">Description</div>
 <div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="responsibleName">
-<div class="cell" data-label="Property">responsibleName</div>
-<div class="cell" data-label="Column">responsibleName</div>
-<div class="cell" data-label="Arabic">إسم المسئول</div>
-<div class="cell" data-label="English">Responsible Name</div>
-<div class="cell" data-label="Type">Text</div>
 
 </div>
 
@@ -1141,6 +1128,42 @@
 
 </div>
 
+<div class="row searchable" id="taxPercent">
+<div class="cell" data-label="Property">taxPercent</div>
+<div class="cell" data-label="Column">taxPercent</div>
+<div class="cell" data-label="Arabic">الضريبة | النسبه</div>
+<div class="cell" data-label="English">Tax Percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxValue">
+<div class="cell" data-label="Property">taxValue</div>
+<div class="cell" data-label="Column">taxValue</div>
+<div class="cell" data-label="Arabic">الضريبة | القيمة</div>
+<div class="cell" data-label="English">Tax value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="totalAfterTaxes">
+<div class="cell" data-label="Property">totalAfterTaxes</div>
+<div class="cell" data-label="Column">totalAfterTaxes</div>
+<div class="cell" data-label="Arabic">الصافي بعد الضريبة</div>
+<div class="cell" data-label="English">Total After Taxes</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="totalPortfolioInlocalTotal">
+<div class="cell" data-label="Property">totalPortfolioInlocalTotal</div>
+<div class="cell" data-label="Column">totalPortfolioInlocalTotal</div>
+<div class="cell" data-label="Arabic">إجمالي المحفظة بالعملة المحلية</div>
+<div class="cell" data-label="English">Total Portfolio In Local Currency</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="updateCapability">
 <div class="cell" data-label="Property">updateCapability</div>
 <div class="cell" data-label="Column">updateCapability_id</div>
@@ -1201,6 +1224,211 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='details' title='details' class='searchable'>
+
+## details (التفاصيل - Details)
+
+<div class='tableName'>
+
+**Table Name:** IPInvestmentPortfolioLine, **Join Column:** iPInvestmentPortfolio_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="details.currency">
+<div class="cell" data-label="Property">details.currency</div>
+<div class="cell" data-label="Column">currency_id</div>
+<div class="cell" data-label="Arabic">العملة</div>
+<div class="cell" data-label="English">Currency</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Currency](/modules/basic/Currency.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.currencyRate">
+<div class="cell" data-label="Property">details.currencyRate</div>
+<div class="cell" data-label="Column">currencyRate</div>
+<div class="cell" data-label="Arabic">المعدل</div>
+<div class="cell" data-label="English">Currency Rate</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.currentLocalPrice">
+<div class="cell" data-label="Property">details.currentLocalPrice</div>
+<div class="cell" data-label="Column">currentLocalPrice</div>
+<div class="cell" data-label="Arabic">السعر الحالي بالعملة المحلية</div>
+<div class="cell" data-label="English">Current Price in Local Currency</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.currentPrice">
+<div class="cell" data-label="Property">details.currentPrice</div>
+<div class="cell" data-label="Column">currentPrice</div>
+<div class="cell" data-label="Arabic">السعر الحالي</div>
+<div class="cell" data-label="English">Current Price</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.currentTotal">
+<div class="cell" data-label="Property">details.currentTotal</div>
+<div class="cell" data-label="Column">currentTotal</div>
+<div class="cell" data-label="Arabic">الإجمالي الحالي</div>
+<div class="cell" data-label="English">Current Total</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.id">
+<div class="cell" data-label="Property">details.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="details.investment">
+<div class="cell" data-label="Property">details.investment</div>
+<div class="cell gen-ref-column" data-label="Column">investmentActualCode,  investmentCode,  investmentEntityType,  investmentId</div>
+<div class="cell" data-label="Arabic">استثمار</div>
+<div class="cell" data-label="English">investment</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.investmentType">
+<div class="cell" data-label="Property">details.investmentType</div>
+<div class="cell" data-label="Column">investmentType</div>
+<div class="cell" data-label="Arabic">نوع الاستثمار</div>
+<div class="cell" data-label="English">Investment Type</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.lineNumber">
+<div class="cell" data-label="Property">details.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="details.localTotal">
+<div class="cell" data-label="Property">details.localTotal</div>
+<div class="cell" data-label="Column">localTotal</div>
+<div class="cell" data-label="Arabic">السعر بالعملة المحلية</div>
+<div class="cell" data-label="English">Price in Local Currency</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.localTotalAfterTax">
+<div class="cell" data-label="Property">details.localTotalAfterTax</div>
+<div class="cell" data-label="Column">localTotalAfterTax</div>
+<div class="cell" data-label="Arabic">الإجمالي بالعملة المحلية بعد الضريبة</div>
+<div class="cell" data-label="English">Total in Local Currency</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.purchaseDate">
+<div class="cell" data-label="Property">details.purchaseDate</div>
+<div class="cell" data-label="Column">purchaseDate</div>
+<div class="cell" data-label="Arabic">تاريخ الشراء</div>
+<div class="cell" data-label="English">Purchase date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="details.quantityOrValue">
+<div class="cell" data-label="Property">details.quantityOrValue</div>
+<div class="cell" data-label="Column">quantityOrValue</div>
+<div class="cell" data-label="Arabic">الكمية / القيمة</div>
+<div class="cell" data-label="English">Quantity / Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.status">
+<div class="cell" data-label="Property">details.status</div>
+<div class="cell" data-label="Column">status</div>
+<div class="cell" data-label="Arabic">الحالة</div>
+<div class="cell" data-label="English">Status</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="details.subsidiary">
+<div class="cell" data-label="Property">details.subsidiary</div>
+<div class="cell gen-ref-column" data-label="Column">subsidiaryActualCode,  subsidiaryCode,  subsidiaryEntityType,  subsidiaryId</div>
+<div class="cell" data-label="Arabic">الذمة</div>
+<div class="cell" data-label="English">Subsidiary</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.tax.percentage">
+<div class="cell" data-label="Property">details.tax.percentage</div>
+<div class="cell" data-label="Column">taxPercentage</div>
+<div class="cell" data-label="Arabic">الضريبة | النسبة</div>
+<div class="cell" data-label="English">tax | percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.tax.value">
+<div class="cell" data-label="Property">details.tax.value</div>
+<div class="cell" data-label="Column">taxValue</div>
+<div class="cell" data-label="Arabic">الضريبة | القيمة</div>
+<div class="cell" data-label="English">tax | value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.total">
+<div class="cell" data-label="Property">details.total</div>
+<div class="cell" data-label="Column">total</div>
+<div class="cell" data-label="Arabic">الإجمالي</div>
+<div class="cell" data-label="English">Total</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.totalAfterTax">
+<div class="cell" data-label="Property">details.totalAfterTax</div>
+<div class="cell" data-label="Column">totalAfterTax</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.unitPrice">
+<div class="cell" data-label="Property">details.unitPrice</div>
+<div class="cell" data-label="Column">unitPrice</div>
+<div class="cell" data-label="Arabic">سعر الوحدة</div>
+<div class="cell" data-label="English">Unit Price</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 

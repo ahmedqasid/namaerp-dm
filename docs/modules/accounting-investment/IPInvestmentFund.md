@@ -2,13 +2,17 @@
 <div class='tableName'>
 
 
-# InvestmentCompany
+# IPInvestmentFund
 </div>
 
-**Arabic:** شركة استثمار - شركات استثمار
-**English:** Investment Company - Investment Companies
+**Arabic:** صندوق استثماري - الصناديق الاستثمارية
 
 <ContentFilter/>
+
+
+<div class='searchable'>
+<a href='#investmentProjects'>investmentProjects (InvestmentFundLine) </a>
+</div>
 
 <div class='searchable'>
 
@@ -148,24 +152,6 @@
 <div class="cell" data-label="Arabic">تم الحفظ مسبقا</div>
 <div class="cell" data-label="English">Commited Before</div>
 <div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="companyNumber">
-<div class="cell" data-label="Property">companyNumber</div>
-<div class="cell" data-label="Column">companyNumber</div>
-<div class="cell" data-label="Arabic">رقم الشركة</div>
-<div class="cell" data-label="English">Company Number</div>
-<div class="cell" data-label="Type">PhoneNumber</div>
-
-</div>
-
-<div class="row searchable" id="country">
-<div class="cell" data-label="Property">country</div>
-<div class="cell" data-label="Column">country</div>
-<div class="cell" data-label="Arabic">الدولة</div>
-<div class="cell" data-label="English">Country</div>
-<div class="cell" data-label="Type">Text</div>
 
 </div>
 
@@ -388,15 +374,6 @@
 </div>
 </div>
 
-<div class="row searchable" id="email">
-<div class="cell" data-label="Property">email</div>
-<div class="cell" data-label="Column">email</div>
-<div class="cell" data-label="Arabic">إيميل</div>
-<div class="cell" data-label="English">E-mail</div>
-<div class="cell" data-label="Type">Email</div>
-
-</div>
-
 <div class="row searchable" id="entitySystemEntryId">
 <div class="cell" data-label="Property">entitySystemEntryId</div>
 <div class="cell" data-label="Column">entitySystemEntry_id</div>
@@ -434,6 +411,18 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
+</div>
+
+<div class="row searchable" id="fundType">
+<div class="cell" data-label="Property">fundType</div>
+<div class="cell" data-label="Column">fundType_id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [FundType](/modules/accounting-investment/FundType.md) 
+</div>
 </div>
 
 <div class="row searchable" id="generatedByLine">
@@ -500,6 +489,18 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
+</div>
+
+<div class="row searchable" id="investmentCompany">
+<div class="cell" data-label="Property">investmentCompany</div>
+<div class="cell" data-label="Column">investmentCompany_id</div>
+<div class="cell" data-label="Arabic">شركة الاستثمار</div>
+<div class="cell" data-label="English">Investment Company</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InvestmentCompany](/modules/accounting-investment-documents/InvestmentCompany.md) 
+</div>
 </div>
 
 <div class="row searchable" id="investmentDocStatus">
@@ -643,30 +644,12 @@
 
 </div>
 
-<div class="row searchable" id="notTaxable">
-<div class="cell" data-label="Property">notTaxable</div>
-<div class="cell" data-label="Column">notTaxable</div>
-<div class="cell" data-label="Arabic">غير خاضع للضريبة</div>
-<div class="cell" data-label="English">Not Taxable</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
 <div class="row searchable" id="parentCode">
 <div class="cell" data-label="Property">parentCode</div>
 <div class="cell" data-label="Column">parentCode</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="phoneNumber">
-<div class="cell" data-label="Property">phoneNumber</div>
-<div class="cell" data-label="Column">phoneNumber</div>
-<div class="cell" data-label="Arabic">رقم الهاتف</div>
-<div class="cell" data-label="English">Phone Number</div>
-<div class="cell" data-label="Type">PhoneNumber</div>
 
 </div>
 
@@ -685,6 +668,15 @@
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="purchaseDate">
+<div class="cell" data-label="Property">purchaseDate</div>
+<div class="cell" data-label="Column">purchaseDate</div>
+<div class="cell" data-label="Arabic">تاريخ الشراء</div>
+<div class="cell" data-label="English">Purchase date</div>
+<div class="cell" data-label="Type">Date</div>
 
 </div>
 
@@ -739,15 +731,6 @@
 <div class="cell" data-label="Arabic">ملاحظات</div>
 <div class="cell" data-label="English">Description</div>
 <div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="responsibleName">
-<div class="cell" data-label="Property">responsibleName</div>
-<div class="cell" data-label="Column">responsibleName</div>
-<div class="cell" data-label="Arabic">إسم المسئول</div>
-<div class="cell" data-label="English">Responsible Name</div>
-<div class="cell" data-label="Type">Text</div>
 
 </div>
 
@@ -1141,6 +1124,42 @@
 
 </div>
 
+<div class="row searchable" id="taxPercent">
+<div class="cell" data-label="Property">taxPercent</div>
+<div class="cell" data-label="Column">taxPercent</div>
+<div class="cell" data-label="Arabic">الضريبة | النسبه</div>
+<div class="cell" data-label="English">Tax Percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="taxValue">
+<div class="cell" data-label="Property">taxValue</div>
+<div class="cell" data-label="Column">taxValue</div>
+<div class="cell" data-label="Arabic">الضريبة | القيمة</div>
+<div class="cell" data-label="English">Tax value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="totalAfterTaxes">
+<div class="cell" data-label="Property">totalAfterTaxes</div>
+<div class="cell" data-label="Column">totalAfterTaxes</div>
+<div class="cell" data-label="Arabic">الصافي بعد الضريبة</div>
+<div class="cell" data-label="English">Total After Taxes</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="totalFundInlocalTotal">
+<div class="cell" data-label="Property">totalFundInlocalTotal</div>
+<div class="cell" data-label="Column">totalFundInlocalTotal</div>
+<div class="cell" data-label="Arabic">إجمالي الصندوق بالعملة المحلية</div>
+<div class="cell" data-label="English">Total Fund In Local Currency</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="updateCapability">
 <div class="cell" data-label="Property">updateCapability</div>
 <div class="cell" data-label="Column">updateCapability_id</div>
@@ -1201,6 +1220,67 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='investmentProjects' title='investmentProjects' class='searchable'>
+
+## investmentProjects (المشاريع الاستثمارية - Investment Projects)
+
+<div class='tableName'>
+
+**Table Name:** InvestmentFundLine, **Join Column:** iPInvestmentFund_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="investmentProjects.id">
+<div class="cell" data-label="Property">investmentProjects.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="investmentProjects.investmentProject">
+<div class="cell" data-label="Property">investmentProjects.investmentProject</div>
+<div class="cell" data-label="Column">investmentProject_id</div>
+<div class="cell" data-label="Arabic">المشروع الاستثماري</div>
+<div class="cell" data-label="English">Investment Project</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InvestmentProject](/modules/accounting-investment/InvestmentProject.md) 
+</div>
+</div>
+
+<div class="row searchable" id="investmentProjects.lineNumber">
+<div class="cell" data-label="Property">investmentProjects.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="investmentProjects.remarks">
+<div class="cell" data-label="Property">investmentProjects.remarks</div>
+<div class="cell" data-label="Column">remarks</div>
+<div class="cell" data-label="Arabic">ملاحظات</div>
+<div class="cell" data-label="English">Description</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 

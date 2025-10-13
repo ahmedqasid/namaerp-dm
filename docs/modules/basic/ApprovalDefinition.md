@@ -1899,6 +1899,15 @@
 
 </div>
 
+<div class="row searchable" id="steps.requireAllApprovers">
+<div class="cell" data-label="Property">steps.requireAllApprovers</div>
+<div class="cell" data-label="Column">requireAllApprovers</div>
+<div class="cell" data-label="Arabic">يتطلب موافقة الجميع</div>
+<div class="cell" data-label="English">Require All Approvers</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="steps.requireOtp">
 <div class="cell" data-label="Property">steps.requireOtp</div>
 <div class="cell" data-label="Column">requireOtp</div>
