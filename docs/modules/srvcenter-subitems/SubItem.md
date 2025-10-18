@@ -1352,6 +1352,15 @@
 
 </div>
 
+<div class="row searchable" id="preventSales">
+<div class="cell" data-label="Property">preventSales</div>
+<div class="cell" data-label="Column">preventSales</div>
+<div class="cell" data-label="Arabic">منع البيع</div>
+<div class="cell" data-label="English">Prevent Sales</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="preventUsage">
 <div class="cell" data-label="Property">preventUsage</div>
 <div class="cell" data-label="Column">preventUsage</div>

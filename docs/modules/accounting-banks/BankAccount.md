@@ -36,6 +36,15 @@
 
 </div>
 
+<div class="row searchable" id="altCode">
+<div class="cell" data-label="Property">altCode</div>
+<div class="cell" data-label="Column">altCode</div>
+<div class="cell" data-label="Arabic">الكود الإنجليزي</div>
+<div class="cell" data-label="English">English Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="analysisSet">
 <div class="cell" data-label="Property">analysisSet</div>
 <div class="cell" data-label="Column">analysisSet_id</div>

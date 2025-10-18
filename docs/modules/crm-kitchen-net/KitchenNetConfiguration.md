@@ -519,6 +519,63 @@
 
 </div>
 
+<div class="row searchable" id="kitchenNetOnBoardingImage1">
+<div class="cell" data-label="Property">kitchenNetOnBoardingImage1</div>
+<div class="cell" data-label="Column">kitchenNetOnBoardingImage1_id</div>
+<div class="cell" data-label="Arabic">صورة الترحيب الأولى</div>
+<div class="cell" data-label="English">Onboarding Image 1</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="kitchenNetOnBoardingImage2">
+<div class="cell" data-label="Property">kitchenNetOnBoardingImage2</div>
+<div class="cell" data-label="Column">kitchenNetOnBoardingImage2_id</div>
+<div class="cell" data-label="Arabic">صورة الترحيب الثانية</div>
+<div class="cell" data-label="English">Onboarding Image 2</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="kitchenNetOnBoardingImage3">
+<div class="cell" data-label="Property">kitchenNetOnBoardingImage3</div>
+<div class="cell" data-label="Column">kitchenNetOnBoardingImage3_id</div>
+<div class="cell" data-label="Arabic">صورة الترحيب الثالثة</div>
+<div class="cell" data-label="English">Onboarding Image 3</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="kitchenNetOnBoardingImage4">
+<div class="cell" data-label="Property">kitchenNetOnBoardingImage4</div>
+<div class="cell" data-label="Column">kitchenNetOnBoardingImage4_id</div>
+<div class="cell" data-label="Arabic">صورة الترحيب الرابعة</div>
+<div class="cell" data-label="English">Onboarding Image 4</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="kitchenNetSnapChatUrl">
+<div class="cell" data-label="Property">kitchenNetSnapChatUrl</div>
+<div class="cell" data-label="Column">kitchenNetSnapChatUrl</div>
+<div class="cell" data-label="Arabic">رابط السناب شات</div>
+<div class="cell" data-label="English">Snapchat URL</div>
+<div class="cell" data-label="Type">Link</div>
+
+</div>
+
 <div class="row searchable" id="kitchenNetTikTokURL">
 <div class="cell" data-label="Property">kitchenNetTikTokURL</div>
 <div class="cell" data-label="Column">kitchenNetTikTokURL</div>

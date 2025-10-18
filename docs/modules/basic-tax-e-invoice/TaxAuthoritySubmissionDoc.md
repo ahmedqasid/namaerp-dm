@@ -1372,6 +1372,18 @@
 
 </div>
 
+<div class="row searchable" id="toSubmitLines.submissionEntry">
+<div class="cell" data-label="Property">toSubmitLines.submissionEntry</div>
+<div class="cell" data-label="Column">submissionEntry_id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type"></div>
+<div class="cell" data-label="Foreign Table">
+
+ [EInvoiceSubmissionEntry](/modules/system-tables/EInvoiceSubmissionEntry.md) 
+</div>
+</div>
+
 <div class="row searchable" id="toSubmitLines.submissionUUID">
 <div class="cell" data-label="Property">toSubmitLines.submissionUUID</div>
 <div class="cell" data-label="Column">submissionUUID</div>

@@ -790,6 +790,18 @@
 
 </div>
 
+<div class="row searchable" id="details.invoiceClassification">
+<div class="cell" data-label="Property">details.invoiceClassification</div>
+<div class="cell" data-label="Column">invoiceClassification_id</div>
+<div class="cell" data-label="Arabic">تصنيف الفاتورة</div>
+<div class="cell" data-label="English">Invoice Classification</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InvoiceClassification](/modules/supplychain/InvoiceClassification.md) 
+</div>
+</div>
+
 <div class="row searchable" id="details.lineNumber">
 <div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>

@@ -18,6 +18,7 @@ heroImage: hero.svg
     - [Investment Documents](/modules/accounting-investment-documents/)
     - [Letters of Guarantee](/modules/accounting-lgt/)
     - [Bank Loans](/modules/accounting-loans/)
+    - [accounting-prepaid-expenses](/modules/accounting-prepaid-expenses/)
     - [AI](/modules/ai/)
     - [Auditing](/modules/auditing/)
     - [Basic](/modules/basic/)

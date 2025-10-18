@@ -1391,7 +1391,7 @@
 <div class="cell" data-label="Property">details.tax.percentage</div>
 <div class="cell" data-label="Column">taxPercentage</div>
 <div class="cell" data-label="Arabic">الضريبة | النسبة</div>
-<div class="cell" data-label="English">tax | percentage</div>
+<div class="cell" data-label="English">Tax | Percentage</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
@@ -1400,7 +1400,7 @@
 <div class="cell" data-label="Property">details.tax.value</div>
 <div class="cell" data-label="Column">taxValue</div>
 <div class="cell" data-label="Arabic">الضريبة | القيمة</div>
-<div class="cell" data-label="English">tax | value</div>
+<div class="cell" data-label="English">Tax | Value</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>

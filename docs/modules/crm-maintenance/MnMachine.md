@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#dependentMachines'>dependentMachines (DependentMachineLine) </a> , <a href='#dysfunctionWarranties'>dysfunctionWarranties (MnMachineDysfunctionWarrantyLine) </a> , <a href='#tasks'>tasks (MnMachineTaskLine) </a>
+<a href='#dependentMachines'>dependentMachines (DependentMachineLine) </a> , <a href='#dysfunctionWarranties'>dysfunctionWarranties (MnMachineDysfunctionWarrantyLine) </a> , <a href='#spareParts'>spareParts (MnMachineSparePartsLine) </a> , <a href='#tasks'>tasks (MnMachineTaskLine) </a>
 </div>
 
 <div class='searchable'>
@@ -1754,6 +1754,379 @@
 <div class="cell" data-label="Arabic">تاريخ بداية الضمان</div>
 <div class="cell" data-label="English">Warranty Start Date</div>
 <div class="cell" data-label="Type">Date</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='spareParts' title='spareParts' class='searchable'>
+
+## spareParts (قطع الغيار - Spare Parts)
+
+<div class='tableName'>
+
+**Table Name:** MnMachineSparePartsLine, **Join Column:** mnMachine_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="spareParts.b1">
+<div class="cell" data-label="Property">spareParts.b1</div>
+<div class="cell" data-label="Column">b1</div>
+<div class="cell" data-label="Arabic">Boolean 1</div>
+<div class="cell" data-label="English">Boolean 1</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.b2">
+<div class="cell" data-label="Property">spareParts.b2</div>
+<div class="cell" data-label="Column">b2</div>
+<div class="cell" data-label="Arabic">Boolean 2</div>
+<div class="cell" data-label="English">Boolean 2</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.b3">
+<div class="cell" data-label="Property">spareParts.b3</div>
+<div class="cell" data-label="Column">b3</div>
+<div class="cell" data-label="Arabic">Boolean 3</div>
+<div class="cell" data-label="English">Boolean 3</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.b4">
+<div class="cell" data-label="Property">spareParts.b4</div>
+<div class="cell" data-label="Column">b4</div>
+<div class="cell" data-label="Arabic">Boolean 4</div>
+<div class="cell" data-label="English">Boolean 4</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.b5">
+<div class="cell" data-label="Property">spareParts.b5</div>
+<div class="cell" data-label="Column">b5</div>
+<div class="cell" data-label="Arabic">Boolean 5</div>
+<div class="cell" data-label="English">Boolean 5</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.date1">
+<div class="cell" data-label="Property">spareParts.date1</div>
+<div class="cell" data-label="Column">date1</div>
+<div class="cell" data-label="Arabic">تـــاريخ 1</div>
+<div class="cell" data-label="English">Date 1</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.date2">
+<div class="cell" data-label="Property">spareParts.date2</div>
+<div class="cell" data-label="Column">date2</div>
+<div class="cell" data-label="Arabic">تـــاريخ 2</div>
+<div class="cell" data-label="English">Date 2</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.date3">
+<div class="cell" data-label="Property">spareParts.date3</div>
+<div class="cell" data-label="Column">date3</div>
+<div class="cell" data-label="Arabic">تاريخ 3</div>
+<div class="cell" data-label="English">Date3</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.date4">
+<div class="cell" data-label="Property">spareParts.date4</div>
+<div class="cell" data-label="Column">date4</div>
+<div class="cell" data-label="Arabic">تاريخ 4</div>
+<div class="cell" data-label="English">Date4</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.date5">
+<div class="cell" data-label="Property">spareParts.date5</div>
+<div class="cell" data-label="Column">date5</div>
+<div class="cell" data-label="Arabic">تاريخ 5</div>
+<div class="cell" data-label="English">Date5</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.defaultPurchasePrice">
+<div class="cell" data-label="Property">spareParts.defaultPurchasePrice</div>
+<div class="cell" data-label="Column">defaultPurchasePrice</div>
+<div class="cell" data-label="Arabic">سعر الشراء الأفتراضي</div>
+<div class="cell" data-label="English">Default Purchase Price</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.defaultSalesPrice">
+<div class="cell" data-label="Property">spareParts.defaultSalesPrice</div>
+<div class="cell" data-label="Column">defaultSalesPrice</div>
+<div class="cell" data-label="Arabic">سعر البيع الافتراضي</div>
+<div class="cell" data-label="English">Default Sales Price</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.defaultWarrantyStartPeriod.uom">
+<div class="cell" data-label="Property">spareParts.defaultWarrantyStartPeriod.uom</div>
+<div class="cell" data-label="Column">warrantyStartUom</div>
+<div class="cell" data-label="Arabic">مدة الضمان الافتراضي | الوحدة</div>
+<div class="cell" data-label="English">Default Warranty Start Period | Uom</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.defaultWarrantyStartPeriod.value">
+<div class="cell" data-label="Property">spareParts.defaultWarrantyStartPeriod.value</div>
+<div class="cell" data-label="Column">warrantyStartValue</div>
+<div class="cell" data-label="Arabic">مدة الضمان الافتراضي | القيمة</div>
+<div class="cell" data-label="English">Default Warranty Start Period | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.id">
+<div class="cell" data-label="Property">spareParts.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.item">
+<div class="cell" data-label="Property">spareParts.item</div>
+<div class="cell" data-label="Column">item_id</div>
+<div class="cell" data-label="Arabic">الصنف</div>
+<div class="cell" data-label="English">Item</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InvItem](/modules/supplychain/InvItem.md) 
+</div>
+</div>
+
+<div class="row searchable" id="spareParts.lineNumber">
+<div class="cell" data-label="Property">spareParts.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.n1">
+<div class="cell" data-label="Property">spareParts.n1</div>
+<div class="cell" data-label="Column">n1</div>
+<div class="cell" data-label="Arabic">رقم 1</div>
+<div class="cell" data-label="English">Number 1</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.n2">
+<div class="cell" data-label="Property">spareParts.n2</div>
+<div class="cell" data-label="Column">n2</div>
+<div class="cell" data-label="Arabic">رقم 2</div>
+<div class="cell" data-label="English">Number 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.n3">
+<div class="cell" data-label="Property">spareParts.n3</div>
+<div class="cell" data-label="Column">n3</div>
+<div class="cell" data-label="Arabic">رقم 3</div>
+<div class="cell" data-label="English">Number 3</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.n4">
+<div class="cell" data-label="Property">spareParts.n4</div>
+<div class="cell" data-label="Column">n4</div>
+<div class="cell" data-label="Arabic">رقم 4</div>
+<div class="cell" data-label="English">Number 4</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.n5">
+<div class="cell" data-label="Property">spareParts.n5</div>
+<div class="cell" data-label="Column">n5</div>
+<div class="cell" data-label="Arabic">رقم 5</div>
+<div class="cell" data-label="English">Number 5</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.quantity">
+<div class="cell" data-label="Property">spareParts.quantity</div>
+<div class="cell" data-label="Column">quantity</div>
+<div class="cell" data-label="Arabic">الكمية</div>
+<div class="cell" data-label="English">Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.ref1">
+<div class="cell" data-label="Property">spareParts.ref1</div>
+<div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
+<div class="cell" data-label="Arabic">مرجع 1</div>
+<div class="cell" data-label="English">Reference 1</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.ref2">
+<div class="cell" data-label="Property">spareParts.ref2</div>
+<div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
+<div class="cell" data-label="Arabic">مرجع 2</div>
+<div class="cell" data-label="English">Reference 2</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.ref3">
+<div class="cell" data-label="Property">spareParts.ref3</div>
+<div class="cell gen-ref-column" data-label="Column">ref3ActualCode,  ref3Code,  ref3EntityType,  ref3Id</div>
+<div class="cell" data-label="Arabic">مرجع 3</div>
+<div class="cell" data-label="English">Reference 3</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.ref4">
+<div class="cell" data-label="Property">spareParts.ref4</div>
+<div class="cell gen-ref-column" data-label="Column">ref4ActualCode,  ref4Code,  ref4EntityType,  ref4Id</div>
+<div class="cell" data-label="Arabic">مرجع 4</div>
+<div class="cell" data-label="English">Reference 4</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.ref5">
+<div class="cell" data-label="Property">spareParts.ref5</div>
+<div class="cell gen-ref-column" data-label="Column">ref5ActualCode,  ref5Code,  ref5EntityType,  ref5Id</div>
+<div class="cell" data-label="Arabic">مرجع 5</div>
+<div class="cell" data-label="English">Reference 5</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.refNumber">
+<div class="cell" data-label="Property">spareParts.refNumber</div>
+<div class="cell" data-label="Column">refNumber</div>
+<div class="cell" data-label="Arabic">الرقم المرجعي</div>
+<div class="cell" data-label="English">Reference Number</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.remarks">
+<div class="cell" data-label="Property">spareParts.remarks</div>
+<div class="cell" data-label="Column">remarks</div>
+<div class="cell" data-label="Arabic">ملاحظات</div>
+<div class="cell" data-label="English">Description</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.text1">
+<div class="cell" data-label="Property">spareParts.text1</div>
+<div class="cell" data-label="Column">text1</div>
+<div class="cell" data-label="Arabic">نــــص 1</div>
+<div class="cell" data-label="English">Text 1</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.text2">
+<div class="cell" data-label="Property">spareParts.text2</div>
+<div class="cell" data-label="Column">text2</div>
+<div class="cell" data-label="Arabic">نـــــص 2</div>
+<div class="cell" data-label="English">Text 2</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.text3">
+<div class="cell" data-label="Property">spareParts.text3</div>
+<div class="cell" data-label="Column">text3</div>
+<div class="cell" data-label="Arabic">نص 3</div>
+<div class="cell" data-label="English">text3</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.text4">
+<div class="cell" data-label="Property">spareParts.text4</div>
+<div class="cell" data-label="Column">text4</div>
+<div class="cell" data-label="Arabic">نص 4</div>
+<div class="cell" data-label="English">text4</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.text5">
+<div class="cell" data-label="Property">spareParts.text5</div>
+<div class="cell" data-label="Column">text5</div>
+<div class="cell" data-label="Arabic">نص 5</div>
+<div class="cell" data-label="English">text5</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="spareParts.unit">
+<div class="cell" data-label="Property">spareParts.unit</div>
+<div class="cell" data-label="Column">unit_id</div>
+<div class="cell" data-label="Arabic">وحدة سكنية</div>
+<div class="cell" data-label="English">Housing units</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [UOM](/modules/supplychain/UOM.md) 
+</div>
+</div>
+
+<div class="row searchable" id="spareParts.warrantyPeriodType">
+<div class="cell" data-label="Property">spareParts.warrantyPeriodType</div>
+<div class="cell" data-label="Column">warrantyPeriodType_id</div>
+<div class="cell" data-label="Arabic">نوع فترة الضمان</div>
+<div class="cell" data-label="English">Warranty Period Type</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [WarrantyPeriodType](/modules/crm-maintenance/WarrantyPeriodType.md) 
+</div>
+</div>
+
+<div class="row searchable" id="spareParts.warrantyStatus">
+<div class="cell" data-label="Property">spareParts.warrantyStatus</div>
+<div class="cell" data-label="Column">warrantyStatus</div>
+<div class="cell" data-label="Arabic">حالة الضمان</div>
+<div class="cell" data-label="English">Warranty Status</div>
+<div class="cell" data-label="Type">Enum</div>
 
 </div>
 

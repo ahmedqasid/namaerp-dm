@@ -1141,6 +1141,15 @@
 
 </div>
 
+<div class="row searchable" id="spareParts.remarks">
+<div class="cell" data-label="Property">spareParts.remarks</div>
+<div class="cell" data-label="Column">remarks</div>
+<div class="cell" data-label="Arabic">ملاحظات</div>
+<div class="cell" data-label="English">Description</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
 <div class="row searchable" id="spareParts.text1">
 <div class="cell" data-label="Property">spareParts.text1</div>
 <div class="cell" data-label="Column">text1</div>

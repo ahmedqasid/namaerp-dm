@@ -1639,6 +1639,66 @@
 
 </div>
 
+<div class="row searchable" id="details.faClassification1">
+<div class="cell" data-label="Property">details.faClassification1</div>
+<div class="cell" data-label="Column">faClassification1_id</div>
+<div class="cell" data-label="Arabic">تصنيف أصل ثابت 1</div>
+<div class="cell" data-label="English">Fixed Asset Classification1</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [FAClassification1](/modules/fixedassets/FAClassification1.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.faClassification2">
+<div class="cell" data-label="Property">details.faClassification2</div>
+<div class="cell" data-label="Column">faClassification2_id</div>
+<div class="cell" data-label="Arabic">تصنيف أصل ثابت 2</div>
+<div class="cell" data-label="English">Fixed Asset Classification2</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [FAClassification2](/modules/fixedassets/FAClassification2.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.faClassification3">
+<div class="cell" data-label="Property">details.faClassification3</div>
+<div class="cell" data-label="Column">faClassification3_id</div>
+<div class="cell" data-label="Arabic">تصنيف أصل ثابت 3</div>
+<div class="cell" data-label="English">Fixed Asset Classification3</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [FAClassification3](/modules/fixedassets/FAClassification3.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.faClassification4">
+<div class="cell" data-label="Property">details.faClassification4</div>
+<div class="cell" data-label="Column">faClassification4_id</div>
+<div class="cell" data-label="Arabic">تصنيف أصل ثابت 4</div>
+<div class="cell" data-label="English">Fixed Asset Classification4</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [FAClassification4](/modules/fixedassets/FAClassification4.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.faClassification5">
+<div class="cell" data-label="Property">details.faClassification5</div>
+<div class="cell" data-label="Column">faClassification5_id</div>
+<div class="cell" data-label="Arabic">تصنيف أصل ثابت 5</div>
+<div class="cell" data-label="English">Fixed Asset Classification5</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [FAClassification5](/modules/fixedassets/FAClassification5.md) 
+</div>
+</div>
+
 <div class="row searchable" id="details.faLocation">
 <div class="cell" data-label="Property">details.faLocation</div>
 <div class="cell" data-label="Column">faLocation_id</div>
@@ -1708,6 +1768,66 @@
 <div class="cell" data-label="Foreign Table">
 
  [FixedAsset](/modules/fixedassets/FixedAsset.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.genericDimensions.analysisSet">
+<div class="cell" data-label="Property">details.genericDimensions.analysisSet</div>
+<div class="cell" data-label="Column">analysisSet_id</div>
+<div class="cell" data-label="Arabic">المجموعة التحليلية</div>
+<div class="cell" data-label="English">Analysis set</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [AnalysisSet](/modules/basic/AnalysisSet.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.genericDimensions.branch">
+<div class="cell" data-label="Property">details.genericDimensions.branch</div>
+<div class="cell" data-label="Column">branch_id</div>
+<div class="cell" data-label="Arabic">الفرع</div>
+<div class="cell" data-label="English">Branch</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Branch](/modules/basic/Branch.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.genericDimensions.department">
+<div class="cell" data-label="Property">details.genericDimensions.department</div>
+<div class="cell" data-label="Column">department_id</div>
+<div class="cell" data-label="Arabic">الإدارة</div>
+<div class="cell" data-label="English">Department</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Department](/modules/basic/Department.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.genericDimensions.legalEntity">
+<div class="cell" data-label="Property">details.genericDimensions.legalEntity</div>
+<div class="cell" data-label="Column">legalEntity_id</div>
+<div class="cell" data-label="Arabic">الشركة</div>
+<div class="cell" data-label="English">Legal Entity</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LegalEntity](/modules/basic/LegalEntity.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.genericDimensions.sector">
+<div class="cell" data-label="Property">details.genericDimensions.sector</div>
+<div class="cell" data-label="Column">sector_id</div>
+<div class="cell" data-label="Arabic">القطاع</div>
+<div class="cell" data-label="English">Sector</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Sector](/modules/basic/Sector.md) 
 </div>
 </div>
 

@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#accessControl'>accessControl (AIToolDefinitionSecurity) </a> , <a href='#entityFlowParameters'>entityFlowParameters (AIToolDefinitionEntityFlowParam) </a> , <a href='#queryParameters'>queryParameters (AIToolDefinitionQueryParam) </a> , <a href='#systemTools'>systemTools (AIToolDefinitionSystemTools) </a>
+<a href='#accessControl'>accessControl (AIToolDefinitionSecurity) </a> , <a href='#entityFlowParameters'>entityFlowParameters (AIToolDefinitionEntityFlowParam) </a> , <a href='#queryParameters'>queryParameters (AIToolDefinitionQueryParam) </a> , <a href='#reportParameters'>reportParameters (AIToolDefinitionReportToolParams) </a> , <a href='#systemTools'>systemTools (AIToolDefinitionSystemTools) </a>
 </div>
 
 <div class='searchable'>
@@ -681,6 +681,18 @@
 
 </div>
 
+<div class="row searchable" id="reportDefinition">
+<div class="cell" data-label="Property">reportDefinition</div>
+<div class="cell" data-label="Column">reportDefinition_id</div>
+<div class="cell" data-label="Arabic">تعريف التقرير</div>
+<div class="cell" data-label="English">Report Definition</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ReportDefinition](/modules/basic/ReportDefinition.md) 
+</div>
+</div>
+
 <div class="row searchable" id="reviseLevel">
 <div class="cell" data-label="Property">reviseLevel</div>
 <div class="cell" data-label="Column">reviseLevel</div>
@@ -923,7 +935,16 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="entityFlowParameters.fieldType">
+</div><div class="row searchable" id="entityFlowParameters.aiParameterCompletion">
+<div class="cell" data-label="Property">entityFlowParameters.aiParameterCompletion</div>
+<div class="cell" data-label="Column">aiParameterCompletion</div>
+<div class="cell" data-label="Arabic">AI Parameter Completion</div>
+<div class="cell" data-label="English">AI Parameter Completion</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="entityFlowParameters.fieldType">
 <div class="cell" data-label="Property">entityFlowParameters.fieldType</div>
 <div class="cell" data-label="Column">fieldType</div>
 <div class="cell" data-label="Arabic">نوع الحقل</div>
@@ -1008,7 +1029,16 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="queryParameters.fieldType">
+</div><div class="row searchable" id="queryParameters.aiParameterCompletion">
+<div class="cell" data-label="Property">queryParameters.aiParameterCompletion</div>
+<div class="cell" data-label="Column">aiParameterCompletion</div>
+<div class="cell" data-label="Arabic">AI Parameter Completion</div>
+<div class="cell" data-label="English">AI Parameter Completion</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="queryParameters.fieldType">
 <div class="cell" data-label="Property">queryParameters.fieldType</div>
 <div class="cell" data-label="Column">fieldType</div>
 <div class="cell" data-label="Arabic">نوع الحقل</div>
@@ -1068,6 +1098,172 @@
 <div class="cell" data-label="Arabic">Supported Reference Type</div>
 <div class="cell" data-label="English">Supported Reference Type</div>
 <div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='reportParameters' title='reportParameters' class='searchable'>
+
+## reportParameters (Report Parameters - Report Parameters)
+
+<div class='tableName'>
+
+**Table Name:** AIToolDefinitionReportToolParams, **Join Column:** aIToolDefinition_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="reportParameters.aiParameterCompletion">
+<div class="cell" data-label="Property">reportParameters.aiParameterCompletion</div>
+<div class="cell" data-label="Column">aiParameterCompletion</div>
+<div class="cell" data-label="Arabic">AI Parameter Completion</div>
+<div class="cell" data-label="English">AI Parameter Completion</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.dateTimeValue">
+<div class="cell" data-label="Property">reportParameters.dateTimeValue</div>
+<div class="cell" data-label="Column">dateTimeValue</div>
+<div class="cell" data-label="Arabic">وقت/تاريخ</div>
+<div class="cell" data-label="English">Date/Time</div>
+<div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.dateValue">
+<div class="cell" data-label="Property">reportParameters.dateValue</div>
+<div class="cell" data-label="Column">dateValue</div>
+<div class="cell" data-label="Arabic">تاريخ</div>
+<div class="cell" data-label="English">Date Value</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.dynamicParamValue">
+<div class="cell" data-label="Property">reportParameters.dynamicParamValue</div>
+<div class="cell" data-label="Column">dynamicParamValue</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.entityType">
+<div class="cell" data-label="Property">reportParameters.entityType</div>
+<div class="cell" data-label="Column">entityType</div>
+<div class="cell" data-label="Arabic">النوع</div>
+<div class="cell" data-label="English">Entity Type</div>
+<div class="cell" data-label="Type">EntityType</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.fieldType">
+<div class="cell" data-label="Property">reportParameters.fieldType</div>
+<div class="cell" data-label="Column">fieldType</div>
+<div class="cell" data-label="Arabic">نوع الحقل</div>
+<div class="cell" data-label="English">Field Type</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.id">
+<div class="cell" data-label="Property">reportParameters.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.lineNumber">
+<div class="cell" data-label="Property">reportParameters.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.paramDescription">
+<div class="cell" data-label="Property">reportParameters.paramDescription</div>
+<div class="cell" data-label="Column">paramDescription</div>
+<div class="cell" data-label="Arabic">Parameter Description</div>
+<div class="cell" data-label="English">Parameter Description</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.paramId">
+<div class="cell" data-label="Property">reportParameters.paramId</div>
+<div class="cell" data-label="Column">paramId</div>
+<div class="cell" data-label="Arabic">المعرف</div>
+<div class="cell" data-label="English">Parameter Id</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.paramType">
+<div class="cell" data-label="Property">reportParameters.paramType</div>
+<div class="cell" data-label="Column">paramType</div>
+<div class="cell" data-label="Arabic">النوع</div>
+<div class="cell" data-label="English">Param Type</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.paramValue">
+<div class="cell" data-label="Property">reportParameters.paramValue</div>
+<div class="cell" data-label="Column">paramValue</div>
+<div class="cell" data-label="Arabic">القيمة</div>
+<div class="cell" data-label="English">Param Value</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.refValue">
+<div class="cell" data-label="Property">reportParameters.refValue</div>
+<div class="cell gen-ref-column" data-label="Column">refValueActualCode,  refValueCode,  refValueEntityType,  refValueId</div>
+<div class="cell" data-label="Arabic">مرجع</div>
+<div class="cell" data-label="English">Reference</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.required">
+<div class="cell" data-label="Property">reportParameters.required</div>
+<div class="cell" data-label="Column">required</div>
+<div class="cell" data-label="Arabic">إجبارى</div>
+<div class="cell" data-label="English">Required</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.supportedReferenceType">
+<div class="cell" data-label="Property">reportParameters.supportedReferenceType</div>
+<div class="cell" data-label="Column">supportedReferenceType</div>
+<div class="cell" data-label="Arabic">Supported Reference Type</div>
+<div class="cell" data-label="English">Supported Reference Type</div>
+<div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.timeValue">
+<div class="cell" data-label="Property">reportParameters.timeValue</div>
+<div class="cell" data-label="Column">timeValue</div>
+<div class="cell" data-label="Arabic">وقت</div>
+<div class="cell" data-label="English">Time Value</div>
+<div class="cell" data-label="Type">Time</div>
 
 </div>
 

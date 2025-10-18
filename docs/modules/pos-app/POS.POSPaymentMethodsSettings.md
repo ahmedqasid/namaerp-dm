@@ -272,6 +272,15 @@
 
 </div>
 
+<div class="row searchable" id="details.invoiceClassificationId">
+<div class="cell" data-label="Property">details.invoiceClassificationId</div>
+<div class="cell" data-label="Column">invoiceClassificationId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
 <div class="row searchable" id="details.lineNumber">
 <div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>

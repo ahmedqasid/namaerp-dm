@@ -81,6 +81,7 @@
   - [DocsToPayFromPosTransaction](/modules/system-tables/DocsToPayFromPosTransaction.md)
   - [DraftSequenceEntity](/modules/system-tables/DraftSequenceEntity.md)
   - [EInvoiceReceivedEventEntry](/modules/system-tables/EInvoiceReceivedEventEntry.md)
+  - [EInvoiceSubmissionEntry](/modules/system-tables/EInvoiceSubmissionEntry.md)
   - [EReceiptSubmissionSysEntry](/modules/system-tables/EReceiptSubmissionSysEntry.md)
   - [EcommerceShippingEventLogEntry](/modules/system-tables/EcommerceShippingEventLogEntry.md)
   - [EcommerceWebhookEventProcessReq](/modules/system-tables/EcommerceWebhookEventProcessReq.md)

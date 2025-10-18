@@ -81,6 +81,15 @@
 
 </div>
 
+<div class="row searchable" id="calculateDataWithSaveEveryTime">
+<div class="cell" data-label="Property">calculateDataWithSaveEveryTime</div>
+<div class="cell" data-label="Column">calculateDataWithSaveEveryTime</div>
+<div class="cell" data-label="Arabic">حساب البيانات كل مرة مع الحفظ</div>
+<div class="cell" data-label="English">Calculate Data With Save Every Time</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="cancelledBy">
 <div class="cell" data-label="Property">cancelledBy</div>
 <div class="cell" data-label="Column">cancelledBy_id</div>
