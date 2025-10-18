@@ -16,10 +16,12 @@ function checkForErrors() {
     fi
 }
 git add *
-git commit -m "new release"
-checkForErrors
-git push
-checkForErrors
+if ! git diff --cached --quiet; then
+    git commit -m "new release"
+    checkForErrors
+    git push
+    checkForErrors
+fi
 
 git_pull
 checkForErrors
