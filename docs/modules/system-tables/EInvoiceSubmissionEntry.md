@@ -101,6 +101,15 @@
 
 </div>
 
+<div class="row searchable" id="errorDescription">
+<div class="cell" data-label="Property">errorDescription</div>
+<div class="cell" data-label="Column">errorDescription</div>
+<div class="cell" data-label="Arabic">وصف الخطأ</div>
+<div class="cell" data-label="English">Error Desciption</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>

@@ -1700,6 +1700,7 @@
     - [CPAInvoiceAggregateLine](/modules/system-tables/CPAInvoiceAggregateLine.md)
     - [CRMComplianSourceLine](/modules/system-tables/CRMComplianSourceLine.md)
     - [CRMTroubleTicketReq](/modules/system-tables/CRMTroubleTicketReq.md)
+    - [CandidateJobOffer](/modules/system-tables/CandidateJobOffer.md)
     - [CapabilityUsageSysLine](/modules/system-tables/CapabilityUsageSysLine.md)
     - [CashierTransactionEntry](/modules/system-tables/CashierTransactionEntry.md)
     - [ChartTree](/modules/system-tables/ChartTree.md)

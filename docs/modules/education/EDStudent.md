@@ -292,8 +292,8 @@
 <div class="row searchable" id="contractType">
 <div class="cell" data-label="Property">contractType</div>
 <div class="cell" data-label="Column">contractType</div>
-<div class="cell" data-label="Arabic">نوع بند العقد</div>
-<div class="cell" data-label="English">Service Contract Type</div>
+<div class="cell" data-label="Arabic">نوع العقد</div>
+<div class="cell" data-label="English">Contract Type</div>
 <div class="cell" data-label="Type">Enum</div>
 
 </div>

@@ -177,6 +177,18 @@
 
 </div>
 
+<div class="row searchable" id="candidateJobOffer">
+<div class="cell" data-label="Property">candidateJobOffer</div>
+<div class="cell" data-label="Column">candidateJobOffer_id</div>
+<div class="cell" data-label="Arabic">عرض وظيفي لمتقدم للعمل</div>
+<div class="cell" data-label="English">Candidate Job Offer</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CandidateJobOffer](/modules/system-tables/CandidateJobOffer.md) 
+</div>
+</div>
+
 <div class="row searchable" id="candidateState">
 <div class="cell" data-label="Property">candidateState</div>
 <div class="cell" data-label="Column">candidateState</div>

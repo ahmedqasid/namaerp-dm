@@ -944,6 +944,33 @@
 
 </div>
 
+<div class="row searchable" id="entityFlowParameters.allowedValues">
+<div class="cell" data-label="Property">entityFlowParameters.allowedValues</div>
+<div class="cell" data-label="Column">allowedValues</div>
+<div class="cell" data-label="Arabic">القيم المسموح بها</div>
+<div class="cell" data-label="English">Allowed Values</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="entityFlowParameters.allowedValuesAr">
+<div class="cell" data-label="Property">entityFlowParameters.allowedValuesAr</div>
+<div class="cell" data-label="Column">allowedValuesAr</div>
+<div class="cell" data-label="Arabic">Arabic Allowed Values</div>
+<div class="cell" data-label="English">Arabic Allowed Values</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="entityFlowParameters.allowedValuesEn">
+<div class="cell" data-label="Property">entityFlowParameters.allowedValuesEn</div>
+<div class="cell" data-label="Column">allowedValuesEn</div>
+<div class="cell" data-label="Arabic">English Allowed Values</div>
+<div class="cell" data-label="English">English Allowed Values</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
 <div class="row searchable" id="entityFlowParameters.fieldType">
 <div class="cell" data-label="Property">entityFlowParameters.fieldType</div>
 <div class="cell" data-label="Column">fieldType</div>
@@ -1038,6 +1065,33 @@
 
 </div>
 
+<div class="row searchable" id="queryParameters.allowedValues">
+<div class="cell" data-label="Property">queryParameters.allowedValues</div>
+<div class="cell" data-label="Column">allowedValues</div>
+<div class="cell" data-label="Arabic">القيم المسموح بها</div>
+<div class="cell" data-label="English">Allowed Values</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="queryParameters.allowedValuesAr">
+<div class="cell" data-label="Property">queryParameters.allowedValuesAr</div>
+<div class="cell" data-label="Column">allowedValuesAr</div>
+<div class="cell" data-label="Arabic">Arabic Allowed Values</div>
+<div class="cell" data-label="English">Arabic Allowed Values</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="queryParameters.allowedValuesEn">
+<div class="cell" data-label="Property">queryParameters.allowedValuesEn</div>
+<div class="cell" data-label="Column">allowedValuesEn</div>
+<div class="cell" data-label="Arabic">English Allowed Values</div>
+<div class="cell" data-label="English">English Allowed Values</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
 <div class="row searchable" id="queryParameters.fieldType">
 <div class="cell" data-label="Property">queryParameters.fieldType</div>
 <div class="cell" data-label="Column">fieldType</div>
@@ -1129,6 +1183,33 @@
 <div class="cell" data-label="Arabic">AI Parameter Completion</div>
 <div class="cell" data-label="English">AI Parameter Completion</div>
 <div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.allowedValues">
+<div class="cell" data-label="Property">reportParameters.allowedValues</div>
+<div class="cell" data-label="Column">allowedValues</div>
+<div class="cell" data-label="Arabic">القيم المسموح بها</div>
+<div class="cell" data-label="English">Allowed Values</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.allowedValuesAr">
+<div class="cell" data-label="Property">reportParameters.allowedValuesAr</div>
+<div class="cell" data-label="Column">allowedValuesAr</div>
+<div class="cell" data-label="Arabic">Arabic Allowed Values</div>
+<div class="cell" data-label="English">Arabic Allowed Values</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="reportParameters.allowedValuesEn">
+<div class="cell" data-label="Property">reportParameters.allowedValuesEn</div>
+<div class="cell" data-label="Column">allowedValuesEn</div>
+<div class="cell" data-label="Arabic">English Allowed Values</div>
+<div class="cell" data-label="English">English Allowed Values</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
