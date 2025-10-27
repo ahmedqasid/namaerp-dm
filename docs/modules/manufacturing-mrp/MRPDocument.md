@@ -1291,8 +1291,8 @@
 <div class="row searchable" id="analysis.requiredQty.uom">
 <div class="cell" data-label="Property">analysis.requiredQty.uom</div>
 <div class="cell" data-label="Column">requiredQtyUom_id</div>
-<div class="cell" data-label="Arabic">الوحدة</div>
-<div class="cell" data-label="English">Unit</div>
+<div class="cell" data-label="Arabic">الكمية المطلوبة | الوحدة</div>
+<div class="cell" data-label="English">Required Quantity | UOM</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -1303,8 +1303,8 @@
 <div class="row searchable" id="analysis.requiredQty.value">
 <div class="cell" data-label="Property">analysis.requiredQty.value</div>
 <div class="cell" data-label="Column">requiredQtyValue</div>
-<div class="cell" data-label="Arabic">القيمة</div>
-<div class="cell" data-label="English">Value</div>
+<div class="cell" data-label="Arabic">الكمية المطلوبة  | القيمة</div>
+<div class="cell" data-label="English">Required Quantity | Value</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
@@ -2237,8 +2237,8 @@
 <div class="row searchable" id="requiredLines.requiredQty.uom">
 <div class="cell" data-label="Property">requiredLines.requiredQty.uom</div>
 <div class="cell" data-label="Column">requiredQtyUom_id</div>
-<div class="cell" data-label="Arabic">الوحدة</div>
-<div class="cell" data-label="English">Unit</div>
+<div class="cell" data-label="Arabic">الكمية المطلوبة | الوحدة</div>
+<div class="cell" data-label="English">Required Quantity | UOM</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

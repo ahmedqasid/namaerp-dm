@@ -1043,6 +1043,15 @@
 
 </div>
 
+<div class="row searchable" id="sizesAndColors.notSellable">
+<div class="cell" data-label="Property">sizesAndColors.notSellable</div>
+<div class="cell" data-label="Column">notSellable</div>
+<div class="cell" data-label="Arabic">لا يمكن بيعه</div>
+<div class="cell" data-label="English">Not Sellable</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="sizesAndColors.posItem">
 <div class="cell" data-label="Property">sizesAndColors.posItem</div>
 <div class="cell" data-label="Column">posItem</div>

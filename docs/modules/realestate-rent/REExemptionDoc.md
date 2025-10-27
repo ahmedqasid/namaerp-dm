@@ -183,6 +183,15 @@
 
 </div>
 
+<div class="row searchable" id="collectedTotalValue">
+<div class="cell" data-label="Property">collectedTotalValue</div>
+<div class="cell" data-label="Column">collectedTotalValue</div>
+<div class="cell" data-label="Arabic">إجمالي القيمة المحصلة</div>
+<div class="cell" data-label="English">Collected Total Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="collector">
 <div class="cell" data-label="Property">collector</div>
 <div class="cell" data-label="Column">collector_id</div>

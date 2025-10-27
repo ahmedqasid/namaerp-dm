@@ -73,6 +73,90 @@
 
 </div>
 
+<div class="row searchable" id="choiceImage1">
+<div class="cell" data-label="Property">choiceImage1</div>
+<div class="cell" data-label="Column">choiceImage1_id</div>
+<div class="cell" data-label="Arabic">صورة الخيار 1</div>
+<div class="cell" data-label="English">Choice Image 1</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="choiceImage2">
+<div class="cell" data-label="Property">choiceImage2</div>
+<div class="cell" data-label="Column">choiceImage2_id</div>
+<div class="cell" data-label="Arabic">صورة الخيار 2</div>
+<div class="cell" data-label="English">Choice Image 2</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="choiceImage3">
+<div class="cell" data-label="Property">choiceImage3</div>
+<div class="cell" data-label="Column">choiceImage3_id</div>
+<div class="cell" data-label="Arabic">صورة الخيار 3</div>
+<div class="cell" data-label="English">Choice Image 3</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="choiceImage4">
+<div class="cell" data-label="Property">choiceImage4</div>
+<div class="cell" data-label="Column">choiceImage4_id</div>
+<div class="cell" data-label="Arabic">صورة الخيار 4</div>
+<div class="cell" data-label="English">Choice Image 4</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="choiceImage5">
+<div class="cell" data-label="Property">choiceImage5</div>
+<div class="cell" data-label="Column">choiceImage5_id</div>
+<div class="cell" data-label="Arabic">صورة الخيار 5</div>
+<div class="cell" data-label="English">Choice Image 5</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="choiceImage6">
+<div class="cell" data-label="Property">choiceImage6</div>
+<div class="cell" data-label="Column">choiceImage6_id</div>
+<div class="cell" data-label="Arabic">صورة الخيار 6</div>
+<div class="cell" data-label="English">Choice Image 6</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="choiceImage7">
+<div class="cell" data-label="Property">choiceImage7</div>
+<div class="cell" data-label="Column">choiceImage7_id</div>
+<div class="cell" data-label="Arabic">صورة الخيار 7</div>
+<div class="cell" data-label="English">Choice Image 7</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
 <div class="row searchable" id="code">
 <div class="cell" data-label="Property">code</div>
 <div class="cell" data-label="Column">code</div>
@@ -602,6 +686,18 @@
 <div class="cell" data-label="English">Question Answers Template (HTML)</div>
 <div class="cell" data-label="Type">BigText</div>
 
+</div>
+
+<div class="row searchable" id="questionImage">
+<div class="cell" data-label="Property">questionImage</div>
+<div class="cell" data-label="Column">questionImage_id</div>
+<div class="cell" data-label="Arabic">صورة السؤال</div>
+<div class="cell" data-label="English">Question Image</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
 </div>
 
 <div class="row searchable" id="questionTitleHTML">

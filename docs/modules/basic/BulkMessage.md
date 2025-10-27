@@ -852,6 +852,15 @@
 
 </div>
 
+<div class="row searchable" id="sendWasCalled">
+<div class="cell" data-label="Property">sendWasCalled</div>
+<div class="cell" data-label="Column">sendWasCalled</div>
+<div class="cell" data-label="Arabic">Send Was Called</div>
+<div class="cell" data-label="English">Send Was Called</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="term">
 <div class="cell" data-label="Property">term</div>
 <div class="cell" data-label="Column">term_id</div>

@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#appliances'>appliances (KitchenNetAppliance) </a> , <a href='#kitchenBeforeAndAfterList'>kitchenBeforeAndAfterList (KitchenNetBeforeAndAfter) </a> , <a href='#kitchenCategories'>kitchenCategories (KitchenNetCategory) </a> , <a href='#kitchenNetFAQS'>kitchenNetFAQS (KitchenNetFAQ) </a> , <a href='#kitchenOffers'>kitchenOffers (KitchenNetOffer) </a> , <a href='#refundPolicyRules'>refundPolicyRules (KitchenNetRefundPolicyLine) </a> , <a href='#trendingKitchens'>trendingKitchens (KitchenNetTrendingKitchen) </a>
+<a href='#appliances'>appliances (KitchenNetAppliance) </a> , <a href='#branchesAndVisitCost'>branchesAndVisitCost (KitchenNetBranchِAndVisitCostLine) </a> , <a href='#kitchenBeforeAndAfterList'>kitchenBeforeAndAfterList (KitchenNetBeforeAndAfter) </a> , <a href='#kitchenCategories'>kitchenCategories (KitchenNetCategory) </a> , <a href='#kitchenNetFAQS'>kitchenNetFAQS (KitchenNetFAQ) </a> , <a href='#kitchenOffers'>kitchenOffers (KitchenNetOffer) </a> , <a href='#refundPolicyRules'>refundPolicyRules (KitchenNetRefundPolicyLine) </a> , <a href='#trendingKitchens'>trendingKitchens (KitchenNetTrendingKitchen) </a>
 </div>
 
 <div class='searchable'>
@@ -1063,6 +1063,67 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='branchesAndVisitCost' title='branchesAndVisitCost' class='searchable'>
+
+## branchesAndVisitCost (الفروع و تكلفة الزيارة - Branches And Visit Cost)
+
+<div class='tableName'>
+
+**Table Name:** KitchenNetBranchِAndVisitCostLine, **Join Column:** kitchenNetConfiguration_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="branchesAndVisitCost.branch">
+<div class="cell" data-label="Property">branchesAndVisitCost.branch</div>
+<div class="cell" data-label="Column">branch_id</div>
+<div class="cell" data-label="Arabic">الفرع</div>
+<div class="cell" data-label="English">Branch</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Branch](/modules/basic/Branch.md) 
+</div>
+</div>
+
+<div class="row searchable" id="branchesAndVisitCost.id">
+<div class="cell" data-label="Property">branchesAndVisitCost.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="branchesAndVisitCost.lineNumber">
+<div class="cell" data-label="Property">branchesAndVisitCost.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="branchesAndVisitCost.measurementVisitCost">
+<div class="cell" data-label="Property">branchesAndVisitCost.measurementVisitCost</div>
+<div class="cell" data-label="Column">measurementVisitCost</div>
+<div class="cell" data-label="Arabic">تكلفة زيارة رفع المقاس</div>
+<div class="cell" data-label="English">Measurement Visit Cost</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 

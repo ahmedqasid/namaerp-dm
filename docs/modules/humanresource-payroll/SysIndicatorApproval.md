@@ -684,6 +684,15 @@
 
 </div>
 
+<div class="row searchable" id="maxValuePerDayInTime">
+<div class="cell" data-label="Property">maxValuePerDayInTime</div>
+<div class="cell" data-label="Column">maxValuePerDayInTime</div>
+<div class="cell" data-label="Arabic">أقصى عدد ساعات لليوم الواحد (وقت)</div>
+<div class="cell" data-label="English">Max Value Per Day (Time)</div>
+<div class="cell" data-label="Type">Time</div>
+
+</div>
+
 <div class="row searchable" id="n1">
 <div class="cell" data-label="Property">n1</div>
 <div class="cell" data-label="Column">n1</div>

@@ -243,7 +243,7 @@
   "CSHPaymentVoucher" : "accounting-cashier/CSHPaymentVoucher.md",
   "CSHReceiptVoucher" : "accounting-cashier/CSHReceiptVoucher.md",
   "CalculationFormula" : "supplychain/CalculationFormula.md",
-  "CandidateJobOffer" : "system-tables/CandidateJobOffer.md",
+  "CandidateJobOffer" : "humanresource-payroll/CandidateJobOffer.md",
   "CapabilityUsageSysLine" : "system-tables/CapabilityUsageSysLine.md",
   "Car" : "basic/Car.md",
   "CarAction" : "humanresource-car-management/CarAction.md",

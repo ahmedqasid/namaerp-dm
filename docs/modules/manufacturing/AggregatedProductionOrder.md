@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#details'>details (AggProductionOrderLine) </a>
+<a href='#details'>details (AggProductionOrderLine) </a> , <a href='#finalRawMaterialLines'>finalRawMaterialLines (AggProductionOrderFinalRawMaterialLine) </a> , <a href='#manufacturedMaterials'>manufacturedMaterials (AggProductionOrderManufacturedItemLine) </a>
 </div>
 
 <div class='searchable'>
@@ -1550,6 +1550,530 @@
 <div class="cell" data-label="English">Unlimited Overcompletion For Operation 1</div>
 <div class="cell" data-label="Type">Boolean</div>
 
+</div>
+
+
+</div>
+</div>
+
+<div id='finalRawMaterialLines' title='finalRawMaterialLines' class='searchable'>
+
+## finalRawMaterialLines (المواد الخام النهائية - Final Raw Materials)
+
+<div class='tableName'>
+
+**Table Name:** AggProductionOrderFinalRawMaterialLine, **Join Column:** aggregatedProductionOrder_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="finalRawMaterialLines.id">
+<div class="cell" data-label="Property">finalRawMaterialLines.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.item.item">
+<div class="cell" data-label="Property">finalRawMaterialLines.item.item</div>
+<div class="cell" data-label="Column">item_id</div>
+<div class="cell" data-label="Arabic">الصنف</div>
+<div class="cell" data-label="English">Item</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InvItem](/modules/supplychain/InvItem.md) 
+</div>
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.item.itemCode">
+<div class="cell" data-label="Property">finalRawMaterialLines.item.itemCode</div>
+<div class="cell" data-label="Column">itemCode</div>
+<div class="cell" data-label="Arabic"> الكود</div>
+<div class="cell" data-label="English"> Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.item.itemName1">
+<div class="cell" data-label="Property">finalRawMaterialLines.item.itemName1</div>
+<div class="cell" data-label="Column">itemName1</div>
+<div class="cell" data-label="Arabic">اسم الصنف</div>
+<div class="cell" data-label="English">Item Name</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.item.itemName2">
+<div class="cell" data-label="Property">finalRawMaterialLines.item.itemName2</div>
+<div class="cell" data-label="Column">itemName2</div>
+<div class="cell" data-label="Arabic">اسم الصنف الإنجليزي</div>
+<div class="cell" data-label="English">Item English Name</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.lineNumber">
+<div class="cell" data-label="Property">finalRawMaterialLines.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.n1">
+<div class="cell" data-label="Property">finalRawMaterialLines.n1</div>
+<div class="cell" data-label="Column">n1</div>
+<div class="cell" data-label="Arabic">رقم 1</div>
+<div class="cell" data-label="English">Number 1</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.n2">
+<div class="cell" data-label="Property">finalRawMaterialLines.n2</div>
+<div class="cell" data-label="Column">n2</div>
+<div class="cell" data-label="Arabic">رقم 2</div>
+<div class="cell" data-label="English">Number 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.n3">
+<div class="cell" data-label="Property">finalRawMaterialLines.n3</div>
+<div class="cell" data-label="Column">n3</div>
+<div class="cell" data-label="Arabic">رقم 3</div>
+<div class="cell" data-label="English">Number 3</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.ref1">
+<div class="cell" data-label="Property">finalRawMaterialLines.ref1</div>
+<div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
+<div class="cell" data-label="Arabic">مرجع 1</div>
+<div class="cell" data-label="English">Reference 1</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.ref2">
+<div class="cell" data-label="Property">finalRawMaterialLines.ref2</div>
+<div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
+<div class="cell" data-label="Arabic">مرجع 2</div>
+<div class="cell" data-label="English">Reference 2</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.ref3">
+<div class="cell" data-label="Property">finalRawMaterialLines.ref3</div>
+<div class="cell gen-ref-column" data-label="Column">ref3ActualCode,  ref3Code,  ref3EntityType,  ref3Id</div>
+<div class="cell" data-label="Arabic">مرجع 3</div>
+<div class="cell" data-label="English">Reference 3</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.requiredQty.uom">
+<div class="cell" data-label="Property">finalRawMaterialLines.requiredQty.uom</div>
+<div class="cell" data-label="Column">requiredQtyUom_id</div>
+<div class="cell" data-label="Arabic">الكمية المطلوبة | الوحدة</div>
+<div class="cell" data-label="English">Required Quantity | UOM</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [UOM](/modules/supplychain/UOM.md) 
+</div>
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.requiredQty.value">
+<div class="cell" data-label="Property">finalRawMaterialLines.requiredQty.value</div>
+<div class="cell" data-label="Column">requiredQtyValue</div>
+<div class="cell" data-label="Arabic">الكمية المطلوبة  | القيمة</div>
+<div class="cell" data-label="English">Required Quantity | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.specificDimensions.activePerc">
+<div class="cell" data-label="Property">finalRawMaterialLines.specificDimensions.activePerc</div>
+<div class="cell" data-label="Column">activePerc</div>
+<div class="cell" data-label="Arabic">النسبة الفعالة</div>
+<div class="cell" data-label="English">Active Percentage</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.specificDimensions.box">
+<div class="cell" data-label="Property">finalRawMaterialLines.specificDimensions.box</div>
+<div class="cell" data-label="Column">box</div>
+<div class="cell" data-label="Arabic">صندوق</div>
+<div class="cell" data-label="English">Box</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.specificDimensions.color">
+<div class="cell" data-label="Property">finalRawMaterialLines.specificDimensions.color</div>
+<div class="cell" data-label="Column">color</div>
+<div class="cell" data-label="Arabic">اللون</div>
+<div class="cell" data-label="English">Color</div>
+<div class="cell" data-label="Type">Color</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.specificDimensions.inactivePerc">
+<div class="cell" data-label="Property">finalRawMaterialLines.specificDimensions.inactivePerc</div>
+<div class="cell" data-label="Column">inactivePerc</div>
+<div class="cell" data-label="Arabic">النسبة الغير فعالة</div>
+<div class="cell" data-label="English">Inactive Percentage</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.specificDimensions.locator">
+<div class="cell" data-label="Property">finalRawMaterialLines.specificDimensions.locator</div>
+<div class="cell" data-label="Column">locator_id</div>
+<div class="cell" data-label="Arabic">الموقع</div>
+<div class="cell" data-label="English">Locator</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Locator](/modules/supplychain/Locator.md) 
+</div>
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.specificDimensions.lotId">
+<div class="cell" data-label="Property">finalRawMaterialLines.specificDimensions.lotId</div>
+<div class="cell" data-label="Column">lotId</div>
+<div class="cell" data-label="Arabic">رقم الشحنه</div>
+<div class="cell" data-label="English">Lot ID</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.specificDimensions.measures">
+<div class="cell" data-label="Property">finalRawMaterialLines.specificDimensions.measures</div>
+<div class="cell" data-label="Column">measures</div>
+<div class="cell" data-label="Arabic">الأبعاد</div>
+<div class="cell" data-label="English">Measures</div>
+<div class="cell" data-label="Type">Measures</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.specificDimensions.revisionId">
+<div class="cell" data-label="Property">finalRawMaterialLines.specificDimensions.revisionId</div>
+<div class="cell" data-label="Column">revisionId</div>
+<div class="cell" data-label="Arabic">الإصدار</div>
+<div class="cell" data-label="English">Revision ID</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.specificDimensions.secondSerial">
+<div class="cell" data-label="Property">finalRawMaterialLines.specificDimensions.secondSerial</div>
+<div class="cell" data-label="Column">secondSerial</div>
+<div class="cell" data-label="Arabic">الرقم المسلسل الثاني</div>
+<div class="cell" data-label="English">Second Serial</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.specificDimensions.serialNumber">
+<div class="cell" data-label="Property">finalRawMaterialLines.specificDimensions.serialNumber</div>
+<div class="cell" data-label="Column">serialNumber</div>
+<div class="cell" data-label="Arabic">الرقم المسلسل</div>
+<div class="cell" data-label="English">Serial number</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.specificDimensions.size">
+<div class="cell" data-label="Property">finalRawMaterialLines.specificDimensions.size</div>
+<div class="cell" data-label="Column">size</div>
+<div class="cell" data-label="Arabic">المقاس</div>
+<div class="cell" data-label="English">Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.specificDimensions.subItem">
+<div class="cell" data-label="Property">finalRawMaterialLines.specificDimensions.subItem</div>
+<div class="cell" data-label="Column">subItem_id</div>
+<div class="cell" data-label="Arabic"> صنف فرعى</div>
+<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [SubItem](/modules/srvcenter-subitems/SubItem.md) 
+</div>
+</div>
+
+<div class="row searchable" id="finalRawMaterialLines.specificDimensions.warehouse">
+<div class="cell" data-label="Property">finalRawMaterialLines.specificDimensions.warehouse</div>
+<div class="cell" data-label="Column">warehouse_id</div>
+<div class="cell" data-label="Arabic">المخزن</div>
+<div class="cell" data-label="English">Warehouse</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Warehouse](/modules/supplychain/Warehouse.md) 
+</div>
+</div>
+
+
+</div>
+</div>
+
+<div id='manufacturedMaterials' title='manufacturedMaterials' class='searchable'>
+
+## manufacturedMaterials (الخامات القابلة للتصنيع - Manufactured Materials)
+
+<div class='tableName'>
+
+**Table Name:** AggProductionOrderManufacturedItemLine, **Join Column:** aggregatedProductionOrder_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="manufacturedMaterials.availableQuantity">
+<div class="cell" data-label="Property">manufacturedMaterials.availableQuantity</div>
+<div class="cell" data-label="Column">availableQuantity</div>
+<div class="cell" data-label="Arabic">الكمية المتاحة</div>
+<div class="cell" data-label="English">Available Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.id">
+<div class="cell" data-label="Property">manufacturedMaterials.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.item.item">
+<div class="cell" data-label="Property">manufacturedMaterials.item.item</div>
+<div class="cell" data-label="Column">item_id</div>
+<div class="cell" data-label="Arabic">الصنف</div>
+<div class="cell" data-label="English">Item</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InvItem](/modules/supplychain/InvItem.md) 
+</div>
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.item.itemCode">
+<div class="cell" data-label="Property">manufacturedMaterials.item.itemCode</div>
+<div class="cell" data-label="Column">itemCode</div>
+<div class="cell" data-label="Arabic"> الكود</div>
+<div class="cell" data-label="English"> Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.item.itemName1">
+<div class="cell" data-label="Property">manufacturedMaterials.item.itemName1</div>
+<div class="cell" data-label="Column">itemName1</div>
+<div class="cell" data-label="Arabic">اسم الصنف</div>
+<div class="cell" data-label="English">Item Name</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.item.itemName2">
+<div class="cell" data-label="Property">manufacturedMaterials.item.itemName2</div>
+<div class="cell" data-label="Column">itemName2</div>
+<div class="cell" data-label="Arabic">اسم الصنف الإنجليزي</div>
+<div class="cell" data-label="English">Item English Name</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.lineNumber">
+<div class="cell" data-label="Property">manufacturedMaterials.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.quantityDifference">
+<div class="cell" data-label="Property">manufacturedMaterials.quantityDifference</div>
+<div class="cell" data-label="Column">quantityDifference</div>
+<div class="cell" data-label="Arabic">الفرق في الكمية</div>
+<div class="cell" data-label="English">Quantity Difference</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.requiredQty.uom">
+<div class="cell" data-label="Property">manufacturedMaterials.requiredQty.uom</div>
+<div class="cell" data-label="Column">requiredQtyUom_id</div>
+<div class="cell" data-label="Arabic">الكمية المطلوبة | الوحدة</div>
+<div class="cell" data-label="English">Required Quantity | UOM</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [UOM](/modules/supplychain/UOM.md) 
+</div>
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.requiredQty.value">
+<div class="cell" data-label="Property">manufacturedMaterials.requiredQty.value</div>
+<div class="cell" data-label="Column">requiredQtyValue</div>
+<div class="cell" data-label="Arabic">الكمية المطلوبة  | القيمة</div>
+<div class="cell" data-label="English">Required Quantity | Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.specificDimensions.activePerc">
+<div class="cell" data-label="Property">manufacturedMaterials.specificDimensions.activePerc</div>
+<div class="cell" data-label="Column">activePerc</div>
+<div class="cell" data-label="Arabic">النسبة الفعالة</div>
+<div class="cell" data-label="English">Active Percentage</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.specificDimensions.box">
+<div class="cell" data-label="Property">manufacturedMaterials.specificDimensions.box</div>
+<div class="cell" data-label="Column">box</div>
+<div class="cell" data-label="Arabic">صندوق</div>
+<div class="cell" data-label="English">Box</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.specificDimensions.color">
+<div class="cell" data-label="Property">manufacturedMaterials.specificDimensions.color</div>
+<div class="cell" data-label="Column">color</div>
+<div class="cell" data-label="Arabic">اللون</div>
+<div class="cell" data-label="English">Color</div>
+<div class="cell" data-label="Type">Color</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.specificDimensions.inactivePerc">
+<div class="cell" data-label="Property">manufacturedMaterials.specificDimensions.inactivePerc</div>
+<div class="cell" data-label="Column">inactivePerc</div>
+<div class="cell" data-label="Arabic">النسبة الغير فعالة</div>
+<div class="cell" data-label="English">Inactive Percentage</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.specificDimensions.locator">
+<div class="cell" data-label="Property">manufacturedMaterials.specificDimensions.locator</div>
+<div class="cell" data-label="Column">locator_id</div>
+<div class="cell" data-label="Arabic">الموقع</div>
+<div class="cell" data-label="English">Locator</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Locator](/modules/supplychain/Locator.md) 
+</div>
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.specificDimensions.lotId">
+<div class="cell" data-label="Property">manufacturedMaterials.specificDimensions.lotId</div>
+<div class="cell" data-label="Column">lotId</div>
+<div class="cell" data-label="Arabic">رقم الشحنه</div>
+<div class="cell" data-label="English">Lot ID</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.specificDimensions.measures">
+<div class="cell" data-label="Property">manufacturedMaterials.specificDimensions.measures</div>
+<div class="cell" data-label="Column">measures</div>
+<div class="cell" data-label="Arabic">الأبعاد</div>
+<div class="cell" data-label="English">Measures</div>
+<div class="cell" data-label="Type">Measures</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.specificDimensions.revisionId">
+<div class="cell" data-label="Property">manufacturedMaterials.specificDimensions.revisionId</div>
+<div class="cell" data-label="Column">revisionId</div>
+<div class="cell" data-label="Arabic">الإصدار</div>
+<div class="cell" data-label="English">Revision ID</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.specificDimensions.secondSerial">
+<div class="cell" data-label="Property">manufacturedMaterials.specificDimensions.secondSerial</div>
+<div class="cell" data-label="Column">secondSerial</div>
+<div class="cell" data-label="Arabic">الرقم المسلسل الثاني</div>
+<div class="cell" data-label="English">Second Serial</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.specificDimensions.serialNumber">
+<div class="cell" data-label="Property">manufacturedMaterials.specificDimensions.serialNumber</div>
+<div class="cell" data-label="Column">serialNumber</div>
+<div class="cell" data-label="Arabic">الرقم المسلسل</div>
+<div class="cell" data-label="English">Serial number</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.specificDimensions.size">
+<div class="cell" data-label="Property">manufacturedMaterials.specificDimensions.size</div>
+<div class="cell" data-label="Column">size</div>
+<div class="cell" data-label="Arabic">المقاس</div>
+<div class="cell" data-label="English">Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.specificDimensions.subItem">
+<div class="cell" data-label="Property">manufacturedMaterials.specificDimensions.subItem</div>
+<div class="cell" data-label="Column">subItem_id</div>
+<div class="cell" data-label="Arabic"> صنف فرعى</div>
+<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [SubItem](/modules/srvcenter-subitems/SubItem.md) 
+</div>
+</div>
+
+<div class="row searchable" id="manufacturedMaterials.specificDimensions.warehouse">
+<div class="cell" data-label="Property">manufacturedMaterials.specificDimensions.warehouse</div>
+<div class="cell" data-label="Column">warehouse_id</div>
+<div class="cell" data-label="Arabic">المخزن</div>
+<div class="cell" data-label="English">Warehouse</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Warehouse](/modules/supplychain/Warehouse.md) 
+</div>
 </div>
 
 

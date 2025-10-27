@@ -762,8 +762,8 @@
 <div class="row searchable" id="investmentFund">
 <div class="cell" data-label="Property">investmentFund</div>
 <div class="cell" data-label="Column">investmentFund_id</div>
-<div class="cell" data-label="Arabic">الصندوق الاستثماري</div>
-<div class="cell" data-label="English">Investment Fund</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -1798,7 +1798,16 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="commissions.commissionRecipient">
+</div><div class="row searchable" id="commissions.calcPercentageFromValue">
+<div class="cell" data-label="Property">commissions.calcPercentageFromValue</div>
+<div class="cell" data-label="Column">calcPercentageFromValue</div>
+<div class="cell" data-label="Arabic">احتساب النسبة من القيمة</div>
+<div class="cell" data-label="English">Calculate Percentage From Value</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="commissions.commissionRecipient">
 <div class="cell" data-label="Property">commissions.commissionRecipient</div>
 <div class="cell gen-ref-column" data-label="Column">commissionRecipientActualCode,  commissionRecipientCode,  commissionRecipientEntityType,  commissionRecipientId</div>
 <div class="cell" data-label="Arabic">مستحق العمولة</div>

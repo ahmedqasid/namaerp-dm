@@ -185,7 +185,7 @@
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [CandidateJobOffer](/modules/system-tables/CandidateJobOffer.md) 
+ [CandidateJobOffer](/modules/humanresource-payroll/CandidateJobOffer.md) 
 </div>
 </div>
 

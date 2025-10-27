@@ -77,8 +77,8 @@
 <div class="row searchable" id="investmentFund">
 <div class="cell" data-label="Property">investmentFund</div>
 <div class="cell" data-label="Column">investmentFund_id</div>
-<div class="cell" data-label="Arabic">الصندوق الاستثماري</div>
-<div class="cell" data-label="English">Investment Fund</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

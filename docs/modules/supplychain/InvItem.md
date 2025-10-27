@@ -6448,6 +6448,24 @@
 
 </div>
 
+<div class="row searchable" id="sizesAndColors.notPurchasable">
+<div class="cell" data-label="Property">sizesAndColors.notPurchasable</div>
+<div class="cell" data-label="Column">notPurchasable</div>
+<div class="cell" data-label="Arabic">لا يمكن شراؤه</div>
+<div class="cell" data-label="English">Not Purchasable</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="sizesAndColors.notSellable">
+<div class="cell" data-label="Property">sizesAndColors.notSellable</div>
+<div class="cell" data-label="Column">notSellable</div>
+<div class="cell" data-label="Arabic">لا يمكن بيعه</div>
+<div class="cell" data-label="English">Not Sellable</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="sizesAndColors.orderLimit">
 <div class="cell" data-label="Property">sizesAndColors.orderLimit</div>
 <div class="cell" data-label="Column">orderLimit</div>

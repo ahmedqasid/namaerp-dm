@@ -17,6 +17,7 @@
   - [AttendanceIndicatorWaiver](/modules/humanresource-payroll/AttendanceIndicatorWaiver.md)
   - [AttendancePlan](/modules/humanresource-payroll/AttendancePlan.md)
   - [AttendanceShift](/modules/humanresource-payroll/AttendanceShift.md)
+  - [CandidateJobOffer](/modules/humanresource-payroll/CandidateJobOffer.md)
   - [ChangeEmployeeState](/modules/humanresource-payroll/ChangeEmployeeState.md)
   - [ComponentCalcFormula](/modules/humanresource-payroll/ComponentCalcFormula.md)
   - [DailySalary](/modules/humanresource-payroll/DailySalary.md)

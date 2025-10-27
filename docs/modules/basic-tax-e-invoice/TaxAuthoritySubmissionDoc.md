@@ -1378,10 +1378,7 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type"></div>
-<div class="cell" data-label="Foreign Table">
 
- [EInvoiceSubmissionEntry](/modules/system-tables/EInvoiceSubmissionEntry.md) 
-</div>
 </div>
 
 <div class="row searchable" id="toSubmitLines.submissionUUID">
