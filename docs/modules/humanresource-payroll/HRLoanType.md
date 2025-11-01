@@ -898,7 +898,16 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="conditionsMatchedInLoanDoc.employeeDepartment">
+</div><div class="row searchable" id="conditionsMatchedInLoanDoc.considerSameTypeInstallmentsInSameMonth">
+<div class="cell" data-label="Property">conditionsMatchedInLoanDoc.considerSameTypeInstallmentsInSameMonth</div>
+<div class="cell" data-label="Column">considerSameTypeInstallmentsInSameMonth</div>
+<div class="cell" data-label="Arabic">الأخذ في الاعتبار الاقساط من نفس النوع في نفس الشهر</div>
+<div class="cell" data-label="English">Consider Same Type Installments In Same Month</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="conditionsMatchedInLoanDoc.employeeDepartment">
 <div class="cell" data-label="Property">conditionsMatchedInLoanDoc.employeeDepartment</div>
 <div class="cell" data-label="Column">employeeDepartment_id</div>
 <div class="cell" data-label="Arabic"> إدارة موظف</div>

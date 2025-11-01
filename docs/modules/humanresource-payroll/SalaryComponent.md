@@ -1722,6 +1722,15 @@
 
 </div>
 
+<div class="row searchable" id="useOnlyInDuesLiquidationSalary">
+<div class="cell" data-label="Property">useOnlyInDuesLiquidationSalary</div>
+<div class="cell" data-label="Column">useOnlyInDuesLiquidationSalary</div>
+<div class="cell" data-label="Arabic">يستعمل فقط مع راتب التصفية</div>
+<div class="cell" data-label="English">Use Only In Dues Liquidation Salary</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="useSectionInProvisionRecalc">
 <div class="cell" data-label="Property">useSectionInProvisionRecalc</div>
 <div class="cell" data-label="Column">useSectionInProvisionRecalc</div>

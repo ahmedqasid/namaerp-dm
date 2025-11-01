@@ -969,6 +969,15 @@
 
 </div>
 
+<div class="row searchable" id="offerFor">
+<div class="cell" data-label="Property">offerFor</div>
+<div class="cell gen-ref-column" data-label="Column">offerForActualCode,  offerForCode,  offerForEntityType,  offerForId</div>
+<div class="cell" data-label="Arabic">عرض لـ</div>
+<div class="cell" data-label="English">Offer For</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
 <div class="row searchable" id="openShift">
 <div class="cell" data-label="Property">openShift</div>
 <div class="cell" data-label="Column">openShift_id</div>
