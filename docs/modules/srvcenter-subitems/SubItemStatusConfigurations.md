@@ -5,8 +5,8 @@
 # SubItemStatusConfigurations
 </div>
 
-**Arabic:** إعدادت حالة الصنف الفرعي - ملفات إعدادت حالة الصنف الفرعي
-**English:** SubItem Status Configurations - SubItem Status Configurations Files
+**Arabic:** إعدادت حالة حاله السياره - ملفات إعدادت حالة السيارات
+**English:** Car Status Configurations - Car Status Configurations Files
 
 <ContentFilter/>
 

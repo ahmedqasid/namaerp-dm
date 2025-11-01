@@ -2,18 +2,13 @@
 <div class='tableName'>
 
 
-# ItemRelations
+# ExternalAgency
 </div>
 
-**Arabic:** علاقات أصناف - علاقات الأصناف
-**English:** Item Relations
+**Arabic:** معرض خارجي - معارض خارجية
+**English:** External Agency - External Agencies
 
 <ContentFilter/>
-
-
-<div class='searchable'>
-<a href='#relationDetails'>relationDetails (ItemRelationLine) </a>
-</div>
 
 <div class='searchable'>
 
@@ -45,6 +40,69 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="bankInfo.bankBranch">
+<div class="cell" data-label="Property">bankInfo.bankBranch</div>
+<div class="cell" data-label="Column">bankInfoBankBranch</div>
+<div class="cell" data-label="Arabic">الفرع</div>
+<div class="cell" data-label="English">Bank Branch</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="bankInfo.bankCountry">
+<div class="cell" data-label="Property">bankInfo.bankCountry</div>
+<div class="cell" data-label="Column">bankInfoBankCountry</div>
+<div class="cell" data-label="Arabic">البلد</div>
+<div class="cell" data-label="English">Bank Country</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="bankInfo.bankName">
+<div class="cell" data-label="Property">bankInfo.bankName</div>
+<div class="cell" data-label="Column">bankInfoBankName</div>
+<div class="cell" data-label="Arabic"> بنك</div>
+<div class="cell" data-label="English"> Bank</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="bankInfo.bankTitle">
+<div class="cell" data-label="Property">bankInfo.bankTitle</div>
+<div class="cell" data-label="Column">bankInfoBankTitle</div>
+<div class="cell" data-label="Arabic">عنوان البنك</div>
+<div class="cell" data-label="English">Bank Title</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="bankInfo.ibanNumber">
+<div class="cell" data-label="Property">bankInfo.ibanNumber</div>
+<div class="cell" data-label="Column">bankInfoIbanNumber</div>
+<div class="cell" data-label="Arabic">رقم IBAN</div>
+<div class="cell" data-label="English">IBAN Number</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="bankInfo.intermediaryBankName">
+<div class="cell" data-label="Property">bankInfo.intermediaryBankName</div>
+<div class="cell" data-label="Column">bankInfoIntermediaryBankName</div>
+<div class="cell" data-label="Arabic">اسم البنك الوسيط</div>
+<div class="cell" data-label="English">Intermediary Bank Name</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="bankInfo.swiftCode">
+<div class="cell" data-label="Property">bankInfo.swiftCode</div>
+<div class="cell" data-label="Column">bankInfoSwiftCode</div>
+<div class="cell" data-label="Arabic">كود السويفت</div>
+<div class="cell" data-label="English">Swift Code</div>
+<div class="cell" data-label="Type">Text</div>
 
 </div>
 
@@ -93,6 +151,189 @@
 <div class="cell" data-label="Arabic">تم الحفظ مسبقا</div>
 <div class="cell" data-label="English">Commited Before</div>
 <div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.address.address1">
+<div class="cell" data-label="Property">contactInfo.address.address1</div>
+<div class="cell" data-label="Column">address1</div>
+<div class="cell" data-label="Arabic">عنوان 1</div>
+<div class="cell" data-label="English">Address 1</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.address.address2">
+<div class="cell" data-label="Property">contactInfo.address.address2</div>
+<div class="cell" data-label="Column">address2</div>
+<div class="cell" data-label="Arabic">رقم المبني</div>
+<div class="cell" data-label="English">Building Number</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.address.area">
+<div class="cell" data-label="Property">contactInfo.address.area</div>
+<div class="cell" data-label="Column">addressArea</div>
+<div class="cell" data-label="Arabic">المنطقة</div>
+<div class="cell" data-label="English">Area</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.address.buildingNumber">
+<div class="cell" data-label="Property">contactInfo.address.buildingNumber</div>
+<div class="cell" data-label="Column">buildingNumber</div>
+<div class="cell" data-label="Arabic">رقم المبني</div>
+<div class="cell" data-label="English">Building Number</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.address.city">
+<div class="cell" data-label="Property">contactInfo.address.city</div>
+<div class="cell" data-label="Column">addressCity</div>
+<div class="cell" data-label="Arabic">المدينة</div>
+<div class="cell" data-label="English">City</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.address.country">
+<div class="cell" data-label="Property">contactInfo.address.country</div>
+<div class="cell" data-label="Column">addressCountry</div>
+<div class="cell" data-label="Arabic">الدولة</div>
+<div class="cell" data-label="English">Country</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.address.countryCode">
+<div class="cell" data-label="Property">contactInfo.address.countryCode</div>
+<div class="cell" data-label="Column">countryCode</div>
+<div class="cell" data-label="Arabic">كود الدولة</div>
+<div class="cell" data-label="English">Country Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.address.district">
+<div class="cell" data-label="Property">contactInfo.address.district</div>
+<div class="cell" data-label="Column">district</div>
+<div class="cell" data-label="Arabic">الحي</div>
+<div class="cell" data-label="English">District</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.address.landPlotNumber">
+<div class="cell" data-label="Property">contactInfo.address.landPlotNumber</div>
+<div class="cell" data-label="Column">landPlotNumber</div>
+<div class="cell" data-label="Arabic">رقم تعريفي للأرض</div>
+<div class="cell" data-label="English">Land Plot Number</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.address.mapLocation">
+<div class="cell" data-label="Property">contactInfo.address.mapLocation</div>
+<div class="cell" data-label="Column">mapLocation</div>
+<div class="cell" data-label="Arabic">الموقع على الخريطة</div>
+<div class="cell" data-label="English">Map Location</div>
+<div class="cell" data-label="Type">LatLng</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.address.postalCode">
+<div class="cell" data-label="Property">contactInfo.address.postalCode</div>
+<div class="cell" data-label="Column">postalCode</div>
+<div class="cell" data-label="Arabic">الكود البريدي</div>
+<div class="cell" data-label="English">Postal Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.address.region">
+<div class="cell" data-label="Property">contactInfo.address.region</div>
+<div class="cell" data-label="Column">region_id</div>
+<div class="cell" data-label="Arabic">موقع جغرافي</div>
+<div class="cell" data-label="English">Address region</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [AddressRegion](/modules/basic/AddressRegion.md) 
+</div>
+</div>
+
+<div class="row searchable" id="contactInfo.address.state">
+<div class="cell" data-label="Property">contactInfo.address.state</div>
+<div class="cell" data-label="Column">addressState</div>
+<div class="cell" data-label="Arabic">المحافظة</div>
+<div class="cell" data-label="English">State</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.address.street">
+<div class="cell" data-label="Property">contactInfo.address.street</div>
+<div class="cell" data-label="Column">street</div>
+<div class="cell" data-label="Arabic"> شارع</div>
+<div class="cell" data-label="English"> Street</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.email">
+<div class="cell" data-label="Property">contactInfo.email</div>
+<div class="cell" data-label="Column">email</div>
+<div class="cell" data-label="Arabic">إيميل</div>
+<div class="cell" data-label="English">E-mail</div>
+<div class="cell" data-label="Type">Email</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.faxNumber">
+<div class="cell" data-label="Property">contactInfo.faxNumber</div>
+<div class="cell" data-label="Column">faxNumber</div>
+<div class="cell" data-label="Arabic">الفاكس</div>
+<div class="cell" data-label="English">Fax</div>
+<div class="cell" data-label="Type">PhoneNumber</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.mobile">
+<div class="cell" data-label="Property">contactInfo.mobile</div>
+<div class="cell" data-label="Column">mobile</div>
+<div class="cell" data-label="Arabic">الموبايل</div>
+<div class="cell" data-label="English">Mobile</div>
+<div class="cell" data-label="Type">PhoneNumber</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.telephone1">
+<div class="cell" data-label="Property">contactInfo.telephone1</div>
+<div class="cell" data-label="Column">telephone1</div>
+<div class="cell" data-label="Arabic">تليفون 1</div>
+<div class="cell" data-label="English">Phone 1</div>
+<div class="cell" data-label="Type">PhoneNumber</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.telephone2">
+<div class="cell" data-label="Property">contactInfo.telephone2</div>
+<div class="cell" data-label="Column">telephone2</div>
+<div class="cell" data-label="Arabic">تليفون 2</div>
+<div class="cell" data-label="English">Phone 2</div>
+<div class="cell" data-label="Type">PhoneNumber</div>
+
+</div>
+
+<div class="row searchable" id="contactInfo.website">
+<div class="cell" data-label="Property">contactInfo.website</div>
+<div class="cell" data-label="Column">website</div>
+<div class="cell" data-label="Arabic">موقع الكتروني</div>
+<div class="cell" data-label="English">Website</div>
+<div class="cell" data-label="Type">Text</div>
 
 </div>
 
@@ -345,15 +586,6 @@
 
 </div>
 
-<div class="row searchable" id="fromDate">
-<div class="cell" data-label="Property">fromDate</div>
-<div class="cell" data-label="Column">fromDate</div>
-<div class="cell" data-label="Arabic">من تاريخ</div>
-<div class="cell" data-label="English">From Date</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
 <div class="row searchable" id="generatedByLine">
 <div class="cell" data-label="Property">generatedByLine</div>
 <div class="cell" data-label="Column">generatedByLine</div>
@@ -570,81 +802,12 @@
 
 </div>
 
-<div class="row searchable" id="priceClassifier1">
-<div class="cell" data-label="Property">priceClassifier1</div>
-<div class="cell" data-label="Column">priceClassifier1_id</div>
-<div class="cell" data-label="Arabic">محدد سعر 1</div>
-<div class="cell" data-label="English">Price Classifier 1</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [SalesPriceClassifier1](/modules/basic/SalesPriceClassifier1.md) 
-</div>
-</div>
-
-<div class="row searchable" id="priceClassifier2">
-<div class="cell" data-label="Property">priceClassifier2</div>
-<div class="cell" data-label="Column">priceClassifier2_id</div>
-<div class="cell" data-label="Arabic">محدد سعر 2</div>
-<div class="cell" data-label="English">Price Classifier 2</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [SalesPriceClassifier2](/modules/basic/SalesPriceClassifier2.md) 
-</div>
-</div>
-
-<div class="row searchable" id="priceClassifier3">
-<div class="cell" data-label="Property">priceClassifier3</div>
-<div class="cell" data-label="Column">priceClassifier3_id</div>
-<div class="cell" data-label="Arabic">محدد سعر 3</div>
-<div class="cell" data-label="English">Price Classifier 3</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [SalesPriceClassifier3](/modules/basic/SalesPriceClassifier3.md) 
-</div>
-</div>
-
-<div class="row searchable" id="priceClassifier4">
-<div class="cell" data-label="Property">priceClassifier4</div>
-<div class="cell" data-label="Column">priceClassifier4_id</div>
-<div class="cell" data-label="Arabic">محدد سعر 4</div>
-<div class="cell" data-label="English">Price Classifier 4</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [SalesPriceClassifier4](/modules/basic/SalesPriceClassifier4.md) 
-</div>
-</div>
-
-<div class="row searchable" id="priceClassifier5">
-<div class="cell" data-label="Property">priceClassifier5</div>
-<div class="cell" data-label="Column">priceClassifier5_id</div>
-<div class="cell" data-label="Arabic">محدد سعر 5</div>
-<div class="cell" data-label="English">Price Classifier 5</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [SalesPriceClassifier5](/modules/basic/SalesPriceClassifier5.md) 
-</div>
-</div>
-
 <div class="row searchable" id="printCount">
 <div class="cell" data-label="Property">printCount</div>
 <div class="cell" data-label="Column">printCount</div>
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
 <div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="priority">
-<div class="cell" data-label="Property">priority</div>
-<div class="cell" data-label="Column">priority</div>
-<div class="cell" data-label="Arabic">الأولوية</div>
-<div class="cell" data-label="English">Priority</div>
-<div class="cell" data-label="Type">Long</div>
 
 </div>
 
@@ -753,11 +916,332 @@
 
 </div>
 
-<div class="row searchable" id="stopOtherDiscounts">
-<div class="cell" data-label="Property">stopOtherDiscounts</div>
-<div class="cell" data-label="Column">stopOtherDiscounts</div>
-<div class="cell" data-label="Arabic">إيقاف التخفبضات الآخرى</div>
-<div class="cell" data-label="English">stop other discounts</div>
+<div class="row searchable" id="subsidiaryAccounts.account1">
+<div class="cell" data-label="Property">subsidiaryAccounts.account1</div>
+<div class="cell" data-label="Column">account1_id</div>
+<div class="cell" data-label="Arabic"> حساب 01</div>
+<div class="cell" data-label="English"> Account 01</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account10">
+<div class="cell" data-label="Property">subsidiaryAccounts.account10</div>
+<div class="cell" data-label="Column">account10_id</div>
+<div class="cell" data-label="Arabic"> حساب 10</div>
+<div class="cell" data-label="English"> Account 10</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account11">
+<div class="cell" data-label="Property">subsidiaryAccounts.account11</div>
+<div class="cell" data-label="Column">account11_id</div>
+<div class="cell" data-label="Arabic"> حساب 11</div>
+<div class="cell" data-label="English"> Account 11</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account12">
+<div class="cell" data-label="Property">subsidiaryAccounts.account12</div>
+<div class="cell" data-label="Column">account12_id</div>
+<div class="cell" data-label="Arabic"> حساب 12</div>
+<div class="cell" data-label="English"> Account 12</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account13">
+<div class="cell" data-label="Property">subsidiaryAccounts.account13</div>
+<div class="cell" data-label="Column">account13_id</div>
+<div class="cell" data-label="Arabic"> حساب 13</div>
+<div class="cell" data-label="English"> Account 13</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account14">
+<div class="cell" data-label="Property">subsidiaryAccounts.account14</div>
+<div class="cell" data-label="Column">account14_id</div>
+<div class="cell" data-label="Arabic"> حساب 14</div>
+<div class="cell" data-label="English"> Account 14</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account15">
+<div class="cell" data-label="Property">subsidiaryAccounts.account15</div>
+<div class="cell" data-label="Column">account15_id</div>
+<div class="cell" data-label="Arabic"> حساب 15</div>
+<div class="cell" data-label="English"> Account 15</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account16">
+<div class="cell" data-label="Property">subsidiaryAccounts.account16</div>
+<div class="cell" data-label="Column">account16_id</div>
+<div class="cell" data-label="Arabic"> حساب 16</div>
+<div class="cell" data-label="English"> Account 16</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account17">
+<div class="cell" data-label="Property">subsidiaryAccounts.account17</div>
+<div class="cell" data-label="Column">account17_id</div>
+<div class="cell" data-label="Arabic"> حساب 17</div>
+<div class="cell" data-label="English"> Account 17</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account18">
+<div class="cell" data-label="Property">subsidiaryAccounts.account18</div>
+<div class="cell" data-label="Column">account18_id</div>
+<div class="cell" data-label="Arabic"> حساب 18</div>
+<div class="cell" data-label="English"> Account 18</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account19">
+<div class="cell" data-label="Property">subsidiaryAccounts.account19</div>
+<div class="cell" data-label="Column">account19_id</div>
+<div class="cell" data-label="Arabic"> حساب 19</div>
+<div class="cell" data-label="English"> Account 19</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account2">
+<div class="cell" data-label="Property">subsidiaryAccounts.account2</div>
+<div class="cell" data-label="Column">account2_id</div>
+<div class="cell" data-label="Arabic"> حساب 02</div>
+<div class="cell" data-label="English"> Account 02</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account20">
+<div class="cell" data-label="Property">subsidiaryAccounts.account20</div>
+<div class="cell" data-label="Column">account20_id</div>
+<div class="cell" data-label="Arabic"> حساب 20</div>
+<div class="cell" data-label="English"> Account 20</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account3">
+<div class="cell" data-label="Property">subsidiaryAccounts.account3</div>
+<div class="cell" data-label="Column">account3_id</div>
+<div class="cell" data-label="Arabic"> حساب 03</div>
+<div class="cell" data-label="English"> Account 03</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account4">
+<div class="cell" data-label="Property">subsidiaryAccounts.account4</div>
+<div class="cell" data-label="Column">account4_id</div>
+<div class="cell" data-label="Arabic"> حساب 04</div>
+<div class="cell" data-label="English"> Account 04</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account5">
+<div class="cell" data-label="Property">subsidiaryAccounts.account5</div>
+<div class="cell" data-label="Column">account5_id</div>
+<div class="cell" data-label="Arabic"> حساب 05</div>
+<div class="cell" data-label="English"> Account 05</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account6">
+<div class="cell" data-label="Property">subsidiaryAccounts.account6</div>
+<div class="cell" data-label="Column">account6_id</div>
+<div class="cell" data-label="Arabic"> حساب 06</div>
+<div class="cell" data-label="English"> Account 06</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account7">
+<div class="cell" data-label="Property">subsidiaryAccounts.account7</div>
+<div class="cell" data-label="Column">account7_id</div>
+<div class="cell" data-label="Arabic"> حساب 07</div>
+<div class="cell" data-label="English"> Account 07</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account8">
+<div class="cell" data-label="Property">subsidiaryAccounts.account8</div>
+<div class="cell" data-label="Column">account8_id</div>
+<div class="cell" data-label="Arabic"> حساب 08</div>
+<div class="cell" data-label="English"> Account 08</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.account9">
+<div class="cell" data-label="Property">subsidiaryAccounts.account9</div>
+<div class="cell" data-label="Column">account9_id</div>
+<div class="cell" data-label="Arabic"> حساب 09</div>
+<div class="cell" data-label="English"> Account 09</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.accountsBag">
+<div class="cell" data-label="Property">subsidiaryAccounts.accountsBag</div>
+<div class="cell" data-label="Column">accountsBag_id</div>
+<div class="cell" data-label="Arabic"> حقيبة حسابات</div>
+<div class="cell" data-label="English"> Accounts Bag</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [AccountsBag](/modules/basic/AccountsBag.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.currency">
+<div class="cell" data-label="Property">subsidiaryAccounts.currency</div>
+<div class="cell" data-label="Column">currency_id</div>
+<div class="cell" data-label="Arabic">العملة</div>
+<div class="cell" data-label="English">Currency</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Currency](/modules/basic/Currency.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.forceNoDebtAgesTracking">
+<div class="cell" data-label="Property">subsidiaryAccounts.forceNoDebtAgesTracking</div>
+<div class="cell" data-label="Column">forceNoDebtAgesTracking</div>
+<div class="cell" data-label="Arabic">منع متابعة أعمار الديون لهذه الذمة - حتي و إن تم تفعيلها للحساب</div>
+<div class="cell" data-label="English">Do Not Track Debt Ages For This Subsidiary - Even if it was activated in the account</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.mainAccount">
+<div class="cell" data-label="Property">subsidiaryAccounts.mainAccount</div>
+<div class="cell" data-label="Column">mainAccount_id</div>
+<div class="cell" data-label="Arabic"> الحساب الرئيسي</div>
+<div class="cell" data-label="English"> Main Account</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.parentParty">
+<div class="cell" data-label="Property">subsidiaryAccounts.parentParty</div>
+<div class="cell gen-ref-column" data-label="Column">parentPartyActualCode,  parentPartyCode,  parentPartyEntityType,  parentPartyId</div>
+<div class="cell" data-label="Arabic">الجهة الأعلي (البديل المحاسبي)</div>
+<div class="cell" data-label="English">Parent Party (Accounting Alternative)</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.tax1Exempt">
+<div class="cell" data-label="Property">subsidiaryAccounts.tax1Exempt</div>
+<div class="cell" data-label="Column">tax1Exempt</div>
+<div class="cell" data-label="Arabic">غير خاضع لضريبة 1</div>
+<div class="cell" data-label="English">Tax 1 Exempt</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.tax2Exempt">
+<div class="cell" data-label="Property">subsidiaryAccounts.tax2Exempt</div>
+<div class="cell" data-label="Column">tax2Exempt</div>
+<div class="cell" data-label="Arabic">غير خاضع لضريبة 2</div>
+<div class="cell" data-label="English">Tax 2 Exempt</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.tax3Exempt">
+<div class="cell" data-label="Property">subsidiaryAccounts.tax3Exempt</div>
+<div class="cell" data-label="Column">tax3Exempt</div>
+<div class="cell" data-label="Arabic">غير خاضع لضريبة 3</div>
+<div class="cell" data-label="English">Tax 3 Exempt</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="subsidiaryAccounts.tax4Exempt">
+<div class="cell" data-label="Property">subsidiaryAccounts.tax4Exempt</div>
+<div class="cell" data-label="Column">tax4Exempt</div>
+<div class="cell" data-label="Arabic">غير خاضع لضريبة 4</div>
+<div class="cell" data-label="English">Tax 4 Exempt</div>
 <div class="cell" data-label="Type">Boolean</div>
 
 </div>
@@ -771,12 +1255,102 @@
 
 </div>
 
-<div class="row searchable" id="toDate">
-<div class="cell" data-label="Property">toDate</div>
-<div class="cell" data-label="Column">toDate</div>
-<div class="cell" data-label="Arabic">إلى تاريخ</div>
-<div class="cell" data-label="English">To Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="row searchable" id="taxInfo.commercialRegNo">
+<div class="cell" data-label="Property">taxInfo.commercialRegNo</div>
+<div class="cell" data-label="Column">taxInfoCommercialRegNo</div>
+<div class="cell" data-label="Arabic">رقم السجل التجاري</div>
+<div class="cell" data-label="English">Commercial Registration Number</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="taxInfo.companyType">
+<div class="cell" data-label="Property">taxInfo.companyType</div>
+<div class="cell" data-label="Column">taxInfoCompanyType</div>
+<div class="cell" data-label="Arabic">الكيان القانونى للشركة</div>
+<div class="cell" data-label="English">The legal entity of the company</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="taxInfo.crNationalNumber">
+<div class="cell" data-label="Property">taxInfo.crNationalNumber</div>
+<div class="cell" data-label="Column">taxInfoCrNationalNumber</div>
+<div class="cell" data-label="Arabic">الرقم الوطني الموحد</div>
+<div class="cell" data-label="English">Commercial Registration National Number</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="taxInfo.dealWay">
+<div class="cell" data-label="Property">taxInfo.dealWay</div>
+<div class="cell" data-label="Column">taxInfoDealWay</div>
+<div class="cell" data-label="Arabic">ط تعامل</div>
+<div class="cell" data-label="English">Deal Way</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="taxInfo.dealWayCode">
+<div class="cell" data-label="Property">taxInfo.dealWayCode</div>
+<div class="cell" data-label="Column">taxInfoDealWayCode</div>
+<div class="cell" data-label="Arabic">كود</div>
+<div class="cell" data-label="English">Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="taxInfo.fileNo">
+<div class="cell" data-label="Property">taxInfo.fileNo</div>
+<div class="cell" data-label="Column">taxInfoFileNo</div>
+<div class="cell" data-label="Arabic">رقم الملف</div>
+<div class="cell" data-label="English">File No</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="taxInfo.idNumber">
+<div class="cell" data-label="Property">taxInfo.idNumber</div>
+<div class="cell" data-label="Column">taxInfoIdNumber</div>
+<div class="cell" data-label="Arabic">رقم البطاقة الشخصيه</div>
+<div class="cell" data-label="English">Id Number</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="taxInfo.mission">
+<div class="cell" data-label="Property">taxInfo.mission</div>
+<div class="cell" data-label="Column">taxInfoMission</div>
+<div class="cell" data-label="Arabic">المأمورية</div>
+<div class="cell" data-label="English">Mission</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="taxInfo.missionCode">
+<div class="cell" data-label="Property">taxInfo.missionCode</div>
+<div class="cell" data-label="Column">taxInfoMissionCode</div>
+<div class="cell" data-label="Arabic">كود</div>
+<div class="cell" data-label="English">Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="taxInfo.supplier">
+<div class="cell" data-label="Property">taxInfo.supplier</div>
+<div class="cell" data-label="Column">taxInfoSupplier</div>
+<div class="cell" data-label="Arabic">مورد</div>
+<div class="cell" data-label="English"> Supplier</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="taxInfo.taxRegNo">
+<div class="cell" data-label="Property">taxInfo.taxRegNo</div>
+<div class="cell" data-label="Column">taxInfoTaxRegNo</div>
+<div class="cell" data-label="Arabic">رقم التسجيل الضريبى</div>
+<div class="cell" data-label="English">Tax Registeration NO</div>
+<div class="cell" data-label="Type">Text</div>
 
 </div>
 
@@ -841,595 +1415,6 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
-</div>
-
-
-</div>
-</div>
-
-<div id='relationDetails' title='relationDetails' class='searchable'>
-
-## relationDetails (علاقات الأصناف - Items Relations' Details)
-
-<div class='tableName'>
-
-**Table Name:** ItemRelationLine, **Join Column:** itemRelations_id
-
-</div>
-
-<div class="nama-table">
-<div class="row header-row">
-<div class="cell">Property</div>
-<div class="cell">Column</div>
-<div class="cell">Arabic</div>
-<div class="cell">English</div>
-<div class="cell">Type</div>
-<div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="relationDetails.brand">
-<div class="cell" data-label="Property">relationDetails.brand</div>
-<div class="cell" data-label="Column">brand_id</div>
-<div class="cell" data-label="Arabic">الماركة</div>
-<div class="cell" data-label="English">Item Brand</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemBrand](/modules/supplychain/ItemBrand.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.category1">
-<div class="cell" data-label="Property">relationDetails.category1</div>
-<div class="cell" data-label="Column">category1_id</div>
-<div class="cell" data-label="Arabic">فئة الصنف1</div>
-<div class="cell" data-label="English">Item Category1</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemCategory](/modules/supplychain/ItemCategory.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.category2">
-<div class="cell" data-label="Property">relationDetails.category2</div>
-<div class="cell" data-label="Column">category2_id</div>
-<div class="cell" data-label="Arabic">فئة الصنف2</div>
-<div class="cell" data-label="English">Item Category2</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemCategory](/modules/supplychain/ItemCategory.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.category3">
-<div class="cell" data-label="Property">relationDetails.category3</div>
-<div class="cell" data-label="Column">category3_id</div>
-<div class="cell" data-label="Arabic">فئة الصنف3</div>
-<div class="cell" data-label="English">Item Category3</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemCategory](/modules/supplychain/ItemCategory.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.category4">
-<div class="cell" data-label="Property">relationDetails.category4</div>
-<div class="cell" data-label="Column">category4_id</div>
-<div class="cell" data-label="Arabic">فئة الصنف4</div>
-<div class="cell" data-label="English">Item Category4</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemCategory](/modules/supplychain/ItemCategory.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.category5">
-<div class="cell" data-label="Property">relationDetails.category5</div>
-<div class="cell" data-label="Column">category5_id</div>
-<div class="cell" data-label="Arabic">فئة الصنف5</div>
-<div class="cell" data-label="English">Item Category5</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemCategory](/modules/supplychain/ItemCategory.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.dimensions.analysisSet">
-<div class="cell" data-label="Property">relationDetails.dimensions.analysisSet</div>
-<div class="cell" data-label="Column">analysisSet_id</div>
-<div class="cell" data-label="Arabic">المجموعة التحليلية</div>
-<div class="cell" data-label="English">Analysis set</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [AnalysisSet](/modules/basic/AnalysisSet.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.dimensions.branch">
-<div class="cell" data-label="Property">relationDetails.dimensions.branch</div>
-<div class="cell" data-label="Column">branch_id</div>
-<div class="cell" data-label="Arabic">الفرع</div>
-<div class="cell" data-label="English">Branch</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Branch](/modules/basic/Branch.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.dimensions.department">
-<div class="cell" data-label="Property">relationDetails.dimensions.department</div>
-<div class="cell" data-label="Column">department_id</div>
-<div class="cell" data-label="Arabic">الإدارة</div>
-<div class="cell" data-label="English">Department</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Department](/modules/basic/Department.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.dimensions.legalEntity">
-<div class="cell" data-label="Property">relationDetails.dimensions.legalEntity</div>
-<div class="cell" data-label="Column">legalEntity_id</div>
-<div class="cell" data-label="Arabic">الشركة</div>
-<div class="cell" data-label="English">Legal Entity</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [LegalEntity](/modules/basic/LegalEntity.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.dimensions.sector">
-<div class="cell" data-label="Property">relationDetails.dimensions.sector</div>
-<div class="cell" data-label="Column">sector_id</div>
-<div class="cell" data-label="Arabic">القطاع</div>
-<div class="cell" data-label="English">Sector</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Sector](/modules/basic/Sector.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.fromDate">
-<div class="cell" data-label="Property">relationDetails.fromDate</div>
-<div class="cell" data-label="Column">fromDate</div>
-<div class="cell" data-label="Arabic">من تاريخ</div>
-<div class="cell" data-label="English">From Date</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.id">
-<div class="cell" data-label="Property">relationDetails.id</div>
-<div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.invoiceClassification">
-<div class="cell" data-label="Property">relationDetails.invoiceClassification</div>
-<div class="cell" data-label="Column">invoiceClassification_id</div>
-<div class="cell" data-label="Arabic">تصنيف الفاتورة</div>
-<div class="cell" data-label="English">Invoice Classification</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [InvoiceClassification](/modules/supplychain/InvoiceClassification.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.item">
-<div class="cell" data-label="Property">relationDetails.item</div>
-<div class="cell" data-label="Column">item_id</div>
-<div class="cell" data-label="Arabic">الصنف</div>
-<div class="cell" data-label="English">Item</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [InvItem](/modules/supplychain/InvItem.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.itemClass1">
-<div class="cell" data-label="Property">relationDetails.itemClass1</div>
-<div class="cell" data-label="Column">itemClass1_id</div>
-<div class="cell" data-label="Arabic">تصنيف 1</div>
-<div class="cell" data-label="English">Class 1</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemClass1](/modules/supplychain/ItemClass1.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.itemClass10">
-<div class="cell" data-label="Property">relationDetails.itemClass10</div>
-<div class="cell" data-label="Column">itemClass10_id</div>
-<div class="cell" data-label="Arabic">تصنيف 10</div>
-<div class="cell" data-label="English">Class 10</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemClass10](/modules/supplychain/ItemClass10.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.itemClass2">
-<div class="cell" data-label="Property">relationDetails.itemClass2</div>
-<div class="cell" data-label="Column">itemClass2_id</div>
-<div class="cell" data-label="Arabic">تصنيف 2</div>
-<div class="cell" data-label="English">Class 2</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemClass2](/modules/supplychain/ItemClass2.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.itemClass3">
-<div class="cell" data-label="Property">relationDetails.itemClass3</div>
-<div class="cell" data-label="Column">itemClass3_id</div>
-<div class="cell" data-label="Arabic">تصنيف 3</div>
-<div class="cell" data-label="English">Class 3</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemClass3](/modules/supplychain/ItemClass3.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.itemClass4">
-<div class="cell" data-label="Property">relationDetails.itemClass4</div>
-<div class="cell" data-label="Column">itemClass4_id</div>
-<div class="cell" data-label="Arabic">تصنيف 4</div>
-<div class="cell" data-label="English">Class 4</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemClass4](/modules/supplychain/ItemClass4.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.itemClass5">
-<div class="cell" data-label="Property">relationDetails.itemClass5</div>
-<div class="cell" data-label="Column">itemClass5_id</div>
-<div class="cell" data-label="Arabic">تصنيف 5</div>
-<div class="cell" data-label="English">Class 5</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemClass5](/modules/supplychain/ItemClass5.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.itemClass6">
-<div class="cell" data-label="Property">relationDetails.itemClass6</div>
-<div class="cell" data-label="Column">itemClass6_id</div>
-<div class="cell" data-label="Arabic">تصنيف 6</div>
-<div class="cell" data-label="English">Class 6</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemClass6](/modules/supplychain/ItemClass6.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.itemClass7">
-<div class="cell" data-label="Property">relationDetails.itemClass7</div>
-<div class="cell" data-label="Column">itemClass7_id</div>
-<div class="cell" data-label="Arabic">تصنيف 7</div>
-<div class="cell" data-label="English">Class 7</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemClass7](/modules/supplychain/ItemClass7.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.itemClass8">
-<div class="cell" data-label="Property">relationDetails.itemClass8</div>
-<div class="cell" data-label="Column">itemClass8_id</div>
-<div class="cell" data-label="Arabic">تصنيف 8</div>
-<div class="cell" data-label="English">Class 8</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemClass8](/modules/supplychain/ItemClass8.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.itemClass9">
-<div class="cell" data-label="Property">relationDetails.itemClass9</div>
-<div class="cell" data-label="Column">itemClass9_id</div>
-<div class="cell" data-label="Arabic">تصنيف 9</div>
-<div class="cell" data-label="English">Class 9</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [ItemClass9](/modules/supplychain/ItemClass9.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.lineNumber">
-<div class="cell" data-label="Property">relationDetails.lineNumber</div>
-<div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.priceClassifier1">
-<div class="cell" data-label="Property">relationDetails.priceClassifier1</div>
-<div class="cell" data-label="Column">priceClassifier1_id</div>
-<div class="cell" data-label="Arabic">محدد سعر 1</div>
-<div class="cell" data-label="English">Price Classifier 1</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [SalesPriceClassifier1](/modules/basic/SalesPriceClassifier1.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.priceClassifier2">
-<div class="cell" data-label="Property">relationDetails.priceClassifier2</div>
-<div class="cell" data-label="Column">priceClassifier2_id</div>
-<div class="cell" data-label="Arabic">محدد سعر 2</div>
-<div class="cell" data-label="English">Price Classifier 2</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [SalesPriceClassifier2](/modules/basic/SalesPriceClassifier2.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.priceClassifier3">
-<div class="cell" data-label="Property">relationDetails.priceClassifier3</div>
-<div class="cell" data-label="Column">priceClassifier3_id</div>
-<div class="cell" data-label="Arabic">محدد سعر 3</div>
-<div class="cell" data-label="English">Price Classifier 3</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [SalesPriceClassifier3](/modules/basic/SalesPriceClassifier3.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.priceClassifier4">
-<div class="cell" data-label="Property">relationDetails.priceClassifier4</div>
-<div class="cell" data-label="Column">priceClassifier4_id</div>
-<div class="cell" data-label="Arabic">محدد سعر 4</div>
-<div class="cell" data-label="English">Price Classifier 4</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [SalesPriceClassifier4](/modules/basic/SalesPriceClassifier4.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.priceClassifier5">
-<div class="cell" data-label="Property">relationDetails.priceClassifier5</div>
-<div class="cell" data-label="Column">priceClassifier5_id</div>
-<div class="cell" data-label="Arabic">محدد سعر 5</div>
-<div class="cell" data-label="English">Price Classifier 5</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [SalesPriceClassifier5](/modules/basic/SalesPriceClassifier5.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.priority">
-<div class="cell" data-label="Property">relationDetails.priority</div>
-<div class="cell" data-label="Column">priority</div>
-<div class="cell" data-label="Arabic">الأولوية</div>
-<div class="cell" data-label="English">Priority</div>
-<div class="cell" data-label="Type">Long</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.qty.uom">
-<div class="cell" data-label="Property">relationDetails.qty.uom</div>
-<div class="cell" data-label="Column">qtyUom_id</div>
-<div class="cell" data-label="Arabic">الوحدة</div>
-<div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [UOM](/modules/supplychain/UOM.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.qty.value">
-<div class="cell" data-label="Property">relationDetails.qty.value</div>
-<div class="cell" data-label="Column">qtyValue</div>
-<div class="cell" data-label="Arabic">القيمة</div>
-<div class="cell" data-label="English">Value</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.refId">
-<div class="cell" data-label="Property">relationDetails.refId</div>
-<div class="cell" data-label="Column">refId</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.relationType">
-<div class="cell" data-label="Property">relationDetails.relationType</div>
-<div class="cell" data-label="Column">relationType</div>
-<div class="cell" data-label="Arabic">العلاقة</div>
-<div class="cell" data-label="English">Relations Type</div>
-<div class="cell" data-label="Type">Enum</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.specificDimensions.activePerc">
-<div class="cell" data-label="Property">relationDetails.specificDimensions.activePerc</div>
-<div class="cell" data-label="Column">activePerc</div>
-<div class="cell" data-label="Arabic">النسبة الفعالة</div>
-<div class="cell" data-label="English">Active Percentage</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.specificDimensions.box">
-<div class="cell" data-label="Property">relationDetails.specificDimensions.box</div>
-<div class="cell" data-label="Column">box</div>
-<div class="cell" data-label="Arabic">صندوق</div>
-<div class="cell" data-label="English">Box</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.specificDimensions.color">
-<div class="cell" data-label="Property">relationDetails.specificDimensions.color</div>
-<div class="cell" data-label="Column">color</div>
-<div class="cell" data-label="Arabic">اللون</div>
-<div class="cell" data-label="English">Color</div>
-<div class="cell" data-label="Type">Color</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.specificDimensions.inactivePerc">
-<div class="cell" data-label="Property">relationDetails.specificDimensions.inactivePerc</div>
-<div class="cell" data-label="Column">inactivePerc</div>
-<div class="cell" data-label="Arabic">النسبة الغير فعالة</div>
-<div class="cell" data-label="English">Inactive Percentage</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.specificDimensions.locator">
-<div class="cell" data-label="Property">relationDetails.specificDimensions.locator</div>
-<div class="cell" data-label="Column">locator_id</div>
-<div class="cell" data-label="Arabic">الموقع</div>
-<div class="cell" data-label="English">Locator</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Locator](/modules/supplychain/Locator.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.specificDimensions.lotId">
-<div class="cell" data-label="Property">relationDetails.specificDimensions.lotId</div>
-<div class="cell" data-label="Column">lotId</div>
-<div class="cell" data-label="Arabic">رقم الشحنه</div>
-<div class="cell" data-label="English">Lot ID</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.specificDimensions.measures">
-<div class="cell" data-label="Property">relationDetails.specificDimensions.measures</div>
-<div class="cell" data-label="Column">measures</div>
-<div class="cell" data-label="Arabic">الأبعاد</div>
-<div class="cell" data-label="English">Measures</div>
-<div class="cell" data-label="Type">Measures</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.specificDimensions.revisionId">
-<div class="cell" data-label="Property">relationDetails.specificDimensions.revisionId</div>
-<div class="cell" data-label="Column">revisionId</div>
-<div class="cell" data-label="Arabic">الإصدار</div>
-<div class="cell" data-label="English">Revision ID</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.specificDimensions.secondSerial">
-<div class="cell" data-label="Property">relationDetails.specificDimensions.secondSerial</div>
-<div class="cell" data-label="Column">secondSerial</div>
-<div class="cell" data-label="Arabic">الرقم المسلسل الثاني</div>
-<div class="cell" data-label="English">Second Serial</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.specificDimensions.serialNumber">
-<div class="cell" data-label="Property">relationDetails.specificDimensions.serialNumber</div>
-<div class="cell" data-label="Column">serialNumber</div>
-<div class="cell" data-label="Arabic">الرقم المسلسل</div>
-<div class="cell" data-label="English">Serial number</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.specificDimensions.size">
-<div class="cell" data-label="Property">relationDetails.specificDimensions.size</div>
-<div class="cell" data-label="Column">size</div>
-<div class="cell" data-label="Arabic">المقاس</div>
-<div class="cell" data-label="English">Size</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.specificDimensions.subItem">
-<div class="cell" data-label="Property">relationDetails.specificDimensions.subItem</div>
-<div class="cell" data-label="Column">subItem_id</div>
-<div class="cell" data-label="Arabic"> السياره</div>
-<div class="cell" data-label="English"> Car</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [SubItem](/modules/srvcenter-subitems/SubItem.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.specificDimensions.warehouse">
-<div class="cell" data-label="Property">relationDetails.specificDimensions.warehouse</div>
-<div class="cell" data-label="Column">warehouse_id</div>
-<div class="cell" data-label="Arabic">المخزن</div>
-<div class="cell" data-label="English">Warehouse</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Warehouse](/modules/supplychain/Warehouse.md) 
-</div>
-</div>
-
-<div class="row searchable" id="relationDetails.stopOtherDiscounts">
-<div class="cell" data-label="Property">relationDetails.stopOtherDiscounts</div>
-<div class="cell" data-label="Column">stopOtherDiscounts</div>
-<div class="cell" data-label="Arabic">إيقاف التخفبضات الآخرى</div>
-<div class="cell" data-label="English">stop other discounts</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.toDate">
-<div class="cell" data-label="Property">relationDetails.toDate</div>
-<div class="cell" data-label="Column">toDate</div>
-<div class="cell" data-label="Arabic">إلى تاريخ</div>
-<div class="cell" data-label="English">To Date</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
-<div class="row searchable" id="relationDetails.toItem">
-<div class="cell" data-label="Property">relationDetails.toItem</div>
-<div class="cell" data-label="Column">toItem_id</div>
-<div class="cell" data-label="Arabic">الصنف الثانى</div>
-<div class="cell" data-label="English">Item 2</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [InvItem](/modules/supplychain/InvItem.md) 
-</div>
 </div>
 
 

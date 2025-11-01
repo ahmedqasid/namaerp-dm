@@ -5,8 +5,8 @@
 # SISalesOrder
 </div>
 
-**Arabic:** أمر بيع صنف فرعي - مستندات أمر بيع صنف فرعي
-**English:** Sub Item Sales Order - Sub Item Sales Order Documents
+**Arabic:** أمر بيع سيارة - مستندات أمر بيع سيارات
+**English:** Car Sales Order - Car Sales Order Documents
 
 <ContentFilter/>
 
@@ -4537,8 +4537,8 @@
 <div class="row searchable" id="details.specificDimensions.subItem">
 <div class="cell" data-label="Property">details.specificDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

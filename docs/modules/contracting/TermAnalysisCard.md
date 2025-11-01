@@ -1558,8 +1558,8 @@
 <div class="row searchable" id="analysisLines.specificDimensions.subItem">
 <div class="cell" data-label="Property">analysisLines.specificDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -2324,8 +2324,8 @@
 <div class="row searchable" id="contractors.specificDimensions.subItem">
 <div class="cell" data-label="Property">contractors.specificDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -3090,8 +3090,8 @@
 <div class="row searchable" id="items.specificDimensions.subItem">
 <div class="cell" data-label="Property">items.specificDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -3856,8 +3856,8 @@
 <div class="row searchable" id="otherExpenses.specificDimensions.subItem">
 <div class="cell" data-label="Property">otherExpenses.specificDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -4622,8 +4622,8 @@
 <div class="row searchable" id="workers.specificDimensions.subItem">
 <div class="cell" data-label="Property">workers.specificDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

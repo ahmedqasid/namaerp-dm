@@ -1369,6 +1369,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="lines.empWorkPlace">
+<div class="cell" data-label="Property">lines.empWorkPlace</div>
+<div class="cell" data-label="Column">empWorkPlace_id</div>
+<div class="cell" data-label="Arabic">مكان العمل الحالي</div>
+<div class="cell" data-label="English">Current Work Place</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [EmpWorkPlace](/modules/basic/EmpWorkPlace.md) 
+</div>
+</div>
+
 <div class="row searchable" id="lines.employee">
 <div class="cell" data-label="Property">lines.employee</div>
 <div class="cell" data-label="Column">employee_id</div>
@@ -1523,6 +1535,18 @@
 <div class="cell" data-label="Foreign Table">
 
  [DepartmentSection](/modules/basic/DepartmentSection.md) 
+</div>
+</div>
+
+<div class="row searchable" id="weekendLines.empWorkPlace">
+<div class="cell" data-label="Property">weekendLines.empWorkPlace</div>
+<div class="cell" data-label="Column">empWorkPlace_id</div>
+<div class="cell" data-label="Arabic">مكان العمل الحالي</div>
+<div class="cell" data-label="English">Current Work Place</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [EmpWorkPlace](/modules/basic/EmpWorkPlace.md) 
 </div>
 </div>
 

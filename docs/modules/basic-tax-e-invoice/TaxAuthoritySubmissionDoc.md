@@ -1372,12 +1372,12 @@
 
 </div>
 
-<div class="row searchable" id="toSubmitLines.submissionEntry">
-<div class="cell" data-label="Property">toSubmitLines.submissionEntry</div>
-<div class="cell" data-label="Column">submissionEntry_id</div>
+<div class="row searchable" id="toSubmitLines.submissionEntryId">
+<div class="cell" data-label="Property">toSubmitLines.submissionEntryId</div>
+<div class="cell" data-label="Column">submissionEntry_Id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type"></div>
+<div class="cell" data-label="Type">ID</div>
 
 </div>
 

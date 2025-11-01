@@ -44,13 +44,16 @@
 </div>
 </div>
 
-<div class="row searchable" id="configId">
-<div class="cell" data-label="Property">configId</div>
-<div class="cell" data-label="Column">configId</div>
+<div class="row searchable" id="config">
+<div class="cell" data-label="Property">config</div>
+<div class="cell" data-label="Column">config_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
 
+ [TaxPayerConfiguration](/modules/basic-tax-e-invoice/TaxPayerConfiguration.md) 
+</div>
 </div>
 
 <div class="row searchable" id="creationDate">
@@ -167,6 +170,42 @@
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
 <div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="taxAuthSysFields.submissionUUID">
+<div class="cell" data-label="Property">taxAuthSysFields.submissionUUID</div>
+<div class="cell" data-label="Column">submissionUUID</div>
+<div class="cell" data-label="Arabic">معرف مرحلة الارسال</div>
+<div class="cell" data-label="English">Submission ID</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="taxAuthSysFields.taxAuthEntityStatusType">
+<div class="cell" data-label="Property">taxAuthSysFields.taxAuthEntityStatusType</div>
+<div class="cell" data-label="Column">taxAuthEntityStatusType</div>
+<div class="cell" data-label="Arabic">حالة المستند بالنسبة لمصلحة الضرائب</div>
+<div class="cell" data-label="English">Tax Authority Document Type</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="taxAuthSysFields.taxAuthUUID">
+<div class="cell" data-label="Property">taxAuthSysFields.taxAuthUUID</div>
+<div class="cell" data-label="Column">taxAuthUUID</div>
+<div class="cell" data-label="Arabic">معرف المستند داخل مصلحة الضرائب</div>
+<div class="cell" data-label="English">Tax Authority Document View ID</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="taxAuthSysFields.temporaryId">
+<div class="cell" data-label="Property">taxAuthSysFields.temporaryId</div>
+<div class="cell" data-label="Column">temporaryId</div>
+<div class="cell" data-label="Arabic">معرف لمطالعة المستند بدون تسجيل دخول</div>
+<div class="cell" data-label="English">Tax Authority Not Registered Person Document View ID</div>
+<div class="cell" data-label="Type">Text</div>
 
 </div>
 

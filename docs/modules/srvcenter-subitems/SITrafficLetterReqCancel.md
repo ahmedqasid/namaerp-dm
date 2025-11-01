@@ -5,8 +5,8 @@
 # SITrafficLetterReqCancel
 </div>
 
-**Arabic:** إلغاء طلب خطاب مرور صنف فرعي - مستندات إلغاء طلب خطاب مرور صنف فرعي
-**English:** Sub Item Traffic Letter Request Cancel - Sub Item Traffic Letter Request Cancel Documents
+**Arabic:** إلغاء طلب خطاب مرور سيارة - مستندات إلغاء طلب خطاب مرور سيارات
+**English:** Car Traffic Letter Request Cancel - Car Traffic Letter Request Cancel Documents
 
 <ContentFilter/>
 
@@ -4390,8 +4390,8 @@
 <div class="row searchable" id="details.specificDimensions.subItem">
 <div class="cell" data-label="Property">details.specificDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

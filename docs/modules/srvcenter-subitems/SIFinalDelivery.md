@@ -5,8 +5,8 @@
 # SIFinalDelivery
 </div>
 
-**Arabic:** تسليم صنف فرعي نهائي - مستندات تسليم صنف فرعي نهائي
-**English:** Sub Item Final Delivery - Sub Item Final Delivery Documents
+**Arabic:** تسليم سيارة نهائي - مستندات تسليم سيارة نهائي
+**English:** Car Final Delivery - Car Final Delivery Documents
 
 <ContentFilter/>
 
@@ -4390,8 +4390,8 @@
 <div class="row searchable" id="details.specificDimensions.subItem">
 <div class="cell" data-label="Property">details.specificDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

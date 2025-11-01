@@ -2132,8 +2132,8 @@
 <div class="row searchable" id="details.itemDimensions.subItem">
 <div class="cell" data-label="Property">details.itemDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -2835,8 +2835,8 @@
 <div class="row searchable" id="freeItems.freeItemData.freeItemDimensions.subItem">
 <div class="cell" data-label="Property">freeItems.freeItemData.freeItemDimensions.subItem</div>
 <div class="cell" data-label="Column">freeSubItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -3297,8 +3297,8 @@
 <div class="row searchable" id="freeItems.itemDimensions.subItem">
 <div class="cell" data-label="Property">freeItems.itemDimensions.subItem</div>
 <div class="cell" data-label="Column">itemDimensionsSubItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -4139,8 +4139,8 @@
 <div class="row searchable" id="invOffersLines.freeItemData.freeItemDimensions.subItem">
 <div class="cell" data-label="Property">invOffersLines.freeItemData.freeItemDimensions.subItem</div>
 <div class="cell" data-label="Column">free_FreeSubItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

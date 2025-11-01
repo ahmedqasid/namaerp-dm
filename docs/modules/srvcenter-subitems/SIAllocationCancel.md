@@ -5,8 +5,8 @@
 # SIAllocationCancel
 </div>
 
-**Arabic:** إلغاء تخصيص صنف فرعي - مستندات إلغاء تخصيص صنف فرعي
-**English:** Sub Item Allocation Cancel - Sub Item Allocation Cancel Document
+**Arabic:** إلغاء تخصيص سيارة - مستندات إلغاء تخصيص سيارات
+**English:** Car Allocation Cancel - Car Allocation Cancel Document
 
 <ContentFilter/>
 
@@ -4390,8 +4390,8 @@
 <div class="row searchable" id="details.specificDimensions.subItem">
 <div class="cell" data-label="Property">details.specificDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

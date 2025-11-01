@@ -5,8 +5,8 @@
 # SIPurchaseInvoice
 </div>
 
-**Arabic:** فاتورة شراء صنف فرعى - فواتير شراء صنف فرعى
-**English:** Sub Item Purchase Invoice - Sub Item Purchase Invoices
+**Arabic:** فاتورة شراء سيارة - فواتير شراء سيارات
+**English:** Car Purchase Invoice - Car Purchase Invoices
 
 <ContentFilter/>
 
@@ -4048,8 +4048,8 @@
 <div class="row searchable" id="details.specificDimensions.subItem">
 <div class="cell" data-label="Property">details.specificDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

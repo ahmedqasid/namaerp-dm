@@ -5,8 +5,8 @@
 # SISalesQuotation
 </div>
 
-**Arabic:** عرض أسعار صنف فرعي - عروض أسعار صنف فرعي
-**English:** Sub Item Sales Quotation - Sub Item Sales Quotations
+**Arabic:** عرض أسعار سيارة - عروض أسعار سيارات
+**English:** Car Sales Quotation - Car Sales Quotations
 
 <ContentFilter/>
 
@@ -4390,8 +4390,8 @@
 <div class="row searchable" id="details.specificDimensions.subItem">
 <div class="cell" data-label="Property">details.specificDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

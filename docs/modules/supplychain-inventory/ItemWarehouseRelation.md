@@ -778,7 +778,19 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="details.category1">
+</div><div class="row searchable" id="details.brand">
+<div class="cell" data-label="Property">details.brand</div>
+<div class="cell" data-label="Column">brand_id</div>
+<div class="cell" data-label="Arabic">الماركة</div>
+<div class="cell" data-label="English">Item Brand</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemBrand](/modules/supplychain/ItemBrand.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.category1">
 <div class="cell" data-label="Property">details.category1</div>
 <div class="cell" data-label="Column">category1_id</div>
 <div class="cell" data-label="Arabic">فئة الصنف1</div>
@@ -988,6 +1000,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.itemCode">
+<div class="cell" data-label="Property">details.itemCode</div>
+<div class="cell" data-label="Column">itemCode</div>
+<div class="cell" data-label="Arabic"> الكود</div>
+<div class="cell" data-label="English"> Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="details.lineNumber">
 <div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
@@ -1057,6 +1078,18 @@
 <div class="cell" data-label="Foreign Table">
 
  [Warehouse](/modules/supplychain/Warehouse.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.warehouseGroup">
+<div class="cell" data-label="Property">details.warehouseGroup</div>
+<div class="cell" data-label="Column">warehouseGroup_id</div>
+<div class="cell" data-label="Arabic">مجموعة مخازن</div>
+<div class="cell" data-label="English">Warehouse Group</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [WarehouseGroup](/modules/supplychain/WarehouseGroup.md) 
 </div>
 </div>
 

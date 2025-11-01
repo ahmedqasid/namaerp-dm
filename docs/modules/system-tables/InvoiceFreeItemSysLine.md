@@ -278,8 +278,8 @@
 <div class="row searchable" id="freeItemData.freeItemDimensions.subItem">
 <div class="cell" data-label="Property">freeItemData.freeItemDimensions.subItem</div>
 <div class="cell" data-label="Column">freeSubItem_id</div>
-<div class="cell" data-label="Arabic"> صنف فرعى</div>
-<div class="cell" data-label="English"> SubItem</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

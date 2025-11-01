@@ -44,5 +44,6 @@
   - [UOMGroup](/modules/supplychain/UOMGroup.md)
   - [WareLocationClass](/modules/supplychain/WareLocationClass.md)
   - [Warehouse](/modules/supplychain/Warehouse.md)
+  - [WarehouseGroup](/modules/supplychain/WarehouseGroup.md)
 
 </div>

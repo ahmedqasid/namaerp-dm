@@ -1630,6 +1630,18 @@
 
 </div>
 
+<div class="row searchable" id="details.custodian">
+<div class="cell" data-label="Property">details.custodian</div>
+<div class="cell" data-label="Column">custodian_id</div>
+<div class="cell" data-label="Arabic">مسئول العهدة</div>
+<div class="cell" data-label="English">Custodian</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Employee](/modules/basic/Employee.md) 
+</div>
+</div>
+
 <div class="row searchable" id="details.depreciationStartDate">
 <div class="cell" data-label="Property">details.depreciationStartDate</div>
 <div class="cell" data-label="Column">depreciationStartDate</div>

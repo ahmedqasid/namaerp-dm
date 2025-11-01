@@ -5,7 +5,8 @@
 # SubItem
 </div>
 
-**Arabic:** صنف فرعى - أصناف فرعية
+**Arabic:** السياره - السيارات
+**English:** Car - Cars
 
 <ContentFilter/>
 
