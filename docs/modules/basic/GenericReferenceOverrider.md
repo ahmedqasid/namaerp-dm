@@ -3361,6 +3361,24 @@
 
 </div>
 
+<div class="row searchable" id="fieldFormats.preventLeadingWhiteSpace">
+<div class="cell" data-label="Property">fieldFormats.preventLeadingWhiteSpace</div>
+<div class="cell" data-label="Column">preventLeadingWhiteSpace</div>
+<div class="cell" data-label="Arabic">منع وجود مسافة في البداية</div>
+<div class="cell" data-label="English">Prevent Leading White Space</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="fieldFormats.preventTrailingWhiteSpace">
+<div class="cell" data-label="Property">fieldFormats.preventTrailingWhiteSpace</div>
+<div class="cell" data-label="Column">preventTrailingWhiteSpace</div>
+<div class="cell" data-label="Arabic">منع وجود مسافة في النهاية</div>
+<div class="cell" data-label="English">Prevent Trailing White Space</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="fieldFormats.regularExpression">
 <div class="cell" data-label="Property">fieldFormats.regularExpression</div>
 <div class="cell" data-label="Column">regularExpression</div>
@@ -4255,7 +4273,16 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="lines.entityList">
+</div><div class="row searchable" id="lines.applicableFor">
+<div class="cell" data-label="Property">lines.applicableFor</div>
+<div class="cell" data-label="Column">applicableFor</div>
+<div class="cell" data-label="Arabic">مطبق على</div>
+<div class="cell" data-label="English">Applicable For</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="lines.entityList">
 <div class="cell" data-label="Property">lines.entityList</div>
 <div class="cell" data-label="Column">entityList_id</div>
 <div class="cell" data-label="Arabic">قائمة الأنواع</div>

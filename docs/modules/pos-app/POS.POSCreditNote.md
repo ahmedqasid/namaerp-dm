@@ -285,6 +285,15 @@
 
 </div>
 
+<div class="row searchable" id="shiftCode">
+<div class="cell" data-label="Property">shiftCode</div>
+<div class="cell" data-label="Column">shiftCode</div>
+<div class="cell" data-label="Arabic">كود الوردية</div>
+<div class="cell" data-label="English">Shift Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="writeFailures">
 <div class="cell" data-label="Property">writeFailures</div>
 <div class="cell" data-label="Column">writeFailures</div>

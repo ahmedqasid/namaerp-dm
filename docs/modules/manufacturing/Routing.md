@@ -1542,6 +1542,15 @@
 
 </div>
 
+<div class="row searchable" id="resources.maxLotQuantity">
+<div class="cell" data-label="Property">resources.maxLotQuantity</div>
+<div class="cell" data-label="Column">maxLotQuantity</div>
+<div class="cell" data-label="Arabic">أقصى كمية للشحنة الواحدة</div>
+<div class="cell" data-label="English">Max Lot Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="resources.operationName">
 <div class="cell" data-label="Property">resources.operationName</div>
 <div class="cell" data-label="Column">operationName</div>

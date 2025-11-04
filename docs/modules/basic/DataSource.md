@@ -2094,6 +2094,15 @@
 
 </div>
 
+<div class="row searchable" id="securityConstraints.loginEmployee">
+<div class="cell" data-label="Property">securityConstraints.loginEmployee</div>
+<div class="cell" data-label="Column">loginEmployee</div>
+<div class="cell" data-label="Arabic">Login Employee</div>
+<div class="cell" data-label="English">Login Employee</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="securityConstraints.loginLegalEntity">
 <div class="cell" data-label="Property">securityConstraints.loginLegalEntity</div>
 <div class="cell" data-label="Column">loginLegalEntity</div>

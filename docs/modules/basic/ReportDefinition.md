@@ -276,6 +276,15 @@
 
 </div>
 
+<div class="row searchable" id="dashboard">
+<div class="cell" data-label="Property">dashboard</div>
+<div class="cell gen-ref-column" data-label="Column">dashboardActualCode,  dashboardCode,  dashboardEntityType,  dashboardId</div>
+<div class="cell" data-label="Arabic">لوحة التطبيق</div>
+<div class="cell" data-label="English">Mobile Dashboard</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
 <div class="row searchable" id="date1">
 <div class="cell" data-label="Property">date1</div>
 <div class="cell" data-label="Column">date1</div>
