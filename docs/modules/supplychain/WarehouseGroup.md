@@ -6,7 +6,7 @@
 </div>
 
 **Arabic:** مجموعة مخازن - مجموعات المخازن
-**English:** Warehouses Group - Warehouse Groups
+**English:** Warehouse Group - Warehouse Groups
 
 <ContentFilter/>
 

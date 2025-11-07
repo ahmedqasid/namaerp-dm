@@ -40,6 +40,7 @@
   - [ContractorContract](/modules/contracting/ContractorContract.md)
   - [ContractorContractExecution](/modules/contracting/ContractorContractExecution.md)
   - [ContractorContractFine](/modules/contracting/ContractorContractFine.md)
+  - [ContractorContractOffer](/modules/contracting/ContractorContractOffer.md)
   - [ContractorContractUpdate](/modules/contracting/ContractorContractUpdate.md)
   - [ContractorMaterialIssue](/modules/contracting/ContractorMaterialIssue.md)
   - [ContractorMaterialReturn](/modules/contracting/ContractorMaterialReturn.md)

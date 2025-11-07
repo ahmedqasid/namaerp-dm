@@ -3,6 +3,7 @@
 # Supply Chain - Sales
   - [AutoSalesPricing](/modules/supplychain-sales/AutoSalesPricing.md)
   - [AutoSalesPricingSetting](/modules/supplychain-sales/AutoSalesPricingSetting.md)
+  - [CouponsSalesOrder](/modules/supplychain-sales/CouponsSalesOrder.md)
   - [CustomersReqsShortageDoc](/modules/supplychain-sales/CustomersReqsShortageDoc.md)
   - [DeliveryCancellationDoc](/modules/supplychain-sales/DeliveryCancellationDoc.md)
   - [DeliveryDocument](/modules/supplychain-sales/DeliveryDocument.md)
@@ -26,6 +27,7 @@
   - [ProformaSalesInvoice](/modules/supplychain-sales/ProformaSalesInvoice.md)
   - [ReservationCancellationDoc](/modules/supplychain-sales/ReservationCancellationDoc.md)
   - [ReservationDocument](/modules/supplychain-sales/ReservationDocument.md)
+  - [SalesCouponsCodingMethod](/modules/supplychain-sales/SalesCouponsCodingMethod.md)
   - [SalesForecast](/modules/supplychain-sales/SalesForecast.md)
   - [SalesInvoice](/modules/supplychain-sales/SalesInvoice.md)
   - [SalesManUpdateDocument](/modules/supplychain-sales/SalesManUpdateDocument.md)

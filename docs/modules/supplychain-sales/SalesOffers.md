@@ -2133,7 +2133,7 @@
 <div class="cell" data-label="Property">details.itemDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
 <div class="cell" data-label="Arabic"> السياره</div>
-<div class="cell" data-label="English"> Car</div>
+<div class="cell" data-label="English"> Customer Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -2836,7 +2836,7 @@
 <div class="cell" data-label="Property">freeItems.freeItemData.freeItemDimensions.subItem</div>
 <div class="cell" data-label="Column">freeSubItem_id</div>
 <div class="cell" data-label="Arabic"> السياره</div>
-<div class="cell" data-label="English"> Car</div>
+<div class="cell" data-label="English"> Customer Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -3298,7 +3298,7 @@
 <div class="cell" data-label="Property">freeItems.itemDimensions.subItem</div>
 <div class="cell" data-label="Column">itemDimensionsSubItem_id</div>
 <div class="cell" data-label="Arabic"> السياره</div>
-<div class="cell" data-label="English"> Car</div>
+<div class="cell" data-label="English"> Customer Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -4140,7 +4140,7 @@
 <div class="cell" data-label="Property">invOffersLines.freeItemData.freeItemDimensions.subItem</div>
 <div class="cell" data-label="Column">free_FreeSubItem_id</div>
 <div class="cell" data-label="Arabic"> السياره</div>
-<div class="cell" data-label="English"> Car</div>
+<div class="cell" data-label="English"> Customer Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

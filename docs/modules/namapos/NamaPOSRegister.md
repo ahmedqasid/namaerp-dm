@@ -2300,7 +2300,25 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="docsCodingParams.entityType">
+</div><div class="row searchable" id="docsCodingParams.doNotUseDefaultPrefix">
+<div class="cell" data-label="Property">docsCodingParams.doNotUseDefaultPrefix</div>
+<div class="cell" data-label="Column">doNotUseDefaultPrefix</div>
+<div class="cell" data-label="Arabic">عدم استخدام بادئة التكويد الافتراضية</div>
+<div class="cell" data-label="English">Do Not Use Default Prefix</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="docsCodingParams.doNotUseRegisterCode">
+<div class="cell" data-label="Property">docsCodingParams.doNotUseRegisterCode</div>
+<div class="cell" data-label="Column">doNotUseRegisterCode</div>
+<div class="cell" data-label="Arabic">عدم استخدام كود الماكينة في التكويد</div>
+<div class="cell" data-label="English">Do Not Use Register Code In Document Code</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="docsCodingParams.entityType">
 <div class="cell" data-label="Property">docsCodingParams.entityType</div>
 <div class="cell" data-label="Column">entityType</div>
 <div class="cell" data-label="Arabic">النوع</div>

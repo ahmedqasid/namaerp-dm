@@ -4014,6 +4014,15 @@
 
 </div>
 
+<div class="row searchable" id="terms.treatAsDetail">
+<div class="cell" data-label="Property">terms.treatAsDetail</div>
+<div class="cell" data-label="Column">treatAsDetail</div>
+<div class="cell" data-label="Arabic">يعامل كبند فرعي</div>
+<div class="cell" data-label="English">Treat As Detail</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="terms.unitCost">
 <div class="cell" data-label="Property">terms.unitCost</div>
 <div class="cell" data-label="Column">unitCost</div>

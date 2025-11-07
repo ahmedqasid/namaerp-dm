@@ -357,6 +357,15 @@
 
 </div>
 
+<div class="row searchable" id="deductedFromWorkingDaysWhenCalcBalance">
+<div class="cell" data-label="Property">deductedFromWorkingDaysWhenCalcBalance</div>
+<div class="cell" data-label="Column">deductedFromWorkingDaysWhenCalcBalance</div>
+<div class="cell" data-label="Arabic">تخصم مدتها من أيام العمل عند احتساب رصيد الاجازات</div>
+<div class="cell" data-label="English">Deducted From Working Days When Calculating Balance</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="defaultVacationDays">
 <div class="cell" data-label="Property">defaultVacationDays</div>
 <div class="cell" data-label="Column">defaultVacationDays</div>

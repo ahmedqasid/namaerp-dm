@@ -1982,7 +1982,7 @@
 <div class="cell" data-label="Property">materials.itemSpecificDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
 <div class="cell" data-label="Arabic"> السياره</div>
-<div class="cell" data-label="English"> Car</div>
+<div class="cell" data-label="English"> Customer Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

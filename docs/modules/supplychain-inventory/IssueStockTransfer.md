@@ -2279,7 +2279,7 @@
 <div class="cell" data-label="Property">details.specificDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
 <div class="cell" data-label="Arabic"> السياره</div>
-<div class="cell" data-label="English"> Car</div>
+<div class="cell" data-label="English"> Customer Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -2519,7 +2519,7 @@
 <div class="cell" data-label="Property">details.toItemDimensions.subItem</div>
 <div class="cell" data-label="Column">toDimsSubItem_id</div>
 <div class="cell" data-label="Arabic"> السياره</div>
-<div class="cell" data-label="English"> Car</div>
+<div class="cell" data-label="English"> Customer Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

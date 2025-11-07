@@ -11,6 +11,7 @@
   - [CPAProjectExpenseItem](/modules/ecpa/CPAProjectExpenseItem.md)
   - [CPAProjectInvoice](/modules/ecpa/CPAProjectInvoice.md)
   - [CPAProjectMileStone](/modules/ecpa/CPAProjectMileStone.md)
+  - [CPAProjectReturn](/modules/ecpa/CPAProjectReturn.md)
   - [CPAProjectStage](/modules/ecpa/CPAProjectStage.md)
   - [CPAProjectStageExtension](/modules/ecpa/CPAProjectStageExtension.md)
   - [CPAProjectSubType](/modules/ecpa/CPAProjectSubType.md)

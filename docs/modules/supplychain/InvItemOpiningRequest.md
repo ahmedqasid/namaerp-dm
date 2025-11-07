@@ -879,6 +879,15 @@
 
 </div>
 
+<div class="row searchable" id="hasSalesCoupons">
+<div class="cell" data-label="Property">hasSalesCoupons</div>
+<div class="cell" data-label="Column">hasSalesCoupons</div>
+<div class="cell" data-label="Arabic">له قسائم بيع</div>
+<div class="cell" data-label="English">Has Sales Coupons</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="hasSecondUnit">
 <div class="cell" data-label="Property">hasSecondUnit</div>
 <div class="cell" data-label="Column">hasSecondUnit</div>
@@ -2667,7 +2676,7 @@
 <div class="cell" data-label="Property">details.itemDimensions.specificDimensions.subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
 <div class="cell" data-label="Arabic"> السياره</div>
-<div class="cell" data-label="English"> Car</div>
+<div class="cell" data-label="English"> Customer Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

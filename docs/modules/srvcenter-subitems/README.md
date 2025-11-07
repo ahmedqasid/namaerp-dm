@@ -1,6 +1,8 @@
 <div class="ignore-in-full-text-search">
 
 # Service Center - Sub Items
+  - [ExternalAgency](/modules/srvcenter-subitems/ExternalAgency.md)
+  - [InsuranceCompany](/modules/srvcenter-subitems/InsuranceCompany.md)
   - [SIAllocation](/modules/srvcenter-subitems/SIAllocation.md)
   - [SIAllocationCancel](/modules/srvcenter-subitems/SIAllocationCancel.md)
   - [SIFinalDelivery](/modules/srvcenter-subitems/SIFinalDelivery.md)

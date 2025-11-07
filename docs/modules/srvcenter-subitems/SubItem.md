@@ -6,7 +6,7 @@
 </div>
 
 **Arabic:** السياره - السيارات
-**English:** Car - Cars
+**English:** Customer Car - Customer Cars
 
 <ContentFilter/>
 

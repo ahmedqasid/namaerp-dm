@@ -3657,6 +3657,15 @@
 
 </div>
 
+<div class="row searchable" id="details.treatAsDetail">
+<div class="cell" data-label="Property">details.treatAsDetail</div>
+<div class="cell" data-label="Column">treatAsDetail</div>
+<div class="cell" data-label="Arabic">يعامل كبند فرعي</div>
+<div class="cell" data-label="English">Treat As Detail</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="details.unitCost">
 <div class="cell" data-label="Property">details.unitCost</div>
 <div class="cell" data-label="Column">unitCost</div>
@@ -5951,6 +5960,15 @@
 <div class="cell" data-label="Arabic">الكمية الإجمالية</div>
 <div class="cell" data-label="English">Total Quantity</div>
 <div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="phaseTermLines.treatAsDetail">
+<div class="cell" data-label="Property">phaseTermLines.treatAsDetail</div>
+<div class="cell" data-label="Column">treatAsDetail</div>
+<div class="cell" data-label="Arabic">يعامل كبند فرعي</div>
+<div class="cell" data-label="English">Treat As Detail</div>
+<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
