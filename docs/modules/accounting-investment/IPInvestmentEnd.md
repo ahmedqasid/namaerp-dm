@@ -1516,6 +1516,15 @@
 
 </div>
 
+<div class="row searchable" id="details.netAfterTax">
+<div class="cell" data-label="Property">details.netAfterTax</div>
+<div class="cell" data-label="Column">netAfterTax</div>
+<div class="cell" data-label="Arabic">الصافي بعد الضريبة</div>
+<div class="cell" data-label="English">Net After Tax</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="details.purchaseDate">
 <div class="cell" data-label="Property">details.purchaseDate</div>
 <div class="cell" data-label="Column">purchaseDate</div>
@@ -1575,15 +1584,6 @@
 <div class="cell" data-label="Column">total</div>
 <div class="cell" data-label="Arabic">الإجمالي</div>
 <div class="cell" data-label="English">Total</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="details.totalAfterTax">
-<div class="cell" data-label="Property">details.totalAfterTax</div>
-<div class="cell" data-label="Column">totalAfterTax</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>

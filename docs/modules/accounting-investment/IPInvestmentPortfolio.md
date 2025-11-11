@@ -657,6 +657,15 @@
 
 </div>
 
+<div class="row searchable" id="originLastUpdateDate">
+<div class="cell" data-label="Property">originLastUpdateDate</div>
+<div class="cell" data-label="Column">originLastUpdateDate</div>
+<div class="cell" data-label="Arabic">تاريخ اخر تحديث للمستند</div>
+<div class="cell" data-label="English">Origin Last Update Date</div>
+<div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
 <div class="row searchable" id="parentCode">
 <div class="cell" data-label="Property">parentCode</div>
 <div class="cell" data-label="Column">parentCode</div>
@@ -681,6 +690,15 @@
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="profitAmount">
+<div class="cell" data-label="Property">profitAmount</div>
+<div class="cell" data-label="Column">profitAmount</div>
+<div class="cell" data-label="Arabic">قيمة الأرباح</div>
+<div class="cell" data-label="English">Profit Amount</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 
@@ -1155,9 +1173,18 @@
 
 </div>
 
-<div class="row searchable" id="totalPortfolioInlocalTotal">
-<div class="cell" data-label="Property">totalPortfolioInlocalTotal</div>
-<div class="cell" data-label="Column">totalPortfolioInlocalTotal</div>
+<div class="row searchable" id="totalPortfolio">
+<div class="cell" data-label="Property">totalPortfolio</div>
+<div class="cell" data-label="Column">totalPortfolio</div>
+<div class="cell" data-label="Arabic">إجمالي المحفظة</div>
+<div class="cell" data-label="English">Total Portfolio</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="totalPortfolioInLocalCurrency">
+<div class="cell" data-label="Property">totalPortfolioInLocalCurrency</div>
+<div class="cell" data-label="Column">totalPortfolioInLocalCurrency</div>
 <div class="cell" data-label="Arabic">إجمالي المحفظة بالعملة المحلية</div>
 <div class="cell" data-label="English">Total Portfolio In Local Currency</div>
 <div class="cell" data-label="Type">Decimal</div>
@@ -1351,6 +1378,15 @@
 
 </div>
 
+<div class="row searchable" id="details.netAfterTax">
+<div class="cell" data-label="Property">details.netAfterTax</div>
+<div class="cell" data-label="Column">netAfterTax</div>
+<div class="cell" data-label="Arabic">الصافي بعد الضريبة</div>
+<div class="cell" data-label="English">Net After Tax</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="details.purchaseDate">
 <div class="cell" data-label="Property">details.purchaseDate</div>
 <div class="cell" data-label="Column">purchaseDate</div>
@@ -1410,15 +1446,6 @@
 <div class="cell" data-label="Column">total</div>
 <div class="cell" data-label="Arabic">الإجمالي</div>
 <div class="cell" data-label="English">Total</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="details.totalAfterTax">
-<div class="cell" data-label="Property">details.totalAfterTax</div>
-<div class="cell" data-label="Column">totalAfterTax</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>

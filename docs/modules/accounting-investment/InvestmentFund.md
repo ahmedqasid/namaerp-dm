@@ -5,8 +5,6 @@
 # InvestmentFund
 </div>
 
-**Arabic:** صندوق استثماري - صناديق استثمارية
-**English:** Investment Fund - Investment Funds
 
 <ContentFilter/>
 

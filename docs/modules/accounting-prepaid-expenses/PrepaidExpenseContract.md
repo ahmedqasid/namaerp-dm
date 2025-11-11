@@ -1024,7 +1024,28 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="details.dayCost">
+</div><div class="row searchable" id="details.account">
+<div class="cell" data-label="Property">details.account</div>
+<div class="cell" data-label="Column">account_id</div>
+<div class="cell" data-label="Arabic"> حساب</div>
+<div class="cell" data-label="English"> Account</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.creditSide">
+<div class="cell" data-label="Property">details.creditSide</div>
+<div class="cell" data-label="Column">creditSide</div>
+<div class="cell" data-label="Arabic">الجانب الدائن</div>
+<div class="cell" data-label="English">Account</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="details.dayCost">
 <div class="cell" data-label="Property">details.dayCost</div>
 <div class="cell" data-label="Column">dayCost</div>
 <div class="cell" data-label="Arabic">تكلفة اليوم</div>
@@ -1087,15 +1108,6 @@
 
 </div>
 
-<div class="row searchable" id="details.lineSubsidiary">
-<div class="cell" data-label="Property">details.lineSubsidiary</div>
-<div class="cell gen-ref-column" data-label="Column">lineSubsidiaryActualCode,  lineSubsidiaryCode,  lineSubsidiaryEntityType,  lineSubsidiaryId</div>
-<div class="cell" data-label="Arabic">ذمة السطر</div>
-<div class="cell" data-label="English">Line Subsidiary</div>
-<div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
 <div class="row searchable" id="details.monthCount">
 <div class="cell" data-label="Property">details.monthCount</div>
 <div class="cell" data-label="Column">monthCount</div>
@@ -1124,6 +1136,24 @@
 
  [PrepaidExpenseItem](/modules/accounting-prepaid-expenses/PrepaidExpenseItem.md) 
 </div>
+</div>
+
+<div class="row searchable" id="details.subsidiary">
+<div class="cell" data-label="Property">details.subsidiary</div>
+<div class="cell gen-ref-column" data-label="Column">subsidiaryActualCode,  subsidiaryCode,  subsidiaryEntityType,  subsidiaryId</div>
+<div class="cell" data-label="Arabic">الذمة</div>
+<div class="cell" data-label="English">Subsidiary</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.subsidiaryAccountType">
+<div class="cell" data-label="Property">details.subsidiaryAccountType</div>
+<div class="cell" data-label="Column">subsidiaryAccountType</div>
+<div class="cell" data-label="Arabic">نوع الحافظة</div>
+<div class="cell" data-label="English">Subsidiary account type</div>
+<div class="cell" data-label="Type">Enum</div>
+
 </div>
 
 <div class="row searchable" id="details.tax.percentage">

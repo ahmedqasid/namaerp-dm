@@ -22,7 +22,19 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="altCode">
+</div><div class="row searchable" id="account">
+<div class="cell" data-label="Property">account</div>
+<div class="cell" data-label="Column">account_id</div>
+<div class="cell" data-label="Arabic"> حساب</div>
+<div class="cell" data-label="English"> Account</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
+<div class="row searchable" id="altCode">
 <div class="cell" data-label="Property">altCode</div>
 <div class="cell" data-label="Column">altCode</div>
 <div class="cell" data-label="Arabic">الكود الإنجليزي</div>
@@ -187,6 +199,15 @@
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
 <div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
+<div class="row searchable" id="creditSide">
+<div class="cell" data-label="Property">creditSide</div>
+<div class="cell" data-label="Column">creditSide</div>
+<div class="cell" data-label="Arabic">الجانب الدائن</div>
+<div class="cell" data-label="English">Account</div>
+<div class="cell" data-label="Type">Enum</div>
 
 </div>
 
@@ -811,6 +832,24 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="subsidiary">
+<div class="cell" data-label="Property">subsidiary</div>
+<div class="cell gen-ref-column" data-label="Column">subsidiaryActualCode,  subsidiaryCode,  subsidiaryEntityType,  subsidiaryId</div>
+<div class="cell" data-label="Arabic">الذمة</div>
+<div class="cell" data-label="English">Subsidiary</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="subsidiaryAccountType">
+<div class="cell" data-label="Property">subsidiaryAccountType</div>
+<div class="cell" data-label="Column">subsidiaryAccountType</div>
+<div class="cell" data-label="Arabic">نوع الحافظة</div>
+<div class="cell" data-label="English">Subsidiary account type</div>
+<div class="cell" data-label="Type">Enum</div>
 
 </div>
 

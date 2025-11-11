@@ -646,6 +646,15 @@
 
 </div>
 
+<div class="row searchable" id="originLastUpdateDate">
+<div class="cell" data-label="Property">originLastUpdateDate</div>
+<div class="cell" data-label="Column">originLastUpdateDate</div>
+<div class="cell" data-label="Arabic">تاريخ اخر تحديث للمستند</div>
+<div class="cell" data-label="English">Origin Last Update Date</div>
+<div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
 <div class="row searchable" id="parentCode">
 <div class="cell" data-label="Property">parentCode</div>
 <div class="cell" data-label="Column">parentCode</div>
@@ -679,6 +688,15 @@
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="profitAmount">
+<div class="cell" data-label="Property">profitAmount</div>
+<div class="cell" data-label="Column">profitAmount</div>
+<div class="cell" data-label="Arabic">قيمة الأرباح</div>
+<div class="cell" data-label="English">Profit Amount</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 

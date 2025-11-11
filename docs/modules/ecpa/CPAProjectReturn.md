@@ -5,7 +5,7 @@
 # CPAProjectReturn
 </div>
 
-**Arabic:** مردود فاتورة المبيعات - مردود فواتير المبيعات
+**Arabic:** مردود فاتورة المشاريع - مردود فواتير المشاريع
 **English:** Project Return - Project Returns
 
 <ContentFilter/>

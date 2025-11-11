@@ -25,7 +25,7 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">DateAndTime</div>
 
 </div>
 

@@ -300,15 +300,6 @@
 
 </div>
 
-<div class="row searchable" id="distributedAmoutValue">
-<div class="cell" data-label="Property">distributedAmoutValue</div>
-<div class="cell" data-label="Column">distributedAmoutValue</div>
-<div class="cell" data-label="Arabic">قيمة الأرباح الموزعة</div>
-<div class="cell" data-label="English">Distribution Amount Value</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
 <div class="row searchable" id="docCategory">
 <div class="cell" data-label="Property">docCategory</div>
 <div class="cell" data-label="Column">docCategory_id</div>
@@ -1308,6 +1299,15 @@
 
 </div>
 
+<div class="row searchable" id="totaldistributedAmout">
+<div class="cell" data-label="Property">totaldistributedAmout</div>
+<div class="cell" data-label="Column">totaldistributedAmout</div>
+<div class="cell" data-label="Arabic">إجمالي الأرباح الموزعة</div>
+<div class="cell" data-label="English">Total Distribution Amount</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="updateCapability">
 <div class="cell" data-label="Property">updateCapability</div>
 <div class="cell" data-label="Column">updateCapability_id</div>
@@ -1468,6 +1468,15 @@
 
 </div>
 
+<div class="row searchable" id="details.investmentProfitValue">
+<div class="cell" data-label="Property">details.investmentProfitValue</div>
+<div class="cell" data-label="Column">investmentProfitValue</div>
+<div class="cell" data-label="Arabic">قيمة ربح الاستثمار</div>
+<div class="cell" data-label="English">Investment Profit Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="details.investmentType">
 <div class="cell" data-label="Property">details.investmentType</div>
 <div class="cell" data-label="Column">investmentType</div>
@@ -1500,6 +1509,15 @@
 <div class="cell" data-label="Column">localTotalAfterTax</div>
 <div class="cell" data-label="Arabic">الإجمالي بالعملة المحلية بعد الضريبة</div>
 <div class="cell" data-label="English">Total in Local Currency</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.netAfterTax">
+<div class="cell" data-label="Property">details.netAfterTax</div>
+<div class="cell" data-label="Column">netAfterTax</div>
+<div class="cell" data-label="Arabic">الصافي بعد الضريبة</div>
+<div class="cell" data-label="English">Net After Tax</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
@@ -1563,15 +1581,6 @@
 <div class="cell" data-label="Column">total</div>
 <div class="cell" data-label="Arabic">الإجمالي</div>
 <div class="cell" data-label="English">Total</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="details.totalAfterTax">
-<div class="cell" data-label="Property">details.totalAfterTax</div>
-<div class="cell" data-label="Column">totalAfterTax</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
