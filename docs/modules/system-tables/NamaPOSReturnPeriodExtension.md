@@ -2,13 +2,18 @@
 <div class='tableName'>
 
 
-# CRMQuestion
+# NamaPOSReturnPeriodExtension
 </div>
 
-**Arabic:** سؤال - أسئلة
-**English:** Question - Questions
+**Arabic:** سند تمديد فترة إرجاع مبيعات نقاط البيع - سندات تمديد فترة إرجاع مبيعات نقاط البيع
+**English:** Nama POS Return Period Extension - Nama POS Return Period Extensions
 
 <ContentFilter/>
+
+
+<div class='searchable'>
+<a href='#lines'>lines (NamaPOSReturnPeriodExtensionLine) </a>
+</div>
 
 <div class='searchable'>
 
@@ -43,13 +48,16 @@
 
 </div>
 
-<div class="row searchable" id="answers">
-<div class="cell" data-label="Property">answers</div>
-<div class="cell" data-label="Column">answers</div>
-<div class="cell" data-label="Arabic">الاجابات</div>
-<div class="cell" data-label="English">Answers</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="row searchable" id="book">
+<div class="cell" data-label="Property">book</div>
+<div class="cell" data-label="Column">book_id</div>
+<div class="cell" data-label="Arabic">الدفتر</div>
+<div class="cell" data-label="English">Book</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
 
+ [DocumentBook](/modules/basic/DocumentBook.md) 
+</div>
 </div>
 
 <div class="row searchable" id="branch">
@@ -73,87 +81,15 @@
 
 </div>
 
-<div class="row searchable" id="choiceImage1">
-<div class="cell" data-label="Property">choiceImage1</div>
-<div class="cell" data-label="Column">choiceImage1_id</div>
-<div class="cell" data-label="Arabic">صورة الخيار 1</div>
-<div class="cell" data-label="English">Choice Image 1</div>
-<div class="cell" data-label="Type">Binary</div>
+<div class="row searchable" id="cancelledBy">
+<div class="cell" data-label="Property">cancelledBy</div>
+<div class="cell" data-label="Column">cancelledBy_id</div>
+<div class="cell" data-label="Arabic">ألغي بواسطة</div>
+<div class="cell" data-label="English">Cancelled By</div>
+<div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [LargeData](/modules/system-tables/LargeData.md) 
-</div>
-</div>
-
-<div class="row searchable" id="choiceImage2">
-<div class="cell" data-label="Property">choiceImage2</div>
-<div class="cell" data-label="Column">choiceImage2_id</div>
-<div class="cell" data-label="Arabic">صورة الخيار 2</div>
-<div class="cell" data-label="English">Choice Image 2</div>
-<div class="cell" data-label="Type">Binary</div>
-<div class="cell" data-label="Foreign Table">
-
- [LargeData](/modules/system-tables/LargeData.md) 
-</div>
-</div>
-
-<div class="row searchable" id="choiceImage3">
-<div class="cell" data-label="Property">choiceImage3</div>
-<div class="cell" data-label="Column">choiceImage3_id</div>
-<div class="cell" data-label="Arabic">صورة الخيار 3</div>
-<div class="cell" data-label="English">Choice Image 3</div>
-<div class="cell" data-label="Type">Binary</div>
-<div class="cell" data-label="Foreign Table">
-
- [LargeData](/modules/system-tables/LargeData.md) 
-</div>
-</div>
-
-<div class="row searchable" id="choiceImage4">
-<div class="cell" data-label="Property">choiceImage4</div>
-<div class="cell" data-label="Column">choiceImage4_id</div>
-<div class="cell" data-label="Arabic">صورة الخيار 4</div>
-<div class="cell" data-label="English">Choice Image 4</div>
-<div class="cell" data-label="Type">Binary</div>
-<div class="cell" data-label="Foreign Table">
-
- [LargeData](/modules/system-tables/LargeData.md) 
-</div>
-</div>
-
-<div class="row searchable" id="choiceImage5">
-<div class="cell" data-label="Property">choiceImage5</div>
-<div class="cell" data-label="Column">choiceImage5_id</div>
-<div class="cell" data-label="Arabic">صورة الخيار 5</div>
-<div class="cell" data-label="English">Choice Image 5</div>
-<div class="cell" data-label="Type">Binary</div>
-<div class="cell" data-label="Foreign Table">
-
- [LargeData](/modules/system-tables/LargeData.md) 
-</div>
-</div>
-
-<div class="row searchable" id="choiceImage6">
-<div class="cell" data-label="Property">choiceImage6</div>
-<div class="cell" data-label="Column">choiceImage6_id</div>
-<div class="cell" data-label="Arabic">صورة الخيار 6</div>
-<div class="cell" data-label="English">Choice Image 6</div>
-<div class="cell" data-label="Type">Binary</div>
-<div class="cell" data-label="Foreign Table">
-
- [LargeData](/modules/system-tables/LargeData.md) 
-</div>
-</div>
-
-<div class="row searchable" id="choiceImage7">
-<div class="cell" data-label="Property">choiceImage7</div>
-<div class="cell" data-label="Column">choiceImage7_id</div>
-<div class="cell" data-label="Arabic">صورة الخيار 7</div>
-<div class="cell" data-label="English">Choice Image 7</div>
-<div class="cell" data-label="Type">Binary</div>
-<div class="cell" data-label="Foreign Table">
-
- [LargeData](/modules/system-tables/LargeData.md) 
+ [DocumentCancelDocument](/modules/basic/DocumentCancelDocument.md) 
 </div>
 </div>
 
@@ -277,15 +213,6 @@
 
 </div>
 
-<div class="row searchable" id="defaultAnswer">
-<div class="cell" data-label="Property">defaultAnswer</div>
-<div class="cell" data-label="Column">defaultAnswer</div>
-<div class="cell" data-label="Arabic">النتيجة الافتراضية</div>
-<div class="cell" data-label="English">Default Result</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
 <div class="row searchable" id="department">
 <div class="cell" data-label="Property">department</div>
 <div class="cell" data-label="Column">department_id</div>
@@ -349,6 +276,15 @@
 <div class="cell" data-label="Arabic">الوصف 5</div>
 <div class="cell" data-label="English">description5</div>
 <div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="dimensionsHistoryXml">
+<div class="cell" data-label="Property">dimensionsHistoryXml</div>
+<div class="cell" data-label="Column">dimensionsHistoryXml</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -442,6 +378,48 @@
 
 </div>
 
+<div class="row searchable" id="fiscalPeriod">
+<div class="cell" data-label="Property">fiscalPeriod</div>
+<div class="cell" data-label="Column">fiscalPeriod_id</div>
+<div class="cell" data-label="Arabic">الفترة</div>
+<div class="cell" data-label="English">Fiscal Period</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
+</div>
+</div>
+
+<div class="row searchable" id="fiscalYear">
+<div class="cell" data-label="Property">fiscalYear</div>
+<div class="cell" data-label="Column">fiscalYear_id</div>
+<div class="cell" data-label="Arabic">السنة المالية</div>
+<div class="cell" data-label="English">Fiscal Year</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [FiscalYear](/modules/basic/FiscalYear.md) 
+</div>
+</div>
+
+<div class="row searchable" id="fromDoc">
+<div class="cell" data-label="Property">fromDoc</div>
+<div class="cell gen-ref-column" data-label="Column">fromDoc_ActualCode,  fromDoc_Code,  fromDoc_type,  fromDoc_id</div>
+<div class="cell" data-label="Arabic">بناءا على</div>
+<div class="cell" data-label="English">From Document</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="fromDocsCount">
+<div class="cell" data-label="Property">fromDocsCount</div>
+<div class="cell" data-label="Column">fromDocsCount</div>
+<div class="cell" data-label="Arabic">عدد سندات بناء على</div>
+<div class="cell" data-label="English">From Docs Count</div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
 <div class="row searchable" id="generatedByLine">
 <div class="cell" data-label="Property">generatedByLine</div>
 <div class="cell" data-label="Column">generatedByLine</div>
@@ -478,18 +456,6 @@
 
 </div>
 
-<div class="row searchable" id="group">
-<div class="cell" data-label="Property">group</div>
-<div class="cell" data-label="Column">group_id</div>
-<div class="cell" data-label="Arabic">المجموعة</div>
-<div class="cell" data-label="English">Group</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [MasterGroup](/modules/basic/MasterGroup.md) 
-</div>
-</div>
-
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>
@@ -499,21 +465,21 @@
 
 </div>
 
-<div class="row searchable" id="inActive">
-<div class="cell" data-label="Property">inActive</div>
-<div class="cell" data-label="Column">inActive</div>
-<div class="cell" data-label="Arabic">غير نشط</div>
-<div class="cell" data-label="English">Inactive</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
 <div class="row searchable" id="indexInParent">
 <div class="cell" data-label="Property">indexInParent</div>
 <div class="cell" data-label="Column">indexInParent</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="issueDate">
+<div class="cell" data-label="Property">issueDate</div>
+<div class="cell" data-label="Column">issueDate</div>
+<div class="cell" data-label="Arabic">تاريخ التحرير</div>
+<div class="cell" data-label="English">Issue Date</div>
+<div class="cell" data-label="Type">Date</div>
 
 </div>
 
@@ -574,28 +540,13 @@
 
 </div>
 
-<div class="row searchable" id="mainFile">
-<div class="cell" data-label="Property">mainFile</div>
-<div class="cell" data-label="Column">mainFile_id</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Binary</div>
-<div class="cell" data-label="Foreign Table">
+<div class="row searchable" id="manualRef1">
+<div class="cell" data-label="Property">manualRef1</div>
+<div class="cell" data-label="Column">manualRef1</div>
+<div class="cell" data-label="Arabic">رقم المستند اليدوي</div>
+<div class="cell" data-label="English">Manual Ref1</div>
+<div class="cell" data-label="Type">Text</div>
 
- [LargeData](/modules/system-tables/LargeData.md) 
-</div>
-</div>
-
-<div class="row searchable" id="mediator">
-<div class="cell" data-label="Property">mediator</div>
-<div class="cell" data-label="Column">mediator_id</div>
-<div class="cell" data-label="Arabic">الوسيط</div>
-<div class="cell" data-label="English">Mediator</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [CRMMediator](/modules/crm/CRMMediator.md) 
-</div>
 </div>
 
 <div class="row searchable" id="n1">
@@ -643,22 +594,16 @@
 
 </div>
 
-<div class="row searchable" id="name1">
-<div class="cell" data-label="Property">name1</div>
-<div class="cell" data-label="Column">name1</div>
-<div class="cell" data-label="Arabic">الاسم العربي</div>
-<div class="cell" data-label="English">Name1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="row searchable" id="openShift">
+<div class="cell" data-label="Property">openShift</div>
+<div class="cell" data-label="Column">openShift_id</div>
+<div class="cell" data-label="Arabic">فتح وردية</div>
+<div class="cell" data-label="English">Open Shift</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
 
+ [CSHOpenShift](/modules/accounting-cashier/CSHOpenShift.md) 
 </div>
-
-<div class="row searchable" id="name2">
-<div class="cell" data-label="Property">name2</div>
-<div class="cell" data-label="Column">name2</div>
-<div class="cell" data-label="Arabic">الاسم الإنجليزي</div>
-<div class="cell" data-label="English">Name2</div>
-<div class="cell" data-label="Type">Text</div>
-
 </div>
 
 <div class="row searchable" id="parentCode">
@@ -679,6 +624,15 @@
 
 </div>
 
+<div class="row searchable" id="preventUseAsFromDoc">
+<div class="cell" data-label="Property">preventUseAsFromDoc</div>
+<div class="cell" data-label="Column">preventUseAsFromDoc</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="printCount">
 <div class="cell" data-label="Property">printCount</div>
 <div class="cell" data-label="Column">printCount</div>
@@ -688,43 +642,25 @@
 
 </div>
 
-<div class="row searchable" id="questionAnswersHTML">
-<div class="cell" data-label="Property">questionAnswersHTML</div>
-<div class="cell" data-label="Column">questionAnswersHTML</div>
-<div class="cell" data-label="Arabic">Question Answers Template (HTML)</div>
-<div class="cell" data-label="English">Question Answers Template (HTML)</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="row searchable" id="purged">
+<div class="cell" data-label="Property">purged</div>
+<div class="cell" data-label="Column">purged</div>
+<div class="cell" data-label="Arabic">Purged</div>
+<div class="cell" data-label="English">Purged</div>
+<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
-<div class="row searchable" id="questionDisplayOrder">
-<div class="cell" data-label="Property">questionDisplayOrder</div>
-<div class="cell" data-label="Column">questionDisplayOrder</div>
-<div class="cell" data-label="Arabic">ترتيب عرض السؤال</div>
-<div class="cell" data-label="English">Question Display Order</div>
-<div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="questionImage">
-<div class="cell" data-label="Property">questionImage</div>
-<div class="cell" data-label="Column">questionImage_id</div>
-<div class="cell" data-label="Arabic">صورة السؤال</div>
-<div class="cell" data-label="English">Question Image</div>
-<div class="cell" data-label="Type">Binary</div>
+<div class="row searchable" id="rbook">
+<div class="cell" data-label="Property">rbook</div>
+<div class="cell" data-label="Column">rbook_id</div>
+<div class="cell" data-label="Arabic">دفتر الايصالات</div>
+<div class="cell" data-label="English">Receipt Book</div>
+<div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [LargeData](/modules/system-tables/LargeData.md) 
+ [ReceiptBook](/modules/basic/ReceiptBook.md) 
 </div>
-</div>
-
-<div class="row searchable" id="questionTitleHTML">
-<div class="cell" data-label="Property">questionTitleHTML</div>
-<div class="cell" data-label="Column">questionTitleHTML</div>
-<div class="cell" data-label="Arabic">Question Title Template (HTML)</div>
-<div class="cell" data-label="English">Question Title Template (HTML)</div>
-<div class="cell" data-label="Type">BigText</div>
-
 </div>
 
 <div class="row searchable" id="ref1">
@@ -781,27 +717,6 @@
 
 </div>
 
-<div class="row searchable" id="responseType">
-<div class="cell" data-label="Property">responseType</div>
-<div class="cell" data-label="Column">responseType</div>
-<div class="cell" data-label="Arabic">توع الاجابة</div>
-<div class="cell" data-label="English">Response Type</div>
-<div class="cell" data-label="Type">Enum</div>
-
-</div>
-
-<div class="row searchable" id="responsibleEmployee">
-<div class="cell" data-label="Property">responsibleEmployee</div>
-<div class="cell" data-label="Column">responsibleEmployee_id</div>
-<div class="cell" data-label="Arabic">الموظف المسئول</div>
-<div class="cell" data-label="English">Responsible Employee</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Employee](/modules/basic/Employee.md) 
-</div>
-</div>
-
 <div class="row searchable" id="reviseLevel">
 <div class="cell" data-label="Property">reviseLevel</div>
 <div class="cell" data-label="Column">reviseLevel</div>
@@ -832,6 +747,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="rpaper">
+<div class="cell" data-label="Property">rpaper</div>
+<div class="cell" data-label="Column">rpaper_id</div>
+<div class="cell" data-label="Arabic">الايصال</div>
+<div class="cell" data-label="English">Receipt Paper</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ReceiptPaper](/modules/basic/ReceiptPaper.md) 
+</div>
+</div>
+
 <div class="row searchable" id="sector">
 <div class="cell" data-label="Property">sector</div>
 <div class="cell" data-label="Column">sector_id</div>
@@ -853,12 +780,24 @@
 
 </div>
 
-<div class="row searchable" id="systemGeneratedCodePrefix">
-<div class="cell" data-label="Property">systemGeneratedCodePrefix</div>
-<div class="cell" data-label="Column">systemGeneratedCodePrefix</div>
-<div class="cell" data-label="Arabic">System Generated Code Prefix</div>
-<div class="cell" data-label="English">System Generated Code Prefix</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="row searchable" id="term">
+<div class="cell" data-label="Property">term</div>
+<div class="cell" data-label="Column">term_id</div>
+<div class="cell" data-label="Arabic">توجيه المستند</div>
+<div class="cell" data-label="English">Term</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [DocumentTerm](/modules/basic/DocumentTerm.md) 
+</div>
+</div>
+
+<div class="row searchable" id="termConfigXml">
+<div class="cell" data-label="Property">termConfigXml</div>
+<div class="cell" data-label="Column">termConfigXml</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -904,6 +843,15 @@
 
 </div>
 
+<div class="row searchable" id="valueDate">
+<div class="cell" data-label="Property">valueDate</div>
+<div class="cell" data-label="Column">valueDate</div>
+<div class="cell" data-label="Arabic">التاريخ الفعلي</div>
+<div class="cell" data-label="English">Value Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
 <div class="row searchable" id="viewCapability">
 <div class="cell" data-label="Property">viewCapability</div>
 <div class="cell" data-label="Column">viewCapability_id</div>
@@ -922,6 +870,67 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='lines' title='lines' class='searchable'>
+
+## lines ( التفاصيل -  Details)
+
+<div class='tableName'>
+
+**Table Name:** NamaPOSReturnPeriodExtensionLine, **Join Column:** namaPOSReturnPeriodExtension_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="lines.id">
+<div class="cell" data-label="Property">lines.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="lines.invoice">
+<div class="cell" data-label="Property">lines.invoice</div>
+<div class="cell" data-label="Column">invoice_id</div>
+<div class="cell" data-label="Arabic">الفاتورة</div>
+<div class="cell" data-label="English">Invoice</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [NamaPOSSalesInvoice](/modules/namapos/NamaPOSSalesInvoice.md) 
+</div>
+</div>
+
+<div class="row searchable" id="lines.lineNumber">
+<div class="cell" data-label="Property">lines.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="lines.returnPeriodExtensionDays">
+<div class="cell" data-label="Property">lines.returnPeriodExtensionDays</div>
+<div class="cell" data-label="Column">returnPeriodExtensionDays</div>
+<div class="cell" data-label="Arabic">عدد أيام تمديد فترة الإرجاع</div>
+<div class="cell" data-label="English">Return Period Extension Days</div>
+<div class="cell" data-label="Type">Integer</div>
 
 </div>
 

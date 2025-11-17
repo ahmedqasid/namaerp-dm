@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#appliances'>appliances (KitchenNetAppliance) </a> , <a href='#branchesAndVisitCost'>branchesAndVisitCost (KitchenNetBranchِAndVisitCostLine) </a> , <a href='#kitchenBeforeAndAfterList'>kitchenBeforeAndAfterList (KitchenNetBeforeAndAfter) </a> , <a href='#kitchenCategories'>kitchenCategories (KitchenNetCategory) </a> , <a href='#kitchenNetFAQS'>kitchenNetFAQS (KitchenNetFAQ) </a> , <a href='#kitchenOffers'>kitchenOffers (KitchenNetOffer) </a> , <a href='#refundPolicyRules'>refundPolicyRules (KitchenNetRefundPolicyLine) </a> , <a href='#trendingKitchens'>trendingKitchens (KitchenNetTrendingKitchen) </a>
+<a href='#appliances'>appliances (KitchenNetAppliance) </a> , <a href='#branchesAndVisitCost'>branchesAndVisitCost (KitchenNetBranchِAndVisitCostLine) </a> , <a href='#catalogs'>catalogs (KitchenNetCatalogLine) </a> , <a href='#kitchenBeforeAndAfterList'>kitchenBeforeAndAfterList (KitchenNetBeforeAndAfter) </a> , <a href='#kitchenCategories'>kitchenCategories (KitchenNetCategory) </a> , <a href='#kitchenNetFAQS'>kitchenNetFAQS (KitchenNetFAQ) </a> , <a href='#kitchenOffers'>kitchenOffers (KitchenNetOffer) </a> , <a href='#refundPolicyRules'>refundPolicyRules (KitchenNetRefundPolicyLine) </a> , <a href='#trendingKitchens'>trendingKitchens (KitchenNetTrendingKitchen) </a>
 </div>
 
 <div class='searchable'>
@@ -1125,6 +1125,88 @@
 <div class="cell" data-label="English">Measurement Visit Cost</div>
 <div class="cell" data-label="Type">Decimal</div>
 
+</div>
+
+
+</div>
+</div>
+
+<div id='catalogs' title='catalogs' class='searchable'>
+
+## catalogs (الكتالوجات - Catalogs)
+
+<div class='tableName'>
+
+**Table Name:** KitchenNetCatalogLine, **Join Column:** kitchenNetConfiguration_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="catalogs.arTitle">
+<div class="cell" data-label="Property">catalogs.arTitle</div>
+<div class="cell" data-label="Column">arTitle</div>
+<div class="cell" data-label="Arabic">العنوان العربى</div>
+<div class="cell" data-label="English">Arabic Title</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="catalogs.enTitle">
+<div class="cell" data-label="Property">catalogs.enTitle</div>
+<div class="cell" data-label="Column">enTitle</div>
+<div class="cell" data-label="Arabic">العنوان الإنجليزي</div>
+<div class="cell" data-label="English">English Title</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="catalogs.id">
+<div class="cell" data-label="Property">catalogs.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="catalogs.image">
+<div class="cell" data-label="Property">catalogs.image</div>
+<div class="cell" data-label="Column">image_id</div>
+<div class="cell" data-label="Arabic">Image</div>
+<div class="cell" data-label="English">Image</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="catalogs.lineNumber">
+<div class="cell" data-label="Property">catalogs.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="catalogs.pdf">
+<div class="cell" data-label="Property">catalogs.pdf</div>
+<div class="cell" data-label="Column">pdf_id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
 </div>
 
 

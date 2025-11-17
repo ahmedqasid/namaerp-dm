@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#details'>details (StockTakingLine) </a> , <a href='#detailsElecLines'>detailsElecLines (StockTakingDetailsElecLine) </a>
+<a href='#details'>details (StockTakingLine) </a> , <a href='#detailsElecLines'>detailsElecLines (StockTakingDetailsElecLine) </a> , <a href='#itemsCollections'>itemsCollections (StockTakingItemsCollection) </a>
 </div>
 
 <div class='searchable'>
@@ -1104,6 +1104,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Long</div>
+
+</div>
+
+<div class="row searchable" id="spreadSizesAndColorsWithCollection">
+<div class="cell" data-label="Property">spreadSizesAndColorsWithCollection</div>
+<div class="cell" data-label="Column">spreadSizesAndColorsWithCollection</div>
+<div class="cell" data-label="Arabic">فرد المقاسات والألوان مع التجميع</div>
+<div class="cell" data-label="English">Spread Sizes And Colors With Collection</div>
+<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
@@ -2319,6 +2328,178 @@
 
  [StockTakingElectronic](/modules/supplychain-electronic-taking/StockTakingElectronic.md) 
 </div>
+</div>
+
+
+</div>
+</div>
+
+<div id='itemsCollections' title='itemsCollections' class='searchable'>
+
+## itemsCollections (تجميع الأصناف - Items Collection)
+
+<div class='tableName'>
+
+**Table Name:** StockTakingItemsCollection, **Join Column:** stockTakingDetails_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="itemsCollections.id">
+<div class="cell" data-label="Property">itemsCollections.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="itemsCollections.itemBrand">
+<div class="cell" data-label="Property">itemsCollections.itemBrand</div>
+<div class="cell" data-label="Column">itemBrand_id</div>
+<div class="cell" data-label="Arabic"> الماركة</div>
+<div class="cell" data-label="English"> Item Brand</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemBrand](/modules/supplychain/ItemBrand.md) 
+</div>
+</div>
+
+<div class="row searchable" id="itemsCollections.itemClass1">
+<div class="cell" data-label="Property">itemsCollections.itemClass1</div>
+<div class="cell" data-label="Column">itemClass1_id</div>
+<div class="cell" data-label="Arabic">تصنيف 1</div>
+<div class="cell" data-label="English">Class 1</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemClass1](/modules/supplychain/ItemClass1.md) 
+</div>
+</div>
+
+<div class="row searchable" id="itemsCollections.itemClass10">
+<div class="cell" data-label="Property">itemsCollections.itemClass10</div>
+<div class="cell" data-label="Column">itemClass10_id</div>
+<div class="cell" data-label="Arabic">تصنيف 10</div>
+<div class="cell" data-label="English">Class 10</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemClass10](/modules/supplychain/ItemClass10.md) 
+</div>
+</div>
+
+<div class="row searchable" id="itemsCollections.itemClass2">
+<div class="cell" data-label="Property">itemsCollections.itemClass2</div>
+<div class="cell" data-label="Column">itemClass2_id</div>
+<div class="cell" data-label="Arabic">تصنيف 2</div>
+<div class="cell" data-label="English">Class 2</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemClass2](/modules/supplychain/ItemClass2.md) 
+</div>
+</div>
+
+<div class="row searchable" id="itemsCollections.itemClass3">
+<div class="cell" data-label="Property">itemsCollections.itemClass3</div>
+<div class="cell" data-label="Column">itemClass3_id</div>
+<div class="cell" data-label="Arabic">تصنيف 3</div>
+<div class="cell" data-label="English">Class 3</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemClass3](/modules/supplychain/ItemClass3.md) 
+</div>
+</div>
+
+<div class="row searchable" id="itemsCollections.itemClass4">
+<div class="cell" data-label="Property">itemsCollections.itemClass4</div>
+<div class="cell" data-label="Column">itemClass4_id</div>
+<div class="cell" data-label="Arabic">تصنيف 4</div>
+<div class="cell" data-label="English">Class 4</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemClass4](/modules/supplychain/ItemClass4.md) 
+</div>
+</div>
+
+<div class="row searchable" id="itemsCollections.itemClass5">
+<div class="cell" data-label="Property">itemsCollections.itemClass5</div>
+<div class="cell" data-label="Column">itemClass5_id</div>
+<div class="cell" data-label="Arabic">تصنيف 5</div>
+<div class="cell" data-label="English">Class 5</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemClass5](/modules/supplychain/ItemClass5.md) 
+</div>
+</div>
+
+<div class="row searchable" id="itemsCollections.itemClass6">
+<div class="cell" data-label="Property">itemsCollections.itemClass6</div>
+<div class="cell" data-label="Column">itemClass6_id</div>
+<div class="cell" data-label="Arabic">تصنيف 6</div>
+<div class="cell" data-label="English">Class 6</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemClass6](/modules/supplychain/ItemClass6.md) 
+</div>
+</div>
+
+<div class="row searchable" id="itemsCollections.itemClass7">
+<div class="cell" data-label="Property">itemsCollections.itemClass7</div>
+<div class="cell" data-label="Column">itemClass7_id</div>
+<div class="cell" data-label="Arabic">تصنيف 7</div>
+<div class="cell" data-label="English">Class 7</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemClass7](/modules/supplychain/ItemClass7.md) 
+</div>
+</div>
+
+<div class="row searchable" id="itemsCollections.itemClass8">
+<div class="cell" data-label="Property">itemsCollections.itemClass8</div>
+<div class="cell" data-label="Column">itemClass8_id</div>
+<div class="cell" data-label="Arabic">تصنيف 8</div>
+<div class="cell" data-label="English">Class 8</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemClass8](/modules/supplychain/ItemClass8.md) 
+</div>
+</div>
+
+<div class="row searchable" id="itemsCollections.itemClass9">
+<div class="cell" data-label="Property">itemsCollections.itemClass9</div>
+<div class="cell" data-label="Column">itemClass9_id</div>
+<div class="cell" data-label="Arabic">تصنيف 9</div>
+<div class="cell" data-label="English">Class 9</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemClass9](/modules/supplychain/ItemClass9.md) 
+</div>
+</div>
+
+<div class="row searchable" id="itemsCollections.lineNumber">
+<div class="cell" data-label="Property">itemsCollections.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
 </div>
 
 

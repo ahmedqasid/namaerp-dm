@@ -156,6 +156,15 @@
 
 </div>
 
+<div class="row searchable" id="considerCouponBranchOnUse">
+<div class="cell" data-label="Property">considerCouponBranchOnUse</div>
+<div class="cell" data-label="Column">considerCouponBranchOnUse</div>
+<div class="cell" data-label="Arabic">مراعاة محدد فرع القسيمة في الصرف</div>
+<div class="cell" data-label="English">Consider Coupon Branch On Use</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="couponType">
 <div class="cell" data-label="Property">couponType</div>
 <div class="cell" data-label="Column">couponType_id</div>

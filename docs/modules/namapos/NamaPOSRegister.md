@@ -90,6 +90,15 @@
 
 </div>
 
+<div class="row searchable" id="allowCustomerToOverpayByNonCash">
+<div class="cell" data-label="Property">allowCustomerToOverpayByNonCash</div>
+<div class="cell" data-label="Column">allowCustomerToOverpayByNonCash</div>
+<div class="cell" data-label="Arabic">السماح للعميل بالدفع بأكثر من صافي الفاتورة بطرق دفع غير نقدية</div>
+<div class="cell" data-label="English">Allow Customer To Overpay Invoice By Non-Cash Methods</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="alwaysPrintFullInvoice">
 <div class="cell" data-label="Property">alwaysPrintFullInvoice</div>
 <div class="cell" data-label="Column">alwaysPrintFullInvoice</div>

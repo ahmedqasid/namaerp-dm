@@ -2996,12 +2996,93 @@
 
 </div>
 
+<div class="row searchable" id="keywordLines.n1">
+<div class="cell" data-label="Property">keywordLines.n1</div>
+<div class="cell" data-label="Column">n1</div>
+<div class="cell" data-label="Arabic">رقم 1</div>
+<div class="cell" data-label="English">Number 1</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="keywordLines.n2">
+<div class="cell" data-label="Property">keywordLines.n2</div>
+<div class="cell" data-label="Column">n2</div>
+<div class="cell" data-label="Arabic">رقم 2</div>
+<div class="cell" data-label="English">Number 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="keywordLines.n3">
+<div class="cell" data-label="Property">keywordLines.n3</div>
+<div class="cell" data-label="Column">n3</div>
+<div class="cell" data-label="Arabic">رقم 3</div>
+<div class="cell" data-label="English">Number 3</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="keywordLines.ref1">
+<div class="cell" data-label="Property">keywordLines.ref1</div>
+<div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
+<div class="cell" data-label="Arabic">مرجع 1</div>
+<div class="cell" data-label="English">Reference 1</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="keywordLines.ref2">
+<div class="cell" data-label="Property">keywordLines.ref2</div>
+<div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
+<div class="cell" data-label="Arabic">مرجع 2</div>
+<div class="cell" data-label="English">Reference 2</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="keywordLines.ref3">
+<div class="cell" data-label="Property">keywordLines.ref3</div>
+<div class="cell gen-ref-column" data-label="Column">ref3ActualCode,  ref3Code,  ref3EntityType,  ref3Id</div>
+<div class="cell" data-label="Arabic">مرجع 3</div>
+<div class="cell" data-label="English">Reference 3</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
 <div class="row searchable" id="keywordLines.relativeWeight">
 <div class="cell" data-label="Property">keywordLines.relativeWeight</div>
 <div class="cell" data-label="Column">relativeWeight</div>
 <div class="cell" data-label="Arabic">الوزن النسبى</div>
 <div class="cell" data-label="English">Relative weight</div>
 <div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="keywordLines.text1">
+<div class="cell" data-label="Property">keywordLines.text1</div>
+<div class="cell" data-label="Column">text1</div>
+<div class="cell" data-label="Arabic">نــــص 1</div>
+<div class="cell" data-label="English">Text 1</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="keywordLines.text2">
+<div class="cell" data-label="Property">keywordLines.text2</div>
+<div class="cell" data-label="Column">text2</div>
+<div class="cell" data-label="Arabic">نـــــص 2</div>
+<div class="cell" data-label="English">Text 2</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="keywordLines.text3">
+<div class="cell" data-label="Property">keywordLines.text3</div>
+<div class="cell" data-label="Column">text3</div>
+<div class="cell" data-label="Arabic">نص 3</div>
+<div class="cell" data-label="English">text3</div>
+<div class="cell" data-label="Type">Text</div>
 
 </div>
 

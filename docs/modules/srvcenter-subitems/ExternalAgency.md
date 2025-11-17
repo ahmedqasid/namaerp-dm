@@ -45,7 +45,7 @@
 
 <div class="row searchable" id="bankInfo.bankBranch">
 <div class="cell" data-label="Property">bankInfo.bankBranch</div>
-<div class="cell" data-label="Column">bankInfoBankBranch</div>
+<div class="cell" data-label="Column">bankBranch</div>
 <div class="cell" data-label="Arabic">الفرع</div>
 <div class="cell" data-label="English">Bank Branch</div>
 <div class="cell" data-label="Type">Text</div>
@@ -54,7 +54,7 @@
 
 <div class="row searchable" id="bankInfo.bankCountry">
 <div class="cell" data-label="Property">bankInfo.bankCountry</div>
-<div class="cell" data-label="Column">bankInfoBankCountry</div>
+<div class="cell" data-label="Column">bankCountry</div>
 <div class="cell" data-label="Arabic">البلد</div>
 <div class="cell" data-label="English">Bank Country</div>
 <div class="cell" data-label="Type">Text</div>
@@ -63,7 +63,7 @@
 
 <div class="row searchable" id="bankInfo.bankName">
 <div class="cell" data-label="Property">bankInfo.bankName</div>
-<div class="cell" data-label="Column">bankInfoBankName</div>
+<div class="cell" data-label="Column">bankName</div>
 <div class="cell" data-label="Arabic"> بنك</div>
 <div class="cell" data-label="English"> Bank</div>
 <div class="cell" data-label="Type">Text</div>
@@ -72,7 +72,7 @@
 
 <div class="row searchable" id="bankInfo.bankTitle">
 <div class="cell" data-label="Property">bankInfo.bankTitle</div>
-<div class="cell" data-label="Column">bankInfoBankTitle</div>
+<div class="cell" data-label="Column">bankTitle</div>
 <div class="cell" data-label="Arabic">عنوان البنك</div>
 <div class="cell" data-label="English">Bank Title</div>
 <div class="cell" data-label="Type">Text</div>
@@ -81,7 +81,7 @@
 
 <div class="row searchable" id="bankInfo.ibanNumber">
 <div class="cell" data-label="Property">bankInfo.ibanNumber</div>
-<div class="cell" data-label="Column">bankInfoIbanNumber</div>
+<div class="cell" data-label="Column">ibanNumber</div>
 <div class="cell" data-label="Arabic">رقم IBAN</div>
 <div class="cell" data-label="English">IBAN Number</div>
 <div class="cell" data-label="Type">Text</div>
@@ -90,7 +90,7 @@
 
 <div class="row searchable" id="bankInfo.intermediaryBankName">
 <div class="cell" data-label="Property">bankInfo.intermediaryBankName</div>
-<div class="cell" data-label="Column">bankInfoIntermediaryBankName</div>
+<div class="cell" data-label="Column">intermediaryBankName</div>
 <div class="cell" data-label="Arabic">اسم البنك الوسيط</div>
 <div class="cell" data-label="English">Intermediary Bank Name</div>
 <div class="cell" data-label="Type">Text</div>
@@ -99,7 +99,7 @@
 
 <div class="row searchable" id="bankInfo.swiftCode">
 <div class="cell" data-label="Property">bankInfo.swiftCode</div>
-<div class="cell" data-label="Column">bankInfoSwiftCode</div>
+<div class="cell" data-label="Column">swiftCode</div>
 <div class="cell" data-label="Arabic">كود السويفت</div>
 <div class="cell" data-label="English">Swift Code</div>
 <div class="cell" data-label="Type">Text</div>
@@ -1257,7 +1257,7 @@
 
 <div class="row searchable" id="taxInfo.commercialRegNo">
 <div class="cell" data-label="Property">taxInfo.commercialRegNo</div>
-<div class="cell" data-label="Column">taxInfoCommercialRegNo</div>
+<div class="cell" data-label="Column">commercialRegNo</div>
 <div class="cell" data-label="Arabic">رقم السجل التجاري</div>
 <div class="cell" data-label="English">Commercial Registration Number</div>
 <div class="cell" data-label="Type">Text</div>
@@ -1266,7 +1266,7 @@
 
 <div class="row searchable" id="taxInfo.companyType">
 <div class="cell" data-label="Property">taxInfo.companyType</div>
-<div class="cell" data-label="Column">taxInfoCompanyType</div>
+<div class="cell" data-label="Column">companyType</div>
 <div class="cell" data-label="Arabic">الكيان القانونى للشركة</div>
 <div class="cell" data-label="English">The legal entity of the company</div>
 <div class="cell" data-label="Type">Enum</div>
@@ -1275,7 +1275,7 @@
 
 <div class="row searchable" id="taxInfo.crNationalNumber">
 <div class="cell" data-label="Property">taxInfo.crNationalNumber</div>
-<div class="cell" data-label="Column">taxInfoCrNationalNumber</div>
+<div class="cell" data-label="Column">crNationalNumber</div>
 <div class="cell" data-label="Arabic">الرقم الوطني الموحد</div>
 <div class="cell" data-label="English">Commercial Registration National Number</div>
 <div class="cell" data-label="Type">Text</div>
@@ -1284,7 +1284,7 @@
 
 <div class="row searchable" id="taxInfo.dealWay">
 <div class="cell" data-label="Property">taxInfo.dealWay</div>
-<div class="cell" data-label="Column">taxInfoDealWay</div>
+<div class="cell" data-label="Column">dealWay</div>
 <div class="cell" data-label="Arabic">ط تعامل</div>
 <div class="cell" data-label="English">Deal Way</div>
 <div class="cell" data-label="Type">Text</div>
@@ -1293,7 +1293,7 @@
 
 <div class="row searchable" id="taxInfo.dealWayCode">
 <div class="cell" data-label="Property">taxInfo.dealWayCode</div>
-<div class="cell" data-label="Column">taxInfoDealWayCode</div>
+<div class="cell" data-label="Column">dealWayCode</div>
 <div class="cell" data-label="Arabic">كود</div>
 <div class="cell" data-label="English">Code</div>
 <div class="cell" data-label="Type">Text</div>
@@ -1302,7 +1302,7 @@
 
 <div class="row searchable" id="taxInfo.fileNo">
 <div class="cell" data-label="Property">taxInfo.fileNo</div>
-<div class="cell" data-label="Column">taxInfoFileNo</div>
+<div class="cell" data-label="Column">fileNo</div>
 <div class="cell" data-label="Arabic">رقم الملف</div>
 <div class="cell" data-label="English">File No</div>
 <div class="cell" data-label="Type">Text</div>
@@ -1311,7 +1311,7 @@
 
 <div class="row searchable" id="taxInfo.idNumber">
 <div class="cell" data-label="Property">taxInfo.idNumber</div>
-<div class="cell" data-label="Column">taxInfoIdNumber</div>
+<div class="cell" data-label="Column">idNumber</div>
 <div class="cell" data-label="Arabic">رقم البطاقة الشخصيه</div>
 <div class="cell" data-label="English">Id Number</div>
 <div class="cell" data-label="Type">Text</div>
@@ -1320,7 +1320,7 @@
 
 <div class="row searchable" id="taxInfo.mission">
 <div class="cell" data-label="Property">taxInfo.mission</div>
-<div class="cell" data-label="Column">taxInfoMission</div>
+<div class="cell" data-label="Column">mission</div>
 <div class="cell" data-label="Arabic">المأمورية</div>
 <div class="cell" data-label="English">Mission</div>
 <div class="cell" data-label="Type">Text</div>
@@ -1329,7 +1329,7 @@
 
 <div class="row searchable" id="taxInfo.missionCode">
 <div class="cell" data-label="Property">taxInfo.missionCode</div>
-<div class="cell" data-label="Column">taxInfoMissionCode</div>
+<div class="cell" data-label="Column">missionCode</div>
 <div class="cell" data-label="Arabic">كود</div>
 <div class="cell" data-label="English">Code</div>
 <div class="cell" data-label="Type">Text</div>
@@ -1338,7 +1338,7 @@
 
 <div class="row searchable" id="taxInfo.supplier">
 <div class="cell" data-label="Property">taxInfo.supplier</div>
-<div class="cell" data-label="Column">taxInfoSupplier</div>
+<div class="cell" data-label="Column">supplier</div>
 <div class="cell" data-label="Arabic">مورد</div>
 <div class="cell" data-label="English"> Supplier</div>
 <div class="cell" data-label="Type">Text</div>
@@ -1347,7 +1347,7 @@
 
 <div class="row searchable" id="taxInfo.taxRegNo">
 <div class="cell" data-label="Property">taxInfo.taxRegNo</div>
-<div class="cell" data-label="Column">taxInfoTaxRegNo</div>
+<div class="cell" data-label="Column">taxRegNo</div>
 <div class="cell" data-label="Arabic">رقم التسجيل الضريبى</div>
 <div class="cell" data-label="English">Tax Registeration NO</div>
 <div class="cell" data-label="Type">Text</div>
