@@ -618,6 +618,15 @@
 
 </div>
 
+<div class="row searchable" id="ignoreAndRoundAmountIfScaleIsInvalid">
+<div class="cell" data-label="Property">ignoreAndRoundAmountIfScaleIsInvalid</div>
+<div class="cell" data-label="Column">ignoreAndRoundAmountIfScaleIsInvalid</div>
+<div class="cell" data-label="Arabic">تجاهل وتقريب القيمة إذا كان عدد خانات الكسر أكبر من المسموح به</div>
+<div class="cell" data-label="English">Ignore and Round Amount if Scale is Greater Than Allowed Scale</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="ignoreItemWithTaxCode">
 <div class="cell" data-label="Property">ignoreItemWithTaxCode</div>
 <div class="cell" data-label="Column">ignoreItemWithTaxCode</div>

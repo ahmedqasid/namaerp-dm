@@ -249,6 +249,15 @@
 
 </div>
 
+<div class="row searchable" id="customerPaysExpensesInReceipt">
+<div class="cell" data-label="Property">customerPaysExpensesInReceipt</div>
+<div class="cell" data-label="Column">customerPaysExpensesInReceipt</div>
+<div class="cell" data-label="Arabic">يتحمل العميل المصاريف عند القبض</div>
+<div class="cell" data-label="English">Customer Pays Expenses In Receipt</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="date1">
 <div class="cell" data-label="Property">date1</div>
 <div class="cell" data-label="Column">date1</div>

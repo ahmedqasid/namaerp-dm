@@ -1014,6 +1014,15 @@
 
 </div>
 
+<div class="row searchable" id="useParentValueDateWithReturns">
+<div class="cell" data-label="Property">useParentValueDateWithReturns</div>
+<div class="cell" data-label="Column">useParentValueDateWithReturns</div>
+<div class="cell" data-label="Arabic">احتساب نقاط الولاء وفق التاريخ الفعلي للمستند الأعلى مع المردودات</div>
+<div class="cell" data-label="English">Use Parent ValueDate With Returns</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="userName">
 <div class="cell" data-label="Property">userName</div>
 <div class="cell" data-label="Column">userName</div>

@@ -1216,6 +1216,18 @@
 
 </div>
 
+<div class="row searchable" id="actionLines.bulkEditConfig">
+<div class="cell" data-label="Property">actionLines.bulkEditConfig</div>
+<div class="cell" data-label="Column">bulkEditConfig_id</div>
+<div class="cell" data-label="Arabic">إعدادات تحرير متعدد</div>
+<div class="cell" data-label="English">Bulk Edit Config</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [BulkEditConfig](/modules/system-tables/BulkEditConfig.md) 
+</div>
+</div>
+
 <div class="row searchable" id="actionLines.enTitle">
 <div class="cell" data-label="Property">actionLines.enTitle</div>
 <div class="cell" data-label="Column">enTitle</div>

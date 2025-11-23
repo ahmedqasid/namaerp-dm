@@ -1073,6 +1073,15 @@
 
 </div>
 
+<div class="row searchable" id="lines.extraPriceValueType">
+<div class="cell" data-label="Property">lines.extraPriceValueType</div>
+<div class="cell" data-label="Column">extraPriceValueType</div>
+<div class="cell" data-label="Arabic">نوع قيمة السعر الإضافي</div>
+<div class="cell" data-label="English">Extra Price Value Type</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="lines.fromDate">
 <div class="cell" data-label="Property">lines.fromDate</div>
 <div class="cell" data-label="Column">fromDate</div>
