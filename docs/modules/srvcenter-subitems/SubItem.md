@@ -906,6 +906,51 @@
 </div>
 </div>
 
+<div class="row searchable" id="hasCatalog">
+<div class="cell" data-label="Property">hasCatalog</div>
+<div class="cell" data-label="Column">hasCatalog</div>
+<div class="cell" data-label="Arabic">تشمل دليل مستخدم</div>
+<div class="cell" data-label="English">Has Catalog</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="hasMats">
+<div class="cell" data-label="Property">hasMats</div>
+<div class="cell" data-label="Column">hasMats</div>
+<div class="cell" data-label="Arabic">تشمل دواسات</div>
+<div class="cell" data-label="English">Has Mats</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="hasSpareKey">
+<div class="cell" data-label="Property">hasSpareKey</div>
+<div class="cell" data-label="Column">hasSpareKey</div>
+<div class="cell" data-label="Arabic">تشمل مفتاح احتياطي</div>
+<div class="cell" data-label="English">Has Spare Key</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="hasToolkit">
+<div class="cell" data-label="Property">hasToolkit</div>
+<div class="cell" data-label="Column">hasToolkit</div>
+<div class="cell" data-label="Arabic">تشمل عدة</div>
+<div class="cell" data-label="English">Has Toolkit</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="hasWarranty">
+<div class="cell" data-label="Property">hasWarranty</div>
+<div class="cell" data-label="Column">hasWarranty</div>
+<div class="cell" data-label="Arabic">تشمل ضمان</div>
+<div class="cell" data-label="English">Has Warranty</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="id">
 <div class="cell" data-label="Property">id</div>
 <div class="cell" data-label="Column">id</div>

@@ -618,6 +618,15 @@
 
 </div>
 
+<div class="row searchable" id="pivotOpenByDefault">
+<div class="cell" data-label="Property">pivotOpenByDefault</div>
+<div class="cell" data-label="Column">pivotOpenByDefault</div>
+<div class="cell" data-label="Arabic">فتح المحور افتراضياً</div>
+<div class="cell" data-label="English">Pivot Open by Default</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="preventUsage">
 <div class="cell" data-label="Property">preventUsage</div>
 <div class="cell" data-label="Column">preventUsage</div>
@@ -1173,6 +1182,15 @@
 <div class="cell" data-label="Column">patternType</div>
 <div class="cell" data-label="Arabic">Pattern Type</div>
 <div class="cell" data-label="English">Pattern Type</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="fields.pivotColumnType">
+<div class="cell" data-label="Property">fields.pivotColumnType</div>
+<div class="cell" data-label="Column">pivotColumnType</div>
+<div class="cell" data-label="Arabic">نوع عمود المحور</div>
+<div class="cell" data-label="English">Pivot Column Type</div>
 <div class="cell" data-label="Type">Enum</div>
 
 </div>

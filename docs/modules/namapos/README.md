@@ -18,6 +18,7 @@
   - [NamaPOSOrderReservation](/modules/namapos/NamaPOSOrderReservation.md)
   - [NamaPOSPaymentMethodsSettings](/modules/namapos/NamaPOSPaymentMethodsSettings.md)
   - [NamaPOSRegister](/modules/namapos/NamaPOSRegister.md)
+  - [NamaPOSReturnPeriodExtension](/modules/namapos/NamaPOSReturnPeriodExtension.md)
   - [NamaPOSReturnReason](/modules/namapos/NamaPOSReturnReason.md)
   - [NamaPOSSalesInvoice](/modules/namapos/NamaPOSSalesInvoice.md)
   - [NamaPOSSalesReplacement](/modules/namapos/NamaPOSSalesReplacement.md)

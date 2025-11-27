@@ -4645,6 +4645,51 @@
 
 </div>
 
+<div class="row searchable" id="details.subItemProperties.hasCatalog">
+<div class="cell" data-label="Property">details.subItemProperties.hasCatalog</div>
+<div class="cell" data-label="Column">hasCatalog</div>
+<div class="cell" data-label="Arabic">تشمل دليل مستخدم</div>
+<div class="cell" data-label="English">Has Catalog</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="details.subItemProperties.hasMats">
+<div class="cell" data-label="Property">details.subItemProperties.hasMats</div>
+<div class="cell" data-label="Column">hasMats</div>
+<div class="cell" data-label="Arabic">تشمل دواسات</div>
+<div class="cell" data-label="English">Has Mats</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="details.subItemProperties.hasSpareKey">
+<div class="cell" data-label="Property">details.subItemProperties.hasSpareKey</div>
+<div class="cell" data-label="Column">hasSpareKey</div>
+<div class="cell" data-label="Arabic">تشمل مفتاح احتياطي</div>
+<div class="cell" data-label="English">Has Spare Key</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="details.subItemProperties.hasToolkit">
+<div class="cell" data-label="Property">details.subItemProperties.hasToolkit</div>
+<div class="cell" data-label="Column">hasToolkit</div>
+<div class="cell" data-label="Arabic">تشمل عدة</div>
+<div class="cell" data-label="English">Has Toolkit</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="details.subItemProperties.hasWarranty">
+<div class="cell" data-label="Property">details.subItemProperties.hasWarranty</div>
+<div class="cell" data-label="Column">hasWarranty</div>
+<div class="cell" data-label="Arabic">تشمل ضمان</div>
+<div class="cell" data-label="English">Has Warranty</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="details.subItemProperties.itemClass1">
 <div class="cell" data-label="Property">details.subItemProperties.itemClass1</div>
 <div class="cell" data-label="Column">itemClass1_id</div>

@@ -12,6 +12,7 @@
   - [ApprovalReason](/modules/basic/ApprovalReason.md)
   - [Branch](/modules/basic/Branch.md)
   - [BudgetScenario](/modules/basic/BudgetScenario.md)
+  - [BulkEditConfig](/modules/basic/BulkEditConfig.md)
   - [BulkMessage](/modules/basic/BulkMessage.md)
   - [Car](/modules/basic/Car.md)
   - [CarBrand](/modules/basic/CarBrand.md)

@@ -1224,7 +1224,7 @@
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [BulkEditConfig](/modules/system-tables/BulkEditConfig.md) 
+ [BulkEditConfig](/modules/basic/BulkEditConfig.md) 
 </div>
 </div>
 
