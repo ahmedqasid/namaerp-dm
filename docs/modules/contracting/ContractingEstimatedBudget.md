@@ -27,7 +27,19 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="altCode">
+</div><div class="row searchable" id="advisory">
+<div class="cell" data-label="Property">advisory</div>
+<div class="cell" data-label="Column">advisory_id</div>
+<div class="cell" data-label="Arabic">الإستشاري</div>
+<div class="cell" data-label="English">Advisory</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ContractingAdvisory](/modules/contracting/ContractingAdvisory.md) 
+</div>
+</div>
+
+<div class="row searchable" id="altCode">
 <div class="cell" data-label="Property">altCode</div>
 <div class="cell" data-label="Column">altCode</div>
 <div class="cell" data-label="Arabic">الكود الإنجليزي</div>

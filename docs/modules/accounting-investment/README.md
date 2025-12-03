@@ -16,7 +16,6 @@
   - [IPInvestmentUpdate](/modules/accounting-investment/IPInvestmentUpdate.md)
   - [IPShare](/modules/accounting-investment/IPShare.md)
   - [IPShareType](/modules/accounting-investment/IPShareType.md)
-  - [InvestmentFund](/modules/accounting-investment/InvestmentFund.md)
   - [InvestmentProject](/modules/accounting-investment/InvestmentProject.md)
   - [Investor](/modules/accounting-investment/Investor.md)
 

@@ -48,6 +48,18 @@
 
 </div>
 
+<div class="row searchable" id="bank">
+<div class="cell" data-label="Property">bank</div>
+<div class="cell" data-label="Column">bank_id</div>
+<div class="cell" data-label="Arabic">البنك</div>
+<div class="cell" data-label="English">Bank</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Bank](/modules/accounting-banks/Bank.md) 
+</div>
+</div>
+
 <div class="row searchable" id="branch">
 <div class="cell" data-label="Property">branch</div>
 <div class="cell" data-label="Column">branch_id</div>
@@ -687,6 +699,18 @@
 
 </div>
 
+<div class="row searchable" id="prefixFacilityLimitConfig">
+<div class="cell" data-label="Property">prefixFacilityLimitConfig</div>
+<div class="cell" data-label="Column">prefixFacilityLimitConfig_id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [FacilityLimitConfig](/modules/accounting-financial-commitments-regulation/FacilityLimitConfig.md) 
+</div>
+</div>
+
 <div class="row searchable" id="preventUsage">
 <div class="cell" data-label="Property">preventUsage</div>
 <div class="cell" data-label="Column">preventUsage</div>
@@ -1087,6 +1111,15 @@
 
 </div>
 
+<div class="row searchable" id="details.description">
+<div class="cell" data-label="Property">details.description</div>
+<div class="cell" data-label="Column">description</div>
+<div class="cell" data-label="Arabic">الوصف</div>
+<div class="cell" data-label="English">Description</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="details.description1">
 <div class="cell" data-label="Property">details.description1</div>
 <div class="cell" data-label="Column">description1</div>
@@ -1237,11 +1270,38 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.facilityCode">
+<div class="cell" data-label="Property">details.facilityCode</div>
+<div class="cell" data-label="Column">facilityCode</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="details.facilityLimit">
 <div class="cell" data-label="Property">details.facilityLimit</div>
 <div class="cell" data-label="Column">facilityLimit</div>
 <div class="cell" data-label="Arabic">حد التسهيلات</div>
 <div class="cell" data-label="English">Facility Limit</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.facilityLimitConsumed">
+<div class="cell" data-label="Property">details.facilityLimitConsumed</div>
+<div class="cell" data-label="Column">facilityLimitConsumed</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.facilityLimitRemaining">
+<div class="cell" data-label="Property">details.facilityLimitRemaining</div>
+<div class="cell" data-label="Column">facilityLimitRemaining</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
@@ -1417,6 +1477,15 @@
 <div class="cell" data-label="Arabic">رقم 9</div>
 <div class="cell" data-label="English">Number 9</div>
 <div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.parentCode">
+<div class="cell" data-label="Property">details.parentCode</div>
+<div class="cell" data-label="Column">parentCode</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Text</div>
 
 </div>
 

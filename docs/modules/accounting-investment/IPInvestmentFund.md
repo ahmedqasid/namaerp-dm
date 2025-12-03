@@ -10,11 +10,6 @@
 
 <ContentFilter/>
 
-
-<div class='searchable'>
-<a href='#investmentProjects'>investmentProjects (InvestmentFundLine) </a>
-</div>
-
 <div class='searchable'>
 
 ## Fields
@@ -1239,67 +1234,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
-
-</div>
-
-
-</div>
-</div>
-
-<div id='investmentProjects' title='investmentProjects' class='searchable'>
-
-## investmentProjects (المشاريع الاستثمارية - Investment Projects)
-
-<div class='tableName'>
-
-**Table Name:** InvestmentFundLine, **Join Column:** iPInvestmentFund_id
-
-</div>
-
-<div class="nama-table">
-<div class="row header-row">
-<div class="cell">Property</div>
-<div class="cell">Column</div>
-<div class="cell">Arabic</div>
-<div class="cell">English</div>
-<div class="cell">Type</div>
-<div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="investmentProjects.id">
-<div class="cell" data-label="Property">investmentProjects.id</div>
-<div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="investmentProjects.investmentProject">
-<div class="cell" data-label="Property">investmentProjects.investmentProject</div>
-<div class="cell" data-label="Column">investmentProject_id</div>
-<div class="cell" data-label="Arabic">المشروع الاستثماري</div>
-<div class="cell" data-label="English">Investment Project</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [InvestmentProject](/modules/accounting-investment/InvestmentProject.md) 
-</div>
-</div>
-
-<div class="row searchable" id="investmentProjects.lineNumber">
-<div class="cell" data-label="Property">investmentProjects.lineNumber</div>
-<div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="investmentProjects.remarks">
-<div class="cell" data-label="Property">investmentProjects.remarks</div>
-<div class="cell" data-label="Column">remarks</div>
-<div class="cell" data-label="Arabic">ملاحظات</div>
-<div class="cell" data-label="English">Description</div>
-<div class="cell" data-label="Type">BigText</div>
 
 </div>
 

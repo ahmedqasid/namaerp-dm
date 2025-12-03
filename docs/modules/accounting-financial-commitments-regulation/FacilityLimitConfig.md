@@ -2,17 +2,17 @@
 <div class='tableName'>
 
 
-# EcommerceShippingSite
+# FacilityLimitConfig
 </div>
 
-**Arabic:** موقع شحن الكتروني - مواقع شحن الكتروني
-**English:** Ecommerce Shipping Site
+**Arabic:** إعدادات حد التسهيلات
+**English:** Facility Limit Config
 
 <ContentFilter/>
 
 
 <div class='searchable'>
-<a href='#salasaWebhooks'>salasaWebhooks (EcommerceShippingSiteSalasaWebhook) </a> , <a href='#statusToRunEntityFlows'>statusToRunEntityFlows (ESiteStatusToRunEntityFlow) </a>
+<a href='#details'>details (FacilityLimitConfigLine) </a>
 </div>
 
 <div class='searchable'>
@@ -402,30 +402,12 @@
 
 </div>
 
-<div class="row searchable" id="inActive">
-<div class="cell" data-label="Property">inActive</div>
-<div class="cell" data-label="Column">inActive</div>
-<div class="cell" data-label="Arabic">غير نشط</div>
-<div class="cell" data-label="English">Inactive</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
 <div class="row searchable" id="indexInParent">
 <div class="cell" data-label="Property">indexInParent</div>
 <div class="cell" data-label="Column">indexInParent</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="integratorName">
-<div class="cell" data-label="Property">integratorName</div>
-<div class="cell" data-label="Column">integratorName</div>
-<div class="cell" data-label="Arabic">Integrator Name</div>
-<div class="cell" data-label="English">Integrator Name</div>
-<div class="cell" data-label="Type">Text</div>
 
 </div>
 
@@ -486,18 +468,6 @@
 
 </div>
 
-<div class="row searchable" id="magentoItemLinker">
-<div class="cell" data-label="Property">magentoItemLinker</div>
-<div class="cell" data-label="Column">magentoItemLinker_id</div>
-<div class="cell" data-label="Arabic"> ملف ربط الأصناف بموقع ماجنتو</div>
-<div class="cell" data-label="English"> Magento Item Linker</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [MagentoItemLinker](/modules/magento/MagentoItemLinker.md) 
-</div>
-</div>
-
 <div class="row searchable" id="mainFile">
 <div class="cell" data-label="Property">mainFile</div>
 <div class="cell" data-label="Column">mainFile_id</div>
@@ -555,18 +525,6 @@
 
 </div>
 
-<div class="row searchable" id="namaAPIKey">
-<div class="cell" data-label="Property">namaAPIKey</div>
-<div class="cell" data-label="Column">namaAPIKey_id</div>
-<div class="cell" data-label="Arabic">Nama API Key</div>
-<div class="cell" data-label="English">Nama API Key</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [APICredentials](/modules/basic/APICredentials.md) 
-</div>
-</div>
-
 <div class="row searchable" id="name1">
 <div class="cell" data-label="Property">name1</div>
 <div class="cell" data-label="Column">name1</div>
@@ -591,15 +549,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="password">
-<div class="cell" data-label="Property">password</div>
-<div class="cell" data-label="Column">password</div>
-<div class="cell" data-label="Arabic">كلمة المرور</div>
-<div class="cell" data-label="English">Password</div>
-<div class="cell" data-label="Type">Password</div>
 
 </div>
 
@@ -705,36 +654,6 @@
 </div>
 </div>
 
-<div class="row searchable" id="salasaApiAccessToken">
-<div class="cell" data-label="Property">salasaApiAccessToken</div>
-<div class="cell" data-label="Column">salasaApiAccessToken</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="salasaApiAccessTokenExpirationAt">
-<div class="cell" data-label="Property">salasaApiAccessTokenExpirationAt</div>
-<div class="cell" data-label="Column">salasaApiAccessTokenExpirationAt</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Long</div>
-
-</div>
-
-<div class="row searchable" id="saveSalasaOrdersUsingMagentoSite">
-<div class="cell" data-label="Property">saveSalasaOrdersUsingMagentoSite</div>
-<div class="cell" data-label="Column">saveSalasaOrdersUsingMagentoSite_id</div>
-<div class="cell" data-label="Arabic">Save Salasa Orders Using Magento Site</div>
-<div class="cell" data-label="English">Save Salasa Orders Using Magento Site</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [MAGMagentoSite](/modules/magento/MAGMagentoSite.md) 
-</div>
-</div>
-
 <div class="row searchable" id="sector">
 <div class="cell" data-label="Property">sector</div>
 <div class="cell" data-label="Column">sector_id</div>
@@ -756,66 +675,12 @@
 
 </div>
 
-<div class="row searchable" id="statusFieldId">
-<div class="cell" data-label="Property">statusFieldId</div>
-<div class="cell" data-label="Column">statusFieldId</div>
-<div class="cell" data-label="Arabic">Status Field ID</div>
-<div class="cell" data-label="English">Status Field ID</div>
-<div class="cell" data-label="Type">FieldID</div>
-
-</div>
-
-<div class="row searchable" id="stockTransferBookGeneratedBySalasa">
-<div class="cell" data-label="Property">stockTransferBookGeneratedBySalasa</div>
-<div class="cell" data-label="Column">stockTransferBookGeneratedBySalasa_id</div>
-<div class="cell" data-label="Arabic">دفتر التحويل المخزني المنشأ بواسطة سلاسه</div>
-<div class="cell" data-label="English">Stock Transfer Book Generated By Salasa</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [DocumentBook](/modules/basic/DocumentBook.md) 
-</div>
-</div>
-
-<div class="row searchable" id="stockTransferTermGeneratedBySalasa">
-<div class="cell" data-label="Property">stockTransferTermGeneratedBySalasa</div>
-<div class="cell" data-label="Column">stockTransferTermGeneratedBySalasa_id</div>
-<div class="cell" data-label="Arabic">توجيه التحويل المخزني المنشأ بواسطة سلاسه</div>
-<div class="cell" data-label="English">Stock Transfer Term Generated By Salasa</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [DocumentTerm](/modules/basic/DocumentTerm.md) 
-</div>
-</div>
-
 <div class="row searchable" id="systemGeneratedCodePrefix">
 <div class="cell" data-label="Property">systemGeneratedCodePrefix</div>
 <div class="cell" data-label="Column">systemGeneratedCodePrefix</div>
 <div class="cell" data-label="Arabic">System Generated Code Prefix</div>
 <div class="cell" data-label="English">System Generated Code Prefix</div>
 <div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="toWarehouse">
-<div class="cell" data-label="Property">toWarehouse</div>
-<div class="cell" data-label="Column">toWarehouse_id</div>
-<div class="cell" data-label="Arabic">إلى مخزن</div>
-<div class="cell" data-label="English">to Warehouse</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Warehouse](/modules/supplychain/Warehouse.md) 
-</div>
-</div>
-
-<div class="row searchable" id="type">
-<div class="cell" data-label="Property">type</div>
-<div class="cell" data-label="Column">type</div>
-<div class="cell" data-label="Arabic">النوع</div>
-<div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
 
 </div>
 
@@ -840,15 +705,6 @@
 
 </div>
 
-<div class="row searchable" id="url">
-<div class="cell" data-label="Property">url</div>
-<div class="cell" data-label="Column">url</div>
-<div class="cell" data-label="Arabic">رابط</div>
-<div class="cell" data-label="English">URL</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
 <div class="row searchable" id="usageCapability">
 <div class="cell" data-label="Property">usageCapability</div>
 <div class="cell" data-label="Column">usageCapability_id</div>
@@ -867,15 +723,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="username">
-<div class="cell" data-label="Property">username</div>
-<div class="cell" data-label="Column">username</div>
-<div class="cell" data-label="Arabic">اسم المستخدم</div>
-<div class="cell" data-label="English">Username</div>
-<div class="cell" data-label="Type">Text</div>
 
 </div>
 
@@ -900,29 +747,17 @@
 
 </div>
 
-<div class="row searchable" id="warehouse">
-<div class="cell" data-label="Property">warehouse</div>
-<div class="cell" data-label="Column">warehouse_id</div>
-<div class="cell" data-label="Arabic">المخزن</div>
-<div class="cell" data-label="English">Warehouse</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Warehouse](/modules/supplychain/Warehouse.md) 
-</div>
-</div>
-
 
 </div>
 </div>
 
-<div id='salasaWebhooks' title='salasaWebhooks' class='searchable'>
+<div id='details' title='details' class='searchable'>
 
-## salasaWebhooks (Salasa Webhooks - Salasa Webhooks)
+## details (التفاصيل - Details)
 
 <div class='tableName'>
 
-**Table Name:** EcommerceShippingSiteSalasaWebhook, **Join Column:** ecommerceShippingSite_id
+**Table Name:** FacilityLimitConfigLine, **Join Column:** facilityLimitConfig_id
 
 </div>
 
@@ -934,78 +769,26 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="salasaWebhooks.id">
-<div class="cell" data-label="Property">salasaWebhooks.id</div>
-<div class="cell" data-label="Column">id</div>
+</div><div class="row searchable" id="details.facilityLimitPrefixCode">
+<div class="cell" data-label="Property">details.facilityLimitPrefixCode</div>
+<div class="cell" data-label="Column">facilityLimitPrefixCode</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="salasaWebhooks.lineNumber">
-<div class="cell" data-label="Property">salasaWebhooks.lineNumber</div>
-<div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="salasaWebhooks.type">
-<div class="cell" data-label="Property">salasaWebhooks.type</div>
-<div class="cell" data-label="Column">type</div>
-<div class="cell" data-label="Arabic">النوع</div>
-<div class="cell" data-label="English">Type</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
 
-
-</div>
-</div>
-
-<div id='statusToRunEntityFlows' title='statusToRunEntityFlows' class='searchable'>
-
-## statusToRunEntityFlows (حالات لتشغيل مسار كيان - Status To Run Entity Flow)
-
-<div class='tableName'>
-
-**Table Name:** ESiteStatusToRunEntityFlow, **Join Column:** ecommerceShippingSite_id
-
-</div>
-
-<div class="nama-table">
-<div class="row header-row">
-<div class="cell">Property</div>
-<div class="cell">Column</div>
-<div class="cell">Arabic</div>
-<div class="cell">English</div>
-<div class="cell">Type</div>
-<div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="statusToRunEntityFlows.changeDeliveryStatusTo">
-<div class="cell" data-label="Property">statusToRunEntityFlows.changeDeliveryStatusTo</div>
-<div class="cell" data-label="Column">changeDeliveryStatusTo</div>
-<div class="cell" data-label="Arabic">تغيير حالة التوصيل إلي</div>
-<div class="cell" data-label="English">Change Delivery Status To</div>
+<div class="row searchable" id="details.facilityType">
+<div class="cell" data-label="Property">details.facilityType</div>
+<div class="cell" data-label="Column">facilityType</div>
+<div class="cell" data-label="Arabic">نوع التسهيلات</div>
+<div class="cell" data-label="English">Facility Type</div>
 <div class="cell" data-label="Type">Enum</div>
 
 </div>
 
-<div class="row searchable" id="statusToRunEntityFlows.entityFlow">
-<div class="cell" data-label="Property">statusToRunEntityFlows.entityFlow</div>
-<div class="cell" data-label="Column">entityFlow_id</div>
-<div class="cell" data-label="Arabic">المسار</div>
-<div class="cell" data-label="English">Entity Flow</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [EntityFlow](/modules/basic/EntityFlow.md) 
-</div>
-</div>
-
-<div class="row searchable" id="statusToRunEntityFlows.id">
-<div class="cell" data-label="Property">statusToRunEntityFlows.id</div>
+<div class="row searchable" id="details.id">
+<div class="cell" data-label="Property">details.id</div>
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -1013,21 +796,12 @@
 
 </div>
 
-<div class="row searchable" id="statusToRunEntityFlows.lineNumber">
-<div class="cell" data-label="Property">statusToRunEntityFlows.lineNumber</div>
+<div class="row searchable" id="details.lineNumber">
+<div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="statusToRunEntityFlows.status">
-<div class="cell" data-label="Property">statusToRunEntityFlows.status</div>
-<div class="cell" data-label="Column">status</div>
-<div class="cell" data-label="Arabic">الحالة</div>
-<div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Text</div>
 
 </div>
 

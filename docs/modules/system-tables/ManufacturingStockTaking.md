@@ -2,17 +2,17 @@
 <div class='tableName'>
 
 
-# StockIssue
+# ManufacturingStockTaking
 </div>
 
-**Arabic:** صرف مخزني - سندات صرف مخزني
-**English:** Stock Issue - Stock Issues
+**Arabic:** جرد مخزني للتصنيع - سندات جرد مخزني للتصنيع
+**English:** Manufacturing Stock Taking - Manufacturing Stock Takings
 
 <ContentFilter/>
 
 
 <div class='searchable'>
-<a href='#details'>details (StockIssueLine) </a>
+<a href='#details'>details (ManufacturingStockTakingLine) </a> , <a href='#productionOrders'>productionOrders (ManufacturingStockTakingProdOrderLine) </a>
 </div>
 
 <div class='searchable'>
@@ -153,27 +153,6 @@
 
 </div>
 
-<div class="row searchable" id="contact">
-<div class="cell" data-label="Property">contact</div>
-<div class="cell" data-label="Column">contact_id</div>
-<div class="cell" data-label="Arabic">جهة إتصال</div>
-<div class="cell" data-label="English">Contact</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Contact](/modules/basic/Contact.md) 
-</div>
-</div>
-
-<div class="row searchable" id="costCallbackClass">
-<div class="cell" data-label="Property">costCallbackClass</div>
-<div class="cell" data-label="Column">costCallbackClass</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
 <div class="row searchable" id="createTransactionId">
 <div class="cell" data-label="Property">createTransactionId</div>
 <div class="cell" data-label="Column">createTransactionId</div>
@@ -231,18 +210,6 @@
 
 </div>
 
-<div class="row searchable" id="customer">
-<div class="cell" data-label="Property">customer</div>
-<div class="cell" data-label="Column">customer_id</div>
-<div class="cell" data-label="Arabic">العميل</div>
-<div class="cell" data-label="English">Customer</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Customer](/modules/basic/Customer.md) 
-</div>
-</div>
-
 <div class="row searchable" id="date1">
 <div class="cell" data-label="Property">date1</div>
 <div class="cell" data-label="Column">date1</div>
@@ -295,18 +262,6 @@
 <div class="cell" data-label="English">Delay Generating Stock Documents</div>
 <div class="cell" data-label="Type">Boolean</div>
 
-</div>
-
-<div class="row searchable" id="deliveryCar">
-<div class="cell" data-label="Property">deliveryCar</div>
-<div class="cell" data-label="Column">deliveryCar_id</div>
-<div class="cell" data-label="Arabic"> سيارة توصيل</div>
-<div class="cell" data-label="English"> Delivery Car</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [DeliveryCar](/modules/basic/DeliveryCar.md) 
-</div>
 </div>
 
 <div class="row searchable" id="department">
@@ -393,15 +348,6 @@
 
 </div>
 
-<div class="row searchable" id="doNotAutoCollectInInvoices">
-<div class="cell" data-label="Property">doNotAutoCollectInInvoices</div>
-<div class="cell" data-label="Column">doNotAutoCollectInInvoices</div>
-<div class="cell" data-label="Arabic">عدم التجميع في الفواتير</div>
-<div class="cell" data-label="English">Do Not Auto Collect In Invoices</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
 <div class="row searchable" id="doNotCheckOverdraft">
 <div class="cell" data-label="Property">doNotCheckOverdraft</div>
 <div class="cell" data-label="Column">doNotCheckOverdraft</div>
@@ -457,18 +403,6 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">BigText</div>
 
-</div>
-
-<div class="row searchable" id="driver">
-<div class="cell" data-label="Property">driver</div>
-<div class="cell" data-label="Column">driver_id</div>
-<div class="cell" data-label="Arabic">السائق</div>
-<div class="cell" data-label="English">Driver</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Employee](/modules/basic/Employee.md) 
-</div>
 </div>
 
 <div class="row searchable" id="editedBy">
@@ -546,12 +480,12 @@
 </div>
 </div>
 
-<div class="row searchable" id="forceNoAutCollectInInvoices">
-<div class="cell" data-label="Property">forceNoAutCollectInInvoices</div>
-<div class="cell" data-label="Column">forceNoAutCollectInInvoices</div>
-<div class="cell" data-label="Arabic">إجبار  منع التجميع اليا في الفواتير</div>
-<div class="cell" data-label="English">force No Auto Collect In Invoices</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="row searchable" id="fromDate">
+<div class="cell" data-label="Property">fromDate</div>
+<div class="cell" data-label="Column">fromDate</div>
+<div class="cell" data-label="Arabic">من تاريخ</div>
+<div class="cell" data-label="English">From Date</div>
+<div class="cell" data-label="Type">Date</div>
 
 </div>
 
@@ -669,15 +603,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="invoice">
-<div class="cell" data-label="Property">invoice</div>
-<div class="cell gen-ref-column" data-label="Column">invoiceActualCode,  invoiceCode,  invoiceEntityType,  invoiceId</div>
-<div class="cell" data-label="Arabic">الفاتورة</div>
-<div class="cell" data-label="English">Invoice</div>
-<div class="cell" data-label="Type">Genericreference</div>
 
 </div>
 
@@ -868,6 +793,18 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Boolean</div>
 
+</div>
+
+<div class="row searchable" id="previousTaking">
+<div class="cell" data-label="Property">previousTaking</div>
+<div class="cell" data-label="Column">previousTaking_id</div>
+<div class="cell" data-label="Arabic">الجرد السابق</div>
+<div class="cell" data-label="English">Previous Taking</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ManufacturingStockTaking](/modules/system-tables/ManufacturingStockTaking.md) 
+</div>
 </div>
 
 <div class="row searchable" id="printCount">
@@ -1077,18 +1014,6 @@
 </div>
 </div>
 
-<div class="row searchable" id="salesMan">
-<div class="cell" data-label="Property">salesMan</div>
-<div class="cell" data-label="Column">salesMan_id</div>
-<div class="cell" data-label="Arabic">مندوب المبيعات</div>
-<div class="cell" data-label="English">Salesman</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Employee](/modules/basic/Employee.md) 
-</div>
-</div>
-
 <div class="row searchable" id="searchText1">
 <div class="cell" data-label="Property">searchText1</div>
 <div class="cell" data-label="Column">searchText1</div>
@@ -1128,135 +1053,6 @@
 
 </div>
 
-<div class="row searchable" id="shippingAddress.address1">
-<div class="cell" data-label="Property">shippingAddress.address1</div>
-<div class="cell" data-label="Column">shpAddress1</div>
-<div class="cell" data-label="Arabic">عنوان 1</div>
-<div class="cell" data-label="English">Address 1</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="shippingAddress.address2">
-<div class="cell" data-label="Property">shippingAddress.address2</div>
-<div class="cell" data-label="Column">shpAddress2</div>
-<div class="cell" data-label="Arabic">رقم المبني</div>
-<div class="cell" data-label="English">Building Number</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="shippingAddress.area">
-<div class="cell" data-label="Property">shippingAddress.area</div>
-<div class="cell" data-label="Column">shpArea</div>
-<div class="cell" data-label="Arabic">المنطقة</div>
-<div class="cell" data-label="English">Area</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="shippingAddress.buildingNumber">
-<div class="cell" data-label="Property">shippingAddress.buildingNumber</div>
-<div class="cell" data-label="Column">shpBuildingNumber</div>
-<div class="cell" data-label="Arabic">رقم المبني</div>
-<div class="cell" data-label="English">Building Number</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="shippingAddress.city">
-<div class="cell" data-label="Property">shippingAddress.city</div>
-<div class="cell" data-label="Column">shpCity</div>
-<div class="cell" data-label="Arabic">المدينة</div>
-<div class="cell" data-label="English">City</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="shippingAddress.country">
-<div class="cell" data-label="Property">shippingAddress.country</div>
-<div class="cell" data-label="Column">shpCountry</div>
-<div class="cell" data-label="Arabic">الدولة</div>
-<div class="cell" data-label="English">Country</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="shippingAddress.countryCode">
-<div class="cell" data-label="Property">shippingAddress.countryCode</div>
-<div class="cell" data-label="Column">shpCountryCode</div>
-<div class="cell" data-label="Arabic">كود الدولة</div>
-<div class="cell" data-label="English">Country Code</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="shippingAddress.district">
-<div class="cell" data-label="Property">shippingAddress.district</div>
-<div class="cell" data-label="Column">shpDistrict</div>
-<div class="cell" data-label="Arabic">الحي</div>
-<div class="cell" data-label="English">District</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="shippingAddress.landPlotNumber">
-<div class="cell" data-label="Property">shippingAddress.landPlotNumber</div>
-<div class="cell" data-label="Column">shpLandPlotNumber</div>
-<div class="cell" data-label="Arabic">رقم تعريفي للأرض</div>
-<div class="cell" data-label="English">Land Plot Number</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="shippingAddress.mapLocation">
-<div class="cell" data-label="Property">shippingAddress.mapLocation</div>
-<div class="cell" data-label="Column">shpMapLocation</div>
-<div class="cell" data-label="Arabic">الموقع على الخريطة</div>
-<div class="cell" data-label="English">Map Location</div>
-<div class="cell" data-label="Type">LatLng</div>
-
-</div>
-
-<div class="row searchable" id="shippingAddress.postalCode">
-<div class="cell" data-label="Property">shippingAddress.postalCode</div>
-<div class="cell" data-label="Column">shpPostalCode</div>
-<div class="cell" data-label="Arabic">الكود البريدي</div>
-<div class="cell" data-label="English">Postal Code</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="shippingAddress.region">
-<div class="cell" data-label="Property">shippingAddress.region</div>
-<div class="cell" data-label="Column">shpRegion_id</div>
-<div class="cell" data-label="Arabic">منطقة جغرافيه</div>
-<div class="cell" data-label="English">Region</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [AddressRegion](/modules/basic/AddressRegion.md) 
-</div>
-</div>
-
-<div class="row searchable" id="shippingAddress.state">
-<div class="cell" data-label="Property">shippingAddress.state</div>
-<div class="cell" data-label="Column">shpState</div>
-<div class="cell" data-label="Arabic">المحافظة</div>
-<div class="cell" data-label="English">State</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="shippingAddress.street">
-<div class="cell" data-label="Property">shippingAddress.street</div>
-<div class="cell" data-label="Column">shpStreet</div>
-<div class="cell" data-label="Arabic"> شارع</div>
-<div class="cell" data-label="English"> Street</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
 <div class="row searchable" id="shippingOrderId">
 <div class="cell" data-label="Property">shippingOrderId</div>
 <div class="cell" data-label="Column">shippingOrderId</div>
@@ -1275,6 +1071,15 @@
 
 </div>
 
+<div class="row searchable" id="status">
+<div class="cell" data-label="Property">status</div>
+<div class="cell" data-label="Column">status</div>
+<div class="cell" data-label="Arabic">الحالة</div>
+<div class="cell" data-label="English">Status</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="subsidiary">
 <div class="cell" data-label="Property">subsidiary</div>
 <div class="cell gen-ref-column" data-label="Column">subsidiaryActualCode,  subsidiaryCode,  subsidiaryEntityType,  subsidiaryId</div>
@@ -1282,30 +1087,6 @@
 <div class="cell" data-label="English">Subsidiary</div>
 <div class="cell" data-label="Type">Genericreference</div>
 
-</div>
-
-<div class="row searchable" id="supplier">
-<div class="cell" data-label="Property">supplier</div>
-<div class="cell" data-label="Column">supplier_id</div>
-<div class="cell" data-label="Arabic">مورد</div>
-<div class="cell" data-label="English"> Supplier</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Supplier](/modules/basic/Supplier.md) 
-</div>
-</div>
-
-<div class="row searchable" id="technician">
-<div class="cell" data-label="Property">technician</div>
-<div class="cell" data-label="Column">technician_id</div>
-<div class="cell" data-label="Arabic">الفني</div>
-<div class="cell" data-label="English">Technician</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Employee](/modules/basic/Employee.md) 
-</div>
 </div>
 
 <div class="row searchable" id="term">
@@ -1326,6 +1107,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="toDate">
+<div class="cell" data-label="Property">toDate</div>
+<div class="cell" data-label="Column">toDate</div>
+<div class="cell" data-label="Arabic">إلى تاريخ</div>
+<div class="cell" data-label="English">To Date</div>
+<div class="cell" data-label="Type">Date</div>
 
 </div>
 
@@ -1468,7 +1258,7 @@
 
 <div class='tableName'>
 
-**Table Name:** StockIssueLine, **Join Column:** stockIssue_id
+**Table Name:** ManufacturingStockTakingLine, **Join Column:** manufacturingStockTaking_id
 
 </div>
 
@@ -1486,6 +1276,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="details.actualQty">
+<div class="cell" data-label="Property">details.actualQty</div>
+<div class="cell" data-label="Column">actualQty</div>
+<div class="cell" data-label="Arabic">الفعلي</div>
+<div class="cell" data-label="English">Actual Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 
@@ -1597,18 +1396,6 @@
 
 </div>
 
-<div class="row searchable" id="details.driver">
-<div class="cell" data-label="Property">details.driver</div>
-<div class="cell" data-label="Column">driver_id</div>
-<div class="cell" data-label="Arabic">السائق</div>
-<div class="cell" data-label="English">Driver</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Employee](/modules/basic/Employee.md) 
-</div>
-</div>
-
 <div class="row searchable" id="details.emptyWeight">
 <div class="cell" data-label="Property">details.emptyWeight</div>
 <div class="cell" data-label="Column">emptyWeight</div>
@@ -1711,6 +1498,15 @@
 <div class="cell" data-label="Arabic">الفاتورة</div>
 <div class="cell" data-label="English">Invoice</div>
 <div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.issuedQty">
+<div class="cell" data-label="Property">details.issuedQty</div>
+<div class="cell" data-label="Column">issuedQty</div>
+<div class="cell" data-label="Arabic">منصرف</div>
+<div class="cell" data-label="English">Issued Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 
@@ -1834,6 +1630,18 @@
 
 </div>
 
+<div class="row searchable" id="details.purchasesMan">
+<div class="cell" data-label="Property">details.purchasesMan</div>
+<div class="cell" data-label="Column">purchasesMan_id</div>
+<div class="cell" data-label="Arabic">مندوب المشتريات</div>
+<div class="cell" data-label="English">Purchases man</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Employee](/modules/basic/Employee.md) 
+</div>
+</div>
+
 <div class="row searchable" id="details.qtyAtInsert">
 <div class="cell" data-label="Property">details.qtyAtInsert</div>
 <div class="cell" data-label="Column">qtyAtInsert</div>
@@ -1848,6 +1656,15 @@
 <div class="cell" data-label="Column">qtyAtInsertWithReserv</div>
 <div class="cell" data-label="Arabic">الكمية عند الإنشاء مع الحجز</div>
 <div class="cell" data-label="English">Qty At Insert With Reserv</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.qtyDiff">
+<div class="cell" data-label="Property">details.qtyDiff</div>
+<div class="cell" data-label="Column">qtyDiff</div>
+<div class="cell" data-label="Arabic">فرق الكمية</div>
+<div class="cell" data-label="English">Quantity Difference</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
@@ -2062,15 +1879,6 @@
 
 </div>
 
-<div class="row searchable" id="details.retFromStockLineId">
-<div class="cell" data-label="Property">details.retFromStockLineId</div>
-<div class="cell" data-label="Column">retFromStockLineId</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
-
-</div>
-
 <div class="row searchable" id="details.retestDate">
 <div class="cell" data-label="Property">details.retestDate</div>
 <div class="cell" data-label="Column">retestDate</div>
@@ -2086,15 +1894,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="details.returnDetails">
-<div class="cell" data-label="Property">details.returnDetails</div>
-<div class="cell" data-label="Column">returnDetails</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -2114,18 +1913,6 @@
 <div class="cell" data-label="English">Revision Name</div>
 <div class="cell" data-label="Type">Text</div>
 
-</div>
-
-<div class="row searchable" id="details.salesMan">
-<div class="cell" data-label="Property">details.salesMan</div>
-<div class="cell" data-label="Column">salesMan_id</div>
-<div class="cell" data-label="Arabic">مندوب المبيعات</div>
-<div class="cell" data-label="English">Salesman</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Employee](/modules/basic/Employee.md) 
-</div>
 </div>
 
 <div class="row searchable" id="details.satisfiedQty">
@@ -2308,6 +2095,15 @@
 
 </div>
 
+<div class="row searchable" id="details.systemQty">
+<div class="cell" data-label="Property">details.systemQty</div>
+<div class="cell" data-label="Column">systemQty</div>
+<div class="cell" data-label="Arabic">كمية المخزن</div>
+<div class="cell" data-label="English">System Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="details.text1">
 <div class="cell" data-label="Property">details.text1</div>
 <div class="cell" data-label="Column">text1</div>
@@ -2422,6 +2218,67 @@
 <div class="cell" data-label="Arabic">كود الضمان</div>
 <div class="cell" data-label="English">Warranty Code</div>
 <div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='productionOrders' title='productionOrders' class='searchable'>
+
+## productionOrders (أوامر الإنتاج - Production Orders)
+
+<div class='tableName'>
+
+**Table Name:** ManufacturingStockTakingProdOrderLine, **Join Column:** manufacturingStockTaking_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="productionOrders.id">
+<div class="cell" data-label="Property">productionOrders.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="productionOrders.lineNumber">
+<div class="cell" data-label="Property">productionOrders.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="productionOrders.productionOrder">
+<div class="cell" data-label="Property">productionOrders.productionOrder</div>
+<div class="cell" data-label="Column">productionOrder_id</div>
+<div class="cell" data-label="Arabic"> أمر إنتاج</div>
+<div class="cell" data-label="English"> Production Order</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ProductionOrder](/modules/manufacturing/ProductionOrder.md) 
+</div>
+</div>
+
+<div class="row searchable" id="productionOrders.valueDate">
+<div class="cell" data-label="Property">productionOrders.valueDate</div>
+<div class="cell" data-label="Column">valueDate</div>
+<div class="cell" data-label="Arabic">التاريخ الفعلي</div>
+<div class="cell" data-label="English">Value Date</div>
+<div class="cell" data-label="Type">Date</div>
 
 </div>
 

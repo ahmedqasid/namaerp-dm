@@ -2361,6 +2361,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="termAnalysisCard">
+<div class="cell" data-label="Property">termAnalysisCard</div>
+<div class="cell" data-label="Column">termAnalysisCard_id</div>
+<div class="cell" data-label="Arabic">كارت التحليل</div>
+<div class="cell" data-label="English">Term Analysis Card</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [TermAnalysisCard](/modules/contracting/TermAnalysisCard.md) 
+</div>
+</div>
+
 <div class="row searchable" id="termConfigXml">
 <div class="cell" data-label="Property">termConfigXml</div>
 <div class="cell" data-label="Column">termConfigXml</div>

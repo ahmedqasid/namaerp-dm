@@ -1032,6 +1032,135 @@
 
 </div>
 
+<div class="row searchable" id="installmentInfo.bankResponseDate">
+<div class="cell" data-label="Property">installmentInfo.bankResponseDate</div>
+<div class="cell" data-label="Column">instllmntInfBankResponseDate</div>
+<div class="cell" data-label="Arabic">تاريخ جواب البنك</div>
+<div class="cell" data-label="English">Bank Response Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="installmentInfo.bankResponseReceived">
+<div class="cell" data-label="Property">installmentInfo.bankResponseReceived</div>
+<div class="cell" data-label="Column">instllmntInfBnkRspnsReceived</div>
+<div class="cell" data-label="Arabic">وصول جواب البنك</div>
+<div class="cell" data-label="English">Bank Response Received</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="installmentInfo.blockCarSale">
+<div class="cell" data-label="Property">installmentInfo.blockCarSale</div>
+<div class="cell" data-label="Column">installmentInfoBlockCarSale</div>
+<div class="cell" data-label="Arabic">حظر بيع السيارة</div>
+<div class="cell" data-label="English">Block Car Sale</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="installmentInfo.downPayment">
+<div class="cell" data-label="Property">installmentInfo.downPayment</div>
+<div class="cell" data-label="Column">installmentInfoDownPayment</div>
+<div class="cell" data-label="Arabic">الدفعة المقدمة</div>
+<div class="cell" data-label="English">Down Payment</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="installmentInfo.financeCompany">
+<div class="cell" data-label="Property">installmentInfo.financeCompany</div>
+<div class="cell" data-label="Column">instllmntInfFnanceCompany_id</div>
+<div class="cell" data-label="Arabic">شركة التقسيط</div>
+<div class="cell" data-label="English">Finance Company</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [FinanceCompany](/modules/srvcenter-insurance-and-installments/FinanceCompany.md) 
+</div>
+</div>
+
+<div class="row searchable" id="installmentInfo.financingBank">
+<div class="cell" data-label="Property">installmentInfo.financingBank</div>
+<div class="cell" data-label="Column">instllmntInfFinancingBank_id</div>
+<div class="cell" data-label="Arabic">بنك التقسيط</div>
+<div class="cell" data-label="English">Financing Bank</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Bank](/modules/accounting-banks/Bank.md) 
+</div>
+</div>
+
+<div class="row searchable" id="installmentInfo.installmentParty">
+<div class="cell" data-label="Property">installmentInfo.installmentParty</div>
+<div class="cell" data-label="Column">instllmntInfInstallmentParty</div>
+<div class="cell" data-label="Arabic">جهة التقسيط</div>
+<div class="cell" data-label="English">Installment Party</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="installmentInfo.installmentType">
+<div class="cell" data-label="Property">installmentInfo.installmentType</div>
+<div class="cell" data-label="Column">instllmntInfInstllmntType_id</div>
+<div class="cell" data-label="Arabic">نوع القسط</div>
+<div class="cell" data-label="English">Installment type</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [SIInstallmentType](/modules/srvcenter-insurance-and-installments/SIInstallmentType.md) 
+</div>
+</div>
+
+<div class="row searchable" id="installmentInfo.insuranceCompany">
+<div class="cell" data-label="Property">installmentInfo.insuranceCompany</div>
+<div class="cell" data-label="Column">instllmntInfInsurncCmpany_id</div>
+<div class="cell" data-label="Arabic">شركة التأمين</div>
+<div class="cell" data-label="English">Insurance Company</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InsuranceCompany](/modules/srvcenter-subitems/InsuranceCompany.md) 
+</div>
+</div>
+
+<div class="row searchable" id="installmentInfo.insuredName">
+<div class="cell" data-label="Property">installmentInfo.insuredName</div>
+<div class="cell" data-label="Column">installmentInfoInsuredName</div>
+<div class="cell" data-label="Arabic">اسم المؤمن له</div>
+<div class="cell" data-label="English">Insured Name</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="installmentInfo.loanAmount">
+<div class="cell" data-label="Property">installmentInfo.loanAmount</div>
+<div class="cell" data-label="Column">installmentInfoLoanAmount</div>
+<div class="cell" data-label="Arabic">قيمة السلفة</div>
+<div class="cell" data-label="English">Loan Amount</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="installmentInfo.paymentMethod">
+<div class="cell" data-label="Property">installmentInfo.paymentMethod</div>
+<div class="cell" data-label="Column">installmentInfoPaymentMethod</div>
+<div class="cell" data-label="Arabic">طريقة الدفع</div>
+<div class="cell" data-label="English"> Payment Method</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="installmentInfo.reservationValue">
+<div class="cell" data-label="Property">installmentInfo.reservationValue</div>
+<div class="cell" data-label="Column">instllmntInfReservationValue</div>
+<div class="cell" data-label="Arabic">قيمة الحجز</div>
+<div class="cell" data-label="English">Reservation Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="invTransReqId">
 <div class="cell" data-label="Property">invTransReqId</div>
 <div class="cell" data-label="Column">invTransReqId</div>

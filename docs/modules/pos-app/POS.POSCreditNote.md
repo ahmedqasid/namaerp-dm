@@ -352,6 +352,15 @@
 
 </div>
 
+<div class="row searchable" id="details.invoiceType">
+<div class="cell" data-label="Property">details.invoiceType</div>
+<div class="cell" data-label="Column">invoiceType</div>
+<div class="cell" data-label="Arabic">نوع الفاتورة</div>
+<div class="cell" data-label="English">Invoice Type</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="details.lineNumber">
 <div class="cell" data-label="Property">details.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>

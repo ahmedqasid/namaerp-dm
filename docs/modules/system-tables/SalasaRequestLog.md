@@ -23,7 +23,7 @@
 </div><div class="row searchable" id="changeDeliveryStatusFrom">
 <div class="cell" data-label="Property">changeDeliveryStatusFrom</div>
 <div class="cell" data-label="Column">changeDeliveryStatusFrom</div>
-<div class="cell" data-label="Arabic">تغيير حالة الشحن من</div>
+<div class="cell" data-label="Arabic">تغيير حالة التوصيل من</div>
 <div class="cell" data-label="English">Change Delivery Status From</div>
 <div class="cell" data-label="Type">Text</div>
 
@@ -41,7 +41,7 @@
 <div class="row searchable" id="changeShippingCompanyFrom">
 <div class="cell" data-label="Property">changeShippingCompanyFrom</div>
 <div class="cell" data-label="Column">changeShippingCompanyFrom</div>
-<div class="cell" data-label="Arabic">تغيير شركة الشحن من</div>
+<div class="cell" data-label="Arabic">تغيير شركة التوصيل من</div>
 <div class="cell" data-label="English">Change Shipping Company From</div>
 <div class="cell" data-label="Type">Text</div>
 
@@ -50,7 +50,7 @@
 <div class="row searchable" id="changeShippingCompanyTo">
 <div class="cell" data-label="Property">changeShippingCompanyTo</div>
 <div class="cell" data-label="Column">changeShippingCompanyTo</div>
-<div class="cell" data-label="Arabic">تغيير شركة الشحن إلى</div>
+<div class="cell" data-label="Arabic">تغيير شركة التوصيل إلى</div>
 <div class="cell" data-label="English">Change Shipping Company To</div>
 <div class="cell" data-label="Type">Text</div>
 

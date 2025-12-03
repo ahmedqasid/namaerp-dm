@@ -1515,6 +1515,15 @@
 
 </div>
 
+<div class="row searchable" id="inputs.listParam">
+<div class="cell" data-label="Property">inputs.listParam</div>
+<div class="cell" data-label="Column">listParam</div>
+<div class="cell" data-label="Arabic">List (multi-selection)</div>
+<div class="cell" data-label="English">List (multi-selection)</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="inputs.paramId">
 <div class="cell" data-label="Property">inputs.paramId</div>
 <div class="cell" data-label="Column">paramId</div>

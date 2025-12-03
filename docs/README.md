@@ -83,6 +83,7 @@ heroImage: hero.svg
     - [Real Estate - Rent](/modules/realestate-rent/)
     - [Real Estate - Sales](/modules/realestate-sales/)
     - [Service Center](/modules/srvcenter/)
+    - [srvcenter-insurance-and-installments](/modules/srvcenter-insurance-and-installments/)
     - [Mobile Delivery](/modules/srvcenter-mobile-delivery/)
     - [Service Center - Rental Assets](/modules/srvcenter-rental-assets/)
     - [Service Center - Service Queues](/modules/srvcenter-service-queues/)

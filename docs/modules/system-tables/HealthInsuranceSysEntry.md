@@ -164,8 +164,8 @@
 <div class="row searchable" id="policyValue">
 <div class="cell" data-label="Property">policyValue</div>
 <div class="cell" data-label="Column">policyValue</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">قيمة الوثيقة</div>
+<div class="cell" data-label="English">Policy Value</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
