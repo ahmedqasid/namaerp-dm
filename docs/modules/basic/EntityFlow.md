@@ -690,6 +690,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="maxRetryCount">
+<div class="cell" data-label="Property">maxRetryCount</div>
+<div class="cell" data-label="Column">maxRetryCount</div>
+<div class="cell" data-label="Arabic">Max Retry Count</div>
+<div class="cell" data-label="English">Max Retry Count</div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
 <div class="row searchable" id="n1">
 <div class="cell" data-label="Property">n1</div>
 <div class="cell" data-label="Column">n1</div>
@@ -858,6 +867,15 @@
 <div class="cell" data-label="Arabic">يتطلب الحفظ مع التنفيذ يدويا</div>
 <div class="cell" data-label="English">Requires Commit On Manual</div>
 <div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="retryEverySeconds">
+<div class="cell" data-label="Property">retryEverySeconds</div>
+<div class="cell" data-label="Column">retryEverySeconds</div>
+<div class="cell" data-label="Arabic">Retry Every Seconds</div>
+<div class="cell" data-label="English">Retry Every Seconds</div>
+<div class="cell" data-label="Type">Integer</div>
 
 </div>
 

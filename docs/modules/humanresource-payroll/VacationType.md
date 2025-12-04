@@ -900,6 +900,15 @@
 
 </div>
 
+<div class="row searchable" id="moveReturnDateToFirstWorkday">
+<div class="cell" data-label="Property">moveReturnDateToFirstWorkday</div>
+<div class="cell" data-label="Column">moveReturnDateToFirstWorkday</div>
+<div class="cell" data-label="Arabic">نقل تاريخ العودة إلى أول يوم عمل</div>
+<div class="cell" data-label="English">Move Return Date To First Work day</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="mustAddedToContract">
 <div class="cell" data-label="Property">mustAddedToContract</div>
 <div class="cell" data-label="Column">mustAddedToContract</div>

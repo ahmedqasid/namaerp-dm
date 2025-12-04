@@ -104,6 +104,15 @@
 
 </div>
 
+<div class="row searchable" id="processAfter">
+<div class="cell" data-label="Property">processAfter</div>
+<div class="cell" data-label="Column">processAfter</div>
+<div class="cell" data-label="Arabic">Process After</div>
+<div class="cell" data-label="English">Process After</div>
+<div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
 <div class="row searchable" id="ref1">
 <div class="cell" data-label="Property">ref1</div>
 <div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>

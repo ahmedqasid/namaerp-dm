@@ -36,6 +36,15 @@
 
 </div>
 
+<div class="row searchable" id="allowSimultaneousRuns">
+<div class="cell" data-label="Property">allowSimultaneousRuns</div>
+<div class="cell" data-label="Column">allowSimultaneousRuns</div>
+<div class="cell" data-label="Arabic">Allow Simultaneous Runs</div>
+<div class="cell" data-label="English">Allow Simultaneous Runs</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="analysisSet">
 <div class="cell" data-label="Property">analysisSet</div>
 <div class="cell" data-label="Column">analysisSet_id</div>
