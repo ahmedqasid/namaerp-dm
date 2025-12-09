@@ -43,6 +43,15 @@
 
 </div>
 
+<div class="row searchable" id="approvalEntity">
+<div class="cell" data-label="Property">approvalEntity</div>
+<div class="cell" data-label="Column">approvalEntity</div>
+<div class="cell" data-label="Arabic">نوع الملف/المستند</div>
+<div class="cell" data-label="English">Approval Entity</div>
+<div class="cell" data-label="Type">EntityType</div>
+
+</div>
+
 <div class="row searchable" id="branch">
 <div class="cell" data-label="Property">branch</div>
 <div class="cell" data-label="Column">branch_id</div>
@@ -718,6 +727,51 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="usedWithApproving">
+<div class="cell" data-label="Property">usedWithApproving</div>
+<div class="cell" data-label="Column">usedWithApproving</div>
+<div class="cell" data-label="Arabic">تستخدم مع الموافقة</div>
+<div class="cell" data-label="English">Used With Approving</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="usedWithEscalationToSupervisor">
+<div class="cell" data-label="Property">usedWithEscalationToSupervisor</div>
+<div class="cell" data-label="Column">usedWithEscalationToSupervisor</div>
+<div class="cell" data-label="Arabic">تستخدم مع التصعيد إلى المدير المباشر</div>
+<div class="cell" data-label="English">Used With Escalation To Supervisor</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="usedWithRejecting">
+<div class="cell" data-label="Property">usedWithRejecting</div>
+<div class="cell" data-label="Column">usedWithRejecting</div>
+<div class="cell" data-label="Arabic">تستخدم مع الرفض</div>
+<div class="cell" data-label="English">Used With Rejecting</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="usedWithReturning">
+<div class="cell" data-label="Property">usedWithReturning</div>
+<div class="cell" data-label="Column">usedWithReturning</div>
+<div class="cell" data-label="Arabic">تستخدم مع الإرجاع</div>
+<div class="cell" data-label="English">Used With Returning</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="usedWithReturningToPreviousStep">
+<div class="cell" data-label="Property">usedWithReturningToPreviousStep</div>
+<div class="cell" data-label="Column">usedWithReturningToPreviousStep</div>
+<div class="cell" data-label="Arabic">تستخدم مع الإرجاع للخطوة السابقة</div>
+<div class="cell" data-label="English">Used With Returning To Previous Step</div>
+<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 

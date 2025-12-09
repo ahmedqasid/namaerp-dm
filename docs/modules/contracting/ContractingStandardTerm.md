@@ -1476,6 +1476,15 @@
 
 </div>
 
+<div class="row searchable" id="executedContractQty">
+<div class="cell" data-label="Property">executedContractQty</div>
+<div class="cell" data-label="Column">executedContractQty</div>
+<div class="cell" data-label="Arabic">الكمية المنفذة من البند التعاقدي</div>
+<div class="cell" data-label="English">Executed Contract Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="firstAuthor">
 <div class="cell" data-label="Property">firstAuthor</div>
 <div class="cell" data-label="Column">firstAuthor_id</div>
@@ -2204,6 +2213,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="standardItems.executedContractQty">
+<div class="cell" data-label="Property">standardItems.executedContractQty</div>
+<div class="cell" data-label="Column">executedContractQty</div>
+<div class="cell" data-label="Arabic">الكمية المنفذة من البند التعاقدي</div>
+<div class="cell" data-label="English">Executed Contract Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="standardItems.id">
 <div class="cell" data-label="Property">standardItems.id</div>
 <div class="cell" data-label="Column">id</div>
@@ -2394,6 +2412,18 @@
 <div class="cell" data-label="English">Unit Cost</div>
 <div class="cell" data-label="Type">Decimal</div>
 
+</div>
+
+<div class="row searchable" id="standardItems.uom">
+<div class="cell" data-label="Property">standardItems.uom</div>
+<div class="cell" data-label="Column">uom_id</div>
+<div class="cell" data-label="Arabic">الوحدة</div>
+<div class="cell" data-label="English">Unit</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [UOM](/modules/supplychain/UOM.md) 
+</div>
 </div>
 
 

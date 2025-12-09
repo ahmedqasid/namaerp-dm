@@ -1135,6 +1135,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="lines.limitLinesToSubsidiary">
+<div class="cell" data-label="Property">lines.limitLinesToSubsidiary</div>
+<div class="cell gen-ref-column" data-label="Column">lmtLnsToSubsidiaryActualCode,  limitLinesToSubsidiaryCode,  lmtLnsToSubsidiaryEntityType,  limitLinesToSubsidiaryId</div>
+<div class="cell" data-label="Arabic">قصر البحث علي الذمة</div>
+<div class="cell" data-label="English">Limit Search to Subsidiary</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
 <div class="row searchable" id="lines.lineNumber">
 <div class="cell" data-label="Property">lines.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
@@ -1206,6 +1215,15 @@
 <div class="cell" data-label="Column">spreadOutInLines</div>
 <div class="cell" data-label="Arabic">فرد على سطور بعدد الحسابات</div>
 <div class="cell" data-label="English">Spread Out In Lines For Each Account</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="lines.spreadOutSubsidiariesInLines">
+<div class="cell" data-label="Property">lines.spreadOutSubsidiariesInLines</div>
+<div class="cell" data-label="Column">spreadOutSubsidiariesInLines</div>
+<div class="cell" data-label="Arabic">فرد ذمم حساب الذمة علي سطور بعددها</div>
+<div class="cell" data-label="English">Spread Out Subsidiaries In Lines</div>
 <div class="cell" data-label="Type">Boolean</div>
 
 </div>

@@ -180,6 +180,51 @@
 </div>
 </div>
 
+<div class="row searchable" id="b1">
+<div class="cell" data-label="Property">b1</div>
+<div class="cell" data-label="Column">b1</div>
+<div class="cell" data-label="Arabic">Boolean 1</div>
+<div class="cell" data-label="English">Boolean 1</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="b2">
+<div class="cell" data-label="Property">b2</div>
+<div class="cell" data-label="Column">b2</div>
+<div class="cell" data-label="Arabic">Boolean 2</div>
+<div class="cell" data-label="English">Boolean 2</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="b3">
+<div class="cell" data-label="Property">b3</div>
+<div class="cell" data-label="Column">b3</div>
+<div class="cell" data-label="Arabic">Boolean 3</div>
+<div class="cell" data-label="English">Boolean 3</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="b4">
+<div class="cell" data-label="Property">b4</div>
+<div class="cell" data-label="Column">b4</div>
+<div class="cell" data-label="Arabic">Boolean 4</div>
+<div class="cell" data-label="English">Boolean 4</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="b5">
+<div class="cell" data-label="Property">b5</div>
+<div class="cell" data-label="Column">b5</div>
+<div class="cell" data-label="Arabic">Boolean 5</div>
+<div class="cell" data-label="English">Boolean 5</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="bankAccount">
 <div class="cell" data-label="Property">bankAccount</div>
 <div class="cell" data-label="Column">bankAccount</div>

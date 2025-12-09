@@ -772,6 +772,18 @@
 
 </div>
 
+<div class="row searchable" id="uom">
+<div class="cell" data-label="Property">uom</div>
+<div class="cell" data-label="Column">uom_id</div>
+<div class="cell" data-label="Arabic">الوحدة</div>
+<div class="cell" data-label="English">Unit</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [UOM](/modules/supplychain/UOM.md) 
+</div>
+</div>
+
 <div class="row searchable" id="updateCapability">
 <div class="cell" data-label="Property">updateCapability</div>
 <div class="cell" data-label="Column">updateCapability_id</div>

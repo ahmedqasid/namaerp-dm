@@ -1899,6 +1899,51 @@
 
 </div>
 
+<div class="row searchable" id="steps.reasonRequiredWithApproving">
+<div class="cell" data-label="Property">steps.reasonRequiredWithApproving</div>
+<div class="cell" data-label="Column">reasonRequiredWithApproving</div>
+<div class="cell" data-label="Arabic">يجب إدخال السبب مع الموافقة</div>
+<div class="cell" data-label="English">Reason Required With Approving</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="steps.reasonRequiredWithEscalationToSupervisor">
+<div class="cell" data-label="Property">steps.reasonRequiredWithEscalationToSupervisor</div>
+<div class="cell" data-label="Column">reasonRequiredWithEscalationToSupervisor</div>
+<div class="cell" data-label="Arabic">يجب إدخال السبب مع التصعيد إلى المدير المباشر</div>
+<div class="cell" data-label="English">Reason Required With Escalation To Supervisor</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="steps.reasonRequiredWithRejecting">
+<div class="cell" data-label="Property">steps.reasonRequiredWithRejecting</div>
+<div class="cell" data-label="Column">reasonRequiredWithRejecting</div>
+<div class="cell" data-label="Arabic">يجب إدخال السبب مع الرفض</div>
+<div class="cell" data-label="English">Reason Required With Rejecting</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="steps.reasonRequiredWithReturning">
+<div class="cell" data-label="Property">steps.reasonRequiredWithReturning</div>
+<div class="cell" data-label="Column">reasonRequiredWithReturning</div>
+<div class="cell" data-label="Arabic">يجب إدخال السبب مع الإرجاع</div>
+<div class="cell" data-label="English">Reason Required With Returning</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="steps.reasonRequiredWithReturningToPreviousStep">
+<div class="cell" data-label="Property">steps.reasonRequiredWithReturningToPreviousStep</div>
+<div class="cell" data-label="Column">reasonRequiredWithReturningToPreviousStep</div>
+<div class="cell" data-label="Arabic">يجب إدخال السبب مع الإرجاع للخطوة السابقة</div>
+<div class="cell" data-label="English">Reason Required With Returning To Previous Step</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="steps.requireAllApprovers">
 <div class="cell" data-label="Property">steps.requireAllApprovers</div>
 <div class="cell" data-label="Column">requireAllApprovers</div>

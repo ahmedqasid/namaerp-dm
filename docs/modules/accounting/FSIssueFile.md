@@ -2932,6 +2932,15 @@
 
 </div>
 
+<div class="row searchable" id="lines.subsidiary">
+<div class="cell" data-label="Property">lines.subsidiary</div>
+<div class="cell gen-ref-column" data-label="Column">subsidiaryActualCode,  subsidiaryCode,  subsidiaryEntityType,  subsidiaryId</div>
+<div class="cell" data-label="Arabic">الذمة</div>
+<div class="cell" data-label="English">Subsidiary</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
 <div class="row searchable" id="lines.totalsLine">
 <div class="cell" data-label="Property">lines.totalsLine</div>
 <div class="cell" data-label="Column">totalsLine</div>
