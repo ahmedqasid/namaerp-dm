@@ -144,6 +144,18 @@
 
 </div>
 
+<div class="row searchable" id="currency">
+<div class="cell" data-label="Property">currency</div>
+<div class="cell" data-label="Column">currency_id</div>
+<div class="cell" data-label="Arabic">العملة</div>
+<div class="cell" data-label="English">Currency</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Currency](/modules/basic/Currency.md) 
+</div>
+</div>
+
 <div class="row searchable" id="currentApprovalCase">
 <div class="cell" data-label="Property">currentApprovalCase</div>
 <div class="cell" data-label="Column">currentApprovalCase_id</div>
@@ -396,6 +408,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="enableHyperPayLiveMode">
+<div class="cell" data-label="Property">enableHyperPayLiveMode</div>
+<div class="cell" data-label="Column">enableHyperPayLiveMode</div>
+<div class="cell" data-label="Arabic">Enable HyperPay Live Mode</div>
+<div class="cell" data-label="English">Enable HyperPay Live Mode</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="entitySystemEntryId">
 <div class="cell" data-label="Property">entitySystemEntryId</div>
 <div class="cell" data-label="Column">entitySystemEntry_id</div>
@@ -481,6 +502,33 @@
 
  [MasterGroup](/modules/basic/MasterGroup.md) 
 </div>
+</div>
+
+<div class="row searchable" id="hyperPayAccessToken">
+<div class="cell" data-label="Property">hyperPayAccessToken</div>
+<div class="cell" data-label="Column">hyperPayAccessToken</div>
+<div class="cell" data-label="Arabic">HyperPay Access Token</div>
+<div class="cell" data-label="English">HyperPay Access Token</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="hyperPayApplePayEntityId">
+<div class="cell" data-label="Property">hyperPayApplePayEntityId</div>
+<div class="cell" data-label="Column">hyperPayApplePayEntityId</div>
+<div class="cell" data-label="Arabic">HyperPay Apple Pay Entity ID</div>
+<div class="cell" data-label="English">HyperPay Apple Pay Entity ID</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="hyperPayCardEntityId">
+<div class="cell" data-label="Property">hyperPayCardEntityId</div>
+<div class="cell" data-label="Column">hyperPayCardEntityId</div>
+<div class="cell" data-label="Arabic">HyperPay Card Entity ID (Visa/Master/Mada)</div>
+<div class="cell" data-label="English">HyperPay Card Entity ID (Visa/Master/Mada)</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 <div class="row searchable" id="id">

@@ -36,6 +36,15 @@
 
 </div>
 
+<div class="row searchable" id="amazonMarketplaceId">
+<div class="cell" data-label="Property">amazonMarketplaceId</div>
+<div class="cell" data-label="Column">amazonMarketplaceId</div>
+<div class="cell" data-label="Arabic">معرف السوق في أمازون</div>
+<div class="cell" data-label="English">Amazon Marketplace ID</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="analysisSet">
 <div class="cell" data-label="Property">analysisSet</div>
 <div class="cell" data-label="Column">analysisSet_id</div>

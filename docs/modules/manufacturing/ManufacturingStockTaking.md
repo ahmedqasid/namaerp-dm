@@ -803,7 +803,7 @@
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [ManufacturingStockTaking](/modules/system-tables/ManufacturingStockTaking.md) 
+ [ManufacturingStockTaking](/modules/manufacturing/ManufacturingStockTaking.md) 
 </div>
 </div>
 

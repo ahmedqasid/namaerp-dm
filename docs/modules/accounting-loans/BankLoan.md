@@ -477,6 +477,18 @@
 
 </div>
 
+<div class="row searchable" id="facilityLimit">
+<div class="cell" data-label="Property">facilityLimit</div>
+<div class="cell" data-label="Column">facilityLimit_id</div>
+<div class="cell" data-label="Arabic">حد التسهيلات</div>
+<div class="cell" data-label="English">Facility Limit</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [FacilityLimit](/modules/accounting-financial-commitments-regulation/FacilityLimit.md) 
+</div>
+</div>
+
 <div class="row searchable" id="feesValue">
 <div class="cell" data-label="Property">feesValue</div>
 <div class="cell" data-label="Column">feesValue</div>
@@ -897,6 +909,15 @@
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="projContract">
+<div class="cell" data-label="Property">projContract</div>
+<div class="cell gen-ref-column" data-label="Column">projContractActualCode,  projContractCode,  projContractEntityType,  projContractId</div>
+<div class="cell" data-label="Arabic">عقد المشروع</div>
+<div class="cell" data-label="English">Project Contract</div>
+<div class="cell" data-label="Type">Genericreference</div>
 
 </div>
 

@@ -454,6 +454,18 @@
 
 </div>
 
+<div class="row searchable" id="facilityLimit">
+<div class="cell" data-label="Property">facilityLimit</div>
+<div class="cell" data-label="Column">facilityLimit_id</div>
+<div class="cell" data-label="Arabic">حد التسهيلات</div>
+<div class="cell" data-label="English">Facility Limit</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [FacilityLimit](/modules/accounting-financial-commitments-regulation/FacilityLimit.md) 
+</div>
+</div>
+
 <div class="row searchable" id="firstAuthor">
 <div class="cell" data-label="Property">firstAuthor</div>
 <div class="cell" data-label="Column">firstAuthor_id</div>
