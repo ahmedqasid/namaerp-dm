@@ -2,17 +2,17 @@
 <div class='tableName'>
 
 
-# CouponsSalesOrder
+# CouponsSalesOrderReturn
 </div>
 
-**Arabic:** أمر بيع قسائم - أوامر بيع قسائم
-**English:** Coupons Sales Order - Coupons Sales Orders
+**Arabic:** مردود أمر بيع قسائم - مردودات أوامر بيع قسائم
+**English:** Coupons Sales Order Return - Coupons Sales Order Returns
 
 <ContentFilter/>
 
 
 <div class='searchable'>
-<a href='#details'>details (CouponsSalesOrderLine) </a> , <a href='#externalPaymentLines'>externalPaymentLines (CouponsSalesOrdExternalPaymentLine) </a> , <a href='#packingList'>packingList (CouponsSalesOrderPackingListLine) </a> , <a href='#paymentLines'>paymentLines (CouponsSalesOrderPaymentLine) </a> , <a href='#scheduleLines'>scheduleLines (CouponsSalesOrderScheduledPayLine) </a> , <a href='#termsLines'>termsLines (CouponsSalesOStandardTermsLine) </a>
+<a href='#details'>details (CouponsSalesOrderReturnLine) </a> , <a href='#externalPaymentLines'>externalPaymentLines (CouponsSalesOrderReturnExternalPayLine) </a> , <a href='#paymentLines'>paymentLines (CouponsSalesOrderReturnPaymentLine) </a> , <a href='#scheduleLines'>scheduleLines (CouponsSalesOrderReturnScheduledPayLine) </a> , <a href='#termsLines'>termsLines (CouponsSalesOrderReturnStandardTermsLine) </a>
 </div>
 
 <div class='searchable'>
@@ -486,15 +486,6 @@
 <div class="cell" data-label="Arabic">Consignee Details</div>
 <div class="cell" data-label="English">Consignee Details</div>
 <div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="consumedCouponsQty">
-<div class="cell" data-label="Property">consumedCouponsQty</div>
-<div class="cell" data-label="Column">consumedCouponsQty</div>
-<div class="cell" data-label="Arabic">كمية القسائم المستهلكة</div>
-<div class="cell" data-label="English">Consumed Coupons Qty</div>
-<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 
@@ -2364,15 +2355,6 @@
 
 </div>
 
-<div class="row searchable" id="returnedCouponsQty">
-<div class="cell" data-label="Property">returnedCouponsQty</div>
-<div class="cell" data-label="Column">returnedCouponsQty</div>
-<div class="cell" data-label="Arabic">كمية القسائم المرتجعة</div>
-<div class="cell" data-label="English">Returned Coupons Qty</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
 <div class="row searchable" id="reviseLevel">
 <div class="cell" data-label="Property">reviseLevel</div>
 <div class="cell" data-label="Column">reviseLevel</div>
@@ -2421,18 +2403,6 @@
 <div class="cell" data-label="Foreign Table">
 
  [ReceiptPaper](/modules/basic/ReceiptPaper.md) 
-</div>
-</div>
-
-<div class="row searchable" id="salesCouponsCodingMethod">
-<div class="cell" data-label="Property">salesCouponsCodingMethod</div>
-<div class="cell" data-label="Column">salesCouponsCodingMethod_id</div>
-<div class="cell" data-label="Arabic">طريقة تكويد قسائم البيع</div>
-<div class="cell" data-label="English">Sales Coupons Coding Method</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [SalesCouponsCodingMethod](/modules/supplychain-sales/SalesCouponsCodingMethod.md) 
 </div>
 </div>
 
@@ -2793,15 +2763,6 @@
 
 </div>
 
-<div class="row searchable" id="totalCouponsQty">
-<div class="cell" data-label="Property">totalCouponsQty</div>
-<div class="cell" data-label="Column">totalCouponsQty</div>
-<div class="cell" data-label="Arabic">إجمالي كمية القسائم</div>
-<div class="cell" data-label="English">Total Coupons Qty</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
 <div class="row searchable" id="totalQties">
 <div class="cell" data-label="Property">totalQties</div>
 <div class="cell" data-label="Column">totalQties</div>
@@ -2968,7 +2929,7 @@
 
 <div class='tableName'>
 
-**Table Name:** CouponsSalesOrderLine, **Join Column:** couponsSalesOrder_id
+**Table Name:** CouponsSalesOrderReturnLine, **Join Column:** couponsSalesOrderReturn_id
 
 </div>
 
@@ -4943,7 +4904,7 @@
 
 <div class='tableName'>
 
-**Table Name:** CouponsSalesOrdExternalPaymentLine, **Join Column:** couponsSalesOrder_id
+**Table Name:** CouponsSalesOrderReturnExternalPayLine, **Join Column:** couponsSalesOrderReturn_id
 
 </div>
 
@@ -5094,380 +5055,13 @@
 </div>
 </div>
 
-<div id='packingList' title='packingList' class='searchable'>
-
-## packingList (قائمة التعبئة - Packing List)
-
-<div class='tableName'>
-
-**Table Name:** CouponsSalesOrderPackingListLine, **Join Column:** couponsSalesOrder_id
-
-</div>
-
-<div class="nama-table">
-<div class="row header-row">
-<div class="cell">Property</div>
-<div class="cell">Column</div>
-<div class="cell">Arabic</div>
-<div class="cell">English</div>
-<div class="cell">Type</div>
-<div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="packingList.date1">
-<div class="cell" data-label="Property">packingList.date1</div>
-<div class="cell" data-label="Column">date1</div>
-<div class="cell" data-label="Arabic">تـــاريخ 1</div>
-<div class="cell" data-label="English">Date 1</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
-<div class="row searchable" id="packingList.date2">
-<div class="cell" data-label="Property">packingList.date2</div>
-<div class="cell" data-label="Column">date2</div>
-<div class="cell" data-label="Arabic">تـــاريخ 2</div>
-<div class="cell" data-label="English">Date 2</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
-<div class="row searchable" id="packingList.date3">
-<div class="cell" data-label="Property">packingList.date3</div>
-<div class="cell" data-label="Column">date3</div>
-<div class="cell" data-label="Arabic">تاريخ 3</div>
-<div class="cell" data-label="English">Date3</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
-<div class="row searchable" id="packingList.date4">
-<div class="cell" data-label="Property">packingList.date4</div>
-<div class="cell" data-label="Column">date4</div>
-<div class="cell" data-label="Arabic">تاريخ 4</div>
-<div class="cell" data-label="English">Date4</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
-<div class="row searchable" id="packingList.date5">
-<div class="cell" data-label="Property">packingList.date5</div>
-<div class="cell" data-label="Column">date5</div>
-<div class="cell" data-label="Arabic">تاريخ 5</div>
-<div class="cell" data-label="English">Date5</div>
-<div class="cell" data-label="Type">Date</div>
-
-</div>
-
-<div class="row searchable" id="packingList.id">
-<div class="cell" data-label="Property">packingList.id</div>
-<div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="packingList.item">
-<div class="cell" data-label="Property">packingList.item</div>
-<div class="cell" data-label="Column">item_id</div>
-<div class="cell" data-label="Arabic">الصنف</div>
-<div class="cell" data-label="English">Item</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [InvItem](/modules/supplychain/InvItem.md) 
-</div>
-</div>
-
-<div class="row searchable" id="packingList.lineNumber">
-<div class="cell" data-label="Property">packingList.lineNumber</div>
-<div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="packingList.n1">
-<div class="cell" data-label="Property">packingList.n1</div>
-<div class="cell" data-label="Column">n1</div>
-<div class="cell" data-label="Arabic">رقم 1</div>
-<div class="cell" data-label="English">Number 1</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="packingList.n2">
-<div class="cell" data-label="Property">packingList.n2</div>
-<div class="cell" data-label="Column">n2</div>
-<div class="cell" data-label="Arabic">رقم 2</div>
-<div class="cell" data-label="English">Number 2</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="packingList.n3">
-<div class="cell" data-label="Property">packingList.n3</div>
-<div class="cell" data-label="Column">n3</div>
-<div class="cell" data-label="Arabic">رقم 3</div>
-<div class="cell" data-label="English">Number 3</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="packingList.n4">
-<div class="cell" data-label="Property">packingList.n4</div>
-<div class="cell" data-label="Column">n4</div>
-<div class="cell" data-label="Arabic">رقم 4</div>
-<div class="cell" data-label="English">Number 4</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="packingList.n5">
-<div class="cell" data-label="Property">packingList.n5</div>
-<div class="cell" data-label="Column">n5</div>
-<div class="cell" data-label="Arabic">رقم 5</div>
-<div class="cell" data-label="English">Number 5</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
-<div class="row searchable" id="packingList.palletsCount">
-<div class="cell" data-label="Property">packingList.palletsCount</div>
-<div class="cell" data-label="Column">palletsCount</div>
-<div class="cell" data-label="Arabic">عدد البالتات</div>
-<div class="cell" data-label="English">Pallets Count</div>
-<div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="packingList.ref1">
-<div class="cell" data-label="Property">packingList.ref1</div>
-<div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
-<div class="cell" data-label="Arabic">مرجع 1</div>
-<div class="cell" data-label="English">Reference 1</div>
-<div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
-<div class="row searchable" id="packingList.ref2">
-<div class="cell" data-label="Property">packingList.ref2</div>
-<div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
-<div class="cell" data-label="Arabic">مرجع 2</div>
-<div class="cell" data-label="English">Reference 2</div>
-<div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
-<div class="row searchable" id="packingList.ref3">
-<div class="cell" data-label="Property">packingList.ref3</div>
-<div class="cell gen-ref-column" data-label="Column">ref3ActualCode,  ref3Code,  ref3EntityType,  ref3Id</div>
-<div class="cell" data-label="Arabic">مرجع 3</div>
-<div class="cell" data-label="English">Reference 3</div>
-<div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
-<div class="row searchable" id="packingList.ref4">
-<div class="cell" data-label="Property">packingList.ref4</div>
-<div class="cell gen-ref-column" data-label="Column">ref4ActualCode,  ref4Code,  ref4EntityType,  ref4Id</div>
-<div class="cell" data-label="Arabic">مرجع 4</div>
-<div class="cell" data-label="English">Reference 4</div>
-<div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
-<div class="row searchable" id="packingList.ref5">
-<div class="cell" data-label="Property">packingList.ref5</div>
-<div class="cell gen-ref-column" data-label="Column">ref5ActualCode,  ref5Code,  ref5EntityType,  ref5Id</div>
-<div class="cell" data-label="Arabic">مرجع 5</div>
-<div class="cell" data-label="English">Reference 5</div>
-<div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
-<div class="row searchable" id="packingList.specificDimensions.activePerc">
-<div class="cell" data-label="Property">packingList.specificDimensions.activePerc</div>
-<div class="cell" data-label="Column">activePerc</div>
-<div class="cell" data-label="Arabic">النسبة الفعالة</div>
-<div class="cell" data-label="English">Active Percentage</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="packingList.specificDimensions.box">
-<div class="cell" data-label="Property">packingList.specificDimensions.box</div>
-<div class="cell" data-label="Column">box</div>
-<div class="cell" data-label="Arabic">صندوق</div>
-<div class="cell" data-label="English">Box</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="packingList.specificDimensions.color">
-<div class="cell" data-label="Property">packingList.specificDimensions.color</div>
-<div class="cell" data-label="Column">color</div>
-<div class="cell" data-label="Arabic">اللون</div>
-<div class="cell" data-label="English">Color</div>
-<div class="cell" data-label="Type">Color</div>
-
-</div>
-
-<div class="row searchable" id="packingList.specificDimensions.inactivePerc">
-<div class="cell" data-label="Property">packingList.specificDimensions.inactivePerc</div>
-<div class="cell" data-label="Column">inactivePerc</div>
-<div class="cell" data-label="Arabic">النسبة الغير فعالة</div>
-<div class="cell" data-label="English">Inactive Percentage</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="packingList.specificDimensions.locator">
-<div class="cell" data-label="Property">packingList.specificDimensions.locator</div>
-<div class="cell" data-label="Column">locator_id</div>
-<div class="cell" data-label="Arabic">الموقع</div>
-<div class="cell" data-label="English">Locator</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Locator](/modules/supplychain/Locator.md) 
-</div>
-</div>
-
-<div class="row searchable" id="packingList.specificDimensions.lotId">
-<div class="cell" data-label="Property">packingList.specificDimensions.lotId</div>
-<div class="cell" data-label="Column">lotId</div>
-<div class="cell" data-label="Arabic">رقم الشحنه</div>
-<div class="cell" data-label="English">Lot ID</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="packingList.specificDimensions.measures">
-<div class="cell" data-label="Property">packingList.specificDimensions.measures</div>
-<div class="cell" data-label="Column">measures</div>
-<div class="cell" data-label="Arabic">الأبعاد</div>
-<div class="cell" data-label="English">Measures</div>
-<div class="cell" data-label="Type">Measures</div>
-
-</div>
-
-<div class="row searchable" id="packingList.specificDimensions.revisionId">
-<div class="cell" data-label="Property">packingList.specificDimensions.revisionId</div>
-<div class="cell" data-label="Column">revisionId</div>
-<div class="cell" data-label="Arabic">الإصدار</div>
-<div class="cell" data-label="English">Revision ID</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="packingList.specificDimensions.secondSerial">
-<div class="cell" data-label="Property">packingList.specificDimensions.secondSerial</div>
-<div class="cell" data-label="Column">secondSerial</div>
-<div class="cell" data-label="Arabic">الرقم المسلسل الثاني</div>
-<div class="cell" data-label="English">Second Serial</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="packingList.specificDimensions.serialNumber">
-<div class="cell" data-label="Property">packingList.specificDimensions.serialNumber</div>
-<div class="cell" data-label="Column">serialNumber</div>
-<div class="cell" data-label="Arabic">الرقم المسلسل</div>
-<div class="cell" data-label="English">Serial number</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="packingList.specificDimensions.size">
-<div class="cell" data-label="Property">packingList.specificDimensions.size</div>
-<div class="cell" data-label="Column">size</div>
-<div class="cell" data-label="Arabic">المقاس</div>
-<div class="cell" data-label="English">Size</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="packingList.specificDimensions.subItem">
-<div class="cell" data-label="Property">packingList.specificDimensions.subItem</div>
-<div class="cell" data-label="Column">subItem_id</div>
-<div class="cell" data-label="Arabic"> السياره</div>
-<div class="cell" data-label="English"> Customer Car</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [SubItem](/modules/srvcenter-subitems/SubItem.md) 
-</div>
-</div>
-
-<div class="row searchable" id="packingList.specificDimensions.warehouse">
-<div class="cell" data-label="Property">packingList.specificDimensions.warehouse</div>
-<div class="cell" data-label="Column">warehouse_id</div>
-<div class="cell" data-label="Arabic">المخزن</div>
-<div class="cell" data-label="English">Warehouse</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [Warehouse](/modules/supplychain/Warehouse.md) 
-</div>
-</div>
-
-<div class="row searchable" id="packingList.text1">
-<div class="cell" data-label="Property">packingList.text1</div>
-<div class="cell" data-label="Column">text1</div>
-<div class="cell" data-label="Arabic">نــــص 1</div>
-<div class="cell" data-label="English">Text 1</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="packingList.text2">
-<div class="cell" data-label="Property">packingList.text2</div>
-<div class="cell" data-label="Column">text2</div>
-<div class="cell" data-label="Arabic">نـــــص 2</div>
-<div class="cell" data-label="English">Text 2</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="packingList.text3">
-<div class="cell" data-label="Property">packingList.text3</div>
-<div class="cell" data-label="Column">text3</div>
-<div class="cell" data-label="Arabic">نص 3</div>
-<div class="cell" data-label="English">text3</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="packingList.text4">
-<div class="cell" data-label="Property">packingList.text4</div>
-<div class="cell" data-label="Column">text4</div>
-<div class="cell" data-label="Arabic">نص 4</div>
-<div class="cell" data-label="English">text4</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="packingList.text5">
-<div class="cell" data-label="Property">packingList.text5</div>
-<div class="cell" data-label="Column">text5</div>
-<div class="cell" data-label="Arabic">نص 5</div>
-<div class="cell" data-label="English">text5</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-
-</div>
-</div>
-
 <div id='paymentLines' title='paymentLines' class='searchable'>
 
 ## paymentLines (الســداد - Payment Lines)
 
 <div class='tableName'>
 
-**Table Name:** CouponsSalesOrderPaymentLine, **Join Column:** couponsSalesOrder_id
+**Table Name:** CouponsSalesOrderReturnPaymentLine, **Join Column:** couponsSalesOrderReturn_id
 
 </div>
 
@@ -5810,7 +5404,7 @@
 
 <div class='tableName'>
 
-**Table Name:** CouponsSalesOrderScheduledPayLine, **Join Column:** couponsSalesOrder_id
+**Table Name:** CouponsSalesOrderReturnScheduledPayLine, **Join Column:** couponsSalesOrderReturn_id
 
 </div>
 
@@ -6081,7 +5675,7 @@
 
 <div class='tableName'>
 
-**Table Name:** CouponsSalesOStandardTermsLine, **Join Column:** couponsSalesOrder_id
+**Table Name:** CouponsSalesOrderReturnStandardTermsLine, **Join Column:** couponsSalesOrderReturn_id
 
 </div>
 

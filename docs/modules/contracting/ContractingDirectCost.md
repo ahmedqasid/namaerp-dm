@@ -724,6 +724,18 @@
 
 </div>
 
+<div class="row searchable" id="standardItemUom">
+<div class="cell" data-label="Property">standardItemUom</div>
+<div class="cell" data-label="Column">standardItemUom_id</div>
+<div class="cell" data-label="Arabic">وحدة بند التكلفة</div>
+<div class="cell" data-label="English">Standard Item Uom</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [UOM](/modules/supplychain/UOM.md) 
+</div>
+</div>
+
 <div class="row searchable" id="subsidiary">
 <div class="cell" data-label="Property">subsidiary</div>
 <div class="cell gen-ref-column" data-label="Column">subsidiaryActualCode,  subsidiaryCode,  subsidiaryEntityType,  subsidiaryId</div>

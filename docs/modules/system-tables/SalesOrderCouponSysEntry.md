@@ -98,6 +98,24 @@
 
 </div>
 
+<div class="row searchable" id="returned">
+<div class="cell" data-label="Property">returned</div>
+<div class="cell" data-label="Column">returned</div>
+<div class="cell" data-label="Arabic">مرتجعة</div>
+<div class="cell" data-label="English">Returned</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="sold">
+<div class="cell" data-label="Property">sold</div>
+<div class="cell" data-label="Column">sold</div>
+<div class="cell" data-label="Arabic">تم بيعها</div>
+<div class="cell" data-label="English">Is sold</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="sourceLienId">
 <div class="cell" data-label="Property">sourceLienId</div>
 <div class="cell" data-label="Column">sourceLienId</div>

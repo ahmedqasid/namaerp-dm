@@ -345,6 +345,7 @@
   "CostReturnReservation" : "system-tables/CostReturnReservation.md",
   "CostRevaluation" : "supplychain-inventory/CostRevaluation.md",
   "CouponsSalesOrder" : "supplychain-sales/CouponsSalesOrder.md",
+  "CouponsSalesOrderReturn" : "supplychain-sales/CouponsSalesOrderReturn.md",
   "CourseEnrollment" : "humanresource-training/CourseEnrollment.md",
   "CourseEvaluation" : "humanresource-training/CourseEvaluation.md",
   "CouseSkillResult" : "system-tables/CouseSkillResult.md",

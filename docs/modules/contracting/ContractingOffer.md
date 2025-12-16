@@ -1970,6 +1970,24 @@
 
 </div>
 
+<div class="row searchable" id="contractors.productivityWastage.productivity">
+<div class="cell" data-label="Property">contractors.productivityWastage.productivity</div>
+<div class="cell" data-label="Column">productivity</div>
+<div class="cell" data-label="Arabic">الإنتاجية</div>
+<div class="cell" data-label="English">Productivity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="contractors.productivityWastage.qtyWastePercentage">
+<div class="cell" data-label="Property">contractors.productivityWastage.qtyWastePercentage</div>
+<div class="cell" data-label="Column">qtyWastePercentage</div>
+<div class="cell" data-label="Arabic">نسبة الهالك</div>
+<div class="cell" data-label="English">Qty Waste Percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="contractors.purchaseOrderQty">
 <div class="cell" data-label="Property">contractors.purchaseOrderQty</div>
 <div class="cell" data-label="Column">purchaseOrderQty</div>
@@ -2736,6 +2754,24 @@
 
 </div>
 
+<div class="row searchable" id="items.productivityWastage.productivity">
+<div class="cell" data-label="Property">items.productivityWastage.productivity</div>
+<div class="cell" data-label="Column">productivity</div>
+<div class="cell" data-label="Arabic">الإنتاجية</div>
+<div class="cell" data-label="English">Productivity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="items.productivityWastage.qtyWastePercentage">
+<div class="cell" data-label="Property">items.productivityWastage.qtyWastePercentage</div>
+<div class="cell" data-label="Column">qtyWastePercentage</div>
+<div class="cell" data-label="Arabic">نسبة الهالك</div>
+<div class="cell" data-label="English">Qty Waste Percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="items.purchaseOrderQty">
 <div class="cell" data-label="Property">items.purchaseOrderQty</div>
 <div class="cell" data-label="Column">purchaseOrderQty</div>
@@ -3498,6 +3534,24 @@
 <div class="cell" data-label="Column">n9</div>
 <div class="cell" data-label="Arabic">رقم 9</div>
 <div class="cell" data-label="English">Number 9</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="otherExpenses.productivityWastage.productivity">
+<div class="cell" data-label="Property">otherExpenses.productivityWastage.productivity</div>
+<div class="cell" data-label="Column">productivity</div>
+<div class="cell" data-label="Arabic">الإنتاجية</div>
+<div class="cell" data-label="English">Productivity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="otherExpenses.productivityWastage.qtyWastePercentage">
+<div class="cell" data-label="Property">otherExpenses.productivityWastage.qtyWastePercentage</div>
+<div class="cell" data-label="Column">qtyWastePercentage</div>
+<div class="cell" data-label="Arabic">نسبة الهالك</div>
+<div class="cell" data-label="English">Qty Waste Percentage</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
@@ -6004,6 +6058,24 @@
 <div class="cell" data-label="Column">n9</div>
 <div class="cell" data-label="Arabic">رقم 9</div>
 <div class="cell" data-label="English">Number 9</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="workers.productivityWastage.productivity">
+<div class="cell" data-label="Property">workers.productivityWastage.productivity</div>
+<div class="cell" data-label="Column">productivity</div>
+<div class="cell" data-label="Arabic">الإنتاجية</div>
+<div class="cell" data-label="English">Productivity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="workers.productivityWastage.qtyWastePercentage">
+<div class="cell" data-label="Property">workers.productivityWastage.qtyWastePercentage</div>
+<div class="cell" data-label="Column">qtyWastePercentage</div>
+<div class="cell" data-label="Arabic">نسبة الهالك</div>
+<div class="cell" data-label="English">Qty Waste Percentage</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>

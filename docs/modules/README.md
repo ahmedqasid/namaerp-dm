@@ -1647,6 +1647,7 @@
     - [AutoSalesPricing](/modules/supplychain-sales/AutoSalesPricing.md)
     - [AutoSalesPricingSetting](/modules/supplychain-sales/AutoSalesPricingSetting.md)
     - [CouponsSalesOrder](/modules/supplychain-sales/CouponsSalesOrder.md)
+    - [CouponsSalesOrderReturn](/modules/supplychain-sales/CouponsSalesOrderReturn.md)
     - [CustomersReqsShortageDoc](/modules/supplychain-sales/CustomersReqsShortageDoc.md)
     - [DeliveryCancellationDoc](/modules/supplychain-sales/DeliveryCancellationDoc.md)
     - [DeliveryDocument](/modules/supplychain-sales/DeliveryDocument.md)

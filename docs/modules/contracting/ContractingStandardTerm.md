@@ -2297,6 +2297,24 @@
 
 </div>
 
+<div class="row searchable" id="standardItems.productivityWastage.productivity">
+<div class="cell" data-label="Property">standardItems.productivityWastage.productivity</div>
+<div class="cell" data-label="Column">productivity</div>
+<div class="cell" data-label="Arabic">الإنتاجية</div>
+<div class="cell" data-label="English">Productivity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="standardItems.productivityWastage.qtyWastePercentage">
+<div class="cell" data-label="Property">standardItems.productivityWastage.qtyWastePercentage</div>
+<div class="cell" data-label="Column">qtyWastePercentage</div>
+<div class="cell" data-label="Arabic">نسبة الهالك</div>
+<div class="cell" data-label="English">Qty Waste Percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="standardItems.quantity">
 <div class="cell" data-label="Property">standardItems.quantity</div>
 <div class="cell" data-label="Column">quantity</div>
@@ -2349,6 +2367,18 @@
 <div class="cell" data-label="English">Reference 5</div>
 <div class="cell" data-label="Type">Genericreference</div>
 
+</div>
+
+<div class="row searchable" id="standardItems.standardItemUom">
+<div class="cell" data-label="Property">standardItems.standardItemUom</div>
+<div class="cell" data-label="Column">standardItemUom_id</div>
+<div class="cell" data-label="Arabic">وحدة بند التكلفة</div>
+<div class="cell" data-label="English">Standard Item Uom</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [UOM](/modules/supplychain/UOM.md) 
+</div>
 </div>
 
 <div class="row searchable" id="standardItems.text1">
