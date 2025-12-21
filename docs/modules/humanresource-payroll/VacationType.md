@@ -819,6 +819,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="maxBalanceDay">
+<div class="cell" data-label="Property">maxBalanceDay</div>
+<div class="cell" data-label="Column">maxBalanceDay</div>
+<div class="cell" data-label="Arabic">الحد الأقصى لرصيد الأجازة (يوم)</div>
+<div class="cell" data-label="English">Balance Days (Max)</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="maxCountInServicePeriodValue">
 <div class="cell" data-label="Property">maxCountInServicePeriodValue</div>
 <div class="cell" data-label="Column">maxCountInServicePeriodValue</div>
