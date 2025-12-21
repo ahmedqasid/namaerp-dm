@@ -1470,6 +1470,15 @@
 
 </div>
 
+<div class="row searchable" id="inputs.criteriaExpression">
+<div class="cell" data-label="Property">inputs.criteriaExpression</div>
+<div class="cell" data-label="Column">criteriaExpression</div>
+<div class="cell" data-label="Arabic">Criteria Expression (Filter)</div>
+<div class="cell" data-label="English">Criteria Expression (Filter)</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
 <div class="row searchable" id="inputs.defaultValue">
 <div class="cell" data-label="Property">inputs.defaultValue</div>
 <div class="cell" data-label="Column">defaultValue</div>

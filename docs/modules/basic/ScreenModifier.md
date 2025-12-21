@@ -1645,6 +1645,15 @@
 
 </div>
 
+<div class="row searchable" id="actionLines.showInListViewActionsColumn">
+<div class="cell" data-label="Property">actionLines.showInListViewActionsColumn</div>
+<div class="cell" data-label="Column">showInListViewActionsColumn</div>
+<div class="cell" data-label="Arabic">الإظهار في عمود الإجراءات بعرض القائمة</div>
+<div class="cell" data-label="English">Show In List View Actions Column</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="actionLines.showInMoreMenuEditScreen">
 <div class="cell" data-label="Property">actionLines.showInMoreMenuEditScreen</div>
 <div class="cell" data-label="Column">showInMoreMenuEditScreen</div>

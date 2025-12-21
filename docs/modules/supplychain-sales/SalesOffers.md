@@ -2027,6 +2027,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.itemCode">
+<div class="cell" data-label="Property">details.itemCode</div>
+<div class="cell" data-label="Column">itemCode</div>
+<div class="cell" data-label="Arabic"> الكود</div>
+<div class="cell" data-label="English"> Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="details.itemDimensions.activePerc">
 <div class="cell" data-label="Property">details.itemDimensions.activePerc</div>
 <div class="cell" data-label="Column">activePerc</div>

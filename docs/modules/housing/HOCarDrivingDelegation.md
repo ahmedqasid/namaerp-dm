@@ -100,6 +100,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="car2">
+<div class="cell" data-label="Property">car2</div>
+<div class="cell" data-label="Column">car2_id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Car](/modules/basic/Car.md) 
+</div>
+</div>
+
 <div class="row searchable" id="code">
 <div class="cell" data-label="Property">code</div>
 <div class="cell" data-label="Column">code</div>
@@ -351,6 +363,18 @@
 <div class="cell" data-label="Column">employee_id</div>
 <div class="cell" data-label="Arabic">الموظف</div>
 <div class="cell" data-label="English">Employee</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Employee](/modules/basic/Employee.md) 
+</div>
+</div>
+
+<div class="row searchable" id="employee2">
+<div class="cell" data-label="Property">employee2</div>
+<div class="cell" data-label="Column">employee2_id</div>
+<div class="cell" data-label="Arabic">موظف 2</div>
+<div class="cell" data-label="English">employee2</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

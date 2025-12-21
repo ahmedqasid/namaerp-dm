@@ -445,6 +445,15 @@
 
 </div>
 
+<div class="row searchable" id="extendedMultiDayPermission">
+<div class="cell" data-label="Property">extendedMultiDayPermission</div>
+<div class="cell" data-label="Column">extendedMultiDayPermission</div>
+<div class="cell" data-label="Arabic">إذن ممتد لأكثر من يوم</div>
+<div class="cell" data-label="English">Extended Multi Day Permission</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="firstAuthor">
 <div class="cell" data-label="Property">firstAuthor</div>
 <div class="cell" data-label="Column">firstAuthor_id</div>

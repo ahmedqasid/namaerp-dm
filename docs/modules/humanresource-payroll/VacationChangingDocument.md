@@ -1369,6 +1369,51 @@
 
 </div>
 
+<div class="row searchable" id="vacationLines.n1">
+<div class="cell" data-label="Property">vacationLines.n1</div>
+<div class="cell" data-label="Column">n1</div>
+<div class="cell" data-label="Arabic">رقم 1</div>
+<div class="cell" data-label="English">Number 1</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="vacationLines.n2">
+<div class="cell" data-label="Property">vacationLines.n2</div>
+<div class="cell" data-label="Column">n2</div>
+<div class="cell" data-label="Arabic">رقم 2</div>
+<div class="cell" data-label="English">Number 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="vacationLines.n3">
+<div class="cell" data-label="Property">vacationLines.n3</div>
+<div class="cell" data-label="Column">n3</div>
+<div class="cell" data-label="Arabic">رقم 3</div>
+<div class="cell" data-label="English">Number 3</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="vacationLines.n4">
+<div class="cell" data-label="Property">vacationLines.n4</div>
+<div class="cell" data-label="Column">n4</div>
+<div class="cell" data-label="Arabic">رقم 4</div>
+<div class="cell" data-label="English">Number 4</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="vacationLines.n5">
+<div class="cell" data-label="Property">vacationLines.n5</div>
+<div class="cell" data-label="Column">n5</div>
+<div class="cell" data-label="Arabic">رقم 5</div>
+<div class="cell" data-label="English">Number 5</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="vacationLines.newBalance">
 <div class="cell" data-label="Property">vacationLines.newBalance</div>
 <div class="cell" data-label="Column">newBalance</div>
@@ -1393,6 +1438,105 @@
 <div class="cell" data-label="Arabic">المتبقي المعدل</div>
 <div class="cell" data-label="English">New Remainder</div>
 <div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="vacationLines.ref1">
+<div class="cell" data-label="Property">vacationLines.ref1</div>
+<div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
+<div class="cell" data-label="Arabic">مرجع 1</div>
+<div class="cell" data-label="English">Reference 1</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="vacationLines.ref2">
+<div class="cell" data-label="Property">vacationLines.ref2</div>
+<div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
+<div class="cell" data-label="Arabic">مرجع 2</div>
+<div class="cell" data-label="English">Reference 2</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="vacationLines.ref3">
+<div class="cell" data-label="Property">vacationLines.ref3</div>
+<div class="cell gen-ref-column" data-label="Column">ref3ActualCode,  ref3Code,  ref3EntityType,  ref3Id</div>
+<div class="cell" data-label="Arabic">مرجع 3</div>
+<div class="cell" data-label="English">Reference 3</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="vacationLines.ref4">
+<div class="cell" data-label="Property">vacationLines.ref4</div>
+<div class="cell gen-ref-column" data-label="Column">ref4ActualCode,  ref4Code,  ref4EntityType,  ref4Id</div>
+<div class="cell" data-label="Arabic">مرجع 4</div>
+<div class="cell" data-label="English">Reference 4</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="vacationLines.ref5">
+<div class="cell" data-label="Property">vacationLines.ref5</div>
+<div class="cell gen-ref-column" data-label="Column">ref5ActualCode,  ref5Code,  ref5EntityType,  ref5Id</div>
+<div class="cell" data-label="Arabic">مرجع 5</div>
+<div class="cell" data-label="English">Reference 5</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="vacationLines.remarks">
+<div class="cell" data-label="Property">vacationLines.remarks</div>
+<div class="cell" data-label="Column">remarks</div>
+<div class="cell" data-label="Arabic">ملاحظات</div>
+<div class="cell" data-label="English">Description</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="vacationLines.text1">
+<div class="cell" data-label="Property">vacationLines.text1</div>
+<div class="cell" data-label="Column">text1</div>
+<div class="cell" data-label="Arabic">نــــص 1</div>
+<div class="cell" data-label="English">Text 1</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="vacationLines.text2">
+<div class="cell" data-label="Property">vacationLines.text2</div>
+<div class="cell" data-label="Column">text2</div>
+<div class="cell" data-label="Arabic">نـــــص 2</div>
+<div class="cell" data-label="English">Text 2</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="vacationLines.text3">
+<div class="cell" data-label="Property">vacationLines.text3</div>
+<div class="cell" data-label="Column">text3</div>
+<div class="cell" data-label="Arabic">نص 3</div>
+<div class="cell" data-label="English">text3</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="vacationLines.text4">
+<div class="cell" data-label="Property">vacationLines.text4</div>
+<div class="cell" data-label="Column">text4</div>
+<div class="cell" data-label="Arabic">نص 4</div>
+<div class="cell" data-label="English">text4</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="vacationLines.text5">
+<div class="cell" data-label="Property">vacationLines.text5</div>
+<div class="cell" data-label="Column">text5</div>
+<div class="cell" data-label="Arabic">نص 5</div>
+<div class="cell" data-label="English">text5</div>
+<div class="cell" data-label="Type">Text</div>
 
 </div>
 

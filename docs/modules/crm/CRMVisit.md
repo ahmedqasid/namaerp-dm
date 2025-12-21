@@ -375,6 +375,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="changeStatusTo">
+<div class="cell" data-label="Property">changeStatusTo</div>
+<div class="cell" data-label="Column">changeStatusTo</div>
+<div class="cell" data-label="Arabic">تغيير الحالة إلى</div>
+<div class="cell" data-label="English">Change Status To</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="clientSignature">
 <div class="cell" data-label="Property">clientSignature</div>
 <div class="cell" data-label="Column">clientSignature_id</div>
@@ -1272,6 +1281,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="relatedRecordStatus">
+<div class="cell" data-label="Property">relatedRecordStatus</div>
+<div class="cell" data-label="Column">relatedRecordStatus</div>
+<div class="cell" data-label="Arabic">حالة السجل المرتبط</div>
+<div class="cell" data-label="English">Related Record Status</div>
+<div class="cell" data-label="Type">Enum</div>
 
 </div>
 
