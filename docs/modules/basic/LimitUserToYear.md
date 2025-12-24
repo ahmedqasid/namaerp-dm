@@ -787,6 +787,18 @@
 
 </div>
 
+<div class="row searchable" id="details.fiscalPeriod">
+<div class="cell" data-label="Property">details.fiscalPeriod</div>
+<div class="cell" data-label="Column">fiscalPeriod_id</div>
+<div class="cell" data-label="Arabic">الفترة</div>
+<div class="cell" data-label="English">Fiscal Period</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
+</div>
+</div>
+
 <div class="row searchable" id="details.fiscalYear">
 <div class="cell" data-label="Property">details.fiscalYear</div>
 <div class="cell" data-label="Column">fiscalYear_id</div>

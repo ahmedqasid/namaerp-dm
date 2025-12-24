@@ -676,6 +676,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="customerCodes.posUnit">
+<div class="cell" data-label="Property">customerCodes.posUnit</div>
+<div class="cell" data-label="Column">posUnit</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [POS.POSUnit](/modules/pos-app/POS.POSUnit.md) 
+</div>
+</div>
+
 
 </div>
 </div>
@@ -819,6 +831,18 @@
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSItem](/modules/pos-app/POS.POSItem.md) 
+</div>
+</div>
+
+<div class="row searchable" id="manfCodes.posUnit">
+<div class="cell" data-label="Property">manfCodes.posUnit</div>
+<div class="cell" data-label="Column">posUnit</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [POS.POSUnit](/modules/pos-app/POS.POSUnit.md) 
 </div>
 </div>
 
@@ -1061,6 +1085,18 @@
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSItem](/modules/pos-app/POS.POSItem.md) 
+</div>
+</div>
+
+<div class="row searchable" id="sizesAndColors.posUnit">
+<div class="cell" data-label="Property">sizesAndColors.posUnit</div>
+<div class="cell" data-label="Column">posUnit</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [POS.POSUnit](/modules/pos-app/POS.POSUnit.md) 
 </div>
 </div>
 
