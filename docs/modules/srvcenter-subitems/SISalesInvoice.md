@@ -1109,7 +1109,7 @@
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [SIInstallmentType](/modules/srvcenter-insurance-and-installments/SIInstallmentType.md) 
+ [SIInstallmentProgram](/modules/srvcenter-insurance-and-installments/SIInstallmentProgram.md) 
 </div>
 </div>
 

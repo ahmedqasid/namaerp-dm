@@ -282,8 +282,8 @@
 <div class="row searchable" id="currentCar">
 <div class="cell" data-label="Property">currentCar</div>
 <div class="cell" data-label="Column">currentCar_id</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">السيارة الحالية</div>
+<div class="cell" data-label="English">Current Car</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -705,6 +705,18 @@
 
 </div>
 
+<div class="row searchable" id="item">
+<div class="cell" data-label="Property">item</div>
+<div class="cell" data-label="Column">item_id</div>
+<div class="cell" data-label="Arabic">الصنف</div>
+<div class="cell" data-label="English">Item</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InvItem](/modules/supplychain/InvItem.md) 
+</div>
+</div>
+
 <div class="row searchable" id="lastChangeVersion">
 <div class="cell" data-label="Property">lastChangeVersion</div>
 <div class="cell" data-label="Column">lastChangeVersion</div>
@@ -1027,6 +1039,18 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
+</div>
+
+<div class="row searchable" id="subItem">
+<div class="cell" data-label="Property">subItem</div>
+<div class="cell" data-label="Column">subItem_id</div>
+<div class="cell" data-label="Arabic"> السياره</div>
+<div class="cell" data-label="English"> Customer Car</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [SubItem](/modules/srvcenter-subitems/SubItem.md) 
+</div>
 </div>
 
 <div class="row searchable" id="term">
@@ -1414,15 +1438,36 @@
 
 </div>
 
-<div class="row searchable" id="details.installmentPrograms">
-<div class="cell" data-label="Property">details.installmentPrograms</div>
-<div class="cell" data-label="Column">installmentPrograms_id</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="row searchable" id="details.installmentProgram">
+<div class="cell" data-label="Property">details.installmentProgram</div>
+<div class="cell" data-label="Column">installmentProgram_id</div>
+<div class="cell" data-label="Arabic">برنامج تقسيط سيارة</div>
+<div class="cell" data-label="English">Car Installment Program</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [SIInstallmentType](/modules/srvcenter-insurance-and-installments/SIInstallmentType.md) 
+ [SIInstallmentProgram](/modules/srvcenter-insurance-and-installments/SIInstallmentProgram.md) 
+</div>
+</div>
+
+<div class="row searchable" id="details.installmentYears">
+<div class="cell" data-label="Property">details.installmentYears</div>
+<div class="cell" data-label="Column">installmentYears</div>
+<div class="cell" data-label="Arabic">سنوات التقسيط</div>
+<div class="cell" data-label="English">Installment Years</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="details.insuranceCompany">
+<div class="cell" data-label="Property">details.insuranceCompany</div>
+<div class="cell" data-label="Column">insuranceCompany_id</div>
+<div class="cell" data-label="Arabic">شركة التأمين</div>
+<div class="cell" data-label="English">Insurance Company</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [InsuranceCompany](/modules/srvcenter-subitems/InsuranceCompany.md) 
 </div>
 </div>
 
@@ -1433,6 +1478,18 @@
 <div class="cell" data-label="English">Insurance Discount Percentage</div>
 <div class="cell" data-label="Type">Decimal</div>
 
+</div>
+
+<div class="row searchable" id="details.insuranceProgram">
+<div class="cell" data-label="Property">details.insuranceProgram</div>
+<div class="cell" data-label="Column">insuranceProgram_id</div>
+<div class="cell" data-label="Arabic">برنامج التأمين</div>
+<div class="cell" data-label="English">Insurance Program</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [SIInsuranceProgram](/modules/srvcenter-insurance-and-installments/SIInsuranceProgram.md) 
+</div>
 </div>
 
 <div class="row searchable" id="details.insuranceValue">
@@ -1474,6 +1531,15 @@
 
 </div>
 
+<div class="row searchable" id="details.monthlyInstallmentAmount">
+<div class="cell" data-label="Property">details.monthlyInstallmentAmount</div>
+<div class="cell" data-label="Column">monthlyInstallmentAmount</div>
+<div class="cell" data-label="Arabic">قيمة القسط الشهري</div>
+<div class="cell" data-label="English">Monthly Installment Amount</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="details.netValue">
 <div class="cell" data-label="Property">details.netValue</div>
 <div class="cell" data-label="Column">netValue</div>
@@ -1498,6 +1564,15 @@
 <div class="cell" data-label="Arabic">مرجع 1</div>
 <div class="cell" data-label="English">Reference 1</div>
 <div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="details.remark">
+<div class="cell" data-label="Property">details.remark</div>
+<div class="cell" data-label="Column">remark</div>
+<div class="cell" data-label="Arabic">ملحوظة</div>
+<div class="cell" data-label="English">Remark</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 

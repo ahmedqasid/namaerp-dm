@@ -2,7 +2,7 @@
 <div class='tableName'>
 
 
-# SIInstallmentType
+# SIInstallmentProgram
 </div>
 
 **Arabic:** برنامج تقسيط سيارة - برامج تقسيط سيارات
@@ -22,11 +22,20 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="adminFeesPercent">
+</div><div class="row searchable" id="adminFees">
+<div class="cell" data-label="Property">adminFees</div>
+<div class="cell" data-label="Column">adminFees</div>
+<div class="cell" data-label="Arabic">مصاريف إدارية</div>
+<div class="cell" data-label="English">Admin Fees</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="adminFeesPercent">
 <div class="cell" data-label="Property">adminFeesPercent</div>
 <div class="cell" data-label="Column">adminFeesPercent</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">نسبة المصاريف الإدارية</div>
+<div class="cell" data-label="English">Administrative Fees Percentage</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
@@ -430,6 +439,15 @@
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
 <div class="cell" data-label="Type">EntityType</div>
+
+</div>
+
+<div class="row searchable" id="financingPrecent">
+<div class="cell" data-label="Property">financingPrecent</div>
+<div class="cell" data-label="Column">financingPrecent</div>
+<div class="cell" data-label="Arabic">نسبه التمويل</div>
+<div class="cell" data-label="English">Financing Precent</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 

@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#detailsLines'>detailsLines (MobileAppScreenModifierDetailsLine) </a> , <a href='#gridCardLines'>gridCardLines (MobileAppScreenModifierGridCardLine) </a> , <a href='#headerLines'>headerLines (MobileAppScreenModifierHeaderLine) </a>
+<a href='#detailsLines'>detailsLines (MobileAppScreenModifierDetailsLine) </a> , <a href='#detailsLines2'>detailsLines2 (MobileAppScreenModifierDetailsLine2) </a> , <a href='#detailsLines3'>detailsLines3 (MobileAppScreenModifierDetailsLine3) </a> , <a href='#gridCardLines'>gridCardLines (MobileAppScreenModifierGridCardLine) </a> , <a href='#gridCardLines2'>gridCardLines2 (MobileAppScreenModifierGridCardLine2) </a> , <a href='#gridCardLines3'>gridCardLines3 (MobileAppScreenModifierGridCardLine3) </a> , <a href='#headerLines'>headerLines (MobileAppScreenModifierHeaderLine) </a>
 </div>
 
 <div class='searchable'>
@@ -818,6 +818,104 @@
 </div>
 </div>
 
+<div id='detailsLines2' title='detailsLines2' class='searchable'>
+
+## detailsLines2 (حقول السطور(2) - Detail Fields Lines(2))
+
+<div class='tableName'>
+
+**Table Name:** MobileAppScreenModifierDetailsLine2, **Join Column:** mobileAppScreenModifier_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="detailsLines2.fieldId">
+<div class="cell" data-label="Property">detailsLines2.fieldId</div>
+<div class="cell" data-label="Column">fieldId</div>
+<div class="cell" data-label="Arabic"> الحقل</div>
+<div class="cell" data-label="English"> On Field</div>
+<div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
+<div class="row searchable" id="detailsLines2.id">
+<div class="cell" data-label="Property">detailsLines2.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="detailsLines2.lineNumber">
+<div class="cell" data-label="Property">detailsLines2.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='detailsLines3' title='detailsLines3' class='searchable'>
+
+## detailsLines3 (حقول السطور(3) - Detail Fields Lines(3))
+
+<div class='tableName'>
+
+**Table Name:** MobileAppScreenModifierDetailsLine3, **Join Column:** mobileAppScreenModifier_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="detailsLines3.fieldId">
+<div class="cell" data-label="Property">detailsLines3.fieldId</div>
+<div class="cell" data-label="Column">fieldId</div>
+<div class="cell" data-label="Arabic"> الحقل</div>
+<div class="cell" data-label="English"> On Field</div>
+<div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
+<div class="row searchable" id="detailsLines3.id">
+<div class="cell" data-label="Property">detailsLines3.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="detailsLines3.lineNumber">
+<div class="cell" data-label="Property">detailsLines3.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+
+</div>
+</div>
+
 <div id='gridCardLines' title='gridCardLines' class='searchable'>
 
 ## gridCardLines (حقول جريد السطور - Grid Card Lines)
@@ -865,6 +963,122 @@
 
 <div class="row searchable" id="gridCardLines.referenceShowType">
 <div class="cell" data-label="Property">gridCardLines.referenceShowType</div>
+<div class="cell" data-label="Column">referenceShowType</div>
+<div class="cell" data-label="Arabic">طريقة إظهار المرجع</div>
+<div class="cell" data-label="English">Reference Show Type</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='gridCardLines2' title='gridCardLines2' class='searchable'>
+
+## gridCardLines2 (حقول جريد السطور(2) - Grid Card Lines(2))
+
+<div class='tableName'>
+
+**Table Name:** MobileAppScreenModifierGridCardLine2, **Join Column:** mobileAppScreenModifier_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="gridCardLines2.fieldId">
+<div class="cell" data-label="Property">gridCardLines2.fieldId</div>
+<div class="cell" data-label="Column">fieldId</div>
+<div class="cell" data-label="Arabic"> الحقل</div>
+<div class="cell" data-label="English"> On Field</div>
+<div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
+<div class="row searchable" id="gridCardLines2.id">
+<div class="cell" data-label="Property">gridCardLines2.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="gridCardLines2.lineNumber">
+<div class="cell" data-label="Property">gridCardLines2.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="gridCardLines2.referenceShowType">
+<div class="cell" data-label="Property">gridCardLines2.referenceShowType</div>
+<div class="cell" data-label="Column">referenceShowType</div>
+<div class="cell" data-label="Arabic">طريقة إظهار المرجع</div>
+<div class="cell" data-label="English">Reference Show Type</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='gridCardLines3' title='gridCardLines3' class='searchable'>
+
+## gridCardLines3 (حقول جريد السطور(3) - Grid Card Lines(3))
+
+<div class='tableName'>
+
+**Table Name:** MobileAppScreenModifierGridCardLine3, **Join Column:** mobileAppScreenModifier_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="gridCardLines3.fieldId">
+<div class="cell" data-label="Property">gridCardLines3.fieldId</div>
+<div class="cell" data-label="Column">fieldId</div>
+<div class="cell" data-label="Arabic"> الحقل</div>
+<div class="cell" data-label="English"> On Field</div>
+<div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
+<div class="row searchable" id="gridCardLines3.id">
+<div class="cell" data-label="Property">gridCardLines3.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="gridCardLines3.lineNumber">
+<div class="cell" data-label="Property">gridCardLines3.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="gridCardLines3.referenceShowType">
+<div class="cell" data-label="Property">gridCardLines3.referenceShowType</div>
 <div class="cell" data-label="Column">referenceShowType</div>
 <div class="cell" data-label="Arabic">طريقة إظهار المرجع</div>
 <div class="cell" data-label="English">Reference Show Type</div>

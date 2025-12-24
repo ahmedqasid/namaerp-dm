@@ -4191,6 +4191,36 @@
 
 </div>
 
+<div class="row searchable" id="quickFilters.quickFilterValuesCriteria">
+<div class="cell" data-label="Property">quickFilters.quickFilterValuesCriteria</div>
+<div class="cell" data-label="Column">quickFilterValuesCriteria_id</div>
+<div class="cell" data-label="Arabic">المعايير المستعملة للبحث عن قيم الفلترة السريعة</div>
+<div class="cell" data-label="English">Quick Filter Values Criteria</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CriteriaDefinition](/modules/basic/CriteriaDefinition.md) 
+</div>
+</div>
+
+<div class="row searchable" id="quickFilters.quickFilterValuesDynamicCriteria">
+<div class="cell" data-label="Property">quickFilters.quickFilterValuesDynamicCriteria</div>
+<div class="cell" data-label="Column">quickFilterValuesDynamicCriteria</div>
+<div class="cell" data-label="Arabic">المعايير النصية لقيم الفلترة السريعة</div>
+<div class="cell" data-label="English">Quick Filter Values Dynamic Criteria</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="quickFilters.remove">
+<div class="cell" data-label="Property">quickFilters.remove</div>
+<div class="cell" data-label="Column">remove</div>
+<div class="cell" data-label="Arabic">حذف</div>
+<div class="cell" data-label="English">Remove</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="quickFilters.showCount">
 <div class="cell" data-label="Property">quickFilters.showCount</div>
 <div class="cell" data-label="Column">showCount</div>

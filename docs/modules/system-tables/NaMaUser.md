@@ -818,6 +818,15 @@
 
 </div>
 
+<div class="row searchable" id="settings.allowLoginFromApps">
+<div class="cell" data-label="Property">settings.allowLoginFromApps</div>
+<div class="cell" data-label="Column">allowLoginFromApps</div>
+<div class="cell" data-label="Arabic">السماح بالدخول من تطبيقات الهاتف</div>
+<div class="cell" data-label="English">Allow Login from Mobile Apps</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="settings.allowPDFPrintOnlyForForms">
 <div class="cell" data-label="Property">settings.allowPDFPrintOnlyForForms</div>
 <div class="cell" data-label="Column">allowPDFPrintOnlyForForms</div>
