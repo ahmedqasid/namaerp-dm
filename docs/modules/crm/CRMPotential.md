@@ -27,7 +27,19 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="altCode">
+</div><div class="row searchable" id="activityType">
+<div class="cell" data-label="Property">activityType</div>
+<div class="cell" data-label="Column">activityType_id</div>
+<div class="cell" data-label="Arabic">نوع النشاط للفرع</div>
+<div class="cell" data-label="English">Activity Type</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CRMActivityType](/modules/crm/CRMActivityType.md) 
+</div>
+</div>
+
+<div class="row searchable" id="altCode">
 <div class="cell" data-label="Property">altCode</div>
 <div class="cell" data-label="Column">altCode</div>
 <div class="cell" data-label="Arabic">الكود الإنجليزي</div>
@@ -784,6 +796,18 @@
 <div class="cell" data-label="English">Last update Date</div>
 <div class="cell" data-label="Type">DateAndTime</div>
 
+</div>
+
+<div class="row searchable" id="leadClassification">
+<div class="cell" data-label="Property">leadClassification</div>
+<div class="cell" data-label="Column">leadClassification_id</div>
+<div class="cell" data-label="Arabic">تصنيف العميل المرتقب</div>
+<div class="cell" data-label="English">Lead Classification</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CRMLeadClassification](/modules/crm/CRMLeadClassification.md) 
+</div>
 </div>
 
 <div class="row searchable" id="leadLegalEntity">

@@ -1438,7 +1438,16 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="details.currency">
+</div><div class="row searchable" id="details.bonusInvestment">
+<div class="cell" data-label="Property">details.bonusInvestment</div>
+<div class="cell" data-label="Column">bonusInvestment</div>
+<div class="cell" data-label="Arabic">استثمار مجاني</div>
+<div class="cell" data-label="English">Bonus Investment</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="details.currency">
 <div class="cell" data-label="Property">details.currency</div>
 <div class="cell" data-label="Column">currency_id</div>
 <div class="cell" data-label="Arabic">العملة</div>

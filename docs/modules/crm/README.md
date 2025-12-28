@@ -1,6 +1,7 @@
 <div class="ignore-in-full-text-search">
 
 # CRM
+  - [CRMActivityType](/modules/crm/CRMActivityType.md)
   - [CRMAgent](/modules/crm/CRMAgent.md)
   - [CRMAnalysis](/modules/crm/CRMAnalysis.md)
   - [CRMCall](/modules/crm/CRMCall.md)
@@ -16,6 +17,8 @@
   - [CRMFollowUp](/modules/crm/CRMFollowUp.md)
   - [CRMIndustry](/modules/crm/CRMIndustry.md)
   - [CRMLead](/modules/crm/CRMLead.md)
+  - [CRMLeadClassification](/modules/crm/CRMLeadClassification.md)
+  - [CRMMainCategory](/modules/crm/CRMMainCategory.md)
   - [CRMMarketingPlan](/modules/crm/CRMMarketingPlan.md)
   - [CRMMediator](/modules/crm/CRMMediator.md)
   - [CRMOffers](/modules/crm/CRMOffers.md)

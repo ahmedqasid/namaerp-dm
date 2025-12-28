@@ -145,6 +145,18 @@
 
 </div>
 
+<div class="row searchable" id="colorClassification">
+<div class="cell" data-label="Property">colorClassification</div>
+<div class="cell" data-label="Column">colorClassification_id</div>
+<div class="cell" data-label="Arabic">تصنيف لون</div>
+<div class="cell" data-label="English">Color Classification</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemColorClassification](/modules/system-tables/ItemColorClassification.md) 
+</div>
+</div>
+
 <div class="row searchable" id="colorCode">
 <div class="cell" data-label="Property">colorCode</div>
 <div class="cell" data-label="Column">colorCode</div>

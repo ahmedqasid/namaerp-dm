@@ -1022,6 +1022,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="excludedItems.colorClassification">
+<div class="cell" data-label="Property">excludedItems.colorClassification</div>
+<div class="cell" data-label="Column">colorClassification_id</div>
+<div class="cell" data-label="Arabic">تصنيف لون</div>
+<div class="cell" data-label="English">Color Classification</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemColorClassification](/modules/system-tables/ItemColorClassification.md) 
+</div>
+</div>
+
 <div class="row searchable" id="excludedItems.id">
 <div class="cell" data-label="Property">excludedItems.id</div>
 <div class="cell" data-label="Column">id</div>
@@ -1191,6 +1203,18 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
+</div>
+
+<div class="row searchable" id="excludedItems.sizeClassification">
+<div class="cell" data-label="Property">excludedItems.sizeClassification</div>
+<div class="cell" data-label="Column">sizeClassification_id</div>
+<div class="cell" data-label="Arabic">تصنيف مقاس</div>
+<div class="cell" data-label="English">Size Classification</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemSizeClassification](/modules/system-tables/ItemSizeClassification.md) 
+</div>
 </div>
 
 <div class="row searchable" id="excludedItems.specificDimensions.activePerc">
@@ -1594,6 +1618,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="includedItems.colorClassification">
+<div class="cell" data-label="Property">includedItems.colorClassification</div>
+<div class="cell" data-label="Column">colorClassification_id</div>
+<div class="cell" data-label="Arabic">تصنيف لون</div>
+<div class="cell" data-label="English">Color Classification</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemColorClassification](/modules/system-tables/ItemColorClassification.md) 
+</div>
+</div>
+
 <div class="row searchable" id="includedItems.id">
 <div class="cell" data-label="Property">includedItems.id</div>
 <div class="cell" data-label="Column">id</div>
@@ -1763,6 +1799,18 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
+</div>
+
+<div class="row searchable" id="includedItems.sizeClassification">
+<div class="cell" data-label="Property">includedItems.sizeClassification</div>
+<div class="cell" data-label="Column">sizeClassification_id</div>
+<div class="cell" data-label="Arabic">تصنيف مقاس</div>
+<div class="cell" data-label="English">Size Classification</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemSizeClassification](/modules/system-tables/ItemSizeClassification.md) 
+</div>
 </div>
 
 <div class="row searchable" id="includedItems.specificDimensions.activePerc">

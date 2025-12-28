@@ -270,6 +270,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="currentActivityType">
+<div class="cell" data-label="Property">currentActivityType</div>
+<div class="cell" data-label="Column">currentActivityType_id</div>
+<div class="cell" data-label="Arabic">نوع النشاط الحالي</div>
+<div class="cell" data-label="English">Current Activity Type</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CRMActivityType](/modules/crm/CRMActivityType.md) 
+</div>
+</div>
+
 <div class="row searchable" id="currentApprovalCase">
 <div class="cell" data-label="Property">currentApprovalCase</div>
 <div class="cell" data-label="Column">currentApprovalCase_id</div>
@@ -279,6 +291,18 @@
 <div class="cell" data-label="Foreign Table">
 
  [ApprovalCase](/modules/system-tables/ApprovalCase.md) 
+</div>
+</div>
+
+<div class="row searchable" id="currentLeadClassification">
+<div class="cell" data-label="Property">currentLeadClassification</div>
+<div class="cell" data-label="Column">currentLeadClassification_id</div>
+<div class="cell" data-label="Arabic">تصنيف العميل الحالي</div>
+<div class="cell" data-label="English">Current Lead Classification</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CRMLeadClassification](/modules/crm/CRMLeadClassification.md) 
 </div>
 </div>
 
@@ -840,6 +864,18 @@
 
 </div>
 
+<div class="row searchable" id="nextActivityType">
+<div class="cell" data-label="Property">nextActivityType</div>
+<div class="cell" data-label="Column">nextActivityType_id</div>
+<div class="cell" data-label="Arabic">نوع النشاط التالي</div>
+<div class="cell" data-label="English">Next Activity Type</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CRMActivityType](/modules/crm/CRMActivityType.md) 
+</div>
+</div>
+
 <div class="row searchable" id="openShift">
 <div class="cell" data-label="Property">openShift</div>
 <div class="cell" data-label="Column">openShift_id</div>
@@ -1198,6 +1234,18 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
+</div>
+
+<div class="row searchable" id="updateLeadClassificationTo">
+<div class="cell" data-label="Property">updateLeadClassificationTo</div>
+<div class="cell" data-label="Column">updateLeadClassificationTo_id</div>
+<div class="cell" data-label="Arabic">تحديث تصنيف العميل إلى</div>
+<div class="cell" data-label="English">Update Lead Classification To</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CRMLeadClassification](/modules/crm/CRMLeadClassification.md) 
+</div>
 </div>
 
 <div class="row searchable" id="usageCapability">

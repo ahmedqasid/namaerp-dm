@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#details'>details (LimitUserToYearLine) </a>
+<a href='#details'>details (LimitUserToYearLine) </a> , <a href='#limitUserToDates'>limitUserToDates (LimitUserToYearDates) </a>
 </div>
 
 <div class='searchable'>
@@ -839,6 +839,73 @@
 
  [EntityTypeList](/modules/basic/EntityTypeList.md) 
 </div>
+</div>
+
+
+</div>
+</div>
+
+<div id='limitUserToDates' title='limitUserToDates' class='searchable'>
+
+## limitUserToDates (قصر مستخدم على تواريخ في التقارير - Limit User to Dates In Reports)
+
+<div class='tableName'>
+
+**Table Name:** LimitUserToYearDates, **Join Column:** limitUserToYear_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="limitUserToDates.applyTo">
+<div class="cell" data-label="Property">limitUserToDates.applyTo</div>
+<div class="cell gen-ref-column" data-label="Column">applyToActualCode,  applyToCode,  applyToEntityType,  applyToId</div>
+<div class="cell" data-label="Arabic">تطبق علي</div>
+<div class="cell" data-label="English">Apply To</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="limitUserToDates.id">
+<div class="cell" data-label="Property">limitUserToDates.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="limitUserToDates.lineNumber">
+<div class="cell" data-label="Property">limitUserToDates.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="limitUserToDates.minDate">
+<div class="cell" data-label="Property">limitUserToDates.minDate</div>
+<div class="cell" data-label="Column">minDate</div>
+<div class="cell" data-label="Arabic">أقل تاريخ</div>
+<div class="cell" data-label="English">Min Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="limitUserToDates.minDateFromToday">
+<div class="cell" data-label="Property">limitUserToDates.minDateFromToday</div>
+<div class="cell" data-label="Column">minDateFromToday</div>
+<div class="cell" data-label="Arabic">أقل تاريخ بالأيام من اليوم الحالي</div>
+<div class="cell" data-label="English">Min Date From Today (Days)</div>
+<div class="cell" data-label="Type">Integer</div>
+
 </div>
 
 

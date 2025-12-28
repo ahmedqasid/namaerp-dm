@@ -242,6 +242,15 @@
 
 </div>
 
+<div class="row searchable" id="itemColorClassificationId">
+<div class="cell" data-label="Property">itemColorClassificationId</div>
+<div class="cell" data-label="Column">itemColorClassificationId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
 <div class="row searchable" id="itemSection">
 <div class="cell" data-label="Property">itemSection</div>
 <div class="cell" data-label="Column">itemSection_id</div>
@@ -252,6 +261,15 @@
 
  [POS.POSItemSection](/modules/pos-app/POS.POSItemSection.md) 
 </div>
+</div>
+
+<div class="row searchable" id="itemSizeClassificationId">
+<div class="cell" data-label="Property">itemSizeClassificationId</div>
+<div class="cell" data-label="Column">itemSizeClassificationId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
 </div>
 
 <div class="row searchable" id="pricingRange">

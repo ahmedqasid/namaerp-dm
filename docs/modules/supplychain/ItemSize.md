@@ -955,6 +955,18 @@
 
 </div>
 
+<div class="row searchable" id="sizeClassification">
+<div class="cell" data-label="Property">sizeClassification</div>
+<div class="cell" data-label="Column">sizeClassification_id</div>
+<div class="cell" data-label="Arabic">تصنيف مقاس</div>
+<div class="cell" data-label="English">Size Classification</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ItemSizeClassification](/modules/system-tables/ItemSizeClassification.md) 
+</div>
+</div>
+
 <div class="row searchable" id="sizingSystem">
 <div class="cell" data-label="Property">sizingSystem</div>
 <div class="cell" data-label="Column">sizingSystem</div>

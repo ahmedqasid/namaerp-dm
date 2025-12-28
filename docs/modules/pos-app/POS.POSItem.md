@@ -1040,6 +1040,30 @@
 
 </div>
 
+<div class="row searchable" id="sizesAndColors.itemColor">
+<div class="cell" data-label="Property">sizesAndColors.itemColor</div>
+<div class="cell" data-label="Column">itemColor_id</div>
+<div class="cell" data-label="Arabic">اللون | الملف</div>
+<div class="cell" data-label="English">Color | File</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [POS.POSItemColor](/modules/pos-app/POS.POSItemColor.md) 
+</div>
+</div>
+
+<div class="row searchable" id="sizesAndColors.itemSize">
+<div class="cell" data-label="Property">sizesAndColors.itemSize</div>
+<div class="cell" data-label="Column">itemSize_id</div>
+<div class="cell" data-label="Arabic">المقاس | الملف</div>
+<div class="cell" data-label="English">Size | File</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [POS.POSItemSize](/modules/pos-app/POS.POSItemSize.md) 
+</div>
+</div>
+
 <div class="row searchable" id="sizesAndColors.lineNumber">
 <div class="cell" data-label="Property">sizesAndColors.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>

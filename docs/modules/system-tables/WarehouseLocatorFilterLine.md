@@ -50,11 +50,29 @@
 
 </div>
 
+<div class="row searchable" id="showLocatorsRelatedToItemOnly">
+<div class="cell" data-label="Property">showLocatorsRelatedToItemOnly</div>
+<div class="cell" data-label="Column">showLocatorsRelatedToItemOnly</div>
+<div class="cell" data-label="Arabic">عرض المواقع المرتبطة بالصنف فقط</div>
+<div class="cell" data-label="English">Show Locators Which Related To Item Only</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="showLocatorsWithAvailableQtyOnly">
 <div class="cell" data-label="Property">showLocatorsWithAvailableQtyOnly</div>
 <div class="cell" data-label="Column">showLocatorsWithAvailableQtyOnly</div>
 <div class="cell" data-label="Arabic">عرض المواقع التي بها كميات فقط</div>
 <div class="cell" data-label="English">Show Locators With Available Quantity Only</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="showWarehousesRelatedToItemOnly">
+<div class="cell" data-label="Property">showWarehousesRelatedToItemOnly</div>
+<div class="cell" data-label="Column">showWarehousesRelatedToItemOnly</div>
+<div class="cell" data-label="Arabic">عرض المخازن المرتبطة بالصنف فقط</div>
+<div class="cell" data-label="English">Show Warehouses Which Related To Item Only</div>
 <div class="cell" data-label="Type">Boolean</div>
 
 </div>
