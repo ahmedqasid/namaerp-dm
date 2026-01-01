@@ -1734,6 +1734,7 @@
     - [CPAProjReturnLine](/modules/system-tables/CPAProjReturnLine.md)
     - [CRMAssigningToSysEntry](/modules/system-tables/CRMAssigningToSysEntry.md)
     - [CRMComplianSourceLine](/modules/system-tables/CRMComplianSourceLine.md)
+    - [CRMRejectionReason](/modules/system-tables/CRMRejectionReason.md)
     - [CRMTroubleTicketReq](/modules/system-tables/CRMTroubleTicketReq.md)
     - [CapabilityUsageSysLine](/modules/system-tables/CapabilityUsageSysLine.md)
     - [CashierTransactionEntry](/modules/system-tables/CashierTransactionEntry.md)

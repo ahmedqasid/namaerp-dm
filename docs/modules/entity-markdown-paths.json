@@ -219,6 +219,7 @@
   "CRMQuestion" : "crm/CRMQuestion.md",
   "CRMQuestionair" : "crm/CRMQuestionair.md",
   "CRMQuestionairTemplate" : "crm/CRMQuestionairTemplate.md",
+  "CRMRejectionReason" : "system-tables/CRMRejectionReason.md",
   "CRMServiceContract" : "crm/CRMServiceContract.md",
   "CRMTargetPlan" : "crm/CRMTargetPlan.md",
   "CRMTask" : "crm/CRMTask.md",

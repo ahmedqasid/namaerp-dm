@@ -486,6 +486,7 @@ export const entityPathsMap: Record<string, string> = {
   "CRMQuestionairResponse" : "crm/CRMQuestionair.html#responses",
   "CRMQuestionairTemplate" : "crm/CRMQuestionairTemplate.html",
   "CRMQuestionairTemplateLine" : "crm/CRMQuestionairTemplate.html#lines",
+  "CRMRejectionReason" : "system-tables/CRMRejectionReason.html",
   "CRMServiceContract" : "crm/CRMServiceContract.html",
   "CRMAdditionsLine" : "crm/CRMServiceContract.html#additionLines",
   "ServiceContractLine" : "crm/CRMServiceContract.html#details",

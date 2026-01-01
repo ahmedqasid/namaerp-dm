@@ -78,6 +78,18 @@
 
 </div>
 
+<div class="row searchable" id="bankAccountForTransfer">
+<div class="cell" data-label="Property">bankAccountForTransfer</div>
+<div class="cell" data-label="Column">bankAccountForTransfer_id</div>
+<div class="cell" data-label="Arabic">الحساب البنكي للتحويل</div>
+<div class="cell" data-label="English">Bank Account For Transfer</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [BankAccount](/modules/accounting-banks/BankAccount.md) 
+</div>
+</div>
+
 <div class="row searchable" id="branch">
 <div class="cell" data-label="Property">branch</div>
 <div class="cell" data-label="Column">branch_id</div>
@@ -549,6 +561,18 @@
 
 </div>
 
+<div class="row searchable" id="itemFilterCriteria">
+<div class="cell" data-label="Property">itemFilterCriteria</div>
+<div class="cell" data-label="Column">itemFilterCriteria_id</div>
+<div class="cell" data-label="Arabic">معيار فلترة الأصناف</div>
+<div class="cell" data-label="English">Item Filter Criteria</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CriteriaDefinition](/modules/basic/CriteriaDefinition.md) 
+</div>
+</div>
+
 <div class="row searchable" id="kitchenNetFacebookURL">
 <div class="cell" data-label="Property">kitchenNetFacebookURL</div>
 <div class="cell" data-label="Column">kitchenNetFacebookURL</div>
@@ -967,6 +991,18 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
+</div>
+
+<div class="row searchable" id="splashImage">
+<div class="cell" data-label="Property">splashImage</div>
+<div class="cell" data-label="Column">splashImage_id</div>
+<div class="cell" data-label="Arabic">صورة البداية لتطبيق المطابخ</div>
+<div class="cell" data-label="English">Kitchen App Splash Screen Image</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
 </div>
 
 <div class="row searchable" id="splashVideo">

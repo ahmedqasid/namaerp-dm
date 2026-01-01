@@ -2692,6 +2692,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.canceled">
+<div class="cell" data-label="Property">details.canceled</div>
+<div class="cell" data-label="Column">canceled</div>
+<div class="cell" data-label="Arabic">الحالة |ملغي</div>
+<div class="cell" data-label="English">Status | canceled</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="details.colorName">
 <div class="cell" data-label="Property">details.colorName</div>
 <div class="cell" data-label="Column">colorName</div>
@@ -4871,6 +4880,15 @@
 
  [CalculationFormula](/modules/supplychain/CalculationFormula.md) 
 </div>
+</div>
+
+<div class="row searchable" id="receiptsLines.canceled">
+<div class="cell" data-label="Property">receiptsLines.canceled</div>
+<div class="cell" data-label="Column">canceled</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Decimal</div>
+
 </div>
 
 <div class="row searchable" id="receiptsLines.colorName">

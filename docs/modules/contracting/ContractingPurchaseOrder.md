@@ -2569,6 +2569,15 @@
 
 </div>
 
+<div class="row searchable" id="details.analysisTermRemark">
+<div class="cell" data-label="Property">details.analysisTermRemark</div>
+<div class="cell" data-label="Column">analysisTermRemark</div>
+<div class="cell" data-label="Arabic">وصف البند التحليلى</div>
+<div class="cell" data-label="English">Analysis Term Remark</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
 <div class="row searchable" id="details.applyInvoiceDiscounts">
 <div class="cell" data-label="Property">details.applyInvoiceDiscounts</div>
 <div class="cell" data-label="Column">applyInvoiceDiscounts</div>

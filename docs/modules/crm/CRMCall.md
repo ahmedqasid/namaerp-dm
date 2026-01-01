@@ -306,6 +306,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="currentRejectionReason">
+<div class="cell" data-label="Property">currentRejectionReason</div>
+<div class="cell" data-label="Column">currentRejectionReason_id</div>
+<div class="cell" data-label="Arabic">سبب الرفض الحالي</div>
+<div class="cell" data-label="English">Current Rejection Reason</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CRMRejectionReason](/modules/system-tables/CRMRejectionReason.md) 
+</div>
+</div>
+
 <div class="row searchable" id="currentVersion">
 <div class="cell" data-label="Property">currentVersion</div>
 <div class="cell" data-label="Column">currentVersion</div>
@@ -862,6 +874,18 @@
 <div class="cell" data-label="English">Number 5</div>
 <div class="cell" data-label="Type">Decimal</div>
 
+</div>
+
+<div class="row searchable" id="newRejectionReason">
+<div class="cell" data-label="Property">newRejectionReason</div>
+<div class="cell" data-label="Column">newRejectionReason_id</div>
+<div class="cell" data-label="Arabic">سبب الرفض الجديد</div>
+<div class="cell" data-label="English">New Rejection Reason</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CRMRejectionReason](/modules/system-tables/CRMRejectionReason.md) 
+</div>
 </div>
 
 <div class="row searchable" id="nextActivityType">
@@ -1793,6 +1817,15 @@
 <div class="cell" data-label="Arabic">ملاحظات</div>
 <div class="cell" data-label="English">Description</div>
 <div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="products.selectedProduct">
+<div class="cell" data-label="Property">products.selectedProduct</div>
+<div class="cell" data-label="Column">selectedProduct</div>
+<div class="cell" data-label="Arabic">المنتج المختار</div>
+<div class="cell" data-label="English">Selected Product</div>
+<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 

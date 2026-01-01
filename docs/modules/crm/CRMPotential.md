@@ -819,6 +819,18 @@
 
 </div>
 
+<div class="row searchable" id="leadRejectionReason">
+<div class="cell" data-label="Property">leadRejectionReason</div>
+<div class="cell" data-label="Column">leadRejectionReason_id</div>
+<div class="cell" data-label="Arabic">سبب الرفض</div>
+<div class="cell" data-label="English">Rejection Reason</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CRMRejectionReason](/modules/system-tables/CRMRejectionReason.md) 
+</div>
+</div>
+
 <div class="row searchable" id="leadSource">
 <div class="cell" data-label="Property">leadSource</div>
 <div class="cell" data-label="Column">leadSource</div>
@@ -960,6 +972,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="plannedReCallDate">
+<div class="cell" data-label="Property">plannedReCallDate</div>
+<div class="cell" data-label="Column">plannedReCallDate</div>
+<div class="cell" data-label="Arabic">التاريخ المخطط لمعاودة الإتصال</div>
+<div class="cell" data-label="English">Planned Re Call Date</div>
+<div class="cell" data-label="Type">Date</div>
 
 </div>
 
@@ -1947,6 +1968,15 @@
 <div class="cell" data-label="Arabic">ملاحظات</div>
 <div class="cell" data-label="English">Description</div>
 <div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="products.selectedProduct">
+<div class="cell" data-label="Property">products.selectedProduct</div>
+<div class="cell" data-label="Column">selectedProduct</div>
+<div class="cell" data-label="Arabic">المنتج المختار</div>
+<div class="cell" data-label="English">Selected Product</div>
+<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
