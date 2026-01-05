@@ -827,7 +827,7 @@
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [CRMRejectionReason](/modules/system-tables/CRMRejectionReason.md) 
+ [CRMRejectionReason](/modules/crm/CRMRejectionReason.md) 
 </div>
 </div>
 

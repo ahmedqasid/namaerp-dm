@@ -963,7 +963,7 @@
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [ItemSizeClassification](/modules/system-tables/ItemSizeClassification.md) 
+ [ItemSizeClassification](/modules/supplychain/ItemSizeClassification.md) 
 </div>
 </div>
 

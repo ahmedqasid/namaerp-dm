@@ -1030,7 +1030,7 @@
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [ItemColorClassification](/modules/system-tables/ItemColorClassification.md) 
+ [ItemColorClassification](/modules/supplychain/ItemColorClassification.md) 
 </div>
 </div>
 
@@ -1213,7 +1213,7 @@
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [ItemSizeClassification](/modules/system-tables/ItemSizeClassification.md) 
+ [ItemSizeClassification](/modules/supplychain/ItemSizeClassification.md) 
 </div>
 </div>
 
@@ -1626,7 +1626,7 @@
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [ItemColorClassification](/modules/system-tables/ItemColorClassification.md) 
+ [ItemColorClassification](/modules/supplychain/ItemColorClassification.md) 
 </div>
 </div>
 
@@ -1809,7 +1809,7 @@
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [ItemSizeClassification](/modules/system-tables/ItemSizeClassification.md) 
+ [ItemSizeClassification](/modules/supplychain/ItemSizeClassification.md) 
 </div>
 </div>
 

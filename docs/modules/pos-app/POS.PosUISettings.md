@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#cancelReservationGridFields'>cancelReservationGridFields (POSCancelReservationGridLine) </a> , <a href='#cancelReservationMainFields'>cancelReservationMainFields (POSCancelReservationMainLine) </a> , <a href='#cancelReservationOtherFields'>cancelReservationOtherFields (POSCancelReservationOtherLine) </a> , <a href='#customerDisplayWindowFooterFields'>customerDisplayWindowFooterFields (POSCustomerDisplayWindowFooterField) </a> , <a href='#customerDisplayWindowHeaderFields'>customerDisplayWindowHeaderFields (POSCustomerDisplayWindowHeaderField) </a> , <a href='#customerDisplayWindowTableColumns'>customerDisplayWindowTableColumns (POSCustomerDisplayWindowTableColumn) </a> , <a href='#customerFields'>customerFields (POSCustomerFieldLine) </a> , <a href='#mainPageFields'>mainPageFields (POSRegisterMainLine) </a> , <a href='#orderReservationGridFields'>orderReservationGridFields (POSOrderReservationGridLine) </a> , <a href='#orderReservationMainFields'>orderReservationMainFields (POSOrderReservationMainLine) </a> , <a href='#orderReservationOtherFields'>orderReservationOtherFields (POSOrderReservationOtherLine) </a> , <a href='#otherPageFields'>otherPageFields (POSRegisterOtherLine) </a> , <a href='#procedures'>procedures (PosUISettings_POSFavProcedureLine) </a> , <a href='#replacementGridFields'>replacementGridFields (POSReplacementGridLine) </a> , <a href='#replacementMainFields'>replacementMainFields (POSReplacementMainLine) </a> , <a href='#replacementOtherFields'>replacementOtherFields (POSReplacementOtherLine) </a> , <a href='#returnGridFields'>returnGridFields (POSReturnGridLine) </a> , <a href='#returnMainFields'>returnMainFields (POSReturnMainLine) </a> , <a href='#returnOtherFields'>returnOtherFields (POSReturnOtherLine) </a> , <a href='#salesGridFields'>salesGridFields (POSRegisterGridLine) </a> , <a href='#scrapDocGridFields'>scrapDocGridFields (POSScrapDocGridLine) </a> , <a href='#scrapDocMainFields'>scrapDocMainFields (POSScrapDocMainLine) </a> , <a href='#scrapDocOtherFields'>scrapDocOtherFields (POSScrapDocOtherLine) </a> , <a href='#searchDialogueConfigLines'>searchDialogueConfigLines (POSUISettingsSearchDialogueConfigLine) </a> , <a href='#searchDialogueFields'>searchDialogueFields (POSUISettingsSearchDialogueColumn) </a> , <a href='#searchDialogueFilters'>searchDialogueFilters (POSUISettingsSearchDialogueFilterLine) </a> , <a href='#shortfallsDocGridFields'>shortfallsDocGridFields (POSShortfallsDocGridLine) </a> , <a href='#shortfallsDocMainFields'>shortfallsDocMainFields (POSShortfallsDocMainLine) </a> , <a href='#shortfallsDocOtherFields'>shortfallsDocOtherFields (POSShortfallsDocOtherLine) </a> , <a href='#stockReceiptGridFields'>stockReceiptGridFields (POSStockReceiptGridLine) </a> , <a href='#stockReceiptMainFields'>stockReceiptMainFields (POSStockReceiptMainLine) </a> , <a href='#stockReceiptOtherFields'>stockReceiptOtherFields (POSStockReceiptOtherLine) </a> , <a href='#takingGridFields'>takingGridFields (POSTakingGridLine) </a> , <a href='#takingMainFields'>takingMainFields (POSTakingMainLine) </a> , <a href='#takingOtherFields'>takingOtherFields (POSTakingOtherLine) </a> , <a href='#transferGridFields'>transferGridFields (POSTransferGridLine) </a> , <a href='#transferMainFields'>transferMainFields (POSTransferMainLine) </a> , <a href='#transferOtherFields'>transferOtherFields (POSTransferOtherLine) </a>
+<a href='#cancelReservationGridFields'>cancelReservationGridFields (POSCancelReservationGridLine) </a> , <a href='#cancelReservationMainFields'>cancelReservationMainFields (POSCancelReservationMainLine) </a> , <a href='#cancelReservationOtherFields'>cancelReservationOtherFields (POSCancelReservationOtherLine) </a> , <a href='#customerDisplayWindowFooterFields'>customerDisplayWindowFooterFields (POSCustomerDisplayWindowFooterField) </a> , <a href='#customerDisplayWindowHeaderFields'>customerDisplayWindowHeaderFields (POSCustomerDisplayWindowHeaderField) </a> , <a href='#customerDisplayWindowTableColumns'>customerDisplayWindowTableColumns (POSCustomerDisplayWindowTableColumn) </a> , <a href='#customerFields'>customerFields (POSCustomerFieldLine) </a> , <a href='#mainPageFields'>mainPageFields (POSRegisterMainLine) </a> , <a href='#orderReservationGridFields'>orderReservationGridFields (POSOrderReservationGridLine) </a> , <a href='#orderReservationMainFields'>orderReservationMainFields (POSOrderReservationMainLine) </a> , <a href='#orderReservationOtherFields'>orderReservationOtherFields (POSOrderReservationOtherLine) </a> , <a href='#otherPageFields'>otherPageFields (POSRegisterOtherLine) </a> , <a href='#paymentReceiptFields'>paymentReceiptFields (POSPaymentReceiptFieldLine) </a> , <a href='#procedures'>procedures (PosUISettings_POSFavProcedureLine) </a> , <a href='#replacementGridFields'>replacementGridFields (POSReplacementGridLine) </a> , <a href='#replacementMainFields'>replacementMainFields (POSReplacementMainLine) </a> , <a href='#replacementOtherFields'>replacementOtherFields (POSReplacementOtherLine) </a> , <a href='#returnGridFields'>returnGridFields (POSReturnGridLine) </a> , <a href='#returnMainFields'>returnMainFields (POSReturnMainLine) </a> , <a href='#returnOtherFields'>returnOtherFields (POSReturnOtherLine) </a> , <a href='#salesGridFields'>salesGridFields (POSRegisterGridLine) </a> , <a href='#scrapDocGridFields'>scrapDocGridFields (POSScrapDocGridLine) </a> , <a href='#scrapDocMainFields'>scrapDocMainFields (POSScrapDocMainLine) </a> , <a href='#scrapDocOtherFields'>scrapDocOtherFields (POSScrapDocOtherLine) </a> , <a href='#searchDialogueConfigLines'>searchDialogueConfigLines (POSUISettingsSearchDialogueConfigLine) </a> , <a href='#searchDialogueFields'>searchDialogueFields (POSUISettingsSearchDialogueColumn) </a> , <a href='#searchDialogueFilters'>searchDialogueFilters (POSUISettingsSearchDialogueFilterLine) </a> , <a href='#shortfallsDocGridFields'>shortfallsDocGridFields (POSShortfallsDocGridLine) </a> , <a href='#shortfallsDocMainFields'>shortfallsDocMainFields (POSShortfallsDocMainLine) </a> , <a href='#shortfallsDocOtherFields'>shortfallsDocOtherFields (POSShortfallsDocOtherLine) </a> , <a href='#stockReceiptGridFields'>stockReceiptGridFields (POSStockReceiptGridLine) </a> , <a href='#stockReceiptMainFields'>stockReceiptMainFields (POSStockReceiptMainLine) </a> , <a href='#stockReceiptOtherFields'>stockReceiptOtherFields (POSStockReceiptOtherLine) </a> , <a href='#takingGridFields'>takingGridFields (POSTakingGridLine) </a> , <a href='#takingMainFields'>takingMainFields (POSTakingMainLine) </a> , <a href='#takingOtherFields'>takingOtherFields (POSTakingOtherLine) </a> , <a href='#transferGridFields'>transferGridFields (POSTransferGridLine) </a> , <a href='#transferMainFields'>transferMainFields (POSTransferMainLine) </a> , <a href='#transferOtherFields'>transferOtherFields (POSTransferOtherLine) </a>
 </div>
 
 <div class='searchable'>
@@ -1895,6 +1895,85 @@
 
 <div class="row searchable" id="otherPageFields.widthSize">
 <div class="cell" data-label="Property">otherPageFields.widthSize</div>
+<div class="cell" data-label="Column">widthSize</div>
+<div class="cell" data-label="Arabic">مقاس العرض</div>
+<div class="cell" data-label="English">Width Size</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='paymentReceiptFields' title='paymentReceiptFields' class='searchable'>
+
+## paymentReceiptFields (حقول شاشتي الصرف و القبض - Payment Receipt Screen Fields)
+
+<div class='tableName'>
+
+**Table Name:** POSPaymentReceiptFieldLine, **Join Column:** posUISettings_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="paymentReceiptFields.entityType">
+<div class="cell" data-label="Property">paymentReceiptFields.entityType</div>
+<div class="cell" data-label="Column">entityType</div>
+<div class="cell" data-label="Arabic">النوع</div>
+<div class="cell" data-label="English">Entity Type</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentReceiptFields.field">
+<div class="cell" data-label="Property">paymentReceiptFields.field</div>
+<div class="cell" data-label="Column">field</div>
+<div class="cell" data-label="Arabic">الحقل</div>
+<div class="cell" data-label="English">Field</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="paymentReceiptFields.id">
+<div class="cell" data-label="Property">paymentReceiptFields.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="paymentReceiptFields.lineNumber">
+<div class="cell" data-label="Property">paymentReceiptFields.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="paymentReceiptFields.posSettings">
+<div class="cell" data-label="Property">paymentReceiptFields.posSettings</div>
+<div class="cell" data-label="Column">posSettings_id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [POS.PosUISettings](/modules/pos-app/POS.PosUISettings.md) 
+</div>
+</div>
+
+<div class="row searchable" id="paymentReceiptFields.widthSize">
+<div class="cell" data-label="Property">paymentReceiptFields.widthSize</div>
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>

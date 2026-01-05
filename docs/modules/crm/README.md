@@ -29,6 +29,7 @@
   - [CRMQuestion](/modules/crm/CRMQuestion.md)
   - [CRMQuestionair](/modules/crm/CRMQuestionair.md)
   - [CRMQuestionairTemplate](/modules/crm/CRMQuestionairTemplate.md)
+  - [CRMRejectionReason](/modules/crm/CRMRejectionReason.md)
   - [CRMServiceContract](/modules/crm/CRMServiceContract.md)
   - [CRMTargetPlan](/modules/crm/CRMTargetPlan.md)
   - [CRMTask](/modules/crm/CRMTask.md)
