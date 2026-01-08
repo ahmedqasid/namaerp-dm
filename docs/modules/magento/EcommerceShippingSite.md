@@ -372,6 +372,15 @@
 
 </div>
 
+<div class="row searchable" id="generatedSalesReturnSaveBehavior">
+<div class="cell" data-label="Property">generatedSalesReturnSaveBehavior</div>
+<div class="cell" data-label="Column">generatedSalesReturnSaveBehavior</div>
+<div class="cell" data-label="Arabic">طريقة حفظ مردود المبيعات المنشأ</div>
+<div class="cell" data-label="English">Generated Sales Return Save Behavior</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="generationType">
 <div class="cell" data-label="Property">generationType</div>
 <div class="cell" data-label="Column">generationType</div>

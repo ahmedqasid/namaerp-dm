@@ -802,6 +802,42 @@
 </div>
 </div>
 
+<div class="row searchable" id="mustUsePublicAnalysisSetOnly">
+<div class="cell" data-label="Property">mustUsePublicAnalysisSetOnly</div>
+<div class="cell" data-label="Column">mustUsePublicAnalysisSetOnly</div>
+<div class="cell" data-label="Arabic">يجب استعماله مع المجموعة التحليلية عام فقط</div>
+<div class="cell" data-label="English">Must Use With Public Analysis Set Only</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="mustUsePublicBranchOnly">
+<div class="cell" data-label="Property">mustUsePublicBranchOnly</div>
+<div class="cell" data-label="Column">mustUsePublicBranchOnly</div>
+<div class="cell" data-label="Arabic">يجب استعماله مع الفرع عام فقط</div>
+<div class="cell" data-label="English">Must Use With Public Branch Only</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="mustUsePublicDepartmentOnly">
+<div class="cell" data-label="Property">mustUsePublicDepartmentOnly</div>
+<div class="cell" data-label="Column">mustUsePublicDepartmentOnly</div>
+<div class="cell" data-label="Arabic">يجب استعماله مع الإدارة عام فقط</div>
+<div class="cell" data-label="English">Must Use With Public Department Only</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="mustUsePublicSectorOnly">
+<div class="cell" data-label="Property">mustUsePublicSectorOnly</div>
+<div class="cell" data-label="Column">mustUsePublicSectorOnly</div>
+<div class="cell" data-label="Arabic">يجب استعماله مع القطاع عام فقط</div>
+<div class="cell" data-label="English">Must Use With Public Sector Only</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="n1">
 <div class="cell" data-label="Property">n1</div>
 <div class="cell" data-label="Column">n1</div>

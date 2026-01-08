@@ -651,6 +651,15 @@
 
 </div>
 
+<div class="row searchable" id="ledgerTransReqId">
+<div class="cell" data-label="Property">ledgerTransReqId</div>
+<div class="cell" data-label="Column">ledgerTransReqId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
 <div class="row searchable" id="legalEntity">
 <div class="cell" data-label="Property">legalEntity</div>
 <div class="cell" data-label="Column">legalEntity_id</div>

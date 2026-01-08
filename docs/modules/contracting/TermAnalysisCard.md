@@ -129,6 +129,18 @@
 
 </div>
 
+<div class="row searchable" id="contractTemplate">
+<div class="cell" data-label="Property">contractTemplate</div>
+<div class="cell" data-label="Column">contractTemplate_id</div>
+<div class="cell" data-label="Arabic">نموذج العقد</div>
+<div class="cell" data-label="English">Contract Template</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [ContractTemplate](/modules/contracting/ContractTemplate.md) 
+</div>
+</div>
+
 <div class="row searchable" id="createTransactionId">
 <div class="cell" data-label="Property">createTransactionId</div>
 <div class="cell" data-label="Column">createTransactionId</div>
