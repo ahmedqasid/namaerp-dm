@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#services'>services (MnOrderExecutionServices) </a> , <a href='#spareParts'>spareParts (MnOrderExecutionSpareParts) </a> , <a href='#tasks'>tasks (MnOrderExecutionTaskLine) </a>
+<a href='#dysfunctions'>dysfunctions (MnOrderExecutionDysfunction) </a> , <a href='#services'>services (MnOrderExecutionServices) </a> , <a href='#spareParts'>spareParts (MnOrderExecutionSpareParts) </a> , <a href='#tasks'>tasks (MnOrderExecutionTaskLine) </a>
 </div>
 
 <div class='searchable'>
@@ -2530,6 +2530,292 @@
 
  [WarrantyPeriodType](/modules/crm-maintenance/WarrantyPeriodType.md) 
 </div>
+</div>
+
+
+</div>
+</div>
+
+<div id='dysfunctions' title='dysfunctions' class='searchable'>
+
+## dysfunctions ( الأعطال -  Dysfunctions)
+
+<div class='tableName'>
+
+**Table Name:** MnOrderExecutionDysfunction, **Join Column:** mnOrderExecution_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="dysfunctions.date1">
+<div class="cell" data-label="Property">dysfunctions.date1</div>
+<div class="cell" data-label="Column">date1</div>
+<div class="cell" data-label="Arabic">تـــاريخ 1</div>
+<div class="cell" data-label="English">Date 1</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.date2">
+<div class="cell" data-label="Property">dysfunctions.date2</div>
+<div class="cell" data-label="Column">date2</div>
+<div class="cell" data-label="Arabic">تـــاريخ 2</div>
+<div class="cell" data-label="English">Date 2</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.description1">
+<div class="cell" data-label="Property">dysfunctions.description1</div>
+<div class="cell" data-label="Column">description1</div>
+<div class="cell" data-label="Arabic">الوصف 1</div>
+<div class="cell" data-label="English">description1</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.description2">
+<div class="cell" data-label="Property">dysfunctions.description2</div>
+<div class="cell" data-label="Column">description2</div>
+<div class="cell" data-label="Arabic">الوصف 2</div>
+<div class="cell" data-label="English">description2</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.description3">
+<div class="cell" data-label="Property">dysfunctions.description3</div>
+<div class="cell" data-label="Column">description3</div>
+<div class="cell" data-label="Arabic">الوصف 3</div>
+<div class="cell" data-label="English">description3</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.description4">
+<div class="cell" data-label="Property">dysfunctions.description4</div>
+<div class="cell" data-label="Column">description4</div>
+<div class="cell" data-label="Arabic">الوصف 4</div>
+<div class="cell" data-label="English">description4</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.description5">
+<div class="cell" data-label="Property">dysfunctions.description5</div>
+<div class="cell" data-label="Column">description5</div>
+<div class="cell" data-label="Arabic">الوصف 5</div>
+<div class="cell" data-label="English">description5</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.dysfunction">
+<div class="cell" data-label="Property">dysfunctions.dysfunction</div>
+<div class="cell" data-label="Column">dysfunction_id</div>
+<div class="cell" data-label="Arabic"> عطل</div>
+<div class="cell" data-label="English"> Dysfunction</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [MnDysfunction](/modules/crm-maintenance/MnDysfunction.md) 
+</div>
+</div>
+
+<div class="row searchable" id="dysfunctions.dysfunctionDetails">
+<div class="cell" data-label="Property">dysfunctions.dysfunctionDetails</div>
+<div class="cell" data-label="Column">dysfunctionDetails</div>
+<div class="cell" data-label="Arabic">تفاصيل العطل</div>
+<div class="cell" data-label="English">DysFunction Details</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.id">
+<div class="cell" data-label="Property">dysfunctions.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.lineNumber">
+<div class="cell" data-label="Property">dysfunctions.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.machine">
+<div class="cell" data-label="Property">dysfunctions.machine</div>
+<div class="cell" data-label="Column">machine_id</div>
+<div class="cell" data-label="Arabic">الالة</div>
+<div class="cell" data-label="English">machine</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [MnMachine](/modules/crm-maintenance/MnMachine.md) 
+</div>
+</div>
+
+<div class="row searchable" id="dysfunctions.n1">
+<div class="cell" data-label="Property">dysfunctions.n1</div>
+<div class="cell" data-label="Column">n1</div>
+<div class="cell" data-label="Arabic">رقم 1</div>
+<div class="cell" data-label="English">Number 1</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.n2">
+<div class="cell" data-label="Property">dysfunctions.n2</div>
+<div class="cell" data-label="Column">n2</div>
+<div class="cell" data-label="Arabic">رقم 2</div>
+<div class="cell" data-label="English">Number 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.newWarrantyEndDate">
+<div class="cell" data-label="Property">dysfunctions.newWarrantyEndDate</div>
+<div class="cell" data-label="Column">newWarrantyEndDate</div>
+<div class="cell" data-label="Arabic">تاريخ نهاية الضمان الجديد</div>
+<div class="cell" data-label="English">New Warranty End Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.newWarrantyPeriodType">
+<div class="cell" data-label="Property">dysfunctions.newWarrantyPeriodType</div>
+<div class="cell" data-label="Column">newWarrantyPeriodType_id</div>
+<div class="cell" data-label="Arabic">نوع فترة الضمان الجديد</div>
+<div class="cell" data-label="English">New Warranty Period Type</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [WarrantyPeriodType](/modules/crm-maintenance/WarrantyPeriodType.md) 
+</div>
+</div>
+
+<div class="row searchable" id="dysfunctions.newWarrantyStartDate">
+<div class="cell" data-label="Property">dysfunctions.newWarrantyStartDate</div>
+<div class="cell" data-label="Column">newWarrantyStartDate</div>
+<div class="cell" data-label="Arabic">تاريخ بداية الضمان الجديد</div>
+<div class="cell" data-label="English">New Warranty Start Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.oldWarrantyEndDate">
+<div class="cell" data-label="Property">dysfunctions.oldWarrantyEndDate</div>
+<div class="cell" data-label="Column">oldWarrantyEndDate</div>
+<div class="cell" data-label="Arabic">تاريخ نهاية الضمان السابق</div>
+<div class="cell" data-label="English">Previous Warranty End Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.oldWarrantyPeriodType">
+<div class="cell" data-label="Property">dysfunctions.oldWarrantyPeriodType</div>
+<div class="cell" data-label="Column">oldWarrantyPeriodType_id</div>
+<div class="cell" data-label="Arabic">نوع فترة الضمان السابق</div>
+<div class="cell" data-label="English">Previous Warranty Period Type</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [WarrantyPeriodType](/modules/crm-maintenance/WarrantyPeriodType.md) 
+</div>
+</div>
+
+<div class="row searchable" id="dysfunctions.oldWarrantyRemainingDays">
+<div class="cell" data-label="Property">dysfunctions.oldWarrantyRemainingDays</div>
+<div class="cell" data-label="Column">oldWarrantyRemainingDays</div>
+<div class="cell" data-label="Arabic">الأيام الباقية في الضمان السابق</div>
+<div class="cell" data-label="English">Previous Warranty Remaining Days</div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.oldWarrantyStartDate">
+<div class="cell" data-label="Property">dysfunctions.oldWarrantyStartDate</div>
+<div class="cell" data-label="Column">oldWarrantyStartDate</div>
+<div class="cell" data-label="Arabic">تاريخ بداية الضمان السابق</div>
+<div class="cell" data-label="English">Previous Warranty Start Date</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.originDoc">
+<div class="cell" data-label="Property">dysfunctions.originDoc</div>
+<div class="cell gen-ref-column" data-label="Column">originDocActualCode,  originDocCode,  originDocEntityType,  originDocId</div>
+<div class="cell" data-label="Arabic"> # المستند</div>
+<div class="cell" data-label="English"> Document #</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.proposedSolution">
+<div class="cell" data-label="Property">dysfunctions.proposedSolution</div>
+<div class="cell" data-label="Column">proposedSolution</div>
+<div class="cell" data-label="Arabic">الحل المقترح</div>
+<div class="cell" data-label="English">Proposed Solution</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.ref1">
+<div class="cell" data-label="Property">dysfunctions.ref1</div>
+<div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
+<div class="cell" data-label="Arabic">مرجع 1</div>
+<div class="cell" data-label="English">Reference 1</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.ref2">
+<div class="cell" data-label="Property">dysfunctions.ref2</div>
+<div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
+<div class="cell" data-label="Arabic">مرجع 2</div>
+<div class="cell" data-label="English">Reference 2</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.ref3">
+<div class="cell" data-label="Property">dysfunctions.ref3</div>
+<div class="cell gen-ref-column" data-label="Column">ref3ActualCode,  ref3Code,  ref3EntityType,  ref3Id</div>
+<div class="cell" data-label="Arabic">مرجع 3</div>
+<div class="cell" data-label="English">Reference 3</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.ref4">
+<div class="cell" data-label="Property">dysfunctions.ref4</div>
+<div class="cell gen-ref-column" data-label="Column">ref4ActualCode,  ref4Code,  ref4EntityType,  ref4Id</div>
+<div class="cell" data-label="Arabic">مرجع 4</div>
+<div class="cell" data-label="English">Reference 4</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="dysfunctions.ref5">
+<div class="cell" data-label="Property">dysfunctions.ref5</div>
+<div class="cell gen-ref-column" data-label="Column">ref5ActualCode,  ref5Code,  ref5EntityType,  ref5Id</div>
+<div class="cell" data-label="Arabic">مرجع 5</div>
+<div class="cell" data-label="English">Reference 5</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
 </div>
 
 

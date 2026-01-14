@@ -203,7 +203,7 @@
 <div class="cell" data-label="Property">currentMarketValue</div>
 <div class="cell" data-label="Column">currentMarketValue</div>
 <div class="cell" data-label="Arabic">القيمة السوقية الحالية بناء علي آخر سعر</div>
-<div class="cell" data-label="English">Current Market Value Dependant On Last Price</div>
+<div class="cell" data-label="English">Current Market Value Dependent On Last Price</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>

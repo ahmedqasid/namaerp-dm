@@ -1034,6 +1034,15 @@
 
 </div>
 
+<div class="row searchable" id="fcmDeviceTokens">
+<div class="cell" data-label="Property">fcmDeviceTokens</div>
+<div class="cell" data-label="Column">fcmDeviceTokens</div>
+<div class="cell" data-label="Arabic">User Device Tokens For Mobile Apps</div>
+<div class="cell" data-label="English">User Device Tokens For Mobile Apps</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
 <div class="row searchable" id="firstAuthor">
 <div class="cell" data-label="Property">firstAuthor</div>
 <div class="cell" data-label="Column">firstAuthor_id</div>

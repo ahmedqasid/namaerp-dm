@@ -137,6 +137,15 @@
 
 </div>
 
+<div class="row searchable" id="fcmUserEntityType">
+<div class="cell" data-label="Property">fcmUserEntityType</div>
+<div class="cell" data-label="Column">fcmUserEntityType</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">EntityType</div>
+
+</div>
+
 <div class="row searchable" id="fcmUserId">
 <div class="cell" data-label="Property">fcmUserId</div>
 <div class="cell" data-label="Column">fcmUserId</div>

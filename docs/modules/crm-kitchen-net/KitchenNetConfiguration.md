@@ -573,6 +573,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="kitchenDesignTemplate">
+<div class="cell" data-label="Property">kitchenDesignTemplate</div>
+<div class="cell" data-label="Column">kitchenDesignTemplate_id</div>
+<div class="cell" data-label="Arabic">قالب الاستبيان الخاص بتصميم المطبخ</div>
+<div class="cell" data-label="English">Kitchen Design Template</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CRMQuestionairTemplate](/modules/crm/CRMQuestionairTemplate.md) 
+</div>
+</div>
+
 <div class="row searchable" id="kitchenNetFacebookURL">
 <div class="cell" data-label="Property">kitchenNetFacebookURL</div>
 <div class="cell" data-label="Column">kitchenNetFacebookURL</div>
@@ -589,6 +601,18 @@
 <div class="cell" data-label="English">Instagram URL</div>
 <div class="cell" data-label="Type">Link</div>
 
+</div>
+
+<div class="row searchable" id="kitchenNetLoginImage">
+<div class="cell" data-label="Property">kitchenNetLoginImage</div>
+<div class="cell" data-label="Column">kitchenNetLoginImage_id</div>
+<div class="cell" data-label="Arabic">صورة تسجيل الدخول</div>
+<div class="cell" data-label="English">Login Image</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
 </div>
 
 <div class="row searchable" id="kitchenNetOnBoardingImage1">
@@ -723,6 +747,18 @@
 <div class="cell" data-label="Foreign Table">
 
  [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="measurementVisitFilterCriteria">
+<div class="cell" data-label="Property">measurementVisitFilterCriteria</div>
+<div class="cell" data-label="Column">measurementVisitFilterCriteria_id</div>
+<div class="cell" data-label="Arabic">معيار فلترة سندات زيارة</div>
+<div class="cell" data-label="English">Measurement Visit Filter Criteria</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CriteriaDefinition](/modules/basic/CriteriaDefinition.md) 
 </div>
 </div>
 
