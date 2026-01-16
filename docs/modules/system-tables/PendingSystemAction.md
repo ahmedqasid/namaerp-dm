@@ -119,6 +119,15 @@
 
 </div>
 
+<div class="row searchable" id="notifyRecordAfterFinish">
+<div class="cell" data-label="Property">notifyRecordAfterFinish</div>
+<div class="cell" data-label="Column">notifyRecordAfterFinish</div>
+<div class="cell" data-label="Arabic">Notify Record After Finish</div>
+<div class="cell" data-label="English">Notify Record After Finish</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="relatedToId1">
 <div class="cell" data-label="Property">relatedToId1</div>
 <div class="cell" data-label="Column">relatedToId1</div>

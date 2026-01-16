@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#actionLines'>actionLines (ScreenActionLine) </a> , <a href='#addedGrids'>addedGrids (ScreenGridAdder) </a> , <a href='#addedGroups'>addedGroups (ScreenGroupAdder) </a> , <a href='#compositeLines'>compositeLines (CompositeFieldLine) </a> , <a href='#criteriaFields'>criteriaFields (CriteriaFieldModifier) </a> , <a href='#displayColumns'>displayColumns (DisplayColumnModifier) </a> , <a href='#embeddedEditLines'>embeddedEditLines (ScreenLayoutEmbeddedEditLine) </a> , <a href='#fillFieldsFromColumn'>fillFieldsFromColumn (ScreenFillFields) </a> , <a href='#modifiedGrids'>modifiedGrids (ScreenGridModifier) </a> , <a href='#modifiedGroups'>modifiedGroups (ScreenGroupModifier) </a> , <a href='#pageBlocks'>pageBlocks (ScreenBlockModifier) </a> , <a href='#pageDashBoards'>pageDashBoards (PageDashBoardLine) </a> , <a href='#pageLines'>pageLines (AddPageLine) </a> , <a href='#pageReports'>pageReports (PageReportLine) </a> , <a href='#quickFilters'>quickFilters (ScreenModifierListQuickFilter) </a> , <a href='#removedActions'>removedActions (ScreenActionRemover) </a> , <a href='#removedFields'>removedFields (ScreenFieldRemover) </a> , <a href='#removedPages'>removedPages (ScreenPageRemover) </a> , <a href='#searchCriteriaFields'>searchCriteriaFields (ScreenSearchCriteriaFields) </a> , <a href='#searchDisplayColumns'>searchDisplayColumns (ScreenSearchDisplayColumns) </a> , <a href='#searchForFields'>searchForFields (ScreenSearchForFields) </a> , <a href='#searchSortFields'>searchSortFields (ScreenSearchSortFields) </a> , <a href='#searcherTemplateColumns'>searcherTemplateColumns (SearcherTemplateModifier) </a> , <a href='#sortFields'>sortFields (SortColumnModifier) </a> , <a href='#templateColumns'>templateColumns (TemplateColumnModifier) </a>
+<a href='#actionLines'>actionLines (ScreenActionLine) </a> , <a href='#addedGrids'>addedGrids (ScreenGridAdder) </a> , <a href='#addedGroups'>addedGroups (ScreenGroupAdder) </a> , <a href='#compositeLines'>compositeLines (CompositeFieldLine) </a> , <a href='#criteriaFields'>criteriaFields (CriteriaFieldModifier) </a> , <a href='#displayColumns'>displayColumns (DisplayColumnModifier) </a> , <a href='#embeddedEditLines'>embeddedEditLines (ScreenLayoutEmbeddedEditLine) </a> , <a href='#fillFieldsFromColumn'>fillFieldsFromColumn (ScreenFillFields) </a> , <a href='#modifiedGrids'>modifiedGrids (ScreenGridModifier) </a> , <a href='#modifiedGroups'>modifiedGroups (ScreenGroupModifier) </a> , <a href='#pageBlocks'>pageBlocks (ScreenBlockModifier) </a> , <a href='#pageDashBoards'>pageDashBoards (PageDashBoardLine) </a> , <a href='#pageLines'>pageLines (AddPageLine) </a> , <a href='#pageReports'>pageReports (PageReportLine) </a> , <a href='#quickFilters'>quickFilters (ScreenModifierListQuickFilter) </a> , <a href='#removedActions'>removedActions (ScreenActionRemover) </a> , <a href='#removedFields'>removedFields (ScreenFieldRemover) </a> , <a href='#removedPages'>removedPages (ScreenPageRemover) </a> , <a href='#searchCriteriaFields'>searchCriteriaFields (ScreenSearchCriteriaFields) </a> , <a href='#searchDisplayColumns'>searchDisplayColumns (ScreenSearchDisplayColumns) </a> , <a href='#searchForFields'>searchForFields (ScreenSearchForFields) </a> , <a href='#searchQuickFilters'>searchQuickFilters (ScreenModifierSearchListQuickFilter) </a> , <a href='#searchSortFields'>searchSortFields (ScreenSearchSortFields) </a> , <a href='#searcherTemplateColumns'>searcherTemplateColumns (SearcherTemplateModifier) </a> , <a href='#sortFields'>sortFields (SortColumnModifier) </a> , <a href='#templateColumns'>templateColumns (TemplateColumnModifier) </a>
 </div>
 
 <div class='searchable'>
@@ -4629,6 +4629,133 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='searchQuickFilters' title='searchQuickFilters' class='searchable'>
+
+## searchQuickFilters (الفلترة السريعة لقائمة الإختيار - Search Quick Filter)
+
+<div class='tableName'>
+
+**Table Name:** ScreenModifierSearchListQuickFilter, **Join Column:** screenModifier_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="searchQuickFilters.arTitle">
+<div class="cell" data-label="Property">searchQuickFilters.arTitle</div>
+<div class="cell" data-label="Column">arTitle</div>
+<div class="cell" data-label="Arabic">العنوان العربى</div>
+<div class="cell" data-label="English">Arabic Title</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="searchQuickFilters.columnNames">
+<div class="cell" data-label="Property">searchQuickFilters.columnNames</div>
+<div class="cell" data-label="Column">columnNames</div>
+<div class="cell" data-label="Arabic">أسماء الأعمدة</div>
+<div class="cell" data-label="English">Column Names</div>
+<div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
+<div class="row searchable" id="searchQuickFilters.criteria">
+<div class="cell" data-label="Property">searchQuickFilters.criteria</div>
+<div class="cell" data-label="Column">criteria_id</div>
+<div class="cell" data-label="Arabic">المعايير</div>
+<div class="cell" data-label="English">Criteria</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [QuickFilterCriteria](/modules/basic/QuickFilterCriteria.md) 
+</div>
+</div>
+
+<div class="row searchable" id="searchQuickFilters.enTitle">
+<div class="cell" data-label="Property">searchQuickFilters.enTitle</div>
+<div class="cell" data-label="Column">enTitle</div>
+<div class="cell" data-label="Arabic">العنوان الإنجليزي</div>
+<div class="cell" data-label="English">English Title</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="searchQuickFilters.id">
+<div class="cell" data-label="Property">searchQuickFilters.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="searchQuickFilters.lineNumber">
+<div class="cell" data-label="Property">searchQuickFilters.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="searchQuickFilters.maxButtonCount">
+<div class="cell" data-label="Property">searchQuickFilters.maxButtonCount</div>
+<div class="cell" data-label="Column">maxButtonCount</div>
+<div class="cell" data-label="Arabic">العدد الأقصى للأزرار</div>
+<div class="cell" data-label="English">Max Button Count</div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="searchQuickFilters.quickFilterValuesCriteria">
+<div class="cell" data-label="Property">searchQuickFilters.quickFilterValuesCriteria</div>
+<div class="cell" data-label="Column">quickFilterValuesCriteria_id</div>
+<div class="cell" data-label="Arabic">المعايير المستعملة للبحث عن قيم الفلترة السريعة</div>
+<div class="cell" data-label="English">Quick Filter Values Criteria</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CriteriaDefinition](/modules/basic/CriteriaDefinition.md) 
+</div>
+</div>
+
+<div class="row searchable" id="searchQuickFilters.quickFilterValuesDynamicCriteria">
+<div class="cell" data-label="Property">searchQuickFilters.quickFilterValuesDynamicCriteria</div>
+<div class="cell" data-label="Column">quickFilterValuesDynamicCriteria</div>
+<div class="cell" data-label="Arabic">المعايير النصية لقيم الفلترة السريعة</div>
+<div class="cell" data-label="English">Quick Filter Values Dynamic Criteria</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="searchQuickFilters.remove">
+<div class="cell" data-label="Property">searchQuickFilters.remove</div>
+<div class="cell" data-label="Column">remove</div>
+<div class="cell" data-label="Arabic">حذف</div>
+<div class="cell" data-label="English">Remove</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="searchQuickFilters.showCount">
+<div class="cell" data-label="Property">searchQuickFilters.showCount</div>
+<div class="cell" data-label="Column">showCount</div>
+<div class="cell" data-label="Arabic">إظهار العدد</div>
+<div class="cell" data-label="English">Show Count</div>
+<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 

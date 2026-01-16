@@ -435,6 +435,15 @@
 
 </div>
 
+<div class="row searchable" id="discountPercentageInsurance">
+<div class="cell" data-label="Property">discountPercentageInsurance</div>
+<div class="cell" data-label="Column">discountPercentageInsurance</div>
+<div class="cell" data-label="Arabic">نسبة خصم التأمين</div>
+<div class="cell" data-label="English">Insurance Discount Percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="discountValueInsurance">
 <div class="cell" data-label="Property">discountValueInsurance</div>
 <div class="cell" data-label="Column">discountValueInsurance</div>

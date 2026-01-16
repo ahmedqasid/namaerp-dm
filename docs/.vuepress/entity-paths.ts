@@ -4233,6 +4233,7 @@ export const entityPathsMap: Record<string, string> = {
   "ScreenSearchCriteriaFields" : "basic/ScreenModifier.html#searchCriteriaFields",
   "ScreenSearchDisplayColumns" : "basic/ScreenModifier.html#searchDisplayColumns",
   "ScreenSearchForFields" : "basic/ScreenModifier.html#searchForFields",
+  "ScreenModifierSearchListQuickFilter" : "basic/ScreenModifier.html#searchQuickFilters",
   "ScreenSearchSortFields" : "basic/ScreenModifier.html#searchSortFields",
   "SearcherTemplateModifier" : "basic/ScreenModifier.html#searcherTemplateColumns",
   "SortColumnModifier" : "basic/ScreenModifier.html#sortFields",

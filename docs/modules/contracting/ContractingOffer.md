@@ -1709,6 +1709,15 @@
 
 </div>
 
+<div class="row searchable" id="contractors.executedContractQty">
+<div class="cell" data-label="Property">contractors.executedContractQty</div>
+<div class="cell" data-label="Column">executedContractQty</div>
+<div class="cell" data-label="Arabic">الكمية المنفذة من البند التعاقدي</div>
+<div class="cell" data-label="English">Executed Contract Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="contractors.executiveTermCode">
 <div class="cell" data-label="Property">contractors.executiveTermCode</div>
 <div class="cell" data-label="Column">executiveTermCode</div>
@@ -2493,6 +2502,15 @@
 
 </div>
 
+<div class="row searchable" id="items.executedContractQty">
+<div class="cell" data-label="Property">items.executedContractQty</div>
+<div class="cell" data-label="Column">executedContractQty</div>
+<div class="cell" data-label="Arabic">الكمية المنفذة من البند التعاقدي</div>
+<div class="cell" data-label="English">Executed Contract Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="items.executiveTermCode">
 <div class="cell" data-label="Property">items.executiveTermCode</div>
 <div class="cell" data-label="Column">executiveTermCode</div>
@@ -3274,6 +3292,15 @@
 <div class="cell" data-label="Arabic">وصف بند الموازنة التقديرية</div>
 <div class="cell" data-label="English">Estimated Term Remark</div>
 <div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="otherExpenses.executedContractQty">
+<div class="cell" data-label="Property">otherExpenses.executedContractQty</div>
+<div class="cell" data-label="Column">executedContractQty</div>
+<div class="cell" data-label="Arabic">الكمية المنفذة من البند التعاقدي</div>
+<div class="cell" data-label="English">Executed Contract Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 
@@ -5798,6 +5825,15 @@
 <div class="cell" data-label="Arabic">وصف بند الموازنة التقديرية</div>
 <div class="cell" data-label="English">Estimated Term Remark</div>
 <div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="workers.executedContractQty">
+<div class="cell" data-label="Property">workers.executedContractQty</div>
+<div class="cell" data-label="Column">executedContractQty</div>
+<div class="cell" data-label="Arabic">الكمية المنفذة من البند التعاقدي</div>
+<div class="cell" data-label="English">Executed Contract Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 
