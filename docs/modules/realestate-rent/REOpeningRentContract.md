@@ -1272,6 +1272,15 @@
 
 </div>
 
+<div class="row searchable" id="totalDiscount">
+<div class="cell" data-label="Property">totalDiscount</div>
+<div class="cell" data-label="Column">totalDiscount</div>
+<div class="cell" data-label="Arabic">إجمالي الخصم</div>
+<div class="cell" data-label="English">Total Discount</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="totalInsuranceValue">
 <div class="cell" data-label="Property">totalInsuranceValue</div>
 <div class="cell" data-label="Column">totalInsuranceValue</div>
