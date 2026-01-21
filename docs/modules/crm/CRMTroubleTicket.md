@@ -2817,6 +2817,15 @@
 
 </div>
 
+<div class="row searchable" id="totalExecutionTime">
+<div class="cell" data-label="Property">totalExecutionTime</div>
+<div class="cell" data-label="Column">totalExecutionTime</div>
+<div class="cell" data-label="Arabic">إجمالي وقت التنفيذ</div>
+<div class="cell" data-label="English">Total Execution Time</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="updateCapability">
 <div class="cell" data-label="Property">updateCapability</div>
 <div class="cell" data-label="Column">updateCapability_id</div>
@@ -7497,6 +7506,15 @@
 
 </div>
 
+<div class="row searchable" id="executionLines.empTotalExecutionTime">
+<div class="cell" data-label="Property">executionLines.empTotalExecutionTime</div>
+<div class="cell" data-label="Column">empTotalExecutionTime</div>
+<div class="cell" data-label="Arabic">إجمالي وقت التنفيذ للموظف</div>
+<div class="cell" data-label="English">Employee Total Execution Time</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="executionLines.employee">
 <div class="cell" data-label="Property">executionLines.employee</div>
 <div class="cell" data-label="Column">employee_id</div>
@@ -7662,6 +7680,15 @@
 
 </div>
 
+<div class="row searchable" id="executionLines.status">
+<div class="cell" data-label="Property">executionLines.status</div>
+<div class="cell" data-label="Column">status</div>
+<div class="cell" data-label="Arabic">الحالة</div>
+<div class="cell" data-label="English">Status</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="executionLines.t1">
 <div class="cell" data-label="Property">executionLines.t1</div>
 <div class="cell" data-label="Column">t1</div>
@@ -7749,6 +7776,15 @@
 <div class="cell" data-label="Arabic">نص 5</div>
 <div class="cell" data-label="English">text5</div>
 <div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="executionLines.troubleTicketDocId">
+<div class="cell" data-label="Property">executionLines.troubleTicketDocId</div>
+<div class="cell" data-label="Column">troubleTicketDocId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
 
 </div>
 

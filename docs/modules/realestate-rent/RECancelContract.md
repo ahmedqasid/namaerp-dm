@@ -444,11 +444,47 @@
 
 </div>
 
+<div class="row searchable" id="discountPercentageMaintenance">
+<div class="cell" data-label="Property">discountPercentageMaintenance</div>
+<div class="cell" data-label="Column">discountPercentageMaintenance</div>
+<div class="cell" data-label="Arabic">نسبة خصم تكاليف الصيانة</div>
+<div class="cell" data-label="English">Maintenance Discount Percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="discountPercentageWater">
+<div class="cell" data-label="Property">discountPercentageWater</div>
+<div class="cell" data-label="Column">discountPercentageWater</div>
+<div class="cell" data-label="Arabic">نسبة خصم تكاليف المياه</div>
+<div class="cell" data-label="English">Water Discount Percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="discountValueInsurance">
 <div class="cell" data-label="Property">discountValueInsurance</div>
 <div class="cell" data-label="Column">discountValueInsurance</div>
 <div class="cell" data-label="Arabic">خصم قيمة التامين</div>
 <div class="cell" data-label="English">Discount Value Insurance</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="discountValueMaintenance">
+<div class="cell" data-label="Property">discountValueMaintenance</div>
+<div class="cell" data-label="Column">discountValueMaintenance</div>
+<div class="cell" data-label="Arabic">قيمة خصم تكاليف الصيانة</div>
+<div class="cell" data-label="English">Maintenance Discount Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="discountValueWater">
+<div class="cell" data-label="Property">discountValueWater</div>
+<div class="cell" data-label="Column">discountValueWater</div>
+<div class="cell" data-label="Arabic">قيمة خصم تكاليف المياه</div>
+<div class="cell" data-label="English">Water Discount Value</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>

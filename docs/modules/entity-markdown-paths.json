@@ -276,6 +276,7 @@
   "ChartTree" : "system-tables/ChartTree.md",
   "ChatConversation" : "system-tables/ChatConversation.md",
   "ChatMessage" : "system-tables/ChatMessage.md",
+  "ChatParticipant" : "system-tables/ChatParticipant.md",
   "ClonePayReceiptEntry" : "system-tables/ClonePayReceiptEntry.md",
   "ClosingEntry" : "accounting/ClosingEntry.md",
   "ComponentCalcFormula" : "humanresource-payroll/ComponentCalcFormula.md",

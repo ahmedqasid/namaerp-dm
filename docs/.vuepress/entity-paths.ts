@@ -615,6 +615,7 @@ export const entityPathsMap: Record<string, string> = {
   "ChartTree" : "system-tables/ChartTree.html",
   "ChatConversation" : "system-tables/ChatConversation.html",
   "ChatMessage" : "system-tables/ChatMessage.html",
+  "ChatParticipant" : "system-tables/ChatParticipant.html",
   "ClonePayReceiptEntry" : "system-tables/ClonePayReceiptEntry.html",
   "ClosingEntry" : "accounting/ClosingEntry.html",
   "ClosingEntryDocLine" : "accounting/ClosingEntry.html#docs",

@@ -990,6 +990,18 @@
 
 </div>
 
+<div class="row searchable" id="jasperFonts">
+<div class="cell" data-label="Property">jasperFonts</div>
+<div class="cell" data-label="Column">jasperFonts_id</div>
+<div class="cell" data-label="Arabic">خطوط خاصة ب Jasper</div>
+<div class="cell" data-label="English">Jasper Fonts</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
 <div class="row searchable" id="lastChangeVersion">
 <div class="cell" data-label="Property">lastChangeVersion</div>
 <div class="cell" data-label="Column">lastChangeVersion</div>

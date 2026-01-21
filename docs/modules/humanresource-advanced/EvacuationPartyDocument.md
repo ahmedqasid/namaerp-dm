@@ -850,6 +850,15 @@
 
 </div>
 
+<div class="row searchable" id="daysDiffBetweenStartingAndReturnDate">
+<div class="cell" data-label="Property">daysDiffBetweenStartingAndReturnDate</div>
+<div class="cell" data-label="Column">daysDiffBetweenStartingAndReturnDate</div>
+<div class="cell" data-label="Arabic">فرق الأيام بين تاريخ المباشرة وتاريخ العودة</div>
+<div class="cell" data-label="English">Days Diff Between Starting And Return Date</div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
 <div class="row searchable" id="department">
 <div class="cell" data-label="Property">department</div>
 <div class="cell" data-label="Column">department_id</div>

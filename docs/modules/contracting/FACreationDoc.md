@@ -1321,6 +1321,15 @@
 
 </div>
 
+<div class="row searchable" id="details.originLineId">
+<div class="cell" data-label="Property">details.originLineId</div>
+<div class="cell" data-label="Column">originLineId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
 <div class="row searchable" id="details.price.custom">
 <div class="cell" data-label="Property">details.price.custom</div>
 <div class="cell" data-label="Column">custom</div>

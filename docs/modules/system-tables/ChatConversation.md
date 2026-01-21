@@ -20,12 +20,39 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="createdAt">
+</div><div class="row searchable" id="chatConversationType">
+<div class="cell" data-label="Property">chatConversationType</div>
+<div class="cell" data-label="Column">chatConversationType</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="createdAt">
 <div class="cell" data-label="Property">createdAt</div>
 <div class="cell" data-label="Column">createdAt</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Created At</div>
 <div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
+<div class="row searchable" id="groupOwner">
+<div class="cell" data-label="Property">groupOwner</div>
+<div class="cell gen-ref-column" data-label="Column">groupOwnerActualCode,  groupOwnerCode,  groupOwnerEntityType,  groupOwnerId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="groupTitle">
+<div class="cell" data-label="Property">groupTitle</div>
+<div class="cell" data-label="Column">groupTitle</div>
+<div class="cell" data-label="Arabic">المعرف</div>
+<div class="cell" data-label="English">Id</div>
+<div class="cell" data-label="Type">Text</div>
 
 </div>
 
@@ -65,48 +92,21 @@
 
 </div>
 
-<div class="row searchable" id="participant1">
-<div class="cell" data-label="Property">participant1</div>
-<div class="cell gen-ref-column" data-label="Column">participant1ActualCode,  participant1Code,  participant1EntityType,  participant1Id</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
-<div class="row searchable" id="participant2">
-<div class="cell" data-label="Property">participant2</div>
-<div class="cell gen-ref-column" data-label="Column">participant2ActualCode,  participant2Code,  participant2EntityType,  participant2Id</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
-
-</div>
-
-<div class="row searchable" id="subject">
-<div class="cell" data-label="Property">subject</div>
-<div class="cell" data-label="Column">subject</div>
-<div class="cell" data-label="Arabic">العنوان</div>
-<div class="cell" data-label="English">Subject</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="unreadCountParticipant1">
-<div class="cell" data-label="Property">unreadCountParticipant1</div>
-<div class="cell" data-label="Column">unreadCountParticipant1</div>
+<div class="row searchable" id="participantCount">
+<div class="cell" data-label="Property">participantCount</div>
+<div class="cell" data-label="Column">participantCount</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
 
 </div>
 
-<div class="row searchable" id="unreadCountParticipant2">
-<div class="cell" data-label="Property">unreadCountParticipant2</div>
-<div class="cell" data-label="Column">unreadCountParticipant2</div>
+<div class="row searchable" id="updatedAt">
+<div class="cell" data-label="Property">updatedAt</div>
+<div class="cell" data-label="Column">updatedAt</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">DateAndTime</div>
 
 </div>
 

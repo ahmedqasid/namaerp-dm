@@ -723,6 +723,15 @@
 
 </div>
 
+<div class="row searchable" id="ignoreStartingDateWhenCalculatingVacationPeriod">
+<div class="cell" data-label="Property">ignoreStartingDateWhenCalculatingVacationPeriod</div>
+<div class="cell" data-label="Column">ignoreStartingDateWhenCalculatingVacationPeriod</div>
+<div class="cell" data-label="Arabic">تجاهل تاريخ مباشرة العمل عند حساب مدة الأجازة</div>
+<div class="cell" data-label="English">Ignore Work Starting Date When Calculating Vacation Period</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="includeHoliday">
 <div class="cell" data-label="Property">includeHoliday</div>
 <div class="cell" data-label="Column">includeHoliday</div>

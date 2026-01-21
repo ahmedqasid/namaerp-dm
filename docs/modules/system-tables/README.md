@@ -35,6 +35,7 @@
   - [ChartTree](/modules/system-tables/ChartTree.md)
   - [ChatConversation](/modules/system-tables/ChatConversation.md)
   - [ChatMessage](/modules/system-tables/ChatMessage.md)
+  - [ChatParticipant](/modules/system-tables/ChatParticipant.md)
   - [ClonePayReceiptEntry](/modules/system-tables/ClonePayReceiptEntry.md)
   - [ConfigSalaryComponentLine](/modules/system-tables/ConfigSalaryComponentLine.md)
   - [ContPaymentTransactionEntry](/modules/system-tables/ContPaymentTransactionEntry.md)

@@ -1608,6 +1608,15 @@
 
 </div>
 
+<div class="row searchable" id="totalUnsatisfiedQty">
+<div class="cell" data-label="Property">totalUnsatisfiedQty</div>
+<div class="cell" data-label="Column">totalUnsatisfiedQty</div>
+<div class="cell" data-label="Arabic">إجمالي الغير مسلم</div>
+<div class="cell" data-label="English">Total Unsatisfied Qty</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="updateCapability">
 <div class="cell" data-label="Property">updateCapability</div>
 <div class="cell" data-label="Column">updateCapability_id</div>
@@ -1774,6 +1783,15 @@
 
 </div>
 
+<div class="row searchable" id="details.originLineId">
+<div class="cell" data-label="Property">details.originLineId</div>
+<div class="cell" data-label="Column">originLineId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
 <div class="row searchable" id="details.quantity">
 <div class="cell" data-label="Property">details.quantity</div>
 <div class="cell" data-label="Column">quantity</div>
@@ -1837,6 +1855,15 @@
 
 </div>
 
+<div class="row searchable" id="details.satisfiedQty">
+<div class="cell" data-label="Property">details.satisfiedQty</div>
+<div class="cell" data-label="Column">satisfiedQty</div>
+<div class="cell" data-label="Arabic">نفذت</div>
+<div class="cell" data-label="English">Satisfied Qty</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="details.text1">
 <div class="cell" data-label="Property">details.text1</div>
 <div class="cell" data-label="Column">text1</div>
@@ -1879,6 +1906,15 @@
 <div class="cell" data-label="Arabic">نص 5</div>
 <div class="cell" data-label="English">text5</div>
 <div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.unsatisfiedQty">
+<div class="cell" data-label="Property">details.unsatisfiedQty</div>
+<div class="cell" data-label="Column">unsatisfiedQty</div>
+<div class="cell" data-label="Arabic">الكمية الغير مستلمة</div>
+<div class="cell" data-label="English">Unsatisfied Quantity</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 

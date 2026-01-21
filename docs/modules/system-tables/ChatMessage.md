@@ -41,15 +41,6 @@
 
 </div>
 
-<div class="row searchable" id="deletedByReceiver">
-<div class="cell" data-label="Property">deletedByReceiver</div>
-<div class="cell" data-label="Column">deletedByReceiver</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
 <div class="row searchable" id="deletedBySender">
 <div class="cell" data-label="Property">deletedBySender</div>
 <div class="cell" data-label="Column">deletedBySender</div>
@@ -83,6 +74,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="isDeleted">
+<div class="cell" data-label="Property">isDeleted</div>
+<div class="cell" data-label="Column">isDeleted</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
@@ -137,15 +137,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">DateAndTime</div>
-
-</div>
-
-<div class="row searchable" id="receiver">
-<div class="cell" data-label="Property">receiver</div>
-<div class="cell gen-ref-column" data-label="Column">receiverActualCode,  receiverCode,  receiverEntityType,  receiverId</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
 
 </div>
 
