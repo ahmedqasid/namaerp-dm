@@ -270,6 +270,15 @@
 
 </div>
 
+<div class="row searchable" id="jasperFontsId">
+<div class="cell" data-label="Property">jasperFontsId</div>
+<div class="cell" data-label="Column">jasperFontsId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="lastUpdateDate">
 <div class="cell" data-label="Property">lastUpdateDate</div>
 <div class="cell" data-label="Column">lastUpdateDate</div>

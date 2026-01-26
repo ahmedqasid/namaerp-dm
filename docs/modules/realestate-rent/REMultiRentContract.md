@@ -1209,6 +1209,24 @@
 
 </div>
 
+<div class="row searchable" id="values.treatMaintenanceAsInstallments">
+<div class="cell" data-label="Property">values.treatMaintenanceAsInstallments</div>
+<div class="cell" data-label="Column">treatMaintenanceAsInstallments</div>
+<div class="cell" data-label="Arabic">معاملة تكاليف الصيانة معاملة الأقساط</div>
+<div class="cell" data-label="English">Treat Maintenance Costs As Installments</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="values.treatWaterAsInstallments">
+<div class="cell" data-label="Property">values.treatWaterAsInstallments</div>
+<div class="cell" data-label="Column">treatWaterAsInstallments</div>
+<div class="cell" data-label="Arabic">معاملة المياه معاملة الأقساط</div>
+<div class="cell" data-label="English">Treat Water Costs As Installments</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="values.waterExpensePercentage">
 <div class="cell" data-label="Property">values.waterExpensePercentage</div>
 <div class="cell" data-label="Column">waterExpensePercentage</div>
@@ -1810,6 +1828,24 @@
 <div class="cell" data-label="Arabic">إجمالي ايجارات العقد</div>
 <div class="cell" data-label="English">total RentValue</div>
 <div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="lines.values.treatMaintenanceAsInstallments">
+<div class="cell" data-label="Property">lines.values.treatMaintenanceAsInstallments</div>
+<div class="cell" data-label="Column">treatMaintenanceAsInstallments</div>
+<div class="cell" data-label="Arabic">معاملة تكاليف الصيانة معاملة الأقساط</div>
+<div class="cell" data-label="English">Treat Maintenance Costs As Installments</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="lines.values.treatWaterAsInstallments">
+<div class="cell" data-label="Property">lines.values.treatWaterAsInstallments</div>
+<div class="cell" data-label="Column">treatWaterAsInstallments</div>
+<div class="cell" data-label="Arabic">معاملة المياه معاملة الأقساط</div>
+<div class="cell" data-label="English">Treat Water Costs As Installments</div>
+<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
