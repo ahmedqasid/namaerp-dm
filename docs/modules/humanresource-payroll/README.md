@@ -43,6 +43,7 @@
   - [HolidaysRestBalanceDoc](/modules/humanresource-payroll/HolidaysRestBalanceDoc.md)
   - [JobOffer](/modules/humanresource-payroll/JobOffer.md)
   - [LeavePermission](/modules/humanresource-payroll/LeavePermission.md)
+  - [LeavePermissionConfiguration](/modules/humanresource-payroll/LeavePermissionConfiguration.md)
   - [LeavePermissionReq](/modules/humanresource-payroll/LeavePermissionReq.md)
   - [LeaveReason](/modules/humanresource-payroll/LeaveReason.md)
   - [ManualMeasures](/modules/humanresource-payroll/ManualMeasures.md)

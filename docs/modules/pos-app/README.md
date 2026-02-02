@@ -98,6 +98,7 @@
   - [POS.POSTranslationOverrider (Table Name: POSTranslationOverrider)](/modules/pos-app/POS.POSTranslationOverrider.md)
   - [POS.POSUnit (Table Name: POSUnit)](/modules/pos-app/POS.POSUnit.md)
   - [POS.POSUser (Table Name: POSUser)](/modules/pos-app/POS.POSUser.md)
+  - [POS.POSUserFingerprint (Table Name: POSUserFingerprint)](/modules/pos-app/POS.POSUserFingerprint.md)
   - [POS.POSVendor (Table Name: POSVendor)](/modules/pos-app/POS.POSVendor.md)
   - [POS.POSWarehouse (Table Name: POSWarehouse)](/modules/pos-app/POS.POSWarehouse.md)
   - [POS.PosAddressRegion (Table Name: PosAddressRegion)](/modules/pos-app/POS.PosAddressRegion.md)

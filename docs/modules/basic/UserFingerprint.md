@@ -2,17 +2,17 @@
 <div class='tableName'>
 
 
-# MobileEntityTitleModifier
+# UserFingerprint
 </div>
 
-**Arabic:** طريقة عرض بيانات المستند فى التطبيق - طرق عرض بيانات المستند فى التطبيق
-**English:** Mobile Entity Title Modifier - Mobile Entity Title Modifiers
+**Arabic:** بصمات المستخدم - بصمات المستخدمين
+**English:** User Fingerprints - Users Fingerprints
 
 <ContentFilter/>
 
 
 <div class='searchable'>
-<a href='#details'>details (MobileEntityTitleModifierLine) </a>
+<a href='#details'>details (UserFingerprintLine) </a>
 </div>
 
 <div class='searchable'>
@@ -402,15 +402,6 @@
 
 </div>
 
-<div class="row searchable" id="inActive">
-<div class="cell" data-label="Property">inActive</div>
-<div class="cell" data-label="Column">inActive</div>
-<div class="cell" data-label="Arabic">غير نشط</div>
-<div class="cell" data-label="English">Inactive</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
 <div class="row searchable" id="indexInParent">
 <div class="cell" data-label="Property">indexInParent</div>
 <div class="cell" data-label="Column">indexInParent</div>
@@ -735,6 +726,18 @@
 
 </div>
 
+<div class="row searchable" id="user">
+<div class="cell" data-label="Property">user</div>
+<div class="cell" data-label="Column">user_id</div>
+<div class="cell" data-label="Arabic">المستخدم</div>
+<div class="cell" data-label="English">User</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [NaMaUser](/modules/system-tables/NaMaUser.md) 
+</div>
+</div>
+
 <div class="row searchable" id="viewCapability">
 <div class="cell" data-label="Property">viewCapability</div>
 <div class="cell" data-label="Column">viewCapability_id</div>
@@ -766,7 +769,7 @@
 
 <div class='tableName'>
 
-**Table Name:** MobileEntityTitleModifierLine, **Join Column:** mobileEntityTitleModifier_id
+**Table Name:** UserFingerprintLine, **Join Column:** userFingerprint_id
 
 </div>
 
@@ -778,12 +781,21 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="details.fieldName">
-<div class="cell" data-label="Property">details.fieldName</div>
-<div class="cell" data-label="Column">fieldName</div>
-<div class="cell" data-label="Arabic">الحقل</div>
-<div class="cell" data-label="English">Field Name</div>
-<div class="cell" data-label="Type">FieldID</div>
+</div><div class="row searchable" id="details.creationDate">
+<div class="cell" data-label="Property">details.creationDate</div>
+<div class="cell" data-label="Column">creationDate</div>
+<div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
+<div class="cell" data-label="English">Creation Date</div>
+<div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
+<div class="row searchable" id="details.fingerprintTemplate">
+<div class="cell" data-label="Property">details.fingerprintTemplate</div>
+<div class="cell" data-label="Column">fingerprintTemplate</div>
+<div class="cell" data-label="Arabic">قالب البصمة</div>
+<div class="cell" data-label="English">Fingerprint Template</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
@@ -805,111 +817,12 @@
 
 </div>
 
-<div class="row searchable" id="details.mobileEntityType">
-<div class="cell" data-label="Property">details.mobileEntityType</div>
-<div class="cell" data-label="Column">mobileEntityType</div>
-<div class="cell" data-label="Arabic">نوع السجل في التطبيق</div>
-<div class="cell" data-label="English">Mobile Entity Type</div>
-<div class="cell" data-label="Type">Enum</div>
-
-</div>
-
-<div class="row searchable" id="details.template1">
-<div class="cell" data-label="Property">details.template1</div>
-<div class="cell" data-label="Column">template1</div>
-<div class="cell" data-label="Arabic">قالب 1</div>
-<div class="cell" data-label="English">Template 1</div>
+<div class="row searchable" id="details.remarks">
+<div class="cell" data-label="Property">details.remarks</div>
+<div class="cell" data-label="Column">remarks</div>
+<div class="cell" data-label="Arabic"> ملاحظات</div>
+<div class="cell" data-label="English"> Description</div>
 <div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="details.template10">
-<div class="cell" data-label="Property">details.template10</div>
-<div class="cell" data-label="Column">template10</div>
-<div class="cell" data-label="Arabic">قالب 10</div>
-<div class="cell" data-label="English">Template 10</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="details.template2">
-<div class="cell" data-label="Property">details.template2</div>
-<div class="cell" data-label="Column">template2</div>
-<div class="cell" data-label="Arabic">قالب 2</div>
-<div class="cell" data-label="English">Template 2</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="details.template3">
-<div class="cell" data-label="Property">details.template3</div>
-<div class="cell" data-label="Column">template3</div>
-<div class="cell" data-label="Arabic">قالب 3</div>
-<div class="cell" data-label="English">Template 3</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="details.template4">
-<div class="cell" data-label="Property">details.template4</div>
-<div class="cell" data-label="Column">template4</div>
-<div class="cell" data-label="Arabic">قالب 4</div>
-<div class="cell" data-label="English">Template 4</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="details.template5">
-<div class="cell" data-label="Property">details.template5</div>
-<div class="cell" data-label="Column">template5</div>
-<div class="cell" data-label="Arabic">قالب 5</div>
-<div class="cell" data-label="English">Template 5</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="details.template6">
-<div class="cell" data-label="Property">details.template6</div>
-<div class="cell" data-label="Column">template6</div>
-<div class="cell" data-label="Arabic">قالب 6</div>
-<div class="cell" data-label="English">Template 6</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="details.template7">
-<div class="cell" data-label="Property">details.template7</div>
-<div class="cell" data-label="Column">template7</div>
-<div class="cell" data-label="Arabic">قالب 7</div>
-<div class="cell" data-label="English">Template 7</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="details.template8">
-<div class="cell" data-label="Property">details.template8</div>
-<div class="cell" data-label="Column">template8</div>
-<div class="cell" data-label="Arabic">قالب 8</div>
-<div class="cell" data-label="English">Template 8</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="details.template9">
-<div class="cell" data-label="Property">details.template9</div>
-<div class="cell" data-label="Column">template9</div>
-<div class="cell" data-label="Arabic">قالب 9</div>
-<div class="cell" data-label="English">Template 9</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="details.titleType">
-<div class="cell" data-label="Property">details.titleType</div>
-<div class="cell" data-label="Column">titleType</div>
-<div class="cell" data-label="Arabic">نوع العرض</div>
-<div class="cell" data-label="English">Title Type</div>
-<div class="cell" data-label="Type">Enum</div>
 
 </div>
 

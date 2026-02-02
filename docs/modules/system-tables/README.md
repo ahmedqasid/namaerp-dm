@@ -156,7 +156,6 @@
   - [JOSalesOrderStatusEntry](/modules/system-tables/JOSalesOrderStatusEntry.md)
   - [LGTEntry](/modules/system-tables/LGTEntry.md)
   - [LargeData](/modules/system-tables/LargeData.md)
-  - [LeavePermissionConfiguration](/modules/system-tables/LeavePermissionConfiguration.md)
   - [LedgerTrans](/modules/system-tables/LedgerTrans.md)
   - [LedgerTransReq](/modules/system-tables/LedgerTransReq.md)
   - [LedgerTransReqQue](/modules/system-tables/LedgerTransReqQue.md)

@@ -1500,6 +1500,15 @@
 
 </div>
 
+<div class="row searchable" id="taxInfo.specialNumber">
+<div class="cell" data-label="Property">taxInfo.specialNumber</div>
+<div class="cell" data-label="Column">taxInfoSpecialNumber</div>
+<div class="cell" data-label="Arabic">الرقم المميز</div>
+<div class="cell" data-label="English">Special Number</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="taxInfo.supplier">
 <div class="cell" data-label="Property">taxInfo.supplier</div>
 <div class="cell" data-label="Column">taxInfoSupplier</div>

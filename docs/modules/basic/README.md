@@ -151,6 +151,7 @@
   - [UpdateCustomerInfo](/modules/basic/UpdateCustomerInfo.md)
   - [UserFavourites](/modules/basic/UserFavourites.md)
   - [UserFieldFilter](/modules/basic/UserFieldFilter.md)
+  - [UserFingerprint](/modules/basic/UserFingerprint.md)
   - [UserMobileIdentifierDocument](/modules/basic/UserMobileIdentifierDocument.md)
   - [UserTimedQuery](/modules/basic/UserTimedQuery.md)
   - [UsersCounter](/modules/basic/UsersCounter.md)

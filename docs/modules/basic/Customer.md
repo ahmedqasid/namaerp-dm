@@ -836,6 +836,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="customerDeleted">
+<div class="cell" data-label="Property">customerDeleted</div>
+<div class="cell" data-label="Column">customerDeleted</div>
+<div class="cell" data-label="Arabic">تم حذف العميل</div>
+<div class="cell" data-label="English">Customer Deleted</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="date1">
 <div class="cell" data-label="Property">date1</div>
 <div class="cell" data-label="Column">date1</div>
@@ -2242,6 +2251,15 @@
 <div class="cell" data-label="Column">taxInfoMissionCode</div>
 <div class="cell" data-label="Arabic">كود</div>
 <div class="cell" data-label="English">Code</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="taxInfo.specialNumber">
+<div class="cell" data-label="Property">taxInfo.specialNumber</div>
+<div class="cell" data-label="Column">taxInfoSpecialNumber</div>
+<div class="cell" data-label="Arabic">الرقم المميز</div>
+<div class="cell" data-label="English">Special Number</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>
