@@ -781,6 +781,15 @@
 
 </div>
 
+<div class="row searchable" id="preventAccessToChat">
+<div class="cell" data-label="Property">preventAccessToChat</div>
+<div class="cell" data-label="Column">preventAccessToChat</div>
+<div class="cell" data-label="Arabic">منع الوصول إلى المحادثات اللحظية</div>
+<div class="cell" data-label="English">Prevent Access To Instant Chat</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="preventUsage">
 <div class="cell" data-label="Property">preventUsage</div>
 <div class="cell" data-label="Column">preventUsage</div>

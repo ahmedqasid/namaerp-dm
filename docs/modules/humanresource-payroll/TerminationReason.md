@@ -489,6 +489,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="maxEOSMonths">
+<div class="cell" data-label="Property">maxEOSMonths</div>
+<div class="cell" data-label="Column">maxEOSMonths</div>
+<div class="cell" data-label="Arabic">الحد الأقصى لأشهر مكافأة نهاية الخدمة</div>
+<div class="cell" data-label="English">Maximum End of Service Months</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="n1">
 <div class="cell" data-label="Property">n1</div>
 <div class="cell" data-label="Column">n1</div>

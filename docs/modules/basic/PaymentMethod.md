@@ -648,6 +648,24 @@
 
 </div>
 
+<div class="row searchable" id="hideInReturnsPayment">
+<div class="cell" data-label="Property">hideInReturnsPayment</div>
+<div class="cell" data-label="Column">hideInReturnsPayment</div>
+<div class="cell" data-label="Arabic">إخفاء في دفع المردودات</div>
+<div class="cell" data-label="English">Hide In Returns Payment</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="hideInSalesPayment">
+<div class="cell" data-label="Property">hideInSalesPayment</div>
+<div class="cell" data-label="Column">hideInSalesPayment</div>
+<div class="cell" data-label="Arabic">إخفاء في دفع المبيعات</div>
+<div class="cell" data-label="English">Hide In Sales Payment</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="hideInShifts">
 <div class="cell" data-label="Property">hideInShifts</div>
 <div class="cell" data-label="Column">hideInShifts</div>

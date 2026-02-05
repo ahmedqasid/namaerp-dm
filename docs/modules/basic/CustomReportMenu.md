@@ -964,6 +964,15 @@
 
 </div>
 
+<div class="row searchable" id="lines.combineInOneReportWhenPrintingFromListView">
+<div class="cell" data-label="Property">lines.combineInOneReportWhenPrintingFromListView</div>
+<div class="cell" data-label="Column">combineInOneReportWhenPrintingFromListView</div>
+<div class="cell" data-label="Arabic">دمج في تقرير واحد عند الطباعة من شاشة القائمة</div>
+<div class="cell" data-label="English">Combine In One Report When Printing From List View</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="lines.english">
 <div class="cell" data-label="Property">lines.english</div>
 <div class="cell" data-label="Column">english</div>
