@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#addDiscussionTo'>addDiscussionTo (AddDiscussionTo) </a> , <a href='#addRelatedDocumentsTo'>addRelatedDocumentsTo (AddRelatedDocumentsTo) </a> , <a href='#allowUsageOfPreventedRecords'>allowUsageOfPreventedRecords (AllowUsageOfPreventedRecords) </a> , <a href='#auditFields'>auditFields (DetailedAuditFields) </a> , <a href='#autoCodingLines'>autoCodingLines (GenRefAutoCodingLine) </a> , <a href='#descriptors'>descriptors (ReferenceDescriptorLine) </a> , <a href='#details'>details (GenRefOverriderLine) </a> , <a href='#dimensionsConsistency'>dimensionsConsistency (IgnoreDimensionsConsistency) </a> , <a href='#disabledFields'>disabledFields (DisabledFieldsLines) </a> , <a href='#displayMasks'>displayMasks (FieldDisplayMask) </a> , <a href='#emailSendToTypes'>emailSendToTypes (EmailSendToTypes) </a> , <a href='#entityIcons'>entityIcons (EntityIconLine) </a> , <a href='#enumIcons'>enumIcons (EnumConstantIconLine) </a> , <a href='#errorMessageLoggingConfigs'>errorMessageLoggingConfigs (ErrorMesageLoggingConfig) </a> , <a href='#extraCodes'>extraCodes (ExtraCode) </a> , <a href='#extraFilter'>extraFilter (FieldExtraFilter) </a> , <a href='#extraReferenceSearchFields'>extraReferenceSearchFields (ExtraReferenceSearchFields) </a> , <a href='#fieldAllowedValues'>fieldAllowedValues (FieldAllowedValues) </a> , <a href='#fieldFormats'>fieldFormats (FieldFormatLine) </a> , <a href='#fieldIcons'>fieldIcons (FieldIconLine) </a> , <a href='#fieldStyles'>fieldStyles (FieldStyleLine) </a> , <a href='#importIntegratorLines'>importIntegratorLines (ImportIntegratorLine) </a> , <a href='#integratorConfig'>integratorConfig (IntegratorConfig) </a> , <a href='#invoiceRetrieverLines'>invoiceRetrieverLines (InvoiceRetrieverLine) </a> , <a href='#lines'>lines (DuplicatedFieldsLines) </a> , <a href='#maxFieldsLengthInDB'>maxFieldsLengthInDB (MaxFieldLengthInDB) </a> , <a href='#maxLinesCounts'>maxLinesCounts (MaxLineCount) </a> , <a href='#maxPOSFieldsLengthInDB'>maxPOSFieldsLengthInDB (MaxPOSFieldLengthInDB) </a> , <a href='#notColorFields'>notColorFields (NotColorField) </a> , <a href='#openCreateFields'>openCreateFields (OpenCreateFields) </a> , <a href='#openInPopups'>openInPopups (OpenInPopup) </a> , <a href='#publicEntitiesLines'>publicEntitiesLines (PublicEntitiesLine) </a> , <a href='#queryBasedScreenField'>queryBasedScreenField (QueryBasedScreenField) </a> , <a href='#richTextFields'>richTextFields (RichTextFieldsLines) </a> , <a href='#searchInNameInFindByCode'>searchInNameInFindByCode (SearchInNameInFindByCode) </a> , <a href='#signatures'>signatures (SignatureFields) </a> , <a href='#styleOverriderLines'>styleOverriderLines (GenRefRowStyleOverriderLine) </a> , <a href='#textToLinkFields'>textToLinkFields (TextToLinkFieldsLine) </a> , <a href='#useScannerInFields'>useScannerInFields (UseScannerInField) </a>
+<a href='#addDiscussionTo'>addDiscussionTo (AddDiscussionTo) </a> , <a href='#addRelatedDocumentsTo'>addRelatedDocumentsTo (AddRelatedDocumentsTo) </a> , <a href='#allowUsageOfPreventedRecords'>allowUsageOfPreventedRecords (AllowUsageOfPreventedRecords) </a> , <a href='#auditFields'>auditFields (DetailedAuditFields) </a> , <a href='#autoCodingLines'>autoCodingLines (GenRefAutoCodingLine) </a> , <a href='#descriptors'>descriptors (ReferenceDescriptorLine) </a> , <a href='#details'>details (GenRefOverriderLine) </a> , <a href='#dimensionsConsistency'>dimensionsConsistency (IgnoreDimensionsConsistency) </a> , <a href='#disabledFields'>disabledFields (DisabledFieldsLines) </a> , <a href='#displayMasks'>displayMasks (FieldDisplayMask) </a> , <a href='#emailSendToTypes'>emailSendToTypes (EmailSendToTypes) </a> , <a href='#entityIcons'>entityIcons (EntityIconLine) </a> , <a href='#enumIcons'>enumIcons (EnumConstantIconLine) </a> , <a href='#errorMessageLoggingConfigs'>errorMessageLoggingConfigs (ErrorMesageLoggingConfig) </a> , <a href='#extraCodes'>extraCodes (ExtraCode) </a> , <a href='#extraFilter'>extraFilter (FieldExtraFilter) </a> , <a href='#extraReferenceSearchFields'>extraReferenceSearchFields (ExtraReferenceSearchFields) </a> , <a href='#fieldAllowedValues'>fieldAllowedValues (FieldAllowedValues) </a> , <a href='#fieldFormats'>fieldFormats (FieldFormatLine) </a> , <a href='#fieldIcons'>fieldIcons (FieldIconLine) </a> , <a href='#fieldStyles'>fieldStyles (FieldStyleLine) </a> , <a href='#importIntegratorLines'>importIntegratorLines (ImportIntegratorLine) </a> , <a href='#integratorConfig'>integratorConfig (IntegratorConfig) </a> , <a href='#invoiceRetrieverLines'>invoiceRetrieverLines (InvoiceRetrieverLine) </a> , <a href='#lines'>lines (DuplicatedFieldsLines) </a> , <a href='#maxFieldsLengthInDB'>maxFieldsLengthInDB (MaxFieldLengthInDB) </a> , <a href='#maxLinesCounts'>maxLinesCounts (MaxLineCount) </a> , <a href='#maxPOSFieldsLengthInDB'>maxPOSFieldsLengthInDB (MaxPOSFieldLengthInDB) </a> , <a href='#notColorFields'>notColorFields (NotColorField) </a> , <a href='#openCreateFields'>openCreateFields (OpenCreateFields) </a> , <a href='#openInPopups'>openInPopups (OpenInPopup) </a> , <a href='#publicEntitiesLines'>publicEntitiesLines (PublicEntitiesLine) </a> , <a href='#queryBasedScreenField'>queryBasedScreenField (QueryBasedScreenField) </a> , <a href='#referenceSearchingOperators'>referenceSearchingOperators (ReferenceSearchingOperatorLine) </a> , <a href='#richTextFields'>richTextFields (RichTextFieldsLines) </a> , <a href='#searchInNameInFindByCode'>searchInNameInFindByCode (SearchInNameInFindByCode) </a> , <a href='#signatures'>signatures (SignatureFields) </a> , <a href='#styleOverriderLines'>styleOverriderLines (GenRefRowStyleOverriderLine) </a> , <a href='#textToLinkFields'>textToLinkFields (TextToLinkFieldsLine) </a> , <a href='#useScannerInFields'>useScannerInFields (UseScannerInField) </a>
 </div>
 
 <div class='searchable'>
@@ -5273,6 +5273,133 @@
 
 <div class="row searchable" id="queryBasedScreenField.owner">
 <div class="cell" data-label="Property">queryBasedScreenField.owner</div>
+<div class="cell" data-label="Column">owner_id</div>
+<div class="cell" data-label="Arabic"> مالك المستند</div>
+<div class="cell" data-label="English"> Document Owner</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [GenericReferenceOverrider](/modules/basic/GenericReferenceOverrider.md) 
+</div>
+</div>
+
+
+</div>
+</div>
+
+<div id='referenceSearchingOperators' title='referenceSearchingOperators' class='searchable'>
+
+## referenceSearchingOperators (المعامل في البحث عن المراجع - Reference Searching Operators)
+
+<div class='tableName'>
+
+**Table Name:** ReferenceSearchingOperatorLine, **Join Column:** genericReferenceOverrider_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="referenceSearchingOperators.applicableFor">
+<div class="cell" data-label="Property">referenceSearchingOperators.applicableFor</div>
+<div class="cell" data-label="Column">applicableFor</div>
+<div class="cell" data-label="Arabic">مطبق على</div>
+<div class="cell" data-label="English">Applicable For</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="referenceSearchingOperators.codeSearchOperator">
+<div class="cell" data-label="Property">referenceSearchingOperators.codeSearchOperator</div>
+<div class="cell" data-label="Column">codeSearchOperator</div>
+<div class="cell" data-label="Arabic">معامل البحث في الكود</div>
+<div class="cell" data-label="English">Code Search Operator</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="referenceSearchingOperators.fieldID">
+<div class="cell" data-label="Property">referenceSearchingOperators.fieldID</div>
+<div class="cell" data-label="Column">fieldID</div>
+<div class="cell" data-label="Arabic"> الحقل</div>
+<div class="cell" data-label="English"> On Field</div>
+<div class="cell" data-label="Type">FieldID</div>
+
+</div>
+
+<div class="row searchable" id="referenceSearchingOperators.forType">
+<div class="cell" data-label="Property">referenceSearchingOperators.forType</div>
+<div class="cell" data-label="Column">forType</div>
+<div class="cell" data-label="Arabic">للنوع</div>
+<div class="cell" data-label="English">For Type</div>
+<div class="cell" data-label="Type">EntityType</div>
+
+</div>
+
+<div class="row searchable" id="referenceSearchingOperators.forTypeList">
+<div class="cell" data-label="Property">referenceSearchingOperators.forTypeList</div>
+<div class="cell" data-label="Column">forTypeList_id</div>
+<div class="cell" data-label="Arabic">لقوائم أنواع</div>
+<div class="cell" data-label="English">For Type List</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [EntityTypeList](/modules/basic/EntityTypeList.md) 
+</div>
+</div>
+
+<div class="row searchable" id="referenceSearchingOperators.id">
+<div class="cell" data-label="Property">referenceSearchingOperators.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="referenceSearchingOperators.inActive">
+<div class="cell" data-label="Property">referenceSearchingOperators.inActive</div>
+<div class="cell" data-label="Column">inActive</div>
+<div class="cell" data-label="Arabic">غير نشط</div>
+<div class="cell" data-label="English">Inactive</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="referenceSearchingOperators.lineNumber">
+<div class="cell" data-label="Property">referenceSearchingOperators.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="referenceSearchingOperators.name1SearchOperator">
+<div class="cell" data-label="Property">referenceSearchingOperators.name1SearchOperator</div>
+<div class="cell" data-label="Column">name1SearchOperator</div>
+<div class="cell" data-label="Arabic">معامل البحث في الاسم العربي</div>
+<div class="cell" data-label="English">Name 1 Search Operator</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="referenceSearchingOperators.name2SearchOperator">
+<div class="cell" data-label="Property">referenceSearchingOperators.name2SearchOperator</div>
+<div class="cell" data-label="Column">name2SearchOperator</div>
+<div class="cell" data-label="Arabic">معامل البحث في الاسم الإنجليزي</div>
+<div class="cell" data-label="English">Name 2 Search Operator</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="referenceSearchingOperators.owner">
+<div class="cell" data-label="Property">referenceSearchingOperators.owner</div>
 <div class="cell" data-label="Column">owner_id</div>
 <div class="cell" data-label="Arabic"> مالك المستند</div>
 <div class="cell" data-label="English"> Document Owner</div>

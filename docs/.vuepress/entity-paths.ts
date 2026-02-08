@@ -1804,6 +1804,7 @@ export const entityPathsMap: Record<string, string> = {
   "OpenInPopup" : "basic/GenericReferenceOverrider.html#openInPopups",
   "PublicEntitiesLine" : "basic/GenericReferenceOverrider.html#publicEntitiesLines",
   "QueryBasedScreenField" : "basic/GenericReferenceOverrider.html#queryBasedScreenField",
+  "ReferenceSearchingOperatorLine" : "basic/GenericReferenceOverrider.html#referenceSearchingOperators",
   "RichTextFieldsLines" : "basic/GenericReferenceOverrider.html#richTextFields",
   "SearchInNameInFindByCode" : "basic/GenericReferenceOverrider.html#searchInNameInFindByCode",
   "SignatureFields" : "basic/GenericReferenceOverrider.html#signatures",
