@@ -5289,7 +5289,7 @@
 
 <div id='referenceSearchingOperators' title='referenceSearchingOperators' class='searchable'>
 
-## referenceSearchingOperators (المعامل في البحث عن المراجع - Reference Searching Operators)
+## referenceSearchingOperators (معامل البحث عن المراجع - Reference Searching Operators)
 
 <div class='tableName'>
 

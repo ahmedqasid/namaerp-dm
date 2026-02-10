@@ -4770,6 +4770,7 @@ export const entityPathsMap: Record<string, string> = {
   "WarrantyPeriodType" : "crm-maintenance/WarrantyPeriodType.html",
   "WathqCallInfo" : "system-tables/WathqCallInfo.html",
   "WeightScaleConfig" : "supplychain-weight-scale/WeightScaleConfig.html",
+  "WeightScaleConfigAuthorityLine" : "supplychain-weight-scale/WeightScaleConfig.html#authorities",
   "WeightScaleBarcodePart1" : "supplychain-weight-scale/WeightScaleConfig.html#parts1",
   "WeightScaleBarcodePart2" : "supplychain-weight-scale/WeightScaleConfig.html#parts2",
   "WeightScaleBarcodePart3" : "supplychain-weight-scale/WeightScaleConfig.html#parts3",

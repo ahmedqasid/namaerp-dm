@@ -918,6 +918,15 @@
 
 </div>
 
+<div class="row searchable" id="price.maintenanceDepositBeforeDiscount">
+<div class="cell" data-label="Property">price.maintenanceDepositBeforeDiscount</div>
+<div class="cell" data-label="Column">maintenanceDepositBeforeDiscount</div>
+<div class="cell" data-label="Arabic">وديعة الصيانة قبل احتساب الخصم</div>
+<div class="cell" data-label="English">Maintenance Deposit Before Discount</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="price.maintenanceDepositPaymentDate">
 <div class="cell" data-label="Property">price.maintenanceDepositPaymentDate</div>
 <div class="cell" data-label="Column">maintenanceDepositPaymentDate</div>

@@ -939,8 +939,8 @@
 <div class="row searchable" id="synchronizeRewardPointsWithWooCommerceSites">
 <div class="cell" data-label="Property">synchronizeRewardPointsWithWooCommerceSites</div>
 <div class="cell" data-label="Column">synchronizeRewardPointsWithWooCommerceSites_id</div>
-<div class="cell" data-label="Arabic">مزامنة نقاط المكافأة مع المتاجر الإلكترونية</div>
-<div class="cell" data-label="English">Synchronize Reward Points With Woo Commerce Sites</div>
+<div class="cell" data-label="Arabic">مزامنة نقاط المكافأة مع متجر ووكوميرس</div>
+<div class="cell" data-label="English">Synchronize Reward Points With Woo Commerce Site</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 

@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#parts1'>parts1 (WeightScaleBarcodePart1) </a> , <a href='#parts2'>parts2 (WeightScaleBarcodePart2) </a> , <a href='#parts3'>parts3 (WeightScaleBarcodePart3) </a> , <a href='#parts4'>parts4 (WeightScaleBarcodePart4) </a> , <a href='#parts5'>parts5 (WeightScaleBarcodePart5) </a> , <a href='#stockIssueReqLinesOrderMethods'>stockIssueReqLinesOrderMethods (WeightScaleStockIssueReqLinesOrderMethodLine) </a>
+<a href='#authorities'>authorities (WeightScaleConfigAuthorityLine) </a> , <a href='#parts1'>parts1 (WeightScaleBarcodePart1) </a> , <a href='#parts2'>parts2 (WeightScaleBarcodePart2) </a> , <a href='#parts3'>parts3 (WeightScaleBarcodePart3) </a> , <a href='#parts4'>parts4 (WeightScaleBarcodePart4) </a> , <a href='#parts5'>parts5 (WeightScaleBarcodePart5) </a> , <a href='#stockIssueReqLinesOrderMethods'>stockIssueReqLinesOrderMethods (WeightScaleStockIssueReqLinesOrderMethodLine) </a>
 </div>
 
 <div class='searchable'>
@@ -1090,6 +1090,67 @@
 <div class="cell" data-label="English">Treat Prefix As Part Of First Property</div>
 <div class="cell" data-label="Type">Boolean</div>
 
+</div>
+
+
+</div>
+</div>
+
+<div id='authorities' title='authorities' class='searchable'>
+
+## authorities (الصلاحيات - Authorities)
+
+<div class='tableName'>
+
+**Table Name:** WeightScaleConfigAuthorityLine, **Join Column:** weightScaleConfig_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="authorities.allowLessThanRequiredQty">
+<div class="cell" data-label="Property">authorities.allowLessThanRequiredQty</div>
+<div class="cell" data-label="Column">allowLessThanRequiredQty</div>
+<div class="cell" data-label="Arabic">السماح بتحضير كمية أقل من المطلوبة</div>
+<div class="cell" data-label="English">Allow Less Than Required Qty</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="authorities.id">
+<div class="cell" data-label="Property">authorities.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="authorities.lineNumber">
+<div class="cell" data-label="Property">authorities.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="authorities.namaUser">
+<div class="cell" data-label="Property">authorities.namaUser</div>
+<div class="cell" data-label="Column">namaUser_id</div>
+<div class="cell" data-label="Arabic">المستخدم</div>
+<div class="cell" data-label="English">User</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [NaMaUser](/modules/system-tables/NaMaUser.md) 
+</div>
 </div>
 
 
