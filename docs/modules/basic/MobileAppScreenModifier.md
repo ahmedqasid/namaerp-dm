@@ -814,6 +814,15 @@
 
 </div>
 
+<div class="row searchable" id="detailsLines.required">
+<div class="cell" data-label="Property">detailsLines.required</div>
+<div class="cell" data-label="Column">required</div>
+<div class="cell" data-label="Arabic">إجبارى</div>
+<div class="cell" data-label="English">Required</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 
 </div>
 </div>
@@ -863,6 +872,15 @@
 
 </div>
 
+<div class="row searchable" id="detailsLines2.required">
+<div class="cell" data-label="Property">detailsLines2.required</div>
+<div class="cell" data-label="Column">required</div>
+<div class="cell" data-label="Arabic">إجبارى</div>
+<div class="cell" data-label="English">Required</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 
 </div>
 </div>
@@ -909,6 +927,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="detailsLines3.required">
+<div class="cell" data-label="Property">detailsLines3.required</div>
+<div class="cell" data-label="Column">required</div>
+<div class="cell" data-label="Arabic">إجبارى</div>
+<div class="cell" data-label="English">Required</div>
+<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
@@ -1132,6 +1159,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="headerLines.required">
+<div class="cell" data-label="Property">headerLines.required</div>
+<div class="cell" data-label="Column">required</div>
+<div class="cell" data-label="Arabic">إجبارى</div>
+<div class="cell" data-label="English">Required</div>
+<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
