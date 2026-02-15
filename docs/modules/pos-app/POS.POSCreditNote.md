@@ -258,6 +258,15 @@
 
 </div>
 
+<div class="row searchable" id="remaining">
+<div class="cell" data-label="Property">remaining</div>
+<div class="cell" data-label="Column">remaining</div>
+<div class="cell" data-label="Arabic">المتبقي</div>
+<div class="cell" data-label="English">Remaining</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="returnId">
 <div class="cell" data-label="Property">returnId</div>
 <div class="cell" data-label="Column">returnId</div>

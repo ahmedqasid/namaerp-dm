@@ -1069,6 +1069,15 @@
 
 </div>
 
+<div class="row searchable" id="statusChangeDateTime">
+<div class="cell" data-label="Property">statusChangeDateTime</div>
+<div class="cell" data-label="Column">statusChangeDateTime</div>
+<div class="cell" data-label="Arabic">تاريخ ووقت تغيير الحالة</div>
+<div class="cell" data-label="English">Status Change Date Time</div>
+<div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
 <div class="row searchable" id="subItem">
 <div class="cell" data-label="Property">subItem</div>
 <div class="cell" data-label="Column">subItem_id</div>
