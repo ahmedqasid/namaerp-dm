@@ -268,6 +268,15 @@
 
 </div>
 
+<div class="row searchable" id="doNotSaveWebhookOrderWithoutShipment">
+<div class="cell" data-label="Property">doNotSaveWebhookOrderWithoutShipment</div>
+<div class="cell" data-label="Column">doNotSaveWebhookOrderWithoutShipment</div>
+<div class="cell" data-label="Arabic">Do Not Save Webhook Order Without Shipment</div>
+<div class="cell" data-label="English">Do Not Save Webhook Order Without Shipment</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="docCategory">
 <div class="cell" data-label="Property">docCategory</div>
 <div class="cell" data-label="Column">docCategory_id</div>
@@ -683,6 +692,15 @@
 
  [NaMaUser](/modules/system-tables/NaMaUser.md) 
 </div>
+</div>
+
+<div class="row searchable" id="saveOnlyIfPayloadMatchesQuery">
+<div class="cell" data-label="Property">saveOnlyIfPayloadMatchesQuery</div>
+<div class="cell" data-label="Column">saveOnlyIfPayloadMatchesQuery</div>
+<div class="cell" data-label="Arabic">Save Only If Payload Matches Query</div>
+<div class="cell" data-label="English">Save Only If Payload Matches Query</div>
+<div class="cell" data-label="Type">BigText</div>
+
 </div>
 
 <div class="row searchable" id="sector">

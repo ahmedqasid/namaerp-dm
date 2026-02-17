@@ -50,16 +50,13 @@
 </div>
 </div>
 
-<div class="row searchable" id="notificationDefinition">
-<div class="cell" data-label="Property">notificationDefinition</div>
-<div class="cell" data-label="Column">notificationDefinition_id</div>
-<div class="cell" data-label="Arabic">تعريف الإشعار</div>
-<div class="cell" data-label="English">Notification Definition</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
+<div class="row searchable" id="notifier">
+<div class="cell" data-label="Property">notifier</div>
+<div class="cell gen-ref-column" data-label="Column">notifierActualCode,  notifierCode,  notifierEntityType,  notifierId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Genericreference</div>
 
- [NotificationDefinition](/modules/basic/NotificationDefinition.md) 
-</div>
 </div>
 
 <div class="row searchable" id="owner">

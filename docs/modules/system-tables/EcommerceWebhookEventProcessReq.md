@@ -86,12 +86,30 @@
 
 </div>
 
+<div class="row searchable" id="orderId">
+<div class="cell" data-label="Property">orderId</div>
+<div class="cell" data-label="Column">orderId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="redirectUrl">
 <div class="cell" data-label="Property">redirectUrl</div>
 <div class="cell" data-label="Column">redirectUrl</div>
 <div class="cell" data-label="Arabic">Redirect URL</div>
 <div class="cell" data-label="English">Redirect URL</div>
 <div class="cell" data-label="Type">Link</div>
+
+</div>
+
+<div class="row searchable" id="shipmentId">
+<div class="cell" data-label="Property">shipmentId</div>
+<div class="cell" data-label="Column">shipmentId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Text</div>
 
 </div>
 

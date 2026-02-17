@@ -1311,6 +1311,18 @@
 
 </div>
 
+<div class="row searchable" id="whatsAppMessage">
+<div class="cell" data-label="Property">whatsAppMessage</div>
+<div class="cell" data-label="Column">whatsAppMessage_id</div>
+<div class="cell" data-label="Arabic">WhatsApp Message</div>
+<div class="cell" data-label="English">WhatsApp Message</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [WhatsAppMessage](/modules/basic-whatsapp/WhatsAppMessage.md) 
+</div>
+</div>
+
 
 </div>
 </div>

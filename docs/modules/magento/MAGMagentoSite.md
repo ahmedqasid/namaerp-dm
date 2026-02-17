@@ -531,6 +531,15 @@
 
 </div>
 
+<div class="row searchable" id="doNotSaveWebhookOrderWithoutShipment">
+<div class="cell" data-label="Property">doNotSaveWebhookOrderWithoutShipment</div>
+<div class="cell" data-label="Column">doNotSaveWebhookOrderWithoutShipment</div>
+<div class="cell" data-label="Arabic">Do Not Save Webhook Order Without Shipment</div>
+<div class="cell" data-label="English">Do Not Save Webhook Order Without Shipment</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="doNotUpdatePricesFromLists">
 <div class="cell" data-label="Property">doNotUpdatePricesFromLists</div>
 <div class="cell" data-label="Column">doNotUpdatePricesFromLists</div>
