@@ -636,6 +636,15 @@
 
 </div>
 
+<div class="row searchable" id="findFirstCustomer">
+<div class="cell" data-label="Property">findFirstCustomer</div>
+<div class="cell" data-label="Column">findFirstCustomer</div>
+<div class="cell" data-label="Arabic">البحث عن أول عميل بالكود (تسمح بوجود تكرار في أكواد العملاء)</div>
+<div class="cell" data-label="English">Find First Customer (Permits Duplicate Customer Codes)</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="firstAppliedLine">
 <div class="cell" data-label="Property">firstAppliedLine</div>
 <div class="cell" data-label="Column">firstAppliedLine</div>
@@ -1944,8 +1953,8 @@
 <div class="row searchable" id="updateCustomerIfExist">
 <div class="cell" data-label="Property">updateCustomerIfExist</div>
 <div class="cell" data-label="Column">updateCustomerIfExist</div>
-<div class="cell" data-label="Arabic">تحديث بيانات العميل في حالة وجوده</div>
-<div class="cell" data-label="English">Update Customer If Found</div>
+<div class="cell" data-label="Arabic">تحديث بيانات العميل في حالة وجوده (حتى وإن لم يوجد تعديلات)</div>
+<div class="cell" data-label="English">Update Customer if Exists (Even If No Data Was Changed)</div>
 <div class="cell" data-label="Type">Boolean</div>
 
 </div>
