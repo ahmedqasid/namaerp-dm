@@ -516,6 +516,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="guestLoginCustomer">
+<div class="cell" data-label="Property">guestLoginCustomer</div>
+<div class="cell" data-label="Column">guestLoginCustomer_id</div>
+<div class="cell" data-label="Arabic">عميل تسجيل الدخول كضيف</div>
+<div class="cell" data-label="English">Guest Login Customer</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Customer](/modules/basic/Customer.md) 
+</div>
+</div>
+
 <div class="row searchable" id="hyperPayAccessToken">
 <div class="cell" data-label="Property">hyperPayAccessToken</div>
 <div class="cell" data-label="Column">hyperPayAccessToken</div>
