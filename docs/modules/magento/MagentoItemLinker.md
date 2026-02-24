@@ -480,6 +480,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="magentoSiteGroup">
+<div class="cell" data-label="Property">magentoSiteGroup</div>
+<div class="cell" data-label="Column">magentoSiteGroup_id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [MagentoSiteGroup](/modules/system-tables/MagentoSiteGroup.md) 
+</div>
+</div>
+
 <div class="row searchable" id="mainFile">
 <div class="cell" data-label="Property">mainFile</div>
 <div class="cell" data-label="Column">mainFile_id</div>

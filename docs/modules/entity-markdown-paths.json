@@ -1124,6 +1124,7 @@
   "MagentoItemEntry" : "system-tables/MagentoItemEntry.md",
   "MagentoItemLinker" : "magento/MagentoItemLinker.md",
   "MagentoPriceUpdaterDoc" : "magento/MagentoPriceUpdaterDoc.md",
+  "MagentoSiteGroup" : "system-tables/MagentoSiteGroup.md",
   "MagentoSyncSystemFields" : "system-tables/MagentoSyncSystemFields.md",
   "ManualDemand" : "manufacturing-mrp/ManualDemand.md",
   "ManualMeasures" : "humanresource-payroll/ManualMeasures.md",

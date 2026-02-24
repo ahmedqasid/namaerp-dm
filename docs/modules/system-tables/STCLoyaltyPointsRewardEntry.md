@@ -125,8 +125,8 @@
 <div class="row searchable" id="returnDoc">
 <div class="cell" data-label="Property">returnDoc</div>
 <div class="cell gen-ref-column" data-label="Column">returnDocActualCode,  returnDocCode,  returnDocEntityType,  returnDocId</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">مرتجع</div>
+<div class="cell" data-label="English">Return Document</div>
 <div class="cell" data-label="Type">Genericreference</div>
 
 </div>

@@ -1899,6 +1899,7 @@
     - [MFGMoldTransactionEntry](/modules/system-tables/MFGMoldTransactionEntry.md)
     - [MRPDocumentDemands](/modules/system-tables/MRPDocumentDemands.md)
     - [MagentoItemEntry](/modules/system-tables/MagentoItemEntry.md)
+    - [MagentoSiteGroup](/modules/system-tables/MagentoSiteGroup.md)
     - [MagentoSyncSystemFields](/modules/system-tables/MagentoSyncSystemFields.md)
     - [ManuallyCodedTermsEntities](/modules/system-tables/ManuallyCodedTermsEntities.md)
     - [MiscInvoiceQtyTransLine](/modules/system-tables/MiscInvoiceQtyTransLine.md)

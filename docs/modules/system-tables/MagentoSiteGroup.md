@@ -2,17 +2,15 @@
 <div class='tableName'>
 
 
-# BudgetScenario
+# MagentoSiteGroup
 </div>
 
-**Arabic:** سيناريو موازنة -  سيناريو موازنة
-**English:** Budget Scenario -  Budget Scenario
 
 <ContentFilter/>
 
 
 <div class='searchable'>
-<a href='#actualsSrc'>actualsSrc (BudgetActualSrcLine) </a> , <a href='#salesQuantitiesCalcSources'>salesQuantitiesCalcSources (BudgetSalesQtyCalcSrcLine) </a>
+<a href='#lines'>lines (MagentoSiteGroupLine) </a>
 </div>
 
 <div class='searchable'>
@@ -27,16 +25,7 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="allowEmptyPeriod">
-<div class="cell" data-label="Property">allowEmptyPeriod</div>
-<div class="cell" data-label="Column">allowEmptyPeriod</div>
-<div class="cell" data-label="Arabic">السماح بترك الفترة فارغة</div>
-<div class="cell" data-label="English">Allow Empty Period</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="analysisSet">
+</div><div class="row searchable" id="analysisSet">
 <div class="cell" data-label="Property">analysisSet</div>
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic">المجموعة التحليلية</div>
@@ -54,24 +43,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="approxRoundingType">
-<div class="cell" data-label="Property">approxRoundingType</div>
-<div class="cell" data-label="Column">approxRoundingType</div>
-<div class="cell" data-label="Arabic">طريقة تقريب الراتب</div>
-<div class="cell" data-label="English">Salary Rounding Type</div>
-<div class="cell" data-label="Type">Enum</div>
-
-</div>
-
-<div class="row searchable" id="approximateToNumber">
-<div class="cell" data-label="Property">approximateToNumber</div>
-<div class="cell" data-label="Column">approximateToNumber</div>
-<div class="cell" data-label="Arabic">التقريب إلي اقرب</div>
-<div class="cell" data-label="English">Approximate Near To</div>
-<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 
@@ -93,27 +64,6 @@
 <div class="cell" data-label="Arabic">Branch ID</div>
 <div class="cell" data-label="English">Branch ID</div>
 <div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="budgetFiscalYear">
-<div class="cell" data-label="Property">budgetFiscalYear</div>
-<div class="cell" data-label="Column">budgetFiscalYear_id</div>
-<div class="cell" data-label="Arabic">سنة الموازنة</div>
-<div class="cell" data-label="English">Budget Year</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalYear](/modules/basic/FiscalYear.md) 
-</div>
-</div>
-
-<div class="row searchable" id="calcPrices">
-<div class="cell" data-label="Property">calcPrices</div>
-<div class="cell" data-label="Column">calcPrices</div>
-<div class="cell" data-label="Arabic">حساب المبالغ</div>
-<div class="cell" data-label="English">Calculate Prices</div>
-<div class="cell" data-label="Type">Enum</div>
 
 </div>
 
@@ -393,54 +343,6 @@
 
 </div>
 
-<div class="row searchable" id="fiscalYear1">
-<div class="cell" data-label="Property">fiscalYear1</div>
-<div class="cell" data-label="Column">fiscalYear1_id</div>
-<div class="cell" data-label="Arabic">السنة المالية الأولي</div>
-<div class="cell" data-label="English">Fiscal Year 1</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalYear](/modules/basic/FiscalYear.md) 
-</div>
-</div>
-
-<div class="row searchable" id="fiscalYear2">
-<div class="cell" data-label="Property">fiscalYear2</div>
-<div class="cell" data-label="Column">fiscalYear2_id</div>
-<div class="cell" data-label="Arabic">السنة المالية الثانية</div>
-<div class="cell" data-label="English">Fiscal Year 2</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalYear](/modules/basic/FiscalYear.md) 
-</div>
-</div>
-
-<div class="row searchable" id="fiscalYear3">
-<div class="cell" data-label="Property">fiscalYear3</div>
-<div class="cell" data-label="Column">fiscalYear3_id</div>
-<div class="cell" data-label="Arabic">السنة المالية الثالثة</div>
-<div class="cell" data-label="English">Fiscal Year 3</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalYear](/modules/basic/FiscalYear.md) 
-</div>
-</div>
-
-<div class="row searchable" id="fiscalYear4">
-<div class="cell" data-label="Property">fiscalYear4</div>
-<div class="cell" data-label="Column">fiscalYear4_id</div>
-<div class="cell" data-label="Arabic">السنة السابقة</div>
-<div class="cell" data-label="English">Previous Year</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalYear](/modules/basic/FiscalYear.md) 
-</div>
-</div>
-
 <div class="row searchable" id="generatedByLine">
 <div class="cell" data-label="Property">generatedByLine</div>
 <div class="cell" data-label="Column">generatedByLine</div>
@@ -495,69 +397,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="includeAlAnlSetsWithPub">
-<div class="cell" data-label="Property">includeAlAnlSetsWithPub</div>
-<div class="cell" data-label="Column">includeAlAnlSetsWithPub</div>
-<div class="cell" data-label="Arabic">إعتبار المحموعة التحليلية العامة ككل المجموعات</div>
-<div class="cell" data-label="English">include All AnalysisSets With Public</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="includeAlBranchesWithPub">
-<div class="cell" data-label="Property">includeAlBranchesWithPub</div>
-<div class="cell" data-label="Column">includeAlBranchesWithPub</div>
-<div class="cell" data-label="Arabic">إعتبار الفرع العام ككل الفروع</div>
-<div class="cell" data-label="English">include All Branches With Public</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="includeAlDeptsWithPub">
-<div class="cell" data-label="Property">includeAlDeptsWithPub</div>
-<div class="cell" data-label="Column">includeAlDeptsWithPub</div>
-<div class="cell" data-label="Arabic">إعتبار القسم العام ككل الاقسام</div>
-<div class="cell" data-label="English">include All Departments With Public</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="includeAlLglEntitysWithPub">
-<div class="cell" data-label="Property">includeAlLglEntitysWithPub</div>
-<div class="cell" data-label="Column">includeAlLglEntitysWithPub</div>
-<div class="cell" data-label="Arabic">إعتبار الشركة العامة ككل الشركات</div>
-<div class="cell" data-label="English">include All Legal Entities With Public</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="includeAlSectorsWithPub">
-<div class="cell" data-label="Property">includeAlSectorsWithPub</div>
-<div class="cell" data-label="Column">includeAlSectorsWithPub</div>
-<div class="cell" data-label="Arabic">إعتبار القطاع العام ككل القطاعات</div>
-<div class="cell" data-label="English">include All Sectors With Public</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="includeAllPeriods">
-<div class="cell" data-label="Property">includeAllPeriods</div>
-<div class="cell" data-label="Column">includeAllPeriods</div>
-<div class="cell" data-label="Arabic">اعتبار كل الفترات</div>
-<div class="cell" data-label="English">Include All Periods</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="includeAllYears">
-<div class="cell" data-label="Property">includeAllYears</div>
-<div class="cell" data-label="Column">includeAllYears</div>
-<div class="cell" data-label="Arabic">استعمال كل السنوات في حساب الفعلي</div>
-<div class="cell" data-label="English">Include All Years In Actual</div>
-<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
@@ -843,15 +682,6 @@
 
 </div>
 
-<div class="row searchable" id="taxScript">
-<div class="cell" data-label="Property">taxScript</div>
-<div class="cell" data-label="Column">taxScript</div>
-<div class="cell" data-label="Arabic">سكربت حساب الضرائب (مثال : price / 1.05)</div>
-<div class="cell" data-label="English">Tax Script (eg. price / 1.05)</div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
 <div class="row searchable" id="updateCapability">
 <div class="cell" data-label="Property">updateCapability</div>
 <div class="cell" data-label="Column">updateCapability_id</div>
@@ -894,15 +724,6 @@
 
 </div>
 
-<div class="row searchable" id="useMyBudgetsForValidation">
-<div class="cell" data-label="Property">useMyBudgetsForValidation</div>
-<div class="cell" data-label="Column">useMyBudgetsForValidation</div>
-<div class="cell" data-label="Arabic">استعمال موازنات هذا السيناريو لمنع الحفظ و الموافقات</div>
-<div class="cell" data-label="English">Use Scenario Budgets For Validation and Approvals</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
 <div class="row searchable" id="viewCapability">
 <div class="cell" data-label="Property">viewCapability</div>
 <div class="cell" data-label="Column">viewCapability_id</div>
@@ -928,13 +749,13 @@
 </div>
 </div>
 
-<div id='actualsSrc' title='actualsSrc' class='searchable'>
+<div id='lines' title='lines' class='searchable'>
 
-## actualsSrc (المصادر - Actual Sources)
+## lines ( التفاصيل -  Details)
 
 <div class='tableName'>
 
-**Table Name:** BudgetActualSrcLine, **Join Column:** budgetScenario_id
+**Table Name:** MagentoSiteGroupLine, **Join Column:** magentoSiteGroup_id
 
 </div>
 
@@ -946,32 +767,8 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="actualsSrc.budgetYearPeriod">
-<div class="cell" data-label="Property">actualsSrc.budgetYearPeriod</div>
-<div class="cell" data-label="Column">budgetYearPeriod_id</div>
-<div class="cell" data-label="Arabic">فترة سنة الموازنة</div>
-<div class="cell" data-label="English">Budget Year Period</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
-</div>
-</div>
-
-<div class="row searchable" id="actualsSrc.budgetYearToPeriod">
-<div class="cell" data-label="Property">actualsSrc.budgetYearToPeriod</div>
-<div class="cell" data-label="Column">budgetYearToPeriod_id</div>
-<div class="cell" data-label="Arabic">إلى فترة سنة الموازنة</div>
-<div class="cell" data-label="English">Budget Year To Period</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
-</div>
-</div>
-
-<div class="row searchable" id="actualsSrc.id">
-<div class="cell" data-label="Property">actualsSrc.id</div>
+</div><div class="row searchable" id="lines.id">
+<div class="cell" data-label="Property">lines.id</div>
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -979,8 +776,8 @@
 
 </div>
 
-<div class="row searchable" id="actualsSrc.lineNumber">
-<div class="cell" data-label="Property">actualsSrc.lineNumber</div>
+<div class="row searchable" id="lines.lineNumber">
+<div class="cell" data-label="Property">lines.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -988,157 +785,24 @@
 
 </div>
 
-<div class="row searchable" id="actualsSrc.year1Period">
-<div class="cell" data-label="Property">actualsSrc.year1Period</div>
-<div class="cell" data-label="Column">year1Period_id</div>
-<div class="cell" data-label="Arabic">فترة السنة الأولي</div>
-<div class="cell" data-label="English">Year1 Period</div>
+<div class="row searchable" id="lines.magentoSite">
+<div class="cell" data-label="Property">lines.magentoSite</div>
+<div class="cell" data-label="Column">magentoSite_id</div>
+<div class="cell" data-label="Arabic"> Magento Site</div>
+<div class="cell" data-label="English"> Magento Site</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
+ [MAGMagentoSite](/modules/magento/MAGMagentoSite.md) 
 </div>
 </div>
 
-<div class="row searchable" id="actualsSrc.year1ToPeriod">
-<div class="cell" data-label="Property">actualsSrc.year1ToPeriod</div>
-<div class="cell" data-label="Column">year1ToPeriod_id</div>
-<div class="cell" data-label="Arabic">إلى فترة السنة الأولى</div>
-<div class="cell" data-label="English">Year 1 To Period</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
-</div>
-</div>
-
-<div class="row searchable" id="actualsSrc.year2Period">
-<div class="cell" data-label="Property">actualsSrc.year2Period</div>
-<div class="cell" data-label="Column">year2Period_id</div>
-<div class="cell" data-label="Arabic">فترة السنة الثانية</div>
-<div class="cell" data-label="English">Year2 Period</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
-</div>
-</div>
-
-<div class="row searchable" id="actualsSrc.year2ToPeriod">
-<div class="cell" data-label="Property">actualsSrc.year2ToPeriod</div>
-<div class="cell" data-label="Column">year2ToPeriod_id</div>
-<div class="cell" data-label="Arabic">إلى فترة السنة الثانية</div>
-<div class="cell" data-label="English">Year 2 To Period</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
-</div>
-</div>
-
-<div class="row searchable" id="actualsSrc.year3Period">
-<div class="cell" data-label="Property">actualsSrc.year3Period</div>
-<div class="cell" data-label="Column">year3Period_id</div>
-<div class="cell" data-label="Arabic">فترة السنة الثالثة</div>
-<div class="cell" data-label="English">Year3 Period</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
-</div>
-</div>
-
-<div class="row searchable" id="actualsSrc.year3ToPeriod">
-<div class="cell" data-label="Property">actualsSrc.year3ToPeriod</div>
-<div class="cell" data-label="Column">year3ToPeriod_id</div>
-<div class="cell" data-label="Arabic">إلى فترة السنة الثالثة</div>
-<div class="cell" data-label="English">Year 3 To Period</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
-</div>
-</div>
-
-<div class="row searchable" id="actualsSrc.year4Period">
-<div class="cell" data-label="Property">actualsSrc.year4Period</div>
-<div class="cell" data-label="Column">year4Period_id</div>
-<div class="cell" data-label="Arabic">فترة السنة السابقة</div>
-<div class="cell" data-label="English">Previous Year Period</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
-</div>
-</div>
-
-<div class="row searchable" id="actualsSrc.year4ToPeriod">
-<div class="cell" data-label="Property">actualsSrc.year4ToPeriod</div>
-<div class="cell" data-label="Column">year4ToPeriod_id</div>
-<div class="cell" data-label="Arabic">إلى فترة السنة السابقة</div>
-<div class="cell" data-label="English">Year 4 To Period</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
-</div>
-</div>
-
-
-</div>
-</div>
-
-<div id='salesQuantitiesCalcSources' title='salesQuantitiesCalcSources' class='searchable'>
-
-## salesQuantitiesCalcSources (كميات المبيعات تحتسب أيضا من - Sales Quantities Calculation Sources)
-
-<div class='tableName'>
-
-**Table Name:** BudgetSalesQtyCalcSrcLine, **Join Column:** budgetScenario_id
-
-</div>
-
-<div class="nama-table">
-<div class="row header-row">
-<div class="cell">Property</div>
-<div class="cell">Column</div>
-<div class="cell">Arabic</div>
-<div class="cell">English</div>
-<div class="cell">Type</div>
-<div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="salesQuantitiesCalcSources.docType">
-<div class="cell" data-label="Property">salesQuantitiesCalcSources.docType</div>
-<div class="cell" data-label="Column">docType</div>
-<div class="cell" data-label="Arabic">نوع المستند</div>
-<div class="cell" data-label="English">Document Type</div>
-<div class="cell" data-label="Type">EntityType</div>
-
-</div>
-
-<div class="row searchable" id="salesQuantitiesCalcSources.id">
-<div class="cell" data-label="Property">salesQuantitiesCalcSources.id</div>
-<div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="salesQuantitiesCalcSources.lineNumber">
-<div class="cell" data-label="Property">salesQuantitiesCalcSources.lineNumber</div>
-<div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="salesQuantitiesCalcSources.returnDoc">
-<div class="cell" data-label="Property">salesQuantitiesCalcSources.returnDoc</div>
-<div class="cell" data-label="Column">returnDoc</div>
-<div class="cell" data-label="Arabic">مرتجع</div>
-<div class="cell" data-label="English">Return Document</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="row searchable" id="lines.remark">
+<div class="cell" data-label="Property">lines.remark</div>
+<div class="cell" data-label="Column">remark</div>
+<div class="cell" data-label="Arabic">ملحوظة</div>
+<div class="cell" data-label="English">Remark</div>
+<div class="cell" data-label="Type">BigText</div>
 
 </div>
 
