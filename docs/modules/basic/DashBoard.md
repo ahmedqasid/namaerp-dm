@@ -569,6 +569,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="mobileMaxRowsCount">
+<div class="cell" data-label="Property">mobileMaxRowsCount</div>
+<div class="cell" data-label="Column">mobileMaxRowsCount</div>
+<div class="cell" data-label="Arabic">أقصى عدد صفوف للموبايل</div>
+<div class="cell" data-label="English">Mobile Max Rows Count</div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
 <div class="row searchable" id="moduleName">
 <div class="cell" data-label="Property">moduleName</div>
 <div class="cell" data-label="Column">moduleName</div>
