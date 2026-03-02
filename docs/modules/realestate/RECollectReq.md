@@ -1648,6 +1648,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.soldEstate">
+<div class="cell" data-label="Property">details.soldEstate</div>
+<div class="cell gen-ref-column" data-label="Column">soldEstateActualCode,  soldEstateCode,  soldEstateEntityType,  soldEstateId</div>
+<div class="cell" data-label="Arabic">العقار</div>
+<div class="cell" data-label="English">Sold estate</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
 <div class="row searchable" id="details.tax1.afterValue">
 <div class="cell" data-label="Property">details.tax1.afterValue</div>
 <div class="cell" data-label="Column">tax1AfterValue</div>
