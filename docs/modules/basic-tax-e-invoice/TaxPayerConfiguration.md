@@ -831,6 +831,15 @@
 
 </div>
 
+<div class="row searchable" id="maxNumberOfLinesWhenCollectTaxAuthDocs">
+<div class="cell" data-label="Property">maxNumberOfLinesWhenCollectTaxAuthDocs</div>
+<div class="cell" data-label="Column">maxNumberOfLinesWhenCollectTaxAuthDocs</div>
+<div class="cell" data-label="Arabic">اقصي عدد للسطور عند تجميع مستندات الضرائب</div>
+<div class="cell" data-label="English">Max Number Of Lines When Collect Tax Auth Docs</div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
 <div class="row searchable" id="minInvValueCustomerRequired">
 <div class="cell" data-label="Property">minInvValueCustomerRequired</div>
 <div class="cell" data-label="Column">minInvValueCustomerRequired</div>

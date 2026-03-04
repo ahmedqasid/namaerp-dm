@@ -912,6 +912,24 @@
 
 </div>
 
+<div class="row searchable" id="price.distinctionPercentage">
+<div class="cell" data-label="Property">price.distinctionPercentage</div>
+<div class="cell" data-label="Column">distinctionPercentage</div>
+<div class="cell" data-label="Arabic">نسبة التمييز</div>
+<div class="cell" data-label="English">Distinction Percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="price.distinctionValue">
+<div class="cell" data-label="Property">price.distinctionValue</div>
+<div class="cell" data-label="Column">distinctionValue</div>
+<div class="cell" data-label="Arabic">قيمة التمييز</div>
+<div class="cell" data-label="English">Distinction Value</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="price.downPayment">
 <div class="cell" data-label="Property">price.downPayment</div>
 <div class="cell" data-label="Column">downPayment</div>
@@ -980,6 +998,24 @@
 <div class="cell" data-label="Column">feesPercentageOwner</div>
 <div class="cell" data-label="Arabic">نسبة الرسوم من المالك %</div>
 <div class="cell" data-label="English">Fees Percentage Owner</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="price.garagePercentage">
+<div class="cell" data-label="Property">price.garagePercentage</div>
+<div class="cell" data-label="Column">garagePercentage</div>
+<div class="cell" data-label="Arabic">نسبة الجراج</div>
+<div class="cell" data-label="English">Garage Percentage</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="price.garageValue">
+<div class="cell" data-label="Property">price.garageValue</div>
+<div class="cell" data-label="Column">garageValue</div>
+<div class="cell" data-label="Arabic">قيمة الجراج</div>
+<div class="cell" data-label="English">Garage Value</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
