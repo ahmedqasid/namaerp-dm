@@ -1405,6 +1405,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.cartonSpecsVersion">
+<div class="cell" data-label="Property">details.cartonSpecsVersion</div>
+<div class="cell" data-label="Column">cartonSpecsVersion</div>
+<div class="cell" data-label="Arabic">رقم نسخة المواصفة</div>
+<div class="cell" data-label="English">Carton Specs Version</div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
 <div class="row searchable" id="details.description1">
 <div class="cell" data-label="Property">details.description1</div>
 <div class="cell" data-label="Column">description1</div>
@@ -2229,6 +2238,15 @@
 
  [CRTNSpecification](/modules/manufacturing-crtn-pln/CRTNSpecification.md) 
 </div>
+</div>
+
+<div class="row searchable" id="manufacturingDetails.cartonSpecsVersion">
+<div class="cell" data-label="Property">manufacturingDetails.cartonSpecsVersion</div>
+<div class="cell" data-label="Column">cartonSpecsVersion</div>
+<div class="cell" data-label="Arabic">رقم نسخة المواصفة</div>
+<div class="cell" data-label="English">Carton Specs Version</div>
+<div class="cell" data-label="Type">Integer</div>
+
 </div>
 
 <div class="row searchable" id="manufacturingDetails.id">
