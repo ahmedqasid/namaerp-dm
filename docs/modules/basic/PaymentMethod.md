@@ -1473,6 +1473,15 @@
 
 </div>
 
+<div class="row searchable" id="useToSellAndPurchaseRewardPoints">
+<div class="cell" data-label="Property">useToSellAndPurchaseRewardPoints</div>
+<div class="cell" data-label="Column">useToSellAndPurchaseRewardPoints</div>
+<div class="cell" data-label="Arabic">تستخدم لشراء و بيع نقاط الولاء</div>
+<div class="cell" data-label="English">Use To Sell And Purchase Reward Points</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="viewCapability">
 <div class="cell" data-label="Property">viewCapability</div>
 <div class="cell" data-label="Column">viewCapability_id</div>

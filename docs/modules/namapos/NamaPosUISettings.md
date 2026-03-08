@@ -681,6 +681,15 @@
 
 </div>
 
+<div class="row searchable" id="displayTitleBarVertically">
+<div class="cell" data-label="Property">displayTitleBarVertically</div>
+<div class="cell" data-label="Column">displayTitleBarVertically</div>
+<div class="cell" data-label="Arabic">إظهار شريط العنوان عمودياً</div>
+<div class="cell" data-label="English">Display Title Bar Vertically</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="doNotAddAddressRegionFieldAutomatically">
 <div class="cell" data-label="Property">doNotAddAddressRegionFieldAutomatically</div>
 <div class="cell" data-label="Column">doNotAddAddressRegionFieldAutomatically</div>

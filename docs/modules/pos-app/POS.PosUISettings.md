@@ -873,6 +873,15 @@
 
 </div>
 
+<div class="row searchable" id="uiSettingsOptions.displayTitleBarVertically">
+<div class="cell" data-label="Property">uiSettingsOptions.displayTitleBarVertically</div>
+<div class="cell" data-label="Column">displayTitleBarVertically</div>
+<div class="cell" data-label="Arabic">إظهار شريط العنوان عمودياً</div>
+<div class="cell" data-label="English">Display Title Bar Vertically</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="uiSettingsOptions.doNotAddAddressRegionFieldAutomatically">
 <div class="cell" data-label="Property">uiSettingsOptions.doNotAddAddressRegionFieldAutomatically</div>
 <div class="cell" data-label="Column">doNotAddAddressRegionFieldAutomatically</div>

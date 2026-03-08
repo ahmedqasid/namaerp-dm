@@ -150,6 +150,15 @@
 
 </div>
 
+<div class="row searchable" id="considerLateReturnDaysWithoutSalary">
+<div class="cell" data-label="Property">considerLateReturnDaysWithoutSalary</div>
+<div class="cell" data-label="Column">considerLateReturnDaysWithoutSalary</div>
+<div class="cell" data-label="Arabic">اعتبار التأخير في العودة من الأجازة بدون راتب</div>
+<div class="cell" data-label="English">Consider Late Return Days Without Salary</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="consideredInPostponedPenalty">
 <div class="cell" data-label="Property">consideredInPostponedPenalty</div>
 <div class="cell" data-label="Column">consideredInPostponedPenalty</div>
