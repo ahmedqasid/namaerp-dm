@@ -92,6 +92,15 @@
 
 </div>
 
+<div class="row searchable" id="lastMessageType">
+<div class="cell" data-label="Property">lastMessageType</div>
+<div class="cell" data-label="Column">lastMessageType</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="participantCount">
 <div class="cell" data-label="Property">participantCount</div>
 <div class="cell" data-label="Column">participantCount</div>
