@@ -4789,6 +4789,7 @@ export const entityPathsMap: Record<string, string> = {
   "WhatsAppMessageExtraDataLine" : "basic-whatsapp/WhatsAppMessage.html#extraData",
   "TemplateMessageParameterLine" : "basic-whatsapp/WhatsAppMessage.html#parameters",
   "WhatsAppMessageConfiguration" : "basic-whatsapp/WhatsAppMessageConfiguration.html",
+  "WhatsAppMessageConfigurationPublicId" : "basic-whatsapp/WhatsAppMessageConfiguration.html#publicIdsBySender",
   "WhatsAppMessageEntry" : "system-tables/WhatsAppMessageEntry.html",
   "WhatsAppMessageLog" : "system-tables/WhatsAppMessageLog.html",
   "WizardFile" : "basic/WizardFile.html",

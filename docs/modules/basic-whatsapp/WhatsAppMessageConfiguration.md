@@ -10,6 +10,11 @@
 
 <ContentFilter/>
 
+
+<div class='searchable'>
+<a href='#publicIdsBySender'>publicIdsBySender (WhatsAppMessageConfigurationPublicId) </a>
+</div>
+
 <div class='searchable'>
 
 ## Fields
@@ -784,6 +789,73 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='publicIdsBySender' title='publicIdsBySender' class='searchable'>
+
+## publicIdsBySender (Public IDs by Sender - Public IDs by Sender)
+
+<div class='tableName'>
+
+**Table Name:** WhatsAppMessageConfigurationPublicId, **Join Column:** whatsAppMessageConfiguration_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="publicIdsBySender.id">
+<div class="cell" data-label="Property">publicIdsBySender.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="publicIdsBySender.lineNumber">
+<div class="cell" data-label="Property">publicIdsBySender.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="publicIdsBySender.publicId">
+<div class="cell" data-label="Property">publicIdsBySender.publicId</div>
+<div class="cell" data-label="Column">publicId</div>
+<div class="cell" data-label="Arabic">Public Id / API Endpoint</div>
+<div class="cell" data-label="English">Public Id / API Endpoint</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="publicIdsBySender.secret">
+<div class="cell" data-label="Property">publicIdsBySender.secret</div>
+<div class="cell" data-label="Column">secret</div>
+<div class="cell" data-label="Arabic">Secret / Access Token</div>
+<div class="cell" data-label="English">Secret / Access Token</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="publicIdsBySender.senderId">
+<div class="cell" data-label="Property">publicIdsBySender.senderId</div>
+<div class="cell" data-label="Column">senderId</div>
+<div class="cell" data-label="Arabic">Sender ID</div>
+<div class="cell" data-label="English">Sender ID</div>
+<div class="cell" data-label="Type">Text</div>
 
 </div>
 

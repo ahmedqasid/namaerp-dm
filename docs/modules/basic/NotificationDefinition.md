@@ -1441,6 +1441,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="whatsAppPreferredSender">
+<div class="cell" data-label="Property">whatsAppPreferredSender</div>
+<div class="cell" data-label="Column">whatsAppPreferredSender</div>
+<div class="cell" data-label="Arabic">المرسل المفضل لواتساب</div>
+<div class="cell" data-label="English">WhatsApp Preferred Sender</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 
 </div>
 </div>
