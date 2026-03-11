@@ -522,6 +522,15 @@
 
 </div>
 
+<div class="row searchable" id="excludeServiceFeesWithNoConfigs">
+<div class="cell" data-label="Property">excludeServiceFeesWithNoConfigs</div>
+<div class="cell" data-label="Column">excludeServiceFeesWithNoConfigs</div>
+<div class="cell" data-label="Arabic">استبعاد رسوم الخدمة الغير معرفة</div>
+<div class="cell" data-label="English">Exclude Service Fees With No Configs</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="firstAuthor">
 <div class="cell" data-label="Property">firstAuthor</div>
 <div class="cell" data-label="Column">firstAuthor_id</div>

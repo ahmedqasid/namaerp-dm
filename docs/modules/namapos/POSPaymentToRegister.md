@@ -601,6 +601,18 @@
 
 </div>
 
+<div class="row searchable" id="mainTreasury">
+<div class="cell" data-label="Property">mainTreasury</div>
+<div class="cell" data-label="Column">mainTreasury_id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [SafeDeposite](/modules/basic/SafeDeposite.md) 
+</div>
+</div>
+
 <div class="row searchable" id="manualRef1">
 <div class="cell" data-label="Property">manualRef1</div>
 <div class="cell" data-label="Column">manualRef1</div>

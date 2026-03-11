@@ -1599,6 +1599,15 @@
 
 </div>
 
+<div class="row searchable" id="visitCost">
+<div class="cell" data-label="Property">visitCost</div>
+<div class="cell" data-label="Column">visitCost</div>
+<div class="cell" data-label="Arabic">تكلفة الزيارة</div>
+<div class="cell" data-label="English">Visit Cost</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="visitDate">
 <div class="cell" data-label="Property">visitDate</div>
 <div class="cell" data-label="Column">visitDate</div>

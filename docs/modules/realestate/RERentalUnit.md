@@ -826,6 +826,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="maintenanceFund">
+<div class="cell" data-label="Property">maintenanceFund</div>
+<div class="cell" data-label="Column">maintenanceFund_id</div>
+<div class="cell" data-label="Arabic"> صندوق الصيانة العقاري</div>
+<div class="cell" data-label="English"> Maintenance Fund</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [REMaintenanceFund](/modules/realestate/REMaintenanceFund.md) 
+</div>
+</div>
+
 <div class="row searchable" id="n1">
 <div class="cell" data-label="Property">n1</div>
 <div class="cell" data-label="Column">n1</div>
@@ -1524,6 +1536,15 @@
 <div class="cell" data-label="Column">sold</div>
 <div class="cell" data-label="Arabic">تم بيعها</div>
 <div class="cell" data-label="English">Is sold</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="subjectToMaintenance">
+<div class="cell" data-label="Property">subjectToMaintenance</div>
+<div class="cell" data-label="Column">subjectToMaintenance</div>
+<div class="cell" data-label="Arabic">تخضع للصيانة</div>
+<div class="cell" data-label="English">Subject To Maintenance</div>
 <div class="cell" data-label="Type">Boolean</div>
 
 </div>

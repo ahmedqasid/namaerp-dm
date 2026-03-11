@@ -488,7 +488,7 @@
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
- [MagentoSiteGroup](/modules/system-tables/MagentoSiteGroup.md) 
+ [MagentoSiteGroup](/modules/magento/MagentoSiteGroup.md) 
 </div>
 </div>
 

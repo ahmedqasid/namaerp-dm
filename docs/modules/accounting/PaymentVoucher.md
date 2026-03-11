@@ -924,6 +924,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="paymentTerminal">
+<div class="cell" data-label="Property">paymentTerminal</div>
+<div class="cell" data-label="Column">paymentTerminal_id</div>
+<div class="cell" data-label="Arabic">Payment Terminal</div>
+<div class="cell" data-label="English">Payment Terminal</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [PaymentTerminal](/modules/basic-payment-gateway/PaymentTerminal.md) 
+</div>
+</div>
+
 <div class="row searchable" id="preventUsage">
 <div class="cell" data-label="Property">preventUsage</div>
 <div class="cell" data-label="Column">preventUsage</div>

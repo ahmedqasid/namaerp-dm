@@ -331,6 +331,18 @@
 
 </div>
 
+<div class="row searchable" id="mainTreasury">
+<div class="cell" data-label="Property">mainTreasury</div>
+<div class="cell" data-label="Column">main_treasury_id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [POS.POSSafeDeposite](/modules/pos-app/POS.POSSafeDeposite.md) 
+</div>
+</div>
+
 <div class="row searchable" id="n1">
 <div class="cell" data-label="Property">n1</div>
 <div class="cell" data-label="Column">n1</div>

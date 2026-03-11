@@ -70,6 +70,7 @@
   - [POS.POSReportDefinition (Table Name: POSReportDefinition)](/modules/pos-app/POS.POSReportDefinition.md)
   - [POS.POSReturnReason (Table Name: POSReturnReason)](/modules/pos-app/POS.POSReturnReason.md)
   - [POS.POSRewardPointConfig (Table Name: POSRewardPointConfig)](/modules/pos-app/POS.POSRewardPointConfig.md)
+  - [POS.POSSafeDeposite (Table Name: POSSafeDeposite)](/modules/pos-app/POS.POSSafeDeposite.md)
   - [POS.POSSalesInvoice (Table Name: POSSalesInvoice)](/modules/pos-app/POS.POSSalesInvoice.md)
   - [POS.POSSalesOffers (Table Name: POSSalesOffers)](/modules/pos-app/POS.POSSalesOffers.md)
   - [POS.POSSalesPriceClassifier1 (Table Name: POSSalesPriceClassifier1)](/modules/pos-app/POS.POSSalesPriceClassifier1.md)

@@ -2,11 +2,11 @@
 <div class='tableName'>
 
 
-# SecurityProfile
+# REMaintenanceFund
 </div>
 
-**Arabic:** ملف الصلاحيات - ملفات الصلاحيات
-**English:** Security Profile - Security Profiles
+**Arabic:** صندوق الصيانة العقاري - صناديق الصيانة العقارية
+**English:** Maintenance Fund - Maintenance Funds
 
 <ContentFilter/>
 
@@ -22,97 +22,7 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="allLists">
-<div class="cell" data-label="Property">allLists</div>
-<div class="cell" data-label="Column">allLists</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="allowAccessToAI">
-<div class="cell" data-label="Property">allowAccessToAI</div>
-<div class="cell" data-label="Column">allowAccessToAI</div>
-<div class="cell" data-label="Arabic">Allow Access To AI Capabilities</div>
-<div class="cell" data-label="English">Allow Access To AI Capabilities</div>
-<div class="cell" data-label="Type">Enum</div>
-
-</div>
-
-<div class="row searchable" id="allowPDFPrintOnlyForForms">
-<div class="cell" data-label="Property">allowPDFPrintOnlyForForms</div>
-<div class="cell" data-label="Column">allowPDFPrintOnlyForForms</div>
-<div class="cell" data-label="Arabic">السماح بطباعة PDF فقط لنماذج الشاشة</div>
-<div class="cell" data-label="English">Allow PDF Print Only For Forms</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="allowPDFPrintOnlyForReports">
-<div class="cell" data-label="Property">allowPDFPrintOnlyForReports</div>
-<div class="cell" data-label="Column">allowPDFPrintOnlyForReports</div>
-<div class="cell" data-label="Arabic">السماح بطباعة PDF فقط للتقارير</div>
-<div class="cell" data-label="English">Allow PDF Print Only For Reports</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="allowPreventedRecordsInInsert">
-<div class="cell" data-label="Property">allowPreventedRecordsInInsert</div>
-<div class="cell" data-label="Column">allowPreventedRecordsInInsert</div>
-<div class="cell" data-label="Arabic">السماح باستعمال السجلات الممنوعة من الاستعمال في الادخال</div>
-<div class="cell" data-label="English">Allow Using Prevented Records In Insert</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="allowPreventedRecordsInUpdate">
-<div class="cell" data-label="Property">allowPreventedRecordsInUpdate</div>
-<div class="cell" data-label="Column">allowPreventedRecordsInUpdate</div>
-<div class="cell" data-label="Arabic">السماح باستعمال السجلات الممنوعة من الاستعمال في التعديل</div>
-<div class="cell" data-label="English">Allow Using Prevented Records In Update</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="allowReGenAccountingEffects">
-<div class="cell" data-label="Property">allowReGenAccountingEffects</div>
-<div class="cell" data-label="Column">allowReGenAccountingEffects</div>
-<div class="cell" data-label="Arabic">السماح بإعادة إصدار التأثيرات المحاسبية</div>
-<div class="cell" data-label="English">Allow ReGenerate Accounting Effects</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="allowReGenInventoryEffects">
-<div class="cell" data-label="Property">allowReGenInventoryEffects</div>
-<div class="cell" data-label="Column">allowReGenInventoryEffects</div>
-<div class="cell" data-label="Arabic">السماح بإعادة إصدار التأثيرات المخزنية</div>
-<div class="cell" data-label="English">Allow ReGenerate Inventory Effects</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="allowReReplicateRecord">
-<div class="cell" data-label="Property">allowReReplicateRecord</div>
-<div class="cell" data-label="Column">allowReReplicateRecord</div>
-<div class="cell" data-label="Arabic">السماح بمزامنة الملفات</div>
-<div class="cell" data-label="English">Allow ReReplicate Record</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="allowRecommitRecord">
-<div class="cell" data-label="Property">allowRecommitRecord</div>
-<div class="cell" data-label="Column">allowRecommitRecord</div>
-<div class="cell" data-label="Arabic">السماح بإعادة حفظ الملفات</div>
-<div class="cell" data-label="English">Allow Record Recommiting</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="analysisSet">
+</div><div class="row searchable" id="analysisSet">
 <div class="cell" data-label="Property">analysisSet</div>
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic">المجموعة التحليلية</div>
@@ -133,22 +43,28 @@
 
 </div>
 
-<div class="row searchable" id="autoFetchUserShift">
-<div class="cell" data-label="Property">autoFetchUserShift</div>
-<div class="cell" data-label="Column">autoFetchUserShift</div>
-<div class="cell" data-label="Arabic">استحضار الوردية المفتوحة للمستخدم الحالى آليا عند إنشاء أو حفظ أى مستند</div>
-<div class="cell" data-label="English">Auto Fetch User Shift</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="row searchable" id="bank">
+<div class="cell" data-label="Property">bank</div>
+<div class="cell" data-label="Column">bank_id</div>
+<div class="cell" data-label="Arabic">البنك</div>
+<div class="cell" data-label="English">Bank</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
 
+ [Bank](/modules/accounting-banks/Bank.md) 
+</div>
 </div>
 
-<div class="row searchable" id="autoLogoutWithMaxSessions">
-<div class="cell" data-label="Property">autoLogoutWithMaxSessions</div>
-<div class="cell" data-label="Column">autoLogoutWithMaxSessions</div>
-<div class="cell" data-label="Arabic">تسجيل الخروج اليا عند تعدي أقصي عدد مرات تسجيل دخول (من الجلسات الأقدم)</div>
-<div class="cell" data-label="English">Auto Logout From Older Sessions When The User Reaches Maximum Concurrent Sessions</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="row searchable" id="bankAccount">
+<div class="cell" data-label="Property">bankAccount</div>
+<div class="cell" data-label="Column">bankAccount_id</div>
+<div class="cell" data-label="Arabic">رقم حساب البنك</div>
+<div class="cell" data-label="English">Bank account</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
 
+ [BankAccount](/modules/accounting-banks/BankAccount.md) 
+</div>
 </div>
 
 <div class="row searchable" id="branch">
@@ -199,27 +115,6 @@
 
 </div>
 
-<div class="row searchable" id="copyEntitiesFromGroup">
-<div class="cell" data-label="Property">copyEntitiesFromGroup</div>
-<div class="cell" data-label="Column">copyEntitiesFromGroup</div>
-<div class="cell" data-label="Arabic">نسخ من مجموعة</div>
-<div class="cell" data-label="English">copy Entities From Group</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="copyEntitiesFromMenu">
-<div class="cell" data-label="Property">copyEntitiesFromMenu</div>
-<div class="cell" data-label="Column">copyEntitiesFromMenu_id</div>
-<div class="cell" data-label="Arabic">نسخ الأنواع من قائمة</div>
-<div class="cell" data-label="English">copy Entities From Menu</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [MenuDefinition](/modules/basic/MenuDefinition.md) 
-</div>
-</div>
-
 <div class="row searchable" id="createTransactionId">
 <div class="cell" data-label="Property">createTransactionId</div>
 <div class="cell" data-label="Column">createTransactionId</div>
@@ -268,18 +163,6 @@
 
 </div>
 
-<div class="row searchable" id="dashBoard">
-<div class="cell" data-label="Property">dashBoard</div>
-<div class="cell" data-label="Column">dashBoard_id</div>
-<div class="cell" data-label="Arabic">اللوحة</div>
-<div class="cell" data-label="English">DashBoard</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [DashBoard](/modules/basic/DashBoard.md) 
-</div>
-</div>
-
 <div class="row searchable" id="date1">
 <div class="cell" data-label="Property">date1</div>
 <div class="cell" data-label="Column">date1</div>
@@ -323,27 +206,6 @@
 <div class="cell" data-label="English">Date5</div>
 <div class="cell" data-label="Type">Date</div>
 
-</div>
-
-<div class="row searchable" id="defaultLayoutName">
-<div class="cell" data-label="Property">defaultLayoutName</div>
-<div class="cell" data-label="Column">defaultLayoutName</div>
-<div class="cell" data-label="Arabic">معرف شاشات العرض الافتراضي</div>
-<div class="cell" data-label="English">Default Layout Name</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="defaultMenu">
-<div class="cell" data-label="Property">defaultMenu</div>
-<div class="cell" data-label="Column">defaultMenu_id</div>
-<div class="cell" data-label="Arabic">القائمة الافتراضية</div>
-<div class="cell" data-label="English">Default Menu</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [MenuDefinition](/modules/basic/MenuDefinition.md) 
-</div>
 </div>
 
 <div class="row searchable" id="department">
@@ -412,51 +274,6 @@
 
 </div>
 
-<div class="row searchable" id="displayPreventedRecords">
-<div class="cell" data-label="Property">displayPreventedRecords</div>
-<div class="cell" data-label="Column">displayPreventedRecords</div>
-<div class="cell" data-label="Arabic">عرض السجلات الممنوعة من الاستعمال في البحث</div>
-<div class="cell" data-label="English">Display Prevented Records In Search</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="doNotDisplayCriticalErrors">
-<div class="cell" data-label="Property">doNotDisplayCriticalErrors</div>
-<div class="cell" data-label="Column">doNotDisplayCriticalErrors</div>
-<div class="cell" data-label="Arabic">عدم إظهار الأخطاء الحرجة</div>
-<div class="cell" data-label="English">Do Not Display Critical Errors To This User</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="doNotDisplaySystemHelpMsgs">
-<div class="cell" data-label="Property">doNotDisplaySystemHelpMsgs</div>
-<div class="cell" data-label="Column">doNotDisplaySystemHelpMsgs</div>
-<div class="cell" data-label="Arabic">عدم عرض رسائل المساعدة النظاميه</div>
-<div class="cell" data-label="English">Do Not Display System Help Messages</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="doNotUseLDAPForLogin">
-<div class="cell" data-label="Property">doNotUseLDAPForLogin</div>
-<div class="cell" data-label="Column">doNotUseLDAPForLogin</div>
-<div class="cell" data-label="Arabic">Do Not Use LDAP For Login</div>
-<div class="cell" data-label="English">Do Not Use LDAP For Login</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="doNotdispPrevRecInListView">
-<div class="cell" data-label="Property">doNotdispPrevRecInListView</div>
-<div class="cell" data-label="Column">doNotdispPrevRecInListView</div>
-<div class="cell" data-label="Arabic">عدم عرض السجلات الممنوعة من الاستعمال في القوائم</div>
-<div class="cell" data-label="English">Do Not Display Prevented Records In List View</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
 <div class="row searchable" id="docCategory">
 <div class="cell" data-label="Property">docCategory</div>
 <div class="cell" data-label="Column">docCategory_id</div>
@@ -508,15 +325,6 @@
 </div>
 </div>
 
-<div class="row searchable" id="emailUsedWithSendAsEmailWindow">
-<div class="cell" data-label="Property">emailUsedWithSendAsEmailWindow</div>
-<div class="cell" data-label="Column">emailUsedWithSendAsEmailWindow</div>
-<div class="cell" data-label="Arabic">الإيميل المستعمل مع نافذة إرسال كإيميل</div>
-<div class="cell" data-label="English">Email Used With Send As Email Window</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
 <div class="row searchable" id="entitySystemEntryId">
 <div class="cell" data-label="Property">entitySystemEntryId</div>
 <div class="cell" data-label="Column">entitySystemEntry_id</div>
@@ -553,15 +361,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="fullAuthority">
-<div class="cell" data-label="Property">fullAuthority</div>
-<div class="cell" data-label="Column">fullAuthority</div>
-<div class="cell" data-label="Arabic">صلاحيات كاملة</div>
-<div class="cell" data-label="English">Full Authority</div>
-<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
@@ -688,15 +487,6 @@
 
 </div>
 
-<div class="row searchable" id="loginFromAppsOnly">
-<div class="cell" data-label="Property">loginFromAppsOnly</div>
-<div class="cell" data-label="Column">loginFromAppsOnly</div>
-<div class="cell" data-label="Arabic">السماح بتسجيل الدخول من خلال التطبيقات فقط</div>
-<div class="cell" data-label="English">Allow Login From Applications Only</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
 <div class="row searchable" id="mainFile">
 <div class="cell" data-label="Property">mainFile</div>
 <div class="cell" data-label="Column">mainFile_id</div>
@@ -707,33 +497,6 @@
 
  [LargeData](/modules/system-tables/LargeData.md) 
 </div>
-</div>
-
-<div class="row searchable" id="maxLoginSessions">
-<div class="cell" data-label="Property">maxLoginSessions</div>
-<div class="cell" data-label="Column">maxLoginSessions</div>
-<div class="cell" data-label="Arabic">أقصي عدد مرات تسجيل الدخول المتزامن للمستخدم الواحد</div>
-<div class="cell" data-label="English">Maximum Concurrent Sessions Per User</div>
-<div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="maxNumberToRunReport">
-<div class="cell" data-label="Property">maxNumberToRunReport</div>
-<div class="cell" data-label="Column">maxNumberToRunReport</div>
-<div class="cell" data-label="Arabic">اقصى عدد مرات تشغيل للتقارير</div>
-<div class="cell" data-label="English">Max Number To Run Report</div>
-<div class="cell" data-label="Type">Integer</div>
-
-</div>
-
-<div class="row searchable" id="maxRecordsPerPageForListViews">
-<div class="cell" data-label="Property">maxRecordsPerPageForListViews</div>
-<div class="cell" data-label="Column">maxRecordsPerPageForListViews</div>
-<div class="cell" data-label="Arabic">اقصي عدد من السجلات عند عرض الكل في القوائم</div>
-<div class="cell" data-label="English">Maximum Records Per Page For List Views when using All</div>
-<div class="cell" data-label="Type">Integer</div>
-
 </div>
 
 <div class="row searchable" id="n1">
@@ -808,24 +571,6 @@
 
 </div>
 
-<div class="row searchable" id="prevUserToRunSameRepMultipleTimes">
-<div class="cell" data-label="Property">prevUserToRunSameRepMultipleTimes</div>
-<div class="cell" data-label="Column">prevUserToRunSameRepMultipleTimes</div>
-<div class="cell" data-label="Arabic">منع المستخدم من تشغيل نفس التقرير مرتين في نفس الوقت</div>
-<div class="cell" data-label="English">prevent User To Run Same Report Multiple Times</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="preventAccessToChat">
-<div class="cell" data-label="Property">preventAccessToChat</div>
-<div class="cell" data-label="Column">preventAccessToChat</div>
-<div class="cell" data-label="Arabic">منع الوصول إلى المحادثات اللحظية</div>
-<div class="cell" data-label="English">Prevent Access To Instant Chat</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
 <div class="row searchable" id="preventUsage">
 <div class="cell" data-label="Property">preventUsage</div>
 <div class="cell" data-label="Column">preventUsage</div>
@@ -842,6 +587,18 @@
 <div class="cell" data-label="English">Print Count</div>
 <div class="cell" data-label="Type">Integer</div>
 
+</div>
+
+<div class="row searchable" id="project">
+<div class="cell" data-label="Property">project</div>
+<div class="cell" data-label="Column">project_id</div>
+<div class="cell" data-label="Arabic">المشروع</div>
+<div class="cell" data-label="English">Project</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [REProject](/modules/realestate/REProject.md) 
+</div>
 </div>
 
 <div class="row searchable" id="ref1">
@@ -889,21 +646,21 @@
 
 </div>
 
+<div class="row searchable" id="remainingBalance">
+<div class="cell" data-label="Property">remainingBalance</div>
+<div class="cell" data-label="Column">remainingBalance</div>
+<div class="cell" data-label="Arabic">المتبقي</div>
+<div class="cell" data-label="English">Remaining Balance</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="remarks">
 <div class="cell" data-label="Property">remarks</div>
 <div class="cell" data-label="Column">remark</div>
 <div class="cell" data-label="Arabic">ملاحظات</div>
 <div class="cell" data-label="English">Description</div>
 <div class="cell" data-label="Type">BigText</div>
-
-</div>
-
-<div class="row searchable" id="restrictAccessToLeads">
-<div class="cell" data-label="Property">restrictAccessToLeads</div>
-<div class="cell" data-label="Column">restrictAccessToLeads</div>
-<div class="cell" data-label="Arabic">منع الوصول الى خيوط البيع التي لم تخصص للموظف</div>
-<div class="cell" data-label="English">Restrict Access To Leads Except Assigned To Employee</div>
-<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
@@ -937,42 +694,6 @@
 </div>
 </div>
 
-<div class="row searchable" id="scCustomSecurity.canEditSalesPrice">
-<div class="cell" data-label="Property">scCustomSecurity.canEditSalesPrice</div>
-<div class="cell" data-label="Column">canEditSalesPrice</div>
-<div class="cell" data-label="Arabic">يمكن تعديل سعر البيع</div>
-<div class="cell" data-label="English">Can Edit Sales Price</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="scCustomSecurity.canPurchaseAboveLastPrice">
-<div class="cell" data-label="Property">scCustomSecurity.canPurchaseAboveLastPrice</div>
-<div class="cell" data-label="Column">canPurchaseAboveLastPrice</div>
-<div class="cell" data-label="Arabic">يمكن شراء أعلى من سعر الشراء</div>
-<div class="cell" data-label="English">Can Purchase Above Last Price</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="scCustomSecurity.canSellBelowMinPrice">
-<div class="cell" data-label="Property">scCustomSecurity.canSellBelowMinPrice</div>
-<div class="cell" data-label="Column">canSellBelowMinPrice</div>
-<div class="cell" data-label="Arabic">يمكن النزول عن أقل سعر</div>
-<div class="cell" data-label="English">Can Sell Below Minimum Price</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="scCustomSecurity.maxDiscountPercentage">
-<div class="cell" data-label="Property">scCustomSecurity.maxDiscountPercentage</div>
-<div class="cell" data-label="Column">maxDiscountPercentage</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
 <div class="row searchable" id="sector">
 <div class="cell" data-label="Property">sector</div>
 <div class="cell" data-label="Column">sector_id</div>
@@ -1000,6 +721,33 @@
 <div class="cell" data-label="Arabic">System Generated Code Prefix</div>
 <div class="cell" data-label="English">System Generated Code Prefix</div>
 <div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="totalCollectedMaintenanceAmount">
+<div class="cell" data-label="Property">totalCollectedMaintenanceAmount</div>
+<div class="cell" data-label="Column">totalCollectedMaintenanceAmount</div>
+<div class="cell" data-label="Arabic">إجمالي المحصل من صندوق الصيانة</div>
+<div class="cell" data-label="English">Total Collected Maintenance Amount</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="totalMaintenanceDepositAmount">
+<div class="cell" data-label="Property">totalMaintenanceDepositAmount</div>
+<div class="cell" data-label="Column">totalMaintenanceDepositAmount</div>
+<div class="cell" data-label="Arabic">إجمالي قيمة وديعة الصيانة</div>
+<div class="cell" data-label="English">Total Maintenance Deposit Amount</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="totalProjectArea">
+<div class="cell" data-label="Property">totalProjectArea</div>
+<div class="cell" data-label="Column">totalProjectArea</div>
+<div class="cell" data-label="Arabic">إجمالي مساحة المشروع</div>
+<div class="cell" data-label="English">Total Project Area</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 
@@ -1045,18 +793,6 @@
 
 </div>
 
-<div class="row searchable" id="usersCounter">
-<div class="cell" data-label="Property">usersCounter</div>
-<div class="cell" data-label="Column">usersCounter_id</div>
-<div class="cell" data-label="Arabic">عداد مستخدمين</div>
-<div class="cell" data-label="English">Users Counter</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [UsersCounter](/modules/basic/UsersCounter.md) 
-</div>
-</div>
-
 <div class="row searchable" id="viewCapability">
 <div class="cell" data-label="Property">viewCapability</div>
 <div class="cell" data-label="Column">viewCapability_id</div>
@@ -1075,15 +811,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="viewSystemReports">
-<div class="cell" data-label="Property">viewSystemReports</div>
-<div class="cell" data-label="Column">viewSystemReports</div>
-<div class="cell" data-label="Arabic">مطالعة التقارير النظامية</div>
-<div class="cell" data-label="English">View System Reports</div>
-<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 

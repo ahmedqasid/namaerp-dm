@@ -5,6 +5,8 @@
 # MagentoSiteGroup
 </div>
 
+**Arabic:** Magento Site Group
+**English:** Magento Site Group
 
 <ContentFilter/>
 

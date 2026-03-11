@@ -573,6 +573,18 @@
 
 </div>
 
+<div class="row searchable" id="itemClassFilterCriteria">
+<div class="cell" data-label="Property">itemClassFilterCriteria</div>
+<div class="cell" data-label="Column">itemClassFilterCriteria_id</div>
+<div class="cell" data-label="Arabic">معيار فلترة تصنيفات الأصناف</div>
+<div class="cell" data-label="English">Item Class Filter Criteria</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [CriteriaDefinition](/modules/basic/CriteriaDefinition.md) 
+</div>
+</div>
+
 <div class="row searchable" id="itemFilterCriteria">
 <div class="cell" data-label="Property">itemFilterCriteria</div>
 <div class="cell" data-label="Column">itemFilterCriteria_id</div>
@@ -1017,6 +1029,18 @@
 <div class="cell" data-label="Foreign Table">
 
  [NaMaUser](/modules/system-tables/NaMaUser.md) 
+</div>
+</div>
+
+<div class="row searchable" id="salesOrderOtpNotification">
+<div class="cell" data-label="Property">salesOrderOtpNotification</div>
+<div class="cell" data-label="Column">salesOrderOtpNotification_id</div>
+<div class="cell" data-label="Arabic">تنبيه كود التحقق لأمر البيع</div>
+<div class="cell" data-label="English">Sales Order OTP Notification</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [NotificationDefinition](/modules/basic/NotificationDefinition.md) 
 </div>
 </div>
 
