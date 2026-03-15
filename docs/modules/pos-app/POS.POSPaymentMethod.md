@@ -97,6 +97,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="daysBeforeAllowingReturn">
+<div class="cell" data-label="Property">daysBeforeAllowingReturn</div>
+<div class="cell" data-label="Column">daysBeforeAllowingReturn</div>
+<div class="cell" data-label="Arabic">عدد الأيام قبل السماح بالمرتجع</div>
+<div class="cell" data-label="English">Days Before Allowing Return</div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
 <div class="row searchable" id="defaultMethod">
 <div class="cell" data-label="Property">defaultMethod</div>
 <div class="cell" data-label="Column">defaultMethod</div>
