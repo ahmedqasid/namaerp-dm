@@ -1350,6 +1350,15 @@
 
 </div>
 
+<div class="row searchable" id="skipDimensionsCheckWithEdit">
+<div class="cell" data-label="Property">skipDimensionsCheckWithEdit</div>
+<div class="cell" data-label="Column">skipDimensionsCheckWithEdit</div>
+<div class="cell" data-label="Arabic">تخطي التحقق من المحددات مع التعديل</div>
+<div class="cell" data-label="English">Skip Dimensions Check With Edit</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="systemGeneratedCodePrefix">
 <div class="cell" data-label="Property">systemGeneratedCodePrefix</div>
 <div class="cell" data-label="Column">systemGeneratedCodePrefix</div>
