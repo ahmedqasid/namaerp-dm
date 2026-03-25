@@ -52,6 +52,7 @@
   - [ContractingFineEntry](/modules/system-tables/ContractingFineEntry.md)
   - [ContractingPaymentRootEntry](/modules/system-tables/ContractingPaymentRootEntry.md)
   - [ContractingPriceListSysLine](/modules/system-tables/ContractingPriceListSysLine.md)
+  - [ContractorMaterialIssueRequest](/modules/system-tables/ContractorMaterialIssueRequest.md)
   - [CostInTrans](/modules/system-tables/CostInTrans.md)
   - [CostOutTrans](/modules/system-tables/CostOutTrans.md)
   - [CostOverdraftLine](/modules/system-tables/CostOverdraftLine.md)
@@ -350,6 +351,7 @@
   - [WarehouseLocatorFilterLine](/modules/system-tables/WarehouseLocatorFilterLine.md)
   - [WarehouseTaking](/modules/system-tables/WarehouseTaking.md)
   - [WathqCallInfo](/modules/system-tables/WathqCallInfo.md)
+  - [WebEngageSentEvent](/modules/system-tables/WebEngageSentEvent.md)
   - [WhatsAppMessageEntry](/modules/system-tables/WhatsAppMessageEntry.md)
   - [WhatsAppMessageLog](/modules/system-tables/WhatsAppMessageLog.md)
 
