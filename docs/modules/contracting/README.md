@@ -43,6 +43,7 @@
   - [ContractorContractOffer](/modules/contracting/ContractorContractOffer.md)
   - [ContractorContractUpdate](/modules/contracting/ContractorContractUpdate.md)
   - [ContractorMaterialIssue](/modules/contracting/ContractorMaterialIssue.md)
+  - [ContractorMaterialIssueRequest](/modules/contracting/ContractorMaterialIssueRequest.md)
   - [ContractorMaterialReturn](/modules/contracting/ContractorMaterialReturn.md)
   - [ContractorOtherPayment](/modules/contracting/ContractorOtherPayment.md)
   - [CustomerSubmittal](/modules/contracting/CustomerSubmittal.md)

@@ -342,7 +342,7 @@
   "ContractorContractOffer" : "contracting/ContractorContractOffer.md",
   "ContractorContractUpdate" : "contracting/ContractorContractUpdate.md",
   "ContractorMaterialIssue" : "contracting/ContractorMaterialIssue.md",
-  "ContractorMaterialIssueRequest" : "system-tables/ContractorMaterialIssueRequest.md",
+  "ContractorMaterialIssueRequest" : "contracting/ContractorMaterialIssueRequest.md",
   "ContractorMaterialReturn" : "contracting/ContractorMaterialReturn.md",
   "ContractorOtherPayment" : "contracting/ContractorOtherPayment.md",
   "CostInTrans" : "system-tables/CostInTrans.md",

@@ -52,7 +52,6 @@
   - [ContractingFineEntry](/modules/system-tables/ContractingFineEntry.md)
   - [ContractingPaymentRootEntry](/modules/system-tables/ContractingPaymentRootEntry.md)
   - [ContractingPriceListSysLine](/modules/system-tables/ContractingPriceListSysLine.md)
-  - [ContractorMaterialIssueRequest](/modules/system-tables/ContractorMaterialIssueRequest.md)
   - [CostInTrans](/modules/system-tables/CostInTrans.md)
   - [CostOutTrans](/modules/system-tables/CostOutTrans.md)
   - [CostOverdraftLine](/modules/system-tables/CostOverdraftLine.md)
