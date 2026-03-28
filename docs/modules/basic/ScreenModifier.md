@@ -4155,6 +4155,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="quickFilters.effectType">
+<div class="cell" data-label="Property">quickFilters.effectType</div>
+<div class="cell" data-label="Column">effectType</div>
+<div class="cell" data-label="Arabic">نوع التأثير</div>
+<div class="cell" data-label="English">Component Effect Type</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="quickFilters.enTitle">
 <div class="cell" data-label="Property">quickFilters.enTitle</div>
 <div class="cell" data-label="Column">enTitle</div>
@@ -4170,6 +4179,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="quickFilters.isDropdown">
+<div class="cell" data-label="Property">quickFilters.isDropdown</div>
+<div class="cell" data-label="Column">isDropdown</div>
+<div class="cell" data-label="Arabic">عرض كقائمة منسدلة</div>
+<div class="cell" data-label="English">Is Dropdown</div>
+<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 
@@ -4684,6 +4702,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="searchQuickFilters.effectType">
+<div class="cell" data-label="Property">searchQuickFilters.effectType</div>
+<div class="cell" data-label="Column">effectType</div>
+<div class="cell" data-label="Arabic">نوع التأثير</div>
+<div class="cell" data-label="English">Component Effect Type</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="searchQuickFilters.enTitle">
 <div class="cell" data-label="Property">searchQuickFilters.enTitle</div>
 <div class="cell" data-label="Column">enTitle</div>
@@ -4699,6 +4726,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="searchQuickFilters.isDropdown">
+<div class="cell" data-label="Property">searchQuickFilters.isDropdown</div>
+<div class="cell" data-label="Column">isDropdown</div>
+<div class="cell" data-label="Arabic">عرض كقائمة منسدلة</div>
+<div class="cell" data-label="English">Is Dropdown</div>
+<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 

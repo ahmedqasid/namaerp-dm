@@ -1920,6 +1920,15 @@
 
 </div>
 
+<div class="row searchable" id="steps.notifyFieldsOnlyExcludeResponsible">
+<div class="cell" data-label="Property">steps.notifyFieldsOnlyExcludeResponsible</div>
+<div class="cell" data-label="Column">notifyFieldsOnlyExcludeResponsible</div>
+<div class="cell" data-label="Arabic">إرسال التنبيهات لحقل التنبيهات فقط دون المسئول</div>
+<div class="cell" data-label="English">Notify Fields Only Exclude Responsible</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="steps.reasonRequiredWithApproving">
 <div class="cell" data-label="Property">steps.reasonRequiredWithApproving</div>
 <div class="cell" data-label="Column">reasonRequiredWithApproving</div>

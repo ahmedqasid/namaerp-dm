@@ -3621,6 +3621,15 @@
 
 </div>
 
+<div class="row searchable" id="fieldStyles.fixedInputLanguage">
+<div class="cell" data-label="Property">fieldStyles.fixedInputLanguage</div>
+<div class="cell" data-label="Column">fixedInputLanguage</div>
+<div class="cell" data-label="Arabic">تثبيت لغة الإدخال</div>
+<div class="cell" data-label="English">Fixed Input Language</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
 <div class="row searchable" id="fieldStyles.forType">
 <div class="cell" data-label="Property">fieldStyles.forType</div>
 <div class="cell" data-label="Column">forType</div>
