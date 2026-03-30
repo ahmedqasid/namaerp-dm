@@ -1,6 +1,7 @@
 <div class="ignore-in-full-text-search">
 
 # Supply Chain - Inventory
+  - [AggrStockTransferReq](/modules/supplychain-inventory/AggrStockTransferReq.md)
   - [CostRevaluation](/modules/supplychain-inventory/CostRevaluation.md)
   - [EndStockTaking](/modules/supplychain-inventory/EndStockTaking.md)
   - [InitialReceipt](/modules/supplychain-inventory/InitialReceipt.md)
