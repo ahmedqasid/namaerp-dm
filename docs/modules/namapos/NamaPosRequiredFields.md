@@ -781,6 +781,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.doNotApplyOnHold">
+<div class="cell" data-label="Property">details.doNotApplyOnHold</div>
+<div class="cell" data-label="Column">doNotApplyOnHold</div>
+<div class="cell" data-label="Arabic">عدم التطبيق مع التعليق</div>
+<div class="cell" data-label="English">Do Not Apply On Hold</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="details.docCategory">
 <div class="cell" data-label="Property">details.docCategory</div>
 <div class="cell" data-label="Column">docCategory_id</div>

@@ -1491,6 +1491,18 @@
 
 </div>
 
+<div class="row searchable" id="paymentTemplate">
+<div class="cell" data-label="Property">paymentTemplate</div>
+<div class="cell" data-label="Column">paymentTemplate_id</div>
+<div class="cell" data-label="Arabic">نموذج الدفع</div>
+<div class="cell" data-label="English">Payment Template</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [PaymentScheduleTemplate](/modules/basic/PaymentScheduleTemplate.md) 
+</div>
+</div>
+
 <div class="row searchable" id="preventUsage">
 <div class="cell" data-label="Property">preventUsage</div>
 <div class="cell" data-label="Column">preventUsage</div>

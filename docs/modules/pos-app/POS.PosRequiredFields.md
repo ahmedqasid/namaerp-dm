@@ -268,6 +268,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.doNotDoNotApplyOnHold">
+<div class="cell" data-label="Property">details.doNotDoNotApplyOnHold</div>
+<div class="cell" data-label="Column">doNotDoNotApplyOnHold</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="details.docCategory">
 <div class="cell" data-label="Property">details.docCategory</div>
 <div class="cell" data-label="Column">docCategory_id</div>

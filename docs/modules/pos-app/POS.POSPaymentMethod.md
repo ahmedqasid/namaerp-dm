@@ -358,6 +358,15 @@
 
 </div>
 
+<div class="row searchable" id="pmHeaderDiscountPercentOffer">
+<div class="cell" data-label="Property">pmHeaderDiscountPercentOffer</div>
+<div class="cell" data-label="Column">pmHeaderDiscountPercentOffer</div>
+<div class="cell" data-label="Arabic">خصم نسبة من الفاتورة مع طريقة الدفع (في خصم الهيدر)</div>
+<div class="cell" data-label="English">Apply Header Discount Offer with Payment Method in Invoice</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
 <div class="row searchable" id="preventUsage">
 <div class="cell" data-label="Property">preventUsage</div>
 <div class="cell" data-label="Column">preventUsage</div>

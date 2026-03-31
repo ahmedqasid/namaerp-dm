@@ -849,6 +849,30 @@
 
 </div>
 
+<div class="row searchable" id="otherBranch">
+<div class="cell" data-label="Property">otherBranch</div>
+<div class="cell" data-label="Column">otherBranch_id</div>
+<div class="cell" data-label="Arabic">فرع آخر</div>
+<div class="cell" data-label="English">Other Branch</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Branch](/modules/basic/Branch.md) 
+</div>
+</div>
+
+<div class="row searchable" id="otherSector">
+<div class="cell" data-label="Property">otherSector</div>
+<div class="cell" data-label="Column">otherSector_id</div>
+<div class="cell" data-label="Arabic">قطاع آخر</div>
+<div class="cell" data-label="English">Other Sector</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Sector](/modules/basic/Sector.md) 
+</div>
+</div>
+
 <div class="row searchable" id="otpNotification">
 <div class="cell" data-label="Property">otpNotification</div>
 <div class="cell" data-label="Column">otpNotification_id</div>
