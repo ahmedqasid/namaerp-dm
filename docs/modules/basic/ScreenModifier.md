@@ -4143,18 +4143,6 @@
 
 </div>
 
-<div class="row searchable" id="quickFilters.criteria">
-<div class="cell" data-label="Property">quickFilters.criteria</div>
-<div class="cell" data-label="Column">criteria_id</div>
-<div class="cell" data-label="Arabic">المعايير</div>
-<div class="cell" data-label="English">Criteria</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [QuickFilterCriteria](/modules/basic/QuickFilterCriteria.md) 
-</div>
-</div>
-
 <div class="row searchable" id="quickFilters.effectType">
 <div class="cell" data-label="Property">quickFilters.effectType</div>
 <div class="cell" data-label="Column">effectType</div>
@@ -4207,6 +4195,18 @@
 <div class="cell" data-label="English">Max Button Count</div>
 <div class="cell" data-label="Type">Integer</div>
 
+</div>
+
+<div class="row searchable" id="quickFilters.quickFilterCriteria">
+<div class="cell" data-label="Property">quickFilters.quickFilterCriteria</div>
+<div class="cell" data-label="Column">quickFilterCriteria_id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [QuickFilterCriteria](/modules/basic/QuickFilterCriteria.md) 
+</div>
 </div>
 
 <div class="row searchable" id="quickFilters.quickFilterValuesCriteria">
@@ -4690,18 +4690,6 @@
 
 </div>
 
-<div class="row searchable" id="searchQuickFilters.criteria">
-<div class="cell" data-label="Property">searchQuickFilters.criteria</div>
-<div class="cell" data-label="Column">criteria_id</div>
-<div class="cell" data-label="Arabic">المعايير</div>
-<div class="cell" data-label="English">Criteria</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [QuickFilterCriteria](/modules/basic/QuickFilterCriteria.md) 
-</div>
-</div>
-
 <div class="row searchable" id="searchQuickFilters.effectType">
 <div class="cell" data-label="Property">searchQuickFilters.effectType</div>
 <div class="cell" data-label="Column">effectType</div>
@@ -4754,6 +4742,18 @@
 <div class="cell" data-label="English">Max Button Count</div>
 <div class="cell" data-label="Type">Integer</div>
 
+</div>
+
+<div class="row searchable" id="searchQuickFilters.quickFilterCriteria">
+<div class="cell" data-label="Property">searchQuickFilters.quickFilterCriteria</div>
+<div class="cell" data-label="Column">quickFilterCriteria_id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [QuickFilterCriteria](/modules/basic/QuickFilterCriteria.md) 
+</div>
 </div>
 
 <div class="row searchable" id="searchQuickFilters.quickFilterValuesCriteria">

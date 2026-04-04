@@ -582,6 +582,51 @@
 
 </div>
 
+<div class="row searchable" id="dateTime1">
+<div class="cell" data-label="Property">dateTime1</div>
+<div class="cell" data-label="Column">dateTime1</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
+<div class="row searchable" id="dateTime2">
+<div class="cell" data-label="Property">dateTime2</div>
+<div class="cell" data-label="Column">dateTime2</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
+<div class="row searchable" id="dateTime3">
+<div class="cell" data-label="Property">dateTime3</div>
+<div class="cell" data-label="Column">dateTime3</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
+<div class="row searchable" id="dateTime4">
+<div class="cell" data-label="Property">dateTime4</div>
+<div class="cell" data-label="Column">dateTime4</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
+<div class="row searchable" id="dateTime5">
+<div class="cell" data-label="Property">dateTime5</div>
+<div class="cell" data-label="Column">dateTime5</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">DateAndTime</div>
+
+</div>
+
 <div class="row searchable" id="delayStockDoc">
 <div class="cell" data-label="Property">delayStockDoc</div>
 <div class="cell" data-label="Column">delayStockDoc</div>
