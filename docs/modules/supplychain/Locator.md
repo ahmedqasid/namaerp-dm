@@ -396,6 +396,15 @@
 
 </div>
 
+<div class="row searchable" id="ignoreInReservationQtyCheckByDate">
+<div class="cell" data-label="Property">ignoreInReservationQtyCheckByDate</div>
+<div class="cell" data-label="Column">ignoreInReservationQtyCheckByDate</div>
+<div class="cell" data-label="Arabic">التجاهل في التحقق من كمية الحجز بالتاريخ</div>
+<div class="cell" data-label="English">Ignore In Reservation Qty Check By Date</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="ignoreLocatorWithQtyCollection">
 <div class="cell" data-label="Property">ignoreLocatorWithQtyCollection</div>
 <div class="cell" data-label="Column">ignoreLocatorWithQtyCollection</div>
