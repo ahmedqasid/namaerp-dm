@@ -201,6 +201,54 @@
 </div>
 </div>
 
+<div class="row searchable" id="attachment2">
+<div class="cell" data-label="Property">attachment2</div>
+<div class="cell" data-label="Column">attachment2_id</div>
+<div class="cell" data-label="Arabic">مرفق 2</div>
+<div class="cell" data-label="English">Attachment 2</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="attachment3">
+<div class="cell" data-label="Property">attachment3</div>
+<div class="cell" data-label="Column">attachment3_id</div>
+<div class="cell" data-label="Arabic">مرفق 3</div>
+<div class="cell" data-label="English">Attachment 3</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="attachment4">
+<div class="cell" data-label="Property">attachment4</div>
+<div class="cell" data-label="Column">attachment4_id</div>
+<div class="cell" data-label="Arabic">مرفق 4</div>
+<div class="cell" data-label="English">Attachment 4</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="attachment5">
+<div class="cell" data-label="Property">attachment5</div>
+<div class="cell" data-label="Column">attachment5_id</div>
+<div class="cell" data-label="Arabic">مرفق 5</div>
+<div class="cell" data-label="English">Attachment 5</div>
+<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
 <div class="row searchable" id="attendanceLocation.address1">
 <div class="cell" data-label="Property">attendanceLocation.address1</div>
 <div class="cell" data-label="Column">attAddress1</div>
