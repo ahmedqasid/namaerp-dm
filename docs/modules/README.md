@@ -267,6 +267,7 @@
     - [FilesExportMenu](/modules/basic/FilesExportMenu.md)
     - [FiscalPeriod](/modules/basic/FiscalPeriod.md)
     - [FiscalYear](/modules/basic/FiscalYear.md)
+    - [FiscalYearStatusUpdate](/modules/basic/FiscalYearStatusUpdate.md)
     - [FreezeProcessingDoc](/modules/basic/FreezeProcessingDoc.md)
     - [GUIPostActions](/modules/basic/GUIPostActions.md)
     - [GUITheme](/modules/basic/GUITheme.md)

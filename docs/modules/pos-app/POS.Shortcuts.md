@@ -256,7 +256,43 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="details.businessFunction">
+</div><div class="row searchable" id="details.POSShortcutKey.theKey">
+<div class="cell" data-label="Property">details.POSShortcutKey.theKey</div>
+<div class="cell" data-label="Column">theKey</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="details.POSShortcutKey.useAlt">
+<div class="cell" data-label="Property">details.POSShortcutKey.useAlt</div>
+<div class="cell" data-label="Column">useAlt</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="details.POSShortcutKey.useCtrl">
+<div class="cell" data-label="Property">details.POSShortcutKey.useCtrl</div>
+<div class="cell" data-label="Column">useCtrl</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="details.POSShortcutKey.useShift">
+<div class="cell" data-label="Property">details.POSShortcutKey.useShift</div>
+<div class="cell" data-label="Column">useShift</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="details.businessFunction">
 <div class="cell" data-label="Property">details.businessFunction</div>
 <div class="cell" data-label="Column">businessFunction</div>
 <div class="cell" data-label="Arabic"></div>
@@ -289,42 +325,6 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="details.theKey">
-<div class="cell" data-label="Property">details.theKey</div>
-<div class="cell" data-label="Column">theKey</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="details.useAlt">
-<div class="cell" data-label="Property">details.useAlt</div>
-<div class="cell" data-label="Column">useAlt</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="details.useCtrl">
-<div class="cell" data-label="Property">details.useCtrl</div>
-<div class="cell" data-label="Column">useCtrl</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="details.useShift">
-<div class="cell" data-label="Property">details.useShift</div>
-<div class="cell" data-label="Column">useShift</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
 
 </div>
 

@@ -22,7 +22,43 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="authorizationNumberRequire">
+</div><div class="row searchable" id="POSShortcutKey.theKey">
+<div class="cell" data-label="Property">POSShortcutKey.theKey</div>
+<div class="cell" data-label="Column">theKey</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="POSShortcutKey.useAlt">
+<div class="cell" data-label="Property">POSShortcutKey.useAlt</div>
+<div class="cell" data-label="Column">useAlt</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="POSShortcutKey.useCtrl">
+<div class="cell" data-label="Property">POSShortcutKey.useCtrl</div>
+<div class="cell" data-label="Column">useCtrl</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="POSShortcutKey.useShift">
+<div class="cell" data-label="Property">POSShortcutKey.useShift</div>
+<div class="cell" data-label="Column">useShift</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="authorizationNumberRequire">
 <div class="cell" data-label="Property">authorizationNumberRequire</div>
 <div class="cell" data-label="Column">authorizationNumberRequire</div>
 <div class="cell" data-label="Arabic">رقم العملية مطلوب</div>

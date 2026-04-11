@@ -1421,6 +1421,8 @@ export const entityPathsMap: Record<string, string> = {
   "FiscalYear" : "basic/FiscalYear.html",
   "FiscalYearIgnoredPeriods" : "basic/FiscalYear.html#ignoreClosedPeriodsIn",
   "FiscalYearPeriod" : "basic/FiscalYear.html#periods",
+  "FiscalYearStatusUpdate" : "basic/FiscalYearStatusUpdate.html",
+  "FiscalYearStatusUpdateLine" : "basic/FiscalYearStatusUpdate.html#details",
   "FixedAsset" : "fixedassets/FixedAsset.html",
   "FixedAssetComponentLine" : "fixedassets/FixedAsset.html#assetComponents",
   "FACustodianLine" : "fixedassets/FixedAsset.html#lines",

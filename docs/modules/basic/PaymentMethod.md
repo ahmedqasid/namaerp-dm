@@ -1071,6 +1071,42 @@
 </div>
 </div>
 
+<div class="row searchable" id="shortCut.theKey">
+<div class="cell" data-label="Property">shortCut.theKey</div>
+<div class="cell" data-label="Column">shortCutTheKey</div>
+<div class="cell" data-label="Arabic">المفتاح</div>
+<div class="cell" data-label="English">Key</div>
+<div class="cell" data-label="Type">Enum</div>
+
+</div>
+
+<div class="row searchable" id="shortCut.useAlt">
+<div class="cell" data-label="Property">shortCut.useAlt</div>
+<div class="cell" data-label="Column">shortCutUseAlt</div>
+<div class="cell" data-label="Arabic">Alt</div>
+<div class="cell" data-label="English">Alt</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="shortCut.useCtrl">
+<div class="cell" data-label="Property">shortCut.useCtrl</div>
+<div class="cell" data-label="Column">shortCutUseCtrl</div>
+<div class="cell" data-label="Arabic">Ctrl</div>
+<div class="cell" data-label="English">Ctrl</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="shortCut.useShift">
+<div class="cell" data-label="Property">shortCut.useShift</div>
+<div class="cell" data-label="Column">shortCutUseShift</div>
+<div class="cell" data-label="Arabic">Shift</div>
+<div class="cell" data-label="English">Shift</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="subsidiary">
 <div class="cell" data-label="Property">subsidiary</div>
 <div class="cell gen-ref-column" data-label="Column">subsidiaryActualCode,  subsidiaryCode,  subsidiaryEntityType,  subsidiaryId</div>

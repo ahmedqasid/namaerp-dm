@@ -714,6 +714,15 @@
 
 </div>
 
+<div class="row searchable" id="doNotMoveNextSaveToPOS">
+<div class="cell" data-label="Property">doNotMoveNextSaveToPOS</div>
+<div class="cell" data-label="Column">doNotMoveNextSaveToPOS</div>
+<div class="cell" data-label="Arabic">عدم إرسال الحفظ التالي لنقاط البيع</div>
+<div class="cell" data-label="English">Do Not Move Next Save To POS</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="doNotMoveToPOS">
 <div class="cell" data-label="Property">doNotMoveToPOS</div>
 <div class="cell" data-label="Column">doNotMoveToPOS</div>

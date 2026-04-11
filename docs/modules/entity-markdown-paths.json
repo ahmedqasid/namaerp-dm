@@ -674,6 +674,7 @@
   "FiringRequest" : "humanresource-payroll/FiringRequest.md",
   "FiscalPeriod" : "basic/FiscalPeriod.md",
   "FiscalYear" : "basic/FiscalYear.md",
+  "FiscalYearStatusUpdate" : "basic/FiscalYearStatusUpdate.md",
   "FixedAsset" : "fixedassets/FixedAsset.md",
   "FixedDeposit" : "accounting-loans/FixedDeposit.md",
   "FixedDepositChangingDoc" : "accounting-loans/FixedDepositChangingDoc.md",
