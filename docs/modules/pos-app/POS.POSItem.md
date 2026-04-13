@@ -955,6 +955,18 @@
 </div>
 </div>
 
+<div class="row searchable" id="revisions.revisionFile">
+<div class="cell" data-label="Property">revisions.revisionFile</div>
+<div class="cell" data-label="Column">revisionFile_id</div>
+<div class="cell" data-label="Arabic">الإصدار | الملف</div>
+<div class="cell" data-label="English">Revision | File</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [POS.PosRevisionFile](/modules/pos-app/POS.PosRevisionFile.md) 
+</div>
+</div>
+
 <div class="row searchable" id="revisions.revisionId">
 <div class="cell" data-label="Property">revisions.revisionId</div>
 <div class="cell" data-label="Column">revisionId</div>

@@ -2,17 +2,15 @@
 <div class='tableName'>
 
 
-# POS.POSDiscountCoupon (Table Name: POSDiscountCoupon)
+# POS.PosRevisionFile (Table Name: PosRevisionFile)
 </div>
 
-**Arabic:** قسيمة خصومات -  قسيمة خصومات
-**English:** Discount Coupon -  Discount Coupon
 
 <ContentFilter/>
 
 
 <div class='searchable'>
-<a href='#details'>details (POSDiscountCouponLine) </a>
+<a href='#colors'>colors (PosRevisionFileColorLine) </a> , <a href='#sizes'>sizes (PosRevisionFileSizeLine) </a>
 </div>
 
 <div class='searchable'>
@@ -54,60 +52,12 @@
 
 </div>
 
-<div class="row searchable" id="couponValue">
-<div class="cell" data-label="Property">couponValue</div>
-<div class="cell" data-label="Column">couponValue</div>
-<div class="cell" data-label="Arabic">قيمة</div>
-<div class="cell" data-label="English">Coupon Value</div>
-<div class="cell" data-label="Type">Decimal</div>
-
-</div>
-
 <div class="row searchable" id="creationDate">
 <div class="cell" data-label="Property">creationDate</div>
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
 <div class="cell" data-label="Type">DateAndTime</div>
-
-</div>
-
-<div class="row searchable" id="customer">
-<div class="cell" data-label="Property">customer</div>
-<div class="cell" data-label="Column">customer_id</div>
-<div class="cell" data-label="Arabic">العميل</div>
-<div class="cell" data-label="English">Customer</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
-
- [POS.POSCustomer](/modules/pos-app/POS.POSCustomer.md) 
-</div>
-</div>
-
-<div class="row searchable" id="fromDate">
-<div class="cell" data-label="Property">fromDate</div>
-<div class="cell" data-label="Column">fromDate</div>
-<div class="cell" data-label="Arabic">من تاريخ</div>
-<div class="cell" data-label="English">From Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
-
-</div>
-
-<div class="row searchable" id="fromInvoiceId">
-<div class="cell" data-label="Property">fromInvoiceId</div>
-<div class="cell" data-label="Column">fromInvoiceId</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="fromRecId">
-<div class="cell" data-label="Property">fromRecId</div>
-<div class="cell" data-label="Column">fromRecId</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
 
 </div>
 
@@ -273,33 +223,6 @@
 
 </div>
 
-<div class="row searchable" id="sent">
-<div class="cell" data-label="Property">sent</div>
-<div class="cell" data-label="Column">sent</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
-<div class="row searchable" id="toDate">
-<div class="cell" data-label="Property">toDate</div>
-<div class="cell" data-label="Column">toDate</div>
-<div class="cell" data-label="Arabic">إلى تاريخ</div>
-<div class="cell" data-label="English">To Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
-
-</div>
-
-<div class="row searchable" id="usedOnce">
-<div class="cell" data-label="Property">usedOnce</div>
-<div class="cell" data-label="Column">usedOnce</div>
-<div class="cell" data-label="Arabic">تستخدم مره واحده</div>
-<div class="cell" data-label="English">Used Once</div>
-<div class="cell" data-label="Type">Boolean</div>
-
-</div>
-
 <div class="row searchable" id="writeFailures">
 <div class="cell" data-label="Property">writeFailures</div>
 <div class="cell" data-label="Column">writeFailures</div>
@@ -313,13 +236,13 @@
 </div>
 </div>
 
-<div id='details' title='details' class='searchable'>
+<div id='colors' title='colors' class='searchable'>
 
-## details (التفاصيل - Details)
+## colors ( - )
 
 <div class='tableName'>
 
-**Table Name:** POSDiscountCouponLine, **Join Column:** coupon_id
+**Table Name:** PosRevisionFileColorLine, **Join Column:** revisionFile_id
 
 </div>
 
@@ -331,20 +254,26 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="details.coupon">
-<div class="cell" data-label="Property">details.coupon</div>
-<div class="cell" data-label="Column">coupon_id</div>
-<div class="cell" data-label="Arabic">قسيمة خصومات</div>
-<div class="cell" data-label="English">Coupon</div>
-<div class="cell" data-label="Type">Reference</div>
-<div class="cell" data-label="Foreign Table">
+</div><div class="row searchable" id="colors.color">
+<div class="cell" data-label="Property">colors.color</div>
+<div class="cell" data-label="Column">color</div>
+<div class="cell" data-label="Arabic">اللون</div>
+<div class="cell" data-label="English">Color</div>
+<div class="cell" data-label="Type">Text</div>
 
- [POS.POSDiscountCoupon](/modules/pos-app/POS.POSDiscountCoupon.md) 
-</div>
 </div>
 
-<div class="row searchable" id="details.id">
-<div class="cell" data-label="Property">details.id</div>
+<div class="row searchable" id="colors.defaultSizeAndColor">
+<div class="cell" data-label="Property">colors.defaultSizeAndColor</div>
+<div class="cell" data-label="Column">defaultSizeAndColor</div>
+<div class="cell" data-label="Arabic">الإفتراضي</div>
+<div class="cell" data-label="English">Default</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="colors.id">
+<div class="cell" data-label="Property">colors.id</div>
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -352,26 +281,8 @@
 
 </div>
 
-<div class="row searchable" id="details.invCode">
-<div class="cell" data-label="Property">details.invCode</div>
-<div class="cell" data-label="Column">invCode</div>
-<div class="cell" data-label="Arabic">الكود بنقطة البيع</div>
-<div class="cell" data-label="English">Code in POS</div>
-<div class="cell" data-label="Type">Text</div>
-
-</div>
-
-<div class="row searchable" id="details.invoiceId">
-<div class="cell" data-label="Property">details.invoiceId</div>
-<div class="cell" data-label="Column">invoiceId</div>
-<div class="cell" data-label="Arabic">Invoice Id</div>
-<div class="cell" data-label="English">Invoice Id</div>
-<div class="cell" data-label="Type">ID</div>
-
-</div>
-
-<div class="row searchable" id="details.lineNumber">
-<div class="cell" data-label="Property">details.lineNumber</div>
+<div class="row searchable" id="colors.lineNumber">
+<div class="cell" data-label="Property">colors.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -379,21 +290,85 @@
 
 </div>
 
-<div class="row searchable" id="details.registerCode">
-<div class="cell" data-label="Property">details.registerCode</div>
-<div class="cell" data-label="Column">registerCode</div>
-<div class="cell" data-label="Arabic">كود الماكينة</div>
-<div class="cell" data-label="English">Register Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="row searchable" id="colors.revisionFile">
+<div class="cell" data-label="Property">colors.revisionFile</div>
+<div class="cell" data-label="Column">revisionFile_id</div>
+<div class="cell" data-label="Arabic">ملف الإصدارة</div>
+<div class="cell" data-label="English">Revision File</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [POS.PosRevisionFile](/modules/pos-app/POS.PosRevisionFile.md) 
+</div>
+</div>
+
+
+</div>
+</div>
+
+<div id='sizes' title='sizes' class='searchable'>
+
+## sizes ( - )
+
+<div class='tableName'>
+
+**Table Name:** PosRevisionFileSizeLine, **Join Column:** revisionFile_id
 
 </div>
 
-<div class="row searchable" id="details.value">
-<div class="cell" data-label="Property">details.value</div>
-<div class="cell" data-label="Column">value</div>
-<div class="cell" data-label="Arabic">القيمة</div>
-<div class="cell" data-label="English">Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="sizes.defaultSizeAndColor">
+<div class="cell" data-label="Property">sizes.defaultSizeAndColor</div>
+<div class="cell" data-label="Column">defaultSizeAndColor</div>
+<div class="cell" data-label="Arabic">الإفتراضي</div>
+<div class="cell" data-label="English">Default</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
+<div class="row searchable" id="sizes.id">
+<div class="cell" data-label="Property">sizes.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="sizes.lineNumber">
+<div class="cell" data-label="Property">sizes.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="sizes.revisionFile">
+<div class="cell" data-label="Property">sizes.revisionFile</div>
+<div class="cell" data-label="Column">revisionFile_id</div>
+<div class="cell" data-label="Arabic">ملف الإصدارة</div>
+<div class="cell" data-label="English">Revision File</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [POS.PosRevisionFile](/modules/pos-app/POS.PosRevisionFile.md) 
+</div>
+</div>
+
+<div class="row searchable" id="sizes.size">
+<div class="cell" data-label="Property">sizes.size</div>
+<div class="cell" data-label="Column">size</div>
+<div class="cell" data-label="Arabic">المقاس</div>
+<div class="cell" data-label="English">Size</div>
+<div class="cell" data-label="Type">Text</div>
 
 </div>
 

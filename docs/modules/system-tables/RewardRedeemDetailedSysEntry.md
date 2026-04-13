@@ -50,8 +50,8 @@
 <div class="row searchable" id="redeemedPoints">
 <div class="cell" data-label="Property">redeemedPoints</div>
 <div class="cell" data-label="Column">redeemedPoints</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">النقاط المستردة</div>
+<div class="cell" data-label="English">Redeemed Points</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>

@@ -23,8 +23,8 @@
 </div><div class="row searchable" id="coupon">
 <div class="cell" data-label="Property">coupon</div>
 <div class="cell" data-label="Column">coupon_id</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">قسيمة خصومات</div>
+<div class="cell" data-label="English">Coupon</div>
 <div class="cell" data-label="Type">Reference</div>
 <div class="cell" data-label="Foreign Table">
 
@@ -62,8 +62,8 @@
 <div class="row searchable" id="monetaryValue">
 <div class="cell" data-label="Property">monetaryValue</div>
 <div class="cell" data-label="Column">monetaryValue</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">القيمة النقدية</div>
+<div class="cell" data-label="English">Monetary Value</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
@@ -80,8 +80,8 @@
 <div class="row searchable" id="redeemedPoints">
 <div class="cell" data-label="Property">redeemedPoints</div>
 <div class="cell" data-label="Column">redeemedPoints</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">النقاط المستردة</div>
+<div class="cell" data-label="English">Redeemed Points</div>
 <div class="cell" data-label="Type">Decimal</div>
 
 </div>
@@ -93,6 +93,18 @@
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">ID</div>
 
+</div>
+
+<div class="row searchable" id="rewardPointsConfig">
+<div class="cell" data-label="Property">rewardPointsConfig</div>
+<div class="cell" data-label="Column">rewardPointsConfig_id</div>
+<div class="cell" data-label="Arabic"> إعدادات نقاط المكافأة</div>
+<div class="cell" data-label="English">Reward Points Configuration</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [RewardPointsConfig](/modules/basic-external-reward-points/RewardPointsConfig.md) 
+</div>
 </div>
 
 <div class="row searchable" id="valueDate">

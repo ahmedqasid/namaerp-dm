@@ -1422,7 +1422,7 @@
 <div class="row searchable" id="totalOther">
 <div class="cell" data-label="Property">totalOther</div>
 <div class="cell" data-label="Column">totalOther</div>
-<div class="cell" data-label="Arabic">إجمـــالى الآخرى</div>
+<div class="cell" data-label="Arabic">إجمـــالى الأخرى</div>
 <div class="cell" data-label="English">Total Other</div>
 <div class="cell" data-label="Type">Decimal</div>
 
@@ -1846,7 +1846,7 @@
 <div class="row searchable" id="salarySheetLines.totalOther">
 <div class="cell" data-label="Property">salarySheetLines.totalOther</div>
 <div class="cell" data-label="Column">totalOther</div>
-<div class="cell" data-label="Arabic">إجمـــالى الآخرى</div>
+<div class="cell" data-label="Arabic">إجمـــالى الأخرى</div>
 <div class="cell" data-label="English">Total Other</div>
 <div class="cell" data-label="Type">Decimal</div>
 

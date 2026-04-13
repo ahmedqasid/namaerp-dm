@@ -1266,7 +1266,7 @@
 <div class="row searchable" id="stopOtherDiscounts">
 <div class="cell" data-label="Property">stopOtherDiscounts</div>
 <div class="cell" data-label="Column">stopOtherDiscounts</div>
-<div class="cell" data-label="Arabic">إيقاف التخفبضات الآخرى</div>
+<div class="cell" data-label="Arabic">إيقاف التخفبضات الأخرى</div>
 <div class="cell" data-label="English">stop other discounts</div>
 <div class="cell" data-label="Type">Boolean</div>
 
@@ -3916,7 +3916,7 @@
 <div class="row searchable" id="invDiscountLines.stopOtherDiscounts">
 <div class="cell" data-label="Property">invDiscountLines.stopOtherDiscounts</div>
 <div class="cell" data-label="Column">stopOtherDiscounts</div>
-<div class="cell" data-label="Arabic">إيقاف التخفبضات الآخرى</div>
+<div class="cell" data-label="Arabic">إيقاف التخفبضات الأخرى</div>
 <div class="cell" data-label="English">stop other discounts</div>
 <div class="cell" data-label="Type">Boolean</div>
 
@@ -4424,7 +4424,7 @@
 <div class="row searchable" id="invOffersLines.stopOtherDiscounts">
 <div class="cell" data-label="Property">invOffersLines.stopOtherDiscounts</div>
 <div class="cell" data-label="Column">stopOtherDiscounts</div>
-<div class="cell" data-label="Arabic">إيقاف التخفبضات الآخرى</div>
+<div class="cell" data-label="Arabic">إيقاف التخفبضات الأخرى</div>
 <div class="cell" data-label="English">stop other discounts</div>
 <div class="cell" data-label="Type">Boolean</div>
 
@@ -4956,7 +4956,7 @@
 <div class="row searchable" id="itemsCountOffers.stopOtherDiscounts">
 <div class="cell" data-label="Property">itemsCountOffers.stopOtherDiscounts</div>
 <div class="cell" data-label="Column">stopOtherDiscounts</div>
-<div class="cell" data-label="Arabic">إيقاف التخفبضات الآخرى</div>
+<div class="cell" data-label="Arabic">إيقاف التخفبضات الأخرى</div>
 <div class="cell" data-label="English">stop other discounts</div>
 <div class="cell" data-label="Type">Boolean</div>
 

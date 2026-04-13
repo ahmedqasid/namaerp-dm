@@ -1407,6 +1407,7 @@
   "POS.PosPaymentTerminal" : "pos-app/POS.PosPaymentTerminal.md",
   "POS.PosPoleDisplaySpecs" : "pos-app/POS.PosPoleDisplaySpecs.md",
   "POS.PosRequiredFields" : "pos-app/POS.PosRequiredFields.md",
+  "POS.PosRevisionFile" : "pos-app/POS.PosRevisionFile.md",
   "POS.PosTableEntry" : "pos-app/POS.PosTableEntry.md",
   "POS.PosTempDocument" : "pos-app/POS.PosTempDocument.md",
   "POS.PosUISettings" : "pos-app/POS.PosUISettings.md",

@@ -1020,7 +1020,7 @@
 <div class="row searchable" id="isOther">
 <div class="cell" data-label="Property">isOther</div>
 <div class="cell" data-label="Column">isOther</div>
-<div class="cell" data-label="Arabic">آخرى</div>
+<div class="cell" data-label="Arabic">أخرى</div>
 <div class="cell" data-label="English">Other</div>
 <div class="cell" data-label="Type">Boolean</div>
 
@@ -1554,7 +1554,7 @@
 <div class="row searchable" id="money.totalPaymentMethods">
 <div class="cell" data-label="Property">money.totalPaymentMethods</div>
 <div class="cell" data-label="Column">totalPaymentMethods</div>
-<div class="cell" data-label="Arabic">إجمالى طرق الدفع الآخرى</div>
+<div class="cell" data-label="Arabic">إجمالى طرق الدفع الأخرى</div>
 <div class="cell" data-label="English">Other Payments Total</div>
 <div class="cell" data-label="Type">Decimal</div>
 

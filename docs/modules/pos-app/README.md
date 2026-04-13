@@ -114,6 +114,7 @@
   - [POS.PosPaymentTerminal (Table Name: PosPaymentTerminal)](/modules/pos-app/POS.PosPaymentTerminal.md)
   - [POS.PosPoleDisplaySpecs (Table Name: PosPoleDisplaySpecs)](/modules/pos-app/POS.PosPoleDisplaySpecs.md)
   - [POS.PosRequiredFields (Table Name: PosRequiredFields)](/modules/pos-app/POS.PosRequiredFields.md)
+  - [POS.PosRevisionFile (Table Name: PosRevisionFile)](/modules/pos-app/POS.PosRevisionFile.md)
   - [POS.PosTableEntry (Table Name: PosTableEntry)](/modules/pos-app/POS.PosTableEntry.md)
   - [POS.PosTempDocument (Table Name: PosTempDocument)](/modules/pos-app/POS.PosTempDocument.md)
   - [POS.PosUISettings (Table Name: PosUISettings)](/modules/pos-app/POS.PosUISettings.md)

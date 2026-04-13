@@ -1572,7 +1572,7 @@
 <div class="row searchable" id="money.totalPaymentMethods">
 <div class="cell" data-label="Property">money.totalPaymentMethods</div>
 <div class="cell" data-label="Column">totalPaymentMethods</div>
-<div class="cell" data-label="Arabic">إجمالى طرق الدفع الآخرى</div>
+<div class="cell" data-label="Arabic">إجمالى طرق الدفع الأخرى</div>
 <div class="cell" data-label="English">Other Payments Total</div>
 <div class="cell" data-label="Type">Decimal</div>
 
@@ -2382,7 +2382,7 @@
 <div class="row searchable" id="rspMoney.totalPaymentMethods">
 <div class="cell" data-label="Property">rspMoney.totalPaymentMethods</div>
 <div class="cell" data-label="Column">rspTotalPaymentMethods</div>
-<div class="cell" data-label="Arabic">إجمالى طرق الدفع الآخرى</div>
+<div class="cell" data-label="Arabic">إجمالى طرق الدفع الأخرى</div>
 <div class="cell" data-label="English">Other Payments Total</div>
 <div class="cell" data-label="Type">Decimal</div>
 
@@ -2838,7 +2838,7 @@
 <div class="row searchable" id="spMoney.totalPaymentMethods">
 <div class="cell" data-label="Property">spMoney.totalPaymentMethods</div>
 <div class="cell" data-label="Column">spTotalPaymentMethods</div>
-<div class="cell" data-label="Arabic">إجمالى طرق الدفع الآخرى</div>
+<div class="cell" data-label="Arabic">إجمالى طرق الدفع الأخرى</div>
 <div class="cell" data-label="English">Other Payments Total</div>
 <div class="cell" data-label="Type">Decimal</div>
 
@@ -3252,7 +3252,7 @@
 <div class="row searchable" id="srvMoney.totalPaymentMethods">
 <div class="cell" data-label="Property">srvMoney.totalPaymentMethods</div>
 <div class="cell" data-label="Column">srvTotalPaymentMethods</div>
-<div class="cell" data-label="Arabic">إجمالى طرق الدفع الآخرى</div>
+<div class="cell" data-label="Arabic">إجمالى طرق الدفع الأخرى</div>
 <div class="cell" data-label="English">Other Payments Total</div>
 <div class="cell" data-label="Type">Decimal</div>
 
