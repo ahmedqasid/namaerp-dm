@@ -566,7 +566,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -734,7 +734,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -968,7 +968,7 @@
 <div class="cell" data-label="Column">magentoItemUnitType</div>
 <div class="cell" data-label="Arabic">وحدة صنف الموقع</div>
 <div class="cell" data-label="English">Magento Item UOM Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DefaultUOM](/modules/enums/DefaultUOM.md) </div>
 
 </div>
 
@@ -977,7 +977,7 @@
 <div class="cell" data-label="Column">magentoPriceType</div>
 <div class="cell" data-label="Arabic">نوع السعر</div>
 <div class="cell" data-label="English">Price Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MagentoPriceType](/modules/enums/MagentoPriceType.md) </div>
 
 </div>
 
@@ -986,7 +986,7 @@
 <div class="cell" data-label="Column">magentoQuantityType</div>
 <div class="cell" data-label="Arabic">حساب الكمية المرسلة لماجنتو</div>
 <div class="cell" data-label="English">Magento Sent Quantity</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CalcMagentoQuantityType](/modules/enums/CalcMagentoQuantityType.md) </div>
 
 </div>
 
@@ -1166,7 +1166,7 @@
 <div class="cell" data-label="Column">orderInfoFromDiscount1</div>
 <div class="cell" data-label="Arabic">مصدر خصم 1</div>
 <div class="cell" data-label="English">From Discount1</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1175,7 +1175,7 @@
 <div class="cell" data-label="Column">orderInfoFromDiscount2</div>
 <div class="cell" data-label="Arabic">مصدر خصم 2</div>
 <div class="cell" data-label="English">From Discount2</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1184,7 +1184,7 @@
 <div class="cell" data-label="Column">orderInfoFromDiscount3</div>
 <div class="cell" data-label="Arabic">مصدر خصم 3</div>
 <div class="cell" data-label="English">From Discount3</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1193,7 +1193,7 @@
 <div class="cell" data-label="Column">orderInfoFromDiscount4</div>
 <div class="cell" data-label="Arabic">مصدر خصم 4</div>
 <div class="cell" data-label="English">From Discount4</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1241,7 +1241,7 @@
 <div class="cell" data-label="Column">orderInfoToDiscount</div>
 <div class="cell" data-label="Arabic">الفرق إلى خصم</div>
 <div class="cell" data-label="English">To Discount</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1250,7 +1250,7 @@
 <div class="cell" data-label="Column">originalPriceSource</div>
 <div class="cell" data-label="Arabic">مصدر السعر الاساسى</div>
 <div class="cell" data-label="English">Original Price Source</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MAGPriceSourceLocation](/modules/enums/MAGPriceSourceLocation.md) </div>
 
 </div>
 
@@ -1277,7 +1277,7 @@
 <div class="cell" data-label="Column">paymentMethodCalcType</div>
 <div class="cell" data-label="Arabic">طريقة حساب طرق الدفع بماجنتو</div>
 <div class="cell" data-label="English">Payment Method Calculate Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PaymentMethodCalcType](/modules/enums/PaymentMethodCalcType.md) </div>
 
 </div>
 
@@ -1349,7 +1349,7 @@
 <div class="cell" data-label="Column">putCouponDiscountTo</div>
 <div class="cell" data-label="Arabic">وضع خصم الكوبون إلي خصم (نسبة)</div>
 <div class="cell" data-label="English">Put Coupon Discount To (Percent)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocationWithHeader](/modules/enums/DiscountLocationWithHeader.md) </div>
 
 </div>
 
@@ -1358,7 +1358,7 @@
 <div class="cell" data-label="Column">putHeaderDiscountInLineDiscount</div>
 <div class="cell" data-label="Arabic">نقل خصم الهيدر الي خصم السطور</div>
 <div class="cell" data-label="English">Put Header Discount In Line Discount</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1367,7 +1367,7 @@
 <div class="cell" data-label="Column">putLinesDiscount2To</div>
 <div class="cell" data-label="Arabic">وضع خصم السطور 2 إلي (نسبة)</div>
 <div class="cell" data-label="English">Put Lines Discount 2 To (Percent)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1376,7 +1376,7 @@
 <div class="cell" data-label="Column">putLinesDiscountTo</div>
 <div class="cell" data-label="Arabic">وضع خصم السطور إلي (نسبة)</div>
 <div class="cell" data-label="English">Put Lines Discount To (Percent)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1394,7 +1394,7 @@
 <div class="cell" data-label="Column">quantityToSendType</div>
 <div class="cell" data-label="Arabic">إرسال الكمية ب (عندما تكون اقل من  اقل كمية للإرسال او تساويها)</div>
 <div class="cell" data-label="English">Send Quantity (If Quantity is less than minimum quantity to send)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityToSendType](/modules/enums/QuantityToSendType.md) </div>
 
 </div>
 
@@ -1523,7 +1523,7 @@
 <div class="cell" data-label="Column">requestInfoFromDiscount1</div>
 <div class="cell" data-label="Arabic">مصدر خصم 1</div>
 <div class="cell" data-label="English">From Discount1</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1532,7 +1532,7 @@
 <div class="cell" data-label="Column">requestInfoFromDiscount2</div>
 <div class="cell" data-label="Arabic">مصدر خصم 2</div>
 <div class="cell" data-label="English">From Discount2</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1541,7 +1541,7 @@
 <div class="cell" data-label="Column">requestInfoFromDiscount3</div>
 <div class="cell" data-label="Arabic">مصدر خصم 3</div>
 <div class="cell" data-label="English">From Discount3</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1550,7 +1550,7 @@
 <div class="cell" data-label="Column">requestInfoFromDiscount4</div>
 <div class="cell" data-label="Arabic">مصدر خصم 4</div>
 <div class="cell" data-label="English">From Discount4</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1598,7 +1598,7 @@
 <div class="cell" data-label="Column">requestInfoToDiscount</div>
 <div class="cell" data-label="Arabic">الفرق إلى خصم</div>
 <div class="cell" data-label="English">To Discount</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1628,7 +1628,7 @@
 <div class="cell" data-label="Column">returnInfoFromDiscount1</div>
 <div class="cell" data-label="Arabic">مصدر خصم 1</div>
 <div class="cell" data-label="English">From Discount1</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1637,7 +1637,7 @@
 <div class="cell" data-label="Column">returnInfoFromDiscount2</div>
 <div class="cell" data-label="Arabic">مصدر خصم 2</div>
 <div class="cell" data-label="English">From Discount2</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1646,7 +1646,7 @@
 <div class="cell" data-label="Column">returnInfoFromDiscount3</div>
 <div class="cell" data-label="Arabic">مصدر خصم 3</div>
 <div class="cell" data-label="English">From Discount3</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1655,7 +1655,7 @@
 <div class="cell" data-label="Column">returnInfoFromDiscount4</div>
 <div class="cell" data-label="Arabic">مصدر خصم 4</div>
 <div class="cell" data-label="English">From Discount4</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1703,7 +1703,7 @@
 <div class="cell" data-label="Column">returnInfoToDiscount</div>
 <div class="cell" data-label="Arabic">الفرق إلى خصم</div>
 <div class="cell" data-label="English">To Discount</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -1712,7 +1712,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1838,7 +1838,7 @@
 <div class="cell" data-label="Column">sentQtyRoundingType</div>
 <div class="cell" data-label="Arabic">تقريب الكمية المٌرسلة</div>
 <div class="cell" data-label="English">Sent Quantity Rounding Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RoundingType](/modules/enums/RoundingType.md) </div>
 
 </div>
 
@@ -1877,7 +1877,7 @@
 <div class="cell" data-label="Column">siteType</div>
 <div class="cell" data-label="Arabic">Site Type</div>
 <div class="cell" data-label="English">Site Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MagEcommerceSiteType](/modules/enums/MagEcommerceSiteType.md) </div>
 
 </div>
 
@@ -1904,7 +1904,7 @@
 <div class="cell" data-label="Column">specialPriceSource</div>
 <div class="cell" data-label="Arabic">مصدر السعر الخاص</div>
 <div class="cell" data-label="English">Special Price Source</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MAGPriceSourceLocation](/modules/enums/MAGPriceSourceLocation.md) </div>
 
 </div>
 
@@ -2220,7 +2220,7 @@
 <div class="cell" data-label="Column">productFieldType</div>
 <div class="cell" data-label="Arabic">نوع الحقل</div>
 <div class="cell" data-label="English">Product Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EcommerceProductType](/modules/enums/EcommerceProductType.md) </div>
 
 </div>
 
@@ -2305,7 +2305,7 @@
 <div class="cell" data-label="Column">ecommerceEntityType</div>
 <div class="cell" data-label="Arabic">نوع مستند ماجنتو</div>
 <div class="cell" data-label="English">Ecommerce Entity Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EcommerceEntityType](/modules/enums/EcommerceEntityType.md) </div>
 
 </div>
 
@@ -2326,7 +2326,7 @@
 <div class="cell" data-label="Column">fromDiscount1</div>
 <div class="cell" data-label="Arabic">مصدر خصم 1</div>
 <div class="cell" data-label="English">From Discount1</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -2335,7 +2335,7 @@
 <div class="cell" data-label="Column">fromDiscount2</div>
 <div class="cell" data-label="Arabic">مصدر خصم 2</div>
 <div class="cell" data-label="English">From Discount2</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -2344,7 +2344,7 @@
 <div class="cell" data-label="Column">fromDiscount3</div>
 <div class="cell" data-label="Arabic">مصدر خصم 3</div>
 <div class="cell" data-label="English">From Discount3</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -2353,7 +2353,7 @@
 <div class="cell" data-label="Column">fromDiscount4</div>
 <div class="cell" data-label="Arabic">مصدر خصم 4</div>
 <div class="cell" data-label="English">From Discount4</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -2401,7 +2401,7 @@
 <div class="cell" data-label="Column">toDiscount</div>
 <div class="cell" data-label="Arabic">الفرق إلى خصم</div>
 <div class="cell" data-label="English">To Discount</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -2450,7 +2450,7 @@
 <div class="cell" data-label="Column">ecommerceEventType</div>
 <div class="cell" data-label="Arabic">Ecommerce Event Type</div>
 <div class="cell" data-label="English">Ecommerce Event Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EcommerceEventType](/modules/enums/EcommerceEventType.md) </div>
 
 </div>
 
@@ -2596,7 +2596,7 @@
 <div class="cell" data-label="Column">ecommerceGraphEntityOperation</div>
 <div class="cell" data-label="Arabic">نوع العملية</div>
 <div class="cell" data-label="English">Operation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EcommerceGraphEntityOperation](/modules/enums/EcommerceGraphEntityOperation.md) </div>
 
 </div>
 
@@ -3546,7 +3546,7 @@
 <div class="cell" data-label="Column">quantityToSendType</div>
 <div class="cell" data-label="Arabic">إرسال الكمية ب (عندما تكون اقل من  اقل كمية للإرسال او تساويها)</div>
 <div class="cell" data-label="English">Send Quantity (If Quantity is less than minimum quantity to send)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityToSendType](/modules/enums/QuantityToSendType.md) </div>
 
 </div>
 
@@ -3921,7 +3921,7 @@
 <div class="cell" data-label="Column">warehouseApplyType</div>
 <div class="cell" data-label="Arabic">نوع التطبيق على المخازن</div>
 <div class="cell" data-label="English">Warehouse Apply Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RuleApplyType](/modules/enums/RuleApplyType.md) </div>
 
 </div>
 

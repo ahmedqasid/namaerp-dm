@@ -43,7 +43,7 @@
 <div class="cell" data-label="Column">entryType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [IPInvestmentSysEntryType](/modules/enums/IPInvestmentSysEntryType.md) </div>
 
 </div>
 
@@ -52,7 +52,7 @@
 <div class="cell" data-label="Column">fromState</div>
 <div class="cell" data-label="Arabic"> من حالة</div>
 <div class="cell" data-label="English"> From Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InvestmentDocStatus](/modules/enums/InvestmentDocStatus.md) </div>
 
 </div>
 
@@ -133,7 +133,7 @@
 <div class="cell" data-label="Column">toState</div>
 <div class="cell" data-label="Arabic"> إلى حالة</div>
 <div class="cell" data-label="English"> To Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InvestmentDocStatus](/modules/enums/InvestmentDocStatus.md) </div>
 
 </div>
 

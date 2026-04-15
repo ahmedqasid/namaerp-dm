@@ -25,7 +25,7 @@
 <div class="cell" data-label="Column">actionType</div>
 <div class="cell" data-label="Arabic">نوع الإجراء</div>
 <div class="cell" data-label="English">Action Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PendingSystemActionType](/modules/enums/PendingSystemActionType.md) </div>
 
 </div>
 
@@ -169,7 +169,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaskStatus](/modules/enums/TaskStatus.md) </div>
 
 </div>
 

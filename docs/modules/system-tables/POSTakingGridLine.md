@@ -25,7 +25,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
 
 </div>
 
@@ -43,7 +43,7 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 

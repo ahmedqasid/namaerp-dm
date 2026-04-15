@@ -285,7 +285,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -384,7 +384,7 @@
 <div class="cell" data-label="Column">expenseValueType</div>
 <div class="cell" data-label="Arabic">نوع قيمة المصروف</div>
 <div class="cell" data-label="English">Expense Value Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ExpensValueType](/modules/enums/ExpensValueType.md) </div>
 
 </div>
 
@@ -450,7 +450,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -639,7 +639,7 @@
 <div class="cell" data-label="Column">PaidEvery</div>
 <div class="cell" data-label="Arabic">يستحق كل</div>
 <div class="cell" data-label="English">Paid Every</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PeriodType](/modules/enums/PeriodType.md) </div>
 
 </div>
 
@@ -657,7 +657,7 @@
 <div class="cell" data-label="Column">percentBasis</div>
 <div class="cell" data-label="Arabic">اساس النسبة</div>
 <div class="cell" data-label="English">Percentage Basis</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PercentBasis](/modules/enums/PercentBasis.md) </div>
 
 </div>
 
@@ -738,7 +738,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -867,7 +867,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [REInstallmentType](/modules/enums/REInstallmentType.md) </div>
 
 </div>
 

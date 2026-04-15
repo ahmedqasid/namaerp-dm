@@ -105,7 +105,7 @@
 <div class="cell" data-label="Column">compactMode</div>
 <div class="cell" data-label="Arabic">Compact Mode</div>
 <div class="cell" data-label="English">Compact Mode</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoDefault](/modules/enums/YesNoDefault.md) </div>
 
 </div>
 
@@ -234,7 +234,7 @@
 <div class="cell" data-label="Column">darkMode</div>
 <div class="cell" data-label="Arabic">Dark Mode</div>
 <div class="cell" data-label="English">Dark Mode</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoDefault](/modules/enums/YesNoDefault.md) </div>
 
 </div>
 
@@ -384,7 +384,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -471,7 +471,7 @@
 <div class="cell" data-label="Column">fontSize</div>
 <div class="cell" data-label="Arabic">حجم الخط</div>
 <div class="cell" data-label="English">Font Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FontSize](/modules/enums/FontSize.md) </div>
 
 </div>
 
@@ -507,7 +507,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -537,7 +537,7 @@
 <div class="cell" data-label="Column">horizontalMode</div>
 <div class="cell" data-label="Arabic">Horizontal Mode</div>
 <div class="cell" data-label="English">Horizontal Mode</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoDefault](/modules/enums/YesNoDefault.md) </div>
 
 </div>
 
@@ -831,7 +831,7 @@
 <div class="cell" data-label="Column">quadLayout</div>
 <div class="cell" data-label="Arabic">Quad Layout</div>
 <div class="cell" data-label="English">Quad Layout</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoDefault](/modules/enums/YesNoDefault.md) </div>
 
 </div>
 
@@ -894,7 +894,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -954,7 +954,7 @@
 <div class="cell" data-label="Column">showToolbarLabels</div>
 <div class="cell" data-label="Arabic">عرض عناوين شريط الأدوات</div>
 <div class="cell" data-label="English">Show Toolbar Labels</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoDefault](/modules/enums/YesNoDefault.md) </div>
 
 </div>
 

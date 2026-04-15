@@ -383,7 +383,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -548,7 +548,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -1022,7 +1022,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1347,7 +1347,7 @@
 <div class="cell" data-label="Column">answerType</div>
 <div class="cell" data-label="Arabic">نوع الاجابة</div>
 <div class="cell" data-label="English">Answer Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AnswerType](/modules/enums/AnswerType.md) </div>
 
 </div>
 
@@ -1407,7 +1407,7 @@
 <div class="cell" data-label="Column">checkResult</div>
 <div class="cell" data-label="Arabic">فحص النتائج</div>
 <div class="cell" data-label="English">Check Result</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CheckResult](/modules/enums/CheckResult.md) </div>
 
 </div>
 
@@ -1653,7 +1653,7 @@
 <div class="cell" data-label="Column">largestOperator</div>
 <div class="cell" data-label="Arabic">اكبر عدد مقبول | عامل</div>
 <div class="cell" data-label="English">Largest Number | Operator</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LargeNumOperator](/modules/enums/LargeNumOperator.md) </div>
 
 </div>
 
@@ -1671,7 +1671,7 @@
 <div class="cell" data-label="Column">leastOperator</div>
 <div class="cell" data-label="Arabic">أقل عدد مقبول | عامل</div>
 <div class="cell" data-label="English">Least Number | Operator</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LeastNumOperator](/modules/enums/LeastNumOperator.md) </div>
 
 </div>
 
@@ -2358,7 +2358,7 @@
 <div class="cell" data-label="Column">transItemType</div>
 <div class="cell" data-label="Arabic">نوع السطر</div>
 <div class="cell" data-label="English">Line Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TransLineItemType](/modules/enums/TransLineItemType.md) </div>
 
 </div>
 

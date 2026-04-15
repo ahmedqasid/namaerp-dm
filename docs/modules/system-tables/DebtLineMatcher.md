@@ -94,7 +94,7 @@
 <div class="cell" data-label="Column">manualEffectType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LedgerEffectType](/modules/enums/LedgerEffectType.md) </div>
 
 </div>
 

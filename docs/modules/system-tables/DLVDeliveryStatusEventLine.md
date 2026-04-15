@@ -46,7 +46,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [IPSParcelsReceiverResponse](/modules/enums/IPSParcelsReceiverResponse.md) </div>
 
 </div>
 

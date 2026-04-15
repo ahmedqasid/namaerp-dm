@@ -554,7 +554,7 @@
 <div class="cell" data-label="Column">delivStatus</div>
 <div class="cell" data-label="Arabic">حالة التوصيل</div>
 <div class="cell" data-label="English">deliveryStatus</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DeliveryStatus](/modules/enums/DeliveryStatus.md) </div>
 
 </div>
 
@@ -584,7 +584,7 @@
 <div class="cell" data-label="Column">deliveryPeriodUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -737,7 +737,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -923,7 +923,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -998,7 +998,7 @@
 <div class="cell" data-label="Column">invoiceType</div>
 <div class="cell" data-label="Arabic">نوع الفاتورة</div>
 <div class="cell" data-label="English">Invoice Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalesInvoiceType](/modules/enums/SalesInvoiceType.md) </div>
 
 </div>
 
@@ -1664,7 +1664,7 @@
 <div class="cell" data-label="Column">paymentMethod</div>
 <div class="cell" data-label="Arabic">طريقة الدفع</div>
 <div class="cell" data-label="English"> Payment Method</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AdvancePaymentMethod](/modules/enums/AdvancePaymentMethod.md) </div>
 
 </div>
 
@@ -1964,7 +1964,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -2270,7 +2270,7 @@
 <div class="cell" data-label="Column">taxAuthEntityStatusType</div>
 <div class="cell" data-label="Arabic">حالة المستند بالنسبة لمصلحة الضرائب</div>
 <div class="cell" data-label="English">Tax Authority Document Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxAuthorityEntityStatusType](/modules/enums/TaxAuthorityEntityStatusType.md) </div>
 
 </div>
 
@@ -2697,7 +2697,7 @@
 <div class="cell" data-label="Column">delivStatus</div>
 <div class="cell" data-label="Arabic">حالة التوصيل</div>
 <div class="cell" data-label="English">deliveryStatus</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DeliveryStatus](/modules/enums/DeliveryStatus.md) </div>
 
 </div>
 
@@ -2724,7 +2724,7 @@
 <div class="cell" data-label="Column">drPeriodUom</div>
 <div class="cell" data-label="Arabic">معدل التوريد|نوع الفترة</div>
 <div class="cell" data-label="English">Delivery Rate|Period Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -3921,7 +3921,7 @@
 <div class="cell" data-label="Column">reservationStatus</div>
 <div class="cell" data-label="Arabic">حالة الحجز</div>
 <div class="cell" data-label="English">Reservation Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReservationStatus](/modules/enums/ReservationStatus.md) </div>
 
 </div>
 
@@ -4443,7 +4443,7 @@
 <div class="cell" data-label="Column">transItemType</div>
 <div class="cell" data-label="Arabic">نوع السطر</div>
 <div class="cell" data-label="English">Line Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TransLineItemType](/modules/enums/TransLineItemType.md) </div>
 
 </div>
 

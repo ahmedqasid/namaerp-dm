@@ -11,7 +11,7 @@
 
 
 <div class='searchable'>
-<a href='#charts'>charts (DashBoardLine) </a> , <a href='#details'>details (DashBoardDBGroupLine) </a>
+<a href='#charts'>charts (DashBoardLine) </a> , <a href='#crossFilterBindings'>crossFilterBindings (DashBoardCrossFilterBinding) </a> , <a href='#details'>details (DashBoardDBGroupLine) </a>
 </div>
 
 <div class='searchable'>
@@ -340,7 +340,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -445,7 +445,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -739,7 +739,7 @@
 <div class="cell" data-label="Column">refreshDashboardPerUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -811,7 +811,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1052,7 +1052,7 @@
 <div class="cell" data-label="Column">refreshWidgetPerUom</div>
 <div class="cell" data-label="Arabic">تحديث العنصر كل | وحدة</div>
 <div class="cell" data-label="English">Refresh Widget Per | UOM</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -1089,6 +1089,97 @@
 <div class="cell" data-label="Arabic">العرض بعدد الإعمدة</div>
 <div class="cell" data-label="English">Width In Columns</div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='crossFilterBindings' title='crossFilterBindings' class='searchable'>
+
+## crossFilterBindings (ربط الفلاتر التفاعلية - Cross Filter Bindings)
+
+<div class='tableName'>
+
+**Table Name:** DashBoardCrossFilterBinding, **Join Column:** dashBoard_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="crossFilterBindings.crossFilter">
+<div class="cell" data-label="Property">crossFilterBindings.crossFilter</div>
+<div class="cell" data-label="Column">crossFilter_id</div>
+<div class="cell" data-label="Arabic">الفلتر التفاعلي</div>
+<div class="cell" data-label="English">Cross Filter</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [BICrossFilter](/modules/basic/BICrossFilter.md) 
+</div>
+</div>
+
+<div class="row searchable" id="crossFilterBindings.customWhereClause">
+<div class="cell" data-label="Property">crossFilterBindings.customWhereClause</div>
+<div class="cell" data-label="Column">customWhereClause</div>
+<div class="cell" data-label="Arabic">شرط مخصص</div>
+<div class="cell" data-label="English">Custom WHERE Clause</div>
+<div class="cell" data-label="Type">BigText</div>
+
+</div>
+
+<div class="row searchable" id="crossFilterBindings.element">
+<div class="cell" data-label="Property">crossFilterBindings.element</div>
+<div class="cell" data-label="Column">element_id</div>
+<div class="cell" data-label="Arabic">العنصر</div>
+<div class="cell" data-label="English">Element</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [DashBoardWidget](/modules/basic/DashBoardWidget.md) 
+</div>
+</div>
+
+<div class="row searchable" id="crossFilterBindings.id">
+<div class="cell" data-label="Property">crossFilterBindings.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="crossFilterBindings.lineNumber">
+<div class="cell" data-label="Property">crossFilterBindings.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="crossFilterBindings.operator">
+<div class="cell" data-label="Property">crossFilterBindings.operator</div>
+<div class="cell" data-label="Column">operator</div>
+<div class="cell" data-label="Arabic">المعامل</div>
+<div class="cell" data-label="English">Operator</div>
+<div class="cell" data-label="Type"> [Operator](/modules/enums/Operator.md) </div>
+
+</div>
+
+<div class="row searchable" id="crossFilterBindings.sqlLeftHandSide">
+<div class="cell" data-label="Property">crossFilterBindings.sqlLeftHandSide</div>
+<div class="cell" data-label="Column">sqlLeftHandSide</div>
+<div class="cell" data-label="Arabic">عمود SQL الأيسر</div>
+<div class="cell" data-label="English">SQL Left Hand Side</div>
+<div class="cell" data-label="Type">FieldID</div>
 
 </div>
 

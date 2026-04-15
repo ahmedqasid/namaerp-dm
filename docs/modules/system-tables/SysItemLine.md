@@ -280,7 +280,7 @@
 <div class="cell" data-label="Column">lineStatus</div>
 <div class="cell" data-label="Arabic">حالة السطر</div>
 <div class="cell" data-label="English">Line Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OrderStatus](/modules/enums/OrderStatus.md) </div>
 
 </div>
 
@@ -328,7 +328,7 @@
 <div class="cell" data-label="Column">orderType</div>
 <div class="cell" data-label="Arabic">نوع الإذن</div>
 <div class="cell" data-label="English">Order Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [JobOrderType](/modules/enums/JobOrderType.md) </div>
 
 </div>
 

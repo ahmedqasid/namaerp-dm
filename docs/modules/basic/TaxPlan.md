@@ -194,7 +194,7 @@
 <div class="cell" data-label="Column">defaultTaxConfig</div>
 <div class="cell" data-label="Arabic">الإعدادات الافتراضية للضريبة من</div>
 <div class="cell" data-label="English">Default Tax Configuration</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxConfigDefault](/modules/enums/TaxConfigDefault.md) </div>
 
 </div>
 
@@ -281,7 +281,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -386,7 +386,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -674,7 +674,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1112,7 +1112,7 @@
 <div class="cell" data-label="Column">tax1ApplyType</div>
 <div class="cell" data-label="Arabic">وعاء ضريبة 1</div>
 <div class="cell" data-label="English">Tax 1 Apply Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxApplyType](/modules/enums/TaxApplyType.md) </div>
 
 </div>
 
@@ -1139,7 +1139,7 @@
 <div class="cell" data-label="Column">tax1Location</div>
 <div class="cell" data-label="Arabic">وقت حساب ضريبة 1</div>
 <div class="cell" data-label="English">Tax 1 Location</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxLocation](/modules/enums/TaxLocation.md) </div>
 
 </div>
 
@@ -1166,7 +1166,7 @@
 <div class="cell" data-label="Column">tax2ApplyType</div>
 <div class="cell" data-label="Arabic">وعاء ضريبة 2</div>
 <div class="cell" data-label="English">Tax 2 Apply Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxApplyType](/modules/enums/TaxApplyType.md) </div>
 
 </div>
 
@@ -1193,7 +1193,7 @@
 <div class="cell" data-label="Column">tax2Location</div>
 <div class="cell" data-label="Arabic">وقت حساب ضريبة 2</div>
 <div class="cell" data-label="English">Tax 2 Location</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxLocation](/modules/enums/TaxLocation.md) </div>
 
 </div>
 
@@ -1220,7 +1220,7 @@
 <div class="cell" data-label="Column">tax3ApplyType</div>
 <div class="cell" data-label="Arabic">وعاء ضريبة 3</div>
 <div class="cell" data-label="English">Tax 3 Apply Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxApplyType](/modules/enums/TaxApplyType.md) </div>
 
 </div>
 
@@ -1247,7 +1247,7 @@
 <div class="cell" data-label="Column">tax3Location</div>
 <div class="cell" data-label="Arabic">وقت حساب ضريبة 3</div>
 <div class="cell" data-label="English">Tax 3 Location</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxLocation](/modules/enums/TaxLocation.md) </div>
 
 </div>
 
@@ -1274,7 +1274,7 @@
 <div class="cell" data-label="Column">tax4ApplyType</div>
 <div class="cell" data-label="Arabic">وعاء ضريبة 4</div>
 <div class="cell" data-label="English">Tax 4 Apply Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxApplyType](/modules/enums/TaxApplyType.md) </div>
 
 </div>
 
@@ -1301,7 +1301,7 @@
 <div class="cell" data-label="Column">tax4Location</div>
 <div class="cell" data-label="Arabic">وقت حساب ضريبة 4</div>
 <div class="cell" data-label="English">Tax 4 Location</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxLocation](/modules/enums/TaxLocation.md) </div>
 
 </div>
 
@@ -1755,7 +1755,7 @@
 <div class="cell" data-label="Column">tax1ApplyType</div>
 <div class="cell" data-label="Arabic">وعاء ضريبة 1</div>
 <div class="cell" data-label="English">Tax 1 Apply Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxApplyType](/modules/enums/TaxApplyType.md) </div>
 
 </div>
 
@@ -1782,7 +1782,7 @@
 <div class="cell" data-label="Column">tax1Location</div>
 <div class="cell" data-label="Arabic">وقت حساب ضريبة 1</div>
 <div class="cell" data-label="English">Tax 1 Location</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxLocation](/modules/enums/TaxLocation.md) </div>
 
 </div>
 
@@ -1809,7 +1809,7 @@
 <div class="cell" data-label="Column">tax2ApplyType</div>
 <div class="cell" data-label="Arabic">وعاء ضريبة 2</div>
 <div class="cell" data-label="English">Tax 2 Apply Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxApplyType](/modules/enums/TaxApplyType.md) </div>
 
 </div>
 
@@ -1836,7 +1836,7 @@
 <div class="cell" data-label="Column">tax2Location</div>
 <div class="cell" data-label="Arabic">وقت حساب ضريبة 2</div>
 <div class="cell" data-label="English">Tax 2 Location</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxLocation](/modules/enums/TaxLocation.md) </div>
 
 </div>
 
@@ -1863,7 +1863,7 @@
 <div class="cell" data-label="Column">tax3ApplyType</div>
 <div class="cell" data-label="Arabic">وعاء ضريبة 3</div>
 <div class="cell" data-label="English">Tax 3 Apply Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxApplyType](/modules/enums/TaxApplyType.md) </div>
 
 </div>
 
@@ -1890,7 +1890,7 @@
 <div class="cell" data-label="Column">tax3Location</div>
 <div class="cell" data-label="Arabic">وقت حساب ضريبة 3</div>
 <div class="cell" data-label="English">Tax 3 Location</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxLocation](/modules/enums/TaxLocation.md) </div>
 
 </div>
 
@@ -1917,7 +1917,7 @@
 <div class="cell" data-label="Column">tax4ApplyType</div>
 <div class="cell" data-label="Arabic">وعاء ضريبة 4</div>
 <div class="cell" data-label="English">Tax 4 Apply Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxApplyType](/modules/enums/TaxApplyType.md) </div>
 
 </div>
 
@@ -1944,7 +1944,7 @@
 <div class="cell" data-label="Column">tax4Location</div>
 <div class="cell" data-label="Arabic">وقت حساب ضريبة 4</div>
 <div class="cell" data-label="English">Tax 4 Location</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxLocation](/modules/enums/TaxLocation.md) </div>
 
 </div>
 

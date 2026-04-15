@@ -57,7 +57,7 @@
 <div class="cell" data-label="Column">blankWhenNull</div>
 <div class="cell" data-label="Arabic">Blank When Null</div>
 <div class="cell" data-label="English">Blank When Null</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TrueFalseDefault](/modules/enums/TrueFalseDefault.md) </div>
 
 </div>
 
@@ -66,7 +66,7 @@
 <div class="cell" data-label="Column">bold</div>
 <div class="cell" data-label="Arabic">غامق</div>
 <div class="cell" data-label="English">Toggle Bold</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TrueFalseDefault](/modules/enums/TrueFalseDefault.md) </div>
 
 </div>
 
@@ -312,7 +312,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -369,7 +369,7 @@
 <div class="cell" data-label="Column">fill</div>
 <div class="cell" data-label="Arabic">Fill</div>
 <div class="cell" data-label="English">Fill</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [JRFill](/modules/enums/JRFill.md) </div>
 
 </div>
 
@@ -462,7 +462,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -483,7 +483,7 @@
 <div class="cell" data-label="Column">horizontalImageAlign</div>
 <div class="cell" data-label="Arabic">Horizontal Image Align</div>
 <div class="cell" data-label="English">Horizontal Image Align</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [JRHorizontalAlign](/modules/enums/JRHorizontalAlign.md) </div>
 
 </div>
 
@@ -492,7 +492,7 @@
 <div class="cell" data-label="Column">horizontalTextAlign</div>
 <div class="cell" data-label="Arabic">Horizontal Text Align</div>
 <div class="cell" data-label="English">Horizontal Text Align</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [JRHorizontalAlign](/modules/enums/JRHorizontalAlign.md) </div>
 
 </div>
 
@@ -519,7 +519,7 @@
 <div class="cell" data-label="Column">italic</div>
 <div class="cell" data-label="Arabic">مائل</div>
 <div class="cell" data-label="English">Toggle Italic</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TrueFalseDefault](/modules/enums/TrueFalseDefault.md) </div>
 
 </div>
 
@@ -603,7 +603,7 @@
 <div class="cell" data-label="Column">lineSpacing</div>
 <div class="cell" data-label="Arabic">Line Spacing</div>
 <div class="cell" data-label="English">Line Spacing</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [JRLineSpacing](/modules/enums/JRLineSpacing.md) </div>
 
 </div>
 
@@ -621,7 +621,7 @@
 <div class="cell" data-label="Column">lineStyle</div>
 <div class="cell" data-label="Arabic">Border Style</div>
 <div class="cell" data-label="English">Border Style</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [JRLineStyle](/modules/enums/JRLineStyle.md) </div>
 
 </div>
 
@@ -630,7 +630,7 @@
 <div class="cell" data-label="Column">lineThrough</div>
 <div class="cell" data-label="Arabic">Line Through</div>
 <div class="cell" data-label="English">Line Through</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TrueFalseDefault](/modules/enums/TrueFalseDefault.md) </div>
 
 </div>
 
@@ -669,7 +669,7 @@
 <div class="cell" data-label="Column">markup</div>
 <div class="cell" data-label="Arabic">Markup</div>
 <div class="cell" data-label="English">Markup</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [JRMarkup](/modules/enums/JRMarkup.md) </div>
 
 </div>
 
@@ -840,7 +840,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -888,7 +888,7 @@
 <div class="cell" data-label="Column">rotation</div>
 <div class="cell" data-label="Arabic">Rotation</div>
 <div class="cell" data-label="English">Rotation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [JRRotation](/modules/enums/JRRotation.md) </div>
 
 </div>
 
@@ -897,7 +897,7 @@
 <div class="cell" data-label="Column">scaleImage</div>
 <div class="cell" data-label="Arabic">Scale Image</div>
 <div class="cell" data-label="English">Scale Image</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [JRScaleImage](/modules/enums/JRScaleImage.md) </div>
 
 </div>
 
@@ -972,7 +972,7 @@
 <div class="cell" data-label="Column">transparent</div>
 <div class="cell" data-label="Arabic">Transparent</div>
 <div class="cell" data-label="English">Transparent</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [JRModeEnum](/modules/enums/JRModeEnum.md) </div>
 
 </div>
 
@@ -981,7 +981,7 @@
 <div class="cell" data-label="Column">underline</div>
 <div class="cell" data-label="Arabic">تسطير</div>
 <div class="cell" data-label="English">Toggle Underline</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TrueFalseDefault](/modules/enums/TrueFalseDefault.md) </div>
 
 </div>
 
@@ -1041,7 +1041,7 @@
 <div class="cell" data-label="Column">verticalImageAlign</div>
 <div class="cell" data-label="Arabic">Vertical Image Align</div>
 <div class="cell" data-label="English">Vertical Image Align</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [JRVerticalAlign](/modules/enums/JRVerticalAlign.md) </div>
 
 </div>
 
@@ -1050,7 +1050,7 @@
 <div class="cell" data-label="Column">verticalTextAlign</div>
 <div class="cell" data-label="Arabic">Vertical Text Align</div>
 <div class="cell" data-label="English">Vertical Text Align</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [JRVerticalAlign](/modules/enums/JRVerticalAlign.md) </div>
 
 </div>
 

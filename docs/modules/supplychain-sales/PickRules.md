@@ -66,7 +66,7 @@
 <div class="cell" data-label="Column">boxPolicy</div>
 <div class="cell" data-label="Arabic">ملء الصندوق تلقائيا</div>
 <div class="cell" data-label="English">Auto Fill Box</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ItemDimensionsAutoFillPolicy](/modules/enums/ItemDimensionsAutoFillPolicy.md) </div>
 
 </div>
 
@@ -186,7 +186,7 @@
 <div class="cell" data-label="Column">colorPolicy</div>
 <div class="cell" data-label="Arabic">ملء اللون تلقائيا</div>
 <div class="cell" data-label="English">Auto Fill Color</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ItemDimensionsAutoFillPolicy](/modules/enums/ItemDimensionsAutoFillPolicy.md) </div>
 
 </div>
 
@@ -375,7 +375,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -489,7 +489,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -540,7 +540,7 @@
 <div class="cell" data-label="Column">invoiceWarePickPolicy</div>
 <div class="cell" data-label="Arabic">سياسة سحب مخزن الفاتورة</div>
 <div class="cell" data-label="English">Invoice Ware Pick Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PickPolicy](/modules/enums/PickPolicy.md) </div>
 
 </div>
 
@@ -549,7 +549,7 @@
 <div class="cell" data-label="Column">invoiceWarePickType</div>
 <div class="cell" data-label="Arabic">التسليم من مخزن الفاتورة</div>
 <div class="cell" data-label="English">Invoice Ware Pick Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PickType](/modules/enums/PickType.md) </div>
 
 </div>
 
@@ -558,7 +558,7 @@
 <div class="cell" data-label="Column">issueAnalysisSetSrc</div>
 <div class="cell" data-label="Arabic">مصدر المجموعة التحليلية</div>
 <div class="cell" data-label="English">AnalysisSet Source</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PickDimensionSource](/modules/enums/PickDimensionSource.md) </div>
 
 </div>
 
@@ -579,7 +579,7 @@
 <div class="cell" data-label="Column">issueBranchSrc</div>
 <div class="cell" data-label="Arabic">مصدر الفرع</div>
 <div class="cell" data-label="English">Branch Source</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PickDimensionSource](/modules/enums/PickDimensionSource.md) </div>
 
 </div>
 
@@ -588,7 +588,7 @@
 <div class="cell" data-label="Column">issueDepartmentSrc</div>
 <div class="cell" data-label="Arabic">مصدر الإدارة</div>
 <div class="cell" data-label="English">Department Source</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PickDimensionSource](/modules/enums/PickDimensionSource.md) </div>
 
 </div>
 
@@ -657,7 +657,7 @@
 <div class="cell" data-label="Column">issuePickPolicy</div>
 <div class="cell" data-label="Arabic">سياسة السحب</div>
 <div class="cell" data-label="English">Pick Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PickPolicy](/modules/enums/PickPolicy.md) </div>
 
 </div>
 
@@ -702,7 +702,7 @@
 <div class="cell" data-label="Column">issueSectorSrc</div>
 <div class="cell" data-label="Arabic">مصدر القطاع</div>
 <div class="cell" data-label="English">Sector Source</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PickDimensionSource](/modules/enums/PickDimensionSource.md) </div>
 
 </div>
 
@@ -723,7 +723,7 @@
 <div class="cell" data-label="Column">issueWarePriority</div>
 <div class="cell" data-label="Arabic">أولوية المخزن</div>
 <div class="cell" data-label="English">Warehouse Priority</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [WarePriority](/modules/enums/WarePriority.md) </div>
 
 </div>
 
@@ -732,7 +732,7 @@
 <div class="cell" data-label="Column">issueWareSrc</div>
 <div class="cell" data-label="Arabic">مصدر المخزن</div>
 <div class="cell" data-label="English">Ware Source</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [WareSource](/modules/enums/WareSource.md) </div>
 
 </div>
 
@@ -741,7 +741,7 @@
 <div class="cell" data-label="Column">issuelegalEntitySrc</div>
 <div class="cell" data-label="Arabic">مصدر الشركة</div>
 <div class="cell" data-label="English">Legal Entity Source</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PickDimensionSource](/modules/enums/PickDimensionSource.md) </div>
 
 </div>
 
@@ -819,7 +819,7 @@
 <div class="cell" data-label="Column">lotPolicy</div>
 <div class="cell" data-label="Arabic">ملء الشحنة تلقائيا</div>
 <div class="cell" data-label="English">Auto Fill Lot</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ItemDimensionsAutoFillPolicy](/modules/enums/ItemDimensionsAutoFillPolicy.md) </div>
 
 </div>
 
@@ -1002,7 +1002,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1032,7 +1032,7 @@
 <div class="cell" data-label="Column">revisionPolicy</div>
 <div class="cell" data-label="Arabic">ملء الإصدار تلقائيا</div>
 <div class="cell" data-label="English">Auto Fill Revision</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ItemDimensionsAutoFillPolicy](/modules/enums/ItemDimensionsAutoFillPolicy.md) </div>
 
 </div>
 
@@ -1062,7 +1062,7 @@
 <div class="cell" data-label="Column">sizePolicy</div>
 <div class="cell" data-label="Arabic">ملء الحجم تلقائيا</div>
 <div class="cell" data-label="English">Auto Fill Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ItemDimensionsAutoFillPolicy](/modules/enums/ItemDimensionsAutoFillPolicy.md) </div>
 
 </div>
 

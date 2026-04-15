@@ -875,7 +875,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -911,7 +911,7 @@
 <div class="cell" data-label="Column">drivingLicenseType</div>
 <div class="cell" data-label="Arabic">نوع رخصة القيادة</div>
 <div class="cell" data-label="English">Driving license type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DrivingLicenseType](/modules/enums/DrivingLicenseType.md) </div>
 
 </div>
 
@@ -977,7 +977,7 @@
 <div class="cell" data-label="Column">employeeState</div>
 <div class="cell" data-label="Arabic">حالة الموظف</div>
 <div class="cell" data-label="English">Employee State</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EmployeeState](/modules/enums/EmployeeState.md) </div>
 
 </div>
 
@@ -1121,7 +1121,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -1790,7 +1790,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1832,7 +1832,7 @@
 <div class="cell" data-label="Column">salaryPaymentMethod</div>
 <div class="cell" data-label="Arabic">طريقة تحويل الراتب</div>
 <div class="cell" data-label="English">Salary Payment Method</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalaryPaymentMethod](/modules/enums/SalaryPaymentMethod.md) </div>
 
 </div>
 
@@ -2123,7 +2123,7 @@
 <div class="cell" data-label="Column">housingAllowanceType</div>
 <div class="cell" data-label="Arabic">بدل سكن</div>
 <div class="cell" data-label="English">Housing allowance</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AllowanceType](/modules/enums/AllowanceType.md) </div>
 
 </div>
 
@@ -2219,7 +2219,7 @@
 <div class="cell" data-label="Column">ticketClass</div>
 <div class="cell" data-label="Arabic">التذاكر | التصنيف</div>
 <div class="cell" data-label="English">Tickets | Classification</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [BenefitClassification](/modules/enums/BenefitClassification.md) </div>
 
 </div>
 
@@ -2246,7 +2246,7 @@
 <div class="cell" data-label="Column">ticketsPeriodUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -2273,7 +2273,7 @@
 <div class="cell" data-label="Column">transportationAllowanceType</div>
 <div class="cell" data-label="Arabic">بدل مواصلات</div>
 <div class="cell" data-label="English">Transportation allowance</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AllowanceType](/modules/enums/AllowanceType.md) </div>
 
 </div>
 
@@ -2505,7 +2505,7 @@
 <div class="cell" data-label="Column">gender</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Gender</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Gender](/modules/enums/Gender.md) </div>
 
 </div>
 
@@ -2568,7 +2568,7 @@
 <div class="cell" data-label="Column">medInsurClass</div>
 <div class="cell" data-label="Arabic">التأمين الصحى | التصنيف</div>
 <div class="cell" data-label="English">Med-Insurance | Classification</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InsuranceCategory](/modules/enums/InsuranceCategory.md) </div>
 
 </div>
 
@@ -2616,7 +2616,7 @@
 <div class="cell" data-label="Column">relationType</div>
 <div class="cell" data-label="Arabic">صلة القرابة</div>
 <div class="cell" data-label="English">Relation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RelationType](/modules/enums/RelationType.md) </div>
 
 </div>
 
@@ -2634,7 +2634,7 @@
 <div class="cell" data-label="Column">ticketClass</div>
 <div class="cell" data-label="Arabic">التذاكر | التصنيف</div>
 <div class="cell" data-label="English">Tickets | Classification</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [BenefitClassification](/modules/enums/BenefitClassification.md) </div>
 
 </div>
 
@@ -2719,7 +2719,7 @@
 <div class="cell" data-label="Column">qualification</div>
 <div class="cell" data-label="Arabic">مؤهل</div>
 <div class="cell" data-label="English">Qualification</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QualificationType](/modules/enums/QualificationType.md) </div>
 
 </div>
 

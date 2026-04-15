@@ -300,7 +300,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -366,7 +366,7 @@
 <div class="cell" data-label="Column">expectedDeliveryPeriodUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -441,7 +441,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -519,7 +519,7 @@
 <div class="cell" data-label="Column">lcShapeType</div>
 <div class="cell" data-label="Arabic">من حيث الشكل</div>
 <div class="cell" data-label="English">Shape Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LCShapeType](/modules/enums/LCShapeType.md) </div>
 
 </div>
 
@@ -660,7 +660,7 @@
 <div class="cell" data-label="Column">paymentType</div>
 <div class="cell" data-label="Arabic">طريقة السداد</div>
 <div class="cell" data-label="English">Payment Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [BuyerPaymentType](/modules/enums/BuyerPaymentType.md) </div>
 
 </div>
 
@@ -669,7 +669,7 @@
 <div class="cell" data-label="Column">paymentWay</div>
 <div class="cell" data-label="Arabic">نوع السداد</div>
 <div class="cell" data-label="English">Payment Way</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PaymentWay](/modules/enums/PaymentWay.md) </div>
 
 </div>
 
@@ -705,7 +705,7 @@
 <div class="cell" data-label="Column">promot</div>
 <div class="cell" data-label="Arabic">التعزيز</div>
 <div class="cell" data-label="English">Promot</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OtherBankAssuranceType](/modules/enums/OtherBankAssuranceType.md) </div>
 
 </div>
 
@@ -768,7 +768,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -798,7 +798,7 @@
 <div class="cell" data-label="Column">revocablility</div>
 <div class="cell" data-label="Arabic">القابلية للإلغاء</div>
 <div class="cell" data-label="English">Revocablility</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [BankAssuranceType](/modules/enums/BankAssuranceType.md) </div>
 
 </div>
 
@@ -840,7 +840,7 @@
 <div class="cell" data-label="Column">shippingPolicy</div>
 <div class="cell" data-label="Arabic">سياسة الشحن</div>
 <div class="cell" data-label="English">Shipping Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ShippingPolicy](/modules/enums/ShippingPolicy.md) </div>
 
 </div>
 
@@ -858,7 +858,7 @@
 <div class="cell" data-label="Column">shippingWay</div>
 <div class="cell" data-label="Arabic">طريقة الشحن</div>
 <div class="cell" data-label="English">Shipping Way</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ShippingWay](/modules/enums/ShippingWay.md) </div>
 
 </div>
 
@@ -867,7 +867,7 @@
 <div class="cell" data-label="Column">state</div>
 <div class="cell" data-label="Arabic">المحافظة</div>
 <div class="cell" data-label="English">State</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LCState](/modules/enums/LCState.md) </div>
 
 </div>
 

@@ -236,7 +236,7 @@
 <div class="cell" data-label="Column">auditStatus</div>
 <div class="cell" data-label="Arabic">حالة الملف</div>
 <div class="cell" data-label="English">Audit Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AuditStatusType](/modules/enums/AuditStatusType.md) </div>
 
 </div>
 
@@ -305,7 +305,7 @@
 <div class="cell" data-label="Column">coSector</div>
 <div class="cell" data-label="Arabic">القطاع</div>
 <div class="cell" data-label="English">Sector</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CoSectorType](/modules/enums/CoSectorType.md) </div>
 
 </div>
 
@@ -341,7 +341,7 @@
 <div class="cell" data-label="Column">companyType</div>
 <div class="cell" data-label="Arabic">الكيان القانونى للشركة</div>
 <div class="cell" data-label="English">The legal entity of the company</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CompanyType](/modules/enums/CompanyType.md) </div>
 
 </div>
 
@@ -725,7 +725,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -884,7 +884,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -1076,7 +1076,7 @@
 <div class="cell" data-label="Column">preferredLanguage</div>
 <div class="cell" data-label="Arabic">اللغة المفضلة</div>
 <div class="cell" data-label="English">Preferred Language</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PreferredLanguageType](/modules/enums/PreferredLanguageType.md) </div>
 
 </div>
 
@@ -1166,7 +1166,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 

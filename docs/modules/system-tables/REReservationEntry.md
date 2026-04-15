@@ -88,7 +88,7 @@
 <div class="cell" data-label="Column">rentStatus</div>
 <div class="cell" data-label="Arabic">حالة الإيجار</div>
 <div class="cell" data-label="English">Rent Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RERentStatus](/modules/enums/RERentStatus.md) </div>
 
 </div>
 

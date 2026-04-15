@@ -335,7 +335,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -482,7 +482,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -764,7 +764,7 @@
 <div class="cell" data-label="Column">request</div>
 <div class="cell" data-label="Arabic">طلب رفع مقاسات</div>
 <div class="cell" data-label="English">Raise Format Request</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RaiseSizesRequest](/modules/enums/RaiseSizesRequest.md) </div>
 
 </div>
 
@@ -773,7 +773,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -993,7 +993,7 @@
 <div class="cell" data-label="Column">basinSlot</div>
 <div class="cell" data-label="Arabic">فتحة الحوض</div>
 <div class="cell" data-label="English">Basin Slot</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [BasinSlotType](/modules/enums/BasinSlotType.md) </div>
 
 </div>
 
@@ -1047,7 +1047,7 @@
 <div class="cell" data-label="Column">curtain</div>
 <div class="cell" data-label="Arabic">ستارة</div>
 <div class="cell" data-label="English">Curtain</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ExistenceType](/modules/enums/ExistenceType.md) </div>
 
 </div>
 
@@ -1095,7 +1095,7 @@
 <div class="cell" data-label="Column">mirrors</div>
 <div class="cell" data-label="Arabic">مرايا</div>
 <div class="cell" data-label="English">Mirrors</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ExistenceType](/modules/enums/ExistenceType.md) </div>
 
 </div>
 
@@ -1426,7 +1426,7 @@
 <div class="cell" data-label="Column">galaya</div>
 <div class="cell" data-label="Arabic">الجلاية</div>
 <div class="cell" data-label="English">Galaya</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ExistenceType](/modules/enums/ExistenceType.md) </div>
 
 </div>
 

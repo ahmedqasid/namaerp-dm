@@ -293,7 +293,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -398,7 +398,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -437,7 +437,7 @@
 <div class="cell" data-label="Column">initialSubItemStatus</div>
 <div class="cell" data-label="Arabic">الحالة المبدئية</div>
 <div class="cell" data-label="English">Initial SubItem Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubItemStatusType](/modules/enums/SubItemStatusType.md) </div>
 
 </div>
 
@@ -668,7 +668,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -719,7 +719,7 @@
 <div class="cell" data-label="Column">subItemInitialMainStatus</div>
 <div class="cell" data-label="Arabic">الحالة الرئيسية المبدئية</div>
 <div class="cell" data-label="English">Sub Item Initial Main Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MainStatusType](/modules/enums/MainStatusType.md) </div>
 
 </div>
 
@@ -864,7 +864,7 @@
 <div class="cell" data-label="Column">fromMainStatus</div>
 <div class="cell" data-label="Arabic">من حالة رئيسية</div>
 <div class="cell" data-label="English">From Main Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MainStatusType](/modules/enums/MainStatusType.md) </div>
 
 </div>
 
@@ -873,7 +873,7 @@
 <div class="cell" data-label="Column">fromStatus</div>
 <div class="cell" data-label="Arabic">من حالة فرعية</div>
 <div class="cell" data-label="English">From Sub Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubItemStatusType](/modules/enums/SubItemStatusType.md) </div>
 
 </div>
 
@@ -930,7 +930,7 @@
 <div class="cell" data-label="Column">toStatus</div>
 <div class="cell" data-label="Arabic">الي حالة فرعية</div>
 <div class="cell" data-label="English">To Sub Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubItemStatusType](/modules/enums/SubItemStatusType.md) </div>
 
 </div>
 
@@ -1021,7 +1021,7 @@
 <div class="cell" data-label="Column">mainStatusEffectType</div>
 <div class="cell" data-label="Arabic">الي حالة رئيسية</div>
 <div class="cell" data-label="English">To Main Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MainStatusEffectType](/modules/enums/MainStatusEffectType.md) </div>
 
 </div>
 
@@ -1072,7 +1072,7 @@
 <div class="cell" data-label="Column">toStatus</div>
 <div class="cell" data-label="Arabic">إلى حالة</div>
 <div class="cell" data-label="English">To Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubItemStatusType](/modules/enums/SubItemStatusType.md) </div>
 
 </div>
 
@@ -1154,7 +1154,7 @@
 <div class="cell" data-label="Column">status1</div>
 <div class="cell" data-label="Arabic">الحالة 1</div>
 <div class="cell" data-label="English">Status 1</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubItemStatusType](/modules/enums/SubItemStatusType.md) </div>
 
 </div>
 
@@ -1163,7 +1163,7 @@
 <div class="cell" data-label="Column">status2</div>
 <div class="cell" data-label="Arabic">الحالة 2</div>
 <div class="cell" data-label="English">Status 2</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubItemStatusType](/modules/enums/SubItemStatusType.md) </div>
 
 </div>
 
@@ -1172,7 +1172,7 @@
 <div class="cell" data-label="Column">status3</div>
 <div class="cell" data-label="Arabic">الحالة 3</div>
 <div class="cell" data-label="English">Status 3</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubItemStatusType](/modules/enums/SubItemStatusType.md) </div>
 
 </div>
 
@@ -1181,7 +1181,7 @@
 <div class="cell" data-label="Column">status4</div>
 <div class="cell" data-label="Arabic">الحالة 4</div>
 <div class="cell" data-label="English">Status 4</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubItemStatusType](/modules/enums/SubItemStatusType.md) </div>
 
 </div>
 
@@ -1190,7 +1190,7 @@
 <div class="cell" data-label="Column">status5</div>
 <div class="cell" data-label="Arabic">الحالة 5</div>
 <div class="cell" data-label="English">Status 5</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubItemStatusType](/modules/enums/SubItemStatusType.md) </div>
 
 </div>
 

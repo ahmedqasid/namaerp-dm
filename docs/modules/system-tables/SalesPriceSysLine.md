@@ -439,7 +439,7 @@
 <div class="cell" data-label="Column">orderType</div>
 <div class="cell" data-label="Arabic">نوع الإذن</div>
 <div class="cell" data-label="English">Order Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [JobOrderType](/modules/enums/JobOrderType.md) </div>
 
 </div>
 
@@ -574,7 +574,7 @@
 <div class="cell" data-label="Column">salesItemsCountType</div>
 <div class="cell" data-label="Arabic">طريقة اعتبار مبيعات الصنف من الفواتير الأخرى</div>
 <div class="cell" data-label="English">Sales In Other Invoices Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalesItemsCountType](/modules/enums/SalesItemsCountType.md) </div>
 
 </div>
 

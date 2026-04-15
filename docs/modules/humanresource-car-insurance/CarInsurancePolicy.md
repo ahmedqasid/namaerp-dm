@@ -389,7 +389,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -554,7 +554,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -890,7 +890,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1176,7 +1176,7 @@
 <div class="cell" data-label="Column">carType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CarType](/modules/enums/CarType.md) </div>
 
 </div>
 
@@ -1194,7 +1194,7 @@
 <div class="cell" data-label="Column">color</div>
 <div class="cell" data-label="Arabic">اللون</div>
 <div class="cell" data-label="English">Color</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Color](/modules/enums/Color.md) </div>
 
 </div>
 
@@ -1347,7 +1347,7 @@
 <div class="cell" data-label="Column">maintenanceType</div>
 <div class="cell" data-label="Arabic">نوع  الصيانة</div>
 <div class="cell" data-label="English">Maintenance  type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MaintenanceType](/modules/enums/MaintenanceType.md) </div>
 
 </div>
 
@@ -1495,7 +1495,7 @@
 <div class="cell" data-label="Column">installmentState</div>
 <div class="cell" data-label="Arabic">حالة القسط</div>
 <div class="cell" data-label="English">Installment State</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InstallmentState](/modules/enums/InstallmentState.md) </div>
 
 </div>
 
@@ -1585,7 +1585,7 @@
 <div class="cell" data-label="Column">vehicleState</div>
 <div class="cell" data-label="Arabic">حالة السياره</div>
 <div class="cell" data-label="English">Vehicle State</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [VehicleState](/modules/enums/VehicleState.md) </div>
 
 </div>
 

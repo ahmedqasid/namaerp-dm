@@ -25,7 +25,7 @@
 <div class="cell" data-label="Column">conditionStatus</div>
 <div class="cell" data-label="Arabic">حالة الشرط</div>
 <div class="cell" data-label="English">Condition Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ContractingCondStatus](/modules/enums/ContractingCondStatus.md) </div>
 
 </div>
 
@@ -112,7 +112,7 @@
 <div class="cell" data-label="Column">valueType</div>
 <div class="cell" data-label="Arabic">نوع القيمة</div>
 <div class="cell" data-label="English">Value Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ConditionValType](/modules/enums/ConditionValType.md) </div>
 
 </div>
 

@@ -34,7 +34,7 @@
 <div class="cell" data-label="Column">fromMainStatus</div>
 <div class="cell" data-label="Arabic">من حالة رئيسية</div>
 <div class="cell" data-label="English">From Main Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MainStatusType](/modules/enums/MainStatusType.md) </div>
 
 </div>
 
@@ -43,7 +43,7 @@
 <div class="cell" data-label="Column">fromStatus</div>
 <div class="cell" data-label="Arabic">من حالة</div>
 <div class="cell" data-label="English">From Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubItemStatusType](/modules/enums/SubItemStatusType.md) </div>
 
 </div>
 
@@ -121,7 +121,7 @@
 <div class="cell" data-label="Column">toMainStatus</div>
 <div class="cell" data-label="Arabic">الي حالة رئيسية</div>
 <div class="cell" data-label="English">To Main Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MainStatusType](/modules/enums/MainStatusType.md) </div>
 
 </div>
 
@@ -130,7 +130,7 @@
 <div class="cell" data-label="Column">toStatus</div>
 <div class="cell" data-label="Arabic">إلى حالة</div>
 <div class="cell" data-label="English">To Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubItemStatusType](/modules/enums/SubItemStatusType.md) </div>
 
 </div>
 

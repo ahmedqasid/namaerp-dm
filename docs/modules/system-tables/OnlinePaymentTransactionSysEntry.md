@@ -70,7 +70,7 @@
 <div class="cell" data-label="Column">linkStatus</div>
 <div class="cell" data-label="Arabic">Link Status</div>
 <div class="cell" data-label="English">Link Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OnlinePaymentLinkStatus](/modules/enums/OnlinePaymentLinkStatus.md) </div>
 
 </div>
 

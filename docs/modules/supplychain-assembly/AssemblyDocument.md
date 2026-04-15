@@ -686,7 +686,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -860,7 +860,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -1430,7 +1430,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -2071,7 +2071,7 @@
 <div class="cell" data-label="Column">costType</div>
 <div class="cell" data-label="Arabic">نوع التكلفة</div>
 <div class="cell" data-label="English">Cost Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AssemblyCostType](/modules/enums/AssemblyCostType.md) </div>
 
 </div>
 
@@ -2869,7 +2869,7 @@
 <div class="cell" data-label="Column">transItemType</div>
 <div class="cell" data-label="Arabic">نوع السطر</div>
 <div class="cell" data-label="English">Line Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TransLineItemType](/modules/enums/TransLineItemType.md) </div>
 
 </div>
 
@@ -3137,7 +3137,7 @@
 <div class="cell" data-label="Column">costType</div>
 <div class="cell" data-label="Arabic">نوع التكلفة</div>
 <div class="cell" data-label="English">Cost Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AssemblyCostType](/modules/enums/AssemblyCostType.md) </div>
 
 </div>
 
@@ -3956,7 +3956,7 @@
 <div class="cell" data-label="Column">transItemType</div>
 <div class="cell" data-label="Arabic">نوع السطر</div>
 <div class="cell" data-label="English">Line Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TransLineItemType](/modules/enums/TransLineItemType.md) </div>
 
 </div>
 
@@ -4062,7 +4062,7 @@
 <div class="cell" data-label="Column">creditSide</div>
 <div class="cell" data-label="Arabic">الجانب الدائن</div>
 <div class="cell" data-label="English">Account</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ExpenseCreditSide](/modules/enums/ExpenseCreditSide.md) </div>
 
 </div>
 
@@ -4287,7 +4287,7 @@
 <div class="cell" data-label="Column">subsidiaryAccountType</div>
 <div class="cell" data-label="Arabic">نوع الحافظة</div>
 <div class="cell" data-label="English">Subsidiary account type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubsidiaryAccountType](/modules/enums/SubsidiaryAccountType.md) </div>
 
 </div>
 

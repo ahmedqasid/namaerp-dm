@@ -320,7 +320,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -377,7 +377,7 @@
 <div class="cell" data-label="Column">exporetdFields</div>
 <div class="cell" data-label="Arabic">تصدير الحقول</div>
 <div class="cell" data-label="English">Exporetd Fields</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ExporetdFields](/modules/enums/ExporetdFields.md) </div>
 
 </div>
 
@@ -449,7 +449,7 @@
 <div class="cell" data-label="Column">expressionType</div>
 <div class="cell" data-label="Arabic">Expression Type</div>
 <div class="cell" data-label="English">Expression Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ExpressionType](/modules/enums/ExpressionType.md) </div>
 
 </div>
 
@@ -599,7 +599,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -647,7 +647,7 @@
 <div class="cell" data-label="Column">importingExportingType</div>
 <div class="cell" data-label="Arabic">نوع التصدير</div>
 <div class="cell" data-label="English">Exporting Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ImportingExportingType](/modules/enums/ImportingExportingType.md) </div>
 
 </div>
 
@@ -932,7 +932,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1297,7 +1297,7 @@
 <div class="cell" data-label="Column">fieldExportType</div>
 <div class="cell" data-label="Arabic">نوع تصدير الحقل</div>
 <div class="cell" data-label="English">Field Export Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FieldExportType](/modules/enums/FieldExportType.md) </div>
 
 </div>
 
@@ -1333,7 +1333,7 @@
 <div class="cell" data-label="Column">linesTotalExcelFunction</div>
 <div class="cell" data-label="Arabic">معادلة إكسل لإجمالى السطور</div>
 <div class="cell" data-label="English">Lines Total Excel Function</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ExcelFunction](/modules/enums/ExcelFunction.md) </div>
 
 </div>
 

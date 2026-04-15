@@ -34,7 +34,7 @@
 <div class="cell" data-label="Column">level</div>
 <div class="cell" data-label="Arabic">المستوى</div>
 <div class="cell" data-label="English">Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SkillLevel](/modules/enums/SkillLevel.md) </div>
 
 </div>
 

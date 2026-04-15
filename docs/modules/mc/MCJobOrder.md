@@ -365,7 +365,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -434,7 +434,7 @@
 <div class="cell" data-label="Column">equipmentStatus</div>
 <div class="cell" data-label="Arabic">حالة بنود المعدات</div>
 <div class="cell" data-label="English">Equipment Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCTenderStatus](/modules/enums/MCTenderStatus.md) </div>
 
 </div>
 
@@ -443,7 +443,7 @@
 <div class="cell" data-label="Column">equipmentUpdateType</div>
 <div class="cell" data-label="Arabic">طريقة تعديل المعدات</div>
 <div class="cell" data-label="English">Equipment Update Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCTenderUpdateType](/modules/enums/MCTenderUpdateType.md) </div>
 
 </div>
 
@@ -542,7 +542,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -578,7 +578,7 @@
 <div class="cell" data-label="Column">laborStatus</div>
 <div class="cell" data-label="Arabic">حالة بنود العمالة</div>
 <div class="cell" data-label="English">Labor Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCTenderStatus](/modules/enums/MCTenderStatus.md) </div>
 
 </div>
 
@@ -587,7 +587,7 @@
 <div class="cell" data-label="Column">laborUpdateTarget</div>
 <div class="cell" data-label="Arabic">تطبيق ألية التعديل علي</div>
 <div class="cell" data-label="English">Labor Update Target On</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCLaborUpdateTarget](/modules/enums/MCLaborUpdateTarget.md) </div>
 
 </div>
 
@@ -596,7 +596,7 @@
 <div class="cell" data-label="Column">laborUpdateType</div>
 <div class="cell" data-label="Arabic">طريقة تعديل العمالة</div>
 <div class="cell" data-label="English">Labor Update Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCTenderUpdateType](/modules/enums/MCTenderUpdateType.md) </div>
 
 </div>
 
@@ -683,7 +683,7 @@
 <div class="cell" data-label="Column">mcJobOrderStatus</div>
 <div class="cell" data-label="Arabic">حالة أمر الشغل</div>
 <div class="cell" data-label="English">Job Order Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCJobOrderStatus](/modules/enums/MCJobOrderStatus.md) </div>
 
 </div>
 
@@ -782,7 +782,7 @@
 <div class="cell" data-label="Column">operationStatus</div>
 <div class="cell" data-label="Arabic">حالة بنود التشغيل والصيانة</div>
 <div class="cell" data-label="English">Operation Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCTenderStatus](/modules/enums/MCTenderStatus.md) </div>
 
 </div>
 
@@ -791,7 +791,7 @@
 <div class="cell" data-label="Column">operationUpdateType</div>
 <div class="cell" data-label="Arabic">طريقة تعديل التشغيل والصيانة</div>
 <div class="cell" data-label="English">Operation Update Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCTenderUpdateType](/modules/enums/MCTenderUpdateType.md) </div>
 
 </div>
 
@@ -911,7 +911,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -974,7 +974,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCTenderStatus](/modules/enums/MCTenderStatus.md) </div>
 
 </div>
 
@@ -1185,7 +1185,7 @@
 <div class="cell" data-label="Column">equipmentCategory</div>
 <div class="cell" data-label="Arabic">فئه المعده</div>
 <div class="cell" data-label="English">Equipment Category</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCEquipmentCategory](/modules/enums/MCEquipmentCategory.md) </div>
 
 </div>
 
@@ -1622,7 +1622,7 @@
 <div class="cell" data-label="Column">operationUpdateType</div>
 <div class="cell" data-label="Arabic">طريقة تعديل التشغيل والصيانة</div>
 <div class="cell" data-label="English">Operation Update Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCTenderUpdateType](/modules/enums/MCTenderUpdateType.md) </div>
 
 </div>
 
@@ -1933,7 +1933,7 @@
 <div class="cell" data-label="Column">operationUpdateType</div>
 <div class="cell" data-label="Arabic">طريقة تعديل التشغيل والصيانة</div>
 <div class="cell" data-label="English">Operation Update Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCTenderUpdateType](/modules/enums/MCTenderUpdateType.md) </div>
 
 </div>
 
@@ -2078,7 +2078,7 @@
 <div class="cell" data-label="Column">equipmentCategory</div>
 <div class="cell" data-label="Arabic">فئه المعده</div>
 <div class="cell" data-label="English">Equipment Category</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCEquipmentCategory](/modules/enums/MCEquipmentCategory.md) </div>
 
 </div>
 
@@ -2515,7 +2515,7 @@
 <div class="cell" data-label="Column">operationUpdateType</div>
 <div class="cell" data-label="Arabic">طريقة تعديل التشغيل والصيانة</div>
 <div class="cell" data-label="English">Operation Update Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCTenderUpdateType](/modules/enums/MCTenderUpdateType.md) </div>
 
 </div>
 

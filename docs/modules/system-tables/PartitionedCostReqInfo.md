@@ -25,7 +25,7 @@
 <div class="cell" data-label="Column">costTransStatus</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TransactionRequestStatus](/modules/enums/TransactionRequestStatus.md) </div>
 
 </div>
 
@@ -142,7 +142,7 @@
 <div class="cell" data-label="Column">transStatus</div>
 <div class="cell" data-label="Arabic">حالة المعالجة</div>
 <div class="cell" data-label="English">Processing Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TransactionRequestStatus](/modules/enums/TransactionRequestStatus.md) </div>
 
 </div>
 

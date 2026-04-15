@@ -527,7 +527,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -653,7 +653,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -734,7 +734,7 @@
 <div class="cell" data-label="Column">landStatus</div>
 <div class="cell" data-label="Arabic">حالة الارض</div>
 <div class="cell" data-label="English">Land status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RElandStatus](/modules/enums/RElandStatus.md) </div>
 
 </div>
 
@@ -743,7 +743,7 @@
 <div class="cell" data-label="Column">landUsageType</div>
 <div class="cell" data-label="Arabic">الإستخدام</div>
 <div class="cell" data-label="English">Land Usage Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReLandUsageType](/modules/enums/ReLandUsageType.md) </div>
 
 </div>
 
@@ -1133,7 +1133,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -2078,7 +2078,7 @@
 <div class="cell" data-label="Column">userLandStatus</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RElandStatus](/modules/enums/RElandStatus.md) </div>
 
 </div>
 

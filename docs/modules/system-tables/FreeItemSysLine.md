@@ -208,7 +208,7 @@
 <div class="cell" data-label="Column">discLocation</div>
 <div class="cell" data-label="Arabic">مكان التخفيض</div>
 <div class="cell" data-label="English">Discount Location</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -484,7 +484,7 @@
 <div class="cell" data-label="Column">freeDataFreePolicy</div>
 <div class="cell" data-label="Arabic"> السياسة</div>
 <div class="cell" data-label="English"> Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FreeOfferPolicy](/modules/enums/FreeOfferPolicy.md) </div>
 
 </div>
 
@@ -544,7 +544,7 @@
 <div class="cell" data-label="Column">freeDataReplacePolicy</div>
 <div class="cell" data-label="Arabic">سياسة الإستبدال</div>
 <div class="cell" data-label="English">Replacement Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OfferReplacementPolicy](/modules/enums/OfferReplacementPolicy.md) </div>
 
 </div>
 
@@ -1021,7 +1021,7 @@
 <div class="cell" data-label="Column">salesItemsCountType</div>
 <div class="cell" data-label="Arabic">طريقة اعتبار مبيعات الصنف من الفواتير الأخرى</div>
 <div class="cell" data-label="English">Sales In Other Invoices Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalesItemsCountType](/modules/enums/SalesItemsCountType.md) </div>
 
 </div>
 

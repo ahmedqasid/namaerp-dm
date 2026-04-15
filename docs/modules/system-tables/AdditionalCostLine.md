@@ -37,7 +37,7 @@
 <div class="cell" data-label="Column">distribution</div>
 <div class="cell" data-label="Arabic">التوزيع على الأصناف</div>
 <div class="cell" data-label="English">Distribution on items</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CostDistribution](/modules/enums/CostDistribution.md) </div>
 
 </div>
 

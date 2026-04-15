@@ -124,7 +124,7 @@
 <div class="cell" data-label="Column">updateType</div>
 <div class="cell" data-label="Arabic">نوع التحديث</div>
 <div class="cell" data-label="English">Update Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSReadQueueUpdateType](/modules/enums/POSReadQueueUpdateType.md) </div>
 
 </div>
 

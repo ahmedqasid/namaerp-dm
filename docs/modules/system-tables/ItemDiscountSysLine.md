@@ -235,7 +235,7 @@
 <div class="cell" data-label="Column">discountLocation</div>
 <div class="cell" data-label="Arabic">وقت حساب التخفيض في الفاتورة</div>
 <div class="cell" data-label="English">Invoice discount apply on</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -757,7 +757,7 @@
 <div class="cell" data-label="Column">salesItemsCountType</div>
 <div class="cell" data-label="Arabic">طريقة اعتبار مبيعات الصنف من الفواتير الأخرى</div>
 <div class="cell" data-label="English">Sales In Other Invoices Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalesItemsCountType](/modules/enums/SalesItemsCountType.md) </div>
 
 </div>
 
@@ -850,7 +850,7 @@
 <div class="cell" data-label="Column">valueOrPercent</div>
 <div class="cell" data-label="Arabic">الخصم | النوع</div>
 <div class="cell" data-label="English">Discount | Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountType](/modules/enums/DiscountType.md) </div>
 
 </div>
 

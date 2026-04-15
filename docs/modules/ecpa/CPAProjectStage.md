@@ -365,7 +365,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -521,7 +521,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -788,7 +788,7 @@
 <div class="cell" data-label="Column">projectStatus</div>
 <div class="cell" data-label="Arabic">حالة المشروع</div>
 <div class="cell" data-label="English">Project Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CPAProjectStatus](/modules/enums/CPAProjectStatus.md) </div>
 
 </div>
 
@@ -941,7 +941,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1239,7 +1239,7 @@
 <div class="cell" data-label="Column">projectMileStoneStatus</div>
 <div class="cell" data-label="Arabic">حالة المرحلة</div>
 <div class="cell" data-label="English">Project MileStone Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CPAProjectMileStoneStatus](/modules/enums/CPAProjectMileStoneStatus.md) </div>
 
 </div>
 
@@ -1567,7 +1567,7 @@
 <div class="cell" data-label="Column">fromStatus</div>
 <div class="cell" data-label="Arabic">من حالة</div>
 <div class="cell" data-label="English">From Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CPAProjectStatus](/modules/enums/CPAProjectStatus.md) </div>
 
 </div>
 
@@ -1603,7 +1603,7 @@
 <div class="cell" data-label="Column">toStatus</div>
 <div class="cell" data-label="Arabic">إلى حالة</div>
 <div class="cell" data-label="English">To Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CPAProjectStatus](/modules/enums/CPAProjectStatus.md) </div>
 
 </div>
 
@@ -1652,7 +1652,7 @@
 <div class="cell" data-label="Column">fromProjectMileStoneStatus</div>
 <div class="cell" data-label="Arabic">من حالة</div>
 <div class="cell" data-label="English">From Project MileStone Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CPAProjectMileStoneStatus](/modules/enums/CPAProjectMileStoneStatus.md) </div>
 
 </div>
 
@@ -1700,7 +1700,7 @@
 <div class="cell" data-label="Column">toProjectMileStoneStatus</div>
 <div class="cell" data-label="Arabic">الي حالة</div>
 <div class="cell" data-label="English">To Project MileStone Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CPAProjectMileStoneStatus](/modules/enums/CPAProjectMileStoneStatus.md) </div>
 
 </div>
 

@@ -58,7 +58,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesInvoiceType](/modules/enums/POSSalesInvoiceType.md) </div>
 
 </div>
 
@@ -67,7 +67,7 @@
 <div class="cell" data-label="Column">withSubsidiary</div>
 <div class="cell" data-label="Arabic">به ذمه</div>
 <div class="cell" data-label="English">With Subsidiary</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNo](/modules/enums/YesNo.md) </div>
 
 </div>
 

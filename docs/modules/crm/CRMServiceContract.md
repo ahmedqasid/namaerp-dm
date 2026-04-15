@@ -233,7 +233,7 @@
 <div class="cell" data-label="Column">contractStatus</div>
 <div class="cell" data-label="Arabic">حالة العقد</div>
 <div class="cell" data-label="English">Service Contract Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ServiceContractStatus](/modules/enums/ServiceContractStatus.md) </div>
 
 </div>
 
@@ -242,7 +242,7 @@
 <div class="cell" data-label="Column">contractType</div>
 <div class="cell" data-label="Arabic">نوع العقد</div>
 <div class="cell" data-label="English">Contract Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ServiceContractType](/modules/enums/ServiceContractType.md) </div>
 
 </div>
 
@@ -443,7 +443,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -668,7 +668,7 @@
 <div class="cell" data-label="Column">fixingContrperiodUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -731,7 +731,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -1361,7 +1361,7 @@
 <div class="cell" data-label="Column">periodUom</div>
 <div class="cell" data-label="Arabic">المدة | الوحدة</div>
 <div class="cell" data-label="English">Duration | UOM</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -1538,7 +1538,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1619,7 +1619,7 @@
 <div class="cell" data-label="Column">taxAuthEntityStatusType</div>
 <div class="cell" data-label="Arabic">حالة المستند بالنسبة لمصلحة الضرائب</div>
 <div class="cell" data-label="English">Tax Authority Document Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxAuthorityEntityStatusType](/modules/enums/TaxAuthorityEntityStatusType.md) </div>
 
 </div>
 
@@ -2191,7 +2191,7 @@
 <div class="cell" data-label="Column">periodUom</div>
 <div class="cell" data-label="Arabic">المدة | الوحدة</div>
 <div class="cell" data-label="English">Duration | UOM</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 

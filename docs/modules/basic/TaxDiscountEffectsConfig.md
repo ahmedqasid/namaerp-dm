@@ -272,7 +272,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -311,7 +311,7 @@
 <div class="cell" data-label="Column">effect10Type</div>
 <div class="cell" data-label="Arabic">التأثير 10</div>
 <div class="cell" data-label="English">Effect 10 Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectTypeDF](/modules/enums/MoneyEffectTypeDF.md) </div>
 
 </div>
 
@@ -320,7 +320,7 @@
 <div class="cell" data-label="Column">effect11Type</div>
 <div class="cell" data-label="Arabic">التأثير 11</div>
 <div class="cell" data-label="English">Effect 11 Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectTypeDF](/modules/enums/MoneyEffectTypeDF.md) </div>
 
 </div>
 
@@ -329,7 +329,7 @@
 <div class="cell" data-label="Column">effect12Type</div>
 <div class="cell" data-label="Arabic">التأثير 12</div>
 <div class="cell" data-label="English">Effect 12 Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectTypeDF](/modules/enums/MoneyEffectTypeDF.md) </div>
 
 </div>
 
@@ -338,7 +338,7 @@
 <div class="cell" data-label="Column">effect13Type</div>
 <div class="cell" data-label="Arabic">التأثير 13</div>
 <div class="cell" data-label="English">Effect 13 Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectTypeDF](/modules/enums/MoneyEffectTypeDF.md) </div>
 
 </div>
 
@@ -347,7 +347,7 @@
 <div class="cell" data-label="Column">effect1Type</div>
 <div class="cell" data-label="Arabic">التأثير 1</div>
 <div class="cell" data-label="English">Effect 1 Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectTypeDF](/modules/enums/MoneyEffectTypeDF.md) </div>
 
 </div>
 
@@ -356,7 +356,7 @@
 <div class="cell" data-label="Column">effect2Type</div>
 <div class="cell" data-label="Arabic">التأثير 2</div>
 <div class="cell" data-label="English">Effect 2 Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectTypeDF](/modules/enums/MoneyEffectTypeDF.md) </div>
 
 </div>
 
@@ -365,7 +365,7 @@
 <div class="cell" data-label="Column">effect3Type</div>
 <div class="cell" data-label="Arabic">التأثير 3</div>
 <div class="cell" data-label="English">Effect 3 Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectTypeDF](/modules/enums/MoneyEffectTypeDF.md) </div>
 
 </div>
 
@@ -374,7 +374,7 @@
 <div class="cell" data-label="Column">effect4Type</div>
 <div class="cell" data-label="Arabic">التأثير 4</div>
 <div class="cell" data-label="English">Effect 4 Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectTypeDF](/modules/enums/MoneyEffectTypeDF.md) </div>
 
 </div>
 
@@ -383,7 +383,7 @@
 <div class="cell" data-label="Column">effect5Type</div>
 <div class="cell" data-label="Arabic">التأثير 5</div>
 <div class="cell" data-label="English">Effect 5 Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectTypeDF](/modules/enums/MoneyEffectTypeDF.md) </div>
 
 </div>
 
@@ -392,7 +392,7 @@
 <div class="cell" data-label="Column">effect6Type</div>
 <div class="cell" data-label="Arabic">التأثير 6</div>
 <div class="cell" data-label="English">Effect 6 Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectTypeDF](/modules/enums/MoneyEffectTypeDF.md) </div>
 
 </div>
 
@@ -401,7 +401,7 @@
 <div class="cell" data-label="Column">effect7Type</div>
 <div class="cell" data-label="Arabic">التأثير 7</div>
 <div class="cell" data-label="English">Effect 7 Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectTypeDF](/modules/enums/MoneyEffectTypeDF.md) </div>
 
 </div>
 
@@ -410,7 +410,7 @@
 <div class="cell" data-label="Column">effect8Type</div>
 <div class="cell" data-label="Arabic">التأثير 8</div>
 <div class="cell" data-label="English">Effect 8 Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectTypeDF](/modules/enums/MoneyEffectTypeDF.md) </div>
 
 </div>
 
@@ -419,7 +419,7 @@
 <div class="cell" data-label="Column">effect9Type</div>
 <div class="cell" data-label="Arabic">التأثير 9</div>
 <div class="cell" data-label="English">Effect 9 Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectTypeDF](/modules/enums/MoneyEffectTypeDF.md) </div>
 
 </div>
 
@@ -494,7 +494,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -746,7 +746,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -918,7 +918,7 @@
 <div class="cell" data-label="Column">sourceOperation</div>
 <div class="cell" data-label="Arabic">Source Operation</div>
 <div class="cell" data-label="English">Source Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectOperation](/modules/enums/MoneyEffectOperation.md) </div>
 
 </div>
 
@@ -927,7 +927,7 @@
 <div class="cell" data-label="Column">sourceType</div>
 <div class="cell" data-label="Arabic">Source Type</div>
 <div class="cell" data-label="English">Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSourceType](/modules/enums/MoneyEffectSourceType.md) </div>
 
 </div>
 
@@ -936,7 +936,7 @@
 <div class="cell" data-label="Column">sourceValue</div>
 <div class="cell" data-label="Arabic">Source Value</div>
 <div class="cell" data-label="English">Source Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSource](/modules/enums/MoneyEffectSource.md) </div>
 
 </div>
 
@@ -985,7 +985,7 @@
 <div class="cell" data-label="Column">sourceOperation</div>
 <div class="cell" data-label="Arabic">Source Operation</div>
 <div class="cell" data-label="English">Source Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectOperation](/modules/enums/MoneyEffectOperation.md) </div>
 
 </div>
 
@@ -994,7 +994,7 @@
 <div class="cell" data-label="Column">sourceType</div>
 <div class="cell" data-label="Arabic">Source Type</div>
 <div class="cell" data-label="English">Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSourceType](/modules/enums/MoneyEffectSourceType.md) </div>
 
 </div>
 
@@ -1003,7 +1003,7 @@
 <div class="cell" data-label="Column">sourceValue</div>
 <div class="cell" data-label="Arabic">Source Value</div>
 <div class="cell" data-label="English">Source Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSource](/modules/enums/MoneyEffectSource.md) </div>
 
 </div>
 
@@ -1052,7 +1052,7 @@
 <div class="cell" data-label="Column">sourceOperation</div>
 <div class="cell" data-label="Arabic">Source Operation</div>
 <div class="cell" data-label="English">Source Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectOperation](/modules/enums/MoneyEffectOperation.md) </div>
 
 </div>
 
@@ -1061,7 +1061,7 @@
 <div class="cell" data-label="Column">sourceType</div>
 <div class="cell" data-label="Arabic">Source Type</div>
 <div class="cell" data-label="English">Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSourceType](/modules/enums/MoneyEffectSourceType.md) </div>
 
 </div>
 
@@ -1070,7 +1070,7 @@
 <div class="cell" data-label="Column">sourceValue</div>
 <div class="cell" data-label="Arabic">Source Value</div>
 <div class="cell" data-label="English">Source Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSource](/modules/enums/MoneyEffectSource.md) </div>
 
 </div>
 
@@ -1119,7 +1119,7 @@
 <div class="cell" data-label="Column">sourceOperation</div>
 <div class="cell" data-label="Arabic">Source Operation</div>
 <div class="cell" data-label="English">Source Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectOperation](/modules/enums/MoneyEffectOperation.md) </div>
 
 </div>
 
@@ -1128,7 +1128,7 @@
 <div class="cell" data-label="Column">sourceType</div>
 <div class="cell" data-label="Arabic">Source Type</div>
 <div class="cell" data-label="English">Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSourceType](/modules/enums/MoneyEffectSourceType.md) </div>
 
 </div>
 
@@ -1137,7 +1137,7 @@
 <div class="cell" data-label="Column">sourceValue</div>
 <div class="cell" data-label="Arabic">Source Value</div>
 <div class="cell" data-label="English">Source Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSource](/modules/enums/MoneyEffectSource.md) </div>
 
 </div>
 
@@ -1186,7 +1186,7 @@
 <div class="cell" data-label="Column">sourceOperation</div>
 <div class="cell" data-label="Arabic">Source Operation</div>
 <div class="cell" data-label="English">Source Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectOperation](/modules/enums/MoneyEffectOperation.md) </div>
 
 </div>
 
@@ -1195,7 +1195,7 @@
 <div class="cell" data-label="Column">sourceType</div>
 <div class="cell" data-label="Arabic">Source Type</div>
 <div class="cell" data-label="English">Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSourceType](/modules/enums/MoneyEffectSourceType.md) </div>
 
 </div>
 
@@ -1204,7 +1204,7 @@
 <div class="cell" data-label="Column">sourceValue</div>
 <div class="cell" data-label="Arabic">Source Value</div>
 <div class="cell" data-label="English">Source Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSource](/modules/enums/MoneyEffectSource.md) </div>
 
 </div>
 
@@ -1253,7 +1253,7 @@
 <div class="cell" data-label="Column">sourceOperation</div>
 <div class="cell" data-label="Arabic">Source Operation</div>
 <div class="cell" data-label="English">Source Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectOperation](/modules/enums/MoneyEffectOperation.md) </div>
 
 </div>
 
@@ -1262,7 +1262,7 @@
 <div class="cell" data-label="Column">sourceType</div>
 <div class="cell" data-label="Arabic">Source Type</div>
 <div class="cell" data-label="English">Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSourceType](/modules/enums/MoneyEffectSourceType.md) </div>
 
 </div>
 
@@ -1271,7 +1271,7 @@
 <div class="cell" data-label="Column">sourceValue</div>
 <div class="cell" data-label="Arabic">Source Value</div>
 <div class="cell" data-label="English">Source Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSource](/modules/enums/MoneyEffectSource.md) </div>
 
 </div>
 
@@ -1320,7 +1320,7 @@
 <div class="cell" data-label="Column">sourceOperation</div>
 <div class="cell" data-label="Arabic">Source Operation</div>
 <div class="cell" data-label="English">Source Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectOperation](/modules/enums/MoneyEffectOperation.md) </div>
 
 </div>
 
@@ -1329,7 +1329,7 @@
 <div class="cell" data-label="Column">sourceType</div>
 <div class="cell" data-label="Arabic">Source Type</div>
 <div class="cell" data-label="English">Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSourceType](/modules/enums/MoneyEffectSourceType.md) </div>
 
 </div>
 
@@ -1338,7 +1338,7 @@
 <div class="cell" data-label="Column">sourceValue</div>
 <div class="cell" data-label="Arabic">Source Value</div>
 <div class="cell" data-label="English">Source Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSource](/modules/enums/MoneyEffectSource.md) </div>
 
 </div>
 
@@ -1387,7 +1387,7 @@
 <div class="cell" data-label="Column">sourceOperation</div>
 <div class="cell" data-label="Arabic">Source Operation</div>
 <div class="cell" data-label="English">Source Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectOperation](/modules/enums/MoneyEffectOperation.md) </div>
 
 </div>
 
@@ -1396,7 +1396,7 @@
 <div class="cell" data-label="Column">sourceType</div>
 <div class="cell" data-label="Arabic">Source Type</div>
 <div class="cell" data-label="English">Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSourceType](/modules/enums/MoneyEffectSourceType.md) </div>
 
 </div>
 
@@ -1405,7 +1405,7 @@
 <div class="cell" data-label="Column">sourceValue</div>
 <div class="cell" data-label="Arabic">Source Value</div>
 <div class="cell" data-label="English">Source Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSource](/modules/enums/MoneyEffectSource.md) </div>
 
 </div>
 
@@ -1454,7 +1454,7 @@
 <div class="cell" data-label="Column">sourceOperation</div>
 <div class="cell" data-label="Arabic">Source Operation</div>
 <div class="cell" data-label="English">Source Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectOperation](/modules/enums/MoneyEffectOperation.md) </div>
 
 </div>
 
@@ -1463,7 +1463,7 @@
 <div class="cell" data-label="Column">sourceType</div>
 <div class="cell" data-label="Arabic">Source Type</div>
 <div class="cell" data-label="English">Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSourceType](/modules/enums/MoneyEffectSourceType.md) </div>
 
 </div>
 
@@ -1472,7 +1472,7 @@
 <div class="cell" data-label="Column">sourceValue</div>
 <div class="cell" data-label="Arabic">Source Value</div>
 <div class="cell" data-label="English">Source Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSource](/modules/enums/MoneyEffectSource.md) </div>
 
 </div>
 
@@ -1521,7 +1521,7 @@
 <div class="cell" data-label="Column">sourceOperation</div>
 <div class="cell" data-label="Arabic">Source Operation</div>
 <div class="cell" data-label="English">Source Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectOperation](/modules/enums/MoneyEffectOperation.md) </div>
 
 </div>
 
@@ -1530,7 +1530,7 @@
 <div class="cell" data-label="Column">sourceType</div>
 <div class="cell" data-label="Arabic">Source Type</div>
 <div class="cell" data-label="English">Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSourceType](/modules/enums/MoneyEffectSourceType.md) </div>
 
 </div>
 
@@ -1539,7 +1539,7 @@
 <div class="cell" data-label="Column">sourceValue</div>
 <div class="cell" data-label="Arabic">Source Value</div>
 <div class="cell" data-label="English">Source Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSource](/modules/enums/MoneyEffectSource.md) </div>
 
 </div>
 
@@ -1588,7 +1588,7 @@
 <div class="cell" data-label="Column">sourceOperation</div>
 <div class="cell" data-label="Arabic">Source Operation</div>
 <div class="cell" data-label="English">Source Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectOperation](/modules/enums/MoneyEffectOperation.md) </div>
 
 </div>
 
@@ -1597,7 +1597,7 @@
 <div class="cell" data-label="Column">sourceType</div>
 <div class="cell" data-label="Arabic">Source Type</div>
 <div class="cell" data-label="English">Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSourceType](/modules/enums/MoneyEffectSourceType.md) </div>
 
 </div>
 
@@ -1606,7 +1606,7 @@
 <div class="cell" data-label="Column">sourceValue</div>
 <div class="cell" data-label="Arabic">Source Value</div>
 <div class="cell" data-label="English">Source Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSource](/modules/enums/MoneyEffectSource.md) </div>
 
 </div>
 
@@ -1655,7 +1655,7 @@
 <div class="cell" data-label="Column">sourceOperation</div>
 <div class="cell" data-label="Arabic">Source Operation</div>
 <div class="cell" data-label="English">Source Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectOperation](/modules/enums/MoneyEffectOperation.md) </div>
 
 </div>
 
@@ -1664,7 +1664,7 @@
 <div class="cell" data-label="Column">sourceType</div>
 <div class="cell" data-label="Arabic">Source Type</div>
 <div class="cell" data-label="English">Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSourceType](/modules/enums/MoneyEffectSourceType.md) </div>
 
 </div>
 
@@ -1673,7 +1673,7 @@
 <div class="cell" data-label="Column">sourceValue</div>
 <div class="cell" data-label="Arabic">Source Value</div>
 <div class="cell" data-label="English">Source Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSource](/modules/enums/MoneyEffectSource.md) </div>
 
 </div>
 
@@ -1722,7 +1722,7 @@
 <div class="cell" data-label="Column">sourceOperation</div>
 <div class="cell" data-label="Arabic">Source Operation</div>
 <div class="cell" data-label="English">Source Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectOperation](/modules/enums/MoneyEffectOperation.md) </div>
 
 </div>
 
@@ -1731,7 +1731,7 @@
 <div class="cell" data-label="Column">sourceType</div>
 <div class="cell" data-label="Arabic">Source Type</div>
 <div class="cell" data-label="English">Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSourceType](/modules/enums/MoneyEffectSourceType.md) </div>
 
 </div>
 
@@ -1740,7 +1740,7 @@
 <div class="cell" data-label="Column">sourceValue</div>
 <div class="cell" data-label="Arabic">Source Value</div>
 <div class="cell" data-label="English">Source Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSource](/modules/enums/MoneyEffectSource.md) </div>
 
 </div>
 
@@ -1771,7 +1771,7 @@
 <div class="cell" data-label="Column">effectType</div>
 <div class="cell" data-label="Arabic">نوع التأثير</div>
 <div class="cell" data-label="English">Component Effect Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectTypeDF](/modules/enums/MoneyEffectTypeDF.md) </div>
 
 </div>
 

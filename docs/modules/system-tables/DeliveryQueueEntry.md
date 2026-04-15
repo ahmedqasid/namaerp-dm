@@ -43,7 +43,7 @@
 <div class="cell" data-label="Column">deliveryStatus</div>
 <div class="cell" data-label="Arabic">نوع الإجراء</div>
 <div class="cell" data-label="English">Delivery Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DeliveryQueueStatus](/modules/enums/DeliveryQueueStatus.md) </div>
 
 </div>
 

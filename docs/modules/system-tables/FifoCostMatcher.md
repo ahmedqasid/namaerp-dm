@@ -121,7 +121,7 @@
 <div class="cell" data-label="Column">requester</div>
 <div class="cell" data-label="Arabic">محرر الطلب</div>
 <div class="cell" data-label="English">Requester</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QtyEffectType](/modules/enums/QtyEffectType.md) </div>
 
 </div>
 

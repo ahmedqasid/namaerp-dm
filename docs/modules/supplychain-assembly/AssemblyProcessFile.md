@@ -272,7 +272,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -377,7 +377,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -629,7 +629,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -786,7 +786,7 @@
 <div class="cell" data-label="Column">calcFromGrid</div>
 <div class="cell" data-label="Arabic">طريقة التجميع | مطابقة السطور وحساب الكميات</div>
 <div class="cell" data-label="English">Calculation Method | Lines Matching And Quantity Calculation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AssemblyDocCalcGridType](/modules/enums/AssemblyDocCalcGridType.md) </div>
 
 </div>
 
@@ -795,7 +795,7 @@
 <div class="cell" data-label="Column">calcMethod</div>
 <div class="cell" data-label="Arabic">طريقة التجميع | النوع</div>
 <div class="cell" data-label="English">Calculation Method | Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AssemblyProcessCalcMethod](/modules/enums/AssemblyProcessCalcMethod.md) </div>
 
 </div>
 
@@ -873,7 +873,7 @@
 <div class="cell" data-label="Column">doNotAddExpenseItemWhen</div>
 <div class="cell" data-label="Arabic">عدم إضافة البند عندما</div>
 <div class="cell" data-label="English">Do Not Add Expense Item When</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AddingExpenseItemOptions](/modules/enums/AddingExpenseItemOptions.md) </div>
 
 </div>
 

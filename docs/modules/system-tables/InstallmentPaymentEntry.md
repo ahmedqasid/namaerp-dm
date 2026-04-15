@@ -34,7 +34,7 @@
 <div class="cell" data-label="Column">effectType</div>
 <div class="cell" data-label="Arabic">نوع التأثير</div>
 <div class="cell" data-label="English">Component Effect Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InstallmentEffectField](/modules/enums/InstallmentEffectField.md) </div>
 
 </div>
 

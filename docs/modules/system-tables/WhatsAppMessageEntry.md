@@ -52,7 +52,7 @@
 <div class="cell" data-label="Column">messageState</div>
 <div class="cell" data-label="Arabic">حالة الرسالة</div>
 <div class="cell" data-label="English">message Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [WhatsAppMessageState](/modules/enums/WhatsAppMessageState.md) </div>
 
 </div>
 

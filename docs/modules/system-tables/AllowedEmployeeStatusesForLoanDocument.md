@@ -25,7 +25,7 @@
 <div class="cell" data-label="Column">employeeState</div>
 <div class="cell" data-label="Arabic">حالة الموظف</div>
 <div class="cell" data-label="English">Employee State</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EmployeeState](/modules/enums/EmployeeState.md) </div>
 
 </div>
 

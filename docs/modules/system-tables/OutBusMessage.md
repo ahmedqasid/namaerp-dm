@@ -331,7 +331,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaskStatus](/modules/enums/TaskStatus.md) </div>
 
 </div>
 
@@ -349,7 +349,7 @@
 <div class="cell" data-label="Column">targetQueueId</div>
 <div class="cell" data-label="Arabic">نوع الرسالة</div>
 <div class="cell" data-label="English">Target Queue ID</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MessageQueue](/modules/enums/MessageQueue.md) </div>
 
 </div>
 

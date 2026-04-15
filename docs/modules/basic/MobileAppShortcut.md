@@ -272,7 +272,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -377,7 +377,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -629,7 +629,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -855,7 +855,7 @@
 <div class="cell" data-label="Column">shortcutType</div>
 <div class="cell" data-label="Arabic">نوع الاختصار</div>
 <div class="cell" data-label="English">Shortcut Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MobileAppShortcutType](/modules/enums/MobileAppShortcutType.md) </div>
 
 </div>
 
@@ -864,7 +864,7 @@
 <div class="cell" data-label="Column">targetItem</div>
 <div class="cell" data-label="Arabic">اسم الوصلة</div>
 <div class="cell" data-label="English">Target Item</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MobileAppTargetMenuItem](/modules/enums/MobileAppTargetMenuItem.md) </div>
 
 </div>
 

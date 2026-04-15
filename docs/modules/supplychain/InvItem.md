@@ -749,7 +749,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -866,7 +866,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -1205,7 +1205,7 @@
 <div class="cell" data-label="Column">itemType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ItemType](/modules/enums/ItemType.md) </div>
 
 </div>
 
@@ -1349,7 +1349,7 @@
 <div class="cell" data-label="Column">mldUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -1385,7 +1385,7 @@
 <div class="cell" data-label="Column">measuresType</div>
 <div class="cell" data-label="Arabic">نوع الأبعاد</div>
 <div class="cell" data-label="English">Measures Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MeasuresType](/modules/enums/MeasuresType.md) </div>
 
 </div>
 
@@ -1487,7 +1487,7 @@
 <div class="cell" data-label="Column">overDraftPolicy</div>
 <div class="cell" data-label="Arabic">إمكانية السحب على المكشوف</div>
 <div class="cell" data-label="English">Over Draft Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -1625,7 +1625,7 @@
 <div class="cell" data-label="Column">pldUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -1655,7 +1655,7 @@
 <div class="cell" data-label="Column">reTestPeriodUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -1790,7 +1790,7 @@
 <div class="cell" data-label="Column">reservationType</div>
 <div class="cell" data-label="Arabic">نوع الحجز</div>
 <div class="cell" data-label="English">Reservation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReservationType](/modules/enums/ReservationType.md) </div>
 
 </div>
 
@@ -1808,7 +1808,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1847,7 +1847,7 @@
 <div class="cell" data-label="Column">safetyStockCalCulationType</div>
 <div class="cell" data-label="Arabic">طريقة حساب ال Safty Stock</div>
 <div class="cell" data-label="English">Safety Stock Calculation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SafetyStockCalCulationType](/modules/enums/SafetyStockCalCulationType.md) </div>
 
 </div>
 
@@ -2003,7 +2003,7 @@
 <div class="cell" data-label="Column">slowMovingPeriodUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -2042,7 +2042,7 @@
 <div class="cell" data-label="Column">stockAgesPolicy</div>
 <div class="cell" data-label="Arabic">متابعة أعمار المخزون</div>
 <div class="cell" data-label="English">Track Stock Ages</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -2537,7 +2537,7 @@
 <div class="cell" data-label="Column">wrnpdUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -2679,7 +2679,7 @@
 <div class="cell" data-label="Column">itemType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ItemType](/modules/enums/ItemType.md) </div>
 
 </div>
 
@@ -2856,7 +2856,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InvItemCodeType](/modules/enums/InvItemCodeType.md) </div>
 
 </div>
 
@@ -5778,7 +5778,7 @@
 <div class="cell" data-label="Column">leadTimeUom</div>
 <div class="cell" data-label="Arabic">فترة الشراء | وحدة</div>
 <div class="cell" data-label="English">Lead Time | UOM</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 

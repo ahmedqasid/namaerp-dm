@@ -1,6 +1,6 @@
 <div class="ignore-in-full-text-search">
 
-# srvcenter-insurance-and-installments
+# Service Center - Cars Insurance and Installments
   - [FinanceCompany](/modules/srvcenter-insurance-and-installments/FinanceCompany.md)
   - [SIAggregatedInsurancePolicyRequest](/modules/srvcenter-insurance-and-installments/SIAggregatedInsurancePolicyRequest.md)
   - [SICustomerInsurancePolicyIssuance](/modules/srvcenter-insurance-and-installments/SICustomerInsurancePolicyIssuance.md)

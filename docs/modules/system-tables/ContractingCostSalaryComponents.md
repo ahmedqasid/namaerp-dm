@@ -46,7 +46,7 @@
 <div class="cell" data-label="Column">otherComponentEffectType</div>
 <div class="cell" data-label="Arabic">معاملة المفردات من نوع أخرى</div>
 <div class="cell" data-label="English">Other Component Effect Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OtherComponentEffectType](/modules/enums/OtherComponentEffectType.md) </div>
 
 </div>
 

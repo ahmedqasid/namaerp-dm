@@ -167,7 +167,7 @@
 <div class="cell" data-label="Column">autoEscalateAfterUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -479,7 +479,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -644,7 +644,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -779,7 +779,7 @@
 <div class="cell" data-label="Column">modifyWhileUnderApprovalPolicy</div>
 <div class="cell" data-label="Arabic">سياسة التعديل أثناء الموافقة</div>
 <div class="cell" data-label="English">Modify While Under Approval Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ModifyWhileUnderApprovalPolicy](/modules/enums/ModifyWhileUnderApprovalPolicy.md) </div>
 
 </div>
 
@@ -1001,7 +1001,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1109,7 +1109,7 @@
 <div class="cell" data-label="Column">copyEmailFrom</div>
 <div class="cell" data-label="Arabic">نسخ الايميل من</div>
 <div class="cell" data-label="English">Copy Email From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CopyTemplateFrom](/modules/enums/CopyTemplateFrom.md) </div>
 
 </div>
 
@@ -1118,7 +1118,7 @@
 <div class="cell" data-label="Column">copyNotificationFrom</div>
 <div class="cell" data-label="Arabic">نسخ التنبيهات من</div>
 <div class="cell" data-label="English">Copy Notification From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CopyTemplateFrom](/modules/enums/CopyTemplateFrom.md) </div>
 
 </div>
 
@@ -1127,7 +1127,7 @@
 <div class="cell" data-label="Column">copySMSFrom</div>
 <div class="cell" data-label="Arabic">نسخ الرسائل من</div>
 <div class="cell" data-label="English">Copy SMS From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CopyTemplateFrom](/modules/enums/CopyTemplateFrom.md) </div>
 
 </div>
 
@@ -1714,7 +1714,7 @@
 <div class="cell" data-label="Column">responsibleType</div>
 <div class="cell" data-label="Arabic">نوع المسئول</div>
 <div class="cell" data-label="English">Responsible Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ResponsibleType](/modules/enums/ResponsibleType.md) </div>
 
 </div>
 
@@ -1790,7 +1790,7 @@
 <div class="cell" data-label="Column">alternateResponsibleType</div>
 <div class="cell" data-label="Arabic">البدلاء | نوع المسئول</div>
 <div class="cell" data-label="English">Alternates | Responsible Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ResponsibleType](/modules/enums/ResponsibleType.md) </div>
 
 </div>
 
@@ -1871,7 +1871,7 @@
 <div class="cell" data-label="Column">modifyWhileUnderApprovalPolicy</div>
 <div class="cell" data-label="Arabic">سياسة التعديل أثناء الموافقة</div>
 <div class="cell" data-label="English">Modify While Under Approval Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ModifyWhileUnderApprovalPolicy](/modules/enums/ModifyWhileUnderApprovalPolicy.md) </div>
 
 </div>
 
@@ -2033,7 +2033,7 @@
 <div class="cell" data-label="Column">responsibleType</div>
 <div class="cell" data-label="Arabic">نوع المسئول</div>
 <div class="cell" data-label="English">Responsible Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ResponsibleType](/modules/enums/ResponsibleType.md) </div>
 
 </div>
 

@@ -338,7 +338,6 @@
   - [TermConditionLine](/modules/system-tables/TermConditionLine.md)
   - [TermItemLine](/modules/system-tables/TermItemLine.md)
   - [TerminationCalcSysEntry](/modules/system-tables/TerminationCalcSysEntry.md)
-  - [ToDoEntry](/modules/system-tables/ToDoEntry.md)
   - [TooltipDefApplyTo](/modules/system-tables/TooltipDefApplyTo.md)
   - [TooltipEntityMapping](/modules/system-tables/TooltipEntityMapping.md)
   - [TooltipPart](/modules/system-tables/TooltipPart.md)

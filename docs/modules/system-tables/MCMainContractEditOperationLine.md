@@ -109,7 +109,7 @@
 <div class="cell" data-label="Column">operationUpdateType</div>
 <div class="cell" data-label="Arabic">طريقة تعديل التشغيل والصيانة</div>
 <div class="cell" data-label="English">Operation Update Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCTenderUpdateType](/modules/enums/MCTenderUpdateType.md) </div>
 
 </div>
 

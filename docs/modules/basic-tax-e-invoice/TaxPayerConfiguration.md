@@ -407,7 +407,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -455,7 +455,7 @@
 <div class="cell" data-label="Column">einvoiceDocType</div>
 <div class="cell" data-label="Arabic">نوع المستند المٌرسل</div>
 <div class="cell" data-label="English">E Invoice Document Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EInvoiceDocType](/modules/enums/EInvoiceDocType.md) </div>
 
 </div>
 
@@ -473,7 +473,7 @@
 <div class="cell" data-label="Column">einvoiceSignerType</div>
 <div class="cell" data-label="Arabic">E Invoice Signer Type</div>
 <div class="cell" data-label="English">E Invoice Signer Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EInvoiceSignerType](/modules/enums/EInvoiceSignerType.md) </div>
 
 </div>
 
@@ -593,7 +593,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -686,7 +686,7 @@
 <div class="cell" data-label="Column">internalCodeFrom</div>
 <div class="cell" data-label="Arabic">تشغيل قالب كود نما على (كود الصنف افتراضيا)</div>
 <div class="cell" data-label="English">Run Item Nama Code Template On (Item Code by Default)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxItemValuesFromType](/modules/enums/TaxItemValuesFromType.md) </div>
 
 </div>
 
@@ -713,7 +713,7 @@
 <div class="cell" data-label="Column">itemCodeFrom</div>
 <div class="cell" data-label="Arabic">حساب الكود الضريبي للصنف من</div>
 <div class="cell" data-label="English">=Calculate Item Code From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxItemTypeCodeFromType](/modules/enums/TaxItemTypeCodeFromType.md) </div>
 
 </div>
 
@@ -942,6 +942,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="orchidaCompanyId">
+<div class="cell" data-label="Property">orchidaCompanyId</div>
+<div class="cell" data-label="Column">orchidaCompanyId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
 <div class="row searchable" id="organizationUnitName">
 <div class="cell" data-label="Property">organizationUnitName</div>
 <div class="cell" data-label="Column">organizationUnitName</div>
@@ -1055,7 +1064,7 @@
 <div class="cell" data-label="Column">receiverMode</div>
 <div class="cell" data-label="Arabic">Notification Receiver Mode</div>
 <div class="cell" data-label="English">Notification Receiver Mode</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EInvoiceReceiverMode](/modules/enums/EInvoiceReceiverMode.md) </div>
 
 </div>
 
@@ -1118,7 +1127,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1232,7 +1241,7 @@
 <div class="cell" data-label="Column">taxCodesType</div>
 <div class="cell" data-label="Arabic">حساب اكواد أنواع الضرائب من</div>
 <div class="cell" data-label="English">Calculate Tax Codes Types From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxCodesType](/modules/enums/TaxCodesType.md) </div>
 
 </div>
 
@@ -1241,7 +1250,7 @@
 <div class="cell" data-label="Column">taxDescriptionFrom</div>
 <div class="cell" data-label="Arabic">تشغيل قالب وصف الصنف على (اسم 1 للصنف افتراضيا)</div>
 <div class="cell" data-label="English">Run Item Description Template On (Item Name 1 by Default)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxItemValuesFromType](/modules/enums/TaxItemValuesFromType.md) </div>
 
 </div>
 
@@ -1283,7 +1292,7 @@
 <div class="cell" data-label="Column">taxPayerType</div>
 <div class="cell" data-label="Arabic">نوع المصلحة</div>
 <div class="cell" data-label="English">Tax Payer Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxPayerType](/modules/enums/TaxPayerType.md) </div>
 
 </div>
 
@@ -1481,7 +1490,7 @@
 <div class="cell" data-label="Column">unitPriceSource</div>
 <div class="cell" data-label="Arabic">مصدر سعر الوحدة</div>
 <div class="cell" data-label="English">Unit Price Source</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EInvoiceUnitPriceSource](/modules/enums/EInvoiceUnitPriceSource.md) </div>
 
 </div>
 
@@ -1490,7 +1499,7 @@
 <div class="cell" data-label="Column">unitPriceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر سعر الوحدة</div>
 <div class="cell" data-label="English">Unit Price Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EInvoiceUnitPriceType](/modules/enums/EInvoiceUnitPriceType.md) </div>
 
 </div>
 
@@ -1819,7 +1828,7 @@
 <div class="cell" data-label="Column">discount</div>
 <div class="cell" data-label="Arabic">التخفيض</div>
 <div class="cell" data-label="English">Discount</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocationWithHeader](/modules/enums/DiscountLocationWithHeader.md) </div>
 
 </div>
 
@@ -1837,7 +1846,7 @@
 <div class="cell" data-label="Column">einvoiceDiscountLocation</div>
 <div class="cell" data-label="Arabic">وقت حساب الخصم (قبل او بعد الضريبة)</div>
 <div class="cell" data-label="English">E Invoice Discount Location</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EInvoiceDiscountLocation](/modules/enums/EInvoiceDiscountLocation.md) </div>
 
 </div>
 
@@ -2001,7 +2010,7 @@
 <div class="cell" data-label="Column">additionCase</div>
 <div class="cell" data-label="Arabic">في حالة الإضافة</div>
 <div class="cell" data-label="English">Addition Case</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ServiceFeesTreatmentInAdditionCase](/modules/enums/ServiceFeesTreatmentInAdditionCase.md) </div>
 
 </div>
 
@@ -2043,7 +2052,7 @@
 <div class="cell" data-label="Column">discountCase</div>
 <div class="cell" data-label="Arabic">في حالة الخصم</div>
 <div class="cell" data-label="English">Discount Case</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -2100,7 +2109,7 @@
 <div class="cell" data-label="Column">serviceFeesOrChargedToCustomer</div>
 <div class="cell" data-label="Arabic">رسوم الخدمة او ما يتحمله العميل</div>
 <div class="cell" data-label="English">Service Fees Or Customer Charges</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ServiceFeesOrChargedToCustomer](/modules/enums/ServiceFeesOrChargedToCustomer.md) </div>
 
 </div>
 
@@ -2109,7 +2118,7 @@
 <div class="cell" data-label="Column">taxLocation</div>
 <div class="cell" data-label="Arabic">وقت حساب ضريبة المبيعات</div>
 <div class="cell" data-label="English">Invoice tax apply on</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectTypeDF](/modules/enums/MoneyEffectTypeDF.md) </div>
 
 </div>
 
@@ -2296,7 +2305,7 @@
 <div class="cell" data-label="Column">taxCodesType</div>
 <div class="cell" data-label="Arabic">حساب اكواد أنواع الضرائب من</div>
 <div class="cell" data-label="English">Calculate Tax Codes Types From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaxCodesType](/modules/enums/TaxCodesType.md) </div>
 
 </div>
 

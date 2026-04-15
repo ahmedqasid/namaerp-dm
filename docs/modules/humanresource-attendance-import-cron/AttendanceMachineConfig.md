@@ -308,7 +308,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -422,7 +422,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -518,7 +518,7 @@
 <div class="cell" data-label="Column">machineConnectionType</div>
 <div class="cell" data-label="Arabic">نوع اتصال الماكينة</div>
 <div class="cell" data-label="English">Machine Connection Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AttendanceMachineConnectionType](/modules/enums/AttendanceMachineConnectionType.md) </div>
 
 </div>
 
@@ -719,7 +719,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -942,7 +942,7 @@
 <div class="cell" data-label="Column">responseField</div>
 <div class="cell" data-label="Arabic">Response Field</div>
 <div class="cell" data-label="English">Response Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AttendanceMachineResponseField](/modules/enums/AttendanceMachineResponseField.md) </div>
 
 </div>
 

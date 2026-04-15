@@ -234,6 +234,15 @@
 
 </div>
 
+<div class="row searchable" id="addQtyColInItemSearchDialog">
+<div class="cell" data-label="Property">addQtyColInItemSearchDialog</div>
+<div class="cell" data-label="Column">addQtyColInItemSearchDialog</div>
+<div class="cell" data-label="Arabic">إضافة عمود الكمية في شاشة البحث عن صنف</div>
+<div class="cell" data-label="English">Add Quantity Column In Item Search Dialog</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="addRackCodeFields">
 <div class="cell" data-label="Property">addRackCodeFields</div>
 <div class="cell" data-label="Column">addRackCodeFields</div>
@@ -407,7 +416,7 @@
 <div class="cell" data-label="Column">copyCancelOrderSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
 
 </div>
 
@@ -416,7 +425,7 @@
 <div class="cell" data-label="Column">copyInvoiceSettingsFrom</div>
 <div class="cell" data-label="Arabic">نسخ من</div>
 <div class="cell" data-label="English">Copy From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
 
 </div>
 
@@ -425,7 +434,7 @@
 <div class="cell" data-label="Column">copyOrderResSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
 
 </div>
 
@@ -434,7 +443,7 @@
 <div class="cell" data-label="Column">copyReceiptSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English">Copy Receipt Settings From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
 
 </div>
 
@@ -443,7 +452,7 @@
 <div class="cell" data-label="Column">copyReplacementSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
 
 </div>
 
@@ -452,7 +461,7 @@
 <div class="cell" data-label="Column">copyReturnSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
 
 </div>
 
@@ -461,7 +470,7 @@
 <div class="cell" data-label="Column">copyScrapDocSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
 
 </div>
 
@@ -470,7 +479,7 @@
 <div class="cell" data-label="Column">copyShortfallsDocSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
 
 </div>
 
@@ -479,7 +488,7 @@
 <div class="cell" data-label="Column">copyTakingSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
 
 </div>
 
@@ -488,7 +497,7 @@
 <div class="cell" data-label="Column">copyTransferSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
 
 </div>
 
@@ -770,7 +779,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -938,7 +947,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -1355,7 +1364,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1680,7 +1689,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
 
 </div>
 
@@ -1707,7 +1716,7 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -1738,7 +1747,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -1787,7 +1796,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -1961,7 +1970,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
 
 </div>
 
@@ -1988,7 +1997,7 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -2077,7 +2086,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -2126,7 +2135,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
 
 </div>
 
@@ -2153,7 +2162,7 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -2184,7 +2193,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -2233,7 +2242,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -2282,7 +2291,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -2340,7 +2349,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSHeaderFields](/modules/enums/POSHeaderFields.md) </div>
 
 </div>
 
@@ -2407,7 +2416,7 @@
 <div class="cell" data-label="Column">posProcedure</div>
 <div class="cell" data-label="Arabic">إجراء نقطة البيع</div>
 <div class="cell" data-label="English">POS Procedure</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSProcedures](/modules/enums/POSProcedures.md) </div>
 
 </div>
 
@@ -2438,7 +2447,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
 
 </div>
 
@@ -2465,7 +2474,7 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -2496,7 +2505,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -2545,7 +2554,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -2594,7 +2603,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
 
 </div>
 
@@ -2621,7 +2630,7 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -2652,7 +2661,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -2701,7 +2710,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -2750,7 +2759,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
 
 </div>
 
@@ -2777,7 +2786,7 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -2808,7 +2817,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -2857,7 +2866,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -2906,7 +2915,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
 
 </div>
 
@@ -2933,7 +2942,7 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -2964,7 +2973,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
 
 </div>
 
@@ -2991,7 +3000,7 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -3022,7 +3031,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -3071,7 +3080,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -3205,7 +3214,7 @@
 <div class="cell" data-label="Column">searchDialogColumnsMode</div>
 <div class="cell" data-label="Arabic">طريقة تعديل أعمدة ال Search Dialog</div>
 <div class="cell" data-label="English">Search Dialog Columns Mode</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ViewModificationType](/modules/enums/ViewModificationType.md) </div>
 
 </div>
 
@@ -3232,7 +3241,7 @@
 <div class="cell" data-label="Column">searchDialogSortType</div>
 <div class="cell" data-label="Arabic">نوع الترتيب الإفتراضي لل Search Dialog</div>
 <div class="cell" data-label="English">Search Dialog Sort Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SortType](/modules/enums/SortType.md) </div>
 
 </div>
 
@@ -3321,7 +3330,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
 
 </div>
 
@@ -3348,7 +3357,7 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -3379,7 +3388,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -3428,7 +3437,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -3477,7 +3486,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
 
 </div>
 
@@ -3504,7 +3513,7 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -3535,7 +3544,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -3584,7 +3593,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -3633,7 +3642,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
 
 </div>
 
@@ -3660,7 +3669,7 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -3691,7 +3700,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -3740,7 +3749,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 

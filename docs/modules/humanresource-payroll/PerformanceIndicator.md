@@ -308,7 +308,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -413,7 +413,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -479,7 +479,7 @@
 <div class="cell" data-label="Column">indicatorType</div>
 <div class="cell" data-label="Arabic">نوع المؤشر</div>
 <div class="cell" data-label="English">Indicator Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PerformanceIndicatorType](/modules/enums/PerformanceIndicatorType.md) </div>
 
 </div>
 
@@ -677,7 +677,7 @@
 <div class="cell" data-label="Column">performanceFactor</div>
 <div class="cell" data-label="Arabic">معدل الأداء</div>
 <div class="cell" data-label="English">Performance Factor</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PerformanceFactor](/modules/enums/PerformanceFactor.md) </div>
 
 </div>
 
@@ -767,7 +767,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -827,7 +827,7 @@
 <div class="cell" data-label="Column">shiftType</div>
 <div class="cell" data-label="Arabic">نوع الدوام</div>
 <div class="cell" data-label="English">Shift Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ShiftIndicatorType](/modules/enums/ShiftIndicatorType.md) </div>
 
 </div>
 
@@ -854,7 +854,7 @@
 <div class="cell" data-label="Column">systemIndicator</div>
 <div class="cell" data-label="Arabic">المؤشر النظامى</div>
 <div class="cell" data-label="English">System Indicator</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SystemIndicatorType](/modules/enums/SystemIndicatorType.md) </div>
 
 </div>
 
@@ -905,7 +905,7 @@
 <div class="cell" data-label="Column">valueConsiderType</div>
 <div class="cell" data-label="Arabic">إعتبار قيم المؤشر</div>
 <div class="cell" data-label="English">Indicator Values Consider</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PerformanceIndicatorValueType](/modules/enums/PerformanceIndicatorValueType.md) </div>
 
 </div>
 

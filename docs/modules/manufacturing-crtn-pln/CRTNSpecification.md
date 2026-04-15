@@ -335,7 +335,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -470,7 +470,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -653,7 +653,7 @@
 <div class="cell" data-label="Column">manufacturingType</div>
 <div class="cell" data-label="Arabic">نوع التصنيع</div>
 <div class="cell" data-label="English">Manufacturing Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CRTNManufacturingType](/modules/enums/CRTNManufacturingType.md) </div>
 
 </div>
 
@@ -788,7 +788,7 @@
 <div class="cell" data-label="Column">packagingMethod</div>
 <div class="cell" data-label="Arabic">طريقة التعبئة</div>
 <div class="cell" data-label="English">Packaging Method</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PackagingMethod](/modules/enums/PackagingMethod.md) </div>
 
 </div>
 
@@ -986,7 +986,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1079,7 +1079,7 @@
 <div class="cell" data-label="Column">specificationType</div>
 <div class="cell" data-label="Arabic">نوع المواصفة</div>
 <div class="cell" data-label="English">Specification Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SpecificationType](/modules/enums/SpecificationType.md) </div>
 
 </div>
 
@@ -1459,7 +1459,7 @@
 <div class="cell" data-label="Column">layerType</div>
 <div class="cell" data-label="Arabic">نوع الطبقة</div>
 <div class="cell" data-label="English">Layer Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CRTNLayerType](/modules/enums/CRTNLayerType.md) </div>
 
 </div>
 
@@ -1562,7 +1562,7 @@
 <div class="cell" data-label="Column">productionStage</div>
 <div class="cell" data-label="Arabic">مرحلة الإنتاج</div>
 <div class="cell" data-label="English">Production Stage</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CRTNProductionStages](/modules/enums/CRTNProductionStages.md) </div>
 
 </div>
 

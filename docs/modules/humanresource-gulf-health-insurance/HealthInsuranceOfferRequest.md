@@ -326,7 +326,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -614,7 +614,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -884,7 +884,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1109,7 +1109,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InsuranceType](/modules/enums/InsuranceType.md) </div>
 
 </div>
 
@@ -1278,7 +1278,7 @@
 <div class="cell" data-label="Column">gender</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Gender</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Gender](/modules/enums/Gender.md) </div>
 
 </div>
 
@@ -1314,7 +1314,7 @@
 <div class="cell" data-label="Column">insuranceCategory</div>
 <div class="cell" data-label="Arabic">فئة التأمين</div>
 <div class="cell" data-label="English">Insurance Category</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InsuranceCategory](/modules/enums/InsuranceCategory.md) </div>
 
 </div>
 
@@ -1416,7 +1416,7 @@
 <div class="cell" data-label="Column">relationType</div>
 <div class="cell" data-label="Arabic">نوع الربط</div>
 <div class="cell" data-label="English">Relation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RelationType](/modules/enums/RelationType.md) </div>
 
 </div>
 

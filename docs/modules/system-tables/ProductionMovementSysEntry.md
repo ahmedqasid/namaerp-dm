@@ -139,7 +139,7 @@
 <div class="cell" data-label="Column">step</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OperationStep](/modules/enums/OperationStep.md) </div>
 
 </div>
 

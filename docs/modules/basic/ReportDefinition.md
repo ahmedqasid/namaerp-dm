@@ -452,7 +452,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -542,7 +542,7 @@
 <div class="cell" data-label="Column">fixedLanguage</div>
 <div class="cell" data-label="Arabic">تثبيت اللغة</div>
 <div class="cell" data-label="English">Fixed Language</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LanguageEnum](/modules/enums/LanguageEnum.md) </div>
 
 </div>
 
@@ -674,7 +674,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -953,7 +953,7 @@
 <div class="cell" data-label="Column">overrideSelectedAnalysisSet</div>
 <div class="cell" data-label="Arabic">تعديل المجموعة التحليلية المختارة</div>
 <div class="cell" data-label="English">Override Selected AnalysisSet</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OverrideSelectedDimension](/modules/enums/OverrideSelectedDimension.md) </div>
 
 </div>
 
@@ -962,7 +962,7 @@
 <div class="cell" data-label="Column">overrideSelectedBranch</div>
 <div class="cell" data-label="Arabic">تعديل الفرع المختار</div>
 <div class="cell" data-label="English">Override Selected Branch</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OverrideSelectedDimension](/modules/enums/OverrideSelectedDimension.md) </div>
 
 </div>
 
@@ -971,7 +971,7 @@
 <div class="cell" data-label="Column">overrideSelectedDepartment</div>
 <div class="cell" data-label="Arabic">تعديل الادارة المختارة</div>
 <div class="cell" data-label="English">Override Selected Department</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OverrideSelectedDimension](/modules/enums/OverrideSelectedDimension.md) </div>
 
 </div>
 
@@ -980,7 +980,7 @@
 <div class="cell" data-label="Column">overrideSelectedLegalEntity</div>
 <div class="cell" data-label="Arabic">تعديل الشركة المختارة</div>
 <div class="cell" data-label="English">Override Selected LegalEntity</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OverrideSelectedDimension](/modules/enums/OverrideSelectedDimension.md) </div>
 
 </div>
 
@@ -989,7 +989,7 @@
 <div class="cell" data-label="Column">overrideSelectedSector</div>
 <div class="cell" data-label="Arabic">تعديل القطاع المختار</div>
 <div class="cell" data-label="English">Override Selected Sector</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OverrideSelectedDimension](/modules/enums/OverrideSelectedDimension.md) </div>
 
 </div>
 
@@ -1217,7 +1217,7 @@
 <div class="cell" data-label="Column">reportType</div>
 <div class="cell" data-label="Arabic">نوع التقرير</div>
 <div class="cell" data-label="English">Report Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReportType](/modules/enums/ReportType.md) </div>
 
 </div>
 
@@ -1235,7 +1235,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1337,7 +1337,7 @@
 <div class="cell" data-label="Column">securityEquivalentType</div>
 <div class="cell" data-label="Arabic">نوع الصلاحيات</div>
 <div class="cell" data-label="English">Security Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SecurityEquivalentType](/modules/enums/SecurityEquivalentType.md) </div>
 
 </div>
 
@@ -1346,7 +1346,7 @@
 <div class="cell" data-label="Column">standardCapability</div>
 <div class="cell" data-label="Arabic">الصلاحية القياسية</div>
 <div class="cell" data-label="English">Standard Capability</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CapabilityType](/modules/enums/CapabilityType.md) </div>
 
 </div>
 
@@ -1481,7 +1481,7 @@
 <div class="cell" data-label="Column">viewingFormat</div>
 <div class="cell" data-label="Arabic">نسق المطالعة</div>
 <div class="cell" data-label="English">Viewing Format</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RepOutputFormat](/modules/enums/RepOutputFormat.md) </div>
 
 </div>
 
@@ -1705,7 +1705,7 @@
 <div class="cell" data-label="Column">paramType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Param Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ParamType](/modules/enums/ParamType.md) </div>
 
 </div>
 
@@ -1741,7 +1741,7 @@
 <div class="cell" data-label="Column">usage</div>
 <div class="cell" data-label="Arabic">طريقة الاستعمال</div>
 <div class="cell" data-label="English">Usage</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ParamOverrideUsage](/modules/enums/ParamOverrideUsage.md) </div>
 
 </div>
 
@@ -1955,7 +1955,7 @@
 <div class="cell" data-label="Column">allowDisallow</div>
 <div class="cell" data-label="Arabic">سماح - منع</div>
 <div class="cell" data-label="English">Allow - Disallow</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SecurityApplicationType](/modules/enums/SecurityApplicationType.md) </div>
 
 </div>
 

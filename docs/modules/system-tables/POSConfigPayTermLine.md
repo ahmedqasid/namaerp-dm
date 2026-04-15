@@ -58,7 +58,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSPaymentDocType](/modules/enums/POSPaymentDocType.md) </div>
 
 </div>
 

@@ -352,7 +352,7 @@
 <div class="cell" data-label="Column">serialType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SerialType](/modules/enums/SerialType.md) </div>
 
 </div>
 
@@ -391,7 +391,7 @@
 <div class="cell" data-label="Column">transType</div>
 <div class="cell" data-label="Arabic">نوع القيد النظامي</div>
 <div class="cell" data-label="English">System Transaction Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QtyTransType](/modules/enums/QtyTransType.md) </div>
 
 </div>
 

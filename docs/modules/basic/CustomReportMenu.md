@@ -332,7 +332,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -437,7 +437,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -524,7 +524,7 @@
 <div class="cell" data-label="Column">launchType</div>
 <div class="cell" data-label="Arabic">طريقة البدء</div>
 <div class="cell" data-label="English">Launch Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CustomRepLaunchType](/modules/enums/CustomRepLaunchType.md) </div>
 
 </div>
 
@@ -776,7 +776,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -951,7 +951,7 @@
 <div class="cell" data-label="Column">applicableFor</div>
 <div class="cell" data-label="Arabic">مطبق على</div>
 <div class="cell" data-label="English">Applicable For</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CriteriaValidatorApplicability](/modules/enums/CriteriaValidatorApplicability.md) </div>
 
 </div>
 
@@ -1035,7 +1035,7 @@
 <div class="cell" data-label="Column">launchType</div>
 <div class="cell" data-label="Arabic">طريقة البدء</div>
 <div class="cell" data-label="English">Launch Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CustomRepLaunchType](/modules/enums/CustomRepLaunchType.md) </div>
 
 </div>
 
@@ -1326,7 +1326,7 @@
 <div class="cell" data-label="Column">showIn</div>
 <div class="cell" data-label="Arabic">عرض في</div>
 <div class="cell" data-label="English">Show In</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ShowCustomRepIn](/modules/enums/ShowCustomRepIn.md) </div>
 
 </div>
 

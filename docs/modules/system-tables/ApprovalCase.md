@@ -170,7 +170,7 @@
 <div class="cell" data-label="Column">endOfCycleAction</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ApprovalEndAction](/modules/enums/ApprovalEndAction.md) </div>
 
 </div>
 
@@ -188,7 +188,7 @@
 <div class="cell" data-label="Column">initiator</div>
 <div class="cell" data-label="Arabic">العملية</div>
 <div class="cell" data-label="English">Initiator</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ApprovalInitiator](/modules/enums/ApprovalInitiator.md) </div>
 
 </div>
 
@@ -263,7 +263,7 @@
 <div class="cell" data-label="Column">nextStepResponsible</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ResponsibleType](/modules/enums/ResponsibleType.md) </div>
 
 </div>
 
@@ -320,7 +320,7 @@
 <div class="cell" data-label="Column">state</div>
 <div class="cell" data-label="Arabic">حالة الموافقة</div>
 <div class="cell" data-label="English">State</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ApprovalCaseState](/modules/enums/ApprovalCaseState.md) </div>
 
 </div>
 
@@ -604,7 +604,7 @@
 <div class="cell" data-label="Column">decision</div>
 <div class="cell" data-label="Arabic">القرار</div>
 <div class="cell" data-label="English">Decision</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ApprovalDecision](/modules/enums/ApprovalDecision.md) </div>
 
 </div>
 

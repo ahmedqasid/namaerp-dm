@@ -300,7 +300,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -405,7 +405,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -444,7 +444,7 @@
 <div class="cell" data-label="Column">installmentsType</div>
 <div class="cell" data-label="Arabic">نوع الأقساط</div>
 <div class="cell" data-label="English">Installments Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InstallmentsType](/modules/enums/InstallmentsType.md) </div>
 
 </div>
 
@@ -498,7 +498,7 @@
 <div class="cell" data-label="Column">investmentDocStatus</div>
 <div class="cell" data-label="Arabic">حالة السند</div>
 <div class="cell" data-label="English">Investment Doc Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InvestmentDocStatus](/modules/enums/InvestmentDocStatus.md) </div>
 
 </div>
 
@@ -774,7 +774,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -813,7 +813,7 @@
 <div class="cell" data-label="Column">roiPeriod</div>
 <div class="cell" data-label="Arabic">فترة العائد</div>
 <div class="cell" data-label="English">ROI Period</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ROIPeriod](/modules/enums/ROIPeriod.md) </div>
 
 </div>
 
@@ -1200,7 +1200,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InvestmentDocType](/modules/enums/InvestmentDocType.md) </div>
 
 </div>
 

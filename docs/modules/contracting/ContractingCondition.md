@@ -167,7 +167,7 @@
 <div class="cell" data-label="Column">cAccountSourceEntityType</div>
 <div class="cell" data-label="Arabic"> نوع المرجع</div>
 <div class="cell" data-label="English"> Reference Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -185,7 +185,7 @@
 <div class="cell" data-label="Column">cAccountSourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر الحساب</div>
 <div class="cell" data-label="English">Account Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccountDimensionSourceType](/modules/enums/AccountDimensionSourceType.md) </div>
 
 </div>
 
@@ -194,7 +194,7 @@
 <div class="cell" data-label="Column">cAnalysisSetSourceEntityType</div>
 <div class="cell" data-label="Arabic">نوع المرجع</div>
 <div class="cell" data-label="English">Reference Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -212,7 +212,7 @@
 <div class="cell" data-label="Column">cAnalysisSetSourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر المجموعة التحليلي</div>
 <div class="cell" data-label="English">AnalysisSet Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -230,7 +230,7 @@
 <div class="cell" data-label="Column">cBranchSourceEntityType</div>
 <div class="cell" data-label="Arabic"> نوع المرجع</div>
 <div class="cell" data-label="English"> Reference Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -248,7 +248,7 @@
 <div class="cell" data-label="Column">cBranchSourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر الفرع</div>
 <div class="cell" data-label="English">Branch Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -266,7 +266,7 @@
 <div class="cell" data-label="Column">cDepartmentSourceEntityType</div>
 <div class="cell" data-label="Arabic"> نوع المرجع</div>
 <div class="cell" data-label="English"> Reference Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -284,7 +284,7 @@
 <div class="cell" data-label="Column">cDepartmentSourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر الإدارة</div>
 <div class="cell" data-label="English">Department Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -362,7 +362,7 @@
 <div class="cell" data-label="Column">cEnttyDmnsonSourceEntityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -380,7 +380,7 @@
 <div class="cell" data-label="Column">cEntityDimensionSourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر السجل</div>
 <div class="cell" data-label="English">Entity Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -452,7 +452,7 @@
 <div class="cell" data-label="Column">cRef1SourceEntityType</div>
 <div class="cell" data-label="Arabic"> نوع المرجع</div>
 <div class="cell" data-label="English"> Reference Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -470,7 +470,7 @@
 <div class="cell" data-label="Column">cRef1SourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر مرجع 1</div>
 <div class="cell" data-label="English">Ref1 Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -488,7 +488,7 @@
 <div class="cell" data-label="Column">cRef2SourceEntityType</div>
 <div class="cell" data-label="Arabic"> نوع المرجع</div>
 <div class="cell" data-label="English"> Reference Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -506,7 +506,7 @@
 <div class="cell" data-label="Column">cRef2SourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر مرجع 2</div>
 <div class="cell" data-label="English">Ref2 Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -524,7 +524,7 @@
 <div class="cell" data-label="Column">cRef3SourceEntityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -542,7 +542,7 @@
 <div class="cell" data-label="Column">cRef3SourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر مرجع 3</div>
 <div class="cell" data-label="English">Ref3 Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -551,7 +551,7 @@
 <div class="cell" data-label="Column">cSectorSourceEntityType</div>
 <div class="cell" data-label="Arabic"> نوع المرجع</div>
 <div class="cell" data-label="English"> Reference Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -569,7 +569,7 @@
 <div class="cell" data-label="Column">cSectorSourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر القطاع</div>
 <div class="cell" data-label="English">Sector Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -599,7 +599,7 @@
 <div class="cell" data-label="Column">cSubsidiaryAccountType</div>
 <div class="cell" data-label="Arabic">نوع الحافظة</div>
 <div class="cell" data-label="English">Subsidiary account type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubsidiaryAccountType](/modules/enums/SubsidiaryAccountType.md) </div>
 
 </div>
 
@@ -629,7 +629,7 @@
 <div class="cell" data-label="Column">customEquationLinesSource</div>
 <div class="cell" data-label="Arabic">مصدر سطور المعادلة المخصصة</div>
 <div class="cell" data-label="English">Custom Equation Lines Source</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CustomEquationLinesSource](/modules/enums/CustomEquationLinesSource.md) </div>
 
 </div>
 
@@ -713,7 +713,7 @@
 <div class="cell" data-label="Column">dAccountSourceEntityType</div>
 <div class="cell" data-label="Arabic"> نوع المرجع</div>
 <div class="cell" data-label="English"> Reference Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -731,7 +731,7 @@
 <div class="cell" data-label="Column">dAccountSourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر الحساب</div>
 <div class="cell" data-label="English">Account Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccountDimensionSourceType](/modules/enums/AccountDimensionSourceType.md) </div>
 
 </div>
 
@@ -740,7 +740,7 @@
 <div class="cell" data-label="Column">dAnalysisSetSourceEntityType</div>
 <div class="cell" data-label="Arabic">نوع المرجع</div>
 <div class="cell" data-label="English">Reference Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -758,7 +758,7 @@
 <div class="cell" data-label="Column">dAnalysisSetSourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر المجموعة التحليلي</div>
 <div class="cell" data-label="English">AnalysisSet Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -776,7 +776,7 @@
 <div class="cell" data-label="Column">dBranchSourceEntityType</div>
 <div class="cell" data-label="Arabic"> نوع المرجع</div>
 <div class="cell" data-label="English"> Reference Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -794,7 +794,7 @@
 <div class="cell" data-label="Column">dBranchSourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر الفرع</div>
 <div class="cell" data-label="English">Branch Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -812,7 +812,7 @@
 <div class="cell" data-label="Column">dDepartmentSourceEntityType</div>
 <div class="cell" data-label="Arabic"> نوع المرجع</div>
 <div class="cell" data-label="English"> Reference Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -830,7 +830,7 @@
 <div class="cell" data-label="Column">dDepartmentSourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر الإدارة</div>
 <div class="cell" data-label="English">Department Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -908,7 +908,7 @@
 <div class="cell" data-label="Column">dEnttyDmnsonSourceEntityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -926,7 +926,7 @@
 <div class="cell" data-label="Column">dEntityDimensionSourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر السجل</div>
 <div class="cell" data-label="English">Entity Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -998,7 +998,7 @@
 <div class="cell" data-label="Column">dRef1SourceEntityType</div>
 <div class="cell" data-label="Arabic"> نوع المرجع</div>
 <div class="cell" data-label="English"> Reference Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -1016,7 +1016,7 @@
 <div class="cell" data-label="Column">dRef1SourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر مرجع 1</div>
 <div class="cell" data-label="English">Ref1 Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -1034,7 +1034,7 @@
 <div class="cell" data-label="Column">dRef2SourceEntityType</div>
 <div class="cell" data-label="Arabic"> نوع المرجع</div>
 <div class="cell" data-label="English"> Reference Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -1052,7 +1052,7 @@
 <div class="cell" data-label="Column">dRef2SourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر مرجع 2</div>
 <div class="cell" data-label="English">Ref2 Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -1070,7 +1070,7 @@
 <div class="cell" data-label="Column">dRef3SourceEntityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -1088,7 +1088,7 @@
 <div class="cell" data-label="Column">dRef3SourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر مرجع 3</div>
 <div class="cell" data-label="English">Ref3 Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -1097,7 +1097,7 @@
 <div class="cell" data-label="Column">dSectorSourceEntityType</div>
 <div class="cell" data-label="Arabic"> نوع المرجع</div>
 <div class="cell" data-label="English"> Reference Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceEntityType](/modules/enums/DimensionSourceEntityType.md) </div>
 
 </div>
 
@@ -1115,7 +1115,7 @@
 <div class="cell" data-label="Column">dSectorSourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر القطاع</div>
 <div class="cell" data-label="English">Sector Source type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionSourceType](/modules/enums/DimensionSourceType.md) </div>
 
 </div>
 
@@ -1145,7 +1145,7 @@
 <div class="cell" data-label="Column">dSubsidiaryAccountType</div>
 <div class="cell" data-label="Arabic">نوع الحافظة</div>
 <div class="cell" data-label="English">Subsidiary account type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubsidiaryAccountType](/modules/enums/SubsidiaryAccountType.md) </div>
 
 </div>
 
@@ -1268,7 +1268,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -1307,7 +1307,7 @@
 <div class="cell" data-label="Column">effectType</div>
 <div class="cell" data-label="Arabic">نوع التأثير</div>
 <div class="cell" data-label="English">Component Effect Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ConditionEffectType](/modules/enums/ConditionEffectType.md) </div>
 
 </div>
 
@@ -1391,7 +1391,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -1508,7 +1508,7 @@
 <div class="cell" data-label="Column">maxValueType</div>
 <div class="cell" data-label="Arabic">نوع أقصي قيمة</div>
 <div class="cell" data-label="English">Maximum Value Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ConditionValType](/modules/enums/ConditionValType.md) </div>
 
 </div>
 
@@ -1682,7 +1682,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1775,7 +1775,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ConditionType](/modules/enums/ConditionType.md) </div>
 
 </div>
 
@@ -1835,7 +1835,7 @@
 <div class="cell" data-label="Column">valueType</div>
 <div class="cell" data-label="Arabic">نوع القيمة</div>
 <div class="cell" data-label="English">Value Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ConditionValType](/modules/enums/ConditionValType.md) </div>
 
 </div>
 
@@ -1905,7 +1905,7 @@
 <div class="cell" data-label="Column">sourceOperation</div>
 <div class="cell" data-label="Arabic">Source Operation</div>
 <div class="cell" data-label="English">Source Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectOperation](/modules/enums/MoneyEffectOperation.md) </div>
 
 </div>
 
@@ -1914,7 +1914,7 @@
 <div class="cell" data-label="Column">sourceType</div>
 <div class="cell" data-label="Arabic">Source Type</div>
 <div class="cell" data-label="English">Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSourceType](/modules/enums/MoneyEffectSourceType.md) </div>
 
 </div>
 
@@ -1923,7 +1923,7 @@
 <div class="cell" data-label="Column">sourceValue</div>
 <div class="cell" data-label="Arabic">Source Value</div>
 <div class="cell" data-label="English">Source Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MoneyEffectSource](/modules/enums/MoneyEffectSource.md) </div>
 
 </div>
 

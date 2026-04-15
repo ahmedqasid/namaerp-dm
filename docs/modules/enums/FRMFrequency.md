@@ -1,0 +1,85 @@
+
+<div class='enumName'>
+
+
+# FRMFrequency
+</div>
+
+<div class='searchable'>
+
+## Values
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">ID</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+</div><div class="row searchable">
+<div class="cell" data-label="ID">Daily</div>
+<div class="cell" data-label="Arabic">يومي</div>
+<div class="cell" data-label="English">Daily</div>
+</div>
+
+<div class="row searchable">
+<div class="cell" data-label="ID">Weekly</div>
+<div class="cell" data-label="Arabic">أسبوعي</div>
+<div class="cell" data-label="English">Weekly</div>
+</div>
+
+<div class="row searchable">
+<div class="cell" data-label="ID">Monthly</div>
+<div class="cell" data-label="Arabic">شهرية</div>
+<div class="cell" data-label="English">Monthly</div>
+</div>
+
+<div class="row searchable">
+<div class="cell" data-label="ID">Yearly</div>
+<div class="cell" data-label="Arabic">سنوية</div>
+<div class="cell" data-label="English">Yearly</div>
+</div>
+
+<div class="row searchable">
+<div class="cell" data-label="ID">EverySaturday</div>
+<div class="cell" data-label="Arabic">كل سبت</div>
+<div class="cell" data-label="English">Every Saturday</div>
+</div>
+
+<div class="row searchable">
+<div class="cell" data-label="ID">EverySunday</div>
+<div class="cell" data-label="Arabic">كل حد</div>
+<div class="cell" data-label="English">Every Sunday</div>
+</div>
+
+<div class="row searchable">
+<div class="cell" data-label="ID">EveryMonday</div>
+<div class="cell" data-label="Arabic">كل اثنين</div>
+<div class="cell" data-label="English">Every Monday</div>
+</div>
+
+<div class="row searchable">
+<div class="cell" data-label="ID">EveryTuesday</div>
+<div class="cell" data-label="Arabic">كل ثلاثاء</div>
+<div class="cell" data-label="English">Every Tuesday</div>
+</div>
+
+<div class="row searchable">
+<div class="cell" data-label="ID">EveryWednesday</div>
+<div class="cell" data-label="Arabic">كل أربعاء</div>
+<div class="cell" data-label="English">Every Wednesday</div>
+</div>
+
+<div class="row searchable">
+<div class="cell" data-label="ID">EveryThursday</div>
+<div class="cell" data-label="Arabic">كل خميس</div>
+<div class="cell" data-label="English">Every Thursday</div>
+</div>
+
+<div class="row searchable">
+<div class="cell" data-label="ID">EveryFriday</div>
+<div class="cell" data-label="Arabic">كل جمعة</div>
+<div class="cell" data-label="English">Every Friday</div>
+</div>
+
+
+</div>
+

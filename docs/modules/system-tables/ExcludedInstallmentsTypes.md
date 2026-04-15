@@ -34,7 +34,7 @@
 <div class="cell" data-label="Column">installmentType</div>
 <div class="cell" data-label="Arabic">نوع القسط</div>
 <div class="cell" data-label="English">Installment type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [REInstallmentType](/modules/enums/REInstallmentType.md) </div>
 
 </div>
 

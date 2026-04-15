@@ -70,7 +70,7 @@
 <div class="cell" data-label="Column">canEdit</div>
 <div class="cell" data-label="Arabic"> الإضافة والتعديل</div>
 <div class="cell" data-label="English"> Add & Edit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EditAuthority](/modules/enums/EditAuthority.md) </div>
 
 </div>
 
@@ -97,7 +97,7 @@
 <div class="cell" data-label="Column">canPrint</div>
 <div class="cell" data-label="Arabic"> الطباعة</div>
 <div class="cell" data-label="English"> Prinitng</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PrintAuthority](/modules/enums/PrintAuthority.md) </div>
 
 </div>
 

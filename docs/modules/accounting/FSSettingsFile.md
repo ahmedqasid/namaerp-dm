@@ -74,7 +74,7 @@
 <div class="cell" data-label="Column">changeBalanceType</div>
 <div class="cell" data-label="Arabic">تغيير (الرصيد - الحركة - الإفتتاحى) للسطور المختارة</div>
 <div class="cell" data-label="English">Change Balance Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSBalanceMovOpeningEqType](/modules/enums/FSBalanceMovOpeningEqType.md) </div>
 
 </div>
 
@@ -83,7 +83,7 @@
 <div class="cell" data-label="Column">changeDrCrType</div>
 <div class="cell" data-label="Arabic">تغيير (مدين - دائن) للسطور المختارة</div>
 <div class="cell" data-label="English">Change Debit Credit Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSDebitCreditEquationType](/modules/enums/FSDebitCreditEquationType.md) </div>
 
 </div>
 
@@ -92,7 +92,7 @@
 <div class="cell" data-label="Column">changeLevelType</div>
 <div class="cell" data-label="Arabic">تغيير (المستوى) للسطور المختارة</div>
 <div class="cell" data-label="English">Change Level Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSLineLevel](/modules/enums/FSLineLevel.md) </div>
 
 </div>
 
@@ -101,7 +101,7 @@
 <div class="cell" data-label="Column">changeOpenType</div>
 <div class="cell" data-label="Arabic">تغيير (معادلة حساب الإفتتاحى) للسطور المختارة</div>
 <div class="cell" data-label="English">Change Open Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSOpenningEquation](/modules/enums/FSOpenningEquation.md) </div>
 
 </div>
 
@@ -110,7 +110,7 @@
 <div class="cell" data-label="Column">changeTotalsType</div>
 <div class="cell" data-label="Arabic">تغيير (معادلة حساب الإجمالى) للسطور المختارة</div>
 <div class="cell" data-label="English">Change Totals Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSTotals](/modules/enums/FSTotals.md) </div>
 
 </div>
 
@@ -257,7 +257,7 @@
 <div class="cell" data-label="Column">defaultComparisonType</div>
 <div class="cell" data-label="Arabic">نوع المقارنة الإفتراضى</div>
 <div class="cell" data-label="English">Default Comparison Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSComparisonType](/modules/enums/FSComparisonType.md) </div>
 
 </div>
 
@@ -266,7 +266,7 @@
 <div class="cell" data-label="Column">defaultGroup1By</div>
 <div class="cell" data-label="Arabic">التجميع 1 الإفتراضى بـ</div>
 <div class="cell" data-label="English">Default Group 1 By</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSGroupBy](/modules/enums/FSGroupBy.md) </div>
 
 </div>
 
@@ -275,7 +275,7 @@
 <div class="cell" data-label="Column">defaultGroup2By</div>
 <div class="cell" data-label="Arabic">التجميع 2 الإفتراضى بـ</div>
 <div class="cell" data-label="English">Default Group 2 By</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSGroupBy](/modules/enums/FSGroupBy.md) </div>
 
 </div>
 
@@ -284,7 +284,7 @@
 <div class="cell" data-label="Column">defaultGroup3By</div>
 <div class="cell" data-label="Arabic">التجميع 3 الإفتراضى بـ</div>
 <div class="cell" data-label="English">Default Group 3 By</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSGroupBy](/modules/enums/FSGroupBy.md) </div>
 
 </div>
 
@@ -293,7 +293,7 @@
 <div class="cell" data-label="Column">defaultGroup4By</div>
 <div class="cell" data-label="Arabic">التجميع 4 الإفتراضى بـ</div>
 <div class="cell" data-label="English">Default Group 4 By</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSGroupBy](/modules/enums/FSGroupBy.md) </div>
 
 </div>
 
@@ -302,7 +302,7 @@
 <div class="cell" data-label="Column">defaultGroup5By</div>
 <div class="cell" data-label="Arabic">التجميع 5 الإفتراضى بـ</div>
 <div class="cell" data-label="English">Default Group 5 By</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSGroupBy](/modules/enums/FSGroupBy.md) </div>
 
 </div>
 
@@ -389,7 +389,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -494,7 +494,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -551,7 +551,7 @@
 <div class="cell" data-label="Column">issueDocType</div>
 <div class="cell" data-label="Arabic">نوع القائمة</div>
 <div class="cell" data-label="English">Origin Issue Document Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSIssueDocType](/modules/enums/FSIssueDocType.md) </div>
 
 </div>
 
@@ -791,7 +791,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -975,7 +975,7 @@
 <div class="cell" data-label="Column">balanceMovEquationType</div>
 <div class="cell" data-label="Arabic">الرصيد - الحركة - الإفتتاحى</div>
 <div class="cell" data-label="English">Balance Movment Equation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSBalanceMovOpeningEqType](/modules/enums/FSBalanceMovOpeningEqType.md) </div>
 
 </div>
 
@@ -1002,7 +1002,7 @@
 <div class="cell" data-label="Column">drCrEquationType</div>
 <div class="cell" data-label="Arabic">مدين - دائن</div>
 <div class="cell" data-label="English">Debit Credit Equation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSDebitCreditEquationType](/modules/enums/FSDebitCreditEquationType.md) </div>
 
 </div>
 
@@ -1047,7 +1047,7 @@
 <div class="cell" data-label="Column">level</div>
 <div class="cell" data-label="Arabic">المستوى</div>
 <div class="cell" data-label="English">Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSLineLevel](/modules/enums/FSLineLevel.md) </div>
 
 </div>
 
@@ -1170,7 +1170,7 @@
 <div class="cell" data-label="Column">openningEquation</div>
 <div class="cell" data-label="Arabic">معادلة حساب الإفتتاحى</div>
 <div class="cell" data-label="English">Opening Equation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSOpenningEquation](/modules/enums/FSOpenningEquation.md) </div>
 
 </div>
 
@@ -1245,7 +1245,7 @@
 <div class="cell" data-label="Column">totalsEquation</div>
 <div class="cell" data-label="Arabic">معادلة حساب الإجمالى</div>
 <div class="cell" data-label="English">Totals Equation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSTotals](/modules/enums/FSTotals.md) </div>
 
 </div>
 

@@ -545,7 +545,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -677,7 +677,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -686,7 +686,7 @@
 <div class="cell" data-label="Column">gracePeriodUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -875,7 +875,7 @@
 <div class="cell" data-label="Column">paymentDateAtDay</div>
 <div class="cell" data-label="Arabic">جعل تاريخ الدفعة يوم</div>
 <div class="cell" data-label="English">Make Payment Date at Day</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaDayOfWeek](/modules/enums/NamaDayOfWeek.md) </div>
 
 </div>
 
@@ -884,7 +884,7 @@
 <div class="cell" data-label="Column">paymentType</div>
 <div class="cell" data-label="Arabic">طريقة السداد</div>
 <div class="cell" data-label="English">Payment Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PaymentsType](/modules/enums/PaymentsType.md) </div>
 
 </div>
 
@@ -902,7 +902,7 @@
 <div class="cell" data-label="Column">paymentsPeriodUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -1001,7 +1001,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1031,7 +1031,7 @@
 <div class="cell" data-label="Column">roundingType</div>
 <div class="cell" data-label="Arabic">نوع التقريب</div>
 <div class="cell" data-label="English">Rounding Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RoundingType](/modules/enums/RoundingType.md) </div>
 
 </div>
 
@@ -1091,7 +1091,7 @@
 <div class="cell" data-label="Column">updatingType</div>
 <div class="cell" data-label="Arabic">طريقة التحديث</div>
 <div class="cell" data-label="English">Updating Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TemplateUpdatingType](/modules/enums/TemplateUpdatingType.md) </div>
 
 </div>
 
@@ -1200,7 +1200,7 @@
 <div class="cell" data-label="Column">paymentPeriodUom</div>
 <div class="cell" data-label="Arabic">فترة الدفعة | الوحدة</div>
 <div class="cell" data-label="English">Payment Period | UOM</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -1218,7 +1218,7 @@
 <div class="cell" data-label="Column">paymentType</div>
 <div class="cell" data-label="Arabic">نوع الدفعة</div>
 <div class="cell" data-label="English">Payment Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PaymentType](/modules/enums/PaymentType.md) </div>
 
 </div>
 

@@ -52,7 +52,7 @@
 <div class="cell" data-label="Column">messageType</div>
 <div class="cell" data-label="Arabic">Message Type</div>
 <div class="cell" data-label="English">Message Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AIChatMessageType](/modules/enums/AIChatMessageType.md) </div>
 
 </div>
 
@@ -91,7 +91,7 @@
 <div class="cell" data-label="Column">userFeedback</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [UserFeedback](/modules/enums/UserFeedback.md) </div>
 
 </div>
 

@@ -390,7 +390,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -513,7 +513,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -561,7 +561,7 @@
 <div class="cell" data-label="Column">insuranceBeneficiary</div>
 <div class="cell" data-label="Arabic">التأمين لصالح</div>
 <div class="cell" data-label="English">Insurance Beneficiary</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SIInsuranceBeneficiary](/modules/enums/SIInsuranceBeneficiary.md) </div>
 
 </div>
 
@@ -837,7 +837,7 @@
 <div class="cell" data-label="Column">programSource</div>
 <div class="cell" data-label="Arabic">مصدر البرنامج</div>
 <div class="cell" data-label="English">Program Source</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SIProgramSource](/modules/enums/SIProgramSource.md) </div>
 
 </div>
 
@@ -846,7 +846,7 @@
 <div class="cell" data-label="Column">programType</div>
 <div class="cell" data-label="Arabic">نوع البرنامج</div>
 <div class="cell" data-label="English">Program Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SIProgramType](/modules/enums/SIProgramType.md) </div>
 
 </div>
 
@@ -954,7 +954,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1023,7 +1023,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SIInstallmentProgramStatus](/modules/enums/SIInstallmentProgramStatus.md) </div>
 
 </div>
 

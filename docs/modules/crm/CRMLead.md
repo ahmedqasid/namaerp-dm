@@ -446,7 +446,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -569,7 +569,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -872,7 +872,7 @@
 <div class="cell" data-label="Column">leadSource</div>
 <div class="cell" data-label="Arabic">مصدر الخيط</div>
 <div class="cell" data-label="English">Lead Source</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LeadSource](/modules/enums/LeadSource.md) </div>
 
 </div>
 
@@ -881,7 +881,7 @@
 <div class="cell" data-label="Column">leadType</div>
 <div class="cell" data-label="Arabic">نوع الخيط</div>
 <div class="cell" data-label="English">Lead Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CRMLeadType](/modules/enums/CRMLeadType.md) </div>
 
 </div>
 
@@ -1034,7 +1034,7 @@
 <div class="cell" data-label="Column">platform</div>
 <div class="cell" data-label="Arabic">المنصة</div>
 <div class="cell" data-label="English">Platform</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CRMPlatform](/modules/enums/CRMPlatform.md) </div>
 
 </div>
 
@@ -1157,7 +1157,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1211,7 +1211,7 @@
 <div class="cell" data-label="Column">salesStage</div>
 <div class="cell" data-label="Arabic">مرحلة البيع</div>
 <div class="cell" data-label="English">Sales Stage</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CRMSalesStage](/modules/enums/CRMSalesStage.md) </div>
 
 </div>
 
@@ -1241,7 +1241,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CRMLeadStatus](/modules/enums/CRMLeadStatus.md) </div>
 
 </div>
 
@@ -1723,7 +1723,7 @@
 <div class="cell" data-label="Column">contactTitle</div>
 <div class="cell" data-label="Arabic">اللقب</div>
 <div class="cell" data-label="English">Title</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ContactTitle](/modules/enums/ContactTitle.md) </div>
 
 </div>
 

@@ -58,7 +58,7 @@
 <div class="cell" data-label="Column">contentType</div>
 <div class="cell" data-label="Arabic">نوع المحتوي</div>
 <div class="cell" data-label="English">Content Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AttachedFileContentType](/modules/enums/AttachedFileContentType.md) </div>
 
 </div>
 
@@ -133,7 +133,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 

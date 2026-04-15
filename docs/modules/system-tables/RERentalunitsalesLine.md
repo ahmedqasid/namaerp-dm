@@ -466,7 +466,7 @@
 <div class="cell" data-label="Column">fpPaperType</div>
 <div class="cell" data-label="Arabic">نوع الورقة</div>
 <div class="cell" data-label="English">Paper Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FinancialPaperType](/modules/enums/FinancialPaperType.md) </div>
 
 </div>
 
@@ -694,7 +694,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [REInstallmentType](/modules/enums/REInstallmentType.md) </div>
 
 </div>
 

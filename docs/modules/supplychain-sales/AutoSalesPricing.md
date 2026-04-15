@@ -272,7 +272,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -377,7 +377,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -629,7 +629,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -692,7 +692,7 @@
 <div class="cell" data-label="Column">source1</div>
 <div class="cell" data-label="Arabic">المصدر 1</div>
 <div class="cell" data-label="English">Source 1</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalesPricingSource](/modules/enums/SalesPricingSource.md) </div>
 
 </div>
 
@@ -701,7 +701,7 @@
 <div class="cell" data-label="Column">source2</div>
 <div class="cell" data-label="Arabic">المصدر 2</div>
 <div class="cell" data-label="English">Source 2</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalesPricingSource](/modules/enums/SalesPricingSource.md) </div>
 
 </div>
 
@@ -710,7 +710,7 @@
 <div class="cell" data-label="Column">source3</div>
 <div class="cell" data-label="Arabic">المصدر 3</div>
 <div class="cell" data-label="English">Source 3</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalesPricingSource](/modules/enums/SalesPricingSource.md) </div>
 
 </div>
 
@@ -719,7 +719,7 @@
 <div class="cell" data-label="Column">sourceSelectionMethod</div>
 <div class="cell" data-label="Arabic">طريقة اختيار المصدر</div>
 <div class="cell" data-label="English">Source Selection Method</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SourceSelectionMethod](/modules/enums/SourceSelectionMethod.md) </div>
 
 </div>
 
@@ -831,7 +831,7 @@
 <div class="cell" data-label="Column">action</div>
 <div class="cell" data-label="Arabic">إجراء</div>
 <div class="cell" data-label="English">Action</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PricingAction](/modules/enums/PricingAction.md) </div>
 
 </div>
 
@@ -840,7 +840,7 @@
 <div class="cell" data-label="Column">fistSide</div>
 <div class="cell" data-label="Arabic">الطرف الأول</div>
 <div class="cell" data-label="English">Fist Side</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PricingParameter](/modules/enums/PricingParameter.md) </div>
 
 </div>
 
@@ -867,7 +867,7 @@
 <div class="cell" data-label="Column">operator</div>
 <div class="cell" data-label="Arabic">المعامل</div>
 <div class="cell" data-label="English">Operator</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PricingOperator](/modules/enums/PricingOperator.md) </div>
 
 </div>
 
@@ -876,7 +876,7 @@
 <div class="cell" data-label="Column">secondSide</div>
 <div class="cell" data-label="Arabic">الطرف الثاني</div>
 <div class="cell" data-label="English">Second Side</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PricingParameter](/modules/enums/PricingParameter.md) </div>
 
 </div>
 

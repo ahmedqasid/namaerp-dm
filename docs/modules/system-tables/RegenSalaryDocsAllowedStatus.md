@@ -25,7 +25,7 @@
 <div class="cell" data-label="Column">allowRegenerate</div>
 <div class="cell" data-label="Arabic">السماح بالإصدار</div>
 <div class="cell" data-label="English">Allow Regenerate</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [HRAllowRegenerate](/modules/enums/HRAllowRegenerate.md) </div>
 
 </div>
 
@@ -73,7 +73,7 @@
 <div class="cell" data-label="Column">salarySheetStatus</div>
 <div class="cell" data-label="Arabic">حالة سجل الراتب(الموجود داخل سند الراتب)</div>
 <div class="cell" data-label="English">Salary Sheet Status(Inside Salary Document)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalarySheetStatus](/modules/enums/SalarySheetStatus.md) </div>
 
 </div>
 
@@ -82,7 +82,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [HRDocStatus](/modules/enums/HRDocStatus.md) </div>
 
 </div>
 

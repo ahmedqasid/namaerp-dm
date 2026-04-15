@@ -34,7 +34,7 @@
 <div class="cell" data-label="Column">authorityType</div>
 <div class="cell" data-label="Arabic">نوع التحكم</div>
 <div class="cell" data-label="English">Preview Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AuthorityType](/modules/enums/AuthorityType.md) </div>
 
 </div>
 

@@ -93,7 +93,7 @@
 <div class="cell" data-label="Column">chamfers</div>
 <div class="cell" data-label="Arabic">Chamfers</div>
 <div class="cell" data-label="English">Chamfers</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OKTreatmentAnswer](/modules/enums/OKTreatmentAnswer.md) </div>
 
 </div>
 
@@ -138,7 +138,7 @@
 <div class="cell" data-label="Column">constructionJoints</div>
 <div class="cell" data-label="Arabic">Construction Joints</div>
 <div class="cell" data-label="English">Construction Joints</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OKTreatmentAnswer](/modules/enums/OKTreatmentAnswer.md) </div>
 
 </div>
 
@@ -168,7 +168,7 @@
 <div class="cell" data-label="Column">cracks</div>
 <div class="cell" data-label="Arabic">Cracks</div>
 <div class="cell" data-label="English">Cracks</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NoneTreatmentAnswer](/modules/enums/NoneTreatmentAnswer.md) </div>
 
 </div>
 
@@ -204,7 +204,7 @@
 <div class="cell" data-label="Column">curingApplied</div>
 <div class="cell" data-label="Arabic">Curing Applied</div>
 <div class="cell" data-label="English">Curing Applied</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoAnswer](/modules/enums/YesNoAnswer.md) </div>
 
 </div>
 
@@ -390,7 +390,7 @@
 <div class="cell" data-label="Column">dimensionsOk</div>
 <div class="cell" data-label="Arabic">Dimensions Ok</div>
 <div class="cell" data-label="English">Dimensions Ok</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoAnswer](/modules/enums/YesNoAnswer.md) </div>
 
 </div>
 
@@ -420,7 +420,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -459,7 +459,7 @@
 <div class="cell" data-label="Column">embedmentsOk</div>
 <div class="cell" data-label="Arabic">Embedments Ok</div>
 <div class="cell" data-label="English">Embedments Ok</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoAnswer](/modules/enums/YesNoAnswer.md) </div>
 
 </div>
 
@@ -540,7 +540,7 @@
 <div class="cell" data-label="Column">formworkJoints</div>
 <div class="cell" data-label="Arabic">Formwork Joints</div>
 <div class="cell" data-label="English">Formwork Joints</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OKTreatmentAnswer](/modules/enums/OKTreatmentAnswer.md) </div>
 
 </div>
 
@@ -558,7 +558,7 @@
 <div class="cell" data-label="Column">formworkMarks</div>
 <div class="cell" data-label="Arabic">Formwork Marks</div>
 <div class="cell" data-label="English">Formwork Marks</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NoneTreatmentAnswer](/modules/enums/NoneTreatmentAnswer.md) </div>
 
 </div>
 
@@ -621,7 +621,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -630,7 +630,7 @@
 <div class="cell" data-label="Column">honeycombing</div>
 <div class="cell" data-label="Arabic">Honeycombing</div>
 <div class="cell" data-label="English">Honeycombing</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoAnswer](/modules/enums/YesNoAnswer.md) </div>
 
 </div>
 
@@ -798,7 +798,7 @@
 <div class="cell" data-label="Column">otherVoids</div>
 <div class="cell" data-label="Arabic">Other Voids</div>
 <div class="cell" data-label="English">Other Voids</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoAnswer](/modules/enums/YesNoAnswer.md) </div>
 
 </div>
 
@@ -948,7 +948,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -990,7 +990,7 @@
 <div class="cell" data-label="Column">sandRuns</div>
 <div class="cell" data-label="Arabic">Sand Runs</div>
 <div class="cell" data-label="English">Sand Runs</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NoneTreatmentAnswer](/modules/enums/NoneTreatmentAnswer.md) </div>
 
 </div>
 
@@ -1062,7 +1062,7 @@
 <div class="cell" data-label="Column">tieHoles</div>
 <div class="cell" data-label="Arabic">Tie Holes</div>
 <div class="cell" data-label="English">Tie Holes</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NoneTreatmentAnswer](/modules/enums/NoneTreatmentAnswer.md) </div>
 
 </div>
 

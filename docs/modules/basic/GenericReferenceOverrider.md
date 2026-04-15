@@ -332,7 +332,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -437,7 +437,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -758,7 +758,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -951,7 +951,7 @@
 <div class="cell" data-label="Column">applicableFor</div>
 <div class="cell" data-label="Arabic">مطبق على</div>
 <div class="cell" data-label="English">Applicable For</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CriteriaValidatorApplicability](/modules/enums/CriteriaValidatorApplicability.md) </div>
 
 </div>
 
@@ -1060,7 +1060,7 @@
 <div class="cell" data-label="Column">applicableFor</div>
 <div class="cell" data-label="Arabic">مطبق على</div>
 <div class="cell" data-label="English">Applicable For</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CriteriaValidatorApplicability](/modules/enums/CriteriaValidatorApplicability.md) </div>
 
 </div>
 
@@ -1251,7 +1251,7 @@
 <div class="cell" data-label="Column">applicableFor</div>
 <div class="cell" data-label="Arabic">مطبق على</div>
 <div class="cell" data-label="English">Applicable For</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CriteriaValidatorApplicability](/modules/enums/CriteriaValidatorApplicability.md) </div>
 
 </div>
 
@@ -1637,7 +1637,7 @@
 <div class="cell" data-label="Column">descriptorType</div>
 <div class="cell" data-label="Arabic">استخدام الوصف</div>
 <div class="cell" data-label="English">Descriptor Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DescriptorType](/modules/enums/DescriptorType.md) </div>
 
 </div>
 
@@ -2341,7 +2341,7 @@
 <div class="cell" data-label="Column">sendType</div>
 <div class="cell" data-label="Arabic">نوع الارسال</div>
 <div class="cell" data-label="English">Send Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EmailSendType](/modules/enums/EmailSendType.md) </div>
 
 </div>
 
@@ -2635,7 +2635,7 @@
 <div class="cell" data-label="Column">targetQueueId</div>
 <div class="cell" data-label="Arabic">نوع الرسالة</div>
 <div class="cell" data-label="English">Target Queue ID</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MessageQueue](/modules/enums/MessageQueue.md) </div>
 
 </div>
 
@@ -2666,7 +2666,7 @@
 <div class="cell" data-label="Column">applicableFor</div>
 <div class="cell" data-label="Arabic">مطبق على</div>
 <div class="cell" data-label="English">Applicable For</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CriteriaValidatorApplicability](/modules/enums/CriteriaValidatorApplicability.md) </div>
 
 </div>
 
@@ -2878,7 +2878,7 @@
 <div class="cell" data-label="Column">applicableFor</div>
 <div class="cell" data-label="Arabic">مطبق على</div>
 <div class="cell" data-label="English">Applicable For</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CriteriaValidatorApplicability](/modules/enums/CriteriaValidatorApplicability.md) </div>
 
 </div>
 
@@ -2956,7 +2956,7 @@
 <div class="cell" data-label="Column">searchOperator</div>
 <div class="cell" data-label="Arabic">معامل البحث</div>
 <div class="cell" data-label="English">Search Operator</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Operator](/modules/enums/Operator.md) </div>
 
 </div>
 
@@ -3291,7 +3291,7 @@
 <div class="cell" data-label="Column">letterCaseType</div>
 <div class="cell" data-label="Arabic">الحروف المسموح بها</div>
 <div class="cell" data-label="English">Letter Case Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LetterCaseType](/modules/enums/LetterCaseType.md) </div>
 
 </div>
 
@@ -3318,7 +3318,7 @@
 <div class="cell" data-label="Column">listColumnDirection</div>
 <div class="cell" data-label="Arabic">اتجاه النص في العرض بالقائمة</div>
 <div class="cell" data-label="English">Text Direction in List Column</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TextDirection](/modules/enums/TextDirection.md) </div>
 
 </div>
 
@@ -3411,7 +3411,7 @@
 <div class="cell" data-label="Column">suggestionDirection</div>
 <div class="cell" data-label="Arabic">اتجاة النص في قائمة المقترحات(البحث)</div>
 <div class="cell" data-label="English">Text Direction in Suggestion Menu (Search)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TextDirection](/modules/enums/TextDirection.md) </div>
 
 </div>
 
@@ -3420,7 +3420,7 @@
 <div class="cell" data-label="Column">textDirection</div>
 <div class="cell" data-label="Arabic">اتجاه الكتابة</div>
 <div class="cell" data-label="English">Text Direction</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TextDirection](/modules/enums/TextDirection.md) </div>
 
 </div>
 
@@ -3429,7 +3429,7 @@
 <div class="cell" data-label="Column">textLanguage</div>
 <div class="cell" data-label="Arabic">لغة الكتابة</div>
 <div class="cell" data-label="English">Text Language</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TextLanguage](/modules/enums/TextLanguage.md) </div>
 
 </div>
 
@@ -3626,7 +3626,7 @@
 <div class="cell" data-label="Column">fixedInputLanguage</div>
 <div class="cell" data-label="Arabic">تثبيت لغة الإدخال</div>
 <div class="cell" data-label="English">Fixed Input Language</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LanguageEnum](/modules/enums/LanguageEnum.md) </div>
 
 </div>
 
@@ -3680,7 +3680,7 @@
 <div class="cell" data-label="Column">listColumnDirection</div>
 <div class="cell" data-label="Arabic">اتجاه النص في العرض بالقائمة</div>
 <div class="cell" data-label="English">Text Direction in List Column</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TextDirection](/modules/enums/TextDirection.md) </div>
 
 </div>
 
@@ -3710,7 +3710,7 @@
 <div class="cell" data-label="Column">suggestionDirection</div>
 <div class="cell" data-label="Arabic">اتجاة النص في قائمة المقترحات(البحث)</div>
 <div class="cell" data-label="English">Text Direction in Suggestion Menu (Search)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TextDirection](/modules/enums/TextDirection.md) </div>
 
 </div>
 
@@ -3719,7 +3719,7 @@
 <div class="cell" data-label="Column">textDirection</div>
 <div class="cell" data-label="Arabic">اتجاه الكتابة</div>
 <div class="cell" data-label="English">Text Direction</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TextDirection](/modules/enums/TextDirection.md) </div>
 
 </div>
 
@@ -3804,7 +3804,7 @@
 <div class="cell" data-label="Column">importingType</div>
 <div class="cell" data-label="Arabic">نوع الاستيراد</div>
 <div class="cell" data-label="English">Importing Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ImportingExportingType](/modules/enums/ImportingExportingType.md) </div>
 
 </div>
 
@@ -4214,7 +4214,7 @@
 <div class="cell" data-label="Column">outputFormat</div>
 <div class="cell" data-label="Arabic">الصيغة</div>
 <div class="cell" data-label="English">Output Format</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RepOutputFormat](/modules/enums/RepOutputFormat.md) </div>
 
 </div>
 
@@ -4287,7 +4287,7 @@
 <div class="cell" data-label="Column">applicableFor</div>
 <div class="cell" data-label="Arabic">مطبق على</div>
 <div class="cell" data-label="English">Applicable For</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CriteriaValidatorApplicability](/modules/enums/CriteriaValidatorApplicability.md) </div>
 
 </div>
 
@@ -4596,7 +4596,7 @@
 <div class="cell" data-label="Column">fieldType</div>
 <div class="cell" data-label="Arabic">نوع الحقل</div>
 <div class="cell" data-label="English">Field Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ParamFieldType](/modules/enums/ParamFieldType.md) </div>
 
 </div>
 
@@ -5319,7 +5319,7 @@
 <div class="cell" data-label="Column">applicableFor</div>
 <div class="cell" data-label="Arabic">مطبق على</div>
 <div class="cell" data-label="English">Applicable For</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CriteriaValidatorApplicability](/modules/enums/CriteriaValidatorApplicability.md) </div>
 
 </div>
 
@@ -5328,7 +5328,7 @@
 <div class="cell" data-label="Column">codeSearchOperator</div>
 <div class="cell" data-label="Arabic">معامل البحث في الكود</div>
 <div class="cell" data-label="English">Code Search Operator</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Operator](/modules/enums/Operator.md) </div>
 
 </div>
 
@@ -5394,7 +5394,7 @@
 <div class="cell" data-label="Column">name1SearchOperator</div>
 <div class="cell" data-label="Arabic">معامل البحث في الاسم العربي</div>
 <div class="cell" data-label="English">Name 1 Search Operator</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Operator](/modules/enums/Operator.md) </div>
 
 </div>
 
@@ -5403,7 +5403,7 @@
 <div class="cell" data-label="Column">name2SearchOperator</div>
 <div class="cell" data-label="Arabic">معامل البحث في الاسم الإنجليزي</div>
 <div class="cell" data-label="English">Name 2 Search Operator</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Operator](/modules/enums/Operator.md) </div>
 
 </div>
 
@@ -5537,7 +5537,7 @@
 <div class="cell" data-label="Column">applicableFor</div>
 <div class="cell" data-label="Arabic">مطبق على</div>
 <div class="cell" data-label="English">Applicable For</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CriteriaValidatorApplicability](/modules/enums/CriteriaValidatorApplicability.md) </div>
 
 </div>
 
@@ -5924,7 +5924,7 @@
 <div class="cell" data-label="Column">linkType</div>
 <div class="cell" data-label="Arabic">نوع الرابط</div>
 <div class="cell" data-label="English">Link Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FieldLinkType](/modules/enums/FieldLinkType.md) </div>
 
 </div>
 

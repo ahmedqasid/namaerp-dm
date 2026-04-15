@@ -194,7 +194,7 @@
 <div class="cell" data-label="Column">candidateState</div>
 <div class="cell" data-label="Arabic">حالة المتقدم</div>
 <div class="cell" data-label="English">Candidate State</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EmployeeState](/modules/enums/EmployeeState.md) </div>
 
 </div>
 
@@ -608,7 +608,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -698,7 +698,7 @@
 <div class="cell" data-label="Column">gender</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Gender</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Gender](/modules/enums/Gender.md) </div>
 
 </div>
 
@@ -734,7 +734,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -773,7 +773,7 @@
 <div class="cell" data-label="Column">interviewState</div>
 <div class="cell" data-label="Arabic">حالة المقابلة</div>
 <div class="cell" data-label="English">Interview State</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InterviewState](/modules/enums/InterviewState.md) </div>
 
 </div>
 
@@ -863,7 +863,7 @@
 <div class="cell" data-label="Column">maritalStatus</div>
 <div class="cell" data-label="Arabic">الحالة الأجتماعية</div>
 <div class="cell" data-label="English">Martial status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MaritalStatus](/modules/enums/MaritalStatus.md) </div>
 
 </div>
 
@@ -1019,7 +1019,7 @@
 <div class="cell" data-label="Column">religion</div>
 <div class="cell" data-label="Arabic">الديانة</div>
 <div class="cell" data-label="English">Religion</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Religion](/modules/enums/Religion.md) </div>
 
 </div>
 
@@ -1037,7 +1037,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1109,7 +1109,7 @@
 <div class="cell" data-label="Column">testsStatus</div>
 <div class="cell" data-label="Arabic">حالتة بعد الإختبار</div>
 <div class="cell" data-label="English">Tests Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TestConclusion](/modules/enums/TestConclusion.md) </div>
 
 </div>
 
@@ -1929,7 +1929,7 @@
 <div class="cell" data-label="Column">qualification</div>
 <div class="cell" data-label="Arabic">مؤهل</div>
 <div class="cell" data-label="English">Qualification</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QualificationType](/modules/enums/QualificationType.md) </div>
 
 </div>
 

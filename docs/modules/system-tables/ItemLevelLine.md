@@ -34,7 +34,7 @@
 <div class="cell" data-label="Column">favouritesLevel2</div>
 <div class="cell" data-label="Arabic">المستوي 2</div>
 <div class="cell" data-label="English">Favourites Level 2</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) </div>
 
 </div>
 
@@ -43,7 +43,7 @@
 <div class="cell" data-label="Column">favouritesLevel3</div>
 <div class="cell" data-label="Arabic">المستوي 3</div>
 <div class="cell" data-label="English">Favourites Level 3</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) </div>
 
 </div>
 
@@ -52,7 +52,7 @@
 <div class="cell" data-label="Column">favouritesLevel4</div>
 <div class="cell" data-label="Arabic">المستوي 4</div>
 <div class="cell" data-label="English">Favourites Level 4</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) </div>
 
 </div>
 
@@ -61,7 +61,7 @@
 <div class="cell" data-label="Column">favouritesLevel5</div>
 <div class="cell" data-label="Arabic">المستوي 5</div>
 <div class="cell" data-label="English">Favourites Level 5</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) </div>
 
 </div>
 

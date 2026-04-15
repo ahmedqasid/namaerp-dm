@@ -274,7 +274,7 @@
 <div class="cell" data-label="Column">defaultPurchaseUOM</div>
 <div class="cell" data-label="Arabic">وحدة الشراء الافتراضية</div>
 <div class="cell" data-label="English">Default Purchase UOM</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DefaultUOM](/modules/enums/DefaultUOM.md) </div>
 
 </div>
 
@@ -283,7 +283,7 @@
 <div class="cell" data-label="Column">defaultSalesUOM</div>
 <div class="cell" data-label="Arabic">وحدة البيع الافتراضية</div>
 <div class="cell" data-label="English">Default Sales UOM</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DefaultUOM](/modules/enums/DefaultUOM.md) </div>
 
 </div>
 
@@ -370,7 +370,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -475,7 +475,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -592,7 +592,7 @@
 <div class="cell" data-label="Column">locatorPolicy</div>
 <div class="cell" data-label="Arabic">إستخدام الموقع</div>
 <div class="cell" data-label="English">Locator Usage</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -835,7 +835,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -895,7 +895,7 @@
 <div class="cell" data-label="Column">storageType</div>
 <div class="cell" data-label="Arabic">نوع التخزين</div>
 <div class="cell" data-label="English">Storage Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [StorageType](/modules/enums/StorageType.md) </div>
 
 </div>
 
@@ -1327,7 +1327,7 @@
 <div class="cell" data-label="Column">warehouseType</div>
 <div class="cell" data-label="Arabic">نوع المخزن</div>
 <div class="cell" data-label="English">Warehouse Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [WarehouseType](/modules/enums/WarehouseType.md) </div>
 
 </div>
 

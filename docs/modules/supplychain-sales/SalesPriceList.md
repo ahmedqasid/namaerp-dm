@@ -83,7 +83,7 @@
 <div class="cell" data-label="Column">appliedOnLines</div>
 <div class="cell" data-label="Arabic">يتم التطبيق على</div>
 <div class="cell" data-label="English">Applied on Lines</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PriceUpdaterApplicability](/modules/enums/PriceUpdaterApplicability.md) </div>
 
 </div>
 
@@ -149,7 +149,7 @@
 <div class="cell" data-label="Column">averageCostField</div>
 <div class="cell" data-label="Arabic">نسخ متوسط التكلفة إلى</div>
 <div class="cell" data-label="English">Average Cost Destination Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PriceUpdaterField](/modules/enums/PriceUpdaterField.md) </div>
 
 </div>
 
@@ -395,7 +395,7 @@
 <div class="cell" data-label="Column">destinationField</div>
 <div class="cell" data-label="Arabic">يؤثر في</div>
 <div class="cell" data-label="English">Destination Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PriceUpdaterField](/modules/enums/PriceUpdaterField.md) </div>
 
 </div>
 
@@ -404,7 +404,7 @@
 <div class="cell" data-label="Column">destinationField1</div>
 <div class="cell" data-label="Arabic">ناتج عملية 1 يؤثر في (يمكن تركه فارغا)</div>
 <div class="cell" data-label="English">Destination Field 1 (Optional)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PriceUpdaterField](/modules/enums/PriceUpdaterField.md) </div>
 
 </div>
 
@@ -413,7 +413,7 @@
 <div class="cell" data-label="Column">destinationField2</div>
 <div class="cell" data-label="Arabic">ناتج عملية 2 يؤثر في (يمكن تركه فارغا)</div>
 <div class="cell" data-label="English">Destination Field 2 (Optional)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PriceUpdaterField](/modules/enums/PriceUpdaterField.md) </div>
 
 </div>
 
@@ -422,7 +422,7 @@
 <div class="cell" data-label="Column">destinationField3</div>
 <div class="cell" data-label="Arabic">ناتج عملية 3 يؤثر في (يمكن تركه فارغا)</div>
 <div class="cell" data-label="English">Destination Field 3 (Optional)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PriceUpdaterField](/modules/enums/PriceUpdaterField.md) </div>
 
 </div>
 
@@ -431,7 +431,7 @@
 <div class="cell" data-label="Column">destinationField4</div>
 <div class="cell" data-label="Arabic">ناتج عملية 4 يؤثر في (يمكن تركه فارغا)</div>
 <div class="cell" data-label="English">Destination Field 4 (Optional)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PriceUpdaterField](/modules/enums/PriceUpdaterField.md) </div>
 
 </div>
 
@@ -461,7 +461,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -797,7 +797,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -1007,7 +1007,7 @@
 <div class="cell" data-label="Column">orderType</div>
 <div class="cell" data-label="Arabic">نوع الإذن</div>
 <div class="cell" data-label="English">Order Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [JobOrderType](/modules/enums/JobOrderType.md) </div>
 
 </div>
 
@@ -1094,7 +1094,7 @@
 <div class="cell" data-label="Column">priceUpdater1Operation</div>
 <div class="cell" data-label="Arabic">عملية</div>
 <div class="cell" data-label="English">Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OperationType](/modules/enums/OperationType.md) </div>
 
 </div>
 
@@ -1103,7 +1103,7 @@
 <div class="cell" data-label="Column">priceUpdater1RoundingType</div>
 <div class="cell" data-label="Arabic">نوع التقريب</div>
 <div class="cell" data-label="English">Rounding Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalesPriceRoundingType](/modules/enums/SalesPriceRoundingType.md) </div>
 
 </div>
 
@@ -1130,7 +1130,7 @@
 <div class="cell" data-label="Column">priceUpdater1ValueType</div>
 <div class="cell" data-label="Arabic">نوع القيمة</div>
 <div class="cell" data-label="English">Value Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ValueType](/modules/enums/ValueType.md) </div>
 
 </div>
 
@@ -1139,7 +1139,7 @@
 <div class="cell" data-label="Column">priceUpdater2Operation</div>
 <div class="cell" data-label="Arabic">عملية</div>
 <div class="cell" data-label="English">Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OperationType](/modules/enums/OperationType.md) </div>
 
 </div>
 
@@ -1148,7 +1148,7 @@
 <div class="cell" data-label="Column">priceUpdater2RoundingType</div>
 <div class="cell" data-label="Arabic">نوع التقريب</div>
 <div class="cell" data-label="English">Rounding Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalesPriceRoundingType](/modules/enums/SalesPriceRoundingType.md) </div>
 
 </div>
 
@@ -1175,7 +1175,7 @@
 <div class="cell" data-label="Column">priceUpdater2ValueType</div>
 <div class="cell" data-label="Arabic">نوع القيمة</div>
 <div class="cell" data-label="English">Value Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ValueType](/modules/enums/ValueType.md) </div>
 
 </div>
 
@@ -1184,7 +1184,7 @@
 <div class="cell" data-label="Column">priceUpdater3Operation</div>
 <div class="cell" data-label="Arabic">عملية</div>
 <div class="cell" data-label="English">Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OperationType](/modules/enums/OperationType.md) </div>
 
 </div>
 
@@ -1193,7 +1193,7 @@
 <div class="cell" data-label="Column">priceUpdater3RoundingType</div>
 <div class="cell" data-label="Arabic">نوع التقريب</div>
 <div class="cell" data-label="English">Rounding Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalesPriceRoundingType](/modules/enums/SalesPriceRoundingType.md) </div>
 
 </div>
 
@@ -1220,7 +1220,7 @@
 <div class="cell" data-label="Column">priceUpdater3ValueType</div>
 <div class="cell" data-label="Arabic">نوع القيمة</div>
 <div class="cell" data-label="English">Value Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ValueType](/modules/enums/ValueType.md) </div>
 
 </div>
 
@@ -1229,7 +1229,7 @@
 <div class="cell" data-label="Column">priceUpdater4Operation</div>
 <div class="cell" data-label="Arabic">عملية</div>
 <div class="cell" data-label="English">Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OperationType](/modules/enums/OperationType.md) </div>
 
 </div>
 
@@ -1238,7 +1238,7 @@
 <div class="cell" data-label="Column">priceUpdater4RoundingType</div>
 <div class="cell" data-label="Arabic">نوع التقريب</div>
 <div class="cell" data-label="English">Rounding Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalesPriceRoundingType](/modules/enums/SalesPriceRoundingType.md) </div>
 
 </div>
 
@@ -1265,7 +1265,7 @@
 <div class="cell" data-label="Column">priceUpdater4ValueType</div>
 <div class="cell" data-label="Arabic">نوع القيمة</div>
 <div class="cell" data-label="English">Value Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ValueType](/modules/enums/ValueType.md) </div>
 
 </div>
 
@@ -1274,7 +1274,7 @@
 <div class="cell" data-label="Column">priceUpdater5Operation</div>
 <div class="cell" data-label="Arabic">عملية</div>
 <div class="cell" data-label="English">Operation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OperationType](/modules/enums/OperationType.md) </div>
 
 </div>
 
@@ -1283,7 +1283,7 @@
 <div class="cell" data-label="Column">priceUpdater5RoundingType</div>
 <div class="cell" data-label="Arabic">نوع التقريب</div>
 <div class="cell" data-label="English">Rounding Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalesPriceRoundingType](/modules/enums/SalesPriceRoundingType.md) </div>
 
 </div>
 
@@ -1310,7 +1310,7 @@
 <div class="cell" data-label="Column">priceUpdater5ValueType</div>
 <div class="cell" data-label="Arabic">نوع القيمة</div>
 <div class="cell" data-label="English">Value Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ValueType](/modules/enums/ValueType.md) </div>
 
 </div>
 
@@ -1391,7 +1391,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1463,7 +1463,7 @@
 <div class="cell" data-label="Column">sourceField</div>
 <div class="cell" data-label="Arabic">مصدر السعر</div>
 <div class="cell" data-label="English">Source Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PriceUpdaterField](/modules/enums/PriceUpdaterField.md) </div>
 
 </div>
 

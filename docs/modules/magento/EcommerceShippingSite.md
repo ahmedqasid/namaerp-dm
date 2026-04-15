@@ -272,7 +272,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -377,7 +377,7 @@
 <div class="cell" data-label="Column">generatedSalesReturnSaveBehavior</div>
 <div class="cell" data-label="Arabic">طريقة حفظ مردود المبيعات المنشأ</div>
 <div class="cell" data-label="English">Generated Sales Return Save Behavior</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SysSaveBehavior](/modules/enums/SysSaveBehavior.md) </div>
 
 </div>
 
@@ -386,7 +386,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -689,7 +689,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -872,7 +872,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ShippingSiteType](/modules/enums/ShippingSiteType.md) </div>
 
 </div>
 
@@ -1045,7 +1045,7 @@
 <div class="cell" data-label="Column">changeDeliveryStatusTo</div>
 <div class="cell" data-label="Arabic">تغيير حالة التوصيل إلي</div>
 <div class="cell" data-label="English">Change Delivery Status To</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DeliveryStatus](/modules/enums/DeliveryStatus.md) </div>
 
 </div>
 

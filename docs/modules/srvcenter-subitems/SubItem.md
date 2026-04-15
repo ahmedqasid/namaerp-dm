@@ -467,7 +467,7 @@
 <div class="cell" data-label="Column">condition</div>
 <div class="cell" data-label="Arabic">حالة الاستخدام</div>
 <div class="cell" data-label="English">Condition</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubItemCondition](/modules/enums/SubItemCondition.md) </div>
 
 </div>
 
@@ -644,7 +644,7 @@
 <div class="cell" data-label="Column">deliveryStatus</div>
 <div class="cell" data-label="Arabic">حالة التسليم</div>
 <div class="cell" data-label="English">Delivery Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubItemDeliveryStatus](/modules/enums/SubItemDeliveryStatus.md) </div>
 
 </div>
 
@@ -731,7 +731,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -797,7 +797,7 @@
 <div class="cell" data-label="Column">extendedWarrantyPeriodUom</div>
 <div class="cell" data-label="Arabic">وحدة الضمان الممتدة</div>
 <div class="cell" data-label="English">Extended Warranty Period</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -890,7 +890,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -1205,7 +1205,7 @@
 <div class="cell" data-label="Column">mainStatus</div>
 <div class="cell" data-label="Arabic">الحالة الرئيسية</div>
 <div class="cell" data-label="English">Main Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MainStatusType](/modules/enums/MainStatusType.md) </div>
 
 </div>
 
@@ -1652,7 +1652,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1796,7 +1796,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubItemStatusType](/modules/enums/SubItemStatusType.md) </div>
 
 </div>
 
@@ -2069,7 +2069,7 @@
 <div class="cell" data-label="Column">wrnpdUom</div>
 <div class="cell" data-label="Arabic">وحدة الضمان</div>
 <div class="cell" data-label="English">Warranty UOM</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 

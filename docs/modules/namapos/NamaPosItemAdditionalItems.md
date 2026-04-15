@@ -299,7 +299,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -404,7 +404,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -452,7 +452,7 @@
 <div class="cell" data-label="Column">itemColorsDisplayMethod</div>
 <div class="cell" data-label="Arabic">طريقة عرض ألوان الصنف</div>
 <div class="cell" data-label="English">Item Colors Display Method</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ItemPropertiesDisplayMethod](/modules/enums/ItemPropertiesDisplayMethod.md) </div>
 
 </div>
 
@@ -470,7 +470,7 @@
 <div class="cell" data-label="Column">itemRevisionsDisplayMethod</div>
 <div class="cell" data-label="Arabic">طريقة عرض إصدارات الصنف</div>
 <div class="cell" data-label="English">Item Revisions Display Method</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ItemPropertiesDisplayMethod](/modules/enums/ItemPropertiesDisplayMethod.md) </div>
 
 </div>
 
@@ -488,7 +488,7 @@
 <div class="cell" data-label="Column">itemSizesDisplayMethod</div>
 <div class="cell" data-label="Arabic">طريقة عرض مقاسات الصنف</div>
 <div class="cell" data-label="English">Item Sizes Display Method</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ItemPropertiesDisplayMethod](/modules/enums/ItemPropertiesDisplayMethod.md) </div>
 
 </div>
 
@@ -746,7 +746,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1654,7 +1654,7 @@
 <div class="cell" data-label="Column">additionalItemsType</div>
 <div class="cell" data-label="Arabic">نوع الأصناف الإضافية</div>
 <div class="cell" data-label="English">Additional Items Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaPosAdditionalItemsType](/modules/enums/NamaPosAdditionalItemsType.md) </div>
 
 </div>
 

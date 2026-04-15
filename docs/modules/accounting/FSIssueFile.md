@@ -101,7 +101,7 @@
 <div class="cell" data-label="Column">comparisonType</div>
 <div class="cell" data-label="Arabic">نوع المقارنة</div>
 <div class="cell" data-label="English">Comparison Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSComparisonType](/modules/enums/FSComparisonType.md) </div>
 
 </div>
 
@@ -299,7 +299,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -506,7 +506,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -527,7 +527,7 @@
 <div class="cell" data-label="Column">group1By</div>
 <div class="cell" data-label="Arabic">التجميع 1 بـ</div>
 <div class="cell" data-label="English">Group 1 By</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSGroupBy](/modules/enums/FSGroupBy.md) </div>
 
 </div>
 
@@ -536,7 +536,7 @@
 <div class="cell" data-label="Column">group2By</div>
 <div class="cell" data-label="Arabic">التجميع 2 بـ</div>
 <div class="cell" data-label="English">Group 2 By</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSGroupBy](/modules/enums/FSGroupBy.md) </div>
 
 </div>
 
@@ -545,7 +545,7 @@
 <div class="cell" data-label="Column">group3By</div>
 <div class="cell" data-label="Arabic">التجميع 3 بـ</div>
 <div class="cell" data-label="English">Group 3 By</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSGroupBy](/modules/enums/FSGroupBy.md) </div>
 
 </div>
 
@@ -554,7 +554,7 @@
 <div class="cell" data-label="Column">group4By</div>
 <div class="cell" data-label="Arabic">التجميع 4 بـ</div>
 <div class="cell" data-label="English">Group 4 By</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSGroupBy](/modules/enums/FSGroupBy.md) </div>
 
 </div>
 
@@ -563,7 +563,7 @@
 <div class="cell" data-label="Column">group5By</div>
 <div class="cell" data-label="Arabic">التجميع 5 بـ</div>
 <div class="cell" data-label="English">Group 5 By</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSGroupBy](/modules/enums/FSGroupBy.md) </div>
 
 </div>
 
@@ -839,7 +839,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1242,7 +1242,7 @@
 <div class="cell" data-label="Column">level</div>
 <div class="cell" data-label="Arabic">المستوى</div>
 <div class="cell" data-label="English">Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FSLineLevel](/modules/enums/FSLineLevel.md) </div>
 
 </div>
 

@@ -294,7 +294,7 @@
 <div class="cell" data-label="Column">contractType</div>
 <div class="cell" data-label="Arabic">نوع العقد</div>
 <div class="cell" data-label="English">Contract Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [StudentContractType](/modules/enums/StudentContractType.md) </div>
 
 </div>
 
@@ -474,7 +474,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -525,7 +525,7 @@
 <div class="cell" data-label="Column">enrollmentState</div>
 <div class="cell" data-label="Arabic">حالة القيد</div>
 <div class="cell" data-label="English">Enrollment State</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EnrollmentStateType](/modules/enums/EnrollmentStateType.md) </div>
 
 </div>
 
@@ -573,7 +573,7 @@
 <div class="cell" data-label="Column">gender</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Gender</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Gender](/modules/enums/Gender.md) </div>
 
 </div>
 
@@ -609,7 +609,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -852,7 +852,7 @@
 <div class="cell" data-label="Column">programType</div>
 <div class="cell" data-label="Arabic">نوع البرنامج</div>
 <div class="cell" data-label="English">Program Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [StudentProgramType](/modules/enums/StudentProgramType.md) </div>
 
 </div>
 
@@ -906,7 +906,7 @@
 <div class="cell" data-label="Column">Religion</div>
 <div class="cell" data-label="Arabic">الديانة</div>
 <div class="cell" data-label="English">Religion</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Religion](/modules/enums/Religion.md) </div>
 
 </div>
 
@@ -924,7 +924,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 

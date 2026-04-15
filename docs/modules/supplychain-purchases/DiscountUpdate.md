@@ -53,7 +53,7 @@
 <div class="cell" data-label="Column">applyType</div>
 <div class="cell" data-label="Arabic">يحتسب من</div>
 <div class="cell" data-label="English">Calc. From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ApplyType](/modules/enums/ApplyType.md) </div>
 
 </div>
 
@@ -383,7 +383,7 @@
 <div class="cell" data-label="Column">discountLocation</div>
 <div class="cell" data-label="Arabic">وقت حساب التخفيض في الفاتورة</div>
 <div class="cell" data-label="English">Invoice discount apply on</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -425,7 +425,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -641,7 +641,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -941,7 +941,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1154,7 +1154,7 @@
 <div class="cell" data-label="Column">valueOrPercent</div>
 <div class="cell" data-label="Arabic">الخصم | النوع</div>
 <div class="cell" data-label="English">Discount | Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountType](/modules/enums/DiscountType.md) </div>
 
 </div>
 

@@ -987,7 +987,7 @@
 <div class="cell" data-label="Column">qtyTransType</div>
 <div class="cell" data-label="Arabic"> النوع</div>
 <div class="cell" data-label="English"> Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QtyTransType](/modules/enums/QtyTransType.md) </div>
 
 </div>
 

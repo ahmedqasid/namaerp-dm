@@ -34,7 +34,7 @@
 <div class="cell" data-label="Column">applyType</div>
 <div class="cell" data-label="Arabic">يحتسب من</div>
 <div class="cell" data-label="English">Calc. From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ApplyType](/modules/enums/ApplyType.md) </div>
 
 </div>
 
@@ -175,7 +175,7 @@
 <div class="cell" data-label="Column">discountLocation</div>
 <div class="cell" data-label="Arabic">وقت حساب التخفيض في الفاتورة</div>
 <div class="cell" data-label="English">Invoice discount apply on</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
 
 </div>
 
@@ -316,7 +316,7 @@
 <div class="cell" data-label="Column">valueOrPercent</div>
 <div class="cell" data-label="Arabic">الخصم | النوع</div>
 <div class="cell" data-label="English">Discount | Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountType](/modules/enums/DiscountType.md) </div>
 
 </div>
 

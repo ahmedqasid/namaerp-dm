@@ -32,7 +32,7 @@
 <div class="cell" data-label="Column">aggregationPeriodType</div>
 <div class="cell" data-label="Arabic">نوع فتره التجميع</div>
 <div class="cell" data-label="English">Aggregation Period Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MRPAggregationPeriodType](/modules/enums/MRPAggregationPeriodType.md) </div>
 
 </div>
 
@@ -326,7 +326,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -482,7 +482,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -650,7 +650,7 @@
 <div class="cell" data-label="Column">periodsCalcMethod</div>
 <div class="cell" data-label="Arabic">طريقة حساب فترات الSafty Stock</div>
 <div class="cell" data-label="English">Safety Stock Periods Calculation Method</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SafetyStockPeriodsCalcMethod](/modules/enums/SafetyStockPeriodsCalcMethod.md) </div>
 
 </div>
 
@@ -791,7 +791,7 @@
 <div class="cell" data-label="Column">reqQtyMethodType</div>
 <div class="cell" data-label="Arabic">نوع الحقل المتعامل عليه</div>
 <div class="cell" data-label="English">Sales Forecast Field Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReqQtyMethodType](/modules/enums/ReqQtyMethodType.md) </div>
 
 </div>
 
@@ -800,7 +800,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 

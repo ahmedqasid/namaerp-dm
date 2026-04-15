@@ -193,7 +193,7 @@
 <div class="cell" data-label="Column">delivStatus</div>
 <div class="cell" data-label="Arabic">حالة التوصيل</div>
 <div class="cell" data-label="English">deliveryStatus</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DeliveryStatus](/modules/enums/DeliveryStatus.md) </div>
 
 </div>
 
@@ -220,7 +220,7 @@
 <div class="cell" data-label="Column">drPeriodUom</div>
 <div class="cell" data-label="Arabic">معدل التوريد|نوع الفترة</div>
 <div class="cell" data-label="English">Delivery Rate|Period Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -1390,7 +1390,7 @@
 <div class="cell" data-label="Column">reservationStatus</div>
 <div class="cell" data-label="Arabic">حالة الحجز</div>
 <div class="cell" data-label="English">Reservation Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReservationStatus](/modules/enums/ReservationStatus.md) </div>
 
 </div>
 
@@ -1870,7 +1870,7 @@
 <div class="cell" data-label="Column">transItemType</div>
 <div class="cell" data-label="Arabic">نوع السطر</div>
 <div class="cell" data-label="English">Line Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TransLineItemType](/modules/enums/TransLineItemType.md) </div>
 
 </div>
 

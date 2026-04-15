@@ -177,7 +177,7 @@
 <div class="cell" data-label="Column">budgetExceededBehavior</div>
 <div class="cell" data-label="Arabic">عندما يتم تجاوز الموازانة</div>
 <div class="cell" data-label="English">Budget Exceeded Behavior</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [BudgetExceededBehavior](/modules/enums/BudgetExceededBehavior.md) </div>
 
 </div>
 
@@ -186,7 +186,7 @@
 <div class="cell" data-label="Column">chartClass</div>
 <div class="cell" data-label="Arabic">القسم</div>
 <div class="cell" data-label="English">Class</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccountChartClass](/modules/enums/AccountChartClass.md) </div>
 
 </div>
 
@@ -594,7 +594,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -699,7 +699,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -906,7 +906,7 @@
 <div class="cell" data-label="Column">naturalSide</div>
 <div class="cell" data-label="Arabic">طبيعة الجانب</div>
 <div class="cell" data-label="English">Natural Side</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LedgerEffectType](/modules/enums/LedgerEffectType.md) </div>
 
 </div>
 
@@ -1023,7 +1023,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1074,7 +1074,7 @@
 <div class="cell" data-label="Column">subsidiaryType</div>
 <div class="cell" data-label="Arabic">نوع الذمة</div>
 <div class="cell" data-label="English">Subsidiary Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubsidiaryType](/modules/enums/SubsidiaryType.md) </div>
 
 </div>
 
@@ -1083,7 +1083,7 @@
 <div class="cell" data-label="Column">subsidiaryType2</div>
 <div class="cell" data-label="Arabic">نوع الذمة 2</div>
 <div class="cell" data-label="English">Subsidiary Type 2</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubsidiaryType](/modules/enums/SubsidiaryType.md) </div>
 
 </div>
 
@@ -1092,7 +1092,7 @@
 <div class="cell" data-label="Column">subsidiaryType3</div>
 <div class="cell" data-label="Arabic">نوع الذمة 3</div>
 <div class="cell" data-label="English">Subsidiary Type 3</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubsidiaryType](/modules/enums/SubsidiaryType.md) </div>
 
 </div>
 
@@ -1101,7 +1101,7 @@
 <div class="cell" data-label="Column">subsidiaryType4</div>
 <div class="cell" data-label="Arabic">نوع الذمة 4</div>
 <div class="cell" data-label="English">Subsidiary Type 4</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubsidiaryType](/modules/enums/SubsidiaryType.md) </div>
 
 </div>
 
@@ -1110,7 +1110,7 @@
 <div class="cell" data-label="Column">subsidiaryType5</div>
 <div class="cell" data-label="Arabic">نوع الذمة 5</div>
 <div class="cell" data-label="English">Subsidiary Type 5</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubsidiaryType](/modules/enums/SubsidiaryType.md) </div>
 
 </div>
 
@@ -1146,7 +1146,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccountType](/modules/enums/AccountType.md) </div>
 
 </div>
 
@@ -1197,7 +1197,7 @@
 <div class="cell" data-label="Column">useInAccountsBag</div>
 <div class="cell" data-label="Arabic">يستخدم في حقيبة الحسابات</div>
 <div class="cell" data-label="English">Use In Accounts Bag</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubsidiaryAccountType](/modules/enums/SubsidiaryAccountType.md) </div>
 
 </div>
 

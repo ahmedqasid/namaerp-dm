@@ -32,7 +32,7 @@
 <div class="cell" data-label="Column">addDeliveryItemAutomaticallyInInv</div>
 <div class="cell" data-label="Arabic">إضافة صنف خدمة التوصيل تِلْقائيًا في الفاتورة</div>
 <div class="cell" data-label="English">Add Delivery Item Automatically In Invoice</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -41,7 +41,7 @@
 <div class="cell" data-label="Column">addDeliveryItemByInvoiceClassification</div>
 <div class="cell" data-label="Arabic">إضافة صنف التوصيل تلقائياً عند اختيار تصنيف الفاتورة</div>
 <div class="cell" data-label="English">Automatically Add Delivery Item When Selecting Invoice Classification</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -50,7 +50,7 @@
 <div class="cell" data-label="Column">addDeliveryItemWithCustomer</div>
 <div class="cell" data-label="Arabic">إضافة صنف خدمة التوصيل مع اختيار عميل</div>
 <div class="cell" data-label="English">Add Delivery Item When Selecting Customer</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -59,7 +59,7 @@
 <div class="cell" data-label="Column">addMinChargeItemByInvClassification</div>
 <div class="cell" data-label="Arabic">إضافة صنف الحد الأدنى تلقائياً عند اختيار تصنيف الفاتورة</div>
 <div class="cell" data-label="English">Automatically Add Minimum Charge Item When Selecting Invoice Classification</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -68,7 +68,7 @@
 <div class="cell" data-label="Column">addServiceItemAutomaticallyInInv</div>
 <div class="cell" data-label="Arabic">إضافة صنف الخدمة السياحية تِلْقائيًا في الفاتورة</div>
 <div class="cell" data-label="English">Add Service Item Automatically In Invoice</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -77,7 +77,7 @@
 <div class="cell" data-label="Column">addServiceItemByInvClassification</div>
 <div class="cell" data-label="Arabic">إضافة صنف الخدمة السياحية تلقائياً عند اختيار تصنيف الفاتورة</div>
 <div class="cell" data-label="English">Automatically Add Service Item When Selecting Invoice Classification</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -86,7 +86,7 @@
 <div class="cell" data-label="Column">addServiceItemWhenSelectingTable</div>
 <div class="cell" data-label="Arabic">إضافة صنف الخدمة السياحية تلقائياً عند اختيار طاولة</div>
 <div class="cell" data-label="English">Automatically Add Service Item When Selecting Table</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -95,7 +95,7 @@
 <div class="cell" data-label="Column">allowCustomerToOverpayByNonCash</div>
 <div class="cell" data-label="Arabic">السماح للعميل بالدفع بأكثر من صافي الفاتورة بطرق دفع غير نقدية</div>
 <div class="cell" data-label="English">Allow Customer To Overpay Invoice By Non-Cash Methods</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -590,7 +590,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -734,7 +734,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -890,7 +890,7 @@
 <div class="cell" data-label="Column">linesCollectionMethod</div>
 <div class="cell" data-label="Arabic">طريقة تجميع كميات سطور المبيعات</div>
 <div class="cell" data-label="English">Sales Lines Collection Method</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSLineCollectionMethod](/modules/enums/POSLineCollectionMethod.md) </div>
 
 </div>
 
@@ -959,7 +959,7 @@
 <div class="cell" data-label="Column">minChargeCalcType</div>
 <div class="cell" data-label="Arabic">الحد الأدنى للطلب يحسب من</div>
 <div class="cell" data-label="English">Minimum Charge Calculation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosServiceItemCalcType](/modules/enums/PosServiceItemCalcType.md) </div>
 
 </div>
 
@@ -1235,7 +1235,7 @@
 <div class="cell" data-label="Column">priceListDefaultPrice</div>
 <div class="cell" data-label="Arabic">السعر الافتراضي في قائمة الأسعار</div>
 <div class="cell" data-label="English">Price List Default Price</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PriceListDefaultPrice](/modules/enums/PriceListDefaultPrice.md) </div>
 
 </div>
 
@@ -1253,7 +1253,7 @@
 <div class="cell" data-label="Column">printPrepFormWithDelayPay</div>
 <div class="cell" data-label="Arabic">طباعة فورمة تحضير الاوردر مع تأجيل الدفع</div>
 <div class="cell" data-label="English">Print Preparation Form With Payment Delay</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosPrepFormPrintMethod](/modules/enums/PosPrepFormPrintMethod.md) </div>
 
 </div>
 
@@ -1262,7 +1262,7 @@
 <div class="cell" data-label="Column">printPrepFormWithHold</div>
 <div class="cell" data-label="Arabic">طباعة فورمة تحضير الاوردر مع تعليق الفاتوره</div>
 <div class="cell" data-label="English">Print Preparation Form With Hold</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosPrepFormPrintMethod](/modules/enums/PosPrepFormPrintMethod.md) </div>
 
 </div>
 
@@ -1271,7 +1271,7 @@
 <div class="cell" data-label="Column">printPrepFormWithPayment</div>
 <div class="cell" data-label="Arabic">طباعة فورمة تحضير الاوردر مع الدفع</div>
 <div class="cell" data-label="English">Print Preparation Form With Payment</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosPrepFormPrintMethod](/modules/enums/PosPrepFormPrintMethod.md) </div>
 
 </div>
 
@@ -1409,7 +1409,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1511,7 +1511,7 @@
 <div class="cell" data-label="Column">srvcServiceItemCalcType</div>
 <div class="cell" data-label="Arabic">الخدمة السياحية تحسب من</div>
 <div class="cell" data-label="English">Service Charge Calculated From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosServiceItemCalcType](/modules/enums/PosServiceItemCalcType.md) </div>
 
 </div>
 
@@ -1922,7 +1922,7 @@
 <div class="cell" data-label="Column">trackInvoiceRemovedLines</div>
 <div class="cell" data-label="Arabic">حفظ السطور المحذوفة من الفاتورة</div>
 <div class="cell" data-label="English">Track Invoice Removed Lines</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -2505,7 +2505,7 @@
 <div class="cell" data-label="Column">favouritesLevel2</div>
 <div class="cell" data-label="Arabic">المستوي 2</div>
 <div class="cell" data-label="English">Favourites Level 2</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) </div>
 
 </div>
 
@@ -2514,7 +2514,7 @@
 <div class="cell" data-label="Column">favouritesLevel3</div>
 <div class="cell" data-label="Arabic">المستوي 3</div>
 <div class="cell" data-label="English">Favourites Level 3</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) </div>
 
 </div>
 
@@ -2523,7 +2523,7 @@
 <div class="cell" data-label="Column">favouritesLevel4</div>
 <div class="cell" data-label="Arabic">المستوي 4</div>
 <div class="cell" data-label="English">Favourites Level 4</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) </div>
 
 </div>
 
@@ -2532,7 +2532,7 @@
 <div class="cell" data-label="Column">favouritesLevel5</div>
 <div class="cell" data-label="Arabic">المستوي 5</div>
 <div class="cell" data-label="English">Favourites Level 5</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) </div>
 
 </div>
 
@@ -2790,7 +2790,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSPaymentDocType](/modules/enums/POSPaymentDocType.md) </div>
 
 </div>
 
@@ -2927,7 +2927,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesReturnType](/modules/enums/POSSalesReturnType.md) </div>
 
 </div>
 
@@ -2936,7 +2936,7 @@
 <div class="cell" data-label="Column">withSubsidiary</div>
 <div class="cell" data-label="Arabic">به ذمه</div>
 <div class="cell" data-label="English">With Subsidiary</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNo](/modules/enums/YesNo.md) </div>
 
 </div>
 
@@ -3009,7 +3009,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesInvoiceType](/modules/enums/POSSalesInvoiceType.md) </div>
 
 </div>
 
@@ -3018,7 +3018,7 @@
 <div class="cell" data-label="Column">withSubsidiary</div>
 <div class="cell" data-label="Arabic">به ذمه</div>
 <div class="cell" data-label="English">With Subsidiary</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNo](/modules/enums/YesNo.md) </div>
 
 </div>
 

@@ -192,7 +192,7 @@
 <div class="cell" data-label="Column">controlValuesOpen</div>
 <div class="cell" data-label="Arabic">Control Values Open</div>
 <div class="cell" data-label="English">Control Values Open</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoAnswer](/modules/enums/YesNoAnswer.md) </div>
 
 </div>
 
@@ -381,7 +381,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -492,7 +492,7 @@
 <div class="cell" data-label="Column">fittingConforms</div>
 <div class="cell" data-label="Arabic">Fitting Conforms</div>
 <div class="cell" data-label="English">Fitting Conforms</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoAnswer](/modules/enums/YesNoAnswer.md) </div>
 
 </div>
 
@@ -564,7 +564,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -582,7 +582,7 @@
 <div class="cell" data-label="Column">hydrantsOperate</div>
 <div class="cell" data-label="Arabic">Hydrants Operate</div>
 <div class="cell" data-label="English">Hydrants Operate</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoAnswer](/modules/enums/YesNoAnswer.md) </div>
 
 </div>
 
@@ -627,7 +627,7 @@
 <div class="cell" data-label="Column">jointsCovered</div>
 <div class="cell" data-label="Arabic">Joints Covered</div>
 <div class="cell" data-label="English">Joints Covered</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoAnswer](/modules/enums/YesNoAnswer.md) </div>
 
 </div>
 
@@ -636,7 +636,7 @@
 <div class="cell" data-label="Column">jointsNeeded</div>
 <div class="cell" data-label="Arabic">Joints Needed</div>
 <div class="cell" data-label="English">Joints Needed</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoAnswer](/modules/enums/YesNoAnswer.md) </div>
 
 </div>
 
@@ -804,7 +804,7 @@
 <div class="cell" data-label="Column">pipeConforms</div>
 <div class="cell" data-label="Arabic">Pipe Conforms</div>
 <div class="cell" data-label="English">Pipe Conforms</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoAnswer](/modules/enums/YesNoAnswer.md) </div>
 
 </div>
 
@@ -963,7 +963,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 

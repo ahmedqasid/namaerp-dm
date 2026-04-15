@@ -97,7 +97,7 @@
 <div class="cell" data-label="Column">operationType</div>
 <div class="cell" data-label="Arabic">نوع الإجراء</div>
 <div class="cell" data-label="English">Operation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MagentoOperationType](/modules/enums/MagentoOperationType.md) </div>
 
 </div>
 

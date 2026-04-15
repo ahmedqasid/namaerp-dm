@@ -27,7 +27,7 @@
 <div class="cell" data-label="Column">activeIssuePolicy</div>
 <div class="cell" data-label="Arabic">السياسة في السحب</div>
 <div class="cell" data-label="English">Issue Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -36,7 +36,7 @@
 <div class="cell" data-label="Column">activeReceiptPolicy</div>
 <div class="cell" data-label="Arabic">السياسة في الإستلام</div>
 <div class="cell" data-label="English">Receipt Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -171,7 +171,7 @@
 <div class="cell" data-label="Column">clrIssuePolicy</div>
 <div class="cell" data-label="Arabic">السياسة في السحب</div>
 <div class="cell" data-label="English">Issue Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -180,7 +180,7 @@
 <div class="cell" data-label="Column">clrReceiptPolicy</div>
 <div class="cell" data-label="Arabic">السياسة في الإستلام</div>
 <div class="cell" data-label="English">Receipt Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -486,7 +486,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -591,7 +591,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -738,7 +738,7 @@
 <div class="cell" data-label="Column">inactiveIssuePolicy</div>
 <div class="cell" data-label="Arabic">السياسة في السحب</div>
 <div class="cell" data-label="English">Issue Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -747,7 +747,7 @@
 <div class="cell" data-label="Column">inactiveReceiptPolicy</div>
 <div class="cell" data-label="Arabic">السياسة في الإستلام</div>
 <div class="cell" data-label="English">Receipt Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -792,7 +792,7 @@
 <div class="cell" data-label="Column">itemType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ItemType](/modules/enums/ItemType.md) </div>
 
 </div>
 
@@ -858,7 +858,7 @@
 <div class="cell" data-label="Column">ltIssuePolicy</div>
 <div class="cell" data-label="Arabic">السياسة في السحب</div>
 <div class="cell" data-label="English">Issue Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -867,7 +867,7 @@
 <div class="cell" data-label="Column">ltReceiptPolicy</div>
 <div class="cell" data-label="Arabic">السياسة في الإستلام</div>
 <div class="cell" data-label="English">Receipt Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -915,7 +915,7 @@
 <div class="cell" data-label="Column">meIssuePolicy</div>
 <div class="cell" data-label="Arabic">السياسة في السحب</div>
 <div class="cell" data-label="English">Issue Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -924,7 +924,7 @@
 <div class="cell" data-label="Column">meReceiptPolicy</div>
 <div class="cell" data-label="Arabic">السياسة في الإستلام</div>
 <div class="cell" data-label="English">Receipt Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -1014,7 +1014,7 @@
 <div class="cell" data-label="Column">overDraftPolicy</div>
 <div class="cell" data-label="Arabic">إمكانية السحب على المكشوف</div>
 <div class="cell" data-label="English">Over Draft Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -1023,7 +1023,7 @@
 <div class="cell" data-label="Column">packIssuePolicy</div>
 <div class="cell" data-label="Arabic">السياسة في السحب</div>
 <div class="cell" data-label="English">Issue Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -1032,7 +1032,7 @@
 <div class="cell" data-label="Column">packReceiptPolicy</div>
 <div class="cell" data-label="Arabic">السياسة في الإستلام</div>
 <div class="cell" data-label="English">Receipt Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -1167,7 +1167,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1197,7 +1197,7 @@
 <div class="cell" data-label="Column">rvIssuePolicy</div>
 <div class="cell" data-label="Arabic">السياسة في السحب</div>
 <div class="cell" data-label="English">Issue Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -1206,7 +1206,7 @@
 <div class="cell" data-label="Column">rvReceiptPolicy</div>
 <div class="cell" data-label="Arabic">السياسة في الإستلام</div>
 <div class="cell" data-label="English">Receipt Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -1263,7 +1263,7 @@
 <div class="cell" data-label="Column">srIssuePolicy</div>
 <div class="cell" data-label="Arabic">السياسة في السحب</div>
 <div class="cell" data-label="English">Issue Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -1272,7 +1272,7 @@
 <div class="cell" data-label="Column">srReceiptPolicy</div>
 <div class="cell" data-label="Arabic">السياسة في الإستلام</div>
 <div class="cell" data-label="English">Receipt Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -1299,7 +1299,7 @@
 <div class="cell" data-label="Column">szIssuePolicy</div>
 <div class="cell" data-label="Arabic">السياسة في السحب</div>
 <div class="cell" data-label="English">Issue Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -1308,7 +1308,7 @@
 <div class="cell" data-label="Column">szReceiptPolicy</div>
 <div class="cell" data-label="Arabic">السياسة في الإستلام</div>
 <div class="cell" data-label="English">Receipt Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -1335,7 +1335,7 @@
 <div class="cell" data-label="Column">subItemIssuePolicy</div>
 <div class="cell" data-label="Arabic">السياسة في السحب</div>
 <div class="cell" data-label="English">Issue Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -1344,7 +1344,7 @@
 <div class="cell" data-label="Column">subItemReceiptPolicy</div>
 <div class="cell" data-label="Arabic">السياسة في الإستلام</div>
 <div class="cell" data-label="English">Receipt Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DimensionPolicy](/modules/enums/DimensionPolicy.md) </div>
 
 </div>
 
@@ -1392,7 +1392,7 @@
 <div class="cell" data-label="Column">trackCostOnAnalysisSet</div>
 <div class="cell" data-label="Arabic">متابعة التكلفة على المجموعة التحليلية</div>
 <div class="cell" data-label="English">Track Cost On Analysis Set</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -1401,7 +1401,7 @@
 <div class="cell" data-label="Column">trackCostOnBranch</div>
 <div class="cell" data-label="Arabic">متابعة التكلفة على الفرع</div>
 <div class="cell" data-label="English">Track Cost On Branch</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -1410,7 +1410,7 @@
 <div class="cell" data-label="Column">trackCostOnDepartment</div>
 <div class="cell" data-label="Arabic">متابعة التكلفة على الإدارة</div>
 <div class="cell" data-label="English">Track Cost On Department</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -1419,7 +1419,7 @@
 <div class="cell" data-label="Column">trackCostOnSector</div>
 <div class="cell" data-label="Arabic">متابعة التكلفة على القطاع</div>
 <div class="cell" data-label="English">Track Cost On Sector</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -1437,7 +1437,7 @@
 <div class="cell" data-label="Column">trackQtyOnAnalysisSet</div>
 <div class="cell" data-label="Arabic">متابعة الكمية على المجموعة التحليلية</div>
 <div class="cell" data-label="English">Track Qty On Analysis Set</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -1446,7 +1446,7 @@
 <div class="cell" data-label="Column">trackQtyOnBranch</div>
 <div class="cell" data-label="Arabic">متابعة الكمية على الفرع</div>
 <div class="cell" data-label="English">Track Qty On Branch</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -1455,7 +1455,7 @@
 <div class="cell" data-label="Column">trackQtyOnDepartment</div>
 <div class="cell" data-label="Arabic">متابعة الكمية على الإدارة</div>
 <div class="cell" data-label="English">Track Qty On Department</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 
@@ -1464,7 +1464,7 @@
 <div class="cell" data-label="Column">trackQtyOnSector</div>
 <div class="cell" data-label="Arabic">متابعة الكمية على القطاع</div>
 <div class="cell" data-label="English">Track Qty On Sector</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [YesNoInheritedPolicy](/modules/enums/YesNoInheritedPolicy.md) </div>
 
 </div>
 

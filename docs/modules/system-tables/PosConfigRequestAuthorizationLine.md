@@ -25,7 +25,7 @@
 <div class="cell" data-label="Column">capability</div>
 <div class="cell" data-label="Arabic">الصلاحية</div>
 <div class="cell" data-label="English">Capability</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSecurityCapability](/modules/enums/POSSecurityCapability.md) </div>
 
 </div>
 

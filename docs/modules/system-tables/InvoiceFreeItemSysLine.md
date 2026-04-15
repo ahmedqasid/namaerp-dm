@@ -364,7 +364,7 @@
 <div class="cell" data-label="Column">freePolicy</div>
 <div class="cell" data-label="Arabic"> السياسة</div>
 <div class="cell" data-label="English"> Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FreeOfferPolicy](/modules/enums/FreeOfferPolicy.md) </div>
 
 </div>
 
@@ -424,7 +424,7 @@
 <div class="cell" data-label="Column">replacePolicy</div>
 <div class="cell" data-label="Arabic">سياسة الإستبدال</div>
 <div class="cell" data-label="English">Replacement Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OfferReplacementPolicy](/modules/enums/OfferReplacementPolicy.md) </div>
 
 </div>
 

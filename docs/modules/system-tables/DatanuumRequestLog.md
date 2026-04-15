@@ -82,7 +82,7 @@
 <div class="cell" data-label="Column">requestType</div>
 <div class="cell" data-label="Arabic">نوع الطلب</div>
 <div class="cell" data-label="English">Reqyest Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DatanuumRequestType](/modules/enums/DatanuumRequestType.md) </div>
 
 </div>
 
@@ -100,7 +100,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DatanuumResponseStatus](/modules/enums/DatanuumResponseStatus.md) </div>
 
 </div>
 

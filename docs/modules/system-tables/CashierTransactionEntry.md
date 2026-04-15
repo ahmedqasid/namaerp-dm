@@ -103,7 +103,7 @@
 <div class="cell" data-label="Column">paymentMethodType</div>
 <div class="cell" data-label="Arabic">نوع طريقة الدفع</div>
 <div class="cell" data-label="English">Payment Method Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PaymentMethodType](/modules/enums/PaymentMethodType.md) </div>
 
 </div>
 

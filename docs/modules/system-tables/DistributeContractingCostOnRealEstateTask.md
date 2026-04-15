@@ -43,7 +43,7 @@
 <div class="cell" data-label="Column">distributeCostType</div>
 <div class="cell" data-label="Arabic">نوع توزيع التكلفة</div>
 <div class="cell" data-label="English">Distribute Cost Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DistributeCostType](/modules/enums/DistributeCostType.md) </div>
 
 </div>
 
@@ -115,7 +115,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaskStatus](/modules/enums/TaskStatus.md) </div>
 
 </div>
 

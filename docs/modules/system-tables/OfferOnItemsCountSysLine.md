@@ -157,7 +157,7 @@
 <div class="cell" data-label="Column">discLocation</div>
 <div class="cell" data-label="Arabic">مكان التخفيض</div>
 <div class="cell" data-label="English">Discount Location</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountLocationWithHeader](/modules/enums/DiscountLocationWithHeader.md) </div>
 
 </div>
 
@@ -202,7 +202,7 @@
 <div class="cell" data-label="Column">freeItemClassification</div>
 <div class="cell" data-label="Arabic">الصنف المجاني</div>
 <div class="cell" data-label="English">Free Item Classification</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalesOfferFreeItemClassification](/modules/enums/SalesOfferFreeItemClassification.md) </div>
 
 </div>
 
@@ -232,7 +232,7 @@
 <div class="cell" data-label="Column">freePolicy</div>
 <div class="cell" data-label="Arabic"> السياسة</div>
 <div class="cell" data-label="English"> Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FreeOfferPolicy](/modules/enums/FreeOfferPolicy.md) </div>
 
 </div>
 
@@ -409,7 +409,7 @@
 <div class="cell" data-label="Column">itemsCountMechanism</div>
 <div class="cell" data-label="Arabic">آلية احتساب عدد الأصناف</div>
 <div class="cell" data-label="English">Items Count Mechanism</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OfferItemsCountMechanism](/modules/enums/OfferItemsCountMechanism.md) </div>
 
 </div>
 
@@ -439,7 +439,7 @@
 <div class="cell" data-label="Column">multiplePolicyMechanism</div>
 <div class="cell" data-label="Arabic">آلية سياسة المضاعفات</div>
 <div class="cell" data-label="English">Multiple Policy Mechanism</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OfferMultiplePolicyMechanism](/modules/enums/OfferMultiplePolicyMechanism.md) </div>
 
 </div>
 

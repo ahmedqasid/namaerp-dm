@@ -43,7 +43,7 @@
 <div class="cell" data-label="Column">namaDayOfWeek1</div>
 <div class="cell" data-label="Arabic">اليوم 1</div>
 <div class="cell" data-label="English">Day of Week 1</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaDayOfWeek](/modules/enums/NamaDayOfWeek.md) </div>
 
 </div>
 
@@ -52,7 +52,7 @@
 <div class="cell" data-label="Column">namaDayOfWeek2</div>
 <div class="cell" data-label="Arabic">اليوم 2</div>
 <div class="cell" data-label="English">Day of Week 2</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaDayOfWeek](/modules/enums/NamaDayOfWeek.md) </div>
 
 </div>
 
@@ -61,7 +61,7 @@
 <div class="cell" data-label="Column">namaDayOfWeek3</div>
 <div class="cell" data-label="Arabic">اليوم 3</div>
 <div class="cell" data-label="English">Day of Week 3</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaDayOfWeek](/modules/enums/NamaDayOfWeek.md) </div>
 
 </div>
 
@@ -70,7 +70,7 @@
 <div class="cell" data-label="Column">namaDayOfWeek4</div>
 <div class="cell" data-label="Arabic">اليوم 4</div>
 <div class="cell" data-label="English">Day of Week 4</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaDayOfWeek](/modules/enums/NamaDayOfWeek.md) </div>
 
 </div>
 
@@ -79,7 +79,7 @@
 <div class="cell" data-label="Column">namaDayOfWeek5</div>
 <div class="cell" data-label="Arabic">اليوم 5</div>
 <div class="cell" data-label="English">Day of Week 5</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaDayOfWeek](/modules/enums/NamaDayOfWeek.md) </div>
 
 </div>
 
@@ -88,7 +88,7 @@
 <div class="cell" data-label="Column">namaDayOfWeek6</div>
 <div class="cell" data-label="Arabic">اليوم 6</div>
 <div class="cell" data-label="English">Day of Week 6</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaDayOfWeek](/modules/enums/NamaDayOfWeek.md) </div>
 
 </div>
 
@@ -97,7 +97,7 @@
 <div class="cell" data-label="Column">namaDayOfWeek7</div>
 <div class="cell" data-label="Arabic">اليوم 7</div>
 <div class="cell" data-label="English">Day of Week 7</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaDayOfWeek](/modules/enums/NamaDayOfWeek.md) </div>
 
 </div>
 

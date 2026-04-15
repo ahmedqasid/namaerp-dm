@@ -127,7 +127,7 @@
 <div class="cell" data-label="Column">messageType</div>
 <div class="cell" data-label="Arabic">Message Type</div>
 <div class="cell" data-label="English">Message Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ChatMessageType](/modules/enums/ChatMessageType.md) </div>
 
 </div>
 
@@ -172,7 +172,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ChatMessageStatus](/modules/enums/ChatMessageStatus.md) </div>
 
 </div>
 

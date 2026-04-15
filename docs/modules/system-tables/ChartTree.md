@@ -37,7 +37,7 @@
 <div class="cell" data-label="Column">chartClass</div>
 <div class="cell" data-label="Arabic">القسم</div>
 <div class="cell" data-label="English">Class</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccountChartClass](/modules/enums/AccountChartClass.md) </div>
 
 </div>
 
@@ -121,7 +121,7 @@
 <div class="cell" data-label="Column">naturalSide</div>
 <div class="cell" data-label="Arabic">طبيعة الجانب</div>
 <div class="cell" data-label="English">Natural Side</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LedgerEffectType](/modules/enums/LedgerEffectType.md) </div>
 
 </div>
 

@@ -88,7 +88,7 @@
 <div class="cell" data-label="Column">outMovementType</div>
 <div class="cell" data-label="Arabic">نوع حركة الخروج</div>
 <div class="cell" data-label="English">Out Movement Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DMSOutMovementType](/modules/enums/DMSOutMovementType.md) </div>
 
 </div>
 
@@ -136,7 +136,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DMSMovementType](/modules/enums/DMSMovementType.md) </div>
 
 </div>
 

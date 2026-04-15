@@ -374,7 +374,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -479,7 +479,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -833,7 +833,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -893,7 +893,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FacilityLimtType](/modules/enums/FacilityLimtType.md) </div>
 
 </div>
 
@@ -1116,7 +1116,7 @@
 <div class="cell" data-label="Column">description</div>
 <div class="cell" data-label="Arabic">الوصف</div>
 <div class="cell" data-label="English">Description</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FacilityDescription](/modules/enums/FacilityDescription.md) </div>
 
 </div>
 
@@ -1311,7 +1311,7 @@
 <div class="cell" data-label="Column">facilityType</div>
 <div class="cell" data-label="Arabic">نوع التسهيلات</div>
 <div class="cell" data-label="English">Facility Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FacilityType](/modules/enums/FacilityType.md) </div>
 
 </div>
 
@@ -1347,7 +1347,7 @@
 <div class="cell" data-label="Column">guaranteeType</div>
 <div class="cell" data-label="Arabic">خطاب الضمان</div>
 <div class="cell" data-label="English">Letter Of Guarantee</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GuaranteeType](/modules/enums/GuaranteeType.md) </div>
 
 </div>
 
@@ -1602,7 +1602,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FacilityLimtType](/modules/enums/FacilityLimtType.md) </div>
 
 </div>
 

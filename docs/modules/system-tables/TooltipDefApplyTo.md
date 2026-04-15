@@ -25,7 +25,7 @@
 <div class="cell" data-label="Column">allowDisallow</div>
 <div class="cell" data-label="Arabic">سماح - منع</div>
 <div class="cell" data-label="English">Allow - Disallow</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TooltipDefApplyToRange](/modules/enums/TooltipDefApplyToRange.md) </div>
 
 </div>
 

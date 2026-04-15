@@ -656,7 +656,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -779,7 +779,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -1853,7 +1853,7 @@
 <div class="cell" data-label="Column">repOutputFormat</div>
 <div class="cell" data-label="Arabic">تنسيق الملف المرفق</div>
 <div class="cell" data-label="English">Attached File Format</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RepOutputFormat](/modules/enums/RepOutputFormat.md) </div>
 
 </div>
 
@@ -1883,7 +1883,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1949,7 +1949,7 @@
 <div class="cell" data-label="Column">runOnType</div>
 <div class="cell" data-label="Arabic">تنفيذ كل (وحده)</div>
 <div class="cell" data-label="English">Run Every (Unit)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -2021,7 +2021,7 @@
 <div class="cell" data-label="Column">scheduleType</div>
 <div class="cell" data-label="Arabic">نوع المهمة</div>
 <div class="cell" data-label="English">Task Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ScheduleType](/modules/enums/ScheduleType.md) </div>
 
 </div>
 
@@ -2129,7 +2129,7 @@
 <div class="cell" data-label="Column">copyEmailFrom</div>
 <div class="cell" data-label="Arabic">نسخ الايميل من</div>
 <div class="cell" data-label="English">Copy Email From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CopyTemplateFrom](/modules/enums/CopyTemplateFrom.md) </div>
 
 </div>
 
@@ -2138,7 +2138,7 @@
 <div class="cell" data-label="Column">copyNotificationFrom</div>
 <div class="cell" data-label="Arabic">نسخ التنبيهات من</div>
 <div class="cell" data-label="English">Copy Notification From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CopyTemplateFrom](/modules/enums/CopyTemplateFrom.md) </div>
 
 </div>
 
@@ -2147,7 +2147,7 @@
 <div class="cell" data-label="Column">copySMSFrom</div>
 <div class="cell" data-label="Arabic">نسخ الرسائل من</div>
 <div class="cell" data-label="English">Copy SMS From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CopyTemplateFrom](/modules/enums/CopyTemplateFrom.md) </div>
 
 </div>
 
@@ -2444,7 +2444,7 @@
 <div class="cell" data-label="Column">viewingFormat</div>
 <div class="cell" data-label="Arabic">نسق المطالعة</div>
 <div class="cell" data-label="English">Viewing Format</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RepOutputFormat](/modules/enums/RepOutputFormat.md) </div>
 
 </div>
 

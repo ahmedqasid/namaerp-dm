@@ -500,7 +500,7 @@
 <div class="cell" data-label="Column">currentStatusType</div>
 <div class="cell" data-label="Arabic">نوع الحالة الحالية</div>
 <div class="cell" data-label="English">Current Status Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnCurrentStatusType](/modules/enums/MnCurrentStatusType.md) </div>
 
 </div>
 
@@ -716,7 +716,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -863,7 +863,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -1667,7 +1667,7 @@
 <div class="cell" data-label="Column">orderType</div>
 <div class="cell" data-label="Arabic">نوع الإذن</div>
 <div class="cell" data-label="English">Order Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnOrderType](/modules/enums/MnOrderType.md) </div>
 
 </div>
 
@@ -1964,7 +1964,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -3263,7 +3263,7 @@
 <div class="cell" data-label="Column">statusType</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnStatusType](/modules/enums/MnStatusType.md) </div>
 
 </div>
 
@@ -3530,7 +3530,7 @@
 <div class="cell" data-label="Column">visitType1</div>
 <div class="cell" data-label="Arabic">نوع الزيارة 1</div>
 <div class="cell" data-label="English">Visit Type 1</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnVisitType](/modules/enums/MnVisitType.md) </div>
 
 </div>
 
@@ -3539,7 +3539,7 @@
 <div class="cell" data-label="Column">visitType2</div>
 <div class="cell" data-label="Arabic">نوع الزيارة 2</div>
 <div class="cell" data-label="English">Visit Type 2</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnVisitType](/modules/enums/MnVisitType.md) </div>
 
 </div>
 
@@ -3548,7 +3548,7 @@
 <div class="cell" data-label="Column">visitType3</div>
 <div class="cell" data-label="Arabic">نوع الزيارة 3</div>
 <div class="cell" data-label="English">Visit Type 3</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnVisitType](/modules/enums/MnVisitType.md) </div>
 
 </div>
 
@@ -3557,7 +3557,7 @@
 <div class="cell" data-label="Column">visitType4</div>
 <div class="cell" data-label="Arabic">نوع الزيارة 4</div>
 <div class="cell" data-label="English">Visit Type 4</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnVisitType](/modules/enums/MnVisitType.md) </div>
 
 </div>
 
@@ -3566,7 +3566,7 @@
 <div class="cell" data-label="Column">visitType5</div>
 <div class="cell" data-label="Arabic">نوع الزيارة 5</div>
 <div class="cell" data-label="English">Visit Type 5</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnVisitType](/modules/enums/MnVisitType.md) </div>
 
 </div>
 
@@ -3575,7 +3575,7 @@
 <div class="cell" data-label="Column">visitType6</div>
 <div class="cell" data-label="Arabic">نوع الزيارة 6</div>
 <div class="cell" data-label="English">Visit Type 6</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnVisitType](/modules/enums/MnVisitType.md) </div>
 
 </div>
 
@@ -3584,7 +3584,7 @@
 <div class="cell" data-label="Column">visitType7</div>
 <div class="cell" data-label="Arabic">نوع الزيارة 7</div>
 <div class="cell" data-label="English">Visit Type 7</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnVisitType](/modules/enums/MnVisitType.md) </div>
 
 </div>
 
@@ -3644,7 +3644,7 @@
 <div class="cell" data-label="Column">warrantyUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -5283,7 +5283,7 @@
 <div class="cell" data-label="Column">executionStatus</div>
 <div class="cell" data-label="Arabic">حالة سند التنفيذ</div>
 <div class="cell" data-label="English">Order Execution Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnOrderExeStatus](/modules/enums/MnOrderExeStatus.md) </div>
 
 </div>
 
@@ -5730,7 +5730,7 @@
 <div class="cell" data-label="Column">visitType</div>
 <div class="cell" data-label="Arabic">نوع الزيارة</div>
 <div class="cell" data-label="English">Visit Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnVisitType](/modules/enums/MnVisitType.md) </div>
 
 </div>
 
@@ -5739,7 +5739,7 @@
 <div class="cell" data-label="Column">visitType1</div>
 <div class="cell" data-label="Arabic">نوع الزيارة 1</div>
 <div class="cell" data-label="English">Visit Type 1</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnVisitType](/modules/enums/MnVisitType.md) </div>
 
 </div>
 
@@ -5748,7 +5748,7 @@
 <div class="cell" data-label="Column">visitType2</div>
 <div class="cell" data-label="Arabic">نوع الزيارة 2</div>
 <div class="cell" data-label="English">Visit Type 2</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnVisitType](/modules/enums/MnVisitType.md) </div>
 
 </div>
 
@@ -5757,7 +5757,7 @@
 <div class="cell" data-label="Column">visitType3</div>
 <div class="cell" data-label="Arabic">نوع الزيارة 3</div>
 <div class="cell" data-label="English">Visit Type 3</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnVisitType](/modules/enums/MnVisitType.md) </div>
 
 </div>
 
@@ -5766,7 +5766,7 @@
 <div class="cell" data-label="Column">visitType4</div>
 <div class="cell" data-label="Arabic">نوع الزيارة 4</div>
 <div class="cell" data-label="English">Visit Type 4</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnVisitType](/modules/enums/MnVisitType.md) </div>
 
 </div>
 
@@ -5775,7 +5775,7 @@
 <div class="cell" data-label="Column">visitType5</div>
 <div class="cell" data-label="Arabic">نوع الزيارة 5</div>
 <div class="cell" data-label="English">Visit Type 5</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnVisitType](/modules/enums/MnVisitType.md) </div>
 
 </div>
 
@@ -5784,7 +5784,7 @@
 <div class="cell" data-label="Column">visitType6</div>
 <div class="cell" data-label="Arabic">نوع الزيارة 6</div>
 <div class="cell" data-label="English">Visit Type 6</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnVisitType](/modules/enums/MnVisitType.md) </div>
 
 </div>
 
@@ -5793,7 +5793,7 @@
 <div class="cell" data-label="Column">visitType7</div>
 <div class="cell" data-label="Arabic">نوع الزيارة 7</div>
 <div class="cell" data-label="English">Visit Type 7</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MnVisitType](/modules/enums/MnVisitType.md) </div>
 
 </div>
 
@@ -5829,7 +5829,7 @@
 <div class="cell" data-label="Column">warrantyUom</div>
 <div class="cell" data-label="Arabic">مدة الضمان | وحدة</div>
 <div class="cell" data-label="English">Warranty Period | UOM</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -8041,7 +8041,7 @@
 <div class="cell" data-label="Column">warrantyPeriodUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 

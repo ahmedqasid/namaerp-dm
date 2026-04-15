@@ -79,7 +79,7 @@
 <div class="cell" data-label="Column">carType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CarType](/modules/enums/CarType.md) </div>
 
 </div>
 
@@ -97,7 +97,7 @@
 <div class="cell" data-label="Column">color</div>
 <div class="cell" data-label="Arabic">اللون</div>
 <div class="cell" data-label="English">Color</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Color](/modules/enums/Color.md) </div>
 
 </div>
 
@@ -124,7 +124,7 @@
 <div class="cell" data-label="Column">maintenanceType</div>
 <div class="cell" data-label="Arabic">نوع  الصيانة</div>
 <div class="cell" data-label="English">Maintenance  type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MaintenanceType](/modules/enums/MaintenanceType.md) </div>
 
 </div>
 

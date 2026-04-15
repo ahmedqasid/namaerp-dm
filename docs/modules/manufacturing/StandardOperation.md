@@ -314,7 +314,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -419,7 +419,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -731,7 +731,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -897,7 +897,7 @@
 <div class="cell" data-label="Column">chargeType</div>
 <div class="cell" data-label="Arabic">نوع التحميل</div>
 <div class="cell" data-label="English">Charge Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ChargeType](/modules/enums/ChargeType.md) </div>
 
 </div>
 
@@ -1015,7 +1015,7 @@
 <div class="cell" data-label="Column">basis</div>
 <div class="cell" data-label="Arabic">أساس التكلفة</div>
 <div class="cell" data-label="English">Cost Basis</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ResourceCostBasis](/modules/enums/ResourceCostBasis.md) </div>
 
 </div>
 
@@ -1024,7 +1024,7 @@
 <div class="cell" data-label="Column">chargeType</div>
 <div class="cell" data-label="Arabic">نوع التحميل</div>
 <div class="cell" data-label="English">Charge Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ChargeType](/modules/enums/ChargeType.md) </div>
 
 </div>
 
@@ -1090,7 +1090,7 @@
 <div class="cell" data-label="Column">resourceRateUom</div>
 <div class="cell" data-label="Arabic">مدة عمل المورد | الوحدة</div>
 <div class="cell" data-label="English">Resource Rate | Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 

@@ -82,7 +82,7 @@
 <div class="cell" data-label="Column">insuranceCategory</div>
 <div class="cell" data-label="Arabic">فئة التأمين</div>
 <div class="cell" data-label="English">Insurance Category</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InsuranceCategory](/modules/enums/InsuranceCategory.md) </div>
 
 </div>
 
@@ -175,7 +175,7 @@
 <div class="cell" data-label="Column">relationType</div>
 <div class="cell" data-label="Arabic">صلة القرابة</div>
 <div class="cell" data-label="English">Relation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RelationType](/modules/enums/RelationType.md) </div>
 
 </div>
 

@@ -284,7 +284,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -389,7 +389,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -641,7 +641,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -786,7 +786,7 @@
 <div class="cell" data-label="Column">affectIn</div>
 <div class="cell" data-label="Arabic">التأثير في الكمية</div>
 <div class="cell" data-label="English">Affect In</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityAffectedType](/modules/enums/QuantityAffectedType.md) </div>
 
 </div>
 
@@ -837,7 +837,7 @@
 <div class="cell" data-label="Column">effectType</div>
 <div class="cell" data-label="Arabic">نوع التأثير</div>
 <div class="cell" data-label="English">Component Effect Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityEffectType](/modules/enums/QuantityEffectType.md) </div>
 
 </div>
 
@@ -864,7 +864,7 @@
 <div class="cell" data-label="Column">quantityType</div>
 <div class="cell" data-label="Arabic">نوع الكمية</div>
 <div class="cell" data-label="English">Quantity Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityType](/modules/enums/QuantityType.md) </div>
 
 </div>
 
@@ -882,7 +882,7 @@
 <div class="cell" data-label="Column">sourceQuantity</div>
 <div class="cell" data-label="Arabic">مصدر الكمية</div>
 <div class="cell" data-label="English">Source Quantity</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantitySourceType](/modules/enums/QuantitySourceType.md) </div>
 
 </div>
 
@@ -900,7 +900,7 @@
 <div class="cell" data-label="Column">warehouseSourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر المخزن</div>
 <div class="cell" data-label="English">Warehouse Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [WarehouseSourceType](/modules/enums/WarehouseSourceType.md) </div>
 
 </div>
 
@@ -940,7 +940,7 @@
 <div class="cell" data-label="Column">q1Operator</div>
 <div class="cell" data-label="Arabic">الكمية يجب ان تكون اقل من اويساوي 1 | المعامل</div>
 <div class="cell" data-label="English">Must Be Less Than Or Equal 1 | Operator</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EquaitionOperatorType](/modules/enums/EquaitionOperatorType.md) </div>
 
 </div>
 
@@ -949,7 +949,7 @@
 <div class="cell" data-label="Column">q1Quantity</div>
 <div class="cell" data-label="Arabic">الكمية يجب ان تكون اقل من اويساوي 1 | الكمية</div>
 <div class="cell" data-label="English">Must Be Less Than Or Equal 1 | Quantity</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityAffectedType](/modules/enums/QuantityAffectedType.md) </div>
 
 </div>
 
@@ -958,7 +958,7 @@
 <div class="cell" data-label="Column">q1QuantityType</div>
 <div class="cell" data-label="Arabic">الكمية يجب ان تكون اقل من اويساوي 1 | نوع الكمية</div>
 <div class="cell" data-label="English">Must Be Less Than Or Equal 1 | Quantity Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityType](/modules/enums/QuantityType.md) </div>
 
 </div>
 
@@ -967,7 +967,7 @@
 <div class="cell" data-label="Column">q2Operator</div>
 <div class="cell" data-label="Arabic">الكمية يجب ان تكون اقل من اويساوي 2 | المعامل</div>
 <div class="cell" data-label="English">Must Be Less Than Or Equal 2 | Operator</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EquaitionOperatorType](/modules/enums/EquaitionOperatorType.md) </div>
 
 </div>
 
@@ -976,7 +976,7 @@
 <div class="cell" data-label="Column">q2Quantity</div>
 <div class="cell" data-label="Arabic">الكمية يجب ان تكون اقل من اويساوي 2 | الكمية</div>
 <div class="cell" data-label="English">Must Be Less Than Or Equal 2 | Quantity</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityAffectedType](/modules/enums/QuantityAffectedType.md) </div>
 
 </div>
 
@@ -985,7 +985,7 @@
 <div class="cell" data-label="Column">q2QuantityType</div>
 <div class="cell" data-label="Arabic">الكمية يجب ان تكون اقل من اويساوي 2 | نوع الكمية</div>
 <div class="cell" data-label="English">Must Be Less Than Or Equal 2 | Quantity Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityType](/modules/enums/QuantityType.md) </div>
 
 </div>
 
@@ -994,7 +994,7 @@
 <div class="cell" data-label="Column">q3Operator</div>
 <div class="cell" data-label="Arabic">الكمية يجب ان تكون اقل من اويساوي 3 | المعامل</div>
 <div class="cell" data-label="English">Must Be Less Than Or Equal 3 | Operator</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EquaitionOperatorType](/modules/enums/EquaitionOperatorType.md) </div>
 
 </div>
 
@@ -1003,7 +1003,7 @@
 <div class="cell" data-label="Column">q3Quantity</div>
 <div class="cell" data-label="Arabic">الكمية يجب ان تكون اقل من اويساوي 3 | الكمية</div>
 <div class="cell" data-label="English">Must Be Less Than Or Equal 3 | Quantity</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityAffectedType](/modules/enums/QuantityAffectedType.md) </div>
 
 </div>
 
@@ -1012,7 +1012,7 @@
 <div class="cell" data-label="Column">q3QuantityType</div>
 <div class="cell" data-label="Arabic">الكمية يجب ان تكون اقل من اويساوي 3 | نوع الكمية</div>
 <div class="cell" data-label="English">Must Be Less Than Or Equal 3 | Quantity Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityType](/modules/enums/QuantityType.md) </div>
 
 </div>
 
@@ -1021,7 +1021,7 @@
 <div class="cell" data-label="Column">q4Operator</div>
 <div class="cell" data-label="Arabic">الكمية يجب ان تكون اقل من اويساوي 4 | المعامل</div>
 <div class="cell" data-label="English">Must Be Less Than Or Equal 4 | Operator</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EquaitionOperatorType](/modules/enums/EquaitionOperatorType.md) </div>
 
 </div>
 
@@ -1030,7 +1030,7 @@
 <div class="cell" data-label="Column">q4Quantity</div>
 <div class="cell" data-label="Arabic">الكمية يجب ان تكون اقل من اويساوي 4 | الكمية</div>
 <div class="cell" data-label="English">Must Be Less Than Or Equal 4 | Quantity</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityAffectedType](/modules/enums/QuantityAffectedType.md) </div>
 
 </div>
 
@@ -1039,7 +1039,7 @@
 <div class="cell" data-label="Column">q4QuantityType</div>
 <div class="cell" data-label="Arabic">الكمية يجب ان تكون اقل من اويساوي 4 | نوع الكمية</div>
 <div class="cell" data-label="English">Must Be Less Than Or Equal 4 | Quantity Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityType](/modules/enums/QuantityType.md) </div>
 
 </div>
 
@@ -1048,7 +1048,7 @@
 <div class="cell" data-label="Column">q5Operator</div>
 <div class="cell" data-label="Arabic">الكمية يجب ان تكون اقل من اويساوي 5 | المعامل</div>
 <div class="cell" data-label="English">Must Be Less Than Or Equal 5 | Operator</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EquaitionOperatorType](/modules/enums/EquaitionOperatorType.md) </div>
 
 </div>
 
@@ -1057,7 +1057,7 @@
 <div class="cell" data-label="Column">q5Quantity</div>
 <div class="cell" data-label="Arabic">الكمية يجب ان تكون اقل من اويساوي 5 | الكمية</div>
 <div class="cell" data-label="English">Must Be Less Than Or Equal 5 | Quantity</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityAffectedType](/modules/enums/QuantityAffectedType.md) </div>
 
 </div>
 
@@ -1066,7 +1066,7 @@
 <div class="cell" data-label="Column">q5QuantityType</div>
 <div class="cell" data-label="Arabic">الكمية يجب ان تكون اقل من اويساوي 5 | نوع الكمية</div>
 <div class="cell" data-label="English">Must Be Less Than Or Equal 5 | Quantity Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityType](/modules/enums/QuantityType.md) </div>
 
 </div>
 
@@ -1084,7 +1084,7 @@
 <div class="cell" data-label="Column">theQuantity</div>
 <div class="cell" data-label="Arabic">الكمية</div>
 <div class="cell" data-label="English">The Qunatity</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityAffectedType](/modules/enums/QuantityAffectedType.md) </div>
 
 </div>
 
@@ -1093,7 +1093,7 @@
 <div class="cell" data-label="Column">theQuantityType</div>
 <div class="cell" data-label="Arabic">نوع الكمية</div>
 <div class="cell" data-label="English">Quantity Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [QuantityType](/modules/enums/QuantityType.md) </div>
 
 </div>
 

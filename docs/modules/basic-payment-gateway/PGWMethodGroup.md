@@ -272,7 +272,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -377,7 +377,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -629,7 +629,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -774,7 +774,7 @@
 <div class="cell" data-label="Column">cardTypeOperator</div>
 <div class="cell" data-label="Arabic">Card Type | -</div>
 <div class="cell" data-label="English">Card Type | -</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Operator](/modules/enums/Operator.md) </div>
 
 </div>
 
@@ -783,7 +783,7 @@
 <div class="cell" data-label="Column">de55ResponseOperator</div>
 <div class="cell" data-label="Arabic">De55 Response | -</div>
 <div class="cell" data-label="English">De55 Response | -</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Operator](/modules/enums/Operator.md) </div>
 
 </div>
 
@@ -792,7 +792,7 @@
 <div class="cell" data-label="Column">ecrRefNumOperator</div>
 <div class="cell" data-label="Arabic">ECR Ref Number / Local Reference Number| -</div>
 <div class="cell" data-label="English">ECR Ref Number  / Local Reference Number | -</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Operator](/modules/enums/Operator.md) </div>
 
 </div>
 
@@ -819,7 +819,7 @@
 <div class="cell" data-label="Column">maskedCardNumberOperator</div>
 <div class="cell" data-label="Arabic">Masked Card Number | -</div>
 <div class="cell" data-label="English">Masked Card Number | -</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Operator](/modules/enums/Operator.md) </div>
 
 </div>
 
@@ -828,7 +828,7 @@
 <div class="cell" data-label="Column">merchantIdOperator</div>
 <div class="cell" data-label="Arabic">Merchant Id | -</div>
 <div class="cell" data-label="English">Merchant Id | -</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Operator](/modules/enums/Operator.md) </div>
 
 </div>
 
@@ -837,7 +837,7 @@
 <div class="cell" data-label="Column">panNumOperator</div>
 <div class="cell" data-label="Arabic">PAN Number  / ApprovalCode|</div>
 <div class="cell" data-label="English">PAN Number / ApprovalCode | -</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Operator](/modules/enums/Operator.md) </div>
 
 </div>
 
@@ -966,7 +966,7 @@
 <div class="cell" data-label="Column">schemeIdOperator</div>
 <div class="cell" data-label="Arabic">Scheme Id  / Card Scheme Name| -</div>
 <div class="cell" data-label="English">Scheme Id / Card Scheme Name | -</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Operator](/modules/enums/Operator.md) </div>
 
 </div>
 
@@ -975,7 +975,7 @@
 <div class="cell" data-label="Column">stanNumOperator</div>
 <div class="cell" data-label="Arabic">STAN Number  / rrNumber | -</div>
 <div class="cell" data-label="English">STAN Number / rrNumber | -</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Operator](/modules/enums/Operator.md) </div>
 
 </div>
 
@@ -984,7 +984,7 @@
 <div class="cell" data-label="Column">terminalIdOperator</div>
 <div class="cell" data-label="Arabic">Terminal Id / Device Serial No | -</div>
 <div class="cell" data-label="English">Terminal Id  / Device Serial No | -</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [Operator](/modules/enums/Operator.md) </div>
 
 </div>
 

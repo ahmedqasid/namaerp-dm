@@ -131,7 +131,7 @@
 <div class="cell" data-label="Column">calcPolicy</div>
 <div class="cell" data-label="Arabic">سياسة استحقاق الأجازة</div>
 <div class="cell" data-label="English">Vacation Calculation Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [VacationCalcPolicy](/modules/enums/VacationCalcPolicy.md) </div>
 
 </div>
 
@@ -140,7 +140,7 @@
 <div class="cell" data-label="Column">changeEmployeeStateTo</div>
 <div class="cell" data-label="Arabic">تغير حالة الموظف إلى</div>
 <div class="cell" data-label="English">Change Employee State To</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EmployeeState](/modules/enums/EmployeeState.md) </div>
 
 </div>
 
@@ -467,7 +467,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -698,7 +698,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -719,7 +719,7 @@
 <div class="cell" data-label="Column">holidayPolicyForSalary</div>
 <div class="cell" data-label="Arabic">معاملة عطلة رسمية (رواتب)</div>
 <div class="cell" data-label="English">Holiday Policy (Salary)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [VacationHolidayPolicyType](/modules/enums/VacationHolidayPolicyType.md) </div>
 
 </div>
 
@@ -860,7 +860,7 @@
 <div class="cell" data-label="Column">maxCountInServiceRepetitionStart</div>
 <div class="cell" data-label="Arabic">تاريخ بداية الفترة</div>
 <div class="cell" data-label="English">Max Count In Service Repetition Start</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [VacationRepetitionStart](/modules/enums/VacationRepetitionStart.md) </div>
 
 </div>
 
@@ -869,7 +869,7 @@
 <div class="cell" data-label="Column">maxCountInServiceRepetitionType</div>
 <div class="cell" data-label="Arabic">نوع الفترة</div>
 <div class="cell" data-label="English">Max Count In Service Repetition Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [VacationRepetitionType](/modules/enums/VacationRepetitionType.md) </div>
 
 </div>
 
@@ -905,7 +905,7 @@
 <div class="cell" data-label="Column">maxVacationDayRepetitionStart</div>
 <div class="cell" data-label="Arabic">تاريخ بداية الفترة</div>
 <div class="cell" data-label="English">Max Vacation Day Repetition Start</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [VacationRepetitionStart](/modules/enums/VacationRepetitionStart.md) </div>
 
 </div>
 
@@ -914,7 +914,7 @@
 <div class="cell" data-label="Column">maxVacationDayRepetitionType</div>
 <div class="cell" data-label="Arabic">نوع الفترة (أيام)</div>
 <div class="cell" data-label="English">Max Vacation Day Repetition Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [VacationRepetitionType](/modules/enums/VacationRepetitionType.md) </div>
 
 </div>
 
@@ -1112,7 +1112,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1289,7 +1289,7 @@
 <div class="cell" data-label="Column">transferPolicy</div>
 <div class="cell" data-label="Arabic">سياسة ترحيل الأجازة</div>
 <div class="cell" data-label="English">Vacation Transfer Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [VacationTransferPolicy](/modules/enums/VacationTransferPolicy.md) </div>
 
 </div>
 
@@ -1352,7 +1352,7 @@
 <div class="cell" data-label="Column">vacationClass</div>
 <div class="cell" data-label="Arabic">تصنيف الاجازة</div>
 <div class="cell" data-label="English">Vacation Classification</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [VacationClass](/modules/enums/VacationClass.md) </div>
 
 </div>
 
@@ -1391,7 +1391,7 @@
 <div class="cell" data-label="Column">weekEndPolicyForSalary</div>
 <div class="cell" data-label="Arabic">معاملة أجازة اسبوعية (رواتب)</div>
 <div class="cell" data-label="English">Weekend Policy (Salary)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [VacationHolidayPolicyType](/modules/enums/VacationHolidayPolicyType.md) </div>
 
 </div>
 
@@ -1400,7 +1400,7 @@
 <div class="cell" data-label="Column">weekRestPolicyForBalance</div>
 <div class="cell" data-label="Arabic">معاملة راحة اسبوعية (أرصدة)</div>
 <div class="cell" data-label="English">Week Rest Policy (Balance)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [VacationWeekRestPolicyType](/modules/enums/VacationWeekRestPolicyType.md) </div>
 
 </div>
 
@@ -1409,7 +1409,7 @@
 <div class="cell" data-label="Column">weekRestPolicyForSalary</div>
 <div class="cell" data-label="Arabic">معاملة راحة اسبوعية (رواتب)</div>
 <div class="cell" data-label="English">Week Rest Policy (Salary)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [VacationWeekRestPolicyType](/modules/enums/VacationWeekRestPolicyType.md) </div>
 
 </div>
 

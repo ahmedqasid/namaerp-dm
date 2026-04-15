@@ -90,7 +90,7 @@
 <div class="cell" data-label="Column">installmentState</div>
 <div class="cell" data-label="Arabic">حالة القسط</div>
 <div class="cell" data-label="English">Installment State</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InstallmentState](/modules/enums/InstallmentState.md) </div>
 
 </div>
 

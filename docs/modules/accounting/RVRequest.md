@@ -419,7 +419,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -584,7 +584,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -800,7 +800,7 @@
 <div class="cell" data-label="Column">paymentStatus</div>
 <div class="cell" data-label="Arabic">حالة السداد</div>
 <div class="cell" data-label="English">Payment Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PaymentStatus](/modules/enums/PaymentStatus.md) </div>
 
 </div>
 
@@ -863,7 +863,7 @@
 <div class="cell" data-label="Column">purposeType</div>
 <div class="cell" data-label="Arabic">الغرض</div>
 <div class="cell" data-label="English">Purpose</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PurposeType](/modules/enums/PurposeType.md) </div>
 
 </div>
 
@@ -977,7 +977,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1040,7 +1040,7 @@
 <div class="cell" data-label="Column">systemRequestStatus</div>
 <div class="cell" data-label="Arabic">حالة الطلب</div>
 <div class="cell" data-label="English">Request Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RVPVReqStatus](/modules/enums/RVPVReqStatus.md) </div>
 
 </div>
 
@@ -1130,7 +1130,7 @@
 <div class="cell" data-label="Column">userRequestStatus</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RVPVReqStatus](/modules/enums/RVPVReqStatus.md) </div>
 
 </div>
 
@@ -1693,7 +1693,7 @@
 <div class="cell" data-label="Column">purposeType</div>
 <div class="cell" data-label="Arabic">الغرض</div>
 <div class="cell" data-label="English">Purpose</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PurposeType](/modules/enums/PurposeType.md) </div>
 
 </div>
 
@@ -1768,7 +1768,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RVPVReqStatus](/modules/enums/RVPVReqStatus.md) </div>
 
 </div>
 
@@ -1822,7 +1822,7 @@
 <div class="cell" data-label="Column">time1Uom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -1840,7 +1840,7 @@
 <div class="cell" data-label="Column">time2Uom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -1858,7 +1858,7 @@
 <div class="cell" data-label="Column">time3Uom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -1876,7 +1876,7 @@
 <div class="cell" data-label="Column">time4Uom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -1894,7 +1894,7 @@
 <div class="cell" data-label="Column">time5Uom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 

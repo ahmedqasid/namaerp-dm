@@ -573,7 +573,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaskStatus](/modules/enums/TaskStatus.md) </div>
 
 </div>
 
@@ -609,7 +609,7 @@
 <div class="cell" data-label="Column">ticketStatus</div>
 <div class="cell" data-label="Arabic">حاله طلب الدعم</div>
 <div class="cell" data-label="English">Ticket Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TicketStatusForEntry](/modules/enums/TicketStatusForEntry.md) </div>
 
 </div>
 

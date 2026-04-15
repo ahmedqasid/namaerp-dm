@@ -311,7 +311,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -425,7 +425,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -542,7 +542,7 @@
 <div class="cell" data-label="Column">mediaType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MediaType](/modules/enums/MediaType.md) </div>
 
 </div>
 
@@ -560,7 +560,7 @@
 <div class="cell" data-label="Column">messageType</div>
 <div class="cell" data-label="Arabic">Message Type</div>
 <div class="cell" data-label="English">Message Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [WhatsAppMessageType](/modules/enums/WhatsAppMessageType.md) </div>
 
 </div>
 
@@ -725,7 +725,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -942,7 +942,7 @@
 <div class="cell" data-label="Column">sendAs</div>
 <div class="cell" data-label="Arabic">Send As</div>
 <div class="cell" data-label="English">Send As</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ExtraDataSendType](/modules/enums/ExtraDataSendType.md) </div>
 
 </div>
 

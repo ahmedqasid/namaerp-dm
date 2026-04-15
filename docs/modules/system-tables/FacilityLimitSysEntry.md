@@ -52,7 +52,7 @@
 <div class="cell" data-label="Column">guaranteeType</div>
 <div class="cell" data-label="Arabic">نوع الضمان</div>
 <div class="cell" data-label="English">Guarantee Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GuaranteeType](/modules/enums/GuaranteeType.md) </div>
 
 </div>
 

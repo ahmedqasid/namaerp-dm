@@ -53,7 +53,7 @@
 <div class="cell" data-label="Column">applicabilityMethod</div>
 <div class="cell" data-label="Arabic">طريقة التطبيق</div>
 <div class="cell" data-label="English">Applicability Method</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ApplicabilityMethod](/modules/enums/ApplicabilityMethod.md) </div>
 
 </div>
 
@@ -83,7 +83,7 @@
 <div class="cell" data-label="Column">calcMethod</div>
 <div class="cell" data-label="Arabic">طريقة الحساب</div>
 <div class="cell" data-label="English">Calculation Method</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FormulaCalcMethod](/modules/enums/FormulaCalcMethod.md) </div>
 
 </div>
 
@@ -431,7 +431,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -479,7 +479,7 @@
 <div class="cell" data-label="Column">employeeAccountType</div>
 <div class="cell" data-label="Arabic">نوع حساب الموظف (لنوع معادلة الرصيد)</div>
 <div class="cell" data-label="English">Employee Account Type (For Formula Balance Type)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubsidiaryAccountType](/modules/enums/SubsidiaryAccountType.md) </div>
 
 </div>
 
@@ -527,7 +527,7 @@
 <div class="cell" data-label="Column">formulaType</div>
 <div class="cell" data-label="Arabic">نوع المعادلة</div>
 <div class="cell" data-label="English">Formula Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FormulaType](/modules/enums/FormulaType.md) </div>
 
 </div>
 
@@ -572,7 +572,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -926,7 +926,7 @@
 <div class="cell" data-label="Column">performanceFactor</div>
 <div class="cell" data-label="Arabic">معدل الأداء</div>
 <div class="cell" data-label="English">Performance Factor</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PerformanceFactor](/modules/enums/PerformanceFactor.md) </div>
 
 </div>
 
@@ -1019,7 +1019,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1049,7 +1049,7 @@
 <div class="cell" data-label="Column">roundingMode</div>
 <div class="cell" data-label="Arabic">طريقة التقريب</div>
 <div class="cell" data-label="English">Rounding Mode</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RoundingType](/modules/enums/RoundingType.md) </div>
 
 </div>
 
@@ -1148,7 +1148,7 @@
 <div class="cell" data-label="Column">valueMethod</div>
 <div class="cell" data-label="Arabic">حساب المعامل</div>
 <div class="cell" data-label="English">Factor Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ValueCalculationMethod](/modules/enums/ValueCalculationMethod.md) </div>
 
 </div>
 
@@ -1395,7 +1395,7 @@
 <div class="cell" data-label="Column">inputRoundingType</div>
 <div class="cell" data-label="Arabic">طريقة تقريب المدخلات</div>
 <div class="cell" data-label="English">Input Rounding Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RoundingType](/modules/enums/RoundingType.md) </div>
 
 </div>
 
@@ -1554,7 +1554,7 @@
 <div class="cell" data-label="Column">vacationFactor</div>
 <div class="cell" data-label="Arabic">معامل العطلات</div>
 <div class="cell" data-label="English">Vacation Factor</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [VacationFactor](/modules/enums/VacationFactor.md) </div>
 
 </div>
 

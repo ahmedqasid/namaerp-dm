@@ -34,7 +34,7 @@
 <div class="cell" data-label="Column">changeType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ChangeType](/modules/enums/ChangeType.md) </div>
 
 </div>
 

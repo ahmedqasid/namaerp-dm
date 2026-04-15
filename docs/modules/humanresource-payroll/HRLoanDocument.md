@@ -386,7 +386,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -566,7 +566,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -806,7 +806,7 @@
 <div class="cell" data-label="Column">loanPeriodType</div>
 <div class="cell" data-label="Arabic">نوع فترة القسط</div>
 <div class="cell" data-label="English">Loan Period Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LoanPeriodType](/modules/enums/LoanPeriodType.md) </div>
 
 </div>
 
@@ -1040,7 +1040,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1070,7 +1070,7 @@
 <div class="cell" data-label="Column">roundingType</div>
 <div class="cell" data-label="Arabic">نوع التقريب</div>
 <div class="cell" data-label="English">Rounding Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RoundingType](/modules/enums/RoundingType.md) </div>
 
 </div>
 
@@ -1284,7 +1284,7 @@
 <div class="cell" data-label="Column">installmentState</div>
 <div class="cell" data-label="Arabic">حالة القسط</div>
 <div class="cell" data-label="English">Installment State</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InstallmentState](/modules/enums/InstallmentState.md) </div>
 
 </div>
 

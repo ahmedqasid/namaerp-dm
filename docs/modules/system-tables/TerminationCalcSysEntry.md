@@ -79,7 +79,7 @@
 <div class="cell" data-label="Column">sectionType</div>
 <div class="cell" data-label="Arabic">نوع الشرايحة</div>
 <div class="cell" data-label="English">Section Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TerminationSectionType](/modules/enums/TerminationSectionType.md) </div>
 
 </div>
 

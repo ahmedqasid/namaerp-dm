@@ -434,7 +434,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -602,7 +602,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -674,7 +674,7 @@
 <div class="cell" data-label="Column">installmentPeriod</div>
 <div class="cell" data-label="Arabic">فترة الاقساط</div>
 <div class="cell" data-label="English">Installment Period</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PeriodType](/modules/enums/PeriodType.md) </div>
 
 </div>
 
@@ -692,7 +692,7 @@
 <div class="cell" data-label="Column">installmentType</div>
 <div class="cell" data-label="Arabic">نوع القسط</div>
 <div class="cell" data-label="English">Installment type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [REInstallmentType](/modules/enums/REInstallmentType.md) </div>
 
 </div>
 
@@ -728,7 +728,7 @@
 <div class="cell" data-label="Column">maintenancePeriodUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -746,7 +746,7 @@
 <div class="cell" data-label="Column">multiplesRoundingMode</div>
 <div class="cell" data-label="Arabic">طريقة تقريب المضاعفات</div>
 <div class="cell" data-label="English">Multiples Rounding Mode</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MultiplesRoundingMode](/modules/enums/MultiplesRoundingMode.md) </div>
 
 </div>
 
@@ -764,7 +764,7 @@
 <div class="cell" data-label="Column">remainingProcessingPolicy</div>
 <div class="cell" data-label="Arabic">سياسة معالجة المبلغ المتبقي</div>
 <div class="cell" data-label="English">Remaining Processing Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RemainingProcessingPolicy](/modules/enums/RemainingProcessingPolicy.md) </div>
 
 </div>
 
@@ -1205,7 +1205,7 @@
 <div class="cell" data-label="Column">maintenanceDepositPaymentType</div>
 <div class="cell" data-label="Arabic">كيفية وديعة الصيانة</div>
 <div class="cell" data-label="English">Maintenance Deposit Payment Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DepositPaymentType](/modules/enums/DepositPaymentType.md) </div>
 
 </div>
 
@@ -1517,7 +1517,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1673,7 +1673,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RESalesDocType](/modules/enums/RESalesDocType.md) </div>
 
 </div>
 
@@ -1855,6 +1855,33 @@
 </div>
 </div>
 
+<div class="row searchable" id="commissions.date1">
+<div class="cell" data-label="Property">commissions.date1</div>
+<div class="cell" data-label="Column">date1</div>
+<div class="cell" data-label="Arabic">تـــاريخ 1</div>
+<div class="cell" data-label="English">Date 1</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="commissions.date2">
+<div class="cell" data-label="Property">commissions.date2</div>
+<div class="cell" data-label="Column">date2</div>
+<div class="cell" data-label="Arabic">تـــاريخ 2</div>
+<div class="cell" data-label="English">Date 2</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
+<div class="row searchable" id="commissions.date3">
+<div class="cell" data-label="Property">commissions.date3</div>
+<div class="cell" data-label="Column">date3</div>
+<div class="cell" data-label="Arabic">تاريخ 3</div>
+<div class="cell" data-label="English">Date3</div>
+<div class="cell" data-label="Type">Date</div>
+
+</div>
+
 <div class="row searchable" id="commissions.id">
 <div class="cell" data-label="Property">commissions.id</div>
 <div class="cell" data-label="Column">id</div>
@@ -1870,6 +1897,51 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="commissions.n1">
+<div class="cell" data-label="Property">commissions.n1</div>
+<div class="cell" data-label="Column">n1</div>
+<div class="cell" data-label="Arabic">رقم 1</div>
+<div class="cell" data-label="English">Number 1</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="commissions.n2">
+<div class="cell" data-label="Property">commissions.n2</div>
+<div class="cell" data-label="Column">n2</div>
+<div class="cell" data-label="Arabic">رقم 2</div>
+<div class="cell" data-label="English">Number 2</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="commissions.n3">
+<div class="cell" data-label="Property">commissions.n3</div>
+<div class="cell" data-label="Column">n3</div>
+<div class="cell" data-label="Arabic">رقم 3</div>
+<div class="cell" data-label="English">Number 3</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="commissions.n4">
+<div class="cell" data-label="Property">commissions.n4</div>
+<div class="cell" data-label="Column">n4</div>
+<div class="cell" data-label="Arabic">رقم 4</div>
+<div class="cell" data-label="English">Number 4</div>
+<div class="cell" data-label="Type">Decimal</div>
+
+</div>
+
+<div class="row searchable" id="commissions.n5">
+<div class="cell" data-label="Property">commissions.n5</div>
+<div class="cell" data-label="Column">n5</div>
+<div class="cell" data-label="Arabic">رقم 5</div>
+<div class="cell" data-label="English">Number 5</div>
+<div class="cell" data-label="Type">Decimal</div>
 
 </div>
 
@@ -1897,6 +1969,42 @@
 <div class="cell" data-label="Arabic">مرجع 2</div>
 <div class="cell" data-label="English">Reference 2</div>
 <div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="commissions.ref3">
+<div class="cell" data-label="Property">commissions.ref3</div>
+<div class="cell gen-ref-column" data-label="Column">ref3ActualCode,  ref3Code,  ref3EntityType,  ref3Id</div>
+<div class="cell" data-label="Arabic">مرجع 3</div>
+<div class="cell" data-label="English">Reference 3</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
+<div class="row searchable" id="commissions.text1">
+<div class="cell" data-label="Property">commissions.text1</div>
+<div class="cell" data-label="Column">text1</div>
+<div class="cell" data-label="Arabic">نــــص 1</div>
+<div class="cell" data-label="English">Text 1</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="commissions.text2">
+<div class="cell" data-label="Property">commissions.text2</div>
+<div class="cell" data-label="Column">text2</div>
+<div class="cell" data-label="Arabic">نـــــص 2</div>
+<div class="cell" data-label="English">Text 2</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="commissions.text3">
+<div class="cell" data-label="Property">commissions.text3</div>
+<div class="cell" data-label="Column">text3</div>
+<div class="cell" data-label="Arabic">نص 3</div>
+<div class="cell" data-label="English">text3</div>
+<div class="cell" data-label="Type">Text</div>
 
 </div>
 
@@ -2386,7 +2494,7 @@
 <div class="cell" data-label="Column">fpPaperType</div>
 <div class="cell" data-label="Arabic">نوع الورقة</div>
 <div class="cell" data-label="English">Paper Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FinancialPaperType](/modules/enums/FinancialPaperType.md) </div>
 
 </div>
 
@@ -2614,7 +2722,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [REInstallmentType](/modules/enums/REInstallmentType.md) </div>
 
 </div>
 
@@ -2654,7 +2762,7 @@
 <div class="cell" data-label="Column">feePeriod</div>
 <div class="cell" data-label="Arabic">فترة الرسم</div>
 <div class="cell" data-label="English">Fee Period</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PeriodType](/modules/enums/PeriodType.md) </div>
 
 </div>
 
@@ -2738,7 +2846,7 @@
 <div class="cell" data-label="Column">multiplesRoundingMode</div>
 <div class="cell" data-label="Arabic">طريقة تقريب المضاعفات</div>
 <div class="cell" data-label="English">Multiples Rounding Mode</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MultiplesRoundingMode](/modules/enums/MultiplesRoundingMode.md) </div>
 
 </div>
 
@@ -2891,7 +2999,7 @@
 <div class="cell" data-label="Column">remainingProcessingPolicy</div>
 <div class="cell" data-label="Arabic">سياسة معالجة المبلغ المتبقي</div>
 <div class="cell" data-label="English">Remaining Processing Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RemainingProcessingPolicy](/modules/enums/RemainingProcessingPolicy.md) </div>
 
 </div>
 
@@ -3012,7 +3120,7 @@
 <div class="cell" data-label="Column">installmentPeriod</div>
 <div class="cell" data-label="Arabic">فترة الاقساط</div>
 <div class="cell" data-label="English">Installment Period</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PeriodType](/modules/enums/PeriodType.md) </div>
 
 </div>
 
@@ -3030,7 +3138,7 @@
 <div class="cell" data-label="Column">installmentType</div>
 <div class="cell" data-label="Arabic">نوع القسط</div>
 <div class="cell" data-label="English">Installment type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [REInstallmentType](/modules/enums/REInstallmentType.md) </div>
 
 </div>
 
@@ -3066,7 +3174,7 @@
 <div class="cell" data-label="Column">maintenancePeriodUom</div>
 <div class="cell" data-label="Arabic">فترة الصيانة قبل بداية القسط | وحدة</div>
 <div class="cell" data-label="English">Maintenance Period Before Installment Start Date | UOM</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -3084,7 +3192,7 @@
 <div class="cell" data-label="Column">multiplesRoundingMode</div>
 <div class="cell" data-label="Arabic">طريقة تقريب المضاعفات</div>
 <div class="cell" data-label="English">Multiples Rounding Mode</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MultiplesRoundingMode](/modules/enums/MultiplesRoundingMode.md) </div>
 
 </div>
 
@@ -3102,7 +3210,7 @@
 <div class="cell" data-label="Column">remainingProcessingPolicy</div>
 <div class="cell" data-label="Arabic">سياسة معالجة المبلغ المتبقي</div>
 <div class="cell" data-label="English">Remaining Processing Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RemainingProcessingPolicy](/modules/enums/RemainingProcessingPolicy.md) </div>
 
 </div>
 

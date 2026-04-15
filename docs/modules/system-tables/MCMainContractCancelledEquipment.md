@@ -73,7 +73,7 @@
 <div class="cell" data-label="Column">equipmentCategory</div>
 <div class="cell" data-label="Arabic">فئه المعده</div>
 <div class="cell" data-label="English">Equipment Category</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MCEquipmentCategory](/modules/enums/MCEquipmentCategory.md) </div>
 
 </div>
 

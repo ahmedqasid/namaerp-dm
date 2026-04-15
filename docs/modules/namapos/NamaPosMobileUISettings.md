@@ -335,7 +335,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -440,7 +440,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -692,7 +692,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -837,7 +837,7 @@
 <div class="cell" data-label="Column">displayMethod</div>
 <div class="cell" data-label="Arabic">طريقة العرض</div>
 <div class="cell" data-label="English">Display Method</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MobileHeaderFieldsDisplayMethod](/modules/enums/MobileHeaderFieldsDisplayMethod.md) </div>
 
 </div>
 
@@ -846,7 +846,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 
@@ -855,7 +855,7 @@
 <div class="cell" data-label="Column">fieldSize</div>
 <div class="cell" data-label="Arabic">حجم/ مساحة الحقل</div>
 <div class="cell" data-label="English">Field Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [MobileHeaderFieldsSize](/modules/enums/MobileHeaderFieldsSize.md) </div>
 
 </div>
 
@@ -904,7 +904,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
 
 </div>
 

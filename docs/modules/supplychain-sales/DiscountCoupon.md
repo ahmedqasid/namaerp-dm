@@ -374,7 +374,7 @@
 <div class="cell" data-label="Column">discountCouponType</div>
 <div class="cell" data-label="Arabic">طريفة حساب القسيمة</div>
 <div class="cell" data-label="English">Discount Coupon Calculation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountCouponCalcType](/modules/enums/DiscountCouponCalcType.md) </div>
 
 </div>
 
@@ -395,7 +395,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -527,7 +527,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -851,7 +851,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -941,7 +941,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DiscountCouponStatus](/modules/enums/DiscountCouponStatus.md) </div>
 
 </div>
 
@@ -1067,7 +1067,7 @@
 <div class="cell" data-label="Column">voucherType</div>
 <div class="cell" data-label="Arabic">نوع الخصم</div>
 <div class="cell" data-label="English">Voucher Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [VoucherType](/modules/enums/VoucherType.md) </div>
 
 </div>
 

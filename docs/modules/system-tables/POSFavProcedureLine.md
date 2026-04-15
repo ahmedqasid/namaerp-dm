@@ -34,7 +34,7 @@
 <div class="cell" data-label="Column">posProcedure</div>
 <div class="cell" data-label="Arabic">إجراء نقطة البيع</div>
 <div class="cell" data-label="English">POS Procedure</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSProcedures](/modules/enums/POSProcedures.md) </div>
 
 </div>
 

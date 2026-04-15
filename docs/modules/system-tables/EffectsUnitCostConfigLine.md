@@ -61,7 +61,7 @@
 <div class="cell" data-label="Column">valueType</div>
 <div class="cell" data-label="Arabic">نوع القيمة</div>
 <div class="cell" data-label="English">Value Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ValueType](/modules/enums/ValueType.md) </div>
 
 </div>
 

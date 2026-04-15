@@ -404,7 +404,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -560,7 +560,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -767,7 +767,7 @@
 <div class="cell" data-label="Column">priceApprovalStatus</div>
 <div class="cell" data-label="Arabic">حالة موافقة العميل على السعر</div>
 <div class="cell" data-label="English">Client Approval Status For Price</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ApprovalStatus](/modules/enums/ApprovalStatus.md) </div>
 
 </div>
 
@@ -794,7 +794,7 @@
 <div class="cell" data-label="Column">qtyApprovalStatus</div>
 <div class="cell" data-label="Arabic">حالة موافقة العميل على الكمية</div>
 <div class="cell" data-label="English">Client Approval Status For Quantity</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ApprovalStatus](/modules/enums/ApprovalStatus.md) </div>
 
 </div>
 
@@ -878,7 +878,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -941,7 +941,7 @@
 <div class="cell" data-label="Column">submittalApprovalStatus</div>
 <div class="cell" data-label="Arabic">حالة الموافقة على الاعتماد</div>
 <div class="cell" data-label="English">Submittal Approval Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubmittalStatus](/modules/enums/SubmittalStatus.md) </div>
 
 </div>
 
@@ -1284,7 +1284,7 @@
 <div class="cell" data-label="Column">submittalApprovalStatus</div>
 <div class="cell" data-label="Arabic">حالة الموافقة على الاعتماد</div>
 <div class="cell" data-label="English">Submittal Approval Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SubmittalStatus](/modules/enums/SubmittalStatus.md) </div>
 
 </div>
 

@@ -217,7 +217,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TaskStatus](/modules/enums/TaskStatus.md) </div>
 
 </div>
 
@@ -235,7 +235,7 @@
 <div class="cell" data-label="Column">targetAction</div>
 <div class="cell" data-label="Arabic">مع الإجراء</div>
 <div class="cell" data-label="English">Target Action</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EntityTargetAction](/modules/enums/EntityTargetAction.md) </div>
 
 </div>
 

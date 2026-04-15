@@ -767,7 +767,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -950,7 +950,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -1232,7 +1232,7 @@
 <div class="cell" data-label="Column">liquidationType</div>
 <div class="cell" data-label="Arabic">نوع تصفية الأجازة</div>
 <div class="cell" data-label="English">Vacation Liquidation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LiquidationType](/modules/enums/LiquidationType.md) </div>
 
 </div>
 
@@ -1835,7 +1835,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1907,7 +1907,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LiquidationStatus](/modules/enums/LiquidationStatus.md) </div>
 
 </div>
 
@@ -1946,7 +1946,7 @@
 <div class="cell" data-label="Column">terminationCalcType</div>
 <div class="cell" data-label="Arabic">احتساب ايام تصفية نهاية الخدمة بناءا علي</div>
 <div class="cell" data-label="English">Termination Days Calculation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TerminationCalcType](/modules/enums/TerminationCalcType.md) </div>
 
 </div>
 
@@ -1964,7 +1964,7 @@
 <div class="cell" data-label="Column">tmCalcDaysType</div>
 <div class="cell" data-label="Arabic">حساب ايام مدة الخدمة من</div>
 <div class="cell" data-label="English">Calculate Work Period Days From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TerminationCalcDaysType](/modules/enums/TerminationCalcDaysType.md) </div>
 
 </div>
 
@@ -2072,7 +2072,7 @@
 <div class="cell" data-label="Column">tmWorkPeriodDaysRoundingMode</div>
 <div class="cell" data-label="Arabic">طريقة تقريب الأيام</div>
 <div class="cell" data-label="English">Days Rounding Mode</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RoundingType](/modules/enums/RoundingType.md) </div>
 
 </div>
 
@@ -2495,7 +2495,7 @@
 <div class="cell" data-label="Column">terminationStatus</div>
 <div class="cell" data-label="Arabic">حالة تصفية نهاية الخدمة</div>
 <div class="cell" data-label="English">Termination Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LiquidationStatus](/modules/enums/LiquidationStatus.md) </div>
 
 </div>
 
@@ -2576,7 +2576,7 @@
 <div class="cell" data-label="Column">ticketPriceType</div>
 <div class="cell" data-label="Arabic">طريقة حساب سعر التذكرة</div>
 <div class="cell" data-label="English">Ticket Price Calculation Method</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TicketPriceType](/modules/enums/TicketPriceType.md) </div>
 
 </div>
 
@@ -2636,7 +2636,7 @@
 <div class="cell" data-label="Column">vacationCalcType</div>
 <div class="cell" data-label="Arabic">حساب عدد الأيام المستحقه بناءا علي</div>
 <div class="cell" data-label="English">Calculate Worth Days From</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [VacationCalcType](/modules/enums/VacationCalcType.md) </div>
 
 </div>
 
@@ -2748,7 +2748,7 @@
 <div class="cell" data-label="Column">effectType</div>
 <div class="cell" data-label="Arabic">نوع التأثير</div>
 <div class="cell" data-label="English">Component Effect Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalaryCompEffectType](/modules/enums/SalaryCompEffectType.md) </div>
 
 </div>
 
@@ -2881,7 +2881,7 @@
 <div class="cell" data-label="Column">effectType</div>
 <div class="cell" data-label="Arabic">القيمة الأصلية | نوع التأثير</div>
 <div class="cell" data-label="English">Base Value | Effect Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalaryCompEffectType](/modules/enums/SalaryCompEffectType.md) </div>
 
 </div>
 
@@ -3295,7 +3295,7 @@
 <div class="cell" data-label="Column">effectType</div>
 <div class="cell" data-label="Arabic">نوع التأثير</div>
 <div class="cell" data-label="English">Component Effect Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalaryCompEffectType](/modules/enums/SalaryCompEffectType.md) </div>
 
 </div>
 
@@ -3428,7 +3428,7 @@
 <div class="cell" data-label="Column">effectType</div>
 <div class="cell" data-label="Arabic">القيمة الأصلية | نوع التأثير</div>
 <div class="cell" data-label="English">Component Effect Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SalaryCompEffectType](/modules/enums/SalaryCompEffectType.md) </div>
 
 </div>
 

@@ -142,7 +142,7 @@
 <div class="cell" data-label="Column">discountType</div>
 <div class="cell" data-label="Arabic">الخصم | النوع</div>
 <div class="cell" data-label="English">Discount Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [InvoiceOfferDiscountType](/modules/enums/InvoiceOfferDiscountType.md) </div>
 
 </div>
 
@@ -217,7 +217,7 @@
 <div class="cell" data-label="Column">itemsCountMechanism</div>
 <div class="cell" data-label="Arabic">آلية احتساب عدد الأصناف</div>
 <div class="cell" data-label="English">Items Count Mechanism</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [OfferItemsCountMechanism](/modules/enums/OfferItemsCountMechanism.md) </div>
 
 </div>
 

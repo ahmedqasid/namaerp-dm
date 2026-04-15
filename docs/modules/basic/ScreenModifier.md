@@ -62,7 +62,7 @@
 <div class="cell" data-label="Column">applicableFor</div>
 <div class="cell" data-label="Arabic">مطبق على</div>
 <div class="cell" data-label="English">Applicable For</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ScreenModifierApplicability](/modules/enums/ScreenModifierApplicability.md) </div>
 
 </div>
 
@@ -197,7 +197,7 @@
 <div class="cell" data-label="Column">criteriaModifyType</div>
 <div class="cell" data-label="Arabic">نوع التعديل على حقول البحث (المعايير)</div>
 <div class="cell" data-label="English">Effect On Criteria Fields (Criteria)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ViewModificationType](/modules/enums/ViewModificationType.md) </div>
 
 </div>
 
@@ -281,7 +281,7 @@
 <div class="cell" data-label="Column">defaultSelectorPopupSortType</div>
 <div class="cell" data-label="Arabic"> نوع الترتيب الافتراضى</div>
 <div class="cell" data-label="English"> Default Sort Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SortType](/modules/enums/SortType.md) </div>
 
 </div>
 
@@ -290,7 +290,7 @@
 <div class="cell" data-label="Column">defaultSortType</div>
 <div class="cell" data-label="Arabic">نوع الترتيب الافتراضى</div>
 <div class="cell" data-label="English">Default Sort Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SortType](/modules/enums/SortType.md) </div>
 
 </div>
 
@@ -365,7 +365,7 @@
 <div class="cell" data-label="Column">displayModifyType</div>
 <div class="cell" data-label="Arabic">نوع التعديل على الأعمدة الظاهرة</div>
 <div class="cell" data-label="English">Effect on Dispaly Columns</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ViewModificationType](/modules/enums/ViewModificationType.md) </div>
 
 </div>
 
@@ -386,7 +386,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -425,7 +425,7 @@
 <div class="cell" data-label="Column">effectType</div>
 <div class="cell" data-label="Arabic">نوع التأثير</div>
 <div class="cell" data-label="English">Component Effect Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ScreenModifierEffect](/modules/enums/ScreenModifierEffect.md) </div>
 
 </div>
 
@@ -539,7 +539,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -962,7 +962,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1013,7 +1013,7 @@
 <div class="cell" data-label="Column">searchCriteriaModifyType</div>
 <div class="cell" data-label="Arabic"> نوع التعديل على حقول البحث (المعايير)</div>
 <div class="cell" data-label="English"> Effect On Criteria Fields (Criteria)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ViewModificationType](/modules/enums/ViewModificationType.md) </div>
 
 </div>
 
@@ -1022,7 +1022,7 @@
 <div class="cell" data-label="Column">searchDisplayModifyType</div>
 <div class="cell" data-label="Arabic"> نوع التعديل على الأعمدة الظاهرة</div>
 <div class="cell" data-label="English"> Effect on Dispaly Columns</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ViewModificationType](/modules/enums/ViewModificationType.md) </div>
 
 </div>
 
@@ -1031,7 +1031,7 @@
 <div class="cell" data-label="Column">searchForModifyType</div>
 <div class="cell" data-label="Arabic">نوع التعديل على حقول البحث (تستعمل لحقل البحث عن)</div>
 <div class="cell" data-label="English">Effect On Criteria Fields (Used For Search For)</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ViewModificationType](/modules/enums/ViewModificationType.md) </div>
 
 </div>
 
@@ -1040,7 +1040,7 @@
 <div class="cell" data-label="Column">searchSortModifyType</div>
 <div class="cell" data-label="Arabic"> نوع التعديل على حقول الترتيب</div>
 <div class="cell" data-label="English"> Effect on Sort Fields</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ViewModificationType](/modules/enums/ViewModificationType.md) </div>
 
 </div>
 
@@ -1091,7 +1091,7 @@
 <div class="cell" data-label="Column">sortModifyType</div>
 <div class="cell" data-label="Arabic">نوع التعديل على حقول الترتيب</div>
 <div class="cell" data-label="English">Effect on Sort Fields</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ViewModificationType](/modules/enums/ViewModificationType.md) </div>
 
 </div>
 
@@ -1293,7 +1293,7 @@
 <div class="cell" data-label="Column">launchType</div>
 <div class="cell" data-label="Arabic">طريقة البدء</div>
 <div class="cell" data-label="English">Launch Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CustomRepLaunchType](/modules/enums/CustomRepLaunchType.md) </div>
 
 </div>
 
@@ -1825,7 +1825,7 @@
 <div class="cell" data-label="Column">visibilty</div>
 <div class="cell" data-label="Arabic">اظهار</div>
 <div class="cell" data-label="English">visibilty</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridFieldVisibilty](/modules/enums/GridFieldVisibilty.md) </div>
 
 </div>
 
@@ -1892,7 +1892,7 @@
 <div class="cell" data-label="Column">fieldLayout</div>
 <div class="cell" data-label="Arabic">طريقة العرض</div>
 <div class="cell" data-label="English">Field Layout</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FieldLayoutType](/modules/enums/FieldLayoutType.md) </div>
 
 </div>
 
@@ -2058,7 +2058,7 @@
 <div class="cell" data-label="Column">fieldLayout</div>
 <div class="cell" data-label="Arabic">طريقة العرض</div>
 <div class="cell" data-label="English">Field Layout</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FieldLayoutType](/modules/enums/FieldLayoutType.md) </div>
 
 </div>
 
@@ -2658,7 +2658,7 @@
 <div class="cell" data-label="Column">editedObjectSourceType</div>
 <div class="cell" data-label="Arabic">نوع مصدر السجل المعدل</div>
 <div class="cell" data-label="English">Edited Object Source Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [EditedObjectSourceTypeEnum](/modules/enums/EditedObjectSourceTypeEnum.md) </div>
 
 </div>
 
@@ -2748,7 +2748,7 @@
 <div class="cell" data-label="Column">size</div>
 <div class="cell" data-label="Arabic">المقاس</div>
 <div class="cell" data-label="English">Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -2984,7 +2984,7 @@
 <div class="cell" data-label="Column">showOnlyInLang</div>
 <div class="cell" data-label="Arabic">عرض فقط مع اللغة</div>
 <div class="cell" data-label="English">Show Only In Language</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [LanguageEnum](/modules/enums/LanguageEnum.md) </div>
 
 </div>
 
@@ -2993,7 +2993,7 @@
 <div class="cell" data-label="Column">visibilty</div>
 <div class="cell" data-label="Arabic">اظهار</div>
 <div class="cell" data-label="English">visibilty</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridFieldVisibilty](/modules/enums/GridFieldVisibilty.md) </div>
 
 </div>
 
@@ -3060,7 +3060,7 @@
 <div class="cell" data-label="Column">fieldLayout</div>
 <div class="cell" data-label="Arabic">طريقة العرض</div>
 <div class="cell" data-label="English">Field Layout</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FieldLayoutType](/modules/enums/FieldLayoutType.md) </div>
 
 </div>
 
@@ -3181,7 +3181,7 @@
 <div class="cell" data-label="Column">effectType</div>
 <div class="cell" data-label="Arabic">نوع التأثير</div>
 <div class="cell" data-label="English">Component Effect Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ScreenBlockModifierEffect](/modules/enums/ScreenBlockModifierEffect.md) </div>
 
 </div>
 
@@ -3253,7 +3253,7 @@
 <div class="cell" data-label="Column">size</div>
 <div class="cell" data-label="Arabic">المقاس</div>
 <div class="cell" data-label="English">Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -3638,7 +3638,7 @@
 <div class="cell" data-label="Column">size</div>
 <div class="cell" data-label="Arabic">المقاس</div>
 <div class="cell" data-label="English">Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -3820,7 +3820,7 @@
 <div class="cell" data-label="Column">launchType</div>
 <div class="cell" data-label="Arabic">طريقة البدء</div>
 <div class="cell" data-label="English">Launch Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RepLaunchType](/modules/enums/RepLaunchType.md) </div>
 
 </div>
 
@@ -4099,7 +4099,7 @@
 <div class="cell" data-label="Column">size</div>
 <div class="cell" data-label="Arabic">المقاس</div>
 <div class="cell" data-label="English">Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -4148,7 +4148,7 @@
 <div class="cell" data-label="Column">effectType</div>
 <div class="cell" data-label="Arabic">نوع التأثير</div>
 <div class="cell" data-label="English">Component Effect Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ScreenQuickFilterEffect](/modules/enums/ScreenQuickFilterEffect.md) </div>
 
 </div>
 
@@ -4695,7 +4695,7 @@
 <div class="cell" data-label="Column">effectType</div>
 <div class="cell" data-label="Arabic">نوع التأثير</div>
 <div class="cell" data-label="English">Component Effect Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ScreenQuickFilterEffect](/modules/enums/ScreenQuickFilterEffect.md) </div>
 
 </div>
 

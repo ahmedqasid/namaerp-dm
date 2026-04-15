@@ -50,7 +50,7 @@
 <div class="cell" data-label="Column">accountPolicy</div>
 <div class="cell" data-label="Arabic">سياسة توزيع الحساب</div>
 <div class="cell" data-label="English">Account Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccDistribPolicy](/modules/enums/AccDistribPolicy.md) </div>
 
 </div>
 
@@ -116,7 +116,7 @@
 <div class="cell" data-label="Column">analysisSetOrder</div>
 <div class="cell" data-label="Arabic">ترتيب المجموعة التحليلية</div>
 <div class="cell" data-label="English">Analysis Set Order</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DistributionOrder](/modules/enums/DistributionOrder.md) </div>
 
 </div>
 
@@ -125,7 +125,7 @@
 <div class="cell" data-label="Column">analysisSetPolicy</div>
 <div class="cell" data-label="Arabic">سياسة توزيع المجموعة التحليلية</div>
 <div class="cell" data-label="English">Analysis Set Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccDistribPolicy](/modules/enums/AccDistribPolicy.md) </div>
 
 </div>
 
@@ -191,7 +191,7 @@
 <div class="cell" data-label="Column">branchOrder</div>
 <div class="cell" data-label="Arabic">ترتيب الفرع</div>
 <div class="cell" data-label="English">Branch Order</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DistributionOrder](/modules/enums/DistributionOrder.md) </div>
 
 </div>
 
@@ -200,7 +200,7 @@
 <div class="cell" data-label="Column">branchPolicy</div>
 <div class="cell" data-label="Arabic">سياسة توزيع الفرع</div>
 <div class="cell" data-label="English">Branch Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccDistribPolicy](/modules/enums/AccDistribPolicy.md) </div>
 
 </div>
 
@@ -386,7 +386,7 @@
 <div class="cell" data-label="Column">departmentOrder</div>
 <div class="cell" data-label="Arabic">ترتيب القسم</div>
 <div class="cell" data-label="English">Department Order</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DistributionOrder](/modules/enums/DistributionOrder.md) </div>
 
 </div>
 
@@ -395,7 +395,7 @@
 <div class="cell" data-label="Column">departmentPolicy</div>
 <div class="cell" data-label="Arabic">سياسة توزيع القسم</div>
 <div class="cell" data-label="English">Department Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccDistribPolicy](/modules/enums/AccDistribPolicy.md) </div>
 
 </div>
 
@@ -548,7 +548,7 @@
 <div class="cell" data-label="Column">distributionType</div>
 <div class="cell" data-label="Arabic">طريقة التوزيع</div>
 <div class="cell" data-label="English">Distribution Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccDistribType](/modules/enums/AccDistribType.md) </div>
 
 </div>
 
@@ -569,7 +569,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -626,7 +626,7 @@
 <div class="cell" data-label="Column">entityDimensionOrder</div>
 <div class="cell" data-label="Arabic">ترتيب السجل</div>
 <div class="cell" data-label="English">Entity Dimension Order</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DistributionOrder](/modules/enums/DistributionOrder.md) </div>
 
 </div>
 
@@ -635,7 +635,7 @@
 <div class="cell" data-label="Column">entityDimensionPolicy</div>
 <div class="cell" data-label="Arabic">سياسة توزيع السجل</div>
 <div class="cell" data-label="English">Entity Dimension Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccDistribPolicy](/modules/enums/AccDistribPolicy.md) </div>
 
 </div>
 
@@ -728,7 +728,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -836,7 +836,7 @@
 <div class="cell" data-label="Column">multiDistributeType</div>
 <div class="cell" data-label="Arabic">طريقة التوزيع المتعدد</div>
 <div class="cell" data-label="English">multi Distribution Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccMultiDistributeType](/modules/enums/AccMultiDistributeType.md) </div>
 
 </div>
 
@@ -1070,7 +1070,7 @@
 <div class="cell" data-label="Column">ref1Order</div>
 <div class="cell" data-label="Arabic">ترتيب مرجع 1</div>
 <div class="cell" data-label="English">Ref 1 Order</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DistributionOrder](/modules/enums/DistributionOrder.md) </div>
 
 </div>
 
@@ -1079,7 +1079,7 @@
 <div class="cell" data-label="Column">ref1Policy</div>
 <div class="cell" data-label="Arabic">سياسة توزيع مرجع 1</div>
 <div class="cell" data-label="English">Ref 1 Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccDistribPolicy](/modules/enums/AccDistribPolicy.md) </div>
 
 </div>
 
@@ -1133,7 +1133,7 @@
 <div class="cell" data-label="Column">ref2Order</div>
 <div class="cell" data-label="Arabic">ترتيب مرجع 2</div>
 <div class="cell" data-label="English">Ref 2 Order</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DistributionOrder](/modules/enums/DistributionOrder.md) </div>
 
 </div>
 
@@ -1142,7 +1142,7 @@
 <div class="cell" data-label="Column">ref2Policy</div>
 <div class="cell" data-label="Arabic">سياسة توزيع مرجع 2</div>
 <div class="cell" data-label="English">Ref 2 Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccDistribPolicy](/modules/enums/AccDistribPolicy.md) </div>
 
 </div>
 
@@ -1196,7 +1196,7 @@
 <div class="cell" data-label="Column">ref3Order</div>
 <div class="cell" data-label="Arabic">ترتيب مرجع 3</div>
 <div class="cell" data-label="English">Ref 3 Order</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DistributionOrder](/modules/enums/DistributionOrder.md) </div>
 
 </div>
 
@@ -1205,7 +1205,7 @@
 <div class="cell" data-label="Column">ref3Policy</div>
 <div class="cell" data-label="Arabic">سياسة توزيع مرجع 3</div>
 <div class="cell" data-label="English">Ref 3 Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccDistribPolicy](/modules/enums/AccDistribPolicy.md) </div>
 
 </div>
 
@@ -1259,7 +1259,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1328,7 +1328,7 @@
 <div class="cell" data-label="Column">sectorOrder</div>
 <div class="cell" data-label="Arabic">ترتيب القطاع</div>
 <div class="cell" data-label="English">Sector Order</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DistributionOrder](/modules/enums/DistributionOrder.md) </div>
 
 </div>
 
@@ -1337,7 +1337,7 @@
 <div class="cell" data-label="Column">sectorPolicy</div>
 <div class="cell" data-label="Arabic">سياسة توزيع القطاع</div>
 <div class="cell" data-label="English">Sector Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccDistribPolicy](/modules/enums/AccDistribPolicy.md) </div>
 
 </div>
 
@@ -1382,7 +1382,7 @@
 <div class="cell" data-label="Column">subsidiaryOrder</div>
 <div class="cell" data-label="Arabic">ترتيب الذمة</div>
 <div class="cell" data-label="English">Subsidiary Order</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DistributionOrder](/modules/enums/DistributionOrder.md) </div>
 
 </div>
 
@@ -1391,7 +1391,7 @@
 <div class="cell" data-label="Column">subsidiaryPolicy</div>
 <div class="cell" data-label="Arabic">سياسة توزيع الذمة</div>
 <div class="cell" data-label="English">Subsidiary Policy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AccDistribPolicy](/modules/enums/AccDistribPolicy.md) </div>
 
 </div>
 

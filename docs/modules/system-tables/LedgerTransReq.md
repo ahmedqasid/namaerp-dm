@@ -357,7 +357,7 @@
 <div class="cell" data-label="Column">requestType</div>
 <div class="cell" data-label="Arabic">نوع الطلب</div>
 <div class="cell" data-label="English">Reqyest Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TransactionRequestType](/modules/enums/TransactionRequestType.md) </div>
 
 </div>
 
@@ -387,7 +387,7 @@
 <div class="cell" data-label="Column">transStatus</div>
 <div class="cell" data-label="Arabic">حالة المعالجة</div>
 <div class="cell" data-label="English">Processing Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TransactionRequestStatus](/modules/enums/TransactionRequestStatus.md) </div>
 
 </div>
 

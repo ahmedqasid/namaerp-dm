@@ -774,6 +774,15 @@
 
 </div>
 
+<div class="row searchable" id="uiSettingsOptions.addQtyColInItemSearchDialog">
+<div class="cell" data-label="Property">uiSettingsOptions.addQtyColInItemSearchDialog</div>
+<div class="cell" data-label="Column">addQtyColInItemSearchDialog</div>
+<div class="cell" data-label="Arabic">إضافة عمود الكمية في شاشة البحث عن صنف</div>
+<div class="cell" data-label="English">Add Quantity Column In Item Search Dialog</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="uiSettingsOptions.addRackCodeFields">
 <div class="cell" data-label="Property">uiSettingsOptions.addRackCodeFields</div>
 <div class="cell" data-label="Column">addRackCodeFields</div>

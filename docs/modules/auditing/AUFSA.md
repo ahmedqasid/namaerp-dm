@@ -320,7 +320,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -425,7 +425,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -707,7 +707,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -906,7 +906,7 @@
 <div class="cell" data-label="Column">aRiskControlRiskType</div>
 <div class="cell" data-label="Arabic">خطر الرقابة</div>
 <div class="cell" data-label="English">Control Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -915,7 +915,7 @@
 <div class="cell" data-label="Column">aRiskInherentRiskType</div>
 <div class="cell" data-label="Arabic">الخطر المتأصل</div>
 <div class="cell" data-label="English">Inherent Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -924,7 +924,7 @@
 <div class="cell" data-label="Column">aRiskMaterialRiskType</div>
 <div class="cell" data-label="Arabic">خطر الاخطاء الجوهرية</div>
 <div class="cell" data-label="English">Material Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -933,7 +933,7 @@
 <div class="cell" data-label="Column">cRiskControlRiskType</div>
 <div class="cell" data-label="Arabic">خطر الرقابة</div>
 <div class="cell" data-label="English">Control Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -942,7 +942,7 @@
 <div class="cell" data-label="Column">cRiskInherentRiskType</div>
 <div class="cell" data-label="Arabic">الخطر المتأصل</div>
 <div class="cell" data-label="English">Inherent Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -951,7 +951,7 @@
 <div class="cell" data-label="Column">cRiskMaterialRiskType</div>
 <div class="cell" data-label="Arabic">خطر الاخطاء الجوهرية</div>
 <div class="cell" data-label="English">Material Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -960,7 +960,7 @@
 <div class="cell" data-label="Column">eRiskControlRiskType</div>
 <div class="cell" data-label="Arabic">خطر الرقابة</div>
 <div class="cell" data-label="English">Control Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -969,7 +969,7 @@
 <div class="cell" data-label="Column">eRiskInherentRiskType</div>
 <div class="cell" data-label="Arabic">الخطر المتأصل</div>
 <div class="cell" data-label="English">Inherent Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -978,7 +978,7 @@
 <div class="cell" data-label="Column">eRiskMaterialRiskType</div>
 <div class="cell" data-label="Arabic">خطر الاخطاء الجوهرية</div>
 <div class="cell" data-label="English">Material Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -987,7 +987,7 @@
 <div class="cell" data-label="Column">hRiskControlRiskType</div>
 <div class="cell" data-label="Arabic">خطر الرقابة</div>
 <div class="cell" data-label="English">Control Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -996,7 +996,7 @@
 <div class="cell" data-label="Column">hRiskInherentRiskType</div>
 <div class="cell" data-label="Arabic">الخطر المتأصل</div>
 <div class="cell" data-label="English">Inherent Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -1005,7 +1005,7 @@
 <div class="cell" data-label="Column">hRiskMaterialRiskType</div>
 <div class="cell" data-label="Arabic">خطر الاخطاء الجوهرية</div>
 <div class="cell" data-label="English">Material Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -1014,7 +1014,7 @@
 <div class="cell" data-label="Column">oRiskControlRiskType</div>
 <div class="cell" data-label="Arabic">خطر الرقابة</div>
 <div class="cell" data-label="English">Control Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -1023,7 +1023,7 @@
 <div class="cell" data-label="Column">oRiskInherentRiskType</div>
 <div class="cell" data-label="Arabic">الخطر المتأصل</div>
 <div class="cell" data-label="English">Inherent Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -1032,7 +1032,7 @@
 <div class="cell" data-label="Column">oRiskMaterialRiskType</div>
 <div class="cell" data-label="Arabic">خطر الاخطاء الجوهرية</div>
 <div class="cell" data-label="English">Material Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -1041,7 +1041,7 @@
 <div class="cell" data-label="Column">vRiskControlRiskType</div>
 <div class="cell" data-label="Arabic">خطر الرقابة</div>
 <div class="cell" data-label="English">Control Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -1050,7 +1050,7 @@
 <div class="cell" data-label="Column">vRiskInherentRiskType</div>
 <div class="cell" data-label="Arabic">الخطر المتأصل</div>
 <div class="cell" data-label="English">Inherent Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -1059,7 +1059,7 @@
 <div class="cell" data-label="Column">vRiskMaterialRiskType</div>
 <div class="cell" data-label="Arabic">خطر الاخطاء الجوهرية</div>
 <div class="cell" data-label="English">Material Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -1164,7 +1164,7 @@
 <div class="cell" data-label="Column">stRiskControlRiskType</div>
 <div class="cell" data-label="Arabic">S&T | خطر رقابة</div>
 <div class="cell" data-label="English">S&T | Control Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -1173,7 +1173,7 @@
 <div class="cell" data-label="Column">stRiskInherentRiskType</div>
 <div class="cell" data-label="Arabic">S&T | خطر متأصل</div>
 <div class="cell" data-label="English">S&T | Inherent Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 
@@ -1182,7 +1182,7 @@
 <div class="cell" data-label="Column">stRiskMaterialRiskType</div>
 <div class="cell" data-label="Arabic">S&T | خطر جوهرى</div>
 <div class="cell" data-label="English">S&T | Material Risk</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AURiskType](/modules/enums/AURiskType.md) </div>
 
 </div>
 

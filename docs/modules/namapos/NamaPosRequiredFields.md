@@ -272,7 +272,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -377,7 +377,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -629,7 +629,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -867,7 +867,7 @@
 <div class="cell" data-label="Column">posFieldType</div>
 <div class="cell" data-label="Arabic">نوع الحقل</div>
 <div class="cell" data-label="English">Field Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSFieldType](/modules/enums/POSFieldType.md) </div>
 
 </div>
 
@@ -876,7 +876,7 @@
 <div class="cell" data-label="Column">relationWithClassification</div>
 <div class="cell" data-label="Arabic">العلاقه مع تصنيف الفاتورة | العلاقه</div>
 <div class="cell" data-label="English">Relation With Invoice classification | Relation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosReqFieldRelationWithRef](/modules/enums/PosReqFieldRelationWithRef.md) </div>
 
 </div>
 
@@ -885,7 +885,7 @@
 <div class="cell" data-label="Column">relationWithCustomer</div>
 <div class="cell" data-label="Arabic">العلاقه مع العميل | العلاقه</div>
 <div class="cell" data-label="English">Relation With Customer | Relation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosReqFieldRelationWithRef](/modules/enums/PosReqFieldRelationWithRef.md) </div>
 
 </div>
 
@@ -894,7 +894,7 @@
 <div class="cell" data-label="Column">relationWithDocCategory</div>
 <div class="cell" data-label="Arabic">العلاقه مع تصنيف السجل | العلاقه</div>
 <div class="cell" data-label="English">Relation With Document Category | Relation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosReqFieldRelationWithRef](/modules/enums/PosReqFieldRelationWithRef.md) </div>
 
 </div>
 
@@ -903,7 +903,7 @@
 <div class="cell" data-label="Column">relationWithLocator</div>
 <div class="cell" data-label="Arabic">العلاقه مع الموقع | العلاقه</div>
 <div class="cell" data-label="English">Relation With Locator | Relation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosReqFieldRelationWithRef](/modules/enums/PosReqFieldRelationWithRef.md) </div>
 
 </div>
 
@@ -912,7 +912,7 @@
 <div class="cell" data-label="Column">relationWithSalesMan</div>
 <div class="cell" data-label="Arabic">العلاقه مع مندوب المبيعات | العلاقه</div>
 <div class="cell" data-label="English">Relation With Sales Man | Relation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosReqFieldRelationWithRef](/modules/enums/PosReqFieldRelationWithRef.md) </div>
 
 </div>
 
@@ -921,7 +921,7 @@
 <div class="cell" data-label="Column">relationWithWarehouse</div>
 <div class="cell" data-label="Arabic">العلاقه مع المخزن | العلاقه</div>
 <div class="cell" data-label="English">Relation With Warehouse | Relation</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PosReqFieldRelationWithRef](/modules/enums/PosReqFieldRelationWithRef.md) </div>
 
 </div>
 

@@ -425,7 +425,7 @@
 <div class="cell" data-label="Column">transferType</div>
 <div class="cell" data-label="Arabic">نوع التحويل</div>
 <div class="cell" data-label="English">Transfer Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TransferType](/modules/enums/TransferType.md) </div>
 
 </div>
 
@@ -651,7 +651,7 @@
 <div class="cell" data-label="Column">costTransType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CostTransType](/modules/enums/CostTransType.md) </div>
 
 </div>
 
@@ -669,7 +669,7 @@
 <div class="cell" data-label="Column">currentCostType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CostTransType](/modules/enums/CostTransType.md) </div>
 
 </div>
 
@@ -1149,7 +1149,7 @@
 <div class="cell" data-label="Column">transferType</div>
 <div class="cell" data-label="Arabic">نوع التحويل</div>
 <div class="cell" data-label="English">Transfer Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TransferType](/modules/enums/TransferType.md) </div>
 
 </div>
 

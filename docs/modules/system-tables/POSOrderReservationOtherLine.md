@@ -25,7 +25,7 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
 
 </div>
 

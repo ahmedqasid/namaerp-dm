@@ -284,7 +284,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -416,7 +416,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -704,7 +704,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -809,7 +809,7 @@
 <div class="cell" data-label="Column">tableType</div>
 <div class="cell" data-label="Arabic">Table Type</div>
 <div class="cell" data-label="English">Table Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TableType](/modules/enums/TableType.md) </div>
 
 </div>
 
@@ -818,7 +818,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DashBoardElementType](/modules/enums/DashBoardElementType.md) </div>
 
 </div>
 
@@ -921,7 +921,16 @@
 <div class="cell" data-label="Column">barcodeType</div>
 <div class="cell" data-label="Arabic">نوع الباركود</div>
 <div class="cell" data-label="English">Barcode Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [BarcodeType](/modules/enums/BarcodeType.md) </div>
+
+</div>
+
+<div class="row searchable" id="fields.chartUsageType">
+<div class="cell" data-label="Property">fields.chartUsageType</div>
+<div class="cell" data-label="Column">chartUsageType</div>
+<div class="cell" data-label="Arabic">نوع الاستعمال في الرسم البياني</div>
+<div class="cell" data-label="English">Chart Usage Type</div>
+<div class="cell" data-label="Type"> [ChartColumnUsage](/modules/enums/ChartColumnUsage.md) </div>
 
 </div>
 
@@ -1002,7 +1011,7 @@
 <div class="cell" data-label="Column">displayFieldAs</div>
 <div class="cell" data-label="Arabic">إظهار الرقم كـ</div>
 <div class="cell" data-label="English">Display Number As</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DisplayNumberAs](/modules/enums/DisplayNumberAs.md) </div>
 
 </div>
 
@@ -1011,7 +1020,7 @@
 <div class="cell" data-label="Column">displayReferenceAs</div>
 <div class="cell" data-label="Arabic">إظهار المرجع كـ</div>
 <div class="cell" data-label="English">Display Reference As</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DisplayReferenceAs](/modules/enums/DisplayReferenceAs.md) </div>
 
 </div>
 
@@ -1182,7 +1191,7 @@
 <div class="cell" data-label="Column">patternType</div>
 <div class="cell" data-label="Arabic">Pattern Type</div>
 <div class="cell" data-label="English">Pattern Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PatternType](/modules/enums/PatternType.md) </div>
 
 </div>
 
@@ -1191,7 +1200,7 @@
 <div class="cell" data-label="Column">pivotColumnType</div>
 <div class="cell" data-label="Arabic">نوع عمود المحور</div>
 <div class="cell" data-label="English">Pivot Column Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PivotColumnType](/modules/enums/PivotColumnType.md) </div>
 
 </div>
 
@@ -1200,7 +1209,7 @@
 <div class="cell" data-label="Column">referenceOrderBy</div>
 <div class="cell" data-label="Arabic">ترتيب المرجع بـ</div>
 <div class="cell" data-label="English">Reference Order By</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReferenceOrderBy](/modules/enums/ReferenceOrderBy.md) </div>
 
 </div>
 
@@ -1209,7 +1218,7 @@
 <div class="cell" data-label="Column">showRunningTotalInsteadOfValue</div>
 <div class="cell" data-label="Arabic">إظهار الإجمالي الحالي في التفاصيل بدلا من القيمة</div>
 <div class="cell" data-label="English">Show Running Total Instead Of Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ShowRunningTotalInsteadOfValue](/modules/enums/ShowRunningTotalInsteadOfValue.md) </div>
 
 </div>
 
@@ -1218,7 +1227,7 @@
 <div class="cell" data-label="Column">showTotalInGroup1Section</div>
 <div class="cell" data-label="Arabic">Show Total In Group 1 Section</div>
 <div class="cell" data-label="English">Show Total In Group 1 Section</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GroupSection](/modules/enums/GroupSection.md) </div>
 
 </div>
 
@@ -1227,7 +1236,7 @@
 <div class="cell" data-label="Column">showTotalInGroup2Section</div>
 <div class="cell" data-label="Arabic">Show Total In Group 2 Section</div>
 <div class="cell" data-label="English">Show Total In Group 2 Section</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GroupSection](/modules/enums/GroupSection.md) </div>
 
 </div>
 
@@ -1236,7 +1245,7 @@
 <div class="cell" data-label="Column">showTotalInGroup3Section</div>
 <div class="cell" data-label="Arabic">Show Total In Group 3 Section</div>
 <div class="cell" data-label="English">Show Total In Group 3 Section</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GroupSection](/modules/enums/GroupSection.md) </div>
 
 </div>
 
@@ -1245,7 +1254,7 @@
 <div class="cell" data-label="Column">showTotalInGroup4Section</div>
 <div class="cell" data-label="Arabic">Show Total In Group 4 Section</div>
 <div class="cell" data-label="English">Show Total In Group 4 Section</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GroupSection](/modules/enums/GroupSection.md) </div>
 
 </div>
 
@@ -1254,7 +1263,7 @@
 <div class="cell" data-label="Column">showTotalInGroup5Section</div>
 <div class="cell" data-label="Arabic">Show Total In Group 5 Section</div>
 <div class="cell" data-label="English">Show Total In Group 5 Section</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GroupSection](/modules/enums/GroupSection.md) </div>
 
 </div>
 
@@ -1263,7 +1272,7 @@
 <div class="cell" data-label="Column">sqlAggregationType</div>
 <div class="cell" data-label="Arabic">SQL Aggregation Type</div>
 <div class="cell" data-label="English">SQL Aggregation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SqlAggregationType](/modules/enums/SqlAggregationType.md) </div>
 
 </div>
 
@@ -1314,7 +1323,7 @@
 <div class="cell" data-label="Column">totalPosition</div>
 <div class="cell" data-label="Arabic">Total Position</div>
 <div class="cell" data-label="English">Total Position</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TotalPosition](/modules/enums/TotalPosition.md) </div>
 
 </div>
 
@@ -1323,7 +1332,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [WizardFieldType](/modules/enums/WizardFieldType.md) </div>
 
 </div>
 
@@ -1350,7 +1359,7 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -1417,7 +1426,7 @@
 <div class="cell" data-label="Column">barcodeType</div>
 <div class="cell" data-label="Arabic">نوع الباركود</div>
 <div class="cell" data-label="English">Barcode Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [BarcodeType](/modules/enums/BarcodeType.md) </div>
 
 </div>
 
@@ -1570,7 +1579,7 @@
 <div class="cell" data-label="Column">displayFieldAs</div>
 <div class="cell" data-label="Arabic">إظهار الرقم كـ</div>
 <div class="cell" data-label="English">Display Number As</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DisplayNumberAs](/modules/enums/DisplayNumberAs.md) </div>
 
 </div>
 
@@ -1579,7 +1588,7 @@
 <div class="cell" data-label="Column">displayReferenceAs</div>
 <div class="cell" data-label="Arabic">إظهار المرجع كـ</div>
 <div class="cell" data-label="English">Display Reference As</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DisplayReferenceAs](/modules/enums/DisplayReferenceAs.md) </div>
 
 </div>
 
@@ -1633,7 +1642,7 @@
 <div class="cell" data-label="Column">filterType</div>
 <div class="cell" data-label="Arabic">نوع الفلتر</div>
 <div class="cell" data-label="English">Filter Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FilterType](/modules/enums/FilterType.md) </div>
 
 </div>
 
@@ -1705,7 +1714,7 @@
 <div class="cell" data-label="Column">layout</div>
 <div class="cell" data-label="Arabic">طريقة العرض</div>
 <div class="cell" data-label="English">Layout</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FieldLayout](/modules/enums/FieldLayout.md) </div>
 
 </div>
 
@@ -1768,7 +1777,7 @@
 <div class="cell" data-label="Column">paramType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Param Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ParamFieldType](/modules/enums/ParamFieldType.md) </div>
 
 </div>
 
@@ -1777,7 +1786,7 @@
 <div class="cell" data-label="Column">parameterType</div>
 <div class="cell" data-label="Arabic">نوع المدخل</div>
 <div class="cell" data-label="English">Parameter Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ParameterType](/modules/enums/ParameterType.md) </div>
 
 </div>
 
@@ -1795,7 +1804,7 @@
 <div class="cell" data-label="Column">patternType</div>
 <div class="cell" data-label="Arabic">Pattern Type</div>
 <div class="cell" data-label="English">Pattern Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PatternType](/modules/enums/PatternType.md) </div>
 
 </div>
 
@@ -1831,7 +1840,7 @@
 <div class="cell" data-label="Column">referenceOrderBy</div>
 <div class="cell" data-label="Arabic">ترتيب المرجع بـ</div>
 <div class="cell" data-label="English">Reference Order By</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReferenceOrderBy](/modules/enums/ReferenceOrderBy.md) </div>
 
 </div>
 
@@ -1867,7 +1876,7 @@
 <div class="cell" data-label="Column">showRunningTotalInsteadOfValue</div>
 <div class="cell" data-label="Arabic">إظهار الإجمالي الحالي في التفاصيل بدلا من القيمة</div>
 <div class="cell" data-label="English">Show Running Total Instead Of Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ShowRunningTotalInsteadOfValue](/modules/enums/ShowRunningTotalInsteadOfValue.md) </div>
 
 </div>
 
@@ -1876,7 +1885,7 @@
 <div class="cell" data-label="Column">showTotalInGroup1Section</div>
 <div class="cell" data-label="Arabic">Show Total In Group 1 Section</div>
 <div class="cell" data-label="English">Show Total In Group 1 Section</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GroupSection](/modules/enums/GroupSection.md) </div>
 
 </div>
 
@@ -1885,7 +1894,7 @@
 <div class="cell" data-label="Column">showTotalInGroup2Section</div>
 <div class="cell" data-label="Arabic">Show Total In Group 2 Section</div>
 <div class="cell" data-label="English">Show Total In Group 2 Section</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GroupSection](/modules/enums/GroupSection.md) </div>
 
 </div>
 
@@ -1894,7 +1903,7 @@
 <div class="cell" data-label="Column">showTotalInGroup3Section</div>
 <div class="cell" data-label="Arabic">Show Total In Group 3 Section</div>
 <div class="cell" data-label="English">Show Total In Group 3 Section</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GroupSection](/modules/enums/GroupSection.md) </div>
 
 </div>
 
@@ -1903,7 +1912,7 @@
 <div class="cell" data-label="Column">showTotalInGroup4Section</div>
 <div class="cell" data-label="Arabic">Show Total In Group 4 Section</div>
 <div class="cell" data-label="English">Show Total In Group 4 Section</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GroupSection](/modules/enums/GroupSection.md) </div>
 
 </div>
 
@@ -1912,7 +1921,7 @@
 <div class="cell" data-label="Column">showTotalInGroup5Section</div>
 <div class="cell" data-label="Arabic">Show Total In Group 5 Section</div>
 <div class="cell" data-label="English">Show Total In Group 5 Section</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GroupSection](/modules/enums/GroupSection.md) </div>
 
 </div>
 
@@ -1939,7 +1948,7 @@
 <div class="cell" data-label="Column">sqlAggregationType</div>
 <div class="cell" data-label="Arabic">SQL Aggregation Type</div>
 <div class="cell" data-label="English">SQL Aggregation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SqlAggregationType](/modules/enums/SqlAggregationType.md) </div>
 
 </div>
 
@@ -1990,7 +1999,7 @@
 <div class="cell" data-label="Column">totalPosition</div>
 <div class="cell" data-label="Arabic">Total Position</div>
 <div class="cell" data-label="English">Total Position</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TotalPosition](/modules/enums/TotalPosition.md) </div>
 
 </div>
 
@@ -1999,7 +2008,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [WizardFieldType](/modules/enums/WizardFieldType.md) </div>
 
 </div>
 
@@ -2026,7 +2035,7 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -2205,7 +2214,7 @@
 <div class="cell" data-label="Column">barcodeType</div>
 <div class="cell" data-label="Arabic">نوع الباركود</div>
 <div class="cell" data-label="English">Barcode Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [BarcodeType](/modules/enums/BarcodeType.md) </div>
 
 </div>
 
@@ -2286,7 +2295,7 @@
 <div class="cell" data-label="Column">displayFieldAs</div>
 <div class="cell" data-label="Arabic">إظهار الرقم كـ</div>
 <div class="cell" data-label="English">Display Number As</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DisplayNumberAs](/modules/enums/DisplayNumberAs.md) </div>
 
 </div>
 
@@ -2295,7 +2304,7 @@
 <div class="cell" data-label="Column">displayReferenceAs</div>
 <div class="cell" data-label="Arabic">إظهار المرجع كـ</div>
 <div class="cell" data-label="English">Display Reference As</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DisplayReferenceAs](/modules/enums/DisplayReferenceAs.md) </div>
 
 </div>
 
@@ -2457,7 +2466,7 @@
 <div class="cell" data-label="Column">patternType</div>
 <div class="cell" data-label="Arabic">Pattern Type</div>
 <div class="cell" data-label="English">Pattern Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [PatternType](/modules/enums/PatternType.md) </div>
 
 </div>
 
@@ -2466,7 +2475,7 @@
 <div class="cell" data-label="Column">referenceOrderBy</div>
 <div class="cell" data-label="Arabic">ترتيب المرجع بـ</div>
 <div class="cell" data-label="English">Reference Order By</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReferenceOrderBy](/modules/enums/ReferenceOrderBy.md) </div>
 
 </div>
 
@@ -2475,7 +2484,7 @@
 <div class="cell" data-label="Column">showRunningTotalInsteadOfValue</div>
 <div class="cell" data-label="Arabic">إظهار الإجمالي الحالي في التفاصيل بدلا من القيمة</div>
 <div class="cell" data-label="English">Show Running Total Instead Of Value</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ShowRunningTotalInsteadOfValue](/modules/enums/ShowRunningTotalInsteadOfValue.md) </div>
 
 </div>
 
@@ -2484,7 +2493,7 @@
 <div class="cell" data-label="Column">showTotalInGroup1Section</div>
 <div class="cell" data-label="Arabic">Show Total In Group 1 Section</div>
 <div class="cell" data-label="English">Show Total In Group 1 Section</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GroupSection](/modules/enums/GroupSection.md) </div>
 
 </div>
 
@@ -2493,7 +2502,7 @@
 <div class="cell" data-label="Column">showTotalInGroup2Section</div>
 <div class="cell" data-label="Arabic">Show Total In Group 2 Section</div>
 <div class="cell" data-label="English">Show Total In Group 2 Section</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GroupSection](/modules/enums/GroupSection.md) </div>
 
 </div>
 
@@ -2502,7 +2511,7 @@
 <div class="cell" data-label="Column">showTotalInGroup3Section</div>
 <div class="cell" data-label="Arabic">Show Total In Group 3 Section</div>
 <div class="cell" data-label="English">Show Total In Group 3 Section</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GroupSection](/modules/enums/GroupSection.md) </div>
 
 </div>
 
@@ -2511,7 +2520,7 @@
 <div class="cell" data-label="Column">showTotalInGroup4Section</div>
 <div class="cell" data-label="Arabic">Show Total In Group 4 Section</div>
 <div class="cell" data-label="English">Show Total In Group 4 Section</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GroupSection](/modules/enums/GroupSection.md) </div>
 
 </div>
 
@@ -2520,7 +2529,7 @@
 <div class="cell" data-label="Column">showTotalInGroup5Section</div>
 <div class="cell" data-label="Arabic">Show Total In Group 5 Section</div>
 <div class="cell" data-label="English">Show Total In Group 5 Section</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GroupSection](/modules/enums/GroupSection.md) </div>
 
 </div>
 
@@ -2529,7 +2538,7 @@
 <div class="cell" data-label="Column">sortDirection</div>
 <div class="cell" data-label="Arabic">اتجاه الترتيب</div>
 <div class="cell" data-label="English">Sort Direction</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SortDirection](/modules/enums/SortDirection.md) </div>
 
 </div>
 
@@ -2538,7 +2547,7 @@
 <div class="cell" data-label="Column">sqlAggregationType</div>
 <div class="cell" data-label="Arabic">SQL Aggregation Type</div>
 <div class="cell" data-label="English">SQL Aggregation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SqlAggregationType](/modules/enums/SqlAggregationType.md) </div>
 
 </div>
 
@@ -2589,7 +2598,7 @@
 <div class="cell" data-label="Column">totalPosition</div>
 <div class="cell" data-label="Arabic">Total Position</div>
 <div class="cell" data-label="English">Total Position</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TotalPosition](/modules/enums/TotalPosition.md) </div>
 
 </div>
 
@@ -2598,7 +2607,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [WizardFieldType](/modules/enums/WizardFieldType.md) </div>
 
 </div>
 
@@ -2634,7 +2643,7 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
 
 </div>
 
@@ -2826,7 +2835,7 @@
 <div class="cell" data-label="Column">operator</div>
 <div class="cell" data-label="Arabic">المعامل</div>
 <div class="cell" data-label="English">Operator</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FilterType](/modules/enums/FilterType.md) </div>
 
 </div>
 

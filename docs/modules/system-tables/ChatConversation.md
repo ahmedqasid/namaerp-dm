@@ -25,7 +25,7 @@
 <div class="cell" data-label="Column">chatConversationType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ChatConversationType](/modules/enums/ChatConversationType.md) </div>
 
 </div>
 
@@ -97,7 +97,7 @@
 <div class="cell" data-label="Column">lastMessageType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ChatMessageType](/modules/enums/ChatMessageType.md) </div>
 
 </div>
 

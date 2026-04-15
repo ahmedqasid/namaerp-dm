@@ -53,7 +53,7 @@
 <div class="cell" data-label="Column">assayContractType</div>
 <div class="cell" data-label="Arabic">نوع المقايسة</div>
 <div class="cell" data-label="English">Assay Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AssayContractType](/modules/enums/AssayContractType.md) </div>
 
 </div>
 
@@ -446,7 +446,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -593,7 +593,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -1010,7 +1010,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -1097,7 +1097,7 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AssayStatus](/modules/enums/AssayStatus.md) </div>
 
 </div>
 
@@ -1211,7 +1211,7 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ContractTypeDependency](/modules/enums/ContractTypeDependency.md) </div>
 
 </div>
 
@@ -1359,7 +1359,7 @@
 <div class="cell" data-label="Column">conditionStatus</div>
 <div class="cell" data-label="Arabic">حالة الشرط</div>
 <div class="cell" data-label="English">Condition Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ContractingCondStatus](/modules/enums/ContractingCondStatus.md) </div>
 
 </div>
 
@@ -1566,7 +1566,7 @@
 <div class="cell" data-label="Column">relationWithDocs</div>
 <div class="cell" data-label="Arabic">العلاقة مع السندات</div>
 <div class="cell" data-label="English">Relation With Documents</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ConditionRelationWithDocs](/modules/enums/ConditionRelationWithDocs.md) </div>
 
 </div>
 
@@ -1692,7 +1692,7 @@
 <div class="cell" data-label="Column">valueType</div>
 <div class="cell" data-label="Arabic">نوع القيمة</div>
 <div class="cell" data-label="English">Value Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ConditionValType](/modules/enums/ConditionValType.md) </div>
 
 </div>
 
@@ -2015,7 +2015,7 @@
 <div class="cell" data-label="Column">guaranteeType</div>
 <div class="cell" data-label="Arabic">نوع الضمان</div>
 <div class="cell" data-label="English">Guarantee Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GuaranteeType](/modules/enums/GuaranteeType.md) </div>
 
 </div>
 
@@ -2897,7 +2897,7 @@
 <div class="cell" data-label="Column">termStatus</div>
 <div class="cell" data-label="Arabic">حالة البند</div>
 <div class="cell" data-label="English">Term Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TermStatus](/modules/enums/TermStatus.md) </div>
 
 </div>
 
@@ -3032,7 +3032,7 @@
 <div class="cell" data-label="Column">warrantyPeriodUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 

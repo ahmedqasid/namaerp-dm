@@ -290,7 +290,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -359,7 +359,7 @@
 <div class="cell" data-label="Column">entityTypeStrategy</div>
 <div class="cell" data-label="Arabic">Entity Type Strategy</div>
 <div class="cell" data-label="English">Entity Type Strategy</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FlowEntityTypeStrategy](/modules/enums/FlowEntityTypeStrategy.md) </div>
 
 </div>
 
@@ -416,7 +416,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -698,7 +698,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 
@@ -788,7 +788,7 @@
 <div class="cell" data-label="Column">toolType</div>
 <div class="cell" data-label="Arabic">Tool Type</div>
 <div class="cell" data-label="English">Tool Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AIToolType](/modules/enums/AIToolType.md) </div>
 
 </div>
 
@@ -882,7 +882,7 @@
 <div class="cell" data-label="Column">allowDisallow</div>
 <div class="cell" data-label="Arabic">سماح - منع</div>
 <div class="cell" data-label="English">Allow - Disallow</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SecurityApplicationType](/modules/enums/SecurityApplicationType.md) </div>
 
 </div>
 
@@ -940,7 +940,7 @@
 <div class="cell" data-label="Column">aiParameterCompletion</div>
 <div class="cell" data-label="Arabic">AI Parameter Completion</div>
 <div class="cell" data-label="English">AI Parameter Completion</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FillByAI](/modules/enums/FillByAI.md) </div>
 
 </div>
 
@@ -976,7 +976,7 @@
 <div class="cell" data-label="Column">fieldType</div>
 <div class="cell" data-label="Arabic">نوع الحقل</div>
 <div class="cell" data-label="English">Field Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AIFieldType](/modules/enums/AIFieldType.md) </div>
 
 </div>
 
@@ -1061,7 +1061,7 @@
 <div class="cell" data-label="Column">aiParameterCompletion</div>
 <div class="cell" data-label="Arabic">AI Parameter Completion</div>
 <div class="cell" data-label="English">AI Parameter Completion</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FillByAI](/modules/enums/FillByAI.md) </div>
 
 </div>
 
@@ -1097,7 +1097,7 @@
 <div class="cell" data-label="Column">fieldType</div>
 <div class="cell" data-label="Arabic">نوع الحقل</div>
 <div class="cell" data-label="English">Field Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AIFieldType](/modules/enums/AIFieldType.md) </div>
 
 </div>
 
@@ -1182,7 +1182,7 @@
 <div class="cell" data-label="Column">aiParameterCompletion</div>
 <div class="cell" data-label="Arabic">AI Parameter Completion</div>
 <div class="cell" data-label="English">AI Parameter Completion</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [FillByAI](/modules/enums/FillByAI.md) </div>
 
 </div>
 
@@ -1254,7 +1254,7 @@
 <div class="cell" data-label="Column">fieldType</div>
 <div class="cell" data-label="Arabic">نوع الحقل</div>
 <div class="cell" data-label="English">Field Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [AIFieldType](/modules/enums/AIFieldType.md) </div>
 
 </div>
 

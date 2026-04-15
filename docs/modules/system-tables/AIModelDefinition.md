@@ -34,7 +34,7 @@
 <div class="cell" data-label="Column">chatModelsProviders</div>
 <div class="cell" data-label="Arabic">Cloud Provider</div>
 <div class="cell" data-label="English">Cloud Provider</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ChatModelsProviders](/modules/enums/ChatModelsProviders.md) </div>
 
 </div>
 

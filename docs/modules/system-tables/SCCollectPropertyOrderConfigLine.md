@@ -25,7 +25,7 @@
 <div class="cell" data-label="Column">ascOrDesc</div>
 <div class="cell" data-label="Arabic">تصاعدي/تنازلي</div>
 <div class="cell" data-label="English">Asc/Desc</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [SortType](/modules/enums/SortType.md) </div>
 
 </div>
 

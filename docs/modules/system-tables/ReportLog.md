@@ -43,7 +43,7 @@
 <div class="cell" data-label="Column">exportFormat</div>
 <div class="cell" data-label="Arabic">Export Format</div>
 <div class="cell" data-label="English">Export Format</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [RepOutputFormat](/modules/enums/RepOutputFormat.md) </div>
 
 </div>
 

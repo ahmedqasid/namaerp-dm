@@ -221,7 +221,7 @@
 <div class="cell" data-label="Column">creditLimitCalculationMethod</div>
 <div class="cell" data-label="Arabic">طريقة حساب الحد الائتمانى</div>
 <div class="cell" data-label="English">Credit Limit Calculation Method</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CreditFacilityLimitCalculationMethod](/modules/enums/CreditFacilityLimitCalculationMethod.md) </div>
 
 </div>
 
@@ -230,7 +230,7 @@
 <div class="cell" data-label="Column">creditPeriodUom</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [TimePeriodType](/modules/enums/TimePeriodType.md) </div>
 
 </div>
 
@@ -401,7 +401,7 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
 
 </div>
 
@@ -506,7 +506,7 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
 
 </div>
 
@@ -686,7 +686,7 @@
 <div class="cell" data-label="Column">paymentEffectOnRemaining</div>
 <div class="cell" data-label="Arabic">تأثير السداد على المتبقي</div>
 <div class="cell" data-label="English">Payment Effect On Remaining</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CreditFacilityPaymentEffectOnRemaining](/modules/enums/CreditFacilityPaymentEffectOnRemaining.md) </div>
 
 </div>
 
@@ -695,7 +695,7 @@
 <div class="cell" data-label="Column">paymentMethod</div>
 <div class="cell" data-label="Arabic">طريقة الدفع</div>
 <div class="cell" data-label="English"> Payment Method</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [CreditFacilityPaymentMethod](/modules/enums/CreditFacilityPaymentMethod.md) </div>
 
 </div>
 
@@ -776,7 +776,7 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
 
 </div>
 

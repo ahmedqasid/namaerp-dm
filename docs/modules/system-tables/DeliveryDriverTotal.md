@@ -127,7 +127,7 @@
 <div class="cell" data-label="Column">workday</div>
 <div class="cell" data-label="Arabic">يوم عمل</div>
 <div class="cell" data-label="English">Work day</div>
-<div class="cell" data-label="Type">Enum</div>
+<div class="cell" data-label="Type"> [NamaDayOfWeek](/modules/enums/NamaDayOfWeek.md) </div>
 
 </div>
 
