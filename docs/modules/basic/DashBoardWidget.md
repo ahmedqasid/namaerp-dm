@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#cardMenus'>cardMenus (DashboardWidgetCardMenu) </a> , <a href='#crossFilterBindings'>crossFilterBindings (DashBoardWidgetCrossFilterBinding) </a> , <a href='#extraTempoColumns'>extraTempoColumns (DashboardWidgetFieldTempo) </a> , <a href='#inputs'>inputs (DashboardWidgetInput) </a> , <a href='#params'>params (WidgetParameterLine) </a>
+<a href='#cardMenus'>cardMenus (DashboardWidgetCardMenu) </a> , <a href='#comparisonDataMapping'>comparisonDataMapping (DashBoardWidgetComparisonMapping) </a> , <a href='#crossFilterBindings'>crossFilterBindings (DashBoardWidgetCrossFilterBinding) </a> , <a href='#extraTempoColumns'>extraTempoColumns (DashboardWidgetFieldTempo) </a> , <a href='#inputs'>inputs (DashboardWidgetInput) </a> , <a href='#params'>params (WidgetParameterLine) </a>
 </div>
 
 <div class='searchable'>
@@ -405,6 +405,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="enableComparison">
+<div class="cell" data-label="Property">enableComparison</div>
+<div class="cell" data-label="Column">enableComparison</div>
+<div class="cell" data-label="Arabic">تفعيل المقارنة</div>
+<div class="cell" data-label="English">Enable Comparison</div>
+<div class="cell" data-label="Type">Boolean</div>
+
+</div>
+
 <div class="row searchable" id="englishChartTitle">
 <div class="cell" data-label="Property">englishChartTitle</div>
 <div class="cell" data-label="Column">englishChartTitle</div>
@@ -634,6 +643,15 @@
 
  [LargeData](/modules/system-tables/LargeData.md) 
 </div>
+</div>
+
+<div class="row searchable" id="mergeComparisonByColumns">
+<div class="cell" data-label="Property">mergeComparisonByColumns</div>
+<div class="cell" data-label="Column">mergeComparisonByColumns</div>
+<div class="cell" data-label="Arabic">دمج نتائج المقارنة حسب الأعمدة (CSV)</div>
+<div class="cell" data-label="English">Merge Comparison Results By Columns (CSV)</div>
+<div class="cell" data-label="Type">Text</div>
+
 </div>
 
 <div class="row searchable" id="metricsCardConfig.badgePercentColumn">
@@ -1389,6 +1407,64 @@
 <div class="cell" data-label="Column">viewName</div>
 <div class="cell" data-label="Arabic">معرف الشاشة (اسم ملف العرض)</div>
 <div class="cell" data-label="English">Layout ID (View name)</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+
+</div>
+</div>
+
+<div id='comparisonDataMapping' title='comparisonDataMapping' class='searchable'>
+
+## comparisonDataMapping (ربط بيانات المقارنة - Comparison Data Mapping)
+
+<div class='tableName'>
+
+**Table Name:** DashBoardWidgetComparisonMapping, **Join Column:** dashBoardWidget_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="comparisonDataMapping.id">
+<div class="cell" data-label="Property">comparisonDataMapping.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">ID</div>
+
+</div>
+
+<div class="row searchable" id="comparisonDataMapping.lineNumber">
+<div class="cell" data-label="Property">comparisonDataMapping.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="comparisonDataMapping.originalColumn">
+<div class="cell" data-label="Property">comparisonDataMapping.originalColumn</div>
+<div class="cell" data-label="Column">originalColumn</div>
+<div class="cell" data-label="Arabic">العمود الأصلي</div>
+<div class="cell" data-label="English">Original Column</div>
+<div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="comparisonDataMapping.previousPeriodColumn">
+<div class="cell" data-label="Property">comparisonDataMapping.previousPeriodColumn</div>
+<div class="cell" data-label="Column">previousPeriodColumn</div>
+<div class="cell" data-label="Arabic">عمود الفترة السابقة</div>
+<div class="cell" data-label="English">Previous Period Column</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>

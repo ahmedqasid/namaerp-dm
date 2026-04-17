@@ -680,6 +680,7 @@
   - [SortDirection](/modules/enums/SortDirection.md)
   - [SortMethod](/modules/enums/SortMethod.md)
   - [SortType](/modules/enums/SortType.md)
+  - [SoundEffects](/modules/enums/SoundEffects.md)
   - [SourceInvoiceCalculation](/modules/enums/SourceInvoiceCalculation.md)
   - [SourceSelectionMethod](/modules/enums/SourceSelectionMethod.md)
   - [SpecificationType](/modules/enums/SpecificationType.md)

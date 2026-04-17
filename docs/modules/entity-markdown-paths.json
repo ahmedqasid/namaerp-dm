@@ -127,6 +127,7 @@
   "AutoSalesPricingSetting" : "supplychain-sales/AutoSalesPricingSetting.md",
   "AutoSystemAction" : "system-tables/AutoSystemAction.md",
   "BICrossFilter" : "basic/BICrossFilter.md",
+  "BIPeriodComparisonConfig" : "system-tables/BIPeriodComparisonConfig.md",
   "BLCChanging" : "accounting-blc/BLCChanging.md",
   "BLCClosingDoc" : "accounting-blc/BLCClosingDoc.md",
   "BLCEntry" : "system-tables/BLCEntry.md",

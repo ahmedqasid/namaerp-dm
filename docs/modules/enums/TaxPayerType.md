@@ -52,16 +52,17 @@
 
 <div class="row searchable">
 <div class="cell" data-label="ID">UAEOrchidaStagingTax</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">الإمارات - الفاتورة الإلكترونية التجريبية</div>
+<div class="cell" data-label="English">UAE - Electronic Invoice Staging</div>
 </div>
 
 <div class="row searchable">
 <div class="cell" data-label="ID">UAEOrchidaTax</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">الإمارات - الفاتورة الإلكترونية</div>
+<div class="cell" data-label="English">UAE - Electronic Invoice</div>
 </div>
 
 
+</div>
 </div>
 

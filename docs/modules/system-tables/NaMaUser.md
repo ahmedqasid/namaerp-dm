@@ -881,6 +881,15 @@
 
 </div>
 
+<div class="row searchable" id="settings.approvalsSound">
+<div class="cell" data-label="Property">settings.approvalsSound</div>
+<div class="cell" data-label="Column">approvalsSound</div>
+<div class="cell" data-label="Arabic">صوت إشعار الموافقات</div>
+<div class="cell" data-label="English">Approvals Sound</div>
+<div class="cell" data-label="Type"> [SoundEffects](/modules/enums/SoundEffects.md) </div>
+
+</div>
+
 <div class="row searchable" id="settings.attachment">
 <div class="cell" data-label="Property">settings.attachment</div>
 <div class="cell" data-label="Column">attachment_id</div>
@@ -1283,6 +1292,15 @@
 
 </div>
 
+<div class="row searchable" id="settings.messagesSound">
+<div class="cell" data-label="Property">settings.messagesSound</div>
+<div class="cell" data-label="Column">messagesSound</div>
+<div class="cell" data-label="Arabic">صوت الرسائل</div>
+<div class="cell" data-label="English">Messages Sound</div>
+<div class="cell" data-label="Type"> [SoundEffects](/modules/enums/SoundEffects.md) </div>
+
+</div>
+
 <div class="row searchable" id="settings.mobile">
 <div class="cell" data-label="Property">settings.mobile</div>
 <div class="cell" data-label="Column">mobile</div>
@@ -1349,6 +1367,15 @@
 <div class="cell" data-label="Arabic">عدد التنبيهات اللتى سوف تظهر عند وجود تنبيه جديد</div>
 <div class="cell" data-label="English">Number of notifications that will appear when there is a new one</div>
 <div class="cell" data-label="Type">Integer</div>
+
+</div>
+
+<div class="row searchable" id="settings.notificationsSound">
+<div class="cell" data-label="Property">settings.notificationsSound</div>
+<div class="cell" data-label="Column">notificationsSound</div>
+<div class="cell" data-label="Arabic">صوت الاشعارات</div>
+<div class="cell" data-label="English">Notifications Sound</div>
+<div class="cell" data-label="Type"> [SoundEffects](/modules/enums/SoundEffects.md) </div>
 
 </div>
 
@@ -1478,6 +1505,15 @@
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">Text</div>
+
+</div>
+
+<div class="row searchable" id="settings.taskEndedSound">
+<div class="cell" data-label="Property">settings.taskEndedSound</div>
+<div class="cell" data-label="Column">taskEndedSound</div>
+<div class="cell" data-label="Arabic">صوت انتهاء المهمة</div>
+<div class="cell" data-label="English">Task Ended Sound</div>
+<div class="cell" data-label="Type"> [SoundEffects](/modules/enums/SoundEffects.md) </div>
 
 </div>
 

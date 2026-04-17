@@ -945,8 +945,8 @@
 <div class="row searchable" id="orchidaCompanyId">
 <div class="cell" data-label="Property">orchidaCompanyId</div>
 <div class="cell" data-label="Column">orchidaCompanyId</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">معرف الشركة في Orchida</div>
+<div class="cell" data-label="English">Orchida Company ID</div>
 <div class="cell" data-label="Type">Text</div>
 
 </div>

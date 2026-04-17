@@ -20,6 +20,7 @@
   - [AttendanceMachineConfigStats](/modules/system-tables/AttendanceMachineConfigStats.md)
   - [AttendanceMachineCronLog](/modules/system-tables/AttendanceMachineCronLog.md)
   - [AutoSystemAction](/modules/system-tables/AutoSystemAction.md)
+  - [BIPeriodComparisonConfig](/modules/system-tables/BIPeriodComparisonConfig.md)
   - [BLCEntry](/modules/system-tables/BLCEntry.md)
   - [BlockTree](/modules/system-tables/BlockTree.md)
   - [BranchParentLine](/modules/system-tables/BranchParentLine.md)

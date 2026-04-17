@@ -2071,6 +2071,15 @@
 </div>
 </div>
 
+<div class="row searchable" id="details.itemClass">
+<div class="cell" data-label="Property">details.itemClass</div>
+<div class="cell gen-ref-column" data-label="Column">itemClassActualCode,  itemClassCode,  itemClassEntityType,  itemClassId</div>
+<div class="cell" data-label="Arabic">تصنيف الصنف</div>
+<div class="cell" data-label="English">Item Class</div>
+<div class="cell" data-label="Type">Genericreference</div>
+
+</div>
+
 <div class="row searchable" id="details.itemCode">
 <div class="cell" data-label="Property">details.itemCode</div>
 <div class="cell" data-label="Column">itemCode</div>

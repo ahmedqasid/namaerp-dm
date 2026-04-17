@@ -109,6 +109,18 @@
 
 </div>
 
+<div class="row searchable" id="comparisonConfig">
+<div class="cell" data-label="Property">comparisonConfig</div>
+<div class="cell" data-label="Column">comparisonConfig_id</div>
+<div class="cell" data-label="Arabic">إعدادات مقارنة الفترات</div>
+<div class="cell" data-label="English">Period Comparison Config</div>
+<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Foreign Table">
+
+ [BIPeriodComparisonConfig](/modules/system-tables/BIPeriodComparisonConfig.md) 
+</div>
+</div>
+
 <div class="row searchable" id="createTransactionId">
 <div class="cell" data-label="Property">createTransactionId</div>
 <div class="cell" data-label="Column">createTransactionId</div>
