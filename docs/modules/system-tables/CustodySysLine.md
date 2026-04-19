@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">custodyId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">custodyType</div>
 <div class="cell" data-label="Arabic">نوع العهدة</div>
 <div class="cell" data-label="English">Custody Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">employee_id</div>
 <div class="cell" data-label="Arabic">الموظف</div>
 <div class="cell" data-label="English">Employee</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Employee](/modules/basic/Employee.md) 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">fromDate</div>
 <div class="cell" data-label="Arabic">من تاريخ</div>
 <div class="cell" data-label="English">From Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">remark</div>
 <div class="cell" data-label="Arabic">ملحوظة</div>
 <div class="cell" data-label="English">Remark</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 

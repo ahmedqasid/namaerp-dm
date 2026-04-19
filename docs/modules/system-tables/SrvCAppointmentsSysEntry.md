@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">availableEngineers</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">availableHours</div>
 <div class="cell" data-label="Arabic">الساعات المتاحة</div>
 <div class="cell" data-label="English">Available Hours</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">fullyReserved</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">receptionAverageTime</div>
 <div class="cell" data-label="Arabic">متوسط مدة الاستقبال</div>
 <div class="cell" data-label="English">Reception Average Time</div>
-<div class="cell" data-label="Type">Time</div>
+<div class="cell" data-label="Type">
+
+Time
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">receptionEndTime</div>
 <div class="cell" data-label="Arabic">وقت انتهاء الاستقبال</div>
 <div class="cell" data-label="English">Reception End Time</div>
-<div class="cell" data-label="Type">Time</div>
+<div class="cell" data-label="Type">
+
+Time
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">receptionStartTime</div>
 <div class="cell" data-label="Arabic">وقت بدء الاستقبال</div>
 <div class="cell" data-label="English">Reception Start Time</div>
-<div class="cell" data-label="Type">Time</div>
+<div class="cell" data-label="Type">
+
+Time
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">remainingHours</div>
 <div class="cell" data-label="Arabic">الساعات المتبقة</div>
 <div class="cell" data-label="English">Remaining Hours</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell" data-label="Column">reservationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الحجز</div>
 <div class="cell" data-label="English">Reservation Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -106,7 +133,10 @@
 <div class="cell" data-label="Column">reservedHours</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -115,7 +145,10 @@
 <div class="cell" data-label="Column">tableId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -124,7 +157,10 @@
 <div class="cell" data-label="Column">workCenter_id</div>
 <div class="cell" data-label="Arabic">صالة الإنتاج</div>
 <div class="cell" data-label="English">Work Center</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SrvCWorkCenter](/modules/srvcenter/SrvCWorkCenter.md) 

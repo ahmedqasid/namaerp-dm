@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">code</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">contractTotal</div>
 <div class="cell" data-label="Arabic">إجمالي التعاقد</div>
 <div class="cell" data-label="English">Contract Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">deleted</div>
 <div class="cell" data-label="Arabic">محذوف</div>
 <div class="cell" data-label="English">Deleted</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">description</div>
 <div class="cell" data-label="Arabic">الوصف</div>
 <div class="cell" data-label="English">Description</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">equipment_id</div>
 <div class="cell" data-label="Arabic">المعدة</div>
 <div class="cell" data-label="English">Equipment</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [MCEquipment](/modules/mc/MCEquipment.md) 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">equipmentCategory</div>
 <div class="cell" data-label="Arabic">فئه المعده</div>
 <div class="cell" data-label="English">Equipment Category</div>
-<div class="cell" data-label="Type"> [MCEquipmentCategory](/modules/enums/MCEquipmentCategory.md) </div>
+<div class="cell" data-label="Type">
+
+ [MCEquipmentCategory](/modules/enums/MCEquipmentCategory.md) 
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">monthlySingularPrice</div>
 <div class="cell" data-label="Arabic">السعر الافرادي الشهري</div>
 <div class="cell" data-label="English">Monthly Singular Cost</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">monthlyTotal</div>
 <div class="cell" data-label="Arabic">الإجمالي الشهري</div>
 <div class="cell" data-label="English">Monthly Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -109,7 +136,10 @@
 <div class="cell" data-label="Column">quantity</div>
 <div class="cell" data-label="Arabic">الكمية</div>
 <div class="cell" data-label="English">Quantity</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -118,7 +148,10 @@
 <div class="cell" data-label="Column">recoverDeleted</div>
 <div class="cell" data-label="Arabic">استعادة المحذوف</div>
 <div class="cell" data-label="English">Recover Deleted</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -127,7 +160,10 @@
 <div class="cell" data-label="Column">singularPrice</div>
 <div class="cell" data-label="Arabic">السعر الإفرادي</div>
 <div class="cell" data-label="English">Singular Price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -136,7 +172,10 @@
 <div class="cell" data-label="Column">totalAfterUpdate</div>
 <div class="cell" data-label="Arabic">الإجمالي بعد التعديل</div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -145,7 +184,10 @@
 <div class="cell" data-label="Column">totalContractAfterUpdate</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -154,7 +196,10 @@
 <div class="cell" data-label="Column">uom_id</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [MCUOM](/modules/mc/MCUOM.md) 

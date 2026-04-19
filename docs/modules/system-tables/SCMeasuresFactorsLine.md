@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">entityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">factor</div>
 <div class="cell" data-label="Arabic">المعامل</div>
 <div class="cell" data-label="English">Measures Factor</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell gen-ref-column" data-label="Column">uomActualCode,  uomCode,  uomEntityType,  uomId</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 

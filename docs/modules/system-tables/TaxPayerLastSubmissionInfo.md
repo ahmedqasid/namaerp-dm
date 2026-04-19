@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">lastCreditHash</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">lastDebitHash</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">lastInvoiceCounterValue</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">lastInvoiceHash</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 

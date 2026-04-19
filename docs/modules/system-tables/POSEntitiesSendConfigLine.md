@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">entityTypeList_id</div>
 <div class="cell" data-label="Arabic">قائمة الأنواع</div>
 <div class="cell" data-label="English">Entity Type List</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [EntityTypeList](/modules/basic/EntityTypeList.md) 
@@ -37,7 +40,10 @@
 <div class="cell" data-label="Column">forType</div>
 <div class="cell" data-label="Arabic">للنوع</div>
 <div class="cell" data-label="English">For Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">preventSendingCriteria_id</div>
 <div class="cell" data-label="Arabic">معيار منع الإرسال</div>
 <div class="cell" data-label="English">Prevent Sending Criteria</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [CriteriaDefinition](/modules/basic/CriteriaDefinition.md) 
@@ -67,7 +79,10 @@
 <div class="cell" data-label="Column">sendingCriteria_id</div>
 <div class="cell" data-label="Arabic">معيار الإرسال</div>
 <div class="cell" data-label="English">Sending Criteria</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [CriteriaDefinition](/modules/basic/CriteriaDefinition.md) 

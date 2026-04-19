@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">idStr</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">level</div>
 <div class="cell" data-label="Arabic">المستوى</div>
 <div class="cell" data-label="English">Level</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">name1</div>
 <div class="cell" data-label="Arabic">الاسم العربي</div>
 <div class="cell" data-label="English">Name1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">name2</div>
 <div class="cell" data-label="Arabic">الاسم الإنجليزي</div>
 <div class="cell" data-label="English">Name2</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell gen-ref-column" data-label="Column">nodeActualCode,  nodeCode,  nodeEntityType,  nodeId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">parentCode</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">parentId</div>
 <div class="cell" data-label="Arabic">Parent ID</div>
 <div class="cell" data-label="English">Parent ID</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell" data-label="Column">parentPath</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -106,7 +133,10 @@
 <div class="cell" data-label="Column">parentType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -115,7 +145,10 @@
 <div class="cell" data-label="Column">prefix</div>
 <div class="cell" data-label="Arabic">بادئة التكويد</div>
 <div class="cell" data-label="English">Prefix</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 

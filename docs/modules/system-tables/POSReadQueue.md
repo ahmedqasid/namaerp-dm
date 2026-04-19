@@ -27,7 +27,10 @@
 <div class="cell" data-label="Column">entityCode</div>
 <div class="cell" data-label="Arabic"> الكود</div>
 <div class="cell" data-label="English"> Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -36,7 +39,10 @@
 <div class="cell" data-label="Column">entityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -45,7 +51,10 @@
 <div class="cell" data-label="Column">eventType</div>
 <div class="cell" data-label="Arabic">نوع الحدث</div>
 <div class="cell" data-label="English">Event Type</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -54,7 +63,10 @@
 <div class="cell" data-label="Column">failRegisters</div>
 <div class="cell" data-label="Arabic">الماكينات التي فشل النقل اليها</div>
 <div class="cell" data-label="English">Failed to Transfer to Registers</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -63,7 +75,10 @@
 <div class="cell" data-label="Column">failedInSomeRegister</div>
 <div class="cell" data-label="Arabic">فشل في بعض الماكينات</div>
 <div class="cell" data-label="English">Failed In Some Registers</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -72,7 +87,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -81,7 +99,10 @@
 <div class="cell" data-label="Column">onTime</div>
 <div class="cell" data-label="Arabic">الوقت</div>
 <div class="cell" data-label="English">Time</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -90,7 +111,10 @@
 <div class="cell" data-label="Column">successRegisters</div>
 <div class="cell" data-label="Arabic">الماكينات التي تم نقله اليها</div>
 <div class="cell" data-label="English">Transfered to Registers</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 

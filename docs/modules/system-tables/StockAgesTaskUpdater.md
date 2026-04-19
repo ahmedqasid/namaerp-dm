@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">calledFromIndex</div>
 <div class="cell" data-label="Arabic">Called From Index</div>
 <div class="cell" data-label="English">Called From Index</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">stockAgesIndex</div>
 <div class="cell" data-label="Arabic">Stock Ages Index</div>
 <div class="cell" data-label="English">Stock Ages Index</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 

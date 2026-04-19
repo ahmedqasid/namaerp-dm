@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">allowedTimesToSend</div>
 <div class="cell" data-label="Arabic">Allowed Times To Send</div>
 <div class="cell" data-label="English">Allowed Times To Send</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">attachmentFormat</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">attachmentId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">attachmentName</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">body</div>
 <div class="cell" data-label="Arabic">Body</div>
 <div class="cell" data-label="English">Body</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell gen-ref-column" data-label="Column">createdFromActualCode,  createdFromCode,  createdFromEntityType,  createdFromId</div>
 <div class="cell" data-label="Arabic">منشأة من</div>
 <div class="cell" data-label="English">Created From</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">emailCC</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">errorDescription</div>
 <div class="cell" data-label="Arabic">وصف الخطأ</div>
 <div class="cell" data-label="English">Error Desciption</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell" data-label="Column">errorMessage</div>
 <div class="cell" data-label="Arabic">رسالة الخطأ</div>
 <div class="cell" data-label="English">Error Message</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -106,7 +133,10 @@
 <div class="cell" data-label="Column">executionDate</div>
 <div class="cell" data-label="Arabic">تاريخ التنفيذ</div>
 <div class="cell" data-label="English">Execution Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -115,7 +145,10 @@
 <div class="cell" data-label="Column">fcmGoesTo</div>
 <div class="cell" data-label="Arabic">FCM Goes To</div>
 <div class="cell" data-label="English">FCM Goes To</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -124,7 +157,10 @@
 <div class="cell" data-label="Column">fcmNotificationBody</div>
 <div class="cell" data-label="Arabic">FCM Notification Body</div>
 <div class="cell" data-label="English">FCM Notification Body</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -133,7 +169,10 @@
 <div class="cell" data-label="Column">fcmNotificationTitle</div>
 <div class="cell" data-label="Arabic">FCM Notification Title</div>
 <div class="cell" data-label="English">FCM Notification Title</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -142,7 +181,10 @@
 <div class="cell" data-label="Column">fcmUserEntityType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -151,7 +193,10 @@
 <div class="cell" data-label="Column">fcmUserId</div>
 <div class="cell" data-label="Arabic">FCM User Id</div>
 <div class="cell" data-label="English">FCM User Id</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -160,7 +205,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -169,7 +217,10 @@
 <div class="cell" data-label="Column">longReceipient</div>
 <div class="cell" data-label="Arabic">Long Receipient</div>
 <div class="cell" data-label="English">Long Receipient</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -178,7 +229,10 @@
 <div class="cell gen-ref-column" data-label="Column">ownerActualCode,  ownerCode,  ownerEntityType,  ownerId</div>
 <div class="cell" data-label="Arabic"> مالك المستند</div>
 <div class="cell" data-label="English"> Document Owner</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -187,7 +241,10 @@
 <div class="cell" data-label="Column">preferredSender</div>
 <div class="cell" data-label="Arabic">المرسل المفضل</div>
 <div class="cell" data-label="English">Preferred Sender</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -196,7 +253,10 @@
 <div class="cell" data-label="Column">recepient</div>
 <div class="cell" data-label="Arabic">Recepient</div>
 <div class="cell" data-label="English">Recepient</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -205,7 +265,10 @@
 <div class="cell" data-label="Column">sendFromUserEmail</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -214,7 +277,10 @@
 <div class="cell" data-label="Column">sender</div>
 <div class="cell" data-label="Arabic">المرسل</div>
 <div class="cell" data-label="English">Sender</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -223,7 +289,10 @@
 <div class="cell" data-label="Column">senderEmail</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Email</div>
+<div class="cell" data-label="Type">
+
+Email
+</div>
 
 </div>
 
@@ -232,7 +301,10 @@
 <div class="cell" data-label="Column">smsResponse</div>
 <div class="cell" data-label="Arabic">SMS Response</div>
 <div class="cell" data-label="English">SMS Response</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -241,7 +313,10 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type"> [TaskStatus](/modules/enums/TaskStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [TaskStatus](/modules/enums/TaskStatus.md) 
+</div>
 
 </div>
 
@@ -250,7 +325,10 @@
 <div class="cell" data-label="Column">subject</div>
 <div class="cell" data-label="Arabic">العنوان</div>
 <div class="cell" data-label="English">Subject</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -259,7 +337,10 @@
 <div class="cell" data-label="Column">submitionDate</div>
 <div class="cell" data-label="Arabic">تاريخ الحدث</div>
 <div class="cell" data-label="English">Submition Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -268,7 +349,10 @@
 <div class="cell gen-ref-column" data-label="Column">targetActualCode,  targetCode,  targetEntityType,  targetId</div>
 <div class="cell" data-label="Arabic">الجهة</div>
 <div class="cell" data-label="English">Taregt</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -277,7 +361,10 @@
 <div class="cell" data-label="Column">trials</div>
 <div class="cell" data-label="Arabic">عدد محاولات</div>
 <div class="cell" data-label="English">Trials</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -286,7 +373,10 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type"> [TaskType](/modules/enums/TaskType.md) </div>
+<div class="cell" data-label="Type">
+
+ [TaskType](/modules/enums/TaskType.md) 
+</div>
 
 </div>
 
@@ -295,7 +385,10 @@
 <div class="cell" data-label="Column">userEmailPassword</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Password</div>
+<div class="cell" data-label="Type">
+
+Password
+</div>
 
 </div>
 

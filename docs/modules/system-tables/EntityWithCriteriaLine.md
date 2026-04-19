@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">copierExtraFields_id</div>
 <div class="cell" data-label="Arabic">الحقول الإضافية عند النسخ</div>
 <div class="cell" data-label="English">Copier Extra Fields</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SCCopierExtraFields](/modules/supplychain/SCCopierExtraFields.md) 
@@ -37,7 +40,10 @@
 <div class="cell" data-label="Column">createdType</div>
 <div class="cell" data-label="Arabic">نوع المستند المنشأ</div>
 <div class="cell" data-label="English">Created Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">createdTypeList_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [EntityTypeList](/modules/basic/EntityTypeList.md) 
@@ -58,7 +67,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -67,7 +79,10 @@
 <div class="cell" data-label="Column">whenCondition_id</div>
 <div class="cell" data-label="Arabic">عندما</div>
 <div class="cell" data-label="English">When</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [CriteriaDefinition](/modules/basic/CriteriaDefinition.md) 

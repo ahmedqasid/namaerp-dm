@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">allowedEntities</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">allowedFeatures</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">endEffectiveDate</div>
 <div class="cell" data-label="Arabic">إلى تاريخ</div>
 <div class="cell" data-label="English">To Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">info</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">legalEntity_id</div>
 <div class="cell" data-label="Arabic">الشركة</div>
 <div class="cell" data-label="English">Legal Entity</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LegalEntity](/modules/basic/LegalEntity.md) 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">maxNumOfNewRecord</div>
 <div class="cell" data-label="Arabic">عدد السجلات</div>
 <div class="cell" data-label="English">Number Of Records</div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">maxNumOfUsers</div>
 <div class="cell" data-label="Arabic">عدد المستخدمين</div>
 <div class="cell" data-label="English">Number Of User</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -109,7 +136,10 @@
 <div class="cell" data-label="Column">paymentDate</div>
 <div class="cell" data-label="Arabic">تاريخ الدفع</div>
 <div class="cell" data-label="English">Payment Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -118,7 +148,10 @@
 <div class="cell" data-label="Column">paymentValue</div>
 <div class="cell" data-label="Arabic">المبلغ</div>
 <div class="cell" data-label="English">Payment Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -127,7 +160,10 @@
 <div class="cell" data-label="Column">preventedEntities</div>
 <div class="cell" data-label="Arabic">الشاشات الغير مستعملة</div>
 <div class="cell" data-label="English">Unused Entities</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -136,7 +172,10 @@
 <div class="cell" data-label="Column">preventedFeatures</div>
 <div class="cell" data-label="Arabic">المميزات الغير مستعملة</div>
 <div class="cell" data-label="English">Unused Features</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -145,7 +184,10 @@
 <div class="cell" data-label="Column">startEffectiveDate</div>
 <div class="cell" data-label="Arabic">من تاريخ</div>
 <div class="cell" data-label="English">From Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -154,7 +196,10 @@
 <div class="cell" data-label="Column">userPreventedEntities</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -163,7 +208,10 @@
 <div class="cell" data-label="Column">userPreventedFeatures</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 

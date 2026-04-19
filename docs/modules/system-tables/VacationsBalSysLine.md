@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">assignedValue</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">employee_id</div>
 <div class="cell" data-label="Arabic">الموظف</div>
 <div class="cell" data-label="English">Employee</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Employee](/modules/basic/Employee.md) 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">remainingValue</div>
 <div class="cell" data-label="Arabic">المتبقي</div>
 <div class="cell" data-label="English">Remaining Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">usedValue</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">vacationType_id</div>
 <div class="cell" data-label="Arabic">نوع الأجازة</div>
 <div class="cell" data-label="English">Vacation Type</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [VacationType](/modules/humanresource-payroll/VacationType.md) 

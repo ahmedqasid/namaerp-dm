@@ -27,7 +27,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -36,7 +39,10 @@
 <div class="cell" data-label="Column">fromState</div>
 <div class="cell" data-label="Arabic"> من حالة</div>
 <div class="cell" data-label="English"> From Status</div>
-<div class="cell" data-label="Type"> [FixedDepositState](/modules/enums/FixedDepositState.md) </div>
+<div class="cell" data-label="Type">
+
+ [FixedDepositState](/modules/enums/FixedDepositState.md) 
+</div>
 
 </div>
 
@@ -45,7 +51,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -54,7 +63,10 @@
 <div class="cell gen-ref-column" data-label="Column">loanOrDepositActualCode,  loanOrDepositCode,  loanOrDepositEntityType,  loanOrDepositId</div>
 <div class="cell" data-label="Arabic"> قرض أو وديعه بنكيه</div>
 <div class="cell" data-label="English"> Loan Or Deposit</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -63,7 +75,10 @@
 <div class="cell gen-ref-column" data-label="Column">ownerActualCode,  ownerCode,  ownerEntityType,  ownerId</div>
 <div class="cell" data-label="Arabic"> مالك المستند</div>
 <div class="cell" data-label="English"> Document Owner</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -72,7 +87,10 @@
 <div class="cell" data-label="Column">toState</div>
 <div class="cell" data-label="Arabic"> إلى حالة</div>
 <div class="cell" data-label="English"> To Status</div>
-<div class="cell" data-label="Type"> [FixedDepositState](/modules/enums/FixedDepositState.md) </div>
+<div class="cell" data-label="Type">
+
+ [FixedDepositState](/modules/enums/FixedDepositState.md) 
+</div>
 
 </div>
 
@@ -81,7 +99,10 @@
 <div class="cell" data-label="Column">valueDate</div>
 <div class="cell" data-label="Arabic">التاريخ الفعلي</div>
 <div class="cell" data-label="English">Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 

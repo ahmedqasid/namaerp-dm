@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">fromMainStatus</div>
 <div class="cell" data-label="Arabic">من حالة رئيسية</div>
 <div class="cell" data-label="English">From Main Status</div>
-<div class="cell" data-label="Type"> [MainStatusType](/modules/enums/MainStatusType.md) </div>
+<div class="cell" data-label="Type">
+
+ [MainStatusType](/modules/enums/MainStatusType.md) 
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">fromStatus</div>
 <div class="cell" data-label="Arabic">من حالة</div>
 <div class="cell" data-label="English">From Status</div>
-<div class="cell" data-label="Type"> [SubItemStatusType](/modules/enums/SubItemStatusType.md) </div>
+<div class="cell" data-label="Type">
+
+ [SubItemStatusType](/modules/enums/SubItemStatusType.md) 
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">invItem_id</div>
 <div class="cell" data-label="Arabic"> الصنف</div>
 <div class="cell" data-label="English"> Item</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [InvItem](/modules/supplychain/InvItem.md) 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">lineOwnerId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">lineOwnerIndex</div>
 <div class="cell" data-label="Arabic">رقم السطر</div>
 <div class="cell" data-label="English">Line Number</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell gen-ref-column" data-label="Column">ownerActualCode,  ownerCode,  ownerEntityType,  ownerId</div>
 <div class="cell" data-label="Arabic"> مالك المستند</div>
 <div class="cell" data-label="English"> Document Owner</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">remarks</div>
 <div class="cell" data-label="Arabic">ملاحظات</div>
 <div class="cell" data-label="English">Description</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -109,7 +136,10 @@
 <div class="cell" data-label="Column">subItem_id</div>
 <div class="cell" data-label="Arabic"> السياره</div>
 <div class="cell" data-label="English"> Customer Car</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SubItem](/modules/srvcenter-subitems/SubItem.md) 
@@ -121,7 +151,10 @@
 <div class="cell" data-label="Column">toMainStatus</div>
 <div class="cell" data-label="Arabic">الي حالة رئيسية</div>
 <div class="cell" data-label="English">To Main Status</div>
-<div class="cell" data-label="Type"> [MainStatusType](/modules/enums/MainStatusType.md) </div>
+<div class="cell" data-label="Type">
+
+ [MainStatusType](/modules/enums/MainStatusType.md) 
+</div>
 
 </div>
 
@@ -130,7 +163,10 @@
 <div class="cell" data-label="Column">toStatus</div>
 <div class="cell" data-label="Arabic">إلى حالة</div>
 <div class="cell" data-label="English">To Status</div>
-<div class="cell" data-label="Type"> [SubItemStatusType](/modules/enums/SubItemStatusType.md) </div>
+<div class="cell" data-label="Type">
+
+ [SubItemStatusType](/modules/enums/SubItemStatusType.md) 
+</div>
 
 </div>
 
@@ -139,7 +175,10 @@
 <div class="cell" data-label="Column">valueDate</div>
 <div class="cell" data-label="Arabic">التاريخ الفعلي</div>
 <div class="cell" data-label="English">Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 

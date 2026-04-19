@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">invItem_id</div>
 <div class="cell" data-label="Arabic"> الصنف</div>
 <div class="cell" data-label="English"> Item</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [InvItem](/modules/supplychain/InvItem.md) 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">lastUsed</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">measures</div>
 <div class="cell" data-label="Arabic">الأبعاد</div>
 <div class="cell" data-label="English">Measures</div>
-<div class="cell" data-label="Type">Measures</div>
+<div class="cell" data-label="Type">
+
+Measures
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">originEntity</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 

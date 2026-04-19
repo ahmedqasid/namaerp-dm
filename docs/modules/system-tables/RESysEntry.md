@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell gen-ref-column" data-label="Column">estateActualCode,  estateCode,  estateEntityType,  estateId</div>
 <div class="cell" data-label="Arabic">العقار</div>
 <div class="cell" data-label="English">Estate</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell gen-ref-column" data-label="Column">ownerDocActualCode,  ownerDocCode,  ownerDocEntityType,  ownerDocId</div>
 <div class="cell" data-label="Arabic">المستند</div>
 <div class="cell" data-label="English">Document</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">ownerDocType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">reOwner_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [REOwner](/modules/realestate/REOwner.md) 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">valueDate</div>
 <div class="cell" data-label="Arabic">التاريخ الفعلي</div>
 <div class="cell" data-label="English">Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 

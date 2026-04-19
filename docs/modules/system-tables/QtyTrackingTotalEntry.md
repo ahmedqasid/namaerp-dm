@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">item_id</div>
 <div class="cell" data-label="Arabic">الصنف</div>
 <div class="cell" data-label="English">Item</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [InvItem](/modules/supplychain/InvItem.md) 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">originQuantity</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -55,7 +64,10 @@
 <div class="cell gen-ref-column" data-label="Column">rootDocumentActualCode,  rootDocumentCode,  rootDocumentEntityType,  rootDocumentId</div>
 <div class="cell" data-label="Arabic"> مستند توصيل رئيسي</div>
 <div class="cell" data-label="English"> Root Delivery Document</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">rootLineId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">rootLineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">satisfiedQty</div>
 <div class="cell" data-label="Arabic">نفذت</div>
 <div class="cell" data-label="English">Satisfied Qty</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">satisfiedQty2</div>
 <div class="cell" data-label="Arabic">نفذت 2</div>
 <div class="cell" data-label="English">Satisfied Qty 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">searchIdx</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -109,7 +136,10 @@
 <div class="cell" data-label="Column">unsatisfiedQty</div>
 <div class="cell" data-label="Arabic">الكمية الغير مستلمة</div>
 <div class="cell" data-label="English">Unsatisfied Quantity</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -118,7 +148,10 @@
 <div class="cell" data-label="Column">unsatisfiedQty2</div>
 <div class="cell" data-label="Arabic">الكمية الغير مستلمة 2</div>
 <div class="cell" data-label="English">Unsatisfied Quantity 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -127,7 +160,10 @@
 <div class="cell" data-label="Column">userSatisfiedQty</div>
 <div class="cell" data-label="Arabic">الكمية المسلمة يدويا</div>
 <div class="cell" data-label="English">Manually Satisfied Qty</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -136,7 +172,10 @@
 <div class="cell" data-label="Column">userSatisfiedQty2</div>
 <div class="cell" data-label="Arabic">الكمية المسلمة يدويا 2</div>
 <div class="cell" data-label="English">Manually Satisfied Qty 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 

@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">costTransStatus</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type"> [TransactionRequestStatus](/modules/enums/TransactionRequestStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [TransactionRequestStatus](/modules/enums/TransactionRequestStatus.md) 
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">countOfInCost</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">countOfOutCost</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">countOfOverdraftDelete</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">countOfOverdraftUpdate</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">countOfQtyDim</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">lastUpdatedInCost</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell" data-label="Column">lastUpdatedOutCost</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -106,7 +133,10 @@
 <div class="cell" data-label="Column">lastUpdatedOverdraftDelete</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -115,7 +145,10 @@
 <div class="cell" data-label="Column">lastUpdatedOverdraftUpdate</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -124,7 +157,10 @@
 <div class="cell" data-label="Column">lastUpdatedQtyDim</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -133,7 +169,10 @@
 <div class="cell" data-label="Column">requestId</div>
 <div class="cell" data-label="Arabic">Request Id</div>
 <div class="cell" data-label="English">Request Id</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -142,7 +181,10 @@
 <div class="cell" data-label="Column">transStatus</div>
 <div class="cell" data-label="Arabic">حالة المعالجة</div>
 <div class="cell" data-label="English">Processing Status</div>
-<div class="cell" data-label="Type"> [TransactionRequestStatus](/modules/enums/TransactionRequestStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [TransactionRequestStatus](/modules/enums/TransactionRequestStatus.md) 
+</div>
 
 </div>
 

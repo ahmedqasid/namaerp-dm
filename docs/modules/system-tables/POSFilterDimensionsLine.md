@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">entityTypeList_id</div>
 <div class="cell" data-label="Arabic">قائمة الأنواع</div>
 <div class="cell" data-label="English">Entity Type List</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [EntityTypeList](/modules/basic/EntityTypeList.md) 
@@ -37,7 +40,10 @@
 <div class="cell" data-label="Column">filterOnAnalysisSet</div>
 <div class="cell" data-label="Arabic">فلترة بالمجموعة التحليلة</div>
 <div class="cell" data-label="English">Filter On AnalysisSet</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">filterOnBranch</div>
 <div class="cell" data-label="Arabic">فلترة بالفرع</div>
 <div class="cell" data-label="English">Filter On Branch</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">filterOnDepartment</div>
 <div class="cell" data-label="Arabic">فلترة بالإدارة</div>
 <div class="cell" data-label="English">Filter On Department</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">filterOnLegalEntity</div>
 <div class="cell" data-label="Arabic">فلترة بالشركة</div>
 <div class="cell" data-label="English">Filter On LegalEntity</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">filterOnSector</div>
 <div class="cell" data-label="Arabic">فلترة بالقطاع</div>
 <div class="cell" data-label="English">Filter On Sector</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">filteredInType</div>
 <div class="cell" data-label="Arabic">مفلتر في نوع مستند</div>
 <div class="cell" data-label="English">Filtered In Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">forType</div>
 <div class="cell" data-label="Arabic">للنوع</div>
 <div class="cell" data-label="English">For Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 

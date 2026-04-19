@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">employee_id</div>
 <div class="cell" data-label="Arabic">الموظف</div>
 <div class="cell" data-label="English">Employee</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Employee](/modules/basic/Employee.md) 
@@ -37,7 +40,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">netSalary</div>
 <div class="cell" data-label="Arabic">المرتب النهائي</div>
 <div class="cell" data-label="English">Net Salary</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">salaryDocument_id</div>
 <div class="cell" data-label="Arabic"> سند الراتب</div>
 <div class="cell" data-label="English"> Salary Document</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalaryDocument](/modules/humanresource-payroll/SalaryDocument.md) 

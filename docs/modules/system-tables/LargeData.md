@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic">المجموعة التحليلية</div>
 <div class="cell" data-label="English">Analysis set</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [AnalysisSet](/modules/basic/AnalysisSet.md) 
@@ -37,7 +40,10 @@
 <div class="cell" data-label="Column">belongsToReport</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">branch_id</div>
 <div class="cell" data-label="Arabic">الفرع</div>
 <div class="cell" data-label="English">Branch</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Branch](/modules/basic/Branch.md) 
@@ -58,7 +67,10 @@
 <div class="cell" data-label="Column">contentType</div>
 <div class="cell" data-label="Arabic">نوع المحتوي</div>
 <div class="cell" data-label="English">Content Type</div>
-<div class="cell" data-label="Type"> [AttachedFileContentType](/modules/enums/AttachedFileContentType.md) </div>
+<div class="cell" data-label="Type">
+
+ [AttachedFileContentType](/modules/enums/AttachedFileContentType.md) 
+</div>
 
 </div>
 
@@ -67,7 +79,10 @@
 <div class="cell" data-label="Column">data</div>
 <div class="cell" data-label="Arabic">Email Sent Data</div>
 <div class="cell" data-label="English">Email Sent Data</div>
-<div class="cell" data-label="Type"></div>
+<div class="cell" data-label="Type">
+
+
+</div>
 
 </div>
 
@@ -76,7 +91,10 @@
 <div class="cell" data-label="Column">dataFile</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 
@@ -85,7 +103,10 @@
 <div class="cell" data-label="Column">dataFilePath</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -94,7 +115,10 @@
 <div class="cell" data-label="Column">department_id</div>
 <div class="cell" data-label="Arabic">الإدارة</div>
 <div class="cell" data-label="English">Department</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Department](/modules/basic/Department.md) 
@@ -106,7 +130,10 @@
 <div class="cell" data-label="Column">externalized</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -115,7 +142,10 @@
 <div class="cell" data-label="Column">fileName</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -124,7 +154,10 @@
 <div class="cell" data-label="Column">fileSize</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 
@@ -133,7 +166,10 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
+<div class="cell" data-label="Type">
+
+ [GenerationType](/modules/enums/GenerationType.md) 
+</div>
 
 </div>
 
@@ -142,7 +178,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -151,7 +190,10 @@
 <div class="cell" data-label="Column">isProcessed</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -160,7 +202,10 @@
 <div class="cell" data-label="Column">legalEntity_id</div>
 <div class="cell" data-label="Arabic">الشركة</div>
 <div class="cell" data-label="English">Legal Entity</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LegalEntity](/modules/basic/LegalEntity.md) 
@@ -172,7 +217,10 @@
 <div class="cell" data-label="Column">pdfCopy</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type"></div>
+<div class="cell" data-label="Type">
+
+
+</div>
 
 </div>
 
@@ -181,7 +229,10 @@
 <div class="cell" data-label="Column">pdfFile</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 
@@ -190,7 +241,10 @@
 <div class="cell" data-label="Column">processingTrials</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -199,7 +253,10 @@
 <div class="cell" data-label="Column">sector_id</div>
 <div class="cell" data-label="Arabic">القطاع</div>
 <div class="cell" data-label="English">Sector</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Sector](/modules/basic/Sector.md) 
@@ -211,7 +268,10 @@
 <div class="cell" data-label="Column">thumbnailCopy</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type"></div>
+<div class="cell" data-label="Type">
+
+
+</div>
 
 </div>
 
@@ -220,7 +280,10 @@
 <div class="cell" data-label="Column">thumbnailFile</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 

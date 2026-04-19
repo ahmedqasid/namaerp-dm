@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">arabicHelp</div>
 <div class="cell" data-label="Arabic">المساعدة عربى</div>
 <div class="cell" data-label="English">Arabic Help</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">englishHelp</div>
 <div class="cell" data-label="Arabic">المساعدة إنجليزى</div>
 <div class="cell" data-label="English">English Help</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">entityList_id</div>
 <div class="cell" data-label="Arabic">قائمة الأنواع</div>
 <div class="cell" data-label="English">Entity List</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [EntityTypeList](/modules/basic/EntityTypeList.md) 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">fieldID</div>
 <div class="cell" data-label="Arabic"> الحقل</div>
 <div class="cell" data-label="English"> On Field</div>
-<div class="cell" data-label="Type">FieldID</div>
+<div class="cell" data-label="Type">
+
+FieldID
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">forType</div>
 <div class="cell" data-label="Arabic">للنوع</div>
 <div class="cell" data-label="English">For Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 

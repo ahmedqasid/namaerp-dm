@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">attachment_id</div>
 <div class="cell" data-label="Arabic">مرفق</div>
 <div class="cell" data-label="English">Attachment</div>
-<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Type">
+
+Binary
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LargeData](/modules/system-tables/LargeData.md) 
@@ -37,7 +40,10 @@
 <div class="cell" data-label="Column">conversationId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">deletedBySender</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">deliveredAt</div>
 <div class="cell" data-label="Arabic">وقت الوصول</div>
 <div class="cell" data-label="English">Delivered At</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">editedAt</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">isDeleted</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">isEdited</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">isSystemMessage</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -109,7 +136,10 @@
 <div class="cell gen-ref-column" data-label="Column">mentionedRecordActualCode,  mentionedRecordCode,  mentionedRecordEntityType,  mentionedRecordId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -118,7 +148,10 @@
 <div class="cell" data-label="Column">messageContent</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -127,7 +160,10 @@
 <div class="cell" data-label="Column">messageType</div>
 <div class="cell" data-label="Arabic">Message Type</div>
 <div class="cell" data-label="English">Message Type</div>
-<div class="cell" data-label="Type"> [ChatMessageType](/modules/enums/ChatMessageType.md) </div>
+<div class="cell" data-label="Type">
+
+ [ChatMessageType](/modules/enums/ChatMessageType.md) 
+</div>
 
 </div>
 
@@ -136,7 +172,10 @@
 <div class="cell" data-label="Column">readAt</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -145,7 +184,10 @@
 <div class="cell" data-label="Column">replyToMessageId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -154,7 +196,10 @@
 <div class="cell gen-ref-column" data-label="Column">senderActualCode,  senderCode,  senderEntityType,  senderId</div>
 <div class="cell" data-label="Arabic">المرسل</div>
 <div class="cell" data-label="English">Sender</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -163,7 +208,10 @@
 <div class="cell" data-label="Column">sentAt</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -172,7 +220,10 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type"> [ChatMessageStatus](/modules/enums/ChatMessageStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [ChatMessageStatus](/modules/enums/ChatMessageStatus.md) 
+</div>
 
 </div>
 

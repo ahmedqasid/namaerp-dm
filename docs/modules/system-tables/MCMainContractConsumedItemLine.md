@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">code</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">costItem_id</div>
 <div class="cell" data-label="Arabic">بند التكلفة</div>
 <div class="cell" data-label="English">Cost Item</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [MCCostItem](/modules/mc/MCCostItem.md) 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">item_id</div>
 <div class="cell" data-label="Arabic">الصنف</div>
 <div class="cell" data-label="English">Item</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [InvItem](/modules/supplychain/InvItem.md) 
@@ -67,7 +79,10 @@
 <div class="cell" data-label="Column">name</div>
 <div class="cell" data-label="Arabic">الاسم</div>
 <div class="cell" data-label="English">Name</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -76,7 +91,10 @@
 <div class="cell" data-label="Column">price</div>
 <div class="cell" data-label="Arabic">السعر</div>
 <div class="cell" data-label="English">Price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -85,7 +103,10 @@
 <div class="cell" data-label="Column">qty</div>
 <div class="cell" data-label="Arabic">الكمية</div>
 <div class="cell" data-label="English">Qty</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -94,7 +115,10 @@
 <div class="cell" data-label="Column">totalPrice</div>
 <div class="cell" data-label="Arabic">إجمالي السعر</div>
 <div class="cell" data-label="English">  Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -103,7 +127,10 @@
 <div class="cell" data-label="Column">uom_id</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [MCUOM](/modules/mc/MCUOM.md) 

@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">documentId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">invItem_id</div>
 <div class="cell" data-label="Arabic"> الصنف</div>
 <div class="cell" data-label="English"> Item</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [InvItem](/modules/supplychain/InvItem.md) 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">invoiceCode</div>
 <div class="cell" data-label="Arabic">كود الفاتورة</div>
 <div class="cell" data-label="English">Invoice Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">returnQty</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">activePerc</div>
 <div class="cell" data-label="Arabic">النسبة الفعالة</div>
 <div class="cell" data-label="English">Active Percentage</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">box</div>
 <div class="cell" data-label="Arabic">صندوق</div>
 <div class="cell" data-label="English">Box</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">color</div>
 <div class="cell" data-label="Arabic">اللون</div>
 <div class="cell" data-label="English">Color</div>
-<div class="cell" data-label="Type">Color</div>
+<div class="cell" data-label="Type">
+
+Color
+</div>
 
 </div>
 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">inactivePerc</div>
 <div class="cell" data-label="Arabic">النسبة الغير فعالة</div>
 <div class="cell" data-label="English">Inactive Percentage</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -109,7 +136,10 @@
 <div class="cell" data-label="Column">locator_id</div>
 <div class="cell" data-label="Arabic">الموقع</div>
 <div class="cell" data-label="English">Locator</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Locator](/modules/supplychain/Locator.md) 
@@ -121,7 +151,10 @@
 <div class="cell" data-label="Column">lotId</div>
 <div class="cell" data-label="Arabic">رقم الشحنه</div>
 <div class="cell" data-label="English">Lot ID</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -130,7 +163,10 @@
 <div class="cell" data-label="Column">measures</div>
 <div class="cell" data-label="Arabic">الأبعاد</div>
 <div class="cell" data-label="English">Measures</div>
-<div class="cell" data-label="Type">Measures</div>
+<div class="cell" data-label="Type">
+
+Measures
+</div>
 
 </div>
 
@@ -139,7 +175,10 @@
 <div class="cell" data-label="Column">revisionId</div>
 <div class="cell" data-label="Arabic">الإصدار</div>
 <div class="cell" data-label="English">Revision ID</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -148,7 +187,10 @@
 <div class="cell" data-label="Column">secondSerial</div>
 <div class="cell" data-label="Arabic">الرقم المسلسل الثاني</div>
 <div class="cell" data-label="English">Second Serial</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -157,7 +199,10 @@
 <div class="cell" data-label="Column">serialNumber</div>
 <div class="cell" data-label="Arabic">الرقم المسلسل</div>
 <div class="cell" data-label="English">Serial number</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -166,7 +211,10 @@
 <div class="cell" data-label="Column">size</div>
 <div class="cell" data-label="Arabic">المقاس</div>
 <div class="cell" data-label="English">Size</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -175,7 +223,10 @@
 <div class="cell" data-label="Column">subItem_id</div>
 <div class="cell" data-label="Arabic"> السياره</div>
 <div class="cell" data-label="English"> Customer Car</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SubItem](/modules/srvcenter-subitems/SubItem.md) 
@@ -187,7 +238,10 @@
 <div class="cell" data-label="Column">warehouse_id</div>
 <div class="cell" data-label="Arabic">المخزن</div>
 <div class="cell" data-label="English">Warehouse</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Warehouse](/modules/supplychain/Warehouse.md) 

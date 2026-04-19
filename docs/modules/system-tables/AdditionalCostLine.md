@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">cost_id</div>
 <div class="cell" data-label="Arabic">التكلفة</div>
 <div class="cell" data-label="English">Cost</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [AdditionalCost](/modules/basic/AdditionalCost.md) 
@@ -37,7 +40,10 @@
 <div class="cell" data-label="Column">distribution</div>
 <div class="cell" data-label="Arabic">التوزيع على الأصناف</div>
 <div class="cell" data-label="English">Distribution on items</div>
-<div class="cell" data-label="Type"> [CostDistribution](/modules/enums/CostDistribution.md) </div>
+<div class="cell" data-label="Type">
+
+ [CostDistribution](/modules/enums/CostDistribution.md) 
+</div>
 
 </div>
 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">item_id</div>
 <div class="cell" data-label="Arabic">الصنف</div>
 <div class="cell" data-label="English">Item</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [InvItem](/modules/supplychain/InvItem.md) 
@@ -67,7 +79,10 @@
 <div class="cell" data-label="Column">remarks</div>
 <div class="cell" data-label="Arabic">ملاحظات</div>
 <div class="cell" data-label="English">Description</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -76,7 +91,10 @@
 <div class="cell" data-label="Column">value</div>
 <div class="cell" data-label="Arabic">القيمة</div>
 <div class="cell" data-label="English">Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 

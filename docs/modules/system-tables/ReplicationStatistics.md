@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">currentRelease</div>
 <div class="cell" data-label="Arabic">الإصدار الحالي</div>
 <div class="cell" data-label="English">Current Release</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">lastConnected</div>
 <div class="cell" data-label="Arabic">آخر وقت اتصال</div>
 <div class="cell" data-label="English">Last Connected</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">lastReceivedMessage</div>
 <div class="cell" data-label="Arabic">آخر رسالة مستلمة</div>
 <div class="cell" data-label="English">Last Received Message</div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">lastReceivedMessageDate</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">lastSentMessage</div>
 <div class="cell" data-label="Arabic">آخر رسالة مرسلة</div>
 <div class="cell" data-label="English">Last Sent Message</div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">localFailuresCount</div>
 <div class="cell" data-label="Arabic">عدد الأخطاء المحلية</div>
 <div class="cell" data-label="English">Local Failures Count</div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">remoteFailuresCount</div>
 <div class="cell" data-label="Arabic">عدد الاخطاء بالسيرفر البعيد</div>
 <div class="cell" data-label="English">Remote Failures Count</div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell" data-label="Column">siteCode</div>
 <div class="cell" data-label="Arabic">كود الموقع</div>
 <div class="cell" data-label="English">Site Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -106,7 +133,10 @@
 <div class="cell" data-label="Column">waitingReadCount</div>
 <div class="cell" data-label="Arabic">عدد الرسائل بانتظار الاستلام</div>
 <div class="cell" data-label="English">Waiting Read Count</div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 
@@ -115,7 +145,10 @@
 <div class="cell" data-label="Column">waitingWriteCount</div>
 <div class="cell" data-label="Arabic">عدد الرسائل بانتظار الارسال</div>
 <div class="cell" data-label="English">Waiting Write Count</div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 

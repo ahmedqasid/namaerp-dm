@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">executionDate</div>
 <div class="cell" data-label="Arabic">تاريخ التنفيذ</div>
 <div class="cell" data-label="English">Execution Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">message_id</div>
 <div class="cell" data-label="Arabic">الرسالة</div>
 <div class="cell" data-label="English">Message</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [WhatsAppMessage](/modules/basic-whatsapp/WhatsAppMessage.md) 
@@ -55,7 +64,10 @@
 <div class="cell gen-ref-column" data-label="Column">notifierActualCode,  notifierCode,  notifierEntityType,  notifierId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell gen-ref-column" data-label="Column">ownerActualCode,  ownerCode,  ownerEntityType,  ownerId</div>
 <div class="cell" data-label="Arabic"> مالك المستند</div>
 <div class="cell" data-label="English"> Document Owner</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">phoneNumber</div>
 <div class="cell" data-label="Arabic">رقم الهاتف</div>
 <div class="cell" data-label="English">Phone Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 

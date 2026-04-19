@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">currentDimensions</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">currentLanguage</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">entityFlow_id</div>
 <div class="cell" data-label="Arabic">المسار</div>
 <div class="cell" data-label="English">Entity Flow</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [EntityFlow](/modules/basic/EntityFlow.md) 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">errorDescription</div>
 <div class="cell" data-label="Arabic">وصف الخطأ</div>
 <div class="cell" data-label="English">Error Desciption</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">errorMessage</div>
 <div class="cell" data-label="Arabic">رسالة الخطأ</div>
 <div class="cell" data-label="English">Error Message</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">executionDate</div>
 <div class="cell" data-label="Arabic">تاريخ التنفيذ</div>
 <div class="cell" data-label="English">Execution Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell gen-ref-column" data-label="Column">fromDocActualCode,  fromDocCode,  fromDocEntityType,  fromDocId</div>
 <div class="cell" data-label="Arabic">بناءا على</div>
 <div class="cell" data-label="English">From Document</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic">رقم السطر</div>
 <div class="cell" data-label="English">Line Number</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -109,7 +136,10 @@
 <div class="cell" data-label="Column">processAfter</div>
 <div class="cell" data-label="Arabic">Process After</div>
 <div class="cell" data-label="English">Process After</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -118,7 +148,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
 <div class="cell" data-label="Arabic">مرجع 1</div>
 <div class="cell" data-label="English">Reference 1</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -127,7 +160,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref10ActualCode,  ref10Code,  ref10EntityType,  ref10Id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -136,7 +172,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
 <div class="cell" data-label="Arabic">مرجع 2</div>
 <div class="cell" data-label="English">Reference 2</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -145,7 +184,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref3ActualCode,  ref3Code,  ref3EntityType,  ref3Id</div>
 <div class="cell" data-label="Arabic">مرجع 3</div>
 <div class="cell" data-label="English">Reference 3</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -154,7 +196,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref4ActualCode,  ref4Code,  ref4EntityType,  ref4Id</div>
 <div class="cell" data-label="Arabic">مرجع 4</div>
 <div class="cell" data-label="English">Reference 4</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -163,7 +208,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref5ActualCode,  ref5Code,  ref5EntityType,  ref5Id</div>
 <div class="cell" data-label="Arabic">مرجع 5</div>
 <div class="cell" data-label="English">Reference 5</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -172,7 +220,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref6ActualCode,  ref6Code,  ref6EntityType,  ref6Id</div>
 <div class="cell" data-label="Arabic">مرجع 6</div>
 <div class="cell" data-label="English">Reference 6</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -181,7 +232,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref7ActualCode,  ref7Code,  ref7EntityType,  ref7Id</div>
 <div class="cell" data-label="Arabic">مرجع 7</div>
 <div class="cell" data-label="English">Reference 7</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -190,7 +244,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref8ActualCode,  ref8Code,  ref8EntityType,  ref8Id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -199,7 +256,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref9ActualCode,  ref9Code,  ref9EntityType,  ref9Id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -208,7 +268,10 @@
 <div class="cell gen-ref-column" data-label="Column">requesterActualCode,  requesterCode,  requesterEntityType,  requesterId</div>
 <div class="cell" data-label="Arabic">محرر الطلب</div>
 <div class="cell" data-label="English">Requester</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -217,7 +280,10 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type"> [TaskStatus](/modules/enums/TaskStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [TaskStatus](/modules/enums/TaskStatus.md) 
+</div>
 
 </div>
 
@@ -226,7 +292,10 @@
 <div class="cell" data-label="Column">submitionDate</div>
 <div class="cell" data-label="Arabic">تاريخ الحدث</div>
 <div class="cell" data-label="English">Submition Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -235,7 +304,10 @@
 <div class="cell" data-label="Column">targetAction</div>
 <div class="cell" data-label="Arabic">مع الإجراء</div>
 <div class="cell" data-label="English">Target Action</div>
-<div class="cell" data-label="Type"> [EntityTargetAction](/modules/enums/EntityTargetAction.md) </div>
+<div class="cell" data-label="Type">
+
+ [EntityTargetAction](/modules/enums/EntityTargetAction.md) 
+</div>
 
 </div>
 
@@ -244,7 +316,10 @@
 <div class="cell gen-ref-column" data-label="Column">targetRecordActualCode,  targetRecordCode,  targetRecordEntityType,  targetRecordId</div>
 <div class="cell" data-label="Arabic">السجل</div>
 <div class="cell" data-label="English">Target Record</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -253,7 +328,10 @@
 <div class="cell" data-label="Column">trials</div>
 <div class="cell" data-label="Arabic">عدد محاولات</div>
 <div class="cell" data-label="English">Trials</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 

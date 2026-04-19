@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">ownerId</div>
 <div class="cell" data-label="Arabic">رقم هوية المالك</div>
 <div class="cell" data-label="English">Owner Number</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">prefix</div>
 <div class="cell" data-label="Arabic">بادئة التكويد</div>
 <div class="cell" data-label="English">Prefix</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">recordId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English">Record Id</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">sequence</div>
 <div class="cell" data-label="Arabic">المسلسل</div>
 <div class="cell" data-label="English">Sequence</div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 

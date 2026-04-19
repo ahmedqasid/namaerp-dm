@@ -27,7 +27,10 @@
 <div class="cell" data-label="Column">calledFromIndex</div>
 <div class="cell" data-label="Arabic">Called From Index</div>
 <div class="cell" data-label="English">Called From Index</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -36,7 +39,10 @@
 <div class="cell" data-label="Column">errorDescription</div>
 <div class="cell" data-label="Arabic">وصف الخطأ</div>
 <div class="cell" data-label="English">Error Desciption</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -45,7 +51,10 @@
 <div class="cell" data-label="Column">errorMessage</div>
 <div class="cell" data-label="Arabic">رسالة الخطأ</div>
 <div class="cell" data-label="English">Error Message</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -54,7 +63,10 @@
 <div class="cell" data-label="Column">executionDate</div>
 <div class="cell" data-label="Arabic">تاريخ التنفيذ</div>
 <div class="cell" data-label="English">Execution Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -63,7 +75,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -72,7 +87,10 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type"> [TaskStatus](/modules/enums/TaskStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [TaskStatus](/modules/enums/TaskStatus.md) 
+</div>
 
 </div>
 
@@ -81,7 +99,10 @@
 <div class="cell" data-label="Column">stockAgesIndex</div>
 <div class="cell" data-label="Arabic">Stock Ages Index</div>
 <div class="cell" data-label="English">Stock Ages Index</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -90,7 +111,10 @@
 <div class="cell" data-label="Column">submitionDate</div>
 <div class="cell" data-label="Arabic">تاريخ الحدث</div>
 <div class="cell" data-label="English">Submition Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -99,7 +123,10 @@
 <div class="cell" data-label="Column">trials</div>
 <div class="cell" data-label="Arabic">عدد محاولات</div>
 <div class="cell" data-label="English">Trials</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 

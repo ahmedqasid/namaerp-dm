@@ -32,7 +32,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -41,7 +44,10 @@
 <div class="cell" data-label="Column">ledger_id</div>
 <div class="cell" data-label="Arabic">دفتر الحسابات</div>
 <div class="cell" data-label="English">Ledger</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Ledger](/modules/accounting/Ledger.md) 
@@ -53,7 +59,10 @@
 <div class="cell" data-label="Column">localCurrency_id</div>
 <div class="cell" data-label="Arabic"> العملة</div>
 <div class="cell" data-label="English">Local Currency</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Currency](/modules/basic/Currency.md) 
@@ -65,7 +74,10 @@
 <div class="cell" data-label="Column">secondLevelSource</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -74,7 +86,10 @@
 <div class="cell" data-label="Column">serialRef</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -83,7 +98,10 @@
 <div class="cell" data-label="Column">totalCredit</div>
 <div class="cell" data-label="Arabic">إجمالي الدائن</div>
 <div class="cell" data-label="English">Credit Only</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -92,7 +110,10 @@
 <div class="cell" data-label="Column">totalDebit</div>
 <div class="cell" data-label="Arabic">إجمالي المدين</div>
 <div class="cell" data-label="English">Debit Only</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -101,7 +122,10 @@
 <div class="cell" data-label="Column">totalDiff</div>
 <div class="cell" data-label="Arabic">إجمالي الفرق</div>
 <div class="cell" data-label="English">Total Difference</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -110,7 +134,10 @@
 <div class="cell" data-label="Column">transCode</div>
 <div class="cell" data-label="Arabic">مسلسل</div>
 <div class="cell" data-label="English">Serial</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -119,7 +146,10 @@
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic">المجموعة التحليلية</div>
 <div class="cell" data-label="English">Analysis set</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [AnalysisSet](/modules/basic/AnalysisSet.md) 
@@ -131,7 +161,10 @@
 <div class="cell" data-label="Column">branch_id</div>
 <div class="cell" data-label="Arabic">الفرع</div>
 <div class="cell" data-label="English">Branch</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Branch](/modules/basic/Branch.md) 
@@ -143,7 +176,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -152,7 +188,10 @@
 <div class="cell" data-label="Column">department_id</div>
 <div class="cell" data-label="Arabic">الإدارة</div>
 <div class="cell" data-label="English">Department</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Department](/modules/basic/Department.md) 
@@ -164,7 +203,10 @@
 <div class="cell" data-label="Column">firstAuthor_id</div>
 <div class="cell" data-label="Arabic">منشئ السجل</div>
 <div class="cell" data-label="English">First Author</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [NaMaUser](/modules/system-tables/NaMaUser.md) 
@@ -176,7 +218,10 @@
 <div class="cell" data-label="Column">fiscalPeriod_id</div>
 <div class="cell" data-label="Arabic">الفترة</div>
 <div class="cell" data-label="English">Fiscal Period</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
@@ -188,7 +233,10 @@
 <div class="cell" data-label="Column">fiscalYear_id</div>
 <div class="cell" data-label="Arabic">السنة المالية</div>
 <div class="cell" data-label="English">Fiscal Year</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [FiscalYear](/modules/basic/FiscalYear.md) 
@@ -200,7 +248,10 @@
 <div class="cell" data-label="Column">issueDate</div>
 <div class="cell" data-label="Arabic">تاريخ التحرير</div>
 <div class="cell" data-label="English">Issue Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -209,7 +260,10 @@
 <div class="cell" data-label="Column">lastUpdateDate</div>
 <div class="cell" data-label="Arabic">تاريخ اخر تحديث</div>
 <div class="cell" data-label="English">Last update Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -218,7 +272,10 @@
 <div class="cell" data-label="Column">legalEntity_id</div>
 <div class="cell" data-label="Arabic">الشركة</div>
 <div class="cell" data-label="English">Legal Entity</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LegalEntity](/modules/basic/LegalEntity.md) 
@@ -230,7 +287,10 @@
 <div class="cell gen-ref-column" data-label="Column">originActualCode,  originCode,  originType,  originId</div>
 <div class="cell" data-label="Arabic"> # المستند</div>
 <div class="cell" data-label="English"> Document #</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -239,7 +299,10 @@
 <div class="cell" data-label="Column">originCode</div>
 <div class="cell" data-label="Arabic"> الكود</div>
 <div class="cell" data-label="English"> Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -248,7 +311,10 @@
 <div class="cell" data-label="Column">originCreationDate</div>
 <div class="cell" data-label="Arabic"> تاريخ الإنشاء</div>
 <div class="cell" data-label="English"> Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -257,7 +323,10 @@
 <div class="cell" data-label="Column">originId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -266,7 +335,10 @@
 <div class="cell" data-label="Column">originLastUpdateDate</div>
 <div class="cell" data-label="Arabic">تاريخ اخر تحديث للمستند</div>
 <div class="cell" data-label="English">Origin Last Update Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -275,7 +347,10 @@
 <div class="cell" data-label="Column">originTransId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -284,7 +359,10 @@
 <div class="cell" data-label="Column">originType</div>
 <div class="cell" data-label="Arabic"> النوع</div>
 <div class="cell" data-label="English"> Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -293,7 +371,10 @@
 <div class="cell" data-label="Column">replicationSequence</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -302,7 +383,10 @@
 <div class="cell" data-label="Column">requestId</div>
 <div class="cell" data-label="Arabic">Request Id</div>
 <div class="cell" data-label="English">Request Id</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -311,7 +395,10 @@
 <div class="cell" data-label="Column">sector_id</div>
 <div class="cell" data-label="Arabic">القطاع</div>
 <div class="cell" data-label="English">Sector</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Sector](/modules/basic/Sector.md) 
@@ -323,7 +410,10 @@
 <div class="cell" data-label="Column">valueDate</div>
 <div class="cell" data-label="Arabic">التاريخ الفعلي</div>
 <div class="cell" data-label="English">Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -354,7 +444,10 @@
 <div class="cell" data-label="Column">account_id</div>
 <div class="cell" data-label="Arabic">الحساب</div>
 <div class="cell" data-label="English">Account</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Account](/modules/accounting/Account.md) 
@@ -366,7 +459,10 @@
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic">المجموعة التحليلية</div>
 <div class="cell" data-label="English">AnalysisSet</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [AnalysisSet](/modules/basic/AnalysisSet.md) 
@@ -378,7 +474,10 @@
 <div class="cell" data-label="Column">branch_id</div>
 <div class="cell" data-label="Arabic">الفرع</div>
 <div class="cell" data-label="English">Branch</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Branch](/modules/basic/Branch.md) 
@@ -390,7 +489,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -399,7 +501,10 @@
 <div class="cell" data-label="Column">creditLocalAmount</div>
 <div class="cell" data-label="Arabic">محلي|دائن</div>
 <div class="cell" data-label="English">Local|Credit</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -408,7 +513,10 @@
 <div class="cell" data-label="Column">creditRate</div>
 <div class="cell" data-label="Arabic">المعدل</div>
 <div class="cell" data-label="English">Rate</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -417,7 +525,10 @@
 <div class="cell" data-label="Column">creditValueAmount</div>
 <div class="cell" data-label="Arabic">المبلغ|دائن</div>
 <div class="cell" data-label="English">Amount|Credit</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -426,7 +537,10 @@
 <div class="cell" data-label="Column">creditValueCurrency_id</div>
 <div class="cell" data-label="Arabic"> العملة</div>
 <div class="cell" data-label="English"> Currency</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Currency](/modules/basic/Currency.md) 
@@ -438,7 +552,10 @@
 <div class="cell" data-label="Column">creditTransAmount</div>
 <div class="cell" data-label="Arabic">القيمة بعملة الحركة | دائن</div>
 <div class="cell" data-label="English">Trans | Credit Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -447,7 +564,10 @@
 <div class="cell" data-label="Column">debitLocalAmount</div>
 <div class="cell" data-label="Arabic">محلي|مدين</div>
 <div class="cell" data-label="English">Local|Debit</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -456,7 +576,10 @@
 <div class="cell" data-label="Column">debitRate</div>
 <div class="cell" data-label="Arabic">المعدل</div>
 <div class="cell" data-label="English">Rate</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -465,7 +588,10 @@
 <div class="cell" data-label="Column">debitValueAmount</div>
 <div class="cell" data-label="Arabic">المبلغ|مدين</div>
 <div class="cell" data-label="English">Amount|Debit</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -474,7 +600,10 @@
 <div class="cell" data-label="Column">debitValueCurrency_id</div>
 <div class="cell" data-label="Arabic"> العملة</div>
 <div class="cell" data-label="English"> Currency</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Currency](/modules/basic/Currency.md) 
@@ -486,7 +615,10 @@
 <div class="cell" data-label="Column">department_id</div>
 <div class="cell" data-label="Arabic">الإدارة</div>
 <div class="cell" data-label="English">Department</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Department](/modules/basic/Department.md) 
@@ -498,7 +630,10 @@
 <div class="cell" data-label="Column">effectType</div>
 <div class="cell" data-label="Arabic">نوع التأثير</div>
 <div class="cell" data-label="English">Component Effect Type</div>
-<div class="cell" data-label="Type"> [LedgerEffectType](/modules/enums/LedgerEffectType.md) </div>
+<div class="cell" data-label="Type">
+
+ [LedgerEffectType](/modules/enums/LedgerEffectType.md) 
+</div>
 
 </div>
 
@@ -507,7 +642,10 @@
 <div class="cell gen-ref-column" data-label="Column">entityDimensionActualCode,  entityDimensionCode,  entityDimensionEntityType,  entityDimensionId</div>
 <div class="cell" data-label="Arabic">السجل</div>
 <div class="cell" data-label="English">Entity Dimension</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -516,7 +654,10 @@
 <div class="cell" data-label="Column">fiscalPeriod_id</div>
 <div class="cell" data-label="Arabic">الفترة</div>
 <div class="cell" data-label="English">Fiscal Period</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
@@ -528,7 +669,10 @@
 <div class="cell" data-label="Column">fiscalYear_id</div>
 <div class="cell" data-label="Arabic">السنة المالية</div>
 <div class="cell" data-label="English">Fiscal Year</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [FiscalYear](/modules/basic/FiscalYear.md) 
@@ -540,7 +684,10 @@
 <div class="cell" data-label="Column">fromAccDistribution</div>
 <div class="cell" data-label="Arabic">منشئ من التوزيع</div>
 <div class="cell" data-label="English">From Account Distribution</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -549,7 +696,10 @@
 <div class="cell" data-label="Column">fromPurge</div>
 <div class="cell" data-label="Arabic">From Purge</div>
 <div class="cell" data-label="English">From Purge</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -558,7 +708,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -567,7 +720,10 @@
 <div class="cell" data-label="Column">ledger_id</div>
 <div class="cell" data-label="Arabic">دفتر الحسابات</div>
 <div class="cell" data-label="English">Ledger</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Ledger](/modules/accounting/Ledger.md) 
@@ -579,7 +735,10 @@
 <div class="cell" data-label="Column">legalEntity_id</div>
 <div class="cell" data-label="Arabic">الشركة</div>
 <div class="cell" data-label="English">Legal Entity</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LegalEntity](/modules/basic/LegalEntity.md) 
@@ -591,7 +750,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -600,7 +762,10 @@
 <div class="cell" data-label="Column">localCurrency_id</div>
 <div class="cell" data-label="Arabic"> العملة</div>
 <div class="cell" data-label="English">Local Currency</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Currency](/modules/basic/Currency.md) 
@@ -612,7 +777,10 @@
 <div class="cell" data-label="Column">narration</div>
 <div class="cell" data-label="Arabic">الشرح</div>
 <div class="cell" data-label="English">Narration</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -621,7 +789,10 @@
 <div class="cell" data-label="Column">narration2</div>
 <div class="cell" data-label="Arabic">الشرح 2</div>
 <div class="cell" data-label="English">Narration 2</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -630,7 +801,10 @@
 <div class="cell gen-ref-column" data-label="Column">originActualCode,  originCode,  originType,  originId</div>
 <div class="cell" data-label="Arabic"> # المستند</div>
 <div class="cell" data-label="English"> Document #</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -639,7 +813,10 @@
 <div class="cell" data-label="Column">originCode</div>
 <div class="cell" data-label="Arabic"> الكود</div>
 <div class="cell" data-label="English"> Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -648,7 +825,10 @@
 <div class="cell" data-label="Column">originId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -657,7 +837,10 @@
 <div class="cell" data-label="Column">originLines</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -666,7 +849,10 @@
 <div class="cell" data-label="Column">originTransId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -675,7 +861,10 @@
 <div class="cell" data-label="Column">originType</div>
 <div class="cell" data-label="Arabic"> النوع</div>
 <div class="cell" data-label="English"> Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -684,7 +873,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
 <div class="cell" data-label="Arabic">مرجع 1</div>
 <div class="cell" data-label="English">Reference 1</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -693,7 +885,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
 <div class="cell" data-label="Arabic">مرجع 2</div>
 <div class="cell" data-label="English">Reference 2</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -702,7 +897,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref3ActualCode,  ref3Code,  ref3EntityType,  ref3Id</div>
 <div class="cell" data-label="Arabic">مرجع 3</div>
 <div class="cell" data-label="English">Reference 3</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -711,7 +909,10 @@
 <div class="cell" data-label="Column">relatedLines</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -720,7 +921,10 @@
 <div class="cell" data-label="Column">secondLevelSource</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -729,7 +933,10 @@
 <div class="cell" data-label="Column">sector_id</div>
 <div class="cell" data-label="Arabic">القطاع</div>
 <div class="cell" data-label="English">Sector</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Sector](/modules/basic/Sector.md) 
@@ -741,7 +948,10 @@
 <div class="cell gen-ref-column" data-label="Column">subsidiaryActualCode,  subsidiaryCode,  subsidiaryEntityType,  subsidiaryId</div>
 <div class="cell" data-label="Arabic">الذمة</div>
 <div class="cell" data-label="English">Subsidiary</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -750,7 +960,10 @@
 <div class="cell" data-label="Column">transAmount</div>
 <div class="cell" data-label="Arabic">القيمة بعملة الحركة | مدين</div>
 <div class="cell" data-label="English">Trans | Debit Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -759,7 +972,10 @@
 <div class="cell" data-label="Column">transCurrency_id</div>
 <div class="cell" data-label="Arabic">الحركة | العملة</div>
 <div class="cell" data-label="English">Trans | Currency</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Currency](/modules/basic/Currency.md) 
@@ -771,7 +987,10 @@
 <div class="cell" data-label="Column">transRate</div>
 <div class="cell" data-label="Arabic">الحركة | المعدل</div>
 <div class="cell" data-label="English">Trans | Rate</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -780,7 +999,10 @@
 <div class="cell" data-label="Column">valueDate</div>
 <div class="cell" data-label="Arabic">التاريخ الفعلي</div>
 <div class="cell" data-label="English">Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 

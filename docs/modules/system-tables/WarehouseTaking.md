@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">endDate</div>
 <div class="cell" data-label="Arabic">تاريخ النهاية</div>
 <div class="cell" data-label="English">End Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">startDate</div>
 <div class="cell" data-label="Arabic">تاريخ البداية</div>
 <div class="cell" data-label="English">Start Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">startDoc_id</div>
 <div class="cell" data-label="Arabic">مستند بداية الجرد</div>
 <div class="cell" data-label="English">Start Stock Taking</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [StartStockTaking](/modules/supplychain-inventory/StartStockTaking.md) 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">warehouse_id</div>
 <div class="cell" data-label="Arabic">المخزن</div>
 <div class="cell" data-label="English">Warehouse</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Warehouse](/modules/supplychain/Warehouse.md) 

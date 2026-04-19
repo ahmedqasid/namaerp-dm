@@ -32,7 +32,10 @@
 <div class="cell" data-label="Column">addAddressInCustomerSearchBox</div>
 <div class="cell" data-label="Arabic">إظهار العنوان عند البحث عن العملاء</div>
 <div class="cell" data-label="English">Add Address In Customer Search Box</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -41,7 +44,10 @@
 <div class="cell" data-label="Column">addAddressInSales</div>
 <div class="cell" data-label="Arabic">إظهار العنوان في المبيعات</div>
 <div class="cell" data-label="English">Add Address In Sales</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -50,7 +56,10 @@
 <div class="cell" data-label="Column">addAttach1InPayments</div>
 <div class="cell" data-label="Arabic">إضافة مرفق 1 الي المصروفات</div>
 <div class="cell" data-label="English">Add Attachment 1 In Payments</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -59,7 +68,10 @@
 <div class="cell" data-label="Column">addAttach1InReceipts</div>
 <div class="cell" data-label="Arabic">إضافة مرفق 1 الي المقبوضات</div>
 <div class="cell" data-label="English">Add Attachment 1 In Receipts</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -68,7 +80,10 @@
 <div class="cell" data-label="Column">addAttach2InPayments</div>
 <div class="cell" data-label="Arabic">إضافة مرفق 2 الي المصروفات</div>
 <div class="cell" data-label="English">Add Attachment 2 In Payments</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -77,7 +92,10 @@
 <div class="cell" data-label="Column">addAttach2InReceipts</div>
 <div class="cell" data-label="Arabic">إضافة مرفق 2 الي المقبوضات</div>
 <div class="cell" data-label="English">Add Attachment 2 In Receipts</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -86,7 +104,10 @@
 <div class="cell" data-label="Column">addBox</div>
 <div class="cell" data-label="Arabic">إضافة حقل الصندوق</div>
 <div class="cell" data-label="English">Add Box</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -95,7 +116,10 @@
 <div class="cell" data-label="Column">addColorAndSize</div>
 <div class="cell" data-label="Arabic">إضافة حقول اللون والمقاس</div>
 <div class="cell" data-label="English">Add Color And Size</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -104,7 +128,10 @@
 <div class="cell" data-label="Column">addCurrencyRateField</div>
 <div class="cell" data-label="Arabic">إضافة حقل معدل العملة</div>
 <div class="cell" data-label="English">Add Currency Rate Field</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -113,7 +140,10 @@
 <div class="cell" data-label="Column">addDiscount1Fields</div>
 <div class="cell" data-label="Arabic">إضافة حقول التخفيض 1</div>
 <div class="cell" data-label="English">Add Discount1 Fields</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -122,7 +152,10 @@
 <div class="cell" data-label="Column">addDiscount2Fields</div>
 <div class="cell" data-label="Arabic">إضافة حقول التخفيض 2</div>
 <div class="cell" data-label="English">Add Discount2 Fields</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -131,7 +164,10 @@
 <div class="cell" data-label="Column">addDiscount3Fields</div>
 <div class="cell" data-label="Arabic">إضافة حقول التخفيض 3</div>
 <div class="cell" data-label="English">Add Discount3 Fields</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -140,7 +176,10 @@
 <div class="cell" data-label="Column">addDiscount4Fields</div>
 <div class="cell" data-label="Arabic">إضافة حقول التخفيض 4</div>
 <div class="cell" data-label="English">Add Discount4 Fields</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -149,7 +188,10 @@
 <div class="cell" data-label="Column">addDiscount5Fields</div>
 <div class="cell" data-label="Arabic">إضافة حقول التخفيض 5</div>
 <div class="cell" data-label="English">Add Discount5 Fields</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -158,7 +200,10 @@
 <div class="cell" data-label="Column">addDiscount6Fields</div>
 <div class="cell" data-label="Arabic">إضافة حقول التخفيض 6</div>
 <div class="cell" data-label="English">Add Discount6 Fields</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -167,7 +212,10 @@
 <div class="cell" data-label="Column">addDiscount7Fields</div>
 <div class="cell" data-label="Arabic">إضافة حقول التخفيض 7</div>
 <div class="cell" data-label="English">Add Discount7 Fields</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -176,7 +224,10 @@
 <div class="cell" data-label="Column">addDiscount8Fields</div>
 <div class="cell" data-label="Arabic">إضافة حقول التخفيض 8</div>
 <div class="cell" data-label="English">Add Discount8 Fields</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -185,7 +236,10 @@
 <div class="cell" data-label="Column">addDocCategoryToPayReceipt</div>
 <div class="cell" data-label="Arabic">إضافة تصنيف السجل للمصروفات والمقبوضات</div>
 <div class="cell" data-label="English">Add Document Category To Payment Receipt</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -194,7 +248,10 @@
 <div class="cell" data-label="Column">addItemAltCodeField</div>
 <div class="cell" data-label="Arabic">إضافة عمود الكود البديل</div>
 <div class="cell" data-label="English">Add Item AltCode Field</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -203,7 +260,10 @@
 <div class="cell" data-label="Column">addItemCodeColInSalesGrid</div>
 <div class="cell" data-label="Arabic">إضافة عمود كود الصنف في جدول المبيعات</div>
 <div class="cell" data-label="English">Add Item Code Column In Sales Table</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -212,7 +272,10 @@
 <div class="cell" data-label="Column">addLocatorToLines</div>
 <div class="cell" data-label="Arabic">إضافة الموقع المخزني للسطور</div>
 <div class="cell" data-label="English">Add Locator To Lines</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -221,7 +284,10 @@
 <div class="cell" data-label="Column">addLotId</div>
 <div class="cell" data-label="Arabic">إضافة حقل الشحنه</div>
 <div class="cell" data-label="English">Add Lot Id</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -230,7 +296,10 @@
 <div class="cell" data-label="Column">addProductionAndExpiryDatesToSales</div>
 <div class="cell" data-label="Arabic">إضافة تاريخ الإنتاج والانتهاء الي المبيعات</div>
 <div class="cell" data-label="English">Add Production And Expiry Dates To Sales</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -239,7 +308,10 @@
 <div class="cell" data-label="Column">addQtyColInItemSearchDialog</div>
 <div class="cell" data-label="Arabic">إضافة عمود الكمية في شاشة البحث عن صنف</div>
 <div class="cell" data-label="English">Add Quantity Column In Item Search Dialog</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -248,7 +320,10 @@
 <div class="cell" data-label="Column">addRackCodeFields</div>
 <div class="cell" data-label="Arabic">إضافة حقول الرف</div>
 <div class="cell" data-label="English">Add Rack Code Fields</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -257,7 +332,10 @@
 <div class="cell" data-label="Column">addRevision</div>
 <div class="cell" data-label="Arabic">إضافة حقل الإصدار</div>
 <div class="cell" data-label="English">Add Revision</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -266,7 +344,10 @@
 <div class="cell" data-label="Column">addSecondSerial</div>
 <div class="cell" data-label="Arabic">إضافة الرقم المسلسل الثاني</div>
 <div class="cell" data-label="English">Add Second Serial Number</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -275,7 +356,10 @@
 <div class="cell" data-label="Column">addSerialNumber</div>
 <div class="cell" data-label="Arabic">إضافة الرقم المسلسل</div>
 <div class="cell" data-label="English">Add Serial Number</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -284,7 +368,10 @@
 <div class="cell" data-label="Column">addTax1Fields</div>
 <div class="cell" data-label="Arabic">إضافة حقول الضريبة 1</div>
 <div class="cell" data-label="English">Add Tax 1 Fields</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -293,7 +380,10 @@
 <div class="cell" data-label="Column">addTax2Fields</div>
 <div class="cell" data-label="Arabic">إضافة حقول الضريبة 2</div>
 <div class="cell" data-label="English">Add Tax 2 Fields</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -302,7 +392,10 @@
 <div class="cell" data-label="Column">addUOMToSalesGrid</div>
 <div class="cell" data-label="Arabic">إضافة عمود الوحدة لتفاصيل المبيعات</div>
 <div class="cell" data-label="English">Add UOM Column to Sales Grid</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -311,7 +404,10 @@
 <div class="cell" data-label="Column">addWarehouseAndLocator</div>
 <div class="cell" data-label="Arabic">إضافة المخزن والموقع المخزني</div>
 <div class="cell" data-label="English">Add Warehouse And Locator</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -320,7 +416,10 @@
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic">المجموعة التحليلية</div>
 <div class="cell" data-label="English">Analysis set</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [AnalysisSet](/modules/basic/AnalysisSet.md) 
@@ -332,7 +431,10 @@
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -341,7 +443,10 @@
 <div class="cell" data-label="Column">branch_id</div>
 <div class="cell" data-label="Arabic">الفرع</div>
 <div class="cell" data-label="English">Branch</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Branch](/modules/basic/Branch.md) 
@@ -353,7 +458,10 @@
 <div class="cell" data-label="Column">branch_id</div>
 <div class="cell" data-label="Arabic">Branch ID</div>
 <div class="cell" data-label="English">Branch ID</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -362,7 +470,10 @@
 <div class="cell" data-label="Column">cnclColsCountPerRow</div>
 <div class="cell" data-label="Arabic">عدد الأعمده في الصف الواحد</div>
 <div class="cell" data-label="English">Columns Count Per Row</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -371,7 +482,10 @@
 <div class="cell" data-label="Column">cnclDoNotAddFavouritesPart</div>
 <div class="cell" data-label="Arabic">عدم إضافة جزء المفضلات</div>
 <div class="cell" data-label="English">Do Not Add Favourites Part</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -380,7 +494,10 @@
 <div class="cell" data-label="Column">cnclFavouritePaneWidthPercent</div>
 <div class="cell" data-label="Arabic">نسبة عرض جزء المفضلات (من إجمالي الشاشه)</div>
 <div class="cell" data-label="English">Favourite Pane Width Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -389,7 +506,10 @@
 <div class="cell" data-label="Column">code</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -398,7 +518,10 @@
 <div class="cell" data-label="Column">colorCode</div>
 <div class="cell" data-label="Arabic">كود اللون</div>
 <div class="cell" data-label="English">Color Code</div>
-<div class="cell" data-label="Type">Color</div>
+<div class="cell" data-label="Type">
+
+Color
+</div>
 
 </div>
 
@@ -407,7 +530,10 @@
 <div class="cell" data-label="Column">commitedBefore</div>
 <div class="cell" data-label="Arabic">تم الحفظ مسبقا</div>
 <div class="cell" data-label="English">Commited Before</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -416,7 +542,10 @@
 <div class="cell" data-label="Column">copyCancelOrderSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
+<div class="cell" data-label="Type">
+
+ [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) 
+</div>
 
 </div>
 
@@ -425,7 +554,10 @@
 <div class="cell" data-label="Column">copyInvoiceSettingsFrom</div>
 <div class="cell" data-label="Arabic">نسخ من</div>
 <div class="cell" data-label="English">Copy From</div>
-<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
+<div class="cell" data-label="Type">
+
+ [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) 
+</div>
 
 </div>
 
@@ -434,7 +566,10 @@
 <div class="cell" data-label="Column">copyOrderResSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
+<div class="cell" data-label="Type">
+
+ [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) 
+</div>
 
 </div>
 
@@ -443,7 +578,10 @@
 <div class="cell" data-label="Column">copyReceiptSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English">Copy Receipt Settings From</div>
-<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
+<div class="cell" data-label="Type">
+
+ [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) 
+</div>
 
 </div>
 
@@ -452,7 +590,10 @@
 <div class="cell" data-label="Column">copyReplacementSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
+<div class="cell" data-label="Type">
+
+ [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) 
+</div>
 
 </div>
 
@@ -461,7 +602,10 @@
 <div class="cell" data-label="Column">copyReturnSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
+<div class="cell" data-label="Type">
+
+ [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) 
+</div>
 
 </div>
 
@@ -470,7 +614,10 @@
 <div class="cell" data-label="Column">copyScrapDocSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
+<div class="cell" data-label="Type">
+
+ [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) 
+</div>
 
 </div>
 
@@ -479,7 +626,10 @@
 <div class="cell" data-label="Column">copyShortfallsDocSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
+<div class="cell" data-label="Type">
+
+ [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) 
+</div>
 
 </div>
 
@@ -488,7 +638,10 @@
 <div class="cell" data-label="Column">copyTakingSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
+<div class="cell" data-label="Type">
+
+ [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) 
+</div>
 
 </div>
 
@@ -497,7 +650,10 @@
 <div class="cell" data-label="Column">copyTransferSettingsFrom</div>
 <div class="cell" data-label="Arabic"> نسخ من</div>
 <div class="cell" data-label="English"> Copy From</div>
-<div class="cell" data-label="Type"> [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) </div>
+<div class="cell" data-label="Type">
+
+ [NamaPosUiSettingsSrc](/modules/enums/NamaPosUiSettingsSrc.md) 
+</div>
 
 </div>
 
@@ -506,7 +662,10 @@
 <div class="cell" data-label="Column">createTransactionId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -515,7 +674,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -524,7 +686,10 @@
 <div class="cell" data-label="Column">currentApprovalCase_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type"></div>
+<div class="cell" data-label="Type">
+
+
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ApprovalCase](/modules/system-tables/ApprovalCase.md) 
@@ -536,7 +701,10 @@
 <div class="cell" data-label="Column">currentVersion</div>
 <div class="cell" data-label="Arabic">النسخة الحالية</div>
 <div class="cell" data-label="English">Current Version</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -545,7 +713,10 @@
 <div class="cell" data-label="Column">customViewName</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -554,7 +725,10 @@
 <div class="cell" data-label="Column">customerDisplayWindowImg_id</div>
 <div class="cell" data-label="Arabic">صورة نافذة العميل</div>
 <div class="cell" data-label="English">Customer Display Window Image</div>
-<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Type">
+
+Binary
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LargeData](/modules/system-tables/LargeData.md) 
@@ -566,7 +740,10 @@
 <div class="cell" data-label="Column">customerDisplayWindowImgWidth</div>
 <div class="cell" data-label="Arabic">عرض صورة نافذة العميل</div>
 <div class="cell" data-label="English">Customer Display Window Image Width</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -575,7 +752,10 @@
 <div class="cell" data-label="Column">customerDisplayWindowLogoWidth</div>
 <div class="cell" data-label="Arabic">عرض صورة اللوجو في نافذة العميل</div>
 <div class="cell" data-label="English">Customer Display Window Logo Width</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -584,7 +764,10 @@
 <div class="cell" data-label="Column">date1</div>
 <div class="cell" data-label="Arabic">تـــاريخ 1</div>
 <div class="cell" data-label="English">Date 1</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -593,7 +776,10 @@
 <div class="cell" data-label="Column">date2</div>
 <div class="cell" data-label="Arabic">تـــاريخ 2</div>
 <div class="cell" data-label="English">Date 2</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -602,7 +788,10 @@
 <div class="cell" data-label="Column">date3</div>
 <div class="cell" data-label="Arabic">تاريخ 3</div>
 <div class="cell" data-label="English">Date3</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -611,7 +800,10 @@
 <div class="cell" data-label="Column">date4</div>
 <div class="cell" data-label="Arabic">تاريخ 4</div>
 <div class="cell" data-label="English">Date4</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -620,7 +812,10 @@
 <div class="cell" data-label="Column">date5</div>
 <div class="cell" data-label="Arabic">تاريخ 5</div>
 <div class="cell" data-label="English">Date5</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -629,7 +824,10 @@
 <div class="cell" data-label="Column">department_id</div>
 <div class="cell" data-label="Arabic">الإدارة</div>
 <div class="cell" data-label="English">Department</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Department](/modules/basic/Department.md) 
@@ -641,7 +839,10 @@
 <div class="cell" data-label="Column">department_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -650,7 +851,10 @@
 <div class="cell" data-label="Column">description1</div>
 <div class="cell" data-label="Arabic">الوصف 1</div>
 <div class="cell" data-label="English">description1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -659,7 +863,10 @@
 <div class="cell" data-label="Column">description2</div>
 <div class="cell" data-label="Arabic">الوصف 2</div>
 <div class="cell" data-label="English">description2</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -668,7 +875,10 @@
 <div class="cell" data-label="Column">description3</div>
 <div class="cell" data-label="Arabic">الوصف 3</div>
 <div class="cell" data-label="English">description3</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -677,7 +887,10 @@
 <div class="cell" data-label="Column">description4</div>
 <div class="cell" data-label="Arabic">الوصف 4</div>
 <div class="cell" data-label="English">description4</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -686,7 +899,10 @@
 <div class="cell" data-label="Column">description5</div>
 <div class="cell" data-label="Arabic">الوصف 5</div>
 <div class="cell" data-label="English">description5</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -695,7 +911,10 @@
 <div class="cell" data-label="Column">displayTitleBarVertically</div>
 <div class="cell" data-label="Arabic">إظهار شريط العنوان عمودياً</div>
 <div class="cell" data-label="English">Display Title Bar Vertically</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -704,7 +923,10 @@
 <div class="cell" data-label="Column">doNotAddAddressRegionFieldAutomatically</div>
 <div class="cell" data-label="Arabic">عدم إضافة حقل المنطقة تلقائياً</div>
 <div class="cell" data-label="English">Do Not Add Address Region Field Automatically</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -713,7 +935,10 @@
 <div class="cell" data-label="Column">doNotAddDriverFieldAutomatically</div>
 <div class="cell" data-label="Arabic">عدم إضافة حقل السائق تلقائياً</div>
 <div class="cell" data-label="English">Do Not Add Driver Field Automatically</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -722,7 +947,10 @@
 <div class="cell" data-label="Column">doNotAddSalesLineDecQtyBtn</div>
 <div class="cell" data-label="Arabic">عدم إضافة زر خفض الكمية لسطور المبيعات</div>
 <div class="cell" data-label="English">Do Not Add Sales Line Decrease Quantity Button</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -731,7 +959,10 @@
 <div class="cell" data-label="Column">doNotAddSalesLineDepreciateBtn</div>
 <div class="cell" data-label="Arabic">عدم إضافة زر التحويل إلى هالك لسطور المبيعات</div>
 <div class="cell" data-label="English">Do Not Add Sales Line Depreciate Button</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -740,7 +971,10 @@
 <div class="cell" data-label="Column">doNotAddSalesLineDuplBtn</div>
 <div class="cell" data-label="Arabic">عدم إضافة زر التكرار لسطور المبيعات</div>
 <div class="cell" data-label="English">Do Not Add Sales Line Duplicate Button</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -749,7 +983,10 @@
 <div class="cell" data-label="Column">doNotAddSalesLineIncQtyBtn</div>
 <div class="cell" data-label="Arabic">عدم إضافة زر زيادة الكمية لسطور المبيعات</div>
 <div class="cell" data-label="English">Do Not Add Sales Line Increase Quantity Button</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -758,7 +995,10 @@
 <div class="cell" data-label="Column">doNotAddSalesLineRemovelBtn</div>
 <div class="cell" data-label="Arabic">عدم إضافة زر الحذف لسطور المبيعات</div>
 <div class="cell" data-label="English">Do Not Add Sales Line Remove Button</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -767,7 +1007,10 @@
 <div class="cell" data-label="Column">docCategory_id</div>
 <div class="cell" data-label="Arabic"> تصنيف سجل</div>
 <div class="cell" data-label="English"> Record Category</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [DocCategory](/modules/basic/DocCategory.md) 
@@ -779,7 +1022,10 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) 
+</div>
 
 </div>
 
@@ -788,7 +1034,10 @@
 <div class="cell" data-label="Column">draftCreated</div>
 <div class="cell" data-label="Arabic">تم إنشاء مسودة</div>
 <div class="cell" data-label="English">Draft Created</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -797,7 +1046,10 @@
 <div class="cell" data-label="Column">draftXML</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -806,7 +1058,10 @@
 <div class="cell" data-label="Column">editedBy_id</div>
 <div class="cell" data-label="Arabic">بواسطة</div>
 <div class="cell" data-label="English">Edited By</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [NaMaUser](/modules/system-tables/NaMaUser.md) 
@@ -818,7 +1073,10 @@
 <div class="cell" data-label="Column">entitySystemEntry_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -827,7 +1085,10 @@
 <div class="cell" data-label="Column">entityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -836,7 +1097,10 @@
 <div class="cell" data-label="Column">favouriteDocBtnHeight</div>
 <div class="cell" data-label="Arabic">أرتفاع زر المستندات المفضله</div>
 <div class="cell" data-label="English">Favourite Document button height</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -845,7 +1109,10 @@
 <div class="cell" data-label="Column">favouriteDocBtnWidth</div>
 <div class="cell" data-label="Arabic">عرض زر المستندات المفضله</div>
 <div class="cell" data-label="English">Favourite Document button width</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -854,7 +1121,10 @@
 <div class="cell" data-label="Column">favouriteItemBtnHeight</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -863,7 +1133,10 @@
 <div class="cell" data-label="Column">favouriteItemBtnWidth</div>
 <div class="cell" data-label="Arabic">عرض زر الأصناف المفضله</div>
 <div class="cell" data-label="English">Favourite Item button width</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -872,7 +1145,10 @@
 <div class="cell" data-label="Column">favouriteItemsCountPerLine</div>
 <div class="cell" data-label="Arabic">عدد الأصناف المفضله في السطر الواحد</div>
 <div class="cell" data-label="English">Favourite Items Count Per Line</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -881,7 +1157,10 @@
 <div class="cell" data-label="Column">firstAuthor_id</div>
 <div class="cell" data-label="Arabic">منشئ السجل</div>
 <div class="cell" data-label="English">First Author</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [NaMaUser](/modules/system-tables/NaMaUser.md) 
@@ -893,7 +1172,10 @@
 <div class="cell" data-label="Column">firstAuthor_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -902,7 +1184,10 @@
 <div class="cell" data-label="Column">fullScreenPaymentDialogs</div>
 <div class="cell" data-label="Arabic">ملءالشاشة عند فتح شاشة الدفع</div>
 <div class="cell" data-label="English">Full Screen Payment Dialogs</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -911,7 +1196,10 @@
 <div class="cell" data-label="Column">fullScreenSearchDialogs</div>
 <div class="cell" data-label="Arabic">ملءالشاشة عند فتح شاشة البحث</div>
 <div class="cell" data-label="English">Full Screen Search Dialogs</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -920,7 +1208,10 @@
 <div class="cell" data-label="Column">generatedByLine</div>
 <div class="cell" data-label="Arabic">كود سطر الإنشاء</div>
 <div class="cell" data-label="English">generated By Line</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -929,7 +1220,10 @@
 <div class="cell" data-label="Column">generatedDocsCount</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -938,7 +1232,10 @@
 <div class="cell gen-ref-column" data-label="Column">generatedFromActualCode,  generatedFromCode,  generatedFromEntityType,  generatedFromId</div>
 <div class="cell" data-label="Arabic">تم إنشاؤه من</div>
 <div class="cell" data-label="English">Generated From</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -947,7 +1244,10 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
+<div class="cell" data-label="Type">
+
+ [GenerationType](/modules/enums/GenerationType.md) 
+</div>
 
 </div>
 
@@ -956,7 +1256,10 @@
 <div class="cell" data-label="Column">group_id</div>
 <div class="cell" data-label="Arabic">المجموعة</div>
 <div class="cell" data-label="English">Group</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [MasterGroup](/modules/basic/MasterGroup.md) 
@@ -968,7 +1271,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -977,7 +1283,10 @@
 <div class="cell" data-label="Column">indexInParent</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -986,7 +1295,10 @@
 <div class="cell" data-label="Column">colsCountPerRow</div>
 <div class="cell" data-label="Arabic">عدد الأعمده في الصف الواحد</div>
 <div class="cell" data-label="English">Columns Count Per Row</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -995,7 +1307,10 @@
 <div class="cell" data-label="Column">doNotAddFavouritesPart</div>
 <div class="cell" data-label="Arabic">عدم إضافة جزء المفضلات</div>
 <div class="cell" data-label="English">Do Not Add Favourites Part</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1004,7 +1319,10 @@
 <div class="cell" data-label="Column">favouritePaneWidthPercent</div>
 <div class="cell" data-label="Arabic">نسبة عرض جزء المفضلات (من إجمالي الشاشه)</div>
 <div class="cell" data-label="English">Favourite Pane Width Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1013,7 +1331,10 @@
 <div class="cell" data-label="Column">jasperFonts_id</div>
 <div class="cell" data-label="Arabic">خطوط خاصة ب Jasper</div>
 <div class="cell" data-label="English">Jasper Fonts</div>
-<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Type">
+
+Binary
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LargeData](/modules/system-tables/LargeData.md) 
@@ -1025,7 +1346,10 @@
 <div class="cell" data-label="Column">lastChangeVersion</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1034,7 +1358,10 @@
 <div class="cell" data-label="Column">LastModifyTransactionId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1043,7 +1370,10 @@
 <div class="cell" data-label="Column">lastUpdateDate</div>
 <div class="cell" data-label="Arabic">تاريخ اخر تحديث</div>
 <div class="cell" data-label="English">Last update Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -1052,7 +1382,10 @@
 <div class="cell" data-label="Column">legalEntity_id</div>
 <div class="cell" data-label="Arabic">الشركة</div>
 <div class="cell" data-label="English">Legal Entity</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LegalEntity](/modules/basic/LegalEntity.md) 
@@ -1064,7 +1397,10 @@
 <div class="cell" data-label="Column">legalEntity_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1073,7 +1409,10 @@
 <div class="cell" data-label="Column">lockVersion</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1082,7 +1421,10 @@
 <div class="cell" data-label="Column">logoImageWidth</div>
 <div class="cell" data-label="Arabic">عرض صورة لوجو الشركه</div>
 <div class="cell" data-label="English">LegalEntity Logo Image Width</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1091,7 +1433,10 @@
 <div class="cell" data-label="Column">mainColor</div>
 <div class="cell" data-label="Arabic">اللون الأساسي</div>
 <div class="cell" data-label="English">Main Color</div>
-<div class="cell" data-label="Type">Color</div>
+<div class="cell" data-label="Type">
+
+Color
+</div>
 
 </div>
 
@@ -1100,7 +1445,10 @@
 <div class="cell" data-label="Column">mainFile_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Type">
+
+Binary
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LargeData](/modules/system-tables/LargeData.md) 
@@ -1112,7 +1460,10 @@
 <div class="cell" data-label="Column">n1</div>
 <div class="cell" data-label="Arabic">رقم 1</div>
 <div class="cell" data-label="English">Number 1</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1121,7 +1472,10 @@
 <div class="cell" data-label="Column">n2</div>
 <div class="cell" data-label="Arabic">رقم 2</div>
 <div class="cell" data-label="English">Number 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1130,7 +1484,10 @@
 <div class="cell" data-label="Column">n3</div>
 <div class="cell" data-label="Arabic">رقم 3</div>
 <div class="cell" data-label="English">Number 3</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1139,7 +1496,10 @@
 <div class="cell" data-label="Column">n4</div>
 <div class="cell" data-label="Arabic">رقم 4</div>
 <div class="cell" data-label="English">Number 4</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1148,7 +1508,10 @@
 <div class="cell" data-label="Column">n5</div>
 <div class="cell" data-label="Arabic">رقم 5</div>
 <div class="cell" data-label="English">Number 5</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1157,7 +1520,10 @@
 <div class="cell" data-label="Column">name1</div>
 <div class="cell" data-label="Arabic">الاسم العربي</div>
 <div class="cell" data-label="English">Name1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1166,7 +1532,10 @@
 <div class="cell" data-label="Column">name2</div>
 <div class="cell" data-label="Arabic">الاسم الإنجليزي</div>
 <div class="cell" data-label="English">Name2</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1175,7 +1544,10 @@
 <div class="cell" data-label="Column">ordColsCountPerRow</div>
 <div class="cell" data-label="Arabic">عدد الأعمده في الصف الواحد</div>
 <div class="cell" data-label="English">Columns Count Per Row</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1184,7 +1556,10 @@
 <div class="cell" data-label="Column">ordDoNotAddFavouritesPart</div>
 <div class="cell" data-label="Arabic">عدم إضافة جزء المفضلات</div>
 <div class="cell" data-label="English">Do Not Add Favourites Part</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1193,7 +1568,10 @@
 <div class="cell" data-label="Column">ordFavouritePaneWidthPercent</div>
 <div class="cell" data-label="Arabic">نسبة عرض جزء المفضلات (من إجمالي الشاشه)</div>
 <div class="cell" data-label="English">Favourite Pane Width Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1202,7 +1580,10 @@
 <div class="cell" data-label="Column">parentCode</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1211,7 +1592,10 @@
 <div class="cell" data-label="Column">preventUsage</div>
 <div class="cell" data-label="Arabic">منع الاستعمال</div>
 <div class="cell" data-label="English">Prevent Usage</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1220,7 +1604,10 @@
 <div class="cell" data-label="Column">printCount</div>
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1229,7 +1616,10 @@
 <div class="cell" data-label="Column">rcptColsCountPerRow</div>
 <div class="cell" data-label="Arabic">عدد الأعمده في الصف الواحد</div>
 <div class="cell" data-label="English">Columns Count Per Row</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1238,7 +1628,10 @@
 <div class="cell" data-label="Column">rcptDoNotAddFavouritesPart</div>
 <div class="cell" data-label="Arabic">عدم إضافة جزء المفضلات</div>
 <div class="cell" data-label="English">Do Not Add Favourites Part</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1247,7 +1640,10 @@
 <div class="cell" data-label="Column">rcptFavouritePaneWidthPercent</div>
 <div class="cell" data-label="Arabic">نسبة عرض جزء المفضلات (من إجمالي الشاشه)</div>
 <div class="cell" data-label="English">Favourite Pane Width Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1256,7 +1652,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
 <div class="cell" data-label="Arabic">مرجع 1</div>
 <div class="cell" data-label="English">Reference 1</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -1265,7 +1664,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
 <div class="cell" data-label="Arabic">مرجع 2</div>
 <div class="cell" data-label="English">Reference 2</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -1274,7 +1676,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref3ActualCode,  ref3Code,  ref3EntityType,  ref3Id</div>
 <div class="cell" data-label="Arabic">مرجع 3</div>
 <div class="cell" data-label="English">Reference 3</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -1283,7 +1688,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref4ActualCode,  ref4Code,  ref4EntityType,  ref4Id</div>
 <div class="cell" data-label="Arabic">مرجع 4</div>
 <div class="cell" data-label="English">Reference 4</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -1292,7 +1700,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref5ActualCode,  ref5Code,  ref5EntityType,  ref5Id</div>
 <div class="cell" data-label="Arabic">مرجع 5</div>
 <div class="cell" data-label="English">Reference 5</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -1301,7 +1712,10 @@
 <div class="cell" data-label="Column">remark</div>
 <div class="cell" data-label="Arabic">ملاحظات</div>
 <div class="cell" data-label="English">Description</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1310,7 +1724,10 @@
 <div class="cell" data-label="Column">repColsCountPerRow</div>
 <div class="cell" data-label="Arabic">عدد الأعمده في الصف الواحد</div>
 <div class="cell" data-label="English">Columns Count Per Row</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1319,7 +1736,10 @@
 <div class="cell" data-label="Column">repDoNotAddFavouritesPart</div>
 <div class="cell" data-label="Arabic">عدم إضافة جزء المفضلات</div>
 <div class="cell" data-label="English">Do Not Add Favourites Part</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1328,7 +1748,10 @@
 <div class="cell" data-label="Column">repFavouritePaneWidthPercent</div>
 <div class="cell" data-label="Arabic">نسبة عرض جزء المفضلات (من إجمالي الشاشه)</div>
 <div class="cell" data-label="English">Favourite Pane Width Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1337,7 +1760,10 @@
 <div class="cell" data-label="Column">retColsCountPerRow</div>
 <div class="cell" data-label="Arabic">عدد الأعمده في الصف الواحد</div>
 <div class="cell" data-label="English">Columns Count Per Row</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1346,7 +1772,10 @@
 <div class="cell" data-label="Column">retDoNotAddFavouritesPart</div>
 <div class="cell" data-label="Arabic">عدم إضافة جزء المفضلات</div>
 <div class="cell" data-label="English">Do Not Add Favourites Part</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1355,7 +1784,10 @@
 <div class="cell" data-label="Column">retFavouritePaneWidthPercent</div>
 <div class="cell" data-label="Arabic">نسبة عرض جزء المفضلات (من إجمالي الشاشه)</div>
 <div class="cell" data-label="English">Favourite Pane Width Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1364,7 +1796,10 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
+<div class="cell" data-label="Type">
+
+ [ReviseLevel](/modules/enums/ReviseLevel.md) 
+</div>
 
 </div>
 
@@ -1373,7 +1808,10 @@
 <div class="cell" data-label="Column">primitiveValue</div>
 <div class="cell" data-label="Arabic">تمت المراجعة</div>
 <div class="cell" data-label="English">Revised</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1382,7 +1820,10 @@
 <div class="cell" data-label="Column">revisedBy_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [NaMaUser](/modules/system-tables/NaMaUser.md) 
@@ -1394,7 +1835,10 @@
 <div class="cell" data-label="Column">salesReplacementColor</div>
 <div class="cell" data-label="Arabic">لون الاستبدال</div>
 <div class="cell" data-label="English">Sales Replacement Color</div>
-<div class="cell" data-label="Type">Color</div>
+<div class="cell" data-label="Type">
+
+Color
+</div>
 
 </div>
 
@@ -1403,7 +1847,10 @@
 <div class="cell" data-label="Column">salesReturnColor</div>
 <div class="cell" data-label="Arabic">لون المردود</div>
 <div class="cell" data-label="English">Sales Return Color</div>
-<div class="cell" data-label="Type">Color</div>
+<div class="cell" data-label="Type">
+
+Color
+</div>
 
 </div>
 
@@ -1412,7 +1859,10 @@
 <div class="cell" data-label="Column">scColsCountPerRow</div>
 <div class="cell" data-label="Arabic">عدد الأعمده في الصف الواحد</div>
 <div class="cell" data-label="English">Columns Count Per Row</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1421,7 +1871,10 @@
 <div class="cell" data-label="Column">scDoNotAddFavouritesPart</div>
 <div class="cell" data-label="Arabic">عدم إضافة جزء المفضلات</div>
 <div class="cell" data-label="English">Do Not Add Favourites Part</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1430,7 +1883,10 @@
 <div class="cell" data-label="Column">scFavouritePaneWidthPercent</div>
 <div class="cell" data-label="Arabic">نسبة عرض جزء المفضلات (من إجمالي الشاشه)</div>
 <div class="cell" data-label="English">Favourite Pane Width Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1439,7 +1895,10 @@
 <div class="cell" data-label="Column">screensTitleLabelSize</div>
 <div class="cell" data-label="Arabic">حجم خط عنوان الشاشات</div>
 <div class="cell" data-label="English">Screens Title Font Size</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1448,7 +1907,10 @@
 <div class="cell" data-label="Column">searchDialogRecordsCountPerPage</div>
 <div class="cell" data-label="Arabic">عدد السجلات لكل صفحة في ال Search Dialogue</div>
 <div class="cell" data-label="English">Search Dialog Records Count Per Page</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1457,7 +1919,10 @@
 <div class="cell" data-label="Column">sector_id</div>
 <div class="cell" data-label="Arabic">القطاع</div>
 <div class="cell" data-label="English">Sector</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Sector](/modules/basic/Sector.md) 
@@ -1469,7 +1934,10 @@
 <div class="cell" data-label="Column">sector_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1478,7 +1946,10 @@
 <div class="cell" data-label="Column">shortcutImgBtnsToTextBtns</div>
 <div class="cell" data-label="Arabic">تحويل زرائر الاختصارات ذات الصور الي زرائر نصيه</div>
 <div class="cell" data-label="English">Shortcut Image Buttons To Text Buttons</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1487,7 +1958,10 @@
 <div class="cell" data-label="Column">sfColsCountPerRow</div>
 <div class="cell" data-label="Arabic">عدد الأعمده في الصف الواحد</div>
 <div class="cell" data-label="English">Columns Count Per Row</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1496,7 +1970,10 @@
 <div class="cell" data-label="Column">sfDoNotAddFavouritesPart</div>
 <div class="cell" data-label="Arabic">عدم إضافة جزء المفضلات</div>
 <div class="cell" data-label="English">Do Not Add Favourites Part</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1505,7 +1982,10 @@
 <div class="cell" data-label="Column">sfFavouritePaneWidthPercent</div>
 <div class="cell" data-label="Arabic">نسبة عرض جزء المفضلات (من إجمالي الشاشه)</div>
 <div class="cell" data-label="English">Favourite Pane Width Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1514,7 +1994,10 @@
 <div class="cell" data-label="Column">systemGeneratedCodePrefix</div>
 <div class="cell" data-label="Arabic">System Generated Code Prefix</div>
 <div class="cell" data-label="English">System Generated Code Prefix</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1523,7 +2006,10 @@
 <div class="cell" data-label="Column">takColsCountPerRow</div>
 <div class="cell" data-label="Arabic">عدد الأعمده في الصف الواحد</div>
 <div class="cell" data-label="English">Columns Count Per Row</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1532,7 +2018,10 @@
 <div class="cell" data-label="Column">takDoNotAddFavouritesPart</div>
 <div class="cell" data-label="Arabic">عدم إضافة جزء المفضلات</div>
 <div class="cell" data-label="English">Do Not Add Favourites Part</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1541,7 +2030,10 @@
 <div class="cell" data-label="Column">takFavouritePaneWidthPercent</div>
 <div class="cell" data-label="Arabic">نسبة عرض جزء المفضلات (من إجمالي الشاشه)</div>
 <div class="cell" data-label="English">Favourite Pane Width Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1550,7 +2042,10 @@
 <div class="cell" data-label="Column">totalsPaneColor</div>
 <div class="cell" data-label="Arabic">لون الإجماليات</div>
 <div class="cell" data-label="English">Totals Pane Color</div>
-<div class="cell" data-label="Type">Color</div>
+<div class="cell" data-label="Type">
+
+Color
+</div>
 
 </div>
 
@@ -1559,7 +2054,10 @@
 <div class="cell" data-label="Column">totalsPaneFontColor</div>
 <div class="cell" data-label="Arabic">لون خط الإجماليات</div>
 <div class="cell" data-label="English">Totals Pane Font Color</div>
-<div class="cell" data-label="Type">Color</div>
+<div class="cell" data-label="Type">
+
+Color
+</div>
 
 </div>
 
@@ -1568,7 +2066,10 @@
 <div class="cell" data-label="Column">trColsCountPerRow</div>
 <div class="cell" data-label="Arabic">عدد الأعمده في الصف الواحد</div>
 <div class="cell" data-label="English">Columns Count Per Row</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1577,7 +2078,10 @@
 <div class="cell" data-label="Column">trDoNotAddFavouritesPart</div>
 <div class="cell" data-label="Arabic">عدم إضافة جزء المفضلات</div>
 <div class="cell" data-label="English">Do Not Add Favourites Part</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1586,7 +2090,10 @@
 <div class="cell" data-label="Column">trFavouritePaneWidthPercent</div>
 <div class="cell" data-label="Arabic">نسبة عرض جزء المفضلات (من إجمالي الشاشه)</div>
 <div class="cell" data-label="English">Favourite Pane Width Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1595,7 +2102,10 @@
 <div class="cell" data-label="Column">updateCapability_id</div>
 <div class="cell" data-label="Arabic">صلاحية التعديل</div>
 <div class="cell" data-label="English">Update Capability</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SecurityCapability](/modules/basic/SecurityCapability.md) 
@@ -1607,7 +2117,10 @@
 <div class="cell" data-label="Column">updateCapability_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1616,7 +2129,10 @@
 <div class="cell" data-label="Column">usageCapability_id</div>
 <div class="cell" data-label="Arabic">صلاحية الاستخدام</div>
 <div class="cell" data-label="English">Usage Capability</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SecurityCapability](/modules/basic/SecurityCapability.md) 
@@ -1628,7 +2144,10 @@
 <div class="cell" data-label="Column">usageCapability_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1637,7 +2156,10 @@
 <div class="cell" data-label="Column">useMultiTableAsDefault</div>
 <div class="cell" data-label="Arabic">استعمال الطاولات المدمجة بشكل افتراضي</div>
 <div class="cell" data-label="English">Use Multi Table As Default</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1646,7 +2168,10 @@
 <div class="cell" data-label="Column">viewCapability_id</div>
 <div class="cell" data-label="Arabic">صلاحية المطالعة</div>
 <div class="cell" data-label="English">View Capability</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SecurityCapability](/modules/basic/SecurityCapability.md) 
@@ -1658,7 +2183,10 @@
 <div class="cell" data-label="Column">viewCapability_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1689,7 +2217,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
+<div class="cell" data-label="Type">
+
+ [PosSalesGridField](/modules/enums/PosSalesGridField.md) 
+</div>
 
 </div>
 
@@ -1698,7 +2229,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1707,7 +2241,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1716,7 +2253,10 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
+<div class="cell" data-label="Type">
+
+ [GridSizeEnum](/modules/enums/GridSizeEnum.md) 
+</div>
 
 </div>
 
@@ -1747,7 +2287,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -1756,7 +2299,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1765,7 +2311,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1796,7 +2345,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -1805,7 +2357,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1814,7 +2369,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1845,7 +2403,10 @@
 <div class="cell" data-label="Column">entityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -1854,7 +2415,10 @@
 <div class="cell" data-label="Column">fieldId</div>
 <div class="cell" data-label="Arabic"> الحقل</div>
 <div class="cell" data-label="English"> On Field</div>
-<div class="cell" data-label="Type">FieldID</div>
+<div class="cell" data-label="Type">
+
+FieldID
+</div>
 
 </div>
 
@@ -1863,7 +2427,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1872,7 +2439,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1903,7 +2473,10 @@
 <div class="cell" data-label="Column">entityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -1912,7 +2485,10 @@
 <div class="cell" data-label="Column">fieldId</div>
 <div class="cell" data-label="Arabic"> الحقل</div>
 <div class="cell" data-label="English"> On Field</div>
-<div class="cell" data-label="Type">FieldID</div>
+<div class="cell" data-label="Type">
+
+FieldID
+</div>
 
 </div>
 
@@ -1921,7 +2497,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1930,7 +2509,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1961,7 +2543,10 @@
 <div class="cell" data-label="Column">entityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -1970,7 +2555,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
+<div class="cell" data-label="Type">
+
+ [PosSalesGridField](/modules/enums/PosSalesGridField.md) 
+</div>
 
 </div>
 
@@ -1979,7 +2567,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1988,7 +2579,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1997,7 +2591,10 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
+<div class="cell" data-label="Type">
+
+ [GridSizeEnum](/modules/enums/GridSizeEnum.md) 
+</div>
 
 </div>
 
@@ -2028,7 +2625,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type">FieldID</div>
+<div class="cell" data-label="Type">
+
+FieldID
+</div>
 
 </div>
 
@@ -2037,7 +2637,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2046,7 +2649,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2055,7 +2661,10 @@
 <div class="cell" data-label="Column">required</div>
 <div class="cell" data-label="Arabic">إجبارى</div>
 <div class="cell" data-label="English">Required</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -2086,7 +2695,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -2095,7 +2707,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2104,7 +2719,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2135,7 +2753,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
+<div class="cell" data-label="Type">
+
+ [PosSalesGridField](/modules/enums/PosSalesGridField.md) 
+</div>
 
 </div>
 
@@ -2144,7 +2765,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2153,7 +2777,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2162,7 +2789,10 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
+<div class="cell" data-label="Type">
+
+ [GridSizeEnum](/modules/enums/GridSizeEnum.md) 
+</div>
 
 </div>
 
@@ -2193,7 +2823,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -2202,7 +2835,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2211,7 +2847,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2242,7 +2881,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -2251,7 +2893,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2260,7 +2905,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2291,7 +2939,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -2300,7 +2951,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2309,7 +2963,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2340,7 +2997,10 @@
 <div class="cell" data-label="Column">entityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -2349,7 +3009,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSHeaderFields](/modules/enums/POSHeaderFields.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSHeaderFields](/modules/enums/POSHeaderFields.md) 
+</div>
 
 </div>
 
@@ -2358,7 +3021,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2367,7 +3033,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2398,7 +3067,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2407,7 +3079,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2416,7 +3091,10 @@
 <div class="cell" data-label="Column">posProcedure</div>
 <div class="cell" data-label="Arabic">إجراء نقطة البيع</div>
 <div class="cell" data-label="English">POS Procedure</div>
-<div class="cell" data-label="Type"> [POSProcedures](/modules/enums/POSProcedures.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSProcedures](/modules/enums/POSProcedures.md) 
+</div>
 
 </div>
 
@@ -2447,7 +3125,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
+<div class="cell" data-label="Type">
+
+ [PosSalesGridField](/modules/enums/PosSalesGridField.md) 
+</div>
 
 </div>
 
@@ -2456,7 +3137,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2465,7 +3149,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2474,7 +3161,10 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
+<div class="cell" data-label="Type">
+
+ [GridSizeEnum](/modules/enums/GridSizeEnum.md) 
+</div>
 
 </div>
 
@@ -2505,7 +3195,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -2514,7 +3207,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2523,7 +3219,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2554,7 +3253,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -2563,7 +3265,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2572,7 +3277,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2603,7 +3311,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
+<div class="cell" data-label="Type">
+
+ [PosSalesGridField](/modules/enums/PosSalesGridField.md) 
+</div>
 
 </div>
 
@@ -2612,7 +3323,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2621,7 +3335,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2630,7 +3347,10 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
+<div class="cell" data-label="Type">
+
+ [GridSizeEnum](/modules/enums/GridSizeEnum.md) 
+</div>
 
 </div>
 
@@ -2661,7 +3381,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -2670,7 +3393,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2679,7 +3405,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2710,7 +3439,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -2719,7 +3451,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2728,7 +3463,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2759,7 +3497,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
+<div class="cell" data-label="Type">
+
+ [PosSalesGridField](/modules/enums/PosSalesGridField.md) 
+</div>
 
 </div>
 
@@ -2768,7 +3509,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2777,7 +3521,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2786,7 +3533,10 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
+<div class="cell" data-label="Type">
+
+ [GridSizeEnum](/modules/enums/GridSizeEnum.md) 
+</div>
 
 </div>
 
@@ -2817,7 +3567,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -2826,7 +3579,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2835,7 +3591,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2866,7 +3625,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -2875,7 +3637,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2884,7 +3649,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2915,7 +3683,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
+<div class="cell" data-label="Type">
+
+ [PosSalesGridField](/modules/enums/PosSalesGridField.md) 
+</div>
 
 </div>
 
@@ -2924,7 +3695,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2933,7 +3707,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2942,7 +3719,10 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
+<div class="cell" data-label="Type">
+
+ [GridSizeEnum](/modules/enums/GridSizeEnum.md) 
+</div>
 
 </div>
 
@@ -2973,7 +3753,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
+<div class="cell" data-label="Type">
+
+ [PosSalesGridField](/modules/enums/PosSalesGridField.md) 
+</div>
 
 </div>
 
@@ -2982,7 +3765,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2991,7 +3777,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3000,7 +3789,10 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
+<div class="cell" data-label="Type">
+
+ [GridSizeEnum](/modules/enums/GridSizeEnum.md) 
+</div>
 
 </div>
 
@@ -3031,7 +3823,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -3040,7 +3835,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3049,7 +3847,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3080,7 +3881,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -3089,7 +3893,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3098,7 +3905,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3129,7 +3939,10 @@
 <div class="cell" data-label="Column">entityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -3138,7 +3951,10 @@
 <div class="cell" data-label="Column">fieldId</div>
 <div class="cell" data-label="Arabic"> الحقل</div>
 <div class="cell" data-label="English"> On Field</div>
-<div class="cell" data-label="Type">FieldID</div>
+<div class="cell" data-label="Type">
+
+FieldID
+</div>
 
 </div>
 
@@ -3147,7 +3963,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3156,7 +3975,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3187,7 +4009,10 @@
 <div class="cell" data-label="Column">entityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -3196,7 +4021,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3205,7 +4033,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3214,7 +4045,10 @@
 <div class="cell" data-label="Column">searchDialogColumnsMode</div>
 <div class="cell" data-label="Arabic">طريقة تعديل أعمدة ال Search Dialog</div>
 <div class="cell" data-label="English">Search Dialog Columns Mode</div>
-<div class="cell" data-label="Type"> [ViewModificationType](/modules/enums/ViewModificationType.md) </div>
+<div class="cell" data-label="Type">
+
+ [ViewModificationType](/modules/enums/ViewModificationType.md) 
+</div>
 
 </div>
 
@@ -3223,7 +4057,10 @@
 <div class="cell" data-label="Column">searchDialogOrderByField</div>
 <div class="cell" data-label="Arabic">حقل الترتيب الإفتراضي لل Search Dialog</div>
 <div class="cell" data-label="English">Search Dialog Order By Field</div>
-<div class="cell" data-label="Type">FieldID</div>
+<div class="cell" data-label="Type">
+
+FieldID
+</div>
 
 </div>
 
@@ -3232,7 +4069,10 @@
 <div class="cell" data-label="Column">searchDialogRecordsCountPerPage</div>
 <div class="cell" data-label="Arabic">عدد السجلات لكل صفحة في ال Search Dialogue</div>
 <div class="cell" data-label="English">Search Dialog Records Count Per Page</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3241,7 +4081,10 @@
 <div class="cell" data-label="Column">searchDialogSortType</div>
 <div class="cell" data-label="Arabic">نوع الترتيب الإفتراضي لل Search Dialog</div>
 <div class="cell" data-label="English">Search Dialog Sort Type</div>
-<div class="cell" data-label="Type"> [SortType](/modules/enums/SortType.md) </div>
+<div class="cell" data-label="Type">
+
+ [SortType](/modules/enums/SortType.md) 
+</div>
 
 </div>
 
@@ -3272,7 +4115,10 @@
 <div class="cell" data-label="Column">entityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -3281,7 +4127,10 @@
 <div class="cell" data-label="Column">fieldId</div>
 <div class="cell" data-label="Arabic"> الحقل</div>
 <div class="cell" data-label="English"> On Field</div>
-<div class="cell" data-label="Type">FieldID</div>
+<div class="cell" data-label="Type">
+
+FieldID
+</div>
 
 </div>
 
@@ -3290,7 +4139,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3299,7 +4151,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3330,7 +4185,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
+<div class="cell" data-label="Type">
+
+ [PosSalesGridField](/modules/enums/PosSalesGridField.md) 
+</div>
 
 </div>
 
@@ -3339,7 +4197,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3348,7 +4209,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3357,7 +4221,10 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
+<div class="cell" data-label="Type">
+
+ [GridSizeEnum](/modules/enums/GridSizeEnum.md) 
+</div>
 
 </div>
 
@@ -3388,7 +4255,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -3397,7 +4267,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3406,7 +4279,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3437,7 +4313,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -3446,7 +4325,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3455,7 +4337,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3486,7 +4371,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
+<div class="cell" data-label="Type">
+
+ [PosSalesGridField](/modules/enums/PosSalesGridField.md) 
+</div>
 
 </div>
 
@@ -3495,7 +4383,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3504,7 +4395,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3513,7 +4407,10 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
+<div class="cell" data-label="Type">
+
+ [GridSizeEnum](/modules/enums/GridSizeEnum.md) 
+</div>
 
 </div>
 
@@ -3544,7 +4441,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -3553,7 +4453,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3562,7 +4465,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3593,7 +4499,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -3602,7 +4511,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3611,7 +4523,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3642,7 +4557,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [PosSalesGridField](/modules/enums/PosSalesGridField.md) </div>
+<div class="cell" data-label="Type">
+
+ [PosSalesGridField](/modules/enums/PosSalesGridField.md) 
+</div>
 
 </div>
 
@@ -3651,7 +4569,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3660,7 +4581,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3669,7 +4593,10 @@
 <div class="cell" data-label="Column">widthSize</div>
 <div class="cell" data-label="Arabic">مقاس العرض</div>
 <div class="cell" data-label="English">Width Size</div>
-<div class="cell" data-label="Type"> [GridSizeEnum](/modules/enums/GridSizeEnum.md) </div>
+<div class="cell" data-label="Type">
+
+ [GridSizeEnum](/modules/enums/GridSizeEnum.md) 
+</div>
 
 </div>
 
@@ -3700,7 +4627,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -3709,7 +4639,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3718,7 +4651,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3749,7 +4685,10 @@
 <div class="cell" data-label="Column">field</div>
 <div class="cell" data-label="Arabic">الحقل</div>
 <div class="cell" data-label="English">Field</div>
-<div class="cell" data-label="Type"> [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesHeaderField](/modules/enums/POSSalesHeaderField.md) 
+</div>
 
 </div>
 
@@ -3758,7 +4697,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3767,7 +4709,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 

@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell gen-ref-column" data-label="Column">estateActualCode,  estateCode,  estateEntityType,  estateId</div>
 <div class="cell" data-label="Arabic">العقار</div>
 <div class="cell" data-label="English">Estate</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell gen-ref-column" data-label="Column">fromDocActualCode,  fromDocCode,  fromDocEntityType,  fromDocId</div>
 <div class="cell" data-label="Arabic">بناءا على</div>
 <div class="cell" data-label="English">From Document</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">fromParentEstate</div>
 <div class="cell" data-label="Arabic">من عقار أعلى</div>
 <div class="cell" data-label="English">From Parent Estate</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell gen-ref-column" data-label="Column">ownerActualCode,  ownerCode,  ownerEntityType,  ownerId</div>
 <div class="cell" data-label="Arabic"> مالك المستند</div>
 <div class="cell" data-label="English"> Document Owner</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell gen-ref-column" data-label="Column">parentEstateActualCode,  parentEstateCode,  parentEstateEntityType,  parentEstateId</div>
 <div class="cell" data-label="Arabic">العقار الأعلى</div>
 <div class="cell" data-label="English">Parent Estate</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">rentStatus</div>
 <div class="cell" data-label="Arabic">حالة الإيجار</div>
 <div class="cell" data-label="English">Rent Status</div>
-<div class="cell" data-label="Type"> [RERentStatus](/modules/enums/RERentStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [RERentStatus](/modules/enums/RERentStatus.md) 
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell" data-label="Column">valueDate</div>
 <div class="cell" data-label="Arabic">التاريخ الفعلي</div>
 <div class="cell" data-label="English">Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 

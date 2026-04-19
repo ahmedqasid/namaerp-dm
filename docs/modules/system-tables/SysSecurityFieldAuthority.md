@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">applicabeWhen</div>
 <div class="cell" data-label="Arabic">تطبق عند</div>
 <div class="cell" data-label="English">Applied when</div>
-<div class="cell" data-label="Type"> [ApplicableWhen](/modules/enums/ApplicableWhen.md) </div>
+<div class="cell" data-label="Type">
+
+ [ApplicableWhen](/modules/enums/ApplicableWhen.md) 
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">applicableWithDraftMode</div>
 <div class="cell" data-label="Arabic">تطبق عند | مسودm</div>
 <div class="cell" data-label="English">ApplicableWith | Draft Mode</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">applicableWithNewMode</div>
 <div class="cell" data-label="Arabic">تطبق عند | جديد</div>
 <div class="cell" data-label="English">ApplicableWith | New Mode</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">applicableWithUpdateMode</div>
 <div class="cell" data-label="Arabic">تطبق عند | تعديل</div>
 <div class="cell" data-label="English">ApplicableWith | Update Mode</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">authorityType</div>
 <div class="cell" data-label="Arabic">نوع التحكم</div>
 <div class="cell" data-label="English">Preview Type</div>
-<div class="cell" data-label="Type"> [FieldAuthorityType](/modules/enums/FieldAuthorityType.md) </div>
+<div class="cell" data-label="Type">
+
+ [FieldAuthorityType](/modules/enums/FieldAuthorityType.md) 
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">entityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">fieldId</div>
 <div class="cell" data-label="Arabic"> الحقل</div>
 <div class="cell" data-label="English"> On Field</div>
-<div class="cell" data-label="Type">FieldID</div>
+<div class="cell" data-label="Type">
+
+FieldID
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic">رقم السطر</div>
 <div class="cell" data-label="English">Line Number</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -106,7 +133,10 @@
 <div class="cell" data-label="Column">preventCopyLine</div>
 <div class="cell" data-label="Arabic">منع نسخ سطر</div>
 <div class="cell" data-label="English">Prevent Copy Line</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -115,7 +145,10 @@
 <div class="cell" data-label="Column">preventDeleteLine</div>
 <div class="cell" data-label="Arabic">منع حذف سطر</div>
 <div class="cell" data-label="English">Prevent Delete Line</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -124,7 +157,10 @@
 <div class="cell" data-label="Column">preventInsertLine</div>
 <div class="cell" data-label="Arabic">منع ادراج سطر</div>
 <div class="cell" data-label="English">Prevent Insert Line</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -133,7 +169,10 @@
 <div class="cell" data-label="Column">refId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -142,7 +181,10 @@
 <div class="cell" data-label="Column">remove</div>
 <div class="cell" data-label="Arabic">حذف</div>
 <div class="cell" data-label="English">Remove</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -151,7 +193,10 @@
 <div class="cell" data-label="Column">securityProfile_id</div>
 <div class="cell" data-label="Arabic">الصلاحيات</div>
 <div class="cell" data-label="English">SecurityProfile</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SecurityProfile](/modules/basic/SecurityProfile.md) 
@@ -163,7 +208,10 @@
 <div class="cell" data-label="Column">targetEntities_id</div>
 <div class="cell" data-label="Arabic">قائمة الأنواع</div>
 <div class="cell" data-label="English">Entity Type List</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [EntityTypeList](/modules/basic/EntityTypeList.md) 

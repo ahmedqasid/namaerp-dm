@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">daysOfYear</div>
 <div class="cell" data-label="Arabic">عدد الايام للسنة(مقسوما علي)</div>
 <div class="cell" data-label="English">Days Of Year(Divided On)</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">daysPerYear</div>
 <div class="cell" data-label="Arabic">عدد الايام عن كل سنة(مضروبا في)</div>
 <div class="cell" data-label="English">Days Per Year(Multiplied by)</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">dueMonths</div>
 <div class="cell" data-label="Arabic">عدد شهور استحقاق بدل نهاية الخدمة</div>
 <div class="cell" data-label="English">Due Months</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">factorResult</div>
 <div class="cell" data-label="Arabic">ناتج المُعامل</div>
 <div class="cell" data-label="English">Factor Result</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">remarks</div>
 <div class="cell" data-label="Arabic">ملاحظات</div>
 <div class="cell" data-label="English">Description</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">sectionType</div>
 <div class="cell" data-label="Arabic">نوع الشرايحة</div>
 <div class="cell" data-label="English">Section Type</div>
-<div class="cell" data-label="Type"> [TerminationSectionType](/modules/enums/TerminationSectionType.md) </div>
+<div class="cell" data-label="Type">
+
+ [TerminationSectionType](/modules/enums/TerminationSectionType.md) 
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">terminationDuePercentage</div>
 <div class="cell" data-label="Arabic">نسبة استحقاق نهاية الخدمة</div>
 <div class="cell" data-label="English">Termination Du Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell" data-label="Column">terminationReason_id</div>
 <div class="cell" data-label="Arabic">سبب نهاية الخدمة</div>
 <div class="cell" data-label="English">Termination Reason</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [TerminationReason](/modules/humanresource-payroll/TerminationReason.md) 
@@ -109,7 +136,10 @@
 <div class="cell" data-label="Column">terminationReasonText</div>
 <div class="cell" data-label="Arabic">نص سبب نهاية الخدمة</div>
 <div class="cell" data-label="English">Termination Reason Text</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -118,7 +148,10 @@
 <div class="cell" data-label="Column">yearsForSection</div>
 <div class="cell" data-label="Arabic">عدد السنوات المنتمية للشريحة</div>
 <div class="cell" data-label="English">Number Of Year Belongs Section</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 

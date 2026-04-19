@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">category_id</div>
 <div class="cell" data-label="Arabic">فئة صنف</div>
 <div class="cell" data-label="English">Category</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [AccountCategory](/modules/accounting/AccountCategory.md) 
@@ -37,7 +40,10 @@
 <div class="cell" data-label="Column">chartClass</div>
 <div class="cell" data-label="Arabic">القسم</div>
 <div class="cell" data-label="English">Class</div>
-<div class="cell" data-label="Type"> [AccountChartClass](/modules/enums/AccountChartClass.md) </div>
+<div class="cell" data-label="Type">
+
+ [AccountChartClass](/modules/enums/AccountChartClass.md) 
+</div>
 
 </div>
 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">chartType_id</div>
 <div class="cell" data-label="Arabic">نوع شجره الحسابات</div>
 <div class="cell" data-label="English">Chart Type</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [AccountChartType](/modules/accounting/AccountChartType.md) 
@@ -58,7 +67,10 @@
 <div class="cell" data-label="Column">defaultParentSide</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -67,7 +79,10 @@
 <div class="cell" data-label="Column">fullCode</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -76,7 +91,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -85,7 +103,10 @@
 <div class="cell" data-label="Column">idStr</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -94,7 +115,10 @@
 <div class="cell" data-label="Column">level</div>
 <div class="cell" data-label="Arabic">المستوى</div>
 <div class="cell" data-label="English">Level</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -103,7 +127,10 @@
 <div class="cell" data-label="Column">name1</div>
 <div class="cell" data-label="Arabic">الاسم العربي</div>
 <div class="cell" data-label="English">Name1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -112,7 +139,10 @@
 <div class="cell" data-label="Column">name2</div>
 <div class="cell" data-label="Arabic">الاسم الإنجليزي</div>
 <div class="cell" data-label="English">Name2</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -121,7 +151,10 @@
 <div class="cell" data-label="Column">naturalSide</div>
 <div class="cell" data-label="Arabic">طبيعة الجانب</div>
 <div class="cell" data-label="English">Natural Side</div>
-<div class="cell" data-label="Type"> [LedgerEffectType](/modules/enums/LedgerEffectType.md) </div>
+<div class="cell" data-label="Type">
+
+ [LedgerEffectType](/modules/enums/LedgerEffectType.md) 
+</div>
 
 </div>
 
@@ -130,7 +163,10 @@
 <div class="cell gen-ref-column" data-label="Column">nodeActualCode,  nodeCode,  nodeEntityType,  nodeId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -139,7 +175,10 @@
 <div class="cell" data-label="Column">parentCode</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -148,7 +187,10 @@
 <div class="cell" data-label="Column">parentId</div>
 <div class="cell" data-label="Arabic">Parent ID</div>
 <div class="cell" data-label="English">Parent ID</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -157,7 +199,10 @@
 <div class="cell" data-label="Column">parentPath</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -166,7 +211,10 @@
 <div class="cell" data-label="Column">parentType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -175,7 +223,10 @@
 <div class="cell" data-label="Column">prefix</div>
 <div class="cell" data-label="Arabic">بادئة التكويد</div>
 <div class="cell" data-label="English">Prefix</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -184,7 +235,10 @@
 <div class="cell" data-label="Column">sideType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 

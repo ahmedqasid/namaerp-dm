@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">divideOn</div>
 <div class="cell" data-label="Arabic">مقسوما علي</div>
 <div class="cell" data-label="English">Divide On</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">fromDay</div>
 <div class="cell" data-label="Arabic">عدد الأيام | من</div>
 <div class="cell" data-label="English">Number Of Days | From</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">multiplyBy</div>
 <div class="cell" data-label="Arabic">مضروب في</div>
 <div class="cell" data-label="English">Multiply By</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">toDay</div>
 <div class="cell" data-label="Arabic">عدد الأيام | إلي</div>
 <div class="cell" data-label="English">Number Of Days | To</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 

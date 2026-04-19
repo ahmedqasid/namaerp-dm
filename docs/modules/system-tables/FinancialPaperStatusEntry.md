@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">cancelValue</div>
 <div class="cell" data-label="Arabic">القيمة الملغاة</div>
 <div class="cell" data-label="English">Cancel Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">financialPaper_id</div>
 <div class="cell" data-label="Arabic">الورقة التجارية</div>
 <div class="cell" data-label="English">Commercial Paper</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [FinancialPaper](/modules/accounting-banks/FinancialPaper.md) 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">fromStatus</div>
 <div class="cell" data-label="Arabic">من حالة</div>
 <div class="cell" data-label="English">From Status</div>
-<div class="cell" data-label="Type"> [FPStatus](/modules/enums/FPStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [FPStatus](/modules/enums/FPStatus.md) 
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell gen-ref-column" data-label="Column">originDocActualCode,  originDocCode,  originDocEntityType,  originDocId</div>
 <div class="cell" data-label="Arabic"> # المستند</div>
 <div class="cell" data-label="English"> Document #</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">partialPaidValue</div>
 <div class="cell" data-label="Arabic">القيمة المسددة</div>
 <div class="cell" data-label="English">Partial Paid Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">toStatus</div>
 <div class="cell" data-label="Arabic">إلى حالة</div>
 <div class="cell" data-label="English">To Status</div>
-<div class="cell" data-label="Type"> [FPStatus](/modules/enums/FPStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [FPStatus](/modules/enums/FPStatus.md) 
+</div>
 
 </div>
 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">valueDate</div>
 <div class="cell" data-label="Arabic">التاريخ الفعلي</div>
 <div class="cell" data-label="English">Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 

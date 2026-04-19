@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">affectOnCost</div>
 <div class="cell" data-label="Arabic">فعال</div>
 <div class="cell" data-label="English">Active</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">applyType</div>
 <div class="cell" data-label="Arabic">يحتسب من</div>
 <div class="cell" data-label="English">Calc. From</div>
-<div class="cell" data-label="Type"> [ApplyType](/modules/enums/ApplyType.md) </div>
+<div class="cell" data-label="Type">
+
+ [ApplyType](/modules/enums/ApplyType.md) 
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">brand_id</div>
 <div class="cell" data-label="Arabic">الماركة</div>
 <div class="cell" data-label="English">Item Brand</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ItemBrand](/modules/supplychain/ItemBrand.md) 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">category1_id</div>
 <div class="cell" data-label="Arabic">فئة الصنف1</div>
 <div class="cell" data-label="English">Item Category1</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ItemCategory](/modules/supplychain/ItemCategory.md) 
@@ -67,7 +79,10 @@
 <div class="cell" data-label="Column">category2_id</div>
 <div class="cell" data-label="Arabic">فئة الصنف2</div>
 <div class="cell" data-label="English">Item Category2</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ItemCategory](/modules/supplychain/ItemCategory.md) 
@@ -79,7 +94,10 @@
 <div class="cell" data-label="Column">category3_id</div>
 <div class="cell" data-label="Arabic">فئة الصنف3</div>
 <div class="cell" data-label="English">Item Category3</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ItemCategory](/modules/supplychain/ItemCategory.md) 
@@ -91,7 +109,10 @@
 <div class="cell" data-label="Column">category4_id</div>
 <div class="cell" data-label="Arabic">فئة الصنف4</div>
 <div class="cell" data-label="English">Item Category4</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ItemCategory](/modules/supplychain/ItemCategory.md) 
@@ -103,7 +124,10 @@
 <div class="cell" data-label="Column">category5_id</div>
 <div class="cell" data-label="Arabic">فئة الصنف5</div>
 <div class="cell" data-label="English">Item Category5</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ItemCategory](/modules/supplychain/ItemCategory.md) 
@@ -115,7 +139,10 @@
 <div class="cell" data-label="Column">dimensionsAnalysisSet_id</div>
 <div class="cell" data-label="Arabic">المجموعة التحليلية</div>
 <div class="cell" data-label="English">Analysis set</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [AnalysisSet](/modules/basic/AnalysisSet.md) 
@@ -127,7 +154,10 @@
 <div class="cell" data-label="Column">dimensionsBranch_id</div>
 <div class="cell" data-label="Arabic">الفرع</div>
 <div class="cell" data-label="English">Branch</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Branch](/modules/basic/Branch.md) 
@@ -139,7 +169,10 @@
 <div class="cell" data-label="Column">dimensionsDepartment_id</div>
 <div class="cell" data-label="Arabic">الإدارة</div>
 <div class="cell" data-label="English">Department</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Department](/modules/basic/Department.md) 
@@ -151,7 +184,10 @@
 <div class="cell" data-label="Column">dimensionsLegalEntity_id</div>
 <div class="cell" data-label="Arabic">الشركة</div>
 <div class="cell" data-label="English">Legal Entity</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LegalEntity](/modules/basic/LegalEntity.md) 
@@ -163,7 +199,10 @@
 <div class="cell" data-label="Column">dimensionsSector_id</div>
 <div class="cell" data-label="Arabic">القطاع</div>
 <div class="cell" data-label="English">Sector</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Sector](/modules/basic/Sector.md) 
@@ -175,7 +214,10 @@
 <div class="cell" data-label="Column">discountLocation</div>
 <div class="cell" data-label="Arabic">وقت حساب التخفيض في الفاتورة</div>
 <div class="cell" data-label="English">Invoice discount apply on</div>
-<div class="cell" data-label="Type"> [DiscountLocation](/modules/enums/DiscountLocation.md) </div>
+<div class="cell" data-label="Type">
+
+ [DiscountLocation](/modules/enums/DiscountLocation.md) 
+</div>
 
 </div>
 
@@ -184,7 +226,10 @@
 <div class="cell" data-label="Column">discountValue</div>
 <div class="cell" data-label="Arabic">قيمة الخصم</div>
 <div class="cell" data-label="English">Discount Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -193,7 +238,10 @@
 <div class="cell" data-label="Column">fromDate</div>
 <div class="cell" data-label="Arabic">من تاريخ</div>
 <div class="cell" data-label="English">From Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -202,7 +250,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -211,7 +262,10 @@
 <div class="cell" data-label="Column">invoiceId</div>
 <div class="cell" data-label="Arabic">Invoice Id</div>
 <div class="cell" data-label="English">Invoice Id</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -220,7 +274,10 @@
 <div class="cell" data-label="Column">item_id</div>
 <div class="cell" data-label="Arabic">الصنف</div>
 <div class="cell" data-label="English">Item</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [InvItem](/modules/supplychain/InvItem.md) 
@@ -232,7 +289,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic">رقم السطر</div>
 <div class="cell" data-label="English">Line Number</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -241,7 +301,10 @@
 <div class="cell" data-label="Column">maximumValue</div>
 <div class="cell" data-label="Arabic">القيمة | إلى</div>
 <div class="cell" data-label="English">Value | To</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -250,7 +313,10 @@
 <div class="cell" data-label="Column">minValue</div>
 <div class="cell" data-label="Arabic">القيمة | من</div>
 <div class="cell" data-label="English">Value | From</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -259,7 +325,10 @@
 <div class="cell" data-label="Column">priority</div>
 <div class="cell" data-label="Arabic">الأولوية</div>
 <div class="cell" data-label="English">Priority</div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 
@@ -268,7 +337,10 @@
 <div class="cell" data-label="Column">refId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -277,7 +349,10 @@
 <div class="cell" data-label="Column">refType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -286,7 +361,10 @@
 <div class="cell" data-label="Column">stopOtherDiscounts</div>
 <div class="cell" data-label="Arabic">إيقاف التخفبضات الأخرى</div>
 <div class="cell" data-label="English">stop other discounts</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -295,7 +373,10 @@
 <div class="cell" data-label="Column">supplier_id</div>
 <div class="cell" data-label="Arabic">مورد</div>
 <div class="cell" data-label="English"> Supplier</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Supplier](/modules/basic/Supplier.md) 
@@ -307,7 +388,10 @@
 <div class="cell" data-label="Column">toDate</div>
 <div class="cell" data-label="Arabic">إلى تاريخ</div>
 <div class="cell" data-label="English">To Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -316,7 +400,10 @@
 <div class="cell" data-label="Column">valueOrPercent</div>
 <div class="cell" data-label="Arabic">الخصم | النوع</div>
 <div class="cell" data-label="English">Discount | Type</div>
-<div class="cell" data-label="Type"> [DiscountType](/modules/enums/DiscountType.md) </div>
+<div class="cell" data-label="Type">
+
+ [DiscountType](/modules/enums/DiscountType.md) 
+</div>
 
 </div>
 

@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">allowDisallow</div>
 <div class="cell" data-label="Arabic">سماح - منع</div>
 <div class="cell" data-label="English">Allow - Disallow</div>
-<div class="cell" data-label="Type"> [TooltipDefApplyToRange](/modules/enums/TooltipDefApplyToRange.md) </div>
+<div class="cell" data-label="Type">
+
+ [TooltipDefApplyToRange](/modules/enums/TooltipDefApplyToRange.md) 
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell gen-ref-column" data-label="Column">applyToActualCode,  applyToCode,  applyToEntityType,  applyToId</div>
 <div class="cell" data-label="Arabic">تطبق علي</div>
 <div class="cell" data-label="English">Apply To</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">inActive</div>
 <div class="cell" data-label="Arabic">غير نشط</div>
 <div class="cell" data-label="English">Inactive</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 

@@ -63,6 +63,12 @@
 </div>
 
 <div class="row searchable">
+<div class="cell" data-label="ID">EnhancedTable</div>
+<div class="cell" data-label="Arabic">جدول محسن</div>
+<div class="cell" data-label="English">Table v2 (Enhanced)</div>
+</div>
+
+<div class="row searchable">
 <div class="cell" data-label="ID">Gauge</div>
 <div class="cell" data-label="Arabic">Gauge</div>
 <div class="cell" data-label="English">Gauge</div>

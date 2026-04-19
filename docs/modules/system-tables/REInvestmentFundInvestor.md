@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">currentInvestment</div>
 <div class="cell" data-label="Arabic">قيمة الاستثمار الحالية</div>
 <div class="cell" data-label="English">Current Investment</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">doNotDeductManagementPercentage</div>
 <div class="cell" data-label="Arabic">عدم خصم نسبة الإدارة</div>
 <div class="cell" data-label="English">Do Not Deduct Management Percentage</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">fullExitDate</div>
 <div class="cell" data-label="Arabic">تاريخ الخروج الكلي من الصندوق</div>
 <div class="cell" data-label="English">Full Exit Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">investmentFund_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [REInvestmentFund](/modules/realestate/REInvestmentFund.md) 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">investor_id</div>
 <div class="cell" data-label="Arabic">مستثمر</div>
 <div class="cell" data-label="English">Investor</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [REOwner](/modules/realestate/REOwner.md) 
@@ -85,7 +103,10 @@
 <div class="cell" data-label="Column">joinDate</div>
 <div class="cell" data-label="Arabic">تاريخ دخول الصندوق</div>
 <div class="cell" data-label="English">Join Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -94,7 +115,10 @@
 <div class="cell" data-label="Column">mainInvestor_id</div>
 <div class="cell" data-label="Arabic">المستثمر الرئيسي</div>
 <div class="cell" data-label="English">Main Investor</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [REOwner](/modules/realestate/REOwner.md) 
@@ -106,7 +130,10 @@
 <div class="cell" data-label="Column">mainInvestorCommissionPercentage</div>
 <div class="cell" data-label="Arabic">نسبة عمولة المستثمر الرئيسي</div>
 <div class="cell" data-label="English">Main Investor Commission Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 

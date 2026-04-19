@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">event_id</div>
 <div class="cell" data-label="Arabic">event</div>
 <div class="cell" data-label="English">Event</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [IPSEvent](/modules/frm-ips/IPSEvent.md) 
@@ -37,7 +40,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type"> [IPSParcelsReceiverResponse](/modules/enums/IPSParcelsReceiverResponse.md) </div>
+<div class="cell" data-label="Type">
+
+ [IPSParcelsReceiverResponse](/modules/enums/IPSParcelsReceiverResponse.md) 
+</div>
 
 </div>
 

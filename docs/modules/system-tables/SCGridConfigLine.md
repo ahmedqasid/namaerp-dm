@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">fieldId</div>
 <div class="cell" data-label="Arabic"> الحقل</div>
 <div class="cell" data-label="English"> On Field</div>
-<div class="cell" data-label="Type">FieldID</div>
+<div class="cell" data-label="Type">
+
+FieldID
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">width</div>
 <div class="cell" data-label="Arabic">الأبعاد | العرض</div>
 <div class="cell" data-label="English">Measures | Width</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 

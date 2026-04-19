@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">date</div>
 <div class="cell" data-label="Arabic">التاريخ</div>
 <div class="cell" data-label="English">Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">description10</div>
 <div class="cell" data-label="Arabic">الوصف 10</div>
 <div class="cell" data-label="English">description 10</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">description6</div>
 <div class="cell" data-label="Arabic">الوصف 6</div>
 <div class="cell" data-label="English">description 6</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">description7</div>
 <div class="cell" data-label="Arabic">الوصف 7</div>
 <div class="cell" data-label="English">description 7</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">description8</div>
 <div class="cell" data-label="Arabic">الوصف 8</div>
 <div class="cell" data-label="English">description 8</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">description9</div>
 <div class="cell" data-label="Arabic">الوصف 9</div>
 <div class="cell" data-label="English">description 9</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell gen-ref-column" data-label="Column">productActualCode,  productCode,  productEntityType,  productId</div>
 <div class="cell" data-label="Arabic">المنتج</div>
 <div class="cell" data-label="English">Product</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell gen-ref-column" data-label="Column">sourceActualCode,  sourceCode,  sourceEntityType,  sourceId</div>
 <div class="cell" data-label="Arabic">المصدر</div>
 <div class="cell" data-label="English">Source</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 

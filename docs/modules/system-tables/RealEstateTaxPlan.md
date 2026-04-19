@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">calculateTaxFromTotalPrice</div>
 <div class="cell" data-label="Arabic">حساب الضريبة من السعر الأساسي</div>
 <div class="cell" data-label="English">Calculate Tax From Main Price</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">effectiveFrom</div>
 <div class="cell" data-label="Arabic">تطبق من</div>
 <div class="cell" data-label="English">Effective From</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">effectiveTo</div>
 <div class="cell" data-label="Arabic">تطبق الي</div>
 <div class="cell" data-label="English">Effective To</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">entityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">entityTypeList_id</div>
 <div class="cell" data-label="Arabic">قائمة الأنواع</div>
 <div class="cell" data-label="English">Entity Type List</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [EntityTypeList](/modules/basic/EntityTypeList.md) 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">tax1</div>
 <div class="cell" data-label="Arabic">ضريبة مبيعات 1</div>
 <div class="cell" data-label="English">Tax 1</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">tax1IsDeduction</div>
 <div class="cell" data-label="Arabic">ضريبة 1 خصم</div>
 <div class="cell" data-label="English">Tax 1 Is Deduction</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">tax2</div>
 <div class="cell" data-label="Arabic">ضريبة مبيعات 2</div>
 <div class="cell" data-label="English">Tax 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -109,7 +136,10 @@
 <div class="cell" data-label="Column">tax2IsDeduction</div>
 <div class="cell" data-label="Arabic">ضريبة 2 خصم</div>
 <div class="cell" data-label="English">Tax 2 Is Deduction</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -118,7 +148,10 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type"> [REInstallmentType](/modules/enums/REInstallmentType.md) </div>
+<div class="cell" data-label="Type">
+
+ [REInstallmentType](/modules/enums/REInstallmentType.md) 
+</div>
 
 </div>
 
@@ -127,7 +160,10 @@
 <div class="cell" data-label="Column">unitModel_id</div>
 <div class="cell" data-label="Arabic">نموذج وحدة</div>
 <div class="cell" data-label="English">Unit Model</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [REUnitModel](/modules/realestate/REUnitModel.md) 

@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">authorizationNumber</div>
 <div class="cell" data-label="Arabic">رقم العملية</div>
 <div class="cell" data-label="English">Authorization Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell gen-ref-column" data-label="Column">documentActualCode,  documentCode,  documentEntityType,  documentId</div>
 <div class="cell" data-label="Arabic"> # المستند</div>
 <div class="cell" data-label="English"> Document #</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">invoiceId</div>
 <div class="cell" data-label="Arabic">Invoice Id</div>
 <div class="cell" data-label="English">Invoice Id</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">linkStatus</div>
 <div class="cell" data-label="Arabic">Link Status</div>
 <div class="cell" data-label="English">Link Status</div>
-<div class="cell" data-label="Type"> [OnlinePaymentLinkStatus](/modules/enums/OnlinePaymentLinkStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [OnlinePaymentLinkStatus](/modules/enums/OnlinePaymentLinkStatus.md) 
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell gen-ref-column" data-label="Column">onlinePaymentConfigActualCode,  onlinePaymentConfigCode,  onlinePaymentConfigEntityType,  onlinePaymentConfigId</div>
 <div class="cell" data-label="Arabic"> Online Payment Configuration</div>
 <div class="cell" data-label="English"> Online Payment Configuration</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">paidAmount</div>
 <div class="cell" data-label="Arabic">المبلغ المسدد</div>
 <div class="cell" data-label="English">Paid Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell" data-label="Column">paymentId</div>
 <div class="cell" data-label="Arabic">Payment Id</div>
 <div class="cell" data-label="English">Payment Id</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -106,7 +133,10 @@
 <div class="cell" data-label="Column">ref</div>
 <div class="cell" data-label="Arabic">ref</div>
 <div class="cell" data-label="English">ref</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -115,7 +145,10 @@
 <div class="cell" data-label="Column">trackId</div>
 <div class="cell" data-label="Arabic">Track Id</div>
 <div class="cell" data-label="English">Track Id</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -124,7 +157,10 @@
 <div class="cell" data-label="Column">transactionDate</div>
 <div class="cell" data-label="Arabic">Transaction Date</div>
 <div class="cell" data-label="English">Transaction Date</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -133,7 +169,10 @@
 <div class="cell" data-label="Column">transactionId</div>
 <div class="cell" data-label="Arabic">رقم العملية</div>
 <div class="cell" data-label="English">Transaction ID</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -142,7 +181,10 @@
 <div class="cell" data-label="Column">transactionStatus</div>
 <div class="cell" data-label="Arabic">Transaction Status</div>
 <div class="cell" data-label="English">Transaction Status</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -151,7 +193,10 @@
 <div class="cell" data-label="Column">udf1</div>
 <div class="cell" data-label="Arabic">udf1</div>
 <div class="cell" data-label="English">udf1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -160,7 +205,10 @@
 <div class="cell" data-label="Column">udf2</div>
 <div class="cell" data-label="Arabic">udf2</div>
 <div class="cell" data-label="English">udf2</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -169,7 +217,10 @@
 <div class="cell" data-label="Column">udf3</div>
 <div class="cell" data-label="Arabic">udf3</div>
 <div class="cell" data-label="English">udf3</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -178,7 +229,10 @@
 <div class="cell" data-label="Column">udf4</div>
 <div class="cell" data-label="Arabic">udf4</div>
 <div class="cell" data-label="English">udf4</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -187,7 +241,10 @@
 <div class="cell" data-label="Column">udf5</div>
 <div class="cell" data-label="Arabic">udf5</div>
 <div class="cell" data-label="English">udf5</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 

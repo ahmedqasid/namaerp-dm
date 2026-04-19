@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">actionDescription</div>
 <div class="cell" data-label="Arabic">الوصف</div>
 <div class="cell" data-label="English">Action description</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">actionName</div>
 <div class="cell" data-label="Arabic">الحدث</div>
 <div class="cell" data-label="English">Action</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">submissionDate</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell gen-ref-column" data-label="Column">targetRecordActualCode,  targetRecordCode,  targetRecordEntityType,  targetRecordId</div>
 <div class="cell" data-label="Arabic">السجل</div>
 <div class="cell" data-label="English">Target Record</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 

@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">attendanceAccuracy</div>
 <div class="cell" data-label="Arabic">Attendance Accuracy</div>
 <div class="cell" data-label="English">Attendance Accuracy</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">attAddress1</div>
 <div class="cell" data-label="Arabic">عنوان 1</div>
 <div class="cell" data-label="English">Address 1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">attAddress2</div>
 <div class="cell" data-label="Arabic">رقم المبني</div>
 <div class="cell" data-label="English">Building Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">attArea</div>
 <div class="cell" data-label="Arabic">المنطقة</div>
 <div class="cell" data-label="English">Area</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">attBuildingNumber</div>
 <div class="cell" data-label="Arabic">رقم المبني</div>
 <div class="cell" data-label="English">Building Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">attCity</div>
 <div class="cell" data-label="Arabic">المدينة</div>
 <div class="cell" data-label="English">City</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">attCountry</div>
 <div class="cell" data-label="Arabic">الدولة</div>
 <div class="cell" data-label="English">Country</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">attCountryCode</div>
 <div class="cell" data-label="Arabic">كود الدولة</div>
 <div class="cell" data-label="English">Country Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell" data-label="Column">attDistrict</div>
 <div class="cell" data-label="Arabic">الحي</div>
 <div class="cell" data-label="English">District</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -106,7 +133,10 @@
 <div class="cell" data-label="Column">attLandPlotNumber</div>
 <div class="cell" data-label="Arabic">رقم تعريفي للأرض</div>
 <div class="cell" data-label="English">Land Plot Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -115,7 +145,10 @@
 <div class="cell" data-label="Column">attMapLocation</div>
 <div class="cell" data-label="Arabic">الموقع على الخريطة</div>
 <div class="cell" data-label="English">Map Location</div>
-<div class="cell" data-label="Type">LatLng</div>
+<div class="cell" data-label="Type">
+
+LatLng
+</div>
 
 </div>
 
@@ -124,7 +157,10 @@
 <div class="cell" data-label="Column">attPostalCode</div>
 <div class="cell" data-label="Arabic">الكود البريدي</div>
 <div class="cell" data-label="English">Postal Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -133,7 +169,10 @@
 <div class="cell" data-label="Column">attRegion_id</div>
 <div class="cell" data-label="Arabic">منطقة جغرافيه</div>
 <div class="cell" data-label="English">Region</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [AddressRegion](/modules/basic/AddressRegion.md) 
@@ -145,7 +184,10 @@
 <div class="cell" data-label="Column">attState</div>
 <div class="cell" data-label="Arabic">المحافظة</div>
 <div class="cell" data-label="English">State</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -154,7 +196,10 @@
 <div class="cell" data-label="Column">attStreet</div>
 <div class="cell" data-label="Arabic"> شارع</div>
 <div class="cell" data-label="English"> Street</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -163,7 +208,10 @@
 <div class="cell" data-label="Column">attendanceTotalHours</div>
 <div class="cell" data-label="Arabic">إجمالى وقت الحضور بالساعات</div>
 <div class="cell" data-label="English">Attendance Total Hours</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -172,7 +220,10 @@
 <div class="cell" data-label="Column">attendanceTotalTime</div>
 <div class="cell" data-label="Arabic">إجمالي وقت الحضور</div>
 <div class="cell" data-label="English">Attendance Total Time</div>
-<div class="cell" data-label="Type">Time</div>
+<div class="cell" data-label="Type">
+
+Time
+</div>
 
 </div>
 
@@ -181,7 +232,10 @@
 <div class="cell" data-label="Column">checkInAt</div>
 <div class="cell" data-label="Arabic">Check In At</div>
 <div class="cell" data-label="English">Check In At</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -190,7 +244,10 @@
 <div class="cell" data-label="Column">checkOutAt</div>
 <div class="cell" data-label="Arabic">Check Out At</div>
 <div class="cell" data-label="English">Check Out At</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -199,7 +256,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -208,7 +268,10 @@
 <div class="cell" data-label="Column">departureAccuracy</div>
 <div class="cell" data-label="Arabic">Departure Accuracy</div>
 <div class="cell" data-label="English">Departure Accuracy</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -217,7 +280,10 @@
 <div class="cell" data-label="Column">departAddress1</div>
 <div class="cell" data-label="Arabic">عنوان 1</div>
 <div class="cell" data-label="English">Address 1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -226,7 +292,10 @@
 <div class="cell" data-label="Column">departAddress2</div>
 <div class="cell" data-label="Arabic">رقم المبني</div>
 <div class="cell" data-label="English">Building Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -235,7 +304,10 @@
 <div class="cell" data-label="Column">departArea</div>
 <div class="cell" data-label="Arabic">المنطقة</div>
 <div class="cell" data-label="English">Area</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -244,7 +316,10 @@
 <div class="cell" data-label="Column">departBuildingNumber</div>
 <div class="cell" data-label="Arabic">رقم المبني</div>
 <div class="cell" data-label="English">Building Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -253,7 +328,10 @@
 <div class="cell" data-label="Column">departCity</div>
 <div class="cell" data-label="Arabic">المدينة</div>
 <div class="cell" data-label="English">City</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -262,7 +340,10 @@
 <div class="cell" data-label="Column">departCountry</div>
 <div class="cell" data-label="Arabic">الدولة</div>
 <div class="cell" data-label="English">Country</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -271,7 +352,10 @@
 <div class="cell" data-label="Column">departCountryCode</div>
 <div class="cell" data-label="Arabic">كود الدولة</div>
 <div class="cell" data-label="English">Country Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -280,7 +364,10 @@
 <div class="cell" data-label="Column">departDistrict</div>
 <div class="cell" data-label="Arabic">الحي</div>
 <div class="cell" data-label="English">District</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -289,7 +376,10 @@
 <div class="cell" data-label="Column">departLandPlotNumber</div>
 <div class="cell" data-label="Arabic">رقم تعريفي للأرض</div>
 <div class="cell" data-label="English">Land Plot Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -298,7 +388,10 @@
 <div class="cell" data-label="Column">departMapLocation</div>
 <div class="cell" data-label="Arabic">الموقع على الخريطة</div>
 <div class="cell" data-label="English">Map Location</div>
-<div class="cell" data-label="Type">LatLng</div>
+<div class="cell" data-label="Type">
+
+LatLng
+</div>
 
 </div>
 
@@ -307,7 +400,10 @@
 <div class="cell" data-label="Column">departPostalCode</div>
 <div class="cell" data-label="Arabic">الكود البريدي</div>
 <div class="cell" data-label="English">Postal Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -316,7 +412,10 @@
 <div class="cell" data-label="Column">departRegion_id</div>
 <div class="cell" data-label="Arabic">منطقة جغرافيه</div>
 <div class="cell" data-label="English">Region</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [AddressRegion](/modules/basic/AddressRegion.md) 
@@ -328,7 +427,10 @@
 <div class="cell" data-label="Column">departState</div>
 <div class="cell" data-label="Arabic">المحافظة</div>
 <div class="cell" data-label="English">State</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -337,7 +439,10 @@
 <div class="cell" data-label="Column">departStreet</div>
 <div class="cell" data-label="Arabic"> شارع</div>
 <div class="cell" data-label="English"> Street</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -346,7 +451,10 @@
 <div class="cell" data-label="Column">fakeAttendanceLocation</div>
 <div class="cell" data-label="Arabic">Fake Attendance Location</div>
 <div class="cell" data-label="English">Fake Attendance Location</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -355,7 +463,10 @@
 <div class="cell" data-label="Column">fakeDepartureLocation</div>
 <div class="cell" data-label="Arabic">Fake Departure Location</div>
 <div class="cell" data-label="English">Fake Departure Location</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -364,7 +475,10 @@
 <div class="cell" data-label="Column">forgotCheckout</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -373,7 +487,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -382,7 +499,10 @@
 <div class="cell" data-label="Column">mnNotice_id</div>
 <div class="cell" data-label="Arabic">بلاغ صيانة</div>
 <div class="cell" data-label="English">Maintenance Notice</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [MnNotice](/modules/crm-maintenance/MnNotice.md) 
@@ -394,7 +514,10 @@
 <div class="cell" data-label="Column">responsibleEmployee_id</div>
 <div class="cell" data-label="Arabic">الموظف المسئول</div>
 <div class="cell" data-label="English">Responsible Employee</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Employee](/modules/basic/Employee.md) 

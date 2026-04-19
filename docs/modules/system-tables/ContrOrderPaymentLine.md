@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">afterFeesValue</div>
 <div class="cell" data-label="Arabic">المبلغ بعد الرسوم</div>
 <div class="cell" data-label="English">Value After Fees</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">authorizationNumber</div>
 <div class="cell" data-label="Arabic">رقم العملية</div>
 <div class="cell" data-label="English">Authorization Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">date1</div>
 <div class="cell" data-label="Arabic">تـــاريخ 1</div>
 <div class="cell" data-label="English">Date 1</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">date2</div>
 <div class="cell" data-label="Arabic">تـــاريخ 2</div>
 <div class="cell" data-label="English">Date 2</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">discountCoupon_id</div>
 <div class="cell" data-label="Arabic">قسيمة شراء</div>
 <div class="cell" data-label="English">Discount Coupon</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [DiscountCoupon](/modules/supplychain-sales/DiscountCoupon.md) 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">doNotAffectRemaining</div>
 <div class="cell" data-label="Arabic">عدم التأثير على المتبقي</div>
 <div class="cell" data-label="English">Do Not Affect Remaining</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">feesTaxValue</div>
 <div class="cell" data-label="Arabic">قيمة ضريبة الرسوم</div>
 <div class="cell" data-label="English">Fees Tax Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">feesValue</div>
 <div class="cell" data-label="Arabic">قيمة الرسوم</div>
 <div class="cell" data-label="English">Fees Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -109,7 +136,10 @@
 <div class="cell" data-label="Column">issuer</div>
 <div class="cell" data-label="Arabic">الساحب</div>
 <div class="cell" data-label="English">Issuer</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -118,7 +148,10 @@
 <div class="cell" data-label="Column">n1</div>
 <div class="cell" data-label="Arabic">رقم 1</div>
 <div class="cell" data-label="English">Number 1</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -127,7 +160,10 @@
 <div class="cell" data-label="Column">n2</div>
 <div class="cell" data-label="Arabic">رقم 2</div>
 <div class="cell" data-label="English">Number 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -136,7 +172,10 @@
 <div class="cell" data-label="Column">paidCash</div>
 <div class="cell" data-label="Arabic">النقدية المدفوعة</div>
 <div class="cell" data-label="English">Paid Cash</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -145,7 +184,10 @@
 <div class="cell" data-label="Column">paymentMethod_id</div>
 <div class="cell" data-label="Arabic">طريقة الدفع</div>
 <div class="cell" data-label="English"> Payment Method</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [PaymentMethod](/modules/basic/PaymentMethod.md) 
@@ -157,7 +199,10 @@
 <div class="cell" data-label="Column">paymentTransactionType</div>
 <div class="cell" data-label="Arabic">نوع العملية</div>
 <div class="cell" data-label="English">Transaction Type</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -166,7 +211,10 @@
 <div class="cell" data-label="Column">paymentValue</div>
 <div class="cell" data-label="Arabic">المبلغ</div>
 <div class="cell" data-label="English">Payment Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -175,7 +223,10 @@
 <div class="cell" data-label="Column">authCode</div>
 <div class="cell" data-label="Arabic">Auth Code / Txn Id</div>
 <div class="cell" data-label="English">Auth Code / Txn Id</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -184,7 +235,10 @@
 <div class="cell" data-label="Column">cardType</div>
 <div class="cell" data-label="Arabic">Card Type</div>
 <div class="cell" data-label="English">Card Type</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -193,7 +247,10 @@
 <div class="cell" data-label="Column">de55Response</div>
 <div class="cell" data-label="Arabic">De55 Response</div>
 <div class="cell" data-label="English">De55 Response</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -202,7 +259,10 @@
 <div class="cell" data-label="Column">ecrRefNum</div>
 <div class="cell" data-label="Arabic">ECR Ref Number / Local Reference Number</div>
 <div class="cell" data-label="English">ECR Ref Number / Local Reference Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -211,7 +271,10 @@
 <div class="cell" data-label="Column">maskedCardNumber</div>
 <div class="cell" data-label="Arabic">Masked Card Number</div>
 <div class="cell" data-label="English">Masked Card Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -220,7 +283,10 @@
 <div class="cell" data-label="Column">merchantId</div>
 <div class="cell" data-label="Arabic">Merchant Id</div>
 <div class="cell" data-label="English">Merchant Id</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -229,7 +295,10 @@
 <div class="cell" data-label="Column">paidFromTerminal</div>
 <div class="cell" data-label="Arabic">مدفوعة بواسطة ال Terminal</div>
 <div class="cell" data-label="English">Paid From Terminal</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -238,7 +307,10 @@
 <div class="cell" data-label="Column">panNum</div>
 <div class="cell" data-label="Arabic">PAN Number / ApprovalCode</div>
 <div class="cell" data-label="English">PAN Number / ApprovalCode</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -247,7 +319,10 @@
 <div class="cell" data-label="Column">respCode</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -256,7 +331,10 @@
 <div class="cell" data-label="Column">schemeId</div>
 <div class="cell" data-label="Arabic">Scheme Id / Card Scheme Name</div>
 <div class="cell" data-label="English">Scheme Id / Card Scheme Name</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -265,7 +343,10 @@
 <div class="cell" data-label="Column">stanNum</div>
 <div class="cell" data-label="Arabic">STAN Number / rrNumber</div>
 <div class="cell" data-label="English">STAN Number / rrNumber</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -274,7 +355,10 @@
 <div class="cell" data-label="Column">terminalId</div>
 <div class="cell" data-label="Arabic">Terminal Id / Device Serial No</div>
 <div class="cell" data-label="English">Terminal Id / Device Serial No</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -283,7 +367,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
 <div class="cell" data-label="Arabic">مرجع 1</div>
 <div class="cell" data-label="English">Reference 1</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -292,7 +379,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
 <div class="cell" data-label="Arabic">مرجع 2</div>
 <div class="cell" data-label="English">Reference 2</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -301,7 +391,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref3ActualCode,  ref3Code,  ref3EntityType,  ref3Id</div>
 <div class="cell" data-label="Arabic">مرجع 3</div>
 <div class="cell" data-label="English">Reference 3</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -310,7 +403,10 @@
 <div class="cell" data-label="Column">remainingCash</div>
 <div class="cell" data-label="Arabic">النقديه المتبقيه</div>
 <div class="cell" data-label="English">Remaining Cash</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -319,7 +415,10 @@
 <div class="cell" data-label="Column">text1</div>
 <div class="cell" data-label="Arabic">نــــص 1</div>
 <div class="cell" data-label="English">Text 1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -328,7 +427,10 @@
 <div class="cell" data-label="Column">text2</div>
 <div class="cell" data-label="Arabic">نـــــص 2</div>
 <div class="cell" data-label="English">Text 2</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 

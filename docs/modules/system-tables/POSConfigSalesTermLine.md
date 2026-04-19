@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">docCategory_id</div>
 <div class="cell" data-label="Arabic"> تصنيف سجل</div>
 <div class="cell" data-label="English"> Record Category</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [DocCategory](/modules/basic/DocCategory.md) 
@@ -37,7 +40,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">term_id</div>
 <div class="cell" data-label="Arabic">توجيه المستند</div>
 <div class="cell" data-label="English">Term</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [DocumentTerm](/modules/basic/DocumentTerm.md) 
@@ -58,7 +67,10 @@
 <div class="cell" data-label="Column">type</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Type</div>
-<div class="cell" data-label="Type"> [POSSalesInvoiceType](/modules/enums/POSSalesInvoiceType.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSSalesInvoiceType](/modules/enums/POSSalesInvoiceType.md) 
+</div>
 
 </div>
 
@@ -67,7 +79,10 @@
 <div class="cell" data-label="Column">withSubsidiary</div>
 <div class="cell" data-label="Arabic">به ذمه</div>
 <div class="cell" data-label="English">With Subsidiary</div>
-<div class="cell" data-label="Type"> [YesNo](/modules/enums/YesNo.md) </div>
+<div class="cell" data-label="Type">
+
+ [YesNo](/modules/enums/YesNo.md) 
+</div>
 
 </div>
 

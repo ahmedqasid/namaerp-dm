@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">creationTime</div>
 <div class="cell" data-label="Arabic">وقت الإنشاء</div>
 <div class="cell" data-label="English">Creation Time</div>
-<div class="cell" data-label="Type">Time</div>
+<div class="cell" data-label="Type">
+
+Time
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">errorDescription</div>
 <div class="cell" data-label="Arabic">وصف الخطأ</div>
 <div class="cell" data-label="English">Error Desciption</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">errorMessage</div>
 <div class="cell" data-label="Arabic">رسالة الخطأ</div>
 <div class="cell" data-label="English">Error Message</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">magentoOrderId</div>
 <div class="cell" data-label="Arabic">معرف الطلب</div>
 <div class="cell" data-label="English">Order ID</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">magentoOrderIncId</div>
 <div class="cell" data-label="Arabic">Order Increment Id</div>
 <div class="cell" data-label="English">Order Increment ID</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell gen-ref-column" data-label="Column">magentoSiteActualCode,  magentoSiteCode,  magentoSiteEntityType,  magentoSiteId</div>
 <div class="cell" data-label="Arabic"> Magento Site</div>
 <div class="cell" data-label="English"> Magento Site</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell" data-label="Column">operationType</div>
 <div class="cell" data-label="Arabic">نوع الإجراء</div>
 <div class="cell" data-label="English">Operation Type</div>
-<div class="cell" data-label="Type"> [MagentoOperationType](/modules/enums/MagentoOperationType.md) </div>
+<div class="cell" data-label="Type">
+
+ [MagentoOperationType](/modules/enums/MagentoOperationType.md) 
+</div>
 
 </div>
 
@@ -106,7 +133,10 @@
 <div class="cell" data-label="Column">requestBody</div>
 <div class="cell" data-label="Arabic">Request Body</div>
 <div class="cell" data-label="English">Request Body</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 

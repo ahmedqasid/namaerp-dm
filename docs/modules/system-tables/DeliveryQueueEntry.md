@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">actualDeliveryDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإستلام الفعلى</div>
 <div class="cell" data-label="English">Actual Delivery Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">deliveryDate</div>
 <div class="cell" data-label="Arabic">تاريخ التوصيل</div>
 <div class="cell" data-label="English">Delivery Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">deliveryStatus</div>
 <div class="cell" data-label="Arabic">نوع الإجراء</div>
 <div class="cell" data-label="English">Delivery Status</div>
-<div class="cell" data-label="Type"> [DeliveryQueueStatus](/modules/enums/DeliveryQueueStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [DeliveryQueueStatus](/modules/enums/DeliveryQueueStatus.md) 
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">details</div>
 <div class="cell" data-label="Arabic">التفاصيل</div>
 <div class="cell" data-label="English">Details</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell gen-ref-column" data-label="Column">originActualCode,  originCode,  originEntityType,  originId</div>
 <div class="cell" data-label="Arabic"> # المستند</div>
 <div class="cell" data-label="English"> Document #</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">postponed</div>
 <div class="cell" data-label="Arabic">مؤجل</div>
 <div class="cell" data-label="English">Postponed</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">queue_id</div>
 <div class="cell" data-label="Arabic">الطابور</div>
 <div class="cell" data-label="English">Queue</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [DeliveryQueue](/modules/supplychain-delivery-queues/DeliveryQueue.md) 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">summary</div>
 <div class="cell" data-label="Arabic">الملخص</div>
 <div class="cell" data-label="English">Summary</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 

@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">abscence</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">addedShift</div>
 <div class="cell" data-label="Arabic">دوام إضافي</div>
 <div class="cell" data-label="English">Added Shift</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">attendanceShiftRotateLineCode</div>
 <div class="cell" data-label="Arabic">كود الدوام الدوري</div>
 <div class="cell" data-label="English">Attendance Shift Rotate Line Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">attndanceShiftRotateGroupCode</div>
 <div class="cell" data-label="Arabic">كود دوام مجموعة العمالة</div>
 <div class="cell" data-label="English">Attendance Shift Rotate Group Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">day</div>
 <div class="cell" data-label="Arabic">اليوم</div>
 <div class="cell" data-label="English">Day</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">dayNoCheckIn</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">dayNoCheckOut</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">employee_id</div>
 <div class="cell" data-label="Arabic">الموظف</div>
 <div class="cell" data-label="English">Employee</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Employee](/modules/basic/Employee.md) 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">firstInTime</div>
 <div class="cell" data-label="Arabic">أول وقت دخول</div>
 <div class="cell" data-label="English">First In Time</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -109,7 +136,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -118,7 +148,10 @@
 <div class="cell" data-label="Column">isHoliday</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -127,7 +160,10 @@
 <div class="cell" data-label="Column">isMission</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -136,7 +172,10 @@
 <div class="cell" data-label="Column">isSuspended</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -145,7 +184,10 @@
 <div class="cell" data-label="Column">isVacation</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -154,7 +196,10 @@
 <div class="cell" data-label="Column">isWeekEnd</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -163,7 +208,10 @@
 <div class="cell" data-label="Column">lastOutTime</div>
 <div class="cell" data-label="Arabic">أخر وقت خروج</div>
 <div class="cell" data-label="English">Last Out Time</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -172,7 +220,10 @@
 <div class="cell" data-label="Column">netEarlyArrival</div>
 <div class="cell" data-label="Arabic">إجمالي الوصول المبكر</div>
 <div class="cell" data-label="English">Net Early Arrival</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -181,7 +232,10 @@
 <div class="cell" data-label="Column">netEarlyLeave</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -190,7 +244,10 @@
 <div class="cell" data-label="Column">netExecuseTime</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -199,7 +256,10 @@
 <div class="cell" data-label="Column">netLateTime</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -208,7 +268,10 @@
 <div class="cell" data-label="Column">netMissionTime</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -217,7 +280,10 @@
 <div class="cell" data-label="Column">netOvertime</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -226,7 +292,10 @@
 <div class="cell" data-label="Column">netPartialVacationTime</div>
 <div class="cell" data-label="Arabic">صافي اجازه جزئيه</div>
 <div class="cell" data-label="English">Net Partial Vacation</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -235,7 +304,10 @@
 <div class="cell" data-label="Column">netWorkingHours</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -244,7 +316,10 @@
 <div class="cell" data-label="Column">noCheckIn</div>
 <div class="cell" data-label="Arabic"> عدم تسجيل بصمة دخول</div>
 <div class="cell" data-label="English"> No Check In</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -253,7 +328,10 @@
 <div class="cell" data-label="Column">noCheckOut</div>
 <div class="cell" data-label="Arabic"> عدم تسجيل بصمة خروج</div>
 <div class="cell" data-label="English"> No Check Out</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -262,7 +340,10 @@
 <div class="cell" data-label="Column">p1ActualWorkHours</div>
 <div class="cell" data-label="Arabic">دوام 1 | ساعات العمل الفعلية</div>
 <div class="cell" data-label="English">Part 1 | Actual Work Hours</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -271,7 +352,10 @@
 <div class="cell" data-label="Column">p1EarlyArrival</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -280,7 +364,10 @@
 <div class="cell" data-label="Column">p1EarlyLeave</div>
 <div class="cell" data-label="Arabic">دوام 1 | انصراف مبكر</div>
 <div class="cell" data-label="English">Part 1 | Early Leave</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -289,7 +376,10 @@
 <div class="cell" data-label="Column">p1ExecuseTime</div>
 <div class="cell" data-label="Arabic">دوام 1 | وقت أذونات</div>
 <div class="cell" data-label="English">Part 1 | Excuse Time</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -298,7 +388,10 @@
 <div class="cell" data-label="Column">p1ExpectedWorkHours</div>
 <div class="cell" data-label="Arabic">دوام 1 | ساعات العمل المتوقعة</div>
 <div class="cell" data-label="English">Part 1 | Expected Work Hours</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -307,7 +400,10 @@
 <div class="cell" data-label="Column">p1FirstInTime</div>
 <div class="cell" data-label="Arabic">دوام 1 | أول وقت دخول</div>
 <div class="cell" data-label="English">Part 1 | First In Time</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -316,7 +412,10 @@
 <div class="cell" data-label="Column">p1LastOutTime</div>
 <div class="cell" data-label="Arabic">دوام 1 | أخر وقت خروج</div>
 <div class="cell" data-label="English">Part 1 | Last Out Time</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -325,7 +424,10 @@
 <div class="cell" data-label="Column">p1LateArrival</div>
 <div class="cell" data-label="Arabic">دوام 1 | وصول متأخر</div>
 <div class="cell" data-label="English">Part 1 | Late Arrival</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -334,7 +436,10 @@
 <div class="cell" data-label="Column">p1MidDayOutTime</div>
 <div class="cell" data-label="Arabic">دوام 1 | خروج وقت العمل</div>
 <div class="cell" data-label="English">Part 1 | Mid Day Out Time</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -343,7 +448,10 @@
 <div class="cell" data-label="Column">p1MissionTime</div>
 <div class="cell" data-label="Arabic">دوام 1 | وقت مأمورية</div>
 <div class="cell" data-label="English">Part 1 | Mission Time</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -352,7 +460,10 @@
 <div class="cell" data-label="Column">p1NoCheckIn</div>
 <div class="cell" data-label="Arabic">دوام 1| عدم تسجيل بصمة دخول</div>
 <div class="cell" data-label="English">Shift 1|No Check In</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -361,7 +472,10 @@
 <div class="cell" data-label="Column">p1NoCheckOut</div>
 <div class="cell" data-label="Arabic">دوام 1| عدم تسجيل بصمة خروج</div>
 <div class="cell" data-label="English">Shift 1|No Check Out</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -370,7 +484,10 @@
 <div class="cell" data-label="Column">p1OverTime</div>
 <div class="cell" data-label="Arabic">دوام 1 | الإضافي</div>
 <div class="cell" data-label="English">Part 1 | Overtime</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -379,7 +496,10 @@
 <div class="cell" data-label="Column">p1PartialVacationTime</div>
 <div class="cell" data-label="Arabic">أجازه جزئيه</div>
 <div class="cell" data-label="English">Partial Vacation</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -388,7 +508,10 @@
 <div class="cell" data-label="Column">p2ActualWorkHours</div>
 <div class="cell" data-label="Arabic">دوام 2 | ساعات العمل الفعلية</div>
 <div class="cell" data-label="English">Part 2 | Actual Work Hours</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -397,7 +520,10 @@
 <div class="cell" data-label="Column">p2EarlyArrival</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -406,7 +532,10 @@
 <div class="cell" data-label="Column">p2EarlyLeave</div>
 <div class="cell" data-label="Arabic">دوام 2 | انصراف مبكر</div>
 <div class="cell" data-label="English">Part 2 | Early Leave</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -415,7 +544,10 @@
 <div class="cell" data-label="Column">p2ExecuseTime</div>
 <div class="cell" data-label="Arabic">دوام 2 | وقت أذونات</div>
 <div class="cell" data-label="English">Part 2 | Excuse Time</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -424,7 +556,10 @@
 <div class="cell" data-label="Column">p2ExpectedWorkHours</div>
 <div class="cell" data-label="Arabic">دوام 2 | ساعات العمل المتوقعة</div>
 <div class="cell" data-label="English">Part 2 | Expected Work Hours</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -433,7 +568,10 @@
 <div class="cell" data-label="Column">p2FirstInTime</div>
 <div class="cell" data-label="Arabic">دوام 2 | أول وقت دخول</div>
 <div class="cell" data-label="English">Part 2 | First In Time</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -442,7 +580,10 @@
 <div class="cell" data-label="Column">p2LastOutTime</div>
 <div class="cell" data-label="Arabic">دوام 2 | أخر وقت خروج</div>
 <div class="cell" data-label="English">Part 2 | Last Out Time</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -451,7 +592,10 @@
 <div class="cell" data-label="Column">p2LateArrival</div>
 <div class="cell" data-label="Arabic">دوام 2 | وصول متأخر</div>
 <div class="cell" data-label="English">Part 2 | Late Arrival</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -460,7 +604,10 @@
 <div class="cell" data-label="Column">p2MidDayOutTime</div>
 <div class="cell" data-label="Arabic">دوام 2 | خروج وقت العمل</div>
 <div class="cell" data-label="English">Part 2 | Mid Day Out Time</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -469,7 +616,10 @@
 <div class="cell" data-label="Column">p2MissionTime</div>
 <div class="cell" data-label="Arabic">دوام 2 | وقت مأمورية</div>
 <div class="cell" data-label="English">Part 2 | Mission Time</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -478,7 +628,10 @@
 <div class="cell" data-label="Column">p2NoCheckIn</div>
 <div class="cell" data-label="Arabic">دوام 2| عدم تسجيل بصمة دخول</div>
 <div class="cell" data-label="English">Shift 2|No Check In</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -487,7 +640,10 @@
 <div class="cell" data-label="Column">p2NoCheckOut</div>
 <div class="cell" data-label="Arabic">دوام 2| عدم تسجيل بصمة خروج</div>
 <div class="cell" data-label="English">Shift 2|No Check Out</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -496,7 +652,10 @@
 <div class="cell" data-label="Column">p2OverTime</div>
 <div class="cell" data-label="Arabic">دوام 2 | الإضافي</div>
 <div class="cell" data-label="English">Part 2 | Overtime</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -505,7 +664,10 @@
 <div class="cell" data-label="Column">p2PartialVacationTime</div>
 <div class="cell" data-label="Arabic">أجازه جزئيه</div>
 <div class="cell" data-label="English">Partial Vacation</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -514,7 +676,10 @@
 <div class="cell" data-label="Column">p3ActualWorkHours</div>
 <div class="cell" data-label="Arabic">دوام 3 | ساعات العمل الفعلية</div>
 <div class="cell" data-label="English">Part 3 | Actual Work Hours</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -523,7 +688,10 @@
 <div class="cell" data-label="Column">p3EarlyArrival</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -532,7 +700,10 @@
 <div class="cell" data-label="Column">p3EarlyLeave</div>
 <div class="cell" data-label="Arabic">دوام 3 | انصراف مبكر</div>
 <div class="cell" data-label="English">Part 3 | Early Leave</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -541,7 +712,10 @@
 <div class="cell" data-label="Column">p3ExecuseTime</div>
 <div class="cell" data-label="Arabic">دوام 3 | وقت أذونات</div>
 <div class="cell" data-label="English">Part 3 | Excuse Time</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -550,7 +724,10 @@
 <div class="cell" data-label="Column">p3ExpectedWorkHours</div>
 <div class="cell" data-label="Arabic">دوام 3 | ساعات العمل المتوقعة</div>
 <div class="cell" data-label="English">Part 3 | Expected Work Hours</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -559,7 +736,10 @@
 <div class="cell" data-label="Column">p3FirstInTime</div>
 <div class="cell" data-label="Arabic">دوام 3 | أول وقت دخول</div>
 <div class="cell" data-label="English">Part 3 | First In Time</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -568,7 +748,10 @@
 <div class="cell" data-label="Column">p3LastOutTime</div>
 <div class="cell" data-label="Arabic">دوام 3 | أخر وقت خروج</div>
 <div class="cell" data-label="English">Part 3 | Last Out Time</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -577,7 +760,10 @@
 <div class="cell" data-label="Column">p3LateArrival</div>
 <div class="cell" data-label="Arabic">دوام 3 | وصول متأخر</div>
 <div class="cell" data-label="English">Part 3 | Late Arrival</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -586,7 +772,10 @@
 <div class="cell" data-label="Column">p3MidDayOutTime</div>
 <div class="cell" data-label="Arabic">دوام 3 | خروج وقت العمل</div>
 <div class="cell" data-label="English">Part 3 | Mid Day Out Time</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -595,7 +784,10 @@
 <div class="cell" data-label="Column">p3MissionTime</div>
 <div class="cell" data-label="Arabic">دوام 3 | وقت مأمورية</div>
 <div class="cell" data-label="English">Part 3 | Mission Time</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -604,7 +796,10 @@
 <div class="cell" data-label="Column">p3NoCheckIn</div>
 <div class="cell" data-label="Arabic">دوام 3| عدم تسجيل بصمة دخول</div>
 <div class="cell" data-label="English">Shift 3|No Check In</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -613,7 +808,10 @@
 <div class="cell" data-label="Column">p3NoCheckOut</div>
 <div class="cell" data-label="Arabic">دوام 3| عدم تسجيل بصمة خروج</div>
 <div class="cell" data-label="English">Shift 3|No Check Out</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -622,7 +820,10 @@
 <div class="cell" data-label="Column">p3OverTime</div>
 <div class="cell" data-label="Arabic">دوام 3 | الإضافي</div>
 <div class="cell" data-label="English">Part 3 | Overtime</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -631,7 +832,10 @@
 <div class="cell" data-label="Column">p3PartialVacationTime</div>
 <div class="cell" data-label="Arabic">أجازه جزئيه</div>
 <div class="cell" data-label="English">Partial Vacation</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -640,7 +844,10 @@
 <div class="cell" data-label="Column">shift_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English">Shift</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [AttendanceShift](/modules/humanresource-payroll/AttendanceShift.md) 
@@ -652,7 +859,10 @@
 <div class="cell" data-label="Column">vacationType_id</div>
 <div class="cell" data-label="Arabic">نوع الأجازة</div>
 <div class="cell" data-label="English">Vacation Type</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [VacationType](/modules/humanresource-payroll/VacationType.md) 
@@ -664,7 +874,10 @@
 <div class="cell" data-label="Column">withoutSalaryVacation</div>
 <div class="cell" data-label="Arabic">أجازة بدون مرتب</div>
 <div class="cell" data-label="English">Without Salary Vacation</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 

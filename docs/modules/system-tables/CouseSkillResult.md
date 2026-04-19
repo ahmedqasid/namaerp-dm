@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">level</div>
 <div class="cell" data-label="Arabic">المستوى</div>
 <div class="cell" data-label="English">Level</div>
-<div class="cell" data-label="Type"> [SkillLevel](/modules/enums/SkillLevel.md) </div>
+<div class="cell" data-label="Type">
+
+ [SkillLevel](/modules/enums/SkillLevel.md) 
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">skill_id</div>
 <div class="cell" data-label="Arabic">المهارة</div>
 <div class="cell" data-label="English">Skill</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HRSkill](/modules/basic/HRSkill.md) 

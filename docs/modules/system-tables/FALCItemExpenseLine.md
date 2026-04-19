@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">fixedAsset_id</div>
 <div class="cell" data-label="Arabic">الأصل الثابت</div>
 <div class="cell" data-label="English">Fixed Asset</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [FixedAsset](/modules/fixedassets/FixedAsset.md) 
@@ -37,7 +40,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">qtyInInvoice</div>
 <div class="cell" data-label="Arabic">الكمية في الفاتورة</div>
 <div class="cell" data-label="English">Quantity In Invoice</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">qtyInReceiptDoc</div>
 <div class="cell" data-label="Arabic">الكمية في سند التوريد</div>
 <div class="cell" data-label="English">Quantity In Receipt Document</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">totalExpense</div>
 <div class="cell" data-label="Arabic">إجمالي المصروفات</div>
 <div class="cell" data-label="English">TotalExpense</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 

@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">consumedQty1</div>
 <div class="cell" data-label="Arabic">الكمية المنفذة 1</div>
 <div class="cell" data-label="English">Consumed Quantity 1</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">consumedQty2</div>
 <div class="cell" data-label="Arabic">الكمية المنفذة 2</div>
 <div class="cell" data-label="English">Consumed Quantity 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell gen-ref-column" data-label="Column">ownerInvoiceActualCode,  ownerInvoiceCode,  ownerInvoiceEntityType,  ownerInvoiceId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">purchaseElement_id</div>
 <div class="cell" data-label="Arabic"> بند شراء</div>
 <div class="cell" data-label="English"> Purchase Element</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [PurchaseElement](/modules/accounting/PurchaseElement.md) 
@@ -73,7 +88,10 @@
 <div class="cell gen-ref-column" data-label="Column">targetInvoiceActualCode,  targetInvoiceCode,  targetInvoiceEntityType,  targetInvoiceId</div>
 <div class="cell" data-label="Arabic">الفاتورة</div>
 <div class="cell" data-label="English">Target Invoice</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 

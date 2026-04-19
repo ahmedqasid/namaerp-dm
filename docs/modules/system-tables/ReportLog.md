@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">endTime</div>
 <div class="cell" data-label="Arabic">إلى</div>
 <div class="cell" data-label="English">End Time</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">exportEntry</div>
 <div class="cell" data-label="Arabic">Export Entry</div>
 <div class="cell" data-label="English">Export Entry</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">exportFormat</div>
 <div class="cell" data-label="Arabic">Export Format</div>
 <div class="cell" data-label="English">Export Format</div>
-<div class="cell" data-label="Type"> [RepOutputFormat](/modules/enums/RepOutputFormat.md) </div>
+<div class="cell" data-label="Type">
+
+ [RepOutputFormat](/modules/enums/RepOutputFormat.md) 
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">fromIP</div>
 <div class="cell" data-label="Arabic">من IP</div>
 <div class="cell" data-label="English">IP</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">parameters</div>
 <div class="cell" data-label="Arabic">المدخلات</div>
 <div class="cell" data-label="English">Parameters</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">printCount</div>
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell gen-ref-column" data-label="Column">printedRecordActualCode,  printedRecordCode,  printedRecordEntityType,  printedRecordId</div>
 <div class="cell" data-label="Arabic">السجل المطبوع</div>
 <div class="cell" data-label="English">Printed Record</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell" data-label="Column">replicationSite_id</div>
 <div class="cell" data-label="Arabic">موقع التكرار</div>
 <div class="cell" data-label="English">Replication Site</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ReplicationSite](/modules/basic/ReplicationSite.md) 
@@ -109,7 +136,10 @@
 <div class="cell gen-ref-column" data-label="Column">reportActualCode,  reportCode,  reportEntityType,  reportId</div>
 <div class="cell" data-label="Arabic">التقرير</div>
 <div class="cell" data-label="English">Report Definition</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -118,7 +148,10 @@
 <div class="cell" data-label="Column">runFailed</div>
 <div class="cell" data-label="Arabic">فشل التشغيل</div>
 <div class="cell" data-label="English">Run Failed</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -127,7 +160,10 @@
 <div class="cell" data-label="Column">runId</div>
 <div class="cell" data-label="Arabic">معرف التشغيل</div>
 <div class="cell" data-label="English">Run ID</div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 
@@ -136,7 +172,10 @@
 <div class="cell" data-label="Column">runTimeMS</div>
 <div class="cell" data-label="Arabic">وقت التشغيل بالمللي ثانية</div>
 <div class="cell" data-label="English">Run Time MS</div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 
@@ -145,7 +184,10 @@
 <div class="cell" data-label="Column">startTime</div>
 <div class="cell" data-label="Arabic">من</div>
 <div class="cell" data-label="English">Start Time</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -154,7 +196,10 @@
 <div class="cell" data-label="Column">tempPrintId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -163,7 +208,10 @@
 <div class="cell gen-ref-column" data-label="Column">userActualCode,  userCode,  userEntityType,  userId</div>
 <div class="cell" data-label="Arabic">المستخدم</div>
 <div class="cell" data-label="English">User</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 

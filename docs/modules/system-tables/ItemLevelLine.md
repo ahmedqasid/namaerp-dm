@@ -25,7 +25,10 @@
 <div class="cell gen-ref-column" data-label="Column">favouritesLevel1ActualCode,  favouritesLevel1Code,  favouritesLevel1EntityType,  favouritesLevel1Id</div>
 <div class="cell" data-label="Arabic">المستوي 1</div>
 <div class="cell" data-label="English">Favourites Level 1</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">favouritesLevel2</div>
 <div class="cell" data-label="Arabic">المستوي 2</div>
 <div class="cell" data-label="English">Favourites Level 2</div>
-<div class="cell" data-label="Type"> [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) </div>
+<div class="cell" data-label="Type">
+
+ [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) 
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">favouritesLevel3</div>
 <div class="cell" data-label="Arabic">المستوي 3</div>
 <div class="cell" data-label="English">Favourites Level 3</div>
-<div class="cell" data-label="Type"> [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) </div>
+<div class="cell" data-label="Type">
+
+ [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) 
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">favouritesLevel4</div>
 <div class="cell" data-label="Arabic">المستوي 4</div>
 <div class="cell" data-label="English">Favourites Level 4</div>
-<div class="cell" data-label="Type"> [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) </div>
+<div class="cell" data-label="Type">
+
+ [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) 
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">favouritesLevel5</div>
 <div class="cell" data-label="Arabic">المستوي 5</div>
 <div class="cell" data-label="English">Favourites Level 5</div>
-<div class="cell" data-label="Type"> [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) </div>
+<div class="cell" data-label="Type">
+
+ [FavouriteItemLevel](/modules/enums/FavouriteItemLevel.md) 
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 

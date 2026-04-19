@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">addedBalance</div>
 <div class="cell" data-label="Arabic">الرصيد المضاف</div>
 <div class="cell" data-label="English">Added Balance</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">assignedVacationsDays</div>
 <div class="cell" data-label="Arabic">أيام الأجازات المخصصة</div>
 <div class="cell" data-label="English">Assigned Vacations Days</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">balance</div>
 <div class="cell" data-label="Arabic">الرصيد</div>
 <div class="cell" data-label="English">Balance</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">changedByDoc</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">consumed</div>
 <div class="cell" data-label="Arabic">المستهلك</div>
 <div class="cell" data-label="English">Consumed</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">employee_id</div>
 <div class="cell" data-label="Arabic">الموظف</div>
 <div class="cell" data-label="English">Employee</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Employee](/modules/basic/Employee.md) 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">inheritedConsiderRetDateAsWorkStart</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">lineId</div>
 <div class="cell" data-label="Arabic">م</div>
 <div class="cell" data-label="English">S</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -109,7 +136,10 @@
 <div class="cell" data-label="Column">lineIndex</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -118,7 +148,10 @@
 <div class="cell" data-label="Column">manualBalance</div>
 <div class="cell" data-label="Arabic">مستند رصيد يدوي</div>
 <div class="cell" data-label="English">Manual Balance</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -127,7 +160,10 @@
 <div class="cell gen-ref-column" data-label="Column">ownerActualCode,  ownerCode,  ownerEntityType,  ownerId</div>
 <div class="cell" data-label="Arabic"> مالك المستند</div>
 <div class="cell" data-label="English"> Document Owner</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -136,7 +172,10 @@
 <div class="cell" data-label="Column">periodBalance</div>
 <div class="cell" data-label="Arabic">رصيد فتري</div>
 <div class="cell" data-label="English">Period Balance</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -145,7 +184,10 @@
 <div class="cell" data-label="Column">remainder</div>
 <div class="cell" data-label="Arabic">المتبقي</div>
 <div class="cell" data-label="English">Remainder</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -154,7 +196,10 @@
 <div class="cell" data-label="Column">sortByDate</div>
 <div class="cell" data-label="Arabic">ترتيب بالتاريخ</div>
 <div class="cell" data-label="English">Sort By Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -163,7 +208,10 @@
 <div class="cell" data-label="Column">startDate</div>
 <div class="cell" data-label="Arabic">تاريخ البداية</div>
 <div class="cell" data-label="English">Start Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -172,7 +220,10 @@
 <div class="cell" data-label="Column">vacDocCreationDate</div>
 <div class="cell" data-label="Arabic">تاريخ إنشاء مستند الاجازة</div>
 <div class="cell" data-label="English">Vacation Document Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -181,7 +232,10 @@
 <div class="cell" data-label="Column">vacationReason_id</div>
 <div class="cell" data-label="Arabic">سبب الأجازة</div>
 <div class="cell" data-label="English">vacation Reason</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LeaveReason](/modules/humanresource-payroll/LeaveReason.md) 
@@ -193,7 +247,10 @@
 <div class="cell" data-label="Column">vacationType_id</div>
 <div class="cell" data-label="Arabic">نوع الأجازة</div>
 <div class="cell" data-label="English">Vacation Type</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [VacationType](/modules/humanresource-payroll/VacationType.md) 
@@ -205,7 +262,10 @@
 <div class="cell" data-label="Column">workStartDate</div>
 <div class="cell" data-label="Arabic">تاريخ بدء العمل</div>
 <div class="cell" data-label="English">Work Start Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -214,7 +274,10 @@
 <div class="cell gen-ref-column" data-label="Column">workStartDocActualCode,  workStartDocCode,  workStartDocEntityType,  workStartDocId</div>
 <div class="cell" data-label="Arabic">مستند المباشرة</div>
 <div class="cell" data-label="English">Work Starting Document</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 

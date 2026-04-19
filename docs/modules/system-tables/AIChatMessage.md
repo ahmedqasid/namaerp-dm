@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">content</div>
 <div class="cell" data-label="Arabic">المحتوى</div>
 <div class="cell" data-label="English">Content</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">createdAt</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Created At</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">messageType</div>
 <div class="cell" data-label="Arabic">Message Type</div>
 <div class="cell" data-label="English">Message Type</div>
-<div class="cell" data-label="Type"> [AIChatMessageType](/modules/enums/AIChatMessageType.md) </div>
+<div class="cell" data-label="Type">
+
+ [AIChatMessageType](/modules/enums/AIChatMessageType.md) 
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">metadata</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">session_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English">Session</div>
-<div class="cell" data-label="Type"></div>
+<div class="cell" data-label="Type">
+
+
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [AIChatSession](/modules/system-tables/AIChatSession.md) 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">tokenCount</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">userFeedback</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type"> [UserFeedback](/modules/enums/UserFeedback.md) </div>
+<div class="cell" data-label="Type">
+
+ [UserFeedback](/modules/enums/UserFeedback.md) 
+</div>
 
 </div>
 

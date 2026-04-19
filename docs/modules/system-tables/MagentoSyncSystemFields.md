@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">lastAbandonedCartReadDate</div>
 <div class="cell" data-label="Arabic">Last Abandoned Cart Read Date</div>
 <div class="cell" data-label="English">Last Abandoned Cart Read Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">lastGatewayReadDateTime</div>
 <div class="cell" data-label="Arabic">Last Gateway Read Date Time</div>
 <div class="cell" data-label="English">Last Gateway Read Date Time</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">lastIncrementIdIsRealID</div>
 <div class="cell" data-label="Arabic">Last Increment ID is Real ID</div>
 <div class="cell" data-label="English">Last Increment ID is Real ID</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">lastIncrementedId</div>
 <div class="cell" data-label="Arabic">Last Id</div>
 <div class="cell" data-label="English">Last Id</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">lastOrderAsReturnId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">lastReturnReadDate</div>
 <div class="cell" data-label="Arabic">Last Return Read Date</div>
 <div class="cell" data-label="English">Last Return Read Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">lastSalesReadDate</div>
 <div class="cell" data-label="Arabic">Last Sales Read Date</div>
 <div class="cell" data-label="English">Last Sales Read Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell" data-label="Column">ordAsReturnUpdateUntil</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -106,7 +133,10 @@
 <div class="cell" data-label="Column">ordersUpdatedUntil</div>
 <div class="cell" data-label="Arabic">تم التحديث حتى تاريخ</div>
 <div class="cell" data-label="English">Orders Updated Until</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 

@@ -25,7 +25,10 @@
 <div class="cell gen-ref-column" data-label="Column">contractActualCode,  contractCode,  contractEntityType,  contractId</div>
 <div class="cell" data-label="Arabic">العقد</div>
 <div class="cell" data-label="English">Contract</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell gen-ref-column" data-label="Column">extractDocActualCode,  extractDocCode,  extractDocEntityType,  extractDocId</div>
 <div class="cell" data-label="Arabic">المستخلص</div>
 <div class="cell" data-label="English">Extract Document</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell gen-ref-column" data-label="Column">fineDocActualCode,  fineDocCode,  fineDocEntityType,  fineDocId</div>
 <div class="cell" data-label="Arabic">سند الغرامة</div>
 <div class="cell" data-label="English">Fine Document</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">fineLineId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">fineReason_id</div>
 <div class="cell" data-label="Arabic">سبب الغرامة</div>
 <div class="cell" data-label="English">Fine Reason</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ContractingFineReason](/modules/contracting/ContractingFineReason.md) 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">fineValue</div>
 <div class="cell" data-label="Arabic">قيمة الغرامة</div>
 <div class="cell" data-label="English">Fine Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">fineValueDate</div>
 <div class="cell" data-label="Arabic">التاريخ الفعلي للغرامة</div>
 <div class="cell" data-label="English">Fine Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">termCode</div>
 <div class="cell" data-label="Arabic">كود البند</div>
 <div class="cell" data-label="English">Term Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 

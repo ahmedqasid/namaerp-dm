@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">entityTypeList_id</div>
 <div class="cell" data-label="Arabic">قائمة الأنواع</div>
 <div class="cell" data-label="English">Entity Type List</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [EntityTypeList](/modules/basic/EntityTypeList.md) 
@@ -37,7 +40,10 @@
 <div class="cell" data-label="Column">forType</div>
 <div class="cell" data-label="Arabic">للنوع</div>
 <div class="cell" data-label="English">For Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">showLocatorsRelatedToItemOnly</div>
 <div class="cell" data-label="Arabic">عرض المواقع المرتبطة بالصنف فقط</div>
 <div class="cell" data-label="English">Show Locators Which Related To Item Only</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">showLocatorsWithAvailableQtyOnly</div>
 <div class="cell" data-label="Arabic">عرض المواقع التي بها كميات فقط</div>
 <div class="cell" data-label="English">Show Locators With Available Quantity Only</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">showWarehousesRelatedToItemOnly</div>
 <div class="cell" data-label="Arabic">عرض المخازن المرتبطة بالصنف فقط</div>
 <div class="cell" data-label="English">Show Warehouses Which Related To Item Only</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">showWarehousesWithAvailableQtyOnly</div>
 <div class="cell" data-label="Arabic">عرض المخازن التي بها كميات فقط</div>
 <div class="cell" data-label="English">Show Warehouses With Available Quantity Only</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 

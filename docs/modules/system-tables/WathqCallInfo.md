@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">commercialRegNo</div>
 <div class="cell" data-label="Arabic">رقم السجل التجاري</div>
 <div class="cell" data-label="English">Commercial Registration Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">crNationalNumber</div>
 <div class="cell" data-label="Arabic">الرقم الوطني الموحد</div>
 <div class="cell" data-label="English">Commercial Registration National Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">entityActionKlass</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell gen-ref-column" data-label="Column">onRecordActualCode,  onRecordCode,  onRecordEntityType,  onRecordId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">onTime</div>
 <div class="cell" data-label="Arabic">الوقت</div>
 <div class="cell" data-label="English">Time</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell gen-ref-column" data-label="Column">userActualCode,  userCode,  userEntityType,  userId</div>
 <div class="cell" data-label="Arabic">المستخدم</div>
 <div class="cell" data-label="English">User</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">wathqResponse</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 

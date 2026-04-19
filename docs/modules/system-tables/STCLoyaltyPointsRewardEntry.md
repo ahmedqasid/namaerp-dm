@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">amount</div>
 <div class="cell" data-label="Arabic"> المبلغ</div>
 <div class="cell" data-label="English"> Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">config_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [RewardPointsConfig](/modules/basic-external-reward-points/RewardPointsConfig.md) 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -55,7 +64,10 @@
 <div class="cell gen-ref-column" data-label="Column">ownerActualCode,  ownerCode,  ownerEntityType,  ownerId</div>
 <div class="cell" data-label="Arabic"> مالك المستند</div>
 <div class="cell" data-label="English"> Document Owner</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">phoneNumber</div>
 <div class="cell" data-label="Arabic">رقم الهاتف</div>
 <div class="cell" data-label="English">Phone Number</div>
-<div class="cell" data-label="Type">PhoneNumber</div>
+<div class="cell" data-label="Type">
+
+PhoneNumber
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">reductionAmount</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">refRequestDate</div>
 <div class="cell" data-label="Arabic">Reference Request Date</div>
 <div class="cell" data-label="English">Reference Request Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">refRequestId</div>
 <div class="cell" data-label="Arabic">Reference Request Id</div>
 <div class="cell" data-label="English">Reference Request Id</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">requestDate</div>
 <div class="cell" data-label="Arabic">تاريخ الطلب</div>
 <div class="cell" data-label="English">Request Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -109,7 +136,10 @@
 <div class="cell" data-label="Column">requestId</div>
 <div class="cell" data-label="Arabic">Request Id</div>
 <div class="cell" data-label="English">Request Id</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -118,7 +148,10 @@
 <div class="cell" data-label="Column">requestStatus</div>
 <div class="cell" data-label="Arabic">حالة الطلب</div>
 <div class="cell" data-label="English">Request Status</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -127,7 +160,10 @@
 <div class="cell gen-ref-column" data-label="Column">returnDocActualCode,  returnDocCode,  returnDocEntityType,  returnDocId</div>
 <div class="cell" data-label="Arabic">مرتجع</div>
 <div class="cell" data-label="English">Return Document</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -136,7 +172,10 @@
 <div class="cell gen-ref-column" data-label="Column">targetActualCode,  targetCode,  targetEntityType,  targetId</div>
 <div class="cell" data-label="Arabic">الجهة</div>
 <div class="cell" data-label="English">Taregt</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -145,7 +184,10 @@
 <div class="cell" data-label="Column">updateRequest</div>
 <div class="cell" data-label="Arabic">طلب تعديل</div>
 <div class="cell" data-label="English">Update Request</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 

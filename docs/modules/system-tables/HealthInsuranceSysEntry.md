@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell gen-ref-column" data-label="Column">effectedDocActualCode,  effectedDocCode,  effectedDocEntityType,  effectedDocId</div>
 <div class="cell" data-label="Arabic">كود السند</div>
 <div class="cell" data-label="English">Document Code</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">employee_id</div>
 <div class="cell" data-label="Arabic">الموظف</div>
 <div class="cell" data-label="English">Employee</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Employee](/modules/basic/Employee.md) 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">employeeDuePercentage</div>
 <div class="cell" data-label="Arabic">المستحق من الموظف | نسبة</div>
 <div class="cell" data-label="English">Employee Due value | Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">fromDate</div>
 <div class="cell" data-label="Arabic">من تاريخ</div>
 <div class="cell" data-label="English">From Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">insuranceCategory</div>
 <div class="cell" data-label="Arabic">فئة التأمين</div>
 <div class="cell" data-label="English">Insurance Category</div>
-<div class="cell" data-label="Type"> [InsuranceCategory](/modules/enums/InsuranceCategory.md) </div>
+<div class="cell" data-label="Type">
+
+ [InsuranceCategory](/modules/enums/InsuranceCategory.md) 
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">insuranceCompany_id</div>
 <div class="cell" data-label="Arabic">شركة التأمين</div>
 <div class="cell" data-label="English">Insurance Company</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ThirdParty](/modules/basic/ThirdParty.md) 
@@ -103,7 +127,10 @@
 <div class="cell" data-label="Column">insuranceCostPerDay</div>
 <div class="cell" data-label="Arabic">تكلفة التأمين اليومية</div>
 <div class="cell" data-label="English">Insurance Cost Per Day</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -112,7 +139,10 @@
 <div class="cell" data-label="Column">insuranceCostPerMonth</div>
 <div class="cell" data-label="Arabic">تكلفة التأمين الشهرية</div>
 <div class="cell" data-label="English">Insurance Cost Per Month</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -121,7 +151,10 @@
 <div class="cell" data-label="Column">insuranceInstallmentValue</div>
 <div class="cell" data-label="Arabic">قيمة التأمين السنوية</div>
 <div class="cell" data-label="English">Insurance Cost Per Year</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -130,7 +163,10 @@
 <div class="cell" data-label="Column">name</div>
 <div class="cell" data-label="Arabic">الاسم</div>
 <div class="cell" data-label="English">Name</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -139,7 +175,10 @@
 <div class="cell" data-label="Column">numberOfDays</div>
 <div class="cell" data-label="Arabic">عدد الايام</div>
 <div class="cell" data-label="English">Number Of Days</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -148,7 +187,10 @@
 <div class="cell" data-label="Column">offerId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -157,7 +199,10 @@
 <div class="cell" data-label="Column">originalToDate</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -166,7 +211,10 @@
 <div class="cell" data-label="Column">policyValue</div>
 <div class="cell" data-label="Arabic">قيمة الوثيقة</div>
 <div class="cell" data-label="English">Policy Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -175,7 +223,10 @@
 <div class="cell" data-label="Column">relationType</div>
 <div class="cell" data-label="Arabic">صلة القرابة</div>
 <div class="cell" data-label="English">Relation Type</div>
-<div class="cell" data-label="Type"> [RelationType](/modules/enums/RelationType.md) </div>
+<div class="cell" data-label="Type">
+
+ [RelationType](/modules/enums/RelationType.md) 
+</div>
 
 </div>
 
@@ -184,7 +235,10 @@
 <div class="cell" data-label="Column">toDate</div>
 <div class="cell" data-label="Arabic">إلى تاريخ</div>
 <div class="cell" data-label="English">To Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -193,7 +247,10 @@
 <div class="cell" data-label="Column">valueDate</div>
 <div class="cell" data-label="Arabic">التاريخ الفعلي</div>
 <div class="cell" data-label="English">Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 

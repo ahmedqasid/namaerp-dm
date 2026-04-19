@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">actualDeliveryDateTime</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">address</div>
 <div class="cell" data-label="Arabic">العنوان</div>
 <div class="cell" data-label="English">Address</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell gen-ref-column" data-label="Column">classCdActualCode,  classCdCode,  classCdEntityType,  classCdId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell gen-ref-column" data-label="Column">deliverToActualCode,  deliverToCode,  deliverToEntityType,  deliverToId</div>
 <div class="cell" data-label="Arabic"> العميل</div>
 <div class="cell" data-label="English"> Customer</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">deliveredBy_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Employee](/modules/basic/Employee.md) 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">deliveredByCar_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [DeliveryCar](/modules/basic/DeliveryCar.md) 
@@ -85,7 +103,10 @@
 <div class="cell" data-label="Column">deliveryArea_id</div>
 <div class="cell" data-label="Arabic">منطقة توصيل</div>
 <div class="cell" data-label="English">Delivery Area</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [DLVDeliveryArea](/modules/basic-mobile-shipment-delivery/DLVDeliveryArea.md) 
@@ -97,7 +118,10 @@
 <div class="cell gen-ref-column" data-label="Column">deliveryDocumentActualCode,  deliveryDocumentCode,  deliveryDocumentEntityType,  deliveryDocumentId</div>
 <div class="cell" data-label="Arabic">المستند الموصل</div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -106,7 +130,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -115,7 +142,10 @@
 <div class="cell" data-label="Column">location</div>
 <div class="cell" data-label="Arabic">الموقع المخزني</div>
 <div class="cell" data-label="English">Location</div>
-<div class="cell" data-label="Type">LatLng</div>
+<div class="cell" data-label="Type">
+
+LatLng
+</div>
 
 </div>
 
@@ -124,7 +154,10 @@
 <div class="cell" data-label="Column">originalPlannedDeliveryDateTime</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -133,7 +166,10 @@
 <div class="cell gen-ref-column" data-label="Column">ownerActualCode,  ownerCode,  ownerEntityType,  ownerId</div>
 <div class="cell" data-label="Arabic"> مالك المستند</div>
 <div class="cell" data-label="English"> Document Owner</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -142,7 +178,10 @@
 <div class="cell" data-label="Column">phoneNumber</div>
 <div class="cell" data-label="Arabic">رقم الهاتف</div>
 <div class="cell" data-label="English">Phone Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -151,7 +190,10 @@
 <div class="cell" data-label="Column">plannedDeliveryDateTime</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -160,7 +202,10 @@
 <div class="cell" data-label="Column">shipment</div>
 <div class="cell" data-label="Arabic"> شحنة</div>
 <div class="cell" data-label="English"> Shipment</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -169,7 +214,10 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type"> [DLVDeliveredStatus](/modules/enums/DLVDeliveredStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [DLVDeliveredStatus](/modules/enums/DLVDeliveredStatus.md) 
+</div>
 
 </div>
 
@@ -178,7 +226,10 @@
 <div class="cell" data-label="Column">valueDate</div>
 <div class="cell" data-label="Arabic">التاريخ الفعلي</div>
 <div class="cell" data-label="English">Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 

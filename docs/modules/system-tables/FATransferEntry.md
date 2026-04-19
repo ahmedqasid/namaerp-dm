@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">custody_id</div>
 <div class="cell" data-label="Arabic"> عهدة</div>
 <div class="cell" data-label="English"> Custody</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [FACustody](/modules/fixedassets-custody/FACustody.md) 
@@ -37,7 +40,10 @@
 <div class="cell" data-label="Column">fromEmployee_id</div>
 <div class="cell" data-label="Arabic">من موظف</div>
 <div class="cell" data-label="English">From Employee</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Employee](/modules/basic/Employee.md) 
@@ -49,7 +55,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -58,7 +67,10 @@
 <div class="cell" data-label="Column">toEmployee_id</div>
 <div class="cell" data-label="Arabic">الي موظف</div>
 <div class="cell" data-label="English">To Employee</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Employee](/modules/basic/Employee.md) 
@@ -70,7 +82,10 @@
 <div class="cell" data-label="Column">transferDate</div>
 <div class="cell" data-label="Arabic">تاريخ النقل</div>
 <div class="cell" data-label="English">Transfer Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 

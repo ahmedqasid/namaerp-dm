@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">conditionValueAfterTax</div>
 <div class="cell" data-label="Arabic">قيمة الشرط المخططة| قيمة الشرط بعد الضريبة</div>
 <div class="cell" data-label="English">Condition Planned Value | Condition Value After Tax</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell gen-ref-column" data-label="Column">contractActualCode,  contractCode,  contractEntityType,  contractId</div>
 <div class="cell" data-label="Arabic">العقد</div>
 <div class="cell" data-label="English">Contract</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">contractingCondition_id</div>
 <div class="cell" data-label="Arabic">الشرط</div>
 <div class="cell" data-label="English">Condition</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ContractingCondition](/modules/contracting/ContractingCondition.md) 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">deductedValue</div>
 <div class="cell" data-label="Arabic">الإجماليات | إستقطاعات</div>
 <div class="cell" data-label="English">Total | Deductions</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell gen-ref-column" data-label="Column">extractDocActualCode,  extractDocCode,  extractDocEntityType,  extractDocId</div>
 <div class="cell" data-label="Arabic">المستخلص</div>
 <div class="cell" data-label="English">Extract Document</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">extractValueDate</div>
 <div class="cell" data-label="Arabic">تاريخ المستخلص</div>
 <div class="cell" data-label="English">Extract Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell gen-ref-column" data-label="Column">paymentDocActualCode,  paymentDocCode,  paymentDocEntityType,  paymentDocId</div>
 <div class="cell" data-label="Arabic">مستند الدفع</div>
 <div class="cell" data-label="English">Payment document</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -100,7 +124,10 @@
 <div class="cell" data-label="Column">termCode</div>
 <div class="cell" data-label="Arabic">كود البند</div>
 <div class="cell" data-label="English">Term Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 

@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">deleted</div>
 <div class="cell" data-label="Arabic">محذوف</div>
 <div class="cell" data-label="English">Deleted</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">prefix</div>
 <div class="cell" data-label="Arabic">بادئة التكويد</div>
 <div class="cell" data-label="English">Prefix</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">serial</div>
 <div class="cell" data-label="Arabic">المسلسل</div>
 <div class="cell" data-label="English">Serial</div>
-<div class="cell" data-label="Type">Long</div>
+<div class="cell" data-label="Type">
+
+Long
+</div>
 
 </div>
 

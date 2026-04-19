@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">email</div>
 <div class="cell" data-label="Arabic">إيميل</div>
 <div class="cell" data-label="English">E-mail</div>
-<div class="cell" data-label="Type">Email</div>
+<div class="cell" data-label="Type">
+
+Email
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell gen-ref-column" data-label="Column">entityActualCode,  entityCode,  entityEntityType,  entityId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 

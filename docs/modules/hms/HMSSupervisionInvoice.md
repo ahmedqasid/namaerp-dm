@@ -32,7 +32,10 @@
 <div class="cell" data-label="Column">allowChangingMainPrices</div>
 <div class="cell" data-label="Arabic">السماح بتعديل الأسعار الرئيسية</div>
 <div class="cell" data-label="English">Allow Changing Main Prices</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -41,7 +44,10 @@
 <div class="cell" data-label="Column">allowChangingServicesPrices</div>
 <div class="cell" data-label="Arabic">السماح بتعديل أسعار الخدمات الطبية</div>
 <div class="cell" data-label="English">Allow Changing Services Prices</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -50,7 +56,10 @@
 <div class="cell" data-label="Column">allowChangingSuppliesPrices</div>
 <div class="cell" data-label="Arabic">السماح بتعديل أسعار المستلزمات الطبية</div>
 <div class="cell" data-label="English">Allow Changing Supplies Prices</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -59,7 +68,10 @@
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic">المجموعة التحليلية</div>
 <div class="cell" data-label="English">Analysis set</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [AnalysisSet](/modules/basic/AnalysisSet.md) 
@@ -71,7 +83,10 @@
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -80,7 +95,10 @@
 <div class="cell" data-label="Column">attachment_id</div>
 <div class="cell" data-label="Arabic">مرفق</div>
 <div class="cell" data-label="English">Attachment</div>
-<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Type">
+
+Binary
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LargeData](/modules/system-tables/LargeData.md) 
@@ -92,7 +110,10 @@
 <div class="cell" data-label="Column">attachment1_id</div>
 <div class="cell" data-label="Arabic">مرفق 1</div>
 <div class="cell" data-label="English">Attachment 1</div>
-<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Type">
+
+Binary
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LargeData](/modules/system-tables/LargeData.md) 
@@ -104,7 +125,10 @@
 <div class="cell" data-label="Column">attachment2_id</div>
 <div class="cell" data-label="Arabic">مرفق 2</div>
 <div class="cell" data-label="English">Attachment 2</div>
-<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Type">
+
+Binary
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LargeData](/modules/system-tables/LargeData.md) 
@@ -116,7 +140,10 @@
 <div class="cell" data-label="Column">attachment3_id</div>
 <div class="cell" data-label="Arabic">مرفق 3</div>
 <div class="cell" data-label="English">Attachment 3</div>
-<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Type">
+
+Binary
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LargeData](/modules/system-tables/LargeData.md) 
@@ -128,7 +155,10 @@
 <div class="cell" data-label="Column">attachment4_id</div>
 <div class="cell" data-label="Arabic">مرفق 4</div>
 <div class="cell" data-label="English">Attachment 4</div>
-<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Type">
+
+Binary
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LargeData](/modules/system-tables/LargeData.md) 
@@ -140,7 +170,10 @@
 <div class="cell" data-label="Column">attachment5_id</div>
 <div class="cell" data-label="Arabic">مرفق 5</div>
 <div class="cell" data-label="English">Attachment 5</div>
-<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Type">
+
+Binary
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LargeData](/modules/system-tables/LargeData.md) 
@@ -152,7 +185,10 @@
 <div class="cell" data-label="Column">book_id</div>
 <div class="cell" data-label="Arabic">الدفتر</div>
 <div class="cell" data-label="English">Book</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [DocumentBook](/modules/basic/DocumentBook.md) 
@@ -164,7 +200,10 @@
 <div class="cell" data-label="Column">branch_id</div>
 <div class="cell" data-label="Arabic">الفرع</div>
 <div class="cell" data-label="English">Branch</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Branch](/modules/basic/Branch.md) 
@@ -176,7 +215,10 @@
 <div class="cell" data-label="Column">branch_id</div>
 <div class="cell" data-label="Arabic">Branch ID</div>
 <div class="cell" data-label="English">Branch ID</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -185,7 +227,10 @@
 <div class="cell" data-label="Column">cancelledBy_id</div>
 <div class="cell" data-label="Arabic">ألغي بواسطة</div>
 <div class="cell" data-label="English">Cancelled By</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [DocumentCancelDocument](/modules/basic/DocumentCancelDocument.md) 
@@ -197,7 +242,10 @@
 <div class="cell" data-label="Column">code</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -206,7 +254,10 @@
 <div class="cell" data-label="Column">colorCode</div>
 <div class="cell" data-label="Arabic">كود اللون</div>
 <div class="cell" data-label="English">Color Code</div>
-<div class="cell" data-label="Type">Color</div>
+<div class="cell" data-label="Type">
+
+Color
+</div>
 
 </div>
 
@@ -215,7 +266,10 @@
 <div class="cell" data-label="Column">commitedBefore</div>
 <div class="cell" data-label="Arabic">تم الحفظ مسبقا</div>
 <div class="cell" data-label="English">Commited Before</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -224,7 +278,10 @@
 <div class="cell" data-label="Column">companyEndurancePercent</div>
 <div class="cell" data-label="Arabic">نسبة تحمل الشركة</div>
 <div class="cell" data-label="English">Company Endurance Percent</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -233,7 +290,10 @@
 <div class="cell" data-label="Column">createTransactionId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -242,7 +302,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -251,7 +314,10 @@
 <div class="cell" data-label="Column">currentApprovalCase_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type"></div>
+<div class="cell" data-label="Type">
+
+
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ApprovalCase](/modules/system-tables/ApprovalCase.md) 
@@ -263,7 +329,10 @@
 <div class="cell" data-label="Column">currentVersion</div>
 <div class="cell" data-label="Arabic">النسخة الحالية</div>
 <div class="cell" data-label="English">Current Version</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -272,7 +341,10 @@
 <div class="cell" data-label="Column">customViewName</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -281,7 +353,10 @@
 <div class="cell" data-label="Column">date1</div>
 <div class="cell" data-label="Arabic">تـــاريخ 1</div>
 <div class="cell" data-label="English">Date 1</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -290,7 +365,10 @@
 <div class="cell" data-label="Column">date2</div>
 <div class="cell" data-label="Arabic">تـــاريخ 2</div>
 <div class="cell" data-label="English">Date 2</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -299,7 +377,10 @@
 <div class="cell" data-label="Column">date3</div>
 <div class="cell" data-label="Arabic">تاريخ 3</div>
 <div class="cell" data-label="English">Date3</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -308,7 +389,10 @@
 <div class="cell" data-label="Column">date4</div>
 <div class="cell" data-label="Arabic">تاريخ 4</div>
 <div class="cell" data-label="English">Date4</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -317,7 +401,10 @@
 <div class="cell" data-label="Column">date5</div>
 <div class="cell" data-label="Arabic">تاريخ 5</div>
 <div class="cell" data-label="English">Date5</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -326,7 +413,10 @@
 <div class="cell" data-label="Column">department_id</div>
 <div class="cell" data-label="Arabic">الإدارة</div>
 <div class="cell" data-label="English">Department</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Department](/modules/basic/Department.md) 
@@ -338,7 +428,10 @@
 <div class="cell" data-label="Column">department_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -347,7 +440,10 @@
 <div class="cell" data-label="Column">description1</div>
 <div class="cell" data-label="Arabic">الوصف 1</div>
 <div class="cell" data-label="English">description1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -356,7 +452,10 @@
 <div class="cell" data-label="Column">description2</div>
 <div class="cell" data-label="Arabic">الوصف 2</div>
 <div class="cell" data-label="English">description2</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -365,7 +464,10 @@
 <div class="cell" data-label="Column">description3</div>
 <div class="cell" data-label="Arabic">الوصف 3</div>
 <div class="cell" data-label="English">description3</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -374,7 +476,10 @@
 <div class="cell" data-label="Column">description4</div>
 <div class="cell" data-label="Arabic">الوصف 4</div>
 <div class="cell" data-label="English">description4</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -383,7 +488,10 @@
 <div class="cell" data-label="Column">description5</div>
 <div class="cell" data-label="Arabic">الوصف 5</div>
 <div class="cell" data-label="English">description5</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -392,7 +500,10 @@
 <div class="cell" data-label="Column">dimensionsHistoryXml</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -401,7 +512,10 @@
 <div class="cell" data-label="Column">docCategory_id</div>
 <div class="cell" data-label="Arabic"> تصنيف سجل</div>
 <div class="cell" data-label="English"> Record Category</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [DocCategory](/modules/basic/DocCategory.md) 
@@ -413,7 +527,10 @@
 <div class="cell" data-label="Column">doctor_id</div>
 <div class="cell" data-label="Arabic">الطبيب</div>
 <div class="cell" data-label="English">Doctor</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HMSDoctor](/modules/hms/HMSDoctor.md) 
@@ -425,7 +542,10 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) 
+</div>
 
 </div>
 
@@ -434,7 +554,10 @@
 <div class="cell" data-label="Column">draftCreated</div>
 <div class="cell" data-label="Arabic">تم إنشاء مسودة</div>
 <div class="cell" data-label="English">Draft Created</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -443,7 +566,10 @@
 <div class="cell" data-label="Column">draftXML</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -452,7 +578,10 @@
 <div class="cell" data-label="Column">editedBy_id</div>
 <div class="cell" data-label="Arabic">بواسطة</div>
 <div class="cell" data-label="English">Edited By</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [NaMaUser](/modules/system-tables/NaMaUser.md) 
@@ -464,7 +593,10 @@
 <div class="cell" data-label="Column">entitySystemEntry_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -473,7 +605,10 @@
 <div class="cell" data-label="Column">entityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -482,7 +617,10 @@
 <div class="cell" data-label="Column">firstAuthor_id</div>
 <div class="cell" data-label="Arabic">منشئ السجل</div>
 <div class="cell" data-label="English">First Author</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [NaMaUser](/modules/system-tables/NaMaUser.md) 
@@ -494,7 +632,10 @@
 <div class="cell" data-label="Column">firstAuthor_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -503,7 +644,10 @@
 <div class="cell" data-label="Column">fiscalPeriod_id</div>
 <div class="cell" data-label="Arabic">الفترة</div>
 <div class="cell" data-label="English">Fiscal Period</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
@@ -515,7 +659,10 @@
 <div class="cell" data-label="Column">fiscalYear_id</div>
 <div class="cell" data-label="Arabic">السنة المالية</div>
 <div class="cell" data-label="English">Fiscal Year</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [FiscalYear](/modules/basic/FiscalYear.md) 
@@ -527,7 +674,10 @@
 <div class="cell gen-ref-column" data-label="Column">fromDoc_ActualCode,  fromDoc_Code,  fromDoc_type,  fromDoc_id</div>
 <div class="cell" data-label="Arabic">بناءا على</div>
 <div class="cell" data-label="English">From Document</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -536,7 +686,10 @@
 <div class="cell" data-label="Column">fromDocsCount</div>
 <div class="cell" data-label="Arabic">عدد سندات بناء على</div>
 <div class="cell" data-label="English">From Docs Count</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -545,7 +698,10 @@
 <div class="cell" data-label="Column">generatedByLine</div>
 <div class="cell" data-label="Arabic">كود سطر الإنشاء</div>
 <div class="cell" data-label="English">generated By Line</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -554,7 +710,10 @@
 <div class="cell" data-label="Column">generatedDocsCount</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -563,7 +722,10 @@
 <div class="cell gen-ref-column" data-label="Column">generatedFromActualCode,  generatedFromCode,  generatedFromEntityType,  generatedFromId</div>
 <div class="cell" data-label="Arabic">تم إنشاؤه من</div>
 <div class="cell" data-label="English">Generated From</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -572,7 +734,10 @@
 <div class="cell gen-ref-column" data-label="Column">generatedIssueDocActualCode,  generatedIssueDocCode,  generatedIssueDocEntityType,  generatedIssueDocId</div>
 <div class="cell" data-label="Arabic">مستند الصرف المنشأ</div>
 <div class="cell" data-label="English">Generated Issue Document</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -581,7 +746,10 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
+<div class="cell" data-label="Type">
+
+ [GenerationType](/modules/enums/GenerationType.md) 
+</div>
 
 </div>
 
@@ -590,7 +758,10 @@
 <div class="cell" data-label="Column">hmsDocCategory_id</div>
 <div class="cell" data-label="Arabic">تصنيف طبى للمستند</div>
 <div class="cell" data-label="English">Medical Document Category</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HMSDocumentCategory](/modules/hms/HMSDocumentCategory.md) 
@@ -602,7 +773,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -611,7 +785,10 @@
 <div class="cell" data-label="Column">indexInParent</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -620,7 +797,10 @@
 <div class="cell" data-label="Column">insuranceClass_id</div>
 <div class="cell" data-label="Arabic">فئة التأمين</div>
 <div class="cell" data-label="English">Insurance Class</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HMSInsuranceClass](/modules/hms/HMSInsuranceClass.md) 
@@ -632,7 +812,10 @@
 <div class="cell" data-label="Column">issueDate</div>
 <div class="cell" data-label="Arabic">تاريخ التحرير</div>
 <div class="cell" data-label="English">Issue Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -641,7 +824,10 @@
 <div class="cell" data-label="Column">lastChangeVersion</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -650,7 +836,10 @@
 <div class="cell" data-label="Column">LastModifyTransactionId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -659,7 +848,10 @@
 <div class="cell" data-label="Column">lastUpdateDate</div>
 <div class="cell" data-label="Arabic">تاريخ اخر تحديث</div>
 <div class="cell" data-label="English">Last update Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -668,7 +860,10 @@
 <div class="cell" data-label="Column">ledgerTransReqId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -677,7 +872,10 @@
 <div class="cell" data-label="Column">legalEntity_id</div>
 <div class="cell" data-label="Arabic">الشركة</div>
 <div class="cell" data-label="English">Legal Entity</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LegalEntity](/modules/basic/LegalEntity.md) 
@@ -689,7 +887,10 @@
 <div class="cell" data-label="Column">legalEntity_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -698,7 +899,10 @@
 <div class="cell" data-label="Column">lockVersion</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -707,7 +911,10 @@
 <div class="cell" data-label="Column">manualRef1</div>
 <div class="cell" data-label="Arabic">رقم المستند اليدوي</div>
 <div class="cell" data-label="English">Manual Ref1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -716,7 +923,10 @@
 <div class="cell" data-label="Column">medicalInsuranceCompany_id</div>
 <div class="cell" data-label="Arabic">شركة التأمين الطبى</div>
 <div class="cell" data-label="English">Medical Insurance Company</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HMSInsuranceCompany](/modules/hms/HMSInsuranceCompany.md) 
@@ -728,7 +938,10 @@
 <div class="cell" data-label="Column">medicalSpecialty_id</div>
 <div class="cell" data-label="Arabic">التخصص الطبي</div>
 <div class="cell" data-label="English">Medical Specialty</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HMSMedicalSpecialty](/modules/hms/HMSMedicalSpecialty.md) 
@@ -740,7 +953,10 @@
 <div class="cell" data-label="Column">n1</div>
 <div class="cell" data-label="Arabic">رقم 1</div>
 <div class="cell" data-label="English">Number 1</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -749,7 +965,10 @@
 <div class="cell" data-label="Column">n2</div>
 <div class="cell" data-label="Arabic">رقم 2</div>
 <div class="cell" data-label="English">Number 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -758,7 +977,10 @@
 <div class="cell" data-label="Column">n3</div>
 <div class="cell" data-label="Arabic">رقم 3</div>
 <div class="cell" data-label="English">Number 3</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -767,7 +989,10 @@
 <div class="cell" data-label="Column">n4</div>
 <div class="cell" data-label="Arabic">رقم 4</div>
 <div class="cell" data-label="English">Number 4</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -776,7 +1001,10 @@
 <div class="cell" data-label="Column">n5</div>
 <div class="cell" data-label="Arabic">رقم 5</div>
 <div class="cell" data-label="English">Number 5</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -785,7 +1013,10 @@
 <div class="cell" data-label="Column">openShift_id</div>
 <div class="cell" data-label="Arabic">فتح وردية</div>
 <div class="cell" data-label="English">Open Shift</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [CSHOpenShift](/modules/accounting-cashier/CSHOpenShift.md) 
@@ -797,7 +1028,10 @@
 <div class="cell" data-label="Column">parentCode</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -806,7 +1040,10 @@
 <div class="cell" data-label="Column">patient_id</div>
 <div class="cell" data-label="Arabic">المريض</div>
 <div class="cell" data-label="English">Patient</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HMSPatient](/modules/hms/HMSPatient.md) 
@@ -818,7 +1055,10 @@
 <div class="cell" data-label="Column">patientAdmission_id</div>
 <div class="cell" data-label="Arabic">إستمارة دخول المريض</div>
 <div class="cell" data-label="English">Patient Admission</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HMSPatientAdmission](/modules/hms/HMSPatientAdmission.md) 
@@ -830,7 +1070,10 @@
 <div class="cell" data-label="Column">patientEndurancePercent</div>
 <div class="cell" data-label="Arabic">نسبة تحمل المريض</div>
 <div class="cell" data-label="English">Patient Endurance Percent</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -839,7 +1082,10 @@
 <div class="cell" data-label="Column">preventUsage</div>
 <div class="cell" data-label="Arabic">منع الاستعمال</div>
 <div class="cell" data-label="English">Prevent Usage</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -848,7 +1094,10 @@
 <div class="cell" data-label="Column">preventUseAsFromDoc</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -857,7 +1106,10 @@
 <div class="cell" data-label="Column">additionalHourPrice</div>
 <div class="cell" data-label="Arabic">سعر الساعة الزيادة عن عدد ساعات العملية</div>
 <div class="cell" data-label="English">Additional Hour Price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -866,7 +1118,10 @@
 <div class="cell" data-label="Column">additionalHours</div>
 <div class="cell" data-label="Arabic">عدد الساعات الزيادة</div>
 <div class="cell" data-label="English">Number Of Additional Hours</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -875,7 +1130,10 @@
 <div class="cell" data-label="Column">costPercentage</div>
 <div class="cell" data-label="Arabic">% التكلفة</div>
 <div class="cell" data-label="English">Cost Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -884,7 +1142,10 @@
 <div class="cell" data-label="Column">costValue</div>
 <div class="cell" data-label="Arabic">قيمة التكلفة</div>
 <div class="cell" data-label="English">Cost Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -893,7 +1154,10 @@
 <div class="cell" data-label="Column">currency_id</div>
 <div class="cell" data-label="Arabic">العملة</div>
 <div class="cell" data-label="English">Currency</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Currency](/modules/basic/Currency.md) 
@@ -905,7 +1169,10 @@
 <div class="cell" data-label="Column">currencyRate</div>
 <div class="cell" data-label="Arabic">المعدل</div>
 <div class="cell" data-label="English">Currency Rate</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -914,7 +1181,10 @@
 <div class="cell" data-label="Column">dis1MaxValue</div>
 <div class="cell" data-label="Arabic">خصم 1 | أقصى قيمة</div>
 <div class="cell" data-label="English">Discount 1 | Max Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -923,7 +1193,10 @@
 <div class="cell" data-label="Column">dis1Percentage</div>
 <div class="cell" data-label="Arabic">خصم 1 | %</div>
 <div class="cell" data-label="English">Discount 1 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -932,7 +1205,10 @@
 <div class="cell" data-label="Column">dis1Value</div>
 <div class="cell" data-label="Arabic">خصم 1 | قيمة</div>
 <div class="cell" data-label="English">Discount 1 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -941,7 +1217,10 @@
 <div class="cell" data-label="Column">dis2MaxValue</div>
 <div class="cell" data-label="Arabic">خصم 2 | أقصى قيمة</div>
 <div class="cell" data-label="English">Discount 2 | Max Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -950,7 +1229,10 @@
 <div class="cell" data-label="Column">dis2Percentage</div>
 <div class="cell" data-label="Arabic">خصم 2 | %</div>
 <div class="cell" data-label="English">Discount 2 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -959,7 +1241,10 @@
 <div class="cell" data-label="Column">dis2Value</div>
 <div class="cell" data-label="Arabic">خصم 2 | قيمة</div>
 <div class="cell" data-label="English">Discount 2 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -968,7 +1253,10 @@
 <div class="cell" data-label="Column">insurancMxValFromAdmision</div>
 <div class="cell" data-label="Arabic">أقصى قيمة للتأمين من سند إستمارة الدخول</div>
 <div class="cell" data-label="English">Insurance Max Value From Admission</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -977,7 +1265,10 @@
 <div class="cell" data-label="Column">insurancMxValFromApproval</div>
 <div class="cell" data-label="Arabic">أقصى قيمة للتأمين من سند الموافقة</div>
 <div class="cell" data-label="English">Insurance Max Value From Approval</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -986,7 +1277,10 @@
 <div class="cell" data-label="Column">insurancePercentage</div>
 <div class="cell" data-label="Arabic">التأمين | %</div>
 <div class="cell" data-label="English">Insurance | Percent</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -995,7 +1289,10 @@
 <div class="cell" data-label="Column">insuranceTax1</div>
 <div class="cell" data-label="Arabic">التأمين | قيمة ضريبة 1</div>
 <div class="cell" data-label="English">Insurance Tax1 Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1004,7 +1301,10 @@
 <div class="cell" data-label="Column">insuranceTax2</div>
 <div class="cell" data-label="Arabic">التأمين | قيمة ضريبة 2</div>
 <div class="cell" data-label="English">Insurance Tax1 Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1013,7 +1313,10 @@
 <div class="cell" data-label="Column">insuranceValue</div>
 <div class="cell" data-label="Arabic">التأمين | قيمة التأمين</div>
 <div class="cell" data-label="English">Insurance Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1022,7 +1325,10 @@
 <div class="cell" data-label="Column">netValue</div>
 <div class="cell" data-label="Arabic">الصافي</div>
 <div class="cell" data-label="English">Net value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1031,7 +1337,10 @@
 <div class="cell" data-label="Column">patientPercentage</div>
 <div class="cell" data-label="Arabic">المريض | %</div>
 <div class="cell" data-label="English">Patient | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1040,7 +1349,10 @@
 <div class="cell" data-label="Column">patientTax1</div>
 <div class="cell" data-label="Arabic">المريض | قيمة ضريبة 1</div>
 <div class="cell" data-label="English">Patient Tax1 Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1049,7 +1361,10 @@
 <div class="cell" data-label="Column">patientTax2</div>
 <div class="cell" data-label="Arabic">المريض | قيمة ضريبة 2</div>
 <div class="cell" data-label="English">Patient Tax2 Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1058,7 +1373,10 @@
 <div class="cell" data-label="Column">patientValue</div>
 <div class="cell" data-label="Arabic">المريض | قيمة</div>
 <div class="cell" data-label="English">Patient | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1067,7 +1385,10 @@
 <div class="cell" data-label="Column">price</div>
 <div class="cell" data-label="Arabic">الأسعار | السعر الكلي</div>
 <div class="cell" data-label="English">Prices | total price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1076,7 +1397,10 @@
 <div class="cell" data-label="Column">priceAfterTax</div>
 <div class="cell" data-label="Arabic">السعر بعد الضريبة</div>
 <div class="cell" data-label="English">Price After Tax</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1085,7 +1409,10 @@
 <div class="cell" data-label="Column">priceBeforeTax</div>
 <div class="cell" data-label="Arabic">السعر قبل الضريبة</div>
 <div class="cell" data-label="English">Price Before Tax</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1094,7 +1421,10 @@
 <div class="cell" data-label="Column">standardHours</div>
 <div class="cell" data-label="Arabic">عدد الساعات القياسي</div>
 <div class="cell" data-label="English">Standard Hours Number</div>
-<div class="cell" data-label="Type">Time</div>
+<div class="cell" data-label="Type">
+
+Time
+</div>
 
 </div>
 
@@ -1103,7 +1433,10 @@
 <div class="cell" data-label="Column">standardSurgeryPrice</div>
 <div class="cell" data-label="Arabic">سعر العملية القياسي</div>
 <div class="cell" data-label="English">Standard Surgery Price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1112,7 +1445,10 @@
 <div class="cell" data-label="Column">subsidiary1Percentage</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة 1 | نسبة</div>
 <div class="cell" data-label="English">Subsidiary 1 Cost | Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1121,7 +1457,10 @@
 <div class="cell" data-label="Column">subsidiary1Value</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة 1 | قيمة</div>
 <div class="cell" data-label="English">Subsidiary 1 Cost | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1130,7 +1469,10 @@
 <div class="cell" data-label="Column">subsidiary2Percentage</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة 2 | نسبة</div>
 <div class="cell" data-label="English">Subsidiary 2 Cost | Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1139,7 +1481,10 @@
 <div class="cell" data-label="Column">subsidiary2Value</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة 2 | قيمة</div>
 <div class="cell" data-label="English">Subsidiary 2 Cost | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1148,7 +1493,10 @@
 <div class="cell" data-label="Column">subsidiaryPercentage</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة | نسبة</div>
 <div class="cell" data-label="English">Subsidiary Cost | Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1157,7 +1505,10 @@
 <div class="cell" data-label="Column">subsidiaryValue</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة | قيمة</div>
 <div class="cell" data-label="English">Subsidiary Cost | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1166,7 +1517,10 @@
 <div class="cell" data-label="Column">tax1MaxValue</div>
 <div class="cell" data-label="Arabic">أقصي قيمة</div>
 <div class="cell" data-label="English">Maximum Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1175,7 +1529,10 @@
 <div class="cell" data-label="Column">tax1Percentage</div>
 <div class="cell" data-label="Arabic">قيمة إضافية 1</div>
 <div class="cell" data-label="English">Tax 1</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1184,7 +1541,10 @@
 <div class="cell" data-label="Column">tax1Value</div>
 <div class="cell" data-label="Arabic">ضريبة مبيعات | القيمة</div>
 <div class="cell" data-label="English">Tax value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1193,7 +1553,10 @@
 <div class="cell" data-label="Column">tax2MaxValue</div>
 <div class="cell" data-label="Arabic">أقصي قيمة</div>
 <div class="cell" data-label="English">Maximum Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1202,7 +1565,10 @@
 <div class="cell" data-label="Column">tax2Percentage</div>
 <div class="cell" data-label="Arabic">قيمة إضافية 2</div>
 <div class="cell" data-label="English">Tax 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1211,7 +1577,10 @@
 <div class="cell" data-label="Column">tax2Value</div>
 <div class="cell" data-label="Arabic">ضريبة مبيعات 2 | القيمة</div>
 <div class="cell" data-label="English">Tax 2 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1220,7 +1589,10 @@
 <div class="cell" data-label="Column">totalInsuranceDueAmount</div>
 <div class="cell" data-label="Arabic">القيمة المستحقة من التأمين</div>
 <div class="cell" data-label="English">Total Insurance Due Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1229,7 +1601,10 @@
 <div class="cell" data-label="Column">totalPatientDueAmount</div>
 <div class="cell" data-label="Arabic">القيمة المستحقة من المريض</div>
 <div class="cell" data-label="English">Total Patient Due Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1238,7 +1613,10 @@
 <div class="cell" data-label="Column">unitPrice</div>
 <div class="cell" data-label="Arabic">سعر الوحدة</div>
 <div class="cell" data-label="English">Prices | Unit price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1247,7 +1625,10 @@
 <div class="cell" data-label="Column">priceClassifier1_id</div>
 <div class="cell" data-label="Arabic">محدد سعر 1</div>
 <div class="cell" data-label="English">Price Classifier 1</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalesPriceClassifier1](/modules/basic/SalesPriceClassifier1.md) 
@@ -1259,7 +1640,10 @@
 <div class="cell" data-label="Column">priceClassifier2_id</div>
 <div class="cell" data-label="Arabic">محدد سعر 2</div>
 <div class="cell" data-label="English">Price Classifier 2</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalesPriceClassifier2](/modules/basic/SalesPriceClassifier2.md) 
@@ -1271,7 +1655,10 @@
 <div class="cell" data-label="Column">priceClassifier3_id</div>
 <div class="cell" data-label="Arabic">محدد سعر 3</div>
 <div class="cell" data-label="English">Price Classifier 3</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalesPriceClassifier3](/modules/basic/SalesPriceClassifier3.md) 
@@ -1283,7 +1670,10 @@
 <div class="cell" data-label="Column">priceClassifier4_id</div>
 <div class="cell" data-label="Arabic">محدد سعر 4</div>
 <div class="cell" data-label="English">Price Classifier 4</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalesPriceClassifier4](/modules/basic/SalesPriceClassifier4.md) 
@@ -1295,7 +1685,10 @@
 <div class="cell" data-label="Column">priceClassifier5_id</div>
 <div class="cell" data-label="Arabic">محدد سعر 5</div>
 <div class="cell" data-label="English">Price Classifier 5</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalesPriceClassifier5](/modules/basic/SalesPriceClassifier5.md) 
@@ -1307,7 +1700,10 @@
 <div class="cell" data-label="Column">discount1Total</div>
 <div class="cell" data-label="Arabic">إجمالي الخصم</div>
 <div class="cell" data-label="English">Discount Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1316,7 +1712,10 @@
 <div class="cell" data-label="Column">discount2Total</div>
 <div class="cell" data-label="Arabic">إجمالي خصم 2</div>
 <div class="cell" data-label="English">Discount 1 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1325,7 +1724,10 @@
 <div class="cell" data-label="Column">insuranceDueAmountTotal</div>
 <div class="cell" data-label="Arabic">إجمالى القيمة المستحقة من التأمين</div>
 <div class="cell" data-label="English">Insurance Due Amount Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1334,7 +1736,10 @@
 <div class="cell" data-label="Column">insuranceTax1Total</div>
 <div class="cell" data-label="Arabic">إجمالى ضريبة 1 للشركة</div>
 <div class="cell" data-label="English">Insurance Tax 1 Total Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1343,7 +1748,10 @@
 <div class="cell" data-label="Column">insuranceTax2Total</div>
 <div class="cell" data-label="Arabic">إجمالى ضريبة 2 للشركة</div>
 <div class="cell" data-label="English">Insurance Tax 2 Total Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1352,7 +1760,10 @@
 <div class="cell" data-label="Column">insuranceTotal</div>
 <div class="cell" data-label="Arabic">إجمالى الشركة</div>
 <div class="cell" data-label="English">Insurance Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1361,7 +1772,10 @@
 <div class="cell" data-label="Column">patientDueAmountTotal</div>
 <div class="cell" data-label="Arabic">إجمالى القيمة المستحقة من المريض</div>
 <div class="cell" data-label="English">Patient Due Amount Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1370,7 +1784,10 @@
 <div class="cell" data-label="Column">patientTax1Total</div>
 <div class="cell" data-label="Arabic">إجمالى ضريبة 1 للمريض</div>
 <div class="cell" data-label="English">Patient Tax 1 Total Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1379,7 +1796,10 @@
 <div class="cell" data-label="Column">patientTax2Total</div>
 <div class="cell" data-label="Arabic">إجمالى ضريبة 2 للمريض</div>
 <div class="cell" data-label="English">Patient Tax 2 Total Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1388,7 +1808,10 @@
 <div class="cell" data-label="Column">patientTotal</div>
 <div class="cell" data-label="Arabic">إجمالى المريض</div>
 <div class="cell" data-label="English">Patient Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1397,7 +1820,10 @@
 <div class="cell" data-label="Column">tax1Total</div>
 <div class="cell" data-label="Arabic">إجمالي ضريبة 1</div>
 <div class="cell" data-label="English">Tax 1 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1406,7 +1832,10 @@
 <div class="cell" data-label="Column">tax2Total</div>
 <div class="cell" data-label="Arabic">إجمالي ضريبة 2</div>
 <div class="cell" data-label="English">Tax 2 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1415,7 +1844,10 @@
 <div class="cell" data-label="Column">printCount</div>
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1424,7 +1856,10 @@
 <div class="cell" data-label="Column">purged</div>
 <div class="cell" data-label="Arabic">Purged</div>
 <div class="cell" data-label="English">Purged</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1433,7 +1868,10 @@
 <div class="cell" data-label="Column">rbook_id</div>
 <div class="cell" data-label="Arabic">دفتر الايصالات</div>
 <div class="cell" data-label="English">Receipt Book</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ReceiptBook](/modules/basic/ReceiptBook.md) 
@@ -1445,7 +1883,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
 <div class="cell" data-label="Arabic">مرجع 1</div>
 <div class="cell" data-label="English">Reference 1</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -1454,7 +1895,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
 <div class="cell" data-label="Arabic">مرجع 2</div>
 <div class="cell" data-label="English">Reference 2</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -1463,7 +1907,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref3ActualCode,  ref3Code,  ref3EntityType,  ref3Id</div>
 <div class="cell" data-label="Arabic">مرجع 3</div>
 <div class="cell" data-label="English">Reference 3</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -1472,7 +1919,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref4ActualCode,  ref4Code,  ref4EntityType,  ref4Id</div>
 <div class="cell" data-label="Arabic">مرجع 4</div>
 <div class="cell" data-label="English">Reference 4</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -1481,7 +1931,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref5ActualCode,  ref5Code,  ref5EntityType,  ref5Id</div>
 <div class="cell" data-label="Arabic">مرجع 5</div>
 <div class="cell" data-label="English">Reference 5</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -1490,7 +1943,10 @@
 <div class="cell" data-label="Column">remark</div>
 <div class="cell" data-label="Arabic">ملاحظات</div>
 <div class="cell" data-label="English">Description</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1499,7 +1955,10 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
+<div class="cell" data-label="Type">
+
+ [ReviseLevel](/modules/enums/ReviseLevel.md) 
+</div>
 
 </div>
 
@@ -1508,7 +1967,10 @@
 <div class="cell" data-label="Column">primitiveValue</div>
 <div class="cell" data-label="Arabic">تمت المراجعة</div>
 <div class="cell" data-label="English">Revised</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1517,7 +1979,10 @@
 <div class="cell" data-label="Column">revisedBy_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [NaMaUser](/modules/system-tables/NaMaUser.md) 
@@ -1529,7 +1994,10 @@
 <div class="cell" data-label="Column">rpaper_id</div>
 <div class="cell" data-label="Arabic">الايصال</div>
 <div class="cell" data-label="English">Receipt Paper</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ReceiptPaper](/modules/basic/ReceiptPaper.md) 
@@ -1541,7 +2009,10 @@
 <div class="cell" data-label="Column">sector_id</div>
 <div class="cell" data-label="Arabic">القطاع</div>
 <div class="cell" data-label="English">Sector</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Sector](/modules/basic/Sector.md) 
@@ -1553,7 +2024,10 @@
 <div class="cell" data-label="Column">sector_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1562,7 +2036,10 @@
 <div class="cell" data-label="Column">servDiscount1Total</div>
 <div class="cell" data-label="Arabic">إجمالي الخصم</div>
 <div class="cell" data-label="English">Discount Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1571,7 +2048,10 @@
 <div class="cell" data-label="Column">servDiscount2Total</div>
 <div class="cell" data-label="Arabic">إجمالي خصم 2</div>
 <div class="cell" data-label="English">Discount 1 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1580,7 +2060,10 @@
 <div class="cell" data-label="Column">servInsuranceDueAmountTotal</div>
 <div class="cell" data-label="Arabic">إجمالى القيمة المستحقة من التأمين</div>
 <div class="cell" data-label="English">Insurance Due Amount Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1589,7 +2072,10 @@
 <div class="cell" data-label="Column">servInsuranceTax1Total</div>
 <div class="cell" data-label="Arabic">إجمالى ضريبة 1 للشركة</div>
 <div class="cell" data-label="English">Insurance Tax 1 Total Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1598,7 +2084,10 @@
 <div class="cell" data-label="Column">servInsuranceTax2Total</div>
 <div class="cell" data-label="Arabic">إجمالى ضريبة 2 للشركة</div>
 <div class="cell" data-label="English">Insurance Tax 2 Total Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1607,7 +2096,10 @@
 <div class="cell" data-label="Column">servInsuranceTotal</div>
 <div class="cell" data-label="Arabic">إجمالى الشركة</div>
 <div class="cell" data-label="English">Insurance Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1616,7 +2108,10 @@
 <div class="cell" data-label="Column">servPatientDueAmountTotal</div>
 <div class="cell" data-label="Arabic">إجمالى القيمة المستحقة من المريض</div>
 <div class="cell" data-label="English">Patient Due Amount Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1625,7 +2120,10 @@
 <div class="cell" data-label="Column">servPatientTax1Total</div>
 <div class="cell" data-label="Arabic">إجمالى ضريبة 1 للمريض</div>
 <div class="cell" data-label="English">Patient Tax 1 Total Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1634,7 +2132,10 @@
 <div class="cell" data-label="Column">servPatientTax2Total</div>
 <div class="cell" data-label="Arabic">إجمالى ضريبة 2 للمريض</div>
 <div class="cell" data-label="English">Patient Tax 2 Total Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1643,7 +2144,10 @@
 <div class="cell" data-label="Column">servPatientTotal</div>
 <div class="cell" data-label="Arabic">إجمالى المريض</div>
 <div class="cell" data-label="English">Patient Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1652,7 +2156,10 @@
 <div class="cell" data-label="Column">servTax1Total</div>
 <div class="cell" data-label="Arabic">إجمالي ضريبة مبيعات 1</div>
 <div class="cell" data-label="English">Tax 1 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1661,7 +2168,10 @@
 <div class="cell" data-label="Column">servTax2Total</div>
 <div class="cell" data-label="Arabic">إجمالي ضريبة مبيعات 2</div>
 <div class="cell" data-label="English">Tax 2 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1670,7 +2180,10 @@
 <div class="cell gen-ref-column" data-label="Column">subsidiaryActualCode,  subsidiaryCode,  subsidiaryEntityType,  subsidiaryId</div>
 <div class="cell" data-label="Arabic">الذمة</div>
 <div class="cell" data-label="English">Subsidiary</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -1679,7 +2192,10 @@
 <div class="cell gen-ref-column" data-label="Column">subsidiary1ActualCode,  subsidiary1Code,  subsidiary1EntityType,  subsidiary1Id</div>
 <div class="cell" data-label="Arabic">ذمة 1</div>
 <div class="cell" data-label="English">Subsidiary 1</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -1688,7 +2204,10 @@
 <div class="cell gen-ref-column" data-label="Column">subsidiary2ActualCode,  subsidiary2Code,  subsidiary2EntityType,  subsidiary2Id</div>
 <div class="cell" data-label="Arabic">ذمة 2</div>
 <div class="cell" data-label="English">Subsidiary 2</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -1697,7 +2216,10 @@
 <div class="cell" data-label="Column">supDiscount1Total</div>
 <div class="cell" data-label="Arabic">إجمالي الخصم</div>
 <div class="cell" data-label="English">Discount Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1706,7 +2228,10 @@
 <div class="cell" data-label="Column">supDiscount2Total</div>
 <div class="cell" data-label="Arabic">إجمالي خصم 2</div>
 <div class="cell" data-label="English">Discount 1 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1715,7 +2240,10 @@
 <div class="cell" data-label="Column">supInsuranceDueAmountTotal</div>
 <div class="cell" data-label="Arabic">إجمالى القيمة المستحقة من التأمين</div>
 <div class="cell" data-label="English">Insurance Due Amount Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1724,7 +2252,10 @@
 <div class="cell" data-label="Column">supInsuranceTax1Total</div>
 <div class="cell" data-label="Arabic">إجمالى ضريبة 1 للشركة</div>
 <div class="cell" data-label="English">Insurance Tax 1 Total Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1733,7 +2264,10 @@
 <div class="cell" data-label="Column">supInsuranceTax2Total</div>
 <div class="cell" data-label="Arabic">إجمالى ضريبة 2 للشركة</div>
 <div class="cell" data-label="English">Insurance Tax 2 Total Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1742,7 +2276,10 @@
 <div class="cell" data-label="Column">supInsuranceTotal</div>
 <div class="cell" data-label="Arabic">إجمالى الشركة</div>
 <div class="cell" data-label="English">Insurance Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1751,7 +2288,10 @@
 <div class="cell" data-label="Column">supPatientDueAmountTotal</div>
 <div class="cell" data-label="Arabic">إجمالى القيمة المستحقة من المريض</div>
 <div class="cell" data-label="English">Patient Due Amount Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1760,7 +2300,10 @@
 <div class="cell" data-label="Column">supPatientTax1Total</div>
 <div class="cell" data-label="Arabic">إجمالى ضريبة 1 للمريض</div>
 <div class="cell" data-label="English">Patient Tax 1 Total Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1769,7 +2312,10 @@
 <div class="cell" data-label="Column">supPatientTax2Total</div>
 <div class="cell" data-label="Arabic">إجمالى ضريبة 2 للمريض</div>
 <div class="cell" data-label="English">Patient Tax 2 Total Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1778,7 +2324,10 @@
 <div class="cell" data-label="Column">supPatientTotal</div>
 <div class="cell" data-label="Arabic">إجمالى المريض</div>
 <div class="cell" data-label="English">Patient Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1787,7 +2336,10 @@
 <div class="cell" data-label="Column">supTax1Total</div>
 <div class="cell" data-label="Arabic">إجمالي ضريبة مبيعات 1</div>
 <div class="cell" data-label="English">Tax 1 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1796,7 +2348,10 @@
 <div class="cell" data-label="Column">supTax2Total</div>
 <div class="cell" data-label="Arabic">إجمالي ضريبة مبيعات 2</div>
 <div class="cell" data-label="English">Tax 2 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1805,7 +2360,10 @@
 <div class="cell" data-label="Column">submissionUUID</div>
 <div class="cell" data-label="Arabic">معرف مرحلة الارسال</div>
 <div class="cell" data-label="English">Submission ID</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1814,7 +2372,10 @@
 <div class="cell" data-label="Column">taxAuthEntityStatusType</div>
 <div class="cell" data-label="Arabic">حالة المستند بالنسبة لمصلحة الضرائب</div>
 <div class="cell" data-label="English">Tax Authority Document Type</div>
-<div class="cell" data-label="Type"> [TaxAuthorityEntityStatusType](/modules/enums/TaxAuthorityEntityStatusType.md) </div>
+<div class="cell" data-label="Type">
+
+ [TaxAuthorityEntityStatusType](/modules/enums/TaxAuthorityEntityStatusType.md) 
+</div>
 
 </div>
 
@@ -1823,7 +2384,10 @@
 <div class="cell" data-label="Column">taxAuthUUID</div>
 <div class="cell" data-label="Arabic">معرف المستند داخل مصلحة الضرائب</div>
 <div class="cell" data-label="English">Tax Authority Document View ID</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1832,7 +2396,10 @@
 <div class="cell" data-label="Column">temporaryId</div>
 <div class="cell" data-label="Arabic">معرف لمطالعة المستند بدون تسجيل دخول</div>
 <div class="cell" data-label="English">Tax Authority Not Registered Person Document View ID</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1841,7 +2408,10 @@
 <div class="cell" data-label="Column">term_id</div>
 <div class="cell" data-label="Arabic">توجيه المستند</div>
 <div class="cell" data-label="English">Term</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [DocumentTerm](/modules/basic/DocumentTerm.md) 
@@ -1853,7 +2423,10 @@
 <div class="cell" data-label="Column">termConfigXml</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1862,7 +2435,10 @@
 <div class="cell" data-label="Column">totalOverheadActualValue</div>
 <div class="cell" data-label="Arabic">إجمالي القيمة الفعلية للتكاليف الغير مباشرة</div>
 <div class="cell" data-label="English">Total Overhead Actual Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1871,7 +2447,10 @@
 <div class="cell" data-label="Column">totalOverheadEstimatedValue</div>
 <div class="cell" data-label="Arabic">إجمالي القيمة التقديرية للتكاليف الغير مباشرة</div>
 <div class="cell" data-label="English">Total Overhead Estimated Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1880,7 +2459,10 @@
 <div class="cell" data-label="Column">updateCapability_id</div>
 <div class="cell" data-label="Arabic">صلاحية التعديل</div>
 <div class="cell" data-label="English">Update Capability</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SecurityCapability](/modules/basic/SecurityCapability.md) 
@@ -1892,7 +2474,10 @@
 <div class="cell" data-label="Column">updateCapability_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1901,7 +2486,10 @@
 <div class="cell" data-label="Column">usageCapability_id</div>
 <div class="cell" data-label="Arabic">صلاحية الاستخدام</div>
 <div class="cell" data-label="English">Usage Capability</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SecurityCapability](/modules/basic/SecurityCapability.md) 
@@ -1913,7 +2501,10 @@
 <div class="cell" data-label="Column">usageCapability_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1922,7 +2513,10 @@
 <div class="cell" data-label="Column">valueDate</div>
 <div class="cell" data-label="Arabic">التاريخ الفعلي</div>
 <div class="cell" data-label="English">Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -1931,7 +2525,10 @@
 <div class="cell" data-label="Column">viewCapability_id</div>
 <div class="cell" data-label="Arabic">صلاحية المطالعة</div>
 <div class="cell" data-label="English">View Capability</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SecurityCapability](/modules/basic/SecurityCapability.md) 
@@ -1943,7 +2540,10 @@
 <div class="cell" data-label="Column">viewCapability_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1952,7 +2552,10 @@
 <div class="cell" data-label="Column">warehouse_id</div>
 <div class="cell" data-label="Arabic">المخزن</div>
 <div class="cell" data-label="English">Warehouse</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Warehouse](/modules/supplychain/Warehouse.md) 
@@ -1986,7 +2589,10 @@
 <div class="cell" data-label="Column">bed_id</div>
 <div class="cell" data-label="Arabic"> سرير إسكان</div>
 <div class="cell" data-label="English"> HO Bed</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HMSBed](/modules/hms/HMSBed.md) 
@@ -1998,7 +2604,10 @@
 <div class="cell" data-label="Column">building_id</div>
 <div class="cell" data-label="Arabic">المبنى</div>
 <div class="cell" data-label="English">Building</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HMSBuilding](/modules/hms/HMSBuilding.md) 
@@ -2010,7 +2619,10 @@
 <div class="cell" data-label="Column">floor_id</div>
 <div class="cell" data-label="Arabic">الطابق</div>
 <div class="cell" data-label="English">Floor</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HMSFloor](/modules/hms/HMSFloor.md) 
@@ -2022,7 +2634,10 @@
 <div class="cell" data-label="Column">hmsSection_id</div>
 <div class="cell" data-label="Arabic">القسم الطبى</div>
 <div class="cell" data-label="English">Section</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HMSSection](/modules/hms/HMSSection.md) 
@@ -2034,7 +2649,10 @@
 <div class="cell" data-label="Column">room_id</div>
 <div class="cell" data-label="Arabic">الغرفة</div>
 <div class="cell" data-label="English">Room</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HMSRoom](/modules/hms/HMSRoom.md) 
@@ -2046,7 +2664,10 @@
 <div class="cell" data-label="Column">attachment_id</div>
 <div class="cell" data-label="Arabic">مرفق</div>
 <div class="cell" data-label="English">Attachment</div>
-<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Type">
+
+Binary
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LargeData](/modules/system-tables/LargeData.md) 
@@ -2058,7 +2679,10 @@
 <div class="cell" data-label="Column">daysCount</div>
 <div class="cell" data-label="Arabic">الأجر اليومى | عدد الأيام</div>
 <div class="cell" data-label="English">Daily Wage | Days Count</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2067,7 +2691,10 @@
 <div class="cell" data-label="Column">doctor_id</div>
 <div class="cell" data-label="Arabic">الطبيب</div>
 <div class="cell" data-label="English">Doctor</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HMSDoctor](/modules/hms/HMSDoctor.md) 
@@ -2079,7 +2706,10 @@
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic">المجموعة التحليلية</div>
 <div class="cell" data-label="English">Analysis set</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [AnalysisSet](/modules/basic/AnalysisSet.md) 
@@ -2091,7 +2721,10 @@
 <div class="cell" data-label="Column">branch_id</div>
 <div class="cell" data-label="Arabic">الفرع</div>
 <div class="cell" data-label="English">Branch</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Branch](/modules/basic/Branch.md) 
@@ -2103,7 +2736,10 @@
 <div class="cell" data-label="Column">department_id</div>
 <div class="cell" data-label="Arabic">الإدارة</div>
 <div class="cell" data-label="English">Department</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Department](/modules/basic/Department.md) 
@@ -2115,7 +2751,10 @@
 <div class="cell" data-label="Column">legalEntity_id</div>
 <div class="cell" data-label="Arabic">الشركة</div>
 <div class="cell" data-label="English">Legal Entity</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LegalEntity](/modules/basic/LegalEntity.md) 
@@ -2127,7 +2766,10 @@
 <div class="cell" data-label="Column">sector_id</div>
 <div class="cell" data-label="Arabic">القطاع</div>
 <div class="cell" data-label="English">Sector</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Sector](/modules/basic/Sector.md) 
@@ -2139,7 +2781,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2148,7 +2793,10 @@
 <div class="cell" data-label="Column">inDate</div>
 <div class="cell" data-label="Arabic">تاريخ الدخول</div>
 <div class="cell" data-label="English">In Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -2157,7 +2805,10 @@
 <div class="cell" data-label="Column">inTime</div>
 <div class="cell" data-label="Arabic">وقت الدخول</div>
 <div class="cell" data-label="English">In Time</div>
-<div class="cell" data-label="Type">Time</div>
+<div class="cell" data-label="Type">
+
+Time
+</div>
 
 </div>
 
@@ -2166,7 +2817,10 @@
 <div class="cell" data-label="Column">invoicingDate</div>
 <div class="cell" data-label="Arabic">تاريخ الفوترة</div>
 <div class="cell" data-label="English">Invoicing Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -2175,7 +2829,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2184,7 +2841,10 @@
 <div class="cell" data-label="Column">mdcAdditionalHourPrice</div>
 <div class="cell" data-label="Arabic">سعر الساعة الزيادة عن عدد ساعات العملية</div>
 <div class="cell" data-label="English">Additional Hour Price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2193,7 +2853,10 @@
 <div class="cell" data-label="Column">mdcAdditionalHours</div>
 <div class="cell" data-label="Arabic">عدد الساعات الزيادة</div>
 <div class="cell" data-label="English">Number Of Additional Hours</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2202,7 +2865,10 @@
 <div class="cell" data-label="Column">mdcCostPercentage</div>
 <div class="cell" data-label="Arabic">% التكلفة</div>
 <div class="cell" data-label="English">Cost Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2211,7 +2877,10 @@
 <div class="cell" data-label="Column">mdcCostValue</div>
 <div class="cell" data-label="Arabic">قيمة التكلفة</div>
 <div class="cell" data-label="English">Cost Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2220,7 +2889,10 @@
 <div class="cell" data-label="Column">mdcCurrency_id</div>
 <div class="cell" data-label="Arabic">العملة</div>
 <div class="cell" data-label="English">Currency</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Currency](/modules/basic/Currency.md) 
@@ -2232,7 +2904,10 @@
 <div class="cell" data-label="Column">mdcCurrencyRate</div>
 <div class="cell" data-label="Arabic">المعدل</div>
 <div class="cell" data-label="English">Currency Rate</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2241,7 +2916,10 @@
 <div class="cell" data-label="Column">mdcDis1MaxValue</div>
 <div class="cell" data-label="Arabic">خصم 1 | أقصى قيمة</div>
 <div class="cell" data-label="English">Discount 1 | Max Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2250,7 +2928,10 @@
 <div class="cell" data-label="Column">mdcDis1Percentage</div>
 <div class="cell" data-label="Arabic">خصم 1 | %</div>
 <div class="cell" data-label="English">Discount 1 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2259,7 +2940,10 @@
 <div class="cell" data-label="Column">mdcDis1Value</div>
 <div class="cell" data-label="Arabic">خصم 1 | قيمة</div>
 <div class="cell" data-label="English">Discount 1 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2268,7 +2952,10 @@
 <div class="cell" data-label="Column">mdcDis2MaxValue</div>
 <div class="cell" data-label="Arabic">خصم 2 | أقصى قيمة</div>
 <div class="cell" data-label="English">Discount 2 | Max Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2277,7 +2964,10 @@
 <div class="cell" data-label="Column">mdcDis2Percentage</div>
 <div class="cell" data-label="Arabic">خصم 2 | %</div>
 <div class="cell" data-label="English">Discount 2 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2286,7 +2976,10 @@
 <div class="cell" data-label="Column">mdcDis2Value</div>
 <div class="cell" data-label="Arabic">خصم 2 | قيمة</div>
 <div class="cell" data-label="English">Discount 2 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2295,7 +2988,10 @@
 <div class="cell" data-label="Column">mdcInsurancMxValFromAdmision</div>
 <div class="cell" data-label="Arabic">أقصى قيمة للتأمين من سند إستمارة الدخول</div>
 <div class="cell" data-label="English">Insurance Max Value From Admission</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2304,7 +3000,10 @@
 <div class="cell" data-label="Column">mdcInsurancMxValFromApproval</div>
 <div class="cell" data-label="Arabic">أقصى قيمة للتأمين من سند الموافقة</div>
 <div class="cell" data-label="English">Insurance Max Value From Approval</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2313,7 +3012,10 @@
 <div class="cell" data-label="Column">mdcInsurancePercentage</div>
 <div class="cell" data-label="Arabic">التأمين | %</div>
 <div class="cell" data-label="English">Insurance | Percent</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2322,7 +3024,10 @@
 <div class="cell" data-label="Column">mdcInsuranceTax1</div>
 <div class="cell" data-label="Arabic">التأمين | قيمة ضريبة 1</div>
 <div class="cell" data-label="English">Insurance Tax1 Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2331,7 +3036,10 @@
 <div class="cell" data-label="Column">mdcInsuranceTax2</div>
 <div class="cell" data-label="Arabic">التأمين | قيمة ضريبة 2</div>
 <div class="cell" data-label="English">Insurance Tax1 Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2340,7 +3048,10 @@
 <div class="cell" data-label="Column">mdcInsuranceValue</div>
 <div class="cell" data-label="Arabic">التأمين | قيمة التأمين</div>
 <div class="cell" data-label="English">Insurance Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2349,7 +3060,10 @@
 <div class="cell" data-label="Column">mdcNetValue</div>
 <div class="cell" data-label="Arabic">الصافي</div>
 <div class="cell" data-label="English">Net value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2358,7 +3072,10 @@
 <div class="cell" data-label="Column">mdcPatientPercentage</div>
 <div class="cell" data-label="Arabic">المريض | %</div>
 <div class="cell" data-label="English">Patient | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2367,7 +3084,10 @@
 <div class="cell" data-label="Column">mdcPatientTax1</div>
 <div class="cell" data-label="Arabic">المريض | قيمة ضريبة 1</div>
 <div class="cell" data-label="English">Patient Tax1 Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2376,7 +3096,10 @@
 <div class="cell" data-label="Column">mdcPatientTax2</div>
 <div class="cell" data-label="Arabic">المريض | قيمة ضريبة 2</div>
 <div class="cell" data-label="English">Patient Tax2 Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2385,7 +3108,10 @@
 <div class="cell" data-label="Column">mdcPatientValue</div>
 <div class="cell" data-label="Arabic">المريض | قيمة</div>
 <div class="cell" data-label="English">Patient | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2394,7 +3120,10 @@
 <div class="cell" data-label="Column">mdcPrice</div>
 <div class="cell" data-label="Arabic">السعر</div>
 <div class="cell" data-label="English">Price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2403,7 +3132,10 @@
 <div class="cell" data-label="Column">mdcPriceAfterTax</div>
 <div class="cell" data-label="Arabic">السعر بعد الضريبة</div>
 <div class="cell" data-label="English">Price After Tax</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2412,7 +3144,10 @@
 <div class="cell" data-label="Column">mdcPriceBeforeTax</div>
 <div class="cell" data-label="Arabic">السعر قبل الضريبة</div>
 <div class="cell" data-label="English">Price Before Tax</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2421,7 +3156,10 @@
 <div class="cell" data-label="Column">mdcStandardHours</div>
 <div class="cell" data-label="Arabic">عدد الساعات القياسي</div>
 <div class="cell" data-label="English">Standard Hours Number</div>
-<div class="cell" data-label="Type">Time</div>
+<div class="cell" data-label="Type">
+
+Time
+</div>
 
 </div>
 
@@ -2430,7 +3168,10 @@
 <div class="cell" data-label="Column">mdcStandardSurgeryPrice</div>
 <div class="cell" data-label="Arabic">سعر العملية القياسي</div>
 <div class="cell" data-label="English">Standard Surgery Price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2439,7 +3180,10 @@
 <div class="cell" data-label="Column">mdcSubsidiary1Percentage</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة 1 | نسبة</div>
 <div class="cell" data-label="English">Subsidiary 1 Cost | Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2448,7 +3192,10 @@
 <div class="cell" data-label="Column">mdcSubsidiary1Value</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة 1 | قيمة</div>
 <div class="cell" data-label="English">Subsidiary 1 Cost | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2457,7 +3204,10 @@
 <div class="cell" data-label="Column">mdcSubsidiary2Percentage</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة 2 | نسبة</div>
 <div class="cell" data-label="English">Subsidiary 2 Cost | Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2466,7 +3216,10 @@
 <div class="cell" data-label="Column">mdcSubsidiary2Value</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة 2 | قيمة</div>
 <div class="cell" data-label="English">Subsidiary 2 Cost | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2475,7 +3228,10 @@
 <div class="cell" data-label="Column">mdcSubsidiaryPercentage</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة | نسبة</div>
 <div class="cell" data-label="English">Subsidiary Cost | Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2484,7 +3240,10 @@
 <div class="cell" data-label="Column">mdcSubsidiaryValue</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة | قيمة</div>
 <div class="cell" data-label="English">Subsidiary Cost | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2493,7 +3252,10 @@
 <div class="cell" data-label="Column">mdcTax1MaxValue</div>
 <div class="cell" data-label="Arabic">أقصي قيمة</div>
 <div class="cell" data-label="English">Maximum Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2502,7 +3264,10 @@
 <div class="cell" data-label="Column">mdcTax1Percentage</div>
 <div class="cell" data-label="Arabic">قيمة إضافية 1</div>
 <div class="cell" data-label="English">Tax 1</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2511,7 +3276,10 @@
 <div class="cell" data-label="Column">mdcTax1Value</div>
 <div class="cell" data-label="Arabic">ضريبة مبيعات | القيمة</div>
 <div class="cell" data-label="English">Tax value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2520,7 +3288,10 @@
 <div class="cell" data-label="Column">mdcTax2MaxValue</div>
 <div class="cell" data-label="Arabic">أقصي قيمة</div>
 <div class="cell" data-label="English">Maximum Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2529,7 +3300,10 @@
 <div class="cell" data-label="Column">mdcTax2Percentage</div>
 <div class="cell" data-label="Arabic">قيمة إضافية 2</div>
 <div class="cell" data-label="English">Tax 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2538,7 +3312,10 @@
 <div class="cell" data-label="Column">mdcTax2Value</div>
 <div class="cell" data-label="Arabic">ضريبة مبيعات 2 | القيمة</div>
 <div class="cell" data-label="English">Tax 2 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2547,7 +3324,10 @@
 <div class="cell" data-label="Column">mdcTotalInsuranceDueAmount</div>
 <div class="cell" data-label="Arabic">القيمة المستحقة من التأمين</div>
 <div class="cell" data-label="English">Total Insurance Due Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2556,7 +3336,10 @@
 <div class="cell" data-label="Column">mdcTotalPatientDueAmount</div>
 <div class="cell" data-label="Arabic">القيمة المستحقة من المريض</div>
 <div class="cell" data-label="English">Total Patient Due Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2565,7 +3348,10 @@
 <div class="cell" data-label="Column">mdcUnitPrice</div>
 <div class="cell" data-label="Arabic">سعر الوحدة</div>
 <div class="cell" data-label="English">Unit Price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2574,7 +3360,10 @@
 <div class="cell" data-label="Column">medicalSpecialty_id</div>
 <div class="cell" data-label="Arabic">التخصص الطبي</div>
 <div class="cell" data-label="English">Medical Specialty</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HMSMedicalSpecialty](/modules/hms/HMSMedicalSpecialty.md) 
@@ -2586,7 +3375,10 @@
 <div class="cell" data-label="Column">outDate</div>
 <div class="cell" data-label="Arabic">تاريخ الخروج</div>
 <div class="cell" data-label="English">Out Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -2595,7 +3387,10 @@
 <div class="cell" data-label="Column">outTime</div>
 <div class="cell" data-label="Arabic">وقت الخروج</div>
 <div class="cell" data-label="English">Out Time</div>
-<div class="cell" data-label="Type">Time</div>
+<div class="cell" data-label="Type">
+
+Time
+</div>
 
 </div>
 
@@ -2604,7 +3399,10 @@
 <div class="cell" data-label="Column">additionalHourPrice</div>
 <div class="cell" data-label="Arabic">سعر الساعة الزيادة عن عدد ساعات العملية</div>
 <div class="cell" data-label="English">Additional Hour Price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2613,7 +3411,10 @@
 <div class="cell" data-label="Column">additionalHours</div>
 <div class="cell" data-label="Arabic">عدد الساعات الزيادة</div>
 <div class="cell" data-label="English">Number Of Additional Hours</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2622,7 +3423,10 @@
 <div class="cell" data-label="Column">costPercentage</div>
 <div class="cell" data-label="Arabic">% التكلفة</div>
 <div class="cell" data-label="English">Cost Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2631,7 +3435,10 @@
 <div class="cell" data-label="Column">costValue</div>
 <div class="cell" data-label="Arabic">قيمة التكلفة</div>
 <div class="cell" data-label="English">Cost Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2640,7 +3447,10 @@
 <div class="cell" data-label="Column">currency_id</div>
 <div class="cell" data-label="Arabic">العملة</div>
 <div class="cell" data-label="English">Currency</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Currency](/modules/basic/Currency.md) 
@@ -2652,7 +3462,10 @@
 <div class="cell" data-label="Column">currencyRate</div>
 <div class="cell" data-label="Arabic">المعدل</div>
 <div class="cell" data-label="English">Currency Rate</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2661,7 +3474,10 @@
 <div class="cell" data-label="Column">dis1MaxValue</div>
 <div class="cell" data-label="Arabic">خصم 1 | أقصى قيمة</div>
 <div class="cell" data-label="English">Discount 1 | Max Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2670,7 +3486,10 @@
 <div class="cell" data-label="Column">dis1Percentage</div>
 <div class="cell" data-label="Arabic">خصم 1 | %</div>
 <div class="cell" data-label="English">Discount 1 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2679,7 +3498,10 @@
 <div class="cell" data-label="Column">dis1Value</div>
 <div class="cell" data-label="Arabic">خصم 1 | قيمة</div>
 <div class="cell" data-label="English">Discount 1 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2688,7 +3510,10 @@
 <div class="cell" data-label="Column">dis2MaxValue</div>
 <div class="cell" data-label="Arabic">خصم 2 | أقصى قيمة</div>
 <div class="cell" data-label="English">Discount 2 | Max Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2697,7 +3522,10 @@
 <div class="cell" data-label="Column">dis2Percentage</div>
 <div class="cell" data-label="Arabic">خصم 2 | %</div>
 <div class="cell" data-label="English">Discount 2 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2706,7 +3534,10 @@
 <div class="cell" data-label="Column">dis2Value</div>
 <div class="cell" data-label="Arabic">خصم 2 | قيمة</div>
 <div class="cell" data-label="English">Discount 2 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2715,7 +3546,10 @@
 <div class="cell" data-label="Column">insurancMxValFromAdmision</div>
 <div class="cell" data-label="Arabic">أقصى قيمة للتأمين من سند إستمارة الدخول</div>
 <div class="cell" data-label="English">Insurance Max Value From Admission</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2724,7 +3558,10 @@
 <div class="cell" data-label="Column">insurancMxValFromApproval</div>
 <div class="cell" data-label="Arabic">أقصى قيمة للتأمين من سند الموافقة</div>
 <div class="cell" data-label="English">Insurance Max Value From Approval</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2733,7 +3570,10 @@
 <div class="cell" data-label="Column">insurancePercentage</div>
 <div class="cell" data-label="Arabic">التأمين | %</div>
 <div class="cell" data-label="English">Insurance | Percent</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2742,7 +3582,10 @@
 <div class="cell" data-label="Column">insuranceTax1</div>
 <div class="cell" data-label="Arabic">التأمين | قيمة ضريبة 1</div>
 <div class="cell" data-label="English">Insurance Tax1 Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2751,7 +3594,10 @@
 <div class="cell" data-label="Column">insuranceTax2</div>
 <div class="cell" data-label="Arabic">التأمين | قيمة ضريبة 2</div>
 <div class="cell" data-label="English">Insurance Tax1 Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2760,7 +3606,10 @@
 <div class="cell" data-label="Column">insuranceValue</div>
 <div class="cell" data-label="Arabic">التأمين | قيمة التأمين</div>
 <div class="cell" data-label="English">Insurance Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2769,7 +3618,10 @@
 <div class="cell" data-label="Column">netValue</div>
 <div class="cell" data-label="Arabic">الصافي</div>
 <div class="cell" data-label="English">Net value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2778,7 +3630,10 @@
 <div class="cell" data-label="Column">patientPercentage</div>
 <div class="cell" data-label="Arabic">المريض | %</div>
 <div class="cell" data-label="English">Patient | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2787,7 +3642,10 @@
 <div class="cell" data-label="Column">patientTax1</div>
 <div class="cell" data-label="Arabic">المريض | قيمة ضريبة 1</div>
 <div class="cell" data-label="English">Patient Tax1 Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2796,7 +3654,10 @@
 <div class="cell" data-label="Column">patientTax2</div>
 <div class="cell" data-label="Arabic">المريض | قيمة ضريبة 2</div>
 <div class="cell" data-label="English">Patient Tax2 Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2805,7 +3666,10 @@
 <div class="cell" data-label="Column">patientValue</div>
 <div class="cell" data-label="Arabic">المريض | قيمة</div>
 <div class="cell" data-label="English">Patient | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2814,7 +3678,10 @@
 <div class="cell" data-label="Column">price</div>
 <div class="cell" data-label="Arabic">الأسعار | السعر الكلي</div>
 <div class="cell" data-label="English">Prices | total price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2823,7 +3690,10 @@
 <div class="cell" data-label="Column">priceAfterTax</div>
 <div class="cell" data-label="Arabic">السعر بعد الضريبة</div>
 <div class="cell" data-label="English">Price After Tax</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2832,7 +3702,10 @@
 <div class="cell" data-label="Column">priceBeforeTax</div>
 <div class="cell" data-label="Arabic">السعر قبل الضريبة</div>
 <div class="cell" data-label="English">Price Before Tax</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2841,7 +3714,10 @@
 <div class="cell" data-label="Column">standardHours</div>
 <div class="cell" data-label="Arabic">عدد الساعات القياسي</div>
 <div class="cell" data-label="English">Standard Hours Number</div>
-<div class="cell" data-label="Type">Time</div>
+<div class="cell" data-label="Type">
+
+Time
+</div>
 
 </div>
 
@@ -2850,7 +3726,10 @@
 <div class="cell" data-label="Column">standardSurgeryPrice</div>
 <div class="cell" data-label="Arabic">سعر العملية القياسي</div>
 <div class="cell" data-label="English">Standard Surgery Price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2859,7 +3738,10 @@
 <div class="cell" data-label="Column">subsidiary1Percentage</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة 1 | نسبة</div>
 <div class="cell" data-label="English">Subsidiary 1 Cost | Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2868,7 +3750,10 @@
 <div class="cell" data-label="Column">subsidiary1Value</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة 1 | قيمة</div>
 <div class="cell" data-label="English">Subsidiary 1 Cost | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2877,7 +3762,10 @@
 <div class="cell" data-label="Column">subsidiary2Percentage</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة 2 | نسبة</div>
 <div class="cell" data-label="English">Subsidiary 2 Cost | Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2886,7 +3774,10 @@
 <div class="cell" data-label="Column">subsidiary2Value</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة 2 | قيمة</div>
 <div class="cell" data-label="English">Subsidiary 2 Cost | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2895,7 +3786,10 @@
 <div class="cell" data-label="Column">subsidiaryPercentage</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة | نسبة</div>
 <div class="cell" data-label="English">Subsidiary Cost | Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2904,7 +3798,10 @@
 <div class="cell" data-label="Column">subsidiaryValue</div>
 <div class="cell" data-label="Arabic">تكلفة الذمة | قيمة</div>
 <div class="cell" data-label="English">Subsidiary Cost | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2913,7 +3810,10 @@
 <div class="cell" data-label="Column">tax1MaxValue</div>
 <div class="cell" data-label="Arabic">أقصي قيمة</div>
 <div class="cell" data-label="English">Maximum Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2922,7 +3822,10 @@
 <div class="cell" data-label="Column">tax1Percentage</div>
 <div class="cell" data-label="Arabic">قيمة إضافية 1</div>
 <div class="cell" data-label="English">Tax 1</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2931,7 +3834,10 @@
 <div class="cell" data-label="Column">tax1Value</div>
 <div class="cell" data-label="Arabic">ضريبة مبيعات | القيمة</div>
 <div class="cell" data-label="English">Tax value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2940,7 +3846,10 @@
 <div class="cell" data-label="Column">tax2MaxValue</div>
 <div class="cell" data-label="Arabic">أقصي قيمة</div>
 <div class="cell" data-label="English">Maximum Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2949,7 +3858,10 @@
 <div class="cell" data-label="Column">tax2Percentage</div>
 <div class="cell" data-label="Arabic">قيمة إضافية 2</div>
 <div class="cell" data-label="English">Tax 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2958,7 +3870,10 @@
 <div class="cell" data-label="Column">tax2Value</div>
 <div class="cell" data-label="Arabic">ضريبة مبيعات 2 | القيمة</div>
 <div class="cell" data-label="English">Tax 2 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2967,7 +3882,10 @@
 <div class="cell" data-label="Column">totalInsuranceDueAmount</div>
 <div class="cell" data-label="Arabic">القيمة المستحقة من التأمين</div>
 <div class="cell" data-label="English">Total Insurance Due Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2976,7 +3894,10 @@
 <div class="cell" data-label="Column">totalPatientDueAmount</div>
 <div class="cell" data-label="Arabic">القيمة المستحقة من المريض</div>
 <div class="cell" data-label="English">Total Patient Due Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2985,7 +3906,10 @@
 <div class="cell" data-label="Column">unitPrice</div>
 <div class="cell" data-label="Arabic">سعر الوحدة</div>
 <div class="cell" data-label="English">Prices | Unit price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2994,7 +3918,10 @@
 <div class="cell" data-label="Column">remarks</div>
 <div class="cell" data-label="Arabic"> ملاحظات</div>
 <div class="cell" data-label="English"> Description</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -3003,7 +3930,10 @@
 <div class="cell gen-ref-column" data-label="Column">sourceDocActualCode,  sourceDocCode,  sourceDocEntityType,  sourceDocId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -3034,7 +3964,10 @@
 <div class="cell" data-label="Column">actualValue</div>
 <div class="cell" data-label="Arabic">القيمة الفعلية</div>
 <div class="cell" data-label="English">Actual value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -3043,7 +3976,10 @@
 <div class="cell gen-ref-column" data-label="Column">calculationDocActualCode,  calculationDocCode,  calculationDocEntityType,  calculationDocId</div>
 <div class="cell" data-label="Arabic">سند حساب التكلفة الطبية الغير مباشرة</div>
 <div class="cell" data-label="English">Actual Overhead Calculation Document</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -3052,7 +3988,10 @@
 <div class="cell" data-label="Column">estimatedValue</div>
 <div class="cell" data-label="Arabic">القيمة المقدرة</div>
 <div class="cell" data-label="English">Estimated Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -3061,7 +4000,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3070,7 +4012,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3079,7 +4024,10 @@
 <div class="cell" data-label="Column">manualEstimatedValue</div>
 <div class="cell" data-label="Arabic">القيمة التقديرية يدوي</div>
 <div class="cell" data-label="English">Manual Estimated Value</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -3088,7 +4036,10 @@
 <div class="cell" data-label="Column">overheadItem_id</div>
 <div class="cell" data-label="Arabic">بند تكلفة طبية غير مباشرة</div>
 <div class="cell" data-label="English">Overhead Item</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HMSOverheadItem](/modules/hms/HMSOverheadItem.md) 

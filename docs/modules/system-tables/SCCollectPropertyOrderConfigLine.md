@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">ascOrDesc</div>
 <div class="cell" data-label="Arabic">تصاعدي/تنازلي</div>
 <div class="cell" data-label="English">Asc/Desc</div>
-<div class="cell" data-label="Type"> [SortType](/modules/enums/SortType.md) </div>
+<div class="cell" data-label="Type">
+
+ [SortType](/modules/enums/SortType.md) 
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">orderByField</div>
 <div class="cell" data-label="Arabic">الترتيب بناءاً على حقل</div>
 <div class="cell" data-label="English">Order By Field</div>
-<div class="cell" data-label="Type">FieldID</div>
+<div class="cell" data-label="Type">
+
+FieldID
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">property</div>
 <div class="cell" data-label="Arabic">الخاصية</div>
 <div class="cell" data-label="English">Property</div>
-<div class="cell" data-label="Type">FieldID</div>
+<div class="cell" data-label="Type">
+
+FieldID
+</div>
 
 </div>
 

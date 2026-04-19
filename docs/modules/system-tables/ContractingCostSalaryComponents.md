@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">componentType_id</div>
 <div class="cell" data-label="Arabic">نوع المفرد</div>
 <div class="cell" data-label="English">Component Type</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalaryComponentType](/modules/humanresource-payroll/SalaryComponentType.md) 
@@ -37,7 +40,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">otherComponentEffectType</div>
 <div class="cell" data-label="Arabic">معاملة المفردات من نوع أخرى</div>
 <div class="cell" data-label="English">Other Component Effect Type</div>
-<div class="cell" data-label="Type"> [OtherComponentEffectType](/modules/enums/OtherComponentEffectType.md) </div>
+<div class="cell" data-label="Type">
+
+ [OtherComponentEffectType](/modules/enums/OtherComponentEffectType.md) 
+</div>
 
 </div>
 

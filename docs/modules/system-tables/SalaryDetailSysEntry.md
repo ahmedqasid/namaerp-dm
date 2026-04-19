@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">bylawCode</div>
 <div class="cell" data-label="Arabic">كود الائحة</div>
 <div class="cell" data-label="English">ByLaw Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">component_id</div>
 <div class="cell" data-label="Arabic">مكون</div>
 <div class="cell" data-label="English">Component</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalaryComponent](/modules/humanresource-payroll/SalaryComponent.md) 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">day</div>
 <div class="cell" data-label="Arabic">اليوم</div>
 <div class="cell" data-label="English">Day</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">divideOn</div>
 <div class="cell" data-label="Arabic">مقسوما علي</div>
 <div class="cell" data-label="English">Divide On</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">employee_id</div>
 <div class="cell" data-label="Arabic">الموظف</div>
 <div class="cell" data-label="English">Employee</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Employee](/modules/basic/Employee.md) 
@@ -76,7 +91,10 @@
 <div class="cell" data-label="Column">factor</div>
 <div class="cell" data-label="Arabic">المعامل</div>
 <div class="cell" data-label="English">Measures Factor</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -85,7 +103,10 @@
 <div class="cell" data-label="Column">finalResult</div>
 <div class="cell" data-label="Arabic">الناتج النهائى</div>
 <div class="cell" data-label="English">Final Result</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -94,7 +115,10 @@
 <div class="cell" data-label="Column">formula_id</div>
 <div class="cell" data-label="Arabic">معادلة</div>
 <div class="cell" data-label="English">Formula</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ComponentCalcFormula](/modules/humanresource-payroll/ComponentCalcFormula.md) 
@@ -106,7 +130,10 @@
 <div class="cell" data-label="Column">formulaLineId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -115,7 +142,10 @@
 <div class="cell" data-label="Column">formulaLineRemark</div>
 <div class="cell" data-label="Arabic">ملاحظات المعادلة</div>
 <div class="cell" data-label="English">Formula Line Remark</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -124,7 +154,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -133,7 +166,10 @@
 <div class="cell" data-label="Column">indicatorValue</div>
 <div class="cell" data-label="Arabic">قيمة مؤشر الأداء</div>
 <div class="cell" data-label="English">Indicator Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -142,7 +178,10 @@
 <div class="cell" data-label="Column">multiplyBy</div>
 <div class="cell" data-label="Arabic">مضروب في</div>
 <div class="cell" data-label="English">Multiply By</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -151,7 +190,10 @@
 <div class="cell" data-label="Column">occurrenceCount</div>
 <div class="cell" data-label="Arabic">عدد مرات التكرار</div>
 <div class="cell" data-label="English">Occurrence Count</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -160,7 +202,10 @@
 <div class="cell" data-label="Column">salaryDocument_id</div>
 <div class="cell" data-label="Arabic"> سند الراتب</div>
 <div class="cell" data-label="English"> Salary Document</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalaryDocument](/modules/humanresource-payroll/SalaryDocument.md) 
@@ -172,7 +217,10 @@
 <div class="cell" data-label="Column">salaryFactor</div>
 <div class="cell" data-label="Arabic">معدل الأداء</div>
 <div class="cell" data-label="English">Salary Factor</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -181,7 +229,10 @@
 <div class="cell" data-label="Column">yearlyIndicatorValue</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 

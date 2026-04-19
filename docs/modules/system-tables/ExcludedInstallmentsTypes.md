@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">installmentType</div>
 <div class="cell" data-label="Arabic">نوع القسط</div>
 <div class="cell" data-label="English">Installment type</div>
-<div class="cell" data-label="Type"> [REInstallmentType](/modules/enums/REInstallmentType.md) </div>
+<div class="cell" data-label="Type">
+
+ [REInstallmentType](/modules/enums/REInstallmentType.md) 
+</div>
 
 </div>
 

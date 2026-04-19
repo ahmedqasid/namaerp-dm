@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">currentDimensions</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">currentLanguage</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">distributeCostType</div>
 <div class="cell" data-label="Arabic">نوع توزيع التكلفة</div>
 <div class="cell" data-label="English">Distribute Cost Type</div>
-<div class="cell" data-label="Type"> [DistributeCostType](/modules/enums/DistributeCostType.md) </div>
+<div class="cell" data-label="Type">
+
+ [DistributeCostType](/modules/enums/DistributeCostType.md) 
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">errorDescription</div>
 <div class="cell" data-label="Arabic">وصف الخطأ</div>
 <div class="cell" data-label="English">Error Desciption</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">errorMessage</div>
 <div class="cell" data-label="Arabic">رسالة الخطأ</div>
 <div class="cell" data-label="English">Error Message</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">executionDate</div>
 <div class="cell" data-label="Arabic">تاريخ التنفيذ</div>
 <div class="cell" data-label="English">Execution Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">forApply</div>
 <div class="cell" data-label="Arabic">للتطبيق</div>
 <div class="cell" data-label="English">For Apply</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell gen-ref-column" data-label="Column">projectActualCode,  projectCode,  projectEntityType,  projectId</div>
 <div class="cell" data-label="Arabic">المشروع</div>
 <div class="cell" data-label="English">Project</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -106,7 +133,10 @@
 <div class="cell gen-ref-column" data-label="Column">requesterActualCode,  requesterCode,  requesterEntityType,  requesterId</div>
 <div class="cell" data-label="Arabic">محرر الطلب</div>
 <div class="cell" data-label="English">Requester</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -115,7 +145,10 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type"> [TaskStatus](/modules/enums/TaskStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [TaskStatus](/modules/enums/TaskStatus.md) 
+</div>
 
 </div>
 
@@ -124,7 +157,10 @@
 <div class="cell" data-label="Column">submitionDate</div>
 <div class="cell" data-label="Arabic">تاريخ الحدث</div>
 <div class="cell" data-label="English">Submition Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -133,7 +169,10 @@
 <div class="cell gen-ref-column" data-label="Column">targetRecordActualCode,  targetRecordCode,  targetRecordEntityType,  targetRecordId</div>
 <div class="cell" data-label="Arabic">السجل</div>
 <div class="cell" data-label="English">Target Record</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -142,7 +181,10 @@
 <div class="cell" data-label="Column">trials</div>
 <div class="cell" data-label="Arabic">عدد محاولات</div>
 <div class="cell" data-label="English">Trials</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 

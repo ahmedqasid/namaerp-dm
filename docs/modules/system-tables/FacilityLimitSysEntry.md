@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">amount</div>
 <div class="cell" data-label="Arabic"> المبلغ</div>
 <div class="cell" data-label="English"> Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell gen-ref-column" data-label="Column">facilityLimitActualCode,  facilityLimitCode,  facilityLimitEntityType,  facilityLimitId</div>
 <div class="cell" data-label="Arabic">حد التسهيلات</div>
 <div class="cell" data-label="English">Facility Limit</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">guaranteeType</div>
 <div class="cell" data-label="Arabic">نوع الضمان</div>
 <div class="cell" data-label="English">Guarantee Type</div>
-<div class="cell" data-label="Type"> [GuaranteeType](/modules/enums/GuaranteeType.md) </div>
+<div class="cell" data-label="Type">
+
+ [GuaranteeType](/modules/enums/GuaranteeType.md) 
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell gen-ref-column" data-label="Column">ownerActualCode,  ownerCode,  ownerEntityType,  ownerId</div>
 <div class="cell" data-label="Arabic"> مالك المستند</div>
 <div class="cell" data-label="English"> Document Owner</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell gen-ref-column" data-label="Column">projContractActualCode,  projContractCode,  projContractEntityType,  projContractId</div>
 <div class="cell" data-label="Arabic">عقد المشروع</div>
 <div class="cell" data-label="English">Project Contract</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell gen-ref-column" data-label="Column">targetFileActualCode,  targetFileCode,  targetFileEntityType,  targetFileId</div>
 <div class="cell" data-label="Arabic">الملف / المستند</div>
 <div class="cell" data-label="English">Target File / Document</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell" data-label="Column">valueDate</div>
 <div class="cell" data-label="Arabic">التاريخ الفعلي</div>
 <div class="cell" data-label="English">Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 

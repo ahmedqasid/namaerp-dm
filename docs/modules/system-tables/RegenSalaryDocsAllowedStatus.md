@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">allowRegenerate</div>
 <div class="cell" data-label="Arabic">السماح بالإصدار</div>
 <div class="cell" data-label="English">Allow Regenerate</div>
-<div class="cell" data-label="Type"> [HRAllowRegenerate](/modules/enums/HRAllowRegenerate.md) </div>
+<div class="cell" data-label="Type">
+
+ [HRAllowRegenerate](/modules/enums/HRAllowRegenerate.md) 
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">arabicMessage</div>
 <div class="cell" data-label="Arabic">قالب رسالة الخطأ عربي</div>
 <div class="cell" data-label="English">Arabic Message</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">criteriaDefinition_id</div>
 <div class="cell" data-label="Arabic"> المعايير</div>
 <div class="cell" data-label="English"> Criteria</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [CriteriaDefinition](/modules/basic/CriteriaDefinition.md) 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">englishMessage</div>
 <div class="cell" data-label="Arabic">قالب رسالة الخطأ إنجليزي</div>
 <div class="cell" data-label="English">English Message</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">salarySheetStatus</div>
 <div class="cell" data-label="Arabic">حالة سجل الراتب(الموجود داخل سند الراتب)</div>
 <div class="cell" data-label="English">Salary Sheet Status(Inside Salary Document)</div>
-<div class="cell" data-label="Type"> [SalarySheetStatus](/modules/enums/SalarySheetStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [SalarySheetStatus](/modules/enums/SalarySheetStatus.md) 
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">status</div>
 <div class="cell" data-label="Arabic">الحالة</div>
 <div class="cell" data-label="English">Status</div>
-<div class="cell" data-label="Type"> [HRDocStatus](/modules/enums/HRDocStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [HRDocStatus](/modules/enums/HRDocStatus.md) 
+</div>
 
 </div>
 

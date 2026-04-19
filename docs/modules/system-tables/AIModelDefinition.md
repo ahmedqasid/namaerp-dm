@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">apiKey</div>
 <div class="cell" data-label="Arabic">API Key</div>
 <div class="cell" data-label="English">API Key</div>
-<div class="cell" data-label="Type">Password</div>
+<div class="cell" data-label="Type">
+
+Password
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">chatModelsProviders</div>
 <div class="cell" data-label="Arabic">Cloud Provider</div>
 <div class="cell" data-label="English">Cloud Provider</div>
-<div class="cell" data-label="Type"> [ChatModelsProviders](/modules/enums/ChatModelsProviders.md) </div>
+<div class="cell" data-label="Type">
+
+ [ChatModelsProviders](/modules/enums/ChatModelsProviders.md) 
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">modelName</div>
 <div class="cell" data-label="Arabic">Model Name</div>
 <div class="cell" data-label="English">Model Name</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">modelUrl</div>
 <div class="cell" data-label="Arabic">Model URL</div>
 <div class="cell" data-label="English">Model URL</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">topP</div>
 <div class="cell" data-label="Arabic">Top P</div>
 <div class="cell" data-label="English">Top P</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 

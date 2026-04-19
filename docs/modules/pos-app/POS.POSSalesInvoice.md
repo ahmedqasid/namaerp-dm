@@ -32,7 +32,10 @@
 <div class="cell" data-label="Column">address</div>
 <div class="cell" data-label="Arabic">العنوان</div>
 <div class="cell" data-label="English">Address</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -41,7 +44,10 @@
 <div class="cell" data-label="Column">addressRegion_id</div>
 <div class="cell" data-label="Arabic">الموقع الجغرافي</div>
 <div class="cell" data-label="English">Address Region</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.PosAddressRegion](/modules/pos-app/POS.PosAddressRegion.md) 
@@ -53,7 +59,10 @@
 <div class="cell" data-label="Column">afterDiscount1</div>
 <div class="cell" data-label="Arabic">صافي بعد الخصم 1</div>
 <div class="cell" data-label="English">Net after Discount 1</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -62,7 +71,10 @@
 <div class="cell" data-label="Column">afterDiscount2</div>
 <div class="cell" data-label="Arabic">صافي بعد الخصم 2</div>
 <div class="cell" data-label="English">Net after Discount 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -71,7 +83,10 @@
 <div class="cell" data-label="Column">afterDiscount3</div>
 <div class="cell" data-label="Arabic">صافي بعد الخصم 3</div>
 <div class="cell" data-label="English">Net after Discount 3</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -80,7 +95,10 @@
 <div class="cell" data-label="Column">afterDiscount4</div>
 <div class="cell" data-label="Arabic">صافي بعد الخصم 4</div>
 <div class="cell" data-label="English">Net after Discount 4</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -89,7 +107,10 @@
 <div class="cell" data-label="Column">afterDiscount5</div>
 <div class="cell" data-label="Arabic">صافي بعد الخصم 5</div>
 <div class="cell" data-label="English">Net after Discount 5</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -98,7 +119,10 @@
 <div class="cell" data-label="Column">afterDiscount6</div>
 <div class="cell" data-label="Arabic">صافي بعد الخصم 6</div>
 <div class="cell" data-label="English">Net after Discount 6</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -107,7 +131,10 @@
 <div class="cell" data-label="Column">afterDiscount7</div>
 <div class="cell" data-label="Arabic">صافي بعد الخصم 7</div>
 <div class="cell" data-label="English">Net after Discount 7</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -116,7 +143,10 @@
 <div class="cell" data-label="Column">afterDiscount8</div>
 <div class="cell" data-label="Arabic">صافي بعد الخصم 8</div>
 <div class="cell" data-label="English">Net after Discount 8</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -125,7 +155,10 @@
 <div class="cell" data-label="Column">attach1FilePath</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -134,7 +167,10 @@
 <div class="cell" data-label="Column">attach2FilePath</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -143,7 +179,10 @@
 <div class="cell" data-label="Column">attach3FilePath</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -152,7 +191,10 @@
 <div class="cell" data-label="Column">attach4FilePath</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -161,7 +203,10 @@
 <div class="cell" data-label="Column">attach5FilePath</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -170,7 +215,10 @@
 <div class="cell" data-label="Column">change</div>
 <div class="cell" data-label="Arabic">التغيير</div>
 <div class="cell" data-label="English">Change</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -179,7 +227,10 @@
 <div class="cell" data-label="Column">code</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -188,7 +239,10 @@
 <div class="cell" data-label="Column">colorCode</div>
 <div class="cell" data-label="Arabic">كود اللون</div>
 <div class="cell" data-label="English">Color Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -197,7 +251,10 @@
 <div class="cell" data-label="Column">comitBefore</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -206,7 +263,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -215,7 +275,10 @@
 <div class="cell" data-label="Column">currency_id</div>
 <div class="cell" data-label="Arabic">العملة</div>
 <div class="cell" data-label="English">Currency</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSCurrency](/modules/pos-app/POS.POSCurrency.md) 
@@ -227,7 +290,10 @@
 <div class="cell" data-label="Column">currencyRate</div>
 <div class="cell" data-label="Arabic">المعدل</div>
 <div class="cell" data-label="English">Currency Rate</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -236,7 +302,10 @@
 <div class="cell" data-label="Column">currentUser_id</div>
 <div class="cell" data-label="Arabic">المستخدم الحالى</div>
 <div class="cell" data-label="English">Current User</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSUser](/modules/pos-app/POS.POSUser.md) 
@@ -248,7 +317,10 @@
 <div class="cell" data-label="Column">customer_id</div>
 <div class="cell" data-label="Arabic">العميل</div>
 <div class="cell" data-label="English">Customer</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSCustomer](/modules/pos-app/POS.POSCustomer.md) 
@@ -260,7 +332,10 @@
 <div class="cell" data-label="Column">customerCode</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -269,7 +344,10 @@
 <div class="cell" data-label="Column">customerName</div>
 <div class="cell" data-label="Arabic">إسم العميل</div>
 <div class="cell" data-label="English">Customer Name</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -278,7 +356,10 @@
 <div class="cell" data-label="Column">date1</div>
 <div class="cell" data-label="Arabic">تـــاريخ 1</div>
 <div class="cell" data-label="English">Date 1</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -287,7 +368,10 @@
 <div class="cell" data-label="Column">date2</div>
 <div class="cell" data-label="Arabic">تـــاريخ 2</div>
 <div class="cell" data-label="English">Date 2</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -296,7 +380,10 @@
 <div class="cell" data-label="Column">date3</div>
 <div class="cell" data-label="Arabic">تاريخ 3</div>
 <div class="cell" data-label="English">Date3</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -305,7 +392,10 @@
 <div class="cell" data-label="Column">date4</div>
 <div class="cell" data-label="Arabic">تاريخ 4</div>
 <div class="cell" data-label="English">Date4</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -314,7 +404,10 @@
 <div class="cell" data-label="Column">date5</div>
 <div class="cell" data-label="Arabic">تاريخ 5</div>
 <div class="cell" data-label="English">Date5</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -323,7 +416,10 @@
 <div class="cell" data-label="Column">deliveryDate</div>
 <div class="cell" data-label="Arabic">تاريخ التوصيل</div>
 <div class="cell" data-label="English">Delivery Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -332,7 +428,10 @@
 <div class="cell" data-label="Column">description1</div>
 <div class="cell" data-label="Arabic">الوصف 1</div>
 <div class="cell" data-label="English">description1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -341,7 +440,10 @@
 <div class="cell" data-label="Column">description2</div>
 <div class="cell" data-label="Arabic">الوصف 2</div>
 <div class="cell" data-label="English">description2</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -350,7 +452,10 @@
 <div class="cell" data-label="Column">description3</div>
 <div class="cell" data-label="Arabic">الوصف 3</div>
 <div class="cell" data-label="English">description3</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -359,7 +464,10 @@
 <div class="cell" data-label="Column">description4</div>
 <div class="cell" data-label="Arabic">الوصف 4</div>
 <div class="cell" data-label="English">description4</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -368,7 +476,10 @@
 <div class="cell" data-label="Column">description5</div>
 <div class="cell" data-label="Arabic">الوصف 5</div>
 <div class="cell" data-label="English">description5</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -377,7 +488,10 @@
 <div class="cell" data-label="Column">discount1Total</div>
 <div class="cell" data-label="Arabic">إجمالي الخصم</div>
 <div class="cell" data-label="English">Discount Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -386,7 +500,10 @@
 <div class="cell" data-label="Column">discount2Total</div>
 <div class="cell" data-label="Arabic">إجمالي خصم 2</div>
 <div class="cell" data-label="English">Discount 1 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -395,7 +512,10 @@
 <div class="cell" data-label="Column">discount2Value</div>
 <div class="cell" data-label="Arabic">نسبة خصم 1</div>
 <div class="cell" data-label="English">Add. Discount 1 %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -404,7 +524,10 @@
 <div class="cell" data-label="Column">discount3Total</div>
 <div class="cell" data-label="Arabic">إجمالي خصم 3</div>
 <div class="cell" data-label="English">Discount 2 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -413,7 +536,10 @@
 <div class="cell" data-label="Column">discount4Total</div>
 <div class="cell" data-label="Arabic">إجمالي خصم 4</div>
 <div class="cell" data-label="English">Discount 3 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -422,7 +548,10 @@
 <div class="cell" data-label="Column">discount5Total</div>
 <div class="cell" data-label="Arabic">إجمالي خصم 5</div>
 <div class="cell" data-label="English">Discount 4 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -431,7 +560,10 @@
 <div class="cell" data-label="Column">discount6Total</div>
 <div class="cell" data-label="Arabic">إجمالي خصم 6</div>
 <div class="cell" data-label="English">Discount 5 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -440,7 +572,10 @@
 <div class="cell" data-label="Column">discount7Total</div>
 <div class="cell" data-label="Arabic">إجمالي خصم 7</div>
 <div class="cell" data-label="English">Discount 6 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -449,7 +584,10 @@
 <div class="cell" data-label="Column">discount8Total</div>
 <div class="cell" data-label="Arabic">إجمالي خصم 8</div>
 <div class="cell" data-label="English">Discount 7 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -458,7 +596,10 @@
 <div class="cell" data-label="Column">discountApplier</div>
 <div class="cell" data-label="Arabic">مطبق الخصم</div>
 <div class="cell" data-label="English">Discount Applier</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -467,7 +608,10 @@
 <div class="cell" data-label="Column">discountPercent</div>
 <div class="cell" data-label="Arabic">الخصم | النسبة</div>
 <div class="cell" data-label="English">Discount Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -476,7 +620,10 @@
 <div class="cell" data-label="Column">discountValue</div>
 <div class="cell" data-label="Arabic">قيمة الخصم</div>
 <div class="cell" data-label="English">Discount Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -485,7 +632,10 @@
 <div class="cell" data-label="Column">docCategory_id</div>
 <div class="cell" data-label="Arabic"> تصنيف سجل</div>
 <div class="cell" data-label="English"> Record Category</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.PosDocCategory](/modules/pos-app/POS.PosDocCategory.md) 
@@ -497,7 +647,10 @@
 <div class="cell" data-label="Column">driver_id</div>
 <div class="cell" data-label="Arabic">السائق</div>
 <div class="cell" data-label="English">Driver</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSEmployee](/modules/pos-app/POS.POSEmployee.md) 
@@ -509,7 +662,10 @@
 <div class="cell" data-label="Column">fromCallCenter</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -518,7 +674,10 @@
 <div class="cell" data-label="Column">fromCaptainOrder</div>
 <div class="cell" data-label="Arabic">من تطبيق كابتن أوردر</div>
 <div class="cell" data-label="English">From Captain Order</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -527,7 +686,10 @@
 <div class="cell" data-label="Column">analysisSetCode</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -536,7 +698,10 @@
 <div class="cell" data-label="Column">analysisSetId</div>
 <div class="cell" data-label="Arabic">المعرف</div>
 <div class="cell" data-label="English">Id</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -545,7 +710,10 @@
 <div class="cell" data-label="Column">branchCode</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -554,7 +722,10 @@
 <div class="cell" data-label="Column">branchId</div>
 <div class="cell" data-label="Arabic">المعرف</div>
 <div class="cell" data-label="English">Id</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -563,7 +734,10 @@
 <div class="cell" data-label="Column">departmentCode</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -572,7 +746,10 @@
 <div class="cell" data-label="Column">departmentId</div>
 <div class="cell" data-label="Arabic">المعرف</div>
 <div class="cell" data-label="English">Id</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -581,7 +758,10 @@
 <div class="cell" data-label="Column">legalEntityCode</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -590,7 +770,10 @@
 <div class="cell" data-label="Column">legalEntityId</div>
 <div class="cell" data-label="Arabic">المعرف</div>
 <div class="cell" data-label="English">Id</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -599,7 +782,10 @@
 <div class="cell" data-label="Column">sectorCode</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -608,7 +794,10 @@
 <div class="cell" data-label="Column">sectorId</div>
 <div class="cell" data-label="Arabic">المعرف</div>
 <div class="cell" data-label="English">Id</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -617,7 +806,10 @@
 <div class="cell" data-label="Column">heldInvoiceId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -626,7 +818,10 @@
 <div class="cell" data-label="Column">hold</div>
 <div class="cell" data-label="Arabic">HOLD</div>
 <div class="cell" data-label="English">HOLD</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -635,7 +830,10 @@
 <div class="cell" data-label="Column">holdTime</div>
 <div class="cell" data-label="Arabic">Hold Time</div>
 <div class="cell" data-label="English">Hold Time</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -644,7 +842,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -653,7 +854,10 @@
 <div class="cell" data-label="Column">imgDownloadLink</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -662,7 +866,10 @@
 <div class="cell" data-label="Column">lastUpdateDate</div>
 <div class="cell" data-label="Arabic">تاريخ اخر تحديث</div>
 <div class="cell" data-label="English">Last update Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -671,7 +878,10 @@
 <div class="cell" data-label="Column">lineTotalsBeforeDiscs</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -680,7 +890,10 @@
 <div class="cell" data-label="Column">location_id</div>
 <div class="cell" data-label="Arabic">الموقع المخزني</div>
 <div class="cell" data-label="English">Location</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSLocation](/modules/pos-app/POS.POSLocation.md) 
@@ -692,7 +905,10 @@
 <div class="cell" data-label="Column">n1</div>
 <div class="cell" data-label="Arabic">رقم 1</div>
 <div class="cell" data-label="English">Number 1</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -701,7 +917,10 @@
 <div class="cell" data-label="Column">n2</div>
 <div class="cell" data-label="Arabic">رقم 2</div>
 <div class="cell" data-label="English">Number 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -710,7 +929,10 @@
 <div class="cell" data-label="Column">n3</div>
 <div class="cell" data-label="Arabic">رقم 3</div>
 <div class="cell" data-label="English">Number 3</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -719,7 +941,10 @@
 <div class="cell" data-label="Column">n4</div>
 <div class="cell" data-label="Arabic">رقم 4</div>
 <div class="cell" data-label="English">Number 4</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -728,7 +953,10 @@
 <div class="cell" data-label="Column">n5</div>
 <div class="cell" data-label="Arabic">رقم 5</div>
 <div class="cell" data-label="English">Number 5</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -737,7 +965,10 @@
 <div class="cell" data-label="Column">name1</div>
 <div class="cell" data-label="Arabic">الاسم العربي</div>
 <div class="cell" data-label="English">Name1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -746,7 +977,10 @@
 <div class="cell" data-label="Column">name2</div>
 <div class="cell" data-label="Arabic">الاسم الإنجليزي</div>
 <div class="cell" data-label="English">Name2</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -755,7 +989,10 @@
 <div class="cell" data-label="Column">netPrice</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -764,7 +1001,10 @@
 <div class="cell" data-label="Column">orderRegisterId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -773,7 +1013,10 @@
 <div class="cell" data-label="Column">paidCash</div>
 <div class="cell" data-label="Arabic">النقدية المدفوعة</div>
 <div class="cell" data-label="English">Paid Cash</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -782,7 +1025,10 @@
 <div class="cell" data-label="Column">paymentDelayed</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -791,7 +1037,10 @@
 <div class="cell" data-label="Column">posInvoiceClassification_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSInvoiceClassification](/modules/pos-app/POS.POSInvoiceClassification.md) 
@@ -803,7 +1052,10 @@
 <div class="cell" data-label="Column">preventUsage</div>
 <div class="cell" data-label="Arabic">منع الاستعمال</div>
 <div class="cell" data-label="English">Prevent Usage</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -812,7 +1064,10 @@
 <div class="cell" data-label="Column">priceClassifier1_id</div>
 <div class="cell" data-label="Arabic">محدد سعر 1</div>
 <div class="cell" data-label="English">Price Classifier 1</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSSalesPriceClassifier1](/modules/pos-app/POS.POSSalesPriceClassifier1.md) 
@@ -824,7 +1079,10 @@
 <div class="cell" data-label="Column">priceClassifier2_id</div>
 <div class="cell" data-label="Arabic">محدد سعر 2</div>
 <div class="cell" data-label="English">Price Classifier 2</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSSalesPriceClassifier2](/modules/pos-app/POS.POSSalesPriceClassifier2.md) 
@@ -836,7 +1094,10 @@
 <div class="cell" data-label="Column">priceClassifier3_id</div>
 <div class="cell" data-label="Arabic">محدد سعر 3</div>
 <div class="cell" data-label="English">Price Classifier 3</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSSalesPriceClassifier3](/modules/pos-app/POS.POSSalesPriceClassifier3.md) 
@@ -848,7 +1109,10 @@
 <div class="cell" data-label="Column">priceClassifier4_id</div>
 <div class="cell" data-label="Arabic">محدد سعر 4</div>
 <div class="cell" data-label="English">Price Classifier 4</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSSalesPriceClassifier4](/modules/pos-app/POS.POSSalesPriceClassifier4.md) 
@@ -860,7 +1124,10 @@
 <div class="cell" data-label="Column">priceClassifier5_id</div>
 <div class="cell" data-label="Arabic">محدد سعر 5</div>
 <div class="cell" data-label="English">Price Classifier 5</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSSalesPriceClassifier5](/modules/pos-app/POS.POSSalesPriceClassifier5.md) 
@@ -872,7 +1139,10 @@
 <div class="cell" data-label="Column">printCount</div>
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -881,7 +1151,10 @@
 <div class="cell" data-label="Column">registerId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -890,7 +1163,10 @@
 <div class="cell" data-label="Column">remarks</div>
 <div class="cell" data-label="Arabic">ملاحظات</div>
 <div class="cell" data-label="English">Description</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -899,7 +1175,10 @@
 <div class="cell" data-label="Column">replacementCode</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -908,7 +1187,10 @@
 <div class="cell" data-label="Column">replacementId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -917,7 +1199,10 @@
 <div class="cell" data-label="Column">reservation_id</div>
 <div class="cell" data-label="Arabic"> الحجز</div>
 <div class="cell" data-label="English"> Reservation</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSOrderReservation](/modules/pos-app/POS.POSOrderReservation.md) 
@@ -929,7 +1214,10 @@
 <div class="cell" data-label="Column">reservationAmount</div>
 <div class="cell" data-label="Arabic">قيمة الحجز</div>
 <div class="cell" data-label="English">Reservation Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -938,7 +1226,10 @@
 <div class="cell" data-label="Column">returnBefore</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -947,7 +1238,10 @@
 <div class="cell" data-label="Column">salesMan_id</div>
 <div class="cell" data-label="Arabic">مندوب المبيعات</div>
 <div class="cell" data-label="English">Salesman</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSEmployee](/modules/pos-app/POS.POSEmployee.md) 
@@ -959,7 +1253,10 @@
 <div class="cell" data-label="Column">selected</div>
 <div class="cell" data-label="Arabic">اختيار</div>
 <div class="cell" data-label="English">Selected</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -968,7 +1265,10 @@
 <div class="cell" data-label="Column">sent</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -977,7 +1277,10 @@
 <div class="cell" data-label="Column">shiftCode</div>
 <div class="cell" data-label="Arabic">كود الوردية</div>
 <div class="cell" data-label="English">Shift Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -986,7 +1289,10 @@
 <div class="cell" data-label="Column">shiftId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -995,7 +1301,10 @@
 <div class="cell" data-label="Column">splitInvoice</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1004,7 +1313,10 @@
 <div class="cell" data-label="Column">strDeliveryTime</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1013,7 +1325,10 @@
 <div class="cell" data-label="Column">subsidiaryCode</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1022,7 +1337,10 @@
 <div class="cell" data-label="Column">subsidiaryID</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1031,7 +1349,10 @@
 <div class="cell" data-label="Column">subsidiaryNamaType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1040,7 +1361,10 @@
 <div class="cell" data-label="Column">subsidiaryType</div>
 <div class="cell" data-label="Arabic">نوع الذمة</div>
 <div class="cell" data-label="English">Subsidiary Type</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1049,7 +1373,10 @@
 <div class="cell" data-label="Column">table_id</div>
 <div class="cell" data-label="Arabic"> طاولة نقاط البيع</div>
 <div class="cell" data-label="English">Table</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSTable](/modules/pos-app/POS.POSTable.md) 
@@ -1061,7 +1388,10 @@
 <div class="cell" data-label="Column">tax1Total</div>
 <div class="cell" data-label="Arabic">إجمالي ضريبة مبيعات 1</div>
 <div class="cell" data-label="English">Tax 1 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1070,7 +1400,10 @@
 <div class="cell" data-label="Column">tax2Total</div>
 <div class="cell" data-label="Arabic">إجمالي ضريبة مبيعات 2</div>
 <div class="cell" data-label="English">Tax 2 Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1079,7 +1412,10 @@
 <div class="cell" data-label="Column">totalPaid</div>
 <div class="cell" data-label="Arabic">إجمالي المدفوع</div>
 <div class="cell" data-label="English">Total paid</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1088,7 +1424,10 @@
 <div class="cell" data-label="Column">totalPrice</div>
 <div class="cell" data-label="Arabic">إجمالي السعر</div>
 <div class="cell" data-label="English">  Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1097,7 +1436,10 @@
 <div class="cell" data-label="Column">valueDate</div>
 <div class="cell" data-label="Arabic">التاريخ الفعلي</div>
 <div class="cell" data-label="English">Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -1106,7 +1448,10 @@
 <div class="cell" data-label="Column">valueTime</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -1115,7 +1460,10 @@
 <div class="cell" data-label="Column">warehouse_id</div>
 <div class="cell" data-label="Arabic">المخزن</div>
 <div class="cell" data-label="English">Warehouse</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSWarehouse](/modules/pos-app/POS.POSWarehouse.md) 
@@ -1127,7 +1475,10 @@
 <div class="cell" data-label="Column">writeFailures</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1158,7 +1509,10 @@
 <div class="cell" data-label="Column">couponCode</div>
 <div class="cell" data-label="Arabic">كود الكوبون</div>
 <div class="cell" data-label="English">Coupon Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1167,7 +1521,10 @@
 <div class="cell" data-label="Column">couponValue</div>
 <div class="cell" data-label="Arabic">قيمة</div>
 <div class="cell" data-label="English">Coupon Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1176,7 +1533,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1185,7 +1545,10 @@
 <div class="cell" data-label="Column">invoice_id</div>
 <div class="cell" data-label="Arabic">الفاتورة</div>
 <div class="cell" data-label="English">Invoice</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSSalesInvoice](/modules/pos-app/POS.POSSalesInvoice.md) 
@@ -1197,7 +1560,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1228,7 +1594,10 @@
 <div class="cell" data-label="Column">creditNoteCode</div>
 <div class="cell" data-label="Arabic">رقم</div>
 <div class="cell" data-label="English">Credit Note Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1237,7 +1606,10 @@
 <div class="cell" data-label="Column">creditNoteValue</div>
 <div class="cell" data-label="Arabic">قيمة</div>
 <div class="cell" data-label="English">Credit Note Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1246,7 +1618,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1255,7 +1630,10 @@
 <div class="cell" data-label="Column">invoice_id</div>
 <div class="cell" data-label="Arabic">الفاتورة</div>
 <div class="cell" data-label="English">Invoice</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSSalesInvoice](/modules/pos-app/POS.POSSalesInvoice.md) 
@@ -1267,7 +1645,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1298,7 +1679,10 @@
 <div class="cell" data-label="Column">afterDisc1</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1307,7 +1691,10 @@
 <div class="cell" data-label="Column">afterDisc2</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1316,7 +1703,10 @@
 <div class="cell" data-label="Column">afterDisc3</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1325,7 +1715,10 @@
 <div class="cell" data-label="Column">afterDisc4</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1334,7 +1727,10 @@
 <div class="cell" data-label="Column">afterDisc5</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1343,7 +1739,10 @@
 <div class="cell" data-label="Column">afterDisc6</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1352,7 +1751,10 @@
 <div class="cell" data-label="Column">afterDisc7</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1361,7 +1763,10 @@
 <div class="cell" data-label="Column">afterDisc8</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1370,7 +1775,10 @@
 <div class="cell" data-label="Column">afterTax1</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1379,7 +1787,10 @@
 <div class="cell" data-label="Column">afterTax2</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1388,7 +1799,10 @@
 <div class="cell" data-label="Column">box</div>
 <div class="cell" data-label="Arabic">صندوق</div>
 <div class="cell" data-label="English">Box</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1397,7 +1811,10 @@
 <div class="cell" data-label="Column">currency_id</div>
 <div class="cell" data-label="Arabic">العملة</div>
 <div class="cell" data-label="English">Currency</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSCurrency](/modules/pos-app/POS.POSCurrency.md) 
@@ -1409,7 +1826,10 @@
 <div class="cell" data-label="Column">custom</div>
 <div class="cell" data-label="Arabic">مخصص</div>
 <div class="cell" data-label="English">Custom</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1418,7 +1838,10 @@
 <div class="cell" data-label="Column">deactivateEmpDiscountsValidations</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1427,7 +1850,10 @@
 <div class="cell" data-label="Column">depreciationReason_id</div>
 <div class="cell" data-label="Arabic">سبب الهالك</div>
 <div class="cell" data-label="English">Depreciation Reason</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSDepreciationReason](/modules/pos-app/POS.POSDepreciationReason.md) 
@@ -1439,7 +1865,10 @@
 <div class="cell" data-label="Column">d1Percent</div>
 <div class="cell" data-label="Arabic">خصم 1 | %</div>
 <div class="cell" data-label="English">Discount 1 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1448,7 +1877,10 @@
 <div class="cell" data-label="Column">d1Val</div>
 <div class="cell" data-label="Arabic">خصم 1 | قيمة</div>
 <div class="cell" data-label="English">Discount 1 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1457,7 +1889,10 @@
 <div class="cell" data-label="Column">d2Percent</div>
 <div class="cell" data-label="Arabic">خصم 2 | %</div>
 <div class="cell" data-label="English">Discount 2 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1466,7 +1901,10 @@
 <div class="cell" data-label="Column">d2Val</div>
 <div class="cell" data-label="Arabic">خصم 2 | قيمة</div>
 <div class="cell" data-label="English">Discount 2 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1475,7 +1913,10 @@
 <div class="cell" data-label="Column">d3Percent</div>
 <div class="cell" data-label="Arabic">خصم 3 | %</div>
 <div class="cell" data-label="English">Discount 3 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1484,7 +1925,10 @@
 <div class="cell" data-label="Column">d3Val</div>
 <div class="cell" data-label="Arabic">خصم 3 | قيمة</div>
 <div class="cell" data-label="English">Discount 3 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1493,7 +1937,10 @@
 <div class="cell" data-label="Column">d4Percent</div>
 <div class="cell" data-label="Arabic">خصم 4 | %</div>
 <div class="cell" data-label="English">Discount 4 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1502,7 +1949,10 @@
 <div class="cell" data-label="Column">d4Val</div>
 <div class="cell" data-label="Arabic">خصم 4 | قيمة</div>
 <div class="cell" data-label="English">Discount 4 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1511,7 +1961,10 @@
 <div class="cell" data-label="Column">d5Percent</div>
 <div class="cell" data-label="Arabic">خصم 5 | %</div>
 <div class="cell" data-label="English">Discount 5 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1520,7 +1973,10 @@
 <div class="cell" data-label="Column">d5Val</div>
 <div class="cell" data-label="Arabic">خصم 5 | قيمة</div>
 <div class="cell" data-label="English">Discount 5 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1529,7 +1985,10 @@
 <div class="cell" data-label="Column">d6Percent</div>
 <div class="cell" data-label="Arabic">خصم 6 | %</div>
 <div class="cell" data-label="English">Discount 6 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1538,7 +1997,10 @@
 <div class="cell" data-label="Column">d6Val</div>
 <div class="cell" data-label="Arabic">خصم 6 | قيمة</div>
 <div class="cell" data-label="English">Discount 6 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1547,7 +2009,10 @@
 <div class="cell" data-label="Column">d7Percent</div>
 <div class="cell" data-label="Arabic">خصم 7 | %</div>
 <div class="cell" data-label="English">Discount 7 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1556,7 +2021,10 @@
 <div class="cell" data-label="Column">d7Val</div>
 <div class="cell" data-label="Arabic">خصم 7 | قيمة</div>
 <div class="cell" data-label="English">Discount 7 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1565,7 +2033,10 @@
 <div class="cell" data-label="Column">d8Percent</div>
 <div class="cell" data-label="Arabic">خصم 8 | %</div>
 <div class="cell" data-label="English">Discount 8 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1574,7 +2045,10 @@
 <div class="cell" data-label="Column">d8Val</div>
 <div class="cell" data-label="Arabic">خصم 8 | قيمة</div>
 <div class="cell" data-label="English">Discount 8 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1583,7 +2057,10 @@
 <div class="cell" data-label="Column">editableFreeLine</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1592,7 +2069,10 @@
 <div class="cell" data-label="Column">expiryDate</div>
 <div class="cell" data-label="Arabic">تواريخ الصلاحية | الإنتهاء</div>
 <div class="cell" data-label="English">Date | Expiry</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -1601,7 +2081,10 @@
 <div class="cell" data-label="Column">freeFromItemsCountOffer</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1610,7 +2093,10 @@
 <div class="cell" data-label="Column">freeGroupId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1619,7 +2105,10 @@
 <div class="cell" data-label="Column">freeItemGroup_id</div>
 <div class="cell" data-label="Arabic">مجموعة أصناف مجانية</div>
 <div class="cell" data-label="English">Free Item Group</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSFreeItemGroup](/modules/pos-app/POS.POSFreeItemGroup.md) 
@@ -1631,7 +2120,10 @@
 <div class="cell" data-label="Column">freeItemId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1640,7 +2132,10 @@
 <div class="cell" data-label="Column">freeLine</div>
 <div class="cell" data-label="Arabic"> صنف مجاني</div>
 <div class="cell" data-label="English"> Free Item</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1649,7 +2144,10 @@
 <div class="cell" data-label="Column">fromFreeItemsOnInvoiceOffer</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1658,7 +2156,10 @@
 <div class="cell" data-label="Column">hdPercent</div>
 <div class="cell" data-label="Arabic">النسبة</div>
 <div class="cell" data-label="English">Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1667,7 +2168,10 @@
 <div class="cell" data-label="Column">hdVal</div>
 <div class="cell" data-label="Arabic">القيمة</div>
 <div class="cell" data-label="English">Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1676,7 +2180,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1685,7 +2192,10 @@
 <div class="cell" data-label="Column">invoice_id</div>
 <div class="cell" data-label="Arabic">الفاتورة</div>
 <div class="cell" data-label="English">Invoice</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSSalesInvoice](/modules/pos-app/POS.POSSalesInvoice.md) 
@@ -1697,7 +2207,10 @@
 <div class="cell" data-label="Column">invoiceOfferId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1706,7 +2219,10 @@
 <div class="cell" data-label="Column">item_id</div>
 <div class="cell" data-label="Arabic">الصنف</div>
 <div class="cell" data-label="English">Item</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSItem](/modules/pos-app/POS.POSItem.md) 
@@ -1718,7 +2234,10 @@
 <div class="cell" data-label="Column">itemActualCode</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1727,7 +2246,10 @@
 <div class="cell" data-label="Column">itemCode</div>
 <div class="cell" data-label="Arabic"> الكود</div>
 <div class="cell" data-label="English"> Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1736,7 +2258,10 @@
 <div class="cell" data-label="Column">itemBox</div>
 <div class="cell" data-label="Arabic">صندوق</div>
 <div class="cell" data-label="English">Box</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1745,7 +2270,10 @@
 <div class="cell" data-label="Column">itemColor</div>
 <div class="cell" data-label="Arabic">اللون</div>
 <div class="cell" data-label="English">Color</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1754,7 +2282,10 @@
 <div class="cell" data-label="Column">colorName</div>
 <div class="cell" data-label="Arabic">اسم اللون</div>
 <div class="cell" data-label="English">Color Name</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1763,7 +2294,10 @@
 <div class="cell" data-label="Column">itemLotId</div>
 <div class="cell" data-label="Arabic">كود الشحنة</div>
 <div class="cell" data-label="English">Lot ID</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1772,7 +2306,10 @@
 <div class="cell" data-label="Column">itemRevisionId</div>
 <div class="cell" data-label="Arabic">الإصدار</div>
 <div class="cell" data-label="English">ID</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1781,7 +2318,10 @@
 <div class="cell" data-label="Column">itemSecondSerial</div>
 <div class="cell" data-label="Arabic">الرقم المسلسل الثاني</div>
 <div class="cell" data-label="English">Second Serial</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1790,7 +2330,10 @@
 <div class="cell" data-label="Column">itemSerialNumber</div>
 <div class="cell" data-label="Arabic">الرقم المسلسل</div>
 <div class="cell" data-label="English">Serial Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1799,7 +2342,10 @@
 <div class="cell" data-label="Column">itemSize</div>
 <div class="cell" data-label="Arabic">المقاس</div>
 <div class="cell" data-label="English">Size</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1808,7 +2354,10 @@
 <div class="cell" data-label="Column">sizeName</div>
 <div class="cell" data-label="Arabic">اسم المقاس</div>
 <div class="cell" data-label="English">Size Name</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1817,7 +2366,10 @@
 <div class="cell" data-label="Column">itemName</div>
 <div class="cell" data-label="Arabic">اسم الصنف</div>
 <div class="cell" data-label="English">Item Name</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1826,7 +2378,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1835,7 +2390,10 @@
 <div class="cell" data-label="Column">location_id</div>
 <div class="cell" data-label="Arabic">الموقع المخزني</div>
 <div class="cell" data-label="English">Location</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSLocation](/modules/pos-app/POS.POSLocation.md) 
@@ -1847,7 +2405,10 @@
 <div class="cell" data-label="Column">masterRowId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1856,7 +2417,10 @@
 <div class="cell" data-label="Column">netPrice</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1865,7 +2429,10 @@
 <div class="cell" data-label="Column">prepFormPrintDate</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -1874,7 +2441,10 @@
 <div class="cell" data-label="Column">priceListLineId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1883,7 +2453,10 @@
 <div class="cell" data-label="Column">productionDate</div>
 <div class="cell" data-label="Arabic">تواريخ الصلاحية | الإنتاج</div>
 <div class="cell" data-label="English">Date | Production</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -1892,7 +2465,10 @@
 <div class="cell" data-label="Column">uom_id</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSUnit](/modules/pos-app/POS.POSUnit.md) 
@@ -1904,7 +2480,10 @@
 <div class="cell" data-label="Column">value</div>
 <div class="cell" data-label="Arabic">الكمية</div>
 <div class="cell" data-label="English">Quantity</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1913,7 +2492,10 @@
 <div class="cell" data-label="Column">ref1Code</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1922,7 +2504,10 @@
 <div class="cell" data-label="Column">ref1Id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1931,7 +2516,10 @@
 <div class="cell" data-label="Column">ref1NamaType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1940,7 +2528,10 @@
 <div class="cell" data-label="Column">ref1Type</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1949,7 +2540,10 @@
 <div class="cell" data-label="Column">remarks</div>
 <div class="cell" data-label="Arabic"> ملاحظات</div>
 <div class="cell" data-label="English"> Description</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1958,7 +2552,10 @@
 <div class="cell" data-label="Column">returnedQty</div>
 <div class="cell" data-label="Arabic">المرتجع</div>
 <div class="cell" data-label="English">Return Qty</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1967,7 +2564,10 @@
 <div class="cell" data-label="Column">salesman_id</div>
 <div class="cell" data-label="Arabic">البائع</div>
 <div class="cell" data-label="English">Salesman</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSEmployee](/modules/pos-app/POS.POSEmployee.md) 
@@ -1979,7 +2579,10 @@
 <div class="cell" data-label="Column">selected</div>
 <div class="cell" data-label="Arabic">اختيار</div>
 <div class="cell" data-label="English">Selected</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1988,7 +2591,10 @@
 <div class="cell" data-label="Column">t1Percent</div>
 <div class="cell" data-label="Arabic">قيمة إضافية 1</div>
 <div class="cell" data-label="English">Tax 1</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1997,7 +2603,10 @@
 <div class="cell" data-label="Column">t1Val</div>
 <div class="cell" data-label="Arabic">ضريبة مبيعات | القيمة</div>
 <div class="cell" data-label="English">Tax value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2006,7 +2615,10 @@
 <div class="cell" data-label="Column">t2Percent</div>
 <div class="cell" data-label="Arabic">قيمة إضافية 2</div>
 <div class="cell" data-label="English">Tax 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2015,7 +2627,10 @@
 <div class="cell" data-label="Column">t2Val</div>
 <div class="cell" data-label="Arabic">ضريبة مبيعات 2 | القيمة</div>
 <div class="cell" data-label="English">Tax 2 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2024,7 +2639,10 @@
 <div class="cell" data-label="Column">totalPrice</div>
 <div class="cell" data-label="Arabic">إجمالي السعر</div>
 <div class="cell" data-label="English">  Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2033,7 +2651,10 @@
 <div class="cell" data-label="Column">unitPrice</div>
 <div class="cell" data-label="Arabic">سعر الوحدة</div>
 <div class="cell" data-label="English">Unit Price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2042,7 +2663,10 @@
 <div class="cell" data-label="Column">warehouse_id</div>
 <div class="cell" data-label="Arabic">المخزن</div>
 <div class="cell" data-label="English">Warehouse</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSWarehouse](/modules/pos-app/POS.POSWarehouse.md) 
@@ -2054,7 +2678,10 @@
 <div class="cell" data-label="Column">warehouseIssueMethod</div>
 <div class="cell" data-label="Arabic"> طريقة الصرف من المخزن</div>
 <div class="cell" data-label="English"> Warehouse Issue Method</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2085,7 +2712,10 @@
 <div class="cell" data-label="Column">authorizationNumber</div>
 <div class="cell" data-label="Arabic">رقم العملية</div>
 <div class="cell" data-label="English">Authorization Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2094,7 +2724,10 @@
 <div class="cell" data-label="Column">cash</div>
 <div class="cell" data-label="Arabic">النقدي</div>
 <div class="cell" data-label="English">Cash</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -2103,7 +2736,10 @@
 <div class="cell" data-label="Column">currency_id</div>
 <div class="cell" data-label="Arabic">العملة</div>
 <div class="cell" data-label="English">Currency</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSCurrency](/modules/pos-app/POS.POSCurrency.md) 
@@ -2115,7 +2751,10 @@
 <div class="cell" data-label="Column">ecrRefNum</div>
 <div class="cell" data-label="Arabic">ECR Ref Number / Local Reference Number</div>
 <div class="cell" data-label="English">ECR Ref Number / Local Reference Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2124,7 +2763,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2133,7 +2775,10 @@
 <div class="cell" data-label="Column">invoice_id</div>
 <div class="cell" data-label="Arabic">الفاتورة</div>
 <div class="cell" data-label="English">Invoice</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSSalesInvoice](/modules/pos-app/POS.POSSalesInvoice.md) 
@@ -2145,7 +2790,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2154,7 +2802,10 @@
 <div class="cell" data-label="Column">merchantId</div>
 <div class="cell" data-label="Arabic">Merchant Id</div>
 <div class="cell" data-label="English">Merchant Id</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2163,7 +2814,10 @@
 <div class="cell" data-label="Column">methodName</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2172,7 +2826,10 @@
 <div class="cell" data-label="Column">method_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2181,7 +2838,10 @@
 <div class="cell" data-label="Column">paidFromTerminal</div>
 <div class="cell" data-label="Arabic">مدفوعة بواسطة ال Terminal</div>
 <div class="cell" data-label="English">Paid From Terminal</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -2190,7 +2850,10 @@
 <div class="cell" data-label="Column">panNum</div>
 <div class="cell" data-label="Arabic">PAN Number / ApprovalCode</div>
 <div class="cell" data-label="English">PAN Number / ApprovalCode</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2199,7 +2862,10 @@
 <div class="cell" data-label="Column">schemeId</div>
 <div class="cell" data-label="Arabic">Scheme Id / Card Scheme Name</div>
 <div class="cell" data-label="English">Scheme Id / Card Scheme Name</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2208,7 +2874,10 @@
 <div class="cell" data-label="Column">shiftCode</div>
 <div class="cell" data-label="Arabic">كود الوردية</div>
 <div class="cell" data-label="English">Shift Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2217,7 +2886,10 @@
 <div class="cell" data-label="Column">stanNum</div>
 <div class="cell" data-label="Arabic">STAN Number / rrNumber</div>
 <div class="cell" data-label="English">STAN Number / rrNumber</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2226,7 +2898,10 @@
 <div class="cell" data-label="Column">terminalId</div>
 <div class="cell" data-label="Arabic">Terminal Id / Device Serial No</div>
 <div class="cell" data-label="English">Terminal Id / Device Serial No</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2235,7 +2910,10 @@
 <div class="cell" data-label="Column">value</div>
 <div class="cell" data-label="Arabic">القيمة</div>
 <div class="cell" data-label="English">Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2266,7 +2944,10 @@
 <div class="cell" data-label="Column">afterDisc1</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2275,7 +2956,10 @@
 <div class="cell" data-label="Column">afterDisc2</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2284,7 +2968,10 @@
 <div class="cell" data-label="Column">afterDisc3</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2293,7 +2980,10 @@
 <div class="cell" data-label="Column">afterDisc4</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2302,7 +2992,10 @@
 <div class="cell" data-label="Column">afterDisc5</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2311,7 +3004,10 @@
 <div class="cell" data-label="Column">afterDisc6</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2320,7 +3016,10 @@
 <div class="cell" data-label="Column">afterDisc7</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2329,7 +3028,10 @@
 <div class="cell" data-label="Column">afterDisc8</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2338,7 +3040,10 @@
 <div class="cell" data-label="Column">afterTax1</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2347,7 +3052,10 @@
 <div class="cell" data-label="Column">afterTax2</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2356,7 +3064,10 @@
 <div class="cell" data-label="Column">box</div>
 <div class="cell" data-label="Arabic">صندوق</div>
 <div class="cell" data-label="English">Box</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2365,7 +3076,10 @@
 <div class="cell" data-label="Column">currency_id</div>
 <div class="cell" data-label="Arabic">العملة</div>
 <div class="cell" data-label="English">Currency</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSCurrency](/modules/pos-app/POS.POSCurrency.md) 
@@ -2377,7 +3091,10 @@
 <div class="cell" data-label="Column">custom</div>
 <div class="cell" data-label="Arabic">مخصص</div>
 <div class="cell" data-label="English">Custom</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2386,7 +3103,10 @@
 <div class="cell" data-label="Column">deactivateEmpDiscountsValidations</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -2395,7 +3115,10 @@
 <div class="cell" data-label="Column">depreciationReason_id</div>
 <div class="cell" data-label="Arabic">سبب الهالك</div>
 <div class="cell" data-label="English">Depreciation Reason</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSDepreciationReason](/modules/pos-app/POS.POSDepreciationReason.md) 
@@ -2407,7 +3130,10 @@
 <div class="cell" data-label="Column">d1Percent</div>
 <div class="cell" data-label="Arabic">خصم 1 | %</div>
 <div class="cell" data-label="English">Discount 1 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2416,7 +3142,10 @@
 <div class="cell" data-label="Column">d1Val</div>
 <div class="cell" data-label="Arabic">خصم 1 | قيمة</div>
 <div class="cell" data-label="English">Discount 1 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2425,7 +3154,10 @@
 <div class="cell" data-label="Column">d2Percent</div>
 <div class="cell" data-label="Arabic">خصم 2 | %</div>
 <div class="cell" data-label="English">Discount 2 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2434,7 +3166,10 @@
 <div class="cell" data-label="Column">d2Val</div>
 <div class="cell" data-label="Arabic">خصم 2 | قيمة</div>
 <div class="cell" data-label="English">Discount 2 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2443,7 +3178,10 @@
 <div class="cell" data-label="Column">d3Percent</div>
 <div class="cell" data-label="Arabic">خصم 3 | %</div>
 <div class="cell" data-label="English">Discount 3 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2452,7 +3190,10 @@
 <div class="cell" data-label="Column">d3Val</div>
 <div class="cell" data-label="Arabic">خصم 3 | قيمة</div>
 <div class="cell" data-label="English">Discount 3 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2461,7 +3202,10 @@
 <div class="cell" data-label="Column">d4Percent</div>
 <div class="cell" data-label="Arabic">خصم 4 | %</div>
 <div class="cell" data-label="English">Discount 4 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2470,7 +3214,10 @@
 <div class="cell" data-label="Column">d4Val</div>
 <div class="cell" data-label="Arabic">خصم 4 | قيمة</div>
 <div class="cell" data-label="English">Discount 4 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2479,7 +3226,10 @@
 <div class="cell" data-label="Column">d5Percent</div>
 <div class="cell" data-label="Arabic">خصم 5 | %</div>
 <div class="cell" data-label="English">Discount 5 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2488,7 +3238,10 @@
 <div class="cell" data-label="Column">d5Val</div>
 <div class="cell" data-label="Arabic">خصم 5 | قيمة</div>
 <div class="cell" data-label="English">Discount 5 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2497,7 +3250,10 @@
 <div class="cell" data-label="Column">d6Percent</div>
 <div class="cell" data-label="Arabic">خصم 6 | %</div>
 <div class="cell" data-label="English">Discount 6 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2506,7 +3262,10 @@
 <div class="cell" data-label="Column">d6Val</div>
 <div class="cell" data-label="Arabic">خصم 6 | قيمة</div>
 <div class="cell" data-label="English">Discount 6 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2515,7 +3274,10 @@
 <div class="cell" data-label="Column">d7Percent</div>
 <div class="cell" data-label="Arabic">خصم 7 | %</div>
 <div class="cell" data-label="English">Discount 7 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2524,7 +3286,10 @@
 <div class="cell" data-label="Column">d7Val</div>
 <div class="cell" data-label="Arabic">خصم 7 | قيمة</div>
 <div class="cell" data-label="English">Discount 7 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2533,7 +3298,10 @@
 <div class="cell" data-label="Column">d8Percent</div>
 <div class="cell" data-label="Arabic">خصم 8 | %</div>
 <div class="cell" data-label="English">Discount 8 | %</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2542,7 +3310,10 @@
 <div class="cell" data-label="Column">d8Val</div>
 <div class="cell" data-label="Arabic">خصم 8 | قيمة</div>
 <div class="cell" data-label="English">Discount 8 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2551,7 +3322,10 @@
 <div class="cell" data-label="Column">editableFreeLine</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -2560,7 +3334,10 @@
 <div class="cell" data-label="Column">expiryDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنتهاء</div>
 <div class="cell" data-label="English">Expiry Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -2569,7 +3346,10 @@
 <div class="cell" data-label="Column">freeFromItemsCountOffer</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -2578,7 +3358,10 @@
 <div class="cell" data-label="Column">freeGroupId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2587,7 +3370,10 @@
 <div class="cell" data-label="Column">freeItemGroup_id</div>
 <div class="cell" data-label="Arabic">مجموعة أصناف مجانية</div>
 <div class="cell" data-label="English">Free Item Group</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSFreeItemGroup](/modules/pos-app/POS.POSFreeItemGroup.md) 
@@ -2599,7 +3385,10 @@
 <div class="cell" data-label="Column">freeItemId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2608,7 +3397,10 @@
 <div class="cell" data-label="Column">freeLine</div>
 <div class="cell" data-label="Arabic"> صنف مجاني</div>
 <div class="cell" data-label="English"> Free Item</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -2617,7 +3409,10 @@
 <div class="cell" data-label="Column">fromFreeItemsOnInvoiceOffer</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -2626,7 +3421,10 @@
 <div class="cell" data-label="Column">hdPercent</div>
 <div class="cell" data-label="Arabic">النسبة</div>
 <div class="cell" data-label="English">Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2635,7 +3433,10 @@
 <div class="cell" data-label="Column">hdVal</div>
 <div class="cell" data-label="Arabic">القيمة</div>
 <div class="cell" data-label="English">Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2644,7 +3445,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2653,7 +3457,10 @@
 <div class="cell" data-label="Column">invoice_id</div>
 <div class="cell" data-label="Arabic">الفاتورة</div>
 <div class="cell" data-label="English">Invoice</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSSalesInvoice](/modules/pos-app/POS.POSSalesInvoice.md) 
@@ -2665,7 +3472,10 @@
 <div class="cell" data-label="Column">invoiceOfferId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2674,7 +3484,10 @@
 <div class="cell" data-label="Column">item_id</div>
 <div class="cell" data-label="Arabic">الصنف</div>
 <div class="cell" data-label="English">Item</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSItem](/modules/pos-app/POS.POSItem.md) 
@@ -2686,7 +3499,10 @@
 <div class="cell" data-label="Column">itemActualCode</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2695,7 +3511,10 @@
 <div class="cell" data-label="Column">itemCode</div>
 <div class="cell" data-label="Arabic"> الكود</div>
 <div class="cell" data-label="English"> Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2704,7 +3523,10 @@
 <div class="cell" data-label="Column">itemBox</div>
 <div class="cell" data-label="Arabic">صندوق</div>
 <div class="cell" data-label="English">Box</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2713,7 +3535,10 @@
 <div class="cell" data-label="Column">itemColor</div>
 <div class="cell" data-label="Arabic">اللون</div>
 <div class="cell" data-label="English">Color</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2722,7 +3547,10 @@
 <div class="cell" data-label="Column">colorName</div>
 <div class="cell" data-label="Arabic">اسم اللون</div>
 <div class="cell" data-label="English">Color Name</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2731,7 +3559,10 @@
 <div class="cell" data-label="Column">itemLotId</div>
 <div class="cell" data-label="Arabic">كود الشحنة</div>
 <div class="cell" data-label="English">Lot ID</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2740,7 +3571,10 @@
 <div class="cell" data-label="Column">itemRevisionId</div>
 <div class="cell" data-label="Arabic">الإصدار</div>
 <div class="cell" data-label="English">ID</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2749,7 +3583,10 @@
 <div class="cell" data-label="Column">itemSecondSerial</div>
 <div class="cell" data-label="Arabic">الرقم المسلسل الثاني</div>
 <div class="cell" data-label="English">Second Serial</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2758,7 +3595,10 @@
 <div class="cell" data-label="Column">itemSerialNumber</div>
 <div class="cell" data-label="Arabic">الرقم المسلسل</div>
 <div class="cell" data-label="English">Serial Number</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2767,7 +3607,10 @@
 <div class="cell" data-label="Column">itemSize</div>
 <div class="cell" data-label="Arabic">المقاس</div>
 <div class="cell" data-label="English">Size</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2776,7 +3619,10 @@
 <div class="cell" data-label="Column">sizeName</div>
 <div class="cell" data-label="Arabic">اسم المقاس</div>
 <div class="cell" data-label="English">Size Name</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2785,7 +3631,10 @@
 <div class="cell" data-label="Column">itemName</div>
 <div class="cell" data-label="Arabic">اسم الصنف</div>
 <div class="cell" data-label="English">Item Name</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2794,7 +3643,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -2803,7 +3655,10 @@
 <div class="cell" data-label="Column">location_id</div>
 <div class="cell" data-label="Arabic">الموقع المخزني</div>
 <div class="cell" data-label="English">Location</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSLocation](/modules/pos-app/POS.POSLocation.md) 
@@ -2815,7 +3670,10 @@
 <div class="cell" data-label="Column">masterRowId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2824,7 +3682,10 @@
 <div class="cell" data-label="Column">netPrice</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2833,7 +3694,10 @@
 <div class="cell" data-label="Column">prepFormPrintDate</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -2842,7 +3706,10 @@
 <div class="cell" data-label="Column">priceListLineId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2851,7 +3718,10 @@
 <div class="cell" data-label="Column">productionDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنتاج</div>
 <div class="cell" data-label="English">Production Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -2860,7 +3730,10 @@
 <div class="cell" data-label="Column">uom_id</div>
 <div class="cell" data-label="Arabic">الوحدة</div>
 <div class="cell" data-label="English">Unit</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSUnit](/modules/pos-app/POS.POSUnit.md) 
@@ -2872,7 +3745,10 @@
 <div class="cell" data-label="Column">value</div>
 <div class="cell" data-label="Arabic">القيمة</div>
 <div class="cell" data-label="English">Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2881,7 +3757,10 @@
 <div class="cell" data-label="Column">ref1Code</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2890,7 +3769,10 @@
 <div class="cell" data-label="Column">ref1Id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -2899,7 +3781,10 @@
 <div class="cell" data-label="Column">ref1NamaType</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2908,7 +3793,10 @@
 <div class="cell" data-label="Column">ref1Type</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2917,7 +3805,10 @@
 <div class="cell" data-label="Column">remarks</div>
 <div class="cell" data-label="Arabic">ملاحظات</div>
 <div class="cell" data-label="English">Description</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -2926,7 +3817,10 @@
 <div class="cell" data-label="Column">returnedQty</div>
 <div class="cell" data-label="Arabic">المرتجع</div>
 <div class="cell" data-label="English">Return Qty</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2935,7 +3829,10 @@
 <div class="cell" data-label="Column">salesman_id</div>
 <div class="cell" data-label="Arabic">البائع</div>
 <div class="cell" data-label="English">Salesman</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSEmployee](/modules/pos-app/POS.POSEmployee.md) 
@@ -2947,7 +3844,10 @@
 <div class="cell" data-label="Column">selected</div>
 <div class="cell" data-label="Arabic">اختيار</div>
 <div class="cell" data-label="English">Selected</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -2956,7 +3856,10 @@
 <div class="cell" data-label="Column">t1Percent</div>
 <div class="cell" data-label="Arabic">قيمة إضافية 1</div>
 <div class="cell" data-label="English">Tax 1</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2965,7 +3868,10 @@
 <div class="cell" data-label="Column">t1Val</div>
 <div class="cell" data-label="Arabic">ضريبة مبيعات | القيمة</div>
 <div class="cell" data-label="English">Tax value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2974,7 +3880,10 @@
 <div class="cell" data-label="Column">t2Percent</div>
 <div class="cell" data-label="Arabic">قيمة إضافية 2</div>
 <div class="cell" data-label="English">Tax 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2983,7 +3892,10 @@
 <div class="cell" data-label="Column">t2Val</div>
 <div class="cell" data-label="Arabic">ضريبة مبيعات 2 | القيمة</div>
 <div class="cell" data-label="English">Tax 2 | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -2992,7 +3904,10 @@
 <div class="cell" data-label="Column">totalPrice</div>
 <div class="cell" data-label="Arabic">إجمالي السعر</div>
 <div class="cell" data-label="English">  Total</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -3001,7 +3916,10 @@
 <div class="cell" data-label="Column">unitPrice</div>
 <div class="cell" data-label="Arabic">سعر الوحدة</div>
 <div class="cell" data-label="English">Unit Price</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -3010,7 +3928,10 @@
 <div class="cell" data-label="Column">warehouse_id</div>
 <div class="cell" data-label="Arabic">المخزن</div>
 <div class="cell" data-label="English">Warehouse</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSWarehouse](/modules/pos-app/POS.POSWarehouse.md) 
@@ -3022,7 +3943,10 @@
 <div class="cell" data-label="Column">warehouseIssueMethod</div>
 <div class="cell" data-label="Arabic"> طريقة الصرف من المخزن</div>
 <div class="cell" data-label="English"> Warehouse Issue Method</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -3053,7 +3977,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -3062,7 +3989,10 @@
 <div class="cell" data-label="Column">invoice_id</div>
 <div class="cell" data-label="Arabic">الفاتورة</div>
 <div class="cell" data-label="English">Invoice</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSSalesInvoice](/modules/pos-app/POS.POSSalesInvoice.md) 
@@ -3074,7 +4004,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -3083,7 +4016,10 @@
 <div class="cell" data-label="Column">posTable_id</div>
 <div class="cell" data-label="Arabic">طاولة نقاط البيع</div>
 <div class="cell" data-label="English">POS Table</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSTable](/modules/pos-app/POS.POSTable.md) 

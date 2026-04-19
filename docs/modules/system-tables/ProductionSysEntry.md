@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">operationSeq</div>
 <div class="cell" data-label="Arabic">م. العملية</div>
 <div class="cell" data-label="English">Operation Seq.</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">order_id</div>
 <div class="cell" data-label="Arabic">أمر الشغل</div>
 <div class="cell" data-label="English">Job Order</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ProductionOrder](/modules/manufacturing/ProductionOrder.md) 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">rejected</div>
 <div class="cell" data-label="Arabic">مرفوض</div>
 <div class="cell" data-label="English">Rejected</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">sample</div>
 <div class="cell" data-label="Arabic"> سحب عينة</div>
 <div class="cell" data-label="English"> Sample</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">scrap</div>
 <div class="cell" data-label="Arabic">تالف</div>
 <div class="cell" data-label="English">Scrap</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">toMove</div>
 <div class="cell" data-label="Arabic">جاهز للحركة</div>
 <div class="cell" data-label="English">To Move</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 

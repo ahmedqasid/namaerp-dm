@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">blc_id</div>
 <div class="cell" data-label="Arabic"> اعتماد بنكى</div>
 <div class="cell" data-label="English">Bank LC</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [BankLC](/modules/accounting-blc/BankLC.md) 
@@ -37,7 +40,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">fromStatus</div>
 <div class="cell" data-label="Arabic">من حالة</div>
 <div class="cell" data-label="English">From Status</div>
-<div class="cell" data-label="Type"> [LetterOfGuaranteeStatus](/modules/enums/LetterOfGuaranteeStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [LetterOfGuaranteeStatus](/modules/enums/LetterOfGuaranteeStatus.md) 
+</div>
 
 </div>
 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">fromBlcValueAmount</div>
 <div class="cell" data-label="Arabic"> المبلغ</div>
 <div class="cell" data-label="English"> Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -64,7 +76,10 @@
 <div class="cell" data-label="Column">fromBlcValueCurrency_id</div>
 <div class="cell" data-label="Arabic">العملة</div>
 <div class="cell" data-label="English">Currency</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Currency](/modules/basic/Currency.md) 
@@ -76,7 +91,10 @@
 <div class="cell" data-label="Column">fromChangeFees</div>
 <div class="cell" data-label="Arabic">من | قيمة رسوم التعديل</div>
 <div class="cell" data-label="English">From | Change Fees</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -85,7 +103,10 @@
 <div class="cell" data-label="Column">fromChangeFeesPercentage</div>
 <div class="cell" data-label="Arabic">من | % رسوم التعديل</div>
 <div class="cell" data-label="English">From | Change Fees Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -94,7 +115,10 @@
 <div class="cell" data-label="Column">fromCoveredAmount</div>
 <div class="cell" data-label="Arabic">من |القيمة المغطاة</div>
 <div class="cell" data-label="English">From |Covered Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -103,7 +127,10 @@
 <div class="cell" data-label="Column">fromCoveredPercentage</div>
 <div class="cell" data-label="Arabic">من | %القيمة المغطاة</div>
 <div class="cell" data-label="English">From | Covered Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -112,7 +139,10 @@
 <div class="cell gen-ref-column" data-label="Column">fromDeliveredToActualCode,  fromDeliveredToCode,  fromDeliveredToEntityType,  fromDeliveredToId</div>
 <div class="cell" data-label="Arabic">من | يسلم الي</div>
 <div class="cell" data-label="English">From | Delivered To</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -121,7 +151,10 @@
 <div class="cell" data-label="Column">fromFacilitiesAmount</div>
 <div class="cell" data-label="Arabic">القيمة</div>
 <div class="cell" data-label="English">Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -130,7 +163,10 @@
 <div class="cell" data-label="Column">fromFacilitiesPercentage</div>
 <div class="cell" data-label="Arabic">النسبة</div>
 <div class="cell" data-label="English">Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -139,7 +175,10 @@
 <div class="cell" data-label="Column">fromFeesPercentage</div>
 <div class="cell" data-label="Arabic">من | % الرسوم</div>
 <div class="cell" data-label="English">From | Fees Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -148,7 +187,10 @@
 <div class="cell" data-label="Column">fromFeesValue</div>
 <div class="cell" data-label="Arabic">من | قيمة الرسوم</div>
 <div class="cell" data-label="English">From | Fees Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -157,7 +199,10 @@
 <div class="cell" data-label="Column">fromFromDate</div>
 <div class="cell" data-label="Arabic">من | من تاريخ</div>
 <div class="cell" data-label="English">From | From Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -166,7 +211,10 @@
 <div class="cell" data-label="Column">fromIssueFees</div>
 <div class="cell" data-label="Arabic">من | قيمة رسوم الإصدار</div>
 <div class="cell" data-label="English">From | Issue Fees</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -175,7 +223,10 @@
 <div class="cell" data-label="Column">fromIssueFeesPercentage</div>
 <div class="cell" data-label="Arabic">من | % رسوم الإصدار</div>
 <div class="cell" data-label="English">From | Issue Fees Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -184,7 +235,10 @@
 <div class="cell" data-label="Column">fromToDate</div>
 <div class="cell" data-label="Arabic">من | الي تاريخ</div>
 <div class="cell" data-label="English">From | To Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -193,7 +247,10 @@
 <div class="cell" data-label="Column">fromTotalChangeFees</div>
 <div class="cell" data-label="Arabic">من | إجمالي التعديلات</div>
 <div class="cell" data-label="English">From | Total Change Fees</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -202,7 +259,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -211,7 +271,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic">رقم السطر</div>
 <div class="cell" data-label="English">Line Number</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -220,7 +283,10 @@
 <div class="cell gen-ref-column" data-label="Column">originActualCode,  originCode,  originEntityType,  originId</div>
 <div class="cell" data-label="Arabic"> # المستند</div>
 <div class="cell" data-label="English"> Document #</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -229,7 +295,10 @@
 <div class="cell" data-label="Column">refId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -238,7 +307,10 @@
 <div class="cell" data-label="Column">toStatus</div>
 <div class="cell" data-label="Arabic">إلى حالة</div>
 <div class="cell" data-label="English">To Status</div>
-<div class="cell" data-label="Type"> [LetterOfGuaranteeStatus](/modules/enums/LetterOfGuaranteeStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [LetterOfGuaranteeStatus](/modules/enums/LetterOfGuaranteeStatus.md) 
+</div>
 
 </div>
 
@@ -247,7 +319,10 @@
 <div class="cell" data-label="Column">toBlcValueAmount</div>
 <div class="cell" data-label="Arabic"> المبلغ</div>
 <div class="cell" data-label="English"> Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -256,7 +331,10 @@
 <div class="cell" data-label="Column">toBlcValueCurrency_id</div>
 <div class="cell" data-label="Arabic">العملة</div>
 <div class="cell" data-label="English">Currency</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Currency](/modules/basic/Currency.md) 
@@ -268,7 +346,10 @@
 <div class="cell" data-label="Column">toChangeFees</div>
 <div class="cell" data-label="Arabic">الي | قيمة رسوم التعديل</div>
 <div class="cell" data-label="English">To | Change Fees</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -277,7 +358,10 @@
 <div class="cell" data-label="Column">toChangeFeesPercentage</div>
 <div class="cell" data-label="Arabic">الي | % رسوم التعديل</div>
 <div class="cell" data-label="English">To | Change Fees Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -286,7 +370,10 @@
 <div class="cell" data-label="Column">toCoveredAmount</div>
 <div class="cell" data-label="Arabic">الي |القيمة المغطاة</div>
 <div class="cell" data-label="English">To |Covered Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -295,7 +382,10 @@
 <div class="cell" data-label="Column">toCoveredPercentage</div>
 <div class="cell" data-label="Arabic">الي | %القيمة المغطاة</div>
 <div class="cell" data-label="English">To | Covered Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -304,7 +394,10 @@
 <div class="cell gen-ref-column" data-label="Column">toDeliveredToActualCode,  toDeliveredToCode,  toDeliveredToEntityType,  toDeliveredToId</div>
 <div class="cell" data-label="Arabic">الي يسلم الي</div>
 <div class="cell" data-label="English">To | Delivered To</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -313,7 +406,10 @@
 <div class="cell" data-label="Column">toFacilitiesAmount</div>
 <div class="cell" data-label="Arabic">القيمة</div>
 <div class="cell" data-label="English">Amount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -322,7 +418,10 @@
 <div class="cell" data-label="Column">toFacilitiesPercentage</div>
 <div class="cell" data-label="Arabic">النسبة</div>
 <div class="cell" data-label="English">Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -331,7 +430,10 @@
 <div class="cell" data-label="Column">toFeesPercentage</div>
 <div class="cell" data-label="Arabic">الي | % الرسوم</div>
 <div class="cell" data-label="English">To | Fees Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -340,7 +442,10 @@
 <div class="cell" data-label="Column">toFeesValue</div>
 <div class="cell" data-label="Arabic">الي | قيمة الرسوم</div>
 <div class="cell" data-label="English">To | Fees Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -349,7 +454,10 @@
 <div class="cell" data-label="Column">toFromDate</div>
 <div class="cell" data-label="Arabic">إلى | من تاريخ</div>
 <div class="cell" data-label="English">To | From Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -358,7 +466,10 @@
 <div class="cell" data-label="Column">toIssueFees</div>
 <div class="cell" data-label="Arabic">الي | قيمة رسوم الإصدار</div>
 <div class="cell" data-label="English">To | Issue Fees</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -367,7 +478,10 @@
 <div class="cell" data-label="Column">toIssueFeesPercentage</div>
 <div class="cell" data-label="Arabic">الي | % رسوم الإصدار</div>
 <div class="cell" data-label="English">To | Issue Fees Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -376,7 +490,10 @@
 <div class="cell" data-label="Column">toToDate</div>
 <div class="cell" data-label="Arabic">إلى | الي تاريخ</div>
 <div class="cell" data-label="English">To | To Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -385,7 +502,10 @@
 <div class="cell" data-label="Column">toTotalChangeFees</div>
 <div class="cell" data-label="Arabic">الي | إجمالي التعديلات</div>
 <div class="cell" data-label="English">To | Total Change Fees</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -394,7 +514,10 @@
 <div class="cell" data-label="Column">valueDate</div>
 <div class="cell" data-label="Arabic">التاريخ الفعلي</div>
 <div class="cell" data-label="English">Value Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 

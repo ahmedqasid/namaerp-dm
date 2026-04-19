@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">lastTaskDate</div>
 <div class="cell" data-label="Arabic">تاريخ المهمه</div>
 <div class="cell" data-label="English">Last Task Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">lastTaskKM</div>
 <div class="cell" data-label="Arabic">القراءة عند تنفيذ المهمه</div>
 <div class="cell" data-label="English">Last Task KiloMetrage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">operation_id</div>
 <div class="cell" data-label="Arabic">عملية</div>
 <div class="cell" data-label="English">Operation</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SrvCOperation](/modules/srvcenter/SrvCOperation.md) 
@@ -64,7 +76,10 @@
 <div class="cell gen-ref-column" data-label="Column">ownerActualCode,  ownerCode,  ownerEntityType,  ownerId</div>
 <div class="cell" data-label="Arabic"> مالك المستند</div>
 <div class="cell" data-label="English"> Document Owner</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -73,7 +88,10 @@
 <div class="cell" data-label="Column">previousOdometer</div>
 <div class="cell" data-label="Arabic">القراءة العداد السابقة</div>
 <div class="cell" data-label="English">Previous Odometer</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -82,7 +100,10 @@
 <div class="cell" data-label="Column">previousOdometerDate</div>
 <div class="cell" data-label="Arabic">تاريخ قراءة العداد السابقة</div>
 <div class="cell" data-label="English">Previous Odometer Date</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -91,7 +112,10 @@
 <div class="cell" data-label="Column">product_id</div>
 <div class="cell" data-label="Arabic">المنتج</div>
 <div class="cell" data-label="English">Product</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SrvCProduct](/modules/srvcenter/SrvCProduct.md) 
@@ -103,7 +127,10 @@
 <div class="cell" data-label="Column">recurEveryKM</div>
 <div class="cell" data-label="Arabic">تكرر كل / كم</div>
 <div class="cell" data-label="English">Recur Every KM</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -112,7 +139,10 @@
 <div class="cell" data-label="Column">task_id</div>
 <div class="cell" data-label="Arabic">المهمة</div>
 <div class="cell" data-label="English">Task</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SrvCTask](/modules/srvcenter/SrvCTask.md) 

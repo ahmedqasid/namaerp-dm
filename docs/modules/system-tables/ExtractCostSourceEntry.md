@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">consumedQty</div>
 <div class="cell" data-label="Arabic">الكمية المستخدمة</div>
 <div class="cell" data-label="English">Consumed Qty</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">costExecution_id</div>
 <div class="cell" data-label="Arabic">حصر التكاليف</div>
 <div class="cell" data-label="English">Cost Execution</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ContractingCostExecution](/modules/contracting/ContractingCostExecution.md) 
@@ -46,7 +52,10 @@
 <div class="cell" data-label="Column">costExecutionLineId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -55,7 +64,10 @@
 <div class="cell" data-label="Column">extract_id</div>
 <div class="cell" data-label="Arabic">مستخلص المشروع</div>
 <div class="cell" data-label="English">Project Extract</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ProjContrExtract](/modules/contracting/ProjContrExtract.md) 
@@ -67,7 +79,10 @@
 <div class="cell" data-label="Column">extractLineId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -76,7 +91,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -85,7 +103,10 @@
 <div class="cell" data-label="Column">termCode</div>
 <div class="cell" data-label="Arabic">كود البند</div>
 <div class="cell" data-label="English">Term Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -94,7 +115,10 @@
 <div class="cell" data-label="Column">totalCost</div>
 <div class="cell" data-label="Arabic">اجمالى التكلفة</div>
 <div class="cell" data-label="English">Total Cost</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -103,7 +127,10 @@
 <div class="cell" data-label="Column">unitCost</div>
 <div class="cell" data-label="Arabic">تكلفة الوحده</div>
 <div class="cell" data-label="English">Unit Cost</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 

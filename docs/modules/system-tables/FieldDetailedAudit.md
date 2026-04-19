@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">actionDate</div>
 <div class="cell" data-label="Arabic">تاريخ الحدث</div>
 <div class="cell" data-label="English">Action Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">deletedLine</div>
 <div class="cell" data-label="Arabic">سطر محذوف</div>
 <div class="cell" data-label="English">Deleted Line</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">fieldID</div>
 <div class="cell" data-label="Arabic"> الحقل</div>
 <div class="cell" data-label="English"> On Field</div>
-<div class="cell" data-label="Type">FieldID</div>
+<div class="cell" data-label="Type">
+
+FieldID
+</div>
 
 </div>
 
@@ -52,7 +61,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -61,7 +73,10 @@
 <div class="cell" data-label="Column">lineId</div>
 <div class="cell" data-label="Arabic">م</div>
 <div class="cell" data-label="English">S</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -70,7 +85,10 @@
 <div class="cell" data-label="Column">newDate</div>
 <div class="cell" data-label="Arabic">التاريخ الجديد</div>
 <div class="cell" data-label="English">New Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -79,7 +97,10 @@
 <div class="cell" data-label="Column">newLine</div>
 <div class="cell" data-label="Arabic">سطر جديد</div>
 <div class="cell" data-label="English">New Line</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -88,7 +109,10 @@
 <div class="cell" data-label="Column">newNum</div>
 <div class="cell" data-label="Arabic">الرقم الجديد</div>
 <div class="cell" data-label="English">New Number</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -97,7 +121,10 @@
 <div class="cell gen-ref-column" data-label="Column">newRefActualCode,  newRefCode,  newRefEntityType,  newRefId</div>
 <div class="cell" data-label="Arabic">المرجع الجديد</div>
 <div class="cell" data-label="English">New Reference</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -106,7 +133,10 @@
 <div class="cell" data-label="Column">newValue</div>
 <div class="cell" data-label="Arabic">القيمة الجديدة</div>
 <div class="cell" data-label="English">New Value</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -115,7 +145,10 @@
 <div class="cell" data-label="Column">oldDate</div>
 <div class="cell" data-label="Arabic">التاريخ القديم</div>
 <div class="cell" data-label="English">Old Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -124,7 +157,10 @@
 <div class="cell" data-label="Column">oldNum</div>
 <div class="cell" data-label="Arabic">الرقم القديم</div>
 <div class="cell" data-label="English">Old Number</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -133,7 +169,10 @@
 <div class="cell gen-ref-column" data-label="Column">oldRefActualCode,  oldRefCode,  oldRefEntityType,  oldRefId</div>
 <div class="cell" data-label="Arabic">المرجع القديم</div>
 <div class="cell" data-label="English">Old Reference</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -142,7 +181,10 @@
 <div class="cell" data-label="Column">oldValue</div>
 <div class="cell" data-label="Arabic">القيمة القديمة</div>
 <div class="cell" data-label="English">Old Value</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -151,7 +193,10 @@
 <div class="cell gen-ref-column" data-label="Column">ownerActualCode,  ownerCode,  ownerEntityType,  ownerId</div>
 <div class="cell" data-label="Arabic"> مالك المستند</div>
 <div class="cell" data-label="English"> Document Owner</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -160,7 +205,10 @@
 <div class="cell" data-label="Column">versionNumber</div>
 <div class="cell" data-label="Arabic">رقم الإصدار</div>
 <div class="cell" data-label="English">Version Number</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 

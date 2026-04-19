@@ -32,7 +32,10 @@
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic">المجموعة التحليلية</div>
 <div class="cell" data-label="English">Analysis set</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [AnalysisSet](/modules/basic/AnalysisSet.md) 
@@ -44,7 +47,10 @@
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -53,7 +59,10 @@
 <div class="cell" data-label="Column">applicabilityMethod</div>
 <div class="cell" data-label="Arabic">طريقة التطبيق</div>
 <div class="cell" data-label="English">Applicability Method</div>
-<div class="cell" data-label="Type"> [ApplicabilityMethod](/modules/enums/ApplicabilityMethod.md) </div>
+<div class="cell" data-label="Type">
+
+ [ApplicabilityMethod](/modules/enums/ApplicabilityMethod.md) 
+</div>
 
 </div>
 
@@ -62,7 +71,10 @@
 <div class="cell" data-label="Column">branch_id</div>
 <div class="cell" data-label="Arabic">الفرع</div>
 <div class="cell" data-label="English">Branch</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Branch](/modules/basic/Branch.md) 
@@ -74,7 +86,10 @@
 <div class="cell" data-label="Column">branch_id</div>
 <div class="cell" data-label="Arabic">Branch ID</div>
 <div class="cell" data-label="English">Branch ID</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -83,7 +98,10 @@
 <div class="cell" data-label="Column">calcMethod</div>
 <div class="cell" data-label="Arabic">طريقة الحساب</div>
 <div class="cell" data-label="English">Calculation Method</div>
-<div class="cell" data-label="Type"> [FormulaCalcMethod](/modules/enums/FormulaCalcMethod.md) </div>
+<div class="cell" data-label="Type">
+
+ [FormulaCalcMethod](/modules/enums/FormulaCalcMethod.md) 
+</div>
 
 </div>
 
@@ -92,7 +110,10 @@
 <div class="cell" data-label="Column">code</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -101,7 +122,10 @@
 <div class="cell" data-label="Column">colorCode</div>
 <div class="cell" data-label="Arabic">كود اللون</div>
 <div class="cell" data-label="English">Color Code</div>
-<div class="cell" data-label="Type">Color</div>
+<div class="cell" data-label="Type">
+
+Color
+</div>
 
 </div>
 
@@ -110,7 +134,10 @@
 <div class="cell" data-label="Column">commitedBefore</div>
 <div class="cell" data-label="Arabic">تم الحفظ مسبقا</div>
 <div class="cell" data-label="English">Commited Before</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -119,7 +146,10 @@
 <div class="cell" data-label="Column">componentGroup_id</div>
 <div class="cell" data-label="Arabic"> مجموعة مفردات راتب</div>
 <div class="cell" data-label="English">Component Group</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalaryComponentGroup](/modules/humanresource-payroll/SalaryComponentGroup.md) 
@@ -131,7 +161,10 @@
 <div class="cell" data-label="Column">componentType_id</div>
 <div class="cell" data-label="Arabic">نوع المفرد</div>
 <div class="cell" data-label="English">Component Type</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalaryComponentType](/modules/humanresource-payroll/SalaryComponentType.md) 
@@ -143,7 +176,10 @@
 <div class="cell" data-label="Column">componentType10_id</div>
 <div class="cell" data-label="Arabic">نوع المفرد 10</div>
 <div class="cell" data-label="English">component Type 10</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalaryComponentType](/modules/humanresource-payroll/SalaryComponentType.md) 
@@ -155,7 +191,10 @@
 <div class="cell" data-label="Column">componentType2_id</div>
 <div class="cell" data-label="Arabic">نوع المفرد 2</div>
 <div class="cell" data-label="English">component Type 2</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalaryComponentType](/modules/humanresource-payroll/SalaryComponentType.md) 
@@ -167,7 +206,10 @@
 <div class="cell" data-label="Column">componentType3_id</div>
 <div class="cell" data-label="Arabic">نوع المفرد 3</div>
 <div class="cell" data-label="English">component Type 3</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalaryComponentType](/modules/humanresource-payroll/SalaryComponentType.md) 
@@ -179,7 +221,10 @@
 <div class="cell" data-label="Column">componentType4_id</div>
 <div class="cell" data-label="Arabic">نوع المفرد 4</div>
 <div class="cell" data-label="English">component Type 4</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalaryComponentType](/modules/humanresource-payroll/SalaryComponentType.md) 
@@ -191,7 +236,10 @@
 <div class="cell" data-label="Column">componentType5_id</div>
 <div class="cell" data-label="Arabic">نوع المفرد 5</div>
 <div class="cell" data-label="English">component Type 5</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalaryComponentType](/modules/humanresource-payroll/SalaryComponentType.md) 
@@ -203,7 +251,10 @@
 <div class="cell" data-label="Column">componentType6_id</div>
 <div class="cell" data-label="Arabic">نوع المفرد 6</div>
 <div class="cell" data-label="English">component Type 6</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalaryComponentType](/modules/humanresource-payroll/SalaryComponentType.md) 
@@ -215,7 +266,10 @@
 <div class="cell" data-label="Column">componentType7_id</div>
 <div class="cell" data-label="Arabic">نوع المفرد 7</div>
 <div class="cell" data-label="English">component Type 7</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalaryComponentType](/modules/humanresource-payroll/SalaryComponentType.md) 
@@ -227,7 +281,10 @@
 <div class="cell" data-label="Column">componentType8_id</div>
 <div class="cell" data-label="Arabic">نوع المفرد 8</div>
 <div class="cell" data-label="English">component Type 8</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalaryComponentType](/modules/humanresource-payroll/SalaryComponentType.md) 
@@ -239,7 +296,10 @@
 <div class="cell" data-label="Column">componentType9_id</div>
 <div class="cell" data-label="Arabic">نوع المفرد 9</div>
 <div class="cell" data-label="English">component Type 9</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SalaryComponentType](/modules/humanresource-payroll/SalaryComponentType.md) 
@@ -251,7 +311,10 @@
 <div class="cell" data-label="Column">createTransactionId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -260,7 +323,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -269,7 +335,10 @@
 <div class="cell" data-label="Column">currentApprovalCase_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type"></div>
+<div class="cell" data-label="Type">
+
+
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ApprovalCase](/modules/system-tables/ApprovalCase.md) 
@@ -281,7 +350,10 @@
 <div class="cell" data-label="Column">currentVersion</div>
 <div class="cell" data-label="Arabic">النسخة الحالية</div>
 <div class="cell" data-label="English">Current Version</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -290,7 +362,10 @@
 <div class="cell" data-label="Column">customViewName</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -299,7 +374,10 @@
 <div class="cell" data-label="Column">date1</div>
 <div class="cell" data-label="Arabic">تـــاريخ 1</div>
 <div class="cell" data-label="English">Date 1</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -308,7 +386,10 @@
 <div class="cell" data-label="Column">date2</div>
 <div class="cell" data-label="Arabic">تـــاريخ 2</div>
 <div class="cell" data-label="English">Date 2</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -317,7 +398,10 @@
 <div class="cell" data-label="Column">date3</div>
 <div class="cell" data-label="Arabic">تاريخ 3</div>
 <div class="cell" data-label="English">Date3</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -326,7 +410,10 @@
 <div class="cell" data-label="Column">date4</div>
 <div class="cell" data-label="Arabic">تاريخ 4</div>
 <div class="cell" data-label="English">Date4</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -335,7 +422,10 @@
 <div class="cell" data-label="Column">date5</div>
 <div class="cell" data-label="Arabic">تاريخ 5</div>
 <div class="cell" data-label="English">Date5</div>
-<div class="cell" data-label="Type">Date</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
 
 </div>
 
@@ -344,7 +434,10 @@
 <div class="cell" data-label="Column">department_id</div>
 <div class="cell" data-label="Arabic">الإدارة</div>
 <div class="cell" data-label="English">Department</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Department](/modules/basic/Department.md) 
@@ -356,7 +449,10 @@
 <div class="cell" data-label="Column">department_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -365,7 +461,10 @@
 <div class="cell" data-label="Column">description1</div>
 <div class="cell" data-label="Arabic">الوصف 1</div>
 <div class="cell" data-label="English">description1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -374,7 +473,10 @@
 <div class="cell" data-label="Column">description2</div>
 <div class="cell" data-label="Arabic">الوصف 2</div>
 <div class="cell" data-label="English">description2</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -383,7 +485,10 @@
 <div class="cell" data-label="Column">description3</div>
 <div class="cell" data-label="Arabic">الوصف 3</div>
 <div class="cell" data-label="English">description3</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -392,7 +497,10 @@
 <div class="cell" data-label="Column">description4</div>
 <div class="cell" data-label="Arabic">الوصف 4</div>
 <div class="cell" data-label="English">description4</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -401,7 +509,10 @@
 <div class="cell" data-label="Column">description5</div>
 <div class="cell" data-label="Arabic">الوصف 5</div>
 <div class="cell" data-label="English">description5</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -410,7 +521,10 @@
 <div class="cell" data-label="Column">discountInsuranceBeforeTax</div>
 <div class="cell" data-label="Arabic">خصم تأمينات العامل قبل الضريبة</div>
 <div class="cell" data-label="English">Discount Employee Insurance Before Tax</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -419,7 +533,10 @@
 <div class="cell" data-label="Column">docCategory_id</div>
 <div class="cell" data-label="Arabic"> تصنيف سجل</div>
 <div class="cell" data-label="English"> Record Category</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [DocCategory](/modules/basic/DocCategory.md) 
@@ -431,7 +548,10 @@
 <div class="cell" data-label="Column">documentFileStatus</div>
 <div class="cell" data-label="Arabic">حالة المستند</div>
 <div class="cell" data-label="English">Document File Status</div>
-<div class="cell" data-label="Type"> [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) </div>
+<div class="cell" data-label="Type">
+
+ [DocumentFileStatus](/modules/enums/DocumentFileStatus.md) 
+</div>
 
 </div>
 
@@ -440,7 +560,10 @@
 <div class="cell" data-label="Column">dontConsiderOtherMonthsInTax</div>
 <div class="cell" data-label="Arabic">عدم اعتبار الشهور الأخري عند حساب الضريبة</div>
 <div class="cell" data-label="English">Do Not Consider Other Months In Tax Calculation</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -449,7 +572,10 @@
 <div class="cell" data-label="Column">draftCreated</div>
 <div class="cell" data-label="Arabic">تم إنشاء مسودة</div>
 <div class="cell" data-label="English">Draft Created</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -458,7 +584,10 @@
 <div class="cell" data-label="Column">draftXML</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -467,7 +596,10 @@
 <div class="cell" data-label="Column">editedBy_id</div>
 <div class="cell" data-label="Arabic">بواسطة</div>
 <div class="cell" data-label="English">Edited By</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [NaMaUser](/modules/system-tables/NaMaUser.md) 
@@ -479,7 +611,10 @@
 <div class="cell" data-label="Column">employeeAccountType</div>
 <div class="cell" data-label="Arabic">نوع حساب الموظف (لنوع معادلة الرصيد)</div>
 <div class="cell" data-label="English">Employee Account Type (For Formula Balance Type)</div>
-<div class="cell" data-label="Type"> [SubsidiaryAccountType](/modules/enums/SubsidiaryAccountType.md) </div>
+<div class="cell" data-label="Type">
+
+ [SubsidiaryAccountType](/modules/enums/SubsidiaryAccountType.md) 
+</div>
 
 </div>
 
@@ -488,7 +623,10 @@
 <div class="cell" data-label="Column">entitySystemEntry_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -497,7 +635,10 @@
 <div class="cell" data-label="Column">entityType</div>
 <div class="cell" data-label="Arabic">النوع</div>
 <div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">EntityType</div>
+<div class="cell" data-label="Type">
+
+EntityType
+</div>
 
 </div>
 
@@ -506,7 +647,10 @@
 <div class="cell" data-label="Column">firstAuthor_id</div>
 <div class="cell" data-label="Arabic">منشئ السجل</div>
 <div class="cell" data-label="English">First Author</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [NaMaUser](/modules/system-tables/NaMaUser.md) 
@@ -518,7 +662,10 @@
 <div class="cell" data-label="Column">firstAuthor_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -527,7 +674,10 @@
 <div class="cell" data-label="Column">formulaType</div>
 <div class="cell" data-label="Arabic">نوع المعادلة</div>
 <div class="cell" data-label="English">Formula Type</div>
-<div class="cell" data-label="Type"> [FormulaType](/modules/enums/FormulaType.md) </div>
+<div class="cell" data-label="Type">
+
+ [FormulaType](/modules/enums/FormulaType.md) 
+</div>
 
 </div>
 
@@ -536,7 +686,10 @@
 <div class="cell" data-label="Column">fractionalPlaces</div>
 <div class="cell" data-label="Arabic">عدد خانات الكسر</div>
 <div class="cell" data-label="English">Decimal Fractional Places</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -545,7 +698,10 @@
 <div class="cell" data-label="Column">generatedByLine</div>
 <div class="cell" data-label="Arabic">كود سطر الإنشاء</div>
 <div class="cell" data-label="English">generated By Line</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -554,7 +710,10 @@
 <div class="cell" data-label="Column">generatedDocsCount</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -563,7 +722,10 @@
 <div class="cell gen-ref-column" data-label="Column">generatedFromActualCode,  generatedFromCode,  generatedFromEntityType,  generatedFromId</div>
 <div class="cell" data-label="Arabic">تم إنشاؤه من</div>
 <div class="cell" data-label="English">Generated From</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -572,7 +734,10 @@
 <div class="cell" data-label="Column">generationType</div>
 <div class="cell" data-label="Arabic">نوع الإنشاء</div>
 <div class="cell" data-label="English">Generation Type</div>
-<div class="cell" data-label="Type"> [GenerationType](/modules/enums/GenerationType.md) </div>
+<div class="cell" data-label="Type">
+
+ [GenerationType](/modules/enums/GenerationType.md) 
+</div>
 
 </div>
 
@@ -581,7 +746,10 @@
 <div class="cell" data-label="Column">group_id</div>
 <div class="cell" data-label="Arabic">المجموعة</div>
 <div class="cell" data-label="English">Group</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [MasterGroup](/modules/basic/MasterGroup.md) 
@@ -593,7 +761,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -602,7 +773,10 @@
 <div class="cell" data-label="Column">ignoreCompsForPrevTaxDocs</div>
 <div class="cell" data-label="Arabic">تجاهل المفردات المحددة عند حساب وعاء الضريبة للسندات السابقة</div>
 <div class="cell" data-label="English">Ignore Specified Components When Calculating Taxes From Previous Documents</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -611,7 +785,10 @@
 <div class="cell" data-label="Column">indexInParent</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -620,7 +797,10 @@
 <div class="cell" data-label="Column">lastChangeVersion</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -629,7 +809,10 @@
 <div class="cell" data-label="Column">LastModifyTransactionId</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -638,7 +821,10 @@
 <div class="cell" data-label="Column">lastUpdateDate</div>
 <div class="cell" data-label="Arabic">تاريخ اخر تحديث</div>
 <div class="cell" data-label="English">Last update Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -647,7 +833,10 @@
 <div class="cell" data-label="Column">legalEntity_id</div>
 <div class="cell" data-label="Arabic">الشركة</div>
 <div class="cell" data-label="English">Legal Entity</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LegalEntity](/modules/basic/LegalEntity.md) 
@@ -659,7 +848,10 @@
 <div class="cell" data-label="Column">legalEntity_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -668,7 +860,10 @@
 <div class="cell" data-label="Column">lockVersion</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -677,7 +872,10 @@
 <div class="cell" data-label="Column">mainFile_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Binary</div>
+<div class="cell" data-label="Type">
+
+Binary
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [LargeData](/modules/system-tables/LargeData.md) 
@@ -689,7 +887,10 @@
 <div class="cell" data-label="Column">maxFormulaValue</div>
 <div class="cell" data-label="Arabic">أقصي قيمة للمعادلة</div>
 <div class="cell" data-label="English">Maximum Formula Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -698,7 +899,10 @@
 <div class="cell" data-label="Column">minFormulaValue</div>
 <div class="cell" data-label="Arabic">أقل قيمة للمعادلة</div>
 <div class="cell" data-label="English">Minimum Formula Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -707,7 +911,10 @@
 <div class="cell" data-label="Column">multByDivOnQueryByDate</div>
 <div class="cell" data-label="Arabic">إستعلام مضروبا في مقسوما على يومي</div>
 <div class="cell" data-label="English">Multiplied By Divided On By Date</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -716,7 +923,10 @@
 <div class="cell" data-label="Column">n1</div>
 <div class="cell" data-label="Arabic">رقم 1</div>
 <div class="cell" data-label="English">Number 1</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -725,7 +935,10 @@
 <div class="cell" data-label="Column">n2</div>
 <div class="cell" data-label="Arabic">رقم 2</div>
 <div class="cell" data-label="English">Number 2</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -734,7 +947,10 @@
 <div class="cell" data-label="Column">n3</div>
 <div class="cell" data-label="Arabic">رقم 3</div>
 <div class="cell" data-label="English">Number 3</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -743,7 +959,10 @@
 <div class="cell" data-label="Column">n4</div>
 <div class="cell" data-label="Arabic">رقم 4</div>
 <div class="cell" data-label="English">Number 4</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -752,7 +971,10 @@
 <div class="cell" data-label="Column">n5</div>
 <div class="cell" data-label="Arabic">رقم 5</div>
 <div class="cell" data-label="English">Number 5</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -761,7 +983,10 @@
 <div class="cell" data-label="Column">name1</div>
 <div class="cell" data-label="Arabic">الاسم العربي</div>
 <div class="cell" data-label="English">Name1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -770,7 +995,10 @@
 <div class="cell" data-label="Column">name2</div>
 <div class="cell" data-label="Arabic">الاسم الإنجليزي</div>
 <div class="cell" data-label="English">Name2</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -779,7 +1007,10 @@
 <div class="cell" data-label="Column">considerIssuance1_id</div>
 <div class="cell" data-label="Arabic">الصرفية المعتبرة 1</div>
 <div class="cell" data-label="English">Consider Issuance 1</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HRSalaryIssuance](/modules/humanresource-payroll/HRSalaryIssuance.md) 
@@ -791,7 +1022,10 @@
 <div class="cell" data-label="Column">considerIssuance10_id</div>
 <div class="cell" data-label="Arabic">الصرفية المعتبرة 10</div>
 <div class="cell" data-label="English">Consider Issuance 10</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HRSalaryIssuance](/modules/humanresource-payroll/HRSalaryIssuance.md) 
@@ -803,7 +1037,10 @@
 <div class="cell" data-label="Column">considerIssuance2_id</div>
 <div class="cell" data-label="Arabic">الصرفية المعتبرة 2</div>
 <div class="cell" data-label="English">Consider Issuance 2</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HRSalaryIssuance](/modules/humanresource-payroll/HRSalaryIssuance.md) 
@@ -815,7 +1052,10 @@
 <div class="cell" data-label="Column">considerIssuance3_id</div>
 <div class="cell" data-label="Arabic">الصرفية المعتبرة 3</div>
 <div class="cell" data-label="English">Consider Issuance 3</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HRSalaryIssuance](/modules/humanresource-payroll/HRSalaryIssuance.md) 
@@ -827,7 +1067,10 @@
 <div class="cell" data-label="Column">considerIssuance4_id</div>
 <div class="cell" data-label="Arabic">الصرفية المعتبرة 4</div>
 <div class="cell" data-label="English">Consider Issuance 4</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HRSalaryIssuance](/modules/humanresource-payroll/HRSalaryIssuance.md) 
@@ -839,7 +1082,10 @@
 <div class="cell" data-label="Column">considerIssuance5_id</div>
 <div class="cell" data-label="Arabic">الصرفية المعتبرة 5</div>
 <div class="cell" data-label="English">Consider Issuance 5</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HRSalaryIssuance](/modules/humanresource-payroll/HRSalaryIssuance.md) 
@@ -851,7 +1097,10 @@
 <div class="cell" data-label="Column">considerIssuance6_id</div>
 <div class="cell" data-label="Arabic">الصرفية المعتبرة 6</div>
 <div class="cell" data-label="English">Consider Issuance 6</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HRSalaryIssuance](/modules/humanresource-payroll/HRSalaryIssuance.md) 
@@ -863,7 +1112,10 @@
 <div class="cell" data-label="Column">considerIssuance7_id</div>
 <div class="cell" data-label="Arabic">الصرفية المعتبرة 7</div>
 <div class="cell" data-label="English">Consider Issuance 7</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HRSalaryIssuance](/modules/humanresource-payroll/HRSalaryIssuance.md) 
@@ -875,7 +1127,10 @@
 <div class="cell" data-label="Column">considerIssuance8_id</div>
 <div class="cell" data-label="Arabic">الصرفية المعتبرة 8</div>
 <div class="cell" data-label="English">Consider Issuance 8</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HRSalaryIssuance](/modules/humanresource-payroll/HRSalaryIssuance.md) 
@@ -887,7 +1142,10 @@
 <div class="cell" data-label="Column">considerIssuance9_id</div>
 <div class="cell" data-label="Arabic">الصرفية المعتبرة 9</div>
 <div class="cell" data-label="English">Consider Issuance 9</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HRSalaryIssuance](/modules/humanresource-payroll/HRSalaryIssuance.md) 
@@ -899,7 +1157,10 @@
 <div class="cell" data-label="Column">considerOtherIssuances</div>
 <div class="cell" data-label="Arabic">اعتبار الصرفيات الأخرى</div>
 <div class="cell" data-label="English">Consider Other Issuances</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -908,7 +1169,10 @@
 <div class="cell" data-label="Column">parentCode</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -917,7 +1181,10 @@
 <div class="cell" data-label="Column">penalty</div>
 <div class="cell" data-label="Arabic">العقوبة</div>
 <div class="cell" data-label="English">Penalty</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -926,7 +1193,10 @@
 <div class="cell" data-label="Column">performanceFactor</div>
 <div class="cell" data-label="Arabic">معدل الأداء</div>
 <div class="cell" data-label="English">Performance Factor</div>
-<div class="cell" data-label="Type"> [PerformanceFactor](/modules/enums/PerformanceFactor.md) </div>
+<div class="cell" data-label="Type">
+
+ [PerformanceFactor](/modules/enums/PerformanceFactor.md) 
+</div>
 
 </div>
 
@@ -935,7 +1205,10 @@
 <div class="cell" data-label="Column">performanceIndicator_id</div>
 <div class="cell" data-label="Arabic"> مؤشر الأداء</div>
 <div class="cell" data-label="English"> Performance Indicator</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [PerformanceIndicator](/modules/humanresource-payroll/PerformanceIndicator.md) 
@@ -947,7 +1220,10 @@
 <div class="cell" data-label="Column">preventUsage</div>
 <div class="cell" data-label="Arabic">منع الاستعمال</div>
 <div class="cell" data-label="English">Prevent Usage</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -956,7 +1232,10 @@
 <div class="cell" data-label="Column">printCount</div>
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -965,7 +1244,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref1ActualCode,  ref1Code,  ref1EntityType,  ref1Id</div>
 <div class="cell" data-label="Arabic">مرجع 1</div>
 <div class="cell" data-label="English">Reference 1</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -974,7 +1256,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref2ActualCode,  ref2Code,  ref2EntityType,  ref2Id</div>
 <div class="cell" data-label="Arabic">مرجع 2</div>
 <div class="cell" data-label="English">Reference 2</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -983,7 +1268,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref3ActualCode,  ref3Code,  ref3EntityType,  ref3Id</div>
 <div class="cell" data-label="Arabic">مرجع 3</div>
 <div class="cell" data-label="English">Reference 3</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -992,7 +1280,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref4ActualCode,  ref4Code,  ref4EntityType,  ref4Id</div>
 <div class="cell" data-label="Arabic">مرجع 4</div>
 <div class="cell" data-label="English">Reference 4</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -1001,7 +1292,10 @@
 <div class="cell gen-ref-column" data-label="Column">ref5ActualCode,  ref5Code,  ref5EntityType,  ref5Id</div>
 <div class="cell" data-label="Arabic">مرجع 5</div>
 <div class="cell" data-label="English">Reference 5</div>
-<div class="cell" data-label="Type">Genericreference</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
 
 </div>
 
@@ -1010,7 +1304,10 @@
 <div class="cell" data-label="Column">remark</div>
 <div class="cell" data-label="Arabic">ملاحظات</div>
 <div class="cell" data-label="English">Description</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1019,7 +1316,10 @@
 <div class="cell" data-label="Column">reviseLevel</div>
 <div class="cell" data-label="Arabic">مستوى المراجعة</div>
 <div class="cell" data-label="English">Revise Level</div>
-<div class="cell" data-label="Type"> [ReviseLevel](/modules/enums/ReviseLevel.md) </div>
+<div class="cell" data-label="Type">
+
+ [ReviseLevel](/modules/enums/ReviseLevel.md) 
+</div>
 
 </div>
 
@@ -1028,7 +1328,10 @@
 <div class="cell" data-label="Column">primitiveValue</div>
 <div class="cell" data-label="Arabic">تمت المراجعة</div>
 <div class="cell" data-label="English">Revised</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1037,7 +1340,10 @@
 <div class="cell" data-label="Column">revisedBy_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [NaMaUser](/modules/system-tables/NaMaUser.md) 
@@ -1049,7 +1355,10 @@
 <div class="cell" data-label="Column">roundingMode</div>
 <div class="cell" data-label="Arabic">طريقة التقريب</div>
 <div class="cell" data-label="English">Rounding Mode</div>
-<div class="cell" data-label="Type"> [RoundingType](/modules/enums/RoundingType.md) </div>
+<div class="cell" data-label="Type">
+
+ [RoundingType](/modules/enums/RoundingType.md) 
+</div>
 
 </div>
 
@@ -1058,7 +1367,10 @@
 <div class="cell" data-label="Column">sector_id</div>
 <div class="cell" data-label="Arabic">القطاع</div>
 <div class="cell" data-label="English">Sector</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [Sector](/modules/basic/Sector.md) 
@@ -1070,7 +1382,10 @@
 <div class="cell" data-label="Column">sector_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1079,7 +1394,10 @@
 <div class="cell" data-label="Column">systemGeneratedCodePrefix</div>
 <div class="cell" data-label="Arabic">System Generated Code Prefix</div>
 <div class="cell" data-label="English">System Generated Code Prefix</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1088,7 +1406,10 @@
 <div class="cell" data-label="Column">taxOnTax</div>
 <div class="cell" data-label="Arabic">احتساب ضريبة على الضريبة (اذا كانت الشركة تدفع الضرائب للموظف)</div>
 <div class="cell" data-label="English">Tax On Tax (If company pays employee taxes)</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1097,7 +1418,10 @@
 <div class="cell" data-label="Column">taxRangeIsMonthly</div>
 <div class="cell" data-label="Arabic">شرائح الضريبة شهرية و ليست سنوية</div>
 <div class="cell" data-label="English">Tax Range Is Monthly</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1106,7 +1430,10 @@
 <div class="cell" data-label="Column">updateCapability_id</div>
 <div class="cell" data-label="Arabic">صلاحية التعديل</div>
 <div class="cell" data-label="English">Update Capability</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SecurityCapability](/modules/basic/SecurityCapability.md) 
@@ -1118,7 +1445,10 @@
 <div class="cell" data-label="Column">updateCapability_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1127,7 +1457,10 @@
 <div class="cell" data-label="Column">usageCapability_id</div>
 <div class="cell" data-label="Arabic">صلاحية الاستخدام</div>
 <div class="cell" data-label="English">Usage Capability</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SecurityCapability](/modules/basic/SecurityCapability.md) 
@@ -1139,7 +1472,10 @@
 <div class="cell" data-label="Column">usageCapability_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1148,7 +1484,10 @@
 <div class="cell" data-label="Column">valueMethod</div>
 <div class="cell" data-label="Arabic">حساب المعامل</div>
 <div class="cell" data-label="English">Factor Value</div>
-<div class="cell" data-label="Type"> [ValueCalculationMethod](/modules/enums/ValueCalculationMethod.md) </div>
+<div class="cell" data-label="Type">
+
+ [ValueCalculationMethod](/modules/enums/ValueCalculationMethod.md) 
+</div>
 
 </div>
 
@@ -1157,7 +1496,10 @@
 <div class="cell" data-label="Column">viewCapability_id</div>
 <div class="cell" data-label="Arabic">صلاحية المطالعة</div>
 <div class="cell" data-label="English">View Capability</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [SecurityCapability](/modules/basic/SecurityCapability.md) 
@@ -1169,7 +1511,10 @@
 <div class="cell" data-label="Column">viewCapability_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1200,7 +1545,10 @@
 <div class="cell" data-label="Column">addedValQuery</div>
 <div class="cell" data-label="Arabic">استعلام القيمة المضافة</div>
 <div class="cell" data-label="English">Added Value Query</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1209,7 +1557,10 @@
 <div class="cell" data-label="Column">addedValue</div>
 <div class="cell" data-label="Arabic">القيمة المضافة</div>
 <div class="cell" data-label="English">Added Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1218,7 +1569,10 @@
 <div class="cell" data-label="Column">annualRangeFrom</div>
 <div class="cell" data-label="Arabic">المدي للفترات المجمعة / السنوية | من</div>
 <div class="cell" data-label="English">Aggregated Periods / Annual Range | From</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1227,7 +1581,10 @@
 <div class="cell" data-label="Column">annualRangeFromQuery</div>
 <div class="cell" data-label="Arabic">استعلامات المدي للفترات المجمعة / السنوية | من</div>
 <div class="cell" data-label="English">Aggregated Periods / Annual Range Query| From</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1236,7 +1593,10 @@
 <div class="cell" data-label="Column">annualRangeTo</div>
 <div class="cell" data-label="Arabic">المدي للفترات المجمعة / السنوية | إلي</div>
 <div class="cell" data-label="English">Aggregated Periods / Annual Range | To</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1245,7 +1605,10 @@
 <div class="cell" data-label="Column">annualRangeToQuery</div>
 <div class="cell" data-label="Arabic">استعلامات المدي للفترات المجمعة / السنوية | إلي</div>
 <div class="cell" data-label="English">Aggregated Periods / Annual Range Query | To</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1254,7 +1617,10 @@
 <div class="cell" data-label="Column">bylawCode</div>
 <div class="cell" data-label="Arabic">كود الائحة</div>
 <div class="cell" data-label="English">ByLaw Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -1263,7 +1629,10 @@
 <div class="cell" data-label="Column">criteriaDefinition_id</div>
 <div class="cell" data-label="Arabic"> المعايير</div>
 <div class="cell" data-label="English"> Criteria</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [CriteriaDefinition](/modules/basic/CriteriaDefinition.md) 
@@ -1275,7 +1644,10 @@
 <div class="cell" data-label="Column">divideOn</div>
 <div class="cell" data-label="Arabic">المعدل | مقسوم علي</div>
 <div class="cell" data-label="English">Rate | Divide On</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1284,7 +1656,10 @@
 <div class="cell" data-label="Column">employeeInfoCriteria_id</div>
 <div class="cell" data-label="Arabic">معايير معلومات شئون الموظفين</div>
 <div class="cell" data-label="English">Employee Information Criteria</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [CriteriaDefinition](/modules/basic/CriteriaDefinition.md) 
@@ -1296,7 +1671,10 @@
 <div class="cell" data-label="Column">employeeInfoQuery</div>
 <div class="cell" data-label="Arabic">استعلام معلومات شئون الموظفين</div>
 <div class="cell" data-label="English">Employee Information Query</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1305,7 +1683,10 @@
 <div class="cell" data-label="Column">employeeQuery</div>
 <div class="cell" data-label="Arabic">استعلامات ملف الموظف</div>
 <div class="cell" data-label="English">Employee Query</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1314,7 +1695,10 @@
 <div class="cell" data-label="Column">experienceDaysFrom</div>
 <div class="cell" data-label="Arabic">مدة الخبرة بالأيام | من</div>
 <div class="cell" data-label="English">Experience Days | from</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1323,7 +1707,10 @@
 <div class="cell" data-label="Column">experienceDaysTo</div>
 <div class="cell" data-label="Arabic">مدة الخبرة بالأيام | إلى</div>
 <div class="cell" data-label="English">Experience Days | to</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1332,7 +1719,10 @@
 <div class="cell" data-label="Column">factorForHolidays</div>
 <div class="cell" data-label="Arabic">المعامل للعطلات</div>
 <div class="cell" data-label="English">Factor For Holidays</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1341,7 +1731,10 @@
 <div class="cell" data-label="Column">factorForVacations</div>
 <div class="cell" data-label="Arabic">المعامل للاجازات</div>
 <div class="cell" data-label="English">Factor For Vacations</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1350,7 +1743,10 @@
 <div class="cell" data-label="Column">factorForWeekEnds</div>
 <div class="cell" data-label="Arabic">المعامل للعطلات الإسبوعية</div>
 <div class="cell" data-label="English">Factor For WeekEnds</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1359,7 +1755,10 @@
 <div class="cell" data-label="Column">formulaLineRemark</div>
 <div class="cell" data-label="Arabic">ملاحظات المعادلة</div>
 <div class="cell" data-label="English">Formula Line Remark</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1368,7 +1767,10 @@
 <div class="cell" data-label="Column">fromAnnualOccurrenceCount</div>
 <div class="cell" data-label="Arabic">مرات التكرار للفترات المجمعة / السنوية | من</div>
 <div class="cell" data-label="English">Aggregated Periods / Annual Occurrence Count | From</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1377,7 +1779,10 @@
 <div class="cell" data-label="Column">fromOccurrenceCount</div>
 <div class="cell" data-label="Arabic">مرات التكرار | من</div>
 <div class="cell" data-label="English">Occurrence Count | from</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1386,7 +1791,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1395,7 +1803,10 @@
 <div class="cell" data-label="Column">inputRoundingType</div>
 <div class="cell" data-label="Arabic">طريقة تقريب المدخلات</div>
 <div class="cell" data-label="English">Input Rounding Type</div>
-<div class="cell" data-label="Type"> [RoundingType](/modules/enums/RoundingType.md) </div>
+<div class="cell" data-label="Type">
+
+ [RoundingType](/modules/enums/RoundingType.md) 
+</div>
 
 </div>
 
@@ -1404,7 +1815,10 @@
 <div class="cell" data-label="Column">issuance_id</div>
 <div class="cell" data-label="Arabic">الصرفية</div>
 <div class="cell" data-label="English">Issuance</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [HRSalaryIssuance](/modules/humanresource-payroll/HRSalaryIssuance.md) 
@@ -1416,7 +1830,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1425,7 +1842,10 @@
 <div class="cell" data-label="Column">multDivideQuery</div>
 <div class="cell" data-label="Arabic">استعلام مضروبا في مقسوما علي</div>
 <div class="cell" data-label="English">Multiply / Divide Query</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1434,7 +1854,10 @@
 <div class="cell" data-label="Column">multiplyBy</div>
 <div class="cell" data-label="Arabic">المعدل | مضروب في</div>
 <div class="cell" data-label="English">Rate | Multiply By</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1443,7 +1866,10 @@
 <div class="cell" data-label="Column">query</div>
 <div class="cell" data-label="Arabic">الاستعلام (يطبق على كل يوم على حدة)</div>
 <div class="cell" data-label="English">Query (Applied on every attendance day)</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1452,7 +1878,10 @@
 <div class="cell" data-label="Column">rangeFrom</div>
 <div class="cell" data-label="Arabic">المدي | من</div>
 <div class="cell" data-label="English">Range | From</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1461,7 +1890,10 @@
 <div class="cell" data-label="Column">rangeFromQuery</div>
 <div class="cell" data-label="Arabic">استعلامات المدي | من</div>
 <div class="cell" data-label="English">Range Query | From</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1470,7 +1902,10 @@
 <div class="cell" data-label="Column">rangeInMinutes</div>
 <div class="cell" data-label="Arabic">المدي بالدقيقة</div>
 <div class="cell" data-label="English">Range In Minutes</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -1479,7 +1914,10 @@
 <div class="cell" data-label="Column">rangeTo</div>
 <div class="cell" data-label="Arabic">المدي | إلي</div>
 <div class="cell" data-label="English">Range | To</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1488,7 +1926,10 @@
 <div class="cell" data-label="Column">rangeToQuery</div>
 <div class="cell" data-label="Arabic">استعلامات المدي | إلي</div>
 <div class="cell" data-label="English">Range Query | To</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1497,7 +1938,10 @@
 <div class="cell" data-label="Column">rate</div>
 <div class="cell" data-label="Arabic">المعدل | القيمة</div>
 <div class="cell" data-label="English">Rate | Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1506,7 +1950,10 @@
 <div class="cell" data-label="Column">roundInputToValue</div>
 <div class="cell" data-label="Arabic">تقريب المدخل لأقرب</div>
 <div class="cell" data-label="English">Round Input To Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1515,7 +1962,10 @@
 <div class="cell" data-label="Column">salaryDocumentCriteria_id</div>
 <div class="cell" data-label="Arabic">معايير سند الراتب</div>
 <div class="cell" data-label="English">Salary Document Criteria</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [CriteriaDefinition](/modules/basic/CriteriaDefinition.md) 
@@ -1527,7 +1977,10 @@
 <div class="cell" data-label="Column">salaryDocumentQuery</div>
 <div class="cell" data-label="Arabic">استعلام سند الراتب</div>
 <div class="cell" data-label="English">Salary Document Query</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1536,7 +1989,10 @@
 <div class="cell" data-label="Column">toAnnualOccurrenceCount</div>
 <div class="cell" data-label="Arabic">مرات التكرار للفترات المجمعة / السنوية | إلي</div>
 <div class="cell" data-label="English">Aggregated Periods / Annual Occurrence Count | To</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1545,7 +2001,10 @@
 <div class="cell" data-label="Column">toOccurrenceCount</div>
 <div class="cell" data-label="Arabic">مرات التكرار | إلى</div>
 <div class="cell" data-label="English">Occurrence Count | to</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1554,7 +2013,10 @@
 <div class="cell" data-label="Column">vacationFactor</div>
 <div class="cell" data-label="Arabic">معامل العطلات</div>
 <div class="cell" data-label="English">Vacation Factor</div>
-<div class="cell" data-label="Type"> [VacationFactor](/modules/enums/VacationFactor.md) </div>
+<div class="cell" data-label="Type">
+
+ [VacationFactor](/modules/enums/VacationFactor.md) 
+</div>
 
 </div>
 
@@ -1585,7 +2047,10 @@
 <div class="cell" data-label="Column">divideOn</div>
 <div class="cell" data-label="Arabic">مقسوما علي</div>
 <div class="cell" data-label="English">Divide On</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1594,7 +2059,10 @@
 <div class="cell" data-label="Column">formula_id</div>
 <div class="cell" data-label="Arabic">معادلة</div>
 <div class="cell" data-label="English">Formula</div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [ComponentCalcFormula](/modules/humanresource-payroll/ComponentCalcFormula.md) 
@@ -1606,7 +2074,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1615,7 +2086,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1624,7 +2098,10 @@
 <div class="cell" data-label="Column">multiplyBy</div>
 <div class="cell" data-label="Arabic">مضروب في</div>
 <div class="cell" data-label="English">Multiply By</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1633,7 +2110,10 @@
 <div class="cell" data-label="Column">remarks</div>
 <div class="cell" data-label="Arabic">ملاحظات</div>
 <div class="cell" data-label="English">Description</div>
-<div class="cell" data-label="Type">BigText</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
 
 </div>
 
@@ -1664,7 +2144,10 @@
 <div class="cell" data-label="Column">annualIncomeGreaterThan</div>
 <div class="cell" data-label="Arabic">الدخل السنوي أكبر من</div>
 <div class="cell" data-label="English">Annual Income Greater Than</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1673,7 +2156,10 @@
 <div class="cell" data-label="Column">annualIncomeLessThanOrEqual</div>
 <div class="cell" data-label="Arabic">الدخل السنوي أقل من أو يساوي</div>
 <div class="cell" data-label="English">Annual Income Less Than Or Equal</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1682,7 +2168,10 @@
 <div class="cell" data-label="Column">discountPercentage</div>
 <div class="cell" data-label="Arabic">نسبة الخصم</div>
 <div class="cell" data-label="English">Discount Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1691,7 +2180,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -1700,7 +2192,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -1709,7 +2204,10 @@
 <div class="cell" data-label="Column">maximumDiscount</div>
 <div class="cell" data-label="Arabic">اقصي خصم</div>
 <div class="cell" data-label="English">Maximum Discount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1718,7 +2216,10 @@
 <div class="cell" data-label="Column">minimumDiscount</div>
 <div class="cell" data-label="Arabic">اقل خصم</div>
 <div class="cell" data-label="English">Minimum Discount</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1727,7 +2228,10 @@
 <div class="cell" data-label="Column">taxPercentage</div>
 <div class="cell" data-label="Arabic">نسبة الضريبة</div>
 <div class="cell" data-label="English">Tax Percentage</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -1736,7 +2240,10 @@
 <div class="cell" data-label="Column">value</div>
 <div class="cell" data-label="Arabic">القيمة</div>
 <div class="cell" data-label="English">Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 

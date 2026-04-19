@@ -32,7 +32,10 @@
 <div class="cell" data-label="Column">code</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -41,7 +44,10 @@
 <div class="cell" data-label="Column">colorCode</div>
 <div class="cell" data-label="Arabic">كود اللون</div>
 <div class="cell" data-label="English">Color Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -50,7 +56,10 @@
 <div class="cell" data-label="Column">comitBefore</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -59,7 +68,10 @@
 <div class="cell" data-label="Column">creationDate</div>
 <div class="cell" data-label="Arabic">تاريخ الإنشاء</div>
 <div class="cell" data-label="English">Creation Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -68,7 +80,10 @@
 <div class="cell" data-label="Column">analysisSetCode</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -77,7 +92,10 @@
 <div class="cell" data-label="Column">analysisSetId</div>
 <div class="cell" data-label="Arabic">المعرف</div>
 <div class="cell" data-label="English">Id</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -86,7 +104,10 @@
 <div class="cell" data-label="Column">branchCode</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -95,7 +116,10 @@
 <div class="cell" data-label="Column">branchId</div>
 <div class="cell" data-label="Arabic">المعرف</div>
 <div class="cell" data-label="English">Id</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -104,7 +128,10 @@
 <div class="cell" data-label="Column">departmentCode</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -113,7 +140,10 @@
 <div class="cell" data-label="Column">departmentId</div>
 <div class="cell" data-label="Arabic">المعرف</div>
 <div class="cell" data-label="English">Id</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -122,7 +152,10 @@
 <div class="cell" data-label="Column">legalEntityCode</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -131,7 +164,10 @@
 <div class="cell" data-label="Column">legalEntityId</div>
 <div class="cell" data-label="Arabic">المعرف</div>
 <div class="cell" data-label="English">Id</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -140,7 +176,10 @@
 <div class="cell" data-label="Column">sectorCode</div>
 <div class="cell" data-label="Arabic">الكود</div>
 <div class="cell" data-label="English">Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -149,7 +188,10 @@
 <div class="cell" data-label="Column">sectorId</div>
 <div class="cell" data-label="Arabic">المعرف</div>
 <div class="cell" data-label="English">Id</div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -158,7 +200,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -167,7 +212,10 @@
 <div class="cell" data-label="Column">imgDownloadLink</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -176,7 +224,10 @@
 <div class="cell" data-label="Column">lastUpdateDate</div>
 <div class="cell" data-label="Arabic">تاريخ اخر تحديث</div>
 <div class="cell" data-label="English">Last update Date</div>
-<div class="cell" data-label="Type">DateAndTime</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
 
 </div>
 
@@ -185,7 +236,10 @@
 <div class="cell" data-label="Column">name1</div>
 <div class="cell" data-label="Arabic">الاسم العربي</div>
 <div class="cell" data-label="English">Name1</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -194,7 +248,10 @@
 <div class="cell" data-label="Column">name2</div>
 <div class="cell" data-label="Arabic">الاسم الإنجليزي</div>
 <div class="cell" data-label="English">Name2</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -203,7 +260,10 @@
 <div class="cell" data-label="Column">preventUsage</div>
 <div class="cell" data-label="Arabic">منع الاستعمال</div>
 <div class="cell" data-label="English">Prevent Usage</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -212,7 +272,10 @@
 <div class="cell" data-label="Column">printCount</div>
 <div class="cell" data-label="Arabic">عدد مرات الطباعة</div>
 <div class="cell" data-label="English">Print Count</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -221,7 +284,10 @@
 <div class="cell" data-label="Column">selected</div>
 <div class="cell" data-label="Arabic">اختيار</div>
 <div class="cell" data-label="English">Selected</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -230,7 +296,10 @@
 <div class="cell" data-label="Column">specs1MaxCodeLength</div>
 <div class="cell" data-label="Arabic">أقصى طول للكود</div>
 <div class="cell" data-label="English">Maximum Code Length</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -239,7 +308,10 @@
 <div class="cell" data-label="Column">specs1MinCodeLength</div>
 <div class="cell" data-label="Arabic">اقل طول للكود</div>
 <div class="cell" data-label="English">Minimum Code Length</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -248,7 +320,10 @@
 <div class="cell" data-label="Column">specs1Prefix</div>
 <div class="cell" data-label="Arabic">بادئة التكويد</div>
 <div class="cell" data-label="English">Prefix</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -257,7 +332,10 @@
 <div class="cell" data-label="Column">specs1Separator</div>
 <div class="cell" data-label="Arabic">الفاصل</div>
 <div class="cell" data-label="English">Separator</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -266,7 +344,10 @@
 <div class="cell" data-label="Column">specs1PrefixAsPartOfProperty</div>
 <div class="cell" data-label="Arabic">معاملة البادئة على انها جزء من اول خاصية</div>
 <div class="cell" data-label="English">Treat Prefix As Part Of First Property</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -275,7 +356,10 @@
 <div class="cell" data-label="Column">specs2MaxCodeLength</div>
 <div class="cell" data-label="Arabic">أقصى طول للكود</div>
 <div class="cell" data-label="English">Maximum Code Length</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -284,7 +368,10 @@
 <div class="cell" data-label="Column">specs2MinCodeLength</div>
 <div class="cell" data-label="Arabic">اقل طول للكود</div>
 <div class="cell" data-label="English">Minimum Code Length</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -293,7 +380,10 @@
 <div class="cell" data-label="Column">specs2Prefix</div>
 <div class="cell" data-label="Arabic">بادئة التكويد</div>
 <div class="cell" data-label="English">Prefix</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -302,7 +392,10 @@
 <div class="cell" data-label="Column">specs2Separator</div>
 <div class="cell" data-label="Arabic">الفاصل</div>
 <div class="cell" data-label="English">Separator</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -311,7 +404,10 @@
 <div class="cell" data-label="Column">specs2PrefixAsPartOfProperty</div>
 <div class="cell" data-label="Arabic">معاملة البادئة على انها جزء من اول خاصية</div>
 <div class="cell" data-label="English">Treat Prefix As Part Of First Property</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -320,7 +416,10 @@
 <div class="cell" data-label="Column">specs3MaxCodeLength</div>
 <div class="cell" data-label="Arabic">أقصى طول للكود</div>
 <div class="cell" data-label="English">Maximum Code Length</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -329,7 +428,10 @@
 <div class="cell" data-label="Column">specs3MinCodeLength</div>
 <div class="cell" data-label="Arabic">اقل طول للكود</div>
 <div class="cell" data-label="English">Minimum Code Length</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -338,7 +440,10 @@
 <div class="cell" data-label="Column">specs3Prefix</div>
 <div class="cell" data-label="Arabic">بادئة التكويد</div>
 <div class="cell" data-label="English">Prefix</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -347,7 +452,10 @@
 <div class="cell" data-label="Column">specs3Separator</div>
 <div class="cell" data-label="Arabic">الفاصل</div>
 <div class="cell" data-label="English">Separator</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -356,7 +464,10 @@
 <div class="cell" data-label="Column">specs3PrefixAsPartOfProperty</div>
 <div class="cell" data-label="Arabic">معاملة البادئة على انها جزء من اول خاصية</div>
 <div class="cell" data-label="English">Treat Prefix As Part Of First Property</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -365,7 +476,10 @@
 <div class="cell" data-label="Column">specs4MaxCodeLength</div>
 <div class="cell" data-label="Arabic">أقصى طول للكود</div>
 <div class="cell" data-label="English">Maximum Code Length</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -374,7 +488,10 @@
 <div class="cell" data-label="Column">specs4MinCodeLength</div>
 <div class="cell" data-label="Arabic">اقل طول للكود</div>
 <div class="cell" data-label="English">Minimum Code Length</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -383,7 +500,10 @@
 <div class="cell" data-label="Column">specs4Prefix</div>
 <div class="cell" data-label="Arabic">بادئة التكويد</div>
 <div class="cell" data-label="English">Prefix</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -392,7 +512,10 @@
 <div class="cell" data-label="Column">specs4Separator</div>
 <div class="cell" data-label="Arabic">الفاصل</div>
 <div class="cell" data-label="English">Separator</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -401,7 +524,10 @@
 <div class="cell" data-label="Column">specs4PrefixAsPartOfProperty</div>
 <div class="cell" data-label="Arabic">معاملة البادئة على انها جزء من اول خاصية</div>
 <div class="cell" data-label="English">Treat Prefix As Part Of First Property</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -410,7 +536,10 @@
 <div class="cell" data-label="Column">specs5MaxCodeLength</div>
 <div class="cell" data-label="Arabic">أقصى طول للكود</div>
 <div class="cell" data-label="English">Maximum Code Length</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -419,7 +548,10 @@
 <div class="cell" data-label="Column">specs5MinCodeLength</div>
 <div class="cell" data-label="Arabic">اقل طول للكود</div>
 <div class="cell" data-label="English">Minimum Code Length</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -428,7 +560,10 @@
 <div class="cell" data-label="Column">specs5Prefix</div>
 <div class="cell" data-label="Arabic">بادئة التكويد</div>
 <div class="cell" data-label="English">Prefix</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -437,7 +572,10 @@
 <div class="cell" data-label="Column">specs5Separator</div>
 <div class="cell" data-label="Arabic">الفاصل</div>
 <div class="cell" data-label="English">Separator</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -446,7 +584,10 @@
 <div class="cell" data-label="Column">specs5PrefixAsPartOfProperty</div>
 <div class="cell" data-label="Arabic">معاملة البادئة على انها جزء من اول خاصية</div>
 <div class="cell" data-label="English">Treat Prefix As Part Of First Property</div>
-<div class="cell" data-label="Type">Boolean</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
 
 </div>
 
@@ -455,7 +596,10 @@
 <div class="cell" data-label="Column">writeFailures</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -486,7 +630,10 @@
 <div class="cell" data-label="Column">divideOn</div>
 <div class="cell" data-label="Arabic">مقسوما علي</div>
 <div class="cell" data-label="English">Divide On</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -495,7 +642,10 @@
 <div class="cell" data-label="Column">format</div>
 <div class="cell" data-label="Arabic">النسق</div>
 <div class="cell" data-label="English">Format</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -504,7 +654,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -513,7 +666,10 @@
 <div class="cell" data-label="Column">length</div>
 <div class="cell" data-label="Arabic"> عدد الحروف</div>
 <div class="cell" data-label="English"> Length</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -522,7 +678,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -531,7 +690,10 @@
 <div class="cell" data-label="Column">multiplyBy</div>
 <div class="cell" data-label="Arabic">مضروب في</div>
 <div class="cell" data-label="English">Multiply By</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -540,7 +702,10 @@
 <div class="cell" data-label="Column">parser_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSItemBarcodeParser](/modules/pos-app/POS.POSItemBarcodeParser.md) 
@@ -552,7 +717,10 @@
 <div class="cell" data-label="Column">property</div>
 <div class="cell" data-label="Arabic">الخاصية</div>
 <div class="cell" data-label="English">Property</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -561,7 +729,10 @@
 <div class="cell" data-label="Column">separator</div>
 <div class="cell" data-label="Arabic">الفاصل</div>
 <div class="cell" data-label="English">Separator</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -592,7 +763,10 @@
 <div class="cell" data-label="Column">divideOn</div>
 <div class="cell" data-label="Arabic">مقسوما علي</div>
 <div class="cell" data-label="English">Divide On</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -601,7 +775,10 @@
 <div class="cell" data-label="Column">format</div>
 <div class="cell" data-label="Arabic">النسق</div>
 <div class="cell" data-label="English">Format</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -610,7 +787,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -619,7 +799,10 @@
 <div class="cell" data-label="Column">length</div>
 <div class="cell" data-label="Arabic"> عدد الحروف</div>
 <div class="cell" data-label="English"> Length</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -628,7 +811,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -637,7 +823,10 @@
 <div class="cell" data-label="Column">multiplyBy</div>
 <div class="cell" data-label="Arabic">مضروب في</div>
 <div class="cell" data-label="English">Multiply By</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -646,7 +835,10 @@
 <div class="cell" data-label="Column">parser_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSItemBarcodeParser](/modules/pos-app/POS.POSItemBarcodeParser.md) 
@@ -658,7 +850,10 @@
 <div class="cell" data-label="Column">property</div>
 <div class="cell" data-label="Arabic">الخاصية</div>
 <div class="cell" data-label="English">Property</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -667,7 +862,10 @@
 <div class="cell" data-label="Column">separator</div>
 <div class="cell" data-label="Arabic">الفاصل</div>
 <div class="cell" data-label="English">Separator</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -698,7 +896,10 @@
 <div class="cell" data-label="Column">divideOn</div>
 <div class="cell" data-label="Arabic">مقسوما علي</div>
 <div class="cell" data-label="English">Divide On</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -707,7 +908,10 @@
 <div class="cell" data-label="Column">format</div>
 <div class="cell" data-label="Arabic">النسق</div>
 <div class="cell" data-label="English">Format</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -716,7 +920,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -725,7 +932,10 @@
 <div class="cell" data-label="Column">length</div>
 <div class="cell" data-label="Arabic"> عدد الحروف</div>
 <div class="cell" data-label="English"> Length</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -734,7 +944,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -743,7 +956,10 @@
 <div class="cell" data-label="Column">multiplyBy</div>
 <div class="cell" data-label="Arabic">مضروب في</div>
 <div class="cell" data-label="English">Multiply By</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -752,7 +968,10 @@
 <div class="cell" data-label="Column">parser_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSItemBarcodeParser](/modules/pos-app/POS.POSItemBarcodeParser.md) 
@@ -764,7 +983,10 @@
 <div class="cell" data-label="Column">property</div>
 <div class="cell" data-label="Arabic">الخاصية</div>
 <div class="cell" data-label="English">Property</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -773,7 +995,10 @@
 <div class="cell" data-label="Column">separator</div>
 <div class="cell" data-label="Arabic">الفاصل</div>
 <div class="cell" data-label="English">Separator</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -804,7 +1029,10 @@
 <div class="cell" data-label="Column">divideOn</div>
 <div class="cell" data-label="Arabic">مقسوما علي</div>
 <div class="cell" data-label="English">Divide On</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -813,7 +1041,10 @@
 <div class="cell" data-label="Column">format</div>
 <div class="cell" data-label="Arabic">النسق</div>
 <div class="cell" data-label="English">Format</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -822,7 +1053,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -831,7 +1065,10 @@
 <div class="cell" data-label="Column">length</div>
 <div class="cell" data-label="Arabic"> عدد الحروف</div>
 <div class="cell" data-label="English"> Length</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -840,7 +1077,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -849,7 +1089,10 @@
 <div class="cell" data-label="Column">multiplyBy</div>
 <div class="cell" data-label="Arabic">مضروب في</div>
 <div class="cell" data-label="English">Multiply By</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -858,7 +1101,10 @@
 <div class="cell" data-label="Column">parser_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSItemBarcodeParser](/modules/pos-app/POS.POSItemBarcodeParser.md) 
@@ -870,7 +1116,10 @@
 <div class="cell" data-label="Column">property</div>
 <div class="cell" data-label="Arabic">الخاصية</div>
 <div class="cell" data-label="English">Property</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -879,7 +1128,10 @@
 <div class="cell" data-label="Column">separator</div>
 <div class="cell" data-label="Arabic">الفاصل</div>
 <div class="cell" data-label="English">Separator</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -910,7 +1162,10 @@
 <div class="cell" data-label="Column">divideOn</div>
 <div class="cell" data-label="Arabic">مقسوما علي</div>
 <div class="cell" data-label="English">Divide On</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -919,7 +1174,10 @@
 <div class="cell" data-label="Column">format</div>
 <div class="cell" data-label="Arabic">النسق</div>
 <div class="cell" data-label="English">Format</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -928,7 +1186,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -937,7 +1198,10 @@
 <div class="cell" data-label="Column">length</div>
 <div class="cell" data-label="Arabic"> عدد الحروف</div>
 <div class="cell" data-label="English"> Length</div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -946,7 +1210,10 @@
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Integer</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
 
 </div>
 
@@ -955,7 +1222,10 @@
 <div class="cell" data-label="Column">multiplyBy</div>
 <div class="cell" data-label="Arabic">مضروب في</div>
 <div class="cell" data-label="English">Multiply By</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -964,7 +1234,10 @@
 <div class="cell" data-label="Column">parser_id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">Reference</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
 <div class="cell" data-label="Foreign Table">
 
  [POS.POSItemBarcodeParser](/modules/pos-app/POS.POSItemBarcodeParser.md) 
@@ -976,7 +1249,10 @@
 <div class="cell" data-label="Column">property</div>
 <div class="cell" data-label="Arabic">الخاصية</div>
 <div class="cell" data-label="English">Property</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -985,7 +1261,10 @@
 <div class="cell" data-label="Column">separator</div>
 <div class="cell" data-label="Arabic">الفاصل</div>
 <div class="cell" data-label="English">Separator</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 

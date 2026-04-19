@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">posProcedure</div>
 <div class="cell" data-label="Arabic">إجراء نقطة البيع</div>
 <div class="cell" data-label="English">POS Procedure</div>
-<div class="cell" data-label="Type"> [POSProcedures](/modules/enums/POSProcedures.md) </div>
+<div class="cell" data-label="Type">
+
+ [POSProcedures](/modules/enums/POSProcedures.md) 
+</div>
 
 </div>
 

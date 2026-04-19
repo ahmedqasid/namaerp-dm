@@ -25,7 +25,10 @@
 <div class="cell" data-label="Column">creditNoteCode</div>
 <div class="cell" data-label="Arabic">رقم</div>
 <div class="cell" data-label="English">Credit Note Code</div>
-<div class="cell" data-label="Type">Text</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
 
 </div>
 
@@ -34,7 +37,10 @@
 <div class="cell" data-label="Column">creditNoteValue</div>
 <div class="cell" data-label="Arabic">قيمة</div>
 <div class="cell" data-label="English">Credit Note Value</div>
-<div class="cell" data-label="Type">Decimal</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
 
 </div>
 
@@ -43,7 +49,10 @@
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">ID</div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
 
 </div>
 
