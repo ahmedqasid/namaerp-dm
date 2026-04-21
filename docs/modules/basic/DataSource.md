@@ -2222,6 +2222,18 @@ Integer
 
 </div>
 
+<div class="row searchable" id="parameters.listDisplayType">
+<div class="cell" data-label="Property">parameters.listDisplayType</div>
+<div class="cell" data-label="Column">listDisplayType</div>
+<div class="cell" data-label="Arabic">نوع عرض القائمة</div>
+<div class="cell" data-label="English">List Display Type</div>
+<div class="cell" data-label="Type">
+
+ [ListDisplayType](/modules/enums/ListDisplayType.md) 
+</div>
+
+</div>
+
 <div class="row searchable" id="parameters.mainFieldId">
 <div class="cell" data-label="Property">parameters.mainFieldId</div>
 <div class="cell" data-label="Column">mainFieldId</div>

@@ -3757,6 +3757,18 @@ Decimal
 
 </div>
 
+<div class="row searchable" id="details.n10">
+<div class="cell" data-label="Property">details.n10</div>
+<div class="cell" data-label="Column">n10</div>
+<div class="cell" data-label="Arabic">رقم 10</div>
+<div class="cell" data-label="English">Number 10</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
 <div class="row searchable" id="details.n2">
 <div class="cell" data-label="Property">details.n2</div>
 <div class="cell" data-label="Column">n2</div>
@@ -3774,6 +3786,78 @@ Decimal
 <div class="cell" data-label="Column">n3</div>
 <div class="cell" data-label="Arabic">رقم 3</div>
 <div class="cell" data-label="English">Number 3</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
+<div class="row searchable" id="details.n4">
+<div class="cell" data-label="Property">details.n4</div>
+<div class="cell" data-label="Column">n4</div>
+<div class="cell" data-label="Arabic">رقم 4</div>
+<div class="cell" data-label="English">Number 4</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
+<div class="row searchable" id="details.n5">
+<div class="cell" data-label="Property">details.n5</div>
+<div class="cell" data-label="Column">n5</div>
+<div class="cell" data-label="Arabic">رقم 5</div>
+<div class="cell" data-label="English">Number 5</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
+<div class="row searchable" id="details.n6">
+<div class="cell" data-label="Property">details.n6</div>
+<div class="cell" data-label="Column">n6</div>
+<div class="cell" data-label="Arabic">رقم 6</div>
+<div class="cell" data-label="English">Number 6</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
+<div class="row searchable" id="details.n7">
+<div class="cell" data-label="Property">details.n7</div>
+<div class="cell" data-label="Column">n7</div>
+<div class="cell" data-label="Arabic">رقم 7</div>
+<div class="cell" data-label="English">Number 7</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
+<div class="row searchable" id="details.n8">
+<div class="cell" data-label="Property">details.n8</div>
+<div class="cell" data-label="Column">n8</div>
+<div class="cell" data-label="Arabic">رقم 8</div>
+<div class="cell" data-label="English">Number 8</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
+<div class="row searchable" id="details.n9">
+<div class="cell" data-label="Property">details.n9</div>
+<div class="cell" data-label="Column">n9</div>
+<div class="cell" data-label="Arabic">رقم 9</div>
+<div class="cell" data-label="English">Number 9</div>
 <div class="cell" data-label="Type">
 
 Decimal

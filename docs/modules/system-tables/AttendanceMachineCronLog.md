@@ -20,7 +20,19 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="configFile">
+</div><div class="row searchable" id="areaAlias">
+<div class="cell" data-label="Property">areaAlias</div>
+<div class="cell" data-label="Column">areaAlias</div>
+<div class="cell" data-label="Arabic">Area Alias</div>
+<div class="cell" data-label="English">Area Alias</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="configFile">
 <div class="cell" data-label="Property">configFile</div>
 <div class="cell" data-label="Column">configFile_id</div>
 <div class="cell" data-label="Arabic">ملف الإعدادات</div>

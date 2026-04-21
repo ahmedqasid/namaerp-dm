@@ -700,6 +700,18 @@ ID
 
 </div>
 
+<div class="row searchable" id="listDisplayType">
+<div class="cell" data-label="Property">listDisplayType</div>
+<div class="cell" data-label="Column">listDisplayType</div>
+<div class="cell" data-label="Arabic">نوع عرض القائمة</div>
+<div class="cell" data-label="English">List Display Type</div>
+<div class="cell" data-label="Type">
+
+ [ListDisplayType](/modules/enums/ListDisplayType.md) 
+</div>
+
+</div>
+
 <div class="row searchable" id="listParam">
 <div class="cell" data-label="Property">listParam</div>
 <div class="cell" data-label="Column">listParam</div>

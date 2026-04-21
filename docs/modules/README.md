@@ -1071,6 +1071,7 @@
     - [LiquidationComponentIncludedInType](/modules/enums/LiquidationComponentIncludedInType.md)
     - [LiquidationStatus](/modules/enums/LiquidationStatus.md)
     - [LiquidationType](/modules/enums/LiquidationType.md)
+    - [ListDisplayType](/modules/enums/ListDisplayType.md)
     - [ListViewPageSize](/modules/enums/ListViewPageSize.md)
     - [LoanInterestType](/modules/enums/LoanInterestType.md)
     - [LoanPeriodType](/modules/enums/LoanPeriodType.md)
