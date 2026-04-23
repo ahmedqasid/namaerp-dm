@@ -1287,6 +1287,42 @@ Boolean
 
 </div>
 
+<div class="row searchable" id="uiSettingsOptions.hallsTablesBtnHeight">
+<div class="cell" data-label="Property">uiSettingsOptions.hallsTablesBtnHeight</div>
+<div class="cell" data-label="Column">hallsTablesBtnHeight</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
+<div class="row searchable" id="uiSettingsOptions.hallsTablesBtnWidth">
+<div class="cell" data-label="Property">uiSettingsOptions.hallsTablesBtnWidth</div>
+<div class="cell" data-label="Column">hallsTablesBtnWidth</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
+<div class="row searchable" id="uiSettingsOptions.hallsTablesCountPerLine">
+<div class="cell" data-label="Property">uiSettingsOptions.hallsTablesCountPerLine</div>
+<div class="cell" data-label="Column">hallsTablesCountPerLine</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
+
+</div>
+
 <div class="row searchable" id="uiSettingsOptions.logoImageWidth">
 <div class="cell" data-label="Property">uiSettingsOptions.logoImageWidth</div>
 <div class="cell" data-label="Column">logoImageWidth</div>

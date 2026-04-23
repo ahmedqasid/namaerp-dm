@@ -4611,6 +4611,18 @@ FieldID
 
 </div>
 
+<div class="row searchable" id="fieldStyles.fixedLetterCase">
+<div class="cell" data-label="Property">fieldStyles.fixedLetterCase</div>
+<div class="cell" data-label="Column">fixedLetterCase</div>
+<div class="cell" data-label="Arabic">تثبيت حالة الحروف</div>
+<div class="cell" data-label="English">Fixed Letter Case</div>
+<div class="cell" data-label="Type">
+
+ [LetterCaseType](/modules/enums/LetterCaseType.md) 
+</div>
+
+</div>
+
 <div class="row searchable" id="fieldStyles.forType">
 <div class="cell" data-label="Property">fieldStyles.forType</div>
 <div class="cell" data-label="Column">forType</div>

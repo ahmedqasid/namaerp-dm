@@ -1587,6 +1587,42 @@ Text
 
 </div>
 
+<div class="row searchable" id="posTableBtnHeight">
+<div class="cell" data-label="Property">posTableBtnHeight</div>
+<div class="cell" data-label="Column">posTableBtnHeight</div>
+<div class="cell" data-label="Arabic">ارتفاع زر الطاولة</div>
+<div class="cell" data-label="English">Table Button Height</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
+<div class="row searchable" id="posTableBtnWidth">
+<div class="cell" data-label="Property">posTableBtnWidth</div>
+<div class="cell" data-label="Column">posTableBtnWidth</div>
+<div class="cell" data-label="Arabic">عرض زر الطاولة</div>
+<div class="cell" data-label="English">Table Button Width</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
+<div class="row searchable" id="posTablesCountPerLine">
+<div class="cell" data-label="Property">posTablesCountPerLine</div>
+<div class="cell" data-label="Column">posTablesCountPerLine</div>
+<div class="cell" data-label="Arabic">عدد أزرار الطاولات لكل صف</div>
+<div class="cell" data-label="English">Tables Buttons Per Row</div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
+
+</div>
+
 <div class="row searchable" id="preventUsage">
 <div class="cell" data-label="Property">preventUsage</div>
 <div class="cell" data-label="Column">preventUsage</div>

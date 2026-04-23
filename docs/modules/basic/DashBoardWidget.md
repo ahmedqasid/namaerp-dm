@@ -966,6 +966,18 @@ BigText
 
 </div>
 
+<div class="row searchable" id="metricsCardConfig.numberFormat">
+<div class="cell" data-label="Property">metricsCardConfig.numberFormat</div>
+<div class="cell" data-label="Column">numberFormat</div>
+<div class="cell" data-label="Arabic">صيغة الرقم</div>
+<div class="cell" data-label="English">صيغة الرقم</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
 <div class="row searchable" id="metricsCardConfig.subtitleColumnAr">
 <div class="cell" data-label="Property">metricsCardConfig.subtitleColumnAr</div>
 <div class="cell" data-label="Column">subtitleColumnAr</div>
@@ -1010,6 +1022,18 @@ BigText
 <div class="cell" data-label="Type">
 
 BigText
+</div>
+
+</div>
+
+<div class="row searchable" id="metricsCardConfig.suffix">
+<div class="cell" data-label="Property">metricsCardConfig.suffix</div>
+<div class="cell" data-label="Column">suffix</div>
+<div class="cell" data-label="Arabic">نهاية التكويد</div>
+<div class="cell" data-label="English">Suffix</div>
+<div class="cell" data-label="Type">
+
+Text
 </div>
 
 </div>
