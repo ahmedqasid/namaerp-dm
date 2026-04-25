@@ -124,18 +124,6 @@ Boolean
 
 </div>
 
-<div class="row searchable" id="compactMode">
-<div class="cell" data-label="Property">compactMode</div>
-<div class="cell" data-label="Column">compactMode</div>
-<div class="cell" data-label="Arabic">Compact Mode</div>
-<div class="cell" data-label="English">Compact Mode</div>
-<div class="cell" data-label="Type">
-
- [YesNoDefault](/modules/enums/YesNoDefault.md) 
-</div>
-
-</div>
-
 <div class="row searchable" id="createTransactionId">
 <div class="cell" data-label="Property">createTransactionId</div>
 <div class="cell" data-label="Column">createTransactionId</div>
@@ -375,6 +363,18 @@ Date
 <div class="cell" data-label="Type">
 
 Boolean
+</div>
+
+</div>
+
+<div class="row searchable" id="densityMode">
+<div class="cell" data-label="Property">densityMode</div>
+<div class="cell" data-label="Column">densityMode</div>
+<div class="cell" data-label="Arabic">وضع المسافات</div>
+<div class="cell" data-label="English">Density Mode</div>
+<div class="cell" data-label="Type">
+
+ [DensityMode](/modules/enums/DensityMode.md) 
 </div>
 
 </div>

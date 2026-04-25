@@ -155,6 +155,7 @@
   - [ItemSerial](/modules/system-tables/ItemSerial.md)
   - [ItemSerialTrans](/modules/system-tables/ItemSerialTrans.md)
   - [JOSalesOrderStatusEntry](/modules/system-tables/JOSalesOrderStatusEntry.md)
+  - [KitchenNetChatUserGroup](/modules/system-tables/KitchenNetChatUserGroup.md)
   - [LGTEntry](/modules/system-tables/LGTEntry.md)
   - [LargeData](/modules/system-tables/LargeData.md)
   - [LedgerTrans](/modules/system-tables/LedgerTrans.md)

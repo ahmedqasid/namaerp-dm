@@ -2,17 +2,17 @@
 <div class='tableName'>
 
 
-# RequiredFields
+# KitchenNetChatUserGroup
 </div>
 
-**Arabic:** الحقول المطلوبة -  الحقول المطلوبة
-**English:** Required Fields -  Required Fields
+**Arabic:** مجموعة دردشة خاصة بتطبيق المطابخ - مجموعات دردشة خاصه بتطبيق المطابخ
+**English:** Kitchen Net Chat Group - Kitchen Net Chat Groups
 
 <ContentFilter/>
 
 
 <div class='searchable'>
-<a href='#criteriaBasedLines'>criteriaBasedLines (CriteriaBasedReqFieldsLine) </a> , <a href='#details'>details (RequiredFieldsLine) </a> , <a href='#ignoreRequiredWhen'>ignoreRequiredWhen (RequiredFieldsIgnoreWhen) </a>
+<a href='#users'>users (KitchenNetChatUserGroupLine) </a>
 </div>
 
 <div class='searchable'>
@@ -519,18 +519,6 @@ ID
 
 </div>
 
-<div class="row searchable" id="inActive">
-<div class="cell" data-label="Property">inActive</div>
-<div class="cell" data-label="Column">inActive</div>
-<div class="cell" data-label="Arabic">غير نشط</div>
-<div class="cell" data-label="English">Inactive</div>
-<div class="cell" data-label="Type">
-
-Boolean
-</div>
-
-</div>
-
 <div class="row searchable" id="indexInParent">
 <div class="cell" data-label="Property">indexInParent</div>
 <div class="cell" data-label="Column">indexInParent</div>
@@ -988,13 +976,13 @@ ID
 </div>
 </div>
 
-<div id='criteriaBasedLines' title='criteriaBasedLines' class='searchable'>
+<div id='users' title='users' class='searchable'>
 
-## criteriaBasedLines ( - )
+## users ( - )
 
 <div class='tableName'>
 
-**Table Name:** CriteriaBasedReqFieldsLine, **Join Column:** requiredFields_id
+**Table Name:** KitchenNetChatUserGroupLine, **Join Column:** kitchenNetChatUserGroup_id
 
 </div>
 
@@ -1006,44 +994,8 @@ ID
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="criteriaBasedLines.doNotApplyWithMobileApp">
-<div class="cell" data-label="Property">criteriaBasedLines.doNotApplyWithMobileApp</div>
-<div class="cell" data-label="Column">doNotApplyWithMobileApp</div>
-<div class="cell" data-label="Arabic">لا تطبيق مع الموبايل</div>
-<div class="cell" data-label="English">Do Not Apply With Mobile App</div>
-<div class="cell" data-label="Type">
-
-Boolean
-</div>
-
-</div>
-
-<div class="row searchable" id="criteriaBasedLines.entityType">
-<div class="cell" data-label="Property">criteriaBasedLines.entityType</div>
-<div class="cell" data-label="Column">entityType</div>
-<div class="cell" data-label="Arabic">النوع</div>
-<div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">
-
-EntityType
-</div>
-
-</div>
-
-<div class="row searchable" id="criteriaBasedLines.fieldId">
-<div class="cell" data-label="Property">criteriaBasedLines.fieldId</div>
-<div class="cell" data-label="Column">fieldId</div>
-<div class="cell" data-label="Arabic"> الحقل</div>
-<div class="cell" data-label="English"> On Field</div>
-<div class="cell" data-label="Type">
-
-FieldID
-</div>
-
-</div>
-
-<div class="row searchable" id="criteriaBasedLines.id">
-<div class="cell" data-label="Property">criteriaBasedLines.id</div>
+</div><div class="row searchable" id="users.id">
+<div class="cell" data-label="Property">users.id</div>
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -1054,8 +1006,8 @@ ID
 
 </div>
 
-<div class="row searchable" id="criteriaBasedLines.lineNumber">
-<div class="cell" data-label="Property">criteriaBasedLines.lineNumber</div>
+<div class="row searchable" id="users.lineNumber">
+<div class="cell" data-label="Property">users.lineNumber</div>
 <div class="cell" data-label="Column">lineNumber</div>
 <div class="cell" data-label="Arabic"></div>
 <div class="cell" data-label="English"></div>
@@ -1066,373 +1018,8 @@ Integer
 
 </div>
 
-<div class="row searchable" id="criteriaBasedLines.linesShouldMatch">
-<div class="cell" data-label="Property">criteriaBasedLines.linesShouldMatch</div>
-<div class="cell" data-label="Column">linesShouldMatch</div>
-<div class="cell" data-label="Arabic">يجب مطابقة السطور</div>
-<div class="cell" data-label="English">Lines Should Match</div>
-<div class="cell" data-label="Type">
-
-Boolean
-</div>
-
-</div>
-
-<div class="row searchable" id="criteriaBasedLines.targetEntities">
-<div class="cell" data-label="Property">criteriaBasedLines.targetEntities</div>
-<div class="cell" data-label="Column">targetEntities_id</div>
-<div class="cell" data-label="Arabic">قائمة الأنواع</div>
-<div class="cell" data-label="English">Entity Type List</div>
-<div class="cell" data-label="Type">
-
-Reference
-</div>
-<div class="cell" data-label="Foreign Table">
-
- [EntityTypeList](/modules/basic/EntityTypeList.md) 
-</div>
-</div>
-
-<div class="row searchable" id="criteriaBasedLines.whenCondition">
-<div class="cell" data-label="Property">criteriaBasedLines.whenCondition</div>
-<div class="cell" data-label="Column">whenCondition_id</div>
-<div class="cell" data-label="Arabic">عندما</div>
-<div class="cell" data-label="English">When</div>
-<div class="cell" data-label="Type">
-
-Reference
-</div>
-<div class="cell" data-label="Foreign Table">
-
- [CriteriaDefinition](/modules/basic/CriteriaDefinition.md) 
-</div>
-</div>
-
-<div class="row searchable" id="criteriaBasedLines.whenQuery">
-<div class="cell" data-label="Property">criteriaBasedLines.whenQuery</div>
-<div class="cell" data-label="Column">whenQuery</div>
-<div class="cell" data-label="Arabic">استعلام عندما</div>
-<div class="cell" data-label="English">When Query</div>
-<div class="cell" data-label="Type">
-
-BigText
-</div>
-
-</div>
-
-
-</div>
-</div>
-
-<div id='details' title='details' class='searchable'>
-
-## details (التفاصيل - Details)
-
-<div class='tableName'>
-
-**Table Name:** RequiredFieldsLine, **Join Column:** requiredFields_id
-
-</div>
-
-<div class="nama-table">
-<div class="row header-row">
-<div class="cell">Property</div>
-<div class="cell">Column</div>
-<div class="cell">Arabic</div>
-<div class="cell">English</div>
-<div class="cell">Type</div>
-<div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="details.doNotApplyWithMobileApp">
-<div class="cell" data-label="Property">details.doNotApplyWithMobileApp</div>
-<div class="cell" data-label="Column">doNotApplyWithMobileApp</div>
-<div class="cell" data-label="Arabic">لا تطبيق مع الموبايل</div>
-<div class="cell" data-label="English">Do Not Apply With Mobile App</div>
-<div class="cell" data-label="Type">
-
-Boolean
-</div>
-
-</div>
-
-<div class="row searchable" id="details.entityType">
-<div class="cell" data-label="Property">details.entityType</div>
-<div class="cell" data-label="Column">entityType</div>
-<div class="cell" data-label="Arabic">النوع</div>
-<div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">
-
-EntityType
-</div>
-
-</div>
-
-<div class="row searchable" id="details.fieldId">
-<div class="cell" data-label="Property">details.fieldId</div>
-<div class="cell" data-label="Column">fieldId</div>
-<div class="cell" data-label="Arabic"> الحقل</div>
-<div class="cell" data-label="English"> On Field</div>
-<div class="cell" data-label="Type">
-
-FieldID
-</div>
-
-</div>
-
-<div class="row searchable" id="details.id">
-<div class="cell" data-label="Property">details.id</div>
-<div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">
-
-ID
-</div>
-
-</div>
-
-<div class="row searchable" id="details.lineNumber">
-<div class="cell" data-label="Property">details.lineNumber</div>
-<div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">
-
-Integer
-</div>
-
-</div>
-
-<div class="row searchable" id="details.targetEntities">
-<div class="cell" data-label="Property">details.targetEntities</div>
-<div class="cell" data-label="Column">targetEntities_id</div>
-<div class="cell" data-label="Arabic">قائمة الأنواع</div>
-<div class="cell" data-label="English">Entity Type List</div>
-<div class="cell" data-label="Type">
-
-Reference
-</div>
-<div class="cell" data-label="Foreign Table">
-
- [EntityTypeList](/modules/basic/EntityTypeList.md) 
-</div>
-</div>
-
-
-</div>
-</div>
-
-<div id='ignoreRequiredWhen' title='ignoreRequiredWhen' class='searchable'>
-
-## ignoreRequiredWhen (تجاهل الحقول المطلوبة عندما - Ignore Required Fields When)
-
-<div class='tableName'>
-
-**Table Name:** RequiredFieldsIgnoreWhen, **Join Column:** requiredFields_id
-
-</div>
-
-<div class="nama-table">
-<div class="row header-row">
-<div class="cell">Property</div>
-<div class="cell">Column</div>
-<div class="cell">Arabic</div>
-<div class="cell">English</div>
-<div class="cell">Type</div>
-<div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="ignoreRequiredWhen.allowFor">
-<div class="cell" data-label="Property">ignoreRequiredWhen.allowFor</div>
-<div class="cell gen-ref-column" data-label="Column">allowForActualCode,  allowForCode,  allowForEntityType,  allowForId</div>
-<div class="cell" data-label="Arabic">السماح ل</div>
-<div class="cell" data-label="English">Allow For</div>
-<div class="cell" data-label="Type">
-
-Genericreference
-</div>
-
-</div>
-
-<div class="row searchable" id="ignoreRequiredWhen.analysisSet">
-<div class="cell" data-label="Property">ignoreRequiredWhen.analysisSet</div>
-<div class="cell" data-label="Column">analysisSet_id</div>
-<div class="cell" data-label="Arabic">المجموعة التحليلية</div>
-<div class="cell" data-label="English">Analysis set</div>
-<div class="cell" data-label="Type">
-
-Reference
-</div>
-<div class="cell" data-label="Foreign Table">
-
- [AnalysisSet](/modules/basic/AnalysisSet.md) 
-</div>
-</div>
-
-<div class="row searchable" id="ignoreRequiredWhen.branch">
-<div class="cell" data-label="Property">ignoreRequiredWhen.branch</div>
-<div class="cell" data-label="Column">branch_id</div>
-<div class="cell" data-label="Arabic">الفرع</div>
-<div class="cell" data-label="English">Branch</div>
-<div class="cell" data-label="Type">
-
-Reference
-</div>
-<div class="cell" data-label="Foreign Table">
-
- [Branch](/modules/basic/Branch.md) 
-</div>
-</div>
-
-<div class="row searchable" id="ignoreRequiredWhen.department">
-<div class="cell" data-label="Property">ignoreRequiredWhen.department</div>
-<div class="cell" data-label="Column">department_id</div>
-<div class="cell" data-label="Arabic">الإدارة</div>
-<div class="cell" data-label="English">Department</div>
-<div class="cell" data-label="Type">
-
-Reference
-</div>
-<div class="cell" data-label="Foreign Table">
-
- [Department](/modules/basic/Department.md) 
-</div>
-</div>
-
-<div class="row searchable" id="ignoreRequiredWhen.doNotApplyWithMobileApp">
-<div class="cell" data-label="Property">ignoreRequiredWhen.doNotApplyWithMobileApp</div>
-<div class="cell" data-label="Column">doNotApplyWithMobileApp</div>
-<div class="cell" data-label="Arabic">لا تطبيق مع الموبايل</div>
-<div class="cell" data-label="English">Do Not Apply With Mobile App</div>
-<div class="cell" data-label="Type">
-
-Boolean
-</div>
-
-</div>
-
-<div class="row searchable" id="ignoreRequiredWhen.entityType">
-<div class="cell" data-label="Property">ignoreRequiredWhen.entityType</div>
-<div class="cell" data-label="Column">entityType</div>
-<div class="cell" data-label="Arabic">النوع</div>
-<div class="cell" data-label="English">Entity Type</div>
-<div class="cell" data-label="Type">
-
-EntityType
-</div>
-
-</div>
-
-<div class="row searchable" id="ignoreRequiredWhen.fieldId">
-<div class="cell" data-label="Property">ignoreRequiredWhen.fieldId</div>
-<div class="cell" data-label="Column">fieldId</div>
-<div class="cell" data-label="Arabic"> الحقل</div>
-<div class="cell" data-label="English"> On Field</div>
-<div class="cell" data-label="Type">
-
-FieldID
-</div>
-
-</div>
-
-<div class="row searchable" id="ignoreRequiredWhen.fiscalPeriod">
-<div class="cell" data-label="Property">ignoreRequiredWhen.fiscalPeriod</div>
-<div class="cell" data-label="Column">fiscalPeriod_id</div>
-<div class="cell" data-label="Arabic">الفترة</div>
-<div class="cell" data-label="English">Fiscal Period</div>
-<div class="cell" data-label="Type">
-
-Reference
-</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalPeriod](/modules/basic/FiscalPeriod.md) 
-</div>
-</div>
-
-<div class="row searchable" id="ignoreRequiredWhen.fiscalYear">
-<div class="cell" data-label="Property">ignoreRequiredWhen.fiscalYear</div>
-<div class="cell" data-label="Column">fiscalYear_id</div>
-<div class="cell" data-label="Arabic">السنة المالية</div>
-<div class="cell" data-label="English">Fiscal Year</div>
-<div class="cell" data-label="Type">
-
-Reference
-</div>
-<div class="cell" data-label="Foreign Table">
-
- [FiscalYear](/modules/basic/FiscalYear.md) 
-</div>
-</div>
-
-<div class="row searchable" id="ignoreRequiredWhen.id">
-<div class="cell" data-label="Property">ignoreRequiredWhen.id</div>
-<div class="cell" data-label="Column">id</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">
-
-ID
-</div>
-
-</div>
-
-<div class="row searchable" id="ignoreRequiredWhen.legalEntity">
-<div class="cell" data-label="Property">ignoreRequiredWhen.legalEntity</div>
-<div class="cell" data-label="Column">legalEntity_id</div>
-<div class="cell" data-label="Arabic">الشركة</div>
-<div class="cell" data-label="English">Legal Entity</div>
-<div class="cell" data-label="Type">
-
-Reference
-</div>
-<div class="cell" data-label="Foreign Table">
-
- [LegalEntity](/modules/basic/LegalEntity.md) 
-</div>
-</div>
-
-<div class="row searchable" id="ignoreRequiredWhen.lineNumber">
-<div class="cell" data-label="Property">ignoreRequiredWhen.lineNumber</div>
-<div class="cell" data-label="Column">lineNumber</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
-<div class="cell" data-label="Type">
-
-Integer
-</div>
-
-</div>
-
-<div class="row searchable" id="ignoreRequiredWhen.sector">
-<div class="cell" data-label="Property">ignoreRequiredWhen.sector</div>
-<div class="cell" data-label="Column">sector_id</div>
-<div class="cell" data-label="Arabic">القطاع</div>
-<div class="cell" data-label="English">Sector</div>
-<div class="cell" data-label="Type">
-
-Reference
-</div>
-<div class="cell" data-label="Foreign Table">
-
- [Sector](/modules/basic/Sector.md) 
-</div>
-</div>
-
-<div class="row searchable" id="ignoreRequiredWhen.targetEntities">
-<div class="cell" data-label="Property">ignoreRequiredWhen.targetEntities</div>
-<div class="cell" data-label="Column">targetEntities_id</div>
-<div class="cell" data-label="Arabic">قائمة الأنواع</div>
-<div class="cell" data-label="English">Entity Type List</div>
-<div class="cell" data-label="Type">
-
-Reference
-</div>
-<div class="cell" data-label="Foreign Table">
-
- [EntityTypeList](/modules/basic/EntityTypeList.md) 
-</div>
-</div>
-
-<div class="row searchable" id="ignoreRequiredWhen.user">
-<div class="cell" data-label="Property">ignoreRequiredWhen.user</div>
+<div class="row searchable" id="users.user">
+<div class="cell" data-label="Property">users.user</div>
 <div class="cell" data-label="Column">user_id</div>
 <div class="cell" data-label="Arabic">المستخدم</div>
 <div class="cell" data-label="English">User</div>

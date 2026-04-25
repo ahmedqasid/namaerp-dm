@@ -180,6 +180,7 @@
   - [DeliveryQueueStatus](/modules/enums/DeliveryQueueStatus.md)
   - [DeliveryState](/modules/enums/DeliveryState.md)
   - [DeliveryStatus](/modules/enums/DeliveryStatus.md)
+  - [DensityMode](/modules/enums/DensityMode.md)
   - [DepositPaymentType](/modules/enums/DepositPaymentType.md)
   - [DescriptorType](/modules/enums/DescriptorType.md)
   - [DevelopmentType](/modules/enums/DevelopmentType.md)

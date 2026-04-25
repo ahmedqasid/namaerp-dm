@@ -92,6 +92,18 @@ Boolean
 
 </div>
 
+<div class="row searchable" id="kitNetChatGroupConfigLineId">
+<div class="cell" data-label="Property">kitNetChatGroupConfigLineId</div>
+<div class="cell" data-label="Column">kitNetChatGroupConfigLineId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
+
+</div>
+
 <div class="row searchable" id="lastMessageAt">
 <div class="cell" data-label="Property">lastMessageAt</div>
 <div class="cell" data-label="Column">lastMessageAt</div>

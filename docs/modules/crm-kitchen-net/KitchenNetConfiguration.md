@@ -12,7 +12,7 @@
 
 
 <div class='searchable'>
-<a href='#appliances'>appliances (KitchenNetAppliance) </a> , <a href='#branchesAndVisitCost'>branchesAndVisitCost (KitchenNetBranchِAndVisitCostLine) </a> , <a href='#catalogs'>catalogs (KitchenNetCatalogLine) </a> , <a href='#kitchenBeforeAndAfterList'>kitchenBeforeAndAfterList (KitchenNetBeforeAndAfter) </a> , <a href='#kitchenCategories'>kitchenCategories (KitchenNetCategory) </a> , <a href='#kitchenNetFAQS'>kitchenNetFAQS (KitchenNetFAQ) </a> , <a href='#kitchenOffers'>kitchenOffers (KitchenNetOffer) </a> , <a href='#refundPolicyRules'>refundPolicyRules (KitchenNetRefundPolicyLine) </a> , <a href='#trendingKitchens'>trendingKitchens (KitchenNetTrendingKitchen) </a>
+<a href='#appliances'>appliances (KitchenNetAppliance) </a> , <a href='#branchesAndVisitCost'>branchesAndVisitCost (KitchenNetBranchِAndVisitCostLine) </a> , <a href='#catalogs'>catalogs (KitchenNetCatalogLine) </a> , <a href='#chatConfigLines'>chatConfigLines (KitchenNetChatConfigLine) </a> , <a href='#kitchenBeforeAndAfterList'>kitchenBeforeAndAfterList (KitchenNetBeforeAndAfter) </a> , <a href='#kitchenCategories'>kitchenCategories (KitchenNetCategory) </a> , <a href='#kitchenNetFAQS'>kitchenNetFAQS (KitchenNetFAQ) </a> , <a href='#kitchenOffers'>kitchenOffers (KitchenNetOffer) </a> , <a href='#refundPolicyRules'>refundPolicyRules (KitchenNetRefundPolicyLine) </a> , <a href='#trendingKitchens'>trendingKitchens (KitchenNetTrendingKitchen) </a>
 </div>
 
 <div class='searchable'>
@@ -1404,6 +1404,18 @@ ID
 
 </div>
 
+<div class="row searchable" id="sortItemBy">
+<div class="cell" data-label="Property">sortItemBy</div>
+<div class="cell" data-label="Column">sortItemBy</div>
+<div class="cell" data-label="Arabic">ترتيب الصنف بواسطة</div>
+<div class="cell" data-label="English">Sort Item By</div>
+<div class="cell" data-label="Type">
+
+FieldID
+</div>
+
+</div>
+
 <div class="row searchable" id="splashImage">
 <div class="cell" data-label="Property">splashImage</div>
 <div class="cell" data-label="Column">splashImage_id</div>
@@ -1771,6 +1783,106 @@ Binary
 
  [LargeData](/modules/system-tables/LargeData.md) 
 </div>
+</div>
+
+
+</div>
+</div>
+
+<div id='chatConfigLines' title='chatConfigLines' class='searchable'>
+
+## chatConfigLines (بنود إعدادات الدردشة - Chat Configuration Lines)
+
+<div class='tableName'>
+
+**Table Name:** KitchenNetChatConfigLine, **Join Column:** kitchenNetConfiguration_id
+
+</div>
+
+<div class="nama-table">
+<div class="row header-row">
+<div class="cell">Property</div>
+<div class="cell">Column</div>
+<div class="cell">Arabic</div>
+<div class="cell">English</div>
+<div class="cell">Type</div>
+<div class="cell">Foreign Table</div>
+</div><div class="row searchable" id="chatConfigLines.arGroupName">
+<div class="cell" data-label="Property">chatConfigLines.arGroupName</div>
+<div class="cell" data-label="Column">arGroupName</div>
+<div class="cell" data-label="Arabic"> إسم المجموعة العربي</div>
+<div class="cell" data-label="English"> Group Arabic Name</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="chatConfigLines.branch">
+<div class="cell" data-label="Property">chatConfigLines.branch</div>
+<div class="cell" data-label="Column">branch_id</div>
+<div class="cell" data-label="Arabic">الفرع</div>
+<div class="cell" data-label="English">Branch</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Branch](/modules/basic/Branch.md) 
+</div>
+</div>
+
+<div class="row searchable" id="chatConfigLines.chatUserGroup">
+<div class="cell" data-label="Property">chatConfigLines.chatUserGroup</div>
+<div class="cell" data-label="Column">chatUserGroup_id</div>
+<div class="cell" data-label="Arabic">مجموعة مستخدمي الدردشة</div>
+<div class="cell" data-label="English">Chat User Group</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
+<div class="cell" data-label="Foreign Table">
+
+ [KitchenNetChatUserGroup](/modules/system-tables/KitchenNetChatUserGroup.md) 
+</div>
+</div>
+
+<div class="row searchable" id="chatConfigLines.enGroupName">
+<div class="cell" data-label="Property">chatConfigLines.enGroupName</div>
+<div class="cell" data-label="Column">enGroupName</div>
+<div class="cell" data-label="Arabic"> إسم المجموعة الإنجليزي</div>
+<div class="cell" data-label="English"> Group English Name</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="chatConfigLines.id">
+<div class="cell" data-label="Property">chatConfigLines.id</div>
+<div class="cell" data-label="Column">id</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
+
+</div>
+
+<div class="row searchable" id="chatConfigLines.lineNumber">
+<div class="cell" data-label="Property">chatConfigLines.lineNumber</div>
+<div class="cell" data-label="Column">lineNumber</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">
+
+Integer
+</div>
+
 </div>
 
 
