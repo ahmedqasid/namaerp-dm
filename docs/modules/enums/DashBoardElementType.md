@@ -146,6 +146,18 @@
 <div class="cell" data-label="English">Recent Visits</div>
 </div>
 
+<div class="row searchable">
+<div class="cell" data-label="ID">CrossFilterControl</div>
+<div class="cell" data-label="Arabic">عنصر فلتر تفاعلي</div>
+<div class="cell" data-label="English">Cross Filter Control</div>
+</div>
+
+<div class="row searchable">
+<div class="cell" data-label="ID">TextBlock</div>
+<div class="cell" data-label="Arabic">كتلة نص</div>
+<div class="cell" data-label="English">Text Block</div>
+</div>
+
 
 </div>
 </div>

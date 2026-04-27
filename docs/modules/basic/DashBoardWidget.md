@@ -240,6 +240,21 @@ DateAndTime
 
 </div>
 
+<div class="row searchable" id="crossFilterRef">
+<div class="cell" data-label="Property">crossFilterRef</div>
+<div class="cell" data-label="Column">crossFilterRef_id</div>
+<div class="cell" data-label="Arabic">الفلتر التفاعلي</div>
+<div class="cell" data-label="English">Cross Filter</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
+<div class="cell" data-label="Foreign Table">
+
+ [BICrossFilter](/modules/basic/BICrossFilter.md) 
+</div>
+</div>
+
 <div class="row searchable" id="currentApprovalCase">
 <div class="cell" data-label="Property">currentApprovalCase</div>
 <div class="cell" data-label="Column">currentApprovalCase_id</div>

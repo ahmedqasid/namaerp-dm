@@ -73,6 +73,18 @@ Text
 
 </div>
 
+<div class="row searchable" id="autoCreateWidget">
+<div class="cell" data-label="Property">autoCreateWidget</div>
+<div class="cell" data-label="Column">autoCreateWidget</div>
+<div class="cell" data-label="Arabic">إنشاء عنصر لوحة تلقائياً</div>
+<div class="cell" data-label="English">Auto Create Widget</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="branch">
 <div class="cell" data-label="Property">branch</div>
 <div class="cell" data-label="Column">branch_id</div>
@@ -562,6 +574,18 @@ Genericreference
 
 </div>
 
+<div class="row searchable" id="generatedWidget">
+<div class="cell" data-label="Property">generatedWidget</div>
+<div class="cell gen-ref-column" data-label="Column">generatedWidgetActualCode,  generatedWidgetCode,  generatedWidgetEntityType,  generatedWidgetId</div>
+<div class="cell" data-label="Arabic">Generated Widget</div>
+<div class="cell" data-label="English">Generated Widget</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
+
+</div>
+
 <div class="row searchable" id="generationType">
 <div class="cell" data-label="Property">generationType</div>
 <div class="cell" data-label="Column">generationType</div>
@@ -594,6 +618,18 @@ Reference
 <div class="cell" data-label="Column">hidden</div>
 <div class="cell" data-label="Arabic">إخفاء</div>
 <div class="cell" data-label="English">Hidden</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
+<div class="row searchable" id="hideFilterTitle">
+<div class="cell" data-label="Property">hideFilterTitle</div>
+<div class="cell" data-label="Column">hideFilterTitle</div>
+<div class="cell" data-label="Arabic">إخفاء عنوان الفلتر</div>
+<div class="cell" data-label="English">Hide Filter Title</div>
 <div class="cell" data-label="Type">
 
 Boolean

@@ -16,7 +16,7 @@
 <div class="cell">English</div>
 </div><div class="row searchable">
 <div class="cell" data-label="ID">Single</div>
-<div class="cell" data-label="Arabic">أعزب</div>
+<div class="cell" data-label="Arabic">مفردة</div>
 <div class="cell" data-label="English">Single</div>
 </div>
 
