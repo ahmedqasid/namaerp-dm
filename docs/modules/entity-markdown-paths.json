@@ -1494,6 +1494,8 @@
   "PerformanceIndicator" : "humanresource-payroll/PerformanceIndicator.md",
   "PerformanceMeasure" : "humanresource-payroll/PerformanceMeasure.md",
   "PerformanceOptimizer" : "basic/PerformanceOptimizer.md",
+  "PeriodicMonthlySalesOffer" : "system-tables/PeriodicMonthlySalesOffer.md",
+  "PeriodicMonthlySalesOfferCalc" : "system-tables/PeriodicMonthlySalesOfferCalc.md",
   "PickRules" : "supplychain-sales/PickRules.md",
   "PickupPlan" : "humanresource-advanced/PickupPlan.md",
   "PosConfigRequestAuthorizationLine" : "system-tables/PosConfigRequestAuthorizationLine.md",

@@ -2004,6 +2004,18 @@ Integer
 
 </div>
 
+<div class="row searchable" id="crossFilterBindings.localScope">
+<div class="cell" data-label="Property">crossFilterBindings.localScope</div>
+<div class="cell" data-label="Column">localScope</div>
+<div class="cell" data-label="Arabic">محلي للعنصر</div>
+<div class="cell" data-label="English">Widget-Local Scope</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="crossFilterBindings.operator">
 <div class="cell" data-label="Property">crossFilterBindings.operator</div>
 <div class="cell" data-label="Column">operator</div>

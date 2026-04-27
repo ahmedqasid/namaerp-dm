@@ -22,8 +22,8 @@
 
 <div class="row searchable">
 <div class="cell" data-label="ID">Expired</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">منتهي الصلاحية</div>
+<div class="cell" data-label="English">Expired</div>
 </div>
 
 <div class="row searchable">

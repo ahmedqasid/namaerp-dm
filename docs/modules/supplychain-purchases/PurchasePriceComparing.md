@@ -447,6 +447,18 @@ Reference
 </div>
 </div>
 
+<div class="row searchable" id="copyOriginDocToPurchaseOrderFromDoc">
+<div class="cell" data-label="Property">copyOriginDocToPurchaseOrderFromDoc</div>
+<div class="cell" data-label="Column">copyOriginDocToPurchaseOrderFromDoc</div>
+<div class="cell" data-label="Arabic">نسخ تم النسخ من سند بالسطور إلى بناءا على في امر الشراء المنشأ</div>
+<div class="cell" data-label="English">Copy Origin Doc From Lines To From Doc In Generated Purchase Order</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="createTransactionId">
 <div class="cell" data-label="Property">createTransactionId</div>
 <div class="cell" data-label="Column">createTransactionId</div>
@@ -2329,6 +2341,21 @@ Reference
 Boolean
 </div>
 
+</div>
+
+<div class="row searchable" id="quotationRequest">
+<div class="cell" data-label="Property">quotationRequest</div>
+<div class="cell" data-label="Column">quotationRequest_id</div>
+<div class="cell" data-label="Arabic">طلب عرض الأسعار</div>
+<div class="cell" data-label="English">Purchase Quotation Request</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
+<div class="cell" data-label="Foreign Table">
+
+ [PurchaseQuotationRequest](/modules/supplychain-purchases/PurchaseQuotationRequest.md) 
+</div>
 </div>
 
 <div class="row searchable" id="rbook">

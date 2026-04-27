@@ -253,6 +253,8 @@
   - [PendingEntityFlow](/modules/system-tables/PendingEntityFlow.md)
   - [PendingSystemAction](/modules/system-tables/PendingSystemAction.md)
   - [PendingTask](/modules/system-tables/PendingTask.md)
+  - [PeriodicMonthlySalesOffer](/modules/system-tables/PeriodicMonthlySalesOffer.md)
+  - [PeriodicMonthlySalesOfferCalc](/modules/system-tables/PeriodicMonthlySalesOfferCalc.md)
   - [PosConfigRequestAuthorizationLine](/modules/system-tables/PosConfigRequestAuthorizationLine.md)
   - [PosMinChargeLine](/modules/system-tables/PosMinChargeLine.md)
   - [PosReturnFromInvoiceEntry](/modules/system-tables/PosReturnFromInvoiceEntry.md)

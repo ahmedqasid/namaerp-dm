@@ -3450,6 +3450,177 @@ BigText
 
 </div>
 
+<div class="row searchable" id="shippingAddress.address1">
+<div class="cell" data-label="Property">shippingAddress.address1</div>
+<div class="cell" data-label="Column">shpAddress1</div>
+<div class="cell" data-label="Arabic">عنوان 1</div>
+<div class="cell" data-label="English">Address 1</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="shippingAddress.address2">
+<div class="cell" data-label="Property">shippingAddress.address2</div>
+<div class="cell" data-label="Column">shpAddress2</div>
+<div class="cell" data-label="Arabic">رقم المبني</div>
+<div class="cell" data-label="English">Building Number</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="shippingAddress.area">
+<div class="cell" data-label="Property">shippingAddress.area</div>
+<div class="cell" data-label="Column">shpArea</div>
+<div class="cell" data-label="Arabic">المنطقة</div>
+<div class="cell" data-label="English">Area</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="shippingAddress.buildingNumber">
+<div class="cell" data-label="Property">shippingAddress.buildingNumber</div>
+<div class="cell" data-label="Column">shpBuildingNumber</div>
+<div class="cell" data-label="Arabic">رقم المبني</div>
+<div class="cell" data-label="English">Building Number</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="shippingAddress.city">
+<div class="cell" data-label="Property">shippingAddress.city</div>
+<div class="cell" data-label="Column">shpCity</div>
+<div class="cell" data-label="Arabic">المدينة</div>
+<div class="cell" data-label="English">City</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="shippingAddress.country">
+<div class="cell" data-label="Property">shippingAddress.country</div>
+<div class="cell" data-label="Column">shpCountry</div>
+<div class="cell" data-label="Arabic">الدولة</div>
+<div class="cell" data-label="English">Country</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="shippingAddress.countryCode">
+<div class="cell" data-label="Property">shippingAddress.countryCode</div>
+<div class="cell" data-label="Column">shpCountryCode</div>
+<div class="cell" data-label="Arabic">كود الدولة</div>
+<div class="cell" data-label="English">Country Code</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="shippingAddress.district">
+<div class="cell" data-label="Property">shippingAddress.district</div>
+<div class="cell" data-label="Column">shpDistrict</div>
+<div class="cell" data-label="Arabic">الحي</div>
+<div class="cell" data-label="English">District</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="shippingAddress.landPlotNumber">
+<div class="cell" data-label="Property">shippingAddress.landPlotNumber</div>
+<div class="cell" data-label="Column">shpLandPlotNumber</div>
+<div class="cell" data-label="Arabic">رقم تعريفي للأرض</div>
+<div class="cell" data-label="English">Land Plot Number</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="shippingAddress.mapLocation">
+<div class="cell" data-label="Property">shippingAddress.mapLocation</div>
+<div class="cell" data-label="Column">shpMapLocation</div>
+<div class="cell" data-label="Arabic">الموقع على الخريطة</div>
+<div class="cell" data-label="English">Map Location</div>
+<div class="cell" data-label="Type">
+
+LatLng
+</div>
+
+</div>
+
+<div class="row searchable" id="shippingAddress.postalCode">
+<div class="cell" data-label="Property">shippingAddress.postalCode</div>
+<div class="cell" data-label="Column">shpPostalCode</div>
+<div class="cell" data-label="Arabic">الكود البريدي</div>
+<div class="cell" data-label="English">Postal Code</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="shippingAddress.region">
+<div class="cell" data-label="Property">shippingAddress.region</div>
+<div class="cell" data-label="Column">shpRegion_id</div>
+<div class="cell" data-label="Arabic">منطقة جغرافيه</div>
+<div class="cell" data-label="English">Region</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
+<div class="cell" data-label="Foreign Table">
+
+ [AddressRegion](/modules/basic/AddressRegion.md) 
+</div>
+</div>
+
+<div class="row searchable" id="shippingAddress.state">
+<div class="cell" data-label="Property">shippingAddress.state</div>
+<div class="cell" data-label="Column">shpState</div>
+<div class="cell" data-label="Arabic">المحافظة</div>
+<div class="cell" data-label="English">State</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="shippingAddress.street">
+<div class="cell" data-label="Property">shippingAddress.street</div>
+<div class="cell" data-label="Column">shpStreet</div>
+<div class="cell" data-label="Arabic"> شارع</div>
+<div class="cell" data-label="English"> Street</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
 <div class="row searchable" id="spMoney.afterDiscount1">
 <div class="cell" data-label="Property">spMoney.afterDiscount1</div>
 <div class="cell" data-label="Column">spAfterDiscount1</div>

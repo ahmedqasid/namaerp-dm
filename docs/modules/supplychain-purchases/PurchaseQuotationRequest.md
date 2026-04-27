@@ -156,6 +156,66 @@ Binary
 </div>
 </div>
 
+<div class="row searchable" id="b1">
+<div class="cell" data-label="Property">b1</div>
+<div class="cell" data-label="Column">b1</div>
+<div class="cell" data-label="Arabic">Boolean 1</div>
+<div class="cell" data-label="English">Boolean 1</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
+<div class="row searchable" id="b2">
+<div class="cell" data-label="Property">b2</div>
+<div class="cell" data-label="Column">b2</div>
+<div class="cell" data-label="Arabic">Boolean 2</div>
+<div class="cell" data-label="English">Boolean 2</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
+<div class="row searchable" id="b3">
+<div class="cell" data-label="Property">b3</div>
+<div class="cell" data-label="Column">b3</div>
+<div class="cell" data-label="Arabic">Boolean 3</div>
+<div class="cell" data-label="English">Boolean 3</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
+<div class="row searchable" id="b4">
+<div class="cell" data-label="Property">b4</div>
+<div class="cell" data-label="Column">b4</div>
+<div class="cell" data-label="Arabic">Boolean 4</div>
+<div class="cell" data-label="English">Boolean 4</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
+<div class="row searchable" id="b5">
+<div class="cell" data-label="Property">b5</div>
+<div class="cell" data-label="Column">b5</div>
+<div class="cell" data-label="Arabic">Boolean 5</div>
+<div class="cell" data-label="English">Boolean 5</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="billingAddress.address1">
 <div class="cell" data-label="Property">billingAddress.address1</div>
 <div class="cell" data-label="Column">blAddress1</div>
@@ -2837,6 +2897,30 @@ Text
 <div class="cell" data-label="Type">
 
 Long
+</div>
+
+</div>
+
+<div class="row searchable" id="status">
+<div class="cell" data-label="Property">status</div>
+<div class="cell" data-label="Column">status</div>
+<div class="cell" data-label="Arabic">الحالة</div>
+<div class="cell" data-label="English">Status</div>
+<div class="cell" data-label="Type">
+
+ [PurchaseQuotationRequestStatus](/modules/enums/PurchaseQuotationRequestStatus.md) 
+</div>
+
+</div>
+
+<div class="row searchable" id="statusChangeDate">
+<div class="cell" data-label="Property">statusChangeDate</div>
+<div class="cell" data-label="Column">statusChangeDate</div>
+<div class="cell" data-label="Arabic">تاريخ تغيير الحالة</div>
+<div class="cell" data-label="English">Status Change Date</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
 </div>
 
 </div>
