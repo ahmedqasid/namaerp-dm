@@ -18,6 +18,8 @@
   - [LoadingCancellationDoc](/modules/supplychain-sales/LoadingCancellationDoc.md)
   - [LoadingDocument](/modules/supplychain-sales/LoadingDocument.md)
   - [PFSalesSourceConfig](/modules/supplychain-sales/PFSalesSourceConfig.md)
+  - [PeriodicMonthlySalesOffer](/modules/supplychain-sales/PeriodicMonthlySalesOffer.md)
+  - [PeriodicMonthlySalesOfferCalc](/modules/supplychain-sales/PeriodicMonthlySalesOfferCalc.md)
   - [PickRules](/modules/supplychain-sales/PickRules.md)
   - [PostSalesOffer](/modules/supplychain-sales/PostSalesOffer.md)
   - [PostSalesOfferClaim](/modules/supplychain-sales/PostSalesOfferClaim.md)

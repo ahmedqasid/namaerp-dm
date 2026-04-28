@@ -159,7 +159,7 @@ Reference
 </div>
 <div class="cell" data-label="Foreign Table">
 
- [BIPeriodComparisonConfig](/modules/system-tables/BIPeriodComparisonConfig.md) 
+ [BIPeriodComparisonConfig](/modules/basic/BIPeriodComparisonConfig.md) 
 </div>
 </div>
 

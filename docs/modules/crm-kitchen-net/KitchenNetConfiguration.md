@@ -1845,7 +1845,7 @@ Reference
 </div>
 <div class="cell" data-label="Foreign Table">
 
- [KitchenNetChatUserGroup](/modules/system-tables/KitchenNetChatUserGroup.md) 
+ [KitchenNetChatUserGroup](/modules/crm-kitchen-net/KitchenNetChatUserGroup.md) 
 </div>
 </div>
 

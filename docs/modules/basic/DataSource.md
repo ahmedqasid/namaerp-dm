@@ -1720,6 +1720,18 @@ BigText
 
 </div>
 
+<div class="row searchable" id="fields.useUOMParameterForQtyConversion">
+<div class="cell" data-label="Property">fields.useUOMParameterForQtyConversion</div>
+<div class="cell" data-label="Column">useUOMParameterForQtyConversion</div>
+<div class="cell" data-label="Arabic">استعمال مدخل الوحدة لتحويل الكمية</div>
+<div class="cell" data-label="English">Use UOM Parameter for Qty Conversion</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="fields.userAlias">
 <div class="cell" data-label="Property">fields.userAlias</div>
 <div class="cell" data-label="Column">userAlias</div>
@@ -2624,6 +2636,18 @@ BigText
 
 </div>
 
+<div class="row searchable" id="parameters.useUOMParameterForQtyConversion">
+<div class="cell" data-label="Property">parameters.useUOMParameterForQtyConversion</div>
+<div class="cell" data-label="Column">useUOMParameterForQtyConversion</div>
+<div class="cell" data-label="Arabic">استعمال مدخل الوحدة لتحويل الكمية</div>
+<div class="cell" data-label="English">Use UOM Parameter for Qty Conversion</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="parameters.userAlias">
 <div class="cell" data-label="Property">parameters.userAlias</div>
 <div class="cell" data-label="Column">userAlias</div>
@@ -3402,6 +3426,18 @@ Reference
 <div class="cell" data-label="Type">
 
 BigText
+</div>
+
+</div>
+
+<div class="row searchable" id="sortFields.useUOMParameterForQtyConversion">
+<div class="cell" data-label="Property">sortFields.useUOMParameterForQtyConversion</div>
+<div class="cell" data-label="Column">useUOMParameterForQtyConversion</div>
+<div class="cell" data-label="Arabic">استعمال مدخل الوحدة لتحويل الكمية</div>
+<div class="cell" data-label="English">Use UOM Parameter for Qty Conversion</div>
+<div class="cell" data-label="Type">
+
+Boolean
 </div>
 
 </div>

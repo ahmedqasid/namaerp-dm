@@ -11,6 +11,7 @@
   - [ApprovalDefinition](/modules/basic/ApprovalDefinition.md)
   - [ApprovalReason](/modules/basic/ApprovalReason.md)
   - [BICrossFilter](/modules/basic/BICrossFilter.md)
+  - [BIPeriodComparisonConfig](/modules/basic/BIPeriodComparisonConfig.md)
   - [Branch](/modules/basic/Branch.md)
   - [BudgetScenario](/modules/basic/BudgetScenario.md)
   - [BulkEditConfig](/modules/basic/BulkEditConfig.md)

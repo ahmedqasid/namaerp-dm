@@ -152,6 +152,12 @@
 <div class="cell" data-label="English">Group By Selection</div>
 </div>
 
+<div class="row searchable">
+<div class="cell" data-label="ID">UOMConversion</div>
+<div class="cell" data-label="Arabic">تحويل وحدة قياس</div>
+<div class="cell" data-label="English">UOM Conversion</div>
+</div>
+
 
 </div>
 </div>

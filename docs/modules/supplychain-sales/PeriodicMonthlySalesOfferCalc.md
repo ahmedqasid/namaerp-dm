@@ -809,7 +809,7 @@ Reference
 </div>
 <div class="cell" data-label="Foreign Table">
 
- [PeriodicMonthlySalesOffer](/modules/system-tables/PeriodicMonthlySalesOffer.md) 
+ [PeriodicMonthlySalesOffer](/modules/supplychain-sales/PeriodicMonthlySalesOffer.md) 
 </div>
 </div>
 
