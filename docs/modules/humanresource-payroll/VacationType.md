@@ -687,18 +687,6 @@ EntityType
 
 </div>
 
-<div class="row searchable" id="excludeFirstLeaveDayFromBalancePeriod">
-<div class="cell" data-label="Property">excludeFirstLeaveDayFromBalancePeriod</div>
-<div class="cell" data-label="Column">excludeFirstLeaveDayFromBalancePeriod</div>
-<div class="cell" data-label="Arabic">استبعاد أول يوم إجازة من فترة احتساب الرصيد</div>
-<div class="cell" data-label="English">Exclude First Leave Day From Balance Period</div>
-<div class="cell" data-label="Type">
-
-Boolean
-</div>
-
-</div>
-
 <div class="row searchable" id="firstAuthor">
 <div class="cell" data-label="Property">firstAuthor</div>
 <div class="cell" data-label="Column">firstAuthor_id</div>
