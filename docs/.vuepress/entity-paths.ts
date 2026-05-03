@@ -4793,6 +4793,7 @@ export const entityPathsMap: Record<string, string> = {
   "VacationsSysLine" : "system-tables/VacationsSysLine.html",
   "VendorDiscount" : "supplychain-purchases/VendorDiscount.html",
   "DiscountLine" : "supplychain-purchases/VendorDiscount.html#details",
+  "VirtualEntity" : "basic/VirtualEntity.html",
   "WareLocationClass" : "supplychain/WareLocationClass.html",
   "Warehouse" : "supplychain/Warehouse.html",
   "WarehouseAdditionInformationLine" : "supplychain/Warehouse.html#additionalInformation",

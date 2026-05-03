@@ -158,6 +158,7 @@
   - [UserMobileIdentifierDocument](/modules/basic/UserMobileIdentifierDocument.md)
   - [UserTimedQuery](/modules/basic/UserTimedQuery.md)
   - [UsersCounter](/modules/basic/UsersCounter.md)
+  - [VirtualEntity](/modules/basic/VirtualEntity.md)
   - [WizardFile](/modules/basic/WizardFile.md)
   - [WorkTask](/modules/basic/WorkTask.md)
   - [WorkTaskCategory](/modules/basic/WorkTaskCategory.md)

@@ -1420,6 +1420,18 @@ Boolean
 
 </div>
 
+<div class="row searchable" id="skipIfOnlyCriticalFieldsChanged">
+<div class="cell" data-label="Property">skipIfOnlyCriticalFieldsChanged</div>
+<div class="cell" data-label="Column">skipIfOnlyCriticalFieldsChanged</div>
+<div class="cell" data-label="Arabic">عدم إرسال التنبيه في حالة تغيير الحقول الحرجة فقط</div>
+<div class="cell" data-label="English">Skip notification when only critical fields changed</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="systemGeneratedCodePrefix">
 <div class="cell" data-label="Property">systemGeneratedCodePrefix</div>
 <div class="cell" data-label="Column">systemGeneratedCodePrefix</div>

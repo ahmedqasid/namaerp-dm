@@ -776,6 +776,7 @@
   - [VehicleState](/modules/enums/VehicleState.md)
   - [ViewModificationType](/modules/enums/ViewModificationType.md)
   - [ViewNotificationContent](/modules/enums/ViewNotificationContent.md)
+  - [VirtualEntityMaterialization](/modules/enums/VirtualEntityMaterialization.md)
   - [VoucherType](/modules/enums/VoucherType.md)
   - [WarePriority](/modules/enums/WarePriority.md)
   - [WareSource](/modules/enums/WareSource.md)

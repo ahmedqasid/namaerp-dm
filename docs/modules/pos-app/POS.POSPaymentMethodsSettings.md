@@ -323,7 +323,31 @@ Integer
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="details.docCategoryId">
+</div><div class="row searchable" id="details.customerEntityType">
+<div class="cell" data-label="Property">details.customerEntityType</div>
+<div class="cell" data-label="Column">customerEntityType</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="details.customerId">
+<div class="cell" data-label="Property">details.customerId</div>
+<div class="cell" data-label="Column">customerId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
+
+</div>
+
+<div class="row searchable" id="details.docCategoryId">
 <div class="cell" data-label="Property">details.docCategoryId</div>
 <div class="cell" data-label="Column">docCategoryId</div>
 <div class="cell" data-label="Arabic"></div>

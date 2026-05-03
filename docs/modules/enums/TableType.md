@@ -32,6 +32,12 @@
 <div class="cell" data-label="English">System Table</div>
 </div>
 
+<div class="row searchable">
+<div class="cell" data-label="ID">VirtualEntity</div>
+<div class="cell" data-label="Arabic">كيان افتراضي</div>
+<div class="cell" data-label="English">Virtual Entity</div>
+</div>
+
 
 </div>
 </div>

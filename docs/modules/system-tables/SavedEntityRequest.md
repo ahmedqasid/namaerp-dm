@@ -59,8 +59,8 @@ Long
 <div class="row searchable" id="targetEntityType">
 <div class="cell" data-label="Property">targetEntityType</div>
 <div class="cell" data-label="Column">targetEntityType</div>
-<div class="cell" data-label="Arabic"></div>
-<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Arabic">النوع المستهدف</div>
+<div class="cell" data-label="English">Target Entity</div>
 <div class="cell" data-label="Type">
 
 EntityType

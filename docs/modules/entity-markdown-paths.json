@@ -1980,6 +1980,7 @@
   "VacationsBalSysLine" : "system-tables/VacationsBalSysLine.md",
   "VacationsSysLine" : "system-tables/VacationsSysLine.md",
   "VendorDiscount" : "supplychain-purchases/VendorDiscount.md",
+  "VirtualEntity" : "basic/VirtualEntity.md",
   "WareLocationClass" : "supplychain/WareLocationClass.md",
   "Warehouse" : "supplychain/Warehouse.md",
   "WarehouseGroup" : "supplychain/WarehouseGroup.md",

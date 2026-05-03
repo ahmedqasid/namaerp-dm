@@ -2,11 +2,11 @@
 <div class='tableName'>
 
 
-# BICrossFilter
+# VirtualEntity
 </div>
 
-**Arabic:** فلتر تفاعلي للوحات
-**English:** BI Cross Filter
+**Arabic:** كيان افتراضي
+**English:** Virtual Entity
 
 <ContentFilter/>
 
@@ -22,19 +22,7 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="allowedValues">
-<div class="cell" data-label="Property">allowedValues</div>
-<div class="cell" data-label="Column">allowedValues</div>
-<div class="cell" data-label="Arabic">القيم المسموح بها</div>
-<div class="cell" data-label="English">Allowed Values</div>
-<div class="cell" data-label="Type">
-
-BigText
-</div>
-
-</div>
-
-<div class="row searchable" id="analysisSet">
+</div><div class="row searchable" id="analysisSet">
 <div class="cell" data-label="Property">analysisSet</div>
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic">المجموعة التحليلية</div>
@@ -57,30 +45,6 @@ Reference
 <div class="cell" data-label="Type">
 
 ID
-</div>
-
-</div>
-
-<div class="row searchable" id="arTitle">
-<div class="cell" data-label="Property">arTitle</div>
-<div class="cell" data-label="Column">arTitle</div>
-<div class="cell" data-label="Arabic">العنوان العربى</div>
-<div class="cell" data-label="English">Arabic Title</div>
-<div class="cell" data-label="Type">
-
-Text
-</div>
-
-</div>
-
-<div class="row searchable" id="autoCreateWidget">
-<div class="cell" data-label="Property">autoCreateWidget</div>
-<div class="cell" data-label="Column">autoCreateWidget</div>
-<div class="cell" data-label="Arabic">إنشاء عنصر لوحة تلقائياً</div>
-<div class="cell" data-label="English">Auto Create Widget</div>
-<div class="cell" data-label="Type">
-
-Boolean
 </div>
 
 </div>
@@ -148,21 +112,6 @@ Boolean
 
 </div>
 
-<div class="row searchable" id="comparisonConfig">
-<div class="cell" data-label="Property">comparisonConfig</div>
-<div class="cell" data-label="Column">comparisonConfig_id</div>
-<div class="cell" data-label="Arabic">إعدادات مقارنة الفترات</div>
-<div class="cell" data-label="English">Period Comparison Config</div>
-<div class="cell" data-label="Type">
-
-Reference
-</div>
-<div class="cell" data-label="Foreign Table">
-
- [BIPeriodComparisonConfig](/modules/basic/BIPeriodComparisonConfig.md) 
-</div>
-</div>
-
 <div class="row searchable" id="createTransactionId">
 <div class="cell" data-label="Property">createTransactionId</div>
 <div class="cell" data-label="Column">createTransactionId</div>
@@ -183,18 +132,6 @@ Text
 <div class="cell" data-label="Type">
 
 DateAndTime
-</div>
-
-</div>
-
-<div class="row searchable" id="criteriaExpression">
-<div class="cell" data-label="Property">criteriaExpression</div>
-<div class="cell" data-label="Column">criteriaExpression</div>
-<div class="cell" data-label="Arabic">Criteria Expression (Filter)</div>
-<div class="cell" data-label="English">Criteria Expression (Filter)</div>
-<div class="cell" data-label="Type">
-
-BigText
 </div>
 
 </div>
@@ -238,11 +175,11 @@ Text
 
 </div>
 
-<div class="row searchable" id="customWhereClause">
-<div class="cell" data-label="Property">customWhereClause</div>
-<div class="cell" data-label="Column">customWhereClause</div>
-<div class="cell" data-label="Arabic">شرط مخصص</div>
-<div class="cell" data-label="English">Custom WHERE Clause</div>
+<div class="row searchable" id="dataModelXml">
+<div class="cell" data-label="Property">dataModelXml</div>
+<div class="cell" data-label="Column">dataModelXml</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
 <div class="cell" data-label="Type">
 
 BigText
@@ -306,18 +243,6 @@ Date
 <div class="cell" data-label="Type">
 
 Date
-</div>
-
-</div>
-
-<div class="row searchable" id="defaultValue">
-<div class="cell" data-label="Property">defaultValue</div>
-<div class="cell" data-label="Column">defaultValue</div>
-<div class="cell" data-label="Arabic">القيمة الافتراضية</div>
-<div class="cell" data-label="English">Default Value</div>
-<div class="cell" data-label="Type">
-
-Text
 </div>
 
 </div>
@@ -475,18 +400,6 @@ Reference
 </div>
 </div>
 
-<div class="row searchable" id="enTitle">
-<div class="cell" data-label="Property">enTitle</div>
-<div class="cell" data-label="Column">enTitle</div>
-<div class="cell" data-label="Arabic">العنوان الإنجليزي</div>
-<div class="cell" data-label="English">English Title</div>
-<div class="cell" data-label="Type">
-
-Text
-</div>
-
-</div>
-
 <div class="row searchable" id="entitySystemEntryId">
 <div class="cell" data-label="Property">entitySystemEntryId</div>
 <div class="cell" data-label="Column">entitySystemEntry_id</div>
@@ -574,18 +487,6 @@ Genericreference
 
 </div>
 
-<div class="row searchable" id="generatedWidget">
-<div class="cell" data-label="Property">generatedWidget</div>
-<div class="cell gen-ref-column" data-label="Column">generatedWidgetActualCode,  generatedWidgetCode,  generatedWidgetEntityType,  generatedWidgetId</div>
-<div class="cell" data-label="Arabic">Generated Widget</div>
-<div class="cell" data-label="English">Generated Widget</div>
-<div class="cell" data-label="Type">
-
-Genericreference
-</div>
-
-</div>
-
 <div class="row searchable" id="generationType">
 <div class="cell" data-label="Property">generationType</div>
 <div class="cell" data-label="Column">generationType</div>
@@ -611,30 +512,6 @@ Reference
 
  [MasterGroup](/modules/basic/MasterGroup.md) 
 </div>
-</div>
-
-<div class="row searchable" id="hidden">
-<div class="cell" data-label="Property">hidden</div>
-<div class="cell" data-label="Column">hidden</div>
-<div class="cell" data-label="Arabic">إخفاء</div>
-<div class="cell" data-label="English">Hidden</div>
-<div class="cell" data-label="Type">
-
-Boolean
-</div>
-
-</div>
-
-<div class="row searchable" id="hideFilterTitle">
-<div class="cell" data-label="Property">hideFilterTitle</div>
-<div class="cell" data-label="Column">hideFilterTitle</div>
-<div class="cell" data-label="Arabic">إخفاء عنوان الفلتر</div>
-<div class="cell" data-label="English">Hide Filter Title</div>
-<div class="cell" data-label="Type">
-
-Boolean
-</div>
-
 </div>
 
 <div class="row searchable" id="id">
@@ -697,18 +574,6 @@ DateAndTime
 
 </div>
 
-<div class="row searchable" id="layout">
-<div class="cell" data-label="Property">layout</div>
-<div class="cell" data-label="Column">layout</div>
-<div class="cell" data-label="Arabic">طريقة العرض</div>
-<div class="cell" data-label="English">Layout</div>
-<div class="cell" data-label="Type">
-
- [FieldLayout](/modules/enums/FieldLayout.md) 
-</div>
-
-</div>
-
 <div class="row searchable" id="legalEntity">
 <div class="cell" data-label="Property">legalEntity</div>
 <div class="cell" data-label="Column">legalEntity_id</div>
@@ -732,30 +597,6 @@ Reference
 <div class="cell" data-label="Type">
 
 ID
-</div>
-
-</div>
-
-<div class="row searchable" id="listDisplayType">
-<div class="cell" data-label="Property">listDisplayType</div>
-<div class="cell" data-label="Column">listDisplayType</div>
-<div class="cell" data-label="Arabic">نوع عرض القائمة</div>
-<div class="cell" data-label="English">List Display Type</div>
-<div class="cell" data-label="Type">
-
- [ListDisplayType](/modules/enums/ListDisplayType.md) 
-</div>
-
-</div>
-
-<div class="row searchable" id="listParam">
-<div class="cell" data-label="Property">listParam</div>
-<div class="cell" data-label="Column">listParam</div>
-<div class="cell" data-label="Arabic">List (multi-selection)</div>
-<div class="cell" data-label="English">List (multi-selection)</div>
-<div class="cell" data-label="Type">
-
-Boolean
 </div>
 
 </div>
@@ -785,6 +626,30 @@ Binary
 
  [LargeData](/modules/system-tables/LargeData.md) 
 </div>
+</div>
+
+<div class="row searchable" id="mappingJson">
+<div class="cell" data-label="Property">mappingJson</div>
+<div class="cell" data-label="Column">mappingJson</div>
+<div class="cell" data-label="Arabic">Column Mapping</div>
+<div class="cell" data-label="English">Column Mapping</div>
+<div class="cell" data-label="Type">
+
+BigText
+</div>
+
+</div>
+
+<div class="row searchable" id="materialization">
+<div class="cell" data-label="Property">materialization</div>
+<div class="cell" data-label="Column">materialization</div>
+<div class="cell" data-label="Arabic">Materialization</div>
+<div class="cell" data-label="English">Materialization</div>
+<div class="cell" data-label="Type">
+
+ [VirtualEntityMaterialization](/modules/enums/VirtualEntityMaterialization.md) 
+</div>
+
 </div>
 
 <div class="row searchable" id="n1">
@@ -867,30 +732,6 @@ Text
 <div class="cell" data-label="Type">
 
 Text
-</div>
-
-</div>
-
-<div class="row searchable" id="operator">
-<div class="cell" data-label="Property">operator</div>
-<div class="cell" data-label="Column">operator</div>
-<div class="cell" data-label="Arabic">المعامل</div>
-<div class="cell" data-label="English">Operator</div>
-<div class="cell" data-label="Type">
-
- [Operator](/modules/enums/Operator.md) 
-</div>
-
-</div>
-
-<div class="row searchable" id="paramType">
-<div class="cell" data-label="Property">paramType</div>
-<div class="cell" data-label="Column">paramType</div>
-<div class="cell" data-label="Arabic">النوع</div>
-<div class="cell" data-label="English">Param Type</div>
-<div class="cell" data-label="Type">
-
- [ParamFieldType](/modules/enums/ParamFieldType.md) 
 </div>
 
 </div>
@@ -991,18 +832,6 @@ Genericreference
 
 </div>
 
-<div class="row searchable" id="referencedEntityType">
-<div class="cell" data-label="Property">referencedEntityType</div>
-<div class="cell" data-label="Column">referencedEntityType</div>
-<div class="cell" data-label="Arabic">Referenced Entity Type</div>
-<div class="cell" data-label="English">Referenced Entity Type</div>
-<div class="cell" data-label="Type">
-
-EntityType
-</div>
-
-</div>
-
 <div class="row searchable" id="remarks">
 <div class="cell" data-label="Property">remarks</div>
 <div class="cell" data-label="Column">remark</div>
@@ -1011,30 +840,6 @@ EntityType
 <div class="cell" data-label="Type">
 
 BigText
-</div>
-
-</div>
-
-<div class="row searchable" id="required">
-<div class="cell" data-label="Property">required</div>
-<div class="cell" data-label="Column">required</div>
-<div class="cell" data-label="Arabic">إجبارى</div>
-<div class="cell" data-label="English">Required</div>
-<div class="cell" data-label="Type">
-
-Boolean
-</div>
-
-</div>
-
-<div class="row searchable" id="requiredGroup">
-<div class="cell" data-label="Property">requiredGroup</div>
-<div class="cell" data-label="Column">requiredGroup</div>
-<div class="cell" data-label="Arabic">Required Group</div>
-<div class="cell" data-label="English">Required Group</div>
-<div class="cell" data-label="Type">
-
-Text
 </div>
 
 </div>
@@ -1105,35 +910,11 @@ ID
 
 </div>
 
-<div class="row searchable" id="showAsDateRange">
-<div class="cell" data-label="Property">showAsDateRange</div>
-<div class="cell" data-label="Column">showAsDateRange</div>
-<div class="cell" data-label="Arabic">عرض كنطاق تاريخ</div>
-<div class="cell" data-label="English">Show as Date Range</div>
-<div class="cell" data-label="Type">
-
-Boolean
-</div>
-
-</div>
-
-<div class="row searchable" id="sqlLeftHandSide">
-<div class="cell" data-label="Property">sqlLeftHandSide</div>
-<div class="cell" data-label="Column">sqlLeftHandSide</div>
-<div class="cell" data-label="Arabic">عمود SQL الأيسر</div>
-<div class="cell" data-label="English">SQL Left Hand Side</div>
-<div class="cell" data-label="Type">
-
-FieldID
-</div>
-
-</div>
-
-<div class="row searchable" id="suggestionQuery">
-<div class="cell" data-label="Property">suggestionQuery</div>
-<div class="cell" data-label="Column">suggestionQuery</div>
-<div class="cell" data-label="Arabic">Suggestion Query</div>
-<div class="cell" data-label="English">Suggestion Query</div>
+<div class="row searchable" id="sqlQuery">
+<div class="cell" data-label="Property">sqlQuery</div>
+<div class="cell" data-label="Column">sqlQuery</div>
+<div class="cell" data-label="Arabic">SQL Query</div>
+<div class="cell" data-label="English">SQL Query</div>
 <div class="cell" data-label="Type">
 
 BigText

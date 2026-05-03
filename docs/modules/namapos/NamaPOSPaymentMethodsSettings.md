@@ -994,7 +994,19 @@ ID
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="details.docCategory">
+</div><div class="row searchable" id="details.customer">
+<div class="cell" data-label="Property">details.customer</div>
+<div class="cell gen-ref-column" data-label="Column">customerActualCode,  customerCode,  customerEntityType,  customerId</div>
+<div class="cell" data-label="Arabic">العميل</div>
+<div class="cell" data-label="English">Customer</div>
+<div class="cell" data-label="Type">
+
+Genericreference
+</div>
+
+</div>
+
+<div class="row searchable" id="details.docCategory">
 <div class="cell" data-label="Property">details.docCategory</div>
 <div class="cell" data-label="Column">docCategory_id</div>
 <div class="cell" data-label="Arabic"> تصنيف سجل</div>

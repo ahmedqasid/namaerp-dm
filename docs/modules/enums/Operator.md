@@ -100,7 +100,7 @@
 
 <div class="row searchable">
 <div class="cell" data-label="ID">In</div>
-<div class="cell" data-label="Arabic">دخول</div>
+<div class="cell" data-label="Arabic">في</div>
 <div class="cell" data-label="English">In</div>
 </div>
 

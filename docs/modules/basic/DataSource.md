@@ -2426,6 +2426,18 @@ Text
 
 </div>
 
+<div class="row searchable" id="parameters.showAsDateRange">
+<div class="cell" data-label="Property">parameters.showAsDateRange</div>
+<div class="cell" data-label="Column">showAsDateRange</div>
+<div class="cell" data-label="Arabic">عرض كنطاق تاريخ</div>
+<div class="cell" data-label="English">Show as Date Range</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="parameters.showInsideReport">
 <div class="cell" data-label="Property">parameters.showInsideReport</div>
 <div class="cell" data-label="Column">showInsideReport</div>
