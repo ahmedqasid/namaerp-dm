@@ -447,18 +447,6 @@ Reference
 </div>
 </div>
 
-<div class="row searchable" id="copyOriginDocToPurchaseOrderFromDoc">
-<div class="cell" data-label="Property">copyOriginDocToPurchaseOrderFromDoc</div>
-<div class="cell" data-label="Column">copyOriginDocToPurchaseOrderFromDoc</div>
-<div class="cell" data-label="Arabic">نسخ تم النسخ من سند بالسطور إلى بناءا على في امر الشراء المنشأ</div>
-<div class="cell" data-label="English">Copy Origin Doc From Lines To From Doc In Generated Purchase Order</div>
-<div class="cell" data-label="Type">
-
-Boolean
-</div>
-
-</div>
-
 <div class="row searchable" id="createTransactionId">
 <div class="cell" data-label="Property">createTransactionId</div>
 <div class="cell" data-label="Column">createTransactionId</div>
