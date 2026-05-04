@@ -578,6 +578,12 @@
 <div class="cell" data-label="English">Prevent Payment</div>
 </div>
 
+<div class="row searchable">
+<div class="cell" data-label="ID">CanHoldSelfCheckoutInvoice</div>
+<div class="cell" data-label="Arabic">إمكانية تعليق فاتورة الدفع الذاتي</div>
+<div class="cell" data-label="English">Can Hold Self Checkout Invoice</div>
+</div>
+
 
 </div>
 </div>
