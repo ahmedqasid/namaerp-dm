@@ -16670,6 +16670,18 @@ Text
 
 </div>
 
+<div class="row searchable" id="headerComponents.evaluationTime">
+<div class="cell" data-label="Property">headerComponents.evaluationTime</div>
+<div class="cell" data-label="Column">evaluationTime</div>
+<div class="cell" data-label="Arabic">Evaluation Time</div>
+<div class="cell" data-label="English">Evaluation Time</div>
+<div class="cell" data-label="Type">
+
+ [JREvaluationTimeEnum](/modules/enums/JREvaluationTimeEnum.md) 
+</div>
+
+</div>
+
 <div class="row searchable" id="headerComponents.finalExpression">
 <div class="cell" data-label="Property">headerComponents.finalExpression</div>
 <div class="cell" data-label="Column">finalExpression</div>

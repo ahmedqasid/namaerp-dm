@@ -1426,6 +1426,21 @@ Genericreference
 
 </div>
 
+<div class="row searchable" id="lines.fpCreationInfo.concernedPartyAccForRVPV">
+<div class="cell" data-label="Property">lines.fpCreationInfo.concernedPartyAccForRVPV</div>
+<div class="cell" data-label="Column">fpcCncrnedPartyAccForRVPV_id</div>
+<div class="cell" data-label="Arabic">حساب الطرف المعني للقبض والصرف</div>
+<div class="cell" data-label="English">Concerned Party Account for Payment And Receipt</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
 <div class="row searchable" id="lines.fpCreationInfo.currency">
 <div class="cell" data-label="Property">lines.fpCreationInfo.currency</div>
 <div class="cell" data-label="Column">fpcCurrency_id</div>

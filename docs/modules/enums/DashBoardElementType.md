@@ -135,6 +135,12 @@
 </div>
 
 <div class="row searchable">
+<div class="cell" data-label="ID">EnhancedMetricsCard</div>
+<div class="cell" data-label="Arabic">بطاقات قياس محسنة</div>
+<div class="cell" data-label="English">Metrics Cards v2 (Enhanced)</div>
+</div>
+
+<div class="row searchable">
 <div class="cell" data-label="ID">Timeline</div>
 <div class="cell" data-label="Arabic">خط زمني</div>
 <div class="cell" data-label="English">Timeline</div>

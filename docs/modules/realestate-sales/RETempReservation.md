@@ -877,6 +877,18 @@ Integer
 
 </div>
 
+<div class="row searchable" id="installmentInfo.valueIsTotalNotPerInstallment">
+<div class="cell" data-label="Property">installmentInfo.valueIsTotalNotPerInstallment</div>
+<div class="cell" data-label="Column">valueIsTotalNotPerInstallment</div>
+<div class="cell" data-label="Arabic">قيمة القسط إجمالية وليست لكل قسط (القسمة على عدد الأقساط)</div>
+<div class="cell" data-label="English">Value is Total not Per Installment (Installment Value Divided by Installment Count)</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="issueDate">
 <div class="cell" data-label="Property">issueDate</div>
 <div class="cell" data-label="Column">issueDate</div>

@@ -500,6 +500,21 @@ Genericreference
 
 </div>
 
+<div class="row searchable" id="refpCreationInfo.concernedPartyAccForRVPV">
+<div class="cell" data-label="Property">refpCreationInfo.concernedPartyAccForRVPV</div>
+<div class="cell" data-label="Column">fpConcernedPartyAccForRVPV_id</div>
+<div class="cell" data-label="Arabic">حساب الطرف المعني للقبض والصرف</div>
+<div class="cell" data-label="English">Concerned Party Account for Payment And Receipt</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
 <div class="row searchable" id="refpCreationInfo.currency">
 <div class="cell" data-label="Property">refpCreationInfo.currency</div>
 <div class="cell" data-label="Column">fpCurrency_id</div>

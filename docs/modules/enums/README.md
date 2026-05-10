@@ -352,6 +352,7 @@
   - [JOSalesOrderLineType](/modules/enums/JOSalesOrderLineType.md)
   - [JOSalesType](/modules/enums/JOSalesType.md)
   - [JOrderExpenseType](/modules/enums/JOrderExpenseType.md)
+  - [JREvaluationTimeEnum](/modules/enums/JREvaluationTimeEnum.md)
   - [JRFill](/modules/enums/JRFill.md)
   - [JRHorizontalAlign](/modules/enums/JRHorizontalAlign.md)
   - [JRLineSpacing](/modules/enums/JRLineSpacing.md)

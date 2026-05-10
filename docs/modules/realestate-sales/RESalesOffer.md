@@ -981,6 +981,18 @@ Integer
 
 </div>
 
+<div class="row searchable" id="installmentInfo.valueIsTotalNotPerInstallment">
+<div class="cell" data-label="Property">installmentInfo.valueIsTotalNotPerInstallment</div>
+<div class="cell" data-label="Column">valueIsTotalNotPerInstallment</div>
+<div class="cell" data-label="Arabic">قيمة القسط إجمالية وليست لكل قسط (القسمة على عدد الأقساط)</div>
+<div class="cell" data-label="English">Value is Total not Per Installment (Installment Value Divided by Installment Count)</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="investmentFund">
 <div class="cell" data-label="Property">investmentFund</div>
 <div class="cell" data-label="Column">investmentFund_id</div>
@@ -1539,10 +1551,10 @@ Decimal
 
 </div>
 
-<div class="row searchable" id="price.maintenanceDepositBeforeDiscount">
-<div class="cell" data-label="Property">price.maintenanceDepositBeforeDiscount</div>
-<div class="cell" data-label="Column">maintenanceDepositBeforeDiscount</div>
-<div class="cell" data-label="Arabic">وديعة الصيانة قبل احتساب الخصم</div>
+<div class="row searchable" id="price.maintenanceDepositAfterDiscount">
+<div class="cell" data-label="Property">price.maintenanceDepositAfterDiscount</div>
+<div class="cell" data-label="Column">maintenanceDepositAfterDiscount</div>
+<div class="cell" data-label="Arabic">وديعة الصيانة بعد احتساب الخصم</div>
 <div class="cell" data-label="English">Maintenance Deposit Before Discount</div>
 <div class="cell" data-label="Type">
 
@@ -2842,6 +2854,21 @@ Genericreference
 
 </div>
 
+<div class="row searchable" id="details.refpCreationInfo.concernedPartyAccForRVPV">
+<div class="cell" data-label="Property">details.refpCreationInfo.concernedPartyAccForRVPV</div>
+<div class="cell" data-label="Column">fpConcernedPartyAccForRVPV_id</div>
+<div class="cell" data-label="Arabic">حساب الطرف المعني للقبض والصرف</div>
+<div class="cell" data-label="English">Concerned Party Account for Payment And Receipt</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
+<div class="cell" data-label="Foreign Table">
+
+ [Account](/modules/accounting/Account.md) 
+</div>
+</div>
+
 <div class="row searchable" id="details.refpCreationInfo.currency">
 <div class="cell" data-label="Property">details.refpCreationInfo.currency</div>
 <div class="cell" data-label="Column">fpCurrency_id</div>
@@ -3457,6 +3484,18 @@ Integer
 <div class="cell" data-label="Type">
 
  [RemainingProcessingPolicy](/modules/enums/RemainingProcessingPolicy.md) 
+</div>
+
+</div>
+
+<div class="row searchable" id="installmentInfoLines.installmentInfo.valueIsTotalNotPerInstallment">
+<div class="cell" data-label="Property">installmentInfoLines.installmentInfo.valueIsTotalNotPerInstallment</div>
+<div class="cell" data-label="Column">valueIsTotalNotPerInstallment</div>
+<div class="cell" data-label="Arabic">قيمة القسط إجمالية وليست لكل قسط (القسمة على عدد الأقساط)</div>
+<div class="cell" data-label="English">Value is Total not Per Installment (Installment Value Divided by Installment Count)</div>
+<div class="cell" data-label="Type">
+
+Boolean
 </div>
 
 </div>
