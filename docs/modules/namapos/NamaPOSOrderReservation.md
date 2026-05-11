@@ -6579,6 +6579,18 @@ Text
 
 </div>
 
+<div class="row searchable" id="payments.pgwProperties.failureMessage">
+<div class="cell" data-label="Property">payments.pgwProperties.failureMessage</div>
+<div class="cell" data-label="Column">failureMessage</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
 <div class="row searchable" id="payments.pgwProperties.maskedCardNumber">
 <div class="cell" data-label="Property">payments.pgwProperties.maskedCardNumber</div>
 <div class="cell" data-label="Column">maskedCardNumber</div>

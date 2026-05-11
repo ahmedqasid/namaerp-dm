@@ -534,6 +534,18 @@ Reference
 
 </div>
 
+<div class="row searchable" id="dontSendAssemblyComponentLines">
+<div class="cell" data-label="Property">dontSendAssemblyComponentLines</div>
+<div class="cell" data-label="Column">dontSendAssemblyComponentLines</div>
+<div class="cell" data-label="Arabic">لا ترسل مكونات الأصناف المجمعة</div>
+<div class="cell" data-label="English">Do Not Send Assembly Components</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="draftCreated">
 <div class="cell" data-label="Property">draftCreated</div>
 <div class="cell" data-label="Column">draftCreated</div>

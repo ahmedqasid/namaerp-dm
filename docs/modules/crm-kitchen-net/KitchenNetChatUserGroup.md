@@ -994,7 +994,19 @@ ID
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="users.id">
+</div><div class="row searchable" id="users.field">
+<div class="cell" data-label="Property">users.field</div>
+<div class="cell" data-label="Column">field</div>
+<div class="cell" data-label="Arabic">الحقل</div>
+<div class="cell" data-label="English">Field</div>
+<div class="cell" data-label="Type">
+
+FieldID
+</div>
+
+</div>
+
+<div class="row searchable" id="users.id">
 <div class="cell" data-label="Property">users.id</div>
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
