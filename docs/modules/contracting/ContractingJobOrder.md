@@ -1870,7 +1870,19 @@ ID
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="terms.additionsOfConditions">
+</div><div class="row searchable" id="terms.additionalCosts">
+<div class="cell" data-label="Property">terms.additionalCosts</div>
+<div class="cell" data-label="Column">additionalCosts</div>
+<div class="cell" data-label="Arabic">تكاليف إضافية</div>
+<div class="cell" data-label="English">Additional Costs</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
+<div class="row searchable" id="terms.additionsOfConditions">
 <div class="cell" data-label="Property">terms.additionsOfConditions</div>
 <div class="cell" data-label="Column">additionsOfConditions</div>
 <div class="cell" data-label="Arabic">الإضافات من الشروط</div>
@@ -3408,6 +3420,18 @@ Text
 <div class="cell" data-label="Column">totalCost</div>
 <div class="cell" data-label="Arabic">اجمالى التكلفة</div>
 <div class="cell" data-label="English">Total Cost</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
+<div class="row searchable" id="terms.totalCostBeforeAdditional">
+<div class="cell" data-label="Property">terms.totalCostBeforeAdditional</div>
+<div class="cell" data-label="Column">totalCostBeforeAdditional</div>
+<div class="cell" data-label="Arabic">التكاليف قبل الإضافية</div>
+<div class="cell" data-label="English">Total Cost Before Additional</div>
 <div class="cell" data-label="Type">
 
 Decimal
