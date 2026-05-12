@@ -538,7 +538,7 @@ Reference
 <div class="cell" data-label="Property">dontSendAssemblyComponentLines</div>
 <div class="cell" data-label="Column">dontSendAssemblyComponentLines</div>
 <div class="cell" data-label="Arabic">لا ترسل مكونات الأصناف المجمعة</div>
-<div class="cell" data-label="English">Do Not Send Assembly Components</div>
+<div class="cell" data-label="English">Don Not Send Assembly Components</div>
 <div class="cell" data-label="Type">
 
 Boolean
