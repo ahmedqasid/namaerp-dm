@@ -274,6 +274,18 @@ Integer
 
 </div>
 
+<div class="row searchable" id="redeemWithoutOtp">
+<div class="cell" data-label="Property">redeemWithoutOtp</div>
+<div class="cell" data-label="Column">redeemWithoutOtp</div>
+<div class="cell" data-label="Arabic">استرداد النقاط بدون رمز OTP</div>
+<div class="cell" data-label="English">Redeem Points Without OTP</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="selected">
 <div class="cell" data-label="Property">selected</div>
 <div class="cell" data-label="Column">selected</div>
