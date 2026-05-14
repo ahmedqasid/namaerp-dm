@@ -92,6 +92,18 @@ Genericreference
 
 </div>
 
+<div class="row searchable" id="removedAt">
+<div class="cell" data-label="Property">removedAt</div>
+<div class="cell" data-label="Column">removedAt</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
+
+</div>
+
 <div class="row searchable" id="role">
 <div class="cell" data-label="Property">role</div>
 <div class="cell" data-label="Column">role</div>

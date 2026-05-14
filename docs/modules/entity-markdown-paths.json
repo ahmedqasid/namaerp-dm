@@ -1606,6 +1606,7 @@
   "RELand" : "realestate/RELand.md",
   "REMaintenanceAccrual" : "realestate/REMaintenanceAccrual.md",
   "REMaintenanceDepositProfit" : "realestate/REMaintenanceDepositProfit.md",
+  "REMaintenanceDistribution" : "system-tables/REMaintenanceDistribution.md",
   "REMaintenanceExpense" : "realestate/REMaintenanceExpense.md",
   "REMaintenanceExpenseRequest" : "realestate/REMaintenanceExpenseRequest.md",
   "REMaintenanceFund" : "realestate/REMaintenanceFund.md",

@@ -32,6 +32,12 @@
 <div class="cell" data-label="English"></div>
 </div>
 
+<div class="row searchable">
+<div class="cell" data-label="ID">Blocked</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+</div>
+
 
 </div>
 </div>

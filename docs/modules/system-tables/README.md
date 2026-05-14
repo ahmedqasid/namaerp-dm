@@ -268,6 +268,7 @@
   - [REEstateCostEntry](/modules/system-tables/REEstateCostEntry.md)
   - [REInvestmentFundInvestor](/modules/system-tables/REInvestmentFundInvestor.md)
   - [REInvestmentFundInvestorTransaction](/modules/system-tables/REInvestmentFundInvestorTransaction.md)
+  - [REMaintenanceDistribution](/modules/system-tables/REMaintenanceDistribution.md)
   - [REPurchaseValueAndRevaluationEntry](/modules/system-tables/REPurchaseValueAndRevaluationEntry.md)
   - [RERentalunitsalesLine](/modules/system-tables/RERentalunitsalesLine.md)
   - [REReservationEntry](/modules/system-tables/REReservationEntry.md)

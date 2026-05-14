@@ -913,6 +913,21 @@ Text
 
 </div>
 
+<div class="row searchable" id="taxPlan">
+<div class="cell" data-label="Property">taxPlan</div>
+<div class="cell" data-label="Column">taxPlan_id</div>
+<div class="cell" data-label="Arabic"> سياسة الضريبة</div>
+<div class="cell" data-label="English"> Tax Plan</div>
+<div class="cell" data-label="Type">
+
+Reference
+</div>
+<div class="cell" data-label="Foreign Table">
+
+ [TaxPlan](/modules/basic/TaxPlan.md) 
+</div>
+</div>
+
 <div class="row searchable" id="updateCapability">
 <div class="cell" data-label="Property">updateCapability</div>
 <div class="cell" data-label="Column">updateCapability_id</div>

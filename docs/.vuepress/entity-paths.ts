@@ -3843,6 +3843,7 @@ export const entityPathsMap: Record<string, string> = {
   "REMaintenanceAccrual" : "realestate/REMaintenanceAccrual.html",
   "REMaintenanceAccrualLine" : "realestate/REMaintenanceAccrual.html#details",
   "REMaintenanceDepositProfit" : "realestate/REMaintenanceDepositProfit.html",
+  "REMaintenanceDistribution" : "system-tables/REMaintenanceDistribution.html",
   "REMaintenanceExpense" : "realestate/REMaintenanceExpense.html",
   "REMaintenanceLine" : "realestate/REMaintenanceExpense.html#details",
   "REMaintenanceExpenseRequest" : "realestate/REMaintenanceExpenseRequest.html",
