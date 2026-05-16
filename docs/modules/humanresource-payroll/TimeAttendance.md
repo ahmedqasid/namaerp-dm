@@ -687,6 +687,18 @@ ID
 
 </div>
 
+<div class="row searchable" id="ignoreOverlappingAttendance">
+<div class="cell" data-label="Property">ignoreOverlappingAttendance</div>
+<div class="cell" data-label="Column">ignoreOverlappingAttendance</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="ignoreUnfoundEmpsInTimeAttend">
 <div class="cell" data-label="Property">ignoreUnfoundEmpsInTimeAttend</div>
 <div class="cell" data-label="Column">ignoreUnfoundEmpsInTimeAttend</div>
@@ -1362,6 +1374,18 @@ Time
 <div class="cell" data-label="Type">
 
 ID
+</div>
+
+</div>
+
+<div class="row searchable" id="attendanceLines.lineIgnoredForOverlap">
+<div class="cell" data-label="Property">attendanceLines.lineIgnoredForOverlap</div>
+<div class="cell" data-label="Column">lineIgnoredForOverlap</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">
+
+Boolean
 </div>
 
 </div>
