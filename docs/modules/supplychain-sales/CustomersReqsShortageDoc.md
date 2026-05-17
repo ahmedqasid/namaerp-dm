@@ -1086,6 +1086,18 @@ EntityType
 
 </div>
 
+<div class="row searchable" id="executedStockQty">
+<div class="cell" data-label="Property">executedStockQty</div>
+<div class="cell" data-label="Column">executedStockQty</div>
+<div class="cell" data-label="Arabic">الكمية المنفذة مخزنيا</div>
+<div class="cell" data-label="English">Executed Stock Quantity</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
 <div class="row searchable" id="firstAuthor">
 <div class="cell" data-label="Property">firstAuthor</div>
 <div class="cell" data-label="Column">firstAuthor_id</div>
@@ -2501,6 +2513,18 @@ Genericreference
 <div class="cell" data-label="Type">
 
 Genericreference
+</div>
+
+</div>
+
+<div class="row searchable" id="remainingStockQty">
+<div class="cell" data-label="Property">remainingStockQty</div>
+<div class="cell" data-label="Column">remainingStockQty</div>
+<div class="cell" data-label="Arabic">الكمية المتبقية مخزنيا</div>
+<div class="cell" data-label="English">Remaining Stock Quantity</div>
+<div class="cell" data-label="Type">
+
+Decimal
 </div>
 
 </div>
