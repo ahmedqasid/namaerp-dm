@@ -471,6 +471,18 @@ Reference
 </div>
 </div>
 
+<div class="row searchable" id="disableBiometricLoginForEmployee">
+<div class="cell" data-label="Property">disableBiometricLoginForEmployee</div>
+<div class="cell" data-label="Column">disableBiometricLoginForEmployee</div>
+<div class="cell" data-label="Arabic">تعطيل تسجيل الدخول بالبصمة للموظف</div>
+<div class="cell" data-label="English">Disable Biometric Login For Employee</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="docCategory">
 <div class="cell" data-label="Property">docCategory</div>
 <div class="cell" data-label="Column">docCategory_id</div>
