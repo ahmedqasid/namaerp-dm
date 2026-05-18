@@ -493,6 +493,7 @@
   "EInvoiceReceivedEventEntry" : "system-tables/EInvoiceReceivedEventEntry.md",
   "EInvoiceSubmissionEntry" : "system-tables/EInvoiceSubmissionEntry.md",
   "EReceiptSubmissionSysEntry" : "system-tables/EReceiptSubmissionSysEntry.md",
+  "EcommerceAppRegistryEntry" : "system-tables/EcommerceAppRegistryEntry.md",
   "EcommerceCategoryConfig" : "magento/EcommerceCategoryConfig.md",
   "EcommerceProductConfig" : "magento/EcommerceProductConfig.md",
   "EcommerceShippingEventLogEntry" : "system-tables/EcommerceShippingEventLogEntry.md",

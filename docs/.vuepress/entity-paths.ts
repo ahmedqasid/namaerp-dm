@@ -1062,6 +1062,7 @@ export const entityPathsMap: Record<string, string> = {
   "EInvoiceReceivedEventEntry" : "system-tables/EInvoiceReceivedEventEntry.html",
   "EInvoiceSubmissionEntry" : "system-tables/EInvoiceSubmissionEntry.html",
   "EReceiptSubmissionSysEntry" : "system-tables/EReceiptSubmissionSysEntry.html",
+  "EcommerceAppRegistryEntry" : "system-tables/EcommerceAppRegistryEntry.html",
   "EcommerceCategoryConfig" : "magento/EcommerceCategoryConfig.html",
   "EcommerceCategoryConfigLine" : "magento/EcommerceCategoryConfig.html#lines",
   "EcommerceProductConfig" : "magento/EcommerceProductConfig.html",

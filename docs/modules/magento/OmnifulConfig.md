@@ -531,6 +531,18 @@ Integer
 
 </div>
 
+<div class="row searchable" id="itemTaxPlanCodeOrId">
+<div class="cell" data-label="Property">itemTaxPlanCodeOrId</div>
+<div class="cell" data-label="Column">itemTaxPlanCodeOrId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
 <div class="row searchable" id="lastAccessTokenJSON">
 <div class="cell" data-label="Property">lastAccessTokenJSON</div>
 <div class="cell" data-label="Column">lastAccessTokenJSON</div>

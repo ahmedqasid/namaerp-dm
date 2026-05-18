@@ -2622,6 +2622,7 @@
     - [EInvoiceReceivedEventEntry](/modules/system-tables/EInvoiceReceivedEventEntry.md)
     - [EInvoiceSubmissionEntry](/modules/system-tables/EInvoiceSubmissionEntry.md)
     - [EReceiptSubmissionSysEntry](/modules/system-tables/EReceiptSubmissionSysEntry.md)
+    - [EcommerceAppRegistryEntry](/modules/system-tables/EcommerceAppRegistryEntry.md)
     - [EcommerceShippingEventLogEntry](/modules/system-tables/EcommerceShippingEventLogEntry.md)
     - [EcommerceWebhookEventProcessReq](/modules/system-tables/EcommerceWebhookEventProcessReq.md)
     - [EffectsUnitCostConfigLine](/modules/system-tables/EffectsUnitCostConfigLine.md)
