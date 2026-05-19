@@ -327,6 +327,18 @@ Text
 
 </div>
 
+<div class="row searchable" id="discLocation">
+<div class="cell" data-label="Property">discLocation</div>
+<div class="cell" data-label="Column">discLocation</div>
+<div class="cell" data-label="Arabic">مكان التخفيض</div>
+<div class="cell" data-label="English">Discount Location</div>
+<div class="cell" data-label="Type">
+
+ [DiscountLocation](/modules/enums/DiscountLocation.md) 
+</div>
+
+</div>
+
 <div class="row searchable" id="docCategory">
 <div class="cell" data-label="Property">docCategory</div>
 <div class="cell" data-label="Column">docCategory_id</div>
