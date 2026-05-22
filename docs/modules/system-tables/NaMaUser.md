@@ -1556,6 +1556,18 @@ Integer
 
 </div>
 
+<div class="row searchable" id="settings.lastPasswordChangeDate">
+<div class="cell" data-label="Property">settings.lastPasswordChangeDate</div>
+<div class="cell" data-label="Column">lastPasswordChangeDate</div>
+<div class="cell" data-label="Arabic">تاريخ آخر تغيير كلمة المرور</div>
+<div class="cell" data-label="English">Last Password Change Date</div>
+<div class="cell" data-label="Type">
+
+DateAndTime
+</div>
+
+</div>
+
 <div class="row searchable" id="settings.loginContext.analysisSet">
 <div class="cell" data-label="Property">settings.loginContext.analysisSet</div>
 <div class="cell" data-label="Column">loginContextAnalysisSet_id</div>

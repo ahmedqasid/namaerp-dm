@@ -1054,6 +1054,18 @@ Integer
 
 </div>
 
+<div class="row searchable" id="details.mobileListViewName">
+<div class="cell" data-label="Property">details.mobileListViewName</div>
+<div class="cell" data-label="Column">mobileListViewName</div>
+<div class="cell" data-label="Arabic">اسم القائمة في التطبيق</div>
+<div class="cell" data-label="English">Mobile List View Name</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
 <div class="row searchable" id="details.template1">
 <div class="cell" data-label="Property">details.template1</div>
 <div class="cell" data-label="Column">template1</div>

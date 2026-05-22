@@ -468,6 +468,18 @@ Text
 
 </div>
 
+<div class="row searchable" id="displayCardMenusAsBullets">
+<div class="cell" data-label="Property">displayCardMenusAsBullets</div>
+<div class="cell" data-label="Column">displayCardMenusAsBullets</div>
+<div class="cell" data-label="Arabic">عرض قوائم البطاقات كنقاط</div>
+<div class="cell" data-label="English">Display Card Menus as Bullets</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="docCategory">
 <div class="cell" data-label="Property">docCategory</div>
 <div class="cell" data-label="Column">docCategory_id</div>

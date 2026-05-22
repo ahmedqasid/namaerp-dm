@@ -696,6 +696,18 @@ DateAndTime
 
 </div>
 
+<div class="row searchable" id="ledgerTransReqId">
+<div class="cell" data-label="Property">ledgerTransReqId</div>
+<div class="cell" data-label="Column">ledgerTransReqId</div>
+<div class="cell" data-label="Arabic"></div>
+<div class="cell" data-label="English"></div>
+<div class="cell" data-label="Type">
+
+ID
+</div>
+
+</div>
+
 <div class="row searchable" id="legalEntity">
 <div class="cell" data-label="Property">legalEntity</div>
 <div class="cell" data-label="Column">legalEntity_id</div>
@@ -1302,6 +1314,30 @@ ID
 <div class="cell" data-label="Type">
 
 Integer
+</div>
+
+</div>
+
+<div class="row searchable" id="details.remainingMaintenanceValue">
+<div class="cell" data-label="Property">details.remainingMaintenanceValue</div>
+<div class="cell" data-label="Column">remainingMaintenanceValue</div>
+<div class="cell" data-label="Arabic">المتبقي</div>
+<div class="cell" data-label="English">Remaining</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
+<div class="row searchable" id="details.totalPaid">
+<div class="cell" data-label="Property">details.totalPaid</div>
+<div class="cell" data-label="Column">totalPaid</div>
+<div class="cell" data-label="Arabic">إجمالي المدفوع</div>
+<div class="cell" data-label="English">Total paid</div>
+<div class="cell" data-label="Type">
+
+Decimal
 </div>
 
 </div>
