@@ -22,7 +22,19 @@
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="analysisSet">
+</div><div class="row searchable" id="allowSoldUnitForRent">
+<div class="cell" data-label="Property">allowSoldUnitForRent</div>
+<div class="cell" data-label="Column">allowSoldUnitForRent</div>
+<div class="cell" data-label="Arabic">إتاحة الوحدة المباعة للإيجار</div>
+<div class="cell" data-label="English">Allow Sold Unit For Rent</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
+<div class="row searchable" id="analysisSet">
 <div class="cell" data-label="Property">analysisSet</div>
 <div class="cell" data-label="Column">analysisSet_id</div>
 <div class="cell" data-label="Arabic">المجموعة التحليلية</div>

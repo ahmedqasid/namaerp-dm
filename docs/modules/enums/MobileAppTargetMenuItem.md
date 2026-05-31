@@ -15,6 +15,12 @@
 <div class="cell">Arabic</div>
 <div class="cell">English</div>
 </div><div class="row searchable">
+<div class="cell" data-label="ID">SystemAttendanceHistory</div>
+<div class="cell" data-label="Arabic">سجل الحضور الشامل</div>
+<div class="cell" data-label="English">System Attendance History</div>
+</div>
+
+<div class="row searchable">
 <div class="cell" data-label="ID">AssignDeliveryDocs</div>
 <div class="cell" data-label="Arabic">تعيين سندات التوصيل</div>
 <div class="cell" data-label="English">Assign Delivery Documents</div>

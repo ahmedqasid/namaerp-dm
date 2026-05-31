@@ -440,6 +440,12 @@
 <div class="cell" data-label="English">Sales Invoice Code</div>
 </div>
 
+<div class="row searchable">
+<div class="cell" data-label="ID">CustomerCarNo</div>
+<div class="cell" data-label="Arabic">رقم سيارة العميل</div>
+<div class="cell" data-label="English">Customer Car Number</div>
+</div>
+
 
 </div>
 </div>
