@@ -3371,7 +3371,97 @@ Text
 <div class="cell">English</div>
 <div class="cell">Type</div>
 <div class="cell">Foreign Table</div>
-</div><div class="row searchable" id="scheduleLines.id">
+</div><div class="row searchable" id="scheduleLines.attachment">
+<div class="cell" data-label="Property">scheduleLines.attachment</div>
+<div class="cell" data-label="Column">attachment_id</div>
+<div class="cell" data-label="Arabic">مرفق</div>
+<div class="cell" data-label="English">Attachment</div>
+<div class="cell" data-label="Type">
+
+Binary
+</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="scheduleLines.attachment1">
+<div class="cell" data-label="Property">scheduleLines.attachment1</div>
+<div class="cell" data-label="Column">attachment1_id</div>
+<div class="cell" data-label="Arabic">مرفق 1</div>
+<div class="cell" data-label="English">Attachment 1</div>
+<div class="cell" data-label="Type">
+
+Binary
+</div>
+<div class="cell" data-label="Foreign Table">
+
+ [LargeData](/modules/system-tables/LargeData.md) 
+</div>
+</div>
+
+<div class="row searchable" id="scheduleLines.b1">
+<div class="cell" data-label="Property">scheduleLines.b1</div>
+<div class="cell" data-label="Column">b1</div>
+<div class="cell" data-label="Arabic">Boolean 1</div>
+<div class="cell" data-label="English">Boolean 1</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.b2">
+<div class="cell" data-label="Property">scheduleLines.b2</div>
+<div class="cell" data-label="Column">b2</div>
+<div class="cell" data-label="Arabic">Boolean 2</div>
+<div class="cell" data-label="English">Boolean 2</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.b3">
+<div class="cell" data-label="Property">scheduleLines.b3</div>
+<div class="cell" data-label="Column">b3</div>
+<div class="cell" data-label="Arabic">Boolean 3</div>
+<div class="cell" data-label="English">Boolean 3</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.date1">
+<div class="cell" data-label="Property">scheduleLines.date1</div>
+<div class="cell" data-label="Column">date1</div>
+<div class="cell" data-label="Arabic">تـــاريخ 1</div>
+<div class="cell" data-label="English">Date 1</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.date2">
+<div class="cell" data-label="Property">scheduleLines.date2</div>
+<div class="cell" data-label="Column">date2</div>
+<div class="cell" data-label="Arabic">تـــاريخ 2</div>
+<div class="cell" data-label="English">Date 2</div>
+<div class="cell" data-label="Type">
+
+Date
+</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.id">
 <div class="cell" data-label="Property">scheduleLines.id</div>
 <div class="cell" data-label="Column">id</div>
 <div class="cell" data-label="Arabic"></div>
@@ -3391,6 +3481,18 @@ ID
 <div class="cell" data-label="Type">
 
 Text
+</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.installmentDescription">
+<div class="cell" data-label="Property">scheduleLines.installmentDescription</div>
+<div class="cell" data-label="Column">installmentDescription</div>
+<div class="cell" data-label="Arabic">وصف القسط</div>
+<div class="cell" data-label="English">Installment Description</div>
+<div class="cell" data-label="Type">
+
+BigText
 </div>
 
 </div>
@@ -3415,6 +3517,30 @@ Genericreference
 <div class="cell" data-label="Type">
 
 Integer
+</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.n1">
+<div class="cell" data-label="Property">scheduleLines.n1</div>
+<div class="cell" data-label="Column">n1</div>
+<div class="cell" data-label="Arabic">رقم 1</div>
+<div class="cell" data-label="English">Number 1</div>
+<div class="cell" data-label="Type">
+
+Decimal
+</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.n2">
+<div class="cell" data-label="Property">scheduleLines.n2</div>
+<div class="cell" data-label="Column">n2</div>
+<div class="cell" data-label="Arabic">رقم 2</div>
+<div class="cell" data-label="English">Number 2</div>
+<div class="cell" data-label="Type">
+
+Decimal
 </div>
 
 </div>
@@ -3527,6 +3653,18 @@ BigText
 
 </div>
 
+<div class="row searchable" id="scheduleLines.selected">
+<div class="cell" data-label="Property">scheduleLines.selected</div>
+<div class="cell" data-label="Column">selected</div>
+<div class="cell" data-label="Arabic">اختيار</div>
+<div class="cell" data-label="English">Selected</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="scheduleLines.systemPaid">
 <div class="cell" data-label="Property">scheduleLines.systemPaid</div>
 <div class="cell" data-label="Column">systemPaid</div>
@@ -3535,6 +3673,30 @@ BigText
 <div class="cell" data-label="Type">
 
 Decimal
+</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.text1">
+<div class="cell" data-label="Property">scheduleLines.text1</div>
+<div class="cell" data-label="Column">text1</div>
+<div class="cell" data-label="Arabic">نــــص 1</div>
+<div class="cell" data-label="English">Text 1</div>
+<div class="cell" data-label="Type">
+
+Text
+</div>
+
+</div>
+
+<div class="row searchable" id="scheduleLines.text2">
+<div class="cell" data-label="Property">scheduleLines.text2</div>
+<div class="cell" data-label="Column">text2</div>
+<div class="cell" data-label="Arabic">نـــــص 2</div>
+<div class="cell" data-label="English">Text 2</div>
+<div class="cell" data-label="Type">
+
+Text
 </div>
 
 </div>

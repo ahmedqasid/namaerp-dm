@@ -1450,6 +1450,66 @@ Binary
 </div>
 </div>
 
+<div class="row searchable" id="detailedTasks.b1">
+<div class="cell" data-label="Property">detailedTasks.b1</div>
+<div class="cell" data-label="Column">b1</div>
+<div class="cell" data-label="Arabic">Boolean 1</div>
+<div class="cell" data-label="English">Boolean 1</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
+<div class="row searchable" id="detailedTasks.b2">
+<div class="cell" data-label="Property">detailedTasks.b2</div>
+<div class="cell" data-label="Column">b2</div>
+<div class="cell" data-label="Arabic">Boolean 2</div>
+<div class="cell" data-label="English">Boolean 2</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
+<div class="row searchable" id="detailedTasks.b3">
+<div class="cell" data-label="Property">detailedTasks.b3</div>
+<div class="cell" data-label="Column">b3</div>
+<div class="cell" data-label="Arabic">Boolean 3</div>
+<div class="cell" data-label="English">Boolean 3</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
+<div class="row searchable" id="detailedTasks.b4">
+<div class="cell" data-label="Property">detailedTasks.b4</div>
+<div class="cell" data-label="Column">b4</div>
+<div class="cell" data-label="Arabic">Boolean 4</div>
+<div class="cell" data-label="English">Boolean 4</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
+<div class="row searchable" id="detailedTasks.b5">
+<div class="cell" data-label="Property">detailedTasks.b5</div>
+<div class="cell" data-label="Column">b5</div>
+<div class="cell" data-label="Arabic">Boolean 5</div>
+<div class="cell" data-label="English">Boolean 5</div>
+<div class="cell" data-label="Type">
+
+Boolean
+</div>
+
+</div>
+
 <div class="row searchable" id="detailedTasks.date1">
 <div class="cell" data-label="Property">detailedTasks.date1</div>
 <div class="cell" data-label="Column">date1</div>
