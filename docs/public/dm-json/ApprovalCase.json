@@ -1,0 +1,411 @@
+{
+  "entity" : "ApprovalCase",
+  "table" : "ApprovalCase",
+  "module" : "system-tables",
+  "ar" : "Approval Case",
+  "en" : "Approval Case",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ApprovalCase.html",
+  "fields" : [ {
+    "id" : "allowEditingFields",
+    "column" : "allowEditingFields",
+    "ar" : "الحقول المسموح بتعديلها",
+    "en" : "Allow Editing Fields",
+    "type" : "FieldID"
+  }, {
+    "id" : "allowModifyWhileUnderApproval",
+    "column" : "allowModifyWhileUnderApproval",
+    "ar" : "السماح بالتعديل اثناء انتظار الموافقة",
+    "en" : "Allow Modification While Waiting Approval",
+    "type" : "Boolean"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "approvalDefinition",
+    "column" : "approvalDefinition_id",
+    "ar" : " تعريف موافقه",
+    "en" : " Approval Definition",
+    "type" : "Reference",
+    "refTo" : "ApprovalDefinition",
+    "refPath" : "/modules/basic/ApprovalDefinition.html"
+  }, {
+    "id" : "approvalRef1",
+    "columns" : [ "approvalRef1ActualCode", " approvalRef1Code", " approvalRef1EntityType", " approvalRef1Id" ],
+    "ar" : "مرجع 1 للموافقة",
+    "en" : "Approval Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "approvalRef2",
+    "columns" : [ "approvalRef2ActualCode", " approvalRef2Code", " approvalRef2EntityType", " approvalRef2Id" ],
+    "ar" : "مرجع 2 للموافقة",
+    "en" : "Approval Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "approvedElement",
+    "columns" : [ "approvedElementActualCode", " approvedElementCode", " approvedElementEntityType", " approvedElementId" ],
+    "ar" : "السجل المعني",
+    "en" : "Approved Element",
+    "type" : "Genericreference"
+  }, {
+    "id" : "approvedVersion",
+    "column" : "approvedVersion",
+    "ar" : "النسخة الموافق عليها",
+    "en" : "Approved Version",
+    "type" : "Integer"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "completionDate",
+    "column" : "completionDate",
+    "ar" : "تاريخ الاكتمال",
+    "en" : "Completion Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "concernedLines",
+    "column" : "concernedLines",
+    "ar" : "السطور المعنية",
+    "en" : "Concerned Lines",
+    "type" : "BigText"
+  }, {
+    "id" : "currentCandidates",
+    "column" : "currentCandidates",
+    "ar" : "Current Candidates",
+    "en" : "Current Candidates",
+    "type" : "BigText"
+  }, {
+    "id" : "currentLines",
+    "column" : "currentLines",
+    "type" : "BigText"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "endOfCycleAction",
+    "column" : "endOfCycleAction",
+    "type" : "Enum",
+    "enum" : "ApprovalEndAction"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "initiator",
+    "column" : "initiator",
+    "ar" : "العملية",
+    "en" : "Initiator",
+    "type" : "Enum",
+    "enum" : "ApprovalInitiator"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "moduleId",
+    "column" : "moduleId",
+    "ar" : "الوحدة",
+    "en" : "Module",
+    "type" : "Text"
+  }, {
+    "id" : "nearestAutoEscalateDate",
+    "column" : "nearestAutoEscalateDate",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "nextRequiredStatus",
+    "column" : "nextRequiredStatus",
+    "type" : "Text"
+  }, {
+    "id" : "nextStepId",
+    "column" : "nextStepId",
+    "type" : "ID"
+  }, {
+    "id" : "nextStepName1",
+    "column" : "nextStepName1",
+    "ar" : "الاسم العربي للخطوة الحالية",
+    "en" : "Next Step Name 1",
+    "type" : "Text"
+  }, {
+    "id" : "nextStepName2",
+    "column" : "nextStepName2",
+    "ar" : "الاسم الإنجليزي للخطوة الحالية",
+    "en" : "Next Step Name 2",
+    "type" : "Text"
+  }, {
+    "id" : "nextStepResponsible",
+    "column" : "nextStepResponsible",
+    "type" : "Enum",
+    "enum" : "ResponsibleType"
+  }, {
+    "id" : "nextStepSequence",
+    "column" : "nextStepSequence",
+    "ar" : "رقم الخطوة الحالية",
+    "en" : "Next Step Sequence",
+    "type" : "Long"
+  }, {
+    "id" : "nextUpdatedFields",
+    "column" : "nextUpdatedFields",
+    "type" : "BigText"
+  }, {
+    "id" : "requestedBy",
+    "columns" : [ "requestedByActualCode", " requestedByCode", " requestedByEntityType", " requestedById" ],
+    "ar" : "تم الطلب بواسطة",
+    "en" : "Requested By",
+    "type" : "Genericreference"
+  }, {
+    "id" : "secret",
+    "column" : "secret",
+    "ar" : "Secret / Access Token",
+    "en" : "Secret / Access Token",
+    "type" : "Long"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "state",
+    "column" : "state",
+    "ar" : "حالة الموافقة",
+    "en" : "State",
+    "type" : "Enum",
+    "enum" : "ApprovalCaseState"
+  }, {
+    "id" : "summary",
+    "column" : "summary",
+    "ar" : "الملخص",
+    "en" : "Summary",
+    "type" : "BigText"
+  } ],
+  "details" : [ {
+    "id" : "nextCandidates",
+    "table" : "AppCaseCandidates",
+    "joinColumn" : "ApprovalCase_id",
+    "ar" : "المطلوب منهم الموافقة",
+    "en" : "Next Candidates",
+    "fields" : [ {
+      "id" : "nextCandidates.candidate",
+      "column" : "candidate_id",
+      "ar" : "المتقدم للعمل",
+      "en" : "Candidate",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "nextCandidates.concernedLines",
+      "column" : "concernedLines",
+      "ar" : "السطور المعنية",
+      "en" : "Concerned Lines",
+      "type" : "Text"
+    }, {
+      "id" : "nextCandidates.escalateOn",
+      "column" : "escalateOn",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "nextCandidates.escalated",
+      "column" : "escalated",
+      "ar" : "مصعدة",
+      "en" : "Escalated",
+      "type" : "Boolean"
+    }, {
+      "id" : "nextCandidates.escalatedFrom",
+      "column" : "escalatedFrom_id",
+      "ar" : "مصعدة من",
+      "en" : "Escalated From",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "nextCandidates.escalatedTo",
+      "column" : "escalatedTo_id",
+      "ar" : "مصعدة إلى",
+      "en" : "Escalated To",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "nextCandidates.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "nextCandidates.id",
+      "column" : "id",
+      "ar" : "المعرف",
+      "en" : "Id",
+      "type" : "ID"
+    }, {
+      "id" : "nextCandidates.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "nextCandidates.otp",
+      "column" : "otp",
+      "ar" : "الرقم السري المؤقت",
+      "en" : "OTP",
+      "type" : "Password"
+    }, {
+      "id" : "nextCandidates.requestedOn",
+      "column" : "requestedOn",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "nextCandidates.responsibility",
+      "column" : "responsibility_id",
+      "ar" : "مسئولية",
+      "en" : "Responsibility",
+      "type" : "Reference",
+      "refTo" : "Responsibility",
+      "refPath" : "/modules/basic/Responsibility.html"
+    }, {
+      "id" : "nextCandidates.source",
+      "column" : "source_id",
+      "ar" : "المصدر",
+      "en" : "Source",
+      "type" : "Reference",
+      "refTo" : "SpecialResponsible",
+      "refPath" : "/modules/basic/SpecialResponsible.html"
+    } ]
+  }, {
+    "id" : "steps",
+    "table" : "AppCaseSteps",
+    "joinColumn" : "ApprovalCase_id",
+    "ar" : "الخطوات",
+    "en" : "Steps",
+    "fields" : [ {
+      "id" : "steps.actualResponsible",
+      "column" : "actualResponsible_id",
+      "ar" : "المسئول",
+      "en" : "Responsible",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "steps.approvalDate",
+      "column" : "approvalDate",
+      "ar" : "تاريخ الموافقة",
+      "en" : "Approval Date",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "steps.approvalReason",
+      "column" : "approvalReason_id",
+      "ar" : " سبب الموافقة",
+      "en" : " Approval Reason",
+      "type" : "Reference",
+      "refTo" : "ApprovalReason",
+      "refPath" : "/modules/basic/ApprovalReason.html"
+    }, {
+      "id" : "steps.approvalStepName1",
+      "column" : "approvalStepName1",
+      "ar" : " الاسم العربي",
+      "en" : " Name1",
+      "type" : "Text"
+    }, {
+      "id" : "steps.approvalStepName2",
+      "column" : "approvalStepName2",
+      "ar" : " الاسم الإنجليزي",
+      "en" : " Name2",
+      "type" : "Text"
+    }, {
+      "id" : "steps.approvalStepSeq",
+      "column" : "approvalStepSeq",
+      "ar" : "رقم الخطوة",
+      "en" : "Step Sequence",
+      "type" : "Long"
+    }, {
+      "id" : "steps.attachment",
+      "column" : "attachment_id",
+      "ar" : "مرفق",
+      "en" : "Attachment",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "steps.comment",
+      "column" : "comment",
+      "ar" : "ملاحظة",
+      "en" : "Comment",
+      "type" : "Text"
+    }, {
+      "id" : "steps.concernedLines",
+      "column" : "concernedLines",
+      "ar" : "السطور المعنية",
+      "en" : "Concerned Lines",
+      "type" : "BigText"
+    }, {
+      "id" : "steps.decision",
+      "column" : "decision",
+      "ar" : "القرار",
+      "en" : "Decision",
+      "type" : "Enum",
+      "enum" : "ApprovalDecision"
+    }, {
+      "id" : "steps.escalateTo",
+      "columns" : [ "escalateToActualCode", " escalateToCode", " escalateToEntityType", " escalateToId" ],
+      "ar" : "تصعيد إلى",
+      "en" : "Escalate To",
+      "type" : "Genericreference"
+    }, {
+      "id" : "steps.escalated",
+      "column" : "escalated",
+      "ar" : "مصعدة",
+      "en" : "Escalated",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.escalatedFrom",
+      "column" : "escalatedFrom_id",
+      "ar" : "مصعدة من",
+      "en" : "Escalated From",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "steps.execution",
+      "column" : "execution",
+      "ar" : "تنفيذ",
+      "en" : "execution",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "steps.id",
+      "column" : "id",
+      "ar" : "المعرف",
+      "en" : "Id",
+      "type" : "ID"
+    }, {
+      "id" : "steps.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "steps.requiredStatus",
+      "column" : "requiredStatus",
+      "type" : "Text"
+    }, {
+      "id" : "steps.updatedFields",
+      "column" : "updatedFields",
+      "type" : "BigText"
+    } ]
+  } ]
+}

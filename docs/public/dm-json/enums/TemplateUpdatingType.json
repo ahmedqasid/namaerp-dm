@@ -1,0 +1,16 @@
+{
+  "enum" : "TemplateUpdatingType",
+  "values" : [ {
+    "id" : "Manual",
+    "ar" : "يدوي",
+    "en" : "Manual"
+  }, {
+    "id" : "WithFirstSave",
+    "ar" : "مع أول حفظ فقط",
+    "en" : "With First Save"
+  }, {
+    "id" : "WithEverySave",
+    "ar" : "مع كل حفظ",
+    "en" : "With Every Save"
+  } ]
+}

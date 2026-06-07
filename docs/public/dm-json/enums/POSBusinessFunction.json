@@ -1,0 +1,212 @@
+{
+  "enum" : "POSBusinessFunction",
+  "values" : [ {
+    "id" : "Replacement"
+  }, {
+    "id" : "MoveBetweenScreens",
+    "ar" : "التنقل بين الشاشات",
+    "en" : "Move Between Screens"
+  }, {
+    "id" : "Return",
+    "ar" : "إرجاع",
+    "en" : "Return"
+  }, {
+    "id" : "NewSales",
+    "ar" : "شاشة الفاتورة",
+    "en" : "Sales Screen"
+  }, {
+    "id" : "ShiftScreen",
+    "ar" : "شاشة الورديات",
+    "en" : "shiftScreen"
+  }, {
+    "id" : "InventoryScreen",
+    "ar" : "شاشة الجرد",
+    "en" : "Cash Count Screen"
+  }, {
+    "id" : "ShowSearchTable",
+    "ar" : "Search Dialog",
+    "en" : "Search Dialog"
+  }, {
+    "id" : "OpenInvoice",
+    "ar" : "اختيار فاتورة",
+    "en" : "Open Invoice"
+  }, {
+    "id" : "Terminate",
+    "ar" : "إنهاء",
+    "en" : "Terminate"
+  }, {
+    "id" : "PayDialog",
+    "ar" : "Dialog الدفع",
+    "en" : "Payment Dialog"
+  }, {
+    "id" : "MultiPayDialog",
+    "ar" : "Dialog الدفع المتعدد",
+    "en" : "MultiPay Dialog"
+  }, {
+    "id" : "HoldInvoice",
+    "ar" : "تعليق فاتورة",
+    "en" : "Hold Invoice"
+  }, {
+    "id" : "DeleteHeldInvoices",
+    "ar" : "حذف الفاتورة",
+    "en" : "Delete Held Invoices"
+  }, {
+    "id" : "ShowHeldInvoices",
+    "ar" : "الفواتير المعلقة",
+    "en" : "Show Held Invoices"
+  }, {
+    "id" : "ShowCallCenterHeldInvoices",
+    "ar" : "فواتير خدمة العملاء المعلقة",
+    "en" : "Show Call Center Held Invoices"
+  }, {
+    "id" : "Discount",
+    "ar" : "تخفيض",
+    "en" : "Discount"
+  }, {
+    "id" : "LineDiscount",
+    "ar" : "تخفيض 1 على السطر",
+    "en" : "Line Discount"
+  }, {
+    "id" : "LineDiscount2",
+    "ar" : "تخفيض 2 على السطر",
+    "en" : "Line Discount 2"
+  }, {
+    "id" : "LineDiscount3",
+    "ar" : "تخفيض 3 على السطر",
+    "en" : "Line Discount 3"
+  }, {
+    "id" : "LineDiscount4",
+    "ar" : "تخفيض 4 على السطر",
+    "en" : "Line Discount 4"
+  }, {
+    "id" : "LineDiscount5",
+    "ar" : "تخفيض 5 على السطر",
+    "en" : "Line Discount 5"
+  }, {
+    "id" : "LineDiscount6",
+    "ar" : "تخفيض 6 على السطر",
+    "en" : "Line Discount 6"
+  }, {
+    "id" : "LineDiscount7",
+    "ar" : "تخفيض 7 على السطر",
+    "en" : "Line Discount 7"
+  }, {
+    "id" : "LineDiscount8",
+    "ar" : "تخفيض 8 على السطر",
+    "en" : "Line Discount 8"
+  }, {
+    "id" : "DeleteLine",
+    "ar" : "حذف سطر",
+    "en" : "Delete Line"
+  }, {
+    "id" : "LockScreen",
+    "ar" : "قفل الشاشة",
+    "en" : "Lock Screen"
+  }, {
+    "id" : "Help",
+    "ar" : "Help",
+    "en" : "Help"
+  }, {
+    "id" : "PriceInquiry",
+    "ar" : "استعلام عن سعر صنف",
+    "en" : "Price Inquiry"
+  }, {
+    "id" : "GridAccess",
+    "ar" : "جدول المبيعات",
+    "en" : "Grid Access"
+  }, {
+    "id" : "AccessHeaderFields",
+    "ar" : "حقول رأس المستند",
+    "en" : "Access Header Fields"
+  }, {
+    "id" : "ShowDataStatusScreen",
+    "ar" : "إحصائيات البيانات",
+    "en" : "Show Data Status Screen"
+  }, {
+    "id" : "ChangeFont",
+    "ar" : "تعديل الفونت",
+    "en" : "Change Font"
+  }, {
+    "id" : "DeleteDiscount",
+    "ar" : "إلغاء الخصم",
+    "en" : "Delete Discount"
+  }, {
+    "id" : "DeleteAllHeld",
+    "ar" : "حذف كل الفواتير المعلقة",
+    "en" : "Delete All Held"
+  }, {
+    "id" : "ActivateCustomer",
+    "ar" : "العميل",
+    "en" : "Activate Customer"
+  }, {
+    "id" : "DeleteCustomer",
+    "ar" : "حذف العميل",
+    "en" : "Delete Customer"
+  }, {
+    "id" : "AddNewCustomer",
+    "ar" : "إضافة عميل جديد",
+    "en" : "Add New Customer"
+  }, {
+    "id" : "ActivateSalesMan",
+    "ar" : "مندوب المبيعات",
+    "en" : "Activate SalesMan"
+  }, {
+    "id" : "DeleteSalesMan",
+    "ar" : "حذف مندوب المبيعات",
+    "en" : "Delete Salesman"
+  }, {
+    "id" : "ShowAllNotifications",
+    "ar" : "الإشعارات",
+    "en" : "Show All Notifications"
+  }, {
+    "id" : "EditLineQty",
+    "ar" : "تعديل كمية السطر",
+    "en" : "Edit Line Quantity"
+  }, {
+    "id" : "EditInvoiceClassification",
+    "ar" : "تصنيف الفاتورة",
+    "en" : "Edit Invoice Classification"
+  }, {
+    "id" : "TransferCreditNotes",
+    "ar" : "نقل جميع إشعارات الخصم",
+    "en" : "Transfer Credit Notes"
+  }, {
+    "id" : "EditCustomer",
+    "ar" : "تعديل عميل",
+    "en" : "Edit Customer"
+  }, {
+    "id" : "InvoicePay",
+    "ar" : "الدفع",
+    "en" : "Invoice Pay"
+  }, {
+    "id" : "Reprint",
+    "ar" : "إعادة طباعة المستند",
+    "en" : "Reprint"
+  }, {
+    "id" : "PayUsingRewardPoints",
+    "ar" : "الدفع باستخدام نقاط الولاء",
+    "en" : "Pay Using Reward Points"
+  }, {
+    "id" : "DisablePrinting",
+    "ar" : "تعطيل الطباعة",
+    "en" : "Disable Printing"
+  }, {
+    "id" : "ActivateItem",
+    "ar" : "الصنف",
+    "en" : "Activate Item"
+  }, {
+    "id" : "EditDeliveryCost"
+  }, {
+    "id" : "OpenHeldInvoice"
+  }, {
+    "id" : "DuplicateLine",
+    "ar" : "تكرار سطر",
+    "en" : "Duplicate Line"
+  }, {
+    "id" : "ReturnAfterAllowedPeriod",
+    "ar" : "عمل مردود بعد تجاوز مدة المردود المسموح بها",
+    "en" : "Return After Allowed Period"
+  }, {
+    "id" : "OnlineOrderInquiry"
+  } ]
+}

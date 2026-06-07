@@ -1,0 +1,20 @@
+{
+  "enum" : "ImportingExportingType",
+  "values" : [ {
+    "id" : "EXCEL",
+    "ar" : "EXCEL",
+    "en" : "EXCEL"
+  }, {
+    "id" : "XML",
+    "ar" : "XML",
+    "en" : "XML"
+  }, {
+    "id" : "JSON",
+    "ar" : "JSON",
+    "en" : "JSON"
+  }, {
+    "id" : "UserReport",
+    "ar" : "تقرير",
+    "en" : "Report"
+  } ]
+}

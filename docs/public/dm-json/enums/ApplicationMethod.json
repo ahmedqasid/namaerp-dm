@@ -1,0 +1,12 @@
+{
+  "enum" : "ApplicationMethod",
+  "values" : [ {
+    "id" : "PerItem",
+    "ar" : "لكل صنف",
+    "en" : "Per Item"
+  }, {
+    "id" : "PerBatch",
+    "ar" : "لكل شحنة",
+    "en" : "Per Batch"
+  } ]
+}

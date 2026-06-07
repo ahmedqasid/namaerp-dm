@@ -1,0 +1,32 @@
+{
+  "enum" : "LetterOfGuaranteeStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Issued",
+    "ar" : "تم إصداره",
+    "en" : "Issued"
+  }, {
+    "id" : "Delivered",
+    "ar" : "توصيل كلي",
+    "en" : "Totally Delivered"
+  }, {
+    "id" : "Received",
+    "ar" : "تم استلامة",
+    "en" : "Received"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  }, {
+    "id" : "Canceled",
+    "ar" : "ألغيت",
+    "en" : "Canceled"
+  }, {
+    "id" : "Liquidated",
+    "ar" : "مُسيل",
+    "en" : "Liquidated"
+  } ]
+}

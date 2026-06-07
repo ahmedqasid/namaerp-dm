@@ -1,0 +1,16 @@
+{
+  "enum" : "InvoiceOfferDiscountType",
+  "values" : [ {
+    "id" : "Percentage",
+    "ar" : "نسبة",
+    "en" : "Percentage"
+  }, {
+    "id" : "ValueOnce",
+    "ar" : "قيمة - مرة واحدة",
+    "en" : "Value - Once"
+  }, {
+    "id" : "ValueMultiple",
+    "ar" : "قيمة - مضاعفات",
+    "en" : "Value - Multiple"
+  } ]
+}

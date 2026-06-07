@@ -1,0 +1,40 @@
+{
+  "enum" : "PurchaseQuotationStatus",
+  "values" : [ {
+    "id" : "Submitted",
+    "ar" : "مقدم",
+    "en" : "Submitted"
+  }, {
+    "id" : "Expired",
+    "ar" : "منتهي الصلاحية",
+    "en" : "Expired"
+  }, {
+    "id" : "Canceled",
+    "ar" : "ألغيت",
+    "en" : "Canceled"
+  }, {
+    "id" : "Disqualified",
+    "ar" : "غير مؤهل",
+    "en" : "Disqualified"
+  }, {
+    "id" : "Qualified",
+    "ar" : "مؤهل",
+    "en" : "Qualified"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "Received",
+    "ar" : "تم تسليمه",
+    "en" : "Received"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  } ]
+}

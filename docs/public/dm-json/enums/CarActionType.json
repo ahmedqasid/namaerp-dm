@@ -1,0 +1,36 @@
+{
+  "enum" : "CarActionType",
+  "values" : [ {
+    "id" : "LicenseRenewal",
+    "ar" : "تجديد رخصة",
+    "en" : "License Renewal"
+  }, {
+    "id" : "Accident",
+    "ar" : "حادثة",
+    "en" : "Accident"
+  }, {
+    "id" : "Violation",
+    "ar" : "مخالفة",
+    "en" : "Violation"
+  }, {
+    "id" : "RegularMaintenance",
+    "ar" : "صيانة دورية",
+    "en" : "Regular Maintenance"
+  }, {
+    "id" : "Repair",
+    "ar" : "تصليح",
+    "en" : "Repair"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  } ]
+}

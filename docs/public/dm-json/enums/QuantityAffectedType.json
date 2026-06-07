@@ -1,0 +1,24 @@
+{
+  "enum" : "QuantityAffectedType",
+  "values" : [ {
+    "id" : "ReservationQuantity",
+    "ar" : "كمية الحجز",
+    "en" : "Reservation Quantity"
+  }, {
+    "id" : "DeliveryQuantity",
+    "ar" : "كمية التوصيل",
+    "en" : "Delivery Quantity"
+  }, {
+    "id" : "LoadingQuantity",
+    "ar" : "كمية التحميل",
+    "en" : "Loading Quantity"
+  }, {
+    "id" : "Other1Quantity",
+    "ar" : "كمية أخرى 1",
+    "en" : "Other 1 Quantity"
+  }, {
+    "id" : "Other2Quantity",
+    "ar" : "كمية أخرى 2",
+    "en" : "Other 2 Quantity"
+  } ]
+}

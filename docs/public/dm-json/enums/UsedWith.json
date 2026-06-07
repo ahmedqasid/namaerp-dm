@@ -1,0 +1,16 @@
+{
+  "enum" : "UsedWith",
+  "values" : [ {
+    "id" : "CallsOnly",
+    "ar" : "الاتصالات فقط",
+    "en" : "Calls Only"
+  }, {
+    "id" : "QuestionairOnly",
+    "ar" : "الاستبيانات فقط",
+    "en" : "Questionair Only"
+  }, {
+    "id" : "Both",
+    "ar" : "أى منهما",
+    "en" : "Both"
+  } ]
+}

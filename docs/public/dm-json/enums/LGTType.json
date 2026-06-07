@@ -1,0 +1,12 @@
+{
+  "enum" : "LGTType",
+  "values" : [ {
+    "id" : "Imported",
+    "ar" : "وارد",
+    "en" : "Imported"
+  }, {
+    "id" : "Exported",
+    "ar" : "صادر",
+    "en" : "Exported"
+  } ]
+}

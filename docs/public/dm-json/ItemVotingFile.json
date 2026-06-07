@@ -1,0 +1,1227 @@
+{
+  "entity" : "ItemVotingFile",
+  "table" : "ItemVotingFile",
+  "module" : "supplychain-inventory",
+  "ar" : "ملف تصويت على الأصناف",
+  "arPlural" : "ملفات تصويت على الأصناف",
+  "en" : "Item Voting File",
+  "enPlural" : "Item Voting Files",
+  "page" : "https://dm.namasoft.com/modules/supplychain-inventory/ItemVotingFile.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fromBranch",
+    "column" : "fromBranch_id",
+    "ar" : "من فرع",
+    "en" : "From Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
+    "id" : "fromItemVotingDoc",
+    "column" : "fromItemVotingDoc_id",
+    "ar" : "من مستند تصويت",
+    "en" : "From Item Voting Doc",
+    "type" : "Reference",
+    "refTo" : "ItemVotingDoc",
+    "refPath" : "/modules/supplychain-inventory/ItemVotingDoc.html"
+  }, {
+    "id" : "fromLegalEntity",
+    "column" : "fromLegalEntity_id",
+    "ar" : "من شركة",
+    "en" : "From LegalEntity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "PriceVotingStatus"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "toBranch",
+    "column" : "toBranch_id",
+    "ar" : "إلى فرع",
+    "en" : "To Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  }, {
+    "id" : "toItemVotingDoc",
+    "column" : "toItemVotingDoc_id",
+    "ar" : "الي مستند تصويت",
+    "en" : "To Item Voting Doc",
+    "type" : "Reference",
+    "refTo" : "ItemVotingDoc",
+    "refPath" : "/modules/supplychain-inventory/ItemVotingDoc.html"
+  }, {
+    "id" : "toLegalEntity",
+    "column" : "toLegalEntity_id",
+    "ar" : "الي شركة",
+    "en" : "To LegalEntity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "details",
+    "table" : "ItemVotingFileLine",
+    "joinColumn" : "itemVotingFile_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "fields" : [ {
+      "id" : "details.attachment1",
+      "column" : "attachment1_id",
+      "ar" : "مرفق 1",
+      "en" : "Attachment 1",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "details.attachment2",
+      "column" : "attachment2_id",
+      "ar" : "مرفق 2",
+      "en" : "Attachment 2",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "details.attachment3",
+      "column" : "attachment3_id",
+      "ar" : "مرفق 3",
+      "en" : "Attachment 3",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "details.data.desirable",
+      "column" : "dataDesirable",
+      "ar" : "مرغوب فيه",
+      "en" : "Desirable",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.data.maxQuantity",
+      "column" : "dataMaxQuantity",
+      "ar" : "أقصى كمية",
+      "en" : "Max Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.data.minOrderQty",
+      "column" : "dataMinOrderQty",
+      "ar" : "اقل كمية يمكن طلبها",
+      "en" : "Minimum Order Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.data.minPrice",
+      "column" : "dataMinPrice",
+      "ar" : "أقل سعر",
+      "en" : "Min Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.data.minQuantity",
+      "column" : "dataMinQuantity",
+      "ar" : "أقل كمية",
+      "en" : "Min Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.data.orderLimit",
+      "column" : "dataOrderLimit",
+      "ar" : "حد الطلب",
+      "en" : "Order Limit",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.data.rackCode",
+      "column" : "dataRackCode",
+      "ar" : "كود الرف",
+      "en" : "Rack Code",
+      "type" : "Text"
+    }, {
+      "id" : "details.data.reRequest",
+      "column" : "dataReRequest",
+      "ar" : "يعاد طلبه",
+      "en" : "RE Request",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.data.slowMovingPeriod",
+      "column" : "dataSlowMovingPeriod",
+      "ar" : "فترة الركود",
+      "en" : "Slow moving period",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.data.standardCost",
+      "column" : "dataStandardCost",
+      "ar" : "التكلفة القياسية",
+      "en" : "Standard Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.data.suggestedDiscsNOffers",
+      "column" : "dataSuggestedDiscsNOffers",
+      "ar" : "مقترح في التخفيضات والعروض",
+      "en" : "Suggested In Discounts And Offers",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.description1",
+      "column" : "description1",
+      "ar" : "الوصف 1",
+      "en" : "description1",
+      "type" : "Text"
+    }, {
+      "id" : "details.description10",
+      "column" : "description10",
+      "ar" : "الوصف 10",
+      "en" : "description 10",
+      "type" : "Text"
+    }, {
+      "id" : "details.description2",
+      "column" : "description2",
+      "ar" : "الوصف 2",
+      "en" : "description2",
+      "type" : "Text"
+    }, {
+      "id" : "details.description3",
+      "column" : "description3",
+      "ar" : "الوصف 3",
+      "en" : "description3",
+      "type" : "Text"
+    }, {
+      "id" : "details.description4",
+      "column" : "description4",
+      "ar" : "الوصف 4",
+      "en" : "description4",
+      "type" : "Text"
+    }, {
+      "id" : "details.description5",
+      "column" : "description5",
+      "ar" : "الوصف 5",
+      "en" : "description5",
+      "type" : "Text"
+    }, {
+      "id" : "details.description6",
+      "column" : "description6",
+      "ar" : "الوصف 6",
+      "en" : "description 6",
+      "type" : "Text"
+    }, {
+      "id" : "details.description7",
+      "column" : "description7",
+      "ar" : "الوصف 7",
+      "en" : "description 7",
+      "type" : "Text"
+    }, {
+      "id" : "details.description8",
+      "column" : "description8",
+      "ar" : "الوصف 8",
+      "en" : "description 8",
+      "type" : "Text"
+    }, {
+      "id" : "details.description9",
+      "column" : "description9",
+      "ar" : "الوصف 9",
+      "en" : "description 9",
+      "type" : "Text"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
+      "id" : "details.itemDimensions.genericDimensions.analysisSet",
+      "column" : "genDimAnalysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "details.itemDimensions.genericDimensions.branch",
+      "column" : "genDimBranch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "details.itemDimensions.genericDimensions.department",
+      "column" : "genDimDepartment_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "details.itemDimensions.genericDimensions.legalEntity",
+      "column" : "genDimLegalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "details.itemDimensions.genericDimensions.sector",
+      "column" : "genDimSector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    }, {
+      "id" : "details.itemDimensions.item",
+      "column" : "item_id",
+      "ar" : "الصنف",
+      "en" : "Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "details.itemDimensions.specificDimensions.activePerc",
+      "column" : "activePerc",
+      "ar" : "النسبة الفعالة",
+      "en" : "Active Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "details.itemDimensions.specificDimensions.box",
+      "column" : "box",
+      "ar" : "صندوق",
+      "en" : "Box",
+      "type" : "Text"
+    }, {
+      "id" : "details.itemDimensions.specificDimensions.color",
+      "column" : "color",
+      "ar" : "اللون",
+      "en" : "Color",
+      "type" : "Color"
+    }, {
+      "id" : "details.itemDimensions.specificDimensions.inactivePerc",
+      "column" : "inactivePerc",
+      "ar" : "النسبة الغير فعالة",
+      "en" : "Inactive Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "details.itemDimensions.specificDimensions.locator",
+      "column" : "locator_id",
+      "ar" : "الموقع",
+      "en" : "Locator",
+      "type" : "Reference",
+      "refTo" : "Locator",
+      "refPath" : "/modules/supplychain/Locator.html"
+    }, {
+      "id" : "details.itemDimensions.specificDimensions.lotId",
+      "column" : "lotId",
+      "ar" : "رقم الشحنه",
+      "en" : "Lot ID",
+      "type" : "Text"
+    }, {
+      "id" : "details.itemDimensions.specificDimensions.measures",
+      "column" : "measures",
+      "ar" : "الأبعاد",
+      "en" : "Measures",
+      "type" : "Measures"
+    }, {
+      "id" : "details.itemDimensions.specificDimensions.revisionId",
+      "column" : "revisionId",
+      "ar" : "الإصدار",
+      "en" : "Revision ID",
+      "type" : "Text"
+    }, {
+      "id" : "details.itemDimensions.specificDimensions.secondSerial",
+      "column" : "secondSerial",
+      "ar" : "الرقم المسلسل الثاني",
+      "en" : "Second Serial",
+      "type" : "BigText"
+    }, {
+      "id" : "details.itemDimensions.specificDimensions.serialNumber",
+      "column" : "serialNumber",
+      "ar" : "الرقم المسلسل",
+      "en" : "Serial number",
+      "type" : "BigText"
+    }, {
+      "id" : "details.itemDimensions.specificDimensions.size",
+      "column" : "size",
+      "ar" : "المقاس",
+      "en" : "Size",
+      "type" : "Text"
+    }, {
+      "id" : "details.itemDimensions.specificDimensions.subItem",
+      "column" : "subItem_id",
+      "ar" : " السياره",
+      "en" : " Customer Car",
+      "type" : "Reference",
+      "refTo" : "SubItem",
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+    }, {
+      "id" : "details.itemDimensions.specificDimensions.warehouse",
+      "column" : "warehouse_id",
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "details.itemOpiningRequest",
+      "columns" : [ "itemOpiningRequestActualCode", " itemOpiningRequestCode", " itemOpiningRequestEntityType", " itemOpiningRequestId" ],
+      "ar" : "طلب إضافة صنف",
+      "en" : "Item Opining Request",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n10",
+      "column" : "n10",
+      "ar" : "رقم 10",
+      "en" : "Number 10",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n6",
+      "column" : "n6",
+      "ar" : "رقم 6",
+      "en" : "Number 6",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n7",
+      "column" : "n7",
+      "ar" : "رقم 7",
+      "en" : "Number 7",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n8",
+      "column" : "n8",
+      "ar" : "رقم 8",
+      "en" : "Number 8",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n9",
+      "column" : "n9",
+      "ar" : "رقم 9",
+      "en" : "Number 9",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.remarks1",
+      "column" : "remarks1",
+      "ar" : "ملاحظات 1",
+      "en" : "Remarks 1",
+      "type" : "BigText"
+    }, {
+      "id" : "details.remarks2",
+      "column" : "remarks2",
+      "ar" : "ملاحظات 2",
+      "en" : "Remarks 2",
+      "type" : "BigText"
+    }, {
+      "id" : "details.remarks3",
+      "column" : "remarks3",
+      "ar" : "ملاحظات 3",
+      "en" : "Remarks 3",
+      "type" : "BigText"
+    }, {
+      "id" : "details.remarks4",
+      "column" : "remarks4",
+      "ar" : "ملاحظات 4",
+      "en" : "Remarks 4",
+      "type" : "BigText"
+    }, {
+      "id" : "details.remarks5",
+      "column" : "remarks5",
+      "ar" : "ملاحظات 5",
+      "en" : "Remarks 5",
+      "type" : "BigText"
+    }, {
+      "id" : "details.suggestedPrice",
+      "column" : "suggestedPrice",
+      "ar" : "السعر المقترح",
+      "en" : "Suggested Price",
+      "type" : "Decimal"
+    } ]
+  }, {
+    "id" : "lines",
+    "table" : "ItemVotingDocsLine",
+    "joinColumn" : "itemVotingFile_id",
+    "ar" : " التفاصيل",
+    "en" : " Details",
+    "fields" : [ {
+      "id" : "lines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "lines.itemVotingDoc",
+      "column" : "itemVotingDoc_id",
+      "ar" : "مستند التصويت على الأصناف",
+      "en" : "Item Voting Doc",
+      "type" : "Reference",
+      "refTo" : "ItemVotingDoc",
+      "refPath" : "/modules/supplychain-inventory/ItemVotingDoc.html"
+    }, {
+      "id" : "lines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "voters",
+    "table" : "ItemVotingVoterLine",
+    "joinColumn" : "itemVotingFile_id",
+    "ar" : "المصوتون",
+    "en" : "Voters",
+    "fields" : [ {
+      "id" : "voters.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "voters.date10",
+      "column" : "date10",
+      "ar" : "تاريخ 10",
+      "en" : "Date10",
+      "type" : "Date"
+    }, {
+      "id" : "voters.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "voters.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "voters.date4",
+      "column" : "date4",
+      "ar" : "تاريخ 4",
+      "en" : "Date4",
+      "type" : "Date"
+    }, {
+      "id" : "voters.date5",
+      "column" : "date5",
+      "ar" : "تاريخ 5",
+      "en" : "Date5",
+      "type" : "Date"
+    }, {
+      "id" : "voters.date6",
+      "column" : "date6",
+      "ar" : "تاريخ 6",
+      "en" : "Date6",
+      "type" : "Date"
+    }, {
+      "id" : "voters.date7",
+      "column" : "date7",
+      "ar" : "تاريخ 7",
+      "en" : "Date7",
+      "type" : "Date"
+    }, {
+      "id" : "voters.date8",
+      "column" : "date8",
+      "ar" : "تاريخ 8",
+      "en" : "Date8",
+      "type" : "Date"
+    }, {
+      "id" : "voters.date9",
+      "column" : "date9",
+      "ar" : "تاريخ 9",
+      "en" : "Date9",
+      "type" : "Date"
+    }, {
+      "id" : "voters.description1",
+      "column" : "description1",
+      "ar" : "الوصف 1",
+      "en" : "description1",
+      "type" : "Text"
+    }, {
+      "id" : "voters.description10",
+      "column" : "description10",
+      "ar" : "الوصف 10",
+      "en" : "description 10",
+      "type" : "Text"
+    }, {
+      "id" : "voters.description2",
+      "column" : "description2",
+      "ar" : "الوصف 2",
+      "en" : "description2",
+      "type" : "Text"
+    }, {
+      "id" : "voters.description3",
+      "column" : "description3",
+      "ar" : "الوصف 3",
+      "en" : "description3",
+      "type" : "Text"
+    }, {
+      "id" : "voters.description4",
+      "column" : "description4",
+      "ar" : "الوصف 4",
+      "en" : "description4",
+      "type" : "Text"
+    }, {
+      "id" : "voters.description5",
+      "column" : "description5",
+      "ar" : "الوصف 5",
+      "en" : "description5",
+      "type" : "Text"
+    }, {
+      "id" : "voters.description6",
+      "column" : "description6",
+      "ar" : "الوصف 6",
+      "en" : "description 6",
+      "type" : "Text"
+    }, {
+      "id" : "voters.description7",
+      "column" : "description7",
+      "ar" : "الوصف 7",
+      "en" : "description 7",
+      "type" : "Text"
+    }, {
+      "id" : "voters.description8",
+      "column" : "description8",
+      "ar" : "الوصف 8",
+      "en" : "description 8",
+      "type" : "Text"
+    }, {
+      "id" : "voters.description9",
+      "column" : "description9",
+      "ar" : "الوصف 9",
+      "en" : "description 9",
+      "type" : "Text"
+    }, {
+      "id" : "voters.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "voters.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "voters.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "voters.n10",
+      "column" : "n10",
+      "ar" : "رقم 10",
+      "en" : "Number 10",
+      "type" : "Decimal"
+    }, {
+      "id" : "voters.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "voters.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "voters.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "voters.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "voters.n6",
+      "column" : "n6",
+      "ar" : "رقم 6",
+      "en" : "Number 6",
+      "type" : "Decimal"
+    }, {
+      "id" : "voters.n7",
+      "column" : "n7",
+      "ar" : "رقم 7",
+      "en" : "Number 7",
+      "type" : "Decimal"
+    }, {
+      "id" : "voters.n8",
+      "column" : "n8",
+      "ar" : "رقم 8",
+      "en" : "Number 8",
+      "type" : "Decimal"
+    }, {
+      "id" : "voters.n9",
+      "column" : "n9",
+      "ar" : "رقم 9",
+      "en" : "Number 9",
+      "type" : "Decimal"
+    }, {
+      "id" : "voters.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "voters.ref10",
+      "columns" : [ "ref10ActualCode", " ref10Code", " ref10EntityType", " ref10Id" ],
+      "type" : "Genericreference"
+    }, {
+      "id" : "voters.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "voters.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "voters.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "voters.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "voters.ref6",
+      "columns" : [ "ref6ActualCode", " ref6Code", " ref6EntityType", " ref6Id" ],
+      "ar" : "مرجع 6",
+      "en" : "Reference 6",
+      "type" : "Genericreference"
+    }, {
+      "id" : "voters.ref7",
+      "columns" : [ "ref7ActualCode", " ref7Code", " ref7EntityType", " ref7Id" ],
+      "ar" : "مرجع 7",
+      "en" : "Reference 7",
+      "type" : "Genericreference"
+    }, {
+      "id" : "voters.ref8",
+      "columns" : [ "ref8ActualCode", " ref8Code", " ref8EntityType", " ref8Id" ],
+      "type" : "Genericreference"
+    }, {
+      "id" : "voters.ref9",
+      "columns" : [ "ref9ActualCode", " ref9Code", " ref9EntityType", " ref9Id" ],
+      "type" : "Genericreference"
+    }, {
+      "id" : "voters.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "voters.voter",
+      "column" : "voter_id",
+      "ar" : "المصوت",
+      "en" : "Voter",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    } ]
+  } ]
+}

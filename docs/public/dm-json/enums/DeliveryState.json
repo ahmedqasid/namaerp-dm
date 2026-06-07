@@ -1,0 +1,20 @@
+{
+  "enum" : "DeliveryState",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Delivered",
+    "ar" : "توصيل كلي",
+    "en" : "Totally Delivered"
+  }, {
+    "id" : "CustomerNotAvailable",
+    "ar" : "العميل غير موجود",
+    "en" : "Customer Not Available"
+  }, {
+    "id" : "Moved",
+    "ar" : "منقول",
+    "en" : "Moved"
+  } ]
+}

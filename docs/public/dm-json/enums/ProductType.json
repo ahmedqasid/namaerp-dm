@@ -1,0 +1,12 @@
+{
+  "enum" : "ProductType",
+  "values" : [ {
+    "id" : "BYProduct",
+    "ar" : "منتج اخر",
+    "en" : "BY Product"
+  }, {
+    "id" : "COProduct",
+    "ar" : "منتج ثانوي",
+    "en" : "CO Product"
+  } ]
+}

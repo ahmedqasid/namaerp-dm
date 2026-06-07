@@ -1,0 +1,20 @@
+{
+  "enum" : "MnCurrentStatusType",
+  "values" : [ {
+    "id" : "Reviewed",
+    "ar" : "تم المراجعة",
+    "en" : "Reviewed"
+  }, {
+    "id" : "PendingReview",
+    "ar" : "منتهى بانتظار المراجعة",
+    "en" : "Pending Review"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "EndedWithCustomerApproval",
+    "ar" : "منتهى بموافقة العميل",
+    "en" : "Ended With Customer Approval"
+  } ]
+}

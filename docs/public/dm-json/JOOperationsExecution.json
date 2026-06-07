@@ -1,0 +1,2577 @@
+{
+  "entity" : "JOOperationsExecution",
+  "table" : "JOOperationsExecution",
+  "module" : "joborder",
+  "ar" : "تنفيذ تشغيلات زجاج جديد",
+  "arPlural" : "تنفيذات تشغيلات زجاج جديد",
+  "en" : "New Glass Operations Execution",
+  "enPlural" : "New Glass Operations Executions",
+  "page" : "https://dm.namasoft.com/modules/joborder/JOOperationsExecution.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "joBarcode",
+    "column" : "joBarcode",
+    "ar" : "الباركود",
+    "en" : "Barcode",
+    "type" : "BigText"
+  }, {
+    "id" : "joOperation",
+    "column" : "joOperation_id",
+    "ar" : "التشغيلة",
+    "en" : "JOOperation",
+    "type" : "Reference",
+    "refTo" : "JOOperation",
+    "refPath" : "/modules/joborder/JOOperation.html"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
+    "type" : "BigText"
+  }, {
+    "id" : "totalAreaWithQty",
+    "column" : "totalAreaWithQty",
+    "ar" : "إجمالي المساحة بإعتبار الكمية",
+    "en" : "Total Area With Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalExecutedQty",
+    "column" : "totalExecutedQty",
+    "ar" : "إجمالي الكمية المُنفذة",
+    "en" : "Total Executed Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalMeasureQty",
+    "column" : "totalMeasureQty",
+    "ar" : "إجمالي أعداد الابعاد",
+    "en" : "Total Measure Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalRemainingQty",
+    "column" : "totalRemainingQty",
+    "ar" : "إجمالي الكمية المتبقية",
+    "en" : "Total Remaining Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "details",
+    "table" : "JOOperationsExecutionLine",
+    "joinColumn" : "jOOperationsExecution_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "fields" : [ {
+      "id" : "details.accountingQty",
+      "column" : "accountingQty",
+      "ar" : "كمية المحاسبة",
+      "en" : "Accounting Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.activeDoc",
+      "column" : "activeDoc",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.allowOverdraft",
+      "column" : "allowOverdraft",
+      "ar" : "السماح بالسحب على المكشوف",
+      "en" : "Allow Overdraft",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.area",
+      "column" : "area",
+      "ar" : "المساحة",
+      "en" : "Area",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.areaWithQty",
+      "column" : "areaWithQty",
+      "ar" : "المساحة بإعتبار الكمية",
+      "en" : "Area With Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.attachment",
+      "column" : "attachment_id",
+      "ar" : "مرفق",
+      "en" : "Attachment",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "details.b1",
+      "column" : "b1",
+      "ar" : "Boolean 1",
+      "en" : "Boolean 1",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.b2",
+      "column" : "b2",
+      "ar" : "Boolean 2",
+      "en" : "Boolean 2",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.b3",
+      "column" : "b3",
+      "ar" : "Boolean 3",
+      "en" : "Boolean 3",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.calculationFormula",
+      "column" : "calculationFormula_id",
+      "ar" : " الصيغة الحسابية",
+      "en" : " Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.colorName",
+      "column" : "colorName",
+      "ar" : "اسم اللون",
+      "en" : "Color Name",
+      "type" : "Text"
+    }, {
+      "id" : "details.comp",
+      "column" : "comp_id",
+      "ar" : "صنف /مكون",
+      "en" : "Item/Component",
+      "type" : "Reference",
+      "refTo" : "AssemblyComponent",
+      "refPath" : "/modules/supplychain-assembly/AssemblyComponent.html"
+    }, {
+      "id" : "details.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "details.deleteOnSave",
+      "column" : "deleteOnSave",
+      "ar" : "مسح عند الحفظ",
+      "en" : "Delete On Save",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.documentId",
+      "column" : "documentId",
+      "type" : "ID"
+    }, {
+      "id" : "details.emptyWeight",
+      "column" : "emptyWeight",
+      "ar" : "وزن الفارغ",
+      "en" : "Empty Weight",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.executedQty",
+      "column" : "executedQty",
+      "ar" : "الكمية | المنفذة",
+      "en" : "Executed | Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.executedQtyFromOperations",
+      "column" : "executedQtyFromOperations",
+      "ar" : "الكمية من التشغيلات | المنفذ",
+      "en" : "Quantity From Operations | Executed",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.execution",
+      "column" : "execution_id",
+      "ar" : "تنفيذ",
+      "en" : "execution",
+      "type" : "Reference",
+      "refTo" : "JOOperationsExecution",
+      "refPath" : "/modules/joborder/JOOperationsExecution.html"
+    }, {
+      "id" : "details.expiryDate",
+      "column" : "expiryDate",
+      "ar" : "تواريخ الصلاحية | الإنتهاء",
+      "en" : "Date | Expiry",
+      "type" : "Date"
+    }, {
+      "id" : "details.genericDimensions.analysisSet",
+      "column" : "analysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "details.genericDimensions.branch",
+      "column" : "branch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "details.genericDimensions.department",
+      "column" : "department_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "details.genericDimensions.legalEntity",
+      "column" : "legalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "details.genericDimensions.sector",
+      "column" : "sector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    }, {
+      "id" : "details.grossWeight",
+      "column" : "grossWeight",
+      "ar" : "الوزن القائم",
+      "en" : "Gross Weight",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.item.item",
+      "column" : "item_id",
+      "ar" : " الصنف",
+      "en" : " Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "details.item.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
+      "id" : "details.item.itemName1",
+      "column" : "itemName1",
+      "ar" : "اسم الصنف",
+      "en" : "Item Name",
+      "type" : "Text"
+    }, {
+      "id" : "details.item.itemName2",
+      "column" : "itemName2",
+      "ar" : "اسم الصنف الإنجليزي",
+      "en" : "Item English Name",
+      "type" : "Text"
+    }, {
+      "id" : "details.jobOrder",
+      "column" : "jobOrder_id",
+      "ar" : "أمر الشغل",
+      "en" : "Job Order",
+      "type" : "Reference",
+      "refTo" : "JOJobOrder",
+      "refPath" : "/modules/joborder/JOJobOrder.html"
+    }, {
+      "id" : "details.jobOrderLineCode",
+      "column" : "jobOrderLineCode",
+      "ar" : "الباركود",
+      "en" : "Job Order Line Code",
+      "type" : "Text"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.masterRowId",
+      "column" : "masterRowId",
+      "type" : "ID"
+    }, {
+      "id" : "details.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation.calculationFormula",
+      "column" : "opCalculationFormula_id",
+      "ar" : "تشغيلة | الصيغه الحسابيه",
+      "en" : "Operation | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation.executed",
+      "column" : "opExecuted",
+      "ar" : "تشغيلة | تم التنفيذ",
+      "en" : "Operation | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation.freeJOOperation",
+      "column" : "opFreeJOOperation",
+      "ar" : "تشغيلة | تشغيلة مجانية",
+      "en" : "Operation | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation.minSalesQty",
+      "column" : "opMinSalesQty",
+      "ar" : "أقل كمية بيع",
+      "en" : "Min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation.operation",
+      "column" : "opOperation_id",
+      "ar" : "تشغيلة",
+      "en" : "operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation.operationQty",
+      "column" : "opOperationQty",
+      "ar" : "تشغيلة  | كمية التشغيله",
+      "en" : "Operation | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation.salesPrice",
+      "column" : "opSalesPrice",
+      "ar" : "تشغيلة  | سعر البيع",
+      "en" : "Operation | Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation.thickText",
+      "column" : "opThickText",
+      "ar" : "تشغيلة | وصف العملية",
+      "en" : "Operation | Operation Description",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation.totalCost",
+      "column" : "opTotalCost",
+      "ar" : "تشغيلة | إجمالي تكلفة التشغيلة",
+      "en" : "Operation | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation.totalSalesPrice",
+      "column" : "opTotalSalesPrice",
+      "ar" : "تشغيلة | إجمالي بيع التشغيلة",
+      "en" : "Operation | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation.underProcedure",
+      "column" : "opUnderProcedure",
+      "ar" : "تشغيلة | تحت الإجراء",
+      "en" : "Operation | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation.unitCost",
+      "column" : "opUnitCost",
+      "ar" : "تشغيلة | تكلفة الوحده",
+      "en" : "Operation | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation.uom",
+      "column" : "opUom_id",
+      "ar" : "تشغيلة  | الوحدة",
+      "en" : "Operation | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operation1.calculationFormula",
+      "column" : "op1CalculationFormula_id",
+      "ar" : "تشغيلة 1 | الصيغه الحسابيه",
+      "en" : "Operation 1 | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation1.executed",
+      "column" : "op1Executed",
+      "ar" : "تشغيلة 1 | تم التنفيذ",
+      "en" : "Operation 1 | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation1.freeJOOperation",
+      "column" : "op1FreeJOOperation",
+      "ar" : "تشغيلة 1 | تشغيلة مجانية",
+      "en" : "Operation 1 | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation1.minSalesQty",
+      "column" : "op1MinSalesQty",
+      "ar" : "تشغيلة 1 | أقل كمية بيع",
+      "en" : "Operation 1 | min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation1.operation",
+      "column" : "op1Operation_id",
+      "ar" : "تشغيلة 1 | تشغيلة",
+      "en" : "Operation 1 | Operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation1.operationQty",
+      "column" : "op1OperationQty",
+      "ar" : "تشغيلة 1 | كمية التشغيله",
+      "en" : "Operation 1 | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation1.salesPrice",
+      "column" : "op1SalesPrice",
+      "ar" : "تشغيلة 1 | سعر البيع",
+      "en" : "Operation 1 | Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation1.thickText",
+      "column" : "op1ThickText",
+      "ar" : "تشغيلة 1 | سماكة",
+      "en" : "Operation 1 | Thick Text",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation1.totalCost",
+      "column" : "op1TotalCost",
+      "ar" : "تشغيلة 1 | إجمالي تكلفة التشغيلة",
+      "en" : "Operation 1 | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation1.totalSalesPrice",
+      "column" : "op1TotalSalesPrice",
+      "ar" : "تشغيلة 1 | إجمالي بيع التشغيلة",
+      "en" : "Operation 1 | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation1.underProcedure",
+      "column" : "op1UnderProcedure",
+      "ar" : "تشغيلة 1 | تحت الإجراء",
+      "en" : "Operation 1 | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation1.unitCost",
+      "column" : "op1UnitCost",
+      "ar" : "تشغيلة 1 | تكلفة الوحده",
+      "en" : "Operation 1 | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation1.uom",
+      "column" : "op1Uom_id",
+      "ar" : "تشغيلة 1 | الوحدة",
+      "en" : "Operation 1 | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operation10.calculationFormula",
+      "column" : "op10CalculationFormula_id",
+      "ar" : "تشغيلة 10 | الصيغه الحسابيه",
+      "en" : "Operation 10 | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation10.executed",
+      "column" : "op10Executed",
+      "ar" : "تشغيلة 10 | تم التنفيذ",
+      "en" : "Operation 10 | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation10.freeJOOperation",
+      "column" : "op10FreeJOOperation",
+      "ar" : "تشغيلة 10 | تشغيلة مجانية",
+      "en" : "Operation 10 | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation10.minSalesQty",
+      "column" : "op10MinSalesQty",
+      "ar" : "تشغيلة 10 | أقل كمية بيع",
+      "en" : "Operation 10 | min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation10.operation",
+      "column" : "op10Operation_id",
+      "ar" : "تشغيلة 10 | تشغيلة",
+      "en" : "Operation 10 | Operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation10.operationQty",
+      "column" : "op10OperationQty",
+      "ar" : "تشغيلة 10 | كمية التشغيله",
+      "en" : "Operation 10 | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation10.salesPrice",
+      "column" : "op10SalesPrice",
+      "ar" : "تشغيلة 10 | سعر البيع",
+      "en" : "Operation 10 | Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation10.thickText",
+      "column" : "op10ThickText",
+      "ar" : "تشغيلة 10 | سماكة",
+      "en" : "Operation 10 | Thick Text",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation10.totalCost",
+      "column" : "op10TotalCost",
+      "ar" : "تشغيلة 10 | إجمالي تكلفة التشغيلة",
+      "en" : "Operation 10 | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation10.totalSalesPrice",
+      "column" : "op10TotalSalesPrice",
+      "ar" : "تشغيلة 10 | إجمالي بيع التشغيلة",
+      "en" : "Operation 10 | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation10.underProcedure",
+      "column" : "op10UnderProcedure",
+      "ar" : "تشغيلة 10 | تحت الإجراء",
+      "en" : "Operation 10 | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation10.unitCost",
+      "column" : "op10UnitCost",
+      "ar" : "تشغيلة 10 | تكلفة الوحده",
+      "en" : "Operation 10 | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation10.uom",
+      "column" : "op10Uom_id",
+      "ar" : "تشغيلة 10 | الوحدة",
+      "en" : "Operation 10 | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operation11.calculationFormula",
+      "column" : "op11CalculationFormula_id",
+      "ar" : "تشغيلة 11 | الصيغه الحسابيه",
+      "en" : "Operation 11 | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation11.executed",
+      "column" : "op11Executed",
+      "ar" : "تشغيلة 11 | تم التنفيذ",
+      "en" : "Operation 11 | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation11.freeJOOperation",
+      "column" : "op11FreeJOOperation",
+      "ar" : "تشغيلة 11 | تشغيلة مجانية",
+      "en" : "Operation 11 | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation11.minSalesQty",
+      "column" : "op11MinSalesQty",
+      "ar" : "تشغيلة 11 | أقل كمية بيع",
+      "en" : "Operation 11 | min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation11.operation",
+      "column" : "op11Operation_id",
+      "ar" : "تشغيلة 11 | تشغيلة",
+      "en" : "Operation 11 | Operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation11.operationQty",
+      "column" : "op11OperationQty",
+      "ar" : "تشغيلة 11 | كمية التشغيله",
+      "en" : "Operation 11 | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation11.salesPrice",
+      "column" : "op11SalesPrice",
+      "ar" : "تشغيلة 11 | سعر البيع",
+      "en" : "Operation 11 | SalesPrice",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation11.thickText",
+      "column" : "op11ThickText",
+      "ar" : "تشغيلة 11 | سماكة",
+      "en" : "Operation 11 | Thick Text",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation11.totalCost",
+      "column" : "op11TotalCost",
+      "ar" : "تشغيلة 11 | إجمالي تكلفة التشغيلة",
+      "en" : "Operation 11 | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation11.totalSalesPrice",
+      "column" : "op11TotalSalesPrice",
+      "ar" : "تشغيلة 11 | إجمالي بيع التشغيلة",
+      "en" : "Operation 11 | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation11.underProcedure",
+      "column" : "op11UnderProcedure",
+      "ar" : "تشغيلة 11 | تحت الإجراء",
+      "en" : "Operation 11 | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation11.unitCost",
+      "column" : "op11UnitCost",
+      "ar" : "تشغيلة 11 | تكلفة الوحده",
+      "en" : "Operation 11 | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation11.uom",
+      "column" : "op11Uom_id",
+      "ar" : "تشغيلة 11 | الوحدة",
+      "en" : "Operation 11 | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operation12.calculationFormula",
+      "column" : "op12CalculationFormula_id",
+      "ar" : "تشغيلة 12 | الصيغه الحسابيه",
+      "en" : "Operation 12 | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation12.executed",
+      "column" : "op12Executed",
+      "ar" : "تشغيلة 12 | تم التنفيذ",
+      "en" : "Operation 12 | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation12.freeJOOperation",
+      "column" : "op12FreeJOOperation",
+      "ar" : "تشغيلة 12 | تشغيلة مجانية",
+      "en" : "Operation 12 | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation12.minSalesQty",
+      "column" : "op12MinSalesQty",
+      "ar" : "تشغيلة 12 | أقل كمية بيع",
+      "en" : "Operation 12 | min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation12.operation",
+      "column" : "op12Operation_id",
+      "ar" : "تشغيلة 12 | تشغيلة",
+      "en" : "Operation 12 | Operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation12.operationQty",
+      "column" : "op12OperationQty",
+      "ar" : "تشغيلة 12 | كمية التشغيله",
+      "en" : "Operation 12 | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation12.salesPrice",
+      "column" : "op12SalesPrice",
+      "ar" : "تشغيلة 12 | سعر البيع",
+      "en" : "Operation 12 | Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation12.thickText",
+      "column" : "op12ThickText",
+      "ar" : "تشغيلة 12 | سماكة",
+      "en" : "Operation 12 | Thick Text",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation12.totalCost",
+      "column" : "op12TotalCost",
+      "ar" : "تشغيلة 12 | إجمالي تكلفة التشغيلة",
+      "en" : "Operation 12 | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation12.totalSalesPrice",
+      "column" : "op12TotalSalesPrice",
+      "ar" : "تشغيلة 12 | إجمالي بيع التشغيلة",
+      "en" : "Operation 12 | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation12.underProcedure",
+      "column" : "op12UnderProcedure",
+      "ar" : "تشغيلة 12 | تحت الإجراء",
+      "en" : "Operation 12 | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation12.unitCost",
+      "column" : "op12UnitCost",
+      "ar" : "تشغيلة 12 | تكلفة الوحده",
+      "en" : "Operation 12 | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation12.uom",
+      "column" : "op12Uom_id",
+      "ar" : "تشغيلة 12 | الوحدة",
+      "en" : "Operation 12 | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operation13.calculationFormula",
+      "column" : "op13CalculationFormula_id",
+      "ar" : "تشغيلة 13 | الصيغه الحسابيه",
+      "en" : "Operation 13 | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation13.executed",
+      "column" : "op13Executed",
+      "ar" : "تشغيلة 13 | تم التنفيذ",
+      "en" : "Operation 13 | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation13.freeJOOperation",
+      "column" : "op13FreeJOOperation",
+      "ar" : "تشغيلة 13 | تشغيلة مجانية",
+      "en" : "Operation 13 | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation13.minSalesQty",
+      "column" : "op13MinSalesQty",
+      "ar" : "تشغيلة 13 | أقل كمية بيع",
+      "en" : "Operation 13 | min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation13.operation",
+      "column" : "op13Operation_id",
+      "ar" : "تشغيلة 13 | تشغيلة",
+      "en" : "Operation 13 | Operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation13.operationQty",
+      "column" : "op13OperationQty",
+      "ar" : "تشغيلة 13 | كمية التشغيله",
+      "en" : "Operation 13 | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation13.salesPrice",
+      "column" : "op13SalesPrice",
+      "ar" : "تشغيلة 13 | سعر البيع",
+      "en" : "Operation 13 | Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation13.thickText",
+      "column" : "op13ThickText",
+      "ar" : "تشغيلة 13 | سماكة",
+      "en" : "Operation 13 | Thick Text",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation13.totalCost",
+      "column" : "op13TotalCost",
+      "ar" : "تشغيلة 13 | إجمالي تكلفة التشغيلة",
+      "en" : "Operation 13 | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation13.totalSalesPrice",
+      "column" : "op13TotalSalesPrice",
+      "ar" : "تشغيلة 13 | إجمالي بيع التشغيلة",
+      "en" : "Operation 13 | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation13.underProcedure",
+      "column" : "op13UnderProcedure",
+      "ar" : "تشغيلة 13 | تحت الإجراء",
+      "en" : "Operation 13 | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation13.unitCost",
+      "column" : "op13UnitCost",
+      "ar" : "تشغيلة 13 | تكلفة الوحده",
+      "en" : "Operation 13 | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation13.uom",
+      "column" : "op13Uom_id",
+      "ar" : "تشغيلة 13 | الوحدة",
+      "en" : "Operation 13 | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operation14.calculationFormula",
+      "column" : "op14CalculationFormula_id",
+      "ar" : "تشغيلة 14 | الصيغه الحسابيه",
+      "en" : "Operation 14 | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation14.executed",
+      "column" : "op14Executed",
+      "ar" : "تشغيلة 14 | تم التنفيذ",
+      "en" : "Operation 14 | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation14.freeJOOperation",
+      "column" : "op14FreeJOOperation",
+      "ar" : "تشغيلة 14 | تشغيلة مجانية",
+      "en" : "Operation 14 | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation14.minSalesQty",
+      "column" : "op14MinSalesQty",
+      "ar" : "تشغيلة 14 | أقل كمية بيع",
+      "en" : "Operation 14 | min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation14.operation",
+      "column" : "op14Operation_id",
+      "ar" : "تشغيلة 14 | تشغيلة",
+      "en" : "Operation 14 | Operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation14.operationQty",
+      "column" : "op14OperationQty",
+      "ar" : "تشغيلة 14 | كمية التشغيله",
+      "en" : "Operation 14 | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation14.salesPrice",
+      "column" : "op14SalesPrice",
+      "ar" : "تشغيلة 14 | سعر البيع",
+      "en" : "Operation 14 | Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation14.thickText",
+      "column" : "op14ThickText",
+      "ar" : "تشغيلة 14 | سماكة",
+      "en" : "Operation 14 | Thick Text",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation14.totalCost",
+      "column" : "op14TotalCost",
+      "ar" : "تشغيلة 14 | إجمالي تكلفة التشغيلة",
+      "en" : "Operation 14 | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation14.totalSalesPrice",
+      "column" : "op14TotalSalesPrice",
+      "ar" : "تشغيلة 14 | إجمالي بيع التشغيلة",
+      "en" : "Operation 14 | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation14.underProcedure",
+      "column" : "op14UnderProcedure",
+      "ar" : "تشغيلة 14 | تحت الإجراء",
+      "en" : "Operation 14 | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation14.unitCost",
+      "column" : "op14UnitCost",
+      "ar" : "تشغيلة 14 | تكلفة الوحده",
+      "en" : "Operation 14 | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation14.uom",
+      "column" : "op14Uom_id",
+      "ar" : "تشغيلة 14 | الوحدة",
+      "en" : "Operation 14 | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operation15.calculationFormula",
+      "column" : "op15CalculationFormula_id",
+      "ar" : "تشغيلة 15 | الصيغه الحسابيه",
+      "en" : "Operation 15 | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation15.executed",
+      "column" : "op15Executed",
+      "ar" : "تم التنفيذ",
+      "en" : "Operation 15 | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation15.freeJOOperation",
+      "column" : "op15FreeJOOperation",
+      "ar" : "تشغيلة 15 | تشغيلة مجانية",
+      "en" : "Operation 15 | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation15.minSalesQty",
+      "column" : "op15MinSalesQty",
+      "ar" : "تشغيلة 15 | أقل كمية بيع",
+      "en" : "Operation 15 | min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation15.operation",
+      "column" : "op15Operation_id",
+      "ar" : "تشغيلة 15 | تشغيلة",
+      "en" : "Operation 15 | Operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation15.operationQty",
+      "column" : "op15OperationQty",
+      "ar" : "تشغيلة 15 | كمية التشغيله",
+      "en" : "Operation 15 | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation15.salesPrice",
+      "column" : "op15SalesPrice",
+      "ar" : "تشغيلة 15 | سعر البيع",
+      "en" : "Operation 15 | Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation15.thickText",
+      "column" : "op15ThickText",
+      "ar" : "تشغيلة 15 | سماكة",
+      "en" : "Operation 15 | Thick Text",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation15.totalCost",
+      "column" : "op15TotalCost",
+      "ar" : "تشغيلة 15 | إجمالي تكلفة التشغيلة",
+      "en" : "Operation 15 | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation15.totalSalesPrice",
+      "column" : "op15TotalSalesPrice",
+      "ar" : "تشغيلة 15 | إجمالي بيع التشغيلة",
+      "en" : "Operation 15 | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation15.underProcedure",
+      "column" : "op15UnderProcedure",
+      "ar" : "تشغيلة 15 | تحت الإجراء",
+      "en" : "Operation 15 | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation15.unitCost",
+      "column" : "op15UnitCost",
+      "ar" : "تشغيلة 15 | تكلفة الوحده",
+      "en" : "Operation 15 | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation15.uom",
+      "column" : "op15Uom_id",
+      "ar" : "تشغيلة 15 | الوحدة",
+      "en" : "Operation 15 | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operation2.calculationFormula",
+      "column" : "op2CalculationFormula_id",
+      "ar" : "تشغيلة 2 | الصيغه الحسابيه",
+      "en" : "Operation 2 | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation2.executed",
+      "column" : "op2Executed",
+      "ar" : "تشغيلة 2 | تم التنفيذ",
+      "en" : "Operation 2 | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation2.freeJOOperation",
+      "column" : "op2FreeJOOperation",
+      "ar" : "تشغيلة 2 | تشغيلة مجاني",
+      "en" : "Operation 2 | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation2.minSalesQty",
+      "column" : "op2MinSalesQty",
+      "ar" : "تشغيلة 2 | أقل كمية بيع",
+      "en" : "Operation 2 | min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation2.operation",
+      "column" : "op2Operation_id",
+      "ar" : "تشغيلة 2 | تشغيلة",
+      "en" : "Operation 2 | Operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation2.operationQty",
+      "column" : "op2OperationQty",
+      "ar" : "تشغيلة 2 | كمية التشغيله",
+      "en" : "Operation 2 | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation2.salesPrice",
+      "column" : "op2SalesPrice",
+      "ar" : "تشغيلة 2 | سعر البيع",
+      "en" : "Operation 2 | Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation2.thickText",
+      "column" : "op2ThickText",
+      "ar" : "تشغيلة 2 | سماكة",
+      "en" : "Operation 2 | Thick Text",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation2.totalCost",
+      "column" : "op2TotalCost",
+      "ar" : "تشغيلة 2 | إجمالي تكلفة التشغيلة",
+      "en" : "Operation 2 | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation2.totalSalesPrice",
+      "column" : "op2TotalSalesPrice",
+      "ar" : "تشغيلة 2 | إجمالي بيع التشغيلة",
+      "en" : "Operation 2 | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation2.underProcedure",
+      "column" : "op2UnderProcedure",
+      "ar" : "تشغيلة 2 | تحت الإجراء",
+      "en" : "Operation 2 | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation2.unitCost",
+      "column" : "op2UnitCost",
+      "ar" : "تشغيلة 2 | تكلفة الوحده",
+      "en" : "Operation 2 | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation2.uom",
+      "column" : "op2Uom_id",
+      "ar" : "تشغيلة 2 | الوحدة",
+      "en" : "Operation 2 | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operation3.calculationFormula",
+      "column" : "op3CalculationFormula_id",
+      "ar" : "تشغيلة 3 | الصيغه الحسابيه",
+      "en" : "Operation 3 | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation3.executed",
+      "column" : "op3Executed",
+      "ar" : "تشغيلة 3 | تم التنفيذ",
+      "en" : "Operation 3 | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation3.freeJOOperation",
+      "column" : "op3FreeJOOperation",
+      "ar" : "تشغيلة 3 | تشغيلة مجانية",
+      "en" : "Operation 3 | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation3.minSalesQty",
+      "column" : "op3MinSalesQty",
+      "ar" : "تشغيلة 3 | أقل كمية بيع",
+      "en" : "Operation 3 | min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation3.operation",
+      "column" : "op3Operation_id",
+      "ar" : "تشغيلة 3 | تشغيلة",
+      "en" : "Operation 3 | Operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation3.operationQty",
+      "column" : "op3OperationQty",
+      "ar" : "تشغيلة 3 | كمية التشغيله",
+      "en" : "Operation 3 | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation3.salesPrice",
+      "column" : "op3SalesPrice",
+      "ar" : "تشغيلة 3 | سعر البيع",
+      "en" : "Operation 3 | Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation3.thickText",
+      "column" : "op3ThickText",
+      "ar" : "تشغيلة 3 | سماكة",
+      "en" : "Operation 3 | Thick Text",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation3.totalCost",
+      "column" : "op3TotalCost",
+      "ar" : "تشغيلة 3 | إجمالي تكلفة التشغيلة",
+      "en" : "Operation 3 | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation3.totalSalesPrice",
+      "column" : "op3TotalSalesPrice",
+      "ar" : "تشغيلة 3 | إجمالي بيع التشغيلة",
+      "en" : "Operation 3 | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation3.underProcedure",
+      "column" : "op3UnderProcedure",
+      "ar" : "تشغيلة 3 | تحت الإجراء",
+      "en" : "Operation 3 | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation3.unitCost",
+      "column" : "op3UnitCost",
+      "ar" : "تشغيلة 3 | تكلفة الوحده",
+      "en" : "Operation 3 | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation3.uom",
+      "column" : "op3Uom_id",
+      "ar" : "تشغيلة 3 | الوحدة",
+      "en" : "Operation 3 | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operation4.calculationFormula",
+      "column" : "op4CalculationFormula_id",
+      "ar" : "تشغيلة 4 | الصيغه الحسابيه",
+      "en" : "Operation 4 | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation4.executed",
+      "column" : "op4Executed",
+      "ar" : "تشغيلة 4 | تم التنفيذ",
+      "en" : "Operation 4 | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation4.freeJOOperation",
+      "column" : "op4FreeJOOperation",
+      "ar" : "تشغيلة 4 | تشغيلة مجانية",
+      "en" : "Operation 4 | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation4.minSalesQty",
+      "column" : "op4MinSalesQty",
+      "ar" : "تشغيلة 4 | أقل كمية بيع",
+      "en" : "Operation 4 | min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation4.operation",
+      "column" : "op4Operation_id",
+      "ar" : "تشغيلة 4 | تشغيلة",
+      "en" : "Operation 4 | Operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation4.operationQty",
+      "column" : "op4OperationQty",
+      "ar" : "تشغيلة 4 | كمية التشغيله",
+      "en" : "Operation 4 | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation4.salesPrice",
+      "column" : "op4SalesPrice",
+      "ar" : "تشغيلة 4 | سعر البيع",
+      "en" : "Operation 4 | Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation4.thickText",
+      "column" : "op4ThickText",
+      "ar" : "تشغيلة 4 | سماكة",
+      "en" : "Operation 4 | Thick Text",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation4.totalCost",
+      "column" : "op4TotalCost",
+      "ar" : "تشغيلة 4 | إجمالي تكلفة التشغيلة",
+      "en" : "Operation 4 | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation4.totalSalesPrice",
+      "column" : "op4TotalSalesPrice",
+      "ar" : "تشغيلة 4 | إجمالي بيع التشغيلة",
+      "en" : "Operation 4 | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation4.underProcedure",
+      "column" : "op4UnderProcedure",
+      "ar" : "تشغيلة 4 | تحت الإجراء",
+      "en" : "Operation 4 | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation4.unitCost",
+      "column" : "op4UnitCost",
+      "ar" : "تشغيلة 4 | تكلفة الوحده",
+      "en" : "Operation 4 | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation4.uom",
+      "column" : "op4Uom_id",
+      "ar" : "تشغيلة 4 | الوحدة",
+      "en" : "Operation 4 | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operation5.calculationFormula",
+      "column" : "op5CalculationFormula_id",
+      "ar" : "تشغيلة 5 | الصيغه الحسابيه",
+      "en" : "Operation 5 | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation5.executed",
+      "column" : "op5Executed",
+      "ar" : "تشغيلة 5 | تم التنفيذ",
+      "en" : "Operation 5 | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation5.freeJOOperation",
+      "column" : "op5FreeJOOperation",
+      "ar" : "تشغيلة 5 | تشغيلة مجانية",
+      "en" : "Operation 5 | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation5.minSalesQty",
+      "column" : "op5MinSalesQty",
+      "ar" : "تشغيلة 5 | أقل كمية بيع",
+      "en" : "Operation 5 | min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation5.operation",
+      "column" : "op5Operation_id",
+      "ar" : "تشغيلة 5 | تشغيلة",
+      "en" : "Operation 5 | Operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation5.operationQty",
+      "column" : "op5OperationQty",
+      "ar" : "تشغيلة 5 | كمية التشغيله",
+      "en" : "Operation 5 | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation5.salesPrice",
+      "column" : "op5SalesPrice",
+      "ar" : "تشغيلة 5 | سعر البيع",
+      "en" : "Operation 5 | Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation5.thickText",
+      "column" : "op5ThickText",
+      "ar" : "تشغيلة 5 | سماكة",
+      "en" : "Operation 5 | Thick Text",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation5.totalCost",
+      "column" : "op5TotalCost",
+      "ar" : "تشغيلة 5 | إجمالي تكلفة التشغيلة",
+      "en" : "Operation 5 | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation5.totalSalesPrice",
+      "column" : "op5TotalSalesPrice",
+      "ar" : "تشغيلة 5 | إجمالي بيع التشغيلة",
+      "en" : "Operation 5 | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation5.underProcedure",
+      "column" : "op5UnderProcedure",
+      "ar" : "تشغيلة 5 | تحت الإجراء",
+      "en" : "Operation 5 | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation5.unitCost",
+      "column" : "op5UnitCost",
+      "ar" : "تشغيلة 5 | تكلفة الوحده",
+      "en" : "Operation 5 | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation5.uom",
+      "column" : "op5Uom_id",
+      "ar" : "تشغيلة 5 | الوحدة",
+      "en" : "Operation 5 | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operation6.calculationFormula",
+      "column" : "op6CalculationFormula_id",
+      "ar" : "تشغيلة 6 | الصيغه الحسابيه",
+      "en" : "Operation 6 | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation6.executed",
+      "column" : "op6Executed",
+      "ar" : "تشغيلة 6 | تم التنفيذ",
+      "en" : "Operation 6 | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation6.freeJOOperation",
+      "column" : "op6FreeJOOperation",
+      "ar" : "تشغيلة 6 | تشغيلة مجانية",
+      "en" : "Operation 6 | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation6.minSalesQty",
+      "column" : "op6MinSalesQty",
+      "ar" : "تشغيلة 6 | أقل كمية بيع",
+      "en" : "Operation 6 | min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation6.operation",
+      "column" : "op6Operation_id",
+      "ar" : "تشغيلة 6 | تشغيلة",
+      "en" : "Operation 6 | Operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation6.operationQty",
+      "column" : "op6OperationQty",
+      "ar" : "تشغيلة 6 | كمية التشغيله",
+      "en" : "Operation 6 | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation6.salesPrice",
+      "column" : "op6SalesPrice",
+      "ar" : "تشغيلة 6 | سعر البيع",
+      "en" : "Operation 6 | Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation6.thickText",
+      "column" : "op6ThickText",
+      "ar" : "تشغيلة 6 | سماكة",
+      "en" : "Operation 6 | Thick Text",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation6.totalCost",
+      "column" : "op6TotalCost",
+      "ar" : "تشغيلة 6 | إجمالي تكلفة التشغيلة",
+      "en" : "Operation 6 | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation6.totalSalesPrice",
+      "column" : "op6TotalSalesPrice",
+      "ar" : "تشغيلة 6 | إجمالي بيع التشغيلة",
+      "en" : "Operation 6 | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation6.underProcedure",
+      "column" : "op6UnderProcedure",
+      "ar" : "تشغيلة 6 | تحت الإجراء",
+      "en" : "Operation 6 | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation6.unitCost",
+      "column" : "op6UnitCost",
+      "ar" : "تشغيلة 6 | تكلفة الوحده",
+      "en" : "Operation 6 | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation6.uom",
+      "column" : "op6Uom_id",
+      "ar" : "تشغيلة 6 | الوحدة",
+      "en" : "Operation 6 | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operation7.calculationFormula",
+      "column" : "op7CalculationFormula_id",
+      "ar" : "تشغيلة 7 | الصيغه الحسابيه",
+      "en" : "Operation 7 | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation7.executed",
+      "column" : "op7Executed",
+      "ar" : "تشغيلة 7 | تم التنفيذ",
+      "en" : "Operation 7 | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation7.freeJOOperation",
+      "column" : "op7FreeJOOperation",
+      "ar" : "تشغيلة 7 | تشغيلة مجانية",
+      "en" : "Operation 7 | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation7.minSalesQty",
+      "column" : "op7MinSalesQty",
+      "ar" : "تشغيلة 7 | أقل كمية بيع",
+      "en" : "Operation 7 | min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation7.operation",
+      "column" : "op7Operation_id",
+      "ar" : "تشغيلة 7 | تشغيلة",
+      "en" : "Operation 7 | Operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation7.operationQty",
+      "column" : "op7OperationQty",
+      "ar" : "تشغيلة 7 | كمية التشغيله",
+      "en" : "Operation 7 | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation7.salesPrice",
+      "column" : "op7SalesPrice",
+      "ar" : "تشغيلة 7 | سعر البيع",
+      "en" : "Operation 7 | Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation7.thickText",
+      "column" : "op7ThickText",
+      "ar" : "تشغيلة 7 | سماكة",
+      "en" : "Operation 7 | Thick Text",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation7.totalCost",
+      "column" : "op7TotalCost",
+      "ar" : "تشغيلة 7 | إجمالي تكلفة التشغيلة",
+      "en" : "Operation 7 | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation7.totalSalesPrice",
+      "column" : "op7TotalSalesPrice",
+      "ar" : "تشغيلة 7 | إجمالي بيع التشغيلة",
+      "en" : "Operation 7 | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation7.underProcedure",
+      "column" : "op7UnderProcedure",
+      "ar" : "تشغيلة 7 | تحت الإجراء",
+      "en" : "Operation 7 | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation7.unitCost",
+      "column" : "op7UnitCost",
+      "ar" : "تشغيلة 7 | تكلفة الوحده",
+      "en" : "Operation 7 | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation7.uom",
+      "column" : "op7Uom_id",
+      "ar" : "تشغيلة 7 | الوحدة",
+      "en" : "Operation 7 | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operation8.calculationFormula",
+      "column" : "op8CalculationFormula_id",
+      "ar" : "تشغيلة 8 | الصيغه الحسابيه",
+      "en" : "Operation 8 | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation8.executed",
+      "column" : "op8Executed",
+      "ar" : "تشغيلة 8 | تم التنفيذ",
+      "en" : "Operation 8 | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation8.freeJOOperation",
+      "column" : "op8FreeJOOperation",
+      "ar" : "تشغيلة 8 | تشغيلة مجانية",
+      "en" : "Operation 8 | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation8.minSalesQty",
+      "column" : "op8MinSalesQty",
+      "ar" : "تشغيلة 8 | أقل كمية بيع",
+      "en" : "Operation 8 | min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation8.operation",
+      "column" : "op8Operation_id",
+      "ar" : "تشغيلة 8 | تشغيلة",
+      "en" : "Operation 8 | Operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation8.operationQty",
+      "column" : "op8OperationQty",
+      "ar" : "تشغيلة 8 | كمية التشغيله",
+      "en" : "Operation 8 | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation8.salesPrice",
+      "column" : "op8SalesPrice",
+      "ar" : "تشغيلة 8 | سعر البيع",
+      "en" : "Operation 8 | Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation8.thickText",
+      "column" : "op8ThickText",
+      "ar" : "تشغيلة 8 | سماكة",
+      "en" : "Operation 8 | Thick Text",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation8.totalCost",
+      "column" : "op8TotalCost",
+      "ar" : "تشغيلة 8 | إجمالي تكلفة التشغيلة",
+      "en" : "Operation 8 | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation8.totalSalesPrice",
+      "column" : "op8TotalSalesPrice",
+      "ar" : "تشغيلة 8 | إجمالي بيع التشغيلة",
+      "en" : "Operation 8 | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation8.underProcedure",
+      "column" : "op8UnderProcedure",
+      "ar" : "تشغيلة 8 | تحت الإجراء",
+      "en" : "Operation 8 | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation8.unitCost",
+      "column" : "op8UnitCost",
+      "ar" : "تشغيلة 8 | تكلفة الوحده",
+      "en" : "Operation 8 | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation8.uom",
+      "column" : "op8Uom_id",
+      "ar" : "تشغيلة 8 | الوحدة",
+      "en" : "Operation 8 | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operation9.calculationFormula",
+      "column" : "op9CalculationFormula_id",
+      "ar" : "تشغيلة 9 | الصيغه الحسابيه",
+      "en" : "Operation 9 | Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.operation9.executed",
+      "column" : "op9Executed",
+      "ar" : "تشغيلة 9 | تم التنفيذ",
+      "en" : "Operation 9 | Executed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation9.freeJOOperation",
+      "column" : "op9FreeJOOperation",
+      "ar" : "تشغيلة 9 | تشغيلة مجانية",
+      "en" : "Operation 9 | Free JOOperation",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation9.minSalesQty",
+      "column" : "op9MinSalesQty",
+      "ar" : "تشغيلة 9 | أقل كمية بيع",
+      "en" : "Operation 9 | min Sales Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation9.operation",
+      "column" : "op9Operation_id",
+      "ar" : "تشغيلة 9 | تشغيلة",
+      "en" : "Operation 9 | Operation",
+      "type" : "Reference",
+      "refTo" : "JOOperation",
+      "refPath" : "/modules/joborder/JOOperation.html"
+    }, {
+      "id" : "details.operation9.operationQty",
+      "column" : "op9OperationQty",
+      "ar" : "تشغيلة 9 | كمية التشغيله",
+      "en" : "Operation 9 | Operation Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation9.salesPrice",
+      "column" : "op9SalesPrice",
+      "ar" : "تشغيلة 9 | سعر البيع",
+      "en" : "Operation 9 | Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation9.thickText",
+      "column" : "op9ThickText",
+      "ar" : "تشغيلة 9 | سماكة",
+      "en" : "Operation 9 | Thick Text",
+      "type" : "Text"
+    }, {
+      "id" : "details.operation9.totalCost",
+      "column" : "op9TotalCost",
+      "ar" : "تشغيلة 9 | إجمالي تكلفة التشغيلة",
+      "en" : "Operation 9 | Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation9.totalSalesPrice",
+      "column" : "op9TotalSalesPrice",
+      "ar" : "تشغيلة 9 | إجمالي بيع التشغيلة",
+      "en" : "Operation 9 | Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation9.underProcedure",
+      "column" : "op9UnderProcedure",
+      "ar" : "تشغيلة 9 | تحت الإجراء",
+      "en" : "Operation 9 | Under Procedure",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.operation9.unitCost",
+      "column" : "op9UnitCost",
+      "ar" : "تشغيلة 9 | تكلفة الوحده",
+      "en" : "Operation 9 | Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.operation9.uom",
+      "column" : "op9Uom_id",
+      "ar" : "تشغيلة 9 | الوحدة",
+      "en" : "Operation 9 | Uom",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.operationsNumber",
+      "column" : "operationsNumber",
+      "ar" : "عدد التشغيلات",
+      "en" : "Operations Number",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.orginDoc",
+      "columns" : [ "orginDocActualCode", " orginDocCode", " orginDocEntityType", " orginDocId" ],
+      "ar" : "تم النسخ من سند",
+      "en" : "Copied From Doc",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.pickLineId",
+      "column" : "pickLineId",
+      "type" : "ID"
+    }, {
+      "id" : "details.pricingQty",
+      "column" : "pricingQty",
+      "ar" : "كمية التسعير",
+      "en" : "Pricing Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.productionDate",
+      "column" : "productionDate",
+      "ar" : "تواريخ الصلاحية | الإنتاج",
+      "en" : "Date | Production",
+      "type" : "Date"
+    }, {
+      "id" : "details.qtyAtInsert",
+      "column" : "qtyAtInsert",
+      "ar" : "الكمية عند الإنشاء",
+      "en" : "Qty At Insert",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.qtyAtInsertWithReserv",
+      "column" : "qtyAtInsertWithReserv",
+      "ar" : "الكمية عند الإنشاء مع الحجز",
+      "en" : "Qty At Insert With Reserv",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.baseQty.uom",
+      "column" : "quantityBaseUom_id",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.quantity.baseQty.value",
+      "column" : "quantityBaseValue",
+      "ar" : "الكمية",
+      "en" : "Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.itemAssortment",
+      "column" : "quantityItemAssortment_id",
+      "ar" : "التشكيلة",
+      "en" : "The Assortment",
+      "type" : "Reference",
+      "refTo" : "ItemAssortment",
+      "refPath" : "/modules/supplychain/ItemAssortment.html"
+    }, {
+      "id" : "details.quantity.measureQty",
+      "column" : "quantityMeasureQty",
+      "ar" : "الأبعاد | عدد",
+      "en" : "Measures | Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.measures.clippedLength1",
+      "column" : "quantityClippedLength1",
+      "ar" : "أبعادالجزء المقصوص 1 | الطول",
+      "en" : "Clipped Part1 Measures | Length",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.measures.height",
+      "column" : "quantityHeight",
+      "ar" : "الأبعاد | ر",
+      "en" : "Measures | H",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.measures.length",
+      "column" : "quantityLength",
+      "ar" : "الأبعاد | ط",
+      "en" : "Measures | L",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.measures.text",
+      "column" : "quantityText",
+      "ar" : "الأبعاد | الأبعاد",
+      "en" : "Measures | L * W * H",
+      "type" : "Measures"
+    }, {
+      "id" : "details.quantity.measures.width",
+      "column" : "quantityWidth",
+      "ar" : "الأبعاد | ع",
+      "en" : "Measures | W",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.quantity.primeQty.uom",
+      "column" : "quantityPUom_id",
+      "ar" : "كمية الصنف | وحدة",
+      "en" : "Item Quantity | UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.quantity.quantity.primeQty.value",
+      "column" : "quantityPValue",
+      "ar" : "كمية الصنف | قيمة",
+      "en" : "Item Quantity | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.quantity.secondQty.uom",
+      "column" : "quantitySUom_id",
+      "ar" : "الوحدة الثانية | الوحدة",
+      "en" : "Secondary | UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.quantity.quantity.secondQty.value",
+      "column" : "quantitySValue",
+      "ar" : "الوحدة الثانية | الكمية",
+      "en" : "Secondary | Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.uomRate",
+      "column" : "quantityUomRate",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.remaining",
+      "column" : "remaining",
+      "ar" : "المتبقي",
+      "en" : "Remaining",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.remainingQty",
+      "column" : "remainingQty",
+      "ar" : "الكمية | المتبقية",
+      "en" : "Remaining | Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.remainingQtyFromOperations",
+      "column" : "remainingQtyFromOperations",
+      "ar" : "الكمية من التشغيلات | المتبقي",
+      "en" : "Quantity From Operations | Remaining",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.remarks",
+      "column" : "remarks",
+      "ar" : " ملاحظات",
+      "en" : " Description",
+      "type" : "BigText"
+    }, {
+      "id" : "details.reserveLineId",
+      "column" : "reserveLineId",
+      "type" : "ID"
+    }, {
+      "id" : "details.retFromSeq",
+      "column" : "retFromSeq",
+      "type" : "Long"
+    }, {
+      "id" : "details.retestDate",
+      "column" : "retestDate",
+      "ar" : "تاريخ إعادة الاختبار",
+      "en" : "retest Date",
+      "type" : "Date"
+    }, {
+      "id" : "details.retunLine",
+      "column" : "retunLine",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.returnedQty",
+      "column" : "returnedQty",
+      "ar" : "المرتجع",
+      "en" : "Return Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.revisionName",
+      "column" : "revisionName",
+      "ar" : "اسم الإصدار",
+      "en" : "Revision Name",
+      "type" : "Text"
+    }, {
+      "id" : "details.salesOrder",
+      "column" : "salesOrder_id",
+      "ar" : "أمر البيع",
+      "en" : "Sales Order",
+      "type" : "Reference",
+      "refTo" : "JOSalesOrder",
+      "refPath" : "/modules/joborder/JOSalesOrder.html"
+    }, {
+      "id" : "details.satisfiedQty",
+      "column" : "satisfiedQty",
+      "ar" : "نفذت",
+      "en" : "Satisfied Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.satisfiedQty2",
+      "column" : "satisfiedQty2",
+      "ar" : "نفذت 2",
+      "en" : "Satisfied Qty 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.sizeName",
+      "column" : "sizeName",
+      "ar" : "اسم المقاس",
+      "en" : "Size Name",
+      "type" : "Text"
+    }, {
+      "id" : "details.sourceLineId",
+      "column" : "sourceLineId",
+      "ar" : "معرف سطر المصدر",
+      "en" : "Source Line Id",
+      "type" : "ID"
+    }, {
+      "id" : "details.sourceOrderLine",
+      "column" : "sourceOrderLine",
+      "type" : "ID"
+    }, {
+      "id" : "details.sourceType",
+      "column" : "sourceType",
+      "ar" : "Source Type",
+      "en" : "Source Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "details.specificCode",
+      "column" : "specificCode",
+      "ar" : "رمز خاص",
+      "en" : "Specific Code",
+      "type" : "Text"
+    }, {
+      "id" : "details.specificDimensions.activePerc",
+      "column" : "activePerc",
+      "ar" : "النسبة الفعالة",
+      "en" : "Active Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "details.specificDimensions.box",
+      "column" : "box",
+      "ar" : "صندوق",
+      "en" : "Box",
+      "type" : "Text"
+    }, {
+      "id" : "details.specificDimensions.color",
+      "column" : "color",
+      "ar" : "اللون",
+      "en" : "Color",
+      "type" : "Color"
+    }, {
+      "id" : "details.specificDimensions.inactivePerc",
+      "column" : "inactivePerc",
+      "ar" : "النسبة الغير فعالة",
+      "en" : "Inactive Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "details.specificDimensions.locator",
+      "column" : "locator_id",
+      "ar" : "الموقع",
+      "en" : "Locator",
+      "type" : "Reference",
+      "refTo" : "Locator",
+      "refPath" : "/modules/supplychain/Locator.html"
+    }, {
+      "id" : "details.specificDimensions.lotId",
+      "column" : "lotId",
+      "ar" : "رقم الشحنه",
+      "en" : "Lot ID",
+      "type" : "Text"
+    }, {
+      "id" : "details.specificDimensions.measures",
+      "column" : "measures",
+      "ar" : "الأبعاد",
+      "en" : "Measures",
+      "type" : "Measures"
+    }, {
+      "id" : "details.specificDimensions.revisionId",
+      "column" : "revisionId",
+      "ar" : "الإصدار",
+      "en" : "Revision ID",
+      "type" : "Text"
+    }, {
+      "id" : "details.specificDimensions.secondSerial",
+      "column" : "secondSerial",
+      "ar" : "الرقم المسلسل الثاني",
+      "en" : "Second Serial",
+      "type" : "BigText"
+    }, {
+      "id" : "details.specificDimensions.serialNumber",
+      "column" : "serialNumber",
+      "ar" : "الرقم المسلسل",
+      "en" : "Serial number",
+      "type" : "BigText"
+    }, {
+      "id" : "details.specificDimensions.size",
+      "column" : "size",
+      "ar" : "المقاس",
+      "en" : "Size",
+      "type" : "Text"
+    }, {
+      "id" : "details.specificDimensions.subItem",
+      "column" : "subItem_id",
+      "ar" : " السياره",
+      "en" : " Customer Car",
+      "type" : "Reference",
+      "refTo" : "SubItem",
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+    }, {
+      "id" : "details.specificDimensions.warehouse",
+      "column" : "warehouse_id",
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "details.standNumber",
+      "column" : "standNumber",
+      "ar" : "رقم الاستاند",
+      "en" : "Stand Number",
+      "type" : "Text"
+    }, {
+      "id" : "details.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "details.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "details.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "details.theSize",
+      "column" : "size",
+      "type" : "Text"
+    }, {
+      "id" : "details.transItemType",
+      "column" : "transItemType",
+      "ar" : "نوع السطر",
+      "en" : "Line Type",
+      "type" : "Enum",
+      "enum" : "TransLineItemType"
+    }, {
+      "id" : "details.unsatisfiedQty",
+      "column" : "unsatisfiedQty",
+      "ar" : "الكمية الغير مستلمة",
+      "en" : "Unsatisfied Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.unsatisfiedQty2",
+      "column" : "unsatisfiedQty2",
+      "ar" : "الكمية الغير مستلمة 2",
+      "en" : "Unsatisfied Quantity 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.userSatisfiedQty",
+      "column" : "userSatisfiedQty",
+      "ar" : "الكمية المسلمة يدويا",
+      "en" : "Manually Satisfied Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.userSatisfiedQty2",
+      "column" : "userSatisfiedQty2",
+      "ar" : "الكمية المسلمة يدويا 2",
+      "en" : "Manually Satisfied Qty 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.valueDate",
+      "column" : "valueDate",
+      "ar" : "التاريخ الفعلي",
+      "en" : "Value Date",
+      "type" : "Date"
+    }, {
+      "id" : "details.warrantyCode",
+      "column" : "warrantyCode",
+      "ar" : "كود الضمان",
+      "en" : "Warranty Code",
+      "type" : "BigText"
+    } ]
+  } ]
+}

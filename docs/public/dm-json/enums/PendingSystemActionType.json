@@ -1,0 +1,22 @@
+{
+  "enum" : "PendingSystemActionType",
+  "values" : [ {
+    "id" : "RegenSalaryDocument",
+    "ar" : "Regen Salary Document",
+    "en" : "Regen Salary Document"
+  }, {
+    "id" : "RegenSalarySheet",
+    "ar" : "Regen Salary Sheet",
+    "en" : "Regen Salary Sheet"
+  }, {
+    "id" : "SendHTTPRequest",
+    "ar" : "Send HTTP Request",
+    "en" : "Send HTTP Request"
+  }, {
+    "id" : "CreateContractingCostEntries",
+    "ar" : "Create Contracting Cost Entries",
+    "en" : "Create Contracting Cost Entries"
+  }, {
+    "id" : "SendImplFile"
+  } ]
+}

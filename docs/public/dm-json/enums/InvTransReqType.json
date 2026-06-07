@@ -1,0 +1,26 @@
+{
+  "enum" : "InvTransReqType",
+  "values" : [ {
+    "id" : "In",
+    "ar" : "دخول",
+    "en" : "In"
+  }, {
+    "id" : "Out",
+    "ar" : "خروج",
+    "en" : "Out"
+  }, {
+    "id" : "Transfer",
+    "ar" : "تحويل",
+    "en" : "transfer"
+  }, {
+    "id" : "CostAdjustment"
+  }, {
+    "id" : "ReserveIn"
+  }, {
+    "id" : "ReserveOut"
+  }, {
+    "id" : "ReserveTransfer"
+  }, {
+    "id" : "Purge"
+  } ]
+}

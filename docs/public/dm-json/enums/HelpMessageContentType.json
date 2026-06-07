@@ -1,0 +1,14 @@
+{
+  "enum" : "HelpMessageContentType",
+  "values" : [ {
+    "id" : "HTML",
+    "ar" : "HTML",
+    "en" : "HTML"
+  }, {
+    "id" : "Text",
+    "ar" : "نص",
+    "en" : "Text"
+  }, {
+    "id" : "Markdown"
+  } ]
+}

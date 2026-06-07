@@ -1,0 +1,180 @@
+{
+  "enum" : "SysIndicatorApprovalType",
+  "values" : [ {
+    "id" : "OverTime",
+    "ar" : "وقت إضافي (بالساعة)",
+    "en" : "OverTime (Hours)"
+  }, {
+    "id" : "OverTimeNormalDay",
+    "ar" : "وقت إضافي يوم عادي (بالساعة)",
+    "en" : "OverTime Normal Day (Hours)"
+  }, {
+    "id" : "OverTimeInWeekEnds",
+    "ar" : "وقت إضافي عطلة أسبوعية (بالساعة)",
+    "en" : "OverTime In Week Ends (Hours)"
+  }, {
+    "id" : "OverTimeInHolidays",
+    "ar" : "وقت إضافي يوم عطلة (بالساعة)",
+    "en" : "OverTime In Holidays (Hours)"
+  }, {
+    "id" : "OverTimeInVacations",
+    "ar" : "وقت إضافي في اجازة (بالساعة)",
+    "en" : "OverTime In Vacations (Hours)"
+  }, {
+    "id" : "OverTimeNotNormalDay",
+    "ar" : "وقت إضافي اى اجازة (بالساعة)",
+    "en" : "OverTime Other Than Normal Day (Hours)"
+  }, {
+    "id" : "OverTimeShift1",
+    "ar" : "وقت إضافي دوام 1 (بالساعة)",
+    "en" : "OverTime Shift1 (Hours)"
+  }, {
+    "id" : "OverTimeShift2",
+    "ar" : "وقت إضافي دوام 2 (بالساعة)",
+    "en" : "OverTime Shift2 (Hours)"
+  }, {
+    "id" : "OverTimeShift3",
+    "ar" : "وقت إضافي دوام 3 (بالساعة)",
+    "en" : "OverTime Shift3 (Hours)"
+  }, {
+    "id" : "LateHours",
+    "ar" : "ساعات التأخير (بالساعة)",
+    "en" : "Late Hours (Hours)"
+  }, {
+    "id" : "LateArrivalShift1",
+    "ar" : "حضور متأخر دوام 1 (بالساعة)",
+    "en" : "Late Arrival Shift1 (Hours)"
+  }, {
+    "id" : "LateArrivalShift2",
+    "ar" : "حضور متأخر دوام 2 (بالساعة)",
+    "en" : "Late Arrival Shift2 (Hours)"
+  }, {
+    "id" : "LateArrivalShift3",
+    "ar" : "حضور متأخر دوام 3 (بالساعة)",
+    "en" : "Late Arrival Shift3 (Hours)"
+  }, {
+    "id" : "EarlyHours",
+    "ar" : "ساعات الحضور المبكر (بالساعة)",
+    "en" : "Early Hours (Hours)"
+  }, {
+    "id" : "EarlyArrivalShift1",
+    "ar" : "حضور مبكر دوام 1 (بالساعة)",
+    "en" : "Early Arrival Shift1 (Hours)"
+  }, {
+    "id" : "EarlyArrivalShift2",
+    "ar" : "حضور مبكر دوام 2 (بالساعة)",
+    "en" : "Early Arrival Shift2 (Hours)"
+  }, {
+    "id" : "EarlyArrivalShift3",
+    "ar" : "حضور مبكر دوام 3 (بالساعة)",
+    "en" : "Early Arrival Shift3 (Hours)"
+  }, {
+    "id" : "EarlyLeave",
+    "ar" : "إنصراف مبكر (بالساعة)",
+    "en" : "Early Leave (Hours)"
+  }, {
+    "id" : "EarlyLeaveShift1",
+    "ar" : "إنصراف مبكر دوام 1 (بالساعة)",
+    "en" : "Early Leave Shift1 (Hours)"
+  }, {
+    "id" : "EarlyLeaveShift2",
+    "ar" : "إنصراف مبكر دوام 2 (بالساعة)",
+    "en" : "Early Leave Shift2 (Hours)"
+  }, {
+    "id" : "EarlyLeaveShift3",
+    "ar" : "إنصراف مبكر دوام 3 (بالساعة)",
+    "en" : "Early Leave Shift3 (Hours)"
+  }, {
+    "id" : "OutShift1",
+    "ar" : "ساعات الخروج أثناء الدوام 1",
+    "en" : "Out Time during shift 1"
+  }, {
+    "id" : "OutShift2",
+    "ar" : "ساعات الخروج أثناء الدوام 2",
+    "en" : "Out Time during shift 2"
+  }, {
+    "id" : "OutShift3",
+    "ar" : "ساعات الخروج أثناء الدوام 3",
+    "en" : "Out Time during shift 3"
+  }, {
+    "id" : "PermissionsHours",
+    "ar" : "ساعات الأذون",
+    "en" : "Permissions Hours (Hours)"
+  }, {
+    "id" : "PermissionsHoursOfSpecificType",
+    "ar" : "ساعات الأذون من نوع معين",
+    "en" : "Permissions Hours of Specific Type (Hours)"
+  }, {
+    "id" : "PermissionTypeCount",
+    "ar" : "عدد أذون إنصراف",
+    "en" : "Permission Types Count"
+  }, {
+    "id" : "VacationTypeCount",
+    "ar" : "عدد أجازات",
+    "en" : "Vacation Types Count"
+  }, {
+    "id" : "UnderTime",
+    "ar" : "إجمالي الوقت المتبقي لتحقق الدوام (بالساعة)",
+    "en" : "Under Time (Hours)"
+  }, {
+    "id" : "UnderTime1",
+    "ar" : "الوقت المتبقي لتحقق الدوام 1 (بالساعة)",
+    "en" : "Under Time 1 (Hours)"
+  }, {
+    "id" : "UnderTime2",
+    "ar" : "الوقت المتبقي لتحقق الدوام 2 (بالساعة)",
+    "en" : "Under Time 2 (Hours)"
+  }, {
+    "id" : "UnderTime3",
+    "ar" : "الوقت المتبقي لتحقق الدوام 3 (بالساعة)",
+    "en" : "Under Time 3 (Hours)"
+  }, {
+    "id" : "NoCheckInShift1",
+    "ar" : "عدم تسجيل بصمة دخول دوام 1",
+    "en" : "Shift 1 No Check In"
+  }, {
+    "id" : "NoCheckOutShift1",
+    "ar" : "عدم تسجيل بصمة خروج دوام 1",
+    "en" : "Shift 1 No Check Out"
+  }, {
+    "id" : "NoCheckInShift2",
+    "ar" : "عدم تسجيل بصمة دخول دوام 2",
+    "en" : "Shift 2 No Check In"
+  }, {
+    "id" : "NoCheckOutShift2",
+    "ar" : "عدم تسجيل بصمة خروج دوام 2",
+    "en" : "Shift 2 No Check Out"
+  }, {
+    "id" : "NoCheckInShift3",
+    "ar" : "عدم تسجيل بصمة دخول دوام 3",
+    "en" : "Shift 3 No Check In"
+  }, {
+    "id" : "NoCheckOutShift3",
+    "ar" : "عدم تسجيل بصمة خروج دوام 3",
+    "en" : "Shift 3 No Check Out"
+  }, {
+    "id" : "AttendHoursShift1",
+    "ar" : "ساعات الحضور دوام 1 (بالساعة)",
+    "en" : "Attend Hours Shift 1 (Hours)"
+  }, {
+    "id" : "AttendHoursShift2",
+    "ar" : "ساعات الحضور دوام 2 (بالساعة)",
+    "en" : "Attend Hours Shift 2 (Hours)"
+  }, {
+    "id" : "AttendHoursShift3",
+    "ar" : "ساعات الحضور دوام 3 (بالساعة)",
+    "en" : "Attend Hours Shift 3 (Hours)"
+  }, {
+    "id" : "Shift1Absence",
+    "ar" : "غياب دوام 1",
+    "en" : "Shift 1 Absence"
+  }, {
+    "id" : "Shift2Absence",
+    "ar" : "غياب دوام 2",
+    "en" : "Shift 2 Absence"
+  }, {
+    "id" : "Shift3Absence",
+    "ar" : "غياب دوام 3",
+    "en" : "Shift 3 Absence"
+  } ]
+}

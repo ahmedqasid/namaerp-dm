@@ -1,0 +1,20 @@
+{
+  "enum" : "ShippingPolicy",
+  "values" : [ {
+    "id" : "CIF",
+    "ar" : "CIF",
+    "en" : "CIF"
+  }, {
+    "id" : "CFR",
+    "ar" : "CFR",
+    "en" : "CFR"
+  }, {
+    "id" : "FOB",
+    "ar" : "FOB",
+    "en" : "FOB"
+  }, {
+    "id" : "ExWork",
+    "ar" : "ExWork",
+    "en" : "ExWork"
+  } ]
+}

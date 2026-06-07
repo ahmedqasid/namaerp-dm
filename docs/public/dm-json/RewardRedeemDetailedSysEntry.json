@@ -1,0 +1,25 @@
+{
+  "entity" : "RewardRedeemDetailedSysEntry",
+  "table" : "RewardRedeemDetailedSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/RewardRedeemDetailedSysEntry.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "mainRedeemEntryId",
+    "column" : "mainRedeemEntryId",
+    "type" : "ID"
+  }, {
+    "id" : "redeemedInvoiceEntryId",
+    "column" : "redeemedInvoiceEntryId",
+    "type" : "ID"
+  }, {
+    "id" : "redeemedPoints",
+    "column" : "redeemedPoints",
+    "ar" : "النقاط المستردة",
+    "en" : "Redeemed Points",
+    "type" : "Decimal"
+  } ]
+}

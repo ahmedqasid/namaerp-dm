@@ -1,0 +1,24 @@
+{
+  "enum" : "TrainingCourseStatus",
+  "values" : [ {
+    "id" : "NotStarted",
+    "ar" : "لم تبدأ",
+    "en" : "Not Started"
+  }, {
+    "id" : "InProgress",
+    "ar" : "قيد التنفيذ",
+    "en" : "In Progress"
+  }, {
+    "id" : "FinishedSuccessfully",
+    "ar" : "انتهى بنجاح",
+    "en" : "Finished Successfully"
+  }, {
+    "id" : "FinsihedUnSuccessfully",
+    "ar" : "لم يتم الانتهاء بنجاح",
+    "en" : "Finished UnSuccessfully"
+  }, {
+    "id" : "Terminated",
+    "ar" : "منتهى",
+    "en" : "Terminated"
+  } ]
+}

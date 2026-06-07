@@ -1,0 +1,2532 @@
+{
+  "entity" : "TaskSchedule",
+  "table" : "TaskSchedule",
+  "module" : "basic",
+  "ar" : "مهمة مجدولة",
+  "arPlural" : "مهام مجدولة",
+  "en" : "Task Schedule",
+  "enPlural" : "Task Schedules",
+  "page" : "https://dm.namasoft.com/modules/basic/TaskSchedule.html",
+  "fields" : [ {
+    "id" : "actionDescription",
+    "column" : "actionDescription",
+    "ar" : "الوصف",
+    "en" : "Action description",
+    "type" : "BigText"
+  }, {
+    "id" : "allowSimultaneousRuns",
+    "column" : "allowSimultaneousRuns",
+    "ar" : "Allow Simultaneous Runs",
+    "en" : "Allow Simultaneous Runs",
+    "type" : "Boolean"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachmentNameQuery",
+    "column" : "attachmentNameQuery",
+    "ar" : "استعلام اسم المرفق",
+    "en" : "Attachment Name Query",
+    "type" : "BigText"
+  }, {
+    "id" : "attachmentNameTemplate",
+    "column" : "attachmentNameTemplate",
+    "ar" : "قالب اسم المرفق",
+    "en" : "Attachment Name Template",
+    "type" : "BigText"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "className",
+    "column" : "className",
+    "ar" : "إسم العنصر",
+    "en" : "Class Name",
+    "type" : "Text"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay1",
+    "column" : "dayOfMonthInfoRunOnDay1",
+    "ar" : "1",
+    "en" : "1",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay10",
+    "column" : "dayOfMonthInfoRunOnDay10",
+    "ar" : "10",
+    "en" : "10",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay11",
+    "column" : "dayOfMonthInfoRunOnDay11",
+    "ar" : "11",
+    "en" : "11",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay12",
+    "column" : "dayOfMonthInfoRunOnDay12",
+    "ar" : "12",
+    "en" : "12",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay13",
+    "column" : "dayOfMonthInfoRunOnDay13",
+    "ar" : "13",
+    "en" : "13",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay14",
+    "column" : "dayOfMonthInfoRunOnDay14",
+    "ar" : "14",
+    "en" : "14",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay15",
+    "column" : "dayOfMonthInfoRunOnDay15",
+    "ar" : "15",
+    "en" : "15",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay16",
+    "column" : "dayOfMonthInfoRunOnDay16",
+    "ar" : "16",
+    "en" : "16",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay17",
+    "column" : "dayOfMonthInfoRunOnDay17",
+    "ar" : "17",
+    "en" : "17",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay18",
+    "column" : "dayOfMonthInfoRunOnDay18",
+    "ar" : "18",
+    "en" : "18",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay19",
+    "column" : "dayOfMonthInfoRunOnDay19",
+    "ar" : "19",
+    "en" : "19",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay2",
+    "column" : "dayOfMonthInfoRunOnDay2",
+    "ar" : "2",
+    "en" : "2",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay20",
+    "column" : "dayOfMonthInfoRunOnDay20",
+    "ar" : "20",
+    "en" : "20",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay21",
+    "column" : "dayOfMonthInfoRunOnDay21",
+    "ar" : "21",
+    "en" : "21",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay22",
+    "column" : "dayOfMonthInfoRunOnDay22",
+    "ar" : "22",
+    "en" : "22",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay23",
+    "column" : "dayOfMonthInfoRunOnDay23",
+    "ar" : "23",
+    "en" : "23",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay24",
+    "column" : "dayOfMonthInfoRunOnDay24",
+    "ar" : "24",
+    "en" : "24",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay25",
+    "column" : "dayOfMonthInfoRunOnDay25",
+    "ar" : "25",
+    "en" : "25",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay26",
+    "column" : "dayOfMonthInfoRunOnDay26",
+    "ar" : "26",
+    "en" : "26",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay27",
+    "column" : "dayOfMonthInfoRunOnDay27",
+    "ar" : "27",
+    "en" : "27",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay28",
+    "column" : "dayOfMonthInfoRunOnDay28",
+    "ar" : "28",
+    "en" : "28",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay29",
+    "column" : "dayOfMonthInfoRunOnDay29",
+    "ar" : "29",
+    "en" : "29",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay3",
+    "column" : "dayOfMonthInfoRunOnDay3",
+    "ar" : "3",
+    "en" : "3",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay30",
+    "column" : "dayOfMonthInfoRunOnDay30",
+    "ar" : "30",
+    "en" : "30",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay31",
+    "column" : "dayOfMonthInfoRunOnDay31",
+    "ar" : "في يوم 31",
+    "en" : "On Day 31",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay4",
+    "column" : "dayOfMonthInfoRunOnDay4",
+    "ar" : "4",
+    "en" : "4",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay5",
+    "column" : "dayOfMonthInfoRunOnDay5",
+    "ar" : "5",
+    "en" : "5",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay6",
+    "column" : "dayOfMonthInfoRunOnDay6",
+    "ar" : "6",
+    "en" : "6",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay7",
+    "column" : "dayOfMonthInfoRunOnDay7",
+    "ar" : "7",
+    "en" : "7",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay8",
+    "column" : "dayOfMonthInfoRunOnDay8",
+    "ar" : "8",
+    "en" : "8",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayOfMonthInfo.runOnDay9",
+    "column" : "dayOfMonthInfoRunOnDay9",
+    "ar" : "9",
+    "en" : "9",
+    "type" : "Boolean"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "emailSubjectQuery",
+    "column" : "emailSubjectQuery",
+    "ar" : "استعلام موضوع الإيميل",
+    "en" : "Email Subject Query",
+    "type" : "BigText"
+  }, {
+    "id" : "emailSubjectTemplate",
+    "column" : "emailSubjectTemplate",
+    "ar" : "قالب موضوع الإيميل",
+    "en" : "Email Subject Template",
+    "type" : "BigText"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "hourInfo.runOnHour0000",
+    "column" : "hourInfoRunOnHour0000",
+    "ar" : "00:00",
+    "en" : "00:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0030",
+    "column" : "hourInfoRunOnHour0030",
+    "ar" : "00:30",
+    "en" : "00:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0100",
+    "column" : "hourInfoRunOnHour0100",
+    "ar" : "01:00",
+    "en" : "01:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0130",
+    "column" : "hourInfoRunOnHour0130",
+    "ar" : "01:30",
+    "en" : "01:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0200",
+    "column" : "hourInfoRunOnHour0200",
+    "ar" : "02:00",
+    "en" : "02:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0230",
+    "column" : "hourInfoRunOnHour0230",
+    "ar" : "02:30",
+    "en" : "02:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0300",
+    "column" : "hourInfoRunOnHour0300",
+    "ar" : "03:00",
+    "en" : "03:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0330",
+    "column" : "hourInfoRunOnHour0330",
+    "ar" : "03:30",
+    "en" : "03:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0400",
+    "column" : "hourInfoRunOnHour0400",
+    "ar" : "04:00",
+    "en" : "04:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0430",
+    "column" : "hourInfoRunOnHour0430",
+    "ar" : "04:30",
+    "en" : "04:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0500",
+    "column" : "hourInfoRunOnHour0500",
+    "ar" : "05:00",
+    "en" : "05:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0530",
+    "column" : "hourInfoRunOnHour0530",
+    "ar" : "05:30",
+    "en" : "05:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0600",
+    "column" : "hourInfoRunOnHour0600",
+    "ar" : "06:00",
+    "en" : "06:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0630",
+    "column" : "hourInfoRunOnHour0630",
+    "ar" : "06:30",
+    "en" : "06:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0700",
+    "column" : "hourInfoRunOnHour0700",
+    "ar" : "07:00",
+    "en" : "07:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0730",
+    "column" : "hourInfoRunOnHour0730",
+    "ar" : "07:30",
+    "en" : "07:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0800",
+    "column" : "hourInfoRunOnHour0800",
+    "ar" : "08:00",
+    "en" : "08:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0830",
+    "column" : "hourInfoRunOnHour0830",
+    "ar" : "08:30",
+    "en" : "08:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0900",
+    "column" : "hourInfoRunOnHour0900",
+    "ar" : "09:00",
+    "en" : "09:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour0930",
+    "column" : "hourInfoRunOnHour0930",
+    "ar" : "09:30",
+    "en" : "09:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1000",
+    "column" : "hourInfoRunOnHour1000",
+    "ar" : "10:00",
+    "en" : "10:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1030",
+    "column" : "hourInfoRunOnHour1030",
+    "ar" : "10:30",
+    "en" : "10:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1100",
+    "column" : "hourInfoRunOnHour1100",
+    "ar" : "11:00",
+    "en" : "11:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1130",
+    "column" : "hourInfoRunOnHour1130",
+    "ar" : "11:30",
+    "en" : "11:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1200",
+    "column" : "hourInfoRunOnHour1200",
+    "ar" : "12:00",
+    "en" : "12:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1230",
+    "column" : "hourInfoRunOnHour1230",
+    "ar" : "12:30",
+    "en" : "12:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1300",
+    "column" : "hourInfoRunOnHour1300",
+    "ar" : "13:00",
+    "en" : "13:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1330",
+    "column" : "hourInfoRunOnHour1330",
+    "ar" : "13:30",
+    "en" : "13:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1400",
+    "column" : "hourInfoRunOnHour1400",
+    "ar" : "14:00",
+    "en" : "14:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1430",
+    "column" : "hourInfoRunOnHour1430",
+    "ar" : "14:30",
+    "en" : "14:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1500",
+    "column" : "hourInfoRunOnHour1500",
+    "ar" : "15:00",
+    "en" : "15:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1530",
+    "column" : "hourInfoRunOnHour1530",
+    "ar" : "15:30",
+    "en" : "15:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1600",
+    "column" : "hourInfoRunOnHour1600",
+    "ar" : "16:00",
+    "en" : "16:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1630",
+    "column" : "hourInfoRunOnHour1630",
+    "ar" : "16:30",
+    "en" : "16:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1700",
+    "column" : "hourInfoRunOnHour1700",
+    "ar" : "17:00",
+    "en" : "17:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1730",
+    "column" : "hourInfoRunOnHour1730",
+    "ar" : "17:30",
+    "en" : "17:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1800",
+    "column" : "hourInfoRunOnHour1800",
+    "ar" : "18:00",
+    "en" : "18:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1830",
+    "column" : "hourInfoRunOnHour1830",
+    "ar" : "18:30",
+    "en" : "18:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1900",
+    "column" : "hourInfoRunOnHour1900",
+    "ar" : "19:00",
+    "en" : "19:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour1930",
+    "column" : "hourInfoRunOnHour1930",
+    "ar" : "19:30",
+    "en" : "19:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour2000",
+    "column" : "hourInfoRunOnHour2000",
+    "ar" : "20:00",
+    "en" : "20:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour2030",
+    "column" : "hourInfoRunOnHour2030",
+    "ar" : "20:30",
+    "en" : "20:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour2100",
+    "column" : "hourInfoRunOnHour2100",
+    "ar" : "21:00",
+    "en" : "21:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour2130",
+    "column" : "hourInfoRunOnHour2130",
+    "ar" : "21:30",
+    "en" : "21:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour2200",
+    "column" : "hourInfoRunOnHour2200",
+    "ar" : "22:00",
+    "en" : "22:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour2230",
+    "column" : "hourInfoRunOnHour2230",
+    "ar" : "22:30",
+    "en" : "22:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour2300",
+    "column" : "hourInfoRunOnHour2300",
+    "ar" : "23:00",
+    "en" : "23:00",
+    "type" : "Boolean"
+  }, {
+    "id" : "hourInfo.runOnHour2330",
+    "column" : "hourInfoRunOnHour2330",
+    "ar" : "23:30",
+    "en" : "23:30",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "implRepo",
+    "column" : "implRepo_id",
+    "ar" : "كتالوج التجهيز",
+    "en" : "Implementation Repository",
+    "type" : "Reference",
+    "refTo" : "ImplementationRepository",
+    "refPath" : "/modules/basic/ImplementationRepository.html"
+  }, {
+    "id" : "inActive",
+    "column" : "inActive",
+    "ar" : "غير نشط",
+    "en" : "Inactive",
+    "type" : "Boolean"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "magentoSite",
+    "column" : "magentoSite_id",
+    "ar" : " Magento Site",
+    "en" : " Magento Site",
+    "type" : "Reference",
+    "refTo" : "MAGMagentoSite",
+    "refPath" : "/modules/magento/MAGMagentoSite.html"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "moduleName",
+    "column" : "moduleName",
+    "ar" : "Module Name",
+    "en" : "Module Name",
+    "type" : "FieldID"
+  }, {
+    "id" : "monthInfo.runOnApril",
+    "column" : "monthInfoRunOnApril",
+    "ar" : "إبريل",
+    "en" : "On April",
+    "type" : "Boolean"
+  }, {
+    "id" : "monthInfo.runOnAugust",
+    "column" : "monthInfoRunOnAugust",
+    "ar" : "أغسطس",
+    "en" : "On August",
+    "type" : "Boolean"
+  }, {
+    "id" : "monthInfo.runOnDecember",
+    "column" : "monthInfoRunOnDecember",
+    "ar" : "ديسمبر",
+    "en" : "On December",
+    "type" : "Boolean"
+  }, {
+    "id" : "monthInfo.runOnFeb",
+    "column" : "monthInfoRunOnFeb",
+    "ar" : "فبراير",
+    "en" : "On February",
+    "type" : "Boolean"
+  }, {
+    "id" : "monthInfo.runOnJan",
+    "column" : "monthInfoRunOnJan",
+    "ar" : "يناير",
+    "en" : "On January",
+    "type" : "Boolean"
+  }, {
+    "id" : "monthInfo.runOnJuly",
+    "column" : "monthInfoRunOnJuly",
+    "ar" : "يوليو",
+    "en" : "On July",
+    "type" : "Boolean"
+  }, {
+    "id" : "monthInfo.runOnJune",
+    "column" : "monthInfoRunOnJune",
+    "ar" : "يونيو",
+    "en" : "On June",
+    "type" : "Boolean"
+  }, {
+    "id" : "monthInfo.runOnMarch",
+    "column" : "monthInfoRunOnMarch",
+    "ar" : "مارس",
+    "en" : "On March",
+    "type" : "Boolean"
+  }, {
+    "id" : "monthInfo.runOnMay",
+    "column" : "monthInfoRunOnMay",
+    "ar" : "مايو",
+    "en" : "On May",
+    "type" : "Boolean"
+  }, {
+    "id" : "monthInfo.runOnNovember",
+    "column" : "monthInfoRunOnNovember",
+    "ar" : "نوفمبر",
+    "en" : "On November",
+    "type" : "Boolean"
+  }, {
+    "id" : "monthInfo.runOnOctober",
+    "column" : "monthInfoRunOnOctober",
+    "ar" : "أكتوبر",
+    "en" : "On October",
+    "type" : "Boolean"
+  }, {
+    "id" : "monthInfo.runOnSeptember",
+    "column" : "monthInfoRunOnSeptember",
+    "ar" : "سبتمبر",
+    "en" : "On September",
+    "type" : "Boolean"
+  }, {
+    "id" : "monthly",
+    "column" : "monthly",
+    "ar" : "شهري",
+    "en" : "Monthly",
+    "type" : "Boolean"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "parameter1",
+    "column" : "parameter1",
+    "ar" : "المدخل 1",
+    "en" : "Parameter 1",
+    "type" : "BigText"
+  }, {
+    "id" : "parameter10",
+    "column" : "parameter10",
+    "ar" : "المدخل 10",
+    "en" : "Parameter 10",
+    "type" : "BigText"
+  }, {
+    "id" : "parameter11",
+    "column" : "parameter11",
+    "ar" : "المدخل 11",
+    "en" : "Parameter 11",
+    "type" : "BigText"
+  }, {
+    "id" : "parameter12",
+    "column" : "parameter12",
+    "ar" : "المدخل 12",
+    "en" : "Parameter 12",
+    "type" : "BigText"
+  }, {
+    "id" : "parameter13",
+    "column" : "parameter13",
+    "ar" : "المدخل 13",
+    "en" : "Parameter 13",
+    "type" : "BigText"
+  }, {
+    "id" : "parameter14",
+    "column" : "parameter14",
+    "ar" : "المدخل 14",
+    "en" : "Parameter 14",
+    "type" : "BigText"
+  }, {
+    "id" : "parameter15",
+    "column" : "parameter15",
+    "ar" : "المدخل 15",
+    "en" : "Parameter 15",
+    "type" : "BigText"
+  }, {
+    "id" : "parameter2",
+    "column" : "parameter2",
+    "ar" : "المدخل 2",
+    "en" : "Parameter 2",
+    "type" : "BigText"
+  }, {
+    "id" : "parameter3",
+    "column" : "parameter3",
+    "ar" : "المدخل 3",
+    "en" : "Parameter 3",
+    "type" : "BigText"
+  }, {
+    "id" : "parameter4",
+    "column" : "parameter4",
+    "ar" : "المدخل 4",
+    "en" : "Parameter 4",
+    "type" : "BigText"
+  }, {
+    "id" : "parameter5",
+    "column" : "parameter5",
+    "ar" : "المدخل 5",
+    "en" : "Parameter 5",
+    "type" : "BigText"
+  }, {
+    "id" : "parameter6",
+    "column" : "parameter6",
+    "ar" : "المدخل 6",
+    "en" : "Parameter 6",
+    "type" : "BigText"
+  }, {
+    "id" : "parameter7",
+    "column" : "parameter7",
+    "ar" : "المدخل 7",
+    "en" : "Parameter 7",
+    "type" : "BigText"
+  }, {
+    "id" : "parameter8",
+    "column" : "parameter8",
+    "ar" : "المدخل 8",
+    "en" : "Parameter 8",
+    "type" : "BigText"
+  }, {
+    "id" : "parameter9",
+    "column" : "parameter9",
+    "ar" : "المدخل 9",
+    "en" : "Parameter 9",
+    "type" : "BigText"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "pdfSample",
+    "column" : "pdfSample_id",
+    "ar" : "PDF Sample",
+    "en" : "PDF Sample",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "printerName",
+    "column" : "printerName",
+    "ar" : "اسم الطابعة (CSV)",
+    "en" : "Printer Name (CSV)",
+    "type" : "Text"
+  }, {
+    "id" : "query",
+    "column" : "query",
+    "ar" : "الاستعلام",
+    "en" : "Query",
+    "type" : "BigText"
+  }, {
+    "id" : "queryFields",
+    "column" : "queryFields",
+    "ar" : "اعمدة النتائج",
+    "en" : "Query Fields",
+    "type" : "Text"
+  }, {
+    "id" : "recuredDocument",
+    "column" : "recuredDocument_id",
+    "ar" : "ملف المستندات الدورية",
+    "en" : "recured Document",
+    "type" : "Reference",
+    "refTo" : "RecuringDocument",
+    "refPath" : "/modules/basic/RecuringDocument.html"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "relatedEntity1",
+    "column" : "relatedEntity1",
+    "ar" : "السجل المرتبط 1",
+    "en" : "Related Entity1",
+    "type" : "Text"
+  }, {
+    "id" : "relatedEntity2",
+    "column" : "relatedEntity2",
+    "ar" : "السجل المرتبط 2",
+    "en" : "Related Entity2",
+    "type" : "Text"
+  }, {
+    "id" : "relatedTo",
+    "column" : "relatedTo",
+    "ar" : "يرتبط بـ",
+    "en" : "Related To",
+    "type" : "EntityType"
+  }, {
+    "id" : "relatedToModule1",
+    "column" : "relatedToModule1",
+    "ar" : "الموديول المرتبط 1",
+    "en" : "Related To Module 1",
+    "type" : "Text"
+  }, {
+    "id" : "relatedToModule2",
+    "column" : "relatedToModule2",
+    "ar" : "الموديول المرتبط 2",
+    "en" : "Related To Module 2",
+    "type" : "Text"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "repOutputFormat",
+    "column" : "repOutputFormat",
+    "ar" : "تنسيق الملف المرفق",
+    "en" : "Attached File Format",
+    "type" : "Enum",
+    "enum" : "RepOutputFormat"
+  }, {
+    "id" : "reportDefinition",
+    "column" : "reportDefinition_id",
+    "ar" : "تعريف التقرير",
+    "en" : "Report Definition",
+    "type" : "Reference",
+    "refTo" : "ReportDefinition",
+    "refPath" : "/modules/basic/ReportDefinition.html"
+  }, {
+    "id" : "reviewedAndApproved",
+    "column" : "reviewedAndApproved",
+    "ar" : "تم مراجعته وإعتماده",
+    "en" : "Reviewed And Approved",
+    "type" : "Boolean"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "runOn",
+    "column" : "runOn",
+    "ar" : "تنفيذ كل (عدد)",
+    "en" : "Run Every (Count)",
+    "type" : "Integer"
+  }, {
+    "id" : "runOnAllDays",
+    "column" : "runOnAllDays",
+    "ar" : "تنفذ في جميع أيام الشهر",
+    "en" : "Run On All Days",
+    "type" : "Boolean"
+  }, {
+    "id" : "runOnAllMonths",
+    "column" : "runOnAllMonths",
+    "ar" : "تنفذ في جميع الشهور",
+    "en" : "On All Months",
+    "type" : "Boolean"
+  }, {
+    "id" : "runOnAllWeekDays",
+    "column" : "runOnAllWeekDays",
+    "ar" : "تنفذ في جميع أيام الأسبوع",
+    "en" : "On All Week Days",
+    "type" : "Boolean"
+  }, {
+    "id" : "runOnType",
+    "column" : "runOnType",
+    "ar" : "تنفيذ كل (وحده)",
+    "en" : "Run Every (Unit)",
+    "type" : "Enum",
+    "enum" : "TimePeriodType"
+  }, {
+    "id" : "saveToImplRepo",
+    "column" : "saveToImplRepo",
+    "ar" : "الحفظ في كتالوج التجهيز",
+    "en" : "Save To Implementation Repository",
+    "type" : "Boolean"
+  }, {
+    "id" : "scenario",
+    "column" : "scenario",
+    "ar" : "سيناريو",
+    "en" : "Scenario",
+    "type" : "BigText"
+  }, {
+    "id" : "scheduleInfo.timeDayOfMonth",
+    "column" : "scheduleInfoTimeDayOfMonth",
+    "ar" : "يوم",
+    "en" : "Day Of Month",
+    "type" : "Text"
+  }, {
+    "id" : "scheduleInfo.timeDayOfWeek",
+    "column" : "scheduleInfoTimeDayOfWeek",
+    "ar" : "يوم أسبوع",
+    "en" : "Day Of Week",
+    "type" : "Text"
+  }, {
+    "id" : "scheduleInfo.timeHour",
+    "column" : "scheduleInfoTimeHour",
+    "ar" : "الساعات",
+    "en" : "Hours",
+    "type" : "Text"
+  }, {
+    "id" : "scheduleInfo.timeMinute",
+    "column" : "scheduleInfoTimeMinute",
+    "ar" : "الدقائق",
+    "en" : "Minutes",
+    "type" : "Text"
+  }, {
+    "id" : "scheduleInfo.timeMonth",
+    "column" : "scheduleInfoTimeMonth",
+    "ar" : "شهر",
+    "en" : "Month",
+    "type" : "Text"
+  }, {
+    "id" : "scheduleType",
+    "column" : "scheduleType",
+    "ar" : "نوع المهمة",
+    "en" : "Task Type",
+    "type" : "Enum",
+    "enum" : "ScheduleType"
+  }, {
+    "id" : "screenshot",
+    "column" : "screenshot_id",
+    "ar" : "Screenshot",
+    "en" : "Screenshot",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "sendAsMail",
+    "column" : "sendAsMail",
+    "ar" : "ارسال كايميل",
+    "en" : "Send As Mail",
+    "type" : "Boolean"
+  }, {
+    "id" : "sendAsNotification",
+    "column" : "sendAsNotification",
+    "ar" : "ارسال كتنويه",
+    "en" : "Send As Notification",
+    "type" : "Boolean"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "systemReport",
+    "column" : "systemReport",
+    "ar" : "نظامي",
+    "en" : "System",
+    "type" : "Boolean"
+  }, {
+    "id" : "targetCriteria",
+    "column" : "targetCriteria_id",
+    "ar" : "معايير",
+    "en" : "Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "targetEmails",
+    "column" : "targetEmails",
+    "ar" : "عناوين البريد الألكتروني",
+    "en" : "E-mails",
+    "type" : "BigText"
+  }, {
+    "id" : "targetReference",
+    "columns" : [ "targetReferenceActualCode", " targetReferenceCode", " targetReferenceEntityType", " targetReferenceId" ],
+    "ar" : "مرجع",
+    "en" : "Reference",
+    "type" : "Genericreference"
+  }, {
+    "id" : "templates.copyEmailFrom",
+    "column" : "copyEmailFrom",
+    "ar" : "نسخ الايميل من",
+    "en" : "Copy Email From",
+    "type" : "Enum",
+    "enum" : "CopyTemplateFrom"
+  }, {
+    "id" : "templates.copyNotificationFrom",
+    "column" : "copyNotificationFrom",
+    "ar" : "نسخ التنبيهات من",
+    "en" : "Copy Notification From",
+    "type" : "Enum",
+    "enum" : "CopyTemplateFrom"
+  }, {
+    "id" : "templates.copySMSFrom",
+    "column" : "copySMSFrom",
+    "ar" : "نسخ الرسائل من",
+    "en" : "Copy SMS From",
+    "type" : "Enum",
+    "enum" : "CopyTemplateFrom"
+  }, {
+    "id" : "templates.emailReport",
+    "column" : "emailReport_id",
+    "type" : "Reference",
+    "refTo" : "ReportDefinition",
+    "refPath" : "/modules/basic/ReportDefinition.html"
+  }, {
+    "id" : "templates.emailTemplate",
+    "column" : "emailTemplate",
+    "ar" : "قالب الإيميل",
+    "en" : "Email Template",
+    "type" : "BigText"
+  }, {
+    "id" : "templates.notificationReport",
+    "column" : "notificationReport_id",
+    "type" : "Reference",
+    "refTo" : "ReportDefinition",
+    "refPath" : "/modules/basic/ReportDefinition.html"
+  }, {
+    "id" : "templates.notificationTemplate",
+    "column" : "notificationTemplate",
+    "ar" : "قالب التنبيهات",
+    "en" : "Notification Template",
+    "type" : "BigText"
+  }, {
+    "id" : "templates.preferredEmailSender",
+    "column" : "preferredEmailSender",
+    "ar" : "مرسل الايميل المفضل",
+    "en" : "Preferred Email Sender",
+    "type" : "Text"
+  }, {
+    "id" : "templates.preferredSMSSender",
+    "column" : "preferredSMSSender",
+    "ar" : "مرسل الرسائل المفضل",
+    "en" : "Preferred SMS Sender",
+    "type" : "Text"
+  }, {
+    "id" : "templates.smsReport",
+    "column" : "smsReport_id",
+    "type" : "Reference",
+    "refTo" : "ReportDefinition",
+    "refPath" : "/modules/basic/ReportDefinition.html"
+  }, {
+    "id" : "templates.smsTemplate",
+    "column" : "smsTemplate",
+    "ar" : "قالب الرسائل النصية",
+    "en" : "SMS Template",
+    "type" : "BigText"
+  }, {
+    "id" : "title1",
+    "column" : "title1",
+    "ar" : "عنوان مدخل 1",
+    "en" : "Paramter 1 Title",
+    "type" : "BigText"
+  }, {
+    "id" : "title10",
+    "column" : "title10",
+    "ar" : "عنوان مدخل 10",
+    "en" : "Paramter 10 Title",
+    "type" : "BigText"
+  }, {
+    "id" : "title11",
+    "column" : "title11",
+    "ar" : "عنوان مدخل 11",
+    "en" : "Paramter 11 Title",
+    "type" : "BigText"
+  }, {
+    "id" : "title12",
+    "column" : "title12",
+    "ar" : "عنوان مدخل 12",
+    "en" : "Paramter 12 Title",
+    "type" : "BigText"
+  }, {
+    "id" : "title13",
+    "column" : "title13",
+    "ar" : "عنوان مدخل 13",
+    "en" : "Paramter 13 Title",
+    "type" : "BigText"
+  }, {
+    "id" : "title14",
+    "column" : "title14",
+    "ar" : "عنوان مدخل 14",
+    "en" : "Paramter 14 Title",
+    "type" : "BigText"
+  }, {
+    "id" : "title15",
+    "column" : "title15",
+    "ar" : "عنوان مدخل 15",
+    "en" : "Paramter 15 Title",
+    "type" : "BigText"
+  }, {
+    "id" : "title2",
+    "column" : "title2",
+    "ar" : "عنوان مدخل 2",
+    "en" : "Paramter 2 Title",
+    "type" : "BigText"
+  }, {
+    "id" : "title3",
+    "column" : "title3",
+    "ar" : "عنوان مدخل 3",
+    "en" : "Paramter 3 Title",
+    "type" : "BigText"
+  }, {
+    "id" : "title4",
+    "column" : "title4",
+    "ar" : "عنوان مدخل 4",
+    "en" : "Paramter 4 Title",
+    "type" : "BigText"
+  }, {
+    "id" : "title5",
+    "column" : "title5",
+    "ar" : "عنوان مدخل 5",
+    "en" : "Paramter 5 Title",
+    "type" : "BigText"
+  }, {
+    "id" : "title6",
+    "column" : "title6",
+    "ar" : "عنوان مدخل 6",
+    "en" : "Paramter 6 Title",
+    "type" : "BigText"
+  }, {
+    "id" : "title7",
+    "column" : "title7",
+    "ar" : "عنوان مدخل 7",
+    "en" : "Paramter 7 Title",
+    "type" : "BigText"
+  }, {
+    "id" : "title8",
+    "column" : "title8",
+    "ar" : "عنوان مدخل 8",
+    "en" : "Paramter 8 Title",
+    "type" : "BigText"
+  }, {
+    "id" : "title9",
+    "column" : "title9",
+    "ar" : "عنوان مدخل 9",
+    "en" : "Paramter 9 Title",
+    "type" : "BigText"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usingCron",
+    "column" : "usingCron",
+    "ar" : "استخدام Cron",
+    "en" : "Using Cron",
+    "type" : "Boolean"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewingFormat",
+    "column" : "viewingFormat",
+    "ar" : "نسق المطالعة",
+    "en" : "Viewing Format",
+    "type" : "Enum",
+    "enum" : "RepOutputFormat"
+  }, {
+    "id" : "weekInfo.runOnFriday",
+    "column" : "weekInfoRunOnFriday",
+    "ar" : "الجمعة",
+    "en" : "On Friday",
+    "type" : "Boolean"
+  }, {
+    "id" : "weekInfo.runOnMonday",
+    "column" : "weekInfoRunOnMonday",
+    "ar" : "الأثنين",
+    "en" : "On Monday",
+    "type" : "Boolean"
+  }, {
+    "id" : "weekInfo.runOnStaurday",
+    "column" : "weekInfoRunOnStaurday",
+    "ar" : "السبت",
+    "en" : "On Saturday",
+    "type" : "Boolean"
+  }, {
+    "id" : "weekInfo.runOnSunday",
+    "column" : "weekInfoRunOnSunday",
+    "ar" : "الأحد",
+    "en" : "On Sunday",
+    "type" : "Boolean"
+  }, {
+    "id" : "weekInfo.runOnThursday",
+    "column" : "weekInfoRunOnThursday",
+    "ar" : "الخميس",
+    "en" : "On Thursday",
+    "type" : "Boolean"
+  }, {
+    "id" : "weekInfo.runOnTuesday",
+    "column" : "weekInfoRunOnTuesday",
+    "ar" : "الثلاثاء",
+    "en" : "On Tuesday",
+    "type" : "Boolean"
+  }, {
+    "id" : "weekInfo.runOnWednesday",
+    "column" : "weekInfoRunOnWednesday",
+    "ar" : "الأربعاء",
+    "en" : "On Wednesday",
+    "type" : "Boolean"
+  }, {
+    "id" : "weekly",
+    "column" : "weekly",
+    "ar" : "أسبوعي",
+    "en" : "Weekly",
+    "type" : "Boolean"
+  }, {
+    "id" : "whenErrorsNotification",
+    "column" : "whenErrorsNotification_id",
+    "ar" : "التنبيه المستخدم عند حدوث خطأ بالمهة",
+    "en" : "Notification Definition Usd When an Error Occurs",
+    "type" : "Reference",
+    "refTo" : "NotificationDefinition",
+    "refPath" : "/modules/basic/NotificationDefinition.html"
+  } ],
+  "details" : [ {
+    "id" : "params",
+    "table" : "TaskScheduleReportParams",
+    "joinColumn" : "taskSchedule_id",
+    "ar" : "Parameters",
+    "en" : "Parameters",
+    "fields" : [ {
+      "id" : "params.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "params.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "params.p1.dateTimeValue",
+      "column" : "p1DateTimeValue",
+      "ar" : "1|Date Time",
+      "en" : "1|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "params.p1.dateValue",
+      "column" : "p1DateValue",
+      "ar" : "1|Date",
+      "en" : "1|Date",
+      "type" : "Date"
+    }, {
+      "id" : "params.p1.dynamicParamValue",
+      "column" : "p1DynamicParamValue",
+      "ar" : "1|Dynamic",
+      "en" : "1|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "params.p1.entityType",
+      "column" : "p1EntityType",
+      "ar" : "1|Entity Type",
+      "en" : "1|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "params.p1.paramId",
+      "column" : "p1ParamId",
+      "ar" : "1|Param ID",
+      "en" : "1|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "params.p1.paramType",
+      "column" : "p1ParamType",
+      "ar" : "1|Type",
+      "en" : "1|Type",
+      "type" : "Text"
+    }, {
+      "id" : "params.p1.paramValue",
+      "column" : "p1ParamValue",
+      "ar" : "القيمة",
+      "en" : "Param Value",
+      "type" : "Text"
+    }, {
+      "id" : "params.p1.refValue",
+      "columns" : [ "p1RefValueActualCode", " p1RefValueCode", " p1RefValueEntityType", " p1RefValueId" ],
+      "ar" : "1|Ref",
+      "en" : "1|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "params.p1.timeValue",
+      "column" : "p1TimeValue",
+      "ar" : "1|Time",
+      "en" : "1|Time",
+      "type" : "Time"
+    }, {
+      "id" : "params.p10.dateTimeValue",
+      "column" : "p10DateTimeValue",
+      "ar" : "10|Date Time",
+      "en" : "10|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "params.p10.dateValue",
+      "column" : "p10DateValue",
+      "ar" : "10|Date",
+      "en" : "10|Date",
+      "type" : "Date"
+    }, {
+      "id" : "params.p10.dynamicParamValue",
+      "column" : "p10DynamicParamValue",
+      "ar" : "10|Dynamic",
+      "en" : "10|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "params.p10.entityType",
+      "column" : "p10EntityType",
+      "ar" : "10|Entity Type",
+      "en" : "10|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "params.p10.paramId",
+      "column" : "p10ParamId",
+      "ar" : "10|Param ID",
+      "en" : "10|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "params.p10.paramType",
+      "column" : "p10ParamType",
+      "ar" : "10|Type",
+      "en" : "10|Type",
+      "type" : "Text"
+    }, {
+      "id" : "params.p10.paramValue",
+      "column" : "p10ParamValue",
+      "ar" : "10|Value",
+      "en" : "10|Value",
+      "type" : "Text"
+    }, {
+      "id" : "params.p10.refValue",
+      "columns" : [ "p10RefValueActualCode", " p10RefValueCode", " p10RefValueEntityType", " p10RefValueId" ],
+      "ar" : "10|Ref",
+      "en" : "10|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "params.p10.timeValue",
+      "column" : "p10TimeValue",
+      "ar" : "10|Time",
+      "en" : "10|Time",
+      "type" : "Time"
+    }, {
+      "id" : "params.p11.dateTimeValue",
+      "column" : "p11DateTimeValue",
+      "ar" : "11|Date Time",
+      "en" : "11|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "params.p11.dateValue",
+      "column" : "p11DateValue",
+      "ar" : "11|Date",
+      "en" : "11|Date",
+      "type" : "Date"
+    }, {
+      "id" : "params.p11.dynamicParamValue",
+      "column" : "p11DynamicParamValue",
+      "ar" : "11|Dynamic",
+      "en" : "11|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "params.p11.entityType",
+      "column" : "p11EntityType",
+      "ar" : "11|Entity Type",
+      "en" : "11|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "params.p11.paramId",
+      "column" : "p11ParamId",
+      "ar" : "11|Param ID",
+      "en" : "11|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "params.p11.paramType",
+      "column" : "p11ParamType",
+      "ar" : "11|Type",
+      "en" : "11|Type",
+      "type" : "Text"
+    }, {
+      "id" : "params.p11.paramValue",
+      "column" : "p11ParamValue",
+      "ar" : "11|Value",
+      "en" : "11|Value",
+      "type" : "Text"
+    }, {
+      "id" : "params.p11.refValue",
+      "columns" : [ "p11RefValueActualCode", " p11RefValueCode", " p11RefValueEntityType", " p11RefValueId" ],
+      "ar" : "11|Ref",
+      "en" : "11|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "params.p11.timeValue",
+      "column" : "p11TimeValue",
+      "ar" : "11|Time",
+      "en" : "11|Time",
+      "type" : "Time"
+    }, {
+      "id" : "params.p12.dateTimeValue",
+      "column" : "p12DateTimeValue",
+      "ar" : "12|Date Time",
+      "en" : "12|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "params.p12.dateValue",
+      "column" : "p12DateValue",
+      "ar" : "12|Date",
+      "en" : "12|Date",
+      "type" : "Date"
+    }, {
+      "id" : "params.p12.dynamicParamValue",
+      "column" : "p12DynamicParamValue",
+      "ar" : "12|Dynamic",
+      "en" : "12|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "params.p12.entityType",
+      "column" : "p12EntityType",
+      "ar" : "12|Entity Type",
+      "en" : "12|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "params.p12.paramId",
+      "column" : "p12ParamId",
+      "ar" : "12|Param ID",
+      "en" : "12|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "params.p12.paramType",
+      "column" : "p12ParamType",
+      "ar" : "12|Type",
+      "en" : "12|Type",
+      "type" : "Text"
+    }, {
+      "id" : "params.p12.paramValue",
+      "column" : "p12ParamValue",
+      "ar" : "12|Value",
+      "en" : "12|Value",
+      "type" : "Text"
+    }, {
+      "id" : "params.p12.refValue",
+      "columns" : [ "p12RefValueActualCode", " p12RefValueCode", " p12RefValueEntityType", " p12RefValueId" ],
+      "ar" : "12|Ref",
+      "en" : "12|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "params.p12.timeValue",
+      "column" : "p12TimeValue",
+      "ar" : "12|Time",
+      "en" : "12|Time",
+      "type" : "Time"
+    }, {
+      "id" : "params.p13.dateTimeValue",
+      "column" : "p13DateTimeValue",
+      "ar" : "13|Date Time",
+      "en" : "13|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "params.p13.dateValue",
+      "column" : "p13DateValue",
+      "ar" : "13|Date",
+      "en" : "13|Date",
+      "type" : "Date"
+    }, {
+      "id" : "params.p13.dynamicParamValue",
+      "column" : "p13DynamicParamValue",
+      "ar" : "13|Dynamic",
+      "en" : "13|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "params.p13.entityType",
+      "column" : "p13EntityType",
+      "ar" : "13|Entity Type",
+      "en" : "13|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "params.p13.paramId",
+      "column" : "p13ParamId",
+      "ar" : "13|Param ID",
+      "en" : "13|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "params.p13.paramType",
+      "column" : "p13ParamType",
+      "ar" : "13|Type",
+      "en" : "13|Type",
+      "type" : "Text"
+    }, {
+      "id" : "params.p13.paramValue",
+      "column" : "p13ParamValue",
+      "ar" : "13|Value",
+      "en" : "13|Value",
+      "type" : "Text"
+    }, {
+      "id" : "params.p13.refValue",
+      "columns" : [ "p13RefValueActualCode", " p13RefValueCode", " p13RefValueEntityType", " p13RefValueId" ],
+      "ar" : "13|Ref",
+      "en" : "13|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "params.p13.timeValue",
+      "column" : "p13TimeValue",
+      "ar" : "13|Time",
+      "en" : "13|Time",
+      "type" : "Time"
+    }, {
+      "id" : "params.p14.dateTimeValue",
+      "column" : "p14DateTimeValue",
+      "ar" : "14|Date Time",
+      "en" : "14|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "params.p14.dateValue",
+      "column" : "p14DateValue",
+      "ar" : "14|Date",
+      "en" : "14|Date",
+      "type" : "Date"
+    }, {
+      "id" : "params.p14.dynamicParamValue",
+      "column" : "p14DynamicParamValue",
+      "ar" : "14|Dynamic",
+      "en" : "14|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "params.p14.entityType",
+      "column" : "p14EntityType",
+      "ar" : "14|Entity Type",
+      "en" : "14|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "params.p14.paramId",
+      "column" : "p14ParamId",
+      "ar" : "14|Param ID",
+      "en" : "14|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "params.p14.paramType",
+      "column" : "p14ParamType",
+      "ar" : "14|Type",
+      "en" : "14|Type",
+      "type" : "Text"
+    }, {
+      "id" : "params.p14.paramValue",
+      "column" : "p14ParamValue",
+      "ar" : "14|Value",
+      "en" : "14|Value",
+      "type" : "Text"
+    }, {
+      "id" : "params.p14.refValue",
+      "columns" : [ "p14RefValueActualCode", " p14RefValueCode", " p14RefValueEntityType", " p14RefValueId" ],
+      "ar" : "14|Ref",
+      "en" : "14|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "params.p14.timeValue",
+      "column" : "p14TimeValue",
+      "ar" : "14|Time",
+      "en" : "14|Time",
+      "type" : "Time"
+    }, {
+      "id" : "params.p15.dateTimeValue",
+      "column" : "p15DateTimeValue",
+      "ar" : "15|Date Time",
+      "en" : "15|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "params.p15.dateValue",
+      "column" : "p15DateValue",
+      "ar" : "15|Date",
+      "en" : "15|Date",
+      "type" : "Date"
+    }, {
+      "id" : "params.p15.dynamicParamValue",
+      "column" : "p15DynamicParamValue",
+      "ar" : "15|Dynamic",
+      "en" : "15|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "params.p15.entityType",
+      "column" : "p15EntityType",
+      "ar" : "15|Entity Type",
+      "en" : "15|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "params.p15.paramId",
+      "column" : "p15ParamId",
+      "ar" : "15|Param ID",
+      "en" : "15|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "params.p15.paramType",
+      "column" : "p15ParamType",
+      "ar" : "15|Type",
+      "en" : "15|Type",
+      "type" : "Text"
+    }, {
+      "id" : "params.p15.paramValue",
+      "column" : "p15ParamValue",
+      "ar" : "15|Value",
+      "en" : "15|Value",
+      "type" : "Text"
+    }, {
+      "id" : "params.p15.refValue",
+      "columns" : [ "p15RefValueActualCode", " p15RefValueCode", " p15RefValueEntityType", " p15RefValueId" ],
+      "ar" : "15|Ref",
+      "en" : "15|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "params.p15.timeValue",
+      "column" : "p15TimeValue",
+      "ar" : "15|Time",
+      "en" : "15|Time",
+      "type" : "Time"
+    }, {
+      "id" : "params.p2.dateTimeValue",
+      "column" : "p2DateTimeValue",
+      "ar" : "2|Date Time",
+      "en" : "2|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "params.p2.dateValue",
+      "column" : "p2DateValue",
+      "ar" : "2|Date",
+      "en" : "2|Date",
+      "type" : "Date"
+    }, {
+      "id" : "params.p2.dynamicParamValue",
+      "column" : "p2DynamicParamValue",
+      "ar" : "2|Dynamic",
+      "en" : "2|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "params.p2.entityType",
+      "column" : "p2EntityType",
+      "ar" : "2|Entity Type",
+      "en" : "2|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "params.p2.paramId",
+      "column" : "p2ParamId",
+      "ar" : "2|Param ID",
+      "en" : "2|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "params.p2.paramType",
+      "column" : "p2ParamType",
+      "ar" : "2|Type",
+      "en" : "2|Type",
+      "type" : "Text"
+    }, {
+      "id" : "params.p2.paramValue",
+      "column" : "p2ParamValue",
+      "ar" : "2|Value",
+      "en" : "2|Value",
+      "type" : "Text"
+    }, {
+      "id" : "params.p2.refValue",
+      "columns" : [ "p2RefValueActualCode", " p2RefValueCode", " p2RefValueEntityType", " p2RefValueId" ],
+      "ar" : "2|Ref",
+      "en" : "2|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "params.p2.timeValue",
+      "column" : "p2TimeValue",
+      "ar" : "2|Time",
+      "en" : "2|Time",
+      "type" : "Time"
+    }, {
+      "id" : "params.p3.dateTimeValue",
+      "column" : "p3DateTimeValue",
+      "ar" : "3|Date Time",
+      "en" : "3|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "params.p3.dateValue",
+      "column" : "p3DateValue",
+      "ar" : "3|Date",
+      "en" : "3|Date",
+      "type" : "Date"
+    }, {
+      "id" : "params.p3.dynamicParamValue",
+      "column" : "p3DynamicParamValue",
+      "ar" : "3|Dynamic",
+      "en" : "3|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "params.p3.entityType",
+      "column" : "p3EntityType",
+      "ar" : "3|Entity Type",
+      "en" : "3|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "params.p3.paramId",
+      "column" : "p3ParamId",
+      "ar" : "3|Param ID",
+      "en" : "3|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "params.p3.paramType",
+      "column" : "p3ParamType",
+      "ar" : "3|Type",
+      "en" : "3|Type",
+      "type" : "Text"
+    }, {
+      "id" : "params.p3.paramValue",
+      "column" : "p3ParamValue",
+      "ar" : "3|Value",
+      "en" : "3|Value",
+      "type" : "Text"
+    }, {
+      "id" : "params.p3.refValue",
+      "columns" : [ "p3RefValueActualCode", " p3RefValueCode", " p3RefValueEntityType", " p3RefValueId" ],
+      "ar" : "3|Ref",
+      "en" : "3|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "params.p3.timeValue",
+      "column" : "p3TimeValue",
+      "ar" : "3|Time",
+      "en" : "3|Time",
+      "type" : "Time"
+    }, {
+      "id" : "params.p4.dateTimeValue",
+      "column" : "p4DateTimeValue",
+      "ar" : "4|Date Time",
+      "en" : "4|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "params.p4.dateValue",
+      "column" : "p4DateValue",
+      "ar" : "4|Date",
+      "en" : "4|Date",
+      "type" : "Date"
+    }, {
+      "id" : "params.p4.dynamicParamValue",
+      "column" : "p4DynamicParamValue",
+      "ar" : "4|Dynamic",
+      "en" : "4|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "params.p4.entityType",
+      "column" : "p4EntityType",
+      "ar" : "4|Entity Type",
+      "en" : "4|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "params.p4.paramId",
+      "column" : "p4ParamId",
+      "ar" : "4|Param ID",
+      "en" : "4|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "params.p4.paramType",
+      "column" : "p4ParamType",
+      "ar" : "4|Type",
+      "en" : "4|Type",
+      "type" : "Text"
+    }, {
+      "id" : "params.p4.paramValue",
+      "column" : "p4ParamValue",
+      "ar" : "4|Value",
+      "en" : "4|Value",
+      "type" : "Text"
+    }, {
+      "id" : "params.p4.refValue",
+      "columns" : [ "p4RefValueActualCode", " p4RefValueCode", " p4RefValueEntityType", " p4RefValueId" ],
+      "ar" : "4|Ref",
+      "en" : "4|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "params.p4.timeValue",
+      "column" : "p4TimeValue",
+      "ar" : "4|Time",
+      "en" : "4|Time",
+      "type" : "Time"
+    }, {
+      "id" : "params.p5.dateTimeValue",
+      "column" : "p5DateTimeValue",
+      "ar" : "5|Date Time",
+      "en" : "5|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "params.p5.dateValue",
+      "column" : "p5DateValue",
+      "ar" : "5|Date",
+      "en" : "5|Date",
+      "type" : "Date"
+    }, {
+      "id" : "params.p5.dynamicParamValue",
+      "column" : "p5DynamicParamValue",
+      "ar" : "5|Dynamic",
+      "en" : "5|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "params.p5.entityType",
+      "column" : "p5EntityType",
+      "ar" : "5|Entity Type",
+      "en" : "5|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "params.p5.paramId",
+      "column" : "p5ParamId",
+      "ar" : "5|Param ID",
+      "en" : "5|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "params.p5.paramType",
+      "column" : "p5ParamType",
+      "ar" : "5|Type",
+      "en" : "5|Type",
+      "type" : "Text"
+    }, {
+      "id" : "params.p5.paramValue",
+      "column" : "p5ParamValue",
+      "ar" : "5|Value",
+      "en" : "5|Value",
+      "type" : "Text"
+    }, {
+      "id" : "params.p5.refValue",
+      "columns" : [ "p5RefValueActualCode", " p5RefValueCode", " p5RefValueEntityType", " p5RefValueId" ],
+      "ar" : "5|Ref",
+      "en" : "5|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "params.p5.timeValue",
+      "column" : "p5TimeValue",
+      "ar" : "5|Time",
+      "en" : "5|Time",
+      "type" : "Time"
+    }, {
+      "id" : "params.p6.dateTimeValue",
+      "column" : "p6DateTimeValue",
+      "ar" : "6|Date Time",
+      "en" : "6|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "params.p6.dateValue",
+      "column" : "p6DateValue",
+      "ar" : "6|Date",
+      "en" : "6|Date",
+      "type" : "Date"
+    }, {
+      "id" : "params.p6.dynamicParamValue",
+      "column" : "p6DynamicParamValue",
+      "ar" : "6|Dynamic",
+      "en" : "6|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "params.p6.entityType",
+      "column" : "p6EntityType",
+      "ar" : "6|Entity Type",
+      "en" : "6|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "params.p6.paramId",
+      "column" : "p6ParamId",
+      "ar" : "6|Param ID",
+      "en" : "6|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "params.p6.paramType",
+      "column" : "p6ParamType",
+      "ar" : "6|Type",
+      "en" : "6|Type",
+      "type" : "Text"
+    }, {
+      "id" : "params.p6.paramValue",
+      "column" : "p6ParamValue",
+      "ar" : "6|Value",
+      "en" : "6|Value",
+      "type" : "Text"
+    }, {
+      "id" : "params.p6.refValue",
+      "columns" : [ "p6RefValueActualCode", " p6RefValueCode", " p6RefValueEntityType", " p6RefValueId" ],
+      "ar" : "6|Ref",
+      "en" : "6|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "params.p6.timeValue",
+      "column" : "p6TimeValue",
+      "ar" : "6|Time",
+      "en" : "6|Time",
+      "type" : "Time"
+    }, {
+      "id" : "params.p7.dateTimeValue",
+      "column" : "p7DateTimeValue",
+      "ar" : "7|Date Time",
+      "en" : "7|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "params.p7.dateValue",
+      "column" : "p7DateValue",
+      "ar" : "7|Date",
+      "en" : "7|Date",
+      "type" : "Date"
+    }, {
+      "id" : "params.p7.dynamicParamValue",
+      "column" : "p7DynamicParamValue",
+      "ar" : "7|Dynamic",
+      "en" : "7|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "params.p7.entityType",
+      "column" : "p7EntityType",
+      "ar" : "7|Entity Type",
+      "en" : "7|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "params.p7.paramId",
+      "column" : "p7ParamId",
+      "ar" : "7|Param ID",
+      "en" : "7|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "params.p7.paramType",
+      "column" : "p7ParamType",
+      "ar" : "7|Type",
+      "en" : "7|Type",
+      "type" : "Text"
+    }, {
+      "id" : "params.p7.paramValue",
+      "column" : "p7ParamValue",
+      "ar" : "7|Value",
+      "en" : "7|Value",
+      "type" : "Text"
+    }, {
+      "id" : "params.p7.refValue",
+      "columns" : [ "p7RefValueActualCode", " p7RefValueCode", " p7RefValueEntityType", " p7RefValueId" ],
+      "ar" : "7|Ref",
+      "en" : "7|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "params.p7.timeValue",
+      "column" : "p7TimeValue",
+      "ar" : "7|Time",
+      "en" : "7|Time",
+      "type" : "Time"
+    }, {
+      "id" : "params.p8.dateTimeValue",
+      "column" : "p8DateTimeValue",
+      "ar" : "8|Date Time",
+      "en" : "8|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "params.p8.dateValue",
+      "column" : "p8DateValue",
+      "ar" : "8|Date",
+      "en" : "8|Date",
+      "type" : "Date"
+    }, {
+      "id" : "params.p8.dynamicParamValue",
+      "column" : "p8DynamicParamValue",
+      "ar" : "8|Dynamic",
+      "en" : "8|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "params.p8.entityType",
+      "column" : "p8EntityType",
+      "ar" : "8|Entity Type",
+      "en" : "8|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "params.p8.paramId",
+      "column" : "p8ParamId",
+      "ar" : "8|Param ID",
+      "en" : "8|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "params.p8.paramType",
+      "column" : "p8ParamType",
+      "ar" : "8|Type",
+      "en" : "8|Type",
+      "type" : "Text"
+    }, {
+      "id" : "params.p8.paramValue",
+      "column" : "p8ParamValue",
+      "ar" : "8|Value",
+      "en" : "8|Value",
+      "type" : "Text"
+    }, {
+      "id" : "params.p8.refValue",
+      "columns" : [ "p8RefValueActualCode", " p8RefValueCode", " p8RefValueEntityType", " p8RefValueId" ],
+      "ar" : "8|Ref",
+      "en" : "8|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "params.p8.timeValue",
+      "column" : "p8TimeValue",
+      "ar" : "8|Time",
+      "en" : "8|Time",
+      "type" : "Time"
+    }, {
+      "id" : "params.p9.dateTimeValue",
+      "column" : "p9DateTimeValue",
+      "ar" : "9|Date Time",
+      "en" : "9|Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "params.p9.dateValue",
+      "column" : "p9DateValue",
+      "ar" : "9|Date",
+      "en" : "9|Date",
+      "type" : "Date"
+    }, {
+      "id" : "params.p9.dynamicParamValue",
+      "column" : "p9DynamicParamValue",
+      "ar" : "9|Dynamic",
+      "en" : "9|Dynamic",
+      "type" : "Boolean"
+    }, {
+      "id" : "params.p9.entityType",
+      "column" : "p9EntityType",
+      "ar" : "9|Entity Type",
+      "en" : "9|Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "params.p9.paramId",
+      "column" : "p9ParamId",
+      "ar" : "9|Param ID",
+      "en" : "9|Param ID",
+      "type" : "Text"
+    }, {
+      "id" : "params.p9.paramType",
+      "column" : "p9ParamType",
+      "ar" : "9|Type",
+      "en" : "9|Type",
+      "type" : "Text"
+    }, {
+      "id" : "params.p9.paramValue",
+      "column" : "p9ParamValue",
+      "ar" : "9|Value",
+      "en" : "9|Value",
+      "type" : "Text"
+    }, {
+      "id" : "params.p9.refValue",
+      "columns" : [ "p9RefValueActualCode", " p9RefValueCode", " p9RefValueEntityType", " p9RefValueId" ],
+      "ar" : "9|Ref",
+      "en" : "9|Ref",
+      "type" : "Genericreference"
+    }, {
+      "id" : "params.p9.timeValue",
+      "column" : "p9TimeValue",
+      "ar" : "9|Time",
+      "en" : "9|Time",
+      "type" : "Time"
+    }, {
+      "id" : "params.remarks1",
+      "column" : "remarks1",
+      "ar" : "ملاحظات 1",
+      "en" : "Remarks 1",
+      "type" : "BigText"
+    }, {
+      "id" : "params.remarks2",
+      "column" : "remarks2",
+      "ar" : "ملاحظات 2",
+      "en" : "Remarks 2",
+      "type" : "BigText"
+    }, {
+      "id" : "params.remarks3",
+      "column" : "remarks3",
+      "ar" : "ملاحظات 3",
+      "en" : "Remarks 3",
+      "type" : "BigText"
+    }, {
+      "id" : "params.sendTo",
+      "columns" : [ "sendToActualCode", " sendToCode", " sendToEntityType", " sendToId" ],
+      "en" : "Send To",
+      "type" : "Genericreference"
+    } ]
+  }, {
+    "id" : "runInSites",
+    "table" : "ScheduleSite",
+    "joinColumn" : "taskSchedule_id",
+    "ar" : "تشغيل في",
+    "en" : "Run In Sites",
+    "fields" : [ {
+      "id" : "runInSites.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "runInSites.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "runInSites.replicationSite",
+      "column" : "replicationSite_id",
+      "ar" : "موقع التكرار",
+      "en" : "Replication Site",
+      "type" : "Reference",
+      "refTo" : "ReplicationSite",
+      "refPath" : "/modules/basic/ReplicationSite.html"
+    } ]
+  }, {
+    "id" : "targetLines",
+    "table" : "TaskScheduleTargetLine",
+    "joinColumn" : "taskSchedule_id",
+    "fields" : [ {
+      "id" : "targetLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "targetLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "targetLines.targetLineReference",
+      "columns" : [ "targetLineReferenceActualCode", " targetLineReferenceCode", " targetLineReferenceEntityType", " targetLineReferenceId" ],
+      "ar" : "يرسل إلي",
+      "en" : "Send To",
+      "type" : "Genericreference"
+    } ]
+  } ]
+}

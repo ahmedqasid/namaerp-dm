@@ -1,0 +1,41 @@
+{
+  "entity" : "AtheerRequestLog",
+  "table" : "AtheerRequestLog",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AtheerRequestLog.html",
+  "fields" : [ {
+    "id" : "callType",
+    "column" : "callType",
+    "type" : "Text"
+  }, {
+    "id" : "doc",
+    "columns" : [ "docActualCode", " docCode", " docEntityType", " docId" ],
+    "ar" : "المستند",
+    "en" : "Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "magentoSite",
+    "column" : "magentoSite_id",
+    "ar" : " Magento Site",
+    "en" : " Magento Site",
+    "type" : "Reference",
+    "refTo" : "MAGMagentoSite",
+    "refPath" : "/modules/magento/MAGMagentoSite.html"
+  }, {
+    "id" : "requestBody",
+    "column" : "requestBody",
+    "ar" : "Request Body",
+    "en" : "Request Body",
+    "type" : "BigText"
+  }, {
+    "id" : "requestDate",
+    "column" : "requestDate",
+    "ar" : "تاريخ الطلب",
+    "en" : "Request Date",
+    "type" : "DateAndTime"
+  } ]
+}

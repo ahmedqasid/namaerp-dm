@@ -1,0 +1,32 @@
+{
+  "enum" : "TargetPlan",
+  "values" : [ {
+    "id" : "CRMPotential",
+    "ar" : "فرصة",
+    "en" : "CRM Potential"
+  }, {
+    "id" : "CRMVisit",
+    "ar" : "الزيارة",
+    "en" : "Visit"
+  }, {
+    "id" : "CRMCall",
+    "ar" : "اتصال",
+    "en" : "CRM Call"
+  }, {
+    "id" : "CRMLead",
+    "ar" : "خيط بيع",
+    "en" : "CRM Lead"
+  }, {
+    "id" : "CRMTicketExecution",
+    "ar" : "تنفيذ طلب دعم",
+    "en" : "Ticket Execution"
+  }, {
+    "id" : "CRMTask",
+    "ar" : "مهمة خدمة عملاء",
+    "en" : "CRM Task"
+  }, {
+    "id" : "CRMProject",
+    "ar" : "CRM مشروع",
+    "en" : "CRM Project"
+  } ]
+}

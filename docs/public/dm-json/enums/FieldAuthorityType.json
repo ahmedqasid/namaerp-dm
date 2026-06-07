@@ -1,0 +1,16 @@
+{
+  "enum" : "FieldAuthorityType",
+  "values" : [ {
+    "id" : "Disabled",
+    "ar" : "لا يسمح بالتعديل",
+    "en" : "Disabled"
+  }, {
+    "id" : "InVisible",
+    "ar" : "غير ظاهر",
+    "en" : "Invisible"
+  }, {
+    "id" : "Normal",
+    "ar" : "عادية",
+    "en" : "Normal"
+  } ]
+}

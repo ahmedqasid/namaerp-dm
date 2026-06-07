@@ -1,0 +1,23 @@
+{
+  "entity" : "StockAgesTaskUpdater",
+  "table" : "StockAgesTaskUpdater",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/StockAgesTaskUpdater.html",
+  "fields" : [ {
+    "id" : "calledFromIndex",
+    "column" : "calledFromIndex",
+    "ar" : "Called From Index",
+    "en" : "Called From Index",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "stockAgesIndex",
+    "column" : "stockAgesIndex",
+    "ar" : "Stock Ages Index",
+    "en" : "Stock Ages Index",
+    "type" : "Text"
+  } ]
+}

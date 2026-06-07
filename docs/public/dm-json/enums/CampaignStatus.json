@@ -1,0 +1,24 @@
+{
+  "enum" : "CampaignStatus",
+  "values" : [ {
+    "id" : "Planning",
+    "ar" : "في فترة التخطيط",
+    "en" : "Planning"
+  }, {
+    "id" : "Active",
+    "ar" : "فعال",
+    "en" : "Active"
+  }, {
+    "id" : "InActive",
+    "ar" : "غير فعال",
+    "en" : "Inactive"
+  }, {
+    "id" : "Completed",
+    "ar" : "تمت",
+    "en" : "Completed"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
+  } ]
+}

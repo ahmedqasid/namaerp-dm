@@ -1,0 +1,16 @@
+{
+  "enum" : "LetterCaseType",
+  "values" : [ {
+    "id" : "All",
+    "ar" : "الكل",
+    "en" : "All"
+  }, {
+    "id" : "LowerCase",
+    "ar" : "Lower Case",
+    "en" : "Lower Case"
+  }, {
+    "id" : "UpperCase",
+    "ar" : "Upper Case",
+    "en" : "Upper Case"
+  } ]
+}

@@ -1,0 +1,65 @@
+{
+  "entity" : "REPurchaseValueAndRevaluationEntry",
+  "table" : "REPurchaseValueAndRevaluationEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/REPurchaseValueAndRevaluationEntry.html",
+  "fields" : [ {
+    "id" : "additionValue",
+    "column" : "additionValue",
+    "ar" : "القيمة|إضافة",
+    "en" : "Value | Addition",
+    "type" : "Decimal"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentValue",
+    "column" : "currentValue",
+    "ar" : "القيمة الحالية",
+    "en" : "Current value",
+    "type" : "Decimal"
+  }, {
+    "id" : "difference",
+    "column" : "difference",
+    "ar" : "الفرق",
+    "en" : "Difference",
+    "type" : "Decimal"
+  }, {
+    "id" : "estate",
+    "columns" : [ "estateActualCode", " estateCode", " estateEntityType", " estateId" ],
+    "ar" : "العقار",
+    "en" : "Estate",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "investmentFund",
+    "column" : "investmentFund_id",
+    "type" : "Reference",
+    "refTo" : "REInvestmentFund",
+    "refPath" : "/modules/realestate/REInvestmentFund.html"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "previousValue",
+    "column" : "previousValue",
+    "ar" : "القيمة السابقة",
+    "en" : "Previous Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "enum" : "ChatMessageStatus",
+  "values" : [ {
+    "id" : "Sent",
+    "ar" : "تم ارساله",
+    "en" : "Sent"
+  }, {
+    "id" : "Delivered",
+    "ar" : "توصيل كلي",
+    "en" : "Totally Delivered"
+  }, {
+    "id" : "Read",
+    "ar" : "تم قراءته",
+    "en" : "Read"
+  }, {
+    "id" : "Failed",
+    "ar" : "فشل",
+    "en" : "Failed"
+  }, {
+    "id" : "Pending",
+    "ar" : "معلق",
+    "en" : "Pending"
+  } ]
+}

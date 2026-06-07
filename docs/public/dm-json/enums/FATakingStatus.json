@@ -1,0 +1,12 @@
+{
+  "enum" : "FATakingStatus",
+  "values" : [ {
+    "id" : "Started",
+    "ar" : "بدأ",
+    "en" : "Started"
+  }, {
+    "id" : "Ended",
+    "ar" : "منهي",
+    "en" : "Ended"
+  } ]
+}

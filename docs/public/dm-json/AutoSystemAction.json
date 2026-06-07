@@ -1,0 +1,33 @@
+{
+  "entity" : "AutoSystemAction",
+  "table" : "AutoSystemAction",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AutoSystemAction.html",
+  "fields" : [ {
+    "id" : "actionDescription",
+    "column" : "actionDescription",
+    "ar" : "الوصف",
+    "en" : "Action description",
+    "type" : "BigText"
+  }, {
+    "id" : "actionName",
+    "column" : "actionName",
+    "ar" : "الحدث",
+    "en" : "Action",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "submissionDate",
+    "column" : "submissionDate",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "targetRecord",
+    "columns" : [ "targetRecordActualCode", " targetRecordCode", " targetRecordEntityType", " targetRecordId" ],
+    "ar" : "السجل",
+    "en" : "Target Record",
+    "type" : "Genericreference"
+  } ]
+}

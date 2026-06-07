@@ -1,0 +1,16 @@
+{
+  "enum" : "AssayContractType",
+  "values" : [ {
+    "id" : "Addendum",
+    "ar" : "ملحق",
+    "en" : "Addendum"
+  }, {
+    "id" : "Contract",
+    "ar" : "عقد",
+    "en" : "Contract"
+  }, {
+    "id" : "ModifyToContract",
+    "ar" : "تعديل لعقد",
+    "en" : "Modify To Contract"
+  } ]
+}

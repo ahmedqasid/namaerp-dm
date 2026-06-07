@@ -1,0 +1,41 @@
+{
+  "entity" : "CustodySysLine",
+  "table" : "CustodySysLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/CustodySysLine.html",
+  "fields" : [ {
+    "id" : "custodyId",
+    "column" : "custodyId",
+    "type" : "ID"
+  }, {
+    "id" : "custodyType",
+    "column" : "custodyType",
+    "ar" : "نوع العهدة",
+    "en" : "Custody Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "remark",
+    "column" : "remark",
+    "ar" : "ملحوظة",
+    "en" : "Remark",
+    "type" : "BigText"
+  } ]
+}

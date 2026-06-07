@@ -1,0 +1,12 @@
+{
+  "enum" : "ContrConcernedParty",
+  "values" : [ {
+    "id" : "ExecutionCompany",
+    "ar" : "الشركة المنفذة",
+    "en" : "Execution Company"
+  }, {
+    "id" : "Customer",
+    "ar" : "عميل",
+    "en" : "Customer"
+  } ]
+}

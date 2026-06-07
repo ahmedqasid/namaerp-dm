@@ -1,0 +1,201 @@
+{
+  "entity" : "POS.POSItemClass7",
+  "table" : "POSItemClass7",
+  "module" : "pos-app",
+  "ar" : "تصنيف صنف 7",
+  "arPlural" : "تصنيفات صنف 7",
+  "en" : "Item class 7",
+  "enPlural" : "Item classes 7",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSItemClass7.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "hasImage",
+    "column" : "hasImage",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "itemClass1",
+    "column" : "itemClass1_id",
+    "ar" : "تصنيف 1",
+    "en" : "Class 1",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass1",
+    "refPath" : "/modules/pos-app/POS.POSItemClass1.html"
+  }, {
+    "id" : "itemClass2",
+    "column" : "itemClass2_id",
+    "ar" : "تصنيف 2",
+    "en" : "Class 2",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass2",
+    "refPath" : "/modules/pos-app/POS.POSItemClass2.html"
+  }, {
+    "id" : "itemClass3",
+    "column" : "itemClass3_id",
+    "ar" : "تصنيف 3",
+    "en" : "Class 3",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass3",
+    "refPath" : "/modules/pos-app/POS.POSItemClass3.html"
+  }, {
+    "id" : "itemClass4",
+    "column" : "itemClass4_id",
+    "ar" : "تصنيف 4",
+    "en" : "Class 4",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass4",
+    "refPath" : "/modules/pos-app/POS.POSItemClass4.html"
+  }, {
+    "id" : "itemClass5",
+    "column" : "itemClass5_id",
+    "ar" : "تصنيف 5",
+    "en" : "Class 5",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass5",
+    "refPath" : "/modules/pos-app/POS.POSItemClass5.html"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "parent",
+    "column" : "parent_id",
+    "ar" : "تصنيف صنف 6",
+    "en" : "Item Class 6",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass6",
+    "refPath" : "/modules/pos-app/POS.POSItemClass6.html"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "section",
+    "column" : "section_id",
+    "ar" : "قسم الصنف",
+    "en" : "Item Section",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemSection",
+    "refPath" : "/modules/pos-app/POS.POSItemSection.html"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ]
+}

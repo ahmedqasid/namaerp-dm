@@ -1,0 +1,12 @@
+{
+  "enum" : "CRMCallDirection",
+  "values" : [ {
+    "id" : "Incoming",
+    "ar" : "مكالمة واردة",
+    "en" : "Incoming"
+  }, {
+    "id" : "Outgoing",
+    "ar" : "مكالمة صادرة",
+    "en" : "Outgoing"
+  } ]
+}

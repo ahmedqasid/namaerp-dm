@@ -1,0 +1,16 @@
+{
+  "enum" : "LinkingLetterType",
+  "values" : [ {
+    "id" : "PreparingLists",
+    "ar" : "إعداد قوائم",
+    "en" : "Preparing Lists"
+  }, {
+    "id" : "AgreedProcedures",
+    "ar" : "تنفيذ إجراءات متفق عليها",
+    "en" : "Agreed Procedures"
+  }, {
+    "id" : "TaskPerformance",
+    "ar" : "أداء مهمة مراجعة",
+    "en" : "Task Performance"
+  } ]
+}

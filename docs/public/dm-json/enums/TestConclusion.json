@@ -1,0 +1,16 @@
+{
+  "enum" : "TestConclusion",
+  "values" : [ {
+    "id" : "Passed",
+    "ar" : "ناجح",
+    "en" : "Passed"
+  }, {
+    "id" : "PartialPassed",
+    "ar" : "ناجح جزئيا",
+    "en" : "Partial Passed"
+  }, {
+    "id" : "Failed",
+    "ar" : "راسب",
+    "en" : "Failed"
+  } ]
+}

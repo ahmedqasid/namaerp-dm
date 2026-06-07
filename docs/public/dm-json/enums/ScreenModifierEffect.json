@@ -1,0 +1,12 @@
+{
+  "enum" : "ScreenModifierEffect",
+  "values" : [ {
+    "id" : "Modify",
+    "ar" : "تعديل",
+    "en" : "Modify"
+  }, {
+    "id" : "Copy",
+    "ar" : "نسخ",
+    "en" : "Copy"
+  } ]
+}

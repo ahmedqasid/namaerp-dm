@@ -1,0 +1,20 @@
+{
+  "enum" : "DiscountUpdaterField",
+  "values" : [ {
+    "id" : "MinDiscount",
+    "ar" : "الحد الأدنى",
+    "en" : "Min Discount"
+  }, {
+    "id" : "MaxDiscount",
+    "ar" : "الحد الأقصى",
+    "en" : "Max Discount"
+  }, {
+    "id" : "DefaultDiscount",
+    "ar" : "الافتراضى",
+    "en" : "Default Discount"
+  }, {
+    "id" : "FixedDiscount",
+    "ar" : "تخفيض ثابت",
+    "en" : "Fixed Discount"
+  } ]
+}

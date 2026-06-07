@@ -1,0 +1,12 @@
+{
+  "enum" : "PickPolicy",
+  "values" : [ {
+    "id" : "Out",
+    "ar" : "خروج",
+    "en" : "Out"
+  }, {
+    "id" : "Reserve",
+    "ar" : "حجز",
+    "en" : "Reserve"
+  } ]
+}

@@ -1,0 +1,73 @@
+{
+  "entity" : "RARentalAssetEntry",
+  "table" : "RARentalAssetEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/RARentalAssetEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "dayPrice",
+    "column" : "dayPrice",
+    "ar" : "سعر اليوم",
+    "en" : "Day Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "fromDateTime",
+    "column" : "fromDateTime",
+    "ar" : "من تاريخ - وقت",
+    "en" : "From Date Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "hourPrice",
+    "column" : "hourPrice",
+    "ar" : "سعر الساعة",
+    "en" : "Hour Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "invoice",
+    "columns" : [ "invoiceActualCode", " invoiceCode", " invoiceEntityType", " invoiceId" ],
+    "ar" : "الفاتورة",
+    "en" : "Invoice",
+    "type" : "Genericreference"
+  }, {
+    "id" : "numOfDays",
+    "column" : "numOfDays",
+    "ar" : "عدد الأيام",
+    "en" : "Number Of Days",
+    "type" : "Decimal"
+  }, {
+    "id" : "numOfHours",
+    "column" : "numOfHours",
+    "ar" : "عدد الساعات",
+    "en" : "Number Of Hours",
+    "type" : "Decimal"
+  }, {
+    "id" : "rentalAsset",
+    "column" : "rentalAsset_id",
+    "ar" : "الأصل المؤجر",
+    "en" : " Rental Asset",
+    "type" : "Reference",
+    "refTo" : "RentalAsset",
+    "refPath" : "/modules/srvcenter-rental-assets/RentalAsset.html"
+  }, {
+    "id" : "toDateTime",
+    "column" : "toDateTime",
+    "ar" : "إلى تاريخ - وقت",
+    "en" : "To Date Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "CriteriaValidatorApplicability",
+  "values" : [ {
+    "id" : "AllScreens",
+    "ar" : "كل الشاشات",
+    "en" : "All Screens"
+  }, {
+    "id" : "MasterFiles",
+    "ar" : "الملفات",
+    "en" : "Master Files"
+  }, {
+    "id" : "Documents",
+    "ar" : "المستندات",
+    "en" : "Documents"
+  } ]
+}

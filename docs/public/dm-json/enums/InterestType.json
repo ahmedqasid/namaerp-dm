@@ -1,0 +1,12 @@
+{
+  "enum" : "InterestType",
+  "values" : [ {
+    "id" : "Simple",
+    "ar" : "بسيط",
+    "en" : "Simple"
+  }, {
+    "id" : "Compound",
+    "ar" : "مركب",
+    "en" : "Compound"
+  } ]
+}

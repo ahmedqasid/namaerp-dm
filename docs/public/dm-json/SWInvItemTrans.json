@@ -1,0 +1,131 @@
+{
+  "entity" : "SWInvItemTrans",
+  "table" : "SWInvItemTrans",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SWInvItemTrans.html",
+  "fields" : [ {
+    "id" : "dimensions.analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "dimensions.branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "dimensions.department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "dimensions.legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "dimensions.sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "inQty",
+    "column" : "inQty",
+    "ar" : "كمية بالداخل",
+    "en" : "In Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "invItemId",
+    "column" : "invItemId",
+    "type" : "ID"
+  }, {
+    "id" : "invoiceId",
+    "column" : "invoiceId",
+    "ar" : "Invoice Id",
+    "en" : "Invoice Id",
+    "type" : "ID"
+  }, {
+    "id" : "invoiceType",
+    "column" : "invoiceType",
+    "ar" : "نوع الفاتورة",
+    "en" : "Invoice Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "originCode",
+    "column" : "originCode",
+    "ar" : " الكود",
+    "en" : " Code",
+    "type" : "Text"
+  }, {
+    "id" : "originCreationDate",
+    "column" : "originCreationDate",
+    "ar" : " تاريخ الإنشاء",
+    "en" : " Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "originId",
+    "column" : "originId",
+    "type" : "ID"
+  }, {
+    "id" : "originLineId",
+    "column" : "originLineId",
+    "type" : "ID"
+  }, {
+    "id" : "originType",
+    "column" : "originType",
+    "ar" : " النوع",
+    "en" : " Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "outQty",
+    "column" : "outQty",
+    "ar" : "الخروج | الكمية",
+    "en" : "Out Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "qtyTranstype",
+    "column" : "qtyTranstype",
+    "type" : "Text"
+  }, {
+    "id" : "remain",
+    "column" : "remain",
+    "ar" : "المتبقي",
+    "en" : "Remaining",
+    "type" : "Decimal"
+  }, {
+    "id" : "revisionId",
+    "column" : "revisionId",
+    "ar" : "الإصدار",
+    "en" : "ID",
+    "type" : "Text"
+  }, {
+    "id" : "searchIndex",
+    "column" : "searchIndex",
+    "type" : "Text"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

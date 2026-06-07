@@ -1,0 +1,28 @@
+{
+  "enum" : "SkillLevel",
+  "values" : [ {
+    "id" : "SkillLevel1",
+    "ar" : "غير موجودة",
+    "en" : "Not Found"
+  }, {
+    "id" : "SkillLevel2",
+    "ar" : "ضعيفة جدا",
+    "en" : "Very Weak"
+  }, {
+    "id" : "SkillLevel3",
+    "ar" : "ضعيفة",
+    "en" : "Weak"
+  }, {
+    "id" : "SkillLevel4",
+    "ar" : "جيدة",
+    "en" : "Good"
+  }, {
+    "id" : "SkillLevel5",
+    "ar" : "جيدة جدا",
+    "en" : "Very Good"
+  }, {
+    "id" : "SkillLevel6",
+    "ar" : "ممتازة",
+    "en" : "Excellent"
+  } ]
+}

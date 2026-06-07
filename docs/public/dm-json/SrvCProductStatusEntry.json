@@ -1,0 +1,63 @@
+{
+  "entity" : "SrvCProductStatusEntry",
+  "table" : "SrvCProductStatusEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SrvCProductStatusEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
+    "id" : "fromStatus",
+    "column" : "fromStatus",
+    "ar" : "من حالة",
+    "en" : "From Status",
+    "type" : "Enum",
+    "enum" : "ProductStatus"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "ownerDoc",
+    "columns" : [ "ownerDocActualCode", " ownerDocCode", " ownerDocEntityType", " ownerDocId" ],
+    "ar" : "المستند",
+    "en" : "Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "product",
+    "column" : "product_id",
+    "ar" : "المنتج",
+    "en" : "Product",
+    "type" : "Reference",
+    "refTo" : "SrvCProduct",
+    "refPath" : "/modules/srvcenter/SrvCProduct.html"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  }, {
+    "id" : "toStatus",
+    "column" : "toStatus",
+    "ar" : "إلى حالة",
+    "en" : "To Status",
+    "type" : "Enum",
+    "enum" : "ProductStatus"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

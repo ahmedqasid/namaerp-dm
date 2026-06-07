@@ -1,0 +1,355 @@
+{
+  "entity" : "POS.POSCustomer",
+  "table" : "POSCustomer",
+  "module" : "pos-app",
+  "ar" : "عميل",
+  "arPlural" : "العملاء",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSCustomer.html",
+  "fields" : [ {
+    "id" : "address",
+    "column" : "address",
+    "ar" : "العنوان",
+    "en" : "Address",
+    "type" : "Text"
+  }, {
+    "id" : "addressRegion",
+    "column" : "addressRegion_id",
+    "ar" : "الموقع الجغرافي",
+    "en" : "Address Region",
+    "type" : "Reference",
+    "refTo" : "POS.PosAddressRegion",
+    "refPath" : "/modules/pos-app/POS.PosAddressRegion.html"
+  }, {
+    "id" : "area",
+    "column" : "area",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "buildingNumber",
+    "column" : "buildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "city",
+    "column" : "city",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "companyType",
+    "column" : "companyType",
+    "ar" : "الكيان القانونى للشركة",
+    "en" : "The legal entity of the company",
+    "type" : "Text"
+  }, {
+    "id" : "countryCode",
+    "column" : "countryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "customerCategory",
+    "column" : "customerCategory_id",
+    "ar" : "تصنيف العميل",
+    "en" : "Customer Category",
+    "type" : "Reference",
+    "refTo" : "POS.POSCustomerCategory",
+    "refPath" : "/modules/pos-app/POS.POSCustomerCategory.html"
+  }, {
+    "id" : "customerClass",
+    "column" : "customerClass_id",
+    "ar" : "فئة العميل",
+    "en" : " Customers' Class",
+    "type" : "Reference",
+    "refTo" : "POS.POSCustomerClass",
+    "refPath" : "/modules/pos-app/POS.POSCustomerClass.html"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "district",
+    "column" : "district",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "landPlotNumber",
+    "column" : "landPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "phoneNumber",
+    "column" : "phoneNumber",
+    "ar" : "رقم الهاتف",
+    "en" : "Phone Number",
+    "type" : "Text"
+  }, {
+    "id" : "postalCode",
+    "column" : "postalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "priceListDefaultPrice",
+    "column" : "priceListDefaultPrice",
+    "ar" : "السعر الافتراضي في قائمة الأسعار",
+    "en" : "Price List Default Price",
+    "type" : "Text"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "remarks",
+    "column" : "remarks",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "Text"
+  }, {
+    "id" : "residency",
+    "column" : "residency",
+    "ar" : "الأقامة",
+    "en" : "Residency",
+    "type" : "Text"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "sent",
+    "column" : "sent",
+    "type" : "Boolean"
+  }, {
+    "id" : "street",
+    "column" : "street",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "taxPlan",
+    "column" : "taxPlan_id",
+    "ar" : " سياسة الضريبة",
+    "en" : " Tax Plan",
+    "type" : "Reference",
+    "refTo" : "POS.POSTaxPlan",
+    "refPath" : "/modules/pos-app/POS.POSTaxPlan.html"
+  }, {
+    "id" : "taxRegNo",
+    "column" : "taxRegNo",
+    "ar" : "رقم التسجيل الضريبى",
+    "en" : "Tax Registeration NO",
+    "type" : "Text"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ]
+}

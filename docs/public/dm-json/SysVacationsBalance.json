@@ -1,0 +1,63 @@
+{
+  "entity" : "SysVacationsBalance",
+  "table" : "SysVacationsBalance",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SysVacationsBalance.html",
+  "fields" : [ {
+    "id" : "balance",
+    "column" : "balance",
+    "ar" : "الرصيد",
+    "en" : "Balance",
+    "type" : "Decimal"
+  }, {
+    "id" : "consumed",
+    "column" : "consumed",
+    "ar" : "المستهلك",
+    "en" : "Consumed",
+    "type" : "Decimal"
+  }, {
+    "id" : "currentYear",
+    "column" : "currentYear",
+    "ar" : "السنة الحالية",
+    "en" : "Current Year",
+    "type" : "Boolean"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "migratedFromPrevYear",
+    "column" : "migratedFromPrevYear",
+    "type" : "Decimal"
+  }, {
+    "id" : "remainder",
+    "column" : "remainder",
+    "ar" : "المتبقي",
+    "en" : "Remainder",
+    "type" : "Decimal"
+  }, {
+    "id" : "vacationType",
+    "column" : "vacationType_id",
+    "ar" : "نوع الأجازة",
+    "en" : "Vacation Type",
+    "type" : "Reference",
+    "refTo" : "VacationType",
+    "refPath" : "/modules/humanresource-payroll/VacationType.html"
+  }, {
+    "id" : "year",
+    "column" : "year_id",
+    "ar" : "السنة",
+    "en" : "Year",
+    "type" : "Reference",
+    "refTo" : "HRYear",
+    "refPath" : "/modules/humanresource-payroll/HRYear.html"
+  } ]
+}

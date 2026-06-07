@@ -1,0 +1,12 @@
+{
+  "enum" : "FillByAI",
+  "values" : [ {
+    "id" : "FillByAI",
+    "ar" : "Fill By AI",
+    "en" : "Fill By AI"
+  }, {
+    "id" : "FillManually",
+    "ar" : "Fill Manually",
+    "en" : "Fill Manually"
+  } ]
+}

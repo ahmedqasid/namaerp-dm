@@ -1,0 +1,36 @@
+{
+  "enum" : "PurchaseQuotationRequestStatus",
+  "values" : [ {
+    "id" : "InProgress",
+    "ar" : "قيد التنفيذ",
+    "en" : "In Progress"
+  }, {
+    "id" : "Expired",
+    "ar" : "منتهي الصلاحية",
+    "en" : "Expired"
+  }, {
+    "id" : "Canceled",
+    "ar" : "ألغيت",
+    "en" : "Canceled"
+  }, {
+    "id" : "Satisfied",
+    "ar" : "مكتمل",
+    "en" : "Satisfied"
+  }, {
+    "id" : "Unsatisfied",
+    "ar" : "غير مكتمل",
+    "en" : "Unsatisfied"
+  }, {
+    "id" : "Received",
+    "ar" : "تم تسليمه",
+    "en" : "Received"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  } ]
+}

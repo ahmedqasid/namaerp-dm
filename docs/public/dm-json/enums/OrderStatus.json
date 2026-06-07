@@ -1,0 +1,48 @@
+{
+  "enum" : "OrderStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Approved",
+    "ar" : " مقبول",
+    "en" : "Approved"
+  }, {
+    "id" : "Shipped",
+    "ar" : "تم شحنه",
+    "en" : "Shipped"
+  }, {
+    "id" : "Delivered",
+    "ar" : "توصيل كلي",
+    "en" : "Totally Delivered"
+  }, {
+    "id" : "InProgress",
+    "ar" : "قيد التنفيذ",
+    "en" : "In Progress"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  }, {
+    "id" : "Canceled",
+    "ar" : "ألغيت",
+    "en" : "Canceled"
+  }, {
+    "id" : "ManuallyFinished",
+    "ar" : "منتهي يدويا",
+    "en" : "Manually Finished"
+  }, {
+    "id" : "Stopped",
+    "ar" : "موقوف يدويا",
+    "en" : "Manually Stopped"
+  }, {
+    "id" : "Packaged",
+    "ar" : "تم التعبئة",
+    "en" : "Packaged"
+  }, {
+    "id" : "InPreparation",
+    "ar" : "قيد التحضير",
+    "en" : "In Preparation"
+  } ]
+}

@@ -1,0 +1,357 @@
+{
+  "entity" : "CPAProjReturnLine",
+  "table" : "CPAProjReturnLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/CPAProjReturnLine.html",
+  "fields" : [ {
+    "id" : "amount.localAmount",
+    "column" : "amountLocalAmount",
+    "ar" : "المبلغ محلي",
+    "en" : "Local Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "amount.rate",
+    "column" : "amountRate",
+    "ar" : "المعدل",
+    "en" : "Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "amount.value.amount",
+    "column" : "amountValueAmount",
+    "ar" : " المبلغ",
+    "en" : " Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "amount.value.currency",
+    "column" : "amountValueCurrency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "attachment",
+    "column" : "attachment_id",
+    "ar" : "مرفق",
+    "en" : "Attachment",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "dimensions.analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "dimensions.branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "dimensions.department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "dimensions.legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "dimensions.sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "expenseItem",
+    "column" : "expenseItem_id",
+    "ar" : "بند مصروف",
+    "en" : "Expense Item",
+    "type" : "Reference",
+    "refTo" : "CPAProjectExpenseItem",
+    "refPath" : "/modules/ecpa/CPAProjectExpenseItem.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "linesIds",
+    "column" : "linesIds",
+    "type" : "BigText"
+  }, {
+    "id" : "mileStone",
+    "column" : "mileStone_id",
+    "ar" : "المرحلة",
+    "en" : "Milestone",
+    "type" : "Reference",
+    "refTo" : "CPAProjectMileStone",
+    "refPath" : "/modules/ecpa/CPAProjectMileStone.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.actualVal",
+    "column" : "actualVal",
+    "ar" : "القيمة الفعلية",
+    "en" : "Actual Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.calculatedVal",
+    "column" : "calculatedVal",
+    "ar" : "القيمة المحسوبة",
+    "en" : "Calculated Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount1.afterValue",
+    "column" : "dis1AfterValue",
+    "ar" : "خصم 1 | صافي",
+    "en" : "Discount 1 | After value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount1.maxNormalPercent",
+    "column" : "dis1MaxNormalPercent",
+    "ar" : "خصم 1 | النسبة العادية",
+    "en" : "Discount 1 | Normal Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount1.percentage",
+    "column" : "dis1Percentage",
+    "ar" : "خصم 1 | %",
+    "en" : "Discount 1 | %",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount1.value",
+    "column" : "dis1Value",
+    "ar" : "خصم 1 | قيمة",
+    "en" : "Discount 1 | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount2.afterValue",
+    "column" : "dis2AfterValue",
+    "ar" : "خصم 2 | صافي",
+    "en" : "Discount 2 | After value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount2.maxNormalPercent",
+    "column" : "dis2MaxNormalPercent",
+    "ar" : "خصم 2 | النسبة العادية",
+    "en" : "Discount 2 | Normal Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount2.percentage",
+    "column" : "dis2Percentage",
+    "ar" : "خصم 2 | %",
+    "en" : "Discount 2 | %",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount2.value",
+    "column" : "dis2Value",
+    "ar" : "خصم 2 | قيمة",
+    "en" : "Discount 2 | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount3.afterValue",
+    "column" : "dis3AfterValue",
+    "ar" : "خصم 3 | صافي",
+    "en" : "Discount 3 | After value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount3.maxNormalPercent",
+    "column" : "dis3MaxNormalPercent",
+    "ar" : "خصم 3 | النسبة العادية",
+    "en" : "Discount 3 | Normal Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount3.percentage",
+    "column" : "dis3Percentage",
+    "ar" : "خصم 3 | %",
+    "en" : "Discount 3 | %",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount3.value",
+    "column" : "dis3Value",
+    "ar" : "خصم 3 | قيمة",
+    "en" : "Discount 3 | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount4.afterValue",
+    "column" : "dis4AfterValue",
+    "ar" : "خصم 4 | صافي",
+    "en" : "Discount 4 | After value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount4.maxNormalPercent",
+    "column" : "dis4MaxNormalPercent",
+    "ar" : "خصم 4 | النسبة العادية",
+    "en" : "Discount 4 | Normal Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount4.percentage",
+    "column" : "dis4Percentage",
+    "ar" : "خصم 4 | %",
+    "en" : "Discount 4 | %",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount4.value",
+    "column" : "dis4Value",
+    "ar" : "خصم 4 | قيمة",
+    "en" : "Discount 4 | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.netValue",
+    "column" : "netValue",
+    "ar" : "الصافي",
+    "en" : "Net value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.taxPercentage",
+    "column" : "taxPercentage",
+    "ar" : "الضريبة | % الضريبة",
+    "en" : "Tax | %",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.taxPercentage2",
+    "column" : "taxPercentage2",
+    "ar" : "ضريبة 2 | نسبة",
+    "en" : "Tax 2 | percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.taxPercentage3",
+    "column" : "taxPercentage3",
+    "ar" : "ضريبة 3 | نسبة",
+    "en" : "Tax 3 | percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.taxPercentage4",
+    "column" : "taxPercentage4",
+    "ar" : "ضريبة 4 | نسبة",
+    "en" : "Tax 4 | percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.taxValue",
+    "column" : "taxValue",
+    "ar" : "الضريبة | قيمة الضريبة",
+    "en" : "Tax | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.taxValue2",
+    "column" : "taxValue2",
+    "ar" : "ضريبة 2 | قيمة",
+    "en" : "Tax 2 | value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.taxValue3",
+    "column" : "taxValue3",
+    "ar" : "ضريبة 3 | قيمة",
+    "en" : "Tax 3 | value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.taxValue4",
+    "column" : "taxValue4",
+    "ar" : "ضريبة 4 | قيمة",
+    "en" : "Tax 4 | value",
+    "type" : "Decimal"
+  }, {
+    "id" : "project",
+    "column" : "project_id",
+    "ar" : "المشروع",
+    "en" : "Project",
+    "type" : "Reference",
+    "refTo" : "CPAProject",
+    "refPath" : "/modules/ecpa/CPAProject.html"
+  }, {
+    "id" : "remarks",
+    "column" : "remarks",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "task",
+    "column" : "task_id",
+    "ar" : "المهمة",
+    "en" : "Task",
+    "type" : "Reference",
+    "refTo" : "CPATask",
+    "refPath" : "/modules/ecpa/CPATask.html"
+  }, {
+    "id" : "text1",
+    "column" : "text1",
+    "ar" : "نــــص 1",
+    "en" : "Text 1",
+    "type" : "Text"
+  }, {
+    "id" : "text2",
+    "column" : "text2",
+    "ar" : "نـــــص 2",
+    "en" : "Text 2",
+    "type" : "Text"
+  }, {
+    "id" : "text3",
+    "column" : "text3",
+    "ar" : "نص 3",
+    "en" : "text3",
+    "type" : "Text"
+  }, {
+    "id" : "text4",
+    "column" : "text4",
+    "ar" : "نص 4",
+    "en" : "text4",
+    "type" : "Text"
+  }, {
+    "id" : "text5",
+    "column" : "text5",
+    "ar" : "نص 5",
+    "en" : "text5",
+    "type" : "Text"
+  } ]
+}

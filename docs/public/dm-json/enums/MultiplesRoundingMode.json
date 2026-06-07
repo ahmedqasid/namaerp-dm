@@ -1,0 +1,16 @@
+{
+  "enum" : "MultiplesRoundingMode",
+  "values" : [ {
+    "id" : "CEILING",
+    "ar" : "التقريب لأعلى",
+    "en" : "CEILING"
+  }, {
+    "id" : "FLOOR",
+    "ar" : "التقريب لأسفل",
+    "en" : "FLOOR"
+  }, {
+    "id" : "HALF_UP",
+    "ar" : "لأقرب رقم",
+    "en" : "HALF_UP"
+  } ]
+}

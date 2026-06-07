@@ -1,0 +1,36 @@
+{
+  "enum" : "ParamType",
+  "values" : [ {
+    "id" : "Text",
+    "ar" : "نص",
+    "en" : "Text"
+  }, {
+    "id" : "Integer",
+    "ar" : "رقم صحيح",
+    "en" : "Integer"
+  }, {
+    "id" : "Long",
+    "ar" : "Long",
+    "en" : "Long"
+  }, {
+    "id" : "Decimal",
+    "ar" : "رقم كسر",
+    "en" : "Decimal"
+  }, {
+    "id" : "Reference",
+    "ar" : "Reference",
+    "en" : "Reference"
+  }, {
+    "id" : "Date",
+    "ar" : "تاريخ",
+    "en" : "Date"
+  }, {
+    "id" : "DateAndTime",
+    "ar" : "الوقت والتاريخ",
+    "en" : "Date And Time"
+  }, {
+    "id" : "Time",
+    "ar" : "وقت",
+    "en" : "Time"
+  } ]
+}

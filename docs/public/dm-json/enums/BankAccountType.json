@@ -1,0 +1,20 @@
+{
+  "enum" : "BankAccountType",
+  "values" : [ {
+    "id" : "CurrentAccount",
+    "ar" : "حساب جاري",
+    "en" : "Current Account"
+  }, {
+    "id" : "DebitAccount",
+    "ar" : "جاري مدين",
+    "en" : "Debit Account"
+  }, {
+    "id" : "InvestmentAccount",
+    "ar" : "استثماري",
+    "en" : "Investment Account"
+  }, {
+    "id" : "MediatorAccount",
+    "ar" : "حساب وسيط",
+    "en" : "Mediator Account"
+  } ]
+}

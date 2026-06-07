@@ -1,0 +1,12 @@
+{
+  "enum" : "RESalesPriceListType",
+  "values" : [ {
+    "id" : "RESalesPrice",
+    "ar" : "بيع عقار",
+    "en" : "RE Sales Price"
+  }, {
+    "id" : "RERentPrice",
+    "ar" : "إيجار عقار",
+    "en" : "RE Rent Price"
+  } ]
+}

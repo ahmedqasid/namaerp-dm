@@ -1,0 +1,20 @@
+{
+  "enum" : "ExchangeRateType",
+  "values" : [ {
+    "id" : "Annual",
+    "ar" : "سنوى",
+    "en" : "Annual"
+  }, {
+    "id" : "Period",
+    "ar" : "فترة",
+    "en" : "Period"
+  }, {
+    "id" : "Daily",
+    "ar" : "يومي",
+    "en" : "Daily"
+  }, {
+    "id" : "DateRange",
+    "ar" : "من تاريخ لتاريخ",
+    "en" : "Date Range"
+  } ]
+}

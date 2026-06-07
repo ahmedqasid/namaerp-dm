@@ -1,0 +1,12 @@
+{
+  "enum" : "RepLaunchType",
+  "values" : [ {
+    "id" : "Direct",
+    "ar" : "مباشر",
+    "en" : "Direct"
+  }, {
+    "id" : "WithParamter",
+    "ar" : "طلب مدخلات",
+    "en" : "WithParamter"
+  } ]
+}

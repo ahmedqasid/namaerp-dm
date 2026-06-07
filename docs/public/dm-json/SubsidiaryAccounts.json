@@ -1,0 +1,203 @@
+{
+  "entity" : "SubsidiaryAccounts",
+  "table" : "SubsidiaryAccounts",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SubsidiaryAccounts.html",
+  "fields" : [ {
+    "id" : "accounts.account1",
+    "column" : "account1_id",
+    "ar" : " حساب 01",
+    "en" : " Account 01",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account10",
+    "column" : "account10_id",
+    "ar" : " حساب 10",
+    "en" : " Account 10",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account11",
+    "column" : "account11_id",
+    "ar" : " حساب 11",
+    "en" : " Account 11",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account12",
+    "column" : "account12_id",
+    "ar" : " حساب 12",
+    "en" : " Account 12",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account13",
+    "column" : "account13_id",
+    "ar" : " حساب 13",
+    "en" : " Account 13",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account14",
+    "column" : "account14_id",
+    "ar" : " حساب 14",
+    "en" : " Account 14",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account15",
+    "column" : "account15_id",
+    "ar" : " حساب 15",
+    "en" : " Account 15",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account16",
+    "column" : "account16_id",
+    "ar" : " حساب 16",
+    "en" : " Account 16",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account17",
+    "column" : "account17_id",
+    "ar" : " حساب 17",
+    "en" : " Account 17",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account18",
+    "column" : "account18_id",
+    "ar" : " حساب 18",
+    "en" : " Account 18",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account19",
+    "column" : "account19_id",
+    "ar" : " حساب 19",
+    "en" : " Account 19",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account2",
+    "column" : "account2_id",
+    "ar" : " حساب 02",
+    "en" : " Account 02",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account20",
+    "column" : "account20_id",
+    "ar" : " حساب 20",
+    "en" : " Account 20",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account3",
+    "column" : "account3_id",
+    "ar" : " حساب 03",
+    "en" : " Account 03",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account4",
+    "column" : "account4_id",
+    "ar" : " حساب 04",
+    "en" : " Account 04",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account5",
+    "column" : "account5_id",
+    "ar" : " حساب 05",
+    "en" : " Account 05",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account6",
+    "column" : "account6_id",
+    "ar" : " حساب 06",
+    "en" : " Account 06",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account7",
+    "column" : "account7_id",
+    "ar" : " حساب 07",
+    "en" : " Account 07",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account8",
+    "column" : "account8_id",
+    "ar" : " حساب 08",
+    "en" : " Account 08",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.account9",
+    "column" : "account9_id",
+    "ar" : " حساب 09",
+    "en" : " Account 09",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "accounts.accountsBag",
+    "column" : "accountsBag_id",
+    "ar" : " حقيبة حسابات",
+    "en" : " Accounts Bag",
+    "type" : "Reference",
+    "refTo" : "AccountsBag",
+    "refPath" : "/modules/basic/AccountsBag.html"
+  }, {
+    "id" : "accounts.mainAccount",
+    "column" : "mainAccount_id",
+    "ar" : " الحساب الرئيسي",
+    "en" : " Main Account",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lineNumber",
+    "column" : "lineNumber",
+    "ar" : "رقم السطر",
+    "en" : "Line Number",
+    "type" : "Integer"
+  }, {
+    "id" : "refId",
+    "column" : "refId",
+    "type" : "ID"
+  }, {
+    "id" : "subsidiary",
+    "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+    "ar" : "الذمة",
+    "en" : "Subsidiary",
+    "type" : "Genericreference"
+  } ]
+}

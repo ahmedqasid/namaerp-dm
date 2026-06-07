@@ -1,0 +1,32 @@
+{
+  "enum" : "CPAProcedureStatus",
+  "values" : [ {
+    "id" : "UnderProcessing",
+    "ar" : "تحت التشغيل",
+    "en" : "Under Processing"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  }, {
+    "id" : "PostPoned",
+    "ar" : "مؤجلة",
+    "en" : "PostPoned"
+  }, {
+    "id" : "NotStarted",
+    "ar" : "لم تبدأ",
+    "en" : "Not Started"
+  }, {
+    "id" : "NotResponsible",
+    "ar" : "غير مسؤولين عنه",
+    "en" : "Not Responsible"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  }, {
+    "id" : "OpeningDate",
+    "ar" : "معاد فتحه",
+    "en" : "Opening Date"
+  } ]
+}

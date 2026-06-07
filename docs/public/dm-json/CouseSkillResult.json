@@ -1,0 +1,26 @@
+{
+  "entity" : "CouseSkillResult",
+  "table" : "CouseSkillResult",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/CouseSkillResult.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "level",
+    "column" : "level",
+    "ar" : "المستوى",
+    "en" : "Level",
+    "type" : "Enum",
+    "enum" : "SkillLevel"
+  }, {
+    "id" : "skill",
+    "column" : "skill_id",
+    "ar" : "المهارة",
+    "en" : "Skill",
+    "type" : "Reference",
+    "refTo" : "HRSkill",
+    "refPath" : "/modules/basic/HRSkill.html"
+  } ]
+}

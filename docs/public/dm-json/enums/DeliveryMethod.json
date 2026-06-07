@@ -1,0 +1,16 @@
+{
+  "enum" : "DeliveryMethod",
+  "values" : [ {
+    "id" : "Instructor",
+    "ar" : "مدرب",
+    "en" : "Instructor"
+  }, {
+    "id" : "SelfStudy",
+    "ar" : "دراسة ذاتية",
+    "en" : "Self-Study"
+  }, {
+    "id" : "OnJobTraining",
+    "ar" : "تدريب أثناء العمل",
+    "en" : "On Job Training"
+  } ]
+}

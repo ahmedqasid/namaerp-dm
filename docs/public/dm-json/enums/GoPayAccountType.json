@@ -1,0 +1,12 @@
+{
+  "enum" : "GoPayAccountType",
+  "values" : [ {
+    "id" : "NORMAL",
+    "ar" : "NORMAL",
+    "en" : "NORMAL"
+  }, {
+    "id" : "SADAD",
+    "ar" : "SADAD",
+    "en" : "SADAD"
+  } ]
+}

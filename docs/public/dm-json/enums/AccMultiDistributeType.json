@@ -1,0 +1,16 @@
+{
+  "enum" : "AccMultiDistributeType",
+  "values" : [ {
+    "id" : "FirstMatchingtOnly",
+    "ar" : "أول سطر مطابق",
+    "en" : "First Matchingt Only"
+  }, {
+    "id" : "AllMatchingConsecutively",
+    "ar" : "توزيع بكل السطور المطابقة على التوالي",
+    "en" : "All Matching Consecutively"
+  }, {
+    "id" : "AllMatchingConsecutivelyConsiderOrder",
+    "ar" : "توزيع بكل السطور المطابقة على التوالي مع مراعاة الترتيب",
+    "en" : "All Matching Consecutively Consider Order"
+  } ]
+}

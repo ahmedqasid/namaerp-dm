@@ -1,0 +1,31 @@
+{
+  "entity" : "MCConfigLine",
+  "table" : "MCConfigLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/MCConfigLine.html",
+  "fields" : [ {
+    "id" : "doNotAllowResidencyAllowance",
+    "column" : "doNotAllowResidencyAllowance",
+    "ar" : "عدم السماح بصرف بدل اقامة",
+    "en" : "Don't Allow Residency Allowance",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotAllowTravellingAllowance",
+    "column" : "doNotAllowTravellingAllowance",
+    "ar" : "عدم السماح بصرف بدل  تذاكر سفر وانتقال",
+    "en" : "Don't Allow Travelling Allowance",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "nationality",
+    "column" : "nationality_id",
+    "ar" : "الجنسية",
+    "en" : "Nationality",
+    "type" : "Reference",
+    "refTo" : "Nationality",
+    "refPath" : "/modules/basic/Nationality.html"
+  } ]
+}

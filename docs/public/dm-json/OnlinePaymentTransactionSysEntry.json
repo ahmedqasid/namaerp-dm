@@ -1,0 +1,120 @@
+{
+  "entity" : "OnlinePaymentTransactionSysEntry",
+  "table" : "OnlinePaymentTransactionSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/OnlinePaymentTransactionSysEntry.html",
+  "fields" : [ {
+    "id" : "authorizationNumber",
+    "column" : "authorizationNumber",
+    "ar" : "رقم العملية",
+    "en" : "Authorization Number",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "document",
+    "columns" : [ "documentActualCode", " documentCode", " documentEntityType", " documentId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "invoiceId",
+    "column" : "invoiceId",
+    "ar" : "Invoice Id",
+    "en" : "Invoice Id",
+    "type" : "Text"
+  }, {
+    "id" : "linkStatus",
+    "column" : "linkStatus",
+    "ar" : "Link Status",
+    "en" : "Link Status",
+    "type" : "Enum",
+    "enum" : "OnlinePaymentLinkStatus"
+  }, {
+    "id" : "onlinePaymentConfig",
+    "columns" : [ "onlinePaymentConfigActualCode", " onlinePaymentConfigCode", " onlinePaymentConfigEntityType", " onlinePaymentConfigId" ],
+    "ar" : " Online Payment Configuration",
+    "en" : " Online Payment Configuration",
+    "type" : "Genericreference"
+  }, {
+    "id" : "paidAmount",
+    "column" : "paidAmount",
+    "ar" : "المبلغ المسدد",
+    "en" : "Paid Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "paymentId",
+    "column" : "paymentId",
+    "ar" : "Payment Id",
+    "en" : "Payment Id",
+    "type" : "Text"
+  }, {
+    "id" : "ref",
+    "column" : "ref",
+    "ar" : "ref",
+    "en" : "ref",
+    "type" : "Text"
+  }, {
+    "id" : "trackId",
+    "column" : "trackId",
+    "ar" : "Track Id",
+    "en" : "Track Id",
+    "type" : "Text"
+  }, {
+    "id" : "transactionDate",
+    "column" : "transactionDate",
+    "ar" : "Transaction Date",
+    "en" : "Transaction Date",
+    "type" : "Text"
+  }, {
+    "id" : "transactionId",
+    "column" : "transactionId",
+    "ar" : "رقم العملية",
+    "en" : "Transaction ID",
+    "type" : "Text"
+  }, {
+    "id" : "transactionStatus",
+    "column" : "transactionStatus",
+    "ar" : "Transaction Status",
+    "en" : "Transaction Status",
+    "type" : "Text"
+  }, {
+    "id" : "udf1",
+    "column" : "udf1",
+    "ar" : "udf1",
+    "en" : "udf1",
+    "type" : "Text"
+  }, {
+    "id" : "udf2",
+    "column" : "udf2",
+    "ar" : "udf2",
+    "en" : "udf2",
+    "type" : "Text"
+  }, {
+    "id" : "udf3",
+    "column" : "udf3",
+    "ar" : "udf3",
+    "en" : "udf3",
+    "type" : "Text"
+  }, {
+    "id" : "udf4",
+    "column" : "udf4",
+    "ar" : "udf4",
+    "en" : "udf4",
+    "type" : "Text"
+  }, {
+    "id" : "udf5",
+    "column" : "udf5",
+    "ar" : "udf5",
+    "en" : "udf5",
+    "type" : "Text"
+  } ]
+}

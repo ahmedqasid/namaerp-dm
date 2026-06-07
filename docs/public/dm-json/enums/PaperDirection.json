@@ -1,0 +1,12 @@
+{
+  "enum" : "PaperDirection",
+  "values" : [ {
+    "id" : "Received",
+    "ar" : "واردة",
+    "en" : "Received"
+  }, {
+    "id" : "Issued",
+    "ar" : "صادرة",
+    "en" : "Issued"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "FSOpenningEquation",
+  "values" : [ {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  }, {
+    "id" : "OpenningBalanceAtTheFirstPeriod",
+    "ar" : "الرصيد الإفتتاحى لأول فترة",
+    "en" : "Openning Balance At The First Period"
+  } ]
+}

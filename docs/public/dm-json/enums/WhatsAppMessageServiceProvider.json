@@ -1,0 +1,32 @@
+{
+  "enum" : "WhatsAppMessageServiceProvider",
+  "values" : [ {
+    "id" : "Unifonic",
+    "ar" : "Unifonic",
+    "en" : "Unifonic"
+  }, {
+    "id" : "Rasayel",
+    "ar" : "Rasayel",
+    "en" : "Rasayel"
+  }, {
+    "id" : "Wati",
+    "ar" : "Wati",
+    "en" : "Wati"
+  }, {
+    "id" : "Morasalaty",
+    "ar" : "Morasalaty",
+    "en" : "Morasalaty"
+  }, {
+    "id" : "WaApi",
+    "ar" : "WaApi",
+    "en" : "WaApi"
+  }, {
+    "id" : "UltraMsg",
+    "ar" : "UltraMsg",
+    "en" : "UltraMsg"
+  }, {
+    "id" : "WaPilot",
+    "ar" : "WaPilot.net",
+    "en" : "WaPilot.net"
+  } ]
+}

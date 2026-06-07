@@ -1,0 +1,12 @@
+{
+  "enum" : "PaymentsType",
+  "values" : [ {
+    "id" : "VariablePayments",
+    "ar" : "دفعات متغيرة",
+    "en" : "Variable Payments"
+  }, {
+    "id" : "EqualsPayments",
+    "ar" : "دفعات متساوية",
+    "en" : "Typical Payments"
+  } ]
+}

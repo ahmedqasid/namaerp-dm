@@ -1,0 +1,989 @@
+{
+  "entity" : "CarInsuranceAddingDoc",
+  "table" : "CarInsuranceAddingDoc",
+  "module" : "humanresource-car-insurance",
+  "ar" : "سند إضافة تأمين سيارات",
+  "arPlural" : "سندات إضافة تأمين سيارات",
+  "en" : "Car Insurance Adding Document",
+  "enPlural" : "Car Insurance Adding Documents",
+  "page" : "https://dm.namasoft.com/modules/humanresource-car-insurance/CarInsuranceAddingDoc.html",
+  "fields" : [ {
+    "id" : "addDriverInsurance",
+    "column" : "addDriverInsurance",
+    "ar" : "إضافة تأمين السائق",
+    "en" : "Add Driver Insurance",
+    "type" : "Boolean"
+  }, {
+    "id" : "addPassengersInsurance",
+    "column" : "addPassengersInsurance",
+    "ar" : "إضافة تأمين الركاب",
+    "en" : "Add Passengers Insurance",
+    "type" : "Boolean"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "basedOnRequest",
+    "columns" : [ "basedOnRequestActualCode", " basedOnRequestCode", " basedOnRequestEntityType", " basedOnRequestId" ],
+    "ar" : "بناءا على طلب",
+    "en" : "Based On Request",
+    "type" : "Genericreference"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
+  }, {
+    "id" : "carInsurancePolicy",
+    "column" : "carInsurancePolicy_id",
+    "ar" : "بوليصة تأمين سيارات",
+    "en" : "Cars Insurance Policy",
+    "type" : "Reference",
+    "refTo" : "CarInsurancePolicy",
+    "refPath" : "/modules/humanresource-car-insurance/CarInsurancePolicy.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
+    "id" : "discount",
+    "column" : "discount",
+    "ar" : "التخفيض",
+    "en" : "Discount",
+    "type" : "Decimal"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "feesTaxes",
+    "column" : "feesTaxes",
+    "ar" : "ضرائب على الرسوم",
+    "en" : "Fees Taxes",
+    "type" : "Decimal"
+  }, {
+    "id" : "feesValue",
+    "column" : "feesValue",
+    "ar" : "قيمة الرسوم",
+    "en" : "Fees Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "insuranceCompany",
+    "column" : "insuranceCompany_id",
+    "ar" : "شركة التأمين",
+    "en" : "Insurance Company",
+    "type" : "Reference",
+    "refTo" : "ThirdParty",
+    "refPath" : "/modules/basic/ThirdParty.html"
+  }, {
+    "id" : "insurancePeriod.end",
+    "column" : "insurancePeriodEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "insurancePeriod.issue",
+    "column" : "insurancePeriodIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "insurancePeriod.number",
+    "column" : "insurancePeriodNumber",
+    "ar" : "رقم",
+    "en" : "Number",
+    "type" : "Text"
+  }, {
+    "id" : "insuranceType",
+    "column" : "insuranceType",
+    "ar" : "نوع التأمين",
+    "en" : "Insurance Type",
+    "type" : "Enum",
+    "enum" : "InsuranceType"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "ledgerTransReqId",
+    "column" : "ledgerTransReqId",
+    "type" : "ID"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "maintenanceType",
+    "column" : "maintenanceType",
+    "ar" : "نوع  الصيانة",
+    "en" : "Maintenance  type",
+    "type" : "Enum",
+    "enum" : "MaintenanceType"
+  }, {
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "netValue",
+    "column" : "netValue",
+    "ar" : "الصافي",
+    "en" : "Net value",
+    "type" : "Decimal"
+  }, {
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "policyNetValueAfterTaxes",
+    "column" : "policyNetValueAfterTaxes",
+    "ar" : "صافي قيمة البوليصة بعد الضرائب",
+    "en" : "Policy Net Value After Taxes",
+    "type" : "Decimal"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "requestType",
+    "column" : "requestType",
+    "ar" : "نوع الطلب",
+    "en" : "Reqyest Type",
+    "type" : "Enum",
+    "enum" : "RequestType"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "subsidiary",
+    "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+    "ar" : "الذمة",
+    "en" : "Subsidiary",
+    "type" : "Genericreference"
+  }, {
+    "id" : "tax",
+    "column" : "tax",
+    "ar" : "الضريبة",
+    "en" : "Tax",
+    "type" : "Decimal"
+  }, {
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
+    "type" : "BigText"
+  }, {
+    "id" : "totalAddedCarsInsurance",
+    "column" : "totalAddedCarsInsurance",
+    "ar" : "اجمالى تأمين السيارات المضافة بعد الخصم",
+    "en" : "Total Added Cars Insurance After Discount",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalEstimatedPrice",
+    "column" : "totalEstimatedPrice",
+    "ar" : "إجمالي السعر التقديري",
+    "en" : "Total Estimated Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalTaxes",
+    "column" : "totalTaxes",
+    "ar" : "إجمالي الضرائب",
+    "en" : "Total Taxes",
+    "type" : "Decimal"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "details",
+    "table" : "CarInsuranceAddingDocLine",
+    "joinColumn" : "carInsuranceAddingDoc_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "fields" : [ {
+      "id" : "details.addDriverInsurance",
+      "column" : "addDriverInsurance",
+      "ar" : "إضافة تأمين السائق",
+      "en" : "Add Driver Insurance",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.addPassengersInsurance",
+      "column" : "addPassengersInsurance",
+      "ar" : "إضافة تأمين الركاب",
+      "en" : "Add Passengers Insurance",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.car",
+      "column" : "car_id",
+      "ar" : "السيارة",
+      "en" : "Car",
+      "type" : "Reference",
+      "refTo" : "Car",
+      "refPath" : "/modules/basic/Car.html"
+    }, {
+      "id" : "details.carBrand",
+      "column" : "carBrand_id",
+      "ar" : "ماركة السياره",
+      "en" : "Car Brand",
+      "type" : "Reference",
+      "refTo" : "CarBrand",
+      "refPath" : "/modules/basic/CarBrand.html"
+    }, {
+      "id" : "details.carModel",
+      "column" : "carModel_id",
+      "ar" : "موديل السيارة",
+      "en" : "Car Model",
+      "type" : "Reference",
+      "refTo" : "CarModel",
+      "refPath" : "/modules/basic/CarModel.html"
+    }, {
+      "id" : "details.carType",
+      "column" : "carType",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Enum",
+      "enum" : "CarType"
+    }, {
+      "id" : "details.chassisNumber",
+      "column" : "chassisNumber",
+      "ar" : "رقم الهيكل",
+      "en" : "Chassis Number",
+      "type" : "Text"
+    }, {
+      "id" : "details.color",
+      "column" : "color",
+      "ar" : "اللون",
+      "en" : "Color",
+      "type" : "Enum",
+      "enum" : "Color"
+    }, {
+      "id" : "details.dayCost",
+      "column" : "dayCost",
+      "ar" : "تكلفة اليوم",
+      "en" : "Day Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.daysCount",
+      "column" : "daysCount",
+      "ar" : "الأجر اليومى | عدد الأيام",
+      "en" : "Daily Wage | Days Count",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.discount.percent",
+      "column" : "discountPercent",
+      "ar" : "الخصم | النسبه",
+      "en" : "Discount | Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.discount.value",
+      "column" : "discountValue",
+      "ar" : "الخصم | القيمة",
+      "en" : "Discount | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.driverInsuranceValue",
+      "column" : "driverInsuranceValue",
+      "ar" : "التأمين | تأمين السائق",
+      "en" : "Driver Insurance Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.estimatedPrice",
+      "column" : "estimatedPrice",
+      "ar" : "السعر",
+      "en" : "Estimated Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.insuranceAddedValue",
+      "column" : "insuranceAddedValue",
+      "ar" : "قيمة التأمين المضافة",
+      "en" : "Insurance Added Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.insuranceDoc.end",
+      "column" : "insuranceDocEnd",
+      "ar" : "تاريخ الأنتهاء",
+      "en" : "End at",
+      "type" : "Date"
+    }, {
+      "id" : "details.insuranceDoc.issue",
+      "column" : "insuranceDocIssue",
+      "ar" : "تاريخ الإصدار",
+      "en" : "Issue",
+      "type" : "Date"
+    }, {
+      "id" : "details.insuranceDoc.number",
+      "column" : "insuranceDocNumber",
+      "ar" : "رقم",
+      "en" : "Number",
+      "type" : "Text"
+    }, {
+      "id" : "details.insurancePerInsurancePercent",
+      "column" : "insurancePerInsurancePercent",
+      "ar" : "التأمين | التأمين وفقا لنسبة التأمين",
+      "en" : "Insurance According To Insurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.insurancePerMinimum",
+      "column" : "insurancePerMinimum",
+      "ar" : "التأمين | التأمين وفقا للحد الأدنى",
+      "en" : "Insurance According To Minimum",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.insurancePercent",
+      "column" : "insurancePercent",
+      "ar" : "التأمين | نسبة التأمين",
+      "en" : "Insurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.insuranceValue",
+      "column" : "insuranceValue",
+      "ar" : "التأمين | قيمة التأمين",
+      "en" : "Insurance Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.maintenanceType",
+      "column" : "maintenanceType",
+      "ar" : "نوع  الصيانة",
+      "en" : "Maintenance  type",
+      "type" : "Enum",
+      "enum" : "MaintenanceType"
+    }, {
+      "id" : "details.numberOfPassengers",
+      "column" : "numberOfPassengers",
+      "ar" : "عدد الركاب",
+      "en" : "Number Of Passengers",
+      "type" : "Integer"
+    }, {
+      "id" : "details.passengersInsuranceValue",
+      "column" : "passengersInsuranceValue",
+      "ar" : "التأمين | تأمين الراكب",
+      "en" : "Passenger Insurance Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.plateNumber",
+      "column" : "plateNumber",
+      "ar" : "رقم اللوحه",
+      "en" : "Plate Number",
+      "type" : "Text"
+    }, {
+      "id" : "details.serialNumber",
+      "column" : "serialNumber",
+      "ar" : "الرقم المسلسل",
+      "en" : "Serial Number",
+      "type" : "Text"
+    }, {
+      "id" : "details.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.taxPercent",
+      "column" : "taxPercent",
+      "ar" : "الضريبة | النسبه",
+      "en" : "Tax Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.taxValue",
+      "column" : "taxValue",
+      "ar" : "الضريبة | القيمة",
+      "en" : "Tax value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.valueAfterDiscount",
+      "column" : "valueAfterDiscount",
+      "ar" : "الخصم | الصافي بعد الخصم",
+      "en" : "Value After Discount",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.valueAfterTax",
+      "column" : "valueAfterTax",
+      "ar" : "الضريبة | الصافي بعد الضريبة",
+      "en" : "Value After Tax",
+      "type" : "Decimal"
+    } ]
+  }, {
+    "id" : "installmentDetails",
+    "table" : "AddingDocInstallmentLine",
+    "joinColumn" : "carInsuranceAddingDoc_id",
+    "ar" : "تفاصيل القسط",
+    "en" : "Installment Details",
+    "fields" : [ {
+      "id" : "installmentDetails.addedValue",
+      "column" : "addedValue",
+      "ar" : "القيمة المضافة",
+      "en" : "Added Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "installmentDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "installmentDetails.installmentCode",
+      "column" : "installmentCode",
+      "ar" : "كود القسط",
+      "en" : "Installment Code",
+      "type" : "Text"
+    }, {
+      "id" : "installmentDetails.installmentDate",
+      "column" : "installmentDate",
+      "ar" : "تاريخ القسط",
+      "en" : "Installment Date",
+      "type" : "Date"
+    }, {
+      "id" : "installmentDetails.installmentValAndPerc.percent",
+      "column" : "installmentValAndPercPercent",
+      "ar" : "القسط | نسبه",
+      "en" : "Installment | Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "installmentDetails.installmentValAndPerc.value",
+      "column" : "installmentValAndPercValue",
+      "ar" : "القسط | قيمة",
+      "en" : "Installment | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "installmentDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "installmentDetails.originDoc",
+      "columns" : [ "originDocActualCode", " originDocCode", " originDocEntityType", " originDocId" ],
+      "ar" : " # المستند",
+      "en" : " Document #",
+      "type" : "Genericreference"
+    }, {
+      "id" : "installmentDetails.valueAfterModifying",
+      "column" : "valueAfterModifying",
+      "ar" : "القيمة بعد التعديل",
+      "en" : "Value After Modifying",
+      "type" : "Decimal"
+    } ]
+  } ]
+}

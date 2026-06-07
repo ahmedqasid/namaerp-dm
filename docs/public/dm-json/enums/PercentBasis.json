@@ -1,0 +1,12 @@
+{
+  "enum" : "PercentBasis",
+  "values" : [ {
+    "id" : "FirstYearRent",
+    "ar" : "قيمة الايجار لأول سنة",
+    "en" : "First Year Rent Value"
+  }, {
+    "id" : "TheSameYearRent",
+    "ar" : "قيمة الايجار لنفس السنة",
+    "en" : "Rent Value Of the Same Year"
+  } ]
+}

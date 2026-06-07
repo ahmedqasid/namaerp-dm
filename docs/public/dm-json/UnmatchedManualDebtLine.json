@@ -1,0 +1,78 @@
+{
+  "entity" : "UnmatchedManualDebtLine",
+  "table" : "UnmatchedManualDebtLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/UnmatchedManualDebtLine.html",
+  "fields" : [ {
+    "id" : "account",
+    "columns" : [ "accountActualCode", " accountCode", " accountEntityType", " accountId" ],
+    "ar" : " حساب",
+    "en" : " Account",
+    "type" : "Genericreference"
+  }, {
+    "id" : "effectType",
+    "column" : "effectType",
+    "ar" : "نوع التأثير",
+    "en" : "Component Effect Type",
+    "type" : "Enum",
+    "enum" : "LedgerEffectType"
+  }, {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "invoice",
+    "columns" : [ "invoiceActualCode", " invoiceCode", " invoiceEntityType", " invoiceId" ],
+    "ar" : "الفاتورة",
+    "en" : "Invoice",
+    "type" : "Genericreference"
+  }, {
+    "id" : "invoiceValueDate",
+    "column" : "invoiceValueDate",
+    "ar" : "تاريخ الفاتورة",
+    "en" : "Invoice Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "negativelyMatched",
+    "column" : "negativelyMatched",
+    "ar" : "Negatively Matched",
+    "en" : "Negatively Matched",
+    "type" : "Boolean"
+  }, {
+    "id" : "origin",
+    "columns" : [ "originActualCode", " originCode", " originEntityType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "originValueDate",
+    "column" : "originValueDate",
+    "ar" : "تاريخ المستند",
+    "en" : "Origin Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "requestId",
+    "column" : "requestId",
+    "ar" : "Request Id",
+    "en" : "Request Id",
+    "type" : "ID"
+  }, {
+    "id" : "subsidiary",
+    "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+    "ar" : "الذمة",
+    "en" : "Subsidiary",
+    "type" : "Genericreference"
+  }, {
+    "id" : "value",
+    "column" : "value",
+    "ar" : "القيمة",
+    "en" : "Value",
+    "type" : "Decimal"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "SrvCIssueType",
+  "values" : [ {
+    "id" : "Automatic",
+    "ar" : "تلقائي",
+    "en" : "Automatic"
+  }, {
+    "id" : "Manual",
+    "ar" : "يدوي",
+    "en" : "Manual"
+  } ]
+}

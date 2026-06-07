@@ -1,0 +1,12 @@
+{
+  "enum" : "LiquidationStatus",
+  "values" : [ {
+    "id" : "Paid",
+    "ar" : "مُسَدّدْ",
+    "en" : "Paid"
+  }, {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  } ]
+}

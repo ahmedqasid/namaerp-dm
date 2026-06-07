@@ -1,0 +1,43 @@
+{
+  "entity" : "POSConfigFavouriteDocLine",
+  "table" : "POSConfigFavouriteDocLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/POSConfigFavouriteDocLine.html",
+  "fields" : [ {
+    "id" : "btnArabicTitle",
+    "column" : "btnArabicTitle",
+    "ar" : "عنوان الزر العربي",
+    "en" : "Button Arabic Title",
+    "type" : "Text"
+  }, {
+    "id" : "btnEnglishTitle",
+    "column" : "btnEnglishTitle",
+    "ar" : "عنوان الزر الإنجليزي",
+    "en" : "Button English Title",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "remarks",
+    "column" : "remarks",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  } ]
+}

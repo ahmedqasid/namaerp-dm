@@ -1,0 +1,32 @@
+{
+  "enum" : "AUAssertionType",
+  "values" : [ {
+    "id" : "Completion",
+    "ar" : "الإكتمال",
+    "en" : "Completion"
+  }, {
+    "id" : "Accuracy",
+    "ar" : "الدقة",
+    "en" : "Accuracy"
+  }, {
+    "id" : "Evaluation",
+    "ar" : "التقييم",
+    "en" : "Evaluation"
+  }, {
+    "id" : "Existence",
+    "ar" : "الوجود",
+    "en" : "Existence"
+  }, {
+    "id" : "Occurrence",
+    "ar" : "الظهور",
+    "en" : "Occurrence"
+  }, {
+    "id" : "Health",
+    "ar" : "الصحة",
+    "en" : "Health"
+  }, {
+    "id" : "ShowAndTab",
+    "ar" : "العرض والتبويب",
+    "en" : "ShowAndTab"
+  } ]
+}

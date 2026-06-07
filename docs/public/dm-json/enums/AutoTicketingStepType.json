@@ -1,0 +1,28 @@
+{
+  "enum" : "AutoTicketingStepType",
+  "values" : [ {
+    "id" : "CheckCustomer",
+    "ar" : "التحقق من العميل",
+    "en" : "Check Customer"
+  }, {
+    "id" : "CheckLead",
+    "ar" : "التحقق من خيط البيع",
+    "en" : "Check Lead"
+  }, {
+    "id" : "CreateAndPrintTicket",
+    "ar" : "إنشاء و طباعة تذكرة",
+    "en" : "Create And Print Ticket"
+  }, {
+    "id" : "SuccessMessage",
+    "ar" : "رسالة نجاح العملية",
+    "en" : "Success Message"
+  }, {
+    "id" : "ErrorMessage",
+    "ar" : "رسالة خطأ",
+    "en" : "Error Message"
+  }, {
+    "id" : "Query",
+    "ar" : "استعلام",
+    "en" : "Query"
+  } ]
+}

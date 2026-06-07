@@ -1,0 +1,79 @@
+{
+  "entity" : "QtyTrackingTransactionEntry",
+  "table" : "QtyTrackingTransactionEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/QtyTrackingTransactionEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "firstQuantity",
+    "column" : "firstQuantity",
+    "ar" : "الكمية في الاولي",
+    "en" : "First Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "item",
+    "column" : "item_id",
+    "ar" : "الصنف",
+    "en" : "Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "lineNumber",
+    "column" : "lineNumber",
+    "ar" : "رقم السطر",
+    "en" : "Line Number",
+    "type" : "Integer"
+  }, {
+    "id" : "originDoc",
+    "columns" : [ "originDocActualCode", " originDocCode", " originDocEntityType", " originDocId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "rootDocument",
+    "columns" : [ "rootDocumentActualCode", " rootDocumentCode", " rootDocumentEntityType", " rootDocumentId" ],
+    "ar" : " مستند توصيل رئيسي",
+    "en" : " Root Delivery Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "rootLineId",
+    "column" : "rootLineId",
+    "type" : "ID"
+  }, {
+    "id" : "rootTotalEntryId",
+    "column" : "rootTotalEntryId",
+    "type" : "ID"
+  }, {
+    "id" : "searchIdx",
+    "column" : "searchIdx",
+    "type" : "Text"
+  }, {
+    "id" : "secondQuantity",
+    "column" : "secondQuantity",
+    "ar" : "الكمية في الثانية",
+    "en" : "Second Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "sourceLineId",
+    "column" : "sourceLineId",
+    "ar" : "معرف سطر المصدر",
+    "en" : "Source Line Id",
+    "type" : "ID"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

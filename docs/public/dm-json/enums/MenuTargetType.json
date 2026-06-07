@@ -1,0 +1,50 @@
+{
+  "enum" : "MenuTargetType",
+  "values" : [ {
+    "id" : "EntityList",
+    "ar" : "عرض بقائمة",
+    "en" : "Entity List"
+  }, {
+    "id" : "NewRecord",
+    "ar" : "سجل جديد",
+    "en" : "New Record"
+  }, {
+    "id" : "Dashboard",
+    "ar" : "لوحة",
+    "en" : "Dashbord"
+  }, {
+    "id" : "DashboardsGroup",
+    "ar" : " مجموعة  لوحات",
+    "en" : " Dash Board Group"
+  }, {
+    "id" : "Link",
+    "ar" : "رابط",
+    "en" : "Link"
+  }, {
+    "id" : "InternalLink",
+    "ar" : "رابط داخلي",
+    "en" : "Internal Link"
+  }, {
+    "id" : "Record",
+    "ar" : "سجل",
+    "en" : "Record"
+  }, {
+    "id" : "ReportsGroup",
+    "ar" : "مجموعة تقارير",
+    "en" : "Reports Group"
+  }, {
+    "id" : "Report",
+    "ar" : "تقرير",
+    "en" : "Report"
+  }, {
+    "id" : "AllReports",
+    "ar" : "كل التقارير",
+    "en" : "All Reports"
+  }, {
+    "id" : "AutoDashBoards"
+  }, {
+    "id" : "UserFavourites",
+    "ar" : "مفضلة مستخدم",
+    "en" : "User Favourites"
+  } ]
+}

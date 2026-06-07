@@ -1,0 +1,44 @@
+{
+  "enum" : "NamaPosAdditionalItemsType",
+  "values" : [ {
+    "id" : "AdditionalItems1",
+    "ar" : " الأصناف الإضافية 1",
+    "en" : " Additional Items 1"
+  }, {
+    "id" : "AdditionalItems2",
+    "ar" : " الأصناف الإضافية 2",
+    "en" : " Additional Items 2"
+  }, {
+    "id" : "AdditionalItems3",
+    "ar" : " الأصناف الإضافية 3",
+    "en" : " Additional Items 3"
+  }, {
+    "id" : "AdditionalItems4",
+    "ar" : " الأصناف الإضافية 4",
+    "en" : " Additional Items 4"
+  }, {
+    "id" : "AdditionalItems5",
+    "ar" : " الأصناف الإضافية 5",
+    "en" : " Additional Items 5"
+  }, {
+    "id" : "AdditionalItems6",
+    "ar" : " الأصناف الإضافية 6",
+    "en" : " Additional Items 6"
+  }, {
+    "id" : "AdditionalItems7",
+    "ar" : " الأصناف الإضافية 7",
+    "en" : " Additional Items 7"
+  }, {
+    "id" : "AdditionalItems8",
+    "ar" : " الأصناف الإضافية 8",
+    "en" : " Additional Items 8"
+  }, {
+    "id" : "AdditionalItems9",
+    "ar" : " الأصناف الإضافية 9",
+    "en" : " Additional Items 9"
+  }, {
+    "id" : "AdditionalItems10",
+    "ar" : " الأصناف الإضافية 10",
+    "en" : " Additional Items 10"
+  } ]
+}

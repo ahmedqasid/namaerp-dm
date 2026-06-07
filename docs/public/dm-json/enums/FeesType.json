@@ -1,0 +1,24 @@
+{
+  "enum" : "FeesType",
+  "values" : [ {
+    "id" : "OneTime",
+    "ar" : "مرة واحدة فقط",
+    "en" : "OneTime"
+  }, {
+    "id" : "Yearly",
+    "ar" : "سنوية",
+    "en" : "Yearly"
+  }, {
+    "id" : "EveryTwoYear",
+    "ar" : "كل سنتين",
+    "en" : "Every Two Year"
+  }, {
+    "id" : "EveryThreeYear",
+    "ar" : "كل ثلاث سنوات",
+    "en" : "Every Three Year"
+  }, {
+    "id" : "EveryFourYear",
+    "ar" : "كل اربع سنوات",
+    "en" : "Every Four Year"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "AccDistribType",
+  "values" : [ {
+    "id" : "Normal",
+    "ar" : "عادية",
+    "en" : "Normal"
+  }, {
+    "id" : "Composite",
+    "ar" : "متكون من توزيعات أخري",
+    "en" : "Composite"
+  } ]
+}

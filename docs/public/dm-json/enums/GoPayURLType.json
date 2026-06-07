@@ -1,0 +1,12 @@
+{
+  "enum" : "GoPayURLType",
+  "values" : [ {
+    "id" : "TestURL",
+    "ar" : "Test URL",
+    "en" : "Test URL"
+  }, {
+    "id" : "ProductionURL",
+    "ar" : "Production URL",
+    "en" : "Production URL"
+  } ]
+}

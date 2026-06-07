@@ -1,0 +1,24 @@
+{
+  "enum" : "ServiceFeesOrChargedToCustomer",
+  "values" : [ {
+    "id" : "Service1Fees",
+    "ar" : " مصاريف خدمة 1",
+    "en" : " Service Fees 1"
+  }, {
+    "id" : "Service2Fees",
+    "ar" : " مصاريف خدمة 2",
+    "en" : " Service Fees 2"
+  }, {
+    "id" : "Service3Fees",
+    "ar" : " مصاريف خدمة 3",
+    "en" : " Service Fees 3"
+  }, {
+    "id" : "Service4Fees",
+    "ar" : " مصاريف خدمة 4",
+    "en" : " Service Fees 4"
+  }, {
+    "id" : "ChargedToCustomer",
+    "ar" : " يتحمله العميل",
+    "en" : " Charged To Customer"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "SMFPerfectOperationSuggestion",
+  "values" : [ {
+    "id" : "Yes",
+    "ar" : "نعم",
+    "en" : "Yes"
+  }, {
+    "id" : "No",
+    "ar" : "لا",
+    "en" : "No"
+  }, {
+    "id" : "YesAfterEditing",
+    "ar" : "نعم بعد التعديل",
+    "en" : "Yes After Editing"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "HRDocStatus",
+  "values" : [ {
+    "id" : "Draft",
+    "ar" : "مسودة",
+    "en" : "Draft"
+  }, {
+    "id" : "WaitingApproval",
+    "ar" : "بإنتظار الموافقة",
+    "en" : "Waiting Approval"
+  }, {
+    "id" : "Stable",
+    "ar" : "ثابت",
+    "en" : "Stable"
+  } ]
+}

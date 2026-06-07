@@ -1,0 +1,12 @@
+{
+  "enum" : "DatabaseCleanerStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "ReadyToExecute",
+    "ar" : "جاهز للتنفيذ",
+    "en" : "Ready To Execute"
+  } ]
+}

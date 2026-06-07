@@ -1,0 +1,12 @@
+{
+  "enum" : "CreditFacilityPaymentMethod",
+  "values" : [ {
+    "id" : "ManuallySelectCreditFacility",
+    "ar" : "تحديد التسهيل الائتمانى يدوياً",
+    "en" : "Manually Select Credit Facility"
+  }, {
+    "id" : "PayOldestThenNewer",
+    "ar" : "السداد بالأقدم فالأحدث",
+    "en" : "Pay Oldest Then Newer"
+  } ]
+}

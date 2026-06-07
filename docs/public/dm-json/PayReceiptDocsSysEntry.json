@@ -1,0 +1,73 @@
+{
+  "entity" : "PayReceiptDocsSysEntry",
+  "table" : "PayReceiptDocsSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/PayReceiptDocsSysEntry.html",
+  "fields" : [ {
+    "id" : "cloned",
+    "column" : "cloned",
+    "ar" : "منسوخ",
+    "en" : "Cloned",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "paymentAmount",
+    "column" : "paymentAmount",
+    "ar" : "القيمة المسددة",
+    "en" : "Payment Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "paymentLocalAmount",
+    "column" : "paymentLocalAmount",
+    "ar" : "قيمة الصرف بالعملة المحلية",
+    "en" : "Payment Local Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "receiptAmount",
+    "column" : "receiptAmount",
+    "ar" : "قيمة القبض",
+    "en" : "Receipt Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "receiptLocalAmount",
+    "column" : "receiptLocalAmount",
+    "ar" : "قيمة القبض بالعملة المحلية",
+    "en" : "Receipt Local Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "target",
+    "columns" : [ "targetActualCode", " targetCode", " targetEntityType", " targetId" ],
+    "ar" : "الجهة",
+    "en" : "Taregt",
+    "type" : "Genericreference"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

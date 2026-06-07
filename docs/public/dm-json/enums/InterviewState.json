@@ -1,0 +1,44 @@
+{
+  "enum" : "InterviewState",
+  "values" : [ {
+    "id" : "NotCalled",
+    "ar" : "لم يتم الاتصال",
+    "en" : "Not Called"
+  }, {
+    "id" : "NoAnswer",
+    "ar" : "لم يتم الرد",
+    "en" : "No Answer"
+  }, {
+    "id" : "NotAvailable",
+    "ar" : "غير متاح",
+    "en" : "Not Available"
+  }, {
+    "id" : "WaitingInterview",
+    "ar" : "بانتظار المقابلة",
+    "en" : "Waiting Interview"
+  }, {
+    "id" : "Interviewed",
+    "ar" : "تمت المقابلة",
+    "en" : "Interviewed"
+  }, {
+    "id" : "ShortListed",
+    "ar" : "من أفضل المتقدمين",
+    "en" : "Short Listed"
+  }, {
+    "id" : "Accepted",
+    "ar" : "مقبول",
+    "en" : "Accepted"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "AwaitingAnotherInterview",
+    "ar" : "بانتظار مقابلة أخرى",
+    "en" : "Awaiting Another Interview"
+  }, {
+    "id" : "InteviewedSecondTime",
+    "ar" : "تمت المقابلة الأخرى",
+    "en" : "Interviewed Second Time"
+  } ]
+}

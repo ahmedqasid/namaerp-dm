@@ -1,0 +1,12 @@
+{
+  "enum" : "ApplicabilityMethod",
+  "values" : [ {
+    "id" : "Periodic",
+    "ar" : "فتري",
+    "en" : "Periodic"
+  }, {
+    "id" : "Daily",
+    "ar" : "يومي",
+    "en" : "Daily"
+  } ]
+}

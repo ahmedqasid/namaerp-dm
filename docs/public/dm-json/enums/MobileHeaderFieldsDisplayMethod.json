@@ -1,0 +1,16 @@
+{
+  "enum" : "MobileHeaderFieldsDisplayMethod",
+  "values" : [ {
+    "id" : "NameOnly",
+    "ar" : "الاسم فقط",
+    "en" : "Name Only"
+  }, {
+    "id" : "CodeAndName",
+    "ar" : "الكود والاسم",
+    "en" : "Code And Name"
+  }, {
+    "id" : "Default",
+    "ar" : "افتراضي",
+    "en" : "Default"
+  } ]
+}

@@ -1,0 +1,133 @@
+{
+  "entity" : "PVRequestInstallmentLine",
+  "table" : "PVRequestInstallmentLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/PVRequestInstallmentLine.html",
+  "fields" : [ {
+    "id" : "currencyRate",
+    "column" : "currencyRate",
+    "ar" : "المعدل",
+    "en" : "Currency Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "dueDate",
+    "column" : "dueDate",
+    "ar" : "تاريخ الاستحقاق",
+    "en" : "Due Date",
+    "type" : "Date"
+  }, {
+    "id" : "financialPaper",
+    "column" : "financialPaper_id",
+    "ar" : "الورقة التجارية",
+    "en" : "Commercial Paper",
+    "type" : "Reference",
+    "refTo" : "FinancialPaper",
+    "refPath" : "/modules/accounting-banks/FinancialPaper.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "installmentCode",
+    "column" : "installmentCode",
+    "ar" : "كود القسط",
+    "en" : "Installment Code",
+    "type" : "Text"
+  }, {
+    "id" : "installmentDescription",
+    "column" : "installmentDescription",
+    "ar" : "وصف القسط",
+    "en" : "Installment Description",
+    "type" : "BigText"
+  }, {
+    "id" : "installmentDoc",
+    "columns" : [ "installmentDocActualCode", " installmentDocCode", " installmentDocEntityType", " installmentDocId" ],
+    "ar" : "مستند القسط",
+    "en" : "Installment doc",
+    "type" : "Genericreference"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "netValue",
+    "column" : "netValue",
+    "ar" : "الصافي",
+    "en" : "Net value",
+    "type" : "Decimal"
+  }, {
+    "id" : "paidValue",
+    "column" : "paidValue",
+    "ar" : "القيمة المدفوعة",
+    "en" : "Paid Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remaining",
+    "column" : "remaining",
+    "ar" : "المتبقي",
+    "en" : "Remaining",
+    "type" : "Decimal"
+  }, {
+    "id" : "text1",
+    "column" : "text1",
+    "ar" : "نــــص 1",
+    "en" : "Text 1",
+    "type" : "BigText"
+  }, {
+    "id" : "text2",
+    "column" : "text2",
+    "ar" : "نـــــص 2",
+    "en" : "Text 2",
+    "type" : "BigText"
+  } ]
+}

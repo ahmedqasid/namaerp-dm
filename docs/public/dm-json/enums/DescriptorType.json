@@ -1,0 +1,16 @@
+{
+  "enum" : "DescriptorType",
+  "values" : [ {
+    "id" : "SearchOnly",
+    "ar" : "بحث فقط",
+    "en" : "Search Only"
+  }, {
+    "id" : "TitleOnly",
+    "ar" : "عنوان فقط",
+    "en" : "Title Only"
+  }, {
+    "id" : "SearchAndTitle",
+    "ar" : "عنوان و بحث",
+    "en" : "Search And Title"
+  } ]
+}

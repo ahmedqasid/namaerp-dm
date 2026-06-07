@@ -1,0 +1,16 @@
+{
+  "enum" : "MealDeliveryStatus",
+  "values" : [ {
+    "id" : "Meal",
+    "ar" : "وجبة",
+    "en" : "Meal"
+  }, {
+    "id" : "MealAllowance",
+    "ar" : "بدل وجبة",
+    "en" : "Meal Allowance"
+  }, {
+    "id" : "Canceled",
+    "ar" : "ألغيت",
+    "en" : "Canceled"
+  } ]
+}

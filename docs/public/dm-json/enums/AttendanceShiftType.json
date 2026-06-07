@@ -1,0 +1,16 @@
+{
+  "enum" : "AttendanceShiftType",
+  "values" : [ {
+    "id" : "Automatic",
+    "ar" : "تلقائي",
+    "en" : "Automatic"
+  }, {
+    "id" : "Normal",
+    "ar" : "عادية",
+    "en" : "Normal"
+  }, {
+    "id" : "Rotational",
+    "ar" : "دورية",
+    "en" : "Rotational"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "enum" : "FieldLayout",
+  "values" : [ {
+    "id" : "alone",
+    "ar" : "بمفرده",
+    "en" : "Alone"
+  }, {
+    "id" : "spanned",
+    "ar" : "ممتد",
+    "en" : "Spanned"
+  }, {
+    "id" : "normal",
+    "ar" : "عادي",
+    "en" : "Normal"
+  }, {
+    "id" : "spanned2",
+    "ar" : "ممتد 2",
+    "en" : "Spanned2"
+  } ]
+}

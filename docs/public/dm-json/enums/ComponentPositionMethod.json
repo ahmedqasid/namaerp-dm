@@ -1,0 +1,12 @@
+{
+  "enum" : "ComponentPositionMethod",
+  "values" : [ {
+    "id" : "Grid",
+    "ar" : "Grid",
+    "en" : "Grid"
+  }, {
+    "id" : "Absolute",
+    "ar" : "Absolute",
+    "en" : "Absolute"
+  } ]
+}

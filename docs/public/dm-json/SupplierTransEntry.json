@@ -1,0 +1,59 @@
+{
+  "entity" : "SupplierTransEntry",
+  "table" : "SupplierTransEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SupplierTransEntry.html",
+  "fields" : [ {
+    "id" : "customer",
+    "columns" : [ "customerActualCode", " customerCode", " customerEntityType", " customerId" ],
+    "ar" : "العميل",
+    "en" : "Customer",
+    "type" : "Genericreference"
+  }, {
+    "id" : "document",
+    "columns" : [ "documentActualCode", " documentCode", " documentEntityType", " documentId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "factor",
+    "column" : "factor",
+    "ar" : "المعامل",
+    "en" : "Measures Factor",
+    "type" : "Integer"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "relatedAccount",
+    "columns" : [ "relatedAccountActualCode", " relatedAccountCode", " relatedAccountEntityType", " relatedAccountId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "value.localAmount",
+    "column" : "localAmount",
+    "ar" : "القيمة المحليه",
+    "en" : "Local amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "value.rate",
+    "column" : "rate",
+    "ar" : "المعدل",
+    "en" : "Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "value.value.amount",
+    "column" : "value_amount",
+    "ar" : " المبلغ",
+    "en" : " Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "value.value.currency",
+    "column" : "valueCurrency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  } ]
+}

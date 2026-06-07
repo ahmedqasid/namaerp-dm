@@ -1,0 +1,41 @@
+{
+  "entity" : "POSConfigReturnTermLine",
+  "table" : "POSConfigReturnTermLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/POSConfigReturnTermLine.html",
+  "fields" : [ {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "type",
+    "column" : "type",
+    "ar" : "النوع",
+    "en" : "Type",
+    "type" : "Enum",
+    "enum" : "POSSalesReturnType"
+  }, {
+    "id" : "withSubsidiary",
+    "column" : "withSubsidiary",
+    "ar" : "به ذمه",
+    "en" : "With Subsidiary",
+    "type" : "Enum",
+    "enum" : "YesNo"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "CouponDimensionsCopyMethod",
+  "values" : [ {
+    "id" : "FromInvoice",
+    "ar" : "من الفاتورة",
+    "en" : "From Invoice"
+  }, {
+    "id" : "FromOffer",
+    "ar" : "من العرض",
+    "en" : "From Offer"
+  } ]
+}

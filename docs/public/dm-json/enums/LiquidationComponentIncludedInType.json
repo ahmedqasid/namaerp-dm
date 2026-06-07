@@ -1,0 +1,16 @@
+{
+  "enum" : "LiquidationComponentIncludedInType",
+  "values" : [ {
+    "id" : "DuesLiquidationDocEffect",
+    "ar" : "قيد سند التصفية",
+    "en" : "Dues Liquidation Document Ledger Lines"
+  }, {
+    "id" : "PaymentVoucherCreationEvent",
+    "ar" : "سطور سند الصرف عند الإنشاء",
+    "en" : "Payment Voucher Lines On Creation Event"
+  }, {
+    "id" : "Both",
+    "ar" : "أى منهما",
+    "en" : "Both"
+  } ]
+}

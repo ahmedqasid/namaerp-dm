@@ -1,0 +1,99 @@
+{
+  "entity" : "CreditFacilityPayEntry",
+  "table" : "CreditFacilityPayEntry",
+  "module" : "system-tables",
+  "ar" : "الجدول النظامى لسداد التسهيل الائتمانى",
+  "en" : "Credit Facility Payment Entry",
+  "page" : "https://dm.namasoft.com/modules/system-tables/CreditFacilityPayEntry.html",
+  "fields" : [ {
+    "id" : "calculatedInterestValue",
+    "column" : "calculatedInterestValue",
+    "ar" : "الفائدة المحسوبة",
+    "en" : "Calculated Interest Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "creditFacility",
+    "column" : "creditFacility_id",
+    "ar" : "التسهيل الائتمانى",
+    "en" : "Credit Facility",
+    "type" : "Reference",
+    "refTo" : "CreditFacility",
+    "refPath" : "/modules/accounting-loans/CreditFacility.html"
+  }, {
+    "id" : "creditFacilityRemainingAfterPayment",
+    "column" : "creditFacilityRemainingAfterPayment",
+    "ar" : "المتبقي من التسهيل بعد الدفع",
+    "en" : "Credit Facility Remaining After Payment",
+    "type" : "Decimal"
+  }, {
+    "id" : "creditFacilityRemainingBeforePayment",
+    "column" : "creditFacilityRemainingBeforePayment",
+    "ar" : "المتبقي من التسهيل الائتمانى قبل الدفع",
+    "en" : "Credit Facility Remaining Before Payment",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "interestRemainingAfterPayment",
+    "column" : "interestRemainingAfterPayment",
+    "ar" : "المتبقي من الفائدة بعد الدفع",
+    "en" : "Interest Remaining After Payment",
+    "type" : "Decimal"
+  }, {
+    "id" : "interestRemainingBeforePayment",
+    "column" : "interestRemainingBeforePayment",
+    "ar" : "المتبقي من الفائدة قبل الدفع",
+    "en" : "Interest Remaining Before Payment",
+    "type" : "Decimal"
+  }, {
+    "id" : "numOfDaysFromPreviousPayment",
+    "column" : "numOfDaysFromPreviousPayment",
+    "ar" : "عدد الأيام من السداد السابق",
+    "en" : "Number Of Days From Previous Payment",
+    "type" : "Decimal"
+  }, {
+    "id" : "paymentDoc",
+    "columns" : [ "paymentDocActualCode", " paymentDocCode", " paymentDocEntityType", " paymentDocId" ],
+    "ar" : "مستند الدفع",
+    "en" : "Payment document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "paymentOfCreditFacilityValue",
+    "column" : "paymentOfCreditFacilityValue",
+    "ar" : "المسدد من قيمة التسهيل الائتمانى",
+    "en" : "Payment Of Credit Facility Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "paymentOfInterestValue",
+    "column" : "paymentOfInterestValue",
+    "ar" : "المسدد من قيمة الفائدة",
+    "en" : "Payment Of Interest Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "paymentValue",
+    "column" : "paymentValue",
+    "ar" : "المبلغ",
+    "en" : "Payment Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "previousPaymentDate",
+    "column" : "previousPaymentDate",
+    "ar" : "تاريخ السداد السابق",
+    "en" : "Previous Payment Date",
+    "type" : "Date"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

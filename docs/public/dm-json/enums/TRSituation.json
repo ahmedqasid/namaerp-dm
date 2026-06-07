@@ -1,0 +1,16 @@
+{
+  "enum" : "TRSituation",
+  "values" : [ {
+    "id" : "OK",
+    "ar" : "OK",
+    "en" : "OK"
+  }, {
+    "id" : "RQ",
+    "ar" : "RQ",
+    "en" : "RQ"
+  }, {
+    "id" : "WL",
+    "ar" : "WL",
+    "en" : "WL"
+  } ]
+}

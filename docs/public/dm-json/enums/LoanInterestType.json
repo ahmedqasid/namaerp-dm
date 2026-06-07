@@ -1,0 +1,16 @@
+{
+  "enum" : "LoanInterestType",
+  "values" : [ {
+    "id" : "Simple",
+    "ar" : "بسيط",
+    "en" : "Simple"
+  }, {
+    "id" : "Decreasing",
+    "ar" : "متناقص",
+    "en" : "Decreasing"
+  }, {
+    "id" : "Manual",
+    "ar" : "يدوي",
+    "en" : "Manual"
+  } ]
+}

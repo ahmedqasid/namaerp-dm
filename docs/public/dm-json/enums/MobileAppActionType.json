@@ -1,0 +1,12 @@
+{
+  "enum" : "MobileAppActionType",
+  "values" : [ {
+    "id" : "ForgetPasswordRequest",
+    "ar" : "نسيان كلمة المرور",
+    "en" : "Forget Password"
+  }, {
+    "id" : "RegisterRequest",
+    "ar" : "تسجيل جديد",
+    "en" : "Register"
+  } ]
+}

@@ -1,0 +1,94 @@
+{
+  "enum" : "ActionType",
+  "values" : [ {
+    "id" : "LogIn",
+    "ar" : "تسجيل دخول",
+    "en" : "Log In"
+  }, {
+    "id" : "LogOut",
+    "ar" : "تسجيل خروج",
+    "en" : "Log Out"
+  }, {
+    "id" : "Print",
+    "ar" : "طباعة",
+    "en" : "Print"
+  }, {
+    "id" : "Modified",
+    "ar" : "تعديل",
+    "en" : "Modified"
+  }, {
+    "id" : "Deleted",
+    "ar" : "حذف",
+    "en" : "Deleted"
+  }, {
+    "id" : "Inserted",
+    "ar" : "إدخال",
+    "en" : "Inserted"
+  }, {
+    "id" : "Approval"
+  }, {
+    "id" : "Revised",
+    "ar" : " تمت المراجعة",
+    "en" : " Revised"
+  }, {
+    "id" : "Unrevised",
+    "ar" : " إلغاء المراجعة",
+    "en" : "Unrevised"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
+  }, {
+    "id" : "UnCancelled",
+    "ar" : "غير ملغى",
+    "en" : "Un Cancelled"
+  }, {
+    "id" : "SaveDraft",
+    "ar" : "إضافة مسودة",
+    "en" : "Add Draft"
+  }, {
+    "id" : "Export",
+    "ar" : "تصدير",
+    "en" : "Export"
+  }, {
+    "id" : "RunUtil",
+    "ar" : "Run Util",
+    "en" : "Run Util"
+  }, {
+    "id" : "AutoSaveWithInputField"
+  }, {
+    "id" : "AutoSaveDraftWithInputField"
+  }, {
+    "id" : "RunReport",
+    "ar" : "عرض تقرير",
+    "en" : "Run Report"
+  }, {
+    "id" : "ExportReport",
+    "ar" : "تصدير تقرير",
+    "en" : "Export Report"
+  }, {
+    "id" : "Approve",
+    "ar" : "موافقة",
+    "en" : "Approve"
+  }, {
+    "id" : "Reject",
+    "ar" : "رفض",
+    "en" : "Reject"
+  }, {
+    "id" : "Return",
+    "ar" : "إرجاع",
+    "en" : "Return"
+  }, {
+    "id" : "EscalateToSupervisor",
+    "ar" : "تصعيد الي المدير المباشر",
+    "en" : "Escalate To Direct Supervisor"
+  }, {
+    "id" : "ReturnToPreviousStep",
+    "ar" : "إرجاع للخطوة السابقة",
+    "en" : "Return To Previous Step"
+  }, {
+    "id" : "EscalateToSpecificEmployee",
+    "ar" : "تصعيد الي موظف بعينه",
+    "en" : "Escalate To Direct Supervisor"
+  } ]
+}

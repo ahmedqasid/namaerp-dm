@@ -1,0 +1,333 @@
+{
+  "entity" : "POS.POSReportDefinition",
+  "table" : "POSReportDefinition",
+  "module" : "pos-app",
+  "ar" : "تعريف تقرير",
+  "arPlural" : "تعريف تقارير",
+  "en" : "Report Definition",
+  "enPlural" : "Report Definitions",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSReportDefinition.html",
+  "fields" : [ {
+    "id" : "arabicVersion",
+    "column" : "arabicVersion",
+    "type" : ""
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "englishVersion",
+    "column" : "englishVersion",
+    "type" : ""
+  }, {
+    "id" : "formDocCategoryId",
+    "column" : "formDocCategoryId",
+    "type" : "ID"
+  }, {
+    "id" : "formEntity",
+    "column" : "formEntity",
+    "ar" : "النوع",
+    "en" : "Form Entity",
+    "type" : "Text"
+  }, {
+    "id" : "formInvoiceClassificationId",
+    "column" : "formInvoiceClassificationId",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "metadataXML",
+    "column" : "metadataXML",
+    "type" : "Text"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "posOrderPreparationForm",
+    "column" : "posOrderPreparationForm",
+    "ar" : "نموذج طباعة تحضير الاوردر لنقاط البيع",
+    "en" : "POS Order Preparation Form",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "printerName",
+    "column" : "printerName",
+    "ar" : "اسم الطابعة (CSV)",
+    "en" : "Printer Name (CSV)",
+    "type" : "Text"
+  }, {
+    "id" : "repOrder",
+    "column" : "repOrder",
+    "type" : "Text"
+  }, {
+    "id" : "reportType",
+    "column" : "reportType",
+    "ar" : "نوع التقرير",
+    "en" : "Report Type",
+    "type" : "Text"
+  }, {
+    "id" : "runOnPosServerDB",
+    "column" : "runOnPosServerDB",
+    "ar" : "تشغيل على قاعدة بيانات الخادم وليس قاعدة بيانات نقاط البيع",
+    "en" : "Run On Server DataBase Not On POS Database",
+    "type" : "Boolean"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "usedInCaptainOrder",
+    "column" : "usedInCaptainOrder",
+    "ar" : "مستخدم لكابتن أوردر",
+    "en" : "Used In Captain Order",
+    "type" : "Boolean"
+  }, {
+    "id" : "usedInFullInvoice",
+    "column" : "usedInFullInvoice",
+    "ar" : "تستخدم في الفاتورة الكامله",
+    "en" : "Used In Full Invoice",
+    "type" : "Boolean"
+  }, {
+    "id" : "userId",
+    "column" : "userId",
+    "type" : "ID"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ],
+  "details" : [ {
+    "id" : "relatedForms",
+    "table" : "POSReportDefinitionLine",
+    "joinColumn" : "mainReport_id",
+    "ar" : "النماذج المرتبطة",
+    "en" : "Related Forms",
+    "fields" : [ {
+      "id" : "relatedForms.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "relatedForms.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "relatedForms.mainReport",
+      "column" : "mainReport_id",
+      "type" : "Reference",
+      "refTo" : "POS.POSReportDefinition",
+      "refPath" : "/modules/pos-app/POS.POSReportDefinition.html"
+    }, {
+      "id" : "relatedForms.relatedReportId",
+      "column" : "relatedReportId",
+      "type" : "ID"
+    } ]
+  }, {
+    "id" : "resources",
+    "table" : "POSReportResource",
+    "joinColumn" : "mainReport_id",
+    "ar" : "الملفات الإضافية",
+    "en" : "Resources",
+    "fields" : [ {
+      "id" : "resources.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "resources.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "resources.mainReport",
+      "column" : "mainReport_id",
+      "type" : "Reference",
+      "refTo" : "POS.POSReportDefinition",
+      "refPath" : "/modules/pos-app/POS.POSReportDefinition.html"
+    }, {
+      "id" : "resources.reportContent",
+      "column" : "reportContent",
+      "ar" : "محتوي ملف التقرير",
+      "en" : "Report File Content",
+      "type" : "Text"
+    }, {
+      "id" : "resources.reportFileName",
+      "column" : "reportFileName",
+      "type" : "Text"
+    }, {
+      "id" : "resources.resourceFile",
+      "column" : "resourceFile",
+      "ar" : "الملف",
+      "en" : "Resource File",
+      "type" : ""
+    }, {
+      "id" : "resources.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "subreports",
+    "table" : "POSSubReport",
+    "joinColumn" : "mainReport_id",
+    "ar" : "التقارير الفرعية",
+    "en" : "Subreports",
+    "fields" : [ {
+      "id" : "subreports.arabicVersion",
+      "column" : "arabicVersion",
+      "type" : ""
+    }, {
+      "id" : "subreports.englishVersion",
+      "column" : "englishVersion",
+      "type" : ""
+    }, {
+      "id" : "subreports.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "subreports.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "subreports.mainReport",
+      "column" : "mainReport_id",
+      "type" : "Reference",
+      "refTo" : "POS.POSReportDefinition",
+      "refPath" : "/modules/pos-app/POS.POSReportDefinition.html"
+    }, {
+      "id" : "subreports.reportFileName",
+      "column" : "reportFileName",
+      "type" : "Text"
+    }, {
+      "id" : "subreports.subreportDefinition",
+      "column" : "subreportDefinition_id",
+      "ar" : "التقرير",
+      "en" : "Sub Report Definition",
+      "type" : "Reference",
+      "refTo" : "POS.POSReportDefinition",
+      "refPath" : "/modules/pos-app/POS.POSReportDefinition.html"
+    }, {
+      "id" : "subreports.subreportFile",
+      "column" : "subreportFile",
+      "ar" : "الملف",
+      "en" : "Sub Report File",
+      "type" : ""
+    }, {
+      "id" : "subreports.subreportId",
+      "column" : "subreportId",
+      "ar" : "المعرف",
+      "en" : "Sub Report Id",
+      "type" : "Text"
+    } ]
+  } ]
+}

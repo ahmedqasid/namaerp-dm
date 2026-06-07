@@ -1,0 +1,72 @@
+{
+  "enum" : "RelationType",
+  "values" : [ {
+    "id" : "Father",
+    "ar" : "أب",
+    "en" : "Father"
+  }, {
+    "id" : "Mother",
+    "ar" : "أم",
+    "en" : "Mother"
+  }, {
+    "id" : "Brother",
+    "ar" : "أخ",
+    "en" : "Brother"
+  }, {
+    "id" : "Sister",
+    "ar" : "أخت",
+    "en" : "Sister"
+  }, {
+    "id" : "Son",
+    "ar" : "إبن",
+    "en" : "Son"
+  }, {
+    "id" : "Daughter",
+    "ar" : "إبنة",
+    "en" : "Daughter"
+  }, {
+    "id" : "Husband",
+    "ar" : "زوج",
+    "en" : "Husband"
+  }, {
+    "id" : "Wife",
+    "ar" : "زوجة",
+    "en" : "Wife"
+  }, {
+    "id" : "Himself",
+    "ar" : "نفسه",
+    "en" : "Himself"
+  }, {
+    "id" : "SecondDegree",
+    "ar" : "درجة ثانية",
+    "en" : "Second Degree"
+  }, {
+    "id" : "Friend",
+    "ar" : "صديق",
+    "en" : "Friend"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  }, {
+    "id" : "Child1",
+    "ar" : "ابن 1",
+    "en" : "Child 1"
+  }, {
+    "id" : "Child2",
+    "ar" : "ابن 2",
+    "en" : "Child 2"
+  }, {
+    "id" : "Child3",
+    "ar" : "ابن 3",
+    "en" : "Child 3"
+  }, {
+    "id" : "Child4",
+    "ar" : "ابن 4",
+    "en" : "Child 4"
+  }, {
+    "id" : "Child5",
+    "ar" : "ابن 5",
+    "en" : "Child 5"
+  } ]
+}

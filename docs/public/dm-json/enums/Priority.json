@@ -1,0 +1,16 @@
+{
+  "enum" : "Priority",
+  "values" : [ {
+    "id" : "Ordinary",
+    "ar" : "عادي",
+    "en" : "Ordinary"
+  }, {
+    "id" : "Important",
+    "ar" : "مهم",
+    "en" : "Important"
+  }, {
+    "id" : "Urgent",
+    "ar" : "حرج",
+    "en" : "Urgent"
+  } ]
+}

@@ -1,0 +1,67 @@
+{
+  "entity" : "RewardPointRedeemSysEntry",
+  "table" : "RewardPointRedeemSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/RewardPointRedeemSysEntry.html",
+  "fields" : [ {
+    "id" : "coupon",
+    "column" : "coupon_id",
+    "ar" : "قسيمة خصومات",
+    "en" : "Coupon",
+    "type" : "Reference",
+    "refTo" : "DiscountCoupon",
+    "refPath" : "/modules/supplychain-sales/DiscountCoupon.html"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "customer",
+    "columns" : [ "customerActualCode", " customerCode", " customerEntityType", " customerId" ],
+    "ar" : "العميل",
+    "en" : "Customer",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "monetaryValue",
+    "column" : "monetaryValue",
+    "ar" : "القيمة النقدية",
+    "en" : "Monetary Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "redeemedPoints",
+    "column" : "redeemedPoints",
+    "ar" : "النقاط المستردة",
+    "en" : "Redeemed Points",
+    "type" : "Decimal"
+  }, {
+    "id" : "rewardEntryId",
+    "column" : "rewardEntryId",
+    "type" : "ID"
+  }, {
+    "id" : "rewardPointsConfig",
+    "column" : "rewardPointsConfig_id",
+    "ar" : " إعدادات نقاط المكافأة",
+    "en" : "Reward Points Configuration",
+    "type" : "Reference",
+    "refTo" : "RewardPointsConfig",
+    "refPath" : "/modules/basic-external-reward-points/RewardPointsConfig.html"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

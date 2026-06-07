@@ -1,0 +1,12 @@
+{
+  "enum" : "ChatConversationType",
+  "values" : [ {
+    "id" : "Direct",
+    "ar" : "مباشر",
+    "en" : "Direct"
+  }, {
+    "id" : "Group",
+    "ar" : "مجموعة",
+    "en" : "Group"
+  } ]
+}

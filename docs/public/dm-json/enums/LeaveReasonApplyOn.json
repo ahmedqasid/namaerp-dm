@@ -1,0 +1,28 @@
+{
+  "enum" : "LeaveReasonApplyOn",
+  "values" : [ {
+    "id" : "Vacation",
+    "ar" : "الأجازة",
+    "en" : "Vacation"
+  }, {
+    "id" : "Leave",
+    "ar" : "إنصراف",
+    "en" : "Leave"
+  }, {
+    "id" : "Reward",
+    "ar" : "مكافأة",
+    "en" : "Reward"
+  }, {
+    "id" : "Penalty",
+    "ar" : "جزاء",
+    "en" : "Penalty"
+  }, {
+    "id" : "Suspension",
+    "ar" : "وقف عن العمل",
+    "en" : "Suspension"
+  }, {
+    "id" : "Mission",
+    "ar" : "مأمورية",
+    "en" : "Mission"
+  } ]
+}

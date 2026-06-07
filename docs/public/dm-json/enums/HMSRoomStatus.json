@@ -1,0 +1,16 @@
+{
+  "enum" : "HMSRoomStatus",
+  "values" : [ {
+    "id" : "CompletelyEmpty",
+    "ar" : "فارغة",
+    "en" : "Empty"
+  }, {
+    "id" : "CompletelyBusy",
+    "ar" : "مشغولة كلياً",
+    "en" : "Completely Busy"
+  }, {
+    "id" : "PartiallyBusy",
+    "ar" : "مشغولة جزئياً",
+    "en" : "Partially Busy"
+  } ]
+}

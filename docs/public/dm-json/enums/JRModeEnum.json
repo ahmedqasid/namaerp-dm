@@ -1,0 +1,12 @@
+{
+  "enum" : "JRModeEnum",
+  "values" : [ {
+    "id" : "Opaque",
+    "ar" : "Opaque",
+    "en" : "Opaque"
+  }, {
+    "id" : "Transparent",
+    "ar" : "Transparent",
+    "en" : "Transparent"
+  } ]
+}

@@ -1,0 +1,54 @@
+{
+  "enum" : "TicketStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Assigned",
+    "ar" : "مسند",
+    "en" : "Assigned"
+  }, {
+    "id" : "InProgress",
+    "ar" : "قيد التنفيذ",
+    "en" : "In Progress"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
+  }, {
+    "id" : "Closed",
+    "ar" : "مغلقة",
+    "en" : "Closed"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  }, {
+    "id" : "Done",
+    "ar" : "تم التنفيذ",
+    "en" : "Done"
+  }, {
+    "id" : "Postponed",
+    "ar" : "مؤجل",
+    "en" : "Postponed"
+  }, {
+    "id" : "ReOpen",
+    "ar" : "معاد فتحه",
+    "en" : "ReOpen"
+  }, {
+    "id" : "DevelopmentRequest",
+    "ar" : "طلب تطوير",
+    "en" : "Development Request"
+  }, {
+    "id" : "CustomerFeedback",
+    "ar" : "بانتظار رد العميل",
+    "en" : "Feedback from Customer"
+  }, {
+    "id" : "OutSideContractScope"
+  }, {
+    "id" : "OutOfWarranty",
+    "ar" : "خارج الضمان",
+    "en" : "Out Of Warranty"
+  } ]
+}

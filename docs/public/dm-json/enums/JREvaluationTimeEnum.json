@@ -1,0 +1,36 @@
+{
+  "enum" : "JREvaluationTimeEnum",
+  "values" : [ {
+    "id" : "Now",
+    "ar" : "Now",
+    "en" : "Now"
+  }, {
+    "id" : "Report",
+    "ar" : "Report",
+    "en" : "Report"
+  }, {
+    "id" : "Page",
+    "ar" : "Page",
+    "en" : "Page"
+  }, {
+    "id" : "Column",
+    "ar" : "Column",
+    "en" : "Column"
+  }, {
+    "id" : "Group",
+    "ar" : "Group",
+    "en" : "Group"
+  }, {
+    "id" : "Band",
+    "ar" : "Band",
+    "en" : "Band"
+  }, {
+    "id" : "Auto",
+    "ar" : "Auto",
+    "en" : "Auto"
+  }, {
+    "id" : "Master",
+    "ar" : "Master",
+    "en" : "Master"
+  } ]
+}

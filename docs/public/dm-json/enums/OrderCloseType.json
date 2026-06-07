@@ -1,0 +1,12 @@
+{
+  "enum" : "OrderCloseType",
+  "values" : [ {
+    "id" : "NormalClose",
+    "ar" : "إغلاق عادي",
+    "en" : "Normal Close"
+  }, {
+    "id" : "Terminate",
+    "ar" : "إنهاء",
+    "en" : "Terminate"
+  } ]
+}

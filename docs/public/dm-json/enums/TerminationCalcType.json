@@ -1,0 +1,12 @@
+{
+  "enum" : "TerminationCalcType",
+  "values" : [ {
+    "id" : "ManualTotalWorkDays",
+    "ar" : " مدة الخدمة يدويا",
+    "en" : " Manual Total Work Days"
+  }, {
+    "id" : "TotalWorkDays",
+    "ar" : " إجمالي ايام العمل",
+    "en" : " Total Work Days"
+  } ]
+}

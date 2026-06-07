@@ -1,0 +1,59 @@
+{
+  "entity" : "ExtractCostSourceEntry",
+  "table" : "ExtractCostSourceEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ExtractCostSourceEntry.html",
+  "fields" : [ {
+    "id" : "consumedQty",
+    "column" : "consumedQty",
+    "ar" : "الكمية المستخدمة",
+    "en" : "Consumed Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "costExecution",
+    "column" : "costExecution_id",
+    "ar" : "حصر التكاليف",
+    "en" : "Cost Execution",
+    "type" : "Reference",
+    "refTo" : "ContractingCostExecution",
+    "refPath" : "/modules/contracting/ContractingCostExecution.html"
+  }, {
+    "id" : "costExecutionLineId",
+    "column" : "costExecutionLineId",
+    "type" : "ID"
+  }, {
+    "id" : "extract",
+    "column" : "extract_id",
+    "ar" : "مستخلص المشروع",
+    "en" : "Project Extract",
+    "type" : "Reference",
+    "refTo" : "ProjContrExtract",
+    "refPath" : "/modules/contracting/ProjContrExtract.html"
+  }, {
+    "id" : "extractLineId",
+    "column" : "extractLineId",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "termCode",
+    "column" : "termCode",
+    "ar" : "كود البند",
+    "en" : "Term Code",
+    "type" : "Text"
+  }, {
+    "id" : "totalCost",
+    "column" : "totalCost",
+    "ar" : "اجمالى التكلفة",
+    "en" : "Total Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "unitCost",
+    "column" : "unitCost",
+    "ar" : "تكلفة الوحده",
+    "en" : "Unit Cost",
+    "type" : "Decimal"
+  } ]
+}

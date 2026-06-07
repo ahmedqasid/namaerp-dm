@@ -1,0 +1,16 @@
+{
+  "enum" : "TargetAudience",
+  "values" : [ {
+    "id" : "Factories",
+    "ar" : "مصانع",
+    "en" : "Factories"
+  }, {
+    "id" : "Projects",
+    "ar" : "مشاريع",
+    "en" : "Projects"
+  }, {
+    "id" : "TradeShows",
+    "ar" : "معارض",
+    "en" : "Trade Shows"
+  } ]
+}

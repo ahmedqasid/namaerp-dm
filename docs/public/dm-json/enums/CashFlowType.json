@@ -1,0 +1,32 @@
+{
+  "enum" : "CashFlowType",
+  "values" : [ {
+    "id" : "ProfitLossAccount",
+    "ar" : "ربح - خسارة",
+    "en" : "Profit - Loss"
+  }, {
+    "id" : "OperatingActivity",
+    "ar" : "أنشطة تشغيل",
+    "en" : "Operating Activities"
+  }, {
+    "id" : "InvestmentActivity",
+    "ar" : "أنشطة استثمارية",
+    "en" : "Investment Activities"
+  }, {
+    "id" : "FinancingActivity",
+    "ar" : "أنشطة تمويلية",
+    "en" : "Financing Activities"
+  }, {
+    "id" : "CashAccount",
+    "ar" : "حساب نقدية",
+    "en" : "Cash Account"
+  }, {
+    "id" : "NotInvolved",
+    "ar" : "غير معني",
+    "en" : "Not Involved"
+  }, {
+    "id" : "Adjustment",
+    "ar" : "تسويات",
+    "en" : "Adjustment"
+  } ]
+}

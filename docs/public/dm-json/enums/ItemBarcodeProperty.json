@@ -1,0 +1,76 @@
+{
+  "enum" : "ItemBarcodeProperty",
+  "values" : [ {
+    "id" : "Code",
+    "ar" : "Code",
+    "en" : "Code"
+  }, {
+    "id" : "Revision",
+    "ar" : "Revision",
+    "en" : "Revision"
+  }, {
+    "id" : "Size",
+    "ar" : "Size",
+    "en" : "Size"
+  }, {
+    "id" : "Color",
+    "ar" : "Color",
+    "en" : "Color"
+  }, {
+    "id" : "Quantity",
+    "ar" : "Quantity",
+    "en" : "Quantity"
+  }, {
+    "id" : "Width",
+    "ar" : "Width",
+    "en" : "Width"
+  }, {
+    "id" : "Height",
+    "ar" : "Height",
+    "en" : "Height"
+  }, {
+    "id" : "Length",
+    "ar" : "Length",
+    "en" : "Length"
+  }, {
+    "id" : "Count",
+    "ar" : "Count",
+    "en" : "Count"
+  }, {
+    "id" : "Lot",
+    "ar" : "Lot",
+    "en" : "Lot"
+  }, {
+    "id" : "Box",
+    "ar" : "Box",
+    "en" : "Box"
+  }, {
+    "id" : "ExpiryDate",
+    "ar" : "Expiry Date",
+    "en" : "Expiry Date"
+  }, {
+    "id" : "ProductionDate",
+    "ar" : "Production Date",
+    "en" : "Production Date"
+  }, {
+    "id" : "FirstSerialNumber",
+    "ar" : "First Serial Number",
+    "en" : "First Serial Number"
+  }, {
+    "id" : "SecondSerialNumber",
+    "ar" : "Second Serial Number",
+    "en" : "Second Serial Number"
+  }, {
+    "id" : "UnitPrice",
+    "ar" : "Unit Price",
+    "en" : "Unit Price"
+  }, {
+    "id" : "TotalPrice",
+    "ar" : "Total Price",
+    "en" : "Total Price"
+  }, {
+    "id" : "UOM",
+    "ar" : "Unit",
+    "en" : "Unit"
+  } ]
+}

@@ -1,0 +1,23 @@
+{
+  "entity" : "NamaPOSInvoiceCouponLine",
+  "table" : "NamaPOSInvoiceCouponLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/NamaPOSInvoiceCouponLine.html",
+  "fields" : [ {
+    "id" : "couponCode",
+    "column" : "couponCode",
+    "ar" : "كود الكوبون",
+    "en" : "Coupon Code",
+    "type" : "Text"
+  }, {
+    "id" : "couponValue",
+    "column" : "couponValue",
+    "ar" : "قيمة",
+    "en" : "Coupon Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

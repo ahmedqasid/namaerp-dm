@@ -1,0 +1,20 @@
+{
+  "enum" : "MaxLoanType",
+  "values" : [ {
+    "id" : "BasicSalaryPercent",
+    "ar" : "نسبة من الراتب الأساسي",
+    "en" : "Basic Salary Percent"
+  }, {
+    "id" : "SalaryComponentsPercent",
+    "ar" : "نسبة من مفردات راتب معينة",
+    "en" : "Salary Components Percent"
+  }, {
+    "id" : "FinalSalaryPercent",
+    "ar" : "نسبة من الراتب النهائي",
+    "en" : "Final Salary Percent"
+  }, {
+    "id" : "FixedValue",
+    "ar" : "قيمة ثابتة",
+    "en" : "Fixed Value"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "SessionStatus",
+  "values" : [ {
+    "id" : "Active",
+    "ar" : "فعال",
+    "en" : "Active"
+  }, {
+    "id" : "InActive",
+    "ar" : "غير فعال",
+    "en" : "Inactive"
+  } ]
+}

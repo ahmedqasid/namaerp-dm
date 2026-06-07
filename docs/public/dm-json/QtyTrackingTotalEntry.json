@@ -1,0 +1,77 @@
+{
+  "entity" : "QtyTrackingTotalEntry",
+  "table" : "QtyTrackingTotalEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/QtyTrackingTotalEntry.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "item",
+    "column" : "item_id",
+    "ar" : "الصنف",
+    "en" : "Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "originQuantity",
+    "column" : "originQuantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "rootDocument",
+    "columns" : [ "rootDocumentActualCode", " rootDocumentCode", " rootDocumentEntityType", " rootDocumentId" ],
+    "ar" : " مستند توصيل رئيسي",
+    "en" : " Root Delivery Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "rootLineId",
+    "column" : "rootLineId",
+    "type" : "ID"
+  }, {
+    "id" : "rootLineNumber",
+    "column" : "rootLineNumber",
+    "type" : "Integer"
+  }, {
+    "id" : "satisfiedQty",
+    "column" : "satisfiedQty",
+    "ar" : "نفذت",
+    "en" : "Satisfied Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "satisfiedQty2",
+    "column" : "satisfiedQty2",
+    "ar" : "نفذت 2",
+    "en" : "Satisfied Qty 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "searchIdx",
+    "column" : "searchIdx",
+    "type" : "Text"
+  }, {
+    "id" : "unsatisfiedQty",
+    "column" : "unsatisfiedQty",
+    "ar" : "الكمية الغير مستلمة",
+    "en" : "Unsatisfied Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "unsatisfiedQty2",
+    "column" : "unsatisfiedQty2",
+    "ar" : "الكمية الغير مستلمة 2",
+    "en" : "Unsatisfied Quantity 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "userSatisfiedQty",
+    "column" : "userSatisfiedQty",
+    "ar" : "الكمية المسلمة يدويا",
+    "en" : "Manually Satisfied Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "userSatisfiedQty2",
+    "column" : "userSatisfiedQty2",
+    "ar" : "الكمية المسلمة يدويا 2",
+    "en" : "Manually Satisfied Qty 2",
+    "type" : "Decimal"
+  } ]
+}

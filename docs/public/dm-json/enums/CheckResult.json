@@ -1,0 +1,16 @@
+{
+  "enum" : "CheckResult",
+  "values" : [ {
+    "id" : "NotApplicabe",
+    "ar" : "غير مطبق",
+    "en" : "Not Applicable"
+  }, {
+    "id" : "Approved",
+    "ar" : "مقبول",
+    "en" : "Approved"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  } ]
+}

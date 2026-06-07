@@ -1,0 +1,83 @@
+{
+  "entity" : "FAMovementEntry",
+  "table" : "FAMovementEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/FAMovementEntry.html",
+  "fields" : [ {
+    "id" : "addedCount",
+    "column" : "addedCount",
+    "ar" : "العدد المضاف",
+    "en" : "Added Count",
+    "type" : "Integer"
+  }, {
+    "id" : "asset",
+    "column" : "asset_id",
+    "ar" : "الأصل",
+    "en" : "Asset",
+    "type" : "Reference",
+    "refTo" : "FixedAsset",
+    "refPath" : "/modules/fixedassets/FixedAsset.html"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "custodian",
+    "column" : "custodian_id",
+    "ar" : "مسئول العهدة",
+    "en" : "Custodian",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "faLocation",
+    "column" : "faLocation_id",
+    "ar" : " موقع أصول",
+    "en" : " Asset Location",
+    "type" : "Reference",
+    "refTo" : "FALocation",
+    "refPath" : "/modules/fixedassets/FALocation.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "inCount",
+    "column" : "inCount",
+    "type" : "Integer"
+  }, {
+    "id" : "lineNumber",
+    "column" : "lineNumber",
+    "ar" : "رقم السطر",
+    "en" : "Line Number",
+    "type" : "Integer"
+  }, {
+    "id" : "origin",
+    "columns" : [ "originActualCode", " originCode", " originEntityType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "outCount",
+    "column" : "outCount",
+    "ar" : "العدد بالخارج",
+    "en" : "Out Count",
+    "type" : "Integer"
+  }, {
+    "id" : "refId",
+    "column" : "refId",
+    "type" : "ID"
+  }, {
+    "id" : "removedCount",
+    "column" : "removedCount",
+    "type" : "Integer"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

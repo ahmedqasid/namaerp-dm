@@ -1,0 +1,28 @@
+{
+  "enum" : "LCActionType",
+  "values" : [ {
+    "id" : "Promot",
+    "ar" : "التعزيز",
+    "en" : "Promot"
+  }, {
+    "id" : "Clearance",
+    "ar" : "تخليص جمركى",
+    "en" : "Clearance Company"
+  }, {
+    "id" : "Cancellation",
+    "ar" : "إلغاء",
+    "en" : "Cancellation"
+  }, {
+    "id" : "InsurancePolicy",
+    "ar" : "بوليصة تأمين",
+    "en" : "Insurance Policy"
+  }, {
+    "id" : "ShippingPolicy",
+    "ar" : "بوليصة شحن",
+    "en" : "Shipping Policy"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  } ]
+}

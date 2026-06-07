@@ -1,0 +1,63 @@
+{
+  "entity" : "REInvestmentFundInvestor",
+  "table" : "REInvestmentFundInvestor",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/REInvestmentFundInvestor.html",
+  "fields" : [ {
+    "id" : "currentInvestment",
+    "column" : "currentInvestment",
+    "ar" : "قيمة الاستثمار الحالية",
+    "en" : "Current Investment",
+    "type" : "Decimal"
+  }, {
+    "id" : "doNotDeductManagementPercentage",
+    "column" : "doNotDeductManagementPercentage",
+    "ar" : "عدم خصم نسبة الإدارة",
+    "en" : "Do Not Deduct Management Percentage",
+    "type" : "Boolean"
+  }, {
+    "id" : "fullExitDate",
+    "column" : "fullExitDate",
+    "ar" : "تاريخ الخروج الكلي من الصندوق",
+    "en" : "Full Exit Date",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "investmentFund",
+    "column" : "investmentFund_id",
+    "type" : "Reference",
+    "refTo" : "REInvestmentFund",
+    "refPath" : "/modules/realestate/REInvestmentFund.html"
+  }, {
+    "id" : "investor",
+    "column" : "investor_id",
+    "ar" : "مستثمر",
+    "en" : "Investor",
+    "type" : "Reference",
+    "refTo" : "REOwner",
+    "refPath" : "/modules/realestate/REOwner.html"
+  }, {
+    "id" : "joinDate",
+    "column" : "joinDate",
+    "ar" : "تاريخ دخول الصندوق",
+    "en" : "Join Date",
+    "type" : "Date"
+  }, {
+    "id" : "mainInvestor",
+    "column" : "mainInvestor_id",
+    "ar" : "المستثمر الرئيسي",
+    "en" : "Main Investor",
+    "type" : "Reference",
+    "refTo" : "REOwner",
+    "refPath" : "/modules/realestate/REOwner.html"
+  }, {
+    "id" : "mainInvestorCommissionPercentage",
+    "column" : "mainInvestorCommissionPercentage",
+    "ar" : "نسبة عمولة المستثمر الرئيسي",
+    "en" : "Main Investor Commission Percentage",
+    "type" : "Decimal"
+  } ]
+}

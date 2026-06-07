@@ -1,0 +1,16 @@
+{
+  "enum" : "WarehouseType",
+  "values" : [ {
+    "id" : "Storage",
+    "ar" : "تخزين",
+    "en" : "Storage"
+  }, {
+    "id" : "WIP",
+    "ar" : "صالة تصنيع",
+    "en" : "WIP"
+  }, {
+    "id" : "Inspection",
+    "ar" : "فحص",
+    "en" : "Inspection"
+  } ]
+}

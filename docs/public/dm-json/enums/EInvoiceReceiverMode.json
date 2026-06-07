@@ -1,0 +1,14 @@
+{
+  "enum" : "EInvoiceReceiverMode",
+  "values" : [ {
+    "id" : "Direct",
+    "ar" : "مباشر",
+    "en" : "Direct"
+  }, {
+    "id" : "IntermediaryServer"
+  }, {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  } ]
+}

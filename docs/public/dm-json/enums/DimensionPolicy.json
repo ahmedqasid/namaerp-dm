@@ -1,0 +1,16 @@
+{
+  "enum" : "DimensionPolicy",
+  "values" : [ {
+    "id" : "Required",
+    "ar" : "إجبارى",
+    "en" : "Required"
+  }, {
+    "id" : "Optional",
+    "ar" : "اختياري",
+    "en" : "Optional"
+  }, {
+    "id" : "Prevented",
+    "ar" : "ممنوع",
+    "en" : "Prevented"
+  } ]
+}

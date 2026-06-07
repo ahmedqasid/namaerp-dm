@@ -1,0 +1,147 @@
+{
+  "entity" : "SrvcMaterialEntry",
+  "table" : "SrvcMaterialEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SrvcMaterialEntry.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "invItem",
+    "column" : "invItem_id",
+    "ar" : " الصنف",
+    "en" : " Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "issuedQty",
+    "column" : "issuedQty",
+    "ar" : "منصرف",
+    "en" : "Issued Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "itemSpecificDimensions.activePerc",
+    "column" : "activePerc",
+    "ar" : "النسبة الفعالة",
+    "en" : "Active Percentage",
+    "type" : "Text"
+  }, {
+    "id" : "itemSpecificDimensions.box",
+    "column" : "box",
+    "ar" : "صندوق",
+    "en" : "Box",
+    "type" : "Text"
+  }, {
+    "id" : "itemSpecificDimensions.color",
+    "column" : "color",
+    "ar" : "اللون",
+    "en" : "Color",
+    "type" : "Color"
+  }, {
+    "id" : "itemSpecificDimensions.inactivePerc",
+    "column" : "inactivePerc",
+    "ar" : "النسبة الغير فعالة",
+    "en" : "Inactive Percentage",
+    "type" : "Text"
+  }, {
+    "id" : "itemSpecificDimensions.locator",
+    "column" : "locator_id",
+    "ar" : "الموقع",
+    "en" : "Locator",
+    "type" : "Reference",
+    "refTo" : "Locator",
+    "refPath" : "/modules/supplychain/Locator.html"
+  }, {
+    "id" : "itemSpecificDimensions.lotId",
+    "column" : "lotId",
+    "ar" : "كود الشحنة",
+    "en" : "Lot ID",
+    "type" : "Text"
+  }, {
+    "id" : "itemSpecificDimensions.measures",
+    "column" : "measures",
+    "ar" : "الأبعاد",
+    "en" : "Measures",
+    "type" : "Measures"
+  }, {
+    "id" : "itemSpecificDimensions.revisionId",
+    "column" : "revisionId",
+    "ar" : "الإصدار",
+    "en" : "ID",
+    "type" : "Text"
+  }, {
+    "id" : "itemSpecificDimensions.secondSerial",
+    "column" : "secondSerial",
+    "ar" : "الرقم المسلسل الثاني",
+    "en" : "Second Serial",
+    "type" : "BigText"
+  }, {
+    "id" : "itemSpecificDimensions.serialNumber",
+    "column" : "serialNumber",
+    "ar" : "الرقم المسلسل",
+    "en" : "Serial Number",
+    "type" : "BigText"
+  }, {
+    "id" : "itemSpecificDimensions.size",
+    "column" : "size",
+    "ar" : "المقاس",
+    "en" : "Size",
+    "type" : "Text"
+  }, {
+    "id" : "itemSpecificDimensions.subItem",
+    "column" : "subItem_id",
+    "ar" : " السياره",
+    "en" : " Customer Car",
+    "type" : "Reference",
+    "refTo" : "SubItem",
+    "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+  }, {
+    "id" : "itemSpecificDimensions.warehouse",
+    "column" : "warehouse_id",
+    "ar" : "المخزن",
+    "en" : "Warehouse",
+    "type" : "Reference",
+    "refTo" : "Warehouse",
+    "refPath" : "/modules/supplychain/Warehouse.html"
+  }, {
+    "id" : "returnedQty",
+    "column" : "returnedQty",
+    "ar" : "المرتجع",
+    "en" : "Return Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "srvCJobOrder",
+    "column" : "srvCJobOrder_id",
+    "ar" : "أمر شغل",
+    "en" : "Service Center Job Order",
+    "type" : "Reference",
+    "refTo" : "SrvCJobOrder",
+    "refPath" : "/modules/srvcenter/SrvCJobOrder.html"
+  }, {
+    "id" : "totalQty",
+    "column" : "totalQty",
+    "ar" : "الكمية الإجمالية",
+    "en" : "Total Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "transferIssuedQty",
+    "column" : "transferIssuedQty",
+    "ar" : "منصرف (بتحويل)",
+    "en" : "Transfer Issued Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "transferReturnedQty",
+    "column" : "transferReturnedQty",
+    "ar" : "مرتجع( بتحويل)",
+    "en" : "Transfer Retruned Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "unitPrice",
+    "column" : "unitPrice",
+    "ar" : "سعر الوحدة",
+    "en" : "Unit Price",
+    "type" : "Decimal"
+  } ]
+}

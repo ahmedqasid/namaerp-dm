@@ -1,0 +1,20 @@
+{
+  "enum" : "AddedUserType",
+  "values" : [ {
+    "id" : "Supplier",
+    "ar" : "مورد",
+    "en" : "Supplier"
+  }, {
+    "id" : "Customer",
+    "ar" : "عميل",
+    "en" : "Customer"
+  }, {
+    "id" : "Contractor",
+    "ar" : "مقاول باطن",
+    "en" : "Contractor"
+  }, {
+    "id" : "Employee",
+    "ar" : "موظف",
+    "en" : "Employee"
+  } ]
+}

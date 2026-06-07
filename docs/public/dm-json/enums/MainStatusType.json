@@ -1,0 +1,24 @@
+{
+  "enum" : "MainStatusType",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Consignments",
+    "ar" : "بضاعة الامانات",
+    "en" : "Consignments"
+  }, {
+    "id" : "Stocks",
+    "ar" : "مخزونات الشركة",
+    "en" : "Stocks"
+  }, {
+    "id" : "Purchases",
+    "ar" : "المشتريات",
+    "en" : "Purchases"
+  }, {
+    "id" : "Sales",
+    "ar" : "مبيعات",
+    "en" : "Sales"
+  } ]
+}

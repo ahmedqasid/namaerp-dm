@@ -1,0 +1,832 @@
+{
+  "entity" : "CustomReportMenu",
+  "table" : "CustomReportMenu",
+  "module" : "basic",
+  "ar" : "قائمة تقارير مخصصة",
+  "arPlural" : "قوائم تقارير مخصصة",
+  "en" : "Custom Report Menu",
+  "enPlural" : "Custom Report Menus",
+  "page" : "https://dm.namasoft.com/modules/basic/CustomReportMenu.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "implRepo",
+    "column" : "implRepo_id",
+    "ar" : "كتالوج التجهيز",
+    "en" : "Implementation Repository",
+    "type" : "Reference",
+    "refTo" : "ImplementationRepository",
+    "refPath" : "/modules/basic/ImplementationRepository.html"
+  }, {
+    "id" : "inActive",
+    "column" : "inActive",
+    "ar" : "غير نشط",
+    "en" : "Inactive",
+    "type" : "Boolean"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "launchType",
+    "column" : "launchType",
+    "ar" : "طريقة البدء",
+    "en" : "Launch Type",
+    "type" : "Enum",
+    "enum" : "CustomRepLaunchType"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "pdfSample",
+    "column" : "pdfSample_id",
+    "ar" : "PDF Sample",
+    "en" : "PDF Sample",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "priority",
+    "column" : "priority",
+    "ar" : "الأولوية",
+    "en" : "Priority",
+    "type" : "Integer"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "relatedEntity1",
+    "column" : "relatedEntity1",
+    "ar" : "السجل المرتبط 1",
+    "en" : "Related Entity1",
+    "type" : "Text"
+  }, {
+    "id" : "relatedEntity2",
+    "column" : "relatedEntity2",
+    "ar" : "السجل المرتبط 2",
+    "en" : "Related Entity2",
+    "type" : "Text"
+  }, {
+    "id" : "relatedToModule1",
+    "column" : "relatedToModule1",
+    "ar" : "الموديول المرتبط 1",
+    "en" : "Related To Module 1",
+    "type" : "Text"
+  }, {
+    "id" : "relatedToModule2",
+    "column" : "relatedToModule2",
+    "ar" : "الموديول المرتبط 2",
+    "en" : "Related To Module 2",
+    "type" : "Text"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "saveToImplRepo",
+    "column" : "saveToImplRepo",
+    "ar" : "الحفظ في كتالوج التجهيز",
+    "en" : "Save To Implementation Repository",
+    "type" : "Boolean"
+  }, {
+    "id" : "screenshot",
+    "column" : "screenshot_id",
+    "ar" : "Screenshot",
+    "en" : "Screenshot",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "systemReport",
+    "column" : "systemReport",
+    "ar" : "نظامي",
+    "en" : "System",
+    "type" : "Boolean"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "lines",
+    "table" : "CustomRepLine",
+    "joinColumn" : "customReportMenu_id",
+    "ar" : " التفاصيل",
+    "en" : " Details",
+    "fields" : [ {
+      "id" : "lines.applicableFor",
+      "column" : "applicableFor",
+      "ar" : "مطبق على",
+      "en" : "Applicable For",
+      "type" : "Enum",
+      "enum" : "CriteriaValidatorApplicability"
+    }, {
+      "id" : "lines.arabic",
+      "column" : "arabic",
+      "ar" : "عنوان عربي",
+      "en" : "Arabic",
+      "type" : "Text"
+    }, {
+      "id" : "lines.combineInOneReportWhenPrintingFromListView",
+      "column" : "combineInOneReportWhenPrintingFromListView",
+      "ar" : "دمج في تقرير واحد عند الطباعة من شاشة القائمة",
+      "en" : "Combine In One Report When Printing From List View",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.english",
+      "column" : "english",
+      "ar" : "عنوان إنجليزي",
+      "en" : "English",
+      "type" : "Text"
+    }, {
+      "id" : "lines.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "lines.entityType",
+      "column" : "entityType",
+      "ar" : "النوع",
+      "en" : "Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "lines.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "lines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "lines.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.launchType",
+      "column" : "launchType",
+      "ar" : "طريقة البدء",
+      "en" : "Launch Type",
+      "type" : "Enum",
+      "enum" : "CustomRepLaunchType"
+    }, {
+      "id" : "lines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "lines.p1.overrideParamter",
+      "column" : "p1OverrideParamter",
+      "ar" : "1|إخفاء في الاسئلة",
+      "en" : "1|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.p1.parameterName",
+      "column" : "p1ParameterName",
+      "ar" : "1|المدخل",
+      "en" : "1|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "lines.p1.sourceField",
+      "column" : "p1SourceField",
+      "ar" : "1|المصدر",
+      "en" : "1|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "lines.p2.overrideParamter",
+      "column" : "p2OverrideParamter",
+      "ar" : "2|إخفاء في الاسئلة",
+      "en" : "2|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.p2.parameterName",
+      "column" : "p2ParameterName",
+      "ar" : "2|المدخل",
+      "en" : "2|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "lines.p2.sourceField",
+      "column" : "p2SourceField",
+      "ar" : "2|المصدر",
+      "en" : "2|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "lines.p3.overrideParamter",
+      "column" : "p3OverrideParamter",
+      "ar" : "3|إخفاء في الاسئلة",
+      "en" : "3|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.p3.parameterName",
+      "column" : "p3ParameterName",
+      "ar" : "3|المدخل",
+      "en" : "3|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "lines.p3.sourceField",
+      "column" : "p3SourceField",
+      "ar" : "3|المصدر",
+      "en" : "3|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "lines.p4.overrideParamter",
+      "column" : "p4OverrideParamter",
+      "ar" : "4|إخفاء في الاسئلة",
+      "en" : "4|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.p4.parameterName",
+      "column" : "p4ParameterName",
+      "ar" : "4|المدخل",
+      "en" : "4|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "lines.p4.sourceField",
+      "column" : "p4SourceField",
+      "ar" : "4|المصدر",
+      "en" : "4|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "lines.p5.overrideParamter",
+      "column" : "p5OverrideParamter",
+      "ar" : "5|إخفاء في الاسئلة",
+      "en" : "5|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.p5.parameterName",
+      "column" : "p5ParameterName",
+      "ar" : "5|المدخل",
+      "en" : "5|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "lines.p5.sourceField",
+      "column" : "p5SourceField",
+      "ar" : "5|المصدر",
+      "en" : "5|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "lines.p6.overrideParamter",
+      "column" : "p6OverrideParamter",
+      "ar" : "6|إخفاء في الاسئلة",
+      "en" : "6|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.p6.parameterName",
+      "column" : "p6ParameterName",
+      "ar" : "6|المدخل",
+      "en" : "6|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "lines.p6.sourceField",
+      "column" : "p6SourceField",
+      "ar" : "6|المصدر",
+      "en" : "6|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "lines.p7.overrideParamter",
+      "column" : "p7OverrideParamter",
+      "ar" : "7|إخفاء في الاسئلة",
+      "en" : "7|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.p7.parameterName",
+      "column" : "p7ParameterName",
+      "ar" : "7|المدخل",
+      "en" : "7|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "lines.p7.sourceField",
+      "column" : "p7SourceField",
+      "ar" : "7|المصدر",
+      "en" : "7|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "lines.p8.overrideParamter",
+      "column" : "p8OverrideParamter",
+      "ar" : "8|إخفاء في الاسئلة",
+      "en" : "8|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.p8.parameterName",
+      "column" : "p8ParameterName",
+      "ar" : "8|المدخل",
+      "en" : "8|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "lines.p8.sourceField",
+      "column" : "p8SourceField",
+      "ar" : "8|المصدر",
+      "en" : "8|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "lines.p9.overrideParamter",
+      "column" : "p9OverrideParamter",
+      "ar" : "9|إخفاء في الاسئلة",
+      "en" : "9|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.p9.parameterName",
+      "column" : "p9ParameterName",
+      "ar" : "9|المدخل",
+      "en" : "9|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "lines.p9.sourceField",
+      "column" : "p9SourceField",
+      "ar" : "9|المصدر",
+      "en" : "9|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "lines.reportDefinition",
+      "column" : "reportDefinition_id",
+      "ar" : "تعريف التقرير",
+      "en" : "Report Definition",
+      "type" : "Reference",
+      "refTo" : "ReportDefinition",
+      "refPath" : "/modules/basic/ReportDefinition.html"
+    }, {
+      "id" : "lines.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    }, {
+      "id" : "lines.selectedRecordsOnly",
+      "column" : "selectedRecordsOnly",
+      "ar" : "السطور المختارة فقط",
+      "en" : "Selected Records Only",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.showIn",
+      "column" : "showIn",
+      "ar" : "عرض في",
+      "en" : "Show In",
+      "type" : "Enum",
+      "enum" : "ShowCustomRepIn"
+    } ]
+  } ]
+}

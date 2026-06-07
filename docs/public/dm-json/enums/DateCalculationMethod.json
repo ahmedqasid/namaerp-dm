@@ -1,0 +1,24 @@
+{
+  "enum" : "DateCalculationMethod",
+  "values" : [ {
+    "id" : "TodayDate",
+    "ar" : "تاريخ اليوم",
+    "en" : "Today's Date"
+  }, {
+    "id" : "MonthStart",
+    "ar" : "بداية الشهر",
+    "en" : "Month Start"
+  }, {
+    "id" : "MonthEnd",
+    "ar" : "نهاية الشهر",
+    "en" : "Month End"
+  }, {
+    "id" : "YearStart",
+    "ar" : "بداية العام",
+    "en" : "Year Start"
+  }, {
+    "id" : "YearEnd",
+    "ar" : "نهاية العام",
+    "en" : "Year End"
+  } ]
+}

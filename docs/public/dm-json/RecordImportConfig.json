@@ -1,0 +1,1537 @@
+{
+  "entity" : "RecordImportConfig",
+  "table" : "RecordImportConfig",
+  "module" : "basic-advanced-import",
+  "ar" : "إعدادات استيراد سجلات",
+  "arPlural" : "إعدادات استيراد سجلات",
+  "en" : "Record Import Configuration",
+  "enPlural" : "Record Import Configurations",
+  "page" : "https://dm.namasoft.com/modules/basic-advanced-import/RecordImportConfig.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "d1SampleWorkbook",
+    "column" : "d1SampleWorkbook_id",
+    "ar" : "Detail 1 Sample Workbook",
+    "en" : "Detail 1 Sample Workbook",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "d2SampleWorkbook",
+    "column" : "d2SampleWorkbook_id",
+    "ar" : "Detail 2 Sample Workbook",
+    "en" : "Detail 2 Sample Workbook",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "d3SampleWorkbook",
+    "column" : "d3SampleWorkbook_id",
+    "ar" : "Detail 3 Sample Workbook",
+    "en" : "Detail 3 Sample Workbook",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "d4SampleWorkbook",
+    "column" : "d4SampleWorkbook_id",
+    "ar" : "Detail 4 Sample Workbook",
+    "en" : "Detail 4 Sample Workbook",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "d5SampleWorkbook",
+    "column" : "d5SampleWorkbook_id",
+    "ar" : "Detail 5 Sample Workbook",
+    "en" : "Detail 5 Sample Workbook",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "detail1.detailField",
+    "column" : "d1DetailField",
+    "ar" : "معرف السطور",
+    "en" : "Detail Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "detail1.detailLinkField",
+    "column" : "d1DetailLinkField",
+    "ar" : "Detail Link Field",
+    "en" : "Detail Link Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "detail1.headerLinkField",
+    "column" : "d1HeaderLinkField",
+    "ar" : "Header Link Field",
+    "en" : "Header Link Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "detail1.ignoreLinesFromEnd",
+    "column" : "d1IgnoreLinesFromEnd",
+    "ar" : "Ignore Lines From End",
+    "en" : "Ignore Lines From End",
+    "type" : "Integer"
+  }, {
+    "id" : "detail1.ignoreLinesFromTop",
+    "column" : "d1IgnoreLinesFromTop",
+    "ar" : "Ignore Lines From Top",
+    "en" : "Ignore Lines From Top",
+    "type" : "Integer"
+  }, {
+    "id" : "detail1.sheetNameOrIndex",
+    "column" : "d1SheetNameOrIndex",
+    "ar" : "اسم الشيت أو رقمه",
+    "en" : "Sheet Name Or Index",
+    "type" : "Text"
+  }, {
+    "id" : "detail1.skipLineIfMatchedWith",
+    "column" : "d1SkipLineIfMatchedWith",
+    "ar" : "Skip Line If Matched With Query",
+    "en" : "Skip Line If Matched With Query",
+    "type" : "BigText"
+  }, {
+    "id" : "detail1.titlesRowNumber",
+    "column" : "d1TitlesRowNumber",
+    "ar" : "رقم سطر عناوين الخلايا",
+    "en" : "Cell Titles Row Number",
+    "type" : "Integer"
+  }, {
+    "id" : "detail1.uniqueByExpression",
+    "column" : "d1UniqueByExpression",
+    "ar" : "Unique By Expression",
+    "en" : "Unique By Expression",
+    "type" : "BigText"
+  }, {
+    "id" : "detail1.uniqueByExpressionType",
+    "column" : "d1UniqueByExpressionType",
+    "ar" : "Unique By Expression Type",
+    "en" : "Unique By Expression Type",
+    "type" : "Enum",
+    "enum" : "ImportExpressionType"
+  }, {
+    "id" : "detail1.workbookId",
+    "column" : "d1WorkbookId",
+    "ar" : "معرف الملف",
+    "en" : "Workbook ID",
+    "type" : "Text"
+  }, {
+    "id" : "detail2.detailField",
+    "column" : "d2DetailField",
+    "ar" : "معرف السطور",
+    "en" : "Detail Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "detail2.detailLinkField",
+    "column" : "d2DetailLinkField",
+    "ar" : "Detail Link Field",
+    "en" : "Detail Link Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "detail2.headerLinkField",
+    "column" : "d2HeaderLinkField",
+    "ar" : "Header Link Field",
+    "en" : "Header Link Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "detail2.ignoreLinesFromEnd",
+    "column" : "d2IgnoreLinesFromEnd",
+    "ar" : "Ignore Lines From End",
+    "en" : "Ignore Lines From End",
+    "type" : "Integer"
+  }, {
+    "id" : "detail2.ignoreLinesFromTop",
+    "column" : "d2IgnoreLinesFromTop",
+    "ar" : "Ignore Lines From Top",
+    "en" : "Ignore Lines From Top",
+    "type" : "Integer"
+  }, {
+    "id" : "detail2.sheetNameOrIndex",
+    "column" : "d2SheetNameOrIndex",
+    "ar" : "اسم الشيت أو رقمه",
+    "en" : "Sheet Name Or Index",
+    "type" : "Text"
+  }, {
+    "id" : "detail2.skipLineIfMatchedWith",
+    "column" : "d2SkipLineIfMatchedWith",
+    "ar" : "Skip Line If Matched With Query",
+    "en" : "Skip Line If Matched With Query",
+    "type" : "BigText"
+  }, {
+    "id" : "detail2.titlesRowNumber",
+    "column" : "d2TitlesRowNumber",
+    "ar" : "رقم سطر عناوين الخلايا",
+    "en" : "Cell Titles Row Number",
+    "type" : "Integer"
+  }, {
+    "id" : "detail2.uniqueByExpression",
+    "column" : "d2UniqueByExpression",
+    "ar" : "Unique By Expression",
+    "en" : "Unique By Expression",
+    "type" : "BigText"
+  }, {
+    "id" : "detail2.uniqueByExpressionType",
+    "column" : "d2UniqueByExpressionType",
+    "ar" : "Unique By Expression Type",
+    "en" : "Unique By Expression Type",
+    "type" : "Enum",
+    "enum" : "ImportExpressionType"
+  }, {
+    "id" : "detail2.workbookId",
+    "column" : "d2WorkbookId",
+    "ar" : "معرف الملف",
+    "en" : "Workbook ID",
+    "type" : "Text"
+  }, {
+    "id" : "detail3.detailField",
+    "column" : "d3DetailField",
+    "ar" : "معرف السطور",
+    "en" : "Detail Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "detail3.detailLinkField",
+    "column" : "d3DetailLinkField",
+    "ar" : "Detail Link Field",
+    "en" : "Detail Link Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "detail3.headerLinkField",
+    "column" : "d3HeaderLinkField",
+    "ar" : "Header Link Field",
+    "en" : "Header Link Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "detail3.ignoreLinesFromEnd",
+    "column" : "d3IgnoreLinesFromEnd",
+    "ar" : "Ignore Lines From End",
+    "en" : "Ignore Lines From End",
+    "type" : "Integer"
+  }, {
+    "id" : "detail3.ignoreLinesFromTop",
+    "column" : "d3IgnoreLinesFromTop",
+    "ar" : "Ignore Lines From Top",
+    "en" : "Ignore Lines From Top",
+    "type" : "Integer"
+  }, {
+    "id" : "detail3.sheetNameOrIndex",
+    "column" : "d3SheetNameOrIndex",
+    "ar" : "اسم الشيت أو رقمه",
+    "en" : "Sheet Name Or Index",
+    "type" : "Text"
+  }, {
+    "id" : "detail3.skipLineIfMatchedWith",
+    "column" : "d3SkipLineIfMatchedWith",
+    "ar" : "Skip Line If Matched With Query",
+    "en" : "Skip Line If Matched With Query",
+    "type" : "BigText"
+  }, {
+    "id" : "detail3.titlesRowNumber",
+    "column" : "d3TitlesRowNumber",
+    "ar" : "رقم سطر عناوين الخلايا",
+    "en" : "Cell Titles Row Number",
+    "type" : "Integer"
+  }, {
+    "id" : "detail3.uniqueByExpression",
+    "column" : "d3UniqueByExpression",
+    "ar" : "Unique By Expression",
+    "en" : "Unique By Expression",
+    "type" : "BigText"
+  }, {
+    "id" : "detail3.uniqueByExpressionType",
+    "column" : "d3UniqueByExpressionType",
+    "ar" : "Unique By Expression Type",
+    "en" : "Unique By Expression Type",
+    "type" : "Enum",
+    "enum" : "ImportExpressionType"
+  }, {
+    "id" : "detail3.workbookId",
+    "column" : "d3WorkbookId",
+    "ar" : "معرف الملف",
+    "en" : "Workbook ID",
+    "type" : "Text"
+  }, {
+    "id" : "detail4.detailField",
+    "column" : "d4DetailField",
+    "ar" : "معرف السطور",
+    "en" : "Detail Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "detail4.detailLinkField",
+    "column" : "d4DetailLinkField",
+    "ar" : "Detail Link Field",
+    "en" : "Detail Link Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "detail4.headerLinkField",
+    "column" : "d4HeaderLinkField",
+    "ar" : "Header Link Field",
+    "en" : "Header Link Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "detail4.ignoreLinesFromEnd",
+    "column" : "d4IgnoreLinesFromEnd",
+    "ar" : "Ignore Lines From End",
+    "en" : "Ignore Lines From End",
+    "type" : "Integer"
+  }, {
+    "id" : "detail4.ignoreLinesFromTop",
+    "column" : "d4IgnoreLinesFromTop",
+    "ar" : "Ignore Lines From Top",
+    "en" : "Ignore Lines From Top",
+    "type" : "Integer"
+  }, {
+    "id" : "detail4.sheetNameOrIndex",
+    "column" : "d4SheetNameOrIndex",
+    "ar" : "اسم الشيت أو رقمه",
+    "en" : "Sheet Name Or Index",
+    "type" : "Text"
+  }, {
+    "id" : "detail4.skipLineIfMatchedWith",
+    "column" : "d4SkipLineIfMatchedWith",
+    "ar" : "Skip Line If Matched With Query",
+    "en" : "Skip Line If Matched With Query",
+    "type" : "BigText"
+  }, {
+    "id" : "detail4.titlesRowNumber",
+    "column" : "d4TitlesRowNumber",
+    "ar" : "رقم سطر عناوين الخلايا",
+    "en" : "Cell Titles Row Number",
+    "type" : "Integer"
+  }, {
+    "id" : "detail4.uniqueByExpression",
+    "column" : "d4UniqueByExpression",
+    "ar" : "Unique By Expression",
+    "en" : "Unique By Expression",
+    "type" : "BigText"
+  }, {
+    "id" : "detail4.uniqueByExpressionType",
+    "column" : "d4UniqueByExpressionType",
+    "ar" : "Unique By Expression Type",
+    "en" : "Unique By Expression Type",
+    "type" : "Enum",
+    "enum" : "ImportExpressionType"
+  }, {
+    "id" : "detail4.workbookId",
+    "column" : "d4WorkbookId",
+    "ar" : "معرف الملف",
+    "en" : "Workbook ID",
+    "type" : "Text"
+  }, {
+    "id" : "detail5.detailField",
+    "column" : "d5DetailField",
+    "ar" : "معرف السطور",
+    "en" : "Detail Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "detail5.detailLinkField",
+    "column" : "d5DetailLinkField",
+    "ar" : "Detail Link Field",
+    "en" : "Detail Link Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "detail5.headerLinkField",
+    "column" : "d5HeaderLinkField",
+    "ar" : "Header Link Field",
+    "en" : "Header Link Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "detail5.ignoreLinesFromEnd",
+    "column" : "d5IgnoreLinesFromEnd",
+    "ar" : "Ignore Lines From End",
+    "en" : "Ignore Lines From End",
+    "type" : "Integer"
+  }, {
+    "id" : "detail5.ignoreLinesFromTop",
+    "column" : "d5IgnoreLinesFromTop",
+    "ar" : "Ignore Lines From Top",
+    "en" : "Ignore Lines From Top",
+    "type" : "Integer"
+  }, {
+    "id" : "detail5.sheetNameOrIndex",
+    "column" : "d5SheetNameOrIndex",
+    "ar" : "اسم الشيت أو رقمه",
+    "en" : "Sheet Name Or Index",
+    "type" : "Text"
+  }, {
+    "id" : "detail5.skipLineIfMatchedWith",
+    "column" : "d5SkipLineIfMatchedWith",
+    "ar" : "Skip Line If Matched With Query",
+    "en" : "Skip Line If Matched With Query",
+    "type" : "BigText"
+  }, {
+    "id" : "detail5.titlesRowNumber",
+    "column" : "d5TitlesRowNumber",
+    "ar" : "رقم سطر عناوين الخلايا",
+    "en" : "Cell Titles Row Number",
+    "type" : "Integer"
+  }, {
+    "id" : "detail5.uniqueByExpression",
+    "column" : "d5UniqueByExpression",
+    "ar" : "Unique By Expression",
+    "en" : "Unique By Expression",
+    "type" : "BigText"
+  }, {
+    "id" : "detail5.uniqueByExpressionType",
+    "column" : "d5UniqueByExpressionType",
+    "ar" : "Unique By Expression Type",
+    "en" : "Unique By Expression Type",
+    "type" : "Enum",
+    "enum" : "ImportExpressionType"
+  }, {
+    "id" : "detail5.workbookId",
+    "column" : "d5WorkbookId",
+    "ar" : "معرف الملف",
+    "en" : "Workbook ID",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "excelFiles",
+    "column" : "excelFiles_id",
+    "ar" : "ملفات الإكسيل الناتجة",
+    "en" : "Result Excel Files",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "header.doNotAddRecords",
+    "column" : "hDoNotAddRecords",
+    "ar" : "عدم إضافة السجلات (تحديث فقط)",
+    "en" : "Do Not Add Records (Update Only)",
+    "type" : "Boolean"
+  }, {
+    "id" : "header.doNotUpdateRecords",
+    "column" : "hDoNotUpdateRecords",
+    "ar" : "عدم تحديث السجلات الموجودة (إضافة فقط)",
+    "en" : "Do Not Update Records (Add Only)",
+    "type" : "Boolean"
+  }, {
+    "id" : "header.ignoreLinesFromEnd",
+    "column" : "hIgnoreLinesFromEnd",
+    "ar" : "Ignore Lines From End",
+    "en" : "Ignore Lines From End",
+    "type" : "Integer"
+  }, {
+    "id" : "header.ignoreLinesFromTop",
+    "column" : "hIgnoreLinesFromTop",
+    "ar" : "Ignore Lines From Top",
+    "en" : "Ignore Lines From Top",
+    "type" : "Integer"
+  }, {
+    "id" : "header.importedType",
+    "column" : "hImportedType",
+    "ar" : "نوع السجل الذي تريد استيراده",
+    "en" : "Imported Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "header.saveAsDraft",
+    "column" : "hSaveAsDraft",
+    "ar" : "الحفظ كمسودة",
+    "en" : "Save As Draft",
+    "type" : "Boolean"
+  }, {
+    "id" : "header.sheetNameOrIndex",
+    "column" : "hSheetNameOrIndex",
+    "ar" : "اسم الشيت أو رقمه",
+    "en" : "Sheet Name Or Index",
+    "type" : "Text"
+  }, {
+    "id" : "header.skipLineIfMatchedWith",
+    "column" : "hSkipLineIfMatchedWith",
+    "ar" : "Skip Line If Matched With Query",
+    "en" : "Skip Line If Matched With Query",
+    "type" : "BigText"
+  }, {
+    "id" : "header.titlesRowNumber",
+    "column" : "hTitlesRowNumber",
+    "ar" : "رقم سطر عناوين الخلايا",
+    "en" : "Cell Titles Row Number",
+    "type" : "Integer"
+  }, {
+    "id" : "header.uniqueByExpression",
+    "column" : "hUniqueByExpression",
+    "ar" : "Unique By Expression",
+    "en" : "Unique By Expression",
+    "type" : "BigText"
+  }, {
+    "id" : "header.uniqueByExpressionType",
+    "column" : "hUniqueByExpressionType",
+    "ar" : "Unique By Expression Type",
+    "en" : "Unique By Expression Type",
+    "type" : "Enum",
+    "enum" : "ImportExpressionType"
+  }, {
+    "id" : "header.workbookId",
+    "column" : "hWorkbookId",
+    "ar" : "معرف الملف",
+    "en" : "Workbook ID",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "importList",
+    "column" : "importList_id",
+    "ar" : "قائمة الاستيراد",
+    "en" : "Import List",
+    "type" : "Reference",
+    "refTo" : "RecordImportList",
+    "refPath" : "/modules/basic-advanced-import/RecordImportList.html"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "resultFile",
+    "column" : "resultFile_id",
+    "ar" : "Result File (JSON)",
+    "en" : "Result File (JSON)",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sampleWorkbook",
+    "column" : "sampleWorkbook_id",
+    "ar" : "Sample Workbook",
+    "en" : "Sample Workbook",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "sheetHTML",
+    "column" : "sheetHTML",
+    "ar" : "Sheet HTML",
+    "en" : "Sheet HTML",
+    "type" : "BigText"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "detail1Fields",
+    "table" : "RecordImportConfigDetail1Field",
+    "joinColumn" : "recordImportConfig_id",
+    "ar" : "حقول سطور 1",
+    "en" : "Details 1 Fields",
+    "fields" : [ {
+      "id" : "detail1Fields.cellName",
+      "column" : "cellName",
+      "ar" : "الخلية",
+      "en" : "Cell Name",
+      "type" : "Text"
+    }, {
+      "id" : "detail1Fields.cellTitle",
+      "column" : "cellTitle",
+      "ar" : "عنوان الخلية",
+      "en" : "Cell Title",
+      "type" : "Text"
+    }, {
+      "id" : "detail1Fields.constantDateValue",
+      "column" : "constantDateValue",
+      "ar" : "تاريخ",
+      "en" : "Constant Date Value",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "detail1Fields.constantRefValue",
+      "columns" : [ "constantRefValueActualCode", " constantRefValueCode", " constantRefValueEntityType", " constantRefValueId" ],
+      "ar" : "مرجع",
+      "en" : "Constant Reference Value",
+      "type" : "Genericreference"
+    }, {
+      "id" : "detail1Fields.constantValue",
+      "column" : "constantValue",
+      "ar" : "القيمة الثابتة",
+      "en" : "Constant Value",
+      "type" : "Text"
+    }, {
+      "id" : "detail1Fields.dateFormats",
+      "column" : "dateFormats",
+      "ar" : "Date Formats (Separate by ##)",
+      "en" : "Date Formats (Separate by ##)",
+      "type" : "Text"
+    }, {
+      "id" : "detail1Fields.expression",
+      "column" : "expression",
+      "ar" : "Expression",
+      "en" : "Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "detail1Fields.expressionType",
+      "column" : "expressionType",
+      "ar" : "Expression Type",
+      "en" : "Expression Type",
+      "type" : "Enum",
+      "enum" : "ImportExpressionType"
+    }, {
+      "id" : "detail1Fields.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "detail1Fields.fieldType",
+      "column" : "fieldType",
+      "ar" : "نوع الحقل",
+      "en" : "Field Type",
+      "type" : "Text"
+    }, {
+      "id" : "detail1Fields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "detail1Fields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "detail1Fields.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "detail1Fields.skipFieldIfEmptyOrZero",
+      "column" : "skipFieldIfEmptyOrZero",
+      "ar" : "تجاهل الحقل إذا كان فارغا",
+      "en" : "Skip Field If Empty Or Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "detail1Fields.skipRowIfEmptyOrZero",
+      "column" : "skipRowIfEmptyOrZero",
+      "ar" : "تجاهل السطر بالكامل إذا كان الحقل فارغا",
+      "en" : "Skip Row If Empty Or Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "detail1Fields.useAsUniquenessKey",
+      "column" : "useAsUniquenessKey",
+      "ar" : "يستعمل لمنع التكرار",
+      "en" : "Use As Uniqueness Key",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "detail2Fields",
+    "table" : "RecordImportConfigDetail2Field",
+    "joinColumn" : "recordImportConfig_id",
+    "ar" : "حقول سطور 2",
+    "en" : "Details 2 Fields",
+    "fields" : [ {
+      "id" : "detail2Fields.cellName",
+      "column" : "cellName",
+      "ar" : "الخلية",
+      "en" : "Cell Name",
+      "type" : "Text"
+    }, {
+      "id" : "detail2Fields.cellTitle",
+      "column" : "cellTitle",
+      "ar" : "عنوان الخلية",
+      "en" : "Cell Title",
+      "type" : "Text"
+    }, {
+      "id" : "detail2Fields.constantDateValue",
+      "column" : "constantDateValue",
+      "ar" : "تاريخ",
+      "en" : "Constant Date Value",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "detail2Fields.constantRefValue",
+      "columns" : [ "constantRefValueActualCode", " constantRefValueCode", " constantRefValueEntityType", " constantRefValueId" ],
+      "ar" : "مرجع",
+      "en" : "Constant Reference Value",
+      "type" : "Genericreference"
+    }, {
+      "id" : "detail2Fields.constantValue",
+      "column" : "constantValue",
+      "ar" : "القيمة الثابتة",
+      "en" : "Constant Value",
+      "type" : "Text"
+    }, {
+      "id" : "detail2Fields.dateFormats",
+      "column" : "dateFormats",
+      "ar" : "Date Formats (Separate by ##)",
+      "en" : "Date Formats (Separate by ##)",
+      "type" : "Text"
+    }, {
+      "id" : "detail2Fields.expression",
+      "column" : "expression",
+      "ar" : "Expression",
+      "en" : "Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "detail2Fields.expressionType",
+      "column" : "expressionType",
+      "ar" : "Expression Type",
+      "en" : "Expression Type",
+      "type" : "Enum",
+      "enum" : "ImportExpressionType"
+    }, {
+      "id" : "detail2Fields.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "detail2Fields.fieldType",
+      "column" : "fieldType",
+      "ar" : "نوع الحقل",
+      "en" : "Field Type",
+      "type" : "Text"
+    }, {
+      "id" : "detail2Fields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "detail2Fields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "detail2Fields.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "detail2Fields.skipFieldIfEmptyOrZero",
+      "column" : "skipFieldIfEmptyOrZero",
+      "ar" : "تجاهل الحقل إذا كان فارغا",
+      "en" : "Skip Field If Empty Or Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "detail2Fields.skipRowIfEmptyOrZero",
+      "column" : "skipRowIfEmptyOrZero",
+      "ar" : "تجاهل السطر بالكامل إذا كان الحقل فارغا",
+      "en" : "Skip Row If Empty Or Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "detail2Fields.useAsUniquenessKey",
+      "column" : "useAsUniquenessKey",
+      "ar" : "يستعمل لمنع التكرار",
+      "en" : "Use As Uniqueness Key",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "detail3Fields",
+    "table" : "RecordImportConfigDetail3Field",
+    "joinColumn" : "recordImportConfig_id",
+    "ar" : "حقول سطور 3",
+    "en" : "Details 3 Fields",
+    "fields" : [ {
+      "id" : "detail3Fields.cellName",
+      "column" : "cellName",
+      "ar" : "الخلية",
+      "en" : "Cell Name",
+      "type" : "Text"
+    }, {
+      "id" : "detail3Fields.cellTitle",
+      "column" : "cellTitle",
+      "ar" : "عنوان الخلية",
+      "en" : "Cell Title",
+      "type" : "Text"
+    }, {
+      "id" : "detail3Fields.constantDateValue",
+      "column" : "constantDateValue",
+      "ar" : "تاريخ",
+      "en" : "Constant Date Value",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "detail3Fields.constantRefValue",
+      "columns" : [ "constantRefValueActualCode", " constantRefValueCode", " constantRefValueEntityType", " constantRefValueId" ],
+      "ar" : "مرجع",
+      "en" : "Constant Reference Value",
+      "type" : "Genericreference"
+    }, {
+      "id" : "detail3Fields.constantValue",
+      "column" : "constantValue",
+      "ar" : "القيمة الثابتة",
+      "en" : "Constant Value",
+      "type" : "Text"
+    }, {
+      "id" : "detail3Fields.dateFormats",
+      "column" : "dateFormats",
+      "ar" : "Date Formats (Separate by ##)",
+      "en" : "Date Formats (Separate by ##)",
+      "type" : "Text"
+    }, {
+      "id" : "detail3Fields.expression",
+      "column" : "expression",
+      "ar" : "Expression",
+      "en" : "Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "detail3Fields.expressionType",
+      "column" : "expressionType",
+      "ar" : "Expression Type",
+      "en" : "Expression Type",
+      "type" : "Enum",
+      "enum" : "ImportExpressionType"
+    }, {
+      "id" : "detail3Fields.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "detail3Fields.fieldType",
+      "column" : "fieldType",
+      "ar" : "نوع الحقل",
+      "en" : "Field Type",
+      "type" : "Text"
+    }, {
+      "id" : "detail3Fields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "detail3Fields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "detail3Fields.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "detail3Fields.skipFieldIfEmptyOrZero",
+      "column" : "skipFieldIfEmptyOrZero",
+      "ar" : "تجاهل الحقل إذا كان فارغا",
+      "en" : "Skip Field If Empty Or Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "detail3Fields.skipRowIfEmptyOrZero",
+      "column" : "skipRowIfEmptyOrZero",
+      "ar" : "تجاهل السطر بالكامل إذا كان الحقل فارغا",
+      "en" : "Skip Row If Empty Or Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "detail3Fields.useAsUniquenessKey",
+      "column" : "useAsUniquenessKey",
+      "ar" : "يستعمل لمنع التكرار",
+      "en" : "Use As Uniqueness Key",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "detail4Fields",
+    "table" : "RecordImportConfigDetail4Field",
+    "joinColumn" : "recordImportConfig_id",
+    "ar" : "حقول سطور 4",
+    "en" : "Details 4 Fields",
+    "fields" : [ {
+      "id" : "detail4Fields.cellName",
+      "column" : "cellName",
+      "ar" : "الخلية",
+      "en" : "Cell Name",
+      "type" : "Text"
+    }, {
+      "id" : "detail4Fields.cellTitle",
+      "column" : "cellTitle",
+      "ar" : "عنوان الخلية",
+      "en" : "Cell Title",
+      "type" : "Text"
+    }, {
+      "id" : "detail4Fields.constantDateValue",
+      "column" : "constantDateValue",
+      "ar" : "تاريخ",
+      "en" : "Constant Date Value",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "detail4Fields.constantRefValue",
+      "columns" : [ "constantRefValueActualCode", " constantRefValueCode", " constantRefValueEntityType", " constantRefValueId" ],
+      "ar" : "مرجع",
+      "en" : "Constant Reference Value",
+      "type" : "Genericreference"
+    }, {
+      "id" : "detail4Fields.constantValue",
+      "column" : "constantValue",
+      "ar" : "القيمة الثابتة",
+      "en" : "Constant Value",
+      "type" : "Text"
+    }, {
+      "id" : "detail4Fields.dateFormats",
+      "column" : "dateFormats",
+      "ar" : "Date Formats (Separate by ##)",
+      "en" : "Date Formats (Separate by ##)",
+      "type" : "Text"
+    }, {
+      "id" : "detail4Fields.expression",
+      "column" : "expression",
+      "ar" : "Expression",
+      "en" : "Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "detail4Fields.expressionType",
+      "column" : "expressionType",
+      "ar" : "Expression Type",
+      "en" : "Expression Type",
+      "type" : "Enum",
+      "enum" : "ImportExpressionType"
+    }, {
+      "id" : "detail4Fields.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "detail4Fields.fieldType",
+      "column" : "fieldType",
+      "ar" : "نوع الحقل",
+      "en" : "Field Type",
+      "type" : "Text"
+    }, {
+      "id" : "detail4Fields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "detail4Fields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "detail4Fields.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "detail4Fields.skipFieldIfEmptyOrZero",
+      "column" : "skipFieldIfEmptyOrZero",
+      "ar" : "تجاهل الحقل إذا كان فارغا",
+      "en" : "Skip Field If Empty Or Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "detail4Fields.skipRowIfEmptyOrZero",
+      "column" : "skipRowIfEmptyOrZero",
+      "ar" : "تجاهل السطر بالكامل إذا كان الحقل فارغا",
+      "en" : "Skip Row If Empty Or Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "detail4Fields.useAsUniquenessKey",
+      "column" : "useAsUniquenessKey",
+      "ar" : "يستعمل لمنع التكرار",
+      "en" : "Use As Uniqueness Key",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "detail5Fields",
+    "table" : "RecordImportConfigDetail5Field",
+    "joinColumn" : "recordImportConfig_id",
+    "ar" : "حقول سطور 5",
+    "en" : "Details 5 Fields",
+    "fields" : [ {
+      "id" : "detail5Fields.cellName",
+      "column" : "cellName",
+      "ar" : "الخلية",
+      "en" : "Cell Name",
+      "type" : "Text"
+    }, {
+      "id" : "detail5Fields.cellTitle",
+      "column" : "cellTitle",
+      "ar" : "عنوان الخلية",
+      "en" : "Cell Title",
+      "type" : "Text"
+    }, {
+      "id" : "detail5Fields.constantDateValue",
+      "column" : "constantDateValue",
+      "ar" : "تاريخ",
+      "en" : "Constant Date Value",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "detail5Fields.constantRefValue",
+      "columns" : [ "constantRefValueActualCode", " constantRefValueCode", " constantRefValueEntityType", " constantRefValueId" ],
+      "ar" : "مرجع",
+      "en" : "Constant Reference Value",
+      "type" : "Genericreference"
+    }, {
+      "id" : "detail5Fields.constantValue",
+      "column" : "constantValue",
+      "ar" : "القيمة الثابتة",
+      "en" : "Constant Value",
+      "type" : "Text"
+    }, {
+      "id" : "detail5Fields.dateFormats",
+      "column" : "dateFormats",
+      "ar" : "Date Formats (Separate by ##)",
+      "en" : "Date Formats (Separate by ##)",
+      "type" : "Text"
+    }, {
+      "id" : "detail5Fields.expression",
+      "column" : "expression",
+      "ar" : "Expression",
+      "en" : "Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "detail5Fields.expressionType",
+      "column" : "expressionType",
+      "ar" : "Expression Type",
+      "en" : "Expression Type",
+      "type" : "Enum",
+      "enum" : "ImportExpressionType"
+    }, {
+      "id" : "detail5Fields.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "detail5Fields.fieldType",
+      "column" : "fieldType",
+      "ar" : "نوع الحقل",
+      "en" : "Field Type",
+      "type" : "Text"
+    }, {
+      "id" : "detail5Fields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "detail5Fields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "detail5Fields.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "detail5Fields.skipFieldIfEmptyOrZero",
+      "column" : "skipFieldIfEmptyOrZero",
+      "ar" : "تجاهل الحقل إذا كان فارغا",
+      "en" : "Skip Field If Empty Or Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "detail5Fields.skipRowIfEmptyOrZero",
+      "column" : "skipRowIfEmptyOrZero",
+      "ar" : "تجاهل السطر بالكامل إذا كان الحقل فارغا",
+      "en" : "Skip Row If Empty Or Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "detail5Fields.useAsUniquenessKey",
+      "column" : "useAsUniquenessKey",
+      "ar" : "يستعمل لمنع التكرار",
+      "en" : "Use As Uniqueness Key",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "headerFields",
+    "table" : "RecordImportConfigHeaderField",
+    "joinColumn" : "recordImportConfig_id",
+    "ar" : "حقول الهيدر",
+    "en" : "Header Fields",
+    "fields" : [ {
+      "id" : "headerFields.cellName",
+      "column" : "cellName",
+      "ar" : "الخلية",
+      "en" : "Cell Name",
+      "type" : "Text"
+    }, {
+      "id" : "headerFields.cellTitle",
+      "column" : "cellTitle",
+      "ar" : "عنوان الخلية",
+      "en" : "Cell Title",
+      "type" : "Text"
+    }, {
+      "id" : "headerFields.constantDateValue",
+      "column" : "constantDateValue",
+      "ar" : "تاريخ",
+      "en" : "Constant Date Value",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "headerFields.constantRefValue",
+      "columns" : [ "constantRefValueActualCode", " constantRefValueCode", " constantRefValueEntityType", " constantRefValueId" ],
+      "ar" : "مرجع",
+      "en" : "Constant Reference Value",
+      "type" : "Genericreference"
+    }, {
+      "id" : "headerFields.constantValue",
+      "column" : "constantValue",
+      "ar" : "القيمة الثابتة",
+      "en" : "Constant Value",
+      "type" : "Text"
+    }, {
+      "id" : "headerFields.dateFormats",
+      "column" : "dateFormats",
+      "ar" : "Date Formats (Separate by ##)",
+      "en" : "Date Formats (Separate by ##)",
+      "type" : "Text"
+    }, {
+      "id" : "headerFields.expression",
+      "column" : "expression",
+      "ar" : "Expression",
+      "en" : "Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "headerFields.expressionType",
+      "column" : "expressionType",
+      "ar" : "Expression Type",
+      "en" : "Expression Type",
+      "type" : "Enum",
+      "enum" : "ImportExpressionType"
+    }, {
+      "id" : "headerFields.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "headerFields.fieldType",
+      "column" : "fieldType",
+      "ar" : "نوع الحقل",
+      "en" : "Field Type",
+      "type" : "Text"
+    }, {
+      "id" : "headerFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "headerFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "headerFields.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "headerFields.skipFieldIfEmptyOrZero",
+      "column" : "skipFieldIfEmptyOrZero",
+      "ar" : "تجاهل الحقل إذا كان فارغا",
+      "en" : "Skip Field If Empty Or Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "headerFields.skipRowIfEmptyOrZero",
+      "column" : "skipRowIfEmptyOrZero",
+      "ar" : "تجاهل السطر بالكامل إذا كان الحقل فارغا",
+      "en" : "Skip Row If Empty Or Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "headerFields.useAsUniquenessKey",
+      "column" : "useAsUniquenessKey",
+      "ar" : "يستعمل لمنع التكرار",
+      "en" : "Use As Uniqueness Key",
+      "type" : "Boolean"
+    } ]
+  } ]
+}

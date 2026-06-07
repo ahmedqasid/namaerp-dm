@@ -1,0 +1,40 @@
+{
+  "enum" : "JasperVariableCalculation",
+  "values" : [ {
+    "id" : "Count",
+    "ar" : "Count",
+    "en" : "Count"
+  }, {
+    "id" : "Sum",
+    "ar" : "المجموع",
+    "en" : "Sum"
+  }, {
+    "id" : "Average",
+    "ar" : "متوسط",
+    "en" : "Average"
+  }, {
+    "id" : "Lowest",
+    "ar" : "Lowest",
+    "en" : "Lowest"
+  }, {
+    "id" : "Highest",
+    "ar" : "Highest",
+    "en" : "Highest"
+  }, {
+    "id" : "StandardDeviation",
+    "ar" : "Standard Deviation",
+    "en" : "Standard Deviation"
+  }, {
+    "id" : "Variance",
+    "ar" : "Variance",
+    "en" : "Variance"
+  }, {
+    "id" : "First",
+    "ar" : "الاول",
+    "en" : "First"
+  }, {
+    "id" : "DistinctCount",
+    "ar" : "Distinct Count",
+    "en" : "Distinct Count"
+  } ]
+}

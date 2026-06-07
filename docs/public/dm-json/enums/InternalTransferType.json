@@ -1,0 +1,16 @@
+{
+  "enum" : "InternalTransferType",
+  "values" : [ {
+    "id" : "ReceiptTransfer",
+    "ar" : "استلام",
+    "en" : "Receipt Transfer"
+  }, {
+    "id" : "IssueTransfer",
+    "ar" : "صرف",
+    "en" : "Issue Transfer"
+  }, {
+    "id" : "Normal",
+    "ar" : "عادية",
+    "en" : "Normal"
+  } ]
+}

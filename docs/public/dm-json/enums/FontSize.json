@@ -1,0 +1,24 @@
+{
+  "enum" : "FontSize",
+  "values" : [ {
+    "id" : "VerySmall",
+    "ar" : "1-صغير جدا",
+    "en" : "1-Very Small"
+  }, {
+    "id" : "Small",
+    "ar" : "2-صغير",
+    "en" : "2-Small"
+  }, {
+    "id" : "Medium",
+    "ar" : "3-متوسط",
+    "en" : "3-Medium"
+  }, {
+    "id" : "Large",
+    "ar" : "4-كبير",
+    "en" : "4-Large"
+  }, {
+    "id" : "VeryLarge",
+    "ar" : "5-كبير جدا",
+    "en" : "5-Very Large"
+  } ]
+}

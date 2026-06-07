@@ -1,0 +1,22 @@
+{
+  "enum" : "ExpressionValueType",
+  "values" : [ {
+    "id" : "Value",
+    "ar" : "قيمة",
+    "en" : "Value"
+  }, {
+    "id" : "Min",
+    "ar" : "أقل قيمة",
+    "en" : "Min"
+  }, {
+    "id" : "Max",
+    "ar" : "أكبر قيمة",
+    "en" : "Max"
+  }, {
+    "id" : "Avg",
+    "ar" : "المتوسط",
+    "en" : "Avg"
+  }, {
+    "id" : "AnotherField"
+  } ]
+}

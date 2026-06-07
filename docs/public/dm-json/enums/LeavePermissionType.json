@@ -1,0 +1,36 @@
+{
+  "enum" : "LeavePermissionType",
+  "values" : [ {
+    "id" : "EarlyLeavePermission",
+    "ar" : "اذن مبكر",
+    "en" : "Early Leave"
+  }, {
+    "id" : "LateArrivalPermission",
+    "ar" : "اذن تاخير",
+    "en" : "Late Arrival"
+  }, {
+    "id" : "LeaveDuringWork",
+    "ar" : "انصراف خلال العمل",
+    "en" : "Leave During Work"
+  }, {
+    "id" : "ForgotCheckIn",
+    "ar" : "نسيان بصمة دخول",
+    "en" : "Forgot Check In"
+  }, {
+    "id" : "ForgotCheckOut",
+    "ar" : "نسيان بصمة خروج",
+    "en" : "Forgot Check Out"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  } ]
+}

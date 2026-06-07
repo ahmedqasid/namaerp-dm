@@ -1,0 +1,12 @@
+{
+  "enum" : "TermStatus",
+  "values" : [ {
+    "id" : "Accepted",
+    "ar" : "مقبول",
+    "en" : "Accepted"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  } ]
+}

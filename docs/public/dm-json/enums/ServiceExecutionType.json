@@ -1,0 +1,12 @@
+{
+  "enum" : "ServiceExecutionType",
+  "values" : [ {
+    "id" : "Manual",
+    "ar" : "يدوي",
+    "en" : "Manual"
+  }, {
+    "id" : "Automatic",
+    "ar" : "تلقائي",
+    "en" : "Automatic"
+  } ]
+}

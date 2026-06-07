@@ -1,0 +1,45 @@
+{
+  "entity" : "RESysEntry",
+  "table" : "RESysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/RESysEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "estate",
+    "columns" : [ "estateActualCode", " estateCode", " estateEntityType", " estateId" ],
+    "ar" : "العقار",
+    "en" : "Estate",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "ownerDoc",
+    "columns" : [ "ownerDocActualCode", " ownerDocCode", " ownerDocEntityType", " ownerDocId" ],
+    "ar" : "المستند",
+    "en" : "Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ownerDocType",
+    "column" : "ownerDocType",
+    "type" : "EntityType"
+  }, {
+    "id" : "reOwner",
+    "column" : "reOwner_id",
+    "type" : "Reference",
+    "refTo" : "REOwner",
+    "refPath" : "/modules/realestate/REOwner.html"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

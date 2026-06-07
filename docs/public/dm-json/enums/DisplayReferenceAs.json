@@ -1,0 +1,24 @@
+{
+  "enum" : "DisplayReferenceAs",
+  "values" : [ {
+    "id" : "NameBasedOnLanguage",
+    "ar" : "الإسم بناءاً على اللغة",
+    "en" : "Name Based On Language"
+  }, {
+    "id" : "Code",
+    "ar" : " الكود",
+    "en" : " Code"
+  }, {
+    "id" : "Name1",
+    "ar" : " الاسم العربي",
+    "en" : " Name1"
+  }, {
+    "id" : "Name2",
+    "ar" : " الاسم الإنجليزي",
+    "en" : " Name2"
+  }, {
+    "id" : "CodeColonName",
+    "ar" : "الكود:الإسم",
+    "en" : "Code Colon Name"
+  } ]
+}

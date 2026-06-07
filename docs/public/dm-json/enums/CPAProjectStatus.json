@@ -1,0 +1,32 @@
+{
+  "enum" : "CPAProjectStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "NotStarted",
+    "ar" : "لم تبدأ",
+    "en" : "Not Started"
+  }, {
+    "id" : "InProgress",
+    "ar" : "قيد التنفيذ",
+    "en" : "In Progress"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  }, {
+    "id" : "OnHold",
+    "ar" : "معلقة",
+    "en" : "On Hold"
+  }, {
+    "id" : "CustomerApproval",
+    "ar" : "اعتماد العميل",
+    "en" : "Customer Approval"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
+  } ]
+}

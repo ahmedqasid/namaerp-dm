@@ -1,0 +1,104 @@
+{
+  "enum" : "DashBoardElementType",
+  "values" : [ {
+    "id" : "EChartDataSource",
+    "ar" : "1. Chart Data Source",
+    "en" : "1. Chart Data Source"
+  }, {
+    "id" : "EChart",
+    "ar" : "eChart",
+    "en" : "eChart"
+  }, {
+    "id" : "PieChart",
+    "ar" : "PieChart",
+    "en" : "PieChart"
+  }, {
+    "id" : "ColumnWithRotatedLabels",
+    "ar" : "ColumnWithRotatedLabels",
+    "en" : "ColumnWithRotatedLabels"
+  }, {
+    "id" : "ColumnWithCategsAndLabels",
+    "ar" : "Column With Categories And Labels",
+    "en" : "Column With Categories And Labels"
+  }, {
+    "id" : "CombinationChart",
+    "ar" : "Combination Chart",
+    "en" : "Combination Chart"
+  }, {
+    "id" : "BasicAreaChart",
+    "ar" : "BasicAreaChart",
+    "en" : "BasicAreaChart"
+  }, {
+    "id" : "Table",
+    "ar" : "جدول",
+    "en" : "Table"
+  }, {
+    "id" : "EnhancedTable",
+    "ar" : "جدول محسن",
+    "en" : "Table v2 (Enhanced)"
+  }, {
+    "id" : "Gauge",
+    "ar" : "Gauge",
+    "en" : "Gauge"
+  }, {
+    "id" : "HeatMap",
+    "ar" : "Heat Map",
+    "en" : "Heat Map"
+  }, {
+    "id" : "HTML",
+    "ar" : "HTML",
+    "en" : "HTML"
+  }, {
+    "id" : "ThreeDPieChart",
+    "ar" : "3D Pie Chart",
+    "en" : "3D Pie Chart"
+  }, {
+    "id" : "ColumnRange",
+    "ar" : "Column Range",
+    "en" : "Column Range"
+  }, {
+    "id" : "Calendar",
+    "ar" : "التقويم",
+    "en" : "Calendar"
+  }, {
+    "id" : "ResourceView",
+    "ar" : "Resource View",
+    "en" : "Resource View"
+  }, {
+    "id" : "Report",
+    "ar" : "تقرير",
+    "en" : "Report"
+  }, {
+    "id" : "StackedAndGroupedColumn",
+    "ar" : "Stacked And Grouped Column",
+    "en" : "Stacked And Grouped Column"
+  }, {
+    "id" : "CardMenu",
+    "ar" : "قائمة بطاقات",
+    "en" : "Card Menu"
+  }, {
+    "id" : "MetricsCards",
+    "ar" : "بطاقات قياس",
+    "en" : "Metrics Cards"
+  }, {
+    "id" : "EnhancedMetricsCard",
+    "ar" : "بطاقات قياس محسنة",
+    "en" : "Metrics Cards v2 (Enhanced)"
+  }, {
+    "id" : "Timeline",
+    "ar" : "خط زمني",
+    "en" : "Timeline"
+  }, {
+    "id" : "RecentVisits",
+    "ar" : "الزيارات الأخيرة",
+    "en" : "Recent Visits"
+  }, {
+    "id" : "CrossFilterControl",
+    "ar" : "عنصر فلتر تفاعلي",
+    "en" : "Cross Filter Control"
+  }, {
+    "id" : "TextBlock",
+    "ar" : "كتلة نص",
+    "en" : "Text Block"
+  } ]
+}

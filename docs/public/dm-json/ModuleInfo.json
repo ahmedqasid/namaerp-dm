@@ -1,0 +1,49 @@
+{
+  "entity" : "ModuleInfo",
+  "table" : "ModuleInfo",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ModuleInfo.html",
+  "fields" : [ {
+    "id" : "currentVersion.buildDate",
+    "column" : "buildDate",
+    "type" : "Date"
+  }, {
+    "id" : "currentVersion.contractsVersionNumber",
+    "column" : "contractsVersionNumber",
+    "type" : "Integer"
+  }, {
+    "id" : "currentVersion.databaseVersionNumber",
+    "column" : "databaseVersionNumber",
+    "type" : "Integer"
+  }, {
+    "id" : "currentVersion.guiVersionNumber",
+    "column" : "guiVersionNumber",
+    "type" : "Integer"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "moduleId",
+    "column" : "moduleId",
+    "ar" : "الوحدة",
+    "en" : "Module",
+    "type" : "Text"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  } ]
+}

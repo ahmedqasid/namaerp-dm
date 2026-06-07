@@ -1,0 +1,577 @@
+{
+  "entity" : "POS.POSItemBarcodeParser",
+  "table" : "POSItemBarcodeParser",
+  "module" : "pos-app",
+  "ar" : "مواصفات باركود أصناف نقاط البيع",
+  "arPlural" : " مواصفات باركود أصناف نقاط البيع",
+  "en" : "POS Item Barcode Parser",
+  "enPlural" : " POS Item Barcode Parser",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSItemBarcodeParser.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "specs1.maxCodeLength",
+    "column" : "specs1MaxCodeLength",
+    "ar" : "أقصى طول للكود",
+    "en" : "Maximum Code Length",
+    "type" : "Integer"
+  }, {
+    "id" : "specs1.minCodeLength",
+    "column" : "specs1MinCodeLength",
+    "ar" : "اقل طول للكود",
+    "en" : "Minimum Code Length",
+    "type" : "Integer"
+  }, {
+    "id" : "specs1.prefix",
+    "column" : "specs1Prefix",
+    "ar" : "بادئة التكويد",
+    "en" : "Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "specs1.separator",
+    "column" : "specs1Separator",
+    "ar" : "الفاصل",
+    "en" : "Separator",
+    "type" : "Text"
+  }, {
+    "id" : "specs1.treatPrefixAsPartOfFirstProperty",
+    "column" : "specs1PrefixAsPartOfProperty",
+    "ar" : "معاملة البادئة على انها جزء من اول خاصية",
+    "en" : "Treat Prefix As Part Of First Property",
+    "type" : "Boolean"
+  }, {
+    "id" : "specs2.maxCodeLength",
+    "column" : "specs2MaxCodeLength",
+    "ar" : "أقصى طول للكود",
+    "en" : "Maximum Code Length",
+    "type" : "Integer"
+  }, {
+    "id" : "specs2.minCodeLength",
+    "column" : "specs2MinCodeLength",
+    "ar" : "اقل طول للكود",
+    "en" : "Minimum Code Length",
+    "type" : "Integer"
+  }, {
+    "id" : "specs2.prefix",
+    "column" : "specs2Prefix",
+    "ar" : "بادئة التكويد",
+    "en" : "Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "specs2.separator",
+    "column" : "specs2Separator",
+    "ar" : "الفاصل",
+    "en" : "Separator",
+    "type" : "Text"
+  }, {
+    "id" : "specs2.treatPrefixAsPartOfFirstProperty",
+    "column" : "specs2PrefixAsPartOfProperty",
+    "ar" : "معاملة البادئة على انها جزء من اول خاصية",
+    "en" : "Treat Prefix As Part Of First Property",
+    "type" : "Boolean"
+  }, {
+    "id" : "specs3.maxCodeLength",
+    "column" : "specs3MaxCodeLength",
+    "ar" : "أقصى طول للكود",
+    "en" : "Maximum Code Length",
+    "type" : "Integer"
+  }, {
+    "id" : "specs3.minCodeLength",
+    "column" : "specs3MinCodeLength",
+    "ar" : "اقل طول للكود",
+    "en" : "Minimum Code Length",
+    "type" : "Integer"
+  }, {
+    "id" : "specs3.prefix",
+    "column" : "specs3Prefix",
+    "ar" : "بادئة التكويد",
+    "en" : "Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "specs3.separator",
+    "column" : "specs3Separator",
+    "ar" : "الفاصل",
+    "en" : "Separator",
+    "type" : "Text"
+  }, {
+    "id" : "specs3.treatPrefixAsPartOfFirstProperty",
+    "column" : "specs3PrefixAsPartOfProperty",
+    "ar" : "معاملة البادئة على انها جزء من اول خاصية",
+    "en" : "Treat Prefix As Part Of First Property",
+    "type" : "Boolean"
+  }, {
+    "id" : "specs4.maxCodeLength",
+    "column" : "specs4MaxCodeLength",
+    "ar" : "أقصى طول للكود",
+    "en" : "Maximum Code Length",
+    "type" : "Integer"
+  }, {
+    "id" : "specs4.minCodeLength",
+    "column" : "specs4MinCodeLength",
+    "ar" : "اقل طول للكود",
+    "en" : "Minimum Code Length",
+    "type" : "Integer"
+  }, {
+    "id" : "specs4.prefix",
+    "column" : "specs4Prefix",
+    "ar" : "بادئة التكويد",
+    "en" : "Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "specs4.separator",
+    "column" : "specs4Separator",
+    "ar" : "الفاصل",
+    "en" : "Separator",
+    "type" : "Text"
+  }, {
+    "id" : "specs4.treatPrefixAsPartOfFirstProperty",
+    "column" : "specs4PrefixAsPartOfProperty",
+    "ar" : "معاملة البادئة على انها جزء من اول خاصية",
+    "en" : "Treat Prefix As Part Of First Property",
+    "type" : "Boolean"
+  }, {
+    "id" : "specs5.maxCodeLength",
+    "column" : "specs5MaxCodeLength",
+    "ar" : "أقصى طول للكود",
+    "en" : "Maximum Code Length",
+    "type" : "Integer"
+  }, {
+    "id" : "specs5.minCodeLength",
+    "column" : "specs5MinCodeLength",
+    "ar" : "اقل طول للكود",
+    "en" : "Minimum Code Length",
+    "type" : "Integer"
+  }, {
+    "id" : "specs5.prefix",
+    "column" : "specs5Prefix",
+    "ar" : "بادئة التكويد",
+    "en" : "Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "specs5.separator",
+    "column" : "specs5Separator",
+    "ar" : "الفاصل",
+    "en" : "Separator",
+    "type" : "Text"
+  }, {
+    "id" : "specs5.treatPrefixAsPartOfFirstProperty",
+    "column" : "specs5PrefixAsPartOfProperty",
+    "ar" : "معاملة البادئة على انها جزء من اول خاصية",
+    "en" : "Treat Prefix As Part Of First Property",
+    "type" : "Boolean"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ],
+  "details" : [ {
+    "id" : "parts1",
+    "table" : "POSItemBarcodePart1",
+    "joinColumn" : "parser_id",
+    "ar" : " اجزاء العرض",
+    "en" : " Parts",
+    "fields" : [ {
+      "id" : "parts1.divideOn",
+      "column" : "divideOn",
+      "ar" : "مقسوما علي",
+      "en" : "Divide On",
+      "type" : "Decimal"
+    }, {
+      "id" : "parts1.format",
+      "column" : "format",
+      "ar" : "النسق",
+      "en" : "Format",
+      "type" : "Text"
+    }, {
+      "id" : "parts1.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "parts1.length",
+      "column" : "length",
+      "ar" : " عدد الحروف",
+      "en" : " Length",
+      "type" : "Integer"
+    }, {
+      "id" : "parts1.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "parts1.multiplyBy",
+      "column" : "multiplyBy",
+      "ar" : "مضروب في",
+      "en" : "Multiply By",
+      "type" : "Decimal"
+    }, {
+      "id" : "parts1.parser",
+      "column" : "parser_id",
+      "type" : "Reference",
+      "refTo" : "POS.POSItemBarcodeParser",
+      "refPath" : "/modules/pos-app/POS.POSItemBarcodeParser.html"
+    }, {
+      "id" : "parts1.property",
+      "column" : "property",
+      "ar" : "الخاصية",
+      "en" : "Property",
+      "type" : "Text"
+    }, {
+      "id" : "parts1.separator",
+      "column" : "separator",
+      "ar" : "الفاصل",
+      "en" : "Separator",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "parts2",
+    "table" : "POSItemBarcodePart2",
+    "joinColumn" : "parser_id",
+    "ar" : " اجزاء العرض",
+    "en" : " Parts",
+    "fields" : [ {
+      "id" : "parts2.divideOn",
+      "column" : "divideOn",
+      "ar" : "مقسوما علي",
+      "en" : "Divide On",
+      "type" : "Decimal"
+    }, {
+      "id" : "parts2.format",
+      "column" : "format",
+      "ar" : "النسق",
+      "en" : "Format",
+      "type" : "Text"
+    }, {
+      "id" : "parts2.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "parts2.length",
+      "column" : "length",
+      "ar" : " عدد الحروف",
+      "en" : " Length",
+      "type" : "Integer"
+    }, {
+      "id" : "parts2.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "parts2.multiplyBy",
+      "column" : "multiplyBy",
+      "ar" : "مضروب في",
+      "en" : "Multiply By",
+      "type" : "Decimal"
+    }, {
+      "id" : "parts2.parser",
+      "column" : "parser_id",
+      "type" : "Reference",
+      "refTo" : "POS.POSItemBarcodeParser",
+      "refPath" : "/modules/pos-app/POS.POSItemBarcodeParser.html"
+    }, {
+      "id" : "parts2.property",
+      "column" : "property",
+      "ar" : "الخاصية",
+      "en" : "Property",
+      "type" : "Text"
+    }, {
+      "id" : "parts2.separator",
+      "column" : "separator",
+      "ar" : "الفاصل",
+      "en" : "Separator",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "parts3",
+    "table" : "POSItemBarcodePart3",
+    "joinColumn" : "parser_id",
+    "ar" : " اجزاء العرض",
+    "en" : " Parts",
+    "fields" : [ {
+      "id" : "parts3.divideOn",
+      "column" : "divideOn",
+      "ar" : "مقسوما علي",
+      "en" : "Divide On",
+      "type" : "Decimal"
+    }, {
+      "id" : "parts3.format",
+      "column" : "format",
+      "ar" : "النسق",
+      "en" : "Format",
+      "type" : "Text"
+    }, {
+      "id" : "parts3.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "parts3.length",
+      "column" : "length",
+      "ar" : " عدد الحروف",
+      "en" : " Length",
+      "type" : "Integer"
+    }, {
+      "id" : "parts3.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "parts3.multiplyBy",
+      "column" : "multiplyBy",
+      "ar" : "مضروب في",
+      "en" : "Multiply By",
+      "type" : "Decimal"
+    }, {
+      "id" : "parts3.parser",
+      "column" : "parser_id",
+      "type" : "Reference",
+      "refTo" : "POS.POSItemBarcodeParser",
+      "refPath" : "/modules/pos-app/POS.POSItemBarcodeParser.html"
+    }, {
+      "id" : "parts3.property",
+      "column" : "property",
+      "ar" : "الخاصية",
+      "en" : "Property",
+      "type" : "Text"
+    }, {
+      "id" : "parts3.separator",
+      "column" : "separator",
+      "ar" : "الفاصل",
+      "en" : "Separator",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "parts4",
+    "table" : "POSItemBarcodePart4",
+    "joinColumn" : "parser_id",
+    "ar" : " اجزاء العرض",
+    "en" : " Parts",
+    "fields" : [ {
+      "id" : "parts4.divideOn",
+      "column" : "divideOn",
+      "ar" : "مقسوما علي",
+      "en" : "Divide On",
+      "type" : "Decimal"
+    }, {
+      "id" : "parts4.format",
+      "column" : "format",
+      "ar" : "النسق",
+      "en" : "Format",
+      "type" : "Text"
+    }, {
+      "id" : "parts4.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "parts4.length",
+      "column" : "length",
+      "ar" : " عدد الحروف",
+      "en" : " Length",
+      "type" : "Integer"
+    }, {
+      "id" : "parts4.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "parts4.multiplyBy",
+      "column" : "multiplyBy",
+      "ar" : "مضروب في",
+      "en" : "Multiply By",
+      "type" : "Decimal"
+    }, {
+      "id" : "parts4.parser",
+      "column" : "parser_id",
+      "type" : "Reference",
+      "refTo" : "POS.POSItemBarcodeParser",
+      "refPath" : "/modules/pos-app/POS.POSItemBarcodeParser.html"
+    }, {
+      "id" : "parts4.property",
+      "column" : "property",
+      "ar" : "الخاصية",
+      "en" : "Property",
+      "type" : "Text"
+    }, {
+      "id" : "parts4.separator",
+      "column" : "separator",
+      "ar" : "الفاصل",
+      "en" : "Separator",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "parts5",
+    "table" : "POSItemBarcodePart5",
+    "joinColumn" : "parser_id",
+    "ar" : " اجزاء العرض",
+    "en" : " Parts",
+    "fields" : [ {
+      "id" : "parts5.divideOn",
+      "column" : "divideOn",
+      "ar" : "مقسوما علي",
+      "en" : "Divide On",
+      "type" : "Decimal"
+    }, {
+      "id" : "parts5.format",
+      "column" : "format",
+      "ar" : "النسق",
+      "en" : "Format",
+      "type" : "Text"
+    }, {
+      "id" : "parts5.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "parts5.length",
+      "column" : "length",
+      "ar" : " عدد الحروف",
+      "en" : " Length",
+      "type" : "Integer"
+    }, {
+      "id" : "parts5.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "parts5.multiplyBy",
+      "column" : "multiplyBy",
+      "ar" : "مضروب في",
+      "en" : "Multiply By",
+      "type" : "Decimal"
+    }, {
+      "id" : "parts5.parser",
+      "column" : "parser_id",
+      "type" : "Reference",
+      "refTo" : "POS.POSItemBarcodeParser",
+      "refPath" : "/modules/pos-app/POS.POSItemBarcodeParser.html"
+    }, {
+      "id" : "parts5.property",
+      "column" : "property",
+      "ar" : "الخاصية",
+      "en" : "Property",
+      "type" : "Text"
+    }, {
+      "id" : "parts5.separator",
+      "column" : "separator",
+      "ar" : "الفاصل",
+      "en" : "Separator",
+      "type" : "Text"
+    } ]
+  } ]
+}

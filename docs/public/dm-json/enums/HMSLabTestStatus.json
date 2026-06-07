@@ -1,0 +1,16 @@
+{
+  "enum" : "HMSLabTestStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "InProgress",
+    "ar" : "قيد التنفيذ",
+    "en" : "In Progress"
+  }, {
+    "id" : "Done",
+    "ar" : "تم التنفيذ",
+    "en" : "Done"
+  } ]
+}

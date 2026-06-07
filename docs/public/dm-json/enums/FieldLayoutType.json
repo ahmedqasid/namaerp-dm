@@ -1,0 +1,28 @@
+{
+  "enum" : "FieldLayoutType",
+  "values" : [ {
+    "id" : "DefaultLayout",
+    "ar" : "1- إفتراضي",
+    "en" : "1- Default"
+  }, {
+    "id" : "Alone",
+    "ar" : "3- بمفرده",
+    "en" : "3- Alone"
+  }, {
+    "id" : "Spanned",
+    "ar" : "4- ممتد على السطر",
+    "en" : "4- Spanned"
+  }, {
+    "id" : "Normal",
+    "ar" : "2- عادى",
+    "en" : "2- Normal"
+  }, {
+    "id" : "Spanned2",
+    "ar" : "5- ممتد على سطرين",
+    "en" : "5- Spanned On two lines"
+  }, {
+    "id" : "StartNewLine",
+    "ar" : "6- تبدأ في سطر جديد",
+    "en" : "6- Start New Line"
+  } ]
+}

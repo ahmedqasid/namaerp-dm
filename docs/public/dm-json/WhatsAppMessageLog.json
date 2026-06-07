@@ -1,0 +1,41 @@
+{
+  "entity" : "WhatsAppMessageLog",
+  "table" : "WhatsAppMessageLog",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/WhatsAppMessageLog.html",
+  "fields" : [ {
+    "id" : "executionDate",
+    "column" : "executionDate",
+    "ar" : "تاريخ التنفيذ",
+    "en" : "Execution Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "message",
+    "column" : "message_id",
+    "ar" : "الرسالة",
+    "en" : "Message",
+    "type" : "Reference",
+    "refTo" : "WhatsAppMessage",
+    "refPath" : "/modules/basic-whatsapp/WhatsAppMessage.html"
+  }, {
+    "id" : "notifier",
+    "columns" : [ "notifierActualCode", " notifierCode", " notifierEntityType", " notifierId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "phoneNumber",
+    "column" : "phoneNumber",
+    "ar" : "رقم الهاتف",
+    "en" : "Phone Number",
+    "type" : "Text"
+  } ]
+}

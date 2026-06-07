@@ -1,0 +1,16 @@
+{
+  "enum" : "RuleApplyType",
+  "values" : [ {
+    "id" : "IncludeAnyApplicableLine",
+    "ar" : "إدراج (تطابق أي سطر)",
+    "en" : "Include (Any Applicable Line)"
+  }, {
+    "id" : "ExcludeNotApplicableLine",
+    "ar" : "استبعاد (عدم تطابق أي سطر)",
+    "en" : "Exclude (Not Applicable Line)"
+  }, {
+    "id" : "AllLinesApplicable",
+    "ar" : "تطابق كل السطور",
+    "en" : "All Lines Applicable"
+  } ]
+}

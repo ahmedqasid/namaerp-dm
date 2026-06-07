@@ -1,0 +1,12 @@
+{
+  "enum" : "FinancialPaperType",
+  "values" : [ {
+    "id" : "Cheque",
+    "ar" : "شيك",
+    "en" : "Cheque"
+  }, {
+    "id" : "BillOfExchange",
+    "ar" : "كمبيالة",
+    "en" : "Bill Of Exchange"
+  } ]
+}

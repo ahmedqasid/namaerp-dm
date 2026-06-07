@@ -1,0 +1,120 @@
+{
+  "enum" : "REInstallmentType",
+  "values" : [ {
+    "id" : "Reserve",
+    "ar" : "حجز",
+    "en" : "Reserve"
+  }, {
+    "id" : "Sale",
+    "ar" : "بيع",
+    "en" : "Sale"
+  }, {
+    "id" : "Commission",
+    "ar" : "سعي",
+    "en" : "Commission"
+  }, {
+    "id" : "OwnerCommission",
+    "ar" : "سعي مالك",
+    "en" : "OwnerCommission"
+  }, {
+    "id" : "WaterCost",
+    "ar" : "تكاليف مياة",
+    "en" : "Water Cost"
+  }, {
+    "id" : "MaintanceCost",
+    "ar" : "تكاليف صيانة",
+    "en" : "Maintance Cost"
+  }, {
+    "id" : "Installment",
+    "ar" : "قسط",
+    "en" : "Installment"
+  }, {
+    "id" : "Insurance",
+    "ar" : "تأمين",
+    "en" : "Insurance"
+  }, {
+    "id" : "ReceiptInstallment",
+    "ar" : "دفعة استلام",
+    "en" : "Receipt installment"
+  }, {
+    "id" : "DownPaymentRemaining",
+    "ar" : "المتبقي من الدفعة المقدمة",
+    "en" : "Down payment remaining"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  }, {
+    "id" : "Other4",
+    "ar" : "أخرى 4",
+    "en" : "Other 4"
+  }, {
+    "id" : "Other5",
+    "ar" : "أخرى 5",
+    "en" : "Other 5"
+  }, {
+    "id" : "Other6",
+    "ar" : "أخرى 6",
+    "en" : "Other 6"
+  }, {
+    "id" : "Other7",
+    "ar" : "أخرى 7",
+    "en" : "Other 7"
+  }, {
+    "id" : "Other8",
+    "ar" : "أخرى 8",
+    "en" : "Other 8"
+  }, {
+    "id" : "Other9",
+    "ar" : "أخرى 9",
+    "en" : "Other 9"
+  }, {
+    "id" : "Other10",
+    "ar" : "أخرى 10",
+    "en" : "Other 10"
+  }, {
+    "id" : "Yearly",
+    "ar" : "سنوية",
+    "en" : "Yearly"
+  }, {
+    "id" : "HalfYear",
+    "ar" : "نصف سنوي",
+    "en" : "Half Year"
+  }, {
+    "id" : "Quarterly",
+    "ar" : "ربع سنوية",
+    "en" : "Quarterly"
+  }, {
+    "id" : "Monthly",
+    "ar" : "شهرية",
+    "en" : "Monthly"
+  }, {
+    "id" : "YearThird",
+    "ar" : "ثلث سنوي",
+    "en" : "Year Third"
+  }, {
+    "id" : "TwoYears",
+    "ar" : "سنتين",
+    "en" : "Two years"
+  }, {
+    "id" : "ThreeYears",
+    "ar" : "ثلاث سنوات",
+    "en" : "Three Years"
+  }, {
+    "id" : "FiveYears",
+    "ar" : "خمس سنوات",
+    "en" : "Five Years"
+  }, {
+    "id" : "Fees",
+    "ar" : "قيمة السعي",
+    "en" : "Fees"
+  } ]
+}

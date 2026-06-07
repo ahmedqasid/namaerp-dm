@@ -1,0 +1,32 @@
+{
+  "enum" : "NamaDayOfWeek",
+  "values" : [ {
+    "id" : "saturday",
+    "ar" : "السبت",
+    "en" : "Saturday"
+  }, {
+    "id" : "sunday",
+    "ar" : "الأحد",
+    "en" : "Sunday"
+  }, {
+    "id" : "monday",
+    "ar" : "الإتنين",
+    "en" : "Monday"
+  }, {
+    "id" : "tuesday",
+    "ar" : "الثلاثاء",
+    "en" : "Tuesday"
+  }, {
+    "id" : "wednesday",
+    "ar" : "الأربعاء",
+    "en" : "Wednesday"
+  }, {
+    "id" : "thursday",
+    "ar" : "الخميس",
+    "en" : "Thursday"
+  }, {
+    "id" : "friday",
+    "ar" : "الجمعة",
+    "en" : "Friday"
+  } ]
+}

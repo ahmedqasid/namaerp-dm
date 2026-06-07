@@ -1,0 +1,12 @@
+{
+  "enum" : "MCEquipmentCategory",
+  "values" : [ {
+    "id" : "Tool",
+    "ar" : "أداة",
+    "en" : "Tool"
+  }, {
+    "id" : "Equipment",
+    "ar" : "معده",
+    "en" : "Equipment"
+  } ]
+}

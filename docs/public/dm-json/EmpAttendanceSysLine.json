@@ -1,0 +1,402 @@
+{
+  "entity" : "EmpAttendanceSysLine",
+  "table" : "EmpAttendanceSysLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EmpAttendanceSysLine.html",
+  "fields" : [ {
+    "id" : "abscence",
+    "column" : "abscence",
+    "type" : "Boolean"
+  }, {
+    "id" : "addedShift",
+    "column" : "addedShift",
+    "ar" : "دوام إضافي",
+    "en" : "Added Shift",
+    "type" : "Boolean"
+  }, {
+    "id" : "attendanceShiftRotateLineCode",
+    "column" : "attendanceShiftRotateLineCode",
+    "ar" : "كود الدوام الدوري",
+    "en" : "Attendance Shift Rotate Line Code",
+    "type" : "Text"
+  }, {
+    "id" : "attndanceShiftRotateGroupCode",
+    "column" : "attndanceShiftRotateGroupCode",
+    "ar" : "كود دوام مجموعة العمالة",
+    "en" : "Attendance Shift Rotate Group Code",
+    "type" : "Text"
+  }, {
+    "id" : "day",
+    "column" : "day",
+    "ar" : "اليوم",
+    "en" : "Day",
+    "type" : "Date"
+  }, {
+    "id" : "dayNoCheckIn",
+    "column" : "dayNoCheckIn",
+    "type" : "Boolean"
+  }, {
+    "id" : "dayNoCheckOut",
+    "column" : "dayNoCheckOut",
+    "type" : "Boolean"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "firstInTime",
+    "column" : "firstInTime",
+    "ar" : "أول وقت دخول",
+    "en" : "First In Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "isHoliday",
+    "column" : "isHoliday",
+    "type" : "Boolean"
+  }, {
+    "id" : "isMission",
+    "column" : "isMission",
+    "type" : "Boolean"
+  }, {
+    "id" : "isSuspended",
+    "column" : "isSuspended",
+    "type" : "Boolean"
+  }, {
+    "id" : "isVacation",
+    "column" : "isVacation",
+    "type" : "Boolean"
+  }, {
+    "id" : "isWeekEnd",
+    "column" : "isWeekEnd",
+    "type" : "Boolean"
+  }, {
+    "id" : "lastOutTime",
+    "column" : "lastOutTime",
+    "ar" : "أخر وقت خروج",
+    "en" : "Last Out Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "netEarlyArrival",
+    "column" : "netEarlyArrival",
+    "ar" : "إجمالي الوصول المبكر",
+    "en" : "Net Early Arrival",
+    "type" : "Decimal"
+  }, {
+    "id" : "netEarlyLeave",
+    "column" : "netEarlyLeave",
+    "type" : "Decimal"
+  }, {
+    "id" : "netExecuseTime",
+    "column" : "netExecuseTime",
+    "type" : "Decimal"
+  }, {
+    "id" : "netLateTime",
+    "column" : "netLateTime",
+    "type" : "Decimal"
+  }, {
+    "id" : "netMissionTime",
+    "column" : "netMissionTime",
+    "type" : "Decimal"
+  }, {
+    "id" : "netOvertime",
+    "column" : "netOvertime",
+    "type" : "Decimal"
+  }, {
+    "id" : "netPartialVacationTime",
+    "column" : "netPartialVacationTime",
+    "ar" : "صافي اجازه جزئيه",
+    "en" : "Net Partial Vacation",
+    "type" : "Decimal"
+  }, {
+    "id" : "netWorkingHours",
+    "column" : "netWorkingHours",
+    "type" : "Decimal"
+  }, {
+    "id" : "noCheckIn",
+    "column" : "noCheckIn",
+    "ar" : " عدم تسجيل بصمة دخول",
+    "en" : " No Check In",
+    "type" : "Boolean"
+  }, {
+    "id" : "noCheckOut",
+    "column" : "noCheckOut",
+    "ar" : " عدم تسجيل بصمة خروج",
+    "en" : " No Check Out",
+    "type" : "Boolean"
+  }, {
+    "id" : "part1Details.actualWorkHours",
+    "column" : "p1ActualWorkHours",
+    "ar" : "دوام 1 | ساعات العمل الفعلية",
+    "en" : "Part 1 | Actual Work Hours",
+    "type" : "Decimal"
+  }, {
+    "id" : "part1Details.earlyArrival",
+    "column" : "p1EarlyArrival",
+    "type" : "Decimal"
+  }, {
+    "id" : "part1Details.earlyLeave",
+    "column" : "p1EarlyLeave",
+    "ar" : "دوام 1 | انصراف مبكر",
+    "en" : "Part 1 | Early Leave",
+    "type" : "Decimal"
+  }, {
+    "id" : "part1Details.execuseTime",
+    "column" : "p1ExecuseTime",
+    "ar" : "دوام 1 | وقت أذونات",
+    "en" : "Part 1 | Excuse Time",
+    "type" : "Decimal"
+  }, {
+    "id" : "part1Details.expectedWorkHours",
+    "column" : "p1ExpectedWorkHours",
+    "ar" : "دوام 1 | ساعات العمل المتوقعة",
+    "en" : "Part 1 | Expected Work Hours",
+    "type" : "Decimal"
+  }, {
+    "id" : "part1Details.firstInTime",
+    "column" : "p1FirstInTime",
+    "ar" : "دوام 1 | أول وقت دخول",
+    "en" : "Part 1 | First In Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "part1Details.lastOutTime",
+    "column" : "p1LastOutTime",
+    "ar" : "دوام 1 | أخر وقت خروج",
+    "en" : "Part 1 | Last Out Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "part1Details.lateArrival",
+    "column" : "p1LateArrival",
+    "ar" : "دوام 1 | وصول متأخر",
+    "en" : "Part 1 | Late Arrival",
+    "type" : "Decimal"
+  }, {
+    "id" : "part1Details.midDayOutTime",
+    "column" : "p1MidDayOutTime",
+    "ar" : "دوام 1 | خروج وقت العمل",
+    "en" : "Part 1 | Mid Day Out Time",
+    "type" : "Decimal"
+  }, {
+    "id" : "part1Details.missionTime",
+    "column" : "p1MissionTime",
+    "ar" : "دوام 1 | وقت مأمورية",
+    "en" : "Part 1 | Mission Time",
+    "type" : "Decimal"
+  }, {
+    "id" : "part1Details.noCheckIn",
+    "column" : "p1NoCheckIn",
+    "ar" : "دوام 1| عدم تسجيل بصمة دخول",
+    "en" : "Shift 1|No Check In",
+    "type" : "Boolean"
+  }, {
+    "id" : "part1Details.noCheckOut",
+    "column" : "p1NoCheckOut",
+    "ar" : "دوام 1| عدم تسجيل بصمة خروج",
+    "en" : "Shift 1|No Check Out",
+    "type" : "Boolean"
+  }, {
+    "id" : "part1Details.overTime",
+    "column" : "p1OverTime",
+    "ar" : "دوام 1 | الإضافي",
+    "en" : "Part 1 | Overtime",
+    "type" : "Decimal"
+  }, {
+    "id" : "part1Details.partialVacationTime",
+    "column" : "p1PartialVacationTime",
+    "ar" : "أجازه جزئيه",
+    "en" : "Partial Vacation",
+    "type" : "Decimal"
+  }, {
+    "id" : "part2Details.actualWorkHours",
+    "column" : "p2ActualWorkHours",
+    "ar" : "دوام 2 | ساعات العمل الفعلية",
+    "en" : "Part 2 | Actual Work Hours",
+    "type" : "Decimal"
+  }, {
+    "id" : "part2Details.earlyArrival",
+    "column" : "p2EarlyArrival",
+    "type" : "Decimal"
+  }, {
+    "id" : "part2Details.earlyLeave",
+    "column" : "p2EarlyLeave",
+    "ar" : "دوام 2 | انصراف مبكر",
+    "en" : "Part 2 | Early Leave",
+    "type" : "Decimal"
+  }, {
+    "id" : "part2Details.execuseTime",
+    "column" : "p2ExecuseTime",
+    "ar" : "دوام 2 | وقت أذونات",
+    "en" : "Part 2 | Excuse Time",
+    "type" : "Decimal"
+  }, {
+    "id" : "part2Details.expectedWorkHours",
+    "column" : "p2ExpectedWorkHours",
+    "ar" : "دوام 2 | ساعات العمل المتوقعة",
+    "en" : "Part 2 | Expected Work Hours",
+    "type" : "Decimal"
+  }, {
+    "id" : "part2Details.firstInTime",
+    "column" : "p2FirstInTime",
+    "ar" : "دوام 2 | أول وقت دخول",
+    "en" : "Part 2 | First In Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "part2Details.lastOutTime",
+    "column" : "p2LastOutTime",
+    "ar" : "دوام 2 | أخر وقت خروج",
+    "en" : "Part 2 | Last Out Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "part2Details.lateArrival",
+    "column" : "p2LateArrival",
+    "ar" : "دوام 2 | وصول متأخر",
+    "en" : "Part 2 | Late Arrival",
+    "type" : "Decimal"
+  }, {
+    "id" : "part2Details.midDayOutTime",
+    "column" : "p2MidDayOutTime",
+    "ar" : "دوام 2 | خروج وقت العمل",
+    "en" : "Part 2 | Mid Day Out Time",
+    "type" : "Decimal"
+  }, {
+    "id" : "part2Details.missionTime",
+    "column" : "p2MissionTime",
+    "ar" : "دوام 2 | وقت مأمورية",
+    "en" : "Part 2 | Mission Time",
+    "type" : "Decimal"
+  }, {
+    "id" : "part2Details.noCheckIn",
+    "column" : "p2NoCheckIn",
+    "ar" : "دوام 2| عدم تسجيل بصمة دخول",
+    "en" : "Shift 2|No Check In",
+    "type" : "Boolean"
+  }, {
+    "id" : "part2Details.noCheckOut",
+    "column" : "p2NoCheckOut",
+    "ar" : "دوام 2| عدم تسجيل بصمة خروج",
+    "en" : "Shift 2|No Check Out",
+    "type" : "Boolean"
+  }, {
+    "id" : "part2Details.overTime",
+    "column" : "p2OverTime",
+    "ar" : "دوام 2 | الإضافي",
+    "en" : "Part 2 | Overtime",
+    "type" : "Decimal"
+  }, {
+    "id" : "part2Details.partialVacationTime",
+    "column" : "p2PartialVacationTime",
+    "ar" : "أجازه جزئيه",
+    "en" : "Partial Vacation",
+    "type" : "Decimal"
+  }, {
+    "id" : "part3Details.actualWorkHours",
+    "column" : "p3ActualWorkHours",
+    "ar" : "دوام 3 | ساعات العمل الفعلية",
+    "en" : "Part 3 | Actual Work Hours",
+    "type" : "Decimal"
+  }, {
+    "id" : "part3Details.earlyArrival",
+    "column" : "p3EarlyArrival",
+    "type" : "Decimal"
+  }, {
+    "id" : "part3Details.earlyLeave",
+    "column" : "p3EarlyLeave",
+    "ar" : "دوام 3 | انصراف مبكر",
+    "en" : "Part 3 | Early Leave",
+    "type" : "Decimal"
+  }, {
+    "id" : "part3Details.execuseTime",
+    "column" : "p3ExecuseTime",
+    "ar" : "دوام 3 | وقت أذونات",
+    "en" : "Part 3 | Excuse Time",
+    "type" : "Decimal"
+  }, {
+    "id" : "part3Details.expectedWorkHours",
+    "column" : "p3ExpectedWorkHours",
+    "ar" : "دوام 3 | ساعات العمل المتوقعة",
+    "en" : "Part 3 | Expected Work Hours",
+    "type" : "Decimal"
+  }, {
+    "id" : "part3Details.firstInTime",
+    "column" : "p3FirstInTime",
+    "ar" : "دوام 3 | أول وقت دخول",
+    "en" : "Part 3 | First In Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "part3Details.lastOutTime",
+    "column" : "p3LastOutTime",
+    "ar" : "دوام 3 | أخر وقت خروج",
+    "en" : "Part 3 | Last Out Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "part3Details.lateArrival",
+    "column" : "p3LateArrival",
+    "ar" : "دوام 3 | وصول متأخر",
+    "en" : "Part 3 | Late Arrival",
+    "type" : "Decimal"
+  }, {
+    "id" : "part3Details.midDayOutTime",
+    "column" : "p3MidDayOutTime",
+    "ar" : "دوام 3 | خروج وقت العمل",
+    "en" : "Part 3 | Mid Day Out Time",
+    "type" : "Decimal"
+  }, {
+    "id" : "part3Details.missionTime",
+    "column" : "p3MissionTime",
+    "ar" : "دوام 3 | وقت مأمورية",
+    "en" : "Part 3 | Mission Time",
+    "type" : "Decimal"
+  }, {
+    "id" : "part3Details.noCheckIn",
+    "column" : "p3NoCheckIn",
+    "ar" : "دوام 3| عدم تسجيل بصمة دخول",
+    "en" : "Shift 3|No Check In",
+    "type" : "Boolean"
+  }, {
+    "id" : "part3Details.noCheckOut",
+    "column" : "p3NoCheckOut",
+    "ar" : "دوام 3| عدم تسجيل بصمة خروج",
+    "en" : "Shift 3|No Check Out",
+    "type" : "Boolean"
+  }, {
+    "id" : "part3Details.overTime",
+    "column" : "p3OverTime",
+    "ar" : "دوام 3 | الإضافي",
+    "en" : "Part 3 | Overtime",
+    "type" : "Decimal"
+  }, {
+    "id" : "part3Details.partialVacationTime",
+    "column" : "p3PartialVacationTime",
+    "ar" : "أجازه جزئيه",
+    "en" : "Partial Vacation",
+    "type" : "Decimal"
+  }, {
+    "id" : "shift",
+    "column" : "shift_id",
+    "en" : "Shift",
+    "type" : "Reference",
+    "refTo" : "AttendanceShift",
+    "refPath" : "/modules/humanresource-payroll/AttendanceShift.html"
+  }, {
+    "id" : "vacationType",
+    "column" : "vacationType_id",
+    "ar" : "نوع الأجازة",
+    "en" : "Vacation Type",
+    "type" : "Reference",
+    "refTo" : "VacationType",
+    "refPath" : "/modules/humanresource-payroll/VacationType.html"
+  }, {
+    "id" : "withoutSalaryVacation",
+    "column" : "withoutSalaryVacation",
+    "ar" : "أجازة بدون مرتب",
+    "en" : "Without Salary Vacation",
+    "type" : "Boolean"
+  } ]
+}

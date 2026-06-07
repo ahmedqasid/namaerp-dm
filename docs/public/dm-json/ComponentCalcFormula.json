@@ -1,0 +1,1087 @@
+{
+  "entity" : "ComponentCalcFormula",
+  "table" : "ComponentCalcFormula",
+  "module" : "humanresource-payroll",
+  "ar" : " معادلة حساب المفرد",
+  "arPlural" : "معادلات حساب المفرد",
+  "en" : " Component Calculation Formula",
+  "enPlural" : "Component Calc Formulas",
+  "page" : "https://dm.namasoft.com/modules/humanresource-payroll/ComponentCalcFormula.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "applicabilityMethod",
+    "column" : "applicabilityMethod",
+    "ar" : "طريقة التطبيق",
+    "en" : "Applicability Method",
+    "type" : "Enum",
+    "enum" : "ApplicabilityMethod"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "calcMethod",
+    "column" : "calcMethod",
+    "ar" : "طريقة الحساب",
+    "en" : "Calculation Method",
+    "type" : "Enum",
+    "enum" : "FormulaCalcMethod"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "componentGroup",
+    "column" : "componentGroup_id",
+    "ar" : " مجموعة مفردات راتب",
+    "en" : "Component Group",
+    "type" : "Reference",
+    "refTo" : "SalaryComponentGroup",
+    "refPath" : "/modules/humanresource-payroll/SalaryComponentGroup.html"
+  }, {
+    "id" : "componentType",
+    "column" : "componentType_id",
+    "ar" : "نوع المفرد",
+    "en" : "Component Type",
+    "type" : "Reference",
+    "refTo" : "SalaryComponentType",
+    "refPath" : "/modules/humanresource-payroll/SalaryComponentType.html"
+  }, {
+    "id" : "componentType10",
+    "column" : "componentType10_id",
+    "ar" : "نوع المفرد 10",
+    "en" : "component Type 10",
+    "type" : "Reference",
+    "refTo" : "SalaryComponentType",
+    "refPath" : "/modules/humanresource-payroll/SalaryComponentType.html"
+  }, {
+    "id" : "componentType2",
+    "column" : "componentType2_id",
+    "ar" : "نوع المفرد 2",
+    "en" : "component Type 2",
+    "type" : "Reference",
+    "refTo" : "SalaryComponentType",
+    "refPath" : "/modules/humanresource-payroll/SalaryComponentType.html"
+  }, {
+    "id" : "componentType3",
+    "column" : "componentType3_id",
+    "ar" : "نوع المفرد 3",
+    "en" : "component Type 3",
+    "type" : "Reference",
+    "refTo" : "SalaryComponentType",
+    "refPath" : "/modules/humanresource-payroll/SalaryComponentType.html"
+  }, {
+    "id" : "componentType4",
+    "column" : "componentType4_id",
+    "ar" : "نوع المفرد 4",
+    "en" : "component Type 4",
+    "type" : "Reference",
+    "refTo" : "SalaryComponentType",
+    "refPath" : "/modules/humanresource-payroll/SalaryComponentType.html"
+  }, {
+    "id" : "componentType5",
+    "column" : "componentType5_id",
+    "ar" : "نوع المفرد 5",
+    "en" : "component Type 5",
+    "type" : "Reference",
+    "refTo" : "SalaryComponentType",
+    "refPath" : "/modules/humanresource-payroll/SalaryComponentType.html"
+  }, {
+    "id" : "componentType6",
+    "column" : "componentType6_id",
+    "ar" : "نوع المفرد 6",
+    "en" : "component Type 6",
+    "type" : "Reference",
+    "refTo" : "SalaryComponentType",
+    "refPath" : "/modules/humanresource-payroll/SalaryComponentType.html"
+  }, {
+    "id" : "componentType7",
+    "column" : "componentType7_id",
+    "ar" : "نوع المفرد 7",
+    "en" : "component Type 7",
+    "type" : "Reference",
+    "refTo" : "SalaryComponentType",
+    "refPath" : "/modules/humanresource-payroll/SalaryComponentType.html"
+  }, {
+    "id" : "componentType8",
+    "column" : "componentType8_id",
+    "ar" : "نوع المفرد 8",
+    "en" : "component Type 8",
+    "type" : "Reference",
+    "refTo" : "SalaryComponentType",
+    "refPath" : "/modules/humanresource-payroll/SalaryComponentType.html"
+  }, {
+    "id" : "componentType9",
+    "column" : "componentType9_id",
+    "ar" : "نوع المفرد 9",
+    "en" : "component Type 9",
+    "type" : "Reference",
+    "refTo" : "SalaryComponentType",
+    "refPath" : "/modules/humanresource-payroll/SalaryComponentType.html"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "discountInsuranceBeforeTax",
+    "column" : "discountInsuranceBeforeTax",
+    "ar" : "خصم تأمينات العامل قبل الضريبة",
+    "en" : "Discount Employee Insurance Before Tax",
+    "type" : "Boolean"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "dontConsiderOtherMonthsInTax",
+    "column" : "dontConsiderOtherMonthsInTax",
+    "ar" : "عدم اعتبار الشهور الأخري عند حساب الضريبة",
+    "en" : "Do Not Consider Other Months In Tax Calculation",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "employeeAccountType",
+    "column" : "employeeAccountType",
+    "ar" : "نوع حساب الموظف (لنوع معادلة الرصيد)",
+    "en" : "Employee Account Type (For Formula Balance Type)",
+    "type" : "Enum",
+    "enum" : "SubsidiaryAccountType"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "formulaType",
+    "column" : "formulaType",
+    "ar" : "نوع المعادلة",
+    "en" : "Formula Type",
+    "type" : "Enum",
+    "enum" : "FormulaType"
+  }, {
+    "id" : "fractionalPlaces",
+    "column" : "fractionalPlaces",
+    "ar" : "عدد خانات الكسر",
+    "en" : "Decimal Fractional Places",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "ignoreCompsForPrevTaxDocs",
+    "column" : "ignoreCompsForPrevTaxDocs",
+    "ar" : "تجاهل المفردات المحددة عند حساب وعاء الضريبة للسندات السابقة",
+    "en" : "Ignore Specified Components When Calculating Taxes From Previous Documents",
+    "type" : "Boolean"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "maxFormulaValue",
+    "column" : "maxFormulaValue",
+    "ar" : "أقصي قيمة للمعادلة",
+    "en" : "Maximum Formula Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "minFormulaValue",
+    "column" : "minFormulaValue",
+    "ar" : "أقل قيمة للمعادلة",
+    "en" : "Minimum Formula Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "multByDivOnQueryByDate",
+    "column" : "multByDivOnQueryByDate",
+    "ar" : "إستعلام مضروبا في مقسوما على يومي",
+    "en" : "Multiplied By Divided On By Date",
+    "type" : "Boolean"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "otherIssuances.considerIssuance1",
+    "column" : "considerIssuance1_id",
+    "ar" : "الصرفية المعتبرة 1",
+    "en" : "Consider Issuance 1",
+    "type" : "Reference",
+    "refTo" : "HRSalaryIssuance",
+    "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+  }, {
+    "id" : "otherIssuances.considerIssuance10",
+    "column" : "considerIssuance10_id",
+    "ar" : "الصرفية المعتبرة 10",
+    "en" : "Consider Issuance 10",
+    "type" : "Reference",
+    "refTo" : "HRSalaryIssuance",
+    "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+  }, {
+    "id" : "otherIssuances.considerIssuance2",
+    "column" : "considerIssuance2_id",
+    "ar" : "الصرفية المعتبرة 2",
+    "en" : "Consider Issuance 2",
+    "type" : "Reference",
+    "refTo" : "HRSalaryIssuance",
+    "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+  }, {
+    "id" : "otherIssuances.considerIssuance3",
+    "column" : "considerIssuance3_id",
+    "ar" : "الصرفية المعتبرة 3",
+    "en" : "Consider Issuance 3",
+    "type" : "Reference",
+    "refTo" : "HRSalaryIssuance",
+    "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+  }, {
+    "id" : "otherIssuances.considerIssuance4",
+    "column" : "considerIssuance4_id",
+    "ar" : "الصرفية المعتبرة 4",
+    "en" : "Consider Issuance 4",
+    "type" : "Reference",
+    "refTo" : "HRSalaryIssuance",
+    "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+  }, {
+    "id" : "otherIssuances.considerIssuance5",
+    "column" : "considerIssuance5_id",
+    "ar" : "الصرفية المعتبرة 5",
+    "en" : "Consider Issuance 5",
+    "type" : "Reference",
+    "refTo" : "HRSalaryIssuance",
+    "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+  }, {
+    "id" : "otherIssuances.considerIssuance6",
+    "column" : "considerIssuance6_id",
+    "ar" : "الصرفية المعتبرة 6",
+    "en" : "Consider Issuance 6",
+    "type" : "Reference",
+    "refTo" : "HRSalaryIssuance",
+    "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+  }, {
+    "id" : "otherIssuances.considerIssuance7",
+    "column" : "considerIssuance7_id",
+    "ar" : "الصرفية المعتبرة 7",
+    "en" : "Consider Issuance 7",
+    "type" : "Reference",
+    "refTo" : "HRSalaryIssuance",
+    "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+  }, {
+    "id" : "otherIssuances.considerIssuance8",
+    "column" : "considerIssuance8_id",
+    "ar" : "الصرفية المعتبرة 8",
+    "en" : "Consider Issuance 8",
+    "type" : "Reference",
+    "refTo" : "HRSalaryIssuance",
+    "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+  }, {
+    "id" : "otherIssuances.considerIssuance9",
+    "column" : "considerIssuance9_id",
+    "ar" : "الصرفية المعتبرة 9",
+    "en" : "Consider Issuance 9",
+    "type" : "Reference",
+    "refTo" : "HRSalaryIssuance",
+    "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+  }, {
+    "id" : "otherIssuances.considerOtherIssuances",
+    "column" : "considerOtherIssuances",
+    "ar" : "اعتبار الصرفيات الأخرى",
+    "en" : "Consider Other Issuances",
+    "type" : "Boolean"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "penalty",
+    "column" : "penalty",
+    "ar" : "العقوبة",
+    "en" : "Penalty",
+    "type" : "Boolean"
+  }, {
+    "id" : "performanceFactor",
+    "column" : "performanceFactor",
+    "ar" : "معدل الأداء",
+    "en" : "Performance Factor",
+    "type" : "Enum",
+    "enum" : "PerformanceFactor"
+  }, {
+    "id" : "performanceIndicator",
+    "column" : "performanceIndicator_id",
+    "ar" : " مؤشر الأداء",
+    "en" : " Performance Indicator",
+    "type" : "Reference",
+    "refTo" : "PerformanceIndicator",
+    "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "roundingMode",
+    "column" : "roundingMode",
+    "ar" : "طريقة التقريب",
+    "en" : "Rounding Mode",
+    "type" : "Enum",
+    "enum" : "RoundingType"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "taxOnTax",
+    "column" : "taxOnTax",
+    "ar" : "احتساب ضريبة على الضريبة (اذا كانت الشركة تدفع الضرائب للموظف)",
+    "en" : "Tax On Tax (If company pays employee taxes)",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxRangeIsMonthly",
+    "column" : "taxRangeIsMonthly",
+    "ar" : "شرائح الضريبة شهرية و ليست سنوية",
+    "en" : "Tax Range Is Monthly",
+    "type" : "Boolean"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "valueMethod",
+    "column" : "valueMethod",
+    "ar" : "حساب المعامل",
+    "en" : "Factor Value",
+    "type" : "Enum",
+    "enum" : "ValueCalculationMethod"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "calculationLines",
+    "table" : "CompCalculationLine",
+    "joinColumn" : "componentCalcFormula_id",
+    "ar" : "الشرائح",
+    "en" : "Calculation Lines",
+    "fields" : [ {
+      "id" : "calculationLines.addedValQuery",
+      "column" : "addedValQuery",
+      "ar" : "استعلام القيمة المضافة",
+      "en" : "Added Value Query",
+      "type" : "BigText"
+    }, {
+      "id" : "calculationLines.addedValue",
+      "column" : "addedValue",
+      "ar" : "القيمة المضافة",
+      "en" : "Added Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculationLines.annualRangeFrom",
+      "column" : "annualRangeFrom",
+      "ar" : "المدي للفترات المجمعة / السنوية | من",
+      "en" : "Aggregated Periods / Annual Range | From",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculationLines.annualRangeFromQuery",
+      "column" : "annualRangeFromQuery",
+      "ar" : "استعلامات المدي للفترات المجمعة / السنوية | من",
+      "en" : "Aggregated Periods / Annual Range Query| From",
+      "type" : "BigText"
+    }, {
+      "id" : "calculationLines.annualRangeTo",
+      "column" : "annualRangeTo",
+      "ar" : "المدي للفترات المجمعة / السنوية | إلي",
+      "en" : "Aggregated Periods / Annual Range | To",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculationLines.annualRangeToQuery",
+      "column" : "annualRangeToQuery",
+      "ar" : "استعلامات المدي للفترات المجمعة / السنوية | إلي",
+      "en" : "Aggregated Periods / Annual Range Query | To",
+      "type" : "BigText"
+    }, {
+      "id" : "calculationLines.bylawCode",
+      "column" : "bylawCode",
+      "ar" : "كود الائحة",
+      "en" : "ByLaw Code",
+      "type" : "Text"
+    }, {
+      "id" : "calculationLines.criteriaDefinition",
+      "column" : "criteriaDefinition_id",
+      "ar" : " المعايير",
+      "en" : " Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "calculationLines.divideOn",
+      "column" : "divideOn",
+      "ar" : "المعدل | مقسوم علي",
+      "en" : "Rate | Divide On",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculationLines.employeeInfoCriteria",
+      "column" : "employeeInfoCriteria_id",
+      "ar" : "معايير معلومات شئون الموظفين",
+      "en" : "Employee Information Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "calculationLines.employeeInfoQuery",
+      "column" : "employeeInfoQuery",
+      "ar" : "استعلام معلومات شئون الموظفين",
+      "en" : "Employee Information Query",
+      "type" : "BigText"
+    }, {
+      "id" : "calculationLines.employeeQuery",
+      "column" : "employeeQuery",
+      "ar" : "استعلامات ملف الموظف",
+      "en" : "Employee Query",
+      "type" : "BigText"
+    }, {
+      "id" : "calculationLines.experienceDaysFrom",
+      "column" : "experienceDaysFrom",
+      "ar" : "مدة الخبرة بالأيام | من",
+      "en" : "Experience Days | from",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculationLines.experienceDaysTo",
+      "column" : "experienceDaysTo",
+      "ar" : "مدة الخبرة بالأيام | إلى",
+      "en" : "Experience Days | to",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculationLines.factorForHolidays",
+      "column" : "factorForHolidays",
+      "ar" : "المعامل للعطلات",
+      "en" : "Factor For Holidays",
+      "type" : "Boolean"
+    }, {
+      "id" : "calculationLines.factorForVacations",
+      "column" : "factorForVacations",
+      "ar" : "المعامل للاجازات",
+      "en" : "Factor For Vacations",
+      "type" : "Boolean"
+    }, {
+      "id" : "calculationLines.factorForWeekEnds",
+      "column" : "factorForWeekEnds",
+      "ar" : "المعامل للعطلات الإسبوعية",
+      "en" : "Factor For WeekEnds",
+      "type" : "Boolean"
+    }, {
+      "id" : "calculationLines.formulaLineRemark",
+      "column" : "formulaLineRemark",
+      "ar" : "ملاحظات المعادلة",
+      "en" : "Formula Line Remark",
+      "type" : "BigText"
+    }, {
+      "id" : "calculationLines.fromAnnualOccurrenceCount",
+      "column" : "fromAnnualOccurrenceCount",
+      "ar" : "مرات التكرار للفترات المجمعة / السنوية | من",
+      "en" : "Aggregated Periods / Annual Occurrence Count | From",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculationLines.fromOccurrenceCount",
+      "column" : "fromOccurrenceCount",
+      "ar" : "مرات التكرار | من",
+      "en" : "Occurrence Count | from",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculationLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "calculationLines.inputRoundingType",
+      "column" : "inputRoundingType",
+      "ar" : "طريقة تقريب المدخلات",
+      "en" : "Input Rounding Type",
+      "type" : "Enum",
+      "enum" : "RoundingType"
+    }, {
+      "id" : "calculationLines.issuance",
+      "column" : "issuance_id",
+      "ar" : "الصرفية",
+      "en" : "Issuance",
+      "type" : "Reference",
+      "refTo" : "HRSalaryIssuance",
+      "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+    }, {
+      "id" : "calculationLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "calculationLines.multDivideQuery",
+      "column" : "multDivideQuery",
+      "ar" : "استعلام مضروبا في مقسوما علي",
+      "en" : "Multiply / Divide Query",
+      "type" : "BigText"
+    }, {
+      "id" : "calculationLines.multiplyBy",
+      "column" : "multiplyBy",
+      "ar" : "المعدل | مضروب في",
+      "en" : "Rate | Multiply By",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculationLines.query",
+      "column" : "query",
+      "ar" : "الاستعلام (يطبق على كل يوم على حدة)",
+      "en" : "Query (Applied on every attendance day)",
+      "type" : "BigText"
+    }, {
+      "id" : "calculationLines.rangeFrom",
+      "column" : "rangeFrom",
+      "ar" : "المدي | من",
+      "en" : "Range | From",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculationLines.rangeFromQuery",
+      "column" : "rangeFromQuery",
+      "ar" : "استعلامات المدي | من",
+      "en" : "Range Query | From",
+      "type" : "BigText"
+    }, {
+      "id" : "calculationLines.rangeInMinutes",
+      "column" : "rangeInMinutes",
+      "ar" : "المدي بالدقيقة",
+      "en" : "Range In Minutes",
+      "type" : "Boolean"
+    }, {
+      "id" : "calculationLines.rangeTo",
+      "column" : "rangeTo",
+      "ar" : "المدي | إلي",
+      "en" : "Range | To",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculationLines.rangeToQuery",
+      "column" : "rangeToQuery",
+      "ar" : "استعلامات المدي | إلي",
+      "en" : "Range Query | To",
+      "type" : "BigText"
+    }, {
+      "id" : "calculationLines.rate",
+      "column" : "rate",
+      "ar" : "المعدل | القيمة",
+      "en" : "Rate | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculationLines.roundInputToValue",
+      "column" : "roundInputToValue",
+      "ar" : "تقريب المدخل لأقرب",
+      "en" : "Round Input To Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculationLines.salaryDocumentCriteria",
+      "column" : "salaryDocumentCriteria_id",
+      "ar" : "معايير سند الراتب",
+      "en" : "Salary Document Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "calculationLines.salaryDocumentQuery",
+      "column" : "salaryDocumentQuery",
+      "ar" : "استعلام سند الراتب",
+      "en" : "Salary Document Query",
+      "type" : "BigText"
+    }, {
+      "id" : "calculationLines.toAnnualOccurrenceCount",
+      "column" : "toAnnualOccurrenceCount",
+      "ar" : "مرات التكرار للفترات المجمعة / السنوية | إلي",
+      "en" : "Aggregated Periods / Annual Occurrence Count | To",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculationLines.toOccurrenceCount",
+      "column" : "toOccurrenceCount",
+      "ar" : "مرات التكرار | إلى",
+      "en" : "Occurrence Count | to",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculationLines.vacationFactor",
+      "column" : "vacationFactor",
+      "ar" : "معامل العطلات",
+      "en" : "Vacation Factor",
+      "type" : "Enum",
+      "enum" : "VacationFactor"
+    } ]
+  }, {
+    "id" : "compositeLines",
+    "table" : "CompCalcCompositeLine",
+    "joinColumn" : "componentCalcFormula_id",
+    "ar" : "المعادلات",
+    "en" : "Formulas",
+    "fields" : [ {
+      "id" : "compositeLines.divideOn",
+      "column" : "divideOn",
+      "ar" : "مقسوما علي",
+      "en" : "Divide On",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.formula",
+      "column" : "formula_id",
+      "ar" : "معادلة",
+      "en" : "Formula",
+      "type" : "Reference",
+      "refTo" : "ComponentCalcFormula",
+      "refPath" : "/modules/humanresource-payroll/ComponentCalcFormula.html"
+    }, {
+      "id" : "compositeLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "compositeLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "compositeLines.multiplyBy",
+      "column" : "multiplyBy",
+      "ar" : "مضروب في",
+      "en" : "Multiply By",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "taxRanges",
+    "table" : "HRTaxRange",
+    "joinColumn" : "componentCalcFormula_id",
+    "ar" : "شرائح الضرائب",
+    "en" : "Tax Ranges",
+    "fields" : [ {
+      "id" : "taxRanges.annualIncomeGreaterThan",
+      "column" : "annualIncomeGreaterThan",
+      "ar" : "الدخل السنوي أكبر من",
+      "en" : "Annual Income Greater Than",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxRanges.annualIncomeLessThanOrEqual",
+      "column" : "annualIncomeLessThanOrEqual",
+      "ar" : "الدخل السنوي أقل من أو يساوي",
+      "en" : "Annual Income Less Than Or Equal",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxRanges.discountPercentage",
+      "column" : "discountPercentage",
+      "ar" : "نسبة الخصم",
+      "en" : "Discount Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxRanges.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "taxRanges.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "taxRanges.maximumDiscount",
+      "column" : "maximumDiscount",
+      "ar" : "اقصي خصم",
+      "en" : "Maximum Discount",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxRanges.minimumDiscount",
+      "column" : "minimumDiscount",
+      "ar" : "اقل خصم",
+      "en" : "Minimum Discount",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxRanges.taxPercentage",
+      "column" : "taxPercentage",
+      "ar" : "نسبة الضريبة",
+      "en" : "Tax Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxRanges.value",
+      "column" : "value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    } ]
+  } ]
+}

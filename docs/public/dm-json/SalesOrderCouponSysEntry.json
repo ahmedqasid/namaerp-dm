@@ -1,0 +1,77 @@
+{
+  "entity" : "SalesOrderCouponSysEntry",
+  "table" : "SalesOrderCouponSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SalesOrderCouponSysEntry.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "codeWithoutPrefix",
+    "column" : "codeWithoutPrefix",
+    "type" : "Long"
+  }, {
+    "id" : "consumed",
+    "column" : "consumed",
+    "ar" : "المستهلك",
+    "en" : "Consumed",
+    "type" : "Boolean"
+  }, {
+    "id" : "customer",
+    "column" : "customer_id",
+    "ar" : "العميل",
+    "en" : "Customer",
+    "type" : "Reference",
+    "refTo" : "Customer",
+    "refPath" : "/modules/basic/Customer.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "item",
+    "column" : "item_id",
+    "ar" : "الصنف",
+    "en" : "Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "originDoc",
+    "columns" : [ "originDocActualCode", " originDocCode", " originDocEntityType", " originDocId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "prefix",
+    "column" : "prefix",
+    "ar" : "بادئة التكويد",
+    "en" : "Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "returned",
+    "column" : "returned",
+    "ar" : "مرتجعة",
+    "en" : "Returned",
+    "type" : "Boolean"
+  }, {
+    "id" : "sold",
+    "column" : "sold",
+    "ar" : "تم بيعها",
+    "en" : "Is sold",
+    "type" : "Boolean"
+  }, {
+    "id" : "sourceLienId",
+    "column" : "sourceLienId",
+    "type" : "ID"
+  }, {
+    "id" : "usedInInvoice",
+    "columns" : [ "usedInInvoiceActualCode", " usedInInvoiceCode", " usedInInvoiceEntityType", " usedInInvoiceId" ],
+    "ar" : "مستخدم في الفاتورة",
+    "en" : "Used In Invoice",
+    "type" : "Genericreference"
+  } ]
+}

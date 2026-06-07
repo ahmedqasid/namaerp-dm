@@ -1,0 +1,30 @@
+{
+  "enum" : "InvItemCodeType",
+  "values" : [ {
+    "id" : "Revision",
+    "ar" : " الإصدار",
+    "en" : " Revision"
+  }, {
+    "id" : "UOM",
+    "ar" : "وحدة قياس",
+    "en" : "UOM"
+  }, {
+    "id" : "SizeAndColor"
+  }, {
+    "id" : "Code",
+    "ar" : " الكود",
+    "en" : " Code"
+  }, {
+    "id" : "AltCode",
+    "ar" : " الكود الإنجليزي",
+    "en" : " English Code"
+  }, {
+    "id" : "CustomerCode"
+  }, {
+    "id" : "ManfCode"
+  }, {
+    "id" : "CustomerGroupCode"
+  }, {
+    "id" : "ManfGroupCode"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "AgreedPriceSource",
+  "values" : [ {
+    "id" : "AvgSuggestedPrice",
+    "ar" : "متوسط الأسعار المقترحة",
+    "en" : "Average Price | Suggested Prices"
+  }, {
+    "id" : "MinSuggestedPrice",
+    "ar" : "اقل سعر مقترح",
+    "en" : "Minimum Price | Suggested Prices"
+  }, {
+    "id" : "MaxSuggestedPrice",
+    "ar" : "اكبر سعر مقترح",
+    "en" : "Maximum Price | Suggested Prices"
+  } ]
+}

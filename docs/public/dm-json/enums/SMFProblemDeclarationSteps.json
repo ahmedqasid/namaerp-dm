@@ -1,0 +1,24 @@
+{
+  "enum" : "SMFProblemDeclarationSteps",
+  "values" : [ {
+    "id" : "ProblemSolvedTemporarily",
+    "ar" : "تم حل المشكلة مؤقتًا",
+    "en" : "Problem Solved Temporarily"
+  }, {
+    "id" : "MoveToAnotherSolution",
+    "ar" : "الانتقال إلى حل آخر",
+    "en" : "Move To Another Solution"
+  }, {
+    "id" : "ExpertHelp",
+    "ar" : "الاستعانة بخبير",
+    "en" : "Expert Help"
+  }, {
+    "id" : "ApproveSolutionAsBestPractice",
+    "ar" : "اعتماد الحل كـ BP",
+    "en" : "Approve Solution As Best Practice"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  } ]
+}

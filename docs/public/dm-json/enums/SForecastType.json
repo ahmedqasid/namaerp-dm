@@ -1,0 +1,12 @@
+{
+  "enum" : "SForecastType",
+  "values" : [ {
+    "id" : "Aggregated",
+    "ar" : "إجمالي",
+    "en" : "Aggregated"
+  }, {
+    "id" : "Detailed",
+    "ar" : "تفصيل",
+    "en" : "Detailedf"
+  } ]
+}

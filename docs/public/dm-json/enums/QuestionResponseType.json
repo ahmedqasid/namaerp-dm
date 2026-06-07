@@ -1,0 +1,20 @@
+{
+  "enum" : "QuestionResponseType",
+  "values" : [ {
+    "id" : "FreeText",
+    "ar" : "نصي",
+    "en" : "Text"
+  }, {
+    "id" : "Choice",
+    "ar" : "اختيار",
+    "en" : "Choices"
+  }, {
+    "id" : "Number",
+    "ar" : "رقم",
+    "en" : "Number"
+  }, {
+    "id" : "Date",
+    "ar" : "تاريخ",
+    "en" : "Date"
+  } ]
+}

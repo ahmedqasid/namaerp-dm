@@ -1,0 +1,1270 @@
+{
+  "entity" : "TaxEInvoice",
+  "table" : "TaxEInvoice",
+  "module" : "egtax",
+  "ar" : "الفاتورة الإكترونية المستقبلة",
+  "arPlural" : "الفواتير الإلكترونية المستقبلة",
+  "en" : "Tax Electronic Invoice",
+  "enPlural" : "Tax Electronic Invoices",
+  "page" : "https://dm.namasoft.com/modules/egtax/TaxEInvoice.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "dateTimeIssued",
+    "column" : "dateTimeIssued",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Date Time Issued",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "dateTimeReceived",
+    "column" : "dateTimeReceived",
+    "ar" : "تاريخ الإرسال",
+    "en" : "Date And Time Received",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "delivery.approach",
+    "column" : "deliveryApproach",
+    "ar" : "Delivery Approach",
+    "en" : "Delivery Approach",
+    "type" : "Text"
+  }, {
+    "id" : "delivery.countryOfOrigin",
+    "column" : "deliveryCountryOfOrigin",
+    "ar" : "بلد المنتج",
+    "en" : "Country Of Origin",
+    "type" : "Text"
+  }, {
+    "id" : "delivery.dateValidity",
+    "column" : "deliveryDateValidity",
+    "ar" : "صلاحية التاريخ",
+    "en" : "Delivery Date Validity",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "delivery.exportPort",
+    "column" : "deliveryExportPort",
+    "ar" : "منفذ التصدير",
+    "en" : "Export Port",
+    "type" : "Text"
+  }, {
+    "id" : "delivery.grossWeight",
+    "column" : "deliveryGrossWeight",
+    "ar" : "الوزن الكلي",
+    "en" : "Gross Weight",
+    "type" : "Decimal"
+  }, {
+    "id" : "delivery.netWeight",
+    "column" : "deliveryNetWeight",
+    "ar" : "الوزن الصافي",
+    "en" : "Net Weight",
+    "type" : "Decimal"
+  }, {
+    "id" : "delivery.packaging",
+    "column" : "deliveryPackaging",
+    "ar" : "تعبئة التوصيل",
+    "en" : "Delivery Packaging",
+    "type" : "Text"
+  }, {
+    "id" : "delivery.terms",
+    "column" : "deliveryTerms",
+    "ar" : "بنود التوصيل",
+    "en" : "Delivery Terms",
+    "type" : "Text"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "detailsRead",
+    "column" : "detailsRead",
+    "type" : "Boolean"
+  }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "documentType",
+    "column" : "documentType",
+    "ar" : "نوع المستند",
+    "en" : "Document Type",
+    "type" : "Enum",
+    "enum" : "EDocumentType"
+  }, {
+    "id" : "documentTypeVersion",
+    "column" : "documentTypeVersion",
+    "ar" : "نسخة المستند",
+    "en" : "Document Type Version",
+    "type" : "Text"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "extraDiscountAmount",
+    "column" : "extraDiscountAmount",
+    "ar" : "خصم إضافي",
+    "en" : "Extra Discount Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "internalID",
+    "column" : "internalID",
+    "ar" : "المعرف الداخلي للمستند",
+    "en" : "Internal ID",
+    "type" : "Text"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "issuer.address.additionalInformation",
+    "column" : "issuerAddressAdditionalInformation",
+    "ar" : "معلومات إضافية لمُصًدر الفاتورة",
+    "en" : "Issuer Additional Information",
+    "type" : "Text"
+  }, {
+    "id" : "issuer.address.branchID",
+    "column" : "issuerAddressBranchID",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "Text"
+  }, {
+    "id" : "issuer.address.buildingNumber",
+    "column" : "issuerAddressBuildingNumber",
+    "ar" : "رقم مبني مُصًدر الفاتورة",
+    "en" : "Issuer BuildingNumber",
+    "type" : "Text"
+  }, {
+    "id" : "issuer.address.country",
+    "column" : "issuerAddressCountry",
+    "ar" : "دولة مُصًدر الفاتورة",
+    "en" : "Issuer Country",
+    "type" : "Text"
+  }, {
+    "id" : "issuer.address.floor",
+    "column" : "issuerAddressFloor",
+    "ar" : "طابق مُصًدر الفاتورة",
+    "en" : "Issuer Floor",
+    "type" : "Text"
+  }, {
+    "id" : "issuer.address.governorate",
+    "column" : "issuerAddressGovernorate",
+    "ar" : "المحافظة",
+    "en" : "Governorate",
+    "type" : "Text"
+  }, {
+    "id" : "issuer.address.landmark",
+    "column" : "issuerAddressLandmark",
+    "ar" : "موقع مُصًدر الفاتورة",
+    "en" : "Issuer Landmark",
+    "type" : "Text"
+  }, {
+    "id" : "issuer.address.postalCode",
+    "column" : "issuerAddressPostalCode",
+    "ar" : "رقم بريدي مُصًدر الفاتورة",
+    "en" : "Issuer PostalCode",
+    "type" : "Text"
+  }, {
+    "id" : "issuer.address.regionCity",
+    "column" : "issuerAddressRegionCity",
+    "ar" : "منطقة مُصًدر الفاتورة",
+    "en" : "Issuer RegionCity",
+    "type" : "Text"
+  }, {
+    "id" : "issuer.address.room",
+    "column" : "issuerAddressRoom",
+    "ar" : "غرفة مُصًدر الفاتورة",
+    "en" : "Issuer Room",
+    "type" : "Text"
+  }, {
+    "id" : "issuer.address.street",
+    "column" : "issuerAddressStreet",
+    "ar" : "شارع مُصًدر الفاتورة",
+    "en" : "Issuer Street",
+    "type" : "Text"
+  }, {
+    "id" : "issuer.id",
+    "column" : "issuerId",
+    "ar" : "مُعرف مُصًدر الفاتورة",
+    "en" : "Issuer Id",
+    "type" : "Text"
+  }, {
+    "id" : "issuer.name",
+    "column" : "issuerName",
+    "ar" : "اسم مُصًدر الفاتورة",
+    "en" : "Issuer Name",
+    "type" : "Text"
+  }, {
+    "id" : "issuer.type",
+    "column" : "issuerType",
+    "ar" : "نوع مُصًدر الفاتورة",
+    "en" : "Issuer Type",
+    "type" : "Text"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "longId",
+    "column" : "longId",
+    "ar" : "المعرف الكامل للمستند",
+    "en" : "Long ID",
+    "type" : "Text"
+  }, {
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "netAmount",
+    "column" : "netAmount",
+    "ar" : "الصافي",
+    "en" : "Net Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "payment.bankAccountIBAN",
+    "column" : "paymentBankAccountIBAN",
+    "ar" : "Account IBAN",
+    "en" : "Account IBAN",
+    "type" : "Text"
+  }, {
+    "id" : "payment.bankAccountNo",
+    "column" : "paymentBankAccountNo",
+    "ar" : "رقم حساب البنك",
+    "en" : "Account Number",
+    "type" : "Text"
+  }, {
+    "id" : "payment.bankAddress",
+    "column" : "paymentBankAddress",
+    "ar" : "عنوان البنك",
+    "en" : "Bank Address",
+    "type" : "Text"
+  }, {
+    "id" : "payment.bankName",
+    "column" : "paymentBankName",
+    "ar" : "إسم البنك",
+    "en" : "Bank Name",
+    "type" : "Text"
+  }, {
+    "id" : "payment.swiftCode",
+    "column" : "paymentSwiftCode",
+    "ar" : "Swift Code",
+    "en" : "Swift Code",
+    "type" : "Text"
+  }, {
+    "id" : "payment.terms",
+    "column" : "paymentTerms",
+    "ar" : "بنود الدفع",
+    "en" : "Payment Terms",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "proformaInvoiceNumber",
+    "column" : "proformaInvoiceNumber",
+    "ar" : "رقم الفاتورة الأولي",
+    "en" : "Proforma Invoice Number",
+    "type" : "Text"
+  }, {
+    "id" : "purchaseOrderDescription",
+    "column" : "purchaseOrderDescription",
+    "ar" : "وصف أمر الشراء",
+    "en" : "Purchase Order Description",
+    "type" : "Text"
+  }, {
+    "id" : "purchaseOrderReference",
+    "column" : "purchaseOrderReference",
+    "ar" : "مرجع أمر الشراء",
+    "en" : "Purchase Order Reference",
+    "type" : "Text"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "receiver.address.additionalInformation",
+    "column" : "receiverAddressAdditionalInformation",
+    "ar" : "معلومات إضافية لمُستلم الفاتورة",
+    "en" : "Receiver Additional Information",
+    "type" : "Text"
+  }, {
+    "id" : "receiver.address.branchID",
+    "column" : "receiverAddressBranchID",
+    "ar" : "Branch ID",
+    "en" : "Receiver Branch Id",
+    "type" : "Text"
+  }, {
+    "id" : "receiver.address.buildingNumber",
+    "column" : "receiverAddressBuildingNumber",
+    "ar" : "رقم مبني مُستلم الفاتورة",
+    "en" : "Receiver BuildingNumber",
+    "type" : "Text"
+  }, {
+    "id" : "receiver.address.country",
+    "column" : "receiverAddressCountry",
+    "ar" : "دولة مُستلم الفاتورة",
+    "en" : "Receiver Country",
+    "type" : "Text"
+  }, {
+    "id" : "receiver.address.floor",
+    "column" : "receiverAddressFloor",
+    "ar" : "طابق مُستلم الفاتورة",
+    "en" : "Receiver Floor",
+    "type" : "Text"
+  }, {
+    "id" : "receiver.address.governorate",
+    "column" : "receiverAddressGovernorate",
+    "ar" : "المحافظة",
+    "en" : "Governorate",
+    "type" : "Text"
+  }, {
+    "id" : "receiver.address.landmark",
+    "column" : "receiverAddressLandmark",
+    "ar" : "موقع مُستلم الفاتورة",
+    "en" : "Receiver Landmark",
+    "type" : "Text"
+  }, {
+    "id" : "receiver.address.postalCode",
+    "column" : "receiverAddressPostalCode",
+    "ar" : "رقم بريدي مُستلم الفاتورة",
+    "en" : "Receiver PostalCode",
+    "type" : "Text"
+  }, {
+    "id" : "receiver.address.regionCity",
+    "column" : "receiverAddressRegionCity",
+    "ar" : "منطقة مُستلم الفاتورة",
+    "en" : "Receiver RegionCity",
+    "type" : "Text"
+  }, {
+    "id" : "receiver.address.room",
+    "column" : "receiverAddressRoom",
+    "ar" : "غرفة مُستلم الفاتورة",
+    "en" : "Receiver Room",
+    "type" : "Text"
+  }, {
+    "id" : "receiver.address.street",
+    "column" : "receiverAddressStreet",
+    "ar" : "شارع مُستلم الفاتورة",
+    "en" : "Receiver Street",
+    "type" : "Text"
+  }, {
+    "id" : "receiver.id",
+    "column" : "receiverId",
+    "ar" : "مُعرف مُستلم الفاتورة",
+    "en" : "Receiver Id",
+    "type" : "Text"
+  }, {
+    "id" : "receiver.name",
+    "column" : "receiverName",
+    "ar" : "اسم مُستلم الفاتورة",
+    "en" : "Receiver Name",
+    "type" : "Text"
+  }, {
+    "id" : "receiver.type",
+    "column" : "receiverType",
+    "ar" : "نوع مُستلم الفاتورة",
+    "en" : "Receiver Type",
+    "type" : "Text"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "salesOrderDescription",
+    "column" : "salesOrderDescription",
+    "ar" : "وصف أمر البيع",
+    "en" : "Sales Order Description",
+    "type" : "Text"
+  }, {
+    "id" : "salesOrderReference",
+    "column" : "salesOrderReference",
+    "ar" : "مرجع أمر البيع",
+    "en" : "Sales Order Reference",
+    "type" : "Text"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Text"
+  }, {
+    "id" : "submissionUUID",
+    "column" : "submissionUUID",
+    "ar" : "معرف مرحلة الارسال",
+    "en" : "Submission ID",
+    "type" : "Text"
+  }, {
+    "id" : "tax1Total.amount",
+    "column" : "tax1TotalAmount",
+    "ar" : " المبلغ",
+    "en" : " Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "tax1Total.discount",
+    "column" : "tax1TotalDiscount",
+    "ar" : "التخفيض",
+    "en" : "Discount",
+    "type" : "Boolean"
+  }, {
+    "id" : "tax1Total.taxType",
+    "column" : "tax1TotalTaxType",
+    "ar" : "كود الضريبة",
+    "en" : "Tax Type",
+    "type" : "Text"
+  }, {
+    "id" : "tax2Total.amount",
+    "column" : "tax2TotalAmount",
+    "ar" : " المبلغ",
+    "en" : " Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "tax2Total.discount",
+    "column" : "tax2TotalDiscount",
+    "ar" : "التخفيض",
+    "en" : "Discount",
+    "type" : "Boolean"
+  }, {
+    "id" : "tax2Total.taxType",
+    "column" : "tax2TotalTaxType",
+    "ar" : "كود الضريبة",
+    "en" : "Tax Type",
+    "type" : "Text"
+  }, {
+    "id" : "tax3Total.amount",
+    "column" : "tax3TotalAmount",
+    "ar" : " المبلغ",
+    "en" : " Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "tax3Total.discount",
+    "column" : "tax3TotalDiscount",
+    "ar" : "التخفيض",
+    "en" : "Discount",
+    "type" : "Boolean"
+  }, {
+    "id" : "tax3Total.taxType",
+    "column" : "tax3TotalTaxType",
+    "ar" : "كود الضريبة",
+    "en" : "Tax Type",
+    "type" : "Text"
+  }, {
+    "id" : "tax4Total.amount",
+    "column" : "tax4TotalAmount",
+    "ar" : " المبلغ",
+    "en" : " Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "tax4Total.discount",
+    "column" : "tax4TotalDiscount",
+    "ar" : "التخفيض",
+    "en" : "Discount",
+    "type" : "Boolean"
+  }, {
+    "id" : "tax4Total.taxType",
+    "column" : "tax4TotalTaxType",
+    "ar" : "كود الضريبة",
+    "en" : "Tax Type",
+    "type" : "Text"
+  }, {
+    "id" : "taxPayerConfig",
+    "column" : "taxPayerConfig_id",
+    "ar" : " إعدادات مصلحة الضرائب",
+    "en" : " Electronic Tax Authority Configuration",
+    "type" : "Reference",
+    "refTo" : "TaxPayerConfiguration",
+    "refPath" : "/modules/basic-tax-e-invoice/TaxPayerConfiguration.html"
+  }, {
+    "id" : "taxpayerActivityCode",
+    "column" : "taxpayerActivityCode",
+    "ar" : "كود النشاط",
+    "en" : "Taxpayer Activity Code",
+    "type" : "Text"
+  }, {
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
+    "type" : "BigText"
+  }, {
+    "id" : "totalAmount",
+    "column" : "totalAmount",
+    "ar" : "إجمالي المبلغ",
+    "en" : "Total Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalDiscountAmount",
+    "column" : "totalDiscountAmount",
+    "ar" : "إجمالي الخصم",
+    "en" : "Total Discount Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalItemsDiscountAmount",
+    "column" : "totalItemsDiscountAmount",
+    "ar" : "إجمالي خصم الأصناف",
+    "en" : "Total Items Discount Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalSalesAmount",
+    "column" : "totalSalesAmount",
+    "ar" : "الإجمالي",
+    "en" : "Total Sales Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "transformationStatus",
+    "column" : "transformationStatus",
+    "ar" : "حالة التحويل",
+    "en" : "Transformation Status",
+    "type" : "Text"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "uuid",
+    "column" : "uuid",
+    "ar" : "معرف المستند داخل مصلحة الضرائب",
+    "en" : "UUID",
+    "type" : "Text"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "signatureLines",
+    "table" : "TaxEInvoiceSignatureLine",
+    "joinColumn" : "taxEInvoice_id",
+    "ar" : "التوقيعات",
+    "en" : "Signature Lines",
+    "fields" : [ {
+      "id" : "signatureLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "signatureLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "signatureLines.signatureType",
+      "column" : "signatureType",
+      "ar" : "توقيع من طرف",
+      "en" : "Signature Type",
+      "type" : "Enum",
+      "enum" : "TaxEInvoiceSignatureType"
+    }, {
+      "id" : "signatureLines.value",
+      "column" : "value",
+      "ar" : "التوقيع",
+      "en" : "Signature",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "taxEInvoiceItemLines",
+    "table" : "TaxEInvoiceItemLine",
+    "joinColumn" : "taxEInvoice_id",
+    "ar" : "سطور العناصر",
+    "fields" : [ {
+      "id" : "taxEInvoiceItemLines.description",
+      "column" : "description",
+      "ar" : "الوصف",
+      "en" : "Description",
+      "type" : "Text"
+    }, {
+      "id" : "taxEInvoiceItemLines.discount.amount",
+      "column" : "discountAmount",
+      "ar" : "قيمة الخصم",
+      "en" : "Discount Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.discount.rate",
+      "column" : "discountRate",
+      "ar" : "نسبة الخصم",
+      "en" : "Discount Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "taxEInvoiceItemLines.internalCode",
+      "column" : "internalCode",
+      "ar" : "الكود الداخلي للصنف",
+      "en" : "Internal Code",
+      "type" : "Text"
+    }, {
+      "id" : "taxEInvoiceItemLines.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
+      "id" : "taxEInvoiceItemLines.itemType",
+      "column" : "itemType",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Text"
+    }, {
+      "id" : "taxEInvoiceItemLines.itemsDiscount",
+      "column" : "itemsDiscount",
+      "ar" : "خصم الأصناف",
+      "en" : "Items Discount",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "taxEInvoiceItemLines.netTotal",
+      "column" : "netTotal",
+      "ar" : "الصافي",
+      "en" : "Net Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.quantity",
+      "column" : "quantity",
+      "ar" : "الكمية",
+      "en" : "Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.salesTotal",
+      "column" : "salesTotal",
+      "ar" : "إجمالي المبيعات",
+      "en" : "Sales Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax1.amount",
+      "column" : "tax1Amount",
+      "ar" : "ضريبة 1 | المبلغ",
+      "en" : "Tax 1 | Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax1.discount",
+      "column" : "tax1Discount",
+      "ar" : "ضريبة 1 | الخصم",
+      "en" : "Tax 1 | Discount",
+      "type" : "Boolean"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax1.rate",
+      "column" : "tax1Rate",
+      "ar" : "ضريبة 1 | نسبة الضريبة",
+      "en" : "Tax 1 | Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax1.subType",
+      "column" : "tax1SubType",
+      "ar" : "ضريبة 1 | كود الضريبة الفرعي",
+      "en" : "Tax 1 | Sub Type",
+      "type" : "Text"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax1.taxType",
+      "column" : "tax1TaxType",
+      "ar" : "ضريبة 1 | كود الضريبة",
+      "en" : "Tax 1 | Tax Type",
+      "type" : "Text"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax2.amount",
+      "column" : "tax2Amount",
+      "ar" : "ضريبة 2 | المبلغ",
+      "en" : "Tax 2 | Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax2.discount",
+      "column" : "tax2Discount",
+      "ar" : "ضريبة 2 | الخصم",
+      "en" : "Tax 2 | Discount",
+      "type" : "Boolean"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax2.rate",
+      "column" : "tax2Rate",
+      "ar" : "ضريبة 2 | نسبة الضريبة",
+      "en" : "Tax 2 | Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax2.subType",
+      "column" : "tax2SubType",
+      "ar" : "ضريبة 2 | كود الضريبة الفرعي",
+      "en" : "Tax 2 | Sub Type",
+      "type" : "Text"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax2.taxType",
+      "column" : "tax2TaxType",
+      "ar" : "ضريبة 2 | كود الضريبة",
+      "en" : "Tax 2 | Tax Type",
+      "type" : "Text"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax3.amount",
+      "column" : "tax3Amount",
+      "ar" : "ضريبة 3 | المبلغ",
+      "en" : "Tax 3 | Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax3.discount",
+      "column" : "tax3Discount",
+      "ar" : "ضريبة 3 | الخصم",
+      "en" : "Tax 3 | Discount",
+      "type" : "Boolean"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax3.rate",
+      "column" : "tax3Rate",
+      "ar" : "ضريبة 3 | نسبة الضريبة",
+      "en" : "Tax 3 | Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax3.subType",
+      "column" : "tax3SubType",
+      "ar" : "ضريبة 3 | كود الضريبة الفرعي",
+      "en" : "Tax 3 | Sub Type",
+      "type" : "Text"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax3.taxType",
+      "column" : "tax3TaxType",
+      "ar" : "ضريبة 3 | كود الضريبة",
+      "en" : "Tax 3 | Tax Type",
+      "type" : "Text"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax4.amount",
+      "column" : "tax4Amount",
+      "ar" : "ضريبة 4 | المبلغ",
+      "en" : "Tax 4 | Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax4.discount",
+      "column" : "tax4Discount",
+      "ar" : "ضريبة 4 | الخصم",
+      "en" : "Tax 4 | Discount",
+      "type" : "Boolean"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax4.rate",
+      "column" : "tax4Rate",
+      "ar" : "ضريبة 4 | نسبة الضريبة",
+      "en" : "Tax 4 | Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax4.subType",
+      "column" : "tax4SubType",
+      "ar" : "ضريبة 4 | كود الضريبة الفرعي",
+      "en" : "Tax 4 | Sub Type",
+      "type" : "Text"
+    }, {
+      "id" : "taxEInvoiceItemLines.tax4.taxType",
+      "column" : "tax4TaxType",
+      "ar" : "ضريبة 4 | كود الضريبة",
+      "en" : "Tax 4 | Tax Type",
+      "type" : "Text"
+    }, {
+      "id" : "taxEInvoiceItemLines.total",
+      "column" : "total",
+      "ar" : "الإجمالي",
+      "en" : "Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.totalTaxableFees",
+      "column" : "totalTaxableFees",
+      "ar" : "إجمالي الضرائب",
+      "en" : "Total Taxable Fees",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.unitType",
+      "column" : "unitType",
+      "ar" : "نوع الوحدة",
+      "en" : "Unit type",
+      "type" : "Text"
+    }, {
+      "id" : "taxEInvoiceItemLines.unitValue.amountEGP",
+      "column" : "unitValueAmountEGP",
+      "ar" : "المبلغ بالمصري",
+      "en" : "Amount EGP",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.unitValue.amountSold",
+      "column" : "unitValueAmountSold",
+      "ar" : "المبلغ",
+      "en" : "Amount Sold",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.unitValue.currencyExchangeRate",
+      "column" : "unitValueCurrencyExchangeRate",
+      "ar" : "مُعدل تحويل العملة",
+      "en" : "Currency Exchange Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxEInvoiceItemLines.unitValue.currencySold",
+      "column" : "unitValueCurrencySold",
+      "ar" : "العملة",
+      "en" : "Currency Sold",
+      "type" : "Text"
+    }, {
+      "id" : "taxEInvoiceItemLines.valueDifference",
+      "column" : "valueDifference",
+      "ar" : "فرق القيمة",
+      "en" : "Value Difference",
+      "type" : "Decimal"
+    } ]
+  } ]
+}

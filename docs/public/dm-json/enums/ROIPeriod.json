@@ -1,0 +1,20 @@
+{
+  "enum" : "ROIPeriod",
+  "values" : [ {
+    "id" : "Monthly",
+    "ar" : "شهرية",
+    "en" : "Monthly"
+  }, {
+    "id" : "Quarterly",
+    "ar" : "ربع سنوية",
+    "en" : "Quarterly"
+  }, {
+    "id" : "Biannual",
+    "ar" : "نصف سنوية",
+    "en" : "Biannual"
+  }, {
+    "id" : "Annual",
+    "ar" : "سنوى",
+    "en" : "Annual"
+  } ]
+}

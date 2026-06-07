@@ -1,0 +1,24 @@
+{
+  "enum" : "ReportPageFormat",
+  "values" : [ {
+    "id" : "A3",
+    "ar" : "A3",
+    "en" : "A3"
+  }, {
+    "id" : "A4",
+    "ar" : "A4",
+    "en" : "A4"
+  }, {
+    "id" : "A5",
+    "ar" : "A5",
+    "en" : "A5"
+  }, {
+    "id" : "LETTER",
+    "ar" : "LETTER",
+    "en" : "LETTER"
+  }, {
+    "id" : "CUSTOM",
+    "ar" : "مخصص",
+    "en" : "CUSTOM"
+  } ]
+}

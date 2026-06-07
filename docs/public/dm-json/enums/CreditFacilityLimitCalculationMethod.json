@@ -1,0 +1,12 @@
+{
+  "enum" : "CreditFacilityLimitCalculationMethod",
+  "values" : [ {
+    "id" : "RemainingOfOpenedCreditFacilities",
+    "ar" : "المتبقي من التسهيلات الائتمانية المفتوحة",
+    "en" : "Remaining Of Opened Credit Facilities"
+  }, {
+    "id" : "SumOfRemainingOfOpenedCreditFacilitiesAndTotalInterestValueTillEndOfCreditFacility",
+    "ar" : "مجموع المتبقي من التسهيلات الائمانية المفتوحة و إجمالى قيمة الفائدة لنهاية التسهيل الائتمانى",
+    "en" : "Sum Of Remaining Of Opened Credit Facilities And Total Interest Value Till End Of Credit Facility"
+  } ]
+}

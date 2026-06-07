@@ -1,0 +1,12 @@
+{
+  "enum" : "REReturnPaymentMethod",
+  "values" : [ {
+    "id" : "Issue",
+    "ar" : "صرف",
+    "en" : "Issue"
+  }, {
+    "id" : "DiscountFromContractInstallments",
+    "ar" : "خصم من أقساط العقد",
+    "en" : "Discount From Contract Installments"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "enum" : "ApprovalCaseState",
+  "values" : [ {
+    "id" : "Approved",
+    "ar" : "مقبول",
+    "en" : "Approved"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "Returned",
+    "ar" : "تم إرجاعه",
+    "en" : "Returned"
+  }, {
+    "id" : "Revoked",
+    "ar" : "مسحوب",
+    "en" : "Revoked"
+  }, {
+    "id" : "InProgress",
+    "ar" : " بانتظار موافقة",
+    "en" : " Approval Pending"
+  } ]
+}

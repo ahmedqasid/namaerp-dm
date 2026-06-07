@@ -1,0 +1,16 @@
+{
+  "enum" : "ConsiderActivePercentageType",
+  "values" : [ {
+    "id" : "FromActivePercentage",
+    "ar" : "من النسبة الفعالة",
+    "en" : "From Active Percentage"
+  }, {
+    "id" : "FromInactivePercentage",
+    "ar" : "من النسبة الغير فعالة",
+    "en" : "From Inactive Percentage"
+  }, {
+    "id" : "Without",
+    "ar" : "بدون",
+    "en" : "Without"
+  } ]
+}

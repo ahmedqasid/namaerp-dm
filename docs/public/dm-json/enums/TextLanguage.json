@@ -1,0 +1,16 @@
+{
+  "enum" : "TextLanguage",
+  "values" : [ {
+    "id" : "All",
+    "ar" : "الكل",
+    "en" : "All"
+  }, {
+    "id" : "OnlyArabic",
+    "ar" : "لغة عربية فقط",
+    "en" : "Only Arabic"
+  }, {
+    "id" : "OnlyEnglish",
+    "ar" : "لغة إنجليزية فقط",
+    "en" : "Only English"
+  } ]
+}

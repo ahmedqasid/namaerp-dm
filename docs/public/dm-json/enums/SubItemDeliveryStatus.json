@@ -1,0 +1,24 @@
+{
+  "enum" : "SubItemDeliveryStatus",
+  "values" : [ {
+    "id" : "SoldAndNotDelivered",
+    "ar" : "مباع ولم يسلم",
+    "en" : "Sold And Not Delivered"
+  }, {
+    "id" : "Consignment",
+    "ar" : "شحنة",
+    "en" : "Consignment"
+  }, {
+    "id" : "Final",
+    "ar" : "نهائي",
+    "en" : "Final"
+  }, {
+    "id" : "Inspection",
+    "ar" : "تفتيش",
+    "en" : "Inspection"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  } ]
+}

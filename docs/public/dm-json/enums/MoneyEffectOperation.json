@@ -1,0 +1,28 @@
+{
+  "enum" : "MoneyEffectOperation",
+  "values" : [ {
+    "id" : "Add",
+    "ar" : "جمع",
+    "en" : "Add"
+  }, {
+    "id" : "Subtract",
+    "ar" : "طرح",
+    "en" : "Subtract"
+  }, {
+    "id" : "Multiply",
+    "ar" : "ضرب",
+    "en" : "Multiply"
+  }, {
+    "id" : "Divide",
+    "ar" : "قسمة",
+    "en" : "Divide"
+  }, {
+    "id" : "CalcPercentage",
+    "ar" : "حساب النسبة المئوية",
+    "en" : "Calculate Percentage"
+  }, {
+    "id" : "CalcInversePercentage",
+    "ar" : "حساب النسبة المئوية المقلوبة (السعر يشمل الضريبى)",
+    "en" : "Calculate Inverse Percentage (Price Includes Tax)"
+  } ]
+}

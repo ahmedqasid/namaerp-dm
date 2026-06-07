@@ -1,0 +1,88 @@
+{
+  "enum" : "FilterType",
+  "values" : [ {
+    "id" : "Between",
+    "ar" : "يقع ما بين قيمتين",
+    "en" : "Between"
+  }, {
+    "id" : "Equals",
+    "ar" : "يساوي",
+    "en" : "Equals"
+  }, {
+    "id" : "EqualsWithNull",
+    "ar" : "يساوي (باعتبار ال null)",
+    "en" : "Equals With Null"
+  }, {
+    "id" : "NotEqual",
+    "ar" : "لا يساوي",
+    "en" : "Not Equal"
+  }, {
+    "id" : "NotEqualWithNull",
+    "ar" : "لا يساوي (باعتبار ال null)",
+    "en" : "Not Equal With Null"
+  }, {
+    "id" : "GreaterThan",
+    "ar" : "أكبر من",
+    "en" : "Greater Than"
+  }, {
+    "id" : "GreaterThanOrEqual",
+    "ar" : "أكبر من أو يساوي",
+    "en" : "Greater Than Or Equal"
+  }, {
+    "id" : "LessThan",
+    "ar" : "أقل من",
+    "en" : "Less Than"
+  }, {
+    "id" : "LessThanOrEqual",
+    "ar" : "أقل من أو يساوي",
+    "en" : "Less Than Or Equal"
+  }, {
+    "id" : "GreaterThanWithNull",
+    "ar" : "أكبر من (باعتبار ال null)",
+    "en" : "Greater Than With Null"
+  }, {
+    "id" : "GreaterThanOrEqualWithNull",
+    "ar" : "أكبر من أو يساوي (باعتبار ال null)",
+    "en" : "Greater Than Or Equal With Null"
+  }, {
+    "id" : "LessThanWithNull",
+    "ar" : "أقل من (باعتبار ال null)",
+    "en" : "Less Than With Null"
+  }, {
+    "id" : "LessThanOrEqualWithNull",
+    "ar" : "أقل من أو يساوي (باعتبار ال null)",
+    "en" : "Less Than Or Equal With Null"
+  }, {
+    "id" : "Contains",
+    "ar" : "يحتوي علي",
+    "en" : "Contains"
+  }, {
+    "id" : "DoesNotContain",
+    "ar" : "لا يحتوي على",
+    "en" : "Does Not Contain"
+  }, {
+    "id" : "In",
+    "ar" : "في",
+    "en" : "In"
+  }, {
+    "id" : "NotIn",
+    "ar" : "ليس في",
+    "en" : "Not In"
+  }, {
+    "id" : "StartsWith",
+    "ar" : "يبدأ بـ",
+    "en" : "Starts With"
+  }, {
+    "id" : "EndsWith",
+    "ar" : "ينتهي بـ",
+    "en" : "Ends With"
+  }, {
+    "id" : "HasValueOrNot",
+    "ar" : "به قيمة أم لا",
+    "en" : "Has Value Or Not"
+  }, {
+    "id" : "HasValueForTotal",
+    "ar" : "به قيمة أم لا - للإجمالي",
+    "en" : "Has Value For Total"
+  } ]
+}

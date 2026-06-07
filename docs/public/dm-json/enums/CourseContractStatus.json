@@ -1,0 +1,16 @@
+{
+  "enum" : "CourseContractStatus",
+  "values" : [ {
+    "id" : "Active",
+    "ar" : "فعال",
+    "en" : "Active"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
+  }, {
+    "id" : "PartialCancel",
+    "ar" : "ملغاة جزئيا",
+    "en" : "Partial Cancel"
+  } ]
+}

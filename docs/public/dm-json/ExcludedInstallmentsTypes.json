@@ -1,0 +1,18 @@
+{
+  "entity" : "ExcludedInstallmentsTypes",
+  "table" : "ExcludedInstallmentsTypes",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ExcludedInstallmentsTypes.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "installmentType",
+    "column" : "installmentType",
+    "ar" : "نوع القسط",
+    "en" : "Installment type",
+    "type" : "Enum",
+    "enum" : "REInstallmentType"
+  } ]
+}

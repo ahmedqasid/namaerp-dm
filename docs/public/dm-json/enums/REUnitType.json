@@ -1,0 +1,64 @@
+{
+  "enum" : "REUnitType",
+  "values" : [ {
+    "id" : "Garage",
+    "ar" : "جراج",
+    "en" : "Garage"
+  }, {
+    "id" : "Unit",
+    "ar" : "وحدة",
+    "en" : "Unit"
+  }, {
+    "id" : "Shop",
+    "ar" : "محل تجاري",
+    "en" : "Shop"
+  }, {
+    "id" : "Hall",
+    "ar" : "صالة",
+    "en" : "Hall"
+  }, {
+    "id" : "Exhibition",
+    "ar" : "معرض",
+    "en" : "Exhibition"
+  }, {
+    "id" : "Extension",
+    "ar" : "ملحق",
+    "en" : "Extension"
+  }, {
+    "id" : "Room",
+    "ar" : "غرفة",
+    "en" : "Room"
+  }, {
+    "id" : "Flat",
+    "ar" : "شقة",
+    "en" : "Flat"
+  }, {
+    "id" : "Office",
+    "ar" : "مكتب",
+    "en" : "Office"
+  }, {
+    "id" : "Kitchen",
+    "ar" : "مطبخ",
+    "en" : "Kitchen"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  }, {
+    "id" : "Other4",
+    "ar" : "أخرى 4",
+    "en" : "Other 4"
+  }, {
+    "id" : "Other5",
+    "ar" : "أخرى 5",
+    "en" : "Other 5"
+  } ]
+}

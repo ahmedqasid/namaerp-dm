@@ -1,0 +1,32 @@
+{
+  "enum" : "CRMFollowUpSubStatus",
+  "values" : [ {
+    "id" : "Follow",
+    "ar" : "متابعة",
+    "en" : "Follow"
+  }, {
+    "id" : "NoAnswer",
+    "ar" : "لم يتم الرد",
+    "en" : "No Answer"
+  }, {
+    "id" : "ExpectedVisit",
+    "ar" : "زيارة متوقعة",
+    "en" : "Expected Visit"
+  }, {
+    "id" : "Hold",
+    "ar" : "تعليق",
+    "en" : "Hold"
+  }, {
+    "id" : "Negotiation",
+    "ar" : "تفاوض",
+    "en" : "Negotiation"
+  }, {
+    "id" : "Cancel",
+    "ar" : "إلغاء",
+    "en" : "Cancel"
+  }, {
+    "id" : "NotReached",
+    "ar" : "لم يتم الوصول",
+    "en" : "Not Reached"
+  } ]
+}

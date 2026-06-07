@@ -1,0 +1,1411 @@
+{
+  "entity" : "AccDistribution",
+  "table" : "AccDistribution",
+  "module" : "accounting",
+  "ar" : "توزيع حسابات",
+  "arPlural" : "توزيعات حسابات",
+  "en" : "Account Distribution",
+  "enPlural" : "Account Distributions",
+  "page" : "https://dm.namasoft.com/modules/accounting/AccDistribution.html",
+  "fields" : [ {
+    "id" : "accountKeepAndInvert",
+    "column" : "accountKeepAndInvert",
+    "ar" : "الاحتفاظ وعكس السطر للحساب",
+    "en" : "Keep And Invert Line For Account",
+    "type" : "Boolean"
+  }, {
+    "id" : "accountMinUndistValue",
+    "column" : "accountMinUndistValue",
+    "ar" : "أقل قيمة يمكن توزيعها للحساب",
+    "en" : "Minimal Undistributable Value For Account",
+    "type" : "Decimal"
+  }, {
+    "id" : "accountPolicy",
+    "column" : "accountPolicy",
+    "ar" : "سياسة توزيع الحساب",
+    "en" : "Account Policy",
+    "type" : "Enum",
+    "enum" : "AccDistribPolicy"
+  }, {
+    "id" : "accountQuery",
+    "column" : "accountQuery",
+    "ar" : "استعلام الحساب",
+    "en" : "Account Query",
+    "type" : "BigText"
+  }, {
+    "id" : "accountScript",
+    "column" : "accountScript",
+    "ar" : "سيناريو الحساب",
+    "en" : "Account Script",
+    "type" : "BigText"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "analysisSetKeepAndInvert",
+    "column" : "analysisSetKeepAndInvert",
+    "ar" : "الاحتفاظ وعكس السطر للمجموعة التحليلية",
+    "en" : "Keep And Invert Line For Analysis Set",
+    "type" : "Boolean"
+  }, {
+    "id" : "analysisSetMinUndistValue",
+    "column" : "analysisSetMinUndistValue",
+    "ar" : "أقل قيمة يمكن توزيعها للمجموعة التحليلية",
+    "en" : "Minimal Undistributable Value For AnalysisSet",
+    "type" : "Decimal"
+  }, {
+    "id" : "analysisSetOrder",
+    "column" : "analysisSetOrder",
+    "ar" : "ترتيب المجموعة التحليلية",
+    "en" : "Analysis Set Order",
+    "type" : "Enum",
+    "enum" : "DistributionOrder"
+  }, {
+    "id" : "analysisSetPolicy",
+    "column" : "analysisSetPolicy",
+    "ar" : "سياسة توزيع المجموعة التحليلية",
+    "en" : "Analysis Set Policy",
+    "type" : "Enum",
+    "enum" : "AccDistribPolicy"
+  }, {
+    "id" : "analysisSetQuery",
+    "column" : "analysisSetQuery",
+    "ar" : "استعلام المجموعة التحليلية",
+    "en" : "AnalysisSet Query",
+    "type" : "BigText"
+  }, {
+    "id" : "analysisSetScript",
+    "column" : "analysisSetScript",
+    "ar" : "سيناريو المجموعة التحليلية",
+    "en" : "Analysis Set Script",
+    "type" : "BigText"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "branchKeepAndInvert",
+    "column" : "branchKeepAndInvert",
+    "ar" : "الاحتفاظ وعكس السطر للفرع",
+    "en" : "Keep And Invert Line For Branch",
+    "type" : "Boolean"
+  }, {
+    "id" : "branchMinUndistValue",
+    "column" : "branchMinUndistValue",
+    "ar" : "أقل قيمة يمكن توزيعها للفرع",
+    "en" : "Minimal Undistributable Value For Branch",
+    "type" : "Decimal"
+  }, {
+    "id" : "branchOrder",
+    "column" : "branchOrder",
+    "ar" : "ترتيب الفرع",
+    "en" : "Branch Order",
+    "type" : "Enum",
+    "enum" : "DistributionOrder"
+  }, {
+    "id" : "branchPolicy",
+    "column" : "branchPolicy",
+    "ar" : "سياسة توزيع الفرع",
+    "en" : "Branch Policy",
+    "type" : "Enum",
+    "enum" : "AccDistribPolicy"
+  }, {
+    "id" : "branchQuery",
+    "column" : "branchQuery",
+    "ar" : "استعلام الفرع",
+    "en" : "Branch Query",
+    "type" : "BigText"
+  }, {
+    "id" : "branchScript",
+    "column" : "branchScript",
+    "ar" : "سيناريو الفرع",
+    "en" : "Branch Script",
+    "type" : "BigText"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "departmentKeepAndInvert",
+    "column" : "departmentKeepAndInvert",
+    "ar" : "الاحتفاظ وعكس السطر للقسم",
+    "en" : "Keep And Invert Line For Department",
+    "type" : "Boolean"
+  }, {
+    "id" : "departmentMinUndistValue",
+    "column" : "departmentMinUndistValue",
+    "ar" : "أقل قيمة يمكن توزيعها للقسم",
+    "en" : "Minimal Undistributable Value For Department",
+    "type" : "Decimal"
+  }, {
+    "id" : "departmentOrder",
+    "column" : "departmentOrder",
+    "ar" : "ترتيب القسم",
+    "en" : "Department Order",
+    "type" : "Enum",
+    "enum" : "DistributionOrder"
+  }, {
+    "id" : "departmentPolicy",
+    "column" : "departmentPolicy",
+    "ar" : "سياسة توزيع القسم",
+    "en" : "Department Policy",
+    "type" : "Enum",
+    "enum" : "AccDistribPolicy"
+  }, {
+    "id" : "departmentQuery",
+    "column" : "departmentQuery",
+    "ar" : "استعلام القسم",
+    "en" : "Department Query",
+    "type" : "BigText"
+  }, {
+    "id" : "departmentScript",
+    "column" : "departmentScript",
+    "ar" : "سيناريو القسم",
+    "en" : "Department Script",
+    "type" : "BigText"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "distributeBasedOnSideBranch",
+    "column" : "distributeBasedOnSideBranch",
+    "ar" : "توزيع على الفروع الموجودة في الجانب الآخر",
+    "en" : "Distribute Based On Side Branches",
+    "type" : "Boolean"
+  }, {
+    "id" : "distributeBasedOnSideDep",
+    "column" : "distributeBasedOnSideDep",
+    "ar" : "توزيع على الإدارات الموجودة في الجانب الآخر",
+    "en" : "Distribute Based On Side Departments",
+    "type" : "Boolean"
+  }, {
+    "id" : "distributeBasedOnSideSector",
+    "column" : "distributeBasedOnSideSector",
+    "ar" : "توزيع على القطاعات الموجودة في الجانب الآخر",
+    "en" : "Distribute Based On Side Sectors",
+    "type" : "Boolean"
+  }, {
+    "id" : "distributeBasedOnTheSideRef1",
+    "column" : "distributeBasedOnTheSideRef1",
+    "ar" : "توزيع على المرجع رقم 1 في الجانب الآخر",
+    "en" : "Distribute Based On Side Ref 1",
+    "type" : "Boolean"
+  }, {
+    "id" : "distributeBasedOnTheSideRef2",
+    "column" : "distributeBasedOnTheSideRef2",
+    "ar" : "توزيع على المرجع رقم 2 في الجانب الآخر",
+    "en" : "Distribute Based On Side Ref 2",
+    "type" : "Boolean"
+  }, {
+    "id" : "distributeBasedOnTheSideRef3",
+    "column" : "distributeBasedOnTheSideRef3",
+    "ar" : "توزيع على المرجع رقم 3 في الجانب الآخر",
+    "en" : "Distribute Based On Side Ref 3",
+    "type" : "Boolean"
+  }, {
+    "id" : "distributeBasedOnTheSideSubsidiary",
+    "column" : "distributeBasedOnTheSideSubsidiary",
+    "ar" : "توزيع على الذمة في الجانب الآخر",
+    "en" : "Distribute Based On Side Subsidiary",
+    "type" : "Boolean"
+  }, {
+    "id" : "distributeOnSideAnalysisSet",
+    "column" : "distributeOnSideAnalysisSet",
+    "ar" : "توزيع على المجموعات التحليلية الموجودة في الجانب الآخر",
+    "en" : "Distribute Based On Side Analysis Sets",
+    "type" : "Boolean"
+  }, {
+    "id" : "distributeOnSideEntityDim",
+    "column" : "distributeOnSideEntityDim",
+    "ar" : "توزيع على السجلات الموجودة في الجانب الآخر",
+    "en" : "Distribute Based On Side Entity Dimensions",
+    "type" : "Boolean"
+  }, {
+    "id" : "distributionType",
+    "column" : "distributionType",
+    "ar" : "طريقة التوزيع",
+    "en" : "Distribution Type",
+    "type" : "Enum",
+    "enum" : "AccDistribType"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entityDimensionKeepAndInvert",
+    "column" : "entityDimensionKeepAndInvert",
+    "ar" : "الاحتفاظ وعكس السطر للسجل",
+    "en" : "Keep And Invert Line For Entity Dimension",
+    "type" : "Boolean"
+  }, {
+    "id" : "entityDimensionMinUndistValue",
+    "column" : "entityDimensionMinUndistValue",
+    "ar" : "أقل قيمة يمكن توزيعها للسجل",
+    "en" : "Minimal Undistributable Value For Entity Dimension",
+    "type" : "Decimal"
+  }, {
+    "id" : "entityDimensionOrder",
+    "column" : "entityDimensionOrder",
+    "ar" : "ترتيب السجل",
+    "en" : "Entity Dimension Order",
+    "type" : "Enum",
+    "enum" : "DistributionOrder"
+  }, {
+    "id" : "entityDimensionPolicy",
+    "column" : "entityDimensionPolicy",
+    "ar" : "سياسة توزيع السجل",
+    "en" : "Entity Dimension Policy",
+    "type" : "Enum",
+    "enum" : "AccDistribPolicy"
+  }, {
+    "id" : "entityDimensionQuery",
+    "column" : "entityDimensionQuery",
+    "ar" : "استعلام السجل",
+    "en" : "Entity Dimension Query",
+    "type" : "BigText"
+  }, {
+    "id" : "entityDimensionScript",
+    "column" : "entityDimensionScript",
+    "ar" : "سيناريو السجل",
+    "en" : "Entity Dimension Script",
+    "type" : "BigText"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "multiDistributeType",
+    "column" : "multiDistributeType",
+    "ar" : "طريقة التوزيع المتعدد",
+    "en" : "multi Distribution Type",
+    "type" : "Enum",
+    "enum" : "AccMultiDistributeType"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "otherSideAnalysisSetCriteria",
+    "column" : "otherSideAnalysisSetCriteria_id",
+    "ar" : "معيار المجموعات التحليلية في سطور الجانب الآخر",
+    "en" : "Other Side Analysis Sets Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "otherSideBranchCriteria",
+    "column" : "otherSideBranchCriteria_id",
+    "ar" : "معيار الفروع  في سطور الجانب الآخر",
+    "en" : "Other Side Branches Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "otherSideDepartmentCriteria",
+    "column" : "otherSideDepartmentCriteria_id",
+    "ar" : "معيار الإدارات في سطور الجانب الآخر",
+    "en" : "Other Side Departments Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "otherSideEntityDimCriteria",
+    "column" : "otherSideEntityDimCriteria_id",
+    "ar" : "معيار السجلات في سطور الجانب الآخر",
+    "en" : "Other Side Entity Dimensions Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "otherSideRef1Criteria",
+    "column" : "otherSideRef1Criteria_id",
+    "ar" : "معيار مرجع 1 في سطور الجانب الآخر",
+    "en" : "Other Side Ref1 Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "otherSideRef2Criteria",
+    "column" : "otherSideRef2Criteria_id",
+    "ar" : "معيار مرجع 2 في سطور الجانب الآخر",
+    "en" : "Other Side Ref 2 Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "otherSideRef3Criteria",
+    "column" : "otherSideRef3Criteria_id",
+    "ar" : "معيار مرجع 3 في سطور الجانب الآخر",
+    "en" : "Other Side Ref 3 Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "otherSideSectorCriteria",
+    "column" : "otherSideSectorCriteria_id",
+    "ar" : "معيار القطاعات في سطور الجانب الآخر",
+    "en" : "Other Side Sectors Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "otherSideSubsidiaryCriteria",
+    "column" : "otherSideSubsidiaryCriteria_id",
+    "ar" : "معيار الذمة في سطور الجانب الآخر",
+    "en" : "Other Side Subsidiary Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref1KeepAndInvert",
+    "column" : "ref1KeepAndInvert",
+    "ar" : "الاحتفاظ وعكس السطر لمرجع 1",
+    "en" : "Keep And Invert Line For Ref 1",
+    "type" : "Boolean"
+  }, {
+    "id" : "ref1MinUndistValue",
+    "column" : "ref1MinUndistValue",
+    "ar" : "أقل قيمة يمكن توزيعها لمرجع 1",
+    "en" : "Minimal Undistributable Value For Ref 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "ref1Order",
+    "column" : "ref1Order",
+    "ar" : "ترتيب مرجع 1",
+    "en" : "Ref 1 Order",
+    "type" : "Enum",
+    "enum" : "DistributionOrder"
+  }, {
+    "id" : "ref1Policy",
+    "column" : "ref1Policy",
+    "ar" : "سياسة توزيع مرجع 1",
+    "en" : "Ref 1 Policy",
+    "type" : "Enum",
+    "enum" : "AccDistribPolicy"
+  }, {
+    "id" : "ref1Query",
+    "column" : "ref1Query",
+    "ar" : "استعلام مرجع 1",
+    "en" : "Ref 1 Query",
+    "type" : "BigText"
+  }, {
+    "id" : "ref1Script",
+    "column" : "ref1Script",
+    "ar" : "سيناريو مرجع 1",
+    "en" : "Ref 1 Script",
+    "type" : "BigText"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2KeepAndInvert",
+    "column" : "ref2KeepAndInvert",
+    "ar" : "الاحتفاظ وعكس السطر لمرجع 2",
+    "en" : "Keep And Invert Line For Ref 2",
+    "type" : "Boolean"
+  }, {
+    "id" : "ref2MinUndistValue",
+    "column" : "ref2MinUndistValue",
+    "ar" : "أقل قيمة يمكن توزيعها لمرجع 2",
+    "en" : "Minimal Undistributable Value For Ref 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "ref2Order",
+    "column" : "ref2Order",
+    "ar" : "ترتيب مرجع 2",
+    "en" : "Ref 2 Order",
+    "type" : "Enum",
+    "enum" : "DistributionOrder"
+  }, {
+    "id" : "ref2Policy",
+    "column" : "ref2Policy",
+    "ar" : "سياسة توزيع مرجع 2",
+    "en" : "Ref 2 Policy",
+    "type" : "Enum",
+    "enum" : "AccDistribPolicy"
+  }, {
+    "id" : "ref2Query",
+    "column" : "ref2Query",
+    "ar" : "استعلام مرجع 2",
+    "en" : "Ref 2 Query",
+    "type" : "BigText"
+  }, {
+    "id" : "ref2Script",
+    "column" : "ref2Script",
+    "ar" : "سيناريو مرجع 2",
+    "en" : "Ref 2 Script",
+    "type" : "BigText"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3KeepAndInvert",
+    "column" : "ref3KeepAndInvert",
+    "ar" : "الاحتفاظ وعكس السطر لمرجع 3",
+    "en" : "Keep And Invert Line For Ref 3",
+    "type" : "Boolean"
+  }, {
+    "id" : "ref3MinUndistValue",
+    "column" : "ref3MinUndistValue",
+    "ar" : "أقل قيمة يمكن توزيعها لمرجع 3",
+    "en" : "Minimal Undistributable Value For Ref 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "ref3Order",
+    "column" : "ref3Order",
+    "ar" : "ترتيب مرجع 3",
+    "en" : "Ref 3 Order",
+    "type" : "Enum",
+    "enum" : "DistributionOrder"
+  }, {
+    "id" : "ref3Policy",
+    "column" : "ref3Policy",
+    "ar" : "سياسة توزيع مرجع 3",
+    "en" : "Ref 3 Policy",
+    "type" : "Enum",
+    "enum" : "AccDistribPolicy"
+  }, {
+    "id" : "ref3Query",
+    "column" : "ref3Query",
+    "ar" : "استعلام مرجع 3",
+    "en" : "Ref 3 Query",
+    "type" : "BigText"
+  }, {
+    "id" : "ref3Script",
+    "column" : "ref3Script",
+    "ar" : "سيناريو مرجع 3",
+    "en" : "Ref 3 Script",
+    "type" : "BigText"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "sectorKeepAndInvert",
+    "column" : "sectorKeepAndInvert",
+    "ar" : "الاحتفاظ وعكس السطر للقطاع",
+    "en" : "Keep And Invert Line For Sector",
+    "type" : "Boolean"
+  }, {
+    "id" : "sectorMinUndistValue",
+    "column" : "sectorMinUndistValue",
+    "ar" : "أقل قيمة يمكن توزيعها للقطاع",
+    "en" : "Minimal Undistributable Value For Sector",
+    "type" : "Decimal"
+  }, {
+    "id" : "sectorOrder",
+    "column" : "sectorOrder",
+    "ar" : "ترتيب القطاع",
+    "en" : "Sector Order",
+    "type" : "Enum",
+    "enum" : "DistributionOrder"
+  }, {
+    "id" : "sectorPolicy",
+    "column" : "sectorPolicy",
+    "ar" : "سياسة توزيع القطاع",
+    "en" : "Sector Policy",
+    "type" : "Enum",
+    "enum" : "AccDistribPolicy"
+  }, {
+    "id" : "sectorQuery",
+    "column" : "sectorQuery",
+    "ar" : "استعلام القطاع",
+    "en" : "Sector Query",
+    "type" : "BigText"
+  }, {
+    "id" : "sectorScript",
+    "column" : "sectorScript",
+    "ar" : "سيناريو القطاع",
+    "en" : "Sector Script",
+    "type" : "BigText"
+  }, {
+    "id" : "subsidiaryKeepAndInvert",
+    "column" : "subsidiaryKeepAndInvert",
+    "ar" : "الاحتفاظ وعكس السطر للذمة",
+    "en" : "Keep And Invert Line For Subsidiary",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryMinUndistValue",
+    "column" : "subsidiaryMinUndistValue",
+    "ar" : "أقل قيمة يمكن توزيعها للذمة",
+    "en" : "Minimal Undistributable Value For Subsidiary",
+    "type" : "Decimal"
+  }, {
+    "id" : "subsidiaryOrder",
+    "column" : "subsidiaryOrder",
+    "ar" : "ترتيب الذمة",
+    "en" : "Subsidiary Order",
+    "type" : "Enum",
+    "enum" : "DistributionOrder"
+  }, {
+    "id" : "subsidiaryPolicy",
+    "column" : "subsidiaryPolicy",
+    "ar" : "سياسة توزيع الذمة",
+    "en" : "Subsidiary Policy",
+    "type" : "Enum",
+    "enum" : "AccDistribPolicy"
+  }, {
+    "id" : "subsidiaryQuery",
+    "column" : "subsidiaryQuery",
+    "ar" : "استعلام الذمة",
+    "en" : "Subsidiary Query",
+    "type" : "BigText"
+  }, {
+    "id" : "subsidiaryScript",
+    "column" : "subsidiaryScript",
+    "ar" : "سيناريو الذمة",
+    "en" : "Subsidiary Script",
+    "type" : "BigText"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "accountDistributions",
+    "table" : "AccountDistributionLine",
+    "joinColumn" : "accDistribution_id",
+    "ar" : "نسب الحسابات",
+    "en" : "Account Distributions",
+    "fields" : [ {
+      "id" : "accountDistributions.account",
+      "column" : "account_id",
+      "ar" : " حساب",
+      "en" : " Account",
+      "type" : "Reference",
+      "refTo" : "Account",
+      "refPath" : "/modules/accounting/Account.html"
+    }, {
+      "id" : "accountDistributions.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "accountDistributions.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "accountDistributions.percentage",
+      "column" : "percentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "accountDistributions.useSameAsOrigin",
+      "column" : "useSameAsOrigin",
+      "ar" : "استعمال المحدد الاصلي في السطر",
+      "en" : "Use Same As Origin",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "analysisSetDistributions",
+    "table" : "AnalysisSetDistribution",
+    "joinColumn" : "accDistribution_id",
+    "ar" : "نسب المجموعات التحليلية",
+    "en" : "Analysis Set Distributions",
+    "fields" : [ {
+      "id" : "analysisSetDistributions.analysisSet",
+      "column" : "analysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "analysisSetDistributions.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "analysisSetDistributions.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "analysisSetDistributions.percentage",
+      "column" : "percentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "analysisSetDistributions.useSameAsOrigin",
+      "column" : "useSameAsOrigin",
+      "ar" : "استعمال المحدد الاصلي في السطر",
+      "en" : "Use Same As Origin",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "branchDistributions",
+    "table" : "BranchDistribution",
+    "joinColumn" : "accDistribution_id",
+    "ar" : "نسب الفروع",
+    "en" : "Branch Distributions",
+    "fields" : [ {
+      "id" : "branchDistributions.branch",
+      "column" : "branch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "branchDistributions.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "branchDistributions.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "branchDistributions.percentage",
+      "column" : "percentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "branchDistributions.useSameAsOrigin",
+      "column" : "useSameAsOrigin",
+      "ar" : "استعمال المحدد الاصلي في السطر",
+      "en" : "Use Same As Origin",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "criteriaBasedDistributions",
+    "table" : "CriteriaBasedDistrib",
+    "joinColumn" : "accDistribution_id",
+    "ar" : "التوزيعات و معاييرها",
+    "en" : "Criteria Based Distributions",
+    "fields" : [ {
+      "id" : "criteriaBasedDistributions.applyWhenQuery",
+      "column" : "applyWhenQuery",
+      "ar" : "تطبيق عند التوافق مع الاستعلام",
+      "en" : "Apply When Query",
+      "type" : "BigText"
+    }, {
+      "id" : "criteriaBasedDistributions.criteria",
+      "column" : "criteria_id",
+      "ar" : "المعايير",
+      "en" : "Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "criteriaBasedDistributions.dimensions.analysisSet",
+      "column" : "analysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "criteriaBasedDistributions.dimensions.branch",
+      "column" : "branch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "criteriaBasedDistributions.dimensions.department",
+      "column" : "department_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "criteriaBasedDistributions.dimensions.legalEntity",
+      "column" : "legalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "criteriaBasedDistributions.dimensions.sector",
+      "column" : "sector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    }, {
+      "id" : "criteriaBasedDistributions.distribution",
+      "column" : "distribution_id",
+      "ar" : "التوزيع على الحسابات",
+      "en" : "Distribution on Accounts",
+      "type" : "Reference",
+      "refTo" : "AccDistribution",
+      "refPath" : "/modules/accounting/AccDistribution.html"
+    }, {
+      "id" : "criteriaBasedDistributions.entityDimension",
+      "columns" : [ "entityDimensionActualCode", " entityDimensionCode", " entityDimensionEntityType", " entityDimensionId" ],
+      "ar" : "السجل",
+      "en" : "Entity Dimension",
+      "type" : "Genericreference"
+    }, {
+      "id" : "criteriaBasedDistributions.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "criteriaBasedDistributions.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "criteriaBasedDistributions.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "criteriaBasedDistributions.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "criteriaBasedDistributions.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "criteriaBasedDistributions.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    } ]
+  }, {
+    "id" : "departmentDistributions",
+    "table" : "DepartmentDistribution",
+    "joinColumn" : "accDistribution_id",
+    "ar" : "نسب الأقسام",
+    "en" : "Department Distributions",
+    "fields" : [ {
+      "id" : "departmentDistributions.department",
+      "column" : "department_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "departmentDistributions.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "departmentDistributions.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "departmentDistributions.percentage",
+      "column" : "percentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "departmentDistributions.useSameAsOrigin",
+      "column" : "useSameAsOrigin",
+      "ar" : "استعمال المحدد الاصلي في السطر",
+      "en" : "Use Same As Origin",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "entityDimensionDistributions",
+    "table" : "EntityDimensionDistribution",
+    "joinColumn" : "accDistribution_id",
+    "ar" : "توزيع السجل",
+    "en" : "Entity Dimension Distributions",
+    "fields" : [ {
+      "id" : "entityDimensionDistributions.entityDimension",
+      "columns" : [ "entityDimensionActualCode", " entityDimensionCode", " entityDimensionEntityType", " entityDimensionId" ],
+      "ar" : "السجل",
+      "en" : "Entity Dimension",
+      "type" : "Genericreference"
+    }, {
+      "id" : "entityDimensionDistributions.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "entityDimensionDistributions.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "entityDimensionDistributions.percentage",
+      "column" : "percentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "entityDimensionDistributions.useSameAsOrigin",
+      "column" : "useSameAsOrigin",
+      "ar" : "استعمال المحدد الاصلي في السطر",
+      "en" : "Use Same As Origin",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "ref1Distributions",
+    "table" : "Ref2Distribution",
+    "joinColumn" : "accDistribution_id",
+    "ar" : "توزيع مرجع 1",
+    "en" : "Ref 1 Distributions",
+    "fields" : [ {
+      "id" : "ref1Distributions.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "ref1Distributions.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "ref1Distributions.percentage",
+      "column" : "percentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "ref1Distributions.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "ref1Distributions.useSameAsOrigin",
+      "column" : "useSameAsOrigin",
+      "ar" : "استعمال المحدد الاصلي في السطر",
+      "en" : "Use Same As Origin",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "ref2Distributions",
+    "table" : "Ref1Distribution",
+    "joinColumn" : "accDistribution_id",
+    "ar" : "توزيع مرجع 2",
+    "en" : "Ref 2 Distributions",
+    "fields" : [ {
+      "id" : "ref2Distributions.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "ref2Distributions.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "ref2Distributions.percentage",
+      "column" : "percentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "ref2Distributions.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "ref2Distributions.useSameAsOrigin",
+      "column" : "useSameAsOrigin",
+      "ar" : "استعمال المحدد الاصلي في السطر",
+      "en" : "Use Same As Origin",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "ref3Distributions",
+    "table" : "Ref3Distribution",
+    "joinColumn" : "accDistribution_id",
+    "ar" : "توزيع مرجع 3",
+    "en" : "Ref 3 Distributions",
+    "fields" : [ {
+      "id" : "ref3Distributions.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "ref3Distributions.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "ref3Distributions.percentage",
+      "column" : "percentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "ref3Distributions.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "ref3Distributions.useSameAsOrigin",
+      "column" : "useSameAsOrigin",
+      "ar" : "استعمال المحدد الاصلي في السطر",
+      "en" : "Use Same As Origin",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "sectorDistributions",
+    "table" : "SectorDistribution",
+    "joinColumn" : "accDistribution_id",
+    "ar" : "نسب القطاعات",
+    "en" : "Sector Distributions",
+    "fields" : [ {
+      "id" : "sectorDistributions.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "sectorDistributions.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "sectorDistributions.percentage",
+      "column" : "percentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "sectorDistributions.sector",
+      "column" : "sector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    }, {
+      "id" : "sectorDistributions.useSameAsOrigin",
+      "column" : "useSameAsOrigin",
+      "ar" : "استعمال المحدد الاصلي في السطر",
+      "en" : "Use Same As Origin",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "subsidiaryDistributions",
+    "table" : "SubsidiaryDistribution",
+    "joinColumn" : "accDistribution_id",
+    "ar" : "توزيع الذمة",
+    "en" : "Subsidiary Distributions",
+    "fields" : [ {
+      "id" : "subsidiaryDistributions.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "subsidiaryDistributions.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "subsidiaryDistributions.percentage",
+      "column" : "percentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "subsidiaryDistributions.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "subsidiaryDistributions.useSameAsOrigin",
+      "column" : "useSameAsOrigin",
+      "ar" : "استعمال المحدد الاصلي في السطر",
+      "en" : "Use Same As Origin",
+      "type" : "Boolean"
+    } ]
+  } ]
+}

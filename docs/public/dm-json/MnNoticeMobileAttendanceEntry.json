@@ -1,0 +1,257 @@
+{
+  "entity" : "MnNoticeMobileAttendanceEntry",
+  "table" : "MnNoticeMobileAttendanceEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/MnNoticeMobileAttendanceEntry.html",
+  "fields" : [ {
+    "id" : "attendanceAccuracy",
+    "column" : "attendanceAccuracy",
+    "ar" : "Attendance Accuracy",
+    "en" : "Attendance Accuracy",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.address1",
+    "column" : "attAddress1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.address2",
+    "column" : "attAddress2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.area",
+    "column" : "attArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.buildingNumber",
+    "column" : "attBuildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.city",
+    "column" : "attCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.country",
+    "column" : "attCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.countryCode",
+    "column" : "attCountryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.district",
+    "column" : "attDistrict",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.landPlotNumber",
+    "column" : "attLandPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.mapLocation",
+    "column" : "attMapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "attendanceLocation.postalCode",
+    "column" : "attPostalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.region",
+    "column" : "attRegion_id",
+    "ar" : "منطقة جغرافيه",
+    "en" : "Region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "attendanceLocation.state",
+    "column" : "attState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.street",
+    "column" : "attStreet",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceTotalHours",
+    "column" : "attendanceTotalHours",
+    "ar" : "إجمالى وقت الحضور بالساعات",
+    "en" : "Attendance Total Hours",
+    "type" : "Decimal"
+  }, {
+    "id" : "attendanceTotalTime",
+    "column" : "attendanceTotalTime",
+    "ar" : "إجمالي وقت الحضور",
+    "en" : "Attendance Total Time",
+    "type" : "Time"
+  }, {
+    "id" : "checkInAt",
+    "column" : "checkInAt",
+    "ar" : "Check In At",
+    "en" : "Check In At",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "checkOutAt",
+    "column" : "checkOutAt",
+    "ar" : "Check Out At",
+    "en" : "Check Out At",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "departureAccuracy",
+    "column" : "departureAccuracy",
+    "ar" : "Departure Accuracy",
+    "en" : "Departure Accuracy",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.address1",
+    "column" : "departAddress1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.address2",
+    "column" : "departAddress2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.area",
+    "column" : "departArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.buildingNumber",
+    "column" : "departBuildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.city",
+    "column" : "departCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.country",
+    "column" : "departCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.countryCode",
+    "column" : "departCountryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.district",
+    "column" : "departDistrict",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.landPlotNumber",
+    "column" : "departLandPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.mapLocation",
+    "column" : "departMapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "departureLocation.postalCode",
+    "column" : "departPostalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.region",
+    "column" : "departRegion_id",
+    "ar" : "منطقة جغرافيه",
+    "en" : "Region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "departureLocation.state",
+    "column" : "departState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.street",
+    "column" : "departStreet",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "fakeAttendanceLocation",
+    "column" : "fakeAttendanceLocation",
+    "ar" : "Fake Attendance Location",
+    "en" : "Fake Attendance Location",
+    "type" : "Boolean"
+  }, {
+    "id" : "fakeDepartureLocation",
+    "column" : "fakeDepartureLocation",
+    "ar" : "Fake Departure Location",
+    "en" : "Fake Departure Location",
+    "type" : "Boolean"
+  }, {
+    "id" : "forgotCheckout",
+    "column" : "forgotCheckout",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "mnNotice",
+    "column" : "mnNotice_id",
+    "ar" : "بلاغ صيانة",
+    "en" : "Maintenance Notice",
+    "type" : "Reference",
+    "refTo" : "MnNotice",
+    "refPath" : "/modules/crm-maintenance/MnNotice.html"
+  }, {
+    "id" : "responsibleEmployee",
+    "column" : "responsibleEmployee_id",
+    "ar" : "الموظف المسئول",
+    "en" : "Responsible Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  } ]
+}

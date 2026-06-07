@@ -1,0 +1,379 @@
+{
+  "enum" : "MobileAppTargetMenuItem",
+  "values" : [ {
+    "id" : "SystemAttendanceHistory",
+    "ar" : "سجل الحضور الشامل",
+    "en" : "System Attendance History"
+  }, {
+    "id" : "AssignDeliveryDocs",
+    "ar" : "تعيين سندات التوصيل",
+    "en" : "Assign Delivery Documents"
+  }, {
+    "id" : "ResidenceRenewReq",
+    "ar" : "طلب تجديد إقامة",
+    "en" : "Residence Renew Request"
+  }, {
+    "id" : "MeetingRemark",
+    "ar" : "ملحوظات اجتماع",
+    "en" : "Meeting Remark"
+  }, {
+    "id" : "DetailedRemark",
+    "ar" : "ملحوظة مفصلة",
+    "en" : "Detailed Remark"
+  }, {
+    "id" : "IssueStockTransfer",
+    "ar" : "صرف تحويل مخزني",
+    "en" : "Issue Stock Transfer"
+  }, {
+    "id" : "ReceiptStockTransfer",
+    "ar" : "استلام تحويل مخزني",
+    "en" : "Receipt Stock Transfer"
+  }, {
+    "id" : "QueryItemDetails",
+    "ar" : "استعلام عن صنف",
+    "en" : "Query Item Details"
+  }, {
+    "id" : "QRScannerIntegrator",
+    "ar" : "QR Scanner Integrator",
+    "en" : "QR Scanner Integrator"
+  }, {
+    "id" : "changePassword",
+    "ar" : "تغيير كلمة المرور",
+    "en" : "Change Password"
+  }, {
+    "id" : "SalesQuotation",
+    "ar" : "عرض أسعار",
+    "en" : "Sales Quotation"
+  }, {
+    "id" : "SalesQuotationRequest",
+    "ar" : "طلب عرض أسعار",
+    "en" : "Request For Sales Quotation"
+  }, {
+    "id" : "SalesInvoice",
+    "ar" : "فاتورة مبيعات",
+    "en" : "Sales Invoice"
+  }, {
+    "id" : "Customer",
+    "ar" : "عميل",
+    "en" : "Customer"
+  }, {
+    "id" : "CRMLead",
+    "ar" : "خيط بيع",
+    "en" : "CRM Lead"
+  }, {
+    "id" : "CRMProject",
+    "ar" : "CRM مشروع",
+    "en" : "CRM Project"
+  }, {
+    "id" : "SyncDraftEntities",
+    "ar" : "مزامنة المستندات المسودة",
+    "en" : "Sync Draft Entities"
+  }, {
+    "id" : "Project",
+    "ar" : "مشروع مقاولات",
+    "en" : "Contracting Project"
+  }, {
+    "id" : "CRMCampaign",
+    "ar" : "حملة",
+    "en" : "CRM Campaign"
+  }, {
+    "id" : "CRMTroubleTicket",
+    "ar" : "طلب دعم",
+    "en" : "Trouble Ticket"
+  }, {
+    "id" : "CRMDevelopmentRequest",
+    "ar" : "طلب تطوير",
+    "en" : "Development request"
+  }, {
+    "id" : "CRMComplaint",
+    "ar" : "شكوي - إقتراح",
+    "en" : "Complaint - Suggestion"
+  }, {
+    "id" : "MissionDocument",
+    "ar" : "سند مأمورية",
+    "en" : "Mission Document"
+  }, {
+    "id" : "CRMVisit",
+    "ar" : "الزيارة",
+    "en" : "Visit"
+  }, {
+    "id" : "CRMVisitHistory",
+    "ar" : "سجل سندات الزيارة",
+    "en" : "CRM Visit History"
+  }, {
+    "id" : "CRMPotential",
+    "ar" : "فرصة",
+    "en" : "CRM Potential"
+  }, {
+    "id" : "LeaveReason",
+    "ar" : "نوع سبب",
+    "en" : "Leave Reason"
+  }, {
+    "id" : "LeavePermissionReq",
+    "ar" : "طلب إذن انصراف",
+    "en" : "Leave Permission Request"
+  }, {
+    "id" : "VacationRequest",
+    "ar" : "طلب أجازة",
+    "en" : "Vacation Request"
+  }, {
+    "id" : "VacationType",
+    "ar" : "نوع الأجازة",
+    "en" : "Vacation Type"
+  }, {
+    "id" : "ElectronicAttendance",
+    "ar" : "حضور إلكتروني",
+    "en" : "Electronic Attendance"
+  }, {
+    "id" : "ElectronicAttendanceHistory",
+    "ar" : "سجل الحضور الإلكتروني",
+    "en" : "Electronic Attendance History"
+  }, {
+    "id" : "ApprovalCase",
+    "ar" : "Approval Case",
+    "en" : "Approval Case"
+  }, {
+    "id" : "FiringDocument",
+    "ar" : "سند إنهاء الخدمة",
+    "en" : "Firing Document"
+  }, {
+    "id" : "WorkStartingDocument",
+    "ar" : "سند مباشرة عمل",
+    "en" : "Work Starting Document"
+  }, {
+    "id" : "HOExitReEntryVisaReq",
+    "ar" : "طلب تأشيرة خروج وعودة",
+    "en" : "Exit ReEntry Visa Request"
+  }, {
+    "id" : "HRLoanRequest",
+    "ar" : "طلب سلفة",
+    "en" : "Loan Request"
+  }, {
+    "id" : "HRLoanType",
+    "ar" : "نوع السلفة",
+    "en" : "Loan Type"
+  }, {
+    "id" : "Notification",
+    "ar" : "التنبيهات",
+    "en" : "Notification"
+  }, {
+    "id" : "Currency",
+    "ar" : "عملة",
+    "en" : "Currency"
+  }, {
+    "id" : "SalesOrder",
+    "ar" : "أمر بيع",
+    "en" : "Sales Order"
+  }, {
+    "id" : "SalesReturn",
+    "ar" : "مردودات مبيعات",
+    "en" : "Sales Return"
+  }, {
+    "id" : "DeliveryDocument",
+    "ar" : "سند توصيل",
+    "en" : "Delivery Document"
+  }, {
+    "id" : "AwaitingDeliveries",
+    "en" : "Awaiting Deliveries"
+  }, {
+    "id" : "DLVDeliveryDocument",
+    "ar" : "سند توصيل شحنات",
+    "en" : "Shipment Delivery  Document"
+  }, {
+    "id" : "DLVDeliveryOrders",
+    "ar" : "طلبات توصيل الشحنات",
+    "en" : "Delivery Orders"
+  }, {
+    "id" : "DeliveryOrders",
+    "ar" : "فواتير بانتظار التوصيل",
+    "en" : "Delivery Orders"
+  }, {
+    "id" : "PendingOrders",
+    "ar" : "سندات التوصيل المطلوب توصيلها",
+    "en" : "Pending Orders"
+  }, {
+    "id" : "DLVDeliveryDocumentLine",
+    "ar" : "DLV Delivery Document Line",
+    "en" : "DLV Delivery Document Line"
+  }, {
+    "id" : "UOM",
+    "ar" : "وحدة قياس",
+    "en" : "UOM"
+  }, {
+    "id" : "Warehouse",
+    "ar" : "مخزن",
+    "en" : "Warehouse"
+  }, {
+    "id" : "Locator",
+    "ar" : "موقع",
+    "en" : "Locator"
+  }, {
+    "id" : "ItemDetails",
+    "ar" : "بيانات الصنف",
+    "en" : "Item Details"
+  }, {
+    "id" : "PurchaseInvoice",
+    "ar" : "فاتورة مشتريات",
+    "en" : "Purchase Invoice"
+  }, {
+    "id" : "AllocationFile",
+    "ar" : "سند تسكين",
+    "en" : "Allocation File"
+  }, {
+    "id" : "StockTransfer",
+    "ar" : "سند تحويل مخزني",
+    "en" : "Stock Transfer"
+  }, {
+    "id" : "DamagedItemsDoc",
+    "ar" : "مستند الأصناف المهلكة",
+    "en" : "Damaged Items Document"
+  }, {
+    "id" : "InvItem",
+    "ar" : "صنف",
+    "en" : "Item"
+  }, {
+    "id" : "ElectronicReceiptVoucher",
+    "ar" : "سند قبض إلكتروني",
+    "en" : "Electronic Receipt Voucher"
+  }, {
+    "id" : "DriverTasksScreen",
+    "ar" : "شاشة الأوردرات",
+    "en" : "Driver Tasks Screen"
+  }, {
+    "id" : "Help_Screen",
+    "ar" : "شاشة الشكاوى",
+    "en" : "Help Screen"
+  }, {
+    "id" : "MnMachine",
+    "ar" : "الة",
+    "en" : "Machine"
+  }, {
+    "id" : "MnOrder",
+    "ar" : "أمر صيانة",
+    "en" : "Maintenance Order"
+  }, {
+    "id" : "MnNotice",
+    "ar" : "بلاغ صيانة",
+    "en" : "Maintenance Notice"
+  }, {
+    "id" : "MnVisit",
+    "ar" : "زيارة صيانة",
+    "en" : "Maintenance Visit"
+  }, {
+    "id" : "Remark",
+    "ar" : "ملاحظة",
+    "en" : "Remark"
+  }, {
+    "id" : "CRMQuestionair",
+    "ar" : "استبيان",
+    "en" : "Questionair"
+  }, {
+    "id" : "CRMQuestion",
+    "ar" : "سؤال",
+    "en" : "Question"
+  }, {
+    "id" : "CRMQuestionairTemplate",
+    "ar" : "قالب استبيان",
+    "en" : "Questionair Template"
+  }, {
+    "id" : "Reports",
+    "ar" : "التقارير",
+    "en" : "Reports"
+  }, {
+    "id" : "MobileAppSalesPriceList",
+    "ar" : "قائمة أسعار التطبيق",
+    "en" : "Mobile Sales Price List"
+  }, {
+    "id" : "ApprovalReason",
+    "ar" : "سبب الموافقة",
+    "en" : "Approval Reason"
+  }, {
+    "id" : "Employee",
+    "ar" : "موظف",
+    "en" : "Employee"
+  }, {
+    "id" : "DeliveryCar",
+    "ar" : "سيارة توصيل",
+    "en" : "Delivery Car"
+  }, {
+    "id" : "Dashboard",
+    "ar" : "لوحة",
+    "en" : "Dashbord"
+  }, {
+    "id" : "Settings",
+    "ar" : " الإعدادات",
+    "en" : " Settings"
+  }, {
+    "id" : "EditPin",
+    "ar" : "تعديل رمز ال pin",
+    "en" : "Edit Pin"
+  }, {
+    "id" : "deviceFingerPrintDocument",
+    "ar" : "سند تعريف هاتف",
+    "en" : "Device Finger Print Document"
+  }, {
+    "id" : "AboutApp",
+    "ar" : "About App",
+    "en" : "About App"
+  }, {
+    "id" : "loginDimensions",
+    "ar" : "محددات الدخول",
+    "en" : "Login Dimensions"
+  }, {
+    "id" : "showIds",
+    "ar" : "Show Ids",
+    "en" : "Show Ids"
+  }, {
+    "id" : "checkUpdate",
+    "ar" : "تحقق من التحديثات",
+    "en" : "Check Update"
+  }, {
+    "id" : "logout",
+    "ar" : "خروج",
+    "en" : "Sign out"
+  }, {
+    "id" : "HomeShortcut",
+    "ar" : "اختصار",
+    "en" : "Home Shortcut"
+  }, {
+    "id" : "FormDoc1",
+    "ar" : "نموذج 1",
+    "en" : "Form Document 1"
+  }, {
+    "id" : "FormDoc2",
+    "ar" : "نموذج 2",
+    "en" : "Form Document 2"
+  }, {
+    "id" : "FormDoc3",
+    "ar" : "نموذج 3",
+    "en" : "Form Document 3"
+  }, {
+    "id" : "FormDoc4",
+    "ar" : "نموذج 4",
+    "en" : "Form Document 4"
+  }, {
+    "id" : "clearData",
+    "ar" : "مسح بيانات التطبيق",
+    "en" : "Clear Data"
+  }, {
+    "id" : "ElectronicStockTaking",
+    "ar" : "لجنة جرد إلكتروني",
+    "en" : "Electronic Stock Taking"
+  }, {
+    "id" : "StockIssue",
+    "ar" : "صرف مخزني",
+    "en" : "Stock Issue"
+  }, {
+    "id" : "StockReceipt",
+    "ar" : "توريد مخزني",
+    "en" : "Stock Receipt"
+  }, {
+    "id" : "StockTransferRequest",
+    "ar" : "طلب تحويل مخزني",
+    "en" : "Stock Transfer Request"
+  }, {
+    "id" : "SalesDocument",
+    "ar" : "مستند بيع",
+    "en" : "Sales Document"
+  } ]
+}

@@ -1,0 +1,32 @@
+{
+  "enum" : "SqlAggregationType",
+  "values" : [ {
+    "id" : "None",
+    "ar" : "None",
+    "en" : "None"
+  }, {
+    "id" : "Count",
+    "ar" : "Count",
+    "en" : "Count"
+  }, {
+    "id" : "Sum",
+    "ar" : "Sum",
+    "en" : "Sum"
+  }, {
+    "id" : "Avg",
+    "ar" : "Avg",
+    "en" : "Avg"
+  }, {
+    "id" : "Min",
+    "ar" : "Min",
+    "en" : "Min"
+  }, {
+    "id" : "Max",
+    "ar" : "Max",
+    "en" : "Max"
+  }, {
+    "id" : "DistinctCount",
+    "ar" : "Distinct Count",
+    "en" : "Distinct Count"
+  } ]
+}

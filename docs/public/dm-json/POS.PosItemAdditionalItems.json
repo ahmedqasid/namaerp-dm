@@ -1,0 +1,814 @@
+{
+  "entity" : "POS.PosItemAdditionalItems",
+  "table" : "PosItemAdditionalItems",
+  "module" : "pos-app",
+  "ar" : "الأصناف الإضافية للصنف في نقاط البيع",
+  "arPlural" : " الأصناف الإضافية للصنف في نقاط البيع",
+  "en" : "POS Item Additional Items",
+  "enPlural" : " POS Item Additional Items",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.PosItemAdditionalItems.html",
+  "fields" : [ {
+    "id" : "additionalItemsCountPerPage",
+    "column" : "additionalItemsCountPerPage",
+    "ar" : "عدد الأصناف الإضافية بالصفحة الواحدة",
+    "en" : "Additional Items Count Per Page",
+    "type" : "Integer"
+  }, {
+    "id" : "basicItemCode",
+    "column" : "basicItemCode",
+    "type" : "Text"
+  }, {
+    "id" : "basicItemID",
+    "column" : "basicItemID",
+    "type" : "ID"
+  }, {
+    "id" : "basicItemType",
+    "column" : "basicItemType",
+    "type" : "Text"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorsTitleInPos",
+    "column" : "colorsTitleInPos",
+    "ar" : "عنوان الالوان في نقاط البيع",
+    "en" : "Colors Title In Pos",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "itemColorsDisplayMethod",
+    "column" : "itemColorsDisplayMethod",
+    "ar" : "طريقة عرض ألوان الصنف",
+    "en" : "Item Colors Display Method",
+    "type" : "Text"
+  }, {
+    "id" : "itemColorsOrder",
+    "column" : "itemColorsOrder",
+    "ar" : "ترتيب عرض ألوان الصنف",
+    "type" : "Integer"
+  }, {
+    "id" : "itemRevisionsDisplayMethod",
+    "column" : "itemRevisionsDisplayMethod",
+    "ar" : "طريقة عرض إصدارات الصنف",
+    "en" : "Item Revisions Display Method",
+    "type" : "Text"
+  }, {
+    "id" : "itemRevisionsOrder",
+    "column" : "itemRevisionsOrder",
+    "ar" : "ترتيب عرض إصدارات الصنف",
+    "type" : "Integer"
+  }, {
+    "id" : "itemSizesDisplayMethod",
+    "column" : "itemSizesDisplayMethod",
+    "ar" : "طريقة عرض مقاسات الصنف",
+    "en" : "Item Sizes Display Method",
+    "type" : "Text"
+  }, {
+    "id" : "itemSizesOrder",
+    "column" : "itemSizesOrder",
+    "ar" : "ترتيب عرض مقاسات الصنف",
+    "type" : "Integer"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "makeItemColorsRequired",
+    "column" : "makeItemColorsRequired",
+    "ar" : "جعل الألوان إجبارياً",
+    "en" : "Make Item Colors Required",
+    "type" : "Boolean"
+  }, {
+    "id" : "makeItemRevisionsRequired",
+    "column" : "makeItemRevisionsRequired",
+    "ar" : "جعل الإصدار إجبارياً",
+    "en" : "Make Item Revisions Required",
+    "type" : "Boolean"
+  }, {
+    "id" : "makeItemSizesRequired",
+    "column" : "makeItemSizesRequired",
+    "ar" : "جعل المقاسات إجبارياً",
+    "en" : "Make Item Sizes Required",
+    "type" : "Boolean"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "revisionsTitleInPos",
+    "column" : "revisionsTitleInPos",
+    "ar" : "عنوان الإصدارات في نقاط البيع",
+    "en" : "Revisions Title In Pos",
+    "type" : "Text"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "showItemColors",
+    "column" : "showItemColors",
+    "ar" : "عرض الوان الصنف",
+    "en" : "Show Item Colors",
+    "type" : "Boolean"
+  }, {
+    "id" : "showItemRevisions",
+    "column" : "showItemRevisions",
+    "ar" : "عرض إصدارات الصنف",
+    "en" : "Show Item Revisions",
+    "type" : "Boolean"
+  }, {
+    "id" : "showItemSizes",
+    "column" : "showItemSizes",
+    "ar" : "عرض مقاسات الصنف",
+    "en" : "Show Item Sizes",
+    "type" : "Boolean"
+  }, {
+    "id" : "sizesTitleInPos",
+    "column" : "sizesTitleInPos",
+    "ar" : "عنوان المقاسات في نقاط البيع",
+    "en" : "Sizes Title In Pos",
+    "type" : "Text"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ],
+  "details" : [ {
+    "id" : "additionalItems1",
+    "table" : "PosAdditionalItems1",
+    "joinColumn" : "addItems_id",
+    "ar" : "الأصناف الإضافية 1",
+    "en" : "Additional Items 1",
+    "fields" : [ {
+      "id" : "additionalItems1.addItems",
+      "column" : "addItems_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosItemAdditionalItems",
+      "refPath" : "/modules/pos-app/POS.PosItemAdditionalItems.html"
+    }, {
+      "id" : "additionalItems1.defaultItem",
+      "column" : "defaultItem",
+      "ar" : "الأفتراضي",
+      "en" : "Default",
+      "type" : "Boolean"
+    }, {
+      "id" : "additionalItems1.defaultUnit",
+      "column" : "defaultUnit_id",
+      "ar" : "الوحدة الافتراضية",
+      "en" : "Default Unit",
+      "type" : "Reference",
+      "refTo" : "POS.POSUnit",
+      "refPath" : "/modules/pos-app/POS.POSUnit.html"
+    }, {
+      "id" : "additionalItems1.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems1.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems1.itemID",
+      "column" : "itemID",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems1.itemType",
+      "column" : "itemType",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems1.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "additionalItems10",
+    "table" : "PosAdditionalItems10",
+    "joinColumn" : "addItems_id",
+    "ar" : "الأصناف الإضافية 10",
+    "en" : "Additional Items 10",
+    "fields" : [ {
+      "id" : "additionalItems10.addItems",
+      "column" : "addItems_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosItemAdditionalItems",
+      "refPath" : "/modules/pos-app/POS.PosItemAdditionalItems.html"
+    }, {
+      "id" : "additionalItems10.defaultItem",
+      "column" : "defaultItem",
+      "ar" : "الأفتراضي",
+      "en" : "Default",
+      "type" : "Boolean"
+    }, {
+      "id" : "additionalItems10.defaultUnit",
+      "column" : "defaultUnit_id",
+      "ar" : "الوحدة الافتراضية",
+      "en" : "Default Unit",
+      "type" : "Reference",
+      "refTo" : "POS.POSUnit",
+      "refPath" : "/modules/pos-app/POS.POSUnit.html"
+    }, {
+      "id" : "additionalItems10.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems10.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems10.itemID",
+      "column" : "itemID",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems10.itemType",
+      "column" : "itemType",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems10.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "additionalItems2",
+    "table" : "PosAdditionalItems2",
+    "joinColumn" : "addItems_id",
+    "ar" : "الأصناف الإضافية 2",
+    "en" : "Additional Items 2",
+    "fields" : [ {
+      "id" : "additionalItems2.addItems",
+      "column" : "addItems_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosItemAdditionalItems",
+      "refPath" : "/modules/pos-app/POS.PosItemAdditionalItems.html"
+    }, {
+      "id" : "additionalItems2.defaultItem",
+      "column" : "defaultItem",
+      "ar" : "الأفتراضي",
+      "en" : "Default",
+      "type" : "Boolean"
+    }, {
+      "id" : "additionalItems2.defaultUnit",
+      "column" : "defaultUnit_id",
+      "ar" : "الوحدة الافتراضية",
+      "en" : "Default Unit",
+      "type" : "Reference",
+      "refTo" : "POS.POSUnit",
+      "refPath" : "/modules/pos-app/POS.POSUnit.html"
+    }, {
+      "id" : "additionalItems2.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems2.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems2.itemID",
+      "column" : "itemID",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems2.itemType",
+      "column" : "itemType",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems2.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "additionalItems3",
+    "table" : "PosAdditionalItems3",
+    "joinColumn" : "addItems_id",
+    "ar" : "الأصناف الإضافية 3",
+    "en" : "Additional Items 3",
+    "fields" : [ {
+      "id" : "additionalItems3.addItems",
+      "column" : "addItems_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosItemAdditionalItems",
+      "refPath" : "/modules/pos-app/POS.PosItemAdditionalItems.html"
+    }, {
+      "id" : "additionalItems3.defaultItem",
+      "column" : "defaultItem",
+      "ar" : "الأفتراضي",
+      "en" : "Default",
+      "type" : "Boolean"
+    }, {
+      "id" : "additionalItems3.defaultUnit",
+      "column" : "defaultUnit_id",
+      "ar" : "الوحدة الافتراضية",
+      "en" : "Default Unit",
+      "type" : "Reference",
+      "refTo" : "POS.POSUnit",
+      "refPath" : "/modules/pos-app/POS.POSUnit.html"
+    }, {
+      "id" : "additionalItems3.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems3.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems3.itemID",
+      "column" : "itemID",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems3.itemType",
+      "column" : "itemType",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems3.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "additionalItems4",
+    "table" : "PosAdditionalItems4",
+    "joinColumn" : "addItems_id",
+    "ar" : "الأصناف الإضافية 4",
+    "en" : "Additional Items 4",
+    "fields" : [ {
+      "id" : "additionalItems4.addItems",
+      "column" : "addItems_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosItemAdditionalItems",
+      "refPath" : "/modules/pos-app/POS.PosItemAdditionalItems.html"
+    }, {
+      "id" : "additionalItems4.defaultItem",
+      "column" : "defaultItem",
+      "ar" : "الأفتراضي",
+      "en" : "Default",
+      "type" : "Boolean"
+    }, {
+      "id" : "additionalItems4.defaultUnit",
+      "column" : "defaultUnit_id",
+      "ar" : "الوحدة الافتراضية",
+      "en" : "Default Unit",
+      "type" : "Reference",
+      "refTo" : "POS.POSUnit",
+      "refPath" : "/modules/pos-app/POS.POSUnit.html"
+    }, {
+      "id" : "additionalItems4.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems4.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems4.itemID",
+      "column" : "itemID",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems4.itemType",
+      "column" : "itemType",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems4.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "additionalItems5",
+    "table" : "PosAdditionalItems5",
+    "joinColumn" : "addItems_id",
+    "ar" : "الأصناف الإضافية 5",
+    "en" : "Additional Items 5",
+    "fields" : [ {
+      "id" : "additionalItems5.addItems",
+      "column" : "addItems_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosItemAdditionalItems",
+      "refPath" : "/modules/pos-app/POS.PosItemAdditionalItems.html"
+    }, {
+      "id" : "additionalItems5.defaultItem",
+      "column" : "defaultItem",
+      "ar" : "الأفتراضي",
+      "en" : "Default",
+      "type" : "Boolean"
+    }, {
+      "id" : "additionalItems5.defaultUnit",
+      "column" : "defaultUnit_id",
+      "ar" : "الوحدة الافتراضية",
+      "en" : "Default Unit",
+      "type" : "Reference",
+      "refTo" : "POS.POSUnit",
+      "refPath" : "/modules/pos-app/POS.POSUnit.html"
+    }, {
+      "id" : "additionalItems5.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems5.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems5.itemID",
+      "column" : "itemID",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems5.itemType",
+      "column" : "itemType",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems5.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "additionalItems6",
+    "table" : "PosAdditionalItems6",
+    "joinColumn" : "addItems_id",
+    "ar" : "الأصناف الإضافية 6",
+    "en" : "Additional Items 6",
+    "fields" : [ {
+      "id" : "additionalItems6.addItems",
+      "column" : "addItems_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosItemAdditionalItems",
+      "refPath" : "/modules/pos-app/POS.PosItemAdditionalItems.html"
+    }, {
+      "id" : "additionalItems6.defaultItem",
+      "column" : "defaultItem",
+      "ar" : "الأفتراضي",
+      "en" : "Default",
+      "type" : "Boolean"
+    }, {
+      "id" : "additionalItems6.defaultUnit",
+      "column" : "defaultUnit_id",
+      "ar" : "الوحدة الافتراضية",
+      "en" : "Default Unit",
+      "type" : "Reference",
+      "refTo" : "POS.POSUnit",
+      "refPath" : "/modules/pos-app/POS.POSUnit.html"
+    }, {
+      "id" : "additionalItems6.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems6.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems6.itemID",
+      "column" : "itemID",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems6.itemType",
+      "column" : "itemType",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems6.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "additionalItems7",
+    "table" : "PosAdditionalItems7",
+    "joinColumn" : "addItems_id",
+    "ar" : "الأصناف الإضافية 7",
+    "en" : "Additional Items 7",
+    "fields" : [ {
+      "id" : "additionalItems7.addItems",
+      "column" : "addItems_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosItemAdditionalItems",
+      "refPath" : "/modules/pos-app/POS.PosItemAdditionalItems.html"
+    }, {
+      "id" : "additionalItems7.defaultItem",
+      "column" : "defaultItem",
+      "ar" : "الأفتراضي",
+      "en" : "Default",
+      "type" : "Boolean"
+    }, {
+      "id" : "additionalItems7.defaultUnit",
+      "column" : "defaultUnit_id",
+      "ar" : "الوحدة الافتراضية",
+      "en" : "Default Unit",
+      "type" : "Reference",
+      "refTo" : "POS.POSUnit",
+      "refPath" : "/modules/pos-app/POS.POSUnit.html"
+    }, {
+      "id" : "additionalItems7.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems7.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems7.itemID",
+      "column" : "itemID",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems7.itemType",
+      "column" : "itemType",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems7.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "additionalItems8",
+    "table" : "PosAdditionalItems8",
+    "joinColumn" : "addItems_id",
+    "ar" : "الأصناف الإضافية 8",
+    "en" : "Additional Items 8",
+    "fields" : [ {
+      "id" : "additionalItems8.addItems",
+      "column" : "addItems_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosItemAdditionalItems",
+      "refPath" : "/modules/pos-app/POS.PosItemAdditionalItems.html"
+    }, {
+      "id" : "additionalItems8.defaultItem",
+      "column" : "defaultItem",
+      "ar" : "الأفتراضي",
+      "en" : "Default",
+      "type" : "Boolean"
+    }, {
+      "id" : "additionalItems8.defaultUnit",
+      "column" : "defaultUnit_id",
+      "ar" : "الوحدة الافتراضية",
+      "en" : "Default Unit",
+      "type" : "Reference",
+      "refTo" : "POS.POSUnit",
+      "refPath" : "/modules/pos-app/POS.POSUnit.html"
+    }, {
+      "id" : "additionalItems8.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems8.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems8.itemID",
+      "column" : "itemID",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems8.itemType",
+      "column" : "itemType",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems8.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "additionalItems9",
+    "table" : "PosAdditionalItems9",
+    "joinColumn" : "addItems_id",
+    "ar" : "الأصناف الإضافية 9",
+    "en" : "Additional Items 9",
+    "fields" : [ {
+      "id" : "additionalItems9.addItems",
+      "column" : "addItems_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosItemAdditionalItems",
+      "refPath" : "/modules/pos-app/POS.PosItemAdditionalItems.html"
+    }, {
+      "id" : "additionalItems9.defaultItem",
+      "column" : "defaultItem",
+      "ar" : "الأفتراضي",
+      "en" : "Default",
+      "type" : "Boolean"
+    }, {
+      "id" : "additionalItems9.defaultUnit",
+      "column" : "defaultUnit_id",
+      "ar" : "الوحدة الافتراضية",
+      "en" : "Default Unit",
+      "type" : "Reference",
+      "refTo" : "POS.POSUnit",
+      "refPath" : "/modules/pos-app/POS.POSUnit.html"
+    }, {
+      "id" : "additionalItems9.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems9.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems9.itemID",
+      "column" : "itemID",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItems9.itemType",
+      "column" : "itemType",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItems9.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "additionalItemsSettings",
+    "table" : "PosAdditionalItemsLine",
+    "joinColumn" : "addItems_id",
+    "ar" : "إعدادات الأصناف الإضافية",
+    "en" : "Additional Items Settings",
+    "fields" : [ {
+      "id" : "additionalItemsSettings.addItems",
+      "column" : "addItems_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosItemAdditionalItems",
+      "refPath" : "/modules/pos-app/POS.PosItemAdditionalItems.html"
+    }, {
+      "id" : "additionalItemsSettings.addPagingButton",
+      "column" : "addPagingButton",
+      "ar" : "إضافة زر التصفح",
+      "en" : "Add Paging Button",
+      "type" : "Boolean"
+    }, {
+      "id" : "additionalItemsSettings.addSearchButton",
+      "column" : "addSearchButton",
+      "ar" : "إضافة رز البحث",
+      "en" : "Add Search Button",
+      "type" : "Boolean"
+    }, {
+      "id" : "additionalItemsSettings.additionalItemsType",
+      "column" : "additionalItemsType",
+      "ar" : "نوع الأصناف الإضافية",
+      "en" : "Additional Items Type",
+      "type" : "Text"
+    }, {
+      "id" : "additionalItemsSettings.canMultiSelect",
+      "column" : "canMultiSelect",
+      "ar" : "إمكانية الاختيار المتعدد",
+      "en" : "Can Multi Select",
+      "type" : "Boolean"
+    }, {
+      "id" : "additionalItemsSettings.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "additionalItemsSettings.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "additionalItemsSettings.makeAddItemsRequired",
+      "column" : "makeAddItemsRequired",
+      "ar" : "جعل الأصناف الإضافية مطلوبة",
+      "en" : "Make Additional Items Required",
+      "type" : "Boolean"
+    }, {
+      "id" : "additionalItemsSettings.titleInPOS",
+      "column" : "titleInPOS",
+      "ar" : "العنوان في نقاط البيع",
+      "en" : "Title In POS",
+      "type" : "Text"
+    } ]
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "ChartColumnUsage",
+  "values" : [ {
+    "id" : "Dimension",
+    "ar" : "Dimension",
+    "en" : "Dimension"
+  }, {
+    "id" : "Measure",
+    "ar" : "مقياس",
+    "en" : "Measure"
+  } ]
+}

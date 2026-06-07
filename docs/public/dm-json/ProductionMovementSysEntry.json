@@ -1,0 +1,98 @@
+{
+  "entity" : "ProductionMovementSysEntry",
+  "table" : "ProductionMovementSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ProductionMovementSysEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lineNumber",
+    "column" : "lineNumber",
+    "ar" : "رقم السطر",
+    "en" : "Line Number",
+    "type" : "Integer"
+  }, {
+    "id" : "operationSeq",
+    "column" : "operationSeq",
+    "ar" : "م. العملية",
+    "en" : "Operation Seq.",
+    "type" : "Integer"
+  }, {
+    "id" : "order",
+    "column" : "order_id",
+    "ar" : "أمر الشغل",
+    "en" : "Job Order",
+    "type" : "Reference",
+    "refTo" : "ProductionOrder",
+    "refPath" : "/modules/manufacturing/ProductionOrder.html"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "quantity.uom",
+    "column" : "quantityUom_id",
+    "ar" : "الكمية | الوحدة",
+    "en" : "Quantity | Uom",
+    "type" : "Reference",
+    "refTo" : "UOM",
+    "refPath" : "/modules/supplychain/UOM.html"
+  }, {
+    "id" : "quantity.value",
+    "column" : "quantityValue",
+    "ar" : "الكمية  | القيمة",
+    "en" : "Quantity | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "rateOperationSequence",
+    "column" : "rateOperationSequence",
+    "ar" : "Rate Operation Sequence",
+    "en" : "Rate Operation Sequence",
+    "type" : "Integer"
+  }, {
+    "id" : "rejected",
+    "column" : "rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected",
+    "type" : "Decimal"
+  }, {
+    "id" : "sample",
+    "column" : "sample",
+    "ar" : " سحب عينة",
+    "en" : " Sample",
+    "type" : "Decimal"
+  }, {
+    "id" : "scrap",
+    "column" : "scrap",
+    "ar" : "تالف",
+    "en" : "Scrap",
+    "type" : "Decimal"
+  }, {
+    "id" : "step",
+    "column" : "step",
+    "type" : "Enum",
+    "enum" : "OperationStep"
+  }, {
+    "id" : "toMove",
+    "column" : "toMove",
+    "ar" : "جاهز للحركة",
+    "en" : "To Move",
+    "type" : "Decimal"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

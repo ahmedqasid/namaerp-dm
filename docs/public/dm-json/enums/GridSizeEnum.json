@@ -1,0 +1,32 @@
+{
+  "enum" : "GridSizeEnum",
+  "values" : [ {
+    "id" : "Small",
+    "ar" : "3-صغير",
+    "en" : "3-Small"
+  }, {
+    "id" : "Medium",
+    "ar" : "4-متوسط",
+    "en" : "4-Medium"
+  }, {
+    "id" : "Large",
+    "ar" : "5-كبير",
+    "en" : "5-Large"
+  }, {
+    "id" : "VerySmall",
+    "ar" : "2-صغير جدا",
+    "en" : "2-VerySmall"
+  }, {
+    "id" : "Tiny",
+    "ar" : "1-صغير جدا جدا",
+    "en" : "1-Tiny"
+  }, {
+    "id" : "XLarge",
+    "ar" : "6-كبير جدا",
+    "en" : "6-XLarge"
+  }, {
+    "id" : "XXLarge",
+    "ar" : "7-كبير جدا جدا",
+    "en" : "7-XXLarge"
+  } ]
+}

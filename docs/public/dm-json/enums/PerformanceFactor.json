@@ -1,0 +1,32 @@
+{
+  "enum" : "PerformanceFactor",
+  "values" : [ {
+    "id" : "TodayBasicSalary",
+    "ar" : "راتب أساسي اليوم",
+    "en" : "Today Basic Salary"
+  }, {
+    "id" : "TodayNetSalary",
+    "ar" : "راتب نهائي اليوم",
+    "en" : "Today Net Salary"
+  }, {
+    "id" : "MonthlyBasicSalary",
+    "ar" : "الراتب الأساسي الشهري",
+    "en" : "Monthly Basic Salary"
+  }, {
+    "id" : "MonthlyNetSalary",
+    "ar" : "الإجمالي الشهري",
+    "en" : "Monthly Net Salary"
+  }, {
+    "id" : "FormulaResult",
+    "ar" : "ناتج المعادلة",
+    "en" : "Formula Result"
+  }, {
+    "id" : "SpecificComponents",
+    "ar" : "نسبة من مفردات راتب محددة",
+    "en" : "Percentage Of Specific Components"
+  }, {
+    "id" : "EmployeeDailySalary",
+    "ar" : "الأجر اليومي للموظف ( عمالة )",
+    "en" : "Employee Daily Salary"
+  } ]
+}

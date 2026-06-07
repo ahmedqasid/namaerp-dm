@@ -1,0 +1,24 @@
+{
+  "enum" : "FiscalPeriodType",
+  "values" : [ {
+    "id" : "Openning",
+    "ar" : "افتتاحية",
+    "en" : "Openning"
+  }, {
+    "id" : "Normal",
+    "ar" : "عادية",
+    "en" : "Normal"
+  }, {
+    "id" : "Adjustment",
+    "ar" : "تسويات",
+    "en" : "Adjustment"
+  }, {
+    "id" : "Closing",
+    "ar" : "اغلاق",
+    "en" : "Closing"
+  }, {
+    "id" : "PurgePeriod",
+    "ar" : "فترة Purge",
+    "en" : "Purge Period"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "REOwnerType",
+  "values" : [ {
+    "id" : "Individual",
+    "ar" : "فرد",
+    "en" : "Individual"
+  }, {
+    "id" : "Group",
+    "ar" : "مجموعة",
+    "en" : "Group"
+  } ]
+}

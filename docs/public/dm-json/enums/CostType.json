@@ -1,0 +1,40 @@
+{
+  "enum" : "CostType",
+  "values" : [ {
+    "id" : "Invoice",
+    "ar" : "فاتورة",
+    "en" : "Invoice"
+  }, {
+    "id" : "Worker",
+    "ar" : "عمالة",
+    "en" : "Worker"
+  }, {
+    "id" : "Material",
+    "ar" : "مواد خام",
+    "en" : "Material"
+  }, {
+    "id" : "Contractor",
+    "ar" : "مقاول باطن",
+    "en" : "Contractor"
+  }, {
+    "id" : "ContractorFine",
+    "ar" : "غرامة مقاول باطن",
+    "en" : "Contractor Fine"
+  }, {
+    "id" : "ProjectFine",
+    "ar" : "غرامة مشروع",
+    "en" : "Project Fine"
+  }, {
+    "id" : "Salaries",
+    "ar" : "رواتب",
+    "en" : "Salaries"
+  }, {
+    "id" : "Depreciations",
+    "ar" : "إهلاكات",
+    "en" : "Depreciations"
+  }, {
+    "id" : "InsurancePolicy",
+    "ar" : "بوليصة تأمين",
+    "en" : "Insurance Policy"
+  } ]
+}

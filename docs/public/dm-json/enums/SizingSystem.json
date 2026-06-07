@@ -1,0 +1,40 @@
+{
+  "enum" : "SizingSystem",
+  "values" : [ {
+    "id" : "EnglishSystem",
+    "ar" : "نظام المقاسات الإنجليزي",
+    "en" : "English Sizing System"
+  }, {
+    "id" : "AmericanSystem",
+    "ar" : "نظام المقاسات الأمريكي",
+    "en" : "American Sizing System"
+  }, {
+    "id" : "CrocsSystem",
+    "ar" : "نظام مقاسات كروكس",
+    "en" : "Crocs Sizing System"
+  }, {
+    "id" : "JapaneseSystem",
+    "ar" : "نظام المقاسات الياباني",
+    "en" : "Japanese Sizing System"
+  }, {
+    "id" : "koreanSystem",
+    "ar" : "نظام المقاسات الكوري",
+    "en" : "korean Sizing System"
+  }, {
+    "id" : "ChineseSystem",
+    "ar" : "نظام المقاسات الصيني",
+    "en" : "Chinese Sizing System"
+  }, {
+    "id" : "OtherSystem1",
+    "ar" : "نظام مقاسات أخرى1",
+    "en" : "Other Sizing System1"
+  }, {
+    "id" : "OtherSystem2",
+    "ar" : "نظام مقاسات أخرى2",
+    "en" : "Other Sizing System2"
+  }, {
+    "id" : "OtherSystem3",
+    "ar" : "نظام مقاسات أخرى3",
+    "en" : "Other Sizing System3"
+  } ]
+}

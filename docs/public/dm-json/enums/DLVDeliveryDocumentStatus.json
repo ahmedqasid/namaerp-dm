@@ -1,0 +1,12 @@
+{
+  "enum" : "DLVDeliveryDocumentStatus",
+  "values" : [ {
+    "id" : "Delivered",
+    "ar" : "توصيل كلي",
+    "en" : "Totally Delivered"
+  }, {
+    "id" : "UnsuccessfullyDelivered",
+    "ar" : "فشل التوصيل",
+    "en" : "Unsuccessfully Delivered"
+  } ]
+}

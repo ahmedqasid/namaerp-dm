@@ -1,0 +1,119 @@
+{
+  "entity" : "LargeData",
+  "table" : "LargeData",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/LargeData.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "belongsToReport",
+    "column" : "belongsToReport",
+    "type" : "Boolean"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "contentType",
+    "column" : "contentType",
+    "ar" : "نوع المحتوي",
+    "en" : "Content Type",
+    "type" : "Enum",
+    "enum" : "AttachedFileContentType"
+  }, {
+    "id" : "data",
+    "column" : "data",
+    "ar" : "Email Sent Data",
+    "en" : "Email Sent Data",
+    "type" : ""
+  }, {
+    "id" : "dataFile",
+    "column" : "dataFile",
+    "type" : "Long"
+  }, {
+    "id" : "dataFilePath",
+    "column" : "dataFilePath",
+    "type" : "Text"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "externalized",
+    "column" : "externalized",
+    "type" : "Boolean"
+  }, {
+    "id" : "fileName",
+    "column" : "fileName",
+    "type" : "Text"
+  }, {
+    "id" : "fileSize",
+    "column" : "fileSize",
+    "type" : "Long"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "isProcessed",
+    "column" : "isProcessed",
+    "type" : "Boolean"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "pdfCopy",
+    "column" : "pdfCopy",
+    "type" : ""
+  }, {
+    "id" : "pdfFile",
+    "column" : "pdfFile",
+    "type" : "Long"
+  }, {
+    "id" : "processingTrials",
+    "column" : "processingTrials",
+    "type" : "Integer"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "thumbnailCopy",
+    "column" : "thumbnailCopy",
+    "type" : ""
+  }, {
+    "id" : "thumbnailFile",
+    "column" : "thumbnailFile",
+    "type" : "Long"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "AttendanceMachineConnectionType",
+  "values" : [ {
+    "id" : "ZkBioTime",
+    "ar" : "ZkBioTime",
+    "en" : "ZkBioTime"
+  }, {
+    "id" : "SQLSERVER",
+    "ar" : "SQLSERVER",
+    "en" : "SQLSERVER"
+  }, {
+    "id" : "ACCESS",
+    "ar" : "ACCESS",
+    "en" : "ACCESS"
+  } ]
+}

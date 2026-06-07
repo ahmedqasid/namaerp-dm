@@ -1,0 +1,24 @@
+{
+  "enum" : "CustomRepLaunchType",
+  "values" : [ {
+    "id" : "DirectInPopup",
+    "ar" : "بدء في نافذة منبثقة",
+    "en" : "Direct in popup"
+  }, {
+    "id" : "DirectInNewPage",
+    "ar" : "بدء في نافذه جديدة",
+    "en" : "Direct in new page"
+  }, {
+    "id" : "ParamsInPopup",
+    "ar" : "طلب المدخلات في نافذه منبثقة",
+    "en" : "Parameters in popup"
+  }, {
+    "id" : "ParamsInNewPage",
+    "ar" : "طلب المدخلات في نافذة جديدة",
+    "en" : "Parameters in new page"
+  }, {
+    "id" : "Print",
+    "ar" : "طباعة",
+    "en" : "Print"
+  } ]
+}

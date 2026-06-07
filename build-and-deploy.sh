@@ -29,6 +29,5 @@ npm i
 npm run docs:build
 checkForErrors
 mkdir /var/www/dm
-rsync -L -r -t -v -z -q --delete -s  ./docs/.vuepress/dist/  /var/www/dm/
+rsync -L -r -t -v -z -q --delete -s  ./docs/.vitepress/dist/  /var/www/dm/
 chown -R www-data /var/www/dm/
-wget -O - "https://nlm.namasoft.com/nlm/docs-search?evict-cache=true"

@@ -1,0 +1,24 @@
+{
+  "enum" : "FixedDepositType",
+  "values" : [ {
+    "id" : "Trust",
+    "ar" : "وديعة",
+    "en" : "Trust"
+  }, {
+    "id" : "TreasuryBonds",
+    "ar" : "سندات خزانة",
+    "en" : "Treasury Bonds"
+  }, {
+    "id" : "SavingsAccounts",
+    "ar" : "حساب إدخار",
+    "en" : "Savings Accounts"
+  }, {
+    "id" : "BankBonds",
+    "ar" : "سندات بنكية",
+    "en" : "Bank Bonds"
+  }, {
+    "id" : "Investment",
+    "ar" : "استثمار",
+    "en" : "Investment"
+  } ]
+}

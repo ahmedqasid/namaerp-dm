@@ -1,0 +1,43 @@
+{
+  "entity" : "CRMAssigningToSysEntry",
+  "table" : "CRMAssigningToSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/CRMAssigningToSysEntry.html",
+  "fields" : [ {
+    "id" : "assignTicketDateTime",
+    "column" : "assignTicketDateTime",
+    "ar" : "تاريخ و وقت التصعيد",
+    "en" : "Assign Ticket Date And Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "assigningBy",
+    "columns" : [ "assigningByActualCode", " assigningByCode", " assigningByEntityType", " assigningById" ],
+    "ar" : "المستخدم القائم بالتصعيد",
+    "en" : "Assigning By",
+    "type" : "Genericreference"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  } ]
+}

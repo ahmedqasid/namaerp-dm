@@ -1,0 +1,97 @@
+{
+  "entity" : "MCMainContractCancelledEquipment",
+  "table" : "MCMainContractCancelledEquipment",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/MCMainContractCancelledEquipment.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "contractTotal",
+    "column" : "contractTotal",
+    "ar" : "إجمالي التعاقد",
+    "en" : "Contract Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "deleted",
+    "column" : "deleted",
+    "ar" : "محذوف",
+    "en" : "Deleted",
+    "type" : "Boolean"
+  }, {
+    "id" : "description",
+    "column" : "description",
+    "ar" : "الوصف",
+    "en" : "Description",
+    "type" : "Text"
+  }, {
+    "id" : "equipment",
+    "column" : "equipment_id",
+    "ar" : "المعدة",
+    "en" : "Equipment",
+    "type" : "Reference",
+    "refTo" : "MCEquipment",
+    "refPath" : "/modules/mc/MCEquipment.html"
+  }, {
+    "id" : "equipmentCategory",
+    "column" : "equipmentCategory",
+    "ar" : "فئه المعده",
+    "en" : "Equipment Category",
+    "type" : "Enum",
+    "enum" : "MCEquipmentCategory"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "monthlySingularPrice",
+    "column" : "monthlySingularPrice",
+    "ar" : "السعر الافرادي الشهري",
+    "en" : "Monthly Singular Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "monthlyTotal",
+    "column" : "monthlyTotal",
+    "ar" : "الإجمالي الشهري",
+    "en" : "Monthly Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "quantity",
+    "column" : "quantity",
+    "ar" : "الكمية",
+    "en" : "Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "recoverDeleted",
+    "column" : "recoverDeleted",
+    "ar" : "استعادة المحذوف",
+    "en" : "Recover Deleted",
+    "type" : "Boolean"
+  }, {
+    "id" : "singularPrice",
+    "column" : "singularPrice",
+    "ar" : "السعر الإفرادي",
+    "en" : "Singular Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalAfterUpdate",
+    "column" : "totalAfterUpdate",
+    "ar" : "الإجمالي بعد التعديل",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalContractAfterUpdate",
+    "column" : "totalContractAfterUpdate",
+    "type" : "Decimal"
+  }, {
+    "id" : "uom",
+    "column" : "uom_id",
+    "ar" : "الوحدة",
+    "en" : "Unit",
+    "type" : "Reference",
+    "refTo" : "MCUOM",
+    "refPath" : "/modules/mc/MCUOM.html"
+  } ]
+}

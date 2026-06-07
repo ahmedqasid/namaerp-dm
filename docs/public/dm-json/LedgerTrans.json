@@ -1,0 +1,482 @@
+{
+  "entity" : "LedgerTrans",
+  "table" : "LedgerTrans",
+  "module" : "system-tables",
+  "ar" : "قيود النظام",
+  "en" : "Ledger Transaction",
+  "page" : "https://dm.namasoft.com/modules/system-tables/LedgerTrans.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "ledger",
+    "column" : "ledger_id",
+    "ar" : "دفتر الحسابات",
+    "en" : "Ledger",
+    "type" : "Reference",
+    "refTo" : "Ledger",
+    "refPath" : "/modules/accounting/Ledger.html"
+  }, {
+    "id" : "localCurrency",
+    "column" : "localCurrency_id",
+    "ar" : " العملة",
+    "en" : "Local Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "secondLevelSource",
+    "column" : "secondLevelSource",
+    "type" : "ID"
+  }, {
+    "id" : "serialRef",
+    "column" : "serialRef",
+    "type" : "ID"
+  }, {
+    "id" : "totalCredit",
+    "column" : "totalCredit",
+    "ar" : "إجمالي الدائن",
+    "en" : "Credit Only",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalDebit",
+    "column" : "totalDebit",
+    "ar" : "إجمالي المدين",
+    "en" : "Debit Only",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalDiff",
+    "column" : "totalDiff",
+    "ar" : "إجمالي الفرق",
+    "en" : "Total Difference",
+    "type" : "Decimal"
+  }, {
+    "id" : "transCode",
+    "column" : "transCode",
+    "ar" : "مسلسل",
+    "en" : "Serial",
+    "type" : "Text"
+  }, {
+    "id" : "trnsData.analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "trnsData.branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "trnsData.creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "trnsData.department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "trnsData.firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "trnsData.fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "trnsData.fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "trnsData.issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "trnsData.lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "trnsData.legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "trnsData.origin",
+    "columns" : [ "originActualCode", " originCode", " originType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "trnsData.originCode",
+    "column" : "originCode",
+    "ar" : " الكود",
+    "en" : " Code",
+    "type" : "Text"
+  }, {
+    "id" : "trnsData.originCreationDate",
+    "column" : "originCreationDate",
+    "ar" : " تاريخ الإنشاء",
+    "en" : " Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "trnsData.originId",
+    "column" : "originId",
+    "type" : "ID"
+  }, {
+    "id" : "trnsData.originLastUpdateDate",
+    "column" : "originLastUpdateDate",
+    "ar" : "تاريخ اخر تحديث للمستند",
+    "en" : "Origin Last Update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "trnsData.originTransId",
+    "column" : "originTransId",
+    "type" : "ID"
+  }, {
+    "id" : "trnsData.originType",
+    "column" : "originType",
+    "ar" : " النوع",
+    "en" : " Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "trnsData.replicationSequence",
+    "column" : "replicationSequence",
+    "type" : "Integer"
+  }, {
+    "id" : "trnsData.requestId",
+    "column" : "requestId",
+    "ar" : "Request Id",
+    "en" : "Request Id",
+    "type" : "ID"
+  }, {
+    "id" : "trnsData.sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "trnsData.valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ],
+  "details" : [ {
+    "id" : "lines",
+    "table" : "LedgerTransLine",
+    "joinColumn" : "ledgerTrans_id",
+    "ar" : " التفاصيل",
+    "en" : " Details",
+    "fields" : [ {
+      "id" : "lines.account",
+      "column" : "account_id",
+      "ar" : "الحساب",
+      "en" : "Account",
+      "type" : "Reference",
+      "refTo" : "Account",
+      "refPath" : "/modules/accounting/Account.html"
+    }, {
+      "id" : "lines.analysisSet",
+      "column" : "analysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "AnalysisSet",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "lines.branch",
+      "column" : "branch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "lines.creationDate",
+      "column" : "creationDate",
+      "ar" : "تاريخ الإنشاء",
+      "en" : "Creation Date",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "lines.credit.localAmount",
+      "column" : "creditLocalAmount",
+      "ar" : "محلي|دائن",
+      "en" : "Local|Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.credit.rate",
+      "column" : "creditRate",
+      "ar" : "المعدل",
+      "en" : "Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.credit.value.amount",
+      "column" : "creditValueAmount",
+      "ar" : "المبلغ|دائن",
+      "en" : "Amount|Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.credit.value.currency",
+      "column" : "creditValueCurrency_id",
+      "ar" : " العملة",
+      "en" : " Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "lines.creditTransAmount",
+      "column" : "creditTransAmount",
+      "ar" : "القيمة بعملة الحركة | دائن",
+      "en" : "Trans | Credit Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.debit.localAmount",
+      "column" : "debitLocalAmount",
+      "ar" : "محلي|مدين",
+      "en" : "Local|Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.debit.rate",
+      "column" : "debitRate",
+      "ar" : "المعدل",
+      "en" : "Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.debit.value.amount",
+      "column" : "debitValueAmount",
+      "ar" : "المبلغ|مدين",
+      "en" : "Amount|Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.debit.value.currency",
+      "column" : "debitValueCurrency_id",
+      "ar" : " العملة",
+      "en" : " Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "lines.department",
+      "column" : "department_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "lines.effectType",
+      "column" : "effectType",
+      "ar" : "نوع التأثير",
+      "en" : "Component Effect Type",
+      "type" : "Enum",
+      "enum" : "LedgerEffectType"
+    }, {
+      "id" : "lines.entityDimension",
+      "columns" : [ "entityDimensionActualCode", " entityDimensionCode", " entityDimensionEntityType", " entityDimensionId" ],
+      "ar" : "السجل",
+      "en" : "Entity Dimension",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.fiscalPeriod",
+      "column" : "fiscalPeriod_id",
+      "ar" : "الفترة",
+      "en" : "Fiscal Period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.fiscalYear",
+      "column" : "fiscalYear_id",
+      "ar" : "السنة المالية",
+      "en" : "Fiscal Year",
+      "type" : "Reference",
+      "refTo" : "FiscalYear",
+      "refPath" : "/modules/basic/FiscalYear.html"
+    }, {
+      "id" : "lines.fromAccDistribution",
+      "column" : "fromAccDistribution",
+      "ar" : "منشئ من التوزيع",
+      "en" : "From Account Distribution",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.fromPurge",
+      "column" : "fromPurge",
+      "ar" : "From Purge",
+      "en" : "From Purge",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "lines.ledger",
+      "column" : "ledger_id",
+      "ar" : "دفتر الحسابات",
+      "en" : "Ledger",
+      "type" : "Reference",
+      "refTo" : "Ledger",
+      "refPath" : "/modules/accounting/Ledger.html"
+    }, {
+      "id" : "lines.legalEntity",
+      "column" : "legalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "lines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "lines.localCurrency",
+      "column" : "localCurrency_id",
+      "ar" : " العملة",
+      "en" : "Local Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "lines.narration",
+      "column" : "narration",
+      "ar" : "الشرح",
+      "en" : "Narration",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.narration2",
+      "column" : "narration2",
+      "ar" : "الشرح 2",
+      "en" : "Narration 2",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.origin",
+      "columns" : [ "originActualCode", " originCode", " originType", " originId" ],
+      "ar" : " # المستند",
+      "en" : " Document #",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.originCode",
+      "column" : "originCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
+      "id" : "lines.originId",
+      "column" : "originId",
+      "type" : "ID"
+    }, {
+      "id" : "lines.originLines",
+      "column" : "originLines",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.originTransId",
+      "column" : "originTransId",
+      "type" : "ID"
+    }, {
+      "id" : "lines.originType",
+      "column" : "originType",
+      "ar" : " النوع",
+      "en" : " Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "lines.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.relatedLines",
+      "column" : "relatedLines",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.secondLevelSource",
+      "column" : "secondLevelSource",
+      "type" : "ID"
+    }, {
+      "id" : "lines.sector",
+      "column" : "sector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    }, {
+      "id" : "lines.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.transAmount",
+      "column" : "transAmount",
+      "ar" : "القيمة بعملة الحركة | مدين",
+      "en" : "Trans | Debit Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.transCurrency",
+      "column" : "transCurrency_id",
+      "ar" : "الحركة | العملة",
+      "en" : "Trans | Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "lines.transRate",
+      "column" : "transRate",
+      "ar" : "الحركة | المعدل",
+      "en" : "Trans | Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.valueDate",
+      "column" : "valueDate",
+      "ar" : "التاريخ الفعلي",
+      "en" : "Value Date",
+      "type" : "Date"
+    } ]
+  } ]
+}

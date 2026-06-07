@@ -1,0 +1,16 @@
+{
+  "enum" : "OfferReplacementPolicy",
+  "values" : [ {
+    "id" : "Prevented",
+    "ar" : "ممنوع",
+    "en" : "Prevented"
+  }, {
+    "id" : "ReplaceAll",
+    "ar" : "إستبدال الكل",
+    "en" : "ReplaceAll"
+  }, {
+    "id" : "ReplaceFree",
+    "ar" : "إستبدال بأصناف مجانية",
+    "en" : "Replace Free Items"
+  } ]
+}

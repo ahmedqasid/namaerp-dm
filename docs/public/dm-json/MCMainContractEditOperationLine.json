@@ -1,0 +1,109 @@
+{
+  "entity" : "MCMainContractEditOperationLine",
+  "table" : "MCMainContractEditOperationLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/MCMainContractEditOperationLine.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "contractTerm",
+    "column" : "contractTerm_id",
+    "ar" : "بند العقد",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "MCContractTerm",
+    "refPath" : "/modules/mc/MCContractTerm.html"
+  }, {
+    "id" : "contractTotal",
+    "column" : "contractTotal",
+    "ar" : "إجمالي التعاقد",
+    "en" : "Contract Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "deleted",
+    "column" : "deleted",
+    "ar" : "محذوف",
+    "en" : "Deleted",
+    "type" : "Boolean"
+  }, {
+    "id" : "description",
+    "column" : "description",
+    "ar" : "الوصف",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "monthlySingularPrice",
+    "column" : "monthlySingularPrice",
+    "ar" : "السعر الافرادي الشهري",
+    "en" : "Monthly Singular Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "monthlyTotal",
+    "column" : "monthlyTotal",
+    "ar" : "الإجمالي الشهري",
+    "en" : "Monthly Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "operationUpdatePercent",
+    "column" : "operationUpdatePercent",
+    "ar" : "نسبة التعديل للتشغيل والصيانة",
+    "en" : "Operation Update Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "operationUpdateType",
+    "column" : "operationUpdateType",
+    "ar" : "طريقة تعديل التشغيل والصيانة",
+    "en" : "Operation Update Type",
+    "type" : "Enum",
+    "enum" : "MCTenderUpdateType"
+  }, {
+    "id" : "quantity",
+    "column" : "quantity",
+    "ar" : "الكمية",
+    "en" : "Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "recoverDeleted",
+    "column" : "recoverDeleted",
+    "ar" : "استعادة المحذوف",
+    "en" : "Recover Deleted",
+    "type" : "Boolean"
+  }, {
+    "id" : "singularPrice",
+    "column" : "singularPrice",
+    "ar" : "السعر الإفرادي",
+    "en" : "Singular Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "subContractTerm",
+    "column" : "subContractTerm",
+    "ar" : "البند الفرعي",
+    "en" : "Sub Contract Term",
+    "type" : "Text"
+  }, {
+    "id" : "totalAfterUpdate",
+    "column" : "totalAfterUpdate",
+    "ar" : "الإجمالي بعد التعديل",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalCostAfterUpdate",
+    "column" : "totalCostAfterUpdate",
+    "type" : "Decimal"
+  }, {
+    "id" : "uom",
+    "column" : "uom_id",
+    "ar" : "الوحدة",
+    "en" : "Unit",
+    "type" : "Reference",
+    "refTo" : "MCUOM",
+    "refPath" : "/modules/mc/MCUOM.html"
+  } ]
+}

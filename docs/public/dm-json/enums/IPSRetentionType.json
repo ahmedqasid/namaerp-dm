@@ -1,0 +1,44 @@
+{
+  "enum" : "IPSRetentionType",
+  "values" : [ {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  }, {
+    "id" : "Other4",
+    "ar" : "أخرى 4",
+    "en" : "Other 4"
+  }, {
+    "id" : "Other5",
+    "ar" : "أخرى 5",
+    "en" : "Other 5"
+  }, {
+    "id" : "Other6",
+    "ar" : "أخرى 6",
+    "en" : "Other 6"
+  }, {
+    "id" : "Other7",
+    "ar" : "أخرى 7",
+    "en" : "Other 7"
+  }, {
+    "id" : "Other8",
+    "ar" : "أخرى 8",
+    "en" : "Other 8"
+  }, {
+    "id" : "Other9",
+    "ar" : "أخرى 9",
+    "en" : "Other 9"
+  }, {
+    "id" : "Other10",
+    "ar" : "أخرى 10",
+    "en" : "Other 10"
+  } ]
+}

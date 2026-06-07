@@ -1,0 +1,29 @@
+{
+  "entity" : "SWMatchedInvItemTrans",
+  "table" : "SWMatchedInvItemTrans",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SWMatchedInvItemTrans.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "inTransId",
+    "column" : "inTransId",
+    "type" : "ID"
+  }, {
+    "id" : "outTransId",
+    "column" : "outTransId",
+    "type" : "ID"
+  }, {
+    "id" : "qty",
+    "column" : "qty",
+    "ar" : "الكمية",
+    "en" : "Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "searchIndex",
+    "column" : "searchIndex",
+    "type" : "Text"
+  } ]
+}

@@ -1,0 +1,50 @@
+{
+  "entity" : "AIChatMessage",
+  "table" : "AIChatMessage",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AIChatMessage.html",
+  "fields" : [ {
+    "id" : "content",
+    "column" : "content",
+    "ar" : "المحتوى",
+    "en" : "Content",
+    "type" : "BigText"
+  }, {
+    "id" : "createdAt",
+    "column" : "createdAt",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Created At",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "messageType",
+    "column" : "messageType",
+    "ar" : "Message Type",
+    "en" : "Message Type",
+    "type" : "Enum",
+    "enum" : "AIChatMessageType"
+  }, {
+    "id" : "metadata",
+    "column" : "metadata",
+    "type" : "BigText"
+  }, {
+    "id" : "session",
+    "column" : "session_id",
+    "en" : "Session",
+    "type" : "",
+    "refTo" : "AIChatSession",
+    "refPath" : "/modules/system-tables/AIChatSession.html"
+  }, {
+    "id" : "tokenCount",
+    "column" : "tokenCount",
+    "type" : "Integer"
+  }, {
+    "id" : "userFeedback",
+    "column" : "userFeedback",
+    "type" : "Enum",
+    "enum" : "UserFeedback"
+  } ]
+}

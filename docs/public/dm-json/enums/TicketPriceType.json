@@ -1,0 +1,16 @@
+{
+  "enum" : "TicketPriceType",
+  "values" : [ {
+    "id" : "Price1",
+    "ar" : " السعر 1",
+    "en" : " Price 1"
+  }, {
+    "id" : "Price2",
+    "ar" : " السعر 2",
+    "en" : " Price 2"
+  }, {
+    "id" : "Manual",
+    "ar" : "يدوي",
+    "en" : "Manual"
+  } ]
+}

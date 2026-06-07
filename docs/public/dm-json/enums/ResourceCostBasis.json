@@ -1,0 +1,12 @@
+{
+  "enum" : "ResourceCostBasis",
+  "values" : [ {
+    "id" : "Item",
+    "ar" : "صنف",
+    "en" : "Item"
+  }, {
+    "id" : "Lot",
+    "ar" : "شحنة",
+    "en" : "Lot"
+  } ]
+}

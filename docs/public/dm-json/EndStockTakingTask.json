@@ -1,0 +1,77 @@
+{
+  "entity" : "EndStockTakingTask",
+  "table" : "EndStockTakingTask",
+  "module" : "system-tables",
+  "ar" : "End Stock Taking Tasks",
+  "en" : "End Stock Taking Tasks",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EndStockTakingTask.html",
+  "fields" : [ {
+    "id" : "currentDimensions",
+    "column" : "currentDimensions",
+    "type" : "BigText"
+  }, {
+    "id" : "currentLanguage",
+    "column" : "currentLanguage",
+    "type" : "Text"
+  }, {
+    "id" : "endStockTaking",
+    "columns" : [ "endStockTakingActualCode", " endStockTakingCode", " endStockTakingEntityType", " endStockTakingId" ],
+    "ar" : " نهاية الجرد",
+    "en" : " End Stock Taking",
+    "type" : "Genericreference"
+  }, {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "executionDate",
+    "column" : "executionDate",
+    "ar" : "تاريخ التنفيذ",
+    "en" : "Execution Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "requester",
+    "columns" : [ "requesterActualCode", " requesterCode", " requesterEntityType", " requesterId" ],
+    "ar" : "محرر الطلب",
+    "en" : "Requester",
+    "type" : "Genericreference"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
+    "id" : "submitionDate",
+    "column" : "submitionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Submition Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "taskType",
+    "column" : "taskType",
+    "ar" : "نوع المهمة",
+    "en" : "Task Type",
+    "type" : "Enum",
+    "enum" : "EndStockTakingTaskType"
+  }, {
+    "id" : "trials",
+    "column" : "trials",
+    "ar" : "عدد محاولات",
+    "en" : "Trials",
+    "type" : "Integer"
+  } ]
+}

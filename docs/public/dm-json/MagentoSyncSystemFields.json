@@ -1,0 +1,61 @@
+{
+  "entity" : "MagentoSyncSystemFields",
+  "table" : "MagentoSyncSystemFields",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/MagentoSyncSystemFields.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lastAbandonedCartReadDate",
+    "column" : "lastAbandonedCartReadDate",
+    "ar" : "Last Abandoned Cart Read Date",
+    "en" : "Last Abandoned Cart Read Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "lastGatewayReadDateTime",
+    "column" : "lastGatewayReadDateTime",
+    "ar" : "Last Gateway Read Date Time",
+    "en" : "Last Gateway Read Date Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "lastIncrementIdIsRealID",
+    "column" : "lastIncrementIdIsRealID",
+    "ar" : "Last Increment ID is Real ID",
+    "en" : "Last Increment ID is Real ID",
+    "type" : "Boolean"
+  }, {
+    "id" : "lastIncrementedId",
+    "column" : "lastIncrementedId",
+    "ar" : "Last Id",
+    "en" : "Last Id",
+    "type" : "Text"
+  }, {
+    "id" : "lastOrderAsReturnId",
+    "column" : "lastOrderAsReturnId",
+    "type" : "Text"
+  }, {
+    "id" : "lastReturnReadDate",
+    "column" : "lastReturnReadDate",
+    "ar" : "Last Return Read Date",
+    "en" : "Last Return Read Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "lastSalesReadDate",
+    "column" : "lastSalesReadDate",
+    "ar" : "Last Sales Read Date",
+    "en" : "Last Sales Read Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "ordAsReturnUpdateUntil",
+    "column" : "ordAsReturnUpdateUntil",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "ordersUpdatedUntil",
+    "column" : "ordersUpdatedUntil",
+    "ar" : "تم التحديث حتى تاريخ",
+    "en" : "Orders Updated Until",
+    "type" : "DateAndTime"
+  } ]
+}

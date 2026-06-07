@@ -1,0 +1,24 @@
+{
+  "enum" : "SalaryIncreaseType",
+  "values" : [ {
+    "id" : "AdditionPercentage",
+    "ar" : "نسبه مضافة",
+    "en" : "Addition Percentage"
+  }, {
+    "id" : "AdditionValue",
+    "ar" : "قيمة مضافة",
+    "en" : "Addition Value"
+  }, {
+    "id" : "DeductionPercentage",
+    "ar" : "نسبه مخصومة",
+    "en" : "Deduction Percentage"
+  }, {
+    "id" : "DeductionValue",
+    "ar" : "قيمة مخصومة",
+    "en" : "Deduction Value"
+  }, {
+    "id" : "ReplaceTheValue",
+    "ar" : "استبدال القيمة",
+    "en" : "Replace Value"
+  } ]
+}

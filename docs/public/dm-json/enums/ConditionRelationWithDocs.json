@@ -1,0 +1,20 @@
+{
+  "enum" : "ConditionRelationWithDocs",
+  "values" : [ {
+    "id" : "RequiresAdvancePaymentDocument",
+    "ar" : "يستلزم سند دفعات مقدمة",
+    "en" : "Requires Advance Payment"
+  }, {
+    "id" : "RequiresOtherPaymentDocument",
+    "ar" : "يستلزم سند دفعات أخرى",
+    "en" : "Requires Other Payment"
+  }, {
+    "id" : "RequiresFineDocument",
+    "ar" : "يستلزم سند غرامة",
+    "en" : "Requires Contract Fine"
+  }, {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  } ]
+}

@@ -1,0 +1,79 @@
+{
+  "entity" : "AttendanceMachineCronLog",
+  "table" : "AttendanceMachineCronLog",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AttendanceMachineCronLog.html",
+  "fields" : [ {
+    "id" : "areaAlias",
+    "column" : "areaAlias",
+    "ar" : "Area Alias",
+    "en" : "Area Alias",
+    "type" : "Text"
+  }, {
+    "id" : "configFile",
+    "column" : "configFile_id",
+    "ar" : "ملف الإعدادات",
+    "en" : "Configuration File",
+    "type" : "Reference",
+    "refTo" : "AttendanceMachineConfig",
+    "refPath" : "/modules/humanresource-attendance-import-cron/AttendanceMachineConfig.html"
+  }, {
+    "id" : "employeeCode",
+    "column" : "employeeCode",
+    "ar" : "كود الموظف",
+    "en" : "Employee Code",
+    "type" : "Text"
+  }, {
+    "id" : "employeeId",
+    "column" : "employeeId",
+    "ar" : "معرف الموظف",
+    "en" : "Employee Id",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "punchState",
+    "column" : "punchState",
+    "ar" : "حالة البصمة",
+    "en" : "Punch State",
+    "type" : "Text"
+  }, {
+    "id" : "punchStateDisplay",
+    "column" : "punchStateDisplay",
+    "ar" : "Punch State Display",
+    "en" : "Punch State Display",
+    "type" : "Text"
+  }, {
+    "id" : "punchTime",
+    "column" : "punchTime",
+    "ar" : "وقت البصمة",
+    "en" : "Punch Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "terminalAlias",
+    "column" : "terminalAlias",
+    "ar" : "Terminal Alias",
+    "en" : "Terminal Alias",
+    "type" : "Text"
+  }, {
+    "id" : "terminalSN",
+    "column" : "terminalSN",
+    "ar" : "كود الماكينة",
+    "en" : "Terminal SN",
+    "type" : "Text"
+  }, {
+    "id" : "uploadTime",
+    "column" : "uploadTime",
+    "ar" : "Upload Time",
+    "en" : "Upload Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "verifyTypeDisplay",
+    "column" : "verifyTypeDisplay",
+    "ar" : "Verify Type Display",
+    "en" : "Verify Type Display",
+    "type" : "Text"
+  } ]
+}

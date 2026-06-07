@@ -1,0 +1,12 @@
+{
+  "enum" : "PenaltyUom",
+  "values" : [ {
+    "id" : "Day",
+    "ar" : "يوم",
+    "en" : "Day"
+  }, {
+    "id" : "Month",
+    "ar" : "شهر",
+    "en" : "Month"
+  } ]
+}

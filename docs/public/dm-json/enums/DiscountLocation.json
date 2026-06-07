@@ -1,0 +1,36 @@
+{
+  "enum" : "DiscountLocation",
+  "values" : [ {
+    "id" : "Discount1",
+    "ar" : " خصم 1",
+    "en" : " Discount 1"
+  }, {
+    "id" : "Discount2",
+    "ar" : " خصم 2",
+    "en" : " Discount 2"
+  }, {
+    "id" : "Discount3",
+    "ar" : " خصم 3",
+    "en" : " Discount 3"
+  }, {
+    "id" : "Discount4",
+    "ar" : " خصم 4",
+    "en" : " Discount 4"
+  }, {
+    "id" : "Discount5",
+    "ar" : " خصم 5",
+    "en" : " Discount 5"
+  }, {
+    "id" : "Discount6",
+    "ar" : " خصم 6",
+    "en" : " Discount 6"
+  }, {
+    "id" : "Discount7",
+    "ar" : " خصم 7",
+    "en" : " Discount 7"
+  }, {
+    "id" : "Discount8",
+    "ar" : " خصم 8",
+    "en" : " Discount 8"
+  } ]
+}

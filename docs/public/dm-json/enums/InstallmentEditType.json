@@ -1,0 +1,16 @@
+{
+  "enum" : "InstallmentEditType",
+  "values" : [ {
+    "id" : "Add",
+    "ar" : "جمع",
+    "en" : "Add"
+  }, {
+    "id" : "Edit",
+    "ar" : "تعديل",
+    "en" : "Edit"
+  }, {
+    "id" : "Delete",
+    "ar" : "حذف",
+    "en" : "Delete"
+  } ]
+}

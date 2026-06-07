@@ -1,0 +1,12 @@
+{
+  "enum" : "InvestmentDocType",
+  "values" : [ {
+    "id" : "TreasuryBonds",
+    "ar" : "سندات خزانة",
+    "en" : "Treasury Bonds"
+  }, {
+    "id" : "CompanyBonds",
+    "ar" : "سندات شركات",
+    "en" : "Company Bonds"
+  } ]
+}

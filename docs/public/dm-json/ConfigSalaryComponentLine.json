@@ -1,0 +1,69 @@
+{
+  "entity" : "ConfigSalaryComponentLine",
+  "table" : "ConfigSalaryComponentLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ConfigSalaryComponentLine.html",
+  "fields" : [ {
+    "id" : "compCalculationFormula",
+    "column" : "compCalculationFormula_id",
+    "ar" : "معادلة حساب المفرد",
+    "en" : "Component Calculation Formula",
+    "type" : "Reference",
+    "refTo" : "ComponentCalcFormula",
+    "refPath" : "/modules/humanresource-payroll/ComponentCalcFormula.html"
+  }, {
+    "id" : "compValue",
+    "column" : "compValue",
+    "ar" : "قيمة مفرد الراتب",
+    "en" : "Salary component value",
+    "type" : "Decimal"
+  }, {
+    "id" : "componentType",
+    "column" : "componentType_id",
+    "ar" : "نوع المفرد",
+    "en" : "Component Type",
+    "type" : "Reference",
+    "refTo" : "SalaryComponentType",
+    "refPath" : "/modules/humanresource-payroll/SalaryComponentType.html"
+  }, {
+    "id" : "criteriaDefinition",
+    "column" : "criteriaDefinition_id",
+    "ar" : " المعايير",
+    "en" : " Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
+    "id" : "hrCalendar",
+    "column" : "hrCalendar_id",
+    "ar" : "تقويم الرواتب",
+    "en" : "HR Calendar",
+    "type" : "Reference",
+    "refTo" : "HRCalendar",
+    "refPath" : "/modules/humanresource-payroll/HRCalendar.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "issuance",
+    "column" : "issuance_id",
+    "ar" : "الصرفية",
+    "en" : "Issuance",
+    "type" : "Reference",
+    "refTo" : "HRSalaryIssuance",
+    "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  } ]
+}

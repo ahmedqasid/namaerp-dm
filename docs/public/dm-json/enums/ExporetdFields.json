@@ -1,0 +1,12 @@
+{
+  "enum" : "ExporetdFields",
+  "values" : [ {
+    "id" : "ExportOnlyVisibleFields",
+    "ar" : "الحقول الظاهرة فقط",
+    "en" : "Only Visible Fields"
+  }, {
+    "id" : "ExportAllFields",
+    "ar" : "تصدير كل الحقول",
+    "en" : "All Fields"
+  } ]
+}

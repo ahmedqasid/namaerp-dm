@@ -1,0 +1,12 @@
+{
+  "enum" : "POSLineCollectionMethod",
+  "values" : [ {
+    "id" : "CollectByItem",
+    "ar" : "التجميع بالصنف",
+    "en" : "Collect By Item"
+  }, {
+    "id" : "WithoutCollection",
+    "ar" : "عدم التجميع",
+    "en" : "Without Collection"
+  } ]
+}

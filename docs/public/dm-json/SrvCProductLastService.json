@@ -1,0 +1,71 @@
+{
+  "entity" : "SrvCProductLastService",
+  "table" : "SrvCProductLastService",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SrvCProductLastService.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lastTaskDate",
+    "column" : "lastTaskDate",
+    "ar" : "تاريخ المهمه",
+    "en" : "Last Task Date",
+    "type" : "Date"
+  }, {
+    "id" : "lastTaskKM",
+    "column" : "lastTaskKM",
+    "ar" : "القراءة عند تنفيذ المهمه",
+    "en" : "Last Task KiloMetrage",
+    "type" : "Decimal"
+  }, {
+    "id" : "operation",
+    "column" : "operation_id",
+    "ar" : "عملية",
+    "en" : "Operation",
+    "type" : "Reference",
+    "refTo" : "SrvCOperation",
+    "refPath" : "/modules/srvcenter/SrvCOperation.html"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "previousOdometer",
+    "column" : "previousOdometer",
+    "ar" : "القراءة العداد السابقة",
+    "en" : "Previous Odometer",
+    "type" : "Decimal"
+  }, {
+    "id" : "previousOdometerDate",
+    "column" : "previousOdometerDate",
+    "ar" : "تاريخ قراءة العداد السابقة",
+    "en" : "Previous Odometer Date",
+    "type" : "Date"
+  }, {
+    "id" : "product",
+    "column" : "product_id",
+    "ar" : "المنتج",
+    "en" : "Product",
+    "type" : "Reference",
+    "refTo" : "SrvCProduct",
+    "refPath" : "/modules/srvcenter/SrvCProduct.html"
+  }, {
+    "id" : "recurEveryKM",
+    "column" : "recurEveryKM",
+    "ar" : "تكرر كل / كم",
+    "en" : "Recur Every KM",
+    "type" : "Decimal"
+  }, {
+    "id" : "task",
+    "column" : "task_id",
+    "ar" : "المهمة",
+    "en" : "Task",
+    "type" : "Reference",
+    "refTo" : "SrvCTask",
+    "refPath" : "/modules/srvcenter/SrvCTask.html"
+  } ]
+}

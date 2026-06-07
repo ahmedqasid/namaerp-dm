@@ -1,0 +1,47 @@
+{
+  "entity" : "POS.PosTableEntry",
+  "table" : "PosTableEntry",
+  "module" : "pos-app",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.PosTableEntry.html",
+  "fields" : [ {
+    "id" : "busyTable",
+    "column" : "busyTable",
+    "type" : "Boolean"
+  }, {
+    "id" : "documentCode",
+    "column" : "documentCode",
+    "ar" : "رقم المستند",
+    "en" : "Document Code",
+    "type" : "Text"
+  }, {
+    "id" : "documentId",
+    "column" : "documentId",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "posTable",
+    "column" : "posTable_id",
+    "ar" : "طاولة نقاط البيع",
+    "en" : "POS Table",
+    "type" : "Reference",
+    "refTo" : "POS.POSTable",
+    "refPath" : "/modules/pos-app/POS.POSTable.html"
+  }, {
+    "id" : "reservationFrom",
+    "column" : "reservationFrom",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "reservationTo",
+    "column" : "reservationTo",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "DateAndTime"
+  } ]
+}

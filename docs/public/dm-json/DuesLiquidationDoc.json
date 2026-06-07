@@ -1,0 +1,2195 @@
+{
+  "entity" : "DuesLiquidationDoc",
+  "table" : "DuesLiquidationDoc",
+  "module" : "humanresource-advanced",
+  "ar" : "مستند تصفية مستحقات",
+  "arPlural" : "مستندات تصفية مستحقات",
+  "en" : "Dues Liquidation Document",
+  "enPlural" : "Dues Liquidation Document",
+  "page" : "https://dm.namasoft.com/modules/humanresource-advanced/DuesLiquidationDoc.html",
+  "fields" : [ {
+    "id" : "actualLiquidationDate",
+    "column" : "actualLiquidationDate",
+    "ar" : "تاريخ التصفية المستحقة(يستخدم في التصفية المدفوعة مقدما)",
+    "en" : "Actual Liquidation Date",
+    "type" : "Date"
+  }, {
+    "id" : "actualVacationPeriod",
+    "column" : "actualVacationPeriod",
+    "ar" : "مدة الأجازة الفعلية",
+    "en" : "Actual Vacation Period",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.includeSubsidiaryAmount1",
+    "column" : "allIncludeSubsidiaryAmount1",
+    "ar" : "خصم مبلغ الذمة1",
+    "en" : "Include Subsidiary Amount1",
+    "type" : "Boolean"
+  }, {
+    "id" : "allMoney.includeSubsidiaryAmount10",
+    "column" : "allIncludeSubsidiaryAmount10",
+    "ar" : "خصم مبلغ الذمة10",
+    "en" : "Include Subsidiary Amount10",
+    "type" : "Boolean"
+  }, {
+    "id" : "allMoney.includeSubsidiaryAmount2",
+    "column" : "allIncludeSubsidiaryAmount2",
+    "ar" : "خصم مبلغ الذمة2",
+    "en" : "Include Subsidiary Amount2",
+    "type" : "Boolean"
+  }, {
+    "id" : "allMoney.includeSubsidiaryAmount3",
+    "column" : "allIncludeSubsidiaryAmount3",
+    "ar" : "خصم مبلغ الذمة3",
+    "en" : "Include Subsidiary Amount3",
+    "type" : "Boolean"
+  }, {
+    "id" : "allMoney.includeSubsidiaryAmount4",
+    "column" : "allIncludeSubsidiaryAmount4",
+    "ar" : "خصم مبلغ الذمة4",
+    "en" : "Include Subsidiary Amount4",
+    "type" : "Boolean"
+  }, {
+    "id" : "allMoney.includeSubsidiaryAmount5",
+    "column" : "allIncludeSubsidiaryAmount5",
+    "ar" : "خصم مبلغ الذمة5",
+    "en" : "Include Subsidiary Amount5",
+    "type" : "Boolean"
+  }, {
+    "id" : "allMoney.includeSubsidiaryAmount6",
+    "column" : "allIncludeSubsidiaryAmount6",
+    "ar" : "خصم مبلغ الذمة6",
+    "en" : "Include Subsidiary Amount6",
+    "type" : "Boolean"
+  }, {
+    "id" : "allMoney.includeSubsidiaryAmount7",
+    "column" : "allIncludeSubsidiaryAmount7",
+    "ar" : "خصم مبلغ الذمة7",
+    "en" : "Include Subsidiary Amount7",
+    "type" : "Boolean"
+  }, {
+    "id" : "allMoney.includeSubsidiaryAmount8",
+    "column" : "allIncludeSubsidiaryAmount8",
+    "ar" : "خصم مبلغ الذمة8",
+    "en" : "Include Subsidiary Amount8",
+    "type" : "Boolean"
+  }, {
+    "id" : "allMoney.includeSubsidiaryAmount9",
+    "column" : "allIncludeSubsidiaryAmount9",
+    "ar" : "خصم مبلغ الذمة9",
+    "en" : "Include Subsidiary Amount9",
+    "type" : "Boolean"
+  }, {
+    "id" : "allMoney.issuedValue",
+    "column" : "allIssuedValue",
+    "ar" : "ما تم صرفة",
+    "en" : "Issued Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.modifiedSubsidiaryAmount1",
+    "column" : "allModifiedSubsidiaryAmount1",
+    "ar" : "مبلغ بالذمه 1 المعدل",
+    "en" : "Modified Subsidiary Amount 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.modifiedSubsidiaryAmount10",
+    "column" : "allModifiedSubsidiaryAmount10",
+    "ar" : "مبلغ بالذمه 10 المعدل",
+    "en" : "Modified Subsidiary Amount 10",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.modifiedSubsidiaryAmount2",
+    "column" : "allModifiedSubsidiaryAmount2",
+    "ar" : "مبلغ بالذمه 2 المعدل",
+    "en" : "Modified Subsidiary Amount 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.modifiedSubsidiaryAmount3",
+    "column" : "allModifiedSubsidiaryAmount3",
+    "ar" : "مبلغ بالذمه 3 المعدل",
+    "en" : "Modified Subsidiary Amount 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.modifiedSubsidiaryAmount4",
+    "column" : "allModifiedSubsidiaryAmount4",
+    "ar" : "مبلغ بالذمه 4 المعدل",
+    "en" : "Modified Subsidiary Amount 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.modifiedSubsidiaryAmount5",
+    "column" : "allModifiedSubsidiaryAmount5",
+    "ar" : "مبلغ بالذمه 5 المعدل",
+    "en" : "Modified Subsidiary Amount 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.modifiedSubsidiaryAmount6",
+    "column" : "allModifiedSubsidiaryAmount6",
+    "ar" : "مبلغ بالذمه 6 المعدل",
+    "en" : "Modified Subsidiary Amount 6",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.modifiedSubsidiaryAmount7",
+    "column" : "allModifiedSubsidiaryAmount7",
+    "ar" : "مبلغ بالذمه 7 المعدل",
+    "en" : "Modified Subsidiary Amount 7",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.modifiedSubsidiaryAmount8",
+    "column" : "allModifiedSubsidiaryAmount8",
+    "ar" : "مبلغ بالذمه 8 المعدل",
+    "en" : "Modified Subsidiary Amount 8",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.modifiedSubsidiaryAmount9",
+    "column" : "allModifiedSubsidiaryAmount9",
+    "ar" : "مبلغ بالذمه 9 المعدل",
+    "en" : "Modified Subsidiary Amount 9",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.netSalaryComponentValue",
+    "column" : "allNetSalaryComponentValue",
+    "ar" : "صافي المفردات (صافي التصفية)",
+    "en" : "Net Salary Component Value (Liquidation Net)",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.netValue",
+    "column" : "allNetValue",
+    "ar" : "الصافي",
+    "en" : "Net value",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.prepaidValue",
+    "column" : "allPrepaidValue",
+    "ar" : "القيمة المدفوعة مقدماً",
+    "en" : "Prepaid Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.remainingValue",
+    "column" : "allRemainingValue",
+    "ar" : "المتبقي",
+    "en" : "Remaining Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.subsidiaryAmount1",
+    "column" : "allSubsidiaryAmount1",
+    "ar" : "مبلغ بالذمه1",
+    "en" : "Subsidiary Amount1",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.subsidiaryAmount10",
+    "column" : "allSubsidiaryAmount10",
+    "ar" : "مبلغ بالذمه10",
+    "en" : "Subsidiary Amount10",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.subsidiaryAmount2",
+    "column" : "allSubsidiaryAmount2",
+    "ar" : "مبلغ بالذمه2",
+    "en" : "Subsidiary Amount2",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.subsidiaryAmount3",
+    "column" : "allSubsidiaryAmount3",
+    "ar" : "مبلغ بالذمه3",
+    "en" : "Subsidiary Amount3",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.subsidiaryAmount4",
+    "column" : "allSubsidiaryAmount4",
+    "ar" : "مبلغ بالذمه4",
+    "en" : "Subsidiary Amount4",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.subsidiaryAmount5",
+    "column" : "allSubsidiaryAmount5",
+    "ar" : "مبلغ بالذمه5",
+    "en" : "Subsidiary Amount5",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.subsidiaryAmount6",
+    "column" : "allSubsidiaryAmount6",
+    "ar" : "مبلغ بالذمه6",
+    "en" : "Subsidiary Amount6",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.subsidiaryAmount7",
+    "column" : "allSubsidiaryAmount7",
+    "ar" : "مبلغ بالذمه7",
+    "en" : "Subsidiary Amount7",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.subsidiaryAmount8",
+    "column" : "allSubsidiaryAmount8",
+    "ar" : "مبلغ بالذمه8",
+    "en" : "Subsidiary Amount8",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.subsidiaryAmount9",
+    "column" : "allSubsidiaryAmount9",
+    "ar" : "مبلغ بالذمه9",
+    "en" : "Subsidiary Amount9",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.totalAddFromSlryComponent",
+    "column" : "allTotalAddFromSlryComponent",
+    "ar" : "إجمالى الاضافات من مفردات الراتب",
+    "en" : "Total addition from Salary component",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.totalAdditions",
+    "column" : "allTotalAdditions",
+    "ar" : "إجمالي الإضافات",
+    "en" : "Total Additions",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.totalAmountShouldIssue",
+    "column" : "allTotalAmountShouldIssue",
+    "ar" : "إجمالي المبالغ الواجب صرفها في التصفية",
+    "en" : "Total Amount Should be Issued In Liquidation",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.totalDedFromSlryComponent",
+    "column" : "allTotalDedFromSlryComponent",
+    "ar" : "إجمالى الاستقطاعات من مفردات الراتب",
+    "en" : "Total Deduction from Salary component",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.totalDeductedSubsidAmount",
+    "column" : "allTotalDeductedSubsidAmount",
+    "ar" : "إجمالى الذمة المخصومة من التصفية",
+    "en" : "Total Deducted Subsidiary Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.totalDeductions",
+    "column" : "allTotalDeductions",
+    "ar" : "إجمالي الإستقطاعات",
+    "en" : "Total Deductions",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.totalOthers",
+    "column" : "allTotalOthers",
+    "ar" : "إجمالي الآخري",
+    "en" : "Others Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "allMoney.totalTicketWorthAmount",
+    "column" : "allTotalTicketWorthAmount",
+    "ar" : "إجمالى بدل التذاكر",
+    "en" : "Total Ticket Worth Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "attachment",
+    "column" : "attachment_id",
+    "ar" : "مرفق",
+    "en" : "Attachment",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "calcTerminationLiquidation",
+    "column" : "calcTerminationLiquidation",
+    "ar" : "احتساب تصفية نهاية الخدمة",
+    "en" : "Calculate Termination Liquidation",
+    "type" : "Boolean"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firingDocument",
+    "column" : "firingDocument_id",
+    "ar" : "سند إنهاء الخدمة",
+    "en" : "Firing Document",
+    "type" : "Reference",
+    "refTo" : "FiringDocument",
+    "refPath" : "/modules/humanresource-payroll/FiringDocument.html"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedBy",
+    "column" : "generatedBy_id",
+    "ar" : "منشأة بواسطة",
+    "en" : "Generated By",
+    "type" : "Reference",
+    "refTo" : "AggrDuesLiquidationDoc",
+    "refPath" : "/modules/humanresource-advanced/AggrDuesLiquidationDoc.html"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "hrCalendar",
+    "column" : "hrCalendar_id",
+    "ar" : "تقويم الرواتب",
+    "en" : "HR Calendar",
+    "type" : "Reference",
+    "refTo" : "HRCalendar",
+    "refPath" : "/modules/humanresource-payroll/HRCalendar.html"
+  }, {
+    "id" : "hrPeriod",
+    "column" : "hrPeriod_id",
+    "ar" : "فترة الرواتب",
+    "en" : "HR Period",
+    "type" : "Reference",
+    "refTo" : "HRPeriod",
+    "refPath" : "/modules/humanresource-payroll/HRPeriod.html"
+  }, {
+    "id" : "hrYear",
+    "column" : "hrYear_id",
+    "ar" : "سنة الرواتب",
+    "en" : "HR Year",
+    "type" : "Reference",
+    "refTo" : "HRYear",
+    "refPath" : "/modules/humanresource-payroll/HRYear.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastLiquidationDate",
+    "column" : "lastLiquidationDate",
+    "ar" : "تم التصفيه حتى تاريخ",
+    "en" : "Last Liquidation Date",
+    "type" : "Date"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "lastWorkDay",
+    "column" : "lastWorkDay",
+    "ar" : "اخر يوم عمل",
+    "en" : "Last Work Day",
+    "type" : "Date"
+  }, {
+    "id" : "ledgerTransReqId",
+    "column" : "ledgerTransReqId",
+    "type" : "ID"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "liquidateToDate",
+    "column" : "liquidateToDate",
+    "ar" : "تصفيه حتى تاريخ",
+    "en" : "Liquidate To Date",
+    "type" : "Date"
+  }, {
+    "id" : "liquidationDaysInfo.absenceDays",
+    "column" : "absenceDays",
+    "ar" : "أيام الغياب",
+    "en" : "Absence Days",
+    "type" : "Decimal"
+  }, {
+    "id" : "liquidationDaysInfo.annualVacationWithSalary",
+    "column" : "annualVacationWithSalary",
+    "ar" : "إجمالي الأجازات السنوية بمرتب",
+    "en" : "Total Annual Vacation Wih Salary",
+    "type" : "Decimal"
+  }, {
+    "id" : "liquidationDaysInfo.manSubTotalAnnualVacation",
+    "column" : "manSubTotalAnnualVacation",
+    "ar" : "إجمالي أجازات سنوية (تُضاف يدويا الي ايام العمل)",
+    "en" : "Total Annual Vacations (Manually Added To Work Days)",
+    "type" : "Decimal"
+  }, {
+    "id" : "liquidationDaysInfo.manSubTotalOtherVacation",
+    "column" : "manSubTotalOtherVacation",
+    "ar" : "إجمالي أجازات أُخري (تُضاف يدويا الي يام العمل)",
+    "en" : "Total Other Vacations (Manually Added To Work Days)",
+    "type" : "Decimal"
+  }, {
+    "id" : "liquidationDaysInfo.manualTotalAnnualVacation",
+    "column" : "manualTotalAnnualVacation",
+    "ar" : "إجمالي أجازات سنوية (تخُصم يدويا من ايام العمل)",
+    "en" : "Total Annual Vacations (Manually Deducted From Work Days)",
+    "type" : "Decimal"
+  }, {
+    "id" : "liquidationDaysInfo.manualTotalOtherVacation",
+    "column" : "manualTotalOtherVacation",
+    "ar" : "إجمالي أجازات أُخري (تُخصم يدويا من ايام العمل)",
+    "en" : "Total Other Vacations (Manually Deducted From Work Days)",
+    "type" : "Decimal"
+  }, {
+    "id" : "liquidationDaysInfo.netPaidVacationPeriod",
+    "column" : "netPaidVacationPeriod",
+    "ar" : "صافي مدة الأجازة مدفوعة الأجر",
+    "en" : "Net Paid Vacation Period Period",
+    "type" : "Decimal"
+  }, {
+    "id" : "liquidationDaysInfo.netWorkedDays",
+    "column" : "netWorkedDays",
+    "ar" : "صافي أيام عمل",
+    "en" : "Net Worked Days",
+    "type" : "Decimal"
+  }, {
+    "id" : "liquidationDaysInfo.paidVacationPerYear",
+    "column" : "paidVacationPerYear",
+    "ar" : "عدد أيام الاجازة المدفوعة سنوياً",
+    "en" : "Paid Vacation Per Year",
+    "type" : "Decimal"
+  }, {
+    "id" : "liquidationDaysInfo.paidVacationPeriod",
+    "column" : "paidVacationPeriod",
+    "ar" : "مدة الاجازة مدفوعة الأجر",
+    "en" : "Paid Vacation Period",
+    "type" : "Decimal"
+  }, {
+    "id" : "liquidationDaysInfo.prePaidVacationPeriod",
+    "column" : "prePaidVacationPeriod",
+    "ar" : "عدد أيام الاجازة المدفوعة مقدما",
+    "en" : "PrePaid Vacation Period",
+    "type" : "Decimal"
+  }, {
+    "id" : "liquidationDaysInfo.totalAnnualVacation",
+    "column" : "totalAnnualVacation",
+    "ar" : "إجمالى أجازات سنويه بدون مرتب",
+    "en" : "Total Annual Vacation Without Salary",
+    "type" : "Decimal"
+  }, {
+    "id" : "liquidationDaysInfo.totalDaysFromLastLiquidation",
+    "column" : "totalDaysFromLastLiquidation",
+    "ar" : "إجمالى أيام من أخر تصفيه",
+    "en" : "Total Days From Last Liquidation",
+    "type" : "Decimal"
+  }, {
+    "id" : "liquidationDaysInfo.totalOtherVacation",
+    "column" : "totalOtherVacation",
+    "ar" : "إجمالى أجازات أخرى",
+    "en" : "Total Other Vacation",
+    "type" : "Decimal"
+  }, {
+    "id" : "liquidationType",
+    "column" : "liquidationType",
+    "ar" : "نوع تصفية الأجازة",
+    "en" : "Vacation Liquidation Type",
+    "type" : "Enum",
+    "enum" : "LiquidationType"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
+  }, {
+    "id" : "manualVacationPeriod",
+    "column" : "manualVacationPeriod",
+    "ar" : "مدة الإجازة يدويا",
+    "en" : "Manual Vacation Period",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.includeSubsidiaryAmount1",
+    "column" : "includeSubsidiaryAmount1",
+    "ar" : "خصم مبلغ الذمة1",
+    "en" : "Include Subsidiary Amount1",
+    "type" : "Boolean"
+  }, {
+    "id" : "money.includeSubsidiaryAmount10",
+    "column" : "includeSubsidiaryAmount10",
+    "ar" : "خصم مبلغ الذمة10",
+    "en" : "Include Subsidiary Amount10",
+    "type" : "Boolean"
+  }, {
+    "id" : "money.includeSubsidiaryAmount2",
+    "column" : "includeSubsidiaryAmount2",
+    "ar" : "خصم مبلغ الذمة2",
+    "en" : "Include Subsidiary Amount2",
+    "type" : "Boolean"
+  }, {
+    "id" : "money.includeSubsidiaryAmount3",
+    "column" : "includeSubsidiaryAmount3",
+    "ar" : "خصم مبلغ الذمة3",
+    "en" : "Include Subsidiary Amount3",
+    "type" : "Boolean"
+  }, {
+    "id" : "money.includeSubsidiaryAmount4",
+    "column" : "includeSubsidiaryAmount4",
+    "ar" : "خصم مبلغ الذمة4",
+    "en" : "Include Subsidiary Amount4",
+    "type" : "Boolean"
+  }, {
+    "id" : "money.includeSubsidiaryAmount5",
+    "column" : "includeSubsidiaryAmount5",
+    "ar" : "خصم مبلغ الذمة5",
+    "en" : "Include Subsidiary Amount5",
+    "type" : "Boolean"
+  }, {
+    "id" : "money.includeSubsidiaryAmount6",
+    "column" : "includeSubsidiaryAmount6",
+    "ar" : "خصم مبلغ الذمة6",
+    "en" : "Include Subsidiary Amount6",
+    "type" : "Boolean"
+  }, {
+    "id" : "money.includeSubsidiaryAmount7",
+    "column" : "includeSubsidiaryAmount7",
+    "ar" : "خصم مبلغ الذمة7",
+    "en" : "Include Subsidiary Amount7",
+    "type" : "Boolean"
+  }, {
+    "id" : "money.includeSubsidiaryAmount8",
+    "column" : "includeSubsidiaryAmount8",
+    "ar" : "خصم مبلغ الذمة8",
+    "en" : "Include Subsidiary Amount8",
+    "type" : "Boolean"
+  }, {
+    "id" : "money.includeSubsidiaryAmount9",
+    "column" : "includeSubsidiaryAmount9",
+    "ar" : "خصم مبلغ الذمة9",
+    "en" : "Include Subsidiary Amount9",
+    "type" : "Boolean"
+  }, {
+    "id" : "money.issuedValue",
+    "column" : "issuedValue",
+    "ar" : "ما تم صرفة",
+    "en" : "Issued Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.modifiedSubsidiaryAmount1",
+    "column" : "modifiedSubsidiaryAmount1",
+    "ar" : "مبلغ بالذمه 1 المعدل",
+    "en" : "Modified Subsidiary Amount 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.modifiedSubsidiaryAmount10",
+    "column" : "modifiedSubsidiaryAmount10",
+    "ar" : "مبلغ بالذمه 10 المعدل",
+    "en" : "Modified Subsidiary Amount 10",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.modifiedSubsidiaryAmount2",
+    "column" : "modifiedSubsidiaryAmount2",
+    "ar" : "مبلغ بالذمه 2 المعدل",
+    "en" : "Modified Subsidiary Amount 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.modifiedSubsidiaryAmount3",
+    "column" : "modifiedSubsidiaryAmount3",
+    "ar" : "مبلغ بالذمه 3 المعدل",
+    "en" : "Modified Subsidiary Amount 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.modifiedSubsidiaryAmount4",
+    "column" : "modifiedSubsidiaryAmount4",
+    "ar" : "مبلغ بالذمه 4 المعدل",
+    "en" : "Modified Subsidiary Amount 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.modifiedSubsidiaryAmount5",
+    "column" : "modifiedSubsidiaryAmount5",
+    "ar" : "مبلغ بالذمه 5 المعدل",
+    "en" : "Modified Subsidiary Amount 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.modifiedSubsidiaryAmount6",
+    "column" : "modifiedSubsidiaryAmount6",
+    "ar" : "مبلغ بالذمه 6 المعدل",
+    "en" : "Modified Subsidiary Amount 6",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.modifiedSubsidiaryAmount7",
+    "column" : "modifiedSubsidiaryAmount7",
+    "ar" : "مبلغ بالذمه 7 المعدل",
+    "en" : "Modified Subsidiary Amount 7",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.modifiedSubsidiaryAmount8",
+    "column" : "modifiedSubsidiaryAmount8",
+    "ar" : "مبلغ بالذمه 8 المعدل",
+    "en" : "Modified Subsidiary Amount 8",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.modifiedSubsidiaryAmount9",
+    "column" : "modifiedSubsidiaryAmount9",
+    "ar" : "مبلغ بالذمه 9 المعدل",
+    "en" : "Modified Subsidiary Amount 9",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.netSalaryComponentValue",
+    "column" : "netSalaryComponentValue",
+    "ar" : "صافي المفردات (صافي التصفية)",
+    "en" : "Net Salary Component Value (Liquidation Net)",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.netValue",
+    "column" : "netValue",
+    "ar" : "الصافي",
+    "en" : "Net value",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.prepaidValue",
+    "column" : "prepaidValue",
+    "ar" : "القيمة المدفوعة مقدماً",
+    "en" : "Prepaid Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.remainingValue",
+    "column" : "remainingValue",
+    "ar" : "المتبقي",
+    "en" : "Remaining Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.subsidiaryAmount1",
+    "column" : "subsidiaryAmount1",
+    "ar" : "مبلغ بالذمه1",
+    "en" : "Subsidiary Amount1",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.subsidiaryAmount10",
+    "column" : "subsidiaryAmount10",
+    "ar" : "مبلغ بالذمه10",
+    "en" : "Subsidiary Amount10",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.subsidiaryAmount2",
+    "column" : "subsidiaryAmount2",
+    "ar" : "مبلغ بالذمه2",
+    "en" : "Subsidiary Amount2",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.subsidiaryAmount3",
+    "column" : "subsidiaryAmount3",
+    "ar" : "مبلغ بالذمه3",
+    "en" : "Subsidiary Amount3",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.subsidiaryAmount4",
+    "column" : "subsidiaryAmount4",
+    "ar" : "مبلغ بالذمه4",
+    "en" : "Subsidiary Amount4",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.subsidiaryAmount5",
+    "column" : "subsidiaryAmount5",
+    "ar" : "مبلغ بالذمه5",
+    "en" : "Subsidiary Amount5",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.subsidiaryAmount6",
+    "column" : "subsidiaryAmount6",
+    "ar" : "مبلغ بالذمه6",
+    "en" : "Subsidiary Amount6",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.subsidiaryAmount7",
+    "column" : "subsidiaryAmount7",
+    "ar" : "مبلغ بالذمه7",
+    "en" : "Subsidiary Amount7",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.subsidiaryAmount8",
+    "column" : "subsidiaryAmount8",
+    "ar" : "مبلغ بالذمه8",
+    "en" : "Subsidiary Amount8",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.subsidiaryAmount9",
+    "column" : "subsidiaryAmount9",
+    "ar" : "مبلغ بالذمه9",
+    "en" : "Subsidiary Amount9",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.totalAddFromSlryComponent",
+    "column" : "totalAddFromSlryComponent",
+    "ar" : "إجمالى الاضافات من مفردات الراتب",
+    "en" : "Total addition from Salary component",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.totalAdditions",
+    "column" : "totalAdditions",
+    "ar" : "إجمالي الإضافات",
+    "en" : "Total Additions",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.totalAmountShouldIssue",
+    "column" : "totalAmountShouldIssue",
+    "ar" : "إجمالي المبالغ الواجب صرفها في التصفية",
+    "en" : "Total Amount Should be Issued In Liquidation",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.totalDedFromSlryComponent",
+    "column" : "totalDedFromSlryComponent",
+    "ar" : "إجمالى الاستقطاعات من مفردات الراتب",
+    "en" : "Total Deduction from Salary component",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.totalDeductedSubsidAmount",
+    "column" : "totalDeductedSubsidAmount",
+    "ar" : "إجمالى الذمة المخصومة من التصفية",
+    "en" : "Total Deducted Subsidiary Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.totalDeductions",
+    "column" : "totalDeductions",
+    "ar" : "إجمالي الإستقطاعات",
+    "en" : "Total Deductions",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.totalOthers",
+    "column" : "totalOthers",
+    "ar" : "إجمالي الآخري",
+    "en" : "Others Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "money.totalTicketWorthAmount",
+    "column" : "totalTicketWorthAmount",
+    "ar" : "إجمالى بدل التذاكر",
+    "en" : "Total Ticket Worth Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "reasons",
+    "column" : "reasons_id",
+    "ar" : "سبب نهاية الخدمة",
+    "en" : "Termination Reason",
+    "type" : "Reference",
+    "refTo" : "TerminationReason",
+    "refPath" : "/modules/humanresource-payroll/TerminationReason.html"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "salaryDocumentsTotalAmount",
+    "column" : "salaryDocumentsTotalAmount",
+    "ar" : "إجمالى قيم سندات الراتب الواجب صرفها مع التصفية",
+    "en" : "ٍSalary Documents Total Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "LiquidationStatus"
+  }, {
+    "id" : "subsidiary",
+    "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+    "ar" : "الذمة",
+    "en" : "Subsidiary",
+    "type" : "Genericreference"
+  }, {
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
+    "type" : "BigText"
+  }, {
+    "id" : "terminationCalcType",
+    "column" : "terminationCalcType",
+    "ar" : "احتساب ايام تصفية نهاية الخدمة بناءا علي",
+    "en" : "Termination Days Calculation Type",
+    "type" : "Enum",
+    "enum" : "TerminationCalcType"
+  }, {
+    "id" : "terminationLiquidDaysInfo.absenceDays",
+    "column" : "tmAbsenceDays",
+    "ar" : "أيام الغياب",
+    "en" : "Absence Days",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationLiquidDaysInfo.calcDaysType",
+    "column" : "tmCalcDaysType",
+    "ar" : "حساب ايام مدة الخدمة من",
+    "en" : "Calculate Work Period Days From",
+    "type" : "Enum",
+    "enum" : "TerminationCalcDaysType"
+  }, {
+    "id" : "terminationLiquidDaysInfo.commencementDate",
+    "column" : "tmCommencementDate",
+    "ar" : "تاريخ المباشرة الفعلية",
+    "en" : "Commencement date",
+    "type" : "Date"
+  }, {
+    "id" : "terminationLiquidDaysInfo.manSubTotalAnnualVacation",
+    "column" : "tmManSubTotalAnnualVacation",
+    "ar" : "إجمالي أجازات سنوية (تُضاف يدويا الي ايام العمل)",
+    "en" : "Total Annual Vacations (Manually Added To Work Days)",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationLiquidDaysInfo.manSubTotalOtherVacation",
+    "column" : "tmManSubTotalOtherVacation",
+    "ar" : "إجمالي أجازات أُخري (تُضاف يدويا الي يام العمل)",
+    "en" : "Total Other Vacations (Manually Added To Work Days)",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationLiquidDaysInfo.manualTotalAnnualVacation",
+    "column" : "tmManualTotalAnnualVacation",
+    "ar" : "إجمالي أجازات سنوية (تخُصم يدويا من ايام العمل)",
+    "en" : "Total Annual Vacations (Manually Deducted From Work Days)",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationLiquidDaysInfo.manualTotalOtherVacation",
+    "column" : "tmManualTotalOtherVacation",
+    "ar" : "إجمالي أجازات أُخري (تُخصم يدويا من ايام العمل)",
+    "en" : "Total Other Vacations (Manually Deducted From Work Days)",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationLiquidDaysInfo.manualTotalWorkDays",
+    "column" : "tmManualTotalWorkDays",
+    "ar" : "مدة الخدمة يدويا",
+    "en" : "Manual Total Work Days",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationLiquidDaysInfo.netWorkedDays",
+    "column" : "tmNetWorkedDays",
+    "ar" : "صافي أيام عمل",
+    "en" : "Net Worked Days",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationLiquidDaysInfo.totalAnnualVacation",
+    "column" : "tmTotalAnnualVacation",
+    "ar" : "إجمالى أجازات سنويه بدون مرتب",
+    "en" : "Total Annual Vacation Without Salary",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationLiquidDaysInfo.totalOtherVacation",
+    "column" : "tmTotalOtherVacation",
+    "ar" : "إجمالى أجازات أخرى",
+    "en" : "Total Other Vacation",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationLiquidDaysInfo.totalWorkDays",
+    "column" : "tmTotalWorkDays",
+    "ar" : "إجمالي ايام العمل",
+    "en" : "Total Work Days",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationLiquidDaysInfo.workPeriod.day",
+    "column" : "tmWorkPeriodDay",
+    "ar" : "اليوم",
+    "en" : "Day",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationLiquidDaysInfo.workPeriod.daysRoundingMode",
+    "column" : "tmWorkPeriodDaysRoundingMode",
+    "ar" : "طريقة تقريب الأيام",
+    "en" : "Days Rounding Mode",
+    "type" : "Enum",
+    "enum" : "RoundingType"
+  }, {
+    "id" : "terminationLiquidDaysInfo.workPeriod.month",
+    "column" : "tmWorkPeriodMonth",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationLiquidDaysInfo.workPeriod.roundDays",
+    "column" : "tmWorkPeriodRoundDays",
+    "ar" : "تقريب الأيام لمدة الخدمة",
+    "en" : "Round Days",
+    "type" : "Boolean"
+  }, {
+    "id" : "terminationLiquidDaysInfo.workPeriod.year",
+    "column" : "tmWorkPeriodYear",
+    "ar" : "السنة",
+    "en" : "Year",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.includeSubsidiaryAmount1",
+    "column" : "trmIncludeSubsidiaryAmount1",
+    "ar" : "خصم مبلغ الذمة1",
+    "en" : "Include Subsidiary Amount1",
+    "type" : "Boolean"
+  }, {
+    "id" : "terminationMoney.includeSubsidiaryAmount10",
+    "column" : "trmIncludeSubsidiaryAmount10",
+    "ar" : "خصم مبلغ الذمة10",
+    "en" : "Include Subsidiary Amount10",
+    "type" : "Boolean"
+  }, {
+    "id" : "terminationMoney.includeSubsidiaryAmount2",
+    "column" : "trmIncludeSubsidiaryAmount2",
+    "ar" : "خصم مبلغ الذمة2",
+    "en" : "Include Subsidiary Amount2",
+    "type" : "Boolean"
+  }, {
+    "id" : "terminationMoney.includeSubsidiaryAmount3",
+    "column" : "trmIncludeSubsidiaryAmount3",
+    "ar" : "خصم مبلغ الذمة3",
+    "en" : "Include Subsidiary Amount3",
+    "type" : "Boolean"
+  }, {
+    "id" : "terminationMoney.includeSubsidiaryAmount4",
+    "column" : "trmIncludeSubsidiaryAmount4",
+    "ar" : "خصم مبلغ الذمة4",
+    "en" : "Include Subsidiary Amount4",
+    "type" : "Boolean"
+  }, {
+    "id" : "terminationMoney.includeSubsidiaryAmount5",
+    "column" : "trmIncludeSubsidiaryAmount5",
+    "ar" : "خصم مبلغ الذمة5",
+    "en" : "Include Subsidiary Amount5",
+    "type" : "Boolean"
+  }, {
+    "id" : "terminationMoney.includeSubsidiaryAmount6",
+    "column" : "trmIncludeSubsidiaryAmount6",
+    "ar" : "خصم مبلغ الذمة6",
+    "en" : "Include Subsidiary Amount6",
+    "type" : "Boolean"
+  }, {
+    "id" : "terminationMoney.includeSubsidiaryAmount7",
+    "column" : "trmIncludeSubsidiaryAmount7",
+    "ar" : "خصم مبلغ الذمة7",
+    "en" : "Include Subsidiary Amount7",
+    "type" : "Boolean"
+  }, {
+    "id" : "terminationMoney.includeSubsidiaryAmount8",
+    "column" : "trmIncludeSubsidiaryAmount8",
+    "ar" : "خصم مبلغ الذمة8",
+    "en" : "Include Subsidiary Amount8",
+    "type" : "Boolean"
+  }, {
+    "id" : "terminationMoney.includeSubsidiaryAmount9",
+    "column" : "trmIncludeSubsidiaryAmount9",
+    "ar" : "خصم مبلغ الذمة9",
+    "en" : "Include Subsidiary Amount9",
+    "type" : "Boolean"
+  }, {
+    "id" : "terminationMoney.issuedValue",
+    "column" : "trmIssuedValue",
+    "ar" : "ما تم صرفة",
+    "en" : "Issued Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.modifiedSubsidiaryAmount1",
+    "column" : "trmModifiedSubsidiaryAmount1",
+    "ar" : "مبلغ بالذمه 1 المعدل",
+    "en" : "Modified Subsidiary Amount 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.modifiedSubsidiaryAmount10",
+    "column" : "trmModifiedSubsidiaryAmount10",
+    "ar" : "مبلغ بالذمه 10 المعدل",
+    "en" : "Modified Subsidiary Amount 10",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.modifiedSubsidiaryAmount2",
+    "column" : "trmModifiedSubsidiaryAmount2",
+    "ar" : "مبلغ بالذمه 2 المعدل",
+    "en" : "Modified Subsidiary Amount 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.modifiedSubsidiaryAmount3",
+    "column" : "trmModifiedSubsidiaryAmount3",
+    "ar" : "مبلغ بالذمه 3 المعدل",
+    "en" : "Modified Subsidiary Amount 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.modifiedSubsidiaryAmount4",
+    "column" : "trmModifiedSubsidiaryAmount4",
+    "ar" : "مبلغ بالذمه 4 المعدل",
+    "en" : "Modified Subsidiary Amount 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.modifiedSubsidiaryAmount5",
+    "column" : "trmModifiedSubsidiaryAmount5",
+    "ar" : "مبلغ بالذمه 5 المعدل",
+    "en" : "Modified Subsidiary Amount 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.modifiedSubsidiaryAmount6",
+    "column" : "trmModifiedSubsidiaryAmount6",
+    "ar" : "مبلغ بالذمه 6 المعدل",
+    "en" : "Modified Subsidiary Amount 6",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.modifiedSubsidiaryAmount7",
+    "column" : "trmModifiedSubsidiaryAmount7",
+    "ar" : "مبلغ بالذمه 7 المعدل",
+    "en" : "Modified Subsidiary Amount 7",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.modifiedSubsidiaryAmount8",
+    "column" : "trmModifiedSubsidiaryAmount8",
+    "ar" : "مبلغ بالذمه 8 المعدل",
+    "en" : "Modified Subsidiary Amount 8",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.modifiedSubsidiaryAmount9",
+    "column" : "trmModifiedSubsidiaryAmount9",
+    "ar" : "مبلغ بالذمه 9 المعدل",
+    "en" : "Modified Subsidiary Amount 9",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.netSalaryComponentValue",
+    "column" : "trmNetSalaryComponentValue",
+    "ar" : "صافي المفردات (صافي التصفية)",
+    "en" : "Net Salary Component Value (Liquidation Net)",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.netValue",
+    "column" : "trmNetValue",
+    "ar" : "الصافي",
+    "en" : "Net value",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.prepaidValue",
+    "column" : "trmPrepaidValue",
+    "ar" : "القيمة المدفوعة مقدماً",
+    "en" : "Prepaid Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.remainingValue",
+    "column" : "trmRemainingValue",
+    "ar" : "المتبقي",
+    "en" : "Remaining Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.subsidiaryAmount1",
+    "column" : "trmSubsidiaryAmount1",
+    "ar" : "مبلغ بالذمه1",
+    "en" : "Subsidiary Amount1",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.subsidiaryAmount10",
+    "column" : "trmSubsidiaryAmount10",
+    "ar" : "مبلغ بالذمه10",
+    "en" : "Subsidiary Amount10",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.subsidiaryAmount2",
+    "column" : "trmSubsidiaryAmount2",
+    "ar" : "مبلغ بالذمه2",
+    "en" : "Subsidiary Amount2",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.subsidiaryAmount3",
+    "column" : "trmSubsidiaryAmount3",
+    "ar" : "مبلغ بالذمه3",
+    "en" : "Subsidiary Amount3",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.subsidiaryAmount4",
+    "column" : "trmSubsidiaryAmount4",
+    "ar" : "مبلغ بالذمه4",
+    "en" : "Subsidiary Amount4",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.subsidiaryAmount5",
+    "column" : "trmSubsidiaryAmount5",
+    "ar" : "مبلغ بالذمه5",
+    "en" : "Subsidiary Amount5",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.subsidiaryAmount6",
+    "column" : "trmSubsidiaryAmount6",
+    "ar" : "مبلغ بالذمه6",
+    "en" : "Subsidiary Amount6",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.subsidiaryAmount7",
+    "column" : "trmSubsidiaryAmount7",
+    "ar" : "مبلغ بالذمه7",
+    "en" : "Subsidiary Amount7",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.subsidiaryAmount8",
+    "column" : "trmSubsidiaryAmount8",
+    "ar" : "مبلغ بالذمه8",
+    "en" : "Subsidiary Amount8",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.subsidiaryAmount9",
+    "column" : "trmSubsidiaryAmount9",
+    "ar" : "مبلغ بالذمه9",
+    "en" : "Subsidiary Amount9",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.totalAddFromSlryComponent",
+    "column" : "trmTotalAddFromSlryComponent",
+    "ar" : "إجمالى الاضافات من مفردات الراتب",
+    "en" : "Total addition from Salary component",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.totalAdditions",
+    "column" : "trmTotalAdditions",
+    "ar" : "إجمالي الإضافات",
+    "en" : "Total Additions",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.totalAmountShouldIssue",
+    "column" : "trmTotalAmountShouldIssue",
+    "ar" : "إجمالي المبالغ الواجب صرفها في التصفية",
+    "en" : "Total Amount Should be Issued In Liquidation",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.totalDedFromSlryComponent",
+    "column" : "trmTotalDedFromSlryComponent",
+    "ar" : "إجمالى الاستقطاعات من مفردات الراتب",
+    "en" : "Total Deduction from Salary component",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.totalDeductedSubsidAmount",
+    "column" : "trmTotalDeductedSubsidAmount",
+    "ar" : "إجمالى الذمة المخصومة من التصفية",
+    "en" : "Total Deducted Subsidiary Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.totalDeductions",
+    "column" : "trmTotalDeductions",
+    "ar" : "إجمالي الإستقطاعات",
+    "en" : "Total Deductions",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.totalOthers",
+    "column" : "trmTotalOthers",
+    "ar" : "إجمالي الآخري",
+    "en" : "Others Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationMoney.totalTicketWorthAmount",
+    "column" : "trmTotalTicketWorthAmount",
+    "ar" : "إجمالى بدل التذاكر",
+    "en" : "Total Ticket Worth Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationStatus",
+    "column" : "terminationStatus",
+    "ar" : "حالة تصفية نهاية الخدمة",
+    "en" : "Termination Status",
+    "type" : "Enum",
+    "enum" : "LiquidationStatus"
+  }, {
+    "id" : "ticketDueInfo.issueTicketPriceOnly",
+    "column" : "issueTicketPriceOnly",
+    "ar" : "صرف قيمة التذكرة فقط (المستحق)",
+    "en" : "Issue Ticket Price Only (Due)",
+    "type" : "Boolean"
+  }, {
+    "id" : "ticketDueInfo.issueTotalTicketPrice",
+    "column" : "issueTotalTicketPrice",
+    "ar" : "صرف قيمة التذكرة كاملة",
+    "en" : "Issue Total Ticket Price",
+    "type" : "Boolean"
+  }, {
+    "id" : "ticketDueInfo.numOfTickets",
+    "column" : "numOfTickets",
+    "ar" : "عدد التذاكر",
+    "en" : "Number Of Tickets",
+    "type" : "Decimal"
+  }, {
+    "id" : "ticketDueInfo.paidWithLiquidation",
+    "column" : "paidWithLiquidation",
+    "ar" : "تصرف مع التصفيه",
+    "en" : "Paid With Liquidation",
+    "type" : "Boolean"
+  }, {
+    "id" : "ticketDueInfo.ticketIssuedByCompany",
+    "column" : "ticketIssuedByCompany",
+    "ar" : "تم حجز التذكرة من قبل الشركة",
+    "en" : "Ticket Issued By The Company",
+    "type" : "Boolean"
+  }, {
+    "id" : "ticketDueInfo.ticketRatio",
+    "column" : "ticketRatio",
+    "ar" : "نسبه الاستحقاق من التذكرة",
+    "en" : "Ticket Ratio",
+    "type" : "Decimal"
+  }, {
+    "id" : "ticketDueInfo.ticketValue",
+    "column" : "ticketValue",
+    "ar" : "قيمة التذكرة",
+    "en" : "Ticket Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "ticketDueInfo.ticketWorthAmount",
+    "column" : "ticketWorthAmount",
+    "ar" : "قيمة بدل التذاكر",
+    "en" : "Ticket Worth Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "ticketPriceType",
+    "column" : "ticketPriceType",
+    "ar" : "طريقة حساب سعر التذكرة",
+    "en" : "Ticket Price Calculation Method",
+    "type" : "Enum",
+    "enum" : "TicketPriceType"
+  }, {
+    "id" : "totalPaidLoans",
+    "column" : "totalPaidLoans",
+    "ar" : "إجمالي السلف المسددة",
+    "en" : "Total Paid Loans",
+    "type" : "Decimal"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "vacationCalcType",
+    "column" : "vacationCalcType",
+    "ar" : "حساب عدد الأيام المستحقه بناءا علي",
+    "en" : "Calculate Worth Days From",
+    "type" : "Enum",
+    "enum" : "VacationCalcType"
+  }, {
+    "id" : "vacationPeriod",
+    "column" : "vacationPeriod",
+    "ar" : "مدة الأجازة من سند الأجازه",
+    "en" : "Vacation Period From Vacation Document",
+    "type" : "Decimal"
+  }, {
+    "id" : "vacationPlanDocument",
+    "column" : "vacationPlanDocument_id",
+    "ar" : "خطة أجازة",
+    "en" : "Vacation Plan",
+    "type" : "Reference",
+    "refTo" : "VacationPlanDocument",
+    "refPath" : "/modules/humanresource-payroll/VacationPlanDocument.html"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "components",
+    "table" : "DuesLiquidationCompLine",
+    "joinColumn" : "duesLiquidationDoc_id",
+    "ar" : "المكونات",
+    "en" : "Components",
+    "fields" : [ {
+      "id" : "components.additionValue",
+      "column" : "additionValue",
+      "ar" : "القيمة|إضافة",
+      "en" : "Value | Addition",
+      "type" : "Decimal"
+    }, {
+      "id" : "components.component",
+      "column" : "component_id",
+      "ar" : "مكون",
+      "en" : "Component",
+      "type" : "Reference",
+      "refTo" : "DuesLiquidationComponent",
+      "refPath" : "/modules/humanresource-advanced/DuesLiquidationComponent.html"
+    }, {
+      "id" : "components.deductionValue",
+      "column" : "deductionValue",
+      "ar" : "القيمة|خصم",
+      "en" : "Value | Deduction",
+      "type" : "Decimal"
+    }, {
+      "id" : "components.effectType",
+      "column" : "effectType",
+      "ar" : "نوع التأثير",
+      "en" : "Component Effect Type",
+      "type" : "Enum",
+      "enum" : "SalaryCompEffectType"
+    }, {
+      "id" : "components.factor",
+      "column" : "factor",
+      "ar" : "المعامل",
+      "en" : "Measures Factor",
+      "type" : "Decimal"
+    }, {
+      "id" : "components.finalAddedValue",
+      "column" : "finalAddedValue",
+      "ar" : "الناتج النهائي | الإضافة",
+      "en" : "Final Result | Addition",
+      "type" : "Decimal"
+    }, {
+      "id" : "components.finalDeductedValue",
+      "column" : "finalDeductedValue",
+      "ar" : "الناتج النهائي | الخصم",
+      "en" : "Final Result | Deducted",
+      "type" : "Decimal"
+    }, {
+      "id" : "components.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "components.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "components.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "details",
+    "table" : "DuesLiquidationLine",
+    "joinColumn" : "duesLiquidationDoc_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "fields" : [ {
+      "id" : "details.addition",
+      "column" : "addition",
+      "ar" : "إضافة",
+      "en" : "Addition",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.baseValue",
+      "column" : "baseValue",
+      "ar" : "القيمة الأصلية | القيمة",
+      "en" : "Base Value | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.component",
+      "column" : "component_id",
+      "ar" : "مفرد",
+      "en" : "Component",
+      "type" : "Reference",
+      "refTo" : "SalaryComponent",
+      "refPath" : "/modules/humanresource-payroll/SalaryComponent.html"
+    }, {
+      "id" : "details.deduction",
+      "column" : "deduction",
+      "ar" : "إستقطاع",
+      "en" : "Deduction",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.dueValue",
+      "column" : "dueValue",
+      "ar" : "القيمة المستحقه",
+      "en" : "Due Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.effectType",
+      "column" : "effectType",
+      "ar" : "القيمة الأصلية | نوع التأثير",
+      "en" : "Base Value | Effect Type",
+      "type" : "Enum",
+      "enum" : "SalaryCompEffectType"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.isSystemLine",
+      "column" : "isSystemLine",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.other",
+      "column" : "other",
+      "ar" : "آخري",
+      "en" : "other",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.remarks",
+      "column" : "remarks",
+      "ar" : " ملاحظات",
+      "en" : " Description",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "paidInstallments",
+    "table" : "DuesLiquidationPaidInstallment",
+    "joinColumn" : "duesLiquidationDoc_id",
+    "ar" : "الأقساط المدفوعة",
+    "en" : "Paid Installments",
+    "fields" : [ {
+      "id" : "paidInstallments.analysisSet",
+      "column" : "analysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "paidInstallments.branch",
+      "column" : "branch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "paidInstallments.department",
+      "column" : "department_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "paidInstallments.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "paidInstallments.installmentCode",
+      "column" : "installmentCode",
+      "ar" : "كود القسط",
+      "en" : "Installment Code",
+      "type" : "Text"
+    }, {
+      "id" : "paidInstallments.issuance",
+      "column" : "issuance_id",
+      "ar" : "الصرفية",
+      "en" : "Issuance",
+      "type" : "Reference",
+      "refTo" : "HRSalaryIssuance",
+      "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+    }, {
+      "id" : "paidInstallments.legalEntity",
+      "column" : "legalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "paidInstallments.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "paidInstallments.loanDocument",
+      "column" : "loanDocument_id",
+      "ar" : "سند سلفة",
+      "en" : "Loan Document",
+      "type" : "Reference",
+      "refTo" : "HRLoanDocument",
+      "refPath" : "/modules/humanresource-payroll/HRLoanDocument.html"
+    }, {
+      "id" : "paidInstallments.loanEntryId",
+      "column" : "loanEntryId",
+      "type" : "ID"
+    }, {
+      "id" : "paidInstallments.loanType",
+      "column" : "loanType_id",
+      "ar" : " نوع السلفة",
+      "en" : "Loan Type",
+      "type" : "Reference",
+      "refTo" : "HRLoanType",
+      "refPath" : "/modules/humanresource-payroll/HRLoanType.html"
+    }, {
+      "id" : "paidInstallments.paidAmount",
+      "column" : "paidAmount",
+      "ar" : "المبلغ المسدد",
+      "en" : "Paid Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "paidInstallments.paymentDate",
+      "column" : "paymentDate",
+      "ar" : "تاريخ الدفع",
+      "en" : "Payment Date",
+      "type" : "Date"
+    }, {
+      "id" : "paidInstallments.paymentEntryId",
+      "column" : "paymentEntryId",
+      "type" : "ID"
+    }, {
+      "id" : "paidInstallments.paymentValue",
+      "column" : "paymentValue",
+      "ar" : "المبلغ",
+      "en" : "Payment Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "paidInstallments.sector",
+      "column" : "sector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    } ]
+  }, {
+    "id" : "salaryDocLines",
+    "table" : "LiquidationSalaryDocLine",
+    "joinColumn" : "duesLiquidationDoc_id",
+    "fields" : [ {
+      "id" : "salaryDocLines.hrPeriod",
+      "column" : "hrPeriod_id",
+      "ar" : "فترة الرواتب",
+      "en" : "HR Period",
+      "type" : "Reference",
+      "refTo" : "HRPeriod",
+      "refPath" : "/modules/humanresource-payroll/HRPeriod.html"
+    }, {
+      "id" : "salaryDocLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "salaryDocLines.issued",
+      "column" : "issued",
+      "ar" : "تم صرفه",
+      "en" : "Issued",
+      "type" : "Boolean"
+    }, {
+      "id" : "salaryDocLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "salaryDocLines.netSalary",
+      "column" : "netSalary",
+      "ar" : "المرتب النهائي",
+      "en" : "Net Salary",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocLines.payWithLiquidation",
+      "column" : "payWithLiquidation",
+      "ar" : "يصرف مع التصفية",
+      "en" : "Pay With Liquidation",
+      "type" : "Boolean"
+    }, {
+      "id" : "salaryDocLines.remainingValue",
+      "column" : "remainingValue",
+      "ar" : "المتبقي",
+      "en" : "Remaining Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocLines.salaryDocument",
+      "column" : "salaryDocument_id",
+      "ar" : " سند الراتب",
+      "en" : " Salary Document",
+      "type" : "Reference",
+      "refTo" : "SalaryDocument",
+      "refPath" : "/modules/humanresource-payroll/SalaryDocument.html"
+    }, {
+      "id" : "salaryDocLines.totalAdditions",
+      "column" : "totalAdditions",
+      "ar" : "إجمالي الإضافات",
+      "en" : "Total Additions",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocLines.totalDeductions",
+      "column" : "totalDeductions",
+      "ar" : "إجمالي الإستقطاعات",
+      "en" : "Total Deductions",
+      "type" : "Decimal"
+    } ]
+  }, {
+    "id" : "terminationComponents",
+    "table" : "DuesLiquidationCompTermLine",
+    "joinColumn" : "duesLiquidationDoc_id",
+    "ar" : "مكونات تصفية نهاية الخدمة",
+    "en" : "Termination Liquidation Components",
+    "fields" : [ {
+      "id" : "terminationComponents.additionValue",
+      "column" : "additionValue",
+      "ar" : "القيمة|إضافة",
+      "en" : "Value | Addition",
+      "type" : "Decimal"
+    }, {
+      "id" : "terminationComponents.component",
+      "column" : "component_id",
+      "ar" : "مكون",
+      "en" : "Component",
+      "type" : "Reference",
+      "refTo" : "DuesLiquidationComponent",
+      "refPath" : "/modules/humanresource-advanced/DuesLiquidationComponent.html"
+    }, {
+      "id" : "terminationComponents.deductionValue",
+      "column" : "deductionValue",
+      "ar" : "القيمة|خصم",
+      "en" : "Value | Deduction",
+      "type" : "Decimal"
+    }, {
+      "id" : "terminationComponents.effectType",
+      "column" : "effectType",
+      "ar" : "نوع التأثير",
+      "en" : "Component Effect Type",
+      "type" : "Enum",
+      "enum" : "SalaryCompEffectType"
+    }, {
+      "id" : "terminationComponents.factor",
+      "column" : "factor",
+      "ar" : "المعامل",
+      "en" : "Measures Factor",
+      "type" : "Decimal"
+    }, {
+      "id" : "terminationComponents.finalAddedValue",
+      "column" : "finalAddedValue",
+      "ar" : "الناتج النهائي | الإضافة",
+      "en" : "Final Result | Addition",
+      "type" : "Decimal"
+    }, {
+      "id" : "terminationComponents.finalDeductedValue",
+      "column" : "finalDeductedValue",
+      "ar" : "الناتج النهائي | الخصم",
+      "en" : "Final Result | Deducted",
+      "type" : "Decimal"
+    }, {
+      "id" : "terminationComponents.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "terminationComponents.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "terminationComponents.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "terminationDetails",
+    "table" : "DuesLiquidationTermLine",
+    "joinColumn" : "duesLiquidationDoc_id",
+    "ar" : "تفاصيل تصفية نهاية الخدمة",
+    "en" : "Termination Liquidation Details",
+    "fields" : [ {
+      "id" : "terminationDetails.addition",
+      "column" : "addition",
+      "ar" : "إضافة",
+      "en" : "Addition",
+      "type" : "Decimal"
+    }, {
+      "id" : "terminationDetails.baseValue",
+      "column" : "baseValue",
+      "ar" : "القيمة الأصلية | القيمة",
+      "en" : "Base Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "terminationDetails.component",
+      "column" : "component_id",
+      "ar" : "مكون",
+      "en" : "Component",
+      "type" : "Reference",
+      "refTo" : "SalaryComponent",
+      "refPath" : "/modules/humanresource-payroll/SalaryComponent.html"
+    }, {
+      "id" : "terminationDetails.deduction",
+      "column" : "deduction",
+      "ar" : "إستقطاع",
+      "en" : "Deduction",
+      "type" : "Decimal"
+    }, {
+      "id" : "terminationDetails.dueValue",
+      "column" : "dueValue",
+      "ar" : "القيمة المستحقه",
+      "en" : "Due Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "terminationDetails.effectType",
+      "column" : "effectType",
+      "ar" : "القيمة الأصلية | نوع التأثير",
+      "en" : "Component Effect Type",
+      "type" : "Enum",
+      "enum" : "SalaryCompEffectType"
+    }, {
+      "id" : "terminationDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "terminationDetails.isSystemLine",
+      "column" : "isSystemLine",
+      "type" : "Boolean"
+    }, {
+      "id" : "terminationDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "terminationDetails.other",
+      "column" : "other",
+      "ar" : "آخري",
+      "en" : "other",
+      "type" : "Decimal"
+    }, {
+      "id" : "terminationDetails.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    } ]
+  } ]
+}

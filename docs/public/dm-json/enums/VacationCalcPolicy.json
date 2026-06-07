@@ -1,0 +1,20 @@
+{
+  "enum" : "VacationCalcPolicy",
+  "values" : [ {
+    "id" : "BeginingOfYear",
+    "ar" : "أول السنة مع الأخذ في الحسبان تاريخ التعيين",
+    "en" : "Beginning Of Year Regarding Commencement Date"
+  }, {
+    "id" : "WithMonthStart",
+    "ar" : "مع بداية الشهر",
+    "en" : "With Month Start"
+  }, {
+    "id" : "WithMonthEnd",
+    "ar" : "مع نهاية الشهر",
+    "en" : "With Month End"
+  }, {
+    "id" : "BeginningOfYearWithOutHiring",
+    "ar" : "أول السنة بغض النظر عن تاريخ التعيين",
+    "en" : "Beginning Of Year Regardless of Commencment Date"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "SalaryCompEffectType",
+  "values" : [ {
+    "id" : "Addition",
+    "ar" : "إضافة",
+    "en" : "Addition"
+  }, {
+    "id" : "Deduction",
+    "ar" : "إستقطاع",
+    "en" : "Deduction"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  } ]
+}

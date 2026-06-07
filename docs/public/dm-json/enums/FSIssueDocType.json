@@ -1,0 +1,16 @@
+{
+  "enum" : "FSIssueDocType",
+  "values" : [ {
+    "id" : "IncomeStatement",
+    "ar" : "قائمة دخل",
+    "en" : "Income Statement"
+  }, {
+    "id" : "BalanceSheet",
+    "ar" : "قائمة المركز المالى",
+    "en" : "Balance Sheet"
+  }, {
+    "id" : "CashFlow",
+    "ar" : "قائمة التدفقات النقدية",
+    "en" : "Cash Flow"
+  } ]
+}

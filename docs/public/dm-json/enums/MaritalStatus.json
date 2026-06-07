@@ -1,0 +1,20 @@
+{
+  "enum" : "MaritalStatus",
+  "values" : [ {
+    "id" : "Single",
+    "ar" : "أعزب",
+    "en" : "Single"
+  }, {
+    "id" : "Married",
+    "ar" : "متزوج",
+    "en" : "Married"
+  }, {
+    "id" : "Divorced",
+    "ar" : "مطلق",
+    "en" : "Divorced"
+  }, {
+    "id" : "Widowed",
+    "ar" : "أرمل",
+    "en" : "Widowed"
+  } ]
+}

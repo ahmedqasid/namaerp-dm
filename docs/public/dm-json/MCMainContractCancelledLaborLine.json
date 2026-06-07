@@ -1,0 +1,128 @@
+{
+  "entity" : "MCMainContractCancelledLaborLine",
+  "table" : "MCMainContractCancelledLaborLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/MCMainContractCancelledLaborLine.html",
+  "fields" : [ {
+    "id" : "annualSalary",
+    "column" : "annualSalary",
+    "ar" : "الراتب السنوي",
+    "en" : "Annual Salary",
+    "type" : "Decimal"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "contractualJob",
+    "column" : "contractualJob_id",
+    "ar" : "الوظيفة التعاقدية",
+    "en" : "Contractual Job",
+    "type" : "Reference",
+    "refTo" : "MCContractualJob",
+    "refPath" : "/modules/mc/MCContractualJob.html"
+  }, {
+    "id" : "contractualJobDep",
+    "column" : "contractualJobDep_id",
+    "ar" : "قسم الوظيفة التعاقدية",
+    "en" : "Contractual Job Dep",
+    "type" : "Reference",
+    "refTo" : "MCContractualJobDep",
+    "refPath" : "/modules/mc/MCContractualJobDep.html"
+  }, {
+    "id" : "costPerMonth",
+    "column" : "costPerMonth",
+    "ar" : "التكلفة بالشهر",
+    "en" : "Cost Per Month",
+    "type" : "Decimal"
+  }, {
+    "id" : "count",
+    "column" : "count",
+    "ar" : "العدد",
+    "en" : "Count",
+    "type" : "Integer"
+  }, {
+    "id" : "deleted",
+    "column" : "deleted",
+    "ar" : "محذوف",
+    "en" : "Deleted",
+    "type" : "Boolean"
+  }, {
+    "id" : "deletionDateTime",
+    "column" : "deletionDateTime",
+    "ar" : "تاريخ ووقت الحذف",
+    "en" : "Deletion Date Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "fixedSalary",
+    "column" : "fixedSalary",
+    "ar" : "الراتب المثبت",
+    "en" : "Fixed Salary",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "laborCount",
+    "column" : "laborCount",
+    "ar" : "عدد العمالة",
+    "en" : "Labor Count",
+    "type" : "Decimal"
+  }, {
+    "id" : "manualCostPerMonth",
+    "column" : "manualCostPerMonth",
+    "ar" : "التكلفة الشهرية (يدوي)",
+    "en" : "Manual Cost Per Month",
+    "type" : "Decimal"
+  }, {
+    "id" : "monthlySingular",
+    "column" : "monthlySingular",
+    "ar" : "الإفرادي الشهري",
+    "en" : "Monthly Singular",
+    "type" : "Decimal"
+  }, {
+    "id" : "nationality",
+    "column" : "nationality_id",
+    "ar" : "الجنسية",
+    "en" : "Nationality",
+    "type" : "Reference",
+    "refTo" : "Nationality",
+    "refPath" : "/modules/basic/Nationality.html"
+  }, {
+    "id" : "recoverDeleted",
+    "column" : "recoverDeleted",
+    "ar" : "استعادة المحذوف",
+    "en" : "Recover Deleted",
+    "type" : "Boolean"
+  }, {
+    "id" : "totalAfterUpdate",
+    "column" : "totalAfterUpdate",
+    "ar" : "الإجمالي بعد التعديل",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalMonthlySalary",
+    "column" : "totalMonthlySalary",
+    "ar" : "إجمالي الراتب الشهري",
+    "en" : "Total Monthly Salary",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalPerMonthAfterUpdate",
+    "column" : "totalPerMonthAfterUpdate",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalSalary",
+    "column" : "totalSalary",
+    "ar" : "إجمالي الراتب طبقا لمدة المناقصة",
+    "en" : "Total Salary",
+    "type" : "Decimal"
+  }, {
+    "id" : "variableSalary",
+    "column" : "variableSalary",
+    "ar" : "الراتب الغير مثبت",
+    "en" : "Variable Salary",
+    "type" : "Decimal"
+  } ]
+}

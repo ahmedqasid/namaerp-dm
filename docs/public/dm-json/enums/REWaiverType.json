@@ -1,0 +1,12 @@
+{
+  "enum" : "REWaiverType",
+  "values" : [ {
+    "id" : "ForCompany",
+    "ar" : "للشركة",
+    "en" : "For Company"
+  }, {
+    "id" : "ForOtherBuyer",
+    "ar" : "لمشتري اخر",
+    "en" : "For Another Buyer"
+  } ]
+}

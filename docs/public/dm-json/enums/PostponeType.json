@@ -1,0 +1,12 @@
+{
+  "enum" : "PostponeType",
+  "values" : [ {
+    "id" : "PostponeInstallment",
+    "ar" : "تأجيل",
+    "en" : "Postpone Installment"
+  }, {
+    "id" : "RescheduleInstallment",
+    "ar" : "إعاده جدوله",
+    "en" : "Reschedule Installment"
+  } ]
+}

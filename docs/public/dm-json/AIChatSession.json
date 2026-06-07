@@ -1,0 +1,41 @@
+{
+  "entity" : "AIChatSession",
+  "table" : "AIChatSession",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AIChatSession.html",
+  "fields" : [ {
+    "id" : "chatProvider",
+    "column" : "chatProvider",
+    "type" : "Text"
+  }, {
+    "id" : "chatUser",
+    "columns" : [ "chatUserActualCode", " chatUserCode", " chatUserEntityType", " chatUserId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "createdAt",
+    "column" : "createdAt",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Created At",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "isActive",
+    "column" : "isActive",
+    "ar" : "فعال",
+    "en" : "Active",
+    "type" : "Boolean"
+  }, {
+    "id" : "title",
+    "column" : "title",
+    "ar" : "العنوان",
+    "en" : "Title",
+    "type" : "Text"
+  }, {
+    "id" : "updatedAt",
+    "column" : "updatedAt",
+    "type" : "DateAndTime"
+  } ]
+}

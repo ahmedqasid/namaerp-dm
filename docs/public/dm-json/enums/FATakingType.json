@@ -1,0 +1,12 @@
+{
+  "enum" : "FATakingType",
+  "values" : [ {
+    "id" : "ForEmployee",
+    "ar" : "للموظف",
+    "en" : "For Employee"
+  }, {
+    "id" : "ForLocation",
+    "ar" : "للموقع",
+    "en" : "For Location"
+  } ]
+}

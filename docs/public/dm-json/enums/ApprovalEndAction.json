@@ -1,0 +1,12 @@
+{
+  "enum" : "ApprovalEndAction",
+  "values" : [ {
+    "id" : "DeployEdition",
+    "ar" : "DeployEdition",
+    "en" : "Deploy Edition"
+  }, {
+    "id" : "ConvertRequest",
+    "ar" : "تحويل الطلب",
+    "en" : "Convert Request"
+  } ]
+}

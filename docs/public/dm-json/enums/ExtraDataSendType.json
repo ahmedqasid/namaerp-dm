@@ -1,0 +1,12 @@
+{
+  "enum" : "ExtraDataSendType",
+  "values" : [ {
+    "id" : "SendInFieldsElement",
+    "ar" : "Send In Fields Element",
+    "en" : "Send In Fields Element"
+  }, {
+    "id" : "SendInJSONBody",
+    "ar" : "Send In JSON Body",
+    "en" : "Send In JSON Body"
+  } ]
+}

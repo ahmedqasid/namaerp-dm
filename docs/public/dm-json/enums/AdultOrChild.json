@@ -1,0 +1,12 @@
+{
+  "enum" : "AdultOrChild",
+  "values" : [ {
+    "id" : "Adult",
+    "ar" : "بالغ",
+    "en" : "Adult"
+  }, {
+    "id" : "Child",
+    "ar" : "طفل",
+    "en" : "Child"
+  } ]
+}

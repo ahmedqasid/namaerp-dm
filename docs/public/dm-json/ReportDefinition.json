@@ -1,0 +1,1261 @@
+{
+  "entity" : "ReportDefinition",
+  "table" : "ReportDefinition",
+  "module" : "basic",
+  "ar" : "تعريف تقرير",
+  "arPlural" : "تعريف تقارير",
+  "en" : "Report Definition",
+  "enPlural" : "Report Definitions",
+  "page" : "https://dm.namasoft.com/modules/basic/ReportDefinition.html",
+  "fields" : [ {
+    "id" : "allowRunReportWithNoAuth",
+    "column" : "allowRunReportWithNoAuth",
+    "ar" : "السماح بتشغيل التقرير بدون تسجيل دخول",
+    "en" : "Allow Run Report Without Authentication",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowedIDs",
+    "column" : "allowedIDs",
+    "type" : "BigText"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "arabicVersion",
+    "column" : "arabicVersion_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "basedOnReport",
+    "column" : "basedOnReport_id",
+    "ar" : "التقرير المبني عليه",
+    "en" : "Based On Report",
+    "type" : "Reference",
+    "refTo" : "ReportDefinition",
+    "refPath" : "/modules/basic/ReportDefinition.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "compiledVersion",
+    "column" : "compiledVersion_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "copyContentToReport",
+    "column" : "copyContentToReport",
+    "ar" : "نسخ المحتوي النصي الي الملف",
+    "en" : "Copy Content To Report",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "createdFromWizard",
+    "columns" : [ "createdFromWizardActualCode", " createdFromWizardCode", " createdFromWizardEntityType", " createdFromWizardId" ],
+    "ar" : "منشأ من أداة إنشاء تقارير",
+    "en" : "Created From Wizard",
+    "type" : "Genericreference"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "dashboard",
+    "columns" : [ "dashboardActualCode", " dashboardCode", " dashboardEntityType", " dashboardId" ],
+    "ar" : "لوحة التطبيق",
+    "en" : "Mobile Dashboard",
+    "type" : "Genericreference"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "dbResourcName",
+    "column" : "dbResourcName",
+    "ar" : "اسم مصدر قاعدة البيانات",
+    "en" : "Database Resourc Name",
+    "type" : "Text"
+  }, {
+    "id" : "defintion",
+    "column" : "defintion_id",
+    "ar" : "ملف التقرير",
+    "en" : "Report File",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "doNotMirrorInArabic",
+    "column" : "doNotMirrorInArabic",
+    "ar" : "عدم عمل دوران لمحتويات التقرير في اللغة العربية",
+    "en" : "Do Not Mirror Content In Arabic",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotPrintUnProcessedDoc",
+    "column" : "doNotPrintUnProcessedDoc",
+    "ar" : "عدم السماح بطباعه مستندات بإنتظار المعالجه",
+    "en" : "Do Not Print Un Processed Documents",
+    "type" : "Boolean"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "fetchResourcesFrom",
+    "column" : "fetchResourcesFrom_id",
+    "ar" : "احضار الملفات الإضافية من",
+    "en" : "Fetch Resources From",
+    "type" : "Reference",
+    "refTo" : "ReportDefinition",
+    "refPath" : "/modules/basic/ReportDefinition.html"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fixedLanguage",
+    "column" : "fixedLanguage",
+    "ar" : "تثبيت اللغة",
+    "en" : "Fixed Language",
+    "type" : "Enum",
+    "enum" : "LanguageEnum"
+  }, {
+    "id" : "forUser",
+    "columns" : [ "forUserActualCode", " forUserCode", " forUserEntityType", " forUserId" ],
+    "ar" : "للمستخدم",
+    "en" : "For User",
+    "type" : "Genericreference"
+  }, {
+    "id" : "formBook",
+    "column" : "formBook_id",
+    "ar" : "الدفتر",
+    "en" : "Form Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "formCriteria",
+    "column" : "formCriteria_id",
+    "ar" : "معايير",
+    "en" : "Form Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "formDocCategory",
+    "column" : "formDocCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : "Form Doc Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "formEntity",
+    "column" : "formEntity",
+    "ar" : "النوع",
+    "en" : "Form Entity",
+    "type" : "EntityType"
+  }, {
+    "id" : "formFileNameTemplate",
+    "column" : "formFileNameTemplate",
+    "ar" : "قالب اسم ملف التقرير",
+    "en" : "Form File Name Template",
+    "type" : "Text"
+  }, {
+    "id" : "formInvoiceClassification",
+    "column" : "formInvoiceClassification_id",
+    "ar" : "تصيف فاتورة (خاص بنقاط البيع)",
+    "en" : "Invoice Classification (Related To POS)",
+    "type" : "Reference",
+    "refTo" : "InvoiceClassification",
+    "refPath" : "/modules/supplychain/InvoiceClassification.html"
+  }, {
+    "id" : "formPage",
+    "column" : "formPage",
+    "ar" : "الصفحة",
+    "en" : "Form Page",
+    "type" : "Text"
+  }, {
+    "id" : "formTerm",
+    "column" : "formTerm_id",
+    "ar" : "توجيه المستند",
+    "en" : "Form Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "groovyScriptlet",
+    "column" : "groovyScriptlet",
+    "ar" : "Groovy Scriptlet",
+    "en" : "Groovy Scriptlet",
+    "type" : "BigText"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "groupsIds",
+    "column" : "groupsIds",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "implRepo",
+    "column" : "implRepo_id",
+    "ar" : "كتالوج التجهيز",
+    "en" : "Implementation Repository",
+    "type" : "Reference",
+    "refTo" : "ImplementationRepository",
+    "refPath" : "/modules/basic/ImplementationRepository.html"
+  }, {
+    "id" : "includeZATCAXmlInPDF",
+    "column" : "includeZATCAXmlInPDF",
+    "ar" : "Include ZATCA XML In PDF",
+    "en" : "Include ZATCA XML In PDF",
+    "type" : "Boolean"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "logExportsToDB",
+    "column" : "logExportsToDB",
+    "ar" : "Log Report Exports To DB",
+    "en" : "Log Report Exports To DB",
+    "type" : "Boolean"
+  }, {
+    "id" : "logFormsToReportLog",
+    "column" : "logFormsToReportLog",
+    "ar" : "Log Forms To Report Log",
+    "en" : "Log Forms To Report Log",
+    "type" : "Boolean"
+  }, {
+    "id" : "logParametersToDB",
+    "column" : "logParametersToDB",
+    "ar" : "تخزين مدخلات التقارير في قاعدة البيانات عند التشغيل",
+    "en" : "Log Report Parameters To DB When Running",
+    "type" : "Boolean"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "menuCode",
+    "column" : "menuCode",
+    "ar" : "كود الوصلة",
+    "en" : "Menu Code",
+    "type" : "Text"
+  }, {
+    "id" : "moduleName",
+    "column" : "moduleName",
+    "ar" : "Module Name",
+    "en" : "Module Name",
+    "type" : "FieldID"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "notifyWhenUserExport",
+    "column" : "notifyWhenUserExport_id",
+    "ar" : "التنبيه عند تصدير التقرير",
+    "en" : "Notify When The Report Result Is Exported",
+    "type" : "Reference",
+    "refTo" : "NotificationDefinition",
+    "refPath" : "/modules/basic/NotificationDefinition.html"
+  }, {
+    "id" : "notifyWhenUserRun",
+    "column" : "notifyWhenUserRun_id",
+    "ar" : "التنبيه عند تشغيل التقرير",
+    "en" : "Notify When The Report is Run",
+    "type" : "Reference",
+    "refTo" : "NotificationDefinition",
+    "refPath" : "/modules/basic/NotificationDefinition.html"
+  }, {
+    "id" : "overrideSelectedAnalysisSet",
+    "column" : "overrideSelectedAnalysisSet",
+    "ar" : "تعديل المجموعة التحليلية المختارة",
+    "en" : "Override Selected AnalysisSet",
+    "type" : "Enum",
+    "enum" : "OverrideSelectedDimension"
+  }, {
+    "id" : "overrideSelectedBranch",
+    "column" : "overrideSelectedBranch",
+    "ar" : "تعديل الفرع المختار",
+    "en" : "Override Selected Branch",
+    "type" : "Enum",
+    "enum" : "OverrideSelectedDimension"
+  }, {
+    "id" : "overrideSelectedDepartment",
+    "column" : "overrideSelectedDepartment",
+    "ar" : "تعديل الادارة المختارة",
+    "en" : "Override Selected Department",
+    "type" : "Enum",
+    "enum" : "OverrideSelectedDimension"
+  }, {
+    "id" : "overrideSelectedLegalEntity",
+    "column" : "overrideSelectedLegalEntity",
+    "ar" : "تعديل الشركة المختارة",
+    "en" : "Override Selected LegalEntity",
+    "type" : "Enum",
+    "enum" : "OverrideSelectedDimension"
+  }, {
+    "id" : "overrideSelectedSector",
+    "column" : "overrideSelectedSector",
+    "ar" : "تعديل القطاع المختار",
+    "en" : "Override Selected Sector",
+    "type" : "Enum",
+    "enum" : "OverrideSelectedDimension"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "pdfSample",
+    "column" : "pdfSample_id",
+    "ar" : "PDF Sample",
+    "en" : "PDF Sample",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "posOrderPreparationForm",
+    "column" : "posOrderPreparationForm",
+    "ar" : "نموذج طباعة تحضير الاوردر لنقاط البيع",
+    "en" : "POS Order Preparation Form",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventedIDs",
+    "column" : "preventedIDs",
+    "type" : "BigText"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "printerName",
+    "column" : "printerName",
+    "ar" : "اسم الطابعة (CSV)",
+    "en" : "Printer Name (CSV)",
+    "type" : "Text"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "relatedEntity1",
+    "column" : "relatedEntity1",
+    "ar" : "السجل المرتبط 1",
+    "en" : "Related Entity1",
+    "type" : "Text"
+  }, {
+    "id" : "relatedEntity2",
+    "column" : "relatedEntity2",
+    "ar" : "السجل المرتبط 2",
+    "en" : "Related Entity2",
+    "type" : "Text"
+  }, {
+    "id" : "relatedToModule1",
+    "column" : "relatedToModule1",
+    "ar" : "الموديول المرتبط 1",
+    "en" : "Related To Module 1",
+    "type" : "Text"
+  }, {
+    "id" : "relatedToModule2",
+    "column" : "relatedToModule2",
+    "ar" : "الموديول المرتبط 2",
+    "en" : "Related To Module 2",
+    "type" : "Text"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "removeFootersOfGroupsInExcel",
+    "column" : "removeFootersOfGroupsInExcel",
+    "ar" : "Remove Footers Of Groups In Excel (CSV, use * for all groups)",
+    "en" : "Remove Footers Of Groups In Excel (CSV, use * for all groups)",
+    "type" : "FieldID"
+  }, {
+    "id" : "removeHeadersOfGroupsInExcel",
+    "column" : "removeHeadersOfGroupsInExcel",
+    "ar" : "Remove Headers Of Groups In Excel (CSV, use * for all groups)",
+    "en" : "Remove Headers Of Groups In Excel (CSV, use * for all groups)",
+    "type" : "FieldID"
+  }, {
+    "id" : "reportContent",
+    "column" : "reportContent",
+    "ar" : "محتوي ملف التقرير",
+    "en" : "Report File Content",
+    "type" : "BigText"
+  }, {
+    "id" : "reportDetails",
+    "column" : "reportDetails",
+    "ar" : "تفاصيل إنشاء التقرير",
+    "en" : "Report Details",
+    "type" : "BigText"
+  }, {
+    "id" : "reportFileName",
+    "column" : "reportFileName",
+    "type" : "Text"
+  }, {
+    "id" : "reportMetadataXML",
+    "column" : "reportMetadataXML",
+    "type" : "BigText"
+  }, {
+    "id" : "reportOrder",
+    "column" : "reportOrder",
+    "ar" : "ترتيب التقرير",
+    "en" : "Report Order",
+    "type" : "Text"
+  }, {
+    "id" : "reportType",
+    "column" : "reportType",
+    "ar" : "نوع التقرير",
+    "en" : "Report Type",
+    "type" : "Enum",
+    "enum" : "ReportType"
+  }, {
+    "id" : "reviewedAndApproved",
+    "column" : "reviewedAndApproved",
+    "ar" : "تم مراجعته وإعتماده",
+    "en" : "Reviewed And Approved",
+    "type" : "Boolean"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "runOnPosServerDB",
+    "column" : "runOnPosServerDB",
+    "ar" : "تشغيل على قاعدة بيانات الخادم وليس قاعدة بيانات نقاط البيع",
+    "en" : "Run On Server DataBase Not On POS Database",
+    "type" : "Boolean"
+  }, {
+    "id" : "saveToImplRepo",
+    "column" : "saveToImplRepo",
+    "ar" : "الحفظ في كتالوج التجهيز",
+    "en" : "Save To Implementation Repository",
+    "type" : "Boolean"
+  }, {
+    "id" : "screenshot",
+    "column" : "screenshot_id",
+    "ar" : "Screenshot",
+    "en" : "Screenshot",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "securityEquivalent.customCapability",
+    "column" : "customCapability_id",
+    "ar" : "الصلاحية المخصصة",
+    "en" : "Custom Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "securityEquivalent.securityEquivalent",
+    "column" : "securityEquivalent",
+    "ar" : "النوع المطبق عليها الصلاحية",
+    "en" : "Security Equivalent",
+    "type" : "EntityType"
+  }, {
+    "id" : "securityEquivalent.securityEquivalentType",
+    "column" : "securityEquivalentType",
+    "ar" : "نوع الصلاحيات",
+    "en" : "Security Type",
+    "type" : "Enum",
+    "enum" : "SecurityEquivalentType"
+  }, {
+    "id" : "securityEquivalent.standardCapability",
+    "column" : "standardCapability",
+    "ar" : "الصلاحية القياسية",
+    "en" : "Standard Capability",
+    "type" : "Enum",
+    "enum" : "CapabilityType"
+  }, {
+    "id" : "skipDimensionsCheckWithEdit",
+    "column" : "skipDimensionsCheckWithEdit",
+    "ar" : "تخطي التحقق من المحددات مع التعديل",
+    "en" : "Skip Dimensions Check With Edit",
+    "type" : "Boolean"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "systemReport",
+    "column" : "systemReport",
+    "ar" : "نظامي",
+    "en" : "System",
+    "type" : "Boolean"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usedInCaptainOrder",
+    "column" : "usedInCaptainOrder",
+    "ar" : "مستخدم لكابتن أوردر",
+    "en" : "Used In Captain Order",
+    "type" : "Boolean"
+  }, {
+    "id" : "usedInFullInvoice",
+    "column" : "usedInFullInvoice",
+    "ar" : "تستخدم في الفاتورة الكامله",
+    "en" : "Used In Full Invoice",
+    "type" : "Boolean"
+  }, {
+    "id" : "usedInPOS",
+    "column" : "usedInPOS",
+    "ar" : "مستخدم لنقاط البيع",
+    "en" : "Used In POS",
+    "type" : "Boolean"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewName",
+    "column" : "viewName",
+    "ar" : "معرف الشاشة (اسم ملف العرض)",
+    "en" : "Layout ID (View name)",
+    "type" : "Text"
+  }, {
+    "id" : "viewingFormat",
+    "column" : "viewingFormat",
+    "ar" : "نسق المطالعة",
+    "en" : "Viewing Format",
+    "type" : "Enum",
+    "enum" : "RepOutputFormat"
+  } ],
+  "details" : [ {
+    "id" : "basedOnLines",
+    "table" : "ReportDefinitionBasedOnLine",
+    "joinColumn" : "reportDefinition_id",
+    "ar" : "مبنى على حسب المستخدم الحالى",
+    "en" : "Based On Lines Filtered By Current User",
+    "fields" : [ {
+      "id" : "basedOnLines.basedOnReport",
+      "column" : "basedOnReport_id",
+      "ar" : "التقرير المبني عليه",
+      "en" : "Based On Report",
+      "type" : "Reference",
+      "refTo" : "ReportDefinition",
+      "refPath" : "/modules/basic/ReportDefinition.html"
+    }, {
+      "id" : "basedOnLines.currentEmployee",
+      "columns" : [ "currentEmployeeActualCode", " currentEmployeeCode", " currentEmployeeEntityType", " currentEmployeeId" ],
+      "ar" : "الموظف الحالي",
+      "en" : "Current Employee",
+      "type" : "Genericreference"
+    }, {
+      "id" : "basedOnLines.currentUser",
+      "columns" : [ "currentUserActualCode", " currentUserCode", " currentUserEntityType", " currentUserId" ],
+      "ar" : "المستخدم الحالى",
+      "en" : "Current User",
+      "type" : "Genericreference"
+    }, {
+      "id" : "basedOnLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "basedOnLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "basedOnLines.loginDimensions.analysisSet",
+      "column" : "analysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "basedOnLines.loginDimensions.branch",
+      "column" : "branch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "basedOnLines.loginDimensions.department",
+      "column" : "department_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "basedOnLines.loginDimensions.legalEntity",
+      "column" : "legalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "basedOnLines.loginDimensions.sector",
+      "column" : "sector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    } ]
+  }, {
+    "id" : "parametersOverride",
+    "table" : "RepParamOverride",
+    "joinColumn" : "reportDefinition_id",
+    "ar" : "تعديل المدخلات",
+    "en" : "Parameters Override",
+    "fields" : [ {
+      "id" : "parametersOverride.allowedValues",
+      "column" : "allowedValues",
+      "ar" : "القيم المسموح بها",
+      "en" : "Allowed Values",
+      "type" : "Text"
+    }, {
+      "id" : "parametersOverride.dateTimeValue",
+      "column" : "dateTimeValue",
+      "ar" : "وقت/تاريخ",
+      "en" : "Date/Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "parametersOverride.dateValue",
+      "column" : "dateValue",
+      "ar" : "تاريخ",
+      "en" : "Date Value",
+      "type" : "Date"
+    }, {
+      "id" : "parametersOverride.entityType",
+      "column" : "entityType",
+      "ar" : "نوع السجل",
+      "en" : "Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "parametersOverride.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "parametersOverride.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "parametersOverride.paramId",
+      "column" : "paramId",
+      "ar" : "المعرف",
+      "en" : "Parameter Id",
+      "type" : "Text"
+    }, {
+      "id" : "parametersOverride.paramType",
+      "column" : "paramType",
+      "ar" : "النوع",
+      "en" : "Param Type",
+      "type" : "Enum",
+      "enum" : "ParamType"
+    }, {
+      "id" : "parametersOverride.paramValue",
+      "column" : "paramValue",
+      "ar" : "القيمة",
+      "en" : "Param Value",
+      "type" : "Text"
+    }, {
+      "id" : "parametersOverride.refValue",
+      "columns" : [ "refValueActualCode", " refValueCode", " refValueEntityType", " refValueId" ],
+      "ar" : "مرجع",
+      "en" : "Reference",
+      "type" : "Genericreference"
+    }, {
+      "id" : "parametersOverride.timeValue",
+      "column" : "timeValue",
+      "ar" : "وقت",
+      "en" : "Time Value",
+      "type" : "Time"
+    }, {
+      "id" : "parametersOverride.usage",
+      "column" : "usage",
+      "ar" : "طريقة الاستعمال",
+      "en" : "Usage",
+      "type" : "Enum",
+      "enum" : "ParamOverrideUsage"
+    } ]
+  }, {
+    "id" : "relatedForms",
+    "table" : "ReportRelatedForms",
+    "joinColumn" : "reportDefinition_id",
+    "ar" : "النماذج المرتبطة",
+    "en" : "Related Forms",
+    "fields" : [ {
+      "id" : "relatedForms.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "relatedForms.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "relatedForms.relatedForm",
+      "column" : "relatedForm_id",
+      "ar" : "النموذج المرتبط",
+      "en" : "Related Form",
+      "type" : "Reference",
+      "refTo" : "ReportDefinition",
+      "refPath" : "/modules/basic/ReportDefinition.html"
+    } ]
+  }, {
+    "id" : "reportGroups",
+    "table" : "ReportDefinitionGroupLine",
+    "joinColumn" : "reportDefinition_id",
+    "ar" : " مجموعات تقارير",
+    "en" : " Report Groups",
+    "fields" : [ {
+      "id" : "reportGroups.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "reportGroups.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "reportGroups.reportGroup",
+      "column" : "reportGroup_id",
+      "ar" : "Report Group",
+      "en" : "Report Group",
+      "type" : "Reference",
+      "refTo" : "ReportGroup",
+      "refPath" : "/modules/basic/ReportGroup.html"
+    } ]
+  }, {
+    "id" : "resources",
+    "table" : "ReportResource",
+    "joinColumn" : "reportDefinition_id",
+    "ar" : "الملفات الإضافية",
+    "en" : "Resources",
+    "fields" : [ {
+      "id" : "resources.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "resources.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "resources.reportContent",
+      "column" : "reportContent",
+      "ar" : "محتوي ملف التقرير",
+      "en" : "Report File Content",
+      "type" : "BigText"
+    }, {
+      "id" : "resources.reportFileName",
+      "column" : "reportFileName",
+      "type" : "Text"
+    }, {
+      "id" : "resources.resourceFile",
+      "column" : "resourceFile_id",
+      "ar" : "الملف",
+      "en" : "Resource File",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "resources.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "securityLines",
+    "table" : "ReportSecurityLine",
+    "joinColumn" : "reportDefinition_id",
+    "fields" : [ {
+      "id" : "securityLines.allowDisallow",
+      "column" : "allowDisallow",
+      "ar" : "سماح - منع",
+      "en" : "Allow - Disallow",
+      "type" : "Enum",
+      "enum" : "SecurityApplicationType"
+    }, {
+      "id" : "securityLines.applicableFor",
+      "columns" : [ "applicableForActualCode", " applicableForCode", " applicableForEntityType", " applicableForId" ],
+      "ar" : "مطبق على",
+      "en" : "Applicable For",
+      "type" : "Genericreference"
+    }, {
+      "id" : "securityLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "securityLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "subreports",
+    "table" : "SubReport",
+    "joinColumn" : "reportDefinition_id",
+    "ar" : "التقارير الفرعية",
+    "en" : "Subreports",
+    "fields" : [ {
+      "id" : "subreports.arabicVersion",
+      "column" : "arabicVersion_id",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "subreports.englishVersion",
+      "column" : "englishVersion_id",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "subreports.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "subreports.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "subreports.reportContent",
+      "column" : "reportContent",
+      "ar" : "محتوي ملف التقرير",
+      "en" : "Report File Content",
+      "type" : "BigText"
+    }, {
+      "id" : "subreports.reportFileName",
+      "column" : "reportFileName",
+      "type" : "Text"
+    }, {
+      "id" : "subreports.subreportDefinition",
+      "column" : "subreportDefinition_id",
+      "ar" : "التقرير",
+      "en" : "Sub Report Definition",
+      "type" : "Reference",
+      "refTo" : "ReportDefinition",
+      "refPath" : "/modules/basic/ReportDefinition.html"
+    }, {
+      "id" : "subreports.subreportFile",
+      "column" : "subreportFile_id",
+      "ar" : "الملف",
+      "en" : "Sub Report File",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "subreports.subreportId",
+      "column" : "subreportId",
+      "ar" : "المعرف",
+      "en" : "Sub Report Id",
+      "type" : "Text"
+    } ]
+  } ]
+}

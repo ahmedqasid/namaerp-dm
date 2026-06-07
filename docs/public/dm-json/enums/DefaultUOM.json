@@ -1,0 +1,24 @@
+{
+  "enum" : "DefaultUOM",
+  "values" : [ {
+    "id" : "BaseUnit",
+    "ar" : " الوحدة الأساسية(الأصغر)",
+    "en" : " Base Unit(Smallest)"
+  }, {
+    "id" : "ReportingUnit1",
+    "ar" : " وحدة التقارير 1",
+    "en" : " Reporting Unit 1"
+  }, {
+    "id" : "ReportingUnit2",
+    "ar" : " وحدة التقارير 2",
+    "en" : " Reporting Unit 2"
+  }, {
+    "id" : "DefaultSalesUnit",
+    "ar" : " وحدة البيع",
+    "en" : " Default Sales Unit"
+  }, {
+    "id" : "DefaultPurchaseUnit",
+    "ar" : " وحدة الشراء",
+    "en" : " Default Purchase Unit"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "MagentoPriceType",
+  "values" : [ {
+    "id" : "IncludeTax",
+    "ar" : "السعر شامل الضريبة",
+    "en" : "Price Include Tax"
+  }, {
+    "id" : "ExcludeTax",
+    "ar" : "السعر غير شامل الضريبة",
+    "en" : "Price Exclude Tax"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "enum" : "RegionType",
+  "values" : [ {
+    "id" : "Country",
+    "ar" : "دوله",
+    "en" : "Country"
+  }, {
+    "id" : "State",
+    "ar" : "محافظه",
+    "en" : "State"
+  }, {
+    "id" : "City",
+    "ar" : "مدينه",
+    "en" : "City"
+  }, {
+    "id" : "Area",
+    "ar" : "حي",
+    "en" : "Area"
+  }, {
+    "id" : "Street",
+    "ar" : "شارع",
+    "en" : "Street"
+  } ]
+}

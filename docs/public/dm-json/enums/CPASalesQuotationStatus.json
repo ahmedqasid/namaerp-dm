@@ -1,0 +1,20 @@
+{
+  "enum" : "CPASalesQuotationStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Accepted",
+    "ar" : "مقبول",
+    "en" : "Accepted"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "CustomerFeedback",
+    "ar" : "بانتظار رد العميل",
+    "en" : "Feedback from Customer"
+  } ]
+}

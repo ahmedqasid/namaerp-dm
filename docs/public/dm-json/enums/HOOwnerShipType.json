@@ -1,0 +1,28 @@
+{
+  "enum" : "HOOwnerShipType",
+  "values" : [ {
+    "id" : "Own",
+    "ar" : "ملك",
+    "en" : "Own"
+  }, {
+    "id" : "Rent",
+    "ar" : "إيجار",
+    "en" : "Rent"
+  }, {
+    "id" : "investment",
+    "ar" : "استثمار",
+    "en" : "investment"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  } ]
+}

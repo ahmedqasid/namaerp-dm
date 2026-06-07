@@ -1,0 +1,51 @@
+{
+  "entity" : "SrvCJobOrderStatusEntry",
+  "table" : "SrvCJobOrderStatusEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SrvCJobOrderStatusEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "fromStatus",
+    "column" : "fromStatus",
+    "ar" : "من حالة",
+    "en" : "From Status",
+    "type" : "Enum",
+    "enum" : "SrvCJobOrderStatus"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "jobOrder",
+    "column" : "jobOrder_id",
+    "ar" : "أمر الشغل",
+    "en" : "Job Order",
+    "type" : "Reference",
+    "refTo" : "SrvCJobOrder",
+    "refPath" : "/modules/srvcenter/SrvCJobOrder.html"
+  }, {
+    "id" : "origin",
+    "columns" : [ "originActualCode", " originCode", " originEntityType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "toStatus",
+    "column" : "toStatus",
+    "ar" : "إلى حالة",
+    "en" : "To Status",
+    "type" : "Enum",
+    "enum" : "SrvCJobOrderStatus"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "ScreenQuickFilterEffect",
+  "values" : [ {
+    "id" : "AddNew",
+    "ar" : "إضافة جديد",
+    "en" : "Add New"
+  }, {
+    "id" : "Modify",
+    "ar" : "تعديل",
+    "en" : "Modify"
+  } ]
+}

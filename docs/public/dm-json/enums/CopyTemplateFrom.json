@@ -1,0 +1,16 @@
+{
+  "enum" : "CopyTemplateFrom",
+  "values" : [ {
+    "id" : "Email",
+    "ar" : "الايميل",
+    "en" : "Email"
+  }, {
+    "id" : "SMS",
+    "ar" : "الرسائل القصيرة",
+    "en" : "SMS"
+  }, {
+    "id" : "Notification",
+    "ar" : "التنبيهات",
+    "en" : "Notification"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "TooltipDefApplyToRange",
+  "values" : [ {
+    "id" : "Allow",
+    "ar" : "سماح",
+    "en" : "Allow"
+  }, {
+    "id" : "Prevent",
+    "ar" : "منع",
+    "en" : "Prevent"
+  } ]
+}

@@ -1,0 +1,59 @@
+{
+  "entity" : "TermItemLine",
+  "table" : "TermItemLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/TermItemLine.html",
+  "fields" : [ {
+    "id" : "contractingItem",
+    "column" : "contractingItem_id",
+    "ar" : " بند تكلفة مقاولات",
+    "en" : "Contracting Item",
+    "type" : "Reference",
+    "refTo" : "ContractingDirectCost",
+    "refPath" : "/modules/contracting/ContractingDirectCost.html"
+  }, {
+    "id" : "executedContractQty",
+    "column" : "executedContractQty",
+    "ar" : "الكمية المنفذة من البند التعاقدي",
+    "en" : "Executed Contract Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "invItem",
+    "column" : "invItem_id",
+    "ar" : " الصنف",
+    "en" : " Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "quantity",
+    "column" : "quantity",
+    "ar" : "الكمية",
+    "en" : "Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalPrice",
+    "column" : "totalPrice",
+    "ar" : "إجمالي السعر",
+    "en" : "  Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "unitPrice",
+    "column" : "unitPrice",
+    "ar" : "سعر الوحدة",
+    "en" : "Unit Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "uom",
+    "column" : "uom_id",
+    "ar" : "الوحدة",
+    "en" : "Unit",
+    "type" : "Reference",
+    "refTo" : "UOM",
+    "refPath" : "/modules/supplychain/UOM.html"
+  } ]
+}

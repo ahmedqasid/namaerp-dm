@@ -1,0 +1,12 @@
+{
+  "enum" : "CriteriaApplicationPolicy",
+  "values" : [ {
+    "id" : "ApplyOnAllExceptSelected",
+    "ar" : "تطبيق على الكل عدا المختارين",
+    "en" : "Apply On All Except Selected"
+  }, {
+    "id" : "ApplyOnSelected",
+    "ar" : "تطبيق على المختارين فقط",
+    "en" : "Apply On Selected"
+  } ]
+}

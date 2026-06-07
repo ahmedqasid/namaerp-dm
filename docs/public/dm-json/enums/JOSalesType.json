@@ -1,0 +1,28 @@
+{
+  "enum" : "JOSalesType",
+  "values" : [ {
+    "id" : "Single",
+    "ar" : "01 Single Glass",
+    "en" : "=01 Single Glass"
+  }, {
+    "id" : "MultipleSingle",
+    "ar" : "02 Multi Single Glass",
+    "en" : "02 Multi Single Glass"
+  }, {
+    "id" : "Double",
+    "ar" : "03 Double Glass",
+    "en" : "=03 Double Glass"
+  }, {
+    "id" : "DoubleOverLab",
+    "ar" : "04 Double Glazing Overlap",
+    "en" : "04 Double Glazing Overlap"
+  }, {
+    "id" : "Liminated",
+    "ar" : "05 Laminated Glass",
+    "en" : "=05 Laminated Glass"
+  }, {
+    "id" : "LiminatedDouble",
+    "ar" : "06 Double Laminated Glass",
+    "en" : "06 Double Laminated Glass"
+  } ]
+}

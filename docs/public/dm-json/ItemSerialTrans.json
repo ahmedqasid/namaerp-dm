@@ -1,0 +1,245 @@
+{
+  "entity" : "ItemSerialTrans",
+  "table" : "ItemSerialTrans",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ItemSerialTrans.html",
+  "fields" : [ {
+    "id" : "activePercentage",
+    "column" : "activePercentage",
+    "type" : "Text"
+  }, {
+    "id" : "box",
+    "column" : "box",
+    "ar" : "صندوق",
+    "en" : "Box",
+    "type" : "Text"
+  }, {
+    "id" : "color",
+    "column" : "color",
+    "ar" : "اللون",
+    "en" : "Color",
+    "type" : "Color"
+  }, {
+    "id" : "commonData.analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "commonData.branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "commonData.department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "commonData.firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "commonData.fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "commonData.fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "commonData.legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "commonData.origin",
+    "columns" : [ "originActualCode", " originCode", " originType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "commonData.originCode",
+    "column" : "originCode",
+    "ar" : " الكود",
+    "en" : " Code",
+    "type" : "Text"
+  }, {
+    "id" : "commonData.originCreationDate",
+    "column" : "originCreationDate",
+    "ar" : " تاريخ الإنشاء",
+    "en" : " Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "commonData.originId",
+    "column" : "originId",
+    "type" : "ID"
+  }, {
+    "id" : "commonData.originLineId",
+    "column" : "originLineId",
+    "type" : "ID"
+  }, {
+    "id" : "commonData.originTransId",
+    "column" : "originTransId",
+    "type" : "ID"
+  }, {
+    "id" : "commonData.originType",
+    "column" : "originType",
+    "ar" : " النوع",
+    "en" : " Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "commonData.requestId",
+    "column" : "requestId",
+    "ar" : "Request Id",
+    "en" : "Request Id",
+    "type" : "ID"
+  }, {
+    "id" : "commonData.sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "commonData.valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "cost",
+    "column" : "cost",
+    "ar" : "التكلفة",
+    "en" : "Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "customerId",
+    "column" : "customerId",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "inActivePercentage",
+    "column" : "inActivePercentage",
+    "type" : "Text"
+  }, {
+    "id" : "invItem",
+    "column" : "invItem_id",
+    "ar" : " الصنف",
+    "en" : " Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "locator",
+    "column" : "locator_id",
+    "ar" : "الموقع",
+    "en" : "Locator",
+    "type" : "Reference",
+    "refTo" : "Locator",
+    "refPath" : "/modules/supplychain/Locator.html"
+  }, {
+    "id" : "lotId",
+    "column" : "lotId",
+    "ar" : "كود الشحنة",
+    "en" : "Lot ID",
+    "type" : "Text"
+  }, {
+    "id" : "measures",
+    "column" : "measures",
+    "ar" : "الأبعاد",
+    "en" : "Measures",
+    "type" : "Measures"
+  }, {
+    "id" : "otherSerial",
+    "column" : "otherSerial",
+    "type" : "Text"
+  }, {
+    "id" : "revisionId",
+    "column" : "revisionId",
+    "ar" : "الإصدار",
+    "en" : "ID",
+    "type" : "Text"
+  }, {
+    "id" : "sequence",
+    "column" : "sequence",
+    "ar" : "المسلسل",
+    "en" : "Sequence",
+    "type" : "Long"
+  }, {
+    "id" : "serialIdx",
+    "column" : "serialIdx",
+    "type" : "Text"
+  }, {
+    "id" : "serialNumber",
+    "column" : "serialNumber",
+    "ar" : "الرقم المسلسل",
+    "en" : "Serial Number",
+    "type" : "Text"
+  }, {
+    "id" : "serialType",
+    "column" : "serialType",
+    "type" : "Enum",
+    "enum" : "SerialType"
+  }, {
+    "id" : "size",
+    "column" : "size",
+    "ar" : "المقاس",
+    "en" : "Size",
+    "type" : "Text"
+  }, {
+    "id" : "subItem",
+    "column" : "subItem_id",
+    "ar" : " السياره",
+    "en" : " Customer Car",
+    "type" : "Reference",
+    "refTo" : "SubItem",
+    "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+  }, {
+    "id" : "supplierId",
+    "column" : "supplierId",
+    "type" : "ID"
+  }, {
+    "id" : "transType",
+    "column" : "transType",
+    "ar" : "نوع القيد النظامي",
+    "en" : "System Transaction Type",
+    "type" : "Enum",
+    "enum" : "QtyTransType"
+  }, {
+    "id" : "warehouse",
+    "column" : "warehouse_id",
+    "ar" : "المخزن",
+    "en" : "Warehouse",
+    "type" : "Reference",
+    "refTo" : "Warehouse",
+    "refPath" : "/modules/supplychain/Warehouse.html"
+  } ]
+}

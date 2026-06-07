@@ -1,0 +1,16 @@
+{
+  "enum" : "AIChatMessageType",
+  "values" : [ {
+    "id" : "User",
+    "ar" : "مستخدم",
+    "en" : "User"
+  }, {
+    "id" : "Assistant"
+  }, {
+    "id" : "System",
+    "ar" : "نظامى",
+    "en" : "System"
+  }, {
+    "id" : "ToolExecutionResult"
+  } ]
+}

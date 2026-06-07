@@ -1,0 +1,29 @@
+{
+  "entity" : "LedgerTransSerial",
+  "table" : "LedgerTransSerial",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/LedgerTransSerial.html",
+  "fields" : [ {
+    "id" : "deleted",
+    "column" : "deleted",
+    "ar" : "محذوف",
+    "en" : "Deleted",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "prefix",
+    "column" : "prefix",
+    "ar" : "بادئة التكويد",
+    "en" : "Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "serial",
+    "column" : "serial",
+    "ar" : "المسلسل",
+    "en" : "Serial",
+    "type" : "Long"
+  } ]
+}

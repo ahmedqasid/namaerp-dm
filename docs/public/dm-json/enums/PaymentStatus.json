@@ -1,0 +1,12 @@
+{
+  "enum" : "PaymentStatus",
+  "values" : [ {
+    "id" : "Paid",
+    "ar" : "مُسَدّدْ",
+    "en" : "Paid"
+  }, {
+    "id" : "Unpaid",
+    "ar" : " غير مُسَدّدْ",
+    "en" : " Not Paid"
+  } ]
+}

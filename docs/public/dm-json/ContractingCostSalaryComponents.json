@@ -1,0 +1,26 @@
+{
+  "entity" : "ContractingCostSalaryComponents",
+  "table" : "ContractingCostSalaryComponents",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ContractingCostSalaryComponents.html",
+  "fields" : [ {
+    "id" : "componentType",
+    "column" : "componentType_id",
+    "ar" : "نوع المفرد",
+    "en" : "Component Type",
+    "type" : "Reference",
+    "refTo" : "SalaryComponentType",
+    "refPath" : "/modules/humanresource-payroll/SalaryComponentType.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "otherComponentEffectType",
+    "column" : "otherComponentEffectType",
+    "ar" : "معاملة المفردات من نوع أخرى",
+    "en" : "Other Component Effect Type",
+    "type" : "Enum",
+    "enum" : "OtherComponentEffectType"
+  } ]
+}

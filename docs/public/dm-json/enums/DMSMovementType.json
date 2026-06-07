@@ -1,0 +1,20 @@
+{
+  "enum" : "DMSMovementType",
+  "values" : [ {
+    "id" : "DMSIn",
+    "ar" : "دخول",
+    "en" : "DMS In"
+  }, {
+    "id" : "DMSOut",
+    "ar" : "خروج",
+    "en" : "DMS Out"
+  }, {
+    "id" : "DMSTransfer",
+    "ar" : "نقل",
+    "en" : "DMS Transfer"
+  }, {
+    "id" : "Lost",
+    "ar" : "فقد",
+    "en" : "Lost"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "enum" : "MediaType",
+  "values" : [ {
+    "id" : "File",
+    "ar" : "File",
+    "en" : "File"
+  }, {
+    "id" : "Image",
+    "ar" : "الصوره",
+    "en" : "Image"
+  }, {
+    "id" : "Video",
+    "ar" : "Video",
+    "en" : "Video"
+  }, {
+    "id" : "Audio",
+    "ar" : "Audio",
+    "en" : "Audio"
+  } ]
+}

@@ -1,0 +1,103 @@
+{
+  "enum" : "CapabilityType",
+  "values" : [ {
+    "id" : "ListView",
+    "ar" : " العرض بقائمة",
+    "en" : " List View"
+  }, {
+    "id" : "RecordView",
+    "ar" : " مطالعة السجل",
+    "en" : " Record View"
+  }, {
+    "id" : "CreateDraft",
+    "ar" : " إنشاء مسودات",
+    "en" : "Create Draft"
+  }, {
+    "id" : "Commit",
+    "ar" : "حفظ",
+    "en" : "Commit"
+  }, {
+    "id" : "PrintOnce",
+    "ar" : "الطباعة مرة واحدة",
+    "en" : "Print Once"
+  }, {
+    "id" : "PrintMoreThanOnce",
+    "ar" : "الطباعة أكثر من مرة",
+    "en" : "Print More Than Once"
+  }, {
+    "id" : "EditAfterCommit",
+    "ar" : " التعديل بعد الحفظ",
+    "en" : "Edit After Commit"
+  }, {
+    "id" : "EditAfterApproval",
+    "ar" : "التعديل بعد الموافقة",
+    "en" : "Edit After Approval"
+  }, {
+    "id" : "DeleteAfterApproval"
+  }, {
+    "id" : "EditUnderApproval",
+    "ar" : "التعديل أثناء انتظار الموافقة",
+    "en" : "Edit While Under Approval"
+  }, {
+    "id" : "Delete",
+    "ar" : "حذف",
+    "en" : "Delete"
+  }, {
+    "id" : "Approve",
+    "ar" : "موافقة",
+    "en" : "Approve"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  }, {
+    "id" : "Revise",
+    "ar" : " مراجعة",
+    "en" : " Revise"
+  }, {
+    "id" : "Unrevise",
+    "ar" : " إلغاء المراجعة",
+    "en" : " Unrevise"
+  }, {
+    "id" : "Duplicate"
+  }, {
+    "id" : "ChangeCapability"
+  }, {
+    "id" : "EditAfterPrint"
+  }, {
+    "id" : "DeleteAfterPrint"
+  }, {
+    "id" : "CanViewTransaction"
+  }, {
+    "id" : "SaveDraft",
+    "ar" : "إضافة مسودة",
+    "en" : "Add Draft"
+  }, {
+    "id" : "CanViewMoreMenu",
+    "ar" : "إمكانية مطالعة قائمة المزيد",
+    "en" : "Can View More Menu"
+  }, {
+    "id" : "PrintDraft",
+    "ar" : "طباعة مسودة",
+    "en" : "Print Draft"
+  }, {
+    "id" : "SearchView"
+  }, {
+    "id" : "Export",
+    "ar" : "اعتماد تصدير"
+  }, {
+    "id" : "Import",
+    "ar" : "اعتماد استيراد",
+    "en" : "Import"
+  }, {
+    "id" : "ViewWithFromDoc"
+  }, {
+    "id" : "DeleteDraft",
+    "ar" : "حذف مسودة",
+    "en" : "Delete Draft"
+  }, {
+    "id" : "EditDocsInClosedShifts"
+  }, {
+    "id" : "DeleteDocsInClosedShifts"
+  } ]
+}

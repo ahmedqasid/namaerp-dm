@@ -1,0 +1,45 @@
+{
+  "entity" : "FRMOOStatusSysEntry",
+  "table" : "FRMOOStatusSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/FRMOOStatusSysEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "operationOrder",
+    "column" : "operationOrder_id",
+    "ar" : "أمر التشغيل",
+    "en" : "Operation Order",
+    "type" : "Reference",
+    "refTo" : "FRMOperationOrder",
+    "refPath" : "/modules/frm/FRMOperationOrder.html"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "status",
+    "column" : "status_id",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Reference",
+    "refTo" : "FRMOOStatus",
+    "refPath" : "/modules/frm/FRMOOStatus.html"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

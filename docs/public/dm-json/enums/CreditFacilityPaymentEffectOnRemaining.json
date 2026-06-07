@@ -1,0 +1,16 @@
+{
+  "enum" : "CreditFacilityPaymentEffectOnRemaining",
+  "values" : [ {
+    "id" : "FullDeductionOfPaymentFromCreditFacilityRemaining",
+    "ar" : "خصم السداد كامل من قيمة التسهيل الائتمانى",
+    "en" : "Full Deduction Of Payment From Credit Facility Remaining"
+  }, {
+    "id" : "InterestDeductionThenCreditFacilityRemainingDeduction",
+    "ar" : "خصم الفائدة اولا ثم الخصم من قيمة المتبقي من التسهيل الائتمانى",
+    "en" : "Interest Deduction Then Credit Facility Remaining Deduction"
+  }, {
+    "id" : "Manual",
+    "ar" : "يدوي",
+    "en" : "Manual"
+  } ]
+}

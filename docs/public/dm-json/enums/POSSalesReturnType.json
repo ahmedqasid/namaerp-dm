@@ -1,0 +1,12 @@
+{
+  "enum" : "POSSalesReturnType",
+  "values" : [ {
+    "id" : "Cash",
+    "ar" : "كاش",
+    "en" : "Cash"
+  }, {
+    "id" : "ToCreditNote",
+    "ar" : "إلي إشعار",
+    "en" : "To Credit Note"
+  } ]
+}

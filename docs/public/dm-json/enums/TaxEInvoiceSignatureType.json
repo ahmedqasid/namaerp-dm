@@ -1,0 +1,12 @@
+{
+  "enum" : "TaxEInvoiceSignatureType",
+  "values" : [ {
+    "id" : "Issuer",
+    "ar" : "مُصدر الفاتورة",
+    "en" : "Issuer"
+  }, {
+    "id" : "ServiceProvider",
+    "ar" : "مقدم الخدمة",
+    "en" : "ServiceProvider"
+  } ]
+}

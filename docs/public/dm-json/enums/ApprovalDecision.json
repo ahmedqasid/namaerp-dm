@@ -1,0 +1,28 @@
+{
+  "enum" : "ApprovalDecision",
+  "values" : [ {
+    "id" : "Approve",
+    "ar" : "موافقة",
+    "en" : "Approve"
+  }, {
+    "id" : "Reject",
+    "ar" : "رفض",
+    "en" : "Reject"
+  }, {
+    "id" : "Return",
+    "ar" : "إرجاع",
+    "en" : "Return"
+  }, {
+    "id" : "EscalateToSupervisor",
+    "ar" : "تصعيد الي المدير المباشر",
+    "en" : "Escalate To Direct Supervisor"
+  }, {
+    "id" : "ReturnToPreviousStep",
+    "ar" : "إرجاع للخطوة السابقة",
+    "en" : "Return To Previous Step"
+  }, {
+    "id" : "EscalateToSpecificEmployee",
+    "ar" : "تصعيد الي موظف بعينه",
+    "en" : "Escalate To Direct Supervisor"
+  } ]
+}

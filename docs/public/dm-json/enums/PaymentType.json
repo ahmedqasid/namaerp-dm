@@ -1,0 +1,12 @@
+{
+  "enum" : "PaymentType",
+  "values" : [ {
+    "id" : "FixedValue",
+    "ar" : "قيمة ثابتة",
+    "en" : "Fixed Value"
+  }, {
+    "id" : "Percentage",
+    "ar" : "نسبة",
+    "en" : "Percentage"
+  } ]
+}

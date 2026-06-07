@@ -1,0 +1,16 @@
+{
+  "enum" : "YesNoInheritedPolicy",
+  "values" : [ {
+    "id" : "Yes",
+    "ar" : "نعم",
+    "en" : "Yes"
+  }, {
+    "id" : "No",
+    "ar" : "لا",
+    "en" : "No"
+  }, {
+    "id" : "Inherited",
+    "ar" : "موروث",
+    "en" : "Inherited"
+  } ]
+}

@@ -1,0 +1,98 @@
+{
+  "entity" : "IPInvestmentSysEntry",
+  "table" : "IPInvestmentSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/IPInvestmentSysEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currencyRate",
+    "column" : "currencyRate",
+    "ar" : "المعدل",
+    "en" : "Currency Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "entryType",
+    "column" : "entryType",
+    "type" : "Enum",
+    "enum" : "IPInvestmentSysEntryType"
+  }, {
+    "id" : "fromState",
+    "column" : "fromState",
+    "ar" : " من حالة",
+    "en" : " From Status",
+    "type" : "Enum",
+    "enum" : "InvestmentDocStatus"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "localTotal",
+    "column" : "localTotal",
+    "ar" : "السعر بالعملة المحلية",
+    "en" : "Price in Local Currency",
+    "type" : "Decimal"
+  }, {
+    "id" : "originDoc",
+    "columns" : [ "originDocActualCode", " originDocCode", " originDocEntityType", " originDocId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "profitInValue",
+    "column" : "profitInValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "profitOutValue",
+    "column" : "profitOutValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "purchaseDate",
+    "column" : "purchaseDate",
+    "ar" : "تاريخ الشراء",
+    "en" : "Purchase date",
+    "type" : "Date"
+  }, {
+    "id" : "quantity",
+    "column" : "quantity",
+    "ar" : "الكمية",
+    "en" : "Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "target",
+    "columns" : [ "targetActualCode", " targetCode", " targetEntityType", " targetId" ],
+    "ar" : "الجهة",
+    "en" : "Taregt",
+    "type" : "Genericreference"
+  }, {
+    "id" : "toState",
+    "column" : "toState",
+    "ar" : " إلى حالة",
+    "en" : " To Status",
+    "type" : "Enum",
+    "enum" : "InvestmentDocStatus"
+  }, {
+    "id" : "total",
+    "column" : "total",
+    "ar" : "الإجمالي",
+    "en" : "Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "unitPrice",
+    "column" : "unitPrice",
+    "ar" : "سعر الوحدة",
+    "en" : "Unit Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

@@ -1,0 +1,63 @@
+{
+  "entity" : "FinancialPaperStatusEntry",
+  "table" : "FinancialPaperStatusEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/FinancialPaperStatusEntry.html",
+  "fields" : [ {
+    "id" : "cancelValue",
+    "column" : "cancelValue",
+    "ar" : "القيمة الملغاة",
+    "en" : "Cancel Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "financialPaper",
+    "column" : "financialPaper_id",
+    "ar" : "الورقة التجارية",
+    "en" : "Commercial Paper",
+    "type" : "Reference",
+    "refTo" : "FinancialPaper",
+    "refPath" : "/modules/accounting-banks/FinancialPaper.html"
+  }, {
+    "id" : "fromStatus",
+    "column" : "fromStatus",
+    "ar" : "من حالة",
+    "en" : "From Status",
+    "type" : "Enum",
+    "enum" : "FPStatus"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "originDoc",
+    "columns" : [ "originDocActualCode", " originDocCode", " originDocEntityType", " originDocId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "partialPaidValue",
+    "column" : "partialPaidValue",
+    "ar" : "القيمة المسددة",
+    "en" : "Partial Paid Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "toStatus",
+    "column" : "toStatus",
+    "ar" : "إلى حالة",
+    "en" : "To Status",
+    "type" : "Enum",
+    "enum" : "FPStatus"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

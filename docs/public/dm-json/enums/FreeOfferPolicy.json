@@ -1,0 +1,12 @@
+{
+  "enum" : "FreeOfferPolicy",
+  "values" : [ {
+    "id" : "Once",
+    "ar" : "مرة واحدة",
+    "en" : "Once"
+  }, {
+    "id" : "Multiple",
+    "ar" : "مضاعفات",
+    "en" : "Multiple"
+  } ]
+}

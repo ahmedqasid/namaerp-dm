@@ -1,0 +1,16 @@
+{
+  "enum" : "CoProductCostType",
+  "values" : [ {
+    "id" : "FixedCost",
+    "ar" : "تكلفة ثابتة",
+    "en" : "Fixed Cost"
+  }, {
+    "id" : "CostPercentage",
+    "ar" : "نسبة التكلفة",
+    "en" : "Cost Percentage"
+  }, {
+    "id" : "NoCost",
+    "ar" : "بدون تكلفة",
+    "en" : "No Cost"
+  } ]
+}

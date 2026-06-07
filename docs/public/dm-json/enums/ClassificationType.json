@@ -1,0 +1,28 @@
+{
+  "enum" : "ClassificationType",
+  "values" : [ {
+    "id" : "Normal",
+    "ar" : "عادية",
+    "en" : "Normal"
+  }, {
+    "id" : "BasicSalary",
+    "ar" : " الراتب الأساسى",
+    "en" : " Basic Salary"
+  }, {
+    "id" : "HousingAllowance",
+    "ar" : "بدل سكن",
+    "en" : "Housing Allowance"
+  }, {
+    "id" : "TransportationAllowance",
+    "ar" : "بدل مواصلات",
+    "en" : "Transportation Allowance"
+  }, {
+    "id" : "WorkEnd",
+    "ar" : "نهاية خدمة",
+    "en" : "Work End"
+  }, {
+    "id" : "Installment",
+    "ar" : "قسط",
+    "en" : "Installment"
+  } ]
+}

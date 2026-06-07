@@ -1,0 +1,79 @@
+{
+  "entity" : "POS.POSFinancialSysLine",
+  "table" : "POSFinancialSysLine",
+  "module" : "pos-app",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSFinancialSysLine.html",
+  "fields" : [ {
+    "id" : "cash",
+    "column" : "cash",
+    "ar" : "النقدي",
+    "en" : "Cash",
+    "type" : "Boolean"
+  }, {
+    "id" : "currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "POS.POSCurrency",
+    "refPath" : "/modules/pos-app/POS.POSCurrency.html"
+  }, {
+    "id" : "debit",
+    "column" : "debit",
+    "ar" : "مدين",
+    "en" : "Debit",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "originCode",
+    "column" : "originCode",
+    "ar" : " الكود",
+    "en" : " Code",
+    "type" : "Text"
+  }, {
+    "id" : "originId",
+    "column" : "originId",
+    "type" : "ID"
+  }, {
+    "id" : "originType",
+    "column" : "originType",
+    "ar" : " النوع",
+    "en" : " Entity Type",
+    "type" : "Text"
+  }, {
+    "id" : "paymentMethodId",
+    "column" : "paymentMethodId",
+    "type" : "ID"
+  }, {
+    "id" : "paymentMethodName",
+    "column" : "paymentMethodName",
+    "ar" : "إسم طريقة الدفع",
+    "en" : "Payment Method Name",
+    "type" : "Text"
+  }, {
+    "id" : "registerId",
+    "column" : "registerId",
+    "type" : "ID"
+  }, {
+    "id" : "shiftCode",
+    "column" : "shiftCode",
+    "ar" : "كود الوردية",
+    "en" : "Shift Code",
+    "type" : "Text"
+  }, {
+    "id" : "value",
+    "column" : "value",
+    "ar" : "القيمة",
+    "en" : "Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "DateAndTime"
+  } ]
+}

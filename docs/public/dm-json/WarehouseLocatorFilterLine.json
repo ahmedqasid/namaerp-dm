@@ -1,0 +1,49 @@
+{
+  "entity" : "WarehouseLocatorFilterLine",
+  "table" : "WarehouseLocatorFilterLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/WarehouseLocatorFilterLine.html",
+  "fields" : [ {
+    "id" : "entityTypeList",
+    "column" : "entityTypeList_id",
+    "ar" : "قائمة الأنواع",
+    "en" : "Entity Type List",
+    "type" : "Reference",
+    "refTo" : "EntityTypeList",
+    "refPath" : "/modules/basic/EntityTypeList.html"
+  }, {
+    "id" : "forType",
+    "column" : "forType",
+    "ar" : "للنوع",
+    "en" : "For Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "showLocatorsRelatedToItemOnly",
+    "column" : "showLocatorsRelatedToItemOnly",
+    "ar" : "عرض المواقع المرتبطة بالصنف فقط",
+    "en" : "Show Locators Which Related To Item Only",
+    "type" : "Boolean"
+  }, {
+    "id" : "showLocatorsWithAvailableQtyOnly",
+    "column" : "showLocatorsWithAvailableQtyOnly",
+    "ar" : "عرض المواقع التي بها كميات فقط",
+    "en" : "Show Locators With Available Quantity Only",
+    "type" : "Boolean"
+  }, {
+    "id" : "showWarehousesRelatedToItemOnly",
+    "column" : "showWarehousesRelatedToItemOnly",
+    "ar" : "عرض المخازن المرتبطة بالصنف فقط",
+    "en" : "Show Warehouses Which Related To Item Only",
+    "type" : "Boolean"
+  }, {
+    "id" : "showWarehousesWithAvailableQtyOnly",
+    "column" : "showWarehousesWithAvailableQtyOnly",
+    "ar" : "عرض المخازن التي بها كميات فقط",
+    "en" : "Show Warehouses With Available Quantity Only",
+    "type" : "Boolean"
+  } ]
+}

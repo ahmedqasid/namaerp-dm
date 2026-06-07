@@ -1,0 +1,12 @@
+{
+  "enum" : "ContractTypeDependency",
+  "values" : [ {
+    "id" : "ProjectContract",
+    "ar" : "عقد مشروع",
+    "en" : "Project Contract"
+  }, {
+    "id" : "ContractingCotract",
+    "ar" : "عقد مقاول باطن",
+    "en" : "Contractor Contract"
+  } ]
+}

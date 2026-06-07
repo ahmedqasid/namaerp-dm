@@ -1,0 +1,12 @@
+{
+  "enum" : "ConfigPropertyName",
+  "values" : [ {
+    "id" : "Global",
+    "ar" : "شامل",
+    "en" : "Global"
+  }, {
+    "id" : "Entity",
+    "ar" : "سجل",
+    "en" : "Entity"
+  } ]
+}

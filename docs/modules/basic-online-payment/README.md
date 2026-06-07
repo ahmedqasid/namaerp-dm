@@ -1,7 +1,0 @@
-<div class="ignore-in-full-text-search">
-
-# Online Payment Integration (KNet)
-  - [OnlinePaymentConfig](/modules/basic-online-payment/OnlinePaymentConfig.md)
-  - [PaymentLinksCreationDoc](/modules/basic-online-payment/PaymentLinksCreationDoc.md)
-
-</div>

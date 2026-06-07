@@ -1,0 +1,16 @@
+{
+  "enum" : "MaintenanceStatus",
+  "values" : [ {
+    "id" : "Planned",
+    "ar" : "مخطّطة",
+    "en" : "Planned"
+  }, {
+    "id" : "Executed",
+    "ar" : "منفذه",
+    "en" : "Executed"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
+  } ]
+}

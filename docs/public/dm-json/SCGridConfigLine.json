@@ -1,0 +1,23 @@
+{
+  "entity" : "SCGridConfigLine",
+  "table" : "SCGridConfigLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SCGridConfigLine.html",
+  "fields" : [ {
+    "id" : "fieldId",
+    "column" : "fieldId",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "width",
+    "column" : "width",
+    "ar" : "الأبعاد | العرض",
+    "en" : "Measures | Width",
+    "type" : "Text"
+  } ]
+}

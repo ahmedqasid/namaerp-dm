@@ -1,0 +1,20 @@
+{
+  "enum" : "WarehouseSourceType",
+  "values" : [ {
+    "id" : "ReservationWarehouse",
+    "ar" : "مخزن الحجز",
+    "en" : "Reservation Warehouse"
+  }, {
+    "id" : "ItemWarehouse",
+    "ar" : "مخزن الصنف",
+    "en" : "Item Warehouse"
+  }, {
+    "id" : "FromSQLStatment",
+    "ar" : "SQL من جملة",
+    "en" : "SQL Statement"
+  }, {
+    "id" : "WarehouseFieldId",
+    "ar" : "حقل المخزن",
+    "en" : "Warehouse Field ID"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "enum" : "FSTotals",
+  "values" : [ {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  }, {
+    "id" : "BalanceAtTheLastPeriod",
+    "ar" : "الرصيد في الفترة الأخيرة",
+    "en" : "Balance At The Last Period"
+  }, {
+    "id" : "SumOfAllColumns",
+    "ar" : "إجمالى كل الأعمدة",
+    "en" : "Sum Of All Columns"
+  }, {
+    "id" : "SumOfAllColumnsExceptOpen",
+    "ar" : "إجمالى كل الأعمدة عدا الإفتتاحى",
+    "en" : "Sum Of All Columns Except Open"
+  } ]
+}

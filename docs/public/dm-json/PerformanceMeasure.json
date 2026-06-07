@@ -1,0 +1,2234 @@
+{
+  "entity" : "PerformanceMeasure",
+  "table" : "PerformanceMeasure",
+  "module" : "humanresource-payroll",
+  "ar" : "قيمة مؤشر أداء",
+  "arPlural" : "قيم مؤشرات الأداء",
+  "en" : "Performance Measure",
+  "enPlural" : "Performance Measures",
+  "page" : "https://dm.namasoft.com/modules/humanresource-payroll/PerformanceMeasure.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "empRange.formRef1",
+    "columns" : [ "formRef1ActualCode", " formRef1Code", " formRef1EntityType", " formRef1Id" ],
+    "ar" : "من مرجع 1",
+    "en" : "From Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "empRange.fromAnalysisSet",
+    "column" : "fromAnalysisSet_id",
+    "ar" : "من مجموعه تحليليه",
+    "en" : "From Analysis Set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "empRange.fromBranch",
+    "column" : "fromBranch_id",
+    "ar" : "من فرع",
+    "en" : "From Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "empRange.fromDepartmentSection",
+    "column" : "fromDepartmentSection_id",
+    "ar" : "من قسم وظيفي",
+    "en" : "From Department Section",
+    "type" : "Reference",
+    "refTo" : "DepartmentSection",
+    "refPath" : "/modules/basic/DepartmentSection.html"
+  }, {
+    "id" : "empRange.fromDept",
+    "column" : "fromDept_id",
+    "ar" : " من إدارة",
+    "en" : " From Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "empRange.fromDescription10",
+    "column" : "fromDescription10",
+    "ar" : "من وصف 10",
+    "en" : "From Description 10",
+    "type" : "Text"
+  }, {
+    "id" : "empRange.fromEmpWorkPlace",
+    "column" : "fromEmpWorkPlace_id",
+    "ar" : "من مكان عمل",
+    "en" : "From Employee WorkPlace",
+    "type" : "Reference",
+    "refTo" : "EmpWorkPlace",
+    "refPath" : "/modules/basic/EmpWorkPlace.html"
+  }, {
+    "id" : "empRange.fromEmployee",
+    "column" : "fromEmployee_id",
+    "ar" : "من موظف",
+    "en" : "From Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "empRange.fromEmployeeDepartment",
+    "column" : "fromEmployeeDepartment_id",
+    "ar" : "من إدارة موظف",
+    "en" : "From Employee Department",
+    "type" : "Reference",
+    "refTo" : "EmployeeDepartment",
+    "refPath" : "/modules/basic/EmployeeDepartment.html"
+  }, {
+    "id" : "empRange.fromGroup",
+    "column" : "fromGroup_id",
+    "ar" : "من مجموعة",
+    "en" : "From Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "empRange.fromHealthInsuranceCompany",
+    "column" : "fromHealthInsuranceCompany_id",
+    "ar" : "من شركة التأمين الطبى",
+    "en" : "From Health Insurance Company",
+    "type" : "Reference",
+    "refTo" : "ThirdParty",
+    "refPath" : "/modules/basic/ThirdParty.html"
+  }, {
+    "id" : "empRange.fromJobPosition",
+    "column" : "fromJobPosition_id",
+    "ar" : "من وظيفة",
+    "en" : "From Job Position",
+    "type" : "Reference",
+    "refTo" : "JobPosition",
+    "refPath" : "/modules/basic/JobPosition.html"
+  }, {
+    "id" : "empRange.fromNationality",
+    "column" : "fromNationality_id",
+    "ar" : "من جنسية",
+    "en" : "From Nationality",
+    "type" : "Reference",
+    "refTo" : "Nationality",
+    "refPath" : "/modules/basic/Nationality.html"
+  }, {
+    "id" : "empRange.fromOrganizationPosition",
+    "column" : "fromOrganizationPosition_id",
+    "ar" : "من درجة وظيفية",
+    "en" : "From Organization Position",
+    "type" : "Reference",
+    "refTo" : "OrganizationPosition",
+    "refPath" : "/modules/basic/OrganizationPosition.html"
+  }, {
+    "id" : "empRange.fromSector",
+    "column" : "fromSector_id",
+    "ar" : "من قطاع",
+    "en" : "From Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "empRange.toAnalysisSet",
+    "column" : "toAnalysisSet_id",
+    "ar" : "إلي مجموعه تحليليه",
+    "en" : "To Snalysis Set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "empRange.toBranch",
+    "column" : "toBranch_id",
+    "ar" : "إلى فرع",
+    "en" : "To Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "empRange.toDepartmentSection",
+    "column" : "toDepartmentSection_id",
+    "ar" : "إلى قسم وظيفي",
+    "en" : "To Department Section",
+    "type" : "Reference",
+    "refTo" : "DepartmentSection",
+    "refPath" : "/modules/basic/DepartmentSection.html"
+  }, {
+    "id" : "empRange.toDept",
+    "column" : "toDept_id",
+    "ar" : "إلي اداره",
+    "en" : "To Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "empRange.toDescription10",
+    "column" : "toDescription10",
+    "ar" : "إلى وصف 10",
+    "en" : "To Description 10",
+    "type" : "Text"
+  }, {
+    "id" : "empRange.toEmpWorkPlace",
+    "column" : "toEmpWorkPlace_id",
+    "ar" : "الي مكان عمل",
+    "en" : "To Employee WorkPlace",
+    "type" : "Reference",
+    "refTo" : "EmpWorkPlace",
+    "refPath" : "/modules/basic/EmpWorkPlace.html"
+  }, {
+    "id" : "empRange.toEmployee",
+    "column" : "toEmployee_id",
+    "ar" : "الي موظف",
+    "en" : "To Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "empRange.toEmployeeDepartment",
+    "column" : "toEmployeeDepartment_id",
+    "ar" : "إلي إدارة موظف",
+    "en" : "To Employee Department",
+    "type" : "Reference",
+    "refTo" : "EmployeeDepartment",
+    "refPath" : "/modules/basic/EmployeeDepartment.html"
+  }, {
+    "id" : "empRange.toGroup",
+    "column" : "toGroup_id",
+    "ar" : "إلي مجموعة",
+    "en" : "To Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "empRange.toHealthInsuranceCompany",
+    "column" : "toHealthInsuranceCompany_id",
+    "ar" : "إلى شركة التأمين الطبى",
+    "en" : "To Health Insurance Company",
+    "type" : "Reference",
+    "refTo" : "ThirdParty",
+    "refPath" : "/modules/basic/ThirdParty.html"
+  }, {
+    "id" : "empRange.toJobPosition",
+    "column" : "toJobPosition_id",
+    "ar" : "إلى وظيفة",
+    "en" : "To Job Position",
+    "type" : "Reference",
+    "refTo" : "JobPosition",
+    "refPath" : "/modules/basic/JobPosition.html"
+  }, {
+    "id" : "empRange.toNationality",
+    "column" : "toNationality_id",
+    "ar" : "إلى جنسية",
+    "en" : "To Nationality",
+    "type" : "Reference",
+    "refTo" : "Nationality",
+    "refPath" : "/modules/basic/Nationality.html"
+  }, {
+    "id" : "empRange.toOrganizationPosition",
+    "column" : "toOrganizationPosition_id",
+    "ar" : "إلى درجة وظيفية",
+    "en" : "To Organization Position",
+    "type" : "Reference",
+    "refTo" : "OrganizationPosition",
+    "refPath" : "/modules/basic/OrganizationPosition.html"
+  }, {
+    "id" : "empRange.toRef1",
+    "columns" : [ "toRef1ActualCode", " toRef1Code", " toRef1EntityType", " toRef1Id" ],
+    "ar" : "إلى مرجع 1",
+    "en" : "To Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "empRange.toSector",
+    "column" : "toSector_id",
+    "ar" : "إلي قطاع",
+    "en" : "To Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "hrCalendar",
+    "column" : "hrCalendar_id",
+    "ar" : "تقويم الرواتب",
+    "en" : "HR Calendar",
+    "type" : "Reference",
+    "refTo" : "HRCalendar",
+    "refPath" : "/modules/humanresource-payroll/HRCalendar.html"
+  }, {
+    "id" : "hrPeriod",
+    "column" : "hrPeriod_id",
+    "ar" : "فترة الرواتب",
+    "en" : "HR Period",
+    "type" : "Reference",
+    "refTo" : "HRPeriod",
+    "refPath" : "/modules/humanresource-payroll/HRPeriod.html"
+  }, {
+    "id" : "hrYear",
+    "column" : "hrYear_id",
+    "ar" : "سنة الرواتب",
+    "en" : "HR Year",
+    "type" : "Reference",
+    "refTo" : "HRYear",
+    "refPath" : "/modules/humanresource-payroll/HRYear.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "issuance",
+    "column" : "issuance_id",
+    "ar" : "الصرفية",
+    "en" : "Issuance",
+    "type" : "Reference",
+    "refTo" : "HRSalaryIssuance",
+    "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "salaryGenerationRange",
+    "column" : "salaryGenerationRange_id",
+    "ar" : "مجال اصدار الرواتب",
+    "en" : "Salary Generation Range",
+    "type" : "Reference",
+    "refTo" : "SalaryGenerationRange",
+    "refPath" : "/modules/humanresource-payroll/SalaryGenerationRange.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
+    "type" : "BigText"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "calculatedDetails",
+    "table" : "CalculatedIndicatorLine",
+    "joinColumn" : "performanceMeasure_id",
+    "ar" : "المؤشرات المحسوبة",
+    "en" : "Calculated Details",
+    "fields" : [ {
+      "id" : "calculatedDetails.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "calculatedDetails.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "calculatedDetails.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "calculatedDetails.employee",
+      "column" : "employee_id",
+      "ar" : "الموظف",
+      "en" : "Employee",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "calculatedDetails.hrPeriod",
+      "column" : "hrPeriod_id",
+      "ar" : "فترة الرواتب",
+      "en" : "HR Period",
+      "type" : "Reference",
+      "refTo" : "HRPeriod",
+      "refPath" : "/modules/humanresource-payroll/HRPeriod.html"
+    }, {
+      "id" : "calculatedDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "calculatedDetails.indicator1.indicator",
+      "column" : "i1Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator1.sysValue",
+      "column" : "i1SysValue",
+      "ar" : "القيـــمة1|نظامى",
+      "en" : "Value1|System",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator1.value",
+      "column" : "i1Value",
+      "ar" : "القيـــمة1|يدوى",
+      "en" : "Value1|Manual",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator10.indicator",
+      "column" : "i10Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator10.sysValue",
+      "column" : "i10SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator10.value",
+      "column" : "i10Value",
+      "ar" : "قيمة 10",
+      "en" : "Value 10",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator11.indicator",
+      "column" : "i11Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator11.sysValue",
+      "column" : "i11SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator11.value",
+      "column" : "i11Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator12.indicator",
+      "column" : "i12Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator12.sysValue",
+      "column" : "i12SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator12.value",
+      "column" : "i12Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator13.indicator",
+      "column" : "i13Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator13.sysValue",
+      "column" : "i13SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator13.value",
+      "column" : "i13Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator14.indicator",
+      "column" : "i14Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator14.sysValue",
+      "column" : "i14SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator14.value",
+      "column" : "i14Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator15.indicator",
+      "column" : "i15Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator15.sysValue",
+      "column" : "i15SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator15.value",
+      "column" : "i15Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator16.indicator",
+      "column" : "i16Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator16.sysValue",
+      "column" : "i16SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator16.value",
+      "column" : "i16Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator17.indicator",
+      "column" : "i17Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator17.sysValue",
+      "column" : "i17SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator17.value",
+      "column" : "i17Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator18.indicator",
+      "column" : "i18Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator18.sysValue",
+      "column" : "i18SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator18.value",
+      "column" : "i18Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator19.indicator",
+      "column" : "i19Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator19.sysValue",
+      "column" : "i19SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator19.value",
+      "column" : "i19Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator2.indicator",
+      "column" : "i2Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator2.sysValue",
+      "column" : "i2SysValue",
+      "ar" : "القيـــمة2|نظامى",
+      "en" : "Value2|System",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator2.value",
+      "column" : "i2Value",
+      "ar" : "القيـــمة2|يدوى",
+      "en" : "Value2|Manual",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator20.indicator",
+      "column" : "i20Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator20.sysValue",
+      "column" : "i20SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator20.value",
+      "column" : "i20Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator3.indicator",
+      "column" : "i3Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator3.sysValue",
+      "column" : "i3SysValue",
+      "ar" : "القيـــمة3|نظامى",
+      "en" : "Value3|System",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator3.value",
+      "column" : "i3Value",
+      "ar" : "القيـــمة3|يدوى",
+      "en" : "Value3|Manual",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator4.indicator",
+      "column" : "i4Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator4.sysValue",
+      "column" : "i4SysValue",
+      "ar" : "القيـــمة4|نظامى",
+      "en" : "Value4|System",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator4.value",
+      "column" : "i4Value",
+      "ar" : "القيـــمة4|يدوى",
+      "en" : "Value4|Manual",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator5.indicator",
+      "column" : "i5Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator5.sysValue",
+      "column" : "i5SysValue",
+      "ar" : "القيـــمة5|نظامى",
+      "en" : "Value5|System",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator5.value",
+      "column" : "i5Value",
+      "ar" : "القيـــمة5|يدوى",
+      "en" : "Value5|Manual",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator6.indicator",
+      "column" : "i6Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator6.sysValue",
+      "column" : "i6SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator6.value",
+      "column" : "i6Value",
+      "ar" : "قيمة 6",
+      "en" : "Value 6",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator7.indicator",
+      "column" : "i7Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator7.sysValue",
+      "column" : "i7SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator7.value",
+      "column" : "i7Value",
+      "ar" : "قيمة 7",
+      "en" : "Value 7",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator8.indicator",
+      "column" : "i8Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator8.sysValue",
+      "column" : "i8SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator8.value",
+      "column" : "i8Value",
+      "ar" : "قيمة 8",
+      "en" : "Value 8",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator9.indicator",
+      "column" : "i9Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "calculatedDetails.indicator9.sysValue",
+      "column" : "i9SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.indicator9.value",
+      "column" : "i9Value",
+      "ar" : "قيمة 9",
+      "en" : "Value 9",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.issuance",
+      "column" : "issuance_id",
+      "ar" : "الصرفية",
+      "en" : "Issuance",
+      "type" : "Reference",
+      "refTo" : "HRSalaryIssuance",
+      "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+    }, {
+      "id" : "calculatedDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "calculatedDetails.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "calculatedDetails.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "calculatedDetails.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "calculatedDetails.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "calculatedDetails.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "calculatedDetails.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "calculatedDetails.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "manualDetails",
+    "table" : "ManualIndicatorLine",
+    "joinColumn" : "performanceMeasure_id",
+    "ar" : "المؤشرات اليدوية",
+    "en" : "Manual Details",
+    "fields" : [ {
+      "id" : "manualDetails.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "manualDetails.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "manualDetails.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "manualDetails.employee",
+      "column" : "employee_id",
+      "ar" : "الموظف",
+      "en" : "Employee",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "manualDetails.hrPeriod",
+      "column" : "hrPeriod_id",
+      "ar" : "فترة الرواتب",
+      "en" : "HR Period",
+      "type" : "Reference",
+      "refTo" : "HRPeriod",
+      "refPath" : "/modules/humanresource-payroll/HRPeriod.html"
+    }, {
+      "id" : "manualDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "manualDetails.indicator1.indicator",
+      "column" : "i1Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator1.sysValue",
+      "column" : "i1SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator1.value",
+      "column" : "i1Value",
+      "ar" : "قيمة 1",
+      "en" : "Value 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator10.indicator",
+      "column" : "i10Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator10.sysValue",
+      "column" : "i10SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator10.value",
+      "column" : "i10Value",
+      "ar" : "قيمة 10",
+      "en" : "Value 10",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator11.indicator",
+      "column" : "i11Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator11.sysValue",
+      "column" : "i11SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator11.value",
+      "column" : "i11Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator12.indicator",
+      "column" : "i12Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator12.sysValue",
+      "column" : "i12SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator12.value",
+      "column" : "i12Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator13.indicator",
+      "column" : "i13Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator13.sysValue",
+      "column" : "i13SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator13.value",
+      "column" : "i13Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator14.indicator",
+      "column" : "i14Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator14.sysValue",
+      "column" : "i14SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator14.value",
+      "column" : "i14Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator15.indicator",
+      "column" : "i15Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator15.sysValue",
+      "column" : "i15SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator15.value",
+      "column" : "i15Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator16.indicator",
+      "column" : "i16Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator16.sysValue",
+      "column" : "i16SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator16.value",
+      "column" : "i16Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator17.indicator",
+      "column" : "i17Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator17.sysValue",
+      "column" : "i17SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator17.value",
+      "column" : "i17Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator18.indicator",
+      "column" : "i18Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator18.sysValue",
+      "column" : "i18SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator18.value",
+      "column" : "i18Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator19.indicator",
+      "column" : "i19Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator19.sysValue",
+      "column" : "i19SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator19.value",
+      "column" : "i19Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator2.indicator",
+      "column" : "i2Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator2.sysValue",
+      "column" : "i2SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator2.value",
+      "column" : "i2Value",
+      "ar" : "قيمة 2",
+      "en" : "Value 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator20.indicator",
+      "column" : "i20Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator20.sysValue",
+      "column" : "i20SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator20.value",
+      "column" : "i20Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator3.indicator",
+      "column" : "i3Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator3.sysValue",
+      "column" : "i3SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator3.value",
+      "column" : "i3Value",
+      "ar" : "قيمة 3",
+      "en" : "Value 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator4.indicator",
+      "column" : "i4Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator4.sysValue",
+      "column" : "i4SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator4.value",
+      "column" : "i4Value",
+      "ar" : "قيمة 4",
+      "en" : "Value 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator5.indicator",
+      "column" : "i5Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator5.sysValue",
+      "column" : "i5SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator5.value",
+      "column" : "i5Value",
+      "ar" : "قيمة 5",
+      "en" : "Value 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator6.indicator",
+      "column" : "i6Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator6.sysValue",
+      "column" : "i6SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator6.value",
+      "column" : "i6Value",
+      "ar" : "قيمة 6",
+      "en" : "Value 6",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator7.indicator",
+      "column" : "i7Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator7.sysValue",
+      "column" : "i7SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator7.value",
+      "column" : "i7Value",
+      "ar" : "قيمة 7",
+      "en" : "Value 7",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator8.indicator",
+      "column" : "i8Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator8.sysValue",
+      "column" : "i8SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator8.value",
+      "column" : "i8Value",
+      "ar" : "قيمة 8",
+      "en" : "Value 8",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator9.indicator",
+      "column" : "i9Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "manualDetails.indicator9.sysValue",
+      "column" : "i9SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.indicator9.value",
+      "column" : "i9Value",
+      "ar" : "قيمة 9",
+      "en" : "Value 9",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.issuance",
+      "column" : "issuance_id",
+      "ar" : "الصرفية",
+      "en" : "Issuance",
+      "type" : "Reference",
+      "refTo" : "HRSalaryIssuance",
+      "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+    }, {
+      "id" : "manualDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "manualDetails.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "manualDetails.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "manualDetails.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "manualDetails.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "manualDetails.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "manualDetails.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "manualDetails.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "systemDetails",
+    "table" : "SystemIndicatorLine",
+    "joinColumn" : "performanceMeasure_id",
+    "ar" : "المؤشرات الآلية",
+    "en" : "System Details",
+    "fields" : [ {
+      "id" : "systemDetails.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "systemDetails.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "systemDetails.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "systemDetails.employee",
+      "column" : "employee_id",
+      "ar" : "الموظف",
+      "en" : "Employee",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "systemDetails.hrPeriod",
+      "column" : "hrPeriod_id",
+      "ar" : "فترة الرواتب",
+      "en" : "HR Period",
+      "type" : "Reference",
+      "refTo" : "HRPeriod",
+      "refPath" : "/modules/humanresource-payroll/HRPeriod.html"
+    }, {
+      "id" : "systemDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "systemDetails.indicator1.indicator",
+      "column" : "i1Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator1.sysValue",
+      "column" : "i1SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator1.value",
+      "column" : "i1Value",
+      "ar" : "قيمة 1",
+      "en" : "Value 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator10.indicator",
+      "column" : "i10Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator10.sysValue",
+      "column" : "i10SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator10.value",
+      "column" : "i10Value",
+      "ar" : "قيمة 10",
+      "en" : "Value 10",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator11.indicator",
+      "column" : "i11Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator11.sysValue",
+      "column" : "i11SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator11.value",
+      "column" : "i11Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator12.indicator",
+      "column" : "i12Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator12.sysValue",
+      "column" : "i12SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator12.value",
+      "column" : "i12Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator13.indicator",
+      "column" : "i13Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator13.sysValue",
+      "column" : "i13SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator13.value",
+      "column" : "i13Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator14.indicator",
+      "column" : "i14Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator14.sysValue",
+      "column" : "i14SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator14.value",
+      "column" : "i14Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator15.indicator",
+      "column" : "i15Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator15.sysValue",
+      "column" : "i15SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator15.value",
+      "column" : "i15Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator16.indicator",
+      "column" : "i16Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator16.sysValue",
+      "column" : "i16SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator16.value",
+      "column" : "i16Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator17.indicator",
+      "column" : "i17Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator17.sysValue",
+      "column" : "i17SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator17.value",
+      "column" : "i17Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator18.indicator",
+      "column" : "i18Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator18.sysValue",
+      "column" : "i18SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator18.value",
+      "column" : "i18Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator19.indicator",
+      "column" : "i19Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator19.sysValue",
+      "column" : "i19SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator19.value",
+      "column" : "i19Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator2.indicator",
+      "column" : "i2Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator2.sysValue",
+      "column" : "i2SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator2.value",
+      "column" : "i2Value",
+      "ar" : "قيمة 2",
+      "en" : "Value 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator20.indicator",
+      "column" : "i20Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator20.sysValue",
+      "column" : "i20SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator20.value",
+      "column" : "i20Value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator3.indicator",
+      "column" : "i3Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator3.sysValue",
+      "column" : "i3SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator3.value",
+      "column" : "i3Value",
+      "ar" : "قيمة 3",
+      "en" : "Value 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator4.indicator",
+      "column" : "i4Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator4.sysValue",
+      "column" : "i4SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator4.value",
+      "column" : "i4Value",
+      "ar" : "قيمة 4",
+      "en" : "Value 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator5.indicator",
+      "column" : "i5Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator5.sysValue",
+      "column" : "i5SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator5.value",
+      "column" : "i5Value",
+      "ar" : "قيمة 5",
+      "en" : "Value 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator6.indicator",
+      "column" : "i6Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator6.sysValue",
+      "column" : "i6SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator6.value",
+      "column" : "i6Value",
+      "ar" : "قيمة 6",
+      "en" : "Value 6",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator7.indicator",
+      "column" : "i7Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator7.sysValue",
+      "column" : "i7SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator7.value",
+      "column" : "i7Value",
+      "ar" : "قيمة 7",
+      "en" : "Value 7",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator8.indicator",
+      "column" : "i8Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator8.sysValue",
+      "column" : "i8SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator8.value",
+      "column" : "i8Value",
+      "ar" : "قيمة 8",
+      "en" : "Value 8",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator9.indicator",
+      "column" : "i9Indicator_id",
+      "ar" : "المؤشر",
+      "en" : "Indicator",
+      "type" : "Reference",
+      "refTo" : "PerformanceIndicator",
+      "refPath" : "/modules/humanresource-payroll/PerformanceIndicator.html"
+    }, {
+      "id" : "systemDetails.indicator9.sysValue",
+      "column" : "i9SysValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.indicator9.value",
+      "column" : "i9Value",
+      "ar" : "قيمة 9",
+      "en" : "Value 9",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.issuance",
+      "column" : "issuance_id",
+      "ar" : "الصرفية",
+      "en" : "Issuance",
+      "type" : "Reference",
+      "refTo" : "HRSalaryIssuance",
+      "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+    }, {
+      "id" : "systemDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "systemDetails.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "systemDetails.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "systemDetails.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "systemDetails.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "systemDetails.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "systemDetails.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "systemDetails.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    } ]
+  } ]
+}

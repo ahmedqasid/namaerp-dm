@@ -1,0 +1,12 @@
+{
+  "enum" : "ItemWarehouseRelationType",
+  "values" : [ {
+    "id" : "AllowDealing",
+    "ar" : "السماح بالتعامل",
+    "en" : "Allow Dealing"
+  }, {
+    "id" : "PerventDealing",
+    "ar" : "منع التعامل",
+    "en" : "Pervent Dealing"
+  } ]
+}

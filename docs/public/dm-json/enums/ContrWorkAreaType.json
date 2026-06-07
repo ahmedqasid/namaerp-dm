@@ -1,0 +1,40 @@
+{
+  "enum" : "ContrWorkAreaType",
+  "values" : [ {
+    "id" : "UnitComponentBranch",
+    "ar" : "المكونات الفرعية الوحدات",
+    "en" : "Unit Component Branch"
+  }, {
+    "id" : "UnitComponent",
+    "ar" : "محتوي الوحدة",
+    "en" : "Unit component"
+  }, {
+    "id" : "Floor",
+    "ar" : "طابق",
+    "en" : "Floor"
+  }, {
+    "id" : "Unit",
+    "ar" : "وحدة",
+    "en" : "Unit"
+  }, {
+    "id" : "Building",
+    "ar" : "مبني",
+    "en" : "Building"
+  }, {
+    "id" : "garage",
+    "ar" : "الجراج",
+    "en" : "Garage"
+  }, {
+    "id" : "Square",
+    "ar" : "مربع",
+    "en" : "Square"
+  }, {
+    "id" : "Block",
+    "ar" : "بلوك",
+    "en" : "Block"
+  }, {
+    "id" : "Land",
+    "ar" : "قطعة ارض",
+    "en" : "Land"
+  } ]
+}

@@ -1,0 +1,269 @@
+{
+  "entity" : "POS.PosRequiredFields",
+  "table" : "PosRequiredFields",
+  "module" : "pos-app",
+  "ar" : "الحقول المطلوبه لنقاط البيع",
+  "arPlural" : " الحقول المطلوبه لنقاط البيع",
+  "en" : "Pos Required Fields",
+  "enPlural" : " Pos Required Fields",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.PosRequiredFields.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ],
+  "details" : [ {
+    "id" : "details",
+    "table" : "PosRequiredFieldsLine",
+    "joinColumn" : "reqFields_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "fields" : [ {
+      "id" : "details.customer",
+      "column" : "customer_id",
+      "ar" : "العلاقه مع العميل | العميل",
+      "en" : "Relation With Customer | Customer",
+      "type" : "Reference",
+      "refTo" : "POS.POSCustomer",
+      "refPath" : "/modules/pos-app/POS.POSCustomer.html"
+    }, {
+      "id" : "details.doNotDoNotApplyOnHold",
+      "column" : "doNotDoNotApplyOnHold",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.docCategory",
+      "column" : "docCategory_id",
+      "ar" : "العلاقه مع تصنيف السجل | تصنيف السجل",
+      "en" : "Relation With Document Category | Document Category",
+      "type" : "Reference",
+      "refTo" : "POS.PosDocCategory",
+      "refPath" : "/modules/pos-app/POS.PosDocCategory.html"
+    }, {
+      "id" : "details.entityType",
+      "column" : "entityType",
+      "ar" : "النوع",
+      "en" : "Entity Type",
+      "type" : "Text"
+    }, {
+      "id" : "details.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "Text"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.invoiceClassification",
+      "column" : "invoiceClassification_id",
+      "ar" : "العلاقه مع تصنيف الفاتورة | تصنيف الفاتورة",
+      "en" : "Relation With Invoice classification | Invoice classification",
+      "type" : "Reference",
+      "refTo" : "POS.POSInvoiceClassification",
+      "refPath" : "/modules/pos-app/POS.POSInvoiceClassification.html"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.locator",
+      "column" : "locator_id",
+      "ar" : "العلاقه مع الموقع | الموقع",
+      "en" : "Relation With Locator | Locator",
+      "type" : "Reference",
+      "refTo" : "POS.POSLocation",
+      "refPath" : "/modules/pos-app/POS.POSLocation.html"
+    }, {
+      "id" : "details.posFieldType",
+      "column" : "posFieldType",
+      "ar" : "نوع الحقل",
+      "en" : "Field Type",
+      "type" : "Text"
+    }, {
+      "id" : "details.relationWithClassification",
+      "column" : "relationWithClassification",
+      "ar" : "العلاقه مع تصنيف الفاتورة | العلاقه",
+      "en" : "Relation With Invoice classification | Relation",
+      "type" : "Text"
+    }, {
+      "id" : "details.relationWithCustomer",
+      "column" : "relationWithCustomer",
+      "ar" : "العلاقه مع العميل | العلاقه",
+      "en" : "Relation With Customer | Relation",
+      "type" : "Text"
+    }, {
+      "id" : "details.relationWithDocCategory",
+      "column" : "relationWithDocCategory",
+      "ar" : "العلاقه مع تصنيف السجل | العلاقه",
+      "en" : "Relation With Document Category | Relation",
+      "type" : "Text"
+    }, {
+      "id" : "details.relationWithLocator",
+      "column" : "relationWithLocator",
+      "ar" : "العلاقه مع الموقع | العلاقه",
+      "en" : "Relation With Locator | Relation",
+      "type" : "Text"
+    }, {
+      "id" : "details.relationWithSalesMan",
+      "column" : "relationWithSalesMan",
+      "ar" : "العلاقه مع مندوب المبيعات | العلاقه",
+      "en" : "Relation With Sales Man | Relation",
+      "type" : "Text"
+    }, {
+      "id" : "details.relationWithWarehouse",
+      "column" : "relationWithWarehouse",
+      "ar" : "العلاقه مع المخزن | العلاقه",
+      "en" : "Relation With Warehouse | Relation",
+      "type" : "Text"
+    }, {
+      "id" : "details.reqFields",
+      "column" : "reqFields_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosRequiredFields",
+      "refPath" : "/modules/pos-app/POS.PosRequiredFields.html"
+    }, {
+      "id" : "details.salesMan",
+      "column" : "salesMan_id",
+      "ar" : "العلاقه مع مندوب المبيعات | مندوب المبيعات",
+      "en" : "Relation With Sales Man | Sales Man",
+      "type" : "Reference",
+      "refTo" : "POS.POSEmployee",
+      "refPath" : "/modules/pos-app/POS.POSEmployee.html"
+    }, {
+      "id" : "details.warehouse",
+      "column" : "warehouse_id",
+      "ar" : "العلاقه مع المخزن | المخزن",
+      "en" : "Relation With Warehouse | Warehouse",
+      "type" : "Reference",
+      "refTo" : "POS.POSWarehouse",
+      "refPath" : "/modules/pos-app/POS.POSWarehouse.html"
+    } ]
+  } ]
+}

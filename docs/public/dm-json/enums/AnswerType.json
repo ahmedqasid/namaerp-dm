@@ -1,0 +1,28 @@
+{
+  "enum" : "AnswerType",
+  "values" : [ {
+    "id" : "Text",
+    "ar" : "نص",
+    "en" : "Text"
+  }, {
+    "id" : "Number",
+    "ar" : "رقم",
+    "en" : "Number"
+  }, {
+    "id" : "MultipleChoices",
+    "ar" : "اختيار من متعدد",
+    "en" : "Multiple Choices"
+  }, {
+    "id" : "Date",
+    "ar" : "تاريخ",
+    "en" : "Date"
+  }, {
+    "id" : "Average",
+    "ar" : "متوسط",
+    "en" : "Average"
+  }, {
+    "id" : "Percentage",
+    "ar" : "نسبة",
+    "en" : "Percentage"
+  } ]
+}

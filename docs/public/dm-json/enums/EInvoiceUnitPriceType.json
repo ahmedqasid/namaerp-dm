@@ -1,0 +1,12 @@
+{
+  "enum" : "EInvoiceUnitPriceType",
+  "values" : [ {
+    "id" : "UnitPriceSourceAfterValue",
+    "ar" : "الصافي بعد مصدر سعر الوحدة",
+    "en" : "Unit Price Source After Value"
+  }, {
+    "id" : "UnitPriceSourceApplyValue",
+    "ar" : "وعاء مصدر سعر الوحدة",
+    "en" : "Unit Price Source Apply Value"
+  } ]
+}

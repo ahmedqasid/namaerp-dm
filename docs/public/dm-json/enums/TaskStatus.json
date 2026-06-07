@@ -1,0 +1,30 @@
+{
+  "enum" : "TaskStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Retry",
+    "ar" : "إعادة المحاولة",
+    "en" : "Retry"
+  }, {
+    "id" : "Executed",
+    "ar" : "تم التنفيذ",
+    "en" : "Executed"
+  }, {
+    "id" : "Failed",
+    "ar" : "فشل",
+    "en" : "Failed"
+  }, {
+    "id" : "Blocked"
+  }, {
+    "id" : "PostPoned",
+    "ar" : "مؤجلة",
+    "en" : "PostPoned"
+  }, {
+    "id" : "NotSent",
+    "ar" : "لم يرسل بعد",
+    "en" : "Not Sent"
+  } ]
+}

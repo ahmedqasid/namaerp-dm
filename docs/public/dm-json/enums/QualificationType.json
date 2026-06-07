@@ -1,0 +1,52 @@
+{
+  "enum" : "QualificationType",
+  "values" : [ {
+    "id" : "Bachelor",
+    "ar" : "بكالوريوس",
+    "en" : "Bachelor"
+  }, {
+    "id" : "Master",
+    "ar" : "ماجستير",
+    "en" : "Master"
+  }, {
+    "id" : "Doctorate",
+    "ar" : "دكتوراة",
+    "en" : "Doctorate"
+  }, {
+    "id" : "Secondary",
+    "ar" : "ثانوية",
+    "en" : "Secondary"
+  }, {
+    "id" : "PREP",
+    "ar" : "إعدادية",
+    "en" : "PREP"
+  }, {
+    "id" : "Elementary",
+    "ar" : "إبتدائية",
+    "en" : "Elementary"
+  }, {
+    "id" : "Licence",
+    "ar" : "ليسانس",
+    "en" : "Licence"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  }, {
+    "id" : "Other4",
+    "ar" : "أخرى 4",
+    "en" : "Other 4"
+  }, {
+    "id" : "Other5",
+    "ar" : "أخرى 5",
+    "en" : "Other 5"
+  } ]
+}

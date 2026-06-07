@@ -1,0 +1,51 @@
+{
+  "entity" : "POSConfigPayMethodLine",
+  "table" : "POSConfigPayMethodLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/POSConfigPayMethodLine.html",
+  "fields" : [ {
+    "id" : "cashMethod",
+    "column" : "cashMethod",
+    "type" : "Boolean"
+  }, {
+    "id" : "defaultMethod",
+    "column" : "defaultMethod",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotAffectRemaining",
+    "column" : "doNotAffectRemaining",
+    "ar" : "عدم التأثير على المتبقي",
+    "en" : "Do Not Affect Remaining",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "orderInPOS",
+    "column" : "orderInPOS",
+    "ar" : "ترتيب الظهور في برنامج نقاط البيع",
+    "en" : "Appearance order in Point Of Sale",
+    "type" : "Integer"
+  }, {
+    "id" : "paymentMethod",
+    "column" : "paymentMethod_id",
+    "ar" : "طريقة الدفع",
+    "en" : " Payment Method",
+    "type" : "Reference",
+    "refTo" : "PaymentMethod",
+    "refPath" : "/modules/basic/PaymentMethod.html"
+  }, {
+    "id" : "remarks",
+    "column" : "remarks",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "showInAdditionalMethods",
+    "column" : "showInAdditionalMethods",
+    "ar" : "عرض في طرق الدفع الإضافية",
+    "en" : "Show In Additional Methods",
+    "type" : "Boolean"
+  } ]
+}

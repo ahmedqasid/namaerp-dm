@@ -1,0 +1,16 @@
+{
+  "enum" : "ReconciliationStep",
+  "values" : [ {
+    "id" : "CollectData",
+    "ar" : "تجميع البيانات",
+    "en" : "Collect Data"
+  }, {
+    "id" : "Reconciliation",
+    "ar" : "التسوية",
+    "en" : "Reconciliation"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  } ]
+}

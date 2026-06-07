@@ -1,0 +1,60 @@
+{
+  "enum" : "TaskDevelopmentStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "InProgress",
+    "ar" : "قيد التنفيذ",
+    "en" : "In Progress"
+  }, {
+    "id" : "Closed",
+    "ar" : "مغلقة",
+    "en" : "Closed"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "Feedback",
+    "ar" : "بانتظار رد قسم التطوير",
+    "en" : "Feedback from Development"
+  }, {
+    "id" : "ResponsibleSupervisorFeedback",
+    "ar" : "بانتظار رد مدير مستقبل الشكوي",
+    "en" : "Responsible Supervisor Feedback"
+  }, {
+    "id" : "TechnicalSupportFeedback",
+    "ar" : "بانتظار رد الدعم الفني",
+    "en" : "Feedback from Technical Support"
+  }, {
+    "id" : "SalesFeedback",
+    "ar" : "بانتظار رد قسم المبيعات",
+    "en" : "Sales Feedback"
+  }, {
+    "id" : "CustomerFeedback",
+    "ar" : "بانتظار رد العميل",
+    "en" : "Feedback from Customer"
+  }, {
+    "id" : "Suspended",
+    "ar" : "موقوف",
+    "en" : "Suspended"
+  }, {
+    "id" : "Postponed",
+    "ar" : "مؤجل",
+    "en" : "Postponed"
+  }, {
+    "id" : "Planned",
+    "ar" : "مخطّطة",
+    "en" : "Planned"
+  }, {
+    "id" : "ReOpen",
+    "ar" : "معاد فتحه",
+    "en" : "ReOpen"
+  } ]
+}

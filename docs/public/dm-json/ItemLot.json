@@ -1,0 +1,51 @@
+{
+  "entity" : "ItemLot",
+  "table" : "ItemLot",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ItemLot.html",
+  "fields" : [ {
+    "id" : "expiryDate",
+    "column" : "expiryDate",
+    "ar" : "تاريخ الإنتهاء",
+    "en" : "Expiry Date",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "invItem",
+    "column" : "invItem_id",
+    "ar" : " الصنف",
+    "en" : " Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "lastUsed",
+    "column" : "lastUsed",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "lotId",
+    "column" : "lotId",
+    "ar" : "كود الشحنة",
+    "en" : "Lot ID",
+    "type" : "Text"
+  }, {
+    "id" : "originEntity",
+    "column" : "originEntity",
+    "type" : "ID"
+  }, {
+    "id" : "productionDate",
+    "column" : "productionDate",
+    "ar" : "تاريخ الإنتاج",
+    "en" : "Production Date",
+    "type" : "Date"
+  }, {
+    "id" : "retestDate",
+    "column" : "retestDate",
+    "ar" : "تاريخ إعادة الاختبار",
+    "en" : "retest Date",
+    "type" : "Date"
+  } ]
+}

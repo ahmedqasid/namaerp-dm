@@ -1,0 +1,68 @@
+{
+  "enum" : "ProcedureType",
+  "values" : [ {
+    "id" : "BootPlaningProcedures",
+    "ar" : "إجراءات مرحلة التمهيد التخطيط",
+    "en" : "Boot Planing Procedures"
+  }, {
+    "id" : "PlaningProcedures",
+    "ar" : "إجراءات مرحلة التخطيط",
+    "en" : "Planing Procedures"
+  }, {
+    "id" : "BasicProcedures",
+    "ar" : "إجراءات الأساسية",
+    "en" : "Basic Procedures"
+  }, {
+    "id" : "CharacterizationProcedures",
+    "ar" : "توصيف الدورات",
+    "en" : "Cycle Characterization"
+  }, {
+    "id" : "ControlProcedures",
+    "ar" : "إجراءات الرقابة",
+    "en" : "Control Tests"
+  }, {
+    "id" : "AnalyticalProcedures",
+    "ar" : "إختبارات التحليلية",
+    "en" : "Analytical Procedures"
+  }, {
+    "id" : "DetailedProcedures",
+    "ar" : "إختبارات التفصيلية",
+    "en" : "Detailed Procedures"
+  }, {
+    "id" : "CompletionProcedures",
+    "ar" : "إجراءات مرحلة الإستكمال",
+    "en" : "Completion Procedures"
+  }, {
+    "id" : "CheckProcedures",
+    "ar" : "إجراءات فحص ما قبل الإصدار",
+    "en" : "Check Procedures"
+  }, {
+    "id" : "ReportsProcedures",
+    "ar" : "إجراءات اصدار التقارير",
+    "en" : "Reports Procedures"
+  }, {
+    "id" : "AnalysisModel",
+    "ar" : "نموذج المراجعة التحليلية",
+    "en" : "Analysis Model"
+  }, {
+    "id" : "RelativeWeightsList",
+    "ar" : "نموذج مصفوفة المخاطر وحجم العينة",
+    "en" : "Relative Weights List"
+  }, {
+    "id" : "Materiality",
+    "ar" : "الأهمية النسبية",
+    "en" : "Materiality"
+  }, {
+    "id" : "TeamWork",
+    "ar" : "فريق العمل",
+    "en" : "Team Work"
+  }, {
+    "id" : "IndependencyTemplate",
+    "ar" : "نموذج الإستقلالية",
+    "en" : "Independency Model"
+  }, {
+    "id" : "LinkingLetter",
+    "ar" : "خطاب الارتباط",
+    "en" : "Linking Letter"
+  } ]
+}

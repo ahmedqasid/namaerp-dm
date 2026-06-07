@@ -1,0 +1,21 @@
+{
+  "entity" : "ContactInfoEntry",
+  "table" : "ContactInfoEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ContactInfoEntry.html",
+  "fields" : [ {
+    "id" : "email",
+    "column" : "email",
+    "ar" : "إيميل",
+    "en" : "E-mail",
+    "type" : "Email"
+  }, {
+    "id" : "entity",
+    "columns" : [ "entityActualCode", " entityCode", " entityEntityType", " entityId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

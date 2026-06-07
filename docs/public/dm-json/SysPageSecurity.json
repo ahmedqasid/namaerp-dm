@@ -1,0 +1,56 @@
+{
+  "entity" : "SysPageSecurity",
+  "table" : "SysPageSecurity",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SysPageSecurity.html",
+  "fields" : [ {
+    "id" : "authorityType",
+    "column" : "authorityType",
+    "ar" : "نوع التحكم",
+    "en" : "Preview Type",
+    "type" : "Enum",
+    "enum" : "FieldAuthorityType"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "entityTypeList",
+    "column" : "entityTypeList_id",
+    "ar" : "قائمة الأنواع",
+    "en" : "Entity Type List",
+    "type" : "Reference",
+    "refTo" : "EntityTypeList",
+    "refPath" : "/modules/basic/EntityTypeList.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lineNumber",
+    "column" : "lineNumber",
+    "ar" : "رقم السطر",
+    "en" : "Line Number",
+    "type" : "Integer"
+  }, {
+    "id" : "pageName",
+    "column" : "pageName",
+    "ar" : "اسم الصفحة",
+    "en" : "Page Name",
+    "type" : "FieldID"
+  }, {
+    "id" : "refId",
+    "column" : "refId",
+    "type" : "ID"
+  }, {
+    "id" : "securityProfile",
+    "column" : "securityProfile_id",
+    "ar" : "الصلاحيات",
+    "en" : "SecurityProfile",
+    "type" : "Reference",
+    "refTo" : "SecurityProfile",
+    "refPath" : "/modules/basic/SecurityProfile.html"
+  } ]
+}

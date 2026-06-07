@@ -1,0 +1,20 @@
+{
+  "enum" : "DeliverdToType",
+  "values" : [ {
+    "id" : "AdjustmentRestrictions",
+    "ar" : "قيود تسوية",
+    "en" : "Adjustment Restrictions"
+  }, {
+    "id" : "auditorReport",
+    "ar" : "تقرير مراقب حسابات",
+    "en" : "Auditor Report"
+  }, {
+    "id" : "Memorandumadvice",
+    "ar" : "مذكرة مشورة",
+    "en" : "Memorandum Advice"
+  }, {
+    "id" : "ManagementLetter",
+    "ar" : "خطاب الإدارة",
+    "en" : "Management Letter"
+  } ]
+}

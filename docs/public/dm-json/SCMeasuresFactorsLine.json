@@ -1,0 +1,29 @@
+{
+  "entity" : "SCMeasuresFactorsLine",
+  "table" : "SCMeasuresFactorsLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SCMeasuresFactorsLine.html",
+  "fields" : [ {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "factor",
+    "column" : "factor",
+    "ar" : "المعامل",
+    "en" : "Measures Factor",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "uom",
+    "columns" : [ "uomActualCode", " uomCode", " uomEntityType", " uomId" ],
+    "ar" : "الوحدة",
+    "en" : "Unit",
+    "type" : "Genericreference"
+  } ]
+}

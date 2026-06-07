@@ -1,0 +1,16 @@
+{
+  "enum" : "UserFavouritesElementType",
+  "values" : [ {
+    "id" : "CreateNew",
+    "ar" : "إنشاء جديد",
+    "en" : "Create New"
+  }, {
+    "id" : "ListView",
+    "ar" : " العرض بقائمة",
+    "en" : " List View"
+  }, {
+    "id" : "Record",
+    "ar" : "سجل",
+    "en" : "Record"
+  } ]
+}

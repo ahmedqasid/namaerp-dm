@@ -1,0 +1,32 @@
+{
+  "enum" : "ReportType",
+  "values" : [ {
+    "id" : "UserReport",
+    "ar" : "تقرير",
+    "en" : "Report"
+  }, {
+    "id" : "UserForm",
+    "ar" : "نموذج شاشة",
+    "en" : "Form"
+  }, {
+    "id" : "UserList",
+    "ar" : "نموذج قائمة",
+    "en" : "List"
+  }, {
+    "id" : "ScreenReport",
+    "ar" : "تقرير شاشة",
+    "en" : "Screen Report"
+  }, {
+    "id" : "NotificationTemplate",
+    "ar" : "قالب تنبيه",
+    "en" : "Notification Template"
+  }, {
+    "id" : "BasedOnAnotherReport",
+    "ar" : "مبني على تقرير اخر",
+    "en" : "Based On Another Report"
+  }, {
+    "id" : "Dashboard",
+    "ar" : "لوحة",
+    "en" : "Dashbord"
+  } ]
+}

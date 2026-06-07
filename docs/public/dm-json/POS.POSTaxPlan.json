@@ -1,0 +1,215 @@
+{
+  "entity" : "POS.POSTaxPlan",
+  "table" : "POSTaxPlan",
+  "module" : "pos-app",
+  "ar" : "سياسة الضريبة",
+  "arPlural" : "السياسات الضريبية",
+  "en" : "Tax Plan",
+  "enPlural" : "Tax Plans",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSTaxPlan.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "fullDtoXml",
+    "column" : "fullDtoXml",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ],
+  "details" : [ {
+    "id" : "taxes",
+    "table" : "POSLegalEntityTax",
+    "joinColumn" : "posTax",
+    "ar" : "الضرائب",
+    "en" : "Taxes",
+    "fields" : [ {
+      "id" : "taxes.effectiveFrom",
+      "column" : "effectiveFrom",
+      "ar" : "تطبق من",
+      "en" : "Effective From",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "taxes.effectiveTo",
+      "column" : "effectiveTo",
+      "ar" : "تطبق الي",
+      "en" : "Effective To",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "taxes.entityType",
+      "column" : "entityType",
+      "ar" : "النوع",
+      "en" : "Entity Type",
+      "type" : "Text"
+    }, {
+      "id" : "taxes.entityTypeList",
+      "column" : "entityTypeList",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity Type List",
+      "type" : "Text"
+    }, {
+      "id" : "taxes.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "taxes.legalEntity.code",
+      "column" : "legalEntityCode",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "taxes.legalEntity.id",
+      "column" : "legalEntityId",
+      "ar" : "المعرف",
+      "en" : "Id",
+      "type" : "ID"
+    }, {
+      "id" : "taxes.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "taxes.posTax",
+      "column" : "posTax",
+      "type" : "Reference",
+      "refTo" : "POS.POSTaxPlan",
+      "refPath" : "/modules/pos-app/POS.POSTaxPlan.html"
+    }, {
+      "id" : "taxes.tax1",
+      "column" : "tax1",
+      "ar" : "ضريبة مبيعات 1",
+      "en" : "Tax 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "taxes.tax2",
+      "column" : "tax2",
+      "ar" : "ضريبة مبيعات 2",
+      "en" : "Tax 2",
+      "type" : "Decimal"
+    } ]
+  } ]
+}

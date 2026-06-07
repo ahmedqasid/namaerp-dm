@@ -1,0 +1,45 @@
+{
+  "entity" : "RegenSalarySheetsAllowedStatus",
+  "table" : "RegenSalarySheetsAllowedStatus",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/RegenSalarySheetsAllowedStatus.html",
+  "fields" : [ {
+    "id" : "allowRegenerate",
+    "column" : "allowRegenerate",
+    "ar" : "السماح بالإصدار",
+    "en" : "Allow Regenerate",
+    "type" : "Enum",
+    "enum" : "HRAllowRegenerate"
+  }, {
+    "id" : "arabicMessage",
+    "column" : "arabicMessage",
+    "ar" : "قالب رسالة الخطأ عربي",
+    "en" : "Arabic Message",
+    "type" : "BigText"
+  }, {
+    "id" : "criteriaDefinition",
+    "column" : "criteriaDefinition_id",
+    "ar" : " المعايير",
+    "en" : " Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "englishMessage",
+    "column" : "englishMessage",
+    "ar" : "قالب رسالة الخطأ إنجليزي",
+    "en" : "English Message",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "HRDocStatus"
+  } ]
+}

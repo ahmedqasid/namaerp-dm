@@ -1,0 +1,18 @@
+{
+  "enum" : "RERentStatus",
+  "values" : [ {
+    "id" : "Rented",
+    "ar" : "مؤجرة",
+    "en" : "Rented"
+  }, {
+    "id" : "Reserved",
+    "ar" : "محجوز",
+    "en" : "Reserved"
+  }, {
+    "id" : "RentCancelled",
+    "ar" : "تم إلغاء الإيجار",
+    "en" : "Rent Cancelled"
+  }, {
+    "id" : "ReservationCancelled"
+  } ]
+}

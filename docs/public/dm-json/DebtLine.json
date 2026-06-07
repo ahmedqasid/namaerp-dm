@@ -1,0 +1,156 @@
+{
+  "entity" : "DebtLine",
+  "table" : "DebtLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/DebtLine.html",
+  "fields" : [ {
+    "id" : "accountRef",
+    "column" : "accountRef_id",
+    "ar" : "الحساب",
+    "en" : "Account",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "credit",
+    "column" : "credit",
+    "ar" : "دائن",
+    "en" : "Credit",
+    "type" : "Decimal"
+  }, {
+    "id" : "creditLocalAmount",
+    "column" : "creditLocalAmount",
+    "type" : "Decimal"
+  }, {
+    "id" : "debit",
+    "column" : "debit",
+    "ar" : "مدين",
+    "en" : "Debit",
+    "type" : "Decimal"
+  }, {
+    "id" : "debitLocalAmount",
+    "column" : "debitLocalAmount",
+    "type" : "Decimal"
+  }, {
+    "id" : "dimensions.analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "dimensions.branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "dimensions.department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "dimensions.legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "dimensions.sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "effectType",
+    "column" : "effectType",
+    "ar" : "نوع التأثير",
+    "en" : "Component Effect Type",
+    "type" : "Enum",
+    "enum" : "LedgerEffectType"
+  }, {
+    "id" : "entityDimension",
+    "column" : "entityDimension",
+    "ar" : "السجل",
+    "en" : "Entity Dimension",
+    "type" : "ID"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fullyMatched",
+    "column" : "fullyMatched",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "ledgerReqId",
+    "column" : "ledgerReqId",
+    "type" : "ID"
+  }, {
+    "id" : "ledgerTransLineId",
+    "column" : "ledgerTransLineId",
+    "type" : "ID"
+  }, {
+    "id" : "manualValues",
+    "column" : "manualValues",
+    "type" : "Decimal"
+  }, {
+    "id" : "manuallyFullyMatched",
+    "column" : "manuallyFullyMatched",
+    "type" : "Boolean"
+  }, {
+    "id" : "origin",
+    "columns" : [ "originActualCode", " originCode", " originEntityType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "originCreationDate",
+    "column" : "originCreationDate",
+    "ar" : " تاريخ الإنشاء",
+    "en" : " Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "remainingCredit",
+    "column" : "remainingCredit",
+    "type" : "Decimal"
+  }, {
+    "id" : "remainingDebit",
+    "column" : "remainingDebit",
+    "type" : "Decimal"
+  }, {
+    "id" : "searchIndex",
+    "column" : "searchIndex",
+    "type" : "Text"
+  }, {
+    "id" : "subsidiary",
+    "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+    "ar" : "الذمة",
+    "en" : "Subsidiary",
+    "type" : "Genericreference"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

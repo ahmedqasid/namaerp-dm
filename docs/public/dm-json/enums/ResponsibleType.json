@@ -1,0 +1,32 @@
+{
+  "enum" : "ResponsibleType",
+  "values" : [ {
+    "id" : "EmployeeOrGroup",
+    "ar" : "موظف أو مجموعة",
+    "en" : "Employee Or Group"
+  }, {
+    "id" : "Query",
+    "ar" : "استعلام",
+    "en" : "Query"
+  }, {
+    "id" : "InitatorSuperVisor",
+    "ar" : "مدير منشئ السجل",
+    "en" : "Initiator Supervisor"
+  }, {
+    "id" : "PreviousStepSuperVisor",
+    "ar" : "مدير الموافق على الخطوة السابقة",
+    "en" : "Previous Step Super Visor"
+  }, {
+    "id" : "Initiator",
+    "ar" : "منشئ السجل",
+    "en" : "Initiator"
+  }, {
+    "id" : "BasedOnCriteria",
+    "ar" : "بناءا على معايير",
+    "en" : "Based On Criteria"
+  }, {
+    "id" : "Field",
+    "ar" : "من حقل",
+    "en" : "From Field"
+  } ]
+}

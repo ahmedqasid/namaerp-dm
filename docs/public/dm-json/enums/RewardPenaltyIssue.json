@@ -1,0 +1,12 @@
+{
+  "enum" : "RewardPenaltyIssue",
+  "values" : [ {
+    "id" : "IssuedImmediately",
+    "ar" : "تصرف الآن",
+    "en" : "Issued Immediately"
+  }, {
+    "id" : "IssuedWithSalary",
+    "ar" : "تصرف مع الراتب",
+    "en" : "Issued With Salary"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "CRMCompOrSugestion",
+  "values" : [ {
+    "id" : "Complaint",
+    "ar" : "شكوي",
+    "en" : "Complaint"
+  }, {
+    "id" : "sugestion",
+    "ar" : "اقتراح",
+    "en" : "sugestion"
+  }, {
+    "id" : "Remark",
+    "ar" : "ملاحظة",
+    "en" : "Remark"
+  } ]
+}

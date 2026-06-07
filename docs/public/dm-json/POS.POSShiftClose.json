@@ -1,0 +1,323 @@
+{
+  "entity" : "POS.POSShiftClose",
+  "table" : "POSShiftClose",
+  "module" : "pos-app",
+  "ar" : "غلق وردية",
+  "arPlural" : " غلق وردية",
+  "en" : "POS Shift Closing",
+  "enPlural" : " POS Shift Closing",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSShiftClose.html",
+  "fields" : [ {
+    "id" : "attach1FilePath",
+    "column" : "attach1FilePath",
+    "type" : "Text"
+  }, {
+    "id" : "attach2FilePath",
+    "column" : "attach2FilePath",
+    "type" : "Text"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "posUser",
+    "column" : "posUser_id",
+    "ar" : "مستخدم برنامج نقاط البيع",
+    "en" : "Point Of Sale User",
+    "type" : "Reference",
+    "refTo" : "POS.POSUser",
+    "refPath" : "/modules/pos-app/POS.POSUser.html"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "registery",
+    "column" : "registery_id",
+    "ar" : " الماكينة",
+    "en" : " Register",
+    "type" : "Reference",
+    "refTo" : "POS.POSRegistery",
+    "refPath" : "/modules/pos-app/POS.POSRegistery.html"
+  }, {
+    "id" : "remarks",
+    "column" : "remarks",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "Text"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "sent",
+    "column" : "sent",
+    "type" : "Boolean"
+  }, {
+    "id" : "shiftDate",
+    "column" : "shiftDate",
+    "ar" : "التاريخ",
+    "en" : "Shift Date",
+    "type" : "Date"
+  }, {
+    "id" : "shiftOpenId",
+    "column" : "shiftOpenId",
+    "type" : "ID"
+  }, {
+    "id" : "shiftTime",
+    "column" : "shiftTime",
+    "ar" : "وقت الوردية",
+    "en" : "Shift Time",
+    "type" : "Text"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ],
+  "details" : [ {
+    "id" : "details",
+    "table" : "POSShiftCloseLine",
+    "joinColumn" : "shift_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "fields" : [ {
+      "id" : "details.accountantRemaining",
+      "column" : "accountantRemaining",
+      "ar" : "الرصيد الدفتري",
+      "en" : "System Remaining",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.actualRemaining",
+      "column" : "actualRemaining",
+      "ar" : "الرصيد الفعلي",
+      "en" : "Actual Remaining",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.currency",
+      "column" : "currency",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Text"
+    }, {
+      "id" : "details.currencyId",
+      "column" : "currency_id",
+      "type" : "ID"
+    }, {
+      "id" : "details.difference",
+      "column" : "difference",
+      "ar" : "الفرق",
+      "en" : "Difference",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.disableActualBalance",
+      "column" : "disableActualBalance",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.narration",
+      "column" : "narration",
+      "ar" : "الشرح",
+      "en" : "Narration",
+      "type" : "Text"
+    }, {
+      "id" : "details.narration2",
+      "column" : "narration2",
+      "ar" : "الشرح 2",
+      "en" : "Narration 2",
+      "type" : "Text"
+    }, {
+      "id" : "details.paymentMethodId",
+      "column" : "method_id",
+      "type" : "ID"
+    }, {
+      "id" : "details.paymentWay",
+      "column" : "paymentWay",
+      "ar" : "نوع السداد",
+      "en" : "Payment Way",
+      "type" : "Text"
+    }, {
+      "id" : "details.shift",
+      "column" : "shift_id",
+      "en" : "Shift",
+      "type" : "Reference",
+      "refTo" : "POS.POSShiftClose",
+      "refPath" : "/modules/pos-app/POS.POSShiftClose.html"
+    } ]
+  }, {
+    "id" : "shiftCloseTakenElementsPerShiftLines",
+    "table" : "POSShiftCloseTakenElementsPerShiftLine",
+    "joinColumn" : "posShiftClose_id",
+    "fields" : [ {
+      "id" : "shiftCloseTakenElementsPerShiftLines.description",
+      "column" : "description",
+      "ar" : "الوصف",
+      "en" : "Description",
+      "type" : "Text"
+    }, {
+      "id" : "shiftCloseTakenElementsPerShiftLines.element.code",
+      "column" : "code",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "shiftCloseTakenElementsPerShiftLines.element.namaEntityType",
+      "column" : "namaEntityType",
+      "type" : "Text"
+    }, {
+      "id" : "shiftCloseTakenElementsPerShiftLines.element.namaGenRefId",
+      "column" : "namaGenRefId",
+      "type" : "ID"
+    }, {
+      "id" : "shiftCloseTakenElementsPerShiftLines.element.name1",
+      "column" : "name1",
+      "ar" : "الاسم العربي",
+      "en" : "Name1",
+      "type" : "Text"
+    }, {
+      "id" : "shiftCloseTakenElementsPerShiftLines.element.name2",
+      "column" : "name2",
+      "ar" : "الاسم الإنجليزي",
+      "en" : "Name2",
+      "type" : "Text"
+    }, {
+      "id" : "shiftCloseTakenElementsPerShiftLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "shiftCloseTakenElementsPerShiftLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "shiftCloseTakenElementsPerShiftLines.qtyValue",
+      "column" : "qtyValue",
+      "type" : "Decimal"
+    }, {
+      "id" : "shiftCloseTakenElementsPerShiftLines.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "Text"
+    } ]
+  } ]
+}

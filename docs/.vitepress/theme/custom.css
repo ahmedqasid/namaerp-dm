@@ -1,0 +1,79 @@
+.home-hero-image {
+    display: block;
+    margin: 24px auto 0;
+    max-height: 140px;
+}
+
+/* Wider content for the entity tables (the data-model pages have no sidebar/aside) */
+.VPDoc:not(.has-sidebar) .container > .content {
+    max-width: 1360px;
+}
+
+.VPDoc:not(.has-sidebar) .content-container {
+    max-width: unset;
+}
+
+/* div-based responsive table used by EntityPage / EnumPage */
+.nama-table {
+    display: table;
+    width: 100%;
+    font-size: 14px;
+}
+
+.nama-table .row {
+    display: table-row;
+    width: 100%;
+}
+
+.nama-table .cell {
+    display: table-cell;
+    padding: 8px;
+    border: 1px solid var(--vp-c-divider);
+    word-break: break-word;
+}
+
+.nama-table .header-row {
+    font-weight: bold;
+    background: var(--vp-c-bg);
+}
+
+.nama-table .row:nth-child(odd):not(.header-row) {
+    background-color: var(--vp-c-bg-alt);
+}
+
+/* Responsive stacking below 768px */
+@media (max-width: 768px) {
+    .nama-table {
+        display: block;
+    }
+
+    .nama-table .row {
+        display: block;
+        border: 1px solid var(--vp-c-divider);
+        margin-bottom: 10px;
+        padding: 6px;
+    }
+
+    .nama-table .cell {
+        display: flex;
+        width: 100%;
+        padding: 6px 0;
+        border: none;
+        border-bottom: 1px solid var(--vp-c-divider);
+    }
+
+    .nama-table .cell::before {
+        content: attr(data-label);
+        flex: 0 0 40%;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+
+    .nama-table .cell:last-child {
+        border-bottom: none;
+    }
+
+    .nama-table .header-row {
+        display: none;
+    }
+}

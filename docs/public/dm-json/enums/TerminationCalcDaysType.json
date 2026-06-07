@@ -1,0 +1,12 @@
+{
+  "enum" : "TerminationCalcDaysType",
+  "values" : [ {
+    "id" : "NetWorkedDays",
+    "ar" : " صافي أيام عمل",
+    "en" : " Net Worked Days"
+  }, {
+    "id" : "WorkPeriod",
+    "ar" : " مدة الخدمة (سنة - شهر - يوم)",
+    "en" : " Work Period (Year - Month - Day)"
+  } ]
+}

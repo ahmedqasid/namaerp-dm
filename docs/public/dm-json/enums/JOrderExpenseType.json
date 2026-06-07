@@ -1,0 +1,12 @@
+{
+  "enum" : "JOrderExpenseType",
+  "values" : [ {
+    "id" : "FinishExpenses",
+    "ar" : "مصروف على الإنتاج",
+    "en" : "Finishing Expenses"
+  }, {
+    "id" : "DeliveryExpenses",
+    "ar" : "مصروف تسليم العميل",
+    "en" : "Delivery Expenses"
+  } ]
+}

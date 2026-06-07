@@ -1,0 +1,12 @@
+{
+  "enum" : "PickType",
+  "values" : [ {
+    "id" : "Restricted",
+    "ar" : "ممنوع",
+    "en" : "Restricted"
+  }, {
+    "id" : "Allowed",
+    "ar" : "مسموح",
+    "en" : "Allowed"
+  } ]
+}

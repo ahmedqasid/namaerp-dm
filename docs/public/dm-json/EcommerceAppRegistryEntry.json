@@ -1,0 +1,44 @@
+{
+  "entity" : "EcommerceAppRegistryEntry",
+  "table" : "EcommerceAppRegistryEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EcommerceAppRegistryEntry.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "installationCode",
+    "column" : "installationCode",
+    "type" : "BigText"
+  }, {
+    "id" : "licenseId",
+    "column" : "licenseId",
+    "type" : "Text"
+  }, {
+    "id" : "merchantId",
+    "column" : "merchantId",
+    "ar" : "Merchant Id",
+    "en" : "Merchant Id",
+    "type" : "Text"
+  }, {
+    "id" : "siteType",
+    "column" : "siteType",
+    "ar" : "Site Type",
+    "en" : "Site Type",
+    "type" : "Enum",
+    "enum" : "MagEcommerceSiteType"
+  }, {
+    "id" : "tokenExpirationDate",
+    "column" : "tokenExpirationDate",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "tokenResponse",
+    "column" : "tokenResponse",
+    "type" : "BigText"
+  }, {
+    "id" : "userInfoResponse",
+    "column" : "userInfoResponse",
+    "type" : "BigText"
+  } ]
+}

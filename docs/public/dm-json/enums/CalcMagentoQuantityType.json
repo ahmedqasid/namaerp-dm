@@ -1,0 +1,12 @@
+{
+  "enum" : "CalcMagentoQuantityType",
+  "values" : [ {
+    "id" : "MAGNetWithReservation",
+    "ar" : "الصافي بعد الحجز",
+    "en" : "Net With Reservation"
+  }, {
+    "id" : "MAGAvailable",
+    "ar" : "المتاح(بغض النظر عن المحجوز)",
+    "en" : "Available(Ignoring Auto Reservation)"
+  } ]
+}

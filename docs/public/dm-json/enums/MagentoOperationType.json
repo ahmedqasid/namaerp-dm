@@ -1,0 +1,20 @@
+{
+  "enum" : "MagentoOperationType",
+  "values" : [ {
+    "id" : "OrderSave",
+    "ar" : "حفظ طلب",
+    "en" : "Order Save"
+  }, {
+    "id" : "QtyUpdate",
+    "ar" : "تحديث كمية",
+    "en" : "Qty Update"
+  }, {
+    "id" : "PriceUpdate",
+    "ar" : "تحديث سعر",
+    "en" : "Price Update"
+  }, {
+    "id" : "ReturnSave",
+    "ar" : "حفظ مردود",
+    "en" : "Return Save"
+  } ]
+}

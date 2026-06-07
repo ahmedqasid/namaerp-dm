@@ -1,0 +1,12 @@
+{
+  "enum" : "ExpressionRelationship",
+  "values" : [ {
+    "id" : "AND",
+    "ar" : "و",
+    "en" : "And"
+  }, {
+    "id" : "OR",
+    "ar" : "أو",
+    "en" : "Or"
+  } ]
+}

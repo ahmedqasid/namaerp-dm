@@ -1,0 +1,16 @@
+{
+  "enum" : "TrueFalseDefault",
+  "values" : [ {
+    "id" : "Default",
+    "ar" : "افتراضي",
+    "en" : "Default"
+  }, {
+    "id" : "TRUE",
+    "ar" : "نعم",
+    "en" : "True"
+  }, {
+    "id" : "FALSE",
+    "ar" : "لا",
+    "en" : "False"
+  } ]
+}

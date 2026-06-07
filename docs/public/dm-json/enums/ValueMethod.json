@@ -1,0 +1,12 @@
+{
+  "enum" : "ValueMethod",
+  "values" : [ {
+    "id" : "ConstantValue",
+    "ar" : "قيمة ثابتة",
+    "en" : "Constant Value"
+  }, {
+    "id" : "VariableValue",
+    "ar" : "متغير",
+    "en" : "Variable Value"
+  } ]
+}

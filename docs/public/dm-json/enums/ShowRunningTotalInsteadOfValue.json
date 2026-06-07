@@ -1,0 +1,32 @@
+{
+  "enum" : "ShowRunningTotalInsteadOfValue",
+  "values" : [ {
+    "id" : "ReportTotal",
+    "ar" : "الإجمالي لكل التقرير",
+    "en" : "Report Total"
+  }, {
+    "id" : "PageTotal",
+    "ar" : "الإجمالي للصفحة",
+    "en" : "Page Total"
+  }, {
+    "id" : "Group1Total",
+    "ar" : "الإجمالي لمجموعة 1",
+    "en" : "Group 1 Total"
+  }, {
+    "id" : "Group2Total",
+    "ar" : "الإجمالي لمجموعة 2",
+    "en" : "Group 2 Total"
+  }, {
+    "id" : "Group3Total",
+    "ar" : "الإجمالي لمجموعة 3",
+    "en" : "Group 3 Total"
+  }, {
+    "id" : "Group4Total",
+    "ar" : "الإجمالي لمجموعة 4",
+    "en" : "Group 4 Total"
+  }, {
+    "id" : "Group5Total",
+    "ar" : "الإجمالي لمجموعة 5",
+    "en" : "Group 5 Total"
+  } ]
+}

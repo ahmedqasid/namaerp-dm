@@ -1,0 +1,16 @@
+{
+  "enum" : "AccSideType",
+  "values" : [ {
+    "id" : "OnlyDebit",
+    "ar" : "مدين فقط",
+    "en" : "Only Debit"
+  }, {
+    "id" : "OnlyCredit",
+    "ar" : "دائن فقط",
+    "en" : "Only Credit"
+  }, {
+    "id" : "DebitAndCredit",
+    "ar" : "مدين ودائن",
+    "en" : "Debit and Credit"
+  } ]
+}

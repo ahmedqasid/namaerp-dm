@@ -1,0 +1,16 @@
+{
+  "enum" : "ApprovalStatus",
+  "values" : [ {
+    "id" : "Approved",
+    "ar" : "مقبول",
+    "en" : "Approved"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "ChangeRequested",
+    "ar" : "مطلوب تعديل",
+    "en" : "Change Requested"
+  } ]
+}

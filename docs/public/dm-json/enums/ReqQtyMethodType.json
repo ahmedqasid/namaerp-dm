@@ -1,0 +1,12 @@
+{
+  "enum" : "ReqQtyMethodType",
+  "values" : [ {
+    "id" : "Actual",
+    "ar" : "الفعلي",
+    "en" : "Actual"
+  }, {
+    "id" : "Forecasted",
+    "ar" : "المتوقع",
+    "en" : "Forecasted"
+  } ]
+}

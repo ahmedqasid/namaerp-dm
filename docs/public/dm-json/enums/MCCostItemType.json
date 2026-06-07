@@ -1,0 +1,12 @@
+{
+  "enum" : "MCCostItemType",
+  "values" : [ {
+    "id" : "Service",
+    "ar" : "خدمة",
+    "en" : "Service"
+  }, {
+    "id" : "RawMaterial",
+    "ar" : "مادة خام",
+    "en" : "Raw Material"
+  } ]
+}

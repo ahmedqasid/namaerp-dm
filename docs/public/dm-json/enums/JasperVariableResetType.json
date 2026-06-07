@@ -1,0 +1,36 @@
+{
+  "enum" : "JasperVariableResetType",
+  "values" : [ {
+    "id" : "Report",
+    "ar" : "تقرير",
+    "en" : "Report"
+  }, {
+    "id" : "Group1",
+    "ar" : "المجموعة 1",
+    "en" : "Group 1"
+  }, {
+    "id" : "Group2",
+    "ar" : "المجموعة 2",
+    "en" : "Group 2"
+  }, {
+    "id" : "Group3",
+    "ar" : "المجموعة 3",
+    "en" : "Group 3"
+  }, {
+    "id" : "Group4",
+    "ar" : "المجموعة 4",
+    "en" : "Group 4"
+  }, {
+    "id" : "Group5",
+    "ar" : "المجموعة 5",
+    "en" : "Group 5"
+  }, {
+    "id" : "Page",
+    "ar" : "صفحة",
+    "en" : "Page"
+  }, {
+    "id" : "Column",
+    "ar" : "عمود",
+    "en" : "Column"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "enum" : "CustomEquationLinesSource",
+  "values" : [ {
+    "id" : "CurrentExtractLines",
+    "ar" : "سطور المستخلص الحالي",
+    "en" : "Current Extract Lines"
+  }, {
+    "id" : "PreviousExtractsLines",
+    "ar" : "سطور المستخلصات السابقة",
+    "en" : "Previous Extracts Lines"
+  }, {
+    "id" : "CurrentAndPrevExtractsLines",
+    "ar" : "سطور المستخلص الحالي و المستخلصات السابقة",
+    "en" : "Current And Previous Extracts Lines"
+  }, {
+    "id" : "CurrentExtractLinesOrPrevExtractLinesIfNoCurrentQty",
+    "ar" : "من سطور المستخلص الحالي أو من سطور المستخلصات السابقة إذا لم يوجد كمية في الحالي",
+    "en" : "Current Extract Lines Or Previous Extract Lines If There Is No Current Quantity"
+  } ]
+}

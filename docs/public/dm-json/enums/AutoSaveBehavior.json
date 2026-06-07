@@ -1,0 +1,16 @@
+{
+  "enum" : "AutoSaveBehavior",
+  "values" : [ {
+    "id" : "AlwaysSaveAsDraft",
+    "ar" : "الحفظ كمسودة دائما",
+    "en" : "Always Save As Draft"
+  }, {
+    "id" : "AlwaysSaveAndCommit",
+    "ar" : "الحفظ نهائي دائما",
+    "en" : "Always Save And Commit"
+  }, {
+    "id" : "BasedOnRecordStatus",
+    "ar" : "الحفظ بناء على حالة السجل",
+    "en" : "Based On Record Status"
+  } ]
+}

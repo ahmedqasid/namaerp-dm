@@ -1,0 +1,41 @@
+{
+  "entity" : "POSEntitiesSendConfigLine",
+  "table" : "POSEntitiesSendConfigLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/POSEntitiesSendConfigLine.html",
+  "fields" : [ {
+    "id" : "entityTypeList",
+    "column" : "entityTypeList_id",
+    "ar" : "قائمة الأنواع",
+    "en" : "Entity Type List",
+    "type" : "Reference",
+    "refTo" : "EntityTypeList",
+    "refPath" : "/modules/basic/EntityTypeList.html"
+  }, {
+    "id" : "forType",
+    "column" : "forType",
+    "ar" : "للنوع",
+    "en" : "For Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "preventSendingCriteria",
+    "column" : "preventSendingCriteria_id",
+    "ar" : "معيار منع الإرسال",
+    "en" : "Prevent Sending Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "sendingCriteria",
+    "column" : "sendingCriteria_id",
+    "ar" : "معيار الإرسال",
+    "en" : "Sending Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  } ]
+}

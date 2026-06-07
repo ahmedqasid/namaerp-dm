@@ -1,0 +1,1451 @@
+{
+  "entity" : "TRTour",
+  "table" : "TRTour",
+  "module" : "travel",
+  "ar" : "رحلة سياحية",
+  "arPlural" : "رحلات سياحية",
+  "en" : "Tour",
+  "enPlural" : "Tours",
+  "page" : "https://dm.namasoft.com/modules/travel/TRTour.html",
+  "fields" : [ {
+    "id" : "agent",
+    "column" : "agent_id",
+    "ar" : "الوكيل",
+    "en" : "Agent",
+    "type" : "Reference",
+    "refTo" : "Customer",
+    "refPath" : "/modules/basic/Customer.html"
+  }, {
+    "id" : "agentName",
+    "column" : "agentName",
+    "ar" : "اسم العميل",
+    "en" : "Agent Name",
+    "type" : "Text"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "arrivalAirport",
+    "column" : "arrivalAirport_id",
+    "ar" : "مطار الوصول",
+    "en" : "Arrival Airport",
+    "type" : "Reference",
+    "refTo" : "TRCity",
+    "refPath" : "/modules/travel/TRCity.html"
+  }, {
+    "id" : "arrivalDate",
+    "column" : "arrivalDate",
+    "ar" : "تاريخ الوصول",
+    "en" : "Arrival Date",
+    "type" : "Date"
+  }, {
+    "id" : "arrivalFlight",
+    "column" : "arrivalFlight",
+    "ar" : "رحلة الوصول الجوية",
+    "en" : "Arrival Flight",
+    "type" : "Text"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
+  }, {
+    "id" : "careOf",
+    "column" : "careOf_id",
+    "ar" : "عناية",
+    "en" : "Care Of",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "dbl",
+    "column" : "dbl",
+    "ar" : "DBL",
+    "en" : "DBL",
+    "type" : "Integer"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "departureAirport",
+    "column" : "departureAirport_id",
+    "ar" : "مطار القيام",
+    "en" : "Departure Airport",
+    "type" : "Reference",
+    "refTo" : "TRCity",
+    "refPath" : "/modules/travel/TRCity.html"
+  }, {
+    "id" : "departureDate",
+    "column" : "departureDate",
+    "ar" : "تاريخ القيام",
+    "en" : "Departure date",
+    "type" : "Date"
+  }, {
+    "id" : "departureFlight",
+    "column" : "departureFlight",
+    "ar" : "رحلة القيام الجوية",
+    "en" : "Departure Flight",
+    "type" : "Text"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "flightArrivalDate",
+    "column" : "flightArrivalDate",
+    "ar" : "تاريخ رحلة الوصول",
+    "en" : "Flight Arrival Date",
+    "type" : "Date"
+  }, {
+    "id" : "flightArrivalTime",
+    "column" : "flightArrivalTime",
+    "ar" : "وقت رحلة الوصول",
+    "en" : "Flight Arrival Time",
+    "type" : "Time"
+  }, {
+    "id" : "flightDepartureDate",
+    "column" : "flightDepartureDate",
+    "ar" : "تاريخ رحلة القيام",
+    "en" : "Flight Departure Date",
+    "type" : "Date"
+  }, {
+    "id" : "flightDepartureTime",
+    "column" : "flightDepartureTime",
+    "ar" : "وقت رحلة القيام",
+    "en" : "Flight Departure Time",
+    "type" : "Time"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "groupName",
+    "column" : "groupName",
+    "ar" : "اسم المجموعة",
+    "en" : "Group Name",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "nationality",
+    "column" : "nationality_id",
+    "ar" : "الجنسية",
+    "en" : "Nationality",
+    "type" : "Reference",
+    "refTo" : "Nationality",
+    "refPath" : "/modules/basic/Nationality.html"
+  }, {
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "pax",
+    "column" : "pax",
+    "ar" : "PAX",
+    "en" : "PAX",
+    "type" : "Integer"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "sgl",
+    "column" : "sgl",
+    "ar" : "SGL",
+    "en" : "SGL",
+    "type" : "Integer"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TRTourStatus"
+  }, {
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
+    "type" : "BigText"
+  }, {
+    "id" : "tourGuide",
+    "column" : "tourGuide_id",
+    "ar" : "المرشد السياحي",
+    "en" : "Tour Guide",
+    "type" : "Reference",
+    "refTo" : "TRTourGuide",
+    "refPath" : "/modules/travel/TRTourGuide.html"
+  }, {
+    "id" : "tourLeader",
+    "column" : "tourLeader_id",
+    "ar" : "قائد الرحلة",
+    "en" : "Tour Leader",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "tourOperator",
+    "column" : "tourOperator_id",
+    "ar" : "منظم الرحلة",
+    "en" : "Tour Operator",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "tourProgram",
+    "column" : "tourProgram_id",
+    "ar" : "برنامج الرحلة",
+    "en" : "Tour Program",
+    "type" : "Reference",
+    "refTo" : "TRTourProgram",
+    "refPath" : "/modules/travel/TRTourProgram.html"
+  }, {
+    "id" : "tpl",
+    "column" : "tpl",
+    "ar" : "TPL",
+    "en" : "TPL",
+    "type" : "Integer"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "visa",
+    "column" : "visa",
+    "ar" : "تأشيرة",
+    "en" : "VISA",
+    "type" : "Integer"
+  } ],
+  "details" : [ {
+    "id" : "accommodationDetails",
+    "table" : "TRTourAccommodationLine",
+    "joinColumn" : "tRTour_id",
+    "ar" : "تفاصيل الإقامة",
+    "en" : "Accommodation Details",
+    "fields" : [ {
+      "id" : "accommodationDetails.b1",
+      "column" : "b1",
+      "ar" : "Boolean 1",
+      "en" : "Boolean 1",
+      "type" : "Boolean"
+    }, {
+      "id" : "accommodationDetails.b2",
+      "column" : "b2",
+      "ar" : "Boolean 2",
+      "en" : "Boolean 2",
+      "type" : "Boolean"
+    }, {
+      "id" : "accommodationDetails.b3",
+      "column" : "b3",
+      "ar" : "Boolean 3",
+      "en" : "Boolean 3",
+      "type" : "Boolean"
+    }, {
+      "id" : "accommodationDetails.b4",
+      "column" : "b4",
+      "ar" : "Boolean 4",
+      "en" : "Boolean 4",
+      "type" : "Boolean"
+    }, {
+      "id" : "accommodationDetails.b5",
+      "column" : "b5",
+      "ar" : "Boolean 5",
+      "en" : "Boolean 5",
+      "type" : "Boolean"
+    }, {
+      "id" : "accommodationDetails.checkIn",
+      "column" : "checkIn",
+      "ar" : "إدخال",
+      "en" : "Check In",
+      "type" : "Date"
+    }, {
+      "id" : "accommodationDetails.checkOut",
+      "column" : "checkOut",
+      "ar" : "إخراج",
+      "en" : "Check Out",
+      "type" : "Date"
+    }, {
+      "id" : "accommodationDetails.city",
+      "column" : "city_id",
+      "ar" : "المدينة",
+      "en" : "City",
+      "type" : "Reference",
+      "refTo" : "TRCity",
+      "refPath" : "/modules/travel/TRCity.html"
+    }, {
+      "id" : "accommodationDetails.country",
+      "column" : "country_id",
+      "ar" : "الدولة",
+      "en" : "Country",
+      "type" : "Reference",
+      "refTo" : "TRCountry",
+      "refPath" : "/modules/travel/TRCountry.html"
+    }, {
+      "id" : "accommodationDetails.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "accommodationDetails.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "accommodationDetails.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "accommodationDetails.date4",
+      "column" : "date4",
+      "ar" : "تاريخ 4",
+      "en" : "Date4",
+      "type" : "Date"
+    }, {
+      "id" : "accommodationDetails.date5",
+      "column" : "date5",
+      "ar" : "تاريخ 5",
+      "en" : "Date5",
+      "type" : "Date"
+    }, {
+      "id" : "accommodationDetails.dbl",
+      "column" : "dbl",
+      "ar" : "DBL",
+      "en" : "DBL",
+      "type" : "Integer"
+    }, {
+      "id" : "accommodationDetails.hotel",
+      "column" : "hotel_id",
+      "ar" : "فندق",
+      "en" : "Hotel",
+      "type" : "Reference",
+      "refTo" : "TRHotel",
+      "refPath" : "/modules/travel/TRHotel.html"
+    }, {
+      "id" : "accommodationDetails.hotelPurchaseOrder",
+      "column" : "hotelPurchaseOrder_id",
+      "ar" : "أمر شراء فندق",
+      "en" : "Hotel Purchase Order",
+      "type" : "Reference",
+      "refTo" : "TRPurchaseOrder",
+      "refPath" : "/modules/travel/TRPurchaseOrder.html"
+    }, {
+      "id" : "accommodationDetails.hotelVoucher",
+      "column" : "hotelVoucher_id",
+      "ar" : "قسيمة الفندق",
+      "en" : "Hotel Voucher",
+      "type" : "Reference",
+      "refTo" : "TRHotelVoucher",
+      "refPath" : "/modules/travel/TRHotelVoucher.html"
+    }, {
+      "id" : "accommodationDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "accommodationDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "accommodationDetails.meals",
+      "column" : "meals",
+      "ar" : "وجبات",
+      "en" : "Meals",
+      "type" : "Text"
+    }, {
+      "id" : "accommodationDetails.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "accommodationDetails.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "accommodationDetails.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "accommodationDetails.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "accommodationDetails.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "accommodationDetails.nights",
+      "column" : "nights",
+      "ar" : "عدد الليالي",
+      "en" : "Nights",
+      "type" : "Integer"
+    }, {
+      "id" : "accommodationDetails.pax",
+      "column" : "pax",
+      "ar" : "PAX",
+      "en" : "PAX",
+      "type" : "Integer"
+    }, {
+      "id" : "accommodationDetails.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "accommodationDetails.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "accommodationDetails.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "accommodationDetails.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "accommodationDetails.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "accommodationDetails.sgl",
+      "column" : "sgl",
+      "ar" : "SGL",
+      "en" : "SGL",
+      "type" : "Integer"
+    }, {
+      "id" : "accommodationDetails.situation",
+      "column" : "situation",
+      "ar" : "الموقف",
+      "en" : "Situation",
+      "type" : "Enum",
+      "enum" : "TRSituation"
+    }, {
+      "id" : "accommodationDetails.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "accommodationDetails.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "accommodationDetails.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "accommodationDetails.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "accommodationDetails.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    }, {
+      "id" : "accommodationDetails.tpl",
+      "column" : "tpl",
+      "ar" : "TPL",
+      "en" : "TPL",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "flights",
+    "table" : "TRTourFlightLine",
+    "joinColumn" : "tRTour_id",
+    "ar" : "الرحلات الجوية",
+    "en" : "Flights",
+    "fields" : [ {
+      "id" : "flights.b1",
+      "column" : "b1",
+      "ar" : "Boolean 1",
+      "en" : "Boolean 1",
+      "type" : "Boolean"
+    }, {
+      "id" : "flights.b2",
+      "column" : "b2",
+      "ar" : "Boolean 2",
+      "en" : "Boolean 2",
+      "type" : "Boolean"
+    }, {
+      "id" : "flights.b3",
+      "column" : "b3",
+      "ar" : "Boolean 3",
+      "en" : "Boolean 3",
+      "type" : "Boolean"
+    }, {
+      "id" : "flights.b4",
+      "column" : "b4",
+      "ar" : "Boolean 4",
+      "en" : "Boolean 4",
+      "type" : "Boolean"
+    }, {
+      "id" : "flights.b5",
+      "column" : "b5",
+      "ar" : "Boolean 5",
+      "en" : "Boolean 5",
+      "type" : "Boolean"
+    }, {
+      "id" : "flights.date",
+      "column" : "date",
+      "ar" : "التاريخ",
+      "en" : "Date",
+      "type" : "Date"
+    }, {
+      "id" : "flights.flight",
+      "column" : "flight",
+      "ar" : "الرحلة الجوية",
+      "en" : "Flight",
+      "type" : "Text"
+    }, {
+      "id" : "flights.flightPurchaseOrder",
+      "column" : "flightPurchaseOrder_id",
+      "ar" : "أمر شراء رحلة الطيران",
+      "en" : "Flight Purchase Order",
+      "type" : "Reference",
+      "refTo" : "TRPurchaseOrder",
+      "refPath" : "/modules/travel/TRPurchaseOrder.html"
+    }, {
+      "id" : "flights.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "flights.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "flights.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "flights.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "flights.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "flights.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "flights.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "flights.pax",
+      "column" : "pax",
+      "ar" : "PAX",
+      "en" : "PAX",
+      "type" : "Integer"
+    }, {
+      "id" : "flights.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "flights.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "flights.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "flights.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "flights.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "flights.reference",
+      "column" : "reference",
+      "ar" : "مرجع",
+      "en" : "Reference",
+      "type" : "Text"
+    }, {
+      "id" : "flights.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "flights.route",
+      "column" : "route",
+      "ar" : "الطريق",
+      "en" : "Route",
+      "type" : "Text"
+    }, {
+      "id" : "flights.situation",
+      "column" : "situation",
+      "ar" : "الموقف",
+      "en" : "Situation",
+      "type" : "Enum",
+      "enum" : "TRSituation"
+    }, {
+      "id" : "flights.supplier",
+      "column" : "supplier_id",
+      "ar" : "مورد",
+      "en" : " Supplier",
+      "type" : "Reference",
+      "refTo" : "Supplier",
+      "refPath" : "/modules/basic/Supplier.html"
+    }, {
+      "id" : "flights.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "flights.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "flights.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "flights.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "flights.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    }, {
+      "id" : "flights.time",
+      "column" : "time",
+      "ar" : "الوقت",
+      "en" : "Time",
+      "type" : "Time"
+    }, {
+      "id" : "flights.timeLimit",
+      "column" : "timeLimit",
+      "ar" : "المهلة",
+      "en" : "Time Limit",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "services",
+    "table" : "TRTourServiceLine",
+    "joinColumn" : "tRTour_id",
+    "ar" : "الخدمات",
+    "en" : "Services",
+    "fields" : [ {
+      "id" : "services.b1",
+      "column" : "b1",
+      "ar" : "Boolean 1",
+      "en" : "Boolean 1",
+      "type" : "Boolean"
+    }, {
+      "id" : "services.b2",
+      "column" : "b2",
+      "ar" : "Boolean 2",
+      "en" : "Boolean 2",
+      "type" : "Boolean"
+    }, {
+      "id" : "services.b3",
+      "column" : "b3",
+      "ar" : "Boolean 3",
+      "en" : "Boolean 3",
+      "type" : "Boolean"
+    }, {
+      "id" : "services.b4",
+      "column" : "b4",
+      "ar" : "Boolean 4",
+      "en" : "Boolean 4",
+      "type" : "Boolean"
+    }, {
+      "id" : "services.b5",
+      "column" : "b5",
+      "ar" : "Boolean 5",
+      "en" : "Boolean 5",
+      "type" : "Boolean"
+    }, {
+      "id" : "services.city",
+      "column" : "city_id",
+      "ar" : "المدينة",
+      "en" : "City",
+      "type" : "Reference",
+      "refTo" : "TRCity",
+      "refPath" : "/modules/travel/TRCity.html"
+    }, {
+      "id" : "services.country",
+      "column" : "country_id",
+      "ar" : "الدولة",
+      "en" : "Country",
+      "type" : "Reference",
+      "refTo" : "TRCountry",
+      "refPath" : "/modules/travel/TRCountry.html"
+    }, {
+      "id" : "services.date",
+      "column" : "date",
+      "ar" : "التاريخ",
+      "en" : "Date",
+      "type" : "Date"
+    }, {
+      "id" : "services.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "services.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "services.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "services.date4",
+      "column" : "date4",
+      "ar" : "تاريخ 4",
+      "en" : "Date4",
+      "type" : "Date"
+    }, {
+      "id" : "services.date5",
+      "column" : "date5",
+      "ar" : "تاريخ 5",
+      "en" : "Date5",
+      "type" : "Date"
+    }, {
+      "id" : "services.description",
+      "column" : "description",
+      "ar" : "الوصف",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "services.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "services.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "services.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "services.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "services.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "services.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "services.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "services.pax",
+      "column" : "pax",
+      "ar" : "PAX",
+      "en" : "PAX",
+      "type" : "Integer"
+    }, {
+      "id" : "services.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "services.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "services.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "services.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "services.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "services.representative",
+      "column" : "representative_id",
+      "ar" : "المندوب",
+      "en" : "Representative",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "services.restaurant",
+      "column" : "restaurant_id",
+      "ar" : "المطعم",
+      "en" : "Restaurant",
+      "type" : "Reference",
+      "refTo" : "TRRestaurant",
+      "refPath" : "/modules/travel/TRRestaurant.html"
+    }, {
+      "id" : "services.restaurantPurchaseOrder",
+      "column" : "restaurantPurchaseOrder_id",
+      "ar" : "أمر شراء المطعم",
+      "en" : "Restaurant Purchase Order",
+      "type" : "Reference",
+      "refTo" : "TRPurchaseOrder",
+      "refPath" : "/modules/travel/TRPurchaseOrder.html"
+    }, {
+      "id" : "services.restaurantVoucher",
+      "column" : "restaurantVoucher_id",
+      "ar" : "قسيمة المطعم",
+      "en" : "Restaurant Voucher",
+      "type" : "Reference",
+      "refTo" : "TRRestaurantVoucher",
+      "refPath" : "/modules/travel/TRRestaurantVoucher.html"
+    }, {
+      "id" : "services.service",
+      "column" : "service_id",
+      "ar" : "الخدمة",
+      "en" : "Service",
+      "type" : "Reference",
+      "refTo" : "TRTourService",
+      "refPath" : "/modules/travel/TRTourService.html"
+    }, {
+      "id" : "services.servicePurchaseOrder",
+      "column" : "servicePurchaseOrder_id",
+      "ar" : "أمر شراء الخدمة السياحية",
+      "en" : "Service Purchase Order",
+      "type" : "Reference",
+      "refTo" : "TRPurchaseOrder",
+      "refPath" : "/modules/travel/TRPurchaseOrder.html"
+    }, {
+      "id" : "services.supplier",
+      "column" : "supplier_id",
+      "ar" : "مورد",
+      "en" : " Supplier",
+      "type" : "Reference",
+      "refTo" : "Supplier",
+      "refPath" : "/modules/basic/Supplier.html"
+    }, {
+      "id" : "services.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "services.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "services.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "services.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "services.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    }, {
+      "id" : "services.time",
+      "column" : "time",
+      "ar" : "الوقت",
+      "en" : "Time",
+      "type" : "Time"
+    }, {
+      "id" : "services.tourGuide",
+      "column" : "tourGuide_id",
+      "ar" : "المرشد السياحي",
+      "en" : "Tour Guide",
+      "type" : "Reference",
+      "refTo" : "TRTourGuide",
+      "refPath" : "/modules/travel/TRTourGuide.html"
+    }, {
+      "id" : "services.tourGuidePurchaseOrder",
+      "column" : "tourGuidePurchaseOrder_id",
+      "ar" : "أمر شراء المرشد السياحي",
+      "en" : "Tour Guide Purchase Order",
+      "type" : "Reference",
+      "refTo" : "TRPurchaseOrder",
+      "refPath" : "/modules/travel/TRPurchaseOrder.html"
+    }, {
+      "id" : "services.tourLeader",
+      "column" : "tourLeader_id",
+      "ar" : "قائد الرحلة",
+      "en" : "Tour Leader",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    } ]
+  } ]
+}

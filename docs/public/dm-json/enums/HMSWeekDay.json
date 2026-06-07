@@ -1,0 +1,32 @@
+{
+  "enum" : "HMSWeekDay",
+  "values" : [ {
+    "id" : "Sunday",
+    "ar" : " الأحد",
+    "en" : " Sunday"
+  }, {
+    "id" : "Monday",
+    "ar" : " الإتنين",
+    "en" : " Monday"
+  }, {
+    "id" : "Tuesday",
+    "ar" : " الثلاثاء",
+    "en" : " Tuesday"
+  }, {
+    "id" : "Wednesday",
+    "ar" : " الأربعاء",
+    "en" : " Wednesday"
+  }, {
+    "id" : "Thursday",
+    "ar" : " الخميس",
+    "en" : " Thursday"
+  }, {
+    "id" : "Friday",
+    "ar" : " الجمعة",
+    "en" : " Friday"
+  }, {
+    "id" : "Saturday",
+    "ar" : " السبت",
+    "en" : " Saturday"
+  } ]
+}

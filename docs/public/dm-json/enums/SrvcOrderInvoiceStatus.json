@@ -1,0 +1,20 @@
+{
+  "enum" : "SrvcOrderInvoiceStatus",
+  "values" : [ {
+    "id" : "Invoiced",
+    "ar" : "مفوتر كلياً",
+    "en" : "Invoiced"
+  }, {
+    "id" : "NotInvoiced",
+    "ar" : "غير مفوتر",
+    "en" : "NotInvoiced"
+  }, {
+    "id" : "PartialyInvoiced",
+    "ar" : "مفوتر جزئياً",
+    "en" : "Partialy Invoiced"
+  }, {
+    "id" : "NotApplicable",
+    "ar" : "لا ينطبق",
+    "en" : "Not Applicable"
+  } ]
+}

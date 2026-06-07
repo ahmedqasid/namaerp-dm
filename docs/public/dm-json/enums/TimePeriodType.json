@@ -1,0 +1,32 @@
+{
+  "enum" : "TimePeriodType",
+  "values" : [ {
+    "id" : "Day",
+    "ar" : "1 - يوم",
+    "en" : "1 - Day"
+  }, {
+    "id" : "Week",
+    "ar" : "3 - اسبوع",
+    "en" : "3 - Week"
+  }, {
+    "id" : "Month",
+    "ar" : "2 - شهر",
+    "en" : "2 - Month"
+  }, {
+    "id" : "Year",
+    "ar" : "4 - سنة",
+    "en" : "4 - Year"
+  }, {
+    "id" : "Second",
+    "ar" : "ثانية",
+    "en" : "6 - Second"
+  }, {
+    "id" : "Minute",
+    "ar" : "7 - دقيقة",
+    "en" : "7 - Minute"
+  }, {
+    "id" : "Hour",
+    "ar" : "5 - ساعة",
+    "en" : "5 - Hour"
+  } ]
+}

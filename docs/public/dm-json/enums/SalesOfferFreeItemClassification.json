@@ -1,0 +1,24 @@
+{
+  "enum" : "SalesOfferFreeItemClassification",
+  "values" : [ {
+    "id" : "ItemWithMinPrice",
+    "ar" : "أقل الأصناف سعرا",
+    "en" : "Item With Minimum Price"
+  }, {
+    "id" : "ItemWithMaxPrice",
+    "ar" : "أعلي الأصناف سعرا",
+    "en" : "Item With Maximum Price"
+  }, {
+    "id" : "FirstItem",
+    "ar" : "أول صنف في الفاتورة",
+    "en" : "First Item"
+  }, {
+    "id" : "LastItem",
+    "ar" : "أخر صنف في الفاتورة",
+    "en" : "Last Item"
+  }, {
+    "id" : "ItemFromFreeItemGroup",
+    "ar" : "صنف من مجموعة أصناف مجانية",
+    "en" : "Item From Free Item Group"
+  } ]
+}

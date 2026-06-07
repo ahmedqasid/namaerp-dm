@@ -1,0 +1,40 @@
+{
+  "enum" : "WorkTaskStatus",
+  "values" : [ {
+    "id" : "NotStarted",
+    "ar" : "لم تبدأ",
+    "en" : "Not Started"
+  }, {
+    "id" : "InProgress",
+    "ar" : "قيد التنفيذ",
+    "en" : "In Progress"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  }, {
+    "id" : "Other4",
+    "ar" : "أخرى 4",
+    "en" : "Other 4"
+  }, {
+    "id" : "Other5",
+    "ar" : "أخرى 5",
+    "en" : "Other 5"
+  } ]
+}

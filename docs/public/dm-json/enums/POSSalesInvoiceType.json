@@ -1,0 +1,12 @@
+{
+  "enum" : "POSSalesInvoiceType",
+  "values" : [ {
+    "id" : "CustomerRequired",
+    "ar" : "العميل مطلوب",
+    "en" : "Customer Required"
+  }, {
+    "id" : "CustomerNotRequired",
+    "ar" : "العميل غير مطلوب",
+    "en" : "Customer Not Required"
+  } ]
+}

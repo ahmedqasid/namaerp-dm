@@ -1,0 +1,16 @@
+{
+  "enum" : "GuaranteeType",
+  "values" : [ {
+    "id" : "Monthly",
+    "ar" : "شهرية",
+    "en" : "Monthly"
+  }, {
+    "id" : "Yearly",
+    "ar" : "سنوية",
+    "en" : "Yearly"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  } ]
+}

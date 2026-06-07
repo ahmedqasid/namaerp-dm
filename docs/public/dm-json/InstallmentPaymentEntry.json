@@ -1,0 +1,72 @@
+{
+  "entity" : "InstallmentPaymentEntry",
+  "table" : "InstallmentPaymentEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/InstallmentPaymentEntry.html",
+  "fields" : [ {
+    "id" : "cloned",
+    "column" : "cloned",
+    "ar" : "منسوخ",
+    "en" : "Cloned",
+    "type" : "Boolean"
+  }, {
+    "id" : "effectType",
+    "column" : "effectType",
+    "ar" : "نوع التأثير",
+    "en" : "Component Effect Type",
+    "type" : "Enum",
+    "enum" : "InstallmentEffectField"
+  }, {
+    "id" : "financialPaper",
+    "column" : "financialPaper_id",
+    "ar" : "الورقة التجارية",
+    "en" : "Commercial Paper",
+    "type" : "Reference",
+    "refTo" : "FinancialPaper",
+    "refPath" : "/modules/accounting-banks/FinancialPaper.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "installmentCode",
+    "column" : "installmentCode",
+    "ar" : "كود القسط",
+    "en" : "Installment Code",
+    "type" : "Text"
+  }, {
+    "id" : "installmentDoc",
+    "columns" : [ "installmentDocActualCode", " installmentDocCode", " installmentDocEntityType", " installmentDocId" ],
+    "ar" : "مستند القسط",
+    "en" : "Installment doc",
+    "type" : "Genericreference"
+  }, {
+    "id" : "lineNumber",
+    "column" : "lineNumber",
+    "ar" : "رقم السطر",
+    "en" : "Line Number",
+    "type" : "Integer"
+  }, {
+    "id" : "paidValue",
+    "column" : "paidValue",
+    "ar" : "القيمة المدفوعة",
+    "en" : "Paid Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "paymentDate",
+    "column" : "paymentDate",
+    "ar" : "تاريخ الدفع",
+    "en" : "Payment Date",
+    "type" : "Date"
+  }, {
+    "id" : "paymentDoc",
+    "columns" : [ "paymentDocActualCode", " paymentDocCode", " paymentDocEntityType", " paymentDocId" ],
+    "ar" : "مستند الدفع",
+    "en" : "Payment document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "refId",
+    "column" : "refId",
+    "type" : "ID"
+  } ]
+}

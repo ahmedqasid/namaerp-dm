@@ -1,0 +1,16 @@
+{
+  "enum" : "AllowanceType",
+  "values" : [ {
+    "id" : "Applicaple",
+    "ar" : "مطبق",
+    "en" : "Applicaple"
+  }, {
+    "id" : "Insured",
+    "ar" : "مؤمن",
+    "en" : "Insured"
+  }, {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "PivotColumnType",
+  "values" : [ {
+    "id" : "RowGroupColumns",
+    "ar" : "أعمدة تجميع الصفوف",
+    "en" : "Row Group Columns"
+  }, {
+    "id" : "ValueColumns",
+    "ar" : "أعمدة القيم",
+    "en" : "Value Columns"
+  }, {
+    "id" : "PivotColumns",
+    "ar" : "أعمدة المحور",
+    "en" : "Pivot Columns"
+  } ]
+}

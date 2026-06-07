@@ -1,0 +1,12 @@
+{
+  "enum" : "OtherComponentEffectType",
+  "values" : [ {
+    "id" : "Addition",
+    "ar" : "إضافة",
+    "en" : "Addition"
+  }, {
+    "id" : "Deduction",
+    "ar" : "خصم",
+    "en" : "Deduction"
+  } ]
+}

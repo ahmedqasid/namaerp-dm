@@ -1,0 +1,17 @@
+{
+  "entity" : "ManuallyCodedTermsEntities",
+  "table" : "ManuallyCodedTermsEntities",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ManuallyCodedTermsEntities.html",
+  "fields" : [ {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

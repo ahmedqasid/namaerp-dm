@@ -1,0 +1,16 @@
+{
+  "enum" : "FRMLocationStatus",
+  "values" : [ {
+    "id" : "Free",
+    "ar" : "شاغر",
+    "en" : "Free"
+  }, {
+    "id" : "Full",
+    "ar" : "كلي",
+    "en" : "Full"
+  }, {
+    "id" : "Partial",
+    "ar" : "جزئي",
+    "en" : "Partial"
+  } ]
+}

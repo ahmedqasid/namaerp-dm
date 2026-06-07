@@ -1,0 +1,24 @@
+{
+  "enum" : "FAStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "إبتدائى",
+    "en" : " Initial"
+  }, {
+    "id" : "Running",
+    "ar" : "جارى الإهلاك",
+    "en" : "Running Depreciation"
+  }, {
+    "id" : "Disposed",
+    "ar" : "تم التخلص منه",
+    "en" : "Disposed"
+  }, {
+    "id" : "Depreciated",
+    "ar" : "مهلك",
+    "en" : "Depreciated"
+  }, {
+    "id" : "NotDepreciable",
+    "ar" : "غير قابل للإهلاك",
+    "en" : "Not Depreciable"
+  } ]
+}

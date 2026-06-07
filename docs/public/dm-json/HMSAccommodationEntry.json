@@ -1,0 +1,141 @@
+{
+  "entity" : "HMSAccommodationEntry",
+  "table" : "HMSAccommodationEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/HMSAccommodationEntry.html",
+  "fields" : [ {
+    "id" : "absoluteOrderIndex",
+    "column" : "absoluteOrderIndex",
+    "type" : "Text"
+  }, {
+    "id" : "accomData.bed",
+    "column" : "bed_id",
+    "ar" : " سرير إسكان",
+    "en" : " HO Bed",
+    "type" : "Reference",
+    "refTo" : "HMSBed",
+    "refPath" : "/modules/hms/HMSBed.html"
+  }, {
+    "id" : "accomData.building",
+    "column" : "building_id",
+    "ar" : "المبنى",
+    "en" : "Building",
+    "type" : "Reference",
+    "refTo" : "HMSBuilding",
+    "refPath" : "/modules/hms/HMSBuilding.html"
+  }, {
+    "id" : "accomData.floor",
+    "column" : "floor_id",
+    "ar" : "الطابق",
+    "en" : "Floor",
+    "type" : "Reference",
+    "refTo" : "HMSFloor",
+    "refPath" : "/modules/hms/HMSFloor.html"
+  }, {
+    "id" : "accomData.hmsSection",
+    "column" : "hmsSection_id",
+    "ar" : "القسم الطبى",
+    "en" : "Section",
+    "type" : "Reference",
+    "refTo" : "HMSSection",
+    "refPath" : "/modules/hms/HMSSection.html"
+  }, {
+    "id" : "accomData.room",
+    "column" : "room_id",
+    "ar" : "الغرفة",
+    "en" : "Room",
+    "type" : "Reference",
+    "refTo" : "HMSRoom",
+    "refPath" : "/modules/hms/HMSRoom.html"
+  }, {
+    "id" : "admissionDoc",
+    "columns" : [ "admissionDocActualCode", " admissionDocCode", " admissionDocEntityType", " admissionDocId" ],
+    "ar" : "مستند دخول المريض",
+    "en" : "Admission Doc",
+    "type" : "Genericreference"
+  }, {
+    "id" : "billableDays",
+    "column" : "billableDays",
+    "ar" : "الأيام المستحقة",
+    "en" : "Billable Days",
+    "type" : "Decimal"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "entryOwner",
+    "columns" : [ "entryOwnerActualCode", " entryOwnerCode", " entryOwnerEntityType", " entryOwnerId" ],
+    "ar" : "المستند",
+    "en" : "Entry Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "exitDoc",
+    "columns" : [ "exitDocActualCode", " exitDocCode", " exitDocEntityType", " exitDocId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
+    "id" : "fromTime",
+    "column" : "fromTime",
+    "ar" : "من وقت",
+    "en" : "From-Time",
+    "type" : "Time"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "inDoc",
+    "columns" : [ "inDocActualCode", " inDocCode", " inDocEntityType", " inDocId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "inLine",
+    "column" : "inLine",
+    "ar" : "مستند دخول",
+    "en" : "In Line",
+    "type" : "Boolean"
+  }, {
+    "id" : "invoice",
+    "columns" : [ "invoiceActualCode", " invoiceCode", " invoiceEntityType", " invoiceId" ],
+    "ar" : "الفاتورة",
+    "en" : "Invoice",
+    "type" : "Genericreference"
+  }, {
+    "id" : "orderByIndex",
+    "column" : "orderByIndex",
+    "type" : "Text"
+  }, {
+    "id" : "patient",
+    "column" : "patient_id",
+    "ar" : "المريض",
+    "en" : "Patient",
+    "type" : "Reference",
+    "refTo" : "HMSPatient",
+    "refPath" : "/modules/hms/HMSPatient.html"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  }, {
+    "id" : "toTime",
+    "column" : "toTime",
+    "ar" : "إلى وقت",
+    "en" : "To-Time",
+    "type" : "Time"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

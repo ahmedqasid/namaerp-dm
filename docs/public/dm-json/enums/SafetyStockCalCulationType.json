@@ -1,0 +1,16 @@
+{
+  "enum" : "SafetyStockCalCulationType",
+  "values" : [ {
+    "id" : "Quantity",
+    "ar" : "الكمية",
+    "en" : "Quantity"
+  }, {
+    "id" : "PeriodsCount",
+    "ar" : "عدد الفترات",
+    "en" : "Periods Count"
+  }, {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  } ]
+}

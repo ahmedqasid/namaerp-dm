@@ -1,0 +1,8 @@
+{
+  "enum" : "MobileEntityTitleType",
+  "values" : [ {
+    "id" : "Listview"
+  }, {
+    "id" : "SearchView"
+  } ]
+}

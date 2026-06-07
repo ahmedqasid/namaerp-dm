@@ -1,0 +1,15 @@
+{
+  "enum" : "TicketType",
+  "values" : [ {
+    "id" : "Addition",
+    "ar" : "إضافة",
+    "en" : "Addition"
+  }, {
+    "id" : "Error",
+    "ar" : "خطأ",
+    "en" : "Error"
+  }, {
+    "id" : "Modification",
+    "ar" : "تعديل"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "DiscountType",
+  "values" : [ {
+    "id" : "Percentage",
+    "ar" : "نسبة مركبة",
+    "en" : "Composite Percentage"
+  }, {
+    "id" : "Value",
+    "ar" : "قيمة",
+    "en" : "Value"
+  }, {
+    "id" : "FixedPercentage",
+    "ar" : "نسبة ثابتة",
+    "en" : "Fixed Percentage"
+  } ]
+}

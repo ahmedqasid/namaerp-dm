@@ -1,0 +1,83 @@
+{
+  "entity" : "InvestmentDocumentDocEntry",
+  "table" : "InvestmentDocumentDocEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/InvestmentDocumentDocEntry.html",
+  "fields" : [ {
+    "id" : "changeInCount",
+    "column" : "changeInCount",
+    "ar" : "التغير في العدد",
+    "en" : "Change In Count",
+    "type" : "Decimal"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentCount",
+    "column" : "currentCount",
+    "ar" : "العدد الحالي",
+    "en" : "Current Count",
+    "type" : "Decimal"
+  }, {
+    "id" : "currentTotal",
+    "column" : "currentTotal",
+    "ar" : "الإجمالي الحالي",
+    "en" : "Current Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "currentUnitPrice",
+    "column" : "currentUnitPrice",
+    "ar" : "سعر الوحدة الحالي",
+    "en" : "Current Unit Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "fund",
+    "column" : "fund_id",
+    "type" : "Reference",
+    "refTo" : "InvestmentDocumentFund",
+    "refPath" : "/modules/accounting-investment-documents/InvestmentDocumentFund.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "previousCount",
+    "column" : "previousCount",
+    "ar" : "العدد السابق",
+    "en" : "Previous Count",
+    "type" : "Decimal"
+  }, {
+    "id" : "previousCountPriceChange",
+    "column" : "previousCountPriceChange",
+    "ar" : "فرق السعر",
+    "en" : "Previous Count Price Change",
+    "type" : "Decimal"
+  }, {
+    "id" : "previousTotal",
+    "column" : "previousTotal",
+    "ar" : "إجمالي السابق",
+    "en" : "Previous Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "previousUnitPrice",
+    "column" : "previousUnitPrice",
+    "ar" : "سعر الوحدة السابق",
+    "en" : "Previous Unit Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

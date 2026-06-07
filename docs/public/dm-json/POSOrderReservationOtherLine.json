@@ -1,0 +1,18 @@
+{
+  "entity" : "POSOrderReservationOtherLine",
+  "table" : "POSOrderReservationOtherLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/POSOrderReservationOtherLine.html",
+  "fields" : [ {
+    "id" : "field",
+    "column" : "field",
+    "ar" : "الحقل",
+    "en" : "Field",
+    "type" : "Enum",
+    "enum" : "POSSalesHeaderField"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

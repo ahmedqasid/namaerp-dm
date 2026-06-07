@@ -1,0 +1,20 @@
+{
+  "enum" : "SourceInvoiceCalculation",
+  "values" : [ {
+    "id" : "Manual",
+    "ar" : "يدوي",
+    "en" : "Manual"
+  }, {
+    "id" : "LIFO",
+    "ar" : "ليفو",
+    "en" : "LIFO"
+  }, {
+    "id" : "FIFO",
+    "ar" : "فيفو",
+    "en" : "FIFO"
+  }, {
+    "id" : "WITHOUT",
+    "ar" : "بدون",
+    "en" : "Without"
+  } ]
+}

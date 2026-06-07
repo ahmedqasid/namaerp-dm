@@ -1,0 +1,41 @@
+{
+  "entity" : "MiscInvoiceQtyTransLine",
+  "table" : "MiscInvoiceQtyTransLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/MiscInvoiceQtyTransLine.html",
+  "fields" : [ {
+    "id" : "consumedQty1",
+    "column" : "consumedQty1",
+    "ar" : "الكمية المنفذة 1",
+    "en" : "Consumed Quantity 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "consumedQty2",
+    "column" : "consumedQty2",
+    "ar" : "الكمية المنفذة 2",
+    "en" : "Consumed Quantity 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "ownerInvoice",
+    "columns" : [ "ownerInvoiceActualCode", " ownerInvoiceCode", " ownerInvoiceEntityType", " ownerInvoiceId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "purchaseElement",
+    "column" : "purchaseElement_id",
+    "ar" : " بند شراء",
+    "en" : " Purchase Element",
+    "type" : "Reference",
+    "refTo" : "PurchaseElement",
+    "refPath" : "/modules/accounting/PurchaseElement.html"
+  }, {
+    "id" : "targetInvoice",
+    "columns" : [ "targetInvoiceActualCode", " targetInvoiceCode", " targetInvoiceEntityType", " targetInvoiceId" ],
+    "ar" : "الفاتورة",
+    "en" : "Target Invoice",
+    "type" : "Genericreference"
+  } ]
+}

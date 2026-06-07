@@ -1,0 +1,20 @@
+{
+  "enum" : "SourceSelectionMethod",
+  "values" : [ {
+    "id" : "SourcesAvg",
+    "ar" : "متوسط المصادر",
+    "en" : "Sources Avg"
+  }, {
+    "id" : "SourcesMax",
+    "ar" : "أكبر رقم بالمصادر",
+    "en" : "Sources Max"
+  }, {
+    "id" : "SourcesMin",
+    "ar" : "أقل رقم بالمصادر",
+    "en" : "Sources Min"
+  }, {
+    "id" : "FirstNotZeroSource",
+    "ar" : "أول مصدر ليس صفر",
+    "en" : "First Not Zero Source"
+  } ]
+}

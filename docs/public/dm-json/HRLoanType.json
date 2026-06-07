@@ -1,0 +1,745 @@
+{
+  "entity" : "HRLoanType",
+  "table" : "HRLoanType",
+  "module" : "humanresource-payroll",
+  "ar" : "نوع السلفة",
+  "arPlural" : "أنواع السلف",
+  "en" : "Loan Type",
+  "enPlural" : "Loan Types",
+  "page" : "https://dm.namasoft.com/modules/humanresource-payroll/HRLoanType.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "automaticPayment",
+    "column" : "automaticPayment",
+    "ar" : "تخصم من الراتب آليا",
+    "en" : "Automatic Payment (From salary)",
+    "type" : "Boolean"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "defaultInstallmentsCount",
+    "column" : "defaultInstallmentsCount",
+    "ar" : "عدد الأقساط الافتراضي",
+    "en" : "Default Installments Count",
+    "type" : "Integer"
+  }, {
+    "id" : "defaultLoanAmount",
+    "column" : "defaultLoanAmount",
+    "ar" : "القيمة الأفتراضية للسلفة",
+    "en" : "Default Loan Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description",
+    "column" : "description",
+    "ar" : "الوصف",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "employeeDepartment",
+    "column" : "employeeDepartment_id",
+    "ar" : " إدارة موظف",
+    "en" : " Employee Department",
+    "type" : "Reference",
+    "refTo" : "EmployeeDepartment",
+    "refPath" : "/modules/basic/EmployeeDepartment.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "issuance",
+    "column" : "issuance_id",
+    "ar" : "الصرفية",
+    "en" : "Issuance",
+    "type" : "Reference",
+    "refTo" : "HRSalaryIssuance",
+    "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "manualPayment",
+    "column" : "manualPayment",
+    "ar" : "يدوي",
+    "en" : "Manual Payment",
+    "type" : "Boolean"
+  }, {
+    "id" : "maxInstallmentsCount",
+    "column" : "maxInstallmentsCount",
+    "ar" : "الحد الأقصى لعدد الأقساط",
+    "en" : "Installments Count (Max)",
+    "type" : "Integer"
+  }, {
+    "id" : "maxLoanAmount",
+    "column" : "maxLoanAmount",
+    "ar" : "أقصي قيمة للسلفة",
+    "en" : "Max Loan amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "minInstallmentsCount",
+    "column" : "minInstallmentsCount",
+    "ar" : "الحد الأدنى لعدد الأقساط",
+    "en" : "Installments Count (Min)",
+    "type" : "Integer"
+  }, {
+    "id" : "minLoanAmount",
+    "column" : "minLoanAmount",
+    "ar" : "أقل قيمة للسلفة",
+    "en" : "Min Loan amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "organizationPosition",
+    "column" : "organizationPosition_id",
+    "ar" : "الدرجة الوظيفية",
+    "en" : "Organization Position",
+    "type" : "Reference",
+    "refTo" : "OrganizationPosition",
+    "refPath" : "/modules/basic/OrganizationPosition.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "salaryComponent",
+    "column" : "salaryComponent_id",
+    "ar" : " مفرد راتب",
+    "en" : " Salary Component",
+    "type" : "Reference",
+    "refTo" : "SalaryComponent",
+    "refPath" : "/modules/humanresource-payroll/SalaryComponent.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "conditionsMatchedInLoanDoc",
+    "table" : "HRLoanConditionsLine",
+    "joinColumn" : "hRLoanType_id",
+    "ar" : "الشروط الواجب توافرها في سند السلفه",
+    "en" : "Conditions Should Matched In Loan Document",
+    "fields" : [ {
+      "id" : "conditionsMatchedInLoanDoc.considerSameTypeInstallmentsInSameMonth",
+      "column" : "considerSameTypeInstallmentsInSameMonth",
+      "ar" : "الأخذ في الاعتبار الاقساط من نفس النوع في نفس الشهر",
+      "en" : "Consider Same Type Installments In Same Month",
+      "type" : "Boolean"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.employeeDepartment",
+      "column" : "employeeDepartment_id",
+      "ar" : " إدارة موظف",
+      "en" : " Employee Department",
+      "type" : "Reference",
+      "refTo" : "EmployeeDepartment",
+      "refPath" : "/modules/basic/EmployeeDepartment.html"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.employeeFileCriteria",
+      "column" : "employeeFileCriteria_id",
+      "ar" : "معيار ملف الموظف",
+      "en" : "Employee File Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.employeeFileQuery",
+      "column" : "employeeFileQuery",
+      "ar" : "استعلام ملف الموظف",
+      "en" : "Employee File Query",
+      "type" : "BigText"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.fromExpYear",
+      "column" : "fromExpYear",
+      "ar" : "عدد سنين الخبرة | أكبر من او تساوي",
+      "en" : "Experience Years | Greater Than Or Equal",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.fromServiceMonth",
+      "column" : "fromServiceMonth",
+      "ar" : "عدد شهور الخدمة للحصول على السلفة | أكبر من أو يساوي",
+      "en" : "Number of Months to get loans | Greater Than Or Equal",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.jobPosition",
+      "column" : "jobPosition_id",
+      "ar" : "الموقع الوظيفي",
+      "en" : "Job Position",
+      "type" : "Reference",
+      "refTo" : "JobPosition",
+      "refPath" : "/modules/basic/JobPosition.html"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.leastPercPrevToAllowCurrent",
+      "column" : "leastPercPrevToAllowCurrent",
+      "ar" : "عند وجود سلفة سابقة يجب ان تكون مسددة على الأقل بنسبة",
+      "en" : "When Previous Loan Document Found At least it must be paid by percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.loanDocumentCriteria",
+      "column" : "loanDocumentCriteria_id",
+      "ar" : "معيار سند السلفة",
+      "en" : "Loan Document Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.loanDocumentDateFrom",
+      "column" : "loanDocumentDateFrom",
+      "ar" : "تاريخ سند السلفة | من",
+      "en" : "Loan Document Date| From",
+      "type" : "Date"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.loanDocumentDateTo",
+      "column" : "loanDocumentDateTo",
+      "ar" : "تاريخ سند السلفة |إلى",
+      "en" : "Loan Document Date| To",
+      "type" : "Date"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.loanDocumentQuery",
+      "column" : "loanDocumentQuery",
+      "ar" : "استعلام سند السلفة",
+      "en" : "Loan Document Query",
+      "type" : "BigText"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.loanValueGreaterThan",
+      "column" : "loanValueGreaterThan",
+      "ar" : "قيمة السلفة | أكبر من أو يساوى",
+      "en" : "Loan Value| greater Than Or Equal",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.loanValueLessThan",
+      "column" : "loanValueLessThan",
+      "ar" : "قيمة السلفة | أقل من",
+      "en" : "Loan Value|Less than",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.maxInstallmentType",
+      "column" : "maxInstallmentType",
+      "ar" : "نوع الحد الأقصى للقسط",
+      "en" : "Max Installment Type",
+      "type" : "Enum",
+      "enum" : "MaxLoanType"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.maxInstallmentValue",
+      "column" : "maxInstallmentValue",
+      "ar" : "الحد الأقصى للقسط",
+      "en" : "Max Installment Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.maxLoanType",
+      "column" : "maxLoanType",
+      "ar" : "نوع الحد الأقصي للسلفة",
+      "en" : "Maximum Loan Type",
+      "type" : "Enum",
+      "enum" : "MaxLoanType"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.maxLoanValue",
+      "column" : "maxLoanValue",
+      "ar" : "الحد الأقصي للسلفة",
+      "en" : "Maximum Loan Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.maxMonthsToPay",
+      "column" : "maxMonthsToPay",
+      "ar" : "أقصي عدد شهور لسداد السلفة",
+      "en" : "Maximum Months To Pay",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.organizationPosition",
+      "column" : "organizationPosition_id",
+      "ar" : "الدرجة الوظيفية",
+      "en" : "Organization Position",
+      "type" : "Reference",
+      "refTo" : "OrganizationPosition",
+      "refPath" : "/modules/basic/OrganizationPosition.html"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.salaryComponentGroup",
+      "column" : "salaryComponentGroup_id",
+      "ar" : "سند الراتب | مجموعة مفردات",
+      "en" : "Salary Document Amount| Salary Component Group",
+      "type" : "Reference",
+      "refTo" : "SalaryComponentGroup",
+      "refPath" : "/modules/humanresource-payroll/SalaryComponentGroup.html"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.salaryDocumentAmountGreaterThanOrEqual",
+      "column" : "salaryDocumentAmountGreaterThanOrEqual",
+      "ar" : "سند الراتب | أكبر من أو يساوى",
+      "en" : "Salary Document Amount| Greater than Or Equal",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.salaryDocumentAmountLessThan",
+      "column" : "salaryDocumentAmountLessThan",
+      "ar" : "سند الراتب |أصغر من",
+      "en" : "Salary Document Amount| Less Than",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.searchPreLoansForLoanType",
+      "column" : "searchPreLoansForLoanType",
+      "ar" : "البحث عن السلف السابقة من نفس نوع السلفة",
+      "en" : "Search For Previous Loans From Same Loan Type",
+      "type" : "Boolean"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.toExpYear",
+      "column" : "toExpYear",
+      "ar" : "عدد سنين الخبرة | أقل من",
+      "en" : "Experience Years | Less Than",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditionsMatchedInLoanDoc.toServiceMonth",
+      "column" : "toServiceMonth",
+      "ar" : "عدد شهور الخدمة للحصول على السلفة | أقل من",
+      "en" : "Number of Months to get loans | Less Than",
+      "type" : "Decimal"
+    } ]
+  }, {
+    "id" : "salaryComponents",
+    "table" : "HRLoanSalaryComponentLine",
+    "joinColumn" : "hRLoanType_id",
+    "ar" : "مفردات الراتب",
+    "en" : "Salary Components",
+    "fields" : [ {
+      "id" : "salaryComponents.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "salaryComponents.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "salaryComponents.salaryComponent",
+      "column" : "salaryComponent_id",
+      "ar" : " مفرد راتب",
+      "en" : " Salary Component",
+      "type" : "Reference",
+      "refTo" : "SalaryComponent",
+      "refPath" : "/modules/humanresource-payroll/SalaryComponent.html"
+    } ]
+  } ]
+}

@@ -1,0 +1,2450 @@
+{
+  "entity" : "CRMVisit",
+  "table" : "CRMVisit",
+  "module" : "crm",
+  "ar" : "الزيارة",
+  "arPlural" : "الزيارات",
+  "en" : "Visit",
+  "enPlural" : "Visits",
+  "page" : "https://dm.namasoft.com/modules/crm/CRMVisit.html",
+  "fields" : [ {
+    "id" : "address.address1",
+    "column" : "addressAddress1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "address.address2",
+    "column" : "addressAddress2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "address.area",
+    "column" : "addressArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "address.buildingNumber",
+    "column" : "addressBuildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "address.city",
+    "column" : "addressCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "address.country",
+    "column" : "addressCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "address.countryCode",
+    "column" : "addressCountryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "address.district",
+    "column" : "addressDistrict",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "address.landPlotNumber",
+    "column" : "addressLandPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "address.mapLocation",
+    "column" : "addressMapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "address.postalCode",
+    "column" : "addressPostalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "address.region",
+    "column" : "addressRegion_id",
+    "ar" : "موقع جغرافي",
+    "en" : "Address region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "address.state",
+    "column" : "addressState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "address.street",
+    "column" : "addressStreet",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "assignee",
+    "column" : "assignee_id",
+    "ar" : "المعين للمهمة",
+    "en" : "Assignee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "attachment",
+    "column" : "attachment_id",
+    "ar" : "مرفق",
+    "en" : "Attachment",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attendanceLocation.address1",
+    "column" : "attAddress1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.address2",
+    "column" : "attAddress2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.area",
+    "column" : "attArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.buildingNumber",
+    "column" : "attBuildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.city",
+    "column" : "attCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.country",
+    "column" : "attCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.countryCode",
+    "column" : "attCountryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.district",
+    "column" : "attDistrict",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.landPlotNumber",
+    "column" : "attLandPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.mapLocation",
+    "column" : "attMapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "attendanceLocation.postalCode",
+    "column" : "attPostalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.region",
+    "column" : "attRegion_id",
+    "ar" : "منطقة جغرافيه",
+    "en" : "Region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "attendanceLocation.state",
+    "column" : "attState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "attendanceLocation.street",
+    "column" : "attStreet",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
+  }, {
+    "id" : "changeStatusTo",
+    "column" : "changeStatusTo",
+    "ar" : "تغيير الحالة إلى",
+    "en" : "Change Status To",
+    "type" : "Enum",
+    "enum" : "CRMLeadStatus"
+  }, {
+    "id" : "clientSignature",
+    "column" : "clientSignature_id",
+    "ar" : "توقيع العميل",
+    "en" : "Client Signature",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentActivityType",
+    "column" : "currentActivityType_id",
+    "ar" : "نوع النشاط الحالي",
+    "en" : "Current Activity Type",
+    "type" : "Reference",
+    "refTo" : "CRMActivityType",
+    "refPath" : "/modules/crm/CRMActivityType.html"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentLeadClassification",
+    "column" : "currentLeadClassification_id",
+    "ar" : "تصنيف العميل الحالي",
+    "en" : "Current Lead Classification",
+    "type" : "Reference",
+    "refTo" : "CRMLeadClassification",
+    "refPath" : "/modules/crm/CRMLeadClassification.html"
+  }, {
+    "id" : "currentRejectionReason",
+    "column" : "currentRejectionReason_id",
+    "ar" : "سبب الرفض الحالي",
+    "en" : "Current Rejection Reason",
+    "type" : "Reference",
+    "refTo" : "CRMRejectionReason",
+    "refPath" : "/modules/crm/CRMRejectionReason.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "departureLocation.address1",
+    "column" : "departAddress1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.address2",
+    "column" : "departAddress2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.area",
+    "column" : "departArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.buildingNumber",
+    "column" : "departBuildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.city",
+    "column" : "departCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.country",
+    "column" : "departCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.countryCode",
+    "column" : "departCountryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.district",
+    "column" : "departDistrict",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.landPlotNumber",
+    "column" : "departLandPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.mapLocation",
+    "column" : "departMapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "departureLocation.postalCode",
+    "column" : "departPostalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.region",
+    "column" : "departRegion_id",
+    "ar" : "منطقة جغرافيه",
+    "en" : "Region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "departureLocation.state",
+    "column" : "departState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "departureLocation.street",
+    "column" : "departStreet",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "description",
+    "column" : "description",
+    "ar" : "الوصف",
+    "en" : "Description",
+    "type" : "Text"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "employeeSignature",
+    "column" : "employeeSignature_id",
+    "ar" : "توقيع المندوب",
+    "en" : "Employee Signature",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "endTime",
+    "column" : "endTime",
+    "ar" : "إلى",
+    "en" : "End Time",
+    "type" : "Time"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "escaletedTo",
+    "column" : "escaletedTo_id",
+    "ar" : "تصعيد الي",
+    "en" : "escaleted to",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "expense",
+    "column" : "expense",
+    "ar" : "مصروفات",
+    "en" : "Expense",
+    "type" : "Decimal"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "job",
+    "column" : "job",
+    "ar" : "الوظيفة",
+    "en" : "job",
+    "type" : "Text"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
+  }, {
+    "id" : "mediator",
+    "column" : "mediator_id",
+    "ar" : "الوسيط",
+    "en" : "Mediator",
+    "type" : "Reference",
+    "refTo" : "CRMMediator",
+    "refPath" : "/modules/crm/CRMMediator.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "newRejectionReason",
+    "column" : "newRejectionReason_id",
+    "ar" : "سبب الرفض الجديد",
+    "en" : "New Rejection Reason",
+    "type" : "Reference",
+    "refTo" : "CRMRejectionReason",
+    "refPath" : "/modules/crm/CRMRejectionReason.html"
+  }, {
+    "id" : "nextActivityType",
+    "column" : "nextActivityType_id",
+    "ar" : "نوع النشاط التالي",
+    "en" : "Next Activity Type",
+    "type" : "Reference",
+    "refTo" : "CRMActivityType",
+    "refPath" : "/modules/crm/CRMActivityType.html"
+  }, {
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+  }, {
+    "id" : "otherExpense",
+    "column" : "otherExpense",
+    "ar" : "مصاريف أخرى",
+    "en" : "other expense",
+    "type" : "Decimal"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "paymentStatus",
+    "column" : "paymentStatus",
+    "ar" : "حالة السداد",
+    "en" : "Payment Status",
+    "type" : "Enum",
+    "enum" : "PaymentStatus"
+  }, {
+    "id" : "phase",
+    "column" : "phase",
+    "ar" : "المرحلة",
+    "en" : "Phase or Cycle",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref10",
+    "columns" : [ "ref10ActualCode", " ref10Code", " ref10EntityType", " ref10Id" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref6",
+    "columns" : [ "ref6ActualCode", " ref6Code", " ref6EntityType", " ref6Id" ],
+    "ar" : "مرجع 6",
+    "en" : "Reference 6",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref7",
+    "columns" : [ "ref7ActualCode", " ref7Code", " ref7EntityType", " ref7Id" ],
+    "ar" : "مرجع 7",
+    "en" : "Reference 7",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref8",
+    "columns" : [ "ref8ActualCode", " ref8Code", " ref8EntityType", " ref8Id" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref9",
+    "columns" : [ "ref9ActualCode", " ref9Code", " ref9EntityType", " ref9Id" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "relatedRecordStatus",
+    "column" : "relatedRecordStatus",
+    "ar" : "حالة السجل المرتبط",
+    "en" : "Related Record Status",
+    "type" : "Enum",
+    "enum" : "CRMLeadStatus"
+  }, {
+    "id" : "relatedTo",
+    "columns" : [ "relatedToActualCode", " relatedToCode", " relatedToEntityType", " relatedToId" ],
+    "ar" : "يرتبط بـ",
+    "en" : "Related To",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "responsibleEmployee",
+    "column" : "responsibleEmployee_id",
+    "ar" : "الموظف المسئول",
+    "en" : "Responsible Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "responsibleForCustomer",
+    "column" : "responsibleForCustomer_id",
+    "ar" : "المسئول عن العميل",
+    "en" : "Customer representative",
+    "type" : "Reference",
+    "refTo" : "Contact",
+    "refPath" : "/modules/basic/Contact.html"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "serial",
+    "column" : "serial",
+    "ar" : "المسلسل",
+    "en" : "Serial",
+    "type" : "Text"
+  }, {
+    "id" : "startTime",
+    "column" : "startTime",
+    "ar" : "من",
+    "en" : "Start Time",
+    "type" : "Time"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TicketStatus"
+  }, {
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
+    "type" : "BigText"
+  }, {
+    "id" : "transportationExpense",
+    "column" : "transportationExpense",
+    "ar" : "مصاريف التنقل",
+    "en" : "transportation expense",
+    "type" : "Decimal"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "updateLeadClassificationTo",
+    "column" : "updateLeadClassificationTo_id",
+    "ar" : "تحديث تصنيف العميل إلى",
+    "en" : "Update Lead Classification To",
+    "type" : "Reference",
+    "refTo" : "CRMLeadClassification",
+    "refPath" : "/modules/crm/CRMLeadClassification.html"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "visitCost",
+    "column" : "visitCost",
+    "ar" : "تكلفة الزيارة",
+    "en" : "Visit Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "visitDate",
+    "column" : "visitDate",
+    "ar" : "تاريخ الزيارة",
+    "en" : "Visit date",
+    "type" : "Date"
+  }, {
+    "id" : "visitLocation",
+    "column" : "visitLocation",
+    "ar" : "موقع الزياره",
+    "en" : "Visit location",
+    "type" : "Text"
+  } ],
+  "details" : [ {
+    "id" : "customerRemarksLines",
+    "table" : "CRMVisitCustomerRemarksLine",
+    "joinColumn" : "cRMVisit_id",
+    "fields" : [ {
+      "id" : "customerRemarksLines.b1",
+      "column" : "b1",
+      "ar" : "Boolean 1",
+      "en" : "Boolean 1",
+      "type" : "Boolean"
+    }, {
+      "id" : "customerRemarksLines.b10",
+      "column" : "b10",
+      "type" : "Boolean"
+    }, {
+      "id" : "customerRemarksLines.b2",
+      "column" : "b2",
+      "ar" : "Boolean 2",
+      "en" : "Boolean 2",
+      "type" : "Boolean"
+    }, {
+      "id" : "customerRemarksLines.b3",
+      "column" : "b3",
+      "ar" : "Boolean 3",
+      "en" : "Boolean 3",
+      "type" : "Boolean"
+    }, {
+      "id" : "customerRemarksLines.b4",
+      "column" : "b4",
+      "ar" : "Boolean 4",
+      "en" : "Boolean 4",
+      "type" : "Boolean"
+    }, {
+      "id" : "customerRemarksLines.b5",
+      "column" : "b5",
+      "ar" : "Boolean 5",
+      "en" : "Boolean 5",
+      "type" : "Boolean"
+    }, {
+      "id" : "customerRemarksLines.b6",
+      "column" : "b6",
+      "type" : "Boolean"
+    }, {
+      "id" : "customerRemarksLines.b7",
+      "column" : "b7",
+      "type" : "Boolean"
+    }, {
+      "id" : "customerRemarksLines.b8",
+      "column" : "b8",
+      "type" : "Boolean"
+    }, {
+      "id" : "customerRemarksLines.b9",
+      "column" : "b9",
+      "type" : "Boolean"
+    }, {
+      "id" : "customerRemarksLines.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "customerRemarksLines.date10",
+      "column" : "date10",
+      "ar" : "تاريخ 10",
+      "en" : "Date10",
+      "type" : "Date"
+    }, {
+      "id" : "customerRemarksLines.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "customerRemarksLines.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "customerRemarksLines.date4",
+      "column" : "date4",
+      "ar" : "تاريخ 4",
+      "en" : "Date4",
+      "type" : "Date"
+    }, {
+      "id" : "customerRemarksLines.date5",
+      "column" : "date5",
+      "ar" : "تاريخ 5",
+      "en" : "Date5",
+      "type" : "Date"
+    }, {
+      "id" : "customerRemarksLines.date6",
+      "column" : "date6",
+      "ar" : "تاريخ 6",
+      "en" : "Date6",
+      "type" : "Date"
+    }, {
+      "id" : "customerRemarksLines.date7",
+      "column" : "date7",
+      "ar" : "تاريخ 7",
+      "en" : "Date7",
+      "type" : "Date"
+    }, {
+      "id" : "customerRemarksLines.date8",
+      "column" : "date8",
+      "ar" : "تاريخ 8",
+      "en" : "Date8",
+      "type" : "Date"
+    }, {
+      "id" : "customerRemarksLines.date9",
+      "column" : "date9",
+      "ar" : "تاريخ 9",
+      "en" : "Date9",
+      "type" : "Date"
+    }, {
+      "id" : "customerRemarksLines.description1",
+      "column" : "description1",
+      "ar" : "الوصف 1",
+      "en" : "description1",
+      "type" : "BigText"
+    }, {
+      "id" : "customerRemarksLines.description10",
+      "column" : "description10",
+      "ar" : "الوصف 10",
+      "en" : "description 10",
+      "type" : "BigText"
+    }, {
+      "id" : "customerRemarksLines.description2",
+      "column" : "description2",
+      "ar" : "الوصف 2",
+      "en" : "description2",
+      "type" : "BigText"
+    }, {
+      "id" : "customerRemarksLines.description3",
+      "column" : "description3",
+      "ar" : "الوصف 3",
+      "en" : "description3",
+      "type" : "BigText"
+    }, {
+      "id" : "customerRemarksLines.description4",
+      "column" : "description4",
+      "ar" : "الوصف 4",
+      "en" : "description4",
+      "type" : "BigText"
+    }, {
+      "id" : "customerRemarksLines.description5",
+      "column" : "description5",
+      "ar" : "الوصف 5",
+      "en" : "description5",
+      "type" : "BigText"
+    }, {
+      "id" : "customerRemarksLines.description6",
+      "column" : "description6",
+      "ar" : "الوصف 6",
+      "en" : "description 6",
+      "type" : "BigText"
+    }, {
+      "id" : "customerRemarksLines.description7",
+      "column" : "description7",
+      "ar" : "الوصف 7",
+      "en" : "description 7",
+      "type" : "BigText"
+    }, {
+      "id" : "customerRemarksLines.description8",
+      "column" : "description8",
+      "ar" : "الوصف 8",
+      "en" : "description 8",
+      "type" : "BigText"
+    }, {
+      "id" : "customerRemarksLines.description9",
+      "column" : "description9",
+      "ar" : "الوصف 9",
+      "en" : "description 9",
+      "type" : "BigText"
+    }, {
+      "id" : "customerRemarksLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "customerRemarksLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "customerRemarksLines.longRemarks",
+      "column" : "longRemarks",
+      "ar" : "ملاحظات",
+      "en" : "Remarks",
+      "type" : "BigText"
+    }, {
+      "id" : "customerRemarksLines.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "customerRemarksLines.n10",
+      "column" : "n10",
+      "ar" : "رقم 10",
+      "en" : "Number 10",
+      "type" : "Decimal"
+    }, {
+      "id" : "customerRemarksLines.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "customerRemarksLines.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "customerRemarksLines.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "customerRemarksLines.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "customerRemarksLines.n6",
+      "column" : "n6",
+      "ar" : "رقم 6",
+      "en" : "Number 6",
+      "type" : "Decimal"
+    }, {
+      "id" : "customerRemarksLines.n7",
+      "column" : "n7",
+      "ar" : "رقم 7",
+      "en" : "Number 7",
+      "type" : "Decimal"
+    }, {
+      "id" : "customerRemarksLines.n8",
+      "column" : "n8",
+      "ar" : "رقم 8",
+      "en" : "Number 8",
+      "type" : "Decimal"
+    }, {
+      "id" : "customerRemarksLines.n9",
+      "column" : "n9",
+      "ar" : "رقم 9",
+      "en" : "Number 9",
+      "type" : "Decimal"
+    }, {
+      "id" : "customerRemarksLines.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "customerRemarksLines.ref10",
+      "columns" : [ "ref10ActualCode", " ref10Code", " ref10EntityType", " ref10Id" ],
+      "type" : "Genericreference"
+    }, {
+      "id" : "customerRemarksLines.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "customerRemarksLines.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "customerRemarksLines.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "customerRemarksLines.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "customerRemarksLines.ref6",
+      "columns" : [ "ref6ActualCode", " ref6Code", " ref6EntityType", " ref6Id" ],
+      "ar" : "مرجع 6",
+      "en" : "Reference 6",
+      "type" : "Genericreference"
+    }, {
+      "id" : "customerRemarksLines.ref7",
+      "columns" : [ "ref7ActualCode", " ref7Code", " ref7EntityType", " ref7Id" ],
+      "ar" : "مرجع 7",
+      "en" : "Reference 7",
+      "type" : "Genericreference"
+    }, {
+      "id" : "customerRemarksLines.ref8",
+      "columns" : [ "ref8ActualCode", " ref8Code", " ref8EntityType", " ref8Id" ],
+      "type" : "Genericreference"
+    }, {
+      "id" : "customerRemarksLines.ref9",
+      "columns" : [ "ref9ActualCode", " ref9Code", " ref9EntityType", " ref9Id" ],
+      "type" : "Genericreference"
+    } ]
+  }, {
+    "id" : "employees",
+    "table" : "CRMVisitEmployee",
+    "joinColumn" : "cRMVisit_id",
+    "ar" : "الموظفين",
+    "en" : "Employees",
+    "fields" : [ {
+      "id" : "employees.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "employees.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "employees.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "employees.date4",
+      "column" : "date4",
+      "ar" : "تاريخ 4",
+      "en" : "Date4",
+      "type" : "Date"
+    }, {
+      "id" : "employees.date5",
+      "column" : "date5",
+      "ar" : "تاريخ 5",
+      "en" : "Date5",
+      "type" : "Date"
+    }, {
+      "id" : "employees.employee",
+      "column" : "employee_id",
+      "ar" : "الفني",
+      "en" : "Technician",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "employees.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "employees.lineColor",
+      "column" : "lineColor",
+      "ar" : "Line Color",
+      "en" : "Line Color",
+      "type" : "Color"
+    }, {
+      "id" : "employees.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "employees.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "employees.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "employees.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "employees.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "employees.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "employees.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "employees.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "employees.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "employees.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "employees.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "employees.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "employees.t1",
+      "column" : "t1",
+      "type" : "Time"
+    }, {
+      "id" : "employees.t2",
+      "column" : "t2",
+      "type" : "Time"
+    }, {
+      "id" : "employees.t3",
+      "column" : "t3",
+      "type" : "Time"
+    }, {
+      "id" : "employees.t4",
+      "column" : "t4",
+      "type" : "Time"
+    }, {
+      "id" : "employees.t5",
+      "column" : "t5",
+      "type" : "Time"
+    }, {
+      "id" : "employees.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "employees.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "employees.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "employees.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "employees.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "remakLines",
+    "table" : "RemarksLine",
+    "joinColumn" : "cRMVisit_id",
+    "fields" : [ {
+      "id" : "remakLines.b1",
+      "column" : "b1",
+      "ar" : "Boolean 1",
+      "en" : "Boolean 1",
+      "type" : "Boolean"
+    }, {
+      "id" : "remakLines.b10",
+      "column" : "b10",
+      "type" : "Boolean"
+    }, {
+      "id" : "remakLines.b2",
+      "column" : "b2",
+      "ar" : "Boolean 2",
+      "en" : "Boolean 2",
+      "type" : "Boolean"
+    }, {
+      "id" : "remakLines.b3",
+      "column" : "b3",
+      "ar" : "Boolean 3",
+      "en" : "Boolean 3",
+      "type" : "Boolean"
+    }, {
+      "id" : "remakLines.b4",
+      "column" : "b4",
+      "ar" : "Boolean 4",
+      "en" : "Boolean 4",
+      "type" : "Boolean"
+    }, {
+      "id" : "remakLines.b5",
+      "column" : "b5",
+      "ar" : "Boolean 5",
+      "en" : "Boolean 5",
+      "type" : "Boolean"
+    }, {
+      "id" : "remakLines.b6",
+      "column" : "b6",
+      "type" : "Boolean"
+    }, {
+      "id" : "remakLines.b7",
+      "column" : "b7",
+      "type" : "Boolean"
+    }, {
+      "id" : "remakLines.b8",
+      "column" : "b8",
+      "type" : "Boolean"
+    }, {
+      "id" : "remakLines.b9",
+      "column" : "b9",
+      "type" : "Boolean"
+    }, {
+      "id" : "remakLines.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "remakLines.date10",
+      "column" : "date10",
+      "ar" : "تاريخ 10",
+      "en" : "Date10",
+      "type" : "Date"
+    }, {
+      "id" : "remakLines.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "remakLines.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "remakLines.date4",
+      "column" : "date4",
+      "ar" : "تاريخ 4",
+      "en" : "Date4",
+      "type" : "Date"
+    }, {
+      "id" : "remakLines.date5",
+      "column" : "date5",
+      "ar" : "تاريخ 5",
+      "en" : "Date5",
+      "type" : "Date"
+    }, {
+      "id" : "remakLines.date6",
+      "column" : "date6",
+      "ar" : "تاريخ 6",
+      "en" : "Date6",
+      "type" : "Date"
+    }, {
+      "id" : "remakLines.date7",
+      "column" : "date7",
+      "ar" : "تاريخ 7",
+      "en" : "Date7",
+      "type" : "Date"
+    }, {
+      "id" : "remakLines.date8",
+      "column" : "date8",
+      "ar" : "تاريخ 8",
+      "en" : "Date8",
+      "type" : "Date"
+    }, {
+      "id" : "remakLines.date9",
+      "column" : "date9",
+      "ar" : "تاريخ 9",
+      "en" : "Date9",
+      "type" : "Date"
+    }, {
+      "id" : "remakLines.description1",
+      "column" : "description1",
+      "ar" : "الوصف 1",
+      "en" : "description1",
+      "type" : "BigText"
+    }, {
+      "id" : "remakLines.description10",
+      "column" : "description10",
+      "ar" : "الوصف 10",
+      "en" : "description 10",
+      "type" : "BigText"
+    }, {
+      "id" : "remakLines.description2",
+      "column" : "description2",
+      "ar" : "الوصف 2",
+      "en" : "description2",
+      "type" : "BigText"
+    }, {
+      "id" : "remakLines.description3",
+      "column" : "description3",
+      "ar" : "الوصف 3",
+      "en" : "description3",
+      "type" : "BigText"
+    }, {
+      "id" : "remakLines.description4",
+      "column" : "description4",
+      "ar" : "الوصف 4",
+      "en" : "description4",
+      "type" : "BigText"
+    }, {
+      "id" : "remakLines.description5",
+      "column" : "description5",
+      "ar" : "الوصف 5",
+      "en" : "description5",
+      "type" : "BigText"
+    }, {
+      "id" : "remakLines.description6",
+      "column" : "description6",
+      "ar" : "الوصف 6",
+      "en" : "description 6",
+      "type" : "BigText"
+    }, {
+      "id" : "remakLines.description7",
+      "column" : "description7",
+      "ar" : "الوصف 7",
+      "en" : "description 7",
+      "type" : "BigText"
+    }, {
+      "id" : "remakLines.description8",
+      "column" : "description8",
+      "ar" : "الوصف 8",
+      "en" : "description 8",
+      "type" : "BigText"
+    }, {
+      "id" : "remakLines.description9",
+      "column" : "description9",
+      "ar" : "الوصف 9",
+      "en" : "description 9",
+      "type" : "BigText"
+    }, {
+      "id" : "remakLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "remakLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "remakLines.longRemarks",
+      "column" : "longRemarks",
+      "ar" : "ملاحظات",
+      "en" : "Remarks",
+      "type" : "BigText"
+    }, {
+      "id" : "remakLines.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "remakLines.n10",
+      "column" : "n10",
+      "ar" : "رقم 10",
+      "en" : "Number 10",
+      "type" : "Decimal"
+    }, {
+      "id" : "remakLines.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "remakLines.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "remakLines.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "remakLines.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "remakLines.n6",
+      "column" : "n6",
+      "ar" : "رقم 6",
+      "en" : "Number 6",
+      "type" : "Decimal"
+    }, {
+      "id" : "remakLines.n7",
+      "column" : "n7",
+      "ar" : "رقم 7",
+      "en" : "Number 7",
+      "type" : "Decimal"
+    }, {
+      "id" : "remakLines.n8",
+      "column" : "n8",
+      "ar" : "رقم 8",
+      "en" : "Number 8",
+      "type" : "Decimal"
+    }, {
+      "id" : "remakLines.n9",
+      "column" : "n9",
+      "ar" : "رقم 9",
+      "en" : "Number 9",
+      "type" : "Decimal"
+    }, {
+      "id" : "remakLines.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "remakLines.ref10",
+      "columns" : [ "ref10ActualCode", " ref10Code", " ref10EntityType", " ref10Id" ],
+      "type" : "Genericreference"
+    }, {
+      "id" : "remakLines.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "remakLines.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "remakLines.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "remakLines.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "remakLines.ref6",
+      "columns" : [ "ref6ActualCode", " ref6Code", " ref6EntityType", " ref6Id" ],
+      "ar" : "مرجع 6",
+      "en" : "Reference 6",
+      "type" : "Genericreference"
+    }, {
+      "id" : "remakLines.ref7",
+      "columns" : [ "ref7ActualCode", " ref7Code", " ref7EntityType", " ref7Id" ],
+      "ar" : "مرجع 7",
+      "en" : "Reference 7",
+      "type" : "Genericreference"
+    }, {
+      "id" : "remakLines.ref8",
+      "columns" : [ "ref8ActualCode", " ref8Code", " ref8EntityType", " ref8Id" ],
+      "type" : "Genericreference"
+    }, {
+      "id" : "remakLines.ref9",
+      "columns" : [ "ref9ActualCode", " ref9Code", " ref9EntityType", " ref9Id" ],
+      "type" : "Genericreference"
+    } ]
+  }, {
+    "id" : "supervisorRemarksLines",
+    "table" : "CRMVisitSupervisorRemarksLine",
+    "joinColumn" : "cRMVisit_id",
+    "fields" : [ {
+      "id" : "supervisorRemarksLines.b1",
+      "column" : "b1",
+      "ar" : "Boolean 1",
+      "en" : "Boolean 1",
+      "type" : "Boolean"
+    }, {
+      "id" : "supervisorRemarksLines.b10",
+      "column" : "b10",
+      "type" : "Boolean"
+    }, {
+      "id" : "supervisorRemarksLines.b2",
+      "column" : "b2",
+      "ar" : "Boolean 2",
+      "en" : "Boolean 2",
+      "type" : "Boolean"
+    }, {
+      "id" : "supervisorRemarksLines.b3",
+      "column" : "b3",
+      "ar" : "Boolean 3",
+      "en" : "Boolean 3",
+      "type" : "Boolean"
+    }, {
+      "id" : "supervisorRemarksLines.b4",
+      "column" : "b4",
+      "ar" : "Boolean 4",
+      "en" : "Boolean 4",
+      "type" : "Boolean"
+    }, {
+      "id" : "supervisorRemarksLines.b5",
+      "column" : "b5",
+      "ar" : "Boolean 5",
+      "en" : "Boolean 5",
+      "type" : "Boolean"
+    }, {
+      "id" : "supervisorRemarksLines.b6",
+      "column" : "b6",
+      "type" : "Boolean"
+    }, {
+      "id" : "supervisorRemarksLines.b7",
+      "column" : "b7",
+      "type" : "Boolean"
+    }, {
+      "id" : "supervisorRemarksLines.b8",
+      "column" : "b8",
+      "type" : "Boolean"
+    }, {
+      "id" : "supervisorRemarksLines.b9",
+      "column" : "b9",
+      "type" : "Boolean"
+    }, {
+      "id" : "supervisorRemarksLines.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "supervisorRemarksLines.date10",
+      "column" : "date10",
+      "ar" : "تاريخ 10",
+      "en" : "Date10",
+      "type" : "Date"
+    }, {
+      "id" : "supervisorRemarksLines.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "supervisorRemarksLines.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "supervisorRemarksLines.date4",
+      "column" : "date4",
+      "ar" : "تاريخ 4",
+      "en" : "Date4",
+      "type" : "Date"
+    }, {
+      "id" : "supervisorRemarksLines.date5",
+      "column" : "date5",
+      "ar" : "تاريخ 5",
+      "en" : "Date5",
+      "type" : "Date"
+    }, {
+      "id" : "supervisorRemarksLines.date6",
+      "column" : "date6",
+      "ar" : "تاريخ 6",
+      "en" : "Date6",
+      "type" : "Date"
+    }, {
+      "id" : "supervisorRemarksLines.date7",
+      "column" : "date7",
+      "ar" : "تاريخ 7",
+      "en" : "Date7",
+      "type" : "Date"
+    }, {
+      "id" : "supervisorRemarksLines.date8",
+      "column" : "date8",
+      "ar" : "تاريخ 8",
+      "en" : "Date8",
+      "type" : "Date"
+    }, {
+      "id" : "supervisorRemarksLines.date9",
+      "column" : "date9",
+      "ar" : "تاريخ 9",
+      "en" : "Date9",
+      "type" : "Date"
+    }, {
+      "id" : "supervisorRemarksLines.description1",
+      "column" : "description1",
+      "ar" : "الوصف 1",
+      "en" : "description1",
+      "type" : "BigText"
+    }, {
+      "id" : "supervisorRemarksLines.description10",
+      "column" : "description10",
+      "ar" : "الوصف 10",
+      "en" : "description 10",
+      "type" : "BigText"
+    }, {
+      "id" : "supervisorRemarksLines.description2",
+      "column" : "description2",
+      "ar" : "الوصف 2",
+      "en" : "description2",
+      "type" : "BigText"
+    }, {
+      "id" : "supervisorRemarksLines.description3",
+      "column" : "description3",
+      "ar" : "الوصف 3",
+      "en" : "description3",
+      "type" : "BigText"
+    }, {
+      "id" : "supervisorRemarksLines.description4",
+      "column" : "description4",
+      "ar" : "الوصف 4",
+      "en" : "description4",
+      "type" : "BigText"
+    }, {
+      "id" : "supervisorRemarksLines.description5",
+      "column" : "description5",
+      "ar" : "الوصف 5",
+      "en" : "description5",
+      "type" : "BigText"
+    }, {
+      "id" : "supervisorRemarksLines.description6",
+      "column" : "description6",
+      "ar" : "الوصف 6",
+      "en" : "description 6",
+      "type" : "BigText"
+    }, {
+      "id" : "supervisorRemarksLines.description7",
+      "column" : "description7",
+      "ar" : "الوصف 7",
+      "en" : "description 7",
+      "type" : "BigText"
+    }, {
+      "id" : "supervisorRemarksLines.description8",
+      "column" : "description8",
+      "ar" : "الوصف 8",
+      "en" : "description 8",
+      "type" : "BigText"
+    }, {
+      "id" : "supervisorRemarksLines.description9",
+      "column" : "description9",
+      "ar" : "الوصف 9",
+      "en" : "description 9",
+      "type" : "BigText"
+    }, {
+      "id" : "supervisorRemarksLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "supervisorRemarksLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "supervisorRemarksLines.longRemarks",
+      "column" : "longRemarks",
+      "ar" : "ملاحظات",
+      "en" : "Remarks",
+      "type" : "BigText"
+    }, {
+      "id" : "supervisorRemarksLines.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "supervisorRemarksLines.n10",
+      "column" : "n10",
+      "ar" : "رقم 10",
+      "en" : "Number 10",
+      "type" : "Decimal"
+    }, {
+      "id" : "supervisorRemarksLines.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "supervisorRemarksLines.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "supervisorRemarksLines.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "supervisorRemarksLines.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "supervisorRemarksLines.n6",
+      "column" : "n6",
+      "ar" : "رقم 6",
+      "en" : "Number 6",
+      "type" : "Decimal"
+    }, {
+      "id" : "supervisorRemarksLines.n7",
+      "column" : "n7",
+      "ar" : "رقم 7",
+      "en" : "Number 7",
+      "type" : "Decimal"
+    }, {
+      "id" : "supervisorRemarksLines.n8",
+      "column" : "n8",
+      "ar" : "رقم 8",
+      "en" : "Number 8",
+      "type" : "Decimal"
+    }, {
+      "id" : "supervisorRemarksLines.n9",
+      "column" : "n9",
+      "ar" : "رقم 9",
+      "en" : "Number 9",
+      "type" : "Decimal"
+    }, {
+      "id" : "supervisorRemarksLines.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "supervisorRemarksLines.ref10",
+      "columns" : [ "ref10ActualCode", " ref10Code", " ref10EntityType", " ref10Id" ],
+      "type" : "Genericreference"
+    }, {
+      "id" : "supervisorRemarksLines.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "supervisorRemarksLines.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "supervisorRemarksLines.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "supervisorRemarksLines.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "supervisorRemarksLines.ref6",
+      "columns" : [ "ref6ActualCode", " ref6Code", " ref6EntityType", " ref6Id" ],
+      "ar" : "مرجع 6",
+      "en" : "Reference 6",
+      "type" : "Genericreference"
+    }, {
+      "id" : "supervisorRemarksLines.ref7",
+      "columns" : [ "ref7ActualCode", " ref7Code", " ref7EntityType", " ref7Id" ],
+      "ar" : "مرجع 7",
+      "en" : "Reference 7",
+      "type" : "Genericreference"
+    }, {
+      "id" : "supervisorRemarksLines.ref8",
+      "columns" : [ "ref8ActualCode", " ref8Code", " ref8EntityType", " ref8Id" ],
+      "type" : "Genericreference"
+    }, {
+      "id" : "supervisorRemarksLines.ref9",
+      "columns" : [ "ref9ActualCode", " ref9Code", " ref9EntityType", " ref9Id" ],
+      "type" : "Genericreference"
+    } ]
+  }, {
+    "id" : "technicianRemarksLines",
+    "table" : "CRMVisitTechnicianRemarksLine",
+    "joinColumn" : "cRMVisit_id",
+    "fields" : [ {
+      "id" : "technicianRemarksLines.b1",
+      "column" : "b1",
+      "ar" : "Boolean 1",
+      "en" : "Boolean 1",
+      "type" : "Boolean"
+    }, {
+      "id" : "technicianRemarksLines.b10",
+      "column" : "b10",
+      "type" : "Boolean"
+    }, {
+      "id" : "technicianRemarksLines.b2",
+      "column" : "b2",
+      "ar" : "Boolean 2",
+      "en" : "Boolean 2",
+      "type" : "Boolean"
+    }, {
+      "id" : "technicianRemarksLines.b3",
+      "column" : "b3",
+      "ar" : "Boolean 3",
+      "en" : "Boolean 3",
+      "type" : "Boolean"
+    }, {
+      "id" : "technicianRemarksLines.b4",
+      "column" : "b4",
+      "ar" : "Boolean 4",
+      "en" : "Boolean 4",
+      "type" : "Boolean"
+    }, {
+      "id" : "technicianRemarksLines.b5",
+      "column" : "b5",
+      "ar" : "Boolean 5",
+      "en" : "Boolean 5",
+      "type" : "Boolean"
+    }, {
+      "id" : "technicianRemarksLines.b6",
+      "column" : "b6",
+      "type" : "Boolean"
+    }, {
+      "id" : "technicianRemarksLines.b7",
+      "column" : "b7",
+      "type" : "Boolean"
+    }, {
+      "id" : "technicianRemarksLines.b8",
+      "column" : "b8",
+      "type" : "Boolean"
+    }, {
+      "id" : "technicianRemarksLines.b9",
+      "column" : "b9",
+      "type" : "Boolean"
+    }, {
+      "id" : "technicianRemarksLines.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "technicianRemarksLines.date10",
+      "column" : "date10",
+      "ar" : "تاريخ 10",
+      "en" : "Date10",
+      "type" : "Date"
+    }, {
+      "id" : "technicianRemarksLines.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "technicianRemarksLines.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "technicianRemarksLines.date4",
+      "column" : "date4",
+      "ar" : "تاريخ 4",
+      "en" : "Date4",
+      "type" : "Date"
+    }, {
+      "id" : "technicianRemarksLines.date5",
+      "column" : "date5",
+      "ar" : "تاريخ 5",
+      "en" : "Date5",
+      "type" : "Date"
+    }, {
+      "id" : "technicianRemarksLines.date6",
+      "column" : "date6",
+      "ar" : "تاريخ 6",
+      "en" : "Date6",
+      "type" : "Date"
+    }, {
+      "id" : "technicianRemarksLines.date7",
+      "column" : "date7",
+      "ar" : "تاريخ 7",
+      "en" : "Date7",
+      "type" : "Date"
+    }, {
+      "id" : "technicianRemarksLines.date8",
+      "column" : "date8",
+      "ar" : "تاريخ 8",
+      "en" : "Date8",
+      "type" : "Date"
+    }, {
+      "id" : "technicianRemarksLines.date9",
+      "column" : "date9",
+      "ar" : "تاريخ 9",
+      "en" : "Date9",
+      "type" : "Date"
+    }, {
+      "id" : "technicianRemarksLines.description1",
+      "column" : "description1",
+      "ar" : "الوصف 1",
+      "en" : "description1",
+      "type" : "BigText"
+    }, {
+      "id" : "technicianRemarksLines.description10",
+      "column" : "description10",
+      "ar" : "الوصف 10",
+      "en" : "description 10",
+      "type" : "BigText"
+    }, {
+      "id" : "technicianRemarksLines.description2",
+      "column" : "description2",
+      "ar" : "الوصف 2",
+      "en" : "description2",
+      "type" : "BigText"
+    }, {
+      "id" : "technicianRemarksLines.description3",
+      "column" : "description3",
+      "ar" : "الوصف 3",
+      "en" : "description3",
+      "type" : "BigText"
+    }, {
+      "id" : "technicianRemarksLines.description4",
+      "column" : "description4",
+      "ar" : "الوصف 4",
+      "en" : "description4",
+      "type" : "BigText"
+    }, {
+      "id" : "technicianRemarksLines.description5",
+      "column" : "description5",
+      "ar" : "الوصف 5",
+      "en" : "description5",
+      "type" : "BigText"
+    }, {
+      "id" : "technicianRemarksLines.description6",
+      "column" : "description6",
+      "ar" : "الوصف 6",
+      "en" : "description 6",
+      "type" : "BigText"
+    }, {
+      "id" : "technicianRemarksLines.description7",
+      "column" : "description7",
+      "ar" : "الوصف 7",
+      "en" : "description 7",
+      "type" : "BigText"
+    }, {
+      "id" : "technicianRemarksLines.description8",
+      "column" : "description8",
+      "ar" : "الوصف 8",
+      "en" : "description 8",
+      "type" : "BigText"
+    }, {
+      "id" : "technicianRemarksLines.description9",
+      "column" : "description9",
+      "ar" : "الوصف 9",
+      "en" : "description 9",
+      "type" : "BigText"
+    }, {
+      "id" : "technicianRemarksLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "technicianRemarksLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "technicianRemarksLines.longRemarks",
+      "column" : "longRemarks",
+      "ar" : "ملاحظات",
+      "en" : "Remarks",
+      "type" : "BigText"
+    }, {
+      "id" : "technicianRemarksLines.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "technicianRemarksLines.n10",
+      "column" : "n10",
+      "ar" : "رقم 10",
+      "en" : "Number 10",
+      "type" : "Decimal"
+    }, {
+      "id" : "technicianRemarksLines.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "technicianRemarksLines.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "technicianRemarksLines.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "technicianRemarksLines.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "technicianRemarksLines.n6",
+      "column" : "n6",
+      "ar" : "رقم 6",
+      "en" : "Number 6",
+      "type" : "Decimal"
+    }, {
+      "id" : "technicianRemarksLines.n7",
+      "column" : "n7",
+      "ar" : "رقم 7",
+      "en" : "Number 7",
+      "type" : "Decimal"
+    }, {
+      "id" : "technicianRemarksLines.n8",
+      "column" : "n8",
+      "ar" : "رقم 8",
+      "en" : "Number 8",
+      "type" : "Decimal"
+    }, {
+      "id" : "technicianRemarksLines.n9",
+      "column" : "n9",
+      "ar" : "رقم 9",
+      "en" : "Number 9",
+      "type" : "Decimal"
+    }, {
+      "id" : "technicianRemarksLines.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "technicianRemarksLines.ref10",
+      "columns" : [ "ref10ActualCode", " ref10Code", " ref10EntityType", " ref10Id" ],
+      "type" : "Genericreference"
+    }, {
+      "id" : "technicianRemarksLines.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "technicianRemarksLines.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "technicianRemarksLines.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "technicianRemarksLines.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "technicianRemarksLines.ref6",
+      "columns" : [ "ref6ActualCode", " ref6Code", " ref6EntityType", " ref6Id" ],
+      "ar" : "مرجع 6",
+      "en" : "Reference 6",
+      "type" : "Genericreference"
+    }, {
+      "id" : "technicianRemarksLines.ref7",
+      "columns" : [ "ref7ActualCode", " ref7Code", " ref7EntityType", " ref7Id" ],
+      "ar" : "مرجع 7",
+      "en" : "Reference 7",
+      "type" : "Genericreference"
+    }, {
+      "id" : "technicianRemarksLines.ref8",
+      "columns" : [ "ref8ActualCode", " ref8Code", " ref8EntityType", " ref8Id" ],
+      "type" : "Genericreference"
+    }, {
+      "id" : "technicianRemarksLines.ref9",
+      "columns" : [ "ref9ActualCode", " ref9Code", " ref9EntityType", " ref9Id" ],
+      "type" : "Genericreference"
+    } ]
+  } ]
+}

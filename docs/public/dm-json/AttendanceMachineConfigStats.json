@@ -1,0 +1,23 @@
+{
+  "entity" : "AttendanceMachineConfigStats",
+  "table" : "AttendanceMachineConfigStats",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AttendanceMachineConfigStats.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lastConnectionTime",
+    "column" : "lastConnectionTime",
+    "ar" : "اخر وقت اتصال",
+    "en" : "Last Connection Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "lastLogCount",
+    "column" : "lastLogCount",
+    "ar" : "اخر عدد حركات",
+    "en" : "Last Log Count",
+    "type" : "Integer"
+  } ]
+}

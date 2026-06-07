@@ -1,0 +1,12 @@
+{
+  "enum" : "StockTakingCalculation",
+  "values" : [ {
+    "id" : "OnSave",
+    "ar" : "مع الحفظ",
+    "en" : "On Save"
+  }, {
+    "id" : "OnValueDate",
+    "ar" : "بناءا على التاريخ",
+    "en" : "On Value Date"
+  } ]
+}

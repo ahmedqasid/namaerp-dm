@@ -1,0 +1,19 @@
+{
+  "entity" : "NotificationSite",
+  "table" : "NotificationSite",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/NotificationSite.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "replicationSite",
+    "column" : "replicationSite_id",
+    "ar" : "موقع التكرار",
+    "en" : "Replication Site",
+    "type" : "Reference",
+    "refTo" : "ReplicationSite",
+    "refPath" : "/modules/basic/ReplicationSite.html"
+  } ]
+}

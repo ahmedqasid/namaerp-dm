@@ -1,0 +1,16 @@
+{
+  "enum" : "AddingExpenseItemOptions",
+  "values" : [ {
+    "id" : "AlwaysAdd",
+    "ar" : "إضافة دائما",
+    "en" : "Always Add"
+  }, {
+    "id" : "IfFoundPreviousInCurrentProcess",
+    "ar" : "إذا ظهر سابقا في سطر في نفس العملية",
+    "en" : "If Found Previous In Line In Current Process"
+  }, {
+    "id" : "IfFoundBefore",
+    "ar" : "إذا ظهر سابقا في اي سطر لاي عملية",
+    "en" : "If Found Before In Any Line"
+  } ]
+}

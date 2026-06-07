@@ -1,0 +1,1593 @@
+{
+  "entity" : "MCJobOrder",
+  "table" : "MCJobOrder",
+  "module" : "mc",
+  "ar" : "أمر شغل مقاولات صيانة",
+  "arPlural" : "أوامر الشغل مقاولات صيانة",
+  "en" : "Maintenance Contracting Job Order",
+  "enPlural" : "Maintenance Contracting Job Orders",
+  "page" : "https://dm.namasoft.com/modules/mc/MCJobOrder.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "editedTerm",
+    "column" : "editedTerm_id",
+    "ar" : "البند المعدل",
+    "en" : "Edited Term",
+    "type" : "Reference",
+    "refTo" : "MCContractTerm",
+    "refPath" : "/modules/mc/MCContractTerm.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "equipmentStatus",
+    "column" : "equipmentStatus",
+    "ar" : "حالة بنود المعدات",
+    "en" : "Equipment Status",
+    "type" : "Enum",
+    "enum" : "MCTenderStatus"
+  }, {
+    "id" : "equipmentUpdateType",
+    "column" : "equipmentUpdateType",
+    "ar" : "طريقة تعديل المعدات",
+    "en" : "Equipment Update Type",
+    "type" : "Enum",
+    "enum" : "MCTenderUpdateType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "laborStatus",
+    "column" : "laborStatus",
+    "ar" : "حالة بنود العمالة",
+    "en" : "Labor Status",
+    "type" : "Enum",
+    "enum" : "MCTenderStatus"
+  }, {
+    "id" : "laborUpdateTarget",
+    "column" : "laborUpdateTarget",
+    "ar" : "تطبيق ألية التعديل علي",
+    "en" : "Labor Update Target On",
+    "type" : "Enum",
+    "enum" : "MCLaborUpdateTarget"
+  }, {
+    "id" : "laborUpdateType",
+    "column" : "laborUpdateType",
+    "ar" : "طريقة تعديل العمالة",
+    "en" : "Labor Update Type",
+    "type" : "Enum",
+    "enum" : "MCTenderUpdateType"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
+  }, {
+    "id" : "mcJobOrderReq",
+    "column" : "mcJobOrderReq_id",
+    "ar" : "طلب أمر الشغل",
+    "en" : "Maintenance Contracting Job Order Request",
+    "type" : "Reference",
+    "refTo" : "MCJobOrderReq",
+    "refPath" : "/modules/mc/MCJobOrderReq.html"
+  }, {
+    "id" : "mcJobOrderStatus",
+    "column" : "mcJobOrderStatus",
+    "ar" : "حالة أمر الشغل",
+    "en" : "Job Order Status",
+    "type" : "Enum",
+    "enum" : "MCJobOrderStatus"
+  }, {
+    "id" : "mcMainContract",
+    "column" : "mcMainContract_id",
+    "ar" : "العقد",
+    "en" : "Contract",
+    "type" : "Reference",
+    "refTo" : "MCMainContract",
+    "refPath" : "/modules/mc/MCMainContract.html"
+  }, {
+    "id" : "mcWorkArea",
+    "column" : "mcWorkArea_id",
+    "ar" : "منطقة العمل",
+    "en" : "Work Area",
+    "type" : "Reference",
+    "refTo" : "MCWorkArea",
+    "refPath" : "/modules/mc/MCWorkArea.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "narration",
+    "column" : "narration",
+    "ar" : "الشرح",
+    "en" : "Narration",
+    "type" : "BigText"
+  }, {
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+  }, {
+    "id" : "operationStatus",
+    "column" : "operationStatus",
+    "ar" : "حالة بنود التشغيل والصيانة",
+    "en" : "Operation Status",
+    "type" : "Enum",
+    "enum" : "MCTenderStatus"
+  }, {
+    "id" : "operationUpdateType",
+    "column" : "operationUpdateType",
+    "ar" : "طريقة تعديل التشغيل والصيانة",
+    "en" : "Operation Update Type",
+    "type" : "Enum",
+    "enum" : "MCTenderUpdateType"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "MCTenderStatus"
+  }, {
+    "id" : "tenderLaborCost",
+    "column" : "tenderLaborCost_id",
+    "ar" : "تكاليف وظيفة تعاقدية",
+    "en" : "Tender Labor Cost",
+    "type" : "Reference",
+    "refTo" : "MCTenderLaborCost",
+    "refPath" : "/modules/mc/MCTenderLaborCost.html"
+  }, {
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
+    "type" : "BigText"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "values.equipmentUpdatePercent",
+    "column" : "valuesEquipmentUpdatePercent",
+    "ar" : "نسبة التعديل للمعدات",
+    "en" : "Equipment Update Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.laborUpdatePercent",
+    "column" : "valuesLaborUpdatePercent",
+    "ar" : "نسبة التعديل للعمالة",
+    "en" : "Labor Update Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.operationUpdatePercent",
+    "column" : "valuesOperationUpdatePercent",
+    "ar" : "نسبة التعديل للتشغيل والصيانة",
+    "en" : "Operation Update Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "cancelledEquipments",
+    "table" : "MCJobOrderCancelledEquipment",
+    "joinColumn" : "mCJobOrder_id",
+    "ar" : "بنود المعدات المحذوفة",
+    "en" : "Cancelled Equipments",
+    "fields" : [ {
+      "id" : "cancelledEquipments.code",
+      "column" : "code",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "cancelledEquipments.contractTotal",
+      "column" : "contractTotal",
+      "ar" : "إجمالي التعاقد",
+      "en" : "Contract Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledEquipments.deleted",
+      "column" : "deleted",
+      "ar" : "محذوف",
+      "en" : "Deleted",
+      "type" : "Boolean"
+    }, {
+      "id" : "cancelledEquipments.description",
+      "column" : "description",
+      "ar" : "الوصف",
+      "en" : "Description",
+      "type" : "Text"
+    }, {
+      "id" : "cancelledEquipments.equipment",
+      "column" : "equipment_id",
+      "ar" : "المعدة",
+      "en" : "Equipment",
+      "type" : "Reference",
+      "refTo" : "MCEquipment",
+      "refPath" : "/modules/mc/MCEquipment.html"
+    }, {
+      "id" : "cancelledEquipments.equipmentCategory",
+      "column" : "equipmentCategory",
+      "ar" : "فئه المعده",
+      "en" : "Equipment Category",
+      "type" : "Enum",
+      "enum" : "MCEquipmentCategory"
+    }, {
+      "id" : "cancelledEquipments.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "cancelledEquipments.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "cancelledEquipments.monthlySingularPrice",
+      "column" : "monthlySingularPrice",
+      "ar" : "السعر الافرادي الشهري",
+      "en" : "Monthly Singular Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledEquipments.monthlyTotal",
+      "column" : "monthlyTotal",
+      "ar" : "الإجمالي الشهري",
+      "en" : "Monthly Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledEquipments.quantity",
+      "column" : "quantity",
+      "ar" : "الكمية",
+      "en" : "Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledEquipments.recoverDeleted",
+      "column" : "recoverDeleted",
+      "ar" : "استعادة المحذوف",
+      "en" : "Recover Deleted",
+      "type" : "Boolean"
+    }, {
+      "id" : "cancelledEquipments.singularPrice",
+      "column" : "singularPrice",
+      "ar" : "السعر الإفرادي",
+      "en" : "Singular Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledEquipments.totalAfterUpdate",
+      "column" : "totalAfterUpdate",
+      "ar" : "الإجماليات بعد التعديل | الإجمالي",
+      "en" : "totals | Totals After Update",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledEquipments.totalContractAfterUpdate",
+      "column" : "totalContractAfterUpdate",
+      "ar" : "الإجماليات بعد التعديل | إجمالي العقد",
+      "en" : "Total Contract | Totals After Update",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledEquipments.uom",
+      "column" : "uom_id",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Reference",
+      "refTo" : "MCUOM",
+      "refPath" : "/modules/mc/MCUOM.html"
+    } ]
+  }, {
+    "id" : "cancelledLabors",
+    "table" : "MCJobOrderCancelledLaborLine",
+    "joinColumn" : "mCJobOrder_id",
+    "ar" : "بنود العمالة المحذوفة",
+    "en" : "Cancelled Labors",
+    "fields" : [ {
+      "id" : "cancelledLabors.annualSalary",
+      "column" : "annualSalary",
+      "ar" : "الراتب السنوي",
+      "en" : "Annual Salary",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledLabors.code",
+      "column" : "code",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "cancelledLabors.contractualJob",
+      "column" : "contractualJob_id",
+      "ar" : "الوظيفة التعاقدية",
+      "en" : "Contractual Job",
+      "type" : "Reference",
+      "refTo" : "MCContractualJob",
+      "refPath" : "/modules/mc/MCContractualJob.html"
+    }, {
+      "id" : "cancelledLabors.contractualJobDep",
+      "column" : "contractualJobDep_id",
+      "ar" : "قسم الوظيفة التعاقدية",
+      "en" : "Contractual Job Dep",
+      "type" : "Reference",
+      "refTo" : "MCContractualJobDep",
+      "refPath" : "/modules/mc/MCContractualJobDep.html"
+    }, {
+      "id" : "cancelledLabors.costPerMonth",
+      "column" : "costPerMonth",
+      "ar" : "التكلفة بالشهر",
+      "en" : "Cost Per Month",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledLabors.count",
+      "column" : "count",
+      "ar" : "العدد",
+      "en" : "Count",
+      "type" : "Integer"
+    }, {
+      "id" : "cancelledLabors.deleted",
+      "column" : "deleted",
+      "ar" : "محذوف",
+      "en" : "Deleted",
+      "type" : "Boolean"
+    }, {
+      "id" : "cancelledLabors.deletionDateTime",
+      "column" : "deletionDateTime",
+      "ar" : "تاريخ ووقت الحذف",
+      "en" : "Deletion Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "cancelledLabors.fixedSalary",
+      "column" : "fixedSalary",
+      "ar" : "الراتب المثبت",
+      "en" : "Fixed Salary",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledLabors.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "cancelledLabors.laborCount",
+      "column" : "laborCount",
+      "ar" : "عدد العمالة",
+      "en" : "Labor Count",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledLabors.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "cancelledLabors.manualCostPerMonth",
+      "column" : "manualCostPerMonth",
+      "ar" : "التكلفة الشهرية (يدوي)",
+      "en" : "Manual Cost Per Month",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledLabors.monthlySingular",
+      "column" : "monthlySingular",
+      "ar" : "الإفرادي الشهري",
+      "en" : "Monthly Singular",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledLabors.nationality",
+      "column" : "nationality_id",
+      "ar" : "الجنسية",
+      "en" : "Nationality",
+      "type" : "Reference",
+      "refTo" : "Nationality",
+      "refPath" : "/modules/basic/Nationality.html"
+    }, {
+      "id" : "cancelledLabors.recoverDeleted",
+      "column" : "recoverDeleted",
+      "ar" : "استعادة المحذوف",
+      "en" : "Recover Deleted",
+      "type" : "Boolean"
+    }, {
+      "id" : "cancelledLabors.totalAfterUpdate",
+      "column" : "totalAfterUpdate",
+      "ar" : "الإجماليات بعد التعديل | إجمالي راتب المناقصة",
+      "en" : "Total salary Tender| Total tender After update",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledLabors.totalMonthlySalary",
+      "column" : "totalMonthlySalary",
+      "ar" : "إجمالي الراتب الشهري",
+      "en" : "Total Monthly Salary",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledLabors.totalPerMonthAfterUpdate",
+      "column" : "totalPerMonthAfterUpdate",
+      "ar" : "الإجماليات بعد التعديل | إجمالي الراتب الشهري",
+      "en" : "Total Salary Per Month | Total tender After update",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledLabors.totalSalary",
+      "column" : "totalSalary",
+      "ar" : "إجمالي الراتب طبقا لمدة المناقصة",
+      "en" : "Total Salary",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledLabors.variableSalary",
+      "column" : "variableSalary",
+      "ar" : "الراتب الغير مثبت",
+      "en" : "Variable Salary",
+      "type" : "Decimal"
+    } ]
+  }, {
+    "id" : "cancelledOperations",
+    "table" : "MCJobOrderCancelledOperation",
+    "joinColumn" : "mCJobOrder_id",
+    "ar" : "بنود التشغيل والصيانة المحذوفة",
+    "en" : "Cancelled Operations",
+    "fields" : [ {
+      "id" : "cancelledOperations.code",
+      "column" : "code",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "cancelledOperations.contractTerm",
+      "column" : "contractTerm_id",
+      "ar" : "بند العقد",
+      "en" : "Term",
+      "type" : "Reference",
+      "refTo" : "MCContractTerm",
+      "refPath" : "/modules/mc/MCContractTerm.html"
+    }, {
+      "id" : "cancelledOperations.contractTotal",
+      "column" : "contractTotal",
+      "ar" : "إجمالي التعاقد",
+      "en" : "Contract Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledOperations.deleted",
+      "column" : "deleted",
+      "ar" : "محذوف",
+      "en" : "Deleted",
+      "type" : "Boolean"
+    }, {
+      "id" : "cancelledOperations.description",
+      "column" : "description",
+      "ar" : "الوصف",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "cancelledOperations.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "cancelledOperations.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "cancelledOperations.monthlySingularPrice",
+      "column" : "monthlySingularPrice",
+      "ar" : "السعر الافرادي الشهري",
+      "en" : "Monthly Singular Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledOperations.monthlyTotal",
+      "column" : "monthlyTotal",
+      "ar" : "الإجمالي الشهري",
+      "en" : "Monthly Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledOperations.operationUpdatePercent",
+      "column" : "operationUpdatePercent",
+      "ar" : "نسبة التعديل للتشغيل والصيانة",
+      "en" : "Operation Update Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledOperations.operationUpdateType",
+      "column" : "operationUpdateType",
+      "ar" : "طريقة تعديل التشغيل والصيانة",
+      "en" : "Operation Update Type",
+      "type" : "Enum",
+      "enum" : "MCTenderUpdateType"
+    }, {
+      "id" : "cancelledOperations.quantity",
+      "column" : "quantity",
+      "ar" : "الكمية",
+      "en" : "Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledOperations.recoverDeleted",
+      "column" : "recoverDeleted",
+      "ar" : "استعادة المحذوف",
+      "en" : "Recover Deleted",
+      "type" : "Boolean"
+    }, {
+      "id" : "cancelledOperations.singularPrice",
+      "column" : "singularPrice",
+      "ar" : "السعر الإفرادي",
+      "en" : "Singular Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledOperations.subContractTerm",
+      "column" : "subContractTerm",
+      "ar" : "البند الفرعي",
+      "en" : "Sub Contract Term",
+      "type" : "Text"
+    }, {
+      "id" : "cancelledOperations.totalAfterUpdate",
+      "column" : "totalAfterUpdate",
+      "ar" : "الإجماليات بعد التعديل |إجمالي التكلفة",
+      "en" : "Total Cost | Totals After Update",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledOperations.totalCostAfterUpdate",
+      "column" : "totalCostAfterUpdate",
+      "ar" : "الإجماليات بعد التعديل | إجمالي التكلفة طبقا للمناقصة",
+      "en" : "Total Cost Tender | Totals After Update",
+      "type" : "Decimal"
+    }, {
+      "id" : "cancelledOperations.uom",
+      "column" : "uom_id",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Reference",
+      "refTo" : "MCUOM",
+      "refPath" : "/modules/mc/MCUOM.html"
+    } ]
+  }, {
+    "id" : "consumedItemLines",
+    "table" : "MCJobOrderConsumedItemLine",
+    "joinColumn" : "mCJobOrder_id",
+    "ar" : "المواد المستهلكة",
+    "en" : "Consumed Item Lines",
+    "fields" : [ {
+      "id" : "consumedItemLines.code",
+      "column" : "code",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "consumedItemLines.costItem",
+      "column" : "costItem_id",
+      "ar" : "بند التكلفة",
+      "en" : "Cost Item",
+      "type" : "Reference",
+      "refTo" : "MCCostItem",
+      "refPath" : "/modules/mc/MCCostItem.html"
+    }, {
+      "id" : "consumedItemLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "consumedItemLines.item",
+      "column" : "item_id",
+      "ar" : "الصنف",
+      "en" : "Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "consumedItemLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "consumedItemLines.name",
+      "column" : "name",
+      "ar" : "الاسم",
+      "en" : "Name",
+      "type" : "Text"
+    }, {
+      "id" : "consumedItemLines.price",
+      "column" : "price",
+      "ar" : "السعر الافرادي",
+      "en" : "Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "consumedItemLines.qty",
+      "column" : "qty",
+      "ar" : "الكمية",
+      "en" : "Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "consumedItemLines.totalPrice",
+      "column" : "totalPrice",
+      "ar" : "إجمالي السعر",
+      "en" : "  Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "consumedItemLines.uom",
+      "column" : "uom_id",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Reference",
+      "refTo" : "MCUOM",
+      "refPath" : "/modules/mc/MCUOM.html"
+    } ]
+  }, {
+    "id" : "editedOperationLines",
+    "table" : "MCJobOrderEditOperationLine",
+    "joinColumn" : "mCJobOrder_id",
+    "ar" : "تعديل بنود التشغيل والصيانة",
+    "en" : "Edited Operation Lines",
+    "fields" : [ {
+      "id" : "editedOperationLines.code",
+      "column" : "code",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "editedOperationLines.contractTerm",
+      "column" : "contractTerm_id",
+      "ar" : "بند العقد",
+      "en" : "Term",
+      "type" : "Reference",
+      "refTo" : "MCContractTerm",
+      "refPath" : "/modules/mc/MCContractTerm.html"
+    }, {
+      "id" : "editedOperationLines.contractTotal",
+      "column" : "contractTotal",
+      "ar" : "إجمالي التعاقد",
+      "en" : "Contract Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "editedOperationLines.deleted",
+      "column" : "deleted",
+      "ar" : "محذوف",
+      "en" : "Deleted",
+      "type" : "Boolean"
+    }, {
+      "id" : "editedOperationLines.description",
+      "column" : "description",
+      "ar" : "الوصف",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "editedOperationLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "editedOperationLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "editedOperationLines.monthlySingularPrice",
+      "column" : "monthlySingularPrice",
+      "ar" : "السعر الافرادي الشهري",
+      "en" : "Monthly Singular Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "editedOperationLines.monthlyTotal",
+      "column" : "monthlyTotal",
+      "ar" : "الإجمالي الشهري",
+      "en" : "Monthly Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "editedOperationLines.operationUpdatePercent",
+      "column" : "operationUpdatePercent",
+      "ar" : "نسبة التعديل للتشغيل والصيانة",
+      "en" : "Operation Update Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "editedOperationLines.operationUpdateType",
+      "column" : "operationUpdateType",
+      "ar" : "طريقة تعديل التشغيل والصيانة",
+      "en" : "Operation Update Type",
+      "type" : "Enum",
+      "enum" : "MCTenderUpdateType"
+    }, {
+      "id" : "editedOperationLines.quantity",
+      "column" : "quantity",
+      "ar" : "الكمية",
+      "en" : "Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "editedOperationLines.recoverDeleted",
+      "column" : "recoverDeleted",
+      "ar" : "استعادة المحذوف",
+      "en" : "Recover Deleted",
+      "type" : "Boolean"
+    }, {
+      "id" : "editedOperationLines.singularPrice",
+      "column" : "singularPrice",
+      "ar" : "السعر الإفرادي",
+      "en" : "Singular Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "editedOperationLines.subContractTerm",
+      "column" : "subContractTerm",
+      "ar" : "البند الفرعي",
+      "en" : "Sub Contract Term",
+      "type" : "Text"
+    }, {
+      "id" : "editedOperationLines.totalAfterUpdate",
+      "column" : "totalAfterUpdate",
+      "ar" : "الإجماليات بعد التعديل |إجمالي التكلفة",
+      "en" : "Total Cost | Totals After Update",
+      "type" : "Decimal"
+    }, {
+      "id" : "editedOperationLines.totalCostAfterUpdate",
+      "column" : "totalCostAfterUpdate",
+      "ar" : "الإجماليات بعد التعديل | إجمالي التكلفة طبقا للمناقصة",
+      "en" : "Total Cost Tender | Totals After Update",
+      "type" : "Decimal"
+    }, {
+      "id" : "editedOperationLines.uom",
+      "column" : "uom_id",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Reference",
+      "refTo" : "MCUOM",
+      "refPath" : "/modules/mc/MCUOM.html"
+    } ]
+  }, {
+    "id" : "equipmentLines",
+    "table" : "MCJobOrderEquipmentLine",
+    "joinColumn" : "mCJobOrder_id",
+    "ar" : "سطور بنود المعدات",
+    "en" : "Equipment Lines",
+    "fields" : [ {
+      "id" : "equipmentLines.code",
+      "column" : "code",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "equipmentLines.contractTotal",
+      "column" : "contractTotal",
+      "ar" : "إجمالي التعاقد",
+      "en" : "Contract Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "equipmentLines.deleted",
+      "column" : "deleted",
+      "ar" : "محذوف",
+      "en" : "Deleted",
+      "type" : "Boolean"
+    }, {
+      "id" : "equipmentLines.description",
+      "column" : "description",
+      "ar" : "الوصف",
+      "en" : "Description",
+      "type" : "Text"
+    }, {
+      "id" : "equipmentLines.equipment",
+      "column" : "equipment_id",
+      "ar" : "المعدة",
+      "en" : "Equipment",
+      "type" : "Reference",
+      "refTo" : "MCEquipment",
+      "refPath" : "/modules/mc/MCEquipment.html"
+    }, {
+      "id" : "equipmentLines.equipmentCategory",
+      "column" : "equipmentCategory",
+      "ar" : "فئه المعده",
+      "en" : "Equipment Category",
+      "type" : "Enum",
+      "enum" : "MCEquipmentCategory"
+    }, {
+      "id" : "equipmentLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "equipmentLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "equipmentLines.monthlySingularPrice",
+      "column" : "monthlySingularPrice",
+      "ar" : "السعر الافرادي الشهري",
+      "en" : "Monthly Singular Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "equipmentLines.monthlyTotal",
+      "column" : "monthlyTotal",
+      "ar" : "الإجمالي الشهري",
+      "en" : "Monthly Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "equipmentLines.quantity",
+      "column" : "quantity",
+      "ar" : "الكمية",
+      "en" : "Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "equipmentLines.recoverDeleted",
+      "column" : "recoverDeleted",
+      "ar" : "استعادة المحذوف",
+      "en" : "Recover Deleted",
+      "type" : "Boolean"
+    }, {
+      "id" : "equipmentLines.singularPrice",
+      "column" : "singularPrice",
+      "ar" : "السعر الإفرادي",
+      "en" : "Singular Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "equipmentLines.totalAfterUpdate",
+      "column" : "totalAfterUpdate",
+      "ar" : "الإجماليات بعد التعديل | الإجمالي",
+      "en" : "totals | Totals After Update",
+      "type" : "Decimal"
+    }, {
+      "id" : "equipmentLines.totalContractAfterUpdate",
+      "column" : "totalContractAfterUpdate",
+      "ar" : "الإجماليات بعد التعديل | إجمالي العقد",
+      "en" : "Total Contract | Totals After Update",
+      "type" : "Decimal"
+    }, {
+      "id" : "equipmentLines.uom",
+      "column" : "uom_id",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Reference",
+      "refTo" : "MCUOM",
+      "refPath" : "/modules/mc/MCUOM.html"
+    } ]
+  }, {
+    "id" : "laborLines",
+    "table" : "MCJobOrderLaborLine",
+    "joinColumn" : "mCJobOrder_id",
+    "ar" : "بنود العمالة",
+    "en" : "Labor Lines",
+    "fields" : [ {
+      "id" : "laborLines.annualSalary",
+      "column" : "annualSalary",
+      "ar" : "الراتب السنوي",
+      "en" : "Annual Salary",
+      "type" : "Decimal"
+    }, {
+      "id" : "laborLines.code",
+      "column" : "code",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "laborLines.contractualJob",
+      "column" : "contractualJob_id",
+      "ar" : "الوظيفة التعاقدية",
+      "en" : "Contractual Job",
+      "type" : "Reference",
+      "refTo" : "MCContractualJob",
+      "refPath" : "/modules/mc/MCContractualJob.html"
+    }, {
+      "id" : "laborLines.contractualJobDep",
+      "column" : "contractualJobDep_id",
+      "ar" : "قسم الوظيفة التعاقدية",
+      "en" : "Contractual Job Dep",
+      "type" : "Reference",
+      "refTo" : "MCContractualJobDep",
+      "refPath" : "/modules/mc/MCContractualJobDep.html"
+    }, {
+      "id" : "laborLines.costPerMonth",
+      "column" : "costPerMonth",
+      "ar" : "التكلفة بالشهر",
+      "en" : "Cost Per Month",
+      "type" : "Decimal"
+    }, {
+      "id" : "laborLines.count",
+      "column" : "count",
+      "ar" : "العدد",
+      "en" : "Count",
+      "type" : "Integer"
+    }, {
+      "id" : "laborLines.deleted",
+      "column" : "deleted",
+      "ar" : "محذوف",
+      "en" : "Deleted",
+      "type" : "Boolean"
+    }, {
+      "id" : "laborLines.deletionDateTime",
+      "column" : "deletionDateTime",
+      "ar" : "تاريخ ووقت الحذف",
+      "en" : "Deletion Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "laborLines.fixedSalary",
+      "column" : "fixedSalary",
+      "ar" : "الراتب المثبت",
+      "en" : "Fixed Salary",
+      "type" : "Decimal"
+    }, {
+      "id" : "laborLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "laborLines.laborCount",
+      "column" : "laborCount",
+      "ar" : "عدد العمالة",
+      "en" : "Labor Count",
+      "type" : "Decimal"
+    }, {
+      "id" : "laborLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "laborLines.manualCostPerMonth",
+      "column" : "manualCostPerMonth",
+      "ar" : "التكلفة الشهرية (يدوي)",
+      "en" : "Manual Cost Per Month",
+      "type" : "Decimal"
+    }, {
+      "id" : "laborLines.monthlySingular",
+      "column" : "monthlySingular",
+      "ar" : "الإفرادي الشهري",
+      "en" : "Monthly Singular",
+      "type" : "Decimal"
+    }, {
+      "id" : "laborLines.nationality",
+      "column" : "nationality_id",
+      "ar" : "الجنسية",
+      "en" : "Nationality",
+      "type" : "Reference",
+      "refTo" : "Nationality",
+      "refPath" : "/modules/basic/Nationality.html"
+    }, {
+      "id" : "laborLines.recoverDeleted",
+      "column" : "recoverDeleted",
+      "ar" : "استعادة المحذوف",
+      "en" : "Recover Deleted",
+      "type" : "Boolean"
+    }, {
+      "id" : "laborLines.totalAfterUpdate",
+      "column" : "totalAfterUpdate",
+      "ar" : "الإجماليات بعد التعديل | إجمالي راتب المناقصة",
+      "en" : "Total salary Tender| Total tender After update",
+      "type" : "Decimal"
+    }, {
+      "id" : "laborLines.totalMonthlySalary",
+      "column" : "totalMonthlySalary",
+      "ar" : "إجمالي الراتب الشهري",
+      "en" : "Total Monthly Salary",
+      "type" : "Decimal"
+    }, {
+      "id" : "laborLines.totalPerMonthAfterUpdate",
+      "column" : "totalPerMonthAfterUpdate",
+      "ar" : "الإجماليات بعد التعديل | إجمالي الراتب الشهري",
+      "en" : "Total Salary Per Month | Total tender After update",
+      "type" : "Decimal"
+    }, {
+      "id" : "laborLines.totalSalary",
+      "column" : "totalSalary",
+      "ar" : "إجمالي الراتب طبقا لمدة المناقصة",
+      "en" : "Total Salary",
+      "type" : "Decimal"
+    }, {
+      "id" : "laborLines.variableSalary",
+      "column" : "variableSalary",
+      "ar" : "الراتب الغير مثبت",
+      "en" : "Variable Salary",
+      "type" : "Decimal"
+    } ]
+  }, {
+    "id" : "operationLines",
+    "table" : "MCJobOrderOperationLine",
+    "joinColumn" : "mCJobOrder_id",
+    "ar" : "بنود التشغيل والصيانة",
+    "en" : "Operation Lines",
+    "fields" : [ {
+      "id" : "operationLines.code",
+      "column" : "code",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "operationLines.contractTerm",
+      "column" : "contractTerm_id",
+      "ar" : "بند العقد",
+      "en" : "Term",
+      "type" : "Reference",
+      "refTo" : "MCContractTerm",
+      "refPath" : "/modules/mc/MCContractTerm.html"
+    }, {
+      "id" : "operationLines.contractTotal",
+      "column" : "contractTotal",
+      "ar" : "إجمالي التعاقد",
+      "en" : "Contract Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "operationLines.deleted",
+      "column" : "deleted",
+      "ar" : "محذوف",
+      "en" : "Deleted",
+      "type" : "Boolean"
+    }, {
+      "id" : "operationLines.description",
+      "column" : "description",
+      "ar" : "الوصف",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "operationLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "operationLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "operationLines.monthlySingularPrice",
+      "column" : "monthlySingularPrice",
+      "ar" : "السعر الافرادي الشهري",
+      "en" : "Monthly Singular Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "operationLines.monthlyTotal",
+      "column" : "monthlyTotal",
+      "ar" : "الإجمالي الشهري",
+      "en" : "Monthly Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "operationLines.operationUpdatePercent",
+      "column" : "operationUpdatePercent",
+      "ar" : "نسبة التعديل للتشغيل والصيانة",
+      "en" : "Operation Update Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "operationLines.operationUpdateType",
+      "column" : "operationUpdateType",
+      "ar" : "طريقة تعديل التشغيل والصيانة",
+      "en" : "Operation Update Type",
+      "type" : "Enum",
+      "enum" : "MCTenderUpdateType"
+    }, {
+      "id" : "operationLines.quantity",
+      "column" : "quantity",
+      "ar" : "الكمية",
+      "en" : "Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "operationLines.recoverDeleted",
+      "column" : "recoverDeleted",
+      "ar" : "استعادة المحذوف",
+      "en" : "Recover Deleted",
+      "type" : "Boolean"
+    }, {
+      "id" : "operationLines.singularPrice",
+      "column" : "singularPrice",
+      "ar" : "السعر الإفرادي",
+      "en" : "Singular Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "operationLines.subContractTerm",
+      "column" : "subContractTerm",
+      "ar" : "البند الفرعي",
+      "en" : "Sub Contract Term",
+      "type" : "Text"
+    }, {
+      "id" : "operationLines.totalAfterUpdate",
+      "column" : "totalAfterUpdate",
+      "ar" : "الإجماليات بعد التعديل |إجمالي التكلفة",
+      "en" : "Total Cost | Totals After Update",
+      "type" : "Decimal"
+    }, {
+      "id" : "operationLines.totalCostAfterUpdate",
+      "column" : "totalCostAfterUpdate",
+      "ar" : "الإجماليات بعد التعديل | إجمالي التكلفة طبقا للمناقصة",
+      "en" : "Total Cost Tender | Totals After Update",
+      "type" : "Decimal"
+    }, {
+      "id" : "operationLines.uom",
+      "column" : "uom_id",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Reference",
+      "refTo" : "MCUOM",
+      "refPath" : "/modules/mc/MCUOM.html"
+    } ]
+  } ]
+}

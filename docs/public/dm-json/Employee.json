@@ -1,0 +1,2561 @@
+{
+  "entity" : "Employee",
+  "table" : "Employee",
+  "module" : "basic",
+  "ar" : "موظف",
+  "arPlural" : "موظفين",
+  "enPlural" : "Employeess",
+  "page" : "https://dm.namasoft.com/modules/basic/Employee.html",
+  "fields" : [ {
+    "id" : "actualLastLiquidationDate",
+    "column" : "actualLastLiquidationDate",
+    "ar" : "تاريخ اخر تصفية مستحقة",
+    "en" : "Actual Last Liquidation Date",
+    "type" : "Date"
+  }, {
+    "id" : "altCode",
+    "column" : "altCode",
+    "ar" : "الكود الإنجليزي",
+    "en" : "English Code",
+    "type" : "Text"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "attachment",
+    "column" : "attachment_id",
+    "ar" : "مرفق",
+    "en" : "Attachment",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attendanceMachineCode",
+    "column" : "attendanceMachineCode",
+    "ar" : "كود آلة الحضور والإنصراف",
+    "en" : "Attendance Machine Code",
+    "type" : "Text"
+  }, {
+    "id" : "attendantNumber",
+    "column" : "attendantNumber",
+    "ar" : "عدد المرافقين",
+    "en" : "Attendants Number",
+    "type" : "Integer"
+  }, {
+    "id" : "b1",
+    "column" : "b1",
+    "ar" : "Boolean 1",
+    "en" : "Boolean 1",
+    "type" : "Boolean"
+  }, {
+    "id" : "b2",
+    "column" : "b2",
+    "ar" : "Boolean 2",
+    "en" : "Boolean 2",
+    "type" : "Boolean"
+  }, {
+    "id" : "b3",
+    "column" : "b3",
+    "ar" : "Boolean 3",
+    "en" : "Boolean 3",
+    "type" : "Boolean"
+  }, {
+    "id" : "b4",
+    "column" : "b4",
+    "ar" : "Boolean 4",
+    "en" : "Boolean 4",
+    "type" : "Boolean"
+  }, {
+    "id" : "b5",
+    "column" : "b5",
+    "ar" : "Boolean 5",
+    "en" : "Boolean 5",
+    "type" : "Boolean"
+  }, {
+    "id" : "bankAccount",
+    "column" : "bankAccount",
+    "ar" : "رقم حساب البنك",
+    "en" : "Bank account",
+    "type" : "Text"
+  }, {
+    "id" : "bankId",
+    "column" : "bankId",
+    "ar" : "المعرف البنكي",
+    "en" : "Bank ID",
+    "type" : "Text"
+  }, {
+    "id" : "birthDate",
+    "column" : "birthDate",
+    "ar" : "تاريخ الميلاد",
+    "en" : "Birth date",
+    "type" : "Date"
+  }, {
+    "id" : "birthPlace",
+    "column" : "birthPlace_id",
+    "ar" : "محل الميلاد",
+    "en" : "Birth place",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "candidate",
+    "columns" : [ "candidateActualCode", " candidateCode", " candidateEntityType", " candidateId" ],
+    "ar" : "المتقدم للعمل",
+    "en" : "Candidate",
+    "type" : "Genericreference"
+  }, {
+    "id" : "childrenCount",
+    "column" : "childrenCount",
+    "ar" : "عدد الأبناء",
+    "en" : "Children count",
+    "type" : "Integer"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "collector",
+    "column" : "collector",
+    "ar" : "المحصل",
+    "en" : "Collector",
+    "type" : "Boolean"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commencementAfterSuspension",
+    "column" : "commencementAfterSuspension",
+    "ar" : "تاريخ المباشرة بعد الإيقاف",
+    "en" : "Commencement Date after Suspension",
+    "type" : "Date"
+  }, {
+    "id" : "commencementDate",
+    "column" : "commencementDate",
+    "ar" : "تاريخ المباشرة الفعلية",
+    "en" : "Commencement date",
+    "type" : "Date"
+  }, {
+    "id" : "commencementDateAfterHoliday",
+    "column" : "commencementDateAfterHoliday",
+    "ar" : "تاريخ المباشرة بعد أخر اجازة",
+    "en" : "Commencement Date After Holiday",
+    "type" : "Date"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "contactInfo.address.address1",
+    "column" : "contactInfoAddressAddress1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.address2",
+    "column" : "contactInfoAddressAddress2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.area",
+    "column" : "contactInfoAddressArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.buildingNumber",
+    "column" : "cntctInfAddrssBuildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.city",
+    "column" : "contactInfoAddressCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.country",
+    "column" : "contactInfoAddressCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.countryCode",
+    "column" : "contactInfoAddressCountryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.district",
+    "column" : "contactInfoAddressDistrict",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.landPlotNumber",
+    "column" : "cntctInfAddrssLandPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.mapLocation",
+    "column" : "contactInfoAddressMapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "contactInfo.address.postalCode",
+    "column" : "contactInfoAddressPostalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.region",
+    "column" : "contactInfoAddressRegion_id",
+    "ar" : "موقع جغرافي",
+    "en" : "Address region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "contactInfo.address.state",
+    "column" : "contactInfoAddressState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.street",
+    "column" : "contactInfoAddressStreet",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.email",
+    "column" : "contactInfoEmail",
+    "ar" : "إيميل",
+    "en" : "E-mail",
+    "type" : "Email"
+  }, {
+    "id" : "contactInfo.faxNumber",
+    "column" : "contactInfoFaxNumber",
+    "ar" : "الفاكس",
+    "en" : "Fax",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "contactInfo.mobile",
+    "column" : "contactInfoMobile",
+    "ar" : "الموبايل",
+    "en" : "Mobile",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "contactInfo.telephone1",
+    "column" : "contactInfoTelephone1",
+    "ar" : "تليفون 1",
+    "en" : "Phone 1",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "contactInfo.telephone2",
+    "column" : "contactInfoTelephone2",
+    "ar" : "تليفون 2",
+    "en" : "Phone 2",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "contactInfo.website",
+    "column" : "contactInfoWebsite",
+    "ar" : "موقع الكتروني",
+    "en" : "Website",
+    "type" : "Text"
+  }, {
+    "id" : "contractEndDate",
+    "column" : "contractEndDate",
+    "ar" : "تاريخ إنتهاء العقد",
+    "en" : "Contract End Date",
+    "type" : "Date"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "createUserForEmployee",
+    "column" : "createUserForEmployee",
+    "ar" : "أنشاء مستخدم للموظف",
+    "en" : "Create User For Employee",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentExperience",
+    "column" : "currentExperience",
+    "ar" : "عدد سنوات الخبرة حاليا",
+    "en" : "Current Experience",
+    "type" : "Decimal"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "dailySalary",
+    "column" : "dailySalary",
+    "ar" : "الأجر اليومي (يومية العماله)",
+    "en" : "Daily Salary",
+    "type" : "Decimal"
+  }, {
+    "id" : "dailyWageWork",
+    "column" : "dailyWageWork",
+    "ar" : "العمل بأجر يومى",
+    "en" : "Daily Wage Work",
+    "type" : "Boolean"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "daysForWorthPaidVacation",
+    "column" : "daysForWorthPaidVacation",
+    "ar" : "عدد الأيام لاستحقاق بدل الأجازة - عدد أيام العام لحساب رصيد الأجازة",
+    "en" : "Days For Worth Paid Vacation - Number Of Days In Year For Balance Calculation",
+    "type" : "Decimal"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "departmentSection",
+    "column" : "departmentSection_id",
+    "ar" : "القسم الوظيفي",
+    "en" : "Department Section",
+    "type" : "Reference",
+    "refTo" : "DepartmentSection",
+    "refPath" : "/modules/basic/DepartmentSection.html"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description10",
+    "column" : "description10",
+    "ar" : "الوصف 10",
+    "en" : "description 10",
+    "type" : "Text"
+  }, {
+    "id" : "description11",
+    "column" : "description11",
+    "ar" : "الوصف 11",
+    "en" : "description 11",
+    "type" : "Text"
+  }, {
+    "id" : "description12",
+    "column" : "description12",
+    "ar" : "الوصف 12",
+    "en" : "description 12",
+    "type" : "Text"
+  }, {
+    "id" : "description13",
+    "column" : "description13",
+    "ar" : "الوصف 13",
+    "en" : "description 13",
+    "type" : "Text"
+  }, {
+    "id" : "description14",
+    "column" : "description14",
+    "ar" : "الوصف 14",
+    "en" : "description 14",
+    "type" : "Text"
+  }, {
+    "id" : "description15",
+    "column" : "description15",
+    "ar" : "الوصف 15",
+    "en" : "description 15",
+    "type" : "Text"
+  }, {
+    "id" : "description16",
+    "column" : "description16",
+    "ar" : "الوصف 16",
+    "type" : "Text"
+  }, {
+    "id" : "description17",
+    "column" : "description17",
+    "ar" : "الوصف 17",
+    "type" : "Text"
+  }, {
+    "id" : "description18",
+    "column" : "description18",
+    "ar" : "الوصف 18",
+    "type" : "Text"
+  }, {
+    "id" : "description19",
+    "column" : "description19",
+    "ar" : "الوصف 19",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description20",
+    "column" : "description20",
+    "ar" : "الوصف 20",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "description6",
+    "column" : "description6",
+    "ar" : "الوصف 6",
+    "en" : "description 6",
+    "type" : "Text"
+  }, {
+    "id" : "description7",
+    "column" : "description7",
+    "ar" : "الوصف 7",
+    "en" : "description 7",
+    "type" : "Text"
+  }, {
+    "id" : "description8",
+    "column" : "description8",
+    "ar" : "الوصف 8",
+    "en" : "description 8",
+    "type" : "Text"
+  }, {
+    "id" : "description9",
+    "column" : "description9",
+    "ar" : "الوصف 9",
+    "en" : "description 9",
+    "type" : "Text"
+  }, {
+    "id" : "directSupervisor",
+    "column" : "directSupervisor_id",
+    "ar" : "المشرف المباشر",
+    "en" : "Direct Supervisor",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "drivingLicense",
+    "column" : "drivingLicense",
+    "ar" : "رخصة القيادة",
+    "en" : "Driving License",
+    "type" : "Text"
+  }, {
+    "id" : "drivingLicenseType",
+    "column" : "drivingLicenseType",
+    "ar" : "نوع رخصة القيادة",
+    "en" : "Driving license type",
+    "type" : "Enum",
+    "enum" : "DrivingLicenseType"
+  }, {
+    "id" : "dutiesAndTasks",
+    "column" : "dutiesAndTasks",
+    "ar" : "المهام والواجبات",
+    "en" : "Duties And Tasks",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "empBankBranchCode",
+    "column" : "empBankBranchCode",
+    "ar" : "كود فرع بنك الموظف",
+    "en" : "Employee Bank Branch Code",
+    "type" : "Text"
+  }, {
+    "id" : "empRate",
+    "column" : "empRate",
+    "ar" : "أجر الساعة",
+    "en" : "Employee Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "empWorkPlace",
+    "column" : "empWorkPlace_id",
+    "ar" : "مكان العمل الحالي",
+    "en" : "Current Work Place",
+    "type" : "Reference",
+    "refTo" : "EmpWorkPlace",
+    "refPath" : "/modules/basic/EmpWorkPlace.html"
+  }, {
+    "id" : "employeeDepartment",
+    "column" : "employeeDepartment_id",
+    "ar" : " إدارة موظف",
+    "en" : " Employee Department",
+    "type" : "Reference",
+    "refTo" : "EmployeeDepartment",
+    "refPath" : "/modules/basic/EmployeeDepartment.html"
+  }, {
+    "id" : "employeeState",
+    "column" : "employeeState",
+    "ar" : "حالة الموظف",
+    "en" : "Employee State",
+    "type" : "Enum",
+    "enum" : "EmployeeState"
+  }, {
+    "id" : "ensuredLegalEntity",
+    "column" : "ensuredLegalEntity_id",
+    "ar" : "الشركة المؤمنة في التأمين",
+    "en" : "Ensured Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "entryVisa.end",
+    "column" : "entryVisaEnd",
+    "ar" : "تأشيرة الدخول | تاريخ الانتهاء",
+    "en" : "Entry Visa | End",
+    "type" : "Date"
+  }, {
+    "id" : "entryVisa.issue",
+    "column" : "entryVisaIssue",
+    "ar" : "تأشيرة الدخول | تاريخ الإصدار",
+    "en" : "Entry Visa | Issue",
+    "type" : "Date"
+  }, {
+    "id" : "entryVisa.number",
+    "column" : "entryVisaNumber",
+    "ar" : "تأشيرة الدخول | رقم",
+    "en" : "Entry Visa | Number",
+    "type" : "Text"
+  }, {
+    "id" : "experience",
+    "column" : "experience_id",
+    "ar" : "نوع الخبرة",
+    "en" : "Experience",
+    "type" : "Reference",
+    "refTo" : "HRExperience",
+    "refPath" : "/modules/basic/HRExperience.html"
+  }, {
+    "id" : "fingerPrintException",
+    "column" : "fingerPrintException",
+    "ar" : "الإستثناء من البصمة",
+    "en" : "Finger Print Exception",
+    "type" : "Enum",
+    "enum" : "FingerPrintException"
+  }, {
+    "id" : "firingDate",
+    "column" : "firingDate",
+    "ar" : "تاريخ نهاية الخدمة",
+    "en" : "Firing Date",
+    "type" : "Date"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "firstName",
+    "column" : "firstName",
+    "ar" : "الاسم الاول",
+    "en" : "First Name",
+    "type" : "Text"
+  }, {
+    "id" : "fromBankAccount",
+    "column" : "fromBankAccount_id",
+    "ar" : "الحساب البنكي المحول منه الراتب",
+    "en" : "From Bank Account",
+    "type" : "Reference",
+    "refTo" : "BankAccount",
+    "refPath" : "/modules/accounting-banks/BankAccount.html"
+  }, {
+    "id" : "gender",
+    "column" : "gender",
+    "ar" : "النوع",
+    "en" : "Gender",
+    "type" : "Enum",
+    "enum" : "Gender"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "hasCar",
+    "column" : "hasCar",
+    "ar" : "له سيارة",
+    "en" : "Has a car",
+    "type" : "Boolean"
+  }, {
+    "id" : "healthInsurance.end",
+    "column" : "healthInsuranceEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "healthInsurance.issue",
+    "column" : "healthInsuranceIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "healthInsurance.number",
+    "column" : "healthInsuranceNumber",
+    "ar" : "رقم",
+    "en" : "Number",
+    "type" : "Text"
+  }, {
+    "id" : "healthInsuranceCompany",
+    "column" : "healthInsuranceCompany_id",
+    "ar" : "شركة التأمين الطبى",
+    "en" : "Health Insurance Company",
+    "type" : "Reference",
+    "refTo" : "ThirdParty",
+    "refPath" : "/modules/basic/ThirdParty.html"
+  }, {
+    "id" : "hiring",
+    "column" : "hiring",
+    "ar" : "تاريخ التعيين",
+    "en" : "Hiring date",
+    "type" : "Date"
+  }, {
+    "id" : "homelandContactInfo.address.address1",
+    "column" : "homelandAddressAddress1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "homelandContactInfo.address.address2",
+    "column" : "homelandAddressAddress2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "homelandContactInfo.address.area",
+    "column" : "homelandAddressArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "homelandContactInfo.address.buildingNumber",
+    "column" : "homelandAddressBuildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "homelandContactInfo.address.city",
+    "column" : "homelandAddressCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "homelandContactInfo.address.country",
+    "column" : "homelandAddressCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "homelandContactInfo.address.countryCode",
+    "column" : "homelandAddressCountryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "homelandContactInfo.address.district",
+    "column" : "homelandAddressDistrict",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "homelandContactInfo.address.landPlotNumber",
+    "column" : "homelandAddressLandPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "homelandContactInfo.address.mapLocation",
+    "column" : "homelandAddressMapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "homelandContactInfo.address.postalCode",
+    "column" : "homelandAddressPostalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "homelandContactInfo.address.region",
+    "column" : "homelandAddressRegion_id",
+    "ar" : "موقع جغرافي",
+    "en" : "Address region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "homelandContactInfo.address.state",
+    "column" : "homelandAddressState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "homelandContactInfo.address.street",
+    "column" : "homelandAddressStreet",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "homelandContactInfo.email",
+    "column" : "homelandEmail",
+    "ar" : "إيميل",
+    "en" : "E-mail",
+    "type" : "Email"
+  }, {
+    "id" : "homelandContactInfo.faxNumber",
+    "column" : "homelandFaxNumber",
+    "ar" : "الفاكس",
+    "en" : "Fax",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "homelandContactInfo.mobile",
+    "column" : "homelandMobile",
+    "ar" : "الموبايل",
+    "en" : "Mobile",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "homelandContactInfo.telephone1",
+    "column" : "homelandTelephone1",
+    "ar" : "تليفون 1",
+    "en" : "Phone 1",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "homelandContactInfo.telephone2",
+    "column" : "homelandTelephone2",
+    "ar" : "تليفون 2",
+    "en" : "Phone 2",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "homelandContactInfo.website",
+    "column" : "homelandWebsite",
+    "ar" : "موقع الكتروني",
+    "en" : "Website",
+    "type" : "Text"
+  }, {
+    "id" : "hourlyWorkCost",
+    "column" : "hourlyWorkCost",
+    "ar" : "سعر البيع بالساعة",
+    "en" : "Hourly Work Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "hrEmployeeRef",
+    "column" : "hrEmployeeRef_id",
+    "ar" : "معلومات شئون الموظفين",
+    "en" : "HR Information",
+    "type" : "Reference",
+    "refTo" : "EmployeeHRInfo",
+    "refPath" : "/modules/humanresource-payroll/EmployeeHRInfo.html"
+  }, {
+    "id" : "hrInsurancePolicy",
+    "column" : "hrInsurancePolicy_id",
+    "ar" : "سياسة التأمينات الاجتماعية",
+    "en" : "Social Insurance Policy",
+    "type" : "Reference",
+    "refTo" : "HRInsurancePolicy",
+    "refPath" : "/modules/humanresource-payroll/HRInsurancePolicy.html"
+  }, {
+    "id" : "ibanNumber",
+    "column" : "ibanNumber",
+    "ar" : "رقم IBAN",
+    "en" : "IBAN Number",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "insuranceCategory",
+    "column" : "insuranceCategory",
+    "ar" : "فئة التأمين",
+    "en" : "Insurance Category",
+    "type" : "Enum",
+    "enum" : "InsuranceCategory"
+  }, {
+    "id" : "insuranceValue",
+    "column" : "insuranceValue",
+    "ar" : "التأمين | قيمة التأمين",
+    "en" : "Insurance Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "jobOffer",
+    "columns" : [ "jobOfferActualCode", " jobOfferCode", " jobOfferEntityType", " jobOfferId" ],
+    "ar" : "العرض الوظيفي",
+    "en" : "Job Offer",
+    "type" : "Genericreference"
+  }, {
+    "id" : "jobPosition",
+    "column" : "jobPosition_id",
+    "ar" : "الموقع الوظيفي",
+    "en" : "Job Position",
+    "type" : "Reference",
+    "refTo" : "JobPosition",
+    "refPath" : "/modules/basic/JobPosition.html"
+  }, {
+    "id" : "jobTitle",
+    "column" : "jobTitle",
+    "ar" : "المسمي الوظيفي",
+    "en" : "Job Title",
+    "type" : "Text"
+  }, {
+    "id" : "laborID",
+    "column" : "laborID",
+    "ar" : "الرقم بمكتب العمل",
+    "en" : "Labor id",
+    "type" : "Text"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastLiquidationDate",
+    "column" : "lastLiquidationDate",
+    "ar" : "تم التصفيه حتى تاريخ",
+    "en" : "Last Liquidation Date",
+    "type" : "Date"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastName",
+    "column" : "lastName",
+    "ar" : "الاسم الاخير",
+    "en" : "Last Name",
+    "type" : "Text"
+  }, {
+    "id" : "lastSuspensionDate",
+    "column" : "lastSuspensionDate",
+    "ar" : "تاريخ أخر إيقاف",
+    "en" : "Last Suspension Date",
+    "type" : "Date"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "lastWorkStartingDate",
+    "column" : "lastWorkStartingDate",
+    "ar" : "اخر تاريخ مباشرة عمل بعد التصفية",
+    "en" : "Last Work Starting Date",
+    "type" : "Date"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "licenseEnd",
+    "column" : "licenseEnd",
+    "ar" : "أنتهاء الرخصة",
+    "en" : "License End",
+    "type" : "Date"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "maritalStatus",
+    "column" : "maritalStatus",
+    "ar" : "الحالة الأجتماعية",
+    "en" : "Martial status",
+    "type" : "Enum",
+    "enum" : "MaritalStatus"
+  }, {
+    "id" : "maxDisc1Percentage",
+    "column" : "maxDisc1Percentage",
+    "ar" : "أقصي نسبه للخصم 1",
+    "en" : "Max Discount 1 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc1Value",
+    "column" : "maxDisc1Value",
+    "ar" : "أقصي قيمة للخصم 1",
+    "en" : "Max Discount 1 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc2Percentage",
+    "column" : "maxDisc2Percentage",
+    "ar" : "أقصي نسبه للخصم 2",
+    "en" : "Max Discount 2 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc2Value",
+    "column" : "maxDisc2Value",
+    "ar" : "أقصي قيمة للخصم 2",
+    "en" : "Max Discount 2 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc3Percentage",
+    "column" : "maxDisc3Percentage",
+    "ar" : "أقصي نسبه للخصم 3",
+    "en" : "Max Discount 3 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc3Value",
+    "column" : "maxDisc3Value",
+    "ar" : "أقصي قيمة للخصم 3",
+    "en" : "Max Discount 3 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc4Percentage",
+    "column" : "maxDisc4Percentage",
+    "ar" : "أقصي نسبه للخصم 4",
+    "en" : "Max Discount 4 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc4Value",
+    "column" : "maxDisc4Value",
+    "ar" : "أقصي قيمة للخصم 4",
+    "en" : "Max Discount 4 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc5Percentage",
+    "column" : "maxDisc5Percentage",
+    "ar" : "أقصي نسبه للخصم 5",
+    "en" : "Max Discount 5 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc5Value",
+    "column" : "maxDisc5Value",
+    "ar" : "أقصي قيمة للخصم 5",
+    "en" : "Max Discount 5 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc6Percentage",
+    "column" : "maxDisc6Percentage",
+    "ar" : "أقصي نسبه للخصم 6",
+    "en" : "Max Discount 6 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc6Value",
+    "column" : "maxDisc6Value",
+    "ar" : "أقصي قيمة للخصم 6",
+    "en" : "Max Discount 6 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc7Percentage",
+    "column" : "maxDisc7Percentage",
+    "ar" : "أقصي نسبه للخصم 7",
+    "en" : "Max Discount 7 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc7Value",
+    "column" : "maxDisc7Value",
+    "ar" : "أقصي قيمة للخصم 7",
+    "en" : "Max Discount 7 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc8Percentage",
+    "column" : "maxDisc8Percentage",
+    "ar" : "أقصي نسبه للخصم 8",
+    "en" : "Max Discount 8 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc8Value",
+    "column" : "maxDisc8Value",
+    "ar" : "أقصي قيمة للخصم 8",
+    "en" : "Max Discount 8 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxHeaderDiscPercentage",
+    "column" : "maxHeaderDiscPercentage",
+    "ar" : "أقصي نسبه للخصم الكلي",
+    "en" : "Max Header Discount Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxHeaderDiscValue",
+    "column" : "maxHeaderDiscValue",
+    "ar" : "أقصي قيمة للخصم الكلي",
+    "en" : "Max Header Discount Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxPermissionsHoursPerMonth",
+    "column" : "maxPermissionsHoursPerMonth",
+    "ar" : "أقصى عدد ساعات إذون انصراف شهريا",
+    "en" : "Max Permission Hours Per Month",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxPermissionsPerMonth",
+    "column" : "maxPermissionsPerMonth",
+    "ar" : "أقصى عدد إذون انصراف شهريا",
+    "en" : "Max Permissions Per Month",
+    "type" : "Integer"
+  }, {
+    "id" : "maxSinglePermissionHours",
+    "column" : "maxSinglePermissionHours",
+    "ar" : "أقصى عدد ساعات للإذن الواحد",
+    "en" : "Max Single Permission Hours",
+    "type" : "Decimal"
+  }, {
+    "id" : "middleName",
+    "column" : "MiddleName",
+    "ar" : "الاسم الأوسط",
+    "en" : "Middle Name",
+    "type" : "Text"
+  }, {
+    "id" : "monthsForWorthPaidVacation",
+    "column" : "monthsForWorthPaidVacation",
+    "ar" : "عدد الشهور لاستحقاق بدل الاجازة",
+    "en" : "Months For Worth Paid Vacation",
+    "type" : "Decimal"
+  }, {
+    "id" : "motherName",
+    "column" : "motherName",
+    "ar" : "اسم الأم",
+    "en" : "Mother Name",
+    "type" : "Text"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n10",
+    "column" : "n10",
+    "ar" : "رقم 10",
+    "en" : "Number 10",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "n6",
+    "column" : "n6",
+    "ar" : "رقم 6",
+    "en" : "Number 6",
+    "type" : "Decimal"
+  }, {
+    "id" : "n7",
+    "column" : "n7",
+    "ar" : "رقم 7",
+    "en" : "Number 7",
+    "type" : "Decimal"
+  }, {
+    "id" : "n8",
+    "column" : "n8",
+    "ar" : "رقم 8",
+    "en" : "Number 8",
+    "type" : "Decimal"
+  }, {
+    "id" : "n9",
+    "column" : "n9",
+    "ar" : "رقم 9",
+    "en" : "Number 9",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "nationality2",
+    "column" : "nationality2_id",
+    "ar" : "الجنسية",
+    "en" : "Nationality",
+    "type" : "Reference",
+    "refTo" : "Nationality",
+    "refPath" : "/modules/basic/Nationality.html"
+  }, {
+    "id" : "numOfServYearsToTransVaction",
+    "column" : "numOfServYearsToTransVaction",
+    "ar" : "عدد سنوات الخدمة لترحيل الاجازات",
+    "en" : "Number Of Service Years To TransFer Vacations",
+    "type" : "Decimal"
+  }, {
+    "id" : "orgaInsuranceId",
+    "column" : "orgaInsuranceId",
+    "ar" : "رقم المنشأة",
+    "en" : "Organization id",
+    "type" : "Text"
+  }, {
+    "id" : "organizationPosition",
+    "column" : "organizationPosition_id",
+    "ar" : "الدرجة الوظيفية",
+    "en" : "Organization Position",
+    "type" : "Reference",
+    "refTo" : "OrganizationPosition",
+    "refPath" : "/modules/basic/OrganizationPosition.html"
+  }, {
+    "id" : "other1",
+    "column" : "other1",
+    "ar" : "تاريخ المباشرة بعد الاجازة من النوع 1",
+    "en" : "Working Date After Vacation of Type1",
+    "type" : "Date"
+  }, {
+    "id" : "other2",
+    "column" : "other2",
+    "ar" : "تاريخ المباشرة بعد الاجازة من النوع 2",
+    "en" : "Working Date After Vacation of Type2",
+    "type" : "Date"
+  }, {
+    "id" : "other3",
+    "column" : "other3",
+    "ar" : "تاريخ المباشرة بعد الاجازة من النوع 3",
+    "en" : "Working Date After Vacation of Type3",
+    "type" : "Date"
+  }, {
+    "id" : "overTimeRate",
+    "column" : "overTimeRate",
+    "ar" : "أجر الساعة في الوقت الإضافي",
+    "en" : "OverTime Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "passport.end",
+    "column" : "passportEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "passport.issue",
+    "column" : "passportIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "passport.number",
+    "column" : "passportNumber",
+    "ar" : "رقم",
+    "en" : "Number",
+    "type" : "Text"
+  }, {
+    "id" : "passportFileNo",
+    "column" : "passportFileNo",
+    "ar" : "رقم الملف في الجوازات",
+    "en" : "Passport File No",
+    "type" : "Text"
+  }, {
+    "id" : "passportIssuancePlace",
+    "column" : "passportIssuancePlace_id",
+    "ar" : "مكان إصدار الجواز",
+    "en" : "Passport Issuance Place",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "passportLanguageCode",
+    "column" : "passportLanguageCode",
+    "ar" : "كود اللغة في الجوازات",
+    "en" : "Passport Language Code",
+    "type" : "Text"
+  }, {
+    "id" : "passportNationalityCode",
+    "column" : "passportNationalityCode",
+    "ar" : "كود الجنسية في الجوازات",
+    "en" : "Passport Nationality Code",
+    "type" : "Text"
+  }, {
+    "id" : "passportUnifiedNumber",
+    "column" : "passportUnifiedNumber",
+    "ar" : "الرقم الموحد في الجوازات",
+    "en" : "Passport Unified Number",
+    "type" : "Text"
+  }, {
+    "id" : "personalAccountBank",
+    "column" : "personalAccountBank_id",
+    "ar" : "بنك الحساب الشخصي للموظف",
+    "en" : "Employee Personal Account Bank",
+    "type" : "Reference",
+    "refTo" : "Bank",
+    "refPath" : "/modules/accounting-banks/Bank.html"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "previousExperience",
+    "column" : "previousExperience",
+    "ar" : "عدد سنوات الخبرة قبل الاتحاق بالشركة",
+    "en" : "Previous Experience",
+    "type" : "Decimal"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "purchaseMan",
+    "column" : "purchaseMan",
+    "ar" : "مندوب مشتريات",
+    "en" : "Purchase Man",
+    "type" : "Boolean"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref10",
+    "columns" : [ "ref10ActualCode", " ref10Code", " ref10EntityType", " ref10Id" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref6",
+    "columns" : [ "ref6ActualCode", " ref6Code", " ref6EntityType", " ref6Id" ],
+    "ar" : "مرجع 6",
+    "en" : "Reference 6",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref7",
+    "columns" : [ "ref7ActualCode", " ref7Code", " ref7EntityType", " ref7Id" ],
+    "ar" : "مرجع 7",
+    "en" : "Reference 7",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref8",
+    "columns" : [ "ref8ActualCode", " ref8Code", " ref8EntityType", " ref8Id" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref9",
+    "columns" : [ "ref9ActualCode", " ref9Code", " ref9EntityType", " ref9Id" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "religion",
+    "column" : "religion",
+    "ar" : "الديانة",
+    "en" : "Religion",
+    "type" : "Enum",
+    "enum" : "Religion"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "replUserId",
+    "column" : "replUserId",
+    "type" : "ID"
+  }, {
+    "id" : "residency.end",
+    "column" : "residencyEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "residency.issue",
+    "column" : "residencyIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "residency.number",
+    "column" : "residencyNumber",
+    "ar" : "رقم",
+    "en" : "Number",
+    "type" : "Text"
+  }, {
+    "id" : "residencyPosition",
+    "column" : "residencyPosition_id",
+    "ar" : "المهنة بالأقامة",
+    "en" : "Current position",
+    "type" : "Reference",
+    "refTo" : "OrganizationPosition",
+    "refPath" : "/modules/basic/OrganizationPosition.html"
+  }, {
+    "id" : "responsibilitisIds",
+    "column" : "responsibilitisIds",
+    "type" : "Text"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "salaryCurrency",
+    "column" : "salaryCurrency_id",
+    "ar" : "عملة الراتب",
+    "en" : "Salary Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "salaryPaymentMethod",
+    "column" : "salaryPaymentMethod",
+    "ar" : "طريقة تحويل الراتب",
+    "en" : "Salary Payment Method",
+    "type" : "Enum",
+    "enum" : "SalaryPaymentMethod"
+  }, {
+    "id" : "salesMan",
+    "column" : "salesMan",
+    "ar" : "مندوب المبيعات",
+    "en" : "Salesman",
+    "type" : "Boolean"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "socialInsurance.end",
+    "column" : "socialInsuranceEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "socialInsurance.issue",
+    "column" : "socialInsuranceIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "socialInsurance.number",
+    "column" : "socialInsuranceNumber",
+    "ar" : "رقم التأمين الأجتماعي",
+    "en" : "Social Insurance Number",
+    "type" : "Text"
+  }, {
+    "id" : "sponsor1",
+    "column" : "sponsor1_id",
+    "ar" : "الكفيل",
+    "en" : "Sponsor",
+    "type" : "Reference",
+    "refTo" : "Sponsor",
+    "refPath" : "/modules/basic/Sponsor.html"
+  }, {
+    "id" : "ssn.end",
+    "column" : "ssnEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "ssn.issue",
+    "column" : "ssnIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "ssn.number",
+    "column" : "ssnNumber",
+    "ar" : "رقم",
+    "en" : "Number",
+    "type" : "Text"
+  }, {
+    "id" : "subsidiaryAccounts.account1",
+    "column" : "account1_id",
+    "ar" : " حساب 01",
+    "en" : " Account 01",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account10",
+    "column" : "account10_id",
+    "ar" : " حساب 10",
+    "en" : " Account 10",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account11",
+    "column" : "account11_id",
+    "ar" : " حساب 11",
+    "en" : " Account 11",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account12",
+    "column" : "account12_id",
+    "ar" : " حساب 12",
+    "en" : " Account 12",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account13",
+    "column" : "account13_id",
+    "ar" : " حساب 13",
+    "en" : " Account 13",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account14",
+    "column" : "account14_id",
+    "ar" : " حساب 14",
+    "en" : " Account 14",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account15",
+    "column" : "account15_id",
+    "ar" : " حساب 15",
+    "en" : " Account 15",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account16",
+    "column" : "account16_id",
+    "ar" : " حساب 16",
+    "en" : " Account 16",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account17",
+    "column" : "account17_id",
+    "ar" : " حساب 17",
+    "en" : " Account 17",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account18",
+    "column" : "account18_id",
+    "ar" : " حساب 18",
+    "en" : " Account 18",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account19",
+    "column" : "account19_id",
+    "ar" : " حساب 19",
+    "en" : " Account 19",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account2",
+    "column" : "account2_id",
+    "ar" : " حساب 02",
+    "en" : " Account 02",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account20",
+    "column" : "account20_id",
+    "ar" : " حساب 20",
+    "en" : " Account 20",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account3",
+    "column" : "account3_id",
+    "ar" : " حساب 03",
+    "en" : " Account 03",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account4",
+    "column" : "account4_id",
+    "ar" : " حساب 04",
+    "en" : " Account 04",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account5",
+    "column" : "account5_id",
+    "ar" : " حساب 05",
+    "en" : " Account 05",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account6",
+    "column" : "account6_id",
+    "ar" : " حساب 06",
+    "en" : " Account 06",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account7",
+    "column" : "account7_id",
+    "ar" : " حساب 07",
+    "en" : " Account 07",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account8",
+    "column" : "account8_id",
+    "ar" : " حساب 08",
+    "en" : " Account 08",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account9",
+    "column" : "account9_id",
+    "ar" : " حساب 09",
+    "en" : " Account 09",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.accountsBag",
+    "column" : "accountsBag_id",
+    "ar" : " حقيبة حسابات",
+    "en" : " Accounts Bag",
+    "type" : "Reference",
+    "refTo" : "AccountsBag",
+    "refPath" : "/modules/basic/AccountsBag.html"
+  }, {
+    "id" : "subsidiaryAccounts.currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "subsidiaryAccounts.forceNoDebtAgesTracking",
+    "column" : "forceNoDebtAgesTracking",
+    "ar" : "منع متابعة أعمار الديون لهذه الذمة - حتي و إن تم تفعيلها للحساب",
+    "en" : "Do Not Track Debt Ages For This Subsidiary - Even if it was activated in the account",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.mainAccount",
+    "column" : "mainAccount_id",
+    "ar" : " الحساب الرئيسي",
+    "en" : " Main Account",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.parentParty",
+    "columns" : [ "parentPartyActualCode", " parentPartyCode", " parentPartyEntityType", " parentPartyId" ],
+    "ar" : "الجهة الأعلي (البديل المحاسبي)",
+    "en" : "Parent Party (Accounting Alternative)",
+    "type" : "Genericreference"
+  }, {
+    "id" : "subsidiaryAccounts.tax1Exempt",
+    "column" : "tax1Exempt",
+    "ar" : "غير خاضع لضريبة 1",
+    "en" : "Tax 1 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax2Exempt",
+    "column" : "tax2Exempt",
+    "ar" : "غير خاضع لضريبة 2",
+    "en" : "Tax 2 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax3Exempt",
+    "column" : "tax3Exempt",
+    "ar" : "غير خاضع لضريبة 3",
+    "en" : "Tax 3 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax4Exempt",
+    "column" : "tax4Exempt",
+    "ar" : "غير خاضع لضريبة 4",
+    "en" : "Tax 4 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "superPosition",
+    "column" : "superPosition_id",
+    "ar" : "الدرجة الوظيفيه الأعلي",
+    "en" : "Super Position",
+    "type" : "Reference",
+    "refTo" : "OrganizationPosition",
+    "refPath" : "/modules/basic/OrganizationPosition.html"
+  }, {
+    "id" : "supervisor",
+    "column" : "supervisor_id",
+    "ar" : "المدير الأعلي",
+    "en" : "Supervisor",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "technician",
+    "column" : "technician",
+    "ar" : "فني صيانة",
+    "en" : "Maintenance Technician",
+    "type" : "Boolean"
+  }, {
+    "id" : "ticketClass",
+    "column" : "ticketClass",
+    "ar" : "التذاكر | التصنيف",
+    "en" : "Tickets | Classification",
+    "type" : "Enum",
+    "enum" : "BenefitClassification"
+  }, {
+    "id" : "ticketValue",
+    "column" : "ticketValue",
+    "ar" : "قيمة التذكرة",
+    "en" : "Ticket Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "ticketsNumber",
+    "column" : "ticketsNumber",
+    "ar" : "عدد التذاكر",
+    "en" : "Tickets Number",
+    "type" : "Decimal"
+  }, {
+    "id" : "ticketsPeriod.uom",
+    "column" : "ticketsPeriodUom",
+    "ar" : "الوحدة",
+    "en" : "Unit",
+    "type" : "Enum",
+    "enum" : "TimePeriodType"
+  }, {
+    "id" : "ticketsPeriod.value",
+    "column" : "ticketsPeriodValue",
+    "ar" : "القيمة",
+    "en" : "Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalInsuranceValue",
+    "column" : "totalInsuranceValue",
+    "ar" : "إجمالي التأمين",
+    "en" : "Total Insurance Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "user",
+    "column" : "user_id",
+    "ar" : "المستخدم",
+    "en" : "User",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "vacationCalender",
+    "column" : "vacationCalender_id",
+    "ar" : "تقويم الأجازات",
+    "en" : "Vacation Calendar",
+    "type" : "Reference",
+    "refTo" : "HRCalendar",
+    "refPath" : "/modules/humanresource-payroll/HRCalendar.html"
+  }, {
+    "id" : "vacationDayRate",
+    "column" : "vacationDayRate",
+    "ar" : "أجر الساعة في أيام الأجازة",
+    "en" : "Vacation Day Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "wivesCount",
+    "column" : "wivesCount",
+    "ar" : "عدد الزوجات",
+    "en" : "Wives count",
+    "type" : "Integer"
+  }, {
+    "id" : "workLicense.end",
+    "column" : "workLicenseEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "workLicense.issue",
+    "column" : "workLicenseIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "workLicense.number",
+    "column" : "workLicenseNumber",
+    "ar" : "رقم",
+    "en" : "Number",
+    "type" : "Text"
+  } ],
+  "details" : [ {
+    "id" : "attendants",
+    "table" : "AttendantLine",
+    "joinColumn" : "employee_id",
+    "ar" : " المرافقين",
+    "en" : " Attendants",
+    "fields" : [ {
+      "id" : "attendants.attachment",
+      "column" : "attachment_id",
+      "ar" : "مرفق",
+      "en" : "Attachment",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "attendants.birthDate",
+      "column" : "birthDate",
+      "ar" : "تاريخ الميلاد",
+      "en" : "Birth date",
+      "type" : "Date"
+    }, {
+      "id" : "attendants.borderNumber",
+      "column" : "borderNumber",
+      "ar" : "رقم الحدود",
+      "en" : "Border Number",
+      "type" : "Text"
+    }, {
+      "id" : "attendants.coveragePercentage",
+      "column" : "coveragePercentage",
+      "ar" : "التأمين الصحى | نسبة التحمل",
+      "en" : "Med-Insurance | Coverage Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "attendants.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "attendants.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "attendants.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "attendants.date4",
+      "column" : "date4",
+      "ar" : "تاريخ 4",
+      "en" : "Date4",
+      "type" : "Date"
+    }, {
+      "id" : "attendants.date5",
+      "column" : "date5",
+      "ar" : "تاريخ 5",
+      "en" : "Date5",
+      "type" : "Date"
+    }, {
+      "id" : "attendants.description1",
+      "column" : "description1",
+      "ar" : "الوصف 1",
+      "en" : "description1",
+      "type" : "Text"
+    }, {
+      "id" : "attendants.description2",
+      "column" : "description2",
+      "ar" : "الوصف 2",
+      "en" : "description2",
+      "type" : "Text"
+    }, {
+      "id" : "attendants.description3",
+      "column" : "description3",
+      "ar" : "الوصف 3",
+      "en" : "description3",
+      "type" : "Text"
+    }, {
+      "id" : "attendants.description4",
+      "column" : "description4",
+      "ar" : "الوصف 4",
+      "en" : "description4",
+      "type" : "Text"
+    }, {
+      "id" : "attendants.description5",
+      "column" : "description5",
+      "ar" : "الوصف 5",
+      "en" : "description5",
+      "type" : "Text"
+    }, {
+      "id" : "attendants.englishName",
+      "column" : "englishName",
+      "ar" : "English Name",
+      "en" : "English Name",
+      "type" : "Text"
+    }, {
+      "id" : "attendants.gender",
+      "column" : "gender",
+      "ar" : "النوع",
+      "en" : "Gender",
+      "type" : "Enum",
+      "enum" : "Gender"
+    }, {
+      "id" : "attendants.healthInsuranceEnd",
+      "column" : "healthInsuranceEnd",
+      "ar" : "التأمين الصحى | تاريخ الانتهاء",
+      "en" : "Med-Insurance |health Insurance End",
+      "type" : "Date"
+    }, {
+      "id" : "attendants.healthInsuranceIssue",
+      "column" : "healthInsuranceIssue",
+      "ar" : "التأمين الصحى | تاريخ الإصدار",
+      "en" : "Med-Insurance |Health Insurance Issue",
+      "type" : "Date"
+    }, {
+      "id" : "attendants.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "attendants.insuranceCardNumber",
+      "column" : "insuranceCardNumber",
+      "ar" : "رقم بطاقة التأمين",
+      "en" : "insur-Card Number",
+      "type" : "Text"
+    }, {
+      "id" : "attendants.isMedEnsuranceApplyTo",
+      "column" : "isMedEnsuranceApplyTo",
+      "ar" : "التأمين الصحى | يطبق عليه",
+      "en" : "Med-Insurance | Apply To",
+      "type" : "Boolean"
+    }, {
+      "id" : "attendants.isResident",
+      "column" : "isResident",
+      "ar" : "مقيم",
+      "en" : "Is Resident",
+      "type" : "Boolean"
+    }, {
+      "id" : "attendants.isTicketApplyTo",
+      "column" : "isTicketApplyTo",
+      "ar" : "التذاكر | يطبق عليه",
+      "en" : "Tickets | Apply To",
+      "type" : "Boolean"
+    }, {
+      "id" : "attendants.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "attendants.medInsurClass",
+      "column" : "medInsurClass",
+      "ar" : "التأمين الصحى | التصنيف",
+      "en" : "Med-Insurance | Classification",
+      "type" : "Enum",
+      "enum" : "InsuranceCategory"
+    }, {
+      "id" : "attendants.medInsurValue",
+      "column" : "medInsurValue",
+      "ar" : "التأمين الصحى | القيمة",
+      "en" : "Med-Insurance | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "attendants.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "attendants.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "attendants.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "attendants.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "attendants.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "attendants.name",
+      "column" : "name",
+      "ar" : "الاسم",
+      "en" : "Name",
+      "type" : "Text"
+    }, {
+      "id" : "attendants.nationality",
+      "column" : "nationality_id",
+      "ar" : "الجنسية",
+      "en" : "Nationality",
+      "type" : "Reference",
+      "refTo" : "Nationality",
+      "refPath" : "/modules/basic/Nationality.html"
+    }, {
+      "id" : "attendants.passportNumber",
+      "column" : "passportNumber",
+      "ar" : "رقم جواز السفر",
+      "en" : "Passport Number",
+      "type" : "Text"
+    }, {
+      "id" : "attendants.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "attendants.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "attendants.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "attendants.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "attendants.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "attendants.relationType",
+      "column" : "relationType",
+      "ar" : "صلة القرابة",
+      "en" : "Relation Type",
+      "type" : "Enum",
+      "enum" : "RelationType"
+    }, {
+      "id" : "attendants.residencyId",
+      "column" : "residencyId",
+      "ar" : "رقم الإقامة",
+      "en" : "Residency Id",
+      "type" : "Text"
+    }, {
+      "id" : "attendants.ticketClass",
+      "column" : "ticketClass",
+      "ar" : "التذاكر | التصنيف",
+      "en" : "Tickets | Classification",
+      "type" : "Enum",
+      "enum" : "BenefitClassification"
+    }, {
+      "id" : "attendants.ticketsValue",
+      "column" : "ticketsValue",
+      "ar" : "التذاكر | القيمة",
+      "en" : "Tickets | Value",
+      "type" : "Decimal"
+    } ]
+  }, {
+    "id" : "qualifications",
+    "table" : "QualificationLine",
+    "joinColumn" : "employee_id",
+    "ar" : "المؤهلات",
+    "en" : "Qualifications",
+    "fields" : [ {
+      "id" : "qualifications.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "qualifications.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "qualifications.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "qualifications.date4",
+      "column" : "date4",
+      "ar" : "تاريخ 4",
+      "en" : "Date4",
+      "type" : "Date"
+    }, {
+      "id" : "qualifications.date5",
+      "column" : "date5",
+      "ar" : "تاريخ 5",
+      "en" : "Date5",
+      "type" : "Date"
+    }, {
+      "id" : "qualifications.grade",
+      "column" : "grade",
+      "ar" : "التقدير",
+      "en" : "Grade",
+      "type" : "Text"
+    }, {
+      "id" : "qualifications.graduationDate",
+      "column" : "graduationDate",
+      "ar" : "تاريخ التخرج",
+      "en" : "Graduation Date",
+      "type" : "Date"
+    }, {
+      "id" : "qualifications.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "qualifications.institute",
+      "column" : "institute",
+      "ar" : "جهة التخرج",
+      "en" : "Institute",
+      "type" : "Text"
+    }, {
+      "id" : "qualifications.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "qualifications.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "qualifications.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "qualifications.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "qualifications.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "qualifications.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "qualifications.qualification",
+      "column" : "qualification",
+      "ar" : "مؤهل",
+      "en" : "Qualification",
+      "type" : "Enum",
+      "enum" : "QualificationType"
+    }, {
+      "id" : "qualifications.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "qualifications.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "qualifications.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "qualifications.specialization",
+      "column" : "specialization",
+      "ar" : "التخصص",
+      "en" : "Specialization",
+      "type" : "Text"
+    }, {
+      "id" : "qualifications.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "qualifications.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "qualifications.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "qualifications.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "qualifications.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "responsibilities",
+    "table" : "ResponsibilityLine",
+    "joinColumn" : "employee_id",
+    "ar" : " مسئوليات",
+    "en" : " Responsibilities",
+    "fields" : [ {
+      "id" : "responsibilities.attachment",
+      "column" : "attachment_id",
+      "ar" : "مرفق",
+      "en" : "Attachment",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "responsibilities.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "responsibilities.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "responsibilities.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "responsibilities.date4",
+      "column" : "date4",
+      "ar" : "تاريخ 4",
+      "en" : "Date4",
+      "type" : "Date"
+    }, {
+      "id" : "responsibilities.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "responsibilities.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "responsibilities.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "responsibilities.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "responsibilities.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "responsibilities.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "responsibilities.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "responsibilities.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "responsibilities.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "responsibilities.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "responsibilities.responsibility",
+      "column" : "responsibility_id",
+      "ar" : "مسئولية",
+      "en" : "Responsibility",
+      "type" : "Reference",
+      "refTo" : "Responsibility",
+      "refPath" : "/modules/basic/Responsibility.html"
+    }, {
+      "id" : "responsibilities.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "responsibilities.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "responsibilities.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "responsibilities.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    } ]
+  } ]
+}

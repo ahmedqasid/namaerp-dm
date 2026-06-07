@@ -1,0 +1,45 @@
+{
+  "entity" : "MobileAppErrorLog",
+  "table" : "MobileAppErrorLog",
+  "module" : "system-tables",
+  "ar" : "Mobile App Error Log",
+  "en" : "Mobile App Error Log",
+  "page" : "https://dm.namasoft.com/modules/system-tables/MobileAppErrorLog.html",
+  "fields" : [ {
+    "id" : "actionDateTime",
+    "column" : "actionDateTime",
+    "ar" : "Action Date Time",
+    "en" : "وقت الحدوث",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "description",
+    "column" : "description",
+    "ar" : "الوصف",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "erroLog",
+    "column" : "erroLog",
+    "ar" : "Log",
+    "en" : "Log",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "user",
+    "column" : "user_id",
+    "ar" : "المستخدم",
+    "en" : "User",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  } ]
+}

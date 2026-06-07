@@ -1,0 +1,16 @@
+{
+  "enum" : "VacationWeekRestPolicyType",
+  "values" : [ {
+    "id" : "LikeWeekEnd",
+    "ar" : "مثل العطلة الأسبوعية",
+    "en" : "Like Weekend"
+  }, {
+    "id" : "IncludedInBalance",
+    "ar" : "تشمل",
+    "en" : "Include"
+  }, {
+    "id" : "ExcludedFromBalance",
+    "ar" : "لاتشمل",
+    "en" : "Exclude"
+  } ]
+}

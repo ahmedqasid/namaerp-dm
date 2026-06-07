@@ -1,0 +1,16 @@
+{
+  "enum" : "MealAllowanceType",
+  "values" : [ {
+    "id" : "NotApplicable",
+    "ar" : "غير مطبق",
+    "en" : "Not Applicable"
+  }, {
+    "id" : "MealAllowance",
+    "ar" : "بدل وجبة",
+    "en" : "Meal Allowance"
+  }, {
+    "id" : "Meal",
+    "ar" : "وجبة",
+    "en" : "Meal"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "TransferType",
+  "values" : [ {
+    "id" : "Normal",
+    "ar" : "عادية",
+    "en" : "Normal"
+  }, {
+    "id" : "NormalGlobal",
+    "ar" : "بين الشركات (عادي)",
+    "en" : "Global (Normal)"
+  }, {
+    "id" : "PurchaseTranfer",
+    "ar" : "بين الشركات (مشترات)",
+    "en" : "Global (Purchase)"
+  } ]
+}

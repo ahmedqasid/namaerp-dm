@@ -1,0 +1,16 @@
+{
+  "enum" : "WizardFieldType",
+  "values" : [ {
+    "id" : "Normal",
+    "ar" : "عادية",
+    "en" : "Normal"
+  }, {
+    "id" : "LinesCount",
+    "ar" : "عدد السطور",
+    "en" : "Lines Count"
+  }, {
+    "id" : "AlternativeField",
+    "ar" : "حقل بديل لحقل",
+    "en" : "Alternative Field"
+  } ]
+}

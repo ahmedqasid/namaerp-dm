@@ -1,0 +1,208 @@
+{
+  "enum" : "KeyboardKey",
+  "values" : [ {
+    "id" : "F1",
+    "ar" : "F1",
+    "en" : "F1"
+  }, {
+    "id" : "F2",
+    "ar" : "F2",
+    "en" : "F2"
+  }, {
+    "id" : "F3",
+    "ar" : "F3",
+    "en" : "F3"
+  }, {
+    "id" : "F4",
+    "ar" : "F4",
+    "en" : "F4"
+  }, {
+    "id" : "F5",
+    "ar" : "F5",
+    "en" : "F5"
+  }, {
+    "id" : "F6",
+    "ar" : "F6",
+    "en" : "F6"
+  }, {
+    "id" : "F7",
+    "ar" : "F7",
+    "en" : "F7"
+  }, {
+    "id" : "F8",
+    "ar" : "F8",
+    "en" : "F8"
+  }, {
+    "id" : "F9",
+    "ar" : "F9",
+    "en" : "F9"
+  }, {
+    "id" : "F10",
+    "ar" : "F10",
+    "en" : "F10"
+  }, {
+    "id" : "F11",
+    "ar" : "F11",
+    "en" : "F11"
+  }, {
+    "id" : "F12",
+    "ar" : "F12",
+    "en" : "F12"
+  }, {
+    "id" : "Delete",
+    "ar" : "Delete",
+    "en" : "Delete"
+  }, {
+    "id" : "Backspace",
+    "ar" : "Backspace",
+    "en" : "Backspace"
+  }, {
+    "id" : "Insert",
+    "ar" : "Insert",
+    "en" : "Insert"
+  }, {
+    "id" : "ArrowUp",
+    "ar" : "Arrow Up",
+    "en" : "Arrow Up"
+  }, {
+    "id" : "ArrowDown",
+    "ar" : "Arrow Down",
+    "en" : "Arrow Down"
+  }, {
+    "id" : "ArrowLeft",
+    "ar" : "Arrow Left",
+    "en" : "Arrow Left"
+  }, {
+    "id" : "ArrowRight",
+    "ar" : "Arrow Right",
+    "en" : "Arrow Right"
+  }, {
+    "id" : "Enter",
+    "ar" : "Enter",
+    "en" : "Enter"
+  }, {
+    "id" : "Esc",
+    "ar" : "Esc",
+    "en" : "Esc"
+  }, {
+    "id" : "Home",
+    "ar" : "Home",
+    "en" : "Home"
+  }, {
+    "id" : "End",
+    "ar" : "End",
+    "en" : "End"
+  }, {
+    "id" : "PageUp",
+    "ar" : "Page Up",
+    "en" : "Page Up"
+  }, {
+    "id" : "PageDown",
+    "ar" : "Page Down",
+    "en" : "Page Down"
+  }, {
+    "id" : "A",
+    "ar" : "A",
+    "en" : "A"
+  }, {
+    "id" : "B",
+    "ar" : "B",
+    "en" : "B"
+  }, {
+    "id" : "C",
+    "ar" : "C",
+    "en" : "C"
+  }, {
+    "id" : "D",
+    "ar" : "D",
+    "en" : "D"
+  }, {
+    "id" : "E",
+    "ar" : "E",
+    "en" : "E"
+  }, {
+    "id" : "F",
+    "ar" : "F",
+    "en" : "F"
+  }, {
+    "id" : "G",
+    "ar" : "G",
+    "en" : "G"
+  }, {
+    "id" : "H",
+    "ar" : "H",
+    "en" : "H"
+  }, {
+    "id" : "I",
+    "ar" : "I",
+    "en" : "I"
+  }, {
+    "id" : "J",
+    "ar" : "J",
+    "en" : "J"
+  }, {
+    "id" : "K",
+    "ar" : "K",
+    "en" : "K"
+  }, {
+    "id" : "L",
+    "ar" : "L",
+    "en" : "L"
+  }, {
+    "id" : "M",
+    "ar" : "M",
+    "en" : "M"
+  }, {
+    "id" : "N",
+    "ar" : "N",
+    "en" : "N"
+  }, {
+    "id" : "O",
+    "ar" : "O",
+    "en" : "O"
+  }, {
+    "id" : "P",
+    "ar" : "P",
+    "en" : "P"
+  }, {
+    "id" : "Q",
+    "ar" : "Q",
+    "en" : "Q"
+  }, {
+    "id" : "R",
+    "ar" : "R",
+    "en" : "R"
+  }, {
+    "id" : "S",
+    "ar" : "S",
+    "en" : "S"
+  }, {
+    "id" : "T",
+    "ar" : "T",
+    "en" : "T"
+  }, {
+    "id" : "U",
+    "ar" : "U",
+    "en" : "U"
+  }, {
+    "id" : "V",
+    "ar" : "V",
+    "en" : "V"
+  }, {
+    "id" : "W",
+    "ar" : "W",
+    "en" : "W"
+  }, {
+    "id" : "X",
+    "ar" : "X",
+    "en" : "X"
+  }, {
+    "id" : "Y",
+    "ar" : "Y",
+    "en" : "Y"
+  }, {
+    "id" : "Z",
+    "ar" : "Z",
+    "en" : "Z"
+  } ]
+}

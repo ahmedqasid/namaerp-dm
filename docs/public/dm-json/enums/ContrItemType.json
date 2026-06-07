@@ -1,0 +1,20 @@
+{
+  "enum" : "ContrItemType",
+  "values" : [ {
+    "id" : "Material",
+    "ar" : "مواد خام",
+    "en" : "Material"
+  }, {
+    "id" : "Worker",
+    "ar" : "عمالة",
+    "en" : "Worker"
+  }, {
+    "id" : "Contractor",
+    "ar" : "مقاول باطن",
+    "en" : "Contractor"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  } ]
+}

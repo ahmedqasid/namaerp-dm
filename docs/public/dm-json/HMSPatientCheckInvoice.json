@@ -1,0 +1,1499 @@
+{
+  "entity" : "HMSPatientCheckInvoice",
+  "table" : "HMSPatientCheckInvoice",
+  "module" : "hms",
+  "ar" : "فاتورة كشف",
+  "arPlural" : "فواتير الكشوفات",
+  "en" : "Check Invoice",
+  "enPlural" : "Checks Invoices",
+  "page" : "https://dm.namasoft.com/modules/hms/HMSPatientCheckInvoice.html",
+  "fields" : [ {
+    "id" : "ageYear",
+    "column" : "ageYear",
+    "ar" : "سنة",
+    "en" : "Year",
+    "type" : "Decimal"
+  }, {
+    "id" : "allowChangingMainPrices",
+    "column" : "allowChangingMainPrices",
+    "ar" : "السماح بتعديل الأسعار الرئيسية",
+    "en" : "Allow Changing Main Prices",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowChangingServicesPrices",
+    "column" : "allowChangingServicesPrices",
+    "ar" : "السماح بتعديل أسعار الخدمات الطبية",
+    "en" : "Allow Changing Services Prices",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowChangingSuppliesPrices",
+    "column" : "allowChangingSuppliesPrices",
+    "ar" : "السماح بتعديل أسعار المستلزمات الطبية",
+    "en" : "Allow Changing Supplies Prices",
+    "type" : "Boolean"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "attachment",
+    "column" : "attachment_id",
+    "ar" : "مرفق",
+    "en" : "Attachment",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "birthDate",
+    "column" : "birthDate",
+    "ar" : "تاريخ الميلاد",
+    "en" : "Birth date",
+    "type" : "Date"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
+  }, {
+    "id" : "checkDate",
+    "column" : "checkDate",
+    "ar" : "تاريخ الكشف",
+    "en" : "Check Date",
+    "type" : "Date"
+  }, {
+    "id" : "checkTime",
+    "column" : "checkTime",
+    "ar" : "وقت الكشف",
+    "en" : "Check Time",
+    "type" : "Time"
+  }, {
+    "id" : "clinic",
+    "column" : "clinic_id",
+    "ar" : "العيادة",
+    "en" : "Clinic",
+    "type" : "Reference",
+    "refTo" : "HMSClinic",
+    "refPath" : "/modules/hms/HMSClinic.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "companyEndurancePercent",
+    "column" : "companyEndurancePercent",
+    "ar" : "نسبة تحمل الشركة",
+    "en" : "Company Endurance Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "doctor",
+    "column" : "doctor_id",
+    "ar" : "الطبيب",
+    "en" : "Doctor",
+    "type" : "Reference",
+    "refTo" : "HMSDoctor",
+    "refPath" : "/modules/hms/HMSDoctor.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generatedIssueDoc",
+    "columns" : [ "generatedIssueDocActualCode", " generatedIssueDocCode", " generatedIssueDocEntityType", " generatedIssueDocId" ],
+    "ar" : "مستند الصرف المنشأ",
+    "en" : "Generated Issue Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "hmsDocCategory",
+    "column" : "hmsDocCategory_id",
+    "ar" : "تصنيف طبى للمستند",
+    "en" : "Medical Document Category",
+    "type" : "Reference",
+    "refTo" : "HMSDocumentCategory",
+    "refPath" : "/modules/hms/HMSDocumentCategory.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "initialDiagnosis",
+    "column" : "initialDiagnosis",
+    "ar" : "التشخيص المبدئى",
+    "en" : "Initial Diagnosis",
+    "type" : "BigText"
+  }, {
+    "id" : "insuranceClass",
+    "column" : "insuranceClass_id",
+    "ar" : "فئة التأمين",
+    "en" : "Insurance Class",
+    "type" : "Reference",
+    "refTo" : "HMSInsuranceClass",
+    "refPath" : "/modules/hms/HMSInsuranceClass.html"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "ledgerTransReqId",
+    "column" : "ledgerTransReqId",
+    "type" : "ID"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
+  }, {
+    "id" : "medicalInsuranceCompany",
+    "column" : "medicalInsuranceCompany_id",
+    "ar" : "شركة التأمين الطبى",
+    "en" : "Medical Insurance Company",
+    "type" : "Reference",
+    "refTo" : "HMSInsuranceCompany",
+    "refPath" : "/modules/hms/HMSInsuranceCompany.html"
+  }, {
+    "id" : "medicalSpecialty",
+    "column" : "medicalSpecialty_id",
+    "ar" : "التخصص الطبي",
+    "en" : "Medical Specialty",
+    "type" : "Reference",
+    "refTo" : "HMSMedicalSpecialty",
+    "refPath" : "/modules/hms/HMSMedicalSpecialty.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "patient",
+    "column" : "patient_id",
+    "ar" : "المريض",
+    "en" : "Patient",
+    "type" : "Reference",
+    "refTo" : "HMSPatient",
+    "refPath" : "/modules/hms/HMSPatient.html"
+  }, {
+    "id" : "patientAdmission",
+    "column" : "patientAdmission_id",
+    "ar" : "إستمارة دخول المريض",
+    "en" : "Patient Admission",
+    "type" : "Reference",
+    "refTo" : "HMSPatientAdmission",
+    "refPath" : "/modules/hms/HMSPatientAdmission.html"
+  }, {
+    "id" : "patientCheckType",
+    "column" : "patientCheckType",
+    "ar" : "نوع الكشف",
+    "en" : "Check Type",
+    "type" : "Enum",
+    "enum" : "HMSPatientCheckType"
+  }, {
+    "id" : "patientEndurancePercent",
+    "column" : "patientEndurancePercent",
+    "ar" : "نسبة تحمل المريض",
+    "en" : "Patient Endurance Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
+    "id" : "price.additionalHourPrice",
+    "column" : "additionalHourPrice",
+    "ar" : "سعر الساعة الزيادة عن عدد ساعات العملية",
+    "en" : "Additional Hour Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.additionalHours",
+    "column" : "additionalHours",
+    "ar" : "عدد الساعات الزيادة",
+    "en" : "Number Of Additional Hours",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.costPercentage",
+    "column" : "costPercentage",
+    "ar" : "% التكلفة",
+    "en" : "Cost Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.costValue",
+    "column" : "costValue",
+    "ar" : "قيمة التكلفة",
+    "en" : "Cost Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "price.currencyRate",
+    "column" : "currencyRate",
+    "ar" : "المعدل",
+    "en" : "Currency Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount1.maxValue",
+    "column" : "dis1MaxValue",
+    "ar" : "خصم 1 | أقصى قيمة",
+    "en" : "Discount 1 | Max Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount1.percentage",
+    "column" : "dis1Percentage",
+    "ar" : "خصم 1 | %",
+    "en" : "Discount 1 | %",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount1.value",
+    "column" : "dis1Value",
+    "ar" : "خصم 1 | قيمة",
+    "en" : "Discount 1 | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount2.maxValue",
+    "column" : "dis2MaxValue",
+    "ar" : "خصم 2 | أقصى قيمة",
+    "en" : "Discount 2 | Max Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount2.percentage",
+    "column" : "dis2Percentage",
+    "ar" : "خصم 2 | %",
+    "en" : "Discount 2 | %",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount2.value",
+    "column" : "dis2Value",
+    "ar" : "خصم 2 | قيمة",
+    "en" : "Discount 2 | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.insurancMxValFromAdmision",
+    "column" : "insurancMxValFromAdmision",
+    "ar" : "أقصى قيمة للتأمين من سند إستمارة الدخول",
+    "en" : "Insurance Max Value From Admission",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.insurancMxValFromApproval",
+    "column" : "insurancMxValFromApproval",
+    "ar" : "أقصى قيمة للتأمين من سند الموافقة",
+    "en" : "Insurance Max Value From Approval",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.insurancePercentage",
+    "column" : "insurancePercentage",
+    "ar" : "التأمين | %",
+    "en" : "Insurance | Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.insuranceTax1",
+    "column" : "insuranceTax1",
+    "ar" : "التأمين | قيمة ضريبة 1",
+    "en" : "Insurance Tax1 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.insuranceTax2",
+    "column" : "insuranceTax2",
+    "ar" : "التأمين | قيمة ضريبة 2",
+    "en" : "Insurance Tax1 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.insuranceValue",
+    "column" : "insuranceValue",
+    "ar" : "التأمين | قيمة التأمين",
+    "en" : "Insurance Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.netValue",
+    "column" : "netValue",
+    "ar" : "الصافي",
+    "en" : "Net value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.patientPercentage",
+    "column" : "patientPercentage",
+    "ar" : "المريض | %",
+    "en" : "Patient | %",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.patientTax1",
+    "column" : "patientTax1",
+    "ar" : "المريض | قيمة ضريبة 1",
+    "en" : "Patient Tax1 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.patientTax2",
+    "column" : "patientTax2",
+    "ar" : "المريض | قيمة ضريبة 2",
+    "en" : "Patient Tax2 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.patientValue",
+    "column" : "patientValue",
+    "ar" : "المريض | قيمة",
+    "en" : "Patient | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.price",
+    "column" : "price",
+    "ar" : "الأسعار | السعر الكلي",
+    "en" : "Prices | total price",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.priceAfterTax",
+    "column" : "priceAfterTax",
+    "ar" : "السعر بعد الضريبة",
+    "en" : "Price After Tax",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.priceBeforeTax",
+    "column" : "priceBeforeTax",
+    "ar" : "السعر قبل الضريبة",
+    "en" : "Price Before Tax",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.standardHours",
+    "column" : "standardHours",
+    "ar" : "عدد الساعات القياسي",
+    "en" : "Standard Hours Number",
+    "type" : "Time"
+  }, {
+    "id" : "price.standardSurgeryPrice",
+    "column" : "standardSurgeryPrice",
+    "ar" : "سعر العملية القياسي",
+    "en" : "Standard Surgery Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.subsidiary1Percentage",
+    "column" : "subsidiary1Percentage",
+    "ar" : "تكلفة الذمة 1 | نسبة",
+    "en" : "Subsidiary 1 Cost | Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.subsidiary1Value",
+    "column" : "subsidiary1Value",
+    "ar" : "تكلفة الذمة 1 | قيمة",
+    "en" : "Subsidiary 1 Cost | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.subsidiary2Percentage",
+    "column" : "subsidiary2Percentage",
+    "ar" : "تكلفة الذمة 2 | نسبة",
+    "en" : "Subsidiary 2 Cost | Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.subsidiary2Value",
+    "column" : "subsidiary2Value",
+    "ar" : "تكلفة الذمة 2 | قيمة",
+    "en" : "Subsidiary 2 Cost | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.subsidiaryPercentage",
+    "column" : "subsidiaryPercentage",
+    "ar" : "تكلفة الذمة | نسبة",
+    "en" : "Subsidiary Cost | Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.subsidiaryValue",
+    "column" : "subsidiaryValue",
+    "ar" : "تكلفة الذمة | قيمة",
+    "en" : "Subsidiary Cost | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.tax1.maxValue",
+    "column" : "tax1MaxValue",
+    "ar" : "أقصي قيمة",
+    "en" : "Maximum Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.tax1.percentage",
+    "column" : "tax1Percentage",
+    "ar" : "قيمة إضافية 1",
+    "en" : "Tax 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.tax1.value",
+    "column" : "tax1Value",
+    "ar" : "ضريبة مبيعات | القيمة",
+    "en" : "Tax value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.tax2.maxValue",
+    "column" : "tax2MaxValue",
+    "ar" : "أقصي قيمة",
+    "en" : "Maximum Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.tax2.percentage",
+    "column" : "tax2Percentage",
+    "ar" : "قيمة إضافية 2",
+    "en" : "Tax 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.tax2.value",
+    "column" : "tax2Value",
+    "ar" : "ضريبة مبيعات 2 | القيمة",
+    "en" : "Tax 2 | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.totalInsuranceDueAmount",
+    "column" : "totalInsuranceDueAmount",
+    "ar" : "القيمة المستحقة من التأمين",
+    "en" : "Total Insurance Due Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.totalPatientDueAmount",
+    "column" : "totalPatientDueAmount",
+    "ar" : "القيمة المستحقة من المريض",
+    "en" : "Total Patient Due Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.unitPrice",
+    "column" : "unitPrice",
+    "ar" : "سعر الوحدة",
+    "en" : "Prices | Unit price",
+    "type" : "Decimal"
+  }, {
+    "id" : "priceClassifier1",
+    "column" : "priceClassifier1_id",
+    "ar" : "محدد سعر 1",
+    "en" : "Price Classifier 1",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier1",
+    "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+  }, {
+    "id" : "priceClassifier2",
+    "column" : "priceClassifier2_id",
+    "ar" : "محدد سعر 2",
+    "en" : "Price Classifier 2",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier2",
+    "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+  }, {
+    "id" : "priceClassifier3",
+    "column" : "priceClassifier3_id",
+    "ar" : "محدد سعر 3",
+    "en" : "Price Classifier 3",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier3",
+    "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+  }, {
+    "id" : "priceClassifier4",
+    "column" : "priceClassifier4_id",
+    "ar" : "محدد سعر 4",
+    "en" : "Price Classifier 4",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier4",
+    "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+  }, {
+    "id" : "priceClassifier5",
+    "column" : "priceClassifier5_id",
+    "ar" : "محدد سعر 5",
+    "en" : "Price Classifier 5",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier5",
+    "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+  }, {
+    "id" : "pricesTotal.discount1Total",
+    "column" : "discount1Total",
+    "ar" : "إجمالي الخصم",
+    "en" : "Discount Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "pricesTotal.discount2Total",
+    "column" : "discount2Total",
+    "ar" : "إجمالي خصم 2",
+    "en" : "Discount 1 Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "pricesTotal.insuranceDueAmountTotal",
+    "column" : "insuranceDueAmountTotal",
+    "ar" : "إجمالى القيمة المستحقة من التأمين",
+    "en" : "Insurance Due Amount Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "pricesTotal.insuranceTax1Total",
+    "column" : "insuranceTax1Total",
+    "ar" : "إجمالى ضريبة 1 للشركة",
+    "en" : "Insurance Tax 1 Total Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "pricesTotal.insuranceTax2Total",
+    "column" : "insuranceTax2Total",
+    "ar" : "إجمالى ضريبة 2 للشركة",
+    "en" : "Insurance Tax 2 Total Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "pricesTotal.insuranceTotal",
+    "column" : "insuranceTotal",
+    "ar" : "إجمالى الشركة",
+    "en" : "Insurance Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "pricesTotal.patientDueAmountTotal",
+    "column" : "patientDueAmountTotal",
+    "ar" : "إجمالى القيمة المستحقة من المريض",
+    "en" : "Patient Due Amount Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "pricesTotal.patientTax1Total",
+    "column" : "patientTax1Total",
+    "ar" : "إجمالى ضريبة 1 للمريض",
+    "en" : "Patient Tax 1 Total Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "pricesTotal.patientTax2Total",
+    "column" : "patientTax2Total",
+    "ar" : "إجمالى ضريبة 2 للمريض",
+    "en" : "Patient Tax 2 Total Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "pricesTotal.patientTotal",
+    "column" : "patientTotal",
+    "ar" : "إجمالى المريض",
+    "en" : "Patient Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "pricesTotal.tax1Total",
+    "column" : "tax1Total",
+    "ar" : "إجمالي ضريبة 1",
+    "en" : "Tax 1 Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "pricesTotal.tax2Total",
+    "column" : "tax2Total",
+    "ar" : "إجمالي ضريبة 2",
+    "en" : "Tax 2 Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "procedureType",
+    "column" : "procedureType_id",
+    "ar" : "نوع الإجراء",
+    "en" : "Procedure Type",
+    "type" : "Reference",
+    "refTo" : "HMSProcedureType",
+    "refPath" : "/modules/hms/HMSProcedureType.html"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "servicesTotal.discount1Total",
+    "column" : "servDiscount1Total",
+    "ar" : "إجمالي الخصم",
+    "en" : "Discount Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "servicesTotal.discount2Total",
+    "column" : "servDiscount2Total",
+    "ar" : "إجمالي خصم 2",
+    "en" : "Discount 1 Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "servicesTotal.insuranceDueAmountTotal",
+    "column" : "servInsuranceDueAmountTotal",
+    "ar" : "إجمالى القيمة المستحقة من التأمين",
+    "en" : "Insurance Due Amount Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "servicesTotal.insuranceTax1Total",
+    "column" : "servInsuranceTax1Total",
+    "ar" : "إجمالى ضريبة 1 للشركة",
+    "en" : "Insurance Tax 1 Total Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "servicesTotal.insuranceTax2Total",
+    "column" : "servInsuranceTax2Total",
+    "ar" : "إجمالى ضريبة 2 للشركة",
+    "en" : "Insurance Tax 2 Total Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "servicesTotal.insuranceTotal",
+    "column" : "servInsuranceTotal",
+    "ar" : "إجمالى الشركة",
+    "en" : "Insurance Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "servicesTotal.patientDueAmountTotal",
+    "column" : "servPatientDueAmountTotal",
+    "ar" : "إجمالى القيمة المستحقة من المريض",
+    "en" : "Patient Due Amount Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "servicesTotal.patientTax1Total",
+    "column" : "servPatientTax1Total",
+    "ar" : "إجمالى ضريبة 1 للمريض",
+    "en" : "Patient Tax 1 Total Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "servicesTotal.patientTax2Total",
+    "column" : "servPatientTax2Total",
+    "ar" : "إجمالى ضريبة 2 للمريض",
+    "en" : "Patient Tax 2 Total Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "servicesTotal.patientTotal",
+    "column" : "servPatientTotal",
+    "ar" : "إجمالى المريض",
+    "en" : "Patient Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "servicesTotal.tax1Total",
+    "column" : "servTax1Total",
+    "ar" : "إجمالي ضريبة مبيعات 1",
+    "en" : "Tax 1 Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "servicesTotal.tax2Total",
+    "column" : "servTax2Total",
+    "ar" : "إجمالي ضريبة مبيعات 2",
+    "en" : "Tax 2 Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "subsidiary",
+    "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+    "ar" : "الذمة",
+    "en" : "Subsidiary",
+    "type" : "Genericreference"
+  }, {
+    "id" : "subsidiary1",
+    "columns" : [ "subsidiary1ActualCode", " subsidiary1Code", " subsidiary1EntityType", " subsidiary1Id" ],
+    "ar" : "ذمة 1",
+    "en" : "Subsidiary 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "subsidiary2",
+    "columns" : [ "subsidiary2ActualCode", " subsidiary2Code", " subsidiary2EntityType", " subsidiary2Id" ],
+    "ar" : "ذمة 2",
+    "en" : "Subsidiary 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "suppliesTotal.discount1Total",
+    "column" : "supDiscount1Total",
+    "ar" : "إجمالي الخصم",
+    "en" : "Discount Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "suppliesTotal.discount2Total",
+    "column" : "supDiscount2Total",
+    "ar" : "إجمالي خصم 2",
+    "en" : "Discount 1 Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "suppliesTotal.insuranceDueAmountTotal",
+    "column" : "supInsuranceDueAmountTotal",
+    "ar" : "إجمالى القيمة المستحقة من التأمين",
+    "en" : "Insurance Due Amount Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "suppliesTotal.insuranceTax1Total",
+    "column" : "supInsuranceTax1Total",
+    "ar" : "إجمالى ضريبة 1 للشركة",
+    "en" : "Insurance Tax 1 Total Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "suppliesTotal.insuranceTax2Total",
+    "column" : "supInsuranceTax2Total",
+    "ar" : "إجمالى ضريبة 2 للشركة",
+    "en" : "Insurance Tax 2 Total Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "suppliesTotal.insuranceTotal",
+    "column" : "supInsuranceTotal",
+    "ar" : "إجمالى الشركة",
+    "en" : "Insurance Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "suppliesTotal.patientDueAmountTotal",
+    "column" : "supPatientDueAmountTotal",
+    "ar" : "إجمالى القيمة المستحقة من المريض",
+    "en" : "Patient Due Amount Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "suppliesTotal.patientTax1Total",
+    "column" : "supPatientTax1Total",
+    "ar" : "إجمالى ضريبة 1 للمريض",
+    "en" : "Patient Tax 1 Total Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "suppliesTotal.patientTax2Total",
+    "column" : "supPatientTax2Total",
+    "ar" : "إجمالى ضريبة 2 للمريض",
+    "en" : "Patient Tax 2 Total Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "suppliesTotal.patientTotal",
+    "column" : "supPatientTotal",
+    "ar" : "إجمالى المريض",
+    "en" : "Patient Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "suppliesTotal.tax1Total",
+    "column" : "supTax1Total",
+    "ar" : "إجمالي ضريبة مبيعات 1",
+    "en" : "Tax 1 Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "suppliesTotal.tax2Total",
+    "column" : "supTax2Total",
+    "ar" : "إجمالي ضريبة مبيعات 2",
+    "en" : "Tax 2 Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "taxAuthoritySysFields.submissionUUID",
+    "column" : "submissionUUID",
+    "ar" : "معرف مرحلة الارسال",
+    "en" : "Submission ID",
+    "type" : "Text"
+  }, {
+    "id" : "taxAuthoritySysFields.taxAuthEntityStatusType",
+    "column" : "taxAuthEntityStatusType",
+    "ar" : "حالة المستند بالنسبة لمصلحة الضرائب",
+    "en" : "Tax Authority Document Type",
+    "type" : "Enum",
+    "enum" : "TaxAuthorityEntityStatusType"
+  }, {
+    "id" : "taxAuthoritySysFields.taxAuthUUID",
+    "column" : "taxAuthUUID",
+    "ar" : "معرف المستند داخل مصلحة الضرائب",
+    "en" : "Tax Authority Document View ID",
+    "type" : "Text"
+  }, {
+    "id" : "taxAuthoritySysFields.temporaryId",
+    "column" : "temporaryId",
+    "ar" : "معرف لمطالعة المستند بدون تسجيل دخول",
+    "en" : "Tax Authority Not Registered Person Document View ID",
+    "type" : "Text"
+  }, {
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
+    "type" : "BigText"
+  }, {
+    "id" : "totalOverheadActualValue",
+    "column" : "totalOverheadActualValue",
+    "ar" : "إجمالي القيمة الفعلية للتكاليف الغير مباشرة",
+    "en" : "Total Overhead Actual Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalOverheadEstimatedValue",
+    "column" : "totalOverheadEstimatedValue",
+    "ar" : "إجمالي القيمة التقديرية للتكاليف الغير مباشرة",
+    "en" : "Total Overhead Estimated Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "warehouse",
+    "column" : "warehouse_id",
+    "ar" : "المخزن",
+    "en" : "Warehouse",
+    "type" : "Reference",
+    "refTo" : "Warehouse",
+    "refPath" : "/modules/supplychain/Warehouse.html"
+  } ],
+  "details" : [ {
+    "id" : "medicines",
+    "table" : "HMSPatientMedicineLine",
+    "joinColumn" : "hMSPatientCheckInvoice_id",
+    "ar" : "الأدوية",
+    "en" : "Medicines",
+    "fields" : [ {
+      "id" : "medicines.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "medicines.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "medicines.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "medicines.date4",
+      "column" : "date4",
+      "ar" : "تاريخ 4",
+      "en" : "Date4",
+      "type" : "Date"
+    }, {
+      "id" : "medicines.date5",
+      "column" : "date5",
+      "ar" : "تاريخ 5",
+      "en" : "Date5",
+      "type" : "Date"
+    }, {
+      "id" : "medicines.dosage",
+      "column" : "dosage",
+      "ar" : "الجرعة",
+      "en" : "Dosage",
+      "type" : "Text"
+    }, {
+      "id" : "medicines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "medicines.item",
+      "column" : "item_id",
+      "ar" : "الصنف",
+      "en" : "Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "medicines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "medicines.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "medicines.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "medicines.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "medicines.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "medicines.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "medicines.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "medicines.t1",
+      "column" : "t1",
+      "type" : "Time"
+    }, {
+      "id" : "medicines.t2",
+      "column" : "t2",
+      "type" : "Time"
+    }, {
+      "id" : "medicines.t3",
+      "column" : "t3",
+      "type" : "Time"
+    }, {
+      "id" : "medicines.t4",
+      "column" : "t4",
+      "type" : "Time"
+    }, {
+      "id" : "medicines.t5",
+      "column" : "t5",
+      "type" : "Time"
+    }, {
+      "id" : "medicines.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "medicines.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "medicines.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "medicines.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "medicines.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "overheadItems",
+    "table" : "HMSPatientCheckInvoiceOverheadItem",
+    "joinColumn" : "hMSPatientCheckInvoice_id",
+    "ar" : "بنود تكلفة طبية غير مباشرة",
+    "en" : "Overhead Items",
+    "fields" : [ {
+      "id" : "overheadItems.actualValue",
+      "column" : "actualValue",
+      "ar" : "القيمة الفعلية",
+      "en" : "Actual value",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadItems.calculationDoc",
+      "columns" : [ "calculationDocActualCode", " calculationDocCode", " calculationDocEntityType", " calculationDocId" ],
+      "ar" : "سند حساب التكلفة الطبية الغير مباشرة",
+      "en" : "Actual Overhead Calculation Document",
+      "type" : "Genericreference"
+    }, {
+      "id" : "overheadItems.estimatedValue",
+      "column" : "estimatedValue",
+      "ar" : "القيمة المقدرة",
+      "en" : "Estimated Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadItems.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "overheadItems.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "overheadItems.manualEstimatedValue",
+      "column" : "manualEstimatedValue",
+      "ar" : "القيمة التقديرية يدوي",
+      "en" : "Manual Estimated Value",
+      "type" : "Boolean"
+    }, {
+      "id" : "overheadItems.overheadItem",
+      "column" : "overheadItem_id",
+      "ar" : "بند تكلفة طبية غير مباشرة",
+      "en" : "Overhead Item",
+      "type" : "Reference",
+      "refTo" : "HMSOverheadItem",
+      "refPath" : "/modules/hms/HMSOverheadItem.html"
+    } ]
+  } ]
+}

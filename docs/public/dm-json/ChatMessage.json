@@ -1,0 +1,89 @@
+{
+  "entity" : "ChatMessage",
+  "table" : "ChatMessage",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ChatMessage.html",
+  "fields" : [ {
+    "id" : "attachment",
+    "column" : "attachment_id",
+    "ar" : "مرفق",
+    "en" : "Attachment",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "conversationId",
+    "column" : "conversationId",
+    "type" : "ID"
+  }, {
+    "id" : "deletedBySender",
+    "column" : "deletedBySender",
+    "type" : "Boolean"
+  }, {
+    "id" : "deliveredAt",
+    "column" : "deliveredAt",
+    "ar" : "وقت الوصول",
+    "en" : "Delivered At",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "editedAt",
+    "column" : "editedAt",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "isDeleted",
+    "column" : "isDeleted",
+    "type" : "Boolean"
+  }, {
+    "id" : "isEdited",
+    "column" : "isEdited",
+    "type" : "Boolean"
+  }, {
+    "id" : "isSystemMessage",
+    "column" : "isSystemMessage",
+    "type" : "Boolean"
+  }, {
+    "id" : "mentionedRecord",
+    "columns" : [ "mentionedRecordActualCode", " mentionedRecordCode", " mentionedRecordEntityType", " mentionedRecordId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "messageContent",
+    "column" : "messageContent",
+    "type" : "BigText"
+  }, {
+    "id" : "messageType",
+    "column" : "messageType",
+    "ar" : "Message Type",
+    "en" : "Message Type",
+    "type" : "Enum",
+    "enum" : "ChatMessageType"
+  }, {
+    "id" : "readAt",
+    "column" : "readAt",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "replyToMessageId",
+    "column" : "replyToMessageId",
+    "type" : "ID"
+  }, {
+    "id" : "sender",
+    "columns" : [ "senderActualCode", " senderCode", " senderEntityType", " senderId" ],
+    "ar" : "المرسل",
+    "en" : "Sender",
+    "type" : "Genericreference"
+  }, {
+    "id" : "sentAt",
+    "column" : "sentAt",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "ChatMessageStatus"
+  } ]
+}

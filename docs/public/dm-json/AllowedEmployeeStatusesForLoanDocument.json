@@ -1,0 +1,18 @@
+{
+  "entity" : "AllowedEmployeeStatusesForLoanDocument",
+  "table" : "AllowedEmployeeStatusesForLoanDocument",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AllowedEmployeeStatusesForLoanDocument.html",
+  "fields" : [ {
+    "id" : "employeeState",
+    "column" : "employeeState",
+    "ar" : "حالة الموظف",
+    "en" : "Employee State",
+    "type" : "Enum",
+    "enum" : "EmployeeState"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

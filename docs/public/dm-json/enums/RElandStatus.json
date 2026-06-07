@@ -1,0 +1,20 @@
+{
+  "enum" : "RElandStatus",
+  "values" : [ {
+    "id" : "Avaliable",
+    "ar" : "متاح",
+    "en" : "Avaliable"
+  }, {
+    "id" : "Reserved",
+    "ar" : "محجوز",
+    "en" : "Reserved"
+  }, {
+    "id" : "Sold",
+    "ar" : "مباعة",
+    "en" : "Sold"
+  }, {
+    "id" : "UnAvaliable",
+    "ar" : "غير متاح",
+    "en" : "Un Avaliable"
+  } ]
+}

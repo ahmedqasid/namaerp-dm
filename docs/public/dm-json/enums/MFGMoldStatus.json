@@ -1,0 +1,16 @@
+{
+  "enum" : "MFGMoldStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Running",
+    "ar" : "تحت التشغيل",
+    "en" : "Running"
+  }, {
+    "id" : "Disposed",
+    "ar" : "تم التخلص منه",
+    "en" : "Disposed"
+  } ]
+}

@@ -1,0 +1,28 @@
+{
+  "enum" : "JRLineSpacing",
+  "values" : [ {
+    "id" : "Single",
+    "ar" : "أعزب",
+    "en" : "Single"
+  }, {
+    "id" : "OneAndHalf",
+    "ar" : "One And Half",
+    "en" : "One And Half"
+  }, {
+    "id" : "Double",
+    "ar" : "Double",
+    "en" : "Double"
+  }, {
+    "id" : "AtLeast",
+    "ar" : "At Least",
+    "en" : "At Least"
+  }, {
+    "id" : "Fixed",
+    "ar" : "ثابت",
+    "en" : "Fixed"
+  }, {
+    "id" : "Proportional",
+    "ar" : "Proportional",
+    "en" : "Proportional"
+  } ]
+}

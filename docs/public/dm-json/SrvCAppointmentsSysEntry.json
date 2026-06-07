@@ -1,0 +1,71 @@
+{
+  "entity" : "SrvCAppointmentsSysEntry",
+  "table" : "SrvCAppointmentsSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SrvCAppointmentsSysEntry.html",
+  "fields" : [ {
+    "id" : "availableEngineers",
+    "column" : "availableEngineers",
+    "type" : "Integer"
+  }, {
+    "id" : "availableHours",
+    "column" : "availableHours",
+    "ar" : "الساعات المتاحة",
+    "en" : "Available Hours",
+    "type" : "Decimal"
+  }, {
+    "id" : "fullyReserved",
+    "column" : "fullyReserved",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "receptionAverageTime",
+    "column" : "receptionAverageTime",
+    "ar" : "متوسط مدة الاستقبال",
+    "en" : "Reception Average Time",
+    "type" : "Time"
+  }, {
+    "id" : "receptionEndTime",
+    "column" : "receptionEndTime",
+    "ar" : "وقت انتهاء الاستقبال",
+    "en" : "Reception End Time",
+    "type" : "Time"
+  }, {
+    "id" : "receptionStartTime",
+    "column" : "receptionStartTime",
+    "ar" : "وقت بدء الاستقبال",
+    "en" : "Reception Start Time",
+    "type" : "Time"
+  }, {
+    "id" : "remainingHours",
+    "column" : "remainingHours",
+    "ar" : "الساعات المتبقة",
+    "en" : "Remaining Hours",
+    "type" : "Decimal"
+  }, {
+    "id" : "reservationDate",
+    "column" : "reservationDate",
+    "ar" : "تاريخ الحجز",
+    "en" : "Reservation Date",
+    "type" : "Date"
+  }, {
+    "id" : "reservedHours",
+    "column" : "reservedHours",
+    "type" : "Decimal"
+  }, {
+    "id" : "tableId",
+    "column" : "tableId",
+    "type" : "ID"
+  }, {
+    "id" : "workCenter",
+    "column" : "workCenter_id",
+    "ar" : "صالة الإنتاج",
+    "en" : "Work Center",
+    "type" : "Reference",
+    "refTo" : "SrvCWorkCenter",
+    "refPath" : "/modules/srvcenter/SrvCWorkCenter.html"
+  } ]
+}

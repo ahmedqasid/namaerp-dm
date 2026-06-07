@@ -1,0 +1,55 @@
+{
+  "entity" : "POSReadQueue",
+  "table" : "POSReadQueue",
+  "module" : "system-tables",
+  "ar" : "رسائل بيانات نما",
+  "en" : "POS Read Queue",
+  "page" : "https://dm.namasoft.com/modules/system-tables/POSReadQueue.html",
+  "fields" : [ {
+    "id" : "entityCode",
+    "column" : "entityCode",
+    "ar" : " الكود",
+    "en" : " Code",
+    "type" : "Text"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "eventType",
+    "column" : "eventType",
+    "ar" : "نوع الحدث",
+    "en" : "Event Type",
+    "type" : "Text"
+  }, {
+    "id" : "failRegisters",
+    "column" : "failRegisters",
+    "ar" : "الماكينات التي فشل النقل اليها",
+    "en" : "Failed to Transfer to Registers",
+    "type" : "BigText"
+  }, {
+    "id" : "failedInSomeRegister",
+    "column" : "failedInSomeRegister",
+    "ar" : "فشل في بعض الماكينات",
+    "en" : "Failed In Some Registers",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "onTime",
+    "column" : "onTime",
+    "ar" : "الوقت",
+    "en" : "Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "successRegisters",
+    "column" : "successRegisters",
+    "ar" : "الماكينات التي تم نقله اليها",
+    "en" : "Transfered to Registers",
+    "type" : "BigText"
+  } ]
+}

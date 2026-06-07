@@ -1,0 +1,12 @@
+{
+  "enum" : "IPSReceptaclesReceiptActionType",
+  "values" : [ {
+    "id" : "Receipt",
+    "ar" : "استلام",
+    "en" : "Receipt"
+  }, {
+    "id" : "ReceiptAndOpening",
+    "ar" : "استلام وفتح",
+    "en" : "Receipt And Opening"
+  } ]
+}

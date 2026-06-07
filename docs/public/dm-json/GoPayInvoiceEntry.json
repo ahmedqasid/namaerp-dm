@@ -1,0 +1,81 @@
+{
+  "entity" : "GoPayInvoiceEntry",
+  "table" : "GoPayInvoiceEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/GoPayInvoiceEntry.html",
+  "fields" : [ {
+    "id" : "billNumber",
+    "column" : "billNumber",
+    "ar" : "رقم الفاتورة",
+    "en" : "BillNumber",
+    "type" : "Text"
+  }, {
+    "id" : "config",
+    "column" : "config_id",
+    "type" : "Reference",
+    "refTo" : "GoPayConfiguration",
+    "refPath" : "/modules/basic-go-pay-ksa/GoPayConfiguration.html"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "expireDate",
+    "column" : "expireDate",
+    "ar" : "تاريخ انتهاء الصلاحية",
+    "en" : "Expire Date",
+    "type" : "Date"
+  }, {
+    "id" : "goPayAccount",
+    "columns" : [ "goPayAccountActualCode", " goPayAccountCode", " goPayAccountEntityType", " goPayAccountId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "invoice",
+    "columns" : [ "invoiceActualCode", " invoiceCode", " invoiceEntityType", " invoiceId" ],
+    "ar" : "الفاتورة",
+    "en" : "Invoice",
+    "type" : "Genericreference"
+  }, {
+    "id" : "partialPayment",
+    "column" : "partialPayment",
+    "ar" : "السماح بالدفع الجزئي",
+    "en" : "Partial Payment",
+    "type" : "Boolean"
+  }, {
+    "id" : "remaining",
+    "column" : "remaining",
+    "ar" : "المتبقي",
+    "en" : "Remaining",
+    "type" : "Decimal"
+  }, {
+    "id" : "sadadNumber",
+    "column" : "sadadNumber",
+    "ar" : "رقم سداد",
+    "en" : "SADAD Number",
+    "type" : "Text"
+  }, {
+    "id" : "totalAmount",
+    "column" : "totalAmount",
+    "ar" : "إجمالي المبلغ",
+    "en" : "Total Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalPaidAmount",
+    "column" : "totalPaidAmount",
+    "ar" : "إجمالي المدفوع",
+    "en" : "Total Paid",
+    "type" : "Decimal"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

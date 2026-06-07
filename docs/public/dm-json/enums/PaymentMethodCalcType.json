@@ -1,0 +1,12 @@
+{
+  "enum" : "PaymentMethodCalcType",
+  "values" : [ {
+    "id" : "PaymentGrid",
+    "ar" : "من تفاصيل الدفع",
+    "en" : "From Payment Grid"
+  }, {
+    "id" : "SiteHeader",
+    "ar" : "من رأس موقع ماجنتو",
+    "en" : "From Site Header"
+  } ]
+}

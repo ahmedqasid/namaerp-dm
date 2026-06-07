@@ -1,0 +1,12 @@
+{
+  "enum" : "UpdateInfoType",
+  "values" : [ {
+    "id" : "AddNew",
+    "ar" : "إضافة جديد",
+    "en" : "Add New"
+  }, {
+    "id" : "UpdateExisting",
+    "ar" : "تحديث الموجود",
+    "en" : "Update Existing"
+  } ]
+}

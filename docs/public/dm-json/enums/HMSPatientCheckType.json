@@ -1,0 +1,12 @@
+{
+  "enum" : "HMSPatientCheckType",
+  "values" : [ {
+    "id" : "OutPatientCheck",
+    "ar" : "عيادات خارجية",
+    "en" : "OutPatient Clinic"
+  }, {
+    "id" : "InPatientCheck",
+    "ar" : "عيادات داخلية",
+    "en" : "InPatient Clinic"
+  } ]
+}

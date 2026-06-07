@@ -1,0 +1,29 @@
+{
+  "entity" : "EReceiptSubmissionSysEntry",
+  "table" : "EReceiptSubmissionSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EReceiptSubmissionSysEntry.html",
+  "fields" : [ {
+    "id" : "configId",
+    "column" : "configId",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lastReceiptUUID",
+    "column" : "lastReceiptUUID",
+    "type" : "Text"
+  }, {
+    "id" : "lastReturnReceiptUUID",
+    "column" : "lastReturnReceiptUUID",
+    "type" : "Text"
+  }, {
+    "id" : "posSerialNumber",
+    "column" : "posSerialNumber",
+    "ar" : "POS Serial Number",
+    "en" : "POS Serial Number",
+    "type" : "Text"
+  } ]
+}

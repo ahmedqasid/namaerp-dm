@@ -1,0 +1,12 @@
+{
+  "enum" : "TerminationSectionType",
+  "values" : [ {
+    "id" : "MonthsAllowance",
+    "ar" : "شرائح عدد شهور استحقاق نهاية الخدمة",
+    "en" : "Months Allowance"
+  }, {
+    "id" : "Termination",
+    "ar" : "شرائح استحقاق نهاية الخدمة",
+    "en" : "Termination"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "PaymentMethodType",
+  "values" : [ {
+    "id" : "PaymentMethod",
+    "ar" : "طريقة دفع",
+    "en" : "Payment Method"
+  }, {
+    "id" : "Credit",
+    "ar" : "آجل",
+    "en" : "Credit"
+  }, {
+    "id" : "Cash",
+    "ar" : "كاش",
+    "en" : "Cash"
+  } ]
+}

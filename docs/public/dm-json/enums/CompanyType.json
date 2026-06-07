@@ -1,0 +1,20 @@
+{
+  "enum" : "CompanyType",
+  "values" : [ {
+    "id" : "Government",
+    "ar" : "جهة حكومية",
+    "en" : "Government"
+  }, {
+    "id" : "PrivateSector",
+    "ar" : "قطاع خاص",
+    "en" : "Private Sector"
+  }, {
+    "id" : "Individual",
+    "ar" : "فرد",
+    "en" : "Individual"
+  }, {
+    "id" : "Foreigner",
+    "ar" : "اجنبي",
+    "en" : "Foreigner"
+  } ]
+}

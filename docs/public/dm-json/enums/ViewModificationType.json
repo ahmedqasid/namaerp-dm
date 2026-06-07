@@ -1,0 +1,12 @@
+{
+  "enum" : "ViewModificationType",
+  "values" : [ {
+    "id" : "OverrideExisting",
+    "ar" : "تعديل (حذف الموجود سابقاً وإضافة ما يتم تحديده فقط)",
+    "en" : "Override Existing (Remove Existing)"
+  }, {
+    "id" : "AddToExisting",
+    "ar" : "إضافة إلى الموجود سابقاً",
+    "en" : "Add To Existing"
+  } ]
+}

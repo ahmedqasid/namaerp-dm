@@ -1,0 +1,28 @@
+{
+  "enum" : "StudentProgramType",
+  "values" : [ {
+    "id" : "MorningProgram",
+    "ar" : "البرنامج الصباحي",
+    "en" : "Morning Program"
+  }, {
+    "id" : "EveningProgram",
+    "ar" : "البرنامج المسائي",
+    "en" : "Evening Program"
+  }, {
+    "id" : "SportActivities",
+    "ar" : "أنشطة رياضية",
+    "en" : "Sport Activities"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  } ]
+}

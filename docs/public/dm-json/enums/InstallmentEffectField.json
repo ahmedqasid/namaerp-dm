@@ -1,0 +1,20 @@
+{
+  "enum" : "InstallmentEffectField",
+  "values" : [ {
+    "id" : "RequestedCollect",
+    "ar" : "مطلوب تحصيله",
+    "en" : "Requested Collect"
+  }, {
+    "id" : "CollectedByFP",
+    "ar" : "محصل باوراق تجارية",
+    "en" : "Collected By Commercial Paper"
+  }, {
+    "id" : "SystemPaid",
+    "ar" : "محصلة نظاميا",
+    "en" : "System Paid"
+  }, {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  } ]
+}

@@ -1,0 +1,61 @@
+{
+  "entity" : "BlockTree",
+  "table" : "BlockTree",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/BlockTree.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "idStr",
+    "column" : "idStr",
+    "type" : "Text"
+  }, {
+    "id" : "level",
+    "column" : "level",
+    "ar" : "المستوى",
+    "en" : "Level",
+    "type" : "Integer"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "node",
+    "columns" : [ "nodeActualCode", " nodeCode", " nodeEntityType", " nodeId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "parentId",
+    "column" : "parentId",
+    "ar" : "Parent ID",
+    "en" : "Parent ID",
+    "type" : "ID"
+  }, {
+    "id" : "parentPath",
+    "column" : "parentPath",
+    "type" : "Text"
+  }, {
+    "id" : "parentType",
+    "column" : "parentType",
+    "type" : "EntityType"
+  }, {
+    "id" : "prefix",
+    "column" : "prefix",
+    "ar" : "بادئة التكويد",
+    "en" : "Prefix",
+    "type" : "Text"
+  } ]
+}

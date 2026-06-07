@@ -1,0 +1,20 @@
+{
+  "enum" : "FingerPrintException",
+  "values" : [ {
+    "id" : "CheckInException",
+    "ar" : "الإستثناء من الحضور",
+    "en" : "Check In Exception"
+  }, {
+    "id" : "CheckOutException",
+    "ar" : "الإستثناء من الانصراف",
+    "en" : "Check Out Exception"
+  }, {
+    "id" : "CheckInAndCheckOutException",
+    "ar" : "الإستثناء من الحضور والانصراف",
+    "en" : "Check In And Check Out Exception"
+  }, {
+    "id" : "NONE",
+    "ar" : "بدون",
+    "en" : "NONE"
+  } ]
+}

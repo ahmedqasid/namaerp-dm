@@ -1,0 +1,1000 @@
+{
+  "entity" : "POS.POSRegistery",
+  "table" : "POSRegistery",
+  "module" : "pos-app",
+  "ar" : "ماكينة",
+  "arPlural" : "ماكينات",
+  "en" : "Register",
+  "enPlural" : "Registers",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSRegistery.html",
+  "fields" : [ {
+    "id" : "addDeliveryItemAutomaticallyInInv",
+    "column" : "addDeliveryItemAutomaticallyInInv",
+    "ar" : "إضافة صنف خدمة التوصيل تِلْقائيًا في الفاتورة",
+    "en" : "Add Delivery Item Automatically In Invoice",
+    "type" : "Text"
+  }, {
+    "id" : "addDeliveryItemByInvoiceClassification",
+    "column" : "addDeliveryItemByInvoiceClassification",
+    "ar" : "إضافة صنف التوصيل تلقائياً عند اختيار تصنيف الفاتورة",
+    "en" : "Automatically Add Delivery Item When Selecting Invoice Classification",
+    "type" : "Text"
+  }, {
+    "id" : "addDeliveryItemWithCustomer",
+    "column" : "addDeliveryItemWithCustomer",
+    "ar" : "إضافة صنف خدمة التوصيل مع اختيار عميل",
+    "en" : "Add Delivery Item When Selecting Customer",
+    "type" : "Text"
+  }, {
+    "id" : "addMinChargeItemByInvClassification",
+    "column" : "addMinChargeItemByInvClassification",
+    "ar" : "إضافة صنف الحد الأدنى تلقائياً عند اختيار تصنيف الفاتورة",
+    "en" : "Automatically Add Minimum Charge Item When Selecting Invoice Classification",
+    "type" : "Text"
+  }, {
+    "id" : "addServiceItemAutomaticallyInInv",
+    "column" : "addServiceItemAutomaticallyInInv",
+    "ar" : "إضافة صنف الخدمة السياحية تِلْقائيًا في الفاتورة",
+    "en" : "Add Service Item Automatically In Invoice",
+    "type" : "Text"
+  }, {
+    "id" : "addServiceItemByInvClassification",
+    "column" : "addServiceItemByInvClassification",
+    "ar" : "إضافة صنف الخدمة السياحية تلقائياً عند اختيار تصنيف الفاتورة",
+    "en" : "Automatically Add Service Item When Selecting Invoice Classification",
+    "type" : "Text"
+  }, {
+    "id" : "addServiceItemWhenSelectingTable",
+    "column" : "addServiceItemWhenSelectingTable",
+    "ar" : "إضافة صنف الخدمة السياحية تلقائياً عند اختيار طاولة",
+    "en" : "Automatically Add Service Item When Selecting Table",
+    "type" : "Text"
+  }, {
+    "id" : "allowCustomerToOverpayByNonCash",
+    "column" : "allowCustomerToOverpayByNonCash",
+    "ar" : "السماح للعميل بالدفع بأكثر من صافي الفاتورة بطرق دفع غير نقدية",
+    "en" : "Allow Customer To Overpay Invoice By Non-Cash Methods",
+    "type" : "Text"
+  }, {
+    "id" : "alwaysPrintFullInvoice",
+    "column" : "alwaysPrintFullInvoice",
+    "ar" : "طباعة الفاتورة الكامله دائماً",
+    "en" : "Always Print Full Invoice",
+    "type" : "Boolean"
+  }, {
+    "id" : "availableInMobileApp",
+    "column" : "availableInMobileApp",
+    "ar" : "متاح للاستخدام في تطبيق الموبايل",
+    "en" : "Available In Mobile Application",
+    "type" : "Boolean"
+  }, {
+    "id" : "callCenterMode",
+    "column" : "callCenterMode",
+    "ar" : "وضع خدمة العملاء",
+    "en" : "Call Center Mode",
+    "type" : "Boolean"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "codeDatePartFormat",
+    "column" : "codeDatePartFormat",
+    "type" : "Text"
+  }, {
+    "id" : "collectPayMethodsByGroup",
+    "column" : "collectPayMethodsByGroup",
+    "ar" : "تجميع طرق الدفع بالمجموعه",
+    "en" : "Collect Payment Methods By Group",
+    "type" : "Boolean"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currencyId",
+    "column" : "currencyId",
+    "type" : "ID"
+  }, {
+    "id" : "currentRegister",
+    "column" : "currentRegister",
+    "type" : "Boolean"
+  }, {
+    "id" : "customPriceQuery",
+    "column" : "customPriceQuery",
+    "ar" : "استعلام حساب السعر (الوعاء) المخصص",
+    "en" : "Custom Price Query",
+    "type" : "Text"
+  }, {
+    "id" : "defaultPaySubsidiaryType",
+    "column" : "defaultPaySubsidiaryType",
+    "ar" : "صرف الي الافتراضي بسند المصروف",
+    "en" : "Default Pay To In Payments",
+    "type" : "Text"
+  }, {
+    "id" : "defaultRecSubsidiaryType",
+    "column" : "defaultRecSubsidiaryType",
+    "ar" : "قبض من الافتراضي بسند المقبوض",
+    "en" : "Default Receipt From In Receipts",
+    "type" : "Text"
+  }, {
+    "id" : "defaultsTemplate",
+    "column" : "defaultsTemplate_id",
+    "ar" : "قالب القيم الافتراضية",
+    "en" : "Default Values Template",
+    "type" : "Reference",
+    "refTo" : "POS.PosDefaultsTemplate",
+    "refPath" : "/modules/pos-app/POS.PosDefaultsTemplate.html"
+  }, {
+    "id" : "deliveryCost",
+    "column" : "deliveryCost_id",
+    "ar" : "تكلفة التوصيل",
+    "en" : "Delivery Cost",
+    "type" : "Reference",
+    "refTo" : "POS.PosDeliveryCost",
+    "refPath" : "/modules/pos-app/POS.PosDeliveryCost.html"
+  }, {
+    "id" : "deliveryItem",
+    "column" : "deliveryItem_id",
+    "ar" : "صنف خدمة التوصيل",
+    "en" : "Delivery Item",
+    "type" : "Reference",
+    "refTo" : "POS.POSItem",
+    "refPath" : "/modules/pos-app/POS.POSItem.html"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "doNotDisplayReturnedLinesWhenSelectingInv",
+    "column" : "doNotDisplayReturnedLinesWhenSelectingInv",
+    "ar" : "عدم عرض السطور المردودة عند أختيار الفاتورة",
+    "en" : "Do Not Display Returned Lines When Selecting Invoice",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotPrintNormalWithFullForm",
+    "column" : "doNotPrintNormalWithFullForm",
+    "ar" : "عدم طباعه النموذج العادي في حالة طباعه النموذج الكامل",
+    "en" : "Do Not Print Normal Form With Printing Full Form",
+    "type" : "Boolean"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "POS.PosDocCategory",
+    "refPath" : "/modules/pos-app/POS.PosDocCategory.html"
+  }, {
+    "id" : "documentsPrintCount",
+    "column" : "documentsPrintCount",
+    "ar" : "عدد مرات طباعه المستندات في كل أمر طباعه",
+    "en" : "Documents Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "downloadLatestRelease",
+    "column" : "downloadLatestRelease",
+    "ar" : "تحميل اخر اصدار",
+    "en" : "Download Latest Release",
+    "type" : "Boolean"
+  }, {
+    "id" : "extraFilters",
+    "column" : "extraFilters_id",
+    "ar" : "Extra Filters",
+    "en" : "Extra Filters",
+    "type" : "Reference",
+    "refTo" : "POS.POSExtraFilter",
+    "refPath" : "/modules/pos-app/POS.POSExtraFilter.html"
+  }, {
+    "id" : "favouriteItemsQuery",
+    "column" : "favouriteItemsQuery",
+    "ar" : "استعلام الأصناف المفضله",
+    "en" : "Favourite Items Query",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "inActive",
+    "column" : "inActive",
+    "ar" : "غير نشط",
+    "en" : "Inactive",
+    "type" : "Boolean"
+  }, {
+    "id" : "invoiceClassification",
+    "column" : "invoiceClassification_id",
+    "ar" : "تصنيف الفاتورة",
+    "en" : "Invoice Classification",
+    "type" : "Reference",
+    "refTo" : "POS.POSInvoiceClassification",
+    "refPath" : "/modules/pos-app/POS.POSInvoiceClassification.html"
+  }, {
+    "id" : "itemBarcodeParserId",
+    "column" : "itemBarcodeParserId",
+    "type" : "ID"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "linesCollectionMethod",
+    "column" : "linesCollectionMethod",
+    "ar" : "طريقة تجميع كميات سطور المبيعات",
+    "en" : "Sales Lines Collection Method",
+    "type" : "Text"
+  }, {
+    "id" : "location",
+    "column" : "location_id",
+    "ar" : "الموقع المخزني",
+    "en" : "Location",
+    "type" : "Reference",
+    "refTo" : "POS.POSLocation",
+    "refPath" : "/modules/pos-app/POS.POSLocation.html"
+  }, {
+    "id" : "logo",
+    "column" : "logo",
+    "ar" : "الشعار",
+    "en" : "Logo",
+    "type" : ""
+  }, {
+    "id" : "machineIpAddress",
+    "column" : "machineIpAddress",
+    "ar" : "عنوان الآي بي للماكينه",
+    "en" : "Machine IP Address",
+    "type" : "Text"
+  }, {
+    "id" : "machinePort",
+    "column" : "machinePort",
+    "ar" : "رقم منفذ الماكينه",
+    "en" : "Machine Port",
+    "type" : "Integer"
+  }, {
+    "id" : "maxFractionDiscountValue",
+    "column" : "maxFractionDiscountValue",
+    "ar" : "اقصي قيمة مسموحه لخصم الكسور",
+    "en" : "Max Fraction Discount Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "minChargeCalcType",
+    "column" : "minChargeCalcType",
+    "ar" : "الحد الأدنى للطلب يحسب من",
+    "en" : "Minimum Charge Calculation Type",
+    "type" : "Text"
+  }, {
+    "id" : "minChargeItem",
+    "column" : "minChargeItem_id",
+    "ar" : "صنف الحد الأدنى للطلب",
+    "en" : "Minimum Charge Item",
+    "type" : "Reference",
+    "refTo" : "POS.POSItem",
+    "refPath" : "/modules/pos-app/POS.POSItem.html"
+  }, {
+    "id" : "minChargeSettings",
+    "column" : "minChargeSettings_id",
+    "ar" : " إعدادات الحد الأدنى للطلب في نقاط البيع",
+    "en" : " Pos Minimum Charge Settings",
+    "type" : "Reference",
+    "refTo" : "POS.PosMinCharge",
+    "refPath" : "/modules/pos-app/POS.PosMinCharge.html"
+  }, {
+    "id" : "mobileUISettings",
+    "column" : "mobileUISettings_id",
+    "ar" : " إعدادات واجهة نقاط البيع للموبايل",
+    "en" : " Pos Mobile UI Settings",
+    "type" : "Reference",
+    "refTo" : "POS.PosMobileUISettings",
+    "refPath" : "/modules/pos-app/POS.PosMobileUISettings.html"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "openDrawerCmd",
+    "column" : "openDrawerCmd",
+    "ar" : "أمر فتح الدرج",
+    "en" : "Open Cash Drawer Command",
+    "type" : "Text"
+  }, {
+    "id" : "paymentMethodsSettings",
+    "column" : "paymentMethodsSettings",
+    "ar" : "إعدادات طرق الدفع",
+    "en" : "Payment Methods Settings",
+    "type" : "ID"
+  }, {
+    "id" : "paymentTerminal",
+    "column" : "paymentTerminal_id",
+    "ar" : "Payment Terminal",
+    "en" : "Payment Terminal",
+    "type" : "Reference",
+    "refTo" : "POS.PosPaymentTerminal",
+    "refPath" : "/modules/pos-app/POS.PosPaymentTerminal.html"
+  }, {
+    "id" : "posItemQtyUpdateConfigId",
+    "column" : "posItemQtyUpdateConfigId",
+    "type" : "ID"
+  }, {
+    "id" : "posPoleDisplaySpecs",
+    "column" : "posPoleDisplaySpecs_id",
+    "type" : "Reference",
+    "refTo" : "POS.PosPoleDisplaySpecs",
+    "refPath" : "/modules/pos-app/POS.PosPoleDisplaySpecs.html"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "priceListDefaultPrice",
+    "column" : "priceListDefaultPrice",
+    "ar" : "السعر الافتراضي في قائمة الأسعار",
+    "en" : "Price List Default Price",
+    "type" : "Text"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "printPrepFormWithDelayPay",
+    "column" : "printPrepFormWithDelayPay",
+    "ar" : "طباعة فورمة تحضير الاوردر مع تأجيل الدفع",
+    "en" : "Print Preparation Form With Payment Delay",
+    "type" : "Text"
+  }, {
+    "id" : "printPrepFormWithHold",
+    "column" : "printPrepFormWithHold",
+    "ar" : "طباعة فورمة تحضير الاوردر مع تعليق الفاتوره",
+    "en" : "Print Preparation Form With Hold",
+    "type" : "Text"
+  }, {
+    "id" : "printPrepFormWithPayment",
+    "column" : "printPrepFormWithPayment",
+    "ar" : "طباعة فورمة تحضير الاوردر مع الدفع",
+    "en" : "Print Preparation Form With Payment",
+    "type" : "Text"
+  }, {
+    "id" : "printerName",
+    "column" : "printerName",
+    "ar" : "إسم الطابعه",
+    "en" : "Printer Name",
+    "type" : "Text"
+  }, {
+    "id" : "reSendPOSDataToNama",
+    "column" : "reSendPOSDataToNama",
+    "ar" : "إعادة إرسال بيانات نقاط البيع الي نما",
+    "en" : "Resend POS Data To Nama",
+    "type" : "Boolean"
+  }, {
+    "id" : "readOnlineOrdersFromCallCenter",
+    "column" : "readOnlineOrdersFromCallCenter",
+    "ar" : "قراءة الطلبات من مركز خدمة العملاء",
+    "en" : "Read Orders From Call Center",
+    "type" : "Boolean"
+  }, {
+    "id" : "ref1UUID",
+    "column" : "ref1UUID",
+    "type" : "ID"
+  }, {
+    "id" : "ref2UUID",
+    "column" : "ref2UUID",
+    "type" : "ID"
+  }, {
+    "id" : "ref3UUID",
+    "column" : "ref3UUID",
+    "type" : "ID"
+  }, {
+    "id" : "ref4UUID",
+    "column" : "ref4UUID",
+    "type" : "ID"
+  }, {
+    "id" : "ref5UUID",
+    "column" : "ref5UUID",
+    "type" : "ID"
+  }, {
+    "id" : "registerLoginTitle",
+    "column" : "registerLoginTitle",
+    "ar" : "عنوان الدخول للماكينه",
+    "en" : "Register Login Title",
+    "type" : "Text"
+  }, {
+    "id" : "removeDocsAfter",
+    "column" : "removeDocsAfter",
+    "type" : "Integer"
+  }, {
+    "id" : "replaceWithIn",
+    "column" : "replaceWithIn",
+    "ar" : "إستبدال خلال (بالأيام)",
+    "en" : "Replace WithIn (In Days)",
+    "type" : "Integer"
+  }, {
+    "id" : "returnInvoicesWithIn",
+    "column" : "returnInvoicesWithIn",
+    "ar" : "ارتجاع الفواتير في خلال (بالأيام)",
+    "en" : "Return Invoices With In (In days)",
+    "type" : "Integer"
+  }, {
+    "id" : "rewardPointConfig",
+    "column" : "rewardPointConfig_id",
+    "type" : "Reference",
+    "refTo" : "POS.POSRewardPointConfig",
+    "refPath" : "/modules/pos-app/POS.POSRewardPointConfig.html"
+  }, {
+    "id" : "savingSettings",
+    "column" : "savingSettings_id",
+    "type" : "Reference",
+    "refTo" : "POS.POSSavingSettings",
+    "refPath" : "/modules/pos-app/POS.POSSavingSettings.html"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "serviceChargeItem",
+    "column" : "serviceChargeItem_id",
+    "type" : "Reference",
+    "refTo" : "POS.POSItem",
+    "refPath" : "/modules/pos-app/POS.POSItem.html"
+  }, {
+    "id" : "serviceChargePercent",
+    "column" : "serviceChargePercent",
+    "type" : "Decimal"
+  }, {
+    "id" : "serviceChargeSettings",
+    "column" : "serviceChargeSettings_id",
+    "ar" : " إعدادات الخدمة السياحية في نقاط البيع",
+    "en" : " POS Service Charge Settings",
+    "type" : "Reference",
+    "refTo" : "POS.POSServiceChargeSettings",
+    "refPath" : "/modules/pos-app/POS.POSServiceChargeSettings.html"
+  }, {
+    "id" : "serviceItemCalcType",
+    "column" : "serviceItemCalcType",
+    "type" : "Text"
+  }, {
+    "id" : "shortcuts",
+    "column" : "shortcuts",
+    "ar" : " الاختصارات",
+    "en" : " ShortCuts",
+    "type" : "ID"
+  }, {
+    "id" : "showFavoritesWithNoNextLevels",
+    "column" : "showFavoritesWithNoNextLevels",
+    "ar" : "اظهار المفضلات التي ليس تحتها مستويات أخرى",
+    "en" : "Show Favourites With No Next Levels",
+    "type" : "Boolean"
+  }, {
+    "id" : "subRegisterForCaptainOrder",
+    "column" : "subRegisterForCaptainOrder",
+    "ar" : "ماكينة فرعية لكابتن أوردر",
+    "en" : "Subordinate Register For Captain Order",
+    "type" : "Boolean"
+  }, {
+    "id" : "textCondition1",
+    "column" : "textCondition1",
+    "ar" : "شرط نصي 1",
+    "en" : "Text Condition 1",
+    "type" : "Text"
+  }, {
+    "id" : "textCondition2",
+    "column" : "textCondition2",
+    "ar" : "شرط نصي 2",
+    "en" : "Text Condition 2",
+    "type" : "Text"
+  }, {
+    "id" : "textCondition3",
+    "column" : "textCondition3",
+    "ar" : "شرط نصي 3",
+    "en" : "Text Condition 3",
+    "type" : "Text"
+  }, {
+    "id" : "textCondition4",
+    "column" : "textCondition4",
+    "ar" : "شرط نصي 4",
+    "en" : "Text Condition 4",
+    "type" : "Text"
+  }, {
+    "id" : "textCondition5",
+    "column" : "textCondition5",
+    "ar" : "شرط نصي 5",
+    "en" : "Text Condition 5",
+    "type" : "Text"
+  }, {
+    "id" : "trackInvoiceRemovedLines",
+    "column" : "trackInvoiceRemovedLines",
+    "ar" : "حفظ السطور المحذوفة من الفاتورة",
+    "en" : "Track Invoice Removed Lines",
+    "type" : "Text"
+  }, {
+    "id" : "uiSettings",
+    "column" : "uiSettings_id",
+    "ar" : "إعدادات واجهة نقاط البيع الجديده",
+    "en" : "Pos UI Settings",
+    "type" : "Reference",
+    "refTo" : "POS.PosUISettings",
+    "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+  }, {
+    "id" : "useFavouritesColorCodeAsBG",
+    "column" : "useFavouritesColorCodeAsBG",
+    "ar" : "استخدام الوان المفضلات كخلفيه",
+    "en" : "Use Favourites Color Code As Background",
+    "type" : "Boolean"
+  }, {
+    "id" : "warehouse",
+    "column" : "warehouse_id",
+    "ar" : "المخزن",
+    "en" : "Warehouse",
+    "type" : "Reference",
+    "refTo" : "POS.POSWarehouse",
+    "refPath" : "/modules/pos-app/POS.POSWarehouse.html"
+  }, {
+    "id" : "workShiftTime",
+    "column" : "workShiftTime",
+    "ar" : "وقت وردية العمل",
+    "en" : "Work Shift Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ],
+  "details" : [ {
+    "id" : "allowedUsers",
+    "table" : "POSRegistery_POSRegisteryUserLine",
+    "joinColumn" : "POSRegistery_id",
+    "ar" : "المستخدمين المسموح لهم",
+    "en" : "Allowed Users",
+    "fields" : [ {
+      "id" : "allowedUsers.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "allowedUsers.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "contacts",
+    "table" : "POSRegistery_POSRegisterContactInfoLine",
+    "joinColumn" : "POSRegistery_id",
+    "ar" : "جهات الاتصال",
+    "en" : "Contacts",
+    "fields" : [ {
+      "id" : "contacts.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "contacts.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "currencies",
+    "table" : "POSRegisteryCurrecyLine",
+    "joinColumn" : "register_id",
+    "ar" : "العملات",
+    "en" : "Currencies",
+    "fields" : [ {
+      "id" : "currencies.currency",
+      "column" : "currency_id",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Reference",
+      "refTo" : "POS.POSCurrency",
+      "refPath" : "/modules/pos-app/POS.POSCurrency.html"
+    }, {
+      "id" : "currencies.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "currencies.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "currencies.register",
+      "column" : "register_id",
+      "ar" : "الماكينة",
+      "en" : "Register",
+      "type" : "Reference",
+      "refTo" : "POS.POSRegistery",
+      "refPath" : "/modules/pos-app/POS.POSRegistery.html"
+    } ]
+  }, {
+    "id" : "docsCodingParams",
+    "table" : "POSRegisteryCodingParam",
+    "joinColumn" : "register_id",
+    "ar" : "تكويد مستندات نقاط البيع",
+    "en" : "Documents Coding Params",
+    "fields" : [ {
+      "id" : "docsCodingParams.codeDatePartFormat",
+      "column" : "codeDatePartFormat",
+      "type" : "Text"
+    }, {
+      "id" : "docsCodingParams.doNotUseDefaultPrefix",
+      "column" : "doNotUseDefaultPrefix",
+      "ar" : "عدم استخدام بادئة التكويد الافتراضية",
+      "en" : "Do Not Use Default Prefix",
+      "type" : "Boolean"
+    }, {
+      "id" : "docsCodingParams.doNotUseRegisterCode",
+      "column" : "doNotUseRegisterCode",
+      "ar" : "عدم استخدام كود الماكينة في التكويد",
+      "en" : "Do Not Use Register Code In Document Code",
+      "type" : "Boolean"
+    }, {
+      "id" : "docsCodingParams.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "docsCodingParams.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "docsCodingParams.perfix",
+      "column" : "perfix",
+      "type" : "Text"
+    }, {
+      "id" : "docsCodingParams.register",
+      "column" : "register_id",
+      "ar" : "الماكينة",
+      "en" : "Register",
+      "type" : "Reference",
+      "refTo" : "POS.POSRegistery",
+      "refPath" : "/modules/pos-app/POS.POSRegistery.html"
+    }, {
+      "id" : "docsCodingParams.startFrom",
+      "column" : "startFrom",
+      "ar" : "يبدأ",
+      "en" : "Start From",
+      "type" : "Integer"
+    }, {
+      "id" : "docsCodingParams.type",
+      "column" : "type",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "favouriteDocs",
+    "table" : "POSRegisteryFavouriteDocLine",
+    "joinColumn" : "register_id",
+    "ar" : "المستندات المفضله",
+    "en" : "Favourite Documents",
+    "fields" : [ {
+      "id" : "favouriteDocs.btnArabicTitle",
+      "column" : "btnArabicTitle",
+      "ar" : "عنوان الزر العربي",
+      "en" : "Button Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "favouriteDocs.btnEnglishTitle",
+      "column" : "btnEnglishTitle",
+      "ar" : "عنوان الزر الإنجليزي",
+      "en" : "Button English Title",
+      "type" : "Text"
+    }, {
+      "id" : "favouriteDocs.docCategory",
+      "column" : "docCategory_id",
+      "ar" : " تصنيف سجل",
+      "en" : " Record Category",
+      "type" : "Reference",
+      "refTo" : "POS.PosDocCategory",
+      "refPath" : "/modules/pos-app/POS.PosDocCategory.html"
+    }, {
+      "id" : "favouriteDocs.entityType",
+      "column" : "entityType",
+      "ar" : "النوع",
+      "en" : "Entity Type",
+      "type" : "Text"
+    }, {
+      "id" : "favouriteDocs.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "favouriteDocs.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "favouriteDocs.register",
+      "column" : "register_id",
+      "ar" : "الماكينة",
+      "en" : "Register",
+      "type" : "Reference",
+      "refTo" : "POS.POSRegistery",
+      "refPath" : "/modules/pos-app/POS.POSRegistery.html"
+    } ]
+  }, {
+    "id" : "favouriteLines",
+    "table" : "POSRegisteryFavouriteLine",
+    "joinColumn" : "register_id",
+    "fields" : [ {
+      "id" : "favouriteLines.favouritesLevel1EntityType",
+      "column" : "favouritesLevel1EntityType",
+      "type" : "Text"
+    }, {
+      "id" : "favouriteLines.favouritesLevel1Id",
+      "column" : "favouritesLevel1Id",
+      "type" : "ID"
+    }, {
+      "id" : "favouriteLines.favouritesLevel2",
+      "column" : "favouritesLevel2",
+      "ar" : "المستوي 2",
+      "en" : "Favourites Level 2",
+      "type" : "Text"
+    }, {
+      "id" : "favouriteLines.favouritesLevel3",
+      "column" : "favouritesLevel3",
+      "ar" : "المستوي 3",
+      "en" : "Favourites Level 3",
+      "type" : "Text"
+    }, {
+      "id" : "favouriteLines.favouritesLevel4",
+      "column" : "favouritesLevel4",
+      "ar" : "المستوي 4",
+      "en" : "Favourites Level 4",
+      "type" : "Text"
+    }, {
+      "id" : "favouriteLines.favouritesLevel5",
+      "column" : "favouritesLevel5",
+      "ar" : "المستوي 5",
+      "en" : "Favourites Level 5",
+      "type" : "Text"
+    }, {
+      "id" : "favouriteLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "favouriteLines.item",
+      "column" : "item_id",
+      "ar" : "الصنف",
+      "en" : "Item",
+      "type" : "Reference",
+      "refTo" : "POS.POSItem",
+      "refPath" : "/modules/pos-app/POS.POSItem.html"
+    }, {
+      "id" : "favouriteLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "favouriteLines.register",
+      "column" : "register_id",
+      "ar" : "الماكينة",
+      "en" : "Register",
+      "type" : "Reference",
+      "refTo" : "POS.POSRegistery",
+      "refPath" : "/modules/pos-app/POS.POSRegistery.html"
+    } ]
+  }, {
+    "id" : "fixedFavouriteLines",
+    "table" : "POSRegistery_POSRegisteryFixedFavouriteLine",
+    "joinColumn" : "POSRegistery_id",
+    "fields" : [ {
+      "id" : "fixedFavouriteLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "fixedFavouriteLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "paymentMethods",
+    "table" : "POSRegisteryMethodLine",
+    "joinColumn" : "register_id",
+    "ar" : "طرق الدفع",
+    "en" : "Payment Methods",
+    "fields" : [ {
+      "id" : "paymentMethods.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "paymentMethods.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "paymentMethods.paymentMethod",
+      "column" : "paymentMethod_id",
+      "ar" : "طريقة الدفع",
+      "en" : " Payment Method",
+      "type" : "Reference",
+      "refTo" : "POS.POSPaymentMethod",
+      "refPath" : "/modules/pos-app/POS.POSPaymentMethod.html"
+    }, {
+      "id" : "paymentMethods.register",
+      "column" : "register_id",
+      "ar" : "الماكينة",
+      "en" : "Register",
+      "type" : "Reference",
+      "refTo" : "POS.POSRegistery",
+      "refPath" : "/modules/pos-app/POS.POSRegistery.html"
+    }, {
+      "id" : "paymentMethods.showInAdditionalMethods",
+      "column" : "showInAdditionalMethods",
+      "ar" : "عرض في طرق الدفع الإضافية",
+      "en" : "Show In Additional Methods",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "tableLines",
+    "table" : "POSHallTableLine",
+    "joinColumn" : "register_id",
+    "fields" : [ {
+      "id" : "tableLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "tableLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "tableLines.posHall",
+      "column" : "posHall_id",
+      "type" : "Reference",
+      "refTo" : "POS.POSHall",
+      "refPath" : "/modules/pos-app/POS.POSHall.html"
+    }, {
+      "id" : "tableLines.posTable",
+      "column" : "posTable_id",
+      "ar" : "طاولة نقاط البيع",
+      "en" : "POS Table",
+      "type" : "Reference",
+      "refTo" : "POS.POSTable",
+      "refPath" : "/modules/pos-app/POS.POSTable.html"
+    }, {
+      "id" : "tableLines.register",
+      "column" : "register_id",
+      "ar" : "الماكينة",
+      "en" : "Register",
+      "type" : "Reference",
+      "refTo" : "POS.POSRegistery",
+      "refPath" : "/modules/pos-app/POS.POSRegistery.html"
+    } ]
+  }, {
+    "id" : "takenElementsPerShiftLines",
+    "table" : "POSTakenElementsPerShiftLine",
+    "joinColumn" : "register_id",
+    "ar" : "العناصر المجرودة مع كل وردية",
+    "en" : "Taken Elements Per Shift Lines",
+    "fields" : [ {
+      "id" : "takenElementsPerShiftLines.description",
+      "column" : "description",
+      "ar" : "الوصف",
+      "en" : "Description",
+      "type" : "Text"
+    }, {
+      "id" : "takenElementsPerShiftLines.element.code",
+      "column" : "code",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "takenElementsPerShiftLines.element.namaEntityType",
+      "column" : "namaEntityType",
+      "type" : "Text"
+    }, {
+      "id" : "takenElementsPerShiftLines.element.namaGenRefId",
+      "column" : "namaGenRefId",
+      "type" : "ID"
+    }, {
+      "id" : "takenElementsPerShiftLines.element.name1",
+      "column" : "name1",
+      "ar" : "الاسم العربي",
+      "en" : "Name1",
+      "type" : "Text"
+    }, {
+      "id" : "takenElementsPerShiftLines.element.name2",
+      "column" : "name2",
+      "ar" : "الاسم الإنجليزي",
+      "en" : "Name2",
+      "type" : "Text"
+    }, {
+      "id" : "takenElementsPerShiftLines.entityType",
+      "column" : "entityType",
+      "ar" : "النوع",
+      "en" : "Entity Type",
+      "type" : "Text"
+    }, {
+      "id" : "takenElementsPerShiftLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "takenElementsPerShiftLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  } ]
+}

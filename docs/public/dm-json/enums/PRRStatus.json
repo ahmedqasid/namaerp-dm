@@ -1,0 +1,12 @@
+{
+  "enum" : "PRRStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Processed",
+    "ar" : "تمت معالجته",
+    "en" : "Processed"
+  } ]
+}

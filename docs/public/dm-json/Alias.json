@@ -1,0 +1,33 @@
+{
+  "entity" : "Alias",
+  "table" : "Alias",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/Alias.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntityId",
+    "type" : "ID"
+  }, {
+    "id" : "ownerId",
+    "column" : "ownerId",
+    "ar" : "رقم هوية المالك",
+    "en" : "Owner Number",
+    "type" : "ID"
+  } ]
+}

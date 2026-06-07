@@ -1,0 +1,12 @@
+{
+  "enum" : "TreasuryBillState",
+  "values" : [ {
+    "id" : "Closed",
+    "ar" : "مغلقة",
+    "en" : "Closed"
+  }, {
+    "id" : "Running",
+    "ar" : "جارى",
+    "en" : "Running"
+  } ]
+}

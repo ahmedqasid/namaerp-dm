@@ -1,0 +1,1252 @@
+{
+  "entity" : "SalaryDocument",
+  "table" : "SalaryDocument",
+  "module" : "humanresource-payroll",
+  "ar" : "سند الراتب",
+  "arPlural" : "سندات الرواتب",
+  "en" : "Salary Document",
+  "enPlural" : "Salary Documents",
+  "page" : "https://dm.namasoft.com/modules/humanresource-payroll/SalaryDocument.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "blocked",
+    "column" : "blocked",
+    "ar" : "محجوب",
+    "en" : "Blocked",
+    "type" : "Boolean"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "currencyRate",
+    "column" : "currencyRate",
+    "ar" : "المعدل",
+    "en" : "Currency Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentMonthPenalties",
+    "column" : "currentMonthPenalties",
+    "ar" : "جزاءات الشهر الحالي",
+    "en" : "Current Month Penalties",
+    "type" : "Decimal"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
+    "id" : "doNotPayLoans",
+    "column" : "doNotPayLoans",
+    "ar" : "عدم دفع السلف في السند",
+    "en" : "Do Not Pay Loans",
+    "type" : "Boolean"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "employeeFiringDoc",
+    "column" : "employeeFiringDoc",
+    "ar" : "اخر سند راتب للموظف قبل انهاء الخدمة",
+    "en" : "Last Salary Doc for Employee before Firing",
+    "type" : "Boolean"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "fixedInsuranceBasisTotal",
+    "column" : "fixedInsuranceBasisTotal",
+    "ar" : "إجمالي وعاء التأمينات الثابتة",
+    "en" : "Fixed Insurance Basis Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "hasMoreThanOneUpdate",
+    "column" : "hasMoreThanOneUpdate",
+    "ar" : "لها اكثر من سند تحديث بيانات في الفترة",
+    "en" : "Has More Than One Update Doc in Period",
+    "type" : "Boolean"
+  }, {
+    "id" : "hasPV",
+    "column" : "hasPV",
+    "type" : "Boolean"
+  }, {
+    "id" : "hrCalendar",
+    "column" : "hrCalendar_id",
+    "ar" : "تقويم الرواتب",
+    "en" : "HR Calendar",
+    "type" : "Reference",
+    "refTo" : "HRCalendar",
+    "refPath" : "/modules/humanresource-payroll/HRCalendar.html"
+  }, {
+    "id" : "hrPeriod",
+    "column" : "hrPeriod_id",
+    "ar" : "فترة الرواتب",
+    "en" : "HR Period",
+    "type" : "Reference",
+    "refTo" : "HRPeriod",
+    "refPath" : "/modules/humanresource-payroll/HRPeriod.html"
+  }, {
+    "id" : "hrYear",
+    "column" : "hrYear_id",
+    "ar" : "سنة الرواتب",
+    "en" : "HR Year",
+    "type" : "Reference",
+    "refTo" : "HRYear",
+    "refPath" : "/modules/humanresource-payroll/HRYear.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "issuance",
+    "column" : "issuance_id",
+    "ar" : "الصرفية",
+    "en" : "Issuance",
+    "type" : "Reference",
+    "refTo" : "HRSalaryIssuance",
+    "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "issuedValue",
+    "column" : "issuedValue",
+    "ar" : "ما تم صرفة",
+    "en" : "Issued Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "ledgerTransReqId",
+    "column" : "ledgerTransReqId",
+    "type" : "ID"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "netSalary",
+    "column" : "netSalary",
+    "ar" : "المرتب النهائي",
+    "en" : "Net Salary",
+    "type" : "Decimal"
+  }, {
+    "id" : "noneWorkingDays",
+    "column" : "noneWorkingDays",
+    "ar" : "أيام عدم العمل",
+    "en" : "None Working Days",
+    "type" : "Decimal"
+  }, {
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+  }, {
+    "id" : "paidVacationDays",
+    "column" : "paidVacationDays",
+    "ar" : "أيام أجازات مدفوعة الأجر",
+    "en" : "Paid Vacation Days",
+    "type" : "Decimal"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "partialPeriod",
+    "column" : "partialPeriod",
+    "ar" : "فترة غير مكتملة (جزئية)",
+    "en" : "Partial Period",
+    "type" : "Boolean"
+  }, {
+    "id" : "penaltiesPostponedPrevMonth",
+    "column" : "penaltiesPostponedPrevMonth",
+    "ar" : "الجزاءات المرحلة من الشهر السابق",
+    "en" : "Penalties Postponed From Previous Month",
+    "type" : "Decimal"
+  }, {
+    "id" : "penaltiesPostponedToNextMonth",
+    "column" : "penaltiesPostponedToNextMonth",
+    "ar" : "الجزاءات المرحلة للشهر التالي",
+    "en" : "Penalties Postponed To Next Month",
+    "type" : "Decimal"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "reason",
+    "columns" : [ "reasonActualCode", " reasonCode", " reasonEntityType", " reasonId" ],
+    "ar" : "السبب",
+    "en" : "Reason",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remainingValue",
+    "column" : "remainingValue",
+    "ar" : "المتبقي من الراتب",
+    "en" : "Remaining Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "remarks2",
+    "column" : "remarks2",
+    "ar" : "ملاحظات 2",
+    "en" : "Remarks 2",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "salaryGenerationRange",
+    "column" : "salaryGenerationRange_id",
+    "ar" : "مجال اصدار الرواتب",
+    "en" : "Salary Generation Range",
+    "type" : "Reference",
+    "refTo" : "SalaryGenerationRange",
+    "refPath" : "/modules/humanresource-payroll/SalaryGenerationRange.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "suspensionDaysWithoutSalary",
+    "column" : "suspensionDaysWithoutSalary",
+    "ar" : "أيام إيقاف عن العمل بدون مرتب",
+    "en" : "Suspension Days Without Salary",
+    "type" : "Decimal"
+  }, {
+    "id" : "taxBasisTotal",
+    "column" : "taxBasisTotal",
+    "ar" : "إجمالي وعاء الضريبة",
+    "en" : "Tax Basis Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
+    "type" : "BigText"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  }, {
+    "id" : "totalAdditions",
+    "column" : "totalAdditions",
+    "ar" : "إجمالي الإضافات",
+    "en" : "Total Additions",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalDeductions",
+    "column" : "totalDeductions",
+    "ar" : "إجمالي الإستقطاعات",
+    "en" : "Total Deductions",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalOthers",
+    "column" : "totalOthers",
+    "ar" : "إجمالي الآخري",
+    "en" : "Others Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalPaidInstallments",
+    "column" : "totalPaidInstallments",
+    "ar" : "إجمالي الأقساط المدفوعة",
+    "en" : "Total Paid Installments",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalPenalties",
+    "column" : "totalPenalties",
+    "ar" : "إجمالى الجزاءات",
+    "en" : "Total Penalties",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalRewards",
+    "column" : "totalRewards",
+    "ar" : "إجمالى المكافئات",
+    "en" : "Total Rewards",
+    "type" : "Decimal"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "vacationDaysWithoutSalary",
+    "column" : "vacationDaysWithoutSalary",
+    "ar" : "أيام أجازات بدون مرتب",
+    "en" : "Vacation Days Without Salary",
+    "type" : "Decimal"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "variableInsuranceBasisTotal",
+    "column" : "variableInsuranceBasisTotal",
+    "ar" : "إجمالي وعاء التأمينات المتغيرة",
+    "en" : "Variable Insurance Basis Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "workingDays",
+    "column" : "workingDays",
+    "ar" : "أيام العمل",
+    "en" : "Working Days",
+    "type" : "Decimal"
+  } ],
+  "details" : [ {
+    "id" : "paidInstallments",
+    "table" : "PaidInstallmentLine",
+    "joinColumn" : "salaryDocument_id",
+    "ar" : "الأقساط المدفوعة",
+    "en" : "Paid Installments",
+    "fields" : [ {
+      "id" : "paidInstallments.analysisSet",
+      "column" : "analysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "paidInstallments.branch",
+      "column" : "branch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "paidInstallments.department",
+      "column" : "department_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "paidInstallments.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "paidInstallments.installmentCode",
+      "column" : "installmentCode",
+      "ar" : "كود القسط",
+      "en" : "Installment Code",
+      "type" : "Text"
+    }, {
+      "id" : "paidInstallments.issuance",
+      "column" : "issuance_id",
+      "ar" : "الصرفية",
+      "en" : "Issuance",
+      "type" : "Reference",
+      "refTo" : "HRSalaryIssuance",
+      "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+    }, {
+      "id" : "paidInstallments.legalEntity",
+      "column" : "legalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "paidInstallments.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "paidInstallments.loanDocument",
+      "column" : "loanDocument_id",
+      "ar" : "سند سلفة",
+      "en" : "Loan Document",
+      "type" : "Reference",
+      "refTo" : "HRLoanDocument",
+      "refPath" : "/modules/humanresource-payroll/HRLoanDocument.html"
+    }, {
+      "id" : "paidInstallments.loanEntryId",
+      "column" : "loanEntryId",
+      "type" : "ID"
+    }, {
+      "id" : "paidInstallments.loanType",
+      "column" : "loanType_id",
+      "ar" : " نوع السلفة",
+      "en" : "Loan Type",
+      "type" : "Reference",
+      "refTo" : "HRLoanType",
+      "refPath" : "/modules/humanresource-payroll/HRLoanType.html"
+    }, {
+      "id" : "paidInstallments.paidAmount",
+      "column" : "paidAmount",
+      "ar" : "المبلغ المسدد",
+      "en" : "Paid Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "paidInstallments.paymentDate",
+      "column" : "paymentDate",
+      "ar" : "تاريخ الدفع",
+      "en" : "Payment Date",
+      "type" : "Date"
+    }, {
+      "id" : "paidInstallments.paymentEntryId",
+      "column" : "paymentEntryId",
+      "type" : "ID"
+    }, {
+      "id" : "paidInstallments.paymentValue",
+      "column" : "paymentValue",
+      "ar" : "المبلغ",
+      "en" : "Payment Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "paidInstallments.sector",
+      "column" : "sector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    } ]
+  }, {
+    "id" : "rewardAndPenaltieLines",
+    "table" : "RewardPenaltyLine",
+    "joinColumn" : "salaryDocument_id",
+    "ar" : "المكافأت / الجزاءات",
+    "en" : "Rewards / Penalties",
+    "fields" : [ {
+      "id" : "rewardAndPenaltieLines.addition",
+      "column" : "addition",
+      "ar" : "إضافة",
+      "en" : "Addition",
+      "type" : "Decimal"
+    }, {
+      "id" : "rewardAndPenaltieLines.analysisSet",
+      "column" : "analysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "rewardAndPenaltieLines.baseValue",
+      "column" : "baseValue",
+      "ar" : "القيمة الأصلية",
+      "en" : "Base Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "rewardAndPenaltieLines.branch",
+      "column" : "branch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "rewardAndPenaltieLines.deduction",
+      "column" : "deduction",
+      "ar" : "إستقطاع",
+      "en" : "Deduction",
+      "type" : "Decimal"
+    }, {
+      "id" : "rewardAndPenaltieLines.department",
+      "column" : "department_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "rewardAndPenaltieLines.effectType",
+      "column" : "effectType",
+      "ar" : "نوع التأثير",
+      "en" : "Component Effect Type",
+      "type" : "Enum",
+      "enum" : "SalaryCompEffectType"
+    }, {
+      "id" : "rewardAndPenaltieLines.empWorkPlace",
+      "column" : "empWorkPlace_id",
+      "ar" : "مكان العمل الحالي",
+      "en" : "Current Work Place",
+      "type" : "Reference",
+      "refTo" : "EmpWorkPlace",
+      "refPath" : "/modules/basic/EmpWorkPlace.html"
+    }, {
+      "id" : "rewardAndPenaltieLines.employee",
+      "column" : "employee_id",
+      "ar" : "الموظف",
+      "en" : "Employee",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "rewardAndPenaltieLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "rewardAndPenaltieLines.indicatorValue",
+      "column" : "indicatorValue",
+      "ar" : "قيمة مؤشر الأداء",
+      "en" : "Indicator Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "rewardAndPenaltieLines.issuance",
+      "column" : "issuance_id",
+      "ar" : "الصرفية",
+      "en" : "Issuance",
+      "type" : "Reference",
+      "refTo" : "HRSalaryIssuance",
+      "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+    }, {
+      "id" : "rewardAndPenaltieLines.legalEntity",
+      "column" : "legalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "rewardAndPenaltieLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "rewardAndPenaltieLines.originalValue",
+      "column" : "originalValue",
+      "ar" : "قيمة القسط الأصلية",
+      "en" : "Original Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "rewardAndPenaltieLines.other",
+      "column" : "other",
+      "ar" : "آخري",
+      "en" : "other",
+      "type" : "Decimal"
+    }, {
+      "id" : "rewardAndPenaltieLines.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "rewardAndPenaltieLines.rewardAndPenalty",
+      "column" : "rewardAndPenalty_id",
+      "ar" : " نوع مكافأة / جزاء",
+      "en" : " Reward / Penalty",
+      "type" : "Reference",
+      "refTo" : "RewardAndPenalty",
+      "refPath" : "/modules/humanresource-payroll/RewardAndPenalty.html"
+    }, {
+      "id" : "rewardAndPenaltieLines.sector",
+      "column" : "sector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    }, {
+      "id" : "rewardAndPenaltieLines.valueDate",
+      "column" : "valueDate",
+      "ar" : "التاريخ الفعلي",
+      "en" : "Value Date",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "salaryDocumentLines",
+    "table" : "SalaryDocumentLine",
+    "joinColumn" : "salaryDocument_id",
+    "ar" : "المفردات",
+    "en" : "salary Document Lines",
+    "fields" : [ {
+      "id" : "salaryDocumentLines.addition",
+      "column" : "addition",
+      "ar" : "إضافة",
+      "en" : "Addition",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.analysisSet",
+      "column" : "analysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "salaryDocumentLines.baseValue",
+      "column" : "baseValue",
+      "ar" : "القيمة الأصلية | القيمة",
+      "en" : "Base Value | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.branch",
+      "column" : "branch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "salaryDocumentLines.component",
+      "column" : "component_id",
+      "ar" : "المفرد",
+      "en" : "Component",
+      "type" : "Reference",
+      "refTo" : "SalaryComponent",
+      "refPath" : "/modules/humanresource-payroll/SalaryComponent.html"
+    }, {
+      "id" : "salaryDocumentLines.deduction",
+      "column" : "deduction",
+      "ar" : "إستقطاع",
+      "en" : "Deduction",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.department",
+      "column" : "department_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "salaryDocumentLines.doNotChangeValueWithRegen",
+      "column" : "doNotChangeValueWithRegen",
+      "ar" : "عدم تعديل القيمة مع إعادة الإصدار",
+      "en" : "Do Not Change Value With Regenerate",
+      "type" : "Boolean"
+    }, {
+      "id" : "salaryDocumentLines.effectType",
+      "column" : "effectType",
+      "ar" : "القيمة الأصلية | نوع التأثير",
+      "en" : "Base Value | Effect Type",
+      "type" : "Enum",
+      "enum" : "SalaryCompEffectType"
+    }, {
+      "id" : "salaryDocumentLines.empWorkPlace",
+      "column" : "empWorkPlace_id",
+      "ar" : "مكان العمل الحالي",
+      "en" : "Current Work Place",
+      "type" : "Reference",
+      "refTo" : "EmpWorkPlace",
+      "refPath" : "/modules/basic/EmpWorkPlace.html"
+    }, {
+      "id" : "salaryDocumentLines.employee",
+      "column" : "employee_id",
+      "ar" : "الموظف",
+      "en" : "Employee",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "salaryDocumentLines.fromDate",
+      "column" : "fromDate",
+      "ar" : "من تاريخ",
+      "en" : "From Date",
+      "type" : "Date"
+    }, {
+      "id" : "salaryDocumentLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "salaryDocumentLines.indicatorValue",
+      "column" : "indicatorValue",
+      "ar" : "قيمة مؤشر الأداء",
+      "en" : "Indicator Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.issuance",
+      "column" : "issuance_id",
+      "ar" : "الصرفية",
+      "en" : "Issuance",
+      "type" : "Reference",
+      "refTo" : "HRSalaryIssuance",
+      "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+    }, {
+      "id" : "salaryDocumentLines.legalEntity",
+      "column" : "legalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "salaryDocumentLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "salaryDocumentLines.nonVacationDaysRestDays",
+      "column" : "nonVacationDaysRestDays",
+      "ar" : "Non Vacation Days Rest Days",
+      "en" : "Non Vacation Days Rest Days",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.nonVacationDaysWeekEnd",
+      "column" : "nonVacationDaysWeekEnd",
+      "ar" : "Non Vacation Days WeekEnd",
+      "en" : "Non Vacation Days WeekEnd",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.nonWorkDaysRestDays",
+      "column" : "nonWorkDaysRestDays",
+      "ar" : "Non Work Days Rest Days",
+      "en" : "Non Work Days Rest Days",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.nonWorkDaysWeekEnd",
+      "column" : "nonWorkDaysWeekEnd",
+      "ar" : "Non Work Days Week End",
+      "en" : "Non Work Days Week End",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.originalValue",
+      "column" : "originalValue",
+      "ar" : "قيمة القسط الأصلية",
+      "en" : "Original Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.other",
+      "column" : "other",
+      "ar" : "آخري",
+      "en" : "other",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "salaryDocumentLines.sector",
+      "column" : "sector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    }, {
+      "id" : "salaryDocumentLines.suspensionDays",
+      "column" : "suspensionDays",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.toDate",
+      "column" : "toDate",
+      "ar" : "إلى تاريخ",
+      "en" : "To Date",
+      "type" : "Date"
+    }, {
+      "id" : "salaryDocumentLines.vacationDays",
+      "column" : "vacationDays",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.vacationDaysDeductionValue",
+      "column" : "vacationDaysDeductionValue",
+      "ar" : "قيمة استقطاع أيام الإجازة",
+      "en" : "Vacation Days Deduction Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.vacationDaysRestDays",
+      "column" : "vacationDaysRestDays",
+      "ar" : "Vacation Days Rest Days",
+      "en" : "Vacation Days Rest Days",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.vacationDaysWeekEnd",
+      "column" : "vacationDaysWeekEnd",
+      "ar" : "Vacation Days WeekEnd",
+      "en" : "Vacation Days WeekEnd",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.workDaysRestDays",
+      "column" : "workDaysRestDays",
+      "ar" : "Work Days Rest Days",
+      "en" : "Work Days Rest Days",
+      "type" : "Decimal"
+    }, {
+      "id" : "salaryDocumentLines.workDaysWeekEnd",
+      "column" : "workDaysWeekEnd",
+      "ar" : "Work Days Week End",
+      "en" : "Work Days Week End",
+      "type" : "Decimal"
+    } ]
+  } ]
+}

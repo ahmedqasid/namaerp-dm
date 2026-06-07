@@ -1,0 +1,24 @@
+{
+  "enum" : "StockTakingMissingItems",
+  "values" : [ {
+    "id" : "PreventSave",
+    "ar" : "منع الحفظ",
+    "en" : "Prevent Save"
+  }, {
+    "id" : "AdjustQuantities",
+    "ar" : "تسوية بكمية صفر",
+    "en" : "Adjust Quantities"
+  }, {
+    "id" : "Ignore",
+    "ar" : "تجاهل (عدا المكشوف)",
+    "en" : "Ignore  (Except Overdraft)"
+  }, {
+    "id" : "IgnoreAll",
+    "ar" : "تجاهل الكل (حتى المكشوف)",
+    "en" : "Ignore All  (Including Overdraft)"
+  }, {
+    "id" : "SettleUnmentionedDimensionsWithinMentionedItem",
+    "ar" : "تسوية كل المحددات غير المذكورة داخل الصنف المذكور",
+    "en" : "Settle Unmentioned Dimensions Within Mentioned Item"
+  } ]
+}

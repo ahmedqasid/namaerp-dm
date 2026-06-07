@@ -1,0 +1,90 @@
+{
+  "entity" : "EcommerceWebhookEventProcessReq",
+  "table" : "EcommerceWebhookEventProcessReq",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EcommerceWebhookEventProcessReq.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "ecommerceWebhookRedirect",
+    "column" : "ecommerceWebhookRedirect_id",
+    "type" : "Reference",
+    "refTo" : "EcommerceWebhookRedirect",
+    "refPath" : "/modules/magento-central-webhooks/EcommerceWebhookRedirect.html"
+  }, {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "executionDate",
+    "column" : "executionDate",
+    "ar" : "تاريخ التنفيذ",
+    "en" : "Execution Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "merchantId",
+    "column" : "merchantId",
+    "ar" : "Merchant Id",
+    "en" : "Merchant Id",
+    "type" : "Text"
+  }, {
+    "id" : "orderId",
+    "column" : "orderId",
+    "type" : "Text"
+  }, {
+    "id" : "redirectUrl",
+    "column" : "redirectUrl",
+    "ar" : "Redirect URL",
+    "en" : "Redirect URL",
+    "type" : "Link"
+  }, {
+    "id" : "shipmentId",
+    "column" : "shipmentId",
+    "type" : "Text"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
+    "id" : "submitionDate",
+    "column" : "submitionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Submition Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "trials",
+    "column" : "trials",
+    "ar" : "عدد محاولات",
+    "en" : "Trials",
+    "type" : "Integer"
+  }, {
+    "id" : "webhookBody",
+    "column" : "webhookBody",
+    "ar" : "Webhook Body",
+    "en" : "Webhook Body",
+    "type" : "BigText"
+  }, {
+    "id" : "webhookPayloadSignature",
+    "column" : "webhookPayloadSignature",
+    "type" : "BigText"
+  } ]
+}

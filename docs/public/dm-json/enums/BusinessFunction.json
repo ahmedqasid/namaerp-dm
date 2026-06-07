@@ -1,0 +1,204 @@
+{
+  "enum" : "BusinessFunction",
+  "values" : [ {
+    "id" : "newRecord",
+    "ar" : "إضافة سجل",
+    "en" : "Add Record"
+  }, {
+    "id" : "goToRecord",
+    "ar" : "التوجه إلى سجل",
+    "en" : "Go To Record"
+  }, {
+    "id" : "print",
+    "ar" : "طباعة",
+    "en" : "Print"
+  }, {
+    "id" : "go",
+    "ar" : " العرض بقائمة",
+    "en" : " List View"
+  }, {
+    "id" : "treeView",
+    "ar" : "عرض شجري",
+    "en" : "Tree View"
+  }, {
+    "id" : "resultSettings",
+    "ar" : " أعمدة النتائج",
+    "en" : " Result Columns"
+  }, {
+    "id" : "save",
+    "ar" : "حفظ",
+    "en" : "Save"
+  }, {
+    "id" : "saveAndContinue",
+    "ar" : "حفظ و مواصلة",
+    "en" : "Save And Continue"
+  }, {
+    "id" : "duplicate",
+    "ar" : "نسخة مماثلة",
+    "en" : "Duplicate"
+  }, {
+    "id" : "accept",
+    "ar" : " حفظ مسودة",
+    "en" : " Save Draft"
+  }, {
+    "id" : "approval",
+    "ar" : "موافقة",
+    "en" : "Approval"
+  }, {
+    "id" : "listView",
+    "ar" : "العرض بقائمة",
+    "en" : "List View"
+  }, {
+    "id" : "delete",
+    "ar" : " حذف",
+    "en" : " Delete"
+  }, {
+    "id" : "more",
+    "ar" : "المزيد",
+    "en" : "More"
+  }, {
+    "id" : "refresh",
+    "ar" : " تحديث",
+    "en" : " Refresh"
+  }, {
+    "id" : "first",
+    "ar" : "الأول",
+    "en" : "First"
+  }, {
+    "id" : "last",
+    "ar" : "الأخير",
+    "en" : "Last"
+  }, {
+    "id" : "next",
+    "ar" : "التالي",
+    "en" : "Next"
+  }, {
+    "id" : "previous",
+    "ar" : "السابق",
+    "en" : "Previous"
+  }, {
+    "id" : "generalSearch",
+    "ar" : "بحث",
+    "en" : "Search"
+  }, {
+    "id" : "LogOut",
+    "ar" : "تسجيل خروج",
+    "en" : "Log Out"
+  }, {
+    "id" : "changeLocale",
+    "ar" : "English",
+    "en" : "عربي"
+  }, {
+    "id" : "rowInsert",
+    "ar" : "إدخال سطر",
+    "en" : "Insert Row"
+  }, {
+    "id" : "rowAppend",
+    "ar" : "إضافة سطر",
+    "en" : "Append Row"
+  }, {
+    "id" : "rowDelete",
+    "ar" : "حذف سطر",
+    "en" : "Delete Row"
+  }, {
+    "id" : "rowUp",
+    "ar" : "إلي أعلي",
+    "en" : "Go Up"
+  }, {
+    "id" : "rowDown",
+    "ar" : "إلي أسفل",
+    "en" : "Go Down"
+  }, {
+    "id" : "exportAsPDF",
+    "ar" : " تصدير إلي PDF",
+    "en" : " Export to PDF"
+  }, {
+    "id" : "exportAsDOCX",
+    "ar" : " تصدير إلي مستند ورد",
+    "en" : " Export to Word Document"
+  }, {
+    "id" : "exportAsPPTX",
+    "ar" : " تصدير إلي ملف باور بوينت",
+    "en" : " Export to Power Point"
+  }, {
+    "id" : "exportAsODS",
+    "ar" : " تصدير إلي OpenOffice SpreadSheet",
+    "en" : " Export to OpenOffice SpreadSheet"
+  }, {
+    "id" : "exportAsODT",
+    "ar" : " تصدير إلي OpenOffice Document",
+    "en" : " Export to OpenOffice Document"
+  }, {
+    "id" : "exportAsRTF",
+    "ar" : " تصدير إلي RTF",
+    "en" : " Export to RTF"
+  }, {
+    "id" : "exportAsTXT",
+    "ar" : " تصدير إلي ملف نصي",
+    "en" : " Export to Text File"
+  }, {
+    "id" : "exportAsXLS",
+    "ar" : " تصدير إلي إكسل 2000",
+    "en" : " Export to Excel 2000"
+  }, {
+    "id" : "exportAsXLSX",
+    "ar" : " تصدير إلي إكسل 2007",
+    "en" : " Export to Excel 2007"
+  }, {
+    "id" : "reportZoomIn",
+    "ar" : "تكبير التقرير",
+    "en" : "Zoom In"
+  }, {
+    "id" : "reportZoomOut",
+    "ar" : "تصغير التقرير",
+    "en" : "Zoom Out"
+  }, {
+    "id" : "reportRelaunch",
+    "ar" : "إعادة تشغيل",
+    "en" : "Relaunch"
+  }, {
+    "id" : "revise",
+    "ar" : " مراجعة",
+    "en" : " Revised"
+  }, {
+    "id" : "unrevise",
+    "ar" : " إلغاء المراجعة",
+    "en" : " Unrevise"
+  }, {
+    "id" : "sendEmailWithResult",
+    "ar" : "إرسال بريد إلكترونى بالتقرير",
+    "en" : "Send Email With Report Result"
+  }, {
+    "id" : "showHelpMsgs",
+    "ar" : "إظهار رسائل المساعدة",
+    "en" : "Show Help Messages"
+  }, {
+    "id" : "homePage",
+    "ar" : "الصفحة الرئيسية",
+    "en" : "Home Page"
+  }, {
+    "id" : "printAs",
+    "ar" : "طباعة بصيغة مختلفة",
+    "en" : "Print In Other Format"
+  }, {
+    "id" : "filterAndSort",
+    "ar" : "الفلترة والترتيب",
+    "en" : "Filter And SortAuto"
+  }, {
+    "id" : "autoFitCols",
+    "ar" : "ظبط عرض الأعمدة تلقائيا",
+    "en" : "Auto Fit Columns"
+  }, {
+    "id" : "toggleSortDirection",
+    "ar" : "تغيير اتجاه الترتيب (كليك يمين لاختيار الحقول)",
+    "en" : "Toggle Sort Direction (Right Click to Change Sort Fields)"
+  }, {
+    "id" : "chooseSortFields"
+  }, {
+    "id" : "tooltips",
+    "ar" : "المساعدات السريعة",
+    "en" : "Tooltips"
+  }, {
+    "id" : "askAI"
+  } ]
+}

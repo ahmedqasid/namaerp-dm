@@ -1,0 +1,28 @@
+{
+  "enum" : "OnlinePaymentFieldType",
+  "values" : [ {
+    "id" : "UDF1",
+    "ar" : "UDF1",
+    "en" : "UDF1"
+  }, {
+    "id" : "UDF2",
+    "ar" : "UDF2",
+    "en" : "UDF2"
+  }, {
+    "id" : "UDF3",
+    "ar" : "UDF3",
+    "en" : "UDF3"
+  }, {
+    "id" : "UDF4",
+    "ar" : "UDF4",
+    "en" : "UDF4"
+  }, {
+    "id" : "UDF5",
+    "ar" : "UDF5",
+    "en" : "UDF5"
+  }, {
+    "id" : "CustomerId",
+    "ar" : "Customer ID",
+    "en" : "Customer ID"
+  } ]
+}

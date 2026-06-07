@@ -1,0 +1,20 @@
+{
+  "enum" : "HMSRoomBehavior",
+  "values" : [ {
+    "id" : "WholeDay",
+    "ar" : "باليوم الكامل",
+    "en" : "Whole Day"
+  }, {
+    "id" : "PerHourAlways",
+    "ar" : "بالساعة دائما",
+    "en" : "Per Hour Always"
+  }, {
+    "id" : "PerHourOnTransferOnly",
+    "ar" : "بالساعة مع النقل فقط",
+    "en" : "Per Hour On Transfer Only"
+  }, {
+    "id" : "PerHourOnTransferOnlyExceptExit",
+    "ar" : "بالساعة مع النقل فقط عدا الخروج",
+    "en" : "Per Hour On Transfer Only Except Exit"
+  } ]
+}

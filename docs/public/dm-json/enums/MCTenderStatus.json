@@ -1,0 +1,12 @@
+{
+  "enum" : "MCTenderStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "ReadyForExecution",
+    "ar" : "جاهز للتنفيذ",
+    "en" : "Ready For Execution"
+  } ]
+}

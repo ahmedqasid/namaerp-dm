@@ -1,0 +1,2484 @@
+{
+  "entity" : "MAGMagentoSite",
+  "table" : "MAGMagentoSite",
+  "module" : "magento",
+  "ar" : "Magento Site",
+  "arPlural" : "Magento Sites",
+  "en" : "Magento Site",
+  "enPlural" : "Magento Sites",
+  "page" : "https://dm.namasoft.com/modules/magento/MAGMagentoSite.html",
+  "fields" : [ {
+    "id" : "allowMultipleSKUsPerItemInLinkers",
+    "column" : "allowMultipleSKUsPerItemInLinkers",
+    "ar" : "السماح بأكثر من SKU لنفس الصنف بلمفات الربط",
+    "en" : "Allow Multiple SKUs Per Item In Linkers",
+    "type" : "Boolean"
+  }, {
+    "id" : "amazonMarketplaceId",
+    "column" : "amazonMarketplaceId",
+    "ar" : "معرف السوق في أمازون",
+    "en" : "Amazon Marketplace ID",
+    "type" : "Text"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "authorizationCode",
+    "column" : "authorizationCode",
+    "ar" : "Authorization Code",
+    "en" : "Authorization Code",
+    "type" : "BigText"
+  }, {
+    "id" : "authorizationNumberPath",
+    "column" : "authorizationNumberPath",
+    "ar" : "مسار حقل رقم العملية",
+    "en" : "Authorization Number Path",
+    "type" : "Text"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "calculateSerialsWhenUpdateQuantitiesSameAsEndStock",
+    "column" : "calculateSerialsWhenUpdateQuantitiesSameAsEndStock",
+    "ar" : "حساب الأرقام المُسلسلة مثل طريقة الجرد عند تحديث الكميات",
+    "en" : "Calculate Serials When Update Quantities Same As End Stock",
+    "type" : "Boolean"
+  }, {
+    "id" : "changReqStatusWithDocCommit",
+    "column" : "changReqStatusWithDocCommit",
+    "ar" : "تحديث حالة الطلب في ماجنتو بعد حفظ مستند المبيعات",
+    "en" : "Change Request Status With Sales Document Commit",
+    "type" : "Boolean"
+  }, {
+    "id" : "changeItemStatusWithQty",
+    "column" : "changeItemStatusWithQty",
+    "ar" : "تغيير حالة الصنف مع تغيير الكمية",
+    "en" : "Change Item Status When Quantity Changes",
+    "type" : "Boolean"
+  }, {
+    "id" : "codPaymentMethod",
+    "column" : "codPaymentMethod_id",
+    "ar" : "طريقة الدفع عند الإستلام",
+    "en" : "Cash on delivery Payment Method",
+    "type" : "Reference",
+    "refTo" : "PaymentMethod",
+    "refPath" : "/modules/basic/PaymentMethod.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "colorMetaDataKey",
+    "column" : "colorMetaDataKey",
+    "ar" : "Color Meta Data Key",
+    "en" : "Color Meta Data Key",
+    "type" : "Text"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerActivPercOnUpdate",
+    "column" : "considerActivPercOnUpdate",
+    "ar" : "إعتبار النسبة الفعالة مع التحديث للموقع",
+    "en" : "Consider Active Percentage On Update",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerBoxOnUpdate",
+    "column" : "considerBoxOnUpdate",
+    "ar" : "إعتبار الصندوق مع التحديث للموقع",
+    "en" : "Consider Box On Update",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerColorOnUpdate",
+    "column" : "considerColorOnUpdate",
+    "ar" : "إعتبار اللون مع التحديث للموقع",
+    "en" : "Consider Color On Update",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerInActivPercOnUpdate",
+    "column" : "considerInActivPercOnUpdate",
+    "ar" : "إعتبار النسبة الغير فعالة مع التحديث للموقع",
+    "en" : "Consider In Active Percentage On Update",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerLotIdOnUpdate",
+    "column" : "considerLotIdOnUpdate",
+    "ar" : "إعتبار الشحنة مع التحديث للموقع",
+    "en" : "Consider Lot Id On Update",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerMeasuresOnUpdate",
+    "column" : "considerMeasuresOnUpdate",
+    "ar" : "إعتبار المقاسات مع التحديث للموقع",
+    "en" : "Consider Measures On Update",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerRevisionIdOnUpdate",
+    "column" : "considerRevisionIdOnUpdate",
+    "ar" : "إعتبار الإصدار مع التحديث للموقع",
+    "en" : "Consider Revision Id On Update",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerSecSerialOnUpdate",
+    "column" : "considerSecSerialOnUpdate",
+    "ar" : "إعتبار الرقم المسلسل الثاني مع التحديث للموقع",
+    "en" : "Consider Second Serial On Update",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerSerialOnUpdate",
+    "column" : "considerSerialOnUpdate",
+    "ar" : "إعتبار الرقم المسلسل مع التحديث للموقع",
+    "en" : "Consider Serial On Update",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerSizeOnUpdate",
+    "column" : "considerSizeOnUpdate",
+    "ar" : "إعتبار المقاس مع التحديث للموقع",
+    "en" : "Consider Size On Update",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerSubItemOnUpdate",
+    "column" : "considerSubItemOnUpdate",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerUOMOnUpdate",
+    "column" : "considerUOMOnUpdate",
+    "ar" : "إعتبار وحدة الصنف مع التحديث للموقع",
+    "en" : "Consider Item UOM Percentage On Update",
+    "type" : "Boolean"
+  }, {
+    "id" : "copyFieldMap",
+    "column" : "copyFieldMap",
+    "ar" : "نسخ الي حقول معينة في مستند المبيعات",
+    "en" : "Copy Sales Document Field Map",
+    "type" : "BigText"
+  }, {
+    "id" : "copyLineFieldMap",
+    "column" : "copyLineFieldMap",
+    "ar" : "نسخ الي حقول معينة في سطر المستند",
+    "en" : "Copy Sales Document Line Field Map",
+    "type" : "BigText"
+  }, {
+    "id" : "copyPaymentLineFieldMap",
+    "column" : "copyPaymentLineFieldMap",
+    "ar" : "نسخ حقول سطور الدفع",
+    "en" : "Copy Payment Line Field Map",
+    "type" : "BigText"
+  }, {
+    "id" : "copyToDetailsRemarks",
+    "column" : "copyToDetailsRemarks",
+    "ar" : "نسخ الي ملاحظات السطر(الحقول المعرفة للوصف منفصلة ب (,))",
+    "en" : "Copy To Details Remarks (Keys Seperated By Comma)",
+    "type" : "Text"
+  }, {
+    "id" : "createCustomerIfNotExist",
+    "column" : "createCustomerIfNotExist",
+    "ar" : "إنشاء عميل في حاله عدم وجوده",
+    "en" : "Create Customer If Not Found",
+    "type" : "Boolean"
+  }, {
+    "id" : "createInvoiceForReturnsIfInvoiceNotFound",
+    "column" : "createInvoiceForReturnsIfInvoiceNotFound",
+    "ar" : "إنشاء فاتورة للمرتجعات إذا لم تكن الفاتورة موجودة",
+    "en" : "Create Invoice For Returns If Invoice Not Found",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "customerFieldsMap",
+    "column" : "customerFieldsMap",
+    "ar" : "Customer Fields Map",
+    "en" : "Customer Fields Map",
+    "type" : "BigText"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "datePattern",
+    "column" : "datePattern",
+    "ar" : "Date Pattern",
+    "en" : "Date Pattern",
+    "type" : "Text"
+  }, {
+    "id" : "deliveryServiceItem",
+    "column" : "deliveryServiceItem_id",
+    "ar" : "صنف خدمة الإستلام",
+    "en" : "Delivery Service Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "doNotSaveWebhookOrderWithoutShipment",
+    "column" : "doNotSaveWebhookOrderWithoutShipment",
+    "ar" : "Do Not Save Webhook Order Without Shipment",
+    "en" : "Do Not Save Webhook Order Without Shipment",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotUpdatePricesFromLists",
+    "column" : "doNotUpdatePricesFromLists",
+    "ar" : "عدم تحديث أسعار الأوامر من قوائم الأسعار",
+    "en" : "Do Not Update Prices From Price Lists in Orders",
+    "type" : "Boolean"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "ecommerceGeneratedAppAccessToken",
+    "column" : "ecommerceGeneratedAppAccessToken",
+    "ar" : "Ecommerce Generated Application Access Token",
+    "en" : "Ecommerce Generated Application Access Token",
+    "type" : "Password"
+  }, {
+    "id" : "ecommerceItemIdPath",
+    "column" : "ecommerceItemIdPath",
+    "ar" : "مسار حقل معرف الصنف",
+    "en" : "Ecommerce Item Id Path",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "findFirstCustomer",
+    "column" : "findFirstCustomer",
+    "ar" : "البحث عن أول عميل بالكود (تسمح بوجود تكرار في أكواد العملاء)",
+    "en" : "Find First Customer (Permits Duplicate Customer Codes)",
+    "type" : "Boolean"
+  }, {
+    "id" : "firstAppliedLine",
+    "column" : "firstAppliedLine",
+    "ar" : "أول سطر مطابق",
+    "en" : "First Applied Line",
+    "type" : "Boolean"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "gatewayClientId",
+    "column" : "gatewayClientId",
+    "ar" : "Gateway Client ID",
+    "en" : "Gateway Client ID",
+    "type" : "Text"
+  }, {
+    "id" : "gatewayClientSecret",
+    "column" : "gatewayClientSecret",
+    "ar" : "Gateway Client Secret",
+    "en" : "Gateway Client Secret",
+    "type" : "Password"
+  }, {
+    "id" : "gatewayUrl",
+    "column" : "gatewayUrl",
+    "ar" : "Gateway URL (Server Url)",
+    "en" : "Gateway URL (Server Url)",
+    "type" : "Link"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "giftWrappingServiceItem",
+    "column" : "giftWrappingServiceItem_id",
+    "ar" : "صنف خدمة تغليف",
+    "en" : "Gift Wrapping Service Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "hoursToCacheToken",
+    "column" : "hoursToCacheToken",
+    "ar" : "Hours To Cache Access Token",
+    "en" : "Hours To Cache Access Token",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "ignoreLinesWithParentProd",
+    "column" : "ignoreLinesWithParentProd",
+    "ar" : "تجاهل السطور الناتجة من خلال منتج أعلي",
+    "en" : "Ignore Lines With Parent Product",
+    "type" : "Boolean"
+  }, {
+    "id" : "ignoreMatchedDocsCriteria",
+    "column" : "ignoreMatchedDocsCriteria_id",
+    "ar" : "تجاهل المبيعات المطابقة للمعايير",
+    "en" : "Ignore Matched Documents Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "ignoreMatchedDocsQuery",
+    "column" : "ignoreMatchedDocsQuery",
+    "ar" : "تجاهل المبيعات المطابقة للاستعلام",
+    "en" : "Ignore Matched Documents Query",
+    "type" : "BigText"
+  }, {
+    "id" : "inactive",
+    "column" : "inactive",
+    "ar" : " غير نشط",
+    "en" : " Inactive",
+    "type" : "Boolean"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "integratorName",
+    "column" : "integratorName",
+    "ar" : "Integrator Name",
+    "en" : "Integrator Name",
+    "type" : "Text"
+  }, {
+    "id" : "itemSendQuery",
+    "column" : "itemSendQuery",
+    "ar" : "استعلام إرسال الأصناف",
+    "en" : "Items Send Query",
+    "type" : "BigText"
+  }, {
+    "id" : "lastAccessTokenJSON",
+    "column" : "lastAccessTokenJSON",
+    "ar" : "Last Access Token JSON",
+    "en" : "Last Access Token JSON",
+    "type" : "BigText"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "linkItems",
+    "column" : "linkItems",
+    "ar" : "ربط الأصناف بهذا الموقع",
+    "en" : "Link Items To This Site",
+    "type" : "Boolean"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "magInvoiceCreationCriteria",
+    "column" : "magInvoiceCreationCriteria_id",
+    "ar" : "معايير إنشاء فاتورة ماحنتو",
+    "en" : "Criteria For Magento Invoice Creation",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "magInvoiceCreationQuery",
+    "column" : "magInvoiceCreationQuery",
+    "ar" : "استعلام إنشاء فاتورة ماجنتو",
+    "en" : "Magento Invoice Creation Query",
+    "type" : "BigText"
+  }, {
+    "id" : "magShipCreationCriteria",
+    "column" : "magShipCreationCriteria_id",
+    "ar" : "معايير إنشاء شحن فاتورة ماحنتو",
+    "en" : "Magento Invoice Shipping Creation Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "magShipCreationQuery",
+    "column" : "magShipCreationQuery",
+    "ar" : "استعلام إنشاء شحن فاتورة ماحنتو",
+    "en" : "Magento Invoice Shipping Creation Query",
+    "type" : "BigText"
+  }, {
+    "id" : "magentoItemUnitType",
+    "column" : "magentoItemUnitType",
+    "ar" : "وحدة صنف الموقع",
+    "en" : "Magento Item UOM Type",
+    "type" : "Enum",
+    "enum" : "DefaultUOM"
+  }, {
+    "id" : "magentoPriceType",
+    "column" : "magentoPriceType",
+    "ar" : "نوع السعر",
+    "en" : "Price Type",
+    "type" : "Enum",
+    "enum" : "MagentoPriceType"
+  }, {
+    "id" : "magentoQuantityType",
+    "column" : "magentoQuantityType",
+    "ar" : "حساب الكمية المرسلة لماجنتو",
+    "en" : "Magento Sent Quantity",
+    "type" : "Enum",
+    "enum" : "CalcMagentoQuantityType"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "maxOrdersPerRead",
+    "column" : "maxOrdersPerRead",
+    "ar" : "Max Orders Per Read",
+    "en" : "Max Orders Per Read",
+    "type" : "Integer"
+  }, {
+    "id" : "merchantId",
+    "column" : "merchantId",
+    "ar" : "Merchant Id",
+    "en" : "Merchant Id",
+    "type" : "Text"
+  }, {
+    "id" : "minQtyToSend",
+    "column" : "minQtyToSend",
+    "ar" : "اقل كمية للارسال(قيمة)",
+    "en" : "Minimum Quantity To Send(Value)",
+    "type" : "Decimal"
+  }, {
+    "id" : "minQtyToSendPercent",
+    "column" : "minQtyToSendPercent",
+    "ar" : "أقل كمية للإرسال(نسبة)",
+    "en" : "Minimum Quantity To Send(Percent)",
+    "type" : "Decimal"
+  }, {
+    "id" : "mobileCorrectionQuery",
+    "column" : "mobileCorrectionQuery",
+    "ar" : "Mobile Correction Query",
+    "en" : "Mobile Correction Query",
+    "type" : "BigText"
+  }, {
+    "id" : "modifiedQuantityQuery",
+    "column" : "modifiedQuantityQuery",
+    "ar" : "استعلام تصحيح الكمية (تضاف إلي الكمية المحسوبة)",
+    "en" : "Modified Quantity Query(Added To Calculated Quantity)",
+    "type" : "BigText"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "noErrorIfNoItemMatchesSKU",
+    "column" : "noErrorIfNoItemMatchesSKU",
+    "ar" : "Ignore Error If No Item Matches SKU",
+    "en" : "Ignore Error If No Item Matches SKU",
+    "type" : "Boolean"
+  }, {
+    "id" : "orderComparedStatuses",
+    "column" : "orderComparedStatuses",
+    "ar" : "نقل فقط الأوامر التي حالتها احدي التالي",
+    "en" : "Only Transfer Orders With Status Equal to One of The Following",
+    "type" : "Text"
+  }, {
+    "id" : "orderErrorNotification",
+    "column" : "orderErrorNotification_id",
+    "ar" : "تنبيه حدوث خطأ عند قراءة أمر",
+    "en" : "Order Read Error Notification",
+    "type" : "Reference",
+    "refTo" : "NotificationDefinition",
+    "refPath" : "/modules/basic/NotificationDefinition.html"
+  }, {
+    "id" : "orderInfo.book",
+    "column" : "orderInfoBook_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "orderInfo.fromDiscount1",
+    "column" : "orderInfoFromDiscount1",
+    "ar" : "مصدر خصم 1",
+    "en" : "From Discount1",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "orderInfo.fromDiscount2",
+    "column" : "orderInfoFromDiscount2",
+    "ar" : "مصدر خصم 2",
+    "en" : "From Discount2",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "orderInfo.fromDiscount3",
+    "column" : "orderInfoFromDiscount3",
+    "ar" : "مصدر خصم 3",
+    "en" : "From Discount3",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "orderInfo.fromDiscount4",
+    "column" : "orderInfoFromDiscount4",
+    "ar" : "مصدر خصم 4",
+    "en" : "From Discount4",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "orderInfo.headerFieldsMap",
+    "column" : "orderInfoHeaderFieldsMap",
+    "ar" : "Header Fields Map",
+    "en" : "Header Fields Map",
+    "type" : "BigText"
+  }, {
+    "id" : "orderInfo.importAs",
+    "column" : "orderInfoImportAs",
+    "ar" : "استيراد كـ",
+    "en" : "Import As",
+    "type" : "EntityType"
+  }, {
+    "id" : "orderInfo.lineFieldsMap",
+    "column" : "orderInfoLineFieldsMap",
+    "ar" : "Line Fields Map",
+    "en" : "Line Fields Map",
+    "type" : "BigText"
+  }, {
+    "id" : "orderInfo.term",
+    "column" : "orderInfoTerm_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "orderInfo.toDiscount",
+    "column" : "orderInfoToDiscount",
+    "ar" : "الفرق إلى خصم",
+    "en" : "To Discount",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "originalPriceSource",
+    "column" : "originalPriceSource",
+    "ar" : "مصدر السعر الاساسى",
+    "en" : "Original Price Source",
+    "type" : "Enum",
+    "enum" : "MAGPriceSourceLocation"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "password",
+    "column" : "password",
+    "ar" : "كلمة المرور (Consumer Secret)",
+    "en" : "Password (Consumer Secret)",
+    "type" : "Password"
+  }, {
+    "id" : "paymentMethodCalcType",
+    "column" : "paymentMethodCalcType",
+    "ar" : "طريقة حساب طرق الدفع بماجنتو",
+    "en" : "Payment Method Calculate Type",
+    "type" : "Enum",
+    "enum" : "PaymentMethodCalcType"
+  }, {
+    "id" : "paymentMethodNameFieldId",
+    "column" : "paymentMethodNameFieldId",
+    "ar" : "Payment Method Name Field ID",
+    "en" : "Payment Method Name Field ID",
+    "type" : "Text"
+  }, {
+    "id" : "paymentMethodTypeFieldId",
+    "column" : "paymentMethodTypeFieldId",
+    "ar" : "Payment Method Name Type ID",
+    "en" : "Payment Method Name Type ID",
+    "type" : "Text"
+  }, {
+    "id" : "posRegister",
+    "columns" : [ "posRegisterActualCode", " posRegisterCode", " posRegisterEntityType", " posRegisterId" ],
+    "ar" : "POS Register",
+    "en" : "POS Register",
+    "type" : "Genericreference"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "pseudoInvoiceFieldsMapForCalculatingPrice",
+    "column" : "pseudoInvoiceFieldsMapForCalculatingPrice",
+    "ar" : "Pseudo Invoice Fields Map",
+    "en" : "Pseudo Invoice Fields Map",
+    "type" : "BigText"
+  }, {
+    "id" : "pullWebhookEventsFromGateway",
+    "column" : "pullWebhookEventsFromGateway",
+    "ar" : "Pull Webhook Events From Gateway",
+    "en" : "Pull Webhook Events From Gateway",
+    "type" : "Boolean"
+  }, {
+    "id" : "putCouponDiscountTo",
+    "column" : "putCouponDiscountTo",
+    "ar" : "وضع خصم الكوبون إلي خصم (نسبة)",
+    "en" : "Put Coupon Discount To (Percent)",
+    "type" : "Enum",
+    "enum" : "DiscountLocationWithHeader"
+  }, {
+    "id" : "putHeaderDiscountInLineDiscount",
+    "column" : "putHeaderDiscountInLineDiscount",
+    "ar" : "نقل خصم الهيدر الي خصم السطور",
+    "en" : "Put Header Discount In Line Discount",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "putLinesDiscount2To",
+    "column" : "putLinesDiscount2To",
+    "ar" : "وضع خصم السطور 2 إلي (نسبة)",
+    "en" : "Put Lines Discount 2 To (Percent)",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "putLinesDiscountTo",
+    "column" : "putLinesDiscountTo",
+    "ar" : "وضع خصم السطور إلي (نسبة)",
+    "en" : "Put Lines Discount To (Percent)",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "putSKUInOrderDetailsItemCode",
+    "column" : "putSKUInOrderDetailsItemCode",
+    "ar" : "Put SKU In Order Details Item Code",
+    "en" : "Put SKU In Order Details Item Code",
+    "type" : "Boolean"
+  }, {
+    "id" : "quantityToSendType",
+    "column" : "quantityToSendType",
+    "ar" : "إرسال الكمية ب (عندما تكون اقل من  اقل كمية للإرسال او تساويها)",
+    "en" : "Send Quantity (If Quantity is less than minimum quantity to send)",
+    "type" : "Enum",
+    "enum" : "QuantityToSendType"
+  }, {
+    "id" : "readItemSpecsWithOrder",
+    "column" : "readItemSpecsWithOrder",
+    "ar" : "قراءة مواصفات الصنف مع قراءة الأمر",
+    "en" : "Read Item Specifications With Order",
+    "type" : "Boolean"
+  }, {
+    "id" : "readOrdersFromDate",
+    "column" : "readOrdersFromDate",
+    "ar" : "قراءة المبيعات من تاريخ",
+    "en" : "Read Orders From Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "readOrdersStatusesAsReturn",
+    "column" : "readOrdersStatusesAsReturn",
+    "ar" : "قراءة الأوامر كمرتجع إذا كانت إحدى الحالات الأتية",
+    "en" : "Read Orders As Sales Return If Status Like One Of The Following",
+    "type" : "Text"
+  }, {
+    "id" : "redirectUrl",
+    "column" : "redirectUrl",
+    "ar" : "Redirect URL",
+    "en" : "Redirect URL",
+    "type" : "Text"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "refreshToken",
+    "column" : "refreshToken",
+    "ar" : "Refresh Token",
+    "en" : "Refresh Token",
+    "type" : "BigText"
+  }, {
+    "id" : "relatedParentServiceItemsQueryForQtyUpdate",
+    "column" : "relatedParentServiceItemsQueryForQtyUpdate",
+    "ar" : "Related Parent Service Items Query For Qty Update",
+    "en" : "Related Parent Service Items Query For Qty Update",
+    "type" : "BigText"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "requestInfo.book",
+    "column" : "requestInfoBook_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "requestInfo.fromDiscount1",
+    "column" : "requestInfoFromDiscount1",
+    "ar" : "مصدر خصم 1",
+    "en" : "From Discount1",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "requestInfo.fromDiscount2",
+    "column" : "requestInfoFromDiscount2",
+    "ar" : "مصدر خصم 2",
+    "en" : "From Discount2",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "requestInfo.fromDiscount3",
+    "column" : "requestInfoFromDiscount3",
+    "ar" : "مصدر خصم 3",
+    "en" : "From Discount3",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "requestInfo.fromDiscount4",
+    "column" : "requestInfoFromDiscount4",
+    "ar" : "مصدر خصم 4",
+    "en" : "From Discount4",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "requestInfo.headerFieldsMap",
+    "column" : "requestInfoHeaderFieldsMap",
+    "ar" : "Header Fields Map",
+    "en" : "Header Fields Map",
+    "type" : "BigText"
+  }, {
+    "id" : "requestInfo.importAs",
+    "column" : "requestInfoImportAs",
+    "ar" : "استيراد كـ",
+    "en" : "Import As",
+    "type" : "EntityType"
+  }, {
+    "id" : "requestInfo.lineFieldsMap",
+    "column" : "requestInfoLineFieldsMap",
+    "ar" : "Line Fields Map",
+    "en" : "Line Fields Map",
+    "type" : "BigText"
+  }, {
+    "id" : "requestInfo.term",
+    "column" : "requestInfoTerm_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "requestInfo.toDiscount",
+    "column" : "requestInfoToDiscount",
+    "ar" : "الفرق إلى خصم",
+    "en" : "To Discount",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "resetOrderLinkTempo",
+    "column" : "resetOrderLinkTempo",
+    "ar" : "Reset Order Link Template",
+    "en" : "Reset Order Link Template",
+    "type" : "BigText"
+  }, {
+    "id" : "returnInfo.book",
+    "column" : "returnInfoBook_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "returnInfo.fromDiscount1",
+    "column" : "returnInfoFromDiscount1",
+    "ar" : "مصدر خصم 1",
+    "en" : "From Discount1",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "returnInfo.fromDiscount2",
+    "column" : "returnInfoFromDiscount2",
+    "ar" : "مصدر خصم 2",
+    "en" : "From Discount2",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "returnInfo.fromDiscount3",
+    "column" : "returnInfoFromDiscount3",
+    "ar" : "مصدر خصم 3",
+    "en" : "From Discount3",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "returnInfo.fromDiscount4",
+    "column" : "returnInfoFromDiscount4",
+    "ar" : "مصدر خصم 4",
+    "en" : "From Discount4",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "returnInfo.headerFieldsMap",
+    "column" : "returnInfoHeaderFieldsMap",
+    "ar" : "Header Fields Map",
+    "en" : "Header Fields Map",
+    "type" : "BigText"
+  }, {
+    "id" : "returnInfo.importAs",
+    "column" : "returnInfoImportAs",
+    "ar" : "استيراد كـ",
+    "en" : "Import As",
+    "type" : "EntityType"
+  }, {
+    "id" : "returnInfo.lineFieldsMap",
+    "column" : "returnInfoLineFieldsMap",
+    "ar" : "Line Fields Map",
+    "en" : "Line Fields Map",
+    "type" : "BigText"
+  }, {
+    "id" : "returnInfo.term",
+    "column" : "returnInfoTerm_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "returnInfo.toDiscount",
+    "column" : "returnInfoToDiscount",
+    "ar" : "الفرق إلى خصم",
+    "en" : "To Discount",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "revisionMetaDataKey",
+    "column" : "revisionMetaDataKey",
+    "ar" : "Revision Meta Data Key",
+    "en" : "Revision Meta Data Key",
+    "type" : "Text"
+  }, {
+    "id" : "saveOrderAsDraft",
+    "column" : "saveOrderAsDraft",
+    "ar" : "حفظ الأمر كمسودة",
+    "en" : "Save Order As Draft",
+    "type" : "Boolean"
+  }, {
+    "id" : "saveOrderAsUser",
+    "column" : "saveOrderAsUser_id",
+    "ar" : "حفظ الأوامر كمستخدم",
+    "en" : "Save Order As User",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "saveOrdersAsDraftIfErrorOccurs",
+    "column" : "saveOrdersAsDraftIfErrorOccurs",
+    "ar" : "حفظ الأوامر كمسودة في حالة حدوث أخطاء",
+    "en" : "Save Orders As Draft If Errors Occurs",
+    "type" : "Boolean"
+  }, {
+    "id" : "searchCustomerByMobileOnly",
+    "column" : "searchCustomerByMobileOnly",
+    "ar" : "البحث عن العميل برقم التليفون فقط",
+    "en" : "Search For Customer Using Mobile Only",
+    "type" : "Boolean"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "sellerNameZATCA",
+    "column" : "sellerNameZATCA",
+    "ar" : "Seller Name (ZATCA)",
+    "en" : "Seller Name (ZATCA)",
+    "type" : "Text"
+  }, {
+    "id" : "sendItemWhenNewOnly",
+    "column" : "sendItemWhenNewOnly",
+    "ar" : "إرسال الصنف عندما يكون حديثا فقط",
+    "en" : "Send Item When New Only",
+    "type" : "Boolean"
+  }, {
+    "id" : "sendItemsToMagento",
+    "column" : "sendItemsToMagento",
+    "ar" : "إرسال الأصناف إلي ماجنتو",
+    "en" : "Send Items To Magento",
+    "type" : "Boolean"
+  }, {
+    "id" : "sentQtyRoundingType",
+    "column" : "sentQtyRoundingType",
+    "ar" : "تقريب الكمية المٌرسلة",
+    "en" : "Sent Quantity Rounding Type",
+    "type" : "Enum",
+    "enum" : "RoundingType"
+  }, {
+    "id" : "sentQtyScale",
+    "column" : "sentQtyScale",
+    "ar" : "عدد كسور الكمية المٌرسلة",
+    "en" : "Send Quantity Scale",
+    "type" : "Integer"
+  }, {
+    "id" : "serviceItemsPriceFromNama",
+    "column" : "serviceItemsPriceFromNama",
+    "ar" : "حساب أسعار أصناف الخدمة من قوائم الأسعار",
+    "en" : "Calculate Service Items Price From Sales Price Lists",
+    "type" : "Boolean"
+  }, {
+    "id" : "shipmentServiceItem",
+    "column" : "shipmentServiceItem_id",
+    "ar" : "صنف خدمة الشحن",
+    "en" : "Shipment Service Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "siteType",
+    "column" : "siteType",
+    "ar" : "Site Type",
+    "en" : "Site Type",
+    "type" : "Enum",
+    "enum" : "MagEcommerceSiteType"
+  }, {
+    "id" : "sizeMetaDataKey",
+    "column" : "sizeMetaDataKey",
+    "ar" : "Size Meta Data Key",
+    "en" : "Size Meta Data Key",
+    "type" : "Text"
+  }, {
+    "id" : "specDimsFromLinkerNotMeta",
+    "column" : "specDimsFromLinkerNotMeta",
+    "ar" : "تفضيل المواصفات الخاصة بالصنف من ملف الربط عن القادمة من الموقع",
+    "en" : "Prefer Specific Dimensions From Linker Than Metadata",
+    "type" : "Boolean"
+  }, {
+    "id" : "specialPriceSource",
+    "column" : "specialPriceSource",
+    "ar" : "مصدر السعر الخاص",
+    "en" : "Special Price Source",
+    "type" : "Enum",
+    "enum" : "MAGPriceSourceLocation"
+  }, {
+    "id" : "syncSysFields",
+    "column" : "syncSysFields_id",
+    "type" : "",
+    "refTo" : "MagentoSyncSystemFields",
+    "refPath" : "/modules/system-tables/MagentoSyncSystemFields.html"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "updateCustomerIfExist",
+    "column" : "updateCustomerIfExist",
+    "ar" : "تحديث بيانات العميل في حالة وجوده (حتى وإن لم يوجد تعديلات)",
+    "en" : "Update Customer if Exists (Even If No Data Was Changed)",
+    "type" : "Boolean"
+  }, {
+    "id" : "updateEcommerceItemThroughTranslationIds",
+    "column" : "updateEcommerceItemThroughTranslationIds",
+    "ar" : "تحديث بيانات الصنف من خلال المعرفات الموجودة بالترجمات",
+    "en" : "Update Ecommerce Item Through Translation Ids",
+    "type" : "Boolean"
+  }, {
+    "id" : "updateOrderIfFoundInNama",
+    "column" : "updateOrderIfFoundInNama",
+    "ar" : "تحديث مستند المبيعات حتي و ان كان تم قراءته سابقا",
+    "en" : "Update Sales Document Even If It was Read Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "updateProductBody",
+    "column" : "updateProductBody",
+    "ar" : "Update Product Body",
+    "en" : "Update Product Body",
+    "type" : "BigText"
+  }, {
+    "id" : "updateProductEndpoint",
+    "column" : "updateProductEndpoint",
+    "ar" : "Update Product Endpoint",
+    "en" : "Update Product Endpoint",
+    "type" : "Text"
+  }, {
+    "id" : "updateQuantityPerWarehouse",
+    "column" : "updateQuantityPerWarehouse",
+    "ar" : "تحديث الكميات لكل مخزن",
+    "en" : "Update Quantity Per Warehouse",
+    "type" : "Boolean"
+  }, {
+    "id" : "url",
+    "column" : "url",
+    "ar" : "رابط",
+    "en" : "URL",
+    "type" : "Text"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "useGraphQL",
+    "column" : "useGraphQL",
+    "ar" : "Use GraphQL Api",
+    "en" : "Use GraphQL Api",
+    "type" : "Boolean"
+  }, {
+    "id" : "useQtyCalcQuery",
+    "column" : "useQtyCalcQuery",
+    "ar" : "استخدام استعلام احتساب الكمية",
+    "en" : "Use Quantity Calculation Query",
+    "type" : "Boolean"
+  }, {
+    "id" : "username",
+    "column" : "username",
+    "ar" : "إسم المستخدم (Consumer Key)",
+    "en" : "User Name (Consumer Key)",
+    "type" : "Text"
+  }, {
+    "id" : "validatePaymentTransactions",
+    "column" : "validatePaymentTransactions",
+    "ar" : "Validate Order Payment Transactions",
+    "en" : "Validate Order Payment Transactions",
+    "type" : "Boolean"
+  }, {
+    "id" : "vatNumberZATCA",
+    "column" : "vatNumberZATCA",
+    "ar" : "Vat Number (ZATCA)",
+    "en" : "Vat Number (ZATCA)",
+    "type" : "Text"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "visaPaymentMethod",
+    "column" : "visaPaymentMethod_id",
+    "ar" : "طريقة الدفع بالفيزا",
+    "en" : "Visa Payment Method",
+    "type" : "Reference",
+    "refTo" : "PaymentMethod",
+    "refPath" : "/modules/basic/PaymentMethod.html"
+  }, {
+    "id" : "warehouseQuantitiesField",
+    "column" : "warehouseQuantitiesField",
+    "ar" : "Warehouse Quantities Field",
+    "en" : "Warehouse Quantities Field",
+    "type" : "Text"
+  }, {
+    "id" : "webhookSecret",
+    "column" : "webhookSecret",
+    "ar" : "Webhook Secret Header",
+    "en" : "Webhook Secret Header",
+    "type" : "Password"
+  }, {
+    "id" : "webhookUrl",
+    "column" : "webhookUrl",
+    "ar" : "Webhook URL",
+    "en" : "Webhook URL",
+    "type" : "Link"
+  }, {
+    "id" : "zidManagerToken",
+    "column" : "zidManagerToken",
+    "ar" : "كلمة مرور التطبيق الإلكتروني",
+    "en" : "Ecommerce App Token",
+    "type" : "BigText"
+  }, {
+    "id" : "zidStoreId",
+    "column" : "zidStoreId",
+    "ar" : "معرف المخزن الإلكتروني",
+    "en" : "Ecommerce Store ID",
+    "type" : "Integer"
+  } ],
+  "details" : [ {
+    "id" : "copyToEcommerceItemLines",
+    "table" : "MagCopyToEcommerceItemLine",
+    "joinColumn" : "mAGMagentoSite_id",
+    "ar" : "نسخ حقول المنتج من النظام الي المتجر الالكتروني",
+    "en" : "Copy Fields Value From The System To Ecommerce Site",
+    "fields" : [ {
+      "id" : "copyToEcommerceItemLines.groovyScript",
+      "column" : "groovyScript",
+      "ar" : "Groovy Script",
+      "en" : "Groovy Script",
+      "type" : "BigText"
+    }, {
+      "id" : "copyToEcommerceItemLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "copyToEcommerceItemLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "copyToEcommerceItemLines.productFieldName",
+      "column" : "productFieldName",
+      "ar" : "اسم الحقل بالمتجر",
+      "en" : "Product Field Name In Ecommerce Site",
+      "type" : "Text"
+    }, {
+      "id" : "copyToEcommerceItemLines.productFieldType",
+      "column" : "productFieldType",
+      "ar" : "نوع الحقل",
+      "en" : "Product Type",
+      "type" : "Enum",
+      "enum" : "EcommerceProductType"
+    }, {
+      "id" : "copyToEcommerceItemLines.productFieldValue",
+      "column" : "productFieldValue",
+      "ar" : "قيمة الحقل",
+      "en" : "Product Field Value",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "documentGenerationInfoLines",
+    "table" : "EcommerceDocumentGenerationInfo",
+    "joinColumn" : "mAGMagentoSite_id",
+    "ar" : "سطور إنشاء مستندات بناءا على تطابق من الأمر",
+    "en" : "Generate Document Based On Order Criteria Lines",
+    "fields" : [ {
+      "id" : "documentGenerationInfoLines.applyWhenQuery",
+      "column" : "applyWhenQuery",
+      "ar" : "تطبيق عند التوافق مع الاستعلام",
+      "en" : "Apply When Query",
+      "type" : "BigText"
+    }, {
+      "id" : "documentGenerationInfoLines.copyFieldMap",
+      "column" : "copyFieldMap",
+      "ar" : "نسخ الي حقول معينة في مستند المبيعات",
+      "en" : "Copy Sales Document Field Map",
+      "type" : "BigText"
+    }, {
+      "id" : "documentGenerationInfoLines.copyLineFieldMap",
+      "column" : "copyLineFieldMap",
+      "ar" : "نسخ الي حقول معينة في سطر المستند",
+      "en" : "Copy Sales Document Line Field Map",
+      "type" : "BigText"
+    }, {
+      "id" : "documentGenerationInfoLines.copyPaymentLineFieldMap",
+      "column" : "copyPaymentLineFieldMap",
+      "ar" : "نسخ حقول سطور الدفع",
+      "en" : "Copy Payment Line Field Map",
+      "type" : "BigText"
+    }, {
+      "id" : "documentGenerationInfoLines.customerFieldsMap",
+      "column" : "customerFieldsMap",
+      "ar" : "Customer Fields Map",
+      "en" : "Customer Fields Map",
+      "type" : "BigText"
+    }, {
+      "id" : "documentGenerationInfoLines.ecommerceEntityType",
+      "column" : "ecommerceEntityType",
+      "ar" : "نوع مستند ماجنتو",
+      "en" : "Ecommerce Entity Type",
+      "type" : "Enum",
+      "enum" : "EcommerceEntityType"
+    }, {
+      "id" : "documentGenerationInfoLines.generationInfo.book",
+      "column" : "book_id",
+      "ar" : "الدفتر",
+      "en" : "Book",
+      "type" : "Reference",
+      "refTo" : "DocumentBook",
+      "refPath" : "/modules/basic/DocumentBook.html"
+    }, {
+      "id" : "documentGenerationInfoLines.generationInfo.fromDiscount1",
+      "column" : "fromDiscount1",
+      "ar" : "مصدر خصم 1",
+      "en" : "From Discount1",
+      "type" : "Enum",
+      "enum" : "DiscountLocation"
+    }, {
+      "id" : "documentGenerationInfoLines.generationInfo.fromDiscount2",
+      "column" : "fromDiscount2",
+      "ar" : "مصدر خصم 2",
+      "en" : "From Discount2",
+      "type" : "Enum",
+      "enum" : "DiscountLocation"
+    }, {
+      "id" : "documentGenerationInfoLines.generationInfo.fromDiscount3",
+      "column" : "fromDiscount3",
+      "ar" : "مصدر خصم 3",
+      "en" : "From Discount3",
+      "type" : "Enum",
+      "enum" : "DiscountLocation"
+    }, {
+      "id" : "documentGenerationInfoLines.generationInfo.fromDiscount4",
+      "column" : "fromDiscount4",
+      "ar" : "مصدر خصم 4",
+      "en" : "From Discount4",
+      "type" : "Enum",
+      "enum" : "DiscountLocation"
+    }, {
+      "id" : "documentGenerationInfoLines.generationInfo.headerFieldsMap",
+      "column" : "headerFieldsMap",
+      "ar" : "Header Fields Map",
+      "en" : "Header Fields Map",
+      "type" : "BigText"
+    }, {
+      "id" : "documentGenerationInfoLines.generationInfo.importAs",
+      "column" : "importAs",
+      "ar" : "استيراد كـ",
+      "en" : "Import As",
+      "type" : "EntityType"
+    }, {
+      "id" : "documentGenerationInfoLines.generationInfo.lineFieldsMap",
+      "column" : "lineFieldsMap",
+      "ar" : "Line Fields Map",
+      "en" : "Line Fields Map",
+      "type" : "BigText"
+    }, {
+      "id" : "documentGenerationInfoLines.generationInfo.term",
+      "column" : "term_id",
+      "ar" : "توجيه المستند",
+      "en" : "Term",
+      "type" : "Reference",
+      "refTo" : "DocumentTerm",
+      "refPath" : "/modules/basic/DocumentTerm.html"
+    }, {
+      "id" : "documentGenerationInfoLines.generationInfo.toDiscount",
+      "column" : "toDiscount",
+      "ar" : "الفرق إلى خصم",
+      "en" : "To Discount",
+      "type" : "Enum",
+      "enum" : "DiscountLocation"
+    }, {
+      "id" : "documentGenerationInfoLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "documentGenerationInfoLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "ecommerceEventActionsLines",
+    "table" : "EcommerceEventActionsLine",
+    "joinColumn" : "mAGMagentoSite_id",
+    "ar" : "Ecommerce Event Actions Line",
+    "en" : "Ecommerce Event Actions Line",
+    "fields" : [ {
+      "id" : "ecommerceEventActionsLines.ecommerceEventType",
+      "column" : "ecommerceEventType",
+      "ar" : "Ecommerce Event Type",
+      "en" : "Ecommerce Event Type",
+      "type" : "Enum",
+      "enum" : "EcommerceEventType"
+    }, {
+      "id" : "ecommerceEventActionsLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "ecommerceEventActionsLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "ecommerceEventActionsLines.onBlockNotification",
+      "column" : "onBlockNotification_id",
+      "ar" : "On Block Notification",
+      "en" : "On Block Notification",
+      "type" : "Reference",
+      "refTo" : "NotificationDefinition",
+      "refPath" : "/modules/basic/NotificationDefinition.html"
+    }, {
+      "id" : "ecommerceEventActionsLines.onFailNotification",
+      "column" : "onFailNotification_id",
+      "ar" : "On Fail Notification",
+      "en" : "On Fail Notification",
+      "type" : "Reference",
+      "refTo" : "NotificationDefinition",
+      "refPath" : "/modules/basic/NotificationDefinition.html"
+    }, {
+      "id" : "ecommerceEventActionsLines.onSuccessAfterFailNotification",
+      "column" : "onSuccessAfterFailNotification_id",
+      "ar" : "On Success After Trying More Than One Time",
+      "en" : "On Success After Trying More Than One Time",
+      "type" : "Reference",
+      "refTo" : "NotificationDefinition",
+      "refPath" : "/modules/basic/NotificationDefinition.html"
+    } ]
+  }, {
+    "id" : "ecommerceWarehouseLines",
+    "table" : "EcommerceWarehouseLine",
+    "joinColumn" : "mAGMagentoSite_id",
+    "ar" : "ربط معرفات المخازن الإلكترونية بنما",
+    "en" : "Link Ecommerce Warehouses By Nama",
+    "fields" : [ {
+      "id" : "ecommerceWarehouseLines.ecommerceWarehouseId",
+      "column" : "ecommerceWarehouseId",
+      "ar" : "معرف مخزن الموقع",
+      "en" : "Ecommerce Warehouse Id",
+      "type" : "Text"
+    }, {
+      "id" : "ecommerceWarehouseLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "ecommerceWarehouseLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "ecommerceWarehouseLines.warehouse",
+      "column" : "warehouse_id",
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    } ]
+  }, {
+    "id" : "graphQLLines",
+    "table" : "EcommerceGraphQLLine",
+    "joinColumn" : "mAGMagentoSite_id",
+    "ar" : "Graph QL Lines",
+    "en" : "Graph QL Lines",
+    "fields" : [ {
+      "id" : "graphQLLines.ecommerceGraphEntityOperation",
+      "column" : "ecommerceGraphEntityOperation",
+      "ar" : "نوع العملية",
+      "en" : "Operation Type",
+      "type" : "Enum",
+      "enum" : "EcommerceGraphEntityOperation"
+    }, {
+      "id" : "graphQLLines.graphQuery",
+      "column" : "graphQuery",
+      "ar" : "Graph Query",
+      "en" : "Graph Query",
+      "type" : "BigText"
+    }, {
+      "id" : "graphQLLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "graphQLLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "graphQLLines.variablesFieldsMapASJson",
+      "column" : "variablesFieldsMapASJson",
+      "ar" : "Variables Fields Map As JSON (Root Entity order/item)",
+      "en" : "Variables Fields Map As JSON (Root Entity order/item)",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "paymentMethods",
+    "table" : "MAGSitePaymentMethodsLine",
+    "joinColumn" : "mAGMagentoSite_id",
+    "ar" : "طرق الدفع",
+    "en" : "Payment Methods",
+    "fields" : [ {
+      "id" : "paymentMethods.allowedTransactionTypes",
+      "column" : "allowedTransactionTypes",
+      "ar" : "نسخ السطور التي بها أنواع العمليات",
+      "en" : "Copy Only Lines with Transaction Types",
+      "type" : "BigText"
+    }, {
+      "id" : "paymentMethods.applyWhenQuery",
+      "column" : "applyWhenQuery",
+      "ar" : "تطبيق عند التوافق مع الاستعلام",
+      "en" : "Apply When Query",
+      "type" : "BigText"
+    }, {
+      "id" : "paymentMethods.doNotAffectRemaining",
+      "column" : "doNotAffectRemaining",
+      "ar" : "عدم التأثير على المتبقي",
+      "en" : "Do Not Affect Remaining",
+      "type" : "Boolean"
+    }, {
+      "id" : "paymentMethods.fromDate",
+      "column" : "fromDate",
+      "ar" : "من تاريخ",
+      "en" : "From Date",
+      "type" : "Date"
+    }, {
+      "id" : "paymentMethods.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "paymentMethods.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "paymentMethods.paymentLineCopyFieldsMap",
+      "column" : "paymentLineCopyFieldsMap",
+      "ar" : "نسخ حقول معينه الي سطر الدفع",
+      "en" : "Copy Specific Fields To Payment Line",
+      "type" : "BigText"
+    }, {
+      "id" : "paymentMethods.paymentMethod",
+      "column" : "paymentMethod_id",
+      "ar" : "طريقة الدفع",
+      "en" : " Payment Method",
+      "type" : "Reference",
+      "refTo" : "PaymentMethod",
+      "refPath" : "/modules/basic/PaymentMethod.html"
+    }, {
+      "id" : "paymentMethods.paymentMethodName",
+      "column" : "paymentMethodName",
+      "ar" : "إسم طريقة الدفع",
+      "en" : "Payment Method Name",
+      "type" : "Text"
+    }, {
+      "id" : "paymentMethods.paymentMethodType",
+      "column" : "paymentMethodType",
+      "ar" : "نوع طريقة الدفع",
+      "en" : "Payment Method Type",
+      "type" : "Text"
+    }, {
+      "id" : "paymentMethods.toDate",
+      "column" : "toDate",
+      "ar" : "إلى تاريخ",
+      "en" : "To Date",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "shippingItems",
+    "table" : "MAGSiteShippingItemLine",
+    "joinColumn" : "mAGMagentoSite_id",
+    "ar" : "أصناف خدمة الشحن",
+    "en" : "Shipping Service Items",
+    "fields" : [ {
+      "id" : "shippingItems.applyWhenQuery",
+      "column" : "applyWhenQuery",
+      "ar" : "تطبيق عند التوافق مع الاستعلام",
+      "en" : "Apply When Query",
+      "type" : "BigText"
+    }, {
+      "id" : "shippingItems.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "shippingItems.invItem",
+      "column" : "invItem_id",
+      "ar" : " الصنف",
+      "en" : " Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "shippingItems.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "shippingItems.shippingMethodType",
+      "column" : "shippingMethodType",
+      "ar" : "نوع طريقة الشحن",
+      "en" : "Shipping Method Type",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "updateItemFor",
+    "table" : "MAGSiteItemUpdateCriteria",
+    "joinColumn" : "mAGMagentoSite_id",
+    "fields" : [ {
+      "id" : "updateItemFor.category1",
+      "column" : "category1_id",
+      "ar" : "فئة الصنف1",
+      "en" : "Item Category1",
+      "type" : "Reference",
+      "refTo" : "ItemCategory",
+      "refPath" : "/modules/supplychain/ItemCategory.html"
+    }, {
+      "id" : "updateItemFor.category2",
+      "column" : "category2_id",
+      "ar" : "فئة الصنف2",
+      "en" : "Item Category2",
+      "type" : "Reference",
+      "refTo" : "ItemCategory",
+      "refPath" : "/modules/supplychain/ItemCategory.html"
+    }, {
+      "id" : "updateItemFor.category3",
+      "column" : "category3_id",
+      "ar" : "فئة الصنف3",
+      "en" : "Item Category3",
+      "type" : "Reference",
+      "refTo" : "ItemCategory",
+      "refPath" : "/modules/supplychain/ItemCategory.html"
+    }, {
+      "id" : "updateItemFor.category4",
+      "column" : "category4_id",
+      "ar" : "فئة الصنف4",
+      "en" : "Item Category4",
+      "type" : "Reference",
+      "refTo" : "ItemCategory",
+      "refPath" : "/modules/supplychain/ItemCategory.html"
+    }, {
+      "id" : "updateItemFor.category5",
+      "column" : "category5_id",
+      "ar" : "فئة الصنف5",
+      "en" : "Item Category5",
+      "type" : "Reference",
+      "refTo" : "ItemCategory",
+      "refPath" : "/modules/supplychain/ItemCategory.html"
+    }, {
+      "id" : "updateItemFor.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "updateItemFor.itemClass1",
+      "column" : "itemClass1_id",
+      "ar" : "تصنيف 1",
+      "en" : "Class 1",
+      "type" : "Reference",
+      "refTo" : "ItemClass1",
+      "refPath" : "/modules/supplychain/ItemClass1.html"
+    }, {
+      "id" : "updateItemFor.itemClass10",
+      "column" : "itemClass10_id",
+      "ar" : "تصنيف 10",
+      "en" : "Class 10",
+      "type" : "Reference",
+      "refTo" : "ItemClass10",
+      "refPath" : "/modules/supplychain/ItemClass10.html"
+    }, {
+      "id" : "updateItemFor.itemClass2",
+      "column" : "itemClass2_id",
+      "ar" : "تصنيف 2",
+      "en" : "Class 2",
+      "type" : "Reference",
+      "refTo" : "ItemClass2",
+      "refPath" : "/modules/supplychain/ItemClass2.html"
+    }, {
+      "id" : "updateItemFor.itemClass3",
+      "column" : "itemClass3_id",
+      "ar" : "تصنيف 3",
+      "en" : "Class 3",
+      "type" : "Reference",
+      "refTo" : "ItemClass3",
+      "refPath" : "/modules/supplychain/ItemClass3.html"
+    }, {
+      "id" : "updateItemFor.itemClass4",
+      "column" : "itemClass4_id",
+      "ar" : "تصنيف 4",
+      "en" : "Class 4",
+      "type" : "Reference",
+      "refTo" : "ItemClass4",
+      "refPath" : "/modules/supplychain/ItemClass4.html"
+    }, {
+      "id" : "updateItemFor.itemClass5",
+      "column" : "itemClass5_id",
+      "ar" : "تصنيف 5",
+      "en" : "Class 5",
+      "type" : "Reference",
+      "refTo" : "ItemClass5",
+      "refPath" : "/modules/supplychain/ItemClass5.html"
+    }, {
+      "id" : "updateItemFor.itemClass6",
+      "column" : "itemClass6_id",
+      "ar" : "تصنيف 6",
+      "en" : "Class 6",
+      "type" : "Reference",
+      "refTo" : "ItemClass6",
+      "refPath" : "/modules/supplychain/ItemClass6.html"
+    }, {
+      "id" : "updateItemFor.itemClass7",
+      "column" : "itemClass7_id",
+      "ar" : "تصنيف 7",
+      "en" : "Class 7",
+      "type" : "Reference",
+      "refTo" : "ItemClass7",
+      "refPath" : "/modules/supplychain/ItemClass7.html"
+    }, {
+      "id" : "updateItemFor.itemClass8",
+      "column" : "itemClass8_id",
+      "ar" : "تصنيف 8",
+      "en" : "Class 8",
+      "type" : "Reference",
+      "refTo" : "ItemClass8",
+      "refPath" : "/modules/supplychain/ItemClass8.html"
+    }, {
+      "id" : "updateItemFor.itemClass9",
+      "column" : "itemClass9_id",
+      "ar" : "تصنيف 9",
+      "en" : "Class 9",
+      "type" : "Reference",
+      "refTo" : "ItemClass9",
+      "refPath" : "/modules/supplychain/ItemClass9.html"
+    }, {
+      "id" : "updateItemFor.itemSection",
+      "column" : "itemSection_id",
+      "ar" : "قسم الصنف",
+      "en" : " Item Section",
+      "type" : "Reference",
+      "refTo" : "ItemSection",
+      "refPath" : "/modules/supplychain/ItemSection.html"
+    }, {
+      "id" : "updateItemFor.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "updateOrderStatusTo",
+    "table" : "MagentoOrderUpdateStatus",
+    "joinColumn" : "mAGMagentoSite_id",
+    "ar" : "تحديث حالة طلب ماجنتو إلي",
+    "en" : "Update Magento Order Status To",
+    "fields" : [ {
+      "id" : "updateOrderStatusTo.applyWhenQuery",
+      "column" : "applyWhenQuery",
+      "ar" : "تطبيق عند التوافق مع الاستعلام",
+      "en" : "Apply When Query",
+      "type" : "BigText"
+    }, {
+      "id" : "updateOrderStatusTo.comment",
+      "column" : "comment",
+      "ar" : "ملاحظة",
+      "en" : "Comment",
+      "type" : "BigText"
+    }, {
+      "id" : "updateOrderStatusTo.commentVisibleOnFront",
+      "column" : "commentVisibleOnFront",
+      "ar" : "عرض الملحوظه للعميل",
+      "en" : "Comment Visible To Customer",
+      "type" : "Boolean"
+    }, {
+      "id" : "updateOrderStatusTo.criteriaDefinition",
+      "column" : "criteriaDefinition_id",
+      "ar" : " المعايير",
+      "en" : " Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "updateOrderStatusTo.fieldsUpdateMap",
+      "column" : "fieldsUpdateMap",
+      "ar" : "Magento Order Fields Update Map",
+      "en" : "Magento Order Fields Update Map",
+      "type" : "BigText"
+    }, {
+      "id" : "updateOrderStatusTo.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "updateOrderStatusTo.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "updateOrderStatusTo.status",
+      "column" : "status",
+      "ar" : "الحالة",
+      "en" : "Status",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "updateQtyFor",
+    "table" : "MAGSiteQtyUpdateCriteria",
+    "joinColumn" : "mAGMagentoSite_id",
+    "fields" : [ {
+      "id" : "updateQtyFor.applyWhenQuery",
+      "column" : "applyWhenQuery",
+      "ar" : "تطبيق عند التوافق مع الاستعلام",
+      "en" : "Apply When Query",
+      "type" : "BigText"
+    }, {
+      "id" : "updateQtyFor.calcQtySendTypeFromHeader",
+      "column" : "calcQtySendTypeFromHeader",
+      "ar" : "حساب أقل كمية للإرسال ونوع الكمية من الهيدر",
+      "en" : "Calculate Minimum Quantity and Quantity Send Type From Header",
+      "type" : "Boolean"
+    }, {
+      "id" : "updateQtyFor.category1",
+      "column" : "category1_id",
+      "ar" : "فئة الصنف1",
+      "en" : "Item Category1",
+      "type" : "Reference",
+      "refTo" : "ItemCategory",
+      "refPath" : "/modules/supplychain/ItemCategory.html"
+    }, {
+      "id" : "updateQtyFor.category2",
+      "column" : "category2_id",
+      "ar" : "فئة الصنف2",
+      "en" : "Item Category2",
+      "type" : "Reference",
+      "refTo" : "ItemCategory",
+      "refPath" : "/modules/supplychain/ItemCategory.html"
+    }, {
+      "id" : "updateQtyFor.category3",
+      "column" : "category3_id",
+      "ar" : "فئة الصنف3",
+      "en" : "Item Category3",
+      "type" : "Reference",
+      "refTo" : "ItemCategory",
+      "refPath" : "/modules/supplychain/ItemCategory.html"
+    }, {
+      "id" : "updateQtyFor.category4",
+      "column" : "category4_id",
+      "ar" : "فئة الصنف4",
+      "en" : "Item Category4",
+      "type" : "Reference",
+      "refTo" : "ItemCategory",
+      "refPath" : "/modules/supplychain/ItemCategory.html"
+    }, {
+      "id" : "updateQtyFor.category5",
+      "column" : "category5_id",
+      "ar" : "فئة الصنف5",
+      "en" : "Item Category5",
+      "type" : "Reference",
+      "refTo" : "ItemCategory",
+      "refPath" : "/modules/supplychain/ItemCategory.html"
+    }, {
+      "id" : "updateQtyFor.criteriaDefinition",
+      "column" : "criteriaDefinition_id",
+      "ar" : " المعايير",
+      "en" : " Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "updateQtyFor.dimensions.analysisSet",
+      "column" : "dimensionsAnalysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "updateQtyFor.dimensions.branch",
+      "column" : "dimensionsBranch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "updateQtyFor.dimensions.department",
+      "column" : "dimensionsDepartment_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "updateQtyFor.dimensions.legalEntity",
+      "column" : "dimensionsLegalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "updateQtyFor.dimensions.sector",
+      "column" : "dimensionsSector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    }, {
+      "id" : "updateQtyFor.doNotApplyWhenQuery",
+      "column" : "doNotApplyWhenQuery",
+      "ar" : "منع التطبيق عند التوافق مع الاستعلام",
+      "en" : "Do Not Apply When Query",
+      "type" : "BigText"
+    }, {
+      "id" : "updateQtyFor.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "updateQtyFor.item",
+      "column" : "item_id",
+      "ar" : "الصنف",
+      "en" : "Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "updateQtyFor.itemClass1",
+      "column" : "itemClass1_id",
+      "ar" : "تصنيف 1",
+      "en" : "Class 1",
+      "type" : "Reference",
+      "refTo" : "ItemClass1",
+      "refPath" : "/modules/supplychain/ItemClass1.html"
+    }, {
+      "id" : "updateQtyFor.itemClass10",
+      "column" : "itemClass10_id",
+      "ar" : "تصنيف 10",
+      "en" : "Class 10",
+      "type" : "Reference",
+      "refTo" : "ItemClass10",
+      "refPath" : "/modules/supplychain/ItemClass10.html"
+    }, {
+      "id" : "updateQtyFor.itemClass2",
+      "column" : "itemClass2_id",
+      "ar" : "تصنيف 2",
+      "en" : "Class 2",
+      "type" : "Reference",
+      "refTo" : "ItemClass2",
+      "refPath" : "/modules/supplychain/ItemClass2.html"
+    }, {
+      "id" : "updateQtyFor.itemClass3",
+      "column" : "itemClass3_id",
+      "ar" : "تصنيف 3",
+      "en" : "Class 3",
+      "type" : "Reference",
+      "refTo" : "ItemClass3",
+      "refPath" : "/modules/supplychain/ItemClass3.html"
+    }, {
+      "id" : "updateQtyFor.itemClass4",
+      "column" : "itemClass4_id",
+      "ar" : "تصنيف 4",
+      "en" : "Class 4",
+      "type" : "Reference",
+      "refTo" : "ItemClass4",
+      "refPath" : "/modules/supplychain/ItemClass4.html"
+    }, {
+      "id" : "updateQtyFor.itemClass5",
+      "column" : "itemClass5_id",
+      "ar" : "تصنيف 5",
+      "en" : "Class 5",
+      "type" : "Reference",
+      "refTo" : "ItemClass5",
+      "refPath" : "/modules/supplychain/ItemClass5.html"
+    }, {
+      "id" : "updateQtyFor.itemClass6",
+      "column" : "itemClass6_id",
+      "ar" : "تصنيف 6",
+      "en" : "Class 6",
+      "type" : "Reference",
+      "refTo" : "ItemClass6",
+      "refPath" : "/modules/supplychain/ItemClass6.html"
+    }, {
+      "id" : "updateQtyFor.itemClass7",
+      "column" : "itemClass7_id",
+      "ar" : "تصنيف 7",
+      "en" : "Class 7",
+      "type" : "Reference",
+      "refTo" : "ItemClass7",
+      "refPath" : "/modules/supplychain/ItemClass7.html"
+    }, {
+      "id" : "updateQtyFor.itemClass8",
+      "column" : "itemClass8_id",
+      "ar" : "تصنيف 8",
+      "en" : "Class 8",
+      "type" : "Reference",
+      "refTo" : "ItemClass8",
+      "refPath" : "/modules/supplychain/ItemClass8.html"
+    }, {
+      "id" : "updateQtyFor.itemClass9",
+      "column" : "itemClass9_id",
+      "ar" : "تصنيف 9",
+      "en" : "Class 9",
+      "type" : "Reference",
+      "refTo" : "ItemClass9",
+      "refPath" : "/modules/supplychain/ItemClass9.html"
+    }, {
+      "id" : "updateQtyFor.itemSection",
+      "column" : "itemSection_id",
+      "ar" : "قسم الصنف",
+      "en" : " Item Section",
+      "type" : "Reference",
+      "refTo" : "ItemSection",
+      "refPath" : "/modules/supplychain/ItemSection.html"
+    }, {
+      "id" : "updateQtyFor.itemUom",
+      "column" : "itemUom_id",
+      "ar" : "وحدة الصنف",
+      "en" : "Item UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "updateQtyFor.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "updateQtyFor.minQtyToSend",
+      "column" : "minQtyToSend",
+      "ar" : "اقل كمية للارسال(قيمة)",
+      "en" : "Minimum Quantity To Send(Value)",
+      "type" : "Decimal"
+    }, {
+      "id" : "updateQtyFor.minQtyToSendPercent",
+      "column" : "minQtyToSendPercent",
+      "ar" : "أقل كمية للإرسال(نسبة)",
+      "en" : "Minimum Quantity To Send(Percent)",
+      "type" : "Decimal"
+    }, {
+      "id" : "updateQtyFor.qtyCalcQuery",
+      "column" : "qtyCalcQuery",
+      "ar" : "استعلام احتساب الكمية",
+      "en" : "Quantity Calculation Query",
+      "type" : "BigText"
+    }, {
+      "id" : "updateQtyFor.quantityToSendType",
+      "column" : "quantityToSendType",
+      "ar" : "إرسال الكمية ب (عندما تكون اقل من  اقل كمية للإرسال او تساويها)",
+      "en" : "Send Quantity (If Quantity is less than minimum quantity to send)",
+      "type" : "Enum",
+      "enum" : "QuantityToSendType"
+    }, {
+      "id" : "updateQtyFor.reversedCriteriaDefinition",
+      "column" : "reversedCriteriaDefinition_id",
+      "ar" : "معيار عدم التفيذ",
+      "en" : "Reversed Criteria Definition",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "updateQtyFor.specificDimensions.activePerc",
+      "column" : "activePerc",
+      "ar" : "النسبة الفعالة",
+      "en" : "Active Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "updateQtyFor.specificDimensions.box",
+      "column" : "box",
+      "ar" : "صندوق",
+      "en" : "Box",
+      "type" : "Text"
+    }, {
+      "id" : "updateQtyFor.specificDimensions.color",
+      "column" : "color",
+      "ar" : "اللون",
+      "en" : "Color",
+      "type" : "Color"
+    }, {
+      "id" : "updateQtyFor.specificDimensions.inactivePerc",
+      "column" : "inactivePerc",
+      "ar" : "النسبة الغير فعالة",
+      "en" : "Inactive Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "updateQtyFor.specificDimensions.locator",
+      "column" : "locator_id",
+      "ar" : "الموقع",
+      "en" : "Locator",
+      "type" : "Reference",
+      "refTo" : "Locator",
+      "refPath" : "/modules/supplychain/Locator.html"
+    }, {
+      "id" : "updateQtyFor.specificDimensions.lotId",
+      "column" : "lotId",
+      "ar" : "رقم الشحنه",
+      "en" : "Lot ID",
+      "type" : "Text"
+    }, {
+      "id" : "updateQtyFor.specificDimensions.measures",
+      "column" : "measures",
+      "ar" : "الأبعاد",
+      "en" : "Measures",
+      "type" : "Measures"
+    }, {
+      "id" : "updateQtyFor.specificDimensions.revisionId",
+      "column" : "revisionId",
+      "ar" : "الإصدار",
+      "en" : "Revision ID",
+      "type" : "Text"
+    }, {
+      "id" : "updateQtyFor.specificDimensions.secondSerial",
+      "column" : "secondSerial",
+      "ar" : "الرقم المسلسل الثاني",
+      "en" : "Second Serial",
+      "type" : "BigText"
+    }, {
+      "id" : "updateQtyFor.specificDimensions.serialNumber",
+      "column" : "serialNumber",
+      "ar" : "الرقم المسلسل",
+      "en" : "Serial number",
+      "type" : "BigText"
+    }, {
+      "id" : "updateQtyFor.specificDimensions.size",
+      "column" : "size",
+      "ar" : "المقاس",
+      "en" : "Size",
+      "type" : "Text"
+    }, {
+      "id" : "updateQtyFor.specificDimensions.subItem",
+      "column" : "subItem_id",
+      "ar" : " السياره",
+      "en" : " Customer Car",
+      "type" : "Reference",
+      "refTo" : "SubItem",
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+    }, {
+      "id" : "updateQtyFor.specificDimensions.warehouse",
+      "column" : "warehouse_id",
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse10",
+      "column" : "warehouse10_id",
+      "ar" : "المخزن 10",
+      "en" : "Warehouse 10",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse11",
+      "column" : "warehouse11_id",
+      "ar" : "المخزن 11",
+      "en" : "Warehouse 11",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse12",
+      "column" : "warehouse12_id",
+      "ar" : "المخزن 12",
+      "en" : "Warehouse 12",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse13",
+      "column" : "warehouse13_id",
+      "ar" : "المخزن 13",
+      "en" : "Warehouse 13",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse14",
+      "column" : "warehouse14_id",
+      "ar" : "المخزن 14",
+      "en" : "Warehouse 14",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse15",
+      "column" : "warehouse15_id",
+      "ar" : "المخزن 15",
+      "en" : "Warehouse 15",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse16",
+      "column" : "warehouse16_id",
+      "ar" : "المخزن 16",
+      "en" : "Warehouse 16",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse17",
+      "column" : "warehouse17_id",
+      "ar" : "المخزن 17",
+      "en" : "Warehouse 17",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse18",
+      "column" : "warehouse18_id",
+      "ar" : "المخزن 18",
+      "en" : "Warehouse 18",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse19",
+      "column" : "warehouse19_id",
+      "ar" : "المخزن 19",
+      "en" : "Warehouse 19",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse2",
+      "column" : "warehouse2_id",
+      "ar" : "المخزن 2",
+      "en" : "Warehouse 2",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse20",
+      "column" : "warehouse20_id",
+      "ar" : "المخزن 20",
+      "en" : "Warehouse 20",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse3",
+      "column" : "warehouse3_id",
+      "ar" : "المخزن 3",
+      "en" : "Warehouse 3",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse4",
+      "column" : "warehouse4_id",
+      "ar" : "المخزن 4",
+      "en" : "Warehouse 4",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse5",
+      "column" : "warehouse5_id",
+      "ar" : "المخزن 5",
+      "en" : "Warehouse 5",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse6",
+      "column" : "warehouse6_id",
+      "ar" : "المخزن 6",
+      "en" : "Warehouse 6",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse7",
+      "column" : "warehouse7_id",
+      "ar" : "المخزن 7",
+      "en" : "Warehouse 7",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse8",
+      "column" : "warehouse8_id",
+      "ar" : "المخزن 8",
+      "en" : "Warehouse 8",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouse9",
+      "column" : "warehouse9_id",
+      "ar" : "المخزن 9",
+      "en" : "Warehouse 9",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "updateQtyFor.warehouseApplyType",
+      "column" : "warehouseApplyType",
+      "ar" : "نوع التطبيق على المخازن",
+      "en" : "Warehouse Apply Type",
+      "type" : "Enum",
+      "enum" : "RuleApplyType"
+    } ]
+  } ]
+}

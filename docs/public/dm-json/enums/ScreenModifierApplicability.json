@@ -1,0 +1,24 @@
+{
+  "enum" : "ScreenModifierApplicability",
+  "values" : [ {
+    "id" : "EntityTypeList",
+    "ar" : "قائمة أنواع",
+    "en" : "EntityType List"
+  }, {
+    "id" : "EntityType",
+    "ar" : "نوع",
+    "en" : "Entity Type"
+  }, {
+    "id" : "AllScreens",
+    "ar" : "كل الشاشات",
+    "en" : "All Screens"
+  }, {
+    "id" : "MasterFiles",
+    "ar" : "الملفات",
+    "en" : "Master Files"
+  }, {
+    "id" : "Documents",
+    "ar" : "المستندات",
+    "en" : "Documents"
+  } ]
+}

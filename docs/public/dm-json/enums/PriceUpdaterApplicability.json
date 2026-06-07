@@ -1,0 +1,16 @@
+{
+  "enum" : "PriceUpdaterApplicability",
+  "values" : [ {
+    "id" : "All",
+    "ar" : "الكل",
+    "en" : "All"
+  }, {
+    "id" : "Selected",
+    "ar" : "السطور المختارة فقط",
+    "en" : "Selected"
+  }, {
+    "id" : "NotSelected",
+    "ar" : "السطور الغير مختارة",
+    "en" : "NotSelected"
+  } ]
+}

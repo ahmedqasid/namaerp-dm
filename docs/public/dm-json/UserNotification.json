@@ -1,0 +1,124 @@
+{
+  "entity" : "UserNotification",
+  "table" : "UserNotification",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/UserNotification.html",
+  "fields" : [ {
+    "id" : "body",
+    "column" : "body",
+    "ar" : "Body",
+    "en" : "Body",
+    "type" : "BigText"
+  }, {
+    "id" : "createdFrom",
+    "columns" : [ "createdFromActualCode", " createdFromCode", " createdFromEntityType", " createdFromId" ],
+    "ar" : "منشأة من",
+    "en" : "Created From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "dimensions.analysisSet",
+    "column" : "dimensionsAnalysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "dimensions.branch",
+    "column" : "dimensionsBranch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "dimensions.department",
+    "column" : "dimensionsDepartment_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "dimensions.legalEntity",
+    "column" : "dimensionsLegalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "dimensions.sector",
+    "column" : "dimensionsSector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "doNotSendToFCM",
+    "column" : "doNotSendToFCM",
+    "ar" : "لا ترسل تنبيهات لتطبيقات الجوال",
+    "en" : "Do Not Send Notifications To Mobile Apps",
+    "type" : "Boolean"
+  }, {
+    "id" : "fcmGoesTo",
+    "column" : "fcmGoesTo",
+    "ar" : "FCM Goes To",
+    "en" : "FCM Goes To",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "notifRef1",
+    "columns" : [ "notifRef1ActualCode", " notifRef1Code", " notifRef1EntityType", " notifRef1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Notification Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "notifRef2",
+    "columns" : [ "notifRef2ActualCode", " notifRef2Code", " notifRef2EntityType", " notifRef2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Notification Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "NotificationStatus"
+  }, {
+    "id" : "subject",
+    "column" : "subject",
+    "ar" : "العنوان",
+    "en" : "Subject",
+    "type" : "BigText"
+  }, {
+    "id" : "submittedOn",
+    "column" : "submittedOn",
+    "ar" : "التاريخ",
+    "en" : "Submitted On",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "target",
+    "columns" : [ "targetActualCode", " targetCode", " targetEntityType", " targetId" ],
+    "ar" : "الجهة",
+    "en" : "Taregt",
+    "type" : "Genericreference"
+  }, {
+    "id" : "viewedOn",
+    "column" : "viewedOn",
+    "ar" : "تاريخ المطالعة",
+    "en" : "Viewed On",
+    "type" : "DateAndTime"
+  } ]
+}

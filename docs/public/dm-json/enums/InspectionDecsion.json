@@ -1,0 +1,24 @@
+{
+  "enum" : "InspectionDecsion",
+  "values" : [ {
+    "id" : "NotInspected",
+    "ar" : "لم يتم الفحص",
+    "en" : "Not Inspected"
+  }, {
+    "id" : "Skipped",
+    "ar" : "تجاهل",
+    "en" : "Skipped"
+  }, {
+    "id" : "Accepted",
+    "ar" : "مقبول",
+    "en" : "Accepted"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "PartiallyRejected",
+    "ar" : "مرفوض جزئيا",
+    "en" : "Partially Rejected"
+  } ]
+}

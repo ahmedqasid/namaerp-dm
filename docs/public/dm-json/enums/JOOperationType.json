@@ -1,0 +1,16 @@
+{
+  "enum" : "JOOperationType",
+  "values" : [ {
+    "id" : "Description",
+    "ar" : "وصف",
+    "en" : "Description"
+  }, {
+    "id" : "Operation",
+    "ar" : "تشغيلة",
+    "en" : "Operation"
+  }, {
+    "id" : "Evaluation",
+    "ar" : "تقييم",
+    "en" : "Evaluation"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "enum" : "MRPAggregationPeriodType",
+  "values" : [ {
+    "id" : "Daily",
+    "ar" : "يومي",
+    "en" : "Daily"
+  }, {
+    "id" : "Weekly",
+    "ar" : "أسبوعي",
+    "en" : "Weekly"
+  }, {
+    "id" : "Monthly",
+    "ar" : "شهرية",
+    "en" : "Monthly"
+  }, {
+    "id" : "Quarter",
+    "ar" : "ربع سنوي",
+    "en" : "Quarter"
+  }, {
+    "id" : "Yearly",
+    "ar" : "سنوية",
+    "en" : "Yearly"
+  } ]
+}

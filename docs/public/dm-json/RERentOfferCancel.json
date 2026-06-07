@@ -1,0 +1,2128 @@
+{
+  "entity" : "RERentOfferCancel",
+  "table" : "RERentOfferCancel",
+  "module" : "realestate-rent",
+  "ar" : "إلغاء حجز عرض سعر إيجار",
+  "arPlural" : "إلغاء حجز عروض أسعار إيجار",
+  "en" : "Rent offer Cancel",
+  "enPlural" : "Rent offer Cancels",
+  "page" : "https://dm.namasoft.com/modules/realestate-rent/RERentOfferCancel.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "attachment",
+    "column" : "attachment_id",
+    "ar" : "مرفق",
+    "en" : "Attachment",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "autoCancelPreviousContract",
+    "column" : "autoCancelPreviousContract",
+    "ar" : "إلغاء العقد السابق للعقار آليا",
+    "en" : "Auto Cancel Previous Contract",
+    "type" : "Boolean"
+  }, {
+    "id" : "block",
+    "column" : "block_id",
+    "ar" : "البلوك",
+    "en" : "Block",
+    "type" : "Reference",
+    "refTo" : "REBlock",
+    "refPath" : "/modules/realestate/REBlock.html"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "broker",
+    "column" : "broker_id",
+    "ar" : "وسيط",
+    "en" : "Broker",
+    "type" : "Reference",
+    "refTo" : "REBroker",
+    "refPath" : "/modules/realestate/REBroker.html"
+  }, {
+    "id" : "building",
+    "column" : "building_id",
+    "ar" : "المبنى",
+    "en" : "Building",
+    "type" : "Reference",
+    "refTo" : "REBuilding",
+    "refPath" : "/modules/realestate/REBuilding.html"
+  }, {
+    "id" : "buyer",
+    "column" : "buyer_id",
+    "ar" : "المشتري",
+    "en" : "Buyer",
+    "type" : "Reference",
+    "refTo" : "REOwner",
+    "refPath" : "/modules/realestate/REOwner.html"
+  }, {
+    "id" : "cancelled",
+    "column" : "cancelled",
+    "ar" : "منتهي",
+    "en" : "cancelled",
+    "type" : "Boolean"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
+  }, {
+    "id" : "cancelledContract",
+    "column" : "cancelledContract_id",
+    "ar" : "إنهاء عقد الإيجار",
+    "en" : "Cancel Rent Contract",
+    "type" : "Reference",
+    "refTo" : "RECancelContract",
+    "refPath" : "/modules/realestate-rent/RECancelContract.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "datesInHijri",
+    "column" : "datesInHijri",
+    "ar" : "العمل بالتاريخ الهجري",
+    "en" : "Dates in hijri",
+    "type" : "Boolean"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "extendedInsuranceValue",
+    "column" : "extendedInsuranceValue",
+    "ar" : "قيمة التأمين الممتدة من العقد السابق وغير موجودة بالإيجارات",
+    "en" : "Extended Insurance Value From Previous Contract And Not Found In Installments",
+    "type" : "Decimal"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "floor",
+    "column" : "floor_id",
+    "ar" : "الطابق",
+    "en" : "Floor",
+    "type" : "Reference",
+    "refTo" : "REFloor",
+    "refPath" : "/modules/realestate/REFloor.html"
+  }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
+    "id" : "genCancelContrReplId",
+    "column" : "genCancelContrReplId",
+    "type" : "ID"
+  }, {
+    "id" : "genCancelContract",
+    "column" : "genCancelContract_id",
+    "ar" : "انهاء عقد الايجار السابق",
+    "en" : "Generated Cancel Contract",
+    "type" : "Reference",
+    "refTo" : "RECancelContract",
+    "refPath" : "/modules/realestate-rent/RECancelContract.html"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "ledgerTransReqId",
+    "column" : "ledgerTransReqId",
+    "type" : "ID"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n10",
+    "column" : "n10",
+    "ar" : "رقم 10",
+    "en" : "Number 10",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "n6",
+    "column" : "n6",
+    "ar" : "رقم 6",
+    "en" : "Number 6",
+    "type" : "Decimal"
+  }, {
+    "id" : "n7",
+    "column" : "n7",
+    "ar" : "رقم 7",
+    "en" : "Number 7",
+    "type" : "Decimal"
+  }, {
+    "id" : "n8",
+    "column" : "n8",
+    "ar" : "رقم 8",
+    "en" : "Number 8",
+    "type" : "Decimal"
+  }, {
+    "id" : "n9",
+    "column" : "n9",
+    "ar" : "رقم 9",
+    "en" : "Number 9",
+    "type" : "Decimal"
+  }, {
+    "id" : "nextContract",
+    "columns" : [ "nextContractActualCode", " nextContractCode", " nextContractEntityType", " nextContractId" ],
+    "ar" : "عقد الإيجار التالي",
+    "en" : "Next Contract",
+    "type" : "Genericreference"
+  }, {
+    "id" : "nextContractRenter",
+    "columns" : [ "nextContractRenterActualCode", " nextContractRenterCode", " nextContractRenterEntityType", " nextContractRenterId" ],
+    "ar" : "عقد الإيجار التالي للمستأجر",
+    "en" : "Next Contract For Renter",
+    "type" : "Genericreference"
+  }, {
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+  }, {
+    "id" : "owner",
+    "column" : "owner_id",
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Reference",
+    "refTo" : "REOwner",
+    "refPath" : "/modules/realestate/REOwner.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "period.uom",
+    "column" : "periodUom",
+    "ar" : "المدة | الوحدة",
+    "en" : "Duration | UOM",
+    "type" : "Enum",
+    "enum" : "TimePeriodType"
+  }, {
+    "id" : "period.value",
+    "column" : "periodValue",
+    "ar" : "المدة | القيمة",
+    "en" : "Duration | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "prevContractRenter",
+    "columns" : [ "prevContractRenterActualCode", " prevContractRenterCode", " prevContractRenterEntityType", " prevContractRenterId" ],
+    "ar" : "عقد الإيجار السابق للمستأجر",
+    "en" : "Previous Contract For Renter",
+    "type" : "Genericreference"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
+    "id" : "previousContract",
+    "columns" : [ "previousContractActualCode", " previousContractCode", " previousContractEntityType", " previousContractId" ],
+    "ar" : "العقد السابق",
+    "en" : "Previous Contract",
+    "type" : "Genericreference"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "project",
+    "column" : "project_id",
+    "ar" : "المشروع",
+    "en" : "Project",
+    "type" : "Reference",
+    "refTo" : "REProject",
+    "refPath" : "/modules/realestate/REProject.html"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "purpose",
+    "column" : "purpose",
+    "ar" : "الغرض",
+    "en" : "Purpose",
+    "type" : "Text"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "rentContract",
+    "columns" : [ "rentContractActualCode", " rentContractCode", " rentContractEntityType", " rentContractId" ],
+    "ar" : "عقد الايجار",
+    "en" : "Rent contract",
+    "type" : "Genericreference"
+  }, {
+    "id" : "rentPurpose",
+    "column" : "rentPurpose",
+    "ar" : "الغرض من الايجار",
+    "en" : "Rent purpose",
+    "type" : "Text"
+  }, {
+    "id" : "rentedEstate",
+    "columns" : [ "rentedEstateActualCode", " rentedEstateCode", " rentedEstateEntityType", " rentedEstateId" ],
+    "ar" : "العقار المؤجر",
+    "en" : "rented Estate",
+    "type" : "Genericreference"
+  }, {
+    "id" : "reservationStatus",
+    "column" : "reservationStatus",
+    "ar" : "حالة الحجز",
+    "en" : "Reservation Status",
+    "type" : "Enum",
+    "enum" : "ReservationStatus"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "salesMan",
+    "columns" : [ "salesManActualCode", " salesManCode", " salesManEntityType", " salesManId" ],
+    "ar" : "مندوب المبيعات",
+    "en" : "Salesman",
+    "type" : "Genericreference"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "square",
+    "column" : "square_id",
+    "ar" : "مربع",
+    "en" : "Square",
+    "type" : "Reference",
+    "refTo" : "RESquare",
+    "refPath" : "/modules/realestate/RESquare.html"
+  }, {
+    "id" : "standardTermsConditions",
+    "column" : "standardTermsConditions_id",
+    "ar" : "بنود تعاقد",
+    "en" : "Standard Terms and Conditions",
+    "type" : "Reference",
+    "refTo" : "REStandardTermsConditions",
+    "refPath" : "/modules/realestate/REStandardTermsConditions.html"
+  }, {
+    "id" : "tax1Total",
+    "column" : "tax1Total",
+    "ar" : "إجمالي ضريبة مبيعات 1",
+    "en" : "Tax 1 Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "tax2Total",
+    "column" : "tax2Total",
+    "ar" : "إجمالي ضريبة مبيعات 2",
+    "en" : "Tax 2 Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "taxAuthoritySysFields.submissionUUID",
+    "column" : "submissionUUID",
+    "ar" : "معرف مرحلة الارسال",
+    "en" : "Submission ID",
+    "type" : "Text"
+  }, {
+    "id" : "taxAuthoritySysFields.taxAuthEntityStatusType",
+    "column" : "taxAuthEntityStatusType",
+    "ar" : "حالة المستند بالنسبة لمصلحة الضرائب",
+    "en" : "Tax Authority Document Type",
+    "type" : "Enum",
+    "enum" : "TaxAuthorityEntityStatusType"
+  }, {
+    "id" : "taxAuthoritySysFields.taxAuthUUID",
+    "column" : "taxAuthUUID",
+    "ar" : "معرف المستند داخل مصلحة الضرائب",
+    "en" : "Tax Authority Document View ID",
+    "type" : "Text"
+  }, {
+    "id" : "taxAuthoritySysFields.temporaryId",
+    "column" : "temporaryId",
+    "ar" : "معرف لمطالعة المستند بدون تسجيل دخول",
+    "en" : "Tax Authority Not Registered Person Document View ID",
+    "type" : "Text"
+  }, {
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
+    "type" : "BigText"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  }, {
+    "id" : "totalAfterTaxes",
+    "column" : "totalAfterTaxes",
+    "ar" : "الصافي بعد الضريبة",
+    "en" : "Total After Taxes",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalDiscount",
+    "column" : "totalDiscount",
+    "ar" : "إجمالي الخصم",
+    "en" : "Total Discount",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalInsuranceValue",
+    "column" : "totalInsuranceValue",
+    "ar" : "إجمالي التأمين",
+    "en" : "Total Insurance Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "type",
+    "column" : "type",
+    "ar" : "النوع",
+    "en" : "Type",
+    "type" : "Enum",
+    "enum" : "PeriodType"
+  }, {
+    "id" : "unit",
+    "column" : "unit_id",
+    "ar" : "وحدة سكنية",
+    "en" : "Housing units",
+    "type" : "Reference",
+    "refTo" : "RERentalUnit",
+    "refPath" : "/modules/realestate/RERentalUnit.html"
+  }, {
+    "id" : "unitGroup",
+    "column" : "unitGroup_id",
+    "ar" : "وحدة مجمعة",
+    "en" : "Unit group",
+    "type" : "Reference",
+    "refTo" : "REUnitGroup",
+    "refPath" : "/modules/realestate/REUnitGroup.html"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "values.addedYearPercentage10",
+    "column" : "addedYearPercentage10",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearPercentage2",
+    "column" : "addedYearPercentage2",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearPercentage3",
+    "column" : "addedYearPercentage3",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearPercentage4",
+    "column" : "addedYearPercentage4",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearPercentage5",
+    "column" : "addedYearPercentage5",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearPercentage6",
+    "column" : "addedYearPercentage6",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearPercentage7",
+    "column" : "addedYearPercentage7",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearPercentage8",
+    "column" : "addedYearPercentage8",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearPercentage9",
+    "column" : "addedYearPercentage9",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearValue10",
+    "column" : "addedYearValue10",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearValue2",
+    "column" : "addedYearValue2",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearValue3",
+    "column" : "addedYearValue3",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearValue4",
+    "column" : "addedYearValue4",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearValue5",
+    "column" : "addedYearValue5",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearValue6",
+    "column" : "addedYearValue6",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearValue7",
+    "column" : "addedYearValue7",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearValue8",
+    "column" : "addedYearValue8",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.addedYearValue9",
+    "column" : "addedYearValue9",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.commissionCollection",
+    "column" : "commissionCollection",
+    "ar" : "عمولة التحصيل",
+    "en" : "Commission Collection Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.commissionCollectionPercentage",
+    "column" : "commissionCollectionPercentage",
+    "ar" : "نسبة عمولة التحصيل",
+    "en" : "Commission Collection Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.commissionPercentage",
+    "column" : "commissionPercentage",
+    "ar" : "السعي %",
+    "en" : "Commission %",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.commissionValue",
+    "column" : "commissionValue",
+    "ar" : "قيمة السعي",
+    "en" : "Commission value",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.compoundIncrease",
+    "column" : "compoundIncrease",
+    "ar" : "الزيادة السنوية مركبة",
+    "en" : "Compound Yearly Increase",
+    "type" : "Boolean"
+  }, {
+    "id" : "values.currencyRate",
+    "column" : "currencyRate",
+    "ar" : "المعدل",
+    "en" : "Currency Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.insurancePercentage",
+    "column" : "insurancePercentage",
+    "ar" : "التأمين | %",
+    "en" : "Insurance | Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.insuranceValue",
+    "column" : "insuranceValue",
+    "ar" : "التأمين | قيمة التأمين",
+    "en" : "Insurance Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.maintenancePercentage",
+    "column" : "maintenancePercentage",
+    "ar" : "مصاريف الصيانة %",
+    "en" : "Maintenance %",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.maintenanceValue",
+    "column" : "maintenanceValue",
+    "ar" : "القيمة",
+    "en" : "Maintenance Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.rentValuePerPeriod",
+    "column" : "rentValuePerPeriod",
+    "ar" : "قيمة الإيجار بالفترة الواحدة",
+    "en" : "Rent Value per period",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.rentValuePerYear.amount",
+    "column" : "amount",
+    "ar" : "اساس العقد السنوي",
+    "en" : "Rent Value Per Year",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.rentValuePerYear.currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "values.totalContractValue",
+    "column" : "totalContractValue",
+    "ar" : "إجمالي قيمة التعاقد",
+    "en" : "Total Contract Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.totalRentValue",
+    "column" : "totalRentValue",
+    "ar" : "إجمالي ايجارات العقد",
+    "en" : "total RentValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.treatMaintenanceAsInstallments",
+    "column" : "treatMaintenanceAsInstallments",
+    "ar" : "معاملة تكاليف الصيانة معاملة الأقساط",
+    "en" : "Treat Maintenance Costs As Installments",
+    "type" : "Boolean"
+  }, {
+    "id" : "values.treatWaterAsInstallments",
+    "column" : "treatWaterAsInstallments",
+    "ar" : "معاملة المياه معاملة الأقساط",
+    "en" : "Treat Water Costs As Installments",
+    "type" : "Boolean"
+  }, {
+    "id" : "values.waterExpensePercentage",
+    "column" : "waterExpensePercentage",
+    "ar" : "مصاريف المياة %",
+    "en" : "Water Expenses %",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.waterExpenseValue",
+    "column" : "waterExpenseValue",
+    "ar" : "قيمة مصاريف المياه",
+    "en" : "Water expense value",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.year10Discount",
+    "column" : "year10Discount",
+    "ar" : "خصم السنة العاشرة %",
+    "en" : "Year 10 %",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.year1Discount",
+    "column" : "year1Discount",
+    "ar" : "خصم السنة الأولى %",
+    "en" : "Year 1 %",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.year2Discount",
+    "column" : "year2Discount",
+    "ar" : "خصم السنة الثانية %",
+    "en" : "Year 2 %",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.year3Discount",
+    "column" : "year3Discount",
+    "ar" : "خصم السنة الثالثة %",
+    "en" : "Year 3 %",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.year4Discount",
+    "column" : "year4Discount",
+    "ar" : "خصم السنة الرابعة %",
+    "en" : "Year 4 %",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.year5Discount",
+    "column" : "year5Discount",
+    "ar" : "خصم السنة الخامسة %",
+    "en" : "Year 5 %",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.year6Discount",
+    "column" : "year6Discount",
+    "ar" : "خصم السنة السادسة %",
+    "en" : "Year 6 %",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.year7Discount",
+    "column" : "year7Discount",
+    "ar" : "خصم السنة السابعة %",
+    "en" : "Year 7 %",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.year8Discount",
+    "column" : "year8Discount",
+    "ar" : "خصم السنة الثامنه %",
+    "en" : "Year 8 %",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.year9Discount",
+    "column" : "year9Discount",
+    "ar" : "خصم السنة التاسعة %",
+    "en" : "Year 9 %",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.yearlyAddedPercentage",
+    "column" : "yearlyAddedPercentage",
+    "ar" : "الزيادة السنوية %",
+    "en" : "Yearly Added %",
+    "type" : "Decimal"
+  }, {
+    "id" : "values.yearlyAddedValue",
+    "column" : "yearlyAddedValue",
+    "ar" : "القيمة المضافة سنويا",
+    "en" : "yearly added value percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "yearlyAddedType",
+    "column" : "yearlyAddedType",
+    "ar" : "طريقة الزيادة السنوية",
+    "en" : "Yearly added value type",
+    "type" : "Enum",
+    "enum" : "YearlyAddedValueType"
+  } ],
+  "details" : [ {
+    "id" : "details",
+    "table" : "RERentOfferCancelLine",
+    "joinColumn" : "rERentOfferCancel_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "fields" : [ {
+      "id" : "details.amount",
+      "column" : "amount",
+      "ar" : " المبلغ",
+      "en" : " Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.collectedByFPValue",
+      "column" : "collectedByFPValue",
+      "ar" : "محصل باوراق قبض",
+      "en" : "Collected By FP Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.currencyRate",
+      "column" : "currencyRate",
+      "ar" : "المعدل",
+      "en" : "Currency Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "details.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "details.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "details.date4",
+      "column" : "date4",
+      "ar" : "تاريخ 4",
+      "en" : "Date4",
+      "type" : "Date"
+    }, {
+      "id" : "details.date5",
+      "column" : "date5",
+      "ar" : "تاريخ 5",
+      "en" : "Date5",
+      "type" : "Date"
+    }, {
+      "id" : "details.discountPercentage",
+      "column" : "discountPercentage",
+      "ar" : "نسبة التخفيض",
+      "en" : "Discount | Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.discountValue",
+      "column" : "discountValue",
+      "ar" : "الخصم | القيمة",
+      "en" : "Discount | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.dueDate",
+      "column" : "dueDate",
+      "ar" : "تاريخ الاستحقاق",
+      "en" : "Due Date",
+      "type" : "Date"
+    }, {
+      "id" : "details.expenseType",
+      "column" : "expenseType_id",
+      "ar" : "نوع المصروف",
+      "en" : "Expense Type",
+      "type" : "Reference",
+      "refTo" : "REExpenseType",
+      "refPath" : "/modules/realestate/REExpenseType.html"
+    }, {
+      "id" : "details.feeType",
+      "column" : "feeType_id",
+      "ar" : " نوع رسم استثمار عقاري",
+      "en" : " Real Estate Fee Type",
+      "type" : "Reference",
+      "refTo" : "REFeeType",
+      "refPath" : "/modules/realestate/REFeeType.html"
+    }, {
+      "id" : "details.financialPaper",
+      "column" : "financialPaper_id",
+      "ar" : "الورقة التجارية",
+      "en" : "Commercial Paper",
+      "type" : "Reference",
+      "refTo" : "FinancialPaper",
+      "refPath" : "/modules/accounting-banks/FinancialPaper.html"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.installmentCode",
+      "column" : "installmentCode",
+      "ar" : "كود القسط",
+      "en" : "Installment Code",
+      "type" : "Text"
+    }, {
+      "id" : "details.installmentDescription",
+      "column" : "installmentDescription",
+      "ar" : "وصف القسط",
+      "en" : "Installment Description",
+      "type" : "BigText"
+    }, {
+      "id" : "details.installmentDoc",
+      "columns" : [ "installmentDocActualCode", " installmentDocCode", " installmentDocEntityType", " installmentDocId" ],
+      "ar" : "مستند القسط",
+      "en" : "Installment doc",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.mergeValue1",
+      "column" : "mergeValue1",
+      "ar" : "قيمة مدمجة 1",
+      "en" : "Merge Value 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.mergeValue2",
+      "column" : "mergeValue2",
+      "ar" : "قيمة مدمجة 2",
+      "en" : "Merge Value 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.mergeValue3",
+      "column" : "mergeValue3",
+      "ar" : "قيمة مدمجة 3",
+      "en" : "Merge Value 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.mergeValue4",
+      "column" : "mergeValue4",
+      "ar" : "قيمة مدمجة 4",
+      "en" : "Merge Value 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.mergeValue5",
+      "column" : "mergeValue5",
+      "ar" : "قيمة مدمجة 5",
+      "en" : "Merge Value 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.netValue",
+      "column" : "netValue",
+      "ar" : "الصافي",
+      "en" : "Net value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.paidValue",
+      "column" : "paidValue",
+      "ar" : "القيمة المدفوعة",
+      "en" : "Paid Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.payed",
+      "column" : "payed",
+      "ar" : "تم الدفع",
+      "en" : "payed",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.penaletyValue",
+      "column" : "penaletyValue",
+      "ar" : "قيمة الغرامة",
+      "en" : "Penalety value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.penaltyPercentage",
+      "column" : "penaltyPercentage",
+      "ar" : "من الراتب | %",
+      "en" : "From Salary|percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.refpCreationInfo.amount",
+      "column" : "fpAmount",
+      "ar" : " المبلغ",
+      "en" : " Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.refpCreationInfo.bankAccount",
+      "column" : "fpBankAccount_id",
+      "ar" : "رقم حساب البنك",
+      "en" : "Bank account",
+      "type" : "Reference",
+      "refTo" : "BankAccount",
+      "refPath" : "/modules/accounting-banks/BankAccount.html"
+    }, {
+      "id" : "details.refpCreationInfo.beneficiary",
+      "column" : "fpBeneficiary",
+      "ar" : "المستفيد",
+      "en" : "Beneficiary",
+      "type" : "Text"
+    }, {
+      "id" : "details.refpCreationInfo.chequeNumber",
+      "column" : "fpChequeNumber",
+      "ar" : "رقم الشيك",
+      "en" : "Cheque Number",
+      "type" : "Text"
+    }, {
+      "id" : "details.refpCreationInfo.concernedParty",
+      "columns" : [ "fpConcernedPartyActualCode", " fpConcernedPartyCode", " fpConcernedPartyEntityType", " fpConcernedPartyId" ],
+      "ar" : "الجهة المختصة",
+      "en" : "Concerned Party",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.refpCreationInfo.concernedPartyAccForRVPV",
+      "column" : "fpConcernedPartyAccForRVPV_id",
+      "ar" : "حساب الطرف المعني للقبض والصرف",
+      "en" : "Concerned Party Account for Payment And Receipt",
+      "type" : "Reference",
+      "refTo" : "Account",
+      "refPath" : "/modules/accounting/Account.html"
+    }, {
+      "id" : "details.refpCreationInfo.currency",
+      "column" : "fpCurrency_id",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "details.refpCreationInfo.customerBank",
+      "column" : "fpCustomerBank_id",
+      "ar" : "بنك العميل",
+      "en" : "Customer Bank",
+      "type" : "Reference",
+      "refTo" : "Bank",
+      "refPath" : "/modules/accounting-banks/Bank.html"
+    }, {
+      "id" : "details.refpCreationInfo.dueDate",
+      "column" : "fpDueDate",
+      "ar" : "تاريخ الاستحقاق",
+      "en" : "Due Date",
+      "type" : "Date"
+    }, {
+      "id" : "details.refpCreationInfo.fpbook",
+      "columns" : [ "fpFpbookActualCode", " fpFpbookCode", " fpFpbookEntityType", " fpFpbookId" ],
+      "ar" : " الدفتر",
+      "en" : " Book",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.refpCreationInfo.issuer",
+      "column" : "fpIssuer",
+      "ar" : "الساحب",
+      "en" : "Issuer",
+      "type" : "Text"
+    }, {
+      "id" : "details.refpCreationInfo.name1",
+      "column" : "fpName1",
+      "ar" : "الاسم العربي",
+      "en" : "Name1",
+      "type" : "Text"
+    }, {
+      "id" : "details.refpCreationInfo.name2",
+      "column" : "fpName2",
+      "ar" : "الاسم الإنجليزي",
+      "en" : "Name2",
+      "type" : "Text"
+    }, {
+      "id" : "details.refpCreationInfo.paperCode",
+      "column" : "fpPaperCode",
+      "ar" : "كود الورقة",
+      "en" : "Paper Code",
+      "type" : "Text"
+    }, {
+      "id" : "details.refpCreationInfo.paperType",
+      "column" : "fpPaperType",
+      "ar" : "نوع الورقة",
+      "en" : "Paper Type",
+      "type" : "Enum",
+      "enum" : "FinancialPaperType"
+    }, {
+      "id" : "details.refpCreationInfo.signedBy",
+      "column" : "fpSignedBy",
+      "ar" : "اسم الموقع",
+      "en" : "Signed By",
+      "type" : "Text"
+    }, {
+      "id" : "details.refpCreationInfo.subsidiary",
+      "columns" : [ "fpSubsidiaryActualCode", " fpSubsidiaryCode", " fpSubsidiaryEntityType", " fpSubsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.refpCreationInfo.value.amount",
+      "column" : "fpValueAmount",
+      "ar" : " المبلغ",
+      "en" : " Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.refpCreationInfo.value.currency",
+      "column" : "fpValueCurrency_id",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "details.remainingCollectVal",
+      "column" : "remainingCollectVal",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.remainingFPVal",
+      "column" : "remainingFPVal",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.remainingValue",
+      "column" : "remainingValue",
+      "ar" : "المتبقي",
+      "en" : "Remaining Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.remarks",
+      "column" : "remarks",
+      "ar" : " ملاحظات",
+      "en" : " Description",
+      "type" : "BigText"
+    }, {
+      "id" : "details.requestedCollectValue",
+      "column" : "requestedCollectValue",
+      "ar" : "مطلوب تحصيله",
+      "en" : "Requested Collect Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.selectedLine",
+      "column" : "selectedLine",
+      "ar" : "اختيار",
+      "en" : "Select",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.systemPaidValue",
+      "column" : "systemPaidValue",
+      "ar" : "المحصل نظاميا",
+      "en" : "System paid value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax1.afterValue",
+      "column" : "tax1AfterValue",
+      "ar" : "ضريبة مبيعات | الصافي",
+      "en" : "Tax | After Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax1.maxNormalPercent",
+      "column" : "tax1MaxNormalPercent",
+      "ar" : "ضريبة مبيعات | %",
+      "en" : "Item Tax | %",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax1.percentage",
+      "column" : "tax1Percentage",
+      "ar" : "قيمة إضافية 1",
+      "en" : "Tax 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax1.value",
+      "column" : "tax1Value",
+      "ar" : "ضريبة مبيعات | القيمة",
+      "en" : "Tax value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax2.afterValue",
+      "column" : "tax2AfterValue",
+      "ar" : "ضريبة مبيعات 2 | الصافي",
+      "en" : "Tax 2 | After Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax2.maxNormalPercent",
+      "column" : "tax2MaxNormalPercent",
+      "ar" : "ضريبة مبيعات 2 | %",
+      "en" : "Tax 2 | %",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax2.percentage",
+      "column" : "tax2Percentage",
+      "ar" : "قيمة إضافية 2",
+      "en" : "Tax 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax2.value",
+      "column" : "tax2Value",
+      "ar" : "ضريبة مبيعات 2 | القيمة",
+      "en" : "Tax 2 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "details.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "details.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "details.toDate",
+      "column" : "toDate",
+      "ar" : "إلى تاريخ",
+      "en" : "To Date",
+      "type" : "Date"
+    }, {
+      "id" : "details.totalAfterTaxes",
+      "column" : "totalAfterTaxes",
+      "ar" : "الصافي بعد الضريبة",
+      "en" : "Total After Taxes",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.type",
+      "column" : "type",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Enum",
+      "enum" : "REInstallmentType"
+    } ]
+  }, {
+    "id" : "discounts",
+    "table" : "RERentOfferCancelDiscountLine",
+    "joinColumn" : "rERentOfferCancel_id",
+    "ar" : "الخصومات",
+    "en" : "Discounts",
+    "fields" : [ {
+      "id" : "discounts.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "discounts.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "discounts.year",
+      "column" : "year",
+      "ar" : "السنة",
+      "en" : "Year",
+      "type" : "Integer"
+    }, {
+      "id" : "discounts.yearlyDiscount",
+      "column" : "yearlyDiscount",
+      "ar" : "خصم سنوي %",
+      "en" : "yearly discount",
+      "type" : "Decimal"
+    } ]
+  }, {
+    "id" : "expenses",
+    "table" : "RERentOfferCancelExpensesLine",
+    "joinColumn" : "rERentOfferCancel_id",
+    "ar" : "مصروفات",
+    "en" : "Expense",
+    "fields" : [ {
+      "id" : "expenses.copiedFromPrevContract",
+      "column" : "copiedFromPrevContract",
+      "ar" : "منسوخ من العقد السابق",
+      "en" : "Copied From Previous Contract",
+      "type" : "Boolean"
+    }, {
+      "id" : "expenses.doNotMultiplyValueInPeriod",
+      "column" : "doNotMultiplyValueInPeriod",
+      "ar" : "عدم ضرب قيمة المصروف في الفترة",
+      "en" : "Do Not Multiply Expense Value By Period",
+      "type" : "Boolean"
+    }, {
+      "id" : "expenses.expensePercentage",
+      "column" : "expensePercentage",
+      "ar" : "نسبة المصروف",
+      "en" : "Expense Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "expenses.expenseType",
+      "column" : "expenseType_id",
+      "ar" : "نوع المصروف",
+      "en" : "Expense Type",
+      "type" : "Reference",
+      "refTo" : "REExpenseType",
+      "refPath" : "/modules/realestate/REExpenseType.html"
+    }, {
+      "id" : "expenses.expenseValue",
+      "column" : "expenseValue",
+      "ar" : "قيمة المصروف",
+      "en" : "Expense Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "expenses.expenseValueType",
+      "column" : "expenseValueType",
+      "ar" : "نوع قيمة المصروف",
+      "en" : "Expense Value Type",
+      "type" : "Enum",
+      "enum" : "ExpensValueType"
+    }, {
+      "id" : "expenses.fromYearNumber",
+      "column" : "fromYearNumber",
+      "ar" : "من السنة رقم",
+      "en" : "From Year Number",
+      "type" : "Integer"
+    }, {
+      "id" : "expenses.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "expenses.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "expenses.paidEvery",
+      "column" : "paidEvery",
+      "ar" : "يستحق كل",
+      "en" : "Paid Every",
+      "type" : "Enum",
+      "enum" : "PeriodType"
+    }, {
+      "id" : "expenses.percentBasis",
+      "column" : "percentBasis",
+      "ar" : "اساس النسبة",
+      "en" : "Percentage Basis",
+      "type" : "Enum",
+      "enum" : "PercentBasis"
+    }, {
+      "id" : "expenses.toYearNumber",
+      "column" : "toYearNumber",
+      "ar" : "الى السنة رقم",
+      "en" : "To Year Number",
+      "type" : "Integer"
+    }, {
+      "id" : "expenses.type",
+      "column" : "type",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Enum",
+      "enum" : "REInstallmentType"
+    } ]
+  }, {
+    "id" : "increases",
+    "table" : "RERentOfferCancelIncreasesLine",
+    "joinColumn" : "rERentOfferCancel_id",
+    "ar" : "الزيادة السنوية",
+    "en" : "Yearly Increases",
+    "fields" : [ {
+      "id" : "increases.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "increases.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "increases.year",
+      "column" : "year",
+      "ar" : "السنة",
+      "en" : "Year",
+      "type" : "Integer"
+    }, {
+      "id" : "increases.yearlyAddedPercentage",
+      "column" : "yearlyAddedPercentage",
+      "ar" : "الزيادة السنوية %",
+      "en" : "Yearly Added %",
+      "type" : "Decimal"
+    }, {
+      "id" : "increases.yearlyAddedValue",
+      "column" : "yearlyAddedValue",
+      "ar" : "القيمة المضافة سنويا",
+      "en" : "yearly added value percentage",
+      "type" : "Decimal"
+    } ]
+  }, {
+    "id" : "lines",
+    "table" : "RERentOfferCancelTermsCond",
+    "joinColumn" : "rERentOfferCancel_id",
+    "ar" : " التفاصيل",
+    "en" : " Details",
+    "fields" : [ {
+      "id" : "lines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "lines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "lines.termCode",
+      "column" : "termCode",
+      "ar" : "كود البند",
+      "en" : "Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "lines.termsConditions",
+      "column" : "termsConditions",
+      "ar" : "تفاصيل البند",
+      "en" : "Terms and Condition Details",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "termLines",
+    "table" : "RERentOffCancelStandarTermLine",
+    "joinColumn" : "rERentOfferCancel_id",
+    "ar" : "الينود القياسيه",
+    "en" : "Standard Terms",
+    "fields" : [ {
+      "id" : "termLines.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "termLines.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "termLines.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
+    }, {
+      "id" : "termLines.date4",
+      "column" : "date4",
+      "ar" : "تاريخ 4",
+      "en" : "Date4",
+      "type" : "Date"
+    }, {
+      "id" : "termLines.date5",
+      "column" : "date5",
+      "ar" : "تاريخ 5",
+      "en" : "Date5",
+      "type" : "Date"
+    }, {
+      "id" : "termLines.extensionFines",
+      "column" : "extensionFines",
+      "ar" : "مجموع غرامات التمديد",
+      "en" : "Total Extension Fine",
+      "type" : "Decimal"
+    }, {
+      "id" : "termLines.fulfillmentDate",
+      "column" : "fulfillmentDate",
+      "ar" : "تاريخ التحقق",
+      "en" : "Fulfillment Date",
+      "type" : "Date"
+    }, {
+      "id" : "termLines.fulfillmentDoc",
+      "column" : "fulfillmentDoc_id",
+      "type" : "Reference",
+      "refTo" : "StandardTermFulfillment",
+      "refPath" : "/modules/basic/StandardTermFulfillment.html"
+    }, {
+      "id" : "termLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "termLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "termLines.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "termLines.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "termLines.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "termLines.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "termLines.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "termLines.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "termLines.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "termLines.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "termLines.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "termLines.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "termLines.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "termLines.standardTerm",
+      "column" : "standardTerm_id",
+      "ar" : "البند القياسي",
+      "en" : "Standard Term",
+      "type" : "Reference",
+      "refTo" : "SalesStandardTerm",
+      "refPath" : "/modules/basic/SalesStandardTerm.html"
+    }, {
+      "id" : "termLines.termExtendedEndDate",
+      "column" : "termExtendedEndDate",
+      "ar" : "تاريخ نهاية عمل البند بعد التمديد",
+      "en" : "Standard Term End Date After Extension",
+      "type" : "Date"
+    }, {
+      "id" : "termLines.termPlannedEndDate",
+      "column" : "termPlannedEndDate",
+      "ar" : "تاريخ نهاية عمل البند المخططة",
+      "en" : "Standard Term Planned End Date",
+      "type" : "Date"
+    }, {
+      "id" : "termLines.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "termLines.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "termLines.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "termLines.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "termLines.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "yearlyPeriodTypes",
+    "table" : "RERentOfferCancelYearlyPayment",
+    "joinColumn" : "rERentOfferCancel_id",
+    "ar" : "أنواع الايجارات سنوياً",
+    "en" : "Yearly Rent Types",
+    "fields" : [ {
+      "id" : "yearlyPeriodTypes.attachment",
+      "column" : "attachment_id",
+      "ar" : "مرفق",
+      "en" : "Attachment",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "yearlyPeriodTypes.b1",
+      "column" : "b1",
+      "ar" : "Boolean 1",
+      "en" : "Boolean 1",
+      "type" : "Boolean"
+    }, {
+      "id" : "yearlyPeriodTypes.b2",
+      "column" : "b2",
+      "ar" : "Boolean 2",
+      "en" : "Boolean 2",
+      "type" : "Boolean"
+    }, {
+      "id" : "yearlyPeriodTypes.b3",
+      "column" : "b3",
+      "ar" : "Boolean 3",
+      "en" : "Boolean 3",
+      "type" : "Boolean"
+    }, {
+      "id" : "yearlyPeriodTypes.b4",
+      "column" : "b4",
+      "ar" : "Boolean 4",
+      "en" : "Boolean 4",
+      "type" : "Boolean"
+    }, {
+      "id" : "yearlyPeriodTypes.b5",
+      "column" : "b5",
+      "ar" : "Boolean 5",
+      "en" : "Boolean 5",
+      "type" : "Boolean"
+    }, {
+      "id" : "yearlyPeriodTypes.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "yearlyPeriodTypes.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "yearlyPeriodTypes.fromYearNumber",
+      "column" : "fromYearNumber",
+      "ar" : "من السنة رقم",
+      "en" : "From Year Number",
+      "type" : "Integer"
+    }, {
+      "id" : "yearlyPeriodTypes.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "yearlyPeriodTypes.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "yearlyPeriodTypes.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "yearlyPeriodTypes.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "yearlyPeriodTypes.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "yearlyPeriodTypes.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "yearlyPeriodTypes.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "yearlyPeriodTypes.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "yearlyPeriodTypes.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "yearlyPeriodTypes.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "yearlyPeriodTypes.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "yearlyPeriodTypes.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "yearlyPeriodTypes.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "yearlyPeriodTypes.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    }, {
+      "id" : "yearlyPeriodTypes.toYearNumber",
+      "column" : "toYearNumber",
+      "ar" : "الى السنة رقم",
+      "en" : "To Year Number",
+      "type" : "Integer"
+    }, {
+      "id" : "yearlyPeriodTypes.type",
+      "column" : "type",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Enum",
+      "enum" : "PeriodType"
+    } ]
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "BankAssuranceType",
+  "values" : [ {
+    "id" : "Revocable",
+    "ar" : "قابل للإلغاء",
+    "en" : "Revocable"
+  }, {
+    "id" : "IrRevocable",
+    "ar" : "غير قابل للإلغاء",
+    "en" : "IrRevocable"
+  } ]
+}

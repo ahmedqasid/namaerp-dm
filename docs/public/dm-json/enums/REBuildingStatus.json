@@ -1,0 +1,12 @@
+{
+  "enum" : "REBuildingStatus",
+  "values" : [ {
+    "id" : "Free",
+    "ar" : "شاغر",
+    "en" : "Free"
+  }, {
+    "id" : "Occupied",
+    "ar" : "مشغول",
+    "en" : "Occupied"
+  } ]
+}

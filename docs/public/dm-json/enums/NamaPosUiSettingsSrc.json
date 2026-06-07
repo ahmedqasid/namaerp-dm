@@ -1,0 +1,28 @@
+{
+  "enum" : "NamaPosUiSettingsSrc",
+  "values" : [ {
+    "id" : "NamaPOSSalesInvoice",
+    "ar" : "فاتورة مبيعات نقاط البيع",
+    "en" : "POS Sales Invoice"
+  }, {
+    "id" : "NamaPOSSalesReturn",
+    "ar" : "مردود نقاط البيع",
+    "en" : "POS Sales Return"
+  }, {
+    "id" : "NamaPOSSalesReplacement",
+    "ar" : "إستبدال مبيعات نقاط البيع",
+    "en" : "POS Sales Replacement"
+  }, {
+    "id" : "NamaPOSStockTransferReq",
+    "ar" : "طلب تحويل مخزني نقاط البيع",
+    "en" : "POS Stock Transfer Request"
+  }, {
+    "id" : "NamaPOSStockTakingDetails",
+    "ar" : "لجنة جرد نقط بيع",
+    "en" : "Point of Sale StockTaking Details Document"
+  }, {
+    "id" : "NamaPOSOrderReservation",
+    "ar" : "سند حجز اوردر نقاط بيع",
+    "en" : "POS Order Reservation"
+  } ]
+}

@@ -1,0 +1,105 @@
+{
+  "entity" : "SysSecurityFieldAuthority",
+  "table" : "SysSecurityFieldAuthority",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SysSecurityFieldAuthority.html",
+  "fields" : [ {
+    "id" : "applicabeWhen",
+    "column" : "applicabeWhen",
+    "ar" : "تطبق عند",
+    "en" : "Applied when",
+    "type" : "Enum",
+    "enum" : "ApplicableWhen"
+  }, {
+    "id" : "applicableWithDraftMode",
+    "column" : "applicableWithDraftMode",
+    "ar" : "تطبق عند | مسودm",
+    "en" : "ApplicableWith | Draft Mode",
+    "type" : "Boolean"
+  }, {
+    "id" : "applicableWithNewMode",
+    "column" : "applicableWithNewMode",
+    "ar" : "تطبق عند | جديد",
+    "en" : "ApplicableWith | New Mode",
+    "type" : "Boolean"
+  }, {
+    "id" : "applicableWithUpdateMode",
+    "column" : "applicableWithUpdateMode",
+    "ar" : "تطبق عند | تعديل",
+    "en" : "ApplicableWith | Update Mode",
+    "type" : "Boolean"
+  }, {
+    "id" : "authorityType",
+    "column" : "authorityType",
+    "ar" : "نوع التحكم",
+    "en" : "Preview Type",
+    "type" : "Enum",
+    "enum" : "FieldAuthorityType"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "fieldId",
+    "column" : "fieldId",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lineNumber",
+    "column" : "lineNumber",
+    "ar" : "رقم السطر",
+    "en" : "Line Number",
+    "type" : "Integer"
+  }, {
+    "id" : "preventCopyLine",
+    "column" : "preventCopyLine",
+    "ar" : "منع نسخ سطر",
+    "en" : "Prevent Copy Line",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventDeleteLine",
+    "column" : "preventDeleteLine",
+    "ar" : "منع حذف سطر",
+    "en" : "Prevent Delete Line",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventInsertLine",
+    "column" : "preventInsertLine",
+    "ar" : "منع ادراج سطر",
+    "en" : "Prevent Insert Line",
+    "type" : "Boolean"
+  }, {
+    "id" : "refId",
+    "column" : "refId",
+    "type" : "ID"
+  }, {
+    "id" : "remove",
+    "column" : "remove",
+    "ar" : "حذف",
+    "en" : "Remove",
+    "type" : "Boolean"
+  }, {
+    "id" : "securityProfile",
+    "column" : "securityProfile_id",
+    "ar" : "الصلاحيات",
+    "en" : "SecurityProfile",
+    "type" : "Reference",
+    "refTo" : "SecurityProfile",
+    "refPath" : "/modules/basic/SecurityProfile.html"
+  }, {
+    "id" : "targetEntities",
+    "column" : "targetEntities_id",
+    "ar" : "قائمة الأنواع",
+    "en" : "Entity Type List",
+    "type" : "Reference",
+    "refTo" : "EntityTypeList",
+    "refPath" : "/modules/basic/EntityTypeList.html"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "SortMethod",
+  "values" : [ {
+    "id" : "SortBasedOnSortFields",
+    "ar" : "ترتيب محدد من خلال حقول الترتيب",
+    "en" : "Sort Based On Sort Fields"
+  }, {
+    "id" : "SortBasedOnReportParameter",
+    "ar" : "ترتيب من خلال مدخلات يقوم باختيارها المستخدم",
+    "en" : "Sort Based On Report Parameter"
+  } ]
+}

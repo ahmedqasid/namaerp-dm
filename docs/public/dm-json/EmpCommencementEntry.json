@@ -1,0 +1,38 @@
+{
+  "entity" : "EmpCommencementEntry",
+  "table" : "EmpCommencementEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EmpCommencementEntry.html",
+  "fields" : [ {
+    "id" : "commencementDate",
+    "column" : "commencementDate",
+    "ar" : "تاريخ المباشرة الفعلية",
+    "en" : "Commencement date",
+    "type" : "Date"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "origin",
+    "columns" : [ "originActualCode", " originCode", " originEntityType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "type",
+    "column" : "type",
+    "ar" : "النوع",
+    "en" : "Type",
+    "type" : "Enum",
+    "enum" : "WorkStartingType"
+  } ]
+}

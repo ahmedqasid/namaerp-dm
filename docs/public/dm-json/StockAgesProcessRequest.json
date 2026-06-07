@@ -1,0 +1,23 @@
+{
+  "entity" : "StockAgesProcessRequest",
+  "table" : "StockAgesProcessRequest",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/StockAgesProcessRequest.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "invTransReqId",
+    "column" : "invTransReqId",
+    "type" : "ID"
+  }, {
+    "id" : "qtyTransId",
+    "column" : "qtyTransId",
+    "type" : "ID"
+  }, {
+    "id" : "stockAgesTransId",
+    "column" : "stockAgesTransId",
+    "type" : "ID"
+  } ]
+}

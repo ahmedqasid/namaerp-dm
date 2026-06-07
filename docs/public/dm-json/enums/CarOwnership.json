@@ -1,0 +1,16 @@
+{
+  "enum" : "CarOwnership",
+  "values" : [ {
+    "id" : "CompanyOwnership",
+    "ar" : "ملك للشركة",
+    "en" : "Company Ownership"
+  }, {
+    "id" : "FullyLeased",
+    "ar" : "مؤجرة كليا",
+    "en" : "Fully Leased"
+  }, {
+    "id" : "PartiallyLeased",
+    "ar" : "مؤجرة جزئيا",
+    "en" : "Partially Leased"
+  } ]
+}

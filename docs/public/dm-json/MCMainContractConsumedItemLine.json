@@ -1,0 +1,65 @@
+{
+  "entity" : "MCMainContractConsumedItemLine",
+  "table" : "MCMainContractConsumedItemLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/MCMainContractConsumedItemLine.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "costItem",
+    "column" : "costItem_id",
+    "ar" : "بند التكلفة",
+    "en" : "Cost Item",
+    "type" : "Reference",
+    "refTo" : "MCCostItem",
+    "refPath" : "/modules/mc/MCCostItem.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "item",
+    "column" : "item_id",
+    "ar" : "الصنف",
+    "en" : "Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "name",
+    "column" : "name",
+    "ar" : "الاسم",
+    "en" : "Name",
+    "type" : "Text"
+  }, {
+    "id" : "price",
+    "column" : "price",
+    "ar" : "السعر",
+    "en" : "Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "qty",
+    "column" : "qty",
+    "ar" : "الكمية",
+    "en" : "Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalPrice",
+    "column" : "totalPrice",
+    "ar" : "إجمالي السعر",
+    "en" : "  Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "uom",
+    "column" : "uom_id",
+    "ar" : "الوحدة",
+    "en" : "Unit",
+    "type" : "Reference",
+    "refTo" : "MCUOM",
+    "refPath" : "/modules/mc/MCUOM.html"
+  } ]
+}

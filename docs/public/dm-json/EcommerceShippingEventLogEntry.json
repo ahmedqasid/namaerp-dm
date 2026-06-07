@@ -1,0 +1,63 @@
+{
+  "entity" : "EcommerceShippingEventLogEntry",
+  "table" : "EcommerceShippingEventLogEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EcommerceShippingEventLogEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "eventLogType",
+    "column" : "eventLogType",
+    "ar" : "Event Log Type",
+    "en" : "Event Log Type",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lastReceivedJson",
+    "column" : "lastReceivedJson",
+    "type" : "BigText"
+  }, {
+    "id" : "lastSentJson",
+    "column" : "lastSentJson",
+    "type" : "BigText"
+  }, {
+    "id" : "namaShppingOrderId",
+    "column" : "namaShppingOrderId",
+    "ar" : "Nama Shipping Order Id",
+    "en" : "Nama Shipping Order Id",
+    "type" : "Text"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "shippingSite",
+    "column" : "shippingSite_id",
+    "ar" : "eCommerce Shipping Site",
+    "en" : "eCommerce Shipping Site",
+    "type" : "Reference",
+    "refTo" : "EcommerceShippingSite",
+    "refPath" : "/modules/magento/EcommerceShippingSite.html"
+  }, {
+    "id" : "shppingOrderId",
+    "column" : "shppingOrderId",
+    "ar" : "eCommerce Shipping Order Id",
+    "en" : "eCommerce Shipping Order Id",
+    "type" : "Text"
+  } ]
+}

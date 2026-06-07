@@ -1,0 +1,20 @@
+{
+  "enum" : "CostReallocation",
+  "values" : [ {
+    "id" : "CostShareOnly",
+    "ar" : "أسهم التكلفة فقط",
+    "en" : "Cost Share Only"
+  }, {
+    "id" : "QtyOnly",
+    "ar" : "الكمية فقط",
+    "en" : "Quantity Only"
+  }, {
+    "id" : "CostShareAndQty",
+    "ar" : "أسهم التكلفة مرجحة بالكمية",
+    "en" : "Cost Share And Quantity"
+  }, {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  } ]
+}

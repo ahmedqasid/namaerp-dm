@@ -1,0 +1,68 @@
+{
+  "enum" : "Operator",
+  "values" : [ {
+    "id" : "Equal",
+    "ar" : "يساوي",
+    "en" : "Equal"
+  }, {
+    "id" : "NotEqual",
+    "ar" : "لا يساوي",
+    "en" : "Not Equal"
+  }, {
+    "id" : "GreaterThan",
+    "ar" : "أكبر من",
+    "en" : "Greater Than"
+  }, {
+    "id" : "GreaterThanOrEqual",
+    "ar" : "أكبر من أو يساوي",
+    "en" : "Greater Than Or Equal"
+  }, {
+    "id" : "LessThan",
+    "ar" : "أقل من",
+    "en" : "Less Than"
+  }, {
+    "id" : "LessThanOrEqual",
+    "ar" : "أقل من أو يساوي",
+    "en" : "Less Than Or Equal"
+  }, {
+    "id" : "StartsWith",
+    "ar" : "يبدأ بـ",
+    "en" : "Starts With"
+  }, {
+    "id" : "NotStartsWith",
+    "ar" : "لا يبدأ بـ",
+    "en" : "Not Starts With"
+  }, {
+    "id" : "EndsWith",
+    "ar" : "ينتهي بـ",
+    "en" : "Ends With"
+  }, {
+    "id" : "NotEndWith",
+    "ar" : "لا ينتهي بـ",
+    "en" : "Not End With"
+  }, {
+    "id" : "Contains",
+    "ar" : "يحتوي علي",
+    "en" : "Contains"
+  }, {
+    "id" : "NotContain",
+    "ar" : "لا يحتوي علي",
+    "en" : "Not Contain"
+  }, {
+    "id" : "OpenBracket",
+    "ar" : "OpenBracket",
+    "en" : "Open Bracket"
+  }, {
+    "id" : "CloseBracket",
+    "ar" : "CloseBracket",
+    "en" : "Close Bracket"
+  }, {
+    "id" : "In",
+    "ar" : "في",
+    "en" : "In"
+  }, {
+    "id" : "NotIn",
+    "ar" : "ليس في",
+    "en" : "Not In"
+  } ]
+}

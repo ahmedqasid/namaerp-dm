@@ -1,0 +1,16 @@
+{
+  "enum" : "MnWorkPlanGenerateType",
+  "values" : [ {
+    "id" : "BasedOnContractPriority",
+    "ar" : "إنشاء خطة الصيانة بناء على فترة العقد",
+    "en" : "Generate WorkPlan Based On Contract Priority"
+  }, {
+    "id" : "BasedOnVisitTypeAndPriority",
+    "ar" : "إنشاء خطة الصيانة بناء على نوع الزيارة مع اعتبار فترة العقد",
+    "en" : "Generate WorkPlan Based On Visit Type And Contract Priority"
+  }, {
+    "id" : "BasedOnVisitType",
+    "ar" : "إنشاء خطة الصيانة بناء على نوع الزيارة فقط",
+    "en" : "Generate WorkPlan Based On Visit Type"
+  } ]
+}

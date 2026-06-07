@@ -1,0 +1,16 @@
+{
+  "enum" : "LayoutMethod",
+  "values" : [ {
+    "id" : "Manual",
+    "ar" : "يدوي",
+    "en" : "Manual"
+  }, {
+    "id" : "FromUploadedFile",
+    "ar" : "From Uploaded File",
+    "en" : "From Uploaded File"
+  }, {
+    "id" : "FromEditor",
+    "ar" : "From Editor",
+    "en" : "From Editor"
+  } ]
+}

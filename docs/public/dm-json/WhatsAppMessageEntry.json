@@ -1,0 +1,54 @@
+{
+  "entity" : "WhatsAppMessageEntry",
+  "table" : "WhatsAppMessageEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/WhatsAppMessageEntry.html",
+  "fields" : [ {
+    "id" : "body",
+    "column" : "body",
+    "ar" : "Body",
+    "en" : "Body",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "message",
+    "columns" : [ "messageActualCode", " messageCode", " messageEntityType", " messageId" ],
+    "ar" : "الرسالة",
+    "en" : "Message",
+    "type" : "Genericreference"
+  }, {
+    "id" : "messageState",
+    "column" : "messageState",
+    "ar" : "حالة الرسالة",
+    "en" : "message Status",
+    "type" : "Enum",
+    "enum" : "WhatsAppMessageState"
+  }, {
+    "id" : "ownerRecord",
+    "columns" : [ "ownerRecordActualCode", " ownerRecordCode", " ownerRecordEntityType", " ownerRecordId" ],
+    "ar" : "منشئ من",
+    "en" : "Owner Record",
+    "type" : "Genericreference"
+  }, {
+    "id" : "recipient",
+    "column" : "recipient",
+    "ar" : "المستلم",
+    "en" : "recipient",
+    "type" : "Text"
+  }, {
+    "id" : "submittedOn",
+    "column" : "submittedOn",
+    "ar" : "التاريخ",
+    "en" : "Submitted On",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "whatsAppMessageId",
+    "column" : "whatsAppMessageId",
+    "ar" : "WhatsApp Message Id",
+    "en" : "WhatsApp Message Id",
+    "type" : "Text"
+  } ]
+}

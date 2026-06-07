@@ -1,0 +1,28 @@
+{
+  "enum" : "TransactionRequestStatus",
+  "values" : [ {
+    "id" : "Processed",
+    "ar" : "تمت معالجته",
+    "en" : "Processed"
+  }, {
+    "id" : "Failed",
+    "ar" : "المعالجة فشلت",
+    "en" : "Processing Failed"
+  }, {
+    "id" : "FailedByException",
+    "ar" : "المعالجة فشلت بواسطة Exception",
+    "en" : "Failed By Exception"
+  }, {
+    "id" : "Initial",
+    "ar" : "بانتظار المعالجة",
+    "en" : "Waiting Processing"
+  }, {
+    "id" : "Retry",
+    "ar" : "إعادة المعالجة",
+    "en" : "Retry Processing"
+  }, {
+    "id" : "Processing",
+    "ar" : "جاري المعالجة",
+    "en" : "Processing"
+  } ]
+}

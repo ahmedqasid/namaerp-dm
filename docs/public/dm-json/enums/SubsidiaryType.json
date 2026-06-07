@@ -1,0 +1,335 @@
+{
+  "enum" : "SubsidiaryType",
+  "values" : [ {
+    "id" : "FALetterOfCredit",
+    "ar" : "اعتماد أصول",
+    "en" : "Fixed asset Letter of Credit"
+  }, {
+    "id" : "BankAccount",
+    "ar" : "حساب بنكي",
+    "en" : "Bank Account"
+  }, {
+    "id" : "Bank",
+    "ar" : "بنك",
+    "en" : "Bank"
+  }, {
+    "id" : "Customer",
+    "ar" : "عميل",
+    "en" : "Customer"
+  }, {
+    "id" : "Employee",
+    "ar" : "موظف",
+    "en" : "Employee"
+  }, {
+    "id" : "FixedAsset",
+    "ar" : "أصل ثابت",
+    "en" : "Fixed Asset"
+  }, {
+    "id" : "ItemSection",
+    "ar" : "قسم صنف",
+    "en" : "Item Section"
+  }, {
+    "id" : "Resource",
+    "ar" : "مورد تشغيل",
+    "en" : "Resource"
+  }, {
+    "id" : "Supplier",
+    "ar" : "مورد",
+    "en" : "Supplier"
+  }, {
+    "id" : "Warehouse",
+    "ar" : "مخزن",
+    "en" : "Warehouse"
+  }, {
+    "id" : "EmployeeDepartment",
+    "ar" : "إدارة موظف",
+    "en" : "Employee Department"
+  }, {
+    "id" : "SalaryComponent",
+    "ar" : "مفرد راتب",
+    "en" : "Salary Component"
+  }, {
+    "id" : "SafeDeposite",
+    "ar" : "خزينة",
+    "en" : "Safe Deposit"
+  }, {
+    "id" : "LetterOfCredit",
+    "ar" : "الإعتماد المستندي",
+    "en" : "Letter Of Credit"
+  }, {
+    "id" : "LcExpenseItem",
+    "ar" : " بند مصروف"
+  }, {
+    "id" : "ThirdParty",
+    "ar" : "جهة ذات صلة",
+    "en" : "Third Party"
+  }, {
+    "id" : "Partner",
+    "ar" : "شريك",
+    "en" : "Partner"
+  }, {
+    "id" : "Project",
+    "ar" : "مشروع مقاولات",
+    "en" : "Contracting Project"
+  }, {
+    "id" : "Contractor",
+    "ar" : "مقاول باطن",
+    "en" : "Contractor"
+  }, {
+    "id" : "ProjectContract",
+    "ar" : "عقد مشروع",
+    "en" : "Project Contract"
+  }, {
+    "id" : "ContractorContract",
+    "ar" : "عقد مقاول باطن",
+    "en" : "Contractor Contract"
+  }, {
+    "id" : "REOwner",
+    "ar" : "مالك - مشتري",
+    "en" : "Owner"
+  }, {
+    "id" : "InvItem",
+    "ar" : "صنف",
+    "en" : "Item"
+  }, {
+    "id" : "HOCounter",
+    "ar" : "عداد",
+    "en" : "Counter"
+  }, {
+    "id" : "CarProblem",
+    "ar" : "عطل سيارة",
+    "en" : "Car Problem"
+  }, {
+    "id" : "NamaPOSRegister",
+    "ar" : "ماكينة",
+    "en" : "Register"
+  }, {
+    "id" : "REBlock",
+    "ar" : "استثمار عقاري - بلوك",
+    "en" : "RE - Block"
+  }, {
+    "id" : "RERentalUnit",
+    "ar" : "استثمار عقاري - وحدة",
+    "en" : "RE - RentalUnit"
+  }, {
+    "id" : "REProject",
+    "ar" : "استثمار عقاري - مشروع",
+    "en" : "RE - Project"
+  }, {
+    "id" : "REBuilding",
+    "ar" : "استثمار عقاري - مبني",
+    "en" : "RE - Building"
+  }, {
+    "id" : "REUnitGroup",
+    "ar" : "استثمار عقاري - وحدة مجمعة",
+    "en" : "RE - UnitGroup"
+  }, {
+    "id" : "RESquare",
+    "ar" : "استثمار عقاري - مربع",
+    "en" : "RE - Square"
+  }, {
+    "id" : "RELand",
+    "ar" : "استثمار عقاري - قطعة ارض",
+    "en" : "RE - Land"
+  }, {
+    "id" : "REAdditionalCost",
+    "ar" : "بند تكلفة استثمار عقاري",
+    "en" : "RE Additional Cost"
+  }, {
+    "id" : "MCProject",
+    "ar" : "ملف مشروع",
+    "en" : "MC Project"
+  }, {
+    "id" : "MCSubcontractor",
+    "ar" : "مقاول باطن مقاولات صيانة",
+    "en" : "MC Subcontractor"
+  }, {
+    "id" : "PurchaseElement",
+    "ar" : "بند شراء",
+    "en" : "Purchase Element"
+  }, {
+    "id" : "CPAProject",
+    "ar" : "ادارة مشاريع - مشروع",
+    "en" : "PM - Project"
+  }, {
+    "id" : "LetterOfGuarantee",
+    "ar" : "خطاب ضمان",
+    "en" : "Letter Of Guarantee"
+  }, {
+    "id" : "BankLC",
+    "ar" : "اعتماد بنكى",
+    "en" : "Bank LC"
+  }, {
+    "id" : "BankLoan",
+    "ar" : "قرض بنكي",
+    "en" : "Bank Loan"
+  }, {
+    "id" : "FixedDeposit",
+    "ar" : "وديعة بنكية",
+    "en" : "Fixed Deposit"
+  }, {
+    "id" : "TaxPlan",
+    "ar" : "سياسة الضريبة",
+    "en" : "Tax Plan"
+  }, {
+    "id" : "Car",
+    "ar" : "سيارة",
+    "en" : "Car"
+  }, {
+    "id" : "Locator",
+    "ar" : "موقع",
+    "en" : "Locator"
+  }, {
+    "id" : "HMSPatient",
+    "ar" : "مريض",
+    "en" : "Patient"
+  }, {
+    "id" : "HMSDoctor",
+    "ar" : "طبيب",
+    "en" : "Doctor"
+  }, {
+    "id" : "HMSInsuranceCompany",
+    "ar" : "شركة تأمين طبى",
+    "en" : "Medical Insurance Company"
+  }, {
+    "id" : "FRMServiceItem",
+    "ar" : "بند خدمة",
+    "en" : "Service Item"
+  }, {
+    "id" : "ChargeItem",
+    "ar" : "صنف شحن إلكترونى",
+    "en" : "Charge Item"
+  }, {
+    "id" : "HMSPharmacy",
+    "ar" : "صيدلية",
+    "en" : "Pharmacy"
+  }, {
+    "id" : "HMSRadiologyType",
+    "ar" : "نوع أشعة",
+    "en" : "Radiology Type"
+  }, {
+    "id" : "HMSSurgeryType",
+    "ar" : "نوع عملية جراحية",
+    "en" : "Surgery Type"
+  }, {
+    "id" : "HMSLabTestType",
+    "ar" : "نوع تحليل طبي",
+    "en" : "Laboratory Test Type"
+  }, {
+    "id" : "HMSPhysicalTherapyType",
+    "ar" : "نوع العلاج الطبيعى",
+    "en" : "Physical Therapy Type"
+  }, {
+    "id" : "HMSMedicalService",
+    "ar" : "الخدمة الطبية",
+    "en" : "Medical Service"
+  }, {
+    "id" : "HMSBloodBank",
+    "ar" : "بنك دم",
+    "en" : "Blood Bank"
+  }, {
+    "id" : "EDStudent",
+    "ar" : "طالب",
+    "en" : "Student"
+  }, {
+    "id" : "EDGuardian",
+    "ar" : "ولى أمر",
+    "en" : "Guardian"
+  }, {
+    "id" : "CRMMediator",
+    "ar" : "وسيط",
+    "en" : "mediator"
+  }, {
+    "id" : "CRMAgent",
+    "ar" : "وكيل",
+    "en" : "Agent"
+  }, {
+    "id" : "HMSMedicalSpecialty",
+    "ar" : "تخصص طبي",
+    "en" : "Medical Specialty"
+  }, {
+    "id" : "Subsidiary1",
+    "ar" : "ذمة 1",
+    "en" : "Subsidiary 1"
+  }, {
+    "id" : "Subsidiary2",
+    "ar" : "ذمة 2",
+    "en" : "Subsidiary 2"
+  }, {
+    "id" : "Subsidiary3",
+    "ar" : "ذمة 3",
+    "en" : "Subsidiary 3"
+  }, {
+    "id" : "Subsidiary4",
+    "ar" : "ذمة 4",
+    "en" : "Subsidiary 4"
+  }, {
+    "id" : "Subsidiary5",
+    "ar" : "ذمة 5",
+    "en" : "Subsidiary 5"
+  }, {
+    "id" : "InvestmentCompany",
+    "ar" : "شركة استثمار",
+    "en" : "Investment Company"
+  }, {
+    "id" : "TRHotel",
+    "ar" : "فندق",
+    "en" : "Hotel"
+  }, {
+    "id" : "TRRestaurant",
+    "ar" : "مطعم",
+    "en" : "Restaurant"
+  }, {
+    "id" : "TRTourGuide",
+    "ar" : "مرشد سياحي",
+    "en" : "Tour Guide"
+  }, {
+    "id" : "REBroker",
+    "ar" : "وسيط عقاري",
+    "en" : "Real Estate Broker"
+  }, {
+    "id" : "REFloor",
+    "ar" : "طابق استثمار عقاري",
+    "en" : "RE Floor"
+  }, {
+    "id" : "MFGMold",
+    "ar" : "قالب تصنيع",
+    "en" : "Manufacturing Mold"
+  }, {
+    "id" : "InvestmentDocumentFund",
+    "ar" : "صندوق استثمار وثيقة",
+    "en" : "Investment Document Fund"
+  }, {
+    "id" : "TreasuryBill",
+    "ar" : "إذن خزانة",
+    "en" : "Treasury Bill"
+  }, {
+    "id" : "InvestmentDoc",
+    "ar" : "سند استثمار",
+    "en" : "Investment Document"
+  }, {
+    "id" : "EDCourse",
+    "ar" : "مادة دراسية",
+    "en" : "Course"
+  }, {
+    "id" : "EDCourseDefinition",
+    "ar" : "تعريف دورة",
+    "en" : "Course Definition"
+  }, {
+    "id" : "ExternalAgency",
+    "ar" : "معرض خارجي",
+    "en" : "External Agency"
+  }, {
+    "id" : "InsuranceCompany",
+    "ar" : "شركة تأمين",
+    "en" : "Insurance Company"
+  }, {
+    "id" : "FinanceCompany",
+    "ar" : "شركة تقسيط",
+    "en" : "Finance Company"
+  }, {
+    "id" : "ContractingAdvisory",
+    "ar" : "إستشاري",
+    "en" : "Advisory"
+  } ]
+}

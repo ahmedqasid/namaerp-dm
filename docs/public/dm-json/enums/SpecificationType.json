@@ -1,0 +1,12 @@
+{
+  "enum" : "SpecificationType",
+  "values" : [ {
+    "id" : "Carton",
+    "ar" : "كرتونة",
+    "en" : "Carton"
+  }, {
+    "id" : "Creases",
+    "ar" : "فواصل",
+    "en" : "Creases"
+  } ]
+}

@@ -1,0 +1,43 @@
+{
+  "entity" : "NaMaLayout",
+  "table" : "NaMaLayout",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/NaMaLayout.html",
+  "fields" : [ {
+    "id" : "contentType",
+    "column" : "contentType",
+    "ar" : "نوع المحتوي",
+    "en" : "Content Type",
+    "type" : "Text"
+  }, {
+    "id" : "fileContent",
+    "column" : "binaryData",
+    "type" : ""
+  }, {
+    "id" : "filePath",
+    "column" : "filePath",
+    "ar" : "مسار الملف",
+    "en" : "File Path",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "isFolder",
+    "column" : "isFolder",
+    "type" : "Boolean"
+  }, {
+    "id" : "ownerId",
+    "column" : "ownerId",
+    "ar" : "رقم هوية المالك",
+    "en" : "Owner Number",
+    "type" : "Text"
+  }, {
+    "id" : "ownerType",
+    "column" : "ownerType",
+    "ar" : "نوع المالك",
+    "en" : "Owner Type",
+    "type" : "Text"
+  } ]
+}

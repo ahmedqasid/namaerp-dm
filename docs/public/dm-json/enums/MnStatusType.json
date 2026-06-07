@@ -1,0 +1,32 @@
+{
+  "enum" : "MnStatusType",
+  "values" : [ {
+    "id" : "Open",
+    "ar" : "مفتوحة",
+    "en" : "Open"
+  }, {
+    "id" : "OnHold",
+    "ar" : "معلقة",
+    "en" : "On Hold"
+  }, {
+    "id" : "Closed",
+    "ar" : "مغلقة",
+    "en" : "Closed"
+  }, {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "InProgress",
+    "ar" : "قيد التنفيذ",
+    "en" : "In Progress"
+  }, {
+    "id" : "ReOpen",
+    "ar" : "معاد فتحه",
+    "en" : "ReOpen"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  } ]
+}

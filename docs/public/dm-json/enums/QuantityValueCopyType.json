@@ -1,0 +1,28 @@
+{
+  "enum" : "QuantityValueCopyType",
+  "values" : [ {
+    "id" : "Quantity",
+    "ar" : "الكمية",
+    "en" : "Quantity"
+  }, {
+    "id" : "TotalSatisfied",
+    "ar" : "منفذه (نظامي + يدوي)",
+    "en" : "Satisfied (System + Manual)"
+  }, {
+    "id" : "TotalSatisfied2",
+    "ar" : "منفذه 2 (نظامي + يدوي)",
+    "en" : "Satisfied2 (System + Manual)"
+  }, {
+    "id" : "SystemSatisfied",
+    "ar" : "منفذه (نظامي فقط)",
+    "en" : "Satisfied (System Only)"
+  }, {
+    "id" : "SystemSatisfied2",
+    "ar" : "منفذه 2 (نظامي فقط)",
+    "en" : "Satisfied2 (System Only)"
+  }, {
+    "id" : "Zero",
+    "ar" : "صفر",
+    "en" : "Zero"
+  } ]
+}

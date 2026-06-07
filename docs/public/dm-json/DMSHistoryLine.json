@@ -1,0 +1,83 @@
+{
+  "entity" : "DMSHistoryLine",
+  "table" : "DMSHistoryLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/DMSHistoryLine.html",
+  "fields" : [ {
+    "id" : "detailedLocation",
+    "column" : "detailedLocation",
+    "ar" : "الموقع التفصيلي",
+    "en" : "Detailed Location",
+    "type" : "Text"
+  }, {
+    "id" : "document",
+    "column" : "document_id",
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Reference",
+    "refTo" : "DMSDocument",
+    "refPath" : "/modules/basic-dms/DMSDocument.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "location",
+    "column" : "location_id",
+    "ar" : "الموقع المخزني",
+    "en" : "Location",
+    "type" : "Reference",
+    "refTo" : "DMSLocation",
+    "refPath" : "/modules/basic-dms/DMSLocation.html"
+  }, {
+    "id" : "movmentDoc",
+    "column" : "movmentDoc_id",
+    "type" : "Reference",
+    "refTo" : "DMSDocMovement",
+    "refPath" : "/modules/basic-dms/DMSDocMovement.html"
+  }, {
+    "id" : "operationDate",
+    "column" : "operationDate",
+    "ar" : "تاريخ الحركة",
+    "en" : "Operation Date",
+    "type" : "Date"
+  }, {
+    "id" : "outMovementType",
+    "column" : "outMovementType",
+    "ar" : "نوع حركة الخروج",
+    "en" : "Out Movement Type",
+    "type" : "Enum",
+    "enum" : "DMSOutMovementType"
+  }, {
+    "id" : "reference",
+    "columns" : [ "referenceActualCode", " referenceCode", " referenceEntityType", " referenceId" ],
+    "ar" : "مرجع",
+    "en" : "Reference",
+    "type" : "Genericreference"
+  }, {
+    "id" : "responsible",
+    "column" : "responsible_id",
+    "ar" : "الموظف المسئول",
+    "en" : "Responsible Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "srcLineId",
+    "column" : "srcLineId",
+    "type" : "ID"
+  }, {
+    "id" : "subLocation",
+    "column" : "subLocation",
+    "ar" : "الموقع الفرعي",
+    "en" : "Sub Location",
+    "type" : "Text"
+  }, {
+    "id" : "type",
+    "column" : "type",
+    "ar" : "النوع",
+    "en" : "Type",
+    "type" : "Enum",
+    "enum" : "DMSMovementType"
+  } ]
+}

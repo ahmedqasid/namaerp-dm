@@ -1,0 +1,27 @@
+{
+  "entity" : "SCDocSerial",
+  "table" : "SCDocSerial",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SCDocSerial.html",
+  "fields" : [ {
+    "id" : "documentId",
+    "column" : "documentId",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lineId",
+    "column" : "lineId",
+    "ar" : "م",
+    "en" : "S",
+    "type" : "ID"
+  }, {
+    "id" : "serialNumber",
+    "column" : "serialNumber",
+    "ar" : "الرقم المسلسل",
+    "en" : "Serial Number",
+    "type" : "BigText"
+  } ]
+}

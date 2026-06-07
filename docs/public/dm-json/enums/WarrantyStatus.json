@@ -1,0 +1,24 @@
+{
+  "enum" : "WarrantyStatus",
+  "values" : [ {
+    "id" : "Covered",
+    "ar" : "مغطى",
+    "en" : "Covered"
+  }, {
+    "id" : "NotCovered",
+    "ar" : "غير مغطي",
+    "en" : "Not Covered"
+  }, {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "UnderWarranty",
+    "ar" : "داخل الضمان",
+    "en" : "Under Warranty"
+  }, {
+    "id" : "OutOfWarranty",
+    "ar" : "خارج الضمان",
+    "en" : "Out Of Warranty"
+  } ]
+}

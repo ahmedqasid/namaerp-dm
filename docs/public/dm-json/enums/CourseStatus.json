@@ -1,0 +1,16 @@
+{
+  "enum" : "CourseStatus",
+  "values" : [ {
+    "id" : "InActive",
+    "ar" : "غير فعال",
+    "en" : "Inactive"
+  }, {
+    "id" : "Active",
+    "ar" : "فعال",
+    "en" : "Active"
+  }, {
+    "id" : "Proposed",
+    "ar" : "مقترح",
+    "en" : "Proposed"
+  } ]
+}

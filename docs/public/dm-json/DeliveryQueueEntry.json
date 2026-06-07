@@ -1,0 +1,62 @@
+{
+  "entity" : "DeliveryQueueEntry",
+  "table" : "DeliveryQueueEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/DeliveryQueueEntry.html",
+  "fields" : [ {
+    "id" : "actualDeliveryDate",
+    "column" : "actualDeliveryDate",
+    "ar" : "تاريخ الإستلام الفعلى",
+    "en" : "Actual Delivery Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "deliveryDate",
+    "column" : "deliveryDate",
+    "ar" : "تاريخ التوصيل",
+    "en" : "Delivery Date",
+    "type" : "Date"
+  }, {
+    "id" : "deliveryStatus",
+    "column" : "deliveryStatus",
+    "ar" : "نوع الإجراء",
+    "en" : "Delivery Status",
+    "type" : "Enum",
+    "enum" : "DeliveryQueueStatus"
+  }, {
+    "id" : "details",
+    "column" : "details",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "origin",
+    "columns" : [ "originActualCode", " originCode", " originEntityType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "postponed",
+    "column" : "postponed",
+    "ar" : "مؤجل",
+    "en" : "Postponed",
+    "type" : "Boolean"
+  }, {
+    "id" : "queue",
+    "column" : "queue_id",
+    "ar" : "الطابور",
+    "en" : "Queue",
+    "type" : "Reference",
+    "refTo" : "DeliveryQueue",
+    "refPath" : "/modules/supplychain-delivery-queues/DeliveryQueue.html"
+  }, {
+    "id" : "summary",
+    "column" : "summary",
+    "ar" : "الملخص",
+    "en" : "Summary",
+    "type" : "BigText"
+  } ]
+}

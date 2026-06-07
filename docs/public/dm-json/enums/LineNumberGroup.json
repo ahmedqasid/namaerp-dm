@@ -1,0 +1,24 @@
+{
+  "enum" : "LineNumberGroup",
+  "values" : [ {
+    "id" : "group1",
+    "ar" : "المجموعة 1",
+    "en" : "Group 1"
+  }, {
+    "id" : "group2",
+    "ar" : "المجموعة 2",
+    "en" : "Group 2"
+  }, {
+    "id" : "group3",
+    "ar" : "المجموعة 3",
+    "en" : "Group 3"
+  }, {
+    "id" : "group4",
+    "ar" : "المجموعة 4",
+    "en" : "Group 4"
+  }, {
+    "id" : "group5",
+    "ar" : "المجموعة 5",
+    "en" : "Group 5"
+  } ]
+}

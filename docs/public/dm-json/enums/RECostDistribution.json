@@ -1,0 +1,32 @@
+{
+  "enum" : "RECostDistribution",
+  "values" : [ {
+    "id" : "DistributeOnArea",
+    "ar" : "توزيع على المساحة",
+    "en" : "Distribute On Area"
+  }, {
+    "id" : "DistributeOnPrice",
+    "ar" : "توزيع على السعر",
+    "en" : "Distribute On Price"
+  }, {
+    "id" : "DistributeOnN1",
+    "ar" : "توزيع على N1",
+    "en" : "Distribute On N1"
+  }, {
+    "id" : "DistributeOnN2",
+    "ar" : "توزيع على N2",
+    "en" : "Distribute On N2"
+  }, {
+    "id" : "DistributeOnN3",
+    "ar" : "توزيع على N3",
+    "en" : "Distribute On N3"
+  }, {
+    "id" : "DistributeOnN4",
+    "ar" : "توزيع على N4",
+    "en" : "Distribute On N4"
+  }, {
+    "id" : "DistributeOnN5",
+    "ar" : "توزيع على N5",
+    "en" : "Distribute On N5"
+  } ]
+}

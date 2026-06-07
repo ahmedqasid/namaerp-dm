@@ -1,0 +1,44 @@
+{
+  "enum" : "FSGroupBy",
+  "values" : [ {
+    "id" : "LegalEntity",
+    "ar" : "شركة",
+    "en" : "Legal Entity"
+  }, {
+    "id" : "Branch",
+    "ar" : "فرع",
+    "en" : "Branch"
+  }, {
+    "id" : "Department",
+    "ar" : "إدارة",
+    "en" : "Department"
+  }, {
+    "id" : "AnalysisSet",
+    "ar" : "مجموعة تحليلية",
+    "en" : "Analysis Set"
+  }, {
+    "id" : "Sector",
+    "ar" : "قطاع",
+    "en" : "Sector"
+  }, {
+    "id" : "Ref1",
+    "ar" : "مرجع 1",
+    "en" : "Ref 1"
+  }, {
+    "id" : "Ref2",
+    "ar" : "مرجع 2",
+    "en" : "Ref 2"
+  }, {
+    "id" : "Ref3",
+    "ar" : "مرجع 3",
+    "en" : "Ref 3"
+  }, {
+    "id" : "EntityDimension",
+    "ar" : "السجل",
+    "en" : "EntityDimension"
+  }, {
+    "id" : "Subsidiary",
+    "ar" : "ذمة",
+    "en" : "Subsidiary"
+  } ]
+}

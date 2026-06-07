@@ -1,0 +1,270 @@
+{
+  "entity" : "POS.POSEmployee",
+  "table" : "POSEmployee",
+  "module" : "pos-app",
+  "ar" : "موظف",
+  "arPlural" : "موظفين",
+  "enPlural" : "Employeess",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSEmployee.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "departmentSectionId",
+    "column" : "departmentSectionId",
+    "type" : "ID"
+  }, {
+    "id" : "employeeDepartmentId",
+    "column" : "employeeDepartmentId",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "jobPositionId",
+    "column" : "jobPositionId",
+    "type" : "ID"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "maxDisc1Percentage",
+    "column" : "maxDisc1Percentage",
+    "ar" : "أقصي نسبه للخصم 1",
+    "en" : "Max Discount 1 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc1Value",
+    "column" : "maxDisc1Value",
+    "ar" : "أقصي قيمة للخصم 1",
+    "en" : "Max Discount 1 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc2Percentage",
+    "column" : "maxDisc2Percentage",
+    "ar" : "أقصي نسبه للخصم 2",
+    "en" : "Max Discount 2 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc2Value",
+    "column" : "maxDisc2Value",
+    "ar" : "أقصي قيمة للخصم 2",
+    "en" : "Max Discount 2 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc3Percentage",
+    "column" : "maxDisc3Percentage",
+    "ar" : "أقصي نسبه للخصم 3",
+    "en" : "Max Discount 3 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc3Value",
+    "column" : "maxDisc3Value",
+    "ar" : "أقصي قيمة للخصم 3",
+    "en" : "Max Discount 3 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc4Percentage",
+    "column" : "maxDisc4Percentage",
+    "ar" : "أقصي نسبه للخصم 4",
+    "en" : "Max Discount 4 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc4Value",
+    "column" : "maxDisc4Value",
+    "ar" : "أقصي قيمة للخصم 4",
+    "en" : "Max Discount 4 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc5Percentage",
+    "column" : "maxDisc5Percentage",
+    "ar" : "أقصي نسبه للخصم 5",
+    "en" : "Max Discount 5 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc5Value",
+    "column" : "maxDisc5Value",
+    "ar" : "أقصي قيمة للخصم 5",
+    "en" : "Max Discount 5 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc6Percentage",
+    "column" : "maxDisc6Percentage",
+    "ar" : "أقصي نسبه للخصم 6",
+    "en" : "Max Discount 6 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc6Value",
+    "column" : "maxDisc6Value",
+    "ar" : "أقصي قيمة للخصم 6",
+    "en" : "Max Discount 6 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc7Percentage",
+    "column" : "maxDisc7Percentage",
+    "ar" : "أقصي نسبه للخصم 7",
+    "en" : "Max Discount 7 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc7Value",
+    "column" : "maxDisc7Value",
+    "ar" : "أقصي قيمة للخصم 7",
+    "en" : "Max Discount 7 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc8Percentage",
+    "column" : "maxDisc8Percentage",
+    "ar" : "أقصي نسبه للخصم 8",
+    "en" : "Max Discount 8 Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxDisc8Value",
+    "column" : "maxDisc8Value",
+    "ar" : "أقصي قيمة للخصم 8",
+    "en" : "Max Discount 8 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxHeaderDiscPercentage",
+    "column" : "maxHeaderDiscPercentage",
+    "ar" : "أقصي نسبه للخصم الكلي",
+    "en" : "Max Header Discount Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxHeaderDiscValue",
+    "column" : "maxHeaderDiscValue",
+    "ar" : "أقصي قيمة للخصم الكلي",
+    "en" : "Max Header Discount Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "organizationPositionId",
+    "column" : "organizationPositionId",
+    "type" : "ID"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "salesMan",
+    "column" : "salesMan",
+    "ar" : "مندوب المبيعات",
+    "en" : "Salesman",
+    "type" : "Boolean"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ]
+}

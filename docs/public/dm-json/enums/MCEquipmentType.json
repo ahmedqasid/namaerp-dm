@@ -1,0 +1,16 @@
+{
+  "enum" : "MCEquipmentType",
+  "values" : [ {
+    "id" : "CompanyEquipment",
+    "ar" : "معدات الشركة",
+    "en" : "Company Equipment"
+  }, {
+    "id" : "OwnerEquipment",
+    "ar" : "معدات المالك",
+    "en" : "Owner Equipment"
+  }, {
+    "id" : "RentedEquipment",
+    "ar" : "معدات مؤجرة",
+    "en" : "Rented Equipment"
+  } ]
+}

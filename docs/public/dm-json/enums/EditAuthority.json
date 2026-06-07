@@ -1,0 +1,20 @@
+{
+  "enum" : "EditAuthority",
+  "values" : [ {
+    "id" : "Disabled",
+    "ar" : "لا يسمح بالتعديل",
+    "en" : "Disabled"
+  }, {
+    "id" : "SaveDraft",
+    "ar" : "إضافة مسودة",
+    "en" : "Add Draft"
+  }, {
+    "id" : "Commit",
+    "ar" : "حفظ",
+    "en" : "Save"
+  }, {
+    "id" : "EditAfterCommit",
+    "ar" : "التعديل بعد الحفظ",
+    "en" : "Save & Edit"
+  } ]
+}

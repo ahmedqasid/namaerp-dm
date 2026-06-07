@@ -1,0 +1,76 @@
+{
+  "entity" : "POSReadQueueUpdater",
+  "table" : "POSReadQueueUpdater",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/POSReadQueueUpdater.html",
+  "fields" : [ {
+    "id" : "connectionProperties",
+    "column" : "connectionProperties",
+    "ar" : "خصائص الأتصال",
+    "en" : "Connection Properties",
+    "type" : "BigText"
+  }, {
+    "id" : "entityCode",
+    "column" : "entityCode",
+    "ar" : " الكود",
+    "en" : " Code",
+    "type" : "Text"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "eventType",
+    "column" : "eventType",
+    "ar" : "نوع الحدث",
+    "en" : "Event Type",
+    "type" : "Text"
+  }, {
+    "id" : "failRegisters",
+    "column" : "failRegisters",
+    "ar" : "الماكينات التي فشل النقل اليها",
+    "en" : "Failed to Transfer to Registers",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "onTime",
+    "column" : "onTime",
+    "ar" : "الوقت",
+    "en" : "Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "posMachineCurrentRelease",
+    "column" : "posMachineCurrentRelease",
+    "ar" : "رقم اصدار نقاط البيع الحالي",
+    "en" : "POS Machine Current Release",
+    "type" : "Text"
+  }, {
+    "id" : "queueId",
+    "column" : "queueId",
+    "type" : "ID"
+  }, {
+    "id" : "screenProperties",
+    "column" : "screenProperties",
+    "ar" : "خصائص أعمدة المبيعات",
+    "en" : "Sales Lines Screen Properties",
+    "type" : "BigText"
+  }, {
+    "id" : "successRegisters",
+    "column" : "successRegisters",
+    "ar" : "الماكينات التي تم نقله اليها",
+    "en" : "Transfered to Registers",
+    "type" : "BigText"
+  }, {
+    "id" : "updateType",
+    "column" : "updateType",
+    "ar" : "نوع التحديث",
+    "en" : "Update Type",
+    "type" : "Enum",
+    "enum" : "POSReadQueueUpdateType"
+  } ]
+}

@@ -1,0 +1,196 @@
+{
+  "enum" : "MobileEntityType",
+  "values" : [ {
+    "id" : "KitchenElectronicReceipt",
+    "ar" : "قبض إلكتروني خاص بتطبيق المطابخ",
+    "en" : "Kitchen App Electronic Receipt"
+  }, {
+    "id" : "ResidenceRenewReq",
+    "ar" : "طلب تجديد إقامة",
+    "en" : "Residence Renew Request"
+  }, {
+    "id" : "MeetingRemark",
+    "ar" : "ملحوظات اجتماع",
+    "en" : "Meeting Remark"
+  }, {
+    "id" : "DetailedRemark",
+    "ar" : "ملحوظة مفصلة",
+    "en" : "Detailed Remark"
+  }, {
+    "id" : "KitchenCrmCall",
+    "ar" : "اتصال خاص بتطبيق المطابخ",
+    "en" : "Kitchen App CRM Call"
+  }, {
+    "id" : "IssueStockTransfer",
+    "ar" : "صرف تحويل مخزني",
+    "en" : "Issue Stock Transfer"
+  }, {
+    "id" : "ReceiptStockTransfer",
+    "ar" : "استلام تحويل مخزني",
+    "en" : "Receipt Stock Transfer"
+  }, {
+    "id" : "KitchenDesign",
+    "ar" : "سند تصميم مطبخ",
+    "en" : "Kitchen Design Document"
+  }, {
+    "id" : "KitchenSalesOrder",
+    "ar" : "أمر بيع خاص بتطبيق المطابخ",
+    "en" : "Kitchen App Sales Order"
+  }, {
+    "id" : "KitchenMaintenanceVisit",
+    "ar" : "سند صيانة خاص بتطبيق المطابخ",
+    "en" : "Kitchen App Maintenance Document"
+  }, {
+    "id" : "KitchenMeasurementVisit",
+    "ar" : "سند زيارة خاص بتطبيق المطابخ",
+    "en" : "Kitchen App Visit Document"
+  }, {
+    "id" : "SalesQuotation",
+    "ar" : "عرض أسعار",
+    "en" : "Sales Quotation"
+  }, {
+    "id" : "SalesQuotationRequest",
+    "ar" : "طلب عرض أسعار",
+    "en" : "Request For Sales Quotation"
+  }, {
+    "id" : "SalesInvoice",
+    "ar" : "فاتورة مبيعات",
+    "en" : "Sales Invoice"
+  }, {
+    "id" : "Attendance",
+    "ar" : " الحضور / الإنصراف",
+    "en" : " Time Attendance"
+  }, {
+    "id" : "Vacation",
+    "ar" : "الأجازة",
+    "en" : "Vacation"
+  }, {
+    "id" : "Permission",
+    "ar" : "أذون",
+    "en" : "Permission"
+  }, {
+    "id" : "ElectronicReceipt",
+    "ar" : "سند قبض",
+    "en" : "Receipt"
+  }, {
+    "id" : "SalesOrder",
+    "ar" : "أمر بيع",
+    "en" : "Sales Order"
+  }, {
+    "id" : "SalesDocument",
+    "ar" : "مستند بيع",
+    "en" : "Sales Document"
+  }, {
+    "id" : "SalesReturn",
+    "ar" : "مردودات مبيعات",
+    "en" : "Sales Return"
+  }, {
+    "id" : "MaintenanceVisit",
+    "ar" : "زيارة",
+    "en" : "MaintenanceVisit"
+  }, {
+    "id" : "Questionnaire",
+    "ar" : "استبيان",
+    "en" : "Questionnaire"
+  }, {
+    "id" : "Remark",
+    "ar" : "ملاحظة",
+    "en" : "Remark"
+  }, {
+    "id" : "DeliveryDocument",
+    "ar" : "سند توصيل",
+    "en" : "Delivery Document"
+  }, {
+    "id" : "HRLoanDocument",
+    "ar" : "سند سلفة",
+    "en" : "Loan Document"
+  }, {
+    "id" : "Customer",
+    "ar" : "عميل",
+    "en" : "Customer"
+  }, {
+    "id" : "CRMVisit",
+    "ar" : "الزيارة",
+    "en" : "Visit"
+  }, {
+    "id" : "FiringDocument",
+    "ar" : "سند إنهاء الخدمة",
+    "en" : "Firing Document"
+  }, {
+    "id" : "WorkStartingDocument",
+    "ar" : "سند مباشرة عمل",
+    "en" : "Work Starting Document"
+  }, {
+    "id" : "HOExitReEntryVisaReq",
+    "ar" : "طلب تأشيرة خروج وعودة",
+    "en" : "Exit ReEntry Visa Request"
+  }, {
+    "id" : "StockReceipt",
+    "ar" : "توريد مخزني",
+    "en" : "Stock Receipt"
+  }, {
+    "id" : "DLVDeliveryDocument",
+    "ar" : "سند توصيل شحنات",
+    "en" : "Shipment Delivery  Document"
+  }, {
+    "id" : "DamagedItemsDoc",
+    "ar" : "مستند الأصناف المهلكة",
+    "en" : "Damaged Items Document"
+  }, {
+    "id" : "AllocationFile",
+    "ar" : "سند تسكين",
+    "en" : "Allocation File"
+  }, {
+    "id" : "StockTransfer",
+    "ar" : "سند تحويل مخزني",
+    "en" : "Stock Transfer"
+  }, {
+    "id" : "StockTransferRequest",
+    "ar" : "طلب تحويل مخزني",
+    "en" : "Stock Transfer Request"
+  }, {
+    "id" : "PurchaseInvoice",
+    "ar" : "فاتورة مشتريات",
+    "en" : "Purchase Invoice"
+  }, {
+    "id" : "CRMComplaint",
+    "ar" : "شكوي - إقتراح",
+    "en" : "Complaint - Suggestion"
+  }, {
+    "id" : "MissionDocument",
+    "ar" : "سند مأمورية",
+    "en" : "Mission Document"
+  }, {
+    "id" : "UserMobileIdentifierDocument",
+    "ar" : "سند تعريف هاتف مستخدِم",
+    "en" : "User Mobile Identifier Document"
+  }, {
+    "id" : "FormDoc1",
+    "ar" : "نموذج 1",
+    "en" : "Form Document 1"
+  }, {
+    "id" : "FormDoc2",
+    "ar" : "نموذج 2",
+    "en" : "Form Document 2"
+  }, {
+    "id" : "FormDoc3",
+    "ar" : "نموذج 3",
+    "en" : "Form Document 3"
+  }, {
+    "id" : "FormDoc4",
+    "ar" : "نموذج 4",
+    "en" : "Form Document 4"
+  }, {
+    "id" : "ElectronicStockTaking",
+    "ar" : "لجنة جرد إلكتروني",
+    "en" : "Electronic Stock Taking"
+  }, {
+    "id" : "StockIssue",
+    "ar" : "صرف مخزني",
+    "en" : "Stock Issue"
+  }, {
+    "id" : "InternalStockTransfer",
+    "ar" : "تحويل مخزني داخلي",
+    "en" : "Internal Stock Transfer"
+  } ]
+}

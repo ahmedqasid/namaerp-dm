@@ -1,0 +1,16 @@
+{
+  "enum" : "ContractingExtractType",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدأي",
+    "en" : "Initial"
+  }, {
+    "id" : "Ongoing",
+    "ar" : "جاري",
+    "en" : "Ongoing"
+  }, {
+    "id" : "Final",
+    "ar" : "ختامي",
+    "en" : "Final"
+  } ]
+}

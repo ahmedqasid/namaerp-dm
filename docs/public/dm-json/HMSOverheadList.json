@@ -1,0 +1,2854 @@
+{
+  "entity" : "HMSOverheadList",
+  "table" : "HMSOverheadList",
+  "module" : "hms",
+  "ar" : "قائمة تكاليف طبية غير مباشرة",
+  "arPlural" : "قوائم تكاليف طبية غير مباشرة",
+  "en" : "Medical Overhead List",
+  "enPlural" : "Medical Overhead Lists",
+  "page" : "https://dm.namasoft.com/modules/hms/HMSOverheadList.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "companyEndurancePercent",
+    "column" : "companyEndurancePercent",
+    "ar" : "نسبة تحمل الشركة",
+    "en" : "Company Endurance Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "hmsDocCategory",
+    "column" : "hmsDocCategory_id",
+    "ar" : "تصنيف طبى للمستند",
+    "en" : "Medical Document Category",
+    "type" : "Reference",
+    "refTo" : "HMSDocumentCategory",
+    "refPath" : "/modules/hms/HMSDocumentCategory.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "medicalInsuranceCompany",
+    "column" : "medicalInsuranceCompany_id",
+    "ar" : "شركة التأمين الطبى",
+    "en" : "Medical Insurance Company",
+    "type" : "Reference",
+    "refTo" : "HMSInsuranceCompany",
+    "refPath" : "/modules/hms/HMSInsuranceCompany.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "patientEndurancePercent",
+    "column" : "patientEndurancePercent",
+    "ar" : "نسبة تحمل المريض",
+    "en" : "Patient Endurance Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "priceClassifier1",
+    "column" : "priceClassifier1_id",
+    "ar" : "محدد سعر 1",
+    "en" : "Price Classifier 1",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier1",
+    "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+  }, {
+    "id" : "priceClassifier2",
+    "column" : "priceClassifier2_id",
+    "ar" : "محدد سعر 2",
+    "en" : "Price Classifier 2",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier2",
+    "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+  }, {
+    "id" : "priceClassifier3",
+    "column" : "priceClassifier3_id",
+    "ar" : "محدد سعر 3",
+    "en" : "Price Classifier 3",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier3",
+    "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+  }, {
+    "id" : "priceClassifier4",
+    "column" : "priceClassifier4_id",
+    "ar" : "محدد سعر 4",
+    "en" : "Price Classifier 4",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier4",
+    "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+  }, {
+    "id" : "priceClassifier5",
+    "column" : "priceClassifier5_id",
+    "ar" : "محدد سعر 5",
+    "en" : "Price Classifier 5",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier5",
+    "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "priority",
+    "column" : "priority",
+    "ar" : "الأولوية",
+    "en" : "Priority",
+    "type" : "Long"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "validFrom",
+    "column" : "validFrom",
+    "ar" : "صالح من",
+    "en" : "Valid from",
+    "type" : "Date"
+  }, {
+    "id" : "validTo",
+    "column" : "validTo",
+    "ar" : "صالح حتي",
+    "en" : "Valid to",
+    "type" : "Date"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "overheadListAccommDetails",
+    "table" : "HMSOverheadListAccommLine",
+    "joinColumn" : "hMSOverheadList_id",
+    "fields" : [ {
+      "id" : "overheadListAccommDetails.companyEndurancePercent",
+      "column" : "companyEndurancePercent",
+      "ar" : "نسبة تحمل الشركة",
+      "en" : "Company Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListAccommDetails.costPercentage",
+      "column" : "costPercentage",
+      "ar" : "% التكلفة",
+      "en" : "Cost Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListAccommDetails.costValue",
+      "column" : "costValue",
+      "ar" : "قيمة التكلفة",
+      "en" : "Cost Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListAccommDetails.hmsDocCategory",
+      "column" : "hmsDocCategory_id",
+      "ar" : "تصنيف طبى للمستند",
+      "en" : "Medical Document Category",
+      "type" : "Reference",
+      "refTo" : "HMSDocumentCategory",
+      "refPath" : "/modules/hms/HMSDocumentCategory.html"
+    }, {
+      "id" : "overheadListAccommDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "overheadListAccommDetails.insuranceClass",
+      "column" : "insuranceClass_id",
+      "ar" : "فئة التأمين",
+      "en" : "Insurance Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceClass",
+      "refPath" : "/modules/hms/HMSInsuranceClass.html"
+    }, {
+      "id" : "overheadListAccommDetails.insuranceCompanyClass",
+      "column" : "insuranceCompanyClass_id",
+      "ar" : "فئة شركة تأمين طبى",
+      "en" : "Medical Insurance Company Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompanyClass",
+      "refPath" : "/modules/hms/HMSInsuranceCompanyClass.html"
+    }, {
+      "id" : "overheadListAccommDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "overheadListAccommDetails.medicalInsuranceCompany",
+      "column" : "medicalInsuranceCompany_id",
+      "ar" : "شركة التأمين الطبى",
+      "en" : "Medical Insurance Company",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompany",
+      "refPath" : "/modules/hms/HMSInsuranceCompany.html"
+    }, {
+      "id" : "overheadListAccommDetails.overheadItem",
+      "column" : "overheadItem_id",
+      "ar" : "بند تكلفة طبية غير مباشرة",
+      "en" : "Overhead Item",
+      "type" : "Reference",
+      "refTo" : "HMSOverheadItem",
+      "refPath" : "/modules/hms/HMSOverheadItem.html"
+    }, {
+      "id" : "overheadListAccommDetails.patient",
+      "column" : "patient_id",
+      "ar" : "المريض",
+      "en" : "Patient",
+      "type" : "Reference",
+      "refTo" : "HMSPatient",
+      "refPath" : "/modules/hms/HMSPatient.html"
+    }, {
+      "id" : "overheadListAccommDetails.patientAdmission",
+      "column" : "patientAdmission_id",
+      "ar" : "إستمارة دخول المريض",
+      "en" : "Patient Admission",
+      "type" : "Reference",
+      "refTo" : "HMSPatientAdmission",
+      "refPath" : "/modules/hms/HMSPatientAdmission.html"
+    }, {
+      "id" : "overheadListAccommDetails.patientClass",
+      "column" : "patientClass_id",
+      "ar" : "فئة المريض",
+      "en" : "Patient Classification",
+      "type" : "Reference",
+      "refTo" : "HMSPatientClass",
+      "refPath" : "/modules/hms/HMSPatientClass.html"
+    }, {
+      "id" : "overheadListAccommDetails.patientEndurancePercent",
+      "column" : "patientEndurancePercent",
+      "ar" : "نسبة تحمل المريض",
+      "en" : "Patient Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListAccommDetails.priceClassifier1",
+      "column" : "priceClassifier1_id",
+      "ar" : "محدد سعر 1",
+      "en" : "Price Classifier 1",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier1",
+      "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+    }, {
+      "id" : "overheadListAccommDetails.priceClassifier2",
+      "column" : "priceClassifier2_id",
+      "ar" : "محدد سعر 2",
+      "en" : "Price Classifier 2",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier2",
+      "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+    }, {
+      "id" : "overheadListAccommDetails.priceClassifier3",
+      "column" : "priceClassifier3_id",
+      "ar" : "محدد سعر 3",
+      "en" : "Price Classifier 3",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier3",
+      "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+    }, {
+      "id" : "overheadListAccommDetails.priceClassifier4",
+      "column" : "priceClassifier4_id",
+      "ar" : "محدد سعر 4",
+      "en" : "Price Classifier 4",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier4",
+      "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+    }, {
+      "id" : "overheadListAccommDetails.priceClassifier5",
+      "column" : "priceClassifier5_id",
+      "ar" : "محدد سعر 5",
+      "en" : "Price Classifier 5",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier5",
+      "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+    }, {
+      "id" : "overheadListAccommDetails.pricingData.room",
+      "column" : "room_id",
+      "ar" : "الغرفة",
+      "en" : "Room",
+      "type" : "Reference",
+      "refTo" : "HMSRoom",
+      "refPath" : "/modules/hms/HMSRoom.html"
+    }, {
+      "id" : "overheadListAccommDetails.pricingData.roomClassification",
+      "column" : "roomClassification_id",
+      "ar" : "تصنيف الغرفة",
+      "en" : "Room Classification",
+      "type" : "Reference",
+      "refTo" : "HMSRoomClassification",
+      "refPath" : "/modules/hms/HMSRoomClassification.html"
+    }, {
+      "id" : "overheadListAccommDetails.priority",
+      "column" : "priority",
+      "ar" : "الأولوية",
+      "en" : "Priority",
+      "type" : "Long"
+    }, {
+      "id" : "overheadListAccommDetails.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "overheadListAccommDetails.surgeryClassification",
+      "column" : "surgeryClassification_id",
+      "ar" : "تصنيف العملية",
+      "en" : "Surgery Classification",
+      "type" : "Reference",
+      "refTo" : "HMSSurgeryClassification",
+      "refPath" : "/modules/hms/HMSSurgeryClassification.html"
+    }, {
+      "id" : "overheadListAccommDetails.validFrom",
+      "column" : "validFrom",
+      "ar" : "صالح من",
+      "en" : "Valid from",
+      "type" : "Date"
+    }, {
+      "id" : "overheadListAccommDetails.validTo",
+      "column" : "validTo",
+      "ar" : "صالح حتي",
+      "en" : "Valid to",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "overheadListAttendantDetails",
+    "table" : "HMSOverheadListAttendantLine",
+    "joinColumn" : "hMSOverheadList_id",
+    "fields" : [ {
+      "id" : "overheadListAttendantDetails.companyEndurancePercent",
+      "column" : "companyEndurancePercent",
+      "ar" : "نسبة تحمل الشركة",
+      "en" : "Company Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListAttendantDetails.costPercentage",
+      "column" : "costPercentage",
+      "ar" : "% التكلفة",
+      "en" : "Cost Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListAttendantDetails.costValue",
+      "column" : "costValue",
+      "ar" : "قيمة التكلفة",
+      "en" : "Cost Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListAttendantDetails.hmsDocCategory",
+      "column" : "hmsDocCategory_id",
+      "ar" : "تصنيف طبى للمستند",
+      "en" : "Medical Document Category",
+      "type" : "Reference",
+      "refTo" : "HMSDocumentCategory",
+      "refPath" : "/modules/hms/HMSDocumentCategory.html"
+    }, {
+      "id" : "overheadListAttendantDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "overheadListAttendantDetails.insuranceClass",
+      "column" : "insuranceClass_id",
+      "ar" : "فئة التأمين",
+      "en" : "Insurance Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceClass",
+      "refPath" : "/modules/hms/HMSInsuranceClass.html"
+    }, {
+      "id" : "overheadListAttendantDetails.insuranceCompanyClass",
+      "column" : "insuranceCompanyClass_id",
+      "ar" : "فئة شركة تأمين طبى",
+      "en" : "Medical Insurance Company Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompanyClass",
+      "refPath" : "/modules/hms/HMSInsuranceCompanyClass.html"
+    }, {
+      "id" : "overheadListAttendantDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "overheadListAttendantDetails.medicalInsuranceCompany",
+      "column" : "medicalInsuranceCompany_id",
+      "ar" : "شركة التأمين الطبى",
+      "en" : "Medical Insurance Company",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompany",
+      "refPath" : "/modules/hms/HMSInsuranceCompany.html"
+    }, {
+      "id" : "overheadListAttendantDetails.overheadItem",
+      "column" : "overheadItem_id",
+      "ar" : "بند تكلفة طبية غير مباشرة",
+      "en" : "Overhead Item",
+      "type" : "Reference",
+      "refTo" : "HMSOverheadItem",
+      "refPath" : "/modules/hms/HMSOverheadItem.html"
+    }, {
+      "id" : "overheadListAttendantDetails.patient",
+      "column" : "patient_id",
+      "ar" : "المريض",
+      "en" : "Patient",
+      "type" : "Reference",
+      "refTo" : "HMSPatient",
+      "refPath" : "/modules/hms/HMSPatient.html"
+    }, {
+      "id" : "overheadListAttendantDetails.patientAdmission",
+      "column" : "patientAdmission_id",
+      "ar" : "إستمارة دخول المريض",
+      "en" : "Patient Admission",
+      "type" : "Reference",
+      "refTo" : "HMSPatientAdmission",
+      "refPath" : "/modules/hms/HMSPatientAdmission.html"
+    }, {
+      "id" : "overheadListAttendantDetails.patientClass",
+      "column" : "patientClass_id",
+      "ar" : "فئة المريض",
+      "en" : "Patient Classification",
+      "type" : "Reference",
+      "refTo" : "HMSPatientClass",
+      "refPath" : "/modules/hms/HMSPatientClass.html"
+    }, {
+      "id" : "overheadListAttendantDetails.patientEndurancePercent",
+      "column" : "patientEndurancePercent",
+      "ar" : "نسبة تحمل المريض",
+      "en" : "Patient Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListAttendantDetails.priceClassifier1",
+      "column" : "priceClassifier1_id",
+      "ar" : "محدد سعر 1",
+      "en" : "Price Classifier 1",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier1",
+      "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+    }, {
+      "id" : "overheadListAttendantDetails.priceClassifier2",
+      "column" : "priceClassifier2_id",
+      "ar" : "محدد سعر 2",
+      "en" : "Price Classifier 2",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier2",
+      "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+    }, {
+      "id" : "overheadListAttendantDetails.priceClassifier3",
+      "column" : "priceClassifier3_id",
+      "ar" : "محدد سعر 3",
+      "en" : "Price Classifier 3",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier3",
+      "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+    }, {
+      "id" : "overheadListAttendantDetails.priceClassifier4",
+      "column" : "priceClassifier4_id",
+      "ar" : "محدد سعر 4",
+      "en" : "Price Classifier 4",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier4",
+      "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+    }, {
+      "id" : "overheadListAttendantDetails.priceClassifier5",
+      "column" : "priceClassifier5_id",
+      "ar" : "محدد سعر 5",
+      "en" : "Price Classifier 5",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier5",
+      "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+    }, {
+      "id" : "overheadListAttendantDetails.pricingData.room",
+      "column" : "room_id",
+      "ar" : "الغرفة",
+      "en" : "Room",
+      "type" : "Reference",
+      "refTo" : "HMSRoom",
+      "refPath" : "/modules/hms/HMSRoom.html"
+    }, {
+      "id" : "overheadListAttendantDetails.pricingData.roomClassification",
+      "column" : "roomClassification_id",
+      "ar" : "تصنيف الغرفة",
+      "en" : "Room Classification",
+      "type" : "Reference",
+      "refTo" : "HMSRoomClassification",
+      "refPath" : "/modules/hms/HMSRoomClassification.html"
+    }, {
+      "id" : "overheadListAttendantDetails.priority",
+      "column" : "priority",
+      "ar" : "الأولوية",
+      "en" : "Priority",
+      "type" : "Long"
+    }, {
+      "id" : "overheadListAttendantDetails.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "overheadListAttendantDetails.surgeryClassification",
+      "column" : "surgeryClassification_id",
+      "ar" : "تصنيف العملية",
+      "en" : "Surgery Classification",
+      "type" : "Reference",
+      "refTo" : "HMSSurgeryClassification",
+      "refPath" : "/modules/hms/HMSSurgeryClassification.html"
+    }, {
+      "id" : "overheadListAttendantDetails.validFrom",
+      "column" : "validFrom",
+      "ar" : "صالح من",
+      "en" : "Valid from",
+      "type" : "Date"
+    }, {
+      "id" : "overheadListAttendantDetails.validTo",
+      "column" : "validTo",
+      "ar" : "صالح حتي",
+      "en" : "Valid to",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "overheadListBloodDetails",
+    "table" : "HMSOverheadListBloodLine",
+    "joinColumn" : "hMSOverheadList_id",
+    "fields" : [ {
+      "id" : "overheadListBloodDetails.companyEndurancePercent",
+      "column" : "companyEndurancePercent",
+      "ar" : "نسبة تحمل الشركة",
+      "en" : "Company Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListBloodDetails.costPercentage",
+      "column" : "costPercentage",
+      "ar" : "% التكلفة",
+      "en" : "Cost Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListBloodDetails.costValue",
+      "column" : "costValue",
+      "ar" : "قيمة التكلفة",
+      "en" : "Cost Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListBloodDetails.hmsDocCategory",
+      "column" : "hmsDocCategory_id",
+      "ar" : "تصنيف طبى للمستند",
+      "en" : "Medical Document Category",
+      "type" : "Reference",
+      "refTo" : "HMSDocumentCategory",
+      "refPath" : "/modules/hms/HMSDocumentCategory.html"
+    }, {
+      "id" : "overheadListBloodDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "overheadListBloodDetails.insuranceClass",
+      "column" : "insuranceClass_id",
+      "ar" : "فئة التأمين",
+      "en" : "Insurance Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceClass",
+      "refPath" : "/modules/hms/HMSInsuranceClass.html"
+    }, {
+      "id" : "overheadListBloodDetails.insuranceCompanyClass",
+      "column" : "insuranceCompanyClass_id",
+      "ar" : "فئة شركة تأمين طبى",
+      "en" : "Medical Insurance Company Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompanyClass",
+      "refPath" : "/modules/hms/HMSInsuranceCompanyClass.html"
+    }, {
+      "id" : "overheadListBloodDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "overheadListBloodDetails.medicalInsuranceCompany",
+      "column" : "medicalInsuranceCompany_id",
+      "ar" : "شركة التأمين الطبى",
+      "en" : "Medical Insurance Company",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompany",
+      "refPath" : "/modules/hms/HMSInsuranceCompany.html"
+    }, {
+      "id" : "overheadListBloodDetails.overheadItem",
+      "column" : "overheadItem_id",
+      "ar" : "بند تكلفة طبية غير مباشرة",
+      "en" : "Overhead Item",
+      "type" : "Reference",
+      "refTo" : "HMSOverheadItem",
+      "refPath" : "/modules/hms/HMSOverheadItem.html"
+    }, {
+      "id" : "overheadListBloodDetails.patient",
+      "column" : "patient_id",
+      "ar" : "المريض",
+      "en" : "Patient",
+      "type" : "Reference",
+      "refTo" : "HMSPatient",
+      "refPath" : "/modules/hms/HMSPatient.html"
+    }, {
+      "id" : "overheadListBloodDetails.patientAdmission",
+      "column" : "patientAdmission_id",
+      "ar" : "إستمارة دخول المريض",
+      "en" : "Patient Admission",
+      "type" : "Reference",
+      "refTo" : "HMSPatientAdmission",
+      "refPath" : "/modules/hms/HMSPatientAdmission.html"
+    }, {
+      "id" : "overheadListBloodDetails.patientClass",
+      "column" : "patientClass_id",
+      "ar" : "فئة المريض",
+      "en" : "Patient Classification",
+      "type" : "Reference",
+      "refTo" : "HMSPatientClass",
+      "refPath" : "/modules/hms/HMSPatientClass.html"
+    }, {
+      "id" : "overheadListBloodDetails.patientEndurancePercent",
+      "column" : "patientEndurancePercent",
+      "ar" : "نسبة تحمل المريض",
+      "en" : "Patient Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListBloodDetails.priceClassifier1",
+      "column" : "priceClassifier1_id",
+      "ar" : "محدد سعر 1",
+      "en" : "Price Classifier 1",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier1",
+      "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+    }, {
+      "id" : "overheadListBloodDetails.priceClassifier2",
+      "column" : "priceClassifier2_id",
+      "ar" : "محدد سعر 2",
+      "en" : "Price Classifier 2",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier2",
+      "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+    }, {
+      "id" : "overheadListBloodDetails.priceClassifier3",
+      "column" : "priceClassifier3_id",
+      "ar" : "محدد سعر 3",
+      "en" : "Price Classifier 3",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier3",
+      "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+    }, {
+      "id" : "overheadListBloodDetails.priceClassifier4",
+      "column" : "priceClassifier4_id",
+      "ar" : "محدد سعر 4",
+      "en" : "Price Classifier 4",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier4",
+      "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+    }, {
+      "id" : "overheadListBloodDetails.priceClassifier5",
+      "column" : "priceClassifier5_id",
+      "ar" : "محدد سعر 5",
+      "en" : "Price Classifier 5",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier5",
+      "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+    }, {
+      "id" : "overheadListBloodDetails.pricingData.invItem",
+      "column" : "invItem_id",
+      "ar" : " الصنف",
+      "en" : " Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "overheadListBloodDetails.priority",
+      "column" : "priority",
+      "ar" : "الأولوية",
+      "en" : "Priority",
+      "type" : "Long"
+    }, {
+      "id" : "overheadListBloodDetails.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "overheadListBloodDetails.surgeryClassification",
+      "column" : "surgeryClassification_id",
+      "ar" : "تصنيف العملية",
+      "en" : "Surgery Classification",
+      "type" : "Reference",
+      "refTo" : "HMSSurgeryClassification",
+      "refPath" : "/modules/hms/HMSSurgeryClassification.html"
+    }, {
+      "id" : "overheadListBloodDetails.validFrom",
+      "column" : "validFrom",
+      "ar" : "صالح من",
+      "en" : "Valid from",
+      "type" : "Date"
+    }, {
+      "id" : "overheadListBloodDetails.validTo",
+      "column" : "validTo",
+      "ar" : "صالح حتي",
+      "en" : "Valid to",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "overheadListCheckDetails",
+    "table" : "HMSOverheadListCheckLine",
+    "joinColumn" : "hMSOverheadList_id",
+    "fields" : [ {
+      "id" : "overheadListCheckDetails.companyEndurancePercent",
+      "column" : "companyEndurancePercent",
+      "ar" : "نسبة تحمل الشركة",
+      "en" : "Company Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListCheckDetails.costPercentage",
+      "column" : "costPercentage",
+      "ar" : "% التكلفة",
+      "en" : "Cost Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListCheckDetails.costValue",
+      "column" : "costValue",
+      "ar" : "قيمة التكلفة",
+      "en" : "Cost Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListCheckDetails.hmsDocCategory",
+      "column" : "hmsDocCategory_id",
+      "ar" : "تصنيف طبى للمستند",
+      "en" : "Medical Document Category",
+      "type" : "Reference",
+      "refTo" : "HMSDocumentCategory",
+      "refPath" : "/modules/hms/HMSDocumentCategory.html"
+    }, {
+      "id" : "overheadListCheckDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "overheadListCheckDetails.insuranceClass",
+      "column" : "insuranceClass_id",
+      "ar" : "فئة التأمين",
+      "en" : "Insurance Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceClass",
+      "refPath" : "/modules/hms/HMSInsuranceClass.html"
+    }, {
+      "id" : "overheadListCheckDetails.insuranceCompanyClass",
+      "column" : "insuranceCompanyClass_id",
+      "ar" : "فئة شركة تأمين طبى",
+      "en" : "Medical Insurance Company Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompanyClass",
+      "refPath" : "/modules/hms/HMSInsuranceCompanyClass.html"
+    }, {
+      "id" : "overheadListCheckDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "overheadListCheckDetails.medicalInsuranceCompany",
+      "column" : "medicalInsuranceCompany_id",
+      "ar" : "شركة التأمين الطبى",
+      "en" : "Medical Insurance Company",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompany",
+      "refPath" : "/modules/hms/HMSInsuranceCompany.html"
+    }, {
+      "id" : "overheadListCheckDetails.overheadItem",
+      "column" : "overheadItem_id",
+      "ar" : "بند تكلفة طبية غير مباشرة",
+      "en" : "Overhead Item",
+      "type" : "Reference",
+      "refTo" : "HMSOverheadItem",
+      "refPath" : "/modules/hms/HMSOverheadItem.html"
+    }, {
+      "id" : "overheadListCheckDetails.patient",
+      "column" : "patient_id",
+      "ar" : "المريض",
+      "en" : "Patient",
+      "type" : "Reference",
+      "refTo" : "HMSPatient",
+      "refPath" : "/modules/hms/HMSPatient.html"
+    }, {
+      "id" : "overheadListCheckDetails.patientAdmission",
+      "column" : "patientAdmission_id",
+      "ar" : "إستمارة دخول المريض",
+      "en" : "Patient Admission",
+      "type" : "Reference",
+      "refTo" : "HMSPatientAdmission",
+      "refPath" : "/modules/hms/HMSPatientAdmission.html"
+    }, {
+      "id" : "overheadListCheckDetails.patientClass",
+      "column" : "patientClass_id",
+      "ar" : "فئة المريض",
+      "en" : "Patient Classification",
+      "type" : "Reference",
+      "refTo" : "HMSPatientClass",
+      "refPath" : "/modules/hms/HMSPatientClass.html"
+    }, {
+      "id" : "overheadListCheckDetails.patientEndurancePercent",
+      "column" : "patientEndurancePercent",
+      "ar" : "نسبة تحمل المريض",
+      "en" : "Patient Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListCheckDetails.priceClassifier1",
+      "column" : "priceClassifier1_id",
+      "ar" : "محدد سعر 1",
+      "en" : "Price Classifier 1",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier1",
+      "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+    }, {
+      "id" : "overheadListCheckDetails.priceClassifier2",
+      "column" : "priceClassifier2_id",
+      "ar" : "محدد سعر 2",
+      "en" : "Price Classifier 2",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier2",
+      "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+    }, {
+      "id" : "overheadListCheckDetails.priceClassifier3",
+      "column" : "priceClassifier3_id",
+      "ar" : "محدد سعر 3",
+      "en" : "Price Classifier 3",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier3",
+      "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+    }, {
+      "id" : "overheadListCheckDetails.priceClassifier4",
+      "column" : "priceClassifier4_id",
+      "ar" : "محدد سعر 4",
+      "en" : "Price Classifier 4",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier4",
+      "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+    }, {
+      "id" : "overheadListCheckDetails.priceClassifier5",
+      "column" : "priceClassifier5_id",
+      "ar" : "محدد سعر 5",
+      "en" : "Price Classifier 5",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier5",
+      "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+    }, {
+      "id" : "overheadListCheckDetails.pricingData.docDegree",
+      "column" : "docDegree",
+      "ar" : "الدرجة",
+      "en" : "Degree",
+      "type" : "Enum",
+      "enum" : "HMSDocDegree"
+    }, {
+      "id" : "overheadListCheckDetails.pricingData.doctor",
+      "column" : "doctor_id",
+      "ar" : "الطبيب",
+      "en" : "Doctor",
+      "type" : "Reference",
+      "refTo" : "HMSDoctor",
+      "refPath" : "/modules/hms/HMSDoctor.html"
+    }, {
+      "id" : "overheadListCheckDetails.pricingData.medicalSpecialty",
+      "column" : "medicalSpecialty_id",
+      "ar" : "التخصص الطبي",
+      "en" : "Medical Specialty",
+      "type" : "Reference",
+      "refTo" : "HMSMedicalSpecialty",
+      "refPath" : "/modules/hms/HMSMedicalSpecialty.html"
+    }, {
+      "id" : "overheadListCheckDetails.priority",
+      "column" : "priority",
+      "ar" : "الأولوية",
+      "en" : "Priority",
+      "type" : "Long"
+    }, {
+      "id" : "overheadListCheckDetails.procedureType",
+      "column" : "procedureType_id",
+      "ar" : "نوع الإجراء",
+      "en" : "Procedure Type",
+      "type" : "Reference",
+      "refTo" : "HMSProcedureType",
+      "refPath" : "/modules/hms/HMSProcedureType.html"
+    }, {
+      "id" : "overheadListCheckDetails.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "overheadListCheckDetails.surgeryClassification",
+      "column" : "surgeryClassification_id",
+      "ar" : "تصنيف العملية",
+      "en" : "Surgery Classification",
+      "type" : "Reference",
+      "refTo" : "HMSSurgeryClassification",
+      "refPath" : "/modules/hms/HMSSurgeryClassification.html"
+    }, {
+      "id" : "overheadListCheckDetails.validFrom",
+      "column" : "validFrom",
+      "ar" : "صالح من",
+      "en" : "Valid from",
+      "type" : "Date"
+    }, {
+      "id" : "overheadListCheckDetails.validTo",
+      "column" : "validTo",
+      "ar" : "صالح حتي",
+      "en" : "Valid to",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "overheadListLabTestDetails",
+    "table" : "HMSOverheadListLabTestLine",
+    "joinColumn" : "hMSOverheadList_id",
+    "fields" : [ {
+      "id" : "overheadListLabTestDetails.companyEndurancePercent",
+      "column" : "companyEndurancePercent",
+      "ar" : "نسبة تحمل الشركة",
+      "en" : "Company Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListLabTestDetails.costPercentage",
+      "column" : "costPercentage",
+      "ar" : "% التكلفة",
+      "en" : "Cost Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListLabTestDetails.costValue",
+      "column" : "costValue",
+      "ar" : "قيمة التكلفة",
+      "en" : "Cost Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListLabTestDetails.hmsDocCategory",
+      "column" : "hmsDocCategory_id",
+      "ar" : "تصنيف طبى للمستند",
+      "en" : "Medical Document Category",
+      "type" : "Reference",
+      "refTo" : "HMSDocumentCategory",
+      "refPath" : "/modules/hms/HMSDocumentCategory.html"
+    }, {
+      "id" : "overheadListLabTestDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "overheadListLabTestDetails.insuranceClass",
+      "column" : "insuranceClass_id",
+      "ar" : "فئة التأمين",
+      "en" : "Insurance Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceClass",
+      "refPath" : "/modules/hms/HMSInsuranceClass.html"
+    }, {
+      "id" : "overheadListLabTestDetails.insuranceCompanyClass",
+      "column" : "insuranceCompanyClass_id",
+      "ar" : "فئة شركة تأمين طبى",
+      "en" : "Medical Insurance Company Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompanyClass",
+      "refPath" : "/modules/hms/HMSInsuranceCompanyClass.html"
+    }, {
+      "id" : "overheadListLabTestDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "overheadListLabTestDetails.medicalInsuranceCompany",
+      "column" : "medicalInsuranceCompany_id",
+      "ar" : "شركة التأمين الطبى",
+      "en" : "Medical Insurance Company",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompany",
+      "refPath" : "/modules/hms/HMSInsuranceCompany.html"
+    }, {
+      "id" : "overheadListLabTestDetails.overheadItem",
+      "column" : "overheadItem_id",
+      "ar" : "بند تكلفة طبية غير مباشرة",
+      "en" : "Overhead Item",
+      "type" : "Reference",
+      "refTo" : "HMSOverheadItem",
+      "refPath" : "/modules/hms/HMSOverheadItem.html"
+    }, {
+      "id" : "overheadListLabTestDetails.patient",
+      "column" : "patient_id",
+      "ar" : "المريض",
+      "en" : "Patient",
+      "type" : "Reference",
+      "refTo" : "HMSPatient",
+      "refPath" : "/modules/hms/HMSPatient.html"
+    }, {
+      "id" : "overheadListLabTestDetails.patientAdmission",
+      "column" : "patientAdmission_id",
+      "ar" : "إستمارة دخول المريض",
+      "en" : "Patient Admission",
+      "type" : "Reference",
+      "refTo" : "HMSPatientAdmission",
+      "refPath" : "/modules/hms/HMSPatientAdmission.html"
+    }, {
+      "id" : "overheadListLabTestDetails.patientClass",
+      "column" : "patientClass_id",
+      "ar" : "فئة المريض",
+      "en" : "Patient Classification",
+      "type" : "Reference",
+      "refTo" : "HMSPatientClass",
+      "refPath" : "/modules/hms/HMSPatientClass.html"
+    }, {
+      "id" : "overheadListLabTestDetails.patientEndurancePercent",
+      "column" : "patientEndurancePercent",
+      "ar" : "نسبة تحمل المريض",
+      "en" : "Patient Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListLabTestDetails.priceClassifier1",
+      "column" : "priceClassifier1_id",
+      "ar" : "محدد سعر 1",
+      "en" : "Price Classifier 1",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier1",
+      "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+    }, {
+      "id" : "overheadListLabTestDetails.priceClassifier2",
+      "column" : "priceClassifier2_id",
+      "ar" : "محدد سعر 2",
+      "en" : "Price Classifier 2",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier2",
+      "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+    }, {
+      "id" : "overheadListLabTestDetails.priceClassifier3",
+      "column" : "priceClassifier3_id",
+      "ar" : "محدد سعر 3",
+      "en" : "Price Classifier 3",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier3",
+      "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+    }, {
+      "id" : "overheadListLabTestDetails.priceClassifier4",
+      "column" : "priceClassifier4_id",
+      "ar" : "محدد سعر 4",
+      "en" : "Price Classifier 4",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier4",
+      "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+    }, {
+      "id" : "overheadListLabTestDetails.priceClassifier5",
+      "column" : "priceClassifier5_id",
+      "ar" : "محدد سعر 5",
+      "en" : "Price Classifier 5",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier5",
+      "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+    }, {
+      "id" : "overheadListLabTestDetails.pricingData.docDegree",
+      "column" : "docDegree",
+      "ar" : "الدرجة",
+      "en" : "Degree",
+      "type" : "Enum",
+      "enum" : "HMSDocDegree"
+    }, {
+      "id" : "overheadListLabTestDetails.pricingData.doctor",
+      "column" : "doctor_id",
+      "ar" : "الطبيب",
+      "en" : "Doctor",
+      "type" : "Reference",
+      "refTo" : "HMSDoctor",
+      "refPath" : "/modules/hms/HMSDoctor.html"
+    }, {
+      "id" : "overheadListLabTestDetails.pricingData.testType",
+      "column" : "testType_id",
+      "ar" : "نوع التحليل",
+      "en" : "Laboratory Test Type",
+      "type" : "Reference",
+      "refTo" : "HMSLabTestType",
+      "refPath" : "/modules/hms/HMSLabTestType.html"
+    }, {
+      "id" : "overheadListLabTestDetails.priority",
+      "column" : "priority",
+      "ar" : "الأولوية",
+      "en" : "Priority",
+      "type" : "Long"
+    }, {
+      "id" : "overheadListLabTestDetails.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "overheadListLabTestDetails.surgeryClassification",
+      "column" : "surgeryClassification_id",
+      "ar" : "تصنيف العملية",
+      "en" : "Surgery Classification",
+      "type" : "Reference",
+      "refTo" : "HMSSurgeryClassification",
+      "refPath" : "/modules/hms/HMSSurgeryClassification.html"
+    }, {
+      "id" : "overheadListLabTestDetails.validFrom",
+      "column" : "validFrom",
+      "ar" : "صالح من",
+      "en" : "Valid from",
+      "type" : "Date"
+    }, {
+      "id" : "overheadListLabTestDetails.validTo",
+      "column" : "validTo",
+      "ar" : "صالح حتي",
+      "en" : "Valid to",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "overheadListPharmacyDetails",
+    "table" : "HMSOverheadListPharmacyLine",
+    "joinColumn" : "hMSOverheadList_id",
+    "fields" : [ {
+      "id" : "overheadListPharmacyDetails.companyEndurancePercent",
+      "column" : "companyEndurancePercent",
+      "ar" : "نسبة تحمل الشركة",
+      "en" : "Company Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListPharmacyDetails.costPercentage",
+      "column" : "costPercentage",
+      "ar" : "% التكلفة",
+      "en" : "Cost Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListPharmacyDetails.costValue",
+      "column" : "costValue",
+      "ar" : "قيمة التكلفة",
+      "en" : "Cost Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListPharmacyDetails.hmsDocCategory",
+      "column" : "hmsDocCategory_id",
+      "ar" : "تصنيف طبى للمستند",
+      "en" : "Medical Document Category",
+      "type" : "Reference",
+      "refTo" : "HMSDocumentCategory",
+      "refPath" : "/modules/hms/HMSDocumentCategory.html"
+    }, {
+      "id" : "overheadListPharmacyDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "overheadListPharmacyDetails.insuranceClass",
+      "column" : "insuranceClass_id",
+      "ar" : "فئة التأمين",
+      "en" : "Insurance Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceClass",
+      "refPath" : "/modules/hms/HMSInsuranceClass.html"
+    }, {
+      "id" : "overheadListPharmacyDetails.insuranceCompanyClass",
+      "column" : "insuranceCompanyClass_id",
+      "ar" : "فئة شركة تأمين طبى",
+      "en" : "Medical Insurance Company Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompanyClass",
+      "refPath" : "/modules/hms/HMSInsuranceCompanyClass.html"
+    }, {
+      "id" : "overheadListPharmacyDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "overheadListPharmacyDetails.medicalInsuranceCompany",
+      "column" : "medicalInsuranceCompany_id",
+      "ar" : "شركة التأمين الطبى",
+      "en" : "Medical Insurance Company",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompany",
+      "refPath" : "/modules/hms/HMSInsuranceCompany.html"
+    }, {
+      "id" : "overheadListPharmacyDetails.overheadItem",
+      "column" : "overheadItem_id",
+      "ar" : "بند تكلفة طبية غير مباشرة",
+      "en" : "Overhead Item",
+      "type" : "Reference",
+      "refTo" : "HMSOverheadItem",
+      "refPath" : "/modules/hms/HMSOverheadItem.html"
+    }, {
+      "id" : "overheadListPharmacyDetails.patient",
+      "column" : "patient_id",
+      "ar" : "المريض",
+      "en" : "Patient",
+      "type" : "Reference",
+      "refTo" : "HMSPatient",
+      "refPath" : "/modules/hms/HMSPatient.html"
+    }, {
+      "id" : "overheadListPharmacyDetails.patientAdmission",
+      "column" : "patientAdmission_id",
+      "ar" : "إستمارة دخول المريض",
+      "en" : "Patient Admission",
+      "type" : "Reference",
+      "refTo" : "HMSPatientAdmission",
+      "refPath" : "/modules/hms/HMSPatientAdmission.html"
+    }, {
+      "id" : "overheadListPharmacyDetails.patientClass",
+      "column" : "patientClass_id",
+      "ar" : "فئة المريض",
+      "en" : "Patient Classification",
+      "type" : "Reference",
+      "refTo" : "HMSPatientClass",
+      "refPath" : "/modules/hms/HMSPatientClass.html"
+    }, {
+      "id" : "overheadListPharmacyDetails.patientEndurancePercent",
+      "column" : "patientEndurancePercent",
+      "ar" : "نسبة تحمل المريض",
+      "en" : "Patient Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListPharmacyDetails.priceClassifier1",
+      "column" : "priceClassifier1_id",
+      "ar" : "محدد سعر 1",
+      "en" : "Price Classifier 1",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier1",
+      "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+    }, {
+      "id" : "overheadListPharmacyDetails.priceClassifier2",
+      "column" : "priceClassifier2_id",
+      "ar" : "محدد سعر 2",
+      "en" : "Price Classifier 2",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier2",
+      "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+    }, {
+      "id" : "overheadListPharmacyDetails.priceClassifier3",
+      "column" : "priceClassifier3_id",
+      "ar" : "محدد سعر 3",
+      "en" : "Price Classifier 3",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier3",
+      "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+    }, {
+      "id" : "overheadListPharmacyDetails.priceClassifier4",
+      "column" : "priceClassifier4_id",
+      "ar" : "محدد سعر 4",
+      "en" : "Price Classifier 4",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier4",
+      "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+    }, {
+      "id" : "overheadListPharmacyDetails.priceClassifier5",
+      "column" : "priceClassifier5_id",
+      "ar" : "محدد سعر 5",
+      "en" : "Price Classifier 5",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier5",
+      "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+    }, {
+      "id" : "overheadListPharmacyDetails.pricingData.invItem",
+      "column" : "invItem_id",
+      "ar" : " الصنف",
+      "en" : " Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "overheadListPharmacyDetails.priority",
+      "column" : "priority",
+      "ar" : "الأولوية",
+      "en" : "Priority",
+      "type" : "Long"
+    }, {
+      "id" : "overheadListPharmacyDetails.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "overheadListPharmacyDetails.surgeryClassification",
+      "column" : "surgeryClassification_id",
+      "ar" : "تصنيف العملية",
+      "en" : "Surgery Classification",
+      "type" : "Reference",
+      "refTo" : "HMSSurgeryClassification",
+      "refPath" : "/modules/hms/HMSSurgeryClassification.html"
+    }, {
+      "id" : "overheadListPharmacyDetails.validFrom",
+      "column" : "validFrom",
+      "ar" : "صالح من",
+      "en" : "Valid from",
+      "type" : "Date"
+    }, {
+      "id" : "overheadListPharmacyDetails.validTo",
+      "column" : "validTo",
+      "ar" : "صالح حتي",
+      "en" : "Valid to",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "overheadListPhyDetails",
+    "table" : "HMSOverheadListPhyLine",
+    "joinColumn" : "hMSOverheadList_id",
+    "fields" : [ {
+      "id" : "overheadListPhyDetails.companyEndurancePercent",
+      "column" : "companyEndurancePercent",
+      "ar" : "نسبة تحمل الشركة",
+      "en" : "Company Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListPhyDetails.costPercentage",
+      "column" : "costPercentage",
+      "ar" : "% التكلفة",
+      "en" : "Cost Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListPhyDetails.costValue",
+      "column" : "costValue",
+      "ar" : "قيمة التكلفة",
+      "en" : "Cost Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListPhyDetails.hmsDocCategory",
+      "column" : "hmsDocCategory_id",
+      "ar" : "تصنيف طبى للمستند",
+      "en" : "Medical Document Category",
+      "type" : "Reference",
+      "refTo" : "HMSDocumentCategory",
+      "refPath" : "/modules/hms/HMSDocumentCategory.html"
+    }, {
+      "id" : "overheadListPhyDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "overheadListPhyDetails.insuranceClass",
+      "column" : "insuranceClass_id",
+      "ar" : "فئة التأمين",
+      "en" : "Insurance Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceClass",
+      "refPath" : "/modules/hms/HMSInsuranceClass.html"
+    }, {
+      "id" : "overheadListPhyDetails.insuranceCompanyClass",
+      "column" : "insuranceCompanyClass_id",
+      "ar" : "فئة شركة تأمين طبى",
+      "en" : "Medical Insurance Company Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompanyClass",
+      "refPath" : "/modules/hms/HMSInsuranceCompanyClass.html"
+    }, {
+      "id" : "overheadListPhyDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "overheadListPhyDetails.medicalInsuranceCompany",
+      "column" : "medicalInsuranceCompany_id",
+      "ar" : "شركة التأمين الطبى",
+      "en" : "Medical Insurance Company",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompany",
+      "refPath" : "/modules/hms/HMSInsuranceCompany.html"
+    }, {
+      "id" : "overheadListPhyDetails.overheadItem",
+      "column" : "overheadItem_id",
+      "ar" : "بند تكلفة طبية غير مباشرة",
+      "en" : "Overhead Item",
+      "type" : "Reference",
+      "refTo" : "HMSOverheadItem",
+      "refPath" : "/modules/hms/HMSOverheadItem.html"
+    }, {
+      "id" : "overheadListPhyDetails.patient",
+      "column" : "patient_id",
+      "ar" : "المريض",
+      "en" : "Patient",
+      "type" : "Reference",
+      "refTo" : "HMSPatient",
+      "refPath" : "/modules/hms/HMSPatient.html"
+    }, {
+      "id" : "overheadListPhyDetails.patientAdmission",
+      "column" : "patientAdmission_id",
+      "ar" : "إستمارة دخول المريض",
+      "en" : "Patient Admission",
+      "type" : "Reference",
+      "refTo" : "HMSPatientAdmission",
+      "refPath" : "/modules/hms/HMSPatientAdmission.html"
+    }, {
+      "id" : "overheadListPhyDetails.patientClass",
+      "column" : "patientClass_id",
+      "ar" : "فئة المريض",
+      "en" : "Patient Classification",
+      "type" : "Reference",
+      "refTo" : "HMSPatientClass",
+      "refPath" : "/modules/hms/HMSPatientClass.html"
+    }, {
+      "id" : "overheadListPhyDetails.patientEndurancePercent",
+      "column" : "patientEndurancePercent",
+      "ar" : "نسبة تحمل المريض",
+      "en" : "Patient Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListPhyDetails.priceClassifier1",
+      "column" : "priceClassifier1_id",
+      "ar" : "محدد سعر 1",
+      "en" : "Price Classifier 1",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier1",
+      "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+    }, {
+      "id" : "overheadListPhyDetails.priceClassifier2",
+      "column" : "priceClassifier2_id",
+      "ar" : "محدد سعر 2",
+      "en" : "Price Classifier 2",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier2",
+      "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+    }, {
+      "id" : "overheadListPhyDetails.priceClassifier3",
+      "column" : "priceClassifier3_id",
+      "ar" : "محدد سعر 3",
+      "en" : "Price Classifier 3",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier3",
+      "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+    }, {
+      "id" : "overheadListPhyDetails.priceClassifier4",
+      "column" : "priceClassifier4_id",
+      "ar" : "محدد سعر 4",
+      "en" : "Price Classifier 4",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier4",
+      "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+    }, {
+      "id" : "overheadListPhyDetails.priceClassifier5",
+      "column" : "priceClassifier5_id",
+      "ar" : "محدد سعر 5",
+      "en" : "Price Classifier 5",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier5",
+      "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+    }, {
+      "id" : "overheadListPhyDetails.pricingData.docDegree",
+      "column" : "docDegree",
+      "ar" : "الدرجة",
+      "en" : "Degree",
+      "type" : "Enum",
+      "enum" : "HMSDocDegree"
+    }, {
+      "id" : "overheadListPhyDetails.pricingData.doctor",
+      "column" : "doctor_id",
+      "ar" : "الطبيب",
+      "en" : "Doctor",
+      "type" : "Reference",
+      "refTo" : "HMSDoctor",
+      "refPath" : "/modules/hms/HMSDoctor.html"
+    }, {
+      "id" : "overheadListPhyDetails.pricingData.phyTherapyType",
+      "column" : "phyTherapyType_id",
+      "ar" : "نوع العلاج الطبيعى",
+      "en" : "Physical Therapy Type",
+      "type" : "Reference",
+      "refTo" : "HMSPhysicalTherapyType",
+      "refPath" : "/modules/hms/HMSPhysicalTherapyType.html"
+    }, {
+      "id" : "overheadListPhyDetails.priority",
+      "column" : "priority",
+      "ar" : "الأولوية",
+      "en" : "Priority",
+      "type" : "Long"
+    }, {
+      "id" : "overheadListPhyDetails.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "overheadListPhyDetails.surgeryClassification",
+      "column" : "surgeryClassification_id",
+      "ar" : "تصنيف العملية",
+      "en" : "Surgery Classification",
+      "type" : "Reference",
+      "refTo" : "HMSSurgeryClassification",
+      "refPath" : "/modules/hms/HMSSurgeryClassification.html"
+    }, {
+      "id" : "overheadListPhyDetails.validFrom",
+      "column" : "validFrom",
+      "ar" : "صالح من",
+      "en" : "Valid from",
+      "type" : "Date"
+    }, {
+      "id" : "overheadListPhyDetails.validTo",
+      "column" : "validTo",
+      "ar" : "صالح حتي",
+      "en" : "Valid to",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "overheadListRadiologyDetails",
+    "table" : "HMSOverheadListRadiologyLine",
+    "joinColumn" : "hMSOverheadList_id",
+    "fields" : [ {
+      "id" : "overheadListRadiologyDetails.companyEndurancePercent",
+      "column" : "companyEndurancePercent",
+      "ar" : "نسبة تحمل الشركة",
+      "en" : "Company Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListRadiologyDetails.costPercentage",
+      "column" : "costPercentage",
+      "ar" : "% التكلفة",
+      "en" : "Cost Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListRadiologyDetails.costValue",
+      "column" : "costValue",
+      "ar" : "قيمة التكلفة",
+      "en" : "Cost Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListRadiologyDetails.hmsDocCategory",
+      "column" : "hmsDocCategory_id",
+      "ar" : "تصنيف طبى للمستند",
+      "en" : "Medical Document Category",
+      "type" : "Reference",
+      "refTo" : "HMSDocumentCategory",
+      "refPath" : "/modules/hms/HMSDocumentCategory.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "overheadListRadiologyDetails.insuranceClass",
+      "column" : "insuranceClass_id",
+      "ar" : "فئة التأمين",
+      "en" : "Insurance Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceClass",
+      "refPath" : "/modules/hms/HMSInsuranceClass.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.insuranceCompanyClass",
+      "column" : "insuranceCompanyClass_id",
+      "ar" : "فئة شركة تأمين طبى",
+      "en" : "Medical Insurance Company Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompanyClass",
+      "refPath" : "/modules/hms/HMSInsuranceCompanyClass.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "overheadListRadiologyDetails.medicalInsuranceCompany",
+      "column" : "medicalInsuranceCompany_id",
+      "ar" : "شركة التأمين الطبى",
+      "en" : "Medical Insurance Company",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompany",
+      "refPath" : "/modules/hms/HMSInsuranceCompany.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.overheadItem",
+      "column" : "overheadItem_id",
+      "ar" : "بند تكلفة طبية غير مباشرة",
+      "en" : "Overhead Item",
+      "type" : "Reference",
+      "refTo" : "HMSOverheadItem",
+      "refPath" : "/modules/hms/HMSOverheadItem.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.patient",
+      "column" : "patient_id",
+      "ar" : "المريض",
+      "en" : "Patient",
+      "type" : "Reference",
+      "refTo" : "HMSPatient",
+      "refPath" : "/modules/hms/HMSPatient.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.patientAdmission",
+      "column" : "patientAdmission_id",
+      "ar" : "إستمارة دخول المريض",
+      "en" : "Patient Admission",
+      "type" : "Reference",
+      "refTo" : "HMSPatientAdmission",
+      "refPath" : "/modules/hms/HMSPatientAdmission.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.patientClass",
+      "column" : "patientClass_id",
+      "ar" : "فئة المريض",
+      "en" : "Patient Classification",
+      "type" : "Reference",
+      "refTo" : "HMSPatientClass",
+      "refPath" : "/modules/hms/HMSPatientClass.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.patientEndurancePercent",
+      "column" : "patientEndurancePercent",
+      "ar" : "نسبة تحمل المريض",
+      "en" : "Patient Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListRadiologyDetails.priceClassifier1",
+      "column" : "priceClassifier1_id",
+      "ar" : "محدد سعر 1",
+      "en" : "Price Classifier 1",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier1",
+      "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.priceClassifier2",
+      "column" : "priceClassifier2_id",
+      "ar" : "محدد سعر 2",
+      "en" : "Price Classifier 2",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier2",
+      "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.priceClassifier3",
+      "column" : "priceClassifier3_id",
+      "ar" : "محدد سعر 3",
+      "en" : "Price Classifier 3",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier3",
+      "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.priceClassifier4",
+      "column" : "priceClassifier4_id",
+      "ar" : "محدد سعر 4",
+      "en" : "Price Classifier 4",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier4",
+      "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.priceClassifier5",
+      "column" : "priceClassifier5_id",
+      "ar" : "محدد سعر 5",
+      "en" : "Price Classifier 5",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier5",
+      "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.pricingData.docDegree",
+      "column" : "docDegree",
+      "ar" : "الدرجة",
+      "en" : "Degree",
+      "type" : "Enum",
+      "enum" : "HMSDocDegree"
+    }, {
+      "id" : "overheadListRadiologyDetails.pricingData.doctor",
+      "column" : "doctor_id",
+      "ar" : "الطبيب",
+      "en" : "Doctor",
+      "type" : "Reference",
+      "refTo" : "HMSDoctor",
+      "refPath" : "/modules/hms/HMSDoctor.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.pricingData.radiologyType",
+      "column" : "radiologyType_id",
+      "ar" : "نوع الأشعة",
+      "en" : "Radiology Type",
+      "type" : "Reference",
+      "refTo" : "HMSRadiologyType",
+      "refPath" : "/modules/hms/HMSRadiologyType.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.priority",
+      "column" : "priority",
+      "ar" : "الأولوية",
+      "en" : "Priority",
+      "type" : "Long"
+    }, {
+      "id" : "overheadListRadiologyDetails.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "overheadListRadiologyDetails.surgeryClassification",
+      "column" : "surgeryClassification_id",
+      "ar" : "تصنيف العملية",
+      "en" : "Surgery Classification",
+      "type" : "Reference",
+      "refTo" : "HMSSurgeryClassification",
+      "refPath" : "/modules/hms/HMSSurgeryClassification.html"
+    }, {
+      "id" : "overheadListRadiologyDetails.validFrom",
+      "column" : "validFrom",
+      "ar" : "صالح من",
+      "en" : "Valid from",
+      "type" : "Date"
+    }, {
+      "id" : "overheadListRadiologyDetails.validTo",
+      "column" : "validTo",
+      "ar" : "صالح حتي",
+      "en" : "Valid to",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "overheadListServiceDetails",
+    "table" : "HMSOverheadListServiceLine",
+    "joinColumn" : "hMSOverheadList_id",
+    "fields" : [ {
+      "id" : "overheadListServiceDetails.companyEndurancePercent",
+      "column" : "companyEndurancePercent",
+      "ar" : "نسبة تحمل الشركة",
+      "en" : "Company Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListServiceDetails.costPercentage",
+      "column" : "costPercentage",
+      "ar" : "% التكلفة",
+      "en" : "Cost Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListServiceDetails.costValue",
+      "column" : "costValue",
+      "ar" : "قيمة التكلفة",
+      "en" : "Cost Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListServiceDetails.hmsDocCategory",
+      "column" : "hmsDocCategory_id",
+      "ar" : "تصنيف طبى للمستند",
+      "en" : "Medical Document Category",
+      "type" : "Reference",
+      "refTo" : "HMSDocumentCategory",
+      "refPath" : "/modules/hms/HMSDocumentCategory.html"
+    }, {
+      "id" : "overheadListServiceDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "overheadListServiceDetails.insuranceClass",
+      "column" : "insuranceClass_id",
+      "ar" : "فئة التأمين",
+      "en" : "Insurance Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceClass",
+      "refPath" : "/modules/hms/HMSInsuranceClass.html"
+    }, {
+      "id" : "overheadListServiceDetails.insuranceCompanyClass",
+      "column" : "insuranceCompanyClass_id",
+      "ar" : "فئة شركة تأمين طبى",
+      "en" : "Medical Insurance Company Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompanyClass",
+      "refPath" : "/modules/hms/HMSInsuranceCompanyClass.html"
+    }, {
+      "id" : "overheadListServiceDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "overheadListServiceDetails.medicalInsuranceCompany",
+      "column" : "medicalInsuranceCompany_id",
+      "ar" : "شركة التأمين الطبى",
+      "en" : "Medical Insurance Company",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompany",
+      "refPath" : "/modules/hms/HMSInsuranceCompany.html"
+    }, {
+      "id" : "overheadListServiceDetails.overheadItem",
+      "column" : "overheadItem_id",
+      "ar" : "بند تكلفة طبية غير مباشرة",
+      "en" : "Overhead Item",
+      "type" : "Reference",
+      "refTo" : "HMSOverheadItem",
+      "refPath" : "/modules/hms/HMSOverheadItem.html"
+    }, {
+      "id" : "overheadListServiceDetails.patient",
+      "column" : "patient_id",
+      "ar" : "المريض",
+      "en" : "Patient",
+      "type" : "Reference",
+      "refTo" : "HMSPatient",
+      "refPath" : "/modules/hms/HMSPatient.html"
+    }, {
+      "id" : "overheadListServiceDetails.patientAdmission",
+      "column" : "patientAdmission_id",
+      "ar" : "إستمارة دخول المريض",
+      "en" : "Patient Admission",
+      "type" : "Reference",
+      "refTo" : "HMSPatientAdmission",
+      "refPath" : "/modules/hms/HMSPatientAdmission.html"
+    }, {
+      "id" : "overheadListServiceDetails.patientClass",
+      "column" : "patientClass_id",
+      "ar" : "فئة المريض",
+      "en" : "Patient Classification",
+      "type" : "Reference",
+      "refTo" : "HMSPatientClass",
+      "refPath" : "/modules/hms/HMSPatientClass.html"
+    }, {
+      "id" : "overheadListServiceDetails.patientEndurancePercent",
+      "column" : "patientEndurancePercent",
+      "ar" : "نسبة تحمل المريض",
+      "en" : "Patient Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListServiceDetails.priceClassifier1",
+      "column" : "priceClassifier1_id",
+      "ar" : "محدد سعر 1",
+      "en" : "Price Classifier 1",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier1",
+      "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+    }, {
+      "id" : "overheadListServiceDetails.priceClassifier2",
+      "column" : "priceClassifier2_id",
+      "ar" : "محدد سعر 2",
+      "en" : "Price Classifier 2",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier2",
+      "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+    }, {
+      "id" : "overheadListServiceDetails.priceClassifier3",
+      "column" : "priceClassifier3_id",
+      "ar" : "محدد سعر 3",
+      "en" : "Price Classifier 3",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier3",
+      "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+    }, {
+      "id" : "overheadListServiceDetails.priceClassifier4",
+      "column" : "priceClassifier4_id",
+      "ar" : "محدد سعر 4",
+      "en" : "Price Classifier 4",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier4",
+      "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+    }, {
+      "id" : "overheadListServiceDetails.priceClassifier5",
+      "column" : "priceClassifier5_id",
+      "ar" : "محدد سعر 5",
+      "en" : "Price Classifier 5",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier5",
+      "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+    }, {
+      "id" : "overheadListServiceDetails.pricingData.docDegree",
+      "column" : "docDegree",
+      "ar" : "الدرجة",
+      "en" : "Degree",
+      "type" : "Enum",
+      "enum" : "HMSDocDegree"
+    }, {
+      "id" : "overheadListServiceDetails.pricingData.doctor",
+      "column" : "doctor_id",
+      "ar" : "الطبيب",
+      "en" : "Doctor",
+      "type" : "Reference",
+      "refTo" : "HMSDoctor",
+      "refPath" : "/modules/hms/HMSDoctor.html"
+    }, {
+      "id" : "overheadListServiceDetails.pricingData.medicalService",
+      "column" : "medicalService_id",
+      "ar" : "الخدمة الطبية",
+      "en" : "Medical Service",
+      "type" : "Reference",
+      "refTo" : "HMSMedicalService",
+      "refPath" : "/modules/hms/HMSMedicalService.html"
+    }, {
+      "id" : "overheadListServiceDetails.pricingData.medicalSpecialty",
+      "column" : "medicalSpecialty_id",
+      "ar" : "التخصص الطبي",
+      "en" : "Medical Specialty",
+      "type" : "Reference",
+      "refTo" : "HMSMedicalSpecialty",
+      "refPath" : "/modules/hms/HMSMedicalSpecialty.html"
+    }, {
+      "id" : "overheadListServiceDetails.priority",
+      "column" : "priority",
+      "ar" : "الأولوية",
+      "en" : "Priority",
+      "type" : "Long"
+    }, {
+      "id" : "overheadListServiceDetails.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "overheadListServiceDetails.surgeryClassification",
+      "column" : "surgeryClassification_id",
+      "ar" : "تصنيف العملية",
+      "en" : "Surgery Classification",
+      "type" : "Reference",
+      "refTo" : "HMSSurgeryClassification",
+      "refPath" : "/modules/hms/HMSSurgeryClassification.html"
+    }, {
+      "id" : "overheadListServiceDetails.validFrom",
+      "column" : "validFrom",
+      "ar" : "صالح من",
+      "en" : "Valid from",
+      "type" : "Date"
+    }, {
+      "id" : "overheadListServiceDetails.validTo",
+      "column" : "validTo",
+      "ar" : "صالح حتي",
+      "en" : "Valid to",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "overheadListSupervisionDetails",
+    "table" : "HMSOverheadListSupervisionLine",
+    "joinColumn" : "hMSOverheadList_id",
+    "fields" : [ {
+      "id" : "overheadListSupervisionDetails.companyEndurancePercent",
+      "column" : "companyEndurancePercent",
+      "ar" : "نسبة تحمل الشركة",
+      "en" : "Company Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListSupervisionDetails.costPercentage",
+      "column" : "costPercentage",
+      "ar" : "% التكلفة",
+      "en" : "Cost Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListSupervisionDetails.costValue",
+      "column" : "costValue",
+      "ar" : "قيمة التكلفة",
+      "en" : "Cost Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListSupervisionDetails.hmsDocCategory",
+      "column" : "hmsDocCategory_id",
+      "ar" : "تصنيف طبى للمستند",
+      "en" : "Medical Document Category",
+      "type" : "Reference",
+      "refTo" : "HMSDocumentCategory",
+      "refPath" : "/modules/hms/HMSDocumentCategory.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "overheadListSupervisionDetails.insuranceClass",
+      "column" : "insuranceClass_id",
+      "ar" : "فئة التأمين",
+      "en" : "Insurance Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceClass",
+      "refPath" : "/modules/hms/HMSInsuranceClass.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.insuranceCompanyClass",
+      "column" : "insuranceCompanyClass_id",
+      "ar" : "فئة شركة تأمين طبى",
+      "en" : "Medical Insurance Company Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompanyClass",
+      "refPath" : "/modules/hms/HMSInsuranceCompanyClass.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "overheadListSupervisionDetails.medicalInsuranceCompany",
+      "column" : "medicalInsuranceCompany_id",
+      "ar" : "شركة التأمين الطبى",
+      "en" : "Medical Insurance Company",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompany",
+      "refPath" : "/modules/hms/HMSInsuranceCompany.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.overheadItem",
+      "column" : "overheadItem_id",
+      "ar" : "بند تكلفة طبية غير مباشرة",
+      "en" : "Overhead Item",
+      "type" : "Reference",
+      "refTo" : "HMSOverheadItem",
+      "refPath" : "/modules/hms/HMSOverheadItem.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.patient",
+      "column" : "patient_id",
+      "ar" : "المريض",
+      "en" : "Patient",
+      "type" : "Reference",
+      "refTo" : "HMSPatient",
+      "refPath" : "/modules/hms/HMSPatient.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.patientAdmission",
+      "column" : "patientAdmission_id",
+      "ar" : "إستمارة دخول المريض",
+      "en" : "Patient Admission",
+      "type" : "Reference",
+      "refTo" : "HMSPatientAdmission",
+      "refPath" : "/modules/hms/HMSPatientAdmission.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.patientClass",
+      "column" : "patientClass_id",
+      "ar" : "فئة المريض",
+      "en" : "Patient Classification",
+      "type" : "Reference",
+      "refTo" : "HMSPatientClass",
+      "refPath" : "/modules/hms/HMSPatientClass.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.patientEndurancePercent",
+      "column" : "patientEndurancePercent",
+      "ar" : "نسبة تحمل المريض",
+      "en" : "Patient Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListSupervisionDetails.priceClassifier1",
+      "column" : "priceClassifier1_id",
+      "ar" : "محدد سعر 1",
+      "en" : "Price Classifier 1",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier1",
+      "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.priceClassifier2",
+      "column" : "priceClassifier2_id",
+      "ar" : "محدد سعر 2",
+      "en" : "Price Classifier 2",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier2",
+      "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.priceClassifier3",
+      "column" : "priceClassifier3_id",
+      "ar" : "محدد سعر 3",
+      "en" : "Price Classifier 3",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier3",
+      "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.priceClassifier4",
+      "column" : "priceClassifier4_id",
+      "ar" : "محدد سعر 4",
+      "en" : "Price Classifier 4",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier4",
+      "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.priceClassifier5",
+      "column" : "priceClassifier5_id",
+      "ar" : "محدد سعر 5",
+      "en" : "Price Classifier 5",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier5",
+      "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.pricingData.docDegree",
+      "column" : "docDegree",
+      "ar" : "الدرجة",
+      "en" : "Degree",
+      "type" : "Enum",
+      "enum" : "HMSDocDegree"
+    }, {
+      "id" : "overheadListSupervisionDetails.pricingData.doctor",
+      "column" : "doctor_id",
+      "ar" : "الطبيب",
+      "en" : "Doctor",
+      "type" : "Reference",
+      "refTo" : "HMSDoctor",
+      "refPath" : "/modules/hms/HMSDoctor.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.pricingData.room",
+      "column" : "room_id",
+      "ar" : "الغرفة",
+      "en" : "Room",
+      "type" : "Reference",
+      "refTo" : "HMSRoom",
+      "refPath" : "/modules/hms/HMSRoom.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.pricingData.roomClassification",
+      "column" : "roomClassification_id",
+      "ar" : "تصنيف الغرفة",
+      "en" : "Room Classification",
+      "type" : "Reference",
+      "refTo" : "HMSRoomClassification",
+      "refPath" : "/modules/hms/HMSRoomClassification.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.priority",
+      "column" : "priority",
+      "ar" : "الأولوية",
+      "en" : "Priority",
+      "type" : "Long"
+    }, {
+      "id" : "overheadListSupervisionDetails.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "overheadListSupervisionDetails.surgeryClassification",
+      "column" : "surgeryClassification_id",
+      "ar" : "تصنيف العملية",
+      "en" : "Surgery Classification",
+      "type" : "Reference",
+      "refTo" : "HMSSurgeryClassification",
+      "refPath" : "/modules/hms/HMSSurgeryClassification.html"
+    }, {
+      "id" : "overheadListSupervisionDetails.validFrom",
+      "column" : "validFrom",
+      "ar" : "صالح من",
+      "en" : "Valid from",
+      "type" : "Date"
+    }, {
+      "id" : "overheadListSupervisionDetails.validTo",
+      "column" : "validTo",
+      "ar" : "صالح حتي",
+      "en" : "Valid to",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "overheadListSupplyDetails",
+    "table" : "HMSOverheadListSupplyLine",
+    "joinColumn" : "hMSOverheadList_id",
+    "fields" : [ {
+      "id" : "overheadListSupplyDetails.companyEndurancePercent",
+      "column" : "companyEndurancePercent",
+      "ar" : "نسبة تحمل الشركة",
+      "en" : "Company Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListSupplyDetails.costPercentage",
+      "column" : "costPercentage",
+      "ar" : "% التكلفة",
+      "en" : "Cost Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListSupplyDetails.costValue",
+      "column" : "costValue",
+      "ar" : "قيمة التكلفة",
+      "en" : "Cost Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListSupplyDetails.hmsDocCategory",
+      "column" : "hmsDocCategory_id",
+      "ar" : "تصنيف طبى للمستند",
+      "en" : "Medical Document Category",
+      "type" : "Reference",
+      "refTo" : "HMSDocumentCategory",
+      "refPath" : "/modules/hms/HMSDocumentCategory.html"
+    }, {
+      "id" : "overheadListSupplyDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "overheadListSupplyDetails.insuranceClass",
+      "column" : "insuranceClass_id",
+      "ar" : "فئة التأمين",
+      "en" : "Insurance Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceClass",
+      "refPath" : "/modules/hms/HMSInsuranceClass.html"
+    }, {
+      "id" : "overheadListSupplyDetails.insuranceCompanyClass",
+      "column" : "insuranceCompanyClass_id",
+      "ar" : "فئة شركة تأمين طبى",
+      "en" : "Medical Insurance Company Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompanyClass",
+      "refPath" : "/modules/hms/HMSInsuranceCompanyClass.html"
+    }, {
+      "id" : "overheadListSupplyDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "overheadListSupplyDetails.medicalInsuranceCompany",
+      "column" : "medicalInsuranceCompany_id",
+      "ar" : "شركة التأمين الطبى",
+      "en" : "Medical Insurance Company",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompany",
+      "refPath" : "/modules/hms/HMSInsuranceCompany.html"
+    }, {
+      "id" : "overheadListSupplyDetails.overheadItem",
+      "column" : "overheadItem_id",
+      "ar" : "بند تكلفة طبية غير مباشرة",
+      "en" : "Overhead Item",
+      "type" : "Reference",
+      "refTo" : "HMSOverheadItem",
+      "refPath" : "/modules/hms/HMSOverheadItem.html"
+    }, {
+      "id" : "overheadListSupplyDetails.patient",
+      "column" : "patient_id",
+      "ar" : "المريض",
+      "en" : "Patient",
+      "type" : "Reference",
+      "refTo" : "HMSPatient",
+      "refPath" : "/modules/hms/HMSPatient.html"
+    }, {
+      "id" : "overheadListSupplyDetails.patientAdmission",
+      "column" : "patientAdmission_id",
+      "ar" : "إستمارة دخول المريض",
+      "en" : "Patient Admission",
+      "type" : "Reference",
+      "refTo" : "HMSPatientAdmission",
+      "refPath" : "/modules/hms/HMSPatientAdmission.html"
+    }, {
+      "id" : "overheadListSupplyDetails.patientClass",
+      "column" : "patientClass_id",
+      "ar" : "فئة المريض",
+      "en" : "Patient Classification",
+      "type" : "Reference",
+      "refTo" : "HMSPatientClass",
+      "refPath" : "/modules/hms/HMSPatientClass.html"
+    }, {
+      "id" : "overheadListSupplyDetails.patientEndurancePercent",
+      "column" : "patientEndurancePercent",
+      "ar" : "نسبة تحمل المريض",
+      "en" : "Patient Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListSupplyDetails.priceClassifier1",
+      "column" : "priceClassifier1_id",
+      "ar" : "محدد سعر 1",
+      "en" : "Price Classifier 1",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier1",
+      "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+    }, {
+      "id" : "overheadListSupplyDetails.priceClassifier2",
+      "column" : "priceClassifier2_id",
+      "ar" : "محدد سعر 2",
+      "en" : "Price Classifier 2",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier2",
+      "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+    }, {
+      "id" : "overheadListSupplyDetails.priceClassifier3",
+      "column" : "priceClassifier3_id",
+      "ar" : "محدد سعر 3",
+      "en" : "Price Classifier 3",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier3",
+      "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+    }, {
+      "id" : "overheadListSupplyDetails.priceClassifier4",
+      "column" : "priceClassifier4_id",
+      "ar" : "محدد سعر 4",
+      "en" : "Price Classifier 4",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier4",
+      "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+    }, {
+      "id" : "overheadListSupplyDetails.priceClassifier5",
+      "column" : "priceClassifier5_id",
+      "ar" : "محدد سعر 5",
+      "en" : "Price Classifier 5",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier5",
+      "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+    }, {
+      "id" : "overheadListSupplyDetails.pricingData.invItem",
+      "column" : "invItem_id",
+      "ar" : " الصنف",
+      "en" : " Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "overheadListSupplyDetails.priority",
+      "column" : "priority",
+      "ar" : "الأولوية",
+      "en" : "Priority",
+      "type" : "Long"
+    }, {
+      "id" : "overheadListSupplyDetails.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "overheadListSupplyDetails.surgeryClassification",
+      "column" : "surgeryClassification_id",
+      "ar" : "تصنيف العملية",
+      "en" : "Surgery Classification",
+      "type" : "Reference",
+      "refTo" : "HMSSurgeryClassification",
+      "refPath" : "/modules/hms/HMSSurgeryClassification.html"
+    }, {
+      "id" : "overheadListSupplyDetails.validFrom",
+      "column" : "validFrom",
+      "ar" : "صالح من",
+      "en" : "Valid from",
+      "type" : "Date"
+    }, {
+      "id" : "overheadListSupplyDetails.validTo",
+      "column" : "validTo",
+      "ar" : "صالح حتي",
+      "en" : "Valid to",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "overheadListSurgeryDetails",
+    "table" : "HMSOverheadListSurgeryLine",
+    "joinColumn" : "hMSOverheadList_id",
+    "fields" : [ {
+      "id" : "overheadListSurgeryDetails.companyEndurancePercent",
+      "column" : "companyEndurancePercent",
+      "ar" : "نسبة تحمل الشركة",
+      "en" : "Company Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListSurgeryDetails.costPercentage",
+      "column" : "costPercentage",
+      "ar" : "% التكلفة",
+      "en" : "Cost Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListSurgeryDetails.costValue",
+      "column" : "costValue",
+      "ar" : "قيمة التكلفة",
+      "en" : "Cost Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListSurgeryDetails.hmsDocCategory",
+      "column" : "hmsDocCategory_id",
+      "ar" : "تصنيف طبى للمستند",
+      "en" : "Medical Document Category",
+      "type" : "Reference",
+      "refTo" : "HMSDocumentCategory",
+      "refPath" : "/modules/hms/HMSDocumentCategory.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "overheadListSurgeryDetails.insuranceClass",
+      "column" : "insuranceClass_id",
+      "ar" : "فئة التأمين",
+      "en" : "Insurance Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceClass",
+      "refPath" : "/modules/hms/HMSInsuranceClass.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.insuranceCompanyClass",
+      "column" : "insuranceCompanyClass_id",
+      "ar" : "فئة شركة تأمين طبى",
+      "en" : "Medical Insurance Company Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompanyClass",
+      "refPath" : "/modules/hms/HMSInsuranceCompanyClass.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "overheadListSurgeryDetails.medicalInsuranceCompany",
+      "column" : "medicalInsuranceCompany_id",
+      "ar" : "شركة التأمين الطبى",
+      "en" : "Medical Insurance Company",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompany",
+      "refPath" : "/modules/hms/HMSInsuranceCompany.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.overheadItem",
+      "column" : "overheadItem_id",
+      "ar" : "بند تكلفة طبية غير مباشرة",
+      "en" : "Overhead Item",
+      "type" : "Reference",
+      "refTo" : "HMSOverheadItem",
+      "refPath" : "/modules/hms/HMSOverheadItem.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.patient",
+      "column" : "patient_id",
+      "ar" : "المريض",
+      "en" : "Patient",
+      "type" : "Reference",
+      "refTo" : "HMSPatient",
+      "refPath" : "/modules/hms/HMSPatient.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.patientAdmission",
+      "column" : "patientAdmission_id",
+      "ar" : "إستمارة دخول المريض",
+      "en" : "Patient Admission",
+      "type" : "Reference",
+      "refTo" : "HMSPatientAdmission",
+      "refPath" : "/modules/hms/HMSPatientAdmission.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.patientClass",
+      "column" : "patientClass_id",
+      "ar" : "فئة المريض",
+      "en" : "Patient Classification",
+      "type" : "Reference",
+      "refTo" : "HMSPatientClass",
+      "refPath" : "/modules/hms/HMSPatientClass.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.patientEndurancePercent",
+      "column" : "patientEndurancePercent",
+      "ar" : "نسبة تحمل المريض",
+      "en" : "Patient Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "overheadListSurgeryDetails.priceClassifier1",
+      "column" : "priceClassifier1_id",
+      "ar" : "محدد سعر 1",
+      "en" : "Price Classifier 1",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier1",
+      "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.priceClassifier2",
+      "column" : "priceClassifier2_id",
+      "ar" : "محدد سعر 2",
+      "en" : "Price Classifier 2",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier2",
+      "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.priceClassifier3",
+      "column" : "priceClassifier3_id",
+      "ar" : "محدد سعر 3",
+      "en" : "Price Classifier 3",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier3",
+      "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.priceClassifier4",
+      "column" : "priceClassifier4_id",
+      "ar" : "محدد سعر 4",
+      "en" : "Price Classifier 4",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier4",
+      "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.priceClassifier5",
+      "column" : "priceClassifier5_id",
+      "ar" : "محدد سعر 5",
+      "en" : "Price Classifier 5",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier5",
+      "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.pricingData.docDegree",
+      "column" : "docDegree",
+      "ar" : "الدرجة",
+      "en" : "Degree",
+      "type" : "Enum",
+      "enum" : "HMSDocDegree"
+    }, {
+      "id" : "overheadListSurgeryDetails.pricingData.doctor",
+      "column" : "doctor_id",
+      "ar" : "الطبيب",
+      "en" : "Doctor",
+      "type" : "Reference",
+      "refTo" : "HMSDoctor",
+      "refPath" : "/modules/hms/HMSDoctor.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.pricingData.surgeryType",
+      "column" : "surgeryType_id",
+      "ar" : "نوع العملية الجراحية",
+      "en" : "Surgery Type",
+      "type" : "Reference",
+      "refTo" : "HMSSurgeryType",
+      "refPath" : "/modules/hms/HMSSurgeryType.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.priority",
+      "column" : "priority",
+      "ar" : "الأولوية",
+      "en" : "Priority",
+      "type" : "Long"
+    }, {
+      "id" : "overheadListSurgeryDetails.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "overheadListSurgeryDetails.surgeryClassification",
+      "column" : "surgeryClassification_id",
+      "ar" : "تصنيف العملية",
+      "en" : "Surgery Classification",
+      "type" : "Reference",
+      "refTo" : "HMSSurgeryClassification",
+      "refPath" : "/modules/hms/HMSSurgeryClassification.html"
+    }, {
+      "id" : "overheadListSurgeryDetails.validFrom",
+      "column" : "validFrom",
+      "ar" : "صالح من",
+      "en" : "Valid from",
+      "type" : "Date"
+    }, {
+      "id" : "overheadListSurgeryDetails.validTo",
+      "column" : "validTo",
+      "ar" : "صالح حتي",
+      "en" : "Valid to",
+      "type" : "Date"
+    } ]
+  } ]
+}

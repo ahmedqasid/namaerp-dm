@@ -1,0 +1,16 @@
+{
+  "enum" : "MnOrderType",
+  "values" : [ {
+    "id" : "Installation",
+    "ar" : "تركيب",
+    "en" : "Installation"
+  }, {
+    "id" : "MaintenanceOrder",
+    "ar" : "أمر صيانة",
+    "en" : "Maintenance Order"
+  }, {
+    "id" : "PeriodicMaintenance",
+    "ar" : "صيانة دورية",
+    "en" : "Periodic Maintenance"
+  } ]
+}

@@ -1,0 +1,51 @@
+{
+  "entity" : "JOSalesOrderStatusEntry",
+  "table" : "JOSalesOrderStatusEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/JOSalesOrderStatusEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "fromStatus",
+    "column" : "fromStatus",
+    "ar" : "من حالة",
+    "en" : "From Status",
+    "type" : "Enum",
+    "enum" : "JODocStatus"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "origin",
+    "columns" : [ "originActualCode", " originCode", " originEntityType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "salesOrder",
+    "column" : "salesOrder_id",
+    "ar" : "أمر البيع",
+    "en" : "Sales Order",
+    "type" : "Reference",
+    "refTo" : "JOSalesOrder",
+    "refPath" : "/modules/joborder/JOSalesOrder.html"
+  }, {
+    "id" : "toStatus",
+    "column" : "toStatus",
+    "ar" : "إلى حالة",
+    "en" : "To Status",
+    "type" : "Enum",
+    "enum" : "JODocStatus"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

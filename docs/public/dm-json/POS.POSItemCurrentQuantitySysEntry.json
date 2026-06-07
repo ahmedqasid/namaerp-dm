@@ -1,0 +1,109 @@
+{
+  "entity" : "POS.POSItemCurrentQuantitySysEntry",
+  "table" : "POSItemCurrentQuantitySysEntry",
+  "module" : "pos-app",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSItemCurrentQuantitySysEntry.html",
+  "fields" : [ {
+    "id" : "config",
+    "column" : "config_id",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemQtyUpdateConfig",
+    "refPath" : "/modules/pos-app/POS.POSItemQtyUpdateConfig.html"
+  }, {
+    "id" : "currentQty",
+    "column" : "currentQty",
+    "ar" : "الكمية الحالية",
+    "en" : "Current Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "dimensionIdx",
+    "column" : "dimensionIdx",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "item",
+    "column" : "item_id",
+    "ar" : "الصنف",
+    "en" : "Item",
+    "type" : "Reference",
+    "refTo" : "POS.POSItem",
+    "refPath" : "/modules/pos-app/POS.POSItem.html"
+  }, {
+    "id" : "lastUpdateTime",
+    "column" : "lastUpdateTime",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "location",
+    "column" : "location_id",
+    "ar" : "الموقع المخزني",
+    "en" : "Location",
+    "type" : "Reference",
+    "refTo" : "POS.POSLocation",
+    "refPath" : "/modules/pos-app/POS.POSLocation.html"
+  }, {
+    "id" : "specificDimensions.box",
+    "column" : "box",
+    "ar" : "صندوق",
+    "en" : "Box",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.color",
+    "column" : "color",
+    "ar" : "اللون",
+    "en" : "Color",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.colorName",
+    "column" : "colorName",
+    "ar" : "اسم اللون",
+    "en" : "Color Name",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.lotId",
+    "column" : "lotId",
+    "ar" : "رقم الشحنه",
+    "en" : "Lot ID",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.revisionId",
+    "column" : "revisionId",
+    "ar" : "الإصدار",
+    "en" : "Revision ID",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.secondSerial",
+    "column" : "secondSerial",
+    "ar" : "الرقم المسلسل الثاني",
+    "en" : "Second Serial",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.serialNumber",
+    "column" : "serialNumber",
+    "ar" : "الرقم المسلسل",
+    "en" : "Serial number",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.size",
+    "column" : "size",
+    "ar" : "المقاس",
+    "en" : "Size",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.sizeName",
+    "column" : "sizeName",
+    "ar" : "اسم المقاس",
+    "en" : "Size Name",
+    "type" : "Text"
+  }, {
+    "id" : "warehouse",
+    "column" : "warehouse_id",
+    "ar" : "المخزن",
+    "en" : "Warehouse",
+    "type" : "Reference",
+    "refTo" : "POS.POSWarehouse",
+    "refPath" : "/modules/pos-app/POS.POSWarehouse.html"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "enum" : "CPARequestState",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Processed",
+    "ar" : "تمت معالجته",
+    "en" : "Processed"
+  }, {
+    "id" : "Accepted",
+    "ar" : "مقبول",
+    "en" : "Accepted"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  } ]
+}

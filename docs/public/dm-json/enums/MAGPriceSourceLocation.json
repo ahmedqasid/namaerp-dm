@@ -1,0 +1,48 @@
+{
+  "enum" : "MAGPriceSourceLocation",
+  "values" : [ {
+    "id" : "UnitPrice",
+    "ar" : " سعر الوحدة",
+    "en" : " Unit Price"
+  }, {
+    "id" : "NetValue",
+    "ar" : "الصافي",
+    "en" : "Net Value"
+  }, {
+    "id" : "AfterDiscount1",
+    "ar" : "بعد الخصم 1",
+    "en" : "After Discount 1"
+  }, {
+    "id" : "AfterDiscount2",
+    "ar" : "بعد الخصم 2",
+    "en" : "After Discount 2"
+  }, {
+    "id" : "AfterDiscount3",
+    "ar" : "بعد الخصم 3",
+    "en" : "After Discount 3"
+  }, {
+    "id" : "AfterDiscount4",
+    "ar" : "بعد الخصم 4",
+    "en" : "After Discount 4"
+  }, {
+    "id" : "AfterDiscount5",
+    "ar" : "بعد الخصم 5",
+    "en" : "After Discount 5"
+  }, {
+    "id" : "AfterDiscount6",
+    "ar" : "بعد الخصم 6",
+    "en" : "After Discount 6"
+  }, {
+    "id" : "AfterDiscount7",
+    "ar" : "بعد الخصم 7",
+    "en" : "After Discount 7"
+  }, {
+    "id" : "AfterDiscount8",
+    "ar" : "بعد الخصم 8",
+    "en" : "After Discount 8"
+  }, {
+    "id" : "Zero",
+    "ar" : "صفر",
+    "en" : "Zero"
+  } ]
+}

@@ -1,0 +1,237 @@
+{
+  "entity" : "SysGenericSecurityLine",
+  "table" : "SysGenericSecurityLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SysGenericSecurityLine.html",
+  "fields" : [ {
+    "id" : "allowViewOtherRecAtSerach",
+    "column" : "allowViewOtherRecAtSerach",
+    "ar" : "السماح بمطالعة سجلات الأخرين في البحث",
+    "en" : "Allow View Other Records at Search",
+    "type" : "Boolean"
+  }, {
+    "id" : "canApprove",
+    "column" : "canApprove",
+    "ar" : " الموافقة",
+    "en" : " Approve",
+    "type" : "Boolean"
+  }, {
+    "id" : "canChangeCapability",
+    "column" : "canChangeCapability",
+    "ar" : "إمكانية تغير الصلاحيات",
+    "en" : "Can Change Capability",
+    "type" : "Boolean"
+  }, {
+    "id" : "canDelete",
+    "column" : "canDelete",
+    "ar" : " الحذف",
+    "en" : " Delete",
+    "type" : "Boolean"
+  }, {
+    "id" : "canDuplicate",
+    "column" : "canDuplicate",
+    "ar" : "عمل نسخة مماثلة",
+    "en" : "Duplicate",
+    "type" : "Boolean"
+  }, {
+    "id" : "canEdit",
+    "column" : "canEdit",
+    "ar" : " الإضافة والتعديل",
+    "en" : " Add & Edit",
+    "type" : "Enum",
+    "enum" : "EditAuthority"
+  }, {
+    "id" : "canExport",
+    "column" : "canExport",
+    "ar" : "التصدير",
+    "en" : "Export",
+    "type" : "Boolean"
+  }, {
+    "id" : "canImport",
+    "column" : "canImport",
+    "ar" : "الاستيراد",
+    "en" : "Import",
+    "type" : "Boolean"
+  }, {
+    "id" : "canPrint",
+    "column" : "canPrint",
+    "ar" : " الطباعة",
+    "en" : " Prinitng",
+    "type" : "Enum",
+    "enum" : "PrintAuthority"
+  }, {
+    "id" : "canRevise",
+    "column" : "canRevise",
+    "ar" : "مراجعة",
+    "en" : "Revise",
+    "type" : "Boolean"
+  }, {
+    "id" : "canUnRevise",
+    "column" : "canUnRevise",
+    "ar" : " إلغاء المراجعة",
+    "en" : " Unrevise",
+    "type" : "Boolean"
+  }, {
+    "id" : "canViewWithFromDoc",
+    "column" : "canViewWithFromDoc",
+    "ar" : "فتح السجل من بناءا على و الاجراءات النظامية",
+    "en" : "View Record By From Doc and System Actions",
+    "type" : "Boolean"
+  }, {
+    "id" : "copyFrom",
+    "column" : "copyFrom",
+    "ar" : "نسخ من",
+    "en" : "Copy From",
+    "type" : "Boolean"
+  }, {
+    "id" : "copyTo",
+    "column" : "copyTo",
+    "ar" : "نسخ إلى",
+    "en" : "Copy To",
+    "type" : "Boolean"
+  }, {
+    "id" : "deleteOnlyCreatedRecords",
+    "column" : "deleteOnlyCreatedRecords",
+    "ar" : "حذف السجلات التي أنشأها فقط",
+    "en" : "Delete Only Created Records",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotAllowPrintDrafts",
+    "column" : "doNotAllowPrintDrafts",
+    "ar" : "عدم السماح بطباعة المسودات",
+    "en" : "Do Not Allow Print Drafts",
+    "type" : "Boolean"
+  }, {
+    "id" : "editOnlyCreatedRecords",
+    "column" : "editOnlyCreatedRecords",
+    "ar" : "تعديل السجلات التي أنشأها فقط",
+    "en" : "Edit Only Created Records",
+    "type" : "Boolean"
+  }, {
+    "id" : "fullAuthority",
+    "column" : "fullAuthority",
+    "ar" : "صلاحيات كاملة",
+    "en" : "Full Authority",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lineNumber",
+    "column" : "lineNumber",
+    "ar" : "رقم السطر",
+    "en" : "Line Number",
+    "type" : "Integer"
+  }, {
+    "id" : "listView",
+    "column" : "listView",
+    "ar" : "العرض بقائمة",
+    "en" : "List View",
+    "type" : "Boolean"
+  }, {
+    "id" : "maxPrintCount",
+    "column" : "maxPrintCount",
+    "ar" : "أقصى عدد مرات طباعة",
+    "en" : "Max Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "minSearchQueryLength",
+    "column" : "minSearchQueryLength",
+    "ar" : "اقل عدد حروف للبدأ بالبحث",
+    "en" : "Min Search Query Length",
+    "type" : "Integer"
+  }, {
+    "id" : "preventEditAfterApproval",
+    "column" : "preventEditAfterApproval",
+    "ar" : "منع التعديل بعد الموافقة",
+    "en" : "Prevent Edit After Approval",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventEditAfterPrint",
+    "column" : "preventEditAfterPrint",
+    "ar" : "منع التعديل بعد الطباعة",
+    "en" : "Prevent Edit After Print",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventSaveDraft",
+    "column" : "preventSaveDraft",
+    "ar" : "منع حفظ مسودة",
+    "en" : "Prevent Save Draft",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventViewMoreMenu",
+    "column" : "preventViewMoreMenu",
+    "ar" : "منع عرض قائمة المزيد",
+    "en" : "Prevent View More Menu",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventViewSystemTransaction",
+    "column" : "preventViewSystemTransaction",
+    "ar" : "منع مطالعة القيود النظامية",
+    "en" : "Prevent View System Transaction",
+    "type" : "Boolean"
+  }, {
+    "id" : "recordView",
+    "column" : "recordView",
+    "ar" : " مطالعة السجل",
+    "en" : " Record View",
+    "type" : "Boolean"
+  }, {
+    "id" : "refId",
+    "column" : "refId",
+    "type" : "ID"
+  }, {
+    "id" : "remove",
+    "column" : "remove",
+    "ar" : "حذف",
+    "en" : "Remove",
+    "type" : "Boolean"
+  }, {
+    "id" : "reviseLevels",
+    "column" : "reviseLevels",
+    "ar" : "مستويات المراجعة",
+    "en" : "Revise Levels",
+    "type" : "Text"
+  }, {
+    "id" : "searchView",
+    "column" : "searchView",
+    "ar" : "العرض بالبحث",
+    "en" : "Search View",
+    "type" : "Boolean"
+  }, {
+    "id" : "securityProfile",
+    "column" : "securityProfile_id",
+    "ar" : "الصلاحيات",
+    "en" : "SecurityProfile",
+    "type" : "Reference",
+    "refTo" : "SecurityProfile",
+    "refPath" : "/modules/basic/SecurityProfile.html"
+  }, {
+    "id" : "targetEntities",
+    "column" : "targetEntities_id",
+    "ar" : "قائمة الأنواع",
+    "en" : "Entity Type List",
+    "type" : "Reference",
+    "refTo" : "EntityTypeList",
+    "refPath" : "/modules/basic/EntityTypeList.html"
+  }, {
+    "id" : "targetEntity",
+    "column" : "targetEntity",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "EntityType"
+  }, {
+    "id" : "unreviseLevels",
+    "column" : "unreviseLevels",
+    "ar" : "إلغاء مستويات المراجعة",
+    "en" : "Unrevise Levels",
+    "type" : "Text"
+  }, {
+    "id" : "viewOnlyCreatedRecords",
+    "column" : "viewOnlyCreatedRecords",
+    "ar" : "مطلعة السجلات التي انشأها فقط",
+    "en" : "View Records Created By Him Only",
+    "type" : "Boolean"
+  } ]
+}

@@ -1,0 +1,28 @@
+{
+  "enum" : "VacationFactor",
+  "values" : [ {
+    "id" : "PreVacation",
+    "ar" : "سابق لعطله",
+    "en" : "Pre-Vacation"
+  }, {
+    "id" : "PostVacation",
+    "ar" : "لاحق لعطله",
+    "en" : "Post-Vacation"
+  }, {
+    "id" : "PreOrPostVacation",
+    "ar" : "سابق أو لاحق لعطله",
+    "en" : "Pre or Post Vacation"
+  }, {
+    "id" : "WithInVacation",
+    "ar" : "وسط عطله",
+    "en" : "WithIn Vacation"
+  }, {
+    "id" : "MidWeek",
+    "ar" : "وسط اسبوع",
+    "en" : "Mid Week"
+  }, {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  } ]
+}

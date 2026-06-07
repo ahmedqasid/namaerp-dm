@@ -1,0 +1,100 @@
+{
+  "enum" : "ParameterType",
+  "values" : [ {
+    "id" : "Normal",
+    "ar" : "عادية",
+    "en" : "Normal"
+  }, {
+    "id" : "Custom",
+    "ar" : "مخصص",
+    "en" : "Custom"
+  }, {
+    "id" : "HideDetails",
+    "ar" : "إخفاء التفاصيل",
+    "en" : "Hide Details"
+  }, {
+    "id" : "HideReportHeader",
+    "ar" : "إخفاء رأس التقرير",
+    "en" : "Hide Report Header"
+  }, {
+    "id" : "HideColumnsHeaders",
+    "ar" : "إخفاء رؤوس الأعمدة",
+    "en" : "Hide Columns Headers"
+  }, {
+    "id" : "HidePageHeader",
+    "ar" : "إخفاء رأس الصفحة",
+    "en" : "Hide Page Header"
+  }, {
+    "id" : "HidePageFooter",
+    "ar" : "إخفاء ذيل الصفحة",
+    "en" : "Hide Page Footer"
+  }, {
+    "id" : "HideGroup1Header",
+    "ar" : "إخفاء رأس مجموعة 1",
+    "en" : "Hide Group 1 Header"
+  }, {
+    "id" : "HideGroup1Footer",
+    "ar" : "إخفاء ذيل مجموعة 1",
+    "en" : "Hide Group 1 Footer"
+  }, {
+    "id" : "HideGroup1HeaderAndFooter",
+    "ar" : "إخفاء رأس وذيل مجموعة 1",
+    "en" : "Hide Group 1 Header And Footer"
+  }, {
+    "id" : "HideGroup2Header",
+    "ar" : "إخفاء رأس مجموعة 2",
+    "en" : "Hide Group 2 Header"
+  }, {
+    "id" : "HideGroup2Footer",
+    "ar" : "إخفاء ذيل مجموعة 2",
+    "en" : "Hide Group 2 Footer"
+  }, {
+    "id" : "HideGroup2HeaderAndFooter",
+    "ar" : "إخفاء رأس وذيل مجموعة 2",
+    "en" : "Hide Group 2 Header And Footer"
+  }, {
+    "id" : "HideGroup3Header",
+    "ar" : "إخفاء رأس مجموعة 3",
+    "en" : "Hide Group 3 Header"
+  }, {
+    "id" : "HideGroup3Footer",
+    "ar" : "إخفاء ذيل مجموعة 3",
+    "en" : "Hide Group 3 Footer"
+  }, {
+    "id" : "HideGroup3HeaderAndFooter",
+    "ar" : "إخفاء رأس وذيل مجموعة 3",
+    "en" : "Hide Group 3 Header And Footer"
+  }, {
+    "id" : "HideGroup4Header",
+    "ar" : "إخفاء رأس مجموعة 4",
+    "en" : "Hide Group 4 Header"
+  }, {
+    "id" : "HideGroup4Footer",
+    "ar" : "إخفاء ذيل مجموعة 4",
+    "en" : "Hide Group 4 Footer"
+  }, {
+    "id" : "HideGroup4HeaderAndFooter",
+    "ar" : "إخفاء رأس وذيل مجموعة 4",
+    "en" : "Hide Group 4 Header And Footer"
+  }, {
+    "id" : "HideGroup5Header",
+    "ar" : "إخفاء رأس مجموعة 5",
+    "en" : "Hide Group 5 Header"
+  }, {
+    "id" : "HideGroup5Footer",
+    "ar" : "إخفاء ذيل مجموعة 5",
+    "en" : "Hide Group 5 Footer"
+  }, {
+    "id" : "HideGroup5HeaderAndFooter",
+    "ar" : "إخفاء رأس وذيل مجموعة 5",
+    "en" : "Hide Group 5 Header And Footer"
+  }, {
+    "id" : "GroupBySelection",
+    "ar" : "فرز بـ (تجميع)",
+    "en" : "Group By Selection"
+  }, {
+    "id" : "UOMConversion",
+    "ar" : "تحويل وحدة قياس",
+    "en" : "UOM Conversion"
+  } ]
+}

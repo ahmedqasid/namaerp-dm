@@ -1,0 +1,305 @@
+{
+  "entity" : "EndStockTakingLineForList",
+  "table" : "EndStockTakingLineForList",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EndStockTakingLineForList.html",
+  "fields" : [ {
+    "id" : "actualStockQty",
+    "column" : "actualStockQty",
+    "ar" : "الكمية | الفعلي",
+    "en" : "Quantity | Actual",
+    "type" : "Decimal"
+  }, {
+    "id" : "actualStockSecondQty",
+    "column" : "actualStockSecondQty",
+    "ar" : "الكمية الثانية | الفعلي",
+    "en" : "Second Quantity | Actual",
+    "type" : "Decimal"
+  }, {
+    "id" : "dbSecondSerialNumber",
+    "column" : "dbSecondSerialNumber",
+    "ar" : "رقم مسلسل ثاني دفتري",
+    "en" : "DB Second Serial Number",
+    "type" : "BigText"
+  }, {
+    "id" : "dbSerialNumber",
+    "column" : "dbSerialNumber",
+    "ar" : "رقم مسلسل دفتري",
+    "en" : "DB Serial Number",
+    "type" : "BigText"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "BigText"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "BigText"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "BigText"
+  }, {
+    "id" : "dimensions.genericDimensions.analysisSet",
+    "column" : "genDimAnalysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "dimensions.genericDimensions.branch",
+    "column" : "genDimBranch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "dimensions.genericDimensions.department",
+    "column" : "genDimDepartment_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "dimensions.genericDimensions.legalEntity",
+    "column" : "genDimLegalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "dimensions.genericDimensions.sector",
+    "column" : "genDimSector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "dimensions.item",
+    "column" : "item_id",
+    "ar" : "الصنف",
+    "en" : "Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "dimensions.specificDimensions.activePerc",
+    "column" : "activePerc",
+    "ar" : "النسبة الفعالة",
+    "en" : "Active Percentage",
+    "type" : "Text"
+  }, {
+    "id" : "dimensions.specificDimensions.box",
+    "column" : "box",
+    "ar" : "صندوق",
+    "en" : "Box",
+    "type" : "Text"
+  }, {
+    "id" : "dimensions.specificDimensions.color",
+    "column" : "color",
+    "ar" : "اللون",
+    "en" : "Color",
+    "type" : "Color"
+  }, {
+    "id" : "dimensions.specificDimensions.inactivePerc",
+    "column" : "inactivePerc",
+    "ar" : "النسبة الغير فعالة",
+    "en" : "Inactive Percentage",
+    "type" : "Text"
+  }, {
+    "id" : "dimensions.specificDimensions.locator",
+    "column" : "locator_id",
+    "ar" : "الموقع",
+    "en" : "Locator",
+    "type" : "Reference",
+    "refTo" : "Locator",
+    "refPath" : "/modules/supplychain/Locator.html"
+  }, {
+    "id" : "dimensions.specificDimensions.lotId",
+    "column" : "lotId",
+    "ar" : "رقم الشحنه",
+    "en" : "Lot ID",
+    "type" : "Text"
+  }, {
+    "id" : "dimensions.specificDimensions.measures",
+    "column" : "measures",
+    "ar" : "الأبعاد",
+    "en" : "Measures",
+    "type" : "Measures"
+  }, {
+    "id" : "dimensions.specificDimensions.revisionId",
+    "column" : "revisionId",
+    "ar" : "الإصدار",
+    "en" : "Revision ID",
+    "type" : "Text"
+  }, {
+    "id" : "dimensions.specificDimensions.secondSerial",
+    "column" : "secondSerial",
+    "ar" : "الرقم المسلسل الثاني",
+    "en" : "Second Serial",
+    "type" : "BigText"
+  }, {
+    "id" : "dimensions.specificDimensions.serialNumber",
+    "column" : "serialNumber",
+    "ar" : "الرقم المسلسل",
+    "en" : "Serial number",
+    "type" : "BigText"
+  }, {
+    "id" : "dimensions.specificDimensions.size",
+    "column" : "size",
+    "ar" : "المقاس",
+    "en" : "Size",
+    "type" : "Text"
+  }, {
+    "id" : "dimensions.specificDimensions.subItem",
+    "column" : "subItem_id",
+    "ar" : " السياره",
+    "en" : " Customer Car",
+    "type" : "Reference",
+    "refTo" : "SubItem",
+    "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+  }, {
+    "id" : "dimensions.specificDimensions.warehouse",
+    "column" : "warehouse_id",
+    "ar" : "المخزن",
+    "en" : "Warehouse",
+    "type" : "Reference",
+    "refTo" : "Warehouse",
+    "refPath" : "/modules/supplychain/Warehouse.html"
+  }, {
+    "id" : "endStockTaking",
+    "column" : "endStockTaking_id",
+    "ar" : " نهاية الجرد",
+    "en" : " End Stock Taking",
+    "type" : "Reference",
+    "refTo" : "EndStockTaking",
+    "refPath" : "/modules/supplychain-inventory/EndStockTaking.html"
+  }, {
+    "id" : "expiryDate",
+    "column" : "expiryDate",
+    "ar" : "تاريخ الإنتهاء",
+    "en" : "Expiry Date",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lineNumber",
+    "column" : "lineNumber",
+    "ar" : "رقم السطر",
+    "en" : "Line Number",
+    "type" : "Integer"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "productionDate",
+    "column" : "productionDate",
+    "ar" : "تاريخ الإنتاج",
+    "en" : "Production Date",
+    "type" : "Date"
+  }, {
+    "id" : "qtyDiff",
+    "column" : "qtyDiff",
+    "ar" : "فرق الكمية",
+    "en" : "Quantity Difference",
+    "type" : "Decimal"
+  }, {
+    "id" : "qtyDimensionId",
+    "column" : "qtyDimensionId",
+    "type" : "ID"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "retestDate",
+    "column" : "retestDate",
+    "ar" : "تاريخ إعادة الاختبار",
+    "en" : "retest Date",
+    "type" : "Date"
+  }, {
+    "id" : "secondQtyDiff",
+    "column" : "secondQtyDiff",
+    "ar" : "الكمية الثانية | فرق الكمية",
+    "en" : "Second Quantity | Quantity Difference",
+    "type" : "Decimal"
+  }, {
+    "id" : "stockSecondSerialNumber",
+    "column" : "stockSecondSerialNumber",
+    "ar" : "رقم مسلسل ثاني في لجنة الجرد",
+    "en" : "Stock Second Details Serial Number",
+    "type" : "BigText"
+  }, {
+    "id" : "stockSerialNumber",
+    "column" : "stockSerialNumber",
+    "ar" : "رقم مسلسل في لجنة الجرد",
+    "en" : "Stock Details Serial Number",
+    "type" : "BigText"
+  }, {
+    "id" : "systemStockQty",
+    "column" : "systemStockQty",
+    "ar" : "الكمية | الدفتري",
+    "en" : "Quantity | System",
+    "type" : "Decimal"
+  }, {
+    "id" : "systemStockSecondQty",
+    "column" : "systemStockSecondQty",
+    "ar" : "الكمية الثانية | الدفتري",
+    "en" : "Second Quantity | System",
+    "type" : "Decimal"
+  }, {
+    "id" : "text1",
+    "column" : "text1",
+    "ar" : "نــــص 1",
+    "en" : "Text 1",
+    "type" : "Text"
+  }, {
+    "id" : "text2",
+    "column" : "text2",
+    "ar" : "نـــــص 2",
+    "en" : "Text 2",
+    "type" : "Text"
+  }, {
+    "id" : "totalCost",
+    "column" : "totalCost",
+    "ar" : "اجمالى التكلفة",
+    "en" : "Total Cost",
+    "type" : "Decimal"
+  } ]
+}

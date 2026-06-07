@@ -1,0 +1,16 @@
+{
+  "enum" : "CRMFollowUpStatus",
+  "values" : [ {
+    "id" : "StartAction",
+    "ar" : "بدء الإجراء",
+    "en" : "Start Action"
+  }, {
+    "id" : "Ongoing",
+    "ar" : "جاري",
+    "en" : "Ongoing"
+  }, {
+    "id" : "Interested",
+    "ar" : "مهتم",
+    "en" : "Interested"
+  } ]
+}

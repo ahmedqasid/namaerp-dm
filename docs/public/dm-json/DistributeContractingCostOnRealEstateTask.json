@@ -1,0 +1,87 @@
+{
+  "entity" : "DistributeContractingCostOnRealEstateTask",
+  "table" : "DistributeContractingCostOnRealEstateTask",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/DistributeContractingCostOnRealEstateTask.html",
+  "fields" : [ {
+    "id" : "currentDimensions",
+    "column" : "currentDimensions",
+    "type" : "BigText"
+  }, {
+    "id" : "currentLanguage",
+    "column" : "currentLanguage",
+    "type" : "Text"
+  }, {
+    "id" : "distributeCostType",
+    "column" : "distributeCostType",
+    "ar" : "نوع توزيع التكلفة",
+    "en" : "Distribute Cost Type",
+    "type" : "Enum",
+    "enum" : "DistributeCostType"
+  }, {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "executionDate",
+    "column" : "executionDate",
+    "ar" : "تاريخ التنفيذ",
+    "en" : "Execution Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "forApply",
+    "column" : "forApply",
+    "ar" : "للتطبيق",
+    "en" : "For Apply",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "project",
+    "columns" : [ "projectActualCode", " projectCode", " projectEntityType", " projectId" ],
+    "ar" : "المشروع",
+    "en" : "Project",
+    "type" : "Genericreference"
+  }, {
+    "id" : "requester",
+    "columns" : [ "requesterActualCode", " requesterCode", " requesterEntityType", " requesterId" ],
+    "ar" : "محرر الطلب",
+    "en" : "Requester",
+    "type" : "Genericreference"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
+    "id" : "submitionDate",
+    "column" : "submitionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Submition Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "targetRecord",
+    "columns" : [ "targetRecordActualCode", " targetRecordCode", " targetRecordEntityType", " targetRecordId" ],
+    "ar" : "السجل",
+    "en" : "Target Record",
+    "type" : "Genericreference"
+  }, {
+    "id" : "trials",
+    "column" : "trials",
+    "ar" : "عدد محاولات",
+    "en" : "Trials",
+    "type" : "Integer"
+  } ]
+}

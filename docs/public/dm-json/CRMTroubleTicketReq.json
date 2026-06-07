@@ -1,0 +1,537 @@
+{
+  "entity" : "CRMTroubleTicketReq",
+  "table" : "CRMTroubleTicketReq",
+  "module" : "system-tables",
+  "ar" : "طلب دعم مبدئي",
+  "arPlural" : "طلبات دعم مبدئية",
+  "en" : "Trouble Ticket Request",
+  "enPlural" : "Trouble Ticket Requests",
+  "page" : "https://dm.namasoft.com/modules/system-tables/CRMTroubleTicketReq.html",
+  "fields" : [ {
+    "id" : "applicationLog",
+    "column" : "applicationLog",
+    "ar" : "ال Log",
+    "en" : "Application Log",
+    "type" : "BigText"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentDeviceIp",
+    "column" : "currentDeviceIp",
+    "type" : "Text"
+  }, {
+    "id" : "currentErrorMessage",
+    "column" : "currentErrorMessage",
+    "ar" : "رسالة الخطأ لطلب الدعم",
+    "en" : "Ticket Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion",
+    "column" : "discussion",
+    "ar" : " وصف المشكلة",
+    "en" : " Discussion",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion1",
+    "column" : "discussion1",
+    "ar" : "نقاش 1",
+    "en" : "Discussion 1",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion10",
+    "column" : "discussion10",
+    "ar" : "نقاش 10",
+    "en" : "Discussion 10",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion11",
+    "column" : "discussion11",
+    "ar" : "نقاش 11",
+    "en" : "Discussion 11",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion12",
+    "column" : "discussion12",
+    "ar" : "نقاش 12",
+    "en" : "Discussion 12",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion13",
+    "column" : "discussion13",
+    "ar" : "نقاش 13",
+    "en" : "Discussion 13",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion14",
+    "column" : "discussion14",
+    "ar" : "نقاش 14",
+    "en" : "Discussion 14",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion15",
+    "column" : "discussion15",
+    "ar" : "نقاش 15",
+    "en" : "Discussion 15",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion16",
+    "column" : "discussion16",
+    "ar" : "نقاش 16",
+    "en" : "Discussion 16",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion17",
+    "column" : "discussion17",
+    "ar" : "نقاش 17",
+    "en" : "Discussion 17",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion18",
+    "column" : "discussion18",
+    "ar" : "نقاش 18",
+    "en" : "Discussion 18",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion19",
+    "column" : "discussion19",
+    "ar" : "نقاش 19",
+    "en" : "Discussion 19",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion2",
+    "column" : "discussion2",
+    "ar" : "نقاش 2",
+    "en" : "Discussion 2",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion20",
+    "column" : "discussion20",
+    "ar" : "نقاش 20",
+    "en" : "Discussion 20",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion3",
+    "column" : "discussion3",
+    "ar" : "نقاش 3",
+    "en" : "Discussion 3",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion4",
+    "column" : "discussion4",
+    "ar" : "نقاش 4",
+    "en" : "Discussion 4",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion5",
+    "column" : "discussion5",
+    "ar" : "نقاش 5",
+    "en" : "Discussion 5",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion6",
+    "column" : "discussion6",
+    "ar" : "نقاش 6",
+    "en" : "Discussion 6",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion7",
+    "column" : "discussion7",
+    "ar" : "نقاش 7",
+    "en" : "Discussion 7",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion8",
+    "column" : "discussion8",
+    "ar" : "نقاش 8",
+    "en" : "Discussion 8",
+    "type" : "BigText"
+  }, {
+    "id" : "discussion9",
+    "column" : "discussion9",
+    "ar" : "نقاش 9",
+    "en" : "Discussion 9",
+    "type" : "BigText"
+  }, {
+    "id" : "email",
+    "column" : "email",
+    "ar" : "إيميل",
+    "en" : "E-mail",
+    "type" : "Email"
+  }, {
+    "id" : "empDiscussion1",
+    "column" : "empDiscussion1",
+    "ar" : "نقاش 1",
+    "en" : "Discussion 1",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion10",
+    "column" : "empDiscussion10",
+    "ar" : "نقاش 10",
+    "en" : "Discussion 10",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion11",
+    "column" : "empDiscussion11",
+    "ar" : "نقاش 11",
+    "en" : "Discussion 11",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion12",
+    "column" : "empDiscussion12",
+    "ar" : "نقاش 12",
+    "en" : "Discussion 12",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion13",
+    "column" : "empDiscussion13",
+    "ar" : "نقاش 13",
+    "en" : "Discussion 13",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion14",
+    "column" : "empDiscussion14",
+    "ar" : "نقاش 14",
+    "en" : "Discussion 14",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion15",
+    "column" : "empDiscussion15",
+    "ar" : "نقاش 15",
+    "en" : "Discussion 15",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion16",
+    "column" : "empDiscussion16",
+    "ar" : "نقاش 16",
+    "en" : "Discussion 16",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion17",
+    "column" : "empDiscussion17",
+    "ar" : "نقاش 17",
+    "en" : "Discussion 17",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion18",
+    "column" : "empDiscussion18",
+    "ar" : "نقاش 18",
+    "en" : "Discussion 18",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion19",
+    "column" : "empDiscussion19",
+    "ar" : "نقاش 19",
+    "en" : "Discussion 19",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion2",
+    "column" : "empDiscussion2",
+    "ar" : "نقاش 2",
+    "en" : "Discussion 2",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion20",
+    "column" : "empDiscussion20",
+    "ar" : "نقاش 20",
+    "en" : "Discussion 20",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion3",
+    "column" : "empDiscussion3",
+    "ar" : "نقاش 3",
+    "en" : "Discussion 3",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion4",
+    "column" : "empDiscussion4",
+    "ar" : "نقاش 4",
+    "en" : "Discussion 4",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion5",
+    "column" : "empDiscussion5",
+    "ar" : "نقاش 5",
+    "en" : "Discussion 5",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion6",
+    "column" : "empDiscussion6",
+    "ar" : "نقاش 6",
+    "en" : "Discussion 6",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion7",
+    "column" : "empDiscussion7",
+    "ar" : "نقاش 7",
+    "en" : "Discussion 7",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion8",
+    "column" : "empDiscussion8",
+    "ar" : "نقاش 8",
+    "en" : "Discussion 8",
+    "type" : "Text"
+  }, {
+    "id" : "empDiscussion9",
+    "column" : "empDiscussion9",
+    "ar" : "نقاش 9",
+    "en" : "Discussion 9",
+    "type" : "Text"
+  }, {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "executionDate",
+    "column" : "executionDate",
+    "ar" : "تاريخ التنفيذ",
+    "en" : "Execution Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lastReadFromCRM",
+    "column" : "lastReadFromCRM",
+    "type" : "Integer"
+  }, {
+    "id" : "mobile",
+    "column" : "mobile",
+    "ar" : "الموبايل",
+    "en" : "Mobile",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "relativeWeight",
+    "column" : "relativeWeight",
+    "ar" : "الوزن النسبى",
+    "en" : "Relative weight",
+    "type" : "Text"
+  }, {
+    "id" : "requestProviderUser",
+    "column" : "requestProviderUser",
+    "type" : "Text"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
+    "id" : "submitionDate",
+    "column" : "submitionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Submition Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "ticketCode",
+    "column" : "ticketCode",
+    "ar" : "كود طلب الدعم",
+    "en" : "Ticket Code",
+    "type" : "Text"
+  }, {
+    "id" : "ticketID",
+    "column" : "ticketID",
+    "type" : "ID"
+  }, {
+    "id" : "ticketStatus",
+    "column" : "ticketStatus",
+    "ar" : "حاله طلب الدعم",
+    "en" : "Ticket Status",
+    "type" : "Enum",
+    "enum" : "TicketStatusForEntry"
+  }, {
+    "id" : "timeDiscussion1",
+    "column" : "timeDiscussion1",
+    "ar" : "تاريخ نقاش 1",
+    "en" : "Discussion Date 1",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion10",
+    "column" : "timeDiscussion10",
+    "ar" : "تاريخ نقاش 10",
+    "en" : "Discussion Date 10",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion11",
+    "column" : "timeDiscussion11",
+    "ar" : "تاريخ نقاش 11",
+    "en" : "Discussion Date 11",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion12",
+    "column" : "timeDiscussion12",
+    "ar" : "تاريخ نقاش 12",
+    "en" : "Discussion Date 12",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion13",
+    "column" : "timeDiscussion13",
+    "ar" : "تاريخ نقاش 13",
+    "en" : "Discussion Date 13",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion14",
+    "column" : "timeDiscussion14",
+    "ar" : "تاريخ نقاش 14",
+    "en" : "Discussion Date 14",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion15",
+    "column" : "timeDiscussion15",
+    "ar" : "تاريخ نقاش 15",
+    "en" : "Discussion Date 15",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion16",
+    "column" : "timeDiscussion16",
+    "ar" : "تاريخ نقاش 16",
+    "en" : "Discussion Date 16",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion17",
+    "column" : "timeDiscussion17",
+    "ar" : "تاريخ نقاش 17",
+    "en" : "Discussion Date 17",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion18",
+    "column" : "timeDiscussion18",
+    "ar" : "تاريخ نقاش 18",
+    "en" : "Discussion Date 18",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion19",
+    "column" : "timeDiscussion19",
+    "ar" : "تاريخ نقاش 19",
+    "en" : "Discussion Date 19",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion2",
+    "column" : "timeDiscussion2",
+    "ar" : "تاريخ نقاش 2",
+    "en" : "Discussion Date 2",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion20",
+    "column" : "timeDiscussion20",
+    "ar" : "تاريخ نقاش 20",
+    "en" : "Discussion Date 20",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion3",
+    "column" : "timeDiscussion3",
+    "ar" : "تاريخ نقاش 3",
+    "en" : "Discussion Date 3",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion4",
+    "column" : "timeDiscussion4",
+    "ar" : "تاريخ نقاش 4",
+    "en" : "Discussion Date 4",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion5",
+    "column" : "timeDiscussion5",
+    "ar" : "تاريخ نقاش 5",
+    "en" : "Discussion Date 5",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion6",
+    "column" : "timeDiscussion6",
+    "ar" : "تاريخ نقاش 6",
+    "en" : "Discussion Date 6",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion7",
+    "column" : "timeDiscussion7",
+    "ar" : "تاريخ نقاش 7",
+    "en" : "Discussion Date 7",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion8",
+    "column" : "timeDiscussion8",
+    "ar" : "تاريخ نقاش 8",
+    "en" : "Discussion Date 8",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "timeDiscussion9",
+    "column" : "timeDiscussion9",
+    "ar" : "تاريخ نقاش 9",
+    "en" : "Discussion Date 9",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "trials",
+    "column" : "trials",
+    "ar" : "عدد محاولات",
+    "en" : "Trials",
+    "type" : "Integer"
+  }, {
+    "id" : "user",
+    "column" : "user_id",
+    "ar" : "المستخدم",
+    "en" : "User",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

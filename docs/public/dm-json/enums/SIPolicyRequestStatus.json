@@ -1,0 +1,16 @@
+{
+  "enum" : "SIPolicyRequestStatus",
+  "values" : [ {
+    "id" : "NotRequested",
+    "ar" : "غير مطلوب",
+    "en" : "Not Requested"
+  }, {
+    "id" : "Requested",
+    "ar" : "تم الطلب",
+    "en" : "Requested"
+  }, {
+    "id" : "Delivered",
+    "ar" : "توصيل كلي",
+    "en" : "Totally Delivered"
+  } ]
+}

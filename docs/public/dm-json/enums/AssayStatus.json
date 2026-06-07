@@ -1,0 +1,12 @@
+{
+  "enum" : "AssayStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Confirmed",
+    "ar" : "مؤكد",
+    "en" : "Confirmed"
+  } ]
+}

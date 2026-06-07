@@ -1,0 +1,24 @@
+{
+  "enum" : "ServiceFeesTreatmentInAdditionCase",
+  "values" : [ {
+    "id" : "Service1FeesTax",
+    "ar" : "Service 1 Fees Tax",
+    "en" : "Service 1 Fees Tax"
+  }, {
+    "id" : "Service2FeesTax",
+    "ar" : "Service 2 Fees Tax",
+    "en" : "Service 2 Fees Tax"
+  }, {
+    "id" : "Service3FeesTax",
+    "ar" : "Service 3 Fees Tax",
+    "en" : "Service 3 Fees Tax"
+  }, {
+    "id" : "Service4FeesTax",
+    "ar" : "Service 4 Fees Tax",
+    "en" : "Service 4 Fees Tax"
+  }, {
+    "id" : "Item",
+    "ar" : "صنف",
+    "en" : "Item"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "PurchaseQuotationDeliveryMethod",
+  "values" : [ {
+    "id" : "CIF",
+    "ar" : "CIF",
+    "en" : "CIF"
+  }, {
+    "id" : "FOB",
+    "ar" : "FOB",
+    "en" : "FOB"
+  }, {
+    "id" : "EXWork",
+    "ar" : "EXWork",
+    "en" : "EXWork"
+  } ]
+}

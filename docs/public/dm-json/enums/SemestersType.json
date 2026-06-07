@@ -1,0 +1,24 @@
+{
+  "enum" : "SemestersType",
+  "values" : [ {
+    "id" : "First",
+    "ar" : "الاول",
+    "en" : "First"
+  }, {
+    "id" : "Second",
+    "ar" : "الثاني",
+    "en" : "Second"
+  }, {
+    "id" : "Third",
+    "ar" : "الثالث",
+    "en" : "Third"
+  }, {
+    "id" : "Fourth",
+    "ar" : "الرابع",
+    "en" : "Fourth"
+  }, {
+    "id" : "Annual",
+    "ar" : "سنوى",
+    "en" : "Annual"
+  } ]
+}

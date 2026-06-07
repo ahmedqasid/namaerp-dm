@@ -1,0 +1,16 @@
+{
+  "enum" : "TaxItemValuesFromType",
+  "values" : [ {
+    "id" : "DocumentHeader",
+    "ar" : "رأس المستند",
+    "en" : "Document Header"
+  }, {
+    "id" : "DocumentLine",
+    "ar" : "سطر المستند",
+    "en" : "Document Line"
+  }, {
+    "id" : "Item",
+    "ar" : "صنف",
+    "en" : "Item"
+  } ]
+}

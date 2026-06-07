@@ -1,0 +1,31 @@
+{
+  "entity" : "ClonePayReceiptEntry",
+  "table" : "ClonePayReceiptEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ClonePayReceiptEntry.html",
+  "fields" : [ {
+    "id" : "doc",
+    "columns" : [ "docActualCode", " docCode", " docEntityType", " docId" ],
+    "ar" : "المستند",
+    "en" : "Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "forInstallments",
+    "column" : "forInstallments",
+    "type" : "Boolean"
+  }, {
+    "id" : "forPayment",
+    "column" : "forPayment",
+    "type" : "Boolean"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDocActualCode", " fromDocCode", " fromDocEntityType", " fromDocId" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

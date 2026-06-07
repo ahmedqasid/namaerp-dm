@@ -1,0 +1,24 @@
+{
+  "enum" : "ItemDimensionsAutoFillPolicy",
+  "values" : [ {
+    "id" : "Prevented",
+    "ar" : "ممنوع",
+    "en" : "Prevented"
+  }, {
+    "id" : "AlphabeticalASC",
+    "ar" : "أبجدي تصاعدي",
+    "en" : "Alphabetical ASC"
+  }, {
+    "id" : "AlphabeticalDESC",
+    "ar" : "أبجدي تنازلي",
+    "en" : "Alphabetical DESC"
+  }, {
+    "id" : "FIFO",
+    "ar" : "فيفو",
+    "en" : "FIFO"
+  }, {
+    "id" : "GreaterQuantity",
+    "ar" : "الأكثر كمية",
+    "en" : "Greater Quantity"
+  } ]
+}

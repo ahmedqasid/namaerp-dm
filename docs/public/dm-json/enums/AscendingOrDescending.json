@@ -1,0 +1,16 @@
+{
+  "enum" : "AscendingOrDescending",
+  "values" : [ {
+    "id" : "ConstantBasedOnSortFieldsLines",
+    "ar" : "بطريقة ثابتة من خلال سطور حقول الترتيب",
+    "en" : "Constant Based On Sort Fields Lines"
+  }, {
+    "id" : "VariableBasedOnOneParameterForAllSortParameters",
+    "ar" : "بطريقة متغيرة من خلال مدخل واحد لكل مدخلات الترتيب",
+    "en" : "Variable Based On One Parameter For All Sort Parameters"
+  }, {
+    "id" : "VariableBasedOnOneParameterForEverySortParameter",
+    "ar" : "بطريقة متغيرة من خلال مدخل واحد لكل مدخل الترتيب",
+    "en" : "Variable Based On One Parameter For Every Sort Parameter"
+  } ]
+}

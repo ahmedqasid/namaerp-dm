@@ -1,0 +1,108 @@
+{
+  "enum" : "SubsidiaryAccountType",
+  "values" : [ {
+    "id" : "MainAccount",
+    "ar" : "الحساب الرئيسي",
+    "en" : "Main Account"
+  }, {
+    "id" : "Account1",
+    "ar" : "حساب 01",
+    "en" : "Account 01"
+  }, {
+    "id" : "Account2",
+    "ar" : "حساب 02",
+    "en" : "Account 02"
+  }, {
+    "id" : "Account3",
+    "ar" : "حساب 03",
+    "en" : "Account 03"
+  }, {
+    "id" : "Account4",
+    "ar" : "حساب 04",
+    "en" : "Account 04"
+  }, {
+    "id" : "Account5",
+    "ar" : "حساب 05",
+    "en" : "Account 05"
+  }, {
+    "id" : "Account6",
+    "ar" : "حساب 06",
+    "en" : "Account 06"
+  }, {
+    "id" : "Account7",
+    "ar" : "حساب 07",
+    "en" : "Account 07"
+  }, {
+    "id" : "Account8",
+    "ar" : "حساب 08",
+    "en" : "Account 08"
+  }, {
+    "id" : "Account9",
+    "ar" : "حساب 09",
+    "en" : "Account 09"
+  }, {
+    "id" : "Account10",
+    "ar" : "حساب 10",
+    "en" : "Account 10"
+  }, {
+    "id" : "Account11",
+    "ar" : "حساب 11",
+    "en" : "Account 11"
+  }, {
+    "id" : "Account12",
+    "ar" : "حساب 12",
+    "en" : "Account 12"
+  }, {
+    "id" : "Account13",
+    "ar" : "حساب 13",
+    "en" : "Account 13"
+  }, {
+    "id" : "Account14",
+    "ar" : "حساب 14",
+    "en" : "Account 14"
+  }, {
+    "id" : "Account15",
+    "ar" : "حساب 15",
+    "en" : "Account 15"
+  }, {
+    "id" : "Account16",
+    "ar" : "حساب 16",
+    "en" : "Account 16"
+  }, {
+    "id" : "Account17",
+    "ar" : "حساب 17",
+    "en" : "Account 17"
+  }, {
+    "id" : "Account18",
+    "ar" : "حساب 18",
+    "en" : "Account 18"
+  }, {
+    "id" : "Account19",
+    "ar" : "حساب 19",
+    "en" : "Account 19"
+  }, {
+    "id" : "Account20",
+    "ar" : "حساب 20",
+    "en" : "Account 20"
+  }, {
+    "id" : "FromBag",
+    "ar" : "من الحقيبة",
+    "en" : "From Bag"
+  }, {
+    "id" : "FromBagWithCurrency",
+    "ar" : "من الحقيبة حسب العملة",
+    "en" : "From Bag Considering Currency"
+  }, {
+    "id" : "HeaderField",
+    "ar" : "حقل من رأس السند",
+    "en" : "Header Field"
+  }, {
+    "id" : "LineField",
+    "ar" : "حقل من السطر",
+    "en" : "Line Field"
+  }, {
+    "id" : "EffectLineField",
+    "ar" : "حقل من سطر التأثير",
+    "en" : "Effect Line Field"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "enum" : "CPAPerformService",
+  "values" : [ {
+    "id" : "Monthly",
+    "ar" : "شهرية",
+    "en" : "Monthly"
+  }, {
+    "id" : "Quarterly",
+    "ar" : "ربع سنوية",
+    "en" : "Quarterly"
+  }, {
+    "id" : "HalfYear",
+    "ar" : "نصف سنوي",
+    "en" : "Half Year"
+  }, {
+    "id" : "Yearly",
+    "ar" : "سنوية",
+    "en" : "Yearly"
+  }, {
+    "id" : "Task",
+    "ar" : "المهمة",
+    "en" : "Task"
+  } ]
+}

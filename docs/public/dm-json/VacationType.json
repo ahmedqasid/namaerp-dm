@@ -1,0 +1,1038 @@
+{
+  "entity" : "VacationType",
+  "table" : "VacationType",
+  "module" : "humanresource-payroll",
+  "ar" : "نوع الأجازة",
+  "arPlural" : "أنواع الأجازات",
+  "en" : "Vacation Type",
+  "enPlural" : "Vacation Types",
+  "page" : "https://dm.namasoft.com/modules/humanresource-payroll/VacationType.html",
+  "fields" : [ {
+    "id" : "affectedVacationType",
+    "column" : "affectedVacationType_id",
+    "ar" : "التأثير أيضاً في رصيد الاجازة",
+    "en" : "Affected Vacation Type",
+    "type" : "Reference",
+    "refTo" : "VacationType",
+    "refPath" : "/modules/humanresource-payroll/VacationType.html"
+  }, {
+    "id" : "allowOverBalance",
+    "column" : "allowOverBalance",
+    "ar" : "السماح بتعدى رصيد الاجازة",
+    "en" : "No Max Limit",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowVacationBeforeApplicableAfterMonths",
+    "column" : "allowVacationBeforeApplicableAfterMonths",
+    "ar" : "السماح بالأجازة خلال شهور العمل قبل استحقاق الأجازة",
+    "en" : "Allow Vacation Before Applicable After Months",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowedDaysForBalanceExceed",
+    "column" : "allowedDaysForBalanceExceed",
+    "ar" : "السماح بتعدى رصيد الاجازه بمدة(أيام)",
+    "en" : "Allowed Days For Balance Exceed",
+    "type" : "Decimal"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "applicableAfterInMonth",
+    "column" : "applicableAfterInMonth",
+    "ar" : "شهور العمل قبل استحقاق الأجازة",
+    "en" : "Applicable After",
+    "type" : "Integer"
+  }, {
+    "id" : "applicableAfterValidationOnly",
+    "column" : "applicableAfterValidationOnly",
+    "ar" : "استعمال شهور العمل قبل استحقاق الأجازة مع التحقق فقط",
+    "en" : "Use Applicable After With Validation Only",
+    "type" : "Boolean"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "calcPolicy",
+    "column" : "calcPolicy",
+    "ar" : "سياسة استحقاق الأجازة",
+    "en" : "Vacation Calculation Policy",
+    "type" : "Enum",
+    "enum" : "VacationCalcPolicy"
+  }, {
+    "id" : "changeEmployeeStateTo",
+    "column" : "changeEmployeeStateTo",
+    "ar" : "تغير حالة الموظف إلى",
+    "en" : "Change Employee State To",
+    "type" : "Enum",
+    "enum" : "EmployeeState"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "connectedDuration",
+    "column" : "connectedDuration",
+    "ar" : "أقل مده للأجازه متصلة",
+    "en" : "Connected Duration",
+    "type" : "Decimal"
+  }, {
+    "id" : "considerOpenVacWhenNoStartDoc",
+    "column" : "considerOpenVacWhenNoStartDoc",
+    "ar" : "اعتبار الأجازة لنهاية الشهر عند عدم تسجيل سند مباشرة مع احتساب أيام الأجازة بدون مرتب",
+    "en" : "Consider Open Vacation With No Salary When No Start Document",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerRetDateAsWorkStart",
+    "column" : "considerRetDateAsWorkStart",
+    "ar" : "إعتبار تاريخ العودة تاريخ مباشرة العمل",
+    "en" : "Consider Return Date As Working Start Date",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerRetDateAsWorkStartFromReason",
+    "column" : "considerRetDateAsWorkStartFromReason",
+    "ar" : "قراءة اعتبار تاريخ العودة كبدء عمل من سبب الإجازة",
+    "en" : "Consider Return Date As Work From Vacation Reason",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerVacationPeriodWhenCalculatingBalance",
+    "column" : "considerVacationPeriodWhenCalculatingBalance",
+    "ar" : "إعتبار مدة الأجازة عند حساب الرصيد",
+    "en" : "Consider Vacation Period When Calculating Balance",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "criteriaDefinition",
+    "column" : "criteriaDefinition_id",
+    "ar" : " المعايير",
+    "en" : " Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "dedFromPaidVacInDuesFromReason",
+    "column" : "dedFromPaidVacInDuesFromReason",
+    "ar" : "قراءة تخصم من مدة الإجازة مدفوعة الأجر في التصفية من السبب",
+    "en" : "Read deducted From Paid Vacation In Dues From Reason",
+    "type" : "Boolean"
+  }, {
+    "id" : "dedFromPaidVacPeriodInDues",
+    "column" : "dedFromPaidVacPeriodInDues",
+    "ar" : "تخصم من مدة الأجازة مدفوعة الأجر في التصفية",
+    "en" : "Deducted From Paid Vacation Period In Dues",
+    "type" : "Boolean"
+  }, {
+    "id" : "deductPercentageFromSalaryComponents",
+    "column" : "deductPercentageFromSalaryComponents",
+    "ar" : "استقطاع نسبة من المفردات",
+    "en" : "Deduct Percentage From Salary Components",
+    "type" : "Boolean"
+  }, {
+    "id" : "deductedFromServicePeriod",
+    "column" : "deductedFromServicePeriod",
+    "ar" : "تخصم من مدة العمل",
+    "en" : "Deducted From Work Period",
+    "type" : "Boolean"
+  }, {
+    "id" : "deductedFromWorkingDaysWhenCalcBalance",
+    "column" : "deductedFromWorkingDaysWhenCalcBalance",
+    "ar" : "تخصم مدتها من أيام العمل عند احتساب رصيد الاجازات",
+    "en" : "Deducted From Working Days When Calculating Balance",
+    "type" : "Boolean"
+  }, {
+    "id" : "defaultVacationDays",
+    "column" : "defaultVacationDays",
+    "ar" : "أيام الأجازة الأفتراضية",
+    "en" : "Default Vacation Days",
+    "type" : "Integer"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "doNotShowInMobileApp",
+    "column" : "doNotShowInMobileApp",
+    "ar" : "عدم الإظهار فى تطبيق الموبايل",
+    "en" : "Do Not Show In Mobile App",
+    "type" : "Boolean"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "effectVacationByFactor",
+    "column" : "effectVacationByFactor",
+    "ar" : "التأثير على الأجازة الأخري بمعدل",
+    "en" : "Effect Affected Vacation By Factor",
+    "type" : "Decimal"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fromDimensions.analysisSet",
+    "column" : "fromAnalysisSet_id",
+    "ar" : "من مجموعة تحليلية",
+    "en" : "From AnalysisSet",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "fromDimensions.branch",
+    "column" : "fromBranch_id",
+    "ar" : "من فرع",
+    "en" : "From Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "fromDimensions.department",
+    "column" : "fromDepartment_id",
+    "ar" : "من إدارة",
+    "en" : "From Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "fromDimensions.legalEntity",
+    "column" : "fromLegalEntity_id",
+    "ar" : "من شركة",
+    "en" : "From LegalEntity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "fromDimensions.sector",
+    "column" : "fromSector_id",
+    "ar" : "من قطاع",
+    "en" : "From Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "fromEmpDepartment",
+    "column" : "fromEmpDepartment_id",
+    "ar" : "من إدارة موظف",
+    "en" : "From Emp Department",
+    "type" : "Reference",
+    "refTo" : "EmployeeDepartment",
+    "refPath" : "/modules/basic/EmployeeDepartment.html"
+  }, {
+    "id" : "fromEmployee",
+    "column" : "fromEmployee_id",
+    "ar" : "من موظف",
+    "en" : "From Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "fromNationality",
+    "column" : "fromNationality_id",
+    "ar" : "من جنسية",
+    "en" : "From Nationality",
+    "type" : "Reference",
+    "refTo" : "Nationality",
+    "refPath" : "/modules/basic/Nationality.html"
+  }, {
+    "id" : "fromPostion",
+    "column" : "fromPostion_id",
+    "ar" : "من وظيفة",
+    "en" : "From Postion",
+    "type" : "Reference",
+    "refTo" : "OrganizationPosition",
+    "refPath" : "/modules/basic/OrganizationPosition.html"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "holidayPolicyForSalary",
+    "column" : "holidayPolicyForSalary",
+    "ar" : "معاملة عطلة رسمية (رواتب)",
+    "en" : "Holiday Policy (Salary)",
+    "type" : "Enum",
+    "enum" : "VacationHolidayPolicyType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "ignoreStartingDateWhenCalculatingVacationPeriod",
+    "column" : "ignoreStartingDateWhenCalculatingVacationPeriod",
+    "ar" : "تجاهل تاريخ مباشرة العمل عند حساب مدة الأجازة",
+    "en" : "Ignore Work Starting Date When Calculating Vacation Period",
+    "type" : "Boolean"
+  }, {
+    "id" : "includeHoliday",
+    "column" : "includeHoliday",
+    "ar" : "تشمل العطلة الرسمية (أرصدة)",
+    "en" : "Include Holiday (Balance)",
+    "type" : "Boolean"
+  }, {
+    "id" : "includeWeekEnd",
+    "column" : "includeWeekEnd",
+    "ar" : "تشمل العطلة الأسبوعية (أرصدة)",
+    "en" : "Include Weekend (Balance)",
+    "type" : "Boolean"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "maxBalanceDay",
+    "column" : "maxBalanceDay",
+    "ar" : "الحد الأقصى لرصيد الأجازة (يوم)",
+    "en" : "Balance Days (Max)",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxCountInServicePeriodValue",
+    "column" : "maxCountInServicePeriodValue",
+    "ar" : "قيمة الفترة",
+    "en" : "Max Count In Service Period Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxCountInServiceRepetitionStart",
+    "column" : "maxCountInServiceRepetitionStart",
+    "ar" : "تاريخ بداية الفترة",
+    "en" : "Max Count In Service Repetition Start",
+    "type" : "Enum",
+    "enum" : "VacationRepetitionStart"
+  }, {
+    "id" : "maxCountInServiceRepetitionType",
+    "column" : "maxCountInServiceRepetitionType",
+    "ar" : "نوع الفترة",
+    "en" : "Max Count In Service Repetition Type",
+    "type" : "Enum",
+    "enum" : "VacationRepetitionType"
+  }, {
+    "id" : "maxNumForRepaidOrMigrate",
+    "column" : "maxNumForRepaidOrMigrate",
+    "ar" : "الحد الأقصى للترحيل/للتعويض",
+    "en" : "Max num of rep/mig",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxVacationDay",
+    "column" : "maxVacationDay",
+    "ar" : "الحد الأقصى للأجازة(يوم)",
+    "en" : "Vacation Days (Max)",
+    "type" : "Integer"
+  }, {
+    "id" : "maxVacationDayPeriodValue",
+    "column" : "maxVacationDayPeriodValue",
+    "ar" : "قيمة الفترة(أيام)",
+    "en" : "Max Vacation Day Period Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxVacationDayRepetitionStart",
+    "column" : "maxVacationDayRepetitionStart",
+    "ar" : "تاريخ بداية الفترة",
+    "en" : "Max Vacation Day Repetition Start",
+    "type" : "Enum",
+    "enum" : "VacationRepetitionStart"
+  }, {
+    "id" : "maxVacationDayRepetitionType",
+    "column" : "maxVacationDayRepetitionType",
+    "ar" : "نوع الفترة (أيام)",
+    "en" : "Max Vacation Day Repetition Type",
+    "type" : "Enum",
+    "enum" : "VacationRepetitionType"
+  }, {
+    "id" : "minConsumedDays",
+    "column" : "minConsumedDays",
+    "ar" : "الترحيل بحد أدني من المستهلك سنويا",
+    "en" : "Minimum Consumed Days Per Year",
+    "type" : "Decimal"
+  }, {
+    "id" : "moveReturnDateToFirstWorkday",
+    "column" : "moveReturnDateToFirstWorkday",
+    "ar" : "نقل تاريخ العودة إلى أول يوم عمل",
+    "en" : "Move Return Date To First Work day",
+    "type" : "Boolean"
+  }, {
+    "id" : "mustAddedToContract",
+    "column" : "mustAddedToContract",
+    "ar" : "يجب إضافته الى العقد",
+    "en" : "Must Added To Contract",
+    "type" : "Boolean"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "numOfDaysBeforeResidencyEnd",
+    "column" : "numOfDaysBeforeResidencyEnd",
+    "ar" : "المده بين العوده من الاجازه وانتهاء الاقامه",
+    "en" : "Number Of Days Before Residency End",
+    "type" : "Integer"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "reasonIsRequired",
+    "column" : "reasonIsRequired",
+    "ar" : "عدم الحفظ إذا كان سبب الأجازة فارغاً",
+    "en" : "Reason Is Required",
+    "type" : "Boolean"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "showInVacationDocument",
+    "column" : "showInVacationDocument",
+    "ar" : "تُعرض في سند الإجازة دائما",
+    "en" : "Always Show In Vacation Document",
+    "type" : "Boolean"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "toDimensions.analysisSet",
+    "column" : "toAnalysisSet_id",
+    "ar" : "إلى مجموعة تحليلية",
+    "en" : "to AnalysisSet",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "toDimensions.branch",
+    "column" : "toBranch_id",
+    "ar" : "إلى فرع",
+    "en" : "to Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "toDimensions.department",
+    "column" : "toDepartment_id",
+    "ar" : "إلى إدارة",
+    "en" : "to Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "toDimensions.legalEntity",
+    "column" : "toLegalEntity_id",
+    "ar" : "إلى شركة",
+    "en" : "to LegalEntity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "toDimensions.sector",
+    "column" : "toSector_id",
+    "ar" : "إلى قطاع",
+    "en" : "to Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "toEmpDepartment",
+    "column" : "toEmpDepartment_id",
+    "ar" : "إلى إدارة موظف",
+    "en" : "To Emp Department",
+    "type" : "Reference",
+    "refTo" : "EmployeeDepartment",
+    "refPath" : "/modules/basic/EmployeeDepartment.html"
+  }, {
+    "id" : "toEmployee",
+    "column" : "toEmployee_id",
+    "ar" : "الي موظف",
+    "en" : "To Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "toNationality",
+    "column" : "toNationality_id",
+    "ar" : "إلى جنسية",
+    "en" : "To Nationality",
+    "type" : "Reference",
+    "refTo" : "Nationality",
+    "refPath" : "/modules/basic/Nationality.html"
+  }, {
+    "id" : "toPostion",
+    "column" : "toPostion_id",
+    "ar" : "إلى وظيفة",
+    "en" : "To Postion",
+    "type" : "Reference",
+    "refTo" : "OrganizationPosition",
+    "refPath" : "/modules/basic/OrganizationPosition.html"
+  }, {
+    "id" : "transferPolicy",
+    "column" : "transferPolicy",
+    "ar" : "سياسة ترحيل الأجازة",
+    "en" : "Vacation Transfer Policy",
+    "type" : "Enum",
+    "enum" : "VacationTransferPolicy"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "vacationBalanceRange",
+    "column" : "vacationBalanceRange_id",
+    "ar" : " ملف أرصدة الأجازات (بناءا على الخبرات)",
+    "en" : " Vacation Balance Range File",
+    "type" : "Reference",
+    "refTo" : "VacationBalanceRange",
+    "refPath" : "/modules/humanresource-payroll/VacationBalanceRange.html"
+  }, {
+    "id" : "vacationClass",
+    "column" : "vacationClass",
+    "ar" : "تصنيف الاجازة",
+    "en" : "Vacation Classification",
+    "type" : "Enum",
+    "enum" : "VacationClass"
+  }, {
+    "id" : "vacationNumDuringSrvPeriod",
+    "column" : "vacationNumDuringSrvPeriod",
+    "ar" : "عدد مرات الاجازه خلال فترة الخدمة",
+    "en" : "Vacation Number During Service Period",
+    "type" : "Decimal"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "weekEndPolicyForSalary",
+    "column" : "weekEndPolicyForSalary",
+    "ar" : "معاملة أجازة اسبوعية (رواتب)",
+    "en" : "Weekend Policy (Salary)",
+    "type" : "Enum",
+    "enum" : "VacationHolidayPolicyType"
+  }, {
+    "id" : "weekRestPolicyForBalance",
+    "column" : "weekRestPolicyForBalance",
+    "ar" : "معاملة راحة اسبوعية (أرصدة)",
+    "en" : "Week Rest Policy (Balance)",
+    "type" : "Enum",
+    "enum" : "VacationWeekRestPolicyType"
+  }, {
+    "id" : "weekRestPolicyForSalary",
+    "column" : "weekRestPolicyForSalary",
+    "ar" : "معاملة راحة اسبوعية (رواتب)",
+    "en" : "Week Rest Policy (Salary)",
+    "type" : "Enum",
+    "enum" : "VacationWeekRestPolicyType"
+  }, {
+    "id" : "withoutSalary",
+    "column" : "withoutSalary",
+    "ar" : "بدون مرتب و يخصم من نهاية الخدمة",
+    "en" : "Without Salary Deducted From Termination",
+    "type" : "Boolean"
+  }, {
+    "id" : "withoutSalaryFromReason",
+    "column" : "withoutSalaryFromReason",
+    "ar" : "قراءة بدون راتب من سبب الأجازة",
+    "en" : "Read Without Salary From Reason",
+    "type" : "Boolean"
+  }, {
+    "id" : "withoutSalaryNotDeducted",
+    "column" : "withoutSalaryNotDeducted",
+    "ar" : "بدون مرتب ولا يخصم من نهاية الخدمة",
+    "en" : "Without Salary Not Deducted From Termination",
+    "type" : "Boolean"
+  } ],
+  "details" : [ {
+    "id" : "deductionPercentageLines",
+    "table" : "VacationTypeDeductionPercentageLine",
+    "joinColumn" : "vacationType_id",
+    "ar" : "استقطاع نسبة من المفردات",
+    "en" : "Deduction Percentage Lines",
+    "fields" : [ {
+      "id" : "deductionPercentageLines.componentGroup",
+      "column" : "componentGroup_id",
+      "ar" : " مجموعة مفردات راتب",
+      "en" : "Component Group",
+      "type" : "Reference",
+      "refTo" : "SalaryComponentGroup",
+      "refPath" : "/modules/humanresource-payroll/SalaryComponentGroup.html"
+    }, {
+      "id" : "deductionPercentageLines.daysGreaterThanOrEqual",
+      "column" : "daysGreaterThanOrEqual",
+      "ar" : "عدد أيام الإجازة |أكبر من أو يساوى",
+      "en" : "Vacation Days | Greater Than Or Equal",
+      "type" : "Decimal"
+    }, {
+      "id" : "deductionPercentageLines.daysLessThanOrEqual",
+      "column" : "daysLessThanOrEqual",
+      "ar" : "عدد أيام الإجازة |أقل من أو يساوى",
+      "en" : "Vacation Days | Less Than Or Equal",
+      "type" : "Decimal"
+    }, {
+      "id" : "deductionPercentageLines.deductionPercentage",
+      "column" : "deductionPercentage",
+      "ar" : "نسبة الخصم",
+      "en" : "Deduction Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "deductionPercentageLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "deductionPercentageLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "deductionPercentageLines.salaryDocFromDate",
+      "column" : "salaryDocFromDate",
+      "ar" : "من تاريخ سند الراتب",
+      "en" : "Salary Doc From Date",
+      "type" : "Date"
+    }, {
+      "id" : "deductionPercentageLines.salaryDocToDate",
+      "column" : "salaryDocToDate",
+      "ar" : "إلى تاريخ سند الراتب",
+      "en" : "Salary Doc To Date",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "discardComponents",
+    "table" : "VacationTypeComponentLine",
+    "joinColumn" : "vacationType_id",
+    "ar" : "المفردات الواجب تجاهلها مع الاجازه بدون مرتب",
+    "en" : "Discard Components",
+    "fields" : [ {
+      "id" : "discardComponents.componentType",
+      "column" : "componentType_id",
+      "ar" : "نوع المفرد",
+      "en" : "Component Type",
+      "type" : "Reference",
+      "refTo" : "SalaryComponentType",
+      "refPath" : "/modules/humanresource-payroll/SalaryComponentType.html"
+    }, {
+      "id" : "discardComponents.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "discardComponents.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "discardComponents.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "periodOfVacationReq",
+    "table" : "VacationTypePeriodVacaReqLine",
+    "joinColumn" : "vacationType_id",
+    "fields" : [ {
+      "id" : "periodOfVacationReq.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "periodOfVacationReq.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "periodOfVacationReq.maxPeriodAfterVacationReq",
+      "column" : "maxPeriodAfterVacationReq",
+      "ar" : "الفترة كحد أقصى بعد طلب الأجازة",
+      "en" : "Maximum Period After Taking Vacation",
+      "type" : "Integer"
+    }, {
+      "id" : "periodOfVacationReq.maxVacationPeriod",
+      "column" : "maxVacationPeriod",
+      "ar" : "مدة الأجازة | أكبر من أو يساوى",
+      "en" : "Max Vacation Period | Greater Than Or Equal",
+      "type" : "Integer"
+    }, {
+      "id" : "periodOfVacationReq.minPeriodBeforeVacationReq",
+      "column" : "minPeriodBeforeVacationReq",
+      "ar" : "الفترة كحد أدنى قبل طلب الأجازة",
+      "en" : "Minimum Period Before Vacation Request",
+      "type" : "Integer"
+    }, {
+      "id" : "periodOfVacationReq.minVacationPeriod",
+      "column" : "minVacationPeriod",
+      "ar" : "مدة الأجازة | أقل من",
+      "en" : "Min Vacation Period | Less Than",
+      "type" : "Integer"
+    } ]
+  } ]
+}

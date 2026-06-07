@@ -1,0 +1,899 @@
+{
+  "entity" : "AIToolDefinition",
+  "table" : "AIToolDefinition",
+  "module" : "ai",
+  "ar" : "AI Tool Definition",
+  "arPlural" : "AI Tool Definition",
+  "en" : "AI Tool Definition",
+  "enPlural" : "AI Tool Definitions",
+  "page" : "https://dm.namasoft.com/modules/ai/AIToolDefinition.html",
+  "fields" : [ {
+    "id" : "altCode",
+    "column" : "altCode",
+    "ar" : "الكود الإنجليزي",
+    "en" : "English Code",
+    "type" : "Text"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description",
+    "column" : "description",
+    "ar" : "الوصف",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entityFlow",
+    "column" : "entityFlow_id",
+    "ar" : "المسار",
+    "en" : "Entity Flow",
+    "type" : "Reference",
+    "refTo" : "EntityFlow",
+    "refPath" : "/modules/basic/EntityFlow.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "entityTypeStrategy",
+    "column" : "entityTypeStrategy",
+    "ar" : "Entity Type Strategy",
+    "en" : "Entity Type Strategy",
+    "type" : "Enum",
+    "enum" : "FlowEntityTypeStrategy"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "inActive",
+    "column" : "inActive",
+    "ar" : "غير نشط",
+    "en" : "Inactive",
+    "type" : "Boolean"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "query",
+    "column" : "query",
+    "ar" : "الاستعلام",
+    "en" : "Query",
+    "type" : "BigText"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reportDefinition",
+    "column" : "reportDefinition_id",
+    "ar" : "تعريف التقرير",
+    "en" : "Report Definition",
+    "type" : "Reference",
+    "refTo" : "ReportDefinition",
+    "refPath" : "/modules/basic/ReportDefinition.html"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "runEntityFlowOnEntityTypeList",
+    "column" : "runEntityFlowOnEntityTypeList_id",
+    "ar" : "Run Entity Flow On Entity Type List",
+    "en" : "Run Entity Flow On Entity Type List",
+    "type" : "Reference",
+    "refTo" : "EntityTypeList",
+    "refPath" : "/modules/basic/EntityTypeList.html"
+  }, {
+    "id" : "runEntityFlowOnType",
+    "column" : "runEntityFlowOnType",
+    "ar" : "Run Entity Flow On Type",
+    "en" : "Run Entity Flow On Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "toolName",
+    "column" : "toolName",
+    "ar" : "Tool Name (Must Be Unique)",
+    "en" : "Tool Name (Must Be Unique)",
+    "type" : "Text"
+  }, {
+    "id" : "toolType",
+    "column" : "toolType",
+    "ar" : "Tool Type",
+    "en" : "Tool Type",
+    "type" : "Enum",
+    "enum" : "AIToolType"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "accessControl",
+    "table" : "AIToolDefinitionSecurity",
+    "joinColumn" : "aIToolDefinition_id",
+    "ar" : "الصلاحيات (التحكم في الوصول)",
+    "en" : "Security (Access Control)",
+    "fields" : [ {
+      "id" : "accessControl.allowDisallow",
+      "column" : "allowDisallow",
+      "ar" : "سماح - منع",
+      "en" : "Allow - Disallow",
+      "type" : "Enum",
+      "enum" : "SecurityApplicationType"
+    }, {
+      "id" : "accessControl.applicableFor",
+      "columns" : [ "applicableForActualCode", " applicableForCode", " applicableForEntityType", " applicableForId" ],
+      "ar" : "مطبق على",
+      "en" : "Applicable For",
+      "type" : "Genericreference"
+    }, {
+      "id" : "accessControl.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "accessControl.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "entityFlowParameters",
+    "table" : "AIToolDefinitionEntityFlowParam",
+    "joinColumn" : "aIToolDefinition_id",
+    "ar" : "Entity Flow Parameters",
+    "en" : "Entity Flow Parameters",
+    "fields" : [ {
+      "id" : "entityFlowParameters.aiParameterCompletion",
+      "column" : "aiParameterCompletion",
+      "ar" : "AI Parameter Completion",
+      "en" : "AI Parameter Completion",
+      "type" : "Enum",
+      "enum" : "FillByAI"
+    }, {
+      "id" : "entityFlowParameters.allowedValues",
+      "column" : "allowedValues",
+      "ar" : "القيم المسموح بها",
+      "en" : "Allowed Values",
+      "type" : "BigText"
+    }, {
+      "id" : "entityFlowParameters.allowedValuesAr",
+      "column" : "allowedValuesAr",
+      "ar" : "Arabic Allowed Values",
+      "en" : "Arabic Allowed Values",
+      "type" : "BigText"
+    }, {
+      "id" : "entityFlowParameters.allowedValuesEn",
+      "column" : "allowedValuesEn",
+      "ar" : "English Allowed Values",
+      "en" : "English Allowed Values",
+      "type" : "BigText"
+    }, {
+      "id" : "entityFlowParameters.fieldType",
+      "column" : "fieldType",
+      "ar" : "نوع الحقل",
+      "en" : "Field Type",
+      "type" : "Enum",
+      "enum" : "AIFieldType"
+    }, {
+      "id" : "entityFlowParameters.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "entityFlowParameters.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "entityFlowParameters.paramDescription",
+      "column" : "paramDescription",
+      "ar" : "Parameter Description",
+      "en" : "Parameter Description",
+      "type" : "BigText"
+    }, {
+      "id" : "entityFlowParameters.paramId",
+      "column" : "paramId",
+      "ar" : "المعرف",
+      "en" : "Parameter Id",
+      "type" : "Text"
+    }, {
+      "id" : "entityFlowParameters.required",
+      "column" : "required",
+      "ar" : "إجبارى",
+      "en" : "Required",
+      "type" : "Boolean"
+    }, {
+      "id" : "entityFlowParameters.supportedReferenceType",
+      "column" : "supportedReferenceType",
+      "ar" : "Supported Reference Type",
+      "en" : "Supported Reference Type",
+      "type" : "FieldID"
+    } ]
+  }, {
+    "id" : "queryParameters",
+    "table" : "AIToolDefinitionQueryParam",
+    "joinColumn" : "aIToolDefinition_id",
+    "ar" : "َQuery Parameters",
+    "en" : "َQuery Parameters",
+    "fields" : [ {
+      "id" : "queryParameters.aiParameterCompletion",
+      "column" : "aiParameterCompletion",
+      "ar" : "AI Parameter Completion",
+      "en" : "AI Parameter Completion",
+      "type" : "Enum",
+      "enum" : "FillByAI"
+    }, {
+      "id" : "queryParameters.allowedValues",
+      "column" : "allowedValues",
+      "ar" : "القيم المسموح بها",
+      "en" : "Allowed Values",
+      "type" : "BigText"
+    }, {
+      "id" : "queryParameters.allowedValuesAr",
+      "column" : "allowedValuesAr",
+      "ar" : "Arabic Allowed Values",
+      "en" : "Arabic Allowed Values",
+      "type" : "BigText"
+    }, {
+      "id" : "queryParameters.allowedValuesEn",
+      "column" : "allowedValuesEn",
+      "ar" : "English Allowed Values",
+      "en" : "English Allowed Values",
+      "type" : "BigText"
+    }, {
+      "id" : "queryParameters.fieldType",
+      "column" : "fieldType",
+      "ar" : "نوع الحقل",
+      "en" : "Field Type",
+      "type" : "Enum",
+      "enum" : "AIFieldType"
+    }, {
+      "id" : "queryParameters.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "queryParameters.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "queryParameters.paramDescription",
+      "column" : "paramDescription",
+      "ar" : "Parameter Description",
+      "en" : "Parameter Description",
+      "type" : "BigText"
+    }, {
+      "id" : "queryParameters.paramId",
+      "column" : "paramId",
+      "ar" : "المعرف",
+      "en" : "Parameter Id",
+      "type" : "Text"
+    }, {
+      "id" : "queryParameters.required",
+      "column" : "required",
+      "ar" : "إجبارى",
+      "en" : "Required",
+      "type" : "Boolean"
+    }, {
+      "id" : "queryParameters.supportedReferenceType",
+      "column" : "supportedReferenceType",
+      "ar" : "Supported Reference Type",
+      "en" : "Supported Reference Type",
+      "type" : "FieldID"
+    } ]
+  }, {
+    "id" : "reportParameters",
+    "table" : "AIToolDefinitionReportToolParams",
+    "joinColumn" : "aIToolDefinition_id",
+    "ar" : "Report Parameters",
+    "en" : "Report Parameters",
+    "fields" : [ {
+      "id" : "reportParameters.aiParameterCompletion",
+      "column" : "aiParameterCompletion",
+      "ar" : "AI Parameter Completion",
+      "en" : "AI Parameter Completion",
+      "type" : "Enum",
+      "enum" : "FillByAI"
+    }, {
+      "id" : "reportParameters.allowedValues",
+      "column" : "allowedValues",
+      "ar" : "القيم المسموح بها",
+      "en" : "Allowed Values",
+      "type" : "BigText"
+    }, {
+      "id" : "reportParameters.allowedValuesAr",
+      "column" : "allowedValuesAr",
+      "ar" : "Arabic Allowed Values",
+      "en" : "Arabic Allowed Values",
+      "type" : "BigText"
+    }, {
+      "id" : "reportParameters.allowedValuesEn",
+      "column" : "allowedValuesEn",
+      "ar" : "English Allowed Values",
+      "en" : "English Allowed Values",
+      "type" : "BigText"
+    }, {
+      "id" : "reportParameters.dateTimeValue",
+      "column" : "dateTimeValue",
+      "ar" : "وقت/تاريخ",
+      "en" : "Date/Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "reportParameters.dateValue",
+      "column" : "dateValue",
+      "ar" : "تاريخ",
+      "en" : "Date Value",
+      "type" : "Date"
+    }, {
+      "id" : "reportParameters.dynamicParamValue",
+      "column" : "dynamicParamValue",
+      "type" : "Boolean"
+    }, {
+      "id" : "reportParameters.entityType",
+      "column" : "entityType",
+      "ar" : "النوع",
+      "en" : "Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "reportParameters.fieldType",
+      "column" : "fieldType",
+      "ar" : "نوع الحقل",
+      "en" : "Field Type",
+      "type" : "Enum",
+      "enum" : "AIFieldType"
+    }, {
+      "id" : "reportParameters.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "reportParameters.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "reportParameters.paramDescription",
+      "column" : "paramDescription",
+      "ar" : "Parameter Description",
+      "en" : "Parameter Description",
+      "type" : "BigText"
+    }, {
+      "id" : "reportParameters.paramId",
+      "column" : "paramId",
+      "ar" : "المعرف",
+      "en" : "Parameter Id",
+      "type" : "Text"
+    }, {
+      "id" : "reportParameters.paramType",
+      "column" : "paramType",
+      "ar" : "النوع",
+      "en" : "Param Type",
+      "type" : "Text"
+    }, {
+      "id" : "reportParameters.paramValue",
+      "column" : "paramValue",
+      "ar" : "القيمة",
+      "en" : "Param Value",
+      "type" : "Text"
+    }, {
+      "id" : "reportParameters.refValue",
+      "columns" : [ "refValueActualCode", " refValueCode", " refValueEntityType", " refValueId" ],
+      "ar" : "مرجع",
+      "en" : "Reference",
+      "type" : "Genericreference"
+    }, {
+      "id" : "reportParameters.required",
+      "column" : "required",
+      "ar" : "إجبارى",
+      "en" : "Required",
+      "type" : "Boolean"
+    }, {
+      "id" : "reportParameters.supportedReferenceType",
+      "column" : "supportedReferenceType",
+      "ar" : "Supported Reference Type",
+      "en" : "Supported Reference Type",
+      "type" : "FieldID"
+    }, {
+      "id" : "reportParameters.timeValue",
+      "column" : "timeValue",
+      "ar" : "وقت",
+      "en" : "Time Value",
+      "type" : "Time"
+    } ]
+  }, {
+    "id" : "systemTools",
+    "table" : "AIToolDefinitionSystemTools",
+    "joinColumn" : "aIToolDefinition_id",
+    "ar" : "System Tools Configuration",
+    "en" : "System Tools Configuration",
+    "fields" : [ {
+      "id" : "systemTools.description",
+      "column" : "description",
+      "ar" : "الوصف",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "systemTools.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "systemTools.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "systemTools.parameter1",
+      "column" : "parameter1",
+      "ar" : "المدخل 1",
+      "en" : "Parameter 1",
+      "type" : "BigText"
+    }, {
+      "id" : "systemTools.parameter2",
+      "column" : "parameter2",
+      "ar" : "المدخل 2",
+      "en" : "Parameter 2",
+      "type" : "BigText"
+    }, {
+      "id" : "systemTools.parameter3",
+      "column" : "parameter3",
+      "ar" : "المدخل 3",
+      "en" : "Parameter 3",
+      "type" : "BigText"
+    }, {
+      "id" : "systemTools.parameter4",
+      "column" : "parameter4",
+      "ar" : "المدخل 4",
+      "en" : "Parameter 4",
+      "type" : "BigText"
+    }, {
+      "id" : "systemTools.parameter5",
+      "column" : "parameter5",
+      "ar" : "المدخل 5",
+      "en" : "Parameter 5",
+      "type" : "BigText"
+    }, {
+      "id" : "systemTools.title1",
+      "column" : "title1",
+      "ar" : "عنوان مدخل 1",
+      "en" : "Paramter 1 Title",
+      "type" : "BigText"
+    }, {
+      "id" : "systemTools.title2",
+      "column" : "title2",
+      "ar" : "عنوان مدخل 2",
+      "en" : "Paramter 2 Title",
+      "type" : "BigText"
+    }, {
+      "id" : "systemTools.title3",
+      "column" : "title3",
+      "ar" : "عنوان مدخل 3",
+      "en" : "Paramter 3 Title",
+      "type" : "BigText"
+    }, {
+      "id" : "systemTools.title4",
+      "column" : "title4",
+      "ar" : "عنوان مدخل 4",
+      "en" : "Paramter 4 Title",
+      "type" : "BigText"
+    }, {
+      "id" : "systemTools.title5",
+      "column" : "title5",
+      "ar" : "عنوان مدخل 5",
+      "en" : "Paramter 5 Title",
+      "type" : "BigText"
+    }, {
+      "id" : "systemTools.toolClassName",
+      "column" : "toolClassName",
+      "ar" : "Tool Class Name",
+      "en" : "Tool Class Name",
+      "type" : "Text"
+    } ]
+  } ]
+}

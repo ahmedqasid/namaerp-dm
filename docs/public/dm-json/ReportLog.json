@@ -1,0 +1,102 @@
+{
+  "entity" : "ReportLog",
+  "table" : "ReportLog",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ReportLog.html",
+  "fields" : [ {
+    "id" : "endTime",
+    "column" : "endTime",
+    "ar" : "إلى",
+    "en" : "End Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "exportEntry",
+    "column" : "exportEntry",
+    "ar" : "Export Entry",
+    "en" : "Export Entry",
+    "type" : "Boolean"
+  }, {
+    "id" : "exportFormat",
+    "column" : "exportFormat",
+    "ar" : "Export Format",
+    "en" : "Export Format",
+    "type" : "Enum",
+    "enum" : "RepOutputFormat"
+  }, {
+    "id" : "fromIP",
+    "column" : "fromIP",
+    "ar" : "من IP",
+    "en" : "IP",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "parameters",
+    "column" : "parameters",
+    "ar" : "المدخلات",
+    "en" : "Parameters",
+    "type" : "BigText"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "printedRecord",
+    "columns" : [ "printedRecordActualCode", " printedRecordCode", " printedRecordEntityType", " printedRecordId" ],
+    "ar" : "السجل المطبوع",
+    "en" : "Printed Record",
+    "type" : "Genericreference"
+  }, {
+    "id" : "replicationSite",
+    "column" : "replicationSite_id",
+    "ar" : "موقع التكرار",
+    "en" : "Replication Site",
+    "type" : "Reference",
+    "refTo" : "ReplicationSite",
+    "refPath" : "/modules/basic/ReplicationSite.html"
+  }, {
+    "id" : "report",
+    "columns" : [ "reportActualCode", " reportCode", " reportEntityType", " reportId" ],
+    "ar" : "التقرير",
+    "en" : "Report Definition",
+    "type" : "Genericreference"
+  }, {
+    "id" : "runFailed",
+    "column" : "runFailed",
+    "ar" : "فشل التشغيل",
+    "en" : "Run Failed",
+    "type" : "Boolean"
+  }, {
+    "id" : "runId",
+    "column" : "runId",
+    "ar" : "معرف التشغيل",
+    "en" : "Run ID",
+    "type" : "Long"
+  }, {
+    "id" : "runTimeMS",
+    "column" : "runTimeMS",
+    "ar" : "وقت التشغيل بالمللي ثانية",
+    "en" : "Run Time MS",
+    "type" : "Long"
+  }, {
+    "id" : "startTime",
+    "column" : "startTime",
+    "ar" : "من",
+    "en" : "Start Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "tempPrintId",
+    "column" : "tempPrintId",
+    "type" : "ID"
+  }, {
+    "id" : "user",
+    "columns" : [ "userActualCode", " userCode", " userEntityType", " userId" ],
+    "ar" : "المستخدم",
+    "en" : "User",
+    "type" : "Genericreference"
+  } ]
+}

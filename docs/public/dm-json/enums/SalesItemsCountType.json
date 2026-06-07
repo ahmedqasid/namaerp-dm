@@ -1,0 +1,24 @@
+{
+  "enum" : "SalesItemsCountType",
+  "values" : [ {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  }, {
+    "id" : "OtherLinesSameItemSameInvoice",
+    "ar" : "إجمالي كميات السطور الأخرى لنفس الصنف (في نفس الغاتورة)",
+    "en" : "Other Lines For Same Item (In Same Invoice)"
+  }, {
+    "id" : "SameMonth",
+    "ar" : "خلال الشهر الحالي",
+    "en" : "Same Month"
+  }, {
+    "id" : "SameYear",
+    "ar" : "خلال السنة الحالية",
+    "en" : "Same Year"
+  }, {
+    "id" : "OfferPeriod",
+    "ar" : "خلال فترة العرض",
+    "en" : "Offer Period"
+  } ]
+}

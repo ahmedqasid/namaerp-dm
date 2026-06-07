@@ -1,0 +1,25 @@
+{
+  "entity" : "POSTakingGridLine",
+  "table" : "POSTakingGridLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/POSTakingGridLine.html",
+  "fields" : [ {
+    "id" : "field",
+    "column" : "field",
+    "ar" : "الحقل",
+    "en" : "Field",
+    "type" : "Enum",
+    "enum" : "PosSalesGridField"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "widthSize",
+    "column" : "widthSize",
+    "ar" : "مقاس العرض",
+    "en" : "Width Size",
+    "type" : "Enum",
+    "enum" : "GridSizeEnum"
+  } ]
+}

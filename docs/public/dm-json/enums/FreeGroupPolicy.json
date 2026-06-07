@@ -1,0 +1,12 @@
+{
+  "enum" : "FreeGroupPolicy",
+  "values" : [ {
+    "id" : "One",
+    "ar" : "صنف واحد",
+    "en" : "One Item"
+  }, {
+    "id" : "All",
+    "ar" : "كل الأصناف",
+    "en" : "All Items"
+  } ]
+}

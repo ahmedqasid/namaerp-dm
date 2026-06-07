@@ -1,0 +1,64 @@
+{
+  "enum" : "EDocumentType",
+  "values" : [ {
+    "id" : "Receipt",
+    "ar" : "إيصال",
+    "en" : "Receipt"
+  }, {
+    "id" : "ReturnReceipt",
+    "ar" : "مردود إيصال",
+    "en" : "Return Receipt"
+  }, {
+    "id" : "Invoice",
+    "ar" : "فاتورة",
+    "en" : "Invoice"
+  }, {
+    "id" : "ImportInvoice",
+    "ar" : "استيراد فاتورة",
+    "en" : "Import Invoice"
+  }, {
+    "id" : "CreditNote",
+    "ar" : "إشعار دائن",
+    "en" : "CreditNote"
+  }, {
+    "id" : "DebitNote",
+    "ar" : "إشعار مدين",
+    "en" : "DebitNote"
+  }, {
+    "id" : "ExportInvoice",
+    "ar" : "فاتورة تصدير للخارج",
+    "en" : "Export Invoice"
+  }, {
+    "id" : "ExportCreditNote",
+    "ar" : "إشعار دائن تصدير للخارج",
+    "en" : "Export Credit Note"
+  }, {
+    "id" : "ExportDebitNote",
+    "ar" : "إشعار مدين تصدير للخارج",
+    "en" : "Export Debit Note"
+  }, {
+    "id" : "IncomeInvoice",
+    "ar" : "فاتورة دخل",
+    "en" : "Income Invoice"
+  }, {
+    "id" : "IncomeInvoiceReturn",
+    "ar" : "مرتجع فاتورة دخل",
+    "en" : "Income Invoice Return"
+  }, {
+    "id" : "PublicInvoice",
+    "ar" : "فاتورة مبيعات عامة",
+    "en" : "Public Invoice"
+  }, {
+    "id" : "PublicInvoiceReturn",
+    "ar" : "مرتجع فاتورة مبيعات عامة",
+    "en" : "Public Invoice Return"
+  }, {
+    "id" : "PrivateInvoice",
+    "ar" : "فاتورة مبيعات خاصة",
+    "en" : "Private Invoice"
+  }, {
+    "id" : "PrivateInvoiceReturn",
+    "ar" : "مرتجع فاتورة مبيعات خاصة",
+    "en" : "Private Invoice Return"
+  } ]
+}

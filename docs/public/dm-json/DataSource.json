@@ -1,0 +1,1892 @@
+{
+  "entity" : "DataSource",
+  "table" : "DataSource",
+  "module" : "basic",
+  "ar" : "مصدر بيانات",
+  "arPlural" : "مصادر بيانات",
+  "en" : "Data Source",
+  "enPlural" : "Data Sources",
+  "page" : "https://dm.namasoft.com/modules/basic/DataSource.html",
+  "fields" : [ {
+    "id" : "allowAllMainTableFieldsForUse",
+    "column" : "allowAllMainTableFieldsForUse",
+    "ar" : "إتاحة كل حقول الجدول الرئيسي للاستخدام",
+    "en" : "Allow All Main Table Fields For Use",
+    "type" : "Boolean"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "dataModelXml",
+    "column" : "dataModelXml",
+    "type" : "BigText"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "finalStaticDeclareStatements",
+    "column" : "finalStaticDeclareStatements",
+    "ar" : "Final Static Declare Statements",
+    "en" : "Final Static Declare Statements",
+    "type" : "BigText"
+  }, {
+    "id" : "finalStaticHavingCondition",
+    "column" : "finalStaticHavingCondition",
+    "ar" : "Final Static Having Condition",
+    "en" : "Final Static Having Condition",
+    "type" : "BigText"
+  }, {
+    "id" : "finalStaticWhereCondition",
+    "column" : "finalStaticWhereCondition",
+    "ar" : "Final Static Where Condition",
+    "en" : "Final Static Where Condition",
+    "type" : "BigText"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "includeDrafts",
+    "column" : "includeDrafts",
+    "ar" : "يشمل المسودات",
+    "en" : "Include Drafts",
+    "type" : "Boolean"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "mainTable",
+    "column" : "mainTable",
+    "ar" : "الجدول الرئيسي",
+    "en" : "Main Table",
+    "type" : "FieldID"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "selectQueryPartPrefix",
+    "column" : "selectQueryPartPrefix",
+    "ar" : "Select Query Part Prefix",
+    "en" : "Select Query Part Prefix",
+    "type" : "BigText"
+  }, {
+    "id" : "sqlQuery",
+    "column" : "sqlQuery",
+    "ar" : "SQL Query",
+    "en" : "SQL Query",
+    "type" : "BigText"
+  }, {
+    "id" : "staticDeclareStatements",
+    "column" : "staticDeclareStatements",
+    "ar" : "Static Declare Statements",
+    "en" : "Static Declare Statements",
+    "type" : "BigText"
+  }, {
+    "id" : "staticHavingCondition",
+    "column" : "staticHavingCondition",
+    "ar" : "Static Having Condition",
+    "en" : "Static Having Condition",
+    "type" : "BigText"
+  }, {
+    "id" : "staticWhereCondition",
+    "column" : "staticWhereCondition",
+    "ar" : "Static Where Condition",
+    "en" : "Static Where Condition",
+    "type" : "BigText"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "tableType",
+    "column" : "tableType",
+    "ar" : "Table Type",
+    "en" : "Table Type",
+    "type" : "Enum",
+    "enum" : "TableType"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usedInPOS",
+    "column" : "usedInPOS",
+    "ar" : "مستخدم لنقاط البيع",
+    "en" : "Used In POS",
+    "type" : "Boolean"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "fields",
+    "table" : "DataSourceFieldLine",
+    "joinColumn" : "dataSource_id",
+    "ar" : "الحقول",
+    "en" : "Fields",
+    "fields" : [ {
+      "id" : "fields.arabicTitle",
+      "column" : "arabicTitle",
+      "ar" : "العنوان بالعربية",
+      "en" : "Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "fields.barcodeType",
+      "column" : "barcodeType",
+      "ar" : "نوع الباركود",
+      "en" : "Barcode Type",
+      "type" : "Enum",
+      "enum" : "BarcodeType"
+    }, {
+      "id" : "fields.conditionalStyleGrid",
+      "column" : "conditionalStyleGrid",
+      "ar" : "رقم جدول التنسيق الشرطي",
+      "en" : "Conditional Style Grid",
+      "type" : "Integer"
+    }, {
+      "id" : "fields.configuration",
+      "column" : "configuration",
+      "ar" : "Configuration",
+      "en" : "Configuration",
+      "type" : "BigText"
+    }, {
+      "id" : "fields.currencyField",
+      "column" : "currencyField",
+      "ar" : "حقل العملة",
+      "en" : "Currency Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "fields.customHyperLinkExpression",
+      "column" : "customHyperLinkExpression",
+      "ar" : "Custom Hyper Link Expression",
+      "en" : "Custom Hyper Link Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "fields.customJasperExpression",
+      "column" : "customJasperExpression",
+      "ar" : "Custom Jasper Expression",
+      "en" : "Custom Jasper Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "fields.customPattern",
+      "column" : "customPattern",
+      "ar" : "Custom Pattern",
+      "en" : "Custom Pattern",
+      "type" : "Text"
+    }, {
+      "id" : "fields.customSqlExpression",
+      "column" : "customSqlExpression",
+      "ar" : "Custom SQL Expression",
+      "en" : "Custom SQL Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "fields.displayAttachmentAsImage",
+      "column" : "displayAttachmentAsImage",
+      "ar" : "إظهار المرفق كصورة في التقرير",
+      "en" : "Display Attachment As Image",
+      "type" : "Boolean"
+    }, {
+      "id" : "fields.displayFieldAs",
+      "column" : "displayFieldAs",
+      "ar" : "إظهار الرقم كـ",
+      "en" : "Display Number As",
+      "type" : "Enum",
+      "enum" : "DisplayNumberAs"
+    }, {
+      "id" : "fields.displayReferenceAs",
+      "column" : "displayReferenceAs",
+      "ar" : "إظهار المرجع كـ",
+      "en" : "Display Reference As",
+      "type" : "Enum",
+      "enum" : "DisplayReferenceAs"
+    }, {
+      "id" : "fields.doNotAddLinkToReferences",
+      "column" : "doNotAddLinkToReferences",
+      "ar" : "عدم إضافة لينك للمرجع",
+      "en" : "Do Not Add Link To References",
+      "type" : "Boolean"
+    }, {
+      "id" : "fields.englishTitle",
+      "column" : "englishTitle",
+      "ar" : "العنوان بالإنجليزية",
+      "en" : "English Title",
+      "type" : "Text"
+    }, {
+      "id" : "fields.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "fields.fieldType",
+      "column" : "fieldType",
+      "ar" : "نوع الحقل",
+      "en" : "Field Type",
+      "type" : "Enum",
+      "enum" : "WizardFieldType"
+    }, {
+      "id" : "fields.fieldWidth",
+      "column" : "fieldWidth",
+      "ar" : "العرض",
+      "en" : "Width",
+      "type" : "Decimal"
+    }, {
+      "id" : "fields.finalHyperLinkExpression",
+      "column" : "finalHyperLinkExpression",
+      "ar" : "Final Hyper Link Expression",
+      "en" : "Final Hyper Link Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "fields.finalJasperExpression",
+      "column" : "finalJasperExpression",
+      "ar" : "Final Jasper Expression",
+      "en" : "Final Jasper Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "fields.finalSqlExpression",
+      "column" : "finalSqlExpression",
+      "ar" : "Final Sql Expression",
+      "en" : "Final Sql Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "fields.hasTotalInSummary",
+      "column" : "hasTotalInSummary",
+      "ar" : "تجميع في الإجماليات",
+      "en" : "Has Total In Summary",
+      "type" : "Boolean"
+    }, {
+      "id" : "fields.hidden",
+      "column" : "hidden",
+      "ar" : "إخفاء",
+      "en" : "Hidden",
+      "type" : "Boolean"
+    }, {
+      "id" : "fields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "fields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "fields.mainFieldId",
+      "column" : "mainFieldId",
+      "ar" : "الحقل الرئيسي (في حالة حقل بديل لحقل)",
+      "en" : "Main Field Id (In Case Alternative Field)",
+      "type" : "Text"
+    }, {
+      "id" : "fields.mergedArabicTitle",
+      "column" : "mergedArabicTitle",
+      "ar" : "Merged Arabic Title",
+      "en" : "Merged Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "fields.mergedEnglishTitle",
+      "column" : "mergedEnglishTitle",
+      "ar" : "Merged English Title",
+      "en" : "Merged English Title",
+      "type" : "Text"
+    }, {
+      "id" : "fields.namaFieldType",
+      "column" : "namaFieldType",
+      "ar" : "Field Type",
+      "en" : "Field Type",
+      "type" : "Text"
+    }, {
+      "id" : "fields.namaId",
+      "column" : "namaId",
+      "ar" : "Nama Id",
+      "en" : "Nama Id",
+      "type" : "Text"
+    }, {
+      "id" : "fields.patternField",
+      "column" : "patternField",
+      "ar" : "Pattern Field",
+      "en" : "Pattern Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "fields.patternType",
+      "column" : "patternType",
+      "ar" : "Pattern Type",
+      "en" : "Pattern Type",
+      "type" : "Enum",
+      "enum" : "PatternType"
+    }, {
+      "id" : "fields.referenceOrderBy",
+      "column" : "referenceOrderBy",
+      "ar" : "ترتيب المرجع بـ",
+      "en" : "Reference Order By",
+      "type" : "Enum",
+      "enum" : "ReferenceOrderBy"
+    }, {
+      "id" : "fields.showRunningTotalInsteadOfValue",
+      "column" : "showRunningTotalInsteadOfValue",
+      "ar" : "إظهار الإجمالي الحالي في التفاصيل بدلا من القيمة",
+      "en" : "Show Running Total Instead Of Value",
+      "type" : "Enum",
+      "enum" : "ShowRunningTotalInsteadOfValue"
+    }, {
+      "id" : "fields.showTotalInGroup1Section",
+      "column" : "showTotalInGroup1Section",
+      "ar" : "Show Total In Group 1 Section",
+      "en" : "Show Total In Group 1 Section",
+      "type" : "Enum",
+      "enum" : "GroupSection"
+    }, {
+      "id" : "fields.showTotalInGroup2Section",
+      "column" : "showTotalInGroup2Section",
+      "ar" : "Show Total In Group 2 Section",
+      "en" : "Show Total In Group 2 Section",
+      "type" : "Enum",
+      "enum" : "GroupSection"
+    }, {
+      "id" : "fields.showTotalInGroup3Section",
+      "column" : "showTotalInGroup3Section",
+      "ar" : "Show Total In Group 3 Section",
+      "en" : "Show Total In Group 3 Section",
+      "type" : "Enum",
+      "enum" : "GroupSection"
+    }, {
+      "id" : "fields.showTotalInGroup4Section",
+      "column" : "showTotalInGroup4Section",
+      "ar" : "Show Total In Group 4 Section",
+      "en" : "Show Total In Group 4 Section",
+      "type" : "Enum",
+      "enum" : "GroupSection"
+    }, {
+      "id" : "fields.showTotalInGroup5Section",
+      "column" : "showTotalInGroup5Section",
+      "ar" : "Show Total In Group 5 Section",
+      "en" : "Show Total In Group 5 Section",
+      "type" : "Enum",
+      "enum" : "GroupSection"
+    }, {
+      "id" : "fields.sqlAggregationType",
+      "column" : "sqlAggregationType",
+      "ar" : "SQL Aggregation Type",
+      "en" : "SQL Aggregation Type",
+      "type" : "Enum",
+      "enum" : "SqlAggregationType"
+    }, {
+      "id" : "fields.sqlColumns",
+      "column" : "sqlColumns",
+      "type" : "Text"
+    }, {
+      "id" : "fields.style",
+      "column" : "style_id",
+      "ar" : "Style",
+      "en" : "Style",
+      "type" : "Reference",
+      "refTo" : "ReportStyle",
+      "refPath" : "/modules/basic/ReportStyle.html"
+    }, {
+      "id" : "fields.summaryConditionalStyleGrid",
+      "column" : "summaryConditionalStyleGrid",
+      "ar" : "رقم جدول التنسيق الشرطي للإجماليات",
+      "en" : "Summary Conditional Style Grid",
+      "type" : "Integer"
+    }, {
+      "id" : "fields.summaryStyle",
+      "column" : "summaryStyle_id",
+      "ar" : "Summary Style",
+      "en" : "Summary Style",
+      "type" : "Reference",
+      "refTo" : "ReportStyle",
+      "refPath" : "/modules/basic/ReportStyle.html"
+    }, {
+      "id" : "fields.totalPosition",
+      "column" : "totalPosition",
+      "ar" : "Total Position",
+      "en" : "Total Position",
+      "type" : "Enum",
+      "enum" : "TotalPosition"
+    }, {
+      "id" : "fields.type",
+      "column" : "type",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Enum",
+      "enum" : "WizardFieldType"
+    }, {
+      "id" : "fields.unionHandling",
+      "column" : "unionHandling",
+      "ar" : "Union Handling",
+      "en" : "Union Handling",
+      "type" : "BigText"
+    }, {
+      "id" : "fields.useUOMParameterForQtyConversion",
+      "column" : "useUOMParameterForQtyConversion",
+      "ar" : "استعمال مدخل الوحدة لتحويل الكمية",
+      "en" : "Use UOM Parameter for Qty Conversion",
+      "type" : "Boolean"
+    }, {
+      "id" : "fields.userAlias",
+      "column" : "userAlias",
+      "ar" : "User Alias",
+      "en" : "User Alias",
+      "type" : "Text"
+    }, {
+      "id" : "fields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Enum",
+      "enum" : "GridSizeEnum"
+    } ]
+  }, {
+    "id" : "parameters",
+    "table" : "DataSourceParameterLine",
+    "joinColumn" : "dataSource_id",
+    "ar" : "المدخلات",
+    "en" : "Parameters",
+    "fields" : [ {
+      "id" : "parameters.allowedValues",
+      "column" : "allowedValues",
+      "ar" : "القيم المسموح بها",
+      "en" : "Allowed Values",
+      "type" : "BigText"
+    }, {
+      "id" : "parameters.allowedValuesAr",
+      "column" : "allowedValuesAr",
+      "ar" : "Arabic Allowed Values",
+      "en" : "Arabic Allowed Values",
+      "type" : "BigText"
+    }, {
+      "id" : "parameters.allowedValuesEn",
+      "column" : "allowedValuesEn",
+      "ar" : "English Allowed Values",
+      "en" : "English Allowed Values",
+      "type" : "BigText"
+    }, {
+      "id" : "parameters.arabicTitle",
+      "column" : "arabicTitle",
+      "ar" : "العنوان بالعربية",
+      "en" : "Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "parameters.barcodeType",
+      "column" : "barcodeType",
+      "ar" : "نوع الباركود",
+      "en" : "Barcode Type",
+      "type" : "Enum",
+      "enum" : "BarcodeType"
+    }, {
+      "id" : "parameters.conditionalStyleGrid",
+      "column" : "conditionalStyleGrid",
+      "ar" : "رقم جدول التنسيق الشرطي",
+      "en" : "Conditional Style Grid",
+      "type" : "Integer"
+    }, {
+      "id" : "parameters.configuration",
+      "column" : "configuration",
+      "ar" : "Configuration",
+      "en" : "Configuration",
+      "type" : "BigText"
+    }, {
+      "id" : "parameters.currencyField",
+      "column" : "currencyField",
+      "ar" : "حقل العملة",
+      "en" : "Currency Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "parameters.customHyperLinkExpression",
+      "column" : "customHyperLinkExpression",
+      "ar" : "Custom Hyper Link Expression",
+      "en" : "Custom Hyper Link Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "parameters.customJasperExpression",
+      "column" : "customJasperExpression",
+      "ar" : "Custom Jasper Expression",
+      "en" : "Custom Jasper Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "parameters.customPattern",
+      "column" : "customPattern",
+      "ar" : "Custom Pattern",
+      "en" : "Custom Pattern",
+      "type" : "Text"
+    }, {
+      "id" : "parameters.customSqlExpression",
+      "column" : "customSqlExpression",
+      "ar" : "Custom SQL Expression",
+      "en" : "Custom SQL Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "parameters.defaultValue",
+      "column" : "defaultValue",
+      "ar" : "القيمة الافتراضية",
+      "en" : "Default Value",
+      "type" : "Text"
+    }, {
+      "id" : "parameters.defaultValueDate",
+      "column" : "defaultValueDate",
+      "ar" : "القيمة الافتراضية لحقل التاريخ",
+      "en" : "Date Default Value",
+      "type" : "Date"
+    }, {
+      "id" : "parameters.defaultValueDateTime",
+      "column" : "defaultValueDateTime",
+      "ar" : "القيمة الافتراضية لحقل التاريخ والوقت",
+      "en" : "Date And Time Default Value",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "parameters.defaultValueDateTimeWithBetween",
+      "column" : "defaultValueDateTimeWithBetween",
+      "ar" : "القيمة الافتراضية لحقل التاريخ والوقت (تعمل مع Between)",
+      "en" : "Date And Time Default Value (works with Between)",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "parameters.defaultValueDateWithBetween",
+      "column" : "defaultValueDateWithBetween",
+      "ar" : "القيمة الافتراضية لحقل التاريخ (تعمل مع Between)",
+      "en" : "Date Default Value (works with Between)",
+      "type" : "Date"
+    }, {
+      "id" : "parameters.defaultValueTime",
+      "column" : "defaultValueTime",
+      "ar" : "القيمة الافتراضية لحقل الوقت",
+      "en" : "Time Default Value",
+      "type" : "Time"
+    }, {
+      "id" : "parameters.defaultValueTimeWithBetween",
+      "column" : "defaultValueTimeWithBetween",
+      "ar" : "القيمة الافتراضية لحقل الوقت (تعمل مع Between)",
+      "en" : "Time Default Value (works with Between)",
+      "type" : "Time"
+    }, {
+      "id" : "parameters.defaultValueWithBetween",
+      "column" : "defaultValueWithBetween",
+      "ar" : "القيمة الافتراضية (تعمل مع Between)",
+      "en" : "Default Value (works with Between)",
+      "type" : "Text"
+    }, {
+      "id" : "parameters.displayAttachmentAsImage",
+      "column" : "displayAttachmentAsImage",
+      "ar" : "إظهار المرفق كصورة في التقرير",
+      "en" : "Display Attachment As Image",
+      "type" : "Boolean"
+    }, {
+      "id" : "parameters.displayFieldAs",
+      "column" : "displayFieldAs",
+      "ar" : "إظهار الرقم كـ",
+      "en" : "Display Number As",
+      "type" : "Enum",
+      "enum" : "DisplayNumberAs"
+    }, {
+      "id" : "parameters.displayReferenceAs",
+      "column" : "displayReferenceAs",
+      "ar" : "إظهار المرجع كـ",
+      "en" : "Display Reference As",
+      "type" : "Enum",
+      "enum" : "DisplayReferenceAs"
+    }, {
+      "id" : "parameters.doNotAddLinkToReferences",
+      "column" : "doNotAddLinkToReferences",
+      "ar" : "عدم إضافة لينك للمرجع",
+      "en" : "Do Not Add Link To References",
+      "type" : "Boolean"
+    }, {
+      "id" : "parameters.englishTitle",
+      "column" : "englishTitle",
+      "ar" : "العنوان بالإنجليزية",
+      "en" : "English Title",
+      "type" : "Text"
+    }, {
+      "id" : "parameters.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "parameters.fieldWidth",
+      "column" : "fieldWidth",
+      "ar" : "العرض",
+      "en" : "Width",
+      "type" : "Decimal"
+    }, {
+      "id" : "parameters.filter",
+      "column" : "filter",
+      "ar" : "Filter",
+      "en" : "Filter",
+      "type" : "BigText"
+    }, {
+      "id" : "parameters.filterType",
+      "column" : "filterType",
+      "ar" : "نوع الفلتر",
+      "en" : "Filter Type",
+      "type" : "Enum",
+      "enum" : "FilterType"
+    }, {
+      "id" : "parameters.finalHyperLinkExpression",
+      "column" : "finalHyperLinkExpression",
+      "ar" : "Final Hyper Link Expression",
+      "en" : "Final Hyper Link Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "parameters.finalJasperExpression",
+      "column" : "finalJasperExpression",
+      "ar" : "Final Jasper Expression",
+      "en" : "Final Jasper Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "parameters.finalSqlExpression",
+      "column" : "finalSqlExpression",
+      "ar" : "Final Sql Expression",
+      "en" : "Final Sql Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "parameters.generatedParameterName",
+      "column" : "generatedParameterName",
+      "ar" : "Generated Parameter Name",
+      "en" : "Generated Parameter Name",
+      "type" : "Text"
+    }, {
+      "id" : "parameters.hasTotalInSummary",
+      "column" : "hasTotalInSummary",
+      "ar" : "تجميع في الإجماليات",
+      "en" : "Has Total In Summary",
+      "type" : "Boolean"
+    }, {
+      "id" : "parameters.hidden",
+      "column" : "hidden",
+      "ar" : "إخفاء",
+      "en" : "Hidden",
+      "type" : "Boolean"
+    }, {
+      "id" : "parameters.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "parameters.layout",
+      "column" : "layout",
+      "ar" : "طريقة العرض",
+      "en" : "Layout",
+      "type" : "Enum",
+      "enum" : "FieldLayout"
+    }, {
+      "id" : "parameters.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "parameters.listDisplayType",
+      "column" : "listDisplayType",
+      "ar" : "نوع عرض القائمة",
+      "en" : "List Display Type",
+      "type" : "Enum",
+      "enum" : "ListDisplayType"
+    }, {
+      "id" : "parameters.mainFieldId",
+      "column" : "mainFieldId",
+      "ar" : "الحقل الرئيسي (في حالة حقل بديل لحقل)",
+      "en" : "Main Field Id (In Case Alternative Field)",
+      "type" : "Text"
+    }, {
+      "id" : "parameters.mergedArabicTitle",
+      "column" : "mergedArabicTitle",
+      "ar" : "Merged Arabic Title",
+      "en" : "Merged Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "parameters.mergedEnglishTitle",
+      "column" : "mergedEnglishTitle",
+      "ar" : "Merged English Title",
+      "en" : "Merged English Title",
+      "type" : "Text"
+    }, {
+      "id" : "parameters.namaFieldType",
+      "column" : "namaFieldType",
+      "ar" : "Field Type",
+      "en" : "Field Type",
+      "type" : "Text"
+    }, {
+      "id" : "parameters.namaId",
+      "column" : "namaId",
+      "ar" : "Nama Id",
+      "en" : "Nama Id",
+      "type" : "Text"
+    }, {
+      "id" : "parameters.paramType",
+      "column" : "paramType",
+      "ar" : "النوع",
+      "en" : "Param Type",
+      "type" : "Enum",
+      "enum" : "ParamFieldType"
+    }, {
+      "id" : "parameters.parameterType",
+      "column" : "parameterType",
+      "ar" : "نوع المدخل",
+      "en" : "Parameter Type",
+      "type" : "Enum",
+      "enum" : "ParameterType"
+    }, {
+      "id" : "parameters.patternField",
+      "column" : "patternField",
+      "ar" : "Pattern Field",
+      "en" : "Pattern Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "parameters.patternType",
+      "column" : "patternType",
+      "ar" : "Pattern Type",
+      "en" : "Pattern Type",
+      "type" : "Enum",
+      "enum" : "PatternType"
+    }, {
+      "id" : "parameters.refDefaultValue",
+      "columns" : [ "refDefaultValueActualCode", " refDefaultValueCode", " refDefaultValueEntityType", " refDefaultValueId" ],
+      "ar" : "القيمة الافتراضية لحقل المرجع",
+      "en" : "Reference Default Value",
+      "type" : "Genericreference"
+    }, {
+      "id" : "parameters.refDefaultValueWithBetween",
+      "columns" : [ "refDefaultValueWithBetweenActualCode", " refDefaultValueWithBetweenCode", " refDefaultValueWithBetweenEntityType", " refDefaultValueWithBetweenId" ],
+      "ar" : "القيمة الافتراضية لحقل المرجع (تعمل مع Between)",
+      "en" : "Reference Default Value (works with Between)",
+      "type" : "Genericreference"
+    }, {
+      "id" : "parameters.refEntityType",
+      "column" : "refEntityType",
+      "ar" : "نوع المرجع",
+      "en" : "Reference Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "parameters.referenceOrderBy",
+      "column" : "referenceOrderBy",
+      "ar" : "ترتيب المرجع بـ",
+      "en" : "Reference Order By",
+      "type" : "Enum",
+      "enum" : "ReferenceOrderBy"
+    }, {
+      "id" : "parameters.required",
+      "column" : "required",
+      "ar" : "إجبارى",
+      "en" : "Required",
+      "type" : "Boolean"
+    }, {
+      "id" : "parameters.requiredGroup",
+      "column" : "requiredGroup",
+      "ar" : "Required Group",
+      "en" : "Required Group",
+      "type" : "Text"
+    }, {
+      "id" : "parameters.showAsDateRange",
+      "column" : "showAsDateRange",
+      "ar" : "عرض كنطاق تاريخ",
+      "en" : "Show as Date Range",
+      "type" : "Boolean"
+    }, {
+      "id" : "parameters.showInsideReport",
+      "column" : "showInsideReport",
+      "ar" : "إظهار بداخل التقرير",
+      "en" : "Show Inside Report",
+      "type" : "Boolean"
+    }, {
+      "id" : "parameters.showRunningTotalInsteadOfValue",
+      "column" : "showRunningTotalInsteadOfValue",
+      "ar" : "إظهار الإجمالي الحالي في التفاصيل بدلا من القيمة",
+      "en" : "Show Running Total Instead Of Value",
+      "type" : "Enum",
+      "enum" : "ShowRunningTotalInsteadOfValue"
+    }, {
+      "id" : "parameters.showTotalInGroup1Section",
+      "column" : "showTotalInGroup1Section",
+      "ar" : "Show Total In Group 1 Section",
+      "en" : "Show Total In Group 1 Section",
+      "type" : "Enum",
+      "enum" : "GroupSection"
+    }, {
+      "id" : "parameters.showTotalInGroup2Section",
+      "column" : "showTotalInGroup2Section",
+      "ar" : "Show Total In Group 2 Section",
+      "en" : "Show Total In Group 2 Section",
+      "type" : "Enum",
+      "enum" : "GroupSection"
+    }, {
+      "id" : "parameters.showTotalInGroup3Section",
+      "column" : "showTotalInGroup3Section",
+      "ar" : "Show Total In Group 3 Section",
+      "en" : "Show Total In Group 3 Section",
+      "type" : "Enum",
+      "enum" : "GroupSection"
+    }, {
+      "id" : "parameters.showTotalInGroup4Section",
+      "column" : "showTotalInGroup4Section",
+      "ar" : "Show Total In Group 4 Section",
+      "en" : "Show Total In Group 4 Section",
+      "type" : "Enum",
+      "enum" : "GroupSection"
+    }, {
+      "id" : "parameters.showTotalInGroup5Section",
+      "column" : "showTotalInGroup5Section",
+      "ar" : "Show Total In Group 5 Section",
+      "en" : "Show Total In Group 5 Section",
+      "type" : "Enum",
+      "enum" : "GroupSection"
+    }, {
+      "id" : "parameters.sourceParameter",
+      "column" : "sourceParameter",
+      "ar" : "Source Parameter",
+      "en" : "Source Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "parameters.sourceProperty",
+      "column" : "sourceProperty",
+      "ar" : "Source Property",
+      "en" : "Source Property",
+      "type" : "FieldID"
+    }, {
+      "id" : "parameters.sqlAggregationType",
+      "column" : "sqlAggregationType",
+      "ar" : "SQL Aggregation Type",
+      "en" : "SQL Aggregation Type",
+      "type" : "Enum",
+      "enum" : "SqlAggregationType"
+    }, {
+      "id" : "parameters.sqlColumns",
+      "column" : "sqlColumns",
+      "type" : "Text"
+    }, {
+      "id" : "parameters.style",
+      "column" : "style_id",
+      "ar" : "Style",
+      "en" : "Style",
+      "type" : "Reference",
+      "refTo" : "ReportStyle",
+      "refPath" : "/modules/basic/ReportStyle.html"
+    }, {
+      "id" : "parameters.summaryConditionalStyleGrid",
+      "column" : "summaryConditionalStyleGrid",
+      "ar" : "رقم جدول التنسيق الشرطي للإجماليات",
+      "en" : "Summary Conditional Style Grid",
+      "type" : "Integer"
+    }, {
+      "id" : "parameters.summaryStyle",
+      "column" : "summaryStyle_id",
+      "ar" : "Summary Style",
+      "en" : "Summary Style",
+      "type" : "Reference",
+      "refTo" : "ReportStyle",
+      "refPath" : "/modules/basic/ReportStyle.html"
+    }, {
+      "id" : "parameters.totalPosition",
+      "column" : "totalPosition",
+      "ar" : "Total Position",
+      "en" : "Total Position",
+      "type" : "Enum",
+      "enum" : "TotalPosition"
+    }, {
+      "id" : "parameters.type",
+      "column" : "type",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Enum",
+      "enum" : "WizardFieldType"
+    }, {
+      "id" : "parameters.unionHandling",
+      "column" : "unionHandling",
+      "ar" : "Union Handling",
+      "en" : "Union Handling",
+      "type" : "BigText"
+    }, {
+      "id" : "parameters.useUOMParameterForQtyConversion",
+      "column" : "useUOMParameterForQtyConversion",
+      "ar" : "استعمال مدخل الوحدة لتحويل الكمية",
+      "en" : "Use UOM Parameter for Qty Conversion",
+      "type" : "Boolean"
+    }, {
+      "id" : "parameters.userAlias",
+      "column" : "userAlias",
+      "ar" : "User Alias (In Case SQL Expression)",
+      "en" : "User Alias (In Case SQL Expression)",
+      "type" : "Text"
+    }, {
+      "id" : "parameters.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Enum",
+      "enum" : "GridSizeEnum"
+    } ]
+  }, {
+    "id" : "securityConstraints",
+    "table" : "DataSourceSecurityConstraints",
+    "joinColumn" : "dataSource_id",
+    "ar" : "Security Constraints",
+    "en" : "Security Constraints",
+    "fields" : [ {
+      "id" : "securityConstraints.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "securityConstraints.firstAuthor",
+      "column" : "firstAuthor",
+      "ar" : "منشئ السجل",
+      "en" : "First Author",
+      "type" : "Boolean"
+    }, {
+      "id" : "securityConstraints.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "securityConstraints.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "securityConstraints.loginAnalysisSet",
+      "column" : "loginAnalysisSet",
+      "ar" : "المجموعة التحليلية للدخول",
+      "en" : "Login Analysis Set",
+      "type" : "Boolean"
+    }, {
+      "id" : "securityConstraints.loginBranch",
+      "column" : "loginBranch",
+      "ar" : "فرع الدخول",
+      "en" : "Login Branch",
+      "type" : "Boolean"
+    }, {
+      "id" : "securityConstraints.loginDepartment",
+      "column" : "loginDepartment",
+      "ar" : "قسم الدخول",
+      "en" : "Login Department",
+      "type" : "Boolean"
+    }, {
+      "id" : "securityConstraints.loginEmployee",
+      "column" : "loginEmployee",
+      "ar" : "Login Employee",
+      "en" : "Login Employee",
+      "type" : "Boolean"
+    }, {
+      "id" : "securityConstraints.loginLegalEntity",
+      "column" : "loginLegalEntity",
+      "ar" : "شركة الدخول",
+      "en" : "Login Legal Entity",
+      "type" : "Boolean"
+    }, {
+      "id" : "securityConstraints.loginSector",
+      "column" : "loginSector",
+      "ar" : "قطاع الدخول",
+      "en" : "Login Sector",
+      "type" : "Boolean"
+    }, {
+      "id" : "securityConstraints.updateCapability",
+      "column" : "updateCapability",
+      "ar" : "صلاحية التعديل",
+      "en" : "Update Capability",
+      "type" : "Boolean"
+    }, {
+      "id" : "securityConstraints.usageCapability",
+      "column" : "usageCapability",
+      "ar" : "صلاحية الاستخدام",
+      "en" : "Usage Capability",
+      "type" : "Boolean"
+    }, {
+      "id" : "securityConstraints.viewCapability",
+      "column" : "viewCapability",
+      "ar" : "صلاحية المطالعة",
+      "en" : "View Capability",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "sortFields",
+    "table" : "DataSourceSortFieldLine",
+    "joinColumn" : "dataSource_id",
+    "ar" : "حقول الترتيب",
+    "en" : "Sort Fields",
+    "fields" : [ {
+      "id" : "sortFields.arabicTitle",
+      "column" : "arabicTitle",
+      "ar" : "العنوان بالعربية",
+      "en" : "Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "sortFields.barcodeType",
+      "column" : "barcodeType",
+      "ar" : "نوع الباركود",
+      "en" : "Barcode Type",
+      "type" : "Enum",
+      "enum" : "BarcodeType"
+    }, {
+      "id" : "sortFields.conditionalStyleGrid",
+      "column" : "conditionalStyleGrid",
+      "ar" : "رقم جدول التنسيق الشرطي",
+      "en" : "Conditional Style Grid",
+      "type" : "Integer"
+    }, {
+      "id" : "sortFields.configuration",
+      "column" : "configuration",
+      "ar" : "Configuration",
+      "en" : "Configuration",
+      "type" : "BigText"
+    }, {
+      "id" : "sortFields.currencyField",
+      "column" : "currencyField",
+      "ar" : "حقل العملة",
+      "en" : "Currency Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "sortFields.customHyperLinkExpression",
+      "column" : "customHyperLinkExpression",
+      "ar" : "Custom Hyper Link Expression",
+      "en" : "Custom Hyper Link Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "sortFields.customJasperExpression",
+      "column" : "customJasperExpression",
+      "ar" : "Custom Jasper Expression",
+      "en" : "Custom Jasper Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "sortFields.customPattern",
+      "column" : "customPattern",
+      "ar" : "Custom Pattern",
+      "en" : "Custom Pattern",
+      "type" : "Text"
+    }, {
+      "id" : "sortFields.customSqlExpression",
+      "column" : "customSqlExpression",
+      "ar" : "Custom SQL Expression",
+      "en" : "Custom SQL Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "sortFields.displayAttachmentAsImage",
+      "column" : "displayAttachmentAsImage",
+      "ar" : "إظهار المرفق كصورة في التقرير",
+      "en" : "Display Attachment As Image",
+      "type" : "Boolean"
+    }, {
+      "id" : "sortFields.displayFieldAs",
+      "column" : "displayFieldAs",
+      "ar" : "إظهار الرقم كـ",
+      "en" : "Display Number As",
+      "type" : "Enum",
+      "enum" : "DisplayNumberAs"
+    }, {
+      "id" : "sortFields.displayReferenceAs",
+      "column" : "displayReferenceAs",
+      "ar" : "إظهار المرجع كـ",
+      "en" : "Display Reference As",
+      "type" : "Enum",
+      "enum" : "DisplayReferenceAs"
+    }, {
+      "id" : "sortFields.doNotAddLinkToReferences",
+      "column" : "doNotAddLinkToReferences",
+      "ar" : "عدم إضافة لينك للمرجع",
+      "en" : "Do Not Add Link To References",
+      "type" : "Boolean"
+    }, {
+      "id" : "sortFields.englishTitle",
+      "column" : "englishTitle",
+      "ar" : "العنوان بالإنجليزية",
+      "en" : "English Title",
+      "type" : "Text"
+    }, {
+      "id" : "sortFields.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "sortFields.fieldWidth",
+      "column" : "fieldWidth",
+      "ar" : "العرض",
+      "en" : "Width",
+      "type" : "Decimal"
+    }, {
+      "id" : "sortFields.finalHyperLinkExpression",
+      "column" : "finalHyperLinkExpression",
+      "ar" : "Final Hyper Link Expression",
+      "en" : "Final Hyper Link Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "sortFields.finalJasperExpression",
+      "column" : "finalJasperExpression",
+      "ar" : "Final Jasper Expression",
+      "en" : "Final Jasper Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "sortFields.finalSqlExpression",
+      "column" : "finalSqlExpression",
+      "ar" : "Final Sql Expression",
+      "en" : "Final Sql Expression",
+      "type" : "BigText"
+    }, {
+      "id" : "sortFields.hasTotalInSummary",
+      "column" : "hasTotalInSummary",
+      "ar" : "تجميع في الإجماليات",
+      "en" : "Has Total In Summary",
+      "type" : "Boolean"
+    }, {
+      "id" : "sortFields.hidden",
+      "column" : "hidden",
+      "ar" : "إخفاء",
+      "en" : "Hidden",
+      "type" : "Boolean"
+    }, {
+      "id" : "sortFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "sortFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "sortFields.mainFieldId",
+      "column" : "mainFieldId",
+      "ar" : "الحقل الرئيسي (في حالة حقل بديل لحقل)",
+      "en" : "Main Field Id (In Case Alternative Field)",
+      "type" : "Text"
+    }, {
+      "id" : "sortFields.mergedArabicTitle",
+      "column" : "mergedArabicTitle",
+      "ar" : "Merged Arabic Title",
+      "en" : "Merged Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "sortFields.mergedEnglishTitle",
+      "column" : "mergedEnglishTitle",
+      "ar" : "Merged English Title",
+      "en" : "Merged English Title",
+      "type" : "Text"
+    }, {
+      "id" : "sortFields.namaFieldType",
+      "column" : "namaFieldType",
+      "ar" : "Field Type",
+      "en" : "Field Type",
+      "type" : "Text"
+    }, {
+      "id" : "sortFields.namaId",
+      "column" : "namaId",
+      "ar" : "Nama Id",
+      "en" : "Nama Id",
+      "type" : "Text"
+    }, {
+      "id" : "sortFields.patternField",
+      "column" : "patternField",
+      "ar" : "Pattern Field",
+      "en" : "Pattern Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "sortFields.patternType",
+      "column" : "patternType",
+      "ar" : "Pattern Type",
+      "en" : "Pattern Type",
+      "type" : "Enum",
+      "enum" : "PatternType"
+    }, {
+      "id" : "sortFields.referenceOrderBy",
+      "column" : "referenceOrderBy",
+      "ar" : "ترتيب المرجع بـ",
+      "en" : "Reference Order By",
+      "type" : "Enum",
+      "enum" : "ReferenceOrderBy"
+    }, {
+      "id" : "sortFields.showRunningTotalInsteadOfValue",
+      "column" : "showRunningTotalInsteadOfValue",
+      "ar" : "إظهار الإجمالي الحالي في التفاصيل بدلا من القيمة",
+      "en" : "Show Running Total Instead Of Value",
+      "type" : "Enum",
+      "enum" : "ShowRunningTotalInsteadOfValue"
+    }, {
+      "id" : "sortFields.showTotalInGroup1Section",
+      "column" : "showTotalInGroup1Section",
+      "ar" : "Show Total In Group 1 Section",
+      "en" : "Show Total In Group 1 Section",
+      "type" : "Enum",
+      "enum" : "GroupSection"
+    }, {
+      "id" : "sortFields.showTotalInGroup2Section",
+      "column" : "showTotalInGroup2Section",
+      "ar" : "Show Total In Group 2 Section",
+      "en" : "Show Total In Group 2 Section",
+      "type" : "Enum",
+      "enum" : "GroupSection"
+    }, {
+      "id" : "sortFields.showTotalInGroup3Section",
+      "column" : "showTotalInGroup3Section",
+      "ar" : "Show Total In Group 3 Section",
+      "en" : "Show Total In Group 3 Section",
+      "type" : "Enum",
+      "enum" : "GroupSection"
+    }, {
+      "id" : "sortFields.showTotalInGroup4Section",
+      "column" : "showTotalInGroup4Section",
+      "ar" : "Show Total In Group 4 Section",
+      "en" : "Show Total In Group 4 Section",
+      "type" : "Enum",
+      "enum" : "GroupSection"
+    }, {
+      "id" : "sortFields.showTotalInGroup5Section",
+      "column" : "showTotalInGroup5Section",
+      "ar" : "Show Total In Group 5 Section",
+      "en" : "Show Total In Group 5 Section",
+      "type" : "Enum",
+      "enum" : "GroupSection"
+    }, {
+      "id" : "sortFields.sortDirection",
+      "column" : "sortDirection",
+      "ar" : "اتجاه الترتيب",
+      "en" : "Sort Direction",
+      "type" : "Enum",
+      "enum" : "SortDirection"
+    }, {
+      "id" : "sortFields.sqlAggregationType",
+      "column" : "sqlAggregationType",
+      "ar" : "SQL Aggregation Type",
+      "en" : "SQL Aggregation Type",
+      "type" : "Enum",
+      "enum" : "SqlAggregationType"
+    }, {
+      "id" : "sortFields.sqlColumns",
+      "column" : "sqlColumns",
+      "type" : "Text"
+    }, {
+      "id" : "sortFields.style",
+      "column" : "style_id",
+      "ar" : "Style",
+      "en" : "Style",
+      "type" : "Reference",
+      "refTo" : "ReportStyle",
+      "refPath" : "/modules/basic/ReportStyle.html"
+    }, {
+      "id" : "sortFields.summaryConditionalStyleGrid",
+      "column" : "summaryConditionalStyleGrid",
+      "ar" : "رقم جدول التنسيق الشرطي للإجماليات",
+      "en" : "Summary Conditional Style Grid",
+      "type" : "Integer"
+    }, {
+      "id" : "sortFields.summaryStyle",
+      "column" : "summaryStyle_id",
+      "ar" : "Summary Style",
+      "en" : "Summary Style",
+      "type" : "Reference",
+      "refTo" : "ReportStyle",
+      "refPath" : "/modules/basic/ReportStyle.html"
+    }, {
+      "id" : "sortFields.totalPosition",
+      "column" : "totalPosition",
+      "ar" : "Total Position",
+      "en" : "Total Position",
+      "type" : "Enum",
+      "enum" : "TotalPosition"
+    }, {
+      "id" : "sortFields.type",
+      "column" : "type",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Enum",
+      "enum" : "WizardFieldType"
+    }, {
+      "id" : "sortFields.unionHandling",
+      "column" : "unionHandling",
+      "ar" : "Union Handling",
+      "en" : "Union Handling",
+      "type" : "BigText"
+    }, {
+      "id" : "sortFields.useUOMParameterForQtyConversion",
+      "column" : "useUOMParameterForQtyConversion",
+      "ar" : "استعمال مدخل الوحدة لتحويل الكمية",
+      "en" : "Use UOM Parameter for Qty Conversion",
+      "type" : "Boolean"
+    }, {
+      "id" : "sortFields.usedAsDefaultValueToParameterNumber",
+      "column" : "usedAsDefaultValueToParameterNumber",
+      "ar" : "يستعمل كقيمة افتراضية للمدخل رقم",
+      "en" : "Used As Default Value To Parameter Number",
+      "type" : "Integer"
+    }, {
+      "id" : "sortFields.userAlias",
+      "column" : "userAlias",
+      "ar" : "User Alias",
+      "en" : "User Alias",
+      "type" : "Text"
+    }, {
+      "id" : "sortFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Enum",
+      "enum" : "GridSizeEnum"
+    } ]
+  }, {
+    "id" : "unionTables",
+    "table" : "DataSourceUnionTablesLine",
+    "joinColumn" : "dataSource_id",
+    "ar" : "Union Tables",
+    "en" : "Union Tables",
+    "fields" : [ {
+      "id" : "unionTables.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "unionTables.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "unionTables.unionTable",
+      "column" : "unionTable",
+      "ar" : "Union Table",
+      "en" : "Union Table",
+      "type" : "FieldID"
+    } ]
+  }, {
+    "id" : "userAliases",
+    "table" : "DataSourceUserAliasesLine",
+    "joinColumn" : "dataSource_id",
+    "ar" : "User Aliases",
+    "en" : "User Aliases",
+    "fields" : [ {
+      "id" : "userAliases.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "userAliases.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "userAliases.propertyName",
+      "column" : "propertyName",
+      "ar" : "Property Name",
+      "en" : "Property Name",
+      "type" : "Text"
+    }, {
+      "id" : "userAliases.systemAlias",
+      "column" : "systemAlias",
+      "ar" : "System Alias",
+      "en" : "System Alias",
+      "type" : "Text"
+    }, {
+      "id" : "userAliases.tableName",
+      "column" : "tableName",
+      "ar" : "Table Name",
+      "en" : "Table Name",
+      "type" : "Text"
+    }, {
+      "id" : "userAliases.userAlias",
+      "column" : "userAlias",
+      "ar" : "User Alias",
+      "en" : "User Alias",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "whereLines",
+    "table" : "DataSourceWhereLine",
+    "joinColumn" : "dataSource_id",
+    "ar" : "Where Lines",
+    "en" : "Where Lines",
+    "fields" : [ {
+      "id" : "whereLines.doNotQuote",
+      "column" : "doNotQuote",
+      "ar" : "Do Not Quote",
+      "en" : "Do Not Quote",
+      "type" : "Boolean"
+    }, {
+      "id" : "whereLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "whereLines.lhsFieldId",
+      "column" : "lhsFieldId",
+      "ar" : "LHS Field Id",
+      "en" : "LHS Field Id",
+      "type" : "FieldID"
+    }, {
+      "id" : "whereLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "whereLines.operator",
+      "column" : "operator",
+      "ar" : "المعامل",
+      "en" : "Operator",
+      "type" : "Enum",
+      "enum" : "FilterType"
+    }, {
+      "id" : "whereLines.rhsDefaultValueDate",
+      "column" : "rhsDefaultValueDate",
+      "ar" : "RHS Default Value Date",
+      "en" : "RHS Default Value Date",
+      "type" : "Date"
+    }, {
+      "id" : "whereLines.rhsDefaultValueDateTime",
+      "column" : "rhsDefaultValueDateTime",
+      "ar" : "RHS Default Value Date Time",
+      "en" : "RHS Default Value Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "whereLines.rhsDefaultValueDateTimeWithBetween",
+      "column" : "rhsDefaultValueDateTimeWithBetween",
+      "ar" : "RHS Default Value Date Time (Works with Between)",
+      "en" : "RHS Default Value Date Time (Works with Between)",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "whereLines.rhsDefaultValueDateWithBetween",
+      "column" : "rhsDefaultValueDateWithBetween",
+      "ar" : "RHS Default Value Date (Works with Between)",
+      "en" : "RHS Default Value Date (Works with Between)",
+      "type" : "Date"
+    }, {
+      "id" : "whereLines.rhsDefaultValueTime",
+      "column" : "rhsDefaultValueTime",
+      "ar" : "RHS Default Value Time",
+      "en" : "RHS Default Value Time",
+      "type" : "Time"
+    }, {
+      "id" : "whereLines.rhsDefaultValueTimeWithBetween",
+      "column" : "rhsDefaultValueTimeWithBetween",
+      "ar" : "RHS Default Value Time (Works with Between)",
+      "en" : "RHS Default Value Time (Works with Between)",
+      "type" : "Time"
+    }, {
+      "id" : "whereLines.rhsFieldId",
+      "column" : "rhsFieldId",
+      "ar" : "RHS Field Id",
+      "en" : "RHS Field Id",
+      "type" : "FieldID"
+    }, {
+      "id" : "whereLines.rhsRefDefaultValue",
+      "columns" : [ "rhsRefDefaultValueActualCode", " rhsRefDefaultValueCode", " rhsRefDefaultValueEntityType", " rhsRefDefaultValueId" ],
+      "ar" : "RHS Reference Default Value",
+      "en" : "RHS Reference Default Value",
+      "type" : "Genericreference"
+    }, {
+      "id" : "whereLines.rhsRefDefaultValueWithBetween",
+      "columns" : [ "rhsRefDefaultValueWithBetweenActualCode", " rhsRefDefaultValueWithBetweenCode", " rhsRefDefaultValueWithBetweenEntityType", " rhsRefDefaultValueWithBetweenId" ],
+      "ar" : "RHS Reference Default Value (Works with Between)",
+      "en" : "RHS Reference Default Value (Works with Between)",
+      "type" : "Genericreference"
+    }, {
+      "id" : "whereLines.rhsValue",
+      "column" : "rhsValue",
+      "ar" : "RHS Value",
+      "en" : "RHS Value",
+      "type" : "Text"
+    }, {
+      "id" : "whereLines.rhsValueWithBetween",
+      "column" : "rhsValueWithBetween",
+      "ar" : "RHS Value (Works with Between)",
+      "en" : "RHS Value (Works with Between)",
+      "type" : "Text"
+    }, {
+      "id" : "whereLines.specialValue",
+      "column" : "specialValue",
+      "ar" : "Special Value",
+      "en" : "Special Value",
+      "type" : "Text"
+    } ]
+  } ]
+}

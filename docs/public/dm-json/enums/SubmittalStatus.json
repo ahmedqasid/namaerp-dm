@@ -1,0 +1,20 @@
+{
+  "enum" : "SubmittalStatus",
+  "values" : [ {
+    "id" : "A",
+    "ar" : "A",
+    "en" : "A"
+  }, {
+    "id" : "B",
+    "ar" : "B",
+    "en" : "B"
+  }, {
+    "id" : "C",
+    "ar" : "C",
+    "en" : "C"
+  }, {
+    "id" : "D",
+    "ar" : "D",
+    "en" : "D"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "ResourceType",
+  "values" : [ {
+    "id" : "Machine",
+    "ar" : "ماكينة",
+    "en" : "Machine"
+  }, {
+    "id" : "Human",
+    "ar" : "بشري",
+    "en" : "Human"
+  } ]
+}

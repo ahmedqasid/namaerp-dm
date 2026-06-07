@@ -1,0 +1,87 @@
+{
+  "entity" : "STCLoyaltyPointsRewardEntry",
+  "table" : "STCLoyaltyPointsRewardEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/STCLoyaltyPointsRewardEntry.html",
+  "fields" : [ {
+    "id" : "amount",
+    "column" : "amount",
+    "ar" : " المبلغ",
+    "en" : " Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "config",
+    "column" : "config_id",
+    "type" : "Reference",
+    "refTo" : "RewardPointsConfig",
+    "refPath" : "/modules/basic-external-reward-points/RewardPointsConfig.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "phoneNumber",
+    "column" : "phoneNumber",
+    "ar" : "رقم الهاتف",
+    "en" : "Phone Number",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "reductionAmount",
+    "column" : "reductionAmount",
+    "type" : "Decimal"
+  }, {
+    "id" : "refRequestDate",
+    "column" : "refRequestDate",
+    "ar" : "Reference Request Date",
+    "en" : "Reference Request Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "refRequestId",
+    "column" : "refRequestId",
+    "ar" : "Reference Request Id",
+    "en" : "Reference Request Id",
+    "type" : "Text"
+  }, {
+    "id" : "requestDate",
+    "column" : "requestDate",
+    "ar" : "تاريخ الطلب",
+    "en" : "Request Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "requestId",
+    "column" : "requestId",
+    "ar" : "Request Id",
+    "en" : "Request Id",
+    "type" : "Text"
+  }, {
+    "id" : "requestStatus",
+    "column" : "requestStatus",
+    "ar" : "حالة الطلب",
+    "en" : "Request Status",
+    "type" : "Text"
+  }, {
+    "id" : "returnDoc",
+    "columns" : [ "returnDocActualCode", " returnDocCode", " returnDocEntityType", " returnDocId" ],
+    "ar" : "مرتجع",
+    "en" : "Return Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "target",
+    "columns" : [ "targetActualCode", " targetCode", " targetEntityType", " targetId" ],
+    "ar" : "الجهة",
+    "en" : "Taregt",
+    "type" : "Genericreference"
+  }, {
+    "id" : "updateRequest",
+    "column" : "updateRequest",
+    "ar" : "طلب تعديل",
+    "en" : "Update Request",
+    "type" : "Boolean"
+  } ]
+}

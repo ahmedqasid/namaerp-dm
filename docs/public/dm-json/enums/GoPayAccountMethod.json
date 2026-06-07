@@ -1,0 +1,12 @@
+{
+  "enum" : "GoPayAccountMethod",
+  "values" : [ {
+    "id" : "INDIVIDUAL",
+    "ar" : "فرد",
+    "en" : "INDIVIDUAL"
+  }, {
+    "id" : "BUSINESS",
+    "ar" : "عمل",
+    "en" : "BUSINESS"
+  } ]
+}

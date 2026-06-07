@@ -1,0 +1,20 @@
+{
+  "enum" : "ApprovalInitiator",
+  "values" : [ {
+    "id" : "Commit",
+    "ar" : "حفظ",
+    "en" : "Commit"
+  }, {
+    "id" : "Delete",
+    "ar" : "حذف",
+    "en" : "Delete"
+  }, {
+    "id" : "BudgetExceededSave",
+    "ar" : "تخطي موازنة",
+    "en" : "Budget Exceeded"
+  }, {
+    "id" : "BudgetExceededDelete",
+    "ar" : "تخطى موازنة مع الحذف",
+    "en" : "Budget Exceeded - Delete"
+  } ]
+}

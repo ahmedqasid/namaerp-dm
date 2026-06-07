@@ -1,0 +1,122 @@
+{
+  "entity" : "GoPayPaymentEntry",
+  "table" : "GoPayPaymentEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/GoPayPaymentEntry.html",
+  "fields" : [ {
+    "id" : "bankId",
+    "column" : "bankId",
+    "ar" : "المعرف البنكي",
+    "en" : "Bank ID",
+    "type" : "Text"
+  }, {
+    "id" : "bankPaymentId",
+    "column" : "bankPaymentId",
+    "type" : "Text"
+  }, {
+    "id" : "billNumber",
+    "column" : "billNumber",
+    "ar" : "رقم الفاتورة",
+    "en" : "BillNumber",
+    "type" : "Text"
+  }, {
+    "id" : "branchCode",
+    "column" : "branchCode",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "districtCode",
+    "column" : "districtCode",
+    "type" : "Text"
+  }, {
+    "id" : "errorMSG",
+    "column" : "errorMSG",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "Text"
+  }, {
+    "id" : "failed",
+    "column" : "failed",
+    "ar" : " فشل",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "invoiceEntry",
+    "column" : "invoiceEntry_id",
+    "type" : "",
+    "refTo" : "GoPayInvoiceEntry",
+    "refPath" : "/modules/system-tables/GoPayInvoiceEntry.html"
+  }, {
+    "id" : "paymentAmount",
+    "column" : "paymentAmount",
+    "ar" : "القيمة المسددة",
+    "en" : "Payment Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "paymentDate",
+    "column" : "paymentDate",
+    "ar" : "تاريخ الدفع",
+    "en" : "Payment Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "paymentMethod",
+    "column" : "paymentMethod",
+    "ar" : "طريقة الدفع",
+    "en" : " Payment Method",
+    "type" : "Text"
+  }, {
+    "id" : "paymentNotificationIP",
+    "column" : "paymentNotificationIP",
+    "ar" : "عنوان تنبيهات الدفع",
+    "en" : "Payment Notification IP",
+    "type" : "Text"
+  }, {
+    "id" : "paymentStatus",
+    "column" : "paymentStatus",
+    "ar" : "حالة السداد",
+    "en" : "Payment Status",
+    "type" : "Text"
+  }, {
+    "id" : "receiptVoucher",
+    "columns" : [ "receiptVoucherActualCode", " receiptVoucherCode", " receiptVoucherEntityType", " receiptVoucherId" ],
+    "ar" : "سند القبض",
+    "en" : "Receipt Voucher",
+    "type" : "Genericreference"
+  }, {
+    "id" : "requestBody",
+    "column" : "requestBody",
+    "ar" : "Request Body",
+    "en" : "Request Body",
+    "type" : "BigText"
+  }, {
+    "id" : "sadadNumber",
+    "column" : "sadadNumber",
+    "ar" : "رقم سداد",
+    "en" : "SADAD Number",
+    "type" : "Text"
+  }, {
+    "id" : "sadadPaymentId",
+    "column" : "sadadPaymentId",
+    "type" : "Text"
+  }, {
+    "id" : "signature",
+    "column" : "signature",
+    "ar" : "Signature",
+    "en" : "Signature",
+    "type" : "BigText"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

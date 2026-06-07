@@ -1,0 +1,1256 @@
+{
+  "entity" : "ApprovalDefinition",
+  "table" : "ApprovalDefinition",
+  "module" : "basic",
+  "ar" : "تعريف موافقه",
+  "arPlural" : "تعريف موافقات",
+  "en" : "Approval Definition",
+  "enPlural" : "Approval Definitions",
+  "page" : "https://dm.namasoft.com/modules/basic/ApprovalDefinition.html",
+  "fields" : [ {
+    "id" : "allowEditAfterUsage",
+    "column" : "allowEditAfterUsage",
+    "ar" : "السماح بالتعديل بعد الاستخدام",
+    "en" : "Allow Edit After Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowModifyWhileUnderApproval",
+    "column" : "allowModifyWhileUnderApproval",
+    "ar" : "السماح بالتعديل اثناء انتظار الموافقة",
+    "en" : "Allow Modification While Waiting Approval",
+    "type" : "Boolean"
+  }, {
+    "id" : "alternate",
+    "column" : "alternate_id",
+    "ar" : "الموظف البديل",
+    "en" : "Alternate Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "analysisSetMustMatchRecord",
+    "column" : "analysisSetMustMatchRecord",
+    "ar" : "يجب تطابق المجموعة التحليلية مع المجموعة التحليلية للسجل عند البحث عن موظفين",
+    "en" : "Analysis Set Must Match Record",
+    "type" : "Boolean"
+  }, {
+    "id" : "applyAlsoTo",
+    "column" : "applyAlsoTo_id",
+    "ar" : "تطبق ايضا علي",
+    "en" : "Apply Also To",
+    "type" : "Reference",
+    "refTo" : "EntityTypeList",
+    "refPath" : "/modules/basic/EntityTypeList.html"
+  }, {
+    "id" : "applyWhenQuery",
+    "column" : "applyWhenQuery",
+    "ar" : "تطبيق عند التوافق مع الاستعلام",
+    "en" : "Apply When Query",
+    "type" : "BigText"
+  }, {
+    "id" : "approvalEmailSubject",
+    "column" : "approvalEmailSubject",
+    "ar" : "قالب عنوان الايميل (مع التقرير)",
+    "en" : "Approval Email Subject (With Report)",
+    "type" : "Text"
+  }, {
+    "id" : "approvalEntity",
+    "column" : "approvalEntity",
+    "ar" : "نوع الملف/المستند",
+    "en" : "Approval Entity",
+    "type" : "EntityType"
+  }, {
+    "id" : "approvalRef1Source",
+    "column" : "approvalRef1Source",
+    "ar" : "مصدر مرجع 1 للموافقة",
+    "en" : "Approval Reference 1 Source",
+    "type" : "FieldID"
+  }, {
+    "id" : "approvalRef2Source",
+    "column" : "approvalRef2Source",
+    "ar" : "مصدر مرجع 2 للموافقة",
+    "en" : "Approval Reference 2 Source",
+    "type" : "FieldID"
+  }, {
+    "id" : "approveLines",
+    "column" : "approveLines",
+    "ar" : "الموافقة للسطور",
+    "en" : "Approve Lines",
+    "type" : "Boolean"
+  }, {
+    "id" : "arabicConfirmation",
+    "column" : "arabicConfirmation",
+    "ar" : " عنوان عربي",
+    "en" : " Arabic",
+    "type" : "BigText"
+  }, {
+    "id" : "autoEscalateAfter.uom",
+    "column" : "autoEscalateAfterUom",
+    "ar" : "الوحدة",
+    "en" : "Unit",
+    "type" : "Enum",
+    "enum" : "TimePeriodType"
+  }, {
+    "id" : "autoEscalateAfter.value",
+    "column" : "autoEscalateAfterValue",
+    "ar" : "القيمة",
+    "en" : "Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "branchMustMatchRecord",
+    "column" : "branchMustMatchRecord",
+    "ar" : "يجب تطابق الفرع مع فرع السجل عند البحث عن موظفين",
+    "en" : "Branch Must Match Record",
+    "type" : "Boolean"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commentRequired",
+    "column" : "commentRequired",
+    "ar" : "يجب إدخال ملحوظة",
+    "en" : "Comment Required",
+    "type" : "Boolean"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "confirmBeforeStarting",
+    "column" : "confirmBeforeStarting",
+    "ar" : "التأكيد قبل البدء",
+    "en" : "Confirm Before Starting",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerRequestDateAsCreationDate",
+    "column" : "considerRequestDateAsCreationDate",
+    "ar" : "اعتبار تاريخ طلب الموافقة هو تاريخ الإنشاء",
+    "en" : "Consider ِApproval Request Date As Creation Date",
+    "type" : "Boolean"
+  }, {
+    "id" : "convertRequestAfterApproval",
+    "column" : "convertRequestAfterApproval",
+    "ar" : "تحوبل الطلب بعد الموافقة",
+    "en" : "Convert Request After Approval",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "criteriaDefinition",
+    "column" : "criteriaDefinition_id",
+    "ar" : " المعايير",
+    "en" : " Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "departmentMustMatchRecord",
+    "column" : "departmentMustMatchRecord",
+    "ar" : "يجب تطابق القسم مع قسم السجل عند البحث عن موظفين",
+    "en" : "Department Must Match Record",
+    "type" : "Boolean"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "doNotSendToFCM",
+    "column" : "doNotSendToFCM",
+    "ar" : "لا ترسل تنبيهات لتطبيقات الجوال",
+    "en" : "Do Not Send Notifications To Mobile Apps",
+    "type" : "Boolean"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "emailTemplate",
+    "column" : "emailTemplate_id",
+    "ar" : "قالب الإيميل",
+    "en" : "Email Template",
+    "type" : "Reference",
+    "refTo" : "ReportDefinition",
+    "refPath" : "/modules/basic/ReportDefinition.html"
+  }, {
+    "id" : "englishConfirmation",
+    "column" : "englishConfirmation",
+    "ar" : " عنوان إنجليزي",
+    "en" : " English",
+    "type" : "BigText"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "fallBack",
+    "column" : "fallBack_id",
+    "ar" : "الموظف الاحتياطي",
+    "en" : "Fallback Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "fcmNotificationBodyTemplate",
+    "column" : "fcmNotificationBodyTemplate",
+    "ar" : "قالب محتوى التنبيه",
+    "en" : "Notification Body Template",
+    "type" : "BigText"
+  }, {
+    "id" : "fcmNotificationTitleTemplate",
+    "column" : "fcmNotificationTitleTemplate",
+    "ar" : "قالب عنوان التنبيه (إختيارى)",
+    "en" : "Notification Title Template (Optional)",
+    "type" : "BigText"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "flushBeforeSummary",
+    "column" : "flushBeforeSummary",
+    "ar" : "Flush Before Summary",
+    "en" : "Flush Before Summary",
+    "type" : "Boolean"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "ignoreUsageCapabilityOnAppr",
+    "column" : "ignoreUsageCapabilityOnAppr",
+    "ar" : "تجاهل صلاحيات الاستخدام عند الموافقة",
+    "en" : "Ignore Usage Capability When Approving",
+    "type" : "Boolean"
+  }, {
+    "id" : "inActive",
+    "column" : "inActive",
+    "ar" : "غير نشط",
+    "en" : "Inactive",
+    "type" : "Boolean"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "legalEntityMustMatchRecord",
+    "column" : "legalEntityMustMatchRecord",
+    "ar" : "يجب تطابق الشركة مع شركة السجل عند البحث عن موظفين",
+    "en" : "Legal Entity Must Match Record",
+    "type" : "Boolean"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "modifyWhileUnderApprovalPolicy",
+    "column" : "modifyWhileUnderApprovalPolicy",
+    "ar" : "سياسة التعديل أثناء الموافقة",
+    "en" : "Modify While Under Approval Policy",
+    "type" : "Enum",
+    "enum" : "ModifyWhileUnderApprovalPolicy"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "notificationTemplate",
+    "column" : "notificationTemplate_id",
+    "ar" : "قالب التنبيهات",
+    "en" : "Notification Template",
+    "type" : "Reference",
+    "refTo" : "ReportDefinition",
+    "refPath" : "/modules/basic/ReportDefinition.html"
+  }, {
+    "id" : "onRejectLineDelete",
+    "column" : "onRejectLineDelete",
+    "ar" : "عند رفض سطر يتم حذفه",
+    "en" : "Reject Line Delete It",
+    "type" : "Boolean"
+  }, {
+    "id" : "otherAlternates",
+    "column" : "otherAlternates_id",
+    "ar" : "البدلاء الآخرين",
+    "en" : "Other Alternates",
+    "type" : "Reference",
+    "refTo" : "SpecialResponsible",
+    "refPath" : "/modules/basic/SpecialResponsible.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "priority",
+    "column" : "priority",
+    "ar" : "الأولوية",
+    "en" : "Priority",
+    "type" : "Long"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reqCommentInApprovalLinks",
+    "column" : "reqCommentInApprovalLinks",
+    "ar" : "طلب ملاحظة في روابط الموافقة",
+    "en" : "Request Comment In Approval Links",
+    "type" : "Boolean"
+  }, {
+    "id" : "requireExecution",
+    "column" : "requireExecution",
+    "ar" : "بجاجة لتنفيذ",
+    "en" : "Require Execution",
+    "type" : "Boolean"
+  }, {
+    "id" : "requireOtpForAllSteps",
+    "column" : "requireOtpForAllSteps",
+    "ar" : "Require OTP For All Steps",
+    "en" : "Require OTP For All Steps",
+    "type" : "Boolean"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "reviseOnCompletion",
+    "column" : "reviseOnCompletion",
+    "ar" : "مراجعة السجل مع اكتمال الموافقة",
+    "en" : "Revise Record On Approval Completion",
+    "type" : "Boolean"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "sectorMustMatchRecord",
+    "column" : "sectorMustMatchRecord",
+    "ar" : "يجب تطابق القطاع مع قطاع السجل عند البحث عن موظفين",
+    "en" : "Sector Must Match Record",
+    "type" : "Boolean"
+  }, {
+    "id" : "skipIfOnlyCriticalFieldsChanged",
+    "column" : "skipIfOnlyCriticalFieldsChanged",
+    "ar" : "عدم إرسال التنبيه في حالة تغيير الحقول الحرجة فقط",
+    "en" : "Skip notification when only critical fields changed",
+    "type" : "Boolean"
+  }, {
+    "id" : "smsTemplate",
+    "column" : "smsTemplate_id",
+    "ar" : "قالب الرسائل النصية",
+    "en" : "SMS Template",
+    "type" : "Reference",
+    "refTo" : "ReportDefinition",
+    "refPath" : "/modules/basic/ReportDefinition.html"
+  }, {
+    "id" : "summaryQuery",
+    "column" : "summaryQuery",
+    "ar" : "استعلام الملخص",
+    "en" : "Summary Query",
+    "type" : "BigText"
+  }, {
+    "id" : "summaryTemplate",
+    "column" : "summaryTemplate",
+    "ar" : "قالب الملخص",
+    "en" : "Summary Template",
+    "type" : "BigText"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "templates.copyEmailFrom",
+    "column" : "copyEmailFrom",
+    "ar" : "نسخ الايميل من",
+    "en" : "Copy Email From",
+    "type" : "Enum",
+    "enum" : "CopyTemplateFrom"
+  }, {
+    "id" : "templates.copyNotificationFrom",
+    "column" : "copyNotificationFrom",
+    "ar" : "نسخ التنبيهات من",
+    "en" : "Copy Notification From",
+    "type" : "Enum",
+    "enum" : "CopyTemplateFrom"
+  }, {
+    "id" : "templates.copySMSFrom",
+    "column" : "copySMSFrom",
+    "ar" : "نسخ الرسائل من",
+    "en" : "Copy SMS From",
+    "type" : "Enum",
+    "enum" : "CopyTemplateFrom"
+  }, {
+    "id" : "templates.emailReport",
+    "column" : "emailReport_id",
+    "type" : "Reference",
+    "refTo" : "ReportDefinition",
+    "refPath" : "/modules/basic/ReportDefinition.html"
+  }, {
+    "id" : "templates.emailTemplate",
+    "column" : "emailTemplate",
+    "ar" : "قالب الإيميل",
+    "en" : "Email Template",
+    "type" : "BigText"
+  }, {
+    "id" : "templates.notificationReport",
+    "column" : "notificationReport_id",
+    "type" : "Reference",
+    "refTo" : "ReportDefinition",
+    "refPath" : "/modules/basic/ReportDefinition.html"
+  }, {
+    "id" : "templates.notificationTemplate",
+    "column" : "notificationTemplate",
+    "ar" : "قالب التنبيهات",
+    "en" : "Notification Template",
+    "type" : "BigText"
+  }, {
+    "id" : "templates.preferredEmailSender",
+    "column" : "preferredEmailSender",
+    "ar" : "مرسل الايميل المفضل",
+    "en" : "Preferred Email Sender",
+    "type" : "Text"
+  }, {
+    "id" : "templates.preferredSMSSender",
+    "column" : "preferredSMSSender",
+    "ar" : "مرسل الرسائل المفضل",
+    "en" : "Preferred SMS Sender",
+    "type" : "Text"
+  }, {
+    "id" : "templates.smsReport",
+    "column" : "smsReport_id",
+    "type" : "Reference",
+    "refTo" : "ReportDefinition",
+    "refPath" : "/modules/basic/ReportDefinition.html"
+  }, {
+    "id" : "templates.smsTemplate",
+    "column" : "smsTemplate",
+    "ar" : "قالب الرسائل النصية",
+    "en" : "SMS Template",
+    "type" : "BigText"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "useWithBudgetExceeded",
+    "column" : "useWithBudgetExceeded",
+    "ar" : "يستعمل مع تخطي الموازنات",
+    "en" : "useWithBudgetExceeded",
+    "type" : "Boolean"
+  }, {
+    "id" : "useWithDelete",
+    "column" : "useWithDelete",
+    "ar" : "مع الحذف",
+    "en" : "Use With Delete",
+    "type" : "Boolean"
+  }, {
+    "id" : "useWithInsert",
+    "column" : "useWithInsert",
+    "ar" : "مع الإدخال",
+    "en" : "Use With Insert",
+    "type" : "Boolean"
+  }, {
+    "id" : "useWithUpdate",
+    "column" : "useWithUpdate",
+    "ar" : "مع التعديل",
+    "en" : "Use With Update",
+    "type" : "Boolean"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "whatsAppMessage",
+    "column" : "whatsAppMessage_id",
+    "ar" : "WhatsApp Message",
+    "en" : "WhatsApp Message",
+    "type" : "Reference",
+    "refTo" : "WhatsAppMessage",
+    "refPath" : "/modules/basic-whatsapp/WhatsAppMessage.html"
+  }, {
+    "id" : "whatsAppPreferredSender",
+    "column" : "whatsAppPreferredSender",
+    "ar" : "المرسل المفضل لواتساب",
+    "en" : "WhatsApp Preferred Sender",
+    "type" : "Text"
+  } ],
+  "details" : [ {
+    "id" : "criticalFields",
+    "table" : "ApprovalCriticalField",
+    "joinColumn" : "approvalDefinition_id",
+    "ar" : "عندما تتغير الحقول الاتية",
+    "en" : "Critical Fields",
+    "fields" : [ {
+      "id" : "criticalFields.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "criticalFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "criticalFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "inputs",
+    "table" : "ApprovalDefinition_inputs",
+    "joinColumn" : "ApprovalDefinition_id",
+    "ar" : "المدخلات",
+    "en" : "Inputs",
+    "fields" : [ {
+      "id" : "inputs.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "inputs.inputId",
+      "column" : "inputId",
+      "ar" : "الحقل",
+      "en" : "Field Id",
+      "type" : "FieldID"
+    }, {
+      "id" : "inputs.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "inputs.name1",
+      "column" : "name1",
+      "ar" : "الاسم العربي",
+      "en" : "Name1",
+      "type" : "Text"
+    }, {
+      "id" : "inputs.name2",
+      "column" : "name2",
+      "ar" : "الاسم الإنجليزي",
+      "en" : "Name2",
+      "type" : "Text"
+    }, {
+      "id" : "inputs.requiredInput",
+      "column" : "requiredInput",
+      "ar" : "مطلوب",
+      "en" : "Required",
+      "type" : "Boolean"
+    }, {
+      "id" : "inputs.stepSeq",
+      "column" : "stepSeq",
+      "ar" : "مسلسل",
+      "en" : "Sequence",
+      "type" : "Long"
+    } ]
+  }, {
+    "id" : "rules",
+    "table" : "ApprovalDefinition_rules",
+    "joinColumn" : "ApprovalDefinition_id",
+    "ar" : "القواعد الواجب توافرها",
+    "en" : "Rules",
+    "fields" : [ {
+      "id" : "rules.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "rules.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "rules.ruleId",
+      "column" : "ruleId",
+      "ar" : "اسم القاعدة",
+      "en" : "Rule ID",
+      "type" : "FieldID"
+    } ]
+  }, {
+    "id" : "selectors",
+    "table" : "ApprovalDefinition_selectors",
+    "joinColumn" : "ApprovalDefinition_id",
+    "fields" : [ {
+      "id" : "selectors.applyWhenQuery",
+      "column" : "applyWhenQuery",
+      "ar" : "تطبيق عند التوافق مع الاستعلام",
+      "en" : "Apply When Query",
+      "type" : "BigText"
+    }, {
+      "id" : "selectors.criteria",
+      "column" : "criteria_id",
+      "ar" : "المعايير",
+      "en" : "Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "selectors.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "selectors.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "selectors.priority",
+      "column" : "priority",
+      "ar" : "الأولوية",
+      "en" : "Priority",
+      "type" : "Long"
+    }, {
+      "id" : "selectors.stepSeq",
+      "column" : "stepSeq",
+      "ar" : "مسلسل",
+      "en" : "Sequence",
+      "type" : "Long"
+    } ]
+  }, {
+    "id" : "stepRespnsible",
+    "table" : "AppDefStepResponsible",
+    "joinColumn" : "ApprovalDefinition_id",
+    "ar" : "المسئولين بمعايير",
+    "en" : "Steps Responsible",
+    "fields" : [ {
+      "id" : "stepRespnsible.applyWhenQuery",
+      "column" : "applyWhenQuery",
+      "ar" : "تطبيق عند التوافق مع الاستعلام",
+      "en" : "Apply When Query",
+      "type" : "BigText"
+    }, {
+      "id" : "stepRespnsible.criteria",
+      "column" : "criteria_id",
+      "ar" : "المعايير",
+      "en" : "Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "stepRespnsible.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "stepRespnsible.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "stepRespnsible.name1",
+      "column" : "name1",
+      "ar" : "الاسم العربي",
+      "en" : "Name1",
+      "type" : "Text"
+    }, {
+      "id" : "stepRespnsible.name2",
+      "column" : "name2",
+      "ar" : "الاسم الإنجليزي",
+      "en" : "Name2",
+      "type" : "Text"
+    }, {
+      "id" : "stepRespnsible.priority",
+      "column" : "priority",
+      "ar" : "الأولوية",
+      "en" : "Priority",
+      "type" : "Integer"
+    }, {
+      "id" : "stepRespnsible.responsible.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "stepRespnsible.responsible.query",
+      "column" : "query",
+      "ar" : "الاستعلام",
+      "en" : "Query",
+      "type" : "BigText"
+    }, {
+      "id" : "stepRespnsible.responsible.responsible",
+      "columns" : [ "responsibleActualCode", " responsibleCode", " responsibleEntityType", " responsibleId" ],
+      "ar" : "الموظف المسئول",
+      "en" : "Responsible Employee",
+      "type" : "Genericreference"
+    }, {
+      "id" : "stepRespnsible.responsible.responsibleType",
+      "column" : "responsibleType",
+      "ar" : "نوع المسئول",
+      "en" : "Responsible Type",
+      "type" : "Enum",
+      "enum" : "ResponsibleType"
+    }, {
+      "id" : "stepRespnsible.stepSeq",
+      "column" : "stepSeq",
+      "ar" : "مسلسل",
+      "en" : "Sequence",
+      "type" : "Long"
+    } ]
+  }, {
+    "id" : "steps",
+    "table" : "ApprovalDefinition_steps",
+    "joinColumn" : "ApprovalDefinition_id",
+    "ar" : "الخطوات",
+    "en" : "Steps",
+    "fields" : [ {
+      "id" : "steps.allowEditingFields",
+      "column" : "allowEditingFields",
+      "ar" : "الحقول المسموح بتعديلها",
+      "en" : "Allow Editing Fields",
+      "type" : "FieldID"
+    }, {
+      "id" : "steps.alternate.fieldId",
+      "column" : "alternateFieldId",
+      "ar" : "البدلاء | الحقل",
+      "en" : "Alternates | Field Id",
+      "type" : "FieldID"
+    }, {
+      "id" : "steps.alternate.query",
+      "column" : "alternateQuery",
+      "ar" : "الاستعلام",
+      "en" : "Query",
+      "type" : "BigText"
+    }, {
+      "id" : "steps.alternate.responsible",
+      "columns" : [ "alternateResponsibleActualCode", " alternateResponsibleCode", " alternateResponsibleEntityType", " alternateResponsibleId" ],
+      "ar" : "البدلاء | الموظف",
+      "en" : "Alternates | Employee",
+      "type" : "Genericreference"
+    }, {
+      "id" : "steps.alternate.responsibleType",
+      "column" : "alternateResponsibleType",
+      "ar" : "البدلاء | نوع المسئول",
+      "en" : "Alternates | Responsible Type",
+      "type" : "Enum",
+      "enum" : "ResponsibleType"
+    }, {
+      "id" : "steps.commentRequired",
+      "column" : "commentRequired",
+      "ar" : "يجب إدخال ملحوظة",
+      "en" : "Comment Required",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.commentRequiredWithApproving",
+      "column" : "commentRequiredWithApproving",
+      "ar" : "يجب إدخال ملحوظة مع الموافقة",
+      "en" : "Comment Required With Approving",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.commentRequiredWithEscalationToSupervisor",
+      "column" : "commentRequiredWithEscalationToSupervisor",
+      "ar" : "يجب إدخال ملحوظة مع التصعيد إلى المدير المباشر",
+      "en" : "Comment Required With Escalation To Supervisor",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.commentRequiredWithRejecting",
+      "column" : "commentRequiredWithRejecting",
+      "ar" : "يجب إدخال ملحوظة مع الرفض",
+      "en" : "Comment Required With Rejecting",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.commentRequiredWithReturning",
+      "column" : "commentRequiredWithReturning",
+      "ar" : "يجب إدخال ملحوظة مع الإرجاع",
+      "en" : "Comment Required With Returning",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.commentRequiredWithReturningToPreviousStep",
+      "column" : "commentRequiredWithReturningToPreviousStep",
+      "ar" : "يجب إدخال ملحوظة مع الإرجاع للخطوة السابقة",
+      "en" : "Comment Required With Returning To Previous Step",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "steps.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "steps.modifyWhileUnderApprovalPolicy",
+      "column" : "modifyWhileUnderApprovalPolicy",
+      "ar" : "سياسة التعديل أثناء الموافقة",
+      "en" : "Modify While Under Approval Policy",
+      "type" : "Enum",
+      "enum" : "ModifyWhileUnderApprovalPolicy"
+    }, {
+      "id" : "steps.name1",
+      "column" : "name1",
+      "ar" : "الاسم العربي",
+      "en" : "Name1",
+      "type" : "Text"
+    }, {
+      "id" : "steps.name2",
+      "column" : "name2",
+      "ar" : "الاسم الإنجليزي",
+      "en" : "Name2",
+      "type" : "Text"
+    }, {
+      "id" : "steps.notificationRemark",
+      "column" : "notificationRemark",
+      "ar" : "ملحوظة للتنبيه",
+      "en" : "Notification Remark",
+      "type" : "BigText"
+    }, {
+      "id" : "steps.notifyEmails",
+      "column" : "notifyEmails",
+      "ar" : "ارسال الايميلات الي العناوين",
+      "en" : "Send Emails To Addresses",
+      "type" : "BigText"
+    }, {
+      "id" : "steps.notifyFields",
+      "column" : "notifyFields",
+      "ar" : "ارسال التنبيهات و الرسائل و الايميلات الي الحقول",
+      "en" : "Send Notifications, SMS, and Emails To Fields",
+      "type" : "FieldID"
+    }, {
+      "id" : "steps.notifyFieldsOnlyExcludeResponsible",
+      "column" : "notifyFieldsOnlyExcludeResponsible",
+      "ar" : "إرسال التنبيهات لحقل التنبيهات فقط دون المسئول",
+      "en" : "Notify Fields Only Exclude Responsible",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.reasonRequiredWithApproving",
+      "column" : "reasonRequiredWithApproving",
+      "ar" : "يجب إدخال السبب مع الموافقة",
+      "en" : "Reason Required With Approving",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.reasonRequiredWithEscalationToSupervisor",
+      "column" : "reasonRequiredWithEscalationToSupervisor",
+      "ar" : "يجب إدخال السبب مع التصعيد إلى المدير المباشر",
+      "en" : "Reason Required With Escalation To Supervisor",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.reasonRequiredWithRejecting",
+      "column" : "reasonRequiredWithRejecting",
+      "ar" : "يجب إدخال السبب مع الرفض",
+      "en" : "Reason Required With Rejecting",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.reasonRequiredWithReturning",
+      "column" : "reasonRequiredWithReturning",
+      "ar" : "يجب إدخال السبب مع الإرجاع",
+      "en" : "Reason Required With Returning",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.reasonRequiredWithReturningToPreviousStep",
+      "column" : "reasonRequiredWithReturningToPreviousStep",
+      "ar" : "يجب إدخال السبب مع الإرجاع للخطوة السابقة",
+      "en" : "Reason Required With Returning To Previous Step",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.requireAllApprovers",
+      "column" : "requireAllApprovers",
+      "ar" : "يتطلب موافقة الجميع",
+      "en" : "Require All Approvers",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.requireOtp",
+      "column" : "requireOtp",
+      "ar" : "Require OTP",
+      "en" : "Require OTP",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.requiredStatus",
+      "column" : "requiredStatus",
+      "type" : "Text"
+    }, {
+      "id" : "steps.responsible.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "steps.responsible.query",
+      "column" : "query",
+      "ar" : "الاستعلام",
+      "en" : "Query",
+      "type" : "BigText"
+    }, {
+      "id" : "steps.responsible.responsible",
+      "columns" : [ "responsibleActualCode", " responsibleCode", " responsibleEntityType", " responsibleId" ],
+      "ar" : "الموظف المسئول",
+      "en" : "Responsible Employee",
+      "type" : "Genericreference"
+    }, {
+      "id" : "steps.responsible.responsibleType",
+      "column" : "responsibleType",
+      "ar" : "نوع المسئول",
+      "en" : "Responsible Type",
+      "type" : "Enum",
+      "enum" : "ResponsibleType"
+    }, {
+      "id" : "steps.stepSeq",
+      "column" : "stepSeq",
+      "ar" : "مسلسل",
+      "en" : "Sequence",
+      "type" : "Long"
+    }, {
+      "id" : "steps.updatedFields",
+      "column" : "updatedFields",
+      "type" : "BigText"
+    } ]
+  } ]
+}

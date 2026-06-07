@@ -1,0 +1,52 @@
+{
+  "enum" : "RECommissionCalculationBasis",
+  "values" : [ {
+    "id" : "UnitPrice",
+    "ar" : " سعر الوحدة",
+    "en" : " Unit Price"
+  }, {
+    "id" : "UnitN1",
+    "ar" : "رقم 1 من الوحدة",
+    "en" : "Unit N1"
+  }, {
+    "id" : "UnitN2",
+    "ar" : "رقم 2 من الوحدة",
+    "en" : "Unit N2"
+  }, {
+    "id" : "UnitN3",
+    "ar" : "رقم 3 من الوحدة",
+    "en" : "Unit N3"
+  }, {
+    "id" : "UnitN4",
+    "ar" : "رقم 4 من الوحدة",
+    "en" : "Unit N4"
+  }, {
+    "id" : "UnitN5",
+    "ar" : "رقم 5 من الوحدة",
+    "en" : "Unit N5"
+  }, {
+    "id" : "NetValue",
+    "ar" : "الصافي",
+    "en" : "Net Value"
+  }, {
+    "id" : "ContractN1",
+    "ar" : "رقم 1 من العقد",
+    "en" : "Contract N1"
+  }, {
+    "id" : "ContractN2",
+    "ar" : "رقم 2 من العقد",
+    "en" : "Contract N2"
+  }, {
+    "id" : "ContractN3",
+    "ar" : "رقم 3 من العقد",
+    "en" : "Contract N3"
+  }, {
+    "id" : "ContractN4",
+    "ar" : "رقم 4 من العقد",
+    "en" : "Contract N4"
+  }, {
+    "id" : "ContractN5",
+    "ar" : "رقم 5 من العقد",
+    "en" : "Contract N5"
+  } ]
+}

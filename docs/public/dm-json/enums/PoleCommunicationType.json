@@ -1,0 +1,12 @@
+{
+  "enum" : "PoleCommunicationType",
+  "values" : [ {
+    "id" : "CommPort",
+    "ar" : "CommPort",
+    "en" : "CommPort"
+  }, {
+    "id" : "Printer",
+    "ar" : "Printer",
+    "en" : "Printer"
+  } ]
+}

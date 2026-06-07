@@ -1,0 +1,127 @@
+{
+  "entity" : "FailedReplicationMessage",
+  "table" : "FailedReplicationMessage",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/FailedReplicationMessage.html",
+  "fields" : [ {
+    "id" : "altCode",
+    "column" : "altCode",
+    "ar" : "الكود الإنجليزي",
+    "en" : "English Code",
+    "type" : "Text"
+  }, {
+    "id" : "approving",
+    "column" : "approving",
+    "type" : "Text"
+  }, {
+    "id" : "attachmentXML",
+    "column" : "attachmentXML",
+    "type" : "BigText"
+  }, {
+    "id" : "body",
+    "column" : "body",
+    "ar" : "Body",
+    "en" : "Body",
+    "type" : "BigText"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "concernedEmployees",
+    "column" : "concernedEmployees",
+    "type" : "Text"
+  }, {
+    "id" : "concernedSites",
+    "column" : "concernedSites",
+    "type" : "Text"
+  }, {
+    "id" : "coreWSAddress",
+    "column" : "coreWSAddress",
+    "type" : "Text"
+  }, {
+    "id" : "createRequest",
+    "column" : "createRequest",
+    "type" : "Text"
+  }, {
+    "id" : "currentDimesnions",
+    "column" : "currentDimesnions",
+    "type" : "Text"
+  }, {
+    "id" : "currentLanguage",
+    "column" : "currentLanguage",
+    "type" : "Text"
+  }, {
+    "id" : "currentUserId",
+    "column" : "currentUserId",
+    "type" : "Text"
+  }, {
+    "id" : "entityClass",
+    "column" : "entityClass",
+    "type" : "Text"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "Text"
+  }, {
+    "id" : "eventType",
+    "column" : "eventType",
+    "ar" : "نوع الحدث",
+    "en" : "Event Type",
+    "type" : "Text"
+  }, {
+    "id" : "exceptionDescription",
+    "column" : "exceptionDescription",
+    "type" : "Text"
+  }, {
+    "id" : "exceptionTrace",
+    "column" : "exceptionTrace",
+    "type" : "BigText"
+  }, {
+    "id" : "generatedEntity",
+    "column" : "generatedEntity",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "ignoreInReplication",
+    "column" : "ignoreInReplication",
+    "type" : "Text"
+  }, {
+    "id" : "messageId",
+    "column" : "messageId",
+    "type" : "Text"
+  }, {
+    "id" : "moduleId",
+    "column" : "moduleId",
+    "ar" : "الوحدة",
+    "en" : "Module",
+    "type" : "Text"
+  }, {
+    "id" : "originSite",
+    "column" : "originSite",
+    "ar" : "الموقع الأصلى",
+    "en" : "Origin Site",
+    "type" : "Text"
+  }, {
+    "id" : "replicating",
+    "column" : "replicating",
+    "type" : "Text"
+  }, {
+    "id" : "sourceQueueId",
+    "column" : "sourceQueueId",
+    "type" : "Text"
+  }, {
+    "id" : "targetQueueId",
+    "column" : "targetQueueId",
+    "ar" : "نوع الرسالة",
+    "en" : "Target Queue ID",
+    "type" : "Text"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "AccountType",
+  "values" : [ {
+    "id" : "Detail",
+    "ar" : "فرعي",
+    "en" : "Detail"
+  }, {
+    "id" : "Subsidiary",
+    "ar" : "ذمة",
+    "en" : "Subsidiary"
+  } ]
+}

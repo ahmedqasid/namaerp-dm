@@ -1,0 +1,16 @@
+{
+  "enum" : "PaymentStarategy",
+  "values" : [ {
+    "id" : "CashPay",
+    "ar" : "نقدي",
+    "en" : "Cash"
+  }, {
+    "id" : "DebitPay",
+    "ar" : "آجل",
+    "en" : "Debit"
+  }, {
+    "id" : "UnderDischarge",
+    "ar" : "بضاعة تحت التصريف",
+    "en" : "Under Discharge"
+  } ]
+}

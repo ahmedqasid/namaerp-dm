@@ -1,0 +1,24 @@
+{
+  "enum" : "ListViewPageSize",
+  "values" : [ {
+    "id" : "TwentyFive",
+    "ar" : "25",
+    "en" : "25"
+  }, {
+    "id" : "Fifty",
+    "ar" : "50",
+    "en" : "50"
+  }, {
+    "id" : "SeventyFive",
+    "ar" : "75",
+    "en" : "75"
+  }, {
+    "id" : "OneHundred",
+    "ar" : "100",
+    "en" : "100"
+  }, {
+    "id" : "All",
+    "ar" : "الكل",
+    "en" : "All"
+  } ]
+}

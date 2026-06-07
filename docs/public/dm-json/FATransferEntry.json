@@ -1,0 +1,41 @@
+{
+  "entity" : "FATransferEntry",
+  "table" : "FATransferEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/FATransferEntry.html",
+  "fields" : [ {
+    "id" : "custody",
+    "column" : "custody_id",
+    "ar" : " عهدة",
+    "en" : " Custody",
+    "type" : "Reference",
+    "refTo" : "FACustody",
+    "refPath" : "/modules/fixedassets-custody/FACustody.html"
+  }, {
+    "id" : "fromEmployee",
+    "column" : "fromEmployee_id",
+    "ar" : "من موظف",
+    "en" : "From Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "toEmployee",
+    "column" : "toEmployee_id",
+    "ar" : "الي موظف",
+    "en" : "To Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "transferDate",
+    "column" : "transferDate",
+    "ar" : "تاريخ النقل",
+    "en" : "Transfer Date",
+    "type" : "Date"
+  } ]
+}

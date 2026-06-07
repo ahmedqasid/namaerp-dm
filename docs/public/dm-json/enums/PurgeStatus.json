@@ -1,0 +1,16 @@
+{
+  "enum" : "PurgeStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Running",
+    "ar" : "تحت التشغيل",
+    "en" : "Running"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  } ]
+}

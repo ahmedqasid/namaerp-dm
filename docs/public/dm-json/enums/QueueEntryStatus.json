@@ -1,0 +1,22 @@
+{
+  "enum" : "QueueEntryStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Processed",
+    "ar" : "تمت معالجته",
+    "en" : "Processed"
+  }, {
+    "id" : "Failed",
+    "ar" : "فشل",
+    "en" : "Failed"
+  }, {
+    "id" : "NeedsReprocess"
+  }, {
+    "id" : "NeedsDelete"
+  }, {
+    "id" : "NeedsUpdate"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "LargeNumOperator",
+  "values" : [ {
+    "id" : "LessThan",
+    "ar" : "أقل من",
+    "en" : "Less Than"
+  }, {
+    "id" : "LessThanOrEqual",
+    "ar" : "أقل من أو يساوي",
+    "en" : "Less Than Or Equal"
+  } ]
+}

@@ -1,0 +1,69 @@
+{
+  "entity" : "ReplicationStatistics",
+  "table" : "ReplicationStatistics",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ReplicationStatistics.html",
+  "fields" : [ {
+    "id" : "currentRelease",
+    "column" : "currentRelease",
+    "ar" : "الإصدار الحالي",
+    "en" : "Current Release",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lastConnected",
+    "column" : "lastConnected",
+    "ar" : "آخر وقت اتصال",
+    "en" : "Last Connected",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "lastReceivedMessage",
+    "column" : "lastReceivedMessage",
+    "ar" : "آخر رسالة مستلمة",
+    "en" : "Last Received Message",
+    "type" : "Long"
+  }, {
+    "id" : "lastReceivedMessageDate",
+    "column" : "lastReceivedMessageDate",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "lastSentMessage",
+    "column" : "lastSentMessage",
+    "ar" : "آخر رسالة مرسلة",
+    "en" : "Last Sent Message",
+    "type" : "Long"
+  }, {
+    "id" : "localFailuresCount",
+    "column" : "localFailuresCount",
+    "ar" : "عدد الأخطاء المحلية",
+    "en" : "Local Failures Count",
+    "type" : "Long"
+  }, {
+    "id" : "remoteFailuresCount",
+    "column" : "remoteFailuresCount",
+    "ar" : "عدد الاخطاء بالسيرفر البعيد",
+    "en" : "Remote Failures Count",
+    "type" : "Long"
+  }, {
+    "id" : "siteCode",
+    "column" : "siteCode",
+    "ar" : "كود الموقع",
+    "en" : "Site Code",
+    "type" : "Text"
+  }, {
+    "id" : "waitingReadCount",
+    "column" : "waitingReadCount",
+    "ar" : "عدد الرسائل بانتظار الاستلام",
+    "en" : "Waiting Read Count",
+    "type" : "Long"
+  }, {
+    "id" : "waitingWriteCount",
+    "column" : "waitingWriteCount",
+    "ar" : "عدد الرسائل بانتظار الارسال",
+    "en" : "Waiting Write Count",
+    "type" : "Long"
+  } ]
+}

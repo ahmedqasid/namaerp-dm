@@ -1,0 +1,28 @@
+{
+  "enum" : "FRMPriceListType",
+  "values" : [ {
+    "id" : "OceanFreight",
+    "ar" : "شحن بحرى",
+    "en" : "Ocean Freight"
+  }, {
+    "id" : "CustomClearance",
+    "ar" : "تخليص جمركى",
+    "en" : "Custom Clearance"
+  }, {
+    "id" : "Trucking",
+    "ar" : "نقل بالشاحنات",
+    "en" : "Trucking"
+  }, {
+    "id" : "Genset",
+    "ar" : "مولدات",
+    "en" : "Genset"
+  }, {
+    "id" : "Courier",
+    "ar" : "البريد السريع",
+    "en" : "Courier"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  } ]
+}

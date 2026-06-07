@@ -1,0 +1,259 @@
+{
+  "entity" : "POS.POSPaymentMethod",
+  "table" : "POSPaymentMethod",
+  "module" : "pos-app",
+  "ar" : "طريقة دفع",
+  "arPlural" : "طرق الدفع",
+  "en" : "Payment Method",
+  "enPlural" : "Payment Methods",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSPaymentMethod.html",
+  "fields" : [ {
+    "id" : "POSShortcutKey.theKey",
+    "column" : "theKey",
+    "type" : "Text"
+  }, {
+    "id" : "POSShortcutKey.useAlt",
+    "column" : "useAlt",
+    "type" : "Boolean"
+  }, {
+    "id" : "POSShortcutKey.useCtrl",
+    "column" : "useCtrl",
+    "type" : "Boolean"
+  }, {
+    "id" : "POSShortcutKey.useShift",
+    "column" : "useShift",
+    "type" : "Boolean"
+  }, {
+    "id" : "authorizationNumberRequire",
+    "column" : "authorizationNumberRequire",
+    "ar" : "رقم العملية مطلوب",
+    "en" : "Authorization Number Required",
+    "type" : "Boolean"
+  }, {
+    "id" : "cashMethod",
+    "column" : "cashMethod",
+    "type" : "Boolean"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "criticalPosPaymentMethod",
+    "column" : "criticalPosPaymentMethod",
+    "ar" : "طريقة دفع حرجه لنقاط البيع",
+    "en" : "Critical Pos Payment Method",
+    "type" : "Boolean"
+  }, {
+    "id" : "currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "POS.POSCurrency",
+    "refPath" : "/modules/pos-app/POS.POSCurrency.html"
+  }, {
+    "id" : "daysBeforeAllowingReturn",
+    "column" : "daysBeforeAllowingReturn",
+    "ar" : "عدد الأيام قبل السماح بالمرتجع",
+    "en" : "Days Before Allowing Return",
+    "type" : "Integer"
+  }, {
+    "id" : "defaultMethod",
+    "column" : "defaultMethod",
+    "type" : "Boolean"
+  }, {
+    "id" : "disableActualBalance",
+    "column" : "disableActualBalance",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotUseInPosPayments",
+    "column" : "doNotUseInPosPayments",
+    "ar" : "لا تستخدم في مصروفات نقاط البيع",
+    "en" : "Do Not Use In POS Payments",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotUseInPosReceipts",
+    "column" : "doNotUseInPosReceipts",
+    "ar" : "لا تستخدم في مقبوضات نقاط البيع",
+    "en" : "Do Not Use In POS Receipts",
+    "type" : "Boolean"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "hideInPaymentDialog",
+    "column" : "hideInPaymentDialog",
+    "type" : "Boolean"
+  }, {
+    "id" : "hideInReturnsPayment",
+    "column" : "hideInReturnsPayment",
+    "ar" : "إخفاء في دفع المردودات",
+    "en" : "Hide In Returns Payment",
+    "type" : "Boolean"
+  }, {
+    "id" : "hideInSalesPayment",
+    "column" : "hideInSalesPayment",
+    "ar" : "إخفاء في دفع المبيعات",
+    "en" : "Hide In Sales Payment",
+    "type" : "Boolean"
+  }, {
+    "id" : "hideInShifts",
+    "column" : "hideInShifts",
+    "ar" : "اخفاء في شاشة الورديات",
+    "en" : "Hide In Shifts",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "masterGroupId",
+    "column" : "masterGroupId",
+    "type" : "ID"
+  }, {
+    "id" : "masterGroupName1",
+    "column" : "masterGroupName1",
+    "type" : "Text"
+  }, {
+    "id" : "masterGroupName2",
+    "column" : "masterGroupName2",
+    "type" : "Text"
+  }, {
+    "id" : "mustBeWithFeesPercentInReturn",
+    "column" : "mustBeWithFeesPercentInReturn",
+    "ar" : "الأرتجاع بها مع عدم خفض العموله في الفاتورة الاصليه",
+    "en" : "Must Be With Fees Percentage In Return",
+    "type" : "Boolean"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "orderInPOS",
+    "column" : "orderInPOS",
+    "ar" : "ترتيب الظهور في برنامج نقاط البيع",
+    "en" : "Appearance order in Point Of Sale",
+    "type" : "Integer"
+  }, {
+    "id" : "pmHeaderDiscountPercentOffer",
+    "column" : "pmHeaderDiscountPercentOffer",
+    "ar" : "خصم نسبة من الفاتورة مع طريقة الدفع (في خصم الهيدر)",
+    "en" : "Apply Header Discount Offer with Payment Method in Invoice",
+    "type" : "Decimal"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ]
+}

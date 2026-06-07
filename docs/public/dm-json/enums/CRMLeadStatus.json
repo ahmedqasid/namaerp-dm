@@ -1,0 +1,52 @@
+{
+  "enum" : "CRMLeadStatus",
+  "values" : [ {
+    "id" : "AttemptedToContact",
+    "ar" : "محاولة الأتصال",
+    "en" : "Attempted To Contact"
+  }, {
+    "id" : "Cold",
+    "ar" : "بارد",
+    "en" : "Cold"
+  }, {
+    "id" : "ContactInFuture",
+    "ar" : "الأتصال مستقبلا",
+    "en" : "Contact In Future"
+  }, {
+    "id" : "Contacted",
+    "ar" : "تم الأتصال",
+    "en" : "Contacted"
+  }, {
+    "id" : "Hot",
+    "ar" : "ساخن",
+    "en" : "Hot"
+  }, {
+    "id" : "JunkLead",
+    "ar" : "بدون قيمة",
+    "en" : "Junk Lead"
+  }, {
+    "id" : "LostLead",
+    "ar" : "فاشل",
+    "en" : "Lost Lead"
+  }, {
+    "id" : "NotContacted",
+    "ar" : "لم يتم الأتصال",
+    "en" : "Not Contacted"
+  }, {
+    "id" : "PreQualified",
+    "ar" : "مؤهل مبدئيا",
+    "en" : "PreQualified"
+  }, {
+    "id" : "Qualified",
+    "ar" : "مؤهل",
+    "en" : "Qualified"
+  }, {
+    "id" : "Warm",
+    "ar" : "دافئ",
+    "en" : "Warm"
+  }, {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  } ]
+}

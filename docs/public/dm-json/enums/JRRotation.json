@@ -1,0 +1,20 @@
+{
+  "enum" : "JRRotation",
+  "values" : [ {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  }, {
+    "id" : "Left",
+    "ar" : "يسار",
+    "en" : "Left"
+  }, {
+    "id" : "Right",
+    "ar" : "يمين",
+    "en" : "Right"
+  }, {
+    "id" : "UpsideDown",
+    "ar" : "Upside Down",
+    "en" : "Upside Down"
+  } ]
+}

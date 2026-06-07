@@ -1,0 +1,78 @@
+{
+  "entity" : "CashierTransactionEntry",
+  "table" : "CashierTransactionEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/CashierTransactionEntry.html",
+  "fields" : [ {
+    "id" : "amountIn",
+    "column" : "amountIn",
+    "type" : "Decimal"
+  }, {
+    "id" : "amountOut",
+    "column" : "amountOut",
+    "type" : "Decimal"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "entryOwner",
+    "columns" : [ "entryOwnerActualCode", " entryOwnerCode", " entryOwnerEntityType", " entryOwnerId" ],
+    "ar" : "المستند",
+    "en" : "Entry Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "openShift",
+    "columns" : [ "openShiftActualCode", " openShiftCode", " openShiftEntityType", " openShiftId" ],
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Genericreference"
+  }, {
+    "id" : "paymentMethod",
+    "column" : "paymentMethod_id",
+    "ar" : "طريقة الدفع",
+    "en" : " Payment Method",
+    "type" : "Reference",
+    "refTo" : "PaymentMethod",
+    "refPath" : "/modules/basic/PaymentMethod.html"
+  }, {
+    "id" : "paymentMethodType",
+    "column" : "paymentMethodType",
+    "ar" : "نوع طريقة الدفع",
+    "en" : "Payment Method Type",
+    "type" : "Enum",
+    "enum" : "PaymentMethodType"
+  }, {
+    "id" : "rate",
+    "column" : "rate",
+    "ar" : "المعدل",
+    "en" : "Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "safeDeposit",
+    "column" : "safeDeposit_id",
+    "type" : "Reference",
+    "refTo" : "SafeDeposite",
+    "refPath" : "/modules/basic/SafeDeposite.html"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

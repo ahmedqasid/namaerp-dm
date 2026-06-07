@@ -1,0 +1,42 @@
+{
+  "enum" : "FSLineLevel",
+  "values" : [ {
+    "id" : "Main",
+    "ar" : "رئيسى",
+    "en" : "Main"
+  }, {
+    "id" : "Main1"
+  }, {
+    "id" : "Main2",
+    "ar" : "رئيسى 2",
+    "en" : "Main 2"
+  }, {
+    "id" : "Main3",
+    "ar" : "رئيسى 3",
+    "en" : "Main 3"
+  }, {
+    "id" : "Middle",
+    "ar" : "متوسط",
+    "en" : "Middle"
+  }, {
+    "id" : "Middle2",
+    "ar" : "متوسط 2",
+    "en" : "Middle 2"
+  }, {
+    "id" : "Middle3",
+    "ar" : "متوسط 3",
+    "en" : "Middle 3"
+  }, {
+    "id" : "Leaf",
+    "ar" : "فرعى",
+    "en" : "Leaf"
+  }, {
+    "id" : "Leaf2",
+    "ar" : "فرعى 2",
+    "en" : "Leaf 2"
+  }, {
+    "id" : "Leaf3",
+    "ar" : "فرعى 3",
+    "en" : "Leaf 3"
+  } ]
+}

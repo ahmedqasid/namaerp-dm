@@ -1,0 +1,44 @@
+{
+  "enum" : "PurposeType",
+  "values" : [ {
+    "id" : "Purpose1",
+    "ar" : "غرض 1",
+    "en" : "Purpose 1"
+  }, {
+    "id" : "Purpose2",
+    "ar" : "غرض 2",
+    "en" : "Purpose 2"
+  }, {
+    "id" : "Purpose3",
+    "ar" : "غرض 3",
+    "en" : "Purpose 3"
+  }, {
+    "id" : "Purpose4",
+    "ar" : "غرض 4",
+    "en" : "Purpose 4"
+  }, {
+    "id" : "Purpose5",
+    "ar" : "غرض 5",
+    "en" : "Purpose 5"
+  }, {
+    "id" : "Purpose6",
+    "ar" : "غرض 6",
+    "en" : "Purpose 6"
+  }, {
+    "id" : "Purpose7",
+    "ar" : "غرض 7",
+    "en" : "Purpose 7"
+  }, {
+    "id" : "Purpose8",
+    "ar" : "غرض 8",
+    "en" : "Purpose 8"
+  }, {
+    "id" : "Purpose9",
+    "ar" : "غرض 9",
+    "en" : "Purpose 9"
+  }, {
+    "id" : "Purpose10",
+    "ar" : "غرض 10",
+    "en" : "Purpose 10"
+  } ]
+}

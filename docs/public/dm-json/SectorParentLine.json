@@ -1,0 +1,11 @@
+{
+  "entity" : "SectorParentLine",
+  "table" : "SectorParentLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SectorParentLine.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

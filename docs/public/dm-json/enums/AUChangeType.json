@@ -1,0 +1,8 @@
+{
+  "enum" : "AUChangeType",
+  "values" : [ {
+    "id" : "Up"
+  }, {
+    "id" : "Down"
+  } ]
+}

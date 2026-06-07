@@ -1,0 +1,16 @@
+{
+  "enum" : "InterestCalcMethod",
+  "values" : [ {
+    "id" : "Yearly",
+    "ar" : "سنوي",
+    "en" : "Yearly"
+  }, {
+    "id" : "Monthly",
+    "ar" : "شهري",
+    "en" : "Monthly"
+  }, {
+    "id" : "Daily",
+    "ar" : "يومي",
+    "en" : "Daily"
+  } ]
+}

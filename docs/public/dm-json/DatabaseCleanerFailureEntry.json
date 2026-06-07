@@ -1,0 +1,41 @@
+{
+  "entity" : "DatabaseCleanerFailureEntry",
+  "table" : "DatabaseCleanerFailureEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/DatabaseCleanerFailureEntry.html",
+  "fields" : [ {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "failureDate",
+    "column" : "failureDate",
+    "ar" : "التاريخ",
+    "en" : "Failure Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "reason",
+    "column" : "reason",
+    "ar" : "السبب",
+    "en" : "Reason",
+    "type" : "BigText"
+  }, {
+    "id" : "record",
+    "columns" : [ "recordActualCode", " recordCode", " recordEntityType", " recordId" ],
+    "ar" : "السجل",
+    "en" : "Record",
+    "type" : "Genericreference"
+  } ]
+}

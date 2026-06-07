@@ -1,0 +1,62 @@
+{
+  "entity" : "StockAgesTask",
+  "table" : "StockAgesTask",
+  "module" : "system-tables",
+  "ar" : "Stock Ages Tasks",
+  "en" : "Stock Ages Tasks",
+  "page" : "https://dm.namasoft.com/modules/system-tables/StockAgesTask.html",
+  "fields" : [ {
+    "id" : "calledFromIndex",
+    "column" : "calledFromIndex",
+    "ar" : "Called From Index",
+    "en" : "Called From Index",
+    "type" : "BigText"
+  }, {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "executionDate",
+    "column" : "executionDate",
+    "ar" : "تاريخ التنفيذ",
+    "en" : "Execution Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
+    "id" : "stockAgesIndex",
+    "column" : "stockAgesIndex",
+    "ar" : "Stock Ages Index",
+    "en" : "Stock Ages Index",
+    "type" : "Text"
+  }, {
+    "id" : "submitionDate",
+    "column" : "submitionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Submition Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "trials",
+    "column" : "trials",
+    "ar" : "عدد محاولات",
+    "en" : "Trials",
+    "type" : "Integer"
+  } ]
+}

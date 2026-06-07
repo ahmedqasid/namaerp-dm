@@ -1,0 +1,20 @@
+{
+  "enum" : "SalarySheetStatus",
+  "values" : [ {
+    "id" : "Draft",
+    "ar" : "مسودة",
+    "en" : "Draft"
+  }, {
+    "id" : "Stable",
+    "ar" : "ثابت",
+    "en" : "Stable"
+  }, {
+    "id" : "WaitingApproval",
+    "ar" : "بإنتظار الموافقة",
+    "en" : "Waiting Approval"
+  }, {
+    "id" : "WithoutSalarySheet",
+    "ar" : "بدون سجل راتب",
+    "en" : "Without Salary Sheet"
+  } ]
+}

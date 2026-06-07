@@ -1,0 +1,12 @@
+{
+  "enum" : "SecurityApplicationType",
+  "values" : [ {
+    "id" : "Allow",
+    "ar" : " سماح",
+    "en" : " Allow"
+  }, {
+    "id" : "Prevent",
+    "ar" : " منع",
+    "en" : " Prevent"
+  } ]
+}

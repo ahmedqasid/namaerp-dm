@@ -1,0 +1,36 @@
+{
+  "enum" : "JODocStatus",
+  "values" : [ {
+    "id" : "NotStarted",
+    "ar" : "لم تبدأ",
+    "en" : "Not Started"
+  }, {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "UnderProcedure",
+    "ar" : "تحت الإجراء",
+    "en" : "UnderProcedure"
+  }, {
+    "id" : "TotalyExecuted",
+    "ar" : "مُنفذ تماماً",
+    "en" : "Totaly Executed"
+  }, {
+    "id" : "UnderExecuted",
+    "ar" : "تحت التنفيذ",
+    "en" : "Under Executed"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  }, {
+    "id" : "PartialReceipt",
+    "ar" : "مُسلَم جزئياً",
+    "en" : "Partial Receipt"
+  }, {
+    "id" : "TotalyReceipt",
+    "ar" : "مُسلَم كلياً",
+    "en" : "Totaly Receipt"
+  } ]
+}

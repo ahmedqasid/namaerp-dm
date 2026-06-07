@@ -1,0 +1,20 @@
+{
+  "enum" : "JRLineStyle",
+  "values" : [ {
+    "id" : "Solid",
+    "ar" : "Solid",
+    "en" : "Solid"
+  }, {
+    "id" : "Dashed",
+    "ar" : "Dashed",
+    "en" : "Dashed"
+  }, {
+    "id" : "Dotted",
+    "ar" : "Dotted",
+    "en" : "Dotted"
+  }, {
+    "id" : "Double",
+    "ar" : "Double",
+    "en" : "Double"
+  } ]
+}

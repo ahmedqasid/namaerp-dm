@@ -1,0 +1,16 @@
+{
+  "enum" : "WarePriority",
+  "values" : [ {
+    "id" : "Quantity",
+    "ar" : "الكمية",
+    "en" : "Quantity"
+  }, {
+    "id" : "WareOrder",
+    "ar" : "ترتيب المخزن",
+    "en" : "Warehouse Order"
+  }, {
+    "id" : "Distance",
+    "ar" : "المسافة",
+    "en" : "Distance"
+  } ]
+}

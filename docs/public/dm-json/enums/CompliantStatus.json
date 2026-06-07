@@ -1,0 +1,20 @@
+{
+  "enum" : "CompliantStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  }, {
+    "id" : "Escalated",
+    "ar" : "مرفوعة",
+    "en" : "Escalated"
+  }, {
+    "id" : "Closed",
+    "ar" : "مغلقة",
+    "en" : "Closed"
+  } ]
+}

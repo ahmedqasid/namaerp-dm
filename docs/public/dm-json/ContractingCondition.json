@@ -1,0 +1,1272 @@
+{
+  "entity" : "ContractingCondition",
+  "table" : "ContractingCondition",
+  "module" : "contracting",
+  "ar" : "شرط قياسي",
+  "arPlural" : "شروط قياسية",
+  "en" : "Contracting Condition",
+  "enPlural" : " Contracting Condition",
+  "page" : "https://dm.namasoft.com/modules/contracting/ContractingCondition.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "calculatedAfterPrevConds",
+    "column" : "calculatedAfterPrevConds",
+    "ar" : "يحسب بعد إضافة قيم الشروط التي تسبقة",
+    "en" : "Calculated After Previous Conditions",
+    "type" : "Boolean"
+  }, {
+    "id" : "canUpdateCondValue",
+    "column" : "canUpdateCondValue",
+    "ar" : "يمكن تعديل قيمة الشرط",
+    "en" : "Can Update Condition Value",
+    "type" : "Boolean"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "conditionValueCanExceedContractPlannedValue",
+    "column" : "conditionValueCanExceedContractPlannedValue",
+    "ar" : "قيمة الشرط يمكن أن تتخطى القيمة المخططة في العقد",
+    "en" : "Condition Value Can Exceed Contract Planned Value",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "credit.accountRef",
+    "column" : "cAccountRef_id",
+    "ar" : "الحساب",
+    "en" : "Account",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "credit.accountSource.accFrmBagCrrncy",
+    "column" : "cAccountSourceAccFrmBagCrrncy",
+    "ar" : "اختيار الحساب من الحقيبة حسب العملة ونوع الحساب",
+    "en" : "Calculate Account Based On Currency From Bag",
+    "type" : "Boolean"
+  }, {
+    "id" : "credit.accountSource.entityType",
+    "column" : "cAccountSourceEntityType",
+    "ar" : " نوع المرجع",
+    "en" : " Reference Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "credit.accountSource.fieldID",
+    "column" : "cAccountSourceFieldID",
+    "ar" : "الحقل مصدر المرجع",
+    "en" : "Reference Source Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "credit.accountSource.type",
+    "column" : "cAccountSourceType",
+    "ar" : "نوع مصدر الحساب",
+    "en" : "Account Source type",
+    "type" : "Enum",
+    "enum" : "AccountDimensionSourceType"
+  }, {
+    "id" : "credit.analysisSetSource.entityType",
+    "column" : "cAnalysisSetSourceEntityType",
+    "ar" : "نوع المرجع",
+    "en" : "Reference Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "credit.analysisSetSource.fieldID",
+    "column" : "cAnalysisSetSourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "credit.analysisSetSource.type",
+    "column" : "cAnalysisSetSourceType",
+    "ar" : "نوع مصدر المجموعة التحليلي",
+    "en" : "AnalysisSet Source type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "credit.bagAccountId",
+    "column" : "cBagAccountId",
+    "ar" : "كود الحساب من الحقيبة / حقل الحساب",
+    "en" : "Bag Account Id / Field ID",
+    "type" : "Text"
+  }, {
+    "id" : "credit.branchSource.entityType",
+    "column" : "cBranchSourceEntityType",
+    "ar" : " نوع المرجع",
+    "en" : " Reference Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "credit.branchSource.fieldID",
+    "column" : "cBranchSourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "credit.branchSource.type",
+    "column" : "cBranchSourceType",
+    "ar" : "نوع مصدر الفرع",
+    "en" : "Branch Source type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "credit.currencySourceField",
+    "column" : "cCurrencySourceField",
+    "ar" : "الحقل مصدر العملة",
+    "en" : "Currency Source Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "credit.departmentSource.entityType",
+    "column" : "cDepartmentSourceEntityType",
+    "ar" : " نوع المرجع",
+    "en" : " Reference Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "credit.departmentSource.fieldID",
+    "column" : "cDepartmentSourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "credit.departmentSource.type",
+    "column" : "cDepartmentSourceType",
+    "ar" : "نوع مصدر الإدارة",
+    "en" : "Department Source type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "credit.dimensions.analysisSet",
+    "column" : "cDimensionsAnalysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "credit.dimensions.branch",
+    "column" : "cDimensionsBranch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "credit.dimensions.department",
+    "column" : "cDimensionsDepartment_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "credit.dimensions.legalEntity",
+    "column" : "cDimensionsLegalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "credit.dimensions.sector",
+    "column" : "cDimensionsSector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "credit.entityDimension",
+    "columns" : [ "cEntityDimensionActualCode", " cEntityDimensionCode", " cEntityDimensionEntityType", " cEntityDimensionId" ],
+    "ar" : "السجل",
+    "en" : "Entity Dimension",
+    "type" : "Genericreference"
+  }, {
+    "id" : "credit.entityDimensionSource.entityType",
+    "column" : "cEnttyDmnsonSourceEntityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "credit.entityDimensionSource.fieldID",
+    "column" : "cEntityDimensionSourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "credit.entityDimensionSource.type",
+    "column" : "cEntityDimensionSourceType",
+    "ar" : "نوع مصدر السجل",
+    "en" : "Entity Source Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "credit.ignoreUnfoundFieldsInRefsAndEntityDimension",
+    "column" : "cIgnrUnfundFldsInRfsAndEnttyDmnsn",
+    "ar" : "تجاهل خطأ عدم وجود حقل في المراجع والسجل",
+    "en" : "Ignore Unfound Fields In References And Entity Dimension",
+    "type" : "Boolean"
+  }, {
+    "id" : "credit.narration2Query",
+    "column" : "cNarration2Query",
+    "ar" : "استعلام الشرح 2",
+    "en" : "Narration 2 Query",
+    "type" : "BigText"
+  }, {
+    "id" : "credit.narration2Template",
+    "column" : "cNarration2Template",
+    "ar" : "قالب الشرح 2",
+    "en" : "Narration 2 Template",
+    "type" : "BigText"
+  }, {
+    "id" : "credit.narrationQuery",
+    "column" : "cNarrationQuery",
+    "ar" : "استعلام الشرح",
+    "en" : "Narration Query",
+    "type" : "BigText"
+  }, {
+    "id" : "credit.narrationTemplate",
+    "column" : "cNarrationTemplate",
+    "ar" : "قالب الشرح",
+    "en" : "Narration Template",
+    "type" : "BigText"
+  }, {
+    "id" : "credit.rateSourceField",
+    "column" : "cRateSourceField",
+    "ar" : "الحقل مصدر المعدل",
+    "en" : "Rate Source Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "credit.ref1",
+    "columns" : [ "cRef1ActualCode", " cRef1Code", " cRef1EntityType", " cRef1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "credit.ref1Source.entityType",
+    "column" : "cRef1SourceEntityType",
+    "ar" : " نوع المرجع",
+    "en" : " Reference Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "credit.ref1Source.fieldID",
+    "column" : "cRef1SourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "credit.ref1Source.type",
+    "column" : "cRef1SourceType",
+    "ar" : "نوع مصدر مرجع 1",
+    "en" : "Ref1 Source type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "credit.ref2",
+    "columns" : [ "cRef2ActualCode", " cRef2Code", " cRef2EntityType", " cRef2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "credit.ref2Source.entityType",
+    "column" : "cRef2SourceEntityType",
+    "ar" : " نوع المرجع",
+    "en" : " Reference Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "credit.ref2Source.fieldID",
+    "column" : "cRef2SourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "credit.ref2Source.type",
+    "column" : "cRef2SourceType",
+    "ar" : "نوع مصدر مرجع 2",
+    "en" : "Ref2 Source type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "credit.ref3",
+    "columns" : [ "cRef3ActualCode", " cRef3Code", " cRef3EntityType", " cRef3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "credit.ref3Source.entityType",
+    "column" : "cRef3SourceEntityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "credit.ref3Source.fieldID",
+    "column" : "cRef3SourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "credit.ref3Source.type",
+    "column" : "cRef3SourceType",
+    "ar" : "نوع مصدر مرجع 3",
+    "en" : "Ref3 Source type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "credit.sectorSource.entityType",
+    "column" : "cSectorSourceEntityType",
+    "ar" : " نوع المرجع",
+    "en" : " Reference Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "credit.sectorSource.fieldID",
+    "column" : "cSectorSourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "credit.sectorSource.type",
+    "column" : "cSectorSourceType",
+    "ar" : "نوع مصدر القطاع",
+    "en" : "Sector Source type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "credit.sideConfig",
+    "column" : "cSideConfig_id",
+    "ar" : "الجانب المحاسبي",
+    "en" : "Side Configuration",
+    "type" : "Reference",
+    "refTo" : "AccountingSideConfig",
+    "refPath" : "/modules/basic/AccountingSideConfig.html"
+  }, {
+    "id" : "credit.sqlStatment",
+    "column" : "cSqlStatment",
+    "ar" : "SQLجملة",
+    "en" : "SQL Statement",
+    "type" : "BigText"
+  }, {
+    "id" : "credit.subsidiaryAccountType",
+    "column" : "cSubsidiaryAccountType",
+    "ar" : "نوع الحافظة",
+    "en" : "Subsidiary account type",
+    "type" : "Enum",
+    "enum" : "SubsidiaryAccountType"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customEquationLinesSource",
+    "column" : "customEquationLinesSource",
+    "ar" : "مصدر سطور المعادلة المخصصة",
+    "en" : "Custom Equation Lines Source",
+    "type" : "Enum",
+    "enum" : "CustomEquationLinesSource"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "debit.accountRef",
+    "column" : "dAccountRef_id",
+    "ar" : "الحساب",
+    "en" : "Account",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "debit.accountSource.accFrmBagCrrncy",
+    "column" : "dAccountSourceAccFrmBagCrrncy",
+    "ar" : "اختيار الحساب من الحقيبة حسب العملة ونوع الحساب",
+    "en" : "Calculate Account Based On Currency From Bag",
+    "type" : "Boolean"
+  }, {
+    "id" : "debit.accountSource.entityType",
+    "column" : "dAccountSourceEntityType",
+    "ar" : " نوع المرجع",
+    "en" : " Reference Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "debit.accountSource.fieldID",
+    "column" : "dAccountSourceFieldID",
+    "ar" : "الحقل مصدر المرجع",
+    "en" : "Reference Source Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "debit.accountSource.type",
+    "column" : "dAccountSourceType",
+    "ar" : "نوع مصدر الحساب",
+    "en" : "Account Source type",
+    "type" : "Enum",
+    "enum" : "AccountDimensionSourceType"
+  }, {
+    "id" : "debit.analysisSetSource.entityType",
+    "column" : "dAnalysisSetSourceEntityType",
+    "ar" : "نوع المرجع",
+    "en" : "Reference Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "debit.analysisSetSource.fieldID",
+    "column" : "dAnalysisSetSourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "debit.analysisSetSource.type",
+    "column" : "dAnalysisSetSourceType",
+    "ar" : "نوع مصدر المجموعة التحليلي",
+    "en" : "AnalysisSet Source type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "debit.bagAccountId",
+    "column" : "dBagAccountId",
+    "ar" : "كود الحساب من الحقيبة / حقل الحساب",
+    "en" : "Bag Account Id / Field ID",
+    "type" : "Text"
+  }, {
+    "id" : "debit.branchSource.entityType",
+    "column" : "dBranchSourceEntityType",
+    "ar" : " نوع المرجع",
+    "en" : " Reference Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "debit.branchSource.fieldID",
+    "column" : "dBranchSourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "debit.branchSource.type",
+    "column" : "dBranchSourceType",
+    "ar" : "نوع مصدر الفرع",
+    "en" : "Branch Source type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "debit.currencySourceField",
+    "column" : "dCurrencySourceField",
+    "ar" : "الحقل مصدر العملة",
+    "en" : "Currency Source Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "debit.departmentSource.entityType",
+    "column" : "dDepartmentSourceEntityType",
+    "ar" : " نوع المرجع",
+    "en" : " Reference Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "debit.departmentSource.fieldID",
+    "column" : "dDepartmentSourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "debit.departmentSource.type",
+    "column" : "dDepartmentSourceType",
+    "ar" : "نوع مصدر الإدارة",
+    "en" : "Department Source type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "debit.dimensions.analysisSet",
+    "column" : "dDimensionsAnalysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "debit.dimensions.branch",
+    "column" : "dDimensionsBranch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "debit.dimensions.department",
+    "column" : "dDimensionsDepartment_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "debit.dimensions.legalEntity",
+    "column" : "dDimensionsLegalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "debit.dimensions.sector",
+    "column" : "dDimensionsSector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "debit.entityDimension",
+    "columns" : [ "dEntityDimensionActualCode", " dEntityDimensionCode", " dEntityDimensionEntityType", " dEntityDimensionId" ],
+    "ar" : "السجل",
+    "en" : "Entity Dimension",
+    "type" : "Genericreference"
+  }, {
+    "id" : "debit.entityDimensionSource.entityType",
+    "column" : "dEnttyDmnsonSourceEntityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "debit.entityDimensionSource.fieldID",
+    "column" : "dEntityDimensionSourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "debit.entityDimensionSource.type",
+    "column" : "dEntityDimensionSourceType",
+    "ar" : "نوع مصدر السجل",
+    "en" : "Entity Source Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "debit.ignoreUnfoundFieldsInRefsAndEntityDimension",
+    "column" : "dIgnrUnfundFldsInRfsAndEnttyDmnsn",
+    "ar" : "تجاهل خطأ عدم وجود حقل في المراجع والسجل",
+    "en" : "Ignore Unfound Fields In References And Entity Dimension",
+    "type" : "Boolean"
+  }, {
+    "id" : "debit.narration2Query",
+    "column" : "dNarration2Query",
+    "ar" : "استعلام الشرح 2",
+    "en" : "Narration 2 Query",
+    "type" : "BigText"
+  }, {
+    "id" : "debit.narration2Template",
+    "column" : "dNarration2Template",
+    "ar" : "قالب الشرح 2",
+    "en" : "Narration 2 Template",
+    "type" : "BigText"
+  }, {
+    "id" : "debit.narrationQuery",
+    "column" : "dNarrationQuery",
+    "ar" : "استعلام الشرح",
+    "en" : "Narration Query",
+    "type" : "BigText"
+  }, {
+    "id" : "debit.narrationTemplate",
+    "column" : "dNarrationTemplate",
+    "ar" : "قالب الشرح",
+    "en" : "Narration Template",
+    "type" : "BigText"
+  }, {
+    "id" : "debit.rateSourceField",
+    "column" : "dRateSourceField",
+    "ar" : "الحقل مصدر المعدل",
+    "en" : "Rate Source Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "debit.ref1",
+    "columns" : [ "dRef1ActualCode", " dRef1Code", " dRef1EntityType", " dRef1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "debit.ref1Source.entityType",
+    "column" : "dRef1SourceEntityType",
+    "ar" : " نوع المرجع",
+    "en" : " Reference Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "debit.ref1Source.fieldID",
+    "column" : "dRef1SourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "debit.ref1Source.type",
+    "column" : "dRef1SourceType",
+    "ar" : "نوع مصدر مرجع 1",
+    "en" : "Ref1 Source type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "debit.ref2",
+    "columns" : [ "dRef2ActualCode", " dRef2Code", " dRef2EntityType", " dRef2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "debit.ref2Source.entityType",
+    "column" : "dRef2SourceEntityType",
+    "ar" : " نوع المرجع",
+    "en" : " Reference Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "debit.ref2Source.fieldID",
+    "column" : "dRef2SourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "debit.ref2Source.type",
+    "column" : "dRef2SourceType",
+    "ar" : "نوع مصدر مرجع 2",
+    "en" : "Ref2 Source type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "debit.ref3",
+    "columns" : [ "dRef3ActualCode", " dRef3Code", " dRef3EntityType", " dRef3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "debit.ref3Source.entityType",
+    "column" : "dRef3SourceEntityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "debit.ref3Source.fieldID",
+    "column" : "dRef3SourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "debit.ref3Source.type",
+    "column" : "dRef3SourceType",
+    "ar" : "نوع مصدر مرجع 3",
+    "en" : "Ref3 Source type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "debit.sectorSource.entityType",
+    "column" : "dSectorSourceEntityType",
+    "ar" : " نوع المرجع",
+    "en" : " Reference Type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceEntityType"
+  }, {
+    "id" : "debit.sectorSource.fieldID",
+    "column" : "dSectorSourceFieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "debit.sectorSource.type",
+    "column" : "dSectorSourceType",
+    "ar" : "نوع مصدر القطاع",
+    "en" : "Sector Source type",
+    "type" : "Enum",
+    "enum" : "DimensionSourceType"
+  }, {
+    "id" : "debit.sideConfig",
+    "column" : "dSideConfig_id",
+    "ar" : "الجانب المحاسبي",
+    "en" : "Side Configuration",
+    "type" : "Reference",
+    "refTo" : "AccountingSideConfig",
+    "refPath" : "/modules/basic/AccountingSideConfig.html"
+  }, {
+    "id" : "debit.sqlStatment",
+    "column" : "dSqlStatment",
+    "ar" : "SQLجملة",
+    "en" : "SQL Statement",
+    "type" : "BigText"
+  }, {
+    "id" : "debit.subsidiaryAccountType",
+    "column" : "dSubsidiaryAccountType",
+    "ar" : "نوع الحافظة",
+    "en" : "Subsidiary account type",
+    "type" : "Enum",
+    "enum" : "SubsidiaryAccountType"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "doNotAffectRemaining",
+    "column" : "doNotAffectRemaining",
+    "ar" : "عدم التأثير على المتبقي",
+    "en" : "Do Not Affect Remaining",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotCollectInExConditions",
+    "column" : "doNotCollectInExConditions",
+    "ar" : "عدم تجميع الشرط عند تجميع الشروط في المستخلص",
+    "en" : "Do Not Collect In Extract Conditions",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotUseWithContractorContract",
+    "column" : "doNotUseWithContractorContract",
+    "ar" : "لا يستخدم مع مقاولة مقاول باطن",
+    "en" : "Do Not Use With Contractor Contract",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotUseWithProjectContract",
+    "column" : "doNotUseWithProjectContract",
+    "ar" : "لا يستخدم مع مقاولة مشروع",
+    "en" : "Do Not Use With Project Contract",
+    "type" : "Boolean"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "effectType",
+    "column" : "effectType",
+    "ar" : "نوع التأثير",
+    "en" : "Component Effect Type",
+    "type" : "Enum",
+    "enum" : "ConditionEffectType"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "finishedPercent",
+    "column" : "finishedPercent",
+    "ar" : "نسبة الإتمام",
+    "en" : "Finished Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "maxValue",
+    "column" : "maxValue",
+    "ar" : "أقصي قيمة",
+    "en" : "Maximum Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxValueType",
+    "column" : "maxValueType",
+    "ar" : "نوع أقصي قيمة",
+    "en" : "Maximum Value Type",
+    "type" : "Enum",
+    "enum" : "ConditionValType"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "phase",
+    "column" : "phase_id",
+    "ar" : "المرحلة",
+    "en" : "Phase or Cycle",
+    "type" : "Reference",
+    "refTo" : "ContractingPhase",
+    "refPath" : "/modules/contracting/ContractingPhase.html"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "query",
+    "column" : "query",
+    "ar" : "الاستعلام",
+    "en" : "Query",
+    "type" : "BigText"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "taxCredit",
+    "column" : "taxCredit_id",
+    "ar" : "الضريبة - دائن",
+    "en" : "Tax Credit",
+    "type" : "Reference",
+    "refTo" : "AccountingSideConfig",
+    "refPath" : "/modules/basic/AccountingSideConfig.html"
+  }, {
+    "id" : "taxDebit",
+    "column" : "taxDebit_id",
+    "ar" : "الضريبة - مدين",
+    "en" : "Tax Debit",
+    "type" : "Reference",
+    "refTo" : "AccountingSideConfig",
+    "refPath" : "/modules/basic/AccountingSideConfig.html"
+  }, {
+    "id" : "textConditionExplanation",
+    "column" : "textConditionExplanation",
+    "ar" : "شرح الشرط النصي",
+    "en" : "Text Condition Explanation",
+    "type" : "BigText"
+  }, {
+    "id" : "type",
+    "column" : "type",
+    "ar" : "النوع",
+    "en" : "Type",
+    "type" : "Enum",
+    "enum" : "ConditionType"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "value",
+    "column" : "value",
+    "ar" : "القيمة",
+    "en" : "Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "valueType",
+    "column" : "valueType",
+    "ar" : "نوع القيمة",
+    "en" : "Value Type",
+    "type" : "Enum",
+    "enum" : "ConditionValType"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "customEquationLines",
+    "table" : "ContractingConditionCustomEquationLine",
+    "joinColumn" : "contractingCondition_id",
+    "ar" : "تفاصيل المعادلة المخصصة",
+    "en" : "Custom Equation Lines",
+    "fields" : [ {
+      "id" : "customEquationLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "customEquationLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "customEquationLines.sourceOperation",
+      "column" : "sourceOperation",
+      "ar" : "Source Operation",
+      "en" : "Source Operation",
+      "type" : "Enum",
+      "enum" : "MoneyEffectOperation"
+    }, {
+      "id" : "customEquationLines.sourceType",
+      "column" : "sourceType",
+      "ar" : "Source Type",
+      "en" : "Source Type",
+      "type" : "Enum",
+      "enum" : "MoneyEffectSourceType"
+    }, {
+      "id" : "customEquationLines.sourceValue",
+      "column" : "sourceValue",
+      "ar" : "Source Value",
+      "en" : "Source Value",
+      "type" : "Enum",
+      "enum" : "MoneyEffectSource"
+    } ]
+  } ]
+}

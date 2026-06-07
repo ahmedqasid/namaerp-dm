@@ -1,0 +1,343 @@
+{
+  "entity" : "SysItemLine",
+  "table" : "SysItemLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SysItemLine.html",
+  "fields" : [ {
+    "id" : "approvalNotRequired",
+    "column" : "approvalNotRequired",
+    "ar" : "لا يحتاج الى تشغيلة يوم",
+    "en" : "Approval Not Required",
+    "type" : "Boolean"
+  }, {
+    "id" : "customer",
+    "column" : "customer_id",
+    "ar" : "العميل",
+    "en" : "Customer",
+    "type" : "Reference",
+    "refTo" : "Customer",
+    "refPath" : "/modules/basic/Customer.html"
+  }, {
+    "id" : "damagedDetails",
+    "column" : "damagedDetails",
+    "type" : "BigText"
+  }, {
+    "id" : "deliveredDetails",
+    "column" : "deliveredDetails",
+    "type" : "BigText"
+  }, {
+    "id" : "deliveredQty",
+    "column" : "deliveredQty",
+    "ar" : "حالة الكميات | المستلمة",
+    "en" : "Quantity Status | Delivered",
+    "type" : "Decimal"
+  }, {
+    "id" : "deliveryExpenses",
+    "column" : "deliveryExpenses",
+    "ar" : "تكاليف تسليم إضافية",
+    "en" : "Additional Delivery Expenses",
+    "type" : "Decimal"
+  }, {
+    "id" : "dimensions.analysisSet",
+    "column" : "dimensionsAnalysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "dimensions.branch",
+    "column" : "dimensionsBranch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "dimensions.department",
+    "column" : "dimensionsDepartment_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "dimensions.legalEntity",
+    "column" : "dimensionsLegalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "dimensions.sector",
+    "column" : "dimensionsSector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "executionCost",
+    "column" : "executionCost",
+    "ar" : "تكلفة تنفيذ التشغيلة",
+    "en" : "Execution Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "finishExpenses",
+    "column" : "finishExpenses",
+    "ar" : "تكاليف إنتاج إضافية",
+    "en" : "Additional Finish Expenses",
+    "type" : "Decimal"
+  }, {
+    "id" : "finishNotRequired",
+    "column" : "finishNotRequired",
+    "ar" : "لا يوجد تسليم لصالة التسليم",
+    "en" : "Finish Not Required",
+    "type" : "Boolean"
+  }, {
+    "id" : "finishedDetails",
+    "column" : "finishedDetails",
+    "type" : "BigText"
+  }, {
+    "id" : "finishedQty",
+    "column" : "finishedQty",
+    "ar" : "حالة الكميات | الكمية المنتهية",
+    "en" : "Quantity Status | Finished Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "freeItem",
+    "column" : "freeItem",
+    "ar" : "الصنف المجانى",
+    "en" : "Free Item",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "invoicedDetails",
+    "column" : "invoicedDetails",
+    "type" : "BigText"
+  }, {
+    "id" : "invoicedQty",
+    "column" : "invoicedQty",
+    "type" : "Decimal"
+  }, {
+    "id" : "issuedDetails",
+    "column" : "issuedDetails",
+    "type" : "BigText"
+  }, {
+    "id" : "item",
+    "column" : "item_id",
+    "ar" : "الصنف",
+    "en" : "Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "itemCost",
+    "column" : "itemCost",
+    "ar" : "تكلفة الصنف",
+    "en" : "Item Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "itemCostDetails",
+    "column" : "itemCostDetails",
+    "type" : "BigText"
+  }, {
+    "id" : "itemNumber",
+    "column" : "itemNumber",
+    "ar" : "رقم",
+    "en" : "Number",
+    "type" : "BigText"
+  }, {
+    "id" : "lineNum",
+    "column" : "lineNum",
+    "type" : "Integer"
+  }, {
+    "id" : "lineStatus",
+    "column" : "lineStatus",
+    "ar" : "حالة السطر",
+    "en" : "Line Status",
+    "type" : "Enum",
+    "enum" : "OrderStatus"
+  }, {
+    "id" : "materialCost",
+    "column" : "materialCost",
+    "ar" : "تكلفة مواد التصنيع",
+    "en" : "Material Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "order",
+    "column" : "order_id",
+    "ar" : "أمر الشغل",
+    "en" : "Job Order",
+    "type" : "Reference",
+    "refTo" : "GlassJobOrder",
+    "refPath" : "/modules/supplychain-gjo/GlassJobOrder.html"
+  }, {
+    "id" : "orderId",
+    "column" : "orderId",
+    "type" : "ID"
+  }, {
+    "id" : "orderListId",
+    "column" : "orderListId",
+    "type" : "ID"
+  }, {
+    "id" : "orderType",
+    "column" : "orderType",
+    "ar" : "نوع الإذن",
+    "en" : "Order Type",
+    "type" : "Enum",
+    "enum" : "JobOrderType"
+  }, {
+    "id" : "outsourcedDetails",
+    "column" : "outsourcedDetails",
+    "type" : "BigText"
+  }, {
+    "id" : "price",
+    "column" : "price",
+    "ar" : "السعر",
+    "en" : "Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "quantity.baseQty.uom",
+    "column" : "baseUom_id",
+    "ar" : "الوحدة",
+    "en" : "Unit",
+    "type" : "Reference",
+    "refTo" : "UOM",
+    "refPath" : "/modules/supplychain/UOM.html"
+  }, {
+    "id" : "quantity.baseQty.value",
+    "column" : "baseValue",
+    "ar" : "الكمية",
+    "en" : "Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "quantity.itemAssortment",
+    "column" : "itemAssortment_id",
+    "ar" : "التشكيلة",
+    "en" : "The Assortment",
+    "type" : "Reference",
+    "refTo" : "ItemAssortment",
+    "refPath" : "/modules/supplychain/ItemAssortment.html"
+  }, {
+    "id" : "quantity.measureQty",
+    "column" : "measureQty",
+    "ar" : "الأبعاد | عدد",
+    "en" : "Measures | Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "quantity.measures.clippedLength1",
+    "column" : "clippedLength1",
+    "ar" : "أبعادالجزء المقصوص 1 | الطول",
+    "en" : "Clipped Part1 Measures | Length",
+    "type" : "Decimal"
+  }, {
+    "id" : "quantity.measures.height",
+    "column" : "height",
+    "ar" : "الأبعاد | ر",
+    "en" : "Measures | H",
+    "type" : "Decimal"
+  }, {
+    "id" : "quantity.measures.length",
+    "column" : "length",
+    "ar" : "الأبعاد | ط",
+    "en" : "Measures | L",
+    "type" : "Decimal"
+  }, {
+    "id" : "quantity.measures.text",
+    "column" : "text",
+    "ar" : "الأبعاد | الأبعاد",
+    "en" : "Measures | L * W * H",
+    "type" : "Measures"
+  }, {
+    "id" : "quantity.measures.width",
+    "column" : "width",
+    "ar" : "الأبعاد | ع",
+    "en" : "Measures | W",
+    "type" : "Decimal"
+  }, {
+    "id" : "quantity.quantity.primeQty.uom",
+    "column" : "pUom_id",
+    "ar" : "الوحدة الرئيسية | الوحدة",
+    "en" : "Primary | UOM",
+    "type" : "Reference",
+    "refTo" : "UOM",
+    "refPath" : "/modules/supplychain/UOM.html"
+  }, {
+    "id" : "quantity.quantity.primeQty.value",
+    "column" : "pValue",
+    "ar" : "الوحدة الرئيسية | الكمية",
+    "en" : "Primary | Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "quantity.quantity.secondQty.uom",
+    "column" : "sUom_id",
+    "ar" : "الوحدة الثانية | الوحدة",
+    "en" : "Secondary | UOM",
+    "type" : "Reference",
+    "refTo" : "UOM",
+    "refPath" : "/modules/supplychain/UOM.html"
+  }, {
+    "id" : "quantity.quantity.secondQty.value",
+    "column" : "sValue",
+    "ar" : "الوحدة الثانية | الكمية",
+    "en" : "Secondary | Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "quantity.uomRate",
+    "column" : "uomRate",
+    "type" : "Decimal"
+  }, {
+    "id" : "remarks",
+    "column" : "remarks",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reprocessNumber",
+    "column" : "reprocessNumber",
+    "type" : "Integer"
+  }, {
+    "id" : "salesPriceWithServices",
+    "column" : "salesPriceWithServices",
+    "ar" : "سعر البيع بالتشغيلات",
+    "en" : "Sales Price With Services",
+    "type" : "Decimal"
+  }, {
+    "id" : "serviceInInvoice",
+    "column" : "serviceInInvoice",
+    "type" : "Boolean"
+  }, {
+    "id" : "servicesDetails",
+    "column" : "servicesDetails",
+    "type" : "BigText"
+  }, {
+    "id" : "sourceBOMLine",
+    "column" : "sourceBOMLine",
+    "type" : "ID"
+  }, {
+    "id" : "toBeFinishedDetails",
+    "column" : "toBeFinishedDetails",
+    "type" : "BigText"
+  }, {
+    "id" : "totalCost",
+    "column" : "totalCost",
+    "ar" : "اجمالى التكلفة",
+    "en" : "Total Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "wareDetails",
+    "column" : "wareDetails",
+    "type" : "BigText"
+  } ]
+}

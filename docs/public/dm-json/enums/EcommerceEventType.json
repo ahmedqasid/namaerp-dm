@@ -1,0 +1,24 @@
+{
+  "enum" : "EcommerceEventType",
+  "values" : [ {
+    "id" : "ConfigurationNotMatched",
+    "ar" : "Configuration Not Matched",
+    "en" : "Configuration Not Matched"
+  }, {
+    "id" : "ItemNotFound",
+    "ar" : "Item Not Found",
+    "en" : "Item Not Found"
+  }, {
+    "id" : "UpdateItem",
+    "ar" : "Update Item",
+    "en" : "Update Item"
+  }, {
+    "id" : "UpdateItemPrice",
+    "ar" : "Update Item Price",
+    "en" : "Update Item Price"
+  }, {
+    "id" : "UpdateItemQuantity",
+    "ar" : "Update Item Quantity",
+    "en" : "Update Item Quantity"
+  } ]
+}

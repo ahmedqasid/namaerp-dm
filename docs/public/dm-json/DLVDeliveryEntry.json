@@ -1,0 +1,101 @@
+{
+  "entity" : "DLVDeliveryEntry",
+  "table" : "DLVDeliveryEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/DLVDeliveryEntry.html",
+  "fields" : [ {
+    "id" : "actualDeliveryDateTime",
+    "column" : "actualDeliveryDateTime",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "address",
+    "column" : "address",
+    "ar" : "العنوان",
+    "en" : "Address",
+    "type" : "BigText"
+  }, {
+    "id" : "classCd",
+    "columns" : [ "classCdActualCode", " classCdCode", " classCdEntityType", " classCdId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "deliverTo",
+    "columns" : [ "deliverToActualCode", " deliverToCode", " deliverToEntityType", " deliverToId" ],
+    "ar" : " العميل",
+    "en" : " Customer",
+    "type" : "Genericreference"
+  }, {
+    "id" : "deliveredBy",
+    "column" : "deliveredBy_id",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "deliveredByCar",
+    "column" : "deliveredByCar_id",
+    "type" : "Reference",
+    "refTo" : "DeliveryCar",
+    "refPath" : "/modules/basic/DeliveryCar.html"
+  }, {
+    "id" : "deliveryArea",
+    "column" : "deliveryArea_id",
+    "ar" : "منطقة توصيل",
+    "en" : "Delivery Area",
+    "type" : "Reference",
+    "refTo" : "DLVDeliveryArea",
+    "refPath" : "/modules/basic-mobile-shipment-delivery/DLVDeliveryArea.html"
+  }, {
+    "id" : "deliveryDocument",
+    "columns" : [ "deliveryDocumentActualCode", " deliveryDocumentCode", " deliveryDocumentEntityType", " deliveryDocumentId" ],
+    "ar" : "المستند الموصل",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "location",
+    "column" : "location",
+    "ar" : "الموقع المخزني",
+    "en" : "Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "originalPlannedDeliveryDateTime",
+    "column" : "originalPlannedDeliveryDateTime",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "phoneNumber",
+    "column" : "phoneNumber",
+    "ar" : "رقم الهاتف",
+    "en" : "Phone Number",
+    "type" : "Text"
+  }, {
+    "id" : "plannedDeliveryDateTime",
+    "column" : "plannedDeliveryDateTime",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "shipment",
+    "column" : "shipment",
+    "ar" : " شحنة",
+    "en" : " Shipment",
+    "type" : "Text"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "DLVDeliveredStatus"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

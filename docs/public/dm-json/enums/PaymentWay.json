@@ -1,0 +1,12 @@
+{
+  "enum" : "PaymentWay",
+  "values" : [ {
+    "id" : "SuppliersFacilities",
+    "ar" : "تسهيلات موردين",
+    "en" : "Suppliers Facilities"
+  }, {
+    "id" : "BanksFacilities",
+    "ar" : "تسهيلات بنكية",
+    "en" : "Banks Facilities"
+  } ]
+}

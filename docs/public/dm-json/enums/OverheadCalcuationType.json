@@ -1,0 +1,48 @@
+{
+  "enum" : "OverheadCalcuationType",
+  "values" : [ {
+    "id" : "ResourceTimeAmount",
+    "ar" : "قيمة لكل ساعة مورد",
+    "en" : "Resource Time Amount"
+  }, {
+    "id" : "MoldsAmount",
+    "ar" : "قيمة لكل قالب",
+    "en" : "Molds Amount"
+  }, {
+    "id" : "MaterialPercentage",
+    "ar" : "نسبة من تكلفة المواد الخام",
+    "en" : "Material Percentage"
+  }, {
+    "id" : "ResourceAndMaterialPercentage",
+    "ar" : "نسبة من التكاليف الأولية ( مواد خام+ موارد)",
+    "en" : "Resource And Material Percentage"
+  }, {
+    "id" : "ResourcePercentage",
+    "ar" : "نسبة من تكلفة الموارد",
+    "en" : "Resource Percentage"
+  }, {
+    "id" : "FinalProductAmount",
+    "ar" : "قيمة لكل وحدة منتجة",
+    "en" : "Final Product Amount"
+  }, {
+    "id" : "MachineAmont",
+    "ar" : "قيمة لكل ساعة آلة",
+    "en" : "Machine Amount"
+  }, {
+    "id" : "HumanResourceTimeAmount",
+    "ar" : "قيمة لكل ساعة مورد بشري",
+    "en" : "Human Resource Time Amount"
+  }, {
+    "id" : "Custom",
+    "ar" : "مخصص",
+    "en" : "Custom"
+  }, {
+    "id" : "MaterialAmont",
+    "ar" : "قيمة لكل وحدة ماده خام",
+    "en" : "Value Per Material Amont"
+  }, {
+    "id" : "ExecutionTimeAmount",
+    "ar" : "قيمة لكل ساعة عمل ( من سند التنفيذ)",
+    "en" : "Execution Time Amount"
+  } ]
+}

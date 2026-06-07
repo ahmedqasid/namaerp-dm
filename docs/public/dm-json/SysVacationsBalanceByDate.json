@@ -1,0 +1,131 @@
+{
+  "entity" : "SysVacationsBalanceByDate",
+  "table" : "SysVacationsBalanceByDate",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SysVacationsBalanceByDate.html",
+  "fields" : [ {
+    "id" : "addedBalance",
+    "column" : "addedBalance",
+    "ar" : "الرصيد المضاف",
+    "en" : "Added Balance",
+    "type" : "Decimal"
+  }, {
+    "id" : "assignedVacationsDays",
+    "column" : "assignedVacationsDays",
+    "ar" : "أيام الأجازات المخصصة",
+    "en" : "Assigned Vacations Days",
+    "type" : "Decimal"
+  }, {
+    "id" : "balance",
+    "column" : "balance",
+    "ar" : "الرصيد",
+    "en" : "Balance",
+    "type" : "Decimal"
+  }, {
+    "id" : "changedByDoc",
+    "column" : "changedByDoc",
+    "type" : "Boolean"
+  }, {
+    "id" : "consumed",
+    "column" : "consumed",
+    "ar" : "المستهلك",
+    "en" : "Consumed",
+    "type" : "Decimal"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "inheritedConsiderRetDateAsWorkStart",
+    "column" : "inheritedConsiderRetDateAsWorkStart",
+    "type" : "Boolean"
+  }, {
+    "id" : "lineId",
+    "column" : "lineId",
+    "ar" : "م",
+    "en" : "S",
+    "type" : "ID"
+  }, {
+    "id" : "lineIndex",
+    "column" : "lineIndex",
+    "type" : "Integer"
+  }, {
+    "id" : "manualBalance",
+    "column" : "manualBalance",
+    "ar" : "مستند رصيد يدوي",
+    "en" : "Manual Balance",
+    "type" : "Boolean"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "periodBalance",
+    "column" : "periodBalance",
+    "ar" : "رصيد فتري",
+    "en" : "Period Balance",
+    "type" : "Decimal"
+  }, {
+    "id" : "remainder",
+    "column" : "remainder",
+    "ar" : "المتبقي",
+    "en" : "Remainder",
+    "type" : "Decimal"
+  }, {
+    "id" : "sortByDate",
+    "column" : "sortByDate",
+    "ar" : "ترتيب بالتاريخ",
+    "en" : "Sort By Date",
+    "type" : "Date"
+  }, {
+    "id" : "startDate",
+    "column" : "startDate",
+    "ar" : "تاريخ البداية",
+    "en" : "Start Date",
+    "type" : "Date"
+  }, {
+    "id" : "vacDocCreationDate",
+    "column" : "vacDocCreationDate",
+    "ar" : "تاريخ إنشاء مستند الاجازة",
+    "en" : "Vacation Document Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "vacationReason",
+    "column" : "vacationReason_id",
+    "ar" : "سبب الأجازة",
+    "en" : "vacation Reason",
+    "type" : "Reference",
+    "refTo" : "LeaveReason",
+    "refPath" : "/modules/humanresource-payroll/LeaveReason.html"
+  }, {
+    "id" : "vacationType",
+    "column" : "vacationType_id",
+    "ar" : "نوع الأجازة",
+    "en" : "Vacation Type",
+    "type" : "Reference",
+    "refTo" : "VacationType",
+    "refPath" : "/modules/humanresource-payroll/VacationType.html"
+  }, {
+    "id" : "workStartDate",
+    "column" : "workStartDate",
+    "ar" : "تاريخ بدء العمل",
+    "en" : "Work Start Date",
+    "type" : "Date"
+  }, {
+    "id" : "workStartDoc",
+    "columns" : [ "workStartDocActualCode", " workStartDocCode", " workStartDocEntityType", " workStartDocId" ],
+    "ar" : "مستند المباشرة",
+    "en" : "Work Starting Document",
+    "type" : "Genericreference"
+  } ]
+}

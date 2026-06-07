@@ -1,0 +1,12 @@
+{
+  "enum" : "OnlinePaymentType",
+  "values" : [ {
+    "id" : "KNet",
+    "ar" : "K-Net",
+    "en" : "K-Net"
+  }, {
+    "id" : "MyFatoorah",
+    "ar" : "My Fatoorah",
+    "en" : "My Fatoorah"
+  } ]
+}

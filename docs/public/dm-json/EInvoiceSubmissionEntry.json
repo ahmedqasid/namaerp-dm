@@ -1,0 +1,131 @@
+{
+  "entity" : "EInvoiceSubmissionEntry",
+  "table" : "EInvoiceSubmissionEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EInvoiceSubmissionEntry.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "config",
+    "column" : "config_id",
+    "type" : "Reference",
+    "refTo" : "TaxPayerConfiguration",
+    "refPath" : "/modules/basic-tax-e-invoice/TaxPayerConfiguration.html"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "doc",
+    "columns" : [ "docActualCode", " docCode", " docEntityType", " docId" ],
+    "ar" : "المستند",
+    "en" : "Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "einvoiceAsJson",
+    "column" : "einvoiceAsJson",
+    "type" : "BigText"
+  }, {
+    "id" : "einvoiceAsString",
+    "column" : "einvoiceAsString",
+    "type" : "BigText"
+  }, {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "maxDueDate",
+    "column" : "maxDueDate",
+    "type" : "Date"
+  }, {
+    "id" : "requestBody",
+    "column" : "requestBody",
+    "ar" : "Request Body",
+    "en" : "Request Body",
+    "type" : "BigText"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "EInvoiceSubmissionEntryStatus"
+  }, {
+    "id" : "taxAuthSysFields.submissionUUID",
+    "column" : "submissionUUID",
+    "ar" : "معرف مرحلة الارسال",
+    "en" : "Submission ID",
+    "type" : "Text"
+  }, {
+    "id" : "taxAuthSysFields.taxAuthEntityStatusType",
+    "column" : "taxAuthEntityStatusType",
+    "ar" : "حالة المستند بالنسبة لمصلحة الضرائب",
+    "en" : "Tax Authority Document Type",
+    "type" : "Enum",
+    "enum" : "TaxAuthorityEntityStatusType"
+  }, {
+    "id" : "taxAuthSysFields.taxAuthUUID",
+    "column" : "taxAuthUUID",
+    "ar" : "معرف المستند داخل مصلحة الضرائب",
+    "en" : "Tax Authority Document View ID",
+    "type" : "Text"
+  }, {
+    "id" : "taxAuthSysFields.temporaryId",
+    "column" : "temporaryId",
+    "ar" : "معرف لمطالعة المستند بدون تسجيل دخول",
+    "en" : "Tax Authority Not Registered Person Document View ID",
+    "type" : "Text"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

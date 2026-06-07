@@ -1,0 +1,32 @@
+{
+  "enum" : "MnVisitType",
+  "values" : [ {
+    "id" : "Daily",
+    "ar" : "يومي",
+    "en" : "Daily"
+  }, {
+    "id" : "Weekly",
+    "ar" : "أسبوعي",
+    "en" : "Weekly"
+  }, {
+    "id" : "Bimonthly",
+    "ar" : "نصف شهرية",
+    "en" : "Bimonthly"
+  }, {
+    "id" : "Monthly",
+    "ar" : "شهرية",
+    "en" : "Monthly"
+  }, {
+    "id" : "Quarterly",
+    "ar" : "ربع سنوية",
+    "en" : "Quarterly"
+  }, {
+    "id" : "Biannual",
+    "ar" : "نصف سنوية",
+    "en" : "Biannual"
+  }, {
+    "id" : "Yearly",
+    "ar" : "سنوية",
+    "en" : "Yearly"
+  } ]
+}

@@ -1,0 +1,13 @@
+{
+  "enum" : "TransactionRequestType",
+  "values" : [ {
+    "id" : "Create",
+    "ar" : "إنشاء"
+  }, {
+    "id" : "Update"
+  }, {
+    "id" : "Delete",
+    "ar" : "حذف",
+    "en" : "Delete"
+  } ]
+}

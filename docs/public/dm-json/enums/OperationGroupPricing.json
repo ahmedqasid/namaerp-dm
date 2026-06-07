@@ -1,0 +1,12 @@
+{
+  "enum" : "OperationGroupPricing",
+  "values" : [ {
+    "id" : "PerLine",
+    "ar" : "لكل سطر",
+    "en" : "Per Line"
+  }, {
+    "id" : "Total",
+    "ar" : " الإجمالي",
+    "en" : " Total"
+  } ]
+}

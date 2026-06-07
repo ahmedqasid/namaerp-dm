@@ -1,0 +1,209 @@
+{
+  "entity" : "SavedBusinessRequest",
+  "table" : "SavedBusinessRequest",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SavedBusinessRequest.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "compressed",
+    "column" : "compressed",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "data",
+    "column" : "data",
+    "ar" : "Email Sent Data",
+    "en" : "Email Sent Data",
+    "type" : ""
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "initiator",
+    "column" : "initiator_id",
+    "ar" : "العملية",
+    "en" : "Initiator",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "origin",
+    "columns" : [ "originCode", " originCode", " originType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "originCode",
+    "column" : "originCode",
+    "ar" : " الكود",
+    "en" : " Code",
+    "type" : "Text"
+  }, {
+    "id" : "originCreationDate",
+    "column" : "originCreationDate",
+    "ar" : " تاريخ الإنشاء",
+    "en" : " Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "originId",
+    "column" : "originId",
+    "type" : "ID"
+  }, {
+    "id" : "originLastUpdateDate",
+    "column" : "originLastUpdateDate",
+    "ar" : "تاريخ اخر تحديث للمستند",
+    "en" : "Origin Last Update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "originLineId",
+    "column" : "originLineId",
+    "type" : "ID"
+  }, {
+    "id" : "originTransId",
+    "column" : "originTransId",
+    "type" : "ID"
+  }, {
+    "id" : "originTransactionSeq",
+    "column" : "originTransactionSeq",
+    "type" : "Long"
+  }, {
+    "id" : "originType",
+    "column" : "originType",
+    "ar" : " النوع",
+    "en" : " Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "replicationSequence",
+    "column" : "replicationSequence",
+    "type" : "Integer"
+  }, {
+    "id" : "reqBody",
+    "column" : "reqBody",
+    "type" : "BigText"
+  }, {
+    "id" : "requestInfo",
+    "column" : "requestInfo",
+    "ar" : "Request Info",
+    "en" : "Request Info",
+    "type" : "Text"
+  }, {
+    "id" : "requestType",
+    "column" : "requestType",
+    "ar" : "نوع الطلب",
+    "en" : "Reqyest Type",
+    "type" : "Enum",
+    "enum" : "TransactionRequestType"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "simpleName",
+    "column" : "simpleName",
+    "ar" : "Request Name",
+    "en" : "Request Name",
+    "type" : "Text"
+  }, {
+    "id" : "transStatus",
+    "column" : "transStatus",
+    "ar" : "حالة المعالجة",
+    "en" : "Processing Status",
+    "type" : "Enum",
+    "enum" : "TransactionRequestStatus"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

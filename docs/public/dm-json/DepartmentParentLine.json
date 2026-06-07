@@ -1,0 +1,11 @@
+{
+  "entity" : "DepartmentParentLine",
+  "table" : "DepartmentParentLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/DepartmentParentLine.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

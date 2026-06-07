@@ -1,0 +1,16 @@
+{
+  "enum" : "VacationRepetitionStart",
+  "values" : [ {
+    "id" : "HiringDate",
+    "ar" : " من تاريخ تعيين",
+    "en" : " From Hiring Date"
+  }, {
+    "id" : "FiscalYear",
+    "ar" : "سنة مالية",
+    "en" : "Fiscal Year"
+  }, {
+    "id" : "HRYear",
+    "ar" : "سنة رواتب",
+    "en" : "HR Year"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "enum" : "MCContractType",
+  "values" : [ {
+    "id" : "Labor",
+    "ar" : "عمالة",
+    "en" : "Labor"
+  }, {
+    "id" : "EquipmentsItems",
+    "ar" : "العدد والاداوت",
+    "en" : "Equipments Items"
+  }, {
+    "id" : "OperationAndMaintenance",
+    "ar" : "تشغيل وصيانة",
+    "en" : "Operation And Maintenance"
+  }, {
+    "id" : "ConsumedItems",
+    "ar" : "المواد المستهلكة",
+    "en" : "Consumed Items"
+  } ]
+}

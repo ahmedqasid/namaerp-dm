@@ -1,0 +1,38 @@
+{
+  "enum" : "DistributionOrder",
+  "values" : [ {
+    "id" : "First",
+    "ar" : "الاول",
+    "en" : "First"
+  }, {
+    "id" : "Second",
+    "ar" : "الثاني",
+    "en" : "Second"
+  }, {
+    "id" : "Third",
+    "ar" : "الثالث",
+    "en" : "Third"
+  }, {
+    "id" : "Fourth",
+    "ar" : "الرابع",
+    "en" : "Fourth"
+  }, {
+    "id" : "Fifth",
+    "ar" : "الخامس",
+    "en" : "Fifth"
+  }, {
+    "id" : "Sixth",
+    "ar" : "السادس",
+    "en" : "Sixth"
+  }, {
+    "id" : "Seventh",
+    "ar" : "السابع",
+    "en" : "Seventh"
+  }, {
+    "id" : "Eighth"
+  }, {
+    "id" : "Ninth"
+  }, {
+    "id" : "Tenth"
+  } ]
+}

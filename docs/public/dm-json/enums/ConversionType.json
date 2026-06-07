@@ -1,0 +1,24 @@
+{
+  "enum" : "ConversionType",
+  "values" : [ {
+    "id" : "Standard",
+    "ar" : "قياسي",
+    "en" : "Standard"
+  }, {
+    "id" : "Group",
+    "ar" : "مجموعة",
+    "en" : "Group"
+  }, {
+    "id" : "ItemPrimary",
+    "ar" : "الوحدة الرئيسية لصنف",
+    "en" : "Item Primary"
+  }, {
+    "id" : "ItemSecondary",
+    "ar" : "الوحدة الثانية لصنف",
+    "en" : "Item Secondary"
+  }, {
+    "id" : "Lot",
+    "ar" : "شحنة",
+    "en" : "Lot"
+  } ]
+}

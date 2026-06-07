@@ -1,0 +1,88 @@
+{
+  "enum" : "FormulaType",
+  "values" : [ {
+    "id" : "PercentageFromTotals",
+    "ar" : "نسبة من الإجمالي",
+    "en" : "Percentage From Totals"
+  }, {
+    "id" : "PercentageFromAdditions",
+    "ar" : "نسبة من الإضافات",
+    "en" : "Percentage From Additions"
+  }, {
+    "id" : "PercentageFromDeductions",
+    "ar" : "نسبة من الأستقطاعات",
+    "en" : "Percentage From Deductions"
+  }, {
+    "id" : "InsurancePercentage",
+    "ar" : "نسبة من وعاء التأمينات",
+    "en" : "Insurance Percentage"
+  }, {
+    "id" : "FixedInsurancePercentage",
+    "ar" : "نسبة من وعاء التأمينات الثابتة",
+    "en" : "Fixed Insurance Percentage"
+  }, {
+    "id" : "VariableInsurancePercentage",
+    "ar" : "نسبة من وعاء التأمينات المتغيرة",
+    "en" : "Variable Insurance Percentage"
+  }, {
+    "id" : "TaxPercentage",
+    "ar" : "نسبة من وعاء الضرائب",
+    "en" : "Tax Percentage"
+  }, {
+    "id" : "RelatedToComponent",
+    "ar" : "مرتبط بمفرد",
+    "en" : "Related To Component"
+  }, {
+    "id" : "RelatedToPerformanceIndecator",
+    "ar" : "مرتبط بمؤشر أداء",
+    "en" : "Related To Performance Indecator"
+  }, {
+    "id" : "CompositeFormula",
+    "ar" : "تتكون من معادلات أخري",
+    "en" : "Composite Formula"
+  }, {
+    "id" : "Taxes",
+    "ar" : "الضرائب",
+    "en" : "Taxes"
+  }, {
+    "id" : "EmployeeVariableInsurancePercent",
+    "ar" : " حصة العامل في الأساسي التأميني المتغيربناء",
+    "en" : " Employee Variable Insurance Percent"
+  }, {
+    "id" : "EmployeeFixedInsurancePercent",
+    "ar" : " حصة العامل في الأساسي التأميني الثابت",
+    "en" : " Employee Fixed Insurance Percent"
+  }, {
+    "id" : "EmployeeInsurancePercent",
+    "ar" : "إجمالي حصة العامل في التامينات",
+    "en" : "Employee Insurance Percent"
+  }, {
+    "id" : "CompanyVariableInsurancePercent",
+    "ar" : " حصة الشركة في الأساسي التأميني المتغير",
+    "en" : " Company Variable Insurance Percent"
+  }, {
+    "id" : "CompanyFixedInsurancePercent",
+    "ar" : "حصة الشركة في الأساسي التأميني الثابت",
+    "en" : "Company Fixed Insurance Percent"
+  }, {
+    "id" : "CompanyInsurancePercent",
+    "ar" : "إجمالي حصة الشركة في التامينات",
+    "en" : "Company Insurance Percent"
+  }, {
+    "id" : "FixedValueInOffer",
+    "ar" : "القيمة المثبتة بالعرض الوظيفي",
+    "en" : "Fixed Value In Offer"
+  }, {
+    "id" : "PercentageFromServiceEnd",
+    "ar" : "نسبة من نهاية الخدمة",
+    "en" : "Percentage From Service End"
+  }, {
+    "id" : "BalanceFromEmployeeAccountDrCr",
+    "ar" : "رصيد حساب من حسابات الموظف (مدين - دائن)",
+    "en" : "Balance From Employee Account (Debit - Credit)"
+  }, {
+    "id" : "BalanceFromEmployeeAccountCrDr",
+    "ar" : "رصيد حساب من حسابات الموظف (دائن - مدين)",
+    "en" : "Balance From Employee Account (Credit - Debit)"
+  } ]
+}

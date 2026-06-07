@@ -1,0 +1,12 @@
+{
+  "enum" : "InstallmentsType",
+  "values" : [ {
+    "id" : "Fixed",
+    "ar" : "ثابت",
+    "en" : "Fixed"
+  }, {
+    "id" : "Decreasing",
+    "ar" : "متناقص",
+    "en" : "Decreasing"
+  } ]
+}

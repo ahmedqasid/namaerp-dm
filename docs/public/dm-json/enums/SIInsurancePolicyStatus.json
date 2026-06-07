@@ -1,0 +1,20 @@
+{
+  "enum" : "SIInsurancePolicyStatus",
+  "values" : [ {
+    "id" : "FirstTime",
+    "ar" : "أول مرة",
+    "en" : "First Time"
+  }, {
+    "id" : "Renewal",
+    "ar" : "تجديد",
+    "en" : "renewal"
+  }, {
+    "id" : "PeriodAdjustment",
+    "ar" : "تعديل فترة",
+    "en" : "Period Adjustment"
+  }, {
+    "id" : "ValueAdjustment",
+    "ar" : "تعديل قيمة",
+    "en" : "Value Adjustment"
+  } ]
+}

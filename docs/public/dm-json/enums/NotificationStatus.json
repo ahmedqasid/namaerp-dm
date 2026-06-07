@@ -1,0 +1,10 @@
+{
+  "enum" : "NotificationStatus",
+  "values" : [ {
+    "id" : "Viewed"
+  }, {
+    "id" : "Pending",
+    "ar" : "معلق",
+    "en" : "Pending"
+  } ]
+}

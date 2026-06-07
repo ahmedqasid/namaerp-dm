@@ -1,0 +1,12 @@
+{
+  "enum" : "RiskExistenceType",
+  "values" : [ {
+    "id" : "PoliticsExist",
+    "ar" : "السياسة موجودة",
+    "en" : "Politics Is Exist"
+  }, {
+    "id" : "PoliticsNotExist",
+    "ar" : "السياسة غير موجودة",
+    "en" : "Politics Does Not Exist"
+  } ]
+}

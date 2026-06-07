@@ -1,0 +1,36 @@
+{
+  "enum" : "FSDebitCreditEquationType",
+  "values" : [ {
+    "id" : "DebitMinusCredit",
+    "ar" : "مدين ناقص دائن",
+    "en" : "Debit Only"
+  }, {
+    "id" : "CreditMinusDebit",
+    "ar" : "دائن ناقص مدين",
+    "en" : "Credit Only"
+  }, {
+    "id" : "TotalCredit",
+    "ar" : "دائن فقط",
+    "en" : "Total Credit"
+  }, {
+    "id" : "TotalDebit",
+    "ar" : "مدين فقط",
+    "en" : "Total Debit"
+  }, {
+    "id" : "Equation",
+    "ar" : "معادلة",
+    "en" : "Equation"
+  }, {
+    "id" : "ConstantValue",
+    "ar" : "قيمة ثابتة",
+    "en" : "Constant Value"
+  }, {
+    "id" : "LineTitle",
+    "ar" : "العنوان",
+    "en" : "Title"
+  }, {
+    "id" : "SettingsFile",
+    "ar" : "ملف الإعدادات",
+    "en" : "Settings File"
+  } ]
+}

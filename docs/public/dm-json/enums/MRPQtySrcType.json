@@ -1,0 +1,12 @@
+{
+  "enum" : "MRPQtySrcType",
+  "values" : [ {
+    "id" : "TotalAvailable",
+    "ar" : "إجمالي المتاح",
+    "en" : "Total Available"
+  }, {
+    "id" : "PredictedPurchase",
+    "ar" : "المتوقع دخولة",
+    "en" : "Predicted Purchase"
+  } ]
+}

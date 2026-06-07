@@ -1,0 +1,16 @@
+{
+  "enum" : "EntityCreationType",
+  "values" : [ {
+    "id" : "CreateOnly",
+    "ar" : "إنشاء فقط",
+    "en" : "Create Only"
+  }, {
+    "id" : "UpdateOnly",
+    "ar" : "تحديث فقط",
+    "en" : "Update Only"
+  }, {
+    "id" : "CreateAndUpdate",
+    "ar" : "إنشاء وتحديث",
+    "en" : "Create And Update"
+  } ]
+}

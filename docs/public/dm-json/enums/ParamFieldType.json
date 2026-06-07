@@ -1,0 +1,64 @@
+{
+  "enum" : "ParamFieldType",
+  "values" : [ {
+    "id" : "Text",
+    "ar" : "نص",
+    "en" : "Text"
+  }, {
+    "id" : "Integer",
+    "ar" : "رقم صحيح",
+    "en" : "Integer"
+  }, {
+    "id" : "Long",
+    "ar" : "Long",
+    "en" : "Long"
+  }, {
+    "id" : "Decimal",
+    "ar" : "رقم كسر",
+    "en" : "Decimal"
+  }, {
+    "id" : "Boolean",
+    "ar" : "صواب او خطأ",
+    "en" : "Boolean"
+  }, {
+    "id" : "Date",
+    "ar" : "تاريخ",
+    "en" : "Date"
+  }, {
+    "id" : "Time",
+    "ar" : "وقت",
+    "en" : "Time"
+  }, {
+    "id" : "Reference",
+    "ar" : "Reference",
+    "en" : "Reference"
+  }, {
+    "id" : "BigText",
+    "ar" : "BigText",
+    "en" : "BigText"
+  }, {
+    "id" : "Enum",
+    "ar" : "Enum",
+    "en" : "Enum"
+  }, {
+    "id" : "ID",
+    "ar" : "ID",
+    "en" : "ID"
+  }, {
+    "id" : "EntityType",
+    "ar" : "نوع",
+    "en" : "Entity Type"
+  }, {
+    "id" : "Genericreference",
+    "ar" : "Genericreference",
+    "en" : "Generic Reference"
+  }, {
+    "id" : "Password",
+    "ar" : "Password",
+    "en" : "Password"
+  }, {
+    "id" : "LatLng",
+    "ar" : "LatLng",
+    "en" : "LatLng"
+  } ]
+}

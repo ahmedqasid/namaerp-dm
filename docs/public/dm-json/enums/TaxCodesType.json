@@ -1,0 +1,36 @@
+{
+  "enum" : "TaxCodesType",
+  "values" : [ {
+    "id" : "TaxPayerConfiguration",
+    "ar" : "إعدادات مصلحة الضرائب",
+    "en" : "Electronic Tax Authority Configuration"
+  }, {
+    "id" : "TermTaxPlan",
+    "ar" : "سياسة الضريبة في التوجيه (رأس المستند)",
+    "en" : "Term Config Tax Plan (Header)"
+  }, {
+    "id" : "TermTaxPlanLine",
+    "ar" : "سياسة الضريبة في التوجيه (سطور المستند)",
+    "en" : "Term Config Tax Plan (Details)"
+  }, {
+    "id" : "ItemTaxPlan",
+    "ar" : "سياسة الضريبة في الصنف (رأس المستند)",
+    "en" : "Item Tax Plan (Header)"
+  }, {
+    "id" : "ItemTaxPlanLine",
+    "ar" : "سياسة الضريبة في الصنف (سطور المستند)",
+    "en" : "Item Tax Plan (Details)"
+  }, {
+    "id" : "ReceiverTaxPlan",
+    "ar" : "سياسة الضريبة بالعميل (رأس المستند)",
+    "en" : "Customer Tax Plan (Header)"
+  }, {
+    "id" : "ReceiverTaxPlanLine",
+    "ar" : "سياسة الضريبة بالعميل (سطور المستند)",
+    "en" : "Customer Tax Plan (Details)"
+  }, {
+    "id" : "LikeTaxPlan",
+    "ar" : "مثل السياسة الضريبية في الفواتير",
+    "en" : "Like Invoice Tax Plan"
+  } ]
+}

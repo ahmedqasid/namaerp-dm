@@ -1,0 +1,46 @@
+{
+  "entity" : "AdditionalCostLine",
+  "table" : "AdditionalCostLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AdditionalCostLine.html",
+  "fields" : [ {
+    "id" : "cost",
+    "column" : "cost_id",
+    "ar" : "التكلفة",
+    "en" : "Cost",
+    "type" : "Reference",
+    "refTo" : "AdditionalCost",
+    "refPath" : "/modules/basic/AdditionalCost.html"
+  }, {
+    "id" : "distribution",
+    "column" : "distribution",
+    "ar" : "التوزيع على الأصناف",
+    "en" : "Distribution on items",
+    "type" : "Enum",
+    "enum" : "CostDistribution"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "item",
+    "column" : "item_id",
+    "ar" : "الصنف",
+    "en" : "Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "remarks",
+    "column" : "remarks",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "value",
+    "column" : "value",
+    "ar" : "القيمة",
+    "en" : "Value",
+    "type" : "Decimal"
+  } ]
+}

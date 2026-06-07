@@ -1,0 +1,62 @@
+{
+  "entity" : "DebtLineMatcher",
+  "table" : "DebtLineMatcher",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/DebtLineMatcher.html",
+  "fields" : [ {
+    "id" : "creditLine",
+    "column" : "creditLine_id",
+    "type" : "",
+    "refTo" : "DebtLine",
+    "refPath" : "/modules/system-tables/DebtLine.html"
+  }, {
+    "id" : "creditValueDate",
+    "column" : "creditValueDate",
+    "type" : "Date"
+  }, {
+    "id" : "debitLine",
+    "column" : "debitLine_id",
+    "type" : "",
+    "refTo" : "DebtLine",
+    "refPath" : "/modules/system-tables/DebtLine.html"
+  }, {
+    "id" : "debitValueDate",
+    "column" : "debitValueDate",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "isManual",
+    "column" : "isManual",
+    "type" : "Boolean"
+  }, {
+    "id" : "ledgerReqId",
+    "column" : "ledgerReqId",
+    "type" : "ID"
+  }, {
+    "id" : "manualEffectType",
+    "column" : "manualEffectType",
+    "type" : "Enum",
+    "enum" : "LedgerEffectType"
+  }, {
+    "id" : "remainingCredit",
+    "column" : "remainingCredit",
+    "type" : "Decimal"
+  }, {
+    "id" : "remainingDebit",
+    "column" : "remainingDebit",
+    "type" : "Decimal"
+  }, {
+    "id" : "searchIndex",
+    "column" : "searchIndex",
+    "type" : "Text"
+  }, {
+    "id" : "value",
+    "column" : "value",
+    "ar" : "القيمة",
+    "en" : "Value",
+    "type" : "Decimal"
+  } ]
+}

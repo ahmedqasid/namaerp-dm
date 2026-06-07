@@ -1,0 +1,12 @@
+{
+  "enum" : "RequestType",
+  "values" : [ {
+    "id" : "New",
+    "ar" : "جديد",
+    "en" : "New"
+  }, {
+    "id" : "Renewal",
+    "ar" : "تجديد",
+    "en" : "Renewal"
+  } ]
+}

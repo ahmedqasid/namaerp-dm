@@ -1,0 +1,47 @@
+{
+  "entity" : "WathqCallInfo",
+  "table" : "WathqCallInfo",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/WathqCallInfo.html",
+  "fields" : [ {
+    "id" : "commercialRegNo",
+    "column" : "commercialRegNo",
+    "ar" : "رقم السجل التجاري",
+    "en" : "Commercial Registration Number",
+    "type" : "Text"
+  }, {
+    "id" : "crNationalNumber",
+    "column" : "crNationalNumber",
+    "ar" : "الرقم الوطني الموحد",
+    "en" : "Commercial Registration National Number",
+    "type" : "Text"
+  }, {
+    "id" : "entityActionKlass",
+    "column" : "entityActionKlass",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "onRecord",
+    "columns" : [ "onRecordActualCode", " onRecordCode", " onRecordEntityType", " onRecordId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "onTime",
+    "column" : "onTime",
+    "ar" : "الوقت",
+    "en" : "Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "user",
+    "columns" : [ "userActualCode", " userCode", " userEntityType", " userId" ],
+    "ar" : "المستخدم",
+    "en" : "User",
+    "type" : "Genericreference"
+  }, {
+    "id" : "wathqResponse",
+    "column" : "wathqResponse",
+    "type" : "BigText"
+  } ]
+}

@@ -1,0 +1,121 @@
+{
+  "entity" : "HealthInsuranceSysEntry",
+  "table" : "HealthInsuranceSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/HealthInsuranceSysEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "effectedDoc",
+    "columns" : [ "effectedDocActualCode", " effectedDocCode", " effectedDocEntityType", " effectedDocId" ],
+    "ar" : "كود السند",
+    "en" : "Document Code",
+    "type" : "Genericreference"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "employeeDuePercentage",
+    "column" : "employeeDuePercentage",
+    "ar" : "المستحق من الموظف | نسبة",
+    "en" : "Employee Due value | Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "insuranceCategory",
+    "column" : "insuranceCategory",
+    "ar" : "فئة التأمين",
+    "en" : "Insurance Category",
+    "type" : "Enum",
+    "enum" : "InsuranceCategory"
+  }, {
+    "id" : "insuranceCompany",
+    "column" : "insuranceCompany_id",
+    "ar" : "شركة التأمين",
+    "en" : "Insurance Company",
+    "type" : "Reference",
+    "refTo" : "ThirdParty",
+    "refPath" : "/modules/basic/ThirdParty.html"
+  }, {
+    "id" : "insuranceCostPerDay",
+    "column" : "insuranceCostPerDay",
+    "ar" : "تكلفة التأمين اليومية",
+    "en" : "Insurance Cost Per Day",
+    "type" : "Decimal"
+  }, {
+    "id" : "insuranceCostPerMonth",
+    "column" : "insuranceCostPerMonth",
+    "ar" : "تكلفة التأمين الشهرية",
+    "en" : "Insurance Cost Per Month",
+    "type" : "Decimal"
+  }, {
+    "id" : "insuranceInstallmentValue",
+    "column" : "insuranceInstallmentValue",
+    "ar" : "قيمة التأمين السنوية",
+    "en" : "Insurance Cost Per Year",
+    "type" : "Decimal"
+  }, {
+    "id" : "name",
+    "column" : "name",
+    "ar" : "الاسم",
+    "en" : "Name",
+    "type" : "Text"
+  }, {
+    "id" : "numberOfDays",
+    "column" : "numberOfDays",
+    "ar" : "عدد الايام",
+    "en" : "Number Of Days",
+    "type" : "Integer"
+  }, {
+    "id" : "offerId",
+    "column" : "offerId",
+    "type" : "ID"
+  }, {
+    "id" : "originalToDate",
+    "column" : "originalToDate",
+    "type" : "Date"
+  }, {
+    "id" : "policyValue",
+    "column" : "policyValue",
+    "ar" : "قيمة الوثيقة",
+    "en" : "Policy Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "relationType",
+    "column" : "relationType",
+    "ar" : "صلة القرابة",
+    "en" : "Relation Type",
+    "type" : "Enum",
+    "enum" : "RelationType"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

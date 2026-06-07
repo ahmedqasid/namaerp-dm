@@ -1,0 +1,61 @@
+{
+  "entity" : "ContPaymentTransactionEntry",
+  "table" : "ContPaymentTransactionEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ContPaymentTransactionEntry.html",
+  "fields" : [ {
+    "id" : "conditionValueAfterTax",
+    "column" : "conditionValueAfterTax",
+    "ar" : "قيمة الشرط المخططة| قيمة الشرط بعد الضريبة",
+    "en" : "Condition Planned Value | Condition Value After Tax",
+    "type" : "Decimal"
+  }, {
+    "id" : "contract",
+    "columns" : [ "contractActualCode", " contractCode", " contractEntityType", " contractId" ],
+    "ar" : "العقد",
+    "en" : "Contract",
+    "type" : "Genericreference"
+  }, {
+    "id" : "contractingCondition",
+    "column" : "contractingCondition_id",
+    "ar" : "الشرط",
+    "en" : "Condition",
+    "type" : "Reference",
+    "refTo" : "ContractingCondition",
+    "refPath" : "/modules/contracting/ContractingCondition.html"
+  }, {
+    "id" : "deductedValue",
+    "column" : "deductedValue",
+    "ar" : "الإجماليات | إستقطاعات",
+    "en" : "Total | Deductions",
+    "type" : "Decimal"
+  }, {
+    "id" : "extractDoc",
+    "columns" : [ "extractDocActualCode", " extractDocCode", " extractDocEntityType", " extractDocId" ],
+    "ar" : "المستخلص",
+    "en" : "Extract Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "extractValueDate",
+    "column" : "extractValueDate",
+    "ar" : "تاريخ المستخلص",
+    "en" : "Extract Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "paymentDoc",
+    "columns" : [ "paymentDocActualCode", " paymentDocCode", " paymentDocEntityType", " paymentDocId" ],
+    "ar" : "مستند الدفع",
+    "en" : "Payment document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "termCode",
+    "column" : "termCode",
+    "ar" : "كود البند",
+    "en" : "Term Code",
+    "type" : "Text"
+  } ]
+}

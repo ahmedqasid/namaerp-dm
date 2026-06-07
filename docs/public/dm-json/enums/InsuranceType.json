@@ -1,0 +1,40 @@
+{
+  "enum" : "InsuranceType",
+  "values" : [ {
+    "id" : "Healthy",
+    "ar" : "صحي",
+    "en" : "Healthy"
+  }, {
+    "id" : "Fire",
+    "ar" : "حريق",
+    "en" : "Fire"
+  }, {
+    "id" : "Cars",
+    "ar" : "سيارات",
+    "en" : "cars"
+  }, {
+    "id" : "Betrayal",
+    "ar" : "خيانة الامانة",
+    "en" : "Betrayal"
+  }, {
+    "id" : "Theft",
+    "ar" : "سرقة",
+    "en" : "Theft"
+  }, {
+    "id" : "AgainstOthers",
+    "ar" : "ضد الغير",
+    "en" : "AgainstOthers"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  } ]
+}

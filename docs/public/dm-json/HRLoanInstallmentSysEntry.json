@@ -1,0 +1,144 @@
+{
+  "entity" : "HRLoanInstallmentSysEntry",
+  "table" : "HRLoanInstallmentSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/HRLoanInstallmentSysEntry.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "disableDoc",
+    "column" : "disableDoc_id",
+    "type" : "Reference",
+    "refTo" : "HRLoanDisableDocument",
+    "refPath" : "/modules/humanresource-payroll/HRLoanDisableDocument.html"
+  }, {
+    "id" : "disablingDate",
+    "column" : "disablingDate",
+    "type" : "Date"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "installmentDate",
+    "column" : "installmentDate",
+    "ar" : "تاريخ القسط",
+    "en" : "Installment Date",
+    "type" : "Date"
+  }, {
+    "id" : "installmentState",
+    "column" : "installmentState",
+    "ar" : "حالة القسط",
+    "en" : "Installment State",
+    "type" : "Enum",
+    "enum" : "InstallmentState"
+  }, {
+    "id" : "installmentValue",
+    "column" : "installmentValue",
+    "ar" : "قيمة القسط",
+    "en" : "Installment Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "isDisabled",
+    "column" : "isDisabled",
+    "type" : "Boolean"
+  }, {
+    "id" : "issuance",
+    "column" : "issuance_id",
+    "ar" : "الصرفية",
+    "en" : "Issuance",
+    "type" : "Reference",
+    "refTo" : "HRSalaryIssuance",
+    "refPath" : "/modules/humanresource-payroll/HRSalaryIssuance.html"
+  }, {
+    "id" : "origin",
+    "columns" : [ "originActualCode", " originCode", " originEntityType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "paidFromSalary",
+    "column" : "paidFromSalary",
+    "type" : "Boolean"
+  }, {
+    "id" : "reliefValue",
+    "column" : "reliefValue",
+    "ar" : "قيمة الإعفاء",
+    "en" : "Relief Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "remaining",
+    "column" : "remaining",
+    "ar" : "المتبقي",
+    "en" : "Remaining",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalPaid",
+    "column" : "totalPaid",
+    "ar" : "إجمالي المدفوع",
+    "en" : "Total paid",
+    "type" : "Decimal"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ],
+  "details" : [ {
+    "id" : "installmentPayments",
+    "table" : "HRInstallmentPaymentSysEntry",
+    "joinColumn" : "hRLoanInstallmentSysEntry_id",
+    "ar" : "سندات سداد الدفعات",
+    "en" : "Installment Payments",
+    "fields" : [ {
+      "id" : "installmentPayments.hrLoanInstallmentSysEntry_id",
+      "column" : "hrLoanInstallmentSysEntry_id",
+      "type" : "ID"
+    }, {
+      "id" : "installmentPayments.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "installmentPayments.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "installmentPayments.origin",
+      "columns" : [ "originActualCode", " originCode", " originEntityType", " originId" ],
+      "ar" : " # المستند",
+      "en" : " Document #",
+      "type" : "Genericreference"
+    }, {
+      "id" : "installmentPayments.paidValue",
+      "column" : "paidValue",
+      "ar" : "القيمة المدفوعة",
+      "en" : "Paid Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "installmentPayments.paymentDate",
+      "column" : "paymentDate",
+      "ar" : "تاريخ الدفع",
+      "en" : "Payment Date",
+      "type" : "Date"
+    }, {
+      "id" : "installmentPayments.reliefValue",
+      "column" : "reliefValue",
+      "ar" : "قيمة الإعفاء",
+      "en" : "Relief Value",
+      "type" : "Decimal"
+    } ]
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "AccDistribPolicy",
+  "values" : [ {
+    "id" : "DistributePublicOnly",
+    "ar" : "توزيع المحددات العام فقط",
+    "en" : "Distribute Public Only"
+  }, {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  }, {
+    "id" : "DistributeAny",
+    "ar" : "توزيع الكل",
+    "en" : "Distribute Any"
+  } ]
+}

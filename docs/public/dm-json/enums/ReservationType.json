@@ -1,0 +1,20 @@
+{
+  "enum" : "ReservationType",
+  "values" : [ {
+    "id" : "Automatic",
+    "ar" : "تلقائي",
+    "en" : "Automatic"
+  }, {
+    "id" : "Manual",
+    "ar" : "يدوي",
+    "en" : "Manual"
+  }, {
+    "id" : "InheritFromGlobal",
+    "ar" : "مثل الإعدادت العامة",
+    "en" : "Inherit From Global"
+  }, {
+    "id" : "InheritFromItemSection",
+    "ar" : "مثل القسم",
+    "en" : "Inherit From Section"
+  } ]
+}

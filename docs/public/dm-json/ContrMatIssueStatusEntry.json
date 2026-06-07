@@ -1,0 +1,27 @@
+{
+  "entity" : "ContrMatIssueStatusEntry",
+  "table" : "ContrMatIssueStatusEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ContrMatIssueStatusEntry.html",
+  "fields" : [ {
+    "id" : "contract",
+    "columns" : [ "contractActualCode", " contractCode", " contractEntityType", " contractId" ],
+    "ar" : "العقد",
+    "en" : "Contract",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "originDoc",
+    "columns" : [ "originDocActualCode", " originDocCode", " originDocEntityType", " originDocId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "stockIssueId",
+    "column" : "stockIssueId",
+    "type" : "ID"
+  } ]
+}

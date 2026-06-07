@@ -1,0 +1,17 @@
+{
+  "entity" : "ContrDocToGenerateFPFrom",
+  "table" : "ContrDocToGenerateFPFrom",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ContrDocToGenerateFPFrom.html",
+  "fields" : [ {
+    "id" : "doc",
+    "column" : "doc",
+    "ar" : "المستند",
+    "en" : "Document",
+    "type" : "EntityType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

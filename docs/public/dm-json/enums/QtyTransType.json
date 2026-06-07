@@ -1,0 +1,16 @@
+{
+  "enum" : "QtyTransType",
+  "values" : [ {
+    "id" : "In",
+    "ar" : "دخول",
+    "en" : "In"
+  }, {
+    "id" : "Out",
+    "ar" : "خروج",
+    "en" : "Out"
+  }, {
+    "id" : "Transfer",
+    "ar" : "تحويل",
+    "en" : "transfer"
+  } ]
+}

@@ -1,0 +1,56 @@
+{
+  "enum" : "CarType",
+  "values" : [ {
+    "id" : "CarType1",
+    "ar" : "نوع 1",
+    "en" : "Type 1"
+  }, {
+    "id" : "CarType2",
+    "ar" : "نوع 2",
+    "en" : "Type 2"
+  }, {
+    "id" : "CarType3",
+    "ar" : "نوع 3",
+    "en" : "Type 3"
+  }, {
+    "id" : "CarType4",
+    "ar" : "نوع 4",
+    "en" : "Type 4"
+  }, {
+    "id" : "CarType5",
+    "ar" : "نوع 5",
+    "en" : "Type 5"
+  }, {
+    "id" : "Private",
+    "ar" : "خاص",
+    "en" : "Private"
+  }, {
+    "id" : "PublicTransport",
+    "ar" : "نقل عام",
+    "en" : "Public Transportation"
+  }, {
+    "id" : "SpecialTransport",
+    "ar" : "نقل خاص",
+    "en" : "Special Transportation"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  }, {
+    "id" : "Other4",
+    "ar" : "أخرى 4",
+    "en" : "Other 4"
+  }, {
+    "id" : "Other5",
+    "ar" : "أخرى 5",
+    "en" : "Other 5"
+  } ]
+}

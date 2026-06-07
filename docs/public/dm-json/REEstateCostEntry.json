@@ -1,0 +1,41 @@
+{
+  "entity" : "REEstateCostEntry",
+  "table" : "REEstateCostEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/REEstateCostEntry.html",
+  "fields" : [ {
+    "id" : "costValue",
+    "column" : "costValue",
+    "ar" : "قيمة التكلفة",
+    "en" : "Cost Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "estate",
+    "columns" : [ "estateActualCode", " estateCode", " estateEntityType", " estateId" ],
+    "ar" : "العقار",
+    "en" : "Estate",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

@@ -1,0 +1,69 @@
+{
+  "entity" : "PartitionedCostReqInfo",
+  "table" : "PartitionedCostReqInfo",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/PartitionedCostReqInfo.html",
+  "fields" : [ {
+    "id" : "costTransStatus",
+    "column" : "costTransStatus",
+    "type" : "Enum",
+    "enum" : "TransactionRequestStatus"
+  }, {
+    "id" : "countOfInCost",
+    "column" : "countOfInCost",
+    "type" : "Integer"
+  }, {
+    "id" : "countOfOutCost",
+    "column" : "countOfOutCost",
+    "type" : "Integer"
+  }, {
+    "id" : "countOfOverdraftDelete",
+    "column" : "countOfOverdraftDelete",
+    "type" : "Integer"
+  }, {
+    "id" : "countOfOverdraftUpdate",
+    "column" : "countOfOverdraftUpdate",
+    "type" : "Integer"
+  }, {
+    "id" : "countOfQtyDim",
+    "column" : "countOfQtyDim",
+    "type" : "Integer"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lastUpdatedInCost",
+    "column" : "lastUpdatedInCost",
+    "type" : "Integer"
+  }, {
+    "id" : "lastUpdatedOutCost",
+    "column" : "lastUpdatedOutCost",
+    "type" : "Integer"
+  }, {
+    "id" : "lastUpdatedOverdraftDelete",
+    "column" : "lastUpdatedOverdraftDelete",
+    "type" : "Integer"
+  }, {
+    "id" : "lastUpdatedOverdraftUpdate",
+    "column" : "lastUpdatedOverdraftUpdate",
+    "type" : "Integer"
+  }, {
+    "id" : "lastUpdatedQtyDim",
+    "column" : "lastUpdatedQtyDim",
+    "type" : "Integer"
+  }, {
+    "id" : "requestId",
+    "column" : "requestId",
+    "ar" : "Request Id",
+    "en" : "Request Id",
+    "type" : "ID"
+  }, {
+    "id" : "transStatus",
+    "column" : "transStatus",
+    "ar" : "حالة المعالجة",
+    "en" : "Processing Status",
+    "type" : "Enum",
+    "enum" : "TransactionRequestStatus"
+  } ]
+}

@@ -1,0 +1,1006 @@
+{
+  "entity" : "ItemConfigurations",
+  "table" : "ItemConfigurations",
+  "module" : "supplychain",
+  "ar" : "إعدادات صنف",
+  "arPlural" : "إعدادات أصناف",
+  "en" : "Item Configurations",
+  "enPlural" : "Item Configurations",
+  "page" : "https://dm.namasoft.com/modules/supplychain/ItemConfigurations.html",
+  "fields" : [ {
+    "id" : "activePercentConfig.issuePolicy",
+    "column" : "activeIssuePolicy",
+    "ar" : "السياسة في السحب",
+    "en" : "Issue Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "activePercentConfig.receiptPolicy",
+    "column" : "activeReceiptPolicy",
+    "ar" : "السياسة في الإستلام",
+    "en" : "Receipt Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "activePercentConfig.trackCost",
+    "column" : "activeTrackCost",
+    "ar" : "متابعة التكاليف",
+    "en" : "Track Cost",
+    "type" : "Boolean"
+  }, {
+    "id" : "activePercentConfig.trackQuantity",
+    "column" : "activeTrackQuantity",
+    "ar" : "متابعة الكميات",
+    "en" : "Track Quantity",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowOverdraftInReservation",
+    "column" : "allowOverdraftInReservation",
+    "ar" : "السماح بالسحب على المكشوف في الحجز",
+    "en" : "Allow Overdraft In Reservation",
+    "type" : "Boolean"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "autoSalesPricingInfo.autoPricingDefaultProfitPercent",
+    "column" : "autoPricingDefaultProfitPercent",
+    "ar" : "نسبة الربحية الافتراضية في التسعير الآلي",
+    "en" : "Auto Pricing Default Profit Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "autoSalesPricingInfo.autoPricingMaxProfitPercent",
+    "column" : "autoPricingMaxProfitPercent",
+    "ar" : "أقصى نسبة ربحية في التسعير الآلي",
+    "en" : "Auto Pricing Max Profit Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "autoSalesPricingInfo.autoPricingMinProfitPercent",
+    "column" : "autoPricingMinProfitPercent",
+    "ar" : "أقل نسبة ربحية في التسعير الآلي",
+    "en" : "Auto Pricing Minimum Profit Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "autoSalesPricingInfo.autoSalesPricing",
+    "column" : "autoSalesPricing_id",
+    "ar" : "تسعير المبيعات الآلي",
+    "en" : "Auto Sales Pricing",
+    "type" : "Reference",
+    "refTo" : "AutoSalesPricing",
+    "refPath" : "/modules/supplychain-sales/AutoSalesPricing.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "colorConfigurations.issuePolicy",
+    "column" : "clrIssuePolicy",
+    "ar" : "السياسة في السحب",
+    "en" : "Issue Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "colorConfigurations.receiptPolicy",
+    "column" : "clrReceiptPolicy",
+    "ar" : "السياسة في الإستلام",
+    "en" : "Receipt Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "colorConfigurations.trackCost",
+    "column" : "clrTrackCost",
+    "ar" : "متابعة التكاليف",
+    "en" : "Track Cost",
+    "type" : "Boolean"
+  }, {
+    "id" : "colorConfigurations.trackQuantity",
+    "column" : "clrTrackQuantity",
+    "ar" : "متابعة الكميات",
+    "en" : "Track Quantity",
+    "type" : "Boolean"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "dimensionsForDelivery.considerActivePerc",
+    "column" : "deliveryConsiderActivePerc",
+    "ar" : "إعتبار النسبة الفعالة",
+    "en" : "Consider Active Percentage",
+    "type" : "Boolean"
+  }, {
+    "id" : "dimensionsForDelivery.considerBox",
+    "column" : "deliveryConsiderBox",
+    "ar" : "اعتبار الصندوق",
+    "en" : "Consider Box",
+    "type" : "Boolean"
+  }, {
+    "id" : "dimensionsForDelivery.considerColor",
+    "column" : "deliveryConsiderColor",
+    "ar" : "اعتبار اللون",
+    "en" : "Consider Color",
+    "type" : "Boolean"
+  }, {
+    "id" : "dimensionsForDelivery.considerInactivePerc",
+    "column" : "deliveryConsiderInactivePerc",
+    "ar" : "إعتبار النسبة الغير فعالة",
+    "en" : "Consider Inactive Percentage",
+    "type" : "Boolean"
+  }, {
+    "id" : "dimensionsForDelivery.considerLocator",
+    "column" : "deliveryConsiderLocator",
+    "ar" : "إعتبار الموقع",
+    "en" : "Consider Locator",
+    "type" : "Boolean"
+  }, {
+    "id" : "dimensionsForDelivery.considerLotId",
+    "column" : "deliveryConsiderLotId",
+    "ar" : "اعتبار الشحنة",
+    "en" : "Consider Lot",
+    "type" : "Boolean"
+  }, {
+    "id" : "dimensionsForDelivery.considerMeasures",
+    "column" : "deliveryConsiderMeasures",
+    "ar" : "إعتبار المقاسات",
+    "en" : "Consider Measures",
+    "type" : "Boolean"
+  }, {
+    "id" : "dimensionsForDelivery.considerRevisionId",
+    "column" : "deliveryConsiderRevisionId",
+    "ar" : "اعتبار الإصدار",
+    "en" : "Consider Revision",
+    "type" : "Boolean"
+  }, {
+    "id" : "dimensionsForDelivery.considerSize",
+    "column" : "deliveryConsiderSize",
+    "ar" : "اعتبار المقاس",
+    "en" : "Consider Size",
+    "type" : "Boolean"
+  }, {
+    "id" : "dimensionsForDelivery.considerSubItem",
+    "column" : "deliveryConsiderSubItem",
+    "ar" : "اعتبار الصنف الفرعي",
+    "en" : "Consider SubItem",
+    "type" : "Boolean"
+  }, {
+    "id" : "dimensionsForDelivery.considerWarehouse",
+    "column" : "deliveryConsiderWarehouse",
+    "ar" : "إعتبار المخزن",
+    "en" : "Consider Warehouse",
+    "type" : "Boolean"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "hasActivePercentage",
+    "column" : "hasActivePercentage",
+    "ar" : "له نسبة فعالة",
+    "en" : "Has Active Percentage",
+    "type" : "Boolean"
+  }, {
+    "id" : "hasColor",
+    "column" : "hasColor",
+    "ar" : "له ألوان",
+    "en" : "Has Colors",
+    "type" : "Boolean"
+  }, {
+    "id" : "hasExpiry",
+    "column" : "hasExpiry",
+    "ar" : "له تاريخ صلاحية",
+    "en" : "Has Expiry",
+    "type" : "Boolean"
+  }, {
+    "id" : "hasInActivePercentage",
+    "column" : "hasInActivePercentage",
+    "ar" : "له نسبة غير فعالة",
+    "en" : "Has Inactive Percentage",
+    "type" : "Boolean"
+  }, {
+    "id" : "hasLot",
+    "column" : "hasLot",
+    "ar" : "له شحنات",
+    "en" : "Has Lot",
+    "type" : "Boolean"
+  }, {
+    "id" : "hasMeasures",
+    "column" : "hasMeasures",
+    "ar" : "له أبعاد",
+    "en" : "Has Measures",
+    "type" : "Boolean"
+  }, {
+    "id" : "hasPackages",
+    "column" : "hasPackages",
+    "ar" : "يوضع بصناديق",
+    "en" : "Has Packages",
+    "type" : "Boolean"
+  }, {
+    "id" : "hasRevisions",
+    "column" : "hasRevisions",
+    "ar" : "له إصدارات",
+    "en" : "Has Revisions",
+    "type" : "Boolean"
+  }, {
+    "id" : "hasSerial",
+    "column" : "hasSerial",
+    "ar" : "له رقم مسلسل",
+    "en" : "Has Serial",
+    "type" : "Boolean"
+  }, {
+    "id" : "hasSize",
+    "column" : "hasSize",
+    "ar" : "له مقاسات",
+    "en" : "Has Size",
+    "type" : "Boolean"
+  }, {
+    "id" : "hasSubItem",
+    "column" : "hasSubItem",
+    "ar" : "له صنف فرعي",
+    "en" : "Has SubItem",
+    "type" : "Boolean"
+  }, {
+    "id" : "hasTwoSerials",
+    "column" : "hasTwoSerials",
+    "ar" : "له رقمان مسلسلان",
+    "en" : "HasTwo Serials",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "ignoreCostForItem",
+    "column" : "ignoreCostForItem",
+    "ar" : "تجاهل حساب التكاليف للصنف",
+    "en" : "Ignore Cost For Item",
+    "type" : "Boolean"
+  }, {
+    "id" : "inActivePercentConfig.issuePolicy",
+    "column" : "inactiveIssuePolicy",
+    "ar" : "السياسة في السحب",
+    "en" : "Issue Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "inActivePercentConfig.receiptPolicy",
+    "column" : "inactiveReceiptPolicy",
+    "ar" : "السياسة في الإستلام",
+    "en" : "Receipt Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "inActivePercentConfig.trackCost",
+    "column" : "inactiveTrackCost",
+    "ar" : "متابعة التكاليف",
+    "en" : "Track Cost",
+    "type" : "Boolean"
+  }, {
+    "id" : "inActivePercentConfig.trackQuantity",
+    "column" : "inactiveTrackQuantity",
+    "ar" : "متابعة الكميات",
+    "en" : "Track Quantity",
+    "type" : "Boolean"
+  }, {
+    "id" : "includeReservedInBalance",
+    "column" : "includeReservedInBalance",
+    "ar" : "خصم المحجوز من المتاح للبيع",
+    "en" : "Include Reserved In Balance",
+    "type" : "Boolean"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "itemType",
+    "column" : "itemType",
+    "ar" : "النوع",
+    "en" : "Type",
+    "type" : "Enum",
+    "enum" : "ItemType"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lotIdConfigurations.issuePolicy",
+    "column" : "ltIssuePolicy",
+    "ar" : "السياسة في السحب",
+    "en" : "Issue Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "lotIdConfigurations.receiptPolicy",
+    "column" : "ltReceiptPolicy",
+    "ar" : "السياسة في الإستلام",
+    "en" : "Receipt Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "lotIdConfigurations.trackCost",
+    "column" : "ltTrackCost",
+    "ar" : "متابعة التكاليف",
+    "en" : "Track Cost",
+    "type" : "Boolean"
+  }, {
+    "id" : "lotIdConfigurations.trackQuantity",
+    "column" : "ltTrackQuantity",
+    "ar" : "متابعة الكميات",
+    "en" : "Track Quantity",
+    "type" : "Boolean"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "manufacturable",
+    "column" : "manufacturable",
+    "ar" : "يمكن تصنيعه",
+    "en" : "Manufacturable",
+    "type" : "Boolean"
+  }, {
+    "id" : "measuresConfigurations.issuePolicy",
+    "column" : "meIssuePolicy",
+    "ar" : "السياسة في السحب",
+    "en" : "Issue Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "measuresConfigurations.receiptPolicy",
+    "column" : "meReceiptPolicy",
+    "ar" : "السياسة في الإستلام",
+    "en" : "Receipt Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "measuresConfigurations.trackCost",
+    "column" : "meTrackCost",
+    "ar" : "متابعة التكاليف",
+    "en" : "Track Cost",
+    "type" : "Boolean"
+  }, {
+    "id" : "measuresConfigurations.trackQuantity",
+    "column" : "meTrackQuantity",
+    "ar" : "متابعة الكميات",
+    "en" : "Track Quantity",
+    "type" : "Boolean"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "overDraftPolicy",
+    "column" : "overDraftPolicy",
+    "ar" : "إمكانية السحب على المكشوف",
+    "en" : "Over Draft Policy",
+    "type" : "Enum",
+    "enum" : "YesNoInheritedPolicy"
+  }, {
+    "id" : "packagingConfigurations.issuePolicy",
+    "column" : "packIssuePolicy",
+    "ar" : "السياسة في السحب",
+    "en" : "Issue Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "packagingConfigurations.receiptPolicy",
+    "column" : "packReceiptPolicy",
+    "ar" : "السياسة في الإستلام",
+    "en" : "Receipt Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "packagingConfigurations.trackCost",
+    "column" : "packTrackCost",
+    "ar" : "متابعة التكاليف",
+    "en" : "Track Cost",
+    "type" : "Boolean"
+  }, {
+    "id" : "packagingConfigurations.trackQuantity",
+    "column" : "packTrackQuantity",
+    "ar" : "متابعة الكميات",
+    "en" : "Track Quantity",
+    "type" : "Boolean"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "purchasable",
+    "column" : "purchasable",
+    "ar" : "يمكن شراؤه",
+    "en" : "Purchasable",
+    "type" : "Boolean"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "replaceable",
+    "column" : "replaceable",
+    "ar" : "يمكن إستبداله",
+    "en" : "Replaceable",
+    "type" : "Boolean"
+  }, {
+    "id" : "returnable",
+    "column" : "returnable",
+    "ar" : "مرتجع",
+    "en" : "Returnable",
+    "type" : "Boolean"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "revisionIdConfigurations.issuePolicy",
+    "column" : "rvIssuePolicy",
+    "ar" : "السياسة في السحب",
+    "en" : "Issue Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "revisionIdConfigurations.receiptPolicy",
+    "column" : "rvReceiptPolicy",
+    "ar" : "السياسة في الإستلام",
+    "en" : "Receipt Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "revisionIdConfigurations.trackCost",
+    "column" : "rvTrackCost",
+    "ar" : "متابعة التكاليف",
+    "en" : "Track Cost",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisionIdConfigurations.trackQuantity",
+    "column" : "rvTrackQuantity",
+    "ar" : "متابعة الكميات",
+    "en" : "Track Quantity",
+    "type" : "Boolean"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "sellable",
+    "column" : "sellable",
+    "ar" : "يمكن بيعه",
+    "en" : "Sellable",
+    "type" : "Boolean"
+  }, {
+    "id" : "serialNumberConfigurations.issuePolicy",
+    "column" : "srIssuePolicy",
+    "ar" : "السياسة في السحب",
+    "en" : "Issue Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "serialNumberConfigurations.receiptPolicy",
+    "column" : "srReceiptPolicy",
+    "ar" : "السياسة في الإستلام",
+    "en" : "Receipt Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "serialNumberConfigurations.trackCost",
+    "column" : "srTrackCost",
+    "ar" : "متابعة التكاليف",
+    "en" : "Track Cost",
+    "type" : "Boolean"
+  }, {
+    "id" : "serialNumberConfigurations.trackQuantity",
+    "column" : "srTrackQuantity",
+    "ar" : "متابعة الكميات",
+    "en" : "Track Quantity",
+    "type" : "Boolean"
+  }, {
+    "id" : "sizeConfigurations.issuePolicy",
+    "column" : "szIssuePolicy",
+    "ar" : "السياسة في السحب",
+    "en" : "Issue Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "sizeConfigurations.receiptPolicy",
+    "column" : "szReceiptPolicy",
+    "ar" : "السياسة في الإستلام",
+    "en" : "Receipt Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "sizeConfigurations.trackCost",
+    "column" : "szTrackCost",
+    "ar" : "متابعة التكاليف",
+    "en" : "Track Cost",
+    "type" : "Boolean"
+  }, {
+    "id" : "sizeConfigurations.trackQuantity",
+    "column" : "szTrackQuantity",
+    "ar" : "متابعة الكميات",
+    "en" : "Track Quantity",
+    "type" : "Boolean"
+  }, {
+    "id" : "subItemConfig.issuePolicy",
+    "column" : "subItemIssuePolicy",
+    "ar" : "السياسة في السحب",
+    "en" : "Issue Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "subItemConfig.receiptPolicy",
+    "column" : "subItemReceiptPolicy",
+    "ar" : "السياسة في الإستلام",
+    "en" : "Receipt Policy",
+    "type" : "Enum",
+    "enum" : "DimensionPolicy"
+  }, {
+    "id" : "subItemConfig.trackCost",
+    "column" : "subItemTrackCost",
+    "ar" : "متابعة التكاليف",
+    "en" : "Track Cost",
+    "type" : "Boolean"
+  }, {
+    "id" : "subItemConfig.trackQuantity",
+    "column" : "subItemTrackQuantity",
+    "ar" : "متابعة الكميات",
+    "en" : "Track Quantity",
+    "type" : "Boolean"
+  }, {
+    "id" : "subItemStatusConfig",
+    "column" : "subItemStatusConfig_id",
+    "ar" : "إعدادات حالة الصنف الفرعي",
+    "en" : "SubItem Status Configurations",
+    "type" : "Reference",
+    "refTo" : "SubItemStatusConfigurations",
+    "refPath" : "/modules/srvcenter-subitems/SubItemStatusConfigurations.html"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "trackCostOnAnalysisSet",
+    "column" : "trackCostOnAnalysisSet",
+    "ar" : "متابعة التكلفة على المجموعة التحليلية",
+    "en" : "Track Cost On Analysis Set",
+    "type" : "Enum",
+    "enum" : "YesNoInheritedPolicy"
+  }, {
+    "id" : "trackCostOnBranch",
+    "column" : "trackCostOnBranch",
+    "ar" : "متابعة التكلفة على الفرع",
+    "en" : "Track Cost On Branch",
+    "type" : "Enum",
+    "enum" : "YesNoInheritedPolicy"
+  }, {
+    "id" : "trackCostOnDepartment",
+    "column" : "trackCostOnDepartment",
+    "ar" : "متابعة التكلفة على الإدارة",
+    "en" : "Track Cost On Department",
+    "type" : "Enum",
+    "enum" : "YesNoInheritedPolicy"
+  }, {
+    "id" : "trackCostOnSector",
+    "column" : "trackCostOnSector",
+    "ar" : "متابعة التكلفة على القطاع",
+    "en" : "Track Cost On Sector",
+    "type" : "Enum",
+    "enum" : "YesNoInheritedPolicy"
+  }, {
+    "id" : "trackCostOnWares",
+    "column" : "trackCostOnWares",
+    "ar" : "متابعة التكاليف للمخزن",
+    "en" : "Track Cost On Wares",
+    "type" : "Boolean"
+  }, {
+    "id" : "trackQtyOnAnalysisSet",
+    "column" : "trackQtyOnAnalysisSet",
+    "ar" : "متابعة الكمية على المجموعة التحليلية",
+    "en" : "Track Qty On Analysis Set",
+    "type" : "Enum",
+    "enum" : "YesNoInheritedPolicy"
+  }, {
+    "id" : "trackQtyOnBranch",
+    "column" : "trackQtyOnBranch",
+    "ar" : "متابعة الكمية على الفرع",
+    "en" : "Track Qty On Branch",
+    "type" : "Enum",
+    "enum" : "YesNoInheritedPolicy"
+  }, {
+    "id" : "trackQtyOnDepartment",
+    "column" : "trackQtyOnDepartment",
+    "ar" : "متابعة الكمية على الإدارة",
+    "en" : "Track Qty On Department",
+    "type" : "Enum",
+    "enum" : "YesNoInheritedPolicy"
+  }, {
+    "id" : "trackQtyOnSector",
+    "column" : "trackQtyOnSector",
+    "ar" : "متابعة الكمية على القطاع",
+    "en" : "Track Qty On Sector",
+    "type" : "Enum",
+    "enum" : "YesNoInheritedPolicy"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ]
+}

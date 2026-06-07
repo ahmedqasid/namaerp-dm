@@ -1,0 +1,18 @@
+{
+  "enum" : "ApplicableWhen",
+  "values" : [ {
+    "id" : "NewMode",
+    "ar" : "إنشاء جديد",
+    "en" : "New mode"
+  }, {
+    "id" : "UpdateMode",
+    "ar" : "التعديل",
+    "en" : "Update mode"
+  }, {
+    "id" : "DraftMode"
+  }, {
+    "id" : "All",
+    "ar" : "الكل",
+    "en" : "All"
+  } ]
+}

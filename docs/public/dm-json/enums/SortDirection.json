@@ -1,0 +1,12 @@
+{
+  "enum" : "SortDirection",
+  "values" : [ {
+    "id" : "Ascending",
+    "ar" : " تصاعدي",
+    "en" : " Ascending"
+  }, {
+    "id" : "Descending",
+    "ar" : " تنازلي",
+    "en" : " Descending"
+  } ]
+}

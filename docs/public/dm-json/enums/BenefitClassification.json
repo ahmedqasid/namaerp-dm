@@ -1,0 +1,28 @@
+{
+  "enum" : "BenefitClassification",
+  "values" : [ {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  }, {
+    "id" : "FirstClass",
+    "ar" : "درجة أولي",
+    "en" : "First class"
+  }, {
+    "id" : "SecondClass",
+    "ar" : "درجة ثانية",
+    "en" : "Second class"
+  }, {
+    "id" : "ThirdClass",
+    "ar" : "درجة ثالثة",
+    "en" : "Third class"
+  }, {
+    "id" : "FourthClass",
+    "ar" : "درجة رابعة",
+    "en" : "Fourth Class"
+  }, {
+    "id" : "FifthClass",
+    "ar" : "درجة خامسة",
+    "en" : "Fifth Class"
+  } ]
+}

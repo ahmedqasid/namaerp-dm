@@ -1,0 +1,16 @@
+{
+  "enum" : "PickDimensionSource",
+  "values" : [ {
+    "id" : "Same",
+    "ar" : "نفس السجل",
+    "en" : "The Same"
+  }, {
+    "id" : "Specific",
+    "ar" : "محدد",
+    "en" : "Specific"
+  }, {
+    "id" : "Any",
+    "ar" : "الكل",
+    "en" : "All"
+  } ]
+}

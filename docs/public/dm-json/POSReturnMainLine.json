@@ -1,0 +1,18 @@
+{
+  "entity" : "POSReturnMainLine",
+  "table" : "POSReturnMainLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/POSReturnMainLine.html",
+  "fields" : [ {
+    "id" : "field",
+    "column" : "field",
+    "ar" : "الحقل",
+    "en" : "Field",
+    "type" : "Enum",
+    "enum" : "POSSalesHeaderField"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "enum" : "IssueType",
+  "values" : [ {
+    "id" : "Manual",
+    "ar" : "يدوي",
+    "en" : "Manual"
+  }, {
+    "id" : "AutoWithReceipt",
+    "ar" : "آلي مع الإستلام",
+    "en" : "Automatic With Receipt"
+  }, {
+    "id" : "AutoWithExecution",
+    "ar" : "آلي مع التنفيذ",
+    "en" : "Automatic With Execution"
+  }, {
+    "id" : "NonIssuedSupplies",
+    "ar" : "مستلزمات لا تصرف",
+    "en" : "Non Issued Supplies"
+  } ]
+}

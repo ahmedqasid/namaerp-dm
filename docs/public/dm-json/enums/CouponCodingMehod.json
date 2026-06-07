@@ -1,0 +1,16 @@
+{
+  "enum" : "CouponCodingMehod",
+  "values" : [ {
+    "id" : "Manual",
+    "ar" : "يدوي",
+    "en" : "Manual"
+  }, {
+    "id" : "Automatic",
+    "ar" : "آلي",
+    "en" : "Automatic"
+  }, {
+    "id" : "Random",
+    "ar" : "عشوائي",
+    "en" : "Random"
+  } ]
+}

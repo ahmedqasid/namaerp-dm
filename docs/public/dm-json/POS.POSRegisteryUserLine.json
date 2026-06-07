@@ -1,0 +1,19 @@
+{
+  "entity" : "POS.POSRegisteryUserLine",
+  "table" : "POSRegisteryUserLine",
+  "module" : "pos-app",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSRegisteryUserLine.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "posUser",
+    "column" : "posUser_id",
+    "ar" : "مستخدم برنامج نقاط البيع",
+    "en" : "Point Of Sale User",
+    "type" : "Reference",
+    "refTo" : "POS.POSUser",
+    "refPath" : "/modules/pos-app/POS.POSUser.html"
+  } ]
+}

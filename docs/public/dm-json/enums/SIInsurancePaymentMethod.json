@@ -1,0 +1,12 @@
+{
+  "enum" : "SIInsurancePaymentMethod",
+  "values" : [ {
+    "id" : "Cash",
+    "ar" : "كاش",
+    "en" : "Cash"
+  }, {
+    "id" : "Installment",
+    "ar" : "قسط",
+    "en" : "Installment"
+  } ]
+}

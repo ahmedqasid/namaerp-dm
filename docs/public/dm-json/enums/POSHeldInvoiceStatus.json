@@ -1,0 +1,16 @@
+{
+  "enum" : "POSHeldInvoiceStatus",
+  "values" : [ {
+    "id" : "Invoiced",
+    "ar" : "مفوتر كلياً",
+    "en" : "Invoiced"
+  }, {
+    "id" : "Deleted",
+    "ar" : "حذف",
+    "en" : "Deleted"
+  }, {
+    "id" : "Held",
+    "ar" : "معلقة",
+    "en" : "Held"
+  } ]
+}

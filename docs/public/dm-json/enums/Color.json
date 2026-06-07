@@ -1,0 +1,64 @@
+{
+  "enum" : "Color",
+  "values" : [ {
+    "id" : "Black",
+    "ar" : "أسود",
+    "en" : "Black"
+  }, {
+    "id" : "White",
+    "ar" : "أبيض",
+    "en" : "White"
+  }, {
+    "id" : "Red",
+    "ar" : "أحمر",
+    "en" : "Red"
+  }, {
+    "id" : "Green",
+    "ar" : "أخضر",
+    "en" : "Green"
+  }, {
+    "id" : "Blue",
+    "ar" : "أزرق",
+    "en" : "Blue"
+  }, {
+    "id" : "Yellow",
+    "ar" : "أصفر",
+    "en" : "Yellow"
+  }, {
+    "id" : "Orange",
+    "ar" : "برتقالي",
+    "en" : "Orange"
+  }, {
+    "id" : "Gray",
+    "ar" : "رمادي",
+    "en" : "Gray"
+  }, {
+    "id" : "Silver",
+    "ar" : "فضي",
+    "en" : "Silver"
+  }, {
+    "id" : "Brown",
+    "ar" : "بني",
+    "en" : "Brown"
+  }, {
+    "id" : "Beige",
+    "ar" : "بيج",
+    "en" : "Beige"
+  }, {
+    "id" : "Gold",
+    "ar" : "ذهبي",
+    "en" : "Gold"
+  }, {
+    "id" : "OtherColor1",
+    "ar" : "لون 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "OtherColor2",
+    "ar" : "لون 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "OtherColor3",
+    "ar" : "لون 3",
+    "en" : "Other 3"
+  } ]
+}

@@ -1,0 +1,42 @@
+{
+  "enum" : "EcommerceGraphEntityOperation",
+  "values" : [ {
+    "id" : "ProductCreate",
+    "ar" : "Create Product",
+    "en" : "Create Product"
+  }, {
+    "id" : "ProductUpdate",
+    "ar" : "Update Product",
+    "en" : "Update Product"
+  }, {
+    "id" : "ProductPriceUpdate",
+    "ar" : "Update Product Price",
+    "en" : "Update Product Price"
+  }, {
+    "id" : "ProductSpecialPriceUpdate",
+    "ar" : "Update Product Special Price",
+    "en" : "Update Product Special Price"
+  }, {
+    "id" : "ProductQuantityUpdate",
+    "ar" : "Update Product Quantity",
+    "en" : "Update Product Quantity"
+  }, {
+    "id" : "GetOrderList",
+    "ar" : "List Orders",
+    "en" : "List Orders"
+  }, {
+    "id" : "GetOrderById",
+    "ar" : "Get Order By Id",
+    "en" : "Get Order By Id"
+  }, {
+    "id" : "GetProductById",
+    "ar" : "Get Product By Id",
+    "en" : "Get Product By Id"
+  }, {
+    "id" : "GetProductBySku"
+  }, {
+    "id" : "UpdateOrderStatusAndComment",
+    "ar" : "Update Order Status And Comment",
+    "en" : "Update Order Status And Comment"
+  } ]
+}

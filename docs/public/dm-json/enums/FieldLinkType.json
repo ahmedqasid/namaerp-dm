@@ -1,0 +1,16 @@
+{
+  "enum" : "FieldLinkType",
+  "values" : [ {
+    "id" : "URL",
+    "ar" : "لينك",
+    "en" : "URL"
+  }, {
+    "id" : "PhoneNumber",
+    "ar" : "رقم هاتف",
+    "en" : "Phone Number"
+  }, {
+    "id" : "Email",
+    "ar" : "الايميل",
+    "en" : "Email"
+  } ]
+}

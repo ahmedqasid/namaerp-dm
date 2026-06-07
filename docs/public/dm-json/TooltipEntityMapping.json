@@ -1,0 +1,217 @@
+{
+  "entity" : "TooltipEntityMapping",
+  "table" : "TooltipEntityMapping",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/TooltipEntityMapping.html",
+  "fields" : [ {
+    "id" : "automaticInMobileApp",
+    "column" : "automaticInMobileApp",
+    "ar" : "تعمل تلقائيا في تطبيق الهاتف",
+    "en" : "Automatic In MobileApp",
+    "type" : "Boolean"
+  }, {
+    "id" : "automaticTooltip",
+    "column" : "automaticTooltip",
+    "ar" : "عرض المساعدة السريعة اليا مع تغيير قيمة الحقل",
+    "en" : "Automatically Display Tooltip When Field Value Changes",
+    "type" : "Boolean"
+  }, {
+    "id" : "entityList",
+    "column" : "entityList_id",
+    "ar" : "قائمة الأنواع",
+    "en" : "Entity List",
+    "type" : "Reference",
+    "refTo" : "EntityTypeList",
+    "refPath" : "/modules/basic/EntityTypeList.html"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "fieldName",
+    "column" : "fieldName",
+    "ar" : "الحقل",
+    "en" : "Field Name",
+    "type" : "FieldID"
+  }, {
+    "id" : "iconCode",
+    "column" : "iconCode",
+    "ar" : "Icon Code",
+    "en" : "Icon Code",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "inActive",
+    "column" : "inActive",
+    "ar" : "غير نشط",
+    "en" : "Inactive",
+    "type" : "Boolean"
+  }, {
+    "id" : "p1.overrideParamter",
+    "column" : "p1OverrideParamter",
+    "ar" : "1|إخفاء في الاسئلة",
+    "en" : "1|Override Paramter",
+    "type" : "Boolean"
+  }, {
+    "id" : "p1.parameterName",
+    "column" : "p1ParameterName",
+    "ar" : "1|المدخل",
+    "en" : "1|Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p1.sourceField",
+    "column" : "p1SourceField",
+    "ar" : "1|المصدر",
+    "en" : "1|Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "p2.overrideParamter",
+    "column" : "p2OverrideParamter",
+    "ar" : "2|إخفاء في الاسئلة",
+    "en" : "2|Override Paramter",
+    "type" : "Boolean"
+  }, {
+    "id" : "p2.parameterName",
+    "column" : "p2ParameterName",
+    "ar" : "2|المدخل",
+    "en" : "2|Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p2.sourceField",
+    "column" : "p2SourceField",
+    "ar" : "2|المصدر",
+    "en" : "2|Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "p3.overrideParamter",
+    "column" : "p3OverrideParamter",
+    "ar" : "3|إخفاء في الاسئلة",
+    "en" : "3|Override Paramter",
+    "type" : "Boolean"
+  }, {
+    "id" : "p3.parameterName",
+    "column" : "p3ParameterName",
+    "ar" : "3|المدخل",
+    "en" : "3|Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p3.sourceField",
+    "column" : "p3SourceField",
+    "ar" : "3|المصدر",
+    "en" : "3|Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "p4.overrideParamter",
+    "column" : "p4OverrideParamter",
+    "ar" : "4|إخفاء في الاسئلة",
+    "en" : "4|Override Paramter",
+    "type" : "Boolean"
+  }, {
+    "id" : "p4.parameterName",
+    "column" : "p4ParameterName",
+    "ar" : "4|المدخل",
+    "en" : "4|Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p4.sourceField",
+    "column" : "p4SourceField",
+    "ar" : "4|المصدر",
+    "en" : "4|Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "p5.overrideParamter",
+    "column" : "p5OverrideParamter",
+    "ar" : "5|إخفاء في الاسئلة",
+    "en" : "5|Override Paramter",
+    "type" : "Boolean"
+  }, {
+    "id" : "p5.parameterName",
+    "column" : "p5ParameterName",
+    "ar" : "5|المدخل",
+    "en" : "5|Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p5.sourceField",
+    "column" : "p5SourceField",
+    "ar" : "5|المصدر",
+    "en" : "5|Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "p6.overrideParamter",
+    "column" : "p6OverrideParamter",
+    "ar" : "6|إخفاء في الاسئلة",
+    "en" : "6|Override Paramter",
+    "type" : "Boolean"
+  }, {
+    "id" : "p6.parameterName",
+    "column" : "p6ParameterName",
+    "ar" : "6|المدخل",
+    "en" : "6|Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p6.sourceField",
+    "column" : "p6SourceField",
+    "ar" : "6|المصدر",
+    "en" : "6|Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "p7.overrideParamter",
+    "column" : "p7OverrideParamter",
+    "ar" : "7|إخفاء في الاسئلة",
+    "en" : "7|Override Paramter",
+    "type" : "Boolean"
+  }, {
+    "id" : "p7.parameterName",
+    "column" : "p7ParameterName",
+    "ar" : "7|المدخل",
+    "en" : "7|Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p7.sourceField",
+    "column" : "p7SourceField",
+    "ar" : "7|المصدر",
+    "en" : "7|Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "p8.overrideParamter",
+    "column" : "p8OverrideParamter",
+    "ar" : "8|إخفاء في الاسئلة",
+    "en" : "8|Override Paramter",
+    "type" : "Boolean"
+  }, {
+    "id" : "p8.parameterName",
+    "column" : "p8ParameterName",
+    "ar" : "8|المدخل",
+    "en" : "8|Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p8.sourceField",
+    "column" : "p8SourceField",
+    "ar" : "8|المصدر",
+    "en" : "8|Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "p9.overrideParamter",
+    "column" : "p9OverrideParamter",
+    "ar" : "9|إخفاء في الاسئلة",
+    "en" : "9|Override Paramter",
+    "type" : "Boolean"
+  }, {
+    "id" : "p9.parameterName",
+    "column" : "p9ParameterName",
+    "ar" : "9|المدخل",
+    "en" : "9|Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p9.sourceField",
+    "column" : "p9SourceField",
+    "ar" : "9|المصدر",
+    "en" : "9|Field",
+    "type" : "FieldID"
+  } ]
+}

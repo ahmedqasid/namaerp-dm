@@ -1,0 +1,16 @@
+{
+  "enum" : "OtpFormat",
+  "values" : [ {
+    "id" : "Numeric",
+    "ar" : "أرقام فقط",
+    "en" : "Only Numbers"
+  }, {
+    "id" : "AlphaNumeric",
+    "ar" : "أرقام و حروف",
+    "en" : "Numbers And Character"
+  }, {
+    "id" : "Alphabetic",
+    "ar" : "حروف فقط",
+    "en" : "Only Character"
+  } ]
+}

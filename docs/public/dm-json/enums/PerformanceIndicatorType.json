@@ -1,0 +1,24 @@
+{
+  "enum" : "PerformanceIndicatorType",
+  "values" : [ {
+    "id" : "Manual",
+    "ar" : "يدوي",
+    "en" : "Manual"
+  }, {
+    "id" : "System",
+    "ar" : "نظامى",
+    "en" : "System"
+  }, {
+    "id" : "FromScript",
+    "ar" : "من سيناريو",
+    "en" : "Script"
+  }, {
+    "id" : "FromSQLStatment",
+    "ar" : "SQL من جملة",
+    "en" : "SQL Statement"
+  }, {
+    "id" : "GroovyScript",
+    "ar" : "Groovy Script",
+    "en" : "Groovy Script"
+  } ]
+}

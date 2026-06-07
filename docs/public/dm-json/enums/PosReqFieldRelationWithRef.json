@@ -1,0 +1,20 @@
+{
+  "enum" : "PosReqFieldRelationWithRef",
+  "values" : [ {
+    "id" : "Equal",
+    "ar" : "يساوي",
+    "en" : "Equal"
+  }, {
+    "id" : "NotEqual",
+    "ar" : "لا يساوي",
+    "en" : "Not Equal"
+  }, {
+    "id" : "Empty",
+    "ar" : "فارغا",
+    "en" : "Empty"
+  }, {
+    "id" : "WithoutRelation",
+    "ar" : "بدون علاقه",
+    "en" : "Without Relation"
+  } ]
+}

@@ -1,0 +1,24 @@
+{
+  "enum" : "CRTNManufacturingType",
+  "values" : [ {
+    "id" : "NormalCarton",
+    "ar" : "كرتونة عادية - يصنع ويباع",
+    "en" : "Normal Carton - Manufactured And For Sale"
+  }, {
+    "id" : "AssembledCarton",
+    "ar" : "كرتونة مجمعة - يباع ولا يصنع",
+    "en" : "Assembled Carton - Not Manufactured And For Sale"
+  }, {
+    "id" : "NormalSeparator",
+    "ar" : "فاصل عادي - يصنع ويباع",
+    "en" : "Normal Separator - Manufactured And For Sale"
+  }, {
+    "id" : "AssembledSeparator",
+    "ar" : "فاصل مجمع - يصنع ولا يباع",
+    "en" : "Normal Separator - Manufactured And Not For Sale"
+  }, {
+    "id" : "SmallSeparator",
+    "ar" : "فاصل صغير - يباع ولا يصنع",
+    "en" : "Small Separator - Not Manufactured And For Sale"
+  } ]
+}

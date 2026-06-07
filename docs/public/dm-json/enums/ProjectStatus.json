@@ -1,0 +1,44 @@
+{
+  "enum" : "ProjectStatus",
+  "values" : [ {
+    "id" : "InProgress",
+    "ar" : "قيد التنفيذ",
+    "en" : "In Progress"
+  }, {
+    "id" : "Closed",
+    "ar" : "مغلقة",
+    "en" : "Closed"
+  }, {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Suspended",
+    "ar" : "معلق",
+    "en" : "Suspended"
+  }, {
+    "id" : "Opened",
+    "ar" : "مفتوح",
+    "en" : "Opened"
+  }, {
+    "id" : "Stopped",
+    "ar" : "موقوف يدويا",
+    "en" : "Manually Stopped"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  }, {
+    "id" : "Postponed",
+    "ar" : "مؤجل",
+    "en" : "Postponed"
+  }, {
+    "id" : "Planned",
+    "ar" : "مخطّطة",
+    "en" : "Planned"
+  }, {
+    "id" : "ReOpen",
+    "ar" : "معاد فتحه",
+    "en" : "ReOpen"
+  } ]
+}

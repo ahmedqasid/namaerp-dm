@@ -1,0 +1,20 @@
+{
+  "enum" : "TableType",
+  "values" : [ {
+    "id" : "Entity",
+    "ar" : "Entity",
+    "en" : "Entity"
+  }, {
+    "id" : "DetailLine",
+    "ar" : "Detail Line",
+    "en" : "Detail Line"
+  }, {
+    "id" : "SystemTable",
+    "ar" : "System Table",
+    "en" : "System Table"
+  }, {
+    "id" : "VirtualEntity",
+    "ar" : "كيان افتراضي",
+    "en" : "Virtual Entity"
+  } ]
+}

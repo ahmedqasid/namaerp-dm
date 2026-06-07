@@ -1,0 +1,28 @@
+{
+  "enum" : "FieldExportType",
+  "values" : [ {
+    "id" : "Code",
+    "ar" : " الكود",
+    "en" : " Code"
+  }, {
+    "id" : "Name1",
+    "ar" : " الاسم العربي",
+    "en" : " Name1"
+  }, {
+    "id" : "Name2",
+    "ar" : " الاسم الإنجليزي",
+    "en" : " Name2"
+  }, {
+    "id" : "FieldValue",
+    "ar" : "قيمة الحقل",
+    "en" : "Field Value"
+  }, {
+    "id" : "Expression",
+    "ar" : " Expression",
+    "en" : " Expression"
+  }, {
+    "id" : "LinesTotal",
+    "ar" : "إجمالى السطور",
+    "en" : "Lines Total"
+  } ]
+}

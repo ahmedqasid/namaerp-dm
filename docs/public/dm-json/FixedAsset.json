@@ -1,0 +1,1520 @@
+{
+  "entity" : "FixedAsset",
+  "table" : "FixedAsset",
+  "module" : "fixedassets",
+  "ar" : "أصل ثابت",
+  "arPlural" : "الأصول الثابتة",
+  "en" : "Fixed Asset",
+  "enPlural" : "Fixed Assets",
+  "page" : "https://dm.namasoft.com/modules/fixedassets/FixedAsset.html",
+  "fields" : [ {
+    "id" : "accDeprValueOpening",
+    "column" : "accDeprValueOpening",
+    "ar" : "قيمة الأهلاك التراكمي الأفتتاحية",
+    "en" : "Acc. Depreciation opening value",
+    "type" : "Decimal"
+  }, {
+    "id" : "acquireValueOpening",
+    "column" : "acquireValueOpening",
+    "ar" : "قيمة الأقتناء الأفتتاحية",
+    "en" : "Acquire opening value",
+    "type" : "Decimal"
+  }, {
+    "id" : "addedCount",
+    "column" : "addedCount",
+    "ar" : "العدد المضاف",
+    "en" : "Added Count",
+    "type" : "Integer"
+  }, {
+    "id" : "altCode",
+    "column" : "altCode",
+    "ar" : "الكود الإنجليزي",
+    "en" : "English Code",
+    "type" : "Text"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "assetCalculatedValue.additions",
+    "column" : "additions",
+    "ar" : "الإضافات",
+    "en" : "Additions",
+    "type" : "Decimal"
+  }, {
+    "id" : "assetCalculatedValue.currentSystemValue",
+    "column" : "currentSystemValue",
+    "ar" : "القيمة الدفترية الحالية",
+    "en" : "Current System Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "assetCalculatedValue.deductions",
+    "column" : "deductions",
+    "ar" : "الإستقطاعات",
+    "en" : "Deductions",
+    "type" : "Decimal"
+  }, {
+    "id" : "assetCalculatedValue.depreciationStartDate",
+    "column" : "depreciationStartDate",
+    "ar" : "تاريخ بداية الاهلاك",
+    "en" : "Depreciation Start Date",
+    "type" : "Date"
+  }, {
+    "id" : "assetCalculatedValue.lastDepreciationDate",
+    "column" : "lastDepreciationDate",
+    "ar" : "تاريخ اخر إهلاك",
+    "en" : "Last Depreciation Date",
+    "type" : "Date"
+  }, {
+    "id" : "assetCalculatedValue.openCost",
+    "column" : "openCost",
+    "ar" : "قيمة الإقتناء",
+    "en" : "Openning Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "assetCalculatedValue.openDepreciation",
+    "column" : "openDepreciation",
+    "ar" : "الإهلاك التراكمي الإفتتاحي",
+    "en" : "Openning Depreciation",
+    "type" : "Decimal"
+  }, {
+    "id" : "assetCalculatedValue.systemValueBeforeDisposal",
+    "column" : "systemValueBeforeDisposal",
+    "ar" : "قيمة الأصل الدفترية قبل التخلص",
+    "en" : "Fixed Asset System Value Before Disposal",
+    "type" : "Decimal"
+  }, {
+    "id" : "assetCalculatedValue.totalCost",
+    "column" : "totalCost",
+    "ar" : "إجمالي قيمة الأصل",
+    "en" : "Total Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "assetCalculatedValue.totalDepreciation",
+    "column" : "totalDepreciation",
+    "ar" : "مجمع الإهلاك",
+    "en" : "Total Depreciation",
+    "type" : "Decimal"
+  }, {
+    "id" : "assetCalculatedValue.totalYearDepreciation",
+    "column" : "totalYearDepreciation",
+    "ar" : "إهلاك السنة الحالية",
+    "en" : "Year Depreciation",
+    "type" : "Decimal"
+  }, {
+    "id" : "attachment",
+    "column" : "attachment_id",
+    "ar" : "مرفق",
+    "en" : "Attachment",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment10",
+    "column" : "attachment10_id",
+    "ar" : "مرفق 10",
+    "en" : "Attachment10",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment6",
+    "column" : "attachment6_id",
+    "ar" : "مرفق 6",
+    "en" : "Attachment6",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment7",
+    "column" : "attachment7_id",
+    "ar" : "مرفق 7",
+    "en" : "Attachment7",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment8",
+    "column" : "attachment8_id",
+    "ar" : "مرفق 8",
+    "en" : "Attachment8",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment9",
+    "column" : "attachment9_id",
+    "ar" : "مرفق 9",
+    "en" : "Attachment9",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "car",
+    "column" : "car_id",
+    "ar" : "السيارة",
+    "en" : "Car",
+    "type" : "Reference",
+    "refTo" : "Car",
+    "refPath" : "/modules/basic/Car.html"
+  }, {
+    "id" : "carAsset",
+    "column" : "carAsset",
+    "ar" : "سيارة",
+    "en" : "Car Asset",
+    "type" : "Boolean"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "contractingCostCredit",
+    "column" : "contractingCostCredit_id",
+    "ar" : "دائن تكلفة المقاولات",
+    "en" : "Contracting Cost Credit",
+    "type" : "Reference",
+    "refTo" : "AccountingSideConfig",
+    "refPath" : "/modules/basic/AccountingSideConfig.html"
+  }, {
+    "id" : "contractingCostDebit",
+    "column" : "contractingCostDebit_id",
+    "ar" : "مدين تكلفة المقاولات",
+    "en" : "Contracting Cost Debit",
+    "type" : "Reference",
+    "refTo" : "AccountingSideConfig",
+    "refPath" : "/modules/basic/AccountingSideConfig.html"
+  }, {
+    "id" : "countable",
+    "column" : "countable",
+    "ar" : "له عدد",
+    "en" : "Countable",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentCount",
+    "column" : "currentCount",
+    "ar" : "العدد الحالي",
+    "en" : "Current Count",
+    "type" : "Integer"
+  }, {
+    "id" : "currentInstallment",
+    "column" : "currentInstallment",
+    "ar" : "قسط الإهلاك",
+    "en" : "Current Installment",
+    "type" : "Decimal"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "custodian",
+    "column" : "custodian_id",
+    "ar" : "مسؤل العهدة الأساسي",
+    "en" : "Main Asset Custodian",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "disposalValue",
+    "column" : "disposalValue",
+    "ar" : "قيمة التخلص من الأصل",
+    "en" : "Disposal Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "disposedCount",
+    "column" : "disposedCount",
+    "ar" : "العدد المتخلص منه",
+    "en" : "Disposed Count",
+    "type" : "Integer"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "faClassification1",
+    "column" : "faClassification1_id",
+    "ar" : "تصنيف أصل ثابت 1",
+    "en" : "Fixed Asset Classification1",
+    "type" : "Reference",
+    "refTo" : "FAClassification1",
+    "refPath" : "/modules/fixedassets/FAClassification1.html"
+  }, {
+    "id" : "faClassification2",
+    "column" : "faClassification2_id",
+    "ar" : "تصنيف أصل ثابت 2",
+    "en" : "Fixed Asset Classification2",
+    "type" : "Reference",
+    "refTo" : "FAClassification2",
+    "refPath" : "/modules/fixedassets/FAClassification2.html"
+  }, {
+    "id" : "faClassification3",
+    "column" : "faClassification3_id",
+    "ar" : "تصنيف أصل ثابت 3",
+    "en" : "Fixed Asset Classification3",
+    "type" : "Reference",
+    "refTo" : "FAClassification3",
+    "refPath" : "/modules/fixedassets/FAClassification3.html"
+  }, {
+    "id" : "faClassification4",
+    "column" : "faClassification4_id",
+    "ar" : "تصنيف أصل ثابت 4",
+    "en" : "Fixed Asset Classification4",
+    "type" : "Reference",
+    "refTo" : "FAClassification4",
+    "refPath" : "/modules/fixedassets/FAClassification4.html"
+  }, {
+    "id" : "faClassification5",
+    "column" : "faClassification5_id",
+    "ar" : "تصنيف أصل ثابت 5",
+    "en" : "Fixed Asset Classification5",
+    "type" : "Reference",
+    "refTo" : "FAClassification5",
+    "refPath" : "/modules/fixedassets/FAClassification5.html"
+  }, {
+    "id" : "faType",
+    "column" : "faType_id",
+    "ar" : " نوع أصل",
+    "en" : " Fixed Asset Type",
+    "type" : "Reference",
+    "refTo" : "FAType",
+    "refPath" : "/modules/fixedassets/FAType.html"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "hasInsurance",
+    "column" : "hasInsurance",
+    "ar" : "له تأمين",
+    "en" : "Has Insurance",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "insuranceInfo.carInsuranceValue",
+    "column" : "carInsuranceValue",
+    "ar" : "قيمة السيارة التأمينية",
+    "en" : "Car Insurance Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "insuranceInfo.insurPolicyExpiry",
+    "column" : "insurPolicyExpiry",
+    "ar" : "تاريخ أنتهاء بوليصة التأمين",
+    "en" : "Insure Policy Expiry",
+    "type" : "Date"
+  }, {
+    "id" : "insuranceInfo.insuranceCompany",
+    "columns" : [ "insuranceCompanyActualCode", " insuranceCompanyCode", " insuranceCompanyEntityType", " insuranceCompanyId" ],
+    "ar" : "شركة التأمين",
+    "en" : "Insurance Company",
+    "type" : "Genericreference"
+  }, {
+    "id" : "insuranceInfo.insuranceDoc",
+    "column" : "insuranceDoc_id",
+    "ar" : "وثيقة التأمين",
+    "en" : "Insurance Document",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "insuranceInfo.insuranceInstallCount",
+    "column" : "insuranceInstallCount",
+    "ar" : "عدد أقساط التأمين",
+    "en" : "Insurance Install Count",
+    "type" : "Integer"
+  }, {
+    "id" : "insuranceInfo.insurancePolicyNum",
+    "column" : "insurancePolicyNum",
+    "ar" : "رقم بوليصة التأمين",
+    "en" : "Insurance Policy Number",
+    "type" : "Text"
+  }, {
+    "id" : "insuranceInfo.insuranceStartDate",
+    "column" : "insuranceStartDate",
+    "ar" : "تاريخ بداية التأمين",
+    "en" : "Insurance Start Date",
+    "type" : "Date"
+  }, {
+    "id" : "insuranceInfo.insuranceState",
+    "column" : "insuranceState",
+    "ar" : "حالة التأمين",
+    "en" : "Insurance State",
+    "type" : "Enum",
+    "enum" : "Validity"
+  }, {
+    "id" : "insuranceInfo.insuranceType",
+    "column" : "insuranceType",
+    "ar" : "نوع التأمين",
+    "en" : "Insurance Type",
+    "type" : "Enum",
+    "enum" : "InsuranceType"
+  }, {
+    "id" : "insuranceInfo.insuranceValue",
+    "column" : "insuranceValue",
+    "ar" : "التأمين | قيمة التأمين",
+    "en" : "Insurance Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "insuranceInfo.maintenanceType",
+    "column" : "maintenanceType",
+    "ar" : "نوع  الصيانة",
+    "en" : "Maintenance  type",
+    "type" : "Enum",
+    "enum" : "MaintenanceType"
+  }, {
+    "id" : "intangibleAsset",
+    "column" : "intangibleAsset",
+    "ar" : "أصل غير ملموس",
+    "en" : "Intangible Asset",
+    "type" : "Boolean"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastLocationEntry",
+    "column" : "lastLocationEntry_id",
+    "type" : "",
+    "refTo" : "FALocationEntry",
+    "refPath" : "/modules/system-tables/FALocationEntry.html"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastPropertiesEntry",
+    "column" : "lastPropertiesEntry_id",
+    "type" : "",
+    "refTo" : "FAPropertiesEntry",
+    "refPath" : "/modules/system-tables/FAPropertiesEntry.html"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "location",
+    "column" : "location_id",
+    "ar" : "موقع الاصل",
+    "en" : "Asset Location",
+    "type" : "Reference",
+    "refTo" : "FALocation",
+    "refPath" : "/modules/fixedassets/FALocation.html"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "maintenanceContractEndDate",
+    "column" : "maintenanceContractEndDate",
+    "ar" : "تاريخ انتهاء عقد  الصيانة",
+    "en" : "Maintenance Contract End Date",
+    "type" : "Date"
+  }, {
+    "id" : "maintenanceContractNumber",
+    "column" : "maintenanceContractNumber",
+    "ar" : "رقم عقد الصيانة",
+    "en" : "Maintenance contract number",
+    "type" : "Decimal"
+  }, {
+    "id" : "maintenanceContractStartDate",
+    "column" : "maintenanceContractStartDate",
+    "ar" : "تاريخ  بدء  عقد  الصيانة",
+    "en" : "Maintenance Contract Start Date",
+    "type" : "Date"
+  }, {
+    "id" : "marketValue",
+    "column" : "marketValue",
+    "ar" : "القيمة السوقية",
+    "en" : "Market value",
+    "type" : "Decimal"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "openingDocument",
+    "column" : "openingDocument_id",
+    "ar" : "سند الإقتتاح",
+    "en" : "Opening Document",
+    "type" : "Reference",
+    "refTo" : "FAOpeningDocument",
+    "refPath" : "/modules/fixedassets/FAOpeningDocument.html"
+  }, {
+    "id" : "originCount",
+    "column" : "originCount",
+    "ar" : "العدد الأصلي",
+    "en" : "Origin Count",
+    "type" : "Integer"
+  }, {
+    "id" : "outCount",
+    "column" : "outCount",
+    "ar" : "العدد بالخارج",
+    "en" : "Out Count",
+    "type" : "Integer"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "project",
+    "columns" : [ "projectActualCode", " projectCode", " projectEntityType", " projectId" ],
+    "ar" : "المشروع",
+    "en" : "Project",
+    "type" : "Genericreference"
+  }, {
+    "id" : "properties.disposalDate",
+    "column" : "disposalDate",
+    "ar" : "تاريخ التخلص من الأصل",
+    "en" : "Disposal Date",
+    "type" : "Date"
+  }, {
+    "id" : "properties.remainigLifeValue",
+    "column" : "remainigLifeValue",
+    "ar" : "العمر المتبقي",
+    "en" : "Remaining Life",
+    "type" : "Integer"
+  }, {
+    "id" : "properties.salvageValue",
+    "column" : "salvageValue",
+    "ar" : "قيمة الأصل كخردة",
+    "en" : "Salavge Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "properties.usefulLife",
+    "column" : "usefulLife",
+    "ar" : "العمر الإفتراضي",
+    "en" : "Useful Life",
+    "type" : "Integer"
+  }, {
+    "id" : "purchaseDate",
+    "column" : "purchaseDate",
+    "ar" : "تاريخ الشراء",
+    "en" : "Purchase date",
+    "type" : "Date"
+  }, {
+    "id" : "purchaseDocument",
+    "column" : "purchaseDocument_id",
+    "ar" : " فاتورة مشتريات",
+    "en" : " Purchase Invoice",
+    "type" : "Reference",
+    "refTo" : "FAPurchaseDocument",
+    "refPath" : "/modules/fixedassets/FAPurchaseDocument.html"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "serialNumber",
+    "column" : "serialNumber",
+    "ar" : "الرقم المسلسل",
+    "en" : "Serial Number",
+    "type" : "Text"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "FAStatus"
+  }, {
+    "id" : "subsidiaryAccounts.account1",
+    "column" : "account1_id",
+    "ar" : "حساب الإهلاك",
+    "en" : "Depreciation account",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account10",
+    "column" : "account10_id",
+    "ar" : " حساب 10",
+    "en" : " Account 10",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account11",
+    "column" : "account11_id",
+    "ar" : " حساب 11",
+    "en" : " Account 11",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account12",
+    "column" : "account12_id",
+    "ar" : " حساب 12",
+    "en" : " Account 12",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account13",
+    "column" : "account13_id",
+    "ar" : " حساب 13",
+    "en" : " Account 13",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account14",
+    "column" : "account14_id",
+    "ar" : " حساب 14",
+    "en" : " Account 14",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account15",
+    "column" : "account15_id",
+    "ar" : " حساب 15",
+    "en" : " Account 15",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account16",
+    "column" : "account16_id",
+    "ar" : " حساب 16",
+    "en" : " Account 16",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account17",
+    "column" : "account17_id",
+    "ar" : " حساب 17",
+    "en" : " Account 17",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account18",
+    "column" : "account18_id",
+    "ar" : " حساب 18",
+    "en" : " Account 18",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account19",
+    "column" : "account19_id",
+    "ar" : " حساب 19",
+    "en" : " Account 19",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account2",
+    "column" : "account2_id",
+    "ar" : "حساب الإهلاك التراكمي",
+    "en" : "Accumulative depreciation account",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account20",
+    "column" : "account20_id",
+    "ar" : " حساب 20",
+    "en" : " Account 20",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account3",
+    "column" : "account3_id",
+    "ar" : "أخرى 1",
+    "en" : "Other 1",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account4",
+    "column" : "account4_id",
+    "ar" : "أخرى 2",
+    "en" : "Other 2",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account5",
+    "column" : "account5_id",
+    "ar" : "أخرى 3",
+    "en" : "Other 3",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account6",
+    "column" : "account6_id",
+    "ar" : " حساب 06",
+    "en" : " Account 06",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account7",
+    "column" : "account7_id",
+    "ar" : " حساب 07",
+    "en" : " Account 07",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account8",
+    "column" : "account8_id",
+    "ar" : " حساب 08",
+    "en" : " Account 08",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account9",
+    "column" : "account9_id",
+    "ar" : " حساب 09",
+    "en" : " Account 09",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.accountsBag",
+    "column" : "accountsBag_id",
+    "ar" : " حقيبة حسابات",
+    "en" : " Accounts Bag",
+    "type" : "Reference",
+    "refTo" : "AccountsBag",
+    "refPath" : "/modules/basic/AccountsBag.html"
+  }, {
+    "id" : "subsidiaryAccounts.currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "subsidiaryAccounts.forceNoDebtAgesTracking",
+    "column" : "forceNoDebtAgesTracking",
+    "ar" : "منع متابعة أعمار الديون لهذه الذمة - حتي و إن تم تفعيلها للحساب",
+    "en" : "Do Not Track Debt Ages For This Subsidiary - Even if it was activated in the account",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.mainAccount",
+    "column" : "mainAccount_id",
+    "ar" : "حساب الأصل",
+    "en" : "Asset account",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.parentParty",
+    "columns" : [ "parentPartyActualCode", " parentPartyCode", " parentPartyEntityType", " parentPartyId" ],
+    "ar" : "الجهة الأعلي (البديل المحاسبي)",
+    "en" : "Parent Party (Accounting Alternative)",
+    "type" : "Genericreference"
+  }, {
+    "id" : "subsidiaryAccounts.tax1Exempt",
+    "column" : "tax1Exempt",
+    "ar" : "غير خاضع لضريبة 1",
+    "en" : "Tax 1 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax2Exempt",
+    "column" : "tax2Exempt",
+    "ar" : "غير خاضع لضريبة 2",
+    "en" : "Tax 2 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax3Exempt",
+    "column" : "tax3Exempt",
+    "ar" : "غير خاضع لضريبة 3",
+    "en" : "Tax 3 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax4Exempt",
+    "column" : "tax4Exempt",
+    "ar" : "غير خاضع لضريبة 4",
+    "en" : "Tax 4 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "supplier",
+    "column" : "supplier_id",
+    "ar" : "مورد",
+    "en" : " Supplier",
+    "type" : "Reference",
+    "refTo" : "Supplier",
+    "refPath" : "/modules/basic/Supplier.html"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "taxAuthUOMCode",
+    "column" : "taxAuthUOMCode",
+    "ar" : "Tax Authority UOM Code",
+    "en" : "Tax Authority UOM Code",
+    "type" : "Text"
+  }, {
+    "id" : "taxAuthorityCode",
+    "column" : "taxAuthorityCode",
+    "ar" : "كود مصلحة الضرائب",
+    "en" : "Tax Authority Code",
+    "type" : "Text"
+  }, {
+    "id" : "taxPlan",
+    "column" : "taxPlan_id",
+    "ar" : " سياسة الضريبة",
+    "en" : " Tax Plan",
+    "type" : "Reference",
+    "refTo" : "TaxPlan",
+    "refPath" : "/modules/basic/TaxPlan.html"
+  }, {
+    "id" : "unDepreciable",
+    "column" : "unDepreciable",
+    "ar" : "غير قابل للإهلاك",
+    "en" : "Undepreciable",
+    "type" : "Boolean"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "warranteePeriod.uom",
+    "column" : "warranteePeriodUom",
+    "ar" : "الوحدة",
+    "en" : "Unit",
+    "type" : "Enum",
+    "enum" : "TimePeriodType"
+  }, {
+    "id" : "warranteePeriod.value",
+    "column" : "warranteePeriodValue",
+    "ar" : "القيمة",
+    "en" : "Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "warranteeTerms",
+    "column" : "warranteeTerms",
+    "ar" : "شروط الضمان",
+    "en" : "Warrantee Terms",
+    "type" : "BigText"
+  } ],
+  "details" : [ {
+    "id" : "assetComponents",
+    "table" : "FixedAssetComponentLine",
+    "joinColumn" : "fixedAsset_id",
+    "ar" : "مكونات الأصل",
+    "en" : "Asset Components",
+    "fields" : [ {
+      "id" : "assetComponents.attachment1",
+      "column" : "attachment1_id",
+      "ar" : "مرفق 1",
+      "en" : "Attachment 1",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "assetComponents.attachment2",
+      "column" : "attachment2_id",
+      "ar" : "مرفق 2",
+      "en" : "Attachment 2",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "assetComponents.faComponentType",
+      "column" : "faComponentType_id",
+      "ar" : "نوع مكون الأصل",
+      "en" : "Fixed Asset Component Type",
+      "type" : "Reference",
+      "refTo" : "FAComponentType",
+      "refPath" : "/modules/fixedassets/FAComponentType.html"
+    }, {
+      "id" : "assetComponents.faMaintenanceRecord",
+      "column" : "faMaintenanceRecord_id",
+      "ar" : "سجل الصيانة",
+      "en" : "Fixed Asset Maintenance Record",
+      "type" : "Reference",
+      "refTo" : "FAMaintenanceRecord",
+      "refPath" : "/modules/fixedassets-maintenance/FAMaintenanceRecord.html"
+    }, {
+      "id" : "assetComponents.faMaintenanceType",
+      "column" : "faMaintenanceType_id",
+      "ar" : "نوع الصيانة",
+      "en" : "Fixed Asset Maintenance Type",
+      "type" : "Reference",
+      "refTo" : "FAMaintenanceType",
+      "refPath" : "/modules/fixedassets-maintenance/FAMaintenanceType.html"
+    }, {
+      "id" : "assetComponents.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "assetComponents.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "assetComponents.maintenanceEndDate",
+      "column" : "maintenanceEndDate",
+      "ar" : "تاريخ نهاية الصيانة",
+      "en" : "Maintenance End Date",
+      "type" : "Date"
+    }, {
+      "id" : "assetComponents.maintenanceStartDate",
+      "column" : "maintenanceStartDate",
+      "ar" : "تاريخ بداية الصيانة",
+      "en" : "Maintenance Start Date",
+      "type" : "Date"
+    }, {
+      "id" : "assetComponents.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "assetComponents.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "assetComponents.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "assetComponents.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "assetComponents.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "assetComponents.nextExpectedMaintenanceDate",
+      "column" : "nextExpectedMaintenanceDate",
+      "ar" : "تاريخ الصيانة التالية المتوقع",
+      "en" : "Next Expected Maintenance Date",
+      "type" : "Date"
+    }, {
+      "id" : "assetComponents.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "assetComponents.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "assetComponents.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "assetComponents.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "assetComponents.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "assetComponents.serialNumber",
+      "column" : "serialNumber",
+      "ar" : "الرقم المسلسل",
+      "en" : "Serial Number",
+      "type" : "Text"
+    }, {
+      "id" : "assetComponents.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "assetComponents.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "assetComponents.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "assetComponents.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "assetComponents.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "lines",
+    "table" : "FACustodianLine",
+    "joinColumn" : "fixedAsset_id",
+    "ar" : " التفاصيل",
+    "en" : " Details",
+    "fields" : [ {
+      "id" : "lines.custodyPer",
+      "column" : "custodyPer",
+      "ar" : "نسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.employee",
+      "column" : "employee_id",
+      "ar" : "الموظف",
+      "en" : "Employee",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "lines.faReceiptDoc",
+      "columns" : [ "faReceiptDocActualCode", " faReceiptDocCode", " faReceiptDocEntityType", " faReceiptDocId" ],
+      "ar" : "مستندات استلام الأصول",
+      "en" : "Fixed Asset Receipt Documents",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.fromDate",
+      "column" : "fromDate",
+      "ar" : "من تاريخ",
+      "en" : "From Date",
+      "type" : "Date"
+    }, {
+      "id" : "lines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "lines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "lines.remark",
+      "column" : "remark",
+      "ar" : "ملحوظة",
+      "en" : "Remark",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.toDate",
+      "column" : "toDate",
+      "ar" : "إلى تاريخ",
+      "en" : "To Date",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "terms",
+    "table" : "FAContrTermLine",
+    "joinColumn" : "fixedAsset_id",
+    "ar" : "البنود",
+    "en" : "Terms",
+    "fields" : [ {
+      "id" : "terms.actualTotalCost",
+      "column" : "actualTotalCost",
+      "ar" : "التكلفة الفعلية",
+      "en" : "Actual Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "terms.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "terms.project",
+      "columns" : [ "projectActualCode", " projectCode", " projectEntityType", " projectId" ],
+      "ar" : "المشروع",
+      "en" : "Project",
+      "type" : "Genericreference"
+    }, {
+      "id" : "terms.projectContract",
+      "columns" : [ "projectContractActualCode", " projectContractCode", " projectContractEntityType", " projectContractId" ],
+      "ar" : " عقد مشروع",
+      "en" : " Project Contract",
+      "type" : "Genericreference"
+    }, {
+      "id" : "terms.remarks",
+      "column" : "remarks",
+      "ar" : "وصف البند",
+      "en" : "Term Description",
+      "type" : "BigText"
+    }, {
+      "id" : "terms.standardTerm",
+      "columns" : [ "standardTermActualCode", " standardTermCode", " standardTermEntityType", " standardTermId" ],
+      "ar" : "البند القياسي",
+      "en" : "Standard Term",
+      "type" : "Genericreference"
+    }, {
+      "id" : "terms.termCode",
+      "column" : "termCode",
+      "ar" : "كود البند",
+      "en" : "Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "terms.warrantyEndDate",
+      "column" : "warrantyEndDate",
+      "ar" : "تاريخ نهاية الضمان",
+      "en" : "Warranty End Date",
+      "type" : "Date"
+    }, {
+      "id" : "terms.warrantyPeriod.uom",
+      "column" : "warrantyPeriodUom",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Enum",
+      "enum" : "TimePeriodType"
+    }, {
+      "id" : "terms.warrantyPeriod.value",
+      "column" : "warrantyPeriodValue",
+      "ar" : "فترة الضمان",
+      "en" : "Warranty Period",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.warrantyStartDate",
+      "column" : "warrantyStartDate",
+      "ar" : "تاريخ بداية الضمان",
+      "en" : "Warranty Start Date",
+      "type" : "Date"
+    } ]
+  } ]
+}

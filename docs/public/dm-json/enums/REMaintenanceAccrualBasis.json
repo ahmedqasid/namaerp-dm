@@ -1,0 +1,16 @@
+{
+  "enum" : "REMaintenanceAccrualBasis",
+  "values" : [ {
+    "id" : "YearMaintenance",
+    "ar" : "صيانة السنة",
+    "en" : "Year Maintenance"
+  }, {
+    "id" : "DebitMaintenanceDifference",
+    "ar" : "فروقات صيانة مدينة",
+    "en" : "Debit Maintenance Difference"
+  }, {
+    "id" : "CreditMaintenanceDifference",
+    "ar" : "فروقات صيانة دائنة",
+    "en" : "Credit Maintenance Difference"
+  } ]
+}

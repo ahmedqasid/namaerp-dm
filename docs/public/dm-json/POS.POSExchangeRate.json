@@ -1,0 +1,259 @@
+{
+  "entity" : "POS.POSExchangeRate",
+  "table" : "POSExchangeRate",
+  "module" : "pos-app",
+  "ar" : "سعر صرف",
+  "arPlural" : "أسعار صرف",
+  "en" : "Exchange Rate",
+  "enPlural" : "Exchange Rates",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSExchangeRate.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "date",
+    "column" : "date",
+    "ar" : "التاريخ",
+    "en" : "Date",
+    "type" : "Date"
+  }, {
+    "id" : "endDate",
+    "column" : "endDate",
+    "ar" : "تاريخ النهاية",
+    "en" : "End Date",
+    "type" : "Date"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "ledgerId",
+    "column" : "ledgerId",
+    "type" : "ID"
+  }, {
+    "id" : "mainCurrency",
+    "column" : "mainCurrency_id",
+    "ar" : "العملة الرئيسية",
+    "en" : "Main Currency",
+    "type" : "Reference",
+    "refTo" : "POS.POSCurrency",
+    "refPath" : "/modules/pos-app/POS.POSCurrency.html"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "startDate",
+    "column" : "startDate",
+    "ar" : "تاريخ البداية",
+    "en" : "Start Date",
+    "type" : "Date"
+  }, {
+    "id" : "type",
+    "column" : "type",
+    "ar" : "النوع",
+    "en" : "Type",
+    "type" : "Text"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ],
+  "details" : [ {
+    "id" : "details",
+    "table" : "POSExchangeRateLine",
+    "joinColumn" : "exchangeRate_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "fields" : [ {
+      "id" : "details.buy",
+      "column" : "buy",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.currency",
+      "column" : "currency_id",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Reference",
+      "refTo" : "POS.POSCurrency",
+      "refPath" : "/modules/pos-app/POS.POSCurrency.html"
+    }, {
+      "id" : "details.date",
+      "column" : "date",
+      "ar" : "التاريخ",
+      "en" : "Date",
+      "type" : "Date"
+    }, {
+      "id" : "details.endDate",
+      "column" : "endDate",
+      "ar" : "تاريخ النهاية",
+      "en" : "End Date",
+      "type" : "Date"
+    }, {
+      "id" : "details.exchangeRate",
+      "column" : "exchangeRate_id",
+      "type" : "Reference",
+      "refTo" : "POS.POSExchangeRate",
+      "refPath" : "/modules/pos-app/POS.POSExchangeRate.html"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.ledgerId",
+      "column" : "ledgerId",
+      "type" : "ID"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.mainCurrency",
+      "column" : "mainCurrency_id",
+      "ar" : "العملة الرئيسية",
+      "en" : "Main Currency",
+      "type" : "Reference",
+      "refTo" : "POS.POSCurrency",
+      "refPath" : "/modules/pos-app/POS.POSCurrency.html"
+    }, {
+      "id" : "details.remarks",
+      "column" : "remarks",
+      "ar" : " ملاحظات",
+      "en" : " Description",
+      "type" : "Text"
+    }, {
+      "id" : "details.sell",
+      "column" : "sell",
+      "ar" : "بيع",
+      "en" : "Sell",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.startDate",
+      "column" : "startDate",
+      "ar" : "تاريخ البداية",
+      "en" : "Start Date",
+      "type" : "Date"
+    }, {
+      "id" : "details.type",
+      "column" : "type",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Text"
+    } ]
+  } ]
+}

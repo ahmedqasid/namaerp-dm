@@ -1,0 +1,16 @@
+{
+  "enum" : "EInvoiceDiscountLocation",
+  "values" : [ {
+    "id" : "AfterTax",
+    "ar" : "بعد الضريبة",
+    "en" : "After Tax"
+  }, {
+    "id" : "BeforeTax",
+    "ar" : "قبل الضريبة",
+    "en" : "Before Tax"
+  }, {
+    "id" : "Ignore",
+    "ar" : "تجاهل",
+    "en" : "Ignore"
+  } ]
+}

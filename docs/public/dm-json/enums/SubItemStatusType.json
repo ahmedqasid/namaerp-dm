@@ -1,0 +1,84 @@
+{
+  "enum" : "SubItemStatusType",
+  "values" : [ {
+    "id" : "PreInitial",
+    "ar" : "ما قبل المبدئي",
+    "en" : "Pre Initial"
+  }, {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "InTransit",
+    "ar" : "بالطريق",
+    "en" : "In Transit"
+  }, {
+    "id" : "Customs",
+    "ar" : "الجمارك",
+    "en" : "Customs"
+  }, {
+    "id" : "CustomsPaid",
+    "ar" : "تم دفع الجمارك",
+    "en" : "Customs Paid"
+  }, {
+    "id" : "Received",
+    "ar" : "تم تسليمه",
+    "en" : "Received"
+  }, {
+    "id" : "Allocated",
+    "ar" : "مخصص",
+    "en" : "Allocated"
+  }, {
+    "id" : "Booked",
+    "ar" : "محجوز",
+    "en" : "Booked"
+  }, {
+    "id" : "TrafficLetterRequested",
+    "ar" : "مطلوب له خطاب مرور",
+    "en" : "Traffic Letter Requested"
+  }, {
+    "id" : "TrafficLetterIssued",
+    "ar" : "مُصدر له خطاب مرور",
+    "en" : "Traffic Letter Issued"
+  }, {
+    "id" : "Invoiced",
+    "ar" : "مفوتر كلياً",
+    "en" : "Invoiced"
+  }, {
+    "id" : "Delivered",
+    "ar" : "توصيل كلي",
+    "en" : "Totally Delivered"
+  }, {
+    "id" : "FinalDelivered",
+    "ar" : "توصيل نهائي",
+    "en" : "Final Delivered"
+  }, {
+    "id" : "FreeStock",
+    "ar" : "مخزون متاح",
+    "en" : "Free Stock"
+  }, {
+    "id" : "StockConsignment",
+    "ar" : "مخزون أمانات",
+    "en" : "Stock Consignment"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  }, {
+    "id" : "Other4",
+    "ar" : "أخرى 4",
+    "en" : "Other 4"
+  }, {
+    "id" : "Other5",
+    "ar" : "أخرى 5",
+    "en" : "Other 5"
+  } ]
+}

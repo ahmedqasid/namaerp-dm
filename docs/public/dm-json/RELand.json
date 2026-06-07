@@ -1,0 +1,1409 @@
+{
+  "entity" : "RELand",
+  "table" : "RELand",
+  "module" : "realestate",
+  "ar" : "قطعة أرض",
+  "arPlural" : "اراضي استثمار عقاري",
+  "en" : "RE Land",
+  "enPlural" : "RE Lands",
+  "page" : "https://dm.namasoft.com/modules/realestate/RELand.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "area",
+    "column" : "area",
+    "ar" : "مساحة القطعة",
+    "en" : "Land Area",
+    "type" : "Decimal"
+  }, {
+    "id" : "assignedCost",
+    "column" : "assignedCost",
+    "ar" : "التكلفة المخصصة",
+    "en" : "Assigned Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "attachment",
+    "column" : "attachment_id",
+    "ar" : "مرفق",
+    "en" : "Attachment",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment6",
+    "column" : "attachment6_id",
+    "ar" : "مرفق 6",
+    "en" : "Attachment6",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment7",
+    "column" : "attachment7_id",
+    "ar" : "مرفق 7",
+    "en" : "Attachment7",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment8",
+    "column" : "attachment8_id",
+    "ar" : "مرفق 8",
+    "en" : "Attachment8",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment9",
+    "column" : "attachment9_id",
+    "ar" : "مرفق 9",
+    "en" : "Attachment9",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "blockTree",
+    "column" : "blockTree_id",
+    "type" : "",
+    "refTo" : "BlockTree",
+    "refPath" : "/modules/system-tables/BlockTree.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "buyer",
+    "column" : "buyer_id",
+    "ar" : "مشتري",
+    "en" : "Buyer",
+    "type" : "Reference",
+    "refTo" : "REOwner",
+    "refPath" : "/modules/realestate/REOwner.html"
+  }, {
+    "id" : "cancelContractReq",
+    "column" : "cancelContractReq_id",
+    "ar" : "طلب فسخ تعاقد",
+    "en" : "Cancel Contract Request",
+    "type" : "Reference",
+    "refTo" : "RECancelContractReq",
+    "refPath" : "/modules/realestate-sales/RECancelContractReq.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "contActualCostPostHandOver",
+    "column" : "contActualCostPostHandOver",
+    "ar" : "التكلفة الفعلية بعد التسليم",
+    "en" : "Actual Cost Post-Hand Over",
+    "type" : "Decimal"
+  }, {
+    "id" : "contActualCostPreHandOver",
+    "column" : "contActualCostPreHandOver",
+    "ar" : "التكلفة الفعلية قبل التسليم",
+    "en" : "Actual Cost Pre-Hand Over",
+    "type" : "Decimal"
+  }, {
+    "id" : "contEstimatedCostPercentage",
+    "column" : "contEstimatedCostPercentage",
+    "ar" : "نسبة التكلفة التقديرية",
+    "en" : "Estimate Cost Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "contEstimatedProjTotalCost",
+    "column" : "contEstimatedProjTotalCost",
+    "ar" : "تكلفة المشروع التقديرية",
+    "en" : "Project Estimated Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "contractingActualCost",
+    "column" : "contractingActualCost",
+    "ar" : "التكلفة الفعلية",
+    "en" : "Actual Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "contractingCostPercentage",
+    "column" : "contractingCostPercentage",
+    "ar" : "نسبة التكلفة الفعلية",
+    "en" : "Actual Cost Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "contractingEstimatedCost",
+    "column" : "contractingEstimatedCost",
+    "ar" : "التكلفة التقديرية",
+    "en" : "Estimated Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "contractingProjTotalCost",
+    "column" : "contractingProjTotalCost",
+    "ar" : "تكلفة المشروع الفعلية",
+    "en" : "Project Actual Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentValue",
+    "column" : "currentValue",
+    "ar" : "القيمة الحالية",
+    "en" : "Current value",
+    "type" : "Decimal"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fixedAsset",
+    "column" : "fixedAsset_id",
+    "ar" : "الأصل الثابت",
+    "en" : "Fixed Asset",
+    "type" : "Reference",
+    "refTo" : "FixedAsset",
+    "refPath" : "/modules/fixedassets/FixedAsset.html"
+  }, {
+    "id" : "fixedAssetCost",
+    "column" : "fixedAssetCost",
+    "ar" : "كلفةالأصل",
+    "en" : "Fixed Asset Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "handOverDate",
+    "column" : "handOverDate",
+    "ar" : "تاريخ التسليم",
+    "en" : "Handover Date",
+    "type" : "Date"
+  }, {
+    "id" : "handOverDoc",
+    "column" : "handOverDoc_id",
+    "ar" : "مستند التسليم",
+    "en" : "Hand Over Document",
+    "type" : "Reference",
+    "refTo" : "REEStateHandover",
+    "refPath" : "/modules/realestate-sales/REEStateHandover.html"
+  }, {
+    "id" : "handedOverState",
+    "column" : "handedOverState",
+    "ar" : "تم التسليم",
+    "en" : "HandOvered",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "initialSalesContract",
+    "column" : "initialSalesContract_id",
+    "ar" : "عقد بيع مبدئي",
+    "en" : "Initial sales contract",
+    "type" : "Reference",
+    "refTo" : "REInitialSalesContract",
+    "refPath" : "/modules/realestate-sales/REInitialSalesContract.html"
+  }, {
+    "id" : "landStatus",
+    "column" : "landStatus",
+    "ar" : "حالة الارض",
+    "en" : "Land status",
+    "type" : "Enum",
+    "enum" : "RElandStatus"
+  }, {
+    "id" : "landUsageType",
+    "column" : "landUsageType",
+    "ar" : "الإستخدام",
+    "en" : "Land Usage Type",
+    "type" : "Enum",
+    "enum" : "ReLandUsageType"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "length",
+    "column" : "length",
+    "ar" : "الأبعاد | الطول",
+    "en" : "Measures | Length",
+    "type" : "Decimal"
+  }, {
+    "id" : "level",
+    "column" : "level",
+    "ar" : "المستوى",
+    "en" : "Level",
+    "type" : "Integer"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "notTaxable",
+    "column" : "notTaxable",
+    "ar" : "غير خاضع للضريبة",
+    "en" : "Not Taxable",
+    "type" : "Boolean"
+  }, {
+    "id" : "openingSalesDoc",
+    "column" : "openingSalesDoc_id",
+    "ar" : "عقد بيع افتتاحي",
+    "en" : "Opening sales doc",
+    "type" : "Reference",
+    "refTo" : "REOpeningSales",
+    "refPath" : "/modules/realestate-sales/REOpeningSales.html"
+  }, {
+    "id" : "originalOwner",
+    "column" : "originalOwner_id",
+    "ar" : "المالك الاصلي",
+    "en" : "Original Owner",
+    "type" : "Reference",
+    "refTo" : "REOwner",
+    "refPath" : "/modules/realestate/REOwner.html"
+  }, {
+    "id" : "owner",
+    "column" : "owner_id",
+    "ar" : "المالك",
+    "en" : "Owner",
+    "type" : "Reference",
+    "refTo" : "REOwner",
+    "refPath" : "/modules/realestate/REOwner.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "partiallyRented",
+    "column" : "partiallyRented",
+    "ar" : "مؤجر جزئيا",
+    "en" : "partially Rented",
+    "type" : "Boolean"
+  }, {
+    "id" : "partiallySold",
+    "column" : "partiallySold",
+    "ar" : "مباع جزئيا",
+    "en" : "partially Sold",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "price.amount",
+    "column" : "priceAmount",
+    "ar" : " المبلغ",
+    "en" : " Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.currency",
+    "column" : "priceCurrency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "purchaseValue",
+    "column" : "purchaseValue",
+    "ar" : "قيمة الشراء",
+    "en" : "Purchase Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "rented",
+    "column" : "rented",
+    "ar" : "مؤجرة",
+    "en" : "Is Rented",
+    "type" : "Boolean"
+  }, {
+    "id" : "reservationDoc",
+    "columns" : [ "reservationDocActualCode", " reservationDocCode", " reservationDocEntityType", " reservationDocId" ],
+    "ar" : "مستند حجز",
+    "en" : "Reservation doc",
+    "type" : "Genericreference"
+  }, {
+    "id" : "reservationDocCancel",
+    "column" : "reservationDocCancel_id",
+    "ar" : "سند إلغاء الحجز",
+    "en" : "Reservation Document Cancel",
+    "type" : "Reference",
+    "refTo" : "REReservationDocCancel",
+    "refPath" : "/modules/realestate/REReservationDocCancel.html"
+  }, {
+    "id" : "reservationRentDoc",
+    "columns" : [ "reservationRentDocActualCode", " reservationRentDocCode", " reservationRentDocEntityType", " reservationRentDocId" ],
+    "ar" : "سند حجز الإيجار",
+    "en" : "Reservation Rent Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "reserved",
+    "column" : "reserved",
+    "ar" : "محجوز",
+    "en" : "Reserved",
+    "type" : "Boolean"
+  }, {
+    "id" : "reservedForRent",
+    "column" : "reservedForRent",
+    "ar" : "محجوزة للإيجار",
+    "en" : "Reserved For Rent",
+    "type" : "Boolean"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "salesDoc",
+    "column" : "salesDoc_id",
+    "ar" : "عقد الارض",
+    "en" : "Land Contract",
+    "type" : "Reference",
+    "refTo" : "RESalesDoc",
+    "refPath" : "/modules/realestate-sales/RESalesDoc.html"
+  }, {
+    "id" : "salesPaymentMethod",
+    "column" : "salesPaymentMethod_id",
+    "ar" : "نموذج الدفع",
+    "en" : "Sales Payment Method",
+    "type" : "Reference",
+    "refTo" : "RESalesPaymentMethod",
+    "refPath" : "/modules/realestate-sales/RESalesPaymentMethod.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "site.address.address1",
+    "column" : "siteAddressAddress1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "site.address.address2",
+    "column" : "siteAddressAddress2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "site.address.area",
+    "column" : "siteAddressArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "site.address.buildingNumber",
+    "column" : "siteAddressBuildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "site.address.city",
+    "column" : "siteAddressCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "site.address.country",
+    "column" : "siteAddressCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "site.address.countryCode",
+    "column" : "siteAddressCountryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "site.address.district",
+    "column" : "siteAddressDistrict",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "site.address.landPlotNumber",
+    "column" : "siteAddressLandPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "site.address.mapLocation",
+    "column" : "siteAddressMapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "site.address.postalCode",
+    "column" : "siteAddressPostalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "site.address.region",
+    "column" : "siteAddressRegion_id",
+    "ar" : "موقع جغرافي",
+    "en" : "Address region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "site.address.state",
+    "column" : "siteAddressState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "site.address.street",
+    "column" : "siteAddressStreet",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "site.block",
+    "column" : "siteBlock_id",
+    "ar" : "البلوك",
+    "en" : "Block",
+    "type" : "Reference",
+    "refTo" : "REBlock",
+    "refPath" : "/modules/realestate/REBlock.html"
+  }, {
+    "id" : "site.building",
+    "column" : "siteBuilding_id",
+    "ar" : "المبنى",
+    "en" : "Building",
+    "type" : "Reference",
+    "refTo" : "REBuilding",
+    "refPath" : "/modules/realestate/REBuilding.html"
+  }, {
+    "id" : "site.easternNeighbor",
+    "column" : "siteEasternNeighbor",
+    "ar" : "الحد الشرقي",
+    "en" : "Eastern Neighbor",
+    "type" : "Text"
+  }, {
+    "id" : "site.easternNeighborLength",
+    "column" : "siteEasternNeighborLength",
+    "ar" : "طول الحد الشرقى",
+    "en" : "Eastern Neighbor Length",
+    "type" : "Decimal"
+  }, {
+    "id" : "site.easternNeighborWidth",
+    "column" : "siteEasternNeighborWidth",
+    "ar" : "عرض الحد الشرقى",
+    "en" : "Eastern Neighbor Width",
+    "type" : "Decimal"
+  }, {
+    "id" : "site.floor",
+    "column" : "siteFloor_id",
+    "ar" : "الطابق",
+    "en" : "Floor",
+    "type" : "Reference",
+    "refTo" : "REFloor",
+    "refPath" : "/modules/realestate/REFloor.html"
+  }, {
+    "id" : "site.land",
+    "column" : "siteLand_id",
+    "ar" : "قطعة الارض",
+    "en" : "Land",
+    "type" : "Reference",
+    "refTo" : "RELand",
+    "refPath" : "/modules/realestate/RELand.html"
+  }, {
+    "id" : "site.northernNeighbor",
+    "column" : "siteNorthernNeighbor",
+    "ar" : "الحد الشمالي",
+    "en" : "Northern Neighbor",
+    "type" : "Text"
+  }, {
+    "id" : "site.northernNeighborLength",
+    "column" : "siteNorthernNeighborLength",
+    "ar" : "طول الحد الشمالى",
+    "en" : "Northern Neighbor Length",
+    "type" : "Decimal"
+  }, {
+    "id" : "site.northernNeighborWidth",
+    "column" : "siteNorthernNeighborWidth",
+    "ar" : "عرض الحد الشمالي",
+    "en" : "Northern Neighbor Width",
+    "type" : "Decimal"
+  }, {
+    "id" : "site.project",
+    "column" : "siteProject_id",
+    "ar" : "المشروع",
+    "en" : "Project",
+    "type" : "Reference",
+    "refTo" : "REProject",
+    "refPath" : "/modules/realestate/REProject.html"
+  }, {
+    "id" : "site.southernNeighbor",
+    "column" : "siteSouthernNeighbor",
+    "ar" : "الحد الجنوبي",
+    "en" : "Southern Neighbor",
+    "type" : "Text"
+  }, {
+    "id" : "site.southernNeighborLength",
+    "column" : "siteSouthernNeighborLength",
+    "ar" : "طول الحد الجنوبي",
+    "en" : "Southern Neighbor Length",
+    "type" : "Decimal"
+  }, {
+    "id" : "site.southernNeighborWidth",
+    "column" : "siteSouthernNeighborWidth",
+    "ar" : "عرض الحد الجنوبي",
+    "en" : "Southern Neighbor Width",
+    "type" : "Decimal"
+  }, {
+    "id" : "site.square",
+    "column" : "siteSquare_id",
+    "ar" : "مربع",
+    "en" : "Square",
+    "type" : "Reference",
+    "refTo" : "RESquare",
+    "refPath" : "/modules/realestate/RESquare.html"
+  }, {
+    "id" : "site.unit",
+    "column" : "siteUnit_id",
+    "ar" : "وحدة سكنية",
+    "en" : "Housing units",
+    "type" : "Reference",
+    "refTo" : "RERentalUnit",
+    "refPath" : "/modules/realestate/RERentalUnit.html"
+  }, {
+    "id" : "site.westernNeighbor",
+    "column" : "siteWesternNeighbor",
+    "ar" : "الحد الغربي",
+    "en" : "Western Neighbor",
+    "type" : "Text"
+  }, {
+    "id" : "site.westernNeighborLength",
+    "column" : "siteWesternNeighborLength",
+    "ar" : "طول الحد الغربي",
+    "en" : "Western Neighbor Length",
+    "type" : "Decimal"
+  }, {
+    "id" : "site.westernNeighborWidth",
+    "column" : "siteWesternNeighborWidth",
+    "ar" : "عرض الحد الغربى",
+    "en" : "Western Neighbor Width",
+    "type" : "Decimal"
+  }, {
+    "id" : "sold",
+    "column" : "sold",
+    "ar" : "تم بيعها",
+    "en" : "Is sold",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.account1",
+    "column" : "account1_id",
+    "ar" : " حساب 01",
+    "en" : " Account 01",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account10",
+    "column" : "account10_id",
+    "ar" : " حساب 10",
+    "en" : " Account 10",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account11",
+    "column" : "account11_id",
+    "ar" : " حساب 11",
+    "en" : " Account 11",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account12",
+    "column" : "account12_id",
+    "ar" : " حساب 12",
+    "en" : " Account 12",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account13",
+    "column" : "account13_id",
+    "ar" : " حساب 13",
+    "en" : " Account 13",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account14",
+    "column" : "account14_id",
+    "ar" : " حساب 14",
+    "en" : " Account 14",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account15",
+    "column" : "account15_id",
+    "ar" : " حساب 15",
+    "en" : " Account 15",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account16",
+    "column" : "account16_id",
+    "ar" : " حساب 16",
+    "en" : " Account 16",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account17",
+    "column" : "account17_id",
+    "ar" : " حساب 17",
+    "en" : " Account 17",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account18",
+    "column" : "account18_id",
+    "ar" : " حساب 18",
+    "en" : " Account 18",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account19",
+    "column" : "account19_id",
+    "ar" : " حساب 19",
+    "en" : " Account 19",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account2",
+    "column" : "account2_id",
+    "ar" : " حساب 02",
+    "en" : " Account 02",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account20",
+    "column" : "account20_id",
+    "ar" : " حساب 20",
+    "en" : " Account 20",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account3",
+    "column" : "account3_id",
+    "ar" : " حساب 03",
+    "en" : " Account 03",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account4",
+    "column" : "account4_id",
+    "ar" : " حساب 04",
+    "en" : " Account 04",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account5",
+    "column" : "account5_id",
+    "ar" : " حساب 05",
+    "en" : " Account 05",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account6",
+    "column" : "account6_id",
+    "ar" : " حساب 06",
+    "en" : " Account 06",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account7",
+    "column" : "account7_id",
+    "ar" : " حساب 07",
+    "en" : " Account 07",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account8",
+    "column" : "account8_id",
+    "ar" : " حساب 08",
+    "en" : " Account 08",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account9",
+    "column" : "account9_id",
+    "ar" : " حساب 09",
+    "en" : " Account 09",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.accountsBag",
+    "column" : "accountsBag_id",
+    "ar" : " حقيبة حسابات",
+    "en" : " Accounts Bag",
+    "type" : "Reference",
+    "refTo" : "AccountsBag",
+    "refPath" : "/modules/basic/AccountsBag.html"
+  }, {
+    "id" : "subsidiaryAccounts.currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "subsidiaryAccounts.forceNoDebtAgesTracking",
+    "column" : "forceNoDebtAgesTracking",
+    "ar" : "منع متابعة أعمار الديون لهذه الذمة - حتي و إن تم تفعيلها للحساب",
+    "en" : "Do Not Track Debt Ages For This Subsidiary - Even if it was activated in the account",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.mainAccount",
+    "column" : "mainAccount_id",
+    "ar" : " الحساب الرئيسي",
+    "en" : " Main Account",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.parentParty",
+    "columns" : [ "parentPartyActualCode", " parentPartyCode", " parentPartyEntityType", " parentPartyId" ],
+    "ar" : "الجهة الأعلي (البديل المحاسبي)",
+    "en" : "Parent Party (Accounting Alternative)",
+    "type" : "Genericreference"
+  }, {
+    "id" : "subsidiaryAccounts.tax1Exempt",
+    "column" : "tax1Exempt",
+    "ar" : "غير خاضع لضريبة 1",
+    "en" : "Tax 1 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax2Exempt",
+    "column" : "tax2Exempt",
+    "ar" : "غير خاضع لضريبة 2",
+    "en" : "Tax 2 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax3Exempt",
+    "column" : "tax3Exempt",
+    "ar" : "غير خاضع لضريبة 3",
+    "en" : "Tax 3 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax4Exempt",
+    "column" : "tax4Exempt",
+    "ar" : "غير خاضع لضريبة 4",
+    "en" : "Tax 4 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "tax1Credit",
+    "column" : "tax1Credit_id",
+    "ar" : "دائن ضريبة 1",
+    "en" : "Tax1 Credit",
+    "type" : "Reference",
+    "refTo" : "AccountingSideConfig",
+    "refPath" : "/modules/basic/AccountingSideConfig.html"
+  }, {
+    "id" : "tax1Debit",
+    "column" : "tax1Debit_id",
+    "ar" : "مدين ضريبة 1",
+    "en" : "Tax1 Debit",
+    "type" : "Reference",
+    "refTo" : "AccountingSideConfig",
+    "refPath" : "/modules/basic/AccountingSideConfig.html"
+  }, {
+    "id" : "tax2Credit",
+    "column" : "tax2Credit_id",
+    "ar" : "دائن ضريبة 2",
+    "en" : "Tax2 Credit",
+    "type" : "Reference",
+    "refTo" : "AccountingSideConfig",
+    "refPath" : "/modules/basic/AccountingSideConfig.html"
+  }, {
+    "id" : "tax2Debit",
+    "column" : "tax2Debit_id",
+    "ar" : "مدين ضريبة 2",
+    "en" : "Tax2 Debit",
+    "type" : "Reference",
+    "refTo" : "AccountingSideConfig",
+    "refPath" : "/modules/basic/AccountingSideConfig.html"
+  }, {
+    "id" : "taxAuthorityCode",
+    "column" : "taxAuthorityCode",
+    "ar" : "كود مصلحة الضرائب",
+    "en" : "Tax Authority Code",
+    "type" : "Text"
+  }, {
+    "id" : "taxPlan",
+    "column" : "taxPlan_id",
+    "ar" : " سياسة الضريبة",
+    "en" : " Tax Plan",
+    "type" : "Reference",
+    "refTo" : "TaxPlan",
+    "refPath" : "/modules/basic/TaxPlan.html"
+  }, {
+    "id" : "unavailableForRent",
+    "column" : "unavailableForRent",
+    "ar" : "غير متاحة للإيجار",
+    "en" : "Unavailable For Rent",
+    "type" : "Boolean"
+  }, {
+    "id" : "unavailableForSale",
+    "column" : "unavailableForSale",
+    "ar" : "غير متاحة للبيع",
+    "en" : "Unavailable For Sale",
+    "type" : "Boolean"
+  }, {
+    "id" : "unitInfo.bathRoomNumber",
+    "column" : "bathRoomNumber",
+    "ar" : "عدد الحمامات",
+    "en" : "Bathroom number",
+    "type" : "Integer"
+  }, {
+    "id" : "unitInfo.bathroomsArea",
+    "column" : "bathroomsArea",
+    "ar" : "مساحة الحمامات",
+    "en" : "Bathrooms Area",
+    "type" : "Decimal"
+  }, {
+    "id" : "unitInfo.hallArea",
+    "column" : "hallArea",
+    "ar" : "مساحة الصالة",
+    "en" : "Hall area",
+    "type" : "Decimal"
+  }, {
+    "id" : "unitInfo.kitchenArea",
+    "column" : "kitchenArea",
+    "ar" : "مساحة المطبخ",
+    "en" : "kitchen area",
+    "type" : "Decimal"
+  }, {
+    "id" : "unitInfo.roomsArea",
+    "column" : "roomsArea",
+    "ar" : "مساحة الغٌرف",
+    "en" : "Rooms Area",
+    "type" : "Decimal"
+  }, {
+    "id" : "unitInfo.roomsNumber",
+    "column" : "roomsNumber",
+    "ar" : "عدد الغرف",
+    "en" : "Rooms number",
+    "type" : "Integer"
+  }, {
+    "id" : "unitInfo.unitArea",
+    "column" : "unitArea",
+    "ar" : "مساحة الوحدة",
+    "en" : "Unit area",
+    "type" : "Decimal"
+  }, {
+    "id" : "unitPrice",
+    "column" : "unitPrice",
+    "ar" : "سعر الوحدة",
+    "en" : "Unit Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "userLandStatus",
+    "column" : "userLandStatus",
+    "type" : "Enum",
+    "enum" : "RElandStatus"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "waiverDoc",
+    "column" : "waiverDoc_id",
+    "ar" : "سند التنازل",
+    "en" : "Waiver Doc",
+    "type" : "Reference",
+    "refTo" : "REWaiverDoc",
+    "refPath" : "/modules/realestate-sales/REWaiverDoc.html"
+  }, {
+    "id" : "waivered",
+    "column" : "waivered",
+    "ar" : "تم التنازل عنها",
+    "en" : "Waivered",
+    "type" : "Boolean"
+  }, {
+    "id" : "width",
+    "column" : "width",
+    "ar" : "الأبعاد | العرض",
+    "en" : "Measures | Width",
+    "type" : "Decimal"
+  } ],
+  "details" : [ {
+    "id" : "ownerDetails",
+    "table" : "RELandOwnerGroupLine",
+    "joinColumn" : "rELand_id",
+    "ar" : "تفاصيل الملاك",
+    "en" : "Owner Details",
+    "fields" : [ {
+      "id" : "ownerDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "ownerDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "ownerDetails.owner",
+      "column" : "owner_id",
+      "ar" : "المالك",
+      "en" : "Owner",
+      "type" : "Reference",
+      "refTo" : "REOwner",
+      "refPath" : "/modules/realestate/REOwner.html"
+    }, {
+      "id" : "ownerDetails.percentage",
+      "column" : "percentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "ownerDetails.remark",
+      "column" : "remark",
+      "ar" : "ملحوظة",
+      "en" : "Remark",
+      "type" : "BigText"
+    } ]
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "PlanningStatus",
+  "values" : [ {
+    "id" : "Planned",
+    "ar" : "مخطّطة",
+    "en" : "Planned"
+  }, {
+    "id" : "Delivered",
+    "ar" : "مسلمّة",
+    "en" : "Delivered"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
+  } ]
+}

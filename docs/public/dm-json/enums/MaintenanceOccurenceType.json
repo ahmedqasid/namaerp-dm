@@ -1,0 +1,20 @@
+{
+  "enum" : "MaintenanceOccurenceType",
+  "values" : [ {
+    "id" : "Preventive",
+    "ar" : "وقائيه",
+    "en" : "Preventive"
+  }, {
+    "id" : "Perodic",
+    "ar" : "دوريه",
+    "en" : "Periodic"
+  }, {
+    "id" : "Incidental",
+    "ar" : "طارئه",
+    "en" : "Incidental"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  } ]
+}

@@ -1,0 +1,329 @@
+{
+  "entity" : "FALocationEntry",
+  "table" : "FALocationEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/FALocationEntry.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "asset",
+    "column" : "asset_id",
+    "ar" : "الأصل",
+    "en" : "Asset",
+    "type" : "Reference",
+    "refTo" : "FixedAsset",
+    "refPath" : "/modules/fixedassets/FixedAsset.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "fromLocation",
+    "column" : "fromLocation_id",
+    "ar" : "من موقع",
+    "en" : "From Location",
+    "type" : "Reference",
+    "refTo" : "FALocation",
+    "refPath" : "/modules/fixedassets/FALocation.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "origin",
+    "columns" : [ "originActualCode", " originCode", " originEntityType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "subsidiaryAccounts.account1",
+    "column" : "account1_id",
+    "ar" : " حساب 01",
+    "en" : " Account 01",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account10",
+    "column" : "account10_id",
+    "ar" : " حساب 10",
+    "en" : " Account 10",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account11",
+    "column" : "account11_id",
+    "ar" : " حساب 11",
+    "en" : " Account 11",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account12",
+    "column" : "account12_id",
+    "ar" : " حساب 12",
+    "en" : " Account 12",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account13",
+    "column" : "account13_id",
+    "ar" : " حساب 13",
+    "en" : " Account 13",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account14",
+    "column" : "account14_id",
+    "ar" : " حساب 14",
+    "en" : " Account 14",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account15",
+    "column" : "account15_id",
+    "ar" : " حساب 15",
+    "en" : " Account 15",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account16",
+    "column" : "account16_id",
+    "ar" : " حساب 16",
+    "en" : " Account 16",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account17",
+    "column" : "account17_id",
+    "ar" : " حساب 17",
+    "en" : " Account 17",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account18",
+    "column" : "account18_id",
+    "ar" : " حساب 18",
+    "en" : " Account 18",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account19",
+    "column" : "account19_id",
+    "ar" : " حساب 19",
+    "en" : " Account 19",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account2",
+    "column" : "account2_id",
+    "ar" : " حساب 02",
+    "en" : " Account 02",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account20",
+    "column" : "account20_id",
+    "ar" : " حساب 20",
+    "en" : " Account 20",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account3",
+    "column" : "account3_id",
+    "ar" : " حساب 03",
+    "en" : " Account 03",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account4",
+    "column" : "account4_id",
+    "ar" : " حساب 04",
+    "en" : " Account 04",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account5",
+    "column" : "account5_id",
+    "ar" : " حساب 05",
+    "en" : " Account 05",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account6",
+    "column" : "account6_id",
+    "ar" : " حساب 06",
+    "en" : " Account 06",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account7",
+    "column" : "account7_id",
+    "ar" : " حساب 07",
+    "en" : " Account 07",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account8",
+    "column" : "account8_id",
+    "ar" : " حساب 08",
+    "en" : " Account 08",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account9",
+    "column" : "account9_id",
+    "ar" : " حساب 09",
+    "en" : " Account 09",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.accountsBag",
+    "column" : "accountsBag_id",
+    "ar" : " حقيبة حسابات",
+    "en" : " Accounts Bag",
+    "type" : "Reference",
+    "refTo" : "AccountsBag",
+    "refPath" : "/modules/basic/AccountsBag.html"
+  }, {
+    "id" : "subsidiaryAccounts.currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "subsidiaryAccounts.forceNoDebtAgesTracking",
+    "column" : "forceNoDebtAgesTracking",
+    "ar" : "منع متابعة أعمار الديون لهذه الذمة - حتي و إن تم تفعيلها للحساب",
+    "en" : "Do Not Track Debt Ages For This Subsidiary - Even if it was activated in the account",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.mainAccount",
+    "column" : "mainAccount_id",
+    "ar" : " الحساب الرئيسي",
+    "en" : " Main Account",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.parentParty",
+    "columns" : [ "parentPartyActualCode", " parentPartyCode", " parentPartyEntityType", " parentPartyId" ],
+    "ar" : "الجهة الأعلي (البديل المحاسبي)",
+    "en" : "Parent Party (Accounting Alternative)",
+    "type" : "Genericreference"
+  }, {
+    "id" : "subsidiaryAccounts.tax1Exempt",
+    "column" : "tax1Exempt",
+    "ar" : "غير خاضع لضريبة 1",
+    "en" : "Tax 1 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax2Exempt",
+    "column" : "tax2Exempt",
+    "ar" : "غير خاضع لضريبة 2",
+    "en" : "Tax 2 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax3Exempt",
+    "column" : "tax3Exempt",
+    "ar" : "غير خاضع لضريبة 3",
+    "en" : "Tax 3 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax4Exempt",
+    "column" : "tax4Exempt",
+    "ar" : "غير خاضع لضريبة 4",
+    "en" : "Tax 4 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "toLocation",
+    "column" : "toLocation_id",
+    "ar" : "إلي موقع",
+    "en" : "To Location",
+    "type" : "Reference",
+    "refTo" : "FALocation",
+    "refPath" : "/modules/fixedassets/FALocation.html"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

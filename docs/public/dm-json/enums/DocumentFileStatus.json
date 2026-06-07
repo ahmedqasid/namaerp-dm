@@ -1,0 +1,28 @@
+{
+  "enum" : "DocumentFileStatus",
+  "values" : [ {
+    "id" : "Draft",
+    "ar" : "مسودة",
+    "en" : "Draft"
+  }, {
+    "id" : "ApprovalPending",
+    "ar" : "بانتظار موافقة",
+    "en" : "Approval Pending"
+  }, {
+    "id" : "ApprovalReturned",
+    "ar" : "تم الإرجاع",
+    "en" : "Approval Returned"
+  }, {
+    "id" : "ApprovalRejected",
+    "ar" : "تم الرفض",
+    "en" : "Approval Rejected"
+  }, {
+    "id" : "Stable",
+    "ar" : "ثابت",
+    "en" : "Stable"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
+  } ]
+}

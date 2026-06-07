@@ -1,0 +1,12 @@
+{
+  "enum" : "EmailSendType",
+  "values" : [ {
+    "id" : "SendReport",
+    "ar" : "ارسال تقرير",
+    "en" : "Send Report"
+  }, {
+    "id" : "SendForm",
+    "ar" : "ارسال نموذج",
+    "en" : "Send Form"
+  } ]
+}

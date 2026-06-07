@@ -1,0 +1,16 @@
+{
+  "enum" : "LecturerSalaryCalcMethod",
+  "values" : [ {
+    "id" : "Specific",
+    "ar" : "محدد",
+    "en" : "Specific"
+  }, {
+    "id" : "PercentFromSalesPrice",
+    "ar" : "نسبة من سعر البيع",
+    "en" : "Percentage From Sales Price"
+  }, {
+    "id" : "PercentFromCost",
+    "ar" : "نسبة من التكلفة",
+    "en" : "Percentage From Cost"
+  } ]
+}

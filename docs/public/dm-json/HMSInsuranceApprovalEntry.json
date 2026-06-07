@@ -1,0 +1,37 @@
+{
+  "entity" : "HMSInsuranceApprovalEntry",
+  "table" : "HMSInsuranceApprovalEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/HMSInsuranceApprovalEntry.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "patientAdmission",
+    "column" : "patientAdmission_id",
+    "ar" : "إستمارة دخول المريض",
+    "en" : "Patient Admission",
+    "type" : "Reference",
+    "refTo" : "HMSPatientAdmission",
+    "refPath" : "/modules/hms/HMSPatientAdmission.html"
+  }, {
+    "id" : "totalInsuranceValue",
+    "column" : "totalInsuranceValue",
+    "ar" : "إجمالي التأمين",
+    "en" : "Total Insurance Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

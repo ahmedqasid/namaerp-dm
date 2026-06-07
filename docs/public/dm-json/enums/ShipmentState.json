@@ -1,0 +1,25 @@
+{
+  "enum" : "ShipmentState",
+  "values" : [ {
+    "id" : "LCInitial",
+    "ar" : "مبدئى",
+    "en" : "Initial"
+  }, {
+    "id" : "Opened",
+    "ar" : "مفتوح",
+    "en" : "Opened"
+  }, {
+    "id" : "ShipmentInExporterPort",
+    "ar" : "البضاعة بميناء المصدر"
+  }, {
+    "id" : "ShipmentInTheWay",
+    "ar" : "البضاعة بالطريق"
+  }, {
+    "id" : "ShipmentInLocalPort",
+    "ar" : "البضاعة بالميناء المحلي"
+  }, {
+    "id" : "Closed",
+    "ar" : "مغلقة",
+    "en" : "Closed"
+  } ]
+}

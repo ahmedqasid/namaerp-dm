@@ -1,0 +1,75 @@
+{
+  "entity" : "LedgerTransSerialConfigLine",
+  "table" : "LedgerTransSerialConfigLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/LedgerTransSerialConfigLine.html",
+  "fields" : [ {
+    "id" : "dateFormula",
+    "column" : "dateFormula",
+    "ar" : "صيغة التاريخ",
+    "en" : "Date Formula",
+    "type" : "Text"
+  }, {
+    "id" : "dimensions.analysisSet",
+    "column" : "dimensionsAnalysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "dimensions.branch",
+    "column" : "dimensionsBranch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "dimensions.department",
+    "column" : "dimensionsDepartment_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "dimensions.legalEntity",
+    "column" : "dimensionsLegalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "dimensions.sector",
+    "column" : "dimensionsSector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "entityTypeDF",
+    "column" : "entityTypeDF",
+    "ar" : "النوع",
+    "en" : "Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "prefix",
+    "column" : "prefix",
+    "ar" : "بادئة التكويد",
+    "en" : "Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "suffixLength",
+    "column" : "suffixLength",
+    "ar" : "طول اللاحقة",
+    "en" : "Suffix Length",
+    "type" : "Integer"
+  } ]
+}

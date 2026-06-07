@@ -1,0 +1,12 @@
+{
+  "enum" : "ContractingCondStatus",
+  "values" : [ {
+    "id" : "NotCompleted",
+    "ar" : "لم يتم",
+    "en" : "Not Completed"
+  }, {
+    "id" : "Completed",
+    "ar" : "تمت",
+    "en" : "Completed"
+  } ]
+}

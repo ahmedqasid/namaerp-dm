@@ -1,0 +1,12 @@
+{
+  "enum" : "JODamageType",
+  "values" : [ {
+    "id" : "EditableDamage",
+    "ar" : "تلف يمكن تعديله",
+    "en" : "Editable Damage"
+  }, {
+    "id" : "CompleteDamage",
+    "ar" : "تلف كامل",
+    "en" : "Complete Damage"
+  } ]
+}

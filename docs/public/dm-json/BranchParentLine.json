@@ -1,0 +1,11 @@
+{
+  "entity" : "BranchParentLine",
+  "table" : "BranchParentLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/BranchParentLine.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

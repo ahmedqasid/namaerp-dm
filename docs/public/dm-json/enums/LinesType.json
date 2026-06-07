@@ -1,0 +1,16 @@
+{
+  "enum" : "LinesType",
+  "values" : [ {
+    "id" : "Materials",
+    "ar" : "مواد خام",
+    "en" : "Materials"
+  }, {
+    "id" : "IndirectMaterials",
+    "ar" : "مواد خام مساعده",
+    "en" : "Indirect Materials"
+  }, {
+    "id" : "OutputsMaterials",
+    "ar" : "مخرجات",
+    "en" : "Output Materials"
+  } ]
+}

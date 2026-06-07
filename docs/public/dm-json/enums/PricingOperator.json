@@ -1,0 +1,24 @@
+{
+  "enum" : "PricingOperator",
+  "values" : [ {
+    "id" : "LessThan",
+    "ar" : "أقل من",
+    "en" : "Less Than"
+  }, {
+    "id" : "GreaterThan",
+    "ar" : "أكبر من",
+    "en" : "Greater Than"
+  }, {
+    "id" : "LessThanOrEqual",
+    "ar" : "أقل من أو يساوي",
+    "en" : "Less Than Or Equal"
+  }, {
+    "id" : "GreaterThanOrEqual",
+    "ar" : "أكبر من أو يساوي",
+    "en" : "Greater Than Or Equal"
+  }, {
+    "id" : "Equals",
+    "ar" : "يساوي",
+    "en" : "Equals"
+  } ]
+}

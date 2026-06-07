@@ -1,0 +1,12 @@
+{
+  "enum" : "FormulaCalcMethod",
+  "values" : [ {
+    "id" : "OnePercentage",
+    "ar" : "نسبة واحدة",
+    "en" : "One Percentage"
+  }, {
+    "id" : "Sections",
+    "ar" : "شرائح",
+    "en" : "Sections"
+  } ]
+}

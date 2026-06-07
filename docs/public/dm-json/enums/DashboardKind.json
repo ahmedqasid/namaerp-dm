@@ -1,0 +1,12 @@
+{
+  "enum" : "DashboardKind",
+  "values" : [ {
+    "id" : "Single",
+    "ar" : "مفردة",
+    "en" : "Single"
+  }, {
+    "id" : "Tabbed",
+    "ar" : "بعلامات تبويب",
+    "en" : "Tabbed"
+  } ]
+}

@@ -1,0 +1,48 @@
+{
+  "entity" : "SentEntityToAnotherServerSysEntry",
+  "table" : "SentEntityToAnotherServerSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SentEntityToAnotherServerSysEntry.html",
+  "fields" : [ {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "executionTime",
+    "column" : "executionTime",
+    "ar" : "وقت التنفيذ",
+    "en" : "Execution Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "remoteServer",
+    "column" : "remoteServer",
+    "ar" : "Remote Server",
+    "en" : "Remote Server",
+    "type" : "BigText"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
+    "id" : "targetRecord",
+    "columns" : [ "targetRecordActualCode", " targetRecordCode", " targetRecordEntityType", " targetRecordId" ],
+    "ar" : "السجل",
+    "en" : "Target Record",
+    "type" : "Genericreference"
+  } ]
+}

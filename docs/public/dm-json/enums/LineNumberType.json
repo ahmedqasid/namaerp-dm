@@ -1,0 +1,20 @@
+{
+  "enum" : "LineNumberType",
+  "values" : [ {
+    "id" : "DetailsLinesCount",
+    "ar" : "عدد السطور الكلي",
+    "en" : "Details Lines Count"
+  }, {
+    "id" : "PageLinesCount",
+    "ar" : "عدد سطور الصفحة",
+    "en" : "Page Lines Count"
+  }, {
+    "id" : "InGroupLinesCount",
+    "ar" : "عدد السطور داخل المجموعة",
+    "en" : "In Group Lines Count"
+  }, {
+    "id" : "GroupLinesCount",
+    "ar" : "عدد سطور مجموعة (مرات ظهور المجموعة)",
+    "en" : "Group Lines Count"
+  } ]
+}

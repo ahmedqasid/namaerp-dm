@@ -1,0 +1,57 @@
+{
+  "entity" : "TooltipPart",
+  "table" : "TooltipPart",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/TooltipPart.html",
+  "fields" : [ {
+    "id" : "arabic",
+    "column" : "arabic",
+    "ar" : "عنوان عربي",
+    "en" : "Arabic",
+    "type" : "BigText"
+  }, {
+    "id" : "doesNotRequireRows",
+    "column" : "doesNotRequireRows",
+    "type" : "Boolean"
+  }, {
+    "id" : "endRow",
+    "column" : "endRow",
+    "ar" : "إلى سطر",
+    "en" : "End Row",
+    "type" : "Integer"
+  }, {
+    "id" : "english",
+    "column" : "english",
+    "ar" : "عنوان إنجليزي",
+    "en" : "English",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "inActive",
+    "column" : "inActive",
+    "ar" : "غير نشط",
+    "en" : "Inactive",
+    "type" : "Boolean"
+  }, {
+    "id" : "priority",
+    "column" : "priority",
+    "ar" : "الأولوية",
+    "en" : "Priority",
+    "type" : "Integer"
+  }, {
+    "id" : "startRow",
+    "column" : "startRow",
+    "ar" : "من سطر",
+    "en" : "Start Row",
+    "type" : "Integer"
+  }, {
+    "id" : "staticContent",
+    "column" : "staticContent",
+    "ar" : "محتوي ثابت",
+    "en" : "Static Content",
+    "type" : "Boolean"
+  } ]
+}

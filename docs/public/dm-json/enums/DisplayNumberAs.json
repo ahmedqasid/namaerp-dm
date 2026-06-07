@@ -1,0 +1,16 @@
+{
+  "enum" : "DisplayNumberAs",
+  "values" : [ {
+    "id" : "QRCode",
+    "ar" : "QR Code",
+    "en" : "QR Code"
+  }, {
+    "id" : "Barcode",
+    "ar" : "باركود",
+    "en" : "Barcode"
+  }, {
+    "id" : "Tafqeet",
+    "ar" : "تفقيط",
+    "en" : "Tafqeet"
+  } ]
+}

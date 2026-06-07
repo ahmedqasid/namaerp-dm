@@ -1,0 +1,14 @@
+{
+  "enum" : "TotalPosition",
+  "values" : [ {
+    "id" : "NONE",
+    "ar" : "بدون",
+    "en" : "NONE"
+  }, {
+    "id" : "START",
+    "en" : "START"
+  }, {
+    "id" : "END",
+    "en" : "END"
+  } ]
+}

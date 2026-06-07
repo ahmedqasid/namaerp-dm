@@ -1,0 +1,32 @@
+{
+  "enum" : "OverheadDistributionType",
+  "values" : [ {
+    "id" : "Equally",
+    "ar" : "بالتساي",
+    "en" : "Equally"
+  }, {
+    "id" : "FinishedProductQuantity",
+    "ar" : "كمية المنتج النهائي",
+    "en" : "Finished Product Quantity"
+  }, {
+    "id" : "RawMaterialCost",
+    "ar" : "تكلفة المواد الخام",
+    "en" : "Raw Material Cost"
+  }, {
+    "id" : "ResourcesCost",
+    "ar" : "تكلفة الموارد",
+    "en" : "Resource Cost"
+  }, {
+    "id" : "RawMaterialAndResourceCost",
+    "ar" : "تكلفة الموارد والمواد الخام",
+    "en" : "Raw Material and Resource Cost"
+  }, {
+    "id" : "EstimatedValue",
+    "ar" : "القيمة المقدرة",
+    "en" : "Estimated Value"
+  }, {
+    "id" : "MoldsCost",
+    "ar" : "تكلفة القوالب",
+    "en" : "Mold Cost"
+  } ]
+}

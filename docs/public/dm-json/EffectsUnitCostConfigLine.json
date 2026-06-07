@@ -1,0 +1,36 @@
+{
+  "entity" : "EffectsUnitCostConfigLine",
+  "table" : "EffectsUnitCostConfigLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EffectsUnitCostConfigLine.html",
+  "fields" : [ {
+    "id" : "fieldID",
+    "column" : "fieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "multiplyBy",
+    "column" : "multiplyBy",
+    "ar" : "مضروب في",
+    "en" : "Multiply By",
+    "type" : "Decimal"
+  }, {
+    "id" : "percentBasis",
+    "column" : "percentBasis",
+    "ar" : "اساس النسبة",
+    "en" : "Percentage Basis",
+    "type" : "FieldID"
+  }, {
+    "id" : "valueType",
+    "column" : "valueType",
+    "ar" : "نوع القيمة",
+    "en" : "Value Type",
+    "type" : "Enum",
+    "enum" : "ValueType"
+  } ]
+}

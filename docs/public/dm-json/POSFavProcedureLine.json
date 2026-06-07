@@ -1,0 +1,18 @@
+{
+  "entity" : "POSFavProcedureLine",
+  "table" : "POSFavProcedureLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/POSFavProcedureLine.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "posProcedure",
+    "column" : "posProcedure",
+    "ar" : "إجراء نقطة البيع",
+    "en" : "POS Procedure",
+    "type" : "Enum",
+    "enum" : "POSProcedures"
+  } ]
+}

@@ -1,0 +1,30 @@
+{
+  "entity" : "SCCollectPropertyOrderConfigLine",
+  "table" : "SCCollectPropertyOrderConfigLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SCCollectPropertyOrderConfigLine.html",
+  "fields" : [ {
+    "id" : "ascOrDesc",
+    "column" : "ascOrDesc",
+    "ar" : "تصاعدي/تنازلي",
+    "en" : "Asc/Desc",
+    "type" : "Enum",
+    "enum" : "SortType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "orderByField",
+    "column" : "orderByField",
+    "ar" : "الترتيب بناءاً على حقل",
+    "en" : "Order By Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "property",
+    "column" : "property",
+    "ar" : "الخاصية",
+    "en" : "Property",
+    "type" : "FieldID"
+  } ]
+}

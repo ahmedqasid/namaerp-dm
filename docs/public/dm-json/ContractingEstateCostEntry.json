@@ -1,0 +1,61 @@
+{
+  "entity" : "ContractingEstateCostEntry",
+  "table" : "ContractingEstateCostEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ContractingEstateCostEntry.html",
+  "fields" : [ {
+    "id" : "cost",
+    "column" : "cost",
+    "ar" : "التكلفة",
+    "en" : "Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "costSourceEntryId",
+    "column" : "costSourceEntryId",
+    "type" : "ID"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "estate",
+    "columns" : [ "estateActualCode", " estateCode", " estateEntityType", " estateId" ],
+    "ar" : "العقار",
+    "en" : "Estate",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "parentEstateCostEntryId",
+    "column" : "parentEstateCostEntryId",
+    "type" : "ID"
+  }, {
+    "id" : "termCode",
+    "column" : "termCode",
+    "ar" : "كود البند",
+    "en" : "Term Code",
+    "type" : "Text"
+  }, {
+    "id" : "termRemarks",
+    "column" : "termRemarks",
+    "ar" : "وصف البند",
+    "en" : "Term Remarks",
+    "type" : "BigText"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

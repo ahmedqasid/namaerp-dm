@@ -1,0 +1,16 @@
+{
+  "enum" : "ListDisplayType",
+  "values" : [ {
+    "id" : "Default",
+    "ar" : "افتراضي",
+    "en" : "Default"
+  }, {
+    "id" : "Dropdown",
+    "ar" : "قائمة منسدلة",
+    "en" : "Dropdown"
+  }, {
+    "id" : "Chips",
+    "ar" : "رقائق",
+    "en" : "Chips"
+  } ]
+}

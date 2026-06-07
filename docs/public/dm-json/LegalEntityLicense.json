@@ -1,0 +1,93 @@
+{
+  "entity" : "LegalEntityLicense",
+  "table" : "LegalEntityLicense",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/LegalEntityLicense.html",
+  "fields" : [ {
+    "id" : "allowedEntities",
+    "column" : "allowedEntities",
+    "type" : "BigText"
+  }, {
+    "id" : "allowedFeatures",
+    "column" : "allowedFeatures",
+    "type" : "BigText"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "endEffectiveDate",
+    "column" : "endEffectiveDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "info",
+    "column" : "info",
+    "type" : "BigText"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "maxNumOfNewRecord",
+    "column" : "maxNumOfNewRecord",
+    "ar" : "عدد السجلات",
+    "en" : "Number Of Records",
+    "type" : "Long"
+  }, {
+    "id" : "maxNumOfUsers",
+    "column" : "maxNumOfUsers",
+    "ar" : "عدد المستخدمين",
+    "en" : "Number Of User",
+    "type" : "Integer"
+  }, {
+    "id" : "paymentDate",
+    "column" : "paymentDate",
+    "ar" : "تاريخ الدفع",
+    "en" : "Payment Date",
+    "type" : "Date"
+  }, {
+    "id" : "paymentValue",
+    "column" : "paymentValue",
+    "ar" : "المبلغ",
+    "en" : "Payment Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "preventedEntities",
+    "column" : "preventedEntities",
+    "ar" : "الشاشات الغير مستعملة",
+    "en" : "Unused Entities",
+    "type" : "BigText"
+  }, {
+    "id" : "preventedFeatures",
+    "column" : "preventedFeatures",
+    "ar" : "المميزات الغير مستعملة",
+    "en" : "Unused Features",
+    "type" : "BigText"
+  }, {
+    "id" : "startEffectiveDate",
+    "column" : "startEffectiveDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
+    "id" : "userPreventedEntities",
+    "column" : "userPreventedEntities",
+    "type" : "BigText"
+  }, {
+    "id" : "userPreventedFeatures",
+    "column" : "userPreventedFeatures",
+    "type" : "BigText"
+  } ]
+}

@@ -1,0 +1,44 @@
+{
+  "enum" : "ApplyType",
+  "values" : [ {
+    "id" : "Automatic",
+    "ar" : "تلقائي",
+    "en" : "Automatic"
+  }, {
+    "id" : "TotalPrice",
+    "ar" : "السعر الإساسي",
+    "en" : " Total"
+  }, {
+    "id" : "Ref1Price",
+    "ar" : "سعر مرجع 1",
+    "en" : "Ref1 Price"
+  }, {
+    "id" : "AfterDiscount1Price",
+    "ar" : "صافي بعد خصم 1",
+    "en" : "Net After Discount 1"
+  }, {
+    "id" : "AfterDiscount2Price",
+    "ar" : "صافي بعد خصم 2",
+    "en" : "Net After Discount 2"
+  }, {
+    "id" : "AfterDiscount3Price",
+    "ar" : "صافي بعد خصم 3",
+    "en" : "Net After Discount 3"
+  }, {
+    "id" : "AfterDiscount4Price",
+    "ar" : "صافي بعد خصم 4",
+    "en" : "Net After Discount 4"
+  }, {
+    "id" : "AfterDiscount5Price",
+    "ar" : "صافي بعد خصم 5",
+    "en" : "Net After Discount 5"
+  }, {
+    "id" : "AfterDiscount6Price",
+    "ar" : "صافي بعد خصم 6",
+    "en" : "Net After Discount 6"
+  }, {
+    "id" : "AfterDiscount7Price",
+    "ar" : "صافي بعد خصم 7",
+    "en" : "Net After Discount 7"
+  } ]
+}

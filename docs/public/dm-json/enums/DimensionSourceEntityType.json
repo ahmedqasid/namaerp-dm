@@ -1,0 +1,212 @@
+{
+  "enum" : "DimensionSourceEntityType",
+  "values" : [ {
+    "id" : "SalesMan",
+    "ar" : "البائع",
+    "en" : "Sales Man"
+  }, {
+    "id" : "Employee",
+    "ar" : "موظف",
+    "en" : "Employee"
+  }, {
+    "id" : "Customer",
+    "ar" : "عميل",
+    "en" : "Customer"
+  }, {
+    "id" : "Supplier",
+    "ar" : "مورد",
+    "en" : "Supplier"
+  }, {
+    "id" : "Warehouse",
+    "ar" : "مخزن",
+    "en" : "Warehouse"
+  }, {
+    "id" : "Locator",
+    "ar" : "الموقع المخزني (أو المخزن اذا لم يوجد موقع)",
+    "en" : "Locator (Or Warehouse if Locator is empty)"
+  }, {
+    "id" : "InvItem",
+    "ar" : "صنف",
+    "en" : "Item"
+  }, {
+    "id" : "InvItemGroup",
+    "ar" : "مجموعة الأصناف",
+    "en" : "Item Group"
+  }, {
+    "id" : "FixedAsset",
+    "ar" : "أصل ثابت",
+    "en" : "Fixed Asset"
+  }, {
+    "id" : "Project",
+    "ar" : "مشروع مقاولات",
+    "en" : "Contracting Project"
+  }, {
+    "id" : "ItemSection",
+    "ar" : "قسم صنف",
+    "en" : "Item Section"
+  }, {
+    "id" : "DocumentSubsidiary",
+    "ar" : "ذمة المستند",
+    "en" : "Document Subsidiary"
+  }, {
+    "id" : "LineSubsidiary",
+    "ar" : "ذمة السطر",
+    "en" : "Line Subsidiary"
+  }, {
+    "id" : "Resource",
+    "ar" : "مورد تشغيل",
+    "en" : "Resource"
+  }, {
+    "id" : "EmployeeDepartment",
+    "ar" : "إدارة موظف",
+    "en" : "Employee Department"
+  }, {
+    "id" : "SalaryComponent",
+    "ar" : "مفرد راتب",
+    "en" : "Salary Component"
+  }, {
+    "id" : "Script",
+    "ar" : "سيناريو برمجي",
+    "en" : "Script"
+  }, {
+    "id" : "BankAccount",
+    "ar" : "حساب بنكي",
+    "en" : "Bank Account"
+  }, {
+    "id" : "LetterOfCredit",
+    "ar" : "الإعتماد المستندي",
+    "en" : "Letter Of Credit"
+  }, {
+    "id" : "SafeDeposite",
+    "ar" : "خزينة",
+    "en" : "Safe Deposit"
+  }, {
+    "id" : "ProjectContract",
+    "ar" : "عقد مشروع",
+    "en" : "Project Contract"
+  }, {
+    "id" : "ContractorContract",
+    "ar" : "عقد مقاول باطن",
+    "en" : "Contractor Contract"
+  }, {
+    "id" : "Partner",
+    "ar" : "شريك",
+    "en" : "Partner"
+  }, {
+    "id" : "NamaPOSRegister",
+    "ar" : "ماكينة",
+    "en" : "Register"
+  }, {
+    "id" : "LetterOfGuarantee",
+    "ar" : "خطاب ضمان",
+    "en" : "Letter Of Guarantee"
+  }, {
+    "id" : "LoanOrDeposit",
+    "ar" : "قرض أو وديعه بنكيه",
+    "en" : "Loan Or Deposit"
+  }, {
+    "id" : "ref1",
+    "ar" : "مرجع 1",
+    "en" : "Reference 1"
+  }, {
+    "id" : "ref2",
+    "ar" : "مرجع 2",
+    "en" : "Reference 2"
+  }, {
+    "id" : "ref3",
+    "ar" : "مرجع 3",
+    "en" : "Reference 3"
+  }, {
+    "id" : "HeaderRef1",
+    "ar" : "رأس المستند - مرجع 1",
+    "en" : "Header Ref 1"
+  }, {
+    "id" : "HeaderRef2",
+    "ar" : "رأس المستند - مرجع 2",
+    "en" : "Header Ref 2"
+  }, {
+    "id" : "HeaderRef3",
+    "ar" : "رأس المستند - مرجع 3",
+    "en" : "Header Ref 3"
+  }, {
+    "id" : "HeaderRef4",
+    "ar" : "رأس المستند - مرجع 4",
+    "en" : "Header Ref 4"
+  }, {
+    "id" : "HeaderRef5",
+    "ar" : "رأس المستند - مرجع 5",
+    "en" : "Header Ref 5"
+  }, {
+    "id" : "HeaderField",
+    "ar" : "حقل من رأس السند",
+    "en" : "Header Field"
+  }, {
+    "id" : "LineField",
+    "ar" : "حقل من السطر",
+    "en" : "Line Field"
+  }, {
+    "id" : "EffectLineField",
+    "ar" : "حقل من سطر التأثير",
+    "en" : "Effect Line Field"
+  }, {
+    "id" : "InvestmentFund"
+  }, {
+    "id" : "HMSPatient",
+    "ar" : "مريض",
+    "en" : "Patient"
+  }, {
+    "id" : "HMSDoctor",
+    "ar" : "طبيب",
+    "en" : "Doctor"
+  }, {
+    "id" : "HMSInsuranceCompany",
+    "ar" : "شركة تأمين طبى",
+    "en" : "Medical Insurance Company"
+  }, {
+    "id" : "HMSPharmacy",
+    "ar" : "صيدلية",
+    "en" : "Pharmacy"
+  }, {
+    "id" : "HMSRadiologyType",
+    "ar" : "نوع أشعة",
+    "en" : "Radiology Type"
+  }, {
+    "id" : "HMSSurgeryType",
+    "ar" : "نوع عملية جراحية",
+    "en" : "Surgery Type"
+  }, {
+    "id" : "HMSLabTestType",
+    "ar" : "نوع تحليل طبي",
+    "en" : "Laboratory Test Type"
+  }, {
+    "id" : "HMSPhysicalTherapyType",
+    "ar" : "نوع العلاج الطبيعى",
+    "en" : "Physical Therapy Type"
+  }, {
+    "id" : "HMSMedicalService",
+    "ar" : "الخدمة الطبية",
+    "en" : "Medical Service"
+  }, {
+    "id" : "HMSBloodBank",
+    "ar" : "بنك دم",
+    "en" : "Blood Bank"
+  }, {
+    "id" : "EDStudent",
+    "ar" : "طالب",
+    "en" : "Student"
+  }, {
+    "id" : "EDGuardian",
+    "ar" : "ولى أمر",
+    "en" : "Guardian"
+  }, {
+    "id" : "PaymentMethod",
+    "ar" : "طريقة دفع",
+    "en" : "Payment Method"
+  }, {
+    "id" : "PaymentMethodSubsidiary"
+  }, {
+    "id" : "HMSMedicalSpecialty",
+    "ar" : "تخصص طبي",
+    "en" : "Medical Specialty"
+  } ]
+}

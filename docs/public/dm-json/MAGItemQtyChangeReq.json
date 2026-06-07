@@ -1,0 +1,212 @@
+{
+  "entity" : "MAGItemQtyChangeReq",
+  "table" : "MAGItemQtyChangeReq",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/MAGItemQtyChangeReq.html",
+  "fields" : [ {
+    "id" : "dimensionQtyId",
+    "column" : "dimensionQtyId",
+    "type" : "ID"
+  }, {
+    "id" : "dimensions.analysisSet",
+    "column" : "dimensionsAnalysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "dimensions.branch",
+    "column" : "dimensionsBranch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "dimensions.department",
+    "column" : "dimensionsDepartment_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "dimensions.legalEntity",
+    "column" : "dimensionsLegalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "dimensions.sector",
+    "column" : "dimensionsSector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "executionDate",
+    "column" : "executionDate",
+    "ar" : "تاريخ التنفيذ",
+    "en" : "Execution Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "item",
+    "column" : "item_id",
+    "ar" : "الصنف",
+    "en" : "Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "itemUom",
+    "column" : "itemUom_id",
+    "ar" : "وحدة الصنف",
+    "en" : "Item UOM",
+    "type" : "Reference",
+    "refTo" : "UOM",
+    "refPath" : "/modules/supplychain/UOM.html"
+  }, {
+    "id" : "magentoSite",
+    "column" : "magentoSite_id",
+    "ar" : " Magento Site",
+    "en" : " Magento Site",
+    "type" : "Reference",
+    "refTo" : "MAGMagentoSite",
+    "refPath" : "/modules/magento/MAGMagentoSite.html"
+  }, {
+    "id" : "sentQuantity",
+    "column" : "sentQuantity",
+    "ar" : "الكمية المُرسلة",
+    "en" : "Sent Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "specDimensions.activePerc",
+    "column" : "specDimensionsActivePerc",
+    "ar" : "النسبة الفعالة",
+    "en" : "Active Percentage",
+    "type" : "Text"
+  }, {
+    "id" : "specDimensions.box",
+    "column" : "specDimensionsBox",
+    "ar" : "صندوق",
+    "en" : "Box",
+    "type" : "Text"
+  }, {
+    "id" : "specDimensions.color",
+    "column" : "specDimensionsColor",
+    "ar" : "اللون",
+    "en" : "Color",
+    "type" : "Color"
+  }, {
+    "id" : "specDimensions.inactivePerc",
+    "column" : "specDimensionsInactivePerc",
+    "ar" : "النسبة الغير فعالة",
+    "en" : "Inactive Percentage",
+    "type" : "Text"
+  }, {
+    "id" : "specDimensions.locator",
+    "column" : "specDimensionsLocator_id",
+    "ar" : "الموقع",
+    "en" : "Locator",
+    "type" : "Reference",
+    "refTo" : "Locator",
+    "refPath" : "/modules/supplychain/Locator.html"
+  }, {
+    "id" : "specDimensions.lotId",
+    "column" : "specDimensionsLotId",
+    "ar" : "كود الشحنة",
+    "en" : "Lot ID",
+    "type" : "Text"
+  }, {
+    "id" : "specDimensions.measures",
+    "column" : "specDimensionsMeasures",
+    "ar" : "الأبعاد",
+    "en" : "Measures",
+    "type" : "Measures"
+  }, {
+    "id" : "specDimensions.revisionId",
+    "column" : "specDimensionsRevisionId",
+    "ar" : "الإصدار",
+    "en" : "ID",
+    "type" : "Text"
+  }, {
+    "id" : "specDimensions.secondSerial",
+    "column" : "specDimensionsSecondSerial",
+    "ar" : "الرقم المسلسل الثاني",
+    "en" : "Second Serial",
+    "type" : "BigText"
+  }, {
+    "id" : "specDimensions.serialNumber",
+    "column" : "specDimensionsSerialNumber",
+    "ar" : "الرقم المسلسل",
+    "en" : "Serial Number",
+    "type" : "BigText"
+  }, {
+    "id" : "specDimensions.size",
+    "column" : "specDimensionsSize",
+    "ar" : "المقاس",
+    "en" : "Size",
+    "type" : "Text"
+  }, {
+    "id" : "specDimensions.subItem",
+    "column" : "specDimensionsSubItem_id",
+    "ar" : " السياره",
+    "en" : " Customer Car",
+    "type" : "Reference",
+    "refTo" : "SubItem",
+    "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+  }, {
+    "id" : "specDimensions.warehouse",
+    "column" : "specDimensionsWarehouse_id",
+    "ar" : "المخزن",
+    "en" : "Warehouse",
+    "type" : "Reference",
+    "refTo" : "Warehouse",
+    "refPath" : "/modules/supplychain/Warehouse.html"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
+    "id" : "submitionDate",
+    "column" : "submitionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Submition Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "trials",
+    "column" : "trials",
+    "ar" : "عدد محاولات",
+    "en" : "Trials",
+    "type" : "Integer"
+  }, {
+    "id" : "warehousesQuantities",
+    "column" : "warehousesQuantities",
+    "ar" : "Warehouses Quantities",
+    "en" : "Warehouses Quantities",
+    "type" : "BigText"
+  } ]
+}

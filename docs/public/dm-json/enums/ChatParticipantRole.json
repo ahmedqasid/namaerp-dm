@@ -1,0 +1,12 @@
+{
+  "enum" : "ChatParticipantRole",
+  "values" : [ {
+    "id" : "Admin"
+  }, {
+    "id" : "Member"
+  }, {
+    "id" : "Guest"
+  }, {
+    "id" : "Blocked"
+  } ]
+}

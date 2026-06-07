@@ -1,0 +1,52 @@
+{
+  "enum" : "CostDistribution",
+  "values" : [ {
+    "id" : "distributeOnValue",
+    "ar" : "توزيع على القيم",
+    "en" : "Distribute on value"
+  }, {
+    "id" : "distributeOnQuantity",
+    "ar" : "توزيع على الكميات",
+    "en" : "Distribute on quantity"
+  }, {
+    "id" : "distributeOnWeight",
+    "ar" : "توزيع على الوزن",
+    "en" : "Distribute On Weight"
+  }, {
+    "id" : "Manual",
+    "ar" : "يدوي",
+    "en" : "Manual"
+  }, {
+    "id" : "distributeOnVolume",
+    "ar" : "توزيع على الحجم",
+    "en" : "Distribute On Volume"
+  }, {
+    "id" : "distributeOnLength",
+    "ar" : "توزيع على الطول",
+    "en" : "Distribute On Length"
+  }, {
+    "id" : "distributeOnDensity",
+    "ar" : "توزيع على الكثافة",
+    "en" : "Distribute On Density"
+  }, {
+    "id" : "distributeOnArea",
+    "ar" : "توزيع على المساحة",
+    "en" : "Distribute On Area"
+  }, {
+    "id" : "distributeOnN1",
+    "ar" : "توزيع على N1",
+    "en" : "Distribute On N1"
+  }, {
+    "id" : "distributeOnN2",
+    "ar" : "توزيع على N2",
+    "en" : "Distribute On N2"
+  }, {
+    "id" : "distributeOnN3",
+    "ar" : "توزيع على N3",
+    "en" : "Distribute On N3"
+  }, {
+    "id" : "distributeOnAverageSalesPrice",
+    "ar" : "توزيع على إجمالي متوسط سعر البيع (من سندات التجميع)",
+    "en" : "Distribute On Total Average Sales Price (Assembly Documents)"
+  } ]
+}

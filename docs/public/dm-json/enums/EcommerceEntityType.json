@@ -1,0 +1,28 @@
+{
+  "enum" : "EcommerceEntityType",
+  "values" : [ {
+    "id" : "Order",
+    "ar" : "Order",
+    "en" : "Order"
+  }, {
+    "id" : "OrderReturn",
+    "ar" : "Order Return",
+    "en" : "Order Return"
+  }, {
+    "id" : "AbandonedCart",
+    "ar" : "Abandoned Cart",
+    "en" : "Abandoned Cart"
+  }, {
+    "id" : "OrderRequest",
+    "ar" : "Order Request",
+    "en" : "Order Request"
+  }, {
+    "id" : "OrderRequestConfirm",
+    "ar" : "Order Request Confirm",
+    "en" : "Order Request Confirm"
+  }, {
+    "id" : "CancelOrRejectOrder",
+    "ar" : "Cancel Or Reject Order",
+    "en" : "Cancel Or Reject Order"
+  } ]
+}

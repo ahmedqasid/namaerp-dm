@@ -1,0 +1,24 @@
+{
+  "enum" : "CRMTaskType",
+  "values" : [ {
+    "id" : "Visit",
+    "ar" : "زيارة",
+    "en" : "Visit"
+  }, {
+    "id" : "Call",
+    "ar" : "مكالمة",
+    "en" : "Call"
+  }, {
+    "id" : "Support",
+    "ar" : "الدعم",
+    "en" : "Support"
+  }, {
+    "id" : "exercise",
+    "ar" : "تدريب",
+    "en" : "exercise"
+  }, {
+    "id" : "preparement",
+    "ar" : "تجهيز",
+    "en" : "preparement"
+  } ]
+}

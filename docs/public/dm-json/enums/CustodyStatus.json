@@ -1,0 +1,20 @@
+{
+  "enum" : "CustodyStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدأي",
+    "en" : "Initial"
+  }, {
+    "id" : "Purchased",
+    "ar" : "تم شراؤة",
+    "en" : "Purchased"
+  }, {
+    "id" : "Delivered",
+    "ar" : "تم تسليمه",
+    "en" : "Delivered"
+  }, {
+    "id" : "Disposed",
+    "ar" : "تم التخلص منه",
+    "en" : "Disposed"
+  } ]
+}

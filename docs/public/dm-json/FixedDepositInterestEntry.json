@@ -1,0 +1,63 @@
+{
+  "entity" : "FixedDepositInterestEntry",
+  "table" : "FixedDepositInterestEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/FixedDepositInterestEntry.html",
+  "fields" : [ {
+    "id" : "depositValue",
+    "column" : "depositValue",
+    "ar" : "قيمة الوديعة",
+    "en" : "Deposit Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "depositeAfterInterest",
+    "column" : "depositeAfterInterest",
+    "ar" : "الوديعة بعد احتساب الربح",
+    "en" : "Deposit After Interest",
+    "type" : "Decimal"
+  }, {
+    "id" : "depositeBeforeInterest",
+    "column" : "depositeBeforeInterest",
+    "ar" : "الوديعة قبل احتساب الربح",
+    "en" : "Deposit Before Interest",
+    "type" : "Decimal"
+  }, {
+    "id" : "fixedDeposit",
+    "column" : "fixedDeposit_id",
+    "ar" : " وديعة بنكية",
+    "en" : " Fixed Deposit",
+    "type" : "Reference",
+    "refTo" : "FixedDeposit",
+    "refPath" : "/modules/accounting-loans/FixedDeposit.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "interestPaymentDate",
+    "column" : "interestPaymentDate",
+    "ar" : "تاريخ صرف الربح",
+    "en" : "Interest Payment Date",
+    "type" : "Date"
+  }, {
+    "id" : "interestPercent",
+    "column" : "interestPercent",
+    "ar" : "نسبة الربح",
+    "en" : "Interest Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "interestValue",
+    "column" : "interestValue",
+    "ar" : "قيمة الربح",
+    "en" : "Interest Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "processed",
+    "column" : "processed",
+    "type" : "Boolean"
+  }, {
+    "id" : "processedDoc",
+    "columns" : [ "processedDocActualCode", " processedDocCode", " processedDocEntityType", " processedDocId" ],
+    "type" : "Genericreference"
+  } ]
+}

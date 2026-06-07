@@ -1,0 +1,16 @@
+{
+  "enum" : "PFSalesSourceEffectType",
+  "values" : [ {
+    "id" : "Addition",
+    "ar" : "إضافة",
+    "en" : "Addition"
+  }, {
+    "id" : "Deduction",
+    "ar" : "خصم",
+    "en" : "Deduction"
+  }, {
+    "id" : "Default",
+    "ar" : "افتراضي",
+    "en" : "Default"
+  } ]
+}

@@ -1,0 +1,199 @@
+{
+  "entity" : "POS.POSSavingSettings",
+  "table" : "POSSavingSettings",
+  "module" : "pos-app",
+  "ar" : "إعدادات الحفظ في نقاط البيع",
+  "arPlural" : "إعدادات الحفظ في نقاط البيع",
+  "en" : "POS Saving Settings",
+  "enPlural" : "POS Saving Settings",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSSavingSettings.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ],
+  "details" : [ {
+    "id" : "lines",
+    "table" : "POSSavingSettingsLine",
+    "joinColumn" : "settings_id",
+    "ar" : " التفاصيل",
+    "en" : " Details",
+    "fields" : [ {
+      "id" : "lines.customer",
+      "column" : "customer_id",
+      "ar" : "العميل",
+      "en" : "Customer",
+      "type" : "Reference",
+      "refTo" : "POS.POSCustomer",
+      "refPath" : "/modules/pos-app/POS.POSCustomer.html"
+    }, {
+      "id" : "lines.documentType",
+      "column" : "documentType",
+      "ar" : "نوع المستند",
+      "en" : "Document Type",
+      "type" : "Text"
+    }, {
+      "id" : "lines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "lines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "lines.posInvoiceClassification",
+      "column" : "posInvoiceClassification_id",
+      "type" : "Reference",
+      "refTo" : "POS.POSInvoiceClassification",
+      "refPath" : "/modules/pos-app/POS.POSInvoiceClassification.html"
+    }, {
+      "id" : "lines.settings",
+      "column" : "settings_id",
+      "ar" : "الإعدادات",
+      "en" : "Settings",
+      "type" : "Reference",
+      "refTo" : "POS.POSSavingSettings",
+      "refPath" : "/modules/pos-app/POS.POSSavingSettings.html"
+    }, {
+      "id" : "lines.subsidiaryID",
+      "column" : "subsidiaryID",
+      "type" : "ID"
+    }, {
+      "id" : "lines.subsidiaryNamaType",
+      "column" : "subsidiaryNamaType",
+      "type" : "Text"
+    }, {
+      "id" : "lines.subsidiaryType",
+      "column" : "subsidiaryType",
+      "ar" : "نوع الذمة",
+      "en" : "Subsidiary Type",
+      "type" : "Text"
+    } ]
+  } ]
+}

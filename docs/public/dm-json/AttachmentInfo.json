@@ -1,0 +1,51 @@
+{
+  "entity" : "AttachmentInfo",
+  "table" : "AttachmentInfo",
+  "module" : "system-tables",
+  "ar" : "كل المرفقات بالنظام",
+  "en" : "All Attachments In System",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AttachmentInfo.html",
+  "fields" : [ {
+    "id" : "attachment",
+    "column" : "attachment_id",
+    "ar" : "مرفق",
+    "en" : "Attachment",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "createdOn",
+    "column" : "createdOn",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Create On",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "fieldID",
+    "column" : "fieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lineNumber",
+    "column" : "lineNumber",
+    "ar" : "رقم السطر",
+    "en" : "Line Number",
+    "type" : "Integer"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ownerEntry",
+    "column" : "ownerEntry_id",
+    "type" : "",
+    "refTo" : "EntitySystemEntry",
+    "refPath" : "/modules/system-tables/EntitySystemEntry.html"
+  } ]
+}

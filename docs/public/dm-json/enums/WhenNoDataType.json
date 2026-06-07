@@ -1,0 +1,12 @@
+{
+  "enum" : "WhenNoDataType",
+  "values" : [ {
+    "id" : "NoPages",
+    "ar" : "No Pages",
+    "en" : "No Pages"
+  }, {
+    "id" : "NoDataSection",
+    "ar" : "No Data Section",
+    "en" : "No Data Section"
+  } ]
+}

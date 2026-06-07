@@ -1,0 +1,12 @@
+{
+  "enum" : "MCContractTermType",
+  "values" : [ {
+    "id" : "Parent",
+    "ar" : "رئيسي",
+    "en" : "Parent"
+  }, {
+    "id" : "Leaf",
+    "ar" : "فرعي",
+    "en" : "Leaf"
+  } ]
+}

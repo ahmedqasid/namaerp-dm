@@ -1,0 +1,47 @@
+{
+  "entity" : "SiteOutMessage",
+  "table" : "SiteOutMessage",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SiteOutMessage.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "message",
+    "column" : "messageId",
+    "ar" : "الرسالة",
+    "en" : "Message",
+    "type" : "",
+    "refTo" : "OutBusMessage",
+    "refPath" : "/modules/system-tables/OutBusMessage.html"
+  }, {
+    "id" : "messageId",
+    "column" : "messageId",
+    "type" : "ID"
+  }, {
+    "id" : "messageSent",
+    "column" : "messageSent",
+    "ar" : "مرسلة",
+    "en" : "Message Sent",
+    "type" : "Boolean"
+  }, {
+    "id" : "sequence",
+    "column" : "sequence",
+    "ar" : "المسلسل",
+    "en" : "Sequence",
+    "type" : "Long"
+  }, {
+    "id" : "siteCode",
+    "column" : "siteCode",
+    "ar" : "كود الموقع",
+    "en" : "Site Code",
+    "type" : "Text"
+  }, {
+    "id" : "submitionDate",
+    "column" : "submitionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Submition Date",
+    "type" : "DateAndTime"
+  } ]
+}

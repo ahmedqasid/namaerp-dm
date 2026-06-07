@@ -1,0 +1,16 @@
+{
+  "enum" : "MoneyEffectSource",
+  "values" : [ {
+    "id" : "Percentage",
+    "ar" : "نسبة",
+    "en" : "Percentage"
+  }, {
+    "id" : "Value",
+    "ar" : "قيمة",
+    "en" : "Value"
+  }, {
+    "id" : "AfterValue",
+    "ar" : "After Value",
+    "en" : "After Value"
+  } ]
+}

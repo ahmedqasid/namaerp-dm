@@ -1,0 +1,60 @@
+{
+  "enum" : "HMSRoomType",
+  "values" : [ {
+    "id" : "Accommodation",
+    "ar" : "إقامة",
+    "en" : "Accommodation"
+  }, {
+    "id" : "ShortAccommodation",
+    "ar" : "إقامة قصيرة",
+    "en" : "Short Accommodation"
+  }, {
+    "id" : "NotNeedAccommodation",
+    "ar" : "لا تحتاج لإقامة",
+    "en" : "Not Need Accommodation"
+  }, {
+    "id" : "Nurseries",
+    "ar" : "حضًانات",
+    "en" : "Nurseries"
+  }, {
+    "id" : "IntensiveCare",
+    "ar" : "عناية مركزة",
+    "en" : "Intensive Care"
+  }, {
+    "id" : "HeartCare",
+    "ar" : "عناية القلب",
+    "en" : "Heart Care"
+  }, {
+    "id" : "Laboratory",
+    "ar" : "معمل تحاليل",
+    "en" : "Laboratory"
+  }, {
+    "id" : "ReceptionRoom",
+    "ar" : "إستقبال",
+    "en" : "Reception Room"
+  }, {
+    "id" : "OutPatientClinic",
+    "ar" : "عيادات خارجية",
+    "en" : "OutPatient Clinic"
+  }, {
+    "id" : "InPatientClinic",
+    "ar" : "عيادات داخلية",
+    "en" : "InPatient Clinic"
+  }, {
+    "id" : "Radiology",
+    "ar" : "أشعة",
+    "en" : "Radiology"
+  }, {
+    "id" : "Surgery",
+    "ar" : "عمليات",
+    "en" : "Surgery"
+  }, {
+    "id" : "Newborn",
+    "ar" : "حديث الولادة",
+    "en" : "Newborn"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  } ]
+}

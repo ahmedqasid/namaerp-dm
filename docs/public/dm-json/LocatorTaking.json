@@ -1,0 +1,39 @@
+{
+  "entity" : "LocatorTaking",
+  "table" : "LocatorTaking",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/LocatorTaking.html",
+  "fields" : [ {
+    "id" : "endDate",
+    "column" : "endDate",
+    "ar" : "تاريخ النهاية",
+    "en" : "End Date",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "locator",
+    "column" : "locator_id",
+    "ar" : "الموقع",
+    "en" : "Locator",
+    "type" : "Reference",
+    "refTo" : "Locator",
+    "refPath" : "/modules/supplychain/Locator.html"
+  }, {
+    "id" : "startDate",
+    "column" : "startDate",
+    "ar" : "تاريخ البداية",
+    "en" : "Start Date",
+    "type" : "Date"
+  }, {
+    "id" : "startDoc",
+    "column" : "startDoc_id",
+    "ar" : "مستند بداية الجرد",
+    "en" : "Start Stock Taking",
+    "type" : "Reference",
+    "refTo" : "StartStockTaking",
+    "refPath" : "/modules/supplychain-inventory/StartStockTaking.html"
+  } ]
+}

@@ -1,0 +1,40 @@
+{
+  "enum" : "PriceListDefaultPrice",
+  "values" : [ {
+    "id" : "MinPrice",
+    "ar" : "أقل سعر",
+    "en" : "min price"
+  }, {
+    "id" : "MaxPrice",
+    "ar" : "أقصي سعر",
+    "en" : "max Price"
+  }, {
+    "id" : "DefaultPrice",
+    "ar" : "السعر الإفتراضي",
+    "en" : "default Price"
+  }, {
+    "id" : "CustomPrice",
+    "ar" : "السعر المخصص",
+    "en" : "Custom Price"
+  }, {
+    "id" : "N1",
+    "ar" : " رقم 1",
+    "en" : " Number 1"
+  }, {
+    "id" : "N2",
+    "ar" : " رقم 2",
+    "en" : " Number 2"
+  }, {
+    "id" : "N3",
+    "ar" : " رقم 3",
+    "en" : " Number 3"
+  }, {
+    "id" : "N4",
+    "ar" : " رقم 4",
+    "en" : " Number 4"
+  }, {
+    "id" : "N5",
+    "ar" : " رقم 5",
+    "en" : " Number 5"
+  } ]
+}

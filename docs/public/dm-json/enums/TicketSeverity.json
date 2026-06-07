@@ -1,0 +1,20 @@
+{
+  "enum" : "TicketSeverity",
+  "values" : [ {
+    "id" : "Minor",
+    "ar" : "صغير",
+    "en" : "Minor"
+  }, {
+    "id" : "Major",
+    "ar" : "كبير",
+    "en" : "Major"
+  }, {
+    "id" : "Feature",
+    "ar" : "إضافة",
+    "en" : "Feature"
+  }, {
+    "id" : "Critical",
+    "ar" : "حرج",
+    "en" : "Critical"
+  } ]
+}

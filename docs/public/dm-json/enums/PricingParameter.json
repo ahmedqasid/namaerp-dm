@@ -1,0 +1,32 @@
+{
+  "enum" : "PricingParameter",
+  "values" : [ {
+    "id" : "CurrentSalesPrice",
+    "ar" : "سعر البيع الحالي",
+    "en" : "Current Sales Price"
+  }, {
+    "id" : "SelectedPricingSource",
+    "ar" : "مصدر التسعير المختار",
+    "en" : "Selected Pricing Source"
+  }, {
+    "id" : "CurrentMinSalesPrice",
+    "ar" : "أقل سعر بيع حالي",
+    "en" : "Current Min Sales Price"
+  }, {
+    "id" : "CurrentMaxSalesPrice",
+    "ar" : "أكبر سعر بيع حالي",
+    "en" : "Current Max Sales Price"
+  }, {
+    "id" : "SuggestedSalesPrice",
+    "ar" : "سعر البيع المقترح",
+    "en" : "Suggested Sales Price"
+  }, {
+    "id" : "SuggestedMinSalesPrice",
+    "ar" : "أقل سعر بيع مقترح",
+    "en" : "Suggested Min Sales Price"
+  }, {
+    "id" : "SuggestedMaxSalesPrice",
+    "ar" : "أكبر سعر بيع مقترح",
+    "en" : "Suggested Max Sales Price"
+  } ]
+}

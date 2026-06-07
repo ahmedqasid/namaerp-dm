@@ -1,0 +1,16 @@
+{
+  "enum" : "ShippingWay",
+  "values" : [ {
+    "id" : "ByAir",
+    "ar" : "جوي",
+    "en" : "By Air"
+  }, {
+    "id" : "BySea",
+    "ar" : "بحري",
+    "en" : "By Sea"
+  }, {
+    "id" : "OnLand",
+    "ar" : "بري",
+    "en" : "On Land"
+  } ]
+}

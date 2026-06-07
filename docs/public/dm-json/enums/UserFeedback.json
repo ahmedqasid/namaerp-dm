@@ -1,0 +1,12 @@
+{
+  "enum" : "UserFeedback",
+  "values" : [ {
+    "id" : "Like",
+    "ar" : "Like",
+    "en" : "Like"
+  }, {
+    "id" : "Dislike",
+    "ar" : "Dislike",
+    "en" : "Dislike"
+  } ]
+}

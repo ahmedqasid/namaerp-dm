@@ -1,0 +1,32 @@
+{
+  "enum" : "MessageQueue",
+  "values" : [ {
+    "id" : "entityChange",
+    "ar" : "تغيير سجل",
+    "en" : "Entity Change"
+  }, {
+    "id" : "attachment",
+    "ar" : "مرفق",
+    "en" : "Attachment"
+  }, {
+    "id" : "approvalChange",
+    "ar" : "تغيير موافقة",
+    "en" : "Approval Change"
+  }, {
+    "id" : "notificationMessage",
+    "ar" : "رسالة إشعار",
+    "en" : "Notification Message"
+  }, {
+    "id" : "approval",
+    "ar" : "موافقة",
+    "en" : "Approval"
+  }, {
+    "id" : "reCommit",
+    "ar" : "إعادة حفظ",
+    "en" : "Recommit"
+  }, {
+    "id" : "revised",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised"
+  } ]
+}

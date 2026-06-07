@@ -1,0 +1,70 @@
+{
+  "entity" : "EntityVersion",
+  "table" : "EntityVersion",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EntityVersion.html",
+  "fields" : [ {
+    "id" : "author",
+    "columns" : [ "author_actualCode", " author_code", " author_type", " author_id" ],
+    "ar" : "Author",
+    "en" : "Author",
+    "type" : "Genericreference"
+  }, {
+    "id" : "changeType",
+    "column" : "changeType",
+    "type" : "Enum",
+    "enum" : "ChangeType"
+  }, {
+    "id" : "date",
+    "column" : "date",
+    "ar" : "التاريخ",
+    "en" : "Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "entityImage",
+    "column" : "entityImage",
+    "type" : "BigText"
+  }, {
+    "id" : "entityImageBlob",
+    "column" : "entityImageBlob",
+    "type" : ""
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lastVersion",
+    "column" : "lastVersion",
+    "ar" : "أخر إصدار",
+    "en" : "Last Version",
+    "type" : "Boolean"
+  }, {
+    "id" : "ownerActualCode",
+    "column" : "ownerActualCode",
+    "type" : "Text"
+  }, {
+    "id" : "ownerCode",
+    "column" : "owner_code",
+    "ar" : "الكود",
+    "en" : "Owner Code",
+    "type" : "Text"
+  }, {
+    "id" : "ownerEntityType",
+    "column" : "owner_type",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "ownerId",
+    "column" : "ownerId",
+    "ar" : "رقم هوية المالك",
+    "en" : "Owner Number",
+    "type" : "ID"
+  }, {
+    "id" : "versionNumber",
+    "column" : "versionNumber",
+    "ar" : "رقم الإصدار",
+    "en" : "Version Number",
+    "type" : "Integer"
+  } ]
+}

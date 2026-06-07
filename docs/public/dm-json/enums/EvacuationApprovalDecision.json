@@ -1,0 +1,16 @@
+{
+  "enum" : "EvacuationApprovalDecision",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Approve",
+    "ar" : "موافقة",
+    "en" : "Approve"
+  }, {
+    "id" : "Reject",
+    "ar" : "رفض",
+    "en" : "Reject"
+  } ]
+}

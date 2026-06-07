@@ -1,0 +1,60 @@
+{
+  "enum" : "BarcodeType",
+  "values" : [ {
+    "id" : "Codabar",
+    "ar" : "Codabar",
+    "en" : "Codabar"
+  }, {
+    "id" : "Code128",
+    "ar" : "Code128",
+    "en" : "Code128"
+  }, {
+    "id" : "Code39",
+    "ar" : "Code39",
+    "en" : "Code39"
+  }, {
+    "id" : "EAN128",
+    "ar" : "EAN128",
+    "en" : "EAN128"
+  }, {
+    "id" : "EAN13",
+    "ar" : "EAN13",
+    "en" : "EAN13"
+  }, {
+    "id" : "EAN8",
+    "ar" : "EAN8",
+    "en" : "EAN8"
+  }, {
+    "id" : "PDF417",
+    "ar" : "PDF417",
+    "en" : "PDF417"
+  }, {
+    "id" : "PostNet",
+    "ar" : "PostNet",
+    "en" : "PostNet"
+  }, {
+    "id" : "DataMatrix",
+    "ar" : "DataMatrix",
+    "en" : "DataMatrix"
+  }, {
+    "id" : "Int2of5",
+    "ar" : "Int2of5",
+    "en" : "Int2of5"
+  }, {
+    "id" : "RoyalMailCustomer",
+    "ar" : "RoyalMailCustomer",
+    "en" : "RoyalMailCustomer"
+  }, {
+    "id" : "UPCA",
+    "ar" : "UPCA",
+    "en" : "UPCA"
+  }, {
+    "id" : "UPCE",
+    "ar" : "UPCE",
+    "en" : "UPCE"
+  }, {
+    "id" : "USPS",
+    "ar" : "USPS",
+    "en" : "USPS"
+  } ]
+}

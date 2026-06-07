@@ -1,0 +1,20 @@
+{
+  "enum" : "REReservationStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Confirmed",
+    "ar" : "مؤكد",
+    "en" : "Confirmed"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
+  }, {
+    "id" : "Sold",
+    "ar" : "مباعة",
+    "en" : "Sold"
+  } ]
+}

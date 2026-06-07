@@ -1,0 +1,2067 @@
+{
+  "entity" : "HMSMedicalService",
+  "table" : "HMSMedicalService",
+  "module" : "hms",
+  "ar" : "الخدمة الطبية",
+  "arPlural" : "الخدمات الطبية",
+  "en" : "Medical Service",
+  "enPlural" : "Medical Services",
+  "page" : "https://dm.namasoft.com/modules/hms/HMSMedicalService.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "attachment",
+    "column" : "attachment_id",
+    "ar" : "مرفق",
+    "en" : "Attachment",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "medicalSpecialty",
+    "column" : "medicalSpecialty_id",
+    "ar" : "التخصص الطبي",
+    "en" : "Medical Specialty",
+    "type" : "Reference",
+    "refTo" : "HMSMedicalSpecialty",
+    "refPath" : "/modules/hms/HMSMedicalSpecialty.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "price.additionalHourPrice",
+    "column" : "priAdditionalHourPrice",
+    "ar" : "سعر الساعة الزيادة عن عدد ساعات العملية",
+    "en" : "Additional Hour Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.additionalHours",
+    "column" : "priAdditionalHours",
+    "ar" : "عدد الساعات الزيادة",
+    "en" : "Number Of Additional Hours",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.costPercentage",
+    "column" : "priCostPercentage",
+    "ar" : "% التكلفة",
+    "en" : "Cost Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.costValue",
+    "column" : "priCostValue",
+    "ar" : "قيمة التكلفة",
+    "en" : "Cost Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.currency",
+    "column" : "priCurrency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "price.currencyRate",
+    "column" : "priCurrencyRate",
+    "ar" : "المعدل",
+    "en" : "Currency Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount1.maxValue",
+    "column" : "priDis1MaxValue",
+    "ar" : "خصم 1 | أقصى قيمة",
+    "en" : "Discount 1 | Max Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount1.percentage",
+    "column" : "priDis1Percentage",
+    "ar" : "خصم 1 | %",
+    "en" : "Discount 1 | %",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount1.value",
+    "column" : "priDis1Value",
+    "ar" : "خصم 1 | قيمة",
+    "en" : "Discount 1 | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount2.maxValue",
+    "column" : "priDis2MaxValue",
+    "ar" : "خصم 2 | أقصى قيمة",
+    "en" : "Discount 2 | Max Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount2.percentage",
+    "column" : "priDis2Percentage",
+    "ar" : "خصم 2 | %",
+    "en" : "Discount 2 | %",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.discount2.value",
+    "column" : "priDis2Value",
+    "ar" : "خصم 2 | قيمة",
+    "en" : "Discount 2 | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.insurancMxValFromAdmision",
+    "column" : "priInsurancMxValFromAdmision",
+    "ar" : "أقصى قيمة للتأمين من سند إستمارة الدخول",
+    "en" : "Insurance Max Value From Admission",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.insurancMxValFromApproval",
+    "column" : "priInsurancMxValFromApproval",
+    "ar" : "أقصى قيمة للتأمين من سند الموافقة",
+    "en" : "Insurance Max Value From Approval",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.insurancePercentage",
+    "column" : "priInsurancePercentage",
+    "ar" : "التأمين | %",
+    "en" : "Insurance | Percent",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.insuranceTax1",
+    "column" : "priInsuranceTax1",
+    "ar" : "التأمين | قيمة ضريبة 1",
+    "en" : "Insurance Tax1 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.insuranceTax2",
+    "column" : "priInsuranceTax2",
+    "ar" : "التأمين | قيمة ضريبة 2",
+    "en" : "Insurance Tax1 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.insuranceValue",
+    "column" : "priInsuranceValue",
+    "ar" : "التأمين | قيمة التأمين",
+    "en" : "Insurance Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.netValue",
+    "column" : "priNetValue",
+    "ar" : "الصافي",
+    "en" : "Net value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.patientPercentage",
+    "column" : "priPatientPercentage",
+    "ar" : "المريض | %",
+    "en" : "Patient | %",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.patientTax1",
+    "column" : "priPatientTax1",
+    "ar" : "المريض | قيمة ضريبة 1",
+    "en" : "Patient Tax1 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.patientTax2",
+    "column" : "priPatientTax2",
+    "ar" : "المريض | قيمة ضريبة 2",
+    "en" : "Patient Tax2 Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.patientValue",
+    "column" : "priPatientValue",
+    "ar" : "المريض | قيمة",
+    "en" : "Patient | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.price",
+    "column" : "priPrice",
+    "ar" : "الأسعار | السعر الكلي",
+    "en" : "Prices | total price",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.priceAfterTax",
+    "column" : "priPriceAfterTax",
+    "ar" : "السعر بعد الضريبة",
+    "en" : "Price After Tax",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.priceBeforeTax",
+    "column" : "priPriceBeforeTax",
+    "ar" : "السعر قبل الضريبة",
+    "en" : "Price Before Tax",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.standardHours",
+    "column" : "priStandardHours",
+    "ar" : "عدد الساعات القياسي",
+    "en" : "Standard Hours Number",
+    "type" : "Time"
+  }, {
+    "id" : "price.standardSurgeryPrice",
+    "column" : "priStandardSurgeryPrice",
+    "ar" : "سعر العملية القياسي",
+    "en" : "Standard Surgery Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.subsidiary1Percentage",
+    "column" : "priSubsidiary1Percentage",
+    "ar" : "تكلفة الذمة 1 | نسبة",
+    "en" : "Subsidiary 1 Cost | Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.subsidiary1Value",
+    "column" : "priSubsidiary1Value",
+    "ar" : "تكلفة الذمة 1 | قيمة",
+    "en" : "Subsidiary 1 Cost | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.subsidiary2Percentage",
+    "column" : "priSubsidiary2Percentage",
+    "ar" : "تكلفة الذمة 2 | نسبة",
+    "en" : "Subsidiary 2 Cost | Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.subsidiary2Value",
+    "column" : "priSubsidiary2Value",
+    "ar" : "تكلفة الذمة 2 | قيمة",
+    "en" : "Subsidiary 2 Cost | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.subsidiaryPercentage",
+    "column" : "priSubsidiaryPercentage",
+    "ar" : "تكلفة الذمة | نسبة",
+    "en" : "Subsidiary Cost | Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.subsidiaryValue",
+    "column" : "priSubsidiaryValue",
+    "ar" : "تكلفة الذمة | قيمة",
+    "en" : "Subsidiary Cost | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.tax1.maxValue",
+    "column" : "priTax1MaxValue",
+    "ar" : "أقصي قيمة",
+    "en" : "Maximum Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.tax1.percentage",
+    "column" : "priTax1Percentage",
+    "ar" : "قيمة إضافية 1",
+    "en" : "Tax 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.tax1.value",
+    "column" : "priTax1Value",
+    "ar" : "ضريبة مبيعات | القيمة",
+    "en" : "Tax value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.tax2.maxValue",
+    "column" : "priTax2MaxValue",
+    "ar" : "أقصي قيمة",
+    "en" : "Maximum Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.tax2.percentage",
+    "column" : "priTax2Percentage",
+    "ar" : "قيمة إضافية 2",
+    "en" : "Tax 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.tax2.value",
+    "column" : "priTax2Value",
+    "ar" : "ضريبة مبيعات 2 | القيمة",
+    "en" : "Tax 2 | Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.totalInsuranceDueAmount",
+    "column" : "priTotalInsuranceDueAmount",
+    "ar" : "القيمة المستحقة من التأمين",
+    "en" : "Total Insurance Due Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.totalPatientDueAmount",
+    "column" : "priTotalPatientDueAmount",
+    "ar" : "القيمة المستحقة من المريض",
+    "en" : "Total Patient Due Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "price.unitPrice",
+    "column" : "priUnitPrice",
+    "ar" : "سعر الوحدة",
+    "en" : "Prices | Unit price",
+    "type" : "Decimal"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "serviceCategory",
+    "column" : "serviceCategory_id",
+    "ar" : "تصنيف الخدمة الطبية",
+    "en" : "Medical Service Category",
+    "type" : "Reference",
+    "refTo" : "HMSMedServiceCategory",
+    "refPath" : "/modules/hms/HMSMedServiceCategory.html"
+  }, {
+    "id" : "subsidiaryAccounts.account1",
+    "column" : "account1_id",
+    "ar" : " حساب 01",
+    "en" : " Account 01",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account10",
+    "column" : "account10_id",
+    "ar" : " حساب 10",
+    "en" : " Account 10",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account11",
+    "column" : "account11_id",
+    "ar" : " حساب 11",
+    "en" : " Account 11",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account12",
+    "column" : "account12_id",
+    "ar" : " حساب 12",
+    "en" : " Account 12",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account13",
+    "column" : "account13_id",
+    "ar" : " حساب 13",
+    "en" : " Account 13",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account14",
+    "column" : "account14_id",
+    "ar" : " حساب 14",
+    "en" : " Account 14",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account15",
+    "column" : "account15_id",
+    "ar" : " حساب 15",
+    "en" : " Account 15",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account16",
+    "column" : "account16_id",
+    "ar" : " حساب 16",
+    "en" : " Account 16",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account17",
+    "column" : "account17_id",
+    "ar" : " حساب 17",
+    "en" : " Account 17",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account18",
+    "column" : "account18_id",
+    "ar" : " حساب 18",
+    "en" : " Account 18",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account19",
+    "column" : "account19_id",
+    "ar" : " حساب 19",
+    "en" : " Account 19",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account2",
+    "column" : "account2_id",
+    "ar" : " حساب 02",
+    "en" : " Account 02",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account20",
+    "column" : "account20_id",
+    "ar" : " حساب 20",
+    "en" : " Account 20",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account3",
+    "column" : "account3_id",
+    "ar" : " حساب 03",
+    "en" : " Account 03",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account4",
+    "column" : "account4_id",
+    "ar" : " حساب 04",
+    "en" : " Account 04",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account5",
+    "column" : "account5_id",
+    "ar" : " حساب 05",
+    "en" : " Account 05",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account6",
+    "column" : "account6_id",
+    "ar" : " حساب 06",
+    "en" : " Account 06",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account7",
+    "column" : "account7_id",
+    "ar" : " حساب 07",
+    "en" : " Account 07",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account8",
+    "column" : "account8_id",
+    "ar" : " حساب 08",
+    "en" : " Account 08",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account9",
+    "column" : "account9_id",
+    "ar" : " حساب 09",
+    "en" : " Account 09",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.accountsBag",
+    "column" : "accountsBag_id",
+    "ar" : " حقيبة حسابات",
+    "en" : " Accounts Bag",
+    "type" : "Reference",
+    "refTo" : "AccountsBag",
+    "refPath" : "/modules/basic/AccountsBag.html"
+  }, {
+    "id" : "subsidiaryAccounts.currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "subsidiaryAccounts.forceNoDebtAgesTracking",
+    "column" : "forceNoDebtAgesTracking",
+    "ar" : "منع متابعة أعمار الديون لهذه الذمة - حتي و إن تم تفعيلها للحساب",
+    "en" : "Do Not Track Debt Ages For This Subsidiary - Even if it was activated in the account",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.mainAccount",
+    "column" : "mainAccount_id",
+    "ar" : " الحساب الرئيسي",
+    "en" : " Main Account",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.parentParty",
+    "columns" : [ "parentPartyActualCode", " parentPartyCode", " parentPartyEntityType", " parentPartyId" ],
+    "ar" : "الجهة الأعلي (البديل المحاسبي)",
+    "en" : "Parent Party (Accounting Alternative)",
+    "type" : "Genericreference"
+  }, {
+    "id" : "subsidiaryAccounts.tax1Exempt",
+    "column" : "tax1Exempt",
+    "ar" : "غير خاضع لضريبة 1",
+    "en" : "Tax 1 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax2Exempt",
+    "column" : "tax2Exempt",
+    "ar" : "غير خاضع لضريبة 2",
+    "en" : "Tax 2 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax3Exempt",
+    "column" : "tax3Exempt",
+    "ar" : "غير خاضع لضريبة 3",
+    "en" : "Tax 3 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax4Exempt",
+    "column" : "tax4Exempt",
+    "ar" : "غير خاضع لضريبة 4",
+    "en" : "Tax 4 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "taxAuthorityItem",
+    "column" : "taxAuthorityItem_id",
+    "ar" : "الصنف المرسل لمصلحة الضرائب",
+    "en" : "Tax Authority Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "taxPlan",
+    "column" : "taxPlan_id",
+    "ar" : " سياسة الضريبة",
+    "en" : " Tax Plan",
+    "type" : "Reference",
+    "refTo" : "TaxPlan",
+    "refPath" : "/modules/basic/TaxPlan.html"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "details",
+    "table" : "HMSMedServiceSuppliesLine",
+    "joinColumn" : "hMSMedicalService_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "fields" : [ {
+      "id" : "details.activeDoc",
+      "column" : "activeDoc",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.allowOverdraft",
+      "column" : "allowOverdraft",
+      "ar" : "السماح بالسحب على المكشوف",
+      "en" : "Allow Overdraft",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.attachment",
+      "column" : "attachment_id",
+      "ar" : "مرفق",
+      "en" : "Attachment",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "details.b1",
+      "column" : "b1",
+      "ar" : "Boolean 1",
+      "en" : "Boolean 1",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.b2",
+      "column" : "b2",
+      "ar" : "Boolean 2",
+      "en" : "Boolean 2",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.b3",
+      "column" : "b3",
+      "ar" : "Boolean 3",
+      "en" : "Boolean 3",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.calculationFormula",
+      "column" : "calculationFormula_id",
+      "ar" : " الصيغة الحسابية",
+      "en" : " Calculation Formula",
+      "type" : "Reference",
+      "refTo" : "CalculationFormula",
+      "refPath" : "/modules/supplychain/CalculationFormula.html"
+    }, {
+      "id" : "details.colorName",
+      "column" : "colorName",
+      "ar" : "اسم اللون",
+      "en" : "Color Name",
+      "type" : "Text"
+    }, {
+      "id" : "details.comp",
+      "column" : "comp_id",
+      "ar" : "صنف /مكون",
+      "en" : "Item/Component",
+      "type" : "Reference",
+      "refTo" : "AssemblyComponent",
+      "refPath" : "/modules/supplychain-assembly/AssemblyComponent.html"
+    }, {
+      "id" : "details.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "details.deleteOnSave",
+      "column" : "deleteOnSave",
+      "ar" : "مسح عند الحفظ",
+      "en" : "Delete On Save",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.documentId",
+      "column" : "documentId",
+      "type" : "ID"
+    }, {
+      "id" : "details.emptyWeight",
+      "column" : "emptyWeight",
+      "ar" : "وزن الفارغ",
+      "en" : "Empty Weight",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.expiryDate",
+      "column" : "expiryDate",
+      "ar" : "تواريخ الصلاحية | الإنتهاء",
+      "en" : "Date | Expiry",
+      "type" : "Date"
+    }, {
+      "id" : "details.freeItem",
+      "column" : "freeItem",
+      "ar" : "الصنف المجانى",
+      "en" : "Free Item",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.genericDimensions.analysisSet",
+      "column" : "analysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "details.genericDimensions.branch",
+      "column" : "branch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "details.genericDimensions.department",
+      "column" : "department_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "details.genericDimensions.legalEntity",
+      "column" : "legalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "details.genericDimensions.sector",
+      "column" : "sector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    }, {
+      "id" : "details.grossWeight",
+      "column" : "grossWeight",
+      "ar" : "الوزن القائم",
+      "en" : "Gross Weight",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.item.item",
+      "column" : "item_id",
+      "ar" : " الصنف",
+      "en" : " Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "details.item.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
+      "id" : "details.item.itemName1",
+      "column" : "itemName1",
+      "ar" : "اسم الصنف",
+      "en" : "Item Name",
+      "type" : "Text"
+    }, {
+      "id" : "details.item.itemName2",
+      "column" : "itemName2",
+      "ar" : "اسم الصنف الإنجليزي",
+      "en" : "Item English Name",
+      "type" : "Text"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.masterRowId",
+      "column" : "masterRowId",
+      "type" : "ID"
+    }, {
+      "id" : "details.medicalSpecialty",
+      "column" : "medicalSpecialty_id",
+      "ar" : "التخصص الطبي",
+      "en" : "Medical Specialty",
+      "type" : "Reference",
+      "refTo" : "HMSMedicalSpecialty",
+      "refPath" : "/modules/hms/HMSMedicalSpecialty.html"
+    }, {
+      "id" : "details.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.orginDoc",
+      "columns" : [ "orginDocActualCode", " orginDocCode", " orginDocEntityType", " orginDocId" ],
+      "ar" : "تم النسخ من سند",
+      "en" : "Copied From Doc",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.pickLineId",
+      "column" : "pickLineId",
+      "type" : "ID"
+    }, {
+      "id" : "details.price.additionalHourPrice",
+      "column" : "additionalHourPrice",
+      "ar" : "سعر الساعة الزيادة عن عدد ساعات العملية",
+      "en" : "Additional Hour Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.additionalHours",
+      "column" : "additionalHours",
+      "ar" : "عدد الساعات الزيادة",
+      "en" : "Number Of Additional Hours",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.costPercentage",
+      "column" : "costPercentage",
+      "ar" : "% التكلفة",
+      "en" : "Cost Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.costValue",
+      "column" : "costValue",
+      "ar" : "قيمة التكلفة",
+      "en" : "Cost Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.currency",
+      "column" : "currency_id",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "details.price.currencyRate",
+      "column" : "currencyRate",
+      "ar" : "المعدل",
+      "en" : "Currency Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.discount1.maxValue",
+      "column" : "dis1MaxValue",
+      "ar" : "خصم 1 | أقصى قيمة",
+      "en" : "Discount 1 | Max Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.discount1.percentage",
+      "column" : "dis1Percentage",
+      "ar" : "خصم 1 | %",
+      "en" : "Discount 1 | %",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.discount1.value",
+      "column" : "dis1Value",
+      "ar" : "خصم 1 | قيمة",
+      "en" : "Discount 1 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.discount2.maxValue",
+      "column" : "dis2MaxValue",
+      "ar" : "خصم 2 | أقصى قيمة",
+      "en" : "Discount 2 | Max Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.discount2.percentage",
+      "column" : "dis2Percentage",
+      "ar" : "خصم 2 | %",
+      "en" : "Discount 2 | %",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.discount2.value",
+      "column" : "dis2Value",
+      "ar" : "خصم 2 | قيمة",
+      "en" : "Discount 2 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.insurancMxValFromAdmision",
+      "column" : "insurancMxValFromAdmision",
+      "ar" : "أقصى قيمة للتأمين من سند إستمارة الدخول",
+      "en" : "Insurance Max Value From Admission",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.insurancMxValFromApproval",
+      "column" : "insurancMxValFromApproval",
+      "ar" : "أقصى قيمة للتأمين من سند الموافقة",
+      "en" : "Insurance Max Value From Approval",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.insurancePercentage",
+      "column" : "insurancePercentage",
+      "ar" : "التأمين | %",
+      "en" : "Insurance | Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.insuranceTax1",
+      "column" : "insuranceTax1",
+      "ar" : "التأمين | قيمة ضريبة 1",
+      "en" : "Insurance Tax1 Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.insuranceTax2",
+      "column" : "insuranceTax2",
+      "ar" : "التأمين | قيمة ضريبة 2",
+      "en" : "Insurance Tax1 Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.insuranceValue",
+      "column" : "insuranceValue",
+      "ar" : "التأمين | قيمة التأمين",
+      "en" : "Insurance Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.netValue",
+      "column" : "netValue",
+      "ar" : "الصافي",
+      "en" : "Net value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.patientPercentage",
+      "column" : "patientPercentage",
+      "ar" : "المريض | %",
+      "en" : "Patient | %",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.patientTax1",
+      "column" : "patientTax1",
+      "ar" : "المريض | قيمة ضريبة 1",
+      "en" : "Patient Tax1 Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.patientTax2",
+      "column" : "patientTax2",
+      "ar" : "المريض | قيمة ضريبة 2",
+      "en" : "Patient Tax2 Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.patientValue",
+      "column" : "patientValue",
+      "ar" : "المريض | قيمة",
+      "en" : "Patient | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.price",
+      "column" : "price",
+      "ar" : "الأسعار | السعر الكلي",
+      "en" : "Prices | total price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.priceAfterTax",
+      "column" : "priceAfterTax",
+      "ar" : "السعر بعد الضريبة",
+      "en" : "Price After Tax",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.priceBeforeTax",
+      "column" : "priceBeforeTax",
+      "ar" : "السعر قبل الضريبة",
+      "en" : "Price Before Tax",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.standardHours",
+      "column" : "standardHours",
+      "ar" : "عدد الساعات القياسي",
+      "en" : "Standard Hours Number",
+      "type" : "Time"
+    }, {
+      "id" : "details.price.standardSurgeryPrice",
+      "column" : "standardSurgeryPrice",
+      "ar" : "سعر العملية القياسي",
+      "en" : "Standard Surgery Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.subsidiary1Percentage",
+      "column" : "subsidiary1Percentage",
+      "ar" : "تكلفة الذمة 1 | نسبة",
+      "en" : "Subsidiary 1 Cost | Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.subsidiary1Value",
+      "column" : "subsidiary1Value",
+      "ar" : "تكلفة الذمة 1 | قيمة",
+      "en" : "Subsidiary 1 Cost | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.subsidiary2Percentage",
+      "column" : "subsidiary2Percentage",
+      "ar" : "تكلفة الذمة 2 | نسبة",
+      "en" : "Subsidiary 2 Cost | Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.subsidiary2Value",
+      "column" : "subsidiary2Value",
+      "ar" : "تكلفة الذمة 2 | قيمة",
+      "en" : "Subsidiary 2 Cost | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.subsidiaryPercentage",
+      "column" : "subsidiaryPercentage",
+      "ar" : "تكلفة الذمة | نسبة",
+      "en" : "Subsidiary Cost | Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.subsidiaryValue",
+      "column" : "subsidiaryValue",
+      "ar" : "تكلفة الذمة | قيمة",
+      "en" : "Subsidiary Cost | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.tax1.maxValue",
+      "column" : "tax1MaxValue",
+      "ar" : "أقصي قيمة",
+      "en" : "Maximum Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.tax1.percentage",
+      "column" : "tax1Percentage",
+      "ar" : "قيمة إضافية 1",
+      "en" : "Tax 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.tax1.value",
+      "column" : "tax1Value",
+      "ar" : "ضريبة مبيعات | القيمة",
+      "en" : "Tax value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.tax2.maxValue",
+      "column" : "tax2MaxValue",
+      "ar" : "أقصي قيمة",
+      "en" : "Maximum Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.tax2.percentage",
+      "column" : "tax2Percentage",
+      "ar" : "قيمة إضافية 2",
+      "en" : "Tax 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.tax2.value",
+      "column" : "tax2Value",
+      "ar" : "ضريبة مبيعات 2 | القيمة",
+      "en" : "Tax 2 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.totalInsuranceDueAmount",
+      "column" : "totalInsuranceDueAmount",
+      "ar" : "القيمة المستحقة من التأمين",
+      "en" : "Total Insurance Due Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.totalPatientDueAmount",
+      "column" : "totalPatientDueAmount",
+      "ar" : "القيمة المستحقة من المريض",
+      "en" : "Total Patient Due Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.price.unitPrice",
+      "column" : "unitPrice",
+      "ar" : "سعر الوحدة",
+      "en" : "Prices | Unit price",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.priceClassifier1",
+      "column" : "priceClassifier1_id",
+      "ar" : "محدد سعر 1",
+      "en" : "Price Classifier 1",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier1",
+      "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+    }, {
+      "id" : "details.priceClassifier2",
+      "column" : "priceClassifier2_id",
+      "ar" : "محدد سعر 2",
+      "en" : "Price Classifier 2",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier2",
+      "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+    }, {
+      "id" : "details.priceClassifier3",
+      "column" : "priceClassifier3_id",
+      "ar" : "محدد سعر 3",
+      "en" : "Price Classifier 3",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier3",
+      "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+    }, {
+      "id" : "details.priceClassifier4",
+      "column" : "priceClassifier4_id",
+      "ar" : "محدد سعر 4",
+      "en" : "Price Classifier 4",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier4",
+      "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+    }, {
+      "id" : "details.priceClassifier5",
+      "column" : "priceClassifier5_id",
+      "ar" : "محدد سعر 5",
+      "en" : "Price Classifier 5",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier5",
+      "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+    }, {
+      "id" : "details.pricingQty",
+      "column" : "pricingQty",
+      "ar" : "كمية التسعير",
+      "en" : "Pricing Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.productionDate",
+      "column" : "productionDate",
+      "ar" : "تواريخ الصلاحية | الإنتاج",
+      "en" : "Date | Production",
+      "type" : "Date"
+    }, {
+      "id" : "details.qtyAtInsert",
+      "column" : "qtyAtInsert",
+      "ar" : "الكمية عند الإنشاء",
+      "en" : "Qty At Insert",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.qtyAtInsertWithReserv",
+      "column" : "qtyAtInsertWithReserv",
+      "ar" : "الكمية عند الإنشاء مع الحجز",
+      "en" : "Qty At Insert With Reserv",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.baseQty.uom",
+      "column" : "quantityBaseUom_id",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.quantity.baseQty.value",
+      "column" : "quantityBaseValue",
+      "ar" : "الكمية",
+      "en" : "Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.itemAssortment",
+      "column" : "quantityItemAssortment_id",
+      "ar" : "التشكيلة",
+      "en" : "The Assortment",
+      "type" : "Reference",
+      "refTo" : "ItemAssortment",
+      "refPath" : "/modules/supplychain/ItemAssortment.html"
+    }, {
+      "id" : "details.quantity.measureQty",
+      "column" : "quantityMeasureQty",
+      "ar" : "الأبعاد | عدد",
+      "en" : "Measures | Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.measures.clippedLength1",
+      "column" : "quantityClippedLength1",
+      "ar" : "أبعادالجزء المقصوص 1 | الطول",
+      "en" : "Clipped Part1 Measures | Length",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.measures.height",
+      "column" : "quantityHeight",
+      "ar" : "الأبعاد | ر",
+      "en" : "Measures | H",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.measures.length",
+      "column" : "quantityLength",
+      "ar" : "الأبعاد | ط",
+      "en" : "Measures | L",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.measures.text",
+      "column" : "quantityText",
+      "ar" : "الأبعاد | الأبعاد",
+      "en" : "Measures | L * W * H",
+      "type" : "Measures"
+    }, {
+      "id" : "details.quantity.measures.width",
+      "column" : "quantityWidth",
+      "ar" : "الأبعاد | ع",
+      "en" : "Measures | W",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.quantity.primeQty.uom",
+      "column" : "quantityPUom_id",
+      "ar" : "كمية الصنف | وحدة",
+      "en" : "Item Quantity | UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.quantity.quantity.primeQty.value",
+      "column" : "quantityPValue",
+      "ar" : "كمية الصنف | قيمة",
+      "en" : "Item Quantity | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.quantity.secondQty.uom",
+      "column" : "quantitySUom_id",
+      "ar" : "الوحدة الثانية | الوحدة",
+      "en" : "Secondary | UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "details.quantity.quantity.secondQty.value",
+      "column" : "quantitySValue",
+      "ar" : "الوحدة الثانية | الكمية",
+      "en" : "Secondary | Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.quantity.uomRate",
+      "column" : "quantityUomRate",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.remaining",
+      "column" : "remaining",
+      "ar" : "المتبقي",
+      "en" : "Remaining",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.remarks",
+      "column" : "remarks",
+      "ar" : " ملاحظات",
+      "en" : " Description",
+      "type" : "BigText"
+    }, {
+      "id" : "details.reserveLineId",
+      "column" : "reserveLineId",
+      "type" : "ID"
+    }, {
+      "id" : "details.retFromSeq",
+      "column" : "retFromSeq",
+      "type" : "Long"
+    }, {
+      "id" : "details.retestDate",
+      "column" : "retestDate",
+      "ar" : "تاريخ إعادة الاختبار",
+      "en" : "retest Date",
+      "type" : "Date"
+    }, {
+      "id" : "details.retunLine",
+      "column" : "retunLine",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.returnedQty",
+      "column" : "returnedQty",
+      "ar" : "المرتجع",
+      "en" : "Return Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.revisionName",
+      "column" : "revisionName",
+      "ar" : "اسم الإصدار",
+      "en" : "Revision Name",
+      "type" : "Text"
+    }, {
+      "id" : "details.satisfiedQty",
+      "column" : "satisfiedQty",
+      "ar" : "نفذت",
+      "en" : "Satisfied Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.satisfiedQty2",
+      "column" : "satisfiedQty2",
+      "ar" : "نفذت 2",
+      "en" : "Satisfied Qty 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.sizeName",
+      "column" : "sizeName",
+      "ar" : "اسم المقاس",
+      "en" : "Size Name",
+      "type" : "Text"
+    }, {
+      "id" : "details.sourceLineId",
+      "column" : "sourceLineId",
+      "ar" : "معرف سطر المصدر",
+      "en" : "Source Line Id",
+      "type" : "ID"
+    }, {
+      "id" : "details.sourceType",
+      "column" : "sourceType",
+      "ar" : "Source Type",
+      "en" : "Source Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "details.specificDimensions.activePerc",
+      "column" : "activePerc",
+      "ar" : "النسبة الفعالة",
+      "en" : "Active Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "details.specificDimensions.box",
+      "column" : "box",
+      "ar" : "صندوق",
+      "en" : "Box",
+      "type" : "Text"
+    }, {
+      "id" : "details.specificDimensions.color",
+      "column" : "color",
+      "ar" : "اللون",
+      "en" : "Color",
+      "type" : "Color"
+    }, {
+      "id" : "details.specificDimensions.inactivePerc",
+      "column" : "inactivePerc",
+      "ar" : "النسبة الغير فعالة",
+      "en" : "Inactive Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "details.specificDimensions.locator",
+      "column" : "locator_id",
+      "ar" : "الموقع",
+      "en" : "Locator",
+      "type" : "Reference",
+      "refTo" : "Locator",
+      "refPath" : "/modules/supplychain/Locator.html"
+    }, {
+      "id" : "details.specificDimensions.lotId",
+      "column" : "lotId",
+      "ar" : "رقم الشحنه",
+      "en" : "Lot ID",
+      "type" : "Text"
+    }, {
+      "id" : "details.specificDimensions.measures",
+      "column" : "measures",
+      "ar" : "الأبعاد",
+      "en" : "Measures",
+      "type" : "Measures"
+    }, {
+      "id" : "details.specificDimensions.revisionId",
+      "column" : "revisionId",
+      "ar" : "الإصدار",
+      "en" : "Revision ID",
+      "type" : "Text"
+    }, {
+      "id" : "details.specificDimensions.secondSerial",
+      "column" : "secondSerial",
+      "ar" : "الرقم المسلسل الثاني",
+      "en" : "Second Serial",
+      "type" : "BigText"
+    }, {
+      "id" : "details.specificDimensions.serialNumber",
+      "column" : "serialNumber",
+      "ar" : "الرقم المسلسل",
+      "en" : "Serial number",
+      "type" : "BigText"
+    }, {
+      "id" : "details.specificDimensions.size",
+      "column" : "size",
+      "ar" : "المقاس",
+      "en" : "Size",
+      "type" : "Text"
+    }, {
+      "id" : "details.specificDimensions.subItem",
+      "column" : "subItem_id",
+      "ar" : " السياره",
+      "en" : " Customer Car",
+      "type" : "Reference",
+      "refTo" : "SubItem",
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+    }, {
+      "id" : "details.specificDimensions.warehouse",
+      "column" : "warehouse_id",
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "details.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "details.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "details.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "details.theSize",
+      "column" : "size",
+      "type" : "Text"
+    }, {
+      "id" : "details.transItemType",
+      "column" : "transItemType",
+      "ar" : "نوع السطر",
+      "en" : "Line Type",
+      "type" : "Enum",
+      "enum" : "TransLineItemType"
+    }, {
+      "id" : "details.unsatisfiedQty",
+      "column" : "unsatisfiedQty",
+      "ar" : "الكمية الغير مستلمة",
+      "en" : "Unsatisfied Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.unsatisfiedQty2",
+      "column" : "unsatisfiedQty2",
+      "ar" : "الكمية الغير مستلمة 2",
+      "en" : "Unsatisfied Quantity 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.userSatisfiedQty",
+      "column" : "userSatisfiedQty",
+      "ar" : "الكمية المسلمة يدويا",
+      "en" : "Manually Satisfied Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.userSatisfiedQty2",
+      "column" : "userSatisfiedQty2",
+      "ar" : "الكمية المسلمة يدويا 2",
+      "en" : "Manually Satisfied Qty 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.valueDate",
+      "column" : "valueDate",
+      "ar" : "التاريخ الفعلي",
+      "en" : "Value Date",
+      "type" : "Date"
+    }, {
+      "id" : "details.warrantyCode",
+      "column" : "warrantyCode",
+      "ar" : "كود الضمان",
+      "en" : "Warranty Code",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "servicePriceLines",
+    "table" : "HMSMedicalServicePriceLine",
+    "joinColumn" : "hMSMedicalService_id",
+    "ar" : "أسعار نوع الخدمة في القوائم",
+    "en" : "Service Price in Lists",
+    "fields" : [ {
+      "id" : "servicePriceLines.addToPriceList",
+      "column" : "addToPriceList_id",
+      "ar" : "إضافة الي قائمة أسعار",
+      "en" : "Add To Sales Price List",
+      "type" : "Reference",
+      "refTo" : "HMSSalesPriceList",
+      "refPath" : "/modules/hms/HMSSalesPriceList.html"
+    }, {
+      "id" : "servicePriceLines.companyEndurancePercent",
+      "column" : "companyEndurancePercent",
+      "ar" : "نسبة تحمل الشركة",
+      "en" : "Company Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "servicePriceLines.hmsDocCategory",
+      "column" : "hmsDocCategory_id",
+      "ar" : "تصنيف طبى للمستند",
+      "en" : "Medical Document Category",
+      "type" : "Reference",
+      "refTo" : "HMSDocumentCategory",
+      "refPath" : "/modules/hms/HMSDocumentCategory.html"
+    }, {
+      "id" : "servicePriceLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "servicePriceLines.insuranceClass",
+      "column" : "insuranceClass_id",
+      "ar" : "فئة التأمين",
+      "en" : "Insurance Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceClass",
+      "refPath" : "/modules/hms/HMSInsuranceClass.html"
+    }, {
+      "id" : "servicePriceLines.insuranceCompanyClass",
+      "column" : "insuranceCompanyClass_id",
+      "ar" : "فئة شركة تأمين طبى",
+      "en" : "Medical Insurance Company Class",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompanyClass",
+      "refPath" : "/modules/hms/HMSInsuranceCompanyClass.html"
+    }, {
+      "id" : "servicePriceLines.insuranceMaxValFromAdmission",
+      "column" : "insuranceMaxValFromAdmission",
+      "ar" : "أقصى قيمة للتأمين من سند إستمارة الدخول",
+      "en" : "Insurance Max Value From Admission",
+      "type" : "Decimal"
+    }, {
+      "id" : "servicePriceLines.insuranceMaxValFromApproval",
+      "column" : "insuranceMaxValFromApproval",
+      "ar" : "أقصى قيمة للتأمين من سند الموافقة",
+      "en" : "Insurance Max Value From Approval",
+      "type" : "Decimal"
+    }, {
+      "id" : "servicePriceLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "servicePriceLines.medicalInsuranceCompany",
+      "column" : "medicalInsuranceCompany_id",
+      "ar" : "شركة التأمين الطبى",
+      "en" : "Medical Insurance Company",
+      "type" : "Reference",
+      "refTo" : "HMSInsuranceCompany",
+      "refPath" : "/modules/hms/HMSInsuranceCompany.html"
+    }, {
+      "id" : "servicePriceLines.patient",
+      "column" : "patient_id",
+      "ar" : "المريض",
+      "en" : "Patient",
+      "type" : "Reference",
+      "refTo" : "HMSPatient",
+      "refPath" : "/modules/hms/HMSPatient.html"
+    }, {
+      "id" : "servicePriceLines.patientAdmission",
+      "column" : "patientAdmission_id",
+      "ar" : "إستمارة دخول المريض",
+      "en" : "Patient Admission",
+      "type" : "Reference",
+      "refTo" : "HMSPatientAdmission",
+      "refPath" : "/modules/hms/HMSPatientAdmission.html"
+    }, {
+      "id" : "servicePriceLines.patientClass",
+      "column" : "patientClass_id",
+      "ar" : "فئة المريض",
+      "en" : "Patient Classification",
+      "type" : "Reference",
+      "refTo" : "HMSPatientClass",
+      "refPath" : "/modules/hms/HMSPatientClass.html"
+    }, {
+      "id" : "servicePriceLines.patientEndurancePercent",
+      "column" : "patientEndurancePercent",
+      "ar" : "نسبة تحمل المريض",
+      "en" : "Patient Endurance Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "servicePriceLines.price",
+      "column" : "price",
+      "ar" : "السعر",
+      "en" : "Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "servicePriceLines.priceClassifier1",
+      "column" : "priceClassifier1_id",
+      "ar" : "محدد سعر 1",
+      "en" : "Price Classifier 1",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier1",
+      "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+    }, {
+      "id" : "servicePriceLines.priceClassifier2",
+      "column" : "priceClassifier2_id",
+      "ar" : "محدد سعر 2",
+      "en" : "Price Classifier 2",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier2",
+      "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+    }, {
+      "id" : "servicePriceLines.priceClassifier3",
+      "column" : "priceClassifier3_id",
+      "ar" : "محدد سعر 3",
+      "en" : "Price Classifier 3",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier3",
+      "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+    }, {
+      "id" : "servicePriceLines.priceClassifier4",
+      "column" : "priceClassifier4_id",
+      "ar" : "محدد سعر 4",
+      "en" : "Price Classifier 4",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier4",
+      "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+    }, {
+      "id" : "servicePriceLines.priceClassifier5",
+      "column" : "priceClassifier5_id",
+      "ar" : "محدد سعر 5",
+      "en" : "Price Classifier 5",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier5",
+      "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+    }, {
+      "id" : "servicePriceLines.pricingData.docDegree",
+      "column" : "docDegree",
+      "ar" : "الدرجة",
+      "en" : "Degree",
+      "type" : "Enum",
+      "enum" : "HMSDocDegree"
+    }, {
+      "id" : "servicePriceLines.pricingData.doctor",
+      "column" : "doctor_id",
+      "ar" : "الطبيب",
+      "en" : "Doctor",
+      "type" : "Reference",
+      "refTo" : "HMSDoctor",
+      "refPath" : "/modules/hms/HMSDoctor.html"
+    }, {
+      "id" : "servicePriceLines.pricingData.medicalService",
+      "column" : "medicalService_id",
+      "ar" : "الخدمة الطبية",
+      "en" : "Medical Service",
+      "type" : "Reference",
+      "refTo" : "HMSMedicalService",
+      "refPath" : "/modules/hms/HMSMedicalService.html"
+    }, {
+      "id" : "servicePriceLines.pricingData.medicalSpecialty",
+      "column" : "medicalSpecialty_id",
+      "ar" : "التخصص الطبي",
+      "en" : "Medical Specialty",
+      "type" : "Reference",
+      "refTo" : "HMSMedicalSpecialty",
+      "refPath" : "/modules/hms/HMSMedicalSpecialty.html"
+    }, {
+      "id" : "servicePriceLines.priority",
+      "column" : "priority",
+      "ar" : "الأولوية",
+      "en" : "Priority",
+      "type" : "Long"
+    }, {
+      "id" : "servicePriceLines.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "servicePriceLines.surgeryClassification",
+      "column" : "surgeryClassification_id",
+      "ar" : "تصنيف العملية",
+      "en" : "Surgery Classification",
+      "type" : "Reference",
+      "refTo" : "HMSSurgeryClassification",
+      "refPath" : "/modules/hms/HMSSurgeryClassification.html"
+    }, {
+      "id" : "servicePriceLines.validFrom",
+      "column" : "validFrom",
+      "ar" : "صالح من",
+      "en" : "Valid from",
+      "type" : "Date"
+    }, {
+      "id" : "servicePriceLines.validTo",
+      "column" : "validTo",
+      "ar" : "صالح حتي",
+      "en" : "Valid to",
+      "type" : "Date"
+    } ]
+  } ]
+}

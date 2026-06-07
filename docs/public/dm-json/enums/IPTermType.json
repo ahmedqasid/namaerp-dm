@@ -1,0 +1,12 @@
+{
+  "enum" : "IPTermType",
+  "values" : [ {
+    "id" : "InValue",
+    "ar" : "إيرادات",
+    "en" : "InValue"
+  }, {
+    "id" : "OutValue",
+    "ar" : "إلتزامات",
+    "en" : "OutValue"
+  } ]
+}

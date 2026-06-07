@@ -1,0 +1,16 @@
+{
+  "enum" : "MFGMoldType",
+  "values" : [ {
+    "id" : "PrintingMold",
+    "ar" : "قالب طباعة (سريلة)",
+    "en" : "Printing Mold"
+  }, {
+    "id" : "CreaseMold",
+    "ar" : "قالب طيات (فورم)",
+    "en" : "Crease Mold"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  } ]
+}

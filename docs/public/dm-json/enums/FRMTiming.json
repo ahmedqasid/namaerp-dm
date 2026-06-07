@@ -1,0 +1,12 @@
+{
+  "enum" : "FRMTiming",
+  "values" : [ {
+    "id" : "AM",
+    "ar" : "صباحاً",
+    "en" : "AM"
+  }, {
+    "id" : "PM",
+    "ar" : "مساءاً",
+    "en" : "PM"
+  } ]
+}

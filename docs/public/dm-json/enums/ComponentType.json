@@ -1,0 +1,48 @@
+{
+  "enum" : "ComponentType",
+  "values" : [ {
+    "id" : "LoginUser",
+    "ar" : "اسم المستخدم",
+    "en" : "User Name"
+  }, {
+    "id" : "PageNumber",
+    "ar" : "رقم الصفحة",
+    "en" : "Page Number"
+  }, {
+    "id" : "DateAndTime",
+    "ar" : "الوقت والتاريخ",
+    "en" : "Date And Time"
+  }, {
+    "id" : "Logo",
+    "ar" : "الشعار",
+    "en" : "Logo"
+  }, {
+    "id" : "ReportTitle",
+    "ar" : "عنوان التقرير",
+    "en" : "Report Title"
+  }, {
+    "id" : "LoginLegalEntity",
+    "ar" : "شركة الدخول",
+    "en" : "Login Legal Entity"
+  }, {
+    "id" : "LoginBranch",
+    "ar" : "فرع الدخول",
+    "en" : "Login Branch"
+  }, {
+    "id" : "LoginAnalysisSet",
+    "ar" : "المجموعة التحليلية للدخول",
+    "en" : "Login Analysis Set"
+  }, {
+    "id" : "LoginDepartment",
+    "ar" : "قسم الدخول",
+    "en" : "Login Department"
+  }, {
+    "id" : "LoginSector",
+    "ar" : "قطاع الدخول",
+    "en" : "Login Sector"
+  }, {
+    "id" : "Custom",
+    "ar" : "مخصص",
+    "en" : "Custom"
+  } ]
+}

@@ -1,0 +1,63 @@
+{
+  "enum" : "PartyType",
+  "values" : [ {
+    "id" : "Clearance",
+    "ar" : "تخليص جمركى",
+    "en" : "Clearance Company"
+  }, {
+    "id" : "Insurance",
+    "ar" : "تأمين",
+    "en" : "Insurance"
+  }, {
+    "id" : "ShippingCompany",
+    "ar" : "شركة شحن",
+    "en" : "Shipping"
+  }, {
+    "id" : "Competitors",
+    "ar" : "منافسين",
+    "en" : "Competitors"
+  }, {
+    "id" : "Government",
+    "ar" : "جهة حكومية",
+    "en" : "Government"
+  }, {
+    "id" : "TrainingInstitute",
+    "ar" : "جهة تدريب",
+    "en" : "Training Institute"
+  }, {
+    "id" : "Debtor",
+    "ar" : "مدين",
+    "en" : "Debtor"
+  }, {
+    "id" : "CarOwner",
+    "ar" : "مالك سيارة"
+  }, {
+    "id" : "Creditor",
+    "ar" : "دائن",
+    "en" : "Creditor"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  }, {
+    "id" : "MarinAgent",
+    "ar" : "وكيل ملاحي",
+    "en" : "Marin Agent"
+  }, {
+    "id" : "InspectionAgent",
+    "ar" : "جهة فحص",
+    "en" : "Inspection Agent"
+  }, {
+    "id" : "StevedoringAgent",
+    "ar" : "جهة شحن و تفريغ",
+    "en" : "Stevedoring Agent"
+  } ]
+}

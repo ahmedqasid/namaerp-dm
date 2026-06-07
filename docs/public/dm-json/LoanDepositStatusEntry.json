@@ -1,0 +1,51 @@
+{
+  "entity" : "LoanDepositStatusEntry",
+  "table" : "LoanDepositStatusEntry",
+  "module" : "system-tables",
+  "ar" : "حركات حالة الوديعة أو القرض",
+  "en" : "Loan Deposit Status Entries",
+  "page" : "https://dm.namasoft.com/modules/system-tables/LoanDepositStatusEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "fromState",
+    "column" : "fromState",
+    "ar" : " من حالة",
+    "en" : " From Status",
+    "type" : "Enum",
+    "enum" : "FixedDepositState"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "loanOrDeposit",
+    "columns" : [ "loanOrDepositActualCode", " loanOrDepositCode", " loanOrDepositEntityType", " loanOrDepositId" ],
+    "ar" : " قرض أو وديعه بنكيه",
+    "en" : " Loan Or Deposit",
+    "type" : "Genericreference"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "toState",
+    "column" : "toState",
+    "ar" : " إلى حالة",
+    "en" : " To Status",
+    "type" : "Enum",
+    "enum" : "FixedDepositState"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

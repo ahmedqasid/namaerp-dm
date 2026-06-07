@@ -1,0 +1,24 @@
+{
+  "enum" : "EvaluationType",
+  "values" : [ {
+    "id" : "Upper",
+    "ar" : "رؤساء",
+    "en" : "Upper"
+  }, {
+    "id" : "Lower",
+    "ar" : "مرؤسيين",
+    "en" : "Lower"
+  }, {
+    "id" : "Peer",
+    "ar" : "زملاء",
+    "en" : "Peer"
+  }, {
+    "id" : "Self",
+    "ar" : "ذاتي",
+    "en" : "Self"
+  }, {
+    "id" : "External",
+    "ar" : "جهة من الخارج",
+    "en" : "External"
+  } ]
+}

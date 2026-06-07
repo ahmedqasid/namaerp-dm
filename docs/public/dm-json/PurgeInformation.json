@@ -1,0 +1,38 @@
+{
+  "entity" : "PurgeInformation",
+  "table" : "PurgeInformation",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/PurgeInformation.html",
+  "fields" : [ {
+    "id" : "completedOn",
+    "column" : "completedOn",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "purgeConfig",
+    "columns" : [ "purgeConfigActualCode", " purgeConfigCode", " purgeConfigEntityType", " purgeConfigId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "purgeInfoType",
+    "column" : "purgeInfoType",
+    "type" : "Enum",
+    "enum" : "PurgeInfoType"
+  } ]
+}

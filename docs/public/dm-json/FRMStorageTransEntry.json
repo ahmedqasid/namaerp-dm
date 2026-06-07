@@ -1,0 +1,65 @@
+{
+  "entity" : "FRMStorageTransEntry",
+  "table" : "FRMStorageTransEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/FRMStorageTransEntry.html",
+  "fields" : [ {
+    "id" : "capacity",
+    "column" : "capacity",
+    "ar" : "السعة",
+    "en" : "Capacity",
+    "type" : "Decimal"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentLocation",
+    "column" : "currentLocation",
+    "type" : "Boolean"
+  }, {
+    "id" : "firstEntryDate",
+    "column" : "firstEntryDate",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "location",
+    "column" : "location_id",
+    "ar" : "الموقع المخزني",
+    "en" : "Location",
+    "type" : "Reference",
+    "refTo" : "FRMLocation",
+    "refPath" : "/modules/frm/FRMLocation.html"
+  }, {
+    "id" : "mailItemId",
+    "column" : "mailItemId",
+    "ar" : "رقم المادة",
+    "en" : "Mail Item Id",
+    "type" : "Text"
+  }, {
+    "id" : "operationOrder",
+    "column" : "operationOrder_id",
+    "ar" : "أمر التشغيل",
+    "en" : "Operation Order",
+    "type" : "Reference",
+    "refTo" : "FRMOperationOrder",
+    "refPath" : "/modules/frm/FRMOperationOrder.html"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

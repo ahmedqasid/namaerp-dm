@@ -1,0 +1,12 @@
+{
+  "enum" : "HMSOtherSurgeryDiscountValue",
+  "values" : [ {
+    "id" : "Discount1",
+    "ar" : " خصم 1",
+    "en" : " Discount 1"
+  }, {
+    "id" : "Discount2",
+    "ar" : " خصم 2",
+    "en" : " Discount 2"
+  } ]
+}

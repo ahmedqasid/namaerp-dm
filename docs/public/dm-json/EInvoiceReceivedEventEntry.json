@@ -1,0 +1,69 @@
+{
+  "entity" : "EInvoiceReceivedEventEntry",
+  "table" : "EInvoiceReceivedEventEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EInvoiceReceivedEventEntry.html",
+  "fields" : [ {
+    "id" : "apiKey",
+    "column" : "apiKey",
+    "ar" : "API Key",
+    "en" : "API Key",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "documentCode",
+    "column" : "documentCode",
+    "ar" : "رقم المستند",
+    "en" : "Document Code",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "notificationId",
+    "column" : "notificationId",
+    "ar" : "Notification ID",
+    "en" : "Notification ID",
+    "type" : "Text"
+  }, {
+    "id" : "receiverId",
+    "column" : "receiverId",
+    "type" : "ID"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Text"
+  }, {
+    "id" : "submissionUUID",
+    "column" : "submissionUUID",
+    "ar" : "معرف مرحلة الارسال",
+    "en" : "Submission ID",
+    "type" : "Text"
+  }, {
+    "id" : "taxAuthUUID",
+    "column" : "taxAuthUUID",
+    "ar" : "معرف المستند داخل مصلحة الضرائب",
+    "en" : "Tax Authority Document View ID",
+    "type" : "Text"
+  }, {
+    "id" : "temporaryId",
+    "column" : "temporaryId",
+    "ar" : "معرف لمطالعة المستند بدون تسجيل دخول",
+    "en" : "Tax Authority Not Registered Person Document View ID",
+    "type" : "Text"
+  }, {
+    "id" : "type",
+    "column" : "type",
+    "ar" : "النوع",
+    "en" : "Type",
+    "type" : "Text"
+  } ]
+}

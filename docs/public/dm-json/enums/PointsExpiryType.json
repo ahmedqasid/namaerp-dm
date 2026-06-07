@@ -1,0 +1,16 @@
+{
+  "enum" : "PointsExpiryType",
+  "values" : [ {
+    "id" : "Opened",
+    "ar" : "مفتوح",
+    "en" : "Opened"
+  }, {
+    "id" : "Period",
+    "ar" : "فترة",
+    "en" : "Period"
+  }, {
+    "id" : "SpecficDate",
+    "ar" : "تاريخ محدد",
+    "en" : "Specific Date"
+  } ]
+}

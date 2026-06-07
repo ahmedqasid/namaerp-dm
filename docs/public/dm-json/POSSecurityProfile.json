@@ -1,0 +1,915 @@
+{
+  "entity" : "POSSecurityProfile",
+  "table" : "POSSecurityProfile",
+  "module" : "namapos",
+  "ar" : "صلاحيات نقاط البيع",
+  "arPlural" : "صلاحيات نقاط البيع",
+  "en" : "POS Security Profile",
+  "enPlural" : "POS Security Profiles",
+  "page" : "https://dm.namasoft.com/modules/namapos/POSSecurityProfile.html",
+  "fields" : [ {
+    "id" : "allCapabilities",
+    "column" : "allCapabilities",
+    "ar" : "كل الصلاحيات",
+    "en" : "All Capabilities",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowHideOffersDialog",
+    "column" : "allowHideOffersDialog",
+    "ar" : "السماح بإخفاء Dialog العروض",
+    "en" : "Allow Hide Offers Dialog",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowSalesmanUpdate",
+    "column" : "allowSalesmanUpdate",
+    "ar" : "السماح بتعديل المندوب في الفاتورة التي تم صدورها بالفعل",
+    "en" : "Allow Salesman Update",
+    "type" : "Boolean"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "canAddCustomer",
+    "column" : "canAddCustomer",
+    "ar" : "إمكانية إضافة عميل",
+    "en" : "Can Add Customer",
+    "type" : "Boolean"
+  }, {
+    "id" : "canCancelInvoiceBeforeSave",
+    "column" : "canCancelInvoiceBeforeSave",
+    "ar" : "إمكانية إلغاء فاتورة قبل الحفظ",
+    "en" : "Can Cancel Invoice Before Save",
+    "type" : "Boolean"
+  }, {
+    "id" : "canCancelSalesLine",
+    "column" : "canCancelSalesLine",
+    "ar" : "إمكانية حذف سطر المبيعات",
+    "en" : "Can Delete Sales Line",
+    "type" : "Boolean"
+  }, {
+    "id" : "canCancelTaxes",
+    "column" : "canCancelTaxes",
+    "ar" : "إمكانية إلغاء الضرائب",
+    "en" : "Can Cancel Taxes",
+    "type" : "Boolean"
+  }, {
+    "id" : "canCloseAnotherUserShift",
+    "column" : "canCloseAnotherUserShift",
+    "ar" : "إمكانية غلق وردية مستخدم آخر",
+    "en" : "Can Close Another User Shift",
+    "type" : "Boolean"
+  }, {
+    "id" : "canDelayInvoicePayment",
+    "column" : "canDelayInvoicePayment",
+    "ar" : "إمكانية تأجيل دفع الفاتوره",
+    "en" : "Can Delay Invoice Payment",
+    "type" : "Boolean"
+  }, {
+    "id" : "canDeleteHeldInvoices",
+    "column" : "canDeleteHeldInvoices",
+    "ar" : "إمكانية حذف الفواتير المعلقة",
+    "en" : "Can Delete Held Invoices",
+    "type" : "Boolean"
+  }, {
+    "id" : "canDepreciateSalesLine",
+    "column" : "canDepreciateSalesLine",
+    "ar" : "إمكانية تحويل سطر إلى هالك",
+    "en" : "Can Depreciate Sales Line",
+    "type" : "Boolean"
+  }, {
+    "id" : "canEditCustomer",
+    "column" : "canEditCustomer",
+    "ar" : "إمكانية تعديل العميل",
+    "en" : "Can Edit Customer",
+    "type" : "Boolean"
+  }, {
+    "id" : "canEditDeliveryCost",
+    "column" : "canEditDeliveryCost",
+    "ar" : "إمكانية تعديل تكلفة خدمة التوصيل",
+    "en" : "Can Edit Delivery Cost",
+    "type" : "Boolean"
+  }, {
+    "id" : "canEditInvoiceClassification",
+    "column" : "canEditInvoiceClassification",
+    "ar" : "إمكانية تعديل تصنيف الفاتورة",
+    "en" : "Can Edit Invoice Classification",
+    "type" : "Boolean"
+  }, {
+    "id" : "canEditItemCode",
+    "column" : "canEditItemCode",
+    "ar" : "إمكانية تعديل كود الصنف",
+    "en" : "Can Edit Item Code",
+    "type" : "Boolean"
+  }, {
+    "id" : "canEditItemDims",
+    "column" : "canEditItemDims",
+    "ar" : "إمكانية تعديل محددات الصنف",
+    "en" : "Can Edit Item Dims",
+    "type" : "Boolean"
+  }, {
+    "id" : "canEditItemPrice",
+    "column" : "canEditItemPrice",
+    "ar" : "إمكانية تعديل سعر الصنف",
+    "en" : "Can Edit Item Price",
+    "type" : "Boolean"
+  }, {
+    "id" : "canEditLineQty",
+    "column" : "canEditLineQty",
+    "ar" : "إمكانية تعديل الكمية على سطر المبيعات",
+    "en" : "Can Edit Line Quantity",
+    "type" : "Boolean"
+  }, {
+    "id" : "canEditReturnDiscOrTax",
+    "column" : "canEditReturnDiscOrTax",
+    "ar" : "يمكن تعديل التخفيض أو الضريبة في المردود",
+    "en" : "Can Edit Return Discount or Tax",
+    "type" : "Boolean"
+  }, {
+    "id" : "canEditReturnUnitPrice",
+    "column" : "canEditReturnUnitPrice",
+    "ar" : "يمكن تعديل سعر الوحده في المردود",
+    "en" : "Can Edit Return Unit Price",
+    "type" : "Boolean"
+  }, {
+    "id" : "canEditSalesMan",
+    "column" : "canEditSalesMan",
+    "ar" : "إمكانية تعديل مندوب المبيعات",
+    "en" : "Can Edit Sales Man",
+    "type" : "Boolean"
+  }, {
+    "id" : "canEditSalesUom",
+    "column" : "canEditSalesUom",
+    "ar" : "إمكانية تعديل وحدة المبيعات",
+    "en" : "Can Edit Sales Uom",
+    "type" : "Boolean"
+  }, {
+    "id" : "canEditServiceItemPrice",
+    "column" : "canEditServiceItemPrice",
+    "ar" : "إمكانية تعديل سعر صنف الخدمة",
+    "en" : "Can Edit Service Item Price",
+    "type" : "Boolean"
+  }, {
+    "id" : "canEditSettings",
+    "column" : "canEditSettings",
+    "ar" : "إمكانية تعديل الإعدادات",
+    "en" : "Can Edit Settings",
+    "type" : "Boolean"
+  }, {
+    "id" : "canGiveFreeItems",
+    "column" : "canGiveFreeItems",
+    "ar" : "إمكانية أعطاء أصناف مجانية",
+    "en" : "Can Give Free Items",
+    "type" : "Boolean"
+  }, {
+    "id" : "canHoldInvoice",
+    "column" : "canHoldInvoice",
+    "ar" : "إمكانية تعليق فاتورة",
+    "en" : "Can Hold Invoice",
+    "type" : "Boolean"
+  }, {
+    "id" : "canInquireForPrices",
+    "column" : "canInquireForPrices",
+    "ar" : "إمكانية إستعلام عن سعر",
+    "en" : "can Inquire For Prices",
+    "type" : "Boolean"
+  }, {
+    "id" : "canMakeCashCount",
+    "column" : "canMakeCashCount",
+    "ar" : "إمكانية عمل جرد",
+    "en" : "Can Make Cash Count",
+    "type" : "Boolean"
+  }, {
+    "id" : "canMakeDocDisc",
+    "column" : "canMakeDocDisc",
+    "ar" : "إمكانية إعطاء تخفيض كلي على الفاتورة",
+    "en" : "Can Make Document Discount",
+    "type" : "Boolean"
+  }, {
+    "id" : "canMakeLineDisc",
+    "column" : "canMakeLineDisc",
+    "type" : "Boolean"
+  }, {
+    "id" : "canMakeLineTaxes",
+    "column" : "canMakeLineTaxes",
+    "ar" : "إمكانية إعطاء ضريبة على السطر",
+    "en" : "Can Make Line Taxes",
+    "type" : "Boolean"
+  }, {
+    "id" : "canMakePaymentDoc",
+    "column" : "canMakePaymentDoc",
+    "ar" : "إمكانية عمل سند مدفوعات",
+    "en" : "Can Make Payment Document",
+    "type" : "Boolean"
+  }, {
+    "id" : "canMakeReceiptDoc",
+    "column" : "canMakeReceiptDoc",
+    "ar" : "إمكانية عمل سند مقبوضات",
+    "en" : "Can Make Receipt Document",
+    "type" : "Boolean"
+  }, {
+    "id" : "canMakeReplacement",
+    "column" : "canMakeReplacement",
+    "ar" : "إمكانية عمل إستبدال مبيعات",
+    "en" : "Can Make Replacement",
+    "type" : "Boolean"
+  }, {
+    "id" : "canMakeReturn",
+    "column" : "canMakeReturn",
+    "ar" : "إمكانية عمل مردود مبيعات",
+    "en" : "Can Make Return",
+    "type" : "Boolean"
+  }, {
+    "id" : "canMakeScrapDoc",
+    "column" : "canMakeScrapDoc",
+    "ar" : "إمكانية عمل سند هوالك",
+    "en" : "Can Make Scrap Document",
+    "type" : "Boolean"
+  }, {
+    "id" : "canMakeShortfallsDoc",
+    "column" : "canMakeShortfallsDoc",
+    "ar" : "إمكانية عمل سند نواقص",
+    "en" : "Can Make Shortfalls Document",
+    "type" : "Boolean"
+  }, {
+    "id" : "canMakeStockTransferReq",
+    "column" : "canMakeStockTransferReq",
+    "ar" : "إمكانية عمل طلب تحويل مخزني",
+    "en" : "Can Make Stock Transfer Request",
+    "type" : "Boolean"
+  }, {
+    "id" : "canOpenCashDrawer",
+    "column" : "canOpenCashDrawer",
+    "ar" : "إمكانية فتح - غلق الدرج",
+    "en" : "Can Open Cash Drawer",
+    "type" : "Boolean"
+  }, {
+    "id" : "canOpenCloseShifts",
+    "column" : "canOpenCloseShifts",
+    "ar" : "إمكانية فتح - غلق وردية",
+    "en" : "Can Open-Close Shifts",
+    "type" : "Boolean"
+  }, {
+    "id" : "canOpenOldInvoice",
+    "column" : "canOpenOldInvoice",
+    "ar" : "إمكانية فتح مستند قديم",
+    "en" : "Can Open Old Document",
+    "type" : "Boolean"
+  }, {
+    "id" : "canPayWithCreditVal",
+    "column" : "canPayWithCreditVal",
+    "ar" : "إمكانية الدفع آجل",
+    "en" : "Can Pay With Credit Val",
+    "type" : "Boolean"
+  }, {
+    "id" : "canPrintFullInvoice",
+    "column" : "canPrintFullInvoice",
+    "ar" : "إمكانية طباعة الفاتورة الكامله",
+    "en" : "Can Print Full Invoice",
+    "type" : "Boolean"
+  }, {
+    "id" : "canPrintHeldInvoice",
+    "column" : "canPrintHeldInvoice",
+    "ar" : "إمكانية طباعة فاتورة معلقة",
+    "en" : "Can Print Held Invoice",
+    "type" : "Boolean"
+  }, {
+    "id" : "canRePrintDocuments",
+    "column" : "canRePrintDocuments",
+    "ar" : "إمكانية إعادة طباعة المستندات",
+    "en" : "Can RePrint Documents",
+    "type" : "Boolean"
+  }, {
+    "id" : "canReceiptFromPurchaseInv",
+    "column" : "canReceiptFromPurchaseInv",
+    "ar" : "إمكانية عمل توريد مخزني من فاتورة المشتريات",
+    "en" : "Can Receipt From Purchase Invoice",
+    "type" : "Boolean"
+  }, {
+    "id" : "canReceiptFromStockTransfer",
+    "column" : "canReceiptFromStockTransfer",
+    "ar" : "إمكانية عمل توريد مخزني من التحويل المخزني",
+    "en" : "Can Receipt From Stock Transfer",
+    "type" : "Boolean"
+  }, {
+    "id" : "canReceiptWithoutOriginDoc",
+    "column" : "canReceiptWithoutOriginDoc",
+    "ar" : "إمكانية عمل توريد مخزني بدون أصل مستند",
+    "en" : "Can Receipt Without Origin Document",
+    "type" : "Boolean"
+  }, {
+    "id" : "canRemoveSalesReturnFreeItems",
+    "column" : "canRemoveSalesReturnFreeItems",
+    "ar" : "إمكانية حذف أصناف مجانية من مردود المبيعات موجودة في الفاتورة الأصلية",
+    "en" : "Can Remove Sales Return Free Items",
+    "type" : "Boolean"
+  }, {
+    "id" : "canReplaceInAnotherUserShift",
+    "column" : "canReplaceInAnotherUserShift",
+    "ar" : "إمكانية عمل استبدال بوردية مستخدم اخر",
+    "en" : "Can Replace In Other User Shift",
+    "type" : "Boolean"
+  }, {
+    "id" : "canReplaceWithoutInvoice",
+    "column" : "canReplaceWithoutInvoice",
+    "ar" : "يمكن الإستبدال بدون أصل الفاتورة",
+    "en" : "Can Replace Without Invoice",
+    "type" : "Boolean"
+  }, {
+    "id" : "canReturnInAnotherUserShift",
+    "column" : "canReturnInAnotherUserShift",
+    "ar" : "إمكانية عمل مردود بوردية مستخدم اخر",
+    "en" : "Can Return In Other User Shift",
+    "type" : "Boolean"
+  }, {
+    "id" : "canReturnWithoutInvoice",
+    "column" : "canReturnWithoutInvoice",
+    "ar" : "إمكانية عمل مردود بدون فاتورة",
+    "en" : "Can Return Without Invoice",
+    "type" : "Boolean"
+  }, {
+    "id" : "canSearchByInvoiceCodePart",
+    "column" : "canSearchByInvoiceCodePart",
+    "ar" : "إمكانية البحث بجزء من كود الفاتورة في المردود و الاستبدال",
+    "en" : "Can Search By Invoice Code Part in return and replacement",
+    "type" : "Boolean"
+  }, {
+    "id" : "canSearchOnCustomers",
+    "column" : "canSearchOnCustomers",
+    "ar" : "إمكانية البحث عن عميل",
+    "en" : "Can Search On Customers",
+    "type" : "Boolean"
+  }, {
+    "id" : "canSearchOnInvInRetAndRepl",
+    "column" : "canSearchOnInvInRetAndRepl",
+    "ar" : "إمكانية البحث في كود الفاتورة في المردود والاستبدال",
+    "en" : "Can Search On Invoice In Return And Replacement",
+    "type" : "Boolean"
+  }, {
+    "id" : "canSearchOnItemCode",
+    "column" : "canSearchOnItemCode",
+    "ar" : "إمكانية البحث في كود الصنف",
+    "en" : "Can Search On Item Code",
+    "type" : "Boolean"
+  }, {
+    "id" : "canShowDataTransferErrors",
+    "column" : "canShowDataTransferErrors",
+    "ar" : "إمكانية الإطلاع على أخطاء نقل البيانات",
+    "en" : "Can Show Data Transfer Errors",
+    "type" : "Boolean"
+  }, {
+    "id" : "canShowFieldIds",
+    "column" : "canShowFieldIds",
+    "ar" : "إمكانية الأطلاع على معرف الحقول",
+    "en" : "Can Show Field Ids",
+    "type" : "Boolean"
+  }, {
+    "id" : "canShowPaymentsDetails",
+    "column" : "canShowPaymentsDetails",
+    "ar" : "إمكانية الإطلاع على تفاصيل الدفع في المبيعات",
+    "en" : "Can Show Payments Details",
+    "type" : "Boolean"
+  }, {
+    "id" : "canUseAnotherUserShift",
+    "column" : "canUseAnotherUserShift",
+    "ar" : "إمكانية استخدام وردية مستخدم أخر",
+    "en" : "Can Use Another User Shift",
+    "type" : "Boolean"
+  }, {
+    "id" : "canUseCalculator",
+    "column" : "canUseCalculator",
+    "ar" : "إمكانية استعمال الآلة الحاسبة",
+    "en" : "Can Use Calculator",
+    "type" : "Boolean"
+  }, {
+    "id" : "canUseKeyBoard",
+    "column" : "canUseKeyBoard",
+    "ar" : "إمكانية استعمال لوحة المفاتيح",
+    "en" : "Can Use KeyBoard",
+    "type" : "Boolean"
+  }, {
+    "id" : "canViewAccountantBalance",
+    "column" : "canViewAccountantBalance",
+    "ar" : "يمكن مراجعه الرصيد الدفتري",
+    "en" : "Can View System Balance",
+    "type" : "Boolean"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "deactivateShortcuts",
+    "column" : "deactivateShortcuts",
+    "ar" : "تعطيل الاختصارات",
+    "en" : "Deactivate Shortcuts",
+    "type" : "Boolean"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "forceMinPriceWithDiscounts",
+    "column" : "forceMinPriceWithDiscounts",
+    "ar" : "الإلتزام بأدني سعر مع التخفيضات",
+    "en" : "Force Minimum Price With Discounts",
+    "type" : "Boolean"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventFractionDiscount",
+    "column" : "preventFractionDiscount",
+    "ar" : "منع خصم الكسر",
+    "en" : "Prevent Fraction Discount",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventReorderColumns",
+    "column" : "preventReorderColumns",
+    "ar" : "منع تغيير ترتيب اعمدة الجداول",
+    "en" : "Prevent Reorder Columns",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventResizeColumns",
+    "column" : "preventResizeColumns",
+    "ar" : "منع تغيير حجم اعمده الجداول",
+    "en" : "Prevent Resize Columns",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUsingCriticalMethods",
+    "column" : "preventUsingCriticalMethods",
+    "ar" : "منع استعمال طرق الدفع الحرجه بنقاط البيع",
+    "en" : "Prevent Using Critical Methods",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventViewNotifications",
+    "column" : "preventViewNotifications",
+    "ar" : "عدم إمكانية الاطلاع على التنبيهات",
+    "en" : "Prevent View Notifications",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "showCurrentShiftInvoicesOnly",
+    "column" : "showCurrentShiftInvoicesOnly",
+    "ar" : "عرض فواتير الوردية الحالية فقط",
+    "en" : "Show Current Shift Invoices Only",
+    "type" : "Boolean"
+  }, {
+    "id" : "showCurrentShiftPaymentsOnly",
+    "column" : "showCurrentShiftPaymentsOnly",
+    "ar" : "عرض مصروفات الوردية الحالية فقط",
+    "en" : "Show Current Shift Payments Only",
+    "type" : "Boolean"
+  }, {
+    "id" : "showCurrentShiftReceiptsOnly",
+    "column" : "showCurrentShiftReceiptsOnly",
+    "ar" : "عرض مقبوضات الوردية الحالية فقط",
+    "en" : "Show Current Shift Receipts Only",
+    "type" : "Boolean"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "capabilities",
+    "table" : "POSSecurityProfileLine",
+    "joinColumn" : "pOSSecurityProfile_id",
+    "ar" : "الصلاحيات",
+    "en" : "Capabilities",
+    "fields" : [ {
+      "id" : "capabilities.capability",
+      "column" : "capability",
+      "ar" : "الصلاحية",
+      "en" : "Capability",
+      "type" : "Enum",
+      "enum" : "POSSecurityCapability"
+    }, {
+      "id" : "capabilities.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "capabilities.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  } ]
+}

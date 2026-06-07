@@ -1,0 +1,96 @@
+{
+  "enum" : "EntityTargetAction",
+  "values" : [ {
+    "id" : "ValidateOnSave",
+    "ar" : "إمكانية الحفظ",
+    "en" : "Validate On Save"
+  }, {
+    "id" : "PostCommit",
+    "ar" : "تأثيرات الحفظ",
+    "en" : "Post Commit"
+  }, {
+    "id" : "Init",
+    "ar" : "إنشاء جديد",
+    "en" : "Init"
+  }, {
+    "id" : "ValidateOnDelete",
+    "ar" : "إمكانية الحذف",
+    "en" : "Validate On Delete"
+  }, {
+    "id" : "PostDelete",
+    "ar" : "تأثيرات الحذف",
+    "en" : "Post Delete"
+  }, {
+    "id" : "PreSendRequest",
+    "ar" : "Pre Send Business Request",
+    "en" : "Pre Send Business Request"
+  }, {
+    "id" : "PostInvTransReqRequestCreation",
+    "ar" : "Post Inv Trans Req Request Creation",
+    "en" : "Post Inv Trans Req Request Creation"
+  }, {
+    "id" : "UpdateCalculatedFields",
+    "ar" : "تحديث الحقول المحسوية",
+    "en" : "Update Calculated Fields"
+  }, {
+    "id" : "PreUpdateCalculatedFields",
+    "ar" : "ما قبل تحديث الحقول المحسوية",
+    "en" : "Pre Update Calculated Fields"
+  }, {
+    "id" : "PreApplyEffects",
+    "ar" : "ما قبل تاثيرات الحفظ",
+    "en" : "Pre Apply Effects"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  }, {
+    "id" : "Manual",
+    "ar" : "يدوي",
+    "en" : "Manual"
+  }, {
+    "id" : "PreValidateOnDelete",
+    "ar" : "ماقبل إمكانية الحذف",
+    "en" : "PreValidate On Delete"
+  }, {
+    "id" : "SaveDraft",
+    "ar" : "إضافة مسودة",
+    "en" : "Add Draft"
+  }, {
+    "id" : "DeleteDraft",
+    "ar" : "حذف مسودة",
+    "en" : "Delete Draft"
+  }, {
+    "id" : "Automatic",
+    "ar" : "تلقائي",
+    "en" : "Automatic"
+  }, {
+    "id" : "AfterTermplate",
+    "ar" : "بعد تطبيق قالب قيم افتراضية",
+    "en" : "After Applying Default Values Template"
+  }, {
+    "id" : "Revise",
+    "ar" : " مراجعة",
+    "en" : " Revise"
+  }, {
+    "id" : "UnRevise",
+    "ar" : "إلغاء مراجعه",
+    "en" : "UnRevise"
+  }, {
+    "id" : "RecordView",
+    "ar" : " مطالعة السجل",
+    "en" : " Record View"
+  }, {
+    "id" : "PosteInvoiceSend",
+    "ar" : "Tax Authority - Post Send Invoice",
+    "en" : "Tax Authority - Post Send Invoice"
+  }, {
+    "id" : "PosteInvoiceValid",
+    "ar" : "Tax Authority - Post Approve Invoice (Valid)",
+    "en" : "Tax Authority - Post Approve Invoice (Valid)"
+  }, {
+    "id" : "EInvoiceCreation",
+    "ar" : "إنشاء فاتورة ضريبية",
+    "en" : "EInvoice Creation"
+  } ]
+}

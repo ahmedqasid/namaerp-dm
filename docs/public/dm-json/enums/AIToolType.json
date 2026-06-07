@@ -1,0 +1,20 @@
+{
+  "enum" : "AIToolType",
+  "values" : [ {
+    "id" : "QueryBased",
+    "ar" : "Query Based",
+    "en" : "Query Based"
+  }, {
+    "id" : "EntityFlowBased",
+    "ar" : "Entity Flow Based",
+    "en" : "Entity Flow Based"
+  }, {
+    "id" : "SystemTools",
+    "ar" : "System Tool",
+    "en" : "System Tool"
+  }, {
+    "id" : "ReportBased",
+    "ar" : "Report Based",
+    "en" : "Report Based"
+  } ]
+}

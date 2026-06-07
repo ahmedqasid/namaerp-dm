@@ -1,0 +1,177 @@
+{
+  "entity" : "PendingTask",
+  "table" : "PendingTask",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/PendingTask.html",
+  "fields" : [ {
+    "id" : "allowedTimesToSend",
+    "column" : "allowedTimesToSend",
+    "ar" : "Allowed Times To Send",
+    "en" : "Allowed Times To Send",
+    "type" : "BigText"
+  }, {
+    "id" : "attachmentFormat",
+    "column" : "attachmentFormat",
+    "type" : "Text"
+  }, {
+    "id" : "attachmentId",
+    "column" : "attachmentId",
+    "type" : "ID"
+  }, {
+    "id" : "attachmentName",
+    "column" : "attachmentName",
+    "type" : "Text"
+  }, {
+    "id" : "body",
+    "column" : "body",
+    "ar" : "Body",
+    "en" : "Body",
+    "type" : "BigText"
+  }, {
+    "id" : "createdFrom",
+    "columns" : [ "createdFromActualCode", " createdFromCode", " createdFromEntityType", " createdFromId" ],
+    "ar" : "منشأة من",
+    "en" : "Created From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "emailCC",
+    "column" : "emailCC",
+    "type" : "BigText"
+  }, {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "executionDate",
+    "column" : "executionDate",
+    "ar" : "تاريخ التنفيذ",
+    "en" : "Execution Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "fcmGoesTo",
+    "column" : "fcmGoesTo",
+    "ar" : "FCM Goes To",
+    "en" : "FCM Goes To",
+    "type" : "Text"
+  }, {
+    "id" : "fcmNotificationBody",
+    "column" : "fcmNotificationBody",
+    "ar" : "FCM Notification Body",
+    "en" : "FCM Notification Body",
+    "type" : "BigText"
+  }, {
+    "id" : "fcmNotificationTitle",
+    "column" : "fcmNotificationTitle",
+    "ar" : "FCM Notification Title",
+    "en" : "FCM Notification Title",
+    "type" : "BigText"
+  }, {
+    "id" : "fcmUserEntityType",
+    "column" : "fcmUserEntityType",
+    "type" : "EntityType"
+  }, {
+    "id" : "fcmUserId",
+    "column" : "fcmUserId",
+    "ar" : "FCM User Id",
+    "en" : "FCM User Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "longReceipient",
+    "column" : "longReceipient",
+    "ar" : "Long Receipient",
+    "en" : "Long Receipient",
+    "type" : "BigText"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "preferredSender",
+    "column" : "preferredSender",
+    "ar" : "المرسل المفضل",
+    "en" : "Preferred Sender",
+    "type" : "Text"
+  }, {
+    "id" : "recepient",
+    "column" : "recepient",
+    "ar" : "Recepient",
+    "en" : "Recepient",
+    "type" : "Text"
+  }, {
+    "id" : "sendFromUserEmail",
+    "column" : "sendFromUserEmail",
+    "type" : "Boolean"
+  }, {
+    "id" : "sender",
+    "column" : "sender",
+    "ar" : "المرسل",
+    "en" : "Sender",
+    "type" : "Text"
+  }, {
+    "id" : "senderEmail",
+    "column" : "senderEmail",
+    "type" : "Email"
+  }, {
+    "id" : "smsResponse",
+    "column" : "smsResponse",
+    "ar" : "SMS Response",
+    "en" : "SMS Response",
+    "type" : "BigText"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
+    "id" : "subject",
+    "column" : "subject",
+    "ar" : "العنوان",
+    "en" : "Subject",
+    "type" : "Text"
+  }, {
+    "id" : "submitionDate",
+    "column" : "submitionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Submition Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "target",
+    "columns" : [ "targetActualCode", " targetCode", " targetEntityType", " targetId" ],
+    "ar" : "الجهة",
+    "en" : "Taregt",
+    "type" : "Genericreference"
+  }, {
+    "id" : "trials",
+    "column" : "trials",
+    "ar" : "عدد محاولات",
+    "en" : "Trials",
+    "type" : "Integer"
+  }, {
+    "id" : "type",
+    "column" : "type",
+    "ar" : "النوع",
+    "en" : "Type",
+    "type" : "Enum",
+    "enum" : "TaskType"
+  }, {
+    "id" : "userEmailPassword",
+    "column" : "userEmailPassword",
+    "type" : "Password"
+  } ]
+}

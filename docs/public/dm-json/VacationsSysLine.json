@@ -1,0 +1,59 @@
+{
+  "entity" : "VacationsSysLine",
+  "table" : "VacationsSysLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/VacationsSysLine.html",
+  "fields" : [ {
+    "id" : "actualReturnDate",
+    "column" : "actualReturnDate",
+    "type" : "Date"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "returnDate",
+    "column" : "returnDate",
+    "ar" : "تاريخ العودة",
+    "en" : "Return Date",
+    "type" : "Date"
+  }, {
+    "id" : "slaveSysLine",
+    "column" : "slaveSysLine",
+    "type" : "Boolean"
+  }, {
+    "id" : "startDate",
+    "column" : "startDate",
+    "ar" : "تاريخ البداية",
+    "en" : "Start Date",
+    "type" : "Date"
+  }, {
+    "id" : "vacationDays",
+    "column" : "vacationDays",
+    "type" : "Decimal"
+  }, {
+    "id" : "vacationReason",
+    "column" : "vacationReason_id",
+    "ar" : "سبب الأجازة",
+    "en" : "vacation Reason",
+    "type" : "Reference",
+    "refTo" : "LeaveReason",
+    "refPath" : "/modules/humanresource-payroll/LeaveReason.html"
+  }, {
+    "id" : "vacationType",
+    "column" : "vacationType_id",
+    "ar" : "نوع الأجازة",
+    "en" : "Vacation Type",
+    "type" : "Reference",
+    "refTo" : "VacationType",
+    "refPath" : "/modules/humanresource-payroll/VacationType.html"
+  } ]
+}

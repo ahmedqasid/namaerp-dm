@@ -1,0 +1,60 @@
+{
+  "entity" : "FacilityLimitSysEntry",
+  "table" : "FacilityLimitSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/FacilityLimitSysEntry.html",
+  "fields" : [ {
+    "id" : "amount",
+    "column" : "amount",
+    "ar" : " المبلغ",
+    "en" : " Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "facilityLimit",
+    "columns" : [ "facilityLimitActualCode", " facilityLimitCode", " facilityLimitEntityType", " facilityLimitId" ],
+    "ar" : "حد التسهيلات",
+    "en" : "Facility Limit",
+    "type" : "Genericreference"
+  }, {
+    "id" : "guaranteeType",
+    "column" : "guaranteeType",
+    "ar" : "نوع الضمان",
+    "en" : "Guarantee Type",
+    "type" : "Enum",
+    "enum" : "GuaranteeType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "projContract",
+    "columns" : [ "projContractActualCode", " projContractCode", " projContractEntityType", " projContractId" ],
+    "ar" : "عقد المشروع",
+    "en" : "Project Contract",
+    "type" : "Genericreference"
+  }, {
+    "id" : "targetFile",
+    "columns" : [ "targetFileActualCode", " targetFileCode", " targetFileEntityType", " targetFileId" ],
+    "ar" : "الملف / المستند",
+    "en" : "Target File / Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

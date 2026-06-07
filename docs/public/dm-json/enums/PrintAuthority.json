@@ -1,0 +1,16 @@
+{
+  "enum" : "PrintAuthority",
+  "values" : [ {
+    "id" : "Disabled",
+    "ar" : "لا يسمح بالتعديل",
+    "en" : "Disabled"
+  }, {
+    "id" : "One",
+    "ar" : "مرة",
+    "en" : "One"
+  }, {
+    "id" : "MoreThanOne",
+    "ar" : "أكثر من مرة",
+    "en" : "More Than One"
+  } ]
+}

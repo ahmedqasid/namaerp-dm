@@ -1,0 +1,60 @@
+{
+  "entity" : "REReservationEntry",
+  "table" : "REReservationEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/REReservationEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "estate",
+    "columns" : [ "estateActualCode", " estateCode", " estateEntityType", " estateId" ],
+    "ar" : "العقار",
+    "en" : "Estate",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDocActualCode", " fromDocCode", " fromDocEntityType", " fromDocId" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromParentEstate",
+    "column" : "fromParentEstate",
+    "ar" : "من عقار أعلى",
+    "en" : "From Parent Estate",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "parentEstate",
+    "columns" : [ "parentEstateActualCode", " parentEstateCode", " parentEstateEntityType", " parentEstateId" ],
+    "ar" : "العقار الأعلى",
+    "en" : "Parent Estate",
+    "type" : "Genericreference"
+  }, {
+    "id" : "rentStatus",
+    "column" : "rentStatus",
+    "ar" : "حالة الإيجار",
+    "en" : "Rent Status",
+    "type" : "Enum",
+    "enum" : "RERentStatus"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

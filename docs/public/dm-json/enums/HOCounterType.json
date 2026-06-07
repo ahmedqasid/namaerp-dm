@@ -1,0 +1,12 @@
+{
+  "enum" : "HOCounterType",
+  "values" : [ {
+    "id" : "Water",
+    "ar" : "مياة",
+    "en" : "Water"
+  }, {
+    "id" : "Electricity",
+    "ar" : "كهرباء",
+    "en" : "Electricity"
+  } ]
+}

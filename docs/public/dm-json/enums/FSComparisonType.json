@@ -1,0 +1,20 @@
+{
+  "enum" : "FSComparisonType",
+  "values" : [ {
+    "id" : "OneYear",
+    "ar" : "عام واحد",
+    "en" : "One Year"
+  }, {
+    "id" : "TwoYears",
+    "ar" : "عامين",
+    "en" : "Two Years"
+  }, {
+    "id" : "PeriodSet",
+    "ar" : "مجموعة فترات متتابعة",
+    "en" : "Period Set"
+  }, {
+    "id" : "TwoPeriodSets",
+    "ar" : "مجموعتي فترات من عامين",
+    "en" : "Two Period Sets"
+  } ]
+}

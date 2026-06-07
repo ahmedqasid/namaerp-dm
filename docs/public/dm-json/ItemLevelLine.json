@@ -1,0 +1,45 @@
+{
+  "entity" : "ItemLevelLine",
+  "table" : "ItemLevelLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ItemLevelLine.html",
+  "fields" : [ {
+    "id" : "favouritesLevel1",
+    "columns" : [ "favouritesLevel1ActualCode", " favouritesLevel1Code", " favouritesLevel1EntityType", " favouritesLevel1Id" ],
+    "ar" : "المستوي 1",
+    "en" : "Favourites Level 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "favouritesLevel2",
+    "column" : "favouritesLevel2",
+    "ar" : "المستوي 2",
+    "en" : "Favourites Level 2",
+    "type" : "Enum",
+    "enum" : "FavouriteItemLevel"
+  }, {
+    "id" : "favouritesLevel3",
+    "column" : "favouritesLevel3",
+    "ar" : "المستوي 3",
+    "en" : "Favourites Level 3",
+    "type" : "Enum",
+    "enum" : "FavouriteItemLevel"
+  }, {
+    "id" : "favouritesLevel4",
+    "column" : "favouritesLevel4",
+    "ar" : "المستوي 4",
+    "en" : "Favourites Level 4",
+    "type" : "Enum",
+    "enum" : "FavouriteItemLevel"
+  }, {
+    "id" : "favouritesLevel5",
+    "column" : "favouritesLevel5",
+    "ar" : "المستوي 5",
+    "en" : "Favourites Level 5",
+    "type" : "Enum",
+    "enum" : "FavouriteItemLevel"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

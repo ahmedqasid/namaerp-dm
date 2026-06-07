@@ -1,0 +1,44 @@
+{
+  "enum" : "CarClassification",
+  "values" : [ {
+    "id" : "CarClassification1",
+    "ar" : "تصنيف 1",
+    "en" : "Classification 1"
+  }, {
+    "id" : "CarClassification2",
+    "ar" : "تصنيف 2",
+    "en" : "Classification 2"
+  }, {
+    "id" : "CarClassification3",
+    "ar" : "تصنيف 3",
+    "en" : "Classification 3"
+  }, {
+    "id" : "CarClassification4",
+    "ar" : "تصنيف 4",
+    "en" : "Classification 4"
+  }, {
+    "id" : "CarClassification5",
+    "ar" : "تصنيف 5",
+    "en" : "Classification 5"
+  }, {
+    "id" : "CarClassification6",
+    "ar" : "تصنيف 6",
+    "en" : "Classification 6"
+  }, {
+    "id" : "CarClassification7",
+    "ar" : "تصنيف 7",
+    "en" : "Classification 7"
+  }, {
+    "id" : "CarClassification8",
+    "ar" : "تصنيف 8",
+    "en" : "Classification 8"
+  }, {
+    "id" : "CarClassification9",
+    "ar" : "تصنيف 9",
+    "en" : "Classification 9"
+  }, {
+    "id" : "CarClassification10",
+    "ar" : "تصنيف 10",
+    "en" : "Classification 10"
+  } ]
+}

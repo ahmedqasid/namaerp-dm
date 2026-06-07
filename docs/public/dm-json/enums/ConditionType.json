@@ -1,0 +1,36 @@
+{
+  "enum" : "ConditionType",
+  "values" : [ {
+    "id" : "TextCondition",
+    "ar" : "شرط نصي",
+    "en" : "Text Condition"
+  }, {
+    "id" : "RelatedToCompletePercent",
+    "ar" : "مرتبط بنسبة إتمام",
+    "en" : "Related To Completion Percent"
+  }, {
+    "id" : "RelatedToPhase",
+    "ar" : "مرتبط بمرحلة مقاولة",
+    "en" : "Related To Phase"
+  }, {
+    "id" : "ContractEnd",
+    "ar" : "إنتهاء عقد",
+    "en" : "Contract End"
+  }, {
+    "id" : "WithInitialExtract",
+    "ar" : "مع المستخلص المبدئي",
+    "en" : "With Initial Extract"
+  }, {
+    "id" : "WithEveryExtract",
+    "ar" : "مع كل مستخلص",
+    "en" : "With Every Extract"
+  }, {
+    "id" : "WithFinalExtract",
+    "ar" : "مع المستخلص الختامي",
+    "en" : "With Final Extract"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  } ]
+}

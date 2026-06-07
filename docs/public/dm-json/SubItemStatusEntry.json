@@ -1,0 +1,89 @@
+{
+  "entity" : "SubItemStatusEntry",
+  "table" : "SubItemStatusEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SubItemStatusEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "fromMainStatus",
+    "column" : "fromMainStatus",
+    "ar" : "من حالة رئيسية",
+    "en" : "From Main Status",
+    "type" : "Enum",
+    "enum" : "MainStatusType"
+  }, {
+    "id" : "fromStatus",
+    "column" : "fromStatus",
+    "ar" : "من حالة",
+    "en" : "From Status",
+    "type" : "Enum",
+    "enum" : "SubItemStatusType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "invItem",
+    "column" : "invItem_id",
+    "ar" : " الصنف",
+    "en" : " Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "lineOwnerId",
+    "column" : "lineOwnerId",
+    "type" : "ID"
+  }, {
+    "id" : "lineOwnerIndex",
+    "column" : "lineOwnerIndex",
+    "ar" : "رقم السطر",
+    "en" : "Line Number",
+    "type" : "Integer"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remarks",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "subItem",
+    "column" : "subItem_id",
+    "ar" : " السياره",
+    "en" : " Customer Car",
+    "type" : "Reference",
+    "refTo" : "SubItem",
+    "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+  }, {
+    "id" : "toMainStatus",
+    "column" : "toMainStatus",
+    "ar" : "الي حالة رئيسية",
+    "en" : "To Main Status",
+    "type" : "Enum",
+    "enum" : "MainStatusType"
+  }, {
+    "id" : "toStatus",
+    "column" : "toStatus",
+    "ar" : "إلى حالة",
+    "en" : "To Status",
+    "type" : "Enum",
+    "enum" : "SubItemStatusType"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

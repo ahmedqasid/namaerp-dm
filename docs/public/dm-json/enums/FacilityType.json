@@ -1,0 +1,24 @@
+{
+  "enum" : "FacilityType",
+  "values" : [ {
+    "id" : "LetterOfGuarantee",
+    "ar" : "خطاب ضمان",
+    "en" : "Letter Of Guarantee"
+  }, {
+    "id" : "BankLC",
+    "ar" : "اعتماد بنكى",
+    "en" : "Bank LC"
+  }, {
+    "id" : "BankLoan",
+    "ar" : "قرض بنكي",
+    "en" : "Bank Loan"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  } ]
+}

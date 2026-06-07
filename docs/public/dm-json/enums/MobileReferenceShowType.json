@@ -1,0 +1,20 @@
+{
+  "enum" : "MobileReferenceShowType",
+  "values" : [ {
+    "id" : "CodeOnly",
+    "ar" : "الكود فقط",
+    "en" : "Code Only"
+  }, {
+    "id" : "Name1",
+    "ar" : " الاسم العربي",
+    "en" : " Name1"
+  }, {
+    "id" : "Name2",
+    "ar" : " الاسم الإنجليزي",
+    "en" : " Name2"
+  }, {
+    "id" : "LocalName",
+    "ar" : "الاسم حسب اللغة",
+    "en" : "Local Name"
+  } ]
+}

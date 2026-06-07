@@ -1,0 +1,23 @@
+{
+  "entity" : "InvoiceRetrieverID",
+  "table" : "InvoiceRetrieverID",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/InvoiceRetrieverID.html",
+  "fields" : [ {
+    "id" : "fileId",
+    "column" : "fileId",
+    "ar" : "معرف الملف",
+    "en" : "File ID",
+    "type" : "Long"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  } ]
+}

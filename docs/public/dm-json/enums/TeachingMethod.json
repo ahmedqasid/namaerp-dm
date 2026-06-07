@@ -1,0 +1,12 @@
+{
+  "enum" : "TeachingMethod",
+  "values" : [ {
+    "id" : "Online",
+    "ar" : "Online",
+    "en" : "Online"
+  }, {
+    "id" : "Attendance",
+    "ar" : "الحضور",
+    "en" : "Attendance"
+  } ]
+}

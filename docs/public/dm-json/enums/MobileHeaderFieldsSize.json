@@ -1,0 +1,16 @@
+{
+  "enum" : "MobileHeaderFieldsSize",
+  "values" : [ {
+    "id" : "WholeLine",
+    "ar" : "سطر كامل",
+    "en" : "Whole Line"
+  }, {
+    "id" : "HalfLine",
+    "ar" : "نصف سطر",
+    "en" : "Half Line"
+  }, {
+    "id" : "Default",
+    "ar" : "افتراضي",
+    "en" : "Default"
+  } ]
+}

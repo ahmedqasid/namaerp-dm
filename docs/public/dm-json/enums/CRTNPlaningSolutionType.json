@@ -1,0 +1,12 @@
+{
+  "enum" : "CRTNPlaningSolutionType",
+  "values" : [ {
+    "id" : "Optimal",
+    "ar" : "أفضل حل",
+    "en" : "Optimal"
+  }, {
+    "id" : "Feasible",
+    "ar" : "حل متاح (ليس الأفضل)",
+    "en" : "Feasible (Not the best)"
+  } ]
+}

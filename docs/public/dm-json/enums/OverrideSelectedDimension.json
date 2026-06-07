@@ -1,0 +1,16 @@
+{
+  "enum" : "OverrideSelectedDimension",
+  "values" : [ {
+    "id" : "Never",
+    "ar" : "أبدا",
+    "en" : "Never"
+  }, {
+    "id" : "Always",
+    "ar" : "دائما",
+    "en" : "Always"
+  }, {
+    "id" : "WhenNotPublic",
+    "ar" : "عند الدخول بمحدد غير العام",
+    "en" : "When Logged In with Non-public Dimensions"
+  } ]
+}

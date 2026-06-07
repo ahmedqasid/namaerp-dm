@@ -1,0 +1,20 @@
+{
+  "enum" : "JRVerticalAlign",
+  "values" : [ {
+    "id" : "Top",
+    "ar" : "أعلي",
+    "en" : "Top"
+  }, {
+    "id" : "Middle",
+    "ar" : "متوسط",
+    "en" : "Middle"
+  }, {
+    "id" : "Bottom",
+    "ar" : "أسفل",
+    "en" : "Bottom"
+  }, {
+    "id" : "Justified",
+    "ar" : "Justified",
+    "en" : "Justified"
+  } ]
+}

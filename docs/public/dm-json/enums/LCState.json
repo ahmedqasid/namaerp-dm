@@ -1,0 +1,31 @@
+{
+  "enum" : "LCState",
+  "values" : [ {
+    "id" : "LCInitial",
+    "ar" : "مبدئى",
+    "en" : "Initial"
+  }, {
+    "id" : "Opened",
+    "ar" : "مفتوح",
+    "en" : "Opened"
+  }, {
+    "id" : "Shipped",
+    "ar" : "تم شحنه",
+    "en" : "Shipped"
+  }, {
+    "id" : "InPort",
+    "ar" : "في الميناء"
+  }, {
+    "id" : "Released",
+    "ar" : "تم الإفراج عنه",
+    "en" : "Released"
+  }, {
+    "id" : "Received",
+    "ar" : "تم تسليمه",
+    "en" : "Received"
+  }, {
+    "id" : "Closed",
+    "ar" : "مغلقة",
+    "en" : "Closed"
+  } ]
+}

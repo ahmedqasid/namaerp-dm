@@ -1,0 +1,12 @@
+{
+  "enum" : "LoanPeriodType",
+  "values" : [ {
+    "id" : "Weekly",
+    "ar" : "أسبوعي",
+    "en" : "Weekly"
+  }, {
+    "id" : "Monthly",
+    "ar" : "شهرية",
+    "en" : "Monthly"
+  } ]
+}

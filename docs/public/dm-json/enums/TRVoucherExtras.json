@@ -1,0 +1,12 @@
+{
+  "enum" : "TRVoucherExtras",
+  "values" : [ {
+    "id" : "Excluded",
+    "ar" : "مستبعد",
+    "en" : "Excluded"
+  }, {
+    "id" : "Included",
+    "ar" : "متضمن",
+    "en" : "Included"
+  } ]
+}

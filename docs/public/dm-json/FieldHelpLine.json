@@ -1,0 +1,43 @@
+{
+  "entity" : "FieldHelpLine",
+  "table" : "FieldHelpLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/FieldHelpLine.html",
+  "fields" : [ {
+    "id" : "arabicHelp",
+    "column" : "arabicHelp",
+    "ar" : "المساعدة عربى",
+    "en" : "Arabic Help",
+    "type" : "BigText"
+  }, {
+    "id" : "englishHelp",
+    "column" : "englishHelp",
+    "ar" : "المساعدة إنجليزى",
+    "en" : "English Help",
+    "type" : "BigText"
+  }, {
+    "id" : "entityList",
+    "column" : "entityList_id",
+    "ar" : "قائمة الأنواع",
+    "en" : "Entity List",
+    "type" : "Reference",
+    "refTo" : "EntityTypeList",
+    "refPath" : "/modules/basic/EntityTypeList.html"
+  }, {
+    "id" : "fieldID",
+    "column" : "fieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "forType",
+    "column" : "forType",
+    "ar" : "للنوع",
+    "en" : "For Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

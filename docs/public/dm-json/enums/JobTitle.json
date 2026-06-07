@@ -1,0 +1,24 @@
+{
+  "enum" : "JobTitle",
+  "values" : [ {
+    "id" : "ManagingPartner",
+    "ar" : "الشريك المسئول",
+    "en" : "Managing Partner"
+  }, {
+    "id" : "AuditorManager",
+    "ar" : "مدير مراجعة",
+    "en" : "Auditor Manager"
+  }, {
+    "id" : "FirstAuditor",
+    "ar" : "مراجع أول",
+    "en" : "First Auditor"
+  }, {
+    "id" : "AssistantAuditor",
+    "ar" : "مراجع مساعد",
+    "en" : "Assistant Auditor"
+  }, {
+    "id" : "BeginnerAuditor",
+    "ar" : "مراجع مبتدئ",
+    "en" : "Beginner Auditor"
+  } ]
+}

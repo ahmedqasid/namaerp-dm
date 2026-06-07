@@ -1,0 +1,845 @@
+{
+  "entity" : "HOBuilding",
+  "table" : "HOBuilding",
+  "module" : "housing",
+  "ar" : "مبني إسكان",
+  "arPlural" : "مباني إسكان",
+  "en" : "HO Building",
+  "enPlural" : "HO Buildings",
+  "page" : "https://dm.namasoft.com/modules/housing/HOBuilding.html",
+  "fields" : [ {
+    "id" : "address.address1",
+    "column" : "addressAddress1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "address.address2",
+    "column" : "addressAddress2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "address.area",
+    "column" : "addressArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "address.buildingNumber",
+    "column" : "addressBuildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "address.city",
+    "column" : "addressCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "address.country",
+    "column" : "addressCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "address.countryCode",
+    "column" : "addressCountryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "address.district",
+    "column" : "addressDistrict",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "address.landPlotNumber",
+    "column" : "addressLandPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "address.mapLocation",
+    "column" : "addressMapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "address.postalCode",
+    "column" : "addressPostalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "address.region",
+    "column" : "addressRegion_id",
+    "ar" : "موقع جغرافي",
+    "en" : "Address region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "address.state",
+    "column" : "addressState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "address.street",
+    "column" : "addressStreet",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "area",
+    "column" : "area",
+    "ar" : "مساحة قطعة الأرض",
+    "en" : "Building Area",
+    "type" : "Decimal"
+  }, {
+    "id" : "attachment",
+    "column" : "attachment_id",
+    "ar" : "مرفق",
+    "en" : "Attachment",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "civDefStatement.end",
+    "column" : "CivDefStatementEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "civDefStatement.issue",
+    "column" : "CivDefStatementIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "civDefStatement.number",
+    "column" : "CivDefStatementNumber",
+    "ar" : "رقم",
+    "en" : "Number",
+    "type" : "Text"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commercialRecord.end",
+    "column" : "CommercialRecordEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "commercialRecord.issue",
+    "column" : "CommercialRecordIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "commercialRecord.number",
+    "column" : "CommercialRecordNumber",
+    "ar" : "رقم",
+    "en" : "Number",
+    "type" : "Text"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "constructionLicense.end",
+    "column" : "constructionLicenseEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "constructionLicense.issue",
+    "column" : "constructionLicenseIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "constructionLicense.number",
+    "column" : "constructionLicenseNumber",
+    "ar" : "رقم",
+    "en" : "Number",
+    "type" : "Text"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "detailedBuildingArea",
+    "column" : "detailedBuildingArea",
+    "ar" : "مساحة العقار التفصيلية",
+    "en" : "Detailed Building Area",
+    "type" : "Decimal"
+  }, {
+    "id" : "dimension.dimension1",
+    "column" : "dimensionDimension1",
+    "ar" : "البعد1",
+    "en" : "Dimension1",
+    "type" : "Decimal"
+  }, {
+    "id" : "dimension.dimension2",
+    "column" : "dimensionDimension2",
+    "ar" : "البعد2",
+    "en" : "Dimension2",
+    "type" : "Decimal"
+  }, {
+    "id" : "dimension.dimension3",
+    "column" : "dimensionDimension3",
+    "ar" : "البعد3",
+    "en" : "Dimension3",
+    "type" : "Decimal"
+  }, {
+    "id" : "dimension.dimension4",
+    "column" : "dimensionDimension4",
+    "ar" : "البعد4",
+    "en" : "Dimension4",
+    "type" : "Decimal"
+  }, {
+    "id" : "dimension.dimension5",
+    "column" : "dimensionDimension5",
+    "ar" : "البعد5",
+    "en" : "Dimension5",
+    "type" : "Decimal"
+  }, {
+    "id" : "dimension.dimension6",
+    "column" : "dimensionDimension6",
+    "ar" : "البعد6",
+    "en" : "Dimension6",
+    "type" : "Decimal"
+  }, {
+    "id" : "dimension.totalArea",
+    "column" : "dimensionTotalArea",
+    "ar" : "المساحة  الإجمالية",
+    "en" : "Total Area",
+    "type" : "Decimal"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "dropArea",
+    "column" : "dropArea",
+    "ar" : "مساحة الارتدادات",
+    "en" : "Drop Area",
+    "type" : "Decimal"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "municipalLicense.end",
+    "column" : "municipalLicenseEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "municipalLicense.issue",
+    "column" : "municipalLicenseIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "municipalLicense.number",
+    "column" : "municipalLicenseNumber",
+    "ar" : "رقم",
+    "en" : "Number",
+    "type" : "Text"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "numOfBathrooms",
+    "column" : "numOfBathrooms",
+    "ar" : "عدد الحمامات",
+    "en" : "Number Of Bathrooms",
+    "type" : "Integer"
+  }, {
+    "id" : "numOfBeds",
+    "column" : "numOfBeds",
+    "ar" : "عدد الأسرة",
+    "en" : "Number Of Beds",
+    "type" : "Integer"
+  }, {
+    "id" : "numOfExhibitions",
+    "column" : "numOfExhibitions",
+    "ar" : "عدد المعارض",
+    "en" : "Number Of Exhibitions",
+    "type" : "Integer"
+  }, {
+    "id" : "numOfFlats",
+    "column" : "numOfFlats",
+    "ar" : "عدد الشقق",
+    "en" : "Number Of Flats",
+    "type" : "Integer"
+  }, {
+    "id" : "numOfFloors",
+    "column" : "numOfFloors",
+    "ar" : "عدد الطوابق",
+    "en" : "Number Of Floors",
+    "type" : "Integer"
+  }, {
+    "id" : "numOfFreeBeds",
+    "column" : "numOfFreeBeds",
+    "ar" : "عدد الاسرة الفارغة",
+    "en" : "Number Of Free Beds",
+    "type" : "Integer"
+  }, {
+    "id" : "numOfFreeOffices",
+    "column" : "numOfFreeOffices",
+    "ar" : "عدد المكاتب الفارغة",
+    "en" : "Number Of Free Offices",
+    "type" : "Integer"
+  }, {
+    "id" : "numOfHalls",
+    "column" : "numOfHalls",
+    "ar" : "عدد الصالات",
+    "en" : "Number Of Halls",
+    "type" : "Integer"
+  }, {
+    "id" : "numOfKitchens",
+    "column" : "numOfKitchens",
+    "ar" : "عدد المطابخ",
+    "en" : "Number Of Kitchens",
+    "type" : "Integer"
+  }, {
+    "id" : "numOfOccupiedBeds",
+    "column" : "numOfOccupiedBeds",
+    "ar" : "عدد الاسرة المشغولة",
+    "en" : "Number Of Occupied Beds",
+    "type" : "Integer"
+  }, {
+    "id" : "numOfOccupiedOffices",
+    "column" : "numOfOccupiedOffices",
+    "ar" : "عدد المكاتب المشغولة",
+    "en" : "Number Of Occupied Offices",
+    "type" : "Integer"
+  }, {
+    "id" : "numOfOffRooms",
+    "column" : "numOfOffRooms",
+    "ar" : "عدد المكاتب",
+    "en" : "Number Of Offices",
+    "type" : "Integer"
+  }, {
+    "id" : "numOfOffices",
+    "column" : "numOfOffices",
+    "ar" : "عدد المكاتب ( أثاث )",
+    "en" : "Number Of Offices(Furniture)",
+    "type" : "Integer"
+  }, {
+    "id" : "numOfRooms",
+    "column" : "numOfRooms",
+    "ar" : "عدد الغرف",
+    "en" : "Number Of Rooms",
+    "type" : "Integer"
+  }, {
+    "id" : "numOfStores",
+    "column" : "numOfStores",
+    "ar" : "عدد المستودعات",
+    "en" : "Number Of Stores",
+    "type" : "Integer"
+  }, {
+    "id" : "owner",
+    "column" : "owner_id",
+    "ar" : "مالك المبني",
+    "en" : "Building Owner",
+    "type" : "Reference",
+    "refTo" : "HOOwner",
+    "refPath" : "/modules/housing/HOOwner.html"
+  }, {
+    "id" : "ownerShipType",
+    "column" : "OwnerShipType",
+    "ar" : "نوع الملكية",
+    "en" : "OwnerShip Type",
+    "type" : "Enum",
+    "enum" : "HOOwnerShipType"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "price",
+    "column" : "price",
+    "ar" : "السعر",
+    "en" : "Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "rentDetail.feesAmount",
+    "column" : "rentDetailFeesAmount",
+    "type" : "Decimal"
+  }, {
+    "id" : "rentDetail.feesType",
+    "column" : "rentDetailFeesType",
+    "ar" : "نوع السعي",
+    "en" : "FeesType",
+    "type" : "Enum",
+    "enum" : "FeesType"
+  }, {
+    "id" : "rentDetail.realestateOffice",
+    "column" : "rentDetailRealestateOffice_id",
+    "ar" : "المكتب العقاري",
+    "en" : "Realestate Office",
+    "type" : "Reference",
+    "refTo" : "ThirdParty",
+    "refPath" : "/modules/basic/ThirdParty.html"
+  }, {
+    "id" : "rentDetail.rentPeriod.uom",
+    "column" : "rentDetailRentPeriodUom",
+    "ar" : "الوحدة",
+    "en" : "Unit",
+    "type" : "Enum",
+    "enum" : "TimePeriodType"
+  }, {
+    "id" : "rentDetail.rentPeriod.value",
+    "column" : "rentDetailRentPeriodValue",
+    "ar" : "القيمة",
+    "en" : "Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "rentDetail.rentValue",
+    "column" : "rentDetailRentValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "rentDetail.worthDate",
+    "column" : "rentDetailWorthDate",
+    "ar" : "تاريخ الاستحقاق",
+    "en" : "Worth Date",
+    "type" : "Date"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "type",
+    "column" : "type_id",
+    "ar" : "النوع",
+    "en" : "Type",
+    "type" : "Reference",
+    "refTo" : "HOBuildingType",
+    "refPath" : "/modules/housing/HOBuildingType.html"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ]
+}

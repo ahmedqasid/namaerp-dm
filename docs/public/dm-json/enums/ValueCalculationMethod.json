@@ -1,0 +1,12 @@
+{
+  "enum" : "ValueCalculationMethod",
+  "values" : [ {
+    "id" : "FactorOnly",
+    "ar" : "المعامل فقط",
+    "en" : "Factor Only"
+  }, {
+    "id" : "FactorAndValue",
+    "ar" : "المعامل و قيمة المؤشر",
+    "en" : "Factor And Value"
+  } ]
+}

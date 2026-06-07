@@ -1,0 +1,12 @@
+{
+  "enum" : "LeastNumOperator",
+  "values" : [ {
+    "id" : "GreaterThan",
+    "ar" : "أكبر من",
+    "en" : "Greater Than"
+  }, {
+    "id" : "GreaterThanOrEqual",
+    "ar" : "أكبر من أو يساوي",
+    "en" : "Greater Than Or Equal"
+  } ]
+}

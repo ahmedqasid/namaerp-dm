@@ -1,0 +1,40 @@
+{
+  "enum" : "DeliveryStatus",
+  "values" : [ {
+    "id" : "NotDelivered",
+    "ar" : "بإنتظار التوصيل",
+    "en" : "NotDelivered"
+  }, {
+    "id" : "PartialDelivered",
+    "ar" : "توصيل جزئي",
+    "en" : "Partially Delivered"
+  }, {
+    "id" : "Delivered",
+    "ar" : "توصيل كلي",
+    "en" : "Totally Delivered"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
+  }, {
+    "id" : "Delivering",
+    "ar" : "جارى التوصيل",
+    "en" : "Delivering"
+  }, {
+    "id" : "Loaded",
+    "ar" : "تم التحميل",
+    "en" : "Loaded"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "ImportExpressionType",
+  "values" : [ {
+    "id" : "Tempo",
+    "ar" : "Tempo",
+    "en" : "Tempo"
+  }, {
+    "id" : "Groovy",
+    "ar" : "Groovy",
+    "en" : "Groovy"
+  }, {
+    "id" : "Query",
+    "ar" : "استعلام",
+    "en" : "Query"
+  } ]
+}

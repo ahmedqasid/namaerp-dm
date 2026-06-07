@@ -1,0 +1,59 @@
+{
+  "entity" : "NamaPOSErrorSysLine",
+  "table" : "NamaPOSErrorSysLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/NamaPOSErrorSysLine.html",
+  "fields" : [ {
+    "id" : "entityCode",
+    "column" : "entityCode",
+    "ar" : " الكود",
+    "en" : " Code",
+    "type" : "Text"
+  }, {
+    "id" : "entityID",
+    "column" : "entityID",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "Text"
+  }, {
+    "id" : "errorArrivalTime",
+    "column" : "errorArrivalTime",
+    "ar" : "وقت وصول الخطأ لنما",
+    "en" : "Error arrival time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "failure",
+    "column" : "failure",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "log",
+    "column" : "log",
+    "type" : "BigText"
+  }, {
+    "id" : "onTime",
+    "column" : "onTime",
+    "ar" : "الوقت",
+    "en" : "Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "registerCode",
+    "column" : "registerCode",
+    "ar" : "كود الماكينة",
+    "en" : "Register Code",
+    "type" : "Text"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

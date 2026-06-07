@@ -1,0 +1,12 @@
+{
+  "enum" : "QualityListType",
+  "values" : [ {
+    "id" : "Control",
+    "ar" : "فحص",
+    "en" : "Control"
+  }, {
+    "id" : "Assurance",
+    "ar" : "تأكيد",
+    "en" : "Assurance"
+  } ]
+}

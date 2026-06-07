@@ -1,0 +1,16 @@
+{
+  "enum" : "DistributeCostType",
+  "values" : [ {
+    "id" : "EstimatedCost",
+    "ar" : "التكلفة التقديرية",
+    "en" : "Estimated Cost"
+  }, {
+    "id" : "ActualCost",
+    "ar" : "التكلفة الفعلية",
+    "en" : "Actual Cost"
+  }, {
+    "id" : "CreateEstateCostEntries",
+    "ar" : "إنشاء إدخالات تكلفة العقارات",
+    "en" : "Create Estate Cost Entries"
+  } ]
+}

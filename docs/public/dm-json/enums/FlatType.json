@@ -1,0 +1,24 @@
+{
+  "enum" : "FlatType",
+  "values" : [ {
+    "id" : "Singles",
+    "ar" : "عزاب",
+    "en" : "Singles"
+  }, {
+    "id" : "Family",
+    "ar" : "عوائل",
+    "en" : "Family"
+  }, {
+    "id" : "Annexes",
+    "ar" : "ملاحق",
+    "en" : "Annexes"
+  }, {
+    "id" : "Caravan",
+    "ar" : "كرفان",
+    "en" : "Caravan"
+  }, {
+    "id" : "Archive",
+    "ar" : "أرشيف",
+    "en" : "Archive"
+  } ]
+}

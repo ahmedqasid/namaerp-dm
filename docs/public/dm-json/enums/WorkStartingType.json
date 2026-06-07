@@ -1,0 +1,28 @@
+{
+  "enum" : "WorkStartingType",
+  "values" : [ {
+    "id" : "BackFromVacation",
+    "ar" : "عودة من أجازة",
+    "en" : "Back From Vacation"
+  }, {
+    "id" : "NewHiring",
+    "ar" : "تعيين جديد",
+    "en" : "New Hiring"
+  }, {
+    "id" : "BackFromSuspension",
+    "ar" : "عودة من إيقاف",
+    "en" : "Back From Suspension"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  } ]
+}

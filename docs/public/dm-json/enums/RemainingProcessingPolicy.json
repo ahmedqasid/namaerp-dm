@@ -1,0 +1,20 @@
+{
+  "enum" : "RemainingProcessingPolicy",
+  "values" : [ {
+    "id" : "AddToFirstInstallement",
+    "ar" : "يضاف للقسط الأول",
+    "en" : "Add To First Installement"
+  }, {
+    "id" : "AddToLastInstallement",
+    "ar" : "يضاف للقسط الأخير",
+    "en" : "Add To Last Installement"
+  }, {
+    "id" : "NewInstallementInFirst",
+    "ar" : "قسط أول منفرد",
+    "en" : "New Installement In First"
+  }, {
+    "id" : "NewInstallementInlast",
+    "ar" : "قسط أخير منفرد",
+    "en" : "New Installement In last"
+  } ]
+}

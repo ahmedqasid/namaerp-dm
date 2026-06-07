@@ -1,0 +1,20 @@
+{
+  "enum" : "JRHorizontalAlign",
+  "values" : [ {
+    "id" : "Left",
+    "ar" : "يسار",
+    "en" : "Left"
+  }, {
+    "id" : "Center",
+    "ar" : "منتصف",
+    "en" : "Center"
+  }, {
+    "id" : "Right",
+    "ar" : "يمين",
+    "en" : "Right"
+  }, {
+    "id" : "Justified",
+    "ar" : "Justified",
+    "en" : "Justified"
+  } ]
+}

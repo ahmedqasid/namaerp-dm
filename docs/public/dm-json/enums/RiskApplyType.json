@@ -1,0 +1,12 @@
+{
+  "enum" : "RiskApplyType",
+  "values" : [ {
+    "id" : "PolicyImplemented",
+    "ar" : "السياسة مطبقة",
+    "en" : "Policy Is Implemented"
+  }, {
+    "id" : "PolicyNotImplemented",
+    "ar" : "السياسة غير مطبقة",
+    "en" : "Policy Is Not Implemented"
+  } ]
+}

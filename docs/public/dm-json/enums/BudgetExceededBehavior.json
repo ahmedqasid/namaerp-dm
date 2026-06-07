@@ -1,0 +1,16 @@
+{
+  "enum" : "BudgetExceededBehavior",
+  "values" : [ {
+    "id" : "Allow",
+    "ar" : "سماح",
+    "en" : "Allow"
+  }, {
+    "id" : "PreventSaving",
+    "ar" : "منع الحفظ",
+    "en" : "Prevent Saving"
+  }, {
+    "id" : "RequestApproval",
+    "ar" : "طلب موافقة",
+    "en" : "Request Approval"
+  } ]
+}

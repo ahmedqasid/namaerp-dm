@@ -1,0 +1,29 @@
+{
+  "entity" : "POS.ItemLine",
+  "table" : "ItemLine",
+  "module" : "pos-app",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.ItemLine.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "itemCode",
+    "column" : "itemCode",
+    "ar" : " الكود",
+    "en" : " Code",
+    "type" : "Text"
+  }, {
+    "id" : "itemName",
+    "column" : "itemName",
+    "ar" : "اسم الصنف",
+    "en" : "Item Name",
+    "type" : "Text"
+  }, {
+    "id" : "price",
+    "column" : "price",
+    "ar" : "السعر",
+    "en" : "Price",
+    "type" : "Text"
+  } ]
+}

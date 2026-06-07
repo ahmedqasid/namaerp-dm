@@ -1,0 +1,24 @@
+{
+  "enum" : "StudentContractType",
+  "values" : [ {
+    "id" : "Organization",
+    "ar" : "هيئة",
+    "en" : "Governmental"
+  }, {
+    "id" : "Private",
+    "ar" : "خاص",
+    "en" : "Private"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  } ]
+}

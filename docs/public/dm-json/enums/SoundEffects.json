@@ -1,0 +1,28 @@
+{
+  "enum" : "SoundEffects",
+  "values" : [ {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  }, {
+    "id" : "Sound1",
+    "ar" : "صوت 1",
+    "en" : "Sound 1"
+  }, {
+    "id" : "Sound2",
+    "ar" : "صوت 2",
+    "en" : "Sound 2"
+  }, {
+    "id" : "Sound3",
+    "ar" : "صوت 3",
+    "en" : "Sound 3"
+  }, {
+    "id" : "Sound4",
+    "ar" : "صوت 4",
+    "en" : "Sound 4"
+  }, {
+    "id" : "Sound5",
+    "ar" : "صوت 5",
+    "en" : "Sound 5"
+  } ]
+}

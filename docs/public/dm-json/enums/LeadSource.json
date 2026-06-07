@@ -1,0 +1,68 @@
+{
+  "enum" : "LeadSource",
+  "values" : [ {
+    "id" : "ColdCall",
+    "ar" : "إتصال ارتجالي",
+    "en" : "Cold Call"
+  }, {
+    "id" : "ExistingCustomer",
+    "ar" : "عميل حالي",
+    "en" : "Existing Customer"
+  }, {
+    "id" : "SelfGenerated",
+    "ar" : "من تلقاء نفسة",
+    "en" : "Self Generated"
+  }, {
+    "id" : "Employee",
+    "ar" : "موظف",
+    "en" : "Employee"
+  }, {
+    "id" : "Partner",
+    "ar" : "شريك",
+    "en" : "Partner"
+  }, {
+    "id" : "PublicRelations",
+    "ar" : "علاقات عامة",
+    "en" : "Public Relations"
+  }, {
+    "id" : "DirectMail",
+    "ar" : "بريد مباشر",
+    "en" : "Direct Mail"
+  }, {
+    "id" : "Conference",
+    "ar" : "مؤتمر",
+    "en" : "Conference"
+  }, {
+    "id" : "TradeShow",
+    "ar" : "معرض تجاري",
+    "en" : "Trade Show"
+  }, {
+    "id" : "Website",
+    "ar" : "موقع ويب",
+    "en" : "Web site"
+  }, {
+    "id" : "WordOfMouth",
+    "ar" : "توصية",
+    "en" : "Word Of Mouth"
+  }, {
+    "id" : "Campaign",
+    "ar" : "حملة",
+    "en" : "Campaign"
+  }, {
+    "id" : "Mediator",
+    "ar" : "وسيط",
+    "en" : "Mediator"
+  }, {
+    "id" : "Grant",
+    "ar" : "منحة",
+    "en" : "Grant"
+  }, {
+    "id" : "SocialNetworks",
+    "ar" : "مواقع التواصل الاجتماعي",
+    "en" : "Social Networks"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  } ]
+}

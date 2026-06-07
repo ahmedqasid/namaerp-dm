@@ -1,0 +1,20 @@
+{
+  "enum" : "CRTNLayerType",
+  "values" : [ {
+    "id" : "Front",
+    "ar" : "وجه",
+    "en" : "Front"
+  }, {
+    "id" : "Stuffing",
+    "ar" : "حشو",
+    "en" : "Stuffing"
+  }, {
+    "id" : "Back",
+    "ar" : "ظهر",
+    "en" : "Back"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  } ]
+}

@@ -1,0 +1,48 @@
+{
+  "enum" : "MagEcommerceSiteType",
+  "values" : [ {
+    "id" : "MagentoSite",
+    "ar" : "Magento Site",
+    "en" : "Magento Site"
+  }, {
+    "id" : "WooCommerceSite",
+    "ar" : "Woo Commerce Site",
+    "en" : "Woo Commerce Site"
+  }, {
+    "id" : "BigCommerceSite",
+    "ar" : "BigCommerce Site",
+    "en" : "BigCommerce Site"
+  }, {
+    "id" : "ShopifySite",
+    "ar" : "Shopify Site",
+    "en" : "Shopify Site"
+  }, {
+    "id" : "ZidCommerceSite",
+    "ar" : "Zid Site",
+    "en" : "Zid Site"
+  }, {
+    "id" : "SallaCommerce",
+    "ar" : "Salla Site",
+    "en" : "Salla Site"
+  }, {
+    "id" : "AtheerCommerce",
+    "ar" : "Atheer Site",
+    "en" : "Atheer Site"
+  }, {
+    "id" : "Salasa",
+    "ar" : "Salasa",
+    "en" : "Salasa"
+  }, {
+    "id" : "OTOUpdater",
+    "ar" : "OTO Updater",
+    "en" : "OTO Updater"
+  }, {
+    "id" : "AmazonSPAPI",
+    "ar" : "امازون",
+    "en" : "Amazon"
+  }, {
+    "id" : "AmazonSandboxAPI",
+    "ar" : "امازون (تجريبي)",
+    "en" : "Amazon (Sandbox)"
+  } ]
+}

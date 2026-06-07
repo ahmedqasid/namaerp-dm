@@ -1,0 +1,69 @@
+{
+  "entity" : "ContrMaterialDiscountEntry",
+  "table" : "ContrMaterialDiscountEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ContrMaterialDiscountEntry.html",
+  "fields" : [ {
+    "id" : "contract",
+    "columns" : [ "contractActualCode", " contractCode", " contractEntityType", " contractId" ],
+    "ar" : "العقد",
+    "en" : "Contract",
+    "type" : "Genericreference"
+  }, {
+    "id" : "contractorExtract",
+    "columns" : [ "contractorExtractActualCode", " contractorExtractCode", " contractorExtractEntityType", " contractorExtractId" ],
+    "ar" : "مستخلصات عقود المقاول الباطن",
+    "en" : "Contractor Extract",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "item",
+    "column" : "item_id",
+    "ar" : "الصنف",
+    "en" : "Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "lineId",
+    "column" : "lineId",
+    "ar" : "م",
+    "en" : "S",
+    "type" : "ID"
+  }, {
+    "id" : "lineNumber",
+    "column" : "lineNumber",
+    "ar" : "رقم السطر",
+    "en" : "Line Number",
+    "type" : "Integer"
+  }, {
+    "id" : "netValue",
+    "column" : "netValue",
+    "ar" : "الصافي",
+    "en" : "Net value",
+    "type" : "Decimal"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "standardTerm",
+    "column" : "standardTerm_id",
+    "ar" : "البند القياسي",
+    "en" : "Standard Term",
+    "type" : "Reference",
+    "refTo" : "ContractingStandardTerm",
+    "refPath" : "/modules/contracting/ContractingStandardTerm.html"
+  }, {
+    "id" : "termCode",
+    "column" : "termCode",
+    "ar" : "كود البند",
+    "en" : "Term Code",
+    "type" : "Text"
+  } ]
+}

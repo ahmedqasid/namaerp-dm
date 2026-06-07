@@ -1,0 +1,12 @@
+{
+  "enum" : "ShippingSiteType",
+  "values" : [ {
+    "id" : "Oto",
+    "ar" : "Oto",
+    "en" : "Oto"
+  }, {
+    "id" : "Salasa",
+    "ar" : "Salasa",
+    "en" : "Salasa"
+  } ]
+}

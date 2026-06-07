@@ -1,0 +1,12 @@
+{
+  "enum" : "LedgerEffectType",
+  "values" : [ {
+    "id" : "Debit",
+    "ar" : "مدين",
+    "en" : "Debit"
+  }, {
+    "id" : "Credit",
+    "ar" : "دائن",
+    "en" : "Credit"
+  } ]
+}

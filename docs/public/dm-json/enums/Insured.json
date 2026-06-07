@@ -1,0 +1,52 @@
+{
+  "enum" : "Insured",
+  "values" : [ {
+    "id" : "Employees",
+    "ar" : "موظفين",
+    "en" : "Employeess"
+  }, {
+    "id" : "Wifes",
+    "ar" : "زوجات",
+    "en" : "Wifes"
+  }, {
+    "id" : "Husbands",
+    "ar" : "أزواج",
+    "en" : "Husbands"
+  }, {
+    "id" : "Childrens",
+    "ar" : "اطفال",
+    "en" : "Childrens"
+  }, {
+    "id" : "Adults",
+    "ar" : "بالغين",
+    "en" : "Adults"
+  }, {
+    "id" : "Mothers",
+    "ar" : "أمهات",
+    "en" : "Mothers"
+  }, {
+    "id" : "Fathers",
+    "ar" : "أباء",
+    "en" : "Fathers"
+  }, {
+    "id" : "Child1",
+    "ar" : "ابن 1",
+    "en" : "Child 1"
+  }, {
+    "id" : "Child2",
+    "ar" : "ابن 2",
+    "en" : "Child 2"
+  }, {
+    "id" : "Child3",
+    "ar" : "ابن 3",
+    "en" : "Child 3"
+  }, {
+    "id" : "Child4",
+    "ar" : "ابن 4",
+    "en" : "Child 4"
+  }, {
+    "id" : "Child5",
+    "ar" : "ابن 5",
+    "en" : "Child 5"
+  } ]
+}

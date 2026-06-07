@@ -1,0 +1,32 @@
+{
+  "enum" : "EnrollmentStateType",
+  "values" : [ {
+    "id" : "Newcomer",
+    "ar" : "مستجد",
+    "en" : "Newcomer"
+  }, {
+    "id" : "Moved",
+    "ar" : "منقول",
+    "en" : "Moved"
+  }, {
+    "id" : "Enrolled",
+    "ar" : "مقيد",
+    "en" : "Enrolled"
+  }, {
+    "id" : "Reenrolled",
+    "ar" : "إعادة تسجيل",
+    "en" : "Reenrolled"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  } ]
+}

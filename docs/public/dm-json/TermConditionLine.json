@@ -1,0 +1,71 @@
+{
+  "entity" : "TermConditionLine",
+  "table" : "TermConditionLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/TermConditionLine.html",
+  "fields" : [ {
+    "id" : "conditionStatus",
+    "column" : "conditionStatus",
+    "ar" : "حالة الشرط",
+    "en" : "Condition Status",
+    "type" : "Enum",
+    "enum" : "ContractingCondStatus"
+  }, {
+    "id" : "contractingCondition",
+    "column" : "contractingCondition_id",
+    "ar" : "الشرط",
+    "en" : "Condition",
+    "type" : "Reference",
+    "refTo" : "ContractingCondition",
+    "refPath" : "/modules/contracting/ContractingCondition.html"
+  }, {
+    "id" : "finishedPercent",
+    "column" : "finishedPercent",
+    "ar" : "نسبة التنفيذ",
+    "en" : "% OF Finished",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "letterOfGuarantee",
+    "column" : "letterOfGuarantee_id",
+    "ar" : "خطاب الضمان",
+    "en" : "Letter Of Guarantee",
+    "type" : "Reference",
+    "refTo" : "LetterOfGuarantee",
+    "refPath" : "/modules/accounting-lgt/LetterOfGuarantee.html"
+  }, {
+    "id" : "remarks",
+    "column" : "remarks",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "source",
+    "columns" : [ "sourceActualCode", " sourceCode", " sourceEntityType", " sourceId" ],
+    "ar" : "المصدر",
+    "en" : "Source",
+    "type" : "Genericreference"
+  }, {
+    "id" : "textCondition",
+    "column" : "textCondition",
+    "ar" : "الشرط النصي",
+    "en" : "Text Condition",
+    "type" : "BigText"
+  }, {
+    "id" : "value",
+    "column" : "value",
+    "ar" : "القيمة",
+    "en" : "Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "valueType",
+    "column" : "valueType",
+    "ar" : "نوع القيمة",
+    "en" : "Value Type",
+    "type" : "Enum",
+    "enum" : "ConditionValType"
+  } ]
+}

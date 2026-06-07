@@ -1,0 +1,28 @@
+{
+  "enum" : "JRScaleImage",
+  "values" : [ {
+    "id" : "Default",
+    "ar" : "افتراضي",
+    "en" : "Default"
+  }, {
+    "id" : "Clip",
+    "ar" : "Clip",
+    "en" : "Clip"
+  }, {
+    "id" : "FillFrame",
+    "ar" : "Fill Frame",
+    "en" : "Fill Frame"
+  }, {
+    "id" : "RetainShape",
+    "ar" : "Retain Shape",
+    "en" : "Retain Shape"
+  }, {
+    "id" : "RealHeight",
+    "ar" : "Real Height",
+    "en" : "Real Height"
+  }, {
+    "id" : "RealSize",
+    "ar" : "Real Size",
+    "en" : "Real Size"
+  } ]
+}

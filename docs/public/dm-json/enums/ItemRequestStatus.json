@@ -1,0 +1,12 @@
+{
+  "enum" : "ItemRequestStatus",
+  "values" : [ {
+    "id" : "Processed",
+    "ar" : "تمت معالجته",
+    "en" : "Processed"
+  }, {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  } ]
+}

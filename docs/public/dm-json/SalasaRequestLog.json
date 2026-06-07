@@ -1,0 +1,59 @@
+{
+  "entity" : "SalasaRequestLog",
+  "table" : "SalasaRequestLog",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SalasaRequestLog.html",
+  "fields" : [ {
+    "id" : "changeDeliveryStatusFrom",
+    "column" : "changeDeliveryStatusFrom",
+    "ar" : "تغيير حالة التوصيل من",
+    "en" : "Change Delivery Status From",
+    "type" : "Text"
+  }, {
+    "id" : "changeDeliveryStatusTo",
+    "column" : "changeDeliveryStatusTo",
+    "ar" : "تغيير حالة التوصيل إلي",
+    "en" : "Change Delivery Status To",
+    "type" : "Text"
+  }, {
+    "id" : "changeShippingCompanyFrom",
+    "column" : "changeShippingCompanyFrom",
+    "ar" : "تغيير شركة التوصيل من",
+    "en" : "Change Shipping Company From",
+    "type" : "Text"
+  }, {
+    "id" : "changeShippingCompanyTo",
+    "column" : "changeShippingCompanyTo",
+    "ar" : "تغيير شركة التوصيل إلى",
+    "en" : "Change Shipping Company To",
+    "type" : "Text"
+  }, {
+    "id" : "doc",
+    "columns" : [ "docActualCode", " docCode", " docEntityType", " docId" ],
+    "ar" : "المستند",
+    "en" : "Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "requestDate",
+    "column" : "requestDate",
+    "ar" : "تاريخ الطلب",
+    "en" : "Request Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "requestStatus",
+    "column" : "requestStatus",
+    "ar" : "حالة الطلب",
+    "en" : "Request Status",
+    "type" : "Text"
+  }, {
+    "id" : "site",
+    "column" : "site_id",
+    "type" : "Reference",
+    "refTo" : "EcommerceShippingSite",
+    "refPath" : "/modules/magento/EcommerceShippingSite.html"
+  } ]
+}

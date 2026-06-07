@@ -1,0 +1,20 @@
+{
+  "enum" : "QuantitySourceType",
+  "values" : [ {
+    "id" : "ReservedQuantity",
+    "ar" : "الكمية المحجوزة",
+    "en" : "Reserved Quantity"
+  }, {
+    "id" : "DocumentQuantity",
+    "ar" : "كمية المستند",
+    "en" : "Document Quantity"
+  }, {
+    "id" : "FromSQLStatment",
+    "ar" : "SQL من جملة",
+    "en" : "SQL Statement"
+  }, {
+    "id" : "QuantityFieldId",
+    "ar" : "حقل الكمية",
+    "en" : "Quantity Field ID"
+  } ]
+}

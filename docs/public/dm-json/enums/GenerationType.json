@@ -1,0 +1,12 @@
+{
+  "enum" : "GenerationType",
+  "values" : [ {
+    "id" : "NotGenerated"
+  }, {
+    "id" : "GeneratedEditable"
+  }, {
+    "id" : "GeneratedFinal",
+    "ar" : "خاص بالنظام",
+    "en" : "System Record"
+  } ]
+}

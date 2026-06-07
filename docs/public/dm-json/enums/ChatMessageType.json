@@ -1,0 +1,35 @@
+{
+  "enum" : "ChatMessageType",
+  "values" : [ {
+    "id" : "Text",
+    "ar" : "نص",
+    "en" : "Text"
+  }, {
+    "id" : "Image",
+    "ar" : "الصوره",
+    "en" : "Image"
+  }, {
+    "id" : "File",
+    "ar" : "File",
+    "en" : "File"
+  }, {
+    "id" : "Audio",
+    "ar" : "Audio",
+    "en" : "Audio"
+  }, {
+    "id" : "Video",
+    "ar" : "Video",
+    "en" : "Video"
+  }, {
+    "id" : "Location",
+    "ar" : "موقع مخزني"
+  }, {
+    "id" : "Contact",
+    "ar" : "جهة إتصال",
+    "en" : "Contact"
+  }, {
+    "id" : "System",
+    "ar" : "نظامى",
+    "en" : "System"
+  } ]
+}

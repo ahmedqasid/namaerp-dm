@@ -1,0 +1,12 @@
+{
+  "enum" : "PricingAction",
+  "values" : [ {
+    "id" : "UpdatePrice",
+    "ar" : "تعديل السعر",
+    "en" : "Update Price"
+  }, {
+    "id" : "DoNotUpdatePrice",
+    "ar" : "منع تعديل السعر",
+    "en" : "Do Not Update Price"
+  } ]
+}

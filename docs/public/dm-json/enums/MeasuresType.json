@@ -1,0 +1,16 @@
+{
+  "enum" : "MeasuresType",
+  "values" : [ {
+    "id" : "SingleDimension",
+    "ar" : "أحادي البعد",
+    "en" : "Single Dimension"
+  }, {
+    "id" : "TwoDimensions",
+    "ar" : "ثنائي الأبعاد",
+    "en" : "Two Dimensions"
+  }, {
+    "id" : "ThreeDimensions",
+    "ar" : "ثلاثي الأبعاد",
+    "en" : "Three Dimensions"
+  } ]
+}

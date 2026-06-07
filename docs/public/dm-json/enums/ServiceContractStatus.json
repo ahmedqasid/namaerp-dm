@@ -1,0 +1,28 @@
+{
+  "enum" : "ServiceContractStatus",
+  "values" : [ {
+    "id" : "Upgraded",
+    "ar" : "تم ترقيته",
+    "en" : "upgraded"
+  }, {
+    "id" : "Transferred",
+    "ar" : "محول",
+    "en" : "transferred"
+  }, {
+    "id" : "Renewed",
+    "ar" : "مجدد",
+    "en" : "renewed"
+  }, {
+    "id" : "Extended",
+    "ar" : "تم الحاقه",
+    "en" : "extended"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  } ]
+}

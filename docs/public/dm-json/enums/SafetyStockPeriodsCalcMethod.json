@@ -1,0 +1,16 @@
+{
+  "enum" : "SafetyStockPeriodsCalcMethod",
+  "values" : [ {
+    "id" : "RequiredInCurrentPeriod",
+    "ar" : "المطلوب في نفس الفتره",
+    "en" : "Required In Current Period"
+  }, {
+    "id" : "PlanAverage",
+    "ar" : "متوسط المطلوب في مدة التخطيط",
+    "en" : "Plan Average"
+  }, {
+    "id" : "NextPeriods",
+    "ar" : "المطلوب في الفترات التالية",
+    "en" : "Next Periods"
+  } ]
+}

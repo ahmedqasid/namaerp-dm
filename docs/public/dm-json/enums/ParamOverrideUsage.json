@@ -1,0 +1,12 @@
+{
+  "enum" : "ParamOverrideUsage",
+  "values" : [ {
+    "id" : "DefaultValue",
+    "ar" : "Default Value",
+    "en" : "Default Value"
+  }, {
+    "id" : "ReplaceValue",
+    "ar" : "Replace Value",
+    "en" : "Replace Value"
+  } ]
+}

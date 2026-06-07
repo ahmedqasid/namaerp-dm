@@ -1,0 +1,16 @@
+{
+  "enum" : "QuantityToSendType",
+  "values" : [ {
+    "id" : "ZeroQuantityIfLessThanMin",
+    "ar" : "الكمية بصفر(تصفير الكمية في ماجنتو إذا وصلت الكمية إلي قيمة تساوي او اقل من أقل كمية للإرسال)",
+    "en" : "Zero Quantity(If Quantity Reached to Less or equal Minimum Quantity)"
+  }, {
+    "id" : "QuantityMinusMinQty",
+    "ar" : "الكمية - اقل كمية للإرسال",
+    "en" : "Quantity - minQtyToSend"
+  }, {
+    "id" : "MaxOfQtyAndMinQty",
+    "ar" : "أعلي قيمة من الكمية وأقل كمية للإرسال",
+    "en" : "Maximum Of Quantity And Minimum Quantity"
+  } ]
+}

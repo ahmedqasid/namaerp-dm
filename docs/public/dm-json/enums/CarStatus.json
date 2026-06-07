@@ -1,0 +1,48 @@
+{
+  "enum" : "CarStatus",
+  "values" : [ {
+    "id" : "CarStatus1",
+    "ar" : "حالة 1",
+    "en" : "Status 1"
+  }, {
+    "id" : "CarStatus2",
+    "ar" : "حالة 2",
+    "en" : "Status 2"
+  }, {
+    "id" : "CarStatus3",
+    "ar" : "حالة 3",
+    "en" : "Status 3"
+  }, {
+    "id" : "CarStatus4",
+    "ar" : "حالة 4",
+    "en" : "Status 4"
+  }, {
+    "id" : "Active",
+    "ar" : "فعال",
+    "en" : "Active"
+  }, {
+    "id" : "Accident",
+    "ar" : "حادثة",
+    "en" : "Accident"
+  }, {
+    "id" : "Suspended",
+    "ar" : "موقوف",
+    "en" : "Suspended"
+  }, {
+    "id" : "Maintenance",
+    "ar" : "الصيانة",
+    "en" : "Fixed Asset Maintenance"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  } ]
+}

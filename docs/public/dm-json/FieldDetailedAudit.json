@@ -1,0 +1,101 @@
+{
+  "entity" : "FieldDetailedAudit",
+  "table" : "FieldDetailedAudit",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/FieldDetailedAudit.html",
+  "fields" : [ {
+    "id" : "actionDate",
+    "column" : "actionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Action Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "deletedLine",
+    "column" : "deletedLine",
+    "ar" : "سطر محذوف",
+    "en" : "Deleted Line",
+    "type" : "Boolean"
+  }, {
+    "id" : "fieldID",
+    "column" : "fieldID",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lineId",
+    "column" : "lineId",
+    "ar" : "م",
+    "en" : "S",
+    "type" : "ID"
+  }, {
+    "id" : "newDate",
+    "column" : "newDate",
+    "ar" : "التاريخ الجديد",
+    "en" : "New Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "newLine",
+    "column" : "newLine",
+    "ar" : "سطر جديد",
+    "en" : "New Line",
+    "type" : "Boolean"
+  }, {
+    "id" : "newNum",
+    "column" : "newNum",
+    "ar" : "الرقم الجديد",
+    "en" : "New Number",
+    "type" : "Decimal"
+  }, {
+    "id" : "newRef",
+    "columns" : [ "newRefActualCode", " newRefCode", " newRefEntityType", " newRefId" ],
+    "ar" : "المرجع الجديد",
+    "en" : "New Reference",
+    "type" : "Genericreference"
+  }, {
+    "id" : "newValue",
+    "column" : "newValue",
+    "ar" : "القيمة الجديدة",
+    "en" : "New Value",
+    "type" : "BigText"
+  }, {
+    "id" : "oldDate",
+    "column" : "oldDate",
+    "ar" : "التاريخ القديم",
+    "en" : "Old Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "oldNum",
+    "column" : "oldNum",
+    "ar" : "الرقم القديم",
+    "en" : "Old Number",
+    "type" : "Decimal"
+  }, {
+    "id" : "oldRef",
+    "columns" : [ "oldRefActualCode", " oldRefCode", " oldRefEntityType", " oldRefId" ],
+    "ar" : "المرجع القديم",
+    "en" : "Old Reference",
+    "type" : "Genericreference"
+  }, {
+    "id" : "oldValue",
+    "column" : "oldValue",
+    "ar" : "القيمة القديمة",
+    "en" : "Old Value",
+    "type" : "BigText"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "versionNumber",
+    "column" : "versionNumber",
+    "ar" : "رقم الإصدار",
+    "en" : "Version Number",
+    "type" : "Integer"
+  } ]
+}

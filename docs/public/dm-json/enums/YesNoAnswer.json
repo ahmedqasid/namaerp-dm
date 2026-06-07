@@ -1,0 +1,12 @@
+{
+  "enum" : "YesNoAnswer",
+  "values" : [ {
+    "id" : "Yes",
+    "ar" : "نعم",
+    "en" : "Yes"
+  }, {
+    "id" : "No",
+    "ar" : "لا",
+    "en" : "No"
+  } ]
+}

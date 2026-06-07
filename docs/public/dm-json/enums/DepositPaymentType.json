@@ -1,0 +1,12 @@
+{
+  "enum" : "DepositPaymentType",
+  "values" : [ {
+    "id" : "OneInstallment",
+    "ar" : "قسط منفرد",
+    "en" : "One Value"
+  }, {
+    "id" : "DistributedToInstallments",
+    "ar" : "توزع على الاقساط",
+    "en" : "Distributed To Installments"
+  } ]
+}

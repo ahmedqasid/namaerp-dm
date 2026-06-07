@@ -1,0 +1,202 @@
+{
+  "enum" : "POSHeaderFields",
+  "values" : [ {
+    "id" : "Customer",
+    "ar" : "عميل",
+    "en" : "Customer"
+  }, {
+    "id" : "Currency",
+    "ar" : "عملة",
+    "en" : "Currency"
+  }, {
+    "id" : "SalesMan",
+    "ar" : " مندوب المبيعات",
+    "en" : " Salesman"
+  }, {
+    "id" : "InvoiceClassification",
+    "ar" : "تصنيف الفواتير",
+    "en" : "InvoiceClassification"
+  }, {
+    "id" : "Warehouse",
+    "ar" : "مخزن",
+    "en" : "Warehouse"
+  }, {
+    "id" : "HeaderDiscountPercentage",
+    "ar" : "نسبة خصم الفاتورة",
+    "en" : "Header Discount Percentage"
+  }, {
+    "id" : "HeaderDiscountValue",
+    "ar" : "قيمة خصم الفاتورة",
+    "en" : "Header Discount Value"
+  }, {
+    "id" : "Table",
+    "ar" : "طاولة",
+    "en" : "Table"
+  }, {
+    "id" : "DocCategory",
+    "ar" : "تصنيف سجل",
+    "en" : "Record Category"
+  }, {
+    "id" : "PriceClassifier1",
+    "ar" : " محدد سعر 1",
+    "en" : " Price Classifier 1"
+  }, {
+    "id" : "PriceClassifier2",
+    "ar" : " محدد سعر 2",
+    "en" : " Price Classifier 2"
+  }, {
+    "id" : "PriceClassifier3",
+    "ar" : " محدد سعر 3",
+    "en" : " Price Classifier 3"
+  }, {
+    "id" : "PriceClassifier4",
+    "ar" : " محدد سعر 4",
+    "en" : " Price Classifier 4"
+  }, {
+    "id" : "PriceClassifier5",
+    "ar" : " محدد سعر 5",
+    "en" : " Price Classifier 5"
+  }, {
+    "id" : "Locator",
+    "ar" : "موقع",
+    "en" : "Locator"
+  }, {
+    "id" : "Subsidiary",
+    "ar" : "ذمة",
+    "en" : "Subsidiary"
+  }, {
+    "id" : "AddressRegion",
+    "ar" : "منطقه",
+    "en" : "Address Region"
+  }, {
+    "id" : "Driver",
+    "ar" : "السائق",
+    "en" : "Driver"
+  }, {
+    "id" : "N1",
+    "ar" : " رقم 1",
+    "en" : " Number 1"
+  }, {
+    "id" : "N2",
+    "ar" : " رقم 2",
+    "en" : " Number 2"
+  }, {
+    "id" : "N3",
+    "ar" : " رقم 3",
+    "en" : " Number 3"
+  }, {
+    "id" : "N4",
+    "ar" : " رقم 4",
+    "en" : " Number 4"
+  }, {
+    "id" : "N5",
+    "ar" : " رقم 5",
+    "en" : " Number 5"
+  }, {
+    "id" : "Date1",
+    "ar" : " تـــاريخ 1",
+    "en" : "Date 1"
+  }, {
+    "id" : "Date2",
+    "ar" : " تـــاريخ 2",
+    "en" : "Date 2"
+  }, {
+    "id" : "Date3",
+    "ar" : " تاريخ 3",
+    "en" : "Date3"
+  }, {
+    "id" : "Date4",
+    "ar" : " تاريخ 4",
+    "en" : "Date4"
+  }, {
+    "id" : "Date5",
+    "ar" : " تاريخ 5",
+    "en" : "Date5"
+  }, {
+    "id" : "Description1",
+    "ar" : "الوصف 1",
+    "en" : "description1"
+  }, {
+    "id" : "Description2",
+    "ar" : "الوصف 2",
+    "en" : "description2"
+  }, {
+    "id" : "Description3",
+    "ar" : "الوصف 3",
+    "en" : "description3"
+  }, {
+    "id" : "Description4",
+    "ar" : "الوصف 4",
+    "en" : "description4"
+  }, {
+    "id" : "Description5",
+    "ar" : "الوصف 5",
+    "en" : "description5"
+  }, {
+    "id" : "Remarks",
+    "ar" : "الملاحظات",
+    "en" : "Remarks"
+  }, {
+    "id" : "DeliveryDate",
+    "ar" : " تاريخ التوصيل",
+    "en" : " Delivery Date"
+  }, {
+    "id" : "ReservationDate",
+    "ar" : "تاريخ الحجز",
+    "en" : "Reservation Date"
+  }, {
+    "id" : "ReservationAmount",
+    "ar" : "قيمة الحجز",
+    "en" : "Reservation Amount"
+  }, {
+    "id" : "Reservation",
+    "ar" : " الحجز",
+    "en" : " Reservation"
+  }, {
+    "id" : "PaymentMethod",
+    "ar" : "طريقة دفع",
+    "en" : "Payment Method"
+  }, {
+    "id" : "ReturnReason",
+    "ar" : "سبب الإرجاع",
+    "en" : "Return Reason"
+  }, {
+    "id" : "Value",
+    "ar" : "قيمة",
+    "en" : "Value"
+  }, {
+    "id" : "Type"
+  }, {
+    "id" : "Attachment1",
+    "ar" : "attachment1",
+    "en" : "Attachment1"
+  }, {
+    "id" : "Attachment2",
+    "ar" : "attachment2",
+    "en" : "Attachment2"
+  }, {
+    "id" : "NamaDocToPayCode"
+  }, {
+    "id" : "CancelReservation",
+    "ar" : "إلغاء طلب الحجز",
+    "en" : "Cancel reservation"
+  }, {
+    "id" : "Code",
+    "ar" : " الكود",
+    "en" : " Code"
+  }, {
+    "id" : "Amount",
+    "ar" : "المبلغ",
+    "en" : "Amount"
+  }, {
+    "id" : "Total",
+    "ar" : " الإجمالي",
+    "en" : " Total"
+  }, {
+    "id" : "Paid",
+    "ar" : "مُسَدّدْ",
+    "en" : "Paid"
+  }, {
+    "id" : "GenCoupon"
+  } ]
+}

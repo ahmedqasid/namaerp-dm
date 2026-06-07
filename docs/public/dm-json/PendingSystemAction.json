@@ -1,0 +1,118 @@
+{
+  "entity" : "PendingSystemAction",
+  "table" : "PendingSystemAction",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/PendingSystemAction.html",
+  "fields" : [ {
+    "id" : "actionType",
+    "column" : "actionType",
+    "ar" : "نوع الإجراء",
+    "en" : "Action Type",
+    "type" : "Enum",
+    "enum" : "PendingSystemActionType"
+  }, {
+    "id" : "currentDimensions",
+    "column" : "currentDimensions",
+    "type" : "BigText"
+  }, {
+    "id" : "currentLanguage",
+    "column" : "currentLanguage",
+    "type" : "Text"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "doNotDeleteAfterExecution",
+    "column" : "doNotDeleteAfterExecution",
+    "en" : "Do Not Delete After Execution",
+    "type" : "Boolean"
+  }, {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "executionDate",
+    "column" : "executionDate",
+    "ar" : "تاريخ التنفيذ",
+    "en" : "Execution Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "extraInfo",
+    "column" : "extraInfo",
+    "ar" : "معلومات إضافية",
+    "en" : "Extra Info",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "notifyRecordAfterFinish",
+    "column" : "notifyRecordAfterFinish",
+    "ar" : "Notify Record After Finish",
+    "en" : "Notify Record After Finish",
+    "type" : "Boolean"
+  }, {
+    "id" : "relatedToId1",
+    "column" : "relatedToId1",
+    "type" : "ID"
+  }, {
+    "id" : "relatedToId2",
+    "column" : "relatedToId2",
+    "type" : "ID"
+  }, {
+    "id" : "requestResponse",
+    "column" : "requestResponse",
+    "ar" : "Request Response",
+    "en" : "Request Response",
+    "type" : "BigText"
+  }, {
+    "id" : "requester",
+    "columns" : [ "requesterActualCode", " requesterCode", " requesterEntityType", " requesterId" ],
+    "ar" : "محرر الطلب",
+    "en" : "Requester",
+    "type" : "Genericreference"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
+    "id" : "submitionDate",
+    "column" : "submitionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Submition Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "targetRecord",
+    "columns" : [ "targetRecordActualCode", " targetRecordCode", " targetRecordEntityType", " targetRecordId" ],
+    "ar" : "السجل",
+    "en" : "Target Record",
+    "type" : "Genericreference"
+  }, {
+    "id" : "trials",
+    "column" : "trials",
+    "ar" : "عدد محاولات",
+    "en" : "Trials",
+    "type" : "Integer"
+  } ]
+}

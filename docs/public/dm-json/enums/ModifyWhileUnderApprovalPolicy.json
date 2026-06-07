@@ -1,0 +1,16 @@
+{
+  "enum" : "ModifyWhileUnderApprovalPolicy",
+  "values" : [ {
+    "id" : "AllowForAuthorizedUsers",
+    "ar" : "السماح بالتعديل لكل من لديه الصلاحية",
+    "en" : "Allow For Authorized Users"
+  }, {
+    "id" : "AllowForAuthorizedAndCanApprove",
+    "ar" : "السماح بالتعديل فقط لمن لديه الصلاحية و يمكنه الموافقة على الخطوة",
+    "en" : "Allow For Authorized Users Who Can Approve The Step"
+  }, {
+    "id" : "PreventModify",
+    "ar" : "ممنوع التعديل",
+    "en" : "Prevent Modify"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "FreightChargesType",
+  "values" : [ {
+    "id" : "Collect",
+    "ar" : "Collect",
+    "en" : "Collect"
+  }, {
+    "id" : "Prepaid",
+    "ar" : "Prepaid",
+    "en" : "Prepaid"
+  } ]
+}

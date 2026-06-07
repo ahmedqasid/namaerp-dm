@@ -1,0 +1,20 @@
+{
+  "enum" : "DMSOutMovementType",
+  "values" : [ {
+    "id" : "Temporary",
+    "ar" : "مؤقت",
+    "en" : "Temporary"
+  }, {
+    "id" : "Final",
+    "ar" : "نهائي",
+    "en" : "Final"
+  }, {
+    "id" : "Disposal",
+    "ar" : "تخلص",
+    "en" : "Disposal"
+  }, {
+    "id" : "Lost",
+    "ar" : "فقد",
+    "en" : "Lost"
+  } ]
+}

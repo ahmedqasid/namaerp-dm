@@ -1,0 +1,12 @@
+{
+  "enum" : "EquaitionOperatorType",
+  "values" : [ {
+    "id" : "Positive",
+    "ar" : "بالموجب",
+    "en" : "Positive"
+  }, {
+    "id" : "Negative",
+    "ar" : "بالسالب",
+    "en" : "Negative"
+  } ]
+}

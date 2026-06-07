@@ -1,0 +1,12 @@
+{
+  "enum" : "DiscountCouponStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Complete",
+    "ar" : "تمت المعالجة",
+    "en" : "Complete"
+  } ]
+}

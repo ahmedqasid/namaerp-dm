@@ -1,0 +1,171 @@
+{
+  "enum" : "JasperBand",
+  "values" : [ {
+    "id" : "ReportHeader",
+    "ar" : "رأس التقرير",
+    "en" : "Report Header"
+  }, {
+    "id" : "PageHeader",
+    "ar" : "رأس الصفحة",
+    "en" : "Page Header"
+  }, {
+    "id" : "ColumnHeader",
+    "ar" : "رؤوس الأعمدة",
+    "en" : "Column Header"
+  }, {
+    "id" : "Details",
+    "ar" : "التفاصيل",
+    "en" : "Details"
+  }, {
+    "id" : "PageFooter",
+    "ar" : "ذيل الصفحة",
+    "en" : "Page Footer"
+  }, {
+    "id" : "Summary",
+    "ar" : "الإجماليات",
+    "en" : "Summary"
+  }, {
+    "id" : "NoData",
+    "ar" : "لا توجد بيانات",
+    "en" : "No Data"
+  }, {
+    "id" : "Group1Header",
+    "ar" : "رأس مجموعة 1",
+    "en" : "Group 1 Header"
+  }, {
+    "id" : "Group1Footer",
+    "ar" : "ذيل مجموعة 1",
+    "en" : "Group 1 Footer"
+  }, {
+    "id" : "Group2Header",
+    "ar" : "رأس مجموعة 2",
+    "en" : "Group 2 Header"
+  }, {
+    "id" : "Group2Footer",
+    "ar" : "ذيل مجموعة 2",
+    "en" : "Group 2 Footer"
+  }, {
+    "id" : "Group3Header",
+    "ar" : "رأس مجموعة 3",
+    "en" : "Group 3 Header"
+  }, {
+    "id" : "Group3Footer",
+    "ar" : "ذيل مجموعة 3",
+    "en" : "Group 3 Footer"
+  }, {
+    "id" : "Group4Header",
+    "ar" : "رأس مجموعة 4",
+    "en" : "Group 4 Header"
+  }, {
+    "id" : "Group4Footer",
+    "ar" : "ذيل مجموعة 4",
+    "en" : "Group 4 Footer"
+  }, {
+    "id" : "Group5Header",
+    "ar" : "رأس مجموعة 5",
+    "en" : "Group 5 Header"
+  }, {
+    "id" : "Group5Footer",
+    "ar" : "ذيل مجموعة 5",
+    "en" : "Group 5 Footer"
+  }, {
+    "id" : "HeaderFields1",
+    "ar" : "Header Fields 1",
+    "en" : "Header Fields 1"
+  }, {
+    "id" : "DetailFields1",
+    "ar" : "Detail Fields 1",
+    "en" : "Detail Fields 1"
+  }, {
+    "id" : "HeaderFields2",
+    "ar" : "Header Fields 2",
+    "en" : "Header Fields 2"
+  }, {
+    "id" : "DetailFields2",
+    "ar" : "Detail Fields 2",
+    "en" : "Detail Fields 2"
+  }, {
+    "id" : "HeaderFields3",
+    "ar" : "Header Fields 3",
+    "en" : "Header Fields 3"
+  }, {
+    "id" : "DetailFields3",
+    "ar" : "Detail Fields 3",
+    "en" : "Detail Fields 3"
+  }, {
+    "id" : "HeaderFields4",
+    "ar" : "Header Fields 4",
+    "en" : "Header Fields 4"
+  }, {
+    "id" : "DetailFields4",
+    "ar" : "Detail Fields 4",
+    "en" : "Detail Fields 4"
+  }, {
+    "id" : "HeaderFields5",
+    "ar" : "Header Fields 5",
+    "en" : "Header Fields 5"
+  }, {
+    "id" : "DetailFields5",
+    "ar" : "Detail Fields 5",
+    "en" : "Detail Fields 5"
+  }, {
+    "id" : "ColumnHeader1",
+    "ar" : "رؤوس الأعمدة 1"
+  }, {
+    "id" : "ColumnHeader2",
+    "ar" : "رؤوس الأعمدة 2"
+  }, {
+    "id" : "ColumnHeader3",
+    "ar" : "رؤوس الأعمدة 3"
+  }, {
+    "id" : "ColumnHeader4",
+    "ar" : "رؤوس الأعمدة 4"
+  }, {
+    "id" : "ColumnHeader5",
+    "ar" : "رؤوس الأعمدة 5"
+  }, {
+    "id" : "Title1"
+  }, {
+    "id" : "Title2"
+  }, {
+    "id" : "Title3"
+  }, {
+    "id" : "Title4"
+  }, {
+    "id" : "Title5"
+  }, {
+    "id" : "Details1",
+    "ar" : "التفاصيل 1"
+  }, {
+    "id" : "Details2",
+    "ar" : "التفاصيل 2"
+  }, {
+    "id" : "Details3",
+    "ar" : "التفاصيل 3"
+  }, {
+    "id" : "Details4",
+    "ar" : "التفاصيل 4"
+  }, {
+    "id" : "Details5",
+    "ar" : "التفاصيل 5"
+  }, {
+    "id" : "Summary1",
+    "ar" : "الإجماليات 1"
+  }, {
+    "id" : "Summary2",
+    "ar" : "الإجماليات 2"
+  }, {
+    "id" : "Summary3",
+    "ar" : "الإجماليات 3"
+  }, {
+    "id" : "Summary4",
+    "ar" : "الإجماليات 4"
+  }, {
+    "id" : "Summary5",
+    "ar" : "الإجماليات 5"
+  }, {
+    "id" : "LastPageFooter",
+    "ar" : "ذيل اخر صفحة",
+    "en" : "Last Page Footer"
+  } ]
+}

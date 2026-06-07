@@ -1,0 +1,20 @@
+{
+  "enum" : "OperationStep",
+  "values" : [ {
+    "id" : "ToMove",
+    "ar" : "جاهز للحركة",
+    "en" : "To Move"
+  }, {
+    "id" : "Scrap",
+    "ar" : "تالف",
+    "en" : "Scrap"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "Sample",
+    "ar" : "سحب عينة",
+    "en" : "Sample"
+  } ]
+}

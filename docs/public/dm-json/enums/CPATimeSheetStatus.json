@@ -1,0 +1,20 @@
+{
+  "enum" : "CPATimeSheetStatus",
+  "values" : [ {
+    "id" : "WaitingApproval",
+    "ar" : "بإنتظار الموافقة",
+    "en" : "Waiting Approval"
+  }, {
+    "id" : "Approved",
+    "ar" : "مقبول",
+    "en" : "Approved"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "NotSent",
+    "ar" : "لم يرسل بعد",
+    "en" : "Not Sent"
+  } ]
+}

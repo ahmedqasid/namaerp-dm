@@ -1,0 +1,76 @@
+{
+  "entity" : "REInvestmentFundInvestorTransaction",
+  "table" : "REInvestmentFundInvestorTransaction",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/REInvestmentFundInvestorTransaction.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "doNotDeductManagementPercentage",
+    "column" : "doNotDeductManagementPercentage",
+    "ar" : "عدم خصم نسبة الإدارة",
+    "en" : "Do Not Deduct Management Percentage",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "investmentChange",
+    "column" : "investmentChange",
+    "ar" : "التغير في قيمة الاستثمار",
+    "en" : "Investment Change",
+    "type" : "Decimal"
+  }, {
+    "id" : "investmentFund",
+    "column" : "investmentFund_id",
+    "type" : "Reference",
+    "refTo" : "REInvestmentFund",
+    "refPath" : "/modules/realestate/REInvestmentFund.html"
+  }, {
+    "id" : "investor",
+    "column" : "investor_id",
+    "ar" : "مستثمر",
+    "en" : "Investor",
+    "type" : "Reference",
+    "refTo" : "REOwner",
+    "refPath" : "/modules/realestate/REOwner.html"
+  }, {
+    "id" : "mainInvestor",
+    "column" : "mainInvestor_id",
+    "ar" : "المستثمر الرئيسي",
+    "en" : "Main Investor",
+    "type" : "Reference",
+    "refTo" : "REOwner",
+    "refPath" : "/modules/realestate/REOwner.html"
+  }, {
+    "id" : "mainInvestorCommissionPercentage",
+    "column" : "mainInvestorCommissionPercentage",
+    "ar" : "نسبة عمولة المستثمر الرئيسي",
+    "en" : "Main Investor Commission Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "type",
+    "column" : "type",
+    "ar" : "النوع",
+    "en" : "Type",
+    "type" : "Enum",
+    "enum" : "REInvestmentInvestorType"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "MRPForcastingPeriod",
+  "values" : [ {
+    "id" : "Weekly",
+    "ar" : "أسبوعي",
+    "en" : "Weekly"
+  }, {
+    "id" : "Quarterly",
+    "ar" : "ربع سنوية",
+    "en" : "Quarterly"
+  }, {
+    "id" : "Monthly",
+    "ar" : "شهرية",
+    "en" : "Monthly"
+  } ]
+}

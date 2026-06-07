@@ -1,0 +1,40 @@
+{
+  "enum" : "ExpenseCreditSide",
+  "values" : [ {
+    "id" : "CustomsCompanyAcc",
+    "ar" : "حساب شركة التخليص",
+    "en" : "Customs Company Account"
+  }, {
+    "id" : "InsuranceCompanyAcc",
+    "ar" : "حساب شركة التأمين",
+    "en" : "Insurance Company Account"
+  }, {
+    "id" : "ShippingCompanyAcc",
+    "ar" : "حساب شركة الشحن",
+    "en" : "Shipping Company Account"
+  }, {
+    "id" : "BankAcc",
+    "ar" : "الحساب البنكي",
+    "en" : "Bank Account"
+  }, {
+    "id" : "SupplierAcc",
+    "ar" : "حساب المورد",
+    "en" : "Supplier Account"
+  }, {
+    "id" : "SpecieficAcc",
+    "ar" : "حساب محدد",
+    "en" : "Specific Account"
+  }, {
+    "id" : "CurrentUserSubsidiary",
+    "ar" : "ذمة المستخدم الحالي",
+    "en" : "Current User Subsidiary"
+  }, {
+    "id" : "SpeceficSubsidiary",
+    "ar" : "ذمة محددة",
+    "en" : "Specefic Subsidiary"
+  }, {
+    "id" : "MiscPurchaseItem",
+    "ar" : "حساب بند الشراء",
+    "en" : "From Purchase Item"
+  } ]
+}

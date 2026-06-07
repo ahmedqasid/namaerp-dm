@@ -1,0 +1,20 @@
+{
+  "enum" : "AccountDimensionSourceType",
+  "values" : [ {
+    "id" : "DIRECT",
+    "ar" : "من المستند",
+    "en" : "Direct"
+  }, {
+    "id" : "REFERENCE",
+    "ar" : "من مرجع",
+    "en" : "Reference"
+  }, {
+    "id" : "SPECIFIC",
+    "ar" : "محدد",
+    "en" : "Specific"
+  }, {
+    "id" : "CurrentUserSubsidiary",
+    "ar" : "ذمة المستخدم الحالي",
+    "en" : "Current User Subsidiary"
+  } ]
+}

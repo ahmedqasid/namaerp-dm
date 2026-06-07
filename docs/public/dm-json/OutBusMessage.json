@@ -1,0 +1,204 @@
+{
+  "entity" : "OutBusMessage",
+  "table" : "OutBusMessage",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/OutBusMessage.html",
+  "fields" : [ {
+    "id" : "altCode",
+    "column" : "altCode",
+    "ar" : "الكود الإنجليزي",
+    "en" : "English Code",
+    "type" : "Text"
+  }, {
+    "id" : "appVersion",
+    "column" : "appVersion",
+    "ar" : "إصدار التطبيق",
+    "en" : "App Version",
+    "type" : "Long"
+  }, {
+    "id" : "approving",
+    "column" : "approving",
+    "type" : "Boolean"
+  }, {
+    "id" : "attachmentXML",
+    "column" : "attachmentXML",
+    "type" : "BigText"
+  }, {
+    "id" : "bodyLength",
+    "column" : "bodyLength",
+    "ar" : "طول الرسالة",
+    "en" : "Body Length",
+    "type" : "Integer"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "compressed",
+    "column" : "compressed",
+    "type" : "Boolean"
+  }, {
+    "id" : "concernedEmployees",
+    "column" : "concernedEmployees",
+    "type" : "Text"
+  }, {
+    "id" : "concernedSites",
+    "column" : "concernedSites",
+    "type" : "Text"
+  }, {
+    "id" : "createRequest",
+    "column" : "createRequest",
+    "type" : "Boolean"
+  }, {
+    "id" : "currentDimesnions",
+    "column" : "currentDimesnions",
+    "type" : "Text"
+  }, {
+    "id" : "currentLanguage",
+    "column" : "currentLanguage",
+    "type" : "Text"
+  }, {
+    "id" : "currentUserId",
+    "column" : "currentUserId",
+    "type" : "ID"
+  }, {
+    "id" : "data",
+    "column" : "data",
+    "ar" : "Email Sent Data",
+    "en" : "Email Sent Data",
+    "type" : ""
+  }, {
+    "id" : "entityClass",
+    "column" : "entityClass",
+    "type" : "Text"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "eventType",
+    "column" : "eventType",
+    "ar" : "نوع الحدث",
+    "en" : "Event Type",
+    "type" : "Text"
+  }, {
+    "id" : "exceptionDescription",
+    "column" : "exceptionDescription",
+    "type" : "Text"
+  }, {
+    "id" : "exceptionTrace",
+    "column" : "exceptionTrace",
+    "type" : "BigText"
+  }, {
+    "id" : "extraBodyLength",
+    "column" : "extraBodyLength",
+    "type" : "Integer"
+  }, {
+    "id" : "extraData",
+    "column" : "extraData",
+    "ar" : "Extra Data",
+    "en" : "Extra Data",
+    "type" : ""
+  }, {
+    "id" : "generatedEntity",
+    "column" : "generatedEntity",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "ignoreInReplication",
+    "column" : "ignoreInReplication",
+    "type" : "Boolean"
+  }, {
+    "id" : "messageSent",
+    "column" : "messageSent",
+    "ar" : "مرسلة",
+    "en" : "Message Sent",
+    "type" : "Boolean"
+  }, {
+    "id" : "moduleId",
+    "column" : "moduleId",
+    "ar" : "الوحدة",
+    "en" : "Module",
+    "type" : "Text"
+  }, {
+    "id" : "originSite",
+    "column" : "originSite",
+    "ar" : "الموقع الأصلى",
+    "en" : "Origin Site",
+    "type" : "Text"
+  }, {
+    "id" : "originatedFromAutoReCommit",
+    "column" : "originatedFromAutoReCommit",
+    "ar" : "نشأت من إعادة حفظ",
+    "en" : "Originated From Auto Recommit",
+    "type" : "Boolean"
+  }, {
+    "id" : "owner",
+    "columns" : [ "code", " code", " entityType", " recordId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "recordId",
+    "column" : "recordId",
+    "en" : "Record Id",
+    "type" : "ID"
+  }, {
+    "id" : "replicating",
+    "column" : "replicating",
+    "type" : "Boolean"
+  }, {
+    "id" : "revised",
+    "column" : "revised",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "sequence",
+    "column" : "sequence",
+    "ar" : "المسلسل",
+    "en" : "Sequence",
+    "type" : "Long"
+  }, {
+    "id" : "sourceQueueId",
+    "column" : "sourceQueueId",
+    "type" : "Text"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
+    "id" : "submitionDate",
+    "column" : "submitionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Submition Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "targetQueueId",
+    "column" : "targetQueueId",
+    "ar" : "نوع الرسالة",
+    "en" : "Target Queue ID",
+    "type" : "Enum",
+    "enum" : "MessageQueue"
+  }, {
+    "id" : "trials",
+    "column" : "trials",
+    "ar" : "عدد محاولات",
+    "en" : "Trials",
+    "type" : "Integer"
+  }, {
+    "id" : "uncompressedLength",
+    "column" : "uncompressedLength",
+    "type" : "Integer"
+  } ]
+}

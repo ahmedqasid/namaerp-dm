@@ -1,0 +1,28 @@
+{
+  "enum" : "EcommerceProductType",
+  "values" : [ {
+    "id" : "IntegerType",
+    "ar" : "رقم صحيح",
+    "en" : "Integer"
+  }, {
+    "id" : "DoubleType",
+    "ar" : "رقم عشري (يحتوي على كسر)",
+    "en" : "Double"
+  }, {
+    "id" : "StringType",
+    "ar" : "نص",
+    "en" : "String"
+  }, {
+    "id" : "BooleanType",
+    "ar" : "Boolean",
+    "en" : "Boolean"
+  }, {
+    "id" : "TypeArray",
+    "ar" : "Array",
+    "en" : "Array"
+  }, {
+    "id" : "Groovy",
+    "ar" : "Groovy",
+    "en" : "Groovy"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "EInvoiceDocType",
+  "values" : [ {
+    "id" : "AlwaysReceipt",
+    "ar" : "دائما إيصال",
+    "en" : "Always As Receipt"
+  }, {
+    "id" : "AlwaysInvoice",
+    "ar" : "دائما فاتورة",
+    "en" : "Always As Invoice"
+  }, {
+    "id" : "ReceiptIfReceiverIsPerson",
+    "ar" : "إيصال في حالة إصدارها لفرد",
+    "en" : "Receipt If Receiver Is Person"
+  } ]
+}

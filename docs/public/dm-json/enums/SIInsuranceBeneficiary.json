@@ -1,0 +1,14 @@
+{
+  "enum" : "SIInsuranceBeneficiary",
+  "values" : [ {
+    "id" : "Customer",
+    "ar" : "عميل",
+    "en" : "Customer"
+  }, {
+    "id" : "Bank",
+    "ar" : "بنك",
+    "en" : "Bank"
+  }, {
+    "id" : "Company"
+  } ]
+}

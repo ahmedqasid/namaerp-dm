@@ -1,0 +1,61 @@
+{
+  "entity" : "POSFilterDimensionsLine",
+  "table" : "POSFilterDimensionsLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/POSFilterDimensionsLine.html",
+  "fields" : [ {
+    "id" : "entityTypeList",
+    "column" : "entityTypeList_id",
+    "ar" : "قائمة الأنواع",
+    "en" : "Entity Type List",
+    "type" : "Reference",
+    "refTo" : "EntityTypeList",
+    "refPath" : "/modules/basic/EntityTypeList.html"
+  }, {
+    "id" : "filterOnAnalysisSet",
+    "column" : "filterOnAnalysisSet",
+    "ar" : "فلترة بالمجموعة التحليلة",
+    "en" : "Filter On AnalysisSet",
+    "type" : "Boolean"
+  }, {
+    "id" : "filterOnBranch",
+    "column" : "filterOnBranch",
+    "ar" : "فلترة بالفرع",
+    "en" : "Filter On Branch",
+    "type" : "Boolean"
+  }, {
+    "id" : "filterOnDepartment",
+    "column" : "filterOnDepartment",
+    "ar" : "فلترة بالإدارة",
+    "en" : "Filter On Department",
+    "type" : "Boolean"
+  }, {
+    "id" : "filterOnLegalEntity",
+    "column" : "filterOnLegalEntity",
+    "ar" : "فلترة بالشركة",
+    "en" : "Filter On LegalEntity",
+    "type" : "Boolean"
+  }, {
+    "id" : "filterOnSector",
+    "column" : "filterOnSector",
+    "ar" : "فلترة بالقطاع",
+    "en" : "Filter On Sector",
+    "type" : "Boolean"
+  }, {
+    "id" : "filteredInType",
+    "column" : "filteredInType",
+    "ar" : "مفلتر في نوع مستند",
+    "en" : "Filtered In Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "forType",
+    "column" : "forType",
+    "ar" : "للنوع",
+    "en" : "For Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

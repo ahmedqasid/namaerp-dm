@@ -1,0 +1,12 @@
+{
+  "enum" : "SalaryBlockCondition",
+  "values" : [ {
+    "id" : "AnyCondition",
+    "ar" : " أي شرط",
+    "en" : " Any Condition"
+  }, {
+    "id" : "AllConditions",
+    "ar" : " كل الشروط",
+    "en" : " All Conditions"
+  } ]
+}

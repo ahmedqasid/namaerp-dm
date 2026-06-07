@@ -1,0 +1,1179 @@
+{
+  "entity" : "ContrEmployeeEquipmentCost",
+  "table" : "ContrEmployeeEquipmentCost",
+  "module" : "contracting",
+  "ar" : "توزيع تكاليف الموظفين والمعدات على المشاريع",
+  "arPlural" : "مستندات توزيع تكاليف الموظفين والمعدات على المشاريع",
+  "en" : "Employee And Equipment Project Cost Distribution",
+  "enPlural" : "Employee And Equipment Project Cost Distribution Documents",
+  "page" : "https://dm.namasoft.com/modules/contracting/ContrEmployeeEquipmentCost.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "range.fromAnalysisSet",
+    "column" : "rangeFromAnalysisSet_id",
+    "ar" : "من مجموعه تحليليه",
+    "en" : "From Analysis Set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "range.fromAsset",
+    "column" : "rangeFromAsset_id",
+    "ar" : "من أصل",
+    "en" : "From Asset",
+    "type" : "Reference",
+    "refTo" : "FixedAsset",
+    "refPath" : "/modules/fixedassets/FixedAsset.html"
+  }, {
+    "id" : "range.fromAssetAnalSet",
+    "column" : "rangeFromAssetAnalSet_id",
+    "ar" : "من مجموعة تحليلية(أصل)",
+    "en" : "From Analysis Set (Fixed Asset)",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "range.fromAssetBranch",
+    "column" : "rangeFromAssetBranch_id",
+    "ar" : "من فرع (أصل)",
+    "en" : "From Branch (Fixed Asset)",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "range.fromAssetDepartment",
+    "column" : "rangeFromAssetDepartment_id",
+    "ar" : "من إدارة(أصل)",
+    "en" : "From Department (Fixed Asset)",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "range.fromAssetGroup",
+    "column" : "rangeFromAssetGroup_id",
+    "ar" : "من مجوعة أصل",
+    "en" : "From Fixed Asset Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "range.fromAssetSector",
+    "column" : "rangeFromAssetSector_id",
+    "ar" : "من قطاع (أصل)",
+    "en" : "From Sector (Fixed Asset)",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "range.fromBranch",
+    "column" : "rangeFromBranch_id",
+    "ar" : "من فرع",
+    "en" : "From Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "range.fromCar",
+    "column" : "rangeFromCar_id",
+    "ar" : "من سيارة",
+    "en" : "From Car",
+    "type" : "Reference",
+    "refTo" : "Car",
+    "refPath" : "/modules/basic/Car.html"
+  }, {
+    "id" : "range.fromCarAnalSet",
+    "column" : "rangeFromCarAnalSet_id",
+    "ar" : "من مجموعة تحليلية (سيارة)",
+    "en" : "From Analysis Set (Car)",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "range.fromCarBranch",
+    "column" : "rangeFromCarBranch_id",
+    "ar" : "من فرع (سيارة)",
+    "en" : "From Branch (Car)",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "range.fromCarBrand",
+    "column" : "rangeFromCarBrand_id",
+    "ar" : "من ماركة",
+    "en" : "From Car Brand",
+    "type" : "Reference",
+    "refTo" : "CarBrand",
+    "refPath" : "/modules/basic/CarBrand.html"
+  }, {
+    "id" : "range.fromCarDepartment",
+    "column" : "rangeFromCarDepartment_id",
+    "ar" : "من إدارة (سيارة)",
+    "en" : "From Department (Car)",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "range.fromCarGroup",
+    "column" : "rangeFromCarGroup_id",
+    "ar" : "من مجموعة سيارة",
+    "en" : "From Car Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "range.fromCarModel",
+    "column" : "rangeFromCarModel_id",
+    "ar" : "من موديل",
+    "en" : "From Car Model",
+    "type" : "Reference",
+    "refTo" : "CarModel",
+    "refPath" : "/modules/basic/CarModel.html"
+  }, {
+    "id" : "range.fromCarSector",
+    "column" : "rangeFromCarSector_id",
+    "ar" : "من قطاع (سيارة)",
+    "en" : "From Sector (Car)",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "range.fromDepartment",
+    "column" : "rangeFromDepartment_id",
+    "ar" : "من إدارة",
+    "en" : "From Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "range.fromDepartmentSection",
+    "column" : "rangeFromDepartmentSection_id",
+    "ar" : "من قسم وظيفي",
+    "en" : "From Department Section",
+    "type" : "Reference",
+    "refTo" : "DepartmentSection",
+    "refPath" : "/modules/basic/DepartmentSection.html"
+  }, {
+    "id" : "range.fromEmpDepartment",
+    "column" : "rangeFromEmpDepartment_id",
+    "ar" : "من إدارة موظف",
+    "en" : "From Emp Department",
+    "type" : "Reference",
+    "refTo" : "EmployeeDepartment",
+    "refPath" : "/modules/basic/EmployeeDepartment.html"
+  }, {
+    "id" : "range.fromEmpWorkPlace",
+    "column" : "rangeFromEmpWorkPlace_id",
+    "ar" : "من مكان عمل",
+    "en" : "From Employee WorkPlace",
+    "type" : "Reference",
+    "refTo" : "EmpWorkPlace",
+    "refPath" : "/modules/basic/EmpWorkPlace.html"
+  }, {
+    "id" : "range.fromEmployee",
+    "column" : "rangeFromEmployee_id",
+    "ar" : "من موظف",
+    "en" : "From Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "range.fromFAType",
+    "column" : "rangeFromFAType_id",
+    "ar" : "من نوع أصل",
+    "en" : "From Fixed Asset Type",
+    "type" : "Reference",
+    "refTo" : "FAType",
+    "refPath" : "/modules/fixedassets/FAType.html"
+  }, {
+    "id" : "range.fromGroup",
+    "column" : "rangeFromGroup_id",
+    "ar" : "من مجموعة",
+    "en" : "From Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "range.fromJobPosition",
+    "column" : "rangeFromJobPosition_id",
+    "ar" : "من وظيفة",
+    "en" : "From Job Position",
+    "type" : "Reference",
+    "refTo" : "JobPosition",
+    "refPath" : "/modules/basic/JobPosition.html"
+  }, {
+    "id" : "range.fromNationality",
+    "column" : "rangeFromNationality_id",
+    "ar" : "من جنسية",
+    "en" : "From Nationality",
+    "type" : "Reference",
+    "refTo" : "Nationality",
+    "refPath" : "/modules/basic/Nationality.html"
+  }, {
+    "id" : "range.fromOrganizationPos",
+    "column" : "rangeFromOrganizationPos_id",
+    "ar" : " من درجة وظيفية",
+    "en" : "From Organization Position",
+    "type" : "Reference",
+    "refTo" : "OrganizationPosition",
+    "refPath" : "/modules/basic/OrganizationPosition.html"
+  }, {
+    "id" : "range.fromSector",
+    "column" : "rangeFromSector_id",
+    "ar" : "من قطاع",
+    "en" : "From Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "range.toAnalysisSet",
+    "column" : "rangeToAnalysisSet_id",
+    "ar" : "إلي مجموعه تحليليه",
+    "en" : "To Snalysis Set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "range.toAsset",
+    "column" : "rangeToAsset_id",
+    "ar" : "إلى أصل",
+    "en" : "To Asset",
+    "type" : "Reference",
+    "refTo" : "FixedAsset",
+    "refPath" : "/modules/fixedassets/FixedAsset.html"
+  }, {
+    "id" : "range.toAssetAnalSet",
+    "column" : "rangeToAssetAnalSet_id",
+    "ar" : "إلي مجموعة تحليلية (أصل)",
+    "en" : "To Analysis Set (Fixed Asset)",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "range.toAssetBranch",
+    "column" : "rangeToAssetBranch_id",
+    "ar" : "إلي فرع (أصل)",
+    "en" : "To Branch (Fixed Asset)",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "range.toAssetDepartment",
+    "column" : "rangeToAssetDepartment_id",
+    "ar" : "إلي إدارة (أصل)",
+    "en" : "To Department (Fixed Asset)",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "range.toAssetGroup",
+    "column" : "rangeToAssetGroup_id",
+    "ar" : "إلي مجموعة أصل",
+    "en" : "To Fixed Asset Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "range.toAssetSector",
+    "column" : "rangeToAssetSector_id",
+    "ar" : "إلي قطاع (أصل)",
+    "en" : "To Sector (Fixed Asset)",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "range.toBranch",
+    "column" : "rangeToBranch_id",
+    "ar" : "إلى فرع",
+    "en" : "To Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "range.toCar",
+    "column" : "rangeToCar_id",
+    "ar" : "إلى سيارة",
+    "en" : "To Car",
+    "type" : "Reference",
+    "refTo" : "Car",
+    "refPath" : "/modules/basic/Car.html"
+  }, {
+    "id" : "range.toCarAnalSet",
+    "column" : "rangeToCarAnalSet_id",
+    "ar" : "إلى مجموعة تحليلية (سيارة)",
+    "en" : "To Analysis Set (Car)",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "range.toCarBranch",
+    "column" : "rangeToCarBranch_id",
+    "ar" : "إلى فرع (سيارة)",
+    "en" : "To Branch (Car)",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "range.toCarBrand",
+    "column" : "rangeToCarBrand_id",
+    "ar" : "إلى ماركة",
+    "en" : "To Car Brand",
+    "type" : "Reference",
+    "refTo" : "CarBrand",
+    "refPath" : "/modules/basic/CarBrand.html"
+  }, {
+    "id" : "range.toCarDepartment",
+    "column" : "rangeToCarDepartment_id",
+    "ar" : "إلى إدارة (سيارة)",
+    "en" : "To Department (Car)",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "range.toCarGroup",
+    "column" : "rangeToCarGroup_id",
+    "ar" : "إلى مجموعة سيارة",
+    "en" : "To Car Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "range.toCarModel",
+    "column" : "rangeToCarModel_id",
+    "ar" : "إلى موديل",
+    "en" : "To Car Model",
+    "type" : "Reference",
+    "refTo" : "CarModel",
+    "refPath" : "/modules/basic/CarModel.html"
+  }, {
+    "id" : "range.toCarSector",
+    "column" : "rangeToCarSector_id",
+    "ar" : "إلى قطاع (سيارة)",
+    "en" : "To Sector (Car)",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "range.toDepartment",
+    "column" : "rangeToDepartment_id",
+    "ar" : "إلى إدارة",
+    "en" : "To Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "range.toDepartmentSection",
+    "column" : "rangeToDepartmentSection_id",
+    "ar" : "إلى قسم وظيفي",
+    "en" : "To Department Section",
+    "type" : "Reference",
+    "refTo" : "DepartmentSection",
+    "refPath" : "/modules/basic/DepartmentSection.html"
+  }, {
+    "id" : "range.toEmpDepartment",
+    "column" : "rangeToEmpDepartment_id",
+    "ar" : "إلى إدارة موظف",
+    "en" : "To Emp Department",
+    "type" : "Reference",
+    "refTo" : "EmployeeDepartment",
+    "refPath" : "/modules/basic/EmployeeDepartment.html"
+  }, {
+    "id" : "range.toEmpWorkPlace",
+    "column" : "rangeToEmpWorkPlace_id",
+    "ar" : "الي مكان عمل",
+    "en" : "To Employee WorkPlace",
+    "type" : "Reference",
+    "refTo" : "EmpWorkPlace",
+    "refPath" : "/modules/basic/EmpWorkPlace.html"
+  }, {
+    "id" : "range.toEmployee",
+    "column" : "rangeToEmployee_id",
+    "ar" : "الي موظف",
+    "en" : "To Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "range.toFAType",
+    "column" : "rangeToFAType_id",
+    "ar" : "إلي نوع أصل",
+    "en" : "To Fixed asset Type",
+    "type" : "Reference",
+    "refTo" : "FAType",
+    "refPath" : "/modules/fixedassets/FAType.html"
+  }, {
+    "id" : "range.toGroup",
+    "column" : "rangeToGroup_id",
+    "ar" : "إلي مجموعة",
+    "en" : "To Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "range.toJobPosition",
+    "column" : "rangeToJobPosition_id",
+    "ar" : "إلى وظيفة",
+    "en" : "To Job Position",
+    "type" : "Reference",
+    "refTo" : "JobPosition",
+    "refPath" : "/modules/basic/JobPosition.html"
+  }, {
+    "id" : "range.toNationality",
+    "column" : "rangeToNationality_id",
+    "ar" : "إلى جنسية",
+    "en" : "To Nationality",
+    "type" : "Reference",
+    "refTo" : "Nationality",
+    "refPath" : "/modules/basic/Nationality.html"
+  }, {
+    "id" : "range.toOrganizationPos",
+    "column" : "rangeToOrganizationPos_id",
+    "ar" : " إلى درجة وظيفية",
+    "en" : "To Organization Position",
+    "type" : "Reference",
+    "refTo" : "OrganizationPosition",
+    "refPath" : "/modules/basic/OrganizationPosition.html"
+  }, {
+    "id" : "range.toSector",
+    "column" : "rangeToSector_id",
+    "ar" : "إلي قطاع",
+    "en" : "To Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
+    "type" : "BigText"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "costLines",
+    "table" : "ContEmpEquipTermCostLine",
+    "joinColumn" : "contrEmployeeEquipmentCost_id",
+    "ar" : "توزيع التكلفة",
+    "en" : "Cost Allocation",
+    "fields" : [ {
+      "id" : "costLines.analysisTermCode",
+      "column" : "analysisTermCode",
+      "ar" : "كود البند التحليلى",
+      "en" : "Analysis Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "costLines.cost",
+      "column" : "cost",
+      "ar" : "التكلفة",
+      "en" : "Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "costLines.creationDate",
+      "column" : "creationDate",
+      "ar" : "تاريخ الإنشاء",
+      "en" : "Creation Date",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "costLines.doc",
+      "columns" : [ "docActualCode", " docCode", " docEntityType", " docId" ],
+      "ar" : "المستند",
+      "en" : "Document",
+      "type" : "Genericreference"
+    }, {
+      "id" : "costLines.employeeOrEquipment",
+      "columns" : [ "employeeOrEquipmentActualCode", " employeeOrEquipmentCode", " employeeOrEquipmentEntityType", " employeeOrEquipmentId" ],
+      "ar" : "موظف / معدة",
+      "en" : "Employee / Equipment",
+      "type" : "Genericreference"
+    }, {
+      "id" : "costLines.estimatedTermCode",
+      "column" : "estimatedTermCode",
+      "ar" : "كود بند الموازنة التقديرية",
+      "en" : "Estimated Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "costLines.executiveTermCode",
+      "column" : "executiveTermCode",
+      "ar" : "كود بند الموازنة التنفيذية",
+      "en" : "Executive Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "costLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "costLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "costLines.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "ContrEmployeeEquipmentCost",
+      "refPath" : "/modules/contracting/ContrEmployeeEquipmentCost.html"
+    }, {
+      "id" : "costLines.projectContract",
+      "column" : "projectContract_id",
+      "ar" : " عقد مشروع",
+      "en" : " Project Contract",
+      "type" : "Reference",
+      "refTo" : "ProjectContract",
+      "refPath" : "/modules/contracting/ProjectContract.html"
+    }, {
+      "id" : "costLines.termAnalysisCard",
+      "column" : "termAnalysisCard_id",
+      "ar" : "كارت التحليل",
+      "en" : "Term Analysis Card",
+      "type" : "Reference",
+      "refTo" : "TermAnalysisCard",
+      "refPath" : "/modules/contracting/TermAnalysisCard.html"
+    }, {
+      "id" : "costLines.termCategory",
+      "columns" : [ "termCategoryActualCode", " termCategoryCode", " termCategoryEntityType", " termCategoryId" ],
+      "ar" : "تصنيف البند",
+      "en" : "Term Category",
+      "type" : "Genericreference"
+    }, {
+      "id" : "costLines.termCategory2",
+      "columns" : [ "termCategory2ActualCode", " termCategory2Code", " termCategory2EntityType", " termCategory2Id" ],
+      "ar" : "تصنيف البند 2",
+      "en" : "Term Category 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "costLines.termCode",
+      "column" : "termCode",
+      "ar" : "كود البند",
+      "en" : "Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "costLines.valueDate",
+      "column" : "valueDate",
+      "ar" : "التاريخ الفعلي",
+      "en" : "Value Date",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "details",
+    "table" : "ContEmpEquipmentCostDocLine",
+    "joinColumn" : "contrEmployeeEquipmentCost_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "fields" : [ {
+      "id" : "details.analysisTermCode",
+      "column" : "analysisTermCode",
+      "ar" : "كود البند التحليلى",
+      "en" : "Analysis Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "details.collectedCost",
+      "column" : "collectedCost",
+      "ar" : "التكلفة المجمعة",
+      "en" : "Collected Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.cost",
+      "column" : "cost",
+      "ar" : "التكلفة",
+      "en" : "Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.creationDate",
+      "column" : "creationDate",
+      "ar" : "تاريخ الإنشاء",
+      "en" : "Creation Date",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "details.doc",
+      "columns" : [ "docActualCode", " docCode", " docEntityType", " docId" ],
+      "ar" : "المستند",
+      "en" : "Document",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.employeeOrEquipment",
+      "columns" : [ "employeeOrEquipmentActualCode", " employeeOrEquipmentCode", " employeeOrEquipmentEntityType", " employeeOrEquipmentId" ],
+      "ar" : "موظف / معدة",
+      "en" : "Employee / Equipment",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.estimatedTermCode",
+      "column" : "estimatedTermCode",
+      "ar" : "كود بند الموازنة التقديرية",
+      "en" : "Estimated Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "details.executiveTermCode",
+      "column" : "executiveTermCode",
+      "ar" : "كود بند الموازنة التنفيذية",
+      "en" : "Executive Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.owner",
+      "column" : "owner_id",
+      "ar" : "المالك",
+      "en" : "owner",
+      "type" : "Reference",
+      "refTo" : "ContrEmployeeEquipmentCost",
+      "refPath" : "/modules/contracting/ContrEmployeeEquipmentCost.html"
+    }, {
+      "id" : "details.projectContract",
+      "column" : "projectContract_id",
+      "ar" : " عقد مشروع",
+      "en" : " Project Contract",
+      "type" : "Reference",
+      "refTo" : "ProjectContract",
+      "refPath" : "/modules/contracting/ProjectContract.html"
+    }, {
+      "id" : "details.termAnalysisCard",
+      "column" : "termAnalysisCard_id",
+      "ar" : "كارت التحليل",
+      "en" : "Term Analysis Card",
+      "type" : "Reference",
+      "refTo" : "TermAnalysisCard",
+      "refPath" : "/modules/contracting/TermAnalysisCard.html"
+    }, {
+      "id" : "details.termCategory",
+      "columns" : [ "termCategoryActualCode", " termCategoryCode", " termCategoryEntityType", " termCategoryId" ],
+      "ar" : "تصنيف البند",
+      "en" : "Term Category",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.termCategory2",
+      "columns" : [ "termCategory2ActualCode", " termCategory2Code", " termCategory2EntityType", " termCategory2Id" ],
+      "ar" : "تصنيف البند 2",
+      "en" : "Term Category 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.termCode",
+      "column" : "termCode",
+      "ar" : "كود البند",
+      "en" : "Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "details.valueDate",
+      "column" : "valueDate",
+      "ar" : "التاريخ الفعلي",
+      "en" : "Value Date",
+      "type" : "Date"
+    } ]
+  } ]
+}

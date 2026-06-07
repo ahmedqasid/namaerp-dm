@@ -1,0 +1,12 @@
+{
+  "enum" : "SIProgramSource",
+  "values" : [ {
+    "id" : "BankProgram",
+    "ar" : "برنامج من البنك",
+    "en" : "Bank Program"
+  }, {
+    "id" : "InternalProgram",
+    "ar" : "برنامج داخلي",
+    "en" : "Internal Program"
+  } ]
+}

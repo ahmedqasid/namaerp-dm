@@ -1,0 +1,16 @@
+{
+  "enum" : "WhatsAppMessageType",
+  "values" : [ {
+    "id" : "Template",
+    "ar" : "Template",
+    "en" : "Tempalate"
+  }, {
+    "id" : "Media",
+    "ar" : "Media",
+    "en" : "Media"
+  }, {
+    "id" : "Text",
+    "ar" : "نص",
+    "en" : "Text"
+  } ]
+}

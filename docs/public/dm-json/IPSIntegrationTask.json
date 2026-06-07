@@ -1,0 +1,94 @@
+{
+  "entity" : "IPSIntegrationTask",
+  "table" : "IPSIntegrationTask",
+  "module" : "system-tables",
+  "arPlural" : "IPS Integration Tasks",
+  "enPlural" : "IPS Integration Tasks",
+  "page" : "https://dm.namasoft.com/modules/system-tables/IPSIntegrationTask.html",
+  "fields" : [ {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "executionDate",
+    "column" : "executionDate",
+    "ar" : "تاريخ التنفيذ",
+    "en" : "Execution Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lastShipmentStatus",
+    "column" : "lastShipmentStatus",
+    "ar" : "اخر حالة للمادة",
+    "en" : "Last Shipment Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
+    "id" : "mailItemOrReceptacleId",
+    "column" : "mailItemOrReceptacleId",
+    "ar" : "رقم الكيس أو المادة",
+    "en" : "Mail Item Or Receptacle Id",
+    "type" : "Text"
+  }, {
+    "id" : "origin",
+    "columns" : [ "originActualCode", " originCode", " originEntityType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "requestJSON",
+    "column" : "requestJSON",
+    "ar" : "Request JSON",
+    "en" : "Request JSON",
+    "type" : "BigText"
+  }, {
+    "id" : "requester",
+    "columns" : [ "requesterActualCode", " requesterCode", " requesterEntityType", " requesterId" ],
+    "ar" : "محرر الطلب",
+    "en" : "Requester",
+    "type" : "Genericreference"
+  }, {
+    "id" : "responseJSON",
+    "column" : "responseJSON",
+    "ar" : "Response JSON",
+    "en" : "Response JSON",
+    "type" : "BigText"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
+    "id" : "submitionDate",
+    "column" : "submitionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Submition Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "taskType",
+    "column" : "taskType",
+    "ar" : "نوع المهمة",
+    "en" : "Task Type",
+    "type" : "Enum",
+    "enum" : "IPSTaskType"
+  }, {
+    "id" : "trials",
+    "column" : "trials",
+    "ar" : "عدد محاولات",
+    "en" : "Trials",
+    "type" : "Integer"
+  } ]
+}

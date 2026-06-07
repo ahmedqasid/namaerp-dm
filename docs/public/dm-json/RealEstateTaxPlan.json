@@ -1,0 +1,82 @@
+{
+  "entity" : "RealEstateTaxPlan",
+  "table" : "RealEstateTaxPlan",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/RealEstateTaxPlan.html",
+  "fields" : [ {
+    "id" : "calculateTaxFromTotalPrice",
+    "column" : "calculateTaxFromTotalPrice",
+    "ar" : "حساب الضريبة من السعر الأساسي",
+    "en" : "Calculate Tax From Main Price",
+    "type" : "Boolean"
+  }, {
+    "id" : "effectiveFrom",
+    "column" : "effectiveFrom",
+    "ar" : "تطبق من",
+    "en" : "Effective From",
+    "type" : "Date"
+  }, {
+    "id" : "effectiveTo",
+    "column" : "effectiveTo",
+    "ar" : "تطبق الي",
+    "en" : "Effective To",
+    "type" : "Date"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "entityTypeList",
+    "column" : "entityTypeList_id",
+    "ar" : "قائمة الأنواع",
+    "en" : "Entity Type List",
+    "type" : "Reference",
+    "refTo" : "EntityTypeList",
+    "refPath" : "/modules/basic/EntityTypeList.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "tax1",
+    "column" : "tax1",
+    "ar" : "ضريبة مبيعات 1",
+    "en" : "Tax 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "tax1IsDeduction",
+    "column" : "tax1IsDeduction",
+    "ar" : "ضريبة 1 خصم",
+    "en" : "Tax 1 Is Deduction",
+    "type" : "Boolean"
+  }, {
+    "id" : "tax2",
+    "column" : "tax2",
+    "ar" : "ضريبة مبيعات 2",
+    "en" : "Tax 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "tax2IsDeduction",
+    "column" : "tax2IsDeduction",
+    "ar" : "ضريبة 2 خصم",
+    "en" : "Tax 2 Is Deduction",
+    "type" : "Boolean"
+  }, {
+    "id" : "type",
+    "column" : "type",
+    "ar" : "النوع",
+    "en" : "Type",
+    "type" : "Enum",
+    "enum" : "REInstallmentType"
+  }, {
+    "id" : "unitModel",
+    "column" : "unitModel_id",
+    "ar" : "نموذج وحدة",
+    "en" : "Unit Model",
+    "type" : "Reference",
+    "refTo" : "REUnitModel",
+    "refPath" : "/modules/realestate/REUnitModel.html"
+  } ]
+}

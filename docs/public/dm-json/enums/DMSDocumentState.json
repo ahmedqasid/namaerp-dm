@@ -1,0 +1,24 @@
+{
+  "enum" : "DMSDocumentState",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Inside",
+    "ar" : "بالداخل",
+    "en" : "Inside"
+  }, {
+    "id" : "TemporaryOut",
+    "ar" : "بالخارج مؤقتا",
+    "en" : "Temporary Out"
+  }, {
+    "id" : "FinalOut",
+    "ar" : "بالخارج بشكل نهائي",
+    "en" : "Final Out"
+  }, {
+    "id" : "Disposed",
+    "ar" : "تم التخلص منه",
+    "en" : "Disposed"
+  } ]
+}

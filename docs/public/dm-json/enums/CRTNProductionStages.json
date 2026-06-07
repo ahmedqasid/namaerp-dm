@@ -1,0 +1,16 @@
+{
+  "enum" : "CRTNProductionStages",
+  "values" : [ {
+    "id" : "FirstProductionStage",
+    "ar" : "مرحلة الإنتاج الأولى",
+    "en" : "First Production  Stage"
+  }, {
+    "id" : "SecondProductionStage",
+    "ar" : "مرحلة الإنتاج الثانية",
+    "en" : "Second Production Stage"
+  }, {
+    "id" : "ThirdProductionStage",
+    "ar" : "مرحلة الإنتاج الثالثة",
+    "en" : "Third Production Stage"
+  } ]
+}

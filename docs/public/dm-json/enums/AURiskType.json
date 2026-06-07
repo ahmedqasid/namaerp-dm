@@ -1,0 +1,16 @@
+{
+  "enum" : "AURiskType",
+  "values" : [ {
+    "id" : "High",
+    "ar" : "مرتفع",
+    "en" : "High"
+  }, {
+    "id" : "Medium",
+    "ar" : "متوسط",
+    "en" : "Medium"
+  }, {
+    "id" : "Low",
+    "ar" : "منخفض",
+    "en" : "Low"
+  } ]
+}

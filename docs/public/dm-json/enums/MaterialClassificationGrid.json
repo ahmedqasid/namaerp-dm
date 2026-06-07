@@ -1,0 +1,28 @@
+{
+  "enum" : "MaterialClassificationGrid",
+  "values" : [ {
+    "id" : "Grid1",
+    "ar" : "جدول 1",
+    "en" : "Grid 1"
+  }, {
+    "id" : "Grid2",
+    "ar" : "جدول 2",
+    "en" : "Grid 2"
+  }, {
+    "id" : "Grid3",
+    "ar" : "جدول 3",
+    "en" : "Grid 3"
+  }, {
+    "id" : "Grid4",
+    "ar" : "جدول 4",
+    "en" : "Grid 4"
+  }, {
+    "id" : "Grid5",
+    "ar" : "جدول 5",
+    "en" : "Grid 5"
+  }, {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  } ]
+}

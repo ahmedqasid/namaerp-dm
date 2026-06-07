@@ -1,0 +1,12 @@
+{
+  "enum" : "IPSTaskType",
+  "values" : [ {
+    "id" : "UpdateMailItemState",
+    "ar" : "تحديث حالة المادة",
+    "en" : "Update Mail Item State"
+  }, {
+    "id" : "UpdateReceptacleState",
+    "ar" : "تحديث حالة الكيس",
+    "en" : "Update Receptacle State"
+  } ]
+}

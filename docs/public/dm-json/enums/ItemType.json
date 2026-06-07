@@ -1,0 +1,16 @@
+{
+  "enum" : "ItemType",
+  "values" : [ {
+    "id" : "Service",
+    "ar" : "خدمة",
+    "en" : "Service"
+  }, {
+    "id" : "Stock",
+    "ar" : "مخزني",
+    "en" : "Stock"
+  }, {
+    "id" : "Assembly",
+    "ar" : "صنف مجمع",
+    "en" : "Assembly"
+  } ]
+}

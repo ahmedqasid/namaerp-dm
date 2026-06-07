@@ -1,0 +1,26 @@
+{
+  "enum" : "ImplementationRepositoryType",
+  "values" : [ {
+    "id" : "Report",
+    "ar" : "تقرير",
+    "en" : "Report"
+  }, {
+    "id" : "Notification",
+    "ar" : "التنبيهات",
+    "en" : "Notification"
+  }, {
+    "id" : "DashBoard",
+    "ar" : "لوحة",
+    "en" : "DashBoard"
+  }, {
+    "id" : "DashBoardWidget",
+    "ar" : "عنصر اللوحة",
+    "en" : "DashBoard Widget"
+  }, {
+    "id" : "ToolTip"
+  }, {
+    "id" : "TaskSchedule",
+    "ar" : "مهمة مجدولة",
+    "en" : "Task Schedule"
+  } ]
+}

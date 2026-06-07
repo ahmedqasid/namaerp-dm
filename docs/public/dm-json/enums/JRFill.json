@@ -1,0 +1,12 @@
+{
+  "enum" : "JRFill",
+  "values" : [ {
+    "id" : "Default",
+    "ar" : "افتراضي",
+    "en" : "Default"
+  }, {
+    "id" : "Solid",
+    "ar" : "Solid",
+    "en" : "Solid"
+  } ]
+}

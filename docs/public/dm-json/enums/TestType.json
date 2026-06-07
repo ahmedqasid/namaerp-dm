@@ -1,0 +1,28 @@
+{
+  "enum" : "TestType",
+  "values" : [ {
+    "id" : "WrittenTest",
+    "ar" : "إختبار كتابي",
+    "en" : "Written Test"
+  }, {
+    "id" : "Interview",
+    "ar" : "مقابلة",
+    "en" : "Interview"
+  }, {
+    "id" : "TrialWork",
+    "ar" : "عمل تجريبي",
+    "en" : "Trial Work"
+  }, {
+    "id" : "TestType1",
+    "ar" : "نوع إختبار 1",
+    "en" : "Test Type1"
+  }, {
+    "id" : "TestType2",
+    "ar" : "نوع إختبار2",
+    "en" : "Test Type2"
+  }, {
+    "id" : "TestType3",
+    "ar" : "نوع إختبار3",
+    "en" : "Test Type3"
+  } ]
+}

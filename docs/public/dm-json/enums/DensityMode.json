@@ -1,0 +1,16 @@
+{
+  "enum" : "DensityMode",
+  "values" : [ {
+    "id" : "Normal",
+    "ar" : "1- عادي",
+    "en" : "1- Normal"
+  }, {
+    "id" : "Compact",
+    "ar" : "2- مضغوط",
+    "en" : "2- Compact"
+  }, {
+    "id" : "Ultra",
+    "ar" : "3- فائق",
+    "en" : "3- Ultra"
+  } ]
+}

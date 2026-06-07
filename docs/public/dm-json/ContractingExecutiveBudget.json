@@ -1,0 +1,4153 @@
+{
+  "entity" : "ContractingExecutiveBudget",
+  "table" : "ContractingExecutiveBudget",
+  "module" : "contracting",
+  "ar" : "موازنة مقاولات تنفيذية",
+  "arPlural" : "موازنات المقاولات التنفيذية",
+  "en" : "Contracting Executive Budget",
+  "enPlural" : "Contracting Executive Budgets",
+  "page" : "https://dm.namasoft.com/modules/contracting/ContractingExecutiveBudget.html",
+  "fields" : [ {
+    "id" : "advisory",
+    "column" : "advisory_id",
+    "ar" : "الإستشاري",
+    "en" : "Advisory",
+    "type" : "Reference",
+    "refTo" : "ContractingAdvisory",
+    "refPath" : "/modules/contracting/ContractingAdvisory.html"
+  }, {
+    "id" : "altCode",
+    "column" : "altCode",
+    "ar" : "الكود الإنجليزي",
+    "en" : "English Code",
+    "type" : "Text"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "assayContractType",
+    "column" : "assayContractType",
+    "ar" : "نوع العقد",
+    "en" : "Contract Type",
+    "type" : "Enum",
+    "enum" : "AssayContractType"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "calcDisc1PercentFromValue",
+    "column" : "calcDisc1PercentFromValue",
+    "ar" : "احتساب نسبة خصم 1 من القيمة",
+    "en" : "Calculate discount 1 percentage from value",
+    "type" : "Boolean"
+  }, {
+    "id" : "calcDisc2PercentFromValue",
+    "column" : "calcDisc2PercentFromValue",
+    "ar" : "احتساب نسبة خصم 2 من القيمة",
+    "en" : "Calculate discount 2 percentage from value",
+    "type" : "Boolean"
+  }, {
+    "id" : "calcDisc3PercentFromValue",
+    "column" : "calcDisc3PercentFromValue",
+    "ar" : "احتساب نسبة خصم 3 من القيمة",
+    "en" : "Calculate discount 3 percentage from value",
+    "type" : "Boolean"
+  }, {
+    "id" : "calcDisc4PercentFromValue",
+    "column" : "calcDisc4PercentFromValue",
+    "ar" : "احتساب نسبة خصم 4 من القيمة",
+    "en" : "Calculate discount 4 percentage from value",
+    "type" : "Boolean"
+  }, {
+    "id" : "calcDisc5PercentFromValue",
+    "column" : "calcDisc5PercentFromValue",
+    "ar" : "احتساب نسبة خصم 5 من القيمة",
+    "en" : "Calculate discount 5 percentage from value",
+    "type" : "Boolean"
+  }, {
+    "id" : "calcDisc6PercentFromValue",
+    "column" : "calcDisc6PercentFromValue",
+    "ar" : "احتساب نسبة خصم 6 من القيمة",
+    "en" : "Calculate discount 6 percentage from value",
+    "type" : "Boolean"
+  }, {
+    "id" : "calcDisc7PercentFromValue",
+    "column" : "calcDisc7PercentFromValue",
+    "ar" : "احتساب نسبة خصم 7 من القيمة",
+    "en" : "Calculate discount 7 percentage from value",
+    "type" : "Boolean"
+  }, {
+    "id" : "calcDisc8PercentFromValue",
+    "column" : "calcDisc8PercentFromValue",
+    "ar" : "احتساب نسبة خصم 8 من القيمة",
+    "en" : "Calculate discount 8 percentage from value",
+    "type" : "Boolean"
+  }, {
+    "id" : "calcPriceFromProfitWhenSave",
+    "column" : "calcPriceFromProfitWhenSave",
+    "ar" : "حساب السعر من الربح عند الحفظ",
+    "en" : "Calculate Price From Profit When Save",
+    "type" : "Boolean"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "considerPreviousTermWhenSearchingForTermCode",
+    "column" : "considerPreviousTermWhenSearchingForTermCode",
+    "ar" : "اعتبار البند السابق عند البحث في كود البند",
+    "en" : "Consider Previous Term When Searching For Term Code",
+    "type" : "Boolean"
+  }, {
+    "id" : "contractTemplate",
+    "column" : "contractTemplate_id",
+    "ar" : "نموذج العقد",
+    "en" : "Contract Template",
+    "type" : "Reference",
+    "refTo" : "ContractTemplate",
+    "refPath" : "/modules/contracting/ContractTemplate.html"
+  }, {
+    "id" : "contractingDate",
+    "column" : "contractingDate",
+    "ar" : "تاريخ التعاقد",
+    "en" : "Contracting Date",
+    "type" : "Date"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "customer",
+    "column" : "customer_id",
+    "ar" : "العميل",
+    "en" : "Customer",
+    "type" : "Reference",
+    "refTo" : "Customer",
+    "refPath" : "/modules/basic/Customer.html"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "discountPercent",
+    "column" : "discountPercent",
+    "ar" : "الخصم | النسبة",
+    "en" : "Discount Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "discountVal",
+    "column" : "discountVal",
+    "ar" : "التخفيض",
+    "en" : "Discount",
+    "type" : "Decimal"
+  }, {
+    "id" : "doNotEditSavedSubmittals",
+    "column" : "doNotEditSavedSubmittals",
+    "ar" : "عدم التعديل في الإعتمادات التي تم إنشاؤها",
+    "en" : "Do Not Edit Saved Submittals",
+    "type" : "Boolean"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "endIn",
+    "column" : "endIn",
+    "ar" : "ينتهى",
+    "en" : "End In",
+    "type" : "Date"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "estimatedBudget",
+    "column" : "estimatedBudget_id",
+    "ar" : " موازنة مقاولات تقديرية",
+    "en" : " Contracting Estimated Budget",
+    "type" : "Reference",
+    "refTo" : "ContractingEstimatedBudget",
+    "refPath" : "/modules/contracting/ContractingEstimatedBudget.html"
+  }, {
+    "id" : "finishedContract",
+    "column" : "finishedContract",
+    "ar" : "عقد منتهي",
+    "en" : "Finished Contract",
+    "type" : "Boolean"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "manualTermCodes",
+    "column" : "manualTermCodes",
+    "ar" : "تكويد البنود يدويا",
+    "en" : "Manual Terms Codes",
+    "type" : "Boolean"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "openingNumberOfExtract",
+    "column" : "openingNumberOfExtract",
+    "ar" : "افتتاحي أرقام المستخلصات",
+    "en" : "Opening Number Of Extracts",
+    "type" : "Integer"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "parentEstate",
+    "columns" : [ "parentEstateActualCode", " parentEstateCode", " parentEstateEntityType", " parentEstateId" ],
+    "ar" : "العقار الأعلى",
+    "en" : "Parent Estate",
+    "type" : "Genericreference"
+  }, {
+    "id" : "paymentPeriod.uom",
+    "column" : "paymentPeriodUom",
+    "ar" : "الوحدة",
+    "en" : "Unit",
+    "type" : "Enum",
+    "enum" : "TimePeriodType"
+  }, {
+    "id" : "paymentPeriod.value",
+    "column" : "paymentPeriodValue",
+    "ar" : "القيمة",
+    "en" : "Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "phasesGroup",
+    "column" : "phasesGroup_id",
+    "ar" : "مجموعة مراحل",
+    "en" : "Phases Group",
+    "type" : "Reference",
+    "refTo" : "ContractingPhasesGroup",
+    "refPath" : "/modules/contracting/ContractingPhasesGroup.html"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "priceBeforeDiscount",
+    "column" : "priceBeforeDiscount",
+    "ar" : "السعر قبل التخفيض",
+    "en" : "Price Before Discount",
+    "type" : "Decimal"
+  }, {
+    "id" : "priceClassifier1",
+    "column" : "priceClassifier1_id",
+    "ar" : "محدد سعر 1",
+    "en" : "Price Classifier 1",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier1",
+    "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+  }, {
+    "id" : "priceClassifier2",
+    "column" : "priceClassifier2_id",
+    "ar" : "محدد سعر 2",
+    "en" : "Price Classifier 2",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier2",
+    "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+  }, {
+    "id" : "priceClassifier3",
+    "column" : "priceClassifier3_id",
+    "ar" : "محدد سعر 3",
+    "en" : "Price Classifier 3",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier3",
+    "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+  }, {
+    "id" : "priceClassifier4",
+    "column" : "priceClassifier4_id",
+    "ar" : "محدد سعر 4",
+    "en" : "Price Classifier 4",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier4",
+    "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+  }, {
+    "id" : "priceClassifier5",
+    "column" : "priceClassifier5_id",
+    "ar" : "محدد سعر 5",
+    "en" : "Price Classifier 5",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier5",
+    "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "projContract",
+    "column" : "projContract_id",
+    "ar" : "عقد المشروع",
+    "en" : "Project Contract",
+    "type" : "Reference",
+    "refTo" : "ProjectContract",
+    "refPath" : "/modules/contracting/ProjectContract.html"
+  }, {
+    "id" : "project",
+    "column" : "project_id",
+    "ar" : "المشروع",
+    "en" : "Project",
+    "type" : "Reference",
+    "refTo" : "Project",
+    "refPath" : "/modules/contracting/Project.html"
+  }, {
+    "id" : "projectPeriodInDays",
+    "column" : "projectPeriodInDays",
+    "ar" : "مدة المشروع بالأيام",
+    "en" : "Project Period In Days",
+    "type" : "Decimal"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "responsibleEngineer",
+    "column" : "responsibleEngineer_id",
+    "ar" : "المهندس المسئول",
+    "en" : "Responsible Engineer",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "responsibleSales",
+    "column" : "responsibleSales_id",
+    "ar" : "مسئول المبيعات",
+    "en" : "Sales Responsible",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "source",
+    "columns" : [ "sourceActualCode", " sourceCode", " sourceEntityType", " sourceId" ],
+    "ar" : "المصدر",
+    "en" : "Source",
+    "type" : "Genericreference"
+  }, {
+    "id" : "startIn",
+    "column" : "startIn",
+    "ar" : "يبدأ في",
+    "en" : "Start In",
+    "type" : "Date"
+  }, {
+    "id" : "subsidiaryAccounts.account1",
+    "column" : "account1_id",
+    "ar" : " حساب 01",
+    "en" : " Account 01",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account10",
+    "column" : "account10_id",
+    "ar" : " حساب 10",
+    "en" : " Account 10",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account11",
+    "column" : "account11_id",
+    "ar" : " حساب 11",
+    "en" : " Account 11",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account12",
+    "column" : "account12_id",
+    "ar" : " حساب 12",
+    "en" : " Account 12",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account13",
+    "column" : "account13_id",
+    "ar" : " حساب 13",
+    "en" : " Account 13",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account14",
+    "column" : "account14_id",
+    "ar" : " حساب 14",
+    "en" : " Account 14",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account15",
+    "column" : "account15_id",
+    "ar" : " حساب 15",
+    "en" : " Account 15",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account16",
+    "column" : "account16_id",
+    "ar" : " حساب 16",
+    "en" : " Account 16",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account17",
+    "column" : "account17_id",
+    "ar" : " حساب 17",
+    "en" : " Account 17",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account18",
+    "column" : "account18_id",
+    "ar" : " حساب 18",
+    "en" : " Account 18",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account19",
+    "column" : "account19_id",
+    "ar" : " حساب 19",
+    "en" : " Account 19",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account2",
+    "column" : "account2_id",
+    "ar" : " حساب 02",
+    "en" : " Account 02",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account20",
+    "column" : "account20_id",
+    "ar" : " حساب 20",
+    "en" : " Account 20",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account3",
+    "column" : "account3_id",
+    "ar" : " حساب 03",
+    "en" : " Account 03",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account4",
+    "column" : "account4_id",
+    "ar" : " حساب 04",
+    "en" : " Account 04",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account5",
+    "column" : "account5_id",
+    "ar" : " حساب 05",
+    "en" : " Account 05",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account6",
+    "column" : "account6_id",
+    "ar" : " حساب 06",
+    "en" : " Account 06",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account7",
+    "column" : "account7_id",
+    "ar" : " حساب 07",
+    "en" : " Account 07",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account8",
+    "column" : "account8_id",
+    "ar" : " حساب 08",
+    "en" : " Account 08",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account9",
+    "column" : "account9_id",
+    "ar" : " حساب 09",
+    "en" : " Account 09",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.accountsBag",
+    "column" : "accountsBag_id",
+    "ar" : " حقيبة حسابات",
+    "en" : " Accounts Bag",
+    "type" : "Reference",
+    "refTo" : "AccountsBag",
+    "refPath" : "/modules/basic/AccountsBag.html"
+  }, {
+    "id" : "subsidiaryAccounts.currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "subsidiaryAccounts.forceNoDebtAgesTracking",
+    "column" : "forceNoDebtAgesTracking",
+    "ar" : "منع متابعة أعمار الديون لهذه الذمة - حتي و إن تم تفعيلها للحساب",
+    "en" : "Do Not Track Debt Ages For This Subsidiary - Even if it was activated in the account",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.mainAccount",
+    "column" : "mainAccount_id",
+    "ar" : " الحساب الرئيسي",
+    "en" : " Main Account",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.parentParty",
+    "columns" : [ "parentPartyActualCode", " parentPartyCode", " parentPartyEntityType", " parentPartyId" ],
+    "ar" : "الجهة الأعلي (البديل المحاسبي)",
+    "en" : "Parent Party (Accounting Alternative)",
+    "type" : "Genericreference"
+  }, {
+    "id" : "subsidiaryAccounts.tax1Exempt",
+    "column" : "tax1Exempt",
+    "ar" : "غير خاضع لضريبة 1",
+    "en" : "Tax 1 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax2Exempt",
+    "column" : "tax2Exempt",
+    "ar" : "غير خاضع لضريبة 2",
+    "en" : "Tax 2 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax3Exempt",
+    "column" : "tax3Exempt",
+    "ar" : "غير خاضع لضريبة 3",
+    "en" : "Tax 3 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax4Exempt",
+    "column" : "tax4Exempt",
+    "ar" : "غير خاضع لضريبة 4",
+    "en" : "Tax 4 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "tax1Percent",
+    "column" : "tax1Percent",
+    "ar" : "ضريبة 1 | %",
+    "en" : "Tax 1 | %",
+    "type" : "Decimal"
+  }, {
+    "id" : "tax2Percent",
+    "column" : "tax2Percent",
+    "ar" : "ضريبة 2 | %",
+    "en" : "Tax 2 | %",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalAfterTaxes",
+    "column" : "totalAfterTaxes",
+    "ar" : "الصافي بعد الضريبة",
+    "en" : "Total After Taxes",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalBeforeTaxes",
+    "column" : "totalBeforeTaxes",
+    "ar" : "الصافي قبل الضريبة",
+    "en" : "Total Before Taxes",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalCost",
+    "column" : "totalCost",
+    "ar" : "اجمالى التكلفة",
+    "en" : "Total Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalDueValue",
+    "column" : "totalDueValue",
+    "ar" : "اجمالى القيمة المستحقة",
+    "en" : "Total Due Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalPrice",
+    "column" : "totalPrice",
+    "ar" : "إجمالي السعر",
+    "en" : "  Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalTax1",
+    "column" : "totalTax1",
+    "ar" : "إجمالي الضريبة 1",
+    "en" : "Total Tax 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalTax2",
+    "column" : "totalTax2",
+    "ar" : "إجمالي الضريبة 2",
+    "en" : "Total Tax 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "unifiedLinesDiscount",
+    "column" : "unifiedLinesDiscount",
+    "ar" : "خصم السطور الموحد",
+    "en" : "Unified Lines Discount",
+    "type" : "Decimal"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "conditions",
+    "table" : "ContrExecutivebudgetLine",
+    "joinColumn" : "contractingExecutiveBudget_id",
+    "ar" : "الشروط",
+    "en" : "Conditions",
+    "fields" : [ {
+      "id" : "conditions.addedValue",
+      "column" : "addedValue",
+      "ar" : "القيمة المضافة",
+      "en" : "Added Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditions.additionPlannedValue",
+      "column" : "additionPlannedValue",
+      "ar" : "قيمة الشرط المخططة| إضافة",
+      "en" : "Condition Planned Value | Addition",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditions.additionValueAfterTax",
+      "column" : "additionValueAfterTax",
+      "ar" : "قيمة الشرط المخططة| قيمة الإضافة بعد الضريبة",
+      "en" : "Condition Planned Value | Addition Value After Tax",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditions.calculatedAfterPrevConds",
+      "column" : "calculatedAfterPrevConds",
+      "ar" : "يحسب بعد إضافة قيم الشروط التي تسبقة",
+      "en" : "Calculated After Previous Conditions",
+      "type" : "Boolean"
+    }, {
+      "id" : "conditions.conditionStatus",
+      "column" : "conditionStatus",
+      "ar" : "حالة الشرط",
+      "en" : "Condition Status",
+      "type" : "Enum",
+      "enum" : "ContractingCondStatus"
+    }, {
+      "id" : "conditions.contractingCondition",
+      "column" : "contractingCondition_id",
+      "ar" : "الشرط",
+      "en" : "Condition",
+      "type" : "Reference",
+      "refTo" : "ContractingCondition",
+      "refPath" : "/modules/contracting/ContractingCondition.html"
+    }, {
+      "id" : "conditions.deductedValue",
+      "column" : "deductedValue",
+      "ar" : "الإجماليات | إستقطاعات",
+      "en" : "Total | Deductions",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditions.deductionPlannedValue",
+      "column" : "deductionPlannedValue",
+      "ar" : "قيمة الشرط المخططة| استقطاع",
+      "en" : "Condition Planned Value | Deduction",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditions.deductionValueAfterTax",
+      "column" : "deductionValueAfterTax",
+      "ar" : "قيمة الشرط المخططة| قيمة الاستقطاع بعد الضريبة",
+      "en" : "Condition Planned Value | Deduction Value After Tax",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditions.estimatedConditionTotal",
+      "column" : "estimatedConditionTotal",
+      "ar" : "إجمالي الشرط التقديري",
+      "en" : "Estimated Condition Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditions.finishedPercent",
+      "column" : "finishedPercent",
+      "ar" : "نسبة التنفيذ",
+      "en" : "% OF Finished",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditions.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "conditions.letterOfGuarantee",
+      "column" : "letterOfGuarantee_id",
+      "ar" : "خطاب الضمان",
+      "en" : "Letter Of Guarantee",
+      "type" : "Reference",
+      "refTo" : "LetterOfGuarantee",
+      "refPath" : "/modules/accounting-lgt/LetterOfGuarantee.html"
+    }, {
+      "id" : "conditions.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "conditions.otherValue",
+      "column" : "otherValue",
+      "ar" : "الإجماليات | آخري",
+      "en" : "Total | Others",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditions.phase",
+      "column" : "phase_id",
+      "ar" : "المرحلة",
+      "en" : "Phase or Cycle",
+      "type" : "Reference",
+      "refTo" : "ContractingPhase",
+      "refPath" : "/modules/contracting/ContractingPhase.html"
+    }, {
+      "id" : "conditions.relationWithDocs",
+      "column" : "relationWithDocs",
+      "ar" : "العلاقة مع السندات",
+      "en" : "Relation With Documents",
+      "type" : "Enum",
+      "enum" : "ConditionRelationWithDocs"
+    }, {
+      "id" : "conditions.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "conditions.selected",
+      "column" : "selected",
+      "ar" : "اختيار",
+      "en" : "Selected",
+      "type" : "Boolean"
+    }, {
+      "id" : "conditions.source",
+      "columns" : [ "sourceActualCode", " sourceCode", " sourceEntityType", " sourceId" ],
+      "ar" : "المصدر",
+      "en" : "Source",
+      "type" : "Genericreference"
+    }, {
+      "id" : "conditions.taxPercent",
+      "column" : "taxPercent",
+      "ar" : "قيمة الشرط المخططة| نسبة الضريبة",
+      "en" : "Condition Planned Value | Tax Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditions.taxValue",
+      "column" : "taxValue",
+      "ar" : "قيمة الشرط المخططة| قيمة الضريبة",
+      "en" : "Condition Planned Value | Tax Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditions.termCode",
+      "column" : "termCode",
+      "ar" : "كود البند",
+      "en" : "Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "conditions.textCondition",
+      "column" : "textCondition",
+      "ar" : "الشرط النصي",
+      "en" : "Text Condition",
+      "type" : "BigText"
+    }, {
+      "id" : "conditions.value",
+      "column" : "value",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "conditions.valueType",
+      "column" : "valueType",
+      "ar" : "نوع القيمة",
+      "en" : "Value Type",
+      "type" : "Enum",
+      "enum" : "ConditionValType"
+    } ]
+  }, {
+    "id" : "contractors",
+    "table" : "ContrExecutiveBudgetContractorLine",
+    "joinColumn" : "contractingExecutiveBudget_id",
+    "ar" : "مقاول باطن",
+    "en" : "Contractors",
+    "fields" : [ {
+      "id" : "contractors.analysisCard",
+      "columns" : [ "analysisCardActualCode", " analysisCardCode", " analysisCardEntityType", " analysisCardId" ],
+      "ar" : "كارت التحليل",
+      "en" : "Term Analysis Card",
+      "type" : "Genericreference"
+    }, {
+      "id" : "contractors.analysisTermCode",
+      "column" : "analysisTermCode",
+      "ar" : "كود البند التحليلى",
+      "en" : "Analysis Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "contractors.availableQty",
+      "column" : "availableQty",
+      "ar" : "الكمية المتاحة",
+      "en" : "Available Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.contract",
+      "columns" : [ "contractActualCode", " contractCode", " contractEntityType", " contractId" ],
+      "ar" : "العقد",
+      "en" : "Contract",
+      "type" : "Genericreference"
+    }, {
+      "id" : "contractors.contractedQty",
+      "column" : "contractedQty",
+      "ar" : "الكمية | متعاقد عليها",
+      "en" : "Quantity | Contracted",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.contractingUOM",
+      "column" : "contractingUOM_id",
+      "ar" : "الوحدة",
+      "en" : "UOM",
+      "type" : "Reference",
+      "refTo" : "ContractingUOM",
+      "refPath" : "/modules/contracting/ContractingUOM.html"
+    }, {
+      "id" : "contractors.contractor",
+      "column" : "contractor_id",
+      "ar" : "مقاول باطن",
+      "en" : "Contractor",
+      "type" : "Reference",
+      "refTo" : "Contractor",
+      "refPath" : "/modules/contracting/Contractor.html"
+    }, {
+      "id" : "contractors.ctrActualCost",
+      "column" : "ctrActualCost",
+      "ar" : "التكلفة الفعلية",
+      "en" : "Actual Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.ctrActualQty",
+      "column" : "ctrActualQty",
+      "ar" : "الكمية الفعلية",
+      "en" : "Actual Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.description",
+      "column" : "description",
+      "ar" : "الوصف",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "contractors.estate",
+      "columns" : [ "estateActualCode", " estateCode", " estateEntityType", " estateId" ],
+      "ar" : "العقار",
+      "en" : "Estate",
+      "type" : "Genericreference"
+    }, {
+      "id" : "contractors.estimatedTermCode",
+      "column" : "estimatedTermCode",
+      "ar" : "كود بند الموازنة التقديرية",
+      "en" : "Estimated Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "contractors.estimatedTermRemark",
+      "column" : "estimatedTermRemark",
+      "ar" : "وصف بند الموازنة التقديرية",
+      "en" : "Estimated Term Remark",
+      "type" : "BigText"
+    }, {
+      "id" : "contractors.executedContractQty",
+      "column" : "executedContractQty",
+      "ar" : "الكمية المنفذة من البند التعاقدي",
+      "en" : "Executed Contract Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.executiveTermCode",
+      "column" : "executiveTermCode",
+      "ar" : "كود بند الموازنة التنفيذية",
+      "en" : "Executive Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "contractors.executiveTermRemark",
+      "column" : "executiveTermRemark",
+      "ar" : "وصف بند الموازنة التنفيذية",
+      "en" : "Executive Term Remark",
+      "type" : "BigText"
+    }, {
+      "id" : "contractors.fromDoc",
+      "columns" : [ "fromDocActualCode", " fromDocCode", " fromDocEntityType", " fromDocId" ],
+      "ar" : "بناءا على",
+      "en" : "From Document",
+      "type" : "Genericreference"
+    }, {
+      "id" : "contractors.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "contractors.invItem",
+      "column" : "invItem_id",
+      "ar" : " الصنف",
+      "en" : " Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "contractors.item",
+      "column" : "item_id",
+      "ar" : "الصنف",
+      "en" : "Item",
+      "type" : "Reference",
+      "refTo" : "ContractingDirectCost",
+      "refPath" : "/modules/contracting/ContractingDirectCost.html"
+    }, {
+      "id" : "contractors.itemUom",
+      "column" : "itemUom_id",
+      "ar" : "وحدة الصنف",
+      "en" : "Item UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "contractors.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "contractors.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n10",
+      "column" : "n10",
+      "ar" : "رقم 10",
+      "en" : "Number 10",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n11",
+      "column" : "n11",
+      "ar" : "رقم 11",
+      "en" : "Number 11",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n12",
+      "column" : "n12",
+      "ar" : "رقم 12",
+      "en" : "Number 12",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n13",
+      "column" : "n13",
+      "ar" : "رقم 13",
+      "en" : "Number 13",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n14",
+      "column" : "n14",
+      "ar" : "رقم 14",
+      "en" : "Number 14",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n15",
+      "column" : "n15",
+      "ar" : "رقم 15",
+      "en" : "Number 15",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n16",
+      "column" : "n16",
+      "ar" : "رقم 16",
+      "en" : "Number 16",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n17",
+      "column" : "n17",
+      "ar" : "رقم 17",
+      "en" : "Number 17",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n18",
+      "column" : "n18",
+      "ar" : "رقم 18",
+      "en" : "Number 18",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n19",
+      "column" : "n19",
+      "ar" : "رقم 19",
+      "en" : "Number 19",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n20",
+      "column" : "n20",
+      "ar" : "رقم 20",
+      "en" : "Number 20",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n6",
+      "column" : "n6",
+      "ar" : "رقم 6",
+      "en" : "Number 6",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n7",
+      "column" : "n7",
+      "ar" : "رقم 7",
+      "en" : "Number 7",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n8",
+      "column" : "n8",
+      "ar" : "رقم 8",
+      "en" : "Number 8",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.n9",
+      "column" : "n9",
+      "ar" : "رقم 9",
+      "en" : "Number 9",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.productivityWastage.productivity",
+      "column" : "productivity",
+      "ar" : "الإنتاجية",
+      "en" : "Productivity",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.productivityWastage.qtyWastePercentage",
+      "column" : "qtyWastePercentage",
+      "ar" : "نسبة الهالك",
+      "en" : "Qty Waste Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.purchaseOrderQty",
+      "column" : "purchaseOrderQty",
+      "ar" : "كمية أمر الشراء",
+      "en" : "Purchase Order Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.quantity",
+      "column" : "quantity",
+      "ar" : "الكمية",
+      "en" : "Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "contractors.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "contractors.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "contractors.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "contractors.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "contractors.ref6",
+      "columns" : [ "ref6ActualCode", " ref6Code", " ref6EntityType", " ref6Id" ],
+      "ar" : "مرجع 6",
+      "en" : "Reference 6",
+      "type" : "Genericreference"
+    }, {
+      "id" : "contractors.ref7",
+      "columns" : [ "ref7ActualCode", " ref7Code", " ref7EntityType", " ref7Id" ],
+      "ar" : "مرجع 7",
+      "en" : "Reference 7",
+      "type" : "Genericreference"
+    }, {
+      "id" : "contractors.selected",
+      "column" : "selected",
+      "ar" : "اختيار",
+      "en" : "Selected",
+      "type" : "Boolean"
+    }, {
+      "id" : "contractors.sourceLineId",
+      "column" : "sourceLineId",
+      "ar" : "معرف سطر المصدر",
+      "en" : "Source Line Id",
+      "type" : "ID"
+    }, {
+      "id" : "contractors.specificDimensions.activePerc",
+      "column" : "activePerc",
+      "ar" : "النسبة الفعالة",
+      "en" : "Active Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "contractors.specificDimensions.box",
+      "column" : "box",
+      "ar" : "صندوق",
+      "en" : "Box",
+      "type" : "Text"
+    }, {
+      "id" : "contractors.specificDimensions.color",
+      "column" : "color",
+      "ar" : "اللون",
+      "en" : "Color",
+      "type" : "Color"
+    }, {
+      "id" : "contractors.specificDimensions.inactivePerc",
+      "column" : "inactivePerc",
+      "ar" : "النسبة الغير فعالة",
+      "en" : "Inactive Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "contractors.specificDimensions.locator",
+      "column" : "locator_id",
+      "ar" : "الموقع",
+      "en" : "Locator",
+      "type" : "Reference",
+      "refTo" : "Locator",
+      "refPath" : "/modules/supplychain/Locator.html"
+    }, {
+      "id" : "contractors.specificDimensions.lotId",
+      "column" : "lotId",
+      "ar" : "رقم الشحنه",
+      "en" : "Lot ID",
+      "type" : "Text"
+    }, {
+      "id" : "contractors.specificDimensions.measures",
+      "column" : "measures",
+      "ar" : "الأبعاد",
+      "en" : "Measures",
+      "type" : "Measures"
+    }, {
+      "id" : "contractors.specificDimensions.revisionId",
+      "column" : "revisionId",
+      "ar" : "الإصدار",
+      "en" : "Revision ID",
+      "type" : "Text"
+    }, {
+      "id" : "contractors.specificDimensions.secondSerial",
+      "column" : "secondSerial",
+      "ar" : "الرقم المسلسل الثاني",
+      "en" : "Second Serial",
+      "type" : "BigText"
+    }, {
+      "id" : "contractors.specificDimensions.serialNumber",
+      "column" : "serialNumber",
+      "ar" : "الرقم المسلسل",
+      "en" : "Serial number",
+      "type" : "BigText"
+    }, {
+      "id" : "contractors.specificDimensions.size",
+      "column" : "size",
+      "ar" : "المقاس",
+      "en" : "Size",
+      "type" : "Text"
+    }, {
+      "id" : "contractors.specificDimensions.subItem",
+      "column" : "subItem_id",
+      "ar" : " السياره",
+      "en" : " Customer Car",
+      "type" : "Reference",
+      "refTo" : "SubItem",
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+    }, {
+      "id" : "contractors.specificDimensions.warehouse",
+      "column" : "warehouse_id",
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "contractors.standardTerm",
+      "column" : "standardTerm_id",
+      "ar" : "البند القياسي",
+      "en" : "Standard Term",
+      "type" : "Reference",
+      "refTo" : "ContractingStandardTerm",
+      "refPath" : "/modules/contracting/ContractingStandardTerm.html"
+    }, {
+      "id" : "contractors.suffix",
+      "column" : "suffix",
+      "ar" : "نهاية التكويد",
+      "en" : "Suffix",
+      "type" : "Integer"
+    }, {
+      "id" : "contractors.termCategory",
+      "column" : "termCategory_id",
+      "ar" : "تصنيف البند",
+      "en" : "Term Category",
+      "type" : "Reference",
+      "refTo" : "ContrTermCategory",
+      "refPath" : "/modules/contracting/ContrTermCategory.html"
+    }, {
+      "id" : "contractors.termCategory2",
+      "column" : "termCategory2_id",
+      "ar" : "تصنيف البند 2",
+      "en" : "Term Category 2",
+      "type" : "Reference",
+      "refTo" : "ContrTermCategory2",
+      "refPath" : "/modules/basic/ContrTermCategory2.html"
+    }, {
+      "id" : "contractors.termCode",
+      "column" : "termCode",
+      "ar" : "كود البند",
+      "en" : "Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "contractors.termRemark",
+      "column" : "termRemark",
+      "ar" : " وصف البند",
+      "en" : " Term Description",
+      "type" : "BigText"
+    }, {
+      "id" : "contractors.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "contractors.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "contractors.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "contractors.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "contractors.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    }, {
+      "id" : "contractors.totalCost",
+      "column" : "totalCost",
+      "ar" : "اجمالى التكلفة",
+      "en" : "Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.unitCost",
+      "column" : "unitCost",
+      "ar" : "تكلفة الوحده",
+      "en" : "Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "contractors.uom",
+      "column" : "uom",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "items",
+    "table" : "ContrExecutiveBudgetItemLine",
+    "joinColumn" : "contractingExecutiveBudget_id",
+    "ar" : "الوصلات",
+    "en" : "Items",
+    "fields" : [ {
+      "id" : "items.analysisCard",
+      "columns" : [ "analysisCardActualCode", " analysisCardCode", " analysisCardEntityType", " analysisCardId" ],
+      "ar" : "كارت التحليل",
+      "en" : "Term Analysis Card",
+      "type" : "Genericreference"
+    }, {
+      "id" : "items.analysisTermCode",
+      "column" : "analysisTermCode",
+      "ar" : "كود البند التحليلى",
+      "en" : "Analysis Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "items.availableQty",
+      "column" : "availableQty",
+      "ar" : "الكمية المتاحة",
+      "en" : "Available Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.contract",
+      "columns" : [ "contractActualCode", " contractCode", " contractEntityType", " contractId" ],
+      "ar" : "العقد",
+      "en" : "Contract",
+      "type" : "Genericreference"
+    }, {
+      "id" : "items.contractedQty",
+      "column" : "contractedQty",
+      "ar" : "الكمية | متعاقد عليها",
+      "en" : "Quantity | Contracted",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.contractingUOM",
+      "column" : "contractingUOM_id",
+      "ar" : "الوحدة",
+      "en" : "UOM",
+      "type" : "Reference",
+      "refTo" : "ContractingUOM",
+      "refPath" : "/modules/contracting/ContractingUOM.html"
+    }, {
+      "id" : "items.contractor",
+      "column" : "contractor_id",
+      "ar" : "مقاول باطن",
+      "en" : "Contractor",
+      "type" : "Reference",
+      "refTo" : "Contractor",
+      "refPath" : "/modules/contracting/Contractor.html"
+    }, {
+      "id" : "items.ctrActualCost",
+      "column" : "ctrActualCost",
+      "ar" : "التكلفة الفعلية",
+      "en" : "Actual Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.ctrActualQty",
+      "column" : "ctrActualQty",
+      "ar" : "الكمية الفعلية",
+      "en" : "Actual Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.description",
+      "column" : "description",
+      "ar" : "الوصف",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "items.estate",
+      "columns" : [ "estateActualCode", " estateCode", " estateEntityType", " estateId" ],
+      "ar" : "العقار",
+      "en" : "Estate",
+      "type" : "Genericreference"
+    }, {
+      "id" : "items.estimatedTermCode",
+      "column" : "estimatedTermCode",
+      "ar" : "كود بند الموازنة التقديرية",
+      "en" : "Estimated Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "items.estimatedTermRemark",
+      "column" : "estimatedTermRemark",
+      "ar" : "وصف بند الموازنة التقديرية",
+      "en" : "Estimated Term Remark",
+      "type" : "BigText"
+    }, {
+      "id" : "items.executedContractQty",
+      "column" : "executedContractQty",
+      "ar" : "الكمية المنفذة من البند التعاقدي",
+      "en" : "Executed Contract Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.executiveTermCode",
+      "column" : "executiveTermCode",
+      "ar" : "كود بند الموازنة التنفيذية",
+      "en" : "Executive Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "items.executiveTermRemark",
+      "column" : "executiveTermRemark",
+      "ar" : "وصف بند الموازنة التنفيذية",
+      "en" : "Executive Term Remark",
+      "type" : "BigText"
+    }, {
+      "id" : "items.fromDoc",
+      "columns" : [ "fromDocActualCode", " fromDocCode", " fromDocEntityType", " fromDocId" ],
+      "ar" : "بناءا على",
+      "en" : "From Document",
+      "type" : "Genericreference"
+    }, {
+      "id" : "items.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "items.invItem",
+      "column" : "invItem_id",
+      "ar" : " الصنف",
+      "en" : " Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "items.item",
+      "column" : "item_id",
+      "ar" : "الصنف",
+      "en" : "Item",
+      "type" : "Reference",
+      "refTo" : "ContractingDirectCost",
+      "refPath" : "/modules/contracting/ContractingDirectCost.html"
+    }, {
+      "id" : "items.itemUom",
+      "column" : "itemUom_id",
+      "ar" : "وحدة الصنف",
+      "en" : "Item UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "items.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "items.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n10",
+      "column" : "n10",
+      "ar" : "رقم 10",
+      "en" : "Number 10",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n11",
+      "column" : "n11",
+      "ar" : "رقم 11",
+      "en" : "Number 11",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n12",
+      "column" : "n12",
+      "ar" : "رقم 12",
+      "en" : "Number 12",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n13",
+      "column" : "n13",
+      "ar" : "رقم 13",
+      "en" : "Number 13",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n14",
+      "column" : "n14",
+      "ar" : "رقم 14",
+      "en" : "Number 14",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n15",
+      "column" : "n15",
+      "ar" : "رقم 15",
+      "en" : "Number 15",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n16",
+      "column" : "n16",
+      "ar" : "رقم 16",
+      "en" : "Number 16",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n17",
+      "column" : "n17",
+      "ar" : "رقم 17",
+      "en" : "Number 17",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n18",
+      "column" : "n18",
+      "ar" : "رقم 18",
+      "en" : "Number 18",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n19",
+      "column" : "n19",
+      "ar" : "رقم 19",
+      "en" : "Number 19",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n20",
+      "column" : "n20",
+      "ar" : "رقم 20",
+      "en" : "Number 20",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n6",
+      "column" : "n6",
+      "ar" : "رقم 6",
+      "en" : "Number 6",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n7",
+      "column" : "n7",
+      "ar" : "رقم 7",
+      "en" : "Number 7",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n8",
+      "column" : "n8",
+      "ar" : "رقم 8",
+      "en" : "Number 8",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.n9",
+      "column" : "n9",
+      "ar" : "رقم 9",
+      "en" : "Number 9",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.productivityWastage.productivity",
+      "column" : "productivity",
+      "ar" : "الإنتاجية",
+      "en" : "Productivity",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.productivityWastage.qtyWastePercentage",
+      "column" : "qtyWastePercentage",
+      "ar" : "نسبة الهالك",
+      "en" : "Qty Waste Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.purchaseOrderQty",
+      "column" : "purchaseOrderQty",
+      "ar" : "كمية أمر الشراء",
+      "en" : "Purchase Order Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.quantity",
+      "column" : "quantity",
+      "ar" : "الكمية",
+      "en" : "Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "items.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "items.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "items.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "items.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "items.ref6",
+      "columns" : [ "ref6ActualCode", " ref6Code", " ref6EntityType", " ref6Id" ],
+      "ar" : "مرجع 6",
+      "en" : "Reference 6",
+      "type" : "Genericreference"
+    }, {
+      "id" : "items.ref7",
+      "columns" : [ "ref7ActualCode", " ref7Code", " ref7EntityType", " ref7Id" ],
+      "ar" : "مرجع 7",
+      "en" : "Reference 7",
+      "type" : "Genericreference"
+    }, {
+      "id" : "items.selected",
+      "column" : "selected",
+      "ar" : "اختيار",
+      "en" : "Selected",
+      "type" : "Boolean"
+    }, {
+      "id" : "items.sourceLineId",
+      "column" : "sourceLineId",
+      "ar" : "معرف سطر المصدر",
+      "en" : "Source Line Id",
+      "type" : "ID"
+    }, {
+      "id" : "items.specificDimensions.activePerc",
+      "column" : "activePerc",
+      "ar" : "النسبة الفعالة",
+      "en" : "Active Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "items.specificDimensions.box",
+      "column" : "box",
+      "ar" : "صندوق",
+      "en" : "Box",
+      "type" : "Text"
+    }, {
+      "id" : "items.specificDimensions.color",
+      "column" : "color",
+      "ar" : "اللون",
+      "en" : "Color",
+      "type" : "Color"
+    }, {
+      "id" : "items.specificDimensions.inactivePerc",
+      "column" : "inactivePerc",
+      "ar" : "النسبة الغير فعالة",
+      "en" : "Inactive Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "items.specificDimensions.locator",
+      "column" : "locator_id",
+      "ar" : "الموقع",
+      "en" : "Locator",
+      "type" : "Reference",
+      "refTo" : "Locator",
+      "refPath" : "/modules/supplychain/Locator.html"
+    }, {
+      "id" : "items.specificDimensions.lotId",
+      "column" : "lotId",
+      "ar" : "رقم الشحنه",
+      "en" : "Lot ID",
+      "type" : "Text"
+    }, {
+      "id" : "items.specificDimensions.measures",
+      "column" : "measures",
+      "ar" : "الأبعاد",
+      "en" : "Measures",
+      "type" : "Measures"
+    }, {
+      "id" : "items.specificDimensions.revisionId",
+      "column" : "revisionId",
+      "ar" : "الإصدار",
+      "en" : "Revision ID",
+      "type" : "Text"
+    }, {
+      "id" : "items.specificDimensions.secondSerial",
+      "column" : "secondSerial",
+      "ar" : "الرقم المسلسل الثاني",
+      "en" : "Second Serial",
+      "type" : "BigText"
+    }, {
+      "id" : "items.specificDimensions.serialNumber",
+      "column" : "serialNumber",
+      "ar" : "الرقم المسلسل",
+      "en" : "Serial number",
+      "type" : "BigText"
+    }, {
+      "id" : "items.specificDimensions.size",
+      "column" : "size",
+      "ar" : "المقاس",
+      "en" : "Size",
+      "type" : "Text"
+    }, {
+      "id" : "items.specificDimensions.subItem",
+      "column" : "subItem_id",
+      "ar" : " السياره",
+      "en" : " Customer Car",
+      "type" : "Reference",
+      "refTo" : "SubItem",
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+    }, {
+      "id" : "items.specificDimensions.warehouse",
+      "column" : "warehouse_id",
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "items.standardTerm",
+      "column" : "standardTerm_id",
+      "ar" : "البند القياسي",
+      "en" : "Standard Term",
+      "type" : "Reference",
+      "refTo" : "ContractingStandardTerm",
+      "refPath" : "/modules/contracting/ContractingStandardTerm.html"
+    }, {
+      "id" : "items.suffix",
+      "column" : "suffix",
+      "ar" : "نهاية التكويد",
+      "en" : "Suffix",
+      "type" : "Integer"
+    }, {
+      "id" : "items.termCategory",
+      "column" : "termCategory_id",
+      "ar" : "تصنيف البند",
+      "en" : "Term Category",
+      "type" : "Reference",
+      "refTo" : "ContrTermCategory",
+      "refPath" : "/modules/contracting/ContrTermCategory.html"
+    }, {
+      "id" : "items.termCategory2",
+      "column" : "termCategory2_id",
+      "ar" : "تصنيف البند 2",
+      "en" : "Term Category 2",
+      "type" : "Reference",
+      "refTo" : "ContrTermCategory2",
+      "refPath" : "/modules/basic/ContrTermCategory2.html"
+    }, {
+      "id" : "items.termCode",
+      "column" : "termCode",
+      "ar" : "كود البند",
+      "en" : "Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "items.termRemark",
+      "column" : "termRemark",
+      "ar" : " وصف البند",
+      "en" : " Term Description",
+      "type" : "BigText"
+    }, {
+      "id" : "items.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "items.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "items.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "items.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "items.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    }, {
+      "id" : "items.totalCost",
+      "column" : "totalCost",
+      "ar" : "اجمالى التكلفة",
+      "en" : "Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.unitCost",
+      "column" : "unitCost",
+      "ar" : "تكلفة الوحده",
+      "en" : "Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "items.uom",
+      "column" : "uom",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "otherExpenses",
+    "table" : "ContrExecutiveBudgetExpenseLine",
+    "joinColumn" : "contractingExecutiveBudget_id",
+    "ar" : "مصروفات أخري",
+    "en" : "Other Expenses",
+    "fields" : [ {
+      "id" : "otherExpenses.analysisCard",
+      "columns" : [ "analysisCardActualCode", " analysisCardCode", " analysisCardEntityType", " analysisCardId" ],
+      "ar" : "كارت التحليل",
+      "en" : "Term Analysis Card",
+      "type" : "Genericreference"
+    }, {
+      "id" : "otherExpenses.analysisTermCode",
+      "column" : "analysisTermCode",
+      "ar" : "كود البند التحليلى",
+      "en" : "Analysis Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "otherExpenses.availableQty",
+      "column" : "availableQty",
+      "ar" : "الكمية المتاحة",
+      "en" : "Available Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.contract",
+      "columns" : [ "contractActualCode", " contractCode", " contractEntityType", " contractId" ],
+      "ar" : "العقد",
+      "en" : "Contract",
+      "type" : "Genericreference"
+    }, {
+      "id" : "otherExpenses.contractedQty",
+      "column" : "contractedQty",
+      "ar" : "الكمية | متعاقد عليها",
+      "en" : "Quantity | Contracted",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.contractingUOM",
+      "column" : "contractingUOM_id",
+      "ar" : "الوحدة",
+      "en" : "UOM",
+      "type" : "Reference",
+      "refTo" : "ContractingUOM",
+      "refPath" : "/modules/contracting/ContractingUOM.html"
+    }, {
+      "id" : "otherExpenses.contractor",
+      "column" : "contractor_id",
+      "ar" : "مقاول باطن",
+      "en" : "Contractor",
+      "type" : "Reference",
+      "refTo" : "Contractor",
+      "refPath" : "/modules/contracting/Contractor.html"
+    }, {
+      "id" : "otherExpenses.ctrActualCost",
+      "column" : "ctrActualCost",
+      "ar" : "التكلفة الفعلية",
+      "en" : "Actual Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.ctrActualQty",
+      "column" : "ctrActualQty",
+      "ar" : "الكمية الفعلية",
+      "en" : "Actual Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.description",
+      "column" : "description",
+      "ar" : "الوصف",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "otherExpenses.estate",
+      "columns" : [ "estateActualCode", " estateCode", " estateEntityType", " estateId" ],
+      "ar" : "العقار",
+      "en" : "Estate",
+      "type" : "Genericreference"
+    }, {
+      "id" : "otherExpenses.estimatedTermCode",
+      "column" : "estimatedTermCode",
+      "ar" : "كود بند الموازنة التقديرية",
+      "en" : "Estimated Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "otherExpenses.estimatedTermRemark",
+      "column" : "estimatedTermRemark",
+      "ar" : "وصف بند الموازنة التقديرية",
+      "en" : "Estimated Term Remark",
+      "type" : "BigText"
+    }, {
+      "id" : "otherExpenses.executedContractQty",
+      "column" : "executedContractQty",
+      "ar" : "الكمية المنفذة من البند التعاقدي",
+      "en" : "Executed Contract Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.executiveTermCode",
+      "column" : "executiveTermCode",
+      "ar" : "كود بند الموازنة التنفيذية",
+      "en" : "Executive Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "otherExpenses.executiveTermRemark",
+      "column" : "executiveTermRemark",
+      "ar" : "وصف بند الموازنة التنفيذية",
+      "en" : "Executive Term Remark",
+      "type" : "BigText"
+    }, {
+      "id" : "otherExpenses.fromDoc",
+      "columns" : [ "fromDocActualCode", " fromDocCode", " fromDocEntityType", " fromDocId" ],
+      "ar" : "بناءا على",
+      "en" : "From Document",
+      "type" : "Genericreference"
+    }, {
+      "id" : "otherExpenses.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "otherExpenses.invItem",
+      "column" : "invItem_id",
+      "ar" : " الصنف",
+      "en" : " Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "otherExpenses.item",
+      "column" : "item_id",
+      "ar" : "الصنف",
+      "en" : "Item",
+      "type" : "Reference",
+      "refTo" : "ContractingDirectCost",
+      "refPath" : "/modules/contracting/ContractingDirectCost.html"
+    }, {
+      "id" : "otherExpenses.itemUom",
+      "column" : "itemUom_id",
+      "ar" : "وحدة الصنف",
+      "en" : "Item UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "otherExpenses.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "otherExpenses.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n10",
+      "column" : "n10",
+      "ar" : "رقم 10",
+      "en" : "Number 10",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n11",
+      "column" : "n11",
+      "ar" : "رقم 11",
+      "en" : "Number 11",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n12",
+      "column" : "n12",
+      "ar" : "رقم 12",
+      "en" : "Number 12",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n13",
+      "column" : "n13",
+      "ar" : "رقم 13",
+      "en" : "Number 13",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n14",
+      "column" : "n14",
+      "ar" : "رقم 14",
+      "en" : "Number 14",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n15",
+      "column" : "n15",
+      "ar" : "رقم 15",
+      "en" : "Number 15",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n16",
+      "column" : "n16",
+      "ar" : "رقم 16",
+      "en" : "Number 16",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n17",
+      "column" : "n17",
+      "ar" : "رقم 17",
+      "en" : "Number 17",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n18",
+      "column" : "n18",
+      "ar" : "رقم 18",
+      "en" : "Number 18",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n19",
+      "column" : "n19",
+      "ar" : "رقم 19",
+      "en" : "Number 19",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n20",
+      "column" : "n20",
+      "ar" : "رقم 20",
+      "en" : "Number 20",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n6",
+      "column" : "n6",
+      "ar" : "رقم 6",
+      "en" : "Number 6",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n7",
+      "column" : "n7",
+      "ar" : "رقم 7",
+      "en" : "Number 7",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n8",
+      "column" : "n8",
+      "ar" : "رقم 8",
+      "en" : "Number 8",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.n9",
+      "column" : "n9",
+      "ar" : "رقم 9",
+      "en" : "Number 9",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.productivityWastage.productivity",
+      "column" : "productivity",
+      "ar" : "الإنتاجية",
+      "en" : "Productivity",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.productivityWastage.qtyWastePercentage",
+      "column" : "qtyWastePercentage",
+      "ar" : "نسبة الهالك",
+      "en" : "Qty Waste Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.purchaseOrderQty",
+      "column" : "purchaseOrderQty",
+      "ar" : "كمية أمر الشراء",
+      "en" : "Purchase Order Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.quantity",
+      "column" : "quantity",
+      "ar" : "الكمية",
+      "en" : "Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "otherExpenses.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "otherExpenses.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "otherExpenses.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "otherExpenses.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "otherExpenses.ref6",
+      "columns" : [ "ref6ActualCode", " ref6Code", " ref6EntityType", " ref6Id" ],
+      "ar" : "مرجع 6",
+      "en" : "Reference 6",
+      "type" : "Genericreference"
+    }, {
+      "id" : "otherExpenses.ref7",
+      "columns" : [ "ref7ActualCode", " ref7Code", " ref7EntityType", " ref7Id" ],
+      "ar" : "مرجع 7",
+      "en" : "Reference 7",
+      "type" : "Genericreference"
+    }, {
+      "id" : "otherExpenses.selected",
+      "column" : "selected",
+      "ar" : "اختيار",
+      "en" : "Selected",
+      "type" : "Boolean"
+    }, {
+      "id" : "otherExpenses.sourceLineId",
+      "column" : "sourceLineId",
+      "ar" : "معرف سطر المصدر",
+      "en" : "Source Line Id",
+      "type" : "ID"
+    }, {
+      "id" : "otherExpenses.specificDimensions.activePerc",
+      "column" : "activePerc",
+      "ar" : "النسبة الفعالة",
+      "en" : "Active Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "otherExpenses.specificDimensions.box",
+      "column" : "box",
+      "ar" : "صندوق",
+      "en" : "Box",
+      "type" : "Text"
+    }, {
+      "id" : "otherExpenses.specificDimensions.color",
+      "column" : "color",
+      "ar" : "اللون",
+      "en" : "Color",
+      "type" : "Color"
+    }, {
+      "id" : "otherExpenses.specificDimensions.inactivePerc",
+      "column" : "inactivePerc",
+      "ar" : "النسبة الغير فعالة",
+      "en" : "Inactive Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "otherExpenses.specificDimensions.locator",
+      "column" : "locator_id",
+      "ar" : "الموقع",
+      "en" : "Locator",
+      "type" : "Reference",
+      "refTo" : "Locator",
+      "refPath" : "/modules/supplychain/Locator.html"
+    }, {
+      "id" : "otherExpenses.specificDimensions.lotId",
+      "column" : "lotId",
+      "ar" : "رقم الشحنه",
+      "en" : "Lot ID",
+      "type" : "Text"
+    }, {
+      "id" : "otherExpenses.specificDimensions.measures",
+      "column" : "measures",
+      "ar" : "الأبعاد",
+      "en" : "Measures",
+      "type" : "Measures"
+    }, {
+      "id" : "otherExpenses.specificDimensions.revisionId",
+      "column" : "revisionId",
+      "ar" : "الإصدار",
+      "en" : "Revision ID",
+      "type" : "Text"
+    }, {
+      "id" : "otherExpenses.specificDimensions.secondSerial",
+      "column" : "secondSerial",
+      "ar" : "الرقم المسلسل الثاني",
+      "en" : "Second Serial",
+      "type" : "BigText"
+    }, {
+      "id" : "otherExpenses.specificDimensions.serialNumber",
+      "column" : "serialNumber",
+      "ar" : "الرقم المسلسل",
+      "en" : "Serial number",
+      "type" : "BigText"
+    }, {
+      "id" : "otherExpenses.specificDimensions.size",
+      "column" : "size",
+      "ar" : "المقاس",
+      "en" : "Size",
+      "type" : "Text"
+    }, {
+      "id" : "otherExpenses.specificDimensions.subItem",
+      "column" : "subItem_id",
+      "ar" : " السياره",
+      "en" : " Customer Car",
+      "type" : "Reference",
+      "refTo" : "SubItem",
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+    }, {
+      "id" : "otherExpenses.specificDimensions.warehouse",
+      "column" : "warehouse_id",
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "otherExpenses.standardTerm",
+      "column" : "standardTerm_id",
+      "ar" : "البند القياسي",
+      "en" : "Standard Term",
+      "type" : "Reference",
+      "refTo" : "ContractingStandardTerm",
+      "refPath" : "/modules/contracting/ContractingStandardTerm.html"
+    }, {
+      "id" : "otherExpenses.suffix",
+      "column" : "suffix",
+      "ar" : "نهاية التكويد",
+      "en" : "Suffix",
+      "type" : "Integer"
+    }, {
+      "id" : "otherExpenses.termCategory",
+      "column" : "termCategory_id",
+      "ar" : "تصنيف البند",
+      "en" : "Term Category",
+      "type" : "Reference",
+      "refTo" : "ContrTermCategory",
+      "refPath" : "/modules/contracting/ContrTermCategory.html"
+    }, {
+      "id" : "otherExpenses.termCategory2",
+      "column" : "termCategory2_id",
+      "ar" : "تصنيف البند 2",
+      "en" : "Term Category 2",
+      "type" : "Reference",
+      "refTo" : "ContrTermCategory2",
+      "refPath" : "/modules/basic/ContrTermCategory2.html"
+    }, {
+      "id" : "otherExpenses.termCode",
+      "column" : "termCode",
+      "ar" : "كود البند",
+      "en" : "Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "otherExpenses.termRemark",
+      "column" : "termRemark",
+      "ar" : " وصف البند",
+      "en" : " Term Description",
+      "type" : "BigText"
+    }, {
+      "id" : "otherExpenses.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "otherExpenses.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "otherExpenses.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "otherExpenses.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "otherExpenses.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    }, {
+      "id" : "otherExpenses.totalCost",
+      "column" : "totalCost",
+      "ar" : "اجمالى التكلفة",
+      "en" : "Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.unitCost",
+      "column" : "unitCost",
+      "ar" : "تكلفة الوحده",
+      "en" : "Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "otherExpenses.uom",
+      "column" : "uom",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "terms",
+    "table" : "ContrExecutivBudgetTermLine",
+    "joinColumn" : "contractingExecutiveBudget_id",
+    "ar" : "البنود",
+    "en" : "Terms",
+    "fields" : [ {
+      "id" : "terms.additionalCosts",
+      "column" : "additionalCosts",
+      "ar" : "تكاليف إضافية",
+      "en" : "Additional Costs",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.additionsOfConditions",
+      "column" : "additionsOfConditions",
+      "ar" : "الإضافات من الشروط",
+      "en" : "Additions Of Conditions",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.assayQty",
+      "column" : "assayQty",
+      "ar" : "كمية المقايسة",
+      "en" : "Assay Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.attachment",
+      "column" : "attachment_id",
+      "ar" : "مرفق",
+      "en" : "Attachment",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "terms.attachment2",
+      "column" : "attachment2_id",
+      "ar" : "مرفق 2",
+      "en" : "Attachment 2",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "terms.attachment3",
+      "column" : "attachment3_id",
+      "ar" : "مرفق 3",
+      "en" : "Attachment 3",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "terms.attachment4",
+      "column" : "attachment4_id",
+      "ar" : "مرفق 4",
+      "en" : "Attachment 4",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "terms.attachment5",
+      "column" : "attachment5_id",
+      "ar" : "مرفق 5",
+      "en" : "Attachment 5",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "terms.calculatedQty",
+      "column" : "calculatedQty",
+      "ar" : "الكمية المحسوبة",
+      "en" : "Calculated Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.contrTermQtyFromContractorsExtract",
+      "column" : "contrTermQtyFromContractorsExtract",
+      "ar" : "كمية البند المنفذة بمستخلصات مقاول باطن",
+      "en" : "Term Quantity From Contractors Extract",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.contractingUOM",
+      "column" : "contractingUOM_id",
+      "ar" : "الوحدة",
+      "en" : "UOM",
+      "type" : "Reference",
+      "refTo" : "ContractingUOM",
+      "refPath" : "/modules/contracting/ContractingUOM.html"
+    }, {
+      "id" : "terms.costExecution",
+      "columns" : [ "costExecutionActualCode", " costExecutionCode", " costExecutionEntityType", " costExecutionId" ],
+      "ar" : "حصر التكاليف",
+      "en" : "Cost Execution",
+      "type" : "Genericreference"
+    }, {
+      "id" : "terms.count",
+      "column" : "count",
+      "ar" : "العدد",
+      "en" : "Count",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.createdFromUpdateLine",
+      "column" : "createdFromUpdateLine",
+      "type" : "ID"
+    }, {
+      "id" : "terms.ctrActualCost",
+      "column" : "ctrActualCost",
+      "ar" : "التكلفة الفعلية",
+      "en" : "Actual Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.ctrActualQty",
+      "column" : "ctrActualQty",
+      "ar" : "الكمية الفعلية",
+      "en" : "Actual Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.currentLevel",
+      "column" : "currentLevel",
+      "type" : "Integer"
+    }, {
+      "id" : "terms.customerSubmittal",
+      "column" : "customerSubmittal_id",
+      "ar" : "اعتماد العميل للصنف",
+      "en" : "Customer Submittal",
+      "type" : "Reference",
+      "refTo" : "CustomerSubmittal",
+      "refPath" : "/modules/contracting/CustomerSubmittal.html"
+    }, {
+      "id" : "terms.deductionFromConditions",
+      "column" : "deductionFromConditions",
+      "ar" : "الاستقطاعات من الشروط",
+      "en" : "Deduction From Conditions",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.discountPercent",
+      "column" : "discountPercent",
+      "ar" : "التخفيض | %",
+      "en" : "Discount | %",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.discountValue",
+      "column" : "discountValue",
+      "ar" : "التخفيض | قيمة",
+      "en" : "Discount | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.discountedQty",
+      "column" : "discountedQty",
+      "ar" : "الكمية المخصومة",
+      "en" : "Discounted Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.estate",
+      "columns" : [ "estateActualCode", " estateCode", " estateEntityType", " estateId" ],
+      "ar" : "العقار",
+      "en" : "Estate",
+      "type" : "Genericreference"
+    }, {
+      "id" : "terms.estimatedTermCode",
+      "column" : "estimatedTermCode",
+      "ar" : "كود بند الموازنة التقديرية",
+      "en" : "Estimated Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "terms.estimatedTermRemark",
+      "column" : "estimatedTermRemark",
+      "ar" : "وصف بند الموازنة التقديرية",
+      "en" : "Estimated Term Remark",
+      "type" : "BigText"
+    }, {
+      "id" : "terms.guaranteeType",
+      "column" : "guaranteeType",
+      "ar" : "نوع الضمان",
+      "en" : "Guarantee Type",
+      "type" : "Enum",
+      "enum" : "GuaranteeType"
+    }, {
+      "id" : "terms.height",
+      "column" : "height",
+      "ar" : "الأبعاد | الارتفاع",
+      "en" : "Measures | Height",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "terms.item",
+      "column" : "item_id",
+      "ar" : "الصنف",
+      "en" : "Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "terms.lastAchievedPhase",
+      "column" : "lastAchievedPhase_id",
+      "ar" : "المرحلة الحالية",
+      "en" : "Last Achieved Phase",
+      "type" : "Reference",
+      "refTo" : "ContractingPhase",
+      "refPath" : "/modules/contracting/ContractingPhase.html"
+    }, {
+      "id" : "terms.length",
+      "column" : "length",
+      "ar" : "الأبعاد | الطول",
+      "en" : "Measures | Length",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "terms.manualLevel",
+      "column" : "manualLevel",
+      "ar" : "المستوى اليدوي",
+      "en" : "Manual Level",
+      "type" : "Integer"
+    }, {
+      "id" : "terms.manualParentTermCode",
+      "column" : "manualParentTermCode",
+      "ar" : "كود البند الأعلى يدويا",
+      "en" : "Manual Parent Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "terms.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.nextLevels",
+      "column" : "nextLevels",
+      "type" : "Integer"
+    }, {
+      "id" : "terms.orginDoc",
+      "columns" : [ "orginDocActualCode", " orginDocCode", " orginDocEntityType", " orginDocId" ],
+      "ar" : "تم النسخ من سند",
+      "en" : "Copied From Doc",
+      "type" : "Genericreference"
+    }, {
+      "id" : "terms.otherForConditions",
+      "column" : "otherForConditions",
+      "ar" : "أخرى للشروط",
+      "en" : "Others For Conditions",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.parentLineID",
+      "column" : "parentLineID",
+      "type" : "ID"
+    }, {
+      "id" : "terms.parentTermCode",
+      "column" : "parentTermCode",
+      "ar" : "كود البند الأعلى",
+      "en" : "Parent Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "terms.paymentPercentage",
+      "column" : "paymentPercentage",
+      "ar" : "نسبة المحاسبه",
+      "en" : "Payment Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.permittedPercentage",
+      "column" : "permittedPercentage",
+      "ar" : "نسبة السماحية",
+      "en" : "Permitted Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty1.costExeQty",
+      "column" : "phaseQty1CostExeQty",
+      "ar" : "المرحلة الأولي | الكمية المنفذة للتكاليف",
+      "en" : "Phase 1 | Cost Executed Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty1.exeQty",
+      "column" : "phaseQty1ExeQty",
+      "ar" : "المرحلة الأولي | الكمية المنفذة",
+      "en" : "Phase 1 | Executed Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty1.extractQty",
+      "column" : "phaseQty1ExtractQty",
+      "ar" : "المرحلة الأولي | كمية المستخلص",
+      "en" : "Phase 1 | Extracted Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty1.paymentPercentage",
+      "column" : "phaseQty1PaymentPercentage",
+      "ar" : "المرحلة الأولي | نسبة المحاسبة",
+      "en" : "Phase 1 | Payment Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty1.phase",
+      "column" : "phaseQty1Phase_id",
+      "ar" : "المرحلة الأولي | مرحلة",
+      "en" : "Phase 1 | Phase",
+      "type" : "Reference",
+      "refTo" : "ContractingPhase",
+      "refPath" : "/modules/contracting/ContractingPhase.html"
+    }, {
+      "id" : "terms.phaseQty1.pricePercent",
+      "column" : "phaseQty1PricePercent",
+      "ar" : "المرحلة الأولي | نسبة من السعر",
+      "en" : "Phase 1 | Price Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty1.qty",
+      "column" : "phaseQty1Qty",
+      "ar" : "المرحلة الأولي | كمية",
+      "en" : "Phase 1 | Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty2.costExeQty",
+      "column" : "phaseQty2CostExeQty",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty2.exeQty",
+      "column" : "phaseQty2ExeQty",
+      "ar" : "المرحلة الثانية | الكمية المنفذة",
+      "en" : "Phase 2 | Executed Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty2.extractQty",
+      "column" : "phaseQty2ExtractQty",
+      "ar" : "المرحلة الثانية | كمية المستخلص",
+      "en" : "Phase 2 | Extracted Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty2.paymentPercentage",
+      "column" : "phaseQty2PaymentPercentage",
+      "ar" : "المرحلة الثانية | نسبة المحاسبة",
+      "en" : "Phase 2 | Payment Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty2.phase",
+      "column" : "phaseQty2Phase_id",
+      "ar" : "المرحلة الثانية | مرحلة",
+      "en" : "Phase 2 | Phase",
+      "type" : "Reference",
+      "refTo" : "ContractingPhase",
+      "refPath" : "/modules/contracting/ContractingPhase.html"
+    }, {
+      "id" : "terms.phaseQty2.pricePercent",
+      "column" : "phaseQty2PricePercent",
+      "ar" : "المرحلة الثانية | نسبة من السعر",
+      "en" : "Phase 2 | Price Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty2.qty",
+      "column" : "phaseQty2Qty",
+      "ar" : "المرحلة الثانية | كمية",
+      "en" : "Phase 2 | Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty3.costExeQty",
+      "column" : "phaseQty3CostExeQty",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty3.exeQty",
+      "column" : "phaseQty3ExeQty",
+      "ar" : "المرحلة الثالثة | الكمية المنفذة",
+      "en" : "Phase 3 | Executed Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty3.extractQty",
+      "column" : "phaseQty3ExtractQty",
+      "ar" : "المرحلة الثالثة | كمية المستخلص",
+      "en" : "Phase 3 | Extracted Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty3.paymentPercentage",
+      "column" : "phaseQty3PaymentPercentage",
+      "ar" : "المرحلة الثالثة | نسبة المحاسبة",
+      "en" : "Phase 3 | Payment Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty3.phase",
+      "column" : "phaseQty3Phase_id",
+      "ar" : "المرحلة الثالثة | مرحلة",
+      "en" : "Phase 3 | Phase",
+      "type" : "Reference",
+      "refTo" : "ContractingPhase",
+      "refPath" : "/modules/contracting/ContractingPhase.html"
+    }, {
+      "id" : "terms.phaseQty3.pricePercent",
+      "column" : "phaseQty3PricePercent",
+      "ar" : "المرحلة الثالثة | نسبة من السعر",
+      "en" : "Phase 3 | Price Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty3.qty",
+      "column" : "phaseQty3Qty",
+      "ar" : "المرحلة الثالثة | كمية",
+      "en" : "Phase 3 | Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty4.costExeQty",
+      "column" : "phaseQty4CostExeQty",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty4.exeQty",
+      "column" : "phaseQty4ExeQty",
+      "ar" : "المرحلة الرابعة | الكمية المنفذة",
+      "en" : "Phase 4 | Executed Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty4.extractQty",
+      "column" : "phaseQty4ExtractQty",
+      "ar" : "المرحلة الرابعة | كمية المستخلص",
+      "en" : "Phase 4 | Extracted Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty4.paymentPercentage",
+      "column" : "phaseQty4PaymentPercentage",
+      "ar" : "المرحلة الرابعة | نسبة المحاسبة",
+      "en" : "Phase 4 | Payment Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty4.phase",
+      "column" : "phaseQty4Phase_id",
+      "ar" : "المرحلة الرابعة | مرحلة",
+      "en" : "Phase 4 | Phase",
+      "type" : "Reference",
+      "refTo" : "ContractingPhase",
+      "refPath" : "/modules/contracting/ContractingPhase.html"
+    }, {
+      "id" : "terms.phaseQty4.pricePercent",
+      "column" : "phaseQty4PricePercent",
+      "ar" : "المرحلة الرابعة | نسبة من السعر",
+      "en" : "Phase 4 | Price Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty4.qty",
+      "column" : "phaseQty4Qty",
+      "ar" : "المرحلة الرابعة | كمية",
+      "en" : "Phase 4 | Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty5.costExeQty",
+      "column" : "phaseQty5CostExeQty",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty5.exeQty",
+      "column" : "phaseQty5ExeQty",
+      "ar" : "المرحلة الخامسة | الكمية المنفذة",
+      "en" : "Phase 5 | Executed Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty5.extractQty",
+      "column" : "phaseQty5ExtractQty",
+      "ar" : "المرحلة الخامسة | كمية المستخلص",
+      "en" : "Phase 5 | Extracted Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty5.paymentPercentage",
+      "column" : "phaseQty5PaymentPercentage",
+      "ar" : "المرحلة الخامسة | نسبة المحاسبة",
+      "en" : "Phase 5 | Payment Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty5.phase",
+      "column" : "phaseQty5Phase_id",
+      "ar" : "المرحلة الخامسة | مرحلة",
+      "en" : "Phase 5 | Phase",
+      "type" : "Reference",
+      "refTo" : "ContractingPhase",
+      "refPath" : "/modules/contracting/ContractingPhase.html"
+    }, {
+      "id" : "terms.phaseQty5.pricePercent",
+      "column" : "phaseQty5PricePercent",
+      "ar" : "المرحلة الخامسة | نسبة من السعر",
+      "en" : "Phase 5 | Price Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phaseQty5.qty",
+      "column" : "phaseQty5Qty",
+      "ar" : "المرحلة الخامسة | كمية",
+      "en" : "Phase 5 | Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.phasesGroup",
+      "column" : "phasesGroup_id",
+      "ar" : "مجموعة مراحل",
+      "en" : "Phases Group",
+      "type" : "Reference",
+      "refTo" : "ContractingPhasesGroup",
+      "refPath" : "/modules/contracting/ContractingPhasesGroup.html"
+    }, {
+      "id" : "terms.prevAchievedPhase",
+      "column" : "prevAchievedPhase_id",
+      "type" : "Reference",
+      "refTo" : "ContractingPhase",
+      "refPath" : "/modules/contracting/ContractingPhase.html"
+    }, {
+      "id" : "terms.priceBeforeDiscount",
+      "column" : "priceBeforeDiscount",
+      "ar" : "السعر قبل التخفيض",
+      "en" : "Price Before Discount",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.priceBeforeTaxes",
+      "column" : "priceBeforeTaxes",
+      "ar" : "السعر قبل الضرائب",
+      "en" : "Price Before Taxes",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.priceClassifier1",
+      "column" : "priceClassifier1_id",
+      "ar" : "محدد سعر 1",
+      "en" : "Price Classifier 1",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier1",
+      "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+    }, {
+      "id" : "terms.priceClassifier2",
+      "column" : "priceClassifier2_id",
+      "ar" : "محدد سعر 2",
+      "en" : "Price Classifier 2",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier2",
+      "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+    }, {
+      "id" : "terms.priceClassifier3",
+      "column" : "priceClassifier3_id",
+      "ar" : "محدد سعر 3",
+      "en" : "Price Classifier 3",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier3",
+      "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+    }, {
+      "id" : "terms.priceClassifier4",
+      "column" : "priceClassifier4_id",
+      "ar" : "محدد سعر 4",
+      "en" : "Price Classifier 4",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier4",
+      "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+    }, {
+      "id" : "terms.priceClassifier5",
+      "column" : "priceClassifier5_id",
+      "ar" : "محدد سعر 5",
+      "en" : "Price Classifier 5",
+      "type" : "Reference",
+      "refTo" : "SalesPriceClassifier5",
+      "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+    }, {
+      "id" : "terms.profit",
+      "column" : "profit",
+      "ar" : "الربح",
+      "en" : "Profit",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.profitPercent",
+      "column" : "profitPercent",
+      "ar" : "نسبة هامش الربح",
+      "en" : "Profit Percent",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.projRemark",
+      "column" : "projRemark",
+      "ar" : "وصف بند المشروع",
+      "en" : "Project Remark",
+      "type" : "BigText"
+    }, {
+      "id" : "terms.projTermCode",
+      "column" : "projTermCode",
+      "ar" : "كود بند المشروع",
+      "en" : "Project Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "terms.projectContract",
+      "column" : "projectContract_id",
+      "ar" : " عقد مشروع",
+      "en" : " Project Contract",
+      "type" : "Reference",
+      "refTo" : "ProjectContract",
+      "refPath" : "/modules/contracting/ProjectContract.html"
+    }, {
+      "id" : "terms.purchaseOrderQty",
+      "column" : "purchaseOrderQty",
+      "ar" : "كمية أمر الشراء",
+      "en" : "Purchase Order Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.qtyFromDimensions",
+      "column" : "qtyFromDimensions",
+      "ar" : "الكمية من الأبعاد",
+      "en" : "Quantity From Dimensions",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.quantity",
+      "column" : "quantity",
+      "ar" : "الكمية | المتعاقد عليها",
+      "en" : "Quantity | Contracted",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.quantityFromCostExecution",
+      "column" : "quantityFromCostExecution",
+      "ar" : "الكمية | من حصر التكاليف",
+      "en" : "Quantity | From Cost Execution",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.quantityFromExecution",
+      "column" : "quantityFromExecution",
+      "ar" : "الكمية | من حصر الكميات",
+      "en" : "Quantity | From Execution",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.quantityFromExtract",
+      "column" : "quantityFromExtract",
+      "ar" : "الكمية | من المستخلص",
+      "en" : "Quantity | From Extract",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.quantityFromOpeningExtracts",
+      "column" : "quantityFromOpeningExtracts",
+      "ar" : "الكمية | من المستخلصات الافتتاحية",
+      "en" : "Quantity | Quantity From Opening Extracts",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "terms.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "terms.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "terms.remarks",
+      "column" : "remarks",
+      "ar" : "وصف البند",
+      "en" : "Term Description",
+      "type" : "BigText"
+    }, {
+      "id" : "terms.selected",
+      "column" : "selected",
+      "ar" : "اختيار",
+      "en" : "Selected",
+      "type" : "Boolean"
+    }, {
+      "id" : "terms.source",
+      "columns" : [ "sourceActualCode", " sourceCode", " sourceEntityType", " sourceId" ],
+      "ar" : "المصدر",
+      "en" : "Source",
+      "type" : "Genericreference"
+    }, {
+      "id" : "terms.standardTerm",
+      "column" : "standardTerm_id",
+      "ar" : "البند القياسي",
+      "en" : "Standard Term",
+      "type" : "Reference",
+      "refTo" : "ContractingStandardTerm",
+      "refPath" : "/modules/contracting/ContractingStandardTerm.html"
+    }, {
+      "id" : "terms.tax1Percent",
+      "column" : "tax1Percent",
+      "ar" : "ضريبة 1 | %",
+      "en" : "Tax 1 | %",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.tax1Value",
+      "column" : "tax1Value",
+      "ar" : "ضريبة 1 | قيمة",
+      "en" : "Tax 1 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.tax2Percent",
+      "column" : "tax2Percent",
+      "ar" : "ضريبة 2 | %",
+      "en" : "Tax 2 | %",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.tax2Value",
+      "column" : "tax2Value",
+      "ar" : "ضريبة 2 | قيمة",
+      "en" : "Tax 2 | value",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.termAnalysisCardRef",
+      "column" : "termAnalysisCardRef_id",
+      "ar" : "كارت التحليل",
+      "en" : "Term Analysis Card",
+      "type" : "Reference",
+      "refTo" : "TermAnalysisCard",
+      "refPath" : "/modules/contracting/TermAnalysisCard.html"
+    }, {
+      "id" : "terms.termCategory",
+      "column" : "termCategory_id",
+      "ar" : "تصنيف البند",
+      "en" : "Term Category",
+      "type" : "Reference",
+      "refTo" : "ContrTermCategory",
+      "refPath" : "/modules/contracting/ContrTermCategory.html"
+    }, {
+      "id" : "terms.termCategory2",
+      "column" : "termCategory2_id",
+      "ar" : "تصنيف البند 2",
+      "en" : "Term Category 2",
+      "type" : "Reference",
+      "refTo" : "ContrTermCategory2",
+      "refPath" : "/modules/basic/ContrTermCategory2.html"
+    }, {
+      "id" : "terms.termCode",
+      "column" : "termCode",
+      "ar" : "كود البند",
+      "en" : "Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "terms.termStatus",
+      "column" : "termStatus",
+      "ar" : "حالة البند",
+      "en" : "Term Status",
+      "type" : "Enum",
+      "enum" : "TermStatus"
+    }, {
+      "id" : "terms.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "terms.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "terms.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "terms.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "terms.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    }, {
+      "id" : "terms.totalCost",
+      "column" : "totalCost",
+      "ar" : "اجمالى التكلفة",
+      "en" : "Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.totalCostBeforeAdditional",
+      "column" : "totalCostBeforeAdditional",
+      "ar" : "التكاليف قبل الإضافية",
+      "en" : "Total Cost Before Additional",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.totalPrice",
+      "column" : "totalPrice",
+      "ar" : "إجمالي السعر",
+      "en" : "  Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.totalQty",
+      "column" : "totalQty",
+      "ar" : "الكمية الإجمالية",
+      "en" : "Total Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.transferToAsset",
+      "column" : "transferToAsset",
+      "ar" : "نقل للأصول",
+      "en" : "Transfer To Asset",
+      "type" : "Boolean"
+    }, {
+      "id" : "terms.treatAsDetail",
+      "column" : "treatAsDetail",
+      "ar" : "يعامل كبند فرعي",
+      "en" : "Treat As Detail",
+      "type" : "Boolean"
+    }, {
+      "id" : "terms.unitCost",
+      "column" : "unitCost",
+      "ar" : "تكلفة الوحده",
+      "en" : "Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.unitPrice",
+      "column" : "unitPrice",
+      "ar" : "سعر الوحدة",
+      "en" : "Unit Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.uom",
+      "column" : "uom",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Text"
+    }, {
+      "id" : "terms.warrantyEndDate",
+      "column" : "warrantyEndDate",
+      "ar" : "تاريخ نهاية الضمان",
+      "en" : "Warranty End Date",
+      "type" : "Date"
+    }, {
+      "id" : "terms.warrantyPeriod.uom",
+      "column" : "warrantyPeriodUom",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Enum",
+      "enum" : "TimePeriodType"
+    }, {
+      "id" : "terms.warrantyPeriod.value",
+      "column" : "warrantyPeriodValue",
+      "ar" : "فترة الضمان",
+      "en" : "Warranty Period",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.warrantyStartDate",
+      "column" : "warrantyStartDate",
+      "ar" : "تاريخ بداية الضمان",
+      "en" : "Warranty Start Date",
+      "type" : "Date"
+    }, {
+      "id" : "terms.width",
+      "column" : "width",
+      "ar" : "الأبعاد | العرض",
+      "en" : "Measures | Width",
+      "type" : "Decimal"
+    }, {
+      "id" : "terms.workArea",
+      "column" : "workArea_id",
+      "ar" : "منطقة العمل",
+      "en" : "Work Area",
+      "type" : "Reference",
+      "refTo" : "ContrWorkArea",
+      "refPath" : "/modules/contracting/ContrWorkArea.html"
+    } ]
+  }, {
+    "id" : "workers",
+    "table" : "ContrExecutiveBudgetWorkerLine",
+    "joinColumn" : "contractingExecutiveBudget_id",
+    "ar" : "عمالة",
+    "en" : "Workers",
+    "fields" : [ {
+      "id" : "workers.analysisCard",
+      "columns" : [ "analysisCardActualCode", " analysisCardCode", " analysisCardEntityType", " analysisCardId" ],
+      "ar" : "كارت التحليل",
+      "en" : "Term Analysis Card",
+      "type" : "Genericreference"
+    }, {
+      "id" : "workers.analysisTermCode",
+      "column" : "analysisTermCode",
+      "ar" : "كود البند التحليلى",
+      "en" : "Analysis Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "workers.availableQty",
+      "column" : "availableQty",
+      "ar" : "الكمية المتاحة",
+      "en" : "Available Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.contract",
+      "columns" : [ "contractActualCode", " contractCode", " contractEntityType", " contractId" ],
+      "ar" : "العقد",
+      "en" : "Contract",
+      "type" : "Genericreference"
+    }, {
+      "id" : "workers.contractedQty",
+      "column" : "contractedQty",
+      "ar" : "الكمية | متعاقد عليها",
+      "en" : "Quantity | Contracted",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.contractingUOM",
+      "column" : "contractingUOM_id",
+      "ar" : "الوحدة",
+      "en" : "UOM",
+      "type" : "Reference",
+      "refTo" : "ContractingUOM",
+      "refPath" : "/modules/contracting/ContractingUOM.html"
+    }, {
+      "id" : "workers.contractor",
+      "column" : "contractor_id",
+      "ar" : "مقاول باطن",
+      "en" : "Contractor",
+      "type" : "Reference",
+      "refTo" : "Contractor",
+      "refPath" : "/modules/contracting/Contractor.html"
+    }, {
+      "id" : "workers.ctrActualCost",
+      "column" : "ctrActualCost",
+      "ar" : "التكلفة الفعلية",
+      "en" : "Actual Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.ctrActualQty",
+      "column" : "ctrActualQty",
+      "ar" : "الكمية الفعلية",
+      "en" : "Actual Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.description",
+      "column" : "description",
+      "ar" : "الوصف",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "workers.estate",
+      "columns" : [ "estateActualCode", " estateCode", " estateEntityType", " estateId" ],
+      "ar" : "العقار",
+      "en" : "Estate",
+      "type" : "Genericreference"
+    }, {
+      "id" : "workers.estimatedTermCode",
+      "column" : "estimatedTermCode",
+      "ar" : "كود بند الموازنة التقديرية",
+      "en" : "Estimated Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "workers.estimatedTermRemark",
+      "column" : "estimatedTermRemark",
+      "ar" : "وصف بند الموازنة التقديرية",
+      "en" : "Estimated Term Remark",
+      "type" : "BigText"
+    }, {
+      "id" : "workers.executedContractQty",
+      "column" : "executedContractQty",
+      "ar" : "الكمية المنفذة من البند التعاقدي",
+      "en" : "Executed Contract Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.executiveTermCode",
+      "column" : "executiveTermCode",
+      "ar" : "كود بند الموازنة التنفيذية",
+      "en" : "Executive Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "workers.executiveTermRemark",
+      "column" : "executiveTermRemark",
+      "ar" : "وصف بند الموازنة التنفيذية",
+      "en" : "Executive Term Remark",
+      "type" : "BigText"
+    }, {
+      "id" : "workers.fromDoc",
+      "columns" : [ "fromDocActualCode", " fromDocCode", " fromDocEntityType", " fromDocId" ],
+      "ar" : "بناءا على",
+      "en" : "From Document",
+      "type" : "Genericreference"
+    }, {
+      "id" : "workers.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "workers.invItem",
+      "column" : "invItem_id",
+      "ar" : " الصنف",
+      "en" : " Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "workers.item",
+      "column" : "item_id",
+      "ar" : "الصنف",
+      "en" : "Item",
+      "type" : "Reference",
+      "refTo" : "ContractingDirectCost",
+      "refPath" : "/modules/contracting/ContractingDirectCost.html"
+    }, {
+      "id" : "workers.itemUom",
+      "column" : "itemUom_id",
+      "ar" : "وحدة الصنف",
+      "en" : "Item UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "workers.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "workers.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n10",
+      "column" : "n10",
+      "ar" : "رقم 10",
+      "en" : "Number 10",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n11",
+      "column" : "n11",
+      "ar" : "رقم 11",
+      "en" : "Number 11",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n12",
+      "column" : "n12",
+      "ar" : "رقم 12",
+      "en" : "Number 12",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n13",
+      "column" : "n13",
+      "ar" : "رقم 13",
+      "en" : "Number 13",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n14",
+      "column" : "n14",
+      "ar" : "رقم 14",
+      "en" : "Number 14",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n15",
+      "column" : "n15",
+      "ar" : "رقم 15",
+      "en" : "Number 15",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n16",
+      "column" : "n16",
+      "ar" : "رقم 16",
+      "en" : "Number 16",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n17",
+      "column" : "n17",
+      "ar" : "رقم 17",
+      "en" : "Number 17",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n18",
+      "column" : "n18",
+      "ar" : "رقم 18",
+      "en" : "Number 18",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n19",
+      "column" : "n19",
+      "ar" : "رقم 19",
+      "en" : "Number 19",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n20",
+      "column" : "n20",
+      "ar" : "رقم 20",
+      "en" : "Number 20",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n6",
+      "column" : "n6",
+      "ar" : "رقم 6",
+      "en" : "Number 6",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n7",
+      "column" : "n7",
+      "ar" : "رقم 7",
+      "en" : "Number 7",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n8",
+      "column" : "n8",
+      "ar" : "رقم 8",
+      "en" : "Number 8",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.n9",
+      "column" : "n9",
+      "ar" : "رقم 9",
+      "en" : "Number 9",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.productivityWastage.productivity",
+      "column" : "productivity",
+      "ar" : "الإنتاجية",
+      "en" : "Productivity",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.productivityWastage.qtyWastePercentage",
+      "column" : "qtyWastePercentage",
+      "ar" : "نسبة الهالك",
+      "en" : "Qty Waste Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.purchaseOrderQty",
+      "column" : "purchaseOrderQty",
+      "ar" : "كمية أمر الشراء",
+      "en" : "Purchase Order Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.quantity",
+      "column" : "quantity",
+      "ar" : "الكمية",
+      "en" : "Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "workers.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "workers.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "workers.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "workers.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "workers.ref6",
+      "columns" : [ "ref6ActualCode", " ref6Code", " ref6EntityType", " ref6Id" ],
+      "ar" : "مرجع 6",
+      "en" : "Reference 6",
+      "type" : "Genericreference"
+    }, {
+      "id" : "workers.ref7",
+      "columns" : [ "ref7ActualCode", " ref7Code", " ref7EntityType", " ref7Id" ],
+      "ar" : "مرجع 7",
+      "en" : "Reference 7",
+      "type" : "Genericreference"
+    }, {
+      "id" : "workers.selected",
+      "column" : "selected",
+      "ar" : "اختيار",
+      "en" : "Selected",
+      "type" : "Boolean"
+    }, {
+      "id" : "workers.sourceLineId",
+      "column" : "sourceLineId",
+      "ar" : "معرف سطر المصدر",
+      "en" : "Source Line Id",
+      "type" : "ID"
+    }, {
+      "id" : "workers.specificDimensions.activePerc",
+      "column" : "activePerc",
+      "ar" : "النسبة الفعالة",
+      "en" : "Active Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "workers.specificDimensions.box",
+      "column" : "box",
+      "ar" : "صندوق",
+      "en" : "Box",
+      "type" : "Text"
+    }, {
+      "id" : "workers.specificDimensions.color",
+      "column" : "color",
+      "ar" : "اللون",
+      "en" : "Color",
+      "type" : "Color"
+    }, {
+      "id" : "workers.specificDimensions.inactivePerc",
+      "column" : "inactivePerc",
+      "ar" : "النسبة الغير فعالة",
+      "en" : "Inactive Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "workers.specificDimensions.locator",
+      "column" : "locator_id",
+      "ar" : "الموقع",
+      "en" : "Locator",
+      "type" : "Reference",
+      "refTo" : "Locator",
+      "refPath" : "/modules/supplychain/Locator.html"
+    }, {
+      "id" : "workers.specificDimensions.lotId",
+      "column" : "lotId",
+      "ar" : "رقم الشحنه",
+      "en" : "Lot ID",
+      "type" : "Text"
+    }, {
+      "id" : "workers.specificDimensions.measures",
+      "column" : "measures",
+      "ar" : "الأبعاد",
+      "en" : "Measures",
+      "type" : "Measures"
+    }, {
+      "id" : "workers.specificDimensions.revisionId",
+      "column" : "revisionId",
+      "ar" : "الإصدار",
+      "en" : "Revision ID",
+      "type" : "Text"
+    }, {
+      "id" : "workers.specificDimensions.secondSerial",
+      "column" : "secondSerial",
+      "ar" : "الرقم المسلسل الثاني",
+      "en" : "Second Serial",
+      "type" : "BigText"
+    }, {
+      "id" : "workers.specificDimensions.serialNumber",
+      "column" : "serialNumber",
+      "ar" : "الرقم المسلسل",
+      "en" : "Serial number",
+      "type" : "BigText"
+    }, {
+      "id" : "workers.specificDimensions.size",
+      "column" : "size",
+      "ar" : "المقاس",
+      "en" : "Size",
+      "type" : "Text"
+    }, {
+      "id" : "workers.specificDimensions.subItem",
+      "column" : "subItem_id",
+      "ar" : " السياره",
+      "en" : " Customer Car",
+      "type" : "Reference",
+      "refTo" : "SubItem",
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+    }, {
+      "id" : "workers.specificDimensions.warehouse",
+      "column" : "warehouse_id",
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "workers.standardTerm",
+      "column" : "standardTerm_id",
+      "ar" : "البند القياسي",
+      "en" : "Standard Term",
+      "type" : "Reference",
+      "refTo" : "ContractingStandardTerm",
+      "refPath" : "/modules/contracting/ContractingStandardTerm.html"
+    }, {
+      "id" : "workers.suffix",
+      "column" : "suffix",
+      "ar" : "نهاية التكويد",
+      "en" : "Suffix",
+      "type" : "Integer"
+    }, {
+      "id" : "workers.termCategory",
+      "column" : "termCategory_id",
+      "ar" : "تصنيف البند",
+      "en" : "Term Category",
+      "type" : "Reference",
+      "refTo" : "ContrTermCategory",
+      "refPath" : "/modules/contracting/ContrTermCategory.html"
+    }, {
+      "id" : "workers.termCategory2",
+      "column" : "termCategory2_id",
+      "ar" : "تصنيف البند 2",
+      "en" : "Term Category 2",
+      "type" : "Reference",
+      "refTo" : "ContrTermCategory2",
+      "refPath" : "/modules/basic/ContrTermCategory2.html"
+    }, {
+      "id" : "workers.termCode",
+      "column" : "termCode",
+      "ar" : "كود البند",
+      "en" : "Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "workers.termRemark",
+      "column" : "termRemark",
+      "ar" : " وصف البند",
+      "en" : " Term Description",
+      "type" : "BigText"
+    }, {
+      "id" : "workers.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "workers.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "workers.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "workers.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "workers.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    }, {
+      "id" : "workers.totalCost",
+      "column" : "totalCost",
+      "ar" : "اجمالى التكلفة",
+      "en" : "Total Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.unitCost",
+      "column" : "unitCost",
+      "ar" : "تكلفة الوحده",
+      "en" : "Unit Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "workers.uom",
+      "column" : "uom",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Text"
+    } ]
+  } ]
+}

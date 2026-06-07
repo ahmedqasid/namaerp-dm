@@ -1,0 +1,48 @@
+{
+  "enum" : "FRMFrequency",
+  "values" : [ {
+    "id" : "Daily",
+    "ar" : "يومي",
+    "en" : "Daily"
+  }, {
+    "id" : "Weekly",
+    "ar" : "أسبوعي",
+    "en" : "Weekly"
+  }, {
+    "id" : "Monthly",
+    "ar" : "شهرية",
+    "en" : "Monthly"
+  }, {
+    "id" : "Yearly",
+    "ar" : "سنوية",
+    "en" : "Yearly"
+  }, {
+    "id" : "EverySaturday",
+    "ar" : "كل سبت",
+    "en" : "Every Saturday"
+  }, {
+    "id" : "EverySunday",
+    "ar" : "كل حد",
+    "en" : "Every Sunday"
+  }, {
+    "id" : "EveryMonday",
+    "ar" : "كل اثنين",
+    "en" : "Every Monday"
+  }, {
+    "id" : "EveryTuesday",
+    "ar" : "كل ثلاثاء",
+    "en" : "Every Tuesday"
+  }, {
+    "id" : "EveryWednesday",
+    "ar" : "كل أربعاء",
+    "en" : "Every Wednesday"
+  }, {
+    "id" : "EveryThursday",
+    "ar" : "كل خميس",
+    "en" : "Every Thursday"
+  }, {
+    "id" : "EveryFriday",
+    "ar" : "كل جمعة",
+    "en" : "Every Friday"
+  } ]
+}

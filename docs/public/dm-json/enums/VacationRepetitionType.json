@@ -1,0 +1,16 @@
+{
+  "enum" : "VacationRepetitionType",
+  "values" : [ {
+    "id" : "Year",
+    "ar" : "سنة",
+    "en" : "Year"
+  }, {
+    "id" : "Month",
+    "ar" : "شهر",
+    "en" : "Month"
+  }, {
+    "id" : "Once",
+    "ar" : "مرة واحدة",
+    "en" : "Once"
+  } ]
+}

@@ -1,0 +1,73 @@
+{
+  "entity" : "RewardPointTransactionSysEntry",
+  "table" : "RewardPointTransactionSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/RewardPointTransactionSysEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "customer",
+    "columns" : [ "customerActualCode", " customerCode", " customerEntityType", " customerId" ],
+    "ar" : "العميل",
+    "en" : "Customer",
+    "type" : "Genericreference"
+  }, {
+    "id" : "expiredPoints",
+    "column" : "expiredPoints",
+    "ar" : "النقاط المنتهية",
+    "en" : "Expired Points",
+    "type" : "Decimal"
+  }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "points",
+    "column" : "points",
+    "ar" : "النقاط",
+    "en" : "Points",
+    "type" : "Decimal"
+  }, {
+    "id" : "remainingPoints",
+    "column" : "remainingPoints",
+    "ar" : "النقاط المتبقية",
+    "en" : "Remaining Points",
+    "type" : "Decimal"
+  }, {
+    "id" : "rewardPointsConfig",
+    "column" : "rewardPointsConfig_id",
+    "ar" : " إعدادات نقاط المكافأة",
+    "en" : "Reward Points Configuration",
+    "type" : "Reference",
+    "refTo" : "RewardPointsConfig",
+    "refPath" : "/modules/basic-external-reward-points/RewardPointsConfig.html"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

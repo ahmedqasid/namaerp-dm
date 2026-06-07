@@ -1,0 +1,12 @@
+{
+  "enum" : "DeliveringPurpose",
+  "values" : [ {
+    "id" : "Renewal",
+    "ar" : "تجديد",
+    "en" : "renewal"
+  }, {
+    "id" : "Travel",
+    "ar" : "السفر والرحلات",
+    "en" : "Travel"
+  } ]
+}

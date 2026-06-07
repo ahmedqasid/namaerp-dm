@@ -1,0 +1,36 @@
+{
+  "enum" : "ConditionValType",
+  "values" : [ {
+    "id" : "Value",
+    "ar" : "قيمة",
+    "en" : "Value"
+  }, {
+    "id" : "PercentageFromExtract",
+    "ar" : "نسبة من المستحق",
+    "en" : "Percentage From Extract"
+  }, {
+    "id" : "PercentageFromTotal",
+    "ar" : "نسبة من الإجمالي",
+    "en" : "Percentage From Total"
+  }, {
+    "id" : "Query",
+    "ar" : "استعلام",
+    "en" : "Query"
+  }, {
+    "id" : "PercentageFromTotalDueValue",
+    "ar" : "نسبة من اجمالى القيمة المستحقة",
+    "en" : "Percentage From Total Due Value"
+  }, {
+    "id" : "PercentOfCustomEquation",
+    "ar" : "نسبة من معادلة مخصصة",
+    "en" : "Percent Of Custom Equation"
+  }, {
+    "id" : "PercentageFromTermNetValue",
+    "ar" : "نسبة من الإجمالي على مستوى البند",
+    "en" : "Percentage From Term Net Value"
+  }, {
+    "id" : "PercentageFromTermDueValue",
+    "ar" : "نسبة من المستحق على مستوى البند",
+    "en" : "Percentage From Term Due Value"
+  } ]
+}

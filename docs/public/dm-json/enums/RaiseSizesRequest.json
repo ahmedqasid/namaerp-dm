@@ -1,0 +1,16 @@
+{
+  "enum" : "RaiseSizesRequest",
+  "values" : [ {
+    "id" : "Import",
+    "ar" : "توريد",
+    "en" : "Supply"
+  }, {
+    "id" : "ImportAndInstallation",
+    "ar" : "توريد وتركيب",
+    "en" : "Supply And Installation"
+  }, {
+    "id" : "FactoryRecieving",
+    "ar" : "استلام مصنع",
+    "en" : "Factory Recieving"
+  } ]
+}

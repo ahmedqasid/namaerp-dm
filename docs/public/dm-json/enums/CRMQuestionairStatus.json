@@ -1,0 +1,32 @@
+{
+  "enum" : "CRMQuestionairStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "FirstMissedCall",
+    "ar" : "اتصال مفقود أول",
+    "en" : "First Missed Call"
+  }, {
+    "id" : "SecondMissedCall",
+    "ar" : "اتصال مفقود ثاني",
+    "en" : "Second Missed Call"
+  }, {
+    "id" : "Closed",
+    "ar" : "مغلقة",
+    "en" : "Closed"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "Complaint",
+    "ar" : "شكوي",
+    "en" : "Complaint"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  } ]
+}

@@ -1,0 +1,59 @@
+{
+  "entity" : "CRMComplianSourceLine",
+  "table" : "CRMComplianSourceLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/CRMComplianSourceLine.html",
+  "fields" : [ {
+    "id" : "date",
+    "column" : "date",
+    "ar" : "التاريخ",
+    "en" : "Date",
+    "type" : "Date"
+  }, {
+    "id" : "description10",
+    "column" : "description10",
+    "ar" : "الوصف 10",
+    "en" : "description 10",
+    "type" : "Text"
+  }, {
+    "id" : "description6",
+    "column" : "description6",
+    "ar" : "الوصف 6",
+    "en" : "description 6",
+    "type" : "Text"
+  }, {
+    "id" : "description7",
+    "column" : "description7",
+    "ar" : "الوصف 7",
+    "en" : "description 7",
+    "type" : "Text"
+  }, {
+    "id" : "description8",
+    "column" : "description8",
+    "ar" : "الوصف 8",
+    "en" : "description 8",
+    "type" : "Text"
+  }, {
+    "id" : "description9",
+    "column" : "description9",
+    "ar" : "الوصف 9",
+    "en" : "description 9",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "product",
+    "columns" : [ "productActualCode", " productCode", " productEntityType", " productId" ],
+    "ar" : "المنتج",
+    "en" : "Product",
+    "type" : "Genericreference"
+  }, {
+    "id" : "source",
+    "columns" : [ "sourceActualCode", " sourceCode", " sourceEntityType", " sourceId" ],
+    "ar" : "المصدر",
+    "en" : "Source",
+    "type" : "Genericreference"
+  } ]
+}

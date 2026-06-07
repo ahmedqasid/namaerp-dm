@@ -1,0 +1,164 @@
+{
+  "enum" : "ParamSource",
+  "values" : [ {
+    "id" : "Source",
+    "ar" : " المصدر",
+    "en" : " Source"
+  }, {
+    "id" : "FiscalYear",
+    "ar" : "سنة مالية",
+    "en" : "Fiscal Year"
+  }, {
+    "id" : "FiscalYearStartDate",
+    "ar" : "تاريخ بداية السنة المالية",
+    "en" : "Fiscal Year Start Date"
+  }, {
+    "id" : "FiscalYearEndDate",
+    "ar" : "تاريخ نهاية السنة المالية",
+    "en" : "Fiscal Year End Date"
+  }, {
+    "id" : "FiscalPeriod",
+    "ar" : "فترة محاسبية",
+    "en" : "Fiscal Period"
+  }, {
+    "id" : "FiscalPeriodStartDate",
+    "ar" : "تاريخ بداية الفترة المالية",
+    "en" : "Fiscal Period Start Date"
+  }, {
+    "id" : "FiscalPeriodEndDate",
+    "ar" : "تاريخ نهاية الفترة المالية",
+    "en" : "Fiscal Period End Date"
+  }, {
+    "id" : "SourceAccounts",
+    "ar" : "حسابات المصدر",
+    "en" : "Source Accounts"
+  }, {
+    "id" : "GroupBy1",
+    "ar" : " التجميع 1 بـ",
+    "en" : "Group By 1"
+  }, {
+    "id" : "GroupBy2",
+    "ar" : " التجميع 2 بـ",
+    "en" : "Group By 2"
+  }, {
+    "id" : "GroupBy3",
+    "ar" : " التجميع 3 بـ",
+    "en" : "Group By 3"
+  }, {
+    "id" : "GroupBy4",
+    "ar" : " التجميع 4 بـ",
+    "en" : "Group By 4"
+  }, {
+    "id" : "GroupBy5",
+    "ar" : " التجميع 5 بـ",
+    "en" : "Group By 5"
+  }, {
+    "id" : "SettingsFile",
+    "ar" : "ملف الإعدادات",
+    "en" : "Settings File"
+  }, {
+    "id" : "ConstantValue",
+    "ar" : "قيمة ثابتة",
+    "en" : "Constant Value"
+  }, {
+    "id" : "FiscalYearFirstPeriod",
+    "ar" : "اول فترات السنة المالية",
+    "en" : "Fiscal Year First Period"
+  }, {
+    "id" : "FiscalYearLastPeriod",
+    "ar" : "آخر فترات السنة المالية",
+    "en" : "Fiscal Year Last Period"
+  }, {
+    "id" : "Expression",
+    "ar" : " Expression",
+    "en" : " Expression"
+  }, {
+    "id" : "FromDate",
+    "ar" : " من تاريخ",
+    "en" : "From Date"
+  }, {
+    "id" : "ToDate",
+    "ar" : " إلى تاريخ",
+    "en" : "To Date"
+  }, {
+    "id" : "FromDate1",
+    "ar" : "من تاريخ 1",
+    "en" : "From Date 1"
+  }, {
+    "id" : "ToDate1",
+    "ar" : "إلى تاريخ 1",
+    "en" : "To Date 1"
+  }, {
+    "id" : "FromDate2",
+    "ar" : "من تاريخ 2",
+    "en" : "From Date 2"
+  }, {
+    "id" : "ToDate2",
+    "ar" : "إلى تاريخ 2",
+    "en" : "To Date 2"
+  }, {
+    "id" : "FromPeriod",
+    "ar" : "من فترة",
+    "en" : "From Period"
+  }, {
+    "id" : "ToPeriod",
+    "ar" : "إلى فترة",
+    "en" : "To Period"
+  }, {
+    "id" : "FromPeriod1",
+    "ar" : "من فترة 1",
+    "en" : "From Period 1"
+  }, {
+    "id" : "FromPeriod2",
+    "ar" : "من فترة 2",
+    "en" : "From Period 2"
+  }, {
+    "id" : "ToPeriod1",
+    "ar" : "إلى فترة 1",
+    "en" : "To Period 1"
+  }, {
+    "id" : "ToPeriod2",
+    "ar" : "إلى فترة 2",
+    "en" : "To Period 2"
+  }, {
+    "id" : "FromBranch",
+    "ar" : "من فرع",
+    "en" : "From Branch"
+  }, {
+    "id" : "ToBranch",
+    "ar" : "إلى فرع",
+    "en" : "To Branch"
+  }, {
+    "id" : "FromSector",
+    "ar" : "من قطاع",
+    "en" : "From Sector"
+  }, {
+    "id" : "ToSector",
+    "ar" : "إلى قطاع",
+    "en" : "To Sector"
+  }, {
+    "id" : "FromDepartment",
+    "ar" : "من قسم",
+    "en" : "From Department"
+  }, {
+    "id" : "ToDepartment",
+    "ar" : "إلى قسم",
+    "en" : "To Department"
+  }, {
+    "id" : "FromAnalysisSet",
+    "ar" : "من مجموعة تحليلية",
+    "en" : "From Analysis Set"
+  }, {
+    "id" : "ToAnalysisSet",
+    "ar" : "إلى مجوعة تحليلية",
+    "en" : "To Analysis Set"
+  }, {
+    "id" : "FromLegalEntity",
+    "ar" : "من شركة",
+    "en" : "From Legal Entity"
+  }, {
+    "id" : "ToLegalEntity",
+    "ar" : "إلى شركة",
+    "en" : "To Legal Entity"
+  } ]
+}

@@ -1,0 +1,103 @@
+{
+  "entity" : "InvestmentProjectSysLine",
+  "table" : "InvestmentProjectSysLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/InvestmentProjectSysLine.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "entryOwner",
+    "columns" : [ "entryOwnerActualCode", " entryOwnerCode", " entryOwnerEntityType", " entryOwnerId" ],
+    "ar" : "المستند",
+    "en" : "Entry Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "inLine",
+    "column" : "inLine",
+    "ar" : "مستند دخول",
+    "en" : "In Line",
+    "type" : "Boolean"
+  }, {
+    "id" : "inValue",
+    "column" : "inValue",
+    "ar" : "إيرادات",
+    "en" : "InValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "isPlanned",
+    "column" : "isPlanned",
+    "type" : "Boolean"
+  }, {
+    "id" : "narration",
+    "column" : "narration",
+    "ar" : "الشرح",
+    "en" : "Narration",
+    "type" : "BigText"
+  }, {
+    "id" : "originDoc",
+    "columns" : [ "originDocActualCode", " originDocCode", " originDocEntityType", " originDocId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "outValue",
+    "column" : "outValue",
+    "ar" : "إلتزامات",
+    "en" : "OutValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "remainingInValue",
+    "column" : "remainingInValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "remainingOutValue",
+    "column" : "remainingOutValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "returnedInValue",
+    "column" : "returnedInValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "returnedOutValue",
+    "column" : "returnedOutValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "source",
+    "columns" : [ "sourceActualCode", " sourceCode", " sourceEntityType", " sourceId" ],
+    "ar" : "المصدر",
+    "en" : "Source",
+    "type" : "Genericreference"
+  }, {
+    "id" : "target",
+    "columns" : [ "targetActualCode", " targetCode", " targetEntityType", " targetId" ],
+    "ar" : "الجهة",
+    "en" : "Taregt",
+    "type" : "Genericreference"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

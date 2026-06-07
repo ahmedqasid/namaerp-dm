@@ -1,0 +1,48 @@
+{
+  "enum" : "ChatModelsProviders",
+  "values" : [ {
+    "id" : "OpenAI",
+    "ar" : "OPEN AI",
+    "en" : "OPEN AI"
+  }, {
+    "id" : "Gemini",
+    "ar" : "GEMINI",
+    "en" : "GEMINI"
+  }, {
+    "id" : "DeepSeek",
+    "ar" : "DeepSeek",
+    "en" : "DeepSeek"
+  }, {
+    "id" : "OpenAICompatible",
+    "ar" : "Opean AI Compatible",
+    "en" : "Opean AI Compatible"
+  }, {
+    "id" : "AWS",
+    "ar" : "AWS",
+    "en" : "AWS"
+  }, {
+    "id" : "GCP",
+    "ar" : "GCP",
+    "en" : "GCP"
+  }, {
+    "id" : "AZURE",
+    "ar" : "AZURE",
+    "en" : "AZURE"
+  }, {
+    "id" : "ZhipuAI",
+    "ar" : "Zhipu AI",
+    "en" : "Zhipu AI"
+  }, {
+    "id" : "ANTHROPIC",
+    "ar" : "Anthropic",
+    "en" : "Anthropic"
+  }, {
+    "id" : "HuggingFace",
+    "ar" : "Hugging Face",
+    "en" : "Hugging Face"
+  }, {
+    "id" : "Mistral",
+    "ar" : "Mistral",
+    "en" : "Mistral"
+  } ]
+}

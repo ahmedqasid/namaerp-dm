@@ -1,0 +1,28 @@
+{
+  "entity" : "LedgerTransReqQue",
+  "table" : "LedgerTransReqQue",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/LedgerTransReqQue.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "requestId",
+    "column" : "requestId",
+    "ar" : "Request Id",
+    "en" : "Request Id",
+    "type" : "ID"
+  }, {
+    "id" : "requestXML",
+    "column" : "requestXML",
+    "type" : "BigText"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "QueueEntryStatus"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "VacancyStatus",
+  "values" : [ {
+    "id" : "Open",
+    "ar" : "مفتوحة",
+    "en" : "Open"
+  }, {
+    "id" : "Closed",
+    "ar" : "مغلقة",
+    "en" : "Closed"
+  } ]
+}

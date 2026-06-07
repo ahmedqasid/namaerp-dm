@@ -1,0 +1,56 @@
+{
+  "enum" : "FPStatus",
+  "values" : [ {
+    "id" : "Created",
+    "ar" : "تم إنشاؤه",
+    "en" : "Created"
+  }, {
+    "id" : "Received",
+    "ar" : "مستلم",
+    "en" : "Received"
+  }, {
+    "id" : "TemporaryBounced",
+    "ar" : "رفض مؤقت",
+    "en" : "Temporary Bounced"
+  }, {
+    "id" : "FinallyBounced",
+    "ar" : "رفض نهائي",
+    "en" : "Finally Bounced"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
+  }, {
+    "id" : "Portfolioed",
+    "ar" : "بحافظة بنكية",
+    "en" : "Portfolioed"
+  }, {
+    "id" : "PostponedPortfolioed",
+    "ar" : "بحافظة بنكية مؤجلة",
+    "en" : "Postponed Portfolioed"
+  }, {
+    "id" : "Collected",
+    "ar" : "تم تحصيله",
+    "en" : "Collected"
+  }, {
+    "id" : "Endorsed",
+    "ar" : "مظهر",
+    "en" : "Endorsed"
+  }, {
+    "id" : "Issued",
+    "ar" : "تم إصداره",
+    "en" : "Issued"
+  }, {
+    "id" : "Agio",
+    "ar" : "اجيو",
+    "en" : "Agio"
+  }, {
+    "id" : "PartialCancel",
+    "ar" : "ملغاة جزئيا",
+    "en" : "Partial Cancel"
+  }, {
+    "id" : "PartialPaid",
+    "ar" : "مسدد جزئيا",
+    "en" : "=Partial Paid"
+  } ]
+}

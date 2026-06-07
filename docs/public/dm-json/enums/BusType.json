@@ -1,0 +1,24 @@
+{
+  "enum" : "BusType",
+  "values" : [ {
+    "id" : "CarType1",
+    "ar" : "نوع 1",
+    "en" : "Type 1"
+  }, {
+    "id" : "CarType2",
+    "ar" : "نوع 2",
+    "en" : "Type 2"
+  }, {
+    "id" : "CarType3",
+    "ar" : "نوع 3",
+    "en" : "Type 3"
+  }, {
+    "id" : "CarType4",
+    "ar" : "نوع 4",
+    "en" : "Type 4"
+  }, {
+    "id" : "CarType5",
+    "ar" : "نوع 5",
+    "en" : "Type 5"
+  } ]
+}

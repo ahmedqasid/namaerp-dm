@@ -1,0 +1,12 @@
+{
+  "enum" : "RewardPointsConfigApplicability",
+  "values" : [ {
+    "id" : "Include",
+    "ar" : "إدراج",
+    "en" : "Include"
+  }, {
+    "id" : "Exclude",
+    "ar" : "استبعاد",
+    "en" : "Exclude"
+  } ]
+}

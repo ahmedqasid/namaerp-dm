@@ -1,0 +1,20 @@
+{
+  "enum" : "DatanuumRequestType",
+  "values" : [ {
+    "id" : "SendInvoiceToDatanuum",
+    "ar" : "Send Invoice To Datanuum",
+    "en" : "Send Invoice To Datanuum"
+  }, {
+    "id" : "SendCustomerToDatanuum",
+    "ar" : "Send Customer To Datanuum",
+    "en" : "Send Customer To Datanuum"
+  }, {
+    "id" : "SendItemToDatanuum",
+    "ar" : "Send Item To Datanuum",
+    "en" : "Send Item To Datanuum"
+  }, {
+    "id" : "FetchCustomerPointsFromDatanuum",
+    "ar" : "Fetch Customer Points From Datanuum",
+    "en" : "Fetch Customer Points From Datanuum"
+  } ]
+}

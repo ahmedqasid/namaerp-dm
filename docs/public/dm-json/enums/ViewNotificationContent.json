@@ -1,0 +1,16 @@
+{
+  "enum" : "ViewNotificationContent",
+  "values" : [ {
+    "id" : "ViewContent",
+    "ar" : "عرض محتوى التنبيه",
+    "en" : "View Notification Content"
+  }, {
+    "id" : "DoNotViewContent",
+    "ar" : "عدم عرض محتوى التنبيه",
+    "en" : "Do Not View Notification Content"
+  }, {
+    "id" : "AsGlobalConfig",
+    "ar" : "مثل الإعدادات العامة",
+    "en" : "As Global Configurations"
+  } ]
+}

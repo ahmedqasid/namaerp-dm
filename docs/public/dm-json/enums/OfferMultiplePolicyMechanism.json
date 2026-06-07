@@ -1,0 +1,12 @@
+{
+  "enum" : "OfferMultiplePolicyMechanism",
+  "values" : [ {
+    "id" : "MultipleItemQty",
+    "ar" : "مضاعفة كمية الصنف المطابق",
+    "en" : "Multiple Item Quantity"
+  }, {
+    "id" : "ApplyOnMetItems",
+    "ar" : "التنفيذ على الأصناف المطابقة",
+    "en" : "Apply On Met Items"
+  } ]
+}

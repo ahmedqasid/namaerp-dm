@@ -1,0 +1,47 @@
+{
+  "entity" : "CostOverdraftLine",
+  "table" : "CostOverdraftLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/CostOverdraftLine.html",
+  "fields" : [ {
+    "id" : "cost",
+    "column" : "cost",
+    "ar" : "التكلفة",
+    "en" : "Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "dimensionQty",
+    "column" : "dimensionQty",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "markDeleted",
+    "column" : "markDeleted",
+    "type" : "Boolean"
+  }, {
+    "id" : "outTransLine",
+    "column" : "outTransLine",
+    "type" : "ID"
+  }, {
+    "id" : "qty",
+    "column" : "qty",
+    "ar" : "الكمية",
+    "en" : "Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "sequence",
+    "column" : "sequence",
+    "ar" : "المسلسل",
+    "en" : "Sequence",
+    "type" : "Long"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

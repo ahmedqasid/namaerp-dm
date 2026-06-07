@@ -1,0 +1,24 @@
+{
+  "enum" : "MeasurementsRequestStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "InProgress",
+    "ar" : "قيد التنفيذ",
+    "en" : "In Progress"
+  }, {
+    "id" : "MeasurementsTaken",
+    "ar" : "تم الرفع",
+    "en" : "Measurements Taken"
+  }, {
+    "id" : "Confirmed",
+    "ar" : "مؤكد",
+    "en" : "Confirmed"
+  }, {
+    "id" : "Reraise",
+    "ar" : "إعادة رفع",
+    "en" : "Re-Raise"
+  } ]
+}

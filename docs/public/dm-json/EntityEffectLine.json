@@ -1,0 +1,35 @@
+{
+  "entity" : "EntityEffectLine",
+  "table" : "EntityEffectLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EntityEffectLine.html",
+  "fields" : [ {
+    "id" : "active",
+    "column" : "active",
+    "ar" : "فعال",
+    "en" : "Active",
+    "type" : "Boolean"
+  }, {
+    "id" : "className",
+    "column" : "className",
+    "ar" : "إسم العنصر",
+    "en" : "Class Name",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "methodOrder",
+    "column" : "methodOrder",
+    "ar" : "الترتيب",
+    "en" : "Order",
+    "type" : "Integer"
+  }, {
+    "id" : "parameter",
+    "column" : "parameter",
+    "ar" : "المدخل",
+    "en" : "Parameter",
+    "type" : "Text"
+  } ]
+}

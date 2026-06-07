@@ -1,0 +1,16 @@
+{
+  "enum" : "AssemblyProcessCalcMethod",
+  "values" : [ {
+    "id" : "FixedNumber",
+    "ar" : "رقم ثابت",
+    "en" : "Fixed Number"
+  }, {
+    "id" : "MultipliedAtQuantity",
+    "ar" : "مضروبا في كمية",
+    "en" : "Multiplied At Quantity"
+  }, {
+    "id" : "PercentageFromOtherExpenseItems",
+    "ar" : "نسبة من بنود مصروفات أخرى",
+    "en" : "Percentage From Other Expense Items"
+  } ]
+}

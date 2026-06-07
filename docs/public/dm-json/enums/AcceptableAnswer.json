@@ -1,0 +1,10 @@
+{
+  "enum" : "AcceptableAnswer",
+  "values" : [ {
+    "id" : "Acceptable"
+  }, {
+    "id" : "AcceptableWithComments"
+  }, {
+    "id" : "NotAcceptable"
+  } ]
+}

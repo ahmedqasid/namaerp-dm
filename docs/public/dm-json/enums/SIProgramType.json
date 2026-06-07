@@ -1,0 +1,12 @@
+{
+  "enum" : "SIProgramType",
+  "values" : [ {
+    "id" : "Employee",
+    "ar" : "موظف",
+    "en" : "Employee"
+  }, {
+    "id" : "Employer"
+  }, {
+    "id" : "Unemployed"
+  } ]
+}

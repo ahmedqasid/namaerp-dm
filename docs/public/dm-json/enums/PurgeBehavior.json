@@ -1,0 +1,16 @@
+{
+  "enum" : "PurgeBehavior",
+  "values" : [ {
+    "id" : "DeleteAndCopyToArchiveDB",
+    "ar" : "Delete And Copy ToArchive DB",
+    "en" : "Delete And Copy ToArchive DB"
+  }, {
+    "id" : "DeleteOnly",
+    "ar" : "Delete Only",
+    "en" : "Delete Only"
+  }, {
+    "id" : "MarkPurged",
+    "ar" : "Mark Purged",
+    "en" : "Mark Purged"
+  } ]
+}

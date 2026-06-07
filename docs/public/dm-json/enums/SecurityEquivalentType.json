@@ -1,0 +1,16 @@
+{
+  "enum" : "SecurityEquivalentType",
+  "values" : [ {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  }, {
+    "id" : "Standard",
+    "ar" : "قياسي",
+    "en" : "Standard"
+  }, {
+    "id" : "Custom",
+    "ar" : "مخصص",
+    "en" : "Custom"
+  } ]
+}

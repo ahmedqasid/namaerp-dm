@@ -1,0 +1,10 @@
+{
+  "enum" : "SIInstallmentProgramStatus",
+  "values" : [ {
+    "id" : "Active",
+    "ar" : "فعال",
+    "en" : "Active"
+  }, {
+    "id" : "Inactive"
+  } ]
+}

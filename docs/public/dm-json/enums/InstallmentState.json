@@ -1,0 +1,24 @@
+{
+  "enum" : "InstallmentState",
+  "values" : [ {
+    "id" : "NotPaid",
+    "ar" : "غير مُسَدّدْ",
+    "en" : "Not Paid"
+  }, {
+    "id" : "Paid",
+    "ar" : "مسدد",
+    "en" : "Paid"
+  }, {
+    "id" : "Exempt",
+    "ar" : "معفي",
+    "en" : "Exempt"
+  }, {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "PaymentIsBeingMade",
+    "ar" : "جاري التسديد",
+    "en" : "Payment Is Being Made"
+  } ]
+}

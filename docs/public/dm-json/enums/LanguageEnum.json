@@ -1,0 +1,12 @@
+{
+  "enum" : "LanguageEnum",
+  "values" : [ {
+    "id" : "Arabic",
+    "ar" : "العربية",
+    "en" : "Arabic"
+  }, {
+    "id" : "English",
+    "ar" : "الإنجليزية",
+    "en" : "English"
+  } ]
+}

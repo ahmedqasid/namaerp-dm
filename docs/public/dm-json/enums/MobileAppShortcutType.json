@@ -1,0 +1,16 @@
+{
+  "enum" : "MobileAppShortcutType",
+  "values" : [ {
+    "id" : "CreateView",
+    "ar" : "شاشة التحرير",
+    "en" : "Create View"
+  }, {
+    "id" : "ListView",
+    "ar" : " العرض بقائمة",
+    "en" : " List View"
+  }, {
+    "id" : "SubShortcut",
+    "ar" : "اختصار داخلى",
+    "en" : "Sub Shortcut"
+  } ]
+}

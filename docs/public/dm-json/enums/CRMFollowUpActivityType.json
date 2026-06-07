@@ -1,0 +1,24 @@
+{
+  "enum" : "CRMFollowUpActivityType",
+  "values" : [ {
+    "id" : "SMS",
+    "ar" : "الرسائل القصيرة",
+    "en" : "SMS"
+  }, {
+    "id" : "Call",
+    "ar" : "مكالمة",
+    "en" : "Call"
+  }, {
+    "id" : "Meeting",
+    "ar" : "اجتماع",
+    "en" : "Meeting"
+  }, {
+    "id" : "Email",
+    "ar" : "الايميل",
+    "en" : "Email"
+  }, {
+    "id" : "WhatsApp",
+    "ar" : "واتساب",
+    "en" : "WhatsApp"
+  } ]
+}

@@ -1,0 +1,28 @@
+{
+  "enum" : "ContactTitle",
+  "values" : [ {
+    "id" : "Mr",
+    "ar" : ".Mr",
+    "en" : "Mr."
+  }, {
+    "id" : "Mrs",
+    "ar" : ".Mrs",
+    "en" : "Mrs."
+  }, {
+    "id" : "Ms",
+    "ar" : ".Ms",
+    "en" : "Ms."
+  }, {
+    "id" : "Sheikh",
+    "ar" : "الشيخ",
+    "en" : "Sheikh"
+  }, {
+    "id" : "Dr",
+    "ar" : ".Dr",
+    "en" : "Dr."
+  }, {
+    "id" : "Eng",
+    "ar" : ".Eng",
+    "en" : "Eng."
+  } ]
+}

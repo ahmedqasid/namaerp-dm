@@ -1,0 +1,65 @@
+{
+  "entity" : "DocsToPayFromPosTransaction",
+  "table" : "DocsToPayFromPosTransaction",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/DocsToPayFromPosTransaction.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "originDocCode",
+    "column" : "originDocCode",
+    "type" : "Text"
+  }, {
+    "id" : "paidAmount",
+    "column" : "paidAmount",
+    "ar" : "المبلغ المسدد",
+    "en" : "Paid Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "payReceiptId",
+    "column" : "payReceiptId",
+    "type" : "ID"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  } ]
+}

@@ -1,0 +1,107 @@
+{
+  "entity" : "StockAgesTrans",
+  "table" : "StockAgesTrans",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/StockAgesTrans.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "invTransReqId",
+    "column" : "invTransReqId",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "details",
+    "table" : "StockAgesTransLine",
+    "joinColumn" : "stockAgesTrans_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "fields" : [ {
+      "id" : "details.createdBySplit",
+      "column" : "createdBySplit",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.docOriginCreationDate",
+      "column" : "docOriginCreationDate",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "details.docValueDate",
+      "column" : "docValueDate",
+      "type" : "Date"
+    }, {
+      "id" : "details.fromTransfer",
+      "column" : "fromTransfer",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.inLine",
+      "column" : "inLine",
+      "ar" : "مستند دخول",
+      "en" : "In Line",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.inQty",
+      "column" : "inQty",
+      "ar" : "الدخول | الكمية",
+      "en" : "IN |Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.originCreationDate",
+      "column" : "originCreationDate",
+      "ar" : " تاريخ الإنشاء",
+      "en" : " Creation Date",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "details.originLineId",
+      "column" : "originLineId",
+      "type" : "ID"
+    }, {
+      "id" : "details.outQty",
+      "column" : "outQty",
+      "ar" : "الخروج | الكمية",
+      "en" : "Out Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.qtyTransLineId",
+      "column" : "qtyTransLineId",
+      "type" : "ID"
+    }, {
+      "id" : "details.remainingInQty",
+      "column" : "remainingInQty",
+      "ar" : "الدخول | المتبقي",
+      "en" : "In | Remaining",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.remainingOutQty",
+      "column" : "remainingOutQty",
+      "ar" : "الخروج | المتبقي",
+      "en" : "Remaining Out Qty",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.stockAgesIdx",
+      "column" : "stockAgesIdx",
+      "type" : "Text"
+    }, {
+      "id" : "details.transId",
+      "column" : "transId",
+      "ar" : "القيد النظامي",
+      "en" : "System Transaction",
+      "type" : "ID"
+    }, {
+      "id" : "details.valueDate",
+      "column" : "valueDate",
+      "ar" : "التاريخ الفعلي",
+      "en" : "Value Date",
+      "type" : "Date"
+    } ]
+  } ]
+}

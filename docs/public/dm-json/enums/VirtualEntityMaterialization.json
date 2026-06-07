@@ -1,0 +1,12 @@
+{
+  "enum" : "VirtualEntityMaterialization",
+  "values" : [ {
+    "id" : "View",
+    "ar" : "View",
+    "en" : "View"
+  }, {
+    "id" : "Table",
+    "ar" : "Table",
+    "en" : "Table"
+  } ]
+}

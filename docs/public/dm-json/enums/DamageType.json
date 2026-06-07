@@ -1,0 +1,12 @@
+{
+  "enum" : "DamageType",
+  "values" : [ {
+    "id" : "FullDamage",
+    "ar" : "تلف كامل",
+    "en" : "Full Damage"
+  }, {
+    "id" : "ReprocessOnlyService",
+    "ar" : "إعادة التشغيلة",
+    "en" : "Reprocess Only Service"
+  } ]
+}

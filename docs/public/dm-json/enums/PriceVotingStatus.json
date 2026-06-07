@@ -1,0 +1,16 @@
+{
+  "enum" : "PriceVotingStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "ReadyForVoting",
+    "ar" : "جاهز للتصويت",
+    "en" : "Ready For Voting"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  } ]
+}

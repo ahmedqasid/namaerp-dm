@@ -1,0 +1,16 @@
+{
+  "enum" : "MCProjectType",
+  "values" : [ {
+    "id" : "MainProject",
+    "ar" : "مشروع رئيسي",
+    "en" : "Main Project"
+  }, {
+    "id" : "SubProject",
+    "ar" : "مشروع باطن",
+    "en" : "Sub Project"
+  }, {
+    "id" : "PrivateProject",
+    "ar" : "مشروع خاص",
+    "en" : "Private Project"
+  } ]
+}

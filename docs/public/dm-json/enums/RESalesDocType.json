@@ -1,0 +1,12 @@
+{
+  "enum" : "RESalesDocType",
+  "values" : [ {
+    "id" : "Contract",
+    "ar" : "عقد",
+    "en" : "Contract"
+  }, {
+    "id" : "Extension",
+    "ar" : "ملحق",
+    "en" : "Extension"
+  } ]
+}

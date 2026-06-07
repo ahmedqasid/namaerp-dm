@@ -1,0 +1,74 @@
+{
+  "entity" : "TerminationCalcSysEntry",
+  "table" : "TerminationCalcSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/TerminationCalcSysEntry.html",
+  "fields" : [ {
+    "id" : "daysOfYear",
+    "column" : "daysOfYear",
+    "ar" : "عدد الايام للسنة(مقسوما علي)",
+    "en" : "Days Of Year(Divided On)",
+    "type" : "Decimal"
+  }, {
+    "id" : "daysPerYear",
+    "column" : "daysPerYear",
+    "ar" : "عدد الايام عن كل سنة(مضروبا في)",
+    "en" : "Days Per Year(Multiplied by)",
+    "type" : "Decimal"
+  }, {
+    "id" : "dueMonths",
+    "column" : "dueMonths",
+    "ar" : "عدد شهور استحقاق بدل نهاية الخدمة",
+    "en" : "Due Months",
+    "type" : "Decimal"
+  }, {
+    "id" : "factorResult",
+    "column" : "factorResult",
+    "ar" : "ناتج المُعامل",
+    "en" : "Factor Result",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "remarks",
+    "column" : "remarks",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "sectionType",
+    "column" : "sectionType",
+    "ar" : "نوع الشرايحة",
+    "en" : "Section Type",
+    "type" : "Enum",
+    "enum" : "TerminationSectionType"
+  }, {
+    "id" : "terminationDuePercentage",
+    "column" : "terminationDuePercentage",
+    "ar" : "نسبة استحقاق نهاية الخدمة",
+    "en" : "Termination Du Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "terminationReason",
+    "column" : "terminationReason_id",
+    "ar" : "سبب نهاية الخدمة",
+    "en" : "Termination Reason",
+    "type" : "Reference",
+    "refTo" : "TerminationReason",
+    "refPath" : "/modules/humanresource-payroll/TerminationReason.html"
+  }, {
+    "id" : "terminationReasonText",
+    "column" : "terminationReasonText",
+    "ar" : "نص سبب نهاية الخدمة",
+    "en" : "Termination Reason Text",
+    "type" : "BigText"
+  }, {
+    "id" : "yearsForSection",
+    "column" : "yearsForSection",
+    "ar" : "عدد السنوات المنتمية للشريحة",
+    "en" : "Number Of Year Belongs Section",
+    "type" : "Decimal"
+  } ]
+}

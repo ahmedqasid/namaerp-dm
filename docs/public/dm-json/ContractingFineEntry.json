@@ -1,0 +1,59 @@
+{
+  "entity" : "ContractingFineEntry",
+  "table" : "ContractingFineEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ContractingFineEntry.html",
+  "fields" : [ {
+    "id" : "contract",
+    "columns" : [ "contractActualCode", " contractCode", " contractEntityType", " contractId" ],
+    "ar" : "العقد",
+    "en" : "Contract",
+    "type" : "Genericreference"
+  }, {
+    "id" : "extractDoc",
+    "columns" : [ "extractDocActualCode", " extractDocCode", " extractDocEntityType", " extractDocId" ],
+    "ar" : "المستخلص",
+    "en" : "Extract Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fineDoc",
+    "columns" : [ "fineDocActualCode", " fineDocCode", " fineDocEntityType", " fineDocId" ],
+    "ar" : "سند الغرامة",
+    "en" : "Fine Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fineLineId",
+    "column" : "fineLineId",
+    "type" : "ID"
+  }, {
+    "id" : "fineReason",
+    "column" : "fineReason_id",
+    "ar" : "سبب الغرامة",
+    "en" : "Fine Reason",
+    "type" : "Reference",
+    "refTo" : "ContractingFineReason",
+    "refPath" : "/modules/contracting/ContractingFineReason.html"
+  }, {
+    "id" : "fineValue",
+    "column" : "fineValue",
+    "ar" : "قيمة الغرامة",
+    "en" : "Fine Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "fineValueDate",
+    "column" : "fineValueDate",
+    "ar" : "التاريخ الفعلي للغرامة",
+    "en" : "Fine Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "termCode",
+    "column" : "termCode",
+    "ar" : "كود البند",
+    "en" : "Term Code",
+    "type" : "Text"
+  } ]
+}

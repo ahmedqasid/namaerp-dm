@@ -1,0 +1,20 @@
+{
+  "enum" : "PerformanceIndicatorValueType",
+  "values" : [ {
+    "id" : "Yearly",
+    "ar" : "سنوية",
+    "en" : "Yearly"
+  }, {
+    "id" : "AggregatedPeriod",
+    "ar" : "فترات مجمعة",
+    "en" : "Aggregated Period"
+  }, {
+    "id" : "SalaryPeriod",
+    "ar" : "فترة الراتب",
+    "en" : "Salary Period"
+  }, {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  } ]
+}

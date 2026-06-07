@@ -1,0 +1,28 @@
+{
+  "enum" : "AuditStatusType",
+  "values" : [ {
+    "id" : "UnStarted",
+    "ar" : "لم تبدأ",
+    "en" : "UnStarted"
+  }, {
+    "id" : "Prepared",
+    "ar" : "قيد الإعداد",
+    "en" : "Prepared"
+  }, {
+    "id" : "InProgress",
+    "ar" : "قيد التنفيذ",
+    "en" : "In Progress"
+  }, {
+    "id" : "Completed",
+    "ar" : "تمت",
+    "en" : "Completed"
+  }, {
+    "id" : "Closed",
+    "ar" : "مغلقة",
+    "en" : "Closed"
+  }, {
+    "id" : "Archived",
+    "ar" : "محفوظ",
+    "en" : "Archived"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "enum" : "ProjectType",
+  "values" : [ {
+    "id" : "CRMOffres",
+    "ar" : "عرض",
+    "en" : "Offer"
+  }, {
+    "id" : "preparement",
+    "ar" : "تجهيز",
+    "en" : "preparement"
+  }, {
+    "id" : "Training",
+    "ar" : "تدريب",
+    "en" : "Training"
+  }, {
+    "id" : "TroubleTicket",
+    "ar" : "دعم",
+    "en" : "TroubleTicket"
+  } ]
+}

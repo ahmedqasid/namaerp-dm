@@ -1,0 +1,12 @@
+{
+  "enum" : "ResourceCalcType",
+  "values" : [ {
+    "id" : "Lot",
+    "ar" : "شحنة",
+    "en" : "Lot"
+  }, {
+    "id" : "Item",
+    "ar" : "صنف",
+    "en" : "Item"
+  } ]
+}

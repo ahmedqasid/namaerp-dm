@@ -1,0 +1,12 @@
+{
+  "enum" : "CRMPlanTaskType",
+  "values" : [ {
+    "id" : "Visit",
+    "ar" : "زيارة",
+    "en" : "Visit"
+  }, {
+    "id" : "Call",
+    "ar" : "مكالمة",
+    "en" : "Call"
+  } ]
+}

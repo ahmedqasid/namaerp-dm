@@ -1,0 +1,16 @@
+{
+  "enum" : "FSBalanceMovOpeningEqType",
+  "values" : [ {
+    "id" : "BalanceAtTheBeginingOfThePeriod",
+    "ar" : "رصيد أول الفترة (إفتتاحى)",
+    "en" : "Balance At The Begining Of The Period (Opening)"
+  }, {
+    "id" : "NetValueOfTheTransactionThroughThePeriodOnly",
+    "ar" : "صافي الحركة خلال الفترة فقط",
+    "en" : "Net Value Of The Transaction Through The Period Only"
+  }, {
+    "id" : "BalanceAtTheEndOfThePeriod",
+    "ar" : "الرصيد في أخر الفترة",
+    "en" : "Balance At The End Of The Period"
+  } ]
+}

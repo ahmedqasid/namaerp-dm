@@ -1,0 +1,12 @@
+{
+  "enum" : "ContractType",
+  "values" : [ {
+    "id" : "WarrantyContract",
+    "ar" : "عقد ضمان",
+    "en" : "Warranty Contract"
+  }, {
+    "id" : "MaintenanceContract",
+    "ar" : "عقد صيانة",
+    "en" : "Maintenance Contract"
+  } ]
+}

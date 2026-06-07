@@ -1,0 +1,53 @@
+{
+  "entity" : "REMaintenanceDistribution",
+  "table" : "REMaintenanceDistribution",
+  "module" : "system-tables",
+  "ar" : "توزيع تكلفة الصيانة",
+  "en" : "Maintenance Distribution",
+  "page" : "https://dm.namasoft.com/modules/system-tables/REMaintenanceDistribution.html",
+  "fields" : [ {
+    "id" : "distributedAmount",
+    "column" : "distributedAmount",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "originDoc",
+    "columns" : [ "originDocActualCode", " originDocCode", " originDocEntityType", " originDocId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "parentEstate",
+    "columns" : [ "parentEstateActualCode", " parentEstateCode", " parentEstateEntityType", " parentEstateId" ],
+    "ar" : "العقار الأعلى",
+    "en" : "Parent Estate",
+    "type" : "Genericreference"
+  }, {
+    "id" : "sharePercent",
+    "column" : "sharePercent",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalArea",
+    "column" : "totalArea",
+    "ar" : "المساحة  الإجمالية",
+    "en" : "Total Area",
+    "type" : "Decimal"
+  }, {
+    "id" : "unit",
+    "column" : "unit_id",
+    "ar" : "وحدة سكنية",
+    "en" : "Housing units",
+    "type" : "Reference",
+    "refTo" : "RERentalUnit",
+    "refPath" : "/modules/realestate/RERentalUnit.html"
+  }, {
+    "id" : "unitArea",
+    "column" : "unitArea",
+    "ar" : "مساحة الوحدة",
+    "en" : "Unit area",
+    "type" : "Decimal"
+  } ]
+}

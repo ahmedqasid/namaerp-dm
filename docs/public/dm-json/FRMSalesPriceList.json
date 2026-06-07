@@ -1,0 +1,1890 @@
+{
+  "entity" : "FRMSalesPriceList",
+  "table" : "FRMSalesPriceList",
+  "module" : "frm",
+  "ar" : "قائمة أسعار مبيعات خدمات",
+  "arPlural" : "قوائم أسعار مبيعات خدمات",
+  "en" : "Service Sales Price List",
+  "enPlural" : "Service Sales Price Lists",
+  "page" : "https://dm.namasoft.com/modules/frm/FRMSalesPriceList.html",
+  "fields" : [ {
+    "id" : "agencyFees",
+    "column" : "agencyFees",
+    "ar" : "رسوم الوكيل",
+    "en" : "Agency Fees",
+    "type" : "Decimal"
+  }, {
+    "id" : "allInRate",
+    "column" : "allInRate",
+    "ar" : "All In Rate",
+    "en" : "All In Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "commodity",
+    "column" : "commodity_id",
+    "ar" : "السلعة",
+    "en" : "Commodity",
+    "type" : "Reference",
+    "refTo" : "FRMCommodity",
+    "refPath" : "/modules/frm/FRMCommodity.html"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customClearanceConditions",
+    "column" : "customClearanceConditions",
+    "ar" : "شروط التخليص الجمركى",
+    "en" : "Custom Clearance Conditions",
+    "type" : "BigText"
+  }, {
+    "id" : "customClearanceMarkup.percentage",
+    "column" : "ccmPercentage",
+    "ar" : "نسبة هامش ربح التخليص الجمركي",
+    "en" : "Custom Clearance Markup Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "customClearanceMarkup.value",
+    "column" : "ccmValue",
+    "ar" : "قيمة هامش ربح التخليص الجمركي",
+    "en" : "Custom Clearance Markup Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "customer",
+    "column" : "customer_id",
+    "ar" : "العميل",
+    "en" : "Customer",
+    "type" : "Reference",
+    "refTo" : "Customer",
+    "refPath" : "/modules/basic/Customer.html"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "elementMasterGroup",
+    "column" : "elementMasterGroup_id",
+    "ar" : "مجموعة عناصر قوائم أسعار الشراء",
+    "en" : "Price Lists Elements Master Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "frmValidFrom",
+    "column" : "frmValidFrom",
+    "ar" : "صالح | من",
+    "en" : "Validity | From",
+    "type" : "Date"
+  }, {
+    "id" : "frmValidTo",
+    "column" : "frmValidTo",
+    "ar" : "صالح | إلى",
+    "en" : "Validity | To",
+    "type" : "Date"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "gensetConditions",
+    "column" : "gensetConditions",
+    "ar" : "شروط المولدات",
+    "en" : "Genset Conditions",
+    "type" : "BigText"
+  }, {
+    "id" : "gensetMarkup.percentage",
+    "column" : "gensetMarkupPercentage",
+    "ar" : "نسبة هامش ربح المولدات",
+    "en" : "Genset Markup Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "gensetMarkup.value",
+    "column" : "gensetMarkupValue",
+    "ar" : "قيمة هامش ربح المولدات",
+    "en" : "Genset Markup Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "isAllIn",
+    "column" : "isAllIn",
+    "ar" : "All In",
+    "en" : "All In",
+    "type" : "Boolean"
+  }, {
+    "id" : "isCollect",
+    "column" : "isCollect",
+    "ar" : "Is Collect",
+    "en" : "Is Collect",
+    "type" : "Boolean"
+  }, {
+    "id" : "isCustomClearance",
+    "column" : "isCustomClearance",
+    "ar" : "تخليص جمركى",
+    "en" : "Custom Clearance",
+    "type" : "Boolean"
+  }, {
+    "id" : "isExport",
+    "column" : "isExport",
+    "ar" : "تصدير",
+    "en" : "Export",
+    "type" : "Boolean"
+  }, {
+    "id" : "isGenset",
+    "column" : "isGenset",
+    "ar" : "مولدات",
+    "en" : "Genset",
+    "type" : "Boolean"
+  }, {
+    "id" : "isImport",
+    "column" : "isImport",
+    "ar" : "استيراد",
+    "en" : "Import",
+    "type" : "Boolean"
+  }, {
+    "id" : "isOceanFreight",
+    "column" : "isOceanFreight",
+    "ar" : "شحن بحرى",
+    "en" : "Ocean Freight",
+    "type" : "Boolean"
+  }, {
+    "id" : "isOther",
+    "column" : "isOther",
+    "ar" : "أخرى",
+    "en" : "Other",
+    "type" : "Boolean"
+  }, {
+    "id" : "isPrepaid",
+    "column" : "isPrepaid",
+    "ar" : "Is Prepaid",
+    "en" : "Is Prepaid",
+    "type" : "Boolean"
+  }, {
+    "id" : "isTrucking",
+    "column" : "isTrucking",
+    "ar" : "نقل بالشاحنات",
+    "en" : "Trucking",
+    "type" : "Boolean"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "oceanFreightConditions",
+    "column" : "oceanFreightConditions",
+    "ar" : "شروط الشحن البحرى",
+    "en" : "Ocean Freight Conditions",
+    "type" : "BigText"
+  }, {
+    "id" : "oceanFreightMarkup.percentage",
+    "column" : "oceanFreightMarkupPercentage",
+    "ar" : "نسبة هامش ربح الشحن البحري",
+    "en" : "Ocean Freight Markup Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "oceanFreightMarkup.value",
+    "column" : "oceanFreightMarkupValue",
+    "ar" : "قيمة هامش ربح الشحن البحري",
+    "en" : "Ocean Freight Markup Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "othersMarkup.percentage",
+    "column" : "othersMarkupPercentage",
+    "ar" : "النسبة",
+    "en" : "Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "othersMarkup.value",
+    "column" : "othersMarkupValue",
+    "ar" : "القيمة",
+    "en" : "Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "rate",
+    "column" : "rate",
+    "ar" : "المعدل",
+    "en" : "Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "salesMan",
+    "column" : "salesMan_id",
+    "ar" : "مندوب المبيعات",
+    "en" : "Salesman",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "truckingConditions",
+    "column" : "truckingConditions",
+    "ar" : "شروط النقل بالشاحنات",
+    "en" : "Trucking Conditions",
+    "type" : "BigText"
+  }, {
+    "id" : "truckingMarkup.percentage",
+    "column" : "truckingMarkupPercentage",
+    "ar" : "نسبة هامش ربح النقل بالشاحنات",
+    "en" : "Trucking Markup Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "truckingMarkup.value",
+    "column" : "truckingMarkupValue",
+    "ar" : "قيمة هامش ربح النقل بالشاحنات",
+    "en" : "Trucking Markup Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "customClearanceDetails",
+    "table" : "FRMSPLCustomClearanceLine",
+    "joinColumn" : "fRMSalesPriceList_id",
+    "ar" : "سطور التخليص الجمركى",
+    "en" : "Custom Clearance Details",
+    "fields" : [ {
+      "id" : "customClearanceDetails.attachment",
+      "column" : "attachment_id",
+      "ar" : "مرفق",
+      "en" : "Attachment",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "customClearanceDetails.customer",
+      "column" : "customer_id",
+      "ar" : "العميل",
+      "en" : "Customer",
+      "type" : "Reference",
+      "refTo" : "Customer",
+      "refPath" : "/modules/basic/Customer.html"
+    }, {
+      "id" : "customClearanceDetails.genSalesElement",
+      "column" : "genSalesElement_id",
+      "ar" : "بند البيع المنشأ",
+      "en" : "Gen Sales Element",
+      "type" : "Reference",
+      "refTo" : "FRMSPriceListElement",
+      "refPath" : "/modules/frm/FRMSPriceListElement.html"
+    }, {
+      "id" : "customClearanceDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "customClearanceDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.commodity",
+      "column" : "commodity_id",
+      "ar" : "السلعة",
+      "en" : "Commodity",
+      "type" : "Reference",
+      "refTo" : "FRMCommodity",
+      "refPath" : "/modules/frm/FRMCommodity.html"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.container",
+      "column" : "container_id",
+      "ar" : "الحاوية",
+      "en" : "Container",
+      "type" : "Reference",
+      "refTo" : "FRMContainer",
+      "refPath" : "/modules/frm/FRMContainer.html"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.currency",
+      "column" : "currency_id",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.estimatedTime",
+      "column" : "estimatedTime",
+      "ar" : "الوقت المتوقع (يوم)",
+      "en" : "Estimated Time (day/s)",
+      "type" : "Decimal"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.frequency",
+      "column" : "frequency",
+      "ar" : "الموعد الدورى",
+      "en" : "Frequency",
+      "type" : "Enum",
+      "enum" : "FRMFrequency"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.frmServiceItem",
+      "column" : "frmServiceItem_id",
+      "ar" : "بند الخدمة",
+      "en" : "Service Item",
+      "type" : "Reference",
+      "refTo" : "FRMServiceItem",
+      "refPath" : "/modules/frm/FRMServiceItem.html"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.frmValidFrom",
+      "column" : "frmValidFrom",
+      "ar" : "صالح | من",
+      "en" : "Validity | From",
+      "type" : "Date"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.frmValidTo",
+      "column" : "frmValidTo",
+      "ar" : "صالح | إلى",
+      "en" : "Validity | To",
+      "type" : "Date"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.gateInPort",
+      "column" : "gateInPort_id",
+      "ar" : "ميناء الدخول",
+      "en" : "Gate In Port",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.gateOutPort",
+      "column" : "gateOutPort_id",
+      "ar" : "ميناء الخروج",
+      "en" : "Gate Out Port",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.lineCode",
+      "column" : "lineCode",
+      "ar" : "كود السطر",
+      "en" : "Line Code",
+      "type" : "Text"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.loadingPoint",
+      "column" : "loadingPoint_id",
+      "ar" : "نقطه التحميل",
+      "en" : "Loading Point",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.manualSalesPrice",
+      "column" : "manualSalesPrice",
+      "ar" : "سعر البيع | تعديل يدوى",
+      "en" : "SalesPrice | Manual Edit",
+      "type" : "Decimal"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.portOfDischarge",
+      "column" : "portOfDischarge_id",
+      "ar" : "ميناء التفريغ",
+      "en" : "Port of Discharge",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.portOfLoading",
+      "column" : "portOfLoading_id",
+      "ar" : "ميناء التحميل",
+      "en" : "Port of Loading",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.pricingCost",
+      "column" : "pricingCost",
+      "ar" : "تكلفة التسعير",
+      "en" : "Pricing Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.purchasePrice",
+      "column" : "purchasePrice",
+      "ar" : "سعر الشراء",
+      "en" : "Purchase Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.qty.uom",
+      "column" : "qtyUom_id",
+      "ar" : "الكمية | وحدة",
+      "en" : "Quantity | UOM",
+      "type" : "Reference",
+      "refTo" : "FRMUOM",
+      "refPath" : "/modules/frm/FRMUOM.html"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.qty.value",
+      "column" : "qtyValue",
+      "ar" : "الكمية | قيمة",
+      "en" : "Quantity | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.rate",
+      "column" : "rate",
+      "ar" : "المعدل",
+      "en" : "Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.salesPrice",
+      "column" : "salesPrice",
+      "ar" : "سعر البيع | القيمة",
+      "en" : "SalesPrice | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.selected",
+      "column" : "selected",
+      "ar" : "اختيار",
+      "en" : "Selected",
+      "type" : "Boolean"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.serviceProvider",
+      "columns" : [ "serviceProviderActualCode", " serviceProviderCode", " serviceProviderEntityType", " serviceProviderId" ],
+      "ar" : "مقدم الخدمة",
+      "en" : "Service Provider",
+      "type" : "Genericreference"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.totalPricingCost",
+      "column" : "totalPricingCost",
+      "type" : "Decimal"
+    }, {
+      "id" : "customClearanceDetails.priceListLine.totalSalesPrice",
+      "column" : "totalSalesPrice",
+      "ar" : "إجمالى البيع",
+      "en" : "Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "customClearanceDetails.priceListType",
+      "column" : "priceListType",
+      "ar" : "نوع قائمة الأسعار",
+      "en" : "Price List Type",
+      "type" : "Enum",
+      "enum" : "FRMPriceListType"
+    }, {
+      "id" : "customClearanceDetails.printSalesQuotation",
+      "column" : "printSalesQuotation",
+      "ar" : "طباعة عرض سعر",
+      "en" : "Print Sales Quotation",
+      "type" : "Boolean"
+    }, {
+      "id" : "customClearanceDetails.purchaseElement",
+      "column" : "purchaseElement_id",
+      "ar" : " بند شراء",
+      "en" : " Purchase Element",
+      "type" : "Reference",
+      "refTo" : "FRMPPriceListElement",
+      "refPath" : "/modules/frm/FRMPPriceListElement.html"
+    }, {
+      "id" : "customClearanceDetails.purchasePriceList",
+      "column" : "purchasePriceList_id",
+      "ar" : "قائمة أسعار شراء",
+      "en" : "Purchase Price List",
+      "type" : "Reference",
+      "refTo" : "FRMPurchasePriceList",
+      "refPath" : "/modules/frm/FRMPurchasePriceList.html"
+    }, {
+      "id" : "customClearanceDetails.remark",
+      "column" : "remark",
+      "ar" : "ملحوظة",
+      "en" : "Remark",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "gensetDetails",
+    "table" : "FRMSPLGensetLine",
+    "joinColumn" : "fRMSalesPriceList_id",
+    "ar" : "سطور المولدات",
+    "en" : "Genset Details",
+    "fields" : [ {
+      "id" : "gensetDetails.attachment",
+      "column" : "attachment_id",
+      "ar" : "مرفق",
+      "en" : "Attachment",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "gensetDetails.customer",
+      "column" : "customer_id",
+      "ar" : "العميل",
+      "en" : "Customer",
+      "type" : "Reference",
+      "refTo" : "Customer",
+      "refPath" : "/modules/basic/Customer.html"
+    }, {
+      "id" : "gensetDetails.genSalesElement",
+      "column" : "genSalesElement_id",
+      "ar" : "بند البيع المنشأ",
+      "en" : "Gen Sales Element",
+      "type" : "Reference",
+      "refTo" : "FRMSPriceListElement",
+      "refPath" : "/modules/frm/FRMSPriceListElement.html"
+    }, {
+      "id" : "gensetDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "gensetDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "gensetDetails.priceListLine.commodity",
+      "column" : "commodity_id",
+      "ar" : "السلعة",
+      "en" : "Commodity",
+      "type" : "Reference",
+      "refTo" : "FRMCommodity",
+      "refPath" : "/modules/frm/FRMCommodity.html"
+    }, {
+      "id" : "gensetDetails.priceListLine.container",
+      "column" : "container_id",
+      "ar" : "الحاوية",
+      "en" : "Container",
+      "type" : "Reference",
+      "refTo" : "FRMContainer",
+      "refPath" : "/modules/frm/FRMContainer.html"
+    }, {
+      "id" : "gensetDetails.priceListLine.currency",
+      "column" : "currency_id",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "gensetDetails.priceListLine.estimatedTime",
+      "column" : "estimatedTime",
+      "ar" : "الوقت المتوقع (يوم)",
+      "en" : "Estimated Time (day/s)",
+      "type" : "Decimal"
+    }, {
+      "id" : "gensetDetails.priceListLine.frequency",
+      "column" : "frequency",
+      "ar" : "الموعد الدورى",
+      "en" : "Frequency",
+      "type" : "Enum",
+      "enum" : "FRMFrequency"
+    }, {
+      "id" : "gensetDetails.priceListLine.frmServiceItem",
+      "column" : "frmServiceItem_id",
+      "ar" : "بند الخدمة",
+      "en" : "Service Item",
+      "type" : "Reference",
+      "refTo" : "FRMServiceItem",
+      "refPath" : "/modules/frm/FRMServiceItem.html"
+    }, {
+      "id" : "gensetDetails.priceListLine.frmValidFrom",
+      "column" : "frmValidFrom",
+      "ar" : "صالح | من",
+      "en" : "Validity | From",
+      "type" : "Date"
+    }, {
+      "id" : "gensetDetails.priceListLine.frmValidTo",
+      "column" : "frmValidTo",
+      "ar" : "صالح | إلى",
+      "en" : "Validity | To",
+      "type" : "Date"
+    }, {
+      "id" : "gensetDetails.priceListLine.gateInPort",
+      "column" : "gateInPort_id",
+      "ar" : "ميناء الدخول",
+      "en" : "Gate In Port",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "gensetDetails.priceListLine.gateOutPort",
+      "column" : "gateOutPort_id",
+      "ar" : "ميناء الخروج",
+      "en" : "Gate Out Port",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "gensetDetails.priceListLine.lineCode",
+      "column" : "lineCode",
+      "ar" : "كود السطر",
+      "en" : "Line Code",
+      "type" : "Text"
+    }, {
+      "id" : "gensetDetails.priceListLine.loadingPoint",
+      "column" : "loadingPoint_id",
+      "ar" : "نقطه التحميل",
+      "en" : "Loading Point",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "gensetDetails.priceListLine.manualSalesPrice",
+      "column" : "manualSalesPrice",
+      "ar" : "سعر البيع | تعديل يدوى",
+      "en" : "SalesPrice | Manual Edit",
+      "type" : "Decimal"
+    }, {
+      "id" : "gensetDetails.priceListLine.portOfDischarge",
+      "column" : "portOfDischarge_id",
+      "ar" : "ميناء التفريغ",
+      "en" : "Port of Discharge",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "gensetDetails.priceListLine.portOfLoading",
+      "column" : "portOfLoading_id",
+      "ar" : "ميناء التحميل",
+      "en" : "Port of Loading",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "gensetDetails.priceListLine.pricingCost",
+      "column" : "pricingCost",
+      "ar" : "تكلفة التسعير",
+      "en" : "Pricing Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "gensetDetails.priceListLine.purchasePrice",
+      "column" : "purchasePrice",
+      "ar" : "سعر الشراء",
+      "en" : "Purchase Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "gensetDetails.priceListLine.qty.uom",
+      "column" : "qtyUom_id",
+      "ar" : "الكمية | وحدة",
+      "en" : "Quantity | UOM",
+      "type" : "Reference",
+      "refTo" : "FRMUOM",
+      "refPath" : "/modules/frm/FRMUOM.html"
+    }, {
+      "id" : "gensetDetails.priceListLine.qty.value",
+      "column" : "qtyValue",
+      "ar" : "الكمية | قيمة",
+      "en" : "Quantity | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "gensetDetails.priceListLine.rate",
+      "column" : "rate",
+      "ar" : "المعدل",
+      "en" : "Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "gensetDetails.priceListLine.salesPrice",
+      "column" : "salesPrice",
+      "ar" : "سعر البيع | القيمة",
+      "en" : "SalesPrice | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "gensetDetails.priceListLine.selected",
+      "column" : "selected",
+      "ar" : "اختيار",
+      "en" : "Selected",
+      "type" : "Boolean"
+    }, {
+      "id" : "gensetDetails.priceListLine.serviceProvider",
+      "columns" : [ "serviceProviderActualCode", " serviceProviderCode", " serviceProviderEntityType", " serviceProviderId" ],
+      "ar" : "مقدم الخدمة",
+      "en" : "Service Provider",
+      "type" : "Genericreference"
+    }, {
+      "id" : "gensetDetails.priceListLine.totalPricingCost",
+      "column" : "totalPricingCost",
+      "type" : "Decimal"
+    }, {
+      "id" : "gensetDetails.priceListLine.totalSalesPrice",
+      "column" : "totalSalesPrice",
+      "ar" : "إجمالى البيع",
+      "en" : "Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "gensetDetails.priceListType",
+      "column" : "priceListType",
+      "ar" : "نوع قائمة الأسعار",
+      "en" : "Price List Type",
+      "type" : "Enum",
+      "enum" : "FRMPriceListType"
+    }, {
+      "id" : "gensetDetails.printSalesQuotation",
+      "column" : "printSalesQuotation",
+      "ar" : "طباعة عرض سعر",
+      "en" : "Print Sales Quotation",
+      "type" : "Boolean"
+    }, {
+      "id" : "gensetDetails.purchaseElement",
+      "column" : "purchaseElement_id",
+      "ar" : " بند شراء",
+      "en" : " Purchase Element",
+      "type" : "Reference",
+      "refTo" : "FRMPPriceListElement",
+      "refPath" : "/modules/frm/FRMPPriceListElement.html"
+    }, {
+      "id" : "gensetDetails.purchasePriceList",
+      "column" : "purchasePriceList_id",
+      "ar" : "قائمة أسعار شراء",
+      "en" : "Purchase Price List",
+      "type" : "Reference",
+      "refTo" : "FRMPurchasePriceList",
+      "refPath" : "/modules/frm/FRMPurchasePriceList.html"
+    }, {
+      "id" : "gensetDetails.remark",
+      "column" : "remark",
+      "ar" : "ملحوظة",
+      "en" : "Remark",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "oceanFreightDetails",
+    "table" : "FRMSPLOceanFreightLine",
+    "joinColumn" : "fRMSalesPriceList_id",
+    "ar" : "سطور الشحن البحرى",
+    "en" : "Ocean Freight Details",
+    "fields" : [ {
+      "id" : "oceanFreightDetails.amountENSCDD",
+      "column" : "amountENSCDD",
+      "ar" : "ENS-CDD",
+      "en" : "ENS-CDD",
+      "type" : "Decimal"
+    }, {
+      "id" : "oceanFreightDetails.amountISPS",
+      "column" : "amountISPS",
+      "ar" : "ISPS",
+      "en" : "ISPS",
+      "type" : "Decimal"
+    }, {
+      "id" : "oceanFreightDetails.attachment",
+      "column" : "attachment_id",
+      "ar" : "مرفق",
+      "en" : "Attachment",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "oceanFreightDetails.customer",
+      "column" : "customer_id",
+      "ar" : "العميل",
+      "en" : "Customer",
+      "type" : "Reference",
+      "refTo" : "Customer",
+      "refPath" : "/modules/basic/Customer.html"
+    }, {
+      "id" : "oceanFreightDetails.genSalesElement",
+      "column" : "genSalesElement_id",
+      "ar" : "بند البيع المنشأ",
+      "en" : "Gen Sales Element",
+      "type" : "Reference",
+      "refTo" : "FRMSPriceListElement",
+      "refPath" : "/modules/frm/FRMSPriceListElement.html"
+    }, {
+      "id" : "oceanFreightDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "oceanFreightDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.commodity",
+      "column" : "commodity_id",
+      "ar" : "السلعة",
+      "en" : "Commodity",
+      "type" : "Reference",
+      "refTo" : "FRMCommodity",
+      "refPath" : "/modules/frm/FRMCommodity.html"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.container",
+      "column" : "container_id",
+      "ar" : "الحاوية",
+      "en" : "Container",
+      "type" : "Reference",
+      "refTo" : "FRMContainer",
+      "refPath" : "/modules/frm/FRMContainer.html"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.currency",
+      "column" : "currency_id",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.estimatedTime",
+      "column" : "estimatedTime",
+      "ar" : "الوقت المتوقع (يوم)",
+      "en" : "Estimated Time (day/s)",
+      "type" : "Decimal"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.frequency",
+      "column" : "frequency",
+      "ar" : "الموعد الدورى",
+      "en" : "Frequency",
+      "type" : "Enum",
+      "enum" : "FRMFrequency"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.frmServiceItem",
+      "column" : "frmServiceItem_id",
+      "ar" : "بند الخدمة",
+      "en" : "Service Item",
+      "type" : "Reference",
+      "refTo" : "FRMServiceItem",
+      "refPath" : "/modules/frm/FRMServiceItem.html"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.frmValidFrom",
+      "column" : "frmValidFrom",
+      "ar" : "صالح | من",
+      "en" : "Validity | From",
+      "type" : "Date"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.frmValidTo",
+      "column" : "frmValidTo",
+      "ar" : "صالح | إلى",
+      "en" : "Validity | To",
+      "type" : "Date"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.gateInPort",
+      "column" : "gateInPort_id",
+      "ar" : "ميناء الدخول",
+      "en" : "Gate In Port",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.gateOutPort",
+      "column" : "gateOutPort_id",
+      "ar" : "ميناء الخروج",
+      "en" : "Gate Out Port",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.lineCode",
+      "column" : "lineCode",
+      "ar" : "كود السطر",
+      "en" : "Line Code",
+      "type" : "Text"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.loadingPoint",
+      "column" : "loadingPoint_id",
+      "ar" : "نقطه التحميل",
+      "en" : "Loading Point",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.manualSalesPrice",
+      "column" : "manualSalesPrice",
+      "ar" : "سعر البيع | تعديل يدوى",
+      "en" : "SalesPrice | Manual Edit",
+      "type" : "Decimal"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.portOfDischarge",
+      "column" : "portOfDischarge_id",
+      "ar" : "ميناء التفريغ",
+      "en" : "Port of Discharge",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.portOfLoading",
+      "column" : "portOfLoading_id",
+      "ar" : "ميناء التحميل",
+      "en" : "Port of Loading",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.pricingCost",
+      "column" : "pricingCost",
+      "ar" : "تكلفة التسعير",
+      "en" : "Pricing Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.purchasePrice",
+      "column" : "purchasePrice",
+      "ar" : "سعر الشراء",
+      "en" : "Purchase Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.qty.uom",
+      "column" : "qtyUom_id",
+      "ar" : "الكمية | وحدة",
+      "en" : "Quantity | UOM",
+      "type" : "Reference",
+      "refTo" : "FRMUOM",
+      "refPath" : "/modules/frm/FRMUOM.html"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.qty.value",
+      "column" : "qtyValue",
+      "ar" : "الكمية | قيمة",
+      "en" : "Quantity | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.rate",
+      "column" : "rate",
+      "ar" : "المعدل",
+      "en" : "Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.salesPrice",
+      "column" : "salesPrice",
+      "ar" : "سعر البيع | القيمة",
+      "en" : "SalesPrice | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.selected",
+      "column" : "selected",
+      "ar" : "اختيار",
+      "en" : "Selected",
+      "type" : "Boolean"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.serviceProvider",
+      "columns" : [ "serviceProviderActualCode", " serviceProviderCode", " serviceProviderEntityType", " serviceProviderId" ],
+      "ar" : "مقدم الخدمة",
+      "en" : "Service Provider",
+      "type" : "Genericreference"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.totalPricingCost",
+      "column" : "totalPricingCost",
+      "type" : "Decimal"
+    }, {
+      "id" : "oceanFreightDetails.priceListLine.totalSalesPrice",
+      "column" : "totalSalesPrice",
+      "ar" : "إجمالى البيع",
+      "en" : "Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "oceanFreightDetails.priceListType",
+      "column" : "priceListType",
+      "ar" : "نوع قائمة الأسعار",
+      "en" : "Price List Type",
+      "type" : "Enum",
+      "enum" : "FRMPriceListType"
+    }, {
+      "id" : "oceanFreightDetails.printSalesQuotation",
+      "column" : "printSalesQuotation",
+      "ar" : "طباعة عرض سعر",
+      "en" : "Print Sales Quotation",
+      "type" : "Boolean"
+    }, {
+      "id" : "oceanFreightDetails.purchaseElement",
+      "column" : "purchaseElement_id",
+      "ar" : " بند شراء",
+      "en" : " Purchase Element",
+      "type" : "Reference",
+      "refTo" : "FRMPPriceListElement",
+      "refPath" : "/modules/frm/FRMPPriceListElement.html"
+    }, {
+      "id" : "oceanFreightDetails.purchasePriceList",
+      "column" : "purchasePriceList_id",
+      "ar" : "قائمة أسعار شراء",
+      "en" : "Purchase Price List",
+      "type" : "Reference",
+      "refTo" : "FRMPurchasePriceList",
+      "refPath" : "/modules/frm/FRMPurchasePriceList.html"
+    }, {
+      "id" : "oceanFreightDetails.remark",
+      "column" : "remark",
+      "ar" : "ملحوظة",
+      "en" : "Remark",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "othersDetails",
+    "table" : "FRMSPLOthersLine",
+    "joinColumn" : "fRMSalesPriceList_id",
+    "fields" : [ {
+      "id" : "othersDetails.attachment",
+      "column" : "attachment_id",
+      "ar" : "مرفق",
+      "en" : "Attachment",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "othersDetails.customer",
+      "column" : "customer_id",
+      "ar" : "العميل",
+      "en" : "Customer",
+      "type" : "Reference",
+      "refTo" : "Customer",
+      "refPath" : "/modules/basic/Customer.html"
+    }, {
+      "id" : "othersDetails.genSalesElement",
+      "column" : "genSalesElement_id",
+      "ar" : "بند البيع المنشأ",
+      "en" : "Gen Sales Element",
+      "type" : "Reference",
+      "refTo" : "FRMSPriceListElement",
+      "refPath" : "/modules/frm/FRMSPriceListElement.html"
+    }, {
+      "id" : "othersDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "othersDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "othersDetails.priceListLine.commodity",
+      "column" : "commodity_id",
+      "ar" : "السلعة",
+      "en" : "Commodity",
+      "type" : "Reference",
+      "refTo" : "FRMCommodity",
+      "refPath" : "/modules/frm/FRMCommodity.html"
+    }, {
+      "id" : "othersDetails.priceListLine.container",
+      "column" : "container_id",
+      "ar" : "الحاوية",
+      "en" : "Container",
+      "type" : "Reference",
+      "refTo" : "FRMContainer",
+      "refPath" : "/modules/frm/FRMContainer.html"
+    }, {
+      "id" : "othersDetails.priceListLine.currency",
+      "column" : "currency_id",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "othersDetails.priceListLine.estimatedTime",
+      "column" : "estimatedTime",
+      "ar" : "الوقت المتوقع (يوم)",
+      "en" : "Estimated Time (day/s)",
+      "type" : "Decimal"
+    }, {
+      "id" : "othersDetails.priceListLine.frequency",
+      "column" : "frequency",
+      "ar" : "الموعد الدورى",
+      "en" : "Frequency",
+      "type" : "Enum",
+      "enum" : "FRMFrequency"
+    }, {
+      "id" : "othersDetails.priceListLine.frmServiceItem",
+      "column" : "frmServiceItem_id",
+      "ar" : "بند الخدمة",
+      "en" : "Service Item",
+      "type" : "Reference",
+      "refTo" : "FRMServiceItem",
+      "refPath" : "/modules/frm/FRMServiceItem.html"
+    }, {
+      "id" : "othersDetails.priceListLine.frmValidFrom",
+      "column" : "frmValidFrom",
+      "ar" : "صالح | من",
+      "en" : "Validity | From",
+      "type" : "Date"
+    }, {
+      "id" : "othersDetails.priceListLine.frmValidTo",
+      "column" : "frmValidTo",
+      "ar" : "صالح | إلى",
+      "en" : "Validity | To",
+      "type" : "Date"
+    }, {
+      "id" : "othersDetails.priceListLine.gateInPort",
+      "column" : "gateInPort_id",
+      "ar" : "ميناء الدخول",
+      "en" : "Gate In Port",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "othersDetails.priceListLine.gateOutPort",
+      "column" : "gateOutPort_id",
+      "ar" : "ميناء الخروج",
+      "en" : "Gate Out Port",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "othersDetails.priceListLine.lineCode",
+      "column" : "lineCode",
+      "ar" : "كود السطر",
+      "en" : "Line Code",
+      "type" : "Text"
+    }, {
+      "id" : "othersDetails.priceListLine.loadingPoint",
+      "column" : "loadingPoint_id",
+      "ar" : "نقطه التحميل",
+      "en" : "Loading Point",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "othersDetails.priceListLine.manualSalesPrice",
+      "column" : "manualSalesPrice",
+      "ar" : "سعر البيع | تعديل يدوى",
+      "en" : "SalesPrice | Manual Edit",
+      "type" : "Decimal"
+    }, {
+      "id" : "othersDetails.priceListLine.portOfDischarge",
+      "column" : "portOfDischarge_id",
+      "ar" : "ميناء التفريغ",
+      "en" : "Port of Discharge",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "othersDetails.priceListLine.portOfLoading",
+      "column" : "portOfLoading_id",
+      "ar" : "ميناء التحميل",
+      "en" : "Port of Loading",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "othersDetails.priceListLine.pricingCost",
+      "column" : "pricingCost",
+      "ar" : "تكلفة التسعير",
+      "en" : "Pricing Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "othersDetails.priceListLine.purchasePrice",
+      "column" : "purchasePrice",
+      "ar" : "سعر الشراء",
+      "en" : "Purchase Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "othersDetails.priceListLine.qty.uom",
+      "column" : "qtyUom_id",
+      "ar" : "الكمية | وحدة",
+      "en" : "Quantity | UOM",
+      "type" : "Reference",
+      "refTo" : "FRMUOM",
+      "refPath" : "/modules/frm/FRMUOM.html"
+    }, {
+      "id" : "othersDetails.priceListLine.qty.value",
+      "column" : "qtyValue",
+      "ar" : "الكمية | قيمة",
+      "en" : "Quantity | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "othersDetails.priceListLine.rate",
+      "column" : "rate",
+      "ar" : "المعدل",
+      "en" : "Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "othersDetails.priceListLine.salesPrice",
+      "column" : "salesPrice",
+      "ar" : "سعر البيع | القيمة",
+      "en" : "SalesPrice | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "othersDetails.priceListLine.selected",
+      "column" : "selected",
+      "ar" : "اختيار",
+      "en" : "Selected",
+      "type" : "Boolean"
+    }, {
+      "id" : "othersDetails.priceListLine.serviceProvider",
+      "columns" : [ "serviceProviderActualCode", " serviceProviderCode", " serviceProviderEntityType", " serviceProviderId" ],
+      "ar" : "مقدم الخدمة",
+      "en" : "Service Provider",
+      "type" : "Genericreference"
+    }, {
+      "id" : "othersDetails.priceListLine.totalPricingCost",
+      "column" : "totalPricingCost",
+      "type" : "Decimal"
+    }, {
+      "id" : "othersDetails.priceListLine.totalSalesPrice",
+      "column" : "totalSalesPrice",
+      "ar" : "إجمالى البيع",
+      "en" : "Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "othersDetails.priceListType",
+      "column" : "priceListType",
+      "ar" : "نوع قائمة الأسعار",
+      "en" : "Price List Type",
+      "type" : "Enum",
+      "enum" : "FRMPriceListType"
+    }, {
+      "id" : "othersDetails.printSalesQuotation",
+      "column" : "printSalesQuotation",
+      "ar" : "طباعة عرض سعر",
+      "en" : "Print Sales Quotation",
+      "type" : "Boolean"
+    }, {
+      "id" : "othersDetails.purchaseElement",
+      "column" : "purchaseElement_id",
+      "ar" : " بند شراء",
+      "en" : " Purchase Element",
+      "type" : "Reference",
+      "refTo" : "FRMPPriceListElement",
+      "refPath" : "/modules/frm/FRMPPriceListElement.html"
+    }, {
+      "id" : "othersDetails.purchasePriceList",
+      "column" : "purchasePriceList_id",
+      "ar" : "قائمة أسعار شراء",
+      "en" : "Purchase Price List",
+      "type" : "Reference",
+      "refTo" : "FRMPurchasePriceList",
+      "refPath" : "/modules/frm/FRMPurchasePriceList.html"
+    }, {
+      "id" : "othersDetails.remark",
+      "column" : "remark",
+      "ar" : "ملحوظة",
+      "en" : "Remark",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "truckingDetails",
+    "table" : "FRMSPLTruckingLine",
+    "joinColumn" : "fRMSalesPriceList_id",
+    "ar" : "سطور الشاحنات",
+    "en" : "Trucking Details",
+    "fields" : [ {
+      "id" : "truckingDetails.attachment",
+      "column" : "attachment_id",
+      "ar" : "مرفق",
+      "en" : "Attachment",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "truckingDetails.customer",
+      "column" : "customer_id",
+      "ar" : "العميل",
+      "en" : "Customer",
+      "type" : "Reference",
+      "refTo" : "Customer",
+      "refPath" : "/modules/basic/Customer.html"
+    }, {
+      "id" : "truckingDetails.genSalesElement",
+      "column" : "genSalesElement_id",
+      "ar" : "بند البيع المنشأ",
+      "en" : "Gen Sales Element",
+      "type" : "Reference",
+      "refTo" : "FRMSPriceListElement",
+      "refPath" : "/modules/frm/FRMSPriceListElement.html"
+    }, {
+      "id" : "truckingDetails.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "truckingDetails.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "truckingDetails.priceListLine.commodity",
+      "column" : "commodity_id",
+      "ar" : "السلعة",
+      "en" : "Commodity",
+      "type" : "Reference",
+      "refTo" : "FRMCommodity",
+      "refPath" : "/modules/frm/FRMCommodity.html"
+    }, {
+      "id" : "truckingDetails.priceListLine.container",
+      "column" : "container_id",
+      "ar" : "الحاوية",
+      "en" : "Container",
+      "type" : "Reference",
+      "refTo" : "FRMContainer",
+      "refPath" : "/modules/frm/FRMContainer.html"
+    }, {
+      "id" : "truckingDetails.priceListLine.currency",
+      "column" : "currency_id",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "truckingDetails.priceListLine.estimatedTime",
+      "column" : "estimatedTime",
+      "ar" : "الوقت المتوقع (يوم)",
+      "en" : "Estimated Time (day/s)",
+      "type" : "Decimal"
+    }, {
+      "id" : "truckingDetails.priceListLine.frequency",
+      "column" : "frequency",
+      "ar" : "الموعد الدورى",
+      "en" : "Frequency",
+      "type" : "Enum",
+      "enum" : "FRMFrequency"
+    }, {
+      "id" : "truckingDetails.priceListLine.frmServiceItem",
+      "column" : "frmServiceItem_id",
+      "ar" : "بند الخدمة",
+      "en" : "Service Item",
+      "type" : "Reference",
+      "refTo" : "FRMServiceItem",
+      "refPath" : "/modules/frm/FRMServiceItem.html"
+    }, {
+      "id" : "truckingDetails.priceListLine.frmValidFrom",
+      "column" : "frmValidFrom",
+      "ar" : "صالح | من",
+      "en" : "Validity | From",
+      "type" : "Date"
+    }, {
+      "id" : "truckingDetails.priceListLine.frmValidTo",
+      "column" : "frmValidTo",
+      "ar" : "صالح | إلى",
+      "en" : "Validity | To",
+      "type" : "Date"
+    }, {
+      "id" : "truckingDetails.priceListLine.gateInPort",
+      "column" : "gateInPort_id",
+      "ar" : "ميناء الدخول",
+      "en" : "Gate In Port",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "truckingDetails.priceListLine.gateOutPort",
+      "column" : "gateOutPort_id",
+      "ar" : "ميناء الخروج",
+      "en" : "Gate Out Port",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "truckingDetails.priceListLine.lineCode",
+      "column" : "lineCode",
+      "ar" : "كود السطر",
+      "en" : "Line Code",
+      "type" : "Text"
+    }, {
+      "id" : "truckingDetails.priceListLine.loadingPoint",
+      "column" : "loadingPoint_id",
+      "ar" : "نقطه التحميل",
+      "en" : "Loading Point",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "truckingDetails.priceListLine.manualSalesPrice",
+      "column" : "manualSalesPrice",
+      "ar" : "سعر البيع | تعديل يدوى",
+      "en" : "SalesPrice | Manual Edit",
+      "type" : "Decimal"
+    }, {
+      "id" : "truckingDetails.priceListLine.portOfDischarge",
+      "column" : "portOfDischarge_id",
+      "ar" : "ميناء التفريغ",
+      "en" : "Port of Discharge",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "truckingDetails.priceListLine.portOfLoading",
+      "column" : "portOfLoading_id",
+      "ar" : "ميناء التحميل",
+      "en" : "Port of Loading",
+      "type" : "Reference",
+      "refTo" : "ShippingPort",
+      "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "truckingDetails.priceListLine.pricingCost",
+      "column" : "pricingCost",
+      "ar" : "تكلفة التسعير",
+      "en" : "Pricing Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "truckingDetails.priceListLine.purchasePrice",
+      "column" : "purchasePrice",
+      "ar" : "سعر الشراء",
+      "en" : "Purchase Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "truckingDetails.priceListLine.qty.uom",
+      "column" : "qtyUom_id",
+      "ar" : "الكمية | وحدة",
+      "en" : "Quantity | UOM",
+      "type" : "Reference",
+      "refTo" : "FRMUOM",
+      "refPath" : "/modules/frm/FRMUOM.html"
+    }, {
+      "id" : "truckingDetails.priceListLine.qty.value",
+      "column" : "qtyValue",
+      "ar" : "الكمية | قيمة",
+      "en" : "Quantity | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "truckingDetails.priceListLine.rate",
+      "column" : "rate",
+      "ar" : "المعدل",
+      "en" : "Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "truckingDetails.priceListLine.salesPrice",
+      "column" : "salesPrice",
+      "ar" : "سعر البيع | القيمة",
+      "en" : "SalesPrice | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "truckingDetails.priceListLine.selected",
+      "column" : "selected",
+      "ar" : "اختيار",
+      "en" : "Selected",
+      "type" : "Boolean"
+    }, {
+      "id" : "truckingDetails.priceListLine.serviceProvider",
+      "columns" : [ "serviceProviderActualCode", " serviceProviderCode", " serviceProviderEntityType", " serviceProviderId" ],
+      "ar" : "مقدم الخدمة",
+      "en" : "Service Provider",
+      "type" : "Genericreference"
+    }, {
+      "id" : "truckingDetails.priceListLine.totalPricingCost",
+      "column" : "totalPricingCost",
+      "type" : "Decimal"
+    }, {
+      "id" : "truckingDetails.priceListLine.totalSalesPrice",
+      "column" : "totalSalesPrice",
+      "ar" : "إجمالى البيع",
+      "en" : "Total Sales Price",
+      "type" : "Decimal"
+    }, {
+      "id" : "truckingDetails.priceListType",
+      "column" : "priceListType",
+      "ar" : "نوع قائمة الأسعار",
+      "en" : "Price List Type",
+      "type" : "Enum",
+      "enum" : "FRMPriceListType"
+    }, {
+      "id" : "truckingDetails.printSalesQuotation",
+      "column" : "printSalesQuotation",
+      "ar" : "طباعة عرض سعر",
+      "en" : "Print Sales Quotation",
+      "type" : "Boolean"
+    }, {
+      "id" : "truckingDetails.purchaseElement",
+      "column" : "purchaseElement_id",
+      "ar" : " بند شراء",
+      "en" : " Purchase Element",
+      "type" : "Reference",
+      "refTo" : "FRMPPriceListElement",
+      "refPath" : "/modules/frm/FRMPPriceListElement.html"
+    }, {
+      "id" : "truckingDetails.purchasePriceList",
+      "column" : "purchasePriceList_id",
+      "ar" : "قائمة أسعار شراء",
+      "en" : "Purchase Price List",
+      "type" : "Reference",
+      "refTo" : "FRMPurchasePriceList",
+      "refPath" : "/modules/frm/FRMPurchasePriceList.html"
+    }, {
+      "id" : "truckingDetails.remark",
+      "column" : "remark",
+      "ar" : "ملحوظة",
+      "en" : "Remark",
+      "type" : "BigText"
+    } ]
+  } ]
+}

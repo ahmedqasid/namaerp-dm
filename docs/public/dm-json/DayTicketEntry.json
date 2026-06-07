@@ -1,0 +1,93 @@
+{
+  "entity" : "DayTicketEntry",
+  "table" : "DayTicketEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/DayTicketEntry.html",
+  "fields" : [ {
+    "id" : "assignedOn",
+    "column" : "assignedOn",
+    "ar" : "تاريخ السحب",
+    "en" : "Assigned On",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "createdOn",
+    "column" : "createdOn",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Create On",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "finishedBy",
+    "columns" : [ "finishedByActualCode", " finishedByCode", " finishedByEntityType", " finishedById" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "finishedOn",
+    "column" : "finishedOn",
+    "ar" : "تاريخ التنفيذ",
+    "en" : "Finished On",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "manuallyAssignedBy",
+    "column" : "manuallyAssignedBy_id",
+    "ar" : "تمت سحب التذكرة يدويا بواسطة",
+    "en" : "Manually Assigned By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "plateNumber",
+    "column" : "plateNumber",
+    "ar" : "رقم اللوحه",
+    "en" : "Plate Number",
+    "type" : "Text"
+  }, {
+    "id" : "queueClient",
+    "columns" : [ "queueClientActualCode", " queueClientCode", " queueClientEntityType", " queueClientId" ],
+    "ar" : "العميل",
+    "en" : "Queue Client",
+    "type" : "Genericreference"
+  }, {
+    "id" : "queueCode",
+    "column" : "queueCode",
+    "ar" : "كودالطابور",
+    "en" : "Queue Code",
+    "type" : "Text"
+  }, {
+    "id" : "serviceProvider",
+    "column" : "serviceProvider_id",
+    "ar" : "مقدم الخدمة",
+    "en" : "Service Provider",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "serviceProviderOrder",
+    "column" : "serviceProviderOrder",
+    "ar" : "رقم مقدم الخدمة",
+    "en" : "Service Provider Order",
+    "type" : "Integer"
+  }, {
+    "id" : "ticketBranch",
+    "column" : "ticketBranch_id",
+    "ar" : "فرع الخدمة",
+    "en" : "Ticket Branch",
+    "type" : "Reference",
+    "refTo" : "QueueServiceBranch",
+    "refPath" : "/modules/srvcenter-service-queues/QueueServiceBranch.html"
+  }, {
+    "id" : "ticketCode",
+    "column" : "ticketCode",
+    "ar" : "كود طلب الدعم",
+    "en" : "Ticket Code",
+    "type" : "Text"
+  }, {
+    "id" : "ticketSequence",
+    "column" : "ticketSequence",
+    "ar" : "المسلسل",
+    "en" : "Ticket Sequence",
+    "type" : "Integer"
+  } ]
+}

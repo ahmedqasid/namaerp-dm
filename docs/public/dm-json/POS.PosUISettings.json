@@ -1,0 +1,1973 @@
+{
+  "entity" : "POS.PosUISettings",
+  "table" : "PosUISettings",
+  "module" : "pos-app",
+  "ar" : " إعدادات واجهة نقاط البيع الجديده",
+  "arPlural" : " إعدادات واجهة نقاط البيع الجديده",
+  "en" : " Pos UI Settings",
+  "enPlural" : " Pos UI Settings",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.PosUISettings.html",
+  "fields" : [ {
+    "id" : "canelReservationBasicInfo.colsCountPerRow",
+    "column" : "cancelColsCountPerRow",
+    "ar" : "عدد الأعمده في الصف الواحد",
+    "en" : "Columns Count Per Row",
+    "type" : "Integer"
+  }, {
+    "id" : "canelReservationBasicInfo.doNotAddFavouritesPart",
+    "column" : "cancelDoNotAddFavouritesPart",
+    "ar" : "عدم إضافة جزء المفضلات",
+    "en" : "Do Not Add Favourites Part",
+    "type" : "Boolean"
+  }, {
+    "id" : "canelReservationBasicInfo.favouritePaneWidthPercent",
+    "column" : "cancelFavouritePaneWidthPercent",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "en" : "Favourite Pane Width Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "doNotAddSalesLineDecQtyBtn",
+    "column" : "doNotAddSalesLineDecQtyBtn",
+    "ar" : "عدم إضافة زر خفض الكمية لسطور المبيعات",
+    "en" : "Do Not Add Sales Line Decrease Quantity Button",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotAddSalesLineDepreciateBtn",
+    "column" : "doNotAddSalesLineDepreciateBtn",
+    "ar" : "عدم إضافة زر التحويل إلى هالك لسطور المبيعات",
+    "en" : "Do Not Add Sales Line Depreciate Button",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotAddSalesLineDuplBtn",
+    "column" : "doNotAddSalesLineDuplBtn",
+    "ar" : "عدم إضافة زر التكرار لسطور المبيعات",
+    "en" : "Do Not Add Sales Line Duplicate Button",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotAddSalesLineIncQtyBtn",
+    "column" : "doNotAddSalesLineIncQtyBtn",
+    "ar" : "عدم إضافة زر زيادة الكمية لسطور المبيعات",
+    "en" : "Do Not Add Sales Line Increase Quantity Button",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotAddSalesLineRemovelBtn",
+    "column" : "doNotAddSalesLineRemovelBtn",
+    "ar" : "عدم إضافة زر الحذف لسطور المبيعات",
+    "en" : "Do Not Add Sales Line Remove Button",
+    "type" : "Boolean"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "invoiceBasicInfo.colsCountPerRow",
+    "column" : "colsCountPerRow",
+    "ar" : "عدد الأعمده في الصف الواحد",
+    "en" : "Columns Count Per Row",
+    "type" : "Integer"
+  }, {
+    "id" : "invoiceBasicInfo.doNotAddFavouritesPart",
+    "column" : "doNotAddFavouritesPart",
+    "ar" : "عدم إضافة جزء المفضلات",
+    "en" : "Do Not Add Favourites Part",
+    "type" : "Boolean"
+  }, {
+    "id" : "invoiceBasicInfo.favouritePaneWidthPercent",
+    "column" : "favouritePaneWidthPercent",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "en" : "Favourite Pane Width Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "jasperFontsId",
+    "column" : "jasperFontsId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "orderReservationBasicInfo.colsCountPerRow",
+    "column" : "ordColsCountPerRow",
+    "ar" : "عدد الأعمده في الصف الواحد",
+    "en" : "Columns Count Per Row",
+    "type" : "Integer"
+  }, {
+    "id" : "orderReservationBasicInfo.doNotAddFavouritesPart",
+    "column" : "ordDoNotAddFavouritesPart",
+    "ar" : "عدم إضافة جزء المفضلات",
+    "en" : "Do Not Add Favourites Part",
+    "type" : "Boolean"
+  }, {
+    "id" : "orderReservationBasicInfo.favouritePaneWidthPercent",
+    "column" : "ordFavouritePaneWidthPercent",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "en" : "Favourite Pane Width Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "replacementBasicInfo.colsCountPerRow",
+    "column" : "repColsCountPerRow",
+    "ar" : "عدد الأعمده في الصف الواحد",
+    "en" : "Columns Count Per Row",
+    "type" : "Integer"
+  }, {
+    "id" : "replacementBasicInfo.doNotAddFavouritesPart",
+    "column" : "repDoNotAddFavouritesPart",
+    "ar" : "عدم إضافة جزء المفضلات",
+    "en" : "Do Not Add Favourites Part",
+    "type" : "Boolean"
+  }, {
+    "id" : "replacementBasicInfo.favouritePaneWidthPercent",
+    "column" : "repFavouritePaneWidthPercent",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "en" : "Favourite Pane Width Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "returnBasicInfo.colsCountPerRow",
+    "column" : "retColsCountPerRow",
+    "ar" : "عدد الأعمده في الصف الواحد",
+    "en" : "Columns Count Per Row",
+    "type" : "Integer"
+  }, {
+    "id" : "returnBasicInfo.doNotAddFavouritesPart",
+    "column" : "retDoNotAddFavouritesPart",
+    "ar" : "عدم إضافة جزء المفضلات",
+    "en" : "Do Not Add Favourites Part",
+    "type" : "Boolean"
+  }, {
+    "id" : "returnBasicInfo.favouritePaneWidthPercent",
+    "column" : "retFavouritePaneWidthPercent",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "en" : "Favourite Pane Width Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "scrapDocBasicInfo.colsCountPerRow",
+    "column" : "depColsCountPerRow",
+    "ar" : "عدد الأعمده في الصف الواحد",
+    "en" : "Columns Count Per Row",
+    "type" : "Integer"
+  }, {
+    "id" : "scrapDocBasicInfo.doNotAddFavouritesPart",
+    "column" : "depDoNotAddFavouritesPart",
+    "ar" : "عدم إضافة جزء المفضلات",
+    "en" : "Do Not Add Favourites Part",
+    "type" : "Boolean"
+  }, {
+    "id" : "scrapDocBasicInfo.favouritePaneWidthPercent",
+    "column" : "depFavouritePaneWidthPercent",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "en" : "Favourite Pane Width Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "shortfallsDocBasicInfo.colsCountPerRow",
+    "column" : "sfColsCountPerRow",
+    "ar" : "عدد الأعمده في الصف الواحد",
+    "en" : "Columns Count Per Row",
+    "type" : "Integer"
+  }, {
+    "id" : "shortfallsDocBasicInfo.doNotAddFavouritesPart",
+    "column" : "sfDoNotAddFavouritesPart",
+    "ar" : "عدم إضافة جزء المفضلات",
+    "en" : "Do Not Add Favourites Part",
+    "type" : "Boolean"
+  }, {
+    "id" : "shortfallsDocBasicInfo.favouritePaneWidthPercent",
+    "column" : "sfFavouritePaneWidthPercent",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "en" : "Favourite Pane Width Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "stockReceiptBasicInfo.colsCountPerRow",
+    "column" : "rcptColsCountPerRow",
+    "ar" : "عدد الأعمده في الصف الواحد",
+    "en" : "Columns Count Per Row",
+    "type" : "Integer"
+  }, {
+    "id" : "stockReceiptBasicInfo.doNotAddFavouritesPart",
+    "column" : "rcptDoNotAddFavouritesPart",
+    "ar" : "عدم إضافة جزء المفضلات",
+    "en" : "Do Not Add Favourites Part",
+    "type" : "Boolean"
+  }, {
+    "id" : "stockReceiptBasicInfo.favouritePaneWidthPercent",
+    "column" : "rcptFavouritePaneWidthPercent",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "en" : "Favourite Pane Width Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "takingBasicInfo.colsCountPerRow",
+    "column" : "takColsCountPerRow",
+    "ar" : "عدد الأعمده في الصف الواحد",
+    "en" : "Columns Count Per Row",
+    "type" : "Integer"
+  }, {
+    "id" : "takingBasicInfo.doNotAddFavouritesPart",
+    "column" : "takDoNotAddFavouritesPart",
+    "ar" : "عدم إضافة جزء المفضلات",
+    "en" : "Do Not Add Favourites Part",
+    "type" : "Boolean"
+  }, {
+    "id" : "takingBasicInfo.favouritePaneWidthPercent",
+    "column" : "takFavouritePaneWidthPercent",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "en" : "Favourite Pane Width Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalsPaneColor",
+    "column" : "totalsPaneColor",
+    "ar" : "لون الإجماليات",
+    "en" : "Totals Pane Color",
+    "type" : "Text"
+  }, {
+    "id" : "totalsPaneFontColor",
+    "column" : "totalsPaneFontColor",
+    "ar" : "لون خط الإجماليات",
+    "en" : "Totals Pane Font Color",
+    "type" : "Text"
+  }, {
+    "id" : "transferBasicInfo.colsCountPerRow",
+    "column" : "trColsCountPerRow",
+    "ar" : "عدد الأعمده في الصف الواحد",
+    "en" : "Columns Count Per Row",
+    "type" : "Integer"
+  }, {
+    "id" : "transferBasicInfo.doNotAddFavouritesPart",
+    "column" : "trDoNotAddFavouritesPart",
+    "ar" : "عدم إضافة جزء المفضلات",
+    "en" : "Do Not Add Favourites Part",
+    "type" : "Boolean"
+  }, {
+    "id" : "transferBasicInfo.favouritePaneWidthPercent",
+    "column" : "trFavouritePaneWidthPercent",
+    "ar" : "نسبة عرض جزء المفضلات (من إجمالي الشاشه)",
+    "en" : "Favourite Pane Width Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "uiSettingsOptions.addAddressInCustomerSearchBox",
+    "column" : "addAddressInCustomerSearchBox",
+    "ar" : "إظهار العنوان عند البحث عن العملاء",
+    "en" : "Add Address In Customer Search Box",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addAddressInSales",
+    "column" : "addAddressInSales",
+    "ar" : "إظهار العنوان في المبيعات",
+    "en" : "Add Address In Sales",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addAttach1InPayments",
+    "column" : "addAttach1InPayments",
+    "ar" : "إضافة مرفق 1 الي المصروفات",
+    "en" : "Add Attachment 1 In Payments",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addAttach1InReceipts",
+    "column" : "addAttach1InReceipts",
+    "ar" : "إضافة مرفق 1 الي المقبوضات",
+    "en" : "Add Attachment 1 In Receipts",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addAttach2InPayments",
+    "column" : "addAttach2InPayments",
+    "ar" : "إضافة مرفق 2 الي المصروفات",
+    "en" : "Add Attachment 2 In Payments",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addAttach2InReceipts",
+    "column" : "addAttach2InReceipts",
+    "ar" : "إضافة مرفق 2 الي المقبوضات",
+    "en" : "Add Attachment 2 In Receipts",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addBox",
+    "column" : "addBox",
+    "ar" : "إضافة حقل الصندوق",
+    "en" : "Add Box",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addColorAndSize",
+    "column" : "addColorAndSize",
+    "ar" : "إضافة حقول اللون والمقاس",
+    "en" : "Add Color And Size",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addCurrencyRateField",
+    "column" : "addCurrencyRateField",
+    "ar" : "إضافة حقل معدل العملة",
+    "en" : "Add Currency Rate Field",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addDiscount1Fields",
+    "column" : "addDiscount1Fields",
+    "ar" : "إضافة حقول التخفيض 1",
+    "en" : "Add Discount1 Fields",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addDiscount2Fields",
+    "column" : "addDiscount2Fields",
+    "ar" : "إضافة حقول التخفيض 2",
+    "en" : "Add Discount2 Fields",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addDiscount3Fields",
+    "column" : "addDiscount3Fields",
+    "ar" : "إضافة حقول التخفيض 3",
+    "en" : "Add Discount3 Fields",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addDiscount4Fields",
+    "column" : "addDiscount4Fields",
+    "ar" : "إضافة حقول التخفيض 4",
+    "en" : "Add Discount4 Fields",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addDiscount5Fields",
+    "column" : "addDiscount5Fields",
+    "ar" : "إضافة حقول التخفيض 5",
+    "en" : "Add Discount5 Fields",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addDiscount6Fields",
+    "column" : "addDiscount6Fields",
+    "ar" : "إضافة حقول التخفيض 6",
+    "en" : "Add Discount6 Fields",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addDiscount7Fields",
+    "column" : "addDiscount7Fields",
+    "ar" : "إضافة حقول التخفيض 7",
+    "en" : "Add Discount7 Fields",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addDiscount8Fields",
+    "column" : "addDiscount8Fields",
+    "ar" : "إضافة حقول التخفيض 8",
+    "en" : "Add Discount8 Fields",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addDocCategoryToPayReceipt",
+    "column" : "addDocCategoryToPayReceipt",
+    "ar" : "إضافة تصنيف السجل للمصروفات والمقبوضات",
+    "en" : "Add Document Category To Payment Receipt",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addItemAltCodeField",
+    "column" : "addItemAltCodeField",
+    "ar" : "إضافة عمود الكود البديل",
+    "en" : "Add Item AltCode Field",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addItemCodeColInSalesGrid",
+    "column" : "addItemCodeColInSalesGrid",
+    "ar" : "إضافة عمود كود الصنف في جدول المبيعات",
+    "en" : "Add Item Code Column In Sales Table",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addLocatorToLines",
+    "column" : "addLocatorToLines",
+    "ar" : "إضافة الموقع المخزني للسطور",
+    "en" : "Add Locator To Lines",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addLotId",
+    "column" : "addLotId",
+    "ar" : "إضافة حقل الشحنه",
+    "en" : "Add Lot Id",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addProductionAndExpiryDatesToSales",
+    "column" : "addProductionAndExpiryDatesToSales",
+    "ar" : "إضافة تاريخ الإنتاج والانتهاء الي المبيعات",
+    "en" : "Add Production And Expiry Dates To Sales",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addQtyColInItemSearchDialog",
+    "column" : "addQtyColInItemSearchDialog",
+    "ar" : "إضافة عمود الكمية في شاشة البحث عن صنف",
+    "en" : "Add Quantity Column In Item Search Dialog",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addRackCodeFields",
+    "column" : "addRackCodeFields",
+    "ar" : "إضافة حقول الرف",
+    "en" : "Add Rack Code Fields",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addRevision",
+    "column" : "addRevision",
+    "ar" : "إضافة حقل الإصدار",
+    "en" : "Add Revision",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addSecondSerial",
+    "column" : "addSecondSerial",
+    "ar" : "إضافة الرقم المسلسل الثاني",
+    "en" : "Add Second Serial Number",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addSerialNumber",
+    "column" : "addSerialNumber",
+    "ar" : "إضافة الرقم المسلسل",
+    "en" : "Add Serial Number",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addTax1Fields",
+    "column" : "addTax1Fields",
+    "ar" : "إضافة حقول الضريبة 1",
+    "en" : "Add Tax 1 Fields",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addTax2Fields",
+    "column" : "addTax2Fields",
+    "ar" : "إضافة حقول الضريبة 2",
+    "en" : "Add Tax 2 Fields",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addUOMToSalesGrid",
+    "column" : "addUOMToSalesGrid",
+    "ar" : "إضافة عمود الوحدة لتفاصيل المبيعات",
+    "en" : "Add UOM Column to Sales Grid",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.addWarehouseAndLocator",
+    "column" : "addWarehouseAndLocator",
+    "ar" : "إضافة المخزن والموقع المخزني",
+    "en" : "Add Warehouse And Locator",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.customerDisplayWindowImgId",
+    "column" : "customerDisplayWindowImgId",
+    "type" : "Text"
+  }, {
+    "id" : "uiSettingsOptions.customerDisplayWindowImgWidth",
+    "column" : "customerDisplayWindowImgWidth",
+    "ar" : "عرض صورة نافذة العميل",
+    "en" : "Customer Display Window Image Width",
+    "type" : "Decimal"
+  }, {
+    "id" : "uiSettingsOptions.customerDisplayWindowLogoWidth",
+    "column" : "customerDisplayWindowLogoWidth",
+    "ar" : "عرض صورة اللوجو في نافذة العميل",
+    "en" : "Customer Display Window Logo Width",
+    "type" : "Decimal"
+  }, {
+    "id" : "uiSettingsOptions.displayTitleBarVertically",
+    "column" : "displayTitleBarVertically",
+    "ar" : "إظهار شريط العنوان عمودياً",
+    "en" : "Display Title Bar Vertically",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.doNotAddAddressRegionFieldAutomatically",
+    "column" : "doNotAddAddressRegionFieldAutomatically",
+    "ar" : "عدم إضافة حقل المنطقة تلقائياً",
+    "en" : "Do Not Add Address Region Field Automatically",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.doNotAddDriverFieldAutomatically",
+    "column" : "doNotAddDriverFieldAutomatically",
+    "ar" : "عدم إضافة حقل السائق تلقائياً",
+    "en" : "Do Not Add Driver Field Automatically",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.favouriteDocBtnHeight",
+    "column" : "favouriteDocBtnHeight",
+    "ar" : "أرتفاع زر المستندات المفضله",
+    "en" : "Favourite Document button height",
+    "type" : "Decimal"
+  }, {
+    "id" : "uiSettingsOptions.favouriteDocBtnWidth",
+    "column" : "favouriteDocBtnWidth",
+    "ar" : "عرض زر المستندات المفضله",
+    "en" : "Favourite Document button width",
+    "type" : "Decimal"
+  }, {
+    "id" : "uiSettingsOptions.favouriteItemBtnHeight",
+    "column" : "favouriteItemBtnHeight",
+    "type" : "Decimal"
+  }, {
+    "id" : "uiSettingsOptions.favouriteItemBtnWidth",
+    "column" : "favouriteItemBtnWidth",
+    "ar" : "عرض زر الأصناف المفضله",
+    "en" : "Favourite Item button width",
+    "type" : "Decimal"
+  }, {
+    "id" : "uiSettingsOptions.favouriteItemsCountPerLine",
+    "column" : "favouriteItemsCountPerLine",
+    "ar" : "عدد الأصناف المفضله في السطر الواحد",
+    "en" : "Favourite Items Count Per Line",
+    "type" : "Integer"
+  }, {
+    "id" : "uiSettingsOptions.fullScreenPaymentDialogs",
+    "column" : "fullScreenPaymentDialogs",
+    "ar" : "ملءالشاشة عند فتح شاشة الدفع",
+    "en" : "Full Screen Payment Dialogs",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.fullScreenSearchDialogs",
+    "column" : "fullScreenSearchDialogs",
+    "ar" : "ملءالشاشة عند فتح شاشة البحث",
+    "en" : "Full Screen Search Dialogs",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.hallsTablesBtnHeight",
+    "column" : "hallsTablesBtnHeight",
+    "type" : "Decimal"
+  }, {
+    "id" : "uiSettingsOptions.hallsTablesBtnWidth",
+    "column" : "hallsTablesBtnWidth",
+    "type" : "Decimal"
+  }, {
+    "id" : "uiSettingsOptions.hallsTablesCountPerLine",
+    "column" : "hallsTablesCountPerLine",
+    "type" : "Integer"
+  }, {
+    "id" : "uiSettingsOptions.logoImageWidth",
+    "column" : "logoImageWidth",
+    "ar" : "عرض صورة لوجو الشركه",
+    "en" : "LegalEntity Logo Image Width",
+    "type" : "Decimal"
+  }, {
+    "id" : "uiSettingsOptions.mainColor",
+    "column" : "mainColor",
+    "ar" : "اللون الأساسي",
+    "en" : "Main Color",
+    "type" : "Text"
+  }, {
+    "id" : "uiSettingsOptions.salesReplacementColor",
+    "column" : "salesReplacementColor",
+    "ar" : "لون الاستبدال",
+    "en" : "Sales Replacement Color",
+    "type" : "Text"
+  }, {
+    "id" : "uiSettingsOptions.salesReturnColor",
+    "column" : "salesReturnColor",
+    "ar" : "لون المردود",
+    "en" : "Sales Return Color",
+    "type" : "Text"
+  }, {
+    "id" : "uiSettingsOptions.screensTitleLabelSize",
+    "column" : "screensTitleLabelSize",
+    "ar" : "حجم خط عنوان الشاشات",
+    "en" : "Screens Title Font Size",
+    "type" : "Decimal"
+  }, {
+    "id" : "uiSettingsOptions.searchDialogRecordsCountPerPage",
+    "column" : "searchDialogRecordsCountPerPage",
+    "ar" : "عدد السجلات لكل صفحة في ال Search Dialogue",
+    "en" : "Search Dialog Records Count Per Page",
+    "type" : "Integer"
+  }, {
+    "id" : "uiSettingsOptions.shortcutImgBtnsToTextBtns",
+    "column" : "shortcutImgBtnsToTextBtns",
+    "ar" : "تحويل زرائر الاختصارات ذات الصور الي زرائر نصيه",
+    "en" : "Shortcut Image Buttons To Text Buttons",
+    "type" : "Boolean"
+  }, {
+    "id" : "uiSettingsOptions.useMultiTableAsDefault",
+    "column" : "useMultiTableAsDefault",
+    "ar" : "استعمال الطاولات المدمجة بشكل افتراضي",
+    "en" : "Use Multi Table As Default",
+    "type" : "Boolean"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ],
+  "details" : [ {
+    "id" : "cancelReservationGridFields",
+    "table" : "POSCancelReservationGridLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول جدول المبيعات",
+    "en" : " Sales Grid Fields",
+    "fields" : [ {
+      "id" : "cancelReservationGridFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "cancelReservationGridFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "cancelReservationGridFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "cancelReservationGridFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "cancelReservationGridFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "cancelReservationMainFields",
+    "table" : "POSCancelReservationMainLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الصفحة الرئيسيه",
+    "en" : " Main Page Fields",
+    "fields" : [ {
+      "id" : "cancelReservationMainFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "cancelReservationMainFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "cancelReservationMainFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "cancelReservationMainFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "cancelReservationMainFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "cancelReservationOtherFields",
+    "table" : "POSCancelReservationOtherLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الشاشة الفرعيه",
+    "en" : " Other Page Fields",
+    "fields" : [ {
+      "id" : "cancelReservationOtherFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "cancelReservationOtherFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "cancelReservationOtherFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "cancelReservationOtherFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "cancelReservationOtherFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "customerDisplayWindowFooterFields",
+    "table" : "POSCustomerDisplayWindowFooterField",
+    "joinColumn" : "posUISettings_id",
+    "ar" : "حقول ذيل نافذة العميل",
+    "en" : "Customer Display Window Footer Fields",
+    "fields" : [ {
+      "id" : "customerDisplayWindowFooterFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "customerDisplayWindowFooterFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "customerDisplayWindowFooterFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "customerDisplayWindowFooterFields.namaEntityType",
+      "column" : "namaEntityType",
+      "type" : "Text"
+    }, {
+      "id" : "customerDisplayWindowFooterFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "customerDisplayWindowFooterFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "customerDisplayWindowHeaderFields",
+    "table" : "POSCustomerDisplayWindowHeaderField",
+    "joinColumn" : "posUISettings_id",
+    "ar" : "حقول رأس نافذة العميل",
+    "en" : "Customer Display Window Header Fields",
+    "fields" : [ {
+      "id" : "customerDisplayWindowHeaderFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "customerDisplayWindowHeaderFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "customerDisplayWindowHeaderFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "customerDisplayWindowHeaderFields.namaEntityType",
+      "column" : "namaEntityType",
+      "type" : "Text"
+    }, {
+      "id" : "customerDisplayWindowHeaderFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "customerDisplayWindowHeaderFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "customerDisplayWindowTableColumns",
+    "table" : "POSCustomerDisplayWindowTableColumn",
+    "joinColumn" : "posUISettings_id",
+    "ar" : "سطور نافذة العميل",
+    "en" : "Customer Display Window Table Columns",
+    "fields" : [ {
+      "id" : "customerDisplayWindowTableColumns.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "customerDisplayWindowTableColumns.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "customerDisplayWindowTableColumns.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "customerDisplayWindowTableColumns.namaEntityType",
+      "column" : "namaEntityType",
+      "type" : "Text"
+    }, {
+      "id" : "customerDisplayWindowTableColumns.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "customerDisplayWindowTableColumns.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "customerFields",
+    "table" : "POSCustomerFieldLine",
+    "joinColumn" : "posUISettings_id",
+    "ar" : "حقول شاشة العميل",
+    "en" : "Customer Fields",
+    "fields" : [ {
+      "id" : "customerFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "customerFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "customerFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "customerFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "customerFields.required",
+      "column" : "required",
+      "ar" : "إجبارى",
+      "en" : "Required",
+      "type" : "Boolean"
+    }, {
+      "id" : "customerFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "mainPageFields",
+    "table" : "POSRegisterMainLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : "حقول الصفحة الرئيسيه",
+    "en" : "Main Page Fields",
+    "fields" : [ {
+      "id" : "mainPageFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "mainPageFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "mainPageFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "mainPageFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "mainPageFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "orderReservationGridFields",
+    "table" : "POSOrderReservationGridLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول جدول المبيعات",
+    "en" : " Sales Grid Fields",
+    "fields" : [ {
+      "id" : "orderReservationGridFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "orderReservationGridFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "orderReservationGridFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "orderReservationGridFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "orderReservationGridFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "orderReservationMainFields",
+    "table" : "POSOrderReservationMainLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الصفحة الرئيسيه",
+    "en" : " Main Page Fields",
+    "fields" : [ {
+      "id" : "orderReservationMainFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "orderReservationMainFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "orderReservationMainFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "orderReservationMainFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "orderReservationMainFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "orderReservationOtherFields",
+    "table" : "POSOrderReservationOtherLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الشاشة الفرعيه",
+    "en" : " Other Page Fields",
+    "fields" : [ {
+      "id" : "orderReservationOtherFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "orderReservationOtherFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "orderReservationOtherFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "orderReservationOtherFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "orderReservationOtherFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "otherPageFields",
+    "table" : "POSRegisterOtherLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : "حقول الشاشة الفرعيه",
+    "en" : "Other Page Fields",
+    "fields" : [ {
+      "id" : "otherPageFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "otherPageFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "otherPageFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "otherPageFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "otherPageFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "paymentReceiptFields",
+    "table" : "POSPaymentReceiptFieldLine",
+    "joinColumn" : "posUISettings_id",
+    "ar" : "حقول شاشتي الصرف و القبض",
+    "en" : "Payment Receipt Screen Fields",
+    "fields" : [ {
+      "id" : "paymentReceiptFields.entityType",
+      "column" : "entityType",
+      "ar" : "النوع",
+      "en" : "Entity Type",
+      "type" : "Text"
+    }, {
+      "id" : "paymentReceiptFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "paymentReceiptFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "paymentReceiptFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "paymentReceiptFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "paymentReceiptFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "procedures",
+    "table" : "PosUISettings_POSFavProcedureLine",
+    "joinColumn" : "PosUISettings_id",
+    "ar" : "الاجراءات",
+    "en" : "Procedures",
+    "fields" : [ {
+      "id" : "procedures.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "procedures.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "replacementGridFields",
+    "table" : "POSReplacementGridLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول جدول المبيعات",
+    "en" : " Sales Grid Fields",
+    "fields" : [ {
+      "id" : "replacementGridFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "replacementGridFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "replacementGridFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "replacementGridFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "replacementGridFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "replacementMainFields",
+    "table" : "POSReplacementMainLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الصفحة الرئيسيه",
+    "en" : " Main Page Fields",
+    "fields" : [ {
+      "id" : "replacementMainFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "replacementMainFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "replacementMainFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "replacementMainFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "replacementMainFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "replacementOtherFields",
+    "table" : "POSReplacementOtherLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الشاشة الفرعيه",
+    "en" : " Other Page Fields",
+    "fields" : [ {
+      "id" : "replacementOtherFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "replacementOtherFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "replacementOtherFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "replacementOtherFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "replacementOtherFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "returnGridFields",
+    "table" : "POSReturnGridLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول جدول المبيعات",
+    "en" : " Sales Grid Fields",
+    "fields" : [ {
+      "id" : "returnGridFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "returnGridFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "returnGridFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "returnGridFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "returnGridFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "returnMainFields",
+    "table" : "POSReturnMainLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الصفحة الرئيسيه",
+    "en" : " Main Page Fields",
+    "fields" : [ {
+      "id" : "returnMainFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "returnMainFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "returnMainFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "returnMainFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "returnMainFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "returnOtherFields",
+    "table" : "POSReturnOtherLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الشاشة الفرعيه",
+    "en" : " Other Page Fields",
+    "fields" : [ {
+      "id" : "returnOtherFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "returnOtherFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "returnOtherFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "returnOtherFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "returnOtherFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "salesGridFields",
+    "table" : "POSRegisterGridLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : "حقول جدول المبيعات",
+    "en" : "Sales Grid Fields",
+    "fields" : [ {
+      "id" : "salesGridFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "salesGridFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "salesGridFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "salesGridFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "salesGridFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "scrapDocGridFields",
+    "table" : "POSScrapDocGridLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول جدول المبيعات",
+    "en" : " Sales Grid Fields",
+    "fields" : [ {
+      "id" : "scrapDocGridFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "scrapDocGridFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "scrapDocGridFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "scrapDocGridFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "scrapDocGridFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "scrapDocMainFields",
+    "table" : "POSScrapDocMainLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الصفحة الرئيسيه",
+    "en" : " Main Page Fields",
+    "fields" : [ {
+      "id" : "scrapDocMainFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "scrapDocMainFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "scrapDocMainFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "scrapDocMainFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "scrapDocMainFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "scrapDocOtherFields",
+    "table" : "POSScrapDocOtherLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الشاشة الفرعيه",
+    "en" : " Other Page Fields",
+    "fields" : [ {
+      "id" : "scrapDocOtherFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "scrapDocOtherFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "scrapDocOtherFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "scrapDocOtherFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "scrapDocOtherFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "searchDialogueConfigLines",
+    "table" : "POSUISettingsSearchDialogueConfigLine",
+    "joinColumn" : "posUISettings_id",
+    "ar" : "سطور إعدادات ال Search Dialogue",
+    "en" : "Search Dialogue Configuration Lines",
+    "fields" : [ {
+      "id" : "searchDialogueConfigLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "searchDialogueConfigLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "searchDialogueConfigLines.namaEntityType",
+      "column" : "namaEntityType",
+      "type" : "Text"
+    }, {
+      "id" : "searchDialogueConfigLines.searchDialogColumnsMode",
+      "column" : "searchDialogColumnsMode",
+      "ar" : "طريقة تعديل أعمدة ال Search Dialog",
+      "en" : "Search Dialog Columns Mode",
+      "type" : "Text"
+    }, {
+      "id" : "searchDialogueConfigLines.searchDialogOrderByField",
+      "column" : "searchDialogOrderByField",
+      "ar" : "حقل الترتيب الإفتراضي لل Search Dialog",
+      "en" : "Search Dialog Order By Field",
+      "type" : "Text"
+    }, {
+      "id" : "searchDialogueConfigLines.searchDialogRecordsCountPerPage",
+      "column" : "searchDialogRecordsCountPerPage",
+      "ar" : "عدد السجلات لكل صفحة في ال Search Dialogue",
+      "en" : "Search Dialog Records Count Per Page",
+      "type" : "Integer"
+    }, {
+      "id" : "searchDialogueConfigLines.searchDialogSortType",
+      "column" : "searchDialogSortType",
+      "ar" : "نوع الترتيب الإفتراضي لل Search Dialog",
+      "en" : "Search Dialog Sort Type",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "searchDialogueFields",
+    "table" : "POSUISettingsSearchDialogueColumn",
+    "joinColumn" : "posUISettings_id",
+    "fields" : [ {
+      "id" : "searchDialogueFields.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "Text"
+    }, {
+      "id" : "searchDialogueFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "searchDialogueFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "searchDialogueFields.namaEntityType",
+      "column" : "namaEntityType",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "searchDialogueFilters",
+    "table" : "POSUISettingsSearchDialogueFilterLine",
+    "joinColumn" : "posUISettings_id",
+    "ar" : "Search Dialogue Filter Fields",
+    "en" : "Search Dialogue Filter Fields",
+    "fields" : [ {
+      "id" : "searchDialogueFilters.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "Text"
+    }, {
+      "id" : "searchDialogueFilters.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "searchDialogueFilters.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "searchDialogueFilters.namaEntityType",
+      "column" : "namaEntityType",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "shortfallsDocGridFields",
+    "table" : "POSShortfallsDocGridLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول جدول المبيعات",
+    "en" : " Sales Grid Fields",
+    "fields" : [ {
+      "id" : "shortfallsDocGridFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "shortfallsDocGridFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "shortfallsDocGridFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "shortfallsDocGridFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "shortfallsDocGridFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "shortfallsDocMainFields",
+    "table" : "POSShortfallsDocMainLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الصفحة الرئيسيه",
+    "en" : " Main Page Fields",
+    "fields" : [ {
+      "id" : "shortfallsDocMainFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "shortfallsDocMainFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "shortfallsDocMainFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "shortfallsDocMainFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "shortfallsDocMainFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "shortfallsDocOtherFields",
+    "table" : "POSShortfallsDocOtherLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الشاشة الفرعيه",
+    "en" : " Other Page Fields",
+    "fields" : [ {
+      "id" : "shortfallsDocOtherFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "shortfallsDocOtherFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "shortfallsDocOtherFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "shortfallsDocOtherFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "shortfallsDocOtherFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "stockReceiptGridFields",
+    "table" : "POSStockReceiptGridLine",
+    "joinColumn" : "posSettings_id",
+    "fields" : [ {
+      "id" : "stockReceiptGridFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "stockReceiptGridFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "stockReceiptGridFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "stockReceiptGridFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "stockReceiptGridFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "stockReceiptMainFields",
+    "table" : "POSStockReceiptMainLine",
+    "joinColumn" : "posSettings_id",
+    "fields" : [ {
+      "id" : "stockReceiptMainFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "stockReceiptMainFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "stockReceiptMainFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "stockReceiptMainFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "stockReceiptMainFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "stockReceiptOtherFields",
+    "table" : "POSStockReceiptOtherLine",
+    "joinColumn" : "posSettings_id",
+    "fields" : [ {
+      "id" : "stockReceiptOtherFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "stockReceiptOtherFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "stockReceiptOtherFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "stockReceiptOtherFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "stockReceiptOtherFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "takingGridFields",
+    "table" : "POSTakingGridLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول جدول المبيعات",
+    "en" : " Sales Grid Fields",
+    "fields" : [ {
+      "id" : "takingGridFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "takingGridFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "takingGridFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "takingGridFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "takingGridFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "takingMainFields",
+    "table" : "POSTakingMainLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الصفحة الرئيسيه",
+    "en" : " Main Page Fields",
+    "fields" : [ {
+      "id" : "takingMainFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "takingMainFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "takingMainFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "takingMainFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "takingMainFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "takingOtherFields",
+    "table" : "POSTakingOtherLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الشاشة الفرعيه",
+    "en" : " Other Page Fields",
+    "fields" : [ {
+      "id" : "takingOtherFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "takingOtherFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "takingOtherFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "takingOtherFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "takingOtherFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "transferGridFields",
+    "table" : "POSTransferGridLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول جدول المبيعات",
+    "en" : " Sales Grid Fields",
+    "fields" : [ {
+      "id" : "transferGridFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "transferGridFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "transferGridFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "transferGridFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "transferGridFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "transferMainFields",
+    "table" : "POSTransferMainLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الصفحة الرئيسيه",
+    "en" : " Main Page Fields",
+    "fields" : [ {
+      "id" : "transferMainFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "transferMainFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "transferMainFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "transferMainFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "transferMainFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "transferOtherFields",
+    "table" : "POSTransferOtherLine",
+    "joinColumn" : "posSettings_id",
+    "ar" : " حقول الشاشة الفرعيه",
+    "en" : " Other Page Fields",
+    "fields" : [ {
+      "id" : "transferOtherFields.field",
+      "column" : "field",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "Text"
+    }, {
+      "id" : "transferOtherFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "transferOtherFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "transferOtherFields.posSettings",
+      "column" : "posSettings_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosUISettings",
+      "refPath" : "/modules/pos-app/POS.PosUISettings.html"
+    }, {
+      "id" : "transferOtherFields.widthSize",
+      "column" : "widthSize",
+      "ar" : "مقاس العرض",
+      "en" : "Width Size",
+      "type" : "Text"
+    } ]
+  } ]
+}

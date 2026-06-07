@@ -1,0 +1,384 @@
+{
+  "enum" : "POSSecurityCapability",
+  "values" : [ {
+    "id" : "CanEditItemCode",
+    "ar" : " إمكانية تعديل كود الصنف",
+    "en" : " Can Edit Item Code"
+  }, {
+    "id" : "CanCancelSalesLine",
+    "ar" : " إمكانية حذف سطر المبيعات",
+    "en" : " Can Delete Sales Line"
+  }, {
+    "id" : "CanDepreciateSalesLine",
+    "ar" : " إمكانية تحويل سطر إلى هالك",
+    "en" : " Can Depreciate Sales Line"
+  }, {
+    "id" : "CanEditPrice",
+    "ar" : " إمكانية تعديل السعر",
+    "en" : " Can Edit Price"
+  }, {
+    "id" : "CanEditQty",
+    "ar" : " إمكانية تعديل الكمية",
+    "en" : " Can Edit Qty"
+  }, {
+    "id" : "CanMakeLineDisc",
+    "ar" : "إمكانية إعطاء تخفيض 1 على السطر",
+    "en" : "Make Line Discount 1"
+  }, {
+    "id" : "CanMakeDocDisc",
+    "ar" : " إمكانية إعطاء تخفيض كلي على الفاتورة",
+    "en" : " Can Make Document Discount"
+  }, {
+    "id" : "CanDeleteHold",
+    "ar" : " امكانية حذف الفواتير المعلقة",
+    "en" : " Can Delete Hold"
+  }, {
+    "id" : "CanCancelInvoiceBeforeSave",
+    "ar" : " إمكانية إلغاء فاتورة قبل الحفظ",
+    "en" : " Can Cancel Invoice Before Save"
+  }, {
+    "id" : "CanMakeReceipts",
+    "ar" : " امكانية عمل سند قبض",
+    "en" : " Can Make Receipts"
+  }, {
+    "id" : "CanMakePayments",
+    "ar" : " امكانية عمل سند صرف",
+    "en" : " Can Make Payments"
+  }, {
+    "id" : "CanOpenCloseShift",
+    "ar" : " إمكانية فتح - غلق وردية",
+    "en" : " Can Open-Close Shifts"
+  }, {
+    "id" : "CanOpenShift",
+    "ar" : "إمكانية فتح وردية",
+    "en" : "Can Open Shift"
+  }, {
+    "id" : "CanCloseShift",
+    "ar" : "إمكانية غلق وردية",
+    "en" : "Can Close Shift"
+  }, {
+    "id" : "CanMakeCashCount",
+    "ar" : " إمكانية عمل جرد",
+    "en" : " Can Make Cash Count"
+  }, {
+    "id" : "CanEditSettings",
+    "ar" : " إمكانية تعديل الإعدادات",
+    "en" : " Can Edit Settings"
+  }, {
+    "id" : "CanMakeReturnWithoutInvoice",
+    "ar" : " امكانية عمل مردود بدون اصل الفاتورة",
+    "en" : " Can Make Return Without Invoice"
+  }, {
+    "id" : "CanInquireForPrice",
+    "ar" : " إمكانية إستعلام عن سعر",
+    "en" : " can Inquire For Prices"
+  }, {
+    "id" : "CanEditSalesUom",
+    "ar" : " إمكانية تعديل وحدة المبيعات",
+    "en" : " Can Edit Sales Uom"
+  }, {
+    "id" : "CanHoldInvoice",
+    "ar" : " إمكانية تعليق فاتورة",
+    "en" : " Can Hold Invoice"
+  }, {
+    "id" : "CanOpenCashDrawer",
+    "ar" : " إمكانية فتح - غلق الدرج",
+    "en" : " Can Open Cash Drawer"
+  }, {
+    "id" : "CanAddCustomer",
+    "ar" : " إمكانية إضافة عميل",
+    "en" : " Can Add Customer"
+  }, {
+    "id" : "CanOpenOldInvoice",
+    "ar" : " إمكانية فتح مستند قديم",
+    "en" : " Can Open Old Document"
+  }, {
+    "id" : "CanPayWithCreditVal",
+    "ar" : " إمكانية الدفع آجل",
+    "en" : " Can Pay With Credit Val"
+  }, {
+    "id" : "CanEditItemDims",
+    "ar" : " إمكانية تعديل محددات الصنف",
+    "en" : " Can Edit Item Dims"
+  }, {
+    "id" : "CanReplaceWithoutInvoice",
+    "ar" : " يمكن الإستبدال بدون أصل الفاتورة",
+    "en" : " Can Replace Without Invoice"
+  }, {
+    "id" : "CanViewAccountant",
+    "ar" : " يمكن مراجعه الرصيد الدفتري",
+    "en" : " Can View System Balance"
+  }, {
+    "id" : "CanPrintFullInvoice",
+    "ar" : " إمكانية طباعة الفاتورة الكامله",
+    "en" : " Can Print Full Invoice"
+  }, {
+    "id" : "CanEditSalesMan",
+    "ar" : " إمكانية تعديل مندوب المبيعات",
+    "en" : " Can Edit Sales Man"
+  }, {
+    "id" : "CanMakeLineTaxes",
+    "ar" : " إمكانية إعطاء ضريبة على السطر",
+    "en" : " Can Make Line Taxes"
+  }, {
+    "id" : "CanCloseAnotherUserShift",
+    "ar" : " إمكانية غلق وردية مستخدم آخر",
+    "en" : " Can Close Another User Shift"
+  }, {
+    "id" : "CanEditInvoiceClassification",
+    "ar" : "تعديل تصنيف الفاتورة",
+    "en" : "Can Edit Invoice Classification"
+  }, {
+    "id" : "CanSearchOnItemCode",
+    "ar" : " إمكانية البحث في كود الصنف",
+    "en" : " Can Search On Item Code"
+  }, {
+    "id" : "CanSearchOnInvoiceInReturnAndReplacement",
+    "ar" : " امكانية البحث عن الفاتورة في المردود والاستبدال",
+    "en" : " Can Search On Invoice In Return And Replacement"
+  }, {
+    "id" : "CanMakeReplacement",
+    "ar" : " إمكانية عمل إستبدال مبيعات",
+    "en" : " Can Make Replacement"
+  }, {
+    "id" : "CanMakeReturn",
+    "ar" : " إمكانية عمل مردود مبيعات",
+    "en" : " Can Make Return"
+  }, {
+    "id" : "CanShowDataTransferErrors",
+    "ar" : " إمكانية الإطلاع على أخطاء نقل البيانات",
+    "en" : " Can Show Data Transfer Errors"
+  }, {
+    "id" : "CanSearchByInvCodePart",
+    "ar" : " امكانية البحث بجزء من كود المستند",
+    "en" : " Can Search By Invoice Code Part"
+  }, {
+    "id" : "CanUseCalculator",
+    "ar" : " إمكانية استعمال الآلة الحاسبة",
+    "en" : " Can Use Calculator"
+  }, {
+    "id" : "CanUseKeyBoard",
+    "ar" : " إمكانية استعمال لوحة المفاتيح",
+    "en" : " Can Use KeyBoard"
+  }, {
+    "id" : "CanShowPaymentsDetails",
+    "ar" : " إمكانية الإطلاع على تفاصيل الدفع في المبيعات",
+    "en" : " Can Show Payments Details"
+  }, {
+    "id" : "CanMakeStockTransferReq",
+    "ar" : " إمكانية عمل طلب تحويل مخزني",
+    "en" : " Can Make Stock Transfer Request"
+  }, {
+    "id" : "CanGiveFreeItems",
+    "ar" : " إمكانية أعطاء أصناف مجانية",
+    "en" : " Can Give Free Items"
+  }, {
+    "id" : "CanShowFieldIds",
+    "ar" : " إمكانية الأطلاع على معرف الحقول",
+    "en" : " Can Show Field Ids"
+  }, {
+    "id" : "CanEditServiceItemPrice",
+    "ar" : " إمكانية تعديل سعر صنف الخدمة",
+    "en" : " Can Edit Service Item Price"
+  }, {
+    "id" : "CanCancelTaxes",
+    "ar" : " إمكانية إلغاء الضرائب",
+    "en" : " Can Cancel Taxes"
+  }, {
+    "id" : "CanSearchOnCustomers",
+    "ar" : " إمكانية البحث عن عميل",
+    "en" : " Can Search On Customers"
+  }, {
+    "id" : "CanRePrintDocuments",
+    "ar" : " إمكانية إعادة طباعة المستندات",
+    "en" : " Can RePrint Documents"
+  }, {
+    "id" : "CanEditReturnUnitPrice",
+    "ar" : " يمكن تعديل سعر الوحده في المردود",
+    "en" : " Can Edit Return Unit Price"
+  }, {
+    "id" : "CanEditReturnDiscOrTax",
+    "ar" : " يمكن تعديل التخفيض أو الضريبة في المردود",
+    "en" : " Can Edit Return Discount or Tax"
+  }, {
+    "id" : "CanResizeSalesColumns",
+    "ar" : " امكانية تعديل احجام اعمدة المبيعات",
+    "en" : " Can Resize Sales Columns"
+  }, {
+    "id" : "CanReorderSalesColumns",
+    "ar" : " امكانية اعادة ترتيب اعمدة المبيعات",
+    "en" : " Can Reorder Sales Columns"
+  }, {
+    "id" : "CanViewNotification",
+    "ar" : " امكانية عرض التنبيهات",
+    "en" : " Can View Notification"
+  }, {
+    "id" : "CanReturnInAnotherUserShift",
+    "ar" : " إمكانية عمل مردود بوردية مستخدم اخر",
+    "en" : " Can Return In Other User Shift"
+  }, {
+    "id" : "CanReplaceInAnotherUserShift",
+    "ar" : " إمكانية عمل استبدال بوردية مستخدم اخر",
+    "en" : " Can Replace In Other User Shift"
+  }, {
+    "id" : "CanUseAnotherUserShift",
+    "ar" : " إمكانية استخدام وردية مستخدم أخر",
+    "en" : " Can Use Another User Shift"
+  }, {
+    "id" : "CanUseShortcuts",
+    "ar" : " امكانية استخدام الاختصارات",
+    "en" : " Can Use Shortcuts"
+  }, {
+    "id" : "CanUseCriticalMethods",
+    "ar" : " امكانية استعمال طرق الدفع الحرجة",
+    "en" : " Can Use Critical Methods"
+  }, {
+    "id" : "CanUserFractionDiscounts",
+    "ar" : " امكانية استخدام خصم الكسور",
+    "en" : " Can Use Fraction Discounts"
+  }, {
+    "id" : "CanEditCustomer",
+    "ar" : " إمكانية تعديل العميل",
+    "en" : " Can Edit Customer"
+  }, {
+    "id" : "CanDelayInvoicePayment",
+    "ar" : " إمكانية تأجيل دفع الفاتوره",
+    "en" : " Can Delay Invoice Payment"
+  }, {
+    "id" : "CanReceiptFromStockTransfer",
+    "ar" : " إمكانية عمل توريد مخزني من التحويل المخزني",
+    "en" : " Can Receipt From Stock Transfer"
+  }, {
+    "id" : "CanReceiptFromPurchaseInv",
+    "ar" : " إمكانية عمل توريد مخزني من فاتورة المشتريات",
+    "en" : " Can Receipt From Purchase Invoice"
+  }, {
+    "id" : "CanReceiptWithoutOriginDoc",
+    "ar" : " إمكانية عمل توريد مخزني بدون أصل مستند",
+    "en" : " Can Receipt Without Origin Document"
+  }, {
+    "id" : "ShowAllInvoices",
+    "ar" : " عرض كل الفواتير",
+    "en" : " Show All Invoices"
+  }, {
+    "id" : "AllowSalesmanUpdate",
+    "ar" : " السماح بتعديل المندوب في الفاتورة التي تم صدورها بالفعل",
+    "en" : " Allow Salesman Update"
+  }, {
+    "id" : "AllowHideOffersDialog",
+    "ar" : " السماح بإخفاء Dialog العروض",
+    "en" : " Allow Hide Offers Dialog"
+  }, {
+    "id" : "ShowAllPayments",
+    "ar" : " عرض كل سندات الصرف",
+    "en" : " Show All Payments"
+  }, {
+    "id" : "ShowAllReceipts",
+    "ar" : " عرض كل سندات القبض",
+    "en" : " Show All Receipts"
+  }, {
+    "id" : "CanPrintHeldInvoice",
+    "ar" : " إمكانية طباعة فاتورة معلقة",
+    "en" : " Can Print Held Invoice"
+  }, {
+    "id" : "CanMakeScrapDoc",
+    "ar" : " إمكانية عمل سند هوالك",
+    "en" : " Can Make Scrap Document"
+  }, {
+    "id" : "CanMakeShortfallsDoc",
+    "ar" : " إمكانية عمل سند نواقص",
+    "en" : " Can Make Shortfalls Document"
+  }, {
+    "id" : "CanRemoveSalesReturnFreeItems",
+    "ar" : " إمكانية حذف أصناف مجانية من مردود المبيعات موجودة في الفاتورة الأصلية",
+    "en" : " Can Remove Sales Return Free Items"
+  }, {
+    "id" : "CanEditDeliveryCost",
+    "ar" : "إمكانية تعديل تكلفة خدمة التوصيل",
+    "en" : "Can Edit Delivery Cost"
+  }, {
+    "id" : "CanPrintShiftClosing",
+    "ar" : "إمكانية طباعة مستند غلق وردية",
+    "en" : "Can Print Shift Closing Document"
+  }, {
+    "id" : "CanMakeLineDisc2",
+    "ar" : "إمكانية إعطاء تخفيض 2 على السطر",
+    "en" : "Make Line Discount 2"
+  }, {
+    "id" : "CanMakeLineDisc3",
+    "ar" : "إمكانية إعطاء تخفيض 3 على السطر",
+    "en" : "Make Line Discount 3"
+  }, {
+    "id" : "CanMakeLineDisc4",
+    "ar" : "إمكانية إعطاء تخفيض 4 على السطر",
+    "en" : "Make Line Discount 4"
+  }, {
+    "id" : "CanMakeLineDisc5",
+    "ar" : "إمكانية إعطاء تخفيض 5 على السطر",
+    "en" : "Make Line Discount 5"
+  }, {
+    "id" : "CanMakeLineDisc6",
+    "ar" : "إمكانية إعطاء تخفيض 6 على السطر",
+    "en" : "Make Line Discount 6"
+  }, {
+    "id" : "CanMakeLineDisc7",
+    "ar" : "إمكانية إعطاء تخفيض 7 على السطر",
+    "en" : "Make Line Discount 7"
+  }, {
+    "id" : "CanMakeLineDisc8",
+    "ar" : "إمكانية إعطاء تخفيض 8 على السطر",
+    "en" : "Make Line Discount 8"
+  }, {
+    "id" : "CanMakeNegativeDuplicate",
+    "ar" : "إمكانية تكرار أخر سطر بكمية سالبة",
+    "en" : "Can Make Negative Duplicate"
+  }, {
+    "id" : "CanDisplayReturnedLinesWhenSelectingInv",
+    "ar" : "إمكانية عرض السطور عند اختيار الفاتورة في مردود المبيعات",
+    "en" : "Can Display Lines When Selecting Invoice In Sales Return"
+  }, {
+    "id" : "CanSelectSalesInvoiceInReturns",
+    "ar" : "إمكانية اختيار فاتورة المبيعات في المردود",
+    "en" : "Can Select Sales Invoice In Returns"
+  }, {
+    "id" : "ReadSalesInvCodeInReturnsUsingScannerOnly",
+    "ar" : "قراءة كود فاتورة المبيعات في المردود من خلال قارئ الباركود فقط",
+    "en" : "Read Sales Invoice Code In Returns Using Scanner Only"
+  }, {
+    "id" : "AllowReturnAfterAllowedPeriod",
+    "ar" : "إمكانية عمل مردود بعد تجاوز مدة المردود المسموح بها",
+    "en" : "Allow Return After Allowed Period"
+  }, {
+    "id" : "ReadItemCodeUsingScannerOnly",
+    "ar" : "قراءة كود الصنف من خلال قارئ الباركود فقط",
+    "en" : "Read Item Code Using Scanner Only"
+  }, {
+    "id" : "CanPreventPrintingInvoices",
+    "ar" : "Can Prevent Printing Invoices",
+    "en" : "إمكانية منع طباعة الفواتير"
+  }, {
+    "id" : "CanNotModifyCreditNoteValueInPayment",
+    "ar" : "منع تعديل قيمة إشعار الدائن في الدفع",
+    "en" : "Can Not Modify Credit Note Value In Payment"
+  }, {
+    "id" : "PreventOpeningOldInvoices",
+    "ar" : "منع عرض فواتير نقاط البيع القديمة",
+    "en" : "Prevent Opening Old Invoices"
+  }, {
+    "id" : "PreventOpeningOldReturns",
+    "ar" : "منع عرض مردودات نقاط البيع القديمة",
+    "en" : "Prevent Opening Old Returns"
+  }, {
+    "id" : "CanEnrollFingerprints",
+    "ar" : "إمكانية تسجيل بصمة إصبع الموظفين",
+    "en" : "Can Enroll Fingerprints"
+  }, {
+    "id" : "PreventPayment",
+    "ar" : "منع إمكانية الدفع",
+    "en" : "Prevent Payment"
+  }, {
+    "id" : "CanHoldSelfCheckoutInvoice",
+    "ar" : "إمكانية تعليق فاتورة الدفع الذاتي",
+    "en" : "Can Hold Self Checkout Invoice"
+  } ]
+}

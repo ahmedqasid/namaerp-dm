@@ -1,0 +1,8 @@
+{
+  "enum" : "POSReadQueueUpdateType",
+  "values" : [ {
+    "id" : "DataChange"
+  }, {
+    "id" : "SuccessFailureChange"
+  } ]
+}

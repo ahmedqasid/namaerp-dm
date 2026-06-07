@@ -1,0 +1,24 @@
+{
+  "enum" : "SIInstallmentQuotationStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "Accepted",
+    "ar" : "مقبول",
+    "en" : "Accepted"
+  }, {
+    "id" : "Expired",
+    "ar" : "منتهي الصلاحية",
+    "en" : "Expired"
+  }, {
+    "id" : "CreditApproved",
+    "ar" : "موافقة ائتمانية",
+    "en" : "Credit Approved"
+  } ]
+}

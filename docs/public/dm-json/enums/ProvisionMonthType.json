@@ -1,0 +1,12 @@
+{
+  "enum" : "ProvisionMonthType",
+  "values" : [ {
+    "id" : "ActualDays",
+    "ar" : "الأيام الفعلية",
+    "en" : "Actual Days"
+  }, {
+    "id" : "DaysFromConfiguration",
+    "ar" : "الأيام المثبتة (إعدادات الموارد البشرية)",
+    "en" : "Fixed Days (Days From HR Configuration)"
+  } ]
+}

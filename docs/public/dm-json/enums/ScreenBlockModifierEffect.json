@@ -1,0 +1,20 @@
+{
+  "enum" : "ScreenBlockModifierEffect",
+  "values" : [ {
+    "id" : "Copy",
+    "ar" : "نسخ",
+    "en" : "Copy"
+  }, {
+    "id" : "Move",
+    "ar" : "نقل",
+    "en" : "Move"
+  }, {
+    "id" : "Modify",
+    "ar" : "تعديل",
+    "en" : "Modify"
+  }, {
+    "id" : "Delete",
+    "ar" : "حذف",
+    "en" : "Delete"
+  } ]
+}

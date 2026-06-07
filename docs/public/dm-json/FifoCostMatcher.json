@@ -1,0 +1,62 @@
+{
+  "entity" : "FifoCostMatcher",
+  "table" : "FifoCostMatcher",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/FifoCostMatcher.html",
+  "fields" : [ {
+    "id" : "consumedQty",
+    "column" : "consumedQty",
+    "ar" : "الكمية المستخدمة",
+    "en" : "Consumed Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "inCreationDate",
+    "column" : "inCreationDate",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "inDimensionIdx",
+    "column" : "inDimensionIdx",
+    "type" : "Text"
+  }, {
+    "id" : "inLine",
+    "column" : "inLine_id",
+    "ar" : "مستند دخول",
+    "en" : "In Line",
+    "type" : "",
+    "refTo" : "FifoCostTransLine",
+    "refPath" : "/modules/system-tables/FifoCostTrans.html#details"
+  }, {
+    "id" : "inValueDate",
+    "column" : "inValueDate",
+    "type" : "Date"
+  }, {
+    "id" : "outCreationDate",
+    "column" : "outCreationDate",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "outDimensionIdx",
+    "column" : "outDimensionIdx",
+    "type" : "Text"
+  }, {
+    "id" : "outLine",
+    "column" : "outLine_id",
+    "type" : "",
+    "refTo" : "FifoCostTransLine",
+    "refPath" : "/modules/system-tables/FifoCostTrans.html#details"
+  }, {
+    "id" : "outValueDate",
+    "column" : "outValueDate",
+    "type" : "Date"
+  }, {
+    "id" : "requester",
+    "column" : "requester",
+    "ar" : "محرر الطلب",
+    "en" : "Requester",
+    "type" : "Enum",
+    "enum" : "QtyEffectType"
+  } ]
+}

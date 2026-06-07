@@ -1,0 +1,44 @@
+{
+  "enum" : "MobileAppSourcePrice",
+  "values" : [ {
+    "id" : "price1",
+    "ar" : "السعر 1",
+    "en" : "Price 1"
+  }, {
+    "id" : "price2",
+    "ar" : "السعر 2",
+    "en" : "Price 2"
+  }, {
+    "id" : "price3",
+    "ar" : "السعر 3",
+    "en" : "Price 3"
+  }, {
+    "id" : "price4",
+    "ar" : "السعر 4",
+    "en" : "Price 4"
+  }, {
+    "id" : "price5",
+    "ar" : "السعر 5",
+    "en" : "Price 5"
+  }, {
+    "id" : "price6",
+    "ar" : "السعر 6",
+    "en" : "Price 6"
+  }, {
+    "id" : "price7",
+    "ar" : "السعر 7",
+    "en" : "Price 7"
+  }, {
+    "id" : "price8",
+    "ar" : "السعر 8",
+    "en" : "Price 8"
+  }, {
+    "id" : "price9",
+    "ar" : "السعر 9",
+    "en" : "Price 9"
+  }, {
+    "id" : "price10",
+    "ar" : "السعر 10",
+    "en" : "Price 10"
+  } ]
+}

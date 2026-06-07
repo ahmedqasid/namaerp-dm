@@ -1,0 +1,12 @@
+{
+  "enum" : "EditedObjectSourceTypeEnum",
+  "values" : [ {
+    "id" : "FromField",
+    "ar" : "من حقل",
+    "en" : "From Field"
+  }, {
+    "id" : "AlwaysCreateNew",
+    "ar" : "إنشاء جديد دائما",
+    "en" : "Always Create New"
+  } ]
+}

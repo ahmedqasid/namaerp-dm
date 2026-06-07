@@ -1,0 +1,213 @@
+{
+  "entity" : "POS.POSItemQtyUpdateConfig",
+  "table" : "POSItemQtyUpdateConfig",
+  "module" : "pos-app",
+  "ar" : "إعدادات تحديث كميات الماكينة",
+  "arPlural" : "ملفات إعدادات تحديث كميات الماكينة",
+  "en" : "POS Item Quantity Update Configuration",
+  "enPlural" : "POS Item Quantity Update Configurations",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSItemQtyUpdateConfig.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "doNotConsiderActivePercent",
+    "column" : "doNotConsiderActivePercent",
+    "ar" : "عدم إعتبار النسبة الغير الفعالة",
+    "en" : "Do Not Consider Active Percentage",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotConsiderBox",
+    "column" : "doNotConsiderBox",
+    "ar" : "عدم اعتبار الصندوق",
+    "en" : "Do Not Consider Box",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotConsiderColor",
+    "column" : "doNotConsiderColor",
+    "ar" : "عدم اعتبار اللون",
+    "en" : "Do Not Consider Color",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotConsiderInActivePercent",
+    "column" : "doNotConsiderInActivePercent",
+    "ar" : "عدم إعتبار النسبة الفعالة",
+    "en" : "Do Not Consider Inactive Percentage",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotConsiderLocator",
+    "column" : "doNotConsiderLocator",
+    "ar" : "عدم اعتبارالموقع",
+    "en" : "Do Not Consider Locator",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotConsiderLotId",
+    "column" : "doNotConsiderLotId",
+    "ar" : "عدم اعتبار الشحنة",
+    "en" : "Do Not Consider Lot Id",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotConsiderMeasures",
+    "column" : "doNotConsiderMeasures",
+    "ar" : "عدم اعتبار الابعاد",
+    "en" : "Do Not Consider Measures",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotConsiderRevisionId",
+    "column" : "doNotConsiderRevisionId",
+    "ar" : "عدم اعتبارالإصدار",
+    "en" : "Do Not Consider Revision Id",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotConsiderSerial",
+    "column" : "doNotConsiderSerial",
+    "ar" : "عدم اعتبار الرقم المسلسل",
+    "en" : "Do Not Consider Serial",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotConsiderSize",
+    "column" : "doNotConsiderSize",
+    "ar" : "عدم اعتبار المقاس",
+    "en" : "Do Not Consider Size",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotConsiderSubItem",
+    "column" : "doNotConsiderSubItem",
+    "ar" : "عدم اعتبار الصنف الفرعي",
+    "en" : "Do Not Consider SubItem",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotConsiderWarehouse",
+    "column" : "doNotConsiderWarehouse",
+    "ar" : "عدم اعتبارالمخزن",
+    "en" : "Do Not Consider Warehouse",
+    "type" : "Boolean"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ]
+}

@@ -1,0 +1,3126 @@
+{
+  "entity" : "ScreenModifier",
+  "table" : "ScreenModifier",
+  "module" : "basic",
+  "ar" : "تعديل شاشة",
+  "arPlural" : "تعديل الشاشات",
+  "en" : "Screen Modifier",
+  "enPlural" : "Screen Modifiers",
+  "page" : "https://dm.namasoft.com/modules/basic/ScreenModifier.html",
+  "fields" : [ {
+    "id" : "activate",
+    "column" : "activate",
+    "ar" : " تفعيل",
+    "en" : " Activate",
+    "type" : "Boolean"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "applicableFor",
+    "column" : "applicableFor",
+    "ar" : "مطبق على",
+    "en" : "Applicable For",
+    "type" : "Enum",
+    "enum" : "ScreenModifierApplicability"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "criteriaModifyType",
+    "column" : "criteriaModifyType",
+    "ar" : "نوع التعديل على حقول البحث (المعايير)",
+    "en" : "Effect On Criteria Fields (Criteria)",
+    "type" : "Enum",
+    "enum" : "ViewModificationType"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "defaultSelectorPopupSortType",
+    "column" : "defaultSelectorPopupSortType",
+    "ar" : " نوع الترتيب الافتراضى",
+    "en" : " Default Sort Type",
+    "type" : "Enum",
+    "enum" : "SortType"
+  }, {
+    "id" : "defaultSortType",
+    "column" : "defaultSortType",
+    "ar" : "نوع الترتيب الافتراضى",
+    "en" : "Default Sort Type",
+    "type" : "Enum",
+    "enum" : "SortType"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "displayModifyType",
+    "column" : "displayModifyType",
+    "ar" : "نوع التعديل على الأعمدة الظاهرة",
+    "en" : "Effect on Dispaly Columns",
+    "type" : "Enum",
+    "enum" : "ViewModificationType"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "effectType",
+    "column" : "effectType",
+    "ar" : "نوع التأثير",
+    "en" : "Component Effect Type",
+    "type" : "Enum",
+    "enum" : "ScreenModifierEffect"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "forMobileView",
+    "column" : "forMobileView",
+    "ar" : "تستعمل في الموبايل و الاجهزة اللوحية",
+    "en" : "Use In Mobile and Tablet Devices",
+    "type" : "Boolean"
+  }, {
+    "id" : "forQuickCreatorView",
+    "column" : "forQuickCreatorView",
+    "ar" : "For Quick Creator View",
+    "en" : "For Quick Creator View",
+    "type" : "Boolean"
+  }, {
+    "id" : "forType",
+    "column" : "forType",
+    "ar" : "للنوع",
+    "en" : "For Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "forTypeList",
+    "column" : "forTypeList_id",
+    "ar" : "لقوائم أنواع",
+    "en" : "For Type List",
+    "type" : "Reference",
+    "refTo" : "EntityTypeList",
+    "refPath" : "/modules/basic/EntityTypeList.html"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "implRepo",
+    "column" : "implRepo_id",
+    "ar" : "كتالوج التجهيز",
+    "en" : "Implementation Repository",
+    "type" : "Reference",
+    "refTo" : "ImplementationRepository",
+    "refPath" : "/modules/basic/ImplementationRepository.html"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "layoutId",
+    "column" : "layoutId",
+    "ar" : "معرف الشاشة المنسوخ إليها (اسم ملف العرض)",
+    "en" : "Copy To Layout ID (View name)",
+    "type" : "Text"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "listViewDefaultCriteria",
+    "column" : "listViewDefaultCriteria_id",
+    "ar" : "المعايير الافتراضية للقائمة",
+    "en" : "List View Default Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "listViewWidth",
+    "column" : "listViewWidth",
+    "ar" : "عرض جدول القائمة",
+    "en" : "List View Width",
+    "type" : "Text"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "modifiedLayoutId",
+    "column" : "modifiedLayoutId",
+    "ar" : "معرف الشاشة المعدلة (يمكن تركة فارعاً)",
+    "en" : "Modified Layout Id (can be empty)",
+    "type" : "Text"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "pdfSample",
+    "column" : "pdfSample_id",
+    "ar" : "PDF Sample",
+    "en" : "PDF Sample",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "priority",
+    "column" : "priority",
+    "ar" : "الأولوية",
+    "en" : "Priority",
+    "type" : "Integer"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "relatedEntity1",
+    "column" : "relatedEntity1",
+    "ar" : "السجل المرتبط 1",
+    "en" : "Related Entity1",
+    "type" : "Text"
+  }, {
+    "id" : "relatedEntity2",
+    "column" : "relatedEntity2",
+    "ar" : "السجل المرتبط 2",
+    "en" : "Related Entity2",
+    "type" : "Text"
+  }, {
+    "id" : "relatedToModule1",
+    "column" : "relatedToModule1",
+    "ar" : "الموديول المرتبط 1",
+    "en" : "Related To Module 1",
+    "type" : "Text"
+  }, {
+    "id" : "relatedToModule2",
+    "column" : "relatedToModule2",
+    "ar" : "الموديول المرتبط 2",
+    "en" : "Related To Module 2",
+    "type" : "Text"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "removeDiscussionAtt1",
+    "column" : "removeDiscussionAtt1",
+    "ar" : "إزالة مرفق 1",
+    "en" : "Remove Discussion Attachment 1",
+    "type" : "Boolean"
+  }, {
+    "id" : "removeDiscussionAtt2",
+    "column" : "removeDiscussionAtt2",
+    "ar" : "إزالة مرفق 2",
+    "en" : "Remove Discussion Attachment 2",
+    "type" : "Boolean"
+  }, {
+    "id" : "removeDiscussionAtt3",
+    "column" : "removeDiscussionAtt3",
+    "ar" : "إزالة مرفق 3",
+    "en" : "Remove Discussion Attachment 3",
+    "type" : "Boolean"
+  }, {
+    "id" : "removeDiscussionAtt4",
+    "column" : "removeDiscussionAtt4",
+    "ar" : "إزالة مرفق 4",
+    "en" : "Remove Discussion Attachment 4",
+    "type" : "Boolean"
+  }, {
+    "id" : "removeDiscussionField",
+    "column" : "removeDiscussionField",
+    "ar" : "إزالة حقل النقاش",
+    "en" : "Remove Discussion Field",
+    "type" : "Boolean"
+  }, {
+    "id" : "removeDiscussionRef1",
+    "column" : "removeDiscussionRef1",
+    "ar" : "إزالة مرجع 1",
+    "en" : "Remove Discussion Reference 1",
+    "type" : "Boolean"
+  }, {
+    "id" : "removeDiscussionRef2",
+    "column" : "removeDiscussionRef2",
+    "ar" : "إزالة مرجع 2",
+    "en" : "Remove Discussion Reference 2",
+    "type" : "Boolean"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "saveToImplRepo",
+    "column" : "saveToImplRepo",
+    "ar" : "الحفظ في كتالوج التجهيز",
+    "en" : "Save To Implementation Repository",
+    "type" : "Boolean"
+  }, {
+    "id" : "screenshot",
+    "column" : "screenshot_id",
+    "ar" : "Screenshot",
+    "en" : "Screenshot",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "searchCriteriaModifyType",
+    "column" : "searchCriteriaModifyType",
+    "ar" : " نوع التعديل على حقول البحث (المعايير)",
+    "en" : " Effect On Criteria Fields (Criteria)",
+    "type" : "Enum",
+    "enum" : "ViewModificationType"
+  }, {
+    "id" : "searchDisplayModifyType",
+    "column" : "searchDisplayModifyType",
+    "ar" : " نوع التعديل على الأعمدة الظاهرة",
+    "en" : " Effect on Dispaly Columns",
+    "type" : "Enum",
+    "enum" : "ViewModificationType"
+  }, {
+    "id" : "searchForModifyType",
+    "column" : "searchForModifyType",
+    "ar" : "نوع التعديل على حقول البحث (تستعمل لحقل البحث عن)",
+    "en" : "Effect On Criteria Fields (Used For Search For)",
+    "type" : "Enum",
+    "enum" : "ViewModificationType"
+  }, {
+    "id" : "searchSortModifyType",
+    "column" : "searchSortModifyType",
+    "ar" : " نوع التعديل على حقول الترتيب",
+    "en" : " Effect on Sort Fields",
+    "type" : "Enum",
+    "enum" : "ViewModificationType"
+  }, {
+    "id" : "searchViewDefaultCriteria",
+    "column" : "searchViewDefaultCriteria_id",
+    "ar" : "المعايير الافتراضية للاختيار",
+    "en" : "Search View Default Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "searchViewWidth",
+    "column" : "searchViewWidth",
+    "ar" : "عرض جدول البحث",
+    "en" : "Search View Width",
+    "type" : "Text"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "sortModifyType",
+    "column" : "sortModifyType",
+    "ar" : "نوع التعديل على حقول الترتيب",
+    "en" : "Effect on Sort Fields",
+    "type" : "Enum",
+    "enum" : "ViewModificationType"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "systemReport",
+    "column" : "systemReport",
+    "ar" : "نظامي",
+    "en" : "System",
+    "type" : "Boolean"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "wizardEditScreenXML",
+    "column" : "wizardEditScreenXML",
+    "ar" : "Wizard Edit Screen XML",
+    "en" : "Wizard Edit Screen XML",
+    "type" : "BigText"
+  } ],
+  "details" : [ {
+    "id" : "actionLines",
+    "table" : "ScreenActionLine",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "صلاحيات الإجراءات",
+    "en" : "Action Authorities",
+    "fields" : [ {
+      "id" : "actionLines.arTitle",
+      "column" : "arTitle",
+      "ar" : "العنوان العربى",
+      "en" : "Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "actionLines.bulkEditConfig",
+      "column" : "bulkEditConfig_id",
+      "ar" : "إعدادات تحرير متعدد",
+      "en" : "Bulk Edit Config",
+      "type" : "Reference",
+      "refTo" : "BulkEditConfig",
+      "refPath" : "/modules/basic/BulkEditConfig.html"
+    }, {
+      "id" : "actionLines.enTitle",
+      "column" : "enTitle",
+      "ar" : "العنوان الإنجليزي",
+      "en" : "English Title",
+      "type" : "Text"
+    }, {
+      "id" : "actionLines.entityFlow",
+      "column" : "entityFlow_id",
+      "ar" : "المسار",
+      "en" : "Entity Flow",
+      "type" : "Reference",
+      "refTo" : "EntityFlow",
+      "refPath" : "/modules/basic/EntityFlow.html"
+    }, {
+      "id" : "actionLines.guiPostActions",
+      "column" : "guiPostActions_id",
+      "ar" : "GUI Post Actions",
+      "en" : "GUI Post Actions",
+      "type" : "Reference",
+      "refTo" : "GUIPostActions",
+      "refPath" : "/modules/basic/GUIPostActions.html"
+    }, {
+      "id" : "actionLines.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "actionLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "actionLines.inPage",
+      "column" : "inPage",
+      "ar" : "في الصفحة",
+      "en" : "In Page",
+      "type" : "Text"
+    }, {
+      "id" : "actionLines.launchType",
+      "column" : "launchType",
+      "ar" : "طريقة البدء",
+      "en" : "Launch Type",
+      "type" : "Enum",
+      "enum" : "CustomRepLaunchType"
+    }, {
+      "id" : "actionLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "actionLines.notificationDefinition",
+      "column" : "notificationDefinition_id",
+      "ar" : "تعريف الإشعار",
+      "en" : "Notification Definition",
+      "type" : "Reference",
+      "refTo" : "NotificationDefinition",
+      "refPath" : "/modules/basic/NotificationDefinition.html"
+    }, {
+      "id" : "actionLines.notificationOrder",
+      "column" : "notificationOrder",
+      "ar" : "الترتيب",
+      "en" : "Notification Order",
+      "type" : "Integer"
+    }, {
+      "id" : "actionLines.p1.overrideParamter",
+      "column" : "p1OverrideParamter",
+      "ar" : "1|إخفاء في الاسئلة",
+      "en" : "1|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "actionLines.p1.parameterName",
+      "column" : "p1ParameterName",
+      "ar" : "1|المدخل",
+      "en" : "1|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "actionLines.p1.sourceField",
+      "column" : "p1SourceField",
+      "ar" : "1|المصدر",
+      "en" : "1|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "actionLines.p2.overrideParamter",
+      "column" : "p2OverrideParamter",
+      "ar" : "2|إخفاء في الاسئلة",
+      "en" : "2|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "actionLines.p2.parameterName",
+      "column" : "p2ParameterName",
+      "ar" : "2|المدخل",
+      "en" : "2|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "actionLines.p2.sourceField",
+      "column" : "p2SourceField",
+      "ar" : "2|المصدر",
+      "en" : "2|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "actionLines.p3.overrideParamter",
+      "column" : "p3OverrideParamter",
+      "ar" : "3|إخفاء في الاسئلة",
+      "en" : "3|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "actionLines.p3.parameterName",
+      "column" : "p3ParameterName",
+      "ar" : "3|المدخل",
+      "en" : "3|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "actionLines.p3.sourceField",
+      "column" : "p3SourceField",
+      "ar" : "3|المصدر",
+      "en" : "3|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "actionLines.p4.overrideParamter",
+      "column" : "p4OverrideParamter",
+      "ar" : "4|إخفاء في الاسئلة",
+      "en" : "4|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "actionLines.p4.parameterName",
+      "column" : "p4ParameterName",
+      "ar" : "4|المدخل",
+      "en" : "4|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "actionLines.p4.sourceField",
+      "column" : "p4SourceField",
+      "ar" : "4|المصدر",
+      "en" : "4|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "actionLines.p5.overrideParamter",
+      "column" : "p5OverrideParamter",
+      "ar" : "5|إخفاء في الاسئلة",
+      "en" : "5|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "actionLines.p5.parameterName",
+      "column" : "p5ParameterName",
+      "ar" : "5|المدخل",
+      "en" : "5|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "actionLines.p5.sourceField",
+      "column" : "p5SourceField",
+      "ar" : "5|المصدر",
+      "en" : "5|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "actionLines.p6.overrideParamter",
+      "column" : "p6OverrideParamter",
+      "ar" : "6|إخفاء في الاسئلة",
+      "en" : "6|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "actionLines.p6.parameterName",
+      "column" : "p6ParameterName",
+      "ar" : "6|المدخل",
+      "en" : "6|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "actionLines.p6.sourceField",
+      "column" : "p6SourceField",
+      "ar" : "6|المصدر",
+      "en" : "6|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "actionLines.p7.overrideParamter",
+      "column" : "p7OverrideParamter",
+      "ar" : "7|إخفاء في الاسئلة",
+      "en" : "7|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "actionLines.p7.parameterName",
+      "column" : "p7ParameterName",
+      "ar" : "7|المدخل",
+      "en" : "7|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "actionLines.p7.sourceField",
+      "column" : "p7SourceField",
+      "ar" : "7|المصدر",
+      "en" : "7|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "actionLines.p8.overrideParamter",
+      "column" : "p8OverrideParamter",
+      "ar" : "8|إخفاء في الاسئلة",
+      "en" : "8|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "actionLines.p8.parameterName",
+      "column" : "p8ParameterName",
+      "ar" : "8|المدخل",
+      "en" : "8|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "actionLines.p8.sourceField",
+      "column" : "p8SourceField",
+      "ar" : "8|المصدر",
+      "en" : "8|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "actionLines.p9.overrideParamter",
+      "column" : "p9OverrideParamter",
+      "ar" : "9|إخفاء في الاسئلة",
+      "en" : "9|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "actionLines.p9.parameterName",
+      "column" : "p9ParameterName",
+      "ar" : "9|المدخل",
+      "en" : "9|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "actionLines.p9.sourceField",
+      "column" : "p9SourceField",
+      "ar" : "9|المصدر",
+      "en" : "9|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "actionLines.query",
+      "column" : "query",
+      "ar" : "الاستعلام",
+      "en" : "Query",
+      "type" : "BigText"
+    }, {
+      "id" : "actionLines.reportDefinition",
+      "column" : "reportDefinition_id",
+      "ar" : "تعريف التقرير",
+      "en" : "Report Definition",
+      "type" : "Reference",
+      "refTo" : "ReportDefinition",
+      "refPath" : "/modules/basic/ReportDefinition.html"
+    }, {
+      "id" : "actionLines.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    }, {
+      "id" : "actionLines.runCustomActionOn",
+      "column" : "runCustomActionOn",
+      "ar" : "تشغيل الإجراء علي",
+      "en" : "Run Custom Action On",
+      "type" : "FieldID"
+    }, {
+      "id" : "actionLines.securityId",
+      "column" : "securityId",
+      "ar" : "Security Id",
+      "en" : "Security Id",
+      "type" : "Text"
+    }, {
+      "id" : "actionLines.showButtonInEditScreen",
+      "column" : "showButtonInEditScreen",
+      "ar" : "عرض زر في شاشة التحرير",
+      "en" : "Show Button In Edit Screen",
+      "type" : "Boolean"
+    }, {
+      "id" : "actionLines.showButtonInEditScreenToolbar",
+      "column" : "showButtonInEditScreenToolbar",
+      "ar" : "عرض في شريط الأدوات لشاشة التحرير",
+      "en" : "Show In Edit Screen Toolbar",
+      "type" : "Boolean"
+    }, {
+      "id" : "actionLines.showButtonInListScreenToolbar",
+      "column" : "showButtonInListScreenToolbar",
+      "ar" : "عرض في شريط الأدوات لشاشة القائمة",
+      "en" : "Show In List Screen Toolbar",
+      "type" : "Boolean"
+    }, {
+      "id" : "actionLines.showInListViewActionsColumn",
+      "column" : "showInListViewActionsColumn",
+      "ar" : "الإظهار في عمود الإجراءات بعرض القائمة",
+      "en" : "Show In List View Actions Column",
+      "type" : "Boolean"
+    }, {
+      "id" : "actionLines.showInMoreMenuEditScreen",
+      "column" : "showInMoreMenuEditScreen",
+      "ar" : "عرض في قائمة المزيد لشاشة التحرير",
+      "en" : "Show In More Menu For Edit Screen",
+      "type" : "Boolean"
+    }, {
+      "id" : "actionLines.showInMoreMenuListScreen",
+      "column" : "showInMoreMenuListScreen",
+      "ar" : "عرض في قائمة المزيد لشاشة القائمة",
+      "en" : "Show In More Menu For List Screen",
+      "type" : "Boolean"
+    }, {
+      "id" : "actionLines.systemActionId",
+      "column" : "systemActionId",
+      "ar" : "معرف الإجراء النظامي",
+      "en" : "System Action ID",
+      "type" : "FieldID"
+    }, {
+      "id" : "actionLines.urlTemplate",
+      "column" : "urlTemplate",
+      "ar" : "قالب الوصلة",
+      "en" : "URL Template",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "addedGrids",
+    "table" : "ScreenGridAdder",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "إضافة مجموعة سطور",
+    "en" : "Add Grids",
+    "fields" : [ {
+      "id" : "addedGrids.arabic",
+      "column" : "arabic",
+      "ar" : "عنوان عربي",
+      "en" : "Arabic",
+      "type" : "Text"
+    }, {
+      "id" : "addedGrids.english",
+      "column" : "english",
+      "ar" : "عنوان إنجليزي",
+      "en" : "English",
+      "type" : "Text"
+    }, {
+      "id" : "addedGrids.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "addedGrids.fieldOrder",
+      "column" : "fieldOrder",
+      "ar" : "ترتيب الحقل",
+      "en" : "Field Order",
+      "type" : "Integer"
+    }, {
+      "id" : "addedGrids.gridOrder",
+      "column" : "gridOrder",
+      "ar" : "ترتيب مجموعة السطور",
+      "en" : "Grid Order",
+      "type" : "Integer"
+    }, {
+      "id" : "addedGrids.groupTitle",
+      "column" : "groupTitle",
+      "ar" : "المعرف",
+      "en" : "Id",
+      "type" : "Text"
+    }, {
+      "id" : "addedGrids.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "addedGrids.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "addedGrids.inPage",
+      "column" : "inPage",
+      "ar" : "في الصفحة",
+      "en" : "In Page",
+      "type" : "Text"
+    }, {
+      "id" : "addedGrids.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "addedGrids.relativeTo",
+      "column" : "relativeTo",
+      "ar" : "بلنسبة لــ",
+      "en" : "Relative To",
+      "type" : "FieldID"
+    }, {
+      "id" : "addedGrids.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    }, {
+      "id" : "addedGrids.visibilty",
+      "column" : "visibilty",
+      "ar" : "اظهار",
+      "en" : "visibilty",
+      "type" : "Enum",
+      "enum" : "GridFieldVisibilty"
+    }, {
+      "id" : "addedGrids.width",
+      "column" : "width",
+      "ar" : " العرض",
+      "en" : " Width",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "addedGroups",
+    "table" : "ScreenGroupAdder",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "إضافة مجموعة",
+    "en" : "Add Groups",
+    "fields" : [ {
+      "id" : "addedGroups.arabic",
+      "column" : "arabic",
+      "ar" : "عنوان عربي",
+      "en" : "Arabic",
+      "type" : "Text"
+    }, {
+      "id" : "addedGroups.english",
+      "column" : "english",
+      "ar" : "عنوان إنجليزي",
+      "en" : "English",
+      "type" : "Text"
+    }, {
+      "id" : "addedGroups.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "addedGroups.fieldLayout",
+      "column" : "fieldLayout",
+      "ar" : "طريقة العرض",
+      "en" : "Field Layout",
+      "type" : "Enum",
+      "enum" : "FieldLayoutType"
+    }, {
+      "id" : "addedGroups.fieldOrder",
+      "column" : "fieldOrder",
+      "ar" : "ترتيب الحقل",
+      "en" : "Field Order",
+      "type" : "Integer"
+    }, {
+      "id" : "addedGroups.groupOrder",
+      "column" : "groupOrder",
+      "ar" : "ترتيب المجموعة",
+      "en" : "Group Order",
+      "type" : "Integer"
+    }, {
+      "id" : "addedGroups.groupTitle",
+      "column" : "groupTitle",
+      "ar" : "المعرف",
+      "en" : "Id",
+      "type" : "Text"
+    }, {
+      "id" : "addedGroups.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "addedGroups.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "addedGroups.inPage",
+      "column" : "inPage",
+      "ar" : "في الصفحة",
+      "en" : "In Page",
+      "type" : "Text"
+    }, {
+      "id" : "addedGroups.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "addedGroups.relativeTo",
+      "column" : "relativeTo",
+      "ar" : "بلنسبة لــ",
+      "en" : "Relative To",
+      "type" : "FieldID"
+    }, {
+      "id" : "addedGroups.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "compositeLines",
+    "table" : "CompositeFieldLine",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "المعادلات",
+    "en" : "Formulas",
+    "fields" : [ {
+      "id" : "compositeLines.arabic",
+      "column" : "arabic",
+      "ar" : "عنوان عربي",
+      "en" : "Arabic",
+      "type" : "Text"
+    }, {
+      "id" : "compositeLines.eighthField.field",
+      "column" : "eighthFieldField",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "compositeLines.eighthField.percentage",
+      "column" : "eighthFieldPercentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.eighthField.titlePercentage",
+      "column" : "eighthFieldTitlePercentage",
+      "ar" : "نسبة العنوان",
+      "en" : "Title Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.english",
+      "column" : "english",
+      "ar" : "عنوان إنجليزي",
+      "en" : "English",
+      "type" : "Text"
+    }, {
+      "id" : "compositeLines.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "compositeLines.fieldLayout",
+      "column" : "fieldLayout",
+      "ar" : "طريقة العرض",
+      "en" : "Field Layout",
+      "type" : "Enum",
+      "enum" : "FieldLayoutType"
+    }, {
+      "id" : "compositeLines.fieldOrder",
+      "column" : "fieldOrder",
+      "ar" : "ترتيب الحقل",
+      "en" : "Field Order",
+      "type" : "Integer"
+    }, {
+      "id" : "compositeLines.fifthField.field",
+      "column" : "fifthFieldField",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "compositeLines.fifthField.percentage",
+      "column" : "fifthFieldPercentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.fifthField.titlePercentage",
+      "column" : "fifthFieldTitlePercentage",
+      "ar" : "نسبة العنوان",
+      "en" : "Title Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.firstField.field",
+      "column" : "firstFieldField",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "compositeLines.firstField.percentage",
+      "column" : "firstFieldPercentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.firstField.titlePercentage",
+      "column" : "firstFieldTitlePercentage",
+      "ar" : "نسبة العنوان",
+      "en" : "Title Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.fourthField.field",
+      "column" : "fourthFieldField",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "compositeLines.fourthField.percentage",
+      "column" : "fourthFieldPercentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.fourthField.titlePercentage",
+      "column" : "fourthFieldTitlePercentage",
+      "ar" : "نسبة العنوان",
+      "en" : "Title Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.groupOrder",
+      "column" : "groupOrder",
+      "ar" : "ترتيب المجموعة",
+      "en" : "Group Order",
+      "type" : "Integer"
+    }, {
+      "id" : "compositeLines.groupTitle",
+      "column" : "groupTitle",
+      "ar" : "المعرف",
+      "en" : "Id",
+      "type" : "Text"
+    }, {
+      "id" : "compositeLines.hasTitle",
+      "column" : "hasTitle",
+      "ar" : "إظهار العنوان بجوار الحقول",
+      "en" : "Show Titles",
+      "type" : "Boolean"
+    }, {
+      "id" : "compositeLines.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "compositeLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "compositeLines.inPage",
+      "column" : "inPage",
+      "ar" : "في الصفحة",
+      "en" : "In Page",
+      "type" : "Text"
+    }, {
+      "id" : "compositeLines.labelAfterWidget",
+      "column" : "labelAfterWidget",
+      "ar" : "العنوان بعد الحقل",
+      "en" : "Put Label After Widget",
+      "type" : "Boolean"
+    }, {
+      "id" : "compositeLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "compositeLines.ninthField.field",
+      "column" : "ninthFieldField",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "compositeLines.ninthField.percentage",
+      "column" : "ninthFieldPercentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.ninthField.titlePercentage",
+      "column" : "ninthFieldTitlePercentage",
+      "ar" : "نسبة العنوان",
+      "en" : "Title Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.relativeTo",
+      "column" : "relativeTo",
+      "ar" : "بلنسبة لــ",
+      "en" : "Relative To",
+      "type" : "FieldID"
+    }, {
+      "id" : "compositeLines.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    }, {
+      "id" : "compositeLines.secondField.field",
+      "column" : "secondFieldField",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "compositeLines.secondField.percentage",
+      "column" : "secondFieldPercentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.secondField.titlePercentage",
+      "column" : "secondFieldTitlePercentage",
+      "ar" : "نسبة العنوان",
+      "en" : "Title Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.seventhField.field",
+      "column" : "seventhFieldField",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "compositeLines.seventhField.percentage",
+      "column" : "seventhFieldPercentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.seventhField.titlePercentage",
+      "column" : "seventhFieldTitlePercentage",
+      "ar" : "نسبة العنوان",
+      "en" : "Title Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.sixthField.field",
+      "column" : "sixthFieldField",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "compositeLines.sixthField.percentage",
+      "column" : "sixthFieldPercentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.sixthField.titlePercentage",
+      "column" : "sixthFieldTitlePercentage",
+      "ar" : "نسبة العنوان",
+      "en" : "Title Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.tenthField.field",
+      "column" : "tenthFieldField",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "compositeLines.tenthField.percentage",
+      "column" : "tenthFieldPercentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.tenthField.titlePercentage",
+      "column" : "tenthFieldTitlePercentage",
+      "ar" : "نسبة العنوان",
+      "en" : "Title Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.thirdField.field",
+      "column" : "thirdFieldField",
+      "ar" : "الحقل",
+      "en" : "Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "compositeLines.thirdField.percentage",
+      "column" : "thirdFieldPercentage",
+      "ar" : "النسبة",
+      "en" : "Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "compositeLines.thirdField.titlePercentage",
+      "column" : "thirdFieldTitlePercentage",
+      "ar" : "نسبة العنوان",
+      "en" : "Title Percentage",
+      "type" : "Decimal"
+    } ]
+  }, {
+    "id" : "criteriaFields",
+    "table" : "CriteriaFieldModifier",
+    "joinColumn" : "screenModifier_id",
+    "fields" : [ {
+      "id" : "criteriaFields.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "criteriaFields.hidden",
+      "column" : "hidden",
+      "ar" : "إخفاء",
+      "en" : "Hidden",
+      "type" : "Boolean"
+    }, {
+      "id" : "criteriaFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "criteriaFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "displayColumns",
+    "table" : "DisplayColumnModifier",
+    "joinColumn" : "screenModifier_id",
+    "fields" : [ {
+      "id" : "displayColumns.arabic",
+      "column" : "arabic",
+      "ar" : "عنوان عربي",
+      "en" : "Arabic",
+      "type" : "Text"
+    }, {
+      "id" : "displayColumns.english",
+      "column" : "english",
+      "ar" : "عنوان إنجليزي",
+      "en" : "English",
+      "type" : "Text"
+    }, {
+      "id" : "displayColumns.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "displayColumns.fieldOrder",
+      "column" : "fieldOrder",
+      "ar" : "ترتيب الحقل",
+      "en" : "Field Order",
+      "type" : "Integer"
+    }, {
+      "id" : "displayColumns.hidden",
+      "column" : "hidden",
+      "ar" : "إخفاء",
+      "en" : "Hidden",
+      "type" : "Boolean"
+    }, {
+      "id" : "displayColumns.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "displayColumns.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "displayColumns.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "displayColumns.relativeTo",
+      "column" : "relativeTo",
+      "ar" : "بلنسبة لــ",
+      "en" : "Relative To",
+      "type" : "FieldID"
+    }, {
+      "id" : "displayColumns.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    }, {
+      "id" : "displayColumns.width",
+      "column" : "width",
+      "ar" : " العرض",
+      "en" : " Width",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "embeddedEditLines",
+    "table" : "ScreenLayoutEmbeddedEditLine",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "تعديل السجلات المدمج",
+    "en" : "Embedded Records Editor",
+    "fields" : [ {
+      "id" : "embeddedEditLines.allowWhenContainerRecordIsSaved",
+      "column" : "allowWhenContainerRecordIsSaved",
+      "ar" : "السماح بالتعديل داخل السجلات المحفوظة فقط",
+      "en" : "Allow When Container Record Is Saved",
+      "type" : "Boolean"
+    }, {
+      "id" : "embeddedEditLines.arabic",
+      "column" : "arabic",
+      "ar" : "عنوان عربي",
+      "en" : "Arabic",
+      "type" : "Text"
+    }, {
+      "id" : "embeddedEditLines.blockOrder",
+      "column" : "blockOrder",
+      "ar" : "الترتيب",
+      "en" : "Order",
+      "type" : "Integer"
+    }, {
+      "id" : "embeddedEditLines.defaultValuesTemplate",
+      "column" : "defaultValuesTemplate_id",
+      "ar" : "قالب قيم افتراضية",
+      "en" : "Default Values Template",
+      "type" : "Reference",
+      "refTo" : "DefaultValuesTemplate",
+      "refPath" : "/modules/basic/DefaultValuesTemplate.html"
+    }, {
+      "id" : "embeddedEditLines.editedObjectField",
+      "column" : "editedObjectField",
+      "ar" : "حقل السجل المراد تعديله",
+      "en" : "Edited Object Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "embeddedEditLines.editedObjectSourceType",
+      "column" : "editedObjectSourceType",
+      "ar" : "نوع مصدر السجل المعدل",
+      "en" : "Edited Object Source Type",
+      "type" : "Enum",
+      "enum" : "EditedObjectSourceTypeEnum"
+    }, {
+      "id" : "embeddedEditLines.english",
+      "column" : "english",
+      "ar" : "عنوان إنجليزي",
+      "en" : "English",
+      "type" : "Text"
+    }, {
+      "id" : "embeddedEditLines.entityType",
+      "column" : "entityType",
+      "ar" : "النوع",
+      "en" : "Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "embeddedEditLines.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "embeddedEditLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "embeddedEditLines.inPage",
+      "column" : "inPage",
+      "ar" : "في الصفحة",
+      "en" : "In Page",
+      "type" : "Text"
+    }, {
+      "id" : "embeddedEditLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "embeddedEditLines.objectInitializationFieldMap",
+      "column" : "objectInitializationFieldMap",
+      "ar" : "Object Initialization Field Map",
+      "en" : "Object Initialization Field Map",
+      "type" : "BigText"
+    }, {
+      "id" : "embeddedEditLines.relativeTo",
+      "column" : "relativeTo",
+      "ar" : "بلنسبة لــ",
+      "en" : "Relative To",
+      "type" : "FieldID"
+    }, {
+      "id" : "embeddedEditLines.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    }, {
+      "id" : "embeddedEditLines.size",
+      "column" : "size",
+      "ar" : "المقاس",
+      "en" : "Size",
+      "type" : "Enum",
+      "enum" : "GridSizeEnum"
+    }, {
+      "id" : "embeddedEditLines.viewName",
+      "column" : "viewName",
+      "ar" : "معرف الشاشة (اسم ملف العرض)",
+      "en" : "Layout ID (View name)",
+      "type" : "Text"
+    }, {
+      "id" : "embeddedEditLines.viewOnly",
+      "column" : "viewOnly",
+      "ar" : "للإطلاع فقط",
+      "en" : "View Only",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "fillFieldsFromColumn",
+    "table" : "ScreenFillFields",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "ملء حقول من عمود",
+    "en" : "Fill Fields From Column",
+    "fields" : [ {
+      "id" : "fillFieldsFromColumn.copyToField",
+      "column" : "copyToField",
+      "ar" : "الحقل الذي سيتم نسخ العمود إليه",
+      "en" : "Field That Column Will Be Copy To",
+      "type" : "FieldID"
+    }, {
+      "id" : "fillFieldsFromColumn.fieldID",
+      "column" : "fieldID",
+      "ar" : "العمود",
+      "en" : "Column",
+      "type" : "FieldID"
+    }, {
+      "id" : "fillFieldsFromColumn.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "fillFieldsFromColumn.forTypeList",
+      "column" : "forTypeList_id",
+      "ar" : "لقوائم أنواع",
+      "en" : "For Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "fillFieldsFromColumn.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "fillFieldsFromColumn.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "fillFieldsFromColumn.searchField",
+      "column" : "searchField",
+      "ar" : "الحقل الذي يتم البحث فيه",
+      "en" : "Field That Will Be Searched In",
+      "type" : "FieldID"
+    } ]
+  }, {
+    "id" : "modifiedGrids",
+    "table" : "ScreenGridModifier",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "تعديل حقول السطور",
+    "en" : "Modified Grid Fields",
+    "fields" : [ {
+      "id" : "modifiedGrids.arabic",
+      "column" : "arabic",
+      "ar" : "عنوان عربي",
+      "en" : "Arabic",
+      "type" : "Text"
+    }, {
+      "id" : "modifiedGrids.english",
+      "column" : "english",
+      "ar" : "عنوان إنجليزي",
+      "en" : "English",
+      "type" : "Text"
+    }, {
+      "id" : "modifiedGrids.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "modifiedGrids.fieldOrder",
+      "column" : "fieldOrder",
+      "ar" : "ترتيب الحقل",
+      "en" : "Field Order",
+      "type" : "Integer"
+    }, {
+      "id" : "modifiedGrids.groupTitle",
+      "column" : "groupTitle",
+      "ar" : "المعرف",
+      "en" : "Id",
+      "type" : "Text"
+    }, {
+      "id" : "modifiedGrids.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "modifiedGrids.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "modifiedGrids.inPage",
+      "column" : "inPage",
+      "ar" : "في الصفحة",
+      "en" : "In Page",
+      "type" : "Text"
+    }, {
+      "id" : "modifiedGrids.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "modifiedGrids.relativeTo",
+      "column" : "relativeTo",
+      "ar" : "بلنسبة لــ",
+      "en" : "Relative To",
+      "type" : "FieldID"
+    }, {
+      "id" : "modifiedGrids.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    }, {
+      "id" : "modifiedGrids.showOnlyInLang",
+      "column" : "showOnlyInLang",
+      "ar" : "عرض فقط مع اللغة",
+      "en" : "Show Only In Language",
+      "type" : "Enum",
+      "enum" : "LanguageEnum"
+    }, {
+      "id" : "modifiedGrids.visibilty",
+      "column" : "visibilty",
+      "ar" : "اظهار",
+      "en" : "visibilty",
+      "type" : "Enum",
+      "enum" : "GridFieldVisibilty"
+    }, {
+      "id" : "modifiedGrids.width",
+      "column" : "width",
+      "ar" : "العرض",
+      "en" : "Width",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "modifiedGroups",
+    "table" : "ScreenGroupModifier",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "تعديل حقول المجموعات",
+    "en" : "Modified Group Fields",
+    "fields" : [ {
+      "id" : "modifiedGroups.arabic",
+      "column" : "arabic",
+      "ar" : "عنوان عربي",
+      "en" : "Arabic",
+      "type" : "Text"
+    }, {
+      "id" : "modifiedGroups.english",
+      "column" : "english",
+      "ar" : "عنوان إنجليزي",
+      "en" : "English",
+      "type" : "Text"
+    }, {
+      "id" : "modifiedGroups.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "modifiedGroups.fieldLayout",
+      "column" : "fieldLayout",
+      "ar" : "طريقة العرض",
+      "en" : "Field Layout",
+      "type" : "Enum",
+      "enum" : "FieldLayoutType"
+    }, {
+      "id" : "modifiedGroups.fieldOrder",
+      "column" : "fieldOrder",
+      "ar" : "ترتيب الحقل",
+      "en" : "Field Order",
+      "type" : "Integer"
+    }, {
+      "id" : "modifiedGroups.groupOrder",
+      "column" : "groupOrder",
+      "ar" : "ترتيب المجموعة",
+      "en" : "Group Order",
+      "type" : "Integer"
+    }, {
+      "id" : "modifiedGroups.groupTitle",
+      "column" : "groupTitle",
+      "ar" : "عنوان المجموعة",
+      "en" : "Group Title",
+      "type" : "Text"
+    }, {
+      "id" : "modifiedGroups.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "modifiedGroups.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "modifiedGroups.inPage",
+      "column" : "inPage",
+      "ar" : "في الصفحة",
+      "en" : "In Page",
+      "type" : "Text"
+    }, {
+      "id" : "modifiedGroups.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "modifiedGroups.relativeTo",
+      "column" : "relativeTo",
+      "ar" : "بلنسبة لــ",
+      "en" : "Relative To",
+      "type" : "FieldID"
+    }, {
+      "id" : "modifiedGroups.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "pageBlocks",
+    "table" : "ScreenBlockModifier",
+    "joinColumn" : "screenModifier_id",
+    "fields" : [ {
+      "id" : "pageBlocks.arTitle",
+      "column" : "arTitle",
+      "ar" : "العنوان العربى",
+      "en" : "Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "pageBlocks.effectType",
+      "column" : "effectType",
+      "ar" : "نوع التأثير",
+      "en" : "Component Effect Type",
+      "type" : "Enum",
+      "enum" : "ScreenBlockModifierEffect"
+    }, {
+      "id" : "pageBlocks.enTitle",
+      "column" : "enTitle",
+      "ar" : "العنوان الإنجليزي",
+      "en" : "English Title",
+      "type" : "Text"
+    }, {
+      "id" : "pageBlocks.fromBlock",
+      "column" : "fromBlock",
+      "ar" : "ترتيب / عنوان البلوك",
+      "en" : "Block title/Order",
+      "type" : "Text"
+    }, {
+      "id" : "pageBlocks.fromPage",
+      "column" : "fromPage",
+      "ar" : "من صفحة",
+      "en" : "From Page",
+      "type" : "Text"
+    }, {
+      "id" : "pageBlocks.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "pageBlocks.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "pageBlocks.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "pageBlocks.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    }, {
+      "id" : "pageBlocks.size",
+      "column" : "size",
+      "ar" : "المقاس",
+      "en" : "Size",
+      "type" : "Enum",
+      "enum" : "GridSizeEnum"
+    }, {
+      "id" : "pageBlocks.toBlockOrder",
+      "column" : "toBlockOrder",
+      "ar" : "ترتيب  البلوك",
+      "en" : "Block Order",
+      "type" : "Integer"
+    }, {
+      "id" : "pageBlocks.toPage",
+      "column" : "toPage",
+      "ar" : "الى صفحة",
+      "en" : "To Page",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "pageDashBoards",
+    "table" : "PageDashBoardLine",
+    "joinColumn" : "screenModifier_id",
+    "fields" : [ {
+      "id" : "pageDashBoards.arTitle",
+      "column" : "arTitle",
+      "ar" : "العنوان العربى",
+      "en" : "Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "pageDashBoards.dashBoard",
+      "column" : "dashBoard_id",
+      "ar" : "اللوحة",
+      "en" : "DashBoard",
+      "type" : "Reference",
+      "refTo" : "DashBoard",
+      "refPath" : "/modules/basic/DashBoard.html"
+    }, {
+      "id" : "pageDashBoards.dashboardOrder",
+      "column" : "dashboardOrder",
+      "ar" : "ترتيب اللوحة",
+      "en" : "Dashboard Order",
+      "type" : "Integer"
+    }, {
+      "id" : "pageDashBoards.enTitle",
+      "column" : "enTitle",
+      "ar" : "العنوان الإنجليزي",
+      "en" : "English Title",
+      "type" : "Text"
+    }, {
+      "id" : "pageDashBoards.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "pageDashBoards.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "pageDashBoards.inPage",
+      "column" : "inPage",
+      "ar" : "في الصفحة",
+      "en" : "In Page",
+      "type" : "Text"
+    }, {
+      "id" : "pageDashBoards.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "pageDashBoards.openByDefault",
+      "column" : "openByDefault",
+      "ar" : "مفتوح افتراضيًا",
+      "en" : "Open By Default",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageDashBoards.p1.overrideParamter",
+      "column" : "p1OverrideParamter",
+      "ar" : "1|إخفاء في الاسئلة",
+      "en" : "1|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageDashBoards.p1.parameterName",
+      "column" : "p1ParameterName",
+      "ar" : "1|المدخل",
+      "en" : "1|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageDashBoards.p1.sourceField",
+      "column" : "p1SourceField",
+      "ar" : "1|المصدر",
+      "en" : "1|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageDashBoards.p2.overrideParamter",
+      "column" : "p2OverrideParamter",
+      "ar" : "2|إخفاء في الاسئلة",
+      "en" : "2|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageDashBoards.p2.parameterName",
+      "column" : "p2ParameterName",
+      "ar" : "2|المدخل",
+      "en" : "2|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageDashBoards.p2.sourceField",
+      "column" : "p2SourceField",
+      "ar" : "2|المصدر",
+      "en" : "2|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageDashBoards.p3.overrideParamter",
+      "column" : "p3OverrideParamter",
+      "ar" : "3|إخفاء في الاسئلة",
+      "en" : "3|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageDashBoards.p3.parameterName",
+      "column" : "p3ParameterName",
+      "ar" : "3|المدخل",
+      "en" : "3|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageDashBoards.p3.sourceField",
+      "column" : "p3SourceField",
+      "ar" : "3|المصدر",
+      "en" : "3|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageDashBoards.p4.overrideParamter",
+      "column" : "p4OverrideParamter",
+      "ar" : "4|إخفاء في الاسئلة",
+      "en" : "4|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageDashBoards.p4.parameterName",
+      "column" : "p4ParameterName",
+      "ar" : "4|المدخل",
+      "en" : "4|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageDashBoards.p4.sourceField",
+      "column" : "p4SourceField",
+      "ar" : "4|المصدر",
+      "en" : "4|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageDashBoards.p5.overrideParamter",
+      "column" : "p5OverrideParamter",
+      "ar" : "5|إخفاء في الاسئلة",
+      "en" : "5|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageDashBoards.p5.parameterName",
+      "column" : "p5ParameterName",
+      "ar" : "5|المدخل",
+      "en" : "5|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageDashBoards.p5.sourceField",
+      "column" : "p5SourceField",
+      "ar" : "5|المصدر",
+      "en" : "5|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageDashBoards.p6.overrideParamter",
+      "column" : "p6OverrideParamter",
+      "ar" : "6|إخفاء في الاسئلة",
+      "en" : "6|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageDashBoards.p6.parameterName",
+      "column" : "p6ParameterName",
+      "ar" : "6|المدخل",
+      "en" : "6|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageDashBoards.p6.sourceField",
+      "column" : "p6SourceField",
+      "ar" : "6|المصدر",
+      "en" : "6|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageDashBoards.p7.overrideParamter",
+      "column" : "p7OverrideParamter",
+      "ar" : "7|إخفاء في الاسئلة",
+      "en" : "7|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageDashBoards.p7.parameterName",
+      "column" : "p7ParameterName",
+      "ar" : "7|المدخل",
+      "en" : "7|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageDashBoards.p7.sourceField",
+      "column" : "p7SourceField",
+      "ar" : "7|المصدر",
+      "en" : "7|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageDashBoards.p8.overrideParamter",
+      "column" : "p8OverrideParamter",
+      "ar" : "8|إخفاء في الاسئلة",
+      "en" : "8|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageDashBoards.p8.parameterName",
+      "column" : "p8ParameterName",
+      "ar" : "8|المدخل",
+      "en" : "8|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageDashBoards.p8.sourceField",
+      "column" : "p8SourceField",
+      "ar" : "8|المصدر",
+      "en" : "8|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageDashBoards.p9.overrideParamter",
+      "column" : "p9OverrideParamter",
+      "ar" : "9|إخفاء في الاسئلة",
+      "en" : "9|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageDashBoards.p9.parameterName",
+      "column" : "p9ParameterName",
+      "ar" : "9|المدخل",
+      "en" : "9|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageDashBoards.p9.sourceField",
+      "column" : "p9SourceField",
+      "ar" : "9|المصدر",
+      "en" : "9|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageDashBoards.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    }, {
+      "id" : "pageDashBoards.size",
+      "column" : "size",
+      "ar" : "المقاس",
+      "en" : "Size",
+      "type" : "Enum",
+      "enum" : "GridSizeEnum"
+    } ]
+  }, {
+    "id" : "pageLines",
+    "table" : "AddPageLine",
+    "joinColumn" : "screenModifier_id",
+    "fields" : [ {
+      "id" : "pageLines.addBasicInfo",
+      "column" : "addBasicInfo",
+      "ar" : "إضافة المعلومات الاساسية",
+      "en" : "Add basic information",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageLines.arabicTitle",
+      "column" : "arabicTitle",
+      "ar" : "العنوان بالعربية",
+      "en" : "Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "pageLines.englishTitle",
+      "column" : "englishTitle",
+      "ar" : "العنوان بالإنجليزية",
+      "en" : "English Title",
+      "type" : "Text"
+    }, {
+      "id" : "pageLines.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "pageLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "pageLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "pageLines.pageOrder",
+      "column" : "pageOrder",
+      "ar" : "ترتيب الصفحات",
+      "en" : "Page order",
+      "type" : "Integer"
+    }, {
+      "id" : "pageLines.reseource",
+      "column" : "reseource",
+      "ar" : "معرف العنوان",
+      "en" : "Resource",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "pageReports",
+    "table" : "PageReportLine",
+    "joinColumn" : "screenModifier_id",
+    "fields" : [ {
+      "id" : "pageReports.arTitle",
+      "column" : "arTitle",
+      "ar" : "العنوان العربى",
+      "en" : "Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "pageReports.definition",
+      "column" : "definition_id",
+      "ar" : "تعريف التقرير",
+      "en" : "Report Definition",
+      "type" : "Reference",
+      "refTo" : "ReportDefinition",
+      "refPath" : "/modules/basic/ReportDefinition.html"
+    }, {
+      "id" : "pageReports.enTitle",
+      "column" : "enTitle",
+      "ar" : "العنوان الإنجليزي",
+      "en" : "English Title",
+      "type" : "Text"
+    }, {
+      "id" : "pageReports.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "pageReports.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "pageReports.inPage",
+      "column" : "inPage",
+      "ar" : "في الصفحة",
+      "en" : "In Page",
+      "type" : "Text"
+    }, {
+      "id" : "pageReports.launchType",
+      "column" : "launchType",
+      "ar" : "طريقة البدء",
+      "en" : "Launch Type",
+      "type" : "Enum",
+      "enum" : "RepLaunchType"
+    }, {
+      "id" : "pageReports.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "pageReports.p1.overrideParamter",
+      "column" : "p1OverrideParamter",
+      "ar" : "1|إخفاء في الاسئلة",
+      "en" : "1|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageReports.p1.parameterName",
+      "column" : "p1ParameterName",
+      "ar" : "1|المدخل",
+      "en" : "1|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageReports.p1.sourceField",
+      "column" : "p1SourceField",
+      "ar" : "1|المصدر",
+      "en" : "1|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageReports.p2.overrideParamter",
+      "column" : "p2OverrideParamter",
+      "ar" : "2|إخفاء في الاسئلة",
+      "en" : "2|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageReports.p2.parameterName",
+      "column" : "p2ParameterName",
+      "ar" : "2|المدخل",
+      "en" : "2|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageReports.p2.sourceField",
+      "column" : "p2SourceField",
+      "ar" : "2|المصدر",
+      "en" : "2|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageReports.p3.overrideParamter",
+      "column" : "p3OverrideParamter",
+      "ar" : "3|إخفاء في الاسئلة",
+      "en" : "3|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageReports.p3.parameterName",
+      "column" : "p3ParameterName",
+      "ar" : "3|المدخل",
+      "en" : "3|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageReports.p3.sourceField",
+      "column" : "p3SourceField",
+      "ar" : "3|المصدر",
+      "en" : "3|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageReports.p4.overrideParamter",
+      "column" : "p4OverrideParamter",
+      "ar" : "4|إخفاء في الاسئلة",
+      "en" : "4|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageReports.p4.parameterName",
+      "column" : "p4ParameterName",
+      "ar" : "4|المدخل",
+      "en" : "4|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageReports.p4.sourceField",
+      "column" : "p4SourceField",
+      "ar" : "4|المصدر",
+      "en" : "4|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageReports.p5.overrideParamter",
+      "column" : "p5OverrideParamter",
+      "ar" : "5|إخفاء في الاسئلة",
+      "en" : "5|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageReports.p5.parameterName",
+      "column" : "p5ParameterName",
+      "ar" : "5|المدخل",
+      "en" : "5|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageReports.p5.sourceField",
+      "column" : "p5SourceField",
+      "ar" : "5|المصدر",
+      "en" : "5|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageReports.p6.overrideParamter",
+      "column" : "p6OverrideParamter",
+      "ar" : "6|إخفاء في الاسئلة",
+      "en" : "6|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageReports.p6.parameterName",
+      "column" : "p6ParameterName",
+      "ar" : "6|المدخل",
+      "en" : "6|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageReports.p6.sourceField",
+      "column" : "p6SourceField",
+      "ar" : "6|المصدر",
+      "en" : "6|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageReports.p7.overrideParamter",
+      "column" : "p7OverrideParamter",
+      "ar" : "7|إخفاء في الاسئلة",
+      "en" : "7|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageReports.p7.parameterName",
+      "column" : "p7ParameterName",
+      "ar" : "7|المدخل",
+      "en" : "7|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageReports.p7.sourceField",
+      "column" : "p7SourceField",
+      "ar" : "7|المصدر",
+      "en" : "7|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageReports.p8.overrideParamter",
+      "column" : "p8OverrideParamter",
+      "ar" : "8|إخفاء في الاسئلة",
+      "en" : "8|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageReports.p8.parameterName",
+      "column" : "p8ParameterName",
+      "ar" : "8|المدخل",
+      "en" : "8|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageReports.p8.sourceField",
+      "column" : "p8SourceField",
+      "ar" : "8|المصدر",
+      "en" : "8|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageReports.p9.overrideParamter",
+      "column" : "p9OverrideParamter",
+      "ar" : "9|إخفاء في الاسئلة",
+      "en" : "9|Override Paramter",
+      "type" : "Boolean"
+    }, {
+      "id" : "pageReports.p9.parameterName",
+      "column" : "p9ParameterName",
+      "ar" : "9|المدخل",
+      "en" : "9|Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "pageReports.p9.sourceField",
+      "column" : "p9SourceField",
+      "ar" : "9|المصدر",
+      "en" : "9|Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "pageReports.reportOrder",
+      "column" : "reportOrder",
+      "ar" : "ترتيب التقرير",
+      "en" : "Report Order",
+      "type" : "Integer"
+    }, {
+      "id" : "pageReports.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    }, {
+      "id" : "pageReports.size",
+      "column" : "size",
+      "ar" : "المقاس",
+      "en" : "Size",
+      "type" : "Enum",
+      "enum" : "GridSizeEnum"
+    } ]
+  }, {
+    "id" : "quickFilters",
+    "table" : "ScreenModifierListQuickFilter",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "الفلترة السريعة",
+    "en" : "Quick Filter",
+    "fields" : [ {
+      "id" : "quickFilters.arTitle",
+      "column" : "arTitle",
+      "ar" : "العنوان العربى",
+      "en" : "Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "quickFilters.columnNames",
+      "column" : "columnNames",
+      "ar" : "أسماء الأعمدة",
+      "en" : "Column Names",
+      "type" : "FieldID"
+    }, {
+      "id" : "quickFilters.effectType",
+      "column" : "effectType",
+      "ar" : "نوع التأثير",
+      "en" : "Component Effect Type",
+      "type" : "Enum",
+      "enum" : "ScreenQuickFilterEffect"
+    }, {
+      "id" : "quickFilters.enTitle",
+      "column" : "enTitle",
+      "ar" : "العنوان الإنجليزي",
+      "en" : "English Title",
+      "type" : "Text"
+    }, {
+      "id" : "quickFilters.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "quickFilters.isDropdown",
+      "column" : "isDropdown",
+      "ar" : "عرض كقائمة منسدلة",
+      "en" : "Is Dropdown",
+      "type" : "Boolean"
+    }, {
+      "id" : "quickFilters.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "quickFilters.maxButtonCount",
+      "column" : "maxButtonCount",
+      "ar" : "العدد الأقصى للأزرار",
+      "en" : "Max Button Count",
+      "type" : "Integer"
+    }, {
+      "id" : "quickFilters.quickFilterCriteria",
+      "column" : "quickFilterCriteria_id",
+      "type" : "Reference",
+      "refTo" : "QuickFilterCriteria",
+      "refPath" : "/modules/basic/QuickFilterCriteria.html"
+    }, {
+      "id" : "quickFilters.quickFilterValuesCriteria",
+      "column" : "quickFilterValuesCriteria_id",
+      "ar" : "المعايير المستعملة للبحث عن قيم الفلترة السريعة",
+      "en" : "Quick Filter Values Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "quickFilters.quickFilterValuesDynamicCriteria",
+      "column" : "quickFilterValuesDynamicCriteria",
+      "ar" : "المعايير النصية لقيم الفلترة السريعة",
+      "en" : "Quick Filter Values Dynamic Criteria",
+      "type" : "BigText"
+    }, {
+      "id" : "quickFilters.remove",
+      "column" : "remove",
+      "ar" : "حذف",
+      "en" : "Remove",
+      "type" : "Boolean"
+    }, {
+      "id" : "quickFilters.showCount",
+      "column" : "showCount",
+      "ar" : "إظهار العدد",
+      "en" : "Show Count",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "removedActions",
+    "table" : "ScreenActionRemover",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "الاجراءات المحذوفة",
+    "en" : "Removed Actions",
+    "fields" : [ {
+      "id" : "removedActions.actionId",
+      "column" : "actionId",
+      "ar" : "نوع الإجراء",
+      "en" : "Action Type",
+      "type" : "FieldID"
+    }, {
+      "id" : "removedActions.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "removedActions.inPage",
+      "column" : "inPage",
+      "ar" : "في الصفحة",
+      "en" : "In Page",
+      "type" : "Text"
+    }, {
+      "id" : "removedActions.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "removedFields",
+    "table" : "ScreenFieldRemover",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "الحقول المحذوفة",
+    "en" : "Removed Fields",
+    "fields" : [ {
+      "id" : "removedFields.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "removedFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "removedFields.inPage",
+      "column" : "inPage",
+      "ar" : "في الصفحة",
+      "en" : "In Page",
+      "type" : "Text"
+    }, {
+      "id" : "removedFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "removedPages",
+    "table" : "ScreenPageRemover",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "الصفحات المحذوفة",
+    "en" : "Removed Pages",
+    "fields" : [ {
+      "id" : "removedPages.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "removedPages.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "removedPages.pageId",
+      "column" : "pageId",
+      "ar" : "الصفحة",
+      "en" : "Page",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "searchCriteriaFields",
+    "table" : "ScreenSearchCriteriaFields",
+    "joinColumn" : "screenModifier_id",
+    "fields" : [ {
+      "id" : "searchCriteriaFields.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "searchCriteriaFields.hidden",
+      "column" : "hidden",
+      "ar" : "إخفاء",
+      "en" : "Hidden",
+      "type" : "Boolean"
+    }, {
+      "id" : "searchCriteriaFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "searchCriteriaFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "searchDisplayColumns",
+    "table" : "ScreenSearchDisplayColumns",
+    "joinColumn" : "screenModifier_id",
+    "fields" : [ {
+      "id" : "searchDisplayColumns.arabic",
+      "column" : "arabic",
+      "ar" : "عنوان عربي",
+      "en" : "Arabic",
+      "type" : "Text"
+    }, {
+      "id" : "searchDisplayColumns.english",
+      "column" : "english",
+      "ar" : "عنوان إنجليزي",
+      "en" : "English",
+      "type" : "Text"
+    }, {
+      "id" : "searchDisplayColumns.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "searchDisplayColumns.fieldOrder",
+      "column" : "fieldOrder",
+      "ar" : "ترتيب الحقل",
+      "en" : "Field Order",
+      "type" : "Integer"
+    }, {
+      "id" : "searchDisplayColumns.hidden",
+      "column" : "hidden",
+      "ar" : "إخفاء",
+      "en" : "Hidden",
+      "type" : "Boolean"
+    }, {
+      "id" : "searchDisplayColumns.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "searchDisplayColumns.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "searchDisplayColumns.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "searchDisplayColumns.relativeTo",
+      "column" : "relativeTo",
+      "ar" : "بلنسبة لــ",
+      "en" : "Relative To",
+      "type" : "FieldID"
+    }, {
+      "id" : "searchDisplayColumns.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    }, {
+      "id" : "searchDisplayColumns.width",
+      "column" : "width",
+      "ar" : " العرض",
+      "en" : " Width",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "searchForFields",
+    "table" : "ScreenSearchForFields",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "حقول البحث (تستعمل لحقل البحث عن)",
+    "en" : "Criteria Fields (Used For Search For )",
+    "fields" : [ {
+      "id" : "searchForFields.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "searchForFields.hidden",
+      "column" : "hidden",
+      "ar" : "إخفاء",
+      "en" : "Hidden",
+      "type" : "Boolean"
+    }, {
+      "id" : "searchForFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "searchForFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "searchQuickFilters",
+    "table" : "ScreenModifierSearchListQuickFilter",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "الفلترة السريعة لقائمة الإختيار",
+    "en" : "Search Quick Filter",
+    "fields" : [ {
+      "id" : "searchQuickFilters.arTitle",
+      "column" : "arTitle",
+      "ar" : "العنوان العربى",
+      "en" : "Arabic Title",
+      "type" : "Text"
+    }, {
+      "id" : "searchQuickFilters.columnNames",
+      "column" : "columnNames",
+      "ar" : "أسماء الأعمدة",
+      "en" : "Column Names",
+      "type" : "FieldID"
+    }, {
+      "id" : "searchQuickFilters.effectType",
+      "column" : "effectType",
+      "ar" : "نوع التأثير",
+      "en" : "Component Effect Type",
+      "type" : "Enum",
+      "enum" : "ScreenQuickFilterEffect"
+    }, {
+      "id" : "searchQuickFilters.enTitle",
+      "column" : "enTitle",
+      "ar" : "العنوان الإنجليزي",
+      "en" : "English Title",
+      "type" : "Text"
+    }, {
+      "id" : "searchQuickFilters.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "searchQuickFilters.isDropdown",
+      "column" : "isDropdown",
+      "ar" : "عرض كقائمة منسدلة",
+      "en" : "Is Dropdown",
+      "type" : "Boolean"
+    }, {
+      "id" : "searchQuickFilters.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "searchQuickFilters.maxButtonCount",
+      "column" : "maxButtonCount",
+      "ar" : "العدد الأقصى للأزرار",
+      "en" : "Max Button Count",
+      "type" : "Integer"
+    }, {
+      "id" : "searchQuickFilters.quickFilterCriteria",
+      "column" : "quickFilterCriteria_id",
+      "type" : "Reference",
+      "refTo" : "QuickFilterCriteria",
+      "refPath" : "/modules/basic/QuickFilterCriteria.html"
+    }, {
+      "id" : "searchQuickFilters.quickFilterValuesCriteria",
+      "column" : "quickFilterValuesCriteria_id",
+      "ar" : "المعايير المستعملة للبحث عن قيم الفلترة السريعة",
+      "en" : "Quick Filter Values Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "searchQuickFilters.quickFilterValuesDynamicCriteria",
+      "column" : "quickFilterValuesDynamicCriteria",
+      "ar" : "المعايير النصية لقيم الفلترة السريعة",
+      "en" : "Quick Filter Values Dynamic Criteria",
+      "type" : "BigText"
+    }, {
+      "id" : "searchQuickFilters.remove",
+      "column" : "remove",
+      "ar" : "حذف",
+      "en" : "Remove",
+      "type" : "Boolean"
+    }, {
+      "id" : "searchQuickFilters.showCount",
+      "column" : "showCount",
+      "ar" : "إظهار العدد",
+      "en" : "Show Count",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "searchSortFields",
+    "table" : "ScreenSearchSortFields",
+    "joinColumn" : "screenModifier_id",
+    "fields" : [ {
+      "id" : "searchSortFields.defaultSortField",
+      "column" : "defaultSortField",
+      "ar" : "حقل الترتيب الإفتراضي",
+      "en" : "Default Sort Field",
+      "type" : "Boolean"
+    }, {
+      "id" : "searchSortFields.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "searchSortFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "searchSortFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "searcherTemplateColumns",
+    "table" : "SearcherTemplateModifier",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "الاعمدة المحسوبة لقائمة البحث",
+    "en" : "Searcher Template Columns",
+    "fields" : [ {
+      "id" : "searcherTemplateColumns.arabic",
+      "column" : "arabic",
+      "ar" : "عنوان عربي",
+      "en" : "Arabic",
+      "type" : "Text"
+    }, {
+      "id" : "searcherTemplateColumns.arabicTemplate",
+      "column" : "arabicTemplate",
+      "ar" : "قالب العربي",
+      "en" : "Arabic Template",
+      "type" : "BigText"
+    }, {
+      "id" : "searcherTemplateColumns.english",
+      "column" : "english",
+      "ar" : "عنوان إنجليزي",
+      "en" : "English",
+      "type" : "Text"
+    }, {
+      "id" : "searcherTemplateColumns.englishTemplate",
+      "column" : "englishTemplate",
+      "ar" : "قالب الإنجليزي",
+      "en" : "English Template",
+      "type" : "BigText"
+    }, {
+      "id" : "searcherTemplateColumns.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "searcherTemplateColumns.fieldOrder",
+      "column" : "fieldOrder",
+      "ar" : "ترتيب الحقل",
+      "en" : "Field Order",
+      "type" : "Integer"
+    }, {
+      "id" : "searcherTemplateColumns.hidden",
+      "column" : "hidden",
+      "ar" : "إخفاء",
+      "en" : "Hidden",
+      "type" : "Boolean"
+    }, {
+      "id" : "searcherTemplateColumns.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "searcherTemplateColumns.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "searcherTemplateColumns.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "searcherTemplateColumns.query",
+      "column" : "query",
+      "ar" : "الاستعلام",
+      "en" : "Query",
+      "type" : "BigText"
+    }, {
+      "id" : "searcherTemplateColumns.relativeTo",
+      "column" : "relativeTo",
+      "ar" : "بلنسبة لــ",
+      "en" : "Relative To",
+      "type" : "FieldID"
+    }, {
+      "id" : "searcherTemplateColumns.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    }, {
+      "id" : "searcherTemplateColumns.width",
+      "column" : "width",
+      "ar" : "الأبعاد | العرض",
+      "en" : "Measures | Width",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "sortFields",
+    "table" : "SortColumnModifier",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "حقول الترتيب",
+    "en" : "Sort Fields",
+    "fields" : [ {
+      "id" : "sortFields.defaultSortField",
+      "column" : "defaultSortField",
+      "ar" : "حقل الترتيب الإفتراضي",
+      "en" : "Default Sort Field",
+      "type" : "Boolean"
+    }, {
+      "id" : "sortFields.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "sortFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "sortFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "templateColumns",
+    "table" : "TemplateColumnModifier",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "الاعمدة المحسوبة",
+    "en" : "Template Columns",
+    "fields" : [ {
+      "id" : "templateColumns.arabic",
+      "column" : "arabic",
+      "ar" : "عنوان عربي",
+      "en" : "Arabic",
+      "type" : "Text"
+    }, {
+      "id" : "templateColumns.arabicTemplate",
+      "column" : "arabicTemplate",
+      "ar" : "قالب العربي",
+      "en" : "Arabic Template",
+      "type" : "BigText"
+    }, {
+      "id" : "templateColumns.english",
+      "column" : "english",
+      "ar" : "عنوان إنجليزي",
+      "en" : "English",
+      "type" : "Text"
+    }, {
+      "id" : "templateColumns.englishTemplate",
+      "column" : "englishTemplate",
+      "ar" : "قالب الإنجليزي",
+      "en" : "English Template",
+      "type" : "BigText"
+    }, {
+      "id" : "templateColumns.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "templateColumns.fieldOrder",
+      "column" : "fieldOrder",
+      "ar" : "ترتيب الحقل",
+      "en" : "Field Order",
+      "type" : "Integer"
+    }, {
+      "id" : "templateColumns.hidden",
+      "column" : "hidden",
+      "ar" : "إخفاء",
+      "en" : "Hidden",
+      "type" : "Boolean"
+    }, {
+      "id" : "templateColumns.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "templateColumns.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "templateColumns.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "templateColumns.query",
+      "column" : "query",
+      "ar" : "الاستعلام",
+      "en" : "Query",
+      "type" : "BigText"
+    }, {
+      "id" : "templateColumns.relativeTo",
+      "column" : "relativeTo",
+      "ar" : "بلنسبة لــ",
+      "en" : "Relative To",
+      "type" : "FieldID"
+    }, {
+      "id" : "templateColumns.resourceId",
+      "column" : "resourceId",
+      "ar" : "Resource ID",
+      "en" : "Resource ID",
+      "type" : "Text"
+    }, {
+      "id" : "templateColumns.width",
+      "column" : "width",
+      "ar" : "الأبعاد | العرض",
+      "en" : "Measures | Width",
+      "type" : "Text"
+    } ]
+  } ]
+}

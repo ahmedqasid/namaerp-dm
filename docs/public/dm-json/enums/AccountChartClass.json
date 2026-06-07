@@ -1,0 +1,16 @@
+{
+  "enum" : "AccountChartClass",
+  "values" : [ {
+    "id" : "BalanceSheet",
+    "ar" : "ميزانية",
+    "en" : "Balance Sheet"
+  }, {
+    "id" : "IncomeStatement",
+    "ar" : "قائمة دخل",
+    "en" : "Income Statement"
+  }, {
+    "id" : "Other",
+    "ar" : "أخري",
+    "en" : "Other"
+  } ]
+}

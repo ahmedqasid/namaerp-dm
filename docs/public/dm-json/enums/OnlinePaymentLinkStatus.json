@@ -1,0 +1,14 @@
+{
+  "enum" : "OnlinePaymentLinkStatus",
+  "values" : [ {
+    "id" : "Valid"
+  }, {
+    "id" : "Expired",
+    "ar" : "منتهي الصلاحية",
+    "en" : "Expired"
+  }, {
+    "id" : "Paid",
+    "ar" : "مُسَدّدْ",
+    "en" : "Paid"
+  } ]
+}

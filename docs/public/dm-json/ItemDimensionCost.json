@@ -1,0 +1,261 @@
+{
+  "entity" : "ItemDimensionCost",
+  "table" : "ItemDimensionCost",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ItemDimensionCost.html",
+  "fields" : [ {
+    "id" : "data.avgCost",
+    "column" : "avgCost",
+    "ar" : "متوسط تكلفة",
+    "en" : "Avg.Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "data.currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "data.inQty",
+    "column" : "inQty",
+    "ar" : "كمية بالداخل",
+    "en" : "In Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "data.lastCost",
+    "column" : "lastCost",
+    "ar" : "اخر تكلفة",
+    "en" : "Last Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "data.lastDates.lastFromCTransfer",
+    "column" : "lastFromCTransfer",
+    "ar" : "اخر تواريخ | تحويل شركات(من)",
+    "en" : "Last Dates | Com.Transfer(From)",
+    "type" : "Date"
+  }, {
+    "id" : "data.lastDates.lastFromTransfer",
+    "column" : "lastFromTransfer",
+    "ar" : "اخر تواريخ | تحويل(من)",
+    "en" : "Last Dates | Transfer(From)",
+    "type" : "Date"
+  }, {
+    "id" : "data.lastDates.lastPDate2",
+    "column" : "lastPDate2",
+    "type" : "Date"
+  }, {
+    "id" : "data.lastDates.lastPurchase",
+    "column" : "lastPurchase",
+    "ar" : "اخر تواريخ |شراء",
+    "en" : "Last Dates | Purchase",
+    "type" : "Date"
+  }, {
+    "id" : "data.lastDates.lastSales",
+    "column" : "lastSales",
+    "ar" : "اخر تواريخ | بيع",
+    "en" : "Last Dates | Sales",
+    "type" : "Date"
+  }, {
+    "id" : "data.lastDates.lastToCTransfer",
+    "column" : "lastToCTransfer",
+    "ar" : "اخر تواريخ | تحويل شركات(إلى)",
+    "en" : "Last Dates | Com.Transfer(To)",
+    "type" : "Date"
+  }, {
+    "id" : "data.lastDates.lastToTransfer",
+    "column" : "lastToTransfer",
+    "ar" : "اخر تواريخ | تحويل(إلى)",
+    "en" : "Last Dates | Transfer(To)",
+    "type" : "Date"
+  }, {
+    "id" : "data.lastDates.previosPDate",
+    "column" : "previosPDate",
+    "type" : "Date"
+  }, {
+    "id" : "data.lastInSeq",
+    "column" : "lastInSeq",
+    "type" : "Long"
+  }, {
+    "id" : "data.lastNonZeroCost",
+    "column" : "lastNonZeroCost",
+    "type" : "Decimal"
+  }, {
+    "id" : "data.lastPrice",
+    "column" : "lastPrice",
+    "ar" : "اخر سعر",
+    "en" : "Last Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "data.lastSupplier",
+    "column" : "lastSupplier_id",
+    "ar" : "اخر تواريخ | مورد",
+    "en" : "Last Dates | Supplier",
+    "type" : "Reference",
+    "refTo" : "Supplier",
+    "refPath" : "/modules/basic/Supplier.html"
+  }, {
+    "id" : "data.netCost",
+    "column" : "netCost",
+    "ar" : "تكلفة الصافي",
+    "en" : "Net Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "data.netQty",
+    "column" : "netQty",
+    "ar" : "صافي الكمية",
+    "en" : "Net Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "data.outQty",
+    "column" : "outQty",
+    "ar" : "الخروج | الكمية",
+    "en" : "Out Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "data.rwcQty",
+    "column" : "rwcQty",
+    "ar" : "تسليم غ مكلف",
+    "en" : "RWC Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "dimensions.genericDimensions.analysisSet",
+    "column" : "genDimAnalysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "dimensions.genericDimensions.branch",
+    "column" : "genDimBranch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "dimensions.genericDimensions.department",
+    "column" : "genDimDepartment_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "dimensions.genericDimensions.legalEntity",
+    "column" : "genDimLegalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "dimensions.genericDimensions.sector",
+    "column" : "genDimSector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "dimensions.item",
+    "column" : "item_id",
+    "ar" : "الصنف",
+    "en" : "Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "dimensions.specificDimensions.activePerc",
+    "column" : "activePerc",
+    "ar" : "النسبة الفعالة",
+    "en" : "Active Percentage",
+    "type" : "Text"
+  }, {
+    "id" : "dimensions.specificDimensions.box",
+    "column" : "box",
+    "ar" : "صندوق",
+    "en" : "Box",
+    "type" : "Text"
+  }, {
+    "id" : "dimensions.specificDimensions.color",
+    "column" : "color",
+    "ar" : "اللون",
+    "en" : "Color",
+    "type" : "Color"
+  }, {
+    "id" : "dimensions.specificDimensions.inactivePerc",
+    "column" : "inactivePerc",
+    "ar" : "النسبة الغير فعالة",
+    "en" : "Inactive Percentage",
+    "type" : "Text"
+  }, {
+    "id" : "dimensions.specificDimensions.locator",
+    "column" : "locator_id",
+    "ar" : "الموقع",
+    "en" : "Locator",
+    "type" : "Reference",
+    "refTo" : "Locator",
+    "refPath" : "/modules/supplychain/Locator.html"
+  }, {
+    "id" : "dimensions.specificDimensions.lotId",
+    "column" : "lotId",
+    "ar" : "رقم الشحنه",
+    "en" : "Lot ID",
+    "type" : "Text"
+  }, {
+    "id" : "dimensions.specificDimensions.measures",
+    "column" : "measures",
+    "ar" : "الأبعاد",
+    "en" : "Measures",
+    "type" : "Measures"
+  }, {
+    "id" : "dimensions.specificDimensions.revisionId",
+    "column" : "revisionId",
+    "ar" : "الإصدار",
+    "en" : "Revision ID",
+    "type" : "Text"
+  }, {
+    "id" : "dimensions.specificDimensions.secondSerial",
+    "column" : "secondSerial",
+    "ar" : "الرقم المسلسل الثاني",
+    "en" : "Second Serial",
+    "type" : "BigText"
+  }, {
+    "id" : "dimensions.specificDimensions.serialNumber",
+    "column" : "serialNumber",
+    "ar" : "الرقم المسلسل",
+    "en" : "Serial number",
+    "type" : "BigText"
+  }, {
+    "id" : "dimensions.specificDimensions.size",
+    "column" : "size",
+    "ar" : "المقاس",
+    "en" : "Size",
+    "type" : "Text"
+  }, {
+    "id" : "dimensions.specificDimensions.subItem",
+    "column" : "subItem_id",
+    "ar" : " السياره",
+    "en" : " Customer Car",
+    "type" : "Reference",
+    "refTo" : "SubItem",
+    "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+  }, {
+    "id" : "dimensions.specificDimensions.warehouse",
+    "column" : "warehouse_id",
+    "ar" : "المخزن",
+    "en" : "Warehouse",
+    "type" : "Reference",
+    "refTo" : "Warehouse",
+    "refPath" : "/modules/supplychain/Warehouse.html"
+  }, {
+    "id" : "dimensionsIdx",
+    "column" : "dimensionsIdx",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

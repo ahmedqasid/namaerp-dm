@@ -1,0 +1,52 @@
+{
+  "enum" : "RewardPointsConfigType",
+  "values" : [ {
+    "id" : "RajhiBankTest",
+    "ar" : "Rajhi Bank Pre Production",
+    "en" : "Rajhi Bank Pre Production"
+  }, {
+    "id" : "RajhiBankProd",
+    "ar" : "Rajhi Bank Production",
+    "en" : "Rajhi Bank Production"
+  }, {
+    "id" : "BonatTest",
+    "ar" : "Bonat Pre Production",
+    "en" : "Bonat Pre Production"
+  }, {
+    "id" : "BonatProd",
+    "ar" : "Bonat Production",
+    "en" : "Bonat Production"
+  }, {
+    "id" : "Kangaroo",
+    "ar" : "Kangaroo",
+    "en" : "Kangaroo"
+  }, {
+    "id" : "NamaReward",
+    "ar" : "Nama Reward",
+    "en" : "Nama Reward"
+  }, {
+    "id" : "ANBBankTest",
+    "ar" : "Arabi Bank Reward Test",
+    "en" : "Arabi Bank Reward Test"
+  }, {
+    "id" : "ANBBankProd",
+    "ar" : "Arabi Bank Reward Production",
+    "en" : "Arabi Bank Reward Production"
+  }, {
+    "id" : "STCLoyaltyPointsTest",
+    "ar" : "نقاط ولاء شركة الاتصالات السعودية التجريبي",
+    "en" : "STC Loyalty Points Pre Production"
+  }, {
+    "id" : "STCLoyaltyPointsProd",
+    "ar" : "نقاط ولاء شركة الاتصالات السعودية الفعلي",
+    "en" : "STC Loyalty Points Production"
+  }, {
+    "id" : "DatanuumTest",
+    "ar" : "Datanuum Test",
+    "en" : "Datanuum Test"
+  }, {
+    "id" : "DatanuumProd",
+    "ar" : "Datanuum Production",
+    "en" : "Datanuum Production"
+  } ]
+}

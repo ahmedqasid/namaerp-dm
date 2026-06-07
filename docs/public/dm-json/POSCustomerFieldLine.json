@@ -1,0 +1,23 @@
+{
+  "entity" : "POSCustomerFieldLine",
+  "table" : "POSCustomerFieldLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/POSCustomerFieldLine.html",
+  "fields" : [ {
+    "id" : "field",
+    "column" : "field",
+    "ar" : "الحقل",
+    "en" : "Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "required",
+    "column" : "required",
+    "ar" : "إجبارى",
+    "en" : "Required",
+    "type" : "Boolean"
+  } ]
+}

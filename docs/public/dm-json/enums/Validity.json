@@ -1,0 +1,12 @@
+{
+  "enum" : "Validity",
+  "values" : [ {
+    "id" : "Valid",
+    "ar" : "ساريه",
+    "en" : "Valid"
+  }, {
+    "id" : "Expired",
+    "ar" : "منتهي",
+    "en" : "Expired"
+  } ]
+}

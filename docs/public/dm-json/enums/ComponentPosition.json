@@ -1,0 +1,36 @@
+{
+  "enum" : "ComponentPosition",
+  "values" : [ {
+    "id" : "FirstPageHeaderOnly",
+    "ar" : "رأس أول صفحة فقط",
+    "en" : "First Page Header Only"
+  }, {
+    "id" : "AllPagesHeader",
+    "ar" : "رأس كل الصفحات",
+    "en" : "All Pages Header"
+  }, {
+    "id" : "AllPagesFooter",
+    "ar" : "ذيل كل الصفحات",
+    "en" : "All Pages Footer"
+  }, {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  }, {
+    "id" : "GroupHeader",
+    "ar" : "رأس مجموعة",
+    "en" : "Group Header"
+  }, {
+    "id" : "GroupFooter",
+    "ar" : "ذيل مجموعة",
+    "en" : "Group Footer"
+  }, {
+    "id" : "LastPageFooter",
+    "ar" : "ذيل اخر صفحة",
+    "en" : "Last Page Footer"
+  }, {
+    "id" : "Summary",
+    "ar" : "الإجماليات",
+    "en" : "Summary"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "StorageType",
+  "values" : [ {
+    "id" : "Normal",
+    "ar" : "عادية",
+    "en" : "Normal"
+  }, {
+    "id" : "Show",
+    "ar" : "عرض",
+    "en" : "Show"
+  }, {
+    "id" : "Central",
+    "ar" : "مركزي",
+    "en" : "Central"
+  } ]
+}

@@ -1,0 +1,68 @@
+{
+  "enum" : "FavouriteItemLevel",
+  "values" : [ {
+    "id" : "ItemBrand",
+    "ar" : "ماركة صنف",
+    "en" : "Item Brand"
+  }, {
+    "id" : "category1",
+    "ar" : "فئة الصنف1",
+    "en" : "Item Category1"
+  }, {
+    "id" : "category2",
+    "ar" : "فئة الصنف2",
+    "en" : "Item Category2"
+  }, {
+    "id" : "category3",
+    "ar" : "فئة الصنف3",
+    "en" : "Item Category3"
+  }, {
+    "id" : "category4",
+    "ar" : "فئة الصنف4",
+    "en" : "Item Category4"
+  }, {
+    "id" : "category5",
+    "ar" : "فئة الصنف5",
+    "en" : "Item Category5"
+  }, {
+    "id" : "ItemClass1",
+    "ar" : "تصنيف صنف 1",
+    "en" : "Item class 1"
+  }, {
+    "id" : "ItemClass2",
+    "ar" : "تصنيف صنف 2",
+    "en" : "Item class 2"
+  }, {
+    "id" : "ItemClass3",
+    "ar" : "تصنيف صنف 3",
+    "en" : "Item class 3"
+  }, {
+    "id" : "ItemClass4",
+    "ar" : "تصنيف صنف 4",
+    "en" : "Item class 4"
+  }, {
+    "id" : "ItemClass5",
+    "ar" : "تصنيف صنف 5",
+    "en" : "Item class 5"
+  }, {
+    "id" : "ItemClass6",
+    "ar" : "تصنيف صنف 6",
+    "en" : "Item class 6"
+  }, {
+    "id" : "ItemClass7",
+    "ar" : "تصنيف صنف 7",
+    "en" : "Item class 7"
+  }, {
+    "id" : "ItemClass8",
+    "ar" : "تصنيف صنف 8",
+    "en" : "Item class 8"
+  }, {
+    "id" : "ItemClass9",
+    "ar" : "تصنيف صنف 9",
+    "en" : "Item class 9"
+  }, {
+    "id" : "ItemClass10",
+    "ar" : "تصنيف صنف 10",
+    "en" : "Item class 10"
+  } ]
+}

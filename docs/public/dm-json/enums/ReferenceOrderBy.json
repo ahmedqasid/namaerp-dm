@@ -1,0 +1,24 @@
+{
+  "enum" : "ReferenceOrderBy",
+  "values" : [ {
+    "id" : "id",
+    "ar" : "المعرف",
+    "en" : "Id"
+  }, {
+    "id" : "code",
+    "ar" : "الكود",
+    "en" : "Code"
+  }, {
+    "id" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1"
+  }, {
+    "id" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2"
+  }, {
+    "id" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type"
+  } ]
+}

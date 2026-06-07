@@ -1,0 +1,705 @@
+{
+  "entity" : "SecurityProfile",
+  "table" : "SecurityProfile",
+  "module" : "basic",
+  "ar" : "ملف الصلاحيات",
+  "arPlural" : "ملفات الصلاحيات",
+  "en" : "Security Profile",
+  "enPlural" : "Security Profiles",
+  "page" : "https://dm.namasoft.com/modules/basic/SecurityProfile.html",
+  "fields" : [ {
+    "id" : "allLists",
+    "column" : "allLists",
+    "type" : "BigText"
+  }, {
+    "id" : "allowAccessToAI",
+    "column" : "allowAccessToAI",
+    "ar" : "Allow Access To AI Capabilities",
+    "en" : "Allow Access To AI Capabilities",
+    "type" : "Enum",
+    "enum" : "YesNoDefault"
+  }, {
+    "id" : "allowPDFPrintOnlyForForms",
+    "column" : "allowPDFPrintOnlyForForms",
+    "ar" : "السماح بطباعة PDF فقط لنماذج الشاشة",
+    "en" : "Allow PDF Print Only For Forms",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowPDFPrintOnlyForReports",
+    "column" : "allowPDFPrintOnlyForReports",
+    "ar" : "السماح بطباعة PDF فقط للتقارير",
+    "en" : "Allow PDF Print Only For Reports",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowPreventedRecordsInInsert",
+    "column" : "allowPreventedRecordsInInsert",
+    "ar" : "السماح باستعمال السجلات الممنوعة من الاستعمال في الادخال",
+    "en" : "Allow Using Prevented Records In Insert",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowPreventedRecordsInUpdate",
+    "column" : "allowPreventedRecordsInUpdate",
+    "ar" : "السماح باستعمال السجلات الممنوعة من الاستعمال في التعديل",
+    "en" : "Allow Using Prevented Records In Update",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowReGenAccountingEffects",
+    "column" : "allowReGenAccountingEffects",
+    "ar" : "السماح بإعادة إصدار التأثيرات المحاسبية",
+    "en" : "Allow ReGenerate Accounting Effects",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowReGenInventoryEffects",
+    "column" : "allowReGenInventoryEffects",
+    "ar" : "السماح بإعادة إصدار التأثيرات المخزنية",
+    "en" : "Allow ReGenerate Inventory Effects",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowReReplicateRecord",
+    "column" : "allowReReplicateRecord",
+    "ar" : "السماح بمزامنة الملفات",
+    "en" : "Allow ReReplicate Record",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowRecommitRecord",
+    "column" : "allowRecommitRecord",
+    "ar" : "السماح بإعادة حفظ الملفات",
+    "en" : "Allow Record Recommiting",
+    "type" : "Boolean"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "approvalsSound",
+    "column" : "approvalsSound",
+    "ar" : "صوت إشعار الموافقات",
+    "en" : "Approvals Sound",
+    "type" : "Enum",
+    "enum" : "SoundEffects"
+  }, {
+    "id" : "autoFetchUserShift",
+    "column" : "autoFetchUserShift",
+    "ar" : "استحضار الوردية المفتوحة للمستخدم الحالى آليا عند إنشاء أو حفظ أى مستند",
+    "en" : "Auto Fetch User Shift",
+    "type" : "Boolean"
+  }, {
+    "id" : "autoLogoutWithMaxSessions",
+    "column" : "autoLogoutWithMaxSessions",
+    "ar" : "تسجيل الخروج اليا عند تعدي أقصي عدد مرات تسجيل دخول (من الجلسات الأقدم)",
+    "en" : "Auto Logout From Older Sessions When The User Reaches Maximum Concurrent Sessions",
+    "type" : "Boolean"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "copyEntitiesFromGroup",
+    "column" : "copyEntitiesFromGroup",
+    "ar" : "نسخ من مجموعة",
+    "en" : "copy Entities From Group",
+    "type" : "Text"
+  }, {
+    "id" : "copyEntitiesFromMenu",
+    "column" : "copyEntitiesFromMenu_id",
+    "ar" : "نسخ الأنواع من قائمة",
+    "en" : "copy Entities From Menu",
+    "type" : "Reference",
+    "refTo" : "MenuDefinition",
+    "refPath" : "/modules/basic/MenuDefinition.html"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "dashBoard",
+    "column" : "dashBoard_id",
+    "ar" : "اللوحة",
+    "en" : "DashBoard",
+    "type" : "Reference",
+    "refTo" : "DashBoard",
+    "refPath" : "/modules/basic/DashBoard.html"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "defaultLayoutName",
+    "column" : "defaultLayoutName",
+    "ar" : "معرف شاشات العرض الافتراضي",
+    "en" : "Default Layout Name",
+    "type" : "Text"
+  }, {
+    "id" : "defaultMenu",
+    "column" : "defaultMenu_id",
+    "ar" : "القائمة الافتراضية",
+    "en" : "Default Menu",
+    "type" : "Reference",
+    "refTo" : "MenuDefinition",
+    "refPath" : "/modules/basic/MenuDefinition.html"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "displayPreventedRecords",
+    "column" : "displayPreventedRecords",
+    "ar" : "عرض السجلات الممنوعة من الاستعمال في البحث",
+    "en" : "Display Prevented Records In Search",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotDisplayCriticalErrors",
+    "column" : "doNotDisplayCriticalErrors",
+    "ar" : "عدم إظهار الأخطاء الحرجة",
+    "en" : "Do Not Display Critical Errors To This User",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotDisplaySystemHelpMsgs",
+    "column" : "doNotDisplaySystemHelpMsgs",
+    "ar" : "عدم عرض رسائل المساعدة النظاميه",
+    "en" : "Do Not Display System Help Messages",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotUseLDAPForLogin",
+    "column" : "doNotUseLDAPForLogin",
+    "ar" : "Do Not Use LDAP For Login",
+    "en" : "Do Not Use LDAP For Login",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotdispPrevRecInListView",
+    "column" : "doNotdispPrevRecInListView",
+    "ar" : "عدم عرض السجلات الممنوعة من الاستعمال في القوائم",
+    "en" : "Do Not Display Prevented Records In List View",
+    "type" : "Boolean"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "emailUsedWithSendAsEmailWindow",
+    "column" : "emailUsedWithSendAsEmailWindow",
+    "ar" : "الإيميل المستعمل مع نافذة إرسال كإيميل",
+    "en" : "Email Used With Send As Email Window",
+    "type" : "Text"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fullAuthority",
+    "column" : "fullAuthority",
+    "ar" : "صلاحيات كاملة",
+    "en" : "Full Authority",
+    "type" : "Boolean"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "loginFromAppsOnly",
+    "column" : "loginFromAppsOnly",
+    "ar" : "السماح بتسجيل الدخول من خلال التطبيقات فقط",
+    "en" : "Allow Login From Applications Only",
+    "type" : "Boolean"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "maxLoginSessions",
+    "column" : "maxLoginSessions",
+    "ar" : "أقصي عدد مرات تسجيل الدخول المتزامن للمستخدم الواحد",
+    "en" : "Maximum Concurrent Sessions Per User",
+    "type" : "Integer"
+  }, {
+    "id" : "maxNumberToRunReport",
+    "column" : "maxNumberToRunReport",
+    "ar" : "اقصى عدد مرات تشغيل للتقارير",
+    "en" : "Max Number To Run Report",
+    "type" : "Integer"
+  }, {
+    "id" : "maxRecordsPerPageForListViews",
+    "column" : "maxRecordsPerPageForListViews",
+    "ar" : "اقصي عدد من السجلات عند عرض الكل في القوائم",
+    "en" : "Maximum Records Per Page For List Views when using All",
+    "type" : "Integer"
+  }, {
+    "id" : "messagesSound",
+    "column" : "messagesSound",
+    "ar" : "صوت الرسائل",
+    "en" : "Messages Sound",
+    "type" : "Enum",
+    "enum" : "SoundEffects"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "notificationsSound",
+    "column" : "notificationsSound",
+    "ar" : "صوت الاشعارات",
+    "en" : "Notifications Sound",
+    "type" : "Enum",
+    "enum" : "SoundEffects"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "prevUserToRunSameRepMultipleTimes",
+    "column" : "prevUserToRunSameRepMultipleTimes",
+    "ar" : "منع المستخدم من تشغيل نفس التقرير مرتين في نفس الوقت",
+    "en" : "prevent User To Run Same Report Multiple Times",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventAccessToChat",
+    "column" : "preventAccessToChat",
+    "ar" : "منع الوصول إلى المحادثات اللحظية",
+    "en" : "Prevent Access To Instant Chat",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "restrictAccessToLeads",
+    "column" : "restrictAccessToLeads",
+    "ar" : "منع الوصول الى خيوط البيع التي لم تخصص للموظف",
+    "en" : "Restrict Access To Leads Except Assigned To Employee",
+    "type" : "Boolean"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "scCustomSecurity.canEditSalesPrice",
+    "column" : "canEditSalesPrice",
+    "ar" : "يمكن تعديل سعر البيع",
+    "en" : "Can Edit Sales Price",
+    "type" : "Boolean"
+  }, {
+    "id" : "scCustomSecurity.canPurchaseAboveLastPrice",
+    "column" : "canPurchaseAboveLastPrice",
+    "ar" : "يمكن شراء أعلى من سعر الشراء",
+    "en" : "Can Purchase Above Last Price",
+    "type" : "Boolean"
+  }, {
+    "id" : "scCustomSecurity.canSellBelowMinPrice",
+    "column" : "canSellBelowMinPrice",
+    "ar" : "يمكن النزول عن أقل سعر",
+    "en" : "Can Sell Below Minimum Price",
+    "type" : "Boolean"
+  }, {
+    "id" : "scCustomSecurity.maxDiscountPercentage",
+    "column" : "maxDiscountPercentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "taskEndedSound",
+    "column" : "taskEndedSound",
+    "ar" : "صوت انتهاء المهمة",
+    "en" : "Task Ended Sound",
+    "type" : "Enum",
+    "enum" : "SoundEffects"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usersCounter",
+    "column" : "usersCounter_id",
+    "ar" : "عداد مستخدمين",
+    "en" : "Users Counter",
+    "type" : "Reference",
+    "refTo" : "UsersCounter",
+    "refPath" : "/modules/basic/UsersCounter.html"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewSystemReports",
+    "column" : "viewSystemReports",
+    "ar" : "مطالعة التقارير النظامية",
+    "en" : "View System Reports",
+    "type" : "Boolean"
+  } ]
+}

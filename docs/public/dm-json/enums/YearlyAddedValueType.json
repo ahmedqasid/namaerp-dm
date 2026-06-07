@@ -1,0 +1,16 @@
+{
+  "enum" : "YearlyAddedValueType",
+  "values" : [ {
+    "id" : "Fixed",
+    "ar" : "قيمة ثابتة سنويا",
+    "en" : "Yearly fixed value"
+  }, {
+    "id" : "Variable",
+    "ar" : "قيمة متغيرة سنويا",
+    "en" : "Yearly variable value"
+  }, {
+    "id" : "Without",
+    "ar" : "بدون",
+    "en" : "Without added value"
+  } ]
+}

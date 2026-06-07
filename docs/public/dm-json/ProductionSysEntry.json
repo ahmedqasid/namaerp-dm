@@ -1,0 +1,49 @@
+{
+  "entity" : "ProductionSysEntry",
+  "table" : "ProductionSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ProductionSysEntry.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "operationSeq",
+    "column" : "operationSeq",
+    "ar" : "م. العملية",
+    "en" : "Operation Seq.",
+    "type" : "Integer"
+  }, {
+    "id" : "order",
+    "column" : "order_id",
+    "ar" : "أمر الشغل",
+    "en" : "Job Order",
+    "type" : "Reference",
+    "refTo" : "ProductionOrder",
+    "refPath" : "/modules/manufacturing/ProductionOrder.html"
+  }, {
+    "id" : "rejected",
+    "column" : "rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected",
+    "type" : "Decimal"
+  }, {
+    "id" : "sample",
+    "column" : "sample",
+    "ar" : " سحب عينة",
+    "en" : " Sample",
+    "type" : "Decimal"
+  }, {
+    "id" : "scrap",
+    "column" : "scrap",
+    "ar" : "تالف",
+    "en" : "Scrap",
+    "type" : "Decimal"
+  }, {
+    "id" : "toMove",
+    "column" : "toMove",
+    "ar" : "جاهز للحركة",
+    "en" : "To Move",
+    "type" : "Decimal"
+  } ]
+}

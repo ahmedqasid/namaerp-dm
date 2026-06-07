@@ -1,0 +1,24 @@
+{
+  "enum" : "WareSource",
+  "values" : [ {
+    "id" : "Specific",
+    "ar" : "محدد",
+    "en" : "Specific"
+  }, {
+    "id" : "Any",
+    "ar" : "الكل",
+    "en" : "All"
+  }, {
+    "id" : "Normal",
+    "ar" : "عادية",
+    "en" : "Normal"
+  }, {
+    "id" : "Central",
+    "ar" : "مركزي",
+    "en" : "Central"
+  }, {
+    "id" : "Show",
+    "ar" : "عرض",
+    "en" : "Show"
+  } ]
+}

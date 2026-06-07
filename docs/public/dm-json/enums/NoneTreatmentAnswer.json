@@ -1,0 +1,10 @@
+{
+  "enum" : "NoneTreatmentAnswer",
+  "values" : [ {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  }, {
+    "id" : "Treatment"
+  } ]
+}

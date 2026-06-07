@@ -1,0 +1,27 @@
+{
+  "entity" : "POS.POSAlias",
+  "table" : "POSAlias",
+  "module" : "pos-app",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSAlias.html",
+  "fields" : [ {
+    "id" : "entityCode",
+    "column" : "entityCode",
+    "ar" : " الكود",
+    "en" : " Code",
+    "type" : "Text"
+  }, {
+    "id" : "entityId",
+    "column" : "entityId",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

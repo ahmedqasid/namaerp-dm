@@ -1,0 +1,12 @@
+{
+  "enum" : "JOSalesOrderLineType",
+  "values" : [ {
+    "id" : "Sub",
+    "ar" : "فرعيه",
+    "en" : "Sub"
+  }, {
+    "id" : "Main",
+    "ar" : "رئيسيه",
+    "en" : "Main"
+  } ]
+}

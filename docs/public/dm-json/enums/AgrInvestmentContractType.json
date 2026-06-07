@@ -1,0 +1,12 @@
+{
+  "enum" : "AgrInvestmentContractType",
+  "values" : [ {
+    "id" : "NewContract",
+    "ar" : "عقد جديد",
+    "en" : "New Contract"
+  }, {
+    "id" : "EditForExistingContract",
+    "ar" : "تعديل لعقد موجود",
+    "en" : "Edit For Existing Contract"
+  } ]
+}

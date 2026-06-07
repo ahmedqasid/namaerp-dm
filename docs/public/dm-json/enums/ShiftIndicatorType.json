@@ -1,0 +1,16 @@
+{
+  "enum" : "ShiftIndicatorType",
+  "values" : [ {
+    "id" : "NormalShift",
+    "ar" : "الدوام الأساسي",
+    "en" : "Normal Shift"
+  }, {
+    "id" : "AddedShift",
+    "ar" : "الدوام الإضافي",
+    "en" : "Added Shift"
+  }, {
+    "id" : "Both",
+    "ar" : "أى منهما",
+    "en" : "Both"
+  } ]
+}

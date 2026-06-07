@@ -1,0 +1,23 @@
+{
+  "entity" : "AUFilePhaseLine",
+  "table" : "AUFilePhaseLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AUFilePhaseLine.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "mainPhase",
+    "column" : "mainPhase_id",
+    "type" : "Reference",
+    "refTo" : "AUPhase",
+    "refPath" : "/modules/auditing/AUPhase.html"
+  }, {
+    "id" : "subPhase",
+    "column" : "subPhase_id",
+    "type" : "Reference",
+    "refTo" : "AUPhase",
+    "refPath" : "/modules/auditing/AUPhase.html"
+  } ]
+}

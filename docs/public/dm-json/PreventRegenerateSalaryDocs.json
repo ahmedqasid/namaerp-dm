@@ -1,0 +1,37 @@
+{
+  "entity" : "PreventRegenerateSalaryDocs",
+  "table" : "PreventRegenerateSalaryDocs",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/PreventRegenerateSalaryDocs.html",
+  "fields" : [ {
+    "id" : "allowRegenIfDocIsDraft",
+    "column" : "allowRegenIfDocIsDraft",
+    "ar" : "السماح بالإصدار إذا وجد مستند مسودة",
+    "en" : "Allow Regenerate If Document Is Draft",
+    "type" : "Boolean"
+  }, {
+    "id" : "allowRegenIfDocIsWaitingApproval",
+    "column" : "allowRegenIfDocIsWaitingApproval",
+    "ar" : "السماح بالإصدار إذا وجد مستند بانتظار الموافقة",
+    "en" : "Allow Regenerate If Document Is Waiting Approval",
+    "type" : "Boolean"
+  }, {
+    "id" : "criteriaDefinition",
+    "column" : "criteriaDefinition_id",
+    "ar" : " المعايير",
+    "en" : " Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

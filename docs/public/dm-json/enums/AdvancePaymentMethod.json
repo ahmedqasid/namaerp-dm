@@ -1,0 +1,24 @@
+{
+  "enum" : "AdvancePaymentMethod",
+  "values" : [ {
+    "id" : "FixedValueWithEveryExtract",
+    "ar" : "قيمة ثابتة مع كل مستخلص تالي",
+    "en" : "Fixed Value With Every Extract"
+  }, {
+    "id" : "FirstNextExtract",
+    "ar" : "أول مستخلص تالي",
+    "en" : "First Next Extract"
+  }, {
+    "id" : "FinalExtract",
+    "ar" : "المستخلص الختامي",
+    "en" : "Final Extract"
+  }, {
+    "id" : "PercentageWithEveryExtract",
+    "ar" : "نسبة مع كل مستخلص",
+    "en" : "Percentage With Every Extract"
+  }, {
+    "id" : "PercentageFromDueValueWithEveryExtract",
+    "ar" : "نسبة من المستحق مع كل مستخلص",
+    "en" : "Percentage From Due Value With Every Extract"
+  } ]
+}

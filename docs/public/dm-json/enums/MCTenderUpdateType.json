@@ -1,0 +1,12 @@
+{
+  "enum" : "MCTenderUpdateType",
+  "values" : [ {
+    "id" : "Increase",
+    "ar" : "زيادة",
+    "en" : "Increase"
+  }, {
+    "id" : "discount",
+    "ar" : "التخفيض",
+    "en" : "Discount"
+  } ]
+}

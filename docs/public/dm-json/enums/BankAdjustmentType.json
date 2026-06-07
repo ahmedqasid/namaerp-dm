@@ -1,0 +1,12 @@
+{
+  "enum" : "BankAdjustmentType",
+  "values" : [ {
+    "id" : "Credit",
+    "ar" : "دائن",
+    "en" : "Credit"
+  }, {
+    "id" : "Debit",
+    "ar" : "مدين",
+    "en" : "Debit"
+  } ]
+}

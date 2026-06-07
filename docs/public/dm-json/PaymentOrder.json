@@ -1,0 +1,1908 @@
+{
+  "entity" : "PaymentOrder",
+  "table" : "PaymentOrder",
+  "module" : "accounting",
+  "ar" : "أمر صرف",
+  "arPlural" : "أوامر صرف",
+  "en" : "Payment Order",
+  "enPlural" : "Payment Orders",
+  "page" : "https://dm.namasoft.com/modules/accounting/PaymentOrder.html",
+  "fields" : [ {
+    "id" : "RVremainigValue",
+    "column" : "rVremainigValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "amount.localAmount",
+    "column" : "amountLocalAmount",
+    "ar" : "المبلغ محلي",
+    "en" : "Local Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "amount.rate",
+    "column" : "amountRate",
+    "ar" : "المعدل",
+    "en" : "Rate",
+    "type" : "Decimal"
+  }, {
+    "id" : "amount.value.amount",
+    "column" : "amountValueAmount",
+    "ar" : " المبلغ",
+    "en" : " Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "amount.value.currency",
+    "column" : "amountValueCurrency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "attachment",
+    "column" : "attachment_id",
+    "ar" : "مرفق",
+    "en" : "Attachment",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "collector",
+    "column" : "collector_id",
+    "ar" : "المحصل",
+    "en" : "Collector",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "detailedVoucher",
+    "column" : "detailedVoucher",
+    "ar" : "سند تفصيلي",
+    "en" : "Detailed Voucher",
+    "type" : "Boolean"
+  }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entityDimension",
+    "columns" : [ "entityDimensionActualCode", " entityDimensionCode", " entityDimensionEntityType", " entityDimensionId" ],
+    "ar" : "السجل",
+    "en" : "Entity Dimension",
+    "type" : "Genericreference"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "feesAccount",
+    "column" : "feesAccount_id",
+    "ar" : "حساب الرسوم",
+    "en" : "Fees Account",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "feesTaxValue",
+    "column" : "feesTaxValue",
+    "ar" : "قيمة ضريبة الرسوم",
+    "en" : "Fees Tax Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "feesValue",
+    "column" : "feesValue",
+    "ar" : "قيمة الرسوم",
+    "en" : "Fees Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "firstSideAccount",
+    "column" : "firstSideAccount_id",
+    "ar" : " حساب",
+    "en" : " Account",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "firstSideAccountType",
+    "column" : "firstSideAccountType",
+    "type" : "Enum",
+    "enum" : "SubsidiaryAccountType"
+  }, {
+    "id" : "firstSideSubsidiary",
+    "columns" : [ "firstSideSubsidiaryActualCode", " firstSideSubsidiaryCode", " firstSideSubsidiaryEntityType", " firstSideSubsidiaryId" ],
+    "ar" : "الذمة",
+    "en" : "Subsidiary",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "installmentDoc",
+    "columns" : [ "installmentDocActualCode", " installmentDocCode", " installmentDocEntityType", " installmentDocId" ],
+    "ar" : "مستند القسط",
+    "en" : "Installment doc",
+    "type" : "Genericreference"
+  }, {
+    "id" : "invoicesTotal",
+    "column" : "invoicesTotal",
+    "ar" : "إجمالي الفواتير",
+    "en" : "Invoices Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "ledger",
+    "column" : "ledger_id",
+    "ar" : "دفتر الحسابات",
+    "en" : "Ledger",
+    "type" : "Reference",
+    "refTo" : "Ledger",
+    "refPath" : "/modules/accounting/Ledger.html"
+  }, {
+    "id" : "ledgerTransReqId",
+    "column" : "ledgerTransReqId",
+    "type" : "ID"
+  }, {
+    "id" : "ledgerTransReqStatus",
+    "column" : "ledgerTransReqStatus",
+    "type" : "Enum",
+    "enum" : "TransactionRequestStatus"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "localCurrency",
+    "column" : "localCurrency_id",
+    "ar" : " العملة",
+    "en" : "Local Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "narration2",
+    "column" : "narration2",
+    "ar" : "الشرح 2",
+    "en" : "Narration 2",
+    "type" : "BigText"
+  }, {
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+  }, {
+    "id" : "operationNumber",
+    "column" : "operationNumber",
+    "ar" : "رقم العملية",
+    "en" : "Operation Number",
+    "type" : "BigText"
+  }, {
+    "id" : "otherSideSubsidAccBagCode",
+    "column" : "otherSideSubsidAccBagCode",
+    "ar" : "كود الحساب من الحقيبة",
+    "en" : "Account Bag Code",
+    "type" : "Text"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "paymentMethod",
+    "column" : "paymentMethod_id",
+    "ar" : "طريقة الدفع",
+    "en" : " Payment Method",
+    "type" : "Reference",
+    "refTo" : "PaymentMethod",
+    "refPath" : "/modules/basic/PaymentMethod.html"
+  }, {
+    "id" : "paymentTerminal",
+    "column" : "paymentTerminal_id",
+    "ar" : "Payment Terminal",
+    "en" : "Payment Terminal",
+    "type" : "Reference",
+    "refTo" : "PaymentTerminal",
+    "refPath" : "/modules/basic-payment-gateway/PaymentTerminal.html"
+  }, {
+    "id" : "poroStatus",
+    "column" : "poroStatus",
+    "ar" : "الحاله",
+    "en" : "status",
+    "type" : "Enum",
+    "enum" : "POROStatus"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "projContract",
+    "columns" : [ "projContractActualCode", " projContractCode", " projContractEntityType", " projContractId" ],
+    "ar" : "عقد المشروع",
+    "en" : "Project Contract",
+    "type" : "Genericreference"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "relatedSubsidiary",
+    "columns" : [ "relatedSubsidiaryActualCode", " relatedSubsidiaryCode", " relatedSubsidiaryEntityType", " relatedSubsidiaryId" ],
+    "ar" : "الذمة المتعلق",
+    "en" : "Related Subsidiary",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "sideSubsidAccBagCode",
+    "column" : "sideSubsidAccBagCode",
+    "ar" : "كود الحساب من الحقيبة",
+    "en" : "Account Bag Code",
+    "type" : "Text"
+  }, {
+    "id" : "subsidiaryAccountType",
+    "column" : "subsidiaryAccountType",
+    "ar" : "نوع الحافظة",
+    "en" : "Subsidiary account type",
+    "type" : "Enum",
+    "enum" : "SubsidiaryAccountType"
+  }, {
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
+    "type" : "BigText"
+  }, {
+    "id" : "totalCredit",
+    "column" : "totalCredit",
+    "ar" : "إجمالي الدائن",
+    "en" : "Credit Only",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalDebit",
+    "column" : "totalDebit",
+    "ar" : "إجمالي المدين",
+    "en" : "Debit Only",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalDiff",
+    "column" : "totalDiff",
+    "ar" : "إجمالي الفرق",
+    "en" : "Total Difference",
+    "type" : "Decimal"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "costLines",
+    "table" : "PaymentOrderCostLine",
+    "joinColumn" : "paymentOrder_id",
+    "ar" : "توزيع التكلفة",
+    "en" : "Cost Allocation",
+    "fields" : [ {
+      "id" : "costLines.analysisTermCode",
+      "column" : "analysisTermCode",
+      "ar" : "كود البند التحليلى",
+      "en" : "Analysis Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "costLines.committedBefore",
+      "column" : "committedBefore",
+      "type" : "Boolean"
+    }, {
+      "id" : "costLines.contract",
+      "columns" : [ "contractActualCode", " contractCode", " contractEntityType", " contractId" ],
+      "ar" : "العقد",
+      "en" : "Contract",
+      "type" : "Genericreference"
+    }, {
+      "id" : "costLines.cost",
+      "column" : "cost",
+      "ar" : "التكلفة",
+      "en" : "Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "costLines.costExecution",
+      "columns" : [ "costExecutionActualCode", " costExecutionCode", " costExecutionEntityType", " costExecutionId" ],
+      "ar" : "حصر التكاليف",
+      "en" : "Cost Execution",
+      "type" : "Genericreference"
+    }, {
+      "id" : "costLines.estimatedTermCode",
+      "column" : "estimatedTermCode",
+      "ar" : "كود بند الموازنة التقديرية",
+      "en" : "Estimated Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "costLines.estimatedTermRemark",
+      "column" : "estimatedTermRemark",
+      "ar" : "وصف بند الموازنة التقديرية",
+      "en" : "Estimated Term Remark",
+      "type" : "BigText"
+    }, {
+      "id" : "costLines.executiveTermCode",
+      "column" : "executiveTermCode",
+      "ar" : "كود بند الموازنة التنفيذية",
+      "en" : "Executive Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "costLines.executiveTermRemark",
+      "column" : "executiveTermRemark",
+      "ar" : "وصف بند الموازنة التنفيذية",
+      "en" : "Executive Term Remark",
+      "type" : "BigText"
+    }, {
+      "id" : "costLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "costLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "costLines.narration",
+      "column" : "narration",
+      "ar" : "الشرح",
+      "en" : "Narration",
+      "type" : "BigText"
+    }, {
+      "id" : "costLines.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "costLines.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "costLines.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "costLines.standardTerm",
+      "column" : "standardTerm_id",
+      "ar" : "البند القياسي",
+      "en" : "Standard Term",
+      "type" : "Reference",
+      "refTo" : "ContractingStandardTerm",
+      "refPath" : "/modules/contracting/ContractingStandardTerm.html"
+    }, {
+      "id" : "costLines.termAnalysisCardRef",
+      "column" : "termAnalysisCardRef_id",
+      "ar" : "كارت التحليل",
+      "en" : "Term Analysis Card",
+      "type" : "Reference",
+      "refTo" : "TermAnalysisCard",
+      "refPath" : "/modules/contracting/TermAnalysisCard.html"
+    }, {
+      "id" : "costLines.termCategory",
+      "column" : "termCategory_id",
+      "ar" : "تصنيف البند",
+      "en" : "Term Category",
+      "type" : "Reference",
+      "refTo" : "ContrTermCategory",
+      "refPath" : "/modules/contracting/ContrTermCategory.html"
+    }, {
+      "id" : "costLines.termCategory2",
+      "column" : "termCategory2_id",
+      "ar" : "تصنيف البند 2",
+      "en" : "Term Category 2",
+      "type" : "Reference",
+      "refTo" : "ContrTermCategory2",
+      "refPath" : "/modules/basic/ContrTermCategory2.html"
+    }, {
+      "id" : "costLines.termCode",
+      "column" : "termCode",
+      "ar" : "كود البند",
+      "en" : "Term Code",
+      "type" : "Text"
+    }, {
+      "id" : "costLines.termRemarks",
+      "column" : "termRemarks",
+      "ar" : "وصف البند",
+      "en" : "Term Remarks",
+      "type" : "BigText"
+    }, {
+      "id" : "costLines.valueDate",
+      "column" : "valueDate",
+      "ar" : "التاريخ الفعلي",
+      "en" : "Value Date",
+      "type" : "Date"
+    } ]
+  }, {
+    "id" : "fblines",
+    "table" : "PaymentOrderFPDetailLine",
+    "joinColumn" : "paymentOrder_id",
+    "fields" : [ {
+      "id" : "fblines.currencyRate",
+      "column" : "currencyRate",
+      "ar" : "المعدل",
+      "en" : "Currency Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "fblines.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "fblines.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "fblines.financialPaper",
+      "column" : "financialPaper_id",
+      "ar" : " ورقة تجارية",
+      "en" : " Commercial Paper",
+      "type" : "Reference",
+      "refTo" : "FinancialPaper",
+      "refPath" : "/modules/accounting-banks/FinancialPaper.html"
+    }, {
+      "id" : "fblines.fpCreationInfo.amount",
+      "column" : "fpcAmount",
+      "ar" : " المبلغ",
+      "en" : " Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "fblines.fpCreationInfo.bankAccount",
+      "column" : "fpcBankAccount_id",
+      "ar" : "رقم حساب البنك",
+      "en" : "Bank account",
+      "type" : "Reference",
+      "refTo" : "BankAccount",
+      "refPath" : "/modules/accounting-banks/BankAccount.html"
+    }, {
+      "id" : "fblines.fpCreationInfo.beneficiary",
+      "column" : "fpcBeneficiary",
+      "ar" : "المستفيد",
+      "en" : "Beneficiary",
+      "type" : "Text"
+    }, {
+      "id" : "fblines.fpCreationInfo.chequeNumber",
+      "column" : "fpcChequeNumber",
+      "ar" : "رقم الشيك",
+      "en" : "Cheque Number",
+      "type" : "Text"
+    }, {
+      "id" : "fblines.fpCreationInfo.concernedParty",
+      "columns" : [ "fpcConcernedPartyActualCode", " fpcConcernedPartyCode", " fpcConcernedPartyEntityType", " fpcConcernedPartyId" ],
+      "ar" : "الجهة المختصة",
+      "en" : "Concerned Party",
+      "type" : "Genericreference"
+    }, {
+      "id" : "fblines.fpCreationInfo.concernedPartyAccForRVPV",
+      "column" : "fpcCncrnedPartyAccForRVPV_id",
+      "ar" : "حساب الطرف المعني للقبض والصرف",
+      "en" : "Concerned Party Account for Payment And Receipt",
+      "type" : "Reference",
+      "refTo" : "Account",
+      "refPath" : "/modules/accounting/Account.html"
+    }, {
+      "id" : "fblines.fpCreationInfo.currency",
+      "column" : "fpcCurrency_id",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "fblines.fpCreationInfo.customerBank",
+      "column" : "fpcCustomerBank_id",
+      "ar" : "بنك العميل",
+      "en" : "Customer Bank",
+      "type" : "Reference",
+      "refTo" : "Bank",
+      "refPath" : "/modules/accounting-banks/Bank.html"
+    }, {
+      "id" : "fblines.fpCreationInfo.dueDate",
+      "column" : "fpcDueDate",
+      "ar" : "تاريخ الاستحقاق",
+      "en" : "Due Date",
+      "type" : "Date"
+    }, {
+      "id" : "fblines.fpCreationInfo.fpbook",
+      "column" : "fpcFpbook_id",
+      "ar" : " الدفتر",
+      "en" : " Book",
+      "type" : "Reference",
+      "refTo" : "FPBook",
+      "refPath" : "/modules/accounting-banks/FPBook.html"
+    }, {
+      "id" : "fblines.fpCreationInfo.issuer",
+      "column" : "fpcIssuer",
+      "ar" : "الساحب",
+      "en" : "Issuer",
+      "type" : "Text"
+    }, {
+      "id" : "fblines.fpCreationInfo.name1",
+      "column" : "fpcName1",
+      "ar" : "الاسم العربي",
+      "en" : "Name1",
+      "type" : "Text"
+    }, {
+      "id" : "fblines.fpCreationInfo.name2",
+      "column" : "fpcName2",
+      "ar" : "الاسم الإنجليزي",
+      "en" : "Name2",
+      "type" : "Text"
+    }, {
+      "id" : "fblines.fpCreationInfo.paperCode",
+      "column" : "fpcPaperCode",
+      "ar" : "كود الورقة",
+      "en" : "Paper Code",
+      "type" : "Text"
+    }, {
+      "id" : "fblines.fpCreationInfo.paperType",
+      "column" : "fpcPaperType",
+      "ar" : "نوع الورقة",
+      "en" : "Paper Type",
+      "type" : "Enum",
+      "enum" : "FinancialPaperType"
+    }, {
+      "id" : "fblines.fpCreationInfo.signedBy",
+      "column" : "fpcSignedBy",
+      "ar" : "اسم الموقع",
+      "en" : "Signed By",
+      "type" : "Text"
+    }, {
+      "id" : "fblines.fpCreationInfo.subsidiary",
+      "columns" : [ "fpcSubsidiaryActualCode", " fpcSubsidiaryCode", " fpcSubsidiaryEntityType", " fpcSubsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "fblines.fpCreationInfo.value.amount",
+      "column" : "fpcValueAmount",
+      "ar" : " المبلغ",
+      "en" : " Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "fblines.fpCreationInfo.value.currency",
+      "column" : "fpcValueCurrency_id",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "fblines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "fblines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "fblines.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "fblines.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "fblines.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "BigText"
+    }, {
+      "id" : "fblines.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "installmentLines",
+    "table" : "PVOrderInstallmentLine",
+    "joinColumn" : "paymentOrder_id",
+    "ar" : "الأقساط",
+    "en" : "Installment Lines",
+    "fields" : [ {
+      "id" : "installmentLines.currencyRate",
+      "column" : "currencyRate",
+      "ar" : "المعدل",
+      "en" : "Currency Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "installmentLines.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "installmentLines.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "installmentLines.dueDate",
+      "column" : "dueDate",
+      "ar" : "تاريخ الاستحقاق",
+      "en" : "Due Date",
+      "type" : "Date"
+    }, {
+      "id" : "installmentLines.financialPaper",
+      "column" : "financialPaper_id",
+      "ar" : "الورقة التجارية",
+      "en" : "Commercial Paper",
+      "type" : "Reference",
+      "refTo" : "FinancialPaper",
+      "refPath" : "/modules/accounting-banks/FinancialPaper.html"
+    }, {
+      "id" : "installmentLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "installmentLines.installmentCode",
+      "column" : "installmentCode",
+      "ar" : "كود القسط",
+      "en" : "Installment Code",
+      "type" : "Text"
+    }, {
+      "id" : "installmentLines.installmentDescription",
+      "column" : "installmentDescription",
+      "ar" : "وصف القسط",
+      "en" : "Installment Description",
+      "type" : "BigText"
+    }, {
+      "id" : "installmentLines.installmentDoc",
+      "columns" : [ "installmentDocActualCode", " installmentDocCode", " installmentDocEntityType", " installmentDocId" ],
+      "ar" : "مستند القسط",
+      "en" : "Installment doc",
+      "type" : "Genericreference"
+    }, {
+      "id" : "installmentLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "installmentLines.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "installmentLines.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "installmentLines.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "installmentLines.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "installmentLines.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "installmentLines.netValue",
+      "column" : "netValue",
+      "ar" : "الصافي",
+      "en" : "Net value",
+      "type" : "Decimal"
+    }, {
+      "id" : "installmentLines.paidValue",
+      "column" : "paidValue",
+      "ar" : "القيمة المدفوعة",
+      "en" : "Paid Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "installmentLines.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "installmentLines.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "installmentLines.remaining",
+      "column" : "remaining",
+      "ar" : "المتبقي",
+      "en" : "Remaining",
+      "type" : "Decimal"
+    }, {
+      "id" : "installmentLines.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "BigText"
+    }, {
+      "id" : "installmentLines.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "invoices",
+    "table" : "PVOrderInvoiceLine",
+    "joinColumn" : "paymentOrder_id",
+    "ar" : "الفواتير",
+    "en" : "Invoices",
+    "fields" : [ {
+      "id" : "invoices.account",
+      "column" : "account_id",
+      "ar" : " حساب",
+      "en" : " Account",
+      "type" : "Reference",
+      "refTo" : "Account",
+      "refPath" : "/modules/accounting/Account.html"
+    }, {
+      "id" : "invoices.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "invoices.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "invoices.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "invoices.invoice",
+      "columns" : [ "invoiceActualCode", " invoiceCode", " invoiceEntityType", " invoiceId" ],
+      "ar" : "الفاتورة",
+      "en" : "Invoice",
+      "type" : "Genericreference"
+    }, {
+      "id" : "invoices.invoiceValue",
+      "column" : "invoiceValue",
+      "ar" : "قيمة الفاتورة",
+      "en" : "Invoice Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "invoices.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "invoices.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "invoices.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "invoices.net",
+      "column" : "net",
+      "ar" : "الصافي",
+      "en" : "Net",
+      "type" : "Decimal"
+    }, {
+      "id" : "invoices.rate",
+      "column" : "rate",
+      "ar" : "المعدل",
+      "en" : "Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "invoices.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "invoices.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "invoices.remaining",
+      "column" : "remaining",
+      "ar" : "المتبقي",
+      "en" : "Remaining",
+      "type" : "Decimal"
+    }, {
+      "id" : "invoices.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "invoices.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "BigText"
+    }, {
+      "id" : "invoices.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "BigText"
+    }, {
+      "id" : "invoices.value.amount",
+      "column" : "valueAmount",
+      "ar" : " المبلغ",
+      "en" : " Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "invoices.value.currency",
+      "column" : "valueCurrency_id",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    } ]
+  }, {
+    "id" : "lines",
+    "table" : "PaymentOrderDetailLine",
+    "joinColumn" : "paymentOrder_id",
+    "ar" : " التفاصيل",
+    "en" : " Details",
+    "fields" : [ {
+      "id" : "lines.account",
+      "column" : "account_id",
+      "ar" : "الحساب",
+      "en" : "Account",
+      "type" : "Reference",
+      "refTo" : "Account",
+      "refPath" : "/modules/accounting/Account.html"
+    }, {
+      "id" : "lines.amount.localAmount",
+      "column" : "amountLocalAmount",
+      "ar" : "المبلغ | المحلي",
+      "en" : "Amount | Local",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.amount.rate",
+      "column" : "amountRate",
+      "ar" : "المبلغ | المعدل",
+      "en" : "Amount | Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.amount.value.amount",
+      "column" : "amountValueAmount",
+      "ar" : "المبلغ | القيمة",
+      "en" : "Amount | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.amount.value.currency",
+      "column" : "amountValueCurrency_id",
+      "ar" : "المبلغ | العملة",
+      "en" : "Amount | Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "lines.analysisSet",
+      "column" : "analysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "AnalysisSet",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "lines.attachment",
+      "column" : "attachment_id",
+      "ar" : "مرفق",
+      "en" : "Attachment",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "lines.attachment2",
+      "column" : "attachment2_id",
+      "ar" : "مرفق 2",
+      "en" : "Attachment 2",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "lines.b1",
+      "column" : "b1",
+      "ar" : "Boolean 1",
+      "en" : "Boolean 1",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.b2",
+      "column" : "b2",
+      "ar" : "Boolean 2",
+      "en" : "Boolean 2",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.b3",
+      "column" : "b3",
+      "ar" : "Boolean 3",
+      "en" : "Boolean 3",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.b4",
+      "column" : "b4",
+      "ar" : "Boolean 4",
+      "en" : "Boolean 4",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.b5",
+      "column" : "b5",
+      "ar" : "Boolean 5",
+      "en" : "Boolean 5",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.branch",
+      "column" : "branch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "lines.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "lines.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "lines.department",
+      "column" : "department_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "lines.entityDimension",
+      "columns" : [ "entityDimensionActualCode", " entityDimensionCode", " entityDimensionEntityType", " entityDimensionId" ],
+      "ar" : "السجل",
+      "en" : "Entity Dimension",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "lines.lineCostMustBeDistributed",
+      "column" : "lineCostMustBeDistributed",
+      "ar" : "يجب توزيع قيمة السطر في التكاليف",
+      "en" : "Line Cost Must Be Distributed",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "lines.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.narration",
+      "column" : "narration",
+      "ar" : "الشرح",
+      "en" : "Narration",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.narration2",
+      "column" : "narration2",
+      "ar" : "الشرح 2",
+      "en" : "Narration 2",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.netValue",
+      "column" : "netValue",
+      "ar" : "الصافي",
+      "en" : "Net value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.originDoc",
+      "columns" : [ "originDocActualCode", " originDocCode", " originDocEntityType", " originDocId" ],
+      "ar" : " # المستند",
+      "en" : " Document #",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.otherAmount.localAmount",
+      "column" : "otherLocalAmount",
+      "ar" : "الدائن | المحلي",
+      "en" : "Credit Amount | Local",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.otherAmount.rate",
+      "column" : "otherRate",
+      "ar" : "الدائن | المعدل",
+      "en" : "Credit Amount | Rate",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.otherAmount.value.amount",
+      "column" : "otherValueAmount",
+      "ar" : "الدائن | القيمة",
+      "en" : "Credit Amount | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.otherAmount.value.currency",
+      "column" : "otherValueCurrency_id",
+      "ar" : "الدائن | العملة",
+      "en" : "Credit Amount | Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "lines.quantity",
+      "column" : "quantity",
+      "ar" : "الكمية",
+      "en" : "Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.rbook",
+      "column" : "rbook_id",
+      "ar" : "دفتر الايصالات",
+      "en" : "Receipt Book",
+      "type" : "Reference",
+      "refTo" : "ReceiptBook",
+      "refPath" : "/modules/basic/ReceiptBook.html"
+    }, {
+      "id" : "lines.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.rpaper",
+      "column" : "rpaper_id",
+      "ar" : "الايصال",
+      "en" : "Receipt Paper",
+      "type" : "Reference",
+      "refTo" : "ReceiptPaper",
+      "refPath" : "/modules/basic/ReceiptPaper.html"
+    }, {
+      "id" : "lines.salaryDocument",
+      "columns" : [ "salaryDocumentActualCode", " salaryDocumentCode", " salaryDocumentEntityType", " salaryDocumentId" ],
+      "ar" : " سند الراتب",
+      "en" : " Salary Document",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.sector",
+      "column" : "sector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    }, {
+      "id" : "lines.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.tax1Percentage",
+      "column" : "tax1Percentage",
+      "ar" : "ضريبة 1 | نسبة",
+      "en" : "Tax 1 | Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.tax1Value",
+      "column" : "tax1Value",
+      "ar" : "ضريبة 1 | قيمة",
+      "en" : "Tax 1 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.tax2Percentage",
+      "column" : "tax2Percentage",
+      "ar" : "ضريبة 2 | نسبة",
+      "en" : "Tax 2 | Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.tax2Value",
+      "column" : "tax2Value",
+      "ar" : "ضريبة 2 | قيمة",
+      "en" : "Tax 2 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "lines.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "lines.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "lines.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "lines.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    }, {
+      "id" : "lines.totalPrice",
+      "column" : "totalPrice",
+      "ar" : "إجمالي السعر",
+      "en" : "  Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.unitPrice",
+      "column" : "unitPrice",
+      "ar" : "سعر الوحدة",
+      "en" : "Unit Price",
+      "type" : "Decimal"
+    } ]
+  }, {
+    "id" : "paymentLines",
+    "table" : "PaymentOrderPaymentLine",
+    "joinColumn" : "paymentOrder_id",
+    "ar" : "الســداد",
+    "en" : "Payment Lines",
+    "fields" : [ {
+      "id" : "paymentLines.afterFeesValue",
+      "column" : "afterFeesValue",
+      "ar" : "المبلغ بعد الرسوم",
+      "en" : "Value After Fees",
+      "type" : "Decimal"
+    }, {
+      "id" : "paymentLines.authorizationNumber",
+      "column" : "authorizationNumber",
+      "ar" : "رقم العملية",
+      "en" : "Authorization Number",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "paymentLines.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "paymentLines.discountCoupon",
+      "column" : "discountCoupon_id",
+      "ar" : "قسيمة شراء",
+      "en" : "Discount Coupon",
+      "type" : "Reference",
+      "refTo" : "DiscountCoupon",
+      "refPath" : "/modules/supplychain-sales/DiscountCoupon.html"
+    }, {
+      "id" : "paymentLines.doNotAffectRemaining",
+      "column" : "doNotAffectRemaining",
+      "ar" : "عدم التأثير على المتبقي",
+      "en" : "Do Not Affect Remaining",
+      "type" : "Boolean"
+    }, {
+      "id" : "paymentLines.feesTaxValue",
+      "column" : "feesTaxValue",
+      "ar" : "قيمة ضريبة الرسوم",
+      "en" : "Fees Tax Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "paymentLines.feesValue",
+      "column" : "feesValue",
+      "ar" : "قيمة الرسوم",
+      "en" : "Fees Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "paymentLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "paymentLines.issuer",
+      "column" : "issuer",
+      "ar" : "جهة الإصدار",
+      "en" : "Issuer",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "paymentLines.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "paymentLines.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "paymentLines.paidCash",
+      "column" : "paidCash",
+      "ar" : "النقدية المدفوعة",
+      "en" : "Paid Cash",
+      "type" : "Decimal"
+    }, {
+      "id" : "paymentLines.paymentMethod",
+      "column" : "paymentMethod_id",
+      "ar" : "طريقة الدفع",
+      "en" : " Payment Method",
+      "type" : "Reference",
+      "refTo" : "PaymentMethod",
+      "refPath" : "/modules/basic/PaymentMethod.html"
+    }, {
+      "id" : "paymentLines.paymentTransactionType",
+      "column" : "paymentTransactionType",
+      "ar" : "نوع العملية",
+      "en" : "Transaction Type",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.paymentValue",
+      "column" : "paymentValue",
+      "ar" : "المبلغ",
+      "en" : "Payment Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "paymentLines.pgwProperties.authCode",
+      "column" : "authCode",
+      "ar" : "Auth Code / Txn Id",
+      "en" : "Auth Code / Txn Id",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.pgwProperties.cardType",
+      "column" : "cardType",
+      "ar" : "Card Type",
+      "en" : "Card Type",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.pgwProperties.de55Response",
+      "column" : "de55Response",
+      "ar" : "De55 Response",
+      "en" : "De55 Response",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.pgwProperties.ecrRefNum",
+      "column" : "ecrRefNum",
+      "ar" : "ECR Ref Number / Local Reference Number",
+      "en" : "ECR Ref Number / Local Reference Number",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.pgwProperties.failureMessage",
+      "column" : "failureMessage",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.pgwProperties.maskedCardNumber",
+      "column" : "maskedCardNumber",
+      "ar" : "Masked Card Number",
+      "en" : "Masked Card Number",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.pgwProperties.merchantId",
+      "column" : "merchantId",
+      "ar" : "Merchant Id",
+      "en" : "Merchant Id",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.pgwProperties.paidFromTerminal",
+      "column" : "paidFromTerminal",
+      "ar" : "مدفوعة بواسطة ال Terminal",
+      "en" : "Paid From Terminal",
+      "type" : "Boolean"
+    }, {
+      "id" : "paymentLines.pgwProperties.panNum",
+      "column" : "panNum",
+      "ar" : "PAN Number / ApprovalCode",
+      "en" : "PAN Number / ApprovalCode",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.pgwProperties.respCode",
+      "column" : "respCode",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.pgwProperties.schemeId",
+      "column" : "schemeId",
+      "ar" : "Scheme Id / Card Scheme Name",
+      "en" : "Scheme Id / Card Scheme Name",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.pgwProperties.stanNum",
+      "column" : "stanNum",
+      "ar" : "STAN Number / rrNumber",
+      "en" : "STAN Number / rrNumber",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.pgwProperties.terminalId",
+      "column" : "terminalId",
+      "ar" : "Terminal Id / Device Serial No",
+      "en" : "Terminal Id / Device Serial No",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.remainingCash",
+      "column" : "remainingCash",
+      "ar" : "النقديه المتبقيه",
+      "en" : "Remaining Cash",
+      "type" : "Decimal"
+    }, {
+      "id" : "paymentLines.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "paymentLines.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    } ]
+  } ]
+}

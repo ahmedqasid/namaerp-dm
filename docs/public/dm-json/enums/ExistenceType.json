@@ -1,0 +1,12 @@
+{
+  "enum" : "ExistenceType",
+  "values" : [ {
+    "id" : "Found",
+    "ar" : "موجود",
+    "en" : "Found"
+  }, {
+    "id" : "NotFound",
+    "ar" : "غير موجود",
+    "en" : "Not Found"
+  } ]
+}

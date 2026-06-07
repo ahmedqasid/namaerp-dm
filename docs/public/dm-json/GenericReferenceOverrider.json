@@ -1,0 +1,3546 @@
+{
+  "entity" : "GenericReferenceOverrider",
+  "table" : "GenericReferenceOverrider",
+  "module" : "basic",
+  "ar" : "أعدادات الحقول و الشاشات",
+  "arPlural" : " أعدادات الحقول و الشاشات",
+  "en" : "Fields and Entities Settings",
+  "enPlural" : " Fields and Entities Settings",
+  "page" : "https://dm.namasoft.com/modules/basic/GenericReferenceOverrider.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "implRepo",
+    "column" : "implRepo_id",
+    "ar" : "كتالوج التجهيز",
+    "en" : "Implementation Repository",
+    "type" : "Reference",
+    "refTo" : "ImplementationRepository",
+    "refPath" : "/modules/basic/ImplementationRepository.html"
+  }, {
+    "id" : "inActive",
+    "column" : "inActive",
+    "ar" : "غير نشط",
+    "en" : "Inactive",
+    "type" : "Boolean"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "pdfSample",
+    "column" : "pdfSample_id",
+    "ar" : "PDF Sample",
+    "en" : "PDF Sample",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "relatedEntity1",
+    "column" : "relatedEntity1",
+    "ar" : "السجل المرتبط 1",
+    "en" : "Related Entity1",
+    "type" : "Text"
+  }, {
+    "id" : "relatedEntity2",
+    "column" : "relatedEntity2",
+    "ar" : "السجل المرتبط 2",
+    "en" : "Related Entity2",
+    "type" : "Text"
+  }, {
+    "id" : "relatedToModule1",
+    "column" : "relatedToModule1",
+    "ar" : "الموديول المرتبط 1",
+    "en" : "Related To Module 1",
+    "type" : "Text"
+  }, {
+    "id" : "relatedToModule2",
+    "column" : "relatedToModule2",
+    "ar" : "الموديول المرتبط 2",
+    "en" : "Related To Module 2",
+    "type" : "Text"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "saveToImplRepo",
+    "column" : "saveToImplRepo",
+    "ar" : "الحفظ في كتالوج التجهيز",
+    "en" : "Save To Implementation Repository",
+    "type" : "Boolean"
+  }, {
+    "id" : "screenshot",
+    "column" : "screenshot_id",
+    "ar" : "Screenshot",
+    "en" : "Screenshot",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "selectedColor",
+    "column" : "selectedColor",
+    "ar" : "اللون المختار",
+    "en" : "Selected Color",
+    "type" : "Color"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "systemReport",
+    "column" : "systemReport",
+    "ar" : "نظامي",
+    "en" : "System",
+    "type" : "Boolean"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "addDiscussionTo",
+    "table" : "AddDiscussionTo",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "إضافة النقاش إلي",
+    "en" : "Add Discussion To",
+    "fields" : [ {
+      "id" : "addDiscussionTo.addToPage",
+      "column" : "addToPage",
+      "ar" : "إضافة إلي صفحة",
+      "en" : "Add To Page",
+      "type" : "Text"
+    }, {
+      "id" : "addDiscussionTo.applicableFor",
+      "column" : "applicableFor",
+      "ar" : "مطبق على",
+      "en" : "Applicable For",
+      "type" : "Enum",
+      "enum" : "CriteriaValidatorApplicability"
+    }, {
+      "id" : "addDiscussionTo.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "addDiscussionTo.forTypeList",
+      "column" : "forTypeList_id",
+      "ar" : "لقوائم أنواع",
+      "en" : "For Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "addDiscussionTo.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "addDiscussionTo.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "addDiscussionTo.insertAt",
+      "column" : "insertAt",
+      "ar" : "إضافة في",
+      "en" : "Insert At",
+      "type" : "Integer"
+    }, {
+      "id" : "addDiscussionTo.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "addDiscussionTo.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "addRelatedDocumentsTo",
+    "table" : "AddRelatedDocumentsTo",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "إضافة المستندات المرتبطة إلى",
+    "en" : "Add Related Documents To",
+    "fields" : [ {
+      "id" : "addRelatedDocumentsTo.addToPage",
+      "column" : "addToPage",
+      "ar" : "إضافة إلي صفحة",
+      "en" : "Add To Page",
+      "type" : "Text"
+    }, {
+      "id" : "addRelatedDocumentsTo.applicableFor",
+      "column" : "applicableFor",
+      "ar" : "مطبق على",
+      "en" : "Applicable For",
+      "type" : "Enum",
+      "enum" : "CriteriaValidatorApplicability"
+    }, {
+      "id" : "addRelatedDocumentsTo.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "addRelatedDocumentsTo.forTypeList",
+      "column" : "forTypeList_id",
+      "ar" : "لقوائم أنواع",
+      "en" : "For Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "addRelatedDocumentsTo.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "addRelatedDocumentsTo.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "addRelatedDocumentsTo.insertAt",
+      "column" : "insertAt",
+      "ar" : "إضافة في",
+      "en" : "Insert At",
+      "type" : "Integer"
+    }, {
+      "id" : "addRelatedDocumentsTo.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "addRelatedDocumentsTo.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "allowUsageOfPreventedRecords",
+    "table" : "AllowUsageOfPreventedRecords",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "السماح باستعمال السجلات الممنوعة من الاستعمال",
+    "en" : "Allow Usage Of Prevented Records",
+    "fields" : [ {
+      "id" : "allowUsageOfPreventedRecords.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "allowUsageOfPreventedRecords.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "allowUsageOfPreventedRecords.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "allowUsageOfPreventedRecords.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "allowUsageOfPreventedRecords.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "allowUsageOfPreventedRecords.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "allowUsageOfPreventedRecords.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "auditFields",
+    "table" : "DetailedAuditFields",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Audit Fields",
+    "en" : "Audit Fields",
+    "fields" : [ {
+      "id" : "auditFields.applicableFor",
+      "column" : "applicableFor",
+      "ar" : "مطبق على",
+      "en" : "Applicable For",
+      "type" : "Enum",
+      "enum" : "CriteriaValidatorApplicability"
+    }, {
+      "id" : "auditFields.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "auditFields.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "auditFields.forTypeList",
+      "column" : "forTypeList_id",
+      "ar" : "لقوائم أنواع",
+      "en" : "For Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "auditFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "auditFields.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "auditFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "auditFields.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "autoCodingLines",
+    "table" : "GenRefAutoCodingLine",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "التكويد الالي للملفات",
+    "en" : "Files Auto Coding",
+    "fields" : [ {
+      "id" : "autoCodingLines.applyWhenQuery",
+      "column" : "applyWhenQuery",
+      "ar" : "تطبيق عند التوافق مع الاستعلام",
+      "en" : "Apply When Query",
+      "type" : "BigText"
+    }, {
+      "id" : "autoCodingLines.codingFormula.altCodeFormula",
+      "column" : "altCodeFormula",
+      "ar" : "صيغه الكود البديل",
+      "en" : "Alternate Code Formula",
+      "type" : "BigText"
+    }, {
+      "id" : "autoCodingLines.codingFormula.codeCalculationFormula",
+      "column" : "codeCalculationFormula",
+      "ar" : "صيغة حساب الكود",
+      "en" : "Code Calculation Formula",
+      "type" : "BigText"
+    }, {
+      "id" : "autoCodingLines.codingFormula.codeSequencePrefix",
+      "column" : "codeSequencePrefix",
+      "ar" : "بادئة حساب التسلسل",
+      "en" : "Code Sequence Prefix",
+      "type" : "BigText"
+    }, {
+      "id" : "autoCodingLines.codingFormula.codeSuffixFirstNumber",
+      "column" : "codeSuffixFirstNumber",
+      "ar" : "أول رقم في لاحقة الكود",
+      "en" : "Suffix First Number",
+      "type" : "Integer"
+    }, {
+      "id" : "autoCodingLines.codingFormula.codeSuffixLength",
+      "column" : "codeSuffixLength",
+      "ar" : "طول لاحقة الكود",
+      "en" : "Code Suffix Length",
+      "type" : "Integer"
+    }, {
+      "id" : "autoCodingLines.codingFormula.codeValidityQuery",
+      "column" : "codeValidityQuery",
+      "ar" : "Code Validity Query (Skip code if 1 is returned, and calculate next)",
+      "en" : "Code Validity Query (Skip code if 1 is returned, and calculate next)",
+      "type" : "BigText"
+    }, {
+      "id" : "autoCodingLines.codingFormula.doNotResetCodeWithUpdate",
+      "column" : "doNotResetCodeWithUpdate",
+      "ar" : "عدم تحديث الكود مع التعديل",
+      "en" : "Do Not Reset Code With Update",
+      "type" : "Boolean"
+    }, {
+      "id" : "autoCodingLines.codingFormula.name1CalculationFormula",
+      "column" : "name1CalculationFormula",
+      "ar" : "صيغة حساب الاسم العربي",
+      "en" : "Name1 Calculation Formula",
+      "type" : "BigText"
+    }, {
+      "id" : "autoCodingLines.codingFormula.name2CalculationFormula",
+      "column" : "name2CalculationFormula",
+      "ar" : "صيغة حساب الاسم الإنجليزي",
+      "en" : "Name2 Calculation Formula",
+      "type" : "BigText"
+    }, {
+      "id" : "autoCodingLines.codingFormula.revCodeCalculationFormula",
+      "column" : "revCodeCalculationFormula",
+      "ar" : "صيغة حساب الكود للإصدارات",
+      "en" : "Revision Code Calculation Formula",
+      "type" : "BigText"
+    }, {
+      "id" : "autoCodingLines.codingFormula.rvName1Formula",
+      "column" : "rvName1Formula",
+      "ar" : "صيغة تكويد اسم 1 للاصدارة",
+      "en" : "Name 1 Encoding Formula For Revision",
+      "type" : "BigText"
+    }, {
+      "id" : "autoCodingLines.codingFormula.rvName2Formula",
+      "column" : "rvName2Formula",
+      "ar" : "صيغة تكويد اسم 2 للاصدارة",
+      "en" : "Name 2 Encoding Formula For Revision",
+      "type" : "BigText"
+    }, {
+      "id" : "autoCodingLines.codingFormula.sizeAndColorCodeCalculationFormula",
+      "column" : "sizeAndColorCodeCalculationFormula",
+      "ar" : "صيغة حساب الكود للمقاس و اللون",
+      "en" : "Size And Color Code Calculation Formula",
+      "type" : "BigText"
+    }, {
+      "id" : "autoCodingLines.codingFormula.szName1Formula",
+      "column" : "szName1Formula",
+      "ar" : "صيغة تكويد اسم 1 للون والمقاس",
+      "en" : "Name 1 Encoding Formula For Colour And Size",
+      "type" : "BigText"
+    }, {
+      "id" : "autoCodingLines.codingFormula.szName2Formula",
+      "column" : "szName2Formula",
+      "ar" : "صيغة تكويد اسم 2 للون والمقاس",
+      "en" : "Name 2 Encoding Formula For Colour And Size",
+      "type" : "BigText"
+    }, {
+      "id" : "autoCodingLines.codingFormula.updateColorAndSizeIfEmpty",
+      "column" : "updateColorAndSizeIfEmpty",
+      "ar" : "تحديث اللون والمقاس إذا كانا فارغين فقط",
+      "en" : "Update Color and Size If Empty Only",
+      "type" : "Boolean"
+    }, {
+      "id" : "autoCodingLines.codingFormula.updateRevisionIfEmpty",
+      "column" : "updateRevisionIfEmpty",
+      "ar" : "تحديث الإصدار إذا كان فارغا فقط",
+      "en" : "Update Revision If Empty Only",
+      "type" : "Boolean"
+    }, {
+      "id" : "autoCodingLines.criteriaDefinition",
+      "column" : "criteriaDefinition_id",
+      "ar" : " المعايير",
+      "en" : " Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "autoCodingLines.doNotApplyWhenQuery",
+      "column" : "doNotApplyWhenQuery",
+      "ar" : "منع التطبيق عند التوافق مع الاستعلام",
+      "en" : "Do Not Apply When Query",
+      "type" : "BigText"
+    }, {
+      "id" : "autoCodingLines.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "autoCodingLines.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "autoCodingLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "autoCodingLines.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "autoCodingLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "autoCodingLines.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "autoCodingLines.reversedCriteriaDefinition",
+      "column" : "reversedCriteriaDefinition_id",
+      "ar" : "معيار عدم التفيذ",
+      "en" : "Reversed Criteria Definition",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    } ]
+  }, {
+    "id" : "descriptors",
+    "table" : "ReferenceDescriptorLine",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Descriptors",
+    "en" : "Descriptors",
+    "fields" : [ {
+      "id" : "descriptors.arabic",
+      "column" : "arabic",
+      "ar" : "عنوان عربي",
+      "en" : "Arabic",
+      "type" : "Text"
+    }, {
+      "id" : "descriptors.descriptorType",
+      "column" : "descriptorType",
+      "ar" : "استخدام الوصف",
+      "en" : "Descriptor Type",
+      "type" : "Enum",
+      "enum" : "DescriptorType"
+    }, {
+      "id" : "descriptors.english",
+      "column" : "english",
+      "ar" : "عنوان إنجليزي",
+      "en" : "English",
+      "type" : "Text"
+    }, {
+      "id" : "descriptors.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "descriptors.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "descriptors.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "descriptors.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "descriptors.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "descriptors.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "details",
+    "table" : "GenRefOverriderLine",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "القيم المسموح بها للمراجع",
+    "en" : "Allowed Values For Generic References",
+    "fields" : [ {
+      "id" : "details.addToExisting",
+      "column" : "addToExisting",
+      "ar" : "إضافة الى الموجود",
+      "en" : "Add To Existing",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.allowedEntity1",
+      "column" : "allowedEntity1",
+      "ar" : "النوع المسموح 1",
+      "en" : "Allowed Entity 1",
+      "type" : "EntityType"
+    }, {
+      "id" : "details.allowedEntity2",
+      "column" : "allowedEntity2",
+      "ar" : "النوع المسموح 2",
+      "en" : "Allowed Entity 2",
+      "type" : "EntityType"
+    }, {
+      "id" : "details.allowedEntity3",
+      "column" : "allowedEntity3",
+      "ar" : "النوع المسموح 3",
+      "en" : "Allowed Entity 3",
+      "type" : "EntityType"
+    }, {
+      "id" : "details.allowedEntity4",
+      "column" : "allowedEntity4",
+      "ar" : "النوع المسموح 4",
+      "en" : "Allowed Entity 4",
+      "type" : "EntityType"
+    }, {
+      "id" : "details.allowedEntity5",
+      "column" : "allowedEntity5",
+      "ar" : "النوع المسموح 5",
+      "en" : "Allowed Entity 5",
+      "type" : "EntityType"
+    }, {
+      "id" : "details.allowedEntityList",
+      "column" : "allowedEntityList_id",
+      "ar" : "قائمة الأنواع المسموح بها",
+      "en" : "Allowed Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "details.defaultEntityType",
+      "column" : "defaultEntityType",
+      "ar" : "النوع الافتراضي",
+      "en" : "Default Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "details.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "details.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "details.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.owner",
+      "column" : "owner_id",
+      "ar" : "المالك",
+      "en" : "owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "dimensionsConsistency",
+    "table" : "IgnoreDimensionsConsistency",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "تجاهل تناسق المحددات لحقول",
+    "en" : "Ignore Dimensions Consistency for Fields",
+    "fields" : [ {
+      "id" : "dimensionsConsistency.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "dimensionsConsistency.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "dimensionsConsistency.forTypeList",
+      "column" : "forTypeList_id",
+      "ar" : "لقوائم أنواع",
+      "en" : "For Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "dimensionsConsistency.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "dimensionsConsistency.ignoreAnalysisSet",
+      "column" : "ignoreAnalysisSet",
+      "ar" : "تجاهل المجموعة التحليلة",
+      "en" : "Ignore Analysis Set",
+      "type" : "Boolean"
+    }, {
+      "id" : "dimensionsConsistency.ignoreBranch",
+      "column" : "ignoreBranch",
+      "ar" : "تجاهل الفرع",
+      "en" : "Ignore Branch",
+      "type" : "Boolean"
+    }, {
+      "id" : "dimensionsConsistency.ignoreDepartment",
+      "column" : "ignoreDepartment",
+      "ar" : "تجاهل الإدارة",
+      "en" : "Ignore Department",
+      "type" : "Boolean"
+    }, {
+      "id" : "dimensionsConsistency.ignoreDraft",
+      "column" : "ignoreDraft",
+      "ar" : "تجاهل المسودات",
+      "en" : "Ignore Drafts",
+      "type" : "Boolean"
+    }, {
+      "id" : "dimensionsConsistency.ignoreLegalEntity",
+      "column" : "ignoreLegalEntity",
+      "ar" : "تجاهل الشركة",
+      "en" : "Ignore Legal Entity",
+      "type" : "Boolean"
+    }, {
+      "id" : "dimensionsConsistency.ignoreSector",
+      "column" : "ignoreSector",
+      "ar" : "تجاهل القطاع",
+      "en" : "Ignore Sector",
+      "type" : "Boolean"
+    }, {
+      "id" : "dimensionsConsistency.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "dimensionsConsistency.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "dimensionsConsistency.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "disabledFields",
+    "table" : "DisabledFieldsLines",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Disabled Fields",
+    "en" : "Disabled Fields",
+    "fields" : [ {
+      "id" : "disabledFields.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "disabledFields.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "disabledFields.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "disabledFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "disabledFields.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "disabledFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "disabledFields.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "displayMasks",
+    "table" : "FieldDisplayMask",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Display Masks",
+    "en" : "Display Masks",
+    "fields" : [ {
+      "id" : "displayMasks.displayMask",
+      "column" : "displayMask",
+      "ar" : "Display Mask",
+      "en" : "Display Mask",
+      "type" : "Text"
+    }, {
+      "id" : "displayMasks.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "displayMasks.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "displayMasks.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "displayMasks.g2DisplayMask",
+      "column" : "g2DisplayMask",
+      "ar" : "GUI 2 Display Mask",
+      "en" : "GUI 2 Display Mask",
+      "type" : "Text"
+    }, {
+      "id" : "displayMasks.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "displayMasks.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "displayMasks.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "displayMasks.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "emailSendToTypes",
+    "table" : "EmailSendToTypes",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "أنواع المراجع في نافذة ارسال بريد الكترونى",
+    "en" : "Email Send To Types",
+    "fields" : [ {
+      "id" : "emailSendToTypes.entityType1",
+      "column" : "entityType1",
+      "ar" : "النوع 1",
+      "en" : "Type 1",
+      "type" : "EntityType"
+    }, {
+      "id" : "emailSendToTypes.entityType2",
+      "column" : "entityType2",
+      "ar" : "النوع 2",
+      "en" : "TypE 2",
+      "type" : "EntityType"
+    }, {
+      "id" : "emailSendToTypes.entityType3",
+      "column" : "entityType3",
+      "ar" : "النوع 3",
+      "en" : "Type 3",
+      "type" : "EntityType"
+    }, {
+      "id" : "emailSendToTypes.entityType4",
+      "column" : "entityType4",
+      "ar" : "النوع 4",
+      "en" : "Type 4",
+      "type" : "EntityType"
+    }, {
+      "id" : "emailSendToTypes.entityType5",
+      "column" : "entityType5",
+      "ar" : "النوع 5",
+      "en" : "Type 5",
+      "type" : "EntityType"
+    }, {
+      "id" : "emailSendToTypes.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "emailSendToTypes.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "emailSendToTypes.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "emailSendToTypes.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "emailSendToTypes.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "emailSendToTypes.sendType",
+      "column" : "sendType",
+      "ar" : "نوع الارسال",
+      "en" : "Send Type",
+      "type" : "Enum",
+      "enum" : "EmailSendType"
+    } ]
+  }, {
+    "id" : "entityIcons",
+    "table" : "EntityIconLine",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Entity Icons",
+    "en" : "Entity Icons",
+    "fields" : [ {
+      "id" : "entityIcons.darkColorCode",
+      "column" : "darkColorCode",
+      "ar" : "كود اللون في الوضع الداكن",
+      "en" : "Dark Color Code",
+      "type" : "Color"
+    }, {
+      "id" : "entityIcons.entityType",
+      "column" : "entityType",
+      "ar" : "النوع",
+      "en" : "Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "entityIcons.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "entityIcons.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "entityIcons.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "entityIcons.lightColorCode",
+      "column" : "lightColorCode",
+      "ar" : "كود اللون في الوضع النهاري",
+      "en" : "Light Color Code",
+      "type" : "Color"
+    }, {
+      "id" : "entityIcons.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "entityIcons.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "enumIcons",
+    "table" : "EnumConstantIconLine",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Enum Icons",
+    "en" : "Enum Icons",
+    "fields" : [ {
+      "id" : "enumIcons.allowedValue",
+      "column" : "allowedValue",
+      "ar" : "القيمة المسموح بها",
+      "en" : "Allowed Value",
+      "type" : "FieldID"
+    }, {
+      "id" : "enumIcons.darkColorCode",
+      "column" : "darkColorCode",
+      "ar" : "كود اللون في الوضع الداكن",
+      "en" : "Dark Color Code",
+      "type" : "Color"
+    }, {
+      "id" : "enumIcons.enumType",
+      "column" : "enumType",
+      "ar" : "Enum Type",
+      "en" : "Enum Type",
+      "type" : "Text"
+    }, {
+      "id" : "enumIcons.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "enumIcons.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "enumIcons.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "enumIcons.lightColorCode",
+      "column" : "lightColorCode",
+      "ar" : "كود اللون في الوضع النهاري",
+      "en" : "Light Color Code",
+      "type" : "Color"
+    }, {
+      "id" : "enumIcons.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "enumIcons.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "errorMessageLoggingConfigs",
+    "table" : "ErrorMesageLoggingConfig",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Error Message Logging Configurations",
+    "en" : "Error Message Logging Configurations",
+    "fields" : [ {
+      "id" : "errorMessageLoggingConfigs.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "errorMessageLoggingConfigs.forTypeList",
+      "column" : "forTypeList_id",
+      "ar" : "لقوائم أنواع",
+      "en" : "For Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "errorMessageLoggingConfigs.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "errorMessageLoggingConfigs.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "errorMessageLoggingConfigs.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "errorMessageLoggingConfigs.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "errorMessageLoggingConfigs.targetQueueId",
+      "column" : "targetQueueId",
+      "ar" : "نوع الرسالة",
+      "en" : "Target Queue ID",
+      "type" : "Enum",
+      "enum" : "MessageQueue"
+    } ]
+  }, {
+    "id" : "extraCodes",
+    "table" : "ExtraCode",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Extra Codes",
+    "en" : "Extra Codes",
+    "fields" : [ {
+      "id" : "extraCodes.applicableFor",
+      "column" : "applicableFor",
+      "ar" : "مطبق على",
+      "en" : "Applicable For",
+      "type" : "Enum",
+      "enum" : "CriteriaValidatorApplicability"
+    }, {
+      "id" : "extraCodes.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "extraCodes.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "extraCodes.forTypeList",
+      "column" : "forTypeList_id",
+      "ar" : "لقوائم أنواع",
+      "en" : "For Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "extraCodes.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "extraCodes.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "extraCodes.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "extraCodes.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "extraFilter",
+    "table" : "FieldExtraFilter",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Extra Filter",
+    "en" : "Extra Filter",
+    "fields" : [ {
+      "id" : "extraFilter.criteriaDefinition",
+      "column" : "criteriaDefinition_id",
+      "ar" : " المعايير",
+      "en" : " Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "extraFilter.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "extraFilter.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "extraFilter.filteredType",
+      "column" : "filteredType",
+      "ar" : "تطبيق الفلتر مع النوع",
+      "en" : "Apply Filter with Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "extraFilter.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "extraFilter.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "extraFilter.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "extraFilter.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "extraFilter.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "extraReferenceSearchFields",
+    "table" : "ExtraReferenceSearchFields",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "حقول البحث الإضافية عند البحث عن مرجع",
+    "en" : "Extra Reference Search Fields",
+    "fields" : [ {
+      "id" : "extraReferenceSearchFields.applicableFor",
+      "column" : "applicableFor",
+      "ar" : "مطبق على",
+      "en" : "Applicable For",
+      "type" : "Enum",
+      "enum" : "CriteriaValidatorApplicability"
+    }, {
+      "id" : "extraReferenceSearchFields.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "extraReferenceSearchFields.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "extraReferenceSearchFields.forTypeList",
+      "column" : "forTypeList_id",
+      "ar" : "لقوائم أنواع",
+      "en" : "For Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "extraReferenceSearchFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "extraReferenceSearchFields.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "extraReferenceSearchFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "extraReferenceSearchFields.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "extraReferenceSearchFields.searchOperator",
+      "column" : "searchOperator",
+      "ar" : "معامل البحث",
+      "en" : "Search Operator",
+      "type" : "Enum",
+      "enum" : "Operator"
+    } ]
+  }, {
+    "id" : "fieldAllowedValues",
+    "table" : "FieldAllowedValues",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "القيم المسموح بها للحقول",
+    "en" : "Field Allowed Values",
+    "fields" : [ {
+      "id" : "fieldAllowedValues.allowedValue1",
+      "column" : "allowedValue1",
+      "ar" : "القيمة المسموح بها 1",
+      "en" : "Allowed Value 1",
+      "type" : "BigText"
+    }, {
+      "id" : "fieldAllowedValues.allowedValue10",
+      "column" : "allowedValue10",
+      "ar" : "القيمة المسموح بها 10",
+      "en" : "Allowed Value 10",
+      "type" : "BigText"
+    }, {
+      "id" : "fieldAllowedValues.allowedValue2",
+      "column" : "allowedValue2",
+      "ar" : "القيمة المسموح بها 2",
+      "en" : "Allowed Value 2",
+      "type" : "BigText"
+    }, {
+      "id" : "fieldAllowedValues.allowedValue3",
+      "column" : "allowedValue3",
+      "ar" : "القيمة المسموح بها 3",
+      "en" : "Allowed Value 3",
+      "type" : "BigText"
+    }, {
+      "id" : "fieldAllowedValues.allowedValue4",
+      "column" : "allowedValue4",
+      "ar" : "القيمة المسموح بها 4",
+      "en" : "Allowed Value 4",
+      "type" : "BigText"
+    }, {
+      "id" : "fieldAllowedValues.allowedValue5",
+      "column" : "allowedValue5",
+      "ar" : "القيمة المسموح بها 5",
+      "en" : "Allowed Value 5",
+      "type" : "BigText"
+    }, {
+      "id" : "fieldAllowedValues.allowedValue6",
+      "column" : "allowedValue6",
+      "ar" : "القيمة المسموح بها 6",
+      "en" : "Allowed Value 6",
+      "type" : "BigText"
+    }, {
+      "id" : "fieldAllowedValues.allowedValue7",
+      "column" : "allowedValue7",
+      "ar" : "القيمة المسموح بها 7",
+      "en" : "Allowed Value 7",
+      "type" : "BigText"
+    }, {
+      "id" : "fieldAllowedValues.allowedValue8",
+      "column" : "allowedValue8",
+      "ar" : "القيمة المسموح بها 8",
+      "en" : "Allowed Value 8",
+      "type" : "BigText"
+    }, {
+      "id" : "fieldAllowedValues.allowedValue9",
+      "column" : "allowedValue9",
+      "ar" : "القيمة المسموح بها 9",
+      "en" : "Allowed Value 9",
+      "type" : "BigText"
+    }, {
+      "id" : "fieldAllowedValues.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "fieldAllowedValues.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "fieldAllowedValues.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "fieldAllowedValues.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "fieldAllowedValues.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "fieldAllowedValues.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "fieldAllowedValues.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "fieldAllowedValues.restrictValues",
+      "column" : "restrictValues",
+      "ar" : "عدم السماح بكتابة القيم يدويا",
+      "en" : "Restrict Selection",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "fieldFormats",
+    "table" : "FieldFormatLine",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Field Formats",
+    "en" : "Field Formats",
+    "fields" : [ {
+      "id" : "fieldFormats.allowAlpha",
+      "column" : "allowAlpha",
+      "ar" : "السماح بالحروف",
+      "en" : "Allow alpha",
+      "type" : "Boolean"
+    }, {
+      "id" : "fieldFormats.allowNumbers",
+      "column" : "allowNumbers",
+      "ar" : "السماح بالارقام",
+      "en" : "Allow numbers",
+      "type" : "Boolean"
+    }, {
+      "id" : "fieldFormats.applyWhenQuery",
+      "column" : "applyWhenQuery",
+      "ar" : "تطبيق عند التوافق مع الاستعلام",
+      "en" : "Apply When Query",
+      "type" : "BigText"
+    }, {
+      "id" : "fieldFormats.backgroundColor",
+      "column" : "backgroundColor",
+      "ar" : "لون الخلفية",
+      "en" : "Background Color",
+      "type" : "Color"
+    }, {
+      "id" : "fieldFormats.criteriaDefinition",
+      "column" : "criteriaDefinition_id",
+      "ar" : " المعايير",
+      "en" : " Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "fieldFormats.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "fieldFormats.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "fieldFormats.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "fieldFormats.foregroundColor",
+      "column" : "foregroundColor",
+      "ar" : "لون الكتابة",
+      "en" : "Foreground Color",
+      "type" : "Color"
+    }, {
+      "id" : "fieldFormats.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "fieldFormats.ignoreDraftSuffix",
+      "column" : "ignoreDraftSuffix",
+      "ar" : "تجاهل لاحقة المسودة",
+      "en" : "Ignore Draft Suffix",
+      "type" : "Boolean"
+    }, {
+      "id" : "fieldFormats.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "fieldFormats.letterCaseType",
+      "column" : "letterCaseType",
+      "ar" : "الحروف المسموح بها",
+      "en" : "Letter Case Type",
+      "type" : "Enum",
+      "enum" : "LetterCaseType"
+    }, {
+      "id" : "fieldFormats.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "fieldFormats.linesShouldMatch",
+      "column" : "linesShouldMatch",
+      "ar" : "يجب مطابقة السطور",
+      "en" : "Lines Should Match",
+      "type" : "Boolean"
+    }, {
+      "id" : "fieldFormats.listColumnDirection",
+      "column" : "listColumnDirection",
+      "ar" : "اتجاه النص في العرض بالقائمة",
+      "en" : "Text Direction in List Column",
+      "type" : "Enum",
+      "enum" : "TextDirection"
+    }, {
+      "id" : "fieldFormats.maxLength",
+      "column" : "maxLength",
+      "ar" : "اقصي طول",
+      "en" : "Max length",
+      "type" : "Integer"
+    }, {
+      "id" : "fieldFormats.minLength",
+      "column" : "minLength",
+      "ar" : "اقل طول",
+      "en" : "Min length",
+      "type" : "Integer"
+    }, {
+      "id" : "fieldFormats.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "fieldFormats.prefix",
+      "column" : "prefix",
+      "ar" : "بادئة التكويد",
+      "en" : "Prefix",
+      "type" : "Text"
+    }, {
+      "id" : "fieldFormats.preventLeadingWhiteSpace",
+      "column" : "preventLeadingWhiteSpace",
+      "ar" : "منع وجود مسافة في البداية",
+      "en" : "Prevent Leading White Space",
+      "type" : "Boolean"
+    }, {
+      "id" : "fieldFormats.preventTrailingWhiteSpace",
+      "column" : "preventTrailingWhiteSpace",
+      "ar" : "منع وجود مسافة في النهاية",
+      "en" : "Prevent Trailing White Space",
+      "type" : "Boolean"
+    }, {
+      "id" : "fieldFormats.regularExpression",
+      "column" : "regularExpression",
+      "ar" : "Regular Expression",
+      "en" : "Regular Expression",
+      "type" : "Text"
+    }, {
+      "id" : "fieldFormats.showAsPassword",
+      "column" : "showAsPassword",
+      "ar" : "إخفاء النص (كلمة مرور)",
+      "en" : "Show As Password",
+      "type" : "Boolean"
+    }, {
+      "id" : "fieldFormats.suffix",
+      "column" : "suffix",
+      "ar" : "نهاية التكويد",
+      "en" : "Suffix",
+      "type" : "Text"
+    }, {
+      "id" : "fieldFormats.suggestionDirection",
+      "column" : "suggestionDirection",
+      "ar" : "اتجاة النص في قائمة المقترحات(البحث)",
+      "en" : "Text Direction in Suggestion Menu (Search)",
+      "type" : "Enum",
+      "enum" : "TextDirection"
+    }, {
+      "id" : "fieldFormats.textDirection",
+      "column" : "textDirection",
+      "ar" : "اتجاه الكتابة",
+      "en" : "Text Direction",
+      "type" : "Enum",
+      "enum" : "TextDirection"
+    }, {
+      "id" : "fieldFormats.textLanguage",
+      "column" : "textLanguage",
+      "ar" : "لغة الكتابة",
+      "en" : "Text Language",
+      "type" : "Enum",
+      "enum" : "TextLanguage"
+    } ]
+  }, {
+    "id" : "fieldIcons",
+    "table" : "FieldIconLine",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Field Icons",
+    "en" : "Field Icons",
+    "fields" : [ {
+      "id" : "fieldIcons.darkColorCode",
+      "column" : "darkColorCode",
+      "ar" : "كود اللون في الوضع الداكن",
+      "en" : "Dark Color Code",
+      "type" : "Color"
+    }, {
+      "id" : "fieldIcons.entityType",
+      "column" : "entityType",
+      "ar" : "النوع",
+      "en" : "Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "fieldIcons.entityTypeList",
+      "column" : "entityTypeList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "fieldIcons.fieldId",
+      "column" : "fieldId",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "fieldIcons.iconCode",
+      "column" : "iconCode",
+      "ar" : "Icon Code",
+      "en" : "Icon Code",
+      "type" : "Text"
+    }, {
+      "id" : "fieldIcons.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "fieldIcons.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "fieldIcons.lightColorCode",
+      "column" : "lightColorCode",
+      "ar" : "كود اللون في الوضع النهاري",
+      "en" : "Light Color Code",
+      "type" : "Color"
+    }, {
+      "id" : "fieldIcons.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "fieldIcons.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "fieldStyles",
+    "table" : "FieldStyleLine",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Field Styles",
+    "en" : "Field Styles",
+    "fields" : [ {
+      "id" : "fieldStyles.backgroundColor",
+      "column" : "backgroundColor",
+      "ar" : "لون الخلفية",
+      "en" : "Background Color",
+      "type" : "Color"
+    }, {
+      "id" : "fieldStyles.disableSuggestionProvider",
+      "column" : "disableSuggestionProvider",
+      "ar" : "Disable Suggestion Provider",
+      "en" : "Disable Suggestion Provider",
+      "type" : "Boolean"
+    }, {
+      "id" : "fieldStyles.doNotGoToNextWithEnter",
+      "column" : "doNotGoToNextWithEnter",
+      "ar" : "عدم التحرك إلى الحقل التالي عند الضغط على انتر(Big Text Only)",
+      "en" : "Do Not Go To Next With Enter(Big Text Only)",
+      "type" : "Boolean"
+    }, {
+      "id" : "fieldStyles.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "fieldStyles.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "fieldStyles.fixedInputLanguage",
+      "column" : "fixedInputLanguage",
+      "ar" : "تثبيت لغة الإدخال",
+      "en" : "Fixed Input Language",
+      "type" : "Enum",
+      "enum" : "LanguageEnum"
+    }, {
+      "id" : "fieldStyles.fixedLetterCase",
+      "column" : "fixedLetterCase",
+      "ar" : "تثبيت حالة الحروف",
+      "en" : "Fixed Letter Case",
+      "type" : "Enum",
+      "enum" : "LetterCaseType"
+    }, {
+      "id" : "fieldStyles.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "fieldStyles.foregroundColor",
+      "column" : "foregroundColor",
+      "ar" : "لون الكتابة",
+      "en" : "Foreground Color",
+      "type" : "Color"
+    }, {
+      "id" : "fieldStyles.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "fieldStyles.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "fieldStyles.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "fieldStyles.listColumnDirection",
+      "column" : "listColumnDirection",
+      "ar" : "اتجاه النص في العرض بالقائمة",
+      "en" : "Text Direction in List Column",
+      "type" : "Enum",
+      "enum" : "TextDirection"
+    }, {
+      "id" : "fieldStyles.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "fieldStyles.showAsPassword",
+      "column" : "showAsPassword",
+      "ar" : "إخفاء النص (كلمة مرور)",
+      "en" : "Show As Password",
+      "type" : "Boolean"
+    }, {
+      "id" : "fieldStyles.suggestionDirection",
+      "column" : "suggestionDirection",
+      "ar" : "اتجاة النص في قائمة المقترحات(البحث)",
+      "en" : "Text Direction in Suggestion Menu (Search)",
+      "type" : "Enum",
+      "enum" : "TextDirection"
+    }, {
+      "id" : "fieldStyles.textDirection",
+      "column" : "textDirection",
+      "ar" : "اتجاه الكتابة",
+      "en" : "Text Direction",
+      "type" : "Enum",
+      "enum" : "TextDirection"
+    } ]
+  }, {
+    "id" : "importIntegratorLines",
+    "table" : "ImportIntegratorLine",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Import Integrators",
+    "en" : "Import Integrators",
+    "fields" : [ {
+      "id" : "importIntegratorLines.addRecord",
+      "column" : "addRecord",
+      "ar" : "إضافة",
+      "en" : "Add",
+      "type" : "Boolean"
+    }, {
+      "id" : "importIntegratorLines.authenticateFromSession",
+      "column" : "authenticateFromSession",
+      "ar" : "Authenticate From Session",
+      "en" : "Authenticate From Session",
+      "type" : "Boolean"
+    }, {
+      "id" : "importIntegratorLines.authenticateFromURL",
+      "column" : "authenticateFromURL",
+      "ar" : "Authenticate From URL User and Pass",
+      "en" : "Authenticate From URL User and Pass",
+      "type" : "Boolean"
+    }, {
+      "id" : "importIntegratorLines.continueOnErrors",
+      "column" : "continueOnErrors",
+      "ar" : "المتابعة عند حدوث خطأ",
+      "en" : "Continue On Errors",
+      "type" : "Boolean"
+    }, {
+      "id" : "importIntegratorLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "importIntegratorLines.ignoreUnfoundRefs",
+      "column" : "ignoreUnfoundRefs",
+      "ar" : "تجاهل مراجع السجلات الغير موجودة",
+      "en" : "Ignore not found references",
+      "type" : "Boolean"
+    }, {
+      "id" : "importIntegratorLines.importingType",
+      "column" : "importingType",
+      "ar" : "نوع الاستيراد",
+      "en" : "Importing Type",
+      "type" : "Enum",
+      "enum" : "ImportingExportingType"
+    }, {
+      "id" : "importIntegratorLines.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "importIntegratorLines.integratorId",
+      "column" : "integratorId",
+      "ar" : "Integrator Id",
+      "en" : "Integrator Id",
+      "type" : "Text"
+    }, {
+      "id" : "importIntegratorLines.integratorUrl",
+      "column" : "integratorUrl",
+      "ar" : "Integrator URL",
+      "en" : "Integrator URL",
+      "type" : "Link"
+    }, {
+      "id" : "importIntegratorLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "importIntegratorLines.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "importIntegratorLines.responseFields",
+      "column" : "responseFields",
+      "ar" : "Response Fields (CSV - write mode)",
+      "en" : "Response Fields (CSV - write mode)",
+      "type" : "BigText"
+    }, {
+      "id" : "importIntegratorLines.saveAsDraft",
+      "column" : "saveAsDraft",
+      "ar" : "الحفظ كمسودة",
+      "en" : "Save As Draft",
+      "type" : "Boolean"
+    }, {
+      "id" : "importIntegratorLines.saveAsUser",
+      "column" : "saveAsUser_id",
+      "ar" : "Save As User",
+      "en" : "Save As User",
+      "type" : "Reference",
+      "refTo" : "NaMaUser",
+      "refPath" : "/modules/system-tables/NaMaUser.html"
+    }, {
+      "id" : "importIntegratorLines.trimExtraSpaces",
+      "column" : "trimExtraSpaces",
+      "ar" : "حذف المسافات الزائدة",
+      "en" : "Trim Extra Spaces",
+      "type" : "Boolean"
+    }, {
+      "id" : "importIntegratorLines.updateRecord",
+      "column" : "updateRecord",
+      "ar" : "تحديث",
+      "en" : "Update",
+      "type" : "Boolean"
+    }, {
+      "id" : "importIntegratorLines.urlPassword",
+      "column" : "urlPassword",
+      "ar" : "URL Password",
+      "en" : "URL Password",
+      "type" : "Password"
+    }, {
+      "id" : "importIntegratorLines.urlUserId",
+      "column" : "urlUserId",
+      "ar" : "URL User ID",
+      "en" : "URL User ID",
+      "type" : "Text"
+    }, {
+      "id" : "importIntegratorLines.useUserDimensions",
+      "column" : "useUserDimensions",
+      "ar" : "استعمال محددات المستخدم اثناء الاستيراد",
+      "en" : "Use User Dimensions While Importing",
+      "type" : "Boolean"
+    } ]
+  }, {
+    "id" : "integratorConfig",
+    "table" : "IntegratorConfig",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Integrator Config",
+    "en" : "Integrator Config",
+    "fields" : [ {
+      "id" : "integratorConfig.authenticateFromSession",
+      "column" : "authenticateFromSession",
+      "ar" : "Authenticate From Session",
+      "en" : "Authenticate From Session",
+      "type" : "Boolean"
+    }, {
+      "id" : "integratorConfig.authenticateFromURL",
+      "column" : "authenticateFromURL",
+      "ar" : "Authenticate From URL User and Pass",
+      "en" : "Authenticate From URL User and Pass",
+      "type" : "Boolean"
+    }, {
+      "id" : "integratorConfig.closeBrowserWindow",
+      "column" : "closeBrowserWindow",
+      "ar" : "إغلاق نافذة المتصفح بعد الانتهاء",
+      "en" : "Close Browser Window",
+      "type" : "Boolean"
+    }, {
+      "id" : "integratorConfig.createOnly",
+      "column" : "createOnly",
+      "ar" : "Create Only (No-Updates)",
+      "en" : "Create Only (No-Updates)",
+      "type" : "Boolean"
+    }, {
+      "id" : "integratorConfig.createdType",
+      "column" : "createdType",
+      "ar" : "نوع المستند المنشأ",
+      "en" : "Created Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "integratorConfig.createdTypeParam",
+      "column" : "createdTypeParam",
+      "ar" : "Created Type Parameter",
+      "en" : "Created Type Parameter",
+      "type" : "Text"
+    }, {
+      "id" : "integratorConfig.exportIntegrator",
+      "column" : "exportIntegrator",
+      "ar" : "Export Integrator",
+      "en" : "Export Integrator",
+      "type" : "Boolean"
+    }, {
+      "id" : "integratorConfig.fieldsMap",
+      "column" : "fieldsMap",
+      "ar" : "Fields Map",
+      "en" : "Fields Map",
+      "type" : "BigText"
+    }, {
+      "id" : "integratorConfig.finderQuery",
+      "column" : "finderQuery",
+      "ar" : "Finder Query(Retriever)",
+      "en" : "Finder Query(Retriever)",
+      "type" : "BigText"
+    }, {
+      "id" : "integratorConfig.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "integratorConfig.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "integratorConfig.integratorId",
+      "column" : "integratorId",
+      "ar" : "Integrator Id",
+      "en" : "Integrator Id",
+      "type" : "Text"
+    }, {
+      "id" : "integratorConfig.integratorUrl",
+      "column" : "integratorUrl",
+      "ar" : "Integrator URL",
+      "en" : "Integrator URL",
+      "type" : "Link"
+    }, {
+      "id" : "integratorConfig.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "integratorConfig.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "integratorConfig.responseFields",
+      "column" : "responseFields",
+      "ar" : "Response Fields (CSV - write mode)",
+      "en" : "Response Fields (CSV - write mode)",
+      "type" : "BigText"
+    }, {
+      "id" : "integratorConfig.responseTemplate",
+      "column" : "responseTemplate",
+      "ar" : "Response Template (Tempo)",
+      "en" : "Response Template (Tempo)",
+      "type" : "BigText"
+    }, {
+      "id" : "integratorConfig.runEntityFlow",
+      "column" : "runEntityFlow_id",
+      "ar" : "Run Entity Flow",
+      "en" : "Run Entity Flow",
+      "type" : "Reference",
+      "refTo" : "EntityFlow",
+      "refPath" : "/modules/basic/EntityFlow.html"
+    }, {
+      "id" : "integratorConfig.saveAsUser",
+      "column" : "saveAsUser_id",
+      "ar" : "Save As User",
+      "en" : "Save As User",
+      "type" : "Reference",
+      "refTo" : "NaMaUser",
+      "refPath" : "/modules/system-tables/NaMaUser.html"
+    }, {
+      "id" : "integratorConfig.urlPassword",
+      "column" : "urlPassword",
+      "ar" : "URL Password",
+      "en" : "URL Password",
+      "type" : "Password"
+    }, {
+      "id" : "integratorConfig.urlUserId",
+      "column" : "urlUserId",
+      "ar" : "URL User ID",
+      "en" : "URL User ID",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "invoiceRetrieverLines",
+    "table" : "InvoiceRetrieverLine",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Invoice Retriever Lines",
+    "en" : "Invoice Retriever Lines",
+    "fields" : [ {
+      "id" : "invoiceRetrieverLines.doNotCache",
+      "column" : "doNotCache",
+      "ar" : "Do Not Cache",
+      "en" : "Do Not Cache",
+      "type" : "Boolean"
+    }, {
+      "id" : "invoiceRetrieverLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "invoiceRetrieverLines.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "invoiceRetrieverLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "invoiceRetrieverLines.outputFormat",
+      "column" : "outputFormat",
+      "ar" : "الصيغة",
+      "en" : "Output Format",
+      "type" : "Enum",
+      "enum" : "RepOutputFormat"
+    }, {
+      "id" : "invoiceRetrieverLines.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "invoiceRetrieverLines.reportDefinition",
+      "column" : "reportDefinition_id",
+      "ar" : "تعريف التقرير",
+      "en" : "Report Definition",
+      "type" : "Reference",
+      "refTo" : "ReportDefinition",
+      "refPath" : "/modules/basic/ReportDefinition.html"
+    }, {
+      "id" : "invoiceRetrieverLines.saveFilesInFolder",
+      "column" : "saveFilesInFolder",
+      "ar" : "Save Files In Folder",
+      "en" : "Save Files In Folder",
+      "type" : "Text"
+    }, {
+      "id" : "invoiceRetrieverLines.urlPrefix",
+      "column" : "urlPrefix",
+      "ar" : "URL Prefix",
+      "en" : "URL Prefix",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "lines",
+    "table" : "DuplicatedFieldsLines",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Clear On Duplicate",
+    "en" : "Clear On Duplicate",
+    "fields" : [ {
+      "id" : "lines.applicableFor",
+      "column" : "applicableFor",
+      "ar" : "مطبق على",
+      "en" : "Applicable For",
+      "type" : "Enum",
+      "enum" : "CriteriaValidatorApplicability"
+    }, {
+      "id" : "lines.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "lines.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "lines.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "lines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "lines.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "lines.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "maxFieldsLengthInDB",
+    "table" : "MaxFieldLengthInDB",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Max Fields Length In DB",
+    "en" : "Max Fields Length In DB",
+    "fields" : [ {
+      "id" : "maxFieldsLengthInDB.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "maxFieldsLengthInDB.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "maxFieldsLengthInDB.forTypeList",
+      "column" : "forTypeList_id",
+      "ar" : "لقوائم أنواع",
+      "en" : "For Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "maxFieldsLengthInDB.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "maxFieldsLengthInDB.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "maxFieldsLengthInDB.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "maxFieldsLengthInDB.maxLength",
+      "column" : "maxLength",
+      "ar" : "اقصي طول",
+      "en" : "Max length",
+      "type" : "Integer"
+    }, {
+      "id" : "maxFieldsLengthInDB.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "maxLinesCounts",
+    "table" : "MaxLineCount",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "أقصى عدد لسطور السندات والملفات",
+    "en" : "Max Lines Counts For Documents And Files",
+    "fields" : [ {
+      "id" : "maxLinesCounts.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "maxLinesCounts.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "maxLinesCounts.forTypeList",
+      "column" : "forTypeList_id",
+      "ar" : "لقوائم أنواع",
+      "en" : "For Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "maxLinesCounts.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "maxLinesCounts.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "maxLinesCounts.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "maxLinesCounts.maxLinesCount",
+      "column" : "maxLinesCount",
+      "ar" : "أقصى عدد لسطور السندات والملفات",
+      "en" : "Max Lines Count For Documents And Files",
+      "type" : "Integer"
+    }, {
+      "id" : "maxLinesCounts.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "maxPOSFieldsLengthInDB",
+    "table" : "MaxPOSFieldLengthInDB",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Max POS Fields Length In DB",
+    "en" : "Max POS Fields Length In DB",
+    "fields" : [ {
+      "id" : "maxPOSFieldsLengthInDB.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "maxPOSFieldsLengthInDB.fieldType",
+      "column" : "fieldType",
+      "ar" : "نوع الحقل",
+      "en" : "Field Type",
+      "type" : "Enum",
+      "enum" : "ParamFieldType"
+    }, {
+      "id" : "maxPOSFieldsLengthInDB.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "maxPOSFieldsLengthInDB.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "maxPOSFieldsLengthInDB.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "maxPOSFieldsLengthInDB.maxLength",
+      "column" : "maxLength",
+      "ar" : "اقصي طول",
+      "en" : "Max length",
+      "type" : "Integer"
+    }, {
+      "id" : "maxPOSFieldsLengthInDB.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "maxPOSFieldsLengthInDB.posEntityType",
+      "column" : "posEntityType",
+      "ar" : " النوع",
+      "en" : " Entity Type",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "notColorFields",
+    "table" : "NotColorField",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "ليست حقول ألوان",
+    "en" : "Not Color Fields",
+    "fields" : [ {
+      "id" : "notColorFields.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "notColorFields.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "notColorFields.forTypeList",
+      "column" : "forTypeList_id",
+      "ar" : "لقوائم أنواع",
+      "en" : "For Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "notColorFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "notColorFields.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "notColorFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "notColorFields.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "openCreateFields",
+    "table" : "OpenCreateFields",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "الحقول التي يتم فتح الإنشاء عند ادخال كود غير موجود",
+    "en" : "Fields that open Edit Screen when code not found",
+    "fields" : [ {
+      "id" : "openCreateFields.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "openCreateFields.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "openCreateFields.fieldToSetValueIn",
+      "column" : "fieldToSetValueIn",
+      "ar" : "الحقل الذي سيتم وضع القيمة به",
+      "en" : "Field To Set Value In",
+      "type" : "FieldID"
+    }, {
+      "id" : "openCreateFields.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "openCreateFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "openCreateFields.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "openCreateFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "openCreateFields.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "openInPopups",
+    "table" : "OpenInPopup",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Open Reference In Popup",
+    "en" : "Open Reference In Popup",
+    "fields" : [ {
+      "id" : "openInPopups.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "openInPopups.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "openInPopups.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "openInPopups.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "openInPopups.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "openInPopups.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "openInPopups.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "publicEntitiesLines",
+    "table" : "PublicEntitiesLine",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "fields" : [ {
+      "id" : "publicEntitiesLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "publicEntitiesLines.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "publicEntitiesLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "publicEntitiesLines.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "publicEntitiesLines.targetEntities",
+      "column" : "targetEntities_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "publicEntitiesLines.targetEntity",
+      "column" : "targetEntity",
+      "ar" : " النوع المستهدف",
+      "en" : " Tooltip Target Type",
+      "type" : "EntityType"
+    } ]
+  }, {
+    "id" : "queryBasedScreenField",
+    "table" : "QueryBasedScreenField",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "استعلامات الحقول المحسوبة",
+    "en" : "calculated Fields Queries",
+    "fields" : [ {
+      "id" : "queryBasedScreenField.detailField",
+      "column" : "detailField",
+      "ar" : "معرف السطور",
+      "en" : "Detail Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "queryBasedScreenField.field10Query",
+      "column" : "field10Query",
+      "ar" : "استعلام الحقل  المحسوب 10",
+      "en" : "Field10 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field11Query",
+      "column" : "field11Query",
+      "ar" : "استعلام الحقل  المحسوب 11",
+      "en" : "Field1 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field12Query",
+      "column" : "field12Query",
+      "ar" : "استعلام الحقل  المحسوب 12",
+      "en" : "Field2 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field13Query",
+      "column" : "field13Query",
+      "ar" : "استعلام الحقل  المحسوب 13",
+      "en" : "Field3 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field14Query",
+      "column" : "field14Query",
+      "ar" : "استعلام الحقل  المحسوب 14",
+      "en" : "Field4 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field15Query",
+      "column" : "field15Query",
+      "ar" : "استعلام الحقل  المحسوب 15",
+      "en" : "Field5 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field16Query",
+      "column" : "field16Query",
+      "ar" : "استعلام الحقل  المحسوب 16",
+      "en" : "Field6 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field17Query",
+      "column" : "field17Query",
+      "ar" : "استعلام الحقل  المحسوب 17",
+      "en" : "Field7 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field18Query",
+      "column" : "field18Query",
+      "ar" : "استعلام الحقل  المحسوب 18",
+      "en" : "Field8 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field19Query",
+      "column" : "field19Query",
+      "ar" : "استعلام الحقل  المحسوب 19",
+      "en" : "Field9 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field1Query",
+      "column" : "field1Query",
+      "ar" : "استعلام الحقل  المحسوب 1",
+      "en" : "Field1 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field20Query",
+      "column" : "field20Query",
+      "ar" : "استعلام الحقل  المحسوب 20",
+      "en" : "Field20 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field2Query",
+      "column" : "field2Query",
+      "ar" : "استعلام الحقل  المحسوب 2",
+      "en" : "Field2 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field3Query",
+      "column" : "field3Query",
+      "ar" : "استعلام الحقل  المحسوب 3",
+      "en" : "Field3 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field4Query",
+      "column" : "field4Query",
+      "ar" : "استعلام الحقل  المحسوب 4",
+      "en" : "Field4 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field5Query",
+      "column" : "field5Query",
+      "ar" : "استعلام الحقل  المحسوب 5",
+      "en" : "Field5 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field6Query",
+      "column" : "field6Query",
+      "ar" : "استعلام الحقل  المحسوب 6",
+      "en" : "Field6 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field7Query",
+      "column" : "field7Query",
+      "ar" : "استعلام الحقل  المحسوب 7",
+      "en" : "Field7 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field8Query",
+      "column" : "field8Query",
+      "ar" : "استعلام الحقل  المحسوب 8",
+      "en" : "Field8 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.field9Query",
+      "column" : "field9Query",
+      "ar" : "استعلام الحقل  المحسوب 9",
+      "en" : "Field9 Query",
+      "type" : "BigText"
+    }, {
+      "id" : "queryBasedScreenField.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "queryBasedScreenField.forTypeList",
+      "column" : "forTypeList_id",
+      "ar" : "لقوائم أنواع",
+      "en" : "For Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "queryBasedScreenField.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "queryBasedScreenField.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "queryBasedScreenField.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "queryBasedScreenField.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "referenceSearchingOperators",
+    "table" : "ReferenceSearchingOperatorLine",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "معامل البحث عن المراجع",
+    "en" : "Reference Searching Operators",
+    "fields" : [ {
+      "id" : "referenceSearchingOperators.applicableFor",
+      "column" : "applicableFor",
+      "ar" : "مطبق على",
+      "en" : "Applicable For",
+      "type" : "Enum",
+      "enum" : "CriteriaValidatorApplicability"
+    }, {
+      "id" : "referenceSearchingOperators.codeSearchOperator",
+      "column" : "codeSearchOperator",
+      "ar" : "معامل البحث في الكود",
+      "en" : "Code Search Operator",
+      "type" : "Enum",
+      "enum" : "Operator"
+    }, {
+      "id" : "referenceSearchingOperators.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "referenceSearchingOperators.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "referenceSearchingOperators.forTypeList",
+      "column" : "forTypeList_id",
+      "ar" : "لقوائم أنواع",
+      "en" : "For Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "referenceSearchingOperators.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "referenceSearchingOperators.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "referenceSearchingOperators.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "referenceSearchingOperators.name1SearchOperator",
+      "column" : "name1SearchOperator",
+      "ar" : "معامل البحث في الاسم العربي",
+      "en" : "Name 1 Search Operator",
+      "type" : "Enum",
+      "enum" : "Operator"
+    }, {
+      "id" : "referenceSearchingOperators.name2SearchOperator",
+      "column" : "name2SearchOperator",
+      "ar" : "معامل البحث في الاسم الإنجليزي",
+      "en" : "Name 2 Search Operator",
+      "type" : "Enum",
+      "enum" : "Operator"
+    }, {
+      "id" : "referenceSearchingOperators.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "richTextFields",
+    "table" : "RichTextFieldsLines",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Rich Text Fields",
+    "en" : "Rich Text Fields",
+    "fields" : [ {
+      "id" : "richTextFields.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "richTextFields.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "richTextFields.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "richTextFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "richTextFields.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "richTextFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "richTextFields.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "searchInNameInFindByCode",
+    "table" : "SearchInNameInFindByCode",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "البحث في الأسم العربى والانجليزى عند كتابة كود ملف",
+    "en" : "Search In Name In Find By Code",
+    "fields" : [ {
+      "id" : "searchInNameInFindByCode.applicableFor",
+      "column" : "applicableFor",
+      "ar" : "مطبق على",
+      "en" : "Applicable For",
+      "type" : "Enum",
+      "enum" : "CriteriaValidatorApplicability"
+    }, {
+      "id" : "searchInNameInFindByCode.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "searchInNameInFindByCode.forTypeList",
+      "column" : "forTypeList_id",
+      "ar" : "لقوائم أنواع",
+      "en" : "For Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "searchInNameInFindByCode.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "searchInNameInFindByCode.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "searchInNameInFindByCode.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "searchInNameInFindByCode.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "signatures",
+    "table" : "SignatureFields",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Signatures",
+    "en" : "Signatures",
+    "fields" : [ {
+      "id" : "signatures.backgroundImage",
+      "column" : "backgroundImage_id",
+      "ar" : "صورة الخلفية",
+      "en" : "Background Image",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "signatures.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "signatures.epadInk",
+      "column" : "epadInk",
+      "ar" : "ePad Ink",
+      "en" : "ePad Ink",
+      "type" : "Boolean"
+    }, {
+      "id" : "signatures.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "signatures.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "signatures.height",
+      "column" : "height",
+      "ar" : "الأبعاد (بالبيكسيل) | الأرتفاع",
+      "en" : "Pixels Dimension | Height",
+      "type" : "Integer"
+    }, {
+      "id" : "signatures.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "signatures.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "signatures.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "signatures.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "signatures.signatureLineWidth",
+      "column" : "signatureLineWidth",
+      "ar" : "عرض خط التوقيع",
+      "en" : "Signature Line Width",
+      "type" : "Integer"
+    }, {
+      "id" : "signatures.width",
+      "column" : "width",
+      "ar" : "الأبعاد (بالبيكسيل) | العرض",
+      "en" : "Pixels Dimension | Width",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "styleOverriderLines",
+    "table" : "GenRefRowStyleOverriderLine",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Style Overrider Details",
+    "en" : "Style Overrider Details",
+    "fields" : [ {
+      "id" : "styleOverriderLines.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "styleOverriderLines.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "styleOverriderLines.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "styleOverriderLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "styleOverriderLines.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "styleOverriderLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "styleOverriderLines.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "styleOverriderLines.rowBackgroundColorQuery",
+      "column" : "rowBackgroundColorQuery",
+      "ar" : "استعلام لون خلفية السطر",
+      "en" : "Row Background Color Query",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "textToLinkFields",
+    "table" : "TextToLinkFieldsLine",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "الحقول النصية المحوله الي روابط",
+    "en" : "Text To Link Fields",
+    "fields" : [ {
+      "id" : "textToLinkFields.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "textToLinkFields.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "textToLinkFields.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "textToLinkFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "textToLinkFields.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "textToLinkFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "textToLinkFields.linkType",
+      "column" : "linkType",
+      "ar" : "نوع الرابط",
+      "en" : "Link Type",
+      "type" : "Enum",
+      "enum" : "FieldLinkType"
+    }, {
+      "id" : "textToLinkFields.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    } ]
+  }, {
+    "id" : "useScannerInFields",
+    "table" : "UseScannerInField",
+    "joinColumn" : "genericReferenceOverrider_id",
+    "ar" : "Use Scanner In Fields",
+    "en" : "Use Scanner In Fields",
+    "fields" : [ {
+      "id" : "useScannerInFields.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "useScannerInFields.fieldID",
+      "column" : "fieldID",
+      "ar" : " الحقل",
+      "en" : " On Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "useScannerInFields.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "useScannerInFields.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "useScannerInFields.inActive",
+      "column" : "inActive",
+      "ar" : "غير نشط",
+      "en" : "Inactive",
+      "type" : "Boolean"
+    }, {
+      "id" : "useScannerInFields.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "useScannerInFields.owner",
+      "column" : "owner_id",
+      "ar" : " مالك المستند",
+      "en" : " Document Owner",
+      "type" : "Reference",
+      "refTo" : "GenericReferenceOverrider",
+      "refPath" : "/modules/basic/GenericReferenceOverrider.html"
+    }, {
+      "id" : "useScannerInFields.useNormalUploadByDefault",
+      "column" : "useNormalUploadByDefault",
+      "ar" : "استخدم التحميل العادي افتراضيًا",
+      "en" : "Use Normal Upload By Default",
+      "type" : "Boolean"
+    } ]
+  } ]
+}

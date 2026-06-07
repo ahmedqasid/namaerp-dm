@@ -1,0 +1,41 @@
+{
+  "entity" : "VacationsBalSysLine",
+  "table" : "VacationsBalSysLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/VacationsBalSysLine.html",
+  "fields" : [ {
+    "id" : "assignedValue",
+    "column" : "assignedValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "remainingValue",
+    "column" : "remainingValue",
+    "ar" : "المتبقي",
+    "en" : "Remaining Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "usedValue",
+    "column" : "usedValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "vacationType",
+    "column" : "vacationType_id",
+    "ar" : "نوع الأجازة",
+    "en" : "Vacation Type",
+    "type" : "Reference",
+    "refTo" : "VacationType",
+    "refPath" : "/modules/humanresource-payroll/VacationType.html"
+  } ]
+}

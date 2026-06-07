@@ -1,0 +1,12 @@
+{
+  "enum" : "DiscountCouponCalcType",
+  "values" : [ {
+    "id" : "Percentage",
+    "ar" : "نسبة",
+    "en" : "Percentage"
+  }, {
+    "id" : "Value",
+    "ar" : "قيمة",
+    "en" : "Value"
+  } ]
+}

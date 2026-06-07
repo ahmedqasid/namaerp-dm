@@ -1,0 +1,12 @@
+{
+  "enum" : "EndType",
+  "values" : [ {
+    "id" : "Early",
+    "ar" : "مبكر",
+    "en" : "Early"
+  }, {
+    "id" : "Ordinary",
+    "ar" : "عادي",
+    "en" : "Ordinary"
+  } ]
+}

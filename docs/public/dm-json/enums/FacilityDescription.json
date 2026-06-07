@@ -1,0 +1,12 @@
+{
+  "enum" : "FacilityDescription",
+  "values" : [ {
+    "id" : "Main",
+    "ar" : "رئيسيه",
+    "en" : "Main"
+  }, {
+    "id" : "Branch",
+    "ar" : "فرع",
+    "en" : "Branch"
+  } ]
+}

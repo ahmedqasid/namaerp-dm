@@ -1,0 +1,14 @@
+{
+  "enum" : "CostTransType",
+  "values" : [ {
+    "id" : "Normal",
+    "ar" : "عادية",
+    "en" : "Normal"
+  }, {
+    "id" : "RWC"
+  }, {
+    "id" : "Adjustment",
+    "ar" : "تسويات",
+    "en" : "Adjustment"
+  } ]
+}

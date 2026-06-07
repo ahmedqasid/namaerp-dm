@@ -1,0 +1,20 @@
+{
+  "enum" : "TicketExecutionStatus",
+  "values" : [ {
+    "id" : "AwaitingReview",
+    "ar" : "منتهي بإنتظار المراجعة",
+    "en" : "Awaiting Review"
+  }, {
+    "id" : "Reviewed",
+    "ar" : "تم المراجعة",
+    "en" : "Reviewed"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  } ]
+}

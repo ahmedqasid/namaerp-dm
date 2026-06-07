@@ -1,0 +1,852 @@
+{
+  "entity" : "RewardPointsConfig",
+  "table" : "RewardPointsConfig",
+  "module" : "basic-external-reward-points",
+  "ar" : "إعدادات نقاط المكافأة",
+  "arPlural" : "ملفات إعدادات نقاط المكافأة",
+  "en" : "Reward Points Configuration",
+  "enPlural" : "Reward Points Configuration Files",
+  "page" : "https://dm.namasoft.com/modules/basic-external-reward-points/RewardPointsConfig.html",
+  "fields" : [ {
+    "id" : "amountToEarnPointsGroovyScript",
+    "column" : "amountToEarnPointsGroovyScript",
+    "ar" : "جروفي المبلغ لحساب النقاط المُكتسبة",
+    "en" : "Amount To Earn Points Groovy Script",
+    "type" : "BigText"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "apiToken",
+    "column" : "apiToken",
+    "ar" : "API Token",
+    "en" : "API Token",
+    "type" : "BigText"
+  }, {
+    "id" : "authorizationCode",
+    "column" : "authorizationCode",
+    "ar" : "Authorization Code",
+    "en" : "Authorization Code",
+    "type" : "Text"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchID",
+    "column" : "branchID",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "Text"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "certificate",
+    "column" : "certificate_id",
+    "ar" : "Certificate",
+    "en" : "Certificate",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "deservePointsAfterDays",
+    "column" : "deservePointsAfterDays",
+    "ar" : "استحقاق النقاط بعد (أيام)",
+    "en" : "Deserve Points After (Days)",
+    "type" : "Integer"
+  }, {
+    "id" : "discountCouponBook",
+    "column" : "discountCouponBook_id",
+    "ar" : "دفتر قسيمة خصومات",
+    "en" : "Discount Coupon Book",
+    "type" : "Reference",
+    "refTo" : "DiscountCouponBook",
+    "refPath" : "/modules/supplychain-sales/DiscountCouponBook.html"
+  }, {
+    "id" : "discountCouponGroup",
+    "column" : "discountCouponGroup_id",
+    "ar" : "مجموعة قسيمة خصومات",
+    "en" : "Discount Coupon Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "dividePointsOnWhenRedeem",
+    "column" : "dividePointsOnWhenRedeem",
+    "ar" : "النقط المقابلة للمبلغ في التعويض (مقسوما علي)",
+    "en" : "Point Per Amount (Divided On)",
+    "type" : "Decimal"
+  }, {
+    "id" : "doNotConsiderTax1",
+    "column" : "doNotConsiderTax1",
+    "ar" : "عدم إعتبار الضريبة 1",
+    "en" : "Do Not Consider Tax 1",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotConsiderTax2",
+    "column" : "doNotConsiderTax2",
+    "ar" : "عدم إعتبار الضريبة 2",
+    "en" : "Do Not Consider Tax 2",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotConsiderTax3",
+    "column" : "doNotConsiderTax3",
+    "ar" : "عدم إعتبار الضريبة 3",
+    "en" : "Do Not Consider Tax 3",
+    "type" : "Boolean"
+  }, {
+    "id" : "doNotConsiderTax4",
+    "column" : "doNotConsiderTax4",
+    "ar" : "عدم إعتبار الضريبة 4",
+    "en" : "Do Not Consider Tax 4",
+    "type" : "Boolean"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "merchantToken",
+    "column" : "merchantToken",
+    "ar" : "معرف التاجر",
+    "en" : "Merchant Token",
+    "type" : "Text"
+  }, {
+    "id" : "mobileCorrectionQuery",
+    "column" : "mobileCorrectionQuery",
+    "ar" : "Mobile Correction Query",
+    "en" : "Mobile Correction Query",
+    "type" : "BigText"
+  }, {
+    "id" : "multiplyPointsByWhenRedeem",
+    "column" : "multiplyPointsByWhenRedeem",
+    "ar" : "المبلغ المقابل للنقاط في التعويض (مضروبأ في)",
+    "en" : "Amount Per Points For Redeeming (Multiplied By)",
+    "type" : "Decimal"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "otpCharacterCount",
+    "column" : "otpCharacterCount",
+    "ar" : "عدد أحرف OTP",
+    "en" : "OTP Character Count",
+    "type" : "Integer"
+  }, {
+    "id" : "otpExpiresAfterInMinutes",
+    "column" : "otpExpiresAfterInMinutes",
+    "ar" : "إنتهاء رمز التحقق اللحظي بعد (بالدقائق)",
+    "en" : "OTP Expires After In Minutes",
+    "type" : "Integer"
+  }, {
+    "id" : "otpFormat",
+    "column" : "otpFormat",
+    "ar" : "OTP Format",
+    "en" : "OTP Format",
+    "type" : "Enum",
+    "enum" : "OtpFormat"
+  }, {
+    "id" : "otpNotification",
+    "column" : "otpNotification_id",
+    "ar" : "تنبية كود التحقق",
+    "en" : "OTP Notification",
+    "type" : "Reference",
+    "refTo" : "NotificationDefinition",
+    "refPath" : "/modules/basic/NotificationDefinition.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "partnerCode",
+    "column" : "partnerCode",
+    "ar" : "Partner Code",
+    "en" : "Partner Code",
+    "type" : "Text"
+  }, {
+    "id" : "password",
+    "column" : "password",
+    "ar" : "كلمة المرور",
+    "en" : "Password",
+    "type" : "Password"
+  }, {
+    "id" : "pointsExpiresAfterDays",
+    "column" : "pointsExpiresAfterDays",
+    "ar" : "مدة صلاحية النقاط(تنتهي بعد عدد أيام)",
+    "en" : "Points Expiration Period (Days Count)",
+    "type" : "Integer"
+  }, {
+    "id" : "pointsOwnerFieldId",
+    "column" : "pointsOwnerFieldId",
+    "ar" : "حقل مالك النقاط",
+    "en" : "Points Owner Field ID",
+    "type" : "FieldID"
+  }, {
+    "id" : "posRegisterId",
+    "column" : "posRegisterId",
+    "ar" : "POS Register ID",
+    "en" : "POS Register ID",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "privateKey",
+    "column" : "privateKey_id",
+    "ar" : "Private Key",
+    "en" : "Private Key",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "publicKey",
+    "column" : "publicKey_id",
+    "ar" : "Public Key",
+    "en" : "Public Key",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "redeemWithoutOtp",
+    "column" : "redeemWithoutOtp",
+    "ar" : "استرداد النقاط بدون رمز OTP",
+    "en" : "Redeem Points Without OTP",
+    "type" : "Boolean"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "synchronizeRewardPointsWithWooCommerceSites",
+    "column" : "synchronizeRewardPointsWithWooCommerceSites_id",
+    "ar" : "مزامنة نقاط المكافأة مع متجر ووكوميرس",
+    "en" : "Synchronize Reward Points With Woo Commerce Site",
+    "type" : "Reference",
+    "refTo" : "MAGMagentoSite",
+    "refPath" : "/modules/magento/MAGMagentoSite.html"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "terminalID",
+    "column" : "terminalID",
+    "ar" : "Terminal ID",
+    "en" : "Terminal ID",
+    "type" : "Text"
+  }, {
+    "id" : "type",
+    "column" : "type",
+    "ar" : "النوع",
+    "en" : "Type",
+    "type" : "Enum",
+    "enum" : "RewardPointsConfigType"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "url",
+    "column" : "url",
+    "ar" : "رابط",
+    "en" : "URL",
+    "type" : "Text"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "useParentValueDateWithReturns",
+    "column" : "useParentValueDateWithReturns",
+    "ar" : "احتساب نقاط الولاء وفق التاريخ الفعلي للمستند الأعلى مع المردودات",
+    "en" : "Use Parent ValueDate With Returns",
+    "type" : "Boolean"
+  }, {
+    "id" : "userName",
+    "column" : "userName",
+    "ar" : "اسم المستخدم",
+    "en" : "User Name",
+    "type" : "Text"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "applyOn",
+    "table" : "RewardPointsConfigApplyOnLine",
+    "joinColumn" : "rewardPointsConfig_id",
+    "ar" : "قائمة المختارين",
+    "en" : "Selected Group",
+    "fields" : [ {
+      "id" : "applyOn.applicability",
+      "column" : "applicability",
+      "ar" : "التطبيق",
+      "en" : "Applicability",
+      "type" : "Enum",
+      "enum" : "RewardPointsConfigApplicability"
+    }, {
+      "id" : "applyOn.applyWhenQuery",
+      "column" : "applyWhenQuery",
+      "ar" : "تطبيق عند التوافق مع الاستعلام",
+      "en" : "Apply When Query",
+      "type" : "BigText"
+    }, {
+      "id" : "applyOn.criteria",
+      "column" : "criteria_id",
+      "ar" : "المعايير",
+      "en" : "Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "applyOn.dimensions.analysisSet",
+      "column" : "dimensionsAnalysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "applyOn.dimensions.branch",
+      "column" : "dimensionsBranch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "applyOn.dimensions.department",
+      "column" : "dimensionsDepartment_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "applyOn.dimensions.legalEntity",
+      "column" : "dimensionsLegalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "applyOn.dimensions.sector",
+      "column" : "dimensionsSector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    }, {
+      "id" : "applyOn.documentBook",
+      "column" : "documentBook_id",
+      "ar" : " دفتر مستند",
+      "en" : " Document Book",
+      "type" : "Reference",
+      "refTo" : "DocumentBook",
+      "refPath" : "/modules/basic/DocumentBook.html"
+    }, {
+      "id" : "applyOn.documentTerm",
+      "column" : "documentTerm_id",
+      "ar" : " توجيه مستند",
+      "en" : " Document Term",
+      "type" : "Reference",
+      "refTo" : "DocumentTerm",
+      "refPath" : "/modules/basic/DocumentTerm.html"
+    }, {
+      "id" : "applyOn.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "applyOn.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "applyOn.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  }, {
+    "id" : "branchesInfo",
+    "table" : "RewardPointsConfigLine",
+    "joinColumn" : "rewardPointsConfig_id",
+    "ar" : "Terminal and Branch ID Config",
+    "en" : "Terminal and Branch ID Config",
+    "fields" : [ {
+      "id" : "branchesInfo.branchId",
+      "column" : "branchId",
+      "ar" : "Branch ID",
+      "en" : "Branch ID",
+      "type" : "Text"
+    }, {
+      "id" : "branchesInfo.dimensions.analysisSet",
+      "column" : "dimensionsAnalysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "branchesInfo.dimensions.branch",
+      "column" : "dimensionsBranch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "branchesInfo.dimensions.department",
+      "column" : "dimensionsDepartment_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "branchesInfo.dimensions.legalEntity",
+      "column" : "dimensionsLegalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "branchesInfo.dimensions.sector",
+      "column" : "dimensionsSector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    }, {
+      "id" : "branchesInfo.documentBook",
+      "column" : "documentBook_id",
+      "ar" : " دفتر مستند",
+      "en" : " Document Book",
+      "type" : "Reference",
+      "refTo" : "DocumentBook",
+      "refPath" : "/modules/basic/DocumentBook.html"
+    }, {
+      "id" : "branchesInfo.documentTerm",
+      "column" : "documentTerm_id",
+      "ar" : " توجيه مستند",
+      "en" : " Document Term",
+      "type" : "Reference",
+      "refTo" : "DocumentTerm",
+      "refPath" : "/modules/basic/DocumentTerm.html"
+    }, {
+      "id" : "branchesInfo.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "branchesInfo.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "branchesInfo.terminalId",
+      "column" : "terminalId",
+      "ar" : "Terminal Id / Device Serial No",
+      "en" : "Terminal Id / Device Serial No",
+      "type" : "Text"
+    } ]
+  } ]
+}

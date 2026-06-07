@@ -1,0 +1,16 @@
+{
+  "enum" : "MachineRecallRequestType",
+  "values" : [ {
+    "id" : "Maintenance",
+    "ar" : "الصيانة",
+    "en" : "Fixed Asset Maintenance"
+  }, {
+    "id" : "Exchange",
+    "ar" : "استبدال",
+    "en" : "Exchange"
+  }, {
+    "id" : "Return",
+    "ar" : "إرجاع",
+    "en" : "Return"
+  } ]
+}

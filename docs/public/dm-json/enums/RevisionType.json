@@ -1,0 +1,12 @@
+{
+  "enum" : "RevisionType",
+  "values" : [ {
+    "id" : "Revise",
+    "ar" : " مراجعة",
+    "en" : " Revise"
+  }, {
+    "id" : "UnRevise",
+    "ar" : "إلغاء مراجعه",
+    "en" : "UnRevise"
+  } ]
+}

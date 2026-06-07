@@ -1,0 +1,46 @@
+{
+  "enum" : "RepOutputFormat",
+  "values" : [ {
+    "id" : "HTML",
+    "ar" : " HTML",
+    "en" : " HTML"
+  }, {
+    "id" : "PDF",
+    "ar" : " PDF",
+    "en" : " PDF"
+  }, {
+    "id" : "DOCX",
+    "ar" : " مستند ورد",
+    "en" : " Word Document"
+  }, {
+    "id" : "PPTX",
+    "ar" : " ملف باور بوينت",
+    "en" : " Power Point"
+  }, {
+    "id" : "ODS",
+    "ar" : " OpenOffice SpreadSheet",
+    "en" : " OpenOffice SpreadSheet"
+  }, {
+    "id" : "ODT",
+    "ar" : " OpenOffice Document",
+    "en" : " OpenOffice Document"
+  }, {
+    "id" : "RTF",
+    "ar" : " RTF",
+    "en" : " RTF"
+  }, {
+    "id" : "TXT",
+    "ar" : " ملف نصي",
+    "en" : " Text File"
+  }, {
+    "id" : "XLS",
+    "ar" : " إكسل 2000",
+    "en" : " Excel 2000"
+  }, {
+    "id" : "XLSX",
+    "ar" : " إكسل 2007",
+    "en" : " Excel 2007"
+  }, {
+    "id" : "JasperPrint"
+  } ]
+}

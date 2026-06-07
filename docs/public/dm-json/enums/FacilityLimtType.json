@@ -1,0 +1,16 @@
+{
+  "enum" : "FacilityLimtType",
+  "values" : [ {
+    "id" : "Once",
+    "ar" : "مرة واحدة",
+    "en" : "Once"
+  }, {
+    "id" : "Repeated",
+    "ar" : "متكرر",
+    "en" : "Repeated"
+  }, {
+    "id" : "Special",
+    "ar" : "حدود خاصة",
+    "en" : "Special Limits"
+  } ]
+}

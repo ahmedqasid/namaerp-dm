@@ -1,0 +1,12 @@
+{
+  "enum" : "SIInsuranceCategoryType",
+  "values" : [ {
+    "id" : "WithDownPayment",
+    "ar" : "بتحمل",
+    "en" : "With DownPayment"
+  }, {
+    "id" : "WithoutDownPayment",
+    "ar" : "بدون تحمل",
+    "en" : "Without DownPayment"
+  } ]
+}

@@ -1,0 +1,42 @@
+{
+  "entity" : "AIModelDefinition",
+  "table" : "AIModelDefinition",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AIModelDefinition.html",
+  "fields" : [ {
+    "id" : "apiKey",
+    "column" : "apiKey",
+    "ar" : "API Key",
+    "en" : "API Key",
+    "type" : "Password"
+  }, {
+    "id" : "chatModelsProviders",
+    "column" : "chatModelsProviders",
+    "ar" : "Cloud Provider",
+    "en" : "Cloud Provider",
+    "type" : "Enum",
+    "enum" : "ChatModelsProviders"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "modelName",
+    "column" : "modelName",
+    "ar" : "Model Name",
+    "en" : "Model Name",
+    "type" : "Text"
+  }, {
+    "id" : "modelUrl",
+    "column" : "modelUrl",
+    "ar" : "Model URL",
+    "en" : "Model URL",
+    "type" : "Text"
+  }, {
+    "id" : "topP",
+    "column" : "topP",
+    "ar" : "Top P",
+    "en" : "Top P",
+    "type" : "Decimal"
+  } ]
+}

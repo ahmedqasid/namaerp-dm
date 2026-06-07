@@ -1,0 +1,63 @@
+{
+  "entity" : "ChatConversation",
+  "table" : "ChatConversation",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ChatConversation.html",
+  "fields" : [ {
+    "id" : "chatConversationType",
+    "column" : "chatConversationType",
+    "type" : "Enum",
+    "enum" : "ChatConversationType"
+  }, {
+    "id" : "createdAt",
+    "column" : "createdAt",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Created At",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "groupOwner",
+    "columns" : [ "groupOwnerActualCode", " groupOwnerCode", " groupOwnerEntityType", " groupOwnerId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "groupTitle",
+    "column" : "groupTitle",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "isActive",
+    "column" : "isActive",
+    "ar" : "فعال",
+    "en" : "Active",
+    "type" : "Boolean"
+  }, {
+    "id" : "kitNetChatGroupConfigLineId",
+    "column" : "kitNetChatGroupConfigLineId",
+    "type" : "ID"
+  }, {
+    "id" : "lastMessageAt",
+    "column" : "lastMessageAt",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "lastMessagePreview",
+    "column" : "lastMessagePreview",
+    "type" : "BigText"
+  }, {
+    "id" : "lastMessageType",
+    "column" : "lastMessageType",
+    "type" : "Enum",
+    "enum" : "ChatMessageType"
+  }, {
+    "id" : "participantCount",
+    "column" : "participantCount",
+    "type" : "Integer"
+  }, {
+    "id" : "updatedAt",
+    "column" : "updatedAt",
+    "type" : "DateAndTime"
+  } ]
+}

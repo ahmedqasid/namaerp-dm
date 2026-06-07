@@ -1,0 +1,16 @@
+{
+  "enum" : "VacationHolidayPolicyType",
+  "values" : [ {
+    "id" : "LikeBalance",
+    "ar" : "مثل الأرصدة",
+    "en" : "Like Balances"
+  }, {
+    "id" : "IncludedInBalance",
+    "ar" : "تشمل",
+    "en" : "Include"
+  }, {
+    "id" : "ExcludedFromBalance",
+    "ar" : "لاتشمل",
+    "en" : "Exclude"
+  } ]
+}

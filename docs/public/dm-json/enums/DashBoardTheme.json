@@ -1,0 +1,14 @@
+{
+  "enum" : "DashBoardTheme",
+  "values" : [ {
+    "id" : "Default",
+    "ar" : "افتراضي",
+    "en" : "Default"
+  }, {
+    "id" : "Dark"
+  }, {
+    "id" : "Grid",
+    "ar" : "Grid",
+    "en" : "Grid"
+  } ]
+}

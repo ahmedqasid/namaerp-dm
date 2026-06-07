@@ -1,0 +1,16 @@
+{
+  "enum" : "TaxConfigDefault",
+  "values" : [ {
+    "id" : "GlobalConfig",
+    "ar" : "الإعدادات العامة",
+    "en" : "Global Configuration"
+  }, {
+    "id" : "TaxPlanLine",
+    "ar" : "من سطور المستند",
+    "en" : "Tax Plan Line"
+  }, {
+    "id" : "TaxPlanHeader",
+    "ar" : "من راس المستند",
+    "en" : "Tax Plan Header"
+  } ]
+}

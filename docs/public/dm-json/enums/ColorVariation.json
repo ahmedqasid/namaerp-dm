@@ -1,0 +1,28 @@
+{
+  "enum" : "ColorVariation",
+  "values" : [ {
+    "id" : "DEFAULT",
+    "ar" : "DEFAULT",
+    "en" : "DEFAULT"
+  }, {
+    "id" : "PASTEL",
+    "ar" : "PASTEL",
+    "en" : "PASTEL"
+  }, {
+    "id" : "SOFT",
+    "ar" : "SOFT",
+    "en" : "SOFT"
+  }, {
+    "id" : "HARD",
+    "ar" : "HARD",
+    "en" : "HARD"
+  }, {
+    "id" : "LIGHT",
+    "ar" : "LIGHT",
+    "en" : "LIGHT"
+  }, {
+    "id" : "PALE",
+    "ar" : "PALE",
+    "en" : "PALE"
+  } ]
+}

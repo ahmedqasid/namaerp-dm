@@ -1,0 +1,16 @@
+{
+  "enum" : "ConfigurationType",
+  "values" : [ {
+    "id" : "User",
+    "ar" : "مستخدم",
+    "en" : "User"
+  }, {
+    "id" : "Global",
+    "ar" : "شامل",
+    "en" : "Global"
+  }, {
+    "id" : "Entity",
+    "ar" : "سجل",
+    "en" : "Entity"
+  } ]
+}

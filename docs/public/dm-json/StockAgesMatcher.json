@@ -1,0 +1,41 @@
+{
+  "entity" : "StockAgesMatcher",
+  "table" : "StockAgesMatcher",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/StockAgesMatcher.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "inLineId",
+    "column" : "inLineId",
+    "type" : "ID"
+  }, {
+    "id" : "maxDocValueDate",
+    "column" : "maxDocValueDate",
+    "type" : "Date"
+  }, {
+    "id" : "outLineId",
+    "column" : "outLineId",
+    "type" : "ID"
+  }, {
+    "id" : "remainingIn",
+    "column" : "remainingIn",
+    "type" : "Decimal"
+  }, {
+    "id" : "remainingOut",
+    "column" : "remainingOut",
+    "type" : "Decimal"
+  }, {
+    "id" : "stockAgesIdx",
+    "column" : "stockAgesIdx",
+    "type" : "Text"
+  }, {
+    "id" : "value",
+    "column" : "value",
+    "ar" : "القيمة",
+    "en" : "Value",
+    "type" : "Decimal"
+  } ]
+}

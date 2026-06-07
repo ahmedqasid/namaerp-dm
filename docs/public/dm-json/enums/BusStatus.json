@@ -1,0 +1,12 @@
+{
+  "enum" : "BusStatus",
+  "values" : [ {
+    "id" : "BusStatus1"
+  }, {
+    "id" : "BusStatus2"
+  }, {
+    "id" : "BusStatus3"
+  }, {
+    "id" : "BusStatus4"
+  } ]
+}

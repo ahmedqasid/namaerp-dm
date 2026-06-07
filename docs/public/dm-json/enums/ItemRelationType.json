@@ -1,0 +1,28 @@
+{
+  "enum" : "ItemRelationType",
+  "values" : [ {
+    "id" : "Substitute",
+    "ar" : "بديل",
+    "en" : "Substitute"
+  }, {
+    "id" : "CrossSell",
+    "ar" : "صنف مقترح",
+    "en" : "Cross Sell"
+  }, {
+    "id" : "Supercede",
+    "ar" : "تغير إلى",
+    "en" : "Supercede"
+  }, {
+    "id" : "AddedService",
+    "ar" : "خدمة إضافية",
+    "en" : "Added Service"
+  }, {
+    "id" : "ItemAccessories",
+    "ar" : "إكسسوارات صنف",
+    "en" : "Item Accessories"
+  }, {
+    "id" : "FreeItem",
+    "ar" : "صنف مجاني",
+    "en" : "FreeItem"
+  } ]
+}

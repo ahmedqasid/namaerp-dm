@@ -1,0 +1,24 @@
+{
+  "enum" : "TaskType",
+  "values" : [ {
+    "id" : "EMail",
+    "ar" : "EMail",
+    "en" : "EMail"
+  }, {
+    "id" : "SMS",
+    "ar" : "الرسائل القصيرة",
+    "en" : "SMS"
+  }, {
+    "id" : "CreateNotification",
+    "ar" : "Create Notification",
+    "en" : "Create Notification"
+  }, {
+    "id" : "FCMPushNotification",
+    "ar" : "FCM Push Notification",
+    "en" : "FCM Push Notification"
+  }, {
+    "id" : "WhatsAppMessage",
+    "ar" : "WhatsApp Message",
+    "en" : "WhatsApp  Message"
+  } ]
+}

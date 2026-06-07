@@ -1,0 +1,33 @@
+{
+  "entity" : "GrantedDevice",
+  "table" : "GrantedDevice",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/GrantedDevice.html",
+  "fields" : [ {
+    "id" : "createdDate",
+    "column" : "createdDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lastAccessDate",
+    "column" : "lastAccessDate",
+    "type" : "Date"
+  }, {
+    "id" : "loginId",
+    "column" : "loginId",
+    "ar" : "كود المستخدم",
+    "en" : "Login Id",
+    "type" : "Text"
+  }, {
+    "id" : "password",
+    "column" : "password",
+    "ar" : "كلمة المرور",
+    "en" : "Password",
+    "type" : "Password"
+  } ]
+}

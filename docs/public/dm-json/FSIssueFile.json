@@ -1,0 +1,1993 @@
+{
+  "entity" : "FSIssueFile",
+  "table" : "FSIssueFile",
+  "module" : "accounting",
+  "ar" : "إصدار قائمة مالية",
+  "arPlural" : "إصدار قوائم مالية",
+  "en" : "Issuing Financial Statement File",
+  "enPlural" : "Issuing Financial Statement Files",
+  "page" : "https://dm.namasoft.com/modules/accounting/FSIssueFile.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "comparisonType",
+    "column" : "comparisonType",
+    "ar" : "نوع المقارنة",
+    "en" : "Comparison Type",
+    "type" : "Enum",
+    "enum" : "FSComparisonType"
+  }, {
+    "id" : "considerDebitAndCreditCharts",
+    "column" : "considerDebitAndCreditCharts",
+    "ar" : "اعتبار شجرة المدين و شجرة الدائن",
+    "en" : "Consider Debit And Credit Charts",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTotalsLines",
+    "column" : "createTotalsLines",
+    "ar" : "حساب إجماليات السطور",
+    "en" : "Create Totals Lines",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
+    "id" : "fromDate2",
+    "column" : "FromDate2",
+    "ar" : "من تاريخ 2",
+    "en" : "From Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "fromDimensions.analysisSet",
+    "column" : "fromAnalysisSet_id",
+    "ar" : "من مجموعة تحليلية",
+    "en" : "From AnalysisSet",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "fromDimensions.branch",
+    "column" : "fromBranch_id",
+    "ar" : "من فرع",
+    "en" : "From Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "fromDimensions.department",
+    "column" : "fromDepartment_id",
+    "ar" : "من إدارة",
+    "en" : "From Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "fromDimensions.legalEntity",
+    "column" : "fromLegalEntity_id",
+    "ar" : "من شركة",
+    "en" : "From LegalEntity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "fromDimensions.sector",
+    "column" : "fromSector_id",
+    "ar" : "من قطاع",
+    "en" : "From Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "fromPeriod",
+    "column" : "fromPeriod_id",
+    "ar" : "من فترة",
+    "en" : "From Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fromPeriod2",
+    "column" : "fromPeriod2_id",
+    "ar" : "من فترة 2",
+    "en" : "From Period 2",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "group1By",
+    "column" : "group1By",
+    "ar" : "التجميع 1 بـ",
+    "en" : "Group 1 By",
+    "type" : "Enum",
+    "enum" : "FSGroupBy"
+  }, {
+    "id" : "group2By",
+    "column" : "group2By",
+    "ar" : "التجميع 2 بـ",
+    "en" : "Group 2 By",
+    "type" : "Enum",
+    "enum" : "FSGroupBy"
+  }, {
+    "id" : "group3By",
+    "column" : "group3By",
+    "ar" : "التجميع 3 بـ",
+    "en" : "Group 3 By",
+    "type" : "Enum",
+    "enum" : "FSGroupBy"
+  }, {
+    "id" : "group4By",
+    "column" : "group4By",
+    "ar" : "التجميع 4 بـ",
+    "en" : "Group 4 By",
+    "type" : "Enum",
+    "enum" : "FSGroupBy"
+  }, {
+    "id" : "group5By",
+    "column" : "group5By",
+    "ar" : "التجميع 5 بـ",
+    "en" : "Group 5 By",
+    "type" : "Enum",
+    "enum" : "FSGroupBy"
+  }, {
+    "id" : "hideEqualBalancedTransactions",
+    "column" : "hideEqualBalancedTransactions",
+    "ar" : "إخفاء الحركات الموزونة",
+    "en" : "Hide Equal Balanced Transactions",
+    "type" : "Boolean"
+  }, {
+    "id" : "hideZeroValueBalances",
+    "column" : "hideZeroValueBalances",
+    "ar" : "إخفاء الحسابات التي بدون اي حركات",
+    "en" : "Hide Lines Without Any Movement",
+    "type" : "Boolean"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reportArabicTitle",
+    "column" : "reportArabicTitle",
+    "ar" : "عنوان التقرير عربى",
+    "en" : "Report Arabic Title",
+    "type" : "Text"
+  }, {
+    "id" : "reportEnglishTitle",
+    "column" : "reportEnglishTitle",
+    "ar" : "عنوان التقرير إنجليزى",
+    "en" : "Report English Title",
+    "type" : "Text"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "settingsFile",
+    "column" : "settingsFile_id",
+    "ar" : "ملف الإعدادات",
+    "en" : "Settings File",
+    "type" : "Reference",
+    "refTo" : "FSSettingsFile",
+    "refPath" : "/modules/accounting/FSSettingsFile.html"
+  }, {
+    "id" : "showToLevel",
+    "column" : "showToLevel",
+    "ar" : "حتى مستوى",
+    "en" : "Show To Level",
+    "type" : "Integer"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  }, {
+    "id" : "toDate2",
+    "column" : "toDate2",
+    "ar" : "إلى تاريخ 2",
+    "en" : "To Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "toDimensions.analysisSet",
+    "column" : "toAnalysisSet_id",
+    "ar" : "إلى مجموعة تحليلية",
+    "en" : "to AnalysisSet",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "toDimensions.branch",
+    "column" : "toBranch_id",
+    "ar" : "إلى فرع",
+    "en" : "to Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "toDimensions.department",
+    "column" : "toDepartment_id",
+    "ar" : "إلى إدارة",
+    "en" : "to Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "toDimensions.legalEntity",
+    "column" : "toLegalEntity_id",
+    "ar" : "إلى شركة",
+    "en" : "to LegalEntity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "toDimensions.sector",
+    "column" : "toSector_id",
+    "ar" : "إلى قطاع",
+    "en" : "to Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "toPeriod",
+    "column" : "toPeriod_id",
+    "ar" : "الي فترة",
+    "en" : "To Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "toPeriod2",
+    "column" : "toPeriod2_id",
+    "ar" : "الي فترة 2",
+    "en" : "To Period 2",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "trialBalance",
+    "column" : "trialBalance",
+    "ar" : "ميزان مراجعة",
+    "en" : "Trial Balance",
+    "type" : "Boolean"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "lines",
+    "table" : "FSIssueFileLine",
+    "joinColumn" : "fSIssueFile_id",
+    "ar" : " التفاصيل",
+    "en" : " Details",
+    "fields" : [ {
+      "id" : "lines.arabicDescription",
+      "column" : "arabicDescription",
+      "ar" : "الوصف عربى",
+      "en" : "Arabic Description",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.balanceCr",
+      "column" : "balanceCr",
+      "ar" : "رصيد | دائن",
+      "en" : "Balance | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.balanceDr",
+      "column" : "balanceDr",
+      "ar" : "رصيد | مدين",
+      "en" : "Balance | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.chartLevel",
+      "column" : "chartLevel",
+      "type" : "Integer"
+    }, {
+      "id" : "lines.code",
+      "column" : "code",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "lines.englishDescription",
+      "column" : "englishDescription",
+      "ar" : "الوصف إنجليزى",
+      "en" : "English Description",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.equation",
+      "column" : "equation",
+      "ar" : "المعادلة",
+      "en" : "Equation",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.group1By",
+      "columns" : [ "group1ByActualCode", " group1ByCode", " group1ByEntityType", " group1ById" ],
+      "ar" : "التجميع 1 بـ",
+      "en" : "Group 1 By",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.group2By",
+      "columns" : [ "group2ByActualCode", " group2ByCode", " group2ByEntityType", " group2ById" ],
+      "ar" : "التجميع 2 بـ",
+      "en" : "Group 2 By",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.group3By",
+      "columns" : [ "group3ByActualCode", " group3ByCode", " group3ByEntityType", " group3ById" ],
+      "ar" : "التجميع 3 بـ",
+      "en" : "Group 3 By",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.group4By",
+      "columns" : [ "group4ByActualCode", " group4ByCode", " group4ByEntityType", " group4ById" ],
+      "ar" : "التجميع 4 بـ",
+      "en" : "Group 4 By",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.group5By",
+      "columns" : [ "group5ByActualCode", " group5ByCode", " group5ByEntityType", " group5ById" ],
+      "ar" : "التجميع 5 بـ",
+      "en" : "Group 5 By",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "lines.inVisibleInReports",
+      "column" : "inVisibleInReports",
+      "ar" : "غير ظاهر في التقارير",
+      "en" : "In Visible In Reports",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.level",
+      "column" : "level",
+      "ar" : "المستوى",
+      "en" : "Level",
+      "type" : "Enum",
+      "enum" : "FSLineLevel"
+    }, {
+      "id" : "lines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "lines.openCr",
+      "column" : "openCr",
+      "ar" : "افتتاحي | دائن",
+      "en" : "Opening | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.openDr",
+      "column" : "openDr",
+      "ar" : "افتتاحي | مدين",
+      "en" : "Opening | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p101.credit",
+      "column" : "p101Credit",
+      "ar" : "سنة 1 - فترة 1 | دائن",
+      "en" : "Year1 - P1 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p101.debit",
+      "column" : "p101Debit",
+      "ar" : "سنة 1 - فترة 1 | مدين",
+      "en" : "Year1 - P1 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p101.period",
+      "column" : "p101Period_id",
+      "ar" : "سنة 1 - فترة 1 | فترة",
+      "en" : "Year1 - P1 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p101.repLink",
+      "column" : "p101RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p101.value",
+      "column" : "p101Value",
+      "ar" : "سنة 1 - فترة 1 | قيمة",
+      "en" : "Year1 - P1 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p102.credit",
+      "column" : "p102Credit",
+      "ar" : "سنة 1 - فترة 2 | دائن",
+      "en" : "Year1 - P2 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p102.debit",
+      "column" : "p102Debit",
+      "ar" : "سنة 1 - فترة 2 | مدين",
+      "en" : "Year1 - P2 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p102.period",
+      "column" : "p102Period_id",
+      "ar" : "سنة 1 - فترة 2 | فترة",
+      "en" : "Year1 - P2 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p102.repLink",
+      "column" : "p102RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p102.value",
+      "column" : "p102Value",
+      "ar" : "سنة 1 - فترة 2 | قيمة",
+      "en" : "Year1 - P2 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p103.credit",
+      "column" : "p103Credit",
+      "ar" : "سنة 1 - فترة 3 | دائن",
+      "en" : "Year1 - P3 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p103.debit",
+      "column" : "p103Debit",
+      "ar" : "سنة 1 - فترة 3 | مدين",
+      "en" : "Year1 - P3 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p103.period",
+      "column" : "p103Period_id",
+      "ar" : "سنة 1 - فترة 3 | فترة",
+      "en" : "Year1 - P3 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p103.repLink",
+      "column" : "p103RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p103.value",
+      "column" : "p103Value",
+      "ar" : "سنة 1 - فترة 3 | قيمة",
+      "en" : "Year1 - P3 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p104.credit",
+      "column" : "p104Credit",
+      "ar" : "سنة 1 - فترة 4 | دائن",
+      "en" : "Year1 - P4 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p104.debit",
+      "column" : "p104Debit",
+      "ar" : "سنة 1 - فترة 4 | مدين",
+      "en" : "Year1 - P4 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p104.period",
+      "column" : "p104Period_id",
+      "ar" : "سنة 1 - فترة 4 | فترة",
+      "en" : "Year1 - P4 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p104.repLink",
+      "column" : "p104RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p104.value",
+      "column" : "p104Value",
+      "ar" : "سنة 1 - فترة 4 | قيمة",
+      "en" : "Year1 - P4 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p105.credit",
+      "column" : "p105Credit",
+      "ar" : "سنة 1 - فترة 5 | دائن",
+      "en" : "Year1 - P5 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p105.debit",
+      "column" : "p105Debit",
+      "ar" : "سنة 1 - فترة 5 | مدين",
+      "en" : "Year1 - P5 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p105.period",
+      "column" : "p105Period_id",
+      "ar" : "سنة 1 - فترة 5 | فترة",
+      "en" : "Year1 - P5 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p105.repLink",
+      "column" : "p105RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p105.value",
+      "column" : "p105Value",
+      "ar" : "سنة 1 - فترة 5 | قيمة",
+      "en" : "Year1 - P5 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p106.credit",
+      "column" : "p106Credit",
+      "ar" : "سنة 1 - فترة 6 | دائن",
+      "en" : "Year1 - P6 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p106.debit",
+      "column" : "p106Debit",
+      "ar" : "سنة 1 - فترة 6 | مدين",
+      "en" : "Year1 - P6 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p106.period",
+      "column" : "p106Period_id",
+      "ar" : "سنة 1 - فترة 6 | فترة",
+      "en" : "Year1 - P6 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p106.repLink",
+      "column" : "p106RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p106.value",
+      "column" : "p106Value",
+      "ar" : "سنة 1 - فترة 6 | قيمة",
+      "en" : "Year1 - P6 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p107.credit",
+      "column" : "p107Credit",
+      "ar" : "سنة 1 - فترة 7 | دائن",
+      "en" : "Year1 - P7 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p107.debit",
+      "column" : "p107Debit",
+      "ar" : "سنة 1 - فترة 7 | مدين",
+      "en" : "Year1 - P7 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p107.period",
+      "column" : "p107Period_id",
+      "ar" : "سنة 1 - فترة 7 | فترة",
+      "en" : "Year1 - P7 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p107.repLink",
+      "column" : "p107RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p107.value",
+      "column" : "p107Value",
+      "ar" : "سنة 1 - فترة 7 | قيمة",
+      "en" : "Year1 - P7 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p108.credit",
+      "column" : "p108Credit",
+      "ar" : "سنة 1 - فترة 8 | دائن",
+      "en" : "Year1 - P8 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p108.debit",
+      "column" : "p108Debit",
+      "ar" : "سنة 1 - فترة 8 | مدين",
+      "en" : "Year1 - P8 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p108.period",
+      "column" : "p108Period_id",
+      "ar" : "سنة 1 - فترة 8 | فترة",
+      "en" : "Year1 - P8 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p108.repLink",
+      "column" : "p108RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p108.value",
+      "column" : "p108Value",
+      "ar" : "سنة 1 - فترة 8 | قيمة",
+      "en" : "Year1 - P8 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p109.credit",
+      "column" : "p109Credit",
+      "ar" : "سنة 1 - فترة 9 | دائن",
+      "en" : "Year1 - P9 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p109.debit",
+      "column" : "p109Debit",
+      "ar" : "سنة 1 - فترة 9 | مدين",
+      "en" : "Year1 - P9 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p109.period",
+      "column" : "p109Period_id",
+      "ar" : "سنة 1 - فترة 9 | فترة",
+      "en" : "Year1 - P9 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p109.repLink",
+      "column" : "p109RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p109.value",
+      "column" : "p109Value",
+      "ar" : "سنة 1 - فترة 9 | قيمة",
+      "en" : "Year1 - P9 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p110.credit",
+      "column" : "p110Credit",
+      "ar" : "سنة 1 - فترة 10 | دائن",
+      "en" : "Year1 - P10 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p110.debit",
+      "column" : "p110Debit",
+      "ar" : "سنة 1 - فترة 10 | مدين",
+      "en" : "Year1 - P10 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p110.period",
+      "column" : "p110Period_id",
+      "ar" : "سنة 1 - فترة 10 | فترة",
+      "en" : "Year1 - P10 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p110.repLink",
+      "column" : "p110RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p110.value",
+      "column" : "p110Value",
+      "ar" : "سنة 1 - فترة 10 | قيمة",
+      "en" : "Year1 - P10 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p111.credit",
+      "column" : "p111Credit",
+      "ar" : "سنة 1 - فترة 11 | دائن",
+      "en" : "Year1 - P11 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p111.debit",
+      "column" : "p111Debit",
+      "ar" : "سنة 1 - فترة 11 | مدين",
+      "en" : "Year1 - P11 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p111.period",
+      "column" : "p111Period_id",
+      "ar" : "سنة 1 - فترة 11 | فترة",
+      "en" : "Year1 - P11 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p111.repLink",
+      "column" : "p111RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p111.value",
+      "column" : "p111Value",
+      "ar" : "سنة 1 - فترة 11 | قيمة",
+      "en" : "Year1 - P11 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p112.credit",
+      "column" : "p112Credit",
+      "ar" : "سنة 1 - فترة 12 | دائن",
+      "en" : "Year1 - P12 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p112.debit",
+      "column" : "p112Debit",
+      "ar" : "سنة 1 - فترة 12 | مدين",
+      "en" : "Year1 - P12 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p112.period",
+      "column" : "p112Period_id",
+      "ar" : "سنة 1 - فترة 12 | فترة",
+      "en" : "Year1 - P12 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p112.repLink",
+      "column" : "p112RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p112.value",
+      "column" : "p112Value",
+      "ar" : "سنة 1 - فترة 12 | قيمة",
+      "en" : "Year1 - P12 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p113.credit",
+      "column" : "p113Credit",
+      "ar" : "سنة 1 - فترة 13 | دائن",
+      "en" : "Year1 - P13 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p113.debit",
+      "column" : "p113Debit",
+      "ar" : "سنة 1 - فترة 13 | مدين",
+      "en" : "Year1 - P13 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p113.period",
+      "column" : "p113Period_id",
+      "ar" : "سنة 1 - فترة 13 | فترة",
+      "en" : "Year1 - P13 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p113.repLink",
+      "column" : "p113RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p113.value",
+      "column" : "p113Value",
+      "ar" : "سنة 1 - فترة 13 | قيمة",
+      "en" : "Year1 - P13 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p114.credit",
+      "column" : "p114Credit",
+      "ar" : "سنة 1 - فترة 14 | دائن",
+      "en" : "Year1 - P14 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p114.debit",
+      "column" : "p114Debit",
+      "ar" : "سنة 1 - فترة 14 | مدين",
+      "en" : "Year1 - P14 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p114.period",
+      "column" : "p114Period_id",
+      "ar" : "سنة 1 - فترة 14 | فترة",
+      "en" : "Year1 - P14 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p114.repLink",
+      "column" : "p114RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p114.value",
+      "column" : "p114Value",
+      "ar" : "سنة 1 - فترة 14 | قيمة",
+      "en" : "Year1 - P14 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p115.credit",
+      "column" : "p115Credit",
+      "ar" : "سنة 1 - فترة 15 | دائن",
+      "en" : "Year1 - P15 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p115.debit",
+      "column" : "p115Debit",
+      "ar" : "سنة 1 - فترة 15 | مدين",
+      "en" : "Year1 - P15 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p115.period",
+      "column" : "p115Period_id",
+      "ar" : "سنة 1 - فترة 15 | فترة",
+      "en" : "Year1 - P15 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p115.repLink",
+      "column" : "p115RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p115.value",
+      "column" : "p115Value",
+      "ar" : "سنة 1 - فترة 15 | قيمة",
+      "en" : "Year1 - P15 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p1Open.credit",
+      "column" : "p1OpenCredit",
+      "ar" : "دائن",
+      "en" : "Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p1Open.debit",
+      "column" : "p1OpenDebit",
+      "ar" : "مدين",
+      "en" : "Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p1Open.period",
+      "column" : "p1OpenPeriod_id",
+      "ar" : "الفترة",
+      "en" : "Period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p1Open.repLink",
+      "column" : "p1OpenRepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p1Open.value",
+      "column" : "p1OpenValue",
+      "ar" : "سنة 1 - إفتتاحى",
+      "en" : "Year1 - Open",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p1Total.credit",
+      "column" : "p1TotalCredit",
+      "ar" : "دائن",
+      "en" : "Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p1Total.debit",
+      "column" : "p1TotalDebit",
+      "ar" : "مدين",
+      "en" : "Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p1Total.period",
+      "column" : "p1TotalPeriod_id",
+      "ar" : "الفترة",
+      "en" : "Period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p1Total.repLink",
+      "column" : "p1TotalRepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p1Total.value",
+      "column" : "p1TotalValue",
+      "ar" : "سنة 1 - إجمالى",
+      "en" : "Year1 - Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p201.credit",
+      "column" : "p201Credit",
+      "ar" : "سنة 2 - فترة 1 | دائن",
+      "en" : "Year2 - P1 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p201.debit",
+      "column" : "p201Debit",
+      "ar" : "سنة 2 - فترة 1 | مدين",
+      "en" : "Year2 - P1 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p201.period",
+      "column" : "p201Period_id",
+      "ar" : "سنة 2 - فترة 1 | فترة",
+      "en" : "Year2 - P1 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p201.repLink",
+      "column" : "p201RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p201.value",
+      "column" : "p201Value",
+      "ar" : "سنة 2 - فترة 1 | قيمة",
+      "en" : "Year2 - P1 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p202.credit",
+      "column" : "p202Credit",
+      "ar" : "سنة 2 - فترة 2 | دائن",
+      "en" : "Year2 - P2 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p202.debit",
+      "column" : "p202Debit",
+      "ar" : "سنة 2 - فترة 2 | مدين",
+      "en" : "Year2 - P2 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p202.period",
+      "column" : "p202Period_id",
+      "ar" : "سنة 2 - فترة 2 | فترة",
+      "en" : "Year2 - P2 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p202.repLink",
+      "column" : "p202RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p202.value",
+      "column" : "p202Value",
+      "ar" : "سنة 2 - فترة 2 | قيمة",
+      "en" : "Year2 - P2 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p203.credit",
+      "column" : "p203Credit",
+      "ar" : "سنة 2 - فترة 3 | دائن",
+      "en" : "Year2 - P3 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p203.debit",
+      "column" : "p203Debit",
+      "ar" : "سنة 2 - فترة 3 | مدين",
+      "en" : "Year2 - P3 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p203.period",
+      "column" : "p203Period_id",
+      "ar" : "سنة 2 - فترة 3 | فترة",
+      "en" : "Year2 - P3 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p203.repLink",
+      "column" : "p203RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p203.value",
+      "column" : "p203Value",
+      "ar" : "سنة 2 - فترة 3 | قيمة",
+      "en" : "Year2 - P3 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p204.credit",
+      "column" : "p204Credit",
+      "ar" : "سنة 2 - فترة 4 | دائن",
+      "en" : "Year2 - P4 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p204.debit",
+      "column" : "p204Debit",
+      "ar" : "سنة 2 - فترة 4 | مدين",
+      "en" : "Year2 - P4 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p204.period",
+      "column" : "p204Period_id",
+      "ar" : "سنة 2 - فترة 4 | فترة",
+      "en" : "Year2 - P4 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p204.repLink",
+      "column" : "p204RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p204.value",
+      "column" : "p204Value",
+      "ar" : "سنة 2 - فترة 4 | قيمة",
+      "en" : "Year2 - P4 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p205.credit",
+      "column" : "p205Credit",
+      "ar" : "سنة 2 - فترة 5 | دائن",
+      "en" : "Year2 - P5 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p205.debit",
+      "column" : "p205Debit",
+      "ar" : "سنة 2 - فترة 5 | مدين",
+      "en" : "Year2 - P5 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p205.period",
+      "column" : "p205Period_id",
+      "ar" : "سنة 2 - فترة 5 | فترة",
+      "en" : "Year2 - P5 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p205.repLink",
+      "column" : "p205RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p205.value",
+      "column" : "p205Value",
+      "ar" : "سنة 2 - فترة 5 | قيمة",
+      "en" : "Year2 - P5 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p206.credit",
+      "column" : "p206Credit",
+      "ar" : "سنة 2 - فترة 6 | دائن",
+      "en" : "Year2 - P6 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p206.debit",
+      "column" : "p206Debit",
+      "ar" : "سنة 2 - فترة 6 | مدين",
+      "en" : "Year2 - P6 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p206.period",
+      "column" : "p206Period_id",
+      "ar" : "سنة 2 - فترة 6 | فترة",
+      "en" : "Year2 - P6 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p206.repLink",
+      "column" : "p206RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p206.value",
+      "column" : "p206Value",
+      "ar" : "سنة 2 - فترة 6 | قيمة",
+      "en" : "Year2 - P6 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p207.credit",
+      "column" : "p207Credit",
+      "ar" : "سنة 2 - فترة 7 | دائن",
+      "en" : "Year2 - P7 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p207.debit",
+      "column" : "p207Debit",
+      "ar" : "سنة 2 - فترة 7 | مدين",
+      "en" : "Year2 - P7 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p207.period",
+      "column" : "p207Period_id",
+      "ar" : "سنة 2 - فترة 7 | فترة",
+      "en" : "Year2 - P7 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p207.repLink",
+      "column" : "p207RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p207.value",
+      "column" : "p207Value",
+      "ar" : "سنة 2 - فترة 7 | قيمة",
+      "en" : "Year2 - P7 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p208.credit",
+      "column" : "p208Credit",
+      "ar" : "سنة 2 - فترة 8 | دائن",
+      "en" : "Year2 - P8 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p208.debit",
+      "column" : "p208Debit",
+      "ar" : "سنة 2 - فترة 8 | مدين",
+      "en" : "Year2 - P8 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p208.period",
+      "column" : "p208Period_id",
+      "ar" : "سنة 2 - فترة 8 | فترة",
+      "en" : "Year2 - P8 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p208.repLink",
+      "column" : "p208RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p208.value",
+      "column" : "p208Value",
+      "ar" : "سنة 2 - فترة 8 | قيمة",
+      "en" : "Year2 - P8 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p209.credit",
+      "column" : "p209Credit",
+      "ar" : "سنة 2 - فترة 9 | دائن",
+      "en" : "Year2 - P9 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p209.debit",
+      "column" : "p209Debit",
+      "ar" : "سنة 2 - فترة 9 | مدين",
+      "en" : "Year2 - P9 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p209.period",
+      "column" : "p209Period_id",
+      "ar" : "سنة 2 - فترة 9 | فترة",
+      "en" : "Year2 - P9 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p209.repLink",
+      "column" : "p209RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p209.value",
+      "column" : "p209Value",
+      "ar" : "سنة 2 - فترة 9 | قيمة",
+      "en" : "Year2 - P9 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p210.credit",
+      "column" : "p210Credit",
+      "ar" : "سنة 2 - فترة 10 | دائن",
+      "en" : "Year2 - P10 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p210.debit",
+      "column" : "p210Debit",
+      "ar" : "سنة 2 - فترة 10 | مدين",
+      "en" : "Year2 - P10 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p210.period",
+      "column" : "p210Period_id",
+      "ar" : "سنة 2 - فترة 10 | فترة",
+      "en" : "Year2 - P10 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p210.repLink",
+      "column" : "p210RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p210.value",
+      "column" : "p210Value",
+      "ar" : "سنة 2 - فترة 10 | قيمة",
+      "en" : "Year2 - P10 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p211.credit",
+      "column" : "p211Credit",
+      "ar" : "سنة 2 - فترة 11 | دائن",
+      "en" : "Year2 - P11 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p211.debit",
+      "column" : "p211Debit",
+      "ar" : "سنة 2 - فترة 11 | مدين",
+      "en" : "Year2 - P11 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p211.period",
+      "column" : "p211Period_id",
+      "ar" : "سنة 2 - فترة 11 | فترة",
+      "en" : "Year2 - P11 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p211.repLink",
+      "column" : "p211RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p211.value",
+      "column" : "p211Value",
+      "ar" : "سنة 2 - فترة 11 | قيمة",
+      "en" : "Year2 - P11 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p212.credit",
+      "column" : "p212Credit",
+      "ar" : "سنة 2 - فترة 12 | دائن",
+      "en" : "Year2 - P12 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p212.debit",
+      "column" : "p212Debit",
+      "ar" : "سنة 2 - فترة 12 | مدين",
+      "en" : "Year2 - P12 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p212.period",
+      "column" : "p212Period_id",
+      "ar" : "سنة 2 - فترة 12 | فترة",
+      "en" : "Year2 - P12 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p212.repLink",
+      "column" : "p212RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p212.value",
+      "column" : "p212Value",
+      "ar" : "سنة 2 - فترة 12 | قيمة",
+      "en" : "Year2 - P12 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p213.credit",
+      "column" : "p213Credit",
+      "ar" : "سنة 2 - فترة 13 | دائن",
+      "en" : "Year2 - P13 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p213.debit",
+      "column" : "p213Debit",
+      "ar" : "سنة 2 - فترة 13 | مدين",
+      "en" : "Year2 - P13 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p213.period",
+      "column" : "p213Period_id",
+      "ar" : "سنة 2 - فترة 13 | فترة",
+      "en" : "Year2 - P13 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p213.repLink",
+      "column" : "p213RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p213.value",
+      "column" : "p213Value",
+      "ar" : "سنة 2 - فترة 13 | قيمة",
+      "en" : "Year2 - P13 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p214.credit",
+      "column" : "p214Credit",
+      "ar" : "سنة 2 - فترة 14 | دائن",
+      "en" : "Year2 - P14 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p214.debit",
+      "column" : "p214Debit",
+      "ar" : "سنة 2 - فترة 14 | مدين",
+      "en" : "Year2 - P14 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p214.period",
+      "column" : "p214Period_id",
+      "ar" : "سنة 2 - فترة 14 | فترة",
+      "en" : "Year2 - P14 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p214.repLink",
+      "column" : "p214RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p214.value",
+      "column" : "p214Value",
+      "ar" : "سنة 2 - فترة 14 | قيمة",
+      "en" : "Year2 - P14 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p215.credit",
+      "column" : "p215Credit",
+      "ar" : "سنة 2 - فترة 15 | دائن",
+      "en" : "Year2 - P15 | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p215.debit",
+      "column" : "p215Debit",
+      "ar" : "سنة 2 - فترة 15 | مدين",
+      "en" : "Year2 - P15 | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p215.period",
+      "column" : "p215Period_id",
+      "ar" : "سنة 2 - فترة 15 | فترة",
+      "en" : "Year2 - P15 | period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p215.repLink",
+      "column" : "p215RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p215.value",
+      "column" : "p215Value",
+      "ar" : "سنة 2 - فترة 15 | قيمة",
+      "en" : "Year2 - P15 | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p2Open.credit",
+      "column" : "p2OpenCredit",
+      "ar" : "دائن",
+      "en" : "Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p2Open.debit",
+      "column" : "p2OpenDebit",
+      "ar" : "مدين",
+      "en" : "Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p2Open.period",
+      "column" : "p2OpenPeriod_id",
+      "ar" : "الفترة",
+      "en" : "Period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p2Open.repLink",
+      "column" : "p2OpenRepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p2Open.value",
+      "column" : "p2OpenValue",
+      "ar" : "سنة 2 - إفتتاحى",
+      "en" : "Year2 - Open",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p2Total.credit",
+      "column" : "p2TotalCredit",
+      "ar" : "دائن",
+      "en" : "Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p2Total.debit",
+      "column" : "p2TotalDebit",
+      "ar" : "مدين",
+      "en" : "Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.p2Total.period",
+      "column" : "p2TotalPeriod_id",
+      "ar" : "الفترة",
+      "en" : "Period",
+      "type" : "Reference",
+      "refTo" : "FiscalPeriod",
+      "refPath" : "/modules/basic/FiscalPeriod.html"
+    }, {
+      "id" : "lines.p2Total.repLink",
+      "column" : "p2TotalRepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.p2Total.value",
+      "column" : "p2TotalValue",
+      "ar" : "سنة 2 - إجمالى",
+      "en" : "Year2 - Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.source",
+      "columns" : [ "sourceActualCode", " sourceCode", " sourceEntityType", " sourceId" ],
+      "ar" : "المصدر",
+      "en" : "Source",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.sourceLineCode",
+      "column" : "sourceLineCode",
+      "ar" : "كود السطر من ملف الإعدادت",
+      "en" : "Source Line Code From Settings File",
+      "type" : "Text"
+    }, {
+      "id" : "lines.sourceSettingsLine",
+      "column" : "sourceSettingsLine",
+      "type" : "ID"
+    }, {
+      "id" : "lines.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.totalsLine",
+      "column" : "totalsLine",
+      "ar" : "إجماليات السطر",
+      "en" : "Totals Line",
+      "type" : "Boolean"
+    }, {
+      "id" : "lines.transCr",
+      "column" : "transCr",
+      "ar" : "حركات | دائن",
+      "en" : "Transaction | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.transDr",
+      "column" : "transDr",
+      "ar" : "حركات | مدين",
+      "en" : "Transaction | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.trialBalanceRepLink",
+      "column" : "trialBalanceRepLink",
+      "ar" : "رابط تقرير ميزان المراجعة",
+      "en" : "Trial Balance Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.y1.credit",
+      "column" : "y1Credit",
+      "ar" : "السنة الأولى | دائن",
+      "en" : "First Year | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.y1.debit",
+      "column" : "y1Debit",
+      "ar" : "السنة الأولى | مدين",
+      "en" : "First Year | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.y1.repLink",
+      "column" : "y1RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.y1.value",
+      "column" : "y1Value",
+      "ar" : "السنة الأولى | قيمة",
+      "en" : "First Year | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.y1.year",
+      "column" : "y1Year_id",
+      "ar" : "السنة الأولى | السنة",
+      "en" : "First Year | Year",
+      "type" : "Reference",
+      "refTo" : "FiscalYear",
+      "refPath" : "/modules/basic/FiscalYear.html"
+    }, {
+      "id" : "lines.y2.credit",
+      "column" : "y2Credit",
+      "ar" : "السنة الثانية | دائن",
+      "en" : "Second Year | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.y2.debit",
+      "column" : "y2Debit",
+      "ar" : "السنة الثانية | مدين",
+      "en" : "Second Year | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.y2.repLink",
+      "column" : "y2RepLink",
+      "ar" : "رابط التقرير",
+      "en" : "Report Link",
+      "type" : "BigText"
+    }, {
+      "id" : "lines.y2.value",
+      "column" : "y2Value",
+      "ar" : "السنة الثانية | قيمة",
+      "en" : "Second Year | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.y2.year",
+      "column" : "y2Year_id",
+      "ar" : "السنة الثانية | السنة",
+      "en" : "Second Year | Year",
+      "type" : "Reference",
+      "refTo" : "FiscalYear",
+      "refPath" : "/modules/basic/FiscalYear.html"
+    } ]
+  } ]
+}

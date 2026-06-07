@@ -1,0 +1,12 @@
+{
+  "enum" : "BasinSlotType",
+  "values" : [ {
+    "id" : "WaterJet",
+    "ar" : "وترجيت",
+    "en" : "Water Jet"
+  }, {
+    "id" : "InSite",
+    "ar" : "بالموقع",
+    "en" : "In Site"
+  } ]
+}

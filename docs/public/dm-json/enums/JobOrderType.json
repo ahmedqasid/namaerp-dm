@@ -1,0 +1,16 @@
+{
+  "enum" : "JobOrderType",
+  "values" : [ {
+    "id" : "CompleteOrder",
+    "ar" : "إذن كامل",
+    "en" : "Complete Order"
+  }, {
+    "id" : "ServiceOrder",
+    "ar" : "إذن تشغيل",
+    "en" : "Service Order"
+  }, {
+    "id" : "InstallationOrder",
+    "ar" : "تركيب",
+    "en" : "InstallationOrder ="
+  } ]
+}

@@ -1,0 +1,72 @@
+{
+  "enum" : "CRMPlatform",
+  "values" : [ {
+    "id" : "Broker",
+    "ar" : "وسيط",
+    "en" : "Broker"
+  }, {
+    "id" : "WhatsApp",
+    "ar" : "واتساب",
+    "en" : "WhatsApp"
+  }, {
+    "id" : "SMSCampaign",
+    "ar" : "حملة رسائل نصية",
+    "en" : "SMS Campaign"
+  }, {
+    "id" : "CustomerCallCenter",
+    "ar" : "مركز اتصال العملاء",
+    "en" : "Customer Call Center"
+  }, {
+    "id" : "Owner",
+    "ar" : "المالك",
+    "en" : "Owner"
+  }, {
+    "id" : "Freelance",
+    "ar" : "مستقل",
+    "en" : "Freelance"
+  }, {
+    "id" : "Personal",
+    "ar" : "شخصي",
+    "en" : "Personal"
+  }, {
+    "id" : "Hotline",
+    "ar" : "الخط الساخن",
+    "en" : "Hotline"
+  }, {
+    "id" : "WalkIn",
+    "ar" : "زيارة مباشرة",
+    "en" : "Walk-In"
+  }, {
+    "id" : "Instagram",
+    "ar" : "إنستغرام",
+    "en" : "Instagram"
+  }, {
+    "id" : "Google",
+    "ar" : "جوجل",
+    "en" : "Google"
+  }, {
+    "id" : "Outdoor",
+    "ar" : "إعلان خارجي",
+    "en" : "Outdoor"
+  }, {
+    "id" : "Facebook",
+    "ar" : "فيسبوك",
+    "en" : "Facebook"
+  }, {
+    "id" : "EmptyPlatform",
+    "ar" : "منصة فارغة",
+    "en" : "Empty Platform"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  } ]
+}

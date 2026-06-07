@@ -1,0 +1,72 @@
+{
+  "entity" : "NotificationAllowedTime",
+  "table" : "NotificationAllowedTime",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/NotificationAllowedTime.html",
+  "fields" : [ {
+    "id" : "fromTime",
+    "column" : "fromTime",
+    "ar" : "من وقت",
+    "en" : "From-Time",
+    "type" : "Time"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "namaDayOfWeek1",
+    "column" : "namaDayOfWeek1",
+    "ar" : "اليوم 1",
+    "en" : "Day of Week 1",
+    "type" : "Enum",
+    "enum" : "NamaDayOfWeek"
+  }, {
+    "id" : "namaDayOfWeek2",
+    "column" : "namaDayOfWeek2",
+    "ar" : "اليوم 2",
+    "en" : "Day of Week 2",
+    "type" : "Enum",
+    "enum" : "NamaDayOfWeek"
+  }, {
+    "id" : "namaDayOfWeek3",
+    "column" : "namaDayOfWeek3",
+    "ar" : "اليوم 3",
+    "en" : "Day of Week 3",
+    "type" : "Enum",
+    "enum" : "NamaDayOfWeek"
+  }, {
+    "id" : "namaDayOfWeek4",
+    "column" : "namaDayOfWeek4",
+    "ar" : "اليوم 4",
+    "en" : "Day of Week 4",
+    "type" : "Enum",
+    "enum" : "NamaDayOfWeek"
+  }, {
+    "id" : "namaDayOfWeek5",
+    "column" : "namaDayOfWeek5",
+    "ar" : "اليوم 5",
+    "en" : "Day of Week 5",
+    "type" : "Enum",
+    "enum" : "NamaDayOfWeek"
+  }, {
+    "id" : "namaDayOfWeek6",
+    "column" : "namaDayOfWeek6",
+    "ar" : "اليوم 6",
+    "en" : "Day of Week 6",
+    "type" : "Enum",
+    "enum" : "NamaDayOfWeek"
+  }, {
+    "id" : "namaDayOfWeek7",
+    "column" : "namaDayOfWeek7",
+    "ar" : "اليوم 7",
+    "en" : "Day of Week 7",
+    "type" : "Enum",
+    "enum" : "NamaDayOfWeek"
+  }, {
+    "id" : "toTime",
+    "column" : "toTime",
+    "ar" : "إلى وقت",
+    "en" : "To-Time",
+    "type" : "Time"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "DatanuumResponseStatus",
+  "values" : [ {
+    "id" : "Failed",
+    "ar" : "فشل",
+    "en" : "Failed"
+  }, {
+    "id" : "Succeeded",
+    "ar" : "نجح",
+    "en" : "Succeeded"
+  } ]
+}

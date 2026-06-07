@@ -1,0 +1,215 @@
+{
+  "entity" : "ContrInvoicePaymentLine",
+  "table" : "ContrInvoicePaymentLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ContrInvoicePaymentLine.html",
+  "fields" : [ {
+    "id" : "afterFeesValue",
+    "column" : "afterFeesValue",
+    "ar" : "المبلغ بعد الرسوم",
+    "en" : "Value After Fees",
+    "type" : "Decimal"
+  }, {
+    "id" : "authorizationNumber",
+    "column" : "authorizationNumber",
+    "ar" : "رقم العملية",
+    "en" : "Authorization Number",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "discountCoupon",
+    "column" : "discountCoupon_id",
+    "ar" : "قسيمة شراء",
+    "en" : "Discount Coupon",
+    "type" : "Reference",
+    "refTo" : "DiscountCoupon",
+    "refPath" : "/modules/supplychain-sales/DiscountCoupon.html"
+  }, {
+    "id" : "doNotAffectRemaining",
+    "column" : "doNotAffectRemaining",
+    "ar" : "عدم التأثير على المتبقي",
+    "en" : "Do Not Affect Remaining",
+    "type" : "Boolean"
+  }, {
+    "id" : "feesTaxValue",
+    "column" : "feesTaxValue",
+    "ar" : "قيمة ضريبة الرسوم",
+    "en" : "Fees Tax Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "feesValue",
+    "column" : "feesValue",
+    "ar" : "قيمة الرسوم",
+    "en" : "Fees Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "issuer",
+    "column" : "issuer",
+    "ar" : "الساحب",
+    "en" : "Issuer",
+    "type" : "Text"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "paidCash",
+    "column" : "paidCash",
+    "ar" : "النقدية المدفوعة",
+    "en" : "Paid Cash",
+    "type" : "Decimal"
+  }, {
+    "id" : "paymentMethod",
+    "column" : "paymentMethod_id",
+    "ar" : "طريقة الدفع",
+    "en" : " Payment Method",
+    "type" : "Reference",
+    "refTo" : "PaymentMethod",
+    "refPath" : "/modules/basic/PaymentMethod.html"
+  }, {
+    "id" : "paymentTransactionType",
+    "column" : "paymentTransactionType",
+    "ar" : "نوع العملية",
+    "en" : "Transaction Type",
+    "type" : "Text"
+  }, {
+    "id" : "paymentValue",
+    "column" : "paymentValue",
+    "ar" : "المبلغ",
+    "en" : "Payment Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "pgwProperties.authCode",
+    "column" : "authCode",
+    "ar" : "Auth Code / Txn Id",
+    "en" : "Auth Code / Txn Id",
+    "type" : "Text"
+  }, {
+    "id" : "pgwProperties.cardType",
+    "column" : "cardType",
+    "ar" : "Card Type",
+    "en" : "Card Type",
+    "type" : "Text"
+  }, {
+    "id" : "pgwProperties.de55Response",
+    "column" : "de55Response",
+    "ar" : "De55 Response",
+    "en" : "De55 Response",
+    "type" : "Text"
+  }, {
+    "id" : "pgwProperties.ecrRefNum",
+    "column" : "ecrRefNum",
+    "ar" : "ECR Ref Number / Local Reference Number",
+    "en" : "ECR Ref Number / Local Reference Number",
+    "type" : "Text"
+  }, {
+    "id" : "pgwProperties.failureMessage",
+    "column" : "failureMessage",
+    "type" : "Text"
+  }, {
+    "id" : "pgwProperties.maskedCardNumber",
+    "column" : "maskedCardNumber",
+    "ar" : "Masked Card Number",
+    "en" : "Masked Card Number",
+    "type" : "Text"
+  }, {
+    "id" : "pgwProperties.merchantId",
+    "column" : "merchantId",
+    "ar" : "Merchant Id",
+    "en" : "Merchant Id",
+    "type" : "Text"
+  }, {
+    "id" : "pgwProperties.paidFromTerminal",
+    "column" : "paidFromTerminal",
+    "ar" : "مدفوعة بواسطة ال Terminal",
+    "en" : "Paid From Terminal",
+    "type" : "Boolean"
+  }, {
+    "id" : "pgwProperties.panNum",
+    "column" : "panNum",
+    "ar" : "PAN Number / ApprovalCode",
+    "en" : "PAN Number / ApprovalCode",
+    "type" : "Text"
+  }, {
+    "id" : "pgwProperties.respCode",
+    "column" : "respCode",
+    "type" : "Text"
+  }, {
+    "id" : "pgwProperties.schemeId",
+    "column" : "schemeId",
+    "ar" : "Scheme Id / Card Scheme Name",
+    "en" : "Scheme Id / Card Scheme Name",
+    "type" : "Text"
+  }, {
+    "id" : "pgwProperties.stanNum",
+    "column" : "stanNum",
+    "ar" : "STAN Number / rrNumber",
+    "en" : "STAN Number / rrNumber",
+    "type" : "Text"
+  }, {
+    "id" : "pgwProperties.terminalId",
+    "column" : "terminalId",
+    "ar" : "Terminal Id / Device Serial No",
+    "en" : "Terminal Id / Device Serial No",
+    "type" : "Text"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remainingCash",
+    "column" : "remainingCash",
+    "ar" : "النقديه المتبقيه",
+    "en" : "Remaining Cash",
+    "type" : "Decimal"
+  }, {
+    "id" : "text1",
+    "column" : "text1",
+    "ar" : "نــــص 1",
+    "en" : "Text 1",
+    "type" : "Text"
+  }, {
+    "id" : "text2",
+    "column" : "text2",
+    "ar" : "نـــــص 2",
+    "en" : "Text 2",
+    "type" : "Text"
+  } ]
+}

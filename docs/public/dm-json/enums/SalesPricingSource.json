@@ -1,0 +1,28 @@
+{
+  "enum" : "SalesPricingSource",
+  "values" : [ {
+    "id" : "PricingDocPurchasePrice",
+    "ar" : "سعر الشراء من المستند القائم بالتسعير",
+    "en" : "Pricing Document PurchasePrice"
+  }, {
+    "id" : "LastPricingDocPurchasePrice",
+    "ar" : "آخر سعر شراء سابق للسند القائم بالتسعير",
+    "en" : "Last Pricing Doc Purchase Price"
+  }, {
+    "id" : "MaxAvgCost",
+    "ar" : "أعلى متوسط تكلفة",
+    "en" : "Max Avg Cost"
+  }, {
+    "id" : "MinAvgCost",
+    "ar" : "أقل متوسط تكلفة",
+    "en" : "Min Avg Cost"
+  }, {
+    "id" : "MeanAvgCost",
+    "ar" : "متوسط متوسطات التكلفة",
+    "en" : "Mean Avg Cost"
+  }, {
+    "id" : "FromSQLQuery",
+    "ar" : "من جملة SQL",
+    "en" : "From SQL Query SQL"
+  } ]
+}

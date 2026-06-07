@@ -1,0 +1,229 @@
+{
+  "entity" : "POS.POSPricingRangeExcludedItemLine",
+  "table" : "POSPricingRangeExcludedItemLine",
+  "module" : "pos-app",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSPricingRangeExcludedItemLine.html",
+  "fields" : [ {
+    "id" : "brand",
+    "column" : "brand_id",
+    "ar" : "الماركة",
+    "en" : "Item Brand",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemBrand",
+    "refPath" : "/modules/pos-app/POS.POSItemBrand.html"
+  }, {
+    "id" : "category1",
+    "column" : "category1_id",
+    "ar" : "فئة الصنف1",
+    "en" : "Item Category1",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemCategory",
+    "refPath" : "/modules/pos-app/POS.POSItemCategory.html"
+  }, {
+    "id" : "category2",
+    "column" : "category2_id",
+    "ar" : "فئة الصنف2",
+    "en" : "Item Category2",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemCategory",
+    "refPath" : "/modules/pos-app/POS.POSItemCategory.html"
+  }, {
+    "id" : "category3",
+    "column" : "category3_id",
+    "ar" : "فئة الصنف3",
+    "en" : "Item Category3",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemCategory",
+    "refPath" : "/modules/pos-app/POS.POSItemCategory.html"
+  }, {
+    "id" : "category4",
+    "column" : "category4_id",
+    "ar" : "فئة الصنف4",
+    "en" : "Item Category4",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemCategory",
+    "refPath" : "/modules/pos-app/POS.POSItemCategory.html"
+  }, {
+    "id" : "category5",
+    "column" : "category5_id",
+    "ar" : "فئة الصنف5",
+    "en" : "Item Category5",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemCategory",
+    "refPath" : "/modules/pos-app/POS.POSItemCategory.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "item",
+    "column" : "item_id",
+    "ar" : "الصنف",
+    "en" : "Item",
+    "type" : "Reference",
+    "refTo" : "POS.POSItem",
+    "refPath" : "/modules/pos-app/POS.POSItem.html"
+  }, {
+    "id" : "itemClass1",
+    "column" : "itemClass1_id",
+    "ar" : "تصنيف 1",
+    "en" : "Class 1",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass1",
+    "refPath" : "/modules/pos-app/POS.POSItemClass1.html"
+  }, {
+    "id" : "itemClass10",
+    "column" : "itemClass10_id",
+    "ar" : "تصنيف 10",
+    "en" : "Class 10",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass10",
+    "refPath" : "/modules/pos-app/POS.POSItemClass10.html"
+  }, {
+    "id" : "itemClass2",
+    "column" : "itemClass2_id",
+    "ar" : "تصنيف 2",
+    "en" : "Class 2",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass2",
+    "refPath" : "/modules/pos-app/POS.POSItemClass2.html"
+  }, {
+    "id" : "itemClass3",
+    "column" : "itemClass3_id",
+    "ar" : "تصنيف 3",
+    "en" : "Class 3",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass3",
+    "refPath" : "/modules/pos-app/POS.POSItemClass3.html"
+  }, {
+    "id" : "itemClass4",
+    "column" : "itemClass4_id",
+    "ar" : "تصنيف 4",
+    "en" : "Class 4",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass4",
+    "refPath" : "/modules/pos-app/POS.POSItemClass4.html"
+  }, {
+    "id" : "itemClass5",
+    "column" : "itemClass5_id",
+    "ar" : "تصنيف 5",
+    "en" : "Class 5",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass5",
+    "refPath" : "/modules/pos-app/POS.POSItemClass5.html"
+  }, {
+    "id" : "itemClass6",
+    "column" : "itemClass6_id",
+    "ar" : "تصنيف 6",
+    "en" : "Class 6",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass6",
+    "refPath" : "/modules/pos-app/POS.POSItemClass6.html"
+  }, {
+    "id" : "itemClass7",
+    "column" : "itemClass7_id",
+    "ar" : "تصنيف 7",
+    "en" : "Class 7",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass7",
+    "refPath" : "/modules/pos-app/POS.POSItemClass7.html"
+  }, {
+    "id" : "itemClass8",
+    "column" : "itemClass8_id",
+    "ar" : "تصنيف 8",
+    "en" : "Class 8",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass8",
+    "refPath" : "/modules/pos-app/POS.POSItemClass8.html"
+  }, {
+    "id" : "itemClass9",
+    "column" : "itemClass9_id",
+    "ar" : "تصنيف 9",
+    "en" : "Class 9",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemClass9",
+    "refPath" : "/modules/pos-app/POS.POSItemClass9.html"
+  }, {
+    "id" : "itemCode",
+    "column" : "itemCode",
+    "ar" : " الكود",
+    "en" : " Code",
+    "type" : "Text"
+  }, {
+    "id" : "itemColorClassificationId",
+    "column" : "itemColorClassificationId",
+    "type" : "ID"
+  }, {
+    "id" : "itemSection",
+    "column" : "itemSection_id",
+    "ar" : "قسم الصنف",
+    "en" : " Item Section",
+    "type" : "Reference",
+    "refTo" : "POS.POSItemSection",
+    "refPath" : "/modules/pos-app/POS.POSItemSection.html"
+  }, {
+    "id" : "itemSizeClassificationId",
+    "column" : "itemSizeClassificationId",
+    "type" : "ID"
+  }, {
+    "id" : "pricingRange",
+    "column" : "posPricingRange",
+    "type" : "Reference",
+    "refTo" : "POS.POSPricingRange",
+    "refPath" : "/modules/pos-app/POS.POSPricingRange.html"
+  }, {
+    "id" : "specificDimensions.box",
+    "column" : "itemBox",
+    "ar" : "صندوق",
+    "en" : "Box",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.color",
+    "column" : "itemColor",
+    "ar" : "اللون",
+    "en" : "Color",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.colorName",
+    "column" : "colorName",
+    "ar" : "اسم اللون",
+    "en" : "Color Name",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.lotId",
+    "column" : "itemLotId",
+    "ar" : "رقم الشحنه",
+    "en" : "Lot ID",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.revisionId",
+    "column" : "itemRevisionId",
+    "ar" : "الإصدار",
+    "en" : "Revision ID",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.secondSerial",
+    "column" : "itemSecondSerial",
+    "ar" : "الرقم المسلسل الثاني",
+    "en" : "Second Serial",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.serialNumber",
+    "column" : "itemSerialNumber",
+    "ar" : "الرقم المسلسل",
+    "en" : "Serial number",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.size",
+    "column" : "itemSize",
+    "ar" : "المقاس",
+    "en" : "Size",
+    "type" : "Text"
+  }, {
+    "id" : "specificDimensions.sizeName",
+    "column" : "sizeName",
+    "ar" : "اسم المقاس",
+    "en" : "Size Name",
+    "type" : "Text"
+  } ]
+}

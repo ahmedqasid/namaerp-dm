@@ -1,0 +1,16 @@
+{
+  "enum" : "POSPaymentDocType",
+  "values" : [ {
+    "id" : "FromRegister",
+    "ar" : "من الماكينة",
+    "en" : "From Register"
+  }, {
+    "id" : "FromCurrentEmployee",
+    "ar" : "من الموظف الحالي",
+    "en" : "From Current Employee"
+  }, {
+    "id" : "ToCreditNote",
+    "ar" : "إلي إشعار",
+    "en" : "To Credit Note"
+  } ]
+}

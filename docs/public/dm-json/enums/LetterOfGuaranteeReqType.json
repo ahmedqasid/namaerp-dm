@@ -1,0 +1,12 @@
+{
+  "enum" : "LetterOfGuaranteeReqType",
+  "values" : [ {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "Accepted",
+    "ar" : "مقبول",
+    "en" : "Accepted"
+  } ]
+}

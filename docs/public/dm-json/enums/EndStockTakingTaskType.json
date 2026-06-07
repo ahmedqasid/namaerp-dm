@@ -1,0 +1,16 @@
+{
+  "enum" : "EndStockTakingTaskType",
+  "values" : [ {
+    "id" : "Ended",
+    "ar" : "منهي",
+    "en" : "Ended"
+  }, {
+    "id" : "EndedAndActive",
+    "ar" : "منتهي ومفعل",
+    "en" : "Ended & Active"
+  }, {
+    "id" : "RecalcQtyBasedOnValueDate",
+    "ar" : "Recalculate Quantity Based On Value Date",
+    "en" : "Recalculate Quantity Based On Value Date"
+  } ]
+}

@@ -1,0 +1,36 @@
+{
+  "enum" : "TaxPayerType",
+  "values" : [ {
+    "id" : "EgyptianTax",
+    "ar" : "مصر - موقع الفاتورة الإلكترونية",
+    "en" : "Egypt - Electronic Invoice Site"
+  }, {
+    "id" : "EgyptianTaxPreProduction",
+    "ar" : "مصر - موقع الفاتورة الإلكترونية التجريبي",
+    "en" : "Egypt - Electronic Invoice Site (Pre Production)"
+  }, {
+    "id" : "ZATCASandboxTax",
+    "ar" : "السعودية - موقع الفاتورة الإلكترونية للمطورين",
+    "en" : "Saudi Arab - Electronic Invoice Sandbox"
+  }, {
+    "id" : "ZATCASimulationTax",
+    "ar" : "السعودية موقع الفاتورة الإلكترونية التجريبي",
+    "en" : "Saudi Arab - Electronic Invoice Simulation Site"
+  }, {
+    "id" : "ZATCATax",
+    "ar" : "السعودية - موقع الفاتورة الإلكترونية",
+    "en" : "Saudi Arab - Electronic Invoice Site"
+  }, {
+    "id" : "JOFotara",
+    "ar" : "الأردن - الفاتورة الألكترونية",
+    "en" : "Jordan - Electronic Invoice"
+  }, {
+    "id" : "UAEOrchidaStagingTax",
+    "ar" : "الإمارات - الفاتورة الإلكترونية التجريبية",
+    "en" : "UAE - Electronic Invoice Staging"
+  }, {
+    "id" : "UAEOrchidaTax",
+    "ar" : "الإمارات - الفاتورة الإلكترونية",
+    "en" : "UAE - Electronic Invoice"
+  } ]
+}

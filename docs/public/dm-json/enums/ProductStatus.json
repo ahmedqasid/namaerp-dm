@@ -1,0 +1,64 @@
+{
+  "enum" : "ProductStatus",
+  "values" : [ {
+    "id" : "NotStarted",
+    "ar" : "لم تبدأ",
+    "en" : "Not Started"
+  }, {
+    "id" : "WaitingReception",
+    "ar" : "إنتظار استقبال",
+    "en" : "Waiting Reception"
+  }, {
+    "id" : "ReceptionInProgress",
+    "ar" : "جارى الاستقبال",
+    "en" : "Reception In Progress"
+  }, {
+    "id" : "Loading",
+    "ar" : "إنتظار التحميل",
+    "en" : "Loading"
+  }, {
+    "id" : "InProgress",
+    "ar" : "قيد التنفيذ",
+    "en" : "In Progress"
+  }, {
+    "id" : "DiscontinuedWork",
+    "ar" : "أعمال متوقفة",
+    "en" : "Discontinued Work"
+  }, {
+    "id" : "RepairCompleted",
+    "ar" : "إنتهاء الإصلاح",
+    "en" : "Repair Completed"
+  }, {
+    "id" : "AnInvoiceWasIssued",
+    "ar" : "تم اصدار فاتورة",
+    "en" : "An Invoice Was Issued"
+  }, {
+    "id" : "ExitedFromTheCenter",
+    "ar" : "خرجت من المركز",
+    "en" : "Exited From The Center"
+  }, {
+    "id" : "Canceled",
+    "ar" : "ألغيت",
+    "en" : "Canceled"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  }, {
+    "id" : "Other4",
+    "ar" : "أخرى 4",
+    "en" : "Other 4"
+  }, {
+    "id" : "Other5",
+    "ar" : "أخرى 5",
+    "en" : "Other 5"
+  } ]
+}

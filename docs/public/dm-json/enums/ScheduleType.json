@@ -1,0 +1,56 @@
+{
+  "enum" : "ScheduleType",
+  "values" : [ {
+    "id" : "Report",
+    "ar" : "تقرير",
+    "en" : "Report"
+  }, {
+    "id" : "PrintReport",
+    "ar" : "تقرير (طباعة)",
+    "en" : "Report (Print)"
+  }, {
+    "id" : "Notification",
+    "ar" : "التنبيهات",
+    "en" : "Notification"
+  }, {
+    "id" : "System",
+    "ar" : "نظامى",
+    "en" : "System"
+  }, {
+    "id" : "Scenario",
+    "ar" : "سيناريو",
+    "en" : "Scenario"
+  }, {
+    "id" : "Action",
+    "ar" : " إجراء",
+    "en" : " Action"
+  }, {
+    "id" : "ParameterizedReport",
+    "ar" : "تقرير بمدخلات",
+    "en" : "Parameterized Report"
+  }, {
+    "id" : "ParameterizedReportPrint",
+    "ar" : "تقرير بمدخلات (طباعة)",
+    "en" : "Parameterized Report (Print)"
+  }, {
+    "id" : "RecurDocument",
+    "ar" : "تكرار مستند",
+    "en" : "RecurDocument"
+  }, {
+    "id" : "ReadMagentoOrders",
+    "ar" : "Read Magento Orders",
+    "en" : "Read Magento Orders"
+  }, {
+    "id" : "ReadMagentoReturns",
+    "ar" : "Read Magento Returns",
+    "en" : "Read Magento Returns"
+  }, {
+    "id" : "PurgeExpiredRewardPoints",
+    "ar" : "Purge Expired Reward Points",
+    "en" : "Purge Expired Reward Points"
+  }, {
+    "id" : "ReadEInvoiceNotificationsFromIntermediaryServer",
+    "ar" : "Read E Invoice Notifications From Intermediary Server",
+    "en" : "Read E Invoice Notifications From Intermediary Server"
+  } ]
+}

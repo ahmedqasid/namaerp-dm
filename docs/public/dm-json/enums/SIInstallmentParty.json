@@ -1,0 +1,12 @@
+{
+  "enum" : "SIInstallmentParty",
+  "values" : [ {
+    "id" : "Bank",
+    "ar" : "بنك",
+    "en" : "Bank"
+  }, {
+    "id" : "FinanceCompany",
+    "ar" : "شركة تقسيط",
+    "en" : "Finance Company"
+  } ]
+}

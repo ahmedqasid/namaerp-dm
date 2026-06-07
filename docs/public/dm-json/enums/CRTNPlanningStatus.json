@@ -1,0 +1,12 @@
+{
+  "enum" : "CRTNPlanningStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Planning",
+    "ar" : "في فترة التخطيط",
+    "en" : "Planning"
+  } ]
+}

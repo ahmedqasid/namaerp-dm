@@ -1,0 +1,44 @@
+{
+  "enum" : "PurgeInfoType",
+  "values" : [ {
+    "id" : "DeleteDocs"
+  }, {
+    "id" : "ArchiveAndDeleteDocs"
+  }, {
+    "id" : "MarkDocsPurged"
+  }, {
+    "id" : "CreatePurgeJournalEntries"
+  }, {
+    "id" : "PurgeLedgerTransReqLines"
+  }, {
+    "id" : "PurgeDimensionBalances"
+  }, {
+    "id" : "PurgeDebtAges"
+  }, {
+    "id" : "PurgeDebtLineMatchers"
+  }, {
+    "id" : "PurgeUnMatchedManualLines"
+  }, {
+    "id" : "PurgeAllManualLines"
+  }, {
+    "id" : "CreateStockIssuesAndReceipts"
+  }, {
+    "id" : "PurgeQtyTransLines"
+  }, {
+    "id" : "PurgeCostTransLines"
+  }, {
+    "id" : "PurgeReservationTransLinesLines"
+  }, {
+    "id" : "PurgeStockAges"
+  }, {
+    "id" : "PurgeStockAgesMatchers"
+  }, {
+    "id" : "PurgeCreateStockAgesTrans"
+  }, {
+    "id" : "PurgeRelinkNewPurgeStockReceiptTrans"
+  }, {
+    "id" : "PurgeFifoCostMatchers"
+  }, {
+    "id" : "PurgeCreateJournalLedgerTrans"
+  } ]
+}

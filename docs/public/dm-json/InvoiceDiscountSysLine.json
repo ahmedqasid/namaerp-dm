@@ -1,0 +1,249 @@
+{
+  "entity" : "InvoiceDiscountSysLine",
+  "table" : "InvoiceDiscountSysLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/InvoiceDiscountSysLine.html",
+  "fields" : [ {
+    "id" : "capabilityId",
+    "column" : "capabilityId",
+    "ar" : "معرف الصلاحية",
+    "en" : "Capability Id",
+    "type" : "ID"
+  }, {
+    "id" : "considerStopOtherDiscounts",
+    "column" : "considerStopOtherDiscounts",
+    "ar" : "عدم التطبيق في حال وجود عروض بها ايقاف التخفيضات الأخرى",
+    "en" : "Consider Stop Other Discounts When Applying Coupon",
+    "type" : "Boolean"
+  }, {
+    "id" : "currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "dimensions.analysisSet",
+    "column" : "dimensionsAnalysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "dimensions.branch",
+    "column" : "dimensionsBranch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "dimensions.department",
+    "column" : "dimensionsDepartment_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "dimensions.legalEntity",
+    "column" : "dimensionsLegalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "dimensions.sector",
+    "column" : "dimensionsSector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "discBasisFromMatchedLines",
+    "column" : "discBasisFromMatchedLines",
+    "ar" : "اساس الخصم من إجمالى السطور المنطبقة فقط",
+    "en" : "Discount Basis From Total Of Only Matched Lines",
+    "type" : "Boolean"
+  }, {
+    "id" : "discountMaxValue",
+    "column" : "discountMaxValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "discountMinValue",
+    "column" : "discountMinValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "discountType",
+    "column" : "discountType",
+    "ar" : "الخصم | النوع",
+    "en" : "Discount Type",
+    "type" : "Enum",
+    "enum" : "InvoiceOfferDiscountType"
+  }, {
+    "id" : "empTargetId",
+    "column" : "empTargetId",
+    "type" : "ID"
+  }, {
+    "id" : "empTargetType",
+    "column" : "empTargetType",
+    "type" : "EntityType"
+  }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "ignoreFreeItemsInCount",
+    "column" : "ignoreFreeItemsInCount",
+    "ar" : "عدم احتساب الأصناف المجانية",
+    "en" : "Ignore Free Items In Count",
+    "type" : "Boolean"
+  }, {
+    "id" : "ignoreOtherOffers",
+    "column" : "ignoreOtherOffers",
+    "ar" : "لا يُعتد بعروض الأصناف مع هذا العرض",
+    "en" : "Ignore Item Offers",
+    "type" : "Boolean"
+  }, {
+    "id" : "invoiceClassification",
+    "column" : "invoiceClassification_id",
+    "ar" : "تصنيف الفاتورة",
+    "en" : "Invoice Classification",
+    "type" : "Reference",
+    "refTo" : "InvoiceClassification",
+    "refPath" : "/modules/supplychain/InvoiceClassification.html"
+  }, {
+    "id" : "itemsCountMechanism",
+    "column" : "itemsCountMechanism",
+    "ar" : "آلية احتساب عدد الأصناف",
+    "en" : "Items Count Mechanism",
+    "type" : "Enum",
+    "enum" : "OfferItemsCountMechanism"
+  }, {
+    "id" : "lineNumber",
+    "column" : "lineNumber",
+    "ar" : "رقم السطر",
+    "en" : "Line Number",
+    "type" : "Integer"
+  }, {
+    "id" : "maxInvoiceItems",
+    "column" : "maxInvoiceItems",
+    "ar" : "عدد الأصناف | أصغر من",
+    "en" : "Invoice Items | Less Than",
+    "type" : "Decimal"
+  }, {
+    "id" : "maxInvoiceValue",
+    "column" : "maxInvoiceValue",
+    "ar" : "قيمة الفاتوره | اقل من",
+    "en" : "Invoice Value | less than",
+    "type" : "Decimal"
+  }, {
+    "id" : "minInvoiceItems",
+    "column" : "minInvoiceItems",
+    "ar" : "عدد الأصناف | أكبر من أو تساوي",
+    "en" : "Invoice Items | Greater Than Or Equal",
+    "type" : "Decimal"
+  }, {
+    "id" : "offerApplyRules",
+    "columns" : [ "offerApplyRulesActualCode", " offerApplyRulesCode", " offerApplyRulesEntityType", " offerApplyRulesId" ],
+    "ar" : "يطبق على",
+    "en" : "Applied On",
+    "type" : "Genericreference"
+  }, {
+    "id" : "priceClassifier1",
+    "column" : "priceClassifier1_id",
+    "ar" : "محدد سعر 1",
+    "en" : "Price Classifier 1",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier1",
+    "refPath" : "/modules/basic/SalesPriceClassifier1.html"
+  }, {
+    "id" : "priceClassifier2",
+    "column" : "priceClassifier2_id",
+    "ar" : "محدد سعر 2",
+    "en" : "Price Classifier 2",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier2",
+    "refPath" : "/modules/basic/SalesPriceClassifier2.html"
+  }, {
+    "id" : "priceClassifier3",
+    "column" : "priceClassifier3_id",
+    "ar" : "محدد سعر 3",
+    "en" : "Price Classifier 3",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier3",
+    "refPath" : "/modules/basic/SalesPriceClassifier3.html"
+  }, {
+    "id" : "priceClassifier4",
+    "column" : "priceClassifier4_id",
+    "ar" : "محدد سعر 4",
+    "en" : "Price Classifier 4",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier4",
+    "refPath" : "/modules/basic/SalesPriceClassifier4.html"
+  }, {
+    "id" : "priceClassifier5",
+    "column" : "priceClassifier5_id",
+    "ar" : "محدد سعر 5",
+    "en" : "Price Classifier 5",
+    "type" : "Reference",
+    "refTo" : "SalesPriceClassifier5",
+    "refPath" : "/modules/basic/SalesPriceClassifier5.html"
+  }, {
+    "id" : "priority",
+    "column" : "priority",
+    "ar" : "الأولوية",
+    "en" : "Priority",
+    "type" : "Long"
+  }, {
+    "id" : "refId",
+    "column" : "refId",
+    "type" : "ID"
+  }, {
+    "id" : "stopOtherDiscounts",
+    "column" : "stopOtherDiscounts",
+    "ar" : "إيقاف التخفبضات الأخرى",
+    "en" : "stop other discounts",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiary",
+    "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+    "ar" : "الذمة",
+    "en" : "Subsidiary",
+    "type" : "Genericreference"
+  }, {
+    "id" : "targetId",
+    "column" : "targetId",
+    "ar" : "Target ID",
+    "en" : "Target ID",
+    "type" : "ID"
+  }, {
+    "id" : "targetType",
+    "column" : "targetType",
+    "ar" : " النوع المستهدف",
+    "en" : " Tooltip Target Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  }, {
+    "id" : "totalValue",
+    "column" : "totalValue",
+    "ar" : "الإجمالي | القيمة",
+    "en" : "Total Value",
+    "type" : "Decimal"
+  } ]
+}

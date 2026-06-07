@@ -1,0 +1,20 @@
+{
+  "enum" : "AIFieldType",
+  "values" : [ {
+    "id" : "Date",
+    "ar" : "تاريخ",
+    "en" : "Date"
+  }, {
+    "id" : "Text",
+    "ar" : "نص",
+    "en" : "Text"
+  }, {
+    "id" : "Number",
+    "ar" : "رقم",
+    "en" : "Number"
+  }, {
+    "id" : "Reference",
+    "ar" : "Reference",
+    "en" : "Reference"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "MCLaborUpdateTarget",
+  "values" : [ {
+    "id" : "UpdateForFixedSalary",
+    "ar" : "الراتب المثبت",
+    "en" : "Update For Fixed Salary"
+  }, {
+    "id" : "UpdateVariableSalary",
+    "ar" : "الراتب غير المثبت",
+    "en" : "Update Variable Salary"
+  }, {
+    "id" : "UpdateForAll",
+    "ar" : "الراتب المثبت والغير مثبت",
+    "en" : "Update For All"
+  } ]
+}

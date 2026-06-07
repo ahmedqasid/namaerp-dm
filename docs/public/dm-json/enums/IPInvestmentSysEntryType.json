@@ -1,0 +1,12 @@
+{
+  "enum" : "IPInvestmentSysEntryType",
+  "values" : [ {
+    "id" : "Capital"
+  }, {
+    "id" : "Status"
+  }, {
+    "id" : "Profit"
+  }, {
+    "id" : "Update"
+  } ]
+}

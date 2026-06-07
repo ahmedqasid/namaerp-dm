@@ -1,0 +1,16 @@
+{
+  "enum" : "QuantityType",
+  "values" : [ {
+    "id" : "RequestedQuantity",
+    "ar" : "الكمية المطلوبة",
+    "en" : "Requested Quantity"
+  }, {
+    "id" : "CancelledQuantity",
+    "ar" : "الكمية المُلغاة",
+    "en" : "Cancelled Quantity"
+  }, {
+    "id" : "FinishedQuantity",
+    "ar" : "الكمية المنتهي منها",
+    "en" : "Finished Quantity"
+  } ]
+}

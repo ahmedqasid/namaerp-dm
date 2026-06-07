@@ -1,0 +1,31 @@
+{
+  "entity" : "HREmployeeSkill",
+  "table" : "HREmployeeSkill",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/HREmployeeSkill.html",
+  "fields" : [ {
+    "id" : "dateOfSkill",
+    "column" : "dateOfSkill",
+    "type" : "Date"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "skill",
+    "column" : "skill_id",
+    "ar" : "المهارة",
+    "en" : "Skill",
+    "type" : "Reference",
+    "refTo" : "HRSkill",
+    "refPath" : "/modules/basic/HRSkill.html"
+  } ]
+}

@@ -1,0 +1,44 @@
+{
+  "entity" : "ChatParticipant",
+  "table" : "ChatParticipant",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ChatParticipant.html",
+  "fields" : [ {
+    "id" : "conversationId",
+    "column" : "conversationId",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "joinedAt",
+    "column" : "joinedAt",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "lastDeliveredMessageId",
+    "column" : "lastDeliveredMessageId",
+    "type" : "ID"
+  }, {
+    "id" : "lastReadMessageId",
+    "column" : "lastReadMessageId",
+    "type" : "ID"
+  }, {
+    "id" : "participant",
+    "columns" : [ "participantActualCode", " participantCode", " participantEntityType", " participantId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "removedAt",
+    "column" : "removedAt",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "role",
+    "column" : "role",
+    "type" : "Enum",
+    "enum" : "ChatParticipantRole"
+  }, {
+    "id" : "unreadMessagesCount",
+    "column" : "unreadMessagesCount",
+    "type" : "Integer"
+  } ]
+}

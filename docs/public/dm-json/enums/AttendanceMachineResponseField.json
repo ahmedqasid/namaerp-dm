@@ -1,0 +1,56 @@
+{
+  "enum" : "AttendanceMachineResponseField",
+  "values" : [ {
+    "id" : "EmployeeCode",
+    "ar" : " كود الموظف",
+    "en" : " Employee Code"
+  }, {
+    "id" : "firstName",
+    "ar" : "الاسم الاول",
+    "en" : "First Name"
+  }, {
+    "id" : "lastName",
+    "ar" : "الاسم الاخير",
+    "en" : "Last Name"
+  }, {
+    "id" : "department",
+    "ar" : "الإدارة",
+    "en" : "Department"
+  }, {
+    "id" : "punchTime",
+    "ar" : "وقت البصمة",
+    "en" : "Punch Time"
+  }, {
+    "id" : "punchState",
+    "ar" : "حالة البصمة",
+    "en" : "Punch State"
+  }, {
+    "id" : "punchStateDisplay",
+    "ar" : "Punch State Display",
+    "en" : "Punch State Display"
+  }, {
+    "id" : "verifyType",
+    "ar" : "Verify Type",
+    "en" : "Verify Type"
+  }, {
+    "id" : "verifyTypeDisplay",
+    "ar" : "Verify Type Display",
+    "en" : "Verify Type Display"
+  }, {
+    "id" : "gpsLocation",
+    "ar" : "GPS Location",
+    "en" : "GPS Location"
+  }, {
+    "id" : "areaAlias",
+    "ar" : "Area Alias",
+    "en" : "Area Alias"
+  }, {
+    "id" : "terminalSN",
+    "ar" : "كود الماكينة",
+    "en" : "Terminal SN"
+  }, {
+    "id" : "uploadTime",
+    "ar" : "Upload Time",
+    "en" : "Upload Time"
+  } ]
+}

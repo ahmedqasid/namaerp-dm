@@ -1,0 +1,20 @@
+{
+  "enum" : "DrivingLicenseType",
+  "values" : [ {
+    "id" : "PRIVATE",
+    "ar" : "ملاكي",
+    "en" : "Private"
+  }, {
+    "id" : "FirstClass",
+    "ar" : "درجة أولي",
+    "en" : "First class"
+  }, {
+    "id" : "SecondClass",
+    "ar" : "درجة ثانية",
+    "en" : "Second class"
+  }, {
+    "id" : "ThirdClass",
+    "ar" : "درجة ثالثة",
+    "en" : "Third class"
+  } ]
+}

@@ -1,0 +1,52 @@
+{
+  "enum" : "CRMSalesStage",
+  "values" : [ {
+    "id" : "Prospecting",
+    "ar" : "جاري الفحص",
+    "en" : "Prospecting"
+  }, {
+    "id" : "Qualification",
+    "ar" : "تأهيل",
+    "en" : "Qualification"
+  }, {
+    "id" : "NeedsAnalysis",
+    "ar" : "بحاجه للتحليل",
+    "en" : "Needs Analysis"
+  }, {
+    "id" : "ValueProposition",
+    "ar" : "بيان الفوائد",
+    "en" : "Value Proposition"
+  }, {
+    "id" : "DecisionMakers",
+    "ar" : "تحديد صانعي القرار",
+    "en" : "Decision Makers"
+  }, {
+    "id" : "PerceptionAnalysis",
+    "ar" : "تحليل التصور",
+    "en" : "Perception Analysis"
+  }, {
+    "id" : "PriceQuote",
+    "ar" : "إقتراح الأسعار",
+    "en" : "Price Quote"
+  }, {
+    "id" : "Review",
+    "ar" : "المراجعه",
+    "en" : "Review"
+  }, {
+    "id" : "ClosedWon",
+    "ar" : "أنتهي بنجاح",
+    "en" : "Closed Won"
+  }, {
+    "id" : "ClosedLost",
+    "ar" : "أنتهي بفشل",
+    "en" : "Closed Lost"
+  }, {
+    "id" : "ContractPreparation",
+    "ar" : "تجهيز صيغة العقد",
+    "en" : "Contract Preparation"
+  }, {
+    "id" : "PriceNegotiation",
+    "ar" : "التفاوض في الأسعار",
+    "en" : "Price Negotiation"
+  } ]
+}

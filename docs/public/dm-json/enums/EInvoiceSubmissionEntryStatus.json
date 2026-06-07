@@ -1,0 +1,18 @@
+{
+  "enum" : "EInvoiceSubmissionEntryStatus",
+  "values" : [ {
+    "id" : "Ready"
+  }, {
+    "id" : "InProgress",
+    "ar" : "قيد التنفيذ",
+    "en" : "In Progress"
+  }, {
+    "id" : "Failed",
+    "ar" : "فشل",
+    "en" : "Failed"
+  }, {
+    "id" : "Collected",
+    "ar" : "تم تحصيله",
+    "en" : "Collected"
+  } ]
+}

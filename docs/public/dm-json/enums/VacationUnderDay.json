@@ -1,0 +1,16 @@
+{
+  "enum" : "VacationUnderDay",
+  "values" : [ {
+    "id" : "Normal",
+    "ar" : "عادية",
+    "en" : "Normal"
+  }, {
+    "id" : "HalfDay",
+    "ar" : "نصف يوم",
+    "en" : "Half Day"
+  }, {
+    "id" : "QuarterDay",
+    "ar" : "ربع يوم",
+    "en" : "Quarter Day"
+  } ]
+}

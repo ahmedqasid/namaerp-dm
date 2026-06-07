@@ -1,0 +1,16 @@
+{
+  "enum" : "SalesInvoiceType",
+  "values" : [ {
+    "id" : "NormalInvoice",
+    "ar" : "عادية",
+    "en" : "Normal"
+  }, {
+    "id" : "SpecialInvoice",
+    "ar" : "خاصة",
+    "en" : "Special"
+  }, {
+    "id" : "InPointsInvoice",
+    "ar" : "بالنقاط",
+    "en" : "In Points"
+  } ]
+}

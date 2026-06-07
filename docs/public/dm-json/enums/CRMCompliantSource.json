@@ -1,0 +1,12 @@
+{
+  "enum" : "CRMCompliantSource",
+  "values" : [ {
+    "id" : "SalesInvoice",
+    "ar" : "فاتورة مبيعات",
+    "en" : "Sales Invoice"
+  }, {
+    "id" : "ServiceContract",
+    "ar" : "عقد خدمة",
+    "en" : "Service Contract"
+  } ]
+}

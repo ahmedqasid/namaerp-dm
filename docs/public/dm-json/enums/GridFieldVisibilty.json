@@ -1,0 +1,16 @@
+{
+  "enum" : "GridFieldVisibilty",
+  "values" : [ {
+    "id" : "Default",
+    "ar" : "1- إفتراضي",
+    "en" : "1- Default"
+  }, {
+    "id" : "HideInGrid",
+    "ar" : "2- إظهار في التفصيلي فقط",
+    "en" : "2- Hide In Grid"
+  }, {
+    "id" : "ShowInGrid",
+    "ar" : "3- إظهار",
+    "en" : "3- Show In Grid"
+  } ]
+}

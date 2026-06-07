@@ -1,0 +1,40 @@
+{
+  "enum" : "WhatsAppMessageState",
+  "values" : [ {
+    "id" : "Sent",
+    "ar" : "تم ارساله",
+    "en" : "Sent"
+  }, {
+    "id" : "Delivered",
+    "ar" : "توصيل كلي",
+    "en" : "Totally Delivered"
+  }, {
+    "id" : "Received",
+    "ar" : "تم تسليمه",
+    "en" : "Received"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "Opened",
+    "ar" : "مفتوح",
+    "en" : "Opened"
+  }, {
+    "id" : "Read",
+    "ar" : "تم قراءته",
+    "en" : "Read"
+  }, {
+    "id" : "Replied",
+    "ar" : "تم الرد عليه",
+    "en" : "Replied"
+  }, {
+    "id" : "Snoozed",
+    "ar" : "تم تأجيله",
+    "en" : "Snoozed"
+  }, {
+    "id" : "Closed",
+    "ar" : "مغلقة",
+    "en" : "Closed"
+  } ]
+}

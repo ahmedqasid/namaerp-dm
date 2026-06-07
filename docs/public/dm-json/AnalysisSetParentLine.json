@@ -1,0 +1,11 @@
+{
+  "entity" : "AnalysisSetParentLine",
+  "table" : "AnalysisSetParentLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AnalysisSetParentLine.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

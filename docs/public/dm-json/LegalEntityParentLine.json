@@ -1,0 +1,11 @@
+{
+  "entity" : "LegalEntityParentLine",
+  "table" : "LegalEntityParentLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/LegalEntityParentLine.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

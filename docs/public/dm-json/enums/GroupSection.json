@@ -1,0 +1,20 @@
+{
+  "enum" : "GroupSection",
+  "values" : [ {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  }, {
+    "id" : "Header",
+    "ar" : "Header",
+    "en" : "Header"
+  }, {
+    "id" : "Footer",
+    "ar" : "Footer",
+    "en" : "Footer"
+  }, {
+    "id" : "HeaderAndFooter",
+    "ar" : "Header And Footer",
+    "en" : "Header And Footer"
+  } ]
+}

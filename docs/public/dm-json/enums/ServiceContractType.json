@@ -1,0 +1,24 @@
+{
+  "enum" : "ServiceContractType",
+  "values" : [ {
+    "id" : "Ordinary",
+    "ar" : "عادي",
+    "en" : "Ordinary"
+  }, {
+    "id" : "Upgrade",
+    "ar" : "ترقية",
+    "en" : "upgrade"
+  }, {
+    "id" : "Transfer",
+    "ar" : "تحويل",
+    "en" : "transfer"
+  }, {
+    "id" : "Renewal",
+    "ar" : "تجديد",
+    "en" : "renewal"
+  }, {
+    "id" : "Extension",
+    "ar" : "ملحق",
+    "en" : "Extension"
+  } ]
+}

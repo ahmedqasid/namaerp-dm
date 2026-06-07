@@ -1,0 +1,20 @@
+{
+  "enum" : "VacationCalcType",
+  "values" : [ {
+    "id" : "CalculatedBalance",
+    "ar" : "الرصيد المحسوب",
+    "en" : "Calculated Balance"
+  }, {
+    "id" : "VacationPeriodField",
+    "ar" : "حقل مدة الأجازه من سند الأجازه",
+    "en" : "Vacation Period From Vacation Document Field"
+  }, {
+    "id" : "ActualVacationPeriod",
+    "ar" : " مدة الأجازة الفعلية",
+    "en" : " Actual Vacation Period"
+  }, {
+    "id" : "ManualVacationPeriod",
+    "ar" : "مدة الإجازة يدويا",
+    "en" : "Manual Vacation Period"
+  } ]
+}

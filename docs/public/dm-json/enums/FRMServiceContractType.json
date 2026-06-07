@@ -1,0 +1,16 @@
+{
+  "enum" : "FRMServiceContractType",
+  "values" : [ {
+    "id" : "Forwarder",
+    "ar" : "شركة الشحن",
+    "en" : "Forwarder"
+  }, {
+    "id" : "Shipper",
+    "ar" : "المُرسِل",
+    "en" : "Shipper"
+  }, {
+    "id" : "Consignee",
+    "ar" : "المرسَل إليه",
+    "en" : "Consignee"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "WeightScaleBarcodeProperty",
+  "values" : [ {
+    "id" : "LineCode",
+    "ar" : "كود سطر",
+    "en" : "Line Code"
+  }, {
+    "id" : "WeightPackage",
+    "ar" : "عبوة الوزن",
+    "en" : "Weight Package"
+  }, {
+    "id" : "CartRoute",
+    "ar" : "مسار العربة",
+    "en" : "Cart Route"
+  } ]
+}

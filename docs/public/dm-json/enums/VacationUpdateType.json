@@ -1,0 +1,12 @@
+{
+  "enum" : "VacationUpdateType",
+  "values" : [ {
+    "id" : "AddAndUpdate",
+    "ar" : "إضافة وتحديث",
+    "en" : "Add And Update"
+  }, {
+    "id" : "Replace",
+    "ar" : "استبدال",
+    "en" : "Replace"
+  } ]
+}

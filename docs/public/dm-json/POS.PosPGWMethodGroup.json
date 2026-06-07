@@ -1,0 +1,279 @@
+{
+  "entity" : "POS.PosPGWMethodGroup",
+  "table" : "PosPGWMethodGroup",
+  "module" : "pos-app",
+  "ar" : "Payment Gateway Method Group",
+  "arPlural" : "Payment Gateway Method Groups",
+  "en" : "Payment Gateway Method Group",
+  "enPlural" : "Payment Gateway Method Groups",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.PosPGWMethodGroup.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ],
+  "details" : [ {
+    "id" : "details",
+    "table" : "PosMethodGroupLine",
+    "joinColumn" : "methodGroup_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "fields" : [ {
+      "id" : "details.cardType",
+      "column" : "cardType",
+      "ar" : "Card Type",
+      "en" : "Card Type",
+      "type" : "Text"
+    }, {
+      "id" : "details.cardTypeOperator",
+      "column" : "cardTypeOperator",
+      "ar" : "Card Type | -",
+      "en" : "Card Type | -",
+      "type" : "Text"
+    }, {
+      "id" : "details.de55Response",
+      "column" : "de55Response",
+      "ar" : "De55 Response",
+      "en" : "De55 Response",
+      "type" : "Text"
+    }, {
+      "id" : "details.de55ResponseOperator",
+      "column" : "de55ResponseOperator",
+      "ar" : "De55 Response | -",
+      "en" : "De55 Response | -",
+      "type" : "Text"
+    }, {
+      "id" : "details.ecrRefNum",
+      "column" : "ecrRefNum",
+      "ar" : "ECR Ref Number / Local Reference Number",
+      "en" : "ECR Ref Number / Local Reference Number",
+      "type" : "Text"
+    }, {
+      "id" : "details.ecrRefNumOperator",
+      "column" : "ecrRefNumOperator",
+      "ar" : "ECR Ref Number / Local Reference Number| -",
+      "en" : "ECR Ref Number  / Local Reference Number | -",
+      "type" : "Text"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.maskedCardNumber",
+      "column" : "maskedCardNumber",
+      "ar" : "Masked Card Number",
+      "en" : "Masked Card Number",
+      "type" : "Text"
+    }, {
+      "id" : "details.maskedCardNumberOperator",
+      "column" : "maskedCardNumberOperator",
+      "ar" : "Masked Card Number | -",
+      "en" : "Masked Card Number | -",
+      "type" : "Text"
+    }, {
+      "id" : "details.merchantId",
+      "column" : "merchantId",
+      "ar" : "Merchant Id",
+      "en" : "Merchant Id",
+      "type" : "Text"
+    }, {
+      "id" : "details.merchantIdOperator",
+      "column" : "merchantIdOperator",
+      "ar" : "Merchant Id | -",
+      "en" : "Merchant Id | -",
+      "type" : "Text"
+    }, {
+      "id" : "details.methodGroup",
+      "column" : "methodGroup_id",
+      "type" : "Reference",
+      "refTo" : "POS.PosPGWMethodGroup",
+      "refPath" : "/modules/pos-app/POS.PosPGWMethodGroup.html"
+    }, {
+      "id" : "details.panNum",
+      "column" : "panNum",
+      "ar" : "PAN Number / ApprovalCode",
+      "en" : "PAN Number / ApprovalCode",
+      "type" : "Text"
+    }, {
+      "id" : "details.panNumOperator",
+      "column" : "panNumOperator",
+      "ar" : "PAN Number  / ApprovalCode|",
+      "en" : "PAN Number / ApprovalCode | -",
+      "type" : "Text"
+    }, {
+      "id" : "details.paymentMethod",
+      "column" : "paymentMethod_id",
+      "ar" : "طريقة الدفع",
+      "en" : " Payment Method",
+      "type" : "Reference",
+      "refTo" : "POS.POSPaymentMethod",
+      "refPath" : "/modules/pos-app/POS.POSPaymentMethod.html"
+    }, {
+      "id" : "details.schemeId",
+      "column" : "schemeId",
+      "ar" : "Scheme Id / Card Scheme Name",
+      "en" : "Scheme Id / Card Scheme Name",
+      "type" : "Text"
+    }, {
+      "id" : "details.schemeIdOperator",
+      "column" : "schemeIdOperator",
+      "ar" : "Scheme Id  / Card Scheme Name| -",
+      "en" : "Scheme Id / Card Scheme Name | -",
+      "type" : "Text"
+    }, {
+      "id" : "details.stanNum",
+      "column" : "stanNum",
+      "ar" : "STAN Number / rrNumber",
+      "en" : "STAN Number / rrNumber",
+      "type" : "Text"
+    }, {
+      "id" : "details.stanNumOperator",
+      "column" : "stanNumOperator",
+      "ar" : "STAN Number  / rrNumber | -",
+      "en" : "STAN Number / rrNumber | -",
+      "type" : "Text"
+    }, {
+      "id" : "details.terminalId",
+      "column" : "terminalId",
+      "ar" : "Terminal Id / Device Serial No",
+      "en" : "Terminal Id / Device Serial No",
+      "type" : "Text"
+    }, {
+      "id" : "details.terminalIdOperator",
+      "column" : "terminalIdOperator",
+      "ar" : "Terminal Id / Device Serial No | -",
+      "en" : "Terminal Id  / Device Serial No | -",
+      "type" : "Text"
+    } ]
+  } ]
+}

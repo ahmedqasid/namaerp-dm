@@ -1,0 +1,85 @@
+{
+  "entity" : "POSShiftCloseLine",
+  "table" : "POSShiftCloseLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/POSShiftCloseLine.html",
+  "fields" : [ {
+    "id" : "accountantRemaining",
+    "column" : "accountantRemaining",
+    "ar" : "الرصيد الدفتري",
+    "en" : "System Remaining",
+    "type" : "Decimal"
+  }, {
+    "id" : "actualRemaining",
+    "column" : "actualRemaining",
+    "ar" : "الرصيد الفعلي",
+    "en" : "Actual Remaining",
+    "type" : "Decimal"
+  }, {
+    "id" : "currency",
+    "column" : "currency",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Text"
+  }, {
+    "id" : "difference",
+    "column" : "difference",
+    "ar" : "الفرق",
+    "en" : "Difference",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "narration",
+    "column" : "narration",
+    "ar" : "الشرح",
+    "en" : "Narration",
+    "type" : "BigText"
+  }, {
+    "id" : "narration2",
+    "column" : "narration2",
+    "ar" : "الشرح 2",
+    "en" : "Narration 2",
+    "type" : "BigText"
+  }, {
+    "id" : "paymentMethod",
+    "column" : "paymentMethod_id",
+    "ar" : "طريقة الدفع",
+    "en" : " Payment Method",
+    "type" : "Reference",
+    "refTo" : "PaymentMethod",
+    "refPath" : "/modules/basic/PaymentMethod.html"
+  }, {
+    "id" : "paymentWay",
+    "column" : "paymentWay",
+    "ar" : "نوع السداد",
+    "en" : "Payment Way",
+    "type" : "Text"
+  }, {
+    "id" : "text1",
+    "column" : "text1",
+    "ar" : "نــــص 1",
+    "en" : "Text 1",
+    "type" : "Text"
+  }, {
+    "id" : "text2",
+    "column" : "text2",
+    "ar" : "نـــــص 2",
+    "en" : "Text 2",
+    "type" : "Text"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "ExpressionType",
+  "values" : [ {
+    "id" : "FieldValue",
+    "ar" : "قيمة الحقل",
+    "en" : "Field Value"
+  }, {
+    "id" : "FieldTotal",
+    "ar" : "إجمالى الحقل",
+    "en" : "Field Total"
+  } ]
+}

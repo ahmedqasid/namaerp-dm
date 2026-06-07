@@ -1,0 +1,16 @@
+{
+  "enum" : "StockTakingStatus",
+  "values" : [ {
+    "id" : "Started",
+    "ar" : "بدأ",
+    "en" : "Started"
+  }, {
+    "id" : "Ended",
+    "ar" : "منهي",
+    "en" : "Ended"
+  }, {
+    "id" : "EndedAndActive",
+    "ar" : "منتهي ومفعل",
+    "en" : "Ended & Active"
+  } ]
+}

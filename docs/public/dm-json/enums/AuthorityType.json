@@ -1,0 +1,12 @@
+{
+  "enum" : "AuthorityType",
+  "values" : [ {
+    "id" : "enabled",
+    "ar" : "مفعل",
+    "en" : "Enabled"
+  }, {
+    "id" : "disabled",
+    "ar" : "غير مفعل",
+    "en" : "Disabled"
+  } ]
+}

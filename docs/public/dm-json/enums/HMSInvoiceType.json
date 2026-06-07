@@ -1,0 +1,52 @@
+{
+  "enum" : "HMSInvoiceType",
+  "values" : [ {
+    "id" : "HMSPatientCheckInvoice",
+    "ar" : "فاتورة كشف",
+    "en" : "Check Invoice"
+  }, {
+    "id" : "HMSAccommodationInvoice",
+    "ar" : "فاتورة إقامة",
+    "en" : "Accommodation Invoice"
+  }, {
+    "id" : "HMSAttendantInvoice",
+    "ar" : "فاتورة مرافق",
+    "en" : "Attendant Invoice"
+  }, {
+    "id" : "HMSLabTestInvoice",
+    "ar" : "فاتورة تحليل طبي",
+    "en" : "Laboratory Test Invoice"
+  }, {
+    "id" : "HMSSurgeryInvoice",
+    "ar" : "فاتورة عملية جراحية",
+    "en" : "Surgery Invoice"
+  }, {
+    "id" : "HMSPhysicalTherapyInvoice",
+    "ar" : "فاتورة العلاج الطبيعى",
+    "en" : "Physical Therapy Invoice"
+  }, {
+    "id" : "HMSPharmacyInvoice",
+    "ar" : "فاتورة صيدلية",
+    "en" : "Pharmacy Invoice"
+  }, {
+    "id" : "HMSServicesInvoice",
+    "ar" : "فاتورة خدمات طبية",
+    "en" : "Services Invoice"
+  }, {
+    "id" : "HMSSuppliesInvoice",
+    "ar" : "فاتورة مستلزمات طبية",
+    "en" : "Medical Supplies Invoice"
+  }, {
+    "id" : "HMSSupervisionInvoice",
+    "ar" : "فاتورة إشراف طبي",
+    "en" : "Supervision Invoice"
+  }, {
+    "id" : "HMSBloodBankInvoice",
+    "ar" : "فاتورة بنك الدم",
+    "en" : "Blood Bank Invoice"
+  }, {
+    "id" : "HMSRadiologyInvoice",
+    "ar" : "فاتورة أشعة",
+    "en" : "Radiology Invoice"
+  } ]
+}

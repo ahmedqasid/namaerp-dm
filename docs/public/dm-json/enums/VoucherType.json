@@ -1,0 +1,12 @@
+{
+  "enum" : "VoucherType",
+  "values" : [ {
+    "id" : "LoyaltyPoints",
+    "ar" : "نقاط ولاء",
+    "en" : "Loyalty Points"
+  }, {
+    "id" : "LoyaltyVoucher",
+    "ar" : "قسيمة",
+    "en" : "Voucher"
+  } ]
+}

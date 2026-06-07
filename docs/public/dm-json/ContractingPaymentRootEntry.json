@@ -1,0 +1,41 @@
+{
+  "entity" : "ContractingPaymentRootEntry",
+  "table" : "ContractingPaymentRootEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ContractingPaymentRootEntry.html",
+  "fields" : [ {
+    "id" : "dueValue",
+    "column" : "dueValue",
+    "ar" : "القيمة المستحقه",
+    "en" : "Due Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "paidValue",
+    "column" : "paidValue",
+    "ar" : "القيمة المدفوعة",
+    "en" : "Paid Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "paymentDoc",
+    "columns" : [ "paymentDocActualCode", " paymentDocCode", " paymentDocEntityType", " paymentDocId" ],
+    "ar" : "مستند الدفع",
+    "en" : "Payment document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remainingValue",
+    "column" : "remainingValue",
+    "ar" : "المتبقي",
+    "en" : "Remaining Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "termCode",
+    "column" : "termCode",
+    "ar" : "كود البند",
+    "en" : "Term Code",
+    "type" : "Text"
+  } ]
+}

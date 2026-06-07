@@ -1,0 +1,16 @@
+{
+  "enum" : "TransLineItemType",
+  "values" : [ {
+    "id" : "Normal",
+    "ar" : "صنف عادي",
+    "en" : "Normal"
+  }, {
+    "id" : "FreeItem",
+    "ar" : "صنف مجاني",
+    "en" : "Free Item"
+  }, {
+    "id" : "NormalWithFree",
+    "ar" : "صنف له أصناف مجانية",
+    "en" : "Normal With Free"
+  } ]
+}

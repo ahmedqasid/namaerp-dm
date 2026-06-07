@@ -1,0 +1,39 @@
+{
+  "entity" : "EntityWithCriteriaLine",
+  "table" : "EntityWithCriteriaLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EntityWithCriteriaLine.html",
+  "fields" : [ {
+    "id" : "copierExtraFields",
+    "column" : "copierExtraFields_id",
+    "ar" : "الحقول الإضافية عند النسخ",
+    "en" : "Copier Extra Fields",
+    "type" : "Reference",
+    "refTo" : "SCCopierExtraFields",
+    "refPath" : "/modules/supplychain/SCCopierExtraFields.html"
+  }, {
+    "id" : "createdType",
+    "column" : "createdType",
+    "ar" : "نوع المستند المنشأ",
+    "en" : "Created Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "createdTypeList",
+    "column" : "createdTypeList_id",
+    "type" : "Reference",
+    "refTo" : "EntityTypeList",
+    "refPath" : "/modules/basic/EntityTypeList.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "whenCondition",
+    "column" : "whenCondition_id",
+    "ar" : "عندما",
+    "en" : "When",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
+  } ]
+}

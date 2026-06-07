@@ -1,0 +1,18 @@
+{
+  "entity" : "PosConfigRequestAuthorizationLine",
+  "table" : "PosConfigRequestAuthorizationLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/PosConfigRequestAuthorizationLine.html",
+  "fields" : [ {
+    "id" : "capability",
+    "column" : "capability",
+    "ar" : "الصلاحية",
+    "en" : "Capability",
+    "type" : "Enum",
+    "enum" : "POSSecurityCapability"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

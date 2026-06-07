@@ -1,0 +1,18 @@
+{
+  "enum" : "REInvestmentInvestorType",
+  "values" : [ {
+    "id" : "Join",
+    "ar" : "دخول",
+    "en" : "Join"
+  }, {
+    "id" : "FullExit",
+    "ar" : "تخارج كلي",
+    "en" : "Full Exit"
+  }, {
+    "id" : "PartialExit",
+    "ar" : "تخارج جزئي",
+    "en" : "Partial Exit"
+  }, {
+    "id" : "Revaluation"
+  } ]
+}

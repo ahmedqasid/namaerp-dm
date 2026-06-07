@@ -1,0 +1,32 @@
+{
+  "enum" : "SrvCJobOrderStatus",
+  "values" : [ {
+    "id" : "NotStarted",
+    "ar" : "لم تبدأ",
+    "en" : "Not Started"
+  }, {
+    "id" : "UnderProcessing",
+    "ar" : "تحت التشغيل",
+    "en" : "Under Processing"
+  }, {
+    "id" : "Stopped",
+    "ar" : "موقوف يدويا",
+    "en" : "Manually Stopped"
+  }, {
+    "id" : "Pending",
+    "ar" : "معلق",
+    "en" : "Pending"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
+  }, {
+    "id" : "Finished",
+    "ar" : "منتهي",
+    "en" : "Finished"
+  }, {
+    "id" : "Closed",
+    "ar" : "مغلقة",
+    "en" : "Closed"
+  } ]
+}

@@ -1,0 +1,28 @@
+{
+  "enum" : "FlowEntityTypeStrategy",
+  "values" : [ {
+    "id" : "RunsOnAnyDocumentType",
+    "ar" : "Runs On Any Document Type",
+    "en" : "Runs On Any Document Type"
+  }, {
+    "id" : "RunsOnAnyType",
+    "ar" : "Runs On Any Type",
+    "en" : "Runs On Any Type"
+  }, {
+    "id" : "RunsOnAnyMasterFileType",
+    "ar" : "Runs On Any Master File Type",
+    "en" : "Runs On Any Master File Type"
+  }, {
+    "id" : "RunsOnAnEntityTypeList",
+    "ar" : "Runs On Entity Type List",
+    "en" : "Runs On Entity Type List"
+  }, {
+    "id" : "RunsOnSingleEntityType",
+    "ar" : "Runs On Single Entity Type",
+    "en" : "Runs On Single Entity Type"
+  }, {
+    "id" : "DoesNotNeedARecord",
+    "ar" : "Does Not Need A Record",
+    "en" : "Does Not Need A Record"
+  } ]
+}

@@ -1,0 +1,33 @@
+{
+  "entity" : "CostReturnReservation",
+  "table" : "CostReturnReservation",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/CostReturnReservation.html",
+  "fields" : [ {
+    "id" : "costDimensionId",
+    "column" : "costDimensionId",
+    "type" : "ID"
+  }, {
+    "id" : "costLineId",
+    "column" : "costLineId",
+    "ar" : "مُعرف سطر التكلفة",
+    "en" : "Cost Line ID",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "invoiceStockMap",
+    "column" : "invoiceStockMap",
+    "type" : "BigText"
+  }, {
+    "id" : "reservedReturnDetails",
+    "column" : "reservedReturnDetails",
+    "type" : "BigText"
+  }, {
+    "id" : "reservedReturnQty",
+    "column" : "reservedReturnQty",
+    "type" : "Decimal"
+  } ]
+}

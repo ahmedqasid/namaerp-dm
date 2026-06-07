@@ -1,0 +1,36 @@
+{
+  "enum" : "SalesOrderStatus",
+  "values" : [ {
+    "id" : "Done",
+    "ar" : "تم التنفيذ",
+    "en" : "Done"
+  }, {
+    "id" : "InProgress",
+    "ar" : " قيد التنفيذ",
+    "en" : " In Progress"
+  }, {
+    "id" : "Postponed",
+    "ar" : "مؤجل",
+    "en" : "Postponed"
+  }, {
+    "id" : "Canceled",
+    "ar" : "ألغيت",
+    "en" : "Canceled"
+  }, {
+    "id" : "Packaged",
+    "ar" : "تم التعبئة",
+    "en" : "Packaged"
+  }, {
+    "id" : "Other1",
+    "ar" : "أخرى 1",
+    "en" : "Other 1"
+  }, {
+    "id" : "Other2",
+    "ar" : "أخرى 2",
+    "en" : "Other 2"
+  }, {
+    "id" : "Other3",
+    "ar" : "أخرى 3",
+    "en" : "Other 3"
+  } ]
+}

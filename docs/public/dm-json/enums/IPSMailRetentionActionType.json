@@ -1,0 +1,16 @@
+{
+  "enum" : "IPSMailRetentionActionType",
+  "values" : [ {
+    "id" : "Retention",
+    "ar" : "تحقيق",
+    "en" : "Retention"
+  }, {
+    "id" : "Confiscation",
+    "ar" : "مصادرة",
+    "en" : "Confiscation"
+  }, {
+    "id" : "Release",
+    "ar" : "إفراج",
+    "en" : "Release"
+  } ]
+}

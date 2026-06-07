@@ -1,0 +1,13 @@
+{
+  "enum" : "LCShapeType",
+  "values" : [ {
+    "id" : "Transferable",
+    "ar" : "قابل للتحويل"
+  }, {
+    "id" : "Circular",
+    "ar" : "دائري"
+  }, {
+    "id" : "BackToBack",
+    "ar" : "ظهير"
+  } ]
+}

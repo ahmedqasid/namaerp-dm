@@ -1,0 +1,12 @@
+{
+  "enum" : "PriceUpdatingPolicy",
+  "values" : [ {
+    "id" : "CreateOnePriceListAndDeactivateInOthers",
+    "ar" : "إنشاء قائمة أسعار واحدة للمستند المنشئ و إلغاء تنشيط تسعير الصنف في كل القوائم الأخرى",
+    "en" : "Create One Price List For Current Doc And De Activate Item Pricing In All Other Price Lists"
+  }, {
+    "id" : "UpdatePriceInLeastPriorityPriceList",
+    "ar" : "تعديل السعر في قائمة الأسعار ذات أقل أولوية",
+    "en" : "Update Price In The Least Priority Price List"
+  } ]
+}

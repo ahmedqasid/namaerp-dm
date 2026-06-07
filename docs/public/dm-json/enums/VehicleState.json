@@ -1,0 +1,16 @@
+{
+  "enum" : "VehicleState",
+  "values" : [ {
+    "id" : "Added",
+    "ar" : "مضافه",
+    "en" : "Added"
+  }, {
+    "id" : "Removed",
+    "ar" : "محذوفه",
+    "en" : "Removed"
+  }, {
+    "id" : "Accredited",
+    "ar" : "معتمده",
+    "en" : "Accredited"
+  } ]
+}

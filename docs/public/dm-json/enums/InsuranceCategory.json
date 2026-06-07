@@ -1,0 +1,36 @@
+{
+  "enum" : "InsuranceCategory",
+  "values" : [ {
+    "id" : "VIPPlus",
+    "ar" : "VIP+",
+    "en" : "VIP+"
+  }, {
+    "id" : "VIP",
+    "ar" : "VIP",
+    "en" : "VIP"
+  }, {
+    "id" : "A",
+    "ar" : "A",
+    "en" : "A"
+  }, {
+    "id" : "B",
+    "ar" : "B",
+    "en" : "B"
+  }, {
+    "id" : "C",
+    "ar" : "C",
+    "en" : "C"
+  }, {
+    "id" : "AA",
+    "ar" : "AA",
+    "en" : "AA"
+  }, {
+    "id" : "CC",
+    "ar" : "CC",
+    "en" : "CC"
+  }, {
+    "id" : "BPlus",
+    "ar" : "B+",
+    "en" : "B+"
+  } ]
+}

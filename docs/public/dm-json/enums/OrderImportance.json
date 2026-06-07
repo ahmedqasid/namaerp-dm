@@ -1,0 +1,16 @@
+{
+  "enum" : "OrderImportance",
+  "values" : [ {
+    "id" : "veryImp",
+    "ar" : "مهم جدا",
+    "en" : "Very Important"
+  }, {
+    "id" : "Imp",
+    "ar" : "مهم",
+    "en" : "Important"
+  }, {
+    "id" : "Normal",
+    "ar" : "عادية",
+    "en" : "Normal"
+  } ]
+}

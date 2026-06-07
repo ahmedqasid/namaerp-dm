@@ -1,0 +1,16 @@
+{
+  "enum" : "InvestmentDocStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "Ongoing",
+    "ar" : "جاري",
+    "en" : "Ongoing"
+  }, {
+    "id" : "Closed",
+    "ar" : "مغلقة",
+    "en" : "Closed"
+  } ]
+}

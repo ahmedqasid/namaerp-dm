@@ -1,0 +1,56 @@
+{
+  "enum" : "PeriodType",
+  "values" : [ {
+    "id" : "Yearly",
+    "ar" : "سنوية",
+    "en" : "Yearly"
+  }, {
+    "id" : "HalfYear",
+    "ar" : "نصف سنوي",
+    "en" : "Half Year"
+  }, {
+    "id" : "Quarterly",
+    "ar" : "ربع سنوية",
+    "en" : "Quarterly"
+  }, {
+    "id" : "Monthly",
+    "ar" : "شهرية",
+    "en" : "Monthly"
+  }, {
+    "id" : "YearThird",
+    "ar" : "ثلث سنوي",
+    "en" : "Year Third"
+  }, {
+    "id" : "TwoYears",
+    "ar" : "سنتين",
+    "en" : "Two years"
+  }, {
+    "id" : "ThreeYears",
+    "ar" : "ثلاث سنوات",
+    "en" : "Three Years"
+  }, {
+    "id" : "FiveYears",
+    "ar" : "خمس سنوات",
+    "en" : "Five Years"
+  }, {
+    "id" : "Once",
+    "ar" : "مرة واحدة",
+    "en" : "Once"
+  }, {
+    "id" : "WithEveryInstallment",
+    "ar" : "مع كل قسط",
+    "en" : "With Every Installment"
+  }, {
+    "id" : "TwoMonths",
+    "ar" : "شهرين",
+    "en" : "Two Months"
+  }, {
+    "id" : "FiveMonths",
+    "ar" : "خمس شهور",
+    "en" : "Five Months"
+  }, {
+    "id" : "SevenMonths",
+    "ar" : "سبع شهور",
+    "en" : "Seven Months"
+  } ]
+}

@@ -1,0 +1,72 @@
+{
+  "entity" : "DeliveryDriverTransaction",
+  "table" : "DeliveryDriverTransaction",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/DeliveryDriverTransaction.html",
+  "fields" : [ {
+    "id" : "deliveryCar",
+    "column" : "deliveryCar_id",
+    "ar" : " سيارة توصيل",
+    "en" : " Delivery Car",
+    "type" : "Reference",
+    "refTo" : "DeliveryCar",
+    "refPath" : "/modules/basic/DeliveryCar.html"
+  }, {
+    "id" : "deliveryDate",
+    "column" : "deliveryDate",
+    "ar" : "تاريخ التوصيل",
+    "en" : "Delivery Date",
+    "type" : "Date"
+  }, {
+    "id" : "deliveryOrganization",
+    "column" : "deliveryOrganization_id",
+    "ar" : " منظمة التوصيل للسائقين",
+    "en" : " Delivery Organization File",
+    "type" : "Reference",
+    "refTo" : "DeliveryOrganization",
+    "refPath" : "/modules/supplychain-delivery-queues/DeliveryOrganization.html"
+  }, {
+    "id" : "deliveryQty",
+    "column" : "deliveryQty",
+    "ar" : "كمية التوصيل",
+    "en" : "Delivery Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "deliveryRegion",
+    "column" : "deliveryRegion_id",
+    "ar" : "منطقة التوصيل",
+    "en" : "Delivery Region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "driver",
+    "column" : "driver_id",
+    "ar" : "السائق",
+    "en" : "Driver",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "searchIdx",
+    "column" : "searchIdx",
+    "type" : "Text"
+  }, {
+    "id" : "workday",
+    "column" : "workday",
+    "ar" : "يوم عمل",
+    "en" : "Work day",
+    "type" : "Enum",
+    "enum" : "NamaDayOfWeek"
+  } ]
+}

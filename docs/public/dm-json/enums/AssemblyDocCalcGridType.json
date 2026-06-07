@@ -1,0 +1,12 @@
+{
+  "enum" : "AssemblyDocCalcGridType",
+  "values" : [ {
+    "id" : "FromDetails",
+    "ar" : "من الأصناف المسحوبة",
+    "en" : "From Details"
+  }, {
+    "id" : "FromCoProducts",
+    "ar" : "من الأصناف الموردة",
+    "en" : "From CoProducts"
+  } ]
+}

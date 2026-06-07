@@ -1,0 +1,16 @@
+{
+  "enum" : "CourseEvaluationType",
+  "values" : [ {
+    "id" : "Instructor",
+    "ar" : "المدرب",
+    "en" : "Instructor"
+  }, {
+    "id" : "Student",
+    "ar" : "المتدرب",
+    "en" : "Student"
+  }, {
+    "id" : "TrainingCourse",
+    "ar" : "دورة تدريبية",
+    "en" : "Training Course"
+  } ]
+}

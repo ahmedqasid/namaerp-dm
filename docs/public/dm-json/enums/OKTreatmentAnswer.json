@@ -1,0 +1,8 @@
+{
+  "enum" : "OKTreatmentAnswer",
+  "values" : [ {
+    "id" : "Ok"
+  }, {
+    "id" : "Treatment"
+  } ]
+}

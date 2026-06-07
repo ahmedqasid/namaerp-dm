@@ -1,0 +1,321 @@
+{
+  "entity" : "POS.POSFieldTooltipInfo",
+  "table" : "POSFieldTooltipInfo",
+  "module" : "pos-app",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSFieldTooltipInfo.html",
+  "fields" : [ {
+    "id" : "automaticTooltip",
+    "column" : "automaticTooltip",
+    "ar" : "عرض المساعدة السريعة اليا مع تغيير قيمة الحقل",
+    "en" : "Automatically Display Tooltip When Field Value Changes",
+    "type" : "Boolean"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Text"
+  }, {
+    "id" : "comitBefore",
+    "column" : "comitBefore",
+    "type" : "Boolean"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "Text"
+  }, {
+    "id" : "fieldId",
+    "column" : "fieldId",
+    "ar" : " الحقل",
+    "en" : " On Field",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.code",
+    "column" : "analysisSetCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.analysisSet.id",
+    "column" : "analysisSetId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.branch.code",
+    "column" : "branchCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.branch.id",
+    "column" : "branchId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.department.code",
+    "column" : "departmentCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.department.id",
+    "column" : "departmentId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.legalEntity.code",
+    "column" : "legalEntityCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.legalEntity.id",
+    "column" : "legalEntityId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "genericDims.sector.code",
+    "column" : "sectorCode",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDims.sector.id",
+    "column" : "sectorId",
+    "ar" : "المعرف",
+    "en" : "Id",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "imgDownloadLink",
+    "column" : "imgDownloadLink",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "p1.alwaysOverride",
+    "column" : "p1alwaysOverride",
+    "ar" : "النسخ دائما",
+    "en" : "Always Override",
+    "type" : "Boolean"
+  }, {
+    "id" : "p1.field",
+    "column" : "p1field",
+    "ar" : "الحقل",
+    "en" : "Field",
+    "type" : "Text"
+  }, {
+    "id" : "p1.parameter",
+    "column" : "p1parameter",
+    "ar" : "المدخل",
+    "en" : "Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p2.alwaysOverride",
+    "column" : "p2alwaysOverride",
+    "ar" : "النسخ دائما",
+    "en" : "Always Override",
+    "type" : "Boolean"
+  }, {
+    "id" : "p2.field",
+    "column" : "p2field",
+    "ar" : "الحقل",
+    "en" : "Field",
+    "type" : "Text"
+  }, {
+    "id" : "p2.parameter",
+    "column" : "p2parameter",
+    "ar" : "المدخل",
+    "en" : "Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p3.alwaysOverride",
+    "column" : "p3alwaysOverride",
+    "ar" : "النسخ دائما",
+    "en" : "Always Override",
+    "type" : "Boolean"
+  }, {
+    "id" : "p3.field",
+    "column" : "p3field",
+    "ar" : "الحقل",
+    "en" : "Field",
+    "type" : "Text"
+  }, {
+    "id" : "p3.parameter",
+    "column" : "p3parameter",
+    "ar" : "المدخل",
+    "en" : "Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p4.alwaysOverride",
+    "column" : "p4alwaysOverride",
+    "ar" : "النسخ دائما",
+    "en" : "Always Override",
+    "type" : "Boolean"
+  }, {
+    "id" : "p4.field",
+    "column" : "p4field",
+    "ar" : "الحقل",
+    "en" : "Field",
+    "type" : "Text"
+  }, {
+    "id" : "p4.parameter",
+    "column" : "p4parameter",
+    "ar" : "المدخل",
+    "en" : "Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p5.alwaysOverride",
+    "column" : "p5alwaysOverride",
+    "ar" : "النسخ دائما",
+    "en" : "Always Override",
+    "type" : "Boolean"
+  }, {
+    "id" : "p5.field",
+    "column" : "p5field",
+    "ar" : "الحقل",
+    "en" : "Field",
+    "type" : "Text"
+  }, {
+    "id" : "p5.parameter",
+    "column" : "p5parameter",
+    "ar" : "المدخل",
+    "en" : "Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p6.alwaysOverride",
+    "column" : "p6alwaysOverride",
+    "ar" : "النسخ دائما",
+    "en" : "Always Override",
+    "type" : "Boolean"
+  }, {
+    "id" : "p6.field",
+    "column" : "p6field",
+    "ar" : "الحقل",
+    "en" : "Field",
+    "type" : "Text"
+  }, {
+    "id" : "p6.parameter",
+    "column" : "p6parameter",
+    "ar" : "المدخل",
+    "en" : "Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p7.alwaysOverride",
+    "column" : "p7alwaysOverride",
+    "ar" : "النسخ دائما",
+    "en" : "Always Override",
+    "type" : "Boolean"
+  }, {
+    "id" : "p7.field",
+    "column" : "p7field",
+    "ar" : "الحقل",
+    "en" : "Field",
+    "type" : "Text"
+  }, {
+    "id" : "p7.parameter",
+    "column" : "p7parameter",
+    "ar" : "المدخل",
+    "en" : "Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p8.alwaysOverride",
+    "column" : "p8alwaysOverride",
+    "ar" : "النسخ دائما",
+    "en" : "Always Override",
+    "type" : "Boolean"
+  }, {
+    "id" : "p8.field",
+    "column" : "p8field",
+    "ar" : "الحقل",
+    "en" : "Field",
+    "type" : "Text"
+  }, {
+    "id" : "p8.parameter",
+    "column" : "p8parameter",
+    "ar" : "المدخل",
+    "en" : "Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "p9.alwaysOverride",
+    "column" : "p9alwaysOverride",
+    "ar" : "النسخ دائما",
+    "en" : "Always Override",
+    "type" : "Boolean"
+  }, {
+    "id" : "p9.field",
+    "column" : "p9field",
+    "ar" : "الحقل",
+    "en" : "Field",
+    "type" : "Text"
+  }, {
+    "id" : "p9.parameter",
+    "column" : "p9parameter",
+    "ar" : "المدخل",
+    "en" : "Parameter",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "selected",
+    "column" : "selected",
+    "ar" : "اختيار",
+    "en" : "Selected",
+    "type" : "Boolean"
+  }, {
+    "id" : "tooltipId",
+    "column" : "tooltipId",
+    "type" : "Text"
+  }, {
+    "id" : "writeFailures",
+    "column" : "writeFailures",
+    "type" : "Integer"
+  } ]
+}

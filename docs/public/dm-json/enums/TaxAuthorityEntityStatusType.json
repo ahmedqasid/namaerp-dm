@@ -1,0 +1,28 @@
+{
+  "enum" : "TaxAuthorityEntityStatusType",
+  "values" : [ {
+    "id" : "Sent",
+    "ar" : "تم ارساله",
+    "en" : "Sent"
+  }, {
+    "id" : "NotSent",
+    "ar" : "لم يرسل بعد",
+    "en" : "Not Sent"
+  }, {
+    "id" : "NotValidSent",
+    "ar" : "لم يتم ارساله بشكل صحيح",
+    "en" : "Not Send Correctly"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "RejectedByReceiver",
+    "ar" : "مرفوض من المستلم",
+    "en" : "Rejected By Receiver"
+  } ]
+}

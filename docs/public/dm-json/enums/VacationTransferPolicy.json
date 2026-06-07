@@ -1,0 +1,16 @@
+{
+  "enum" : "VacationTransferPolicy",
+  "values" : [ {
+    "id" : "Ignored",
+    "ar" : "تجاهل",
+    "en" : "Ignored"
+  }, {
+    "id" : "Repaid",
+    "ar" : "تعويض",
+    "en" : "Repaid"
+  }, {
+    "id" : "Migrated",
+    "ar" : "ترحيل",
+    "en" : "Migrated"
+  } ]
+}

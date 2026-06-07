@@ -1,0 +1,20 @@
+{
+  "enum" : "AppFormElementType",
+  "values" : [ {
+    "id" : "Conter",
+    "ar" : "كونتر",
+    "en" : "Conter"
+  }, {
+    "id" : "Waterjet",
+    "ar" : "وترجت",
+    "en" : "Waterjet"
+  }, {
+    "id" : "Zone",
+    "ar" : "منطقة",
+    "en" : "Zone"
+  }, {
+    "id" : "Stairs",
+    "ar" : "درج",
+    "en" : "Stairs"
+  } ]
+}

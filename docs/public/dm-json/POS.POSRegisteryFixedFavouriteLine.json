@@ -1,0 +1,37 @@
+{
+  "entity" : "POS.POSRegisteryFixedFavouriteLine",
+  "table" : "POSRegisteryFixedFavouriteLine",
+  "module" : "pos-app",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSRegisteryFixedFavouriteLine.html",
+  "fields" : [ {
+    "id" : "favourite.code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "favourite.namaEntityType",
+    "column" : "namaEntityType",
+    "type" : "Text"
+  }, {
+    "id" : "favourite.namaGenRefId",
+    "column" : "namaGenRefId",
+    "type" : "ID"
+  }, {
+    "id" : "favourite.name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "favourite.name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

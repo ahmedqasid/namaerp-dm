@@ -1,0 +1,16 @@
+{
+  "enum" : "WarehouseIssueMethod",
+  "values" : [ {
+    "id" : "MainItemNotToBeIssued",
+    "ar" : "صنف رئيسي لا يصرف",
+    "en" : "Main Item Not To Be Issued"
+  }, {
+    "id" : "ToBeIssued",
+    "ar" : "خامة تصرف",
+    "en" : "To Be Issued"
+  }, {
+    "id" : "Normal",
+    "ar" : "عادي",
+    "en" : "Normal"
+  } ]
+}

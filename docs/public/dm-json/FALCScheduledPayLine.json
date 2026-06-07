@@ -1,0 +1,35 @@
+{
+  "entity" : "FALCScheduledPayLine",
+  "table" : "FALCScheduledPayLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/FALCScheduledPayLine.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "paymentDate",
+    "column" : "paymentDate",
+    "ar" : "تاريخ الدفع",
+    "en" : "Payment Date",
+    "type" : "Date"
+  }, {
+    "id" : "paymentPercent",
+    "column" : "paymentPercent",
+    "ar" : "نسبة الدفعة",
+    "en" : "Payment Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "paymentValue",
+    "column" : "paymentValue",
+    "ar" : "المبلغ",
+    "en" : "Payment Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "remarks",
+    "column" : "remarks",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  } ]
+}

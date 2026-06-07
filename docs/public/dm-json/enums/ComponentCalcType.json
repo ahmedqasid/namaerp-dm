@@ -1,0 +1,20 @@
+{
+  "enum" : "ComponentCalcType",
+  "values" : [ {
+    "id" : "FixedValue",
+    "ar" : "قيمة ثابتة",
+    "en" : "Fixed Value"
+  }, {
+    "id" : "SQL",
+    "ar" : "SQL",
+    "en" : "SQL"
+  }, {
+    "id" : "OtherComponents",
+    "ar" : "من مكونات أخرى",
+    "en" : "From Other Componenets"
+  }, {
+    "id" : "Manual",
+    "ar" : "يدوي",
+    "en" : "Manual"
+  } ]
+}

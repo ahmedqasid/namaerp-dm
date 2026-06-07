@@ -1,0 +1,16 @@
+{
+  "enum" : "ItemPropertiesDisplayMethod",
+  "values" : [ {
+    "id" : "NameOnly",
+    "ar" : "الاسم فقط",
+    "en" : "Name Only"
+  }, {
+    "id" : "CodeOnly",
+    "ar" : "الكود فقط",
+    "en" : "Code Only"
+  }, {
+    "id" : "CodeAndName",
+    "ar" : "الكود والاسم",
+    "en" : "Code And Name"
+  } ]
+}

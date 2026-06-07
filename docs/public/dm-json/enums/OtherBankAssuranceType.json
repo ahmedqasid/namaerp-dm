@@ -1,0 +1,12 @@
+{
+  "enum" : "OtherBankAssuranceType",
+  "values" : [ {
+    "id" : "Promoted",
+    "ar" : "معزز",
+    "en" : "Promoted"
+  }, {
+    "id" : "Unpromoted",
+    "ar" : "غير معزز",
+    "en" : "Unpromoted"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "enum" : "EcommerceItemType",
+  "values" : [ {
+    "id" : "Simple",
+    "ar" : "بسيط",
+    "en" : "Simple"
+  }, {
+    "id" : "Configurable",
+    "ar" : "مركب",
+    "en" : "Configurable"
+  } ]
+}

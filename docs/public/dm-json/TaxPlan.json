@@ -1,0 +1,1389 @@
+{
+  "entity" : "TaxPlan",
+  "table" : "TaxPlan",
+  "module" : "basic",
+  "ar" : "سياسة الضريبة",
+  "arPlural" : "السياسات الضريبية",
+  "en" : "Tax Plan",
+  "enPlural" : "Tax Plans",
+  "page" : "https://dm.namasoft.com/modules/basic/TaxPlan.html",
+  "fields" : [ {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "defaultTaxConfig",
+    "column" : "defaultTaxConfig",
+    "ar" : "الإعدادات الافتراضية للضريبة من",
+    "en" : "Default Tax Configuration",
+    "type" : "Enum",
+    "enum" : "TaxConfigDefault"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "itemPlan",
+    "column" : "itemPlan",
+    "ar" : "ضريبة أصناف",
+    "en" : "Item Plan",
+    "type" : "Boolean"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
+  }, {
+    "id" : "noInvoiceTaxesWithThisPolicy",
+    "column" : "noInvoiceTaxesWithThisPolicy",
+    "ar" : "عدم احتساب ضريبة الفاتورة مع هذه السياسة",
+    "en" : "No Invoice Taxes With This Policy",
+    "type" : "Boolean"
+  }, {
+    "id" : "noItemTaxesWithThisPolicy",
+    "column" : "noItemTaxesWithThisPolicy",
+    "ar" : "عدم احتساب ضريبة الأصناف مع هذه السياسة",
+    "en" : "No Item Taxes With This Policy",
+    "type" : "Boolean"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "priorityPolicyOverCusOrSup",
+    "column" : "priorityPolicyOverCusOrSup",
+    "ar" : "إعطاء الأولويه لهذه السياسة عن السياسة المحددة في العميل و المورد",
+    "en" : "Prioritize This Policy Over Policy Specified In Customer and Supplier",
+    "type" : "Boolean"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "subsidiaryAccounts.account1",
+    "column" : "account1_id",
+    "ar" : " حساب 01",
+    "en" : " Account 01",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account10",
+    "column" : "account10_id",
+    "ar" : " حساب 10",
+    "en" : " Account 10",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account11",
+    "column" : "account11_id",
+    "ar" : " حساب 11",
+    "en" : " Account 11",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account12",
+    "column" : "account12_id",
+    "ar" : " حساب 12",
+    "en" : " Account 12",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account13",
+    "column" : "account13_id",
+    "ar" : " حساب 13",
+    "en" : " Account 13",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account14",
+    "column" : "account14_id",
+    "ar" : " حساب 14",
+    "en" : " Account 14",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account15",
+    "column" : "account15_id",
+    "ar" : " حساب 15",
+    "en" : " Account 15",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account16",
+    "column" : "account16_id",
+    "ar" : " حساب 16",
+    "en" : " Account 16",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account17",
+    "column" : "account17_id",
+    "ar" : " حساب 17",
+    "en" : " Account 17",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account18",
+    "column" : "account18_id",
+    "ar" : " حساب 18",
+    "en" : " Account 18",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account19",
+    "column" : "account19_id",
+    "ar" : " حساب 19",
+    "en" : " Account 19",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account2",
+    "column" : "account2_id",
+    "ar" : " حساب 02",
+    "en" : " Account 02",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account20",
+    "column" : "account20_id",
+    "ar" : " حساب 20",
+    "en" : " Account 20",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account3",
+    "column" : "account3_id",
+    "ar" : " حساب 03",
+    "en" : " Account 03",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account4",
+    "column" : "account4_id",
+    "ar" : " حساب 04",
+    "en" : " Account 04",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account5",
+    "column" : "account5_id",
+    "ar" : " حساب 05",
+    "en" : " Account 05",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account6",
+    "column" : "account6_id",
+    "ar" : " حساب 06",
+    "en" : " Account 06",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account7",
+    "column" : "account7_id",
+    "ar" : " حساب 07",
+    "en" : " Account 07",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account8",
+    "column" : "account8_id",
+    "ar" : " حساب 08",
+    "en" : " Account 08",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.account9",
+    "column" : "account9_id",
+    "ar" : " حساب 09",
+    "en" : " Account 09",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.accountsBag",
+    "column" : "accountsBag_id",
+    "ar" : " حقيبة حسابات",
+    "en" : " Accounts Bag",
+    "type" : "Reference",
+    "refTo" : "AccountsBag",
+    "refPath" : "/modules/basic/AccountsBag.html"
+  }, {
+    "id" : "subsidiaryAccounts.currency",
+    "column" : "currency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "subsidiaryAccounts.forceNoDebtAgesTracking",
+    "column" : "forceNoDebtAgesTracking",
+    "ar" : "منع متابعة أعمار الديون لهذه الذمة - حتي و إن تم تفعيلها للحساب",
+    "en" : "Do Not Track Debt Ages For This Subsidiary - Even if it was activated in the account",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.mainAccount",
+    "column" : "mainAccount_id",
+    "ar" : " الحساب الرئيسي",
+    "en" : " Main Account",
+    "type" : "Reference",
+    "refTo" : "Account",
+    "refPath" : "/modules/accounting/Account.html"
+  }, {
+    "id" : "subsidiaryAccounts.parentParty",
+    "columns" : [ "parentPartyActualCode", " parentPartyCode", " parentPartyEntityType", " parentPartyId" ],
+    "ar" : "الجهة الأعلي (البديل المحاسبي)",
+    "en" : "Parent Party (Accounting Alternative)",
+    "type" : "Genericreference"
+  }, {
+    "id" : "subsidiaryAccounts.tax1Exempt",
+    "column" : "tax1Exempt",
+    "ar" : "غير خاضع لضريبة 1",
+    "en" : "Tax 1 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax2Exempt",
+    "column" : "tax2Exempt",
+    "ar" : "غير خاضع لضريبة 2",
+    "en" : "Tax 2 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax3Exempt",
+    "column" : "tax3Exempt",
+    "ar" : "غير خاضع لضريبة 3",
+    "en" : "Tax 3 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "subsidiaryAccounts.tax4Exempt",
+    "column" : "tax4Exempt",
+    "ar" : "غير خاضع لضريبة 4",
+    "en" : "Tax 4 Exempt",
+    "type" : "Boolean"
+  }, {
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.effectsConfig",
+    "column" : "effectsConfig_id",
+    "ar" : "إعدادات تأثير الخصومات و الضرائب",
+    "en" : "Tax and Discounts Effects Configuration",
+    "type" : "Reference",
+    "refTo" : "TaxDiscountEffectsConfig",
+    "refPath" : "/modules/basic/TaxDiscountEffectsConfig.html"
+  }, {
+    "id" : "taxConfiguration.priceIncludesTax",
+    "column" : "priceIncludesTax",
+    "ar" : "السعر يشمل الضريبة 1",
+    "en" : "Price Includes Tax 1",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.priceIncludesTax2",
+    "column" : "priceIncludesTax2",
+    "ar" : "السعر يشمل الضريبة 2",
+    "en" : "Price Includes Tax 2",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.priceIncludesTax3",
+    "column" : "priceIncludesTax3",
+    "ar" : "السعر يشمل الضريبة 3",
+    "en" : "Price Includes Tax 3",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.priceIncludesTax4",
+    "column" : "priceIncludesTax4",
+    "ar" : "السعر يشمل الضريبة 4",
+    "en" : "Price Includes Tax 4",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax1ApplyType",
+    "column" : "tax1ApplyType",
+    "ar" : "وعاء ضريبة 1",
+    "en" : "Tax 1 Apply Type",
+    "type" : "Enum",
+    "enum" : "TaxApplyType"
+  }, {
+    "id" : "taxConfiguration.tax1IsDiscount",
+    "column" : "tax1IsDiscount",
+    "ar" : "ضريبة 1 خصم",
+    "en" : "Tax 1 Is Discount",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax1IsValue",
+    "column" : "tax1IsValue",
+    "ar" : "ضريبة 1 قيمة و ليست نسبة",
+    "en" : "Tax 1 Is Value Not Percentage",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax1Location",
+    "column" : "tax1Location",
+    "ar" : "وقت حساب ضريبة 1",
+    "en" : "Tax 1 Location",
+    "type" : "Enum",
+    "enum" : "TaxLocation"
+  }, {
+    "id" : "taxConfiguration.tax1NotIncludedInTotal",
+    "column" : "tax1NotIncludedInTotal",
+    "ar" : "ضريبة 1 غير مضافة الي الإجمالي",
+    "en" : "Tax 1 Not Included In Total",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax1ValueIsForTotal",
+    "column" : "tax1ValueIsForTotal",
+    "ar" : "قيمة ضريبة 1 للإجمالي و ليس لكل وحدة",
+    "en" : "Tax 1 Value Is For Total Not Per Piece",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax2ApplyType",
+    "column" : "tax2ApplyType",
+    "ar" : "وعاء ضريبة 2",
+    "en" : "Tax 2 Apply Type",
+    "type" : "Enum",
+    "enum" : "TaxApplyType"
+  }, {
+    "id" : "taxConfiguration.tax2IsDiscount",
+    "column" : "tax2IsDiscount",
+    "ar" : "ضريبة 2 خصم",
+    "en" : "Tax 2 Is Discount",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax2IsValue",
+    "column" : "tax2IsValue",
+    "ar" : "ضريبة 2 قيمة و ليست نسبة",
+    "en" : "Tax 2 Is Value Not Percentage",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax2Location",
+    "column" : "tax2Location",
+    "ar" : "وقت حساب ضريبة 2",
+    "en" : "Tax 2 Location",
+    "type" : "Enum",
+    "enum" : "TaxLocation"
+  }, {
+    "id" : "taxConfiguration.tax2NotIncludedInTotal",
+    "column" : "tax2NotIncludedInTotal",
+    "ar" : "ضريبة 2 غير مضافة الي الإجمالي",
+    "en" : "Tax 2 Not Included In Total",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax2ValueIsForTotal",
+    "column" : "tax2ValueIsForTotal",
+    "ar" : "قيمة ضريبة 2 للإجمالي و ليس لكل وحدة",
+    "en" : "Tax 2 Value Is For Total Not Per Piece",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax3ApplyType",
+    "column" : "tax3ApplyType",
+    "ar" : "وعاء ضريبة 3",
+    "en" : "Tax 3 Apply Type",
+    "type" : "Enum",
+    "enum" : "TaxApplyType"
+  }, {
+    "id" : "taxConfiguration.tax3IsDiscount",
+    "column" : "tax3IsDiscount",
+    "ar" : "ضريبة 3 خصم",
+    "en" : "Tax 3 Is Discount",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax3IsValue",
+    "column" : "tax3IsValue",
+    "ar" : "ضريبة 3 قيمة و ليست نسبة",
+    "en" : "Tax 3 Is Value Not Percentage",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax3Location",
+    "column" : "tax3Location",
+    "ar" : "وقت حساب ضريبة 3",
+    "en" : "Tax 3 Location",
+    "type" : "Enum",
+    "enum" : "TaxLocation"
+  }, {
+    "id" : "taxConfiguration.tax3NotIncludedInTotal",
+    "column" : "tax3NotIncludedInTotal",
+    "ar" : "ضريبة 3 غير مضافة الي الإجمالي",
+    "en" : "Tax 3 Not Included In Total",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax3ValueIsForTotal",
+    "column" : "tax3ValueIsForTotal",
+    "ar" : "قيمة ضريبة 3 للإجمالي و ليس لكل وحدة",
+    "en" : "Tax 3 Value Is For Total Not Per Piece",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax4ApplyType",
+    "column" : "tax4ApplyType",
+    "ar" : "وعاء ضريبة 4",
+    "en" : "Tax 4 Apply Type",
+    "type" : "Enum",
+    "enum" : "TaxApplyType"
+  }, {
+    "id" : "taxConfiguration.tax4IsDiscount",
+    "column" : "tax4IsDiscount",
+    "ar" : "ضريبة 4 خصم",
+    "en" : "Tax 4 Is Discount",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax4IsValue",
+    "column" : "tax4IsValue",
+    "ar" : "ضريبة 4 قيمة و ليست نسبة",
+    "en" : "Tax 4 Is Value Not Percentage",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax4Location",
+    "column" : "tax4Location",
+    "ar" : "وقت حساب ضريبة 4",
+    "en" : "Tax 4 Location",
+    "type" : "Enum",
+    "enum" : "TaxLocation"
+  }, {
+    "id" : "taxConfiguration.tax4NotIncludedInTotal",
+    "column" : "tax4NotIncludedInTotal",
+    "ar" : "ضريبة 4 غير مضافة الي الإجمالي",
+    "en" : "Tax 4 Not Included In Total",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.tax4ValueIsForTotal",
+    "column" : "tax4ValueIsForTotal",
+    "ar" : "قيمة ضريبة 4 للإجمالي و ليس لكل وحدة",
+    "en" : "Tax 4 Value Is For Total Not Per Piece",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.sendTax1WithZero",
+    "column" : "taxesCodesSendTax1WithZero",
+    "ar" : "إرسال الضريبة 1 بصفر",
+    "en" : "Send Tax 1 With Zero",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.sendTax2WithZero",
+    "column" : "taxesCodesSendTax2WithZero",
+    "ar" : "إرسال الضريبة 2 بصفر",
+    "en" : "Send Tax 2 With Zero",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.sendTax3WithZero",
+    "column" : "taxesCodesSendTax3WithZero",
+    "ar" : "إرسال الضريبة 3 بصفر",
+    "en" : "Send Tax 3 With Zero",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.sendTax4WithZero",
+    "column" : "taxesCodesSendTax4WithZero",
+    "ar" : "إرسال الضريبة 4 بصفر",
+    "en" : "Send Tax 4 With Zero",
+    "type" : "Boolean"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax1TaxAuthSubType",
+    "column" : "taxesCodesTax1TaxAuthSubType",
+    "ar" : "الضريبة 1 كود الضريبة الفرعي 1",
+    "en" : "Tax 1 Tax SubType",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax1TaxAuthType",
+    "column" : "taxesCodesTax1TaxAuthType",
+    "ar" : "الضريبة 1 كود الضريبة 1",
+    "en" : "Tax 1 Tax Type",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax1ZeroTaxAuthSubType",
+    "column" : "txsCdsTax1ZeroTaxAuthSubType",
+    "ar" : "الضريبة 1 كود الضريبة الصفرية الفرعي 1",
+    "en" : "Tax 1 Zero Tax Auth Sub Type",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax1ZeroTaxAuthType",
+    "column" : "taxesCodesTax1ZeroTaxAuthType",
+    "ar" : "الضريبة 1 كود الضريبة الصفرية 1",
+    "en" : "Tax 1 Zero Tax Auth Type",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax2TaxAuthSubType",
+    "column" : "taxesCodesTax2TaxAuthSubType",
+    "ar" : "الضريبة 2 كود الضريبة الفرعي 2",
+    "en" : "Tax2 Tax Sub Type",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax2TaxAuthType",
+    "column" : "taxesCodesTax2TaxAuthType",
+    "ar" : "الضريبة 2 كود الضريبة 2",
+    "en" : "Tax2 Tax Type",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax2ZeroTaxAuthSubType",
+    "column" : "txsCdsTax2ZeroTaxAuthSubType",
+    "ar" : "الضريبة 2 كود الضريبة الصفرية الفرعي 2",
+    "en" : "Tax 2 Zero Tax Auth Sub Type",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax2ZeroTaxAuthType",
+    "column" : "taxesCodesTax2ZeroTaxAuthType",
+    "ar" : "الضريبة 2 كود الضريبة الصفرية 2",
+    "en" : "Tax 2 Zero Tax Auth Type",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax3TaxAuthSubType",
+    "column" : "taxesCodesTax3TaxAuthSubType",
+    "ar" : "الضريبة 3 كود الضريبة الفرعي 3",
+    "en" : "Tax3 Tax Sub Type",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax3TaxAuthType",
+    "column" : "taxesCodesTax3TaxAuthType",
+    "ar" : "الضريبة 3 كود الضريبة 3",
+    "en" : "Tax3 Tax Type",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax3ZeroTaxAuthSubType",
+    "column" : "txsCdsTax3ZeroTaxAuthSubType",
+    "ar" : "الضريبة 3 كود الضريبة الصفرية الفرعي 3",
+    "en" : "Tax 3 Zero Tax Auth Sub Type",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax3ZeroTaxAuthType",
+    "column" : "taxesCodesTax3ZeroTaxAuthType",
+    "ar" : "الضريبة 3 كود الضريبة الصفرية 3",
+    "en" : "Tax 3 Zero Tax Auth Type",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax4TaxAuthSubType",
+    "column" : "taxesCodesTax4TaxAuthSubType",
+    "ar" : "الضريبة 4 كود الضريبة الفرعي 4",
+    "en" : "Tax4 Tax Sub Type",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax4TaxAuthType",
+    "column" : "taxesCodesTax4TaxAuthType",
+    "ar" : "الضريبة 4 كود الضريبة 4",
+    "en" : "Tax4 Tax Type",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax4ZeroTaxAuthSubType",
+    "column" : "txsCdsTax4ZeroTaxAuthSubType",
+    "ar" : "الضريبة 4 كود الضريبة الصفرية الفرعي 4",
+    "en" : "Tax 4 Zero Tax Auth Sub Type",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.tax4ZeroTaxAuthType",
+    "column" : "taxesCodesTax4ZeroTaxAuthType",
+    "ar" : "الضريبة 4 كود الضريبة الصفرية 4",
+    "en" : "Tax 4 Zero Tax Auth Type",
+    "type" : "Text"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "legalEntityTaxes",
+    "table" : "LegalEntityTax",
+    "joinColumn" : "taxPlan_id",
+    "ar" : "السياسة الضريبية",
+    "en" : "Legal Entity Taxes",
+    "fields" : [ {
+      "id" : "legalEntityTaxes.effectiveFrom",
+      "column" : "effectiveFrom",
+      "ar" : "تطبق من",
+      "en" : "Effective From",
+      "type" : "Date"
+    }, {
+      "id" : "legalEntityTaxes.effectiveTo",
+      "column" : "effectiveTo",
+      "ar" : "تطبق الي",
+      "en" : "Effective To",
+      "type" : "Date"
+    }, {
+      "id" : "legalEntityTaxes.entityType",
+      "column" : "entityType",
+      "ar" : "النوع",
+      "en" : "Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "legalEntityTaxes.entityTypeList",
+      "column" : "entityTypeList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "legalEntityTaxes.excludeTax1FromCost",
+      "column" : "excludeTax1FromCost",
+      "ar" : "عدم إضافة ضريبة 1 للتكلفة",
+      "en" : "Exclude Tax1 From Cost",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.excludeTax2FromCost",
+      "column" : "excludeTax2FromCost",
+      "ar" : "عدم إضافة ضريبة 2 للتكلفة",
+      "en" : "Exclude Tax2 From Cost",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "legalEntityTaxes.legalEntity",
+      "column" : "legalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "legalEntityTaxes.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "legalEntityTaxes.revisionId",
+      "column" : "revisionId",
+      "ar" : "الإصدار",
+      "en" : "ID",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.tax1",
+      "column" : "tax1",
+      "ar" : "ضريبة مبيعات 1",
+      "en" : "Tax 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "legalEntityTaxes.tax2",
+      "column" : "tax2",
+      "ar" : "ضريبة مبيعات 2",
+      "en" : "Tax 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.effectsConfig",
+      "column" : "effectsConfig_id",
+      "ar" : "إعدادات تأثير الخصومات و الضرائب",
+      "en" : "Tax and Discounts Effects Configuration",
+      "type" : "Reference",
+      "refTo" : "TaxDiscountEffectsConfig",
+      "refPath" : "/modules/basic/TaxDiscountEffectsConfig.html"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.priceIncludesTax",
+      "column" : "priceIncludesTax",
+      "ar" : "السعر يشمل الضريبة 1",
+      "en" : "Price Includes Tax 1",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.priceIncludesTax2",
+      "column" : "priceIncludesTax2",
+      "ar" : "السعر يشمل الضريبة 2",
+      "en" : "Price Includes Tax 2",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.priceIncludesTax3",
+      "column" : "priceIncludesTax3",
+      "ar" : "السعر يشمل الضريبة 3",
+      "en" : "Price Includes Tax 3",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.priceIncludesTax4",
+      "column" : "priceIncludesTax4",
+      "ar" : "السعر يشمل الضريبة 4",
+      "en" : "Price Includes Tax 4",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax1ApplyType",
+      "column" : "tax1ApplyType",
+      "ar" : "وعاء ضريبة 1",
+      "en" : "Tax 1 Apply Type",
+      "type" : "Enum",
+      "enum" : "TaxApplyType"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax1IsDiscount",
+      "column" : "tax1IsDiscount",
+      "ar" : "ضريبة 1 خصم",
+      "en" : "Tax 1 Is Discount",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax1IsValue",
+      "column" : "tax1IsValue",
+      "ar" : "ضريبة 1 قيمة و ليست نسبة",
+      "en" : "Tax 1 Is Value Not Percentage",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax1Location",
+      "column" : "tax1Location",
+      "ar" : "وقت حساب ضريبة 1",
+      "en" : "Tax 1 Location",
+      "type" : "Enum",
+      "enum" : "TaxLocation"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax1NotIncludedInTotal",
+      "column" : "tax1NotIncludedInTotal",
+      "ar" : "ضريبة 1 غير مضافة الي الإجمالي",
+      "en" : "Tax 1 Not Included In Total",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax1ValueIsForTotal",
+      "column" : "tax1ValueIsForTotal",
+      "ar" : "قيمة ضريبة 1 للإجمالي و ليس لكل وحدة",
+      "en" : "Tax 1 Value Is For Total Not Per Piece",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax2ApplyType",
+      "column" : "tax2ApplyType",
+      "ar" : "وعاء ضريبة 2",
+      "en" : "Tax 2 Apply Type",
+      "type" : "Enum",
+      "enum" : "TaxApplyType"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax2IsDiscount",
+      "column" : "tax2IsDiscount",
+      "ar" : "ضريبة 2 خصم",
+      "en" : "Tax 2 Is Discount",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax2IsValue",
+      "column" : "tax2IsValue",
+      "ar" : "ضريبة 2 قيمة و ليست نسبة",
+      "en" : "Tax 2 Is Value Not Percentage",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax2Location",
+      "column" : "tax2Location",
+      "ar" : "وقت حساب ضريبة 2",
+      "en" : "Tax 2 Location",
+      "type" : "Enum",
+      "enum" : "TaxLocation"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax2NotIncludedInTotal",
+      "column" : "tax2NotIncludedInTotal",
+      "ar" : "ضريبة 2 غير مضافة الي الإجمالي",
+      "en" : "Tax 2 Not Included In Total",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax2ValueIsForTotal",
+      "column" : "tax2ValueIsForTotal",
+      "ar" : "قيمة ضريبة 2 للإجمالي و ليس لكل وحدة",
+      "en" : "Tax 2 Value Is For Total Not Per Piece",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax3ApplyType",
+      "column" : "tax3ApplyType",
+      "ar" : "وعاء ضريبة 3",
+      "en" : "Tax 3 Apply Type",
+      "type" : "Enum",
+      "enum" : "TaxApplyType"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax3IsDiscount",
+      "column" : "tax3IsDiscount",
+      "ar" : "ضريبة 3 خصم",
+      "en" : "Tax 3 Is Discount",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax3IsValue",
+      "column" : "tax3IsValue",
+      "ar" : "ضريبة 3 قيمة و ليست نسبة",
+      "en" : "Tax 3 Is Value Not Percentage",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax3Location",
+      "column" : "tax3Location",
+      "ar" : "وقت حساب ضريبة 3",
+      "en" : "Tax 3 Location",
+      "type" : "Enum",
+      "enum" : "TaxLocation"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax3NotIncludedInTotal",
+      "column" : "tax3NotIncludedInTotal",
+      "ar" : "ضريبة 3 غير مضافة الي الإجمالي",
+      "en" : "Tax 3 Not Included In Total",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax3ValueIsForTotal",
+      "column" : "tax3ValueIsForTotal",
+      "ar" : "قيمة ضريبة 3 للإجمالي و ليس لكل وحدة",
+      "en" : "Tax 3 Value Is For Total Not Per Piece",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax4ApplyType",
+      "column" : "tax4ApplyType",
+      "ar" : "وعاء ضريبة 4",
+      "en" : "Tax 4 Apply Type",
+      "type" : "Enum",
+      "enum" : "TaxApplyType"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax4IsDiscount",
+      "column" : "tax4IsDiscount",
+      "ar" : "ضريبة 4 خصم",
+      "en" : "Tax 4 Is Discount",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax4IsValue",
+      "column" : "tax4IsValue",
+      "ar" : "ضريبة 4 قيمة و ليست نسبة",
+      "en" : "Tax 4 Is Value Not Percentage",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax4Location",
+      "column" : "tax4Location",
+      "ar" : "وقت حساب ضريبة 4",
+      "en" : "Tax 4 Location",
+      "type" : "Enum",
+      "enum" : "TaxLocation"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax4NotIncludedInTotal",
+      "column" : "tax4NotIncludedInTotal",
+      "ar" : "ضريبة 4 غير مضافة الي الإجمالي",
+      "en" : "Tax 4 Not Included In Total",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.tax4ValueIsForTotal",
+      "column" : "tax4ValueIsForTotal",
+      "ar" : "قيمة ضريبة 4 للإجمالي و ليس لكل وحدة",
+      "en" : "Tax 4 Value Is For Total Not Per Piece",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.sendTax1WithZero",
+      "column" : "taxesCodesSendTax1WithZero",
+      "ar" : "إرسال الضريبة 1 بصفر",
+      "en" : "Send Tax 1 With Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.sendTax2WithZero",
+      "column" : "taxesCodesSendTax2WithZero",
+      "ar" : "إرسال الضريبة 2 بصفر",
+      "en" : "Send Tax 2 With Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.sendTax3WithZero",
+      "column" : "taxesCodesSendTax3WithZero",
+      "ar" : "إرسال الضريبة 3 بصفر",
+      "en" : "Send Tax 3 With Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.sendTax4WithZero",
+      "column" : "taxesCodesSendTax4WithZero",
+      "ar" : "إرسال الضريبة 4 بصفر",
+      "en" : "Send Tax 4 With Zero",
+      "type" : "Boolean"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax1TaxAuthSubType",
+      "column" : "taxesCodesTax1TaxAuthSubType",
+      "ar" : "الضريبة 1 كود الضريبة الفرعي 1",
+      "en" : "Tax 1 Tax SubType",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax1TaxAuthType",
+      "column" : "taxesCodesTax1TaxAuthType",
+      "ar" : "الضريبة 1 كود الضريبة 1",
+      "en" : "Tax 1 Tax Type",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax1ZeroTaxAuthSubType",
+      "column" : "txsCdsTax1ZeroTaxAuthSubType",
+      "ar" : "الضريبة 1 كود الضريبة الصفرية الفرعي 1",
+      "en" : "Tax 1 Zero Tax Auth Sub Type",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax1ZeroTaxAuthType",
+      "column" : "taxesCodesTax1ZeroTaxAuthType",
+      "ar" : "الضريبة 1 كود الضريبة الصفرية 1",
+      "en" : "Tax 1 Zero Tax Auth Type",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax2TaxAuthSubType",
+      "column" : "taxesCodesTax2TaxAuthSubType",
+      "ar" : "الضريبة 2 كود الضريبة الفرعي 2",
+      "en" : "Tax2 Tax Sub Type",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax2TaxAuthType",
+      "column" : "taxesCodesTax2TaxAuthType",
+      "ar" : "الضريبة 2 كود الضريبة 2",
+      "en" : "Tax2 Tax Type",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax2ZeroTaxAuthSubType",
+      "column" : "txsCdsTax2ZeroTaxAuthSubType",
+      "ar" : "الضريبة 2 كود الضريبة الصفرية الفرعي 2",
+      "en" : "Tax 2 Zero Tax Auth Sub Type",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax2ZeroTaxAuthType",
+      "column" : "taxesCodesTax2ZeroTaxAuthType",
+      "ar" : "الضريبة 2 كود الضريبة الصفرية 2",
+      "en" : "Tax 2 Zero Tax Auth Type",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax3TaxAuthSubType",
+      "column" : "taxesCodesTax3TaxAuthSubType",
+      "ar" : "الضريبة 3 كود الضريبة الفرعي 3",
+      "en" : "Tax3 Tax Sub Type",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax3TaxAuthType",
+      "column" : "taxesCodesTax3TaxAuthType",
+      "ar" : "الضريبة 3 كود الضريبة 3",
+      "en" : "Tax3 Tax Type",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax3ZeroTaxAuthSubType",
+      "column" : "txsCdsTax3ZeroTaxAuthSubType",
+      "ar" : "الضريبة 3 كود الضريبة الصفرية الفرعي 3",
+      "en" : "Tax 3 Zero Tax Auth Sub Type",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax3ZeroTaxAuthType",
+      "column" : "taxesCodesTax3ZeroTaxAuthType",
+      "ar" : "الضريبة 3 كود الضريبة الصفرية 3",
+      "en" : "Tax 3 Zero Tax Auth Type",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax4TaxAuthSubType",
+      "column" : "taxesCodesTax4TaxAuthSubType",
+      "ar" : "الضريبة 4 كود الضريبة الفرعي 4",
+      "en" : "Tax4 Tax Sub Type",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax4TaxAuthType",
+      "column" : "taxesCodesTax4TaxAuthType",
+      "ar" : "الضريبة 4 كود الضريبة 4",
+      "en" : "Tax4 Tax Type",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax4ZeroTaxAuthSubType",
+      "column" : "txsCdsTax4ZeroTaxAuthSubType",
+      "ar" : "الضريبة 4 كود الضريبة الصفرية الفرعي 4",
+      "en" : "Tax 4 Zero Tax Auth Sub Type",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.tax4ZeroTaxAuthType",
+      "column" : "taxesCodesTax4ZeroTaxAuthType",
+      "ar" : "الضريبة 4 كود الضريبة الصفرية 4",
+      "en" : "Tax 4 Zero Tax Auth Type",
+      "type" : "Text"
+    } ]
+  } ]
+}

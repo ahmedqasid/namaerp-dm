@@ -1,0 +1,20 @@
+{
+  "enum" : "EvacuationApprovalState",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "ApprovalInProgress",
+    "ar" : "الموافقة قيد التنفيذ",
+    "en" : "Approval In Progress"
+  }, {
+    "id" : "Approved",
+    "ar" : "مقبول",
+    "en" : "Approved"
+  }, {
+    "id" : "ApprovalRejected",
+    "ar" : "تم الرفض",
+    "en" : "Approval Rejected"
+  } ]
+}

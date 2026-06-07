@@ -1,0 +1,111 @@
+{
+  "entity" : "SalaryDetailSysEntry",
+  "table" : "SalaryDetailSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SalaryDetailSysEntry.html",
+  "fields" : [ {
+    "id" : "bylawCode",
+    "column" : "bylawCode",
+    "ar" : "كود الائحة",
+    "en" : "ByLaw Code",
+    "type" : "Text"
+  }, {
+    "id" : "component",
+    "column" : "component_id",
+    "ar" : "مكون",
+    "en" : "Component",
+    "type" : "Reference",
+    "refTo" : "SalaryComponent",
+    "refPath" : "/modules/humanresource-payroll/SalaryComponent.html"
+  }, {
+    "id" : "day",
+    "column" : "day",
+    "ar" : "اليوم",
+    "en" : "Day",
+    "type" : "Date"
+  }, {
+    "id" : "divideOn",
+    "column" : "divideOn",
+    "ar" : "مقسوما علي",
+    "en" : "Divide On",
+    "type" : "Decimal"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "factor",
+    "column" : "factor",
+    "ar" : "المعامل",
+    "en" : "Measures Factor",
+    "type" : "Decimal"
+  }, {
+    "id" : "finalResult",
+    "column" : "finalResult",
+    "ar" : "الناتج النهائى",
+    "en" : "Final Result",
+    "type" : "Decimal"
+  }, {
+    "id" : "formula",
+    "column" : "formula_id",
+    "ar" : "معادلة",
+    "en" : "Formula",
+    "type" : "Reference",
+    "refTo" : "ComponentCalcFormula",
+    "refPath" : "/modules/humanresource-payroll/ComponentCalcFormula.html"
+  }, {
+    "id" : "formulaLineId",
+    "column" : "formulaLineId",
+    "type" : "ID"
+  }, {
+    "id" : "formulaLineRemark",
+    "column" : "formulaLineRemark",
+    "ar" : "ملاحظات المعادلة",
+    "en" : "Formula Line Remark",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indicatorValue",
+    "column" : "indicatorValue",
+    "ar" : "قيمة مؤشر الأداء",
+    "en" : "Indicator Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "multiplyBy",
+    "column" : "multiplyBy",
+    "ar" : "مضروب في",
+    "en" : "Multiply By",
+    "type" : "Decimal"
+  }, {
+    "id" : "occurrenceCount",
+    "column" : "occurrenceCount",
+    "ar" : "عدد مرات التكرار",
+    "en" : "Occurrence Count",
+    "type" : "Integer"
+  }, {
+    "id" : "salaryDocument",
+    "column" : "salaryDocument_id",
+    "ar" : " سند الراتب",
+    "en" : " Salary Document",
+    "type" : "Reference",
+    "refTo" : "SalaryDocument",
+    "refPath" : "/modules/humanresource-payroll/SalaryDocument.html"
+  }, {
+    "id" : "salaryFactor",
+    "column" : "salaryFactor",
+    "ar" : "معدل الأداء",
+    "en" : "Salary Factor",
+    "type" : "Decimal"
+  }, {
+    "id" : "yearlyIndicatorValue",
+    "column" : "yearlyIndicatorValue",
+    "type" : "Decimal"
+  } ]
+}

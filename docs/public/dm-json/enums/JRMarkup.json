@@ -1,0 +1,20 @@
+{
+  "enum" : "JRMarkup",
+  "values" : [ {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  }, {
+    "id" : "styled",
+    "ar" : "styled",
+    "en" : "styled"
+  }, {
+    "id" : "html",
+    "ar" : "html",
+    "en" : "html"
+  }, {
+    "id" : "rtl",
+    "ar" : "من اليمين إلي اليسار",
+    "en" : "rtl"
+  } ]
+}

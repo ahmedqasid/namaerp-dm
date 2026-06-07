@@ -1,0 +1,16 @@
+{
+  "enum" : "SalaryDistributionType",
+  "values" : [ {
+    "id" : "Fixed",
+    "ar" : "ثابت",
+    "en" : "Fixed"
+  }, {
+    "id" : "Changed",
+    "ar" : "نسبة",
+    "en" : "Variable"
+  }, {
+    "id" : "FixedWithCriteria",
+    "ar" : "ثابت بمعايير",
+    "en" : "Fixed With Criteria"
+  } ]
+}

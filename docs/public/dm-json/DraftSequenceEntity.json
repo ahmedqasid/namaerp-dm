@@ -1,0 +1,34 @@
+{
+  "entity" : "DraftSequenceEntity",
+  "table" : "DraftSequenceEntity",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/DraftSequenceEntity.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "ownerId",
+    "column" : "ownerId",
+    "ar" : "رقم هوية المالك",
+    "en" : "Owner Number",
+    "type" : "ID"
+  }, {
+    "id" : "prefix",
+    "column" : "prefix",
+    "ar" : "بادئة التكويد",
+    "en" : "Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "recordId",
+    "column" : "recordId",
+    "en" : "Record Id",
+    "type" : "ID"
+  }, {
+    "id" : "sequence",
+    "column" : "sequence",
+    "ar" : "المسلسل",
+    "en" : "Sequence",
+    "type" : "Long"
+  } ]
+}

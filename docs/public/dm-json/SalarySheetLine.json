@@ -1,0 +1,33 @@
+{
+  "entity" : "SalarySheetLine",
+  "table" : "SalarySheetLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SalarySheetLine.html",
+  "fields" : [ {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "netSalary",
+    "column" : "netSalary",
+    "ar" : "المرتب النهائي",
+    "en" : "Net Salary",
+    "type" : "Decimal"
+  }, {
+    "id" : "salaryDocument",
+    "column" : "salaryDocument_id",
+    "ar" : " سند الراتب",
+    "en" : " Salary Document",
+    "type" : "Reference",
+    "refTo" : "SalaryDocument",
+    "refPath" : "/modules/humanresource-payroll/SalaryDocument.html"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "enum" : "ResponsibleDimEntityType",
+  "values" : [ {
+    "id" : "Employee",
+    "ar" : "موظف",
+    "en" : "Employee"
+  }, {
+    "id" : "Customer",
+    "ar" : "عميل",
+    "en" : "Customer"
+  }, {
+    "id" : "Warehouse",
+    "ar" : "مخزن",
+    "en" : "Warehouse"
+  }, {
+    "id" : "InvItem",
+    "ar" : "صنف",
+    "en" : "Item"
+  } ]
+}

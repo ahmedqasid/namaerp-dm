@@ -1,0 +1,12 @@
+{
+  "enum" : "ShowCustomRepIn",
+  "values" : [ {
+    "id" : "EditViewMore",
+    "ar" : "المزيد بشاشة التحرير",
+    "en" : "Edit View More"
+  }, {
+    "id" : "ListViewMore",
+    "ar" : "المزيد بشاشة عرض قائمة",
+    "en" : "List View More"
+  } ]
+}

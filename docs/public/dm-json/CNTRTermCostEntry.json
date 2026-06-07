@@ -1,0 +1,147 @@
+{
+  "entity" : "CNTRTermCostEntry",
+  "table" : "CNTRTermCostEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/CNTRTermCostEntry.html",
+  "fields" : [ {
+    "id" : "analysisCard",
+    "columns" : [ "analysisCardActualCode", " analysisCardCode", " analysisCardEntityType", " analysisCardId" ],
+    "ar" : "كارت التحليل",
+    "en" : "Term Analysis Card",
+    "type" : "Genericreference"
+  }, {
+    "id" : "analysisTermCode",
+    "column" : "analysisTermCode",
+    "ar" : "كود البند التحليلى",
+    "en" : "Analysis Term Code",
+    "type" : "Text"
+  }, {
+    "id" : "contract",
+    "columns" : [ "contractActualCode", " contractCode", " contractEntityType", " contractId" ],
+    "ar" : "العقد",
+    "en" : "Contract",
+    "type" : "Genericreference"
+  }, {
+    "id" : "cost",
+    "column" : "cost",
+    "ar" : "التكلفة",
+    "en" : "Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "estimatedBudget",
+    "columns" : [ "estimatedBudgetActualCode", " estimatedBudgetCode", " estimatedBudgetEntityType", " estimatedBudgetId" ],
+    "ar" : " موازنة مقاولات تقديرية",
+    "en" : " Contracting Estimated Budget",
+    "type" : "Genericreference"
+  }, {
+    "id" : "estimatedTermCode",
+    "column" : "estimatedTermCode",
+    "ar" : "كود بند الموازنة التقديرية",
+    "en" : "Estimated Term Code",
+    "type" : "Text"
+  }, {
+    "id" : "executiveBudget",
+    "columns" : [ "executiveBudgetActualCode", " executiveBudgetCode", " executiveBudgetEntityType", " executiveBudgetId" ],
+    "ar" : " موازنة مقاولات تنفيذية",
+    "en" : " Contracting Executive Budget",
+    "type" : "Genericreference"
+  }, {
+    "id" : "executiveTermCode",
+    "column" : "executiveTermCode",
+    "ar" : "كود بند الموازنة التنفيذية",
+    "en" : "Executive Term Code",
+    "type" : "Text"
+  }, {
+    "id" : "genericDimensions.analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "genericDimensions.branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "genericDimensions.department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "genericDimensions.legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "genericDimensions.sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "purchaseOrderQty",
+    "column" : "purchaseOrderQty",
+    "ar" : "كمية أمر الشراء",
+    "en" : "Purchase Order Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "qty",
+    "column" : "qty",
+    "ar" : "الكمية",
+    "en" : "Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "termCategory",
+    "columns" : [ "termCategoryActualCode", " termCategoryCode", " termCategoryEntityType", " termCategoryId" ],
+    "ar" : "تصنيف البند",
+    "en" : "Term Category",
+    "type" : "Genericreference"
+  }, {
+    "id" : "termCategory2",
+    "columns" : [ "termCategory2ActualCode", " termCategory2Code", " termCategory2EntityType", " termCategory2Id" ],
+    "ar" : "تصنيف البند 2",
+    "en" : "Term Category 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "termCode",
+    "column" : "termCode",
+    "ar" : "كود البند",
+    "en" : "Term Code",
+    "type" : "Text"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

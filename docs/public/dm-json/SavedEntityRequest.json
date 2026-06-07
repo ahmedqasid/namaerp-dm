@@ -1,0 +1,43 @@
+{
+  "entity" : "SavedEntityRequest",
+  "table" : "SavedEntityRequest",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SavedEntityRequest.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "requestDate",
+    "column" : "requestDate",
+    "ar" : "تاريخ الطلب",
+    "en" : "Request Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "sequence",
+    "column" : "sequence",
+    "ar" : "المسلسل",
+    "en" : "Sequence",
+    "type" : "Long"
+  }, {
+    "id" : "targetEntityType",
+    "column" : "targetEntityType",
+    "ar" : "النوع المستهدف",
+    "en" : "Target Entity",
+    "type" : "EntityType"
+  }, {
+    "id" : "targetMethod",
+    "column" : "targetMethod",
+    "type" : "Text"
+  }, {
+    "id" : "targetModule",
+    "column" : "targetModule",
+    "type" : "Text"
+  }, {
+    "id" : "transactionId",
+    "column" : "transactionId",
+    "ar" : "رقم العملية",
+    "en" : "Transaction ID",
+    "type" : "Text"
+  } ]
+}

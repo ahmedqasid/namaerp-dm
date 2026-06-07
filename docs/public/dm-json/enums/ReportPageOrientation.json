@@ -1,0 +1,12 @@
+{
+  "enum" : "ReportPageOrientation",
+  "values" : [ {
+    "id" : "PORTRAIT",
+    "ar" : "PORTRAIT",
+    "en" : "PORTRAIT"
+  }, {
+    "id" : "LANDSCAPE",
+    "ar" : "LANDSCAPE",
+    "en" : "LANDSCAPE"
+  } ]
+}

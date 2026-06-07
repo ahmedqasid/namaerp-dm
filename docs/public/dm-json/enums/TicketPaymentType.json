@@ -1,0 +1,16 @@
+{
+  "enum" : "TicketPaymentType",
+  "values" : [ {
+    "id" : "Cash",
+    "ar" : "كاش",
+    "en" : "Cash"
+  }, {
+    "id" : "InsuredByCompany",
+    "ar" : "تؤمن بواسطة الشركة",
+    "en" : "Insured By The Company"
+  }, {
+    "id" : "WithoutTicket",
+    "ar" : "بدون تذكرة",
+    "en" : "Without Ticket"
+  } ]
+}

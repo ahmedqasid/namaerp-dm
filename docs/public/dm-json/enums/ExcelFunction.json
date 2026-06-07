@@ -1,0 +1,24 @@
+{
+  "enum" : "ExcelFunction",
+  "values" : [ {
+    "id" : "Sum",
+    "ar" : "المجموع",
+    "en" : "Sum"
+  }, {
+    "id" : "Avg",
+    "ar" : "المتوسط",
+    "en" : "Avg"
+  }, {
+    "id" : "Max",
+    "ar" : "أكبر قيمة",
+    "en" : "Max"
+  }, {
+    "id" : "Min",
+    "ar" : "أقل قيمة",
+    "en" : "Min"
+  }, {
+    "id" : "DoNotApply",
+    "ar" : "عدم التطبيق",
+    "en" : "Do Not Apply"
+  } ]
+}

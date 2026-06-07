@@ -1,0 +1,20 @@
+{
+  "enum" : "OperationType",
+  "values" : [ {
+    "id" : "Multiply",
+    "ar" : "ضرب",
+    "en" : "Multiply"
+  }, {
+    "id" : "Add",
+    "ar" : "جمع",
+    "en" : "Add"
+  }, {
+    "id" : "Divide",
+    "ar" : "قسمة",
+    "en" : "Divide"
+  }, {
+    "id" : "Subtract",
+    "ar" : "طرح",
+    "en" : "Subtract"
+  } ]
+}

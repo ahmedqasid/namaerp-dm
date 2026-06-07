@@ -1,0 +1,24 @@
+{
+  "enum" : "CategoryLevel",
+  "values" : [ {
+    "id" : "category1",
+    "ar" : "فئة الصنف1",
+    "en" : "Item Category1"
+  }, {
+    "id" : "category2",
+    "ar" : "فئة الصنف2",
+    "en" : "Item Category2"
+  }, {
+    "id" : "category3",
+    "ar" : "فئة الصنف3",
+    "en" : "Item Category3"
+  }, {
+    "id" : "category4",
+    "ar" : "فئة الصنف4",
+    "en" : "Item Category4"
+  }, {
+    "id" : "category5",
+    "ar" : "فئة الصنف5",
+    "en" : "Item Category5"
+  } ]
+}

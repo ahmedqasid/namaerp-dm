@@ -1,0 +1,36 @@
+{
+  "enum" : "PatternType",
+  "values" : [ {
+    "id" : "Text",
+    "ar" : "نص",
+    "en" : "Text"
+  }, {
+    "id" : "Date",
+    "ar" : "تاريخ",
+    "en" : "Date"
+  }, {
+    "id" : "Time",
+    "ar" : "وقت",
+    "en" : "Time"
+  }, {
+    "id" : "DateTime",
+    "ar" : "Date Time",
+    "en" : "Date Time"
+  }, {
+    "id" : "Number",
+    "ar" : "رقم",
+    "en" : "Number"
+  }, {
+    "id" : "Currency",
+    "ar" : "عملة",
+    "en" : "Currency"
+  }, {
+    "id" : "Quantity",
+    "ar" : "الكمية",
+    "en" : "Quantity"
+  }, {
+    "id" : "CopyFromField",
+    "ar" : "نسخ من حقل",
+    "en" : "Custom From Field"
+  } ]
+}

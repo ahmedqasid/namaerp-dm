@@ -1,0 +1,16 @@
+{
+  "enum" : "SalesReturnType",
+  "values" : [ {
+    "id" : "Full",
+    "ar" : "كلي",
+    "en" : "Full"
+  }, {
+    "id" : "Partially",
+    "ar" : "جزئي",
+    "en" : "Partially"
+  }, {
+    "id" : "WithoutInvoices",
+    "ar" : "بدون فواتير",
+    "en" : "Without Invoices"
+  } ]
+}

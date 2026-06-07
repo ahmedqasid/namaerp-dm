@@ -1,0 +1,66 @@
+{
+  "entity" : "MAGSiteError",
+  "table" : "MAGSiteError",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/MAGSiteError.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "Date"
+  }, {
+    "id" : "creationTime",
+    "column" : "creationTime",
+    "ar" : "وقت الإنشاء",
+    "en" : "Creation Time",
+    "type" : "Time"
+  }, {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "magentoOrderId",
+    "column" : "magentoOrderId",
+    "ar" : "معرف الطلب",
+    "en" : "Order ID",
+    "type" : "Text"
+  }, {
+    "id" : "magentoOrderIncId",
+    "column" : "magentoOrderIncId",
+    "ar" : "Order Increment Id",
+    "en" : "Order Increment ID",
+    "type" : "Text"
+  }, {
+    "id" : "magentoSite",
+    "columns" : [ "magentoSiteActualCode", " magentoSiteCode", " magentoSiteEntityType", " magentoSiteId" ],
+    "ar" : " Magento Site",
+    "en" : " Magento Site",
+    "type" : "Genericreference"
+  }, {
+    "id" : "operationType",
+    "column" : "operationType",
+    "ar" : "نوع الإجراء",
+    "en" : "Operation Type",
+    "type" : "Enum",
+    "enum" : "MagentoOperationType"
+  }, {
+    "id" : "requestBody",
+    "column" : "requestBody",
+    "ar" : "Request Body",
+    "en" : "Request Body",
+    "type" : "BigText"
+  } ]
+}

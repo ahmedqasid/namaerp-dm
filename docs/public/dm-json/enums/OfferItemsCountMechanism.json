@@ -1,0 +1,16 @@
+{
+  "enum" : "OfferItemsCountMechanism",
+  "values" : [ {
+    "id" : "LinesCount",
+    "ar" : "عدد السطور",
+    "en" : "Lines Count"
+  }, {
+    "id" : "ItemsTotalQties",
+    "ar" : "بكميات الأصناف",
+    "en" : "Items Total Quantities"
+  }, {
+    "id" : "ItemsDistinctCount",
+    "ar" : "بعدد الأصناف بدون تكرار",
+    "en" : "Items Distinct Count"
+  } ]
+}

@@ -1,0 +1,68 @@
+{
+  "enum" : "PurchaseIncoTerm",
+  "values" : [ {
+    "id" : "EXW",
+    "ar" : "EXW",
+    "en" : "EXW"
+  }, {
+    "id" : "FCA",
+    "ar" : "FCA",
+    "en" : "FCA"
+  }, {
+    "id" : "FAS",
+    "ar" : "FAS",
+    "en" : "FAS"
+  }, {
+    "id" : "FOB",
+    "ar" : "FOB",
+    "en" : "FOB"
+  }, {
+    "id" : "CFR",
+    "ar" : "CFR",
+    "en" : "CFR"
+  }, {
+    "id" : "CIF",
+    "ar" : "CIF",
+    "en" : "CIF"
+  }, {
+    "id" : "CIP",
+    "ar" : "CIP",
+    "en" : "CIP"
+  }, {
+    "id" : "CPT",
+    "ar" : "CPT",
+    "en" : "CPT"
+  }, {
+    "id" : "DAF",
+    "ar" : "DAF",
+    "en" : "DAF"
+  }, {
+    "id" : "DES",
+    "ar" : "DES",
+    "en" : "DES"
+  }, {
+    "id" : "DEQ",
+    "ar" : "DEQ",
+    "en" : "DEQ"
+  }, {
+    "id" : "DDU",
+    "ar" : "DDU",
+    "en" : "DDU"
+  }, {
+    "id" : "DDP",
+    "ar" : "DDP",
+    "en" : "DDP"
+  }, {
+    "id" : "DAT",
+    "ar" : "DAT",
+    "en" : "DAT"
+  }, {
+    "id" : "DAP",
+    "ar" : "DAP",
+    "en" : "DAP"
+  }, {
+    "id" : "CAD",
+    "ar" : "CAD",
+    "en" : "CAD"
+  } ]
+}

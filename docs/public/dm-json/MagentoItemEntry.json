@@ -1,0 +1,57 @@
+{
+  "entity" : "MagentoItemEntry",
+  "table" : "MagentoItemEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/MagentoItemEntry.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "item",
+    "column" : "item_id",
+    "ar" : "الصنف",
+    "en" : "Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "magentoSite",
+    "column" : "magentoSite_id",
+    "ar" : " Magento Site",
+    "en" : " Magento Site",
+    "type" : "Reference",
+    "refTo" : "MAGMagentoSite",
+    "refPath" : "/modules/magento/MAGMagentoSite.html"
+  }, {
+    "id" : "originalPrice",
+    "column" : "originalPrice",
+    "ar" : "السعر الاصلي",
+    "en" : "Original Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "quantity",
+    "column" : "quantity",
+    "ar" : "الكمية",
+    "en" : "Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "specialPrice",
+    "column" : "specialPrice",
+    "ar" : "السعر الخاص",
+    "en" : "Special Price",
+    "type" : "Decimal"
+  }, {
+    "id" : "specialPriceFromDate",
+    "column" : "specialPriceFromDate",
+    "ar" : "السعر الخاص من تاريخ",
+    "en" : "Special Price From Date",
+    "type" : "Date"
+  }, {
+    "id" : "specialPriceToDate",
+    "column" : "specialPriceToDate",
+    "ar" : "السعر الخاص إلى تاريخ",
+    "en" : "Special Price To Date",
+    "type" : "Date"
+  } ]
+}

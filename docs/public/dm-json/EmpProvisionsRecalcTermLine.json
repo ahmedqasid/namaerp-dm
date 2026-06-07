@@ -1,0 +1,35 @@
+{
+  "entity" : "EmpProvisionsRecalcTermLine",
+  "table" : "EmpProvisionsRecalcTermLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EmpProvisionsRecalcTermLine.html",
+  "fields" : [ {
+    "id" : "divideOn",
+    "column" : "divideOn",
+    "ar" : "مقسوما علي",
+    "en" : "Divide On",
+    "type" : "Decimal"
+  }, {
+    "id" : "fromDay",
+    "column" : "fromDay",
+    "ar" : "عدد الأيام | من",
+    "en" : "Number Of Days | From",
+    "type" : "Decimal"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "multiplyBy",
+    "column" : "multiplyBy",
+    "ar" : "مضروب في",
+    "en" : "Multiply By",
+    "type" : "Decimal"
+  }, {
+    "id" : "toDay",
+    "column" : "toDay",
+    "ar" : "عدد الأيام | إلي",
+    "en" : "Number Of Days | To",
+    "type" : "Decimal"
+  } ]
+}

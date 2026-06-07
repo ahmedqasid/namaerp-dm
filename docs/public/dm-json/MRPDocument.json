@@ -1,0 +1,1417 @@
+{
+  "entity" : "MRPDocument",
+  "table" : "MRPDocument",
+  "module" : "manufacturing-mrp",
+  "ar" : "سند تخطيط",
+  "arPlural" : " سند تخطيط",
+  "en" : "planning raw materials Document",
+  "enPlural" : " planning raw materials Document",
+  "page" : "https://dm.namasoft.com/modules/manufacturing-mrp/MRPDocument.html",
+  "fields" : [ {
+    "id" : "aggregationPeriodType",
+    "column" : "aggregationPeriodType",
+    "ar" : "نوع فتره التجميع",
+    "en" : "Aggregation Period Type",
+    "type" : "Enum",
+    "enum" : "MRPAggregationPeriodType"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "analysisSetId",
+    "column" : "analysisSet_id",
+    "type" : "ID"
+  }, {
+    "id" : "availableQtySource",
+    "column" : "availableQtySource_id",
+    "ar" : "مصدر الكميات المتاحه",
+    "en" : "Available Quantity Source",
+    "type" : "Reference",
+    "refTo" : "MRPAvailableQtySource",
+    "refPath" : "/modules/manufacturing-mrp/MRPAvailableQtySource.html"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "branchId",
+    "column" : "branch_id",
+    "ar" : "Branch ID",
+    "en" : "Branch ID",
+    "type" : "ID"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "colorCode",
+    "column" : "colorCode",
+    "ar" : "كود اللون",
+    "en" : "Color Code",
+    "type" : "Color"
+  }, {
+    "id" : "commitedBefore",
+    "column" : "commitedBefore",
+    "ar" : "تم الحفظ مسبقا",
+    "en" : "Commited Before",
+    "type" : "Boolean"
+  }, {
+    "id" : "createTransactionId",
+    "column" : "createTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentApprovalCase",
+    "column" : "currentApprovalCase_id",
+    "type" : "",
+    "refTo" : "ApprovalCase",
+    "refPath" : "/modules/system-tables/ApprovalCase.html"
+  }, {
+    "id" : "currentVersion",
+    "column" : "currentVersion",
+    "ar" : "النسخة الحالية",
+    "en" : "Current Version",
+    "type" : "Integer"
+  }, {
+    "id" : "customViewName",
+    "column" : "customViewName",
+    "type" : "Text"
+  }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
+    "id" : "date3",
+    "column" : "date3",
+    "ar" : "تاريخ 3",
+    "en" : "Date3",
+    "type" : "Date"
+  }, {
+    "id" : "date4",
+    "column" : "date4",
+    "ar" : "تاريخ 4",
+    "en" : "Date4",
+    "type" : "Date"
+  }, {
+    "id" : "date5",
+    "column" : "date5",
+    "ar" : "تاريخ 5",
+    "en" : "Date5",
+    "type" : "Date"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "departmentId",
+    "column" : "department_id",
+    "type" : "ID"
+  }, {
+    "id" : "description1",
+    "column" : "description1",
+    "ar" : "الوصف 1",
+    "en" : "description1",
+    "type" : "Text"
+  }, {
+    "id" : "description2",
+    "column" : "description2",
+    "ar" : "الوصف 2",
+    "en" : "description2",
+    "type" : "Text"
+  }, {
+    "id" : "description3",
+    "column" : "description3",
+    "ar" : "الوصف 3",
+    "en" : "description3",
+    "type" : "Text"
+  }, {
+    "id" : "description4",
+    "column" : "description4",
+    "ar" : "الوصف 4",
+    "en" : "description4",
+    "type" : "Text"
+  }, {
+    "id" : "description5",
+    "column" : "description5",
+    "ar" : "الوصف 5",
+    "en" : "description5",
+    "type" : "Text"
+  }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
+    "id" : "docCategory",
+    "column" : "docCategory_id",
+    "ar" : " تصنيف سجل",
+    "en" : " Record Category",
+    "type" : "Reference",
+    "refTo" : "DocCategory",
+    "refPath" : "/modules/basic/DocCategory.html"
+  }, {
+    "id" : "documentFileStatus",
+    "column" : "documentFileStatus",
+    "ar" : "حالة المستند",
+    "en" : "Document File Status",
+    "type" : "Enum",
+    "enum" : "DocumentFileStatus"
+  }, {
+    "id" : "draftCreated",
+    "column" : "draftCreated",
+    "ar" : "تم إنشاء مسودة",
+    "en" : "Draft Created",
+    "type" : "Boolean"
+  }, {
+    "id" : "draftXML",
+    "column" : "draftXML",
+    "type" : "BigText"
+  }, {
+    "id" : "editedBy",
+    "column" : "editedBy_id",
+    "ar" : "بواسطة",
+    "en" : "Edited By",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "entitySystemEntryId",
+    "column" : "entitySystemEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entityType",
+    "column" : "entityType",
+    "ar" : "النوع",
+    "en" : "Entity Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "firstAuthor",
+    "column" : "firstAuthor_id",
+    "ar" : "منشئ السجل",
+    "en" : "First Author",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "firstAuthorId",
+    "column" : "firstAuthor_id",
+    "type" : "ID"
+  }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedByLine",
+    "column" : "generatedByLine",
+    "ar" : "كود سطر الإنشاء",
+    "en" : "generated By Line",
+    "type" : "Text"
+  }, {
+    "id" : "generatedDocsCount",
+    "column" : "generatedDocsCount",
+    "type" : "Integer"
+  }, {
+    "id" : "generatedFrom",
+    "columns" : [ "generatedFromActualCode", " generatedFromCode", " generatedFromEntityType", " generatedFromId" ],
+    "ar" : "تم إنشاؤه من",
+    "en" : "Generated From",
+    "type" : "Genericreference"
+  }, {
+    "id" : "generationType",
+    "column" : "generationType",
+    "ar" : "نوع الإنشاء",
+    "en" : "Generation Type",
+    "type" : "Enum",
+    "enum" : "GenerationType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "indexInParent",
+    "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
+  }, {
+    "id" : "lastChangeVersion",
+    "column" : "lastChangeVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "lastModifyTransactionId",
+    "column" : "LastModifyTransactionId",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "legalEntityId",
+    "column" : "legalEntity_id",
+    "type" : "ID"
+  }, {
+    "id" : "lockVersion",
+    "column" : "lockVersion",
+    "type" : "Integer"
+  }, {
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
+  }, {
+    "id" : "n1",
+    "column" : "n1",
+    "ar" : "رقم 1",
+    "en" : "Number 1",
+    "type" : "Decimal"
+  }, {
+    "id" : "n2",
+    "column" : "n2",
+    "ar" : "رقم 2",
+    "en" : "Number 2",
+    "type" : "Decimal"
+  }, {
+    "id" : "n3",
+    "column" : "n3",
+    "ar" : "رقم 3",
+    "en" : "Number 3",
+    "type" : "Decimal"
+  }, {
+    "id" : "n4",
+    "column" : "n4",
+    "ar" : "رقم 4",
+    "en" : "Number 4",
+    "type" : "Decimal"
+  }, {
+    "id" : "n5",
+    "column" : "n5",
+    "ar" : "رقم 5",
+    "en" : "Number 5",
+    "type" : "Decimal"
+  }, {
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+  }, {
+    "id" : "parentCode",
+    "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "periodsCalcMethod",
+    "column" : "periodsCalcMethod",
+    "ar" : "طريقة حساب فترات الSafty Stock",
+    "en" : "Safety Stock Periods Calculation Method",
+    "type" : "Enum",
+    "enum" : "SafetyStockPeriodsCalcMethod"
+  }, {
+    "id" : "preventUsage",
+    "column" : "preventUsage",
+    "ar" : "منع الاستعمال",
+    "en" : "Prevent Usage",
+    "type" : "Boolean"
+  }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
+    "id" : "previousMRPDocument",
+    "column" : "previousMRPDocument_id",
+    "ar" : "سند التخطيط السابق",
+    "en" : "Previous MRP Document",
+    "type" : "Reference",
+    "refTo" : "MRPDocument",
+    "refPath" : "/modules/manufacturing-mrp/MRPDocument.html"
+  }, {
+    "id" : "printCount",
+    "column" : "printCount",
+    "ar" : "عدد مرات الطباعة",
+    "en" : "Print Count",
+    "type" : "Integer"
+  }, {
+    "id" : "productionDocType",
+    "column" : "productionDocType",
+    "ar" : "نوع مستند الإنتاج المنشأ",
+    "en" : "Production Doc Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "purchaseDocType",
+    "column" : "purchaseDocType",
+    "ar" : "نوع مستند الشراء المنشأ",
+    "en" : "Purchase Doc Type",
+    "type" : "EntityType"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "ref1",
+    "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+    "ar" : "مرجع 1",
+    "en" : "Reference 1",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref2",
+    "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+    "ar" : "مرجع 2",
+    "en" : "Reference 2",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref3",
+    "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+    "ar" : "مرجع 3",
+    "en" : "Reference 3",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref4",
+    "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+    "ar" : "مرجع 4",
+    "en" : "Reference 4",
+    "type" : "Genericreference"
+  }, {
+    "id" : "ref5",
+    "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+    "ar" : "مرجع 5",
+    "en" : "Reference 5",
+    "type" : "Genericreference"
+  }, {
+    "id" : "remarks",
+    "column" : "remark",
+    "ar" : "ملاحظات",
+    "en" : "Description",
+    "type" : "BigText"
+  }, {
+    "id" : "reqQtyMethodType",
+    "column" : "reqQtyMethodType",
+    "ar" : "نوع الحقل المتعامل عليه",
+    "en" : "Sales Forecast Field Type",
+    "type" : "Enum",
+    "enum" : "ReqQtyMethodType"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "revised",
+    "column" : "primitiveValue",
+    "ar" : "تمت المراجعة",
+    "en" : "Revised",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisedBy",
+    "column" : "revisedBy_id",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "scenario",
+    "column" : "scenario_id",
+    "ar" : "سيناريو",
+    "en" : "Scenario",
+    "type" : "Reference",
+    "refTo" : "Scenario",
+    "refPath" : "/modules/manufacturing-mrp/Scenario.html"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "sectorId",
+    "column" : "sector_id",
+    "type" : "ID"
+  }, {
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
+  }, {
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
+    "type" : "BigText"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  }, {
+    "id" : "updateCapability",
+    "column" : "updateCapability_id",
+    "ar" : "صلاحية التعديل",
+    "en" : "Update Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "updateCapabilityId",
+    "column" : "updateCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "usageCapability",
+    "column" : "usageCapability_id",
+    "ar" : "صلاحية الاستخدام",
+    "en" : "Usage Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "usageCapabilityId",
+    "column" : "usageCapability_id",
+    "type" : "ID"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
+    "id" : "viewCapability",
+    "column" : "viewCapability_id",
+    "ar" : "صلاحية المطالعة",
+    "en" : "View Capability",
+    "type" : "Reference",
+    "refTo" : "SecurityCapability",
+    "refPath" : "/modules/basic/SecurityCapability.html"
+  }, {
+    "id" : "viewCapabilityId",
+    "column" : "viewCapability_id",
+    "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "analysis",
+    "table" : "MRPRequirementsAnalysis",
+    "joinColumn" : "mRPDocument_id",
+    "ar" : "التحليل",
+    "en" : "Analysis",
+    "fields" : [ {
+      "id" : "analysis.available",
+      "column" : "available",
+      "ar" : "المتاح",
+      "en" : "Available",
+      "type" : "Decimal"
+    }, {
+      "id" : "analysis.batchSize",
+      "column" : "batchSize",
+      "ar" : "كمية الشحنه",
+      "en" : "Batch Size",
+      "type" : "Decimal"
+    }, {
+      "id" : "analysis.batchesCount",
+      "column" : "batchesCount",
+      "ar" : "عدد الشحنات",
+      "en" : "Batches Count",
+      "type" : "Integer"
+    }, {
+      "id" : "analysis.bom",
+      "column" : "bom_id",
+      "ar" : "مكونات المنتج",
+      "en" : "BOM",
+      "type" : "Reference",
+      "refTo" : "BOM",
+      "refPath" : "/modules/manufacturing/BOM.html"
+    }, {
+      "id" : "analysis.dimensions.activePerc",
+      "column" : "dimensionsActivePerc",
+      "ar" : "النسبة الفعالة",
+      "en" : "Active Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "analysis.dimensions.box",
+      "column" : "dimensionsBox",
+      "ar" : "صندوق",
+      "en" : "Box",
+      "type" : "Text"
+    }, {
+      "id" : "analysis.dimensions.color",
+      "column" : "dimensionsColor",
+      "ar" : "اللون",
+      "en" : "Color",
+      "type" : "Color"
+    }, {
+      "id" : "analysis.dimensions.inactivePerc",
+      "column" : "dimensionsInactivePerc",
+      "ar" : "النسبة الغير فعالة",
+      "en" : "Inactive Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "analysis.dimensions.locator",
+      "column" : "dimensionsLocator_id",
+      "ar" : "الموقع",
+      "en" : "Locator",
+      "type" : "Reference",
+      "refTo" : "Locator",
+      "refPath" : "/modules/supplychain/Locator.html"
+    }, {
+      "id" : "analysis.dimensions.lotId",
+      "column" : "dimensionsLotId",
+      "ar" : "كود الشحنة",
+      "en" : "Lot ID",
+      "type" : "Text"
+    }, {
+      "id" : "analysis.dimensions.measures",
+      "column" : "dimensionsMeasures",
+      "ar" : "الأبعاد",
+      "en" : "Measures",
+      "type" : "Measures"
+    }, {
+      "id" : "analysis.dimensions.revisionId",
+      "column" : "dimensionsRevisionId",
+      "ar" : "الإصدار",
+      "en" : "ID",
+      "type" : "Text"
+    }, {
+      "id" : "analysis.dimensions.secondSerial",
+      "column" : "dimensionsSecondSerial",
+      "ar" : "الرقم المسلسل الثاني",
+      "en" : "Second Serial",
+      "type" : "BigText"
+    }, {
+      "id" : "analysis.dimensions.serialNumber",
+      "column" : "dimensionsSerialNumber",
+      "ar" : "الرقم المسلسل",
+      "en" : "Serial Number",
+      "type" : "BigText"
+    }, {
+      "id" : "analysis.dimensions.size",
+      "column" : "dimensionsSize",
+      "ar" : "المقاس",
+      "en" : "Size",
+      "type" : "Text"
+    }, {
+      "id" : "analysis.dimensions.subItem",
+      "column" : "dimensionsSubItem_id",
+      "ar" : " السياره",
+      "en" : " Customer Car",
+      "type" : "Reference",
+      "refTo" : "SubItem",
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+    }, {
+      "id" : "analysis.dimensions.warehouse",
+      "column" : "dimensionsWarehouse_id",
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "analysis.editedBatchesCount",
+      "column" : "editedBatchesCount",
+      "ar" : "عدد الباتش المعدل",
+      "en" : "Updated Batches Count",
+      "type" : "Integer"
+    }, {
+      "id" : "analysis.editedNetRequired",
+      "column" : "editedNetRequired",
+      "ar" : "صافي المطلوب المعدل",
+      "en" : "Updated NetRequired",
+      "type" : "Decimal"
+    }, {
+      "id" : "analysis.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "analysis.invItem",
+      "column" : "invItem_id",
+      "ar" : " الصنف",
+      "en" : " Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "analysis.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "analysis.masterRowId",
+      "column" : "masterRowId",
+      "type" : "ID"
+    }, {
+      "id" : "analysis.netRequired",
+      "column" : "netRequired",
+      "ar" : "صافي المطلوب",
+      "en" : "Net Required",
+      "type" : "Decimal"
+    }, {
+      "id" : "analysis.netRequiredAfterEdit",
+      "column" : "netRequiredAfterEdit",
+      "ar" : "التحليل | صافي المطلوب النهائي",
+      "en" : "Analysis |Final NetRequired",
+      "type" : "Decimal"
+    }, {
+      "id" : "analysis.orderOn",
+      "column" : "orderOn",
+      "ar" : "تاريخ الطلب",
+      "en" : "OrderOn",
+      "type" : "Date"
+    }, {
+      "id" : "analysis.parentAnalysisLineId",
+      "column" : "parentAnalysisLineId",
+      "type" : "ID"
+    }, {
+      "id" : "analysis.potentialAvailable",
+      "column" : "potentialAvailable",
+      "ar" : "المحتمل ان يكون متاح",
+      "en" : "Potential Available",
+      "type" : "Decimal"
+    }, {
+      "id" : "analysis.remaining",
+      "column" : "remaining",
+      "ar" : "المتبقي",
+      "en" : "Remaining",
+      "type" : "Decimal"
+    }, {
+      "id" : "analysis.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "analysis.requiredOn",
+      "column" : "requiredOn",
+      "ar" : "تاريخ الإحتياج",
+      "en" : "RequiredOn",
+      "type" : "Date"
+    }, {
+      "id" : "analysis.requiredQty.uom",
+      "column" : "requiredQtyUom_id",
+      "ar" : "الكمية المطلوبة | الوحدة",
+      "en" : "Required Quantity | UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "analysis.requiredQty.value",
+      "column" : "requiredQtyValue",
+      "ar" : "الكمية المطلوبة  | القيمة",
+      "en" : "Required Quantity | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "analysis.routing",
+      "column" : "routing_id",
+      "ar" : "عمليات التشغيل",
+      "en" : "Routing",
+      "type" : "Reference",
+      "refTo" : "Routing",
+      "refPath" : "/modules/manufacturing/Routing.html"
+    }, {
+      "id" : "analysis.safetyStock",
+      "column" : "safetyStock",
+      "ar" : "Safety Stock",
+      "en" : "Safty Stock",
+      "type" : "Decimal"
+    }, {
+      "id" : "analysis.totalRequired",
+      "column" : "totalRequired",
+      "ar" : "إجمالي المطلوب",
+      "en" : "Total Required",
+      "type" : "Decimal"
+    } ]
+  }, {
+    "id" : "lines",
+    "table" : "MRPDocumentLine",
+    "joinColumn" : "mRPDocument_id",
+    "ar" : " التفاصيل",
+    "en" : " Details",
+    "fields" : [ {
+      "id" : "lines.demandDocument",
+      "columns" : [ "demandDocumentActualCode", " demandDocumentCode", " demandDocumentEntityType", " demandDocumentId" ],
+      "ar" : "سند الطلب",
+      "en" : "Demand Document",
+      "type" : "Genericreference"
+    }, {
+      "id" : "lines.documentDate",
+      "column" : "documentDate",
+      "ar" : "تاريخ سند الطلب",
+      "en" : "Document Date",
+      "type" : "Date"
+    }, {
+      "id" : "lines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "lines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "lines.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "plannedProductionLines",
+    "table" : "MRPPlProductionLine",
+    "joinColumn" : "mRPDocument_id",
+    "fields" : [ {
+      "id" : "plannedProductionLines.bom",
+      "column" : "bom_id",
+      "ar" : "مكونات المنتج",
+      "en" : "BOM",
+      "type" : "Reference",
+      "refTo" : "BOM",
+      "refPath" : "/modules/manufacturing/BOM.html"
+    }, {
+      "id" : "plannedProductionLines.category1",
+      "column" : "category1_id",
+      "ar" : "فئة الصنف1",
+      "en" : "Item Category1",
+      "type" : "Reference",
+      "refTo" : "ItemCategory",
+      "refPath" : "/modules/supplychain/ItemCategory.html"
+    }, {
+      "id" : "plannedProductionLines.date",
+      "column" : "date",
+      "ar" : "التاريخ",
+      "en" : "Date",
+      "type" : "Date"
+    }, {
+      "id" : "plannedProductionLines.doc",
+      "columns" : [ "docActualCode", " docCode", " docEntityType", " docId" ],
+      "ar" : "المستند",
+      "en" : "Document",
+      "type" : "Genericreference"
+    }, {
+      "id" : "plannedProductionLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "plannedProductionLines.invItem",
+      "column" : "invItem_id",
+      "ar" : " الصنف",
+      "en" : " Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "plannedProductionLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "plannedProductionLines.locator",
+      "column" : "locator_id",
+      "ar" : "الموقع",
+      "en" : "Locator",
+      "type" : "Reference",
+      "refTo" : "Locator",
+      "refPath" : "/modules/supplychain/Locator.html"
+    }, {
+      "id" : "plannedProductionLines.orderType",
+      "column" : "orderType",
+      "ar" : "نوع الإذن",
+      "en" : "Order Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "plannedProductionLines.quantity.primeQty.uom",
+      "column" : "quantityPUom_id",
+      "ar" : "الوحدة الرئيسية | الوحدة",
+      "en" : "Primary | UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "plannedProductionLines.quantity.primeQty.value",
+      "column" : "quantityPValue",
+      "ar" : "الوحدة الرئيسية | الكمية",
+      "en" : "Primary | Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "plannedProductionLines.quantity.secondQty.uom",
+      "column" : "quantitySUom_id",
+      "ar" : "الوحدة الثانية | الوحدة",
+      "en" : "Secondary | UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "plannedProductionLines.quantity.secondQty.value",
+      "column" : "quantitySValue",
+      "ar" : "الوحدة الثانية | الكمية",
+      "en" : "Secondary | Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "plannedProductionLines.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "plannedProductionLines.routing",
+      "column" : "routing_id",
+      "ar" : "عمليات التشغيل",
+      "en" : "Routing",
+      "type" : "Reference",
+      "refTo" : "Routing",
+      "refPath" : "/modules/manufacturing/Routing.html"
+    }, {
+      "id" : "plannedProductionLines.selected",
+      "column" : "selected",
+      "ar" : "اختيار",
+      "en" : "Selected",
+      "type" : "Boolean"
+    }, {
+      "id" : "plannedProductionLines.sourceAnalysisLineId",
+      "column" : "sourceAnalysisLineId",
+      "type" : "ID"
+    }, {
+      "id" : "plannedProductionLines.supplier",
+      "column" : "supplier_id",
+      "ar" : "مورد",
+      "en" : " Supplier",
+      "type" : "Reference",
+      "refTo" : "Supplier",
+      "refPath" : "/modules/basic/Supplier.html"
+    }, {
+      "id" : "plannedProductionLines.warehouse",
+      "column" : "warehouse_id",
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    } ]
+  }, {
+    "id" : "plannedPurchaseLines",
+    "table" : "MRPPlPurchasesLine",
+    "joinColumn" : "mRPDocument_id",
+    "fields" : [ {
+      "id" : "plannedPurchaseLines.bom",
+      "column" : "bom_id",
+      "ar" : "مكونات المنتج",
+      "en" : "BOM",
+      "type" : "Reference",
+      "refTo" : "BOM",
+      "refPath" : "/modules/manufacturing/BOM.html"
+    }, {
+      "id" : "plannedPurchaseLines.category1",
+      "column" : "category1_id",
+      "ar" : "فئة الصنف1",
+      "en" : "Item Category1",
+      "type" : "Reference",
+      "refTo" : "ItemCategory",
+      "refPath" : "/modules/supplychain/ItemCategory.html"
+    }, {
+      "id" : "plannedPurchaseLines.date",
+      "column" : "date",
+      "ar" : "التاريخ",
+      "en" : "Date",
+      "type" : "Date"
+    }, {
+      "id" : "plannedPurchaseLines.doc",
+      "columns" : [ "docActualCode", " docCode", " docEntityType", " docId" ],
+      "ar" : "المستند",
+      "en" : "Document",
+      "type" : "Genericreference"
+    }, {
+      "id" : "plannedPurchaseLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "plannedPurchaseLines.invItem",
+      "column" : "invItem_id",
+      "ar" : " الصنف",
+      "en" : " Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "plannedPurchaseLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "plannedPurchaseLines.locator",
+      "column" : "locator_id",
+      "ar" : "الموقع",
+      "en" : "Locator",
+      "type" : "Reference",
+      "refTo" : "Locator",
+      "refPath" : "/modules/supplychain/Locator.html"
+    }, {
+      "id" : "plannedPurchaseLines.orderType",
+      "column" : "orderType",
+      "ar" : "نوع الإذن",
+      "en" : "Order Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "plannedPurchaseLines.quantity.primeQty.uom",
+      "column" : "quantityPUom_id",
+      "ar" : "الوحدة الرئيسية | الوحدة",
+      "en" : "Primary | UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "plannedPurchaseLines.quantity.primeQty.value",
+      "column" : "quantityPValue",
+      "ar" : "الوحدة الرئيسية | الكمية",
+      "en" : "Primary | Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "plannedPurchaseLines.quantity.secondQty.uom",
+      "column" : "quantitySUom_id",
+      "ar" : "الوحدة الثانية | الوحدة",
+      "en" : "Secondary | UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "plannedPurchaseLines.quantity.secondQty.value",
+      "column" : "quantitySValue",
+      "ar" : "الوحدة الثانية | الكمية",
+      "en" : "Secondary | Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "plannedPurchaseLines.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "plannedPurchaseLines.routing",
+      "column" : "routing_id",
+      "ar" : "عمليات التشغيل",
+      "en" : "Routing",
+      "type" : "Reference",
+      "refTo" : "Routing",
+      "refPath" : "/modules/manufacturing/Routing.html"
+    }, {
+      "id" : "plannedPurchaseLines.selected",
+      "column" : "selected",
+      "ar" : "اختيار",
+      "en" : "Selected",
+      "type" : "Boolean"
+    }, {
+      "id" : "plannedPurchaseLines.sourceAnalysisLineId",
+      "column" : "sourceAnalysisLineId",
+      "type" : "ID"
+    }, {
+      "id" : "plannedPurchaseLines.supplier",
+      "column" : "supplier_id",
+      "ar" : "مورد",
+      "en" : " Supplier",
+      "type" : "Reference",
+      "refTo" : "Supplier",
+      "refPath" : "/modules/basic/Supplier.html"
+    }, {
+      "id" : "plannedPurchaseLines.warehouse",
+      "column" : "warehouse_id",
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    } ]
+  }, {
+    "id" : "requiredLines",
+    "table" : "MRPRequiredLine",
+    "joinColumn" : "mRPDocument_id",
+    "ar" : "الاحتياجات",
+    "en" : "Required Lines",
+    "fields" : [ {
+      "id" : "requiredLines.analysisAvailable",
+      "column" : "analysisAvailable",
+      "ar" : "التحليل | المتاح",
+      "en" : "Analysis | Available",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.analysisBatchSize",
+      "column" : "analysisBatchSize",
+      "ar" : "التحليل | حجم الباتش",
+      "en" : "Analysis | Batch Size",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.analysisBatchesCount",
+      "column" : "analysisBatchesCount",
+      "ar" : "التحليل | عدد الباتش",
+      "en" : "Analysis | Batches Count",
+      "type" : "Integer"
+    }, {
+      "id" : "requiredLines.analysisNetRequired",
+      "column" : "analysisNetRequired",
+      "ar" : "التحليل | صافي المطلوب",
+      "en" : "Analysis | NetRequired",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.analysisOrderOn",
+      "column" : "analysisOrderOn",
+      "ar" : "التحليل | تاريخ الطلب",
+      "en" : "Analysis | Order On",
+      "type" : "Date"
+    }, {
+      "id" : "requiredLines.analysisPotentialAvailable",
+      "column" : "analysisPotentialAvailable",
+      "ar" : "التحليل | المحتمل ان يكون متاح",
+      "en" : "Analysis | Potential Available",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.analysisRemaining",
+      "column" : "analysisRemaining",
+      "ar" : "التحليل | المتبقي",
+      "en" : "Analysis | Remaining",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.analysisRequiredOn",
+      "column" : "analysisRequiredOn",
+      "ar" : "التحليل | تاريخ الأحتياج",
+      "en" : "Analysis | Required On",
+      "type" : "Date"
+    }, {
+      "id" : "requiredLines.analysisSafetyStock",
+      "column" : "analysisSafetyStock",
+      "ar" : "التحليل | Safety Stock",
+      "en" : "Analysis | Safety Stock",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.analysisTotalRequired",
+      "column" : "analysisTotalRequired",
+      "ar" : "التحليل | إجمالي المطلوب",
+      "en" : "Analysis | Total Required",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.bom",
+      "column" : "bom_id",
+      "ar" : "مكونات المنتج",
+      "en" : "BOM",
+      "type" : "Reference",
+      "refTo" : "BOM",
+      "refPath" : "/modules/manufacturing/BOM.html"
+    }, {
+      "id" : "requiredLines.dimensions.activePerc",
+      "column" : "dimensionsActivePerc",
+      "ar" : "النسبة الفعالة",
+      "en" : "Active Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "requiredLines.dimensions.box",
+      "column" : "dimensionsBox",
+      "ar" : "صندوق",
+      "en" : "Box",
+      "type" : "Text"
+    }, {
+      "id" : "requiredLines.dimensions.color",
+      "column" : "dimensionsColor",
+      "ar" : "اللون",
+      "en" : "Color",
+      "type" : "Color"
+    }, {
+      "id" : "requiredLines.dimensions.inactivePerc",
+      "column" : "dimensionsInactivePerc",
+      "ar" : "النسبة الغير فعالة",
+      "en" : "Inactive Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "requiredLines.dimensions.locator",
+      "column" : "dimensionsLocator_id",
+      "ar" : "الموقع",
+      "en" : "Locator",
+      "type" : "Reference",
+      "refTo" : "Locator",
+      "refPath" : "/modules/supplychain/Locator.html"
+    }, {
+      "id" : "requiredLines.dimensions.lotId",
+      "column" : "dimensionsLotId",
+      "ar" : "كود الشحنة",
+      "en" : "Lot ID",
+      "type" : "Text"
+    }, {
+      "id" : "requiredLines.dimensions.measures",
+      "column" : "dimensionsMeasures",
+      "ar" : "الأبعاد",
+      "en" : "Measures",
+      "type" : "Measures"
+    }, {
+      "id" : "requiredLines.dimensions.revisionId",
+      "column" : "dimensionsRevisionId",
+      "ar" : "الإصدار",
+      "en" : "ID",
+      "type" : "Text"
+    }, {
+      "id" : "requiredLines.dimensions.secondSerial",
+      "column" : "dimensionsSecondSerial",
+      "ar" : "الرقم المسلسل الثاني",
+      "en" : "Second Serial",
+      "type" : "BigText"
+    }, {
+      "id" : "requiredLines.dimensions.serialNumber",
+      "column" : "dimensionsSerialNumber",
+      "ar" : "الرقم المسلسل",
+      "en" : "Serial Number",
+      "type" : "BigText"
+    }, {
+      "id" : "requiredLines.dimensions.size",
+      "column" : "dimensionsSize",
+      "ar" : "المقاس",
+      "en" : "Size",
+      "type" : "Text"
+    }, {
+      "id" : "requiredLines.dimensions.subItem",
+      "column" : "dimensionsSubItem_id",
+      "ar" : " السياره",
+      "en" : " Customer Car",
+      "type" : "Reference",
+      "refTo" : "SubItem",
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+    }, {
+      "id" : "requiredLines.dimensions.warehouse",
+      "column" : "dimensionsWarehouse_id",
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
+      "id" : "requiredLines.editedBatchesCount",
+      "column" : "editedBatchesCount",
+      "ar" : "عدد الباتش المعدل",
+      "en" : "Updated Batches Count",
+      "type" : "Integer"
+    }, {
+      "id" : "requiredLines.editedNetRequired",
+      "column" : "editedNetRequired",
+      "ar" : "صافي المطلوب المعدل",
+      "en" : "Updated NetRequired",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "requiredLines.invItem",
+      "column" : "invItem_id",
+      "ar" : " الصنف",
+      "en" : " Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "requiredLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "requiredLines.manual",
+      "column" : "manual",
+      "ar" : "يدوي",
+      "en" : "Manual",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.netRequiredAfterEdit",
+      "column" : "netRequiredAfterEdit",
+      "ar" : "التحليل | صافي المطلوب النهائي",
+      "en" : "Analysis |Final NetRequired",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.predictedPurchase.qty1",
+      "column" : "predictedPurchaseQty1",
+      "ar" : "المتوقع دخولة | كمية 1",
+      "en" : "Predicted Purchase | Quantity 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.predictedPurchase.qty2",
+      "column" : "predictedPurchaseQty2",
+      "ar" : "المتوقع دخولة | كمية 2",
+      "en" : "Predicted Purchase | Quantity 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.predictedPurchase.total",
+      "column" : "predictedPurchaseTotal",
+      "ar" : "المتوقع دخولة | إجمالي",
+      "en" : "Predicted Purchase | Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.predictedSales.qty1",
+      "column" : "predictedSalesQty1",
+      "ar" : "المتوقع خروجة | كمية 1",
+      "en" : "Predicted Sales | Quantity 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.predictedSales.qty2",
+      "column" : "predictedSalesQty2",
+      "ar" : "المتوقع خروجة | كمية 2",
+      "en" : "Predicted Sales | Quantity 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.predictedSales.total",
+      "column" : "predictedSalesTotal",
+      "ar" : "المتوقع خروجة | إجمالي",
+      "en" : "Predicted Sales | Total",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "requiredLines.requiredOn",
+      "column" : "requiredOn",
+      "ar" : "تاريخ الإحتياج",
+      "en" : "Required On",
+      "type" : "Date"
+    }, {
+      "id" : "requiredLines.requiredQty.uom",
+      "column" : "requiredQtyUom_id",
+      "ar" : "الكمية المطلوبة | الوحدة",
+      "en" : "Required Quantity | UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "requiredLines.requiredQty.value",
+      "column" : "requiredQtyValue",
+      "ar" : "المطلوب",
+      "en" : "Required",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.routing",
+      "column" : "routing_id",
+      "ar" : "عمليات التشغيل",
+      "en" : "Routing",
+      "type" : "Reference",
+      "refTo" : "Routing",
+      "refPath" : "/modules/manufacturing/Routing.html"
+    }, {
+      "id" : "requiredLines.sourceLineId",
+      "column" : "sourceLineId",
+      "ar" : "معرف سطر المصدر",
+      "en" : "Source Line Id",
+      "type" : "ID"
+    }, {
+      "id" : "requiredLines.totalAvailable.qty1",
+      "column" : "totalAvailableQty1",
+      "ar" : "إجمالي المتاح | كمية 1",
+      "en" : "Total Available | Quantity 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.totalAvailable.qty2",
+      "column" : "totalAvailableQty2",
+      "ar" : "إجمالي المتاح | كمية 2",
+      "en" : "Total Available | Quantity 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "requiredLines.totalAvailable.total",
+      "column" : "totalAvailableTotal",
+      "ar" : "إجمالي المتاح | إجمالي",
+      "en" : "Total Available | Total",
+      "type" : "Decimal"
+    } ]
+  } ]
+}

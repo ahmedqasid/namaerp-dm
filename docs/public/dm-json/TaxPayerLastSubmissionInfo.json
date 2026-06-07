@@ -1,0 +1,27 @@
+{
+  "entity" : "TaxPayerLastSubmissionInfo",
+  "table" : "TaxPayerLastSubmissionInfo",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/TaxPayerLastSubmissionInfo.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lastCreditHash",
+    "column" : "lastCreditHash",
+    "type" : "Text"
+  }, {
+    "id" : "lastDebitHash",
+    "column" : "lastDebitHash",
+    "type" : "Text"
+  }, {
+    "id" : "lastInvoiceCounterValue",
+    "column" : "lastInvoiceCounterValue",
+    "type" : "Integer"
+  }, {
+    "id" : "lastInvoiceHash",
+    "column" : "lastInvoiceHash",
+    "type" : "Text"
+  } ]
+}

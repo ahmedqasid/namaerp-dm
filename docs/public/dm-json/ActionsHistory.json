@@ -1,0 +1,123 @@
+{
+  "entity" : "ActionsHistory",
+  "table" : "ActionsHistory",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ActionsHistory.html",
+  "fields" : [ {
+    "id" : "actionDate",
+    "column" : "actionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Action Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "actionEntity",
+    "columns" : [ "actionEntity_ActualCode", " actionEntity_Code", " actionEntity_type", " actionEntity_id" ],
+    "ar" : "السجل",
+    "en" : "Record",
+    "type" : "Genericreference"
+  }, {
+    "id" : "actionType",
+    "column" : "actionType",
+    "ar" : "نوع الإجراء",
+    "en" : "Action Type",
+    "type" : "Enum",
+    "enum" : "ActionType"
+  }, {
+    "id" : "actionTypeDescription",
+    "column" : "actionTypeDescription",
+    "type" : "Text"
+  }, {
+    "id" : "analysisSet",
+    "column" : "analysisSet_id",
+    "ar" : "المجموعة التحليلية",
+    "en" : "Analysis set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "apiCredentialId",
+    "column" : "apiCredentialId",
+    "type" : "ID"
+  }, {
+    "id" : "branch",
+    "column" : "branch_id",
+    "ar" : "الفرع",
+    "en" : "Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "department",
+    "column" : "department_id",
+    "ar" : "الإدارة",
+    "en" : "Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "ipadress",
+    "column" : "ipadress",
+    "ar" : "IP",
+    "en" : "IP Address",
+    "type" : "Text"
+  }, {
+    "id" : "legalEntity",
+    "column" : "legalEntity_id",
+    "ar" : "الشركة",
+    "en" : "Legal Entity",
+    "type" : "Reference",
+    "refTo" : "LegalEntity",
+    "refPath" : "/modules/basic/LegalEntity.html"
+  }, {
+    "id" : "moreInfo",
+    "column" : "moreInfo",
+    "ar" : "More Info",
+    "en" : "More Info",
+    "type" : "Text"
+  }, {
+    "id" : "namaUser",
+    "columns" : [ "namaUser_actualCode", " namaUser_code", " namaUser_type", " namaUser_id" ],
+    "ar" : "المستخدم",
+    "en" : "User",
+    "type" : "Genericreference"
+  }, {
+    "id" : "relatedEntity",
+    "columns" : [ "relatedEntity_ActualCode", " relatedEntity_Code", " relatedEntity_type", " relatedEntity_id" ],
+    "ar" : "نوع الذمة المتعلق",
+    "en" : "Related Type",
+    "type" : "Genericreference"
+  }, {
+    "id" : "replicationSite",
+    "column" : "replicationSite_id",
+    "ar" : "موقع التكرار",
+    "en" : "Replication Site",
+    "type" : "Reference",
+    "refTo" : "ReplicationSite",
+    "refPath" : "/modules/basic/ReplicationSite.html"
+  }, {
+    "id" : "reviseLevel",
+    "column" : "reviseLevel",
+    "ar" : "مستوى المراجعة",
+    "en" : "Revise Level",
+    "type" : "Enum",
+    "enum" : "ReviseLevel"
+  }, {
+    "id" : "sector",
+    "column" : "sector_id",
+    "ar" : "القطاع",
+    "en" : "Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "versionNumber",
+    "column" : "versionNumber",
+    "ar" : "رقم الإصدار",
+    "en" : "Version Number",
+    "type" : "Integer"
+  } ]
+}

@@ -1,0 +1,16 @@
+{
+  "enum" : "DeliveryQueueStatus",
+  "values" : [ {
+    "id" : "NotDelivered",
+    "ar" : "بإنتظار التوصيل",
+    "en" : "NotDelivered"
+  }, {
+    "id" : "InProgress",
+    "ar" : "قيد التنفيذ",
+    "en" : "In Progress"
+  }, {
+    "id" : "Delivered",
+    "ar" : "توصيل كلي",
+    "en" : "Totally Delivered"
+  } ]
+}
