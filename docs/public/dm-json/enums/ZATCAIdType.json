@@ -1,0 +1,48 @@
+{
+  "enum" : "ZATCAIdType",
+  "values" : [ {
+    "id" : "TIN",
+    "ar" : "الرقم الضريبي (TIN)",
+    "en" : "Tax Identification Number (TIN)"
+  }, {
+    "id" : "CRN",
+    "ar" : "السجل التجاري (CRN)",
+    "en" : "Commercial Registration (CRN)"
+  }, {
+    "id" : "MOM",
+    "ar" : "رخصة وزارة الشؤون البلدية (MOM)",
+    "en" : "MOMRAH License (MOM)"
+  }, {
+    "id" : "MLS",
+    "ar" : "رخصة وزارة الموارد البشرية (MLS)",
+    "en" : "MHRSD License (MLS)"
+  }, {
+    "id" : "Number700",
+    "ar" : "الرقم الموحد 700",
+    "en" : "700 Number"
+  }, {
+    "id" : "SAG",
+    "ar" : "رخصة وزارة الاستثمار (SAG)",
+    "en" : "MISA License (SAG)"
+  }, {
+    "id" : "NAT",
+    "ar" : "الهوية الوطنية (NAT)",
+    "en" : "National ID (NAT)"
+  }, {
+    "id" : "GCC",
+    "ar" : "هوية خليجية (GCC)",
+    "en" : "GCC ID (GCC)"
+  }, {
+    "id" : "IQA",
+    "ar" : "رقم الإقامة (IQA)",
+    "en" : "Iqama Number (IQA)"
+  }, {
+    "id" : "PAS",
+    "ar" : "جواز السفر (PAS)",
+    "en" : "Passport ID (PAS)"
+  }, {
+    "id" : "OTH",
+    "ar" : "هوية أخرى (OTH)",
+    "en" : "Other ID (OTH)"
+  } ]
+}

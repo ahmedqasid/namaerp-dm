@@ -868,6 +868,13 @@
     "en" : "Tax Registeration NO",
     "type" : "Text"
   }, {
+    "id" : "taxInfo.zatcaIdType",
+    "column" : "zatcaIdType",
+    "ar" : "نوع هوية المشتري (هيئة الزكاة)",
+    "en" : "ZATCA Buyer Id Type",
+    "type" : "Enum",
+    "enum" : "ZATCAIdType"
+  }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
     "ar" : "صلاحية التعديل",

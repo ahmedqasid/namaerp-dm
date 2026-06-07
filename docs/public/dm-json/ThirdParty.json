@@ -929,6 +929,13 @@
     "en" : "Tax Registeration NO",
     "type" : "Text"
   }, {
+    "id" : "taxInfo.zatcaIdType",
+    "column" : "zatcaIdType",
+    "ar" : "نوع هوية المشتري (هيئة الزكاة)",
+    "en" : "ZATCA Buyer Id Type",
+    "type" : "Enum",
+    "enum" : "ZATCAIdType"
+  }, {
     "id" : "taxRegAttach",
     "column" : "taxRegAttach_id",
     "ar" : "مرفق التسجيل الضريبي",

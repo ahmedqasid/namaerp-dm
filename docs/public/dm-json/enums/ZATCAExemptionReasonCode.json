@@ -1,0 +1,68 @@
+{
+  "enum" : "ZATCAExemptionReasonCode",
+  "values" : [ {
+    "id" : "VATEX_SA_29",
+    "ar" : "VATEX-SA-29 الخدمات المالية",
+    "en" : "VATEX-SA-29 Financial services"
+  }, {
+    "id" : "VATEX_SA_29_7",
+    "ar" : "VATEX-SA-29-7 عقد تأمين على الحياة",
+    "en" : "VATEX-SA-29-7 Life insurance services"
+  }, {
+    "id" : "VATEX_SA_30",
+    "ar" : "VATEX-SA-30 التوريدات العقارية المعفاة من الضريبة",
+    "en" : "VATEX-SA-30 Real estate transactions"
+  }, {
+    "id" : "VATEX_SA_32",
+    "ar" : "VATEX-SA-32 صادرات السلع من المملكة",
+    "en" : "VATEX-SA-32 Export of goods"
+  }, {
+    "id" : "VATEX_SA_33",
+    "ar" : "VATEX-SA-33 صادرات الخدمات من المملكة",
+    "en" : "VATEX-SA-33 Export of services"
+  }, {
+    "id" : "VATEX_SA_34_1",
+    "ar" : "VATEX-SA-34-1 النقل الدولي للسلع",
+    "en" : "VATEX-SA-34-1 International transport of goods"
+  }, {
+    "id" : "VATEX_SA_34_2",
+    "ar" : "VATEX-SA-34-2 النقل الدولي للركاب",
+    "en" : "VATEX-SA-34-2 International transport of passengers"
+  }, {
+    "id" : "VATEX_SA_34_3",
+    "ar" : "VATEX-SA-34-3 الخدمات المرتبطة بالنقل الدولي للركاب",
+    "en" : "VATEX-SA-34-3 Services connected to international passenger transport"
+  }, {
+    "id" : "VATEX_SA_34_4",
+    "ar" : "VATEX-SA-34-4 توريد وسائل النقل المؤهلة",
+    "en" : "VATEX-SA-34-4 Supply of a qualifying means of transport"
+  }, {
+    "id" : "VATEX_SA_34_5",
+    "ar" : "VATEX-SA-34-5 الخدمات ذات الصلة بنقل السلع أو الركاب",
+    "en" : "VATEX-SA-34-5 Services related to goods or passenger transportation"
+  }, {
+    "id" : "VATEX_SA_35",
+    "ar" : "VATEX-SA-35 الأدوية والمعدات الطبية",
+    "en" : "VATEX-SA-35 Medicines and medical equipment"
+  }, {
+    "id" : "VATEX_SA_36",
+    "ar" : "VATEX-SA-36 المعادن المؤهلة",
+    "en" : "VATEX-SA-36 Qualifying metals"
+  }, {
+    "id" : "VATEX_SA_EDU",
+    "ar" : "VATEX-SA-EDU الخدمات التعليمية الخاصة للمواطنين",
+    "en" : "VATEX-SA-EDU Private education to citizen"
+  }, {
+    "id" : "VATEX_SA_HEA",
+    "ar" : "VATEX-SA-HEA الخدمات الصحية الخاصة للمواطنين",
+    "en" : "VATEX-SA-HEA Private healthcare to citizen"
+  }, {
+    "id" : "VATEX_SA_MLTRY",
+    "ar" : "VATEX-SA-MLTRY توريد السلع العسكرية المؤهلة",
+    "en" : "VATEX-SA-MLTRY Supply of qualified military goods"
+  }, {
+    "id" : "VATEX_SA_OOS",
+    "ar" : "VATEX-SA-OOS التوريدات غير الخاضعة للضريبة",
+    "en" : "VATEX-SA-OOS Out of scope of VAT"
+  } ]
+}

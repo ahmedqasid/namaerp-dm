@@ -522,5 +522,96 @@
     "type" : "Reference",
     "refTo" : "HOViolationList",
     "refPath" : "/modules/humanresource-advanced/HOViolationList.html"
+  } ],
+  "details" : [ {
+    "id" : "details",
+    "table" : "HOViolationItemLine",
+    "joinColumn" : "hOViolationItem_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "fields" : [ {
+      "id" : "details.componentGroup",
+      "column" : "componentGroup_id",
+      "ar" : " مجموعة مفردات راتب",
+      "en" : "Component Group",
+      "type" : "Reference",
+      "refTo" : "SalaryComponentGroup",
+      "refPath" : "/modules/humanresource-payroll/SalaryComponentGroup.html"
+    }, {
+      "id" : "details.componentUsedToShowHOViolationItemInSalaryDoc",
+      "column" : "componentUsedToShowHOViolationItemInSalaryDoc_id",
+      "ar" : "المفرد المستعمل لإظهار بند المخالفة في سند الراتب",
+      "en" : "Component Used To Show HOViolation Item In Salary Document",
+      "type" : "Reference",
+      "refTo" : "SalaryComponent",
+      "refPath" : "/modules/humanresource-payroll/SalaryComponent.html"
+    }, {
+      "id" : "details.during",
+      "column" : "during",
+      "ar" : "خلال",
+      "en" : "During",
+      "type" : "Enum",
+      "enum" : "ViolationRepetitionPeriod"
+    }, {
+      "id" : "details.financialPenalty.amount",
+      "column" : "financialPenaltyAmount",
+      "ar" : " المبلغ",
+      "en" : " Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.financialPenalty.currency",
+      "column" : "financialPenaltyCurrency_id",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.penalty",
+      "column" : "penalty",
+      "ar" : "العقوبة",
+      "en" : "Penalty",
+      "type" : "BigText"
+    }, {
+      "id" : "details.penaltyOfDays.uom",
+      "column" : "penaltyOfDaysUom",
+      "ar" : "وقت |وحدة",
+      "en" : "Time|Uom",
+      "type" : "Enum",
+      "enum" : "TimePeriodType"
+    }, {
+      "id" : "details.penaltyOfDays.value",
+      "column" : "penaltyOfDaysValue",
+      "ar" : "وقت |قيمة",
+      "en" : "Time|Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.penaltyPercentage",
+      "column" : "penaltyPercentage",
+      "ar" : "من الراتب | %",
+      "en" : "From Salary|percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.repetitionCount",
+      "column" : "repetitionCount",
+      "ar" : "عدد مرات التكرار",
+      "en" : "Repetition Count",
+      "type" : "Integer"
+    }, {
+      "id" : "details.uom",
+      "column" : "uom",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Enum",
+      "enum" : "PenaltyUom"
+    } ]
   } ]
 }

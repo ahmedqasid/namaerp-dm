@@ -328,6 +328,8 @@
   }, {
     "id" : "ignoreOverlappingAttendance",
     "column" : "ignoreOverlappingAttendance",
+    "ar" : "تجاهل الحضور والانصراف المتقاطع مع هذا المستند",
+    "en" : "Ignore Overlapping Attendance With This Document",
     "type" : "Boolean"
   }, {
     "id" : "ignoreUnfoundEmpsInTimeAttend",
@@ -646,6 +648,8 @@
     }, {
       "id" : "attendanceLines.lineIgnoredForOverlap",
       "column" : "lineIgnoredForOverlap",
+      "ar" : "تم تجاهل السطر للتقاطع مع سندات أخرى",
+      "en" : "Line Ignored Due To Overlap With Other Documents",
       "type" : "Boolean"
     }, {
       "id" : "attendanceLines.lineNumber",

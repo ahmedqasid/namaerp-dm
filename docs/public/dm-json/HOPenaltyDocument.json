@@ -292,6 +292,14 @@
     "type" : "Enum",
     "enum" : "GenerationType"
   }, {
+    "id" : "hrPeriod",
+    "column" : "hrPeriod_id",
+    "ar" : "فترة الرواتب",
+    "en" : "HR Period",
+    "type" : "Reference",
+    "refTo" : "HRPeriod",
+    "refPath" : "/modules/humanresource-payroll/HRPeriod.html"
+  }, {
     "id" : "id",
     "column" : "id",
     "type" : "ID"

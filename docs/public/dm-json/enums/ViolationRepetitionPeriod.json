@@ -1,0 +1,20 @@
+{
+  "enum" : "ViolationRepetitionPeriod",
+  "values" : [ {
+    "id" : "SalaryPeriod",
+    "ar" : "فترة الراتب",
+    "en" : "Salary Period"
+  }, {
+    "id" : "FiscalPeriod",
+    "ar" : "فترة محاسبية",
+    "en" : "Fiscal Period"
+  }, {
+    "id" : "SalaryYear",
+    "ar" : "سنة الرواتب",
+    "en" : "Salary Year"
+  }, {
+    "id" : "FiscalYear",
+    "ar" : "سنة مالية",
+    "en" : "Fiscal Year"
+  } ]
+}

@@ -13,11 +13,11 @@ Field entries use: id (property name), column (database column; "columns" array 
 
 ## Entities
 
-- [ACCSideConfigSysLine](https://dm.namasoft.com/dm-json/ACCSideConfigSysLine.json):
-- [AIChatMessage](https://dm.namasoft.com/dm-json/AIChatMessage.json):
-- [AIChatSession](https://dm.namasoft.com/dm-json/AIChatSession.json):
-- [AIEmbeddingFile](https://dm.namasoft.com/dm-json/AIEmbeddingFile.json):
-- [AIModelDefinition](https://dm.namasoft.com/dm-json/AIModelDefinition.json):
+- [ACCSideConfigSysLine](https://dm.namasoft.com/dm-json/ACCSideConfigSysLine.json)
+- [AIChatMessage](https://dm.namasoft.com/dm-json/AIChatMessage.json)
+- [AIChatSession](https://dm.namasoft.com/dm-json/AIChatSession.json)
+- [AIEmbeddingFile](https://dm.namasoft.com/dm-json/AIEmbeddingFile.json)
+- [AIModelDefinition](https://dm.namasoft.com/dm-json/AIModelDefinition.json)
 - [AINamaDocsFile](https://dm.namasoft.com/dm-json/AINamaDocsFile.json): AI Nama Docs Utility Manager
 - [AIRecordEmbeddingConfig](https://dm.namasoft.com/dm-json/AIRecordEmbeddingConfig.json): AI Record Embedding Config
 - [AIToolDefinition](https://dm.namasoft.com/dm-json/AIToolDefinition.json): AI Tool Definition
@@ -39,7 +39,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [AUCycle](https://dm.namasoft.com/dm-json/AUCycle.json): Cycle / دورة
 - [AUDetailedProcedure](https://dm.namasoft.com/dm-json/AUDetailedProcedure.json): Detailed Procedure / إجراء التفصيلية
 - [AUFSA](https://dm.namasoft.com/dm-json/AUFSA.json): Financial Statement Area / FSA
-- [AUFilePhaseLine](https://dm.namasoft.com/dm-json/AUFilePhaseLine.json):
+- [AUFilePhaseLine](https://dm.namasoft.com/dm-json/AUFilePhaseLine.json)
 - [AUIndependency](https://dm.namasoft.com/dm-json/AUIndependency.json): Independency Model / نموذج الإستقلالية
 - [AULinkingLetter](https://dm.namasoft.com/dm-json/AULinkingLetter.json): Linking Letter / خطاب الارتباط
 - [AUManual](https://dm.namasoft.com/dm-json/AUManual.json): Manual / دليل مراجعة
@@ -68,12 +68,12 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [AccountingSideConfig](https://dm.namasoft.com/dm-json/AccountingSideConfig.json): Accounting Side Config / جانب محاسبي
 - [AccountsBag](https://dm.namasoft.com/dm-json/AccountsBag.json): Accounts Bag / حقيبة حسابات
 - [AccountsChart](https://dm.namasoft.com/dm-json/AccountsChart.json): Accounts Chart / شجرة حسابات
-- [ActionsHistory](https://dm.namasoft.com/dm-json/ActionsHistory.json):
+- [ActionsHistory](https://dm.namasoft.com/dm-json/ActionsHistory.json)
 - [Activity](https://dm.namasoft.com/dm-json/Activity.json): نشاط
 - [ActualOverheadCalculator](https://dm.namasoft.com/dm-json/ActualOverheadCalculator.json): Actual Overhead Calculator / طريقة حساب فعلي للمصاريف الغير مباشرة
 - [ActualProductionOverhead](https://dm.namasoft.com/dm-json/ActualProductionOverhead.json): Actual Production Overhead / تكاليف الإنتاج الغير مباشرة الفعلية
 - [AdditionalCost](https://dm.namasoft.com/dm-json/AdditionalCost.json): Expense item / بند مصروف
-- [AdditionalCostLine](https://dm.namasoft.com/dm-json/AdditionalCostLine.json):
+- [AdditionalCostLine](https://dm.namasoft.com/dm-json/AdditionalCostLine.json)
 - [AddressRegion](https://dm.namasoft.com/dm-json/AddressRegion.json): Address Region / منطقه
 - [AggFATransferRequest](https://dm.namasoft.com/dm-json/AggFATransferRequest.json): Aggregated Fixed Asset Transfer Request / طلب نقل أصل مجمع
 - [AggFiringDocument](https://dm.namasoft.com/dm-json/AggFiringDocument.json): Aggregated Firing Document / سند إنهاء خدمة مجمع
@@ -109,11 +109,11 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [AgrInvestContrProfitClaim](https://dm.namasoft.com/dm-json/AgrInvestContrProfitClaim.json): Agricultural Investment Contract Profit Claim / مستند استحقاق أرباح عقد استثمار زراعي
 - [AgrInvestmentContract](https://dm.namasoft.com/dm-json/AgrInvestmentContract.json): Agricultural Investment Contract / عقد استثمار زراعي
 - [AgrInvestmentContractCategory](https://dm.namasoft.com/dm-json/AgrInvestmentContractCategory.json): Agricultural Investment Contract Category / تصنيف عقد استثمار زراعي
-- [Alias](https://dm.namasoft.com/dm-json/Alias.json):
-- [AllManualDebtLines](https://dm.namasoft.com/dm-json/AllManualDebtLines.json):
-- [AllowedEmployeeStatusesForLoanDocument](https://dm.namasoft.com/dm-json/AllowedEmployeeStatusesForLoanDocument.json):
+- [Alias](https://dm.namasoft.com/dm-json/Alias.json)
+- [AllManualDebtLines](https://dm.namasoft.com/dm-json/AllManualDebtLines.json)
+- [AllowedEmployeeStatusesForLoanDocument](https://dm.namasoft.com/dm-json/AllowedEmployeeStatusesForLoanDocument.json)
 - [AnalysisSet](https://dm.namasoft.com/dm-json/AnalysisSet.json): Analysis Set / مجموعة تحليلية
-- [AnalysisSetParentLine](https://dm.namasoft.com/dm-json/AnalysisSetParentLine.json):
+- [AnalysisSetParentLine](https://dm.namasoft.com/dm-json/AnalysisSetParentLine.json)
 - [AnnualIncreasesDoc](https://dm.namasoft.com/dm-json/AnnualIncreasesDoc.json): Annual Increases Document / مستند الزياده السنوية
 - [AppFormElement](https://dm.namasoft.com/dm-json/AppFormElement.json): ApplForm Element / بند نموذج طلب
 - [ApplicationForm](https://dm.namasoft.com/dm-json/ApplicationForm.json): Application Form / نموذج طلب
@@ -125,26 +125,26 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [AssemblyComponent](https://dm.namasoft.com/dm-json/AssemblyComponent.json): Components / مكون
 - [AssemblyDocument](https://dm.namasoft.com/dm-json/AssemblyDocument.json): Assembly Document / سند تجميع
 - [AssemblyMachine](https://dm.namasoft.com/dm-json/AssemblyMachine.json): Assembly Machine / ماكينة تجميع
-- [AssemblyPlannedDocLine](https://dm.namasoft.com/dm-json/AssemblyPlannedDocLine.json):
+- [AssemblyPlannedDocLine](https://dm.namasoft.com/dm-json/AssemblyPlannedDocLine.json)
 - [AssemblyProcessFile](https://dm.namasoft.com/dm-json/AssemblyProcessFile.json): Assembly Process File / ملف عملية تجميع
 - [AssemblyRequest](https://dm.namasoft.com/dm-json/AssemblyRequest.json): Assembly Request / طلب تجميع
-- [AtheerRequestLog](https://dm.namasoft.com/dm-json/AtheerRequestLog.json):
+- [AtheerRequestLog](https://dm.namasoft.com/dm-json/AtheerRequestLog.json)
 - [AttachmentInfo](https://dm.namasoft.com/dm-json/AttachmentInfo.json): All Attachments In System / كل المرفقات بالنظام
 - [AttendanceIndicatorWaiver](https://dm.namasoft.com/dm-json/AttendanceIndicatorWaiver.json): Attendance Indicator Waiver / إعفاء من مؤشرات الحضور
 - [AttendanceMachineConfig](https://dm.namasoft.com/dm-json/AttendanceMachineConfig.json): Attendance Machine Config / إعدادات ماكينة الحضور
-- [AttendanceMachineConfigStats](https://dm.namasoft.com/dm-json/AttendanceMachineConfigStats.json):
-- [AttendanceMachineCronLog](https://dm.namasoft.com/dm-json/AttendanceMachineCronLog.json):
+- [AttendanceMachineConfigStats](https://dm.namasoft.com/dm-json/AttendanceMachineConfigStats.json)
+- [AttendanceMachineCronLog](https://dm.namasoft.com/dm-json/AttendanceMachineCronLog.json)
 - [AttendancePlan](https://dm.namasoft.com/dm-json/AttendancePlan.json): Attendance Plan / خطة الدوام
 - [AttendanceShift](https://dm.namasoft.com/dm-json/AttendanceShift.json): Shift / ملف الدوام
 - [AttendantsCategory](https://dm.namasoft.com/dm-json/AttendantsCategory.json): Attendants Category / فئة الحضور
 - [AutoSalesPricing](https://dm.namasoft.com/dm-json/AutoSalesPricing.json): Auto Sales Pricing / ملف تسعير مبيعات آلي
 - [AutoSalesPricingSetting](https://dm.namasoft.com/dm-json/AutoSalesPricingSetting.json): Auto Sales Pricing Setting / إعدادات تسعير مبيعات آلي
-- [AutoSystemAction](https://dm.namasoft.com/dm-json/AutoSystemAction.json):
+- [AutoSystemAction](https://dm.namasoft.com/dm-json/AutoSystemAction.json)
 - [BICrossFilter](https://dm.namasoft.com/dm-json/BICrossFilter.json): BI Cross Filter / فلتر تفاعلي للوحات
 - [BIPeriodComparisonConfig](https://dm.namasoft.com/dm-json/BIPeriodComparisonConfig.json): BI Period Comparison Config / إعدادات مقارنة الفترات
 - [BLCChanging](https://dm.namasoft.com/dm-json/BLCChanging.json): Bank LC Changing / تعديل اعتماد بنكى
 - [BLCClosingDoc](https://dm.namasoft.com/dm-json/BLCClosingDoc.json): Bank LC Closing / إنهاء اعتماد بنكى
-- [BLCEntry](https://dm.namasoft.com/dm-json/BLCEntry.json):
+- [BLCEntry](https://dm.namasoft.com/dm-json/BLCEntry.json)
 - [BLCOpeningDoc](https://dm.namasoft.com/dm-json/BLCOpeningDoc.json): Bank LC Opening / فتح اعتماد بنكى
 - [BLCReq](https://dm.namasoft.com/dm-json/BLCReq.json): Bank LC Request / طلب اعتماد بنكى
 - [BOM](https://dm.namasoft.com/dm-json/BOM.json): مكونات منتج
@@ -162,21 +162,21 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [BankPortfolio](https://dm.namasoft.com/dm-json/BankPortfolio.json): Bank Portfolio / حافظة بنكية
 - [BankReconciliation](https://dm.namasoft.com/dm-json/BankReconciliation.json): Bank Reconciliation / مذكرة تسوية بنكية
 - [BankTransfer](https://dm.namasoft.com/dm-json/BankTransfer.json): Bank Transfer / تحويل بنكي
-- [BlockTree](https://dm.namasoft.com/dm-json/BlockTree.json):
+- [BlockTree](https://dm.namasoft.com/dm-json/BlockTree.json)
 - [Branch](https://dm.namasoft.com/dm-json/Branch.json): فرع
-- [BranchParentLine](https://dm.namasoft.com/dm-json/BranchParentLine.json):
+- [BranchParentLine](https://dm.namasoft.com/dm-json/BranchParentLine.json)
 - [BudgetScenario](https://dm.namasoft.com/dm-json/BudgetScenario.json): Budget Scenario / سيناريو موازنة
 - [BulkEditConfig](https://dm.namasoft.com/dm-json/BulkEditConfig.json): Bulk Edit Config / إعدادات التحرير المتعدد
 - [BulkMessage](https://dm.namasoft.com/dm-json/BulkMessage.json): Bulk message / رسالة مجمعة
 - [BusinessRequestStatus](https://dm.namasoft.com/dm-json/BusinessRequestStatus.json): Business Request Status
-- [CNTRTermCostEntry](https://dm.namasoft.com/dm-json/CNTRTermCostEntry.json):
+- [CNTRTermCostEntry](https://dm.namasoft.com/dm-json/CNTRTermCostEntry.json)
 - [CPADiscipline](https://dm.namasoft.com/dm-json/CPADiscipline.json): CPA Discipline / تخصص
-- [CPAInvoiceAggregateLine](https://dm.namasoft.com/dm-json/CPAInvoiceAggregateLine.json):
+- [CPAInvoiceAggregateLine](https://dm.namasoft.com/dm-json/CPAInvoiceAggregateLine.json)
 - [CPAPhasesDisciplineGroup](https://dm.namasoft.com/dm-json/CPAPhasesDisciplineGroup.json): CPA Phases Discipline Group / مجموعة المراحل والتخصصات
 - [CPAProcedure](https://dm.namasoft.com/dm-json/CPAProcedure.json): Procedure / الاجراء
 - [CPAProjExpenseDoc](https://dm.namasoft.com/dm-json/CPAProjExpenseDoc.json):  Project Expense Document /  سند مصروف
 - [CPAProjExpenseReq](https://dm.namasoft.com/dm-json/CPAProjExpenseReq.json):  Project Expense Request /  طلب مصروف
-- [CPAProjReturnLine](https://dm.namasoft.com/dm-json/CPAProjReturnLine.json):
+- [CPAProjReturnLine](https://dm.namasoft.com/dm-json/CPAProjReturnLine.json)
 - [CPAProject](https://dm.namasoft.com/dm-json/CPAProject.json): Managed Project / مشروع إداري
 - [CPAProjectClass](https://dm.namasoft.com/dm-json/CPAProjectClass.json): CPA Project Class / تصنيف المشروع
 - [CPAProjectExpenseItem](https://dm.namasoft.com/dm-json/CPAProjectExpenseItem.json):  Project Expense Items /  بند مصروف مشروع
@@ -209,7 +209,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [CRMActivityType](https://dm.namasoft.com/dm-json/CRMActivityType.json): Activity Type / نوع النشاط
 - [CRMAgent](https://dm.namasoft.com/dm-json/CRMAgent.json): Agent / وكيل
 - [CRMAnalysis](https://dm.namasoft.com/dm-json/CRMAnalysis.json): Analysis / تحليل
-- [CRMAssigningToSysEntry](https://dm.namasoft.com/dm-json/CRMAssigningToSysEntry.json):
+- [CRMAssigningToSysEntry](https://dm.namasoft.com/dm-json/CRMAssigningToSysEntry.json)
 - [CRMCall](https://dm.namasoft.com/dm-json/CRMCall.json): CRM Call / اتصال
 - [CRMCampaign](https://dm.namasoft.com/dm-json/CRMCampaign.json): CRM Campaign / حملة
 - [CRMCampaignType](https://dm.namasoft.com/dm-json/CRMCampaignType.json): Campaign Type / نوع حملة
@@ -218,7 +218,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [CRMComplaint](https://dm.namasoft.com/dm-json/CRMComplaint.json): Complaint - Suggestion / شكوي - إقتراح
 - [CRMComplaintSource](https://dm.namasoft.com/dm-json/CRMComplaintSource.json): Complaint Source / مصدر شكوى
 - [CRMComplaintType](https://dm.namasoft.com/dm-json/CRMComplaintType.json): Complaint Type / نوع شكوى
-- [CRMComplianSourceLine](https://dm.namasoft.com/dm-json/CRMComplianSourceLine.json):
+- [CRMComplianSourceLine](https://dm.namasoft.com/dm-json/CRMComplianSourceLine.json)
 - [CRMDevelopmentRequest](https://dm.namasoft.com/dm-json/CRMDevelopmentRequest.json): Development request / طلب تطوير
 - [CRMFAQ](https://dm.namasoft.com/dm-json/CRMFAQ.json): CRM FAQ / سؤال شائع
 - [CRMFollowUp](https://dm.namasoft.com/dm-json/CRMFollowUp.json): Follow Up Document / سند متابعة
@@ -269,7 +269,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [CSHReceiptVoucher](https://dm.namasoft.com/dm-json/CSHReceiptVoucher.json): Cashier Receipt Voucher / سند قبض كاشير
 - [CalculationFormula](https://dm.namasoft.com/dm-json/CalculationFormula.json): Calculation Formula / صيغة حسابية
 - [CandidateJobOffer](https://dm.namasoft.com/dm-json/CandidateJobOffer.json): Candidate Job Offer / عرض وظيفي لمتقدم للعمل
-- [CapabilityUsageSysLine](https://dm.namasoft.com/dm-json/CapabilityUsageSysLine.json):
+- [CapabilityUsageSysLine](https://dm.namasoft.com/dm-json/CapabilityUsageSysLine.json)
 - [Car](https://dm.namasoft.com/dm-json/Car.json): سيارة
 - [CarAction](https://dm.namasoft.com/dm-json/CarAction.json): Car Action / إجراء سيارة
 - [CarActionRequest](https://dm.namasoft.com/dm-json/CarActionRequest.json): Car Action Request / طلب إجراء سيارة
@@ -286,35 +286,35 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [CarInsuranceRemovingReq](https://dm.namasoft.com/dm-json/CarInsuranceRemovingReq.json): Car Insurance Removing Request / طلب حذف سيارات من التأمين
 - [CarModel](https://dm.namasoft.com/dm-json/CarModel.json): Car Model / موديل سياره
 - [CarProblem](https://dm.namasoft.com/dm-json/CarProblem.json): Car Problem / عطل سيارة
-- [CashierTransactionEntry](https://dm.namasoft.com/dm-json/CashierTransactionEntry.json):
+- [CashierTransactionEntry](https://dm.namasoft.com/dm-json/CashierTransactionEntry.json)
 - [ChangeEmployeeState](https://dm.namasoft.com/dm-json/ChangeEmployeeState.json): تغير حالة موظف
 - [ChargeItem](https://dm.namasoft.com/dm-json/ChargeItem.json): Charge Item / صنف شحن إلكترونى
 - [ChargeItemInvoice](https://dm.namasoft.com/dm-json/ChargeItemInvoice.json): Charge Item Invoice / فاتورة شحن إلكترونى
-- [ChartTree](https://dm.namasoft.com/dm-json/ChartTree.json):
-- [ChatConversation](https://dm.namasoft.com/dm-json/ChatConversation.json):
-- [ChatMessage](https://dm.namasoft.com/dm-json/ChatMessage.json):
-- [ChatParticipant](https://dm.namasoft.com/dm-json/ChatParticipant.json):
-- [ClonePayReceiptEntry](https://dm.namasoft.com/dm-json/ClonePayReceiptEntry.json):
+- [ChartTree](https://dm.namasoft.com/dm-json/ChartTree.json)
+- [ChatConversation](https://dm.namasoft.com/dm-json/ChatConversation.json)
+- [ChatMessage](https://dm.namasoft.com/dm-json/ChatMessage.json)
+- [ChatParticipant](https://dm.namasoft.com/dm-json/ChatParticipant.json)
+- [ClonePayReceiptEntry](https://dm.namasoft.com/dm-json/ClonePayReceiptEntry.json)
 - [ClosingEntry](https://dm.namasoft.com/dm-json/ClosingEntry.json): Closing Entry / قيد ختامي
 - [ComponentCalcFormula](https://dm.namasoft.com/dm-json/ComponentCalcFormula.json):  Component Calculation Formula /  معادلة حساب المفرد
 - [ConfigEntry](https://dm.namasoft.com/dm-json/ConfigEntry.json): System Settings / إعدادات النظام
 - [ConfigGroup](https://dm.namasoft.com/dm-json/ConfigGroup.json): Configuration Group / قائمة إعدادات
-- [ConfigSalaryComponentLine](https://dm.namasoft.com/dm-json/ConfigSalaryComponentLine.json):
+- [ConfigSalaryComponentLine](https://dm.namasoft.com/dm-json/ConfigSalaryComponentLine.json)
 - [ConsolidatedPVRequest](https://dm.namasoft.com/dm-json/ConsolidatedPVRequest.json): Consolidated PV Request / طلب صرف مجمع
 - [ConsolidatedPurchaseReq](https://dm.namasoft.com/dm-json/ConsolidatedPurchaseReq.json): Consolidated Purchase Request / طلب شراء مجمع
 - [ConsolidatedRVRequest](https://dm.namasoft.com/dm-json/ConsolidatedRVRequest.json): Consolidate Receipt Voucher Request / طلب قبض مجمع
-- [ContPaymentTransactionEntry](https://dm.namasoft.com/dm-json/ContPaymentTransactionEntry.json):
+- [ContPaymentTransactionEntry](https://dm.namasoft.com/dm-json/ContPaymentTransactionEntry.json)
 - [Contact](https://dm.namasoft.com/dm-json/Contact.json): جهة إتصال
-- [ContactInfoEntry](https://dm.namasoft.com/dm-json/ContactInfoEntry.json):
-- [ContrCostExecutionEntry](https://dm.namasoft.com/dm-json/ContrCostExecutionEntry.json):
-- [ContrDocToGenerateFPFrom](https://dm.namasoft.com/dm-json/ContrDocToGenerateFPFrom.json):
+- [ContactInfoEntry](https://dm.namasoft.com/dm-json/ContactInfoEntry.json)
+- [ContrCostExecutionEntry](https://dm.namasoft.com/dm-json/ContrCostExecutionEntry.json)
+- [ContrDocToGenerateFPFrom](https://dm.namasoft.com/dm-json/ContrDocToGenerateFPFrom.json)
 - [ContrEmployeeEquipInvoice](https://dm.namasoft.com/dm-json/ContrEmployeeEquipInvoice.json): Contracting Employee And Equipment Issue Invoice / فاتورة صرف عمالة ومعدات
 - [ContrEmployeeEquipmentAlloc](https://dm.namasoft.com/dm-json/ContrEmployeeEquipmentAlloc.json): Employee And Equipments Project Allocation / تسكين موظفين ومعدات على مشروع
 - [ContrEmployeeEquipmentCost](https://dm.namasoft.com/dm-json/ContrEmployeeEquipmentCost.json): Employee And Equipment Project Cost Distribution / توزيع تكاليف الموظفين والمعدات على المشاريع
-- [ContrInvoicePaymentLine](https://dm.namasoft.com/dm-json/ContrInvoicePaymentLine.json):
-- [ContrMatIssueStatusEntry](https://dm.namasoft.com/dm-json/ContrMatIssueStatusEntry.json):
-- [ContrMaterialDiscountEntry](https://dm.namasoft.com/dm-json/ContrMaterialDiscountEntry.json):
-- [ContrOrderPaymentLine](https://dm.namasoft.com/dm-json/ContrOrderPaymentLine.json):
+- [ContrInvoicePaymentLine](https://dm.namasoft.com/dm-json/ContrInvoicePaymentLine.json)
+- [ContrMatIssueStatusEntry](https://dm.namasoft.com/dm-json/ContrMatIssueStatusEntry.json)
+- [ContrMaterialDiscountEntry](https://dm.namasoft.com/dm-json/ContrMaterialDiscountEntry.json)
+- [ContrOrderPaymentLine](https://dm.namasoft.com/dm-json/ContrOrderPaymentLine.json)
 - [ContrTermCategory](https://dm.namasoft.com/dm-json/ContrTermCategory.json): Term Category / تصنيف بند مقاولة
 - [ContrTermCategory2](https://dm.namasoft.com/dm-json/ContrTermCategory2.json): Term Category 2 / تصنيف بند مقاولة 2
 - [ContrWorkArea](https://dm.namasoft.com/dm-json/ContrWorkArea.json): Work Area / منطقة عمل مقاولات
@@ -325,24 +325,24 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [ContractingCondition](https://dm.namasoft.com/dm-json/ContractingCondition.json): Contracting Condition / شرط قياسي
 - [ContractingConditionsGroup](https://dm.namasoft.com/dm-json/ContractingConditionsGroup.json): Standard Conditions Group / مجموعة الشروط القياسية
 - [ContractingCostExecution](https://dm.namasoft.com/dm-json/ContractingCostExecution.json): Contracting Cost Execution / حصر تكاليف مقاولات
-- [ContractingCostSalaryComponents](https://dm.namasoft.com/dm-json/ContractingCostSalaryComponents.json):
-- [ContractingCostSourceEntry](https://dm.namasoft.com/dm-json/ContractingCostSourceEntry.json):
+- [ContractingCostSalaryComponents](https://dm.namasoft.com/dm-json/ContractingCostSalaryComponents.json)
+- [ContractingCostSourceEntry](https://dm.namasoft.com/dm-json/ContractingCostSourceEntry.json)
 - [ContractingDirectCost](https://dm.namasoft.com/dm-json/ContractingDirectCost.json): Contracting Direct Cost / بند تكلفة مقاولات
-- [ContractingEstateCostEntry](https://dm.namasoft.com/dm-json/ContractingEstateCostEntry.json):
+- [ContractingEstateCostEntry](https://dm.namasoft.com/dm-json/ContractingEstateCostEntry.json)
 - [ContractingEstimatedBudget](https://dm.namasoft.com/dm-json/ContractingEstimatedBudget.json): Contracting Estimated Budget / موازنة مقاولات تقديرية
 - [ContractingExecutiveBudget](https://dm.namasoft.com/dm-json/ContractingExecutiveBudget.json): Contracting Executive Budget / موازنة مقاولات تنفيذية
-- [ContractingFineEntry](https://dm.namasoft.com/dm-json/ContractingFineEntry.json):
+- [ContractingFineEntry](https://dm.namasoft.com/dm-json/ContractingFineEntry.json)
 - [ContractingFineReason](https://dm.namasoft.com/dm-json/ContractingFineReason.json): Contracting Fine Reason / سبب غرامة مقاولات
 - [ContractingJobOrder](https://dm.namasoft.com/dm-json/ContractingJobOrder.json): Contracting Job Order / أمر شغل مقاولات
 - [ContractingMaterialIssue](https://dm.namasoft.com/dm-json/ContractingMaterialIssue.json): Contracting Material Issue / صرف خامات مقاولات
 - [ContractingMaterialIssueReq](https://dm.namasoft.com/dm-json/ContractingMaterialIssueReq.json): Contracting Material Issue Req / طلب صرف خامات مقاولات
 - [ContractingMaterialReturn](https://dm.namasoft.com/dm-json/ContractingMaterialReturn.json): Contracting Material Return / رد خامات مقاولات
 - [ContractingOffer](https://dm.namasoft.com/dm-json/ContractingOffer.json): Contracting Offer / عرض سعرالمقاولات
-- [ContractingPaymentRootEntry](https://dm.namasoft.com/dm-json/ContractingPaymentRootEntry.json):
+- [ContractingPaymentRootEntry](https://dm.namasoft.com/dm-json/ContractingPaymentRootEntry.json)
 - [ContractingPhase](https://dm.namasoft.com/dm-json/ContractingPhase.json): Contracting Phase / مرحلة مقاولة
 - [ContractingPhasesGroup](https://dm.namasoft.com/dm-json/ContractingPhasesGroup.json): Phases Group / مجموعة مراحل
 - [ContractingPriceList](https://dm.namasoft.com/dm-json/ContractingPriceList.json): Contracting Price list / قائمة أسعار المقاولات
-- [ContractingPriceListSysLine](https://dm.namasoft.com/dm-json/ContractingPriceListSysLine.json):
+- [ContractingPriceListSysLine](https://dm.namasoft.com/dm-json/ContractingPriceListSysLine.json)
 - [ContractingPurchaseOrder](https://dm.namasoft.com/dm-json/ContractingPurchaseOrder.json): Contractor Purchase Order / أمر شراء مقاولات
 - [ContractingPurchaseRequest](https://dm.namasoft.com/dm-json/ContractingPurchaseRequest.json): Contracting Purchase Request / طلب شراء مقاولات
 - [ContractingStandardTerm](https://dm.namasoft.com/dm-json/ContractingStandardTerm.json): Standard Term / بند قياسي
@@ -364,14 +364,14 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [ContractorOtherPayment](https://dm.namasoft.com/dm-json/ContractorOtherPayment.json): Contractor Other Payment / دفعة مقاول باطن أخرى
 - [CostInTrans](https://dm.namasoft.com/dm-json/CostInTrans.json): Cost Transaction / قيد تكاليف الاستلام
 - [CostOutTrans](https://dm.namasoft.com/dm-json/CostOutTrans.json):  Cost Transaction / قيد تكاليف الصرف
-- [CostOverdraftLine](https://dm.namasoft.com/dm-json/CostOverdraftLine.json):
-- [CostReturnReservation](https://dm.namasoft.com/dm-json/CostReturnReservation.json):
+- [CostOverdraftLine](https://dm.namasoft.com/dm-json/CostOverdraftLine.json)
+- [CostReturnReservation](https://dm.namasoft.com/dm-json/CostReturnReservation.json)
 - [CostRevaluation](https://dm.namasoft.com/dm-json/CostRevaluation.json): Cost Revaluation / إعادة تقييم المخزون
 - [CouponsSalesOrder](https://dm.namasoft.com/dm-json/CouponsSalesOrder.json): Coupons Sales Order / أمر بيع قسائم
 - [CouponsSalesOrderReturn](https://dm.namasoft.com/dm-json/CouponsSalesOrderReturn.json): Coupons Sales Order Return / مردود أمر بيع قسائم
 - [CourseEnrollment](https://dm.namasoft.com/dm-json/CourseEnrollment.json): Course Enrollment / تسجيل المتدربين بدورة
 - [CourseEvaluation](https://dm.namasoft.com/dm-json/CourseEvaluation.json): Course Evaluation / تقييم دورة تدريبية
-- [CouseSkillResult](https://dm.namasoft.com/dm-json/CouseSkillResult.json):
+- [CouseSkillResult](https://dm.namasoft.com/dm-json/CouseSkillResult.json)
 - [CreditFacility](https://dm.namasoft.com/dm-json/CreditFacility.json): Credit Facility / تسهيل ائتمانى
 - [CreditFacilityIssuance](https://dm.namasoft.com/dm-json/CreditFacilityIssuance.json): Credit Facility Issuance / إصدار تسهيل ائتمانى
 - [CreditFacilityPayEntry](https://dm.namasoft.com/dm-json/CreditFacilityPayEntry.json): Credit Facility Payment Entry / الجدول النظامى لسداد التسهيل الائتمانى
@@ -383,7 +383,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [CriteriaDefinition](https://dm.namasoft.com/dm-json/CriteriaDefinition.json): Criteria Definition / تعريف معايير
 - [Currency](https://dm.namasoft.com/dm-json/Currency.json): عملة
 - [CurrencyDiffJournal](https://dm.namasoft.com/dm-json/CurrencyDiffJournal.json): Currency Diff Journal / سند قيد فرق عملة
-- [CustodySysLine](https://dm.namasoft.com/dm-json/CustodySysLine.json):
+- [CustodySysLine](https://dm.namasoft.com/dm-json/CustodySysLine.json)
 - [CustodyType](https://dm.namasoft.com/dm-json/CustodyType.json):  Custody Type /  نوع العهدة
 - [CustomListView](https://dm.namasoft.com/dm-json/CustomListView.json): Custom List View / عرض قائمة مخصصة
 - [CustomReportMenu](https://dm.namasoft.com/dm-json/CustomReportMenu.json): Custom Report Menu / قائمة تقارير مخصصة
@@ -395,25 +395,25 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [CustomerClass3](https://dm.namasoft.com/dm-json/CustomerClass3.json): Customers' Class 3 / فئة عميل 3
 - [CustomerClass4](https://dm.namasoft.com/dm-json/CustomerClass4.json): Customers' Class 4 / فئة عميل 4
 - [CustomerClass5](https://dm.namasoft.com/dm-json/CustomerClass5.json): Customers' Class 5 / فئة عميل 5
-- [CustomerKeywordTemplateLine](https://dm.namasoft.com/dm-json/CustomerKeywordTemplateLine.json):
+- [CustomerKeywordTemplateLine](https://dm.namasoft.com/dm-json/CustomerKeywordTemplateLine.json)
 - [CustomerSubmittal](https://dm.namasoft.com/dm-json/CustomerSubmittal.json): Customer Submittal / اعتماد العميل للصنف
-- [CustomerTransEntry](https://dm.namasoft.com/dm-json/CustomerTransEntry.json):
+- [CustomerTransEntry](https://dm.namasoft.com/dm-json/CustomerTransEntry.json)
 - [CustomersReqsShortageDoc](https://dm.namasoft.com/dm-json/CustomersReqsShortageDoc.json): Customers Requests Shortage Document / مستند نواقص طلبات العملاء
 - [DLVDeliveryArea](https://dm.namasoft.com/dm-json/DLVDeliveryArea.json): Shipment Delivery Area / منطقة توصيل شحنات
 - [DLVDeliveryConfig](https://dm.namasoft.com/dm-json/DLVDeliveryConfig.json): Shipment Delivery Config / إعدادات توصيل شحنات
 - [DLVDeliveryDocument](https://dm.namasoft.com/dm-json/DLVDeliveryDocument.json): Shipment Delivery  Document / سند توصيل شحنات
-- [DLVDeliveryEntry](https://dm.namasoft.com/dm-json/DLVDeliveryEntry.json):
+- [DLVDeliveryEntry](https://dm.namasoft.com/dm-json/DLVDeliveryEntry.json)
 - [DLVDeliveryPlan](https://dm.namasoft.com/dm-json/DLVDeliveryPlan.json): Shipment Delivery Plan / خطة توصيل شحنات
 - [DLVDeliveryReturn](https://dm.namasoft.com/dm-json/DLVDeliveryReturn.json): Delivery Return / مستند مرتجع توصيل
-- [DLVDeliveryStatusEventLine](https://dm.namasoft.com/dm-json/DLVDeliveryStatusEventLine.json):
-- [DLVDeliveryTransaction](https://dm.namasoft.com/dm-json/DLVDeliveryTransaction.json):
+- [DLVDeliveryStatusEventLine](https://dm.namasoft.com/dm-json/DLVDeliveryStatusEventLine.json)
+- [DLVDeliveryTransaction](https://dm.namasoft.com/dm-json/DLVDeliveryTransaction.json)
 - [DLVDriverCarAreaAssignment](https://dm.namasoft.com/dm-json/DLVDriverCarAreaAssignment.json): DLV Driver Car Area Assignments / مستند تسكين سائق و سيارة توصيل على منطقة توصيل
 - [DMSCompressedFileToDocs](https://dm.namasoft.com/dm-json/DMSCompressedFileToDocs.json): Compressed File To DMS Document / ملف مضغوط إلى مستندات أرشيفية
 - [DMSDocMovement](https://dm.namasoft.com/dm-json/DMSDocMovement.json): Document Movement / حركة المستند
 - [DMSDocument](https://dm.namasoft.com/dm-json/DMSDocument.json): DMS Document / مستند أرشيفي
 - [DMSFolder](https://dm.namasoft.com/dm-json/DMSFolder.json): DMS Folder / مجلد
 - [DMSFolderMovement](https://dm.namasoft.com/dm-json/DMSFolderMovement.json): Folder Movement / حركة المجلد
-- [DMSHistoryLine](https://dm.namasoft.com/dm-json/DMSHistoryLine.json):
+- [DMSHistoryLine](https://dm.namasoft.com/dm-json/DMSHistoryLine.json)
 - [DMSLocation](https://dm.namasoft.com/dm-json/DMSLocation.json): DMS Location / أرشيف
 - [DMSTopic](https://dm.namasoft.com/dm-json/DMSTopic.json): Document Management System Topic / موضوع المستند
 - [DailyEngineeringDoings](https://dm.namasoft.com/dm-json/DailyEngineeringDoings.json): Daily Engineering Doing / مستند الأعمال الهندسية اليومية
@@ -425,13 +425,13 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [DashBoardWidgetWizard](https://dm.namasoft.com/dm-json/DashBoardWidgetWizard.json): Dashboard Widget Wizard / أداة إنشاء عنصر لوحة
 - [DataSource](https://dm.namasoft.com/dm-json/DataSource.json): Data Source / مصدر بيانات
 - [DatabaseCleaner](https://dm.namasoft.com/dm-json/DatabaseCleaner.json): Database Cleaner / تفريغ البيانات
-- [DatabaseCleanerFailureEntry](https://dm.namasoft.com/dm-json/DatabaseCleanerFailureEntry.json):
-- [DatanuumRequestLog](https://dm.namasoft.com/dm-json/DatanuumRequestLog.json):
+- [DatabaseCleanerFailureEntry](https://dm.namasoft.com/dm-json/DatabaseCleanerFailureEntry.json)
+- [DatanuumRequestLog](https://dm.namasoft.com/dm-json/DatanuumRequestLog.json)
 - [DatesOverrider](https://dm.namasoft.com/dm-json/DatesOverrider.json): Dates Overrider / تغيير التواريخ
-- [DayTicketEntry](https://dm.namasoft.com/dm-json/DayTicketEntry.json):
+- [DayTicketEntry](https://dm.namasoft.com/dm-json/DayTicketEntry.json)
 - [DebitNote](https://dm.namasoft.com/dm-json/DebitNote.json): إشعار مدين
-- [DebtLine](https://dm.namasoft.com/dm-json/DebtLine.json):
-- [DebtLineMatcher](https://dm.namasoft.com/dm-json/DebtLineMatcher.json):
+- [DebtLine](https://dm.namasoft.com/dm-json/DebtLine.json)
+- [DebtLineMatcher](https://dm.namasoft.com/dm-json/DebtLineMatcher.json)
 - [DefaultValuesTemplate](https://dm.namasoft.com/dm-json/DefaultValuesTemplate.json): Default Values Template / قالب قيم افتراضية
 - [Delegation](https://dm.namasoft.com/dm-json/Delegation.json): تفويض
 - [DeliveryCancellationDoc](https://dm.namasoft.com/dm-json/DeliveryCancellationDoc.json): Delivery Cancellation Document / سند إلغاء توصيل
@@ -439,39 +439,39 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [DeliveryConfiguration](https://dm.namasoft.com/dm-json/DeliveryConfiguration.json): Delivery Configuration File / ملف إعدادات التوصيل
 - [DeliveryDocument](https://dm.namasoft.com/dm-json/DeliveryDocument.json): Delivery Document / سند توصيل
 - [DeliveryDriverConfig](https://dm.namasoft.com/dm-json/DeliveryDriverConfig.json): Delivery Driver Configuration File / ملف إعدادات السائقين
-- [DeliveryDriverTotal](https://dm.namasoft.com/dm-json/DeliveryDriverTotal.json):
-- [DeliveryDriverTransaction](https://dm.namasoft.com/dm-json/DeliveryDriverTransaction.json):
+- [DeliveryDriverTotal](https://dm.namasoft.com/dm-json/DeliveryDriverTotal.json)
+- [DeliveryDriverTransaction](https://dm.namasoft.com/dm-json/DeliveryDriverTransaction.json)
 - [DeliveryNumber](https://dm.namasoft.com/dm-json/DeliveryNumber.json): Delivery Number / مخالصة
 - [DeliveryOrganization](https://dm.namasoft.com/dm-json/DeliveryOrganization.json): Delivery Organization File / منظمة التوصيل للسائقين
 - [DeliveryQueue](https://dm.namasoft.com/dm-json/DeliveryQueue.json): Delivery Queue / طابور تسليم
 - [DeliveryQueueConfiguration](https://dm.namasoft.com/dm-json/DeliveryQueueConfiguration.json): Delivery Queue Configuration / ملف إعدادات طابور التسليم
-- [DeliveryQueueEntry](https://dm.namasoft.com/dm-json/DeliveryQueueEntry.json):
-- [DeliveryStatusEventLine](https://dm.namasoft.com/dm-json/DeliveryStatusEventLine.json):
-- [DeliverySysEntry](https://dm.namasoft.com/dm-json/DeliverySysEntry.json):
-- [DeliveryTransactionEntry](https://dm.namasoft.com/dm-json/DeliveryTransactionEntry.json):
+- [DeliveryQueueEntry](https://dm.namasoft.com/dm-json/DeliveryQueueEntry.json)
+- [DeliveryStatusEventLine](https://dm.namasoft.com/dm-json/DeliveryStatusEventLine.json)
+- [DeliverySysEntry](https://dm.namasoft.com/dm-json/DeliverySysEntry.json)
+- [DeliveryTransactionEntry](https://dm.namasoft.com/dm-json/DeliveryTransactionEntry.json)
 - [Department](https://dm.namasoft.com/dm-json/Department.json): إدارة
-- [DepartmentParentLine](https://dm.namasoft.com/dm-json/DepartmentParentLine.json):
+- [DepartmentParentLine](https://dm.namasoft.com/dm-json/DepartmentParentLine.json)
 - [DepartmentSection](https://dm.namasoft.com/dm-json/DepartmentSection.json):  Department Section /  القسم الوظيفي
 - [DetailedRemark](https://dm.namasoft.com/dm-json/DetailedRemark.json): Detailed Remark / ملحوظة مفصلة
 - [DiggingBackFilingCheckList](https://dm.namasoft.com/dm-json/DiggingBackFilingCheckList.json): Digging And BackFiling CheckList
-- [DimensionsBalance](https://dm.namasoft.com/dm-json/DimensionsBalance.json):
+- [DimensionsBalance](https://dm.namasoft.com/dm-json/DimensionsBalance.json)
 - [DiscountCoupon](https://dm.namasoft.com/dm-json/DiscountCoupon.json): Discount Coupon / قسيمة خصومات
 - [DiscountCouponBook](https://dm.namasoft.com/dm-json/DiscountCouponBook.json): Discount Coupon Book / دفتر قسيمة خصومات
 - [DiscountCouponType](https://dm.namasoft.com/dm-json/DiscountCouponType.json): DiscountCoupon Type / نوع قسيمة خصومات
-- [DiscountSysLine](https://dm.namasoft.com/dm-json/DiscountSysLine.json):
+- [DiscountSysLine](https://dm.namasoft.com/dm-json/DiscountSysLine.json)
 - [DiscountUpdate](https://dm.namasoft.com/dm-json/DiscountUpdate.json): Discount Update / تعديل الخصومات
 - [DiscountsReCalcDocument](https://dm.namasoft.com/dm-json/DiscountsReCalcDocument.json): Discounts Recalculation / أعادة حساب الخصومات
-- [DiscussionRecord](https://dm.namasoft.com/dm-json/DiscussionRecord.json):
-- [DistributeContractingCostOnRealEstateTask](https://dm.namasoft.com/dm-json/DistributeContractingCostOnRealEstateTask.json):
+- [DiscussionRecord](https://dm.namasoft.com/dm-json/DiscussionRecord.json)
+- [DistributeContractingCostOnRealEstateTask](https://dm.namasoft.com/dm-json/DistributeContractingCostOnRealEstateTask.json)
 - [DocCategory](https://dm.namasoft.com/dm-json/DocCategory.json): Record Category / تصنيف سجل
-- [DocToCreateFPLine](https://dm.namasoft.com/dm-json/DocToCreateFPLine.json):
-- [DocToGenerateFPFrom](https://dm.namasoft.com/dm-json/DocToGenerateFPFrom.json):
-- [DocsToPayFromPosEntry](https://dm.namasoft.com/dm-json/DocsToPayFromPosEntry.json):
-- [DocsToPayFromPosTransaction](https://dm.namasoft.com/dm-json/DocsToPayFromPosTransaction.json):
+- [DocToCreateFPLine](https://dm.namasoft.com/dm-json/DocToCreateFPLine.json)
+- [DocToGenerateFPFrom](https://dm.namasoft.com/dm-json/DocToGenerateFPFrom.json)
+- [DocsToPayFromPosEntry](https://dm.namasoft.com/dm-json/DocsToPayFromPosEntry.json)
+- [DocsToPayFromPosTransaction](https://dm.namasoft.com/dm-json/DocsToPayFromPosTransaction.json)
 - [DocumentBook](https://dm.namasoft.com/dm-json/DocumentBook.json): Document Book / دفتر مستند
 - [DocumentCancelDocument](https://dm.namasoft.com/dm-json/DocumentCancelDocument.json): Document Cancel Document / مستند إلغاء مستند
 - [DocumentTerm](https://dm.namasoft.com/dm-json/DocumentTerm.json): Document Term / توجيه مستند
-- [DraftSequenceEntity](https://dm.namasoft.com/dm-json/DraftSequenceEntity.json):
+- [DraftSequenceEntity](https://dm.namasoft.com/dm-json/DraftSequenceEntity.json)
 - [DuesLiquidationComponent](https://dm.namasoft.com/dm-json/DuesLiquidationComponent.json): Liquidation Component / مكون التصفية
 - [DuesLiquidationDoc](https://dm.namasoft.com/dm-json/DuesLiquidationDoc.json): Dues Liquidation Document / مستند تصفية مستحقات
 - [EDAttendance](https://dm.namasoft.com/dm-json/EDAttendance.json): Education Attendance / الحضور / الإنصراف الدراسي
@@ -504,28 +504,28 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [EDStudentInfoUpdater](https://dm.namasoft.com/dm-json/EDStudentInfoUpdater.json): Update Student Information / تحديث بيانات الطالب
 - [EDSubLevel](https://dm.namasoft.com/dm-json/EDSubLevel.json): Sub Level / المستوى الفرعي
 - [EInvoiceNotificationReceiver](https://dm.namasoft.com/dm-json/EInvoiceNotificationReceiver.json): E Invoice Notification Receiver
-- [EInvoiceReceivedEventEntry](https://dm.namasoft.com/dm-json/EInvoiceReceivedEventEntry.json):
-- [EInvoiceSubmissionEntry](https://dm.namasoft.com/dm-json/EInvoiceSubmissionEntry.json):
-- [EReceiptSubmissionSysEntry](https://dm.namasoft.com/dm-json/EReceiptSubmissionSysEntry.json):
-- [EcommerceAppRegistryEntry](https://dm.namasoft.com/dm-json/EcommerceAppRegistryEntry.json):
+- [EInvoiceReceivedEventEntry](https://dm.namasoft.com/dm-json/EInvoiceReceivedEventEntry.json)
+- [EInvoiceSubmissionEntry](https://dm.namasoft.com/dm-json/EInvoiceSubmissionEntry.json)
+- [EReceiptSubmissionSysEntry](https://dm.namasoft.com/dm-json/EReceiptSubmissionSysEntry.json)
+- [EcommerceAppRegistryEntry](https://dm.namasoft.com/dm-json/EcommerceAppRegistryEntry.json)
 - [EcommerceCategoryConfig](https://dm.namasoft.com/dm-json/EcommerceCategoryConfig.json): Ecommerce Category Configuration / Ecommerce Category Config
 - [EcommerceProductConfig](https://dm.namasoft.com/dm-json/EcommerceProductConfig.json): Ecommerce Product Configuration / إعدادات منتج بالمتجر الالكتروني
-- [EcommerceShippingEventLogEntry](https://dm.namasoft.com/dm-json/EcommerceShippingEventLogEntry.json):
+- [EcommerceShippingEventLogEntry](https://dm.namasoft.com/dm-json/EcommerceShippingEventLogEntry.json)
 - [EcommerceShippingSite](https://dm.namasoft.com/dm-json/EcommerceShippingSite.json): Ecommerce Shipping Site / موقع شحن الكتروني
-- [EcommerceWebhookEventProcessReq](https://dm.namasoft.com/dm-json/EcommerceWebhookEventProcessReq.json):
+- [EcommerceWebhookEventProcessReq](https://dm.namasoft.com/dm-json/EcommerceWebhookEventProcessReq.json)
 - [EcommerceWebhookRedirect](https://dm.namasoft.com/dm-json/EcommerceWebhookRedirect.json): Ecommerce Webhook Redirect
-- [EffectsUnitCostConfigLine](https://dm.namasoft.com/dm-json/EffectsUnitCostConfigLine.json):
+- [EffectsUnitCostConfigLine](https://dm.namasoft.com/dm-json/EffectsUnitCostConfigLine.json)
 - [ElecAttendanceAllowedZone](https://dm.namasoft.com/dm-json/ElecAttendanceAllowedZone.json): Electronic Attendance Allowed Zone Document / مستند تحديد مناطق الحضور الإلكتروني
 - [ElecAttendanceConfig](https://dm.namasoft.com/dm-json/ElecAttendanceConfig.json): ُElectronic Attendance Configuration / إعدادات الحضور الالكتروني
 - [ElectronicAttendance](https://dm.namasoft.com/dm-json/ElectronicAttendance.json): Electronic Attendance / حضور إلكتروني
 - [ElectronicAttendanceZone](https://dm.namasoft.com/dm-json/ElectronicAttendanceZone.json): Electronic Attendance Zone / منطقة حضور إلكتروني
 - [ElectronicAttendanceZonesExclusion](https://dm.namasoft.com/dm-json/ElectronicAttendanceZonesExclusion.json): Electronic Attendance Zones Exclusion / استثناء من مناطق الحضور و الانصراف
 - [ElectronicReceiptVoucher](https://dm.namasoft.com/dm-json/ElectronicReceiptVoucher.json): Electronic Receipt Voucher / سند قبض إلكتروني
-- [EmpAttendanceSysLine](https://dm.namasoft.com/dm-json/EmpAttendanceSysLine.json):
-- [EmpCommencementEntry](https://dm.namasoft.com/dm-json/EmpCommencementEntry.json):
+- [EmpAttendanceSysLine](https://dm.namasoft.com/dm-json/EmpAttendanceSysLine.json)
+- [EmpCommencementEntry](https://dm.namasoft.com/dm-json/EmpCommencementEntry.json)
 - [EmpHealthInsurDelete](https://dm.namasoft.com/dm-json/EmpHealthInsurDelete.json): Employee Health Insurance Delete / سند حذف تأمين موظف
 - [EmpHealthInsurDeleteReq](https://dm.namasoft.com/dm-json/EmpHealthInsurDeleteReq.json): Employee Health Insurance Delete Request / طلب حذف تأمين موظف
-- [EmpProvisionsRecalcTermLine](https://dm.namasoft.com/dm-json/EmpProvisionsRecalcTermLine.json):
+- [EmpProvisionsRecalcTermLine](https://dm.namasoft.com/dm-json/EmpProvisionsRecalcTermLine.json)
 - [EmpWorkPlace](https://dm.namasoft.com/dm-json/EmpWorkPlace.json): Employee Work Place / مكان عمل
 - [Employee](https://dm.namasoft.com/dm-json/Employee.json): موظف
 - [EmployeeAgenda](https://dm.namasoft.com/dm-json/EmployeeAgenda.json): Employee Agenda / أجندة موظف
@@ -540,21 +540,21 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [EmployeeProvisionsRecalc](https://dm.namasoft.com/dm-json/EmployeeProvisionsRecalc.json): Employee Provisions Recalculation Document / سند إعادة احتساب مخصصات موظف
 - [EmployeeRelocate](https://dm.namasoft.com/dm-json/EmployeeRelocate.json): Employee Relocate / سند نقل موظف
 - [EmployeeRelocateRequest](https://dm.namasoft.com/dm-json/EmployeeRelocateRequest.json): Employee Relocate Request / طلب نقل موظف
-- [EmployeeStateSysEntry](https://dm.namasoft.com/dm-json/EmployeeStateSysEntry.json):
+- [EmployeeStateSysEntry](https://dm.namasoft.com/dm-json/EmployeeStateSysEntry.json)
 - [EmployementInformation](https://dm.namasoft.com/dm-json/EmployementInformation.json): Employement Information / بيان توظيف
 - [EndStockTaking](https://dm.namasoft.com/dm-json/EndStockTaking.json): End Stock Taking / نهاية الجرد
-- [EndStockTakingLineForList](https://dm.namasoft.com/dm-json/EndStockTakingLineForList.json):
+- [EndStockTakingLineForList](https://dm.namasoft.com/dm-json/EndStockTakingLineForList.json)
 - [EndStockTakingTask](https://dm.namasoft.com/dm-json/EndStockTakingTask.json): End Stock Taking Tasks
 - [EndTrainingCourse](https://dm.namasoft.com/dm-json/EndTrainingCourse.json): End Training Course / إنهاء دورة تدريبية
-- [EntityEffectLine](https://dm.namasoft.com/dm-json/EntityEffectLine.json):
+- [EntityEffectLine](https://dm.namasoft.com/dm-json/EntityEffectLine.json)
 - [EntityFlow](https://dm.namasoft.com/dm-json/EntityFlow.json): Entity Flow / مسار الكيان
 - [EntityHelp](https://dm.namasoft.com/dm-json/EntityHelp.json): Entity Help / ملف مساعدة
-- [EntitySystemEntry](https://dm.namasoft.com/dm-json/EntitySystemEntry.json):
+- [EntitySystemEntry](https://dm.namasoft.com/dm-json/EntitySystemEntry.json)
 - [EntityTypeList](https://dm.namasoft.com/dm-json/EntityTypeList.json): EntityType List / قائمة أنواع
-- [EntityTypeSysLine](https://dm.namasoft.com/dm-json/EntityTypeSysLine.json):
-- [EntityValidationLine](https://dm.namasoft.com/dm-json/EntityValidationLine.json):
-- [EntityVersion](https://dm.namasoft.com/dm-json/EntityVersion.json):
-- [EntityWithCriteriaLine](https://dm.namasoft.com/dm-json/EntityWithCriteriaLine.json):
+- [EntityTypeSysLine](https://dm.namasoft.com/dm-json/EntityTypeSysLine.json)
+- [EntityValidationLine](https://dm.namasoft.com/dm-json/EntityValidationLine.json)
+- [EntityVersion](https://dm.namasoft.com/dm-json/EntityVersion.json)
+- [EntityWithCriteriaLine](https://dm.namasoft.com/dm-json/EntityWithCriteriaLine.json)
 - [EquipmentStatementDoc](https://dm.namasoft.com/dm-json/EquipmentStatementDoc.json): Equipment Statement Document / مستند بيان معدات
 - [ErrorMessage](https://dm.namasoft.com/dm-json/ErrorMessage.json): Error Message / رسالة خطأ
 - [EstimatedAudienceCost](https://dm.namasoft.com/dm-json/EstimatedAudienceCost.json): Estimated Audience Cost / تكلفة جمهور المشاركين التقديرية
@@ -565,10 +565,10 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [EvaluationElementsGroup](https://dm.namasoft.com/dm-json/EvaluationElementsGroup.json): Evaluation Elements Group / مجموعة نقاط تقييم
 - [ExchangeRate](https://dm.namasoft.com/dm-json/ExchangeRate.json): Exchange Rate / سعر صرف
 - [ExchangeRateUpdate](https://dm.namasoft.com/dm-json/ExchangeRateUpdate.json): Exchange Rate Update / سند تغيير سعر صرف
-- [ExcludedInstallmentsTypes](https://dm.namasoft.com/dm-json/ExcludedInstallmentsTypes.json):
+- [ExcludedInstallmentsTypes](https://dm.namasoft.com/dm-json/ExcludedInstallmentsTypes.json)
 - [ExecutiveBudgetItemRequest](https://dm.namasoft.com/dm-json/ExecutiveBudgetItemRequest.json): Executive Budget Item Request / طلب شراء خامات من الموازنة التنفيذية
 - [ExternalAgency](https://dm.namasoft.com/dm-json/ExternalAgency.json): External Agency / معرض خارجي
-- [ExtractCostSourceEntry](https://dm.namasoft.com/dm-json/ExtractCostSourceEntry.json):
+- [ExtractCostSourceEntry](https://dm.namasoft.com/dm-json/ExtractCostSourceEntry.json)
 - [FAAdditionDeduction](https://dm.namasoft.com/dm-json/FAAdditionDeduction.json): Asset addition deduction / سند الإضافة و الإستبعاد
 - [FACheckListItem](https://dm.namasoft.com/dm-json/FACheckListItem.json): CheckList Items / نقاط اختبار صيانة
 - [FAClassification1](https://dm.namasoft.com/dm-json/FAClassification1.json): Fixed Asset Classification1 / تصنيف أصل ثابت 1
@@ -589,19 +589,19 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [FAFixedAssetsTaking](https://dm.namasoft.com/dm-json/FAFixedAssetsTaking.json): FixedAssets Taking Document / مستند جرد أصول
 - [FAInitialReceipt](https://dm.namasoft.com/dm-json/FAInitialReceipt.json): Fixed Asset Initial Receipt / سند استلام أصل مبدئي
 - [FALCCostDoc](https://dm.namasoft.com/dm-json/FALCCostDoc.json): Fixed Asset Letter of Credit cost / سند تكليف اعتماد أصل
-- [FALCItemExpenseLine](https://dm.namasoft.com/dm-json/FALCItemExpenseLine.json):
+- [FALCItemExpenseLine](https://dm.namasoft.com/dm-json/FALCItemExpenseLine.json)
 - [FALCProformaInvoice](https://dm.namasoft.com/dm-json/FALCProformaInvoice.json): Fixed Asset ProformaInvoice / فاتوره اعتماد مبدئية
-- [FALCScheduledPayLine](https://dm.namasoft.com/dm-json/FALCScheduledPayLine.json):
+- [FALCScheduledPayLine](https://dm.namasoft.com/dm-json/FALCScheduledPayLine.json)
 - [FALcExpenseDocument](https://dm.namasoft.com/dm-json/FALcExpenseDocument.json): Fixed Asset Expense Document / مصروف اعتماد أصل
 - [FALetterOfCredit](https://dm.namasoft.com/dm-json/FALetterOfCredit.json): Fixed asset Letter of Credit / اعتماد أصول
 - [FALocation](https://dm.namasoft.com/dm-json/FALocation.json): Asset Location / موقع أصول
-- [FALocationEntry](https://dm.namasoft.com/dm-json/FALocationEntry.json):
+- [FALocationEntry](https://dm.namasoft.com/dm-json/FALocationEntry.json)
 - [FAMaintenanceCheckList](https://dm.namasoft.com/dm-json/FAMaintenanceCheckList.json): Maintenance CheckList / بنود الصيانة
 - [FAMaintenancePlan](https://dm.namasoft.com/dm-json/FAMaintenancePlan.json): Maintenance plan / خطه الصيانة
 - [FAMaintenanceRecord](https://dm.namasoft.com/dm-json/FAMaintenanceRecord.json): Maintenance Record / سجل صيانة
 - [FAMaintenanceRecordRequest](https://dm.namasoft.com/dm-json/FAMaintenanceRecordRequest.json): Maintenance Record Request / طلب سجل صيانة
 - [FAMaintenanceType](https://dm.namasoft.com/dm-json/FAMaintenanceType.json): Maintenance Type / نوع الصيانة
-- [FAMovementEntry](https://dm.namasoft.com/dm-json/FAMovementEntry.json):
+- [FAMovementEntry](https://dm.namasoft.com/dm-json/FAMovementEntry.json)
 - [FAMovementInDoc](https://dm.namasoft.com/dm-json/FAMovementInDoc.json): Fixed Asset Return Document / سند رجوع أصول
 - [FAMovementOutDoc](https://dm.namasoft.com/dm-json/FAMovementOutDoc.json): Fixed Asset Out Document / سند خروج أصول
 - [FAOpeningDocument](https://dm.namasoft.com/dm-json/FAOpeningDocument.json): Fixed Asset Opening Document / أفتتاح أصل ثابت
@@ -609,15 +609,15 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [FAPartialDisposalDoc](https://dm.namasoft.com/dm-json/FAPartialDisposalDoc.json): Fixed Asset Partial Disposal Document / سند تخلص جزئي من أصل
 - [FAPreventAssetsDeprec](https://dm.namasoft.com/dm-json/FAPreventAssetsDeprec.json): Prevent Assets Depreciation Document / مستند منع اهلاك اصول
 - [FAPropertiesDocument](https://dm.namasoft.com/dm-json/FAPropertiesDocument.json): Fixed Asset Properties / خصائص أصل ثابت
-- [FAPropertiesEntry](https://dm.namasoft.com/dm-json/FAPropertiesEntry.json):
+- [FAPropertiesEntry](https://dm.namasoft.com/dm-json/FAPropertiesEntry.json)
 - [FAPurchaseDocument](https://dm.namasoft.com/dm-json/FAPurchaseDocument.json): Fixed Asset Purchase Document / سند شراء أصل ثابت
 - [FAPurchaseOffer](https://dm.namasoft.com/dm-json/FAPurchaseOffer.json): Fixed Asset Offer / عرض سعر أصل
 - [FAPurchaseOrder](https://dm.namasoft.com/dm-json/FAPurchaseOrder.json): Fixed Asset Purchase Order / أمر شراء أصل
 - [FAPurchaseRequest](https://dm.namasoft.com/dm-json/FAPurchaseRequest.json): Fixed Asset Purchase  Request / طلب  شراء أصل
 - [FAReceiptDoc](https://dm.namasoft.com/dm-json/FAReceiptDoc.json): Fixed Asset Receipt Document / مستند أستلام أصل
-- [FAScheduleTemplateLine](https://dm.namasoft.com/dm-json/FAScheduleTemplateLine.json):
+- [FAScheduleTemplateLine](https://dm.namasoft.com/dm-json/FAScheduleTemplateLine.json)
 - [FATransferDocument](https://dm.namasoft.com/dm-json/FATransferDocument.json): Transfer document / سند نقل الأصل
-- [FATransferEntry](https://dm.namasoft.com/dm-json/FATransferEntry.json):
+- [FATransferEntry](https://dm.namasoft.com/dm-json/FATransferEntry.json)
 - [FATransferRequest](https://dm.namasoft.com/dm-json/FATransferRequest.json): Fixed Asset Transfer Request / طلب نقل أصل
 - [FAType](https://dm.namasoft.com/dm-json/FAType.json): Fixed Asset Type / نوع أصل
 - [FPBook](https://dm.namasoft.com/dm-json/FPBook.json): Commercial Paper Book / دفتر أوراق تجارية
@@ -639,10 +639,10 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [FRMOODelivery](https://dm.namasoft.com/dm-json/FRMOODelivery.json): FRM Operation Order Delivery / مستند تسليم أمر تشغيل
 - [FRMOOReceipt](https://dm.namasoft.com/dm-json/FRMOOReceipt.json): FRM Operation Order Receipt / مستند استلام أمر تشغيل
 - [FRMOOStatus](https://dm.namasoft.com/dm-json/FRMOOStatus.json): FRM Operation Order Status / حالة أمر تشغيل
-- [FRMOOStatusSysEntry](https://dm.namasoft.com/dm-json/FRMOOStatusSysEntry.json):
+- [FRMOOStatusSysEntry](https://dm.namasoft.com/dm-json/FRMOOStatusSysEntry.json)
 - [FRMOOTransfer](https://dm.namasoft.com/dm-json/FRMOOTransfer.json): FRM Operation Order Transfer / مستند نقل أمر تشغيل
 - [FRMOceanVessel](https://dm.namasoft.com/dm-json/FRMOceanVessel.json): Ocean Vessel / سفينة بحرية
-- [FRMOpUnInvoicedLine](https://dm.namasoft.com/dm-json/FRMOpUnInvoicedLine.json):
+- [FRMOpUnInvoicedLine](https://dm.namasoft.com/dm-json/FRMOpUnInvoicedLine.json)
 - [FRMOperationOrder](https://dm.namasoft.com/dm-json/FRMOperationOrder.json): FRM Operation Order / أمر تشغيل
 - [FRMPPriceListElement](https://dm.namasoft.com/dm-json/FRMPPriceListElement.json): Purchase Price Lists Element / عنصر قوائم أسعار شراء
 - [FRMPurchaseInvoice](https://dm.namasoft.com/dm-json/FRMPurchaseInvoice.json): FRM Purchase Invoice / فاتورة مشتريات خدمة
@@ -656,7 +656,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [FRMSalesReturn](https://dm.namasoft.com/dm-json/FRMSalesReturn.json): FRM Sales Return / مردود مبيعات خدمة
 - [FRMServiceItem](https://dm.namasoft.com/dm-json/FRMServiceItem.json): Service Item / بند خدمة
 - [FRMShippingType](https://dm.namasoft.com/dm-json/FRMShippingType.json): Shipping Type / نوع شحن
-- [FRMStorageTransEntry](https://dm.namasoft.com/dm-json/FRMStorageTransEntry.json):
+- [FRMStorageTransEntry](https://dm.namasoft.com/dm-json/FRMStorageTransEntry.json)
 - [FRMUOM](https://dm.namasoft.com/dm-json/FRMUOM.json): FRM UOM / وحدة شحن
 - [FSAccountGroup](https://dm.namasoft.com/dm-json/FSAccountGroup.json): FS Account Group / مجموعة حساب
 - [FSEquation](https://dm.namasoft.com/dm-json/FSEquation.json): FS Equation / معادلة
@@ -665,13 +665,13 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [FSSettingsFile](https://dm.namasoft.com/dm-json/FSSettingsFile.json): FS Settings File / إعدادات قائمة مالية
 - [FacilityLimit](https://dm.namasoft.com/dm-json/FacilityLimit.json): Facility Limit / حد التسهيلات
 - [FacilityLimitConfig](https://dm.namasoft.com/dm-json/FacilityLimitConfig.json): Facility Limit Config / إعدادات حد التسهيلات
-- [FacilityLimitSysEntry](https://dm.namasoft.com/dm-json/FacilityLimitSysEntry.json):
-- [FailedReplicationMessage](https://dm.namasoft.com/dm-json/FailedReplicationMessage.json):
+- [FacilityLimitSysEntry](https://dm.namasoft.com/dm-json/FacilityLimitSysEntry.json)
+- [FailedReplicationMessage](https://dm.namasoft.com/dm-json/FailedReplicationMessage.json)
 - [FeatureSet](https://dm.namasoft.com/dm-json/FeatureSet.json): Feature Set / مجموعة مميزات
-- [FieldDetailedAudit](https://dm.namasoft.com/dm-json/FieldDetailedAudit.json):
+- [FieldDetailedAudit](https://dm.namasoft.com/dm-json/FieldDetailedAudit.json)
 - [FieldFiltering](https://dm.namasoft.com/dm-json/FieldFiltering.json): Field Filtering / فلترة الحقول
-- [FieldHelpLine](https://dm.namasoft.com/dm-json/FieldHelpLine.json):
-- [FifoCostMatcher](https://dm.namasoft.com/dm-json/FifoCostMatcher.json):
+- [FieldHelpLine](https://dm.namasoft.com/dm-json/FieldHelpLine.json)
+- [FifoCostMatcher](https://dm.namasoft.com/dm-json/FifoCostMatcher.json)
 - [FifoCostTrans](https://dm.namasoft.com/dm-json/FifoCostTrans.json): Fifo Cost Trans / قيد تكاليف فيفو
 - [FilesExportMenu](https://dm.namasoft.com/dm-json/FilesExportMenu.json): Files Export / Import Menu / قائمة تصدير / استيراد ملفات
 - [FinanceCompany](https://dm.namasoft.com/dm-json/FinanceCompany.json): Finance Company / شركة تقسيط
@@ -684,7 +684,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [FinancialPaperAgio](https://dm.namasoft.com/dm-json/FinancialPaperAgio.json): Agio / أجيو
 - [FinancialPaperAgioReturn](https://dm.namasoft.com/dm-json/FinancialPaperAgioReturn.json): Commercial Paper Agio Return / سند رد إجيو
 - [FinancialPaperCancel](https://dm.namasoft.com/dm-json/FinancialPaperCancel.json): Commercial Paper Cancel / إلغاء ورقة تجارية
-- [FinancialPaperStatusEntry](https://dm.namasoft.com/dm-json/FinancialPaperStatusEntry.json):
+- [FinancialPaperStatusEntry](https://dm.namasoft.com/dm-json/FinancialPaperStatusEntry.json)
 - [FinishedProductPricing](https://dm.namasoft.com/dm-json/FinishedProductPricing.json): Finished Product Pricing / تسعير منتج نهائى
 - [FinishingWorksCheckList](https://dm.namasoft.com/dm-json/FinishingWorksCheckList.json): Finishing Works CheckList
 - [FiringDocument](https://dm.namasoft.com/dm-json/FiringDocument.json): Firing Document / سند إنهاء الخدمة
@@ -695,7 +695,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [FixedAsset](https://dm.namasoft.com/dm-json/FixedAsset.json): Fixed Asset / أصل ثابت
 - [FixedDeposit](https://dm.namasoft.com/dm-json/FixedDeposit.json): Fixed Deposit / وديعة بنكية
 - [FixedDepositChangingDoc](https://dm.namasoft.com/dm-json/FixedDepositChangingDoc.json): Fixed Deposit Changing / سند تعديل وديعة
-- [FixedDepositInterestEntry](https://dm.namasoft.com/dm-json/FixedDepositInterestEntry.json):
+- [FixedDepositInterestEntry](https://dm.namasoft.com/dm-json/FixedDepositInterestEntry.json)
 - [FixedDepositIssue](https://dm.namasoft.com/dm-json/FixedDepositIssue.json): Fixed Deposit Issue / إصدار وديعة
 - [FormDoc1](https://dm.namasoft.com/dm-json/FormDoc1.json): Form Document 1 / نموذج 1
 - [FormDoc10](https://dm.namasoft.com/dm-json/FormDoc10.json): Form Document 10 / نموذج 10
@@ -714,7 +714,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [FormDoc8](https://dm.namasoft.com/dm-json/FormDoc8.json): Form Document 8 / نموذج 8
 - [FormDoc9](https://dm.namasoft.com/dm-json/FormDoc9.json): Form Document 9 / نموذج 9
 - [FreeItemGroup](https://dm.namasoft.com/dm-json/FreeItemGroup.json): Free Group / مجموعة مجانية
-- [FreeItemSysLine](https://dm.namasoft.com/dm-json/FreeItemSysLine.json):
+- [FreeItemSysLine](https://dm.namasoft.com/dm-json/FreeItemSysLine.json)
 - [FreezeProcessingDoc](https://dm.namasoft.com/dm-json/FreezeProcessingDoc.json): Freeze Processing Document
 - [FreightLine](https://dm.namasoft.com/dm-json/FreightLine.json): Freight Line / خط ملاحي
 - [FrozenCostAccounts](https://dm.namasoft.com/dm-json/FrozenCostAccounts.json): Freeze Of Cost Effects On Accounts / إيقاف تأثير التكاليف على الحسابات
@@ -729,11 +729,11 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [GlassOrderList](https://dm.namasoft.com/dm-json/GlassOrderList.json): Day Order / تشغيلة يوم
 - [GoPayAccount](https://dm.namasoft.com/dm-json/GoPayAccount.json): GoPay Account / حساب GoPay
 - [GoPayConfiguration](https://dm.namasoft.com/dm-json/GoPayConfiguration.json): GoPay Configuration / إعدادات GoPay
-- [GoPayInvoiceEntry](https://dm.namasoft.com/dm-json/GoPayInvoiceEntry.json):
-- [GoPayPaymentEntry](https://dm.namasoft.com/dm-json/GoPayPaymentEntry.json):
-- [GrantedDevice](https://dm.namasoft.com/dm-json/GrantedDevice.json):
+- [GoPayInvoiceEntry](https://dm.namasoft.com/dm-json/GoPayInvoiceEntry.json)
+- [GoPayPaymentEntry](https://dm.namasoft.com/dm-json/GoPayPaymentEntry.json)
+- [GrantedDevice](https://dm.namasoft.com/dm-json/GrantedDevice.json)
 - [HMSAccommodation](https://dm.namasoft.com/dm-json/HMSAccommodation.json): Accommodation / تسكين مريض
-- [HMSAccommodationEntry](https://dm.namasoft.com/dm-json/HMSAccommodationEntry.json):
+- [HMSAccommodationEntry](https://dm.namasoft.com/dm-json/HMSAccommodationEntry.json)
 - [HMSAccommodationExit](https://dm.namasoft.com/dm-json/HMSAccommodationExit.json): Accommodation Exit / خروج مريض
 - [HMSAccommodationInvoice](https://dm.namasoft.com/dm-json/HMSAccommodationInvoice.json): Accommodation Invoice / فاتورة إقامة
 - [HMSAccommodationTransfer](https://dm.namasoft.com/dm-json/HMSAccommodationTransfer.json): AccommodationTransfer / نقل تسكين مريض
@@ -756,7 +756,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [HMSFeedingIssue](https://dm.namasoft.com/dm-json/HMSFeedingIssue.json): Feeding Issue / صرف تغذية
 - [HMSFeedingType](https://dm.namasoft.com/dm-json/HMSFeedingType.json): Feeding Type / نوع تغذية
 - [HMSFloor](https://dm.namasoft.com/dm-json/HMSFloor.json): HMS Floor / طابق مستشفى
-- [HMSInsuranceApprovalEntry](https://dm.namasoft.com/dm-json/HMSInsuranceApprovalEntry.json):
+- [HMSInsuranceApprovalEntry](https://dm.namasoft.com/dm-json/HMSInsuranceApprovalEntry.json)
 - [HMSInsuranceClass](https://dm.namasoft.com/dm-json/HMSInsuranceClass.json): Insurance Classification / فئة تأمين
 - [HMSInsuranceCompany](https://dm.namasoft.com/dm-json/HMSInsuranceCompany.json): Medical Insurance Company / شركة تأمين طبى
 - [HMSInsuranceCompanyClass](https://dm.namasoft.com/dm-json/HMSInsuranceCompanyClass.json): Medical Insurance Company Class / فئة شركة تأمين طبى
@@ -863,7 +863,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [HRCalendar](https://dm.namasoft.com/dm-json/HRCalendar.json): HR Calendar / تقويم الرواتب
 - [HRCandidate](https://dm.namasoft.com/dm-json/HRCandidate.json): Candidate / متقدم للعمل
 - [HREmpAdventRegisteration](https://dm.namasoft.com/dm-json/HREmpAdventRegisteration.json): Employee Advent Registeration / تسجيل قدوم موظف
-- [HREmployeeSkill](https://dm.namasoft.com/dm-json/HREmployeeSkill.json):
+- [HREmployeeSkill](https://dm.namasoft.com/dm-json/HREmployeeSkill.json)
 - [HRExperience](https://dm.namasoft.com/dm-json/HRExperience.json): Experience / خبرة
 - [HRHolidays](https://dm.namasoft.com/dm-json/HRHolidays.json): HR Holidays / عطلة رسمية
 - [HRInsurancePolicy](https://dm.namasoft.com/dm-json/HRInsurancePolicy.json): Social Insurance Policy / سياسة التأمينات الاجتماعية
@@ -871,7 +871,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [HRLoanDisableDocument](https://dm.namasoft.com/dm-json/HRLoanDisableDocument.json): Loan Disable Document / سند تعطيل سلفة
 - [HRLoanDocument](https://dm.namasoft.com/dm-json/HRLoanDocument.json): Loan Document / سند سلفة
 - [HRLoanInstallReschedule](https://dm.namasoft.com/dm-json/HRLoanInstallReschedule.json): Loan Installment Reschedule / سند إعاده جدوله اقساط سلفه
-- [HRLoanInstallmentSysEntry](https://dm.namasoft.com/dm-json/HRLoanInstallmentSysEntry.json):
+- [HRLoanInstallmentSysEntry](https://dm.namasoft.com/dm-json/HRLoanInstallmentSysEntry.json)
 - [HRLoanPaymentDocument](https://dm.namasoft.com/dm-json/HRLoanPaymentDocument.json): Loan Payment Document / سند سداد سلفة
 - [HRLoanReliefDocument](https://dm.namasoft.com/dm-json/HRLoanReliefDocument.json): Loan Relief Document / سند أعفاء سلفة
 - [HRLoanRequest](https://dm.namasoft.com/dm-json/HRLoanRequest.json): Loan Request / طلب سلفة
@@ -891,7 +891,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [HealthInsuranceCredence](https://dm.namasoft.com/dm-json/HealthInsuranceCredence.json): Health Insurance Credence / سند تعميد شركة تأمين
 - [HealthInsuranceOffer](https://dm.namasoft.com/dm-json/HealthInsuranceOffer.json): Health Insurance Offer / عرض تأمين  مقدم من شركة
 - [HealthInsuranceOfferRequest](https://dm.namasoft.com/dm-json/HealthInsuranceOfferRequest.json): Health Insurance Offer Request / طلب عروض تأمين
-- [HealthInsuranceSysEntry](https://dm.namasoft.com/dm-json/HealthInsuranceSysEntry.json):
+- [HealthInsuranceSysEntry](https://dm.namasoft.com/dm-json/HealthInsuranceSysEntry.json)
 - [HealthInsuranceUpgrade](https://dm.namasoft.com/dm-json/HealthInsuranceUpgrade.json): Health Insurance Upgrade / سند ترقية تأمين
 - [HealthInsuranceUpgradeReq](https://dm.namasoft.com/dm-json/HealthInsuranceUpgradeReq.json): Health Insurance Upgrade Request / طلب ترقية تأمين
 - [HijriTable](https://dm.namasoft.com/dm-json/HijriTable.json): Hijri Table / جدول هجري
@@ -907,7 +907,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [IPInvestmentProfitDistribution](https://dm.namasoft.com/dm-json/IPInvestmentProfitDistribution.json): Investment Profit Distribution / توزيع أرباح الاستثمار
 - [IPInvestmentRefund](https://dm.namasoft.com/dm-json/IPInvestmentRefund.json): Refund Investment Allocation / رد تخصيص استثمار
 - [IPInvestmentStart](https://dm.namasoft.com/dm-json/IPInvestmentStart.json): Investment Start / فتح استثمار
-- [IPInvestmentSysEntry](https://dm.namasoft.com/dm-json/IPInvestmentSysEntry.json):
+- [IPInvestmentSysEntry](https://dm.namasoft.com/dm-json/IPInvestmentSysEntry.json)
 - [IPInvestmentUpdate](https://dm.namasoft.com/dm-json/IPInvestmentUpdate.json): Investment update / تحديث الاستثمار
 - [IPSDeliveryAndReceiptArea](https://dm.namasoft.com/dm-json/IPSDeliveryAndReceiptArea.json): Delivery And Receipt Area / مكان تسليم واستلام
 - [IPSDeliveryInvoice](https://dm.namasoft.com/dm-json/IPSDeliveryInvoice.json): IPS Delivery Invoice / فاتورة توصيل
@@ -915,7 +915,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [IPSDeliveryServiceItem](https://dm.namasoft.com/dm-json/IPSDeliveryServiceItem.json): Delivery Service Item / بند خدمة توصيل
 - [IPSDeliveryServicePrice](https://dm.namasoft.com/dm-json/IPSDeliveryServicePrice.json): IPS Delivery Service Price / ملف أسعار خدمة توصيل
 - [IPSEvent](https://dm.namasoft.com/dm-json/IPSEvent.json): IPS Event
-- [IPSIntegrationTask](https://dm.namasoft.com/dm-json/IPSIntegrationTask.json):
+- [IPSIntegrationTask](https://dm.namasoft.com/dm-json/IPSIntegrationTask.json)
 - [IPSMailCategory](https://dm.namasoft.com/dm-json/IPSMailCategory.json): Mail Category / تصنيف البريد
 - [IPSMailClass](https://dm.namasoft.com/dm-json/IPSMailClass.json): IPS Mail Class / فئة بريد
 - [IPSMailCondition](https://dm.namasoft.com/dm-json/IPSMailCondition.json): Mail Condition / حالة البريد
@@ -949,37 +949,37 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [ISOReceivingRawMaterial](https://dm.namasoft.com/dm-json/ISOReceivingRawMaterial.json): ISO Receving Raw Material
 - [ISOSampleRecordListing](https://dm.namasoft.com/dm-json/ISOSampleRecordListing.json): ISO Sample Record Listing
 - [ImplementationRepository](https://dm.namasoft.com/dm-json/ImplementationRepository.json): Implementation Repository / كتالوج تجهيز
-- [InBusMessage](https://dm.namasoft.com/dm-json/InBusMessage.json):
+- [InBusMessage](https://dm.namasoft.com/dm-json/InBusMessage.json)
 - [InitialReceipt](https://dm.namasoft.com/dm-json/InitialReceipt.json): Initial Receipt / إستلام مبدئي
-- [InstallmentPaymentEntry](https://dm.namasoft.com/dm-json/InstallmentPaymentEntry.json):
+- [InstallmentPaymentEntry](https://dm.namasoft.com/dm-json/InstallmentPaymentEntry.json)
 - [InsuranceCompany](https://dm.namasoft.com/dm-json/InsuranceCompany.json): Insurance Company / شركة تأمين
 - [InsuranceCompanyApproval](https://dm.namasoft.com/dm-json/InsuranceCompanyApproval.json): Insurance Company Approval / موافقة شركة تأمين
-- [InsurancePolicyAddingLine](https://dm.namasoft.com/dm-json/InsurancePolicyAddingLine.json):
-- [InsurancePolicyRemovingLine](https://dm.namasoft.com/dm-json/InsurancePolicyRemovingLine.json):
+- [InsurancePolicyAddingLine](https://dm.namasoft.com/dm-json/InsurancePolicyAddingLine.json)
+- [InsurancePolicyRemovingLine](https://dm.namasoft.com/dm-json/InsurancePolicyRemovingLine.json)
 - [InterCompanyTransfer](https://dm.namasoft.com/dm-json/InterCompanyTransfer.json): Inter Company Transfer / جارى تحويل شركات
 - [InterestPaymentDocument](https://dm.namasoft.com/dm-json/InterestPaymentDocument.json): Interest Payment Document / سند إصدار أرباح
 - [InvItem](https://dm.namasoft.com/dm-json/InvItem.json): Item / صنف
 - [InvItemOpiningRequest](https://dm.namasoft.com/dm-json/InvItemOpiningRequest.json): Item Opening Request / طلب فتح صنف
 - [InvItemUpdate](https://dm.namasoft.com/dm-json/InvItemUpdate.json): Item Update / تحديث بيانات صنف
-- [InvTransReq](https://dm.namasoft.com/dm-json/InvTransReq.json):
+- [InvTransReq](https://dm.namasoft.com/dm-json/InvTransReq.json)
 - [InvestmentCompany](https://dm.namasoft.com/dm-json/InvestmentCompany.json): Investment Company / شركة استثمار
 - [InvestmentDoc](https://dm.namasoft.com/dm-json/InvestmentDoc.json): Investment Document / سند استثمار
 - [InvestmentDocClaiming](https://dm.namasoft.com/dm-json/InvestmentDocClaiming.json): Investment Doc Claiming Document / مستند استحقاق سند استثمار
 - [InvestmentDocPurchase](https://dm.namasoft.com/dm-json/InvestmentDocPurchase.json): Investment Doc Purchase Document / مستند شراء سند استثمار
 - [InvestmentDocROIProof](https://dm.namasoft.com/dm-json/InvestmentDocROIProof.json): Investment Doc ROI Proof / مستند إثبات عائد سندات استثمار
-- [InvestmentDocumentDocEntry](https://dm.namasoft.com/dm-json/InvestmentDocumentDocEntry.json):
+- [InvestmentDocumentDocEntry](https://dm.namasoft.com/dm-json/InvestmentDocumentDocEntry.json)
 - [InvestmentDocumentFund](https://dm.namasoft.com/dm-json/InvestmentDocumentFund.json): Investment Document Fund / صندوق استثمار وثيقة
 - [InvestmentDocumentPriceUpdate](https://dm.namasoft.com/dm-json/InvestmentDocumentPriceUpdate.json): Investment Document Price Update / تغيير سعر الوثيقة
 - [InvestmentDocumentPurchase](https://dm.namasoft.com/dm-json/InvestmentDocumentPurchase.json): Investment Document Purchase / مستند شراء وثائق استثمار
 - [InvestmentDocumentSale](https://dm.namasoft.com/dm-json/InvestmentDocumentSale.json): Investment Document Sale / مستند بيع وثيقة
 - [InvestmentProject](https://dm.namasoft.com/dm-json/InvestmentProject.json): Investment Project / مشروع استثماري
-- [InvestmentProjectSysLine](https://dm.namasoft.com/dm-json/InvestmentProjectSysLine.json):
+- [InvestmentProjectSysLine](https://dm.namasoft.com/dm-json/InvestmentProjectSysLine.json)
 - [Investor](https://dm.namasoft.com/dm-json/Investor.json): مستثمر
 - [InvoiceClassification](https://dm.namasoft.com/dm-json/InvoiceClassification.json): تصنيف الفواتير
-- [InvoiceDiscountSysLine](https://dm.namasoft.com/dm-json/InvoiceDiscountSysLine.json):
-- [InvoiceFreeItemSysLine](https://dm.namasoft.com/dm-json/InvoiceFreeItemSysLine.json):
+- [InvoiceDiscountSysLine](https://dm.namasoft.com/dm-json/InvoiceDiscountSysLine.json)
+- [InvoiceFreeItemSysLine](https://dm.namasoft.com/dm-json/InvoiceFreeItemSysLine.json)
 - [InvoiceReceiptDoc](https://dm.namasoft.com/dm-json/InvoiceReceiptDoc.json): Invoice Receipt Document / مستند استلام الفاتورة
-- [InvoiceRetrieverID](https://dm.namasoft.com/dm-json/InvoiceRetrieverID.json):
+- [InvoiceRetrieverID](https://dm.namasoft.com/dm-json/InvoiceRetrieverID.json)
 - [IssueStockTransfer](https://dm.namasoft.com/dm-json/IssueStockTransfer.json): Issue Stock Transfer / صرف تحويل مخزني
 - [ItemAssortment](https://dm.namasoft.com/dm-json/ItemAssortment.json): Item Assortment / تشكيلة ألوان ومقاسات
 - [ItemBrand](https://dm.namasoft.com/dm-json/ItemBrand.json): Item Brand / ماركة صنف
@@ -999,18 +999,18 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [ItemConfigurations](https://dm.namasoft.com/dm-json/ItemConfigurations.json): Item Configurations / إعدادات صنف
 - [ItemCustomerLink](https://dm.namasoft.com/dm-json/ItemCustomerLink.json): Item Customer Link / ربط صنف بعميل
 - [ItemCuttingDoc](https://dm.namasoft.com/dm-json/ItemCuttingDoc.json): Item Cutting Doc / سند قص أصناف
-- [ItemDimensionCost](https://dm.namasoft.com/dm-json/ItemDimensionCost.json):
-- [ItemDimensionsQty](https://dm.namasoft.com/dm-json/ItemDimensionsQty.json):
-- [ItemDiscountSysLine](https://dm.namasoft.com/dm-json/ItemDiscountSysLine.json):
-- [ItemLevelLine](https://dm.namasoft.com/dm-json/ItemLevelLine.json):
-- [ItemLot](https://dm.namasoft.com/dm-json/ItemLot.json):
-- [ItemMeasure](https://dm.namasoft.com/dm-json/ItemMeasure.json):
+- [ItemDimensionCost](https://dm.namasoft.com/dm-json/ItemDimensionCost.json)
+- [ItemDimensionsQty](https://dm.namasoft.com/dm-json/ItemDimensionsQty.json)
+- [ItemDiscountSysLine](https://dm.namasoft.com/dm-json/ItemDiscountSysLine.json)
+- [ItemLevelLine](https://dm.namasoft.com/dm-json/ItemLevelLine.json)
+- [ItemLot](https://dm.namasoft.com/dm-json/ItemLot.json)
+- [ItemMeasure](https://dm.namasoft.com/dm-json/ItemMeasure.json)
 - [ItemRelations](https://dm.namasoft.com/dm-json/ItemRelations.json): Item Relations / علاقات أصناف
 - [ItemRequest](https://dm.namasoft.com/dm-json/ItemRequest.json): Purchase Request / طلب شراء
 - [ItemRevisionFile](https://dm.namasoft.com/dm-json/ItemRevisionFile.json): Item Revision File / اصدار صنف
 - [ItemSection](https://dm.namasoft.com/dm-json/ItemSection.json): Item Section / قسم صنف
-- [ItemSerial](https://dm.namasoft.com/dm-json/ItemSerial.json):
-- [ItemSerialTrans](https://dm.namasoft.com/dm-json/ItemSerialTrans.json):
+- [ItemSerial](https://dm.namasoft.com/dm-json/ItemSerial.json)
+- [ItemSerialTrans](https://dm.namasoft.com/dm-json/ItemSerialTrans.json)
 - [ItemSize](https://dm.namasoft.com/dm-json/ItemSize.json): Item Size / مقاس صنف
 - [ItemSizeClassification](https://dm.namasoft.com/dm-json/ItemSizeClassification.json): Item Size Classification / تصنيف مقاس صنف
 - [ItemSizeColorCollection](https://dm.namasoft.com/dm-json/ItemSizeColorCollection.json):  Size Color Revision Collection /  مصفوفة ألوان ومقاسات و إصدارات
@@ -1028,7 +1028,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [JOOutSourceManufactureIssue](https://dm.namasoft.com/dm-json/JOOutSourceManufactureIssue.json): New Glass Outsource Manufacture Issue / مستند صرف تصنيع خارجي زجاج جديد
 - [JOSalesInvoice](https://dm.namasoft.com/dm-json/JOSalesInvoice.json): New Glass Sales Invoice / فاتورة مبيعات زجاج جديد
 - [JOSalesOrder](https://dm.namasoft.com/dm-json/JOSalesOrder.json): New Glass Sales Order / أمر بيع زجاج جديد
-- [JOSalesOrderStatusEntry](https://dm.namasoft.com/dm-json/JOSalesOrderStatusEntry.json):
+- [JOSalesOrderStatusEntry](https://dm.namasoft.com/dm-json/JOSalesOrderStatusEntry.json)
 - [JOSalesQuotation](https://dm.namasoft.com/dm-json/JOSalesQuotation.json): Glass Sales Quotation / عرض أسعار زجاج
 - [JOSalesQuotationReq](https://dm.namasoft.com/dm-json/JOSalesQuotationReq.json): Glass Sales Quotation Req / طلب عرض أسعار زجاج
 - [JOTransportBetwenWarehouse](https://dm.namasoft.com/dm-json/JOTransportBetwenWarehouse.json): New Glass Transport Between Warehouse / مستند التنقل بين المستودعات زجاج جديد
@@ -1055,12 +1055,12 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [LGTChanging](https://dm.namasoft.com/dm-json/LGTChanging.json): LGT Changing / تعديل خطاب ضمان
 - [LGTClosing](https://dm.namasoft.com/dm-json/LGTClosing.json): LGT Closing / إنهاء خطاب ضمان
 - [LGTDelivery](https://dm.namasoft.com/dm-json/LGTDelivery.json): LGT Delivery / تسليم  خطاب ضمان
-- [LGTEntry](https://dm.namasoft.com/dm-json/LGTEntry.json):
+- [LGTEntry](https://dm.namasoft.com/dm-json/LGTEntry.json)
 - [LGTIssue](https://dm.namasoft.com/dm-json/LGTIssue.json): LGT Issue / إصدار خطاب ضمان
 - [LGTOpeningDoc](https://dm.namasoft.com/dm-json/LGTOpeningDoc.json): LGT Opening Doc / مستند افتتاحي خطاب ضمان
 - [LGTReceipt](https://dm.namasoft.com/dm-json/LGTReceipt.json): LGT Receipt / استلام  خطاب ضمان
 - [LGTReq](https://dm.namasoft.com/dm-json/LGTReq.json): LGT Request / طلب خطاب ضمان
-- [LargeData](https://dm.namasoft.com/dm-json/LargeData.json):
+- [LargeData](https://dm.namasoft.com/dm-json/LargeData.json)
 - [Law](https://dm.namasoft.com/dm-json/Law.json): القانون
 - [LawArticle](https://dm.namasoft.com/dm-json/LawArticle.json): Law Article / مادة قانون
 - [LawChapter](https://dm.namasoft.com/dm-json/LawChapter.json): Law Chapter / فصل قانون
@@ -1074,12 +1074,12 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [LedgerReviseDoc](https://dm.namasoft.com/dm-json/LedgerReviseDoc.json): Ledger Revise Document / سند مراجعة حسابات
 - [LedgerTrans](https://dm.namasoft.com/dm-json/LedgerTrans.json): Ledger Transaction / قيود النظام
 - [LedgerTransReq](https://dm.namasoft.com/dm-json/LedgerTransReq.json): Ledger Trans Req
-- [LedgerTransReqQue](https://dm.namasoft.com/dm-json/LedgerTransReqQue.json):
-- [LedgerTransSerial](https://dm.namasoft.com/dm-json/LedgerTransSerial.json):
-- [LedgerTransSerialConfigLine](https://dm.namasoft.com/dm-json/LedgerTransSerialConfigLine.json):
+- [LedgerTransReqQue](https://dm.namasoft.com/dm-json/LedgerTransReqQue.json)
+- [LedgerTransSerial](https://dm.namasoft.com/dm-json/LedgerTransSerial.json)
+- [LedgerTransSerialConfigLine](https://dm.namasoft.com/dm-json/LedgerTransSerialConfigLine.json)
 - [LegalEntity](https://dm.namasoft.com/dm-json/LegalEntity.json): Legal Entity / شركة
-- [LegalEntityLicense](https://dm.namasoft.com/dm-json/LegalEntityLicense.json):
-- [LegalEntityParentLine](https://dm.namasoft.com/dm-json/LegalEntityParentLine.json):
+- [LegalEntityLicense](https://dm.namasoft.com/dm-json/LegalEntityLicense.json)
+- [LegalEntityParentLine](https://dm.namasoft.com/dm-json/LegalEntityParentLine.json)
 - [LegalLicense](https://dm.namasoft.com/dm-json/LegalLicense.json): Legal Entity License / ترخيص شركة
 - [LetterOfCredit](https://dm.namasoft.com/dm-json/LetterOfCredit.json): Letter Of Credit / الإعتماد المستندي
 - [LetterOfCreditRequest](https://dm.namasoft.com/dm-json/LetterOfCreditRequest.json): Letter Of Credit Request / طلب إعتماد مستندي
@@ -1093,15 +1093,15 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [LoanInterestsCalculation](https://dm.namasoft.com/dm-json/LoanInterestsCalculation.json): Loan Interests Calculation / سند احتساب فوائد القرض
 - [LoanIssue](https://dm.namasoft.com/dm-json/LoanIssue.json): Loan Issue / سند إصدار قرض
 - [Locator](https://dm.namasoft.com/dm-json/Locator.json): موقع
-- [LocatorTaking](https://dm.namasoft.com/dm-json/LocatorTaking.json):
-- [MAGItemChangeReq](https://dm.namasoft.com/dm-json/MAGItemChangeReq.json):
-- [MAGItemPriceChangeReq](https://dm.namasoft.com/dm-json/MAGItemPriceChangeReq.json):
-- [MAGItemQtyChangeReq](https://dm.namasoft.com/dm-json/MAGItemQtyChangeReq.json):
-- [MAGItemQtyChangeReqUpdater](https://dm.namasoft.com/dm-json/MAGItemQtyChangeReqUpdater.json):
+- [LocatorTaking](https://dm.namasoft.com/dm-json/LocatorTaking.json)
+- [MAGItemChangeReq](https://dm.namasoft.com/dm-json/MAGItemChangeReq.json)
+- [MAGItemPriceChangeReq](https://dm.namasoft.com/dm-json/MAGItemPriceChangeReq.json)
+- [MAGItemQtyChangeReq](https://dm.namasoft.com/dm-json/MAGItemQtyChangeReq.json)
+- [MAGItemQtyChangeReqUpdater](https://dm.namasoft.com/dm-json/MAGItemQtyChangeReqUpdater.json)
 - [MAGMagentoSite](https://dm.namasoft.com/dm-json/MAGMagentoSite.json): Magento Site
-- [MAGSiteError](https://dm.namasoft.com/dm-json/MAGSiteError.json):
+- [MAGSiteError](https://dm.namasoft.com/dm-json/MAGSiteError.json)
 - [MCAdditionDeduction](https://dm.namasoft.com/dm-json/MCAdditionDeduction.json): MC Addition Deduction / بند الاضافات والاستقطاعات
-- [MCConfigLine](https://dm.namasoft.com/dm-json/MCConfigLine.json):
+- [MCConfigLine](https://dm.namasoft.com/dm-json/MCConfigLine.json)
 - [MCContractPhase](https://dm.namasoft.com/dm-json/MCContractPhase.json): MC Contract Phase / ملف مراحل العقد
 - [MCContractTerm](https://dm.namasoft.com/dm-json/MCContractTerm.json): MC Contract Term / بند عقد
 - [MCContractWork](https://dm.namasoft.com/dm-json/MCContractWork.json): MC Contract Work / عمل عقد
@@ -1113,11 +1113,11 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [MCJobOrder](https://dm.namasoft.com/dm-json/MCJobOrder.json): Maintenance Contracting Job Order / أمر شغل مقاولات صيانة
 - [MCJobOrderReq](https://dm.namasoft.com/dm-json/MCJobOrderReq.json): Maintenance Contracting Job Order Request / طلب أمر شغل
 - [MCMainContract](https://dm.namasoft.com/dm-json/MCMainContract.json): Contract / عقد
-- [MCMainContractCancelledEquipment](https://dm.namasoft.com/dm-json/MCMainContractCancelledEquipment.json):
-- [MCMainContractCancelledLaborLine](https://dm.namasoft.com/dm-json/MCMainContractCancelledLaborLine.json):
-- [MCMainContractCancelledOperation](https://dm.namasoft.com/dm-json/MCMainContractCancelledOperation.json):
-- [MCMainContractConsumedItemLine](https://dm.namasoft.com/dm-json/MCMainContractConsumedItemLine.json):
-- [MCMainContractEditOperationLine](https://dm.namasoft.com/dm-json/MCMainContractEditOperationLine.json):
+- [MCMainContractCancelledEquipment](https://dm.namasoft.com/dm-json/MCMainContractCancelledEquipment.json)
+- [MCMainContractCancelledLaborLine](https://dm.namasoft.com/dm-json/MCMainContractCancelledLaborLine.json)
+- [MCMainContractCancelledOperation](https://dm.namasoft.com/dm-json/MCMainContractCancelledOperation.json)
+- [MCMainContractConsumedItemLine](https://dm.namasoft.com/dm-json/MCMainContractConsumedItemLine.json)
+- [MCMainContractEditOperationLine](https://dm.namasoft.com/dm-json/MCMainContractEditOperationLine.json)
 - [MCMaintenancePlan](https://dm.namasoft.com/dm-json/MCMaintenancePlan.json): MC Maintenance Plan / خطة صيانة
 - [MCMaintenanceType](https://dm.namasoft.com/dm-json/MCMaintenanceType.json): MC Maintenance Type / نوع صيانة مقاولات
 - [MCProject](https://dm.namasoft.com/dm-json/MCProject.json): MC Project / ملف مشروع
@@ -1135,22 +1135,22 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [MFGMoldDisposal](https://dm.namasoft.com/dm-json/MFGMoldDisposal.json): Manufacturing Mold Disposal / تخريد قالب تصنيع
 - [MFGMoldLocation](https://dm.namasoft.com/dm-json/MFGMoldLocation.json): Manufacturing Mold Location / موقع قالب تصنيع
 - [MFGMoldReceipt](https://dm.namasoft.com/dm-json/MFGMoldReceipt.json): Manufacturing Mold Receipt / توريد قالب تصنيع
-- [MFGMoldTransactionEntry](https://dm.namasoft.com/dm-json/MFGMoldTransactionEntry.json):
+- [MFGMoldTransactionEntry](https://dm.namasoft.com/dm-json/MFGMoldTransactionEntry.json)
 - [MFGMoldVoucher](https://dm.namasoft.com/dm-json/MFGMoldVoucher.json): Manufacturing Mold Voucher / استهلاك قالب تصنيع
 - [MRPAvailableQtySource](https://dm.namasoft.com/dm-json/MRPAvailableQtySource.json): MRP Available Quantity Source / مصدر الكميات المتاحه
 - [MRPDocument](https://dm.namasoft.com/dm-json/MRPDocument.json): planning raw materials Document / سند تخطيط
-- [MRPDocumentDemands](https://dm.namasoft.com/dm-json/MRPDocumentDemands.json):
+- [MRPDocumentDemands](https://dm.namasoft.com/dm-json/MRPDocumentDemands.json)
 - [MRPPurchaseRequest](https://dm.namasoft.com/dm-json/MRPPurchaseRequest.json): MRP Purchase Request / أمر شراء تخطيط
 - [MRPSalesForecasting](https://dm.namasoft.com/dm-json/MRPSalesForecasting.json): MRP Sales Forecasting / سند توقعات
 - [MachineRentInvoice](https://dm.namasoft.com/dm-json/MachineRentInvoice.json): Machine Rent Invoice / فاتورة تشغيل معدات
-- [MagentoItemEntry](https://dm.namasoft.com/dm-json/MagentoItemEntry.json):
+- [MagentoItemEntry](https://dm.namasoft.com/dm-json/MagentoItemEntry.json)
 - [MagentoItemLinker](https://dm.namasoft.com/dm-json/MagentoItemLinker.json): Magento Item Linker / ملف ربط الأصناف بموقع ماجنتو
 - [MagentoPriceUpdaterDoc](https://dm.namasoft.com/dm-json/MagentoPriceUpdaterDoc.json): Magento Price Updater Doc / مستند تحديث أسعار ماجنتو
 - [MagentoSiteGroup](https://dm.namasoft.com/dm-json/MagentoSiteGroup.json): Magento Site Group
-- [MagentoSyncSystemFields](https://dm.namasoft.com/dm-json/MagentoSyncSystemFields.json):
+- [MagentoSyncSystemFields](https://dm.namasoft.com/dm-json/MagentoSyncSystemFields.json)
 - [ManualDemand](https://dm.namasoft.com/dm-json/ManualDemand.json): Manual Demand / سند طلب يدوي
 - [ManualMeasures](https://dm.namasoft.com/dm-json/ManualMeasures.json): Manual Measure / قيم المؤشرات اليدوية
-- [ManuallyCodedTermsEntities](https://dm.namasoft.com/dm-json/ManuallyCodedTermsEntities.json):
+- [ManuallyCodedTermsEntities](https://dm.namasoft.com/dm-json/ManuallyCodedTermsEntities.json)
 - [ManufacturerCertificate](https://dm.namasoft.com/dm-json/ManufacturerCertificate.json): Manufacturer Certificate / شهادات مُصنع
 - [ManufacturingStandardPrice](https://dm.namasoft.com/dm-json/ManufacturingStandardPrice.json): Manufacturing Standard Price / سعر قياسي للتصنيع
 - [ManufacturingStockTaking](https://dm.namasoft.com/dm-json/ManufacturingStockTaking.json): Manufacturing Stock Taking / جرد مخزني للتصنيع
@@ -1166,7 +1166,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [MiscContractingInvoice](https://dm.namasoft.com/dm-json/MiscContractingInvoice.json): Misc Contracting Invoice / فاتورة شراء مستلزمات مقاولات
 - [MiscContractingOrder](https://dm.namasoft.com/dm-json/MiscContractingOrder.json): Misc Contracting Order / أمر شراء مستلزمات مقاولات
 - [MiscContractingRequest](https://dm.namasoft.com/dm-json/MiscContractingRequest.json): Misc Contracting Request / طلب شراء مستلزمات مقاولات
-- [MiscInvoiceQtyTransLine](https://dm.namasoft.com/dm-json/MiscInvoiceQtyTransLine.json):
+- [MiscInvoiceQtyTransLine](https://dm.namasoft.com/dm-json/MiscInvoiceQtyTransLine.json)
 - [MiscPurchaseInvoice](https://dm.namasoft.com/dm-json/MiscPurchaseInvoice.json): Miscellaneous Invoice / فاتورة متنوعات
 - [MiscPurchaseOrder](https://dm.namasoft.com/dm-json/MiscPurchaseOrder.json): Misc purchase Order / أمر شراء متنوعات
 - [MiscPurchaseReq](https://dm.namasoft.com/dm-json/MiscPurchaseReq.json): Misc Purchase Request / طلب شراء متنوعات
@@ -1194,7 +1194,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [MnMaintenanceService](https://dm.namasoft.com/dm-json/MnMaintenanceService.json): Machine Maintenance Service / خدمة صيانة ماكينة
 - [MnNotice](https://dm.namasoft.com/dm-json/MnNotice.json): Maintenance Notice / بلاغ صيانة
 - [MnNoticeCategory](https://dm.namasoft.com/dm-json/MnNoticeCategory.json): Maintenance Notice Category / فئة بلاغ الصيانة
-- [MnNoticeMobileAttendanceEntry](https://dm.namasoft.com/dm-json/MnNoticeMobileAttendanceEntry.json):
+- [MnNoticeMobileAttendanceEntry](https://dm.namasoft.com/dm-json/MnNoticeMobileAttendanceEntry.json)
 - [MnOrder](https://dm.namasoft.com/dm-json/MnOrder.json): Maintenance Order / أمر صيانة
 - [MnOrderExecution](https://dm.namasoft.com/dm-json/MnOrderExecution.json): Maintenance Order Execution / تنفيذ أمر صيانة
 - [MnPlan](https://dm.namasoft.com/dm-json/MnPlan.json): CRM Maintenance Plan / خطة صيانة خدمة عملاء
@@ -1234,32 +1234,32 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [ModifyContractorInfoReq](https://dm.namasoft.com/dm-json/ModifyContractorInfoReq.json): Modify Contractor Info Request / طلب تعديل بيانات المقاول
 - [ModifyCustomerInfoReq](https://dm.namasoft.com/dm-json/ModifyCustomerInfoReq.json): Modify Customer Info Request / طلب تعديل بيانات العميل
 - [ModifySupplierInfoReq](https://dm.namasoft.com/dm-json/ModifySupplierInfoReq.json): Modify Supplier Info Request / طلب تعديل بيانات المورد
-- [ModuleInfo](https://dm.namasoft.com/dm-json/ModuleInfo.json):
+- [ModuleInfo](https://dm.namasoft.com/dm-json/ModuleInfo.json)
 - [MultiAssemblyDoc](https://dm.namasoft.com/dm-json/MultiAssemblyDoc.json): Multi Assembly Docuemnt / سند تجميع متعدد
 - [MultiEmpVacation](https://dm.namasoft.com/dm-json/MultiEmpVacation.json): Multi Employee Vacation / سند أجازة مجمع لأكثر من موظف
 - [MultiItemCreator](https://dm.namasoft.com/dm-json/MultiItemCreator.json): Multiple Item Creator / أصناف متعددة
 - [MultiMobDeliveryDoc](https://dm.namasoft.com/dm-json/MultiMobDeliveryDoc.json): Multi Mobile Delivery Document / مستند حركة مجمع
 - [MultiValueReportParameter](https://dm.namasoft.com/dm-json/MultiValueReportParameter.json): Multi Value Report Parameter / قيم متعددة لمدخل تقرير
-- [NaMaLayout](https://dm.namasoft.com/dm-json/NaMaLayout.json):
+- [NaMaLayout](https://dm.namasoft.com/dm-json/NaMaLayout.json)
 - [NaMaPosItemsToSend](https://dm.namasoft.com/dm-json/NaMaPosItemsToSend.json): Pos Items To Send / الأصناف المرسلة لنقاط البيع
-- [NaMaUser](https://dm.namasoft.com/dm-json/NaMaUser.json):
+- [NaMaUser](https://dm.namasoft.com/dm-json/NaMaUser.json)
 - [NamaPOSAggGenericReference](https://dm.namasoft.com/dm-json/NamaPOSAggGenericReference.json): POS Aggregated Generic Reference / المرجع العام المجمع لنقاط البيع
 - [NamaPOSCancelReservation](https://dm.namasoft.com/dm-json/NamaPOSCancelReservation.json): POS Cancel Reservation / سند إلغاء حجز اوردر نقاط بيع
 - [NamaPOSCreditNote](https://dm.namasoft.com/dm-json/NamaPOSCreditNote.json): POS Credit Note / إشعار دائن نقاط البيع
 - [NamaPOSDeliveryCost](https://dm.namasoft.com/dm-json/NamaPOSDeliveryCost.json): POS Delivery Cost / تكاليف خدمة توصيل نقاط البيع
 - [NamaPOSDepreciationReason](https://dm.namasoft.com/dm-json/NamaPOSDepreciationReason.json): POS Depreciation Reason / سبب الهالك
-- [NamaPOSErrorSysLine](https://dm.namasoft.com/dm-json/NamaPOSErrorSysLine.json):
+- [NamaPOSErrorSysLine](https://dm.namasoft.com/dm-json/NamaPOSErrorSysLine.json)
 - [NamaPOSExtraFilter](https://dm.namasoft.com/dm-json/NamaPOSExtraFilter.json): Nama POS Extra Filters / Filters إضافية لنقطة البيع
 - [NamaPOSGenericReference](https://dm.namasoft.com/dm-json/NamaPOSGenericReference.json): POS Generic Reference / المرجع العام لنقاط البيع
 - [NamaPOSHall](https://dm.namasoft.com/dm-json/NamaPOSHall.json): POS Hall / صالة نقاط البيع
 - [NamaPOSHeldInvoice](https://dm.namasoft.com/dm-json/NamaPOSHeldInvoice.json): Held Invoice / فاتورة معلقة
 - [NamaPOSInternalMessage](https://dm.namasoft.com/dm-json/NamaPOSInternalMessage.json): POS Internal Message / رسالة نقاط بيع داخليه
 - [NamaPOSInvSavingSettings](https://dm.namasoft.com/dm-json/NamaPOSInvSavingSettings.json): POS Saving Settings / إعدادات الحفظ في نقاط البيع
-- [NamaPOSInvoiceCouponLine](https://dm.namasoft.com/dm-json/NamaPOSInvoiceCouponLine.json):
-- [NamaPOSInvoiceCreditNoteLine](https://dm.namasoft.com/dm-json/NamaPOSInvoiceCreditNoteLine.json):
+- [NamaPOSInvoiceCouponLine](https://dm.namasoft.com/dm-json/NamaPOSInvoiceCouponLine.json)
+- [NamaPOSInvoiceCreditNoteLine](https://dm.namasoft.com/dm-json/NamaPOSInvoiceCreditNoteLine.json)
 - [NamaPOSItemBarcodeParser](https://dm.namasoft.com/dm-json/NamaPOSItemBarcodeParser.json): POS Item Barcode Parser / مواصفات باركود أصناف نقاط البيع
 - [NamaPOSItemQtyUpdateConfig](https://dm.namasoft.com/dm-json/NamaPOSItemQtyUpdateConfig.json): POS Item Quantity Update Configuration / إعدادات تحديث كميات الماكينة
-- [NamaPOSItemQtyUpdater](https://dm.namasoft.com/dm-json/NamaPOSItemQtyUpdater.json):
+- [NamaPOSItemQtyUpdater](https://dm.namasoft.com/dm-json/NamaPOSItemQtyUpdater.json)
 - [NamaPOSOrderReservation](https://dm.namasoft.com/dm-json/NamaPOSOrderReservation.json): POS Order Reservation / سند حجز اوردر نقاط بيع
 - [NamaPOSPaymentMethodsSettings](https://dm.namasoft.com/dm-json/NamaPOSPaymentMethodsSettings.json): Nama POS Payment Methods Settings / إعدادات طرق دفع نقاط البيع
 - [NamaPOSRegister](https://dm.namasoft.com/dm-json/NamaPOSRegister.json): Register / ماكينة
@@ -1281,19 +1281,19 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [NamaPosPoleDisplaySpecs](https://dm.namasoft.com/dm-json/NamaPosPoleDisplaySpecs.json): Pos Pole Display Specs / خصائص ال Pole Display لنقاط البيع
 - [NamaPosRequiredFields](https://dm.namasoft.com/dm-json/NamaPosRequiredFields.json): Pos Required Fields / الحقول المطلوبه لنقاط البيع
 - [NamaPosUISettings](https://dm.namasoft.com/dm-json/NamaPosUISettings.json):  Pos UI Settings /  إعدادات واجهة نقاط البيع الجديده
-- [NamaUserLastInfo](https://dm.namasoft.com/dm-json/NamaUserLastInfo.json):
+- [NamaUserLastInfo](https://dm.namasoft.com/dm-json/NamaUserLastInfo.json)
 - [Nationality](https://dm.namasoft.com/dm-json/Nationality.json): جنسية
 - [NewPurchaseForecast](https://dm.namasoft.com/dm-json/NewPurchaseForecast.json): New Purchase Forecast / توقعات مشتريات
-- [NotificationAllowedTime](https://dm.namasoft.com/dm-json/NotificationAllowedTime.json):
+- [NotificationAllowedTime](https://dm.namasoft.com/dm-json/NotificationAllowedTime.json)
 - [NotificationDefinition](https://dm.namasoft.com/dm-json/NotificationDefinition.json): Notification Definition / تعريف تنبيهات
-- [NotificationSite](https://dm.namasoft.com/dm-json/NotificationSite.json):
-- [Notificationtarget](https://dm.namasoft.com/dm-json/Notificationtarget.json):
+- [NotificationSite](https://dm.namasoft.com/dm-json/NotificationSite.json)
+- [Notificationtarget](https://dm.namasoft.com/dm-json/Notificationtarget.json)
 - [OAuthFile](https://dm.namasoft.com/dm-json/OAuthFile.json): OAuth File
 - [OfferApplyRules](https://dm.namasoft.com/dm-json/OfferApplyRules.json): Offer Apply Rules / قواعد تطبيق العروض
-- [OfferOnItemsCountSysLine](https://dm.namasoft.com/dm-json/OfferOnItemsCountSysLine.json):
+- [OfferOnItemsCountSysLine](https://dm.namasoft.com/dm-json/OfferOnItemsCountSysLine.json)
 - [OmnifulConfig](https://dm.namasoft.com/dm-json/OmnifulConfig.json): Omniful Configuration
 - [OnlinePaymentConfig](https://dm.namasoft.com/dm-json/OnlinePaymentConfig.json): Online Payment Configuration
-- [OnlinePaymentTransactionSysEntry](https://dm.namasoft.com/dm-json/OnlinePaymentTransactionSysEntry.json):
+- [OnlinePaymentTransactionSysEntry](https://dm.namasoft.com/dm-json/OnlinePaymentTransactionSysEntry.json)
 - [OpeningStockDocument](https://dm.namasoft.com/dm-json/OpeningStockDocument.json): Opening Stock Document / سند افتتاح مخزني
 - [OpeningVacationBalanceDoc](https://dm.namasoft.com/dm-json/OpeningVacationBalanceDoc.json): Opening Vacation Balance Document / سند إدخال رصيد أجازة إفتتاحية
 - [OpenningFinancialPaper](https://dm.namasoft.com/dm-json/OpenningFinancialPaper.json): Openning Commercial Paper / إفتتاح ورقة تجارية
@@ -1304,7 +1304,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [OrderFinished](https://dm.namasoft.com/dm-json/OrderFinished.json): Order Finished / إنهاء وتسليم لصالة التسليم
 - [OrderStatusQtyTrackConfig](https://dm.namasoft.com/dm-json/OrderStatusQtyTrackConfig.json): Quantity Tracking Source Config File / إعدادات  مصدر متابعة الكميات
 - [OrganizationPosition](https://dm.namasoft.com/dm-json/OrganizationPosition.json): Organizational Position / درجة وظيفية
-- [OutBusMessage](https://dm.namasoft.com/dm-json/OutBusMessage.json):
+- [OutBusMessage](https://dm.namasoft.com/dm-json/OutBusMessage.json)
 - [OutsourceIssue](https://dm.namasoft.com/dm-json/OutsourceIssue.json): Outsource Issue / صرف لتصنيع خارجي
 - [OutsourceReceipt](https://dm.namasoft.com/dm-json/OutsourceReceipt.json): Outsource Receipt / استلام تصنيع خارجي
 - [OutsourceRequest](https://dm.namasoft.com/dm-json/OutsourceRequest.json): Outsource Request / طلب تصنيع خارجي
@@ -1312,10 +1312,10 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [PFQuantitySource](https://dm.namasoft.com/dm-json/PFQuantitySource.json): Quantity Source / مصدر الكميات
 - [PFSalesSourceConfig](https://dm.namasoft.com/dm-json/PFSalesSourceConfig.json): Sales Source Configuration / إعدادات مصدر المبيعات
 - [PGWMethodGroup](https://dm.namasoft.com/dm-json/PGWMethodGroup.json): Payment Gateway Method Group
-- [POS.ItemLine](https://dm.namasoft.com/dm-json/POS.ItemLine.json): (table: ItemLine)
-- [POS.POSActionHistory](https://dm.namasoft.com/dm-json/POS.POSActionHistory.json): (table: POSActionHistory)
-- [POS.POSActionLine](https://dm.namasoft.com/dm-json/POS.POSActionLine.json): (table: POSActionLine)
-- [POS.POSAlias](https://dm.namasoft.com/dm-json/POS.POSAlias.json): (table: POSAlias)
+- [POS.ItemLine](https://dm.namasoft.com/dm-json/POS.ItemLine.json) (table: ItemLine)
+- [POS.POSActionHistory](https://dm.namasoft.com/dm-json/POS.POSActionHistory.json) (table: POSActionHistory)
+- [POS.POSActionLine](https://dm.namasoft.com/dm-json/POS.POSActionLine.json) (table: POSActionLine)
+- [POS.POSAlias](https://dm.namasoft.com/dm-json/POS.POSAlias.json) (table: POSAlias)
 - [POS.POSAnalysisset](https://dm.namasoft.com/dm-json/POS.POSAnalysisset.json): Analysis Set / مجموعة تحليلية (table: POSAnalysisset)
 - [POS.POSBranch](https://dm.namasoft.com/dm-json/POS.POSBranch.json): فرع (table: POSBranch)
 - [POS.POSCreditNote](https://dm.namasoft.com/dm-json/POS.POSCreditNote.json): POS Credit Note / إشعار دائن نقاط البيع (table: POSCreditNote)
@@ -1327,12 +1327,12 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [POS.POSDepreciationReason](https://dm.namasoft.com/dm-json/POS.POSDepreciationReason.json): POS Depreciation Reason / سبب الهالك (table: POSDepreciationReason)
 - [POS.POSDiscountCoupon](https://dm.namasoft.com/dm-json/POS.POSDiscountCoupon.json): Discount Coupon / قسيمة خصومات (table: POSDiscountCoupon)
 - [POS.POSEmployee](https://dm.namasoft.com/dm-json/POS.POSEmployee.json): موظف (table: POSEmployee)
-- [POS.POSError](https://dm.namasoft.com/dm-json/POS.POSError.json): (table: POSError)
+- [POS.POSError](https://dm.namasoft.com/dm-json/POS.POSError.json) (table: POSError)
 - [POS.POSExchangeRate](https://dm.namasoft.com/dm-json/POS.POSExchangeRate.json): Exchange Rate / سعر صرف (table: POSExchangeRate)
-- [POS.POSExtraFilter](https://dm.namasoft.com/dm-json/POS.POSExtraFilter.json): (table: POSExtraFilter)
-- [POS.POSFavouriteLine](https://dm.namasoft.com/dm-json/POS.POSFavouriteLine.json): (table: POSFavouriteLine)
-- [POS.POSFieldTooltipInfo](https://dm.namasoft.com/dm-json/POS.POSFieldTooltipInfo.json): (table: POSFieldTooltipInfo)
-- [POS.POSFinancialSysLine](https://dm.namasoft.com/dm-json/POS.POSFinancialSysLine.json): (table: POSFinancialSysLine)
+- [POS.POSExtraFilter](https://dm.namasoft.com/dm-json/POS.POSExtraFilter.json) (table: POSExtraFilter)
+- [POS.POSFavouriteLine](https://dm.namasoft.com/dm-json/POS.POSFavouriteLine.json) (table: POSFavouriteLine)
+- [POS.POSFieldTooltipInfo](https://dm.namasoft.com/dm-json/POS.POSFieldTooltipInfo.json) (table: POSFieldTooltipInfo)
+- [POS.POSFinancialSysLine](https://dm.namasoft.com/dm-json/POS.POSFinancialSysLine.json) (table: POSFinancialSysLine)
 - [POS.POSFreeItemGroup](https://dm.namasoft.com/dm-json/POS.POSFreeItemGroup.json): Free Group / مجموعة مجانية (table: POSFreeItemGroup)
 - [POS.POSGenReference](https://dm.namasoft.com/dm-json/POS.POSGenReference.json): POS Generic Reference / المرجع العام لنقاط البيع (table: POSGenReference)
 - [POS.POSGenericReferenceOverrider](https://dm.namasoft.com/dm-json/POS.POSGenericReferenceOverrider.json): Fields and Entities Settings / أعدادات الحقول و الشاشات (table: POSGenericReferenceOverrider)
@@ -1354,10 +1354,10 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [POS.POSItemClass7](https://dm.namasoft.com/dm-json/POS.POSItemClass7.json): Item class 7 / تصنيف صنف 7 (table: POSItemClass7)
 - [POS.POSItemClass8](https://dm.namasoft.com/dm-json/POS.POSItemClass8.json): Item class 8 / تصنيف صنف 8 (table: POSItemClass8)
 - [POS.POSItemClass9](https://dm.namasoft.com/dm-json/POS.POSItemClass9.json): Item class 9 / تصنيف صنف 9 (table: POSItemClass9)
-- [POS.POSItemCode](https://dm.namasoft.com/dm-json/POS.POSItemCode.json): (table: POSItemCode)
+- [POS.POSItemCode](https://dm.namasoft.com/dm-json/POS.POSItemCode.json) (table: POSItemCode)
 - [POS.POSItemColor](https://dm.namasoft.com/dm-json/POS.POSItemColor.json): Item Color / لون صنف (table: POSItemColor)
 - [POS.POSItemConfig](https://dm.namasoft.com/dm-json/POS.POSItemConfig.json): Item Configurations / إعدادات صنف (table: POSItemConfig)
-- [POS.POSItemCurrentQuantitySysEntry](https://dm.namasoft.com/dm-json/POS.POSItemCurrentQuantitySysEntry.json): (table: POSItemCurrentQuantitySysEntry)
+- [POS.POSItemCurrentQuantitySysEntry](https://dm.namasoft.com/dm-json/POS.POSItemCurrentQuantitySysEntry.json) (table: POSItemCurrentQuantitySysEntry)
 - [POS.POSItemQtyUpdateConfig](https://dm.namasoft.com/dm-json/POS.POSItemQtyUpdateConfig.json): POS Item Quantity Update Configuration / إعدادات تحديث كميات الماكينة (table: POSItemQtyUpdateConfig)
 - [POS.POSItemSection](https://dm.namasoft.com/dm-json/POS.POSItemSection.json): Item Section / قسم صنف (table: POSItemSection)
 - [POS.POSItemSize](https://dm.namasoft.com/dm-json/POS.POSItemSize.json): Item Size / مقاس صنف (table: POSItemSize)
@@ -1365,18 +1365,18 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [POS.POSLocation](https://dm.namasoft.com/dm-json/POS.POSLocation.json): موقع (table: POSLocation)
 - [POS.POSOrderReservation](https://dm.namasoft.com/dm-json/POS.POSOrderReservation.json): POS Order Reservation / سند حجز اوردر نقاط بيع (table: POSOrderReservation)
 - [POS.POSPaymentMethod](https://dm.namasoft.com/dm-json/POS.POSPaymentMethod.json): Payment Method / طريقة دفع (table: POSPaymentMethod)
-- [POS.POSPaymentMethodsSettings](https://dm.namasoft.com/dm-json/POS.POSPaymentMethodsSettings.json): (table: POSPaymentMethodsSettings)
+- [POS.POSPaymentMethodsSettings](https://dm.namasoft.com/dm-json/POS.POSPaymentMethodsSettings.json) (table: POSPaymentMethodsSettings)
 - [POS.POSPaymentToRegistery](https://dm.namasoft.com/dm-json/POS.POSPaymentToRegistery.json): POS Payment / مصروف نقاط البيع (table: POSPaymentToRegistery)
 - [POS.POSPricingRange](https://dm.namasoft.com/dm-json/POS.POSPricingRange.json): Pricing Range / مدى تطبيق الأسعار (table: POSPricingRange)
-- [POS.POSPricingRangeExcludedInvoiceLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeExcludedInvoiceLine.json): (table: POSPricingRangeExcludedInvoiceLine)
-- [POS.POSPricingRangeExcludedItemLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeExcludedItemLine.json): (table: POSPricingRangeExcludedItemLine)
-- [POS.POSPricingRangeIncludedInvoiceLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeIncludedInvoiceLine.json): (table: POSPricingRangeIncludedInvoiceLine)
-- [POS.POSPricingRangeIncludedItemLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeIncludedItemLine.json): (table: POSPricingRangeIncludedItemLine)
+- [POS.POSPricingRangeExcludedInvoiceLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeExcludedInvoiceLine.json) (table: POSPricingRangeExcludedInvoiceLine)
+- [POS.POSPricingRangeExcludedItemLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeExcludedItemLine.json) (table: POSPricingRangeExcludedItemLine)
+- [POS.POSPricingRangeIncludedInvoiceLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeIncludedInvoiceLine.json) (table: POSPricingRangeIncludedInvoiceLine)
+- [POS.POSPricingRangeIncludedItemLine](https://dm.namasoft.com/dm-json/POS.POSPricingRangeIncludedItemLine.json) (table: POSPricingRangeIncludedItemLine)
 - [POS.POSReceiptFromRegistery](https://dm.namasoft.com/dm-json/POS.POSReceiptFromRegistery.json): POS Receipt / مقبوض نقاط البيع (table: POSReceiptFromRegistery)
-- [POS.POSRegisterContactInfoLine](https://dm.namasoft.com/dm-json/POS.POSRegisterContactInfoLine.json): (table: POSRegisterContactInfoLine)
+- [POS.POSRegisterContactInfoLine](https://dm.namasoft.com/dm-json/POS.POSRegisterContactInfoLine.json) (table: POSRegisterContactInfoLine)
 - [POS.POSRegistery](https://dm.namasoft.com/dm-json/POS.POSRegistery.json): Register / ماكينة (table: POSRegistery)
-- [POS.POSRegisteryFixedFavouriteLine](https://dm.namasoft.com/dm-json/POS.POSRegisteryFixedFavouriteLine.json): (table: POSRegisteryFixedFavouriteLine)
-- [POS.POSRegisteryUserLine](https://dm.namasoft.com/dm-json/POS.POSRegisteryUserLine.json): (table: POSRegisteryUserLine)
+- [POS.POSRegisteryFixedFavouriteLine](https://dm.namasoft.com/dm-json/POS.POSRegisteryFixedFavouriteLine.json) (table: POSRegisteryFixedFavouriteLine)
+- [POS.POSRegisteryUserLine](https://dm.namasoft.com/dm-json/POS.POSRegisteryUserLine.json) (table: POSRegisteryUserLine)
 - [POS.POSReportDefinition](https://dm.namasoft.com/dm-json/POS.POSReportDefinition.json): Report Definition / تعريف تقرير (table: POSReportDefinition)
 - [POS.POSReturnReason](https://dm.namasoft.com/dm-json/POS.POSReturnReason.json): Nama POS Return Reason / سبب الإرجاع (table: POSReturnReason)
 - [POS.POSRewardPointConfig](https://dm.namasoft.com/dm-json/POS.POSRewardPointConfig.json): Reward Points Configuration / إعدادات نقاط المكافأة (table: POSRewardPointConfig)
@@ -1396,7 +1396,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [POS.POSSector](https://dm.namasoft.com/dm-json/POS.POSSector.json): قطاع (table: POSSector)
 - [POS.POSSecurity](https://dm.namasoft.com/dm-json/POS.POSSecurity.json): POS Security Profile / صلاحيات نقاط البيع (table: POSSecurity)
 - [POS.POSServiceChargeSettings](https://dm.namasoft.com/dm-json/POS.POSServiceChargeSettings.json): POS Service Charge Settings / إعدادات الخدمة السياحية في نقاط البيع (table: POSServiceChargeSettings)
-- [POS.POSSettingsInfo](https://dm.namasoft.com/dm-json/POS.POSSettingsInfo.json): (table: POSSettingsInfo)
+- [POS.POSSettingsInfo](https://dm.namasoft.com/dm-json/POS.POSSettingsInfo.json) (table: POSSettingsInfo)
 - [POS.POSShift](https://dm.namasoft.com/dm-json/POS.POSShift.json): POS Shift Opening / فتح ورديه (table: POSShift)
 - [POS.POSShiftClose](https://dm.namasoft.com/dm-json/POS.POSShiftClose.json): POS Shift Closing / غلق وردية (table: POSShiftClose)
 - [POS.POSShiftOpen](https://dm.namasoft.com/dm-json/POS.POSShiftOpen.json): POS Shift Opening / فتح ورديه (table: POSShiftOpen)
@@ -1417,7 +1417,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [POS.PosDefaultsTemplate](https://dm.namasoft.com/dm-json/POS.PosDefaultsTemplate.json): Pos Defaults Template / قالب قيم افتراضيه لنقاط البيع (table: PosDefaultsTemplate)
 - [POS.PosDeliveryCost](https://dm.namasoft.com/dm-json/POS.PosDeliveryCost.json): POS Delivery Cost / تكاليف خدمة توصيل نقاط البيع (table: PosDeliveryCost)
 - [POS.PosDocCategory](https://dm.namasoft.com/dm-json/POS.PosDocCategory.json): Record Category / تصنيف سجل (table: PosDocCategory)
-- [POS.PosFieldAllowedValues](https://dm.namasoft.com/dm-json/POS.PosFieldAllowedValues.json): (table: PosFieldAllowedValues)
+- [POS.PosFieldAllowedValues](https://dm.namasoft.com/dm-json/POS.PosFieldAllowedValues.json) (table: PosFieldAllowedValues)
 - [POS.PosItemAdditionalItems](https://dm.namasoft.com/dm-json/POS.PosItemAdditionalItems.json): POS Item Additional Items / الأصناف الإضافية للصنف في نقاط البيع (table: PosItemAdditionalItems)
 - [POS.PosMinCharge](https://dm.namasoft.com/dm-json/POS.PosMinCharge.json): Pos Minimum Charge Settings / إعدادات الحد الأدنى للطلب في نقاط البيع (table: PosMinCharge)
 - [POS.PosMobileUISettings](https://dm.namasoft.com/dm-json/POS.PosMobileUISettings.json): Pos Mobile UI Settings / إعدادات واجهة نقاط البيع للموبايل (table: PosMobileUISettings)
@@ -1425,87 +1425,87 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [POS.PosPaymentTerminal](https://dm.namasoft.com/dm-json/POS.PosPaymentTerminal.json): Payment Terminal (table: PosPaymentTerminal)
 - [POS.PosPoleDisplaySpecs](https://dm.namasoft.com/dm-json/POS.PosPoleDisplaySpecs.json): Pos Pole Display Specs / خصائص ال Pole Display لنقاط البيع (table: PosPoleDisplaySpecs)
 - [POS.PosRequiredFields](https://dm.namasoft.com/dm-json/POS.PosRequiredFields.json): Pos Required Fields / الحقول المطلوبه لنقاط البيع (table: PosRequiredFields)
-- [POS.PosRevisionFile](https://dm.namasoft.com/dm-json/POS.PosRevisionFile.json): (table: PosRevisionFile)
-- [POS.PosTableEntry](https://dm.namasoft.com/dm-json/POS.PosTableEntry.json): (table: PosTableEntry)
-- [POS.PosTempDocument](https://dm.namasoft.com/dm-json/POS.PosTempDocument.json): (table: PosTempDocument)
+- [POS.PosRevisionFile](https://dm.namasoft.com/dm-json/POS.PosRevisionFile.json) (table: PosRevisionFile)
+- [POS.PosTableEntry](https://dm.namasoft.com/dm-json/POS.PosTableEntry.json) (table: PosTableEntry)
+- [POS.PosTempDocument](https://dm.namasoft.com/dm-json/POS.PosTempDocument.json) (table: PosTempDocument)
 - [POS.PosUISettings](https://dm.namasoft.com/dm-json/POS.PosUISettings.json):  Pos UI Settings /  إعدادات واجهة نقاط البيع الجديده (table: PosUISettings)
 - [POS.Shortcuts](https://dm.namasoft.com/dm-json/POS.Shortcuts.json): Nama POS Shortcuts / اختصارات نقطة البيع (table: Shortcuts)
-- [POSCancelReservationGridLine](https://dm.namasoft.com/dm-json/POSCancelReservationGridLine.json):
-- [POSCancelReservationMainLine](https://dm.namasoft.com/dm-json/POSCancelReservationMainLine.json):
-- [POSCancelReservationOtherLine](https://dm.namasoft.com/dm-json/POSCancelReservationOtherLine.json):
+- [POSCancelReservationGridLine](https://dm.namasoft.com/dm-json/POSCancelReservationGridLine.json)
+- [POSCancelReservationMainLine](https://dm.namasoft.com/dm-json/POSCancelReservationMainLine.json)
+- [POSCancelReservationOtherLine](https://dm.namasoft.com/dm-json/POSCancelReservationOtherLine.json)
 - [POSCashDrawer](https://dm.namasoft.com/dm-json/POSCashDrawer.json): POS Cash Drawer / جرد
-- [POSConfigFavouriteDocLine](https://dm.namasoft.com/dm-json/POSConfigFavouriteDocLine.json):
-- [POSConfigFavouriteItemLine](https://dm.namasoft.com/dm-json/POSConfigFavouriteItemLine.json):
-- [POSConfigPayMethodLine](https://dm.namasoft.com/dm-json/POSConfigPayMethodLine.json):
-- [POSConfigPayTermLine](https://dm.namasoft.com/dm-json/POSConfigPayTermLine.json):
-- [POSConfigReceiptTermLine](https://dm.namasoft.com/dm-json/POSConfigReceiptTermLine.json):
-- [POSConfigRegisterCurrencyLine](https://dm.namasoft.com/dm-json/POSConfigRegisterCurrencyLine.json):
-- [POSConfigReturnTermLine](https://dm.namasoft.com/dm-json/POSConfigReturnTermLine.json):
-- [POSConfigSalesTermLine](https://dm.namasoft.com/dm-json/POSConfigSalesTermLine.json):
-- [POSCustomerFieldLine](https://dm.namasoft.com/dm-json/POSCustomerFieldLine.json):
-- [POSEntitiesSendConfigLine](https://dm.namasoft.com/dm-json/POSEntitiesSendConfigLine.json):
-- [POSFavProcedureLine](https://dm.namasoft.com/dm-json/POSFavProcedureLine.json):
-- [POSFilterDimensionsLine](https://dm.namasoft.com/dm-json/POSFilterDimensionsLine.json):
-- [POSOnlineOrderEntry](https://dm.namasoft.com/dm-json/POSOnlineOrderEntry.json):
-- [POSOrderReservationGridLine](https://dm.namasoft.com/dm-json/POSOrderReservationGridLine.json):
-- [POSOrderReservationMainLine](https://dm.namasoft.com/dm-json/POSOrderReservationMainLine.json):
-- [POSOrderReservationOtherLine](https://dm.namasoft.com/dm-json/POSOrderReservationOtherLine.json):
+- [POSConfigFavouriteDocLine](https://dm.namasoft.com/dm-json/POSConfigFavouriteDocLine.json)
+- [POSConfigFavouriteItemLine](https://dm.namasoft.com/dm-json/POSConfigFavouriteItemLine.json)
+- [POSConfigPayMethodLine](https://dm.namasoft.com/dm-json/POSConfigPayMethodLine.json)
+- [POSConfigPayTermLine](https://dm.namasoft.com/dm-json/POSConfigPayTermLine.json)
+- [POSConfigReceiptTermLine](https://dm.namasoft.com/dm-json/POSConfigReceiptTermLine.json)
+- [POSConfigRegisterCurrencyLine](https://dm.namasoft.com/dm-json/POSConfigRegisterCurrencyLine.json)
+- [POSConfigReturnTermLine](https://dm.namasoft.com/dm-json/POSConfigReturnTermLine.json)
+- [POSConfigSalesTermLine](https://dm.namasoft.com/dm-json/POSConfigSalesTermLine.json)
+- [POSCustomerFieldLine](https://dm.namasoft.com/dm-json/POSCustomerFieldLine.json)
+- [POSEntitiesSendConfigLine](https://dm.namasoft.com/dm-json/POSEntitiesSendConfigLine.json)
+- [POSFavProcedureLine](https://dm.namasoft.com/dm-json/POSFavProcedureLine.json)
+- [POSFilterDimensionsLine](https://dm.namasoft.com/dm-json/POSFilterDimensionsLine.json)
+- [POSOnlineOrderEntry](https://dm.namasoft.com/dm-json/POSOnlineOrderEntry.json)
+- [POSOrderReservationGridLine](https://dm.namasoft.com/dm-json/POSOrderReservationGridLine.json)
+- [POSOrderReservationMainLine](https://dm.namasoft.com/dm-json/POSOrderReservationMainLine.json)
+- [POSOrderReservationOtherLine](https://dm.namasoft.com/dm-json/POSOrderReservationOtherLine.json)
 - [POSPaymentToRegister](https://dm.namasoft.com/dm-json/POSPaymentToRegister.json): POS Payment / مصروف نقاط البيع
 - [POSReadQueue](https://dm.namasoft.com/dm-json/POSReadQueue.json): POS Read Queue / رسائل بيانات نما
-- [POSReadQueueUpdater](https://dm.namasoft.com/dm-json/POSReadQueueUpdater.json):
+- [POSReadQueueUpdater](https://dm.namasoft.com/dm-json/POSReadQueueUpdater.json)
 - [POSReceiptFromRegister](https://dm.namasoft.com/dm-json/POSReceiptFromRegister.json): POS Receipt / مقبوض نقاط البيع
-- [POSReplacementGridLine](https://dm.namasoft.com/dm-json/POSReplacementGridLine.json):
-- [POSReplacementMainLine](https://dm.namasoft.com/dm-json/POSReplacementMainLine.json):
-- [POSReplacementOtherLine](https://dm.namasoft.com/dm-json/POSReplacementOtherLine.json):
-- [POSReturnGridLine](https://dm.namasoft.com/dm-json/POSReturnGridLine.json):
-- [POSReturnMainLine](https://dm.namasoft.com/dm-json/POSReturnMainLine.json):
-- [POSReturnOtherLine](https://dm.namasoft.com/dm-json/POSReturnOtherLine.json):
-- [POSScrapDocGridLine](https://dm.namasoft.com/dm-json/POSScrapDocGridLine.json):
-- [POSScrapDocMainLine](https://dm.namasoft.com/dm-json/POSScrapDocMainLine.json):
-- [POSScrapDocOtherLine](https://dm.namasoft.com/dm-json/POSScrapDocOtherLine.json):
+- [POSReplacementGridLine](https://dm.namasoft.com/dm-json/POSReplacementGridLine.json)
+- [POSReplacementMainLine](https://dm.namasoft.com/dm-json/POSReplacementMainLine.json)
+- [POSReplacementOtherLine](https://dm.namasoft.com/dm-json/POSReplacementOtherLine.json)
+- [POSReturnGridLine](https://dm.namasoft.com/dm-json/POSReturnGridLine.json)
+- [POSReturnMainLine](https://dm.namasoft.com/dm-json/POSReturnMainLine.json)
+- [POSReturnOtherLine](https://dm.namasoft.com/dm-json/POSReturnOtherLine.json)
+- [POSScrapDocGridLine](https://dm.namasoft.com/dm-json/POSScrapDocGridLine.json)
+- [POSScrapDocMainLine](https://dm.namasoft.com/dm-json/POSScrapDocMainLine.json)
+- [POSScrapDocOtherLine](https://dm.namasoft.com/dm-json/POSScrapDocOtherLine.json)
 - [POSSecurityProfile](https://dm.namasoft.com/dm-json/POSSecurityProfile.json): POS Security Profile / صلاحيات نقاط البيع
-- [POSServiceChargeLine](https://dm.namasoft.com/dm-json/POSServiceChargeLine.json):
+- [POSServiceChargeLine](https://dm.namasoft.com/dm-json/POSServiceChargeLine.json)
 - [POSServiceChargeSettings](https://dm.namasoft.com/dm-json/POSServiceChargeSettings.json): POS Service Charge Settings / إعدادات الخدمة السياحية في نقاط البيع
-- [POSShiftCloseLine](https://dm.namasoft.com/dm-json/POSShiftCloseLine.json):
+- [POSShiftCloseLine](https://dm.namasoft.com/dm-json/POSShiftCloseLine.json)
 - [POSShiftClosing](https://dm.namasoft.com/dm-json/POSShiftClosing.json): POS Shift Closing / غلق وردية
-- [POSShiftOpenLine](https://dm.namasoft.com/dm-json/POSShiftOpenLine.json):
+- [POSShiftOpenLine](https://dm.namasoft.com/dm-json/POSShiftOpenLine.json)
 - [POSShiftOpening](https://dm.namasoft.com/dm-json/POSShiftOpening.json): POS Shift Opening / فتح ورديه
-- [POSShortfallsDocGridLine](https://dm.namasoft.com/dm-json/POSShortfallsDocGridLine.json):
-- [POSShortfallsDocMainLine](https://dm.namasoft.com/dm-json/POSShortfallsDocMainLine.json):
-- [POSShortfallsDocOtherLine](https://dm.namasoft.com/dm-json/POSShortfallsDocOtherLine.json):
-- [POSStockReceiptGridLine](https://dm.namasoft.com/dm-json/POSStockReceiptGridLine.json):
-- [POSStockReceiptMainLine](https://dm.namasoft.com/dm-json/POSStockReceiptMainLine.json):
-- [POSStockReceiptOtherLine](https://dm.namasoft.com/dm-json/POSStockReceiptOtherLine.json):
-- [POSTakingGridLine](https://dm.namasoft.com/dm-json/POSTakingGridLine.json):
-- [POSTakingMainLine](https://dm.namasoft.com/dm-json/POSTakingMainLine.json):
-- [POSTakingOtherLine](https://dm.namasoft.com/dm-json/POSTakingOtherLine.json):
-- [POSTransferGridLine](https://dm.namasoft.com/dm-json/POSTransferGridLine.json):
-- [POSTransferMainLine](https://dm.namasoft.com/dm-json/POSTransferMainLine.json):
-- [POSTransferOtherLine](https://dm.namasoft.com/dm-json/POSTransferOtherLine.json):
-- [POSTransferWithSaveDocLine](https://dm.namasoft.com/dm-json/POSTransferWithSaveDocLine.json):
+- [POSShortfallsDocGridLine](https://dm.namasoft.com/dm-json/POSShortfallsDocGridLine.json)
+- [POSShortfallsDocMainLine](https://dm.namasoft.com/dm-json/POSShortfallsDocMainLine.json)
+- [POSShortfallsDocOtherLine](https://dm.namasoft.com/dm-json/POSShortfallsDocOtherLine.json)
+- [POSStockReceiptGridLine](https://dm.namasoft.com/dm-json/POSStockReceiptGridLine.json)
+- [POSStockReceiptMainLine](https://dm.namasoft.com/dm-json/POSStockReceiptMainLine.json)
+- [POSStockReceiptOtherLine](https://dm.namasoft.com/dm-json/POSStockReceiptOtherLine.json)
+- [POSTakingGridLine](https://dm.namasoft.com/dm-json/POSTakingGridLine.json)
+- [POSTakingMainLine](https://dm.namasoft.com/dm-json/POSTakingMainLine.json)
+- [POSTakingOtherLine](https://dm.namasoft.com/dm-json/POSTakingOtherLine.json)
+- [POSTransferGridLine](https://dm.namasoft.com/dm-json/POSTransferGridLine.json)
+- [POSTransferMainLine](https://dm.namasoft.com/dm-json/POSTransferMainLine.json)
+- [POSTransferOtherLine](https://dm.namasoft.com/dm-json/POSTransferOtherLine.json)
+- [POSTransferWithSaveDocLine](https://dm.namasoft.com/dm-json/POSTransferWithSaveDocLine.json)
 - [PVRequest](https://dm.namasoft.com/dm-json/PVRequest.json): Payment Request / طلب صرف
-- [PVRequestInstallmentLine](https://dm.namasoft.com/dm-json/PVRequestInstallmentLine.json):
+- [PVRequestInstallmentLine](https://dm.namasoft.com/dm-json/PVRequestInstallmentLine.json)
 - [PackagingMethodFile](https://dm.namasoft.com/dm-json/PackagingMethodFile.json): Packaging Method File / ملف طريقة تعبئة
 - [PartialAssemblyBOM](https://dm.namasoft.com/dm-json/PartialAssemblyBOM.json): Partial Assembly BOM / طريقة تجميع جزئية
 - [PartialSalaryPayment](https://dm.namasoft.com/dm-json/PartialSalaryPayment.json): Partial Salary Payment / ملف صرف راتب جزئي
-- [PartitionedCostReqInfo](https://dm.namasoft.com/dm-json/PartitionedCostReqInfo.json):
+- [PartitionedCostReqInfo](https://dm.namasoft.com/dm-json/PartitionedCostReqInfo.json)
 - [Partner](https://dm.namasoft.com/dm-json/Partner.json): شريك
 - [PartnerShares](https://dm.namasoft.com/dm-json/PartnerShares.json): Partner shares / أسهم الشركاء
 - [PartyEvalElementGroup](https://dm.namasoft.com/dm-json/PartyEvalElementGroup.json): Party Evaluation Elements Group / مجموعة نقاط تقييم جهة
 - [PartyEvaluation](https://dm.namasoft.com/dm-json/PartyEvaluation.json): Party Evaluation / تقييم جهة
 - [PartyEvaluationElement](https://dm.namasoft.com/dm-json/PartyEvaluationElement.json): Party Evaluation Element / عنصر تقييم جهة
-- [PayReceiptDocsSysEntry](https://dm.namasoft.com/dm-json/PayReceiptDocsSysEntry.json):
+- [PayReceiptDocsSysEntry](https://dm.namasoft.com/dm-json/PayReceiptDocsSysEntry.json)
 - [PaymentFromPosSettings](https://dm.namasoft.com/dm-json/PaymentFromPosSettings.json): Payment From Pos Settings / إعدادات دفع من خلال نقاط البيع
 - [PaymentLinksCreationDoc](https://dm.namasoft.com/dm-json/PaymentLinksCreationDoc.json): Payment Links Creation Document / سند إنشاء روابط دفع
 - [PaymentMethod](https://dm.namasoft.com/dm-json/PaymentMethod.json): Payment Method / طريقة دفع
 - [PaymentOrder](https://dm.namasoft.com/dm-json/PaymentOrder.json): Payment Order / أمر صرف
 - [PaymentScheduleTemplate](https://dm.namasoft.com/dm-json/PaymentScheduleTemplate.json): Payment Schedule Template / نموذج جدولة الدفعات
-- [PaymentSubsidiaryTypeLine](https://dm.namasoft.com/dm-json/PaymentSubsidiaryTypeLine.json):
+- [PaymentSubsidiaryTypeLine](https://dm.namasoft.com/dm-json/PaymentSubsidiaryTypeLine.json)
 - [PaymentTerminal](https://dm.namasoft.com/dm-json/PaymentTerminal.json): Payment Terminal
 - [PaymentVoucher](https://dm.namasoft.com/dm-json/PaymentVoucher.json): Payment Voucher / سند صرف
-- [PendingEntityFlow](https://dm.namasoft.com/dm-json/PendingEntityFlow.json):
-- [PendingSystemAction](https://dm.namasoft.com/dm-json/PendingSystemAction.json):
-- [PendingTask](https://dm.namasoft.com/dm-json/PendingTask.json):
+- [PendingEntityFlow](https://dm.namasoft.com/dm-json/PendingEntityFlow.json)
+- [PendingSystemAction](https://dm.namasoft.com/dm-json/PendingSystemAction.json)
+- [PendingTask](https://dm.namasoft.com/dm-json/PendingTask.json)
 - [PerformanceIndicator](https://dm.namasoft.com/dm-json/PerformanceIndicator.json): Performance Indicator / مؤشر الأداء
 - [PerformanceMeasure](https://dm.namasoft.com/dm-json/PerformanceMeasure.json): Performance Measure / قيمة مؤشر أداء
 - [PerformanceOptimizer](https://dm.namasoft.com/dm-json/PerformanceOptimizer.json): Performance Optimizer / إعدادات لتحسين الأداء
@@ -1513,10 +1513,10 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [PeriodicMonthlySalesOfferCalc](https://dm.namasoft.com/dm-json/PeriodicMonthlySalesOfferCalc.json): Periodic Monthly Sales Offer Calculation / حساب عروض المبيعات الفترية
 - [PickRules](https://dm.namasoft.com/dm-json/PickRules.json): Pick Rules / قواعد السحب
 - [PickupPlan](https://dm.namasoft.com/dm-json/PickupPlan.json): Pickup Plan / خط سير
-- [PosConfigRequestAuthorizationLine](https://dm.namasoft.com/dm-json/PosConfigRequestAuthorizationLine.json):
-- [PosMinChargeLine](https://dm.namasoft.com/dm-json/PosMinChargeLine.json):
+- [PosConfigRequestAuthorizationLine](https://dm.namasoft.com/dm-json/PosConfigRequestAuthorizationLine.json)
+- [PosMinChargeLine](https://dm.namasoft.com/dm-json/PosMinChargeLine.json)
 - [PosMinChargeSettings](https://dm.namasoft.com/dm-json/PosMinChargeSettings.json): Pos Minimum Charge Settings / إعدادات الحد الأدنى للطلب في نقاط البيع
-- [PosReturnFromInvoiceEntry](https://dm.namasoft.com/dm-json/PosReturnFromInvoiceEntry.json):
+- [PosReturnFromInvoiceEntry](https://dm.namasoft.com/dm-json/PosReturnFromInvoiceEntry.json)
 - [PostHandoverCost](https://dm.namasoft.com/dm-json/PostHandoverCost.json): Post Handover Cost / تكلفة ما بعد التسليم
 - [PostSalesOffer](https://dm.namasoft.com/dm-json/PostSalesOffer.json): Post Sales Offer / عرض ما بعد البيع
 - [PostSalesOfferClaim](https://dm.namasoft.com/dm-json/PostSalesOfferClaim.json): Post Sales Offer Claim / مطالبة عرض ما بعد البيع
@@ -1527,7 +1527,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [PrepaidExpenseItem](https://dm.namasoft.com/dm-json/PrepaidExpenseItem.json): Prepaid Expense Item / بند مصروف مقدم
 - [PrepaidExpenseLedger](https://dm.namasoft.com/dm-json/PrepaidExpenseLedger.json): Prepaid Expense Ledger / قيد استحقاق مصروف مقدم
 - [PreventAccTransactions](https://dm.namasoft.com/dm-json/PreventAccTransactions.json): Prevent Transactions On Accounts Or Subsidiaries / منع الحركات على حسابات او ذممم
-- [PreventRegenerateSalaryDocs](https://dm.namasoft.com/dm-json/PreventRegenerateSalaryDocs.json):
+- [PreventRegenerateSalaryDocs](https://dm.namasoft.com/dm-json/PreventRegenerateSalaryDocs.json)
 - [PreventUsingBatch](https://dm.namasoft.com/dm-json/PreventUsingBatch.json): Prevent Using Batch / منع إستخدام الشحنة
 - [PriceVotingDoc](https://dm.namasoft.com/dm-json/PriceVotingDoc.json): Price Voting Document / مستند التصويت على الأسعار
 - [PriceVotingFile](https://dm.namasoft.com/dm-json/PriceVotingFile.json): Price Voting File / ملف التصويت على الأسعار
@@ -1538,11 +1538,11 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [ProductReturn](https://dm.namasoft.com/dm-json/ProductReturn.json): Product Return / إرتجاع منتج
 - [ProductReturnReq](https://dm.namasoft.com/dm-json/ProductReturnReq.json): Product return request / طلب ارتجاع منتج
 - [ProductionExecution](https://dm.namasoft.com/dm-json/ProductionExecution.json): Production Execution / تنفيذ إنتاج
-- [ProductionMovementSysEntry](https://dm.namasoft.com/dm-json/ProductionMovementSysEntry.json):
+- [ProductionMovementSysEntry](https://dm.namasoft.com/dm-json/ProductionMovementSysEntry.json)
 - [ProductionOrder](https://dm.namasoft.com/dm-json/ProductionOrder.json): Production Order / أمر إنتاج
 - [ProductionOrderRequest](https://dm.namasoft.com/dm-json/ProductionOrderRequest.json): Production Order Request / طلب أمر إنتاج
 - [ProductionSampleDoc](https://dm.namasoft.com/dm-json/ProductionSampleDoc.json): Production Sample Document / سند سحب عينة
-- [ProductionSysEntry](https://dm.namasoft.com/dm-json/ProductionSysEntry.json):
+- [ProductionSysEntry](https://dm.namasoft.com/dm-json/ProductionSysEntry.json)
 - [ProfitDistributationDoc](https://dm.namasoft.com/dm-json/ProfitDistributationDoc.json): Profits Distribution Doc / مستند توزيع أرباح
 - [ProformaPurchaseInvoice](https://dm.namasoft.com/dm-json/ProformaPurchaseInvoice.json): Proforma Purchase Invoice / فاتورة شراء مبدئية
 - [ProformaSalesInvoice](https://dm.namasoft.com/dm-json/ProformaSalesInvoice.json): Proforma Sales Invoice / فاتورة بيع مبدئية
@@ -1554,8 +1554,8 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [ProjectContractFine](https://dm.namasoft.com/dm-json/ProjectContractFine.json): Project Contract Fine / سند غرامة عقد مشروع
 - [ProjectContractUpdate](https://dm.namasoft.com/dm-json/ProjectContractUpdate.json): Project Contract Update / تعديل عقد مشروع
 - [ProjectDeliverLetter](https://dm.namasoft.com/dm-json/ProjectDeliverLetter.json): Project Deliver Letter / خطاب تسليم مشروع
-- [PseudoContractingSalesLine](https://dm.namasoft.com/dm-json/PseudoContractingSalesLine.json):
-- [PseudoSalesLine](https://dm.namasoft.com/dm-json/PseudoSalesLine.json):
+- [PseudoContractingSalesLine](https://dm.namasoft.com/dm-json/PseudoContractingSalesLine.json)
+- [PseudoSalesLine](https://dm.namasoft.com/dm-json/PseudoSalesLine.json)
 - [PurchaseDocumentUpdate](https://dm.namasoft.com/dm-json/PurchaseDocumentUpdate.json): Purchase Document Update / تعديل سندات شراء
 - [PurchaseElement](https://dm.namasoft.com/dm-json/PurchaseElement.json): Purchase Element / بند شراء
 - [PurchaseForecast](https://dm.namasoft.com/dm-json/PurchaseForecast.json): Purchase Forecast / موازنة المشتريات
@@ -1564,17 +1564,17 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [PurchaseOrder](https://dm.namasoft.com/dm-json/PurchaseOrder.json): Purchase Order / أمر شراء
 - [PurchasePriceComparing](https://dm.namasoft.com/dm-json/PurchasePriceComparing.json): Purchase Price Comparing / مقارنة أسعار مشتريات
 - [PurchasePriceList](https://dm.namasoft.com/dm-json/PurchasePriceList.json): Purchase Price List / قائمة أسعار المشتريات
-- [PurchasePriceSysLine](https://dm.namasoft.com/dm-json/PurchasePriceSysLine.json):
+- [PurchasePriceSysLine](https://dm.namasoft.com/dm-json/PurchasePriceSysLine.json)
 - [PurchaseQuotation](https://dm.namasoft.com/dm-json/PurchaseQuotation.json): Purchase Quotation / عرض أسعار مشتريات
 - [PurchaseQuotationRequest](https://dm.namasoft.com/dm-json/PurchaseQuotationRequest.json): Request For Purchase Quotation / طلب عرض أسعار مشتريات
 - [PurchaseReturn](https://dm.namasoft.com/dm-json/PurchaseReturn.json): Purchase Return / مردودات مشتريات
 - [PurchaseReturnReq](https://dm.namasoft.com/dm-json/PurchaseReturnReq.json): Purchase Return Request / طلب مردودات مشتريات
 - [PurgeConfig](https://dm.namasoft.com/dm-json/PurgeConfig.json): Purge Configuration
-- [PurgeInformation](https://dm.namasoft.com/dm-json/PurgeInformation.json):
+- [PurgeInformation](https://dm.namasoft.com/dm-json/PurgeInformation.json)
 - [PurgeJournal](https://dm.namasoft.com/dm-json/PurgeJournal.json): Purge Journal
 - [PurgeStockReceipt](https://dm.namasoft.com/dm-json/PurgeStockReceipt.json): Purge Stock Receipt
-- [QtyTrackingTotalEntry](https://dm.namasoft.com/dm-json/QtyTrackingTotalEntry.json):
-- [QtyTrackingTransactionEntry](https://dm.namasoft.com/dm-json/QtyTrackingTransactionEntry.json):
+- [QtyTrackingTotalEntry](https://dm.namasoft.com/dm-json/QtyTrackingTotalEntry.json)
+- [QtyTrackingTransactionEntry](https://dm.namasoft.com/dm-json/QtyTrackingTransactionEntry.json)
 - [QtyTrans](https://dm.namasoft.com/dm-json/QtyTrans.json): Quantity Transaction / قيود الكميات
 - [QualityAssuranceDoc](https://dm.namasoft.com/dm-json/QualityAssuranceDoc.json): Quality Assurance document / سند تاكيد الجودة
 - [QualityAssuranceReq](https://dm.namasoft.com/dm-json/QualityAssuranceReq.json): Quality assurance Request / طلب تأكيد جودة
@@ -1585,7 +1585,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [QueueServiceBranch](https://dm.namasoft.com/dm-json/QueueServiceBranch.json): Queue Service Branch / فرع خدمة طوابير
 - [QueueServiceConfig](https://dm.namasoft.com/dm-json/QueueServiceConfig.json): Queue Service Configurations / إعدادات طوابير الخدمة
 - [QuickFilterCriteria](https://dm.namasoft.com/dm-json/QuickFilterCriteria.json): Quick Filter Criteria / معيار الفلترة السريعة
-- [RARentalAssetEntry](https://dm.namasoft.com/dm-json/RARentalAssetEntry.json):
+- [RARentalAssetEntry](https://dm.namasoft.com/dm-json/RARentalAssetEntry.json)
 - [RARentalInvoice](https://dm.namasoft.com/dm-json/RARentalInvoice.json): Rental Asset Invoice / فاتورة حجز تأجيرى
 - [RARentalRequest](https://dm.namasoft.com/dm-json/RARentalRequest.json): Rental Asset Request / طلب حجز تأجيرى
 - [RAReservationCancel](https://dm.namasoft.com/dm-json/RAReservationCancel.json): Rental Asset Reservation Cancel / إلغاء حجز أصل تأجيري
@@ -1602,7 +1602,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [RECostDocument](https://dm.namasoft.com/dm-json/RECostDocument.json): RE Cost Document / سند تكلفة استثمار عقاري
 - [REEStateHandover](https://dm.namasoft.com/dm-json/REEStateHandover.json): Estate Handover / تسليم وحدة
 - [REEstateAddition](https://dm.namasoft.com/dm-json/REEstateAddition.json): RE Estate Addition / سند تعلية عقار
-- [REEstateCostEntry](https://dm.namasoft.com/dm-json/REEstateCostEntry.json):
+- [REEstateCostEntry](https://dm.namasoft.com/dm-json/REEstateCostEntry.json)
 - [REEstateOpeningCost](https://dm.namasoft.com/dm-json/REEstateOpeningCost.json): RE Estate Opening Cost / سند افتتاحي تكلفة عقار
 - [REExemptionDoc](https://dm.namasoft.com/dm-json/REExemptionDoc.json): Exemption Document / سند إعفاء إيجار
 - [REExpenseItem](https://dm.namasoft.com/dm-json/REExpenseItem.json): RE Expense Item / بند مصروف استثمار عقاري
@@ -1615,8 +1615,8 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [REInitialSalesContract](https://dm.namasoft.com/dm-json/REInitialSalesContract.json): Initial sales contract / عقد بيع مبدئي
 - [REInspectionDoc](https://dm.namasoft.com/dm-json/REInspectionDoc.json): Inspection Document / محضر استلام
 - [REInvestmentFund](https://dm.namasoft.com/dm-json/REInvestmentFund.json): RE Investment Fund / صندوق استثمار عقاري
-- [REInvestmentFundInvestor](https://dm.namasoft.com/dm-json/REInvestmentFundInvestor.json):
-- [REInvestmentFundInvestorTransaction](https://dm.namasoft.com/dm-json/REInvestmentFundInvestorTransaction.json):
+- [REInvestmentFundInvestor](https://dm.namasoft.com/dm-json/REInvestmentFundInvestor.json)
+- [REInvestmentFundInvestorTransaction](https://dm.namasoft.com/dm-json/REInvestmentFundInvestorTransaction.json)
 - [REInvestorExit](https://dm.namasoft.com/dm-json/REInvestorExit.json): RE Investor Exit / سند خروج مستثمرين
 - [RELand](https://dm.namasoft.com/dm-json/RELand.json): RE Land / قطعة أرض
 - [REMaintenanceAccrual](https://dm.namasoft.com/dm-json/REMaintenanceAccrual.json): Maintenance Accrual / إثبات استحقاق الصيانة
@@ -1633,16 +1633,16 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [REOwnerShipTransfer](https://dm.namasoft.com/dm-json/REOwnerShipTransfer.json): OwnerShip Transfer Document / سند تحويل ملكية
 - [REProject](https://dm.namasoft.com/dm-json/REProject.json): RE Project / مشروع استثمار عقاري
 - [REPurchaseContract](https://dm.namasoft.com/dm-json/REPurchaseContract.json): Estate Purchase Contract / عقد شراء عقار
-- [REPurchaseValueAndRevaluationEntry](https://dm.namasoft.com/dm-json/REPurchaseValueAndRevaluationEntry.json):
+- [REPurchaseValueAndRevaluationEntry](https://dm.namasoft.com/dm-json/REPurchaseValueAndRevaluationEntry.json)
 - [RERentContract](https://dm.namasoft.com/dm-json/RERentContract.json): Rent Contract / عقد إيجار
 - [RERentInstallmentLedger](https://dm.namasoft.com/dm-json/RERentInstallmentLedger.json): Rent Installment Ledger / قيد إثبات استحقاق قسط إيجار
 - [RERentOffer](https://dm.namasoft.com/dm-json/RERentOffer.json): Rent offer / عرض سعر ايجار
 - [RERentOfferCancel](https://dm.namasoft.com/dm-json/RERentOfferCancel.json): Rent offer Cancel / إلغاء حجز عرض سعر إيجار
 - [RERentalUnit](https://dm.namasoft.com/dm-json/RERentalUnit.json): Rental Unit / وحدة استثمار عقاري
-- [RERentalunitsalesLine](https://dm.namasoft.com/dm-json/RERentalunitsalesLine.json):
+- [RERentalunitsalesLine](https://dm.namasoft.com/dm-json/RERentalunitsalesLine.json)
 - [REReservationDoc](https://dm.namasoft.com/dm-json/REReservationDoc.json): RE Reservation document / مستند حجز استثمار عقاري
 - [REReservationDocCancel](https://dm.namasoft.com/dm-json/REReservationDocCancel.json): RE Reservation Document Cancel / سند إلغاء حجز استثمار عقاري
-- [REReservationEntry](https://dm.namasoft.com/dm-json/REReservationEntry.json):
+- [REReservationEntry](https://dm.namasoft.com/dm-json/REReservationEntry.json)
 - [REReturnPaymentDoc](https://dm.namasoft.com/dm-json/REReturnPaymentDoc.json): RE Return Payment Document / سند سداد عائد
 - [RERevaluationDoc](https://dm.namasoft.com/dm-json/RERevaluationDoc.json): Estate Revaluation Document / سند إعادة تقييم عقارات
 - [RESalesDoc](https://dm.namasoft.com/dm-json/RESalesDoc.json): Sales Contract / عقد بيع
@@ -1651,7 +1651,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [RESalesPriceList](https://dm.namasoft.com/dm-json/RESalesPriceList.json): Sales Price List / قائمة أسعار استثمار عقاري
 - [RESquare](https://dm.namasoft.com/dm-json/RESquare.json): Square / مربع
 - [REStandardTermsConditions](https://dm.namasoft.com/dm-json/REStandardTermsConditions.json): RE Standard Terms And Conditions / بنود تعاقد قياسيه
-- [RESysEntry](https://dm.namasoft.com/dm-json/RESysEntry.json):
+- [RESysEntry](https://dm.namasoft.com/dm-json/RESysEntry.json)
 - [RETempReservation](https://dm.namasoft.com/dm-json/RETempReservation.json): Temporary Reservation / حجز مؤقت
 - [REUnitGroup](https://dm.namasoft.com/dm-json/REUnitGroup.json): RE Unit group / وحدة مجمعة
 - [REUnitModel](https://dm.namasoft.com/dm-json/REUnitModel.json): Unit Model / نموذج وحدة
@@ -1663,7 +1663,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [RawMaterialIssueReq](https://dm.namasoft.com/dm-json/RawMaterialIssueReq.json): Raw material issue request / طلب صرف مواد خام
 - [RawMaterialReturn](https://dm.namasoft.com/dm-json/RawMaterialReturn.json): Raw Materials Return / إرتجاع مواد خام
 - [RawMaterialReturnReq](https://dm.namasoft.com/dm-json/RawMaterialReturnReq.json): Raw material return request / طلب ارتجاع مواد خام
-- [RealEstateTaxPlan](https://dm.namasoft.com/dm-json/RealEstateTaxPlan.json):
+- [RealEstateTaxPlan](https://dm.namasoft.com/dm-json/RealEstateTaxPlan.json)
 - [RecallCampaign](https://dm.namasoft.com/dm-json/RecallCampaign.json): Recall Campaign / حملة إستدعاء
 - [ReceiptAdditionalCost](https://dm.namasoft.com/dm-json/ReceiptAdditionalCost.json): Receipt Additional Cost / تكاليف إستلام إضافية
 - [ReceiptBook](https://dm.namasoft.com/dm-json/ReceiptBook.json): Receipt Book / دفتر إيصالات
@@ -1671,14 +1671,14 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [ReceiptOrder](https://dm.namasoft.com/dm-json/ReceiptOrder.json): Receipt Order / أمر قبض
 - [ReceiptPaper](https://dm.namasoft.com/dm-json/ReceiptPaper.json): Receipt Paper / إيصال
 - [ReceiptStockTransfer](https://dm.namasoft.com/dm-json/ReceiptStockTransfer.json): Receipt Stock Transfer / استلام تحويل مخزني
-- [ReceiptSubsidiaryTypeLine](https://dm.namasoft.com/dm-json/ReceiptSubsidiaryTypeLine.json):
+- [ReceiptSubsidiaryTypeLine](https://dm.namasoft.com/dm-json/ReceiptSubsidiaryTypeLine.json)
 - [ReceiptVoucher](https://dm.namasoft.com/dm-json/ReceiptVoucher.json): Receipt Voucher / سند قبض
 - [RecordImportConfig](https://dm.namasoft.com/dm-json/RecordImportConfig.json): Record Import Configuration / إعدادات استيراد سجلات
 - [RecordImportDoc](https://dm.namasoft.com/dm-json/RecordImportDoc.json): Record Import Document / مستند استيراد سجلات
 - [RecordImportList](https://dm.namasoft.com/dm-json/RecordImportList.json): Record Import List / قائمة استيراد سجلات
 - [RecuringDocument](https://dm.namasoft.com/dm-json/RecuringDocument.json): Recuring Document / ملف مستندات دورية
-- [RegenSalaryDocsAllowedStatus](https://dm.namasoft.com/dm-json/RegenSalaryDocsAllowedStatus.json):
-- [RegenSalarySheetsAllowedStatus](https://dm.namasoft.com/dm-json/RegenSalarySheetsAllowedStatus.json):
+- [RegenSalaryDocsAllowedStatus](https://dm.namasoft.com/dm-json/RegenSalaryDocsAllowedStatus.json)
+- [RegenSalarySheetsAllowedStatus](https://dm.namasoft.com/dm-json/RegenSalarySheetsAllowedStatus.json)
 - [RegulationArticle](https://dm.namasoft.com/dm-json/RegulationArticle.json): Regulation Article / مادة لائحة
 - [RegulationChapter](https://dm.namasoft.com/dm-json/RegulationChapter.json): Regulation Chapter / فصل لائحة
 - [RegulationCirculars](https://dm.namasoft.com/dm-json/RegulationCirculars.json): Regulation Circulation / تعميم لائحة
@@ -1693,10 +1693,10 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [RentalAsset](https://dm.namasoft.com/dm-json/RentalAsset.json): Rental Asset / أصل تأجيرى
 - [RentalAssetClassification](https://dm.namasoft.com/dm-json/RentalAssetClassification.json): Rental Asset Classification / تصنيف أصل تأجيري
 - [ReplicationSite](https://dm.namasoft.com/dm-json/ReplicationSite.json): Replication Site / موقع تكرار
-- [ReplicationStatistics](https://dm.namasoft.com/dm-json/ReplicationStatistics.json):
+- [ReplicationStatistics](https://dm.namasoft.com/dm-json/ReplicationStatistics.json)
 - [ReportDefinition](https://dm.namasoft.com/dm-json/ReportDefinition.json): Report Definition / تعريف تقرير
 - [ReportGroup](https://dm.namasoft.com/dm-json/ReportGroup.json): Report Group / مجموعة تقارير
-- [ReportLog](https://dm.namasoft.com/dm-json/ReportLog.json):
+- [ReportLog](https://dm.namasoft.com/dm-json/ReportLog.json)
 - [ReportStyle](https://dm.namasoft.com/dm-json/ReportStyle.json): Report Style
 - [ReportWizard](https://dm.namasoft.com/dm-json/ReportWizard.json): Report Wizard / أداة إنشاء تقرير
 - [RequiredFields](https://dm.namasoft.com/dm-json/RequiredFields.json): Required Fields / الحقول المطلوبة
@@ -1712,22 +1712,22 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [RewardAndPenaltieDocument](https://dm.namasoft.com/dm-json/RewardAndPenaltieDocument.json): (Reward / Penalty ) Document / سند مكافأة/جزاء
 - [RewardAndPenalty](https://dm.namasoft.com/dm-json/RewardAndPenalty.json): Reward / Penalty / نوع مكافأة / جزاء
 - [RewardPointCalculatorConfig](https://dm.namasoft.com/dm-json/RewardPointCalculatorConfig.json): Customer Reward Point Calculator / نقاط المكافأة للعملاء
-- [RewardPointRedeemSysEntry](https://dm.namasoft.com/dm-json/RewardPointRedeemSysEntry.json):
-- [RewardPointTransactionSysEntry](https://dm.namasoft.com/dm-json/RewardPointTransactionSysEntry.json):
+- [RewardPointRedeemSysEntry](https://dm.namasoft.com/dm-json/RewardPointRedeemSysEntry.json)
+- [RewardPointTransactionSysEntry](https://dm.namasoft.com/dm-json/RewardPointTransactionSysEntry.json)
 - [RewardPointsConfig](https://dm.namasoft.com/dm-json/RewardPointsConfig.json): Reward Points Configuration / إعدادات نقاط المكافأة
 - [RewardPointsOpening](https://dm.namasoft.com/dm-json/RewardPointsOpening.json): Reward Points Opening / سند إفتتاحي نقاط ولاء
 - [RewardPointsRestriction](https://dm.namasoft.com/dm-json/RewardPointsRestriction.json): Reward Points Restriction / منع احتساب أو صرف نقاط الولاء
-- [RewardRedeemDetailedSysEntry](https://dm.namasoft.com/dm-json/RewardRedeemDetailedSysEntry.json):
+- [RewardRedeemDetailedSysEntry](https://dm.namasoft.com/dm-json/RewardRedeemDetailedSysEntry.json)
 - [Routing](https://dm.namasoft.com/dm-json/Routing.json): عملية تشغيل
-- [SCBox](https://dm.namasoft.com/dm-json/SCBox.json):
-- [SCCollectPropertyOrderConfigLine](https://dm.namasoft.com/dm-json/SCCollectPropertyOrderConfigLine.json):
+- [SCBox](https://dm.namasoft.com/dm-json/SCBox.json)
+- [SCCollectPropertyOrderConfigLine](https://dm.namasoft.com/dm-json/SCCollectPropertyOrderConfigLine.json)
 - [SCCopierExtraFields](https://dm.namasoft.com/dm-json/SCCopierExtraFields.json): Copier Extra Fields / الحقول الإضافية لإنشاء المستندات
 - [SCDocRuleSet](https://dm.namasoft.com/dm-json/SCDocRuleSet.json): Doc Generation Rule Set / قائمة قواعد
-- [SCDocSecondSerial](https://dm.namasoft.com/dm-json/SCDocSecondSerial.json):
-- [SCDocSerial](https://dm.namasoft.com/dm-json/SCDocSerial.json):
+- [SCDocSecondSerial](https://dm.namasoft.com/dm-json/SCDocSecondSerial.json)
+- [SCDocSerial](https://dm.namasoft.com/dm-json/SCDocSerial.json)
 - [SCExtraDocCreationRule](https://dm.namasoft.com/dm-json/SCExtraDocCreationRule.json): SC Creation Rule / قاعدة إنشاء مستندات  مخزنية
-- [SCGridConfigLine](https://dm.namasoft.com/dm-json/SCGridConfigLine.json):
-- [SCMeasuresFactorsLine](https://dm.namasoft.com/dm-json/SCMeasuresFactorsLine.json):
+- [SCGridConfigLine](https://dm.namasoft.com/dm-json/SCGridConfigLine.json)
+- [SCMeasuresFactorsLine](https://dm.namasoft.com/dm-json/SCMeasuresFactorsLine.json)
 - [SIAggregatedInsurancePolicyRequest](https://dm.namasoft.com/dm-json/SIAggregatedInsurancePolicyRequest.json): Aggregated Car Insurance Policy Request / طلب وثيقة تأمين سيارة مجمع
 - [SIAllocation](https://dm.namasoft.com/dm-json/SIAllocation.json): Car Allocation / تخصيص سيارة
 - [SIAllocationCancel](https://dm.namasoft.com/dm-json/SIAllocationCancel.json): Car Allocation Cancel / إلغاء تخصيص سيارة
@@ -1752,7 +1752,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [SIReceipt](https://dm.namasoft.com/dm-json/SIReceipt.json): Car Receipt / توريد سيارة
 - [SIReceiptCancel](https://dm.namasoft.com/dm-json/SIReceiptCancel.json): Car Receipt Cancel / إلغاء توريد سيارة
 - [SISalesApproval](https://dm.namasoft.com/dm-json/SISalesApproval.json): Car Sales Approval / اعتماد بيع سيارة
-- [SISalesInvGeneratedDocsLine](https://dm.namasoft.com/dm-json/SISalesInvGeneratedDocsLine.json):
+- [SISalesInvGeneratedDocsLine](https://dm.namasoft.com/dm-json/SISalesInvGeneratedDocsLine.json)
 - [SISalesInvoice](https://dm.namasoft.com/dm-json/SISalesInvoice.json): Car Sales Invoice / فاتورة مبيعات سيارة
 - [SISalesOrder](https://dm.namasoft.com/dm-json/SISalesOrder.json): Car Sales Order / أمر بيع سيارة
 - [SISalesOrderCancel](https://dm.namasoft.com/dm-json/SISalesOrderCancel.json): Car Sales OrderCancel / إلغاء أمر بيع سيارة
@@ -1766,32 +1766,32 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [SMFInitialOperationDoc](https://dm.namasoft.com/dm-json/SMFInitialOperationDoc.json): SMF Initial Operation Document / مستند العمليات المبدئية
 - [SMFProblemDeclarationDoc](https://dm.namasoft.com/dm-json/SMFProblemDeclarationDoc.json): SMF Problem Declaration Document / مستند التصريح بمشكلة
 - [SMFSolutionSuggestionDoc](https://dm.namasoft.com/dm-json/SMFSolutionSuggestionDoc.json): SMF Solution Suggestion Document / مستند اقتراح حل
-- [STCLoyaltyPointsRewardEntry](https://dm.namasoft.com/dm-json/STCLoyaltyPointsRewardEntry.json):
-- [SWInvItemTrans](https://dm.namasoft.com/dm-json/SWInvItemTrans.json):
-- [SWMatchedInvItemTrans](https://dm.namasoft.com/dm-json/SWMatchedInvItemTrans.json):
-- [SWQuentityReprocessReq](https://dm.namasoft.com/dm-json/SWQuentityReprocessReq.json):
+- [STCLoyaltyPointsRewardEntry](https://dm.namasoft.com/dm-json/STCLoyaltyPointsRewardEntry.json)
+- [SWInvItemTrans](https://dm.namasoft.com/dm-json/SWInvItemTrans.json)
+- [SWMatchedInvItemTrans](https://dm.namasoft.com/dm-json/SWMatchedInvItemTrans.json)
+- [SWQuentityReprocessReq](https://dm.namasoft.com/dm-json/SWQuentityReprocessReq.json)
 - [SafeDeposite](https://dm.namasoft.com/dm-json/SafeDeposite.json): Safe Deposit / خزينة
 - [SalaryBlockDocument](https://dm.namasoft.com/dm-json/SalaryBlockDocument.json): Salary Block / حجب راتب موظف
 - [SalaryBlockRule](https://dm.namasoft.com/dm-json/SalaryBlockRule.json): Salary Block Rule / قاعدة حجب مرتب
 - [SalaryComponent](https://dm.namasoft.com/dm-json/SalaryComponent.json): Salary Component / مفرد راتب
 - [SalaryComponentGroup](https://dm.namasoft.com/dm-json/SalaryComponentGroup.json): Salary Component Group / مجموعة مفردات راتب
 - [SalaryComponentType](https://dm.namasoft.com/dm-json/SalaryComponentType.json): Salary Component Type / نوع المفرد
-- [SalaryDetailSysEntry](https://dm.namasoft.com/dm-json/SalaryDetailSysEntry.json):
+- [SalaryDetailSysEntry](https://dm.namasoft.com/dm-json/SalaryDetailSysEntry.json)
 - [SalaryDocument](https://dm.namasoft.com/dm-json/SalaryDocument.json): Salary Document / سند الراتب
 - [SalaryGenerationRange](https://dm.namasoft.com/dm-json/SalaryGenerationRange.json): Salary Generation Range / مجال اصدار الرواتب
 - [SalarySheet](https://dm.namasoft.com/dm-json/SalarySheet.json): Salary Sheet / سجل الرواتب
-- [SalarySheetLine](https://dm.namasoft.com/dm-json/SalarySheetLine.json):
-- [SalarySheetTermLine](https://dm.namasoft.com/dm-json/SalarySheetTermLine.json):
+- [SalarySheetLine](https://dm.namasoft.com/dm-json/SalarySheetLine.json)
+- [SalarySheetTermLine](https://dm.namasoft.com/dm-json/SalarySheetTermLine.json)
 - [SalaryStructure](https://dm.namasoft.com/dm-json/SalaryStructure.json): Salary Structure / هيكل راتب
 - [SalaryUnBlockDocument](https://dm.namasoft.com/dm-json/SalaryUnBlockDocument.json): Salary UnBlock / إلغاء حجب راتب
-- [SalasaRequestLog](https://dm.namasoft.com/dm-json/SalasaRequestLog.json):
+- [SalasaRequestLog](https://dm.namasoft.com/dm-json/SalasaRequestLog.json)
 - [SalesCouponsCodingMethod](https://dm.namasoft.com/dm-json/SalesCouponsCodingMethod.json): Sales Coupons Coding Method / طريقة تكويد قسائم البيع
 - [SalesForecast](https://dm.namasoft.com/dm-json/SalesForecast.json): Sales Forecast / موازنة المبيعات
 - [SalesInvoice](https://dm.namasoft.com/dm-json/SalesInvoice.json): Sales Invoice / فاتورة مبيعات
 - [SalesManUpdateDocument](https://dm.namasoft.com/dm-json/SalesManUpdateDocument.json): Sales Man Update Document / سند تحديث مندوب المبيعات
 - [SalesOffers](https://dm.namasoft.com/dm-json/SalesOffers.json): Sales Offer / عرض
 - [SalesOrder](https://dm.namasoft.com/dm-json/SalesOrder.json): Sales Order / أمر بيع
-- [SalesOrderCouponSysEntry](https://dm.namasoft.com/dm-json/SalesOrderCouponSysEntry.json):
+- [SalesOrderCouponSysEntry](https://dm.namasoft.com/dm-json/SalesOrderCouponSysEntry.json)
 - [SalesPoints](https://dm.namasoft.com/dm-json/SalesPoints.json): Sales Points / نقط المبيعات
 - [SalesPriceClassifier1](https://dm.namasoft.com/dm-json/SalesPriceClassifier1.json): Sales Price Classifier 1 / محدد سعر مبيعات 1
 - [SalesPriceClassifier2](https://dm.namasoft.com/dm-json/SalesPriceClassifier2.json): Sales Price Classifier 2 / محدد سعر مبيعات 2
@@ -1800,7 +1800,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [SalesPriceClassifier5](https://dm.namasoft.com/dm-json/SalesPriceClassifier5.json): Sales Price Classifier 5 / محدد سعر مبيعات 5
 - [SalesPriceInPoints](https://dm.namasoft.com/dm-json/SalesPriceInPoints.json): Price List In Points / قوائم الأسعار بالنقاط
 - [SalesPriceList](https://dm.namasoft.com/dm-json/SalesPriceList.json): Price List / قائمة أسعار
-- [SalesPriceSysLine](https://dm.namasoft.com/dm-json/SalesPriceSysLine.json):
+- [SalesPriceSysLine](https://dm.namasoft.com/dm-json/SalesPriceSysLine.json)
 - [SalesQuotation](https://dm.namasoft.com/dm-json/SalesQuotation.json): Sales Quotation / عرض أسعار
 - [SalesQuotationRequest](https://dm.namasoft.com/dm-json/SalesQuotationRequest.json): Request For Sales Quotation / طلب عرض أسعار
 - [SalesReplacement](https://dm.namasoft.com/dm-json/SalesReplacement.json): Sales Replacement / سند استبدال مبيعات
@@ -1808,29 +1808,29 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [SalesReturn](https://dm.namasoft.com/dm-json/SalesReturn.json): Sales Return / مردودات مبيعات
 - [SalesReturnRequest](https://dm.namasoft.com/dm-json/SalesReturnRequest.json): Sales Return Request / طلب مردودات مبيعات
 - [SalesStandardTerm](https://dm.namasoft.com/dm-json/SalesStandardTerm.json): Sales Standard Term / بند بيع قياسي
-- [SavedBusinessRequest](https://dm.namasoft.com/dm-json/SavedBusinessRequest.json):
-- [SavedEntityRequest](https://dm.namasoft.com/dm-json/SavedEntityRequest.json):
+- [SavedBusinessRequest](https://dm.namasoft.com/dm-json/SavedBusinessRequest.json)
+- [SavedEntityRequest](https://dm.namasoft.com/dm-json/SavedEntityRequest.json)
 - [Scenario](https://dm.namasoft.com/dm-json/Scenario.json): سيناريو
 - [ScrapReceipt](https://dm.namasoft.com/dm-json/ScrapReceipt.json): Scrap Receipt / إستلام تالف
 - [ScreenModifier](https://dm.namasoft.com/dm-json/ScreenModifier.json): Screen Modifier / تعديل شاشة
 - [Season](https://dm.namasoft.com/dm-json/Season.json): موسم
 - [Sector](https://dm.namasoft.com/dm-json/Sector.json): قطاع
-- [SectorParentLine](https://dm.namasoft.com/dm-json/SectorParentLine.json):
+- [SectorParentLine](https://dm.namasoft.com/dm-json/SectorParentLine.json)
 - [SecurityCapability](https://dm.namasoft.com/dm-json/SecurityCapability.json): Capability Types / نوع الصلاحيات
 - [SecurityProfile](https://dm.namasoft.com/dm-json/SecurityProfile.json): Security Profile / ملف الصلاحيات
 - [SecurityProfileTransfer](https://dm.namasoft.com/dm-json/SecurityProfileTransfer.json): Security Profile Transfer / صلاحيات إضافية مؤقته
-- [SentEntityToAnotherServerSysEntry](https://dm.namasoft.com/dm-json/SentEntityToAnotherServerSysEntry.json):
-- [SequenceEntity](https://dm.namasoft.com/dm-json/SequenceEntity.json):
+- [SentEntityToAnotherServerSysEntry](https://dm.namasoft.com/dm-json/SentEntityToAnotherServerSysEntry.json)
+- [SequenceEntity](https://dm.namasoft.com/dm-json/SequenceEntity.json)
 - [ServiceItemBOM](https://dm.namasoft.com/dm-json/ServiceItemBOM.json): Service Item BOM / تفاصيل التشغيل
-- [ShipmentDeliveryLine](https://dm.namasoft.com/dm-json/ShipmentDeliveryLine.json):
+- [ShipmentDeliveryLine](https://dm.namasoft.com/dm-json/ShipmentDeliveryLine.json)
 - [ShippingPort](https://dm.namasoft.com/dm-json/ShippingPort.json): Shipping Port / ميناء شحن
 - [ShoppingMobAppConfig](https://dm.namasoft.com/dm-json/ShoppingMobAppConfig.json): Shopping Mobile Application Configuration / ملف إعدادات تطبيق التسوق
 - [ShortCutsDefinition](https://dm.namasoft.com/dm-json/ShortCutsDefinition.json): Shortcuts Definition / تعريف اختصارات
-- [SiteOutMessage](https://dm.namasoft.com/dm-json/SiteOutMessage.json):
+- [SiteOutMessage](https://dm.namasoft.com/dm-json/SiteOutMessage.json)
 - [SocialMediaSubscriberConfig](https://dm.namasoft.com/dm-json/SocialMediaSubscriberConfig.json): Social Media Subscriber Configuration / إعدادات اشتراكات وسائل التواصل
 - [SpecialResponsible](https://dm.namasoft.com/dm-json/SpecialResponsible.json): Special Responsible / مسئول مخصص
 - [Sponsor](https://dm.namasoft.com/dm-json/Sponsor.json): كفيل
-- [SrvCAppointmentsSysEntry](https://dm.namasoft.com/dm-json/SrvCAppointmentsSysEntry.json):
+- [SrvCAppointmentsSysEntry](https://dm.namasoft.com/dm-json/SrvCAppointmentsSysEntry.json)
 - [SrvCAttendance](https://dm.namasoft.com/dm-json/SrvCAttendance.json): Service Center Attendance / حضور / انصراف مركز الخدمة
 - [SrvCExternalRepair](https://dm.namasoft.com/dm-json/SrvCExternalRepair.json): External Repair / مستند اصلاج خارجي
 - [SrvCGatePass](https://dm.namasoft.com/dm-json/SrvCGatePass.json): Service Center Gate Pass / تصريح عبور البوابة
@@ -1841,15 +1841,15 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [SrvCJobEstimationUpdate](https://dm.namasoft.com/dm-json/SrvCJobEstimationUpdate.json): Estimation Update / تعديل مقايسة
 - [SrvCJobOrder](https://dm.namasoft.com/dm-json/SrvCJobOrder.json): Service Center Job Order / أمر شغل
 - [SrvCJobOrderClosing](https://dm.namasoft.com/dm-json/SrvCJobOrderClosing.json): Job Order Closing / إغلاق أمر شغل
-- [SrvCJobOrderStatusEntry](https://dm.namasoft.com/dm-json/SrvCJobOrderStatusEntry.json):
+- [SrvCJobOrderStatusEntry](https://dm.namasoft.com/dm-json/SrvCJobOrderStatusEntry.json)
 - [SrvCKiloMetrage](https://dm.namasoft.com/dm-json/SrvCKiloMetrage.json): Kilo Metrage / سجل قراءة العداد
 - [SrvCLoadingTable](https://dm.namasoft.com/dm-json/SrvCLoadingTable.json): Loading Table / جدول تحميل
 - [SrvCOperation](https://dm.namasoft.com/dm-json/SrvCOperation.json): Service Center Operation / خدمة
 - [SrvCOperationClassification](https://dm.namasoft.com/dm-json/SrvCOperationClassification.json): Standard Operation Classification / تصنيف خدمة
 - [SrvCProduct](https://dm.namasoft.com/dm-json/SrvCProduct.json): Product / منتج
-- [SrvCProductLastService](https://dm.namasoft.com/dm-json/SrvCProductLastService.json):
-- [SrvCProductLastServiceTrans](https://dm.namasoft.com/dm-json/SrvCProductLastServiceTrans.json):
-- [SrvCProductStatusEntry](https://dm.namasoft.com/dm-json/SrvCProductStatusEntry.json):
+- [SrvCProductLastService](https://dm.namasoft.com/dm-json/SrvCProductLastService.json)
+- [SrvCProductLastServiceTrans](https://dm.namasoft.com/dm-json/SrvCProductLastServiceTrans.json)
+- [SrvCProductStatusEntry](https://dm.namasoft.com/dm-json/SrvCProductStatusEntry.json)
 - [SrvCProductTaskOpeningDoc](https://dm.namasoft.com/dm-json/SrvCProductTaskOpeningDoc.json): Product Task Opening Document / افتتاحي مهمات منتج
 - [SrvCProductionExecution](https://dm.namasoft.com/dm-json/SrvCProductionExecution.json): Production Review / تنفيذ أمر الشغل
 - [SrvCRawMaterialIssue](https://dm.namasoft.com/dm-json/SrvCRawMaterialIssue.json): Spare Parts Issue / صرف قطع غيار
@@ -1866,7 +1866,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [SrvProductModelCategory](https://dm.namasoft.com/dm-json/SrvProductModelCategory.json): Product Model Category / تصنيف موديل
 - [SrvcAddTaskToJobOrder](https://dm.namasoft.com/dm-json/SrvcAddTaskToJobOrder.json): ?Add Task To Job Order / إضافة مهام الي أمر الشغل
 - [SrvcBrand](https://dm.namasoft.com/dm-json/SrvcBrand.json): Brand / ماركة منتج
-- [SrvcMaterialEntry](https://dm.namasoft.com/dm-json/SrvcMaterialEntry.json):
+- [SrvcMaterialEntry](https://dm.namasoft.com/dm-json/SrvcMaterialEntry.json)
 - [SrvcPendingOperation](https://dm.namasoft.com/dm-json/SrvcPendingOperation.json): Pending Operation / إيقاف خدمة
 - [SrvcRawMaterialReturn](https://dm.namasoft.com/dm-json/SrvcRawMaterialReturn.json): Spare Parts Return / إرتجاع قطع غيار
 - [SrvcResumeOperation](https://dm.namasoft.com/dm-json/SrvcResumeOperation.json): Resuming Operation / إستكمال خدمة
@@ -1875,12 +1875,12 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [StandardTermExtension](https://dm.namasoft.com/dm-json/StandardTermExtension.json): Standard Term Extension / تمديد فترة عمل البند
 - [StandardTermFulfillment](https://dm.namasoft.com/dm-json/StandardTermFulfillment.json): Standard Term Fulfillment / تحقق البند
 - [StartStockTaking](https://dm.namasoft.com/dm-json/StartStockTaking.json): Start Stock Taking / بداية جرد مخزني
-- [StockAgesInfo](https://dm.namasoft.com/dm-json/StockAgesInfo.json):
-- [StockAgesMatcher](https://dm.namasoft.com/dm-json/StockAgesMatcher.json):
-- [StockAgesProcessRequest](https://dm.namasoft.com/dm-json/StockAgesProcessRequest.json):
+- [StockAgesInfo](https://dm.namasoft.com/dm-json/StockAgesInfo.json)
+- [StockAgesMatcher](https://dm.namasoft.com/dm-json/StockAgesMatcher.json)
+- [StockAgesProcessRequest](https://dm.namasoft.com/dm-json/StockAgesProcessRequest.json)
 - [StockAgesTask](https://dm.namasoft.com/dm-json/StockAgesTask.json): Stock Ages Tasks
-- [StockAgesTaskUpdater](https://dm.namasoft.com/dm-json/StockAgesTaskUpdater.json):
-- [StockAgesTrans](https://dm.namasoft.com/dm-json/StockAgesTrans.json):
+- [StockAgesTaskUpdater](https://dm.namasoft.com/dm-json/StockAgesTaskUpdater.json)
+- [StockAgesTrans](https://dm.namasoft.com/dm-json/StockAgesTrans.json)
 - [StockIssue](https://dm.namasoft.com/dm-json/StockIssue.json): Stock Issue / صرف مخزني
 - [StockIssueReq](https://dm.namasoft.com/dm-json/StockIssueReq.json): Stock Issue Request / طلب صرف مخزني
 - [StockReceipt](https://dm.namasoft.com/dm-json/StockReceipt.json): Stock Receipt / توريد مخزني
@@ -1893,32 +1893,32 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [SubItem](https://dm.namasoft.com/dm-json/SubItem.json): Customer Car / السياره
 - [SubItemAssemblyDocument](https://dm.namasoft.com/dm-json/SubItemAssemblyDocument.json): Sub Item Assembly Document / سند تجميع صنف فرعي
 - [SubItemStatusConfigurations](https://dm.namasoft.com/dm-json/SubItemStatusConfigurations.json): Car Status Configurations / إعدادت حالة حاله السياره
-- [SubItemStatusEntry](https://dm.namasoft.com/dm-json/SubItemStatusEntry.json):
+- [SubItemStatusEntry](https://dm.namasoft.com/dm-json/SubItemStatusEntry.json)
 - [Subsidiary1](https://dm.namasoft.com/dm-json/Subsidiary1.json): Subsidiary 1 / ذمة 1
 - [Subsidiary2](https://dm.namasoft.com/dm-json/Subsidiary2.json): Subsidiary 2 / ذمة 2
 - [Subsidiary3](https://dm.namasoft.com/dm-json/Subsidiary3.json): Subsidiary 3 / ذمة 3
 - [Subsidiary4](https://dm.namasoft.com/dm-json/Subsidiary4.json): Subsidiary 4 / ذمة 4
 - [Subsidiary5](https://dm.namasoft.com/dm-json/Subsidiary5.json): Subsidiary 5 / ذمة 5
-- [SubsidiaryAccounts](https://dm.namasoft.com/dm-json/SubsidiaryAccounts.json):
+- [SubsidiaryAccounts](https://dm.namasoft.com/dm-json/SubsidiaryAccounts.json)
 - [SubsidiaryClass](https://dm.namasoft.com/dm-json/SubsidiaryClass.json): Subsidiary Class / فئة ذمة
 - [SubsidiaryReconciliation](https://dm.namasoft.com/dm-json/SubsidiaryReconciliation.json): Subsidiary Reconciliation / تسوية مع ذمة
-- [SubsidiarySingleAccount](https://dm.namasoft.com/dm-json/SubsidiarySingleAccount.json):
+- [SubsidiarySingleAccount](https://dm.namasoft.com/dm-json/SubsidiarySingleAccount.json)
 - [Supplier](https://dm.namasoft.com/dm-json/Supplier.json): مورد
 - [SupplierClass](https://dm.namasoft.com/dm-json/SupplierClass.json): Suppliers' Class / فئة موردين
-- [SupplierTransEntry](https://dm.namasoft.com/dm-json/SupplierTransEntry.json):
+- [SupplierTransEntry](https://dm.namasoft.com/dm-json/SupplierTransEntry.json)
 - [SuspensionDocument](https://dm.namasoft.com/dm-json/SuspensionDocument.json): Suspension Document / إيقاف عن العمل
-- [SysActionSecurityLine](https://dm.namasoft.com/dm-json/SysActionSecurityLine.json):
-- [SysGenericSecurityLine](https://dm.namasoft.com/dm-json/SysGenericSecurityLine.json):
+- [SysActionSecurityLine](https://dm.namasoft.com/dm-json/SysActionSecurityLine.json)
+- [SysGenericSecurityLine](https://dm.namasoft.com/dm-json/SysGenericSecurityLine.json)
 - [SysIndicatorApproval](https://dm.namasoft.com/dm-json/SysIndicatorApproval.json): System Indicator Approval / موافقة على مؤشر أداء نظامى
-- [SysItemLine](https://dm.namasoft.com/dm-json/SysItemLine.json):
-- [SysPORelatedDocLine](https://dm.namasoft.com/dm-json/SysPORelatedDocLine.json):
-- [SysPageSecurity](https://dm.namasoft.com/dm-json/SysPageSecurity.json):
-- [SysSecurityFieldAuthority](https://dm.namasoft.com/dm-json/SysSecurityFieldAuthority.json):
-- [SysSecurityLine](https://dm.namasoft.com/dm-json/SysSecurityLine.json):
-- [SysServiceLine](https://dm.namasoft.com/dm-json/SysServiceLine.json):
-- [SysVacBalanceTransaction](https://dm.namasoft.com/dm-json/SysVacBalanceTransaction.json):
-- [SysVacationsBalance](https://dm.namasoft.com/dm-json/SysVacationsBalance.json):
-- [SysVacationsBalanceByDate](https://dm.namasoft.com/dm-json/SysVacationsBalanceByDate.json):
+- [SysItemLine](https://dm.namasoft.com/dm-json/SysItemLine.json)
+- [SysPORelatedDocLine](https://dm.namasoft.com/dm-json/SysPORelatedDocLine.json)
+- [SysPageSecurity](https://dm.namasoft.com/dm-json/SysPageSecurity.json)
+- [SysSecurityFieldAuthority](https://dm.namasoft.com/dm-json/SysSecurityFieldAuthority.json)
+- [SysSecurityLine](https://dm.namasoft.com/dm-json/SysSecurityLine.json)
+- [SysServiceLine](https://dm.namasoft.com/dm-json/SysServiceLine.json)
+- [SysVacBalanceTransaction](https://dm.namasoft.com/dm-json/SysVacBalanceTransaction.json)
+- [SysVacationsBalance](https://dm.namasoft.com/dm-json/SysVacationsBalance.json)
+- [SysVacationsBalanceByDate](https://dm.namasoft.com/dm-json/SysVacationsBalanceByDate.json)
 - [TRCity](https://dm.namasoft.com/dm-json/TRCity.json): Travel City / مدينة سفر
 - [TRCountry](https://dm.namasoft.com/dm-json/TRCountry.json): Travel Country / دولة سفر
 - [TRHotel](https://dm.namasoft.com/dm-json/TRHotel.json): Hotel / فندق
@@ -1943,24 +1943,24 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [TaxDiscountEffectsConfig](https://dm.namasoft.com/dm-json/TaxDiscountEffectsConfig.json): Tax and Discounts Effects Configuration / إعدادات تأثير الخصومات و الضرائب
 - [TaxEInvoice](https://dm.namasoft.com/dm-json/TaxEInvoice.json): Tax Electronic Invoice / الفاتورة الإكترونية المستقبلة
 - [TaxPayerConfiguration](https://dm.namasoft.com/dm-json/TaxPayerConfiguration.json): Electronic Tax Authority Configuration / إعدادات مصلحة الضرائب
-- [TaxPayerLastSubmissionInfo](https://dm.namasoft.com/dm-json/TaxPayerLastSubmissionInfo.json):
+- [TaxPayerLastSubmissionInfo](https://dm.namasoft.com/dm-json/TaxPayerLastSubmissionInfo.json)
 - [TaxPlan](https://dm.namasoft.com/dm-json/TaxPlan.json): Tax Plan / سياسة الضريبة
 - [Tender](https://dm.namasoft.com/dm-json/Tender.json): مناقصة
 - [TenderCondition](https://dm.namasoft.com/dm-json/TenderCondition.json): Tender Conditions / شرط مناقصة
-- [TenderInvoiceLine](https://dm.namasoft.com/dm-json/TenderInvoiceLine.json):
+- [TenderInvoiceLine](https://dm.namasoft.com/dm-json/TenderInvoiceLine.json)
 - [TermAnalysisCard](https://dm.namasoft.com/dm-json/TermAnalysisCard.json): Term Analysis Card / كارت التحليل
-- [TermConditionLine](https://dm.namasoft.com/dm-json/TermConditionLine.json):
-- [TermItemLine](https://dm.namasoft.com/dm-json/TermItemLine.json):
+- [TermConditionLine](https://dm.namasoft.com/dm-json/TermConditionLine.json)
+- [TermItemLine](https://dm.namasoft.com/dm-json/TermItemLine.json)
 - [TermSheet](https://dm.namasoft.com/dm-json/TermSheet.json): Term Sheet / كراسة الشروط
-- [TerminationCalcSysEntry](https://dm.namasoft.com/dm-json/TerminationCalcSysEntry.json):
+- [TerminationCalcSysEntry](https://dm.namasoft.com/dm-json/TerminationCalcSysEntry.json)
 - [TerminationReason](https://dm.namasoft.com/dm-json/TerminationReason.json): Termination Reason / سبب نهاية الخدمة
 - [TestReport](https://dm.namasoft.com/dm-json/TestReport.json): Test Report
 - [ThirdParty](https://dm.namasoft.com/dm-json/ThirdParty.json): Third Party / جهة ذات صلة
 - [TimeAttendance](https://dm.namasoft.com/dm-json/TimeAttendance.json): Time Attendance / حضور / إنصراف
-- [TooltipDefApplyTo](https://dm.namasoft.com/dm-json/TooltipDefApplyTo.json):
+- [TooltipDefApplyTo](https://dm.namasoft.com/dm-json/TooltipDefApplyTo.json)
 - [TooltipDefinition](https://dm.namasoft.com/dm-json/TooltipDefinition.json): Tooltip Definition / تعريف مساعدة سريعة
-- [TooltipEntityMapping](https://dm.namasoft.com/dm-json/TooltipEntityMapping.json):
-- [TooltipPart](https://dm.namasoft.com/dm-json/TooltipPart.json):
+- [TooltipEntityMapping](https://dm.namasoft.com/dm-json/TooltipEntityMapping.json)
+- [TooltipPart](https://dm.namasoft.com/dm-json/TooltipPart.json)
 - [TrainingCourse](https://dm.namasoft.com/dm-json/TrainingCourse.json): Training Course / دورة تدريبية
 - [TrainingPlan](https://dm.namasoft.com/dm-json/TrainingPlan.json): Training Plan / خطة تدريب
 - [TranslationOverRider](https://dm.namasoft.com/dm-json/TranslationOverRider.json): Translation OverRider / تغيير ترجمة
@@ -1972,7 +1972,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [UOM](https://dm.namasoft.com/dm-json/UOM.json): وحدة قياس
 - [UOMConversions](https://dm.namasoft.com/dm-json/UOMConversions.json): Unit Conversions / تحويل وحدات
 - [UOMGroup](https://dm.namasoft.com/dm-json/UOMGroup.json): UOM Unit Group / مجموعة وحدات
-- [UnmatchedManualDebtLine](https://dm.namasoft.com/dm-json/UnmatchedManualDebtLine.json):
+- [UnmatchedManualDebtLine](https://dm.namasoft.com/dm-json/UnmatchedManualDebtLine.json)
 - [UpdateCustomerInfo](https://dm.namasoft.com/dm-json/UpdateCustomerInfo.json): Update Customer Information / تحديث بيانات عميل
 - [UpdateEmployeeInfo](https://dm.namasoft.com/dm-json/UpdateEmployeeInfo.json): Update Employee Info / تحديث بيانات الموظف
 - [UpdateSeasonsDoc](https://dm.namasoft.com/dm-json/UpdateSeasonsDoc.json): Update Seasons Document / مستند تحديث المواسم
@@ -1980,9 +1980,9 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [UserFavourites](https://dm.namasoft.com/dm-json/UserFavourites.json): User Favourites / مفضلة مستخدم
 - [UserFieldFilter](https://dm.namasoft.com/dm-json/UserFieldFilter.json): Field Filter With Criteria / فلترة حقل بمعايير
 - [UserFingerprint](https://dm.namasoft.com/dm-json/UserFingerprint.json): User Fingerprints / بصمات المستخدم
-- [UserHelpApplicableLine](https://dm.namasoft.com/dm-json/UserHelpApplicableLine.json):
+- [UserHelpApplicableLine](https://dm.namasoft.com/dm-json/UserHelpApplicableLine.json)
 - [UserMobileIdentifierDocument](https://dm.namasoft.com/dm-json/UserMobileIdentifierDocument.json): User Mobile Identifier Document / سند تعريف هاتف مستخدِم
-- [UserNotification](https://dm.namasoft.com/dm-json/UserNotification.json):
+- [UserNotification](https://dm.namasoft.com/dm-json/UserNotification.json)
 - [UserTimedQuery](https://dm.namasoft.com/dm-json/UserTimedQuery.json): User Timed Query / استعلام دوري
 - [UsersCounter](https://dm.namasoft.com/dm-json/UsersCounter.json): Users Counter / عداد مستخدمين
 - [VacationBalanceRange](https://dm.namasoft.com/dm-json/VacationBalanceRange.json): Vacation Balance Range File / ملف أرصدة الأجازات (بناءا على الخبرات)
@@ -1993,25 +1993,25 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [VacationRequest](https://dm.namasoft.com/dm-json/VacationRequest.json): Vacation Request / طلب أجازة
 - [VacationTransferDocument](https://dm.namasoft.com/dm-json/VacationTransferDocument.json): Vacation Transfer Document / سند ترحيل أجازات
 - [VacationType](https://dm.namasoft.com/dm-json/VacationType.json): Vacation Type / نوع الأجازة
-- [VacationsBalSysLine](https://dm.namasoft.com/dm-json/VacationsBalSysLine.json):
-- [VacationsSysLine](https://dm.namasoft.com/dm-json/VacationsSysLine.json):
+- [VacationsBalSysLine](https://dm.namasoft.com/dm-json/VacationsBalSysLine.json)
+- [VacationsSysLine](https://dm.namasoft.com/dm-json/VacationsSysLine.json)
 - [VendorDiscount](https://dm.namasoft.com/dm-json/VendorDiscount.json): Vendor Discount / خصومات مورد
 - [VirtualEntity](https://dm.namasoft.com/dm-json/VirtualEntity.json): Virtual Entity / كيان افتراضي
 - [WareLocationClass](https://dm.namasoft.com/dm-json/WareLocationClass.json): Ware location class / تصنيف الموقع المخزني
 - [Warehouse](https://dm.namasoft.com/dm-json/Warehouse.json): مخزن
 - [WarehouseGroup](https://dm.namasoft.com/dm-json/WarehouseGroup.json): Warehouse Group / مجموعة مخازن
-- [WarehouseLocatorFilterLine](https://dm.namasoft.com/dm-json/WarehouseLocatorFilterLine.json):
-- [WarehouseTaking](https://dm.namasoft.com/dm-json/WarehouseTaking.json):
+- [WarehouseLocatorFilterLine](https://dm.namasoft.com/dm-json/WarehouseLocatorFilterLine.json)
+- [WarehouseTaking](https://dm.namasoft.com/dm-json/WarehouseTaking.json)
 - [WarrantyPeriodType](https://dm.namasoft.com/dm-json/WarrantyPeriodType.json): Warranty Period Type / نوع فترة الضمان
-- [WathqCallInfo](https://dm.namasoft.com/dm-json/WathqCallInfo.json):
-- [WebEngageSentEvent](https://dm.namasoft.com/dm-json/WebEngageSentEvent.json):
+- [WathqCallInfo](https://dm.namasoft.com/dm-json/WathqCallInfo.json)
+- [WebEngageSentEvent](https://dm.namasoft.com/dm-json/WebEngageSentEvent.json)
 - [WeightScaleConfig](https://dm.namasoft.com/dm-json/WeightScaleConfig.json): Weight Scale Configuration / إعدادات الميزان
 - [WeightScalePrepGenerator](https://dm.namasoft.com/dm-json/WeightScalePrepGenerator.json): Weight Scale Preparation Documents Generator / سند إنشاء سندات تحضير الميزان
 - [WeightScalePreparationDoc](https://dm.namasoft.com/dm-json/WeightScalePreparationDoc.json): Weight Scale Preparation Document / سند تحضير - الميزان
 - [WhatsAppMessage](https://dm.namasoft.com/dm-json/WhatsAppMessage.json): WhatsApp  Message / WhatsApp Message
 - [WhatsAppMessageConfiguration](https://dm.namasoft.com/dm-json/WhatsAppMessageConfiguration.json): WhatsApp Message Configuration
-- [WhatsAppMessageEntry](https://dm.namasoft.com/dm-json/WhatsAppMessageEntry.json):
-- [WhatsAppMessageLog](https://dm.namasoft.com/dm-json/WhatsAppMessageLog.json):
+- [WhatsAppMessageEntry](https://dm.namasoft.com/dm-json/WhatsAppMessageEntry.json)
+- [WhatsAppMessageLog](https://dm.namasoft.com/dm-json/WhatsAppMessageLog.json)
 - [WizardFile](https://dm.namasoft.com/dm-json/WizardFile.json): Wizard File
 - [WorkCenter](https://dm.namasoft.com/dm-json/WorkCenter.json): Work Center / صالة إنتاج
 - [WorkPlaceUpdate](https://dm.namasoft.com/dm-json/WorkPlaceUpdate.json): Work Place Update / تحديث مكان العمل

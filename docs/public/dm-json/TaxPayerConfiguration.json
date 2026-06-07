@@ -1007,6 +1007,26 @@
     "en" : "Validate EGS Codes",
     "type" : "Boolean"
   }, {
+    "id" : "vatExemptReasonCode",
+    "column" : "vatExemptReasonCode",
+    "ar" : "كود سبب الإعفاء (E) - هيئة الزكاة",
+    "en" : "ZATCA Exempt (E) Reason Code",
+    "type" : "Enum",
+    "enum" : "ZATCAExemptionReasonCode"
+  }, {
+    "id" : "vatOutOfScopeReasonText",
+    "column" : "vatOutOfScopeReasonText",
+    "ar" : "نص سبب عدم الخضوع للضريبة (O) - هيئة الزكاة",
+    "en" : "ZATCA Out Of Scope (O) Reason Text",
+    "type" : "Text"
+  }, {
+    "id" : "vatZeroRateReasonCode",
+    "column" : "vatZeroRateReasonCode",
+    "ar" : "كود سبب نسبة الصفر (Z) - هيئة الزكاة",
+    "en" : "ZATCA Zero Rate (Z) Reason Code",
+    "type" : "Enum",
+    "enum" : "ZATCAExemptionReasonCode"
+  }, {
     "id" : "viewCapability",
     "column" : "viewCapability_id",
     "ar" : "صلاحية المطالعة",

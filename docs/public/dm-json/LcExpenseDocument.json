@@ -462,6 +462,12 @@
     "en" : "Number 5",
     "type" : "Decimal"
   }, {
+    "id" : "netInDocCurrencyRate",
+    "column" : "netInDocCurrencyRate",
+    "ar" : "الصافي بعملة المستند",
+    "en" : "Net Rate in Doc Currency",
+    "type" : "Decimal"
+  }, {
     "id" : "openShift",
     "column" : "openShift_id",
     "ar" : "فتح وردية",
