@@ -466,12 +466,6 @@
       "en" : "View Customers Wishlist",
       "type" : "Boolean"
     }, {
-      "id" : "details.canViewDashboard",
-      "column" : "canViewDashboard",
-      "ar" : "استعراض اللوحة",
-      "en" : "View Dashboard",
-      "type" : "Boolean"
-    }, {
       "id" : "details.canViewElectronicReceipt",
       "column" : "canViewElectronicReceipt",
       "ar" : "استعراض سندات القبض الإلكترونية",
@@ -482,6 +476,12 @@
       "column" : "canViewKitchenDesign",
       "ar" : "استعراض تصميمات المطابخ",
       "en" : "View Kitchen Design",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.canViewMaintenanceDashboard",
+      "column" : "canViewMaintenanceDashboard",
+      "ar" : "استعراض لوحة الصيانة",
+      "en" : "View Maintenance Visit Dashboard",
       "type" : "Boolean"
     }, {
       "id" : "details.canViewMaintenanceVisit",
@@ -496,16 +496,40 @@
       "en" : "View Measurement Visit",
       "type" : "Boolean"
     }, {
+      "id" : "details.canViewMeasurementsDashboard",
+      "column" : "canViewMeasurementsDashboard",
+      "ar" : "استعراض لوحة الزيارات",
+      "en" : "View Measurements Visit Dashboard",
+      "type" : "Boolean"
+    }, {
       "id" : "details.canViewRVRequest",
       "column" : "canViewRVRequest",
       "ar" : "استعراض طلبات القبض",
       "en" : "View RV Request",
       "type" : "Boolean"
     }, {
+      "id" : "details.canViewReceiptsDashboard",
+      "column" : "canViewReceiptsDashboard",
+      "ar" : "استعراض لوحة القبض الإلكترونية",
+      "en" : "View Electronic Receipts Dashboard",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.canViewReviewsDashboard",
+      "column" : "canViewReviewsDashboard",
+      "ar" : "استعراض لوحة مراجعات العملاء",
+      "en" : "View Customer Reviews Dashboard",
+      "type" : "Boolean"
+    }, {
       "id" : "details.canViewSalesOrder",
       "column" : "canViewSalesOrder",
       "ar" : "استعراض أوامر البيع",
       "en" : "View Sales Order",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.canViewSalesOrderDashboard",
+      "column" : "canViewSalesOrderDashboard",
+      "ar" : "استعراض لوحة أوامر البيع",
+      "en" : "View Sales Order Dashboard",
       "type" : "Boolean"
     }, {
       "id" : "details.id",

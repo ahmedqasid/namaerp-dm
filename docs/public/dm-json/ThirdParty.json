@@ -930,7 +930,7 @@
     "type" : "Text"
   }, {
     "id" : "taxInfo.zatcaIdType",
-    "column" : "zatcaIdType",
+    "column" : "taxInfoZatcaIdType",
     "ar" : "نوع هوية المشتري (هيئة الزكاة)",
     "en" : "ZATCA Buyer Id Type",
     "type" : "Enum",
