@@ -500,5 +500,78 @@
       "en" : "Shift",
       "type" : "Boolean"
     } ]
+  }, {
+    "id" : "globalShortcuts",
+    "table" : "ShortCutsDefinitionGlobalLine",
+    "joinColumn" : "shortCutsDefinition_id",
+    "ar" : "Global Shortcuts",
+    "en" : "Global Shortcuts",
+    "fields" : [ {
+      "id" : "globalShortcuts.defaultsTemplate",
+      "column" : "defaultsTemplate_id",
+      "ar" : "قالب القيم الافتراضية",
+      "en" : "Default Values Template",
+      "type" : "Reference",
+      "refTo" : "DefaultValuesTemplate",
+      "refPath" : "/modules/basic/DefaultValuesTemplate.html"
+    }, {
+      "id" : "globalShortcuts.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "globalShortcuts.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "globalShortcuts.link",
+      "column" : "link",
+      "ar" : "الرابط",
+      "en" : "Link",
+      "type" : "Text"
+    }, {
+      "id" : "globalShortcuts.shortCut.theKey",
+      "column" : "theKey",
+      "ar" : "المفتاح",
+      "en" : "Key",
+      "type" : "Enum",
+      "enum" : "KeyboardKey"
+    }, {
+      "id" : "globalShortcuts.shortCut.useAlt",
+      "column" : "useAlt",
+      "ar" : "Alt",
+      "en" : "Alt",
+      "type" : "Boolean"
+    }, {
+      "id" : "globalShortcuts.shortCut.useCtrl",
+      "column" : "useCtrl",
+      "ar" : "Ctrl",
+      "en" : "Ctrl",
+      "type" : "Boolean"
+    }, {
+      "id" : "globalShortcuts.shortCut.useShift",
+      "column" : "useShift",
+      "ar" : "Shift",
+      "en" : "Shift",
+      "type" : "Boolean"
+    }, {
+      "id" : "globalShortcuts.targetEntity",
+      "column" : "targetEntity",
+      "ar" : "النوع المستهدف",
+      "en" : "Target Entity",
+      "type" : "EntityType"
+    }, {
+      "id" : "globalShortcuts.targetRecord",
+      "columns" : [ "targetRecordActualCode", " targetRecordCode", " targetRecordEntityType", " targetRecordId" ],
+      "ar" : "السجل",
+      "en" : "Target Record",
+      "type" : "Genericreference"
+    }, {
+      "id" : "globalShortcuts.type",
+      "column" : "type",
+      "ar" : "النوع",
+      "en" : "Type",
+      "type" : "Enum",
+      "enum" : "GlobalShortcutTargetType"
+    } ]
   } ]
 }

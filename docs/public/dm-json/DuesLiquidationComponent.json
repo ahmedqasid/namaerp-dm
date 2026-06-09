@@ -267,6 +267,10 @@
     "en" : "Entity Type",
     "type" : "EntityType"
   }, {
+    "id" : "factorQuery",
+    "column" : "factorQuery",
+    "type" : "BigText"
+  }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
     "ar" : "منشئ السجل",

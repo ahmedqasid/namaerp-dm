@@ -253,6 +253,8 @@
   }, {
     "id" : "itemTaxPlanCodeOrId",
     "column" : "itemTaxPlanCodeOrId",
+    "ar" : "معرف أو كود ملف سياسة ضريبة الأصناف",
+    "en" : "Item Tax Plan Id Or Code",
     "type" : "Text"
   }, {
     "id" : "lastAccessTokenJSON",

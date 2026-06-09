@@ -1,0 +1,32 @@
+{
+  "enum" : "GlobalShortcutTargetType",
+  "values" : [ {
+    "id" : "EntityList",
+    "ar" : "عرض بقائمة",
+    "en" : "Entity List"
+  }, {
+    "id" : "NewRecord",
+    "ar" : "سجل جديد",
+    "en" : "New Record"
+  }, {
+    "id" : "Link",
+    "ar" : "رابط",
+    "en" : "Link"
+  }, {
+    "id" : "InternalLink",
+    "ar" : "رابط داخلي",
+    "en" : "Internal Link"
+  }, {
+    "id" : "Record",
+    "ar" : "سجل",
+    "en" : "Record"
+  }, {
+    "id" : "GlobalSearch",
+    "ar" : "بحث عام",
+    "en" : "Global Search"
+  }, {
+    "id" : "MenuSearch",
+    "ar" : "بحث القائمة",
+    "en" : "Menu Search"
+  } ]
+}
