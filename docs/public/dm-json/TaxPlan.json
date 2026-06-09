@@ -966,6 +966,26 @@
     "en" : "Tax 4 Zero Tax Auth Type",
     "type" : "Text"
   }, {
+    "id" : "taxConfiguration.taxesCodes.vatExemptReasonCode",
+    "column" : "taxesCodesVatExemptReasonCode",
+    "ar" : "كود سبب الإعفاء (E) - هيئة الزكاة",
+    "en" : "ZATCA Exempt (E) Reason Code",
+    "type" : "Enum",
+    "enum" : "ZATCAExemptionReasonCode"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.vatOutOfScopeReasonText",
+    "column" : "txsCdsVtOutOfScopeReasonText",
+    "ar" : "نص سبب عدم الخضوع للضريبة (O) - هيئة الزكاة",
+    "en" : "ZATCA Out Of Scope (O) Reason Text",
+    "type" : "Text"
+  }, {
+    "id" : "taxConfiguration.taxesCodes.vatZeroRateReasonCode",
+    "column" : "txsCdesVatZeroRateReasonCode",
+    "ar" : "كود سبب نسبة الصفر (Z) - هيئة الزكاة",
+    "en" : "ZATCA Zero Rate (Z) Reason Code",
+    "type" : "Enum",
+    "enum" : "ZATCAExemptionReasonCode"
+  }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
     "ar" : "صلاحية التعديل",
@@ -1384,6 +1404,26 @@
       "ar" : "الضريبة 4 كود الضريبة الصفرية 4",
       "en" : "Tax 4 Zero Tax Auth Type",
       "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.vatExemptReasonCode",
+      "column" : "taxesCodesVatExemptReasonCode",
+      "ar" : "كود سبب الإعفاء (E) - هيئة الزكاة",
+      "en" : "ZATCA Exempt (E) Reason Code",
+      "type" : "Enum",
+      "enum" : "ZATCAExemptionReasonCode"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.vatOutOfScopeReasonText",
+      "column" : "txsCdsVtOutOfScopeReasonText",
+      "ar" : "نص سبب عدم الخضوع للضريبة (O) - هيئة الزكاة",
+      "en" : "ZATCA Out Of Scope (O) Reason Text",
+      "type" : "Text"
+    }, {
+      "id" : "legalEntityTaxes.taxConfiguration.taxesCodes.vatZeroRateReasonCode",
+      "column" : "txsCdesVatZeroRateReasonCode",
+      "ar" : "كود سبب نسبة الصفر (Z) - هيئة الزكاة",
+      "en" : "ZATCA Zero Rate (Z) Reason Code",
+      "type" : "Enum",
+      "enum" : "ZATCAExemptionReasonCode"
     } ]
   } ]
 }

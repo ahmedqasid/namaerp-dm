@@ -14,6 +14,12 @@
     "en" : " Activate",
     "type" : "Boolean"
   }, {
+    "id" : "allowSystemModifiers",
+    "column" : "allowSystemModifiers",
+    "ar" : "السماح بالمعدلات النظامية",
+    "en" : "Allow System Modifiers",
+    "type" : "Boolean"
+  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",

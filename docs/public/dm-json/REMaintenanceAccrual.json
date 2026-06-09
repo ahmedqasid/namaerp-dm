@@ -522,6 +522,18 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
+    "id" : "tax1Total",
+    "column" : "tax1Total",
+    "ar" : "إجمالي ضريبة مبيعات 1",
+    "en" : "Tax 1 Total",
+    "type" : "Decimal"
+  }, {
+    "id" : "tax2Total",
+    "column" : "tax2Total",
+    "ar" : "إجمالي ضريبة مبيعات 2",
+    "en" : "Tax 2 Total",
+    "type" : "Decimal"
+  }, {
     "id" : "term",
     "column" : "term_id",
     "ar" : "توجيه المستند",
@@ -611,10 +623,88 @@
       "column" : "lineNumber",
       "type" : "Integer"
     }, {
+      "id" : "details.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
       "id" : "details.remainingMaintenanceValue",
       "column" : "remainingMaintenanceValue",
       "ar" : "المتبقي",
       "en" : "Remaining",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax1.afterValue",
+      "column" : "tax1AfterValue",
+      "ar" : "ضريبة مبيعات | الصافي",
+      "en" : "Tax | After Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax1.maxNormalPercent",
+      "column" : "tax1MaxNormalPercent",
+      "ar" : "ضريبة مبيعات | %",
+      "en" : "Item Tax | %",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax1.percentage",
+      "column" : "tax1Percentage",
+      "ar" : "قيمة إضافية 1",
+      "en" : "Tax 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax1.value",
+      "column" : "tax1Value",
+      "ar" : "ضريبة مبيعات | القيمة",
+      "en" : "Tax value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax2.afterValue",
+      "column" : "tax2AfterValue",
+      "ar" : "ضريبة مبيعات 2 | الصافي",
+      "en" : "Tax 2 | After Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax2.maxNormalPercent",
+      "column" : "tax2MaxNormalPercent",
+      "ar" : "ضريبة مبيعات 2 | %",
+      "en" : "Tax 2 | %",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax2.percentage",
+      "column" : "tax2Percentage",
+      "ar" : "قيمة إضافية 2",
+      "en" : "Tax 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.tax2.value",
+      "column" : "tax2Value",
+      "ar" : "ضريبة مبيعات 2 | القيمة",
+      "en" : "Tax 2 | Value",
       "type" : "Decimal"
     }, {
       "id" : "details.totalPaid",

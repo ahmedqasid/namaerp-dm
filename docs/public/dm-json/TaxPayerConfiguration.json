@@ -957,6 +957,26 @@
     "en" : "Tax 4 Zero Tax Auth Type",
     "type" : "Text"
   }, {
+    "id" : "taxesCodes.vatExemptReasonCode",
+    "column" : "taxesCodesVatExemptReasonCode",
+    "ar" : "كود سبب الإعفاء (E) - هيئة الزكاة",
+    "en" : "ZATCA Exempt (E) Reason Code",
+    "type" : "Enum",
+    "enum" : "ZATCAExemptionReasonCode"
+  }, {
+    "id" : "taxesCodes.vatOutOfScopeReasonText",
+    "column" : "txsCdsVtOutOfScopeReasonText",
+    "ar" : "نص سبب عدم الخضوع للضريبة (O) - هيئة الزكاة",
+    "en" : "ZATCA Out Of Scope (O) Reason Text",
+    "type" : "Text"
+  }, {
+    "id" : "taxesCodes.vatZeroRateReasonCode",
+    "column" : "txsCdesVatZeroRateReasonCode",
+    "ar" : "كود سبب نسبة الصفر (Z) - هيئة الزكاة",
+    "en" : "ZATCA Zero Rate (Z) Reason Code",
+    "type" : "Enum",
+    "enum" : "ZATCAExemptionReasonCode"
+  }, {
     "id" : "unitPriceSource",
     "column" : "unitPriceSource",
     "ar" : "مصدر سعر الوحدة",
