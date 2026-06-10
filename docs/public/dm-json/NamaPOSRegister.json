@@ -998,6 +998,12 @@
     "en" : "Show Favourites With No Next Levels",
     "type" : "Boolean"
   }, {
+    "id" : "stopTaxes",
+    "column" : "stopTaxes",
+    "ar" : "تعطيل الضرائب",
+    "en" : "Stop Taxes",
+    "type" : "Boolean"
+  }, {
     "id" : "subRegisterForCaptainOrder",
     "column" : "subRegisterForCaptainOrder",
     "ar" : "ماكينة فرعية لكابتن أوردر",
