@@ -1,0 +1,14 @@
+{
+  "enum" : "TaskScheduleExecutionStatus",
+  "values" : [ {
+    "id" : "Running",
+    "ar" : "تحت التشغيل",
+    "en" : "Running"
+  }, {
+    "id" : "Success"
+  }, {
+    "id" : "Failed",
+    "ar" : "فشل",
+    "en" : "Failed"
+  } ]
+}

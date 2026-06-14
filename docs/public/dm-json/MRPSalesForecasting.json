@@ -605,6 +605,12 @@
       "refTo" : "InvItem",
       "refPath" : "/modules/supplychain/InvItem.html"
     }, {
+      "id" : "details.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
       "id" : "details.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"

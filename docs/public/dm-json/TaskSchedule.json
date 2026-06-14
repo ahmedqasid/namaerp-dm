@@ -451,6 +451,12 @@
     "en" : "Email Subject Template",
     "type" : "BigText"
   }, {
+    "id" : "enableExecutionLog",
+    "column" : "enableExecutionLog",
+    "ar" : "تفعيل سجل التشغيل",
+    "en" : "Enable Execution Log",
+    "type" : "Boolean"
+  }, {
     "id" : "entitySystemEntryId",
     "column" : "entitySystemEntry_id",
     "type" : "ID"

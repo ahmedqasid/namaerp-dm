@@ -40,6 +40,12 @@
     "refTo" : "InvItem",
     "refPath" : "/modules/supplychain/InvItem.html"
   }, {
+    "id" : "itemCode",
+    "column" : "itemCode",
+    "ar" : " الكود",
+    "en" : " Code",
+    "type" : "Text"
+  }, {
     "id" : "n1",
     "column" : "n1",
     "ar" : "رقم 1",

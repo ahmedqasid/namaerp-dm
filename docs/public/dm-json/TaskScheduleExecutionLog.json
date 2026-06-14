@@ -1,0 +1,44 @@
+{
+  "entity" : "TaskScheduleExecutionLog",
+  "table" : "TaskScheduleExecutionLog",
+  "module" : "system-tables",
+  "arPlural" : "سجل تشغيل المهمة",
+  "enPlural" : "Task Schedule Execution Log",
+  "page" : "https://dm.namasoft.com/modules/system-tables/TaskScheduleExecutionLog.html",
+  "fields" : [ {
+    "id" : "endTime",
+    "column" : "endTime",
+    "ar" : "إلى",
+    "en" : "End Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "startTime",
+    "column" : "startTime",
+    "ar" : "من",
+    "en" : "Start Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskScheduleExecutionStatus"
+  }, {
+    "id" : "taskSchedule",
+    "column" : "taskSchedule_id",
+    "type" : "Reference",
+    "refTo" : "TaskSchedule",
+    "refPath" : "/modules/basic/TaskSchedule.html"
+  } ]
+}

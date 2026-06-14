@@ -1939,6 +1939,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [TRTourService](https://dm.namasoft.com/dm-json/TRTourService.json): Tour Service / خدمة سياحية
 - [TRTourServiceClass](https://dm.namasoft.com/dm-json/TRTourServiceClass.json): Tour Service Class / تصنيف خدمة سياحية
 - [TaskSchedule](https://dm.namasoft.com/dm-json/TaskSchedule.json): Task Schedule / مهمة مجدولة
+- [TaskScheduleExecutionLog](https://dm.namasoft.com/dm-json/TaskScheduleExecutionLog.json)
 - [TaxAuthoritySubmissionDoc](https://dm.namasoft.com/dm-json/TaxAuthoritySubmissionDoc.json): Tax Authority Submission Document / إرسال مستندات الي مصلحة الضرائب
 - [TaxDiscountEffectsConfig](https://dm.namasoft.com/dm-json/TaxDiscountEffectsConfig.json): Tax and Discounts Effects Configuration / إعدادات تأثير الخصومات و الضرائب
 - [TaxEInvoice](https://dm.namasoft.com/dm-json/TaxEInvoice.json): Tax Electronic Invoice / الفاتورة الإكترونية المستقبلة

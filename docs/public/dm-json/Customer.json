@@ -74,6 +74,54 @@
     "refTo" : "LargeData",
     "refPath" : "/modules/system-tables/LargeData.html"
   }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment6",
+    "column" : "attachment6_id",
+    "ar" : "مرفق 6",
+    "en" : "Attachment6",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment7",
+    "column" : "attachment7_id",
+    "ar" : "مرفق 7",
+    "en" : "Attachment7",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment8",
+    "column" : "attachment8_id",
+    "ar" : "مرفق 8",
+    "en" : "Attachment8",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment9",
+    "column" : "attachment9_id",
+    "ar" : "مرفق 9",
+    "en" : "Attachment9",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
     "id" : "b1",
     "column" : "b1",
     "ar" : "Boolean 1",

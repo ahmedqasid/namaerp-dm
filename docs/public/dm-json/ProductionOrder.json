@@ -1102,6 +1102,12 @@
       "refTo" : "InvItem",
       "refPath" : "/modules/supplychain/InvItem.html"
     }, {
+      "id" : "coProducts.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
+    }, {
       "id" : "coProducts.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
@@ -1507,6 +1513,12 @@
       "type" : "Reference",
       "refTo" : "ItemClass2",
       "refPath" : "/modules/supplychain/ItemClass2.html"
+    }, {
+      "id" : "components.itemCode",
+      "column" : "itemCode",
+      "ar" : " الكود",
+      "en" : " Code",
+      "type" : "Text"
     }, {
       "id" : "components.lineNumber",
       "column" : "lineNumber",
