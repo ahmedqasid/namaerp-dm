@@ -100,6 +100,12 @@
     "refTo" : "Currency",
     "refPath" : "/modules/basic/Currency.html"
   }, {
+    "id" : "currencyRate",
+    "column" : "currencyRate",
+    "ar" : "المعدل",
+    "en" : "Currency Rate",
+    "type" : "Decimal"
+  }, {
     "id" : "currentApprovalCase",
     "column" : "currentApprovalCase_id",
     "type" : "",

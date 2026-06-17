@@ -2003,9 +2003,11 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [WarehouseGroup](https://dm.namasoft.com/dm-json/WarehouseGroup.json): Warehouse Group / مجموعة مخازن
 - [WarehouseLocatorFilterLine](https://dm.namasoft.com/dm-json/WarehouseLocatorFilterLine.json)
 - [WarehouseTaking](https://dm.namasoft.com/dm-json/WarehouseTaking.json)
+- [WarehouseUsagePolicy](https://dm.namasoft.com/dm-json/WarehouseUsagePolicy.json): Warehouse Usage Policy / سياسة استخدام المخازن
 - [WarrantyPeriodType](https://dm.namasoft.com/dm-json/WarrantyPeriodType.json): Warranty Period Type / نوع فترة الضمان
 - [WathqCallInfo](https://dm.namasoft.com/dm-json/WathqCallInfo.json)
 - [WebEngageSentEvent](https://dm.namasoft.com/dm-json/WebEngageSentEvent.json)
+- [WeekendDoc](https://dm.namasoft.com/dm-json/WeekendDoc.json): Weekend Document / سند الراحات الأسبوعية
 - [WeightScaleConfig](https://dm.namasoft.com/dm-json/WeightScaleConfig.json): Weight Scale Configuration / إعدادات الميزان
 - [WeightScalePrepGenerator](https://dm.namasoft.com/dm-json/WeightScalePrepGenerator.json): Weight Scale Preparation Documents Generator / سند إنشاء سندات تحضير الميزان
 - [WeightScalePreparationDoc](https://dm.namasoft.com/dm-json/WeightScalePreparationDoc.json): Weight Scale Preparation Document / سند تحضير - الميزان

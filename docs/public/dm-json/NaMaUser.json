@@ -613,6 +613,13 @@
     "type" : "Enum",
     "enum" : "ListViewPageSize"
   }, {
+    "id" : "settings.defaultSearchPageSize",
+    "column" : "defaultSearchPageSize",
+    "ar" : "عدد السجلات الإفتراضي لكل صفحة في قائمة الإختيار",
+    "en" : "Default Searcher Page Size",
+    "type" : "Enum",
+    "enum" : "ListViewPageSize"
+  }, {
     "id" : "settings.defaultUserForEmployee",
     "column" : "defaultUserForEmployee",
     "type" : "Boolean"

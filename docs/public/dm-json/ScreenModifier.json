@@ -412,6 +412,13 @@
     "refTo" : "CriteriaDefinition",
     "refPath" : "/modules/basic/CriteriaDefinition.html"
   }, {
+    "id" : "listViewDefaultPageSize",
+    "column" : "listViewDefaultPageSize",
+    "ar" : "عدد السجلات الإفتراضي لكل صفحة في جدول القائمة",
+    "en" : "List View Default Page Size",
+    "type" : "Enum",
+    "enum" : "ListViewPageSize"
+  }, {
     "id" : "listViewWidth",
     "column" : "listViewWidth",
     "ar" : "عرض جدول القائمة",
@@ -648,6 +655,13 @@
     "type" : "Enum",
     "enum" : "ViewModificationType"
   }, {
+    "id" : "searchDefaultPageSize",
+    "column" : "searchDefaultPageSize",
+    "ar" : "عدد السجلات الإفتراضي لكل صفحة في جدول البحث",
+    "en" : "Searcher Default Page Size",
+    "type" : "Enum",
+    "enum" : "ListViewPageSize"
+  }, {
     "id" : "searchDisplayModifyType",
     "column" : "searchDisplayModifyType",
     "ar" : " نوع التعديل على الأعمدة الظاهرة",
@@ -776,6 +790,18 @@
       "type" : "Reference",
       "refTo" : "BulkEditConfig",
       "refPath" : "/modules/basic/BulkEditConfig.html"
+    }, {
+      "id" : "actionLines.confirmationMessageAr",
+      "column" : "confirmationMessageAr",
+      "ar" : "رسالة التأكيد (عربي)",
+      "en" : "Confirmation Message (Arabic)",
+      "type" : "BigText"
+    }, {
+      "id" : "actionLines.confirmationMessageEn",
+      "column" : "confirmationMessageEn",
+      "ar" : "رسالة التأكيد (إنجليزي)",
+      "en" : "Confirmation Message (English)",
+      "type" : "BigText"
     }, {
       "id" : "actionLines.enTitle",
       "column" : "enTitle",
@@ -2698,6 +2724,33 @@
       "ar" : "الصفحة",
       "en" : "Page",
       "type" : "Text"
+    } ]
+  }, {
+    "id" : "reorderedPages",
+    "table" : "ScreenPageReorder",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "إعادة ترتيب الصفحات",
+    "en" : "Reorder Pages",
+    "fields" : [ {
+      "id" : "reorderedPages.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "reorderedPages.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "reorderedPages.pageId",
+      "column" : "pageId",
+      "ar" : "الصفحة",
+      "en" : "Page",
+      "type" : "Text"
+    }, {
+      "id" : "reorderedPages.toOrder",
+      "column" : "toOrder",
+      "ar" : "الترتيب الجديد",
+      "en" : "New Order",
+      "type" : "Integer"
     } ]
   }, {
     "id" : "searchCriteriaFields",

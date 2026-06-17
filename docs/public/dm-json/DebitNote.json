@@ -905,6 +905,46 @@
       "en" : "Date 2",
       "type" : "Date"
     }, {
+      "id" : "invoices.genericDimensions.analysisSet",
+      "column" : "analysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "invoices.genericDimensions.branch",
+      "column" : "branch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "invoices.genericDimensions.department",
+      "column" : "department_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "invoices.genericDimensions.legalEntity",
+      "column" : "legalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "invoices.genericDimensions.sector",
+      "column" : "sector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    }, {
       "id" : "invoices.id",
       "column" : "id",
       "type" : "ID"
@@ -924,6 +964,12 @@
       "id" : "invoices.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
+    }, {
+      "id" : "invoices.localAmount",
+      "column" : "localAmount",
+      "ar" : "القيمة المحليه",
+      "en" : "Local amount",
+      "type" : "Decimal"
     }, {
       "id" : "invoices.n1",
       "column" : "n1",

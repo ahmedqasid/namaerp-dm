@@ -19129,6 +19129,9 @@
       "id" : "removedPages",
       "table" : "ScreenPageRemover"
     }, {
+      "id" : "reorderedPages",
+      "table" : "ScreenPageReorder"
+    }, {
       "id" : "searchCriteriaFields",
       "table" : "ScreenSearchCriteriaFields"
     }, {
@@ -20921,6 +20924,16 @@
     "table" : "WarehouseTaking",
     "module" : "system-tables"
   }, {
+    "name" : "WarehouseUsagePolicy",
+    "table" : "WarehouseUsagePolicy",
+    "module" : "supplychain-inventory",
+    "ar" : "سياسة استخدام المخازن",
+    "en" : "Warehouse Usage Policy",
+    "details" : [ {
+      "id" : "details",
+      "table" : "WarehouseUsagePolicyLine"
+    } ]
+  }, {
     "name" : "WarrantyPeriodType",
     "table" : "WarrantyPeriodType",
     "module" : "crm-maintenance",
@@ -20934,6 +20947,16 @@
     "name" : "WebEngageSentEvent",
     "table" : "WebEngageSentEvent",
     "module" : "system-tables"
+  }, {
+    "name" : "WeekendDoc",
+    "table" : "WeekendDoc",
+    "module" : "system-tables",
+    "ar" : "سند الراحات الأسبوعية",
+    "en" : "Weekend Document",
+    "details" : [ {
+      "id" : "weekendLines",
+      "table" : "WeekendDocLine"
+    } ]
   }, {
     "name" : "WeightScaleConfig",
     "table" : "WeightScaleConfig",

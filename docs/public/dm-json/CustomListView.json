@@ -311,6 +311,13 @@
     "refTo" : "CriteriaDefinition",
     "refPath" : "/modules/basic/CriteriaDefinition.html"
   }, {
+    "id" : "listViewDefaultPageSize",
+    "column" : "listViewDefaultPageSize",
+    "ar" : "عدد السجلات الإفتراضي لكل صفحة في جدول القائمة",
+    "en" : "List View Default Page Size",
+    "type" : "Enum",
+    "enum" : "ListViewPageSize"
+  }, {
     "id" : "listViewWidth",
     "column" : "listViewWidth",
     "ar" : "عرض جدول القائمة",

@@ -606,6 +606,12 @@
     "en" : "Description",
     "type" : "BigText"
   }, {
+    "id" : "removeOtherEmployeesWhenEscalate",
+    "column" : "removeOtherEmployeesWhenEscalate",
+    "ar" : "حذف باقي مسئولين الموافقة عند التصعيد",
+    "en" : "Remove Other Employees From approval When Escalate",
+    "type" : "Boolean"
+  }, {
     "id" : "reqCommentInApprovalLinks",
     "column" : "reqCommentInApprovalLinks",
     "ar" : "طلب ملاحظة في روابط الموافقة",

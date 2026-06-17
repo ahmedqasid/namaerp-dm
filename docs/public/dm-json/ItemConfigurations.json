@@ -8,6 +8,18 @@
   "enPlural" : "Item Configurations",
   "page" : "https://dm.namasoft.com/modules/supplychain/ItemConfigurations.html",
   "fields" : [ {
+    "id" : "activePercentConfig.allowAdminToReceiptWithEmptyValue",
+    "column" : "actvAllwAdmnTRcptWthEmptyVlu",
+    "ar" : "Allow Admin To Receipt With Empty Value",
+    "en" : "Allow Admin To Receipt With Empty Value",
+    "type" : "Boolean"
+  }, {
+    "id" : "activePercentConfig.allowEmptyValuesBeforeDate",
+    "column" : "actvAllwEmptyVluesBeforeDate",
+    "ar" : "Allow Empty Values Before Date",
+    "en" : "Allow Empty Values Before Date",
+    "type" : "Date"
+  }, {
     "id" : "activePercentConfig.issuePolicy",
     "column" : "activeIssuePolicy",
     "ar" : "السياسة في السحب",
@@ -103,6 +115,18 @@
     "ar" : "كود اللون",
     "en" : "Color Code",
     "type" : "Color"
+  }, {
+    "id" : "colorConfigurations.allowAdminToReceiptWithEmptyValue",
+    "column" : "clrAllwAdmnTRcptWthEmptyVlue",
+    "ar" : "Allow Admin To Receipt With Empty Value",
+    "en" : "Allow Admin To Receipt With Empty Value",
+    "type" : "Boolean"
+  }, {
+    "id" : "colorConfigurations.allowEmptyValuesBeforeDate",
+    "column" : "clrAllowEmptyValuesBeforeDate",
+    "ar" : "Allow Empty Values Before Date",
+    "en" : "Allow Empty Values Before Date",
+    "type" : "Date"
   }, {
     "id" : "colorConfigurations.issuePolicy",
     "column" : "clrIssuePolicy",
@@ -468,6 +492,18 @@
     "en" : "Ignore Cost For Item",
     "type" : "Boolean"
   }, {
+    "id" : "inActivePercentConfig.allowAdminToReceiptWithEmptyValue",
+    "column" : "inctvAllwAdmnTRcptWthEmptyVlu",
+    "ar" : "Allow Admin To Receipt With Empty Value",
+    "en" : "Allow Admin To Receipt With Empty Value",
+    "type" : "Boolean"
+  }, {
+    "id" : "inActivePercentConfig.allowEmptyValuesBeforeDate",
+    "column" : "inctvAllwEmptyVlusBeforeDate",
+    "ar" : "Allow Empty Values Before Date",
+    "en" : "Allow Empty Values Before Date",
+    "type" : "Date"
+  }, {
     "id" : "inActivePercentConfig.issuePolicy",
     "column" : "inactiveIssuePolicy",
     "ar" : "السياسة في السحب",
@@ -541,6 +577,18 @@
     "column" : "lockVersion",
     "type" : "Integer"
   }, {
+    "id" : "lotIdConfigurations.allowAdminToReceiptWithEmptyValue",
+    "column" : "ltAllwAdmnTRcptWthEmptyValue",
+    "ar" : "Allow Admin To Receipt With Empty Value",
+    "en" : "Allow Admin To Receipt With Empty Value",
+    "type" : "Boolean"
+  }, {
+    "id" : "lotIdConfigurations.allowEmptyValuesBeforeDate",
+    "column" : "ltAllowEmptyValuesBeforeDate",
+    "ar" : "Allow Empty Values Before Date",
+    "en" : "Allow Empty Values Before Date",
+    "type" : "Date"
+  }, {
     "id" : "lotIdConfigurations.issuePolicy",
     "column" : "ltIssuePolicy",
     "ar" : "السياسة في السحب",
@@ -578,6 +626,18 @@
     "ar" : "يمكن تصنيعه",
     "en" : "Manufacturable",
     "type" : "Boolean"
+  }, {
+    "id" : "measuresConfigurations.allowAdminToReceiptWithEmptyValue",
+    "column" : "mAllwAdmnTRcptWithEmptyValue",
+    "ar" : "Allow Admin To Receipt With Empty Value",
+    "en" : "Allow Admin To Receipt With Empty Value",
+    "type" : "Boolean"
+  }, {
+    "id" : "measuresConfigurations.allowEmptyValuesBeforeDate",
+    "column" : "meAllowEmptyValuesBeforeDate",
+    "ar" : "Allow Empty Values Before Date",
+    "en" : "Allow Empty Values Before Date",
+    "type" : "Date"
   }, {
     "id" : "measuresConfigurations.issuePolicy",
     "column" : "meIssuePolicy",
@@ -653,6 +713,18 @@
     "en" : "Over Draft Policy",
     "type" : "Enum",
     "enum" : "YesNoInheritedPolicy"
+  }, {
+    "id" : "packagingConfigurations.allowAdminToReceiptWithEmptyValue",
+    "column" : "pckAllwAdmnTRcptWthEmptyVlue",
+    "ar" : "Allow Admin To Receipt With Empty Value",
+    "en" : "Allow Admin To Receipt With Empty Value",
+    "type" : "Boolean"
+  }, {
+    "id" : "packagingConfigurations.allowEmptyValuesBeforeDate",
+    "column" : "pckAllwEmptyValuesBeforeDate",
+    "ar" : "Allow Empty Values Before Date",
+    "en" : "Allow Empty Values Before Date",
+    "type" : "Date"
   }, {
     "id" : "packagingConfigurations.issuePolicy",
     "column" : "packIssuePolicy",
@@ -769,6 +841,18 @@
     "refTo" : "NaMaUser",
     "refPath" : "/modules/system-tables/NaMaUser.html"
   }, {
+    "id" : "revisionIdConfigurations.allowAdminToReceiptWithEmptyValue",
+    "column" : "rvAllwAdmnTRcptWthEmptyValue",
+    "ar" : "Allow Admin To Receipt With Empty Value",
+    "en" : "Allow Admin To Receipt With Empty Value",
+    "type" : "Boolean"
+  }, {
+    "id" : "revisionIdConfigurations.allowEmptyValuesBeforeDate",
+    "column" : "rvAllowEmptyValuesBeforeDate",
+    "ar" : "Allow Empty Values Before Date",
+    "en" : "Allow Empty Values Before Date",
+    "type" : "Date"
+  }, {
     "id" : "revisionIdConfigurations.issuePolicy",
     "column" : "rvIssuePolicy",
     "ar" : "السياسة في السحب",
@@ -813,6 +897,18 @@
     "en" : "Sellable",
     "type" : "Boolean"
   }, {
+    "id" : "serialNumberConfigurations.allowAdminToReceiptWithEmptyValue",
+    "column" : "srAllwAdmnTRcptWthEmptyValue",
+    "ar" : "Allow Admin To Receipt With Empty Value",
+    "en" : "Allow Admin To Receipt With Empty Value",
+    "type" : "Boolean"
+  }, {
+    "id" : "serialNumberConfigurations.allowEmptyValuesBeforeDate",
+    "column" : "srAllowEmptyValuesBeforeDate",
+    "ar" : "Allow Empty Values Before Date",
+    "en" : "Allow Empty Values Before Date",
+    "type" : "Date"
+  }, {
     "id" : "serialNumberConfigurations.issuePolicy",
     "column" : "srIssuePolicy",
     "ar" : "السياسة في السحب",
@@ -839,6 +935,18 @@
     "en" : "Track Quantity",
     "type" : "Boolean"
   }, {
+    "id" : "sizeConfigurations.allowAdminToReceiptWithEmptyValue",
+    "column" : "szAllwAdmnTRcptWthEmptyValue",
+    "ar" : "Allow Admin To Receipt With Empty Value",
+    "en" : "Allow Admin To Receipt With Empty Value",
+    "type" : "Boolean"
+  }, {
+    "id" : "sizeConfigurations.allowEmptyValuesBeforeDate",
+    "column" : "szAllowEmptyValuesBeforeDate",
+    "ar" : "Allow Empty Values Before Date",
+    "en" : "Allow Empty Values Before Date",
+    "type" : "Date"
+  }, {
     "id" : "sizeConfigurations.issuePolicy",
     "column" : "szIssuePolicy",
     "ar" : "السياسة في السحب",
@@ -864,6 +972,18 @@
     "ar" : "متابعة الكميات",
     "en" : "Track Quantity",
     "type" : "Boolean"
+  }, {
+    "id" : "subItemConfig.allowAdminToReceiptWithEmptyValue",
+    "column" : "subItmAllwAdmnTRcptWthEmptyVlu",
+    "ar" : "Allow Admin To Receipt With Empty Value",
+    "en" : "Allow Admin To Receipt With Empty Value",
+    "type" : "Boolean"
+  }, {
+    "id" : "subItemConfig.allowEmptyValuesBeforeDate",
+    "column" : "subItmAllwEmptyVlusBforeDate",
+    "ar" : "Allow Empty Values Before Date",
+    "en" : "Allow Empty Values Before Date",
+    "type" : "Date"
   }, {
     "id" : "subItemConfig.issuePolicy",
     "column" : "subItemIssuePolicy",

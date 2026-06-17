@@ -1,17 +1,13 @@
 {
-  "entity" : "DefaultValuesTemplate",
-  "table" : "DefaultValuesTemplate",
-  "module" : "basic",
-  "ar" : "قالب قيم افتراضية",
-  "arPlural" : "قوالب قيم افتراضية",
-  "en" : "Default Values Template",
-  "enPlural" : "Default Values Templates",
-  "page" : "https://dm.namasoft.com/modules/basic/DefaultValuesTemplate.html",
+  "entity" : "WarehouseUsagePolicy",
+  "table" : "WarehouseUsagePolicy",
+  "module" : "supplychain-inventory",
+  "ar" : "سياسة استخدام المخازن",
+  "arPlural" : "سياسات استخدام المخازن",
+  "en" : "Warehouse Usage Policy",
+  "enPlural" : "Warehouse Usage Policies",
+  "page" : "https://dm.namasoft.com/modules/supplychain-inventory/WarehouseUsagePolicy.html",
   "fields" : [ {
-    "id" : "allLists",
-    "column" : "allLists",
-    "type" : "BigText"
-  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",
@@ -23,10 +19,6 @@
     "id" : "analysisSetId",
     "column" : "analysisSet_id",
     "type" : "ID"
-  }, {
-    "id" : "applyToIds",
-    "column" : "applyToIds",
-    "type" : "Text"
   }, {
     "id" : "branch",
     "column" : "branch_id",
@@ -81,12 +73,6 @@
     "ar" : "النسخة الحالية",
     "en" : "Current Version",
     "type" : "Integer"
-  }, {
-    "id" : "cursorField",
-    "column" : "cursorField",
-    "ar" : "حقل الادخال",
-    "en" : "Cursor Field",
-    "type" : "FieldID"
   }, {
     "id" : "customViewName",
     "column" : "customViewName",
@@ -164,18 +150,6 @@
     "en" : "description5",
     "type" : "Text"
   }, {
-    "id" : "doNotAddToMoreMenu",
-    "column" : "doNotAddToMoreMenu",
-    "ar" : "عدم الإضافة الي قائمة مزيد",
-    "en" : "Do Not Add To More Menu",
-    "type" : "Boolean"
-  }, {
-    "id" : "doNotUseWithMobile",
-    "column" : "doNotUseWithMobile",
-    "ar" : "لا تستعمل مع التطبيق",
-    "en" : "Do Not Use With Mobile",
-    "type" : "Boolean"
-  }, {
     "id" : "docCategory",
     "column" : "docCategory_id",
     "ar" : " تصنيف سجل",
@@ -218,12 +192,6 @@
     "ar" : "النوع",
     "en" : "Entity Type",
     "type" : "EntityType"
-  }, {
-    "id" : "fieldsMap",
-    "column" : "fieldsMap",
-    "ar" : "Fields Map",
-    "en" : "Fields Map",
-    "type" : "BigText"
   }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
@@ -272,12 +240,6 @@
     "column" : "id",
     "type" : "ID"
   }, {
-    "id" : "inActive",
-    "column" : "inActive",
-    "ar" : "غير نشط",
-    "en" : "Inactive",
-    "type" : "Boolean"
-  }, {
     "id" : "indexInParent",
     "column" : "indexInParent",
     "type" : "Integer"
@@ -317,12 +279,6 @@
     "type" : "Binary",
     "refTo" : "LargeData",
     "refPath" : "/modules/system-tables/LargeData.html"
-  }, {
-    "id" : "manual",
-    "column" : "manual",
-    "ar" : "يدوي",
-    "en" : "Manual",
-    "type" : "Boolean"
   }, {
     "id" : "n1",
     "column" : "n1",
@@ -382,12 +338,6 @@
     "en" : "Print Count",
     "type" : "Integer"
   }, {
-    "id" : "priority",
-    "column" : "priority",
-    "ar" : "الأولوية",
-    "en" : "Priority",
-    "type" : "Long"
-  }, {
     "id" : "ref1",
     "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
     "ar" : "مرجع 1",
@@ -443,12 +393,6 @@
     "refTo" : "NaMaUser",
     "refPath" : "/modules/system-tables/NaMaUser.html"
   }, {
-    "id" : "scenario",
-    "column" : "scenario",
-    "ar" : "سيناريو",
-    "en" : "Scenario",
-    "type" : "BigText"
-  }, {
     "id" : "sector",
     "column" : "sector_id",
     "ar" : "القطاع",
@@ -461,42 +405,11 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
-    "id" : "shortCut.theKey",
-    "column" : "theKey",
-    "ar" : "المفتاح",
-    "en" : "Key",
-    "type" : "Enum",
-    "enum" : "KeyboardKey"
-  }, {
-    "id" : "shortCut.useAlt",
-    "column" : "useAlt",
-    "ar" : "Alt",
-    "en" : "Alt",
-    "type" : "Boolean"
-  }, {
-    "id" : "shortCut.useCtrl",
-    "column" : "useCtrl",
-    "ar" : "Ctrl",
-    "en" : "Ctrl",
-    "type" : "Boolean"
-  }, {
-    "id" : "shortCut.useShift",
-    "column" : "useShift",
-    "ar" : "Shift",
-    "en" : "Shift",
-    "type" : "Boolean"
-  }, {
     "id" : "systemGeneratedCodePrefix",
     "column" : "systemGeneratedCodePrefix",
     "ar" : "System Generated Code Prefix",
     "en" : "System Generated Code Prefix",
     "type" : "Text"
-  }, {
-    "id" : "targetType",
-    "column" : "targetType",
-    "ar" : " النوع المستهدف",
-    "en" : " Tooltip Target Type",
-    "type" : "EntityType"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
@@ -533,5 +446,65 @@
     "id" : "viewCapabilityId",
     "column" : "viewCapability_id",
     "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "details",
+    "table" : "WarehouseUsagePolicyLine",
+    "joinColumn" : "warehouseUsagePolicy_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "fields" : [ {
+      "id" : "details.applicableFor",
+      "columns" : [ "applicableForActualCode", " applicableForCode", " applicableForEntityType", " applicableForId" ],
+      "ar" : "مطبق على",
+      "en" : "Applicable For",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.entityList",
+      "column" : "entityList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "details.forType",
+      "column" : "forType",
+      "ar" : "للنوع",
+      "en" : "For Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "details.fromDate",
+      "column" : "fromDate",
+      "ar" : "من تاريخ",
+      "en" : "From Date",
+      "type" : "Date"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.preventUsage",
+      "column" : "preventUsage",
+      "ar" : "منع الاستعمال",
+      "en" : "Prevent Usage",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.toDate",
+      "column" : "toDate",
+      "ar" : "إلى تاريخ",
+      "en" : "To Date",
+      "type" : "Date"
+    }, {
+      "id" : "details.warehouse",
+      "columns" : [ "warehouseActualCode", " warehouseCode", " warehouseEntityType", " warehouseId" ],
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Genericreference"
+    } ]
   } ]
 }
