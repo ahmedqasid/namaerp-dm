@@ -200,5 +200,9 @@
     "en" : "Tooltips"
   }, {
     "id" : "askAI"
+  }, {
+    "id" : "removeFilter",
+    "ar" : "مسح الفلترة",
+    "en" : "Remove Filter"
   } ]
 }
