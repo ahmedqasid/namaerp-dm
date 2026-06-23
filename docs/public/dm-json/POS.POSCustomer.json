@@ -60,6 +60,12 @@
     "en" : "The legal entity of the company",
     "type" : "Text"
   }, {
+    "id" : "country",
+    "column" : "country",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
     "id" : "countryCode",
     "column" : "countryCode",
     "ar" : "كود الدولة",
@@ -327,6 +333,12 @@
     "id" : "sent",
     "column" : "sent",
     "type" : "Boolean"
+  }, {
+    "id" : "state",
+    "column" : "state",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
   }, {
     "id" : "street",
     "column" : "street",

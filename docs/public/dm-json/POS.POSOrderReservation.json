@@ -162,6 +162,12 @@
     "en" : "Customer Name",
     "type" : "Text"
   }, {
+    "id" : "customerTaxRegNo",
+    "column" : "customerTaxRegNo",
+    "ar" : "رقم التسجيل الضريبي للعميل",
+    "en" : "Customer Tax Registration Number",
+    "type" : "Text"
+  }, {
     "id" : "date1",
     "column" : "date1",
     "ar" : "تـــاريخ 1",

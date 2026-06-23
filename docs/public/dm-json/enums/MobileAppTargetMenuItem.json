@@ -1,6 +1,10 @@
 {
   "enum" : "MobileAppTargetMenuItem",
   "values" : [ {
+    "id" : "MonthlyEmployeeDashboard",
+    "ar" : "لوحة الموظف الشهرية",
+    "en" : "Monthly Employee Dashboard"
+  }, {
     "id" : "SystemAttendanceHistory",
     "ar" : "سجل الحضور الشامل",
     "en" : "System Attendance History"
