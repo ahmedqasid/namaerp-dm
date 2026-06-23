@@ -303,6 +303,12 @@
     "column" : "legalEntity_id",
     "type" : "ID"
   }, {
+    "id" : "listViewAlwaysApplyDefaultCriteria",
+    "column" : "listViewAlwaysApplyDefaultCriteria",
+    "ar" : "تطبيق المعايير الافتراضية دائما للقائمة",
+    "en" : "List View Always Apply Default Criteria",
+    "type" : "Boolean"
+  }, {
     "id" : "listViewDefaultCriteria",
     "column" : "listViewDefaultCriteria_id",
     "ar" : "المعايير الافتراضية للقائمة",
@@ -313,7 +319,7 @@
   }, {
     "id" : "listViewDefaultPageSize",
     "column" : "listViewDefaultPageSize",
-    "ar" : "عدد السجلات الإفتراضي لكل صفحة في جدول القائمة",
+    "ar" : "عدد السجلات الافتراضي لكل صفحة في جدول القائمة",
     "en" : "List View Default Page Size",
     "type" : "Enum",
     "enum" : "ListViewPageSize"

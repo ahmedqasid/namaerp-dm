@@ -684,6 +684,12 @@
       "en" : "Work hours | net",
       "type" : "Decimal"
     }, {
+      "id" : "details.netTimeFormatted",
+      "column" : "netTimeFormatted",
+      "ar" : "ساعات العمل | وقت العمل",
+      "en" : "Work hours | Working Time",
+      "type" : "Text"
+    }, {
       "id" : "details.product",
       "column" : "product_id",
       "ar" : "المنتج",

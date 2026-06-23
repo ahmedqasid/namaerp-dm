@@ -13,6 +13,8 @@
     "ar" : "تخارج جزئي",
     "en" : "Partial Exit"
   }, {
-    "id" : "Revaluation"
+    "id" : "Revaluation",
+    "ar" : "إعادة تقييم",
+    "en" : "Revaluation"
   } ]
 }

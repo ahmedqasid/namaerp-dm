@@ -479,6 +479,13 @@
     "refTo" : "FAClassification5",
     "refPath" : "/modules/fixedassets/FAClassification5.html"
   }, {
+    "id" : "faDepreciationMethod",
+    "column" : "faDepreciationMethod",
+    "ar" : "طريقة إهلاك الأصل",
+    "en" : "Asset Depreciation Method",
+    "type" : "Enum",
+    "enum" : "FADepreciationMethod"
+  }, {
     "id" : "faType",
     "column" : "faType_id",
     "ar" : " نوع أصل",

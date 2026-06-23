@@ -339,6 +339,13 @@
     "en" : "Exclude Service Fees With No Configs",
     "type" : "Boolean"
   }, {
+    "id" : "extraDiscountLocation",
+    "column" : "extraDiscountLocation",
+    "ar" : "موقع الخصم الإضافي على مستوى المستند",
+    "en" : "Document Level Extra Discount Location",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
+  }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
     "ar" : "منشئ السجل",

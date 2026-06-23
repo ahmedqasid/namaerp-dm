@@ -122,6 +122,14 @@
     "column" : "imgDownloadLink",
     "type" : "Text"
   }, {
+    "id" : "invoiceClassification",
+    "column" : "invoiceClassification_id",
+    "ar" : "تصنيف الفاتورة",
+    "en" : "Invoice Classification",
+    "type" : "Reference",
+    "refTo" : "POS.POSInvoiceClassification",
+    "refPath" : "/modules/pos-app/POS.POSInvoiceClassification.html"
+  }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
     "ar" : "تاريخ اخر تحديث",

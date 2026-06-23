@@ -1,12 +1,12 @@
 {
-  "entity" : "DailyEngineeringDoings",
-  "table" : "DailyEngineeringDoings",
-  "module" : "contracting",
-  "ar" : "مستند الأعمال الهندسية اليومية",
-  "arPlural" : "مستندات الأعمال الهندسية اليومية",
-  "en" : "Daily Engineering Doing",
-  "enPlural" : "Daily Engineering Doing",
-  "page" : "https://dm.namasoft.com/modules/contracting/DailyEngineeringDoings.html",
+  "entity" : "FARevaluation",
+  "table" : "FARevaluation",
+  "module" : "system-tables",
+  "ar" : "إعادة تقييم الأصول",
+  "arPlural" : "إعادة تقييم الأصول",
+  "en" : "Fixed Asset Revaluation",
+  "enPlural" : "Fixed Assets Revaluation",
+  "page" : "https://dm.namasoft.com/modules/system-tables/FARevaluation.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -67,12 +67,6 @@
     "ar" : "تم الحفظ مسبقا",
     "en" : "Commited Before",
     "type" : "Boolean"
-  }, {
-    "id" : "contract",
-    "columns" : [ "contractActualCode", " contractCode", " contractEntityType", " contractId" ],
-    "ar" : "العقد",
-    "en" : "Contract",
-    "type" : "Genericreference"
   }, {
     "id" : "createTransactionId",
     "column" : "createTransactionId",
@@ -247,6 +241,38 @@
     "refTo" : "FiscalYear",
     "refPath" : "/modules/basic/FiscalYear.html"
   }, {
+    "id" : "fromAnalysisSet",
+    "column" : "fromAnalysisSet_id",
+    "ar" : "من مجموعه تحليليه",
+    "en" : "From Analysis Set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "fromAsset",
+    "column" : "fromAsset_id",
+    "ar" : "من أصل",
+    "en" : "From Asset",
+    "type" : "Reference",
+    "refTo" : "FixedAsset",
+    "refPath" : "/modules/fixedassets/FixedAsset.html"
+  }, {
+    "id" : "fromBranch",
+    "column" : "fromBranch_id",
+    "ar" : "من فرع",
+    "en" : "From Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "fromDepartment",
+    "column" : "fromDepartment_id",
+    "ar" : "من إدارة",
+    "en" : "From Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
     "id" : "fromDoc",
     "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
     "ar" : "بناءا على",
@@ -258,6 +284,70 @@
     "ar" : "عدد سندات بناء على",
     "en" : "From Docs Count",
     "type" : "Integer"
+  }, {
+    "id" : "fromFAType",
+    "column" : "fromFAType_id",
+    "ar" : "من نوع أصل",
+    "en" : "From Fixed Asset Type",
+    "type" : "Reference",
+    "refTo" : "FAType",
+    "refPath" : "/modules/fixedassets/FAType.html"
+  }, {
+    "id" : "fromFaClassification1",
+    "column" : "fromFaClassification1_id",
+    "ar" : "من تصنيف أصل ثابت 1",
+    "en" : "From Fixed Asset Classification 1",
+    "type" : "Reference",
+    "refTo" : "FAClassification1",
+    "refPath" : "/modules/fixedassets/FAClassification1.html"
+  }, {
+    "id" : "fromFaClassification2",
+    "column" : "fromFaClassification2_id",
+    "ar" : "من تصنيف أصل ثابت 2",
+    "en" : "From Fixed Asset Classification 2",
+    "type" : "Reference",
+    "refTo" : "FAClassification2",
+    "refPath" : "/modules/fixedassets/FAClassification2.html"
+  }, {
+    "id" : "fromFaClassification3",
+    "column" : "fromFaClassification3_id",
+    "ar" : "من تصنيف أصل ثابت 3",
+    "en" : "From Fixed Asset Classification 3",
+    "type" : "Reference",
+    "refTo" : "FAClassification3",
+    "refPath" : "/modules/fixedassets/FAClassification3.html"
+  }, {
+    "id" : "fromFaClassification4",
+    "column" : "fromFaClassification4_id",
+    "ar" : "من تصنيف أصل ثابت 4",
+    "en" : "From Fixed Asset Classification 4",
+    "type" : "Reference",
+    "refTo" : "FAClassification4",
+    "refPath" : "/modules/fixedassets/FAClassification4.html"
+  }, {
+    "id" : "fromFaClassification5",
+    "column" : "fromFaClassification5_id",
+    "ar" : "من تصنيف أصل ثابت 5",
+    "en" : "From Fixed Asset Classification 5",
+    "type" : "Reference",
+    "refTo" : "FAClassification5",
+    "refPath" : "/modules/fixedassets/FAClassification5.html"
+  }, {
+    "id" : "fromMasterGroup",
+    "column" : "fromMasterGroup_id",
+    "ar" : "من مجموعه",
+    "en" : "From Master Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "fromSector",
+    "column" : "fromSector_id",
+    "ar" : "من قطاع",
+    "en" : "From Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
   }, {
     "id" : "generatedByLine",
     "column" : "generatedByLine",
@@ -309,6 +399,10 @@
     "ar" : "تاريخ اخر تحديث",
     "en" : "Last update Date",
     "type" : "DateAndTime"
+  }, {
+    "id" : "ledgerTransReqId",
+    "column" : "ledgerTransReqId",
+    "type" : "ID"
   }, {
     "id" : "legalEntity",
     "column" : "legalEntity_id",
@@ -390,14 +484,6 @@
     "en" : "Print Count",
     "type" : "Integer"
   }, {
-    "id" : "project",
-    "column" : "project_id",
-    "ar" : "المشروع",
-    "en" : "Project",
-    "type" : "Reference",
-    "refTo" : "Project",
-    "refPath" : "/modules/contracting/Project.html"
-  }, {
     "id" : "purged",
     "column" : "purged",
     "ar" : "Purged",
@@ -447,14 +533,6 @@
     "ar" : "ملاحظات",
     "en" : "Description",
     "type" : "BigText"
-  }, {
-    "id" : "responsibleEngineer",
-    "column" : "responsibleEngineer_id",
-    "ar" : "المهندس المسئول",
-    "en" : "Responsible Engineer",
-    "type" : "Reference",
-    "refTo" : "Employee",
-    "refPath" : "/modules/basic/Employee.html"
   }, {
     "id" : "reviseLevel",
     "column" : "reviseLevel",
@@ -507,6 +585,128 @@
     "column" : "termConfigXml",
     "type" : "BigText"
   }, {
+    "id" : "toAnalysisSet",
+    "column" : "toAnalysisSet_id",
+    "ar" : "إلي مجموعه تحليليه",
+    "en" : "To Snalysis Set",
+    "type" : "Reference",
+    "refTo" : "AnalysisSet",
+    "refPath" : "/modules/basic/AnalysisSet.html"
+  }, {
+    "id" : "toAsset",
+    "column" : "toAsset_id",
+    "ar" : "إلى أصل",
+    "en" : "To Asset",
+    "type" : "Reference",
+    "refTo" : "FixedAsset",
+    "refPath" : "/modules/fixedassets/FixedAsset.html"
+  }, {
+    "id" : "toBranch",
+    "column" : "toBranch_id",
+    "ar" : "إلى فرع",
+    "en" : "To Branch",
+    "type" : "Reference",
+    "refTo" : "Branch",
+    "refPath" : "/modules/basic/Branch.html"
+  }, {
+    "id" : "toDepartment",
+    "column" : "toDepartment_id",
+    "ar" : "إلى إدارة",
+    "en" : "To Department",
+    "type" : "Reference",
+    "refTo" : "Department",
+    "refPath" : "/modules/basic/Department.html"
+  }, {
+    "id" : "toFAType",
+    "column" : "toFAType_id",
+    "ar" : "إلي نوع أصل",
+    "en" : "To Fixed asset Type",
+    "type" : "Reference",
+    "refTo" : "FAType",
+    "refPath" : "/modules/fixedassets/FAType.html"
+  }, {
+    "id" : "toFaClassification1",
+    "column" : "toFaClassification1_id",
+    "ar" : "إلى تصنيف أصل ثابت 1",
+    "en" : "To Fixed Asset Classification 1",
+    "type" : "Reference",
+    "refTo" : "FAClassification1",
+    "refPath" : "/modules/fixedassets/FAClassification1.html"
+  }, {
+    "id" : "toFaClassification2",
+    "column" : "toFaClassification2_id",
+    "ar" : "إلى تصنيف أصل ثابت 2",
+    "en" : "To Fixed Asset Classification 2",
+    "type" : "Reference",
+    "refTo" : "FAClassification2",
+    "refPath" : "/modules/fixedassets/FAClassification2.html"
+  }, {
+    "id" : "toFaClassification3",
+    "column" : "toFaClassification3_id",
+    "ar" : "إلى تصنيف أصل ثابت 3",
+    "en" : "To Fixed Asset Classification 3",
+    "type" : "Reference",
+    "refTo" : "FAClassification3",
+    "refPath" : "/modules/fixedassets/FAClassification3.html"
+  }, {
+    "id" : "toFaClassification4",
+    "column" : "toFaClassification4_id",
+    "ar" : "إلى تصنيف أصل ثابت 4",
+    "en" : "To Fixed Asset Classification 4",
+    "type" : "Reference",
+    "refTo" : "FAClassification4",
+    "refPath" : "/modules/fixedassets/FAClassification4.html"
+  }, {
+    "id" : "toFaClassification5",
+    "column" : "toFaClassification5_id",
+    "ar" : "إلى تصنيف أصل ثابت 5",
+    "en" : "To Fixed Asset Classification 5",
+    "type" : "Reference",
+    "refTo" : "FAClassification5",
+    "refPath" : "/modules/fixedassets/FAClassification5.html"
+  }, {
+    "id" : "toMasterGroup",
+    "column" : "toMasterGroup_id",
+    "ar" : "إلي مجموعه",
+    "en" : "To Master Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
+    "id" : "toSector",
+    "column" : "toSector_id",
+    "ar" : "إلي قطاع",
+    "en" : "To Sector",
+    "type" : "Reference",
+    "refTo" : "Sector",
+    "refPath" : "/modules/basic/Sector.html"
+  }, {
+    "id" : "total.amount",
+    "column" : "totalAmount",
+    "ar" : " المبلغ",
+    "en" : " Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "total.currency",
+    "column" : "totalCurrency_id",
+    "ar" : "العملة",
+    "en" : "Currency",
+    "type" : "Reference",
+    "refTo" : "Currency",
+    "refPath" : "/modules/basic/Currency.html"
+  }, {
+    "id" : "totalAfterRevaluation",
+    "column" : "totalAfterRevaluation",
+    "ar" : "الإجمالي بعد إعادة التقييم",
+    "en" : "Total After Revaluation",
+    "type" : "Decimal"
+  }, {
+    "id" : "totalBeforeRevaluation",
+    "column" : "totalBeforeRevaluation",
+    "ar" : "الإجمالي قبل إعادة التقييم",
+    "en" : "Total Before Revaluation",
+    "type" : "Decimal"
+  }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
     "ar" : "صلاحية التعديل",
@@ -551,86 +751,100 @@
   } ],
   "details" : [ {
     "id" : "details",
-    "table" : "DailyEngineeringDoingsLine",
-    "joinColumn" : "dailyEngineeringDoings_id",
+    "table" : "FARevaluationLine",
+    "joinColumn" : "fARevaluation_id",
     "ar" : "التفاصيل",
     "en" : "Details",
     "fields" : [ {
-      "id" : "details.attachment",
-      "column" : "attachment_id",
-      "ar" : "مرفق",
-      "en" : "Attachment",
-      "type" : "Binary",
-      "refTo" : "LargeData",
-      "refPath" : "/modules/system-tables/LargeData.html"
+      "id" : "details.assetValueAfterRevaluation",
+      "column" : "assetValueAfterRevaluation",
+      "ar" : "قيمة الأصل بعد إعادة التقييم",
+      "en" : "Asset Value After Revaluation",
+      "type" : "Decimal"
     }, {
-      "id" : "details.date1",
-      "column" : "date1",
-      "ar" : "تـــاريخ 1",
-      "en" : "Date 1",
-      "type" : "Date"
+      "id" : "details.assetValueBeforeRevaluation",
+      "column" : "assetValueBeforeRevaluation",
+      "ar" : "قيمة الأصل قبل إعادة التقييم",
+      "en" : "Asset Value Before Revaluation",
+      "type" : "Decimal"
     }, {
-      "id" : "details.date2",
-      "column" : "date2",
-      "ar" : "تـــاريخ 2",
-      "en" : "Date 2",
-      "type" : "Date"
+      "id" : "details.dimensions.analysisSet",
+      "column" : "dimensionsAnalysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
     }, {
-      "id" : "details.date3",
-      "column" : "date3",
-      "ar" : "تاريخ 3",
-      "en" : "Date3",
-      "type" : "Date"
+      "id" : "details.dimensions.branch",
+      "column" : "dimensionsBranch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
     }, {
-      "id" : "details.date4",
-      "column" : "date4",
-      "ar" : "تاريخ 4",
-      "en" : "Date4",
-      "type" : "Date"
+      "id" : "details.dimensions.department",
+      "column" : "dimensionsDepartment_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
     }, {
-      "id" : "details.date5",
-      "column" : "date5",
-      "ar" : "تاريخ 5",
-      "en" : "Date5",
-      "type" : "Date"
+      "id" : "details.dimensions.legalEntity",
+      "column" : "dimensionsLegalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
     }, {
-      "id" : "details.description1",
-      "column" : "description1",
-      "ar" : "الوصف 1",
-      "en" : "description1",
-      "type" : "Text"
+      "id" : "details.dimensions.sector",
+      "column" : "dimensionsSector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
     }, {
-      "id" : "details.description2",
-      "column" : "description2",
-      "ar" : "الوصف 2",
-      "en" : "description2",
-      "type" : "Text"
-    }, {
-      "id" : "details.description3",
-      "column" : "description3",
-      "ar" : "الوصف 3",
-      "en" : "description3",
-      "type" : "Text"
-    }, {
-      "id" : "details.description4",
-      "column" : "description4",
-      "ar" : "الوصف 4",
-      "en" : "description4",
-      "type" : "Text"
-    }, {
-      "id" : "details.description5",
-      "column" : "description5",
-      "ar" : "الوصف 5",
-      "en" : "description5",
-      "type" : "Text"
+      "id" : "details.fixedAsset",
+      "column" : "fixedAsset_id",
+      "ar" : "الأصل الثابت",
+      "en" : "Fixed Asset",
+      "type" : "Reference",
+      "refTo" : "FixedAsset",
+      "refPath" : "/modules/fixedassets/FixedAsset.html"
     }, {
       "id" : "details.id",
       "column" : "id",
       "type" : "ID"
     }, {
+      "id" : "details.installment.amount",
+      "column" : "installmentAmount",
+      "ar" : " المبلغ",
+      "en" : " Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.installment.currency",
+      "column" : "installmentCurrency_id",
+      "ar" : "العملة",
+      "en" : "Currency",
+      "type" : "Reference",
+      "refTo" : "Currency",
+      "refPath" : "/modules/basic/Currency.html"
+    }, {
       "id" : "details.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
+    }, {
+      "id" : "details.location",
+      "column" : "location_id",
+      "ar" : "الموقع المخزني",
+      "en" : "Location",
+      "type" : "Reference",
+      "refTo" : "FALocation",
+      "refPath" : "/modules/fixedassets/FALocation.html"
     }, {
       "id" : "details.n1",
       "column" : "n1",
@@ -644,23 +858,16 @@
       "en" : "Number 2",
       "type" : "Decimal"
     }, {
-      "id" : "details.n3",
-      "column" : "n3",
-      "ar" : "رقم 3",
-      "en" : "Number 3",
-      "type" : "Decimal"
+      "id" : "details.previousDepreciationMethod",
+      "column" : "previousDepreciationMethod",
+      "type" : "Enum",
+      "enum" : "FADepreciationMethod"
     }, {
-      "id" : "details.n4",
-      "column" : "n4",
-      "ar" : "رقم 4",
-      "en" : "Number 4",
-      "type" : "Decimal"
-    }, {
-      "id" : "details.n5",
-      "column" : "n5",
-      "ar" : "رقم 5",
-      "en" : "Number 5",
-      "type" : "Decimal"
+      "id" : "details.propertiesEntry",
+      "column" : "propertiesEntry_id",
+      "type" : "",
+      "refTo" : "FAPropertiesEntry",
+      "refPath" : "/modules/system-tables/FAPropertiesEntry.html"
     }, {
       "id" : "details.ref1",
       "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
@@ -674,61 +881,23 @@
       "en" : "Reference 2",
       "type" : "Genericreference"
     }, {
-      "id" : "details.ref3",
-      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
-      "ar" : "مرجع 3",
-      "en" : "Reference 3",
-      "type" : "Genericreference"
+      "id" : "details.revaluationDifference",
+      "column" : "revaluationDifference",
+      "ar" : "فرق إعادة التقييم",
+      "en" : "Revaluation Difference",
+      "type" : "Decimal"
     }, {
-      "id" : "details.ref4",
-      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
-      "ar" : "مرجع 4",
-      "en" : "Reference 4",
-      "type" : "Genericreference"
-    }, {
-      "id" : "details.ref5",
-      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
-      "ar" : "مرجع 5",
-      "en" : "Reference 5",
-      "type" : "Genericreference"
-    }, {
-      "id" : "details.remarks",
-      "column" : "remarks",
-      "ar" : " ملاحظات",
-      "en" : " Description",
-      "type" : "BigText"
-    }, {
-      "id" : "details.standardTerm",
-      "column" : "standardTerm_id",
-      "ar" : "البند القياسي",
-      "en" : "Standard Term",
-      "type" : "Reference",
-      "refTo" : "ContractingStandardTerm",
-      "refPath" : "/modules/contracting/ContractingStandardTerm.html"
-    }, {
-      "id" : "details.termCode",
-      "column" : "termCode",
-      "ar" : "كود البند",
-      "en" : "Term Code",
+      "id" : "details.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
       "type" : "Text"
     }, {
-      "id" : "details.termRemarks",
-      "column" : "termRemarks",
-      "ar" : "وصف البند",
-      "en" : "Term Remarks",
-      "type" : "BigText"
-    }, {
-      "id" : "details.todayDoing",
-      "column" : "todayDoing",
-      "ar" : "أعمال اليوم",
-      "en" : "Today Doing",
-      "type" : "BigText"
-    }, {
-      "id" : "details.tomorrowDoing",
-      "column" : "tomorrowDoing",
-      "ar" : "أعمال الغد",
-      "en" : "Tomorrow Doing",
-      "type" : "BigText"
+      "id" : "details.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
     } ]
   } ]
 }

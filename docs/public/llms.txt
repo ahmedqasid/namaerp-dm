@@ -615,6 +615,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [FAPurchaseOrder](https://dm.namasoft.com/dm-json/FAPurchaseOrder.json): Fixed Asset Purchase Order / أمر شراء أصل
 - [FAPurchaseRequest](https://dm.namasoft.com/dm-json/FAPurchaseRequest.json): Fixed Asset Purchase  Request / طلب  شراء أصل
 - [FAReceiptDoc](https://dm.namasoft.com/dm-json/FAReceiptDoc.json): Fixed Asset Receipt Document / مستند أستلام أصل
+- [FARevaluation](https://dm.namasoft.com/dm-json/FARevaluation.json): Fixed Asset Revaluation / إعادة تقييم الأصول
 - [FAScheduleTemplateLine](https://dm.namasoft.com/dm-json/FAScheduleTemplateLine.json)
 - [FATransferDocument](https://dm.namasoft.com/dm-json/FATransferDocument.json): Transfer document / سند نقل الأصل
 - [FATransferEntry](https://dm.namasoft.com/dm-json/FATransferEntry.json)

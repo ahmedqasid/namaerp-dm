@@ -1,0 +1,12 @@
+{
+  "enum" : "FADepreciationMethod",
+  "values" : [ {
+    "id" : "StraightLine",
+    "ar" : "قسط ثابت",
+    "en" : "Straight Line"
+  }, {
+    "id" : "Revaluation",
+    "ar" : "إعادة تقييم",
+    "en" : "Revaluation"
+  } ]
+}
