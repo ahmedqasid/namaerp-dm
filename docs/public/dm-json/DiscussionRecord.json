@@ -36,6 +36,18 @@
     "refTo" : "LargeData",
     "refPath" : "/modules/system-tables/LargeData.html"
   }, {
+    "id" : "date1",
+    "column" : "date1",
+    "ar" : "تـــاريخ 1",
+    "en" : "Date 1",
+    "type" : "Date"
+  }, {
+    "id" : "date2",
+    "column" : "date2",
+    "ar" : "تـــاريخ 2",
+    "en" : "Date 2",
+    "type" : "Date"
+  }, {
     "id" : "discussion",
     "column" : "discussion",
     "ar" : "نقاش",
@@ -69,6 +81,18 @@
     "ar" : "مرجع 2",
     "en" : "Reference 2",
     "type" : "Genericreference"
+  }, {
+    "id" : "time1",
+    "column" : "time1",
+    "ar" : "وقت 1",
+    "en" : "Time 1",
+    "type" : "Time"
+  }, {
+    "id" : "time2",
+    "column" : "time2",
+    "ar" : "وقت 2",
+    "en" : "Time 2",
+    "type" : "Time"
   }, {
     "id" : "user",
     "column" : "user_id",

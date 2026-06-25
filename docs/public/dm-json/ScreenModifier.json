@@ -603,6 +603,18 @@
     "en" : "Remove Discussion Attachment 4",
     "type" : "Boolean"
   }, {
+    "id" : "removeDiscussionDate1",
+    "column" : "removeDiscussionDate1",
+    "ar" : "إزالة التاريخ 1",
+    "en" : "Remove Discussion Date 1",
+    "type" : "Boolean"
+  }, {
+    "id" : "removeDiscussionDate2",
+    "column" : "removeDiscussionDate2",
+    "ar" : "إزالة التاريخ 2",
+    "en" : "Remove Discussion Date 2",
+    "type" : "Boolean"
+  }, {
     "id" : "removeDiscussionField",
     "column" : "removeDiscussionField",
     "ar" : "إزالة حقل النقاش",
@@ -619,6 +631,18 @@
     "column" : "removeDiscussionRef2",
     "ar" : "إزالة مرجع 2",
     "en" : "Remove Discussion Reference 2",
+    "type" : "Boolean"
+  }, {
+    "id" : "removeDiscussionTime1",
+    "column" : "removeDiscussionTime1",
+    "ar" : "إزالة الوقت 1",
+    "en" : "Remove Discussion Time 1",
+    "type" : "Boolean"
+  }, {
+    "id" : "removeDiscussionTime2",
+    "column" : "removeDiscussionTime2",
+    "ar" : "إزالة الوقت 2",
+    "en" : "Remove Discussion Time 2",
     "type" : "Boolean"
   }, {
     "id" : "reviseLevel",
