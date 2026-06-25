@@ -871,6 +871,16 @@
       "table" : "AggrOfferVacationLine"
     } ]
   }, {
+    "name" : "AggregatedLeavePermission",
+    "table" : "AggregatedLeavePermission",
+    "module" : "humanresource-payroll",
+    "ar" : "إذن انصراف مجمع",
+    "en" : "Aggregated Leave Permission",
+    "details" : [ {
+      "id" : "details",
+      "table" : "AggregatedLeavePermissionLine"
+    } ]
+  }, {
     "name" : "AggregatedMissionDocument",
     "table" : "AggregatedMissionDocument",
     "module" : "humanresource-payroll",
@@ -5741,7 +5751,7 @@
   }, {
     "name" : "FARevaluation",
     "table" : "FARevaluation",
-    "module" : "system-tables",
+    "module" : "fixedassets",
     "ar" : "إعادة تقييم الأصول",
     "en" : "Fixed Asset Revaluation",
     "details" : [ {
@@ -20960,7 +20970,7 @@
   }, {
     "name" : "WeekendDoc",
     "table" : "WeekendDoc",
-    "module" : "system-tables",
+    "module" : "humanresource-payroll",
     "ar" : "سند الراحات الأسبوعية",
     "en" : "Weekend Document",
     "details" : [ {

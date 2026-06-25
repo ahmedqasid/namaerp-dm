@@ -98,6 +98,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [AggrUpdateEmpInfo](https://dm.namasoft.com/dm-json/AggrUpdateEmpInfo.json): Aggregated Update Employee Info / سند تحديث بيانات موظف مجمع
 - [AggregatedInvestmentDocROIProof](https://dm.namasoft.com/dm-json/AggregatedInvestmentDocROIProof.json): Aggregated Investment Document ROI Proof / مستند إثبات عائد سندات استثمار مجمع
 - [AggregatedJobOffer](https://dm.namasoft.com/dm-json/AggregatedJobOffer.json): Aggregated Job Offer / عرض وظيفي مجمع
+- [AggregatedLeavePermission](https://dm.namasoft.com/dm-json/AggregatedLeavePermission.json): Aggregated Leave Permission / إذن انصراف مجمع
 - [AggregatedMissionDocument](https://dm.namasoft.com/dm-json/AggregatedMissionDocument.json): Aggregated Mission Document / سند مأموريه مجمع
 - [AggregatedProductDelivery](https://dm.namasoft.com/dm-json/AggregatedProductDelivery.json): Aggregated Product Delivery / تسليم منتج مجمع
 - [AggregatedProductionOrder](https://dm.namasoft.com/dm-json/AggregatedProductionOrder.json): Aggregated Production Order / سند أوامر الإنتاج المجمعة

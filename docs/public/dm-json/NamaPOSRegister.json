@@ -1371,6 +1371,14 @@
       "en" : "Entity Type",
       "type" : "EntityType"
     }, {
+      "id" : "booksAndTerms.errorTerm",
+      "column" : "errorTerm_id",
+      "ar" : "التوجيه في حالة حدوث خطأ",
+      "en" : "Term In Case Of Error",
+      "type" : "Reference",
+      "refTo" : "DocumentTerm",
+      "refPath" : "/modules/basic/DocumentTerm.html"
+    }, {
       "id" : "booksAndTerms.id",
       "column" : "id",
       "type" : "ID"

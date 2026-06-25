@@ -1,12 +1,12 @@
 {
-  "entity" : "WeekendDoc",
-  "table" : "WeekendDoc",
+  "entity" : "AggregatedLeavePermission",
+  "table" : "AggregatedLeavePermission",
   "module" : "humanresource-payroll",
-  "ar" : "سند الراحات الأسبوعية",
-  "arPlural" : "سندات الراحات الأسبوعية",
-  "en" : "Weekend Document",
-  "enPlural" : "Weekend Documents",
-  "page" : "https://dm.namasoft.com/modules/humanresource-payroll/WeekendDoc.html",
+  "ar" : "إذن انصراف مجمع",
+  "arPlural" : "أذون انصراف مجمعة",
+  "en" : "Aggregated Leave Permission",
+  "enPlural" : "Aggregated Leave Permissions",
+  "page" : "https://dm.namasoft.com/modules/humanresource-payroll/AggregatedLeavePermission.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -20,13 +20,45 @@
     "column" : "analysisSet_id",
     "type" : "ID"
   }, {
-    "id" : "attendancePlan",
-    "column" : "attendancePlan_id",
-    "ar" : "خطة الحضور",
-    "en" : "Attendance Plan",
-    "type" : "Reference",
-    "refTo" : "AttendancePlan",
-    "refPath" : "/modules/humanresource-payroll/AttendancePlan.html"
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
   }, {
     "id" : "book",
     "column" : "book_id",
@@ -144,14 +176,6 @@
     "column" : "department_id",
     "type" : "ID"
   }, {
-    "id" : "departmentSection",
-    "column" : "departmentSection_id",
-    "ar" : "القسم الوظيفي",
-    "en" : "Department Section",
-    "type" : "Reference",
-    "refTo" : "DepartmentSection",
-    "refPath" : "/modules/basic/DepartmentSection.html"
-  }, {
     "id" : "description1",
     "column" : "description1",
     "ar" : "الوصف 1",
@@ -227,14 +251,6 @@
     "refTo" : "Employee",
     "refPath" : "/modules/basic/Employee.html"
   }, {
-    "id" : "employeeDepartment",
-    "column" : "employeeDepartment_id",
-    "ar" : " إدارة موظف",
-    "en" : " Employee Department",
-    "type" : "Reference",
-    "refTo" : "EmployeeDepartment",
-    "refPath" : "/modules/basic/EmployeeDepartment.html"
-  }, {
     "id" : "entitySystemEntryId",
     "column" : "entitySystemEntry_id",
     "type" : "ID"
@@ -291,6 +307,12 @@
     "en" : "From Docs Count",
     "type" : "Integer"
   }, {
+    "id" : "fromHour",
+    "column" : "fromHour",
+    "ar" : "من ساعة",
+    "en" : "From Hour",
+    "type" : "Time"
+  }, {
     "id" : "generatedByLine",
     "column" : "generatedByLine",
     "ar" : "كود سطر الإنشاء",
@@ -314,6 +336,14 @@
     "type" : "Enum",
     "enum" : "GenerationType"
   }, {
+    "id" : "hrPeriod",
+    "column" : "hrPeriod_id",
+    "ar" : "فترة الرواتب",
+    "en" : "HR Period",
+    "type" : "Reference",
+    "refTo" : "HRPeriod",
+    "refPath" : "/modules/humanresource-payroll/HRPeriod.html"
+  }, {
     "id" : "id",
     "column" : "id",
     "type" : "ID"
@@ -327,14 +357,6 @@
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
     "type" : "Date"
-  }, {
-    "id" : "jobPosition",
-    "column" : "jobPosition_id",
-    "ar" : "الموقع الوظيفي",
-    "en" : "Job Position",
-    "type" : "Reference",
-    "refTo" : "JobPosition",
-    "refPath" : "/modules/basic/JobPosition.html"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -414,6 +436,13 @@
     "column" : "parentCode",
     "type" : "Text"
   }, {
+    "id" : "permissionType",
+    "column" : "permissionType",
+    "ar" : "نوع الاذن",
+    "en" : "Permission Type",
+    "type" : "Enum",
+    "enum" : "LeavePermissionType"
+  }, {
     "id" : "preventUsage",
     "column" : "preventUsage",
     "ar" : "منع الاستعمال",
@@ -443,6 +472,14 @@
     "type" : "Reference",
     "refTo" : "ReceiptBook",
     "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "reason",
+    "column" : "reason_id",
+    "ar" : "السبب",
+    "en" : "Reason",
+    "type" : "Reference",
+    "refTo" : "LeaveReason",
+    "refPath" : "/modules/humanresource-payroll/LeaveReason.html"
   }, {
     "id" : "ref1",
     "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
@@ -537,6 +574,12 @@
     "en" : "To Date",
     "type" : "Date"
   }, {
+    "id" : "toHour",
+    "column" : "toHour",
+    "ar" : "إلي ساعة",
+    "en" : "To Hour",
+    "type" : "Time"
+  }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
     "ar" : "صلاحية التعديل",
@@ -580,37 +623,67 @@
     "type" : "ID"
   } ],
   "details" : [ {
-    "id" : "weekendLines",
-    "table" : "WeekendDocLine",
-    "joinColumn" : "weekendDoc_id",
-    "ar" : "الراحات الأسبوعية",
-    "en" : "Weekends",
+    "id" : "details",
+    "table" : "AggregatedLeavePermissionLine",
+    "joinColumn" : "aggregatedLeavePermission_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
     "fields" : [ {
-      "id" : "weekendLines.attendancePlan",
-      "column" : "attendancePlan_id",
-      "ar" : "خطة الحضور",
-      "en" : "Attendance Plan",
-      "type" : "Reference",
-      "refTo" : "AttendancePlan",
-      "refPath" : "/modules/humanresource-payroll/AttendancePlan.html"
+      "id" : "details.attachment",
+      "column" : "attachment_id",
+      "ar" : "مرفق",
+      "en" : "Attachment",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
     }, {
-      "id" : "weekendLines.departmentSection",
-      "column" : "departmentSection_id",
-      "ar" : "القسم الوظيفي",
-      "en" : "Department Section",
-      "type" : "Reference",
-      "refTo" : "DepartmentSection",
-      "refPath" : "/modules/basic/DepartmentSection.html"
+      "id" : "details.attachment1",
+      "column" : "attachment1_id",
+      "ar" : "مرفق 1",
+      "en" : "Attachment 1",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
     }, {
-      "id" : "weekendLines.empWorkPlace",
-      "column" : "empWorkPlace_id",
-      "ar" : "مكان العمل الحالي",
-      "en" : "Current Work Place",
-      "type" : "Reference",
-      "refTo" : "EmpWorkPlace",
-      "refPath" : "/modules/basic/EmpWorkPlace.html"
+      "id" : "details.attachment2",
+      "column" : "attachment2_id",
+      "ar" : "مرفق 2",
+      "en" : "Attachment 2",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
     }, {
-      "id" : "weekendLines.employee",
+      "id" : "details.attachment3",
+      "column" : "attachment3_id",
+      "ar" : "مرفق 3",
+      "en" : "Attachment 3",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "details.attachment4",
+      "column" : "attachment4_id",
+      "ar" : "مرفق 4",
+      "en" : "Attachment 4",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "details.attachment5",
+      "column" : "attachment5_id",
+      "ar" : "مرفق 5",
+      "en" : "Attachment 5",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "details.deviceId",
+      "column" : "deviceId",
+      "ar" : "كود/اسم جهاز الجرد",
+      "en" : "Device Code/Name",
+      "type" : "Text"
+    }, {
+      "id" : "details.employee",
       "column" : "employee_id",
       "ar" : "الموظف",
       "en" : "Employee",
@@ -618,62 +691,151 @@
       "refTo" : "Employee",
       "refPath" : "/modules/basic/Employee.html"
     }, {
-      "id" : "weekendLines.employeeDepartment",
-      "column" : "employeeDepartment_id",
-      "ar" : " إدارة موظف",
-      "en" : " Employee Department",
-      "type" : "Reference",
-      "refTo" : "EmployeeDepartment",
-      "refPath" : "/modules/basic/EmployeeDepartment.html"
+      "id" : "details.extendedMultiDayPermission",
+      "column" : "extendedMultiDayPermission",
+      "ar" : "إذن ممتد لأكثر من يوم",
+      "en" : "Extended Multi Day Permission",
+      "type" : "Boolean"
     }, {
-      "id" : "weekendLines.fromDate",
+      "id" : "details.fromDate",
       "column" : "fromDate",
       "ar" : "من تاريخ",
       "en" : "From Date",
       "type" : "Date"
     }, {
-      "id" : "weekendLines.id",
+      "id" : "details.fromHour",
+      "column" : "fromHour",
+      "ar" : "من ساعة",
+      "en" : "From Hour",
+      "type" : "Time"
+    }, {
+      "id" : "details.hrPeriod",
+      "column" : "hrPeriod_id",
+      "ar" : "فترة الرواتب",
+      "en" : "HR Period",
+      "type" : "Reference",
+      "refTo" : "HRPeriod",
+      "refPath" : "/modules/humanresource-payroll/HRPeriod.html"
+    }, {
+      "id" : "details.id",
       "column" : "id",
       "type" : "ID"
     }, {
-      "id" : "weekendLines.jobPosition",
-      "column" : "jobPosition_id",
-      "ar" : "الموقع الوظيفي",
-      "en" : "Job Position",
-      "type" : "Reference",
-      "refTo" : "JobPosition",
-      "refPath" : "/modules/basic/JobPosition.html"
+      "id" : "details.leavePeriod.uom",
+      "column" : "leavePeriodUom",
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Enum",
+      "enum" : "TimePeriodType"
     }, {
-      "id" : "weekendLines.lineNumber",
+      "id" : "details.leavePeriod.value",
+      "column" : "leavePeriodValue",
+      "ar" : "القيمة",
+      "en" : "Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.leavePermission",
+      "column" : "leavePermission_id",
+      "ar" : "إذن الانصراف",
+      "en" : "Leave Permission",
+      "type" : "Reference",
+      "refTo" : "LeavePermission",
+      "refPath" : "/modules/humanresource-payroll/LeavePermission.html"
+    }, {
+      "id" : "details.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
     }, {
-      "id" : "weekendLines.toDate",
+      "id" : "details.permissionType",
+      "column" : "permissionType",
+      "ar" : "نوع الاذن",
+      "en" : "Permission Type",
+      "type" : "Enum",
+      "enum" : "LeavePermissionType"
+    }, {
+      "id" : "details.reason",
+      "column" : "reason_id",
+      "ar" : "السبب",
+      "en" : "Reason",
+      "type" : "Reference",
+      "refTo" : "LeaveReason",
+      "refPath" : "/modules/humanresource-payroll/LeaveReason.html"
+    }, {
+      "id" : "details.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref6",
+      "columns" : [ "ref6ActualCode", " ref6Code", " ref6EntityType", " ref6Id" ],
+      "ar" : "مرجع 6",
+      "en" : "Reference 6",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref7",
+      "columns" : [ "ref7ActualCode", " ref7Code", " ref7EntityType", " ref7Id" ],
+      "ar" : "مرجع 7",
+      "en" : "Reference 7",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.ref8",
+      "columns" : [ "ref8ActualCode", " ref8Code", " ref8EntityType", " ref8Id" ],
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "details.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "details.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "details.toDate",
       "column" : "toDate",
       "ar" : "إلى تاريخ",
       "en" : "To Date",
       "type" : "Date"
     }, {
-      "id" : "weekendLines.weekend1",
-      "column" : "weekend1",
-      "ar" : "راحة أسبوعية 1",
-      "en" : "Weekend 1",
-      "type" : "Enum",
-      "enum" : "NamaDayOfWeek"
-    }, {
-      "id" : "weekendLines.weekend2",
-      "column" : "weekend2",
-      "ar" : "راحة أسبوعية 2",
-      "en" : "Weekend 2",
-      "type" : "Enum",
-      "enum" : "NamaDayOfWeek"
-    }, {
-      "id" : "weekendLines.weekend3",
-      "column" : "weekend3",
-      "ar" : "راحة أسبوعية 3",
-      "en" : "Weekend 3",
-      "type" : "Enum",
-      "enum" : "NamaDayOfWeek"
+      "id" : "details.toHour",
+      "column" : "toHour",
+      "ar" : "إلي ساعة",
+      "en" : "To Hour",
+      "type" : "Time"
     } ]
   } ]
 }

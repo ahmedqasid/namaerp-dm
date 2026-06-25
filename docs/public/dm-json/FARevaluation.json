@@ -1,12 +1,12 @@
 {
   "entity" : "FARevaluation",
   "table" : "FARevaluation",
-  "module" : "system-tables",
+  "module" : "fixedassets",
   "ar" : "إعادة تقييم الأصول",
   "arPlural" : "إعادة تقييم الأصول",
   "en" : "Fixed Asset Revaluation",
   "enPlural" : "Fixed Assets Revaluation",
-  "page" : "https://dm.namasoft.com/modules/system-tables/FARevaluation.html",
+  "page" : "https://dm.namasoft.com/modules/fixedassets/FARevaluation.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
