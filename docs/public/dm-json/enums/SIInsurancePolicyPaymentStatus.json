@@ -1,0 +1,20 @@
+{
+  "enum" : "SIInsurancePolicyPaymentStatus",
+  "values" : [ {
+    "id" : "FullyOrPartiallyPaid",
+    "ar" : "مسددة كلياً أو جزئياً",
+    "en" : "Fully or Partially Paid"
+  }, {
+    "id" : "Unpaid",
+    "ar" : " غير مُسَدّدْ",
+    "en" : " Not Paid"
+  }, {
+    "id" : "PaidToSupplier",
+    "ar" : "مدفوعة للمورد",
+    "en" : "Paid To Supplier"
+  }, {
+    "id" : "RefundedFromSupplier",
+    "ar" : "مستردة من المورد",
+    "en" : "Refunded From Supplier"
+  } ]
+}

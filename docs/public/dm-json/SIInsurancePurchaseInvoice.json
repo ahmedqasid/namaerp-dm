@@ -660,13 +660,11 @@
     "column" : "parentCode",
     "type" : "Text"
   }, {
-    "id" : "policyRequest",
-    "column" : "policyRequest_id",
-    "ar" : "طلب وثيقة تأمين سيارة مجمع",
-    "en" : "Aggregated Car Insurance Policy Request",
+    "id" : "policyOrder",
+    "column" : "policyOrder_id",
     "type" : "Reference",
-    "refTo" : "SIAggregatedInsurancePolicyRequest",
-    "refPath" : "/modules/srvcenter-insurance-and-installments/SIAggregatedInsurancePolicyRequest.html"
+    "refTo" : "SIInsurancePolicyOrder",
+    "refPath" : "/modules/system-tables/SIInsurancePolicyOrder.html"
   }, {
     "id" : "preventUsage",
     "column" : "preventUsage",
@@ -760,6 +758,13 @@
     "type" : "Reference",
     "refTo" : "ReceiptPaper",
     "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "saleType",
+    "column" : "saleType",
+    "ar" : "نوع البيع",
+    "en" : "Sale Type",
+    "type" : "Enum",
+    "enum" : "SISaleType"
   }, {
     "id" : "sector",
     "column" : "sector_id",
@@ -914,6 +919,14 @@
       "column" : "id",
       "type" : "ID"
     }, {
+      "id" : "details.insurancePolicy",
+      "column" : "insurancePolicy_id",
+      "ar" : "الوثيقة",
+      "en" : "Policy",
+      "type" : "Reference",
+      "refTo" : "SICustomerInsurancePolicy",
+      "refPath" : "/modules/system-tables/SICustomerInsurancePolicy.html"
+    }, {
       "id" : "details.insuranceValue",
       "column" : "insuranceValue",
       "ar" : "التأمين | قيمة التأمين",
@@ -923,14 +936,6 @@
       "id" : "details.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
-    }, {
-      "id" : "details.policyIssuanceOrder",
-      "column" : "policyIssuanceOrder_id",
-      "ar" : "طلب وثيقة تأمين سيارة عميل",
-      "en" : "Insurance Policy Issuance Order",
-      "type" : "Reference",
-      "refTo" : "SICustomerInsurancePolicyIssuanceOrder",
-      "refPath" : "/modules/srvcenter-insurance-and-installments/SICustomerInsurancePolicyIssuanceOrder.html"
     }, {
       "id" : "details.policyPurchasePercentage",
       "column" : "policyPurchasePercentage",

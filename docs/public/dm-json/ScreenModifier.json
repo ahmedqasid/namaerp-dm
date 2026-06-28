@@ -230,6 +230,13 @@
     "en" : "description5",
     "type" : "Text"
   }, {
+    "id" : "discussionFieldLayout",
+    "column" : "discussionFieldLayout",
+    "ar" : "طريقة عرض حقل النقاش",
+    "en" : "Discussion Field Layout",
+    "type" : "Enum",
+    "enum" : "FieldLayout"
+  }, {
     "id" : "displayModifyType",
     "column" : "displayModifyType",
     "ar" : "نوع التعديل على الأعمدة الظاهرة",

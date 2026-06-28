@@ -1454,6 +1454,13 @@
     "column" : "shippingOrderOtoId",
     "type" : "Long"
   }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "PurchaseOrderStatus"
+  }, {
     "id" : "stevedoringAgent",
     "columns" : [ "stevedoringAgentActualCode", " stevedoringAgentCode", " stevedoringAgentEntityType", " stevedoringAgentId" ],
     "ar" : "جهة الشحن و التفريغ",

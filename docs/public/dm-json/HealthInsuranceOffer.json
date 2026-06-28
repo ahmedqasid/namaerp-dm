@@ -408,8 +408,8 @@
   }, {
     "id" : "insurancePolicy",
     "column" : "InsurancePolicy",
-    "ar" : "البوليصة",
-    "en" : "Insurance Policy",
+    "ar" : "الوثيقة",
+    "en" : "Policy",
     "type" : "Text"
   }, {
     "id" : "issueDate",

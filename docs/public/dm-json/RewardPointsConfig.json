@@ -58,6 +58,13 @@
     "en" : "Branch ID",
     "type" : "ID"
   }, {
+    "id" : "calculationMethod",
+    "column" : "calculationMethod",
+    "ar" : "طريقة احتساب النقاط",
+    "en" : "Calculation Method",
+    "type" : "Enum",
+    "enum" : "RewardPointCalculationMethod"
+  }, {
     "id" : "certificate",
     "column" : "certificate_id",
     "ar" : "Certificate",

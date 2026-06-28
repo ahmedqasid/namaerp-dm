@@ -1,0 +1,12 @@
+{
+  "enum" : "RewardPointCalculationMethod",
+  "values" : [ {
+    "id" : "PerInvoice",
+    "ar" : "لكل فاتورة",
+    "en" : "Per Invoice"
+  }, {
+    "id" : "Periodic",
+    "ar" : "فتري",
+    "en" : "Periodic"
+  } ]
+}

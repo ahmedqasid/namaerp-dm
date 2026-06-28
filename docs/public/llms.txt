@@ -1513,6 +1513,9 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [PerformanceOptimizer](https://dm.namasoft.com/dm-json/PerformanceOptimizer.json): Performance Optimizer / إعدادات لتحسين الأداء
 - [PeriodicMonthlySalesOffer](https://dm.namasoft.com/dm-json/PeriodicMonthlySalesOffer.json): Periodic Monthly Sales Offer / عروض المبيعات الفترية
 - [PeriodicMonthlySalesOfferCalc](https://dm.namasoft.com/dm-json/PeriodicMonthlySalesOfferCalc.json): Periodic Monthly Sales Offer Calculation / حساب عروض المبيعات الفترية
+- [PeriodicRewardPointsAmountSpentSysEntry](https://dm.namasoft.com/dm-json/PeriodicRewardPointsAmountSpentSysEntry.json)
+- [PeriodicRewardPointsGrantDocument](https://dm.namasoft.com/dm-json/PeriodicRewardPointsGrantDocument.json): Periodic Reward Points Grant Document / سند منح نقاط ولاء فتري
+- [PeriodicRewardPointsGrantDocumentEntry](https://dm.namasoft.com/dm-json/PeriodicRewardPointsGrantDocumentEntry.json)
 - [PickRules](https://dm.namasoft.com/dm-json/PickRules.json): Pick Rules / قواعد السحب
 - [PickupPlan](https://dm.namasoft.com/dm-json/PickupPlan.json): Pickup Plan / خط سير
 - [PosConfigRequestAuthorizationLine](https://dm.namasoft.com/dm-json/PosConfigRequestAuthorizationLine.json)
@@ -1564,6 +1567,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [PurchaseForecastConfig](https://dm.namasoft.com/dm-json/PurchaseForecastConfig.json): Purchase Forecast Configuration / إعدادات توقعات المشتريات
 - [PurchaseInvoice](https://dm.namasoft.com/dm-json/PurchaseInvoice.json): Purchase Invoice / فاتورة مشتريات
 - [PurchaseOrder](https://dm.namasoft.com/dm-json/PurchaseOrder.json): Purchase Order / أمر شراء
+- [PurchaseOrderStatusChange](https://dm.namasoft.com/dm-json/PurchaseOrderStatusChange.json): Purchase Order Status Change / مستند تغيير حالة أمر الشراء
 - [PurchasePriceComparing](https://dm.namasoft.com/dm-json/PurchasePriceComparing.json): Purchase Price Comparing / مقارنة أسعار مشتريات
 - [PurchasePriceList](https://dm.namasoft.com/dm-json/PurchasePriceList.json): Purchase Price List / قائمة أسعار المشتريات
 - [PurchasePriceSysLine](https://dm.namasoft.com/dm-json/PurchasePriceSysLine.json)
@@ -1730,16 +1734,16 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [SCExtraDocCreationRule](https://dm.namasoft.com/dm-json/SCExtraDocCreationRule.json): SC Creation Rule / قاعدة إنشاء مستندات  مخزنية
 - [SCGridConfigLine](https://dm.namasoft.com/dm-json/SCGridConfigLine.json)
 - [SCMeasuresFactorsLine](https://dm.namasoft.com/dm-json/SCMeasuresFactorsLine.json)
-- [SIAggregatedInsurancePolicyRequest](https://dm.namasoft.com/dm-json/SIAggregatedInsurancePolicyRequest.json): Aggregated Car Insurance Policy Request / طلب وثيقة تأمين سيارة مجمع
 - [SIAllocation](https://dm.namasoft.com/dm-json/SIAllocation.json): Car Allocation / تخصيص سيارة
 - [SIAllocationCancel](https://dm.namasoft.com/dm-json/SIAllocationCancel.json): Car Allocation Cancel / إلغاء تخصيص سيارة
-- [SICustomerInsurancePolicyIssuance](https://dm.namasoft.com/dm-json/SICustomerInsurancePolicyIssuance.json): Customer Car Insurance Policy Issuance / إصدار وثيقة تأمين سيارة عميل
-- [SICustomerInsurancePolicyIssuanceOrder](https://dm.namasoft.com/dm-json/SICustomerInsurancePolicyIssuanceOrder.json): Order Customer Car Insurance Policy Issuance / طلب وثيقة تأمين سيارة عميل
+- [SICustomerInsurancePolicy](https://dm.namasoft.com/dm-json/SICustomerInsurancePolicy.json): Car Insurance Policy / وثيقة تأمين سيارة
 - [SIFinalDelivery](https://dm.namasoft.com/dm-json/SIFinalDelivery.json): Car Final Delivery / تسليم سيارة نهائي
 - [SIFinalDeliveryCancel](https://dm.namasoft.com/dm-json/SIFinalDeliveryCancel.json): Car Final Delivery Cancel / إلغاء تسليم سيارة نهائي
 - [SIInstallmentProgram](https://dm.namasoft.com/dm-json/SIInstallmentProgram.json): Car Installment Program / برنامج تقسيط سيارة
 - [SIInstallmentQuotation](https://dm.namasoft.com/dm-json/SIInstallmentQuotation.json): Car Installment Quotation / عرض سعر تقسيط سيارة
+- [SIInsurancePolicyCancellation](https://dm.namasoft.com/dm-json/SIInsurancePolicyCancellation.json): Car Insurance Policy Cancellation / إلغاء وثيقة تأمين سيارة
 - [SIInsurancePolicyDelivery](https://dm.namasoft.com/dm-json/SIInsurancePolicyDelivery.json): Car Insurance Policy Delivery / تسليم وثيقة تأمين سيارة
+- [SIInsurancePolicyOrder](https://dm.namasoft.com/dm-json/SIInsurancePolicyOrder.json): Insurance Policy Issuance Order / أمر إصدار وثيقة تأمين
 - [SIInsurancePolicyPeriodAdjustment](https://dm.namasoft.com/dm-json/SIInsurancePolicyPeriodAdjustment.json): Car Insurance Policy Period Adjustment / تعديل فترة وثيقة تأمين سيارة
 - [SIInsurancePolicyReceipt](https://dm.namasoft.com/dm-json/SIInsurancePolicyReceipt.json): Car Insurance Policy Receipt / استلام وثيقة تأمين سيارة
 - [SIInsurancePolicyRenewal](https://dm.namasoft.com/dm-json/SIInsurancePolicyRenewal.json): Car Insurance Policy Renewal / تجديد وثيقة تأمين سيارة

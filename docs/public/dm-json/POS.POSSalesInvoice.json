@@ -148,6 +148,10 @@
     "refTo" : "POS.POSCustomer",
     "refPath" : "/modules/pos-app/POS.POSCustomer.html"
   }, {
+    "id" : "customerCarNo",
+    "column" : "customerCarNo",
+    "type" : "Text"
+  }, {
     "id" : "customerCode",
     "column" : "customerCode",
     "type" : "Text"

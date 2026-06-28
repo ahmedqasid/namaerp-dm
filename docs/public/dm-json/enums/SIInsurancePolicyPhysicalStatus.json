@@ -1,0 +1,28 @@
+{
+  "enum" : "SIInsurancePolicyPhysicalStatus",
+  "values" : [ {
+    "id" : "Initial",
+    "ar" : "مبدئي",
+    "en" : "Initial"
+  }, {
+    "id" : "RequestedFromSupplier",
+    "ar" : "مطلوبة من المورد",
+    "en" : "Requested From Supplier"
+  }, {
+    "id" : "ReceivedFromSupplier",
+    "ar" : "تم استلامها من المورد",
+    "en" : "Received From Supplier"
+  }, {
+    "id" : "DeliveredToCustomer",
+    "ar" : "تم تسليمها للعميل",
+    "en" : "Delivered To Customer"
+  }, {
+    "id" : "ReceivedFromCustomer",
+    "ar" : "تم استلامها من العميل",
+    "en" : "Received From Customer"
+  }, {
+    "id" : "DeliveredToSupplier",
+    "ar" : "تم تسليمها للمورد",
+    "en" : "Delivered To Supplier"
+  } ]
+}

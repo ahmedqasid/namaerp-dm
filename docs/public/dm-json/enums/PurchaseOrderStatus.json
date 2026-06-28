@@ -1,0 +1,24 @@
+{
+  "enum" : "PurchaseOrderStatus",
+  "values" : [ {
+    "id" : "Preliminary",
+    "ar" : "مبدئي",
+    "en" : "Preliminary"
+  }, {
+    "id" : "Confirmed",
+    "ar" : "مؤكد",
+    "en" : "Confirmed"
+  }, {
+    "id" : "PartialSupply",
+    "ar" : "توريد جزئي",
+    "en" : "Partial Supply"
+  }, {
+    "id" : "FullSupply",
+    "ar" : "توريد كلي",
+    "en" : "Full Supply"
+  }, {
+    "id" : "Canceled",
+    "ar" : "ألغيت",
+    "en" : "Canceled"
+  } ]
+}

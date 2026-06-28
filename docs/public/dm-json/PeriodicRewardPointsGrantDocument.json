@@ -1,12 +1,12 @@
 {
-  "entity" : "SICustomerInsurancePolicyIssuance",
-  "table" : "SICustomerInsurancePolicyIssuance",
-  "module" : "srvcenter-insurance-and-installments",
-  "ar" : "إصدار وثيقة تأمين سيارة عميل",
-  "arPlural" : "إصدارات وثائق تأمين سيارات عملاء",
-  "en" : "Customer Car Insurance Policy Issuance",
-  "enPlural" : "Customer Car Insurance Policy Issuances",
-  "page" : "https://dm.namasoft.com/modules/srvcenter-insurance-and-installments/SICustomerInsurancePolicyIssuance.html",
+  "entity" : "PeriodicRewardPointsGrantDocument",
+  "table" : "PeriodicRewardPointsGrantDocument",
+  "module" : "basic-external-reward-points",
+  "ar" : "سند منح نقاط ولاء فتري",
+  "arPlural" : "سندات منح نقاط ولاء فترية",
+  "en" : "Periodic Reward Points Grant Document",
+  "enPlural" : "Periodic Reward Points Grant Documents",
+  "page" : "https://dm.namasoft.com/modules/basic-external-reward-points/PeriodicRewardPointsGrantDocument.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -19,30 +19,6 @@
     "id" : "analysisSetId",
     "column" : "analysisSet_id",
     "type" : "ID"
-  }, {
-    "id" : "bank",
-    "column" : "bank_id",
-    "ar" : "البنك",
-    "en" : "Bank",
-    "type" : "Reference",
-    "refTo" : "Bank",
-    "refPath" : "/modules/accounting-banks/Bank.html"
-  }, {
-    "id" : "beneficiaryBank",
-    "column" : "beneficiaryBank_id",
-    "ar" : "البنك المستفيد",
-    "en" : "Beneficiary Bank",
-    "type" : "Reference",
-    "refTo" : "Bank",
-    "refPath" : "/modules/accounting-banks/Bank.html"
-  }, {
-    "id" : "beneficiaryCustomer",
-    "column" : "beneficiaryCustomer_id",
-    "ar" : "العميل المستفيد",
-    "en" : "Beneficiary Customer",
-    "type" : "Reference",
-    "refTo" : "Customer",
-    "refPath" : "/modules/basic/Customer.html"
   }, {
     "id" : "book",
     "column" : "book_id",
@@ -66,14 +42,6 @@
     "en" : "Branch ID",
     "type" : "ID"
   }, {
-    "id" : "brand",
-    "column" : "brand_id",
-    "ar" : "الماركة",
-    "en" : "Item Brand",
-    "type" : "Reference",
-    "refTo" : "ItemBrand",
-    "refPath" : "/modules/supplychain/ItemBrand.html"
-  }, {
     "id" : "cancelledBy",
     "column" : "cancelledBy_id",
     "ar" : "ألغي بواسطة",
@@ -81,26 +49,6 @@
     "type" : "Reference",
     "refTo" : "DocumentCancelDocument",
     "refPath" : "/modules/basic/DocumentCancelDocument.html"
-  }, {
-    "id" : "car",
-    "column" : "car_id",
-    "ar" : "السيارة",
-    "en" : "Car",
-    "type" : "Reference",
-    "refTo" : "SubItem",
-    "refPath" : "/modules/srvcenter-subitems/SubItem.html"
-  }, {
-    "id" : "carPrice",
-    "column" : "carPrice",
-    "ar" : "سعر سيارة",
-    "en" : "Car Price",
-    "type" : "Decimal"
-  }, {
-    "id" : "chassis",
-    "column" : "chassis",
-    "ar" : "الشاسيه",
-    "en" : "Chassis",
-    "type" : "Text"
   }, {
     "id" : "code",
     "column" : "code",
@@ -145,14 +93,6 @@
     "id" : "customViewName",
     "column" : "customViewName",
     "type" : "Text"
-  }, {
-    "id" : "customer",
-    "column" : "customer_id",
-    "ar" : "العميل",
-    "en" : "Customer",
-    "type" : "Reference",
-    "refTo" : "Customer",
-    "refPath" : "/modules/basic/Customer.html"
   }, {
     "id" : "date1",
     "column" : "date1",
@@ -301,6 +241,12 @@
     "refTo" : "FiscalYear",
     "refPath" : "/modules/basic/FiscalYear.html"
   }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
     "id" : "fromDoc",
     "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
     "ar" : "بناءا على",
@@ -344,59 +290,11 @@
     "column" : "indexInParent",
     "type" : "Integer"
   }, {
-    "id" : "insuranceCategory",
-    "column" : "insuranceCategory",
-    "ar" : "فئة التأمين",
-    "en" : "Insurance Category",
-    "type" : "Enum",
-    "enum" : "SIInsuranceCategoryType"
-  }, {
-    "id" : "insuranceFor",
-    "columns" : [ "insuranceForActualCode", " insuranceForCode", " insuranceForEntityType", " insuranceForId" ],
-    "ar" : "نوع المستفيد",
-    "en" : "Beneficiary Type",
-    "type" : "Genericreference"
-  }, {
-    "id" : "insurancePaymentMethod",
-    "column" : "insurancePaymentMethod",
-    "ar" : "طريقة التأمين",
-    "en" : "Insurance Payment Method",
-    "type" : "Enum",
-    "enum" : "SIInsurancePaymentMethod"
-  }, {
-    "id" : "insuranceProgram",
-    "column" : "insuranceProgram_id",
-    "ar" : "برنامج التأمين",
-    "en" : "Insurance Program",
-    "type" : "Reference",
-    "refTo" : "SIInsuranceProgram",
-    "refPath" : "/modules/srvcenter-insurance-and-installments/SIInsuranceProgram.html"
-  }, {
-    "id" : "insuredName",
-    "column" : "insuredName",
-    "ar" : "اسم المؤمن له",
-    "en" : "Insured Name",
-    "type" : "Text"
-  }, {
-    "id" : "isReceived",
-    "column" : "isReceived",
-    "ar" : "تم الاستلام",
-    "en" : "Received",
-    "type" : "Boolean"
-  }, {
     "id" : "issueDate",
     "column" : "issueDate",
     "ar" : "تاريخ التحرير",
     "en" : "Issue Date",
     "type" : "Date"
-  }, {
-    "id" : "item",
-    "column" : "item_id",
-    "ar" : "الصنف",
-    "en" : "Item",
-    "type" : "Reference",
-    "refTo" : "InvItem",
-    "refPath" : "/modules/supplychain/InvItem.html"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -411,6 +309,10 @@
     "ar" : "تاريخ اخر تحديث",
     "en" : "Last update Date",
     "type" : "DateAndTime"
+  }, {
+    "id" : "ledgerTransReqId",
+    "column" : "ledgerTransReqId",
+    "type" : "ID"
   }, {
     "id" : "legalEntity",
     "column" : "legalEntity_id",
@@ -472,71 +374,9 @@
     "refTo" : "CSHOpenShift",
     "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
   }, {
-    "id" : "paidAmount",
-    "column" : "paidAmount",
-    "ar" : "المبلغ المسدد",
-    "en" : "Paid Amount",
-    "type" : "Decimal"
-  }, {
     "id" : "parentCode",
     "column" : "parentCode",
     "type" : "Text"
-  }, {
-    "id" : "policyDeliveryDate",
-    "column" : "policyDeliveryDate",
-    "ar" : "تاريخ التسليم الوثيقة",
-    "en" : "Policy Delivery Date",
-    "type" : "Date"
-  }, {
-    "id" : "policyExpiryDate",
-    "column" : "policyExpiryDate",
-    "ar" : "تاريخ انتهاء الوثيقة",
-    "en" : "Policy Expiry Date",
-    "type" : "Date"
-  }, {
-    "id" : "policyIssuance",
-    "column" : "policyIssuance_id",
-    "type" : "Reference",
-    "refTo" : "SICustomerInsurancePolicyIssuanceOrder",
-    "refPath" : "/modules/srvcenter-insurance-and-installments/SICustomerInsurancePolicyIssuanceOrder.html"
-  }, {
-    "id" : "policyIssueDate",
-    "column" : "policyIssueDate",
-    "ar" : "تاريخ إصدار الوثيقة",
-    "en" : "Policy Issue Date",
-    "type" : "Date"
-  }, {
-    "id" : "policyNumber",
-    "column" : "policyNumber",
-    "ar" : "رقم الوثيقة",
-    "en" : "Policy Number",
-    "type" : "Text"
-  }, {
-    "id" : "policyReceiptDate",
-    "column" : "policyReceiptDate",
-    "ar" : "تاريخ استلام الوثيقة",
-    "en" : "Policy Receipt Date",
-    "type" : "Date"
-  }, {
-    "id" : "policyRequestStatus",
-    "column" : "policyRequestStatus",
-    "ar" : "حالة طلب الوثيقة",
-    "en" : "Policy Request Status",
-    "type" : "Enum",
-    "enum" : "SIPolicyRequestStatus"
-  }, {
-    "id" : "policyStatus",
-    "column" : "policyStatus",
-    "ar" : "حالة الوثيقة",
-    "en" : "Policy Status",
-    "type" : "Enum",
-    "enum" : "SIInsurancePolicyStatus"
-  }, {
-    "id" : "policyValue",
-    "column" : "policyValue",
-    "ar" : "قيمة الوثيقة",
-    "en" : "Policy Value",
-    "type" : "Decimal"
   }, {
     "id" : "preventUsage",
     "column" : "preventUsage",
@@ -598,12 +438,6 @@
     "en" : "Reference 5",
     "type" : "Genericreference"
   }, {
-    "id" : "remainingAmount",
-    "column" : "remainingAmount",
-    "ar" : "المبلغ المتبقي",
-    "en" : "Remaining Amount",
-    "type" : "Decimal"
-  }, {
     "id" : "remarks",
     "column" : "remark",
     "ar" : "ملاحظات",
@@ -629,6 +463,20 @@
     "refTo" : "NaMaUser",
     "refPath" : "/modules/system-tables/NaMaUser.html"
   }, {
+    "id" : "rewardDate",
+    "column" : "rewardDate",
+    "ar" : "تاريخ المكافأة",
+    "en" : "Reward Date",
+    "type" : "Date"
+  }, {
+    "id" : "rewardPointsConfig",
+    "column" : "rewardPointsConfig_id",
+    "ar" : " إعدادات نقاط المكافأة",
+    "en" : "Reward Points Configuration",
+    "type" : "Reference",
+    "refTo" : "RewardPointsConfig",
+    "refPath" : "/modules/basic-external-reward-points/RewardPointsConfig.html"
+  }, {
     "id" : "rpaper",
     "column" : "rpaper_id",
     "ar" : "الايصال",
@@ -636,12 +484,6 @@
     "type" : "Reference",
     "refTo" : "ReceiptPaper",
     "refPath" : "/modules/basic/ReceiptPaper.html"
-  }, {
-    "id" : "salesOrder",
-    "columns" : [ "salesOrderActualCode", " salesOrderCode", " salesOrderEntityType", " salesOrderId" ],
-    "ar" : "أمر البيع",
-    "en" : "Sales Order",
-    "type" : "Genericreference"
   }, {
     "id" : "sector",
     "column" : "sector_id",
@@ -655,11 +497,11 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
-    "id" : "shippingDate",
-    "column" : "shippingDate",
-    "ar" : "تاريخ الشحن",
-    "en" : "Shipping Date",
-    "type" : "Date"
+    "id" : "subsidiary",
+    "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+    "ar" : "الذمة",
+    "en" : "Subsidiary",
+    "type" : "Genericreference"
   }, {
     "id" : "term",
     "column" : "term_id",
@@ -672,6 +514,12 @@
     "id" : "termConfigXml",
     "column" : "termConfigXml",
     "type" : "BigText"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",

@@ -483,6 +483,12 @@
     "refTo" : "CustomerClass5",
     "refPath" : "/modules/basic/CustomerClass5.html"
   }, {
+    "id" : "rewardPointsCriteriaFields.fromAmount",
+    "column" : "fromAmount",
+    "ar" : "من مبلغ",
+    "en" : "From Amount",
+    "type" : "Decimal"
+  }, {
     "id" : "rewardPointsCriteriaFields.item",
     "column" : "item_id",
     "ar" : "الصنف",
@@ -639,6 +645,12 @@
     "en" : "Points Per Amount",
     "type" : "Decimal"
   }, {
+    "id" : "rewardPointsCriteriaFields.toAmount",
+    "column" : "toAmount",
+    "ar" : "إلى مبلغ",
+    "en" : "To Amount",
+    "type" : "Decimal"
+  }, {
     "id" : "sector",
     "column" : "sector_id",
     "ar" : "القطاع",
@@ -775,6 +787,12 @@
       "type" : "Reference",
       "refTo" : "CustomerClass5",
       "refPath" : "/modules/basic/CustomerClass5.html"
+    }, {
+      "id" : "details.rewardPointsCriteriaFields.fromAmount",
+      "column" : "fromAmount",
+      "ar" : "من مبلغ",
+      "en" : "From Amount",
+      "type" : "Decimal"
     }, {
       "id" : "details.rewardPointsCriteriaFields.item",
       "column" : "item_id",
@@ -930,6 +948,12 @@
       "column" : "pointsPerAmount",
       "ar" : "النقط المقابلة للقيمة",
       "en" : "Points Per Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.rewardPointsCriteriaFields.toAmount",
+      "column" : "toAmount",
+      "ar" : "إلى مبلغ",
+      "en" : "To Amount",
       "type" : "Decimal"
     } ]
   } ]

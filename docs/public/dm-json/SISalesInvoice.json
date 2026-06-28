@@ -803,6 +803,12 @@
     "column" : "legalEntity_id",
     "type" : "ID"
   }, {
+    "id" : "licensee",
+    "columns" : [ "licenseeActualCode", " licenseeCode", " licenseeEntityType", " licenseeId" ],
+    "ar" : "المرخص له",
+    "en" : "Licensee",
+    "type" : "Genericreference"
+  }, {
     "id" : "locator",
     "column" : "locator_id",
     "ar" : "الموقع",
@@ -1440,6 +1446,13 @@
     "type" : "Reference",
     "refTo" : "ReceiptPaper",
     "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "saleType",
+    "column" : "saleType",
+    "ar" : "نوع البيع",
+    "en" : "Sale Type",
+    "type" : "Enum",
+    "enum" : "SISaleType"
   }, {
     "id" : "salesMan",
     "column" : "salesMan_id",

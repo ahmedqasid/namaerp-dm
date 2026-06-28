@@ -1,0 +1,59 @@
+{
+  "entity" : "PeriodicRewardPointsGrantDocumentEntry",
+  "table" : "PeriodicRewardPointsGrantDocumentEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/PeriodicRewardPointsGrantDocumentEntry.html",
+  "fields" : [ {
+    "id" : "customer",
+    "columns" : [ "customerActualCode", " customerCode", " customerEntityType", " customerId" ],
+    "ar" : "العميل",
+    "en" : "Customer",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "owner",
+    "column" : "owner_id",
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Reference",
+    "refTo" : "PeriodicRewardPointsGrantDocument",
+    "refPath" : "/modules/basic-external-reward-points/PeriodicRewardPointsGrantDocument.html"
+  }, {
+    "id" : "points",
+    "column" : "points",
+    "ar" : "النقاط",
+    "en" : "Points",
+    "type" : "Decimal"
+  }, {
+    "id" : "pointsValue",
+    "column" : "pointsValue",
+    "ar" : "قيمة النقاط",
+    "en" : "Points Value",
+    "type" : "Decimal"
+  }, {
+    "id" : "rewardDate",
+    "column" : "rewardDate",
+    "ar" : "تاريخ المكافأة",
+    "en" : "Reward Date",
+    "type" : "Date"
+  }, {
+    "id" : "rewardPointTransEntryId",
+    "column" : "rewardPointTransEntryId",
+    "type" : "ID"
+  }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  }, {
+    "id" : "totalAmount",
+    "column" : "totalAmount",
+    "ar" : "إجمالي المبلغ",
+    "en" : "Total Amount",
+    "type" : "Decimal"
+  } ]
+}

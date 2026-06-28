@@ -1,0 +1,49 @@
+{
+  "entity" : "PeriodicRewardPointsAmountSpentSysEntry",
+  "table" : "PeriodicRewardPointsAmountSpentSysEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/PeriodicRewardPointsAmountSpentSysEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "customer",
+    "columns" : [ "customerActualCode", " customerCode", " customerEntityType", " customerId" ],
+    "ar" : "العميل",
+    "en" : "Customer",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "netAmount",
+    "column" : "netAmount",
+    "ar" : "الصافي",
+    "en" : "Net Amount",
+    "type" : "Decimal"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "rewardPointsConfig",
+    "column" : "rewardPointsConfig_id",
+    "ar" : " إعدادات نقاط المكافأة",
+    "en" : "Reward Points Configuration",
+    "type" : "Reference",
+    "refTo" : "RewardPointsConfig",
+    "refPath" : "/modules/basic-external-reward-points/RewardPointsConfig.html"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}

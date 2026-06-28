@@ -238,6 +238,12 @@
     "en" : "Cancelled From Doc",
     "type" : "Genericreference"
   }, {
+    "id" : "carInsurancePrice",
+    "column" : "carInsurancePrice",
+    "ar" : "سعر تأمين السيارة",
+    "en" : "Car Insurance Price",
+    "type" : "Decimal"
+  }, {
     "id" : "code",
     "column" : "code",
     "ar" : "الكود",
@@ -846,6 +852,12 @@
     "id" : "legalEntityId",
     "column" : "legalEntity_id",
     "type" : "ID"
+  }, {
+    "id" : "licensee",
+    "columns" : [ "licenseeActualCode", " licenseeCode", " licenseeEntityType", " licenseeId" ],
+    "ar" : "المرخص له",
+    "en" : "Licensee",
+    "type" : "Genericreference"
   }, {
     "id" : "locator",
     "column" : "locator_id",
@@ -1484,6 +1496,13 @@
     "type" : "Reference",
     "refTo" : "ReceiptPaper",
     "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
+    "id" : "saleType",
+    "column" : "saleType",
+    "ar" : "نوع البيع",
+    "en" : "Sale Type",
+    "type" : "Enum",
+    "enum" : "SISaleType"
   }, {
     "id" : "salesMan",
     "column" : "salesMan_id",
@@ -2129,6 +2148,21 @@
       "ar" : "بالنقاط",
       "en" : "in points",
       "type" : "Boolean"
+    }, {
+      "id" : "details.insuranceCategory",
+      "column" : "insuranceCategory",
+      "ar" : "فئة التأمين",
+      "en" : "Insurance Category",
+      "type" : "Enum",
+      "enum" : "SIInsuranceCategoryType"
+    }, {
+      "id" : "details.insuranceProgram",
+      "column" : "insuranceProgram_id",
+      "ar" : "برنامج التأمين",
+      "en" : "Insurance Program",
+      "type" : "Reference",
+      "refTo" : "SIInsuranceProgram",
+      "refPath" : "/modules/srvcenter-insurance-and-installments/SIInsuranceProgram.html"
     }, {
       "id" : "details.invoiceOfferID",
       "column" : "invoiceOfferID",

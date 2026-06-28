@@ -16,5 +16,9 @@
     "id" : "ValueAdjustment",
     "ar" : "تعديل قيمة",
     "en" : "Value Adjustment"
+  }, {
+    "id" : "Cancelled",
+    "ar" : "ملغي",
+    "en" : "Cancelled"
   } ]
 }
