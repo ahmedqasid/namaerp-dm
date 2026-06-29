@@ -1,12 +1,12 @@
 {
   "entity" : "PurchaseOrderStatusChange",
   "table" : "PurchaseOrderStatusChange",
-  "module" : "system-tables",
+  "module" : "supplychain-purchases",
   "ar" : "مستند تغيير حالة أمر الشراء",
   "arPlural" : "مستندات تغيير حالة أمر الشراء",
   "en" : "Purchase Order Status Change",
   "enPlural" : "Purchase Order Status Changes",
-  "page" : "https://dm.namasoft.com/modules/system-tables/PurchaseOrderStatusChange.html",
+  "page" : "https://dm.namasoft.com/modules/supplychain-purchases/PurchaseOrderStatusChange.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

@@ -1815,6 +1815,22 @@
       "en" : "Add To Installments",
       "type" : "Boolean"
     }, {
+      "id" : "otherFeesLines.attachment1",
+      "column" : "attachment1_id",
+      "ar" : "مرفق 1",
+      "en" : "Attachment 1",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
+      "id" : "otherFeesLines.attachment2",
+      "column" : "attachment2_id",
+      "ar" : "مرفق 2",
+      "en" : "Attachment 2",
+      "type" : "Binary",
+      "refTo" : "LargeData",
+      "refPath" : "/modules/system-tables/LargeData.html"
+    }, {
       "id" : "otherFeesLines.description1",
       "column" : "description1",
       "ar" : "الوصف 1",

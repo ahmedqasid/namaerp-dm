@@ -1,12 +1,12 @@
 {
   "entity" : "SIInsurancePolicyCancellation",
   "table" : "SIInsurancePolicyCancellation",
-  "module" : "system-tables",
+  "module" : "srvcenter-insurance-and-installments",
   "ar" : "إلغاء وثيقة تأمين سيارة",
   "arPlural" : "إلغاء وثائق تأمين سيارات",
   "en" : "Car Insurance Policy Cancellation",
   "enPlural" : "Car Insurance Policy Cancellations",
-  "page" : "https://dm.namasoft.com/modules/system-tables/SIInsurancePolicyCancellation.html",
+  "page" : "https://dm.namasoft.com/modules/srvcenter-insurance-and-installments/SIInsurancePolicyCancellation.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -422,7 +422,7 @@
     "en" : "Policy",
     "type" : "Reference",
     "refTo" : "SICustomerInsurancePolicy",
-    "refPath" : "/modules/system-tables/SICustomerInsurancePolicy.html"
+    "refPath" : "/modules/srvcenter-insurance-and-installments/SICustomerInsurancePolicy.html"
   }, {
     "id" : "insuranceProgram",
     "column" : "insuranceProgram_id",
@@ -870,7 +870,7 @@
       "en" : "Policy",
       "type" : "Reference",
       "refTo" : "SICustomerInsurancePolicy",
-      "refPath" : "/modules/system-tables/SICustomerInsurancePolicy.html"
+      "refPath" : "/modules/srvcenter-insurance-and-installments/SICustomerInsurancePolicy.html"
     }, {
       "id" : "details.insurancePrice",
       "column" : "insurancePrice",

@@ -16317,7 +16317,7 @@
   }, {
     "name" : "PurchaseOrderStatusChange",
     "table" : "PurchaseOrderStatusChange",
-    "module" : "system-tables",
+    "module" : "supplychain-purchases",
     "ar" : "مستند تغيير حالة أمر الشراء",
     "en" : "Purchase Order Status Change",
     "details" : [ {
@@ -18180,7 +18180,7 @@
   }, {
     "name" : "SICustomerInsurancePolicy",
     "table" : "SICustomerInsurancePolicy",
-    "module" : "system-tables",
+    "module" : "srvcenter-insurance-and-installments",
     "ar" : "وثيقة تأمين سيارة",
     "en" : "Car Insurance Policy"
   }, {
@@ -18222,7 +18222,7 @@
   }, {
     "name" : "SIInsurancePolicyCancellation",
     "table" : "SIInsurancePolicyCancellation",
-    "module" : "system-tables",
+    "module" : "srvcenter-insurance-and-installments",
     "ar" : "إلغاء وثيقة تأمين سيارة",
     "en" : "Car Insurance Policy Cancellation",
     "details" : [ {
@@ -18242,7 +18242,7 @@
   }, {
     "name" : "SIInsurancePolicyOrder",
     "table" : "SIInsurancePolicyOrder",
-    "module" : "system-tables",
+    "module" : "srvcenter-insurance-and-installments",
     "ar" : "أمر إصدار وثيقة تأمين",
     "en" : "Insurance Policy Issuance Order",
     "details" : [ {

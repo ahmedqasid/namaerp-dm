@@ -664,7 +664,7 @@
     "column" : "policyOrder_id",
     "type" : "Reference",
     "refTo" : "SIInsurancePolicyOrder",
-    "refPath" : "/modules/system-tables/SIInsurancePolicyOrder.html"
+    "refPath" : "/modules/srvcenter-insurance-and-installments/SIInsurancePolicyOrder.html"
   }, {
     "id" : "preventUsage",
     "column" : "preventUsage",
@@ -925,7 +925,7 @@
       "en" : "Policy",
       "type" : "Reference",
       "refTo" : "SICustomerInsurancePolicy",
-      "refPath" : "/modules/system-tables/SICustomerInsurancePolicy.html"
+      "refPath" : "/modules/srvcenter-insurance-and-installments/SICustomerInsurancePolicy.html"
     }, {
       "id" : "details.insuranceValue",
       "column" : "insuranceValue",

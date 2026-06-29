@@ -1,12 +1,12 @@
 {
   "entity" : "SIInsurancePolicyOrder",
   "table" : "SIInsurancePolicyOrder",
-  "module" : "system-tables",
+  "module" : "srvcenter-insurance-and-installments",
   "ar" : "أمر إصدار وثيقة تأمين",
   "arPlural" : "أوامر إصدار وثائق تأمين",
   "en" : "Insurance Policy Issuance Order",
   "enPlural" : "Insurance Policy Issuance Orders",
-  "page" : "https://dm.namasoft.com/modules/system-tables/SIInsurancePolicyOrder.html",
+  "page" : "https://dm.namasoft.com/modules/srvcenter-insurance-and-installments/SIInsurancePolicyOrder.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -654,7 +654,7 @@
       "en" : "Policy",
       "type" : "Reference",
       "refTo" : "SICustomerInsurancePolicy",
-      "refPath" : "/modules/system-tables/SICustomerInsurancePolicy.html"
+      "refPath" : "/modules/srvcenter-insurance-and-installments/SICustomerInsurancePolicy.html"
     }, {
       "id" : "details.insurancePrice",
       "column" : "insurancePrice",

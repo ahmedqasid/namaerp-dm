@@ -588,6 +588,14 @@
       "en" : "Priority",
       "type" : "Integer"
     }, {
+      "id" : "lines.salesPaymentMethod",
+      "column" : "salesPaymentMethod_id",
+      "ar" : "نموذج الدفع",
+      "en" : "Sales Payment Method",
+      "type" : "Reference",
+      "refTo" : "RESalesPaymentMethod",
+      "refPath" : "/modules/realestate-sales/RESalesPaymentMethod.html"
+    }, {
       "id" : "lines.salesPriceList",
       "column" : "salesPriceList_id",
       "ar" : " قائمة أسعار",
