@@ -64,5 +64,13 @@
     "id" : "NotIn",
     "ar" : "ليس في",
     "en" : "Not In"
+  }, {
+    "id" : "WithinPeriod",
+    "ar" : "خلال فترة",
+    "en" : "Within Period"
+  }, {
+    "id" : "OutsidePeriod",
+    "ar" : "خارج فترة",
+    "en" : "Outside Period"
   } ]
 }

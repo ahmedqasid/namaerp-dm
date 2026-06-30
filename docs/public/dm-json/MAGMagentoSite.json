@@ -14,10 +14,36 @@
     "en" : "Allow Multiple SKUs Per Item In Linkers",
     "type" : "Boolean"
   }, {
+    "id" : "amazonAwsAccessKey",
+    "column" : "amazonAwsAccessKey",
+    "ar" : "AWS Access Key",
+    "en" : "AWS Access Key",
+    "type" : "Text"
+  }, {
+    "id" : "amazonAwsSecretKey",
+    "column" : "amazonAwsSecretKey",
+    "ar" : "AWS Secret Key",
+    "en" : "AWS Secret Key",
+    "type" : "Password"
+  }, {
+    "id" : "amazonDestinationId",
+    "column" : "amazonDestinationId",
+    "type" : "Text"
+  }, {
     "id" : "amazonMarketplaceId",
     "column" : "amazonMarketplaceId",
     "ar" : "معرف السوق في أمازون",
     "en" : "Amazon Marketplace ID",
+    "type" : "Text"
+  }, {
+    "id" : "amazonSqsQueueArn",
+    "column" : "amazonSqsQueueArn",
+    "ar" : "Amazon SQS Queue ARN",
+    "en" : "Amazon SQS Queue ARN",
+    "type" : "Text"
+  }, {
+    "id" : "amazonSubscriptionId",
+    "column" : "amazonSubscriptionId",
     "type" : "Text"
   }, {
     "id" : "analysisSet",
