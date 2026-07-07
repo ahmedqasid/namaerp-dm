@@ -632,39 +632,6 @@
     "type" : "ID"
   } ],
   "details" : [ {
-    "id" : "brandFilters",
-    "table" : "NewPurchaseForecastBrandFilterLine",
-    "joinColumn" : "newPurchaseForecast_id",
-    "ar" : "فلاتر سطور الماركة",
-    "en" : "Brand Lines Filters",
-    "fields" : [ {
-      "id" : "brandFilters.id",
-      "column" : "id",
-      "type" : "ID"
-    }, {
-      "id" : "brandFilters.lineNumber",
-      "column" : "lineNumber",
-      "type" : "Integer"
-    }, {
-      "id" : "brandFilters.ref1",
-      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
-      "ar" : "مرجع 1",
-      "en" : "Reference 1",
-      "type" : "Genericreference"
-    }, {
-      "id" : "brandFilters.ref2",
-      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
-      "ar" : "مرجع 2",
-      "en" : "Reference 2",
-      "type" : "Genericreference"
-    }, {
-      "id" : "brandFilters.remarks",
-      "column" : "remarks",
-      "ar" : "ملاحظات",
-      "en" : "Description",
-      "type" : "BigText"
-    } ]
-  }, {
     "id" : "details",
     "table" : "NewPurchaseForecastLine",
     "joinColumn" : "newPurchaseForecast_id",
@@ -1226,35 +1193,6 @@
       "type" : "Decimal"
     } ]
   }, {
-    "id" : "itemFilters",
-    "table" : "NewPurchaseForecastItemFilterLine",
-    "joinColumn" : "newPurchaseForecast_id",
-    "ar" : "فلاتر الصنف",
-    "en" : "Item Filters",
-    "fields" : [ {
-      "id" : "itemFilters.defaultSupplier",
-      "column" : "defaultSupplier_id",
-      "ar" : "المورد الافتراضي",
-      "en" : "Default Supplier",
-      "type" : "Reference",
-      "refTo" : "Supplier",
-      "refPath" : "/modules/basic/Supplier.html"
-    }, {
-      "id" : "itemFilters.id",
-      "column" : "id",
-      "type" : "ID"
-    }, {
-      "id" : "itemFilters.lineNumber",
-      "column" : "lineNumber",
-      "type" : "Integer"
-    }, {
-      "id" : "itemFilters.ref1",
-      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
-      "ar" : "مرجع 1",
-      "en" : "Reference 1",
-      "type" : "Genericreference"
-    } ]
-  }, {
     "id" : "itemsCollections",
     "table" : "NewPurchaseForecastItemsCollection",
     "joinColumn" : "newPurchaseForecast_id",
@@ -1276,6 +1214,18 @@
       "type" : "Reference",
       "refTo" : "Branch",
       "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "itemsCollections.brandRef1",
+      "columns" : [ "brandRef1ActualCode", " brandRef1Code", " brandRef1EntityType", " brandRef1Id" ],
+      "ar" : "مرجع1 من الماركة",
+      "en" : "Brand Ref1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "itemsCollections.brandRef2",
+      "columns" : [ "brandRef2ActualCode", " brandRef2Code", " brandRef2EntityType", " brandRef2Id" ],
+      "ar" : "مرجع2 من الماركة",
+      "en" : "Brand Ref2",
+      "type" : "Genericreference"
     }, {
       "id" : "itemsCollections.category1",
       "column" : "category1_id",
@@ -1316,6 +1266,14 @@
       "type" : "Reference",
       "refTo" : "ItemCategory",
       "refPath" : "/modules/supplychain/ItemCategory.html"
+    }, {
+      "id" : "itemsCollections.defaultSupplier",
+      "column" : "defaultSupplier_id",
+      "ar" : "المورد الافتراضي",
+      "en" : "Default Supplier",
+      "type" : "Reference",
+      "refTo" : "Supplier",
+      "refPath" : "/modules/basic/Supplier.html"
     }, {
       "id" : "itemsCollections.department",
       "column" : "department_id",
@@ -1424,6 +1382,12 @@
       "type" : "Reference",
       "refTo" : "ItemClass9",
       "refPath" : "/modules/supplychain/ItemClass9.html"
+    }, {
+      "id" : "itemsCollections.itemRef1",
+      "columns" : [ "itemRef1ActualCode", " itemRef1Code", " itemRef1EntityType", " itemRef1Id" ],
+      "ar" : "مرجع1 من الصنف",
+      "en" : "Item Ref1",
+      "type" : "Genericreference"
     }, {
       "id" : "itemsCollections.lineNumber",
       "column" : "lineNumber",

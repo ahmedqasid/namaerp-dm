@@ -643,6 +643,12 @@
     "column" : "parentCode",
     "type" : "Text"
   }, {
+    "id" : "preventGenerateSalaryIfWorkingStartNotRegistered",
+    "column" : "preventGenerateSalaryIfWorkingStartNotRegistered",
+    "ar" : "منع إصدار الراتب إذا لم يتم تسجيل سند مباشرة عمل",
+    "en" : "Prevent Generate Salary If Working Start Document Not Registered",
+    "type" : "Boolean"
+  }, {
     "id" : "preventUsage",
     "column" : "preventUsage",
     "ar" : "منع الاستعمال",

@@ -324,6 +324,10 @@
     "type" : "Enum",
     "enum" : "ListViewPageSize"
   }, {
+    "id" : "listViewPreventAutoLoad",
+    "column" : "listViewPreventAutoLoad",
+    "type" : "Boolean"
+  }, {
     "id" : "listViewWidth",
     "column" : "listViewWidth",
     "ar" : "عرض جدول القائمة",

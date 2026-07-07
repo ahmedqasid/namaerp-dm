@@ -1043,6 +1043,13 @@
       "ar" : "نص 5",
       "en" : "text5",
       "type" : "Text"
+    }, {
+      "id" : "details.updateProjectStatusTo",
+      "column" : "updateProjectStatusTo",
+      "ar" : "تحديث حالة المشروع إلى",
+      "en" : "Update Project Status To",
+      "type" : "Enum",
+      "enum" : "CPAProjectStatus"
     } ]
   }, {
     "id" : "executions",

@@ -1318,6 +1318,22 @@
       "en" : "Satisfied Qty 2",
       "type" : "Decimal"
     }, {
+      "id" : "details.sendToLocator",
+      "column" : "sendToLocator_id",
+      "ar" : "إرسال الي موقع",
+      "en" : "Send To Locator",
+      "type" : "Reference",
+      "refTo" : "Locator",
+      "refPath" : "/modules/supplychain/Locator.html"
+    }, {
+      "id" : "details.sendToWarehouse",
+      "column" : "sendToWarehouse_id",
+      "ar" : "إرسال الي مخزن",
+      "en" : "Send To Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    }, {
       "id" : "details.sizeName",
       "column" : "sizeName",
       "ar" : "اسم المقاس",

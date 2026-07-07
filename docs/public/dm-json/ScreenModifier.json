@@ -432,6 +432,10 @@
     "type" : "Enum",
     "enum" : "ListViewPageSize"
   }, {
+    "id" : "listViewPreventAutoLoad",
+    "column" : "listViewPreventAutoLoad",
+    "type" : "Boolean"
+  }, {
     "id" : "listViewWidth",
     "column" : "listViewWidth",
     "ar" : "عرض جدول القائمة",
@@ -712,6 +716,10 @@
     "en" : "Effect On Criteria Fields (Used For Search For)",
     "type" : "Enum",
     "enum" : "ViewModificationType"
+  }, {
+    "id" : "searchPreventAutoLoad",
+    "column" : "searchPreventAutoLoad",
+    "type" : "Boolean"
   }, {
     "id" : "searchSortModifyType",
     "column" : "searchSortModifyType",

@@ -14,6 +14,12 @@
     "en" : "Alternate Code",
     "type" : "Text"
   }, {
+    "id" : "alwaysFree",
+    "column" : "alwaysFree",
+    "ar" : "مجاني دائماً",
+    "en" : "Always Free",
+    "type" : "Boolean"
+  }, {
     "id" : "baseUnit",
     "column" : "baseUnit_id",
     "ar" : "الوحدة الأساسية(الأصغر)",

@@ -653,6 +653,13 @@
     "column" : "updateCapability_id",
     "type" : "ID"
   }, {
+    "id" : "updateProjectStatusTo",
+    "column" : "updateProjectStatusTo",
+    "ar" : "تحديث حالة المشروع إلى",
+    "en" : "Update Project Status To",
+    "type" : "Enum",
+    "enum" : "CPAProjectStatus"
+  }, {
     "id" : "usageCapability",
     "column" : "usageCapability_id",
     "ar" : "صلاحية الاستخدام",
@@ -1043,6 +1050,13 @@
       "ar" : "نص 5",
       "en" : "text5",
       "type" : "Text"
+    }, {
+      "id" : "details.updateProjectStatusTo",
+      "column" : "updateProjectStatusTo",
+      "ar" : "تحديث حالة المشروع إلى",
+      "en" : "Update Project Status To",
+      "type" : "Enum",
+      "enum" : "CPAProjectStatus"
     } ]
   }, {
     "id" : "executions",

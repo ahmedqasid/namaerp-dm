@@ -13674,14 +13674,8 @@
     "ar" : "توقعات مشتريات",
     "en" : "New Purchase Forecast",
     "details" : [ {
-      "id" : "brandFilters",
-      "table" : "NewPurchaseForecastBrandFilterLine"
-    }, {
       "id" : "details",
       "table" : "NewPurchaseForecastLine"
-    }, {
-      "id" : "itemFilters",
-      "table" : "NewPurchaseForecastItemFilterLine"
     }, {
       "id" : "itemsCollections",
       "table" : "NewPurchaseForecastItemsCollection"
