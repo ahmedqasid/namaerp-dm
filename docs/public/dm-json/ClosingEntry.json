@@ -229,6 +229,18 @@
     "refTo" : "DocumentTerm",
     "refPath" : "/modules/basic/DocumentTerm.html"
   }, {
+    "id" : "executedBatches",
+    "column" : "executedBatches",
+    "ar" : "الدفعات المنفذة",
+    "en" : "Executed Batches",
+    "type" : "Integer"
+  }, {
+    "id" : "failedBatches",
+    "column" : "failedBatches",
+    "ar" : "الدفعات الفاشلة",
+    "en" : "Failed Batches",
+    "type" : "Integer"
+  }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
     "ar" : "منشئ السجل",
@@ -268,6 +280,13 @@
     "ar" : "عدد سندات بناء على",
     "en" : "From Docs Count",
     "type" : "Integer"
+  }, {
+    "id" : "genStatus",
+    "column" : "genStatus",
+    "ar" : "حالة التوليد",
+    "en" : "Generation Status",
+    "type" : "Enum",
+    "enum" : "ClosingEntryGenStatus"
   }, {
     "id" : "generatedByLine",
     "column" : "generatedByLine",
@@ -396,6 +415,12 @@
     "column" : "parentCode",
     "type" : "Text"
   }, {
+    "id" : "planCursor",
+    "column" : "planCursor",
+    "ar" : "مؤشر الخطة",
+    "en" : "Plan Cursor",
+    "type" : "Integer"
+  }, {
     "id" : "postedProfitEntry",
     "column" : "postedProfitEntry_id",
     "ar" : "سند القيد المرحل",
@@ -517,6 +542,12 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
+    "id" : "skipCloseValidations",
+    "column" : "skipCloseValidations",
+    "ar" : "تخطي فحوصات الإقفال",
+    "en" : "Skip Close Validations",
+    "type" : "Boolean"
+  }, {
     "id" : "term",
     "column" : "term_id",
     "ar" : "توجيه المستند",
@@ -528,6 +559,12 @@
     "id" : "termConfigXml",
     "column" : "termConfigXml",
     "type" : "BigText"
+  }, {
+    "id" : "totalBatches",
+    "column" : "totalBatches",
+    "ar" : "إجمالي الدفعات",
+    "en" : "Total Batches",
+    "type" : "Integer"
   }, {
     "id" : "totalDiff",
     "column" : "totalDiff",
@@ -576,60 +613,5 @@
     "id" : "viewCapabilityId",
     "column" : "viewCapability_id",
     "type" : "ID"
-  } ],
-  "details" : [ {
-    "id" : "docs",
-    "table" : "ClosingEntryDocLine",
-    "joinColumn" : "closingEntry_id",
-    "ar" : "المستندات",
-    "en" : "Documents",
-    "fields" : [ {
-      "id" : "docs.entry",
-      "column" : "entry_id",
-      "ar" : "سند القيد",
-      "en" : "Journal Entry",
-      "type" : "Reference",
-      "refTo" : "JournalEntry",
-      "refPath" : "/modules/accounting/JournalEntry.html"
-    }, {
-      "id" : "docs.id",
-      "column" : "id",
-      "type" : "ID"
-    }, {
-      "id" : "docs.lineNumber",
-      "column" : "lineNumber",
-      "type" : "Integer"
-    }, {
-      "id" : "docs.replEntryId",
-      "column" : "replEntryId",
-      "type" : "ID"
-    } ]
-  }, {
-    "id" : "postedProfitDocs",
-    "table" : "ClosingEntryPostedLine",
-    "joinColumn" : "closingEntry_id",
-    "ar" : "قيود الأرباح المرحلة",
-    "en" : "Posted Profit Docs",
-    "fields" : [ {
-      "id" : "postedProfitDocs.entry",
-      "column" : "entry_id",
-      "ar" : "سند القيد",
-      "en" : "Journal Entry",
-      "type" : "Reference",
-      "refTo" : "JournalEntry",
-      "refPath" : "/modules/accounting/JournalEntry.html"
-    }, {
-      "id" : "postedProfitDocs.id",
-      "column" : "id",
-      "type" : "ID"
-    }, {
-      "id" : "postedProfitDocs.lineNumber",
-      "column" : "lineNumber",
-      "type" : "Integer"
-    }, {
-      "id" : "postedProfitDocs.replEntryId",
-      "column" : "replEntryId",
-      "type" : "ID"
-    } ]
   } ]
 }

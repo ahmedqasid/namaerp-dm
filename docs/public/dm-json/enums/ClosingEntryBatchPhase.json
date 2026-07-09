@@ -1,0 +1,14 @@
+{
+  "enum" : "ClosingEntryBatchPhase",
+  "values" : [ {
+    "id" : "Plan"
+  }, {
+    "id" : "IncomeStatement",
+    "ar" : "قائمة دخل",
+    "en" : "Income Statement"
+  }, {
+    "id" : "PostedProfit"
+  }, {
+    "id" : "DeleteOld"
+  } ]
+}

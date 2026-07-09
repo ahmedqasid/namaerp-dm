@@ -1,0 +1,32 @@
+{
+  "enum" : "ClosingEntryGenStatus",
+  "values" : [ {
+    "id" : "NotStarted",
+    "ar" : "لم تبدأ",
+    "en" : "Not Started"
+  }, {
+    "id" : "Planning",
+    "ar" : "في فترة التخطيط",
+    "en" : "Planning"
+  }, {
+    "id" : "Generating",
+    "ar" : "جاري الإنشاء",
+    "en" : "Generating"
+  }, {
+    "id" : "PostingProfits",
+    "ar" : "ترحيل الأرباح",
+    "en" : "Posting Profits"
+  }, {
+    "id" : "Completed",
+    "ar" : "تمت",
+    "en" : "Completed"
+  }, {
+    "id" : "CompletedWithErrors",
+    "ar" : "اكتمل مع وجود أخطاء",
+    "en" : "Completed With Errors"
+  }, {
+    "id" : "Failed",
+    "ar" : "فشل",
+    "en" : "Failed"
+  } ]
+}

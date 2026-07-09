@@ -90,6 +90,10 @@
     "refTo" : "FiscalYear",
     "refPath" : "/modules/basic/FiscalYear.html"
   }, {
+    "id" : "fromClosing",
+    "column" : "fromClosing",
+    "type" : "Boolean"
+  }, {
     "id" : "hasDebtAges",
     "column" : "hasDebtAges",
     "type" : "Boolean"

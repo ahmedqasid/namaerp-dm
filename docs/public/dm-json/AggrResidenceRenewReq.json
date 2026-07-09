@@ -654,6 +654,13 @@
       "refTo" : "Employee",
       "refPath" : "/modules/basic/Employee.html"
     }, {
+      "id" : "details.employeeState",
+      "column" : "employeeState",
+      "ar" : "حالة الموظف",
+      "en" : "Employee State",
+      "type" : "Enum",
+      "enum" : "EmployeeState"
+    }, {
       "id" : "details.fines",
       "column" : "fines",
       "ar" : "الغرامات",
@@ -763,6 +770,12 @@
       "ar" : " ملاحظات",
       "en" : " Description",
       "type" : "BigText"
+    }, {
+      "id" : "details.renewalDurationMonths",
+      "column" : "renewalDurationMonths",
+      "ar" : "مدة التجديد (بالشهر)",
+      "en" : "Renewal Duration (Months)",
+      "type" : "Integer"
     }, {
       "id" : "details.residenceRenewFees",
       "column" : "residenceRenewFees",

@@ -1,0 +1,33 @@
+{
+  "entity" : "ClosingEntryDocLine",
+  "table" : "ClosingEntryDocLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ClosingEntryDocLine.html",
+  "fields" : [ {
+    "id" : "closingEntry_id",
+    "column" : "closingEntry_id",
+    "type" : "ID"
+  }, {
+    "id" : "entry",
+    "column" : "entry_id",
+    "ar" : "سند القيد",
+    "en" : "Journal Entry",
+    "type" : "Reference",
+    "refTo" : "JournalEntry",
+    "refPath" : "/modules/accounting/JournalEntry.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lineNumber",
+    "column" : "lineNumber",
+    "ar" : "رقم السطر",
+    "en" : "Line Number",
+    "type" : "Integer"
+  }, {
+    "id" : "replEntryId",
+    "column" : "replEntryId",
+    "type" : "ID"
+  } ]
+}

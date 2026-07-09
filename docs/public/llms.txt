@@ -297,6 +297,9 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [ChatParticipant](https://dm.namasoft.com/dm-json/ChatParticipant.json)
 - [ClonePayReceiptEntry](https://dm.namasoft.com/dm-json/ClonePayReceiptEntry.json)
 - [ClosingEntry](https://dm.namasoft.com/dm-json/ClosingEntry.json): Closing Entry / قيد ختامي
+- [ClosingEntryBatch](https://dm.namasoft.com/dm-json/ClosingEntryBatch.json)
+- [ClosingEntryDocLine](https://dm.namasoft.com/dm-json/ClosingEntryDocLine.json)
+- [ClosingEntryPostedLine](https://dm.namasoft.com/dm-json/ClosingEntryPostedLine.json)
 - [ComponentCalcFormula](https://dm.namasoft.com/dm-json/ComponentCalcFormula.json):  Component Calculation Formula /  معادلة حساب المفرد
 - [ConfigEntry](https://dm.namasoft.com/dm-json/ConfigEntry.json): System Settings / إعدادات النظام
 - [ConfigGroup](https://dm.namasoft.com/dm-json/ConfigGroup.json): Configuration Group / قائمة إعدادات

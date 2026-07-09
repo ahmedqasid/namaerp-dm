@@ -850,6 +850,12 @@
     "column" : "lockVersion",
     "type" : "Integer"
   }, {
+    "id" : "logRetentionDays",
+    "column" : "logRetentionDays",
+    "ar" : "عدد أيام الاحتفاظ بسجل التشغيل",
+    "en" : "Execution Log Retention By Days",
+    "type" : "Integer"
+  }, {
     "id" : "magentoSite",
     "column" : "magentoSite_id",
     "ar" : " Magento Site",

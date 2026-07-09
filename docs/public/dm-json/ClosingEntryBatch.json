@@ -1,0 +1,93 @@
+{
+  "entity" : "ClosingEntryBatch",
+  "table" : "ClosingEntryBatch",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/ClosingEntryBatch.html",
+  "fields" : [ {
+    "id" : "batchSeq",
+    "column" : "batchSeq",
+    "type" : "Integer"
+  }, {
+    "id" : "closingEntry",
+    "columns" : [ "closingEntryActualCode", " closingEntryCode", " closingEntryEntityType", " closingEntryId" ],
+    "type" : "Genericreference"
+  }, {
+    "id" : "currentDimensions",
+    "column" : "currentDimensions",
+    "type" : "BigText"
+  }, {
+    "id" : "currentLanguage",
+    "column" : "currentLanguage",
+    "type" : "Text"
+  }, {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "executionDate",
+    "column" : "executionDate",
+    "ar" : "تاريخ التنفيذ",
+    "en" : "Execution Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "generatedEntryId",
+    "column" : "generatedEntryId",
+    "type" : "ID"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "payload",
+    "column" : "payload",
+    "type" : "BigText"
+  }, {
+    "id" : "phase",
+    "column" : "phase",
+    "ar" : "المرحلة",
+    "en" : "Phase or Cycle",
+    "type" : "Enum",
+    "enum" : "ClosingEntryBatchPhase"
+  }, {
+    "id" : "postedPayload",
+    "column" : "postedPayload",
+    "type" : "BigText"
+  }, {
+    "id" : "requester",
+    "columns" : [ "requesterActualCode", " requesterCode", " requesterEntityType", " requesterId" ],
+    "ar" : "محرر الطلب",
+    "en" : "Requester",
+    "type" : "Genericreference"
+  }, {
+    "id" : "sourceBatchId",
+    "column" : "sourceBatchId",
+    "type" : "ID"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
+    "id" : "submitionDate",
+    "column" : "submitionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Submition Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "trials",
+    "column" : "trials",
+    "ar" : "عدد محاولات",
+    "en" : "Trials",
+    "type" : "Integer"
+  } ]
+}

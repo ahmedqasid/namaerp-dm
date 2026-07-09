@@ -434,6 +434,8 @@
   }, {
     "id" : "listViewPreventAutoLoad",
     "column" : "listViewPreventAutoLoad",
+    "ar" : "منع البحث التلقائي في جدول القائمة",
+    "en" : "List View Prevent Auto Load",
     "type" : "Boolean"
   }, {
     "id" : "listViewWidth",
@@ -719,6 +721,8 @@
   }, {
     "id" : "searchPreventAutoLoad",
     "column" : "searchPreventAutoLoad",
+    "ar" : "منع البحث التلقائي في جدول البحث",
+    "en" : "Searcher Prevent Auto Load",
     "type" : "Boolean"
   }, {
     "id" : "searchSortModifyType",

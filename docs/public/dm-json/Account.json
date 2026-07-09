@@ -451,6 +451,12 @@
     "column" : "id",
     "type" : "ID"
   }, {
+    "id" : "ignoreSubsidiaryInClosingAndPurge",
+    "column" : "ignoreSubsidiaryInClosingAndPurge",
+    "ar" : "تجاهل الذمة في الإقفال والتطهير",
+    "en" : "Ignore Subsidiary in Closing and Purge",
+    "type" : "Boolean"
+  }, {
     "id" : "indexInParent",
     "column" : "indexInParent",
     "type" : "Integer"
