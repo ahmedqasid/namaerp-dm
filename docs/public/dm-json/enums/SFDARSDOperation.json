@@ -1,0 +1,64 @@
+{
+  "enum" : "SFDARSDOperation",
+  "values" : [ {
+    "id" : "DispatchBySerial",
+    "ar" : "صرف / إرسال بالمسلسل",
+    "en" : "Dispatch By Serial"
+  }, {
+    "id" : "DispatchByLot",
+    "ar" : "صرف / إرسال بالشحنة",
+    "en" : "Dispatch By Lot"
+  }, {
+    "id" : "AcceptBySerial",
+    "ar" : "قبول / استلام بالمسلسل",
+    "en" : "Accept By Serial"
+  }, {
+    "id" : "AcceptByLot",
+    "ar" : "قبول / استلام بالشحنة",
+    "en" : "Accept By Lot"
+  }, {
+    "id" : "TransferBySerial",
+    "ar" : "تحويل بالمسلسل",
+    "en" : "Transfer By Serial"
+  }, {
+    "id" : "TransferByLot",
+    "ar" : "تحويل بالشحنة",
+    "en" : "Transfer By Lot"
+  }, {
+    "id" : "TransferCancelBySerial",
+    "ar" : "إلغاء التحويل بالمسلسل",
+    "en" : "Transfer Cancel By Serial"
+  }, {
+    "id" : "TransferCancelByLot",
+    "ar" : "إلغاء التحويل بالشحنة",
+    "en" : "Transfer Cancel By Lot"
+  }, {
+    "id" : "ReturnBySerial",
+    "ar" : "مرتجع بالمسلسل",
+    "en" : "Return By Serial"
+  }, {
+    "id" : "ReturnByLot",
+    "ar" : "مرتجع بالشحنة",
+    "en" : "Return By Lot"
+  }, {
+    "id" : "DispatchCancelBySerial",
+    "ar" : "إلغاء الصرف بالمسلسل",
+    "en" : "Dispatch Cancel By Serial"
+  }, {
+    "id" : "DispatchCancelByLot",
+    "ar" : "إلغاء الصرف بالشحنة",
+    "en" : "Dispatch Cancel By Lot"
+  }, {
+    "id" : "PharmacySale",
+    "ar" : "بيع صيدلية",
+    "en" : "Pharmacy Sale"
+  }, {
+    "id" : "PharmacySaleCancel",
+    "ar" : "إلغاء بيع صيدلية",
+    "en" : "Pharmacy Sale Cancel"
+  }, {
+    "id" : "Supply",
+    "ar" : "توريد",
+    "en" : "Supply"
+  } ]
+}

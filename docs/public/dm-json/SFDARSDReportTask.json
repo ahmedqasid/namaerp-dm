@@ -1,0 +1,125 @@
+{
+  "entity" : "SFDARSDReportTask",
+  "table" : "SFDARSDReportTask",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SFDARSDReportTask.html",
+  "fields" : [ {
+    "id" : "currentDimensions",
+    "column" : "currentDimensions",
+    "type" : "BigText"
+  }, {
+    "id" : "currentLanguage",
+    "column" : "currentLanguage",
+    "type" : "Text"
+  }, {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "executionDate",
+    "column" : "executionDate",
+    "ar" : "تاريخ التنفيذ",
+    "en" : "Execution Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "isCancel",
+    "column" : "isCancel",
+    "type" : "Boolean"
+  }, {
+    "id" : "notificationId",
+    "column" : "notificationId",
+    "ar" : "Notification ID",
+    "en" : "Notification ID",
+    "type" : "Text"
+  }, {
+    "id" : "operation",
+    "column" : "operation",
+    "ar" : "عملية",
+    "en" : "Operation",
+    "type" : "Enum",
+    "enum" : "SFDARSDOperation"
+  }, {
+    "id" : "origin",
+    "columns" : [ "originActualCode", " originCode", " originEntityType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "partnerGLN",
+    "column" : "partnerGLN",
+    "type" : "Text"
+  }, {
+    "id" : "prescriptionDate",
+    "column" : "prescriptionDate",
+    "type" : "Date"
+  }, {
+    "id" : "prescriptionId",
+    "column" : "prescriptionId",
+    "type" : "Text"
+  }, {
+    "id" : "rawRequest",
+    "column" : "rawRequest",
+    "type" : "BigText"
+  }, {
+    "id" : "rawResponse",
+    "column" : "rawResponse",
+    "type" : "BigText"
+  }, {
+    "id" : "requestPayload",
+    "column" : "requestPayload",
+    "type" : "BigText"
+  }, {
+    "id" : "requester",
+    "columns" : [ "requesterActualCode", " requesterCode", " requesterEntityType", " requesterId" ],
+    "ar" : "محرر الطلب",
+    "en" : "Requester",
+    "type" : "Genericreference"
+  }, {
+    "id" : "responsePayload",
+    "column" : "responsePayload",
+    "type" : "BigText"
+  }, {
+    "id" : "rsdConfig",
+    "column" : "rsdConfig_id",
+    "type" : "Reference",
+    "refTo" : "SFDARSDConfig",
+    "refPath" : "/modules/supplychain-ksa-rsd/SFDARSDConfig.html"
+  }, {
+    "id" : "stakeholderWarehouse",
+    "column" : "stakeholderWarehouse_id",
+    "type" : "Reference",
+    "refTo" : "Warehouse",
+    "refPath" : "/modules/supplychain/Warehouse.html"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
+    "id" : "submitionDate",
+    "column" : "submitionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Submition Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "trials",
+    "column" : "trials",
+    "ar" : "عدد محاولات",
+    "en" : "Trials",
+    "type" : "Integer"
+  } ]
+}

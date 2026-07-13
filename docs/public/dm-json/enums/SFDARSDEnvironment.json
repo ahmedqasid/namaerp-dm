@@ -1,0 +1,12 @@
+{
+  "enum" : "SFDARSDEnvironment",
+  "values" : [ {
+    "id" : "TestEnvironment",
+    "ar" : "تجربة",
+    "en" : "TestEnvironment"
+  }, {
+    "id" : "ProductionEnvironment",
+    "ar" : "فعلي",
+    "en" : "ProductionEnvironment"
+  } ]
+}

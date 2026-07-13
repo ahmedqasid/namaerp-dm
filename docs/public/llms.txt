@@ -94,6 +94,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [AggrRECollectDoc](https://dm.namasoft.com/dm-json/AggrRECollectDoc.json): Aggregated Collect Document / سند تحصيل مجمع
 - [AggrResidenceRenewReq](https://dm.namasoft.com/dm-json/AggrResidenceRenewReq.json): Aggregated Residence Renew Requests / طلب تجديد إقامة مجمع
 - [AggrRewardAndPenaltieDoc](https://dm.namasoft.com/dm-json/AggrRewardAndPenaltieDoc.json): Aggregated Reward And Penaltie Document / سند مكافأه - جزاء مجمع
+- [AggrRewardPenaltieLine](https://dm.namasoft.com/dm-json/AggrRewardPenaltieLine.json)
 - [AggrStockTransferReq](https://dm.namasoft.com/dm-json/AggrStockTransferReq.json): Aggregated Stock Transfer Request / طلب تحويل مخزني مجمع
 - [AggrUpdateEmpInfo](https://dm.namasoft.com/dm-json/AggrUpdateEmpInfo.json): Aggregated Update Employee Info / سند تحديث بيانات موظف مجمع
 - [AggregatedInvestmentDocROIProof](https://dm.namasoft.com/dm-json/AggregatedInvestmentDocROIProof.json): Aggregated Investment Document ROI Proof / مستند إثبات عائد سندات استثمار مجمع
@@ -1328,6 +1329,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [POS.POSCustomer](https://dm.namasoft.com/dm-json/POS.POSCustomer.json): عميل (table: POSCustomer)
 - [POS.POSCustomerCategory](https://dm.namasoft.com/dm-json/POS.POSCustomerCategory.json): Customer Category / تصنيف عميل (table: POSCustomerCategory)
 - [POS.POSCustomerClass](https://dm.namasoft.com/dm-json/POS.POSCustomerClass.json): Customers' Class / فئة عملاء (table: POSCustomerClass)
+- [POS.POSCustomerClass2](https://dm.namasoft.com/dm-json/POS.POSCustomerClass2.json): Customers' Class 2 / فئة عميل 2 (table: POSCustomerClass2)
 - [POS.POSDepartment](https://dm.namasoft.com/dm-json/POS.POSDepartment.json): إدارة (table: POSDepartment)
 - [POS.POSDepreciationReason](https://dm.namasoft.com/dm-json/POS.POSDepreciationReason.json): POS Depreciation Reason / سبب الهالك (table: POSDepreciationReason)
 - [POS.POSDiscountCoupon](https://dm.namasoft.com/dm-json/POS.POSDiscountCoupon.json): Discount Coupon / قسيمة خصومات (table: POSDiscountCoupon)
@@ -1737,6 +1739,8 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [SCExtraDocCreationRule](https://dm.namasoft.com/dm-json/SCExtraDocCreationRule.json): SC Creation Rule / قاعدة إنشاء مستندات  مخزنية
 - [SCGridConfigLine](https://dm.namasoft.com/dm-json/SCGridConfigLine.json)
 - [SCMeasuresFactorsLine](https://dm.namasoft.com/dm-json/SCMeasuresFactorsLine.json)
+- [SFDARSDConfig](https://dm.namasoft.com/dm-json/SFDARSDConfig.json): SFDA RSD Configuration / إعدادات تتبع الأدوية (الهيئة السعودية للغذاء والدواء)
+- [SFDARSDReportTask](https://dm.namasoft.com/dm-json/SFDARSDReportTask.json)
 - [SIAllocation](https://dm.namasoft.com/dm-json/SIAllocation.json): Car Allocation / تخصيص سيارة
 - [SIAllocationCancel](https://dm.namasoft.com/dm-json/SIAllocationCancel.json): Car Allocation Cancel / إلغاء تخصيص سيارة
 - [SICustomerInsurancePolicy](https://dm.namasoft.com/dm-json/SICustomerInsurancePolicy.json): Car Insurance Policy / وثيقة تأمين سيارة

@@ -1,25 +1,13 @@
 {
-  "entity" : "DocumentBook",
-  "table" : "DocumentBook",
-  "module" : "basic",
-  "ar" : "دفتر مستند",
-  "arPlural" : "دفاتر مستندات",
-  "en" : "Document Book",
-  "enPlural" : "Document Books",
-  "page" : "https://dm.namasoft.com/modules/basic/DocumentBook.html",
+  "entity" : "SFDARSDConfig",
+  "table" : "SFDARSDConfig",
+  "module" : "supplychain-ksa-rsd",
+  "ar" : "إعدادات تتبع الأدوية (الهيئة السعودية للغذاء والدواء)",
+  "arPlural" : "إعدادات تتبع الأدوية (الهيئة السعودية للغذاء والدواء)",
+  "en" : "SFDA RSD Configuration",
+  "enPlural" : "SFDA RSD Configurations",
+  "page" : "https://dm.namasoft.com/modules/supplychain-ksa-rsd/SFDARSDConfig.html",
   "fields" : [ {
-    "id" : "activated",
-    "column" : "activated",
-    "ar" : "تم التفعيل",
-    "en" : "Activated",
-    "type" : "Boolean"
-  }, {
-    "id" : "altCode",
-    "column" : "altCode",
-    "ar" : "الكود الإنجليزي",
-    "en" : "English Code",
-    "type" : "Text"
-  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",
@@ -31,227 +19,6 @@
     "id" : "analysisSetId",
     "column" : "analysisSet_id",
     "type" : "ID"
-  }, {
-    "id" : "autoCodingParams.autoCode",
-    "column" : "autoCode",
-    "ar" : "تكويد آلي",
-    "en" : "Automatic Coding",
-    "type" : "Boolean"
-  }, {
-    "id" : "autoCodingParams.doNotUsePrefixFormulaSequence",
-    "column" : "doNotUsePrefixFormulaSequence",
-    "ar" : "عدم استعمال صيغة بادئة التكويد في حساب الرقم التالي",
-    "en" : "Do Not Use Prefix Formula For Next Number",
-    "type" : "Boolean"
-  }, {
-    "id" : "autoCodingParams.prefix",
-    "column" : "prefix",
-    "ar" : "بادئة التكويد",
-    "en" : "Prefix",
-    "type" : "Text"
-  }, {
-    "id" : "autoCodingParams.prefixFormula",
-    "column" : "prefixFormula",
-    "ar" : "صيغة التكويد",
-    "en" : "prefixFormula",
-    "type" : "Text"
-  }, {
-    "id" : "autoCodingParams.replicationSite",
-    "column" : "replicationSite_id",
-    "ar" : "موقع التكرار",
-    "en" : "Replication Site",
-    "type" : "Reference",
-    "refTo" : "ReplicationSite",
-    "refPath" : "/modules/basic/ReplicationSite.html"
-  }, {
-    "id" : "autoCodingParams.suffixFirstNumber",
-    "column" : "suffixFirstNumber",
-    "ar" : "أول رقم",
-    "en" : "Suffix First Number",
-    "type" : "Long"
-  }, {
-    "id" : "autoCodingParams.suffixLength",
-    "column" : "suffixLength",
-    "ar" : "طول اللاحقة",
-    "en" : "Suffix Length",
-    "type" : "Integer"
-  }, {
-    "id" : "autoCodingParams.suffixMaxNumber",
-    "column" : "suffixMaxNumber",
-    "ar" : "آخر رقم",
-    "en" : "Suffix Maximum",
-    "type" : "Long"
-  }, {
-    "id" : "autoCodingParams.useNextRealNumberForDrafts",
-    "column" : "useNextRealNumberForDrafts",
-    "ar" : "استعمال الرقم التالي الحقيقي للمسودات",
-    "en" : "Use Next Real Number For Drafts",
-    "type" : "Boolean"
-  }, {
-    "id" : "bookInfo.addLineToGridAfterAutoSave",
-    "column" : "addLineToGridAfterAutoSave",
-    "ar" : "السطر المضاف بعد الحفظ آليا",
-    "en" : "Append Line To Grid After Auto Save",
-    "type" : "FieldID"
-  }, {
-    "id" : "bookInfo.allowChangingCoderAndRegen",
-    "column" : "allowChangingCoderAndRegen",
-    "ar" : "السماح بتغيير الدفتر ثم إعادة إنشاء الكود من جديد مع الحفظ",
-    "en" : "AllowChanging Book And Regenerate Code with Save",
-    "type" : "Boolean"
-  }, {
-    "id" : "bookInfo.allowPrintingDrafts",
-    "column" : "allowPrintingDrafts",
-    "ar" : "السماح بطباعة المسودات",
-    "en" : "Allow Printing Drafts",
-    "type" : "Boolean"
-  }, {
-    "id" : "bookInfo.allowUsageOnce",
-    "column" : "allowUsageOnce",
-    "ar" : "استعمال السند مرة واحدة كبناءا علي",
-    "en" : "Allow Usage Once",
-    "type" : "Boolean"
-  }, {
-    "id" : "bookInfo.allowUsageOnceType",
-    "column" : "allowUsageOnceType",
-    "ar" : "استعمال السند مرة واحدة اذا استعمل في نوع من",
-    "en" : "Allow Usage Once if Used in type",
-    "type" : "EntityType"
-  }, {
-    "id" : "bookInfo.allowUsageOnceTypes",
-    "column" : "allowUsageOnceTypes_id",
-    "ar" : "استعمال السند مرة واحدة اذا استعمل في النوع",
-    "en" : "Allow Usage Once if Used in One Of",
-    "type" : "Reference",
-    "refTo" : "EntityTypeList",
-    "refPath" : "/modules/basic/EntityTypeList.html"
-  }, {
-    "id" : "bookInfo.autoSaveAfterInputInFields",
-    "column" : "autoSaveAfterInputInFields",
-    "ar" : "الحقول التي بتم الحفظ آليا بعد إدخالها  (CSV)",
-    "en" : "Auto Save After Input In Fields (CSV)",
-    "type" : "FieldID"
-  }, {
-    "id" : "bookInfo.autoSaveBehavior",
-    "column" : "autoSaveBehavior",
-    "ar" : "طريقة الحفظ آليا",
-    "en" : "Auto Save Behavior",
-    "type" : "Enum",
-    "enum" : "AutoSaveBehavior"
-  }, {
-    "id" : "bookInfo.doNotReplaceDimsWithPublic",
-    "column" : "doNotReplaceDimsWithPublic",
-    "ar" : "عدم تغيير محددات المستندات الغير عامة بالمحدد العام الموجود بالدفتر مع اختيار الدفتر",
-    "en" : "Do Not Change Non-Public Dimensions with Book Public Dimensions",
-    "type" : "Boolean"
-  }, {
-    "id" : "bookInfo.exportDocumentType",
-    "column" : "exportDocumentType",
-    "ar" : "مستند تصدير للخارج",
-    "en" : "Export Document",
-    "type" : "Boolean"
-  }, {
-    "id" : "bookInfo.focusFieldAfterAutoSave",
-    "column" : "focusFieldAfterAutoSave",
-    "ar" : "الحقل المحدد بعد الحفظ آليا",
-    "en" : "Focus Field After Auto Save",
-    "type" : "FieldID"
-  }, {
-    "id" : "bookInfo.ignoreTaxDataValidationWithSave",
-    "column" : "ignoreTaxDataValidationWithSave",
-    "ar" : "عدم التحقق من صحة البيانات الضريبية المرسلة مع الحفظ",
-    "en" : "Ignore Tax Data Validation With Save",
-    "type" : "Boolean"
-  }, {
-    "id" : "bookInfo.inActiveFrom",
-    "column" : "inActiveFrom",
-    "ar" : "غير نشط بدءا من تاريخ",
-    "en" : "Inactive From Date",
-    "type" : "Date"
-  }, {
-    "id" : "bookInfo.paymentMethodCode",
-    "column" : "paymentMethodCode",
-    "ar" : "كود طريقة الدفع",
-    "en" : "Payment Method Code",
-    "type" : "Text"
-  }, {
-    "id" : "bookInfo.preventEditingAfterFromDoc",
-    "column" : "preventEditingAfterFromDoc",
-    "ar" : "منع تعديل المستندات بعد استخدامها في بناء على",
-    "en" : "Prevent Editing Documents After Using In From Doc",
-    "type" : "Boolean"
-  }, {
-    "id" : "bookInfo.preventFromDocOfUsageAgain",
-    "column" : "preventFromDocOfUsageAgain",
-    "ar" : "منع مستند بناءا على من الاستعمال مرة أخرى",
-    "en" : "Prevent From Doc Of Usage Again",
-    "type" : "Boolean"
-  }, {
-    "id" : "bookInfo.preventType",
-    "column" : "preventType",
-    "ar" : "منع الاستعمال اذا كان نوع السند",
-    "en" : "Prevent If from Doc Type is",
-    "type" : "EntityType"
-  }, {
-    "id" : "bookInfo.preventTypes",
-    "column" : "preventTypes_id",
-    "ar" : "منع الاستعمال اذا كان نوع السند واحد من",
-    "en" : "Prevent If from Doc Type is One Of",
-    "type" : "Reference",
-    "refTo" : "EntityTypeList",
-    "refPath" : "/modules/basic/EntityTypeList.html"
-  }, {
-    "id" : "bookInfo.reviseWithCommit",
-    "column" : "reviseWithCommit",
-    "ar" : "المراجعة مع الحفظ",
-    "en" : "Revise With Commit",
-    "type" : "Boolean"
-  }, {
-    "id" : "bookInfo.sendToTaxAuthority",
-    "column" : "sendToTaxAuthority",
-    "ar" : "إرسال الي مصلحة الضرائب",
-    "en" : "Send To Tax Authority",
-    "type" : "Boolean"
-  }, {
-    "id" : "bookInfo.sfdaRSDConfig",
-    "column" : "sfdaRSDConfig_id",
-    "ar" : "إعدادات تتبع الأدوية (الهيئة السعودية للغذاء والدواء)",
-    "en" : "SFDA RSD Configuration",
-    "type" : "Reference",
-    "refTo" : "SFDARSDConfig",
-    "refPath" : "/modules/supplychain-ksa-rsd/SFDARSDConfig.html"
-  }, {
-    "id" : "bookInfo.shortenLedger",
-    "column" : "shortenLedger",
-    "ar" : "إختصار القيود",
-    "en" : "Shorten Ledger",
-    "type" : "Boolean"
-  }, {
-    "id" : "bookInfo.sortLedger",
-    "column" : "sortLedger",
-    "ar" : "ترتيب سطور القيد (مدين قبل الدائن)",
-    "en" : "Sort Ledger",
-    "type" : "Boolean"
-  }, {
-    "id" : "bookInfo.taxAuthCustomerField",
-    "column" : "taxAuthCustomerField",
-    "ar" : "حساب عميل مصلحة الضرائب من الحقل",
-    "en" : "Calculate E Invoice Customer From Field",
-    "type" : "FieldID"
-  }, {
-    "id" : "bookInfo.taxConfiguration",
-    "column" : "taxConfiguration_id",
-    "ar" : "إعدادات الضريبة",
-    "en" : "Tax Configuration",
-    "type" : "Reference",
-    "refTo" : "TaxPayerConfiguration",
-    "refPath" : "/modules/basic-tax-e-invoice/TaxPayerConfiguration.html"
-  }, {
-    "id" : "bookInfo.taxDebitNote",
-    "column" : "taxDebitNote",
-    "ar" : "إشعار مدين",
-    "en" : "Tax Authority Debit Note",
-    "type" : "Boolean"
   }, {
     "id" : "branch",
     "column" : "branch_id",
@@ -269,8 +36,8 @@
   }, {
     "id" : "code",
     "column" : "code",
-    "ar" : " الكود العربي",
-    "en" : " Arabic Code",
+    "ar" : "الكود",
+    "en" : "Code",
     "type" : "Text"
   }, {
     "id" : "colorCode",
@@ -310,6 +77,12 @@
     "id" : "customViewName",
     "column" : "customViewName",
     "type" : "Text"
+  }, {
+    "id" : "customerGLNField",
+    "column" : "customerGLNField",
+    "ar" : "حقل رقم الموقع العالمي للعميل",
+    "en" : "Customer GLN Field",
+    "type" : "FieldID"
   }, {
     "id" : "date1",
     "column" : "date1",
@@ -398,12 +171,6 @@
     "type" : "Enum",
     "enum" : "DocumentFileStatus"
   }, {
-    "id" : "documentType",
-    "column" : "documentType",
-    "ar" : "نوع المستند",
-    "en" : "Document Type",
-    "type" : "EntityType"
-  }, {
     "id" : "draftCreated",
     "column" : "draftCreated",
     "ar" : "تم إنشاء مسودة",
@@ -432,13 +199,12 @@
     "en" : "Entity Type",
     "type" : "EntityType"
   }, {
-    "id" : "filters",
-    "column" : "filters_id",
-    "ar" : "فلترة الحقول",
-    "en" : "Field Filter",
-    "type" : "Reference",
-    "refTo" : "UserFieldFilter",
-    "refPath" : "/modules/basic/UserFieldFilter.html"
+    "id" : "environmentType",
+    "column" : "environmentType",
+    "ar" : "نوع الربط",
+    "en" : "Environment Type",
+    "type" : "Enum",
+    "enum" : "SFDARSDEnvironment"
   }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
@@ -486,12 +252,6 @@
     "id" : "id",
     "column" : "id",
     "type" : "ID"
-  }, {
-    "id" : "inActive",
-    "column" : "inActive",
-    "ar" : "غير نشط",
-    "en" : "Inactive",
-    "type" : "Boolean"
   }, {
     "id" : "indexInParent",
     "column" : "indexInParent",
@@ -579,6 +339,18 @@
     "column" : "parentCode",
     "type" : "Text"
   }, {
+    "id" : "prescriptionDateField",
+    "column" : "prescriptionDateField",
+    "ar" : "حقل تاريخ الوصفة الطبية",
+    "en" : "Prescription Date Field",
+    "type" : "FieldID"
+  }, {
+    "id" : "prescriptionIdField",
+    "column" : "prescriptionIdField",
+    "ar" : "حقل رقم الوصفة الطبية",
+    "en" : "Prescription Id Field",
+    "type" : "FieldID"
+  }, {
     "id" : "preventUsage",
     "column" : "preventUsage",
     "ar" : "منع الاستعمال",
@@ -590,12 +362,6 @@
     "ar" : "عدد مرات الطباعة",
     "en" : "Print Count",
     "type" : "Integer"
-  }, {
-    "id" : "printOnSave",
-    "column" : "printOnSave",
-    "ar" : "طباعة مع الحفظ",
-    "en" : "Print On Save",
-    "type" : "Boolean"
   }, {
     "id" : "ref1",
     "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
@@ -664,31 +430,24 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
-    "id" : "systemBookOrTerm",
-    "column" : "systemBook",
-    "ar" : "نظامي",
-    "en" : "System",
-    "type" : "Boolean"
+    "id" : "sourceOfGtin",
+    "column" : "sourceOfGtin",
+    "ar" : "مصدر رقم GTIN",
+    "en" : "GTIN Source",
+    "type" : "Enum",
+    "enum" : "SFDARSDGtinSource"
+  }, {
+    "id" : "supplierGLNField",
+    "column" : "supplierGLNField",
+    "ar" : "حقل رقم الموقع العالمي للمورد",
+    "en" : "Supplier GLN Field",
+    "type" : "FieldID"
   }, {
     "id" : "systemGeneratedCodePrefix",
     "column" : "systemGeneratedCodePrefix",
     "ar" : "System Generated Code Prefix",
     "en" : "System Generated Code Prefix",
     "type" : "Text"
-  }, {
-    "id" : "systemSuffixLength",
-    "column" : "systemSuffixLength",
-    "ar" : "طول اللاحقة النظامية",
-    "en" : "System Suffix Length",
-    "type" : "Integer"
-  }, {
-    "id" : "template",
-    "column" : "template_id",
-    "ar" : "القالب",
-    "en" : "Template",
-    "type" : "Reference",
-    "refTo" : "DefaultValuesTemplate",
-    "refPath" : "/modules/basic/DefaultValuesTemplate.html"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
@@ -725,5 +484,47 @@
     "id" : "viewCapabilityId",
     "column" : "viewCapability_id",
     "type" : "ID"
+  }, {
+    "id" : "warehouseGLNField",
+    "column" : "warehouseGLNField",
+    "ar" : "حقل رقم الموقع العالمي للمخزن",
+    "en" : "Warehouse GLN Field",
+    "type" : "FieldID"
+  } ],
+  "details" : [ {
+    "id" : "credentials",
+    "table" : "SFDARSDCredentialLine",
+    "joinColumn" : "sFDARSDConfig_id",
+    "ar" : "بيانات الدخول",
+    "en" : "Credentials",
+    "fields" : [ {
+      "id" : "credentials.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "credentials.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "credentials.password",
+      "column" : "password",
+      "ar" : "كلمة المرور",
+      "en" : "Password",
+      "type" : "Password"
+    }, {
+      "id" : "credentials.userName",
+      "column" : "userName",
+      "ar" : "اسم المستخدم",
+      "en" : "User Name",
+      "type" : "Text"
+    }, {
+      "id" : "credentials.warehouse",
+      "column" : "warehouse_id",
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    } ]
   } ]
 }

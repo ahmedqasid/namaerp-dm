@@ -1622,6 +1622,12 @@
       "refTo" : "CriteriaDefinition",
       "refPath" : "/modules/basic/CriteriaDefinition.html"
     }, {
+      "id" : "extraFilter.dynamicTempoCriteria",
+      "column" : "dynamicTempoCriteria",
+      "ar" : "Dynamic Tempo Criteria",
+      "en" : "Dynamic Tempo Criteria",
+      "type" : "BigText"
+    }, {
       "id" : "extraFilter.entityList",
       "column" : "entityList_id",
       "ar" : "قائمة الأنواع",

@@ -34,6 +34,12 @@
     "column" : "analysisSet_id",
     "type" : "ID"
   }, {
+    "id" : "arrivalDateTime",
+    "column" : "arrivalDateTime",
+    "ar" : "تاريخ و وقت الوصول",
+    "en" : "Arrival Date and Time",
+    "type" : "DateAndTime"
+  }, {
     "id" : "attachment",
     "column" : "attachment_id",
     "ar" : "مرفق",

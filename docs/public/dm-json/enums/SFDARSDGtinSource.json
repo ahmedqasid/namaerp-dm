@@ -1,0 +1,16 @@
+{
+  "enum" : "SFDARSDGtinSource",
+  "values" : [ {
+    "id" : "ItemCode",
+    "ar" : "كود الصنف",
+    "en" : "Item Code"
+  }, {
+    "id" : "ItemAltCode",
+    "ar" : "الكود البديل للصنف",
+    "en" : "Item Alt Code"
+  }, {
+    "id" : "Barcode",
+    "ar" : "باركود",
+    "en" : "Barcode"
+  } ]
+}

@@ -640,6 +640,14 @@
     "en" : "Send To Tax Authority",
     "type" : "Boolean"
   }, {
+    "id" : "termInfo.sfdaRSDConfig",
+    "column" : "sfdaRSDConfig_id",
+    "ar" : "إعدادات تتبع الأدوية (الهيئة السعودية للغذاء والدواء)",
+    "en" : "SFDA RSD Configuration",
+    "type" : "Reference",
+    "refTo" : "SFDARSDConfig",
+    "refPath" : "/modules/supplychain-ksa-rsd/SFDARSDConfig.html"
+  }, {
     "id" : "termInfo.shiftMustBeSelected",
     "column" : "shiftMustBeSelected",
     "ar" : "يجب تحديد الوردية",

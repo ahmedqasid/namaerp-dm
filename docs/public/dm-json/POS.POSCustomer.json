@@ -94,6 +94,14 @@
     "refTo" : "POS.POSCustomerClass",
     "refPath" : "/modules/pos-app/POS.POSCustomerClass.html"
   }, {
+    "id" : "customerClass2",
+    "column" : "customerClass2_id",
+    "ar" : "فئة عميل 2",
+    "en" : "Customer Class 2",
+    "type" : "Reference",
+    "refTo" : "POS.POSCustomerClass2",
+    "refPath" : "/modules/pos-app/POS.POSCustomerClass2.html"
+  }, {
     "id" : "date1",
     "column" : "date1",
     "ar" : "تـــاريخ 1",

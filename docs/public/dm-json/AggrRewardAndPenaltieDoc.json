@@ -1004,6 +1004,12 @@
       "en" : "Issue Date",
       "type" : "Date"
     }, {
+      "id" : "details.issuedValue",
+      "column" : "issuedValue",
+      "ar" : "ما تم صرفة",
+      "en" : "Issued Value",
+      "type" : "Decimal"
+    }, {
       "id" : "details.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
@@ -1049,6 +1055,12 @@
       "ar" : "مرجع 3",
       "en" : "Reference 3",
       "type" : "Genericreference"
+    }, {
+      "id" : "details.remainingValue",
+      "column" : "remainingValue",
+      "ar" : "المتبقي",
+      "en" : "Remaining Value",
+      "type" : "Decimal"
     }, {
       "id" : "details.remark",
       "column" : "remark",
