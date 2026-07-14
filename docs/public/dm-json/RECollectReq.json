@@ -903,6 +903,10 @@
     "ar" : "التفاصيل",
     "en" : "Details",
     "fields" : [ {
+      "id" : "details.collectionDiscount",
+      "column" : "collectionDiscount",
+      "type" : "Decimal"
+    }, {
       "id" : "details.discountValue",
       "column" : "discountValue",
       "ar" : "الخصم | القيمة",

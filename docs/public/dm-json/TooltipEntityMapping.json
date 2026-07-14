@@ -16,6 +16,12 @@
     "en" : "Automatically Display Tooltip When Field Value Changes",
     "type" : "Boolean"
   }, {
+    "id" : "doNotRunInEditView",
+    "column" : "doNotRunInEditView",
+    "ar" : "تعطيل مع شاشة التحرير",
+    "en" : "Do Not Run In Edit View",
+    "type" : "Boolean"
+  }, {
     "id" : "entityList",
     "column" : "entityList_id",
     "ar" : "قائمة الأنواع",
@@ -213,5 +219,17 @@
     "ar" : "9|المصدر",
     "en" : "9|Field",
     "type" : "FieldID"
+  }, {
+    "id" : "runInListView",
+    "column" : "runInListView",
+    "ar" : "تعمل مع عرض القائمة",
+    "en" : "Run In List View",
+    "type" : "Boolean"
+  }, {
+    "id" : "runInSearcher",
+    "column" : "runInSearcher",
+    "ar" : "تعمل مع البحث",
+    "en" : "Run In Searcher",
+    "type" : "Boolean"
   } ]
 }

@@ -18175,6 +18175,9 @@
     "details" : [ {
       "id" : "credentials",
       "table" : "SFDARSDCredentialLine"
+    }, {
+      "id" : "operations",
+      "table" : "SFDARSDOperationLine"
     } ]
   }, {
     "name" : "SFDARSDReportTask",

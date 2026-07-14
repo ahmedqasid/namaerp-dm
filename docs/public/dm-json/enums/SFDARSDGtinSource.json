@@ -9,8 +9,8 @@
     "ar" : "الكود البديل للصنف",
     "en" : "Item Alt Code"
   }, {
-    "id" : "Barcode",
-    "ar" : "باركود",
-    "en" : "Barcode"
+    "id" : "LineBarcode",
+    "ar" : "الباركود المدخل بالسطر",
+    "en" : "Line Barcode"
   } ]
 }

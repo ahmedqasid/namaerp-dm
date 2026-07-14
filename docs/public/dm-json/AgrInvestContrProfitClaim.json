@@ -584,6 +584,10 @@
       "en" : "Collected By FP Value",
       "type" : "Decimal"
     }, {
+      "id" : "paidInstallments.collectionDiscount",
+      "column" : "collectionDiscount",
+      "type" : "Decimal"
+    }, {
       "id" : "paidInstallments.currencyRate",
       "column" : "currencyRate",
       "ar" : "المعدل",
@@ -1049,6 +1053,10 @@
       "column" : "collectedByFPValue",
       "ar" : "محصل باوراق قبض",
       "en" : "Collected By FP Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "profits.collectionDiscount",
+      "column" : "collectionDiscount",
       "type" : "Decimal"
     }, {
       "id" : "profits.currencyRate",

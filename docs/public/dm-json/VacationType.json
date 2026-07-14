@@ -331,6 +331,18 @@
     "en" : "Entity Type",
     "type" : "EntityType"
   }, {
+    "id" : "excludeLastHolidayIfBeforeReturn",
+    "column" : "excludeLastHolidayIfBeforeReturn",
+    "ar" : "لا تشمل العطلة الرسمية إذا كانت قبل يوم العودة مباشرة",
+    "en" : "Exclude Last Holiday If Immediately Before Return",
+    "type" : "Boolean"
+  }, {
+    "id" : "excludeLastWeekEndIfBeforeReturn",
+    "column" : "excludeLastWeekEndIfBeforeReturn",
+    "ar" : "لا تشمل العطلة الأسبوعية إذا كانت قبل يوم العودة مباشرة",
+    "en" : "Exclude Last Weekend If Immediately Before Return",
+    "type" : "Boolean"
+  }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
     "ar" : "منشئ السجل",

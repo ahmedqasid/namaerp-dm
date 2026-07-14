@@ -10,6 +10,10 @@
     "en" : "Cloned",
     "type" : "Boolean"
   }, {
+    "id" : "collectionDiscount",
+    "column" : "collectionDiscount",
+    "type" : "Decimal"
+  }, {
     "id" : "effectType",
     "column" : "effectType",
     "ar" : "نوع التأثير",

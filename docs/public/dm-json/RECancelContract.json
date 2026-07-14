@@ -1281,6 +1281,10 @@
       "en" : "Collected By FP Value",
       "type" : "Decimal"
     }, {
+      "id" : "expenses.collectionDiscount",
+      "column" : "collectionDiscount",
+      "type" : "Decimal"
+    }, {
       "id" : "expenses.currencyRate",
       "column" : "currencyRate",
       "ar" : "المعدل",

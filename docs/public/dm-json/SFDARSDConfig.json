@@ -526,5 +526,55 @@
       "refTo" : "Warehouse",
       "refPath" : "/modules/supplychain/Warehouse.html"
     } ]
+  }, {
+    "id" : "operations",
+    "table" : "SFDARSDOperationLine",
+    "joinColumn" : "sFDARSDConfig_id",
+    "ar" : "العمليات",
+    "en" : "Operations",
+    "fields" : [ {
+      "id" : "operations.criteriaDefinition",
+      "column" : "criteriaDefinition_id",
+      "ar" : " المعايير",
+      "en" : " Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
+      "id" : "operations.entityType",
+      "column" : "entityType",
+      "ar" : "النوع",
+      "en" : "Entity Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "operations.entityTypeList",
+      "column" : "entityTypeList_id",
+      "ar" : "قائمة الأنواع",
+      "en" : "Entity Type List",
+      "type" : "Reference",
+      "refTo" : "EntityTypeList",
+      "refPath" : "/modules/basic/EntityTypeList.html"
+    }, {
+      "id" : "operations.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "operations.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "operations.query",
+      "column" : "query",
+      "ar" : "الاستعلام",
+      "en" : "Query",
+      "type" : "BigText"
+    }, {
+      "id" : "operations.rsdOperation",
+      "column" : "rsdOperation",
+      "ar" : "عملية تتبع الأدوية",
+      "en" : "SFDA RSD Operation",
+      "type" : "Enum",
+      "enum" : "SFDARSDOperation"
+    } ]
   } ]
 }
