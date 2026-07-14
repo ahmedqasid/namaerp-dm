@@ -941,6 +941,12 @@
     "ar" : "الراحات الأسبوعية",
     "en" : "Weekends",
     "fields" : [ {
+      "id" : "weekendLines.commitedBefore",
+      "column" : "commitedBefore",
+      "ar" : "تم الحفظ مسبقا",
+      "en" : "Commited Before",
+      "type" : "Boolean"
+    }, {
       "id" : "weekendLines.departmentSection",
       "column" : "departmentSection_id",
       "ar" : "القسم الوظيفي",

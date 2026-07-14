@@ -120,6 +120,14 @@
     "column" : "department_id",
     "type" : "ID"
   }, {
+    "id" : "departmentManager",
+    "column" : "departmentManager_id",
+    "ar" : "مدير الإدارة",
+    "en" : "Department Manager",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
     "id" : "description1",
     "column" : "description1",
     "ar" : "الوصف 1",

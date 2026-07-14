@@ -5,12 +5,20 @@
     "ar" : "مبدئي",
     "en" : "Initial"
   }, {
-    "id" : "Running",
-    "ar" : "تحت التشغيل",
-    "en" : "Running"
+    "id" : "Planning",
+    "ar" : "في فترة التخطيط",
+    "en" : "Planning"
+  }, {
+    "id" : "Purging"
+  }, {
+    "id" : "CleaningUp"
   }, {
     "id" : "Finished",
     "ar" : "منتهي",
     "en" : "Finished"
+  }, {
+    "id" : "Failed",
+    "ar" : "فشل",
+    "en" : "Failed"
   } ]
 }

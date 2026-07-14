@@ -1580,6 +1580,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [PurchaseQuotationRequest](https://dm.namasoft.com/dm-json/PurchaseQuotationRequest.json): Request For Purchase Quotation / طلب عرض أسعار مشتريات
 - [PurchaseReturn](https://dm.namasoft.com/dm-json/PurchaseReturn.json): Purchase Return / مردودات مشتريات
 - [PurchaseReturnReq](https://dm.namasoft.com/dm-json/PurchaseReturnReq.json): Purchase Return Request / طلب مردودات مشتريات
+- [PurgeBatch](https://dm.namasoft.com/dm-json/PurgeBatch.json)
 - [PurgeConfig](https://dm.namasoft.com/dm-json/PurgeConfig.json): Purge Configuration
 - [PurgeInformation](https://dm.namasoft.com/dm-json/PurgeInformation.json)
 - [PurgeJournal](https://dm.namasoft.com/dm-json/PurgeJournal.json): Purge Journal

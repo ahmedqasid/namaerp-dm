@@ -27,7 +27,7 @@
   }, {
     "id" : "PurgeCostTransLines"
   }, {
-    "id" : "PurgeReservationTransLinesLines"
+    "id" : "PurgeReservationTransLines"
   }, {
     "id" : "PurgeStockAges"
   }, {

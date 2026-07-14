@@ -1,0 +1,12 @@
+{
+  "enum" : "PurgeBatchPhase",
+  "values" : [ {
+    "id" : "Plan"
+  }, {
+    "id" : "Doc"
+  }, {
+    "id" : "Module"
+  }, {
+    "id" : "Cleanup"
+  } ]
+}

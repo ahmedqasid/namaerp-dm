@@ -20,14 +20,6 @@
     "column" : "analysisSet_id",
     "type" : "ID"
   }, {
-    "id" : "applyToLegalEntity",
-    "column" : "applyToLegalEntity_id",
-    "ar" : "يطبق على الشركة",
-    "en" : "Apply To Records of Legal Entity",
-    "type" : "Reference",
-    "refTo" : "LegalEntity",
-    "refPath" : "/modules/basic/LegalEntity.html"
-  }, {
     "id" : "branch",
     "column" : "branch_id",
     "ar" : "الفرع",
@@ -225,6 +217,12 @@
     "column" : "draftXML",
     "type" : "BigText"
   }, {
+    "id" : "dryRun",
+    "column" : "dryRun",
+    "ar" : "تشغيل تجريبي (معاينة فقط)",
+    "en" : "Dry Run (preview only)",
+    "type" : "Boolean"
+  }, {
     "id" : "editedBy",
     "column" : "editedBy_id",
     "ar" : "بواسطة",
@@ -242,6 +240,18 @@
     "ar" : "النوع",
     "en" : "Entity Type",
     "type" : "EntityType"
+  }, {
+    "id" : "executedBatches",
+    "column" : "executedBatches",
+    "ar" : "الدفعات المنفذة",
+    "en" : "Executed Batches",
+    "type" : "Integer"
+  }, {
+    "id" : "failedBatches",
+    "column" : "failedBatches",
+    "ar" : "الدفعات الفاشلة",
+    "en" : "Failed Batches",
+    "type" : "Integer"
   }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
@@ -294,15 +304,6 @@
     "column" : "indexInParent",
     "type" : "Integer"
   }, {
-    "id" : "invTransReqId",
-    "column" : "invTransReqId",
-    "type" : "ID"
-  }, {
-    "id" : "inventoryProcessed",
-    "column" : "inventoryProcessed",
-    "ar" : "Inventory Processed",
-    "type" : "Boolean"
-  }, {
     "id" : "journalEntriesBook",
     "column" : "journalEntriesBook_id",
     "ar" : "Journal Entries Book",
@@ -332,15 +333,6 @@
     "ar" : "تاريخ اخر تحديث",
     "en" : "Last update Date",
     "type" : "DateAndTime"
-  }, {
-    "id" : "ledgerProcessed",
-    "column" : "ledgerProcessed",
-    "ar" : "Ledger Processed",
-    "type" : "Boolean"
-  }, {
-    "id" : "ledgerTransReqId",
-    "column" : "ledgerTransReqId",
-    "type" : "ID"
   }, {
     "id" : "legalEntity",
     "column" : "legalEntity_id",
@@ -421,12 +413,6 @@
     "ar" : "عدد مرات الطباعة",
     "en" : "Print Count",
     "type" : "Integer"
-  }, {
-    "id" : "purgeLedgerAndInventory",
-    "column" : "purgeLedgerAndInventory",
-    "ar" : "حذف التأثيرات المالية و المخزنية و التكاليف",
-    "en" : "Purge Inventory and Accounting Effects",
-    "type" : "Boolean"
   }, {
     "id" : "purgeStatus",
     "column" : "purgeStatus",
@@ -523,6 +509,12 @@
     "ar" : "System Generated Code Prefix",
     "en" : "System Generated Code Prefix",
     "type" : "Text"
+  }, {
+    "id" : "totalBatches",
+    "column" : "totalBatches",
+    "ar" : "إجمالي الدفعات",
+    "en" : "Total Batches",
+    "type" : "Integer"
   }, {
     "id" : "upToPeriod",
     "column" : "upToPeriod_id",
