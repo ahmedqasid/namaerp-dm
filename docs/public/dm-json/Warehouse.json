@@ -294,6 +294,12 @@
     "type" : "Enum",
     "enum" : "GenerationType"
   }, {
+    "id" : "gln",
+    "column" : "gln",
+    "ar" : "رقم الموقع العالمي",
+    "en" : "GLN",
+    "type" : "Text"
+  }, {
     "id" : "group",
     "column" : "group_id",
     "ar" : "المجموعة",

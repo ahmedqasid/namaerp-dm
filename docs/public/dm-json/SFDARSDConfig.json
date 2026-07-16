@@ -78,12 +78,6 @@
     "column" : "customViewName",
     "type" : "Text"
   }, {
-    "id" : "customerGLNField",
-    "column" : "customerGLNField",
-    "ar" : "حقل رقم الموقع العالمي للعميل",
-    "en" : "Customer GLN Field",
-    "type" : "FieldID"
-  }, {
     "id" : "date1",
     "column" : "date1",
     "ar" : "تـــاريخ 1",
@@ -437,12 +431,6 @@
     "type" : "Enum",
     "enum" : "SFDARSDGtinSource"
   }, {
-    "id" : "supplierGLNField",
-    "column" : "supplierGLNField",
-    "ar" : "حقل رقم الموقع العالمي للمورد",
-    "en" : "Supplier GLN Field",
-    "type" : "FieldID"
-  }, {
     "id" : "systemGeneratedCodePrefix",
     "column" : "systemGeneratedCodePrefix",
     "ar" : "System Generated Code Prefix",
@@ -484,12 +472,6 @@
     "id" : "viewCapabilityId",
     "column" : "viewCapability_id",
     "type" : "ID"
-  }, {
-    "id" : "warehouseGLNField",
-    "column" : "warehouseGLNField",
-    "ar" : "حقل رقم الموقع العالمي للمخزن",
-    "en" : "Warehouse GLN Field",
-    "type" : "FieldID"
   } ],
   "details" : [ {
     "id" : "credentials",
@@ -555,6 +537,12 @@
       "refTo" : "EntityTypeList",
       "refPath" : "/modules/basic/EntityTypeList.html"
     }, {
+      "id" : "operations.glnSource",
+      "column" : "glnSource",
+      "ar" : "مصدر رقم الموقع العالمي",
+      "en" : "GLN Source",
+      "type" : "FieldID"
+    }, {
       "id" : "operations.id",
       "column" : "id",
       "type" : "ID"
@@ -575,6 +563,12 @@
       "en" : "SFDA RSD Operation",
       "type" : "Enum",
       "enum" : "SFDARSDOperation"
+    }, {
+      "id" : "operations.stakeholderSource",
+      "column" : "stakeholderSource",
+      "ar" : "مصدر صاحب المصلحة",
+      "en" : "Stakeholder Source",
+      "type" : "FieldID"
     } ]
   } ]
 }

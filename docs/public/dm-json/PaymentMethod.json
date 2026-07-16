@@ -8,6 +8,12 @@
   "enPlural" : "Payment Methods",
   "page" : "https://dm.namasoft.com/modules/basic/PaymentMethod.html",
   "fields" : [ {
+    "id" : "actualBalanceRequiredInPOS",
+    "column" : "actualBalanceRequiredInPOS",
+    "ar" : "الرصيد الفعلي في نقطة البيع إجباري",
+    "en" : "Actual Balance Is Required In POS",
+    "type" : "Boolean"
+  }, {
     "id" : "allowEditFeesValueManually",
     "column" : "allowEditFeesValueManually",
     "ar" : "السماح بتعديل قيمة الرسوم يدويا",

@@ -55,6 +55,10 @@
       "column" : "lineNumber",
       "type" : "Integer"
     }, {
+      "id" : "details.needsProcessing",
+      "column" : "needsProcessing",
+      "type" : "Boolean"
+    }, {
       "id" : "details.originCreationDate",
       "column" : "originCreationDate",
       "ar" : " تاريخ الإنشاء",

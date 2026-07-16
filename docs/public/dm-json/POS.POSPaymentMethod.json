@@ -24,6 +24,12 @@
     "column" : "useShift",
     "type" : "Boolean"
   }, {
+    "id" : "actualBalanceRequiredInPOS",
+    "column" : "actualBalanceRequiredInPOS",
+    "ar" : "الرصيد الفعلي في نقطة البيع إجباري",
+    "en" : "Actual Balance Is Required In POS",
+    "type" : "Boolean"
+  }, {
     "id" : "authorizationNumberRequire",
     "column" : "authorizationNumberRequire",
     "ar" : "رقم العملية مطلوب",

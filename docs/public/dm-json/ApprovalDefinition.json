@@ -1248,6 +1248,20 @@
       "type" : "Enum",
       "enum" : "ResponsibleType"
     }, {
+      "id" : "steps.stepApplyWhenQuery",
+      "column" : "stepApplyWhenQuery",
+      "ar" : "استعلام تطبيق الخطوة",
+      "en" : "Step Apply When Query",
+      "type" : "BigText"
+    }, {
+      "id" : "steps.stepCriteria",
+      "column" : "stepCriteria_id",
+      "ar" : "معايير الخطوة",
+      "en" : "Step Criteria",
+      "type" : "Reference",
+      "refTo" : "CriteriaDefinition",
+      "refPath" : "/modules/basic/CriteriaDefinition.html"
+    }, {
       "id" : "steps.stepSeq",
       "column" : "stepSeq",
       "ar" : "مسلسل",
