@@ -1,6 +1,10 @@
 {
   "enum" : "MobileAppTargetMenuItem",
   "values" : [ {
+    "id" : "SalaryDocument",
+    "ar" : "سند الراتب",
+    "en" : "Salary Document"
+  }, {
     "id" : "MonthlyEmployeeDashboard",
     "ar" : "لوحة الموظف الشهرية",
     "en" : "Monthly Employee Dashboard"

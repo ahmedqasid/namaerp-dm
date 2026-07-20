@@ -380,6 +380,12 @@
     "en" : "Sellable",
     "type" : "Boolean"
   }, {
+    "id" : "subjectToRSD",
+    "column" : "subjectToRSD",
+    "ar" : "خاضع لتتبع الأدوية",
+    "en" : "Subject To RSD Tracking",
+    "type" : "Boolean"
+  }, {
     "id" : "taxPlan",
     "column" : "taxPlan_id",
     "ar" : "الضريبة",
