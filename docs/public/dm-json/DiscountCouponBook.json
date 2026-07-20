@@ -267,12 +267,27 @@
     "column" : "dimensionsHistoryXml",
     "type" : "BigText"
   }, {
+    "id" : "discountApplyRules",
+    "column" : "discountApplyRules_id",
+    "ar" : "قواعد تطبيق الخصم علي السطور",
+    "en" : "Discount Apply Rules For Lines",
+    "type" : "Reference",
+    "refTo" : "OfferApplyRules",
+    "refPath" : "/modules/supplychain-purchases/OfferApplyRules.html"
+  }, {
     "id" : "discountCouponType",
     "column" : "discountCouponType",
     "ar" : "طريفة حساب القسيمة",
     "en" : "Discount Coupon Calculation Type",
     "type" : "Enum",
     "enum" : "DiscountCouponCalcType"
+  }, {
+    "id" : "discountLocation",
+    "column" : "discountLocation",
+    "ar" : "وقت حساب التخفيض في الفاتورة",
+    "en" : "Invoice discount apply on",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
   }, {
     "id" : "docCategory",
     "column" : "docCategory_id",

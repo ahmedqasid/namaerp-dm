@@ -218,6 +218,14 @@
     "en" : "description5",
     "type" : "Text"
   }, {
+    "id" : "discountApplyRules",
+    "column" : "discountApplyRules_id",
+    "ar" : "قواعد تطبيق الخصم علي السطور",
+    "en" : "Discount Apply Rules For Lines",
+    "type" : "Reference",
+    "refTo" : "OfferApplyRules",
+    "refPath" : "/modules/supplychain-purchases/OfferApplyRules.html"
+  }, {
     "id" : "discountCouponBook",
     "column" : "discountCouponBook_id",
     "ar" : "دفتر قسيمة خصومات",
@@ -232,6 +240,13 @@
     "en" : "Discount Coupon Calculation Type",
     "type" : "Enum",
     "enum" : "DiscountCouponCalcType"
+  }, {
+    "id" : "discountLocation",
+    "column" : "discountLocation",
+    "ar" : "وقت حساب التخفيض في الفاتورة",
+    "en" : "Invoice discount apply on",
+    "type" : "Enum",
+    "enum" : "DiscountLocation"
   }, {
     "id" : "docCategory",
     "column" : "docCategory_id",
