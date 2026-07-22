@@ -38,6 +38,10 @@
     "column" : "englishVersion",
     "type" : ""
   }, {
+    "id" : "formCriteriaXML",
+    "column" : "formCriteriaXML",
+    "type" : "Text"
+  }, {
     "id" : "formDocCategoryId",
     "column" : "formDocCategoryId",
     "type" : "ID"

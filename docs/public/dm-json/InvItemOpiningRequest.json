@@ -2743,6 +2743,18 @@
       "en" : "Number 3",
       "type" : "Decimal"
     }, {
+      "id" : "sizesAndColors.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "sizesAndColors.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
       "id" : "sizesAndColors.name1",
       "column" : "name1",
       "ar" : "الاسم العربي",

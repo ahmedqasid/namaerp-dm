@@ -833,6 +833,12 @@
       "column" : "rescheduled",
       "type" : "Boolean"
     }, {
+      "id" : "installmentsLines.selectedLine",
+      "column" : "selectedLine",
+      "ar" : "اختيار",
+      "en" : "Select",
+      "type" : "Boolean"
+    }, {
       "id" : "installmentsLines.sysEntryId",
       "column" : "sysEntryId",
       "type" : "ID"
