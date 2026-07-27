@@ -58,12 +58,12 @@
     "en" : "Close Bracket"
   }, {
     "id" : "In",
-    "ar" : "في",
-    "en" : "In"
+    "ar" : "أحد ما يلي",
+    "en" : "Is One Of"
   }, {
     "id" : "NotIn",
-    "ar" : "ليس في",
-    "en" : "Not In"
+    "ar" : "ليس أحد ما يلي",
+    "en" : "Is Not One Of"
   }, {
     "id" : "WithinPeriod",
     "ar" : "خلال فترة",

@@ -26,6 +26,10 @@
     "refTo" : "LegalEntity",
     "refPath" : "/modules/basic/LegalEntity.html"
   }, {
+    "id" : "pinnedEndDate",
+    "column" : "pinnedEndDate",
+    "type" : "Date"
+  }, {
     "id" : "purgeConfig",
     "columns" : [ "purgeConfigActualCode", " purgeConfigCode", " purgeConfigEntityType", " purgeConfigId" ],
     "type" : "Genericreference"

@@ -328,6 +328,12 @@
     "column" : "LastModifyTransactionId",
     "type" : "Text"
   }, {
+    "id" : "lastRunLog",
+    "column" : "lastRunLog",
+    "ar" : "سجل آخر تشغيل",
+    "en" : "Last Run Log",
+    "type" : "BigText"
+  }, {
     "id" : "lastUpdateDate",
     "column" : "lastUpdateDate",
     "ar" : "تاريخ اخر تحديث",
@@ -355,6 +361,12 @@
     "type" : "Binary",
     "refTo" : "LargeData",
     "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "minRecordsToSuggestDelete",
+    "column" : "minRecordsToSuggestDelete",
+    "ar" : "أقل عدد سجلات لاقتراح الحذف",
+    "en" : "Min Records To Suggest Delete",
+    "type" : "Integer"
   }, {
     "id" : "n1",
     "column" : "n1",
@@ -584,6 +596,12 @@
       "id" : "documentsToDelete.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
+    }, {
+      "id" : "documentsToDelete.recordsCount",
+      "column" : "recordsCount",
+      "ar" : "عدد السجلات",
+      "en" : "Records Count",
+      "type" : "Long"
     } ]
   }, {
     "id" : "purgedDocuments",
@@ -612,6 +630,12 @@
       "en" : "Purge Behavior",
       "type" : "Enum",
       "enum" : "PurgeBehavior"
+    }, {
+      "id" : "purgedDocuments.recordsCount",
+      "column" : "recordsCount",
+      "ar" : "عدد السجلات",
+      "en" : "Records Count",
+      "type" : "Long"
     } ]
   } ]
 }

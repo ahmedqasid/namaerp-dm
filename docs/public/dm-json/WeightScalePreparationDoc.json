@@ -1073,6 +1073,12 @@
       "en" : "Item English Name",
       "type" : "Text"
     }, {
+      "id" : "details.lastUpdateDate",
+      "column" : "lastUpdateDate",
+      "ar" : "تاريخ اخر تحديث",
+      "en" : "Last update Date",
+      "type" : "DateAndTime"
+    }, {
       "id" : "details.lineCode",
       "column" : "lineCode",
       "ar" : "كود السطر",

@@ -201,6 +201,10 @@
     "en" : "Priority",
     "type" : "Integer"
   }, {
+    "id" : "processPurgeReceiptNormally",
+    "column" : "processPurgeReceiptNormally",
+    "type" : "Boolean"
+  }, {
     "id" : "qtyTransStatus",
     "column" : "qtyTransStatus",
     "type" : "Enum",

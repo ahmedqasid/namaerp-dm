@@ -502,8 +502,8 @@
       "en" : "Id",
       "type" : "ID"
     }, {
-      "id" : "criteria.expressions.inValuesXML",
-      "column" : "inValuesXML",
+      "id" : "criteria.expressions.inValuesStr",
+      "column" : "inValuesStr",
       "type" : "BigText"
     }, {
       "id" : "criteria.expressions.lineNumber",
