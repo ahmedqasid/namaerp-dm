@@ -1290,6 +1290,12 @@
     "table" : "AttendanceMachineCronLog",
     "module" : "system-tables"
   }, {
+    "name" : "AttendanceMachineLogInbox",
+    "table" : "AttendanceMachineLogInbox",
+    "module" : "system-tables",
+    "ar" : "Attendance Machine Log Inbox",
+    "en" : "Attendance Machine Log Inbox"
+  }, {
     "name" : "AttendancePlan",
     "table" : "AttendancePlan",
     "module" : "humanresource-payroll",

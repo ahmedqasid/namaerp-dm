@@ -1,0 +1,71 @@
+{
+  "entity" : "AttendanceMachineLogInbox",
+  "table" : "AttendanceMachineLogInbox",
+  "module" : "system-tables",
+  "ar" : "Attendance Machine Log Inbox",
+  "arPlural" : "Attendance Machine Log Inbox",
+  "en" : "Attendance Machine Log Inbox",
+  "enPlural" : "Attendance Machine Log Inbox",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AttendanceMachineLogInbox.html",
+  "fields" : [ {
+    "id" : "attCronAppVersion",
+    "column" : "attCronAppVersion",
+    "ar" : "إصدار برنامج الحضور",
+    "en" : "AttCron App Version",
+    "type" : "Text"
+  }, {
+    "id" : "configFile",
+    "column" : "configFile_id",
+    "ar" : "ملف الإعدادات",
+    "en" : "Configuration File",
+    "type" : "Reference",
+    "refTo" : "AttendanceMachineConfig",
+    "refPath" : "/modules/humanresource-attendance-import-cron/AttendanceMachineConfig.html"
+  }, {
+    "id" : "errorLog",
+    "column" : "errorLog",
+    "ar" : "سجل الأخطاء",
+    "en" : "Error Log",
+    "type" : "BigText"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "logCount",
+    "column" : "logCount",
+    "ar" : "عدد السجلات",
+    "en" : "Log Count",
+    "type" : "Integer"
+  }, {
+    "id" : "payload",
+    "column" : "payload",
+    "ar" : "المحتوى",
+    "en" : "Payload",
+    "type" : "BigText"
+  }, {
+    "id" : "processed",
+    "column" : "processed",
+    "ar" : "تمت معالجته",
+    "en" : "Processed",
+    "type" : "Boolean"
+  }, {
+    "id" : "processedOn",
+    "column" : "processedOn",
+    "ar" : "تاريخ المعالجة",
+    "en" : "Processed On",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "receivedOn",
+    "column" : "receivedOn",
+    "ar" : "تاريخ الاستلام",
+    "en" : "Received On",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "retryCount",
+    "column" : "retryCount",
+    "ar" : "عدد المحاولات",
+    "en" : "Retry Count",
+    "type" : "Integer"
+  } ]
+}

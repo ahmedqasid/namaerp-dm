@@ -576,6 +576,8 @@
   }, {
     "id" : "processed",
     "column" : "processed",
+    "ar" : "تمت معالجته",
+    "en" : "Processed",
     "type" : "Boolean"
   }, {
     "id" : "purged",

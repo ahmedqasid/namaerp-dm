@@ -136,6 +136,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [AttendanceMachineConfig](https://dm.namasoft.com/dm-json/AttendanceMachineConfig.json): Attendance Machine Config / إعدادات ماكينة الحضور
 - [AttendanceMachineConfigStats](https://dm.namasoft.com/dm-json/AttendanceMachineConfigStats.json)
 - [AttendanceMachineCronLog](https://dm.namasoft.com/dm-json/AttendanceMachineCronLog.json)
+- [AttendanceMachineLogInbox](https://dm.namasoft.com/dm-json/AttendanceMachineLogInbox.json): Attendance Machine Log Inbox
 - [AttendancePlan](https://dm.namasoft.com/dm-json/AttendancePlan.json): Attendance Plan / خطة الدوام
 - [AttendanceShift](https://dm.namasoft.com/dm-json/AttendanceShift.json): Shift / ملف الدوام
 - [AttendantsCategory](https://dm.namasoft.com/dm-json/AttendantsCategory.json): Attendants Category / فئة الحضور
