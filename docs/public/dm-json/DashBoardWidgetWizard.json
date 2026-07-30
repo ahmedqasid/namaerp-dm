@@ -576,7 +576,7 @@
     }, {
       "id" : "fields.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -919,7 +919,7 @@
     }, {
       "id" : "parameters.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -1457,7 +1457,7 @@
     }, {
       "id" : "sortFields.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {

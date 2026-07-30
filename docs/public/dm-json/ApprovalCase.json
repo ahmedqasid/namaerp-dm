@@ -403,6 +403,12 @@
       "column" : "requiredStatus",
       "type" : "Text"
     }, {
+      "id" : "steps.returnedToStepSeq",
+      "column" : "returnedToStepSeq",
+      "ar" : "الرجوع لخطوة سابقة",
+      "en" : "Returned To Step",
+      "type" : "Long"
+    }, {
       "id" : "steps.updatedFields",
       "column" : "updatedFields",
       "type" : "BigText"

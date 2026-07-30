@@ -20,6 +20,46 @@
     "column" : "analysisSet_id",
     "type" : "ID"
   }, {
+    "id" : "attachment1",
+    "column" : "attachment1_id",
+    "ar" : "مرفق 1",
+    "en" : "Attachment 1",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment2",
+    "column" : "attachment2_id",
+    "ar" : "مرفق 2",
+    "en" : "Attachment 2",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment3",
+    "column" : "attachment3_id",
+    "ar" : "مرفق 3",
+    "en" : "Attachment 3",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment4",
+    "column" : "attachment4_id",
+    "ar" : "مرفق 4",
+    "en" : "Attachment 4",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "attachment5",
+    "column" : "attachment5_id",
+    "ar" : "مرفق 5",
+    "en" : "Attachment 5",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
     "id" : "book",
     "column" : "book_id",
     "ar" : "الدفتر",

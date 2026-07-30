@@ -485,6 +485,8 @@
   }, {
     "id" : "investmentFund",
     "column" : "investmentFund_id",
+    "ar" : "صندوق الاستثمار",
+    "en" : "Investment Fund",
     "type" : "Reference",
     "refTo" : "REInvestmentFund",
     "refPath" : "/modules/realestate/REInvestmentFund.html"
@@ -1158,6 +1160,8 @@
     }, {
       "id" : "details.collectionDiscount",
       "column" : "collectionDiscount",
+      "ar" : "خصم التحصيل",
+      "en" : "Collection Discount",
       "type" : "Decimal"
     }, {
       "id" : "details.currencyRate",

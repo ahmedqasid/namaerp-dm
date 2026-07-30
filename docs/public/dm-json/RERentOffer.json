@@ -1169,6 +1169,8 @@
     }, {
       "id" : "details.collectionDiscount",
       "column" : "collectionDiscount",
+      "ar" : "خصم التحصيل",
+      "en" : "Collection Discount",
       "type" : "Decimal"
     }, {
       "id" : "details.currencyRate",

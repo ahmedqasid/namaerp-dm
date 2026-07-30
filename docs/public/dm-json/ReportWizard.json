@@ -1795,7 +1795,7 @@
     }, {
       "id" : "crosstabColumns.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -2110,7 +2110,7 @@
     }, {
       "id" : "crosstabMeasures.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -2418,7 +2418,7 @@
     }, {
       "id" : "crosstabRows.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -3186,7 +3186,7 @@
     }, {
       "id" : "fields.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -3508,7 +3508,7 @@
     }, {
       "id" : "group1FooterCustomExpressionLines.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -3829,7 +3829,7 @@
     }, {
       "id" : "group1HeaderCustomExpressionLines.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -4150,7 +4150,7 @@
     }, {
       "id" : "group1Lines.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -4470,7 +4470,7 @@
     }, {
       "id" : "group2FooterCustomExpressionLines.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -4791,7 +4791,7 @@
     }, {
       "id" : "group2HeaderCustomExpressionLines.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -5112,7 +5112,7 @@
     }, {
       "id" : "group2Lines.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -5432,7 +5432,7 @@
     }, {
       "id" : "group3FooterCustomExpressionLines.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -5753,7 +5753,7 @@
     }, {
       "id" : "group3HeaderCustomExpressionLines.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -6074,7 +6074,7 @@
     }, {
       "id" : "group3Lines.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -6394,7 +6394,7 @@
     }, {
       "id" : "group4FooterCustomExpressionLines.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -6715,7 +6715,7 @@
     }, {
       "id" : "group4HeaderCustomExpressionLines.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -7036,7 +7036,7 @@
     }, {
       "id" : "group4Lines.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -7356,7 +7356,7 @@
     }, {
       "id" : "group5FooterCustomExpressionLines.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -7677,7 +7677,7 @@
     }, {
       "id" : "group5HeaderCustomExpressionLines.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -7998,7 +7998,7 @@
     }, {
       "id" : "group5Lines.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -8313,7 +8313,7 @@
     }, {
       "id" : "headerComponents.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -8664,7 +8664,7 @@
     }, {
       "id" : "parameters.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -9236,7 +9236,7 @@
     }, {
       "id" : "sortFields.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {

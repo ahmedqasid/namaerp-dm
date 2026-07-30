@@ -183,6 +183,14 @@
     "refTo" : "NaMaUser",
     "refPath" : "/modules/system-tables/NaMaUser.html"
   }, {
+    "id" : "entityList",
+    "column" : "entityList_id",
+    "ar" : "قائمة الأنواع",
+    "en" : "Entity List",
+    "type" : "Reference",
+    "refTo" : "EntityTypeList",
+    "refPath" : "/modules/basic/EntityTypeList.html"
+  }, {
     "id" : "entitySystemEntryId",
     "column" : "entitySystemEntry_id",
     "type" : "ID"
@@ -204,6 +212,12 @@
     "id" : "firstAuthorId",
     "column" : "firstAuthor_id",
     "type" : "ID"
+  }, {
+    "id" : "forType",
+    "column" : "forType",
+    "ar" : "للنوع",
+    "en" : "For Type",
+    "type" : "EntityType"
   }, {
     "id" : "generatedByLine",
     "column" : "generatedByLine",
@@ -410,6 +424,12 @@
     "type" : "Reference",
     "refTo" : "NaMaUser",
     "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
+    "id" : "runWithSystemAction",
+    "column" : "runWithSystemAction",
+    "ar" : "تشغيل مع إجراء نظامي",
+    "en" : "Run With System Action",
+    "type" : "FieldID"
   }, {
     "id" : "sector",
     "column" : "sector_id",

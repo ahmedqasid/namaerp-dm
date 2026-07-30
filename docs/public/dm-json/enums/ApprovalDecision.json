@@ -24,5 +24,9 @@
     "id" : "EscalateToSpecificEmployee",
     "ar" : "تصعيد الي موظف بعينه",
     "en" : "Escalate To Direct Supervisor"
+  }, {
+    "id" : "ReturnToSpecificStep",
+    "ar" : "إرجاع لخطوة محددة",
+    "en" : "Return To A Specific Step"
   } ]
 }

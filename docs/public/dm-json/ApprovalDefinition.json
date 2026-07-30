@@ -1126,6 +1126,12 @@
       "en" : "Comment Required With Returning To Previous Step",
       "type" : "Boolean"
     }, {
+      "id" : "steps.commentRequiredWithReturningToSpecificStep",
+      "column" : "commentRequiredWithReturningToSpecificStep",
+      "ar" : "يجب إدخال الملاحظات مع الإرجاع لخطوة محددة",
+      "en" : "Comment Required With Returning To Specific Step",
+      "type" : "Boolean"
+    }, {
       "id" : "steps.id",
       "column" : "id",
       "type" : "ID"
@@ -1205,6 +1211,12 @@
       "column" : "reasonRequiredWithReturningToPreviousStep",
       "ar" : "يجب إدخال السبب مع الإرجاع للخطوة السابقة",
       "en" : "Reason Required With Returning To Previous Step",
+      "type" : "Boolean"
+    }, {
+      "id" : "steps.reasonRequiredWithReturningToSpecificStep",
+      "column" : "reasonRequiredWithReturningToSpecificStep",
+      "ar" : "يجب إدخال السبب مع الإرجاع لخطوة محددة",
+      "en" : "Reason Required With Returning To Specific Step",
       "type" : "Boolean"
     }, {
       "id" : "steps.requireAllApprovers",

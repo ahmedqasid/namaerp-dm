@@ -1,12 +1,12 @@
 {
-  "entity" : "REEstateAddition",
-  "table" : "REEstateAddition",
-  "module" : "realestate",
-  "ar" : "سند تعلية عقار",
-  "arPlural" : "سندات تعلية عقار",
-  "en" : "RE Estate Addition",
-  "enPlural" : "RE Estate Additions",
-  "page" : "https://dm.namasoft.com/modules/realestate/REEstateAddition.html",
+  "entity" : "DetailedRevisionConfig",
+  "table" : "DetailedRevisionConfig",
+  "module" : "system-tables",
+  "ar" : "إعدادات المراجعة التفصيلية",
+  "arPlural" : "إعدادات المراجعة التفصيلية",
+  "en" : "Detailed Revision Settings",
+  "enPlural" : "Detailed Revision Settings",
+  "page" : "https://dm.namasoft.com/modules/system-tables/DetailedRevisionConfig.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -19,14 +19,6 @@
     "id" : "analysisSetId",
     "column" : "analysisSet_id",
     "type" : "ID"
-  }, {
-    "id" : "book",
-    "column" : "book_id",
-    "ar" : "الدفتر",
-    "en" : "Book",
-    "type" : "Reference",
-    "refTo" : "DocumentBook",
-    "refPath" : "/modules/basic/DocumentBook.html"
   }, {
     "id" : "branch",
     "column" : "branch_id",
@@ -41,14 +33,6 @@
     "ar" : "Branch ID",
     "en" : "Branch ID",
     "type" : "ID"
-  }, {
-    "id" : "cancelledBy",
-    "column" : "cancelledBy_id",
-    "ar" : "ألغي بواسطة",
-    "en" : "Cancelled By",
-    "type" : "Reference",
-    "refTo" : "DocumentCancelDocument",
-    "refPath" : "/modules/basic/DocumentCancelDocument.html"
   }, {
     "id" : "code",
     "column" : "code",
@@ -77,6 +61,14 @@
     "ar" : "تاريخ الإنشاء",
     "en" : "Creation Date",
     "type" : "DateAndTime"
+  }, {
+    "id" : "criteriaDefinition",
+    "column" : "criteriaDefinition_id",
+    "ar" : " المعايير",
+    "en" : " Criteria",
+    "type" : "Reference",
+    "refTo" : "CriteriaDefinition",
+    "refPath" : "/modules/basic/CriteriaDefinition.html"
   }, {
     "id" : "currentApprovalCase",
     "column" : "currentApprovalCase_id",
@@ -166,10 +158,6 @@
     "en" : "description5",
     "type" : "Text"
   }, {
-    "id" : "dimensionsHistoryXml",
-    "column" : "dimensionsHistoryXml",
-    "type" : "BigText"
-  }, {
     "id" : "docCategory",
     "column" : "docCategory_id",
     "ar" : " تصنيف سجل",
@@ -213,6 +201,14 @@
     "en" : "Entity Type",
     "type" : "EntityType"
   }, {
+    "id" : "entityTypeList",
+    "column" : "entityTypeList_id",
+    "ar" : "قائمة الأنواع",
+    "en" : "Entity Type List",
+    "type" : "Reference",
+    "refTo" : "EntityTypeList",
+    "refPath" : "/modules/basic/EntityTypeList.html"
+  }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
     "ar" : "منشئ السجل",
@@ -225,33 +221,11 @@
     "column" : "firstAuthor_id",
     "type" : "ID"
   }, {
-    "id" : "fiscalPeriod",
-    "column" : "fiscalPeriod_id",
-    "ar" : "الفترة",
-    "en" : "Fiscal Period",
-    "type" : "Reference",
-    "refTo" : "FiscalPeriod",
-    "refPath" : "/modules/basic/FiscalPeriod.html"
-  }, {
-    "id" : "fiscalYear",
-    "column" : "fiscalYear_id",
-    "ar" : "السنة المالية",
-    "en" : "Fiscal Year",
-    "type" : "Reference",
-    "refTo" : "FiscalYear",
-    "refPath" : "/modules/basic/FiscalYear.html"
-  }, {
-    "id" : "fromDoc",
-    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
-    "ar" : "بناءا على",
-    "en" : "From Document",
-    "type" : "Genericreference"
-  }, {
-    "id" : "fromDocsCount",
-    "column" : "fromDocsCount",
-    "ar" : "عدد سندات بناء على",
-    "en" : "From Docs Count",
-    "type" : "Integer"
+    "id" : "forType",
+    "column" : "forType",
+    "ar" : "للنوع",
+    "en" : "For Type",
+    "type" : "EntityType"
   }, {
     "id" : "generatedByLine",
     "column" : "generatedByLine",
@@ -276,6 +250,14 @@
     "type" : "Enum",
     "enum" : "GenerationType"
   }, {
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
+    "type" : "Reference",
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
+  }, {
     "id" : "id",
     "column" : "id",
     "type" : "ID"
@@ -283,20 +265,6 @@
     "id" : "indexInParent",
     "column" : "indexInParent",
     "type" : "Integer"
-  }, {
-    "id" : "investmentFund",
-    "column" : "investmentFund_id",
-    "ar" : "صندوق الاستثمار",
-    "en" : "Investment Fund",
-    "type" : "Reference",
-    "refTo" : "REInvestmentFund",
-    "refPath" : "/modules/realestate/REInvestmentFund.html"
-  }, {
-    "id" : "issueDate",
-    "column" : "issueDate",
-    "ar" : "تاريخ التحرير",
-    "en" : "Issue Date",
-    "type" : "Date"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -328,11 +296,11 @@
     "column" : "lockVersion",
     "type" : "Integer"
   }, {
-    "id" : "manualRef1",
-    "column" : "manualRef1",
-    "ar" : "رقم المستند اليدوي",
-    "en" : "Manual Ref1",
-    "type" : "Text"
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
   }, {
     "id" : "n1",
     "column" : "n1",
@@ -364,13 +332,17 @@
     "en" : "Number 5",
     "type" : "Decimal"
   }, {
-    "id" : "openShift",
-    "column" : "openShift_id",
-    "ar" : "فتح وردية",
-    "en" : "Open Shift",
-    "type" : "Reference",
-    "refTo" : "CSHOpenShift",
-    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
   }, {
     "id" : "parentCode",
     "column" : "parentCode",
@@ -382,29 +354,17 @@
     "en" : "Prevent Usage",
     "type" : "Boolean"
   }, {
-    "id" : "preventUseAsFromDoc",
-    "column" : "preventUseAsFromDoc",
-    "type" : "Boolean"
-  }, {
     "id" : "printCount",
     "column" : "printCount",
     "ar" : "عدد مرات الطباعة",
     "en" : "Print Count",
     "type" : "Integer"
   }, {
-    "id" : "purged",
-    "column" : "purged",
-    "ar" : "Purged",
-    "en" : "Purged",
-    "type" : "Boolean"
-  }, {
-    "id" : "rbook",
-    "column" : "rbook_id",
-    "ar" : "دفتر الايصالات",
-    "en" : "Receipt Book",
-    "type" : "Reference",
-    "refTo" : "ReceiptBook",
-    "refPath" : "/modules/basic/ReceiptBook.html"
+    "id" : "priority",
+    "column" : "priority",
+    "ar" : "الأولوية",
+    "en" : "Priority",
+    "type" : "Long"
   }, {
     "id" : "ref1",
     "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
@@ -461,14 +421,6 @@
     "refTo" : "NaMaUser",
     "refPath" : "/modules/system-tables/NaMaUser.html"
   }, {
-    "id" : "rpaper",
-    "column" : "rpaper_id",
-    "ar" : "الايصال",
-    "en" : "Receipt Paper",
-    "type" : "Reference",
-    "refTo" : "ReceiptPaper",
-    "refPath" : "/modules/basic/ReceiptPaper.html"
-  }, {
     "id" : "sector",
     "column" : "sector_id",
     "ar" : "القطاع",
@@ -481,17 +433,11 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
-    "id" : "term",
-    "column" : "term_id",
-    "ar" : "توجيه المستند",
-    "en" : "Term",
-    "type" : "Reference",
-    "refTo" : "DocumentTerm",
-    "refPath" : "/modules/basic/DocumentTerm.html"
-  }, {
-    "id" : "termConfigXml",
-    "column" : "termConfigXml",
-    "type" : "BigText"
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
@@ -517,12 +463,6 @@
     "column" : "usageCapability_id",
     "type" : "ID"
   }, {
-    "id" : "valueDate",
-    "column" : "valueDate",
-    "ar" : "التاريخ الفعلي",
-    "en" : "Value Date",
-    "type" : "Date"
-  }, {
     "id" : "viewCapability",
     "column" : "viewCapability_id",
     "ar" : "صلاحية المطالعة",
@@ -536,43 +476,43 @@
     "type" : "ID"
   } ],
   "details" : [ {
-    "id" : "details",
-    "table" : "REEstateAdditionLine",
-    "joinColumn" : "rEEstateAddition_id",
-    "ar" : "التفاصيل",
-    "en" : "Details",
+    "id" : "steps",
+    "table" : "DetailedRevisionStep",
+    "joinColumn" : "detailedRevisionConfig_id",
+    "ar" : "الخطوات",
+    "en" : "Steps",
     "fields" : [ {
-      "id" : "details.estate",
-      "columns" : [ "estateActualCode", " estateCode", " estateEntityType", " estateId" ],
-      "ar" : "العقار",
-      "en" : "Estate",
-      "type" : "Genericreference"
-    }, {
-      "id" : "details.estateAdditionValue",
-      "column" : "estateAdditionValue",
-      "ar" : "قيمة التعلية",
-      "en" : "Estate Addition Value",
-      "type" : "Decimal"
-    }, {
-      "id" : "details.id",
+      "id" : "steps.id",
       "column" : "id",
       "type" : "ID"
     }, {
-      "id" : "details.lineNumber",
+      "id" : "steps.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
     }, {
-      "id" : "details.postAdditionValue",
-      "column" : "postAdditionValue",
-      "ar" : "القيمة بعد التعلية",
-      "en" : "Post Addition Value",
-      "type" : "Decimal"
+      "id" : "steps.name1",
+      "column" : "name1",
+      "ar" : "الاسم العربي",
+      "en" : "Name1",
+      "type" : "Text"
     }, {
-      "id" : "details.preAdditionValue",
-      "column" : "preAdditionValue",
-      "ar" : "القيمة قبل التعلية",
-      "en" : "Pre Addition Value",
-      "type" : "Decimal"
+      "id" : "steps.name2",
+      "column" : "name2",
+      "ar" : "الاسم الإنجليزي",
+      "en" : "Name2",
+      "type" : "Text"
+    }, {
+      "id" : "steps.responsible",
+      "columns" : [ "responsibleActualCode", " responsibleCode", " responsibleEntityType", " responsibleId" ],
+      "ar" : "الموظف المسئول",
+      "en" : "Responsible Employee",
+      "type" : "Genericreference"
+    }, {
+      "id" : "steps.stepSeq",
+      "column" : "stepSeq",
+      "ar" : "مسلسل",
+      "en" : "Sequence",
+      "type" : "Long"
     } ]
   } ]
 }

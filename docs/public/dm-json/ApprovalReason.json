@@ -471,6 +471,12 @@
     "en" : "Used With Returning To Previous Step",
     "type" : "Boolean"
   }, {
+    "id" : "usedWithReturningToSpecificStep",
+    "column" : "usedWithReturningToSpecificStep",
+    "ar" : "تستخدم مع الإرجاع لخطوة محددة",
+    "en" : "Used With Returning To Specific Step",
+    "type" : "Boolean"
+  }, {
     "id" : "viewCapability",
     "column" : "viewCapability_id",
     "ar" : "صلاحية المطالعة",

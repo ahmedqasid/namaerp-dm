@@ -12,6 +12,8 @@
   }, {
     "id" : "collectionDiscount",
     "column" : "collectionDiscount",
+    "ar" : "خصم التحصيل",
+    "en" : "Collection Discount",
     "type" : "Decimal"
   }, {
     "id" : "effectType",

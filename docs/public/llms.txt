@@ -459,6 +459,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [DepartmentParentLine](https://dm.namasoft.com/dm-json/DepartmentParentLine.json)
 - [DepartmentSection](https://dm.namasoft.com/dm-json/DepartmentSection.json):  Department Section /  القسم الوظيفي
 - [DetailedRemark](https://dm.namasoft.com/dm-json/DetailedRemark.json): Detailed Remark / ملحوظة مفصلة
+- [DetailedRevisionConfig](https://dm.namasoft.com/dm-json/DetailedRevisionConfig.json): Detailed Revision Settings / إعدادات المراجعة التفصيلية
 - [DiggingBackFilingCheckList](https://dm.namasoft.com/dm-json/DiggingBackFilingCheckList.json): Digging And BackFiling CheckList
 - [DimensionsBalance](https://dm.namasoft.com/dm-json/DimensionsBalance.json)
 - [DiscountCoupon](https://dm.namasoft.com/dm-json/DiscountCoupon.json): Discount Coupon / قسيمة خصومات
@@ -1721,6 +1722,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [ResourceVoucher](https://dm.namasoft.com/dm-json/ResourceVoucher.json): Resource Voucher / سند موارد
 - [Responsibility](https://dm.namasoft.com/dm-json/Responsibility.json):  Responsibility /  مسئولية
 - [ReverseRedeemAmountDoc](https://dm.namasoft.com/dm-json/ReverseRedeemAmountDoc.json): Reverse Redeem Amount Document / إلغاء عملية صرف المكافأة
+- [RevisionCase](https://dm.namasoft.com/dm-json/RevisionCase.json)
 - [RevisionDoc](https://dm.namasoft.com/dm-json/RevisionDoc.json): Revision Document / مستند مراجعه
 - [RewardAndPenaltieDocument](https://dm.namasoft.com/dm-json/RewardAndPenaltieDocument.json): (Reward / Penalty ) Document / سند مكافأة/جزاء
 - [RewardAndPenalty](https://dm.namasoft.com/dm-json/RewardAndPenalty.json): Reward / Penalty / نوع مكافأة / جزاء

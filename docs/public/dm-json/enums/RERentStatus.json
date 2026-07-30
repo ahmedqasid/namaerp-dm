@@ -13,6 +13,8 @@
     "ar" : "تم إلغاء الإيجار",
     "en" : "Rent Cancelled"
   }, {
-    "id" : "ReservationCancelled"
+    "id" : "ReservationCancelled",
+    "ar" : "تم إلغاء الحجز",
+    "en" : "Reservation Cancelled"
   } ]
 }

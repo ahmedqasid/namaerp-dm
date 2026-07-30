@@ -286,6 +286,8 @@
   }, {
     "id" : "investmentFund",
     "column" : "investmentFund_id",
+    "ar" : "صندوق الاستثمار",
+    "en" : "Investment Fund",
     "type" : "Reference",
     "refTo" : "REInvestmentFund",
     "refPath" : "/modules/realestate/REInvestmentFund.html"

@@ -2002,7 +2002,7 @@
     }, {
       "id" : "detailFields1.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -2317,7 +2317,7 @@
     }, {
       "id" : "detailFields2.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -2632,7 +2632,7 @@
     }, {
       "id" : "detailFields3.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -2947,7 +2947,7 @@
     }, {
       "id" : "detailFields4.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -3262,7 +3262,7 @@
     }, {
       "id" : "detailFields5.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -3572,7 +3572,7 @@
     }, {
       "id" : "headerComponents.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -3704,7 +3704,7 @@
     }, {
       "id" : "headerFields1.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -4088,7 +4088,7 @@
     }, {
       "id" : "headerFields2.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -4472,7 +4472,7 @@
     }, {
       "id" : "headerFields3.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -4856,7 +4856,7 @@
     }, {
       "id" : "headerFields4.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -5240,7 +5240,7 @@
     }, {
       "id" : "headerFields5.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -5799,7 +5799,7 @@
     }, {
       "id" : "sortFields1.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -6120,7 +6120,7 @@
     }, {
       "id" : "sortFields2.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -6441,7 +6441,7 @@
     }, {
       "id" : "sortFields3.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -6762,7 +6762,7 @@
     }, {
       "id" : "sortFields4.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {
@@ -7083,7 +7083,7 @@
     }, {
       "id" : "sortFields5.configuration",
       "column" : "configuration",
-      "ar" : "Configuration",
+      "ar" : "الإعدادات",
       "en" : "Configuration",
       "type" : "BigText"
     }, {

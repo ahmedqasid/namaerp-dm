@@ -586,6 +586,8 @@
     }, {
       "id" : "paidInstallments.collectionDiscount",
       "column" : "collectionDiscount",
+      "ar" : "خصم التحصيل",
+      "en" : "Collection Discount",
       "type" : "Decimal"
     }, {
       "id" : "paidInstallments.currencyRate",
@@ -1057,6 +1059,8 @@
     }, {
       "id" : "profits.collectionDiscount",
       "column" : "collectionDiscount",
+      "ar" : "خصم التحصيل",
+      "en" : "Collection Discount",
       "type" : "Decimal"
     }, {
       "id" : "profits.currencyRate",

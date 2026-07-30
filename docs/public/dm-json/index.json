@@ -4356,6 +4356,16 @@
       "table" : "DetailedRemarkLine9"
     } ]
   }, {
+    "name" : "DetailedRevisionConfig",
+    "table" : "DetailedRevisionConfig",
+    "module" : "system-tables",
+    "ar" : "إعدادات المراجعة التفصيلية",
+    "en" : "Detailed Revision Settings",
+    "details" : [ {
+      "id" : "steps",
+      "table" : "DetailedRevisionStep"
+    } ]
+  }, {
     "name" : "DiggingBackFilingCheckList",
     "table" : "DiggingBackFilingCheckList",
     "module" : "contracting",
@@ -18021,6 +18031,17 @@
     "module" : "basic-external-reward-points",
     "ar" : "إلغاء عملية صرف المكافأة",
     "en" : "Reverse Redeem Amount Document"
+  }, {
+    "name" : "RevisionCase",
+    "table" : "RevisionCase",
+    "module" : "system-tables",
+    "details" : [ {
+      "id" : "nextCandidates",
+      "table" : "RevCaseCandidates"
+    }, {
+      "id" : "steps",
+      "table" : "RevCaseSteps"
+    } ]
   }, {
     "name" : "RevisionDoc",
     "table" : "RevisionDoc",

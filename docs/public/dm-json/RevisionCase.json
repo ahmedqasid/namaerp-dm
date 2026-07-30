@@ -1,0 +1,142 @@
+{
+  "entity" : "RevisionCase",
+  "table" : "RevisionCase",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/RevisionCase.html",
+  "fields" : [ {
+    "id" : "completed",
+    "column" : "completed",
+    "type" : "Boolean"
+  }, {
+    "id" : "completionDate",
+    "column" : "completionDate",
+    "ar" : "تاريخ الاكتمال",
+    "en" : "Completion Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "currentLevel",
+    "column" : "currentLevel",
+    "type" : "Integer"
+  }, {
+    "id" : "detailedRevisionConfig",
+    "column" : "detailedRevisionConfig_id",
+    "type" : "Reference",
+    "refTo" : "DetailedRevisionConfig",
+    "refPath" : "/modules/system-tables/DetailedRevisionConfig.html"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "nextStepName1",
+    "column" : "nextStepName1",
+    "ar" : "الاسم العربي للخطوة الحالية",
+    "en" : "Next Step Name 1",
+    "type" : "Text"
+  }, {
+    "id" : "nextStepName2",
+    "column" : "nextStepName2",
+    "ar" : "الاسم الإنجليزي للخطوة الحالية",
+    "en" : "Next Step Name 2",
+    "type" : "Text"
+  }, {
+    "id" : "nextStepSeq",
+    "column" : "nextStepSeq",
+    "type" : "Long"
+  }, {
+    "id" : "revisedElement",
+    "columns" : [ "revisedElementActualCode", " revisedElementCode", " revisedElementEntityType", " revisedElementId" ],
+    "type" : "Genericreference"
+  } ],
+  "details" : [ {
+    "id" : "nextCandidates",
+    "table" : "RevCaseCandidates",
+    "joinColumn" : "RevisionCase_id",
+    "ar" : "المطلوب منهم الموافقة",
+    "en" : "Next Candidates",
+    "fields" : [ {
+      "id" : "nextCandidates.candidate",
+      "column" : "candidate_id",
+      "ar" : "المتقدم للعمل",
+      "en" : "Candidate",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "nextCandidates.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "nextCandidates.id",
+      "column" : "id",
+      "ar" : "المعرف",
+      "en" : "Id",
+      "type" : "ID"
+    }, {
+      "id" : "nextCandidates.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "nextCandidates.requestedOn",
+      "column" : "requestedOn",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "nextCandidates.source",
+      "columns" : [ "sourceActualCode", " sourceCode", " sourceEntityType", " sourceId" ],
+      "ar" : "المصدر",
+      "en" : "Source",
+      "type" : "Genericreference"
+    } ]
+  }, {
+    "id" : "steps",
+    "table" : "RevCaseSteps",
+    "joinColumn" : "RevisionCase_id",
+    "ar" : "الخطوات",
+    "en" : "Steps",
+    "fields" : [ {
+      "id" : "steps.actualResponsible",
+      "column" : "actualResponsible_id",
+      "ar" : "المسئول",
+      "en" : "Responsible",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "steps.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "steps.id",
+      "column" : "id",
+      "ar" : "المعرف",
+      "en" : "Id",
+      "type" : "ID"
+    }, {
+      "id" : "steps.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "steps.reviseDate",
+      "column" : "reviseDate",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "steps.reviseLevel",
+      "column" : "reviseLevel",
+      "ar" : "مستوى المراجعة",
+      "en" : "Revise Level",
+      "type" : "Integer"
+    }, {
+      "id" : "steps.reviseStepName1",
+      "column" : "reviseStepName1",
+      "type" : "Text"
+    }, {
+      "id" : "steps.reviseStepName2",
+      "column" : "reviseStepName2",
+      "type" : "Text"
+    }, {
+      "id" : "steps.reviseStepSeq",
+      "column" : "reviseStepSeq",
+      "type" : "Long"
+    } ]
+  } ]
+}

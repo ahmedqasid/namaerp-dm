@@ -36,6 +36,7 @@
   }, {
     "id" : "calcCommissionBasedOn",
     "column" : "calcCommissionBasedOn",
+    "ar" : "احتساب العمولة بناء على",
     "en" : "Calculate Commission Based On",
     "type" : "Enum",
     "enum" : "RECommissionCalculationBasis"

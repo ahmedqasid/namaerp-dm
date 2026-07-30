@@ -72,7 +72,7 @@
   }, {
     "id" : "configuration",
     "column" : "configuration_id",
-    "ar" : "Configuration",
+    "ar" : "الإعدادات",
     "en" : "Configuration",
     "type" : "Reference",
     "refTo" : "WhatsAppMessageConfiguration",
