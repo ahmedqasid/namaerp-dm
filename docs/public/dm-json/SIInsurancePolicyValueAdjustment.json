@@ -896,6 +896,12 @@
       "en" : "New Value",
       "type" : "Decimal"
     }, {
+      "id" : "details.oldValue",
+      "column" : "oldValue",
+      "ar" : "القيمة القديمة",
+      "en" : "Old Value",
+      "type" : "Decimal"
+    }, {
       "id" : "details.plateNumber",
       "column" : "plateNumber",
       "ar" : "رقم اللوحه",

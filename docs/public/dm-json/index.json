@@ -4358,7 +4358,7 @@
   }, {
     "name" : "DetailedRevisionConfig",
     "table" : "DetailedRevisionConfig",
-    "module" : "system-tables",
+    "module" : "basic",
     "ar" : "إعدادات المراجعة التفصيلية",
     "en" : "Detailed Revision Settings",
     "details" : [ {
@@ -18223,6 +18223,9 @@
     "details" : [ {
       "id" : "details",
       "table" : "SIAllocationLine"
+    }, {
+      "id" : "externalPaymentLines",
+      "table" : "SIAllocationExtPaymentLine"
     } ]
   }, {
     "name" : "SIAllocationCancel",

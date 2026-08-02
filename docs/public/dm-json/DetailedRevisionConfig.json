@@ -1,12 +1,12 @@
 {
   "entity" : "DetailedRevisionConfig",
   "table" : "DetailedRevisionConfig",
-  "module" : "system-tables",
+  "module" : "basic",
   "ar" : "إعدادات المراجعة التفصيلية",
   "arPlural" : "إعدادات المراجعة التفصيلية",
   "en" : "Detailed Revision Settings",
   "enPlural" : "Detailed Revision Settings",
-  "page" : "https://dm.namasoft.com/modules/system-tables/DetailedRevisionConfig.html",
+  "page" : "https://dm.namasoft.com/modules/basic/DetailedRevisionConfig.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

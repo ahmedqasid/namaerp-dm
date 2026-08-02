@@ -22,7 +22,7 @@
     "column" : "detailedRevisionConfig_id",
     "type" : "Reference",
     "refTo" : "DetailedRevisionConfig",
-    "refPath" : "/modules/system-tables/DetailedRevisionConfig.html"
+    "refPath" : "/modules/basic/DetailedRevisionConfig.html"
   }, {
     "id" : "id",
     "column" : "id",

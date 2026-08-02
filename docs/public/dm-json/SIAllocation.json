@@ -3139,5 +3139,98 @@
       "en" : "Warranty Code",
       "type" : "BigText"
     } ]
+  }, {
+    "id" : "externalPaymentLines",
+    "table" : "SIAllocationExtPaymentLine",
+    "joinColumn" : "sIAllocation_id",
+    "ar" : "السداد بسندات خارجية",
+    "en" : "External Payment Lines",
+    "fields" : [ {
+      "id" : "externalPaymentLines.b1",
+      "column" : "b1",
+      "ar" : "Boolean 1",
+      "en" : "Boolean 1",
+      "type" : "Boolean"
+    }, {
+      "id" : "externalPaymentLines.b2",
+      "column" : "b2",
+      "ar" : "Boolean 2",
+      "en" : "Boolean 2",
+      "type" : "Boolean"
+    }, {
+      "id" : "externalPaymentLines.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "externalPaymentLines.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "externalPaymentLines.doNotAffectRemaining",
+      "column" : "doNotAffectRemaining",
+      "ar" : "عدم التأثير على المتبقي",
+      "en" : "Do Not Affect Remaining",
+      "type" : "Boolean"
+    }, {
+      "id" : "externalPaymentLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "externalPaymentLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "externalPaymentLines.n1",
+      "column" : "n1",
+      "ar" : "رقم 1",
+      "en" : "Number 1",
+      "type" : "Decimal"
+    }, {
+      "id" : "externalPaymentLines.n2",
+      "column" : "n2",
+      "ar" : "رقم 2",
+      "en" : "Number 2",
+      "type" : "Decimal"
+    }, {
+      "id" : "externalPaymentLines.n3",
+      "column" : "n3",
+      "ar" : "رقم 3",
+      "en" : "Number 3",
+      "type" : "Decimal"
+    }, {
+      "id" : "externalPaymentLines.n4",
+      "column" : "n4",
+      "ar" : "رقم 4",
+      "en" : "Number 4",
+      "type" : "Decimal"
+    }, {
+      "id" : "externalPaymentLines.n5",
+      "column" : "n5",
+      "ar" : "رقم 5",
+      "en" : "Number 5",
+      "type" : "Decimal"
+    }, {
+      "id" : "externalPaymentLines.paymentDate",
+      "column" : "paymentDate",
+      "ar" : "تاريخ الدفع",
+      "en" : "Payment Date",
+      "type" : "Date"
+    }, {
+      "id" : "externalPaymentLines.paymentDocument",
+      "columns" : [ "paymentDocumentActualCode", " paymentDocumentCode", " paymentDocumentEntityType", " paymentDocumentId" ],
+      "ar" : "مستند الدفع",
+      "en" : "Document",
+      "type" : "Genericreference"
+    }, {
+      "id" : "externalPaymentLines.paymentValue",
+      "column" : "paymentValue",
+      "ar" : "المبلغ",
+      "en" : "Payment Value",
+      "type" : "Decimal"
+    } ]
   } ]
 }

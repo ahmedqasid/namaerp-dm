@@ -457,6 +457,54 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
+    "id" : "showAttachment1InQuestionnaire",
+    "column" : "showAttachment1InQuestionnaire",
+    "ar" : "اظهار مرفق 1 في الاستبيان",
+    "en" : "Show Attachment 1 In Questionnaire",
+    "type" : "Boolean"
+  }, {
+    "id" : "showAttachment2InQuestionnaire",
+    "column" : "showAttachment2InQuestionnaire",
+    "ar" : "اظهار مرفق 2 في الاستبيان",
+    "en" : "Show Attachment 2 In Questionnaire",
+    "type" : "Boolean"
+  }, {
+    "id" : "showAttachment3InQuestionnaire",
+    "column" : "showAttachment3InQuestionnaire",
+    "ar" : "اظهار مرفق 3 في الاستبيان",
+    "en" : "Show Attachment 3 In Questionnaire",
+    "type" : "Boolean"
+  }, {
+    "id" : "showAttachment4InQuestionnaire",
+    "column" : "showAttachment4InQuestionnaire",
+    "ar" : "اظهار مرفق 4 في الاستبيان",
+    "en" : "Show Attachment 4 In Questionnaire",
+    "type" : "Boolean"
+  }, {
+    "id" : "showAttachment5InQuestionnaire",
+    "column" : "showAttachment5InQuestionnaire",
+    "ar" : "اظهار مرفق 5 في الاستبيان",
+    "en" : "Show Attachment 5 In Questionnaire",
+    "type" : "Boolean"
+  }, {
+    "id" : "showAttachment6InQuestionnaire",
+    "column" : "showAttachment6InQuestionnaire",
+    "ar" : "اظهار مرفق 6 في الاستبيان",
+    "en" : "Show Attachment 6 In Questionnaire",
+    "type" : "Boolean"
+  }, {
+    "id" : "showAttachment7InQuestionnaire",
+    "column" : "showAttachment7InQuestionnaire",
+    "ar" : "اظهار مرفق 7 في الاستبيان",
+    "en" : "Show Attachment 7 In Questionnaire",
+    "type" : "Boolean"
+  }, {
+    "id" : "showAttachment8InQuestionnaire",
+    "column" : "showAttachment8InQuestionnaire",
+    "ar" : "اظهار مرفق 8 في الاستبيان",
+    "en" : "Show Attachment 8 In Questionnaire",
+    "type" : "Boolean"
+  }, {
     "id" : "systemGeneratedCodePrefix",
     "column" : "systemGeneratedCodePrefix",
     "ar" : "System Generated Code Prefix",
