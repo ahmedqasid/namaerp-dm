@@ -14,8 +14,8 @@
     "en" : "Return"
   }, {
     "id" : "EscalateToSupervisor",
-    "ar" : "تصعيد الي المدير المباشر",
-    "en" : "Escalate To Direct Supervisor"
+    "ar" : "تصعيد إلى المدير الأعلي",
+    "en" : "Escalate To Supervisor"
   }, {
     "id" : "ReturnToPreviousStep",
     "ar" : "إرجاع للخطوة السابقة",
@@ -23,10 +23,14 @@
   }, {
     "id" : "EscalateToSpecificEmployee",
     "ar" : "تصعيد الي موظف بعينه",
-    "en" : "Escalate To Direct Supervisor"
+    "en" : "Escalate To Specific Employee"
   }, {
     "id" : "ReturnToSpecificStep",
     "ar" : "إرجاع لخطوة محددة",
     "en" : "Return To A Specific Step"
+  }, {
+    "id" : "EscalateToDirectSupervisor",
+    "ar" : "تصعيد إلى المشرف المباشر",
+    "en" : "Escalate To Direct Supervisor"
   } ]
 }

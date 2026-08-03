@@ -1104,8 +1104,8 @@
     }, {
       "id" : "steps.commentRequiredWithEscalationToSupervisor",
       "column" : "commentRequiredWithEscalationToSupervisor",
-      "ar" : "يجب إدخال ملحوظة مع التصعيد إلى المدير المباشر",
-      "en" : "Comment Required With Escalation To Supervisor",
+      "ar" : "يجب إدخال ملحوظة مع التصعيد",
+      "en" : "Comment Required With Escalation",
       "type" : "Boolean"
     }, {
       "id" : "steps.commentRequiredWithRejecting",
@@ -1191,8 +1191,8 @@
     }, {
       "id" : "steps.reasonRequiredWithEscalationToSupervisor",
       "column" : "reasonRequiredWithEscalationToSupervisor",
-      "ar" : "يجب إدخال السبب مع التصعيد إلى المدير المباشر",
-      "en" : "Reason Required With Escalation To Supervisor",
+      "ar" : "يجب إدخال السبب مع التصعيد",
+      "en" : "Reason Required With Escalation",
       "type" : "Boolean"
     }, {
       "id" : "steps.reasonRequiredWithRejecting",

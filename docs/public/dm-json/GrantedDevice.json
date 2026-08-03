@@ -8,7 +8,17 @@
     "column" : "createdDate",
     "ar" : "تاريخ الإنشاء",
     "en" : "Creation Date",
-    "type" : "Date"
+    "type" : "DateAndTime"
+  }, {
+    "id" : "expiryDate",
+    "column" : "expiryDate",
+    "ar" : "تاريخ الإنتهاء",
+    "en" : "Expiry Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "graceExpiry",
+    "column" : "graceExpiry",
+    "type" : "DateAndTime"
   }, {
     "id" : "id",
     "column" : "id",
@@ -16,7 +26,7 @@
   }, {
     "id" : "lastAccessDate",
     "column" : "lastAccessDate",
-    "type" : "Date"
+    "type" : "DateAndTime"
   }, {
     "id" : "loginId",
     "column" : "loginId",
@@ -29,5 +39,13 @@
     "ar" : "كلمة المرور",
     "en" : "Password",
     "type" : "Password"
+  }, {
+    "id" : "previousTokenHash",
+    "column" : "previousTokenHash",
+    "type" : "Text"
+  }, {
+    "id" : "tokenHash",
+    "column" : "tokenHash",
+    "type" : "Text"
   } ]
 }

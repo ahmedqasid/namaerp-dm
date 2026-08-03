@@ -449,8 +449,8 @@
   }, {
     "id" : "usedWithEscalationToSupervisor",
     "column" : "usedWithEscalationToSupervisor",
-    "ar" : "تستخدم مع التصعيد إلى المدير المباشر",
-    "en" : "Used With Escalation To Supervisor",
+    "ar" : "تستخدم مع التصعيد",
+    "en" : "Used With Escalation",
     "type" : "Boolean"
   }, {
     "id" : "usedWithRejecting",
