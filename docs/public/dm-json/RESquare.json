@@ -8,6 +8,12 @@
   "enPlural" : "Squares",
   "page" : "https://dm.namasoft.com/modules/realestate/RESquare.html",
   "fields" : [ {
+    "id" : "allowSoldUnitForRent",
+    "column" : "allowSoldUnitForRent",
+    "ar" : "إتاحة الوحدة المباعة للإيجار",
+    "en" : "Allow Sold Unit For Rent",
+    "type" : "Boolean"
+  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",
