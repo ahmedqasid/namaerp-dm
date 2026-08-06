@@ -16,6 +16,10 @@
     "en" : "Created From",
     "type" : "Genericreference"
   }, {
+    "id" : "delegatedFrom",
+    "columns" : [ "delegatedFromActualCode", " delegatedFromCode", " delegatedFromEntityType", " delegatedFromId" ],
+    "type" : "Genericreference"
+  }, {
     "id" : "dimensions.analysisSet",
     "column" : "dimensionsAnalysisSet_id",
     "ar" : "المجموعة التحليلية",

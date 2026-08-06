@@ -265,6 +265,12 @@
     "en" : "description5",
     "type" : "Text"
   }, {
+    "id" : "doNotApplyDelegation",
+    "column" : "doNotApplyDelegation",
+    "ar" : "عدم تطبيق التفويض",
+    "en" : "Do Not Apply Delegation",
+    "type" : "Boolean"
+  }, {
     "id" : "doNotNotifyAuthor",
     "column" : "doNotNotifyAuthor",
     "ar" : "عدم تنبيه محرر السجل",
