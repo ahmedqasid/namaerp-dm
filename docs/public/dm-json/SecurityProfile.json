@@ -112,6 +112,12 @@
     "en" : "Branch ID",
     "type" : "ID"
   }, {
+    "id" : "canCreateThemeForAllUsers",
+    "column" : "canCreateThemeForAllUsers",
+    "ar" : "السماح بانشاء ثيم ظاهر للجميع",
+    "en" : "Can Create Theme For All Users",
+    "type" : "Boolean"
+  }, {
     "id" : "code",
     "column" : "code",
     "ar" : "الكود",

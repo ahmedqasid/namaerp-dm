@@ -651,6 +651,24 @@
     "en" : "Description",
     "type" : "BigText"
   }, {
+    "id" : "residency.end",
+    "column" : "residencyEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "residency.issue",
+    "column" : "residencyIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "residency.number",
+    "column" : "residencyNumber",
+    "ar" : "رقم",
+    "en" : "Number",
+    "type" : "Text"
+  }, {
     "id" : "reviseLevel",
     "column" : "reviseLevel",
     "ar" : "مستوى المراجعة",

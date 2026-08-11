@@ -338,5 +338,9 @@
     "id" : "InquiryOnlineOrderStatus",
     "ar" : "استعلام عن حالة طلب نقاط بيع أون لاين",
     "en" : "Inquiry POS Online Order Status"
+  }, {
+    "id" : "InstantDataSync",
+    "ar" : "مزامنة فورية للبيانات",
+    "en" : "Instant Data Sync"
   } ]
 }

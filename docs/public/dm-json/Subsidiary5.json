@@ -1305,6 +1305,12 @@
     "en" : "Description",
     "type" : "BigText"
   }, {
+    "id" : "remarks2",
+    "column" : "remarks2",
+    "ar" : "ملاحظات 2",
+    "en" : "Remarks 2",
+    "type" : "BigText"
+  }, {
     "id" : "residency.end",
     "column" : "residencyEnd",
     "ar" : "تاريخ الأنتهاء",

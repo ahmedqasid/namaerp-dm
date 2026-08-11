@@ -36,6 +36,7 @@
   }, {
     "id" : "isCancel",
     "column" : "isCancel",
+    "ar" : "إلغاء",
     "type" : "Boolean"
   }, {
     "id" : "notificationId",
@@ -59,6 +60,7 @@
   }, {
     "id" : "partnerGLN",
     "column" : "partnerGLN",
+    "ar" : "رقم GLN للطرف الآخر",
     "type" : "Text"
   }, {
     "id" : "prescriptionDate",
@@ -93,12 +95,14 @@
   }, {
     "id" : "rsdConfig",
     "column" : "rsdConfig_id",
+    "ar" : "إعدادات تتبع الأدوية",
     "type" : "Reference",
     "refTo" : "SFDARSDConfig",
     "refPath" : "/modules/supplychain-ksa-rsd/SFDARSDConfig.html"
   }, {
     "id" : "stakeholderWarehouse",
     "column" : "stakeholderWarehouse_id",
+    "ar" : "مخزن الجهة المُبلِّغة",
     "type" : "Reference",
     "refTo" : "Warehouse",
     "refPath" : "/modules/supplychain/Warehouse.html"

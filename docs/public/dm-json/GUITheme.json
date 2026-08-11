@@ -494,6 +494,14 @@
     "en" : "Name2",
     "type" : "Text"
   }, {
+    "id" : "onlyForUser",
+    "column" : "onlyForUser_id",
+    "ar" : "ظاهر فقط للمستخدم",
+    "en" : "Only For User",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  }, {
     "id" : "parentCode",
     "column" : "parentCode",
     "type" : "Text"

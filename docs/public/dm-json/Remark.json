@@ -1101,6 +1101,12 @@
     "en" : "Description",
     "type" : "BigText"
   }, {
+    "id" : "remarks2",
+    "column" : "remarks2",
+    "ar" : "ملاحظات 2",
+    "en" : "Remarks 2",
+    "type" : "BigText"
+  }, {
     "id" : "reviseLevel",
     "column" : "reviseLevel",
     "ar" : "مستوى المراجعة",
