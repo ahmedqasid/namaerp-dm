@@ -26,5 +26,9 @@
     "id" : "NotSent",
     "ar" : "لم يرسل بعد",
     "en" : "Not Sent"
+  }, {
+    "id" : "Partial",
+    "ar" : "جزئي",
+    "en" : "Partial"
   } ]
 }

@@ -1,0 +1,71 @@
+{
+  "entity" : "AlwataniaInvoiceLog",
+  "table" : "AlwataniaInvoiceLog",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AlwataniaInvoiceLog.html",
+  "fields" : [ {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "config",
+    "column" : "config_id",
+    "type" : "Reference",
+    "refTo" : "AlwataniaDistConfig",
+    "refPath" : "/modules/system-tables/AlwataniaDistConfig.html"
+  }, {
+    "id" : "document",
+    "columns" : [ "documentActualCode", " documentCode", " documentEntityType", " documentId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "httpStatus",
+    "column" : "httpStatus",
+    "ar" : "حالة استجابة HTTP",
+    "en" : "HTTP Status",
+    "type" : "Integer"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "invoiceType",
+    "column" : "invoiceType",
+    "ar" : "نوع الفاتورة",
+    "en" : "Invoice Type",
+    "type" : "Text"
+  }, {
+    "id" : "requestBody",
+    "column" : "requestBody",
+    "ar" : "Request Body",
+    "en" : "Request Body",
+    "type" : "BigText"
+  }, {
+    "id" : "response",
+    "column" : "response",
+    "ar" : "Response",
+    "en" : "Response",
+    "type" : "BigText"
+  }, {
+    "id" : "sendDate",
+    "column" : "sendDate",
+    "ar" : "تاريخ الإرسال",
+    "en" : "Send Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "serialNo",
+    "column" : "serialNo",
+    "ar" : "رقم الفاتورة",
+    "en" : "Serial No",
+    "type" : "Text"
+  }, {
+    "id" : "success",
+    "column" : "success",
+    "ar" : "ناجح",
+    "en" : "Success",
+    "type" : "Boolean"
+  } ]
+}

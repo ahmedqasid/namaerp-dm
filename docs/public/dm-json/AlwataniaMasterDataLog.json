@@ -1,0 +1,83 @@
+{
+  "entity" : "AlwataniaMasterDataLog",
+  "table" : "AlwataniaMasterDataLog",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AlwataniaMasterDataLog.html",
+  "fields" : [ {
+    "id" : "alwataniaId",
+    "column" : "alwataniaId",
+    "ar" : "المعرف لدى الوطنية",
+    "en" : "Alwatania ID",
+    "type" : "Text"
+  }, {
+    "id" : "code",
+    "column" : "code",
+    "ar" : "الكود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "config",
+    "column" : "config_id",
+    "type" : "Reference",
+    "refTo" : "AlwataniaDistConfig",
+    "refPath" : "/modules/system-tables/AlwataniaDistConfig.html"
+  }, {
+    "id" : "createdOnAlwatania",
+    "column" : "createdOnAlwatania",
+    "ar" : "تم إنشاؤه لدى الوطنية",
+    "en" : "Created On Alwatania",
+    "type" : "Boolean"
+  }, {
+    "id" : "httpStatus",
+    "column" : "httpStatus",
+    "ar" : "حالة استجابة HTTP",
+    "en" : "HTTP Status",
+    "type" : "Integer"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "masterDataType",
+    "column" : "masterDataType",
+    "ar" : "نوع البيانات الأساسية",
+    "en" : "Master Data Type",
+    "type" : "Text"
+  }, {
+    "id" : "recordUpdateDateWhenSent",
+    "column" : "recordUpdateDateWhenSent",
+    "ar" : "تاريخ تعديل السجل عند الإرسال",
+    "en" : "Record Update Date When Sent",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "requestBody",
+    "column" : "requestBody",
+    "ar" : "Request Body",
+    "en" : "Request Body",
+    "type" : "BigText"
+  }, {
+    "id" : "response",
+    "column" : "response",
+    "ar" : "Response",
+    "en" : "Response",
+    "type" : "BigText"
+  }, {
+    "id" : "sendDate",
+    "column" : "sendDate",
+    "ar" : "تاريخ الإرسال",
+    "en" : "Send Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "sentRecord",
+    "columns" : [ "sentRecordActualCode", " sentRecordCode", " sentRecordEntityType", " sentRecordId" ],
+    "ar" : "السجل المرسل",
+    "en" : "Sent Record",
+    "type" : "Genericreference"
+  }, {
+    "id" : "success",
+    "column" : "success",
+    "ar" : "ناجح",
+    "en" : "Success",
+    "type" : "Boolean"
+  } ]
+}

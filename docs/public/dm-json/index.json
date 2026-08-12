@@ -1018,6 +1018,20 @@
     "table" : "AllowedEmployeeStatusesForLoanDocument",
     "module" : "system-tables"
   }, {
+    "name" : "AlwataniaDistConfig",
+    "table" : "AlwataniaDistConfig",
+    "module" : "system-tables",
+    "ar" : "إعدادات ربط موزعي الوطنية",
+    "en" : "Alwatania Distributors Config"
+  }, {
+    "name" : "AlwataniaInvoiceLog",
+    "table" : "AlwataniaInvoiceLog",
+    "module" : "system-tables"
+  }, {
+    "name" : "AlwataniaMasterDataLog",
+    "table" : "AlwataniaMasterDataLog",
+    "module" : "system-tables"
+  }, {
     "name" : "AnalysisSet",
     "table" : "AnalysisSet",
     "module" : "basic",
@@ -18210,6 +18224,11 @@
       "id" : "operations",
       "table" : "SFDARSDOperationLine"
     } ]
+  }, {
+    "name" : "SFDARSDDocStatus",
+    "table" : "SFDARSDDocStatus",
+    "module" : "system-tables",
+    "ar" : "حالة المستند في هيئة تتبع الدواء"
   }, {
     "name" : "SFDARSDReportTask",
     "table" : "SFDARSDReportTask",

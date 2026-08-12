@@ -1,12 +1,12 @@
 {
-  "entity" : "GUITheme",
-  "table" : "GUITheme",
-  "module" : "basic",
-  "ar" : "New GUI Theme",
-  "arPlural" : "New GUI Themes",
-  "en" : "New GUI Theme",
-  "enPlural" : "New GUI Themes",
-  "page" : "https://dm.namasoft.com/modules/basic/GUITheme.html",
+  "entity" : "AlwataniaDistConfig",
+  "table" : "AlwataniaDistConfig",
+  "module" : "system-tables",
+  "ar" : "إعدادات ربط موزعي الوطنية",
+  "arPlural" : "إعدادات ربط موزعي الوطنية",
+  "en" : "Alwatania Distributors Config",
+  "enPlural" : "Alwatania Distributors Configs",
+  "page" : "https://dm.namasoft.com/modules/system-tables/AlwataniaDistConfig.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -19,6 +19,12 @@
     "id" : "analysisSetId",
     "column" : "analysisSet_id",
     "type" : "ID"
+  }, {
+    "id" : "baseUrl",
+    "column" : "baseUrl",
+    "ar" : "الرابط الأساسي للواجهة البرمجية",
+    "en" : "API Base URL",
+    "type" : "Text"
   }, {
     "id" : "branch",
     "column" : "branch_id",
@@ -34,11 +40,17 @@
     "en" : "Branch ID",
     "type" : "ID"
   }, {
-    "id" : "brightColor",
-    "column" : "brightColor",
-    "ar" : "Bright Color",
-    "en" : "Bright Color",
-    "type" : "Color"
+    "id" : "clientId",
+    "column" : "clientId",
+    "ar" : "Client Id (Can Be Ignored)",
+    "en" : "Client Id (Can Be Ignored)",
+    "type" : "Text"
+  }, {
+    "id" : "clientSecret",
+    "column" : "clientSecret",
+    "ar" : "API Key (Client Secret)",
+    "en" : "API Key (Client Secret)",
+    "type" : "Password"
   }, {
     "id" : "code",
     "column" : "code",
@@ -84,79 +96,6 @@
     "column" : "customViewName",
     "type" : "Text"
   }, {
-    "id" : "darkColor",
-    "column" : "darkColor",
-    "ar" : "Dark Color",
-    "en" : "Dark Color",
-    "type" : "Color"
-  }, {
-    "id" : "darkColorTheme.fontColor",
-    "column" : "darkColorThemeFontColor",
-    "ar" : "لون الخط",
-    "en" : "Font Color",
-    "type" : "Color"
-  }, {
-    "id" : "darkColorTheme.fontHeaderColor",
-    "column" : "darkColorThemeFontHeaderColor",
-    "ar" : "Font Header Color",
-    "en" : "Font Header Color",
-    "type" : "Color"
-  }, {
-    "id" : "darkColorTheme.fontLabelColor",
-    "column" : "darkColorThemeFontLabelColor",
-    "ar" : "Font Label Color",
-    "en" : "Font Label Color",
-    "type" : "Color"
-  }, {
-    "id" : "darkColorTheme.fontMenuColor",
-    "column" : "darkColorThemeFontMenuColor",
-    "ar" : "Font Menu Color",
-    "en" : "Font Menu Color",
-    "type" : "Color"
-  }, {
-    "id" : "darkColorTheme.iconsColor",
-    "column" : "darkColorThemeIconsColor",
-    "ar" : "لون الأيقونات",
-    "en" : "Icons Color",
-    "type" : "Color"
-  }, {
-    "id" : "darkColorTheme.primaryBackgroundColor",
-    "column" : "drkClrThmPrmryBckgroundColor",
-    "ar" : "Primary Background Color",
-    "en" : "Primary Background Color",
-    "type" : "Color"
-  }, {
-    "id" : "darkColorTheme.primaryColor",
-    "column" : "darkColorThemePrimaryColor",
-    "ar" : "Primary Color",
-    "en" : "Primary Color",
-    "type" : "Color"
-  }, {
-    "id" : "darkColorTheme.secondaryBackgroundColor",
-    "column" : "drkClrThmScndryBckgrundColor",
-    "ar" : "Secondary Background Color",
-    "en" : "SecondaryBackground Color",
-    "type" : "Color"
-  }, {
-    "id" : "darkColorTheme.thirdBackgroundColor",
-    "column" : "drkClrThmThrdBackgroundColor",
-    "ar" : "Third Background Color",
-    "en" : "Third Background Color",
-    "type" : "Color"
-  }, {
-    "id" : "darkColorTheme.warningColor",
-    "column" : "darkColorThemeWarningColor",
-    "ar" : "Warning Color",
-    "en" : "Warning Color",
-    "type" : "Color"
-  }, {
-    "id" : "darkMode",
-    "column" : "darkMode",
-    "ar" : "Dark Mode",
-    "en" : "Dark Mode",
-    "type" : "Enum",
-    "enum" : "YesNoDefault"
-  }, {
     "id" : "date1",
     "column" : "date1",
     "ar" : "تـــاريخ 1",
@@ -186,19 +125,6 @@
     "ar" : "تاريخ 5",
     "en" : "Date5",
     "type" : "Date"
-  }, {
-    "id" : "defaultTheme",
-    "column" : "defaultTheme",
-    "ar" : "الواجهة الإفتراضية",
-    "en" : "Default Theme",
-    "type" : "Boolean"
-  }, {
-    "id" : "densityMode",
-    "column" : "densityMode",
-    "ar" : "وضع المسافات",
-    "en" : "Density Mode",
-    "type" : "Enum",
-    "enum" : "DensityMode"
   }, {
     "id" : "department",
     "column" : "department_id",
@@ -241,12 +167,6 @@
     "ar" : "الوصف 5",
     "en" : "description5",
     "type" : "Text"
-  }, {
-    "id" : "dimColor",
-    "column" : "dimColor",
-    "ar" : "Dim Color",
-    "en" : "Dim Color",
-    "type" : "Color"
   }, {
     "id" : "docCategory",
     "column" : "docCategory_id",
@@ -291,12 +211,6 @@
     "en" : "Entity Type",
     "type" : "EntityType"
   }, {
-    "id" : "extraCSS",
-    "column" : "extraCSS",
-    "ar" : "Extra CSS",
-    "en" : "Extra CSS",
-    "type" : "BigText"
-  }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
     "ar" : "منشئ السجل",
@@ -308,13 +222,6 @@
     "id" : "firstAuthorId",
     "column" : "firstAuthor_id",
     "type" : "ID"
-  }, {
-    "id" : "fontSize",
-    "column" : "fontSize",
-    "ar" : "حجم الخط",
-    "en" : "Font Size",
-    "type" : "Enum",
-    "enum" : "FontSize"
   }, {
     "id" : "generatedByLine",
     "column" : "generatedByLine",
@@ -347,31 +254,18 @@
     "refTo" : "MasterGroup",
     "refPath" : "/modules/basic/MasterGroup.html"
   }, {
-    "id" : "headerForeColor",
-    "column" : "headerForeColor",
-    "ar" : "Header Fore Color",
-    "en" : "Header Fore Color",
-    "type" : "Color"
-  }, {
-    "id" : "horizontalMode",
-    "column" : "horizontalMode",
-    "ar" : "Horizontal Mode",
-    "en" : "Horizontal Mode",
-    "type" : "Enum",
-    "enum" : "YesNoDefault"
-  }, {
     "id" : "id",
     "column" : "id",
     "type" : "ID"
   }, {
-    "id" : "inActive",
-    "column" : "inActive",
-    "ar" : "غير نشط",
-    "en" : "Inactive",
-    "type" : "Boolean"
-  }, {
     "id" : "indexInParent",
     "column" : "indexInParent",
+    "type" : "Integer"
+  }, {
+    "id" : "invoicesBatchSize",
+    "column" : "invoicesBatchSize",
+    "ar" : "عدد الفواتير في كل دفعة",
+    "en" : "Invoices Batch Size",
     "type" : "Integer"
   }, {
     "id" : "lastChangeVersion",
@@ -400,72 +294,6 @@
     "column" : "legalEntity_id",
     "type" : "ID"
   }, {
-    "id" : "lightColor",
-    "column" : "lightColor",
-    "ar" : "Light Color",
-    "en" : "Light Color",
-    "type" : "Color"
-  }, {
-    "id" : "lightColorTheme.fontColor",
-    "column" : "lightColorThemeFontColor",
-    "ar" : "لون الخط",
-    "en" : "Font Color",
-    "type" : "Color"
-  }, {
-    "id" : "lightColorTheme.fontHeaderColor",
-    "column" : "lghtClorThemeFontHeaderColor",
-    "ar" : "Font Header Color",
-    "en" : "Font Header Color",
-    "type" : "Color"
-  }, {
-    "id" : "lightColorTheme.fontLabelColor",
-    "column" : "lightColorThemeFontLabelColor",
-    "ar" : "Font Label Color",
-    "en" : "Font Label Color",
-    "type" : "Color"
-  }, {
-    "id" : "lightColorTheme.fontMenuColor",
-    "column" : "lightColorThemeFontMenuColor",
-    "ar" : "Font Menu Color",
-    "en" : "Font Menu Color",
-    "type" : "Color"
-  }, {
-    "id" : "lightColorTheme.iconsColor",
-    "column" : "lightColorThemeIconsColor",
-    "ar" : "لون الأيقونات",
-    "en" : "Icons Color",
-    "type" : "Color"
-  }, {
-    "id" : "lightColorTheme.primaryBackgroundColor",
-    "column" : "lghtClrThmPrmryBckgrundColor",
-    "ar" : "Primary Background Color",
-    "en" : "Primary Background Color",
-    "type" : "Color"
-  }, {
-    "id" : "lightColorTheme.primaryColor",
-    "column" : "lightColorThemePrimaryColor",
-    "ar" : "Primary Color",
-    "en" : "Primary Color",
-    "type" : "Color"
-  }, {
-    "id" : "lightColorTheme.secondaryBackgroundColor",
-    "column" : "lghtClrThmScndryBckgrundClor",
-    "ar" : "Secondary Background Color",
-    "en" : "SecondaryBackground Color",
-    "type" : "Color"
-  }, {
-    "id" : "lightColorTheme.thirdBackgroundColor",
-    "column" : "lghtClrThmThrdBckgroundColor",
-    "ar" : "Third Background Color",
-    "en" : "Third Background Color",
-    "type" : "Color"
-  }, {
-    "id" : "lightColorTheme.warningColor",
-    "column" : "lightColorThemeWarningColor",
-    "ar" : "Warning Color",
-    "en" : "Warning Color",
-    "type" : "Color"
-  }, {
     "id" : "lockVersion",
     "column" : "lockVersion",
     "type" : "Integer"
@@ -476,17 +304,11 @@
     "refTo" : "LargeData",
     "refPath" : "/modules/system-tables/LargeData.html"
   }, {
-    "id" : "menuBackColor",
-    "column" : "menuBackColor",
-    "ar" : "Menu Back Color",
-    "en" : "Menu Back Color",
-    "type" : "Color"
-  }, {
-    "id" : "menuForeColor",
-    "column" : "menuForeColor",
-    "ar" : "Menu Fore Color",
-    "en" : "Menu Fore Color",
-    "type" : "Color"
+    "id" : "masterDataBatchSize",
+    "column" : "masterDataBatchSize",
+    "ar" : "عدد سجلات البيانات الأساسية في كل دفعة",
+    "en" : "Master Data Batch Size",
+    "type" : "Integer"
   }, {
     "id" : "n1",
     "column" : "n1",
@@ -530,14 +352,6 @@
     "en" : "Name2",
     "type" : "Text"
   }, {
-    "id" : "onlyForUser",
-    "column" : "onlyForUser_id",
-    "ar" : "ظاهر فقط للمستخدم",
-    "en" : "Only For User",
-    "type" : "Reference",
-    "refTo" : "NaMaUser",
-    "refPath" : "/modules/system-tables/NaMaUser.html"
-  }, {
     "id" : "parentCode",
     "column" : "parentCode",
     "type" : "Text"
@@ -548,24 +362,11 @@
     "en" : "Prevent Usage",
     "type" : "Boolean"
   }, {
-    "id" : "primaryColor",
-    "column" : "primaryColor",
-    "ar" : "Primary Color",
-    "en" : "Primary Color",
-    "type" : "Color"
-  }, {
     "id" : "printCount",
     "column" : "printCount",
     "ar" : "عدد مرات الطباعة",
     "en" : "Print Count",
     "type" : "Integer"
-  }, {
-    "id" : "quadLayout",
-    "column" : "quadLayout",
-    "ar" : "Quad Layout",
-    "en" : "Quad Layout",
-    "type" : "Enum",
-    "enum" : "YesNoDefault"
   }, {
     "id" : "ref1",
     "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
@@ -622,11 +423,11 @@
     "refTo" : "NaMaUser",
     "refPath" : "/modules/system-tables/NaMaUser.html"
   }, {
-    "id" : "secondaryColor",
-    "column" : "secondaryColor",
-    "ar" : "Secondary Color",
-    "en" : "Secondary Color",
-    "type" : "Color"
+    "id" : "scope",
+    "column" : "scope",
+    "ar" : "النطاق",
+    "en" : "Scope",
+    "type" : "Text"
   }, {
     "id" : "sector",
     "column" : "sector_id",
@@ -640,17 +441,16 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
-    "id" : "showToolbarLabels",
-    "column" : "showToolbarLabels",
-    "ar" : "عرض عناوين شريط الأدوات",
-    "en" : "Show Toolbar Labels",
-    "type" : "Enum",
-    "enum" : "YesNoDefault"
-  }, {
     "id" : "systemGeneratedCodePrefix",
     "column" : "systemGeneratedCodePrefix",
     "ar" : "System Generated Code Prefix",
     "en" : "System Generated Code Prefix",
+    "type" : "Text"
+  }, {
+    "id" : "tokenUrl",
+    "column" : "tokenUrl",
+    "ar" : "رابط الحصول على التوكن",
+    "en" : "Token URL",
     "type" : "Text"
   }, {
     "id" : "updateCapability",
@@ -688,11 +488,5 @@
     "id" : "viewCapabilityId",
     "column" : "viewCapability_id",
     "type" : "ID"
-  }, {
-    "id" : "warningColor",
-    "column" : "warningColor",
-    "ar" : "Warning Color",
-    "en" : "Warning Color",
-    "type" : "Color"
   } ]
 }

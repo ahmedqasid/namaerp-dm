@@ -1,0 +1,123 @@
+{
+  "entity" : "SFDARSDDocStatus",
+  "table" : "SFDARSDDocStatus",
+  "module" : "system-tables",
+  "ar" : "حالة المستند في هيئة تتبع الدواء",
+  "arPlural" : "حالات المستندات في هيئة تتبع الدواء",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SFDARSDDocStatus.html",
+  "fields" : [ {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "executionDate",
+    "column" : "executionDate",
+    "ar" : "تاريخ التنفيذ",
+    "en" : "Execution Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "failedLinesCount",
+    "column" : "failedLinesCount",
+    "type" : "Integer"
+  }, {
+    "id" : "failedReportsCount",
+    "column" : "failedReportsCount",
+    "ar" : "عدد مرات الإرسال غير الناجحة",
+    "type" : "Integer"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "isCancel",
+    "column" : "isCancel",
+    "ar" : "إلغاء",
+    "type" : "Boolean"
+  }, {
+    "id" : "linesCount",
+    "column" : "linesCount",
+    "ar" : "عدد السطور",
+    "en" : "Lines Count",
+    "type" : "Integer"
+  }, {
+    "id" : "notificationId",
+    "column" : "notificationId",
+    "ar" : "Notification ID",
+    "en" : "Notification ID",
+    "type" : "Text"
+  }, {
+    "id" : "operation",
+    "column" : "operation",
+    "ar" : "عملية",
+    "en" : "Operation",
+    "type" : "Enum",
+    "enum" : "SFDARSDOperation"
+  }, {
+    "id" : "origin",
+    "columns" : [ "originActualCode", " originCode", " originEntityType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "partnerGLN",
+    "column" : "partnerGLN",
+    "ar" : "رقم GLN للطرف الآخر",
+    "type" : "Text"
+  }, {
+    "id" : "reportsCount",
+    "column" : "reportsCount",
+    "ar" : "عدد مرات الإرسال",
+    "type" : "Integer"
+  }, {
+    "id" : "requester",
+    "columns" : [ "requesterActualCode", " requesterCode", " requesterEntityType", " requesterId" ],
+    "ar" : "محرر الطلب",
+    "en" : "Requester",
+    "type" : "Genericreference"
+  }, {
+    "id" : "rsdConfig",
+    "column" : "rsdConfig_id",
+    "ar" : "إعدادات تتبع الأدوية",
+    "type" : "Reference",
+    "refTo" : "SFDARSDConfig",
+    "refPath" : "/modules/supplychain-ksa-rsd/SFDARSDConfig.html"
+  }, {
+    "id" : "stakeholderWarehouse",
+    "column" : "stakeholderWarehouse_id",
+    "ar" : "مخزن الجهة المُبلِّغة",
+    "type" : "Reference",
+    "refTo" : "Warehouse",
+    "refPath" : "/modules/supplychain/Warehouse.html"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
+    "id" : "submitionDate",
+    "column" : "submitionDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Submition Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "successLinesCount",
+    "column" : "successLinesCount",
+    "type" : "Integer"
+  }, {
+    "id" : "trials",
+    "column" : "trials",
+    "ar" : "عدد محاولات",
+    "en" : "Trials",
+    "type" : "Integer"
+  } ]
+}

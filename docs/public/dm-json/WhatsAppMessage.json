@@ -564,7 +564,7 @@
     }, {
       "id" : "extraData.sendAs",
       "column" : "sendAs",
-      "ar" : "Send As",
+      "ar" : "يرسل ك",
       "en" : "Send As",
       "type" : "Enum",
       "enum" : "ExtraDataSendType"

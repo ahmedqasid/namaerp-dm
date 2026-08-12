@@ -20,6 +20,8 @@
   }, {
     "id" : "sendDate",
     "column" : "sendDate",
+    "ar" : "تاريخ الإرسال",
+    "en" : "Send Date",
     "type" : "DateAndTime"
   } ]
 }
