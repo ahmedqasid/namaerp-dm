@@ -1382,6 +1382,8 @@
     }, {
       "id" : "details.transferred",
       "column" : "transferred",
+      "ar" : "تم النقل",
+      "en" : "Transferred",
       "type" : "Decimal"
     }, {
       "id" : "details.unitCost",

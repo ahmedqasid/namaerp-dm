@@ -1,17 +1,13 @@
 {
-  "entity" : "EntityTypeList",
-  "table" : "EntityTypeList",
-  "module" : "basic",
-  "ar" : "قائمة أنواع",
-  "arPlural" : "قوائم أنواع",
-  "en" : "EntityType List",
-  "enPlural" : "EntityType Lists",
-  "page" : "https://dm.namasoft.com/modules/basic/EntityTypeList.html",
+  "entity" : "TechnicianProcedure",
+  "table" : "TechnicianProcedure",
+  "module" : "system-tables",
+  "ar" : "إجراء فني",
+  "arPlural" : "إجراءات فنية",
+  "en" : "Technician Procedure",
+  "enPlural" : "Technician Procedures",
+  "page" : "https://dm.namasoft.com/modules/system-tables/TechnicianProcedure.html",
   "fields" : [ {
-    "id" : "allLists",
-    "column" : "allLists",
-    "type" : "BigText"
-  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",
@@ -55,20 +51,6 @@
     "ar" : "تم الحفظ مسبقا",
     "en" : "Commited Before",
     "type" : "Boolean"
-  }, {
-    "id" : "copyEntitiesFromGroup",
-    "column" : "copyEntitiesFromGroup",
-    "ar" : "نسخ من مجموعة",
-    "en" : "copy Entities From Group",
-    "type" : "Text"
-  }, {
-    "id" : "copyEntitiesFromMenu",
-    "column" : "copyEntitiesFromMenu_id",
-    "ar" : "نسخ الأنواع من قائمة",
-    "en" : "copy Entities From Menu",
-    "type" : "Reference",
-    "refTo" : "MenuDefinition",
-    "refPath" : "/modules/basic/MenuDefinition.html"
   }, {
     "id" : "createTransactionId",
     "column" : "createTransactionId",
@@ -423,15 +405,17 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
+    "id" : "standardDuration",
+    "column" : "standardDuration",
+    "ar" : "المدة الإفتراضية (دقيقة)",
+    "en" : "Standard Duration (Minute)",
+    "type" : "Decimal"
+  }, {
     "id" : "systemGeneratedCodePrefix",
     "column" : "systemGeneratedCodePrefix",
     "ar" : "System Generated Code Prefix",
     "en" : "System Generated Code Prefix",
     "type" : "Text"
-  }, {
-    "id" : "typeIDs",
-    "column" : "typeIDs",
-    "type" : "BigText"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
@@ -457,12 +441,6 @@
     "column" : "usageCapability_id",
     "type" : "ID"
   }, {
-    "id" : "useAsModule",
-    "column" : "useAsModule",
-    "ar" : "تستعمل كموديول",
-    "en" : "useAsModule",
-    "type" : "Boolean"
-  }, {
     "id" : "viewCapability",
     "column" : "viewCapability_id",
     "ar" : "صلاحية المطالعة",
@@ -474,5 +452,64 @@
     "id" : "viewCapabilityId",
     "column" : "viewCapability_id",
     "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "departmentSections",
+    "table" : "TechnicianProcedureDepartmentSectionLine",
+    "joinColumn" : "technicianProcedure_id",
+    "ar" : " الأقسام الوظيفية",
+    "en" : " Department Sections",
+    "fields" : [ {
+      "id" : "departmentSections.departmentSection",
+      "column" : "departmentSection_id",
+      "ar" : "القسم الوظيفي",
+      "en" : "Department Section",
+      "type" : "Reference",
+      "refTo" : "DepartmentSection",
+      "refPath" : "/modules/basic/DepartmentSection.html"
+    }, {
+      "id" : "departmentSections.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "departmentSections.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "departmentSections.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    } ]
+  }, {
+    "id" : "technicianServices",
+    "table" : "TechnicianProcedureServiceLine",
+    "joinColumn" : "technicianProcedure_id",
+    "ar" : " خدمات فنية",
+    "en" : " Technician Services",
+    "fields" : [ {
+      "id" : "technicianServices.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "technicianServices.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "technicianServices.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "technicianServices.technicianService",
+      "column" : "technicianService_id",
+      "ar" : " خدمة فنية",
+      "en" : " Technician Service",
+      "type" : "Reference",
+      "refTo" : "TechnicianService",
+      "refPath" : "/modules/system-tables/TechnicianService.html"
+    } ]
   } ]
 }

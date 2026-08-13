@@ -65,6 +65,13 @@
     "en" : "Background Image X Position",
     "type" : "Integer"
   }, {
+    "id" : "borderLinePreset",
+    "column" : "borderLinePreset",
+    "ar" : "Border Line Preset",
+    "en" : "Border Line Preset",
+    "type" : "Enum",
+    "enum" : "BorderLinePreset"
+  }, {
     "id" : "branch",
     "column" : "branch_id",
     "ar" : "الفرع",
@@ -3294,6 +3301,12 @@
       "en" : "Hidden",
       "type" : "Boolean"
     }, {
+      "id" : "fields.horizontalBorders",
+      "column" : "horizontalBorders",
+      "ar" : "خطوط أفقية",
+      "en" : "Horizontal Borders",
+      "type" : "Boolean"
+    }, {
       "id" : "fields.id",
       "column" : "id",
       "type" : "ID"
@@ -3472,6 +3485,12 @@
       "ar" : "User Alias",
       "en" : "User Alias",
       "type" : "Text"
+    }, {
+      "id" : "fields.verticalBorders",
+      "column" : "verticalBorders",
+      "ar" : "خطوط رأسية",
+      "en" : "Vertical Borders",
+      "type" : "Boolean"
     }, {
       "id" : "fields.widthSize",
       "column" : "widthSize",

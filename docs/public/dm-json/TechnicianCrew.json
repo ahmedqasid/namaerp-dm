@@ -1,17 +1,13 @@
 {
-  "entity" : "EntityTypeList",
-  "table" : "EntityTypeList",
-  "module" : "basic",
-  "ar" : "قائمة أنواع",
-  "arPlural" : "قوائم أنواع",
-  "en" : "EntityType List",
-  "enPlural" : "EntityType Lists",
-  "page" : "https://dm.namasoft.com/modules/basic/EntityTypeList.html",
+  "entity" : "TechnicianCrew",
+  "table" : "TechnicianCrew",
+  "module" : "system-tables",
+  "ar" : "فريق فنيين",
+  "arPlural" : "فرق فنيين",
+  "en" : "Technician Crew",
+  "enPlural" : "Technician Crews",
+  "page" : "https://dm.namasoft.com/modules/system-tables/TechnicianCrew.html",
   "fields" : [ {
-    "id" : "allLists",
-    "column" : "allLists",
-    "type" : "BigText"
-  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",
@@ -56,20 +52,6 @@
     "en" : "Commited Before",
     "type" : "Boolean"
   }, {
-    "id" : "copyEntitiesFromGroup",
-    "column" : "copyEntitiesFromGroup",
-    "ar" : "نسخ من مجموعة",
-    "en" : "copy Entities From Group",
-    "type" : "Text"
-  }, {
-    "id" : "copyEntitiesFromMenu",
-    "column" : "copyEntitiesFromMenu_id",
-    "ar" : "نسخ الأنواع من قائمة",
-    "en" : "copy Entities From Menu",
-    "type" : "Reference",
-    "refTo" : "MenuDefinition",
-    "refPath" : "/modules/basic/MenuDefinition.html"
-  }, {
     "id" : "createTransactionId",
     "column" : "createTransactionId",
     "type" : "Text"
@@ -79,6 +61,14 @@
     "ar" : "تاريخ الإنشاء",
     "en" : "Creation Date",
     "type" : "DateAndTime"
+  }, {
+    "id" : "crewSupervisor",
+    "column" : "crewSupervisor_id",
+    "ar" : "مشرف الفريق",
+    "en" : "Crew Supervisor",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
   }, {
     "id" : "currentApprovalCase",
     "column" : "currentApprovalCase_id",
@@ -137,6 +127,14 @@
     "id" : "departmentId",
     "column" : "department_id",
     "type" : "ID"
+  }, {
+    "id" : "departmentSection",
+    "column" : "departmentSection_id",
+    "ar" : "القسم الوظيفي",
+    "en" : "Department Section",
+    "type" : "Reference",
+    "refTo" : "DepartmentSection",
+    "refPath" : "/modules/basic/DepartmentSection.html"
   }, {
     "id" : "description1",
     "column" : "description1",
@@ -429,10 +427,6 @@
     "en" : "System Generated Code Prefix",
     "type" : "Text"
   }, {
-    "id" : "typeIDs",
-    "column" : "typeIDs",
-    "type" : "BigText"
-  }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
     "ar" : "صلاحية التعديل",
@@ -457,12 +451,6 @@
     "column" : "usageCapability_id",
     "type" : "ID"
   }, {
-    "id" : "useAsModule",
-    "column" : "useAsModule",
-    "ar" : "تستعمل كموديول",
-    "en" : "useAsModule",
-    "type" : "Boolean"
-  }, {
     "id" : "viewCapability",
     "column" : "viewCapability_id",
     "ar" : "صلاحية المطالعة",
@@ -474,5 +462,64 @@
     "id" : "viewCapabilityId",
     "column" : "viewCapability_id",
     "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "procedures",
+    "table" : "TechnicianCrewProcedureLine",
+    "joinColumn" : "technicianCrew_id",
+    "ar" : "الاجراءات",
+    "en" : "Procedures",
+    "fields" : [ {
+      "id" : "procedures.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "procedures.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "procedures.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "procedures.technicianProcedure",
+      "column" : "technicianProcedure_id",
+      "ar" : " إجراء فني",
+      "en" : " Technician Procedure",
+      "type" : "Reference",
+      "refTo" : "TechnicianProcedure",
+      "refPath" : "/modules/system-tables/TechnicianProcedure.html"
+    } ]
+  }, {
+    "id" : "technicians",
+    "table" : "TechnicianCrewLine",
+    "joinColumn" : "technicianCrew_id",
+    "ar" : "الفنين",
+    "en" : "Technicians",
+    "fields" : [ {
+      "id" : "technicians.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "technicians.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "technicians.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "technicians.technician",
+      "column" : "technician_id",
+      "ar" : "الفني",
+      "en" : "Technician",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    } ]
   } ]
 }

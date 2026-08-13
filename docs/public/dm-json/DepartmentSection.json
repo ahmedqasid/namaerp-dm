@@ -477,11 +477,25 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
+    "id" : "showInAppointmentsScreen",
+    "column" : "showInAppointmentsScreen",
+    "ar" : "يظهر في شاشة المواعيد",
+    "en" : "Show In Appointments Screen",
+    "type" : "Boolean"
+  }, {
     "id" : "systemGeneratedCodePrefix",
     "column" : "systemGeneratedCodePrefix",
     "ar" : "System Generated Code Prefix",
     "en" : "System Generated Code Prefix",
     "type" : "Text"
+  }, {
+    "id" : "technicianBookingSetting",
+    "column" : "technicianBookingSetting_id",
+    "ar" : " إعدادات حجز المواعيد",
+    "en" : " Appointment Booking Settings",
+    "type" : "Reference",
+    "refTo" : "TechnicianBookingSettings",
+    "refPath" : "/modules/system-tables/TechnicianBookingSettings.html"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",

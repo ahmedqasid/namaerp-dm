@@ -1,17 +1,13 @@
 {
-  "entity" : "EntityTypeList",
-  "table" : "EntityTypeList",
-  "module" : "basic",
-  "ar" : "قائمة أنواع",
-  "arPlural" : "قوائم أنواع",
-  "en" : "EntityType List",
-  "enPlural" : "EntityType Lists",
-  "page" : "https://dm.namasoft.com/modules/basic/EntityTypeList.html",
+  "entity" : "TechnicianTransfer",
+  "table" : "TechnicianTransfer",
+  "module" : "system-tables",
+  "ar" : "سند نقل فني",
+  "arPlural" : "سندات نقل فني",
+  "en" : "Technician Transfer",
+  "enPlural" : "Technician Transfers",
+  "page" : "https://dm.namasoft.com/modules/system-tables/TechnicianTransfer.html",
   "fields" : [ {
-    "id" : "allLists",
-    "column" : "allLists",
-    "type" : "BigText"
-  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",
@@ -23,6 +19,14 @@
     "id" : "analysisSetId",
     "column" : "analysisSet_id",
     "type" : "ID"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
   }, {
     "id" : "branch",
     "column" : "branch_id",
@@ -37,6 +41,14 @@
     "ar" : "Branch ID",
     "en" : "Branch ID",
     "type" : "ID"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
   }, {
     "id" : "code",
     "column" : "code",
@@ -55,20 +67,6 @@
     "ar" : "تم الحفظ مسبقا",
     "en" : "Commited Before",
     "type" : "Boolean"
-  }, {
-    "id" : "copyEntitiesFromGroup",
-    "column" : "copyEntitiesFromGroup",
-    "ar" : "نسخ من مجموعة",
-    "en" : "copy Entities From Group",
-    "type" : "Text"
-  }, {
-    "id" : "copyEntitiesFromMenu",
-    "column" : "copyEntitiesFromMenu_id",
-    "ar" : "نسخ الأنواع من قائمة",
-    "en" : "copy Entities From Menu",
-    "type" : "Reference",
-    "refTo" : "MenuDefinition",
-    "refPath" : "/modules/basic/MenuDefinition.html"
   }, {
     "id" : "createTransactionId",
     "column" : "createTransactionId",
@@ -168,6 +166,10 @@
     "en" : "description5",
     "type" : "Text"
   }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
     "id" : "docCategory",
     "column" : "docCategory_id",
     "ar" : " تصنيف سجل",
@@ -223,6 +225,34 @@
     "column" : "firstAuthor_id",
     "type" : "ID"
   }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
     "id" : "generatedByLine",
     "column" : "generatedByLine",
     "ar" : "كود سطر الإنشاء",
@@ -246,14 +276,6 @@
     "type" : "Enum",
     "enum" : "GenerationType"
   }, {
-    "id" : "group",
-    "column" : "group_id",
-    "ar" : "المجموعة",
-    "en" : "Group",
-    "type" : "Reference",
-    "refTo" : "MasterGroup",
-    "refPath" : "/modules/basic/MasterGroup.html"
-  }, {
     "id" : "id",
     "column" : "id",
     "type" : "ID"
@@ -261,6 +283,12 @@
     "id" : "indexInParent",
     "column" : "indexInParent",
     "type" : "Integer"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -292,11 +320,11 @@
     "column" : "lockVersion",
     "type" : "Integer"
   }, {
-    "id" : "mainFile",
-    "column" : "mainFile_id",
-    "type" : "Binary",
-    "refTo" : "LargeData",
-    "refPath" : "/modules/system-tables/LargeData.html"
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
   }, {
     "id" : "n1",
     "column" : "n1",
@@ -328,17 +356,13 @@
     "en" : "Number 5",
     "type" : "Decimal"
   }, {
-    "id" : "name1",
-    "column" : "name1",
-    "ar" : "الاسم العربي",
-    "en" : "Name1",
-    "type" : "Text"
-  }, {
-    "id" : "name2",
-    "column" : "name2",
-    "ar" : "الاسم الإنجليزي",
-    "en" : "Name2",
-    "type" : "Text"
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
   }, {
     "id" : "parentCode",
     "column" : "parentCode",
@@ -350,11 +374,29 @@
     "en" : "Prevent Usage",
     "type" : "Boolean"
   }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
     "id" : "printCount",
     "column" : "printCount",
     "ar" : "عدد مرات الطباعة",
     "en" : "Print Count",
     "type" : "Integer"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
   }, {
     "id" : "ref1",
     "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
@@ -411,6 +453,14 @@
     "refTo" : "NaMaUser",
     "refPath" : "/modules/system-tables/NaMaUser.html"
   }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
     "id" : "sector",
     "column" : "sector_id",
     "ar" : "القطاع",
@@ -423,14 +473,16 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
-    "id" : "systemGeneratedCodePrefix",
-    "column" : "systemGeneratedCodePrefix",
-    "ar" : "System Generated Code Prefix",
-    "en" : "System Generated Code Prefix",
-    "type" : "Text"
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
   }, {
-    "id" : "typeIDs",
-    "column" : "typeIDs",
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
     "type" : "BigText"
   }, {
     "id" : "updateCapability",
@@ -457,11 +509,11 @@
     "column" : "usageCapability_id",
     "type" : "ID"
   }, {
-    "id" : "useAsModule",
-    "column" : "useAsModule",
-    "ar" : "تستعمل كموديول",
-    "en" : "useAsModule",
-    "type" : "Boolean"
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
   }, {
     "id" : "viewCapability",
     "column" : "viewCapability_id",
@@ -474,5 +526,51 @@
     "id" : "viewCapabilityId",
     "column" : "viewCapability_id",
     "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "details",
+    "table" : "TechnicianTransferLine",
+    "joinColumn" : "technicianTransfer_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
+    "fields" : [ {
+      "id" : "details.fromTechnicianCrew",
+      "column" : "fromTechnicianCrew_id",
+      "ar" : "من الفريق",
+      "en" : "From Crew",
+      "type" : "Reference",
+      "refTo" : "TechnicianCrew",
+      "refPath" : "/modules/system-tables/TechnicianCrew.html"
+    }, {
+      "id" : "details.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "details.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "details.technician",
+      "column" : "technician_id",
+      "ar" : "الفني",
+      "en" : "Technician",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    }, {
+      "id" : "details.toTechnicianCrew",
+      "column" : "toTechnicianCrew_id",
+      "ar" : "إلى الفريق",
+      "en" : "To Crew",
+      "type" : "Reference",
+      "refTo" : "TechnicianCrew",
+      "refPath" : "/modules/system-tables/TechnicianCrew.html"
+    }, {
+      "id" : "details.transferred",
+      "column" : "transferred",
+      "ar" : "تم النقل",
+      "en" : "Transferred",
+      "type" : "Boolean"
+    } ]
   } ]
 }

@@ -1967,6 +1967,13 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [TaxPayerConfiguration](https://dm.namasoft.com/dm-json/TaxPayerConfiguration.json): Electronic Tax Authority Configuration / إعدادات مصلحة الضرائب
 - [TaxPayerLastSubmissionInfo](https://dm.namasoft.com/dm-json/TaxPayerLastSubmissionInfo.json)
 - [TaxPlan](https://dm.namasoft.com/dm-json/TaxPlan.json): Tax Plan / سياسة الضريبة
+- [TechnicianAppointment](https://dm.namasoft.com/dm-json/TechnicianAppointment.json): Technician Appointment / موعد فني
+- [TechnicianBookingSettings](https://dm.namasoft.com/dm-json/TechnicianBookingSettings.json): Appointment Booking Settings / إعدادات حجز المواعيد
+- [TechnicianCrew](https://dm.namasoft.com/dm-json/TechnicianCrew.json): Technician Crew / فريق فنيين
+- [TechnicianProcedure](https://dm.namasoft.com/dm-json/TechnicianProcedure.json): Technician Procedure / إجراء فني
+- [TechnicianService](https://dm.namasoft.com/dm-json/TechnicianService.json): Technician Service / خدمة فنية
+- [TechnicianServiceDistribution](https://dm.namasoft.com/dm-json/TechnicianServiceDistribution.json): Technician Service Distribution / سند توزيع الخدمات
+- [TechnicianTransfer](https://dm.namasoft.com/dm-json/TechnicianTransfer.json): Technician Transfer / سند نقل فني
 - [Tender](https://dm.namasoft.com/dm-json/Tender.json): مناقصة
 - [TenderCondition](https://dm.namasoft.com/dm-json/TenderCondition.json): Tender Conditions / شرط مناقصة
 - [TenderInvoiceLine](https://dm.namasoft.com/dm-json/TenderInvoiceLine.json)

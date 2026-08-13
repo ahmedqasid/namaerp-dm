@@ -1,0 +1,16 @@
+{
+  "enum" : "BorderLinePreset",
+  "values" : [ {
+    "id" : "None",
+    "ar" : "بدون",
+    "en" : "None"
+  }, {
+    "id" : "Outline",
+    "ar" : "خطوط خارجية فقط",
+    "en" : "Outline Border only"
+  }, {
+    "id" : "Inside",
+    "ar" : "بالداخل",
+    "en" : "Inside"
+  } ]
+}

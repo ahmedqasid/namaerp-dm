@@ -1,17 +1,13 @@
 {
-  "entity" : "EntityTypeList",
-  "table" : "EntityTypeList",
-  "module" : "basic",
-  "ar" : "قائمة أنواع",
-  "arPlural" : "قوائم أنواع",
-  "en" : "EntityType List",
-  "enPlural" : "EntityType Lists",
-  "page" : "https://dm.namasoft.com/modules/basic/EntityTypeList.html",
+  "entity" : "TechnicianService",
+  "table" : "TechnicianService",
+  "module" : "system-tables",
+  "ar" : "خدمة فنية",
+  "arPlural" : "خدمات فنية",
+  "en" : "Technician Service",
+  "enPlural" : "Technician Services",
+  "page" : "https://dm.namasoft.com/modules/system-tables/TechnicianService.html",
   "fields" : [ {
-    "id" : "allLists",
-    "column" : "allLists",
-    "type" : "BigText"
-  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",
@@ -55,20 +51,6 @@
     "ar" : "تم الحفظ مسبقا",
     "en" : "Commited Before",
     "type" : "Boolean"
-  }, {
-    "id" : "copyEntitiesFromGroup",
-    "column" : "copyEntitiesFromGroup",
-    "ar" : "نسخ من مجموعة",
-    "en" : "copy Entities From Group",
-    "type" : "Text"
-  }, {
-    "id" : "copyEntitiesFromMenu",
-    "column" : "copyEntitiesFromMenu_id",
-    "ar" : "نسخ الأنواع من قائمة",
-    "en" : "copy Entities From Menu",
-    "type" : "Reference",
-    "refTo" : "MenuDefinition",
-    "refPath" : "/modules/basic/MenuDefinition.html"
   }, {
     "id" : "createTransactionId",
     "column" : "createTransactionId",
@@ -192,6 +174,12 @@
     "id" : "draftXML",
     "column" : "draftXML",
     "type" : "BigText"
+  }, {
+    "id" : "durationInMinutes",
+    "column" : "durationInMinutes",
+    "ar" : "المدة (دقيقة)",
+    "en" : "Duration (Minute)",
+    "type" : "Decimal"
   }, {
     "id" : "editedBy",
     "column" : "editedBy_id",
@@ -429,10 +417,6 @@
     "en" : "System Generated Code Prefix",
     "type" : "Text"
   }, {
-    "id" : "typeIDs",
-    "column" : "typeIDs",
-    "type" : "BigText"
-  }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
     "ar" : "صلاحية التعديل",
@@ -456,12 +440,6 @@
     "id" : "usageCapabilityId",
     "column" : "usageCapability_id",
     "type" : "ID"
-  }, {
-    "id" : "useAsModule",
-    "column" : "useAsModule",
-    "ar" : "تستعمل كموديول",
-    "en" : "useAsModule",
-    "type" : "Boolean"
   }, {
     "id" : "viewCapability",
     "column" : "viewCapability_id",

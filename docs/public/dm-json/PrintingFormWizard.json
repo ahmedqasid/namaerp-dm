@@ -58,6 +58,13 @@
     "en" : "Background Image X Position",
     "type" : "Integer"
   }, {
+    "id" : "borderLinePreset",
+    "column" : "borderLinePreset",
+    "ar" : "Border Line Preset",
+    "en" : "Border Line Preset",
+    "type" : "Enum",
+    "enum" : "BorderLinePreset"
+  }, {
     "id" : "branch",
     "column" : "branch_id",
     "ar" : "الفرع",
