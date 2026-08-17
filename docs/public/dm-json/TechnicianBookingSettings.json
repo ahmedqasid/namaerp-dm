@@ -1,12 +1,12 @@
 {
   "entity" : "TechnicianBookingSettings",
   "table" : "TechnicianBookingSettings",
-  "module" : "system-tables",
+  "module" : "crm-technician-appointments",
   "ar" : "إعدادات حجز المواعيد",
   "arPlural" : "إعدادات حجز المواعيد",
   "en" : "Appointment Booking Settings",
   "enPlural" : "Appointment Booking Settings",
-  "page" : "https://dm.namasoft.com/modules/system-tables/TechnicianBookingSettings.html",
+  "page" : "https://dm.namasoft.com/modules/crm-technician-appointments/TechnicianBookingSettings.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

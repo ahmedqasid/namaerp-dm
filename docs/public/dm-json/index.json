@@ -1020,7 +1020,7 @@
   }, {
     "name" : "AlwataniaDistConfig",
     "table" : "AlwataniaDistConfig",
-    "module" : "system-tables",
+    "module" : "supplychain-ksa-watania-integration",
     "ar" : "إعدادات ربط موزعي الوطنية",
     "en" : "Alwatania Distributors Config"
   }, {
@@ -20599,7 +20599,7 @@
   }, {
     "name" : "TechnicianAppointment",
     "table" : "TechnicianAppointment",
-    "module" : "system-tables",
+    "module" : "crm-technician-appointments",
     "ar" : "موعد فني",
     "en" : "Technician Appointment",
     "details" : [ {
@@ -20609,7 +20609,7 @@
   }, {
     "name" : "TechnicianBookingSettings",
     "table" : "TechnicianBookingSettings",
-    "module" : "system-tables",
+    "module" : "crm-technician-appointments",
     "ar" : "إعدادات حجز المواعيد",
     "en" : "Appointment Booking Settings",
     "details" : [ {
@@ -20622,7 +20622,7 @@
   }, {
     "name" : "TechnicianCrew",
     "table" : "TechnicianCrew",
-    "module" : "system-tables",
+    "module" : "crm-technician-appointments",
     "ar" : "فريق فنيين",
     "en" : "Technician Crew",
     "details" : [ {
@@ -20635,7 +20635,7 @@
   }, {
     "name" : "TechnicianProcedure",
     "table" : "TechnicianProcedure",
-    "module" : "system-tables",
+    "module" : "crm-technician-appointments",
     "ar" : "إجراء فني",
     "en" : "Technician Procedure",
     "details" : [ {
@@ -20648,13 +20648,13 @@
   }, {
     "name" : "TechnicianService",
     "table" : "TechnicianService",
-    "module" : "system-tables",
+    "module" : "crm-technician-appointments",
     "ar" : "خدمة فنية",
     "en" : "Technician Service"
   }, {
     "name" : "TechnicianServiceDistribution",
     "table" : "TechnicianServiceDistribution",
-    "module" : "system-tables",
+    "module" : "crm-technician-appointments",
     "ar" : "سند توزيع الخدمات",
     "en" : "Technician Service Distribution",
     "details" : [ {
@@ -20664,7 +20664,7 @@
   }, {
     "name" : "TechnicianTransfer",
     "table" : "TechnicianTransfer",
-    "module" : "system-tables",
+    "module" : "crm-technician-appointments",
     "ar" : "سند نقل فني",
     "en" : "Technician Transfer",
     "details" : [ {

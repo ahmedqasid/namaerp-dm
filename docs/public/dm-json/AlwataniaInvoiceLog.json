@@ -14,7 +14,7 @@
     "column" : "config_id",
     "type" : "Reference",
     "refTo" : "AlwataniaDistConfig",
-    "refPath" : "/modules/system-tables/AlwataniaDistConfig.html"
+    "refPath" : "/modules/supplychain-ksa-watania-integration/AlwataniaDistConfig.html"
   }, {
     "id" : "document",
     "columns" : [ "documentActualCode", " documentCode", " documentEntityType", " documentId" ],

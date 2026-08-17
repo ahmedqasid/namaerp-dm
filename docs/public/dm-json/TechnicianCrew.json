@@ -1,12 +1,12 @@
 {
   "entity" : "TechnicianCrew",
   "table" : "TechnicianCrew",
-  "module" : "system-tables",
+  "module" : "crm-technician-appointments",
   "ar" : "فريق فنيين",
   "arPlural" : "فرق فنيين",
   "en" : "Technician Crew",
   "enPlural" : "Technician Crews",
-  "page" : "https://dm.namasoft.com/modules/system-tables/TechnicianCrew.html",
+  "page" : "https://dm.namasoft.com/modules/crm-technician-appointments/TechnicianCrew.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -490,7 +490,7 @@
       "en" : " Technician Procedure",
       "type" : "Reference",
       "refTo" : "TechnicianProcedure",
-      "refPath" : "/modules/system-tables/TechnicianProcedure.html"
+      "refPath" : "/modules/crm-technician-appointments/TechnicianProcedure.html"
     } ]
   }, {
     "id" : "technicians",

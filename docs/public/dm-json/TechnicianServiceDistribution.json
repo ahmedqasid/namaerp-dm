@@ -1,12 +1,12 @@
 {
   "entity" : "TechnicianServiceDistribution",
   "table" : "TechnicianServiceDistribution",
-  "module" : "system-tables",
+  "module" : "crm-technician-appointments",
   "ar" : "سند توزيع الخدمات",
   "arPlural" : "سندات توزيع الخدمات",
   "en" : "Technician Service Distribution",
   "enPlural" : "Technicians Service Distributions",
-  "page" : "https://dm.namasoft.com/modules/system-tables/TechnicianServiceDistribution.html",
+  "page" : "https://dm.namasoft.com/modules/crm-technician-appointments/TechnicianServiceDistribution.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -479,7 +479,7 @@
     "en" : " Technician Appointment",
     "type" : "Reference",
     "refTo" : "TechnicianAppointment",
-    "refPath" : "/modules/system-tables/TechnicianAppointment.html"
+    "refPath" : "/modules/crm-technician-appointments/TechnicianAppointment.html"
   }, {
     "id" : "technicianCrew",
     "column" : "technicianCrew_id",
@@ -487,7 +487,7 @@
     "en" : " Technician Crew",
     "type" : "Reference",
     "refTo" : "TechnicianCrew",
-    "refPath" : "/modules/system-tables/TechnicianCrew.html"
+    "refPath" : "/modules/crm-technician-appointments/TechnicianCrew.html"
   }, {
     "id" : "term",
     "column" : "term_id",
@@ -584,7 +584,7 @@
       "en" : " Technician Service",
       "type" : "Reference",
       "refTo" : "TechnicianService",
-      "refPath" : "/modules/system-tables/TechnicianService.html"
+      "refPath" : "/modules/crm-technician-appointments/TechnicianService.html"
     }, {
       "id" : "details.uom",
       "column" : "uom_id",

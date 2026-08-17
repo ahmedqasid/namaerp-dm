@@ -1,12 +1,12 @@
 {
   "entity" : "TechnicianService",
   "table" : "TechnicianService",
-  "module" : "system-tables",
+  "module" : "crm-technician-appointments",
   "ar" : "خدمة فنية",
   "arPlural" : "خدمات فنية",
   "en" : "Technician Service",
   "enPlural" : "Technician Services",
-  "page" : "https://dm.namasoft.com/modules/system-tables/TechnicianService.html",
+  "page" : "https://dm.namasoft.com/modules/crm-technician-appointments/TechnicianService.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

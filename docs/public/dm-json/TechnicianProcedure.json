@@ -1,12 +1,12 @@
 {
   "entity" : "TechnicianProcedure",
   "table" : "TechnicianProcedure",
-  "module" : "system-tables",
+  "module" : "crm-technician-appointments",
   "ar" : "إجراء فني",
   "arPlural" : "إجراءات فنية",
   "en" : "Technician Procedure",
   "enPlural" : "Technician Procedures",
-  "page" : "https://dm.namasoft.com/modules/system-tables/TechnicianProcedure.html",
+  "page" : "https://dm.namasoft.com/modules/crm-technician-appointments/TechnicianProcedure.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -509,7 +509,7 @@
       "en" : " Technician Service",
       "type" : "Reference",
       "refTo" : "TechnicianService",
-      "refPath" : "/modules/system-tables/TechnicianService.html"
+      "refPath" : "/modules/crm-technician-appointments/TechnicianService.html"
     } ]
   } ]
 }

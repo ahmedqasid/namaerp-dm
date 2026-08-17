@@ -1,12 +1,12 @@
 {
   "entity" : "TechnicianTransfer",
   "table" : "TechnicianTransfer",
-  "module" : "system-tables",
+  "module" : "crm-technician-appointments",
   "ar" : "سند نقل فني",
   "arPlural" : "سندات نقل فني",
   "en" : "Technician Transfer",
   "enPlural" : "Technician Transfers",
-  "page" : "https://dm.namasoft.com/modules/system-tables/TechnicianTransfer.html",
+  "page" : "https://dm.namasoft.com/modules/crm-technician-appointments/TechnicianTransfer.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -540,7 +540,7 @@
       "en" : "From Crew",
       "type" : "Reference",
       "refTo" : "TechnicianCrew",
-      "refPath" : "/modules/system-tables/TechnicianCrew.html"
+      "refPath" : "/modules/crm-technician-appointments/TechnicianCrew.html"
     }, {
       "id" : "details.id",
       "column" : "id",
@@ -564,7 +564,7 @@
       "en" : "To Crew",
       "type" : "Reference",
       "refTo" : "TechnicianCrew",
-      "refPath" : "/modules/system-tables/TechnicianCrew.html"
+      "refPath" : "/modules/crm-technician-appointments/TechnicianCrew.html"
     }, {
       "id" : "details.transferred",
       "column" : "transferred",

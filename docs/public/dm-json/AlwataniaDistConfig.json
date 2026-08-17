@@ -1,12 +1,12 @@
 {
   "entity" : "AlwataniaDistConfig",
   "table" : "AlwataniaDistConfig",
-  "module" : "system-tables",
+  "module" : "supplychain-ksa-watania-integration",
   "ar" : "إعدادات ربط موزعي الوطنية",
   "arPlural" : "إعدادات ربط موزعي الوطنية",
   "en" : "Alwatania Distributors Config",
   "enPlural" : "Alwatania Distributors Configs",
-  "page" : "https://dm.namasoft.com/modules/system-tables/AlwataniaDistConfig.html",
+  "page" : "https://dm.namasoft.com/modules/supplychain-ksa-watania-integration/AlwataniaDistConfig.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

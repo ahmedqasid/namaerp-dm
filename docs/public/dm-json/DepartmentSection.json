@@ -495,7 +495,7 @@
     "en" : " Appointment Booking Settings",
     "type" : "Reference",
     "refTo" : "TechnicianBookingSettings",
-    "refPath" : "/modules/system-tables/TechnicianBookingSettings.html"
+    "refPath" : "/modules/crm-technician-appointments/TechnicianBookingSettings.html"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",

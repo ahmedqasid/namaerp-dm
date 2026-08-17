@@ -466,6 +466,12 @@
       "en" : "View Customers Wishlist",
       "type" : "Boolean"
     }, {
+      "id" : "details.canViewDayVisitsDashboard",
+      "column" : "canViewDayVisitsDashboard",
+      "ar" : "استعراض لوحة زيارات اليوم",
+      "en" : "View Day Visits Dashboard",
+      "type" : "Boolean"
+    }, {
       "id" : "details.canViewElectronicReceipt",
       "column" : "canViewElectronicReceipt",
       "ar" : "استعراض سندات القبض الإلكترونية",
@@ -502,16 +508,40 @@
       "en" : "View Measurements Visit Dashboard",
       "type" : "Boolean"
     }, {
+      "id" : "details.canViewPotentialCustomersDashboard",
+      "column" : "canViewPotentialCustomersDashboard",
+      "ar" : "استعراض لوحة العملاء المحتملين",
+      "en" : "View Potential Customers Dashboard",
+      "type" : "Boolean"
+    }, {
       "id" : "details.canViewRVRequest",
       "column" : "canViewRVRequest",
       "ar" : "استعراض طلبات القبض",
       "en" : "View RV Request",
       "type" : "Boolean"
     }, {
+      "id" : "details.canViewRVRequestDashboard",
+      "column" : "canViewRVRequestDashboard",
+      "ar" : "استعراض لوحة طلبات القبض",
+      "en" : "View RV Requests Dashboard",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.canViewReceiptVoucherDashboard",
+      "column" : "canViewReceiptVoucherDashboard",
+      "ar" : "استعراض لوحة سندات القبض",
+      "en" : "View Receipt Vouchers Dashboard",
+      "type" : "Boolean"
+    }, {
       "id" : "details.canViewReceiptsDashboard",
       "column" : "canViewReceiptsDashboard",
       "ar" : "استعراض لوحة القبض الإلكترونية",
       "en" : "View Electronic Receipts Dashboard",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.canViewRecommendedCustomersDashboard",
+      "column" : "canViewRecommendedCustomersDashboard",
+      "ar" : "استعراض لوحة العملاء المرشحين",
+      "en" : "View Recommended Customers Dashboard",
       "type" : "Boolean"
     }, {
       "id" : "details.canViewReviewsDashboard",

@@ -1,12 +1,12 @@
 {
   "entity" : "TechnicianAppointment",
   "table" : "TechnicianAppointment",
-  "module" : "system-tables",
+  "module" : "crm-technician-appointments",
   "ar" : "موعد فني",
   "arPlural" : "مواعيد فنية",
   "en" : "Technician Appointment",
   "enPlural" : "Technician Appointments",
-  "page" : "https://dm.namasoft.com/modules/system-tables/TechnicianAppointment.html",
+  "page" : "https://dm.namasoft.com/modules/crm-technician-appointments/TechnicianAppointment.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -500,7 +500,7 @@
     "en" : " Technician Crew",
     "type" : "Reference",
     "refTo" : "TechnicianCrew",
-    "refPath" : "/modules/system-tables/TechnicianCrew.html"
+    "refPath" : "/modules/crm-technician-appointments/TechnicianCrew.html"
   }, {
     "id" : "technicianProcedure",
     "column" : "technicianProcedure_id",
@@ -508,7 +508,7 @@
     "en" : " Technician Procedure",
     "type" : "Reference",
     "refTo" : "TechnicianProcedure",
-    "refPath" : "/modules/system-tables/TechnicianProcedure.html"
+    "refPath" : "/modules/crm-technician-appointments/TechnicianProcedure.html"
   }, {
     "id" : "term",
     "column" : "term_id",
@@ -603,7 +603,7 @@
       "en" : " Technician Crew",
       "type" : "Reference",
       "refTo" : "TechnicianCrew",
-      "refPath" : "/modules/system-tables/TechnicianCrew.html"
+      "refPath" : "/modules/crm-technician-appointments/TechnicianCrew.html"
     }, {
       "id" : "details.toDateTime",
       "column" : "toDateTime",
