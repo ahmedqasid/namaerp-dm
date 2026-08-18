@@ -6,9 +6,7 @@
   "fields" : [ {
     "id" : "creditLine",
     "column" : "creditLine_id",
-    "type" : "",
-    "refTo" : "DebtLine",
-    "refPath" : "/modules/system-tables/DebtLine.html"
+    "type" : ""
   }, {
     "id" : "creditValueDate",
     "column" : "creditValueDate",
@@ -16,9 +14,7 @@
   }, {
     "id" : "debitLine",
     "column" : "debitLine_id",
-    "type" : "",
-    "refTo" : "DebtLine",
-    "refPath" : "/modules/system-tables/DebtLine.html"
+    "type" : ""
   }, {
     "id" : "debitValueDate",
     "column" : "debitValueDate",

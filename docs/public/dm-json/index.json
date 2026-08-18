@@ -18228,7 +18228,8 @@
     "name" : "SFDARSDDocStatus",
     "table" : "SFDARSDDocStatus",
     "module" : "system-tables",
-    "ar" : "حالة المستند في هيئة تتبع الدواء"
+    "ar" : "حالة المستند في هيئة تتبع الدواء",
+    "en" : "SFDA RSD Document Status"
   }, {
     "name" : "SFDARSDReportTask",
     "table" : "SFDARSDReportTask",

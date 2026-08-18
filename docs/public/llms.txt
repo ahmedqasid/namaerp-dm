@@ -1747,7 +1747,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [SCGridConfigLine](https://dm.namasoft.com/dm-json/SCGridConfigLine.json)
 - [SCMeasuresFactorsLine](https://dm.namasoft.com/dm-json/SCMeasuresFactorsLine.json)
 - [SFDARSDConfig](https://dm.namasoft.com/dm-json/SFDARSDConfig.json): SFDA RSD Configuration / إعدادات تتبع الأدوية (الهيئة السعودية للغذاء والدواء)
-- [SFDARSDDocStatus](https://dm.namasoft.com/dm-json/SFDARSDDocStatus.json): حالة المستند في هيئة تتبع الدواء
+- [SFDARSDDocStatus](https://dm.namasoft.com/dm-json/SFDARSDDocStatus.json): SFDA RSD Document Status / حالة المستند في هيئة تتبع الدواء
 - [SFDARSDReportTask](https://dm.namasoft.com/dm-json/SFDARSDReportTask.json)
 - [SIAllocation](https://dm.namasoft.com/dm-json/SIAllocation.json): Car Allocation / تخصيص سيارة
 - [SIAllocationCancel](https://dm.namasoft.com/dm-json/SIAllocationCancel.json): Car Allocation Cancel / إلغاء تخصيص سيارة

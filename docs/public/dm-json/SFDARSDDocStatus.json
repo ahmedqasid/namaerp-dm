@@ -4,6 +4,8 @@
   "module" : "system-tables",
   "ar" : "حالة المستند في هيئة تتبع الدواء",
   "arPlural" : "حالات المستندات في هيئة تتبع الدواء",
+  "en" : "SFDA RSD Document Status",
+  "enPlural" : "SFDA RSD Documents Statuses",
   "page" : "https://dm.namasoft.com/modules/system-tables/SFDARSDDocStatus.html",
   "fields" : [ {
     "id" : "errorDescription",
@@ -26,11 +28,14 @@
   }, {
     "id" : "failedLinesCount",
     "column" : "failedLinesCount",
+    "ar" : "عدد السطور غير الناجحة",
+    "en" : "Failed Lines Count",
     "type" : "Integer"
   }, {
     "id" : "failedReportsCount",
     "column" : "failedReportsCount",
     "ar" : "عدد مرات الإرسال غير الناجحة",
+    "en" : "Failed Reports Count",
     "type" : "Integer"
   }, {
     "id" : "id",
@@ -40,6 +45,7 @@
     "id" : "isCancel",
     "column" : "isCancel",
     "ar" : "إلغاء",
+    "en" : "Cancel",
     "type" : "Boolean"
   }, {
     "id" : "linesCount",
@@ -70,11 +76,13 @@
     "id" : "partnerGLN",
     "column" : "partnerGLN",
     "ar" : "رقم GLN للطرف الآخر",
+    "en" : "Partner GLN",
     "type" : "Text"
   }, {
     "id" : "reportsCount",
     "column" : "reportsCount",
     "ar" : "عدد مرات الإرسال",
+    "en" : "Reports Count",
     "type" : "Integer"
   }, {
     "id" : "requester",
@@ -86,6 +94,7 @@
     "id" : "rsdConfig",
     "column" : "rsdConfig_id",
     "ar" : "إعدادات تتبع الأدوية",
+    "en" : "RSD Configuration",
     "type" : "Reference",
     "refTo" : "SFDARSDConfig",
     "refPath" : "/modules/supplychain-ksa-rsd/SFDARSDConfig.html"
@@ -93,6 +102,7 @@
     "id" : "stakeholderWarehouse",
     "column" : "stakeholderWarehouse_id",
     "ar" : "مخزن الجهة المُبلِّغة",
+    "en" : "Stakeholder Warehouse",
     "type" : "Reference",
     "refTo" : "Warehouse",
     "refPath" : "/modules/supplychain/Warehouse.html"
@@ -112,6 +122,8 @@
   }, {
     "id" : "successLinesCount",
     "column" : "successLinesCount",
+    "ar" : "عدد السطور الناجحة",
+    "en" : "Successful Lines Count",
     "type" : "Integer"
   }, {
     "id" : "trials",
