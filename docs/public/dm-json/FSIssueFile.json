@@ -700,10 +700,28 @@
       "en" : "Balance | Credit",
       "type" : "Decimal"
     }, {
+      "id" : "lines.balanceCr2",
+      "column" : "balanceCr2",
+      "ar" : "رصيد (2) | دائن",
+      "en" : "Balance (2) | Credit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.balanceDiff",
+      "column" : "balanceDiff",
+      "ar" : "فرق الرصيد",
+      "en" : "Balance Difference",
+      "type" : "Decimal"
+    }, {
       "id" : "lines.balanceDr",
       "column" : "balanceDr",
       "ar" : "رصيد | مدين",
       "en" : "Balance | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.balanceDr2",
+      "column" : "balanceDr2",
+      "ar" : "رصيد (2) | مدين",
+      "en" : "Balance (2) | Debit",
       "type" : "Decimal"
     }, {
       "id" : "lines.chartLevel",
@@ -785,10 +803,22 @@
       "en" : "Opening | Credit",
       "type" : "Decimal"
     }, {
+      "id" : "lines.openCr2",
+      "column" : "openCr2",
+      "ar" : "افتتاحي (2) | دائن",
+      "en" : "Opening (2) | Credit",
+      "type" : "Decimal"
+    }, {
       "id" : "lines.openDr",
       "column" : "openDr",
       "ar" : "افتتاحي | مدين",
       "en" : "Opening | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.openDr2",
+      "column" : "openDr2",
+      "ar" : "افتتاحي (2) | مدين",
+      "en" : "Opening (2) | Debit",
       "type" : "Decimal"
     }, {
       "id" : "lines.p101.credit",
@@ -1913,10 +1943,22 @@
       "en" : "Transaction | Credit",
       "type" : "Decimal"
     }, {
+      "id" : "lines.transCr2",
+      "column" : "transCr2",
+      "ar" : "حركات (2) | دائن",
+      "en" : "Transaction (2) | Credit",
+      "type" : "Decimal"
+    }, {
       "id" : "lines.transDr",
       "column" : "transDr",
       "ar" : "حركات | مدين",
       "en" : "Transaction | Debit",
+      "type" : "Decimal"
+    }, {
+      "id" : "lines.transDr2",
+      "column" : "transDr2",
+      "ar" : "حركات (2) | مدين",
+      "en" : "Transaction (2) | Debit",
       "type" : "Decimal"
     }, {
       "id" : "lines.trialBalanceRepLink",
