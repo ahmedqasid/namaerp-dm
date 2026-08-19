@@ -1,0 +1,18 @@
+{
+  "enum" : "EltezamOperation",
+  "values" : [ {
+    "id" : "SubmitEmployeeInfo"
+  }, {
+    "id" : "SubmitEmployeeHistoricalInfo"
+  }, {
+    "id" : "SubmitJobInfo"
+  }, {
+    "id" : "SubmitEmployeePayslipInfo"
+  }, {
+    "id" : "SubmitEmployeeQualificationInfo"
+  }, {
+    "id" : "SubmitEmployeeVacationInfo"
+  }, {
+    "id" : "SubmitEmployeeAppraisalInfo"
+  } ]
+}

@@ -531,6 +531,10 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [ElectronicAttendanceZone](https://dm.namasoft.com/dm-json/ElectronicAttendanceZone.json): Electronic Attendance Zone / منطقة حضور إلكتروني
 - [ElectronicAttendanceZonesExclusion](https://dm.namasoft.com/dm-json/ElectronicAttendanceZonesExclusion.json): Electronic Attendance Zones Exclusion / استثناء من مناطق الحضور و الانصراف
 - [ElectronicReceiptVoucher](https://dm.namasoft.com/dm-json/ElectronicReceiptVoucher.json): Electronic Receipt Voucher / سند قبض إلكتروني
+- [EltezamCodeTable](https://dm.namasoft.com/dm-json/EltezamCodeTable.json): MCS Eltezam Code Table / جدول أكواد التزام
+- [EltezamConfiguration](https://dm.namasoft.com/dm-json/EltezamConfiguration.json): MCS Eltezam Configuration / إعدادات خدمة التزام
+- [EltezamSubmissionDoc](https://dm.namasoft.com/dm-json/EltezamSubmissionDoc.json): MCS Eltezam Submission / إرسال بيانات التزام
+- [EltezamSysEntry](https://dm.namasoft.com/dm-json/EltezamSysEntry.json): MCS Eltezam System Entry / قيد التزام النظامي
 - [EmpAttendanceSysLine](https://dm.namasoft.com/dm-json/EmpAttendanceSysLine.json)
 - [EmpCommencementEntry](https://dm.namasoft.com/dm-json/EmpCommencementEntry.json)
 - [EmpHealthInsurDelete](https://dm.namasoft.com/dm-json/EmpHealthInsurDelete.json): Employee Health Insurance Delete / سند حذف تأمين موظف

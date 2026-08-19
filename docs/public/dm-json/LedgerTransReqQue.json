@@ -16,6 +16,8 @@
   }, {
     "id" : "requestXML",
     "column" : "requestXML",
+    "ar" : "ملف الإرسال",
+    "en" : "Request XML",
     "type" : "BigText"
   }, {
     "id" : "status",

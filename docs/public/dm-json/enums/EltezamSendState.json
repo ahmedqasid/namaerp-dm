@@ -1,0 +1,16 @@
+{
+  "enum" : "EltezamSendState",
+  "values" : [ {
+    "id" : "NotSent",
+    "ar" : "لم يرسل بعد",
+    "en" : "Not Sent"
+  }, {
+    "id" : "Succeeded",
+    "ar" : "نجح",
+    "en" : "Succeeded"
+  }, {
+    "id" : "Failed",
+    "ar" : "فشل",
+    "en" : "Failed"
+  } ]
+}

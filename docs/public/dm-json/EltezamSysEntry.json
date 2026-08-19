@@ -1,0 +1,783 @@
+{
+  "entity" : "EltezamSysEntry",
+  "table" : "EltezamSysEntry",
+  "module" : "system-tables",
+  "ar" : "قيد التزام النظامي",
+  "arPlural" : "قيد التزام النظامي",
+  "en" : "MCS Eltezam System Entry",
+  "enPlural" : "MCS Eltezam System Entry",
+  "page" : "https://dm.namasoft.com/modules/system-tables/EltezamSysEntry.html",
+  "fields" : [ {
+    "id" : "actualJobNameCode",
+    "column" : "actualJobNameCode",
+    "ar" : "كود المسمى الفعلي للوظيفة",
+    "en" : "Actual Job Name Code",
+    "type" : "Text"
+  }, {
+    "id" : "actualJobNameDescription",
+    "column" : "actualJobNameDescription",
+    "ar" : "وصف المسمى الفعلي للوظيفة",
+    "en" : "Actual Job Name Description",
+    "type" : "Text"
+  }, {
+    "id" : "actualOrganizationID",
+    "column" : "actualOrganizationID",
+    "ar" : "رقم جهة العمل الفعلية",
+    "en" : "Actual Organization ID",
+    "type" : "Text"
+  }, {
+    "id" : "actualOrganizationName",
+    "column" : "actualOrganizationName",
+    "ar" : "اسم جهة العمل الفعلية",
+    "en" : "Actual Organization Name",
+    "type" : "Text"
+  }, {
+    "id" : "appraisalEndDate",
+    "column" : "appraisalEndDate",
+    "ar" : "تاريخ نهاية التقييم",
+    "en" : "Appraisal End Date",
+    "type" : "Date"
+  }, {
+    "id" : "appraisalID",
+    "column" : "appraisalID",
+    "ar" : "رقم تقييم الأداء",
+    "en" : "Appraisal ID",
+    "type" : "Text"
+  }, {
+    "id" : "appraisalResult",
+    "column" : "appraisalResult",
+    "ar" : "نتيجة التقييم",
+    "en" : "Appraisal Result",
+    "type" : "Text"
+  }, {
+    "id" : "appraisalStartDate",
+    "column" : "appraisalStartDate",
+    "ar" : "تاريخ بداية التقييم",
+    "en" : "Appraisal Start Date",
+    "type" : "Date"
+  }, {
+    "id" : "appraisalTransactionType",
+    "column" : "appraisalTransactionType",
+    "ar" : "نوع حركة التقييم",
+    "en" : "Appraisal Transaction Type",
+    "type" : "Text"
+  }, {
+    "id" : "appraisalTypeCode",
+    "column" : "appraisalTypeCode",
+    "ar" : "كود نوع التقييم",
+    "en" : "Appraisal Type Code",
+    "type" : "Text"
+  }, {
+    "id" : "basicSalary",
+    "column" : "basicSalary",
+    "ar" : "الراتب الأساسى",
+    "en" : "Basic Salary",
+    "type" : "Decimal"
+  }, {
+    "id" : "birthDate",
+    "column" : "birthDate",
+    "ar" : "تاريخ الميلاد",
+    "en" : "Birth date",
+    "type" : "Date"
+  }, {
+    "id" : "bloodTypeCode",
+    "column" : "bloodTypeCode",
+    "ar" : "كود فصيلة الدم",
+    "en" : "Blood Type Code",
+    "type" : "Text"
+  }, {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "decisionDate",
+    "column" : "decisionDate",
+    "ar" : "تاريخ القرار",
+    "en" : "Decision Date",
+    "type" : "Date"
+  }, {
+    "id" : "decisionNumber",
+    "column" : "decisionNumber",
+    "ar" : "رقم القرار",
+    "en" : "Decision Number",
+    "type" : "Text"
+  }, {
+    "id" : "effectedDoc",
+    "columns" : [ "effectedDocActualCode", " effectedDocCode", " effectedDocEntityType", " effectedDocId" ],
+    "ar" : "كود السند",
+    "en" : "Document Code",
+    "type" : "Genericreference"
+  }, {
+    "id" : "emailAddress",
+    "column" : "emailAddress",
+    "type" : "Text"
+  }, {
+    "id" : "employee",
+    "column" : "employee_id",
+    "ar" : "الموظف",
+    "en" : "Employee",
+    "type" : "Reference",
+    "refTo" : "Employee",
+    "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "employeeID",
+    "column" : "employeeID",
+    "ar" : "رقم الموظف لدى الوزارة",
+    "en" : "MCS Employee ID",
+    "type" : "Text"
+  }, {
+    "id" : "employeeName",
+    "column" : "employeeName",
+    "ar" : "إسم الموظف",
+    "en" : "Employee Name",
+    "type" : "Text"
+  }, {
+    "id" : "employeeStatusCode",
+    "column" : "employeeStatusCode",
+    "ar" : "كود حالة الموظف",
+    "en" : "Employee Status Code",
+    "type" : "Text"
+  }, {
+    "id" : "employmentTypeCode",
+    "column" : "employmentTypeCode",
+    "ar" : "كود نوع التوظيف",
+    "en" : "Employment Type Code",
+    "type" : "Text"
+  }, {
+    "id" : "employmentTypeDescription",
+    "column" : "employmentTypeDescription",
+    "ar" : "وصف نوع التوظيف",
+    "en" : "Employment Type Description",
+    "type" : "Text"
+  }, {
+    "id" : "errorCode",
+    "column" : "errorCode",
+    "ar" : "كود خطأ التزام",
+    "en" : "Eltezam Error Code",
+    "type" : "Text"
+  }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
+    "id" : "firstGradeDate",
+    "column" : "firstGradeDate",
+    "ar" : "تاريخ أول مرتبة",
+    "en" : "First Grade Date",
+    "type" : "Date"
+  }, {
+    "id" : "firstNameAr",
+    "column" : "firstNameAr",
+    "ar" : "الاسم الأول بالعربية",
+    "en" : "First Name (Arabic)",
+    "type" : "Text"
+  }, {
+    "id" : "firstNameEn",
+    "column" : "firstNameEn",
+    "ar" : "الاسم الأول بالإنجليزية",
+    "en" : "First Name (English)",
+    "type" : "Text"
+  }, {
+    "id" : "genderCode",
+    "column" : "genderCode",
+    "ar" : "الجنس لدى الوزارة",
+    "en" : "MCS Gender",
+    "type" : "Text"
+  }, {
+    "id" : "governmentHireDate",
+    "column" : "governmentHireDate",
+    "ar" : "تاريخ التعيين الحكومي",
+    "en" : "Government Hire Date",
+    "type" : "Date"
+  }, {
+    "id" : "gradeDate",
+    "column" : "gradeDate",
+    "ar" : "تاريخ المرتبة",
+    "en" : "Grade Date",
+    "type" : "Date"
+  }, {
+    "id" : "gregorianMonth",
+    "column" : "gregorianMonth",
+    "ar" : "الشهر الميلادي",
+    "en" : "Gregorian Month",
+    "type" : "Integer"
+  }, {
+    "id" : "gregorianYear",
+    "column" : "gregorianYear",
+    "ar" : "السنة الميلادية",
+    "en" : "Gregorian Year",
+    "type" : "Integer"
+  }, {
+    "id" : "healthStatusCode",
+    "column" : "healthStatusCode",
+    "ar" : "كود الحالة الصحية",
+    "en" : "Health Status Code",
+    "type" : "Text"
+  }, {
+    "id" : "hijriMonth",
+    "column" : "hijriMonth",
+    "ar" : "الشهر الهجري",
+    "en" : "Hijri Month",
+    "type" : "Integer"
+  }, {
+    "id" : "hijriYear",
+    "column" : "hijriYear",
+    "ar" : "السنة الهجرية",
+    "en" : "Hijri Year",
+    "type" : "Integer"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "iqamaNumber",
+    "column" : "iqamaNumber",
+    "ar" : "رقم الإقامة",
+    "en" : "Iqama Number",
+    "type" : "Text"
+  }, {
+    "id" : "isActive",
+    "column" : "isActive",
+    "ar" : "فعال",
+    "en" : "Active",
+    "type" : "Text"
+  }, {
+    "id" : "jobCatChain",
+    "column" : "jobCatChain",
+    "ar" : "سلسلة فئة الوظيفة",
+    "en" : "Job Category Chain",
+    "type" : "Text"
+  }, {
+    "id" : "jobClassCode",
+    "column" : "jobClassCode",
+    "ar" : "كود تصنيف الوظيفة",
+    "en" : "Job Class Code",
+    "type" : "Text"
+  }, {
+    "id" : "jobClassDescription",
+    "column" : "jobClassDescription",
+    "ar" : "وصف تصنيف الوظيفة",
+    "en" : "Job Class Description",
+    "type" : "Text"
+  }, {
+    "id" : "jobNameCode",
+    "column" : "jobNameCode",
+    "ar" : "كود مسمى الوظيفة",
+    "en" : "Job Name Code",
+    "type" : "Text"
+  }, {
+    "id" : "jobNameDescription",
+    "column" : "jobNameDescription",
+    "ar" : "وصف مسمى الوظيفة",
+    "en" : "Job Name Description",
+    "type" : "Text"
+  }, {
+    "id" : "jobNumber",
+    "column" : "jobNumber",
+    "ar" : "رقم الوظيفة",
+    "en" : "Job Number",
+    "type" : "Text"
+  }, {
+    "id" : "jobOrganizationID",
+    "column" : "jobOrganizationID",
+    "ar" : "رقم جهة الوظيفة",
+    "en" : "Job Organization ID",
+    "type" : "Text"
+  }, {
+    "id" : "jobOrganizationName",
+    "column" : "jobOrganizationName",
+    "ar" : "اسم جهة الوظيفة",
+    "en" : "Job Organization Name",
+    "type" : "Text"
+  }, {
+    "id" : "jobPositionCode",
+    "column" : "jobPositionCode",
+    "ar" : "كود الوظيفة الشاغرة",
+    "en" : "Job Position Code",
+    "type" : "Text"
+  }, {
+    "id" : "jobTransactionCode",
+    "column" : "jobTransactionCode",
+    "ar" : "كود حركة الوظيفة",
+    "en" : "Job Transaction Code",
+    "type" : "Text"
+  }, {
+    "id" : "lastNameAr",
+    "column" : "lastNameAr",
+    "ar" : "اسم العائلة بالعربية",
+    "en" : "Last Name (Arabic)",
+    "type" : "Text"
+  }, {
+    "id" : "lastNameEn",
+    "column" : "lastNameEn",
+    "ar" : "اسم العائلة بالإنجليزية",
+    "en" : "Last Name (English)",
+    "type" : "Text"
+  }, {
+    "id" : "lastUpdateDate",
+    "column" : "lastUpdateDate",
+    "ar" : "تاريخ اخر تحديث",
+    "en" : "Last update Date",
+    "type" : "Date"
+  }, {
+    "id" : "locationCode",
+    "column" : "locationCode",
+    "ar" : "كود موقع التخزين",
+    "en" : "Location Code",
+    "type" : "Text"
+  }, {
+    "id" : "maritalStatusCode",
+    "column" : "maritalStatusCode",
+    "ar" : "كود الحالة الاجتماعية",
+    "en" : "Marital Status Code",
+    "type" : "Text"
+  }, {
+    "id" : "ministryHireDate",
+    "column" : "ministryHireDate",
+    "ar" : "تاريخ التعيين بالجهة",
+    "en" : "Ministry Hire Date",
+    "type" : "Date"
+  }, {
+    "id" : "mobile",
+    "column" : "mobile",
+    "ar" : "الموبايل",
+    "en" : "Mobile",
+    "type" : "Text"
+  }, {
+    "id" : "nationalID",
+    "column" : "nationalID",
+    "ar" : "رقم الهوية الوطنية",
+    "en" : "National ID",
+    "type" : "Text"
+  }, {
+    "id" : "nationalityCode",
+    "column" : "nationalityCode",
+    "ar" : "كود الجنسية",
+    "en" : "Nationality Code",
+    "type" : "Text"
+  }, {
+    "id" : "netPay",
+    "column" : "netPay",
+    "ar" : "صافي الراتب",
+    "en" : "Net Pay",
+    "type" : "Decimal"
+  }, {
+    "id" : "nextPromotionDate",
+    "column" : "nextPromotionDate",
+    "ar" : "تاريخ الترقية القادمة",
+    "en" : "Next Promotion Date",
+    "type" : "Date"
+  }, {
+    "id" : "operation",
+    "column" : "operation",
+    "ar" : "عملية",
+    "en" : "Operation",
+    "type" : "Enum",
+    "enum" : "EltezamOperation"
+  }, {
+    "id" : "paidDate",
+    "column" : "paidDate",
+    "ar" : "تاريخ الدفع",
+    "en" : "Paid Date",
+    "type" : "Date"
+  }, {
+    "id" : "positionEndDate",
+    "column" : "positionEndDate",
+    "ar" : "تاريخ نهاية شغل الوظيفة",
+    "en" : "Position End Date",
+    "type" : "Date"
+  }, {
+    "id" : "positionOrganizationID",
+    "column" : "positionOrganizationID",
+    "ar" : "رقم جهة الوظيفة الشاغرة",
+    "en" : "Position Organization ID",
+    "type" : "Text"
+  }, {
+    "id" : "positionOrganizationName",
+    "column" : "positionOrganizationName",
+    "ar" : "اسم جهة الوظيفة الشاغرة",
+    "en" : "Position Organization Name",
+    "type" : "Text"
+  }, {
+    "id" : "positionStartDate",
+    "column" : "positionStartDate",
+    "ar" : "تاريخ بداية شغل الوظيفة",
+    "en" : "Position Start Date",
+    "type" : "Date"
+  }, {
+    "id" : "positionStatus",
+    "column" : "positionStatus",
+    "ar" : "حالة شغل الوظيفة",
+    "en" : "Position Status",
+    "type" : "Text"
+  }, {
+    "id" : "rankCode",
+    "column" : "rankCode",
+    "ar" : "كود المرتبة",
+    "en" : "Rank Code",
+    "type" : "Text"
+  }, {
+    "id" : "rankDescription",
+    "column" : "rankDescription",
+    "ar" : "وصف المرتبة",
+    "en" : "Rank Description",
+    "type" : "Text"
+  }, {
+    "id" : "ratingCode",
+    "column" : "ratingCode",
+    "ar" : "كود التقدير",
+    "en" : "Rating Code",
+    "type" : "Text"
+  }, {
+    "id" : "religionCode",
+    "column" : "religionCode",
+    "ar" : "كود الديانة",
+    "en" : "Religion Code",
+    "type" : "Text"
+  }, {
+    "id" : "remainingAnnualBalance",
+    "column" : "remainingAnnualBalance",
+    "ar" : "رصيد الإجازات الاعتيادية المتبقي",
+    "en" : "Remaining Annual Balance",
+    "type" : "Integer"
+  }, {
+    "id" : "remainingBusinessBalance",
+    "column" : "remainingBusinessBalance",
+    "ar" : "رصيد الإجازات الاضطرارية المتبقي",
+    "en" : "Remaining Business Balance",
+    "type" : "Integer"
+  }, {
+    "id" : "requestNumber",
+    "column" : "requestNumber",
+    "ar" : "رقم طلب التزام",
+    "en" : "Eltezam Request Number",
+    "type" : "Text"
+  }, {
+    "id" : "requestXML",
+    "column" : "requestXML",
+    "ar" : "ملف الإرسال",
+    "en" : "Request XML",
+    "type" : "BigText"
+  }, {
+    "id" : "responseXML",
+    "column" : "responseXML",
+    "ar" : "ملف الرد",
+    "en" : "Response XML",
+    "type" : "BigText"
+  }, {
+    "id" : "secondNameAr",
+    "column" : "secondNameAr",
+    "ar" : "الاسم الثاني بالعربية",
+    "en" : "Second Name (Arabic)",
+    "type" : "Text"
+  }, {
+    "id" : "secondNameEn",
+    "column" : "secondNameEn",
+    "ar" : "الاسم الثاني بالإنجليزية",
+    "en" : "Second Name (English)",
+    "type" : "Text"
+  }, {
+    "id" : "sendState",
+    "column" : "sendState",
+    "ar" : "حالة الإرسال لالتزام",
+    "en" : "Eltezam Send State",
+    "type" : "Enum",
+    "enum" : "EltezamSendState"
+  }, {
+    "id" : "sendTime",
+    "column" : "sendTime",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "stepDate",
+    "column" : "stepDate",
+    "ar" : "تاريخ الدرجة",
+    "en" : "Step Date",
+    "type" : "Date"
+  }, {
+    "id" : "stepID",
+    "column" : "stepID",
+    "ar" : "الدرجة",
+    "en" : "Step ID",
+    "type" : "Integer"
+  }, {
+    "id" : "subAgencyID",
+    "column" : "subAgencyID",
+    "ar" : "رقم الجهة الفرعية",
+    "en" : "Sub Agency ID",
+    "type" : "Text"
+  }, {
+    "id" : "terminationDate",
+    "column" : "terminationDate",
+    "type" : "Date"
+  }, {
+    "id" : "terminationReasonCode",
+    "column" : "terminationReasonCode",
+    "ar" : "كود سبب إنهاء الخدمة",
+    "en" : "Termination Reason Code",
+    "type" : "Text"
+  }, {
+    "id" : "thirdNameAr",
+    "column" : "thirdNameAr",
+    "ar" : "الاسم الثالث بالعربية",
+    "en" : "Third Name (Arabic)",
+    "type" : "Text"
+  }, {
+    "id" : "thirdNameEn",
+    "column" : "thirdNameEn",
+    "ar" : "الاسم الثالث بالإنجليزية",
+    "en" : "Third Name (English)",
+    "type" : "Text"
+  }, {
+    "id" : "transactionCode",
+    "column" : "transactionCode",
+    "ar" : "كود الحركة",
+    "en" : "Transaction Code",
+    "type" : "Text"
+  }, {
+    "id" : "transactionDescription",
+    "column" : "transactionDescription",
+    "ar" : "وصف الحركة",
+    "en" : "Transaction Description",
+    "type" : "Text"
+  }, {
+    "id" : "transactionEndDate",
+    "column" : "transactionEndDate",
+    "ar" : "تاريخ نهاية الحركة",
+    "en" : "Transaction End Date",
+    "type" : "Date"
+  }, {
+    "id" : "transactionStartDate",
+    "column" : "transactionStartDate",
+    "ar" : "تاريخ بداية الحركة",
+    "en" : "Transaction Start Date",
+    "type" : "Date"
+  }, {
+    "id" : "vacantDate",
+    "column" : "vacantDate",
+    "ar" : "تاريخ الشغور",
+    "en" : "Vacant Date",
+    "type" : "Date"
+  } ],
+  "details" : [ {
+    "id" : "eltezamQualifications",
+    "table" : "EltezamQualificationEntry",
+    "joinColumn" : "eltezamSysEntry_id",
+    "ar" : "مؤهلات التزام",
+    "en" : "Eltezam Qualifications",
+    "fields" : [ {
+      "id" : "eltezamQualifications.cityName",
+      "column" : "cityName",
+      "ar" : "اسم المدينة",
+      "en" : "City Name",
+      "type" : "Text"
+    }, {
+      "id" : "eltezamQualifications.countryCode",
+      "column" : "countryCode",
+      "ar" : "كود الدولة",
+      "en" : "Country Code",
+      "type" : "Text"
+    }, {
+      "id" : "eltezamQualifications.eltezamSysEntry_id",
+      "column" : "eltezamSysEntry_id",
+      "type" : "ID"
+    }, {
+      "id" : "eltezamQualifications.eltezamTransactionType",
+      "column" : "eltezamTransactionType",
+      "ar" : "نوع حركة التزام",
+      "en" : "Eltezam Transaction Type",
+      "type" : "Text"
+    }, {
+      "id" : "eltezamQualifications.graduationDate",
+      "column" : "graduationDate",
+      "ar" : "تاريخ التخرج",
+      "en" : "Graduation Date",
+      "type" : "Date"
+    }, {
+      "id" : "eltezamQualifications.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "eltezamQualifications.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "eltezamQualifications.majorCode",
+      "column" : "majorCode",
+      "ar" : "كود التخصص",
+      "en" : "Major Code",
+      "type" : "Text"
+    }, {
+      "id" : "eltezamQualifications.qualificationCode",
+      "column" : "qualificationCode",
+      "ar" : "كود المؤهل",
+      "en" : "Qualification Code",
+      "type" : "Text"
+    }, {
+      "id" : "eltezamQualifications.qualificationGrade",
+      "column" : "qualificationGrade",
+      "ar" : "تقدير المؤهل",
+      "en" : "Qualification Grade",
+      "type" : "Text"
+    }, {
+      "id" : "eltezamQualifications.qualificationID",
+      "column" : "qualificationID",
+      "ar" : "رقم المؤهل",
+      "en" : "Qualification ID",
+      "type" : "Text"
+    }, {
+      "id" : "eltezamQualifications.qualificationStatus",
+      "column" : "qualificationStatus",
+      "ar" : "حالة المؤهل",
+      "en" : "Qualification Status",
+      "type" : "Text"
+    }, {
+      "id" : "eltezamQualifications.score",
+      "column" : "score",
+      "type" : "Decimal"
+    }, {
+      "id" : "eltezamQualifications.scoreOutOf",
+      "column" : "scoreOutOf",
+      "ar" : "الدرجة من",
+      "en" : "Score Out Of",
+      "type" : "Decimal"
+    }, {
+      "id" : "eltezamQualifications.universityCode",
+      "column" : "universityCode",
+      "ar" : "كود الجامعة",
+      "en" : "University Code",
+      "type" : "Text"
+    }, {
+      "id" : "eltezamQualifications.universityName",
+      "column" : "universityName",
+      "ar" : "اسم الجامعة",
+      "en" : "University Name",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "eltezamVacations",
+    "table" : "EltezamVacationEntry",
+    "joinColumn" : "eltezamSysEntry_id",
+    "ar" : "إجازات التزام",
+    "en" : "Eltezam Vacations",
+    "fields" : [ {
+      "id" : "eltezamVacations.decisionDate",
+      "column" : "decisionDate",
+      "ar" : "تاريخ القرار",
+      "en" : "Decision Date",
+      "type" : "Date"
+    }, {
+      "id" : "eltezamVacations.decisionNumber",
+      "column" : "decisionNumber",
+      "ar" : "رقم القرار",
+      "en" : "Decision Number",
+      "type" : "Text"
+    }, {
+      "id" : "eltezamVacations.eltezamSysEntry_id",
+      "column" : "eltezamSysEntry_id",
+      "type" : "ID"
+    }, {
+      "id" : "eltezamVacations.eltezamTransactionType",
+      "column" : "eltezamTransactionType",
+      "ar" : "نوع حركة التزام",
+      "en" : "Eltezam Transaction Type",
+      "type" : "Text"
+    }, {
+      "id" : "eltezamVacations.endDate",
+      "column" : "endDate",
+      "ar" : "تاريخ النهاية",
+      "en" : "End Date",
+      "type" : "Date"
+    }, {
+      "id" : "eltezamVacations.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "eltezamVacations.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "eltezamVacations.startDate",
+      "column" : "startDate",
+      "ar" : "تاريخ البداية",
+      "en" : "Start Date",
+      "type" : "Date"
+    }, {
+      "id" : "eltezamVacations.vacationCode",
+      "column" : "vacationCode",
+      "ar" : "كود نوع الإجازة",
+      "en" : "Vacation Code",
+      "type" : "Text"
+    }, {
+      "id" : "eltezamVacations.vacationDaysPeriod",
+      "column" : "vacationDaysPeriod",
+      "ar" : "عدد أيام الإجازة",
+      "en" : "Vacation Days Period",
+      "type" : "Integer"
+    }, {
+      "id" : "eltezamVacations.vacationID",
+      "column" : "vacationID",
+      "ar" : "رقم الإجازة",
+      "en" : "Vacation ID",
+      "type" : "Text"
+    } ]
+  }, {
+    "id" : "payslipElements",
+    "table" : "EltezamPayslipElementEntry",
+    "joinColumn" : "eltezamSysEntry_id",
+    "ar" : "عناصر مسير الرواتب",
+    "en" : "Payslip Elements",
+    "fields" : [ {
+      "id" : "payslipElements.amount",
+      "column" : "amount",
+      "ar" : " المبلغ",
+      "en" : " Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "payslipElements.consolidationSetDescription",
+      "column" : "consolidationSetDescription",
+      "ar" : "وصف مجموعة الصرف",
+      "en" : "Consolidation Set Description",
+      "type" : "Text"
+    }, {
+      "id" : "payslipElements.consolidationSetID",
+      "column" : "consolidationSetID",
+      "ar" : "رقم مجموعة الصرف",
+      "en" : "Consolidation Set ID",
+      "type" : "Text"
+    }, {
+      "id" : "payslipElements.elementClassification",
+      "column" : "elementClassification",
+      "ar" : "تصنيف العنصر",
+      "en" : "Element Classification",
+      "type" : "Text"
+    }, {
+      "id" : "payslipElements.elementCode",
+      "column" : "elementCode",
+      "ar" : "كود العنصر",
+      "en" : "Element Code",
+      "type" : "Text"
+    }, {
+      "id" : "payslipElements.elementName",
+      "column" : "elementName",
+      "ar" : "اسم العنصر",
+      "en" : "Element Name",
+      "type" : "Text"
+    }, {
+      "id" : "payslipElements.eltezamSysEntry_id",
+      "column" : "eltezamSysEntry_id",
+      "type" : "ID"
+    }, {
+      "id" : "payslipElements.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "payslipElements.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
+  } ]
+}

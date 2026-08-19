@@ -710,6 +710,12 @@
       "en" : "Do Not Apply When Query",
       "type" : "BigText"
     }, {
+      "id" : "details.groovyScript",
+      "column" : "groovyScript",
+      "ar" : "Groovy Script",
+      "en" : "Groovy Script",
+      "type" : "BigText"
+    }, {
       "id" : "details.id",
       "column" : "id",
       "type" : "ID"

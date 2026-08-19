@@ -1,0 +1,62 @@
+{
+  "enum" : "EltezamLookupType",
+  "values" : [ {
+    "id" : "JobClassCode"
+  }, {
+    "id" : "JobNameCode"
+  }, {
+    "id" : "JobCatChain"
+  }, {
+    "id" : "EmploymentTypeCode"
+  }, {
+    "id" : "RankCode"
+  }, {
+    "id" : "LocationCode"
+  }, {
+    "id" : "EmployeeStatusCode"
+  }, {
+    "id" : "TransactionCode"
+  }, {
+    "id" : "JobTransactionCode"
+  }, {
+    "id" : "TerminationReasonCode"
+  }, {
+    "id" : "QualificationCode"
+  }, {
+    "id" : "MajorCode"
+  }, {
+    "id" : "UniversityCode"
+  }, {
+    "id" : "NationalityCode"
+  }, {
+    "id" : "VacationCode"
+  }, {
+    "id" : "ElementCode"
+  }, {
+    "id" : "ConsolidationSetID"
+  }, {
+    "id" : "EduGrade"
+  }, {
+    "id" : "Gender"
+  }, {
+    "id" : "Religion"
+  }, {
+    "id" : "MaritalStatus"
+  }, {
+    "id" : "HealthStatus"
+  }, {
+    "id" : "BloodType"
+  }, {
+    "id" : "RatingCode"
+  }, {
+    "id" : "AppraisalTypeCode"
+  }, {
+    "id" : "QualificationStatus"
+  }, {
+    "id" : "PositionStatus"
+  }, {
+    "id" : "ElementClassification"
+  }, {
+    "id" : "TransactionType"
+  } ]
+}

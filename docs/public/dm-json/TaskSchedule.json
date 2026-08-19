@@ -502,6 +502,12 @@
     "type" : "Enum",
     "enum" : "GenerationType"
   }, {
+    "id" : "groovyScript",
+    "column" : "groovyScript",
+    "ar" : "Groovy Script",
+    "en" : "Groovy Script",
+    "type" : "BigText"
+  }, {
     "id" : "group",
     "column" : "group_id",
     "ar" : "المجموعة",
