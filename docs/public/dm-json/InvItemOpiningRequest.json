@@ -2689,6 +2689,12 @@
       "en" : "Default",
       "type" : "Boolean"
     }, {
+      "id" : "sizesAndColors.doNotUseInPOS",
+      "column" : "doNotUseInPOS",
+      "ar" : "غير مستخدم في نقاط البيع",
+      "en" : "Do Not Use In POS",
+      "type" : "Boolean"
+    }, {
       "id" : "sizesAndColors.id",
       "column" : "id",
       "type" : "ID"
