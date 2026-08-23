@@ -1,0 +1,16 @@
+{
+  "enum" : "WMSPriority",
+  "values" : [ {
+    "id" : "P1Critical",
+    "ar" : "حرج",
+    "en" : "Critical"
+  }, {
+    "id" : "P2Important",
+    "ar" : "مهم",
+    "en" : "Important"
+  }, {
+    "id" : "P3Normal",
+    "ar" : "عادي",
+    "en" : "Normal"
+  } ]
+}

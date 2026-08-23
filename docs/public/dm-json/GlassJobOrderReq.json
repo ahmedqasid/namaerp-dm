@@ -1191,6 +1191,13 @@
     "refTo" : "PaymentTerminal",
     "refPath" : "/modules/basic-payment-gateway/PaymentTerminal.html"
   }, {
+    "id" : "pickingPriority",
+    "column" : "pickingPriority",
+    "ar" : "أولوية التجهيز",
+    "en" : "Picking Priority",
+    "type" : "Enum",
+    "enum" : "WMSPriority"
+  }, {
     "id" : "preventUsage",
     "column" : "preventUsage",
     "ar" : "منع الاستعمال",

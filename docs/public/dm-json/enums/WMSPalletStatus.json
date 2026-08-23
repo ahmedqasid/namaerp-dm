@@ -1,0 +1,16 @@
+{
+  "enum" : "WMSPalletStatus",
+  "values" : [ {
+    "id" : "Available",
+    "ar" : "متاح",
+    "en" : "Available"
+  }, {
+    "id" : "Used",
+    "ar" : "مستخدم",
+    "en" : "Used"
+  }, {
+    "id" : "Damaged",
+    "ar" : "تالف",
+    "en" : "Damaged"
+  } ]
+}

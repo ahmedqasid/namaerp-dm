@@ -1094,6 +1094,13 @@
     "refTo" : "PaymentTerminal",
     "refPath" : "/modules/basic-payment-gateway/PaymentTerminal.html"
   }, {
+    "id" : "pickingPriority",
+    "column" : "pickingPriority",
+    "ar" : "أولوية التجهيز",
+    "en" : "Picking Priority",
+    "type" : "Enum",
+    "enum" : "WMSPriority"
+  }, {
     "id" : "posCreationDateTime",
     "column" : "posCreationDateTime",
     "ar" : "تاريخ ووقت الإنشاء بنقاط البيع",

@@ -1156,6 +1156,13 @@
     "refTo" : "ReceiptAdditionalCost",
     "refPath" : "/modules/supplychain-inventory/ReceiptAdditionalCost.html"
   }, {
+    "id" : "receiptPriority",
+    "column" : "receiptPriority",
+    "ar" : "أولوية الاستلام",
+    "en" : "Receipt Priority",
+    "type" : "Enum",
+    "enum" : "WMSPriority"
+  }, {
     "id" : "ref1",
     "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
     "ar" : "مرجع 1",

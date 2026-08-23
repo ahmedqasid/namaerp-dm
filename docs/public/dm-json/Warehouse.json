@@ -160,6 +160,22 @@
     "refTo" : "Locator",
     "refPath" : "/modules/supplychain/Locator.html"
   }, {
+    "id" : "defaultPackagingLocator",
+    "column" : "defaultPackagingLocator_id",
+    "ar" : "موقع التغليف الافتراضي",
+    "en" : "Default packaging Locator",
+    "type" : "Reference",
+    "refTo" : "Locator",
+    "refPath" : "/modules/supplychain/Locator.html"
+  }, {
+    "id" : "defaultPickingLocator",
+    "column" : "defaultPickingLocator_id",
+    "ar" : "موقع التجميع الافتراضي",
+    "en" : "Default Picking Locator",
+    "type" : "Reference",
+    "refTo" : "Locator",
+    "refPath" : "/modules/supplychain/Locator.html"
+  }, {
     "id" : "defaultPurchaseUOM",
     "column" : "defaultPurchaseUOM",
     "ar" : "وحدة الشراء الافتراضية",

@@ -1048,6 +1048,13 @@
     "refTo" : "PaymentTerminal",
     "refPath" : "/modules/basic-payment-gateway/PaymentTerminal.html"
   }, {
+    "id" : "pickingPriority",
+    "column" : "pickingPriority",
+    "ar" : "أولوية التجهيز",
+    "en" : "Picking Priority",
+    "type" : "Enum",
+    "enum" : "WMSPriority"
+  }, {
     "id" : "preventUsage",
     "column" : "preventUsage",
     "ar" : "منع الاستعمال",
@@ -1123,6 +1130,13 @@
     "type" : "Reference",
     "refTo" : "ReceiptBook",
     "refPath" : "/modules/basic/ReceiptBook.html"
+  }, {
+    "id" : "receiptPriority",
+    "column" : "receiptPriority",
+    "ar" : "أولوية الاستلام",
+    "en" : "Receipt Priority",
+    "type" : "Enum",
+    "enum" : "WMSPriority"
   }, {
     "id" : "ref1",
     "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],

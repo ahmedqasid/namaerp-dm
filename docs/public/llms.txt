@@ -1751,7 +1751,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [SCGridConfigLine](https://dm.namasoft.com/dm-json/SCGridConfigLine.json)
 - [SCMeasuresFactorsLine](https://dm.namasoft.com/dm-json/SCMeasuresFactorsLine.json)
 - [SFDARSDConfig](https://dm.namasoft.com/dm-json/SFDARSDConfig.json): SFDA RSD Configuration / إعدادات تتبع الأدوية (الهيئة السعودية للغذاء والدواء)
-- [SFDARSDDocStatus](https://dm.namasoft.com/dm-json/SFDARSDDocStatus.json): SFDA RSD Document Status / حالة المستند في هيئة تتبع الدواء
+- [SFDARSDDocStatus](https://dm.namasoft.com/dm-json/SFDARSDDocStatus.json): SFDA RSD Document Status
 - [SFDARSDReportTask](https://dm.namasoft.com/dm-json/SFDARSDReportTask.json)
 - [SIAllocation](https://dm.namasoft.com/dm-json/SIAllocation.json): Car Allocation / تخصيص سيارة
 - [SIAllocationCancel](https://dm.namasoft.com/dm-json/SIAllocationCancel.json): Car Allocation Cancel / إلغاء تخصيص سيارة
@@ -2030,6 +2030,16 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [VacationsSysLine](https://dm.namasoft.com/dm-json/VacationsSysLine.json)
 - [VendorDiscount](https://dm.namasoft.com/dm-json/VendorDiscount.json): Vendor Discount / خصومات مورد
 - [VirtualEntity](https://dm.namasoft.com/dm-json/VirtualEntity.json): Virtual Entity / كيان افتراضي
+- [WMSPallet](https://dm.namasoft.com/dm-json/WMSPallet.json): WMS Pallet / طبلية مخزنية
+- [WMSPickingDoc](https://dm.namasoft.com/dm-json/WMSPickingDoc.json): WMS Picking Doc / سند تجهيز مخزني
+- [WMSPickingDocItemTotalEntry](https://dm.namasoft.com/dm-json/WMSPickingDocItemTotalEntry.json): Item Totals / إجماليات الصنف
+- [WMSPickingDocItemTotalPartialEntry](https://dm.namasoft.com/dm-json/WMSPickingDocItemTotalPartialEntry.json): Partial Item Totals / إجماليات الأصناف الجزئية
+- [WMSPickingDocOrderItemEntry](https://dm.namasoft.com/dm-json/WMSPickingDocOrderItemEntry.json): Order Items / تفاصيل الطلب
+- [WMSReceiptDoc](https://dm.namasoft.com/dm-json/WMSReceiptDoc.json): WMS Receipt Doc / سند استلام مخزني
+- [WMSReceiptDocOrderItemDamagedEntry](https://dm.namasoft.com/dm-json/WMSReceiptDocOrderItemDamagedEntry.json): Damaged Receipt Items / الأصناف المستلمة التالفة
+- [WMSReceiptDocOrderItemEntry](https://dm.namasoft.com/dm-json/WMSReceiptDocOrderItemEntry.json): Order Items / تفاصيل الطلب
+- [WMSReceiptDocOrderItemPartialEntry](https://dm.namasoft.com/dm-json/WMSReceiptDocOrderItemPartialEntry.json): Partial Receipt Items / الأصناف المستلمة جزئي
+- [WMSReceiptDocOrderItemPartialPutAwayEntry](https://dm.namasoft.com/dm-json/WMSReceiptDocOrderItemPartialPutAwayEntry.json): PutAway Receipt Items / أصناف الاستلام المُخزّنة
 - [WareLocationClass](https://dm.namasoft.com/dm-json/WareLocationClass.json): Ware location class / تصنيف الموقع المخزني
 - [Warehouse](https://dm.namasoft.com/dm-json/Warehouse.json): مخزن
 - [WarehouseGroup](https://dm.namasoft.com/dm-json/WarehouseGroup.json): Warehouse Group / مجموعة مخازن

@@ -16,6 +16,12 @@
     "en" : "Automatically Display Tooltip When Field Value Changes",
     "type" : "Boolean"
   }, {
+    "id" : "doNotApplyWithMobileApp",
+    "column" : "doNotApplyWithMobileApp",
+    "ar" : "لا تطبيق مع الموبايل",
+    "en" : "Do Not Apply With Mobile App",
+    "type" : "Boolean"
+  }, {
     "id" : "doNotRunInEditView",
     "column" : "doNotRunInEditView",
     "ar" : "تعطيل مع شاشة التحرير",

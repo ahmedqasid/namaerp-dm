@@ -387,5 +387,15 @@
     "id" : "SalesDocument",
     "ar" : "مستند بيع",
     "en" : "Sales Document"
+  }, {
+    "id" : "WMSPicking"
+  }, {
+    "id" : "WMSPackaging"
+  }, {
+    "id" : "WMSStockReceipt"
+  }, {
+    "id" : "WMSPutAway"
+  }, {
+    "id" : "WMSInventoryInquiry"
   } ]
 }

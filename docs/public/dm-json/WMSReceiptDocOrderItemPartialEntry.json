@@ -1,0 +1,37 @@
+{
+  "entity" : "WMSReceiptDocOrderItemPartialEntry",
+  "table" : "WMSReceiptDocOrderItemPartialEntry",
+  "module" : "system-tables",
+  "ar" : "الأصناف المستلمة جزئي",
+  "en" : "Partial Receipt Items",
+  "page" : "https://dm.namasoft.com/modules/system-tables/WMSReceiptDocOrderItemPartialEntry.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "mainEntryId",
+    "column" : "mainEntryId",
+    "type" : "ID"
+  }, {
+    "id" : "notPutawayQty",
+    "column" : "notPutawayQty",
+    "ar" : "كمية غير مُخزّنة",
+    "en" : "Not Putaway Qty",
+    "type" : "Decimal"
+  }, {
+    "id" : "pallet",
+    "column" : "pallet_id",
+    "ar" : "طبلية",
+    "en" : "Pallet",
+    "type" : "Reference",
+    "refTo" : "WMSPallet",
+    "refPath" : "/modules/system-tables/WMSPallet.html"
+  }, {
+    "id" : "receiptQty",
+    "column" : "receiptQty",
+    "ar" : "الكمية المستلمة",
+    "en" : "Receipt Quantity",
+    "type" : "Decimal"
+  } ]
+}

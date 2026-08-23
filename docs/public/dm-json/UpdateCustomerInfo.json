@@ -20,6 +20,98 @@
     "column" : "analysisSet_id",
     "type" : "ID"
   }, {
+    "id" : "billingAddress.address1",
+    "column" : "blAddress1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "billingAddress.address2",
+    "column" : "blAddress2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "billingAddress.area",
+    "column" : "blArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "billingAddress.buildingNumber",
+    "column" : "blBuildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "billingAddress.city",
+    "column" : "blCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "billingAddress.country",
+    "column" : "blCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "billingAddress.countryCode",
+    "column" : "blCountryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "billingAddress.district",
+    "column" : "blDistrict",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "billingAddress.landPlotNumber",
+    "column" : "blLandPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "billingAddress.mapLocation",
+    "column" : "blMapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "billingAddress.postalCode",
+    "column" : "blPostalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "billingAddress.region",
+    "column" : "blRegion_id",
+    "ar" : "منطقة جغرافيه",
+    "en" : "Region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "billingAddress.state",
+    "column" : "blState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "billingAddress.street",
+    "column" : "blStreet",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "birthDate",
+    "column" : "birthDate",
+    "ar" : "تاريخ الميلاد",
+    "en" : "Birth date",
+    "type" : "Date"
+  }, {
     "id" : "book",
     "column" : "book_id",
     "ar" : "الدفتر",
@@ -68,6 +160,128 @@
     "en" : "Commited Before",
     "type" : "Boolean"
   }, {
+    "id" : "contactInfo.address.address1",
+    "column" : "address1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.address2",
+    "column" : "address2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.area",
+    "column" : "addressArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.buildingNumber",
+    "column" : "buildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.city",
+    "column" : "addressCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.country",
+    "column" : "addressCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.countryCode",
+    "column" : "countryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.district",
+    "column" : "district",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.landPlotNumber",
+    "column" : "landPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.mapLocation",
+    "column" : "mapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "contactInfo.address.postalCode",
+    "column" : "postalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.region",
+    "column" : "region_id",
+    "ar" : "موقع جغرافي",
+    "en" : "Address region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "contactInfo.address.state",
+    "column" : "addressState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.address.street",
+    "column" : "street",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "contactInfo.email",
+    "column" : "email",
+    "ar" : "إيميل",
+    "en" : "E-mail",
+    "type" : "Email"
+  }, {
+    "id" : "contactInfo.faxNumber",
+    "column" : "faxNumber",
+    "ar" : "الفاكس",
+    "en" : "Fax",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "contactInfo.mobile",
+    "column" : "mobile",
+    "ar" : "الموبايل",
+    "en" : "Mobile",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "contactInfo.telephone1",
+    "column" : "telephone1",
+    "ar" : "تليفون 1",
+    "en" : "Phone 1",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "contactInfo.telephone2",
+    "column" : "telephone2",
+    "ar" : "تليفون 2",
+    "en" : "Phone 2",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "contactInfo.website",
+    "column" : "website",
+    "ar" : "موقع الكتروني",
+    "en" : "Website",
+    "type" : "Text"
+  }, {
     "id" : "createTransactionId",
     "column" : "createTransactionId",
     "type" : "Text"
@@ -101,6 +315,12 @@
     "type" : "Reference",
     "refTo" : "Customer",
     "refPath" : "/modules/basic/Customer.html"
+  }, {
+    "id" : "customerAltCode",
+    "column" : "customerAltCode",
+    "ar" : "الكود البديل للعميل",
+    "en" : "Customer Alternate Code",
+    "type" : "Text"
   }, {
     "id" : "customerCategory",
     "column" : "customerCategory_id",
@@ -317,6 +537,13 @@
     "en" : "From Docs Count",
     "type" : "Integer"
   }, {
+    "id" : "gender",
+    "column" : "gender",
+    "ar" : "النوع",
+    "en" : "Gender",
+    "type" : "Enum",
+    "enum" : "Gender"
+  }, {
     "id" : "generatedByLine",
     "column" : "generatedByLine",
     "ar" : "كود سطر الإنشاء",
@@ -339,6 +566,12 @@
     "en" : "Generation Type",
     "type" : "Enum",
     "enum" : "GenerationType"
+  }, {
+    "id" : "gln",
+    "column" : "gln",
+    "ar" : "رقم الموقع العالمي",
+    "en" : "GLN",
+    "type" : "Text"
   }, {
     "id" : "id",
     "column" : "id",
@@ -396,6 +629,13 @@
     "en" : "Manual Ref1",
     "type" : "Text"
   }, {
+    "id" : "maritalStatus",
+    "column" : "maritalStatus",
+    "ar" : "الحالة الأجتماعية",
+    "en" : "Martial status",
+    "type" : "Enum",
+    "enum" : "MaritalStatus"
+  }, {
     "id" : "n1",
     "column" : "n1",
     "ar" : "رقم 1",
@@ -448,6 +688,244 @@
   }, {
     "id" : "parentCode",
     "column" : "parentCode",
+    "type" : "Text"
+  }, {
+    "id" : "passport.end",
+    "column" : "passportEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "passport.issue",
+    "column" : "passportIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "passport.number",
+    "column" : "passportNumber",
+    "ar" : "رقم",
+    "en" : "Number",
+    "type" : "Text"
+  }, {
+    "id" : "prevBillingAddress.address1",
+    "column" : "prvBlAddress1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "prevBillingAddress.address2",
+    "column" : "prvBlAddress2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "prevBillingAddress.area",
+    "column" : "prvBlArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "prevBillingAddress.buildingNumber",
+    "column" : "prvBlBuildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "prevBillingAddress.city",
+    "column" : "prvBlCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "prevBillingAddress.country",
+    "column" : "prvBlCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "prevBillingAddress.countryCode",
+    "column" : "prvBlCountryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "prevBillingAddress.district",
+    "column" : "prvBlDistrict",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "prevBillingAddress.landPlotNumber",
+    "column" : "prvBlLandPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "prevBillingAddress.mapLocation",
+    "column" : "prvBlMapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "prevBillingAddress.postalCode",
+    "column" : "prvBlPostalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "prevBillingAddress.region",
+    "column" : "prvBlRegion_id",
+    "ar" : "منطقة جغرافيه",
+    "en" : "Region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "prevBillingAddress.state",
+    "column" : "prvBlState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "prevBillingAddress.street",
+    "column" : "prvBlStreet",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "prevBirthDate",
+    "column" : "prevBirthDate",
+    "ar" : "تاريخ الميلاد السابق",
+    "en" : "Previous Birth Date",
+    "type" : "Date"
+  }, {
+    "id" : "prevContactInfo.address.address1",
+    "column" : "prvAddressAddress1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "prevContactInfo.address.address2",
+    "column" : "prvAddressAddress2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "prevContactInfo.address.area",
+    "column" : "prvAddressArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "prevContactInfo.address.buildingNumber",
+    "column" : "prvAddressBuildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "prevContactInfo.address.city",
+    "column" : "prvAddressCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "prevContactInfo.address.country",
+    "column" : "prvAddressCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "prevContactInfo.address.countryCode",
+    "column" : "prvAddressCountryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "prevContactInfo.address.district",
+    "column" : "prvAddressDistrict",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "prevContactInfo.address.landPlotNumber",
+    "column" : "prvAddressLandPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "prevContactInfo.address.mapLocation",
+    "column" : "prvAddressMapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "prevContactInfo.address.postalCode",
+    "column" : "prvAddressPostalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "prevContactInfo.address.region",
+    "column" : "prvAddressRegion_id",
+    "ar" : "موقع جغرافي",
+    "en" : "Address region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "prevContactInfo.address.state",
+    "column" : "prvAddressState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "prevContactInfo.address.street",
+    "column" : "prvAddressStreet",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "prevContactInfo.email",
+    "column" : "prvEmail",
+    "ar" : "إيميل",
+    "en" : "E-mail",
+    "type" : "Email"
+  }, {
+    "id" : "prevContactInfo.faxNumber",
+    "column" : "prvFaxNumber",
+    "ar" : "الفاكس",
+    "en" : "Fax",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "prevContactInfo.mobile",
+    "column" : "prvMobile",
+    "ar" : "الموبايل",
+    "en" : "Mobile",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "prevContactInfo.telephone1",
+    "column" : "prvTelephone1",
+    "ar" : "تليفون 1",
+    "en" : "Phone 1",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "prevContactInfo.telephone2",
+    "column" : "prvTelephone2",
+    "ar" : "تليفون 2",
+    "en" : "Phone 2",
+    "type" : "PhoneNumber"
+  }, {
+    "id" : "prevContactInfo.website",
+    "column" : "prvWebsite",
+    "ar" : "موقع الكتروني",
+    "en" : "Website",
+    "type" : "Text"
+  }, {
+    "id" : "prevCustomerAltCode",
+    "column" : "prevCustomerAltCode",
+    "ar" : "الكود البديل السابق",
+    "en" : "Previous Alternative Code",
     "type" : "Text"
   }, {
     "id" : "prevCustomerCategory",
@@ -536,11 +1014,31 @@
     "en" : "Previous Description 5",
     "type" : "Text"
   }, {
+    "id" : "prevGender",
+    "column" : "prevGender",
+    "ar" : "النوع السابق",
+    "en" : "Previous Gender",
+    "type" : "Enum",
+    "enum" : "Gender"
+  }, {
+    "id" : "prevGln",
+    "column" : "prevGln",
+    "ar" : "رقم الموقع العالمي السابق",
+    "en" : "Previous GLN",
+    "type" : "Text"
+  }, {
     "id" : "prevLimitValue",
     "column" : "prevLimitValue",
     "ar" : "حد الإئتمان السابق",
     "en" : "Previous Limit Value",
     "type" : "Decimal"
+  }, {
+    "id" : "prevMaritalStatus",
+    "column" : "prevMaritalStatus",
+    "ar" : "الحالة الاجتماعية السابقة",
+    "en" : "Previous Marital Status",
+    "type" : "Enum",
+    "enum" : "MaritalStatus"
   }, {
     "id" : "prevName1",
     "column" : "prevName1",
@@ -552,6 +1050,42 @@
     "column" : "prevName2",
     "ar" : "الإسم الإنجليزي السابق",
     "en" : "Previous Name2",
+    "type" : "Text"
+  }, {
+    "id" : "prevPassport.end",
+    "column" : "prvPassEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "prevPassport.issue",
+    "column" : "prvPassIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "prevPassport.number",
+    "column" : "prvPassNumber",
+    "ar" : "رقم",
+    "en" : "Number",
+    "type" : "Text"
+  }, {
+    "id" : "prevResidency.end",
+    "column" : "prvResEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "prevResidency.issue",
+    "column" : "prvResIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "prevResidency.number",
+    "column" : "prvResNumber",
+    "ar" : "رقم",
+    "en" : "Number",
     "type" : "Text"
   }, {
     "id" : "prevResponsibleForCustomer",
@@ -569,6 +1103,172 @@
     "type" : "Reference",
     "refTo" : "Employee",
     "refPath" : "/modules/basic/Employee.html"
+  }, {
+    "id" : "prevShippingAddress.address1",
+    "column" : "prvShpAddress1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "prevShippingAddress.address2",
+    "column" : "prvShpAddress2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "prevShippingAddress.area",
+    "column" : "prvShpArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "prevShippingAddress.buildingNumber",
+    "column" : "prvShpBuildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "prevShippingAddress.city",
+    "column" : "prvShpCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "prevShippingAddress.country",
+    "column" : "prvShpCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "prevShippingAddress.countryCode",
+    "column" : "prvShpCountryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "prevShippingAddress.district",
+    "column" : "prvShpDistrict",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "prevShippingAddress.landPlotNumber",
+    "column" : "prvShpLandPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "prevShippingAddress.mapLocation",
+    "column" : "prvShpMapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "prevShippingAddress.postalCode",
+    "column" : "prvShpPostalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "prevShippingAddress.region",
+    "column" : "prvShpRegion_id",
+    "ar" : "منطقة جغرافيه",
+    "en" : "Region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "prevShippingAddress.state",
+    "column" : "prvShpState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "prevShippingAddress.street",
+    "column" : "prvShpStreet",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "prevTaxInfo.commercialRegNo",
+    "column" : "prvTaxCommercialRegNo",
+    "ar" : "رقم السجل التجاري",
+    "en" : "Commercial Registration Number",
+    "type" : "Text"
+  }, {
+    "id" : "prevTaxInfo.companyType",
+    "column" : "prvTaxCompanyType",
+    "ar" : "الكيان القانونى للشركة",
+    "en" : "The legal entity of the company",
+    "type" : "Enum",
+    "enum" : "CompanyType"
+  }, {
+    "id" : "prevTaxInfo.crNationalNumber",
+    "column" : "prvTaxCrNationalNumber",
+    "ar" : "الرقم الوطني الموحد",
+    "en" : "Commercial Registration National Number",
+    "type" : "Text"
+  }, {
+    "id" : "prevTaxInfo.dealWay",
+    "column" : "prvTaxDealWay",
+    "ar" : "ط تعامل",
+    "en" : "Deal Way",
+    "type" : "Text"
+  }, {
+    "id" : "prevTaxInfo.dealWayCode",
+    "column" : "prvTaxDealWayCode",
+    "ar" : "كود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "prevTaxInfo.fileNo",
+    "column" : "prvTaxFileNo",
+    "ar" : "رقم الملف",
+    "en" : "File No",
+    "type" : "Text"
+  }, {
+    "id" : "prevTaxInfo.idNumber",
+    "column" : "prvTaxIdNumber",
+    "ar" : "رقم البطاقة الشخصيه",
+    "en" : "Id Number",
+    "type" : "Text"
+  }, {
+    "id" : "prevTaxInfo.mission",
+    "column" : "prvTaxMission",
+    "ar" : "المأمورية",
+    "en" : "Mission",
+    "type" : "Text"
+  }, {
+    "id" : "prevTaxInfo.missionCode",
+    "column" : "prvTaxMissionCode",
+    "ar" : "كود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "prevTaxInfo.specialNumber",
+    "column" : "prvTaxSpecialNumber",
+    "ar" : "الرقم المميز",
+    "en" : "Special Number",
+    "type" : "Text"
+  }, {
+    "id" : "prevTaxInfo.supplier",
+    "column" : "prvTaxSupplier",
+    "ar" : "مورد",
+    "en" : " Supplier",
+    "type" : "Text"
+  }, {
+    "id" : "prevTaxInfo.taxRegNo",
+    "column" : "prvTaxTaxRegNo",
+    "ar" : "رقم التسجيل الضريبى",
+    "en" : "Tax Registeration NO",
+    "type" : "Text"
+  }, {
+    "id" : "prevTaxInfo.zatcaIdType",
+    "column" : "prvTaxZatcaIdType",
+    "ar" : "نوع هوية المشتري (هيئة الزكاة)",
+    "en" : "ZATCA Buyer Id Type",
+    "type" : "Enum",
+    "enum" : "ZATCAIdType"
   }, {
     "id" : "preventUsage",
     "column" : "preventUsage",
@@ -636,6 +1336,24 @@
     "en" : "Description",
     "type" : "BigText"
   }, {
+    "id" : "residency.end",
+    "column" : "residencyEnd",
+    "ar" : "تاريخ الأنتهاء",
+    "en" : "End at",
+    "type" : "Date"
+  }, {
+    "id" : "residency.issue",
+    "column" : "residencyIssue",
+    "ar" : "تاريخ الإصدار",
+    "en" : "Issue",
+    "type" : "Date"
+  }, {
+    "id" : "residency.number",
+    "column" : "residencyNumber",
+    "ar" : "رقم",
+    "en" : "Number",
+    "type" : "Text"
+  }, {
     "id" : "responsibleForCustomer",
     "column" : "responsibleForCustomer_id",
     "ar" : "المسئول عن العميل",
@@ -690,6 +1408,172 @@
     "id" : "sectorId",
     "column" : "sector_id",
     "type" : "ID"
+  }, {
+    "id" : "shippingAddress.address1",
+    "column" : "shpAddress1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "shippingAddress.address2",
+    "column" : "shpAddress2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "shippingAddress.area",
+    "column" : "shpArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "shippingAddress.buildingNumber",
+    "column" : "shpBuildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "shippingAddress.city",
+    "column" : "shpCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "shippingAddress.country",
+    "column" : "shpCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "shippingAddress.countryCode",
+    "column" : "shpCountryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "shippingAddress.district",
+    "column" : "shpDistrict",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "shippingAddress.landPlotNumber",
+    "column" : "shpLandPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "shippingAddress.mapLocation",
+    "column" : "shpMapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "shippingAddress.postalCode",
+    "column" : "shpPostalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "shippingAddress.region",
+    "column" : "shpRegion_id",
+    "ar" : "منطقة جغرافيه",
+    "en" : "Region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "shippingAddress.state",
+    "column" : "shpState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "shippingAddress.street",
+    "column" : "shpStreet",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
+    "id" : "taxInfo.commercialRegNo",
+    "column" : "taxInfoCommercialRegNo",
+    "ar" : "رقم السجل التجاري",
+    "en" : "Commercial Registration Number",
+    "type" : "Text"
+  }, {
+    "id" : "taxInfo.companyType",
+    "column" : "taxInfoCompanyType",
+    "ar" : "الكيان القانونى للشركة",
+    "en" : "The legal entity of the company",
+    "type" : "Enum",
+    "enum" : "CompanyType"
+  }, {
+    "id" : "taxInfo.crNationalNumber",
+    "column" : "taxInfoCrNationalNumber",
+    "ar" : "الرقم الوطني الموحد",
+    "en" : "Commercial Registration National Number",
+    "type" : "Text"
+  }, {
+    "id" : "taxInfo.dealWay",
+    "column" : "taxInfoDealWay",
+    "ar" : "ط تعامل",
+    "en" : "Deal Way",
+    "type" : "Text"
+  }, {
+    "id" : "taxInfo.dealWayCode",
+    "column" : "taxInfoDealWayCode",
+    "ar" : "كود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "taxInfo.fileNo",
+    "column" : "taxInfoFileNo",
+    "ar" : "رقم الملف",
+    "en" : "File No",
+    "type" : "Text"
+  }, {
+    "id" : "taxInfo.idNumber",
+    "column" : "taxInfoIdNumber",
+    "ar" : "رقم البطاقة الشخصيه",
+    "en" : "Id Number",
+    "type" : "Text"
+  }, {
+    "id" : "taxInfo.mission",
+    "column" : "taxInfoMission",
+    "ar" : "المأمورية",
+    "en" : "Mission",
+    "type" : "Text"
+  }, {
+    "id" : "taxInfo.missionCode",
+    "column" : "taxInfoMissionCode",
+    "ar" : "كود",
+    "en" : "Code",
+    "type" : "Text"
+  }, {
+    "id" : "taxInfo.specialNumber",
+    "column" : "taxInfoSpecialNumber",
+    "ar" : "الرقم المميز",
+    "en" : "Special Number",
+    "type" : "Text"
+  }, {
+    "id" : "taxInfo.supplier",
+    "column" : "taxInfoSupplier",
+    "ar" : "مورد",
+    "en" : " Supplier",
+    "type" : "Text"
+  }, {
+    "id" : "taxInfo.taxRegNo",
+    "column" : "taxInfoTaxRegNo",
+    "ar" : "رقم التسجيل الضريبى",
+    "en" : "Tax Registeration NO",
+    "type" : "Text"
+  }, {
+    "id" : "taxInfo.zatcaIdType",
+    "column" : "taxInfoZatcaIdType",
+    "ar" : "نوع هوية المشتري (هيئة الزكاة)",
+    "en" : "ZATCA Buyer Id Type",
+    "type" : "Enum",
+    "enum" : "ZATCAIdType"
   }, {
     "id" : "term",
     "column" : "term_id",

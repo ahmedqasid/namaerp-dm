@@ -1,0 +1,37 @@
+{
+  "entity" : "WMSPickingDocItemTotalPartialEntry",
+  "table" : "WMSPickingDocItemTotalPartialEntry",
+  "module" : "system-tables",
+  "ar" : "إجماليات الأصناف الجزئية",
+  "en" : "Partial Item Totals",
+  "page" : "https://dm.namasoft.com/modules/system-tables/WMSPickingDocItemTotalPartialEntry.html",
+  "fields" : [ {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "locator",
+    "column" : "locator_id",
+    "ar" : "الموقع",
+    "en" : "Locator",
+    "type" : "Reference",
+    "refTo" : "Locator",
+    "refPath" : "/modules/supplychain/Locator.html"
+  }, {
+    "id" : "mainEntryId",
+    "column" : "mainEntryId",
+    "type" : "ID"
+  }, {
+    "id" : "pickedQty",
+    "column" : "pickedQty",
+    "ar" : "الكمية المجهزة",
+    "en" : "Picked Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "user",
+    "columns" : [ "userActualCode", " userCode", " userEntityType", " userId" ],
+    "ar" : "المستخدم",
+    "en" : "User",
+    "type" : "Genericreference"
+  } ]
+}
