@@ -260,6 +260,14 @@
     "en" : "Boolean 5",
     "type" : "Boolean"
   }, {
+    "id" : "dimensionInfo.bankAccount",
+    "column" : "bankAccount_id",
+    "ar" : "رقم حساب البنك",
+    "en" : "Bank account",
+    "type" : "Reference",
+    "refTo" : "BankAccount",
+    "refPath" : "/modules/accounting-banks/BankAccount.html"
+  }, {
     "id" : "dimensionInfo.contactInfo.address.address1",
     "column" : "contactInfoAddressAddress1",
     "ar" : "عنوان 1",

@@ -1047,6 +1047,12 @@
     "en" : "Prevent Usage",
     "type" : "Boolean"
   }, {
+    "id" : "printAsList",
+    "column" : "printAsList",
+    "ar" : "طباعة كقائمة",
+    "en" : "Print As List",
+    "type" : "Boolean"
+  }, {
     "id" : "printCount",
     "column" : "printCount",
     "ar" : "عدد مرات الطباعة",

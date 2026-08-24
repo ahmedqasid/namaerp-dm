@@ -12,5 +12,9 @@
     "id" : "ACCESS",
     "ar" : "ACCESS",
     "en" : "ACCESS"
+  }, {
+    "id" : "Timetaag",
+    "ar" : "Timetaag",
+    "en" : "Timetaag"
   } ]
 }

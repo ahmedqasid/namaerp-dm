@@ -835,6 +835,12 @@
     "en" : "Tax 4 Exempt",
     "type" : "Boolean"
   }, {
+    "id" : "swiftCode",
+    "column" : "swiftCode",
+    "ar" : "كود السويفت",
+    "en" : "Swift Code",
+    "type" : "Text"
+  }, {
     "id" : "systemGeneratedCodePrefix",
     "column" : "systemGeneratedCodePrefix",
     "ar" : "System Generated Code Prefix",

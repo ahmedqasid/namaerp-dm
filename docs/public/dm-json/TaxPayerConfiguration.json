@@ -8,6 +8,10 @@
   "enPlural" : "Electronic Tax Authority Configuration Files",
   "page" : "https://dm.namasoft.com/modules/basic-tax-e-invoice/TaxPayerConfiguration.html",
   "fields" : [ {
+    "id" : "EInvoicePaymentTerms",
+    "column" : "eInvoicePaymentTerms",
+    "type" : "Text"
+  }, {
     "id" : "activityType",
     "column" : "activityType",
     "ar" : "نوع النشاط للفرع",
