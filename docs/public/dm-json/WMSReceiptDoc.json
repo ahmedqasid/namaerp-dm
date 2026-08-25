@@ -1,12 +1,12 @@
 {
   "entity" : "WMSReceiptDoc",
   "table" : "WMSReceiptDoc",
-  "module" : "system-tables",
+  "module" : "supplychain-mobile-wms",
   "ar" : "سند استلام مخزني",
   "arPlural" : "سندات استلام مخزني",
   "en" : "WMS Receipt Doc",
   "enPlural" : "WMS Receipt Docs",
-  "page" : "https://dm.namasoft.com/modules/system-tables/WMSReceiptDoc.html",
+  "page" : "https://dm.namasoft.com/modules/supplychain-mobile-wms/WMSReceiptDoc.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

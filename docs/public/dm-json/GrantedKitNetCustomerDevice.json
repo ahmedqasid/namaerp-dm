@@ -1,0 +1,53 @@
+{
+  "entity" : "GrantedKitNetCustomerDevice",
+  "table" : "GrantedKitNetCustomerDevice",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/GrantedKitNetCustomerDevice.html",
+  "fields" : [ {
+    "id" : "createdDate",
+    "column" : "createdDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "customer",
+    "column" : "customer_id",
+    "ar" : "العميل",
+    "en" : "Customer",
+    "type" : "Reference",
+    "refTo" : "Customer",
+    "refPath" : "/modules/basic/Customer.html"
+  }, {
+    "id" : "expiryDate",
+    "column" : "expiryDate",
+    "ar" : "تاريخ الإنتهاء",
+    "en" : "Expiry Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "graceExpiry",
+    "column" : "graceExpiry",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "lastAccessDate",
+    "column" : "lastAccessDate",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "mobile",
+    "column" : "mobile",
+    "ar" : "الموبايل",
+    "en" : "Mobile",
+    "type" : "Text"
+  }, {
+    "id" : "previousTokenHash",
+    "column" : "previousTokenHash",
+    "type" : "Text"
+  }, {
+    "id" : "tokenHash",
+    "column" : "tokenHash",
+    "type" : "Text"
+  } ]
+}

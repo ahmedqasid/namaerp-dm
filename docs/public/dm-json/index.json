@@ -7734,6 +7734,19 @@
     "ar" : "New GUI Theme",
     "en" : "New GUI Theme"
   }, {
+    "name" : "GeneralAnnouncement",
+    "table" : "GeneralAnnouncement",
+    "module" : "basic",
+    "ar" : "إعلانات عامة",
+    "en" : "General Announcement",
+    "details" : [ {
+      "id" : "targets",
+      "table" : "GeneralAnnouncementTargetLine"
+    }, {
+      "id" : "texts",
+      "table" : "GeneralAnnouncementTextLine"
+    } ]
+  }, {
     "name" : "GenericReferenceOverrider",
     "table" : "GenericReferenceOverrider",
     "module" : "basic",
@@ -7973,6 +7986,10 @@
   }, {
     "name" : "GrantedDevice",
     "table" : "GrantedDevice",
+    "module" : "system-tables"
+  }, {
+    "name" : "GrantedKitNetCustomerDevice",
+    "table" : "GrantedKitNetCustomerDevice",
     "module" : "system-tables"
   }, {
     "name" : "HMSAccommodation",
@@ -21157,13 +21174,13 @@
   }, {
     "name" : "WMSPallet",
     "table" : "WMSPallet",
-    "module" : "system-tables",
+    "module" : "supplychain-mobile-wms",
     "ar" : "طبلية مخزنية",
     "en" : "WMS Pallet"
   }, {
     "name" : "WMSPickingDoc",
     "table" : "WMSPickingDoc",
-    "module" : "system-tables",
+    "module" : "supplychain-mobile-wms",
     "ar" : "سند تجهيز مخزني",
     "en" : "WMS Picking Doc",
     "details" : [ {
@@ -21191,7 +21208,7 @@
   }, {
     "name" : "WMSReceiptDoc",
     "table" : "WMSReceiptDoc",
-    "module" : "system-tables",
+    "module" : "supplychain-mobile-wms",
     "ar" : "سند استلام مخزني",
     "en" : "WMS Receipt Doc",
     "details" : [ {

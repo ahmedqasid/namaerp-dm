@@ -1,12 +1,12 @@
 {
   "entity" : "WMSPickingDoc",
   "table" : "WMSPickingDoc",
-  "module" : "system-tables",
+  "module" : "supplychain-mobile-wms",
   "ar" : "سند تجهيز مخزني",
   "arPlural" : "سندات تجهيز مخزني",
   "en" : "WMS Picking Doc",
   "enPlural" : "WMS Picking Docs",
-  "page" : "https://dm.namasoft.com/modules/system-tables/WMSPickingDoc.html",
+  "page" : "https://dm.namasoft.com/modules/supplychain-mobile-wms/WMSPickingDoc.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

@@ -736,6 +736,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [FundType](https://dm.namasoft.com/dm-json/FundType.json): Fund Type / نوع المحفظة
 - [GUIPostActions](https://dm.namasoft.com/dm-json/GUIPostActions.json): GUI Post Actions
 - [GUITheme](https://dm.namasoft.com/dm-json/GUITheme.json): New GUI Theme
+- [GeneralAnnouncement](https://dm.namasoft.com/dm-json/GeneralAnnouncement.json): General Announcement / إعلانات عامة
 - [GenericReferenceOverrider](https://dm.namasoft.com/dm-json/GenericReferenceOverrider.json): Fields and Entities Settings / أعدادات الحقول و الشاشات
 - [GlassJobOrder](https://dm.namasoft.com/dm-json/GlassJobOrder.json): Glass Job Order / أمر شغل زجاج
 - [GlassJobOrderReq](https://dm.namasoft.com/dm-json/GlassJobOrderReq.json): Glass Job Order Request / طلب أمر شغل زجاج
@@ -747,6 +748,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [GoPayInvoiceEntry](https://dm.namasoft.com/dm-json/GoPayInvoiceEntry.json)
 - [GoPayPaymentEntry](https://dm.namasoft.com/dm-json/GoPayPaymentEntry.json)
 - [GrantedDevice](https://dm.namasoft.com/dm-json/GrantedDevice.json)
+- [GrantedKitNetCustomerDevice](https://dm.namasoft.com/dm-json/GrantedKitNetCustomerDevice.json)
 - [HMSAccommodation](https://dm.namasoft.com/dm-json/HMSAccommodation.json): Accommodation / تسكين مريض
 - [HMSAccommodationEntry](https://dm.namasoft.com/dm-json/HMSAccommodationEntry.json)
 - [HMSAccommodationExit](https://dm.namasoft.com/dm-json/HMSAccommodationExit.json): Accommodation Exit / خروج مريض

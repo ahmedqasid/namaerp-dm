@@ -1,12 +1,12 @@
 {
-  "entity" : "WMSPallet",
-  "table" : "WMSPallet",
-  "module" : "supplychain-mobile-wms",
-  "ar" : "طبلية مخزنية",
-  "arPlural" : "طبليات مخزنية",
-  "en" : "WMS Pallet",
-  "enPlural" : "WMS Pallets",
-  "page" : "https://dm.namasoft.com/modules/supplychain-mobile-wms/WMSPallet.html",
+  "entity" : "GeneralAnnouncement",
+  "table" : "GeneralAnnouncement",
+  "module" : "basic",
+  "ar" : "إعلانات عامة",
+  "arPlural" : "الإعلانات العامة",
+  "en" : "General Announcement",
+  "enPlural" : "General Announcements",
+  "page" : "https://dm.namasoft.com/modules/basic/GeneralAnnouncement.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -205,6 +205,12 @@
     "column" : "firstAuthor_id",
     "type" : "ID"
   }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
+  }, {
     "id" : "generatedByLine",
     "column" : "generatedByLine",
     "ar" : "كود سطر الإنشاء",
@@ -239,6 +245,12 @@
     "id" : "id",
     "column" : "id",
     "type" : "ID"
+  }, {
+    "id" : "inActive",
+    "column" : "inActive",
+    "ar" : "غير نشط",
+    "en" : "Inactive",
+    "type" : "Boolean"
   }, {
     "id" : "indexInParent",
     "column" : "indexInParent",
@@ -321,11 +333,6 @@
     "ar" : "الاسم الإنجليزي",
     "en" : "Name2",
     "type" : "Text"
-  }, {
-    "id" : "palletStatus",
-    "column" : "palletStatus",
-    "type" : "Enum",
-    "enum" : "WMSPalletStatus"
   }, {
     "id" : "parentCode",
     "column" : "parentCode",
@@ -416,6 +423,12 @@
     "en" : "System Generated Code Prefix",
     "type" : "Text"
   }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
     "ar" : "صلاحية التعديل",
@@ -451,13 +464,60 @@
     "id" : "viewCapabilityId",
     "column" : "viewCapability_id",
     "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "targets",
+    "table" : "GeneralAnnouncementTargetLine",
+    "joinColumn" : "generalAnnouncement_id",
+    "ar" : "المستهدفين",
+    "en" : "Targets",
+    "fields" : [ {
+      "id" : "targets.applicableFor",
+      "columns" : [ "applicableForActualCode", " applicableForCode", " applicableForEntityType", " applicableForId" ],
+      "ar" : "مطبق على",
+      "en" : "Applicable For",
+      "type" : "Genericreference"
+    }, {
+      "id" : "targets.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "targets.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "targets.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    } ]
   }, {
-    "id" : "warehouse",
-    "column" : "warehouse_id",
-    "ar" : "المخزن",
-    "en" : "Warehouse",
-    "type" : "Reference",
-    "refTo" : "Warehouse",
-    "refPath" : "/modules/supplychain/Warehouse.html"
+    "id" : "texts",
+    "table" : "GeneralAnnouncementTextLine",
+    "joinColumn" : "generalAnnouncement_id",
+    "ar" : "النصوص",
+    "en" : "Texts",
+    "fields" : [ {
+      "id" : "texts.arabicText",
+      "column" : "arabicText",
+      "ar" : "نص عربي",
+      "en" : "Arabic Text",
+      "type" : "BigText"
+    }, {
+      "id" : "texts.englishText",
+      "column" : "englishText",
+      "ar" : "نص إنجليزي",
+      "en" : "English Text",
+      "type" : "BigText"
+    }, {
+      "id" : "texts.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "texts.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    } ]
   } ]
 }
