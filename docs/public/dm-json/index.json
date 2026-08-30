@@ -984,6 +984,22 @@
       "table" : "AggrVacationStartDocLine"
     } ]
   }, {
+    "name" : "AgingAllocation",
+    "table" : "AgingAllocation",
+    "module" : "system-tables",
+    "ar" : "تسوية أعمار الديون",
+    "en" : "Aging Allocation",
+    "details" : [ {
+      "id" : "creditTransactions",
+      "table" : "AgingAllocationCreditTransLine"
+    }, {
+      "id" : "debitTransactions",
+      "table" : "AgingAllocationDebitTransLine"
+    }, {
+      "id" : "linkingLines",
+      "table" : "AgingAllocationLinkingLine"
+    } ]
+  }, {
     "name" : "AgrInvestContrProfitClaim",
     "table" : "AgrInvestContrProfitClaim",
     "module" : "realestate-agri-investmnent",
@@ -13228,6 +13244,14 @@
       "table" : "NamaPOSCreditNoteLine"
     } ]
   }, {
+    "name" : "NamaPOSDBUpdateStatement",
+    "table" : "NamaPOSDBUpdateStatement",
+    "module" : "namapos",
+    "details" : [ {
+      "id" : "registers",
+      "table" : "NamaPOSDBUpdateRegisterLine"
+    } ]
+  }, {
     "name" : "NamaPOSDeliveryCost",
     "table" : "NamaPOSDeliveryCost",
     "module" : "namapos",
@@ -14119,6 +14143,10 @@
     "module" : "pos-app",
     "ar" : "فئة عميل 2",
     "en" : "Customers' Class 2"
+  }, {
+    "name" : "POS.POSDBUpdateStatement",
+    "table" : "POSDBUpdateStatement",
+    "module" : "pos-app"
   }, {
     "name" : "POS.POSDepartment",
     "table" : "POSDepartment",
@@ -18297,6 +18325,7 @@
     "name" : "SFDARSDDocStatus",
     "table" : "SFDARSDDocStatus",
     "module" : "system-tables",
+    "ar" : "حالة المستند في هيئة تتبع الدواء",
     "en" : "SFDA RSD Document Status"
   }, {
     "name" : "SFDARSDReportTask",

@@ -2575,10 +2575,6 @@
       "en" : " Description",
       "type" : "BigText"
     }, {
-      "id" : "details.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "details.retFromSeq",
       "column" : "retFromSeq",
       "type" : "Long"
@@ -3562,10 +3558,6 @@
       "ar" : "ملاحظات",
       "en" : "Description",
       "type" : "BigText"
-    }, {
-      "id" : "requestsLines.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
     }, {
       "id" : "requestsLines.retFromSeq",
       "column" : "retFromSeq",

@@ -2499,10 +2499,6 @@
       "en" : "Requested",
       "type" : "Decimal"
     }, {
-      "id" : "details.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "details.retFromSeq",
       "column" : "retFromSeq",
       "type" : "Long"

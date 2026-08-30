@@ -2638,10 +2638,6 @@
       "refTo" : "Warehouse",
       "refPath" : "/modules/supplychain/Warehouse.html"
     }, {
-      "id" : "details.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "details.reservedQty",
       "column" : "reservedQty",
       "ar" : "الكمية المحجوزة",
@@ -3955,10 +3951,6 @@
       "type" : "Reference",
       "refTo" : "Warehouse",
       "refPath" : "/modules/supplychain/Warehouse.html"
-    }, {
-      "id" : "jobBomLines.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
     }, {
       "id" : "jobBomLines.reservedQty",
       "column" : "reservedQty",

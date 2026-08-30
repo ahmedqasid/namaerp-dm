@@ -2617,10 +2617,6 @@
       "en" : "Description",
       "type" : "BigText"
     }, {
-      "id" : "aggregatedLines.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "aggregatedLines.retFromSeq",
       "column" : "retFromSeq",
       "type" : "Long"
@@ -3886,10 +3882,6 @@
       "ar" : " ملاحظات",
       "en" : " Description",
       "type" : "BigText"
-    }, {
-      "id" : "details.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
     }, {
       "id" : "details.retFromSeq",
       "column" : "retFromSeq",

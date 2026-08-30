@@ -850,10 +850,6 @@
       "en" : " Description",
       "type" : "BigText"
     }, {
-      "id" : "details.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "details.retFromSeq",
       "column" : "retFromSeq",
       "type" : "Long"
@@ -1474,10 +1470,6 @@
       "en" : "Description",
       "type" : "BigText"
     }, {
-      "id" : "indirectMaterials.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "indirectMaterials.retFromSeq",
       "column" : "retFromSeq",
       "type" : "Long"
@@ -2041,10 +2033,6 @@
       "ar" : "ملاحظات",
       "en" : "Description",
       "type" : "BigText"
-    }, {
-      "id" : "outputsMaterials.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
     }, {
       "id" : "outputsMaterials.retFromSeq",
       "column" : "retFromSeq",

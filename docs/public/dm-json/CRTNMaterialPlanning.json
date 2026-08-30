@@ -1674,10 +1674,6 @@
       "en" : "Description",
       "type" : "BigText"
     }, {
-      "id" : "materials.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "materials.retFromSeq",
       "column" : "retFromSeq",
       "type" : "Long"

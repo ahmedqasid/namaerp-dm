@@ -109,6 +109,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [AggregatedVacationDocument](https://dm.namasoft.com/dm-json/AggregatedVacationDocument.json): Aggregated Vacation Document / سند أجازه مجمع
 - [AggregatedVacationRequest](https://dm.namasoft.com/dm-json/AggregatedVacationRequest.json): Aggregated Vacation Request / طلب أجازة مجمع
 - [AggregatedVacationStartingDoc](https://dm.namasoft.com/dm-json/AggregatedVacationStartingDoc.json): Aggregated Vacation work Starting document / سند مباشرة عمل أجازة مجمعة
+- [AgingAllocation](https://dm.namasoft.com/dm-json/AgingAllocation.json): Aging Allocation / تسوية أعمار الديون
 - [AgrInvestContrProfitClaim](https://dm.namasoft.com/dm-json/AgrInvestContrProfitClaim.json): Agricultural Investment Contract Profit Claim / مستند استحقاق أرباح عقد استثمار زراعي
 - [AgrInvestmentContract](https://dm.namasoft.com/dm-json/AgrInvestmentContract.json): Agricultural Investment Contract / عقد استثمار زراعي
 - [AgrInvestmentContractCategory](https://dm.namasoft.com/dm-json/AgrInvestmentContractCategory.json): Agricultural Investment Contract Category / تصنيف عقد استثمار زراعي
@@ -1264,6 +1265,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [NamaPOSAggGenericReference](https://dm.namasoft.com/dm-json/NamaPOSAggGenericReference.json): POS Aggregated Generic Reference / المرجع العام المجمع لنقاط البيع
 - [NamaPOSCancelReservation](https://dm.namasoft.com/dm-json/NamaPOSCancelReservation.json): POS Cancel Reservation / سند إلغاء حجز اوردر نقاط بيع
 - [NamaPOSCreditNote](https://dm.namasoft.com/dm-json/NamaPOSCreditNote.json): POS Credit Note / إشعار دائن نقاط البيع
+- [NamaPOSDBUpdateStatement](https://dm.namasoft.com/dm-json/NamaPOSDBUpdateStatement.json)
 - [NamaPOSDeliveryCost](https://dm.namasoft.com/dm-json/NamaPOSDeliveryCost.json): POS Delivery Cost / تكاليف خدمة توصيل نقاط البيع
 - [NamaPOSDepreciationReason](https://dm.namasoft.com/dm-json/NamaPOSDepreciationReason.json): POS Depreciation Reason / سبب الهالك
 - [NamaPOSErrorSysLine](https://dm.namasoft.com/dm-json/NamaPOSErrorSysLine.json)
@@ -1342,6 +1344,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [POS.POSCustomerCategory](https://dm.namasoft.com/dm-json/POS.POSCustomerCategory.json): Customer Category / تصنيف عميل (table: POSCustomerCategory)
 - [POS.POSCustomerClass](https://dm.namasoft.com/dm-json/POS.POSCustomerClass.json): Customers' Class / فئة عملاء (table: POSCustomerClass)
 - [POS.POSCustomerClass2](https://dm.namasoft.com/dm-json/POS.POSCustomerClass2.json): Customers' Class 2 / فئة عميل 2 (table: POSCustomerClass2)
+- [POS.POSDBUpdateStatement](https://dm.namasoft.com/dm-json/POS.POSDBUpdateStatement.json) (table: POSDBUpdateStatement)
 - [POS.POSDepartment](https://dm.namasoft.com/dm-json/POS.POSDepartment.json): إدارة (table: POSDepartment)
 - [POS.POSDepreciationReason](https://dm.namasoft.com/dm-json/POS.POSDepreciationReason.json): POS Depreciation Reason / سبب الهالك (table: POSDepreciationReason)
 - [POS.POSDiscountCoupon](https://dm.namasoft.com/dm-json/POS.POSDiscountCoupon.json): Discount Coupon / قسيمة خصومات (table: POSDiscountCoupon)
@@ -1754,7 +1757,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [SCGridConfigLine](https://dm.namasoft.com/dm-json/SCGridConfigLine.json)
 - [SCMeasuresFactorsLine](https://dm.namasoft.com/dm-json/SCMeasuresFactorsLine.json)
 - [SFDARSDConfig](https://dm.namasoft.com/dm-json/SFDARSDConfig.json): SFDA RSD Configuration / إعدادات تتبع الأدوية (الهيئة السعودية للغذاء والدواء)
-- [SFDARSDDocStatus](https://dm.namasoft.com/dm-json/SFDARSDDocStatus.json): SFDA RSD Document Status
+- [SFDARSDDocStatus](https://dm.namasoft.com/dm-json/SFDARSDDocStatus.json): SFDA RSD Document Status / حالة المستند في هيئة تتبع الدواء
 - [SFDARSDReportTask](https://dm.namasoft.com/dm-json/SFDARSDReportTask.json)
 - [SIAllocation](https://dm.namasoft.com/dm-json/SIAllocation.json): Car Allocation / تخصيص سيارة
 - [SIAllocationCancel](https://dm.namasoft.com/dm-json/SIAllocationCancel.json): Car Allocation Cancel / إلغاء تخصيص سيارة

@@ -2692,7 +2692,7 @@
       "id" : "sizesAndColors.doNotUseInPOS",
       "column" : "doNotUseInPOS",
       "ar" : "غير مستخدم في نقاط البيع",
-      "en" : "Do Not Use In POS",
+      "en" : "Not Used In POS",
       "type" : "Boolean"
     }, {
       "id" : "sizesAndColors.id",

@@ -61,6 +61,7 @@
   }, {
     "id" : "partnerGLN",
     "column" : "partnerGLN",
+    "ar" : "رقم GLN للطرف الآخر",
     "en" : "Partner GLN",
     "type" : "Text"
   }, {
@@ -96,6 +97,7 @@
   }, {
     "id" : "rsdConfig",
     "column" : "rsdConfig_id",
+    "ar" : "إعدادات تتبع الأدوية",
     "en" : "RSD Configuration",
     "type" : "Reference",
     "refTo" : "SFDARSDConfig",
@@ -103,6 +105,7 @@
   }, {
     "id" : "stakeholderWarehouse",
     "column" : "stakeholderWarehouse_id",
+    "ar" : "مخزن الجهة المُبلِّغة",
     "en" : "Stakeholder Warehouse",
     "type" : "Reference",
     "refTo" : "Warehouse",

@@ -2,6 +2,8 @@
   "entity" : "SFDARSDDocStatus",
   "table" : "SFDARSDDocStatus",
   "module" : "system-tables",
+  "ar" : "حالة المستند في هيئة تتبع الدواء",
+  "arPlural" : "حالات المستندات في هيئة تتبع الدواء",
   "en" : "SFDA RSD Document Status",
   "enPlural" : "SFDA RSD Documents Statuses",
   "page" : "https://dm.namasoft.com/modules/system-tables/SFDARSDDocStatus.html",
@@ -73,11 +75,13 @@
   }, {
     "id" : "partnerGLN",
     "column" : "partnerGLN",
+    "ar" : "رقم GLN للطرف الآخر",
     "en" : "Partner GLN",
     "type" : "Text"
   }, {
     "id" : "reportsCount",
     "column" : "reportsCount",
+    "ar" : "عدد مرات الإرسال",
     "en" : "Reports Count",
     "type" : "Integer"
   }, {
@@ -89,6 +93,7 @@
   }, {
     "id" : "rsdConfig",
     "column" : "rsdConfig_id",
+    "ar" : "إعدادات تتبع الأدوية",
     "en" : "RSD Configuration",
     "type" : "Reference",
     "refTo" : "SFDARSDConfig",
@@ -96,6 +101,7 @@
   }, {
     "id" : "stakeholderWarehouse",
     "column" : "stakeholderWarehouse_id",
+    "ar" : "مخزن الجهة المُبلِّغة",
     "en" : "Stakeholder Warehouse",
     "type" : "Reference",
     "refTo" : "Warehouse",

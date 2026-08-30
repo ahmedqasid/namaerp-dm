@@ -8,6 +8,12 @@
   "enPlural" : "Report Wizards",
   "page" : "https://dm.namasoft.com/modules/basic/ReportWizard.html",
   "fields" : [ {
+    "id" : "allowSelectingMultipleGroupsAsParameter",
+    "column" : "allowSelectingMultipleGroupsAsParameter",
+    "ar" : "السماح باختيار أكثر من مجموعة كمدخل",
+    "en" : "Allow Selecting Multiple Groups As Parameter",
+    "type" : "Boolean"
+  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",

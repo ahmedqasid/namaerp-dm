@@ -1939,10 +1939,6 @@
       "en" : "Description",
       "type" : "BigText"
     }, {
-      "id" : "deliveryLines.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "deliveryLines.retFromSeq",
       "column" : "retFromSeq",
       "type" : "Long"
@@ -3059,10 +3055,6 @@
       "type" : "Reference",
       "refTo" : "Warehouse",
       "refPath" : "/modules/supplychain/Warehouse.html"
-    }, {
-      "id" : "details.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
     }, {
       "id" : "details.reservedQty",
       "column" : "reservedQty",

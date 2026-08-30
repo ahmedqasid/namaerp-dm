@@ -49,6 +49,10 @@
     "ar" : "لا يحتوي علي",
     "en" : "Not Contain"
   }, {
+    "id" : "ContainsWithAnyOrder",
+    "ar" : "يحتوي على (تجاهل ترتيب الكلمات)",
+    "en" : "Contains (Ignore Word Order)"
+  }, {
     "id" : "OpenBracket",
     "ar" : "OpenBracket",
     "en" : "Open Bracket"

@@ -1345,10 +1345,6 @@
       "en" : "Description",
       "type" : "BigText"
     }, {
-      "id" : "finalMaterials.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "finalMaterials.retFromSeq",
       "column" : "retFromSeq",
       "type" : "Long"

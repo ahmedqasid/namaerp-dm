@@ -1517,10 +1517,6 @@
       "refTo" : "Warehouse",
       "refPath" : "/modules/supplychain/Warehouse.html"
     }, {
-      "id" : "jobBomLines.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "jobBomLines.reservedQty",
       "column" : "reservedQty",
       "ar" : "الكمية المحجوزة",

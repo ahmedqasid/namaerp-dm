@@ -1777,10 +1777,6 @@
       "refTo" : "Warehouse",
       "refPath" : "/modules/supplychain/Warehouse.html"
     }, {
-      "id" : "details.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "details.reservedQty",
       "column" : "reservedQty",
       "ar" : "الكمية المحجوزة",

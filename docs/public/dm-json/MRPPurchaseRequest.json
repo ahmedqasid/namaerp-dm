@@ -1207,10 +1207,6 @@
       "en" : "Status | requested",
       "type" : "Decimal"
     }, {
-      "id" : "purchaseLines.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "purchaseLines.retFromSeq",
       "column" : "retFromSeq",
       "type" : "Long"

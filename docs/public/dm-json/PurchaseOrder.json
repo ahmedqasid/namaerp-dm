@@ -2486,10 +2486,6 @@
       "en" : "Status | requested",
       "type" : "Decimal"
     }, {
-      "id" : "details.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "details.retFromSeq",
       "column" : "retFromSeq",
       "type" : "Long"
@@ -3861,10 +3857,6 @@
       "ar" : "المطلوب",
       "en" : "Requested",
       "type" : "Decimal"
-    }, {
-      "id" : "receiptsLines.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
     }, {
       "id" : "receiptsLines.retFromSeq",
       "column" : "retFromSeq",

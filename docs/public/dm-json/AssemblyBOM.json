@@ -1217,10 +1217,6 @@
       "en" : "Description",
       "type" : "BigText"
     }, {
-      "id" : "coProds.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "coProds.retFromSeq",
       "column" : "retFromSeq",
       "type" : "Long"

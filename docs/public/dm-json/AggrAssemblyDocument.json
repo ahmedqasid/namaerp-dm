@@ -1261,10 +1261,6 @@
       "en" : " Description",
       "type" : "BigText"
     }, {
-      "id" : "details.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "details.retFromSeq",
       "column" : "retFromSeq",
       "type" : "Long"
@@ -1840,10 +1836,6 @@
       "ar" : "ملاحظات",
       "en" : "Description",
       "type" : "BigText"
-    }, {
-      "id" : "farzas.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
     }, {
       "id" : "farzas.retFromSeq",
       "column" : "retFromSeq",
@@ -2533,10 +2525,6 @@
       "ar" : "ملاحظات",
       "en" : "Description",
       "type" : "BigText"
-    }, {
-      "id" : "halek.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
     }, {
       "id" : "halek.retFromSeq",
       "column" : "retFromSeq",
@@ -3437,10 +3425,6 @@
       "en" : "Description",
       "type" : "BigText"
     }, {
-      "id" : "materials.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
-    }, {
       "id" : "materials.retFromSeq",
       "column" : "retFromSeq",
       "type" : "Long"
@@ -4125,10 +4109,6 @@
       "ar" : "ملاحظات",
       "en" : "Description",
       "type" : "BigText"
-    }, {
-      "id" : "previousDayLines.reserveLineId",
-      "column" : "reserveLineId",
-      "type" : "ID"
     }, {
       "id" : "previousDayLines.retFromSeq",
       "column" : "retFromSeq",

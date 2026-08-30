@@ -457,10 +457,6 @@
     "en" : "Description",
     "type" : "BigText"
   }, {
-    "id" : "reserveLineId",
-    "column" : "reserveLineId",
-    "type" : "ID"
-  }, {
     "id" : "retFromSeq",
     "column" : "retFromSeq",
     "type" : "Long"
