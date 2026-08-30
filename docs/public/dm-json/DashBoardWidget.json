@@ -449,7 +449,7 @@
   }, {
     "id" : "metricsCardConfig.iconCode",
     "column" : "iconCode",
-    "ar" : "Icon Code",
+    "ar" : "كود الأيقونة",
     "en" : "Icon Code",
     "type" : "Text"
   }, {
@@ -571,7 +571,7 @@
   }, {
     "id" : "pdfSample",
     "column" : "pdfSample_id",
-    "ar" : "PDF Sample",
+    "ar" : "نموذج PDF",
     "en" : "PDF Sample",
     "type" : "Binary",
     "refTo" : "LargeData",
@@ -686,7 +686,7 @@
   }, {
     "id" : "screenshot",
     "column" : "screenshot_id",
-    "ar" : "Screenshot",
+    "ar" : "لقطة الشاشة",
     "en" : "Screenshot",
     "type" : "Binary",
     "refTo" : "LargeData",
@@ -823,7 +823,7 @@
     }, {
       "id" : "cardMenus.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {

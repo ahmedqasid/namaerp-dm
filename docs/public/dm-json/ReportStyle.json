@@ -308,7 +308,7 @@
   }, {
     "id" : "horizontalTextAlign",
     "column" : "horizontalTextAlign",
-    "ar" : "Horizontal Text Align",
+    "ar" : "محاذاة النص أفقياً",
     "en" : "Horizontal Text Align",
     "type" : "Enum",
     "enum" : "JRHorizontalAlign"

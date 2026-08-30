@@ -389,7 +389,7 @@
   }, {
     "id" : "q1.style",
     "column" : "q1Style",
-    "ar" : "Style",
+    "ar" : "التنسيق",
     "en" : "Style",
     "type" : "Text"
   }, {
@@ -419,7 +419,7 @@
   }, {
     "id" : "q2.style",
     "column" : "q2Style",
-    "ar" : "Style",
+    "ar" : "التنسيق",
     "en" : "Style",
     "type" : "Text"
   }, {
@@ -449,7 +449,7 @@
   }, {
     "id" : "q3.style",
     "column" : "q3Style",
-    "ar" : "Style",
+    "ar" : "التنسيق",
     "en" : "Style",
     "type" : "Text"
   }, {
@@ -479,7 +479,7 @@
   }, {
     "id" : "q4.style",
     "column" : "q4Style",
-    "ar" : "Style",
+    "ar" : "التنسيق",
     "en" : "Style",
     "type" : "Text"
   }, {
@@ -509,7 +509,7 @@
   }, {
     "id" : "q5.style",
     "column" : "q5Style",
-    "ar" : "Style",
+    "ar" : "التنسيق",
     "en" : "Style",
     "type" : "Text"
   }, {

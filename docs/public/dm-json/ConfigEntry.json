@@ -384,7 +384,7 @@
   }, {
     "id" : "propertyName",
     "column" : "propertyName",
-    "ar" : "Property Name",
+    "ar" : "اسم الخاصية",
     "en" : "Property Name",
     "type" : "Enum",
     "enum" : "ConfigPropertyName"

@@ -457,8 +457,6 @@
     "id" : "departmentSections",
     "table" : "TechnicianProcedureDepartmentSectionLine",
     "joinColumn" : "technicianProcedure_id",
-    "ar" : " الأقسام الوظيفية",
-    "en" : " Department Sections",
     "fields" : [ {
       "id" : "departmentSections.departmentSection",
       "column" : "departmentSection_id",

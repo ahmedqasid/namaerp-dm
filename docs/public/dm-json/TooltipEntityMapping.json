@@ -50,7 +50,7 @@
   }, {
     "id" : "iconCode",
     "column" : "iconCode",
-    "ar" : "Icon Code",
+    "ar" : "كود الأيقونة",
     "en" : "Icon Code",
     "type" : "Text"
   }, {

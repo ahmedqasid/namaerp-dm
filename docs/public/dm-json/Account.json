@@ -624,7 +624,7 @@
   }, {
     "id" : "relatedToSubModule",
     "column" : "relatedToSubModule",
-    "ar" : "Related To Sub Module",
+    "ar" : "الموديول الفرعي المرتبط",
     "en" : "Related To Sub Module",
     "type" : "Text"
   }, {

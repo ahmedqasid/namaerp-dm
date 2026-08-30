@@ -37,6 +37,16 @@
       "table" : "AIRecordEmbeddingConfigLine"
     } ]
   }, {
+    "name" : "AIRemoteSupportConfig",
+    "table" : "AIRemoteSupportConfig",
+    "module" : "ai-remote-support",
+    "ar" : "إعدادات الدعم عن بعد",
+    "en" : "Remote Support Config",
+    "details" : [ {
+      "id" : "customerSites",
+      "table" : "AIRemoteSupportConfigSite"
+    } ]
+  }, {
     "name" : "AIToolDefinition",
     "table" : "AIToolDefinition",
     "module" : "ai",

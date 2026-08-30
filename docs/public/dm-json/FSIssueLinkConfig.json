@@ -470,7 +470,7 @@
     }, {
       "id" : "sources.expression",
       "column" : "expression",
-      "ar" : "Expression",
+      "ar" : "المعادلة",
       "en" : "Expression",
       "type" : "BigText"
     }, {

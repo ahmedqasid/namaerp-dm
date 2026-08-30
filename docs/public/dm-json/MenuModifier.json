@@ -382,7 +382,7 @@
   }, {
     "id" : "pdfSample",
     "column" : "pdfSample_id",
-    "ar" : "PDF Sample",
+    "ar" : "نموذج PDF",
     "en" : "PDF Sample",
     "type" : "Binary",
     "refTo" : "LargeData",
@@ -487,7 +487,7 @@
   }, {
     "id" : "screenshot",
     "column" : "screenshot_id",
-    "ar" : "Screenshot",
+    "ar" : "لقطة الشاشة",
     "en" : "Screenshot",
     "type" : "Binary",
     "refTo" : "LargeData",
@@ -662,7 +662,7 @@
     }, {
       "id" : "updatedGroups.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -698,19 +698,19 @@
     }, {
       "id" : "updatedGroups.relatedToModule",
       "column" : "relatedToModule",
-      "ar" : "relatedToModule",
-      "en" : "relatedToModule",
+      "ar" : " الموديول المرتبط",
+      "en" : " Related To Module",
       "type" : "Text"
     }, {
       "id" : "updatedGroups.relatedToSubModule",
       "column" : "relatedToSubModule",
-      "ar" : "Related To Sub Module",
+      "ar" : "الموديول الفرعي المرتبط",
       "en" : "Related To Sub Module",
       "type" : "Text"
     }, {
       "id" : "updatedGroups.relativeTo",
       "column" : "relativeTo",
-      "ar" : "بلنسبة لــ",
+      "ar" : "بالنسبة لـ",
       "en" : "Relative To",
       "type" : "Text"
     }, {
@@ -759,7 +759,7 @@
     }, {
       "id" : "updatedItems.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -803,13 +803,13 @@
     }, {
       "id" : "updatedItems.relatedToModule",
       "column" : "relatedToModule",
-      "ar" : "Related To Module",
+      "ar" : "الموديول المرتبط",
       "en" : "Related To Module",
       "type" : "Text"
     }, {
       "id" : "updatedItems.relativeTo",
       "column" : "relativeTo",
-      "ar" : "بلنسبة لــ",
+      "ar" : "بالنسبة لـ",
       "en" : "Relative To",
       "type" : "Text"
     }, {

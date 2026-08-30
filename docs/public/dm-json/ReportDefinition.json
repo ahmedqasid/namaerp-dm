@@ -626,7 +626,7 @@
   }, {
     "id" : "pdfSample",
     "column" : "pdfSample_id",
-    "ar" : "PDF Sample",
+    "ar" : "نموذج PDF",
     "en" : "PDF Sample",
     "type" : "Binary",
     "refTo" : "LargeData",
@@ -804,7 +804,7 @@
   }, {
     "id" : "screenshot",
     "column" : "screenshot_id",
-    "ar" : "Screenshot",
+    "ar" : "لقطة الشاشة",
     "en" : "Screenshot",
     "type" : "Binary",
     "refTo" : "LargeData",
@@ -1127,7 +1127,7 @@
     }, {
       "id" : "reportGroups.reportGroup",
       "column" : "reportGroup_id",
-      "ar" : "Report Group",
+      "ar" : "مجموعة التقرير",
       "en" : "Report Group",
       "type" : "Reference",
       "refTo" : "ReportGroup",

@@ -476,7 +476,7 @@
   }, {
     "id" : "sqlQuery",
     "column" : "sqlQuery",
-    "ar" : "SQL Query",
+    "ar" : "استعلام SQL",
     "en" : "SQL Query",
     "type" : "BigText"
   }, {

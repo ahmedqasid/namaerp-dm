@@ -714,7 +714,7 @@
     }, {
       "id" : "lines.expression",
       "column" : "expression",
-      "ar" : "Expression",
+      "ar" : "المعادلة",
       "en" : "Expression",
       "type" : "BigText"
     }, {
@@ -1005,7 +1005,7 @@
     }, {
       "id" : "quickCreator.expression",
       "column" : "expression",
-      "ar" : "Expression",
+      "ar" : "المعادلة",
       "en" : "Expression",
       "type" : "BigText"
     }, {
@@ -1284,7 +1284,7 @@
     }, {
       "id" : "suggestionProviders.expression",
       "column" : "expression",
-      "ar" : "Expression",
+      "ar" : "المعادلة",
       "en" : "Expression",
       "type" : "BigText"
     }, {

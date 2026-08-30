@@ -468,8 +468,8 @@
     }, {
       "id" : "details.canViewDayVisitsDashboard",
       "column" : "canViewDayVisitsDashboard",
-      "ar" : "استعراض لوحة زيارات اليوم",
-      "en" : "View Day Visits Dashboard",
+      "ar" : "استعراض لوحة العملاء الزائرين",
+      "en" : "View Customers Visits Dashboard",
       "type" : "Boolean"
     }, {
       "id" : "details.canViewElectronicReceipt",

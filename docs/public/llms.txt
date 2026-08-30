@@ -20,6 +20,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [AIModelDefinition](https://dm.namasoft.com/dm-json/AIModelDefinition.json)
 - [AINamaDocsFile](https://dm.namasoft.com/dm-json/AINamaDocsFile.json): AI Nama Docs Utility Manager
 - [AIRecordEmbeddingConfig](https://dm.namasoft.com/dm-json/AIRecordEmbeddingConfig.json): AI Record Embedding Config
+- [AIRemoteSupportConfig](https://dm.namasoft.com/dm-json/AIRemoteSupportConfig.json): Remote Support Config / إعدادات الدعم عن بعد
 - [AIToolDefinition](https://dm.namasoft.com/dm-json/AIToolDefinition.json): AI Tool Definition
 - [APICredentials](https://dm.namasoft.com/dm-json/APICredentials.json): API Credentials
 - [AUAccount](https://dm.namasoft.com/dm-json/AUAccount.json): Auditing Account / حساب مراجعة

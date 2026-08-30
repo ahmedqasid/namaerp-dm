@@ -508,7 +508,7 @@
   }, {
     "id" : "pdfSample",
     "column" : "pdfSample_id",
-    "ar" : "PDF Sample",
+    "ar" : "نموذج PDF",
     "en" : "PDF Sample",
     "type" : "Binary",
     "refTo" : "LargeData",
@@ -685,7 +685,7 @@
   }, {
     "id" : "screenshot",
     "column" : "screenshot_id",
-    "ar" : "Screenshot",
+    "ar" : "لقطة الشاشة",
     "en" : "Screenshot",
     "type" : "Binary",
     "refTo" : "LargeData",
@@ -876,7 +876,7 @@
     }, {
       "id" : "actionLines.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -1202,7 +1202,7 @@
     }, {
       "id" : "addedGrids.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -1222,7 +1222,7 @@
     }, {
       "id" : "addedGrids.relativeTo",
       "column" : "relativeTo",
-      "ar" : "بلنسبة لــ",
+      "ar" : "بالنسبة لـ",
       "en" : "Relative To",
       "type" : "FieldID"
     }, {
@@ -1297,7 +1297,7 @@
     }, {
       "id" : "addedGroups.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -1317,7 +1317,7 @@
     }, {
       "id" : "addedGroups.relativeTo",
       "column" : "relativeTo",
-      "ar" : "بلنسبة لــ",
+      "ar" : "بالنسبة لـ",
       "en" : "Relative To",
       "type" : "FieldID"
     }, {
@@ -1457,7 +1457,7 @@
     }, {
       "id" : "compositeLines.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -1501,7 +1501,7 @@
     }, {
       "id" : "compositeLines.relativeTo",
       "column" : "relativeTo",
-      "ar" : "بلنسبة لــ",
+      "ar" : "بالنسبة لـ",
       "en" : "Relative To",
       "type" : "FieldID"
     }, {
@@ -1663,7 +1663,7 @@
     }, {
       "id" : "displayColumns.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -1677,7 +1677,7 @@
     }, {
       "id" : "displayColumns.relativeTo",
       "column" : "relativeTo",
-      "ar" : "بلنسبة لــ",
+      "ar" : "بالنسبة لـ",
       "en" : "Relative To",
       "type" : "FieldID"
     }, {
@@ -1753,7 +1753,7 @@
     }, {
       "id" : "embeddedEditLines.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -1779,7 +1779,7 @@
     }, {
       "id" : "embeddedEditLines.relativeTo",
       "column" : "relativeTo",
-      "ar" : "بلنسبة لــ",
+      "ar" : "بالنسبة لـ",
       "en" : "Relative To",
       "type" : "FieldID"
     }, {
@@ -1894,7 +1894,7 @@
     }, {
       "id" : "modifiedGrids.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -1914,7 +1914,7 @@
     }, {
       "id" : "modifiedGrids.relativeTo",
       "column" : "relativeTo",
-      "ar" : "بلنسبة لــ",
+      "ar" : "بالنسبة لـ",
       "en" : "Relative To",
       "type" : "FieldID"
     }, {
@@ -1996,7 +1996,7 @@
     }, {
       "id" : "modifiedGroups.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -2016,7 +2016,7 @@
     }, {
       "id" : "modifiedGroups.relativeTo",
       "column" : "relativeTo",
-      "ar" : "بلنسبة لــ",
+      "ar" : "بالنسبة لـ",
       "en" : "Relative To",
       "type" : "FieldID"
     }, {
@@ -2064,7 +2064,7 @@
     }, {
       "id" : "pageBlocks.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -2134,7 +2134,7 @@
     }, {
       "id" : "pageDashBoards.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -2358,7 +2358,7 @@
     }, {
       "id" : "pageLines.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -2409,7 +2409,7 @@
     }, {
       "id" : "pageReports.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -2863,7 +2863,7 @@
     }, {
       "id" : "searchDisplayColumns.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -2877,7 +2877,7 @@
     }, {
       "id" : "searchDisplayColumns.relativeTo",
       "column" : "relativeTo",
-      "ar" : "بلنسبة لــ",
+      "ar" : "بالنسبة لـ",
       "en" : "Relative To",
       "type" : "FieldID"
     }, {
@@ -3080,7 +3080,7 @@
     }, {
       "id" : "searcherTemplateColumns.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -3100,7 +3100,7 @@
     }, {
       "id" : "searcherTemplateColumns.relativeTo",
       "column" : "relativeTo",
-      "ar" : "بلنسبة لــ",
+      "ar" : "بالنسبة لـ",
       "en" : "Relative To",
       "type" : "FieldID"
     }, {
@@ -3194,7 +3194,7 @@
     }, {
       "id" : "templateColumns.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -3214,7 +3214,7 @@
     }, {
       "id" : "templateColumns.relativeTo",
       "column" : "relativeTo",
-      "ar" : "بلنسبة لــ",
+      "ar" : "بالنسبة لـ",
       "en" : "Relative To",
       "type" : "FieldID"
     }, {

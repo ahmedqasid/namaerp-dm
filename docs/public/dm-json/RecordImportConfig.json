@@ -978,7 +978,7 @@
     }, {
       "id" : "detail1Fields.expression",
       "column" : "expression",
-      "ar" : "Expression",
+      "ar" : "المعادلة",
       "en" : "Expression",
       "type" : "BigText"
     }, {
@@ -1078,7 +1078,7 @@
     }, {
       "id" : "detail2Fields.expression",
       "column" : "expression",
-      "ar" : "Expression",
+      "ar" : "المعادلة",
       "en" : "Expression",
       "type" : "BigText"
     }, {
@@ -1178,7 +1178,7 @@
     }, {
       "id" : "detail3Fields.expression",
       "column" : "expression",
-      "ar" : "Expression",
+      "ar" : "المعادلة",
       "en" : "Expression",
       "type" : "BigText"
     }, {
@@ -1278,7 +1278,7 @@
     }, {
       "id" : "detail4Fields.expression",
       "column" : "expression",
-      "ar" : "Expression",
+      "ar" : "المعادلة",
       "en" : "Expression",
       "type" : "BigText"
     }, {
@@ -1378,7 +1378,7 @@
     }, {
       "id" : "detail5Fields.expression",
       "column" : "expression",
-      "ar" : "Expression",
+      "ar" : "المعادلة",
       "en" : "Expression",
       "type" : "BigText"
     }, {
@@ -1478,7 +1478,7 @@
     }, {
       "id" : "headerFields.expression",
       "column" : "expression",
-      "ar" : "Expression",
+      "ar" : "المعادلة",
       "en" : "Expression",
       "type" : "BigText"
     }, {

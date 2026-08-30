@@ -41,7 +41,9 @@
     "ar" : "كل التقارير",
     "en" : "All Reports"
   }, {
-    "id" : "AutoDashBoards"
+    "id" : "AutoDashBoards",
+    "ar" : "اللوحات الآلية",
+    "en" : "Auto Dash Boards"
   }, {
     "id" : "UserFavourites",
     "ar" : "مفضلة مستخدم",

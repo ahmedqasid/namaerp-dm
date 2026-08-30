@@ -468,7 +468,7 @@
     }, {
       "id" : "groups.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -504,13 +504,13 @@
     }, {
       "id" : "groups.relatedToModule",
       "column" : "relatedToModule",
-      "ar" : "Related To Module",
+      "ar" : "الموديول المرتبط",
       "en" : "Related To Module",
       "type" : "Text"
     }, {
       "id" : "groups.relatedToSubModule",
       "column" : "relatedToSubModule",
-      "ar" : "Related To Sub Module",
+      "ar" : "الموديول الفرعي المرتبط",
       "en" : "Related To Sub Module",
       "type" : "Text"
     }, {
@@ -559,7 +559,7 @@
     }, {
       "id" : "items.iconCode",
       "column" : "iconCode",
-      "ar" : "Icon Code",
+      "ar" : "كود الأيقونة",
       "en" : "Icon Code",
       "type" : "Text"
     }, {
@@ -597,7 +597,7 @@
     }, {
       "id" : "items.relatedToModule",
       "column" : "relatedToModule",
-      "ar" : "Related To Module",
+      "ar" : "الموديول المرتبط",
       "en" : "Related To Module",
       "type" : "Text"
     }, {

@@ -205,7 +205,7 @@
   }, {
     "id" : "finalStaticDeclareStatements",
     "column" : "finalStaticDeclareStatements",
-    "ar" : "Final Static Declare Statements",
+    "ar" : "جمل DECLARE الثابتة النهائية",
     "en" : "Final Static Declare Statements",
     "type" : "BigText"
   }, {
@@ -447,19 +447,19 @@
   }, {
     "id" : "selectQueryPartPrefix",
     "column" : "selectQueryPartPrefix",
-    "ar" : "Select Query Part Prefix",
+    "ar" : "النص المضاف بعد SELECT في الاستعلام",
     "en" : "Select Query Part Prefix",
     "type" : "BigText"
   }, {
     "id" : "sqlQuery",
     "column" : "sqlQuery",
-    "ar" : "SQL Query",
+    "ar" : "استعلام SQL",
     "en" : "SQL Query",
     "type" : "BigText"
   }, {
     "id" : "staticDeclareStatements",
     "column" : "staticDeclareStatements",
-    "ar" : "Static Declare Statements",
+    "ar" : "جمل DECLARE الثابتة",
     "en" : "Static Declare Statements",
     "type" : "BigText"
   }, {
@@ -570,25 +570,25 @@
     }, {
       "id" : "fields.customHyperLinkExpression",
       "column" : "customHyperLinkExpression",
-      "ar" : "Custom Hyper Link Expression",
+      "ar" : "معادلة الرابط المخصصة",
       "en" : "Custom Hyper Link Expression",
       "type" : "BigText"
     }, {
       "id" : "fields.customJasperExpression",
       "column" : "customJasperExpression",
-      "ar" : "Custom Jasper Expression",
+      "ar" : "معادلة Jasper المخصصة",
       "en" : "Custom Jasper Expression",
       "type" : "BigText"
     }, {
       "id" : "fields.customPattern",
       "column" : "customPattern",
-      "ar" : "Custom Pattern",
+      "ar" : "النمط المخصص",
       "en" : "Custom Pattern",
       "type" : "Text"
     }, {
       "id" : "fields.customSqlExpression",
       "column" : "customSqlExpression",
-      "ar" : "Custom SQL Expression",
+      "ar" : "معادلة SQL المخصصة",
       "en" : "Custom SQL Expression",
       "type" : "BigText"
     }, {
@@ -645,19 +645,19 @@
     }, {
       "id" : "fields.finalHyperLinkExpression",
       "column" : "finalHyperLinkExpression",
-      "ar" : "Final Hyper Link Expression",
+      "ar" : "معادلة الرابط النهائية",
       "en" : "Final Hyper Link Expression",
       "type" : "BigText"
     }, {
       "id" : "fields.finalJasperExpression",
       "column" : "finalJasperExpression",
-      "ar" : "Final Jasper Expression",
+      "ar" : "معادلة Jasper النهائية",
       "en" : "Final Jasper Expression",
       "type" : "BigText"
     }, {
       "id" : "fields.finalSqlExpression",
       "column" : "finalSqlExpression",
-      "ar" : "Final Sql Expression",
+      "ar" : "معادلة SQL النهائية",
       "en" : "Final Sql Expression",
       "type" : "BigText"
     }, {
@@ -689,19 +689,19 @@
     }, {
       "id" : "fields.mergedArabicTitle",
       "column" : "mergedArabicTitle",
-      "ar" : "Merged Arabic Title",
+      "ar" : "العنوان المدمج بالعربية",
       "en" : "Merged Arabic Title",
       "type" : "Text"
     }, {
       "id" : "fields.mergedEnglishTitle",
       "column" : "mergedEnglishTitle",
-      "ar" : "Merged English Title",
+      "ar" : "العنوان المدمج بالإنجليزية",
       "en" : "Merged English Title",
       "type" : "Text"
     }, {
       "id" : "fields.namaFieldType",
       "column" : "namaFieldType",
-      "ar" : "Field Type",
+      "ar" : "نوع الحقل",
       "en" : "Field Type",
       "type" : "Text"
     }, {
@@ -713,13 +713,13 @@
     }, {
       "id" : "fields.patternField",
       "column" : "patternField",
-      "ar" : "Pattern Field",
+      "ar" : "حقل النمط",
       "en" : "Pattern Field",
       "type" : "FieldID"
     }, {
       "id" : "fields.patternType",
       "column" : "patternType",
-      "ar" : "Pattern Type",
+      "ar" : "نوع النمط",
       "en" : "Pattern Type",
       "type" : "Enum",
       "enum" : "PatternType"
@@ -775,7 +775,7 @@
     }, {
       "id" : "fields.sqlAggregationType",
       "column" : "sqlAggregationType",
-      "ar" : "SQL Aggregation Type",
+      "ar" : "نوع التجميع في SQL",
       "en" : "SQL Aggregation Type",
       "type" : "Enum",
       "enum" : "SqlAggregationType"
@@ -786,7 +786,7 @@
     }, {
       "id" : "fields.style",
       "column" : "style_id",
-      "ar" : "Style",
+      "ar" : "التنسيق",
       "en" : "Style",
       "type" : "Reference",
       "refTo" : "ReportStyle",
@@ -834,7 +834,7 @@
     }, {
       "id" : "fields.userAlias",
       "column" : "userAlias",
-      "ar" : "User Alias",
+      "ar" : "الاسم البديل المخصص",
       "en" : "User Alias",
       "type" : "Text"
     }, {
@@ -903,25 +903,25 @@
     }, {
       "id" : "parameters.customHyperLinkExpression",
       "column" : "customHyperLinkExpression",
-      "ar" : "Custom Hyper Link Expression",
+      "ar" : "معادلة الرابط المخصصة",
       "en" : "Custom Hyper Link Expression",
       "type" : "BigText"
     }, {
       "id" : "parameters.customJasperExpression",
       "column" : "customJasperExpression",
-      "ar" : "Custom Jasper Expression",
+      "ar" : "معادلة Jasper المخصصة",
       "en" : "Custom Jasper Expression",
       "type" : "BigText"
     }, {
       "id" : "parameters.customPattern",
       "column" : "customPattern",
-      "ar" : "Custom Pattern",
+      "ar" : "النمط المخصص",
       "en" : "Custom Pattern",
       "type" : "Text"
     }, {
       "id" : "parameters.customSqlExpression",
       "column" : "customSqlExpression",
-      "ar" : "Custom SQL Expression",
+      "ar" : "معادلة SQL المخصصة",
       "en" : "Custom SQL Expression",
       "type" : "BigText"
     }, {
@@ -1032,19 +1032,19 @@
     }, {
       "id" : "parameters.finalHyperLinkExpression",
       "column" : "finalHyperLinkExpression",
-      "ar" : "Final Hyper Link Expression",
+      "ar" : "معادلة الرابط النهائية",
       "en" : "Final Hyper Link Expression",
       "type" : "BigText"
     }, {
       "id" : "parameters.finalJasperExpression",
       "column" : "finalJasperExpression",
-      "ar" : "Final Jasper Expression",
+      "ar" : "معادلة Jasper النهائية",
       "en" : "Final Jasper Expression",
       "type" : "BigText"
     }, {
       "id" : "parameters.finalSqlExpression",
       "column" : "finalSqlExpression",
-      "ar" : "Final Sql Expression",
+      "ar" : "معادلة SQL النهائية",
       "en" : "Final Sql Expression",
       "type" : "BigText"
     }, {
@@ -1096,19 +1096,19 @@
     }, {
       "id" : "parameters.mergedArabicTitle",
       "column" : "mergedArabicTitle",
-      "ar" : "Merged Arabic Title",
+      "ar" : "العنوان المدمج بالعربية",
       "en" : "Merged Arabic Title",
       "type" : "Text"
     }, {
       "id" : "parameters.mergedEnglishTitle",
       "column" : "mergedEnglishTitle",
-      "ar" : "Merged English Title",
+      "ar" : "العنوان المدمج بالإنجليزية",
       "en" : "Merged English Title",
       "type" : "Text"
     }, {
       "id" : "parameters.namaFieldType",
       "column" : "namaFieldType",
-      "ar" : "Field Type",
+      "ar" : "نوع الحقل",
       "en" : "Field Type",
       "type" : "Text"
     }, {
@@ -1134,13 +1134,13 @@
     }, {
       "id" : "parameters.patternField",
       "column" : "patternField",
-      "ar" : "Pattern Field",
+      "ar" : "حقل النمط",
       "en" : "Pattern Field",
       "type" : "FieldID"
     }, {
       "id" : "parameters.patternType",
       "column" : "patternType",
-      "ar" : "Pattern Type",
+      "ar" : "نوع النمط",
       "en" : "Pattern Type",
       "type" : "Enum",
       "enum" : "PatternType"
@@ -1250,7 +1250,7 @@
     }, {
       "id" : "parameters.sqlAggregationType",
       "column" : "sqlAggregationType",
-      "ar" : "SQL Aggregation Type",
+      "ar" : "نوع التجميع في SQL",
       "en" : "SQL Aggregation Type",
       "type" : "Enum",
       "enum" : "SqlAggregationType"
@@ -1261,7 +1261,7 @@
     }, {
       "id" : "parameters.style",
       "column" : "style_id",
-      "ar" : "Style",
+      "ar" : "التنسيق",
       "en" : "Style",
       "type" : "Reference",
       "refTo" : "ReportStyle",
@@ -1324,7 +1324,7 @@
     "id" : "securityConstraints",
     "table" : "DataSourceSecurityConstraints",
     "joinColumn" : "dataSource_id",
-    "ar" : "Security Constraints",
+    "ar" : "قيود الصلاحيات",
     "en" : "Security Constraints",
     "fields" : [ {
       "id" : "securityConstraints.fieldId",
@@ -1367,7 +1367,7 @@
     }, {
       "id" : "securityConstraints.loginEmployee",
       "column" : "loginEmployee",
-      "ar" : "Login Employee",
+      "ar" : "موظف الدخول",
       "en" : "Login Employee",
       "type" : "Boolean"
     }, {
@@ -1441,25 +1441,25 @@
     }, {
       "id" : "sortFields.customHyperLinkExpression",
       "column" : "customHyperLinkExpression",
-      "ar" : "Custom Hyper Link Expression",
+      "ar" : "معادلة الرابط المخصصة",
       "en" : "Custom Hyper Link Expression",
       "type" : "BigText"
     }, {
       "id" : "sortFields.customJasperExpression",
       "column" : "customJasperExpression",
-      "ar" : "Custom Jasper Expression",
+      "ar" : "معادلة Jasper المخصصة",
       "en" : "Custom Jasper Expression",
       "type" : "BigText"
     }, {
       "id" : "sortFields.customPattern",
       "column" : "customPattern",
-      "ar" : "Custom Pattern",
+      "ar" : "النمط المخصص",
       "en" : "Custom Pattern",
       "type" : "Text"
     }, {
       "id" : "sortFields.customSqlExpression",
       "column" : "customSqlExpression",
-      "ar" : "Custom SQL Expression",
+      "ar" : "معادلة SQL المخصصة",
       "en" : "Custom SQL Expression",
       "type" : "BigText"
     }, {
@@ -1509,19 +1509,19 @@
     }, {
       "id" : "sortFields.finalHyperLinkExpression",
       "column" : "finalHyperLinkExpression",
-      "ar" : "Final Hyper Link Expression",
+      "ar" : "معادلة الرابط النهائية",
       "en" : "Final Hyper Link Expression",
       "type" : "BigText"
     }, {
       "id" : "sortFields.finalJasperExpression",
       "column" : "finalJasperExpression",
-      "ar" : "Final Jasper Expression",
+      "ar" : "معادلة Jasper النهائية",
       "en" : "Final Jasper Expression",
       "type" : "BigText"
     }, {
       "id" : "sortFields.finalSqlExpression",
       "column" : "finalSqlExpression",
-      "ar" : "Final Sql Expression",
+      "ar" : "معادلة SQL النهائية",
       "en" : "Final Sql Expression",
       "type" : "BigText"
     }, {
@@ -1553,19 +1553,19 @@
     }, {
       "id" : "sortFields.mergedArabicTitle",
       "column" : "mergedArabicTitle",
-      "ar" : "Merged Arabic Title",
+      "ar" : "العنوان المدمج بالعربية",
       "en" : "Merged Arabic Title",
       "type" : "Text"
     }, {
       "id" : "sortFields.mergedEnglishTitle",
       "column" : "mergedEnglishTitle",
-      "ar" : "Merged English Title",
+      "ar" : "العنوان المدمج بالإنجليزية",
       "en" : "Merged English Title",
       "type" : "Text"
     }, {
       "id" : "sortFields.namaFieldType",
       "column" : "namaFieldType",
-      "ar" : "Field Type",
+      "ar" : "نوع الحقل",
       "en" : "Field Type",
       "type" : "Text"
     }, {
@@ -1577,13 +1577,13 @@
     }, {
       "id" : "sortFields.patternField",
       "column" : "patternField",
-      "ar" : "Pattern Field",
+      "ar" : "حقل النمط",
       "en" : "Pattern Field",
       "type" : "FieldID"
     }, {
       "id" : "sortFields.patternType",
       "column" : "patternType",
-      "ar" : "Pattern Type",
+      "ar" : "نوع النمط",
       "en" : "Pattern Type",
       "type" : "Enum",
       "enum" : "PatternType"
@@ -1646,7 +1646,7 @@
     }, {
       "id" : "sortFields.sqlAggregationType",
       "column" : "sqlAggregationType",
-      "ar" : "SQL Aggregation Type",
+      "ar" : "نوع التجميع في SQL",
       "en" : "SQL Aggregation Type",
       "type" : "Enum",
       "enum" : "SqlAggregationType"
@@ -1657,7 +1657,7 @@
     }, {
       "id" : "sortFields.style",
       "column" : "style_id",
-      "ar" : "Style",
+      "ar" : "التنسيق",
       "en" : "Style",
       "type" : "Reference",
       "refTo" : "ReportStyle",
@@ -1711,7 +1711,7 @@
     }, {
       "id" : "sortFields.userAlias",
       "column" : "userAlias",
-      "ar" : "User Alias",
+      "ar" : "الاسم البديل المخصص",
       "en" : "User Alias",
       "type" : "Text"
     }, {
@@ -1747,7 +1747,7 @@
     "id" : "userAliases",
     "table" : "DataSourceUserAliasesLine",
     "joinColumn" : "dataSource_id",
-    "ar" : "User Aliases",
+    "ar" : "الأسماء البديلة للجداول",
     "en" : "User Aliases",
     "fields" : [ {
       "id" : "userAliases.id",
@@ -1760,25 +1760,25 @@
     }, {
       "id" : "userAliases.propertyName",
       "column" : "propertyName",
-      "ar" : "Property Name",
+      "ar" : "اسم الخاصية",
       "en" : "Property Name",
       "type" : "Text"
     }, {
       "id" : "userAliases.systemAlias",
       "column" : "systemAlias",
-      "ar" : "System Alias",
+      "ar" : "الاسم البديل الآلي",
       "en" : "System Alias",
       "type" : "Text"
     }, {
       "id" : "userAliases.tableName",
       "column" : "tableName",
-      "ar" : "Table Name",
+      "ar" : "اسم الجدول",
       "en" : "Table Name",
       "type" : "Text"
     }, {
       "id" : "userAliases.userAlias",
       "column" : "userAlias",
-      "ar" : "User Alias",
+      "ar" : "الاسم البديل المخصص",
       "en" : "User Alias",
       "type" : "Text"
     } ]

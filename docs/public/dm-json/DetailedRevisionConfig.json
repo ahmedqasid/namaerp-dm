@@ -479,8 +479,8 @@
     "id" : "steps",
     "table" : "DetailedRevisionStep",
     "joinColumn" : "detailedRevisionConfig_id",
-    "ar" : "الخطوات",
-    "en" : "Steps",
+    "ar" : "خطوات المراجعة",
+    "en" : "Revision Steps",
     "fields" : [ {
       "id" : "steps.id",
       "column" : "id",
