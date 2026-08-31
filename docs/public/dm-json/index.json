@@ -15677,6 +15677,10 @@
     "table" : "PendingTask",
     "module" : "system-tables"
   }, {
+    "name" : "PendingTaskSchedule",
+    "table" : "PendingTaskSchedule",
+    "module" : "system-tables"
+  }, {
     "name" : "PerformanceIndicator",
     "table" : "PerformanceIndicator",
     "module" : "humanresource-payroll",
@@ -20566,6 +20570,12 @@
     "module" : "travel",
     "ar" : "تصنيف خدمة سياحية",
     "en" : "Tour Service Class"
+  }, {
+    "name" : "TaskQueue",
+    "table" : "TaskQueue",
+    "module" : "system-tables",
+    "ar" : "طابور المهام",
+    "en" : "Task Queue"
   }, {
     "name" : "TaskSchedule",
     "table" : "TaskSchedule",

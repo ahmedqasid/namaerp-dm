@@ -54,6 +54,12 @@
     "en" : "Line Number",
     "type" : "Integer"
   }, {
+    "id" : "methodOrder",
+    "column" : "methodOrder",
+    "ar" : "الترتيب",
+    "en" : "Order",
+    "type" : "Integer"
+  }, {
     "id" : "processAfter",
     "column" : "processAfter",
     "ar" : "Process After",
@@ -145,6 +151,14 @@
     "ar" : "السجل",
     "en" : "Target Record",
     "type" : "Genericreference"
+  }, {
+    "id" : "taskQueue",
+    "column" : "taskQueue_id",
+    "ar" : "طابور المهام",
+    "en" : "Task Queue",
+    "type" : "Reference",
+    "refTo" : "TaskQueue",
+    "refPath" : "/modules/system-tables/TaskQueue.html"
   }, {
     "id" : "trials",
     "column" : "trials",

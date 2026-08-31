@@ -1528,6 +1528,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [PendingEntityFlow](https://dm.namasoft.com/dm-json/PendingEntityFlow.json)
 - [PendingSystemAction](https://dm.namasoft.com/dm-json/PendingSystemAction.json)
 - [PendingTask](https://dm.namasoft.com/dm-json/PendingTask.json)
+- [PendingTaskSchedule](https://dm.namasoft.com/dm-json/PendingTaskSchedule.json)
 - [PerformanceIndicator](https://dm.namasoft.com/dm-json/PerformanceIndicator.json): Performance Indicator / مؤشر الأداء
 - [PerformanceMeasure](https://dm.namasoft.com/dm-json/PerformanceMeasure.json): Performance Measure / قيمة مؤشر أداء
 - [PerformanceOptimizer](https://dm.namasoft.com/dm-json/PerformanceOptimizer.json): Performance Optimizer / إعدادات لتحسين الأداء
@@ -1969,6 +1970,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [TRTourProgram](https://dm.namasoft.com/dm-json/TRTourProgram.json): Tour Program / برنامج سياحي
 - [TRTourService](https://dm.namasoft.com/dm-json/TRTourService.json): Tour Service / خدمة سياحية
 - [TRTourServiceClass](https://dm.namasoft.com/dm-json/TRTourServiceClass.json): Tour Service Class / تصنيف خدمة سياحية
+- [TaskQueue](https://dm.namasoft.com/dm-json/TaskQueue.json): Task Queue / طابور المهام
 - [TaskSchedule](https://dm.namasoft.com/dm-json/TaskSchedule.json): Task Schedule / مهمة مجدولة
 - [TaskScheduleExecutionLog](https://dm.namasoft.com/dm-json/TaskScheduleExecutionLog.json)
 - [TaxAuthoritySubmissionDoc](https://dm.namasoft.com/dm-json/TaxAuthoritySubmissionDoc.json): Tax Authority Submission Document / إرسال مستندات الي مصلحة الضرائب

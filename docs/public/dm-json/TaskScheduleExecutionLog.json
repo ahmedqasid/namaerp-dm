@@ -37,6 +37,8 @@
   }, {
     "id" : "taskSchedule",
     "column" : "taskSchedule_id",
+    "ar" : "جدولة المهام",
+    "en" : "Task Schedule",
     "type" : "Reference",
     "refTo" : "TaskSchedule",
     "refPath" : "/modules/basic/TaskSchedule.html"

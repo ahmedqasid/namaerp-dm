@@ -1,0 +1,39 @@
+{
+  "entity" : "PendingTaskSchedule",
+  "table" : "PendingTaskSchedule",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/PendingTaskSchedule.html",
+  "fields" : [ {
+    "id" : "currentlyRunning",
+    "column" : "currentlyRunning",
+    "ar" : "قيد التنفيذ",
+    "en" : "Currently Running",
+    "type" : "Boolean"
+  }, {
+    "id" : "expectedNextRun",
+    "column" : "expectedNextRun",
+    "ar" : "موعد التشغيل المتوقع",
+    "en" : "Expected Next Run",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "taskQueue",
+    "column" : "taskQueue_id",
+    "ar" : "طابور المهام",
+    "en" : "Task Queue",
+    "type" : "Reference",
+    "refTo" : "TaskQueue",
+    "refPath" : "/modules/system-tables/TaskQueue.html"
+  }, {
+    "id" : "taskSchedule",
+    "column" : "taskSchedule_id",
+    "ar" : "جدولة المهام",
+    "en" : "Task Schedule",
+    "type" : "Reference",
+    "refTo" : "TaskSchedule",
+    "refPath" : "/modules/basic/TaskSchedule.html"
+  } ]
+}
