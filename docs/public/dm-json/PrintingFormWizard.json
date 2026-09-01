@@ -1049,6 +1049,8 @@
   }, {
     "id" : "printAsList",
     "column" : "printAsList",
+    "ar" : "طباعة كقائمة",
+    "en" : "Print As List",
     "type" : "Boolean"
   }, {
     "id" : "printCount",
