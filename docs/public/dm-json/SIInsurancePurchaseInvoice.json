@@ -2,10 +2,10 @@
   "entity" : "SIInsurancePurchaseInvoice",
   "table" : "SIInsurancePurchaseInvoice",
   "module" : "srvcenter-insurance-and-installments",
-  "ar" : "فاتورة شراء تأمين سيارة",
-  "arPlural" : "فواتير شراء تأمين سيارات",
-  "en" : "Car Insurance Purchase Invoice",
-  "enPlural" : "Car Insurance Purchase Invoices",
+  "ar" : "فاتورة شراء وثيقة تامين سيارة",
+  "arPlural" : "فواتير شراء وثيقة تامين سيارة",
+  "en" : "Car Insurance Policy Purchase Invoice",
+  "enPlural" : "Car Insurance Policy Purchase Invoices",
   "page" : "https://dm.namasoft.com/modules/srvcenter-insurance-and-installments/SIInsurancePurchaseInvoice.html",
   "fields" : [ {
     "id" : "analysisSet",
@@ -662,6 +662,8 @@
   }, {
     "id" : "policyOrder",
     "column" : "policyOrder_id",
+    "ar" : "أمر إصدار وثيقة تأمين",
+    "en" : "Insurance Policy Issuance Order",
     "type" : "Reference",
     "refTo" : "SIInsurancePolicyOrder",
     "refPath" : "/modules/srvcenter-insurance-and-installments/SIInsurancePolicyOrder.html"
@@ -800,6 +802,8 @@
   }, {
     "id" : "totalCommissionValue",
     "column" : "totalCommissionValue",
+    "ar" : "إجمالي قيمة العمولة",
+    "en" : "Total Commission Value",
     "type" : "Decimal"
   }, {
     "id" : "totalInsuranceValue",

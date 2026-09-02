@@ -158,7 +158,7 @@
     "en" : "Task Queue",
     "type" : "Reference",
     "refTo" : "TaskQueue",
-    "refPath" : "/modules/system-tables/TaskQueue.html"
+    "refPath" : "/modules/basic/TaskQueue.html"
   }, {
     "id" : "trials",
     "column" : "trials",

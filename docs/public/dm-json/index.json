@@ -986,7 +986,7 @@
   }, {
     "name" : "AgingAllocation",
     "table" : "AgingAllocation",
-    "module" : "system-tables",
+    "module" : "accounting",
     "ar" : "تسوية أعمار الديون",
     "en" : "Aging Allocation",
     "details" : [ {
@@ -1046,7 +1046,7 @@
   }, {
     "name" : "AlwataniaDistConfig",
     "table" : "AlwataniaDistConfig",
-    "module" : "supplychain-ksa-watania-integration",
+    "module" : "integrations-ksa-watania-samil",
     "ar" : "إعدادات ربط موزعي الوطنية",
     "en" : "Alwatania Distributors Config"
   }, {
@@ -18487,8 +18487,8 @@
     "name" : "SIInsurancePurchaseInvoice",
     "table" : "SIInsurancePurchaseInvoice",
     "module" : "srvcenter-insurance-and-installments",
-    "ar" : "فاتورة شراء تأمين سيارة",
-    "en" : "Car Insurance Purchase Invoice",
+    "ar" : "فاتورة شراء وثيقة تامين سيارة",
+    "en" : "Car Insurance Policy Purchase Invoice",
     "details" : [ {
       "id" : "details",
       "table" : "SIInsurancePurchaseInvoiceLine"
@@ -20573,7 +20573,7 @@
   }, {
     "name" : "TaskQueue",
     "table" : "TaskQueue",
-    "module" : "system-tables",
+    "module" : "basic",
     "ar" : "طابور المهام",
     "en" : "Task Queue"
   }, {

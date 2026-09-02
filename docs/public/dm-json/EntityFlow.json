@@ -627,7 +627,7 @@
     "en" : "Task Queue",
     "type" : "Reference",
     "refTo" : "TaskQueue",
-    "refPath" : "/modules/system-tables/TaskQueue.html"
+    "refPath" : "/modules/basic/TaskQueue.html"
   }, {
     "id" : "term",
     "column" : "term_id",

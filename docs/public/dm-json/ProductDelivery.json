@@ -714,14 +714,6 @@
     "en" : "Description",
     "type" : "BigText"
   }, {
-    "id" : "reservDocId",
-    "column" : "reservDocId",
-    "type" : "ID"
-  }, {
-    "id" : "reservDocType",
-    "column" : "reservDocType",
-    "type" : "EntityType"
-  }, {
     "id" : "retestDate",
     "column" : "retestDate",
     "ar" : "تاريخ إعادة الاختبار",

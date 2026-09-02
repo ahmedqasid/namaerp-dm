@@ -598,14 +598,6 @@
     "en" : "Required Check Control",
     "type" : "Boolean"
   }, {
-    "id" : "reservDocId",
-    "column" : "reservDocId",
-    "type" : "ID"
-  }, {
-    "id" : "reservDocType",
-    "column" : "reservDocType",
-    "type" : "EntityType"
-  }, {
     "id" : "returnDoc",
     "column" : "returnDoc",
     "ar" : "مرتجع",

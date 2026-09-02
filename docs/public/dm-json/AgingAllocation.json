@@ -1,12 +1,12 @@
 {
   "entity" : "AgingAllocation",
   "table" : "AgingAllocation",
-  "module" : "system-tables",
+  "module" : "accounting",
   "ar" : "تسوية أعمار الديون",
   "arPlural" : "تسويات أعمار الديون",
   "en" : "Aging Allocation",
   "enPlural" : "Aging Allocations",
-  "page" : "https://dm.namasoft.com/modules/system-tables/AgingAllocation.html",
+  "page" : "https://dm.namasoft.com/modules/accounting/AgingAllocation.html",
   "fields" : [ {
     "id" : "account",
     "column" : "account_id",

@@ -1775,7 +1775,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [SIInsurancePolicyRenewal](https://dm.namasoft.com/dm-json/SIInsurancePolicyRenewal.json): Car Insurance Policy Renewal / تجديد وثيقة تأمين سيارة
 - [SIInsurancePolicyValueAdjustment](https://dm.namasoft.com/dm-json/SIInsurancePolicyValueAdjustment.json): Car Insurance Policy Value Adjustment / تعديل قيمة وثيقة تأمين سيارة
 - [SIInsuranceProgram](https://dm.namasoft.com/dm-json/SIInsuranceProgram.json): Car Insurance Program / برنامج تأمين سيارة
-- [SIInsurancePurchaseInvoice](https://dm.namasoft.com/dm-json/SIInsurancePurchaseInvoice.json): Car Insurance Purchase Invoice / فاتورة شراء تأمين سيارة
+- [SIInsurancePurchaseInvoice](https://dm.namasoft.com/dm-json/SIInsurancePurchaseInvoice.json): Car Insurance Policy Purchase Invoice / فاتورة شراء وثيقة تامين سيارة
 - [SIProformaPurchaseInvoice](https://dm.namasoft.com/dm-json/SIProformaPurchaseInvoice.json): Car Proforma Purchase Invoice / فاتورة مشتريات سيارة مبدئية
 - [SIProformaSalesInvoice](https://dm.namasoft.com/dm-json/SIProformaSalesInvoice.json): Car Proforma Sales Invoice / فاتورة مبيعات سيارة مبدئية
 - [SIPurchaseInvoice](https://dm.namasoft.com/dm-json/SIPurchaseInvoice.json): Car Purchase Invoice / فاتورة شراء سيارة

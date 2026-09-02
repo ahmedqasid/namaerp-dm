@@ -1327,14 +1327,6 @@
     "refTo" : "PurchaseQuotationRequest",
     "refPath" : "/modules/supplychain-purchases/PurchaseQuotationRequest.html"
   }, {
-    "id" : "reservDocId",
-    "column" : "reservDocId",
-    "type" : "ID"
-  }, {
-    "id" : "reservDocType",
-    "column" : "reservDocType",
-    "type" : "EntityType"
-  }, {
     "id" : "returnDoc",
     "column" : "returnDoc",
     "ar" : "مرتجع",

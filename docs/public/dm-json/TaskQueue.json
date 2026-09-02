@@ -1,12 +1,12 @@
 {
   "entity" : "TaskQueue",
   "table" : "TaskQueue",
-  "module" : "system-tables",
+  "module" : "basic",
   "ar" : "طابور المهام",
   "arPlural" : "طوابير المهام",
   "en" : "Task Queue",
   "enPlural" : "Task Queues",
-  "page" : "https://dm.namasoft.com/modules/system-tables/TaskQueue.html",
+  "page" : "https://dm.namasoft.com/modules/basic/TaskQueue.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

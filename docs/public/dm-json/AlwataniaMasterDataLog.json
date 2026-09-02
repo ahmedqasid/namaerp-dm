@@ -20,7 +20,7 @@
     "column" : "config_id",
     "type" : "Reference",
     "refTo" : "AlwataniaDistConfig",
-    "refPath" : "/modules/supplychain-ksa-watania-integration/AlwataniaDistConfig.html"
+    "refPath" : "/modules/integrations-ksa-watania-samil/AlwataniaDistConfig.html"
   }, {
     "id" : "createdOnAlwatania",
     "column" : "createdOnAlwatania",

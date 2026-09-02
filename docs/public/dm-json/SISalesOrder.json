@@ -786,6 +786,12 @@
     "en" : "Reservation Value",
     "type" : "Decimal"
   }, {
+    "id" : "insurancePolicy",
+    "columns" : [ "insurancePolicyActualCode", " insurancePolicyCode", " insurancePolicyEntityType", " insurancePolicyId" ],
+    "ar" : "الوثيقة",
+    "en" : "Policy",
+    "type" : "Genericreference"
+  }, {
     "id" : "invTransReqId",
     "column" : "invTransReqId",
     "type" : "ID"
@@ -1456,14 +1462,6 @@
     "ar" : "ملاحظات",
     "en" : "Description",
     "type" : "BigText"
-  }, {
-    "id" : "reservDocId",
-    "column" : "reservDocId",
-    "type" : "ID"
-  }, {
-    "id" : "reservDocType",
-    "column" : "reservDocType",
-    "type" : "EntityType"
   }, {
     "id" : "returnDoc",
     "column" : "returnDoc",

@@ -1281,14 +1281,6 @@
     "en" : "Request Is Invoiced",
     "type" : "Boolean"
   }, {
-    "id" : "reservDocId",
-    "column" : "reservDocId",
-    "type" : "ID"
-  }, {
-    "id" : "reservDocType",
-    "column" : "reservDocType",
-    "type" : "EntityType"
-  }, {
     "id" : "returnDoc",
     "column" : "returnDoc",
     "ar" : "مرتجع",
