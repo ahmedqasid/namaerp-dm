@@ -10,6 +10,12 @@
     "en" : " Document #",
     "type" : "Genericreference"
   }, {
+    "id" : "errorMessage",
+    "column" : "errorMessage",
+    "ar" : "رسالة الخطأ",
+    "en" : "Error Message",
+    "type" : "BigText"
+  }, {
     "id" : "eventName",
     "column" : "eventName",
     "type" : "Text"
@@ -18,10 +24,40 @@
     "column" : "id",
     "type" : "ID"
   }, {
+    "id" : "requestBody",
+    "column" : "requestBody",
+    "ar" : "Request Body",
+    "en" : "Request Body",
+    "type" : "BigText"
+  }, {
+    "id" : "response",
+    "column" : "response",
+    "ar" : "Response",
+    "en" : "Response",
+    "type" : "BigText"
+  }, {
     "id" : "sendDate",
     "column" : "sendDate",
     "ar" : "تاريخ الإرسال",
     "en" : "Send Date",
     "type" : "DateAndTime"
+  }, {
+    "id" : "success",
+    "column" : "success",
+    "ar" : "ناجح",
+    "en" : "Success",
+    "type" : "Boolean"
+  }, {
+    "id" : "userRequestBody",
+    "column" : "userRequestBody",
+    "ar" : "بيانات طلب العميل المرسلة",
+    "en" : "User Request Body",
+    "type" : "BigText"
+  }, {
+    "id" : "userResponse",
+    "column" : "userResponse",
+    "ar" : "رد طلب العميل",
+    "en" : "User Response",
+    "type" : "BigText"
   } ]
 }

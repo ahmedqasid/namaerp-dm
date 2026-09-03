@@ -263,6 +263,12 @@
     "en" : "Entity Type",
     "type" : "EntityType"
   }, {
+    "id" : "estimateValueFromFormula",
+    "column" : "estimateValueFromFormula",
+    "ar" : "تخمين قيمة مفرد الراتب من المعادلة",
+    "en" : "Estimate Salary Element Value From Formula",
+    "type" : "Boolean"
+  }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
     "ar" : "منشئ السجل",

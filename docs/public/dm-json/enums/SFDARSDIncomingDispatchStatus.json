@@ -1,0 +1,16 @@
+{
+  "enum" : "SFDARSDIncomingDispatchStatus",
+  "values" : [ {
+    "id" : "WaitingReceipt",
+    "ar" : "بانتظار الاستلام",
+    "en" : "Waiting Receipt"
+  }, {
+    "id" : "PartiallyReceived",
+    "ar" : "مستلم جزئيا",
+    "en" : "Partially Received"
+  }, {
+    "id" : "FullyReceived",
+    "ar" : "مستلم بالكامل",
+    "en" : "Fully Received"
+  } ]
+}

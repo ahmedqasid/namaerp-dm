@@ -1,0 +1,120 @@
+{
+  "entity" : "SFDARSDIncomingDispatch",
+  "table" : "SFDARSDIncomingDispatch",
+  "module" : "system-tables",
+  "ar" : "شحنة واردة من مورد (تتبع الأدوية)",
+  "arPlural" : "الشحنات الواردة من الموردين (تتبع الأدوية)",
+  "en" : "SFDA RSD Incoming Dispatch",
+  "enPlural" : "SFDA RSD Incoming Dispatches",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SFDARSDIncomingDispatch.html",
+  "fields" : [ {
+    "id" : "batchNumber",
+    "column" : "batchNumber",
+    "ar" : "رقم التشغيلة",
+    "en" : "Batch Number",
+    "type" : "Text"
+  }, {
+    "id" : "dispatchDate",
+    "column" : "dispatchDate",
+    "ar" : "تاريخ الشحن",
+    "en" : "Dispatch Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "expiryDate",
+    "column" : "expiryDate",
+    "ar" : "تاريخ الإنتهاء",
+    "en" : "Expiry Date",
+    "type" : "Date"
+  }, {
+    "id" : "gtin",
+    "column" : "gtin",
+    "ar" : "رقم GTIN",
+    "en" : "GTIN",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "item",
+    "column" : "item_id",
+    "ar" : "الصنف",
+    "en" : "Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "lastPullDate",
+    "column" : "lastPullDate",
+    "ar" : "تاريخ آخر تحديث من الهيئة",
+    "en" : "Last Pull Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "notificationId",
+    "column" : "notificationId",
+    "ar" : "Notification ID",
+    "en" : "Notification ID",
+    "type" : "Text"
+  }, {
+    "id" : "quantity",
+    "column" : "quantity",
+    "ar" : "الكمية",
+    "en" : "Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "receiptDocument",
+    "columns" : [ "receiptDocumentActualCode", " receiptDocumentCode", " receiptDocumentEntityType", " receiptDocumentId" ],
+    "ar" : "مستند الاستلام",
+    "en" : "Receipt Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "receivedQuantity",
+    "column" : "receivedQuantity",
+    "ar" : "الكمية المستلمة",
+    "en" : "Received Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "receiverGLN",
+    "column" : "receiverGLN",
+    "ar" : "رقم GLN للجهة المستلمة",
+    "en" : "Receiver GLN",
+    "type" : "Text"
+  }, {
+    "id" : "rsdConfig",
+    "column" : "rsdConfig_id",
+    "ar" : "إعدادات تتبع الأدوية",
+    "en" : "RSD Configuration",
+    "type" : "Reference",
+    "refTo" : "SFDARSDConfig",
+    "refPath" : "/modules/supplychain-ksa-rsd/SFDARSDConfig.html"
+  }, {
+    "id" : "stakeholderWarehouse",
+    "column" : "stakeholderWarehouse_id",
+    "ar" : "مخزن الجهة المُبلِّغة",
+    "en" : "Stakeholder Warehouse",
+    "type" : "Reference",
+    "refTo" : "Warehouse",
+    "refPath" : "/modules/supplychain/Warehouse.html"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "SFDARSDIncomingDispatchStatus"
+  }, {
+    "id" : "supplier",
+    "column" : "supplier_id",
+    "ar" : "مورد",
+    "en" : " Supplier",
+    "type" : "Reference",
+    "refTo" : "Supplier",
+    "refPath" : "/modules/basic/Supplier.html"
+  }, {
+    "id" : "supplierGLN",
+    "column" : "supplierGLN",
+    "ar" : "رقم GLN للمورد",
+    "en" : "Supplier GLN",
+    "type" : "Text"
+  } ]
+}
