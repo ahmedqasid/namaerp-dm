@@ -784,10 +784,22 @@
       "column" : "lineNumber",
       "type" : "Integer"
     }, {
+      "id" : "details.mainVacTypeBalanceRemainder",
+      "column" : "mainVacTypeBalanceRemainder",
+      "ar" : "الرصيد المتبقي بعد الإجازة من نوع الإجازة الرئيسي",
+      "en" : "Main Vacation Type Balance Remainder",
+      "type" : "Decimal"
+    }, {
       "id" : "details.manualVacationPeriod",
       "column" : "manualVacationPeriod",
       "ar" : "مدة الاجازة (غير شامل العطلات الرسمية ونهاية الاسبوع - حسب نوع الإجازة)",
       "en" : "Vacation Period (Excluding Weekend and Holidays - Based on Vacation Type)",
+      "type" : "Decimal"
+    }, {
+      "id" : "details.prevMainVacTypeBalance",
+      "column" : "prevMainVacTypeBalance",
+      "ar" : "الرصيد السابق من نوع الإجازة الرئيسي قبل بدء الإجازة",
+      "en" : "Previous Main Vacation Type Balance",
       "type" : "Decimal"
     }, {
       "id" : "details.remarks",

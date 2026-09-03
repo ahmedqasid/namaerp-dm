@@ -8,6 +8,12 @@
   "enPlural" : "MCS Eltezam Configuration",
   "page" : "https://dm.namasoft.com/modules/integrations-ksa-estidamah-eltezam/EltezamConfiguration.html",
   "fields" : [ {
+    "id" : "actualJobNameCodeFromEmployee",
+    "column" : "actualJobNameCodeFromEmployee",
+    "ar" : "كود المسمى الفعلي للوظيفة من حقل بالموظف",
+    "en" : "Actual Job Name Code From Employee Field",
+    "type" : "BigText"
+  }, {
     "id" : "agencyOrganizationID",
     "column" : "agencyOrganizationID",
     "ar" : "رقم الجهة الحكومية",
@@ -273,6 +279,12 @@
     "column" : "firstAuthor_id",
     "type" : "ID"
   }, {
+    "id" : "firstGradeDateFromEmployee",
+    "column" : "firstGradeDateFromEmployee",
+    "ar" : "تاريخ أول مرتبة من حقل بالموظف",
+    "en" : "First Grade Date From Employee Field",
+    "type" : "BigText"
+  }, {
     "id" : "generatedByLine",
     "column" : "generatedByLine",
     "ar" : "كود سطر الإنشاء",
@@ -311,18 +323,6 @@
     "id" : "indexInParent",
     "column" : "indexInParent",
     "type" : "Integer"
-  }, {
-    "id" : "jobClassCodeFromEmployee",
-    "column" : "jobClassCodeFromEmployee",
-    "ar" : "كود الفئة الوظيفية من حقل بالموظف",
-    "en" : "Job Class Code From Employee Field",
-    "type" : "BigText"
-  }, {
-    "id" : "jobNameCodeFromEmployee",
-    "column" : "jobNameCodeFromEmployee",
-    "ar" : "كود مسمى الوظيفة من حقل بالموظف",
-    "en" : "Job Name Code From Employee Field",
-    "type" : "BigText"
   }, {
     "id" : "jobNumberFromEmployee",
     "column" : "jobNumberFromEmployee",
