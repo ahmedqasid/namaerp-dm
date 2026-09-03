@@ -312,6 +312,24 @@
     "column" : "indexInParent",
     "type" : "Integer"
   }, {
+    "id" : "jobClassCodeFromEmployee",
+    "column" : "jobClassCodeFromEmployee",
+    "ar" : "كود الفئة الوظيفية من حقل بالموظف",
+    "en" : "Job Class Code From Employee Field",
+    "type" : "BigText"
+  }, {
+    "id" : "jobNameCodeFromEmployee",
+    "column" : "jobNameCodeFromEmployee",
+    "ar" : "كود مسمى الوظيفة من حقل بالموظف",
+    "en" : "Job Name Code From Employee Field",
+    "type" : "BigText"
+  }, {
+    "id" : "jobNumberFromEmployee",
+    "column" : "jobNumberFromEmployee",
+    "ar" : "رقم الوظيفة من حقل بالموظف",
+    "en" : "Job Number From Employee Field",
+    "type" : "BigText"
+  }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
     "type" : "Integer"
