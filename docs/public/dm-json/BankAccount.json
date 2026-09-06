@@ -8,6 +8,12 @@
   "enPlural" : "Bank Accounts",
   "page" : "https://dm.namasoft.com/modules/accounting-banks/BankAccount.html",
   "fields" : [ {
+    "id" : "accountNumberSentToTaxAuth",
+    "column" : "accountNumberSentToTaxAuth",
+    "ar" : "رقم الحساب البنكي المرسل لمصلحة الضرائب",
+    "en" : "Account Number Sent To Tax Authority",
+    "type" : "Text"
+  }, {
     "id" : "accountType",
     "column" : "accountType",
     "ar" : "نوع الحساب",
