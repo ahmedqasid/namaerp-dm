@@ -2,6 +2,10 @@
   "entity" : "POS.POSDBUpdateStatement",
   "table" : "POSDBUpdateStatement",
   "module" : "pos-app",
+  "ar" : "POS DB Update Statement Runner",
+  "arPlural" : "POS DB Update Statement Runner",
+  "en" : "POS DB Update Statement Runner",
+  "enPlural" : "POS DB Update Statement Runners",
   "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSDBUpdateStatement.html",
   "fields" : [ {
     "id" : "affectedRows",
@@ -41,6 +45,7 @@
     "id" : "executionSerial",
     "column" : "executionSerial",
     "ar" : "مسلسل التنفيذ",
+    "en" : "Execution Serial",
     "type" : "Integer"
   }, {
     "id" : "genericDims.analysisSet.code",

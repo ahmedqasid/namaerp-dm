@@ -1,12 +1,12 @@
 {
-  "entity" : "NamaPOSDBUpdateStatement",
-  "table" : "NamaPOSDBUpdateStatement",
-  "module" : "namapos",
-  "ar" : "POS DB Update Statement Runner",
-  "arPlural" : "POS DB Update Statement Runner",
-  "en" : "POS DB Update Statement Runner",
-  "enPlural" : "POS DB Update Statement Runners",
-  "page" : "https://dm.namasoft.com/modules/namapos/NamaPOSDBUpdateStatement.html",
+  "entity" : "SystemAccountTransException",
+  "table" : "SystemAccountTransException",
+  "module" : "accounting",
+  "ar" : "استثناءات الحركة على الحسابات النظامية",
+  "arPlural" : "استثناءات الحركة على الحسابات النظامية",
+  "en" : "System Accounts Transactions Exceptions",
+  "enPlural" : "System Accounts Transactions Exceptions",
+  "page" : "https://dm.namasoft.com/modules/accounting/SystemAccountTransException.html",
   "fields" : [ {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
@@ -193,12 +193,6 @@
     "en" : "Entity Type",
     "type" : "EntityType"
   }, {
-    "id" : "executionSerial",
-    "column" : "executionSerial",
-    "ar" : "مسلسل التنفيذ",
-    "en" : "Execution Serial",
-    "type" : "Integer"
-  }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
     "ar" : "منشئ السجل",
@@ -210,6 +204,12 @@
     "id" : "firstAuthorId",
     "column" : "firstAuthor_id",
     "type" : "ID"
+  }, {
+    "id" : "fromDate",
+    "column" : "fromDate",
+    "ar" : "من تاريخ",
+    "en" : "From Date",
+    "type" : "Date"
   }, {
     "id" : "generatedByLine",
     "column" : "generatedByLine",
@@ -417,6 +417,12 @@
     "en" : "System Generated Code Prefix",
     "type" : "Text"
   }, {
+    "id" : "toDate",
+    "column" : "toDate",
+    "ar" : "إلى تاريخ",
+    "en" : "To Date",
+    "type" : "Date"
+  }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
     "ar" : "صلاحية التعديل",
@@ -429,12 +435,6 @@
     "column" : "updateCapability_id",
     "type" : "ID"
   }, {
-    "id" : "updateStatement",
-    "column" : "updateStatement",
-    "ar" : "جملة التحديث",
-    "en" : "Update Statement",
-    "type" : "BigText"
-  }, {
     "id" : "usageCapability",
     "column" : "usageCapability_id",
     "ar" : "صلاحية الاستخدام",
@@ -446,12 +446,6 @@
     "id" : "usageCapabilityId",
     "column" : "usageCapability_id",
     "type" : "ID"
-  }, {
-    "id" : "validUntil",
-    "column" : "validUntil",
-    "ar" : "صالح حتي",
-    "en" : "Valid until",
-    "type" : "DateAndTime"
   }, {
     "id" : "viewCapability",
     "column" : "viewCapability_id",
@@ -466,27 +460,68 @@
     "type" : "ID"
   } ],
   "details" : [ {
-    "id" : "registers",
-    "table" : "NamaPOSDBUpdateRegisterLine",
-    "joinColumn" : "namaPOSDBUpdateStatement_id",
-    "ar" : "الماكينات المستهدفة",
-    "en" : "Target Registers",
+    "id" : "details",
+    "table" : "SystemAccountTransExceptionLine",
+    "joinColumn" : "systemAccountTransException_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
     "fields" : [ {
-      "id" : "registers.id",
+      "id" : "details.account",
+      "column" : "account_id",
+      "ar" : " حساب",
+      "en" : " Account",
+      "type" : "Reference",
+      "refTo" : "Account",
+      "refPath" : "/modules/accounting/Account.html"
+    }, {
+      "id" : "details.book",
+      "column" : "book_id",
+      "ar" : "الدفتر",
+      "en" : "Book",
+      "type" : "Reference",
+      "refTo" : "DocumentBook",
+      "refPath" : "/modules/basic/DocumentBook.html"
+    }, {
+      "id" : "details.docType",
+      "column" : "docType",
+      "ar" : "نوع المستند",
+      "en" : "Document Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "details.id",
       "column" : "id",
       "type" : "ID"
     }, {
-      "id" : "registers.lineNumber",
+      "id" : "details.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
     }, {
-      "id" : "registers.register",
-      "column" : "register_id",
-      "ar" : "الماكينة",
-      "en" : "Register",
+      "id" : "details.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "details.term",
+      "column" : "term_id",
+      "ar" : "توجيه المستند",
+      "en" : "Term",
       "type" : "Reference",
-      "refTo" : "NamaPOSRegister",
-      "refPath" : "/modules/namapos/NamaPOSRegister.html"
+      "refTo" : "DocumentTerm",
+      "refPath" : "/modules/basic/DocumentTerm.html"
+    }, {
+      "id" : "details.transNature",
+      "column" : "transNature",
+      "ar" : "طبيعة الحركة",
+      "en" : "Transaction Nature",
+      "type" : "Enum",
+      "enum" : "SysAccountTransNature"
+    }, {
+      "id" : "details.user",
+      "columns" : [ "userActualCode", " userCode", " userEntityType", " userId" ],
+      "ar" : "المستخدم",
+      "en" : "User",
+      "type" : "Genericreference"
     } ]
   } ]
 }

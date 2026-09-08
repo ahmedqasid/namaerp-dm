@@ -1265,7 +1265,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [NamaPOSAggGenericReference](https://dm.namasoft.com/dm-json/NamaPOSAggGenericReference.json): POS Aggregated Generic Reference / المرجع العام المجمع لنقاط البيع
 - [NamaPOSCancelReservation](https://dm.namasoft.com/dm-json/NamaPOSCancelReservation.json): POS Cancel Reservation / سند إلغاء حجز اوردر نقاط بيع
 - [NamaPOSCreditNote](https://dm.namasoft.com/dm-json/NamaPOSCreditNote.json): POS Credit Note / إشعار دائن نقاط البيع
-- [NamaPOSDBUpdateStatement](https://dm.namasoft.com/dm-json/NamaPOSDBUpdateStatement.json)
+- [NamaPOSDBUpdateStatement](https://dm.namasoft.com/dm-json/NamaPOSDBUpdateStatement.json): POS DB Update Statement Runner
 - [NamaPOSDeliveryCost](https://dm.namasoft.com/dm-json/NamaPOSDeliveryCost.json): POS Delivery Cost / تكاليف خدمة توصيل نقاط البيع
 - [NamaPOSDepreciationReason](https://dm.namasoft.com/dm-json/NamaPOSDepreciationReason.json): POS Depreciation Reason / سبب الهالك
 - [NamaPOSErrorSysLine](https://dm.namasoft.com/dm-json/NamaPOSErrorSysLine.json)
@@ -1344,7 +1344,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [POS.POSCustomerCategory](https://dm.namasoft.com/dm-json/POS.POSCustomerCategory.json): Customer Category / تصنيف عميل (table: POSCustomerCategory)
 - [POS.POSCustomerClass](https://dm.namasoft.com/dm-json/POS.POSCustomerClass.json): Customers' Class / فئة عملاء (table: POSCustomerClass)
 - [POS.POSCustomerClass2](https://dm.namasoft.com/dm-json/POS.POSCustomerClass2.json): Customers' Class 2 / فئة عميل 2 (table: POSCustomerClass2)
-- [POS.POSDBUpdateStatement](https://dm.namasoft.com/dm-json/POS.POSDBUpdateStatement.json) (table: POSDBUpdateStatement)
+- [POS.POSDBUpdateStatement](https://dm.namasoft.com/dm-json/POS.POSDBUpdateStatement.json): POS DB Update Statement Runner (table: POSDBUpdateStatement)
 - [POS.POSDepartment](https://dm.namasoft.com/dm-json/POS.POSDepartment.json): إدارة (table: POSDepartment)
 - [POS.POSDepreciationReason](https://dm.namasoft.com/dm-json/POS.POSDepreciationReason.json): POS Depreciation Reason / سبب الهالك (table: POSDepreciationReason)
 - [POS.POSDiscountCoupon](https://dm.namasoft.com/dm-json/POS.POSDiscountCoupon.json): Discount Coupon / قسيمة خصومات (table: POSDiscountCoupon)
@@ -1952,6 +1952,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [SysVacBalanceTransaction](https://dm.namasoft.com/dm-json/SysVacBalanceTransaction.json)
 - [SysVacationsBalance](https://dm.namasoft.com/dm-json/SysVacationsBalance.json)
 - [SysVacationsBalanceByDate](https://dm.namasoft.com/dm-json/SysVacationsBalanceByDate.json)
+- [SystemAccountTransException](https://dm.namasoft.com/dm-json/SystemAccountTransException.json): System Accounts Transactions Exceptions / استثناءات الحركة على الحسابات النظامية
 - [TRCity](https://dm.namasoft.com/dm-json/TRCity.json): Travel City / مدينة سفر
 - [TRCountry](https://dm.namasoft.com/dm-json/TRCountry.json): Travel Country / دولة سفر
 - [TRHotel](https://dm.namasoft.com/dm-json/TRHotel.json): Hotel / فندق

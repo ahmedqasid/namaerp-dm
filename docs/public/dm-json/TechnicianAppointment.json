@@ -617,5 +617,64 @@
       "en" : "Time | To",
       "type" : "Time"
     } ]
+  }, {
+    "id" : "itemsAndServices",
+    "table" : "TechnicianAppointmentItemServiceLine",
+    "joinColumn" : "technicianAppointment_id",
+    "ar" : "الأصناف والخدمات",
+    "en" : "Items And Services",
+    "fields" : [ {
+      "id" : "itemsAndServices.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "itemsAndServices.item",
+      "columns" : [ "itemActualCode", " itemCode", " itemEntityType", " itemId" ],
+      "ar" : "الصنف",
+      "en" : "Item",
+      "type" : "Genericreference"
+    }, {
+      "id" : "itemsAndServices.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "itemsAndServices.quantity",
+      "column" : "quantity",
+      "ar" : "الكمية",
+      "en" : "Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "itemsAndServices.remarks",
+      "column" : "remarks",
+      "ar" : "ملاحظات",
+      "en" : "Description",
+      "type" : "BigText"
+    }, {
+      "id" : "itemsAndServices.technicianService",
+      "column" : "technicianService_id",
+      "ar" : " خدمة فنية",
+      "en" : " Technician Service",
+      "type" : "Reference",
+      "refTo" : "TechnicianService",
+      "refPath" : "/modules/crm-technician-appointments/TechnicianService.html"
+    }, {
+      "id" : "itemsAndServices.technicianServiceQuantity",
+      "column" : "technicianServiceQuantity",
+      "ar" : "كمية الخدمة",
+      "en" : "Service Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "itemsAndServices.technicianServiceUom",
+      "columns" : [ "tchncianServiceUomActualCode", " technicianServiceUomCode", " tchncianServiceUomEntityType", " technicianServiceUomId" ],
+      "ar" : "وحدة الخدمة",
+      "en" : "Service Unit",
+      "type" : "Genericreference"
+    }, {
+      "id" : "itemsAndServices.uom",
+      "columns" : [ "uomActualCode", " uomCode", " uomEntityType", " uomId" ],
+      "ar" : "الوحدة",
+      "en" : "Unit",
+      "type" : "Genericreference"
+    } ]
   } ]
 }

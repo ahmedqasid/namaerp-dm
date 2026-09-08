@@ -1,0 +1,16 @@
+{
+  "enum" : "SysAccountTransNature",
+  "values" : [ {
+    "id" : "AllowDebit",
+    "ar" : "مدين",
+    "en" : "Debit"
+  }, {
+    "id" : "AllowCredit",
+    "ar" : "دائن",
+    "en" : "Credit"
+  }, {
+    "id" : "AllowDebitAndCredit",
+    "ar" : "مدين ودائن",
+    "en" : "Debit and Credit"
+  } ]
+}
