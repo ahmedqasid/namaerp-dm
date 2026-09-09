@@ -822,6 +822,12 @@
     "type" : "Enum",
     "enum" : "DiscountLocation"
   }, {
+    "id" : "orderStatusFieldId",
+    "column" : "orderStatusFieldId",
+    "ar" : "حقل حالة الطلب",
+    "en" : "Order Status Field Id",
+    "type" : "FieldID"
+  }, {
     "id" : "originalPriceSource",
     "column" : "originalPriceSource",
     "ar" : "مصدر السعر الاساسى",
