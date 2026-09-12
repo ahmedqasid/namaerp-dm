@@ -2802,6 +2802,46 @@
       "type" : "Integer"
     } ]
   }, {
+    "id" : "searchColumnsVisibility",
+    "table" : "ScreenSearchColumnVisibility",
+    "joinColumn" : "screenModifier_id",
+    "ar" : "التحكم في ظهور الأعمدة بشكل افتراضي",
+    "en" : "Default Columns Visibility Control",
+    "fields" : [ {
+      "id" : "searchColumnsVisibility.columnFieldId",
+      "column" : "columnFieldId",
+      "ar" : "العمود",
+      "en" : "Column",
+      "type" : "FieldID"
+    }, {
+      "id" : "searchColumnsVisibility.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "searchColumnsVisibility.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "searchColumnsVisibility.searchInField",
+      "column" : "searchInField",
+      "ar" : "الحقل الذي يتم البحث به",
+      "en" : "Searched From Field",
+      "type" : "FieldID"
+    }, {
+      "id" : "searchColumnsVisibility.searchInType",
+      "column" : "searchInType",
+      "ar" : "النوع الذي يتم البحث به",
+      "en" : "Searched From Type",
+      "type" : "EntityType"
+    }, {
+      "id" : "searchColumnsVisibility.visibility",
+      "column" : "visibility",
+      "ar" : "التحكم",
+      "en" : "Visibility",
+      "type" : "Enum",
+      "enum" : "SearchColumnVisibility"
+    } ]
+  }, {
     "id" : "searchCriteriaFields",
     "table" : "ScreenSearchCriteriaFields",
     "joinColumn" : "screenModifier_id",
@@ -2836,6 +2876,12 @@
       "ar" : "عنوان عربي",
       "en" : "Arabic",
       "type" : "Text"
+    }, {
+      "id" : "searchDisplayColumns.enableVisibilityControl",
+      "column" : "enableVisibilityControl",
+      "ar" : "تفعيل التحكم في الظهور على مستوى النوع والحقل",
+      "en" : "Enable Visibility Control By Type And Field",
+      "type" : "Boolean"
     }, {
       "id" : "searchDisplayColumns.english",
       "column" : "english",

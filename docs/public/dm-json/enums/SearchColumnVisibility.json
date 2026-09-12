@@ -1,0 +1,12 @@
+{
+  "enum" : "SearchColumnVisibility",
+  "values" : [ {
+    "id" : "Visible",
+    "ar" : "ظاهر",
+    "en" : "Visible"
+  }, {
+    "id" : "Hidden",
+    "ar" : "غير ظاهر",
+    "en" : "Hidden"
+  } ]
+}
