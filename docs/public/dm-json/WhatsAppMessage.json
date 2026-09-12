@@ -78,6 +78,12 @@
     "refTo" : "WhatsAppMessageConfiguration",
     "refPath" : "/modules/basic-whatsapp/WhatsAppMessageConfiguration.html"
   }, {
+    "id" : "contactNameTemplate",
+    "column" : "contactNameTemplate",
+    "ar" : "قالب اسم جهة الاتصال",
+    "en" : "Contact Name Template",
+    "type" : "BigText"
+  }, {
     "id" : "createTransactionId",
     "column" : "createTransactionId",
     "type" : "Text"

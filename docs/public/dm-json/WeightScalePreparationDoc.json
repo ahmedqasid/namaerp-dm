@@ -1329,6 +1329,12 @@
       "en" : "Satisfied Qty 2",
       "type" : "Decimal"
     }, {
+      "id" : "details.sentByDevice",
+      "column" : "sentByDevice",
+      "ar" : "الوزن من الميزان",
+      "en" : "Weight Sent By Device",
+      "type" : "Boolean"
+    }, {
       "id" : "details.sizeName",
       "column" : "sizeName",
       "ar" : "اسم المقاس",

@@ -422,6 +422,13 @@
     "column" : "parentCode",
     "type" : "Text"
   }, {
+    "id" : "paymentFrequencyType",
+    "column" : "paymentFrequencyType",
+    "ar" : "نوع دورية السداد",
+    "en" : "Payment Frequency Type",
+    "type" : "Enum",
+    "enum" : "PaymentFrequencyType"
+  }, {
     "id" : "preventUsage",
     "column" : "preventUsage",
     "ar" : "منع الاستعمال",
@@ -855,6 +862,255 @@
       "type" : "Decimal"
     }, {
       "id" : "details.valueAfterTax",
+      "column" : "valueAfterTax",
+      "ar" : "الضريبة | الصافي بعد الضريبة",
+      "en" : "Value After Tax",
+      "type" : "Decimal"
+    } ]
+  }, {
+    "id" : "prepaidExpensePayments",
+    "table" : "PrepaidExpenseContractPaymentLine",
+    "joinColumn" : "prepaidExpenseContract_id",
+    "ar" : "سداد المصروفات المقدمة",
+    "en" : "Prepaid Expense Payments",
+    "fields" : [ {
+      "id" : "prepaidExpensePayments.account",
+      "column" : "account_id",
+      "ar" : " حساب",
+      "en" : " Account",
+      "type" : "Reference",
+      "refTo" : "Account",
+      "refPath" : "/modules/accounting/Account.html"
+    }, {
+      "id" : "prepaidExpensePayments.creditSide",
+      "column" : "creditSide",
+      "ar" : "الجانب الدائن",
+      "en" : "Account",
+      "type" : "Enum",
+      "enum" : "ExpenseCreditSide"
+    }, {
+      "id" : "prepaidExpensePayments.dayCost",
+      "column" : "dayCost",
+      "ar" : "تكلفة اليوم",
+      "en" : "Day Cost",
+      "type" : "Decimal"
+    }, {
+      "id" : "prepaidExpensePayments.daysCount",
+      "column" : "daysCount",
+      "ar" : "عدد الأيام",
+      "en" : "Days Count",
+      "type" : "Decimal"
+    }, {
+      "id" : "prepaidExpensePayments.discount.percentage",
+      "column" : "discountPercentage",
+      "ar" : "الخصم | النسبه",
+      "en" : "Discount| Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "prepaidExpensePayments.discount.value",
+      "column" : "discountValue",
+      "ar" : "الخصم | القيمة",
+      "en" : "Discount | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "prepaidExpensePayments.fromDate",
+      "column" : "fromDate",
+      "ar" : "من تاريخ",
+      "en" : "From Date",
+      "type" : "Date"
+    }, {
+      "id" : "prepaidExpensePayments.genericDimensions.analysisSet",
+      "column" : "analysisSet_id",
+      "ar" : "المجموعة التحليلية",
+      "en" : "Analysis set",
+      "type" : "Reference",
+      "refTo" : "AnalysisSet",
+      "refPath" : "/modules/basic/AnalysisSet.html"
+    }, {
+      "id" : "prepaidExpensePayments.genericDimensions.branch",
+      "column" : "branch_id",
+      "ar" : "الفرع",
+      "en" : "Branch",
+      "type" : "Reference",
+      "refTo" : "Branch",
+      "refPath" : "/modules/basic/Branch.html"
+    }, {
+      "id" : "prepaidExpensePayments.genericDimensions.department",
+      "column" : "department_id",
+      "ar" : "الإدارة",
+      "en" : "Department",
+      "type" : "Reference",
+      "refTo" : "Department",
+      "refPath" : "/modules/basic/Department.html"
+    }, {
+      "id" : "prepaidExpensePayments.genericDimensions.legalEntity",
+      "column" : "legalEntity_id",
+      "ar" : "الشركة",
+      "en" : "Legal Entity",
+      "type" : "Reference",
+      "refTo" : "LegalEntity",
+      "refPath" : "/modules/basic/LegalEntity.html"
+    }, {
+      "id" : "prepaidExpensePayments.genericDimensions.sector",
+      "column" : "sector_id",
+      "ar" : "القطاع",
+      "en" : "Sector",
+      "type" : "Reference",
+      "refTo" : "Sector",
+      "refPath" : "/modules/basic/Sector.html"
+    }, {
+      "id" : "prepaidExpensePayments.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "prepaidExpensePayments.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "prepaidExpensePayments.monthCount",
+      "column" : "monthCount",
+      "ar" : "عدد الشهور",
+      "en" : "Months Count",
+      "type" : "Decimal"
+    }, {
+      "id" : "prepaidExpensePayments.monthlyAmount",
+      "column" : "monthlyAmount",
+      "ar" : "القيمة الشهرية",
+      "en" : "Monthly Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "prepaidExpensePayments.num1",
+      "column" : "num1",
+      "type" : "Decimal"
+    }, {
+      "id" : "prepaidExpensePayments.num2",
+      "column" : "num2",
+      "type" : "Decimal"
+    }, {
+      "id" : "prepaidExpensePayments.num3",
+      "column" : "num3",
+      "type" : "Decimal"
+    }, {
+      "id" : "prepaidExpensePayments.num4",
+      "column" : "num4",
+      "type" : "Decimal"
+    }, {
+      "id" : "prepaidExpensePayments.num5",
+      "column" : "num5",
+      "type" : "Decimal"
+    }, {
+      "id" : "prepaidExpensePayments.prepaidExpenseItem",
+      "column" : "prepaidExpenseItem_id",
+      "ar" : "بند مصروف  مقدم",
+      "en" : "Prepaid Expense Item",
+      "type" : "Reference",
+      "refTo" : "PrepaidExpenseItem",
+      "refPath" : "/modules/accounting-prepaid-expenses/PrepaidExpenseItem.html"
+    }, {
+      "id" : "prepaidExpensePayments.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "prepaidExpensePayments.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "prepaidExpensePayments.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
+      "id" : "prepaidExpensePayments.ref4",
+      "columns" : [ "ref4ActualCode", " ref4Code", " ref4EntityType", " ref4Id" ],
+      "ar" : "مرجع 4",
+      "en" : "Reference 4",
+      "type" : "Genericreference"
+    }, {
+      "id" : "prepaidExpensePayments.ref5",
+      "columns" : [ "ref5ActualCode", " ref5Code", " ref5EntityType", " ref5Id" ],
+      "ar" : "مرجع 5",
+      "en" : "Reference 5",
+      "type" : "Genericreference"
+    }, {
+      "id" : "prepaidExpensePayments.subsidiary",
+      "columns" : [ "subsidiaryActualCode", " subsidiaryCode", " subsidiaryEntityType", " subsidiaryId" ],
+      "ar" : "الذمة",
+      "en" : "Subsidiary",
+      "type" : "Genericreference"
+    }, {
+      "id" : "prepaidExpensePayments.subsidiaryAccountType",
+      "column" : "subsidiaryAccountType",
+      "ar" : "نوع الحافظة",
+      "en" : "Subsidiary account type",
+      "type" : "Enum",
+      "enum" : "SubsidiaryAccountType"
+    }, {
+      "id" : "prepaidExpensePayments.tax.percentage",
+      "column" : "taxPercentage",
+      "ar" : "الضريبة | النسبة",
+      "en" : "Tax | Percentage",
+      "type" : "Decimal"
+    }, {
+      "id" : "prepaidExpensePayments.tax.value",
+      "column" : "taxValue",
+      "ar" : "الضريبة | القيمة",
+      "en" : "Tax | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "prepaidExpensePayments.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "prepaidExpensePayments.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "prepaidExpensePayments.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
+    }, {
+      "id" : "prepaidExpensePayments.text4",
+      "column" : "text4",
+      "ar" : "نص 4",
+      "en" : "text4",
+      "type" : "Text"
+    }, {
+      "id" : "prepaidExpensePayments.text5",
+      "column" : "text5",
+      "ar" : "نص 5",
+      "en" : "text5",
+      "type" : "Text"
+    }, {
+      "id" : "prepaidExpensePayments.toDate",
+      "column" : "toDate",
+      "ar" : "إلى تاريخ",
+      "en" : "To Date",
+      "type" : "Date"
+    }, {
+      "id" : "prepaidExpensePayments.totalAmount",
+      "column" : "totalAmount",
+      "ar" : "إجمالي المبلغ",
+      "en" : "Total Amount",
+      "type" : "Decimal"
+    }, {
+      "id" : "prepaidExpensePayments.valueAfterDiscount",
+      "column" : "valueAfterDiscount",
+      "ar" : "الخصم | الصافي بعد الخصم",
+      "en" : "Value After Discount",
+      "type" : "Decimal"
+    }, {
+      "id" : "prepaidExpensePayments.valueAfterTax",
       "column" : "valueAfterTax",
       "ar" : "الضريبة | الصافي بعد الضريبة",
       "en" : "Value After Tax",

@@ -1,0 +1,20 @@
+{
+  "enum" : "CouponInvoiceValueSource",
+  "values" : [ {
+    "id" : "Total",
+    "ar" : " الإجمالي",
+    "en" : " Total"
+  }, {
+    "id" : "NetValue",
+    "ar" : "الصافي",
+    "en" : "Net Value"
+  }, {
+    "id" : "AfterHTaxValue",
+    "ar" : "بعد ضريبة الفاتورة",
+    "en" : "After Tax Value"
+  }, {
+    "id" : "AfterDiscount1",
+    "ar" : "بعد الخصم 1",
+    "en" : "After Discount 1"
+  } ]
+}

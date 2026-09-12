@@ -1,0 +1,82 @@
+{
+  "entity" : "TechnicianAppointmentChangeHistory",
+  "table" : "TechnicianAppointmentChangeHistory",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/TechnicianAppointmentChangeHistory.html",
+  "fields" : [ {
+    "id" : "changeDate",
+    "column" : "changeDate",
+    "ar" : "تاريخ التغيير",
+    "en" : "Change Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "changeType",
+    "column" : "changeType",
+    "ar" : "نوع التغيير",
+    "en" : "Change Type",
+    "type" : "Enum",
+    "enum" : "TechnicianAppointmentPeriodChangeType"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "newDay",
+    "column" : "newDay",
+    "ar" : "اليوم الجديد",
+    "en" : "New Day",
+    "type" : "Date"
+  }, {
+    "id" : "newFromTime",
+    "column" : "newFromTime",
+    "ar" : "من وقت جديد",
+    "en" : "New From-Time",
+    "type" : "Time"
+  }, {
+    "id" : "newToTime",
+    "column" : "newToTime",
+    "ar" : "إلى وقت جديد",
+    "en" : "New To-Time",
+    "type" : "Time"
+  }, {
+    "id" : "oldDay",
+    "column" : "oldDay",
+    "ar" : "اليوم السابق",
+    "en" : "Old Day",
+    "type" : "Date"
+  }, {
+    "id" : "oldFromTime",
+    "column" : "oldFromTime",
+    "ar" : "من وقت سابق",
+    "en" : "Old From-Time",
+    "type" : "Time"
+  }, {
+    "id" : "oldToTime",
+    "column" : "oldToTime",
+    "ar" : "إلى وقت سابق",
+    "en" : "Old To-Time",
+    "type" : "Time"
+  }, {
+    "id" : "remark",
+    "column" : "remark",
+    "ar" : "ملحوظة",
+    "en" : "Remark",
+    "type" : "BigText"
+  }, {
+    "id" : "technicianAppointment",
+    "column" : "technicianAppointment_id",
+    "ar" : " موعد فني",
+    "en" : " Technician Appointment",
+    "type" : "Reference",
+    "refTo" : "TechnicianAppointment",
+    "refPath" : "/modules/crm-technician-appointments/TechnicianAppointment.html"
+  }, {
+    "id" : "user",
+    "column" : "user_id",
+    "ar" : "المستخدم",
+    "en" : "User",
+    "type" : "Reference",
+    "refTo" : "NaMaUser",
+    "refPath" : "/modules/system-tables/NaMaUser.html"
+  } ]
+}

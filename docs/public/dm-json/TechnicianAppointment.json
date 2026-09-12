@@ -100,6 +100,100 @@
     "column" : "customViewName",
     "type" : "Text"
   }, {
+    "id" : "customer",
+    "column" : "customer_id",
+    "ar" : "العميل",
+    "en" : "Customer",
+    "type" : "Reference",
+    "refTo" : "Customer",
+    "refPath" : "/modules/basic/Customer.html"
+  }, {
+    "id" : "customerAddress.address1",
+    "column" : "customerAddressAddress1",
+    "ar" : "عنوان 1",
+    "en" : "Address 1",
+    "type" : "Text"
+  }, {
+    "id" : "customerAddress.address2",
+    "column" : "customerAddressAddress2",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "customerAddress.area",
+    "column" : "customerAddressArea",
+    "ar" : "المنطقة",
+    "en" : "Area",
+    "type" : "Text"
+  }, {
+    "id" : "customerAddress.buildingNumber",
+    "column" : "customerAddressBuildingNumber",
+    "ar" : "رقم المبني",
+    "en" : "Building Number",
+    "type" : "Text"
+  }, {
+    "id" : "customerAddress.city",
+    "column" : "customerAddressCity",
+    "ar" : "المدينة",
+    "en" : "City",
+    "type" : "Text"
+  }, {
+    "id" : "customerAddress.country",
+    "column" : "customerAddressCountry",
+    "ar" : "الدولة",
+    "en" : "Country",
+    "type" : "Text"
+  }, {
+    "id" : "customerAddress.countryCode",
+    "column" : "customerAddressCountryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "customerAddress.district",
+    "column" : "customerAddressDistrict",
+    "ar" : "الحي",
+    "en" : "District",
+    "type" : "Text"
+  }, {
+    "id" : "customerAddress.landPlotNumber",
+    "column" : "customerAddressLandPlotNumber",
+    "ar" : "رقم تعريفي للأرض",
+    "en" : "Land Plot Number",
+    "type" : "Text"
+  }, {
+    "id" : "customerAddress.mapLocation",
+    "column" : "customerAddressMapLocation",
+    "ar" : "الموقع على الخريطة",
+    "en" : "Map Location",
+    "type" : "LatLng"
+  }, {
+    "id" : "customerAddress.postalCode",
+    "column" : "customerAddressPostalCode",
+    "ar" : "الكود البريدي",
+    "en" : "Postal Code",
+    "type" : "Text"
+  }, {
+    "id" : "customerAddress.region",
+    "column" : "customerAddressRegion_id",
+    "ar" : "منطقة جغرافيه",
+    "en" : "Region",
+    "type" : "Reference",
+    "refTo" : "AddressRegion",
+    "refPath" : "/modules/basic/AddressRegion.html"
+  }, {
+    "id" : "customerAddress.state",
+    "column" : "customerAddressState",
+    "ar" : "المحافظة",
+    "en" : "State",
+    "type" : "Text"
+  }, {
+    "id" : "customerAddress.street",
+    "column" : "customerAddressStreet",
+    "ar" : " شارع",
+    "en" : " Street",
+    "type" : "Text"
+  }, {
     "id" : "date1",
     "column" : "date1",
     "ar" : "تـــاريخ 1",
@@ -596,6 +690,12 @@
       "id" : "details.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
+    }, {
+      "id" : "details.remark",
+      "column" : "remark",
+      "ar" : "ملحوظة",
+      "en" : "Remark",
+      "type" : "BigText"
     }, {
       "id" : "details.technicianCrew",
       "column" : "technicianCrew_id",

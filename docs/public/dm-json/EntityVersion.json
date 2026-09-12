@@ -12,6 +12,8 @@
   }, {
     "id" : "changeType",
     "column" : "changeType",
+    "ar" : "نوع التغيير",
+    "en" : "Change Type",
     "type" : "Enum",
     "enum" : "ChangeType"
   }, {

@@ -690,6 +690,12 @@
       "en" : "Allow Less Than Required Qty",
       "type" : "Boolean"
     }, {
+      "id" : "authorities.allowManualWeightEntry",
+      "column" : "allowManualWeightEntry",
+      "ar" : "السماح بإدخال الوزن يدوياً",
+      "en" : "Allow Manual Weight Entry",
+      "type" : "Boolean"
+    }, {
       "id" : "authorities.id",
       "column" : "id",
       "type" : "ID"

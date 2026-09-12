@@ -1552,6 +1552,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [PrepaidExpenseContract](https://dm.namasoft.com/dm-json/PrepaidExpenseContract.json): Prepaid Expense Contract / عقد مصروف مقدم
 - [PrepaidExpenseItem](https://dm.namasoft.com/dm-json/PrepaidExpenseItem.json): Prepaid Expense Item / بند مصروف مقدم
 - [PrepaidExpenseLedger](https://dm.namasoft.com/dm-json/PrepaidExpenseLedger.json): Prepaid Expense Ledger / قيد استحقاق مصروف مقدم
+- [PrepaidExpensePayment](https://dm.namasoft.com/dm-json/PrepaidExpensePayment.json): Prepaid Expense Payment / سداد مصروف مقدم
 - [PreventAccTransactions](https://dm.namasoft.com/dm-json/PreventAccTransactions.json): Prevent Transactions On Accounts Or Subsidiaries / منع الحركات على حسابات او ذممم
 - [PreventRegenerateSalaryDocs](https://dm.namasoft.com/dm-json/PreventRegenerateSalaryDocs.json)
 - [PreventUsingBatch](https://dm.namasoft.com/dm-json/PreventUsingBatch.json): Prevent Using Batch / منع إستخدام الشحنة
@@ -1982,6 +1983,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [TaxPayerLastSubmissionInfo](https://dm.namasoft.com/dm-json/TaxPayerLastSubmissionInfo.json)
 - [TaxPlan](https://dm.namasoft.com/dm-json/TaxPlan.json): Tax Plan / سياسة الضريبة
 - [TechnicianAppointment](https://dm.namasoft.com/dm-json/TechnicianAppointment.json): Technician Appointment / موعد فني
+- [TechnicianAppointmentChangeHistory](https://dm.namasoft.com/dm-json/TechnicianAppointmentChangeHistory.json)
 - [TechnicianBookingSettings](https://dm.namasoft.com/dm-json/TechnicianBookingSettings.json): Appointment Booking Settings / إعدادات حجز المواعيد
 - [TechnicianCrew](https://dm.namasoft.com/dm-json/TechnicianCrew.json): Technician Crew / فريق فنيين
 - [TechnicianProcedure](https://dm.namasoft.com/dm-json/TechnicianProcedure.json): Technician Procedure / إجراء فني
