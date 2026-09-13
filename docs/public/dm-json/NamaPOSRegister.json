@@ -740,6 +740,12 @@
     "en" : "POS Code Date Part Format",
     "type" : "Text"
   }, {
+    "id" : "posCustomerCalculatedFields",
+    "column" : "posCustomerCalculatedFields",
+    "ar" : "الحقول المحسوبه عند نقل عميل نقاط البيع",
+    "en" : "POS Customer Calculated Fields",
+    "type" : "BigText"
+  }, {
     "id" : "posCustomerGroup",
     "column" : "posCustomerGroup_id",
     "ar" : "مجموعة عميل نقاط البيع",

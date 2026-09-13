@@ -724,6 +724,12 @@
     "ar" : "الأصناف والخدمات",
     "en" : "Items And Services",
     "fields" : [ {
+      "id" : "itemsAndServices.actualQuantity",
+      "column" : "actualQuantity",
+      "ar" : "الكمية الفعلية",
+      "en" : "Actual Quantity",
+      "type" : "Decimal"
+    }, {
       "id" : "itemsAndServices.id",
       "column" : "id",
       "type" : "ID"
@@ -742,6 +748,12 @@
       "column" : "quantity",
       "ar" : "الكمية",
       "en" : "Quantity",
+      "type" : "Decimal"
+    }, {
+      "id" : "itemsAndServices.remainingQuantity",
+      "column" : "remainingQuantity",
+      "ar" : "المتبقي",
+      "en" : "Remaining Quantity",
       "type" : "Decimal"
     }, {
       "id" : "itemsAndServices.remarks",

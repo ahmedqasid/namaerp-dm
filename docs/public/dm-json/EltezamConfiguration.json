@@ -14,17 +14,41 @@
     "en" : "Actual Job Name Code From Employee Field",
     "type" : "BigText"
   }, {
+    "id" : "actualOrganizationIDFromEmployee",
+    "column" : "actualOrganizationIDFromEmployee",
+    "ar" : "رقم الإدارة الفعلية من حقل بالموظف",
+    "en" : "Actual Organization ID From Employee Field",
+    "type" : "BigText"
+  }, {
+    "id" : "actualOrganizationNameFromEmployee",
+    "column" : "actualOrganizationNameFromEmployee",
+    "ar" : "اسم الإدارة الفعلية من حقل بالموظف",
+    "en" : "Actual Organization Name From Employee Field",
+    "type" : "BigText"
+  }, {
     "id" : "agencyOrganizationID",
     "column" : "agencyOrganizationID",
     "ar" : "رقم الجهة الحكومية",
     "en" : "Agency Organization ID",
     "type" : "Text"
   }, {
+    "id" : "agencyOrganizationIDFromEmployee",
+    "column" : "agencyOrganizationIDFromEmployee",
+    "ar" : "رقم الجهة الحكومية من حقل بالموظف",
+    "en" : "Agency Organization ID From Employee Field",
+    "type" : "BigText"
+  }, {
     "id" : "agencyOrganizationName",
     "column" : "agencyOrganizationName",
     "ar" : "اسم الجهة الحكومية",
     "en" : "Agency Organization Name",
     "type" : "Text"
+  }, {
+    "id" : "agencyOrganizationNameFromEmployee",
+    "column" : "agencyOrganizationNameFromEmployee",
+    "ar" : "اسم الجهة الحكومية من حقل بالموظف",
+    "en" : "Agency Organization Name From Employee Field",
+    "type" : "BigText"
   }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",

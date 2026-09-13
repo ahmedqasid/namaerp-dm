@@ -113,6 +113,12 @@
     "en" : "Commited Before",
     "type" : "Boolean"
   }, {
+    "id" : "considerApprovalsOnManualCommit",
+    "column" : "considerApprovalsOnManualCommit",
+    "ar" : "اعتبار الموافقات عند الحفظ مع التنفيذ يدويا",
+    "en" : "Consider Approvals On Commit On Manual",
+    "type" : "Boolean"
+  }, {
     "id" : "createTransactionId",
     "column" : "createTransactionId",
     "type" : "Text"
