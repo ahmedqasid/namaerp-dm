@@ -497,6 +497,10 @@
     "column" : "usageCapability_id",
     "type" : "ID"
   }, {
+    "id" : "userCreatingSystemObject",
+    "column" : "userCreatingSystemObject",
+    "type" : "Boolean"
+  }, {
     "id" : "viewCapability",
     "column" : "viewCapability_id",
     "ar" : "صلاحية المطالعة",

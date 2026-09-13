@@ -497,6 +497,12 @@
     "en" : "Manual Ref1",
     "type" : "Text"
   }, {
+    "id" : "maxCreationDateTimeToCollectDocs",
+    "column" : "maxCreationDateTimeToCollectDocs",
+    "ar" : "تجميع المستندات حتي تاريخ ووقت الإنشاء",
+    "en" : "Collect Document To Creation Date Time",
+    "type" : "DateAndTime"
+  }, {
     "id" : "maxDateToCollectDocs",
     "column" : "maxDateToCollectDocs",
     "ar" : "تجميع المستندات حتي تاريخ",
@@ -508,6 +514,12 @@
     "ar" : "اقصي عدد للسطور عند تجميع مستندات الضرائب",
     "en" : "Max Number Of Lines When Collect Tax Auth Docs",
     "type" : "Integer"
+  }, {
+    "id" : "minCreationDateTimeToCollectDocs",
+    "column" : "minCreationDateTimeToCollectDocs",
+    "ar" : "تجميع المستندات من تاريخ ووقت الإنشاء",
+    "en" : "Collect Document From Creation Date Time",
+    "type" : "DateAndTime"
   }, {
     "id" : "minDateToCollectDocs",
     "column" : "minDateToCollectDocs",

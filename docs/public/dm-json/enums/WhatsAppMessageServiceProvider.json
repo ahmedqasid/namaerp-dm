@@ -32,5 +32,9 @@
     "id" : "RespondIo",
     "ar" : "respond.io",
     "en" : "respond.io"
+  }, {
+    "id" : "WaSender",
+    "ar" : "WasenderAPI",
+    "en" : "WasenderAPI"
   } ]
 }
