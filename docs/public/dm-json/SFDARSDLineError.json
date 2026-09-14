@@ -1,0 +1,138 @@
+{
+  "entity" : "SFDARSDLineError",
+  "table" : "SFDARSDLineError",
+  "module" : "system-tables",
+  "ar" : "أخطاء تتبع الأدوية على مستوى الصنف",
+  "arPlural" : "أخطاء تتبع الأدوية على مستوى الأصناف",
+  "en" : "SFDA RSD Line Error",
+  "enPlural" : "SFDA RSD Line Errors",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SFDARSDLineError.html",
+  "fields" : [ {
+    "id" : "batchNumber",
+    "column" : "batchNumber",
+    "ar" : "رقم التشغيلة",
+    "en" : "Batch Number",
+    "type" : "Text"
+  }, {
+    "id" : "docBatchNumber",
+    "column" : "docBatchNumber",
+    "ar" : "رقم التشغيلة في المستند",
+    "en" : "Document Batch Number",
+    "type" : "Text"
+  }, {
+    "id" : "docExpiryDate",
+    "column" : "docExpiryDate",
+    "ar" : "تاريخ الصلاحية في المستند",
+    "en" : "Document Expiry Date",
+    "type" : "Date"
+  }, {
+    "id" : "docSerialNumber",
+    "column" : "docSerialNumber",
+    "ar" : "السريال في المستند",
+    "en" : "Document Serial Number",
+    "type" : "Text"
+  }, {
+    "id" : "errorDescription",
+    "column" : "errorDescription",
+    "ar" : "وصف الخطأ",
+    "en" : "Error Desciption",
+    "type" : "BigText"
+  }, {
+    "id" : "executionDate",
+    "column" : "executionDate",
+    "ar" : "تاريخ التنفيذ",
+    "en" : "Execution Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "expiryDate",
+    "column" : "expiryDate",
+    "ar" : "تاريخ الإنتهاء",
+    "en" : "Expiry Date",
+    "type" : "Date"
+  }, {
+    "id" : "gtin",
+    "column" : "gtin",
+    "ar" : "رقم GTIN",
+    "en" : "GTIN",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "isCancel",
+    "column" : "isCancel",
+    "ar" : "إلغاء",
+    "en" : "Cancel",
+    "type" : "Boolean"
+  }, {
+    "id" : "item",
+    "column" : "item_id",
+    "ar" : "الصنف",
+    "en" : "Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
+    "id" : "notificationId",
+    "column" : "notificationId",
+    "ar" : "Notification ID",
+    "en" : "Notification ID",
+    "type" : "Text"
+  }, {
+    "id" : "operation",
+    "column" : "operation",
+    "ar" : "عملية",
+    "en" : "Operation",
+    "type" : "Enum",
+    "enum" : "SFDARSDOperation"
+  }, {
+    "id" : "origin",
+    "columns" : [ "originActualCode", " originCode", " originEntityType", " originId" ],
+    "ar" : " # المستند",
+    "en" : " Document #",
+    "type" : "Genericreference"
+  }, {
+    "id" : "quantity",
+    "column" : "quantity",
+    "ar" : "الكمية",
+    "en" : "Quantity",
+    "type" : "Decimal"
+  }, {
+    "id" : "reportTaskId",
+    "column" : "reportTaskId",
+    "type" : "ID"
+  }, {
+    "id" : "rsdConfig",
+    "column" : "rsdConfig_id",
+    "ar" : "إعدادات تتبع الأدوية",
+    "en" : "RSD Configuration",
+    "type" : "Reference",
+    "refTo" : "SFDARSDConfig",
+    "refPath" : "/modules/supplychain-ksa-rsd/SFDARSDConfig.html"
+  }, {
+    "id" : "rsdResponseCode",
+    "column" : "rsdResponseCode",
+    "ar" : "كود الخطأ من رصد",
+    "en" : "RSD Error Code",
+    "type" : "Text"
+  }, {
+    "id" : "serialNumber",
+    "column" : "serialNumber",
+    "ar" : "الرقم المسلسل",
+    "en" : "Serial Number",
+    "type" : "Text"
+  }, {
+    "id" : "stakeholderWarehouse",
+    "column" : "stakeholderWarehouse_id",
+    "ar" : "مخزن الجهة المُبلِّغة",
+    "en" : "Stakeholder Warehouse",
+    "type" : "Reference",
+    "refTo" : "Warehouse",
+    "refPath" : "/modules/supplychain/Warehouse.html"
+  }, {
+    "id" : "submissionDate",
+    "column" : "submissionDate",
+    "type" : "DateAndTime"
+  } ]
+}

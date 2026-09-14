@@ -18358,6 +18358,12 @@
     "ar" : "شحنة واردة من مورد (تتبع الأدوية)",
     "en" : "SFDA RSD Incoming Dispatch"
   }, {
+    "name" : "SFDARSDLineError",
+    "table" : "SFDARSDLineError",
+    "module" : "system-tables",
+    "ar" : "أخطاء تتبع الأدوية على مستوى الصنف",
+    "en" : "SFDA RSD Line Error"
+  }, {
     "name" : "SFDARSDReportTask",
     "table" : "SFDARSDReportTask",
     "module" : "system-tables"
