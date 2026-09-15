@@ -54,6 +54,12 @@
     "en" : "POS Machine Current Release",
     "type" : "Text"
   }, {
+    "id" : "priority",
+    "column" : "priority",
+    "ar" : "الأولوية",
+    "en" : "Priority",
+    "type" : "Integer"
+  }, {
     "id" : "queueId",
     "column" : "queueId",
     "type" : "ID"

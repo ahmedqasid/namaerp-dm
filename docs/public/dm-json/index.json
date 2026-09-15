@@ -13405,6 +13405,16 @@
       "table" : "NamaPOSPaymentMethodsSettingsLine"
     } ]
   }, {
+    "name" : "NamaPOSReadQueuePriorityConfig",
+    "table" : "NamaPOSReadQueuePriorityConfig",
+    "module" : "namapos",
+    "ar" : "إعدادات أولوية نقل البيانات للماكينة",
+    "en" : "POS Read Queue Priority Configuration",
+    "details" : [ {
+      "id" : "details",
+      "table" : "NamaPOSReadQueuePriorityLine"
+    } ]
+  }, {
     "name" : "NamaPOSRegister",
     "table" : "NamaPOSRegister",
     "module" : "namapos",

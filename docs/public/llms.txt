@@ -1282,6 +1282,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [NamaPOSItemQtyUpdater](https://dm.namasoft.com/dm-json/NamaPOSItemQtyUpdater.json)
 - [NamaPOSOrderReservation](https://dm.namasoft.com/dm-json/NamaPOSOrderReservation.json): POS Order Reservation / سند حجز اوردر نقاط بيع
 - [NamaPOSPaymentMethodsSettings](https://dm.namasoft.com/dm-json/NamaPOSPaymentMethodsSettings.json): Nama POS Payment Methods Settings / إعدادات طرق دفع نقاط البيع
+- [NamaPOSReadQueuePriorityConfig](https://dm.namasoft.com/dm-json/NamaPOSReadQueuePriorityConfig.json): POS Read Queue Priority Configuration / إعدادات أولوية نقل البيانات للماكينة
 - [NamaPOSRegister](https://dm.namasoft.com/dm-json/NamaPOSRegister.json): Register / ماكينة
 - [NamaPOSReturnPeriodExtension](https://dm.namasoft.com/dm-json/NamaPOSReturnPeriodExtension.json): Nama POS Return Period Extension / سند تمديد فترة إرجاع مبيعات نقاط البيع
 - [NamaPOSReturnReason](https://dm.namasoft.com/dm-json/NamaPOSReturnReason.json): Nama POS Return Reason / سبب الإرجاع
