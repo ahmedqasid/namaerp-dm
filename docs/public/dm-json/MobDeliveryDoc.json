@@ -602,6 +602,12 @@
       "en" : "Customer Address",
       "type" : "Text"
     }, {
+      "id" : "details.customerMobile",
+      "column" : "customerMobile",
+      "ar" : "موبايل العميل",
+      "en" : "Customer Mobile",
+      "type" : "Text"
+    }, {
       "id" : "details.deliverTo",
       "columns" : [ "deliverToActualCode", " deliverToCode", " deliverToEntityType", " deliverToId" ],
       "ar" : " العميل",
@@ -982,6 +988,10 @@
       "en" : " Customer",
       "type" : "Genericreference"
     }, {
+      "id" : "timeCheckLines.deliveryLineId",
+      "column" : "deliveryLineId",
+      "type" : "ID"
+    }, {
       "id" : "timeCheckLines.departureLocation.address1",
       "column" : "departAddress1",
       "ar" : "عنوان 1",
@@ -1101,6 +1111,110 @@
       "id" : "timeCheckLines.mobDoc",
       "columns" : [ "mobDocActualCode", " mobDocCode", " mobDocEntityType", " mobDocId" ],
       "type" : "Genericreference"
+    }, {
+      "id" : "timeCheckLines.moveDate",
+      "column" : "moveDate",
+      "ar" : "تاريخ التحرك",
+      "en" : "Move Date",
+      "type" : "Date"
+    }, {
+      "id" : "timeCheckLines.moveDateTime",
+      "column" : "moveDateTime",
+      "ar" : "تاريخ ووقت التحرك",
+      "en" : "Move Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "timeCheckLines.moveLocation.address1",
+      "column" : "moveAddress1",
+      "ar" : "عنوان 1",
+      "en" : "Address 1",
+      "type" : "Text"
+    }, {
+      "id" : "timeCheckLines.moveLocation.address2",
+      "column" : "moveAddress2",
+      "ar" : "رقم المبني",
+      "en" : "Building Number",
+      "type" : "Text"
+    }, {
+      "id" : "timeCheckLines.moveLocation.area",
+      "column" : "moveArea",
+      "ar" : "المنطقة",
+      "en" : "Area",
+      "type" : "Text"
+    }, {
+      "id" : "timeCheckLines.moveLocation.buildingNumber",
+      "column" : "moveBuildingNumber",
+      "ar" : "رقم المبني",
+      "en" : "Building Number",
+      "type" : "Text"
+    }, {
+      "id" : "timeCheckLines.moveLocation.city",
+      "column" : "moveCity",
+      "ar" : "المدينة",
+      "en" : "City",
+      "type" : "Text"
+    }, {
+      "id" : "timeCheckLines.moveLocation.country",
+      "column" : "moveCountry",
+      "ar" : "الدولة",
+      "en" : "Country",
+      "type" : "Text"
+    }, {
+      "id" : "timeCheckLines.moveLocation.countryCode",
+      "column" : "moveCountryCode",
+      "ar" : "كود الدولة",
+      "en" : "Country Code",
+      "type" : "Text"
+    }, {
+      "id" : "timeCheckLines.moveLocation.district",
+      "column" : "moveDistrict",
+      "ar" : "الحي",
+      "en" : "District",
+      "type" : "Text"
+    }, {
+      "id" : "timeCheckLines.moveLocation.landPlotNumber",
+      "column" : "moveLandPlotNumber",
+      "ar" : "رقم تعريفي للأرض",
+      "en" : "Land Plot Number",
+      "type" : "Text"
+    }, {
+      "id" : "timeCheckLines.moveLocation.mapLocation",
+      "column" : "moveMapLocation",
+      "ar" : "الموقع على الخريطة",
+      "en" : "Map Location",
+      "type" : "LatLng"
+    }, {
+      "id" : "timeCheckLines.moveLocation.postalCode",
+      "column" : "movePostalCode",
+      "ar" : "الكود البريدي",
+      "en" : "Postal Code",
+      "type" : "Text"
+    }, {
+      "id" : "timeCheckLines.moveLocation.region",
+      "column" : "moveRegion_id",
+      "ar" : "منطقة جغرافيه",
+      "en" : "Region",
+      "type" : "Reference",
+      "refTo" : "AddressRegion",
+      "refPath" : "/modules/basic/AddressRegion.html"
+    }, {
+      "id" : "timeCheckLines.moveLocation.state",
+      "column" : "moveState",
+      "ar" : "المحافظة",
+      "en" : "State",
+      "type" : "Text"
+    }, {
+      "id" : "timeCheckLines.moveLocation.street",
+      "column" : "moveStreet",
+      "ar" : " شارع",
+      "en" : " Street",
+      "type" : "Text"
+    }, {
+      "id" : "timeCheckLines.moveTime",
+      "column" : "moveTime",
+      "ar" : "وقت التحرك",
+      "en" : "Move Time",
+      "type" : "Time"
     }, {
       "id" : "timeCheckLines.toDate",
       "column" : "toDate",

@@ -596,6 +596,12 @@
       "en" : "Customer Address",
       "type" : "Text"
     }, {
+      "id" : "details.customerMobile",
+      "column" : "customerMobile",
+      "ar" : "موبايل العميل",
+      "en" : "Customer Mobile",
+      "type" : "Text"
+    }, {
       "id" : "details.deliverTo",
       "columns" : [ "deliverToActualCode", " deliverToCode", " deliverToEntityType", " deliverToId" ],
       "ar" : " العميل",
