@@ -522,6 +522,14 @@
     "en" : "Generated From",
     "type" : "Genericreference"
   }, {
+    "id" : "generatedLoanReschedule",
+    "column" : "generatedLoanReschedule_id",
+    "ar" : "سند إعادة جدولة أقساط السلف المنشأ",
+    "en" : "Generated Loan Installments Reschedule",
+    "type" : "Reference",
+    "refTo" : "AggHRLoanInstallReschedule",
+    "refPath" : "/modules/humanresource-payroll/AggHRLoanInstallReschedule.html"
+  }, {
     "id" : "generationType",
     "column" : "generationType",
     "ar" : "نوع الإنشاء",
@@ -626,6 +634,12 @@
     "id" : "parentCode",
     "column" : "parentCode",
     "type" : "Text"
+  }, {
+    "id" : "postponeLoansDuringVacation",
+    "column" : "postponeLoansDuringVacation",
+    "ar" : "تأجيل السلف خلال فترة الإجازة",
+    "en" : "Postpone Loans During Vacation",
+    "type" : "Boolean"
   }, {
     "id" : "prevMainVacTypeBalance",
     "column" : "prevMainVacTypeBalance",
