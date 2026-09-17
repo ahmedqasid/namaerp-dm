@@ -532,5 +532,29 @@
     "id" : "viewCapabilityId",
     "column" : "viewCapability_id",
     "type" : "ID"
+  } ],
+  "details" : [ {
+    "id" : "supervisors",
+    "table" : "DepartmentSectionSupervisorLine",
+    "joinColumn" : "departmentSection_id",
+    "ar" : "المشرفون",
+    "en" : "Supervisors",
+    "fields" : [ {
+      "id" : "supervisors.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "supervisors.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "supervisors.supervisor",
+      "column" : "supervisor_id",
+      "ar" : "المدير الأعلي",
+      "en" : "Supervisor",
+      "type" : "Reference",
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
+    } ]
   } ]
 }

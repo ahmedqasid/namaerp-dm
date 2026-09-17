@@ -332,6 +332,12 @@
     "en" : "Name2",
     "type" : "Text"
   }, {
+    "id" : "notUsedForWMSPicking",
+    "column" : "notUsedForWMSPicking",
+    "ar" : "لا يستخدم في تجميع WMS",
+    "en" : "Not Used for WMS Picking",
+    "type" : "Boolean"
+  }, {
     "id" : "parentCode",
     "column" : "parentCode",
     "type" : "Text"

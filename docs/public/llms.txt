@@ -2051,6 +2051,7 @@ Field entries use: id (property name), column (database column; "columns" array 
 - [WMSPickingDocOrderItemEntry](https://dm.namasoft.com/dm-json/WMSPickingDocOrderItemEntry.json): Order Items / تفاصيل الطلب
 - [WMSReceiptDoc](https://dm.namasoft.com/dm-json/WMSReceiptDoc.json): WMS Receipt Doc / سند استلام مخزني
 - [WMSReceiptDocOrderItemDamagedEntry](https://dm.namasoft.com/dm-json/WMSReceiptDocOrderItemDamagedEntry.json): Damaged Receipt Items / الأصناف المستلمة التالفة
+- [WMSReceiptDocOrderItemDamagedPutAwayEntry](https://dm.namasoft.com/dm-json/WMSReceiptDocOrderItemDamagedPutAwayEntry.json): Damaged PutAway Receipt Items / الأصناف التالفة المُخزّنة
 - [WMSReceiptDocOrderItemEntry](https://dm.namasoft.com/dm-json/WMSReceiptDocOrderItemEntry.json): Order Items / تفاصيل الطلب
 - [WMSReceiptDocOrderItemPartialEntry](https://dm.namasoft.com/dm-json/WMSReceiptDocOrderItemPartialEntry.json): Partial Receipt Items / الأصناف المستلمة جزئي
 - [WMSReceiptDocOrderItemPartialPutAwayEntry](https://dm.namasoft.com/dm-json/WMSReceiptDocOrderItemPartialPutAwayEntry.json): PutAway Receipt Items / أصناف الاستلام المُخزّنة

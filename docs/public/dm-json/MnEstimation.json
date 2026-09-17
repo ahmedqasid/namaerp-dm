@@ -1034,6 +1034,14 @@
     "column" : "parentCode",
     "type" : "Text"
   }, {
+    "id" : "paymentTerminal",
+    "column" : "paymentTerminal_id",
+    "ar" : "Payment Terminal",
+    "en" : "Payment Terminal",
+    "type" : "Reference",
+    "refTo" : "PaymentTerminal",
+    "refPath" : "/modules/basic-payment-gateway/PaymentTerminal.html"
+  }, {
     "id" : "plannedVisitDate",
     "column" : "plannedVisitDate",
     "ar" : "تاريخ الزيارة المخطط",

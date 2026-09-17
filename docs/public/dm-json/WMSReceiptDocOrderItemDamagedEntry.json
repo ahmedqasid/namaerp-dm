@@ -24,17 +24,15 @@
     "column" : "id",
     "type" : "ID"
   }, {
-    "id" : "locator",
-    "column" : "locator_id",
-    "ar" : "الموقع",
-    "en" : "Locator",
-    "type" : "Reference",
-    "refTo" : "Locator",
-    "refPath" : "/modules/supplychain/Locator.html"
-  }, {
     "id" : "mainEntryId",
     "column" : "mainEntryId",
     "type" : "ID"
+  }, {
+    "id" : "notPutawayQty",
+    "column" : "notPutawayQty",
+    "ar" : "كمية غير مُخزّنة",
+    "en" : "Not Putaway Qty",
+    "type" : "Decimal"
   }, {
     "id" : "pallet",
     "column" : "pallet_id",

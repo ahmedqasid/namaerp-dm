@@ -152,6 +152,14 @@
     "en" : "Date5",
     "type" : "Date"
   }, {
+    "id" : "defaultDamagedLocator",
+    "column" : "defaultDamagedLocator_id",
+    "ar" : "موقع التالف الافتراضي",
+    "en" : "Default Damaged Locator",
+    "type" : "Reference",
+    "refTo" : "Locator",
+    "refPath" : "/modules/supplychain/Locator.html"
+  }, {
     "id" : "defaultLocator",
     "column" : "defaultLocator_id",
     "ar" : "الموقع الإفتراضي",

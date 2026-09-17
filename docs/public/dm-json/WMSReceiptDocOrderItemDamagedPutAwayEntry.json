@@ -1,0 +1,43 @@
+{
+  "entity" : "WMSReceiptDocOrderItemDamagedPutAwayEntry",
+  "table" : "WMSReceiptDocOrderItemDamagedPutAwayEntry",
+  "module" : "system-tables",
+  "ar" : "الأصناف التالفة المُخزّنة",
+  "en" : "Damaged PutAway Receipt Items",
+  "page" : "https://dm.namasoft.com/modules/system-tables/WMSReceiptDocOrderItemDamagedPutAwayEntry.html",
+  "fields" : [ {
+    "id" : "damagedEntryId",
+    "column" : "damagedEntryId",
+    "type" : "ID"
+  }, {
+    "id" : "genReceiptDoc",
+    "columns" : [ "genReceiptDocActualCode", " genReceiptDocCode", " genReceiptDocEntityType", " genReceiptDocId" ],
+    "ar" : "سند الاستلام المنشأ",
+    "en" : "Generated Receipt Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "locator",
+    "column" : "locator_id",
+    "ar" : "الموقع",
+    "en" : "Locator",
+    "type" : "Reference",
+    "refTo" : "Locator",
+    "refPath" : "/modules/supplychain/Locator.html"
+  }, {
+    "id" : "putawayDateTime",
+    "column" : "putawayDateTime",
+    "ar" : "تاريخ ووقت التخزين",
+    "en" : "Putaway Date & Time",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "putawayQty",
+    "column" : "putawayQty",
+    "ar" : "الكمية المُخزَّنة",
+    "en" : "Putaway Quantity",
+    "type" : "Decimal"
+  } ]
+}

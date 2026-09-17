@@ -4357,7 +4357,11 @@
     "table" : "DepartmentSection",
     "module" : "basic",
     "ar" : " القسم الوظيفي",
-    "en" : " Department Section"
+    "en" : " Department Section",
+    "details" : [ {
+      "id" : "supervisors",
+      "table" : "DepartmentSectionSupervisorLine"
+    } ]
   }, {
     "name" : "DetailedRemark",
     "table" : "DetailedRemark",
@@ -21332,6 +21336,12 @@
     "module" : "system-tables",
     "ar" : "الأصناف المستلمة التالفة",
     "en" : "Damaged Receipt Items"
+  }, {
+    "name" : "WMSReceiptDocOrderItemDamagedPutAwayEntry",
+    "table" : "WMSReceiptDocOrderItemDamagedPutAwayEntry",
+    "module" : "system-tables",
+    "ar" : "الأصناف التالفة المُخزّنة",
+    "en" : "Damaged PutAway Receipt Items"
   }, {
     "name" : "WMSReceiptDocOrderItemEntry",
     "table" : "WMSReceiptDocOrderItemEntry",
