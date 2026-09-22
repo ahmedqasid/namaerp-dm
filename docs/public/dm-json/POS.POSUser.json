@@ -142,6 +142,12 @@
     "en" : "Password",
     "type" : "Text"
   }, {
+    "id" : "preferredLanguage",
+    "column" : "preferredLanguage",
+    "ar" : "اللغة المفضلة",
+    "en" : "Preferred Language",
+    "type" : "Enum"
+  }, {
     "id" : "preventLogin",
     "column" : "preventLogin",
     "ar" : "منع الدخول",

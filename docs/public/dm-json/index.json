@@ -18375,8 +18375,8 @@
     "name" : "SFDARSDLineError",
     "table" : "SFDARSDLineError",
     "module" : "system-tables",
-    "ar" : "أخطاء تتبع الأدوية على مستوى الصنف",
-    "en" : "SFDA RSD Line Error"
+    "ar" : "نتيجة تتبع الأدوية على مستوى الصنف",
+    "en" : "SFDA RSD Line Result"
   }, {
     "name" : "SFDARSDReportTask",
     "table" : "SFDARSDReportTask",

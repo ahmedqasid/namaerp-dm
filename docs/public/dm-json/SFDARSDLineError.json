@@ -2,10 +2,10 @@
   "entity" : "SFDARSDLineError",
   "table" : "SFDARSDLineError",
   "module" : "system-tables",
-  "ar" : "أخطاء تتبع الأدوية على مستوى الصنف",
-  "arPlural" : "أخطاء تتبع الأدوية على مستوى الأصناف",
-  "en" : "SFDA RSD Line Error",
-  "enPlural" : "SFDA RSD Line Errors",
+  "ar" : "نتيجة تتبع الأدوية على مستوى الصنف",
+  "arPlural" : "نتائج تتبع الأدوية على مستوى الأصناف",
+  "en" : "SFDA RSD Line Result",
+  "enPlural" : "SFDA RSD Line Results",
   "page" : "https://dm.namasoft.com/modules/system-tables/SFDARSDLineError.html",
   "fields" : [ {
     "id" : "batchNumber",
@@ -113,8 +113,8 @@
   }, {
     "id" : "rsdResponseCode",
     "column" : "rsdResponseCode",
-    "ar" : "كود الخطأ من رصد",
-    "en" : "RSD Error Code",
+    "ar" : "كود الاستجابة من رصد",
+    "en" : "RSD Response Code",
     "type" : "Text"
   }, {
     "id" : "serialNumber",
@@ -134,5 +134,11 @@
     "id" : "submissionDate",
     "column" : "submissionDate",
     "type" : "DateAndTime"
+  }, {
+    "id" : "succeeded",
+    "column" : "succeeded",
+    "ar" : "تم بنجاح",
+    "en" : "Succeeded",
+    "type" : "Boolean"
   } ]
 }

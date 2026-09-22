@@ -357,6 +357,12 @@
     "en" : "Print Count",
     "type" : "Integer"
   }, {
+    "id" : "recordSuccessfulLines",
+    "column" : "recordSuccessfulLines",
+    "ar" : "تسجيل السطور الناجحة",
+    "en" : "Record Successful Lines",
+    "type" : "Boolean"
+  }, {
     "id" : "ref1",
     "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
     "ar" : "مرجع 1",
