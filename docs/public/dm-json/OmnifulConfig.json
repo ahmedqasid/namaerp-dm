@@ -565,6 +565,33 @@
     "type" : "Password"
   } ],
   "details" : [ {
+    "id" : "acceptedOrderStatusLines",
+    "table" : "OmnifulConfigOrderStatusLine",
+    "joinColumn" : "omnifulConfig_id",
+    "ar" : "حالات الطلب المقبولة لكل قناة بيع",
+    "en" : "Accepted Order Statuses Per Sales Channel",
+    "fields" : [ {
+      "id" : "acceptedOrderStatusLines.acceptedOrderStatuses",
+      "column" : "acceptedOrderStatuses",
+      "ar" : "حالات الطلب المقبولة (CSV)",
+      "en" : "Accepted Order Statuses (CSV)",
+      "type" : "Text"
+    }, {
+      "id" : "acceptedOrderStatusLines.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "acceptedOrderStatusLines.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "acceptedOrderStatusLines.salesChannel",
+      "column" : "salesChannel",
+      "ar" : "قناة البيع (مصدر الطلب)",
+      "en" : "Sales Channel",
+      "type" : "Text"
+    } ]
+  }, {
     "id" : "documentGenerationInfoLines",
     "table" : "OmnifulConfigDocGenerationInfoLine",
     "joinColumn" : "omnifulConfig_id",

@@ -13876,6 +13876,9 @@
     "ar" : "Omniful Configuration",
     "en" : "Omniful Configuration",
     "details" : [ {
+      "id" : "acceptedOrderStatusLines",
+      "table" : "OmnifulConfigOrderStatusLine"
+    }, {
       "id" : "documentGenerationInfoLines",
       "table" : "OmnifulConfigDocGenerationInfoLine"
     } ]
