@@ -435,6 +435,13 @@
     "column" : "usageCapability_id",
     "type" : "ID"
   }, {
+    "id" : "usagePolicyMode",
+    "column" : "usagePolicyMode",
+    "ar" : "طريقة تطبيق السياسة",
+    "en" : "Usage Policy Mode",
+    "type" : "Enum",
+    "enum" : "WarehouseUsagePolicyMode"
+  }, {
     "id" : "viewCapability",
     "column" : "viewCapability_id",
     "ar" : "صلاحية المطالعة",
@@ -487,12 +494,6 @@
       "id" : "details.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
-    }, {
-      "id" : "details.preventUsage",
-      "column" : "preventUsage",
-      "ar" : "منع الاستعمال",
-      "en" : "Prevent Usage",
-      "type" : "Boolean"
     }, {
       "id" : "details.toDate",
       "column" : "toDate",

@@ -887,6 +887,46 @@
     "refTo" : "Sector",
     "refPath" : "/modules/basic/Sector.html"
   }, {
+    "id" : "toFaClassification1",
+    "column" : "toFaClassification1_id",
+    "ar" : "إلى تصنيف أصل ثابت 1",
+    "en" : "To Fixed Asset Classification 1",
+    "type" : "Reference",
+    "refTo" : "FAClassification1",
+    "refPath" : "/modules/fixedassets/FAClassification1.html"
+  }, {
+    "id" : "toFaClassification2",
+    "column" : "toFaClassification2_id",
+    "ar" : "إلى تصنيف أصل ثابت 2",
+    "en" : "To Fixed Asset Classification 2",
+    "type" : "Reference",
+    "refTo" : "FAClassification2",
+    "refPath" : "/modules/fixedassets/FAClassification2.html"
+  }, {
+    "id" : "toFaClassification3",
+    "column" : "toFaClassification3_id",
+    "ar" : "إلى تصنيف أصل ثابت 3",
+    "en" : "To Fixed Asset Classification 3",
+    "type" : "Reference",
+    "refTo" : "FAClassification3",
+    "refPath" : "/modules/fixedassets/FAClassification3.html"
+  }, {
+    "id" : "toFaClassification4",
+    "column" : "toFaClassification4_id",
+    "ar" : "إلى تصنيف أصل ثابت 4",
+    "en" : "To Fixed Asset Classification 4",
+    "type" : "Reference",
+    "refTo" : "FAClassification4",
+    "refPath" : "/modules/fixedassets/FAClassification4.html"
+  }, {
+    "id" : "toFaClassification5",
+    "column" : "toFaClassification5_id",
+    "ar" : "إلى تصنيف أصل ثابت 5",
+    "en" : "To Fixed Asset Classification 5",
+    "type" : "Reference",
+    "refTo" : "FAClassification5",
+    "refPath" : "/modules/fixedassets/FAClassification5.html"
+  }, {
     "id" : "toLocation",
     "column" : "toLocation_id",
     "ar" : "إلي موقع",

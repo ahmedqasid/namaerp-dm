@@ -2029,6 +2029,12 @@
       "en" : "Pay With Liquidation",
       "type" : "Boolean"
     }, {
+      "id" : "salaryDocLines.paymentDoc",
+      "columns" : [ "paymentDocActualCode", " paymentDocCode", " paymentDocEntityType", " paymentDocId" ],
+      "ar" : "مستند الدفع",
+      "en" : "Payment document",
+      "type" : "Genericreference"
+    }, {
       "id" : "salaryDocLines.remainingValue",
       "column" : "remainingValue",
       "ar" : "المتبقي",
@@ -2042,6 +2048,12 @@
       "type" : "Reference",
       "refTo" : "SalaryDocument",
       "refPath" : "/modules/humanresource-payroll/SalaryDocument.html"
+    }, {
+      "id" : "salaryDocLines.salaryPaidValue",
+      "column" : "salaryPaidValue",
+      "ar" : "المبلغ المصروف من سند الراتب",
+      "en" : "Salary Paid Value",
+      "type" : "Decimal"
     }, {
       "id" : "salaryDocLines.totalAdditions",
       "column" : "totalAdditions",

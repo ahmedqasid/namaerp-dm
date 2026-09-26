@@ -1,0 +1,12 @@
+{
+  "enum" : "WarehouseUsagePolicyMode",
+  "values" : [ {
+    "id" : "AllowAllExceptLines",
+    "ar" : "السماح بكل المخازن عدا المذكورة في السطور",
+    "en" : "Allow All Warehouses Except Those In Lines"
+  }, {
+    "id" : "PreventAllExceptLines",
+    "ar" : "منع كل المخازن عدا المذكورة في السطور",
+    "en" : "Prevent All Warehouses Except Those In Lines"
+  } ]
+}

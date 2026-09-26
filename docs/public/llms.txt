@@ -2022,7 +2022,6 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [AIChatMessage](https://dm.namasoft.com/dm-json/AIChatMessage.json)
 - [AIChatSession](https://dm.namasoft.com/dm-json/AIChatSession.json)
 - [AIEmbeddingFile](https://dm.namasoft.com/dm-json/AIEmbeddingFile.json)
-- [AIModelDefinition](https://dm.namasoft.com/dm-json/AIModelDefinition.json)
 - [AUFilePhaseLine](https://dm.namasoft.com/dm-json/AUFilePhaseLine.json)
 - [ActionsHistory](https://dm.namasoft.com/dm-json/ActionsHistory.json)
 - [AdditionalCostLine](https://dm.namasoft.com/dm-json/AdditionalCostLine.json)
