@@ -1,0 +1,14 @@
+{
+  "enum" : "TelegramMessageState",
+  "values" : [ {
+    "id" : "Sent",
+    "ar" : "تم ارساله",
+    "en" : "Sent"
+  }, {
+    "id" : "Failed",
+    "ar" : "فشل",
+    "en" : "Failed"
+  }, {
+    "id" : "Blocked"
+  } ]
+}

@@ -192,5 +192,17 @@
     "id" : "InternalStockTransfer",
     "ar" : "تحويل مخزني داخلي",
     "en" : "Internal Stock Transfer"
+  }, {
+    "id" : "CRMLead",
+    "ar" : "خيط بيع",
+    "en" : "CRM Lead"
+  }, {
+    "id" : "CRMCall",
+    "ar" : "اتصال",
+    "en" : "CRM Call"
+  }, {
+    "id" : "CRMFollowUp",
+    "ar" : "سند متابعة",
+    "en" : "Follow Up Document"
   } ]
 }

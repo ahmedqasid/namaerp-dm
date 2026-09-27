@@ -1,13 +1,13 @@
 {
-  "enum" : "HelpMessageContentType",
+  "enum" : "TelegramParseMode",
   "values" : [ {
+    "id" : "MarkdownV2",
+    "ar" : "MarkdownV2",
+    "en" : "MarkdownV2"
+  }, {
     "id" : "HTML",
     "ar" : "HTML",
     "en" : "HTML"
-  }, {
-    "id" : "Text",
-    "ar" : "نص",
-    "en" : "Text"
   }, {
     "id" : "Markdown",
     "ar" : "MarkdownV2",

@@ -1,13 +1,19 @@
 {
-  "entity" : "EltezamSubmissionDoc",
-  "table" : "EltezamSubmissionDoc",
-  "module" : "integrations-ksa-estidamah-eltezam",
-  "ar" : "إرسال بيانات التزام",
-  "arPlural" : "إرسال بيانات التزام",
-  "en" : "MCS Eltezam Submission",
-  "enPlural" : "MCS Eltezam Submission",
-  "page" : "https://dm.namasoft.com/modules/integrations-ksa-estidamah-eltezam/EltezamSubmissionDoc.html",
+  "entity" : "TelegramBotConfiguration",
+  "table" : "TelegramBotConfiguration",
+  "module" : "basic-whatsapp",
+  "ar" : "Telegram Bot Configuration",
+  "arPlural" : "Telegram Bot Configurations",
+  "en" : "Telegram Bot Configuration",
+  "enPlural" : "Telegram Bot Configurations",
+  "page" : "https://dm.namasoft.com/modules/basic-whatsapp/TelegramBotConfiguration.html",
   "fields" : [ {
+    "id" : "active",
+    "column" : "active",
+    "ar" : "فعال",
+    "en" : "Active",
+    "type" : "Boolean"
+  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",
@@ -20,13 +26,25 @@
     "column" : "analysisSet_id",
     "type" : "ID"
   }, {
-    "id" : "book",
-    "column" : "book_id",
-    "ar" : "الدفتر",
-    "en" : "Book",
+    "id" : "apiCredentials",
+    "column" : "apiCredentials_id",
+    "ar" : "API Credentials",
+    "en" : "API Credentials",
     "type" : "Reference",
-    "refTo" : "DocumentBook",
-    "refPath" : "/modules/basic/DocumentBook.html"
+    "refTo" : "APICredentials",
+    "refPath" : "/modules/basic/APICredentials.html"
+  }, {
+    "id" : "botToken",
+    "column" : "botToken",
+    "ar" : "Bot Token",
+    "en" : "Bot Token",
+    "type" : "BigText"
+  }, {
+    "id" : "botUsername",
+    "column" : "botUsername",
+    "ar" : "Bot Username",
+    "en" : "Bot Username",
+    "type" : "Text"
   }, {
     "id" : "branch",
     "column" : "branch_id",
@@ -41,14 +59,6 @@
     "ar" : "Branch ID",
     "en" : "Branch ID",
     "type" : "ID"
-  }, {
-    "id" : "cancelledBy",
-    "column" : "cancelledBy_id",
-    "ar" : "ألغي بواسطة",
-    "en" : "Cancelled By",
-    "type" : "Reference",
-    "refTo" : "DocumentCancelDocument",
-    "refPath" : "/modules/basic/DocumentCancelDocument.html"
   }, {
     "id" : "code",
     "column" : "code",
@@ -68,9 +78,11 @@
     "en" : "Commited Before",
     "type" : "Boolean"
   }, {
-    "id" : "committedOrBeingCommitted",
-    "column" : "committedOrBeingCommitted",
-    "type" : "Boolean"
+    "id" : "countryCallingCode",
+    "column" : "countryCallingCode",
+    "ar" : "مفتاح الدولة",
+    "en" : "Country Calling Code",
+    "type" : "Text"
   }, {
     "id" : "createTransactionId",
     "column" : "createTransactionId",
@@ -170,10 +182,6 @@
     "en" : "description5",
     "type" : "Text"
   }, {
-    "id" : "dimensionsHistoryXml",
-    "column" : "dimensionsHistoryXml",
-    "type" : "BigText"
-  }, {
     "id" : "docCategory",
     "column" : "docCategory_id",
     "ar" : " تصنيف سجل",
@@ -207,22 +215,6 @@
     "refTo" : "NaMaUser",
     "refPath" : "/modules/system-tables/NaMaUser.html"
   }, {
-    "id" : "eltezamConfig",
-    "column" : "eltezamConfig_id",
-    "ar" : "إعدادات التزام",
-    "en" : "Eltezam Configuration",
-    "type" : "Reference",
-    "refTo" : "EltezamConfiguration",
-    "refPath" : "/modules/integrations-ksa-estidamah-eltezam/EltezamConfiguration.html"
-  }, {
-    "id" : "employeeGroup",
-    "column" : "employeeGroup_id",
-    "ar" : "مجموعة موظفين",
-    "en" : "Employee Group",
-    "type" : "Reference",
-    "refTo" : "EmployeeGroup",
-    "refPath" : "/modules/basic/EmployeeGroup.html"
-  }, {
     "id" : "entitySystemEntryId",
     "column" : "entitySystemEntry_id",
     "type" : "ID"
@@ -232,12 +224,6 @@
     "ar" : "النوع",
     "en" : "Entity Type",
     "type" : "EntityType"
-  }, {
-    "id" : "failedRequestsCount",
-    "column" : "failedRequestsCount",
-    "ar" : "عدد الطلبات الفاشلة",
-    "en" : "Failed Requests Count",
-    "type" : "Integer"
   }, {
     "id" : "firstAuthor",
     "column" : "firstAuthor_id",
@@ -250,40 +236,6 @@
     "id" : "firstAuthorId",
     "column" : "firstAuthor_id",
     "type" : "ID"
-  }, {
-    "id" : "fiscalPeriod",
-    "column" : "fiscalPeriod_id",
-    "ar" : "الفترة",
-    "en" : "Fiscal Period",
-    "type" : "Reference",
-    "refTo" : "FiscalPeriod",
-    "refPath" : "/modules/basic/FiscalPeriod.html"
-  }, {
-    "id" : "fiscalYear",
-    "column" : "fiscalYear_id",
-    "ar" : "السنة المالية",
-    "en" : "Fiscal Year",
-    "type" : "Reference",
-    "refTo" : "FiscalYear",
-    "refPath" : "/modules/basic/FiscalYear.html"
-  }, {
-    "id" : "fromDate",
-    "column" : "fromDate",
-    "ar" : "من تاريخ",
-    "en" : "From Date",
-    "type" : "Date"
-  }, {
-    "id" : "fromDoc",
-    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
-    "ar" : "بناءا على",
-    "en" : "From Document",
-    "type" : "Genericreference"
-  }, {
-    "id" : "fromDocsCount",
-    "column" : "fromDocsCount",
-    "ar" : "عدد سندات بناء على",
-    "en" : "From Docs Count",
-    "type" : "Integer"
   }, {
     "id" : "generatedByLine",
     "column" : "generatedByLine",
@@ -308,21 +260,13 @@
     "type" : "Enum",
     "enum" : "GenerationType"
   }, {
-    "id" : "hrPeriod",
-    "column" : "hrPeriod_id",
-    "ar" : "فترة الرواتب",
-    "en" : "HR Period",
+    "id" : "group",
+    "column" : "group_id",
+    "ar" : "المجموعة",
+    "en" : "Group",
     "type" : "Reference",
-    "refTo" : "HRPeriod",
-    "refPath" : "/modules/humanresource-payroll/HRPeriod.html"
-  }, {
-    "id" : "hrYear",
-    "column" : "hrYear_id",
-    "ar" : "سنة الرواتب",
-    "en" : "HR Year",
-    "type" : "Reference",
-    "refTo" : "HRYear",
-    "refPath" : "/modules/humanresource-payroll/HRYear.html"
+    "refTo" : "MasterGroup",
+    "refPath" : "/modules/basic/MasterGroup.html"
   }, {
     "id" : "id",
     "column" : "id",
@@ -331,12 +275,6 @@
     "id" : "indexInParent",
     "column" : "indexInParent",
     "type" : "Integer"
-  }, {
-    "id" : "issueDate",
-    "column" : "issueDate",
-    "ar" : "تاريخ التحرير",
-    "en" : "Issue Date",
-    "type" : "Date"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -368,11 +306,11 @@
     "column" : "lockVersion",
     "type" : "Integer"
   }, {
-    "id" : "manualRef1",
-    "column" : "manualRef1",
-    "ar" : "رقم المستند اليدوي",
-    "en" : "Manual Ref1",
-    "type" : "Text"
+    "id" : "mainFile",
+    "column" : "mainFile_id",
+    "type" : "Binary",
+    "refTo" : "LargeData",
+    "refPath" : "/modules/system-tables/LargeData.html"
   }, {
     "id" : "n1",
     "column" : "n1",
@@ -404,13 +342,17 @@
     "en" : "Number 5",
     "type" : "Decimal"
   }, {
-    "id" : "openShift",
-    "column" : "openShift_id",
-    "ar" : "فتح وردية",
-    "en" : "Open Shift",
-    "type" : "Reference",
-    "refTo" : "CSHOpenShift",
-    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
+    "id" : "name1",
+    "column" : "name1",
+    "ar" : "الاسم العربي",
+    "en" : "Name1",
+    "type" : "Text"
+  }, {
+    "id" : "name2",
+    "column" : "name2",
+    "ar" : "الاسم الإنجليزي",
+    "en" : "Name2",
+    "type" : "Text"
   }, {
     "id" : "parentCode",
     "column" : "parentCode",
@@ -422,29 +364,11 @@
     "en" : "Prevent Usage",
     "type" : "Boolean"
   }, {
-    "id" : "preventUseAsFromDoc",
-    "column" : "preventUseAsFromDoc",
-    "type" : "Boolean"
-  }, {
     "id" : "printCount",
     "column" : "printCount",
     "ar" : "عدد مرات الطباعة",
     "en" : "Print Count",
     "type" : "Integer"
-  }, {
-    "id" : "purged",
-    "column" : "purged",
-    "ar" : "Purged",
-    "en" : "Purged",
-    "type" : "Boolean"
-  }, {
-    "id" : "rbook",
-    "column" : "rbook_id",
-    "ar" : "دفتر الايصالات",
-    "en" : "Receipt Book",
-    "type" : "Reference",
-    "refTo" : "ReceiptBook",
-    "refPath" : "/modules/basic/ReceiptBook.html"
   }, {
     "id" : "ref1",
     "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
@@ -501,14 +425,6 @@
     "refTo" : "NaMaUser",
     "refPath" : "/modules/system-tables/NaMaUser.html"
   }, {
-    "id" : "rpaper",
-    "column" : "rpaper_id",
-    "ar" : "الايصال",
-    "en" : "Receipt Paper",
-    "type" : "Reference",
-    "refTo" : "ReceiptPaper",
-    "refPath" : "/modules/basic/ReceiptPaper.html"
-  }, {
     "id" : "sector",
     "column" : "sector_id",
     "ar" : "القطاع",
@@ -521,71 +437,11 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
-    "id" : "sendAppraisalInfo",
-    "column" : "sendAppraisalInfo",
-    "ar" : "إرسال بيانات تقييم الأداء",
-    "en" : "Send Appraisal Info",
-    "type" : "Boolean"
-  }, {
-    "id" : "sendEmployeeHistoricalInfo",
-    "column" : "sendEmployeeHistoricalInfo",
-    "ar" : "إرسال البيانات التاريخية للموظف",
-    "en" : "Send Employee Historical Info",
-    "type" : "Boolean"
-  }, {
-    "id" : "sendEmployeeInfo",
-    "column" : "sendEmployeeInfo",
-    "ar" : "إرسال بيانات الموظف",
-    "en" : "Send Employee Info",
-    "type" : "Boolean"
-  }, {
-    "id" : "sendJobInfo",
-    "column" : "sendJobInfo",
-    "ar" : "إرسال بيانات الوظيفة",
-    "en" : "Send Job Info",
-    "type" : "Boolean"
-  }, {
-    "id" : "sendPayslipInfo",
-    "column" : "sendPayslipInfo",
-    "ar" : "إرسال بيانات مسير الرواتب",
-    "en" : "Send Payslip Info",
-    "type" : "Boolean"
-  }, {
-    "id" : "sendQualificationInfo",
-    "column" : "sendQualificationInfo",
-    "ar" : "إرسال بيانات المؤهلات",
-    "en" : "Send Qualification Info",
-    "type" : "Boolean"
-  }, {
-    "id" : "sendVacationInfo",
-    "column" : "sendVacationInfo",
-    "ar" : "إرسال بيانات الإجازات",
-    "en" : "Send Vacation Info",
-    "type" : "Boolean"
-  }, {
-    "id" : "succeededRequestsCount",
-    "column" : "succeededRequestsCount",
-    "ar" : "عدد الطلبات الناجحة",
-    "en" : "Succeeded Requests Count",
-    "type" : "Integer"
-  }, {
-    "id" : "term",
-    "column" : "term_id",
-    "ar" : "توجيه المستند",
-    "en" : "Term",
-    "type" : "Reference",
-    "refTo" : "DocumentTerm",
-    "refPath" : "/modules/basic/DocumentTerm.html"
-  }, {
-    "id" : "termConfigXml",
-    "column" : "termConfigXml",
-    "type" : "BigText"
-  }, {
-    "id" : "toDate",
-    "column" : "toDate",
-    "ar" : "إلى تاريخ",
-    "en" : "To Date",
-    "type" : "Date"
+    "id" : "systemGeneratedCodePrefix",
+    "column" : "systemGeneratedCodePrefix",
+    "ar" : "System Generated Code Prefix",
+    "en" : "System Generated Code Prefix",
+    "type" : "Text"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
@@ -611,12 +467,6 @@
     "column" : "usageCapability_id",
     "type" : "ID"
   }, {
-    "id" : "valueDate",
-    "column" : "valueDate",
-    "ar" : "التاريخ الفعلي",
-    "en" : "Value Date",
-    "type" : "Date"
-  }, {
     "id" : "viewCapability",
     "column" : "viewCapability_id",
     "ar" : "صلاحية المطالعة",
@@ -628,54 +478,17 @@
     "id" : "viewCapabilityId",
     "column" : "viewCapability_id",
     "type" : "ID"
-  } ],
-  "details" : [ {
-    "id" : "details",
-    "table" : "EltezamSubmissionLine",
-    "joinColumn" : "eltezamSubmissionDoc_id",
-    "ar" : "التفاصيل",
-    "en" : "Details",
-    "fields" : [ {
-      "id" : "details.employee",
-      "column" : "employee_id",
-      "ar" : "الموظف",
-      "en" : "Employee",
-      "type" : "Reference",
-      "refTo" : "Employee",
-      "refPath" : "/modules/basic/Employee.html"
-    }, {
-      "id" : "details.failedOperations",
-      "column" : "failedOperations",
-      "ar" : "العمليات الفاشلة",
-      "en" : "Failed Operations",
-      "type" : "Integer"
-    }, {
-      "id" : "details.id",
-      "column" : "id",
-      "type" : "ID"
-    }, {
-      "id" : "details.lastError",
-      "column" : "lastError",
-      "ar" : "آخر خطأ من التزام",
-      "en" : "Last Eltezam Error",
-      "type" : "BigText"
-    }, {
-      "id" : "details.lineNumber",
-      "column" : "lineNumber",
-      "type" : "Integer"
-    }, {
-      "id" : "details.sendState",
-      "column" : "sendState",
-      "ar" : "حالة الإرسال لالتزام",
-      "en" : "Eltezam Send State",
-      "type" : "Enum",
-      "enum" : "EltezamSendState"
-    }, {
-      "id" : "details.succeededOperations",
-      "column" : "succeededOperations",
-      "ar" : "العمليات الناجحة",
-      "en" : "Succeeded Operations",
-      "type" : "Integer"
-    } ]
+  }, {
+    "id" : "webhookSecret",
+    "column" : "webhookSecret",
+    "ar" : "Webhook Secret Header",
+    "en" : "Webhook Secret Header",
+    "type" : "Password"
+  }, {
+    "id" : "webhookUrl",
+    "column" : "webhookUrl",
+    "ar" : "Webhook URL",
+    "en" : "Webhook URL",
+    "type" : "BigText"
   } ]
 }

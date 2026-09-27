@@ -20,5 +20,9 @@
     "id" : "WhatsAppMessage",
     "ar" : "WhatsApp Message",
     "en" : "WhatsApp  Message"
+  }, {
+    "id" : "TelegramMessage",
+    "ar" : "Telegram Message",
+    "en" : "Telegram Message"
   } ]
 }

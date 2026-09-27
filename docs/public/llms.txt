@@ -538,6 +538,8 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 
 ## Basic Whatsapp (basic-whatsapp)
 
+- [TelegramBotConfiguration](https://dm.namasoft.com/dm-json/TelegramBotConfiguration.json): Telegram Bot Configuration
+- [TelegramMessage](https://dm.namasoft.com/dm-json/TelegramMessage.json): Telegram Message
 - [WhatsAppMessage](https://dm.namasoft.com/dm-json/WhatsAppMessage.json): WhatsApp  Message / WhatsApp Message
 - [WhatsAppMessageConfiguration](https://dm.namasoft.com/dm-json/WhatsAppMessageConfiguration.json): WhatsApp Message Configuration
 
@@ -2372,6 +2374,8 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [TaskScheduleExecutionLog](https://dm.namasoft.com/dm-json/TaskScheduleExecutionLog.json)
 - [TaxPayerLastSubmissionInfo](https://dm.namasoft.com/dm-json/TaxPayerLastSubmissionInfo.json)
 - [TechnicianAppointmentChangeHistory](https://dm.namasoft.com/dm-json/TechnicianAppointmentChangeHistory.json)
+- [TelegramBotInfo](https://dm.namasoft.com/dm-json/TelegramBotInfo.json)
+- [TelegramMessageEntry](https://dm.namasoft.com/dm-json/TelegramMessageEntry.json)
 - [TenderInvoiceLine](https://dm.namasoft.com/dm-json/TenderInvoiceLine.json)
 - [TermConditionLine](https://dm.namasoft.com/dm-json/TermConditionLine.json)
 - [TermItemLine](https://dm.namasoft.com/dm-json/TermItemLine.json)

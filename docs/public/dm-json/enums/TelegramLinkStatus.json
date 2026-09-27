@@ -1,0 +1,18 @@
+{
+  "enum" : "TelegramLinkStatus",
+  "values" : [ {
+    "id" : "Pending",
+    "ar" : "معلق",
+    "en" : "Pending"
+  }, {
+    "id" : "Linked",
+    "ar" : "تم الربط",
+    "en" : "Linked"
+  }, {
+    "id" : "Rejected",
+    "ar" : "مرفوض",
+    "en" : "Rejected"
+  }, {
+    "id" : "Blocked"
+  } ]
+}

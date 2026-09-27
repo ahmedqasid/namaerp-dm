@@ -1,0 +1,62 @@
+{
+  "entity" : "TelegramBotInfo",
+  "table" : "TelegramBotInfo",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/TelegramBotInfo.html",
+  "fields" : [ {
+    "id" : "chatId",
+    "column" : "chatId",
+    "ar" : "Chat ID",
+    "en" : "Chat ID",
+    "type" : "Text"
+  }, {
+    "id" : "contact",
+    "columns" : [ "contactActualCode", " contactCode", " contactEntityType", " contactId" ],
+    "ar" : "جهة إتصال",
+    "en" : "Contact",
+    "type" : "Genericreference"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "messagingConfig",
+    "column" : "messagingConfig_id",
+    "ar" : "Messaging Configuration",
+    "en" : "Messaging Configuration",
+    "type" : "Reference",
+    "refTo" : "TelegramBotConfiguration",
+    "refPath" : "/modules/basic-whatsapp/TelegramBotConfiguration.html"
+  }, {
+    "id" : "optedOut",
+    "column" : "optedOut",
+    "ar" : "Opted Out",
+    "en" : "Opted Out",
+    "type" : "Boolean"
+  }, {
+    "id" : "phoneNumber",
+    "column" : "phoneNumber",
+    "ar" : "رقم الهاتف",
+    "en" : "Phone Number",
+    "type" : "Text"
+  }, {
+    "id" : "receivedOn",
+    "column" : "receivedOn",
+    "ar" : "تاريخ الاستلام",
+    "en" : "Received On",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TelegramLinkStatus"
+  }, {
+    "id" : "telegramUserId",
+    "column" : "telegramUserId",
+    "ar" : "Telegram User ID",
+    "en" : "Telegram User ID",
+    "type" : "Text"
+  } ]
+}

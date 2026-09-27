@@ -397,5 +397,13 @@
     "id" : "WMSPutAway"
   }, {
     "id" : "WMSInventoryInquiry"
+  }, {
+    "id" : "CRMCall",
+    "ar" : "اتصال",
+    "en" : "CRM Call"
+  }, {
+    "id" : "CRMFollowUp",
+    "ar" : "سند متابعة",
+    "en" : "Follow Up Document"
   } ]
 }

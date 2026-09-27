@@ -711,6 +711,12 @@
     "en" : "Targets Query",
     "type" : "BigText"
   }, {
+    "id" : "telegramMessage",
+    "column" : "telegramMessage_id",
+    "type" : "Reference",
+    "refTo" : "TelegramMessage",
+    "refPath" : "/modules/basic-whatsapp/TelegramMessage.html"
+  }, {
     "id" : "templates.copyEmailFrom",
     "column" : "copyEmailFrom",
     "ar" : "نسخ الايميل من",

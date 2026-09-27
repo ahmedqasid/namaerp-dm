@@ -1,0 +1,54 @@
+{
+  "entity" : "TelegramMessageEntry",
+  "table" : "TelegramMessageEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/TelegramMessageEntry.html",
+  "fields" : [ {
+    "id" : "body",
+    "column" : "body",
+    "ar" : "Body",
+    "en" : "Body",
+    "type" : "BigText"
+  }, {
+    "id" : "chatId",
+    "column" : "chatId",
+    "ar" : "Chat ID",
+    "en" : "Chat ID",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "message",
+    "columns" : [ "messageActualCode", " messageCode", " messageEntityType", " messageId" ],
+    "ar" : "الرسالة",
+    "en" : "Message",
+    "type" : "Genericreference"
+  }, {
+    "id" : "messageState",
+    "column" : "messageState",
+    "ar" : "حالة الرسالة",
+    "en" : "message Status",
+    "type" : "Enum",
+    "enum" : "TelegramMessageState"
+  }, {
+    "id" : "ownerRecord",
+    "columns" : [ "ownerRecordActualCode", " ownerRecordCode", " ownerRecordEntityType", " ownerRecordId" ],
+    "ar" : "منشئ من",
+    "en" : "Owner Record",
+    "type" : "Genericreference"
+  }, {
+    "id" : "submittedOn",
+    "column" : "submittedOn",
+    "ar" : "التاريخ",
+    "en" : "Submitted On",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "telegramMessageId",
+    "column" : "telegramMessageId",
+    "ar" : "Telegram Message ID",
+    "en" : "Telegram Message ID",
+    "type" : "Text"
+  } ]
+}

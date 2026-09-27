@@ -705,6 +705,12 @@
     "en" : "System Generated Code Prefix",
     "type" : "Text"
   }, {
+    "id" : "telegramMessage",
+    "column" : "telegramMessage_id",
+    "type" : "Reference",
+    "refTo" : "TelegramMessage",
+    "refPath" : "/modules/basic-whatsapp/TelegramMessage.html"
+  }, {
     "id" : "templates.copyEmailFrom",
     "column" : "copyEmailFrom",
     "ar" : "نسخ الايميل من",
