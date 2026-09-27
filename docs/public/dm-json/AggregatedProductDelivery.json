@@ -596,6 +596,12 @@
       "en" : "description5",
       "type" : "Text"
     }, {
+      "id" : "details.expectedDeliveryCode",
+      "column" : "expectedDeliveryCode",
+      "ar" : "كود التسليم المتوقع",
+      "en" : "Expected Delivery Code",
+      "type" : "Text"
+    }, {
       "id" : "details.expiryDate",
       "column" : "expiryDate",
       "ar" : "تواريخ الصلاحية | الإنتهاء",

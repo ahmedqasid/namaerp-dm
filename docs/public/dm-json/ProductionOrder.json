@@ -1935,6 +1935,147 @@
       "type" : "Boolean"
     } ]
   }, {
+    "id" : "plannedDeliveries",
+    "table" : "ProductionOrderPlannedDeliveryLine",
+    "joinColumn" : "productionOrder_id",
+    "ar" : "مخطط التسليم",
+    "en" : "Planned Delivery",
+    "fields" : [ {
+      "id" : "plannedDeliveries.actualDeliveryQty.uom",
+      "column" : "actualDeliveryQtyUom_id",
+      "ar" : "الكمية المسلمة فعلياً | وحدة",
+      "en" : "Actual Delivery Quantity | UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "plannedDeliveries.actualDeliveryQty.value",
+      "column" : "actualDeliveryQtyValue",
+      "ar" : "الكمية المسلمة فعلياً | قيمة",
+      "en" : "Actual Delivery Quantity | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "plannedDeliveries.expectedDeliveryCode",
+      "column" : "expectedDeliveryCode",
+      "ar" : "كود التسليم المتوقع",
+      "en" : "Expected Delivery Code",
+      "type" : "Text"
+    }, {
+      "id" : "plannedDeliveries.id",
+      "column" : "id",
+      "type" : "ID"
+    }, {
+      "id" : "plannedDeliveries.item",
+      "column" : "item_id",
+      "ar" : "الصنف",
+      "en" : "Item",
+      "type" : "Reference",
+      "refTo" : "InvItem",
+      "refPath" : "/modules/supplychain/InvItem.html"
+    }, {
+      "id" : "plannedDeliveries.lineNumber",
+      "column" : "lineNumber",
+      "type" : "Integer"
+    }, {
+      "id" : "plannedDeliveries.plannedDeliveryQty.uom",
+      "column" : "plannedDeliveryQtyUom_id",
+      "ar" : "الكمية المخطط تسليمها | وحدة",
+      "en" : "Planned Delivery Quantity | UOM",
+      "type" : "Reference",
+      "refTo" : "UOM",
+      "refPath" : "/modules/supplychain/UOM.html"
+    }, {
+      "id" : "plannedDeliveries.plannedDeliveryQty.value",
+      "column" : "plannedDeliveryQtyValue",
+      "ar" : "الكمية المخطط تسليمها | قيمة",
+      "en" : "Planned Delivery Quantity | Value",
+      "type" : "Decimal"
+    }, {
+      "id" : "plannedDeliveries.specificDimensions.activePerc",
+      "column" : "activePerc",
+      "ar" : "النسبة الفعالة",
+      "en" : "Active Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "plannedDeliveries.specificDimensions.box",
+      "column" : "box",
+      "ar" : "صندوق",
+      "en" : "Box",
+      "type" : "Text"
+    }, {
+      "id" : "plannedDeliveries.specificDimensions.color",
+      "column" : "color",
+      "ar" : "اللون",
+      "en" : "Color",
+      "type" : "Color"
+    }, {
+      "id" : "plannedDeliveries.specificDimensions.inactivePerc",
+      "column" : "inactivePerc",
+      "ar" : "النسبة الغير فعالة",
+      "en" : "Inactive Percentage",
+      "type" : "Text"
+    }, {
+      "id" : "plannedDeliveries.specificDimensions.locator",
+      "column" : "locator_id",
+      "ar" : "الموقع",
+      "en" : "Locator",
+      "type" : "Reference",
+      "refTo" : "Locator",
+      "refPath" : "/modules/supplychain/Locator.html"
+    }, {
+      "id" : "plannedDeliveries.specificDimensions.lotId",
+      "column" : "lotId",
+      "ar" : "رقم الشحنه",
+      "en" : "Lot ID",
+      "type" : "Text"
+    }, {
+      "id" : "plannedDeliveries.specificDimensions.measures",
+      "column" : "measures",
+      "ar" : "الأبعاد",
+      "en" : "Measures",
+      "type" : "Measures"
+    }, {
+      "id" : "plannedDeliveries.specificDimensions.revisionId",
+      "column" : "revisionId",
+      "ar" : "الإصدار",
+      "en" : "Revision ID",
+      "type" : "Text"
+    }, {
+      "id" : "plannedDeliveries.specificDimensions.secondSerial",
+      "column" : "secondSerial",
+      "ar" : "الرقم المسلسل الثاني",
+      "en" : "Second Serial",
+      "type" : "BigText"
+    }, {
+      "id" : "plannedDeliveries.specificDimensions.serialNumber",
+      "column" : "serialNumber",
+      "ar" : "الرقم المسلسل",
+      "en" : "Serial number",
+      "type" : "BigText"
+    }, {
+      "id" : "plannedDeliveries.specificDimensions.size",
+      "column" : "size",
+      "ar" : "المقاس",
+      "en" : "Size",
+      "type" : "Text"
+    }, {
+      "id" : "plannedDeliveries.specificDimensions.subItem",
+      "column" : "subItem_id",
+      "ar" : " السياره",
+      "en" : " Customer Car",
+      "type" : "Reference",
+      "refTo" : "SubItem",
+      "refPath" : "/modules/srvcenter-subitems/SubItem.html"
+    }, {
+      "id" : "plannedDeliveries.specificDimensions.warehouse",
+      "column" : "warehouse_id",
+      "ar" : "المخزن",
+      "en" : "Warehouse",
+      "type" : "Reference",
+      "refTo" : "Warehouse",
+      "refPath" : "/modules/supplychain/Warehouse.html"
+    } ]
+  }, {
     "id" : "productionLotLines",
     "table" : "ProductionLotLine",
     "joinColumn" : "productionOrder_id",

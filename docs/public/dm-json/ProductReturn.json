@@ -293,6 +293,12 @@
     "en" : "Entity Type",
     "type" : "EntityType"
   }, {
+    "id" : "expectedDeliveryCode",
+    "column" : "expectedDeliveryCode",
+    "ar" : "كود التسليم المتوقع",
+    "en" : "Expected Delivery Code",
+    "type" : "Text"
+  }, {
     "id" : "expiryDate",
     "column" : "expiryDate",
     "ar" : "تاريخ الإنتهاء",
@@ -1161,6 +1167,12 @@
       "ar" : "وزن الفارغ",
       "en" : "Empty Weight",
       "type" : "Decimal"
+    }, {
+      "id" : "details.expectedDeliveryCode",
+      "column" : "expectedDeliveryCode",
+      "ar" : "كود التسليم المتوقع",
+      "en" : "Expected Delivery Code",
+      "type" : "Text"
     }, {
       "id" : "details.expiryDate",
       "column" : "expiryDate",

@@ -16185,6 +16185,9 @@
       "id" : "molds",
       "table" : "ProductionOrderMoldLine"
     }, {
+      "id" : "plannedDeliveries",
+      "table" : "ProductionOrderPlannedDeliveryLine"
+    }, {
       "id" : "productionLotLines",
       "table" : "ProductionLotLine"
     }, {
