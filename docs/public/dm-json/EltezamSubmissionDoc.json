@@ -68,10 +68,6 @@
     "en" : "Commited Before",
     "type" : "Boolean"
   }, {
-    "id" : "committedOrBeingCommitted",
-    "column" : "committedOrBeingCommitted",
-    "type" : "Boolean"
-  }, {
     "id" : "createTransactionId",
     "column" : "createTransactionId",
     "type" : "Text"

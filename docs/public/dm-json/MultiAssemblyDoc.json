@@ -854,6 +854,18 @@
       "en" : "Required Quantity",
       "type" : "Decimal"
     }, {
+      "id" : "details.saveAsDraft",
+      "column" : "saveAsDraft",
+      "ar" : "الحفظ كمسودة",
+      "en" : "Save As Draft",
+      "type" : "Boolean"
+    }, {
+      "id" : "details.sourceLineId",
+      "column" : "sourceLineId",
+      "ar" : "معرف سطر المصدر",
+      "en" : "Source Line Id",
+      "type" : "ID"
+    }, {
       "id" : "details.status",
       "column" : "status",
       "ar" : "الحالة",
@@ -2163,6 +2175,12 @@
       "ar" : "الكمية المطلوبة",
       "en" : "Required Quantity",
       "type" : "Decimal"
+    }, {
+      "id" : "mainItems.sourceLineId",
+      "column" : "sourceLineId",
+      "ar" : "معرف سطر المصدر",
+      "en" : "Source Line Id",
+      "type" : "ID"
     }, {
       "id" : "mainItems.status",
       "column" : "status",
