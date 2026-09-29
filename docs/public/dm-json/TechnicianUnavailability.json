@@ -1,19 +1,13 @@
 {
-  "entity" : "MobileAppMenuDefinition",
-  "table" : "MobileAppMenuDefinition",
-  "module" : "basic",
-  "ar" : "تعريف قائمة التطبيق",
-  "arPlural" : "تعريفات قائمة التطبيق",
-  "en" : "Mobile App Menu Definition",
-  "enPlural" : "Mobile App Menu Definitions",
-  "page" : "https://dm.namasoft.com/modules/basic/MobileAppMenuDefinition.html",
+  "entity" : "TechnicianUnavailability",
+  "table" : "TechnicianUnavailability",
+  "module" : "system-tables",
+  "ar" : "سند إيقاف فني عن الحجز",
+  "arPlural" : "سندات إيقاف الفنيين عن الحجز",
+  "en" : "Technician Unavailability",
+  "enPlural" : "Technician Unavailabilities",
+  "page" : "https://dm.namasoft.com/modules/system-tables/TechnicianUnavailability.html",
   "fields" : [ {
-    "id" : "addToDefault",
-    "column" : "addToDefault",
-    "ar" : "إضافة إلى القائمة الافتراضية",
-    "en" : "Add To Default Menu",
-    "type" : "Boolean"
-  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",
@@ -25,6 +19,14 @@
     "id" : "analysisSetId",
     "column" : "analysisSet_id",
     "type" : "ID"
+  }, {
+    "id" : "book",
+    "column" : "book_id",
+    "ar" : "الدفتر",
+    "en" : "Book",
+    "type" : "Reference",
+    "refTo" : "DocumentBook",
+    "refPath" : "/modules/basic/DocumentBook.html"
   }, {
     "id" : "branch",
     "column" : "branch_id",
@@ -39,6 +41,14 @@
     "ar" : "Branch ID",
     "en" : "Branch ID",
     "type" : "ID"
+  }, {
+    "id" : "cancelledBy",
+    "column" : "cancelledBy_id",
+    "ar" : "ألغي بواسطة",
+    "en" : "Cancelled By",
+    "type" : "Reference",
+    "refTo" : "DocumentCancelDocument",
+    "refPath" : "/modules/basic/DocumentCancelDocument.html"
   }, {
     "id" : "code",
     "column" : "code",
@@ -156,6 +166,10 @@
     "en" : "description5",
     "type" : "Text"
   }, {
+    "id" : "dimensionsHistoryXml",
+    "column" : "dimensionsHistoryXml",
+    "type" : "BigText"
+  }, {
     "id" : "docCategory",
     "column" : "docCategory_id",
     "ar" : " تصنيف سجل",
@@ -211,6 +225,34 @@
     "column" : "firstAuthor_id",
     "type" : "ID"
   }, {
+    "id" : "fiscalPeriod",
+    "column" : "fiscalPeriod_id",
+    "ar" : "الفترة",
+    "en" : "Fiscal Period",
+    "type" : "Reference",
+    "refTo" : "FiscalPeriod",
+    "refPath" : "/modules/basic/FiscalPeriod.html"
+  }, {
+    "id" : "fiscalYear",
+    "column" : "fiscalYear_id",
+    "ar" : "السنة المالية",
+    "en" : "Fiscal Year",
+    "type" : "Reference",
+    "refTo" : "FiscalYear",
+    "refPath" : "/modules/basic/FiscalYear.html"
+  }, {
+    "id" : "fromDoc",
+    "columns" : [ "fromDoc_ActualCode", " fromDoc_Code", " fromDoc_type", " fromDoc_id" ],
+    "ar" : "بناءا على",
+    "en" : "From Document",
+    "type" : "Genericreference"
+  }, {
+    "id" : "fromDocsCount",
+    "column" : "fromDocsCount",
+    "ar" : "عدد سندات بناء على",
+    "en" : "From Docs Count",
+    "type" : "Integer"
+  }, {
     "id" : "generatedByLine",
     "column" : "generatedByLine",
     "ar" : "كود سطر الإنشاء",
@@ -234,22 +276,6 @@
     "type" : "Enum",
     "enum" : "GenerationType"
   }, {
-    "id" : "group",
-    "column" : "group_id",
-    "ar" : "المجموعة",
-    "en" : "Group",
-    "type" : "Reference",
-    "refTo" : "MasterGroup",
-    "refPath" : "/modules/basic/MasterGroup.html"
-  }, {
-    "id" : "homeShortcut",
-    "column" : "homeShortcut_id",
-    "ar" : "اختصارات الصفحة الرئيسة",
-    "en" : "Home Shortcuts",
-    "type" : "Reference",
-    "refTo" : "MobileAppShortcut",
-    "refPath" : "/modules/basic/MobileAppShortcut.html"
-  }, {
     "id" : "id",
     "column" : "id",
     "type" : "ID"
@@ -257,6 +283,12 @@
     "id" : "indexInParent",
     "column" : "indexInParent",
     "type" : "Integer"
+  }, {
+    "id" : "issueDate",
+    "column" : "issueDate",
+    "ar" : "تاريخ التحرير",
+    "en" : "Issue Date",
+    "type" : "Date"
   }, {
     "id" : "lastChangeVersion",
     "column" : "lastChangeVersion",
@@ -288,11 +320,11 @@
     "column" : "lockVersion",
     "type" : "Integer"
   }, {
-    "id" : "mainFile",
-    "column" : "mainFile_id",
-    "type" : "Binary",
-    "refTo" : "LargeData",
-    "refPath" : "/modules/system-tables/LargeData.html"
+    "id" : "manualRef1",
+    "column" : "manualRef1",
+    "ar" : "رقم المستند اليدوي",
+    "en" : "Manual Ref1",
+    "type" : "Text"
   }, {
     "id" : "n1",
     "column" : "n1",
@@ -324,17 +356,13 @@
     "en" : "Number 5",
     "type" : "Decimal"
   }, {
-    "id" : "name1",
-    "column" : "name1",
-    "ar" : "الاسم العربي",
-    "en" : "Name1",
-    "type" : "Text"
-  }, {
-    "id" : "name2",
-    "column" : "name2",
-    "ar" : "الاسم الإنجليزي",
-    "en" : "Name2",
-    "type" : "Text"
+    "id" : "openShift",
+    "column" : "openShift_id",
+    "ar" : "فتح وردية",
+    "en" : "Open Shift",
+    "type" : "Reference",
+    "refTo" : "CSHOpenShift",
+    "refPath" : "/modules/accounting-cashier/CSHOpenShift.html"
   }, {
     "id" : "parentCode",
     "column" : "parentCode",
@@ -346,11 +374,29 @@
     "en" : "Prevent Usage",
     "type" : "Boolean"
   }, {
+    "id" : "preventUseAsFromDoc",
+    "column" : "preventUseAsFromDoc",
+    "type" : "Boolean"
+  }, {
     "id" : "printCount",
     "column" : "printCount",
     "ar" : "عدد مرات الطباعة",
     "en" : "Print Count",
     "type" : "Integer"
+  }, {
+    "id" : "purged",
+    "column" : "purged",
+    "ar" : "Purged",
+    "en" : "Purged",
+    "type" : "Boolean"
+  }, {
+    "id" : "rbook",
+    "column" : "rbook_id",
+    "ar" : "دفتر الايصالات",
+    "en" : "Receipt Book",
+    "type" : "Reference",
+    "refTo" : "ReceiptBook",
+    "refPath" : "/modules/basic/ReceiptBook.html"
   }, {
     "id" : "ref1",
     "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
@@ -407,6 +453,14 @@
     "refTo" : "NaMaUser",
     "refPath" : "/modules/system-tables/NaMaUser.html"
   }, {
+    "id" : "rpaper",
+    "column" : "rpaper_id",
+    "ar" : "الايصال",
+    "en" : "Receipt Paper",
+    "type" : "Reference",
+    "refTo" : "ReceiptPaper",
+    "refPath" : "/modules/basic/ReceiptPaper.html"
+  }, {
     "id" : "sector",
     "column" : "sector_id",
     "ar" : "القطاع",
@@ -419,17 +473,17 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
-    "id" : "systemDefault",
-    "column" : "systemDefault",
-    "ar" : "القائمة الافتراضية للنظام",
-    "en" : "System Default Menu",
-    "type" : "Boolean"
+    "id" : "term",
+    "column" : "term_id",
+    "ar" : "توجيه المستند",
+    "en" : "Term",
+    "type" : "Reference",
+    "refTo" : "DocumentTerm",
+    "refPath" : "/modules/basic/DocumentTerm.html"
   }, {
-    "id" : "systemGeneratedCodePrefix",
-    "column" : "systemGeneratedCodePrefix",
-    "ar" : "System Generated Code Prefix",
-    "en" : "System Generated Code Prefix",
-    "type" : "Text"
+    "id" : "termConfigXml",
+    "column" : "termConfigXml",
+    "type" : "BigText"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
@@ -455,6 +509,12 @@
     "column" : "usageCapability_id",
     "type" : "ID"
   }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  }, {
     "id" : "viewCapability",
     "column" : "viewCapability_id",
     "ar" : "صلاحية المطالعة",
@@ -468,113 +528,63 @@
     "type" : "ID"
   } ],
   "details" : [ {
-    "id" : "groups",
-    "table" : "MobileAppMenuGroup",
-    "joinColumn" : "mobileAppMenuDefinition_id",
-    "ar" : "المجموعات",
-    "en" : "Groups",
+    "id" : "details",
+    "table" : "TechnicianUnavailabilityLine",
+    "joinColumn" : "technicianUnavailability_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
     "fields" : [ {
-      "id" : "groups.arabic",
-      "column" : "arabic",
-      "ar" : "عنوان عربي",
-      "en" : "Arabic",
-      "type" : "Text"
+      "id" : "details.day",
+      "column" : "day",
+      "ar" : "اليوم",
+      "en" : "Day",
+      "type" : "Date"
     }, {
-      "id" : "groups.code",
-      "column" : "code",
-      "ar" : "الكود",
-      "en" : "Code",
-      "type" : "Text"
+      "id" : "details.fromDateTime",
+      "column" : "fromDateTime",
+      "ar" : "من تاريخ - وقت",
+      "en" : "From Date Time",
+      "type" : "DateAndTime"
     }, {
-      "id" : "groups.english",
-      "column" : "english",
-      "ar" : "عنوان إنجليزي",
-      "en" : "English",
-      "type" : "Text"
+      "id" : "details.fromTime",
+      "column" : "fromTime",
+      "ar" : "الوقـت | من",
+      "en" : "Time | From",
+      "type" : "Time"
     }, {
-      "id" : "groups.iconName",
-      "column" : "iconName",
-      "ar" : "اسم أيقونة المجموعة",
-      "en" : "Group Icon Name",
-      "type" : "Text"
-    }, {
-      "id" : "groups.id",
+      "id" : "details.id",
       "column" : "id",
       "type" : "ID"
     }, {
-      "id" : "groups.lineNumber",
-      "column" : "lineNumber",
-      "type" : "Integer"
-    } ]
-  }, {
-    "id" : "targetItems",
-    "table" : "MobileAppMenuGroupItem",
-    "joinColumn" : "mobileAppMenuDefinition_id",
-    "ar" : "الوصلات المستهدفة",
-    "en" : "Target Items",
-    "fields" : [ {
-      "id" : "targetItems.appHomeReplacement",
-      "column" : "appHomeReplacement",
-      "ar" : "بديل الصفحة الرئيسية",
-      "en" : "App Home Replacement",
-      "type" : "Boolean"
-    }, {
-      "id" : "targetItems.arabicTitle",
-      "column" : "arabicTitle",
-      "ar" : "العنوان بالعربية",
-      "en" : "Arabic Title",
-      "type" : "Text"
-    }, {
-      "id" : "targetItems.dashboard",
-      "column" : "dashboard_id",
-      "ar" : "لوحة التطبيق",
-      "en" : "Mobile Dashboard",
-      "type" : "Reference",
-      "refTo" : "MobileAppDashboard",
-      "refPath" : "/modules/basic-mobile-ess/MobileAppDashboard.html"
-    }, {
-      "id" : "targetItems.englishTitle",
-      "column" : "englishTitle",
-      "ar" : "العنوان بالإنجليزية",
-      "en" : "English Title",
-      "type" : "Text"
-    }, {
-      "id" : "targetItems.groupCode",
-      "column" : "groupCode",
-      "ar" : "كود المجموعة",
-      "en" : "Group Code",
-      "type" : "Text"
-    }, {
-      "id" : "targetItems.id",
-      "column" : "id",
-      "type" : "ID"
-    }, {
-      "id" : "targetItems.lineNumber",
+      "id" : "details.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
     }, {
-      "id" : "targetItems.linkTarget",
-      "column" : "linkTarget",
-      "ar" : "Link Target",
-      "en" : "Link Target",
-      "type" : "Enum",
-      "enum" : "MobileAppTargetMenuItem"
+      "id" : "details.remarks",
+      "column" : "remarks",
+      "ar" : " ملاحظات",
+      "en" : " Description",
+      "type" : "BigText"
     }, {
-      "id" : "targetItems.reportDefinition",
-      "column" : "reportDefinition_id",
-      "ar" : "تعريف التقرير",
-      "en" : "Report Definition",
+      "id" : "details.technician",
+      "column" : "technician_id",
+      "ar" : "الفني",
+      "en" : "Technician",
       "type" : "Reference",
-      "refTo" : "ReportDefinition",
-      "refPath" : "/modules/basic/ReportDefinition.html"
+      "refTo" : "Employee",
+      "refPath" : "/modules/basic/Employee.html"
     }, {
-      "id" : "targetItems.shortcut",
-      "column" : "shortcut_id",
-      "ar" : "اختصار التطبيق",
-      "en" : "App Shortcut",
-      "type" : "Reference",
-      "refTo" : "MobileAppShortcut",
-      "refPath" : "/modules/basic/MobileAppShortcut.html"
+      "id" : "details.toDateTime",
+      "column" : "toDateTime",
+      "ar" : "إلى تاريخ - وقت",
+      "en" : "To Date Time",
+      "type" : "DateAndTime"
+    }, {
+      "id" : "details.toTime",
+      "column" : "toTime",
+      "ar" : "الوقـت | إلى",
+      "en" : "Time | To",
+      "type" : "Time"
     } ]
   } ]
 }

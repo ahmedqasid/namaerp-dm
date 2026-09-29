@@ -498,8 +498,8 @@
     }, {
       "id" : "targetItems.shortcut",
       "column" : "shortcut_id",
-      "ar" : " الاختصار",
-      "en" : " Keyboard Shortcut",
+      "ar" : "اختصار داخلي",
+      "en" : "Sub Shortcut",
       "type" : "Reference",
       "refTo" : "MobileAppShortcut",
       "refPath" : "/modules/basic/MobileAppShortcut.html"

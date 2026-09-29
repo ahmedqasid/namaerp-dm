@@ -20848,6 +20848,16 @@
       "table" : "TechnicianTransferLine"
     } ]
   }, {
+    "name" : "TechnicianUnavailability",
+    "table" : "TechnicianUnavailability",
+    "module" : "system-tables",
+    "ar" : "سند إيقاف فني عن الحجز",
+    "en" : "Technician Unavailability",
+    "details" : [ {
+      "id" : "details",
+      "table" : "TechnicianUnavailabilityLine"
+    } ]
+  }, {
     "name" : "TelegramBotConfiguration",
     "table" : "TelegramBotConfiguration",
     "module" : "basic-whatsapp",

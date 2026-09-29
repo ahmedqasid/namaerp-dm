@@ -2374,6 +2374,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [TaskScheduleExecutionLog](https://dm.namasoft.com/dm-json/TaskScheduleExecutionLog.json)
 - [TaxPayerLastSubmissionInfo](https://dm.namasoft.com/dm-json/TaxPayerLastSubmissionInfo.json)
 - [TechnicianAppointmentChangeHistory](https://dm.namasoft.com/dm-json/TechnicianAppointmentChangeHistory.json)
+- [TechnicianUnavailability](https://dm.namasoft.com/dm-json/TechnicianUnavailability.json): Technician Unavailability / سند إيقاف فني عن الحجز
 - [TelegramBotInfo](https://dm.namasoft.com/dm-json/TelegramBotInfo.json)
 - [TelegramMessageEntry](https://dm.namasoft.com/dm-json/TelegramMessageEntry.json)
 - [TenderInvoiceLine](https://dm.namasoft.com/dm-json/TenderInvoiceLine.json)
