@@ -324,6 +324,10 @@
     "column" : "fromInvoiceOnServer",
     "type" : "Boolean"
   }, {
+    "id" : "fromInvoiceValueDate",
+    "column" : "fromInvoiceValueDate",
+    "type" : "DateAndTime"
+  }, {
     "id" : "genInvoiceCode",
     "column" : "genInvoiceCode",
     "type" : "Text"
@@ -488,6 +492,10 @@
   }, {
     "id" : "paymentDelayed",
     "column" : "paymentDelayed",
+    "type" : "Boolean"
+  }, {
+    "id" : "pendingServerConfirmation",
+    "column" : "pendingServerConfirmation",
     "type" : "Boolean"
   }, {
     "id" : "posInvoiceClassification",

@@ -6,6 +6,12 @@
   "arPlural" : "عمليات التشغيل",
   "page" : "https://dm.namasoft.com/modules/manufacturing/Routing.html",
   "fields" : [ {
+    "id" : "allowNegativeQtyForOP1",
+    "column" : "allowNegativeQtyForOP1",
+    "ar" : "السماح بالكمية السالبة للعملية 1",
+    "en" : "Allow Negative Quantity For Operation 1",
+    "type" : "Boolean"
+  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",
@@ -633,6 +639,12 @@
     "ar" : "التفاصيل",
     "en" : "Details",
     "fields" : [ {
+      "id" : "details.allowNegativeQty",
+      "column" : "allowNegativeQty",
+      "ar" : "السماح بالكمية السالبة",
+      "en" : "Allow Negative Quantity",
+      "type" : "Boolean"
+    }, {
       "id" : "details.assuranceList",
       "column" : "assuranceList_id",
       "ar" : "قائمة تأكيد الجوده",

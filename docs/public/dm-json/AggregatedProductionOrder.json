@@ -683,6 +683,12 @@
     "ar" : "التفاصيل",
     "en" : "Details",
     "fields" : [ {
+      "id" : "details.allowNegativeQtyForOP1",
+      "column" : "allowNegativeQtyForOP1",
+      "ar" : "السماح بالكمية السالبة للعملية 1",
+      "en" : "Allow Negative Quantity For Operation 1",
+      "type" : "Boolean"
+    }, {
       "id" : "details.approvedQuantities",
       "column" : "approvedQuantities",
       "ar" : "الكميات الموافق عليها",
@@ -1318,6 +1324,12 @@
     "ar" : "الكميات المطلوبة",
     "en" : "Required Quantities",
     "fields" : [ {
+      "id" : "requiredQuantities.allowNegativeQtyForOP1",
+      "column" : "allowNegativeQtyForOP1",
+      "ar" : "السماح بالكمية السالبة للعملية 1",
+      "en" : "Allow Negative Quantity For Operation 1",
+      "type" : "Boolean"
+    }, {
       "id" : "requiredQuantities.bom",
       "column" : "bom_id",
       "ar" : "مكونات المنتج",

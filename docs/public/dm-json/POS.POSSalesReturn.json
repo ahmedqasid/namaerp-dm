@@ -330,6 +330,10 @@
     "column" : "fromInvoiceOnServer",
     "type" : "Boolean"
   }, {
+    "id" : "fromInvoiceValueDate",
+    "column" : "fromInvoiceValueDate",
+    "type" : "DateAndTime"
+  }, {
     "id" : "genericDims.analysisSet.code",
     "column" : "analysisSetCode",
     "ar" : "الكود",
@@ -482,6 +486,14 @@
   }, {
     "id" : "paymentDelayed",
     "column" : "paymentDelayed",
+    "type" : "Boolean"
+  }, {
+    "id" : "pendingCreditNoteValue",
+    "column" : "pendingCreditNoteValue",
+    "type" : "Decimal"
+  }, {
+    "id" : "pendingServerConfirmation",
+    "column" : "pendingServerConfirmation",
     "type" : "Boolean"
   }, {
     "id" : "posInvoiceClassification",

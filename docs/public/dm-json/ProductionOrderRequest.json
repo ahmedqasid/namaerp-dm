@@ -1802,6 +1802,12 @@
     "ar" : "عمليات التشغيل",
     "en" : "Routings",
     "fields" : [ {
+      "id" : "routings.allowNegativeQty",
+      "column" : "allowNegativeQty",
+      "ar" : "السماح بالكمية السالبة",
+      "en" : "Allow Negative Quantity",
+      "type" : "Boolean"
+    }, {
       "id" : "routings.assuranceList",
       "column" : "assuranceList_id",
       "ar" : "قائمة تأكيد الجوده",

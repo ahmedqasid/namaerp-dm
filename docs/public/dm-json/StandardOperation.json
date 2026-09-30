@@ -8,6 +8,12 @@
   "enPlural" : "Standard Operations",
   "page" : "https://dm.namasoft.com/modules/manufacturing/StandardOperation.html",
   "fields" : [ {
+    "id" : "allowNegativeQty",
+    "column" : "allowNegativeQty",
+    "ar" : "السماح بالكمية السالبة",
+    "en" : "Allow Negative Quantity",
+    "type" : "Boolean"
+  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",

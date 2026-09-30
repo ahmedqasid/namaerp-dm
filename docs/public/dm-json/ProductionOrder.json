@@ -20,6 +20,12 @@
     "en" : "Planned | Actual Start Date",
     "type" : "Date"
   }, {
+    "id" : "allowNegativeQtyForOP1",
+    "column" : "allowNegativeQtyForOP1",
+    "ar" : "السماح بالكمية السالبة للعملية 1",
+    "en" : "Allow Negative Quantity For Operation 1",
+    "type" : "Boolean"
+  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",
@@ -2222,6 +2228,12 @@
     "ar" : "عمليات التشغيل",
     "en" : "Routings",
     "fields" : [ {
+      "id" : "routings.allowNegativeQty",
+      "column" : "allowNegativeQty",
+      "ar" : "السماح بالكمية السالبة",
+      "en" : "Allow Negative Quantity",
+      "type" : "Boolean"
+    }, {
       "id" : "routings.assuranceList",
       "column" : "assuranceList_id",
       "ar" : "قائمة تأكيد الجوده",

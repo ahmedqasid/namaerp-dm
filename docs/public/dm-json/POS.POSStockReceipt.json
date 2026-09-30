@@ -466,6 +466,10 @@
     "column" : "paymentDelayed",
     "type" : "Boolean"
   }, {
+    "id" : "pendingServerConfirmation",
+    "column" : "pendingServerConfirmation",
+    "type" : "Boolean"
+  }, {
     "id" : "posInvoiceClassification",
     "column" : "posInvoiceClassification_id",
     "type" : "Reference",
