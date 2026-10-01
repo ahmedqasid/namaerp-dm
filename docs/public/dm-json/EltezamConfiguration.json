@@ -384,6 +384,12 @@
     "column" : "lockVersion",
     "type" : "Integer"
   }, {
+    "id" : "logSendingDetails",
+    "column" : "logSendingDetails",
+    "ar" : "تسجيل تفاصيل الإرسال",
+    "en" : "Log Sending Details",
+    "type" : "Boolean"
+  }, {
     "id" : "mainFile",
     "column" : "mainFile_id",
     "type" : "Binary",

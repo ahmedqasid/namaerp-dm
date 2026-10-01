@@ -486,6 +486,14 @@
     "en" : "Seller Code",
     "type" : "Text"
   }, {
+    "id" : "shippingItem",
+    "column" : "shippingItem_id",
+    "ar" : "صنف الشحن",
+    "en" : "Shipping Item",
+    "type" : "Reference",
+    "refTo" : "InvItem",
+    "refPath" : "/modules/supplychain/InvItem.html"
+  }, {
     "id" : "systemGeneratedCodePrefix",
     "column" : "systemGeneratedCodePrefix",
     "ar" : "System Generated Code Prefix",

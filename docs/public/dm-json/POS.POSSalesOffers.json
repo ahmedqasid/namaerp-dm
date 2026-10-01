@@ -1992,6 +1992,30 @@
     "table" : "POSOfferOnItemsCountLine",
     "joinColumn" : "salesOffer_id",
     "fields" : [ {
+      "id" : "itemsCountOffers.analysisSet.code",
+      "column" : "analysisSetCode",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "itemsCountOffers.analysisSet.id",
+      "column" : "analysisSetId",
+      "ar" : "المعرف",
+      "en" : "Id",
+      "type" : "ID"
+    }, {
+      "id" : "itemsCountOffers.branch.code",
+      "column" : "branchCode",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "itemsCountOffers.branch.id",
+      "column" : "branchId",
+      "ar" : "المعرف",
+      "en" : "Id",
+      "type" : "ID"
+    }, {
       "id" : "itemsCountOffers.brand",
       "column" : "brand_id",
       "ar" : "الماركة",
@@ -2039,6 +2063,18 @@
       "type" : "Reference",
       "refTo" : "POS.POSItemCategory",
       "refPath" : "/modules/pos-app/POS.POSItemCategory.html"
+    }, {
+      "id" : "itemsCountOffers.department.code",
+      "column" : "departmentCode",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "itemsCountOffers.department.id",
+      "column" : "departmentId",
+      "ar" : "المعرف",
+      "en" : "Id",
+      "type" : "ID"
     }, {
       "id" : "itemsCountOffers.discLocation",
       "column" : "discLocation",
@@ -2210,6 +2246,18 @@
       "refTo" : "POS.POSFreeItemGroup",
       "refPath" : "/modules/pos-app/POS.POSFreeItemGroup.html"
     }, {
+      "id" : "itemsCountOffers.legalEntity.code",
+      "column" : "legalEntityCode",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "itemsCountOffers.legalEntity.id",
+      "column" : "legalEntityId",
+      "ar" : "المعرف",
+      "en" : "Id",
+      "type" : "ID"
+    }, {
       "id" : "itemsCountOffers.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
@@ -2299,6 +2347,18 @@
       "type" : "Reference",
       "refTo" : "POS.POSItemSection",
       "refPath" : "/modules/pos-app/POS.POSItemSection.html"
+    }, {
+      "id" : "itemsCountOffers.sector.code",
+      "column" : "sectorCode",
+      "ar" : "الكود",
+      "en" : "Code",
+      "type" : "Text"
+    }, {
+      "id" : "itemsCountOffers.sector.id",
+      "column" : "sectorId",
+      "ar" : "المعرف",
+      "en" : "Id",
+      "type" : "ID"
     }, {
       "id" : "itemsCountOffers.srcLinesNumbers",
       "column" : "srcLinesNumbers",

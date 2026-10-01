@@ -1,0 +1,12 @@
+{
+  "enum" : "WhatsAppTemplateParamType",
+  "values" : [ {
+    "id" : "Body",
+    "ar" : "نص الرسالة",
+    "en" : "Body"
+  }, {
+    "id" : "UrlButton",
+    "ar" : "رابط الزر",
+    "en" : "URL Button"
+  } ]
+}

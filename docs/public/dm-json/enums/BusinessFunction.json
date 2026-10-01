@@ -204,5 +204,7 @@
     "id" : "removeFilter",
     "ar" : "مسح الفلترة",
     "en" : "Remove Filter"
+  }, {
+    "id" : "reportRerun"
   } ]
 }

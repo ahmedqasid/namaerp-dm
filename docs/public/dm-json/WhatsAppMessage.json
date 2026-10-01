@@ -601,6 +601,13 @@
       "ar" : "قالب المدخل",
       "en" : "Parameter Template",
       "type" : "BigText"
+    }, {
+      "id" : "parameters.parameterType",
+      "column" : "parameterType",
+      "ar" : "نوع المدخل",
+      "en" : "Parameter Type",
+      "type" : "Enum",
+      "enum" : "WhatsAppTemplateParamType"
     } ]
   } ]
 }
