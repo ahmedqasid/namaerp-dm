@@ -465,7 +465,7 @@
     "id" : "itemCodeFrom",
     "column" : "itemCodeFrom",
     "ar" : "حساب الكود الضريبي للصنف من",
-    "en" : "=Calculate Item Code From",
+    "en" : "Calculate Item Code From",
     "type" : "Enum",
     "enum" : "TaxItemTypeCodeFromType"
   }, {
