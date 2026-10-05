@@ -120,6 +120,12 @@
     "en" : "Custom Price Query",
     "type" : "Text"
   }, {
+    "id" : "customerPhoneCountryCodes",
+    "column" : "customerPhoneCountryCodes",
+    "ar" : "أكواد الدول لأرقام العملاء",
+    "en" : "Customer Phone Country Codes",
+    "type" : "ID"
+  }, {
     "id" : "defaultPaySubsidiaryType",
     "column" : "defaultPaySubsidiaryType",
     "ar" : "صرف الي الافتراضي بسند المصروف",

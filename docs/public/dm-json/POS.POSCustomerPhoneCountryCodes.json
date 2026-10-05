@@ -1,12 +1,12 @@
 {
-  "entity" : "POS.POSGenericReferenceOverrider",
-  "table" : "POSGenericReferenceOverrider",
+  "entity" : "POS.POSCustomerPhoneCountryCodes",
+  "table" : "POSCustomerPhoneCountryCodes",
   "module" : "pos-app",
-  "ar" : "أعدادات الحقول و الشاشات",
-  "arPlural" : " أعدادات الحقول و الشاشات",
-  "en" : "Fields and Entities Settings",
-  "enPlural" : " Fields and Entities Settings",
-  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSGenericReferenceOverrider.html",
+  "ar" : "أكواد الدول لأرقام عملاء نقاط البيع",
+  "arPlural" : "ملفات أكواد الدول لأرقام عملاء نقاط البيع",
+  "en" : "POS Customer Phone Country Codes",
+  "enPlural" : "POS Customer Phone Country Codes Files",
+  "page" : "https://dm.namasoft.com/modules/pos-app/POS.POSCustomerPhoneCountryCodes.html",
   "fields" : [ {
     "id" : "code",
     "column" : "code",
@@ -139,110 +139,37 @@
     "type" : "Integer"
   } ],
   "details" : [ {
-    "id" : "extraCodes",
-    "table" : "POSExtraCodeLine",
-    "joinColumn" : "genRefOverrider_id",
-    "ar" : "Extra Codes",
-    "en" : "Extra Codes",
+    "id" : "details",
+    "table" : "POSCustomerPhoneCountryCodeLine",
+    "joinColumn" : "countryCodes_id",
+    "ar" : "التفاصيل",
+    "en" : "Details",
     "fields" : [ {
-      "id" : "extraCodes.fieldID",
-      "column" : "fieldID",
-      "ar" : " الحقل",
-      "en" : " On Field",
+      "id" : "details.arabicName",
+      "column" : "arabicName",
+      "ar" : "Arabic Name",
+      "en" : "Arabic Name",
       "type" : "Text"
     }, {
-      "id" : "extraCodes.forType",
-      "column" : "forType",
-      "ar" : "للنوع",
-      "en" : "For Type",
+      "id" : "details.countryCode",
+      "column" : "countryCode",
+      "ar" : "كود الدولة",
+      "en" : "Country Code",
       "type" : "Text"
     }, {
-      "id" : "extraCodes.genRefOverrider",
-      "column" : "genRefOverrider_id",
-      "type" : "Reference",
-      "refTo" : "POS.POSGenericReferenceOverrider",
-      "refPath" : "/modules/pos-app/POS.POSGenericReferenceOverrider.html"
+      "id" : "details.englishName",
+      "column" : "englishName",
+      "ar" : "English Name",
+      "en" : "English Name",
+      "type" : "Text"
     }, {
-      "id" : "extraCodes.id",
+      "id" : "details.id",
       "column" : "id",
       "type" : "ID"
     }, {
-      "id" : "extraCodes.lineNumber",
+      "id" : "details.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
-    } ]
-  }, {
-    "id" : "fieldFormats",
-    "table" : "POSFieldFormatLine",
-    "joinColumn" : "genRefOverrider_id",
-    "ar" : "Field Formats",
-    "en" : "Field Formats",
-    "fields" : [ {
-      "id" : "fieldFormats.allowAlpha",
-      "column" : "allowAlpha",
-      "ar" : "السماح بالحروف",
-      "en" : "Allow alpha",
-      "type" : "Boolean"
-    }, {
-      "id" : "fieldFormats.allowNumbers",
-      "column" : "allowNumbers",
-      "ar" : "السماح بالارقام",
-      "en" : "Allow numbers",
-      "type" : "Boolean"
-    }, {
-      "id" : "fieldFormats.criteriaXML",
-      "column" : "criteriaXML",
-      "type" : "Text"
-    }, {
-      "id" : "fieldFormats.fieldID",
-      "column" : "fieldID",
-      "ar" : " الحقل",
-      "en" : " On Field",
-      "type" : "Text"
-    }, {
-      "id" : "fieldFormats.genRefOverrider",
-      "column" : "genRefOverrider_id",
-      "type" : "Reference",
-      "refTo" : "POS.POSGenericReferenceOverrider",
-      "refPath" : "/modules/pos-app/POS.POSGenericReferenceOverrider.html"
-    }, {
-      "id" : "fieldFormats.id",
-      "column" : "id",
-      "type" : "ID"
-    }, {
-      "id" : "fieldFormats.letterCaseType",
-      "column" : "letterCaseType",
-      "ar" : "الحروف المسموح بها",
-      "en" : "Letter Case Type",
-      "type" : "Text"
-    }, {
-      "id" : "fieldFormats.lineNumber",
-      "column" : "lineNumber",
-      "type" : "Integer"
-    }, {
-      "id" : "fieldFormats.maxLength",
-      "column" : "maxLength",
-      "ar" : "اقصي طول",
-      "en" : "Max length",
-      "type" : "Integer"
-    }, {
-      "id" : "fieldFormats.minLength",
-      "column" : "minLength",
-      "ar" : "اقل طول",
-      "en" : "Min length",
-      "type" : "Integer"
-    }, {
-      "id" : "fieldFormats.prefix",
-      "column" : "prefix",
-      "ar" : "بادئة التكويد",
-      "en" : "Prefix",
-      "type" : "Text"
-    }, {
-      "id" : "fieldFormats.suffix",
-      "column" : "suffix",
-      "ar" : "نهاية التكويد",
-      "en" : "Suffix",
-      "type" : "Text"
     } ]
   } ]
 }

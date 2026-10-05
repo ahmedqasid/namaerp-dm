@@ -1397,6 +1397,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [NamaPOSAggGenericReference](https://dm.namasoft.com/dm-json/NamaPOSAggGenericReference.json): POS Aggregated Generic Reference / المرجع العام المجمع لنقاط البيع
 - [NamaPOSCancelReservation](https://dm.namasoft.com/dm-json/NamaPOSCancelReservation.json): POS Cancel Reservation / سند إلغاء حجز اوردر نقاط بيع
 - [NamaPOSCreditNote](https://dm.namasoft.com/dm-json/NamaPOSCreditNote.json): POS Credit Note / إشعار دائن نقاط البيع
+- [NamaPOSCustomerPhoneCountryCodes](https://dm.namasoft.com/dm-json/NamaPOSCustomerPhoneCountryCodes.json): POS Customer Phone Country Codes / أكواد الدول لأرقام عملاء نقاط البيع
 - [NamaPOSDBUpdateStatement](https://dm.namasoft.com/dm-json/NamaPOSDBUpdateStatement.json): POS DB Update Statement Runner
 - [NamaPOSDeliveryCost](https://dm.namasoft.com/dm-json/NamaPOSDeliveryCost.json): POS Delivery Cost / تكاليف خدمة توصيل نقاط البيع
 - [NamaPOSDepreciationReason](https://dm.namasoft.com/dm-json/NamaPOSDepreciationReason.json): POS Depreciation Reason / سبب الهالك
@@ -1454,6 +1455,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [POS.POSCustomerCategory](https://dm.namasoft.com/dm-json/POS.POSCustomerCategory.json): Customer Category / تصنيف عميل (table: POSCustomerCategory)
 - [POS.POSCustomerClass](https://dm.namasoft.com/dm-json/POS.POSCustomerClass.json): Customers' Class / فئة عملاء (table: POSCustomerClass)
 - [POS.POSCustomerClass2](https://dm.namasoft.com/dm-json/POS.POSCustomerClass2.json): Customers' Class 2 / فئة عميل 2 (table: POSCustomerClass2)
+- [POS.POSCustomerPhoneCountryCodes](https://dm.namasoft.com/dm-json/POS.POSCustomerPhoneCountryCodes.json): POS Customer Phone Country Codes / أكواد الدول لأرقام عملاء نقاط البيع (table: POSCustomerPhoneCountryCodes)
 - [POS.POSDBUpdateStatement](https://dm.namasoft.com/dm-json/POS.POSDBUpdateStatement.json): POS DB Update Statement Runner (table: POSDBUpdateStatement)
 - [POS.POSDepartment](https://dm.namasoft.com/dm-json/POS.POSDepartment.json): إدارة (table: POSDepartment)
 - [POS.POSDepreciationReason](https://dm.namasoft.com/dm-json/POS.POSDepreciationReason.json): POS Depreciation Reason / سبب الهالك (table: POSDepreciationReason)
@@ -2238,6 +2240,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [POSConfigReturnTermLine](https://dm.namasoft.com/dm-json/POSConfigReturnTermLine.json)
 - [POSConfigSalesTermLine](https://dm.namasoft.com/dm-json/POSConfigSalesTermLine.json)
 - [POSCustomerFieldLine](https://dm.namasoft.com/dm-json/POSCustomerFieldLine.json)
+- [POSCustomerPhoneCountryCodeLine](https://dm.namasoft.com/dm-json/POSCustomerPhoneCountryCodeLine.json)
 - [POSEntitiesSendConfigLine](https://dm.namasoft.com/dm-json/POSEntitiesSendConfigLine.json)
 - [POSFavProcedureLine](https://dm.namasoft.com/dm-json/POSFavProcedureLine.json)
 - [POSFilterDimensionsLine](https://dm.namasoft.com/dm-json/POSFilterDimensionsLine.json)

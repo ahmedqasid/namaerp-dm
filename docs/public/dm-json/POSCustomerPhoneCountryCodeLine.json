@@ -1,0 +1,29 @@
+{
+  "entity" : "POSCustomerPhoneCountryCodeLine",
+  "table" : "POSCustomerPhoneCountryCodeLine",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/POSCustomerPhoneCountryCodeLine.html",
+  "fields" : [ {
+    "id" : "arabicName",
+    "column" : "arabicName",
+    "ar" : "Arabic Name",
+    "en" : "Arabic Name",
+    "type" : "Text"
+  }, {
+    "id" : "countryCode",
+    "column" : "countryCode",
+    "ar" : "كود الدولة",
+    "en" : "Country Code",
+    "type" : "Text"
+  }, {
+    "id" : "englishName",
+    "column" : "englishName",
+    "ar" : "English Name",
+    "en" : "English Name",
+    "type" : "Text"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  } ]
+}

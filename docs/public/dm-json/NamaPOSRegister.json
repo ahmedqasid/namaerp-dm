@@ -216,6 +216,14 @@
     "column" : "customViewName",
     "type" : "Text"
   }, {
+    "id" : "customerPhoneCountryCodes",
+    "column" : "customerPhoneCountryCodes_id",
+    "ar" : "أكواد الدول لأرقام العملاء",
+    "en" : "Customer Phone Country Codes",
+    "type" : "Reference",
+    "refTo" : "NamaPOSCustomerPhoneCountryCodes",
+    "refPath" : "/modules/namapos/NamaPOSCustomerPhoneCountryCodes.html"
+  }, {
     "id" : "date1",
     "column" : "date1",
     "ar" : "تـــاريخ 1",

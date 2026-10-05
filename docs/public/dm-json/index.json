@@ -13247,6 +13247,16 @@
       "table" : "NamaPOSCreditNoteLine"
     } ]
   }, {
+    "name" : "NamaPOSCustomerPhoneCountryCodes",
+    "table" : "NamaPOSCustomerPhoneCountryCodes",
+    "module" : "namapos",
+    "ar" : "أكواد الدول لأرقام عملاء نقاط البيع",
+    "en" : "POS Customer Phone Country Codes",
+    "details" : [ {
+      "id" : "details",
+      "table" : "POSCustomerPhoneCountryCodeLine"
+    } ]
+  }, {
     "name" : "NamaPOSDBUpdateStatement",
     "table" : "NamaPOSDBUpdateStatement",
     "module" : "namapos",
@@ -14161,6 +14171,16 @@
     "module" : "pos-app",
     "ar" : "فئة عميل 2",
     "en" : "Customers' Class 2"
+  }, {
+    "name" : "POS.POSCustomerPhoneCountryCodes",
+    "table" : "POSCustomerPhoneCountryCodes",
+    "module" : "pos-app",
+    "ar" : "أكواد الدول لأرقام عملاء نقاط البيع",
+    "en" : "POS Customer Phone Country Codes",
+    "details" : [ {
+      "id" : "details",
+      "table" : "POSCustomerPhoneCountryCodeLine"
+    } ]
   }, {
     "name" : "POS.POSDBUpdateStatement",
     "table" : "POSDBUpdateStatement",
@@ -15281,6 +15301,10 @@
   }, {
     "name" : "POSCustomerFieldLine",
     "table" : "POSCustomerFieldLine",
+    "module" : "system-tables"
+  }, {
+    "name" : "POSCustomerPhoneCountryCodeLine",
+    "table" : "POSCustomerPhoneCountryCodeLine",
     "module" : "system-tables"
   }, {
     "name" : "POSEntitiesSendConfigLine",
