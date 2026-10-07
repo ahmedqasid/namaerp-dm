@@ -18,10 +18,6 @@
     "column" : "id",
     "type" : "ID"
   }, {
-    "id" : "markDeleted",
-    "column" : "markDeleted",
-    "type" : "Boolean"
-  }, {
     "id" : "outTransLine",
     "column" : "outTransLine",
     "type" : "ID"

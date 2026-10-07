@@ -915,6 +915,12 @@
       "en" : " Free Item",
       "type" : "Boolean"
     }, {
+      "id" : "details.fromDocQty",
+      "column" : "fromDocQty",
+      "ar" : "كمية مستند بناء على",
+      "en" : "From Doc Quantity",
+      "type" : "Decimal"
+    }, {
       "id" : "details.fromFreeItemsOnInvoiceOffer",
       "column" : "fromFreeItemsOnInvoiceOffer",
       "type" : "Boolean"

@@ -131,6 +131,13 @@
     "refTo" : "Warehouse",
     "refPath" : "/modules/supplychain/Warehouse.html"
   }, {
+    "id" : "status",
+    "column" : "status",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "TaskStatus"
+  }, {
     "id" : "submissionDate",
     "column" : "submissionDate",
     "type" : "DateAndTime"

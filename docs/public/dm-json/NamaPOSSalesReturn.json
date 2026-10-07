@@ -1870,6 +1870,12 @@
       "column" : "freeOfferLineId",
       "type" : "ID"
     }, {
+      "id" : "details.fromDocQty",
+      "column" : "fromDocQty",
+      "ar" : "كمية مستند بناء على",
+      "en" : "From Doc Quantity",
+      "type" : "Decimal"
+    }, {
       "id" : "details.genericDimensions.analysisSet",
       "column" : "analysisSet_id",
       "ar" : "المجموعة التحليلية",
