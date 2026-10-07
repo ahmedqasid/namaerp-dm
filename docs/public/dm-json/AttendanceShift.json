@@ -258,6 +258,18 @@
     "column" : "firstAuthor_id",
     "type" : "ID"
   }, {
+    "id" : "friday.overtimeEarliestTime",
+    "column" : "fridayOvertimeEarliestTime",
+    "ar" : "أبكر وقت مسموح قبل بداية الوردية",
+    "en" : "Earliest Allowed Time Before Shift Start",
+    "type" : "Time"
+  }, {
+    "id" : "friday.overtimeLatestTime",
+    "column" : "fridayOvertimeLatestTime",
+    "ar" : "آخر وقت مسموح بعد نهاية الوردية",
+    "en" : "Latest Allowed Time After Shift End",
+    "type" : "Time"
+  }, {
     "id" : "friday.weeklyRest",
     "column" : "fridayWeeklyRest",
     "ar" : "راحة إسبوعية",
@@ -380,6 +392,18 @@
     "type" : "Binary",
     "refTo" : "LargeData",
     "refPath" : "/modules/system-tables/LargeData.html"
+  }, {
+    "id" : "monday.overtimeEarliestTime",
+    "column" : "mondayOvertimeEarliestTime",
+    "ar" : "أبكر وقت مسموح قبل بداية الوردية",
+    "en" : "Earliest Allowed Time Before Shift Start",
+    "type" : "Time"
+  }, {
+    "id" : "monday.overtimeLatestTime",
+    "column" : "mondayOvertimeLatestTime",
+    "ar" : "آخر وقت مسموح بعد نهاية الوردية",
+    "en" : "Latest Allowed Time After Shift End",
+    "type" : "Time"
   }, {
     "id" : "monday.weeklyRest",
     "column" : "mondayWeeklyRest",
@@ -548,6 +572,18 @@
     "refTo" : "NaMaUser",
     "refPath" : "/modules/system-tables/NaMaUser.html"
   }, {
+    "id" : "saturday.overtimeEarliestTime",
+    "column" : "saturdayOvertimeEarliestTime",
+    "ar" : "أبكر وقت مسموح قبل بداية الوردية",
+    "en" : "Earliest Allowed Time Before Shift Start",
+    "type" : "Time"
+  }, {
+    "id" : "saturday.overtimeLatestTime",
+    "column" : "saturdayOvertimeLatestTime",
+    "ar" : "آخر وقت مسموح بعد نهاية الوردية",
+    "en" : "Latest Allowed Time After Shift End",
+    "type" : "Time"
+  }, {
     "id" : "saturday.weeklyRest",
     "column" : "saturdayWeeklyRest",
     "ar" : "راحة إسبوعية",
@@ -608,6 +644,18 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
+    "id" : "sunday.overtimeEarliestTime",
+    "column" : "sundayOvertimeEarliestTime",
+    "ar" : "أبكر وقت مسموح قبل بداية الوردية",
+    "en" : "Earliest Allowed Time Before Shift Start",
+    "type" : "Time"
+  }, {
+    "id" : "sunday.overtimeLatestTime",
+    "column" : "sundayOvertimeLatestTime",
+    "ar" : "آخر وقت مسموح بعد نهاية الوردية",
+    "en" : "Latest Allowed Time After Shift End",
+    "type" : "Time"
+  }, {
     "id" : "sunday.weeklyRest",
     "column" : "sundayWeeklyRest",
     "ar" : "راحة إسبوعية",
@@ -662,6 +710,18 @@
     "en" : "System Generated Code Prefix",
     "type" : "Text"
   }, {
+    "id" : "thursday.overtimeEarliestTime",
+    "column" : "thursdayOvertimeEarliestTime",
+    "ar" : "أبكر وقت مسموح قبل بداية الوردية",
+    "en" : "Earliest Allowed Time Before Shift Start",
+    "type" : "Time"
+  }, {
+    "id" : "thursday.overtimeLatestTime",
+    "column" : "thursdayOvertimeLatestTime",
+    "ar" : "آخر وقت مسموح بعد نهاية الوردية",
+    "en" : "Latest Allowed Time After Shift End",
+    "type" : "Time"
+  }, {
     "id" : "thursday.weeklyRest",
     "column" : "thursdayWeeklyRest",
     "ar" : "راحة إسبوعية",
@@ -709,6 +769,18 @@
     "ar" : "يوم عمل",
     "en" : "Work day",
     "type" : "Boolean"
+  }, {
+    "id" : "tuesday.overtimeEarliestTime",
+    "column" : "tuesdayOvertimeEarliestTime",
+    "ar" : "أبكر وقت مسموح قبل بداية الوردية",
+    "en" : "Earliest Allowed Time Before Shift Start",
+    "type" : "Time"
+  }, {
+    "id" : "tuesday.overtimeLatestTime",
+    "column" : "tuesdayOvertimeLatestTime",
+    "ar" : "آخر وقت مسموح بعد نهاية الوردية",
+    "en" : "Latest Allowed Time After Shift End",
+    "type" : "Time"
   }, {
     "id" : "tuesday.weeklyRest",
     "column" : "tuesdayWeeklyRest",
@@ -793,6 +865,18 @@
     "id" : "viewCapabilityId",
     "column" : "viewCapability_id",
     "type" : "ID"
+  }, {
+    "id" : "wednesday.overtimeEarliestTime",
+    "column" : "wednesdayOvertimeEarliestTime",
+    "ar" : "أبكر وقت مسموح قبل بداية الوردية",
+    "en" : "Earliest Allowed Time Before Shift Start",
+    "type" : "Time"
+  }, {
+    "id" : "wednesday.overtimeLatestTime",
+    "column" : "wednesdayOvertimeLatestTime",
+    "ar" : "آخر وقت مسموح بعد نهاية الوردية",
+    "en" : "Latest Allowed Time After Shift End",
+    "type" : "Time"
   }, {
     "id" : "wednesday.weeklyRest",
     "column" : "wednesdayWeeklyRest",
@@ -922,6 +1006,18 @@
       "id" : "groupDetails.lineNumber",
       "column" : "lineNumber",
       "type" : "Integer"
+    }, {
+      "id" : "groupDetails.workDay.overtimeEarliestTime",
+      "column" : "overtimeEarliestTime",
+      "ar" : "أبكر وقت مسموح قبل بداية الوردية",
+      "en" : "Earliest Allowed Time Before Shift Start",
+      "type" : "Time"
+    }, {
+      "id" : "groupDetails.workDay.overtimeLatestTime",
+      "column" : "overtimeLatestTime",
+      "ar" : "آخر وقت مسموح بعد نهاية الوردية",
+      "en" : "Latest Allowed Time After Shift End",
+      "type" : "Time"
     }, {
       "id" : "groupDetails.workDay.weeklyRest",
       "column" : "weeklyRest",
