@@ -475,6 +475,12 @@
     "column" : "sector_id",
     "type" : "ID"
   }, {
+    "id" : "senderCodeExtension",
+    "column" : "senderCodeExtension",
+    "ar" : "Sender Code Extension",
+    "en" : "Sender Code Extension",
+    "type" : "Text"
+  }, {
     "id" : "systemGeneratedCodePrefix",
     "column" : "systemGeneratedCodePrefix",
     "ar" : "System Generated Code Prefix",

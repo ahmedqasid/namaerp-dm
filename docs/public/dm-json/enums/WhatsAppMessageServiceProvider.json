@@ -36,5 +36,9 @@
     "id" : "WaSender",
     "ar" : "WasenderAPI",
     "en" : "WasenderAPI"
+  }, {
+    "id" : "Yeastar",
+    "ar" : "Yeastar",
+    "en" : "Yeastar"
   } ]
 }
