@@ -592,12 +592,6 @@
       "column" : "overdraftDetails",
       "type" : "BigText"
     }, {
-      "id" : "details.overdraftLine",
-      "column" : "overdraftLine_id",
-      "type" : "",
-      "refTo" : "CostOverdraftLine",
-      "refPath" : "/modules/system-tables/CostOverdraftLine.html"
-    }, {
       "id" : "details.overdraftQty",
       "column" : "overdraftQty",
       "ar" : "كمية المكشوف",
