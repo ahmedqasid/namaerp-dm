@@ -204,5 +204,21 @@
     "id" : "CRMFollowUp",
     "ar" : "سند متابعة",
     "en" : "Follow Up Document"
+  }, {
+    "id" : "SISalesOrder",
+    "ar" : "أمر بيع سيارة",
+    "en" : "Car Sales Order"
+  }, {
+    "id" : "SIReceipt",
+    "ar" : "توريد سيارة",
+    "en" : "Car Receipt"
+  }, {
+    "id" : "SIFinalDelivery",
+    "ar" : "تسليم سيارة نهائي",
+    "en" : "Car Final Delivery"
+  }, {
+    "id" : "SIAllocation",
+    "ar" : "تخصيص سيارة",
+    "en" : "Car Allocation"
   } ]
 }

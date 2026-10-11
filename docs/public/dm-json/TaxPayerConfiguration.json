@@ -726,6 +726,12 @@
     "en" : "Description",
     "type" : "BigText"
   }, {
+    "id" : "resendWithoutOneDocOnRepeatedBatch",
+    "column" : "resendWithoutOneDocOnRepeatedBatch",
+    "ar" : "عند رفض الدفعة لتكرارها، أعد الإرسال بعد استبعاد مستند",
+    "en" : "When Batch Is Refused As Repeated, Resend Without One Document",
+    "type" : "Boolean"
+  }, {
     "id" : "reviseLevel",
     "column" : "reviseLevel",
     "ar" : "مستوى المراجعة",

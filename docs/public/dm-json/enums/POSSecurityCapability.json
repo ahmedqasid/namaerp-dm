@@ -380,5 +380,9 @@
     "id" : "CanHoldSelfCheckoutInvoice",
     "ar" : "إمكانية تعليق فاتورة الدفع الذاتي",
     "en" : "Can Hold Self Checkout Invoice"
+  }, {
+    "id" : "CanEditFreeItemDims",
+    "ar" : "إمكانية تعديل محددات الأصناف المجانية",
+    "en" : "Can Edit Free Item Dims"
   } ]
 }

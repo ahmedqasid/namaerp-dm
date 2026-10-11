@@ -86,6 +86,12 @@
     "en" : "Can Edit Delivery Cost",
     "type" : "Boolean"
   }, {
+    "id" : "canEditFreeItemDims",
+    "column" : "canEditFreeItemDims",
+    "ar" : "إمكانية تعديل محددات الأصناف المجانية",
+    "en" : "Can Edit Free Item Dims",
+    "type" : "Boolean"
+  }, {
     "id" : "canEditInvoiceClassification",
     "column" : "canEditInvoiceClassification",
     "ar" : "إمكانية تعديل تصنيف الفاتورة",
