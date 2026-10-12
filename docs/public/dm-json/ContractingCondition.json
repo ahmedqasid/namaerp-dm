@@ -1170,6 +1170,18 @@
     "refTo" : "AccountingSideConfig",
     "refPath" : "/modules/basic/AccountingSideConfig.html"
   }, {
+    "id" : "taxPercent",
+    "column" : "taxPercent",
+    "ar" : "الضريبة | النسبه",
+    "en" : "Tax Percentage",
+    "type" : "Decimal"
+  }, {
+    "id" : "taxable",
+    "column" : "taxable",
+    "ar" : "خاضع للضريبة",
+    "en" : "Taxable",
+    "type" : "Boolean"
+  }, {
     "id" : "textConditionExplanation",
     "column" : "textConditionExplanation",
     "ar" : "شرح الشرط النصي",

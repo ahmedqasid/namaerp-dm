@@ -1301,6 +1301,12 @@
       "en" : "Satisfied Qty 2",
       "type" : "Decimal"
     }, {
+      "id" : "details.selected",
+      "column" : "selected",
+      "ar" : "اختيار",
+      "en" : "Selected",
+      "type" : "Boolean"
+    }, {
       "id" : "details.sizeName",
       "column" : "sizeName",
       "ar" : "اسم المقاس",

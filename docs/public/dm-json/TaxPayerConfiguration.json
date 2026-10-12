@@ -726,12 +726,6 @@
     "en" : "Description",
     "type" : "BigText"
   }, {
-    "id" : "resendWithoutOneDocOnRepeatedBatch",
-    "column" : "resendWithoutOneDocOnRepeatedBatch",
-    "ar" : "عند رفض الدفعة لتكرارها، أعد الإرسال بعد استبعاد مستند",
-    "en" : "When Batch Is Refused As Repeated, Resend Without One Document",
-    "type" : "Boolean"
-  }, {
     "id" : "reviseLevel",
     "column" : "reviseLevel",
     "ar" : "مستوى المراجعة",
@@ -779,6 +773,12 @@
     "column" : "simplifiedInvoices",
     "ar" : "Simplified Invoices",
     "en" : "Simplified Invoices",
+    "type" : "Boolean"
+  }, {
+    "id" : "splitBatchWhenRefusedAsRepeated",
+    "column" : "splitBatchWhenRefusedAsRepeated",
+    "ar" : "عند رفض الدفعة لتكرارها، قسّمها وأعد الإرسال",
+    "en" : "When Batch Is Refused As Repeated, Split It And Resend",
     "type" : "Boolean"
   }, {
     "id" : "standardInvoices",

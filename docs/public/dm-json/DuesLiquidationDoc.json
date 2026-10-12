@@ -636,6 +636,12 @@
     "column" : "id",
     "type" : "ID"
   }, {
+    "id" : "ignoreVacationWorkStartDoc",
+    "column" : "ignoreVacationWorkStartDoc",
+    "ar" : "تجاهل عمل سند مباشرة عمل للأجازات التي تطلب سند المباشرة",
+    "en" : "Ignore Vacation Work Starting Document For Vacation That Requires Work Starting Document",
+    "type" : "Boolean"
+  }, {
     "id" : "indexInParent",
     "column" : "indexInParent",
     "type" : "Integer"
