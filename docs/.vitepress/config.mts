@@ -60,7 +60,7 @@ export default defineConfig({
             {text: 'Documentation', link: 'https://docs.namasoft.com'}
         ],
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/ahmedqasid/namaerp-dm'}
+            {icon: 'github', link: 'https://github.com/namasoft/namaerp-dm'}
         ],
         // Built-in minisearch covers "all contents" (fields, columns, Arabic/English labels).
         // Dynamic entity/enum pages have no markdown source, so _splitIntoSections feeds the
