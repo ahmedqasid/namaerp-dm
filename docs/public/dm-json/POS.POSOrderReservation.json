@@ -200,6 +200,8 @@
   }, {
     "id" : "delivered",
     "column" : "delivered",
+    "ar" : "تم التسليم",
+    "en" : "Delivered",
     "type" : "Boolean"
   }, {
     "id" : "deliveryDate",

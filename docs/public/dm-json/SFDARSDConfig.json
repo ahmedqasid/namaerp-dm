@@ -247,6 +247,12 @@
     "column" : "id",
     "type" : "ID"
   }, {
+    "id" : "incomingNotificationIdField",
+    "column" : "incomingNotificationIdField",
+    "ar" : "حقل رقم إشعار رصد في فاتورة الشراء",
+    "en" : "Purchase Invoice RSD Notification ID Field",
+    "type" : "FieldID"
+  }, {
     "id" : "indexInParent",
     "column" : "indexInParent",
     "type" : "Integer"

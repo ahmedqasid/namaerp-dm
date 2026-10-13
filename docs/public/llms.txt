@@ -680,6 +680,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [KitchenNetReview](https://dm.namasoft.com/dm-json/KitchenNetReview.json): Kitchen Net Review / المراجعة الخاصة بتطبيق المطابخ
 - [KitchenNetSecurityConfig](https://dm.namasoft.com/dm-json/KitchenNetSecurityConfig.json): Kitchen Net Security Configuration / إعدادات صلاحيات تطبيق المطابخ
 - [KitchenNetWishList](https://dm.namasoft.com/dm-json/KitchenNetWishList.json): Kitchen Net Wishlist / المفضلات الخاصة بتطبيق المطابخ
+- [PharmaConfiguration](https://dm.namasoft.com/dm-json/PharmaConfiguration.json): Pharma Configurations / إعدادات تطبيق United Pharma
 
 ## Crm Maintenance (crm-maintenance)
 
@@ -1689,13 +1690,16 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [SIInstallmentQuotation](https://dm.namasoft.com/dm-json/SIInstallmentQuotation.json): Car Installment Quotation / عرض سعر تقسيط سيارة
 - [SIInsurancePolicyCancellation](https://dm.namasoft.com/dm-json/SIInsurancePolicyCancellation.json): Car Insurance Policy Cancellation / إلغاء وثيقة تأمين سيارة
 - [SIInsurancePolicyDelivery](https://dm.namasoft.com/dm-json/SIInsurancePolicyDelivery.json): Car Insurance Policy Delivery / تسليم وثيقة تأمين سيارة
+- [SIInsurancePolicyDeliveryCancel](https://dm.namasoft.com/dm-json/SIInsurancePolicyDeliveryCancel.json): Car Insurance Policy Delivery Cancellation / إلغاء تسليم وثيقة تأمين سيارة
 - [SIInsurancePolicyOrder](https://dm.namasoft.com/dm-json/SIInsurancePolicyOrder.json): Insurance Policy Issuance Order / أمر إصدار وثيقة تأمين
 - [SIInsurancePolicyPeriodAdjustment](https://dm.namasoft.com/dm-json/SIInsurancePolicyPeriodAdjustment.json): Car Insurance Policy Period Adjustment / تعديل فترة وثيقة تأمين سيارة
 - [SIInsurancePolicyReceipt](https://dm.namasoft.com/dm-json/SIInsurancePolicyReceipt.json): Car Insurance Policy Receipt / استلام وثيقة تأمين سيارة
+- [SIInsurancePolicyReceiptCancel](https://dm.namasoft.com/dm-json/SIInsurancePolicyReceiptCancel.json): Car Insurance Policy Receipt Cancellation / إلغاء استلام وثيقة تأمين سيارة
 - [SIInsurancePolicyRenewal](https://dm.namasoft.com/dm-json/SIInsurancePolicyRenewal.json): Car Insurance Policy Renewal / تجديد وثيقة تأمين سيارة
 - [SIInsurancePolicyValueAdjustment](https://dm.namasoft.com/dm-json/SIInsurancePolicyValueAdjustment.json): Car Insurance Policy Value Adjustment / تعديل قيمة وثيقة تأمين سيارة
 - [SIInsuranceProgram](https://dm.namasoft.com/dm-json/SIInsuranceProgram.json): Car Insurance Program / برنامج تأمين سيارة
 - [SIInsurancePurchaseInvoice](https://dm.namasoft.com/dm-json/SIInsurancePurchaseInvoice.json): Car Insurance Policy Purchase Invoice / فاتورة شراء وثيقة تامين سيارة
+- [SIInsurancePurchaseReturn](https://dm.namasoft.com/dm-json/SIInsurancePurchaseReturn.json): Car Insurance Policy Purchase Return / مرتجع شراء وثيقة تامين سيارة
 
 ## Srvcenter Mobile Delivery (srvcenter-mobile-delivery)
 
@@ -2329,6 +2333,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [SFDARSDIncomingDispatch](https://dm.namasoft.com/dm-json/SFDARSDIncomingDispatch.json): SFDA RSD Incoming Dispatch / شحنة واردة من مورد (تتبع الأدوية)
 - [SFDARSDLineError](https://dm.namasoft.com/dm-json/SFDARSDLineError.json): SFDA RSD Line Result / نتيجة تتبع الأدوية على مستوى الصنف
 - [SFDARSDReportTask](https://dm.namasoft.com/dm-json/SFDARSDReportTask.json)
+- [SIInsurancePolicyEntry](https://dm.namasoft.com/dm-json/SIInsurancePolicyEntry.json)
 - [SISalesInvGeneratedDocsLine](https://dm.namasoft.com/dm-json/SISalesInvGeneratedDocsLine.json)
 - [STCLoyaltyPointsRewardEntry](https://dm.namasoft.com/dm-json/STCLoyaltyPointsRewardEntry.json)
 - [SWInvItemTrans](https://dm.namasoft.com/dm-json/SWInvItemTrans.json)

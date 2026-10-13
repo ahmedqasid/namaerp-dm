@@ -15801,6 +15801,12 @@
     "table" : "PeriodicRewardPointsGrantDocumentEntry",
     "module" : "system-tables"
   }, {
+    "name" : "PharmaConfiguration",
+    "table" : "PharmaConfiguration",
+    "module" : "crm-kitchen-net",
+    "ar" : "إعدادات تطبيق United Pharma",
+    "en" : "Pharma Configurations"
+  }, {
     "name" : "PickRules",
     "table" : "PickRules",
     "module" : "supplychain-sales",
@@ -18491,7 +18497,33 @@
     "details" : [ {
       "id" : "details",
       "table" : "SIInsurancePolicyDeliveryLine"
+    }, {
+      "id" : "externalPaymentLines",
+      "table" : "SIInsurancePolicyDeliveryExtPayLine"
+    }, {
+      "id" : "paymentLines",
+      "table" : "SIInsurancePolicyDeliveryPaymentLine"
     } ]
+  }, {
+    "name" : "SIInsurancePolicyDeliveryCancel",
+    "table" : "SIInsurancePolicyDeliveryCancel",
+    "module" : "srvcenter-insurance-and-installments",
+    "ar" : "إلغاء تسليم وثيقة تأمين سيارة",
+    "en" : "Car Insurance Policy Delivery Cancellation",
+    "details" : [ {
+      "id" : "details",
+      "table" : "SIInsurancePolicyDeliveryCancelLine"
+    }, {
+      "id" : "externalPaymentLines",
+      "table" : "SIInsurancePolicyDeliveryCancelExtPayLine"
+    }, {
+      "id" : "paymentLines",
+      "table" : "SIInsurancePolicyDeliveryCancelPaymentLine"
+    } ]
+  }, {
+    "name" : "SIInsurancePolicyEntry",
+    "table" : "SIInsurancePolicyEntry",
+    "module" : "system-tables"
   }, {
     "name" : "SIInsurancePolicyOrder",
     "table" : "SIInsurancePolicyOrder",
@@ -18524,6 +18556,19 @@
     }, {
       "id" : "externalPaymentLines",
       "table" : "SIInsurancePolicyReceiptExternalPaymentLine"
+    } ]
+  }, {
+    "name" : "SIInsurancePolicyReceiptCancel",
+    "table" : "SIInsurancePolicyReceiptCancel",
+    "module" : "srvcenter-insurance-and-installments",
+    "ar" : "إلغاء استلام وثيقة تأمين سيارة",
+    "en" : "Car Insurance Policy Receipt Cancellation",
+    "details" : [ {
+      "id" : "details",
+      "table" : "SIInsurancePolicyReceiptCancelLine"
+    }, {
+      "id" : "externalPaymentLines",
+      "table" : "SIInsurancePolicyReceiptCancelExtPayLine"
     } ]
   }, {
     "name" : "SIInsurancePolicyRenewal",
@@ -18564,6 +18609,28 @@
     "details" : [ {
       "id" : "details",
       "table" : "SIInsurancePurchaseInvoiceLine"
+    }, {
+      "id" : "externalPaymentLines",
+      "table" : "SIInsurancePurchaseInvoiceExtPayLine"
+    }, {
+      "id" : "paymentLines",
+      "table" : "SIInsurancePurchaseInvoicePaymentLine"
+    } ]
+  }, {
+    "name" : "SIInsurancePurchaseReturn",
+    "table" : "SIInsurancePurchaseReturn",
+    "module" : "srvcenter-insurance-and-installments",
+    "ar" : "مرتجع شراء وثيقة تامين سيارة",
+    "en" : "Car Insurance Policy Purchase Return",
+    "details" : [ {
+      "id" : "details",
+      "table" : "SIInsurancePurchaseReturnLine"
+    }, {
+      "id" : "externalPaymentLines",
+      "table" : "SIInsurancePurchaseReturnExtPayLine"
+    }, {
+      "id" : "paymentLines",
+      "table" : "SIInsurancePurchaseReturnPaymentLine"
     } ]
   }, {
     "name" : "SIProformaPurchaseInvoice",

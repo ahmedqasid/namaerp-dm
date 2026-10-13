@@ -80,6 +80,18 @@
     "en" : "Receiver GLN",
     "type" : "Text"
   }, {
+    "id" : "relatedInvoices",
+    "column" : "relatedInvoices",
+    "ar" : "الفواتير المرتبطة",
+    "en" : "Related Invoices",
+    "type" : "BigText"
+  }, {
+    "id" : "remainingQuantity",
+    "column" : "remainingQuantity",
+    "ar" : "المتبقي",
+    "en" : "Remaining Quantity",
+    "type" : "Decimal"
+  }, {
     "id" : "rsdConfig",
     "column" : "rsdConfig_id",
     "ar" : "إعدادات تتبع الأدوية",

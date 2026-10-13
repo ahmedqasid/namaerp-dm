@@ -8,6 +8,12 @@
   "enPlural" : "Car Insurance Policies",
   "page" : "https://dm.namasoft.com/modules/srvcenter-insurance-and-installments/SICustomerInsurancePolicy.html",
   "fields" : [ {
+    "id" : "actualCost",
+    "column" : "actualCost",
+    "ar" : "التكلفة",
+    "en" : "Actual Cost",
+    "type" : "Decimal"
+  }, {
     "id" : "analysisSet",
     "column" : "analysisSet_id",
     "ar" : "المجموعة التحليلية",
@@ -163,6 +169,12 @@
     "ar" : "تاريخ 5",
     "en" : "Date5",
     "type" : "Date"
+  }, {
+    "id" : "delivered",
+    "column" : "delivered",
+    "ar" : "تم التسليم",
+    "en" : "Delivered",
+    "type" : "Boolean"
   }, {
     "id" : "deliveredDate",
     "column" : "deliveredDate",
@@ -327,6 +339,16 @@
     "id" : "indexInParent",
     "column" : "indexInParent",
     "type" : "Integer"
+  }, {
+    "id" : "initialCost",
+    "column" : "initialCost",
+    "ar" : "التكلفة المبدئية",
+    "en" : "Initial Cost",
+    "type" : "Decimal"
+  }, {
+    "id" : "initialCostPercentage",
+    "column" : "initialCostPercentage",
+    "type" : "Decimal"
   }, {
     "id" : "insuranceCategory",
     "column" : "insuranceCategory",
@@ -526,6 +548,18 @@
     "en" : "Processed By",
     "type" : "Genericreference"
   }, {
+    "id" : "purchased",
+    "column" : "purchased",
+    "ar" : "تم الشراء",
+    "en" : "Purchased",
+    "type" : "Boolean"
+  }, {
+    "id" : "received",
+    "column" : "received",
+    "ar" : "تم الاستلام",
+    "en" : "Received",
+    "type" : "Boolean"
+  }, {
     "id" : "receivedDate",
     "column" : "receivedDate",
     "ar" : "تاريخ الاستلام",
@@ -604,6 +638,14 @@
     "id" : "sectorId",
     "column" : "sector_id",
     "type" : "ID"
+  }, {
+    "id" : "supplier",
+    "column" : "supplier_id",
+    "ar" : "مورد",
+    "en" : " Supplier",
+    "type" : "Reference",
+    "refTo" : "Supplier",
+    "refPath" : "/modules/basic/Supplier.html"
   }, {
     "id" : "systemGeneratedCodePrefix",
     "column" : "systemGeneratedCodePrefix",

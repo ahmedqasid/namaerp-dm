@@ -729,6 +729,14 @@
     "en" : "Shipping Date",
     "type" : "Date"
   }, {
+    "id" : "supplier",
+    "column" : "supplier_id",
+    "ar" : "مورد",
+    "en" : " Supplier",
+    "type" : "Reference",
+    "refTo" : "Supplier",
+    "refPath" : "/modules/basic/Supplier.html"
+  }, {
     "id" : "term",
     "column" : "term_id",
     "ar" : "توجيه المستند",
@@ -740,6 +748,12 @@
     "id" : "termConfigXml",
     "column" : "termConfigXml",
     "type" : "BigText"
+  }, {
+    "id" : "totalCost",
+    "column" : "totalCost",
+    "ar" : "اجمالى التكلفة",
+    "en" : "Total Cost",
+    "type" : "Decimal"
   }, {
     "id" : "updateCapability",
     "column" : "updateCapability_id",
@@ -841,6 +855,12 @@
       "ar" : "الشاسيه",
       "en" : "Chassis",
       "type" : "Text"
+    }, {
+      "id" : "details.cost",
+      "column" : "cost",
+      "ar" : "التكلفة",
+      "en" : "Cost",
+      "type" : "Decimal"
     }, {
       "id" : "details.customer",
       "column" : "customer_id",

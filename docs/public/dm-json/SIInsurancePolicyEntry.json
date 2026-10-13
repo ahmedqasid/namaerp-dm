@@ -1,0 +1,50 @@
+{
+  "entity" : "SIInsurancePolicyEntry",
+  "table" : "SIInsurancePolicyEntry",
+  "module" : "system-tables",
+  "page" : "https://dm.namasoft.com/modules/system-tables/SIInsurancePolicyEntry.html",
+  "fields" : [ {
+    "id" : "creationDate",
+    "column" : "creationDate",
+    "ar" : "تاريخ الإنشاء",
+    "en" : "Creation Date",
+    "type" : "DateAndTime"
+  }, {
+    "id" : "eventDate",
+    "column" : "eventDate",
+    "ar" : "تاريخ الحدث",
+    "en" : "Event Date",
+    "type" : "Date"
+  }, {
+    "id" : "id",
+    "column" : "id",
+    "type" : "ID"
+  }, {
+    "id" : "insurancePolicy",
+    "column" : "insurancePolicy_id",
+    "ar" : "الوثيقة",
+    "en" : "Policy",
+    "type" : "Reference",
+    "refTo" : "SICustomerInsurancePolicy",
+    "refPath" : "/modules/srvcenter-insurance-and-installments/SICustomerInsurancePolicy.html"
+  }, {
+    "id" : "owner",
+    "columns" : [ "ownerActualCode", " ownerCode", " ownerEntityType", " ownerId" ],
+    "ar" : " مالك المستند",
+    "en" : " Document Owner",
+    "type" : "Genericreference"
+  }, {
+    "id" : "physicalStatus",
+    "column" : "physicalStatus",
+    "ar" : "الحالة",
+    "en" : "Status",
+    "type" : "Enum",
+    "enum" : "SIInsurancePolicyPhysicalStatus"
+  }, {
+    "id" : "valueDate",
+    "column" : "valueDate",
+    "ar" : "التاريخ الفعلي",
+    "en" : "Value Date",
+    "type" : "Date"
+  } ]
+}
