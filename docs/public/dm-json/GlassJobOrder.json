@@ -1204,6 +1204,10 @@
     "type" : "Enum",
     "enum" : "WMSPriority"
   }, {
+    "id" : "pickingZone",
+    "column" : "pickingZone_id",
+    "type" : "Reference"
+  }, {
     "id" : "preventUsage",
     "column" : "preventUsage",
     "ar" : "منع الاستعمال",

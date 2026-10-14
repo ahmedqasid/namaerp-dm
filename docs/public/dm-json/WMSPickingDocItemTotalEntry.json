@@ -59,6 +59,10 @@
     "type" : "Enum",
     "enum" : "WMSPriority"
   }, {
+    "id" : "pickingZone",
+    "column" : "pickingZone_id",
+    "type" : "Reference"
+  }, {
     "id" : "requiredQty",
     "column" : "requiredQty",
     "ar" : "الكمية المطلوبة",

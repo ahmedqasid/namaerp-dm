@@ -3780,6 +3780,32 @@
       "refTo" : "LargeData",
       "refPath" : "/modules/system-tables/LargeData.html"
     }, {
+      "id" : "loadingPointsDetails.b1",
+      "column" : "b1",
+      "ar" : "Boolean 1",
+      "en" : "Boolean 1",
+      "type" : "Boolean"
+    }, {
+      "id" : "loadingPointsDetails.b2",
+      "column" : "b2",
+      "ar" : "Boolean 2",
+      "en" : "Boolean 2",
+      "type" : "Boolean"
+    }, {
+      "id" : "loadingPointsDetails.b3",
+      "column" : "b3",
+      "ar" : "Boolean 3",
+      "en" : "Boolean 3",
+      "type" : "Boolean"
+    }, {
+      "id" : "loadingPointsDetails.container",
+      "column" : "container_id",
+      "ar" : "الحاوية",
+      "en" : "Container",
+      "type" : "Reference",
+      "refTo" : "FRMContainer",
+      "refPath" : "/modules/frm/FRMContainer.html"
+    }, {
       "id" : "loadingPointsDetails.containerType",
       "column" : "containerType_id",
       "ar" : "نوع الحاوية",
@@ -3787,6 +3813,24 @@
       "type" : "Reference",
       "refTo" : "FRMContainerType",
       "refPath" : "/modules/frm/FRMContainerType.html"
+    }, {
+      "id" : "loadingPointsDetails.date1",
+      "column" : "date1",
+      "ar" : "تـــاريخ 1",
+      "en" : "Date 1",
+      "type" : "Date"
+    }, {
+      "id" : "loadingPointsDetails.date2",
+      "column" : "date2",
+      "ar" : "تـــاريخ 2",
+      "en" : "Date 2",
+      "type" : "Date"
+    }, {
+      "id" : "loadingPointsDetails.date3",
+      "column" : "date3",
+      "ar" : "تاريخ 3",
+      "en" : "Date3",
+      "type" : "Date"
     }, {
       "id" : "loadingPointsDetails.gateInPort",
       "column" : "gateInPort_id",
@@ -3818,6 +3862,12 @@
       "column" : "lineNumber",
       "type" : "Integer"
     }, {
+      "id" : "loadingPointsDetails.loadingDate",
+      "column" : "loadingDate",
+      "ar" : "تاريخ التحميل",
+      "en" : "Loading Date",
+      "type" : "Date"
+    }, {
       "id" : "loadingPointsDetails.loadingPoint",
       "column" : "loadingPoint_id",
       "ar" : "نقطه التحميل",
@@ -3825,6 +3875,12 @@
       "type" : "Reference",
       "refTo" : "ShippingPort",
       "refPath" : "/modules/frm/ShippingPort.html"
+    }, {
+      "id" : "loadingPointsDetails.loadingTime",
+      "column" : "loadingTime",
+      "ar" : "توقيت التحميل",
+      "en" : "Loading Time",
+      "type" : "Time"
     }, {
       "id" : "loadingPointsDetails.qty.uom",
       "column" : "qtyUom_id",
@@ -3840,11 +3896,71 @@
       "en" : "Value",
       "type" : "Decimal"
     }, {
+      "id" : "loadingPointsDetails.ref1",
+      "columns" : [ "ref1ActualCode", " ref1Code", " ref1EntityType", " ref1Id" ],
+      "ar" : "مرجع 1",
+      "en" : "Reference 1",
+      "type" : "Genericreference"
+    }, {
+      "id" : "loadingPointsDetails.ref2",
+      "columns" : [ "ref2ActualCode", " ref2Code", " ref2EntityType", " ref2Id" ],
+      "ar" : "مرجع 2",
+      "en" : "Reference 2",
+      "type" : "Genericreference"
+    }, {
+      "id" : "loadingPointsDetails.ref3",
+      "columns" : [ "ref3ActualCode", " ref3Code", " ref3EntityType", " ref3Id" ],
+      "ar" : "مرجع 3",
+      "en" : "Reference 3",
+      "type" : "Genericreference"
+    }, {
       "id" : "loadingPointsDetails.remark",
       "column" : "remark",
       "ar" : "ملحوظة",
       "en" : "Remark",
       "type" : "BigText"
+    }, {
+      "id" : "loadingPointsDetails.remarks2",
+      "column" : "remarks2",
+      "ar" : "ملاحظات 2",
+      "en" : "Remarks 2",
+      "type" : "BigText"
+    }, {
+      "id" : "loadingPointsDetails.remarks3",
+      "column" : "remarks3",
+      "ar" : "ملاحظات 3",
+      "en" : "Remarks 3",
+      "type" : "BigText"
+    }, {
+      "id" : "loadingPointsDetails.remarks4",
+      "column" : "remarks4",
+      "ar" : "ملاحظات 4",
+      "en" : "Remarks 4",
+      "type" : "BigText"
+    }, {
+      "id" : "loadingPointsDetails.remarks5",
+      "column" : "remarks5",
+      "ar" : "ملاحظات 5",
+      "en" : "Remarks 5",
+      "type" : "BigText"
+    }, {
+      "id" : "loadingPointsDetails.text1",
+      "column" : "text1",
+      "ar" : "نــــص 1",
+      "en" : "Text 1",
+      "type" : "Text"
+    }, {
+      "id" : "loadingPointsDetails.text2",
+      "column" : "text2",
+      "ar" : "نـــــص 2",
+      "en" : "Text 2",
+      "type" : "Text"
+    }, {
+      "id" : "loadingPointsDetails.text3",
+      "column" : "text3",
+      "ar" : "نص 3",
+      "en" : "text3",
+      "type" : "Text"
     }, {
       "id" : "loadingPointsDetails.timing",
       "column" : "timing",

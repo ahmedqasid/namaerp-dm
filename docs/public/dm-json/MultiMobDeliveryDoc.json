@@ -665,6 +665,18 @@
       "refTo" : "Sector",
       "refPath" : "/modules/basic/Sector.html"
     }, {
+      "id" : "details.externalCustomerCode",
+      "column" : "externalCustomerCode",
+      "ar" : "كود العميل الخارجي",
+      "en" : "External Customer Code",
+      "type" : "Text"
+    }, {
+      "id" : "details.externalCustomerName",
+      "column" : "externalCustomerName",
+      "ar" : "اسم العميل الخارجي",
+      "en" : "External Customer Name",
+      "type" : "Text"
+    }, {
       "id" : "details.id",
       "column" : "id",
       "type" : "ID"
@@ -735,6 +747,18 @@
       "en" : "Package 7",
       "type" : "Decimal"
     }, {
+      "id" : "details.receiverCode",
+      "column" : "receiverCode",
+      "ar" : "كود المرسل إليه",
+      "en" : "Receiver Code",
+      "type" : "Text"
+    }, {
+      "id" : "details.receiverName",
+      "column" : "receiverName",
+      "ar" : "اسم المستلم",
+      "en" : "Receiver Name",
+      "type" : "Text"
+    }, {
       "id" : "details.region",
       "column" : "region_id",
       "ar" : "منطقة جغرافيه",
@@ -742,6 +766,12 @@
       "type" : "Reference",
       "refTo" : "AddressRegion",
       "refPath" : "/modules/basic/AddressRegion.html"
+    }, {
+      "id" : "details.remark",
+      "column" : "remark",
+      "ar" : "ملحوظة",
+      "en" : "Remark",
+      "type" : "BigText"
     }, {
       "id" : "details.remarks",
       "column" : "remarks",

@@ -1075,6 +1075,10 @@
     "type" : "Enum",
     "enum" : "WMSPriority"
   }, {
+    "id" : "pickingZone",
+    "column" : "pickingZone_id",
+    "type" : "Reference"
+  }, {
     "id" : "posCreationDateTime",
     "column" : "posCreationDateTime",
     "ar" : "تاريخ ووقت الإنشاء بنقاط البيع",

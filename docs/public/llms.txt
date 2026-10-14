@@ -2138,6 +2138,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [EntityVersion](https://dm.namasoft.com/dm-json/EntityVersion.json)
 - [EntityWithCriteriaLine](https://dm.namasoft.com/dm-json/EntityWithCriteriaLine.json)
 - [ExcludedInstallmentsTypes](https://dm.namasoft.com/dm-json/ExcludedInstallmentsTypes.json)
+- [ExternalDeliveryOrder](https://dm.namasoft.com/dm-json/ExternalDeliveryOrder.json): External Delivery Order / أمر توصيل خارجي
 - [ExtractCostSourceEntry](https://dm.namasoft.com/dm-json/ExtractCostSourceEntry.json)
 - [FALCItemExpenseLine](https://dm.namasoft.com/dm-json/FALCItemExpenseLine.json)
 - [FALCScheduledPayLine](https://dm.namasoft.com/dm-json/FALCScheduledPayLine.json)
@@ -2289,6 +2290,7 @@ Entities are grouped below by module. Each heading carries the module slug, whic
 - [PendingTaskSchedule](https://dm.namasoft.com/dm-json/PendingTaskSchedule.json)
 - [PeriodicRewardPointsAmountSpentSysEntry](https://dm.namasoft.com/dm-json/PeriodicRewardPointsAmountSpentSysEntry.json)
 - [PeriodicRewardPointsGrantDocumentEntry](https://dm.namasoft.com/dm-json/PeriodicRewardPointsGrantDocumentEntry.json)
+- [PickingZone](https://dm.namasoft.com/dm-json/PickingZone.json): Picking Zone / منطقة التجهيز
 - [PosConfigRequestAuthorizationLine](https://dm.namasoft.com/dm-json/PosConfigRequestAuthorizationLine.json)
 - [PosMinChargeLine](https://dm.namasoft.com/dm-json/PosMinChargeLine.json)
 - [PosReturnFromInvoiceEntry](https://dm.namasoft.com/dm-json/PosReturnFromInvoiceEntry.json)

@@ -5404,6 +5404,12 @@
     "ar" : "معرض خارجي",
     "en" : "External Agency"
   }, {
+    "name" : "ExternalDeliveryOrder",
+    "table" : "ExternalDeliveryOrder",
+    "module" : "system-tables",
+    "ar" : "أمر توصيل خارجي",
+    "en" : "External Delivery Order"
+  }, {
     "name" : "ExtractCostSourceEntry",
     "table" : "ExtractCostSourceEntry",
     "module" : "system-tables"
@@ -15812,6 +15818,19 @@
     "module" : "supplychain-sales",
     "ar" : "قواعد السحب",
     "en" : "Pick Rules"
+  }, {
+    "name" : "PickingZone",
+    "table" : "PickingZone",
+    "module" : "system-tables",
+    "ar" : "منطقة التجهيز",
+    "en" : "Picking Zone",
+    "details" : [ {
+      "id" : "locators",
+      "table" : "PickingZoneLocatorLine"
+    }, {
+      "id" : "targets",
+      "table" : "PickingZoneTargetLine"
+    } ]
   }, {
     "name" : "PickupPlan",
     "table" : "PickupPlan",
